@@ -1,6 +1,6 @@
 {
     "localeCode": "ja",
-    "authors": ["orange", "Melnus", "Aesc", "kazu", "zozokasu"],
+    "authors": ["orange", "Melnus", "Aesc", "kazu", "Rabbuttz", "zozokasu"],
     "messages": {
         "General.OK": "OK",
         "General.Start": "開始",
@@ -379,8 +379,8 @@
         "Indicator.ServerStatus": "クラウドステータス",
         "Indicator.ServerStatus.Good": "良好",
         "Indicator.ServerStatus.Slow": "重い",
-        "Indicator.ServerStatus.Down": "落ちてる！",
-        "Indicator.ServerStatus.NoInternet": "インターネット無し",
+        "Indicator.ServerStatus.Down": "サーバーダウン",
+        "Indicator.ServerStatus.NoInternet": "インターネットなし",
 
         "Indicator.Sync.AllSynced": "シンク完了",
         "Indicator.Sync.SyncingItems": "{item_count,plural, other {# 個のアイテムを}}シンク中<nobr>({item_percent} %)",
@@ -1683,12 +1683,14 @@
         "CloudHome.Info.StorageUsed": "ストレージ使用量:",
 
         "CloudHome.Info.DashInfoTab.Title": "ようこそ！",
+
         "CloudHome.Info.DashInfoDesktop": "～Resoniteかんたんチュートリアル～<br>その１ Escキーを押すと<i><color=hero.purple>ダッシュメニュー</color></i>が開きます。 フレンドやワールド一覧など、大事な機能はここに集約されています。<br><br>その2 このディスプレイには\"もしも\"の時に役立つ情報が書かれています。<br>一度目を通しておくことをお勧めします！ 「閉じる」ボタンをクリックするとこのメニューを閉じられます。",
         "CloudHome.Info.DashInfoVR": "～Resoniteかんたんチュートリアル～<br>その１ BまたはYボタンを押すと<i><color=hero.purple>ダッシュメニュー</color></i>が開きます。 フレンドやワールド一覧など、大事な機能はここに集約されています。。<br><br>その2 このディスプレイには\"もしも\"の時に役立つ情報が書かれています。<br>一度目を通しておくことをお勧めします！ 「閉じる」ボタンをクリックするとこのメニューを閉じられます。",
         "CloudHome.Info.DashInfoVRNoButtons": "～Resoniteかんたんチュートリアル～<br>その１ 円が一周するまでメニューボタンを押し続けると<i><color=hero.purple>ダッシュメニュー</color></i> が開きます。 フレンドやワールド一覧など、大事な機能はここに集約されています。<br><br>その2 このディスプレイには\"もしも\"の時に役立つ情報が書かれています。<br>一度目を通しておくことをお勧めします！ 「閉じる」ボタンをクリックするとこのメニューを閉じられます。",
 
+
         "CloudHome.Info.GoToWiki": "Wikiを見る！",
-        "CloudHome.Info.GoToDiscord": "Wikiを見る！",
+        "CloudHome.Info.GoToDiscord": "Discordを見る！",
 
         "CloudHome.Info.ModerationTab.Title": "モデレーション",
         "CloudHome.Info.ModerationTab.Content": "我々が重視するもの、それはユーザー皆様の安全です。 サポートを必要とする場合、または通報の際は <u><color=hero.cyan>モデレーションポータル</color></u><sprite name=hyperlink>にアクセスして<br>モデレーションチケットを発行してください。<br><br>有志で活動するモデレーターチーム<sprite name=modbadge>が<br>皆様やコミュニティの安全を守り抜きます！ お問い合わせの他、ガイドラインに違反した行為を目撃した際は、<br>モデレーションチケットの発行にてお知らせください。",
@@ -1728,7 +1730,8 @@
 
         "StickyNote.SpinMe": "クルクルしてみ？",
         "StickyNote.FruitPlate": "<size=1500>増える増える 不思議な果物</size>",
-        "StickyNote.EmptyForYou": "好きな物<br>飾ってね ❤",
+
+        "StickyNote.EmptyForYou": "好きな物<br>飾ってね :)",
         "StickyNote.RelevantLinks": "関連リンク！<br><--<br><br><size=500>「接続書」などと言う人がいるらしい</size>",
         "StickyNote.SunTool": "太陽を 動かしたいよう",
         "StickyNote.Bow": "弓を引いて 的を射抜け！",
