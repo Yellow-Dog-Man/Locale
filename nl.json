@@ -547,17 +547,25 @@
         "Contacts.AcceptRequest": "Accepteer Verzoek",
         "Contacts.IgnoreRequest": "Negeer Verzoek",
         "Contacts.Invite": "Nodig Hier Uit",
+        "Contacts.RevokeInvite": "Uitnodeging Intrekken",
         "Contacts.BanFromAllSessions": "Verban van mijn gehoste sessies",
         "Contacts.UnbanFromAllSessions": "Ontban van mijn gehoste sessies",
         "Contacts.BanFromCurrentWorld": "Verban uit huidige wereld",
         "Contacts.UnbanFromCurrentWorld": "Ontban uit huidige wereld",
         "Contacts.RecordingVoiceMessage": "Neemt Stem Op...",
+        "Contacts.Unblocked" : "Ongeblokkeerd",
+        "Contacts.AvatarBlock" : "Blokkeer Avatar",
+        "Contacts.MutualBlock" : "Wederzijdse Blok",
+        "Contacts.SelfAccount": "Mijn Account",
+        "Contacts.SearchPrompt": "Contacten Zoeken...",
+        "Contacts.WriteMessage": "Schrijf Een Bericht...",
 
         "Contacts.InSession": "In {name}",
         "Contacts.InPrivate": "In privéwereld",
-
+        "Contacts.InContactsOnly": "In Alleen Contacten Wereld",
         "Contacts.InHidden": "In Verborgen wereld",
-
+        "Contacts.InHiddenContactsOnly": "In Veborgen, Alleen Contacten Wereld",
+        "Contacts.InHiddenContactsPlus": "In Veborgen, Contacten+ Wereld",
         "Contacts.InLAN": "In LAN Wereld",
         "Contacts.UsingDifferentVersion": "Gebruikt Versie {version}",
         "Contacts.RequestSent": "Verzoek verzonden",
@@ -566,14 +574,13 @@
         "Contacts.Blocked": "Geblokkeerd",
         "Contacts.SearchResult": "Zoekresultaat",
         "Contacts.Bot": "Bot-account",
+        "Contacts.Migrated": "Contact Is Niet Gemigreerd",
 
         "Notifications.IsOnline": "Is nu online",
         "Notifications.IsOnlineOnDifferentVersion": "Is nu online <size=75%>(Met versie: {version})</size>",
         "Notifications.ReceivedContactRequest": "ContactVerzoek Gekregen",
         "Notifications.ReceivedInvite": "Nodigt je uit in:",
         "Notifications.ReceivedItem": "Heeft je een item gestuurd:",
-        "Notifications.ReceivedTip": "Fooi Ontvangen {amount} {token}",
-        "Notifications.SentTip": "Verzonden Fooi {amount} {token}",
         "Notifications.VoiceMessage": "Stembericht Verstuurd",
 
         "Undo.SetField": "Veld instellen {field_name} naar {value}",
@@ -610,6 +617,10 @@
         "Undo.ExtractMaterialsFromHierarchy": "Materialen uit hiërarchie halen",
         "Undo.BatchConvertMaterials": "Batch convert materialen",
 
+        "Tooltips.Brush.ChangeColor" : "Verander Kleur",
+        "Tooltips.Brush.IncrementSize" : "Afmeting vergroten",
+        "Tooltips.Brush.DecrementSize" : "Afmeting Verkleinen",
+        
         "Tooltips.Dev.CreateNew": "Maak nieuw...",
         "Tooltips.Dev.Selection": "Selectie: {mode}",
         "Tooltips.Dev.DevMode.Off": "Ontwikkelaarsmodus: Uit",
@@ -619,6 +630,14 @@
         "Tooltips.Dev.DestroySelected": "Verwijder geselecteerde",
         "Tooltips.Dev.ConfirmDestroySelected": "ECHT Geselecteerde Vernietigen",
 
+        "Tooltips.Dev.GizmoOptions" : "Gizmo Opties",
+        "Tooltips.Dev.SelectParent" : "Seleceer Parent",
+        "Tooltips.Dev.LocalSpace" : "Locale Ruimte",
+        "Tooltips.Dev.GlobalSpace" : "Globale Ruimte",
+        "Tooltips.Dev.Translation" : "Vertaling",
+        "Tooltips.Dev.Rotation" : "Draai",
+        "Tooltips.Dev.Scale" : "Afmeting",
+        
         "Tooltip.Color.Picker": "Kleur kiezer",
 
         "Tooltip.GrabbableSetter.Scalable": "Schaalbaar instellen",
@@ -657,6 +676,8 @@
 
         "Tooltip.Mesh.Edit": "Bewerk Mesh",
 
+        "Tooltip.Cartridge.Eject": "Bol Uitwerpen",
+        
         "Tooltip.Microphone.Format.WAV": "WAV",
         "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
         "Tooltip.Microphone.Format.FLAC": "FLAC",
@@ -664,6 +685,25 @@
         "Tooltip.Microphone.ModePress": "Druk om te starten/stoppen met opnemen",
         "Tooltip.Microphone.SourceRaw": "Rauw",
         "Tooltip.Microphone.SourceFiltered": "Gefilterd & Genormaliseerd",
+
+        "Tooltip.ProtoFlux.Drive" : "Besturen",
+        "Tooltip.ProtoFlux.Source" : "Bron",
+        "Tooltip.ProtoFlux.Reference" : "Referentie",
+        "Tooltip.ProtoFlux.Write" : "Schrijf",
+        "Tooltip.ProtoFlux.Proxy" : "Proxy",
+        "Tooltip.ProtoFlux.CreateLocal" : "Lokaal Creëren",
+        "Tooltip.ProtoFlux.CreateStore" : "Opslag Creëren",
+        "Tooltip.ProtoFlux.CreateDataModelStore" : "Datamodelopslag Creëren",
+        "Tooltip.ProtoFlux.Overview" : "Schakel De OVerzichtsmodus In",
+        "Tooltip.ProtoFlux.NodeBrowser" : "Nodes Zoeken",
+        "Tooltip.ProtoFlux.PackInPlace" : "Inplaats Verpakken",
+        "Tooltip.ProtoFlux.PackInto" : "Pak In <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.Unpack" : "Uitpakken <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.ExplicitCast" : "Expliciet Cast\n<size=50%>(<color=red>Warning:</color> Potential Data Loss)</size>",
+
+        "ProtoFlux.UI.Call" : "Roepen",
+        "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> Roepen",
+        "ProtoFlux.UI.NodeBrowser.Title" : "ProtoFlux Nodes",
 
         "CreateNew.Back": "<<< <i>Terug</i>",
         "CreateNew.EmptyObject": "Leeg Object",
@@ -678,10 +718,12 @@
         "CreateNew.Object.VideoPlayer": "Video Speler",
         "CreateNew.Object.SpawnArea": "Spawn gebied",
         "CreateNew.Object.SpawnPoint": "Spawn Punt",
+        "CreateNew.Object.UIXCanvas": "UIX Canvas",
+        "CreateNew.Object.Facet": "Facet",
 
         "CreateNew.Object.FogVolume": "Mist volume",
         "CreateNew.Object.FogVolume.Additive": "Additief",
-
+        "CreateNew.Object.FogVolume.Alpha": "Alfa",
         "CreateNew.Object.FogVolume.Multiplicative": "Multiplicatief",
         "CreateNew.Object.FogVolume.Gradient": "KleurOvergang",
 
@@ -689,29 +731,36 @@
         "CreateNew.Text.Basic": "Eenvoudig",
         "CreateNew.Text.Outline": "Omlijning",
 
+        "CreateNew.Editor": "Bewerker",
         "CreateNew.Editor.UserInspector": "Gebruikers Inspector",
         "CreateNew.Editor.LightSourcesWizard": "Wereldlichtbronnen Wizard",
         "CreateNew.Editor.TextRendererWizard": "Wereld Text Renderer Wizard",
         "CreateNew.Editor.AssetOptimizationWizard": "Asset Optimalisatie Wizard",
-
+        "CreateNew.Editor.CubemapCreator": "Cubemap Creërder",
         "CreateNew.Editor.ReflectionProbes": "Reflectie Probe Wizard",
 
+        "CreateNew.3DModel": "3D Model",
         "CreateNew.3DModel.Triangle": "Driehoek",
         "CreateNew.3DModel.Box": "Kubus",
         "CreateNew.3DModel.Sphere": "Bol",
-
+        "CreateNew.3DModel.Capsule": "Capsule",
         "CreateNew.3DModel.Cone": "Kegel",
-
+        "CreateNew.3DModel.Cylinder": "Cilinder",
         "CreateNew.3DModel.Quad": "Vierhoek",
+        "CreateNew.3DModel.Grid": "Raster",
+        "CreateNew.3DModel.Torus": "Torus",
 
+        "CreateNew.Collider": "Collider",
         "CreateNew.Collider.Box": "Kubus",
         "CreateNew.Collider.Sphere": "Bol",
-
+        "CreateNew.Collider.Capsule": "Capsule",
+        "CreateNew.Collider.Cylinder": "Cilinder",
         "CreateNew.Collider.Cone": "Kegel",
+        "CreateNew.Collider.Mesh": "Mesh",
 
         "CreateNew.Light": "Licht",
         "CreateNew.Light.Point": "Punt",
-
+        "CreateNew.Light.Spot": "Spot",
         "CreateNew.Light.Directional": "Directioneel",
 
         "CreateNew.Materials": "Materialen",
@@ -721,6 +770,7 @@
         "CreateNew.Directory.Error.LongName": "Naam is te lang:",
         "CreateNew.Directory.Error.InvalidName": "Ongeldige naam:",
 
+        "AvatarCreator.Title": "Avatar Creërder",
         "AvatarCreator.Instructions": "Lijn de avatarobjecten uit met de referenties van de headset en controller (optioneel) en druk op Maken om ze naar een avatar te converteren",
         "AvatarCreator.UseSymmetry": "Gebruik symmetrie",
         "AvatarCreator.ShowToolAnchors": "Toon gereedschapsankers",
@@ -752,12 +802,13 @@
         "Importer.Image.Prompt": "Wat importeert u?",
         "Importer.Image.Regular": "Afbeelding / textuur",
         "Importer.Image.Screenshot": "{appName} Foto<size=50%>(Hier opgenomen)</size>",
-
+        "Importer.Image.PixelArt" : "Pixel Art",
         "Importer.Image.360": "360 foto / skybox",
         "Importer.Image.StereoPhoto": "Stereo Foto",
         "Importer.Image.Stereo360": "Stereo 360 Foto",
         "Importer.Image.180": "180 Foto",
         "Importer.Image.Stereo180": "Stereo 180 Foto",
+        "Importer.Image.LUT": "LUT",
 
         "Importer.ImageVideo.LayoutPrompt": "Welke lay-out gebruikt het?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Zij aan Zij LR",
@@ -765,8 +816,12 @@
         "Importer.ImageVideo.LayoutVerticalLR": "Boven elkaar Links-Rechts",
         "Importer.ImageVideo.LayoutVerticalRL": "Boven elkaar Rechts-Links",
 
+        "Importer.Model.Title": "Importeer Model",
         "Importer.Model.Prompt": "Wat importeert u?",
-
+        "Importer.Model.Regular": "3D Model",
+        "Importer.Model.3DScan": "3D Scan",
+        "Importer.Model.CAD": "CAD Model",
+        "Importer.Model.PointCloud": "Point Cloud",
         "Importer.Model.VertexColorModel": "Vertex Gekleurd Model",
         "Importer.Model.AdvancedSettings": "Geavanceerde Instellingen",
         "Importer.Model.ModelKindPrompt": "Wat voor soort 3D Model?",
@@ -827,21 +882,32 @@
         "Importer.Model.Advanced.PositionAtOrigin": "Positioneer Op Oorsprong",
         "Importer.Model.Advanced.AssetsOnObject": "Plaats Assets Op Object",
 
+        "Importer.Video.Title": "Importeer Video",
         "Importer.Video.Prompt": "Wat wil je Importeren?",
-
-        "Importer.Video.Depth": "Diepte video",
-
+        "Importer.Video.Regular": "Video",
+        "Importer.Video.360": "360° Video",
+        "Importer.Video.Stereo": "Stereo video",
+        "Importer.Video.Stereo360": "Stereo 360° Video",
+        "Importer.Video.Depth": "Diepte Video",
+        "Importer.Video.180": "180° Video",
+        "Importer.Video.Stereo180": "Stereo 180° Video",
         "Importer.Video.Depth.Prompt": "Diepte Preset",
         "Importer.Video.Depth.Default": "Standaard",
 
+        "Exporter.Title": "Exporteer",
+        "Exporter.FileName": "Bestandsnaam:",
+        "Exporter.ExportAs": "Exporteer Als:",
+        "Exporter.Export": "Exporteer",
+        "Exporter.Exporting": "Exporteeren..",
+        
         "NewWorld.Title": "Nieuwe Wereld",
-
+        "NewWorld.SessionTitle": "Newe Sessie",
         "NewWorld.Template": "Wereld Sjabloon:",
         "NewWorld.CustomPreset": "Aangepast Sjabloon:",
         "NewWorld.SessionSettings": "Sessie Instellingen:",
         "NewWorld.UnsafeMode": "Onveilige Modus:",
         "NewWorld.Port": "Poort:",
-
+        "NewWorld.AutoPort": "Automatisch:",
         "NewWorld.DefaultName": "{name} Wereld",
 
         "FullBody.Title": "Full Body Calibratie",
@@ -910,7 +976,7 @@
         "CameraControl.Take360Photo": "360 Foto",
 
         "CameraControl.Mode.SmoothPOV": "Gestabiliseerd POV",
-
+        "CameraControl.Mode.ThirdPerson": "Derde Persoon",
         "CameraControl.Mode.Group": "Groep",
         "CameraControl.Mode.World": "Wereld",
         "CameraControl.Mode.Manual": "Manueel",
@@ -940,12 +1006,16 @@
         "CameraControl.Positioning.AngleOffset": "Hoek offset",
         "CameraControl.Positioning.Distance": "Afstand",
         "CameraControl.Positioning.Height": "Hoogte",
+        "CameraControl.Positioning.FirstPersonPitch": "Hoek Voor Eerste Persoon",
+        "CameraControl.Positioning.FirstPersonRoll": "Draai Voor Eerste Persoon",
+        "CameraControl.Positioning.FirstPersonOffset": "Compensatie Voor Eerste Persoon",
+        "CameraControl.Positioning.Reset": "Reset",
 
         "CameraControl.Control.AnyoneCanInteract": "Iedereen kan Bedienen",
         "CameraControl.Control.RenderPreviewForEveryone": "Render Preview Voor Iedereen",
         "CameraControl.Control.RenderPrivateUI": "Render Privé UI",
         "CameraControl.Control.MotionBlur": "Bewegingsonscherpte",
-
+        "CameraControl.Control.ScreenSpaceReflections": "Reflectie Van De Schermruimte",
         "CameraControl.Control.SpawnPhotoInWorld": "Spawn Foto in De wereld",
         "CameraControl.Control.FlipPreview": "Voorbeeld Omdraaien",
         "CameraControl.Control.GroupDetectionRadius": "Groepsdetectieradius: {n} m",
@@ -954,6 +1024,7 @@
         "CameraControl.Control.AngleSmoothSpeed": "Hoek Smooth Snelheid: {n}",
         "CameraControl.Control.FramingSmoothSpeed": "Framing Smooth Snelheid: {n}",
 
+        "CameraControl.OBS.IP": "OBS Websocket IP:",
         "CameraControl.OBS.Password": "OBS Wachtwoord (optioneel):",
         "CameraControl.OBS.Connect": "Verbind",
         "CameraControl.OBS.Instructions": "Zorg ervoor dat OBS actief is en dat de obs-websocket plug-in is geïnstalleerd",
@@ -971,8 +1042,13 @@
         "CameraControl.OBS.DisconnectedPage": "OBS Verbinding Verbroken",
         "CameraControl.OBS.ReturnToConnect": "Ga terug naar de verbindingspagina",
         "CameraControl.OBS.AutoMirror": "Auto Spiegelen bij Opnemen/Streamen",
-
+        "CameraControl.OBS.Bitrate": "Bitrate: {n}/s",
+        "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "Verloren frames: {n}",
+        "CameraControl.OBS.Idle": "INACTIEF",
+        "CameraControl.OBS.Live": "LIVE",
+        "CameraControl.OBS.Recording": "REC",
+        "CameraControl.OBS.OpenInstallerReason": "Bij Deze Webpagina Kan Je De OBS websocket plugin Downloaden",
 
         "CameraControl.OBS.Streaming.Start": "Start Stream",
         "CameraControl.OBS.Streaming.Starting": "Stream Starten...",
@@ -992,6 +1068,7 @@
         "Settings.HideAllTutorials": "Verberg Alle Tutorials",
         "Settings.ShowInteractionHints": "Laat Interactie Hints Zien",
         "Settings.PrimaryController": "Primaire Controller",
+        "Settings.Hotswitching": "VR Hotswitching",
         "Settings.AllowStrafing": "Sta Strafing Toe",
         "Settings.UseHeadDirectionForMovement": "Gebruik Hoofd Voor Bewegingsrichting",
         "Settings.SmoothTurn": "Smooth Draaien",
@@ -1015,10 +1092,11 @@
         "Settings.DoNotSendReadStatus": "Stuur geen realtime bericht gelezen status",
         "Settings.MaxConcurrentAssetTransfers": "Max. gelijktijdige asset overdrachten",
         "Settings.AutosaveScreenshotPath": "Pad voor het automatisch opslaan van screenshots",
-
+        "Settings.AutosaveAllScreenshots": "Automatisch Alle Fotos In De Wereld Opslaan",
         "Settings.DebugInputBinding": "Debug Invoer Bindingen",
 
-        "Settings.LaserSmoothing.Speed": "Smooth Snelheid",
+        "Settings.LaserSmoothing.Header": "Laser Verzachtiging",
+        "Settings.LaserSmoothing.Speed": "Snelheid Verzachten",
         "Settings.LaserSmoothing.ModulateStartAngle": "Moduleer de starthoek",
         "Settings.LaserSmoothing.ModulateEndAngle": "Moduleer de eindhoek",
         "Settings.LaserSmoothing.ModulateExponent": "Moduleer Exponent",
@@ -1027,9 +1105,11 @@
         "Settings.Laser.ShowInDesktop": "Laser weergeven in bureaubladmodus",
         "Settings.LaserSmoothing.Reset": "Reset LaserInstellingen",
 
+        "Settings.Audio.Header": "Audio",
+        "Settings.Audio.Input.Title" : "Audio Invoer Apparaten",
         "Settings.Audio.Master": "Hoofdvolume: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Geluidseffecten: {n,number,percent}",
-
+        "Settings.Audio.Multimedia": "Multimedia: {n,number,percent}"
         "Settings.Audio.Voice": "Stem: {n,number,percent}",
         "Settings.Audio.UI": "GebruikersOmgeving: {n,number,percent}",
         "Settings.Audio.DisableVoiceNormalization": "Schakel Stemnormalisatie Uit",
@@ -1048,20 +1128,26 @@
         "Settings.Audio.Monitoring": "Audio-ingang Controleren:",
         "Settings.Audio.SystemDefaultOutput": "Gebruik Systeemstandaard",
 
+        "Settings.Graphics.DesktopFOV": "Desktop Gezichtsveld",
+
+        "Settings.Locale.Title" : "Scherm Taal",
         "Settings.Locale.ChangeLanguage": "Taal Veranderen",
         "Settings.Locale.SelectLanguageHeader": "Selecteer je Taal:",
         "Settings.Locale.DefaultLanguage": "Systeem Standaard",
 
         "Settings.Save": "Instellingen opslaan",
 
+        "Settings.FullBody.Header": "Full Body Tracking:",
         "Settings.FullBody.FeetPositionSmoothing": "Voeten Positie Smoothing",
         "Settings.FullBody.FeetRotationSmoothing": "Voeten Rotatie Smoothing",
         "Settings.FullBody.HipsPositionSmoothing": "Heupen Positie Smoothing",
         "Settings.FullBody.HipsRotationSmoothing": "Heupen Rotatie Smoothing",
 
+        "Settings.Dash.Header": "Menu",
         "Settings.Dash.Curvature": "Kromming",
         "Settings.Dash.OpenCloseSpeed": "Open/Sluit Snelheid",
 
+        "Settings.LeapMotion.Name": "Leap Motion",
         "Settings.LeapMotion.Enabled": "Leap Tracking ingeschakeld",
         "Settings.LeapMotion.HorizontalOffset": "Horizontale Compensatie",
         "Settings.LeapMotion.VerticalOffset": "Verticale Compensatie",
@@ -1080,8 +1166,9 @@
         "Settings.System.KeepOriginalScreenshotFormat": "Behoud Orginele Screenshot Formaat",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "Wanneer Ingeschakeld, worden screenshots niet geconverteerd naar JPG wanneer het wordt opgeslagen in de Documenten map",
 
+        "Security.Hyperlink.Title" : "Externe Link",
         "Security.Hyperlink.Warning": "<b><size=125%>Waarschuwing: Uitgaande hyperlink</size></b>\nJe hebt op een link in een wereld geklikt. Wilt u deze openen? Dit wordt geopend in uw desktopwebbrowser.",
-
+        "Security.Hyperlink.Open": "Openen",
         "Security.Hyperlink.Cancel": "Annuleer",
 
         "Security.HostAccess.Title": "Hosttoegang",
@@ -1092,12 +1179,21 @@
         "Security.HostAccess.Allow": "Toestaan",
         "Security.HostAccess.Deny": "Weigeren",
 
+        "ComponentSelector.Back" : "< (Terug)",
+        "ComponentSelector.Title" : "Componenten",
+        "ComponentSelector.CreateCustomType" : "Aangepaste Type Creëren",
+        "ComponentSelector.CommonGenericTypes" : "Veelvoorkomende Generieke Typen",
+        "ComponentSelector.CustomGenericArguments" : "Aangepaste Generieke Argumenten:",
+        "ComponentSelector.InvalidType" : "Ongeldige type",
+
+        "Inspector.Title" : "Scene Inspector",
         "Inspector.Slot.AttachComponent": "Voeg component toe",
 
         "Inspector.Slot.Axis.X": "X: <b>+</b>Rechts <b>-</b>Links",
         "Inspector.Slot.Axis.Y": "Y: <b>+</b>Omhoog <b>-</b>Omlaag",
         "Inspector.Slot.Axis.Z": "Z: <b>+</b>Vooruit <b>-</b>Achteruit",
 
+        "Inspector.Slot.Reset.Label": "Reset:",
         "Inspector.Slot.Reset.Position": "Positie",
         "Inspector.Slot.Reset.Rotation": "Rotatie",
         "Inspector.Slot.Reset.Scale": "Schaal",
@@ -1108,10 +1204,12 @@
         "Inspector.Slot.BringTo": "Breng naar",
         "Inspector.Slot.BringTo.Undo": "Breng {name} naar gebruiker",
 
+        "Inspector.Slot.ParentUnder.Label": "Onderkoppelen:",
         "Inspector.Slot.ParentUnder.WorldRoot": "Wereld Oorsprong",
-
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Koppel {name} Onder Wereld Oorsprong",
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Lokale gebruikersruimte",
-
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Koppel {name} Onder Lokale Gebruikersruimte",
+        
         "Inspector.Mesh.StatsHeader": "Mesh Statistieken",
         "Inspector.Mesh.VertexCount": "Vertex Hoeveelheid: {n}",
         "Inspector.Mesh.TriangleCount": "Triangle Hoeveelheid: {n}",
@@ -1122,7 +1220,7 @@
         "Inspector.Mesh.ChannelStats": "Normals: {normals}, Tangents: {tangents}, kleuren: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh": "Bak Mesh",
-
+        "Inspector.Mesh.SetupRenderer": "Renderer Instellen",
         "Inspector.Mesh.ResaveMesh": "Mesh opnieuw opslaan",
         "Inspector.Mesh.RecalculateNormals": "Hercalculeer Normals",
         "Inspector.Mesh.RecalculateNormalsSmooth": "Normals opnieuw berekenen (smooth shading)",
@@ -1148,12 +1246,13 @@
 
         "Inspector.Mesh.TrimVertexBoneWeightsTo": "Trim Vertex Botten Gewichten Naar:",
         "Inspector.Mesh.BoneTrimCount": "{n,plural, one {# Bot} other {# Botten}}",
-
+        "Inspector.Mesh.UV_Multiplicator": "Vermenigvuldiger:",
         "Inspector.Mesh.ScaleUVs": "Schaal UVs",
 
         "Inspector.MeshRenderer.MergeByMaterial": "Voeg submeshes samem die het zeldfe materiaal hebben",
         "Inspector.MeshRenderer.SplitByMaterial": "Splits in losse meshes gebaseerd op materiaal",
 
+        "Inspector.MeshCollider.VHACD": "Convex Hull Decomposition (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Vervang door Box Collider",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Update locomototie-modules op de aanwezig gebruikers",
@@ -1163,12 +1262,18 @@
         "Inspector.VHACD.Parameter.Depth": "Diepte",
         "Inspector.VHACD.Parameter.Concavity": "Concaviteit",
         "Inspector.VHACD.Parameter.PlaneDownsampling": "Vlak Downsampling",
-
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling": "Convex Hull Downsampling",
+        "Inspector.VHACD.Parameter.Alpha": "Alpha",
+        "Inspector.VHACD.Parameter.Beta": "Beta",
+        "Inspector.VHACD.Parameter.Gamma": "Gamma",
+        "Inspector.VHACD.Parameter.Delta": "Delta",
+        "Inspector.VHACD.Parameter.PCA": "PCA",
         "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Maximum Vertices Per Hull",
         "Inspector.VHACD.Parameter.MinVolumePerHull": "Minimum Volume Per Hull",
-
+        "Inspector.VHACD.Parameter.ConvexHullApproximation": "Convex Hull Benadering",
+        
         "Inspector.VHACD.DecompositionMode.Header": "Decompositie Mode:",
-
+        "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
         "Inspector.VHACD.DecompositionMode.Tetrahedron": "Viervlak",
 
         "Inspector.VHACD.RunDecomposition": "Begin Decompositie",
@@ -1209,7 +1314,8 @@
 
         "Inspector.Texture.Size": "Formaat: {width} x {height}",
         "Inspector.Texture.Format": "Formaat: {format}, Memory: <nobr>{memory}</nobr>",
-
+        "Inspector.Texture.Variant": "VariantID: {variant}",
+        
         "Inspector.Texture.BakeTexture": "Bak Textuur",
 
         "Inspector.Texture.InvertRGB": "Keer RGB om",
@@ -1223,12 +1329,13 @@
         "Inspector.Texture.AlphaToMask": "Alpha naar Masker",
         "Inspector.Texture.RemoveAlpha": "Verwijder Alpha",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Converteer naar grayscale (gemiddeld)",
-
+        "Inspector.Texture.ConvertToGrayscaleLuminance": "Converteer naar grayscale (luminance)",
         "Inspector.Texture.SwapRG": "Verwissel R en G",
         "Inspector.Texture.SwapRB": "Verwissel R en B",
-
+        "Inspector.Texture.SwapRA": "Verwissel R <--> A",
         "Inspector.Texture.SwapGB": "Verwissel G en B",
-
+        "Inspector.Texture.SwapGA": "Verwissel G <--> A",
+        "Inspector.Texture.SwapBA": "Verwissel B <--> A",
         "Inspector.Texture.AddWhiteBackground": "Witte achtergrond toevoegen",
         "Inspector.Texture.AddBlackBackground": "Zwarte achtergrond toevoegen",
         "Inspector.Texture.Hue": "Tint:",
@@ -1237,7 +1344,7 @@
         "Inspector.Texture.AdjustSaturation": "Saturatie aanpassen",
         "Inspector.Texture.Value": "Waarde:",
         "Inspector.Texture.AdjustValue": "Waarde aanpassen",
-
+        "Inspector.Texture.Gamma": "Gamma:",
         "Inspector.Texture.AdjustGamma": "Pas gamma aan",
         "Inspector.Texture.LongestSide": "Langste zijde:",
         "Inspector.Texture.Resize": "Formaat wijzigen",
@@ -1246,13 +1353,18 @@
         "Inspector.Texture.RotateCW": "Draai 90° CW",
         "Inspector.Texture.RotateCCW": "Draai 90° CCW",
         "Inspector.Texture.Rotate180": "Draai 180°",
-
+        "Inspector.Texture.TrimTransparent" : "Transparentie Trimmen",
+        "Inspector.Texture.TrimByCornerColor" : "Op Hoek Kleur Trimmen",
         "Inspector.Texture.MakeSquare": "Maak vierkant",
         "Inspector.Texture.ToNearestPOT": "Tot de dichtstbijzijnde macht van twee",
         "Inspector.Texture.MakeTileable": "Tileable maken (overgangsratio):",
         "Inspector.Texture.TileLoop": "Tegel (lus)",
         "Inspector.Texture.TileMirror": "Tegel (spiegel)",
-
+        "Inspector.Texture.NormalizeMaxOnly" : "Normaliseren (Alleen Maximaal)",
+        "Inspector.Texture.NormalizeMinMax" : "Normaliseren (minimaal en maximaal)",
+        "Inspector.Texture.NormalizeIndependent" : "Normaliseer RGB onafhankelijk (minimaal en maximaal)",
+        "Inspector.Texture.BleedColorToAlpha" : "Loop kleur uit naar alfa",
+        
         "Inspector.Texture.InvalidFloats": "Diagnose: ongeldige floats",
         "Inspector.Texture.GenerateMetadata": "Diagnose: Genereer Bitmap Metadata",
 
@@ -1300,7 +1412,10 @@
         "Inspector.Rig.ClearDebugVisuals": "Verwijder debug visuals",
 
         "Inspector.AvatarExpression.AutoAssign": "Automatisch Blendshapes toewijzen (met behulp van heuristiek)",
-
+        
+        "Inspector.CharacterController.Warning": "<color=red><size=150%>WAARSCHUWING!</size></color><br>Het is mogelijk om dit onderdeel als een eenvoudig starbody te gebruiken door SimulateRotation aan te vinken. Voordat u dit doet, moet u begrijpen dat het niet voor dit doel is geoptimaliseerd en dat er in de toekomst goede Rigidbody-ondersteuning zal komen.<br>Goede rigidbody-ondersteuning biedt:<br><b>- CPU- en netwerkefficiëntie</b> - met CharacterController krijgt u een hoger CPU-gebruik en een aanzienlijke hoeveelheid netwerkverkeer<br><b>- Beperkingen</b> - u kunt verbindingen, scharnieren, veren en andere beperkingen tussen starre lichamen creëren<br><b >- Soepele simulatie en interacties voor iedereen</b> - CharacterController valt uit als iemand anders probeert te communiceren<br><b>- Nieuwe functies en hulpmiddelen</b> - om het gebruik ervan veel gemakkelijker te maken<br>----------------------<br>Zolang je deze beperkingen begrijpt, veel plezier!",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WAARSCHUWING!</size></color><br>Het is mogelijk om deze component te gebruiken om met referenties te communiceren door hun ID's te gebruiken. Dit proces wordt gewoonlijk 'Ref Hacking' genoemd.<br><br><b>Voordat</b> u dit doet, moet u begrijpen dat dit <b>niet</b> wordt ondersteund en op elk moment kapot kan gaan. Vertrouw niet op deze functionaliteit voor uw creaties.",
+        
         "Inspector.ParticleStyle.CommonTransitions": "Algemene Overgang-sjablonen:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha Fade-in & Fade-out",
         "Inspector.ParticleStyle.AlphaFadeIn": "Alpha Fade-in",
@@ -1308,7 +1423,8 @@
         "Inspector.ParticleStyle.IntensityFadeInOut": "Intensiteit Fade-in & Fade-out",
         "Inspector.ParticleStyle.IntensityFadeIn": "Intensiteit Fade-in",
         "Inspector.ParticleStyle.IntensityFadeOut": "Intensiteit Fade-out",
-
+        "Inspector.ParticleStyle.ClearFades": "Verwijder Fades",
+        
         "Inspector.Collider.SetFromLocalBounds": "Stel in vanuit lokale grenzen",
         "Inspector.Collider.SetFromGlobalBounds": "Stel in vanuit globale grenzen",
         "Inspector.Collider.SetFromLocalBoundsPrecise": "Stel in vanuit lokale grenzen (precies)",
@@ -1317,6 +1433,21 @@
         "Inspector.Collider.SetFromPreciseCylinderBounds": "Stel in vanuit precieze cilinder grenzen",
         "Inspector.Collider.Visualize": "Visualiseer Collider",
 
+        "Inspector.SimpleAwayIndicator.TestAway" : "Zet Naar Weg (debug)",
+        "Inspector.SimpleAwayIndicator.TestRestore" : "Herstel Naar Normaal (debug)",
+        
+        "Inspector.Fields.Drive" : "Besturen",
+        "Inspector.Fields.DriveWriteBack" : "Besturen <size=50%>(Terug Schrijven)</size>",
+
+        "Inspector.Actions.CopyComponent" : "Component copieeren",
+        "Inspector.Actions.MoveComponent" : "Component Verplaatsen",
+
+        "UserInspector.Title" : "Gebruikers Inspector",
+
+        "WorkerInspector.Title" : "{name} Inspector",
+
+        "CreateNew.Title" : "Nieuw",
+   
         "Wizard.General.ProcessRoot": "Procesbasis:",
         "Wizard.General.Result": "Resultaat:",
         "Wizard.General.ErrorNoRoot": "Geen Root Geselecteerd",
@@ -1350,6 +1481,7 @@
         "Wizard.LightSources.Disable": "Uitschakelen",
         "Wizard.LightSources.Destroy": "Verwijderen",
 
+        "Wizard.CubemapCreator.Title": "Cubemap Creërder",
         "Wizard.CubemapCreator.Textures": "Bron Textures:",
         "Wizard.CubemapCreator.TexturesNote": "Let op! Sommige conventies hebben links en rechts verwisseld. Als de cubemap resultaat incorrect is, probeer dan links en rechts te verwisselen.",
         "Wizard.CubemapCreator.PosX": "Positief X (right)",
@@ -1371,14 +1503,17 @@
         "Wizard.ReflectionProbes.BakeProbes": "Bak probes",
         "Wizard.ReflectionProbes.Baking": "Bakken {index} van {count}...",
 
-        "Wizard.TextRenderer.ProcessStandalone": "Proces Standalone",
-        "Wizard.TextRenderer.ProcessUIX": "Proces UIX",
+        "Wizard.TextRenderer.Header": "TeksRenderer Wizard",
+        "Wizard.TextRenderer.ProcessRoot": "Hoofd Process:",
+        "Wizard.TextRenderer.ProcessStandalone": "Zelfstandig Process",
+        "Wizard.TextRenderer.ProcessUIX": "UIX Process",
         "Wizard.TextRenderer.Disabled": "Proces Uitgeschakeld",
         "Wizard.TextRenderer.WithTag": "Met Tag:",
         "Wizard.TextRenderer.ReplaceMaterial": "Vervang Materiaal",
         "Wizard.TextRenderer.ReplaceFont": "Vervang Lettertype",
         "Wizard.TextRenderer.SetColor": "Kleur instellen",
 
+        "Desktop.Controls.Title": "Desktop Bediening",
         "Desktop.OpenKeyboard": "Open Toetsenbord",
         "Desktop.FollowCursor.On": "Volg Cursor: Aan",
         "Desktop.FollowCursor.Off": "Volg Cursor: Uit",
@@ -1387,9 +1522,14 @@
         "Desktop.Brightness": "Helderheid: {n,number,percent}",
         "Desktop.Opacity": "Ondoorzichtigheid: {n,number,percent}",
 
+        "VolumePlaneSlicer.Highlight": "Hoofdpunten",
+        "VolumePlaneSlicer.Slicer": "Snijden",
+
         "Tutorial.Welcome.WelcomeTo": "Welkom Bij",
+          "Tutorial.Welcome.Description" : "Duik in een gloednieuw digitaal universum met oneindige mogelijkheden. Of je hier nu komt om te socialiseren en rond te hangen met mensen over de hele wereld of om iets te bouwen, creëren en ontwikkelen, van prachtige kunst, interactieve avatars en gadgets tot complexe interactieve werelden en games, Resonite is een eindeloos aanpasbare plek waar je welkom bent en waar je een groep zult vinden waarmee je kunt resoneren.<br><br>Voordat je begint met verkennen, begeleiden we je eerst bij het instellen van enkele essentiële zaken, om een ​​soepele ervaring te garanderen. Als u klaar bent, klikt u op de onderstaande knop",
         "Tutorial.Welcome.LetsStart": "Laten We Beginnen!",
 
+        "Tutorial.Welcome.AccountHeader": "{appName} account",
         "Tutorial.Welcome.AccountDescription": "Creëren van een account geeft je 1 GB gratis opslag en geeft je toegang om objecten te kunnen opslaan in je inventaris, Avatars te kunnen favoriteren, Contacten te kunnen toevoegen en berichten kunnen sturen.",
         "Tutorial.Welcome.AccountCreate": "Creëer Account",
         "Tutorial.Welcome.AccountLogin": "Ik heb al een Account",
@@ -1413,19 +1553,26 @@
         "Tutorial.Welcome.SettingsHeight": "Je Hoogte",
         "Tutorial.Welcome.SettingsHeightExamples": "Voorbeelden: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
+        "Tutorial.Welcome.StartTutorialHeader": "Klaar Om Te Onderzoeken?",
         "Tutorial.Welcome.StartTutorialDescription": "We brengen je naar een eenvoudige tutorialwereld om je op weg te helpen met {appName}. je kan ervoor kiezen om de tutorial wereld openbaar te maken, zodat de {appName}-community je kan joinen zodat ze je kunnen helpen, of zodat je zelf kan leren.",
-
+        "Tutorial.Welcome.StartTutorial": "Tutorial Beginnen",
+        
         "Tutorial.CommunityYouTube.Title": "Community YouTube Kanalen",
 
         "Tutorial.UserResources.UserResourcesTitle": "Hulpmiddelen",
         "Tutorial.UserResources.SupportTitle": "Hoe kan ik {appName} ondersteunen",
+        "Tutorial.UserResources.MerchandiseTitle": "{appName} Merch",
 
+        "Tutorial.Intro.BadgesAppTeam": "{appName} Team",
+        "Tutorial.Intro.BadgesModerator": "Moderator",
+        "Tutorial.Intro.BadgesMentor": "Mentor",
         "Tutorial.Intro.BadgesDisabilityHearing": "Slechthorend",
         "Tutorial.Intro.BadgesDisabilityVision": "Slechtziend",
         "Tutorial.Intro.BadgesDisabilitySpeech": "Spraakmoeilijkheden",
-
+        "Tutorial.Intro.BadgesTitle": "Badges",
         "Tutorial.Intro.BadgesDescription": "Badges zijn kleine icoontjes die aspecten van een gebruiker laten zien. Hier zijn een paar belangrijke badges om te onthouden. De invaliditeitsbadges kunnen zelf worden toegewezen via de {appName} bot. Voor meer informatie kan je de {appName} Wiki raadplegen",
-
+        "Tutorial.Intro.HelpSite": "Help",
+        
         "Object.Mirror.Toggle": "Aan/Uitschakelen",
 
         "Twitch.Panel.Button.Commands.Enabled": "Commando's Ingeschakeld",
