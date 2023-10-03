@@ -9,7 +9,7 @@
         "General.Cancel": "Annuleer",
         "General.Continue": "Doorgaan",
         "General.Next": "Volgende",
-
+        "General.Previous": "Vorige",
         "General.Back": "Terug",
         "General.Confirm": "Bevestigen?",
         "General.Loading": "Laden...",
@@ -28,7 +28,17 @@
         "General.Create": "Creëer",
         "General.Creating": "Creëren...",
         "General.Buy": "Koop",
-
+        "General.Yes": "Ja",
+        "General.No": "Nee",
+        "General.ClearSelection" : "Selectie Weg",
+        "General.Off": "Uit",
+        "General.On": "Aan",
+        "General.Understand": "Ik Begrijp Het",
+        "General.Notice" : "Aankondiging",
+        "General.UnderstandEnable" : "Ik Begrijp Het, Zet Aan",
+        "General.Dismiss": "Afwijzen",
+        "General.Edit": "Bewerken",
+       
         "General.UI.SearchPrompt": "Zoeken...",
         "General.UI.SearchPromptLong": "Hier typen...",
         "General.UI.ToggleEditMode": "Schakel Edit Mode",
@@ -45,6 +55,9 @@
         "General.Sort.Ascending": "Oplopend",
         "General.Sort.Descending": "Aflopend",
 
+        "Worlds.Home" : "Thuis",
+        "Worlds.Tutorial" : "Inleiding",
+       
         "Locomotion.Noclip.Name": "Noclip",
         "Locomotion.Noclip.Description": "Eenvoudige vliegmodus zonder colisie, ideaal voor editing.",
         "Locomotion.Teleport.Name": "Teleporteren",
@@ -95,6 +108,28 @@
         "Interaction.ExportFile": "Exporteer Bestand",
         "Interaction.CopyLink": "Kopieer link",
 
+        "Inventory.OpenWorld": "Wereld Openen",
+        "Inventory.Equip": "Dragen",
+        "Inventory.Delete": "Verwijderen",
+        "Inventory.SaveHeld": "Opslaan Vastgehouden Object",
+        "Inventory.Inventories": "Inventaris",
+        "Inventory.Share": "Delen",
+        "Inventory.Unshare": "NietDelen",
+        "Inventory.SaveAvatar": "Avatar Opslaan",
+        "Inventory.Favorite.Home": "Zet Als Huis",
+        "Inventory.Favorite.ProgressBar": "Zet Voortgangsbalk",
+        "Inventory.Favorite.AudioStreamController": "Zet Stream Controller",
+        "Inventory.Favorite.TextDisplay": "Zet Text Scherm",
+        "Inventory.Favorite.VideoPlayer": "Zet Video Speler",
+        "Inventory.Favorite.AudioPlayer": "Zet Geluidsspeler",
+        "Inventory.Favorite.InteractiveCamera": "Zet kamera",
+        "Inventory.Favorite.Keyboard": "Zet Toetsenbord",
+        "Inventory.Favorite.Avatar": "zet Avatar",
+        "Inventory.Favorite.WorldLoadingIndicator": "Zet Laadbalk",
+        "Inventory.Favorite.ColorDialog": "Zet Kleurenkeuzenmenu",
+        "Inventory.Favorite.Hyperlink": "Zet URL Scherm",
+        "Inventory.SpawnFacet": "Facet Spawnen",
+        
         "Dash.Screens.Home": "Thuis",
         "Dash.Screens.Worlds": "Werelden",
         "Dash.Screens.Contacts": "Contacten",
@@ -114,9 +149,16 @@
         "Dash.Exit.Header": "Verlaat {appName}",
         "Dash.Exit.ExitAndSave": "Verlaat en bewaar Thuis",
         "Dash.Exit.ExitAndDiscard": "Verlaat en vernietig Thuis",
+        "Dash.Exit.Sponsor": "Veel Dank Aan {name} Voor Dit Project Te Sponseren!",
+        "Dash.Exit.Sponsor.You": "JOU",
+        "Dash.Exit.Shoutouts": "Dit Project Is Ook Mogelijk Gemaakt Dankzij Deze Mensen:",
+        "Dash.Exit.Shoutouts.AndMore" : " En Nog Veel Meer!",
+        "Dash.Exit.Shoutouts.You" : "{name} (Dat Ben Jij! Bedankt!)",
         "Dash.Exit.ThankYou": "Bedankt en tot ziens!",
         "Dash.Exit.SubmittedBy": "Ingezonden door: {name}",
 
+        "Facets.FPS": "{fps}<size=61.803%> FPS</size>",
+        
         "World.Waiting": "Wachten...",
         "World.HostIsStarting": "Host begint sessie",
         "World.Loading": "Bezig met laden...",
@@ -152,7 +194,10 @@
         "World.Error.InvalidAddress": "Ongeldig adres",
         "World.Error.NoPort": "Geen poort gespecificeerd",
         "World.Error.IncompatibleVersion": "Incompatibele {appName}-versie",
-
+        "World.Error.HostBlocked": "Host Geblokkeerd",
+        "World.Error.HostBlockedDetail": "Je Bent Door De Host Geblokkeerd",
+        "World.Error.WorldCrash": "Wereld Gecrasht",
+        "World.Error.WorldCrashDetail" : "Fatalen Error Met Updaten Van De Wereld",
         "World.Error.Unknown": "Onbekende fout",
 
         "World.Config.Name": "Wereldnaam:",
@@ -240,7 +285,7 @@
         "World.Category.Featured": "Aanbevolen",
         "World.Category.PublishedWorlds": "Gepubliceerde werelden",
         "World.Category.ActiveSessions": "Actieve sessies",
-
+        "World.Category.ContactsSessions": "Contacten Sessie",
         "World.Category.HeadlessSessions": "Hoofdloze Sessies",
         "World.Category.Social": "Sociaal",
         "World.Category.Games": "Spelletjes",
@@ -250,10 +295,12 @@
         "World.Category.Random": "willekeurig",
         "World.Category.MyWorlds": "Mijn werelden",
         "World.Category.Custom": "Aangepast",
+        "World.Category.GroupWorlds": "Groep Werelden",
 
         "World.AccessLevel.Anyone": "Iedereen",
         "World.AccessLevel.RegisteredUsers": "Geregistreerde gebruikers",
-
+        "World.AccessLevel.Contacts": "Contacten",
+        "World.AccessLevel.ContactsPlus": "Contacten+",
         "World.AccessLevel.LAN": "LAN",
         "World.AccessLevel.Private": "Privé (alleen op uitnodiging)",
 
@@ -283,7 +330,7 @@
         "World.Filter.MyWorlds": "Mijn werelden",
         "World.Filter.SessionFiltering": "Sessiefiltering:",
         "World.Filter.MinimumUsers": "Minimale Aantal Gebruikers: <b>{n}</b>",
-
+        "World.Filter.MinimumContacts": "Minimale Aantal Contacten: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Alleen Headless Hosts",
         "World.Filter.MaxAccessLevel": "Maximaal toegangsniveau:",
         "World.Filter.MinimumUptime": "Minimale uptime:",
@@ -299,13 +346,15 @@
         "World.Edit.AccessPatreon": "Patreon Supporters",
         "World.Edit.AccessPublic": "Iedereen (Openbaar)",
 
+        "Tools.AvatarCreator": "Avatar Maker",
         "Tools.FullBodyCalibrator": "Full Body Kalibrator",
         "Tools.CameraStreaming": "Camera / Streamen",
         "Tools.CreateNewWorld": "Creëer een nieuwe wereld",
-
+        "Tools.Debug": "Debug",
         "Tools.StreamAudio": "Audio Streamen",
         "Tools.Setup2FA": "Stel 2FA in",
 
+        "Tools.StreamAudio.Dialog.Title" : "Creen Audio Stream",
         "Tools.StreamAudio.Start": "Begin met streamen",
         "Tools.StreamAudio.Bitrate": "Bitsnelheid: {bitrate} kbps",
         "Tools.StreamAudio.Title": "{username} Audiostream",
@@ -321,18 +370,62 @@
         "Options.Nameplates.All": "Naamplaten: Alle",
         "Options.Nameplates.NonContacts": "Naamplaten: niet-contacten",
         "Options.Nameplates.Hide": "Naamplaten: Verborgen",
+        "Options.Nameplates.DefaultStyle": "Gebruik Normale Naamborden",
+        "Options.Nameplates.CustomStyle": "Sta Aangepaste Naamborden Toe",
 
         "Indicator.OnlineUsers": "Online Gebruikers: {num_registered} (~{num_total})",
-        "Indicator.ServerStatus": "<color=#fff>Server Status:</color> {status, select, Good {Goed} Slow {Traag} Down {Down} NoInternet {Geen Internet}} ({response_ms} ms)",
+        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, Een {user} Anderen {users}} in VR",
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, Een {user} Anderen {users}} in Desktop",
+        
+        "Indicator.ServerStatus.Status": "Cloud Status",
+        "Indicator.ServerStatus.Good": "Goed",
+        "Indicator.ServerStatus.Slow": "Sloom",
+        "Indicator.ServerStatus.Down": "Uitval",
+        "Indicator.ServerStatus.NoInternet": "Geen Internet",
 
         "Indicator.Sync.AllSynced": "Alles gesynchroniseerd",
         "Indicator.Sync.SyncingItems": "Synchroniseren {item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "Uploaden {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError": "Synchronisatiefout! <size=50%>Bekijk de log voor details</size>",
-        "Indicator.Sync.OutOfSpace": "Geen Ruimte Meer! <size=50%>Kan niet synchroniseren</size>",
+        "Indicator.Sync.StorageFull": "Geen Ruimte Meer! <size=50%>Kan niet synchroniseren</size>",
 
+        "Indicator.Storage.StorageFull": "Opslag Vol",
+        "Indicator.Storage.Usage": "{storage_used} Van {storage_max}<br><size=61.803%>Opslag Gebruikt</size>",
+       
         "Indicator.LiveHiddenMessage": "(informatie verborgen terwijl je Live bent)",
 
+        "Login.InvalidCredentials": "Onjuiste Gegevens",
+        "Login.InvalidLogin": "Onjuiste Gegevens",
+
+        "Login.MalformedUID": "Onjuiste Apparaat Informatie",
+        "Login.MissingUID": "Ontbrekende Apparaat Informatie",
+        "Register.MissingUID": "Onjuiste Apparaat Informatie",
+        "Register.MalformedUID": "Onjuiste Apparaat Informatie",
+
+        "Login.MissingLogin": "Geen Informatie Gegeven",
+        "Login.InvalidRecoveryCode": "Onjuiste recovery code",
+        "Login.UnsupportedAuthentication": "Niet Ondersteunde Authenticatiemethode",
+        "Login.EmailNotVerified": "Email Is Niet Geverificeerd",
+        "Login.AccountTempLocked": "Je Account Is Geblokkeerd.",
+        "Login.AccountBanned": "Je Account Is Verbannen.",
+        "Login.DuplicateAccount": "Dubbel Account",
+
+        "Register.MissingRequest": "Ontbrekende Regestratiegegevens",
+        "Register.InvalidEmail": "Ongeldige Email Adres",
+        "Register.MissingUsername": "Ontbrekende Gebruikersnaam",
+        "Register.MissingEmail": "Ontbrekende Email",
+        "Register.UsernameTooLong": "Gebruikersnaam Te Lang",
+        "Register.UsernameContainsAmpersand": "Gebruikersnaam Kan Geen @ Bevatten",
+        "Register.UsernameStartsWithU": "Gebruikersnaam Kan Niet Met U- Beginnen",
+        "Register.InvalidUsername": "Ongeldige Gebruikersnaam",
+        "Register.InvalidDateOfBirth": "Ongeldige GeboortenJaar",
+        "Register.UserContainsBlockedTerms": "Gebruikersnaam Bevat Geblokkeerde Woorden",
+        "Register.MissingPassword": "Ontbrekent Wachtwoord",
+        "Register.InvalidPassword": "Onjuist Wachtwoord",
+        "Register.EmailAlreadyRegistered": "Email Is Al Geregistreerd",
+        "Register.UsernameAlreadyRegistered": "Gebruikersnaam Is Al Geregistreerd",
+        "Register.ErrorCheckingUserId": "Error Met Het Checken Van GebruikersID",
+        
         "Account.Login": "Log in",
         "Account.Logout": "Log uit",
         "Account.Register": "Registreer",
@@ -366,7 +459,17 @@
         "Account.ErrorEmailMismatch": "Emails komen niet overeen!",
         "Account.ErrorLoginError": "Login fout:",
         "Account.RegistrationSuccess": "<size=120%>Succes!</size><br><br>Er is een e-mail verzonden naar {email} met een verificatielink.<br><br>Zodra je deze link opent, loggen we je automatisch in zolang dit bericht open is.<br><br>Als je problemen ondervindt e-mail ons dan naar hello@{appName}.com of stuur een bericht in onze officiële Discord, discord.gg/resonite",
+        "Account.BirthMonth": "Geboortemaand:",
+        "Account.BirthDay": "Geboortedag:",
+        "Account.BirthYear": "Geboortejaar:",
+        "Account.PoliciesAgreement": "Ik Ga Akkoord Met De <color=#22B2FF>terms of service</color> en <color=#22B2FF>privacy beleid</color>",
+        "Account.AlternateMethods" : "Login Plaats Daarvan In Met Een Service Van Derden:",
 
+        "Account.Saml2.Title" : "SAML 2.0",
+        "Account.Saml2.Select" : "Selecteer Alstublieft De SAML 2.0 provider die je wilt gebruiken:",
+        "Account.Saml2.LoggingIn" : "Wachten tot het inloggen is voltooid (check je web browser)...",
+        
+        "Account.TOTP.Title" : "Tweevoudige Authenticatie",
         "Account.TOTP.Initializing": "De status van 2FA controleren voor uw account...",
         "Account.TOTP.Code.Header": "Geheime code",
         "Account.TOTP.Code.Description": "Eerst moet u een geheime code invoeren in uw TOTP-verificatie-app, zoals <b>Authy</b> of <b>Google Authenticator</b>.<br><br>Wij raden aan dit te doen door de QR-code te scannen, maar u kunt de geheime code ook handmatig invoeren. <b>Deel deze code nooit met anderen.</b><br><br>Als u in VR bent, kunt u naar het bureaublad overschakelen door op F8 te drukken.",
@@ -376,7 +479,7 @@
         "Account.TOTP.RecoveryCodes.Description": "Bewaar deze codes op een veilige plaats. Ze kunnen worden gebruikt om de toegang tot uw account te herstellen als u uw telefoon verliest of beschadigt. Elke code kan slechts één keer worden gebruikt. <b>Deel ze nooit met iemand.</b> Als u ze verliest, verliest u <color=red>PERMANENT</color> de toegang tot uw account.",
         "Account.TOTP.RecoveryCodes.Codes": "Codes:",
         "Account.TOTP.Activate.Header": "Activeer 2FA",
-
+        "Account.TOTP.Activate.Description": "Om de 2FA op uw account te activeren, gebruikt u het 6-cijferige token dat door uw authenticator-app is gegenereerd om er zeker van te zijn dat alles correct werkt.<br><br>Eenmaal geactiveerd, moet u de code gebruiken om bepaalde bewerkingen te bevestigen.",
         "Account.TOTP.Activate.Token": "6-cijferige token:",
         "Account.TOTP.Activate.TokenField": "Voer hier je token in...",
         "Account.TOTP.Activate.Activate": "Activeren",
@@ -384,13 +487,22 @@
         "Account.TOTP.Activate.InvalidToken": "Ongeldige Token!",
         "Account.TOTP.Message.AlreadySetup": "2FA is al ingesteld op uw account!",
         "Account.TOTP.Message.Error": "Onverwachte fout! Probeer het later nog eens.",
-
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Gefeliciteerd!</size><br><br>Uw account is nu ingesteld met 2FA voor extra bescherming!<br><br>U kunt dit optioneel inschakelen voor accountaanmelding met de opdracht /enableLogin2FA.",
         "Account.TOTP.Deactivate.Header": "Deactiveer 2FA",
         "Account.TOTP.Deactivate.Description": "2FA is nu <b><color=green>ingesteld en actief op uw account</color></b>. Als u het moet deactiveren (bijv. Na deactivatie kunt u 2FA opnieuw instellen, wat een geheel nieuwe geheime code en een nieuwe set herstelcodes oplevert.<br><br>Als u uw telefoon verliest en opnieuw 2FA moet instellen, raden we <b>STERK</b> u aan dit onmiddellijk te doen, omdat elke herstelcode slechts één keer kan worden gebruikt en als deze op is, wordt u volledig geblokkeerd van uw account.",
         "Account.TOTP.Deactivate.Deactivate": "Deactiveren",
         "Account.TOTP.Deactivate.Deactivating": "Deactiveren...",
         "Account.TOTP.Message.DeactivationComplete": "2FA is met succes gedeactiveerd voor uw account.<br><br>Uw account loopt nu een verhoogd risico!<br><br>We raden u sterk aan om 2FA onmiddellijk opnieuw in te stellen, vooral als u een herstelcode hebt gebruikt omdat u uw telefoon bent kwijtgeraakt.",
 
+        "Account.Type.Standard" : "Standard Account",
+        "Account.Type.Business" : "Business Account",
+        "Account.Type.Patreon" : "Patreon Supporter",
+        "Account.Type.Mentor" : "{platform} Mentor",
+        "Account.Type.Moderator" : "{platform} Moderator",
+        "Account.Type.Team" : "{platform} Team",
+
+        "Avatar.Badge.Live" : "LIVE",
+        
         "2FA.Header": "2FA verificatie",
         "2FA.Token": "6-cijferige token:",
 
@@ -399,6 +511,7 @@
         "Profile.Status.Busy": "Niet Storen",
         "Profile.Status.Invisible": "Onzichtbaar",
         "Profile.Status.Offline": "Offline",
+        "Profile.Status.Headless": "Hoofdloze Host",
 
         "Session.Tab.Settings": "Instellingen",
         "Session.Tab.Users": "Gebruikers",
@@ -411,6 +524,12 @@
         "Session.Permission.PermissionOverrideCount": "Rechten Overschrijven: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Wis Gebruikersoverschrijvingen",
 
+        "Session.JoinVerifier.EnableHeader" : "Aangepaste Deelnamenvereficatie Activeren?",
+        "Session.JoinVerifier.EnableText" : "<color=red>WAARSCHUWING:</color> U staat op het punt aangepaste deelnameverificatie in te schakelen die deel uitmaakt van de huidige wereld. Voordat u dit doet, moet u ervoor zorgen dat u de maker van de wereld vertrouwt, aangezien een aangepaste verificateur de standaard toegangsregels voor sessies kan omzeilen en de toegang voor gebruikers kan toestaan ​​of blokkeren met behulp van zijn eigen regels.",
+        "Session.JoinVerifier.Label" : "Gebruik Een AAngepaste Deelnameverificatie: {name}",
+        "Session.JoinVerifier.ComponentWarning" : "<color=red>WAARSCHUWING:</color> Op dit moment is er geen mechanisme om te voorkomen dat er met de verifier wordt geknoeid zodra deze is ingeschakeld. Als het knoeien met de ProtoFlux-installatie voor verificatie een probleem is, GEBRUIK deze functie dan NIET en schakel deze NIET IN in uw werelden.",
+        "Session.JoinVerifier.SetCustomVerifier" : "Stel In Als Aangepaste Deelnameverificatie",
+        
         "Permissions.NotAllowedToSpawn": "Je mag hier geen dingen spawnen.",
         "Permissions.NotAllowedToSave": "Je mag in deze wereld geen voorwerpen opslaan.",
         "Permissions.NotAllowedToSwapAvatar": "Je mag hier niet wisselen naar een aangepaste avatar.",
