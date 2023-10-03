@@ -1280,42 +1280,40 @@
         "Interaction.ExportScreenshot": "Eksportuj zrzut ekranu",
 
     
-        "Inventory.OpenWorld": "Open World",
-        "Inventory.Equip": "Equip",
-        "Inventory.Delete": "Delete",
-        "Inventory.SaveHeld": "Save Held",
-        "Inventory.Inventories": "Inventories",
-        "Inventory.Share": "Share",
-        "Inventory.Unshare": "Unshare",
-        "Inventory.SaveAvatar": "Save Avatar",
-        "Inventory.Favorite.Home": "Set Home",
-        "Inventory.Favorite.ProgressBar": "Set Progress Bar",
-        "Inventory.Favorite.AudioStreamController": "Set Stream Controller",
-        "Inventory.Favorite.TextDisplay": "Set Text Display",
-        "Inventory.Favorite.VideoPlayer": "Set Video Player",
-        "Inventory.Favorite.AudioPlayer": "Set Audio Player",
-        "Inventory.Favorite.InteractiveCamera": "Set Camera",
-        "Inventory.Favorite.Keyboard": "Set Keyboard",
-        "Inventory.Favorite.Avatar": "Set Avatar",
-        "Inventory.Favorite.WorldLoadingIndicator": "Set Loading Bar",
-        "Inventory.Favorite.ColorDialog": "Set Color Picker",
-        "Inventory.Favorite.Hyperlink": "Set URL Display",
-        "Inventory.SpawnFacet": "Spawn Facet",
-    
+        "Inventory.OpenWorld": "Otwórz świat",
+        "Inventory.Equip": "Wyposaż",
+        "Inventory.Delete": "Usuń",
+
+        "Inventory.Share": "udostepnij",
+        "Inventory.Unshare": "Cofnij udostępnianie",
+        "Inventory.SaveAvatar": "Zapisz Awatara",
+        "Inventory.Favorite.Home": "Ustaw domu",
+        "Inventory.Favorite.ProgressBar": "Ustaw pasek postępu",
+        "Inventory.Favorite.AudioStreamController": "Ustaw Steam kontroler",
+        "Inventory.Favorite.TextDisplay": "Ustaw wyświetlania tekstu",
+        "Inventory.Favorite.VideoPlayer": "Ustaw odtwarzacz wideo",
+        "Inventory.Favorite.AudioPlayer": "Ustaw odtwarzacz audio",
+        "Inventory.Favorite.InteractiveCamera": "Ustaw kamerę",
+        "Inventory.Favorite.Keyboard": "Ustaw klawiaturę",
+        "Inventory.Favorite.Avatar": "Ustaw awatar",
+        "Inventory.Favorite.WorldLoadingIndicator": "Ustaw pasek ładowania",
+        "Inventory.Favorite.ColorDialog": "Ustaw próbnik kolorów",
 
     
 
     
-        "Dash.Actions.TurnOffUIEdit": "Turn off UI Edit Mode",
+
+    
+        "Dash.Actions.TurnOffUIEdit": "Wyłącz tryb edycji interfejsu użytkownika",
     
 
     
 
-        "Dash.Exit.Sponsor": "Huge thanks to {name} for sponsoring this project!",
-        "Dash.Exit.Sponsor.You": "YOU",
-        "Dash.Exit.Shoutouts": "This project is also being made possible thanks to these people:",
-        "Dash.Exit.Shoutouts.AndMore" : " and many more!",
-        "Dash.Exit.Shoutouts.You" : "{name} (That's you! Thank you!)",
+        "Dash.Exit.Sponsor": "Ogromne podziękowania dla {name} za Wspieranie tego projektu!",
+        "Dash.Exit.Sponsor.You": "Ty",
+        "Dash.Exit.Shoutouts": "Ten projekt powstał także dzięki tym osobom:",
+        "Dash.Exit.Shoutouts.AndMore" : " i wiele więcej!",
+        "Dash.Exit.Shoutouts.You" : "{name} (To ty! Dziękujęmy!)",
 
     
         "Facets.FPS": "{fps}<size=61.803%> FPS</size>",
@@ -1327,88 +1325,75 @@
 
     
 
-        "World.Error.InvalidAddress": "Invalid Address",
+        "World.Error.InvalidAddress": "Błędny adres",
 
-        "World.Error.HostBlocked": "Host blocked",
-        "World.Error.HostBlockedDetail": "You have blocked the host",
-        "World.Error.WorldCrash": "World Crashed",
-        "World.Error.WorldCrashDetail" : "Fatal error when updating the world",
+        "World.Error.HostBlocked": "Host zablokowany",
+        "World.Error.HostBlockedDetail": "Zablokowałeś hosta",
 
+        "World.Error.WorldCrashDetail" : "Fatalny błąd podczas aktualizacji świata",
+
+
+
+        "World.Indicator.Visited": "(odwiedzono)",
     
 
+        "World.Category.ContactsSessions": "Sesje kontaktów",
+
+        "World.Category.Random": "Losowye",
+
+        "World.Category.GroupWorlds": "Światy Grupowe",
     
 
-    
-
-    
-
-    
-
-        "World.Indicator.Visited": "(visited)",
-    
-
-        "World.Category.ContactsSessions": "Contacts Sessions",
-
-        "World.Category.Random": "Shuffle",
-
-        "World.Category.GroupWorlds": "Group Worlds",
-    
-
-        "World.AccessLevel.Contacts": "Contacts",
-        "World.AccessLevel.ContactsPlus": "Contacts+",
+        "World.AccessLevel.Contacts": "Znajomi",
+        "World.AccessLevel.ContactsPlus": "Znajomi+",
 
     
 
-        "World.SortParameter.LastVisit": "Last Visit",
-        "World.SortParameter.Random": "Random",
+        "World.SortParameter.LastVisit": "Ostatnio odwiedzine",
+        "World.SortParameter.Random": "Losowo",
     
 
-        "World.Filter.MinimumContacts": "Minimum Contacts: <b>{n}</b>",
+        "World.Filter.MinimumContacts": "Minimalne kontakty: <b>{n}</b>",
 
     
 
-        "Tools.Setup2FA": "Setup 2FA",
+        "Tools.Setup2FA": "Skonfiguruj 2FA",
     
-        "Tools.StreamAudio.Dialog.Title" : "Create Audio Stream",
+        "Tools.StreamAudio.Dialog.Title" : "Utwórz strumień audio",
 
-        "Options.Nameplates.DefaultStyle": "Use default nameplates",
-        "Options.Nameplates.CustomStyle": "Allow custom nameplates",
+        "Options.Nameplates.DefaultStyle": "Użyj domyślnych plakietka",
+        "Options.Nameplates.CustomStyle": "Zezwalaj na niestandardowe plakietki",
     
- 
-        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {user} other {users}} in VR",
-        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {user} other {users}} in Desktop",
     
-        "Indicator.ServerStatus.Status": "Cloud Status",
-        "Indicator.ServerStatus.Good": "Good",
-        "Indicator.ServerStatus.Slow": "Slow",
-        "Indicator.ServerStatus.Down": "Down",
-        "Indicator.ServerStatus.NoInternet": "No Internet",
+        "Indicator.ServerStatus.Status": "Status chmury",
+        "Indicator.ServerStatus.Good": "Dobry",
+        "Indicator.ServerStatus.Slow": "Powolny",
+        "Indicator.ServerStatus.Down": "Niesprawny",
+        "Indicator.ServerStatus.NoInternet": "Brak internetu",
     
 
-        "Indicator.Sync.StorageFull": "Storage Full <size=61.803%>Cannot sync</size>",
+        "Indicator.Sync.StorageFull": "Pamięć Pełna <size=61.803%>Nie można zsynchronizować</size>",
     
-        "Indicator.Storage.StorageFull": "Storage Full",
-        "Indicator.Storage.Usage": "{storage_used} of {storage_max}<br><size=61.803%>Storage Space Used</size>",
-    
+        "Indicator.Storage.StorageFull": "Pamięć Pełna",
 
     
-        "Login.InvalidCredentials": "Invalid credentials",
-        "Login.InvalidLogin": "Invalid credentials",
+        "Login.InvalidCredentials": "Nieprawidłowe dane logowania",
+        "Login.InvalidLogin": "Nieprawidłowe dane logowania",
     
-        "Login.MalformedUID": "Invalid device information",
-        "Login.MissingUID": "Missing device information",
-        "Register.MissingUID": "Invalid device information",
-        "Register.MalformedUID": "Invalid device information",
+        "Login.MalformedUID": "Nieprawidłowe informacje o urządzeniu",
+        "Login.MissingUID": "Brak informacji o urządzeniu",
+        "Register.MissingUID": "Nieprawidłowe informacje urządzenia",
+        "Register.MalformedUID": "Nieprawidłowe informacje urządzenia",
     
-        "Login.MissingLogin": "No credentials provided",
-        "Login.InvalidRecoveryCode": "Invalid recovery code",
-        "Login.UnsupportedAuthentication": "Unsupported authentication method",
-        "Login.EmailNotVerified": "Email not verified",
-        "Login.AccountTempLocked": "Your account is locked.",
-        "Login.AccountBanned": "Your account is banned.",
-        "Login.DuplicateAccount": "Duplicate account",
+        "Login.MissingLogin": "Brak danych logowania",
+        "Login.InvalidRecoveryCode": "Nieprawidłowy kod odzyskiwania",
+        "Login.UnsupportedAuthentication": "Nieobsługiwana metoda uwierzytelniania",
+        "Login.EmailNotVerified": "E-mail niezweryfikowany",
+        "Login.AccountTempLocked": "Twoje konto jest zablokowane.",
+        "Login.AccountBanned": "Twoje konto zostało zbanowane.",
+        "Login.DuplicateAccount": "Zduplikowane konto",
     
-        "Register.MissingRequest": "Missing registration details",
+        "Register.MissingRequest": "Brak danych rejestracyjnych",
         "Register.InvalidEmail": "Invalid Email address",
         "Register.MissingUsername": "Missing username",
         "Register.MissingEmail": "Missing Email",
