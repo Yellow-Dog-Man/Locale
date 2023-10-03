@@ -308,8 +308,15 @@
         "Options.Nameplates.NonContacts": "Nomplatoj: Kaŝas nomplatojn de viaj kontaktoj",
         "Options.Nameplates.Hide": "Nomplatoj: Kaŝas ĉiujn nomplatojn",
 
-        "Indicator.OnlineUsers": "Enretaj uzantoj: {num_registered} (~{num_total})",
-        "Indicator.ServerStatus": "<color=#fff>Servila stato:</color> {status, select, Good {Bona} Slow {Malrapida} Down {Malsupre} NoInternet {Neniu interreto}} ({response_ms} ms)",
+        "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> {users,plural, one {Enreta Uzanto} other {Enretaj Uzantoj}}",
+        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {uzanto} other {uzantoj}} en VR",
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {uzanto} other {uzantoj}} en Labortabla",
+
+        "Indicator.ServerStatus.Status": "Servila stato",
+        "Indicator.ServerStatus.Good": "Bona",
+        "Indicator.ServerStatus.Slow": "Malrapida",
+        "Indicator.ServerStatus.Down": "Malsupre",
+        "Indicator.ServerStatus.NoInternet": "Neniu interreto",
 
         "Indicator.Sync.AllSynced": "Ĉiuj sinkronigitaj",
         "Indicator.Sync.SyncingItems": "Sinkronigante {item_count,plural, one {# ero} other {# erojn}} <nobr>({item_percent} %)",
