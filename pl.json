@@ -34,7 +34,7 @@
         "General.Off": "Wyłacz",
         "General.On": "Włącz",
         "General.Understand": "Rozumiem",
-
+        "General.Notice": "Notice",
         "General.UnderstandEnable": "Rozumiem, Włącz",
         "General.Dismiss": "Anulować",
         "General.Edit": "Edytuj",
@@ -111,7 +111,8 @@
         "Inventory.OpenWorld": "Otwórz świat",
         "Inventory.Equip": "Wyposaż",
         "Inventory.Delete": "Usuń",
-
+        "Inventory.SaveHeld": "Save Held",
+        "Inventory.Inventories": "Inventories",
         "Inventory.Share": "udostepnij",
         "Inventory.Unshare": "Cofnij udostępnianie",
         "Inventory.SaveAvatar": "Zapisz Awatara",
@@ -126,6 +127,8 @@
         "Inventory.Favorite.Avatar": "Ustaw awatar",
         "Inventory.Favorite.WorldLoadingIndicator": "Ustaw pasek ładowania",
         "Inventory.Favorite.ColorDialog": "Ustaw próbnik kolorów",
+        "Inventory.Favorite.Hyperlink": "Set URL Display",
+        "Inventory.SpawnFacet": "Spawn Facet",
 
         "Dash.Screens.Home": "Dom",
         "Dash.Screens.Worlds": "Światy",
@@ -193,7 +196,7 @@
         "World.Error.IncompatibleVersion": "Niekompatybilna wersja {appName}",
         "World.Error.HostBlocked": "Host zablokowany",
         "World.Error.HostBlockedDetail": "Zablokowałeś hosta",
-
+        "World.Error.WorldCrash": "World Crashed",
         "World.Error.WorldCrashDetail": "Fatalny błąd podczas aktualizacji świata",
         "World.Error.Unknown": "Nieznany Błąd",
 
@@ -371,6 +374,8 @@
         "Options.Nameplates.CustomStyle": "Zezwalaj na niestandardowe plakietki",
 
         "Indicator.OnlineUsers": "Użytkownicy Online: ~{num_registered} (~{num_total})",
+        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {user} other {users}} in VR",
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {user} other {users}} in Desktop",
 
         "Indicator.ServerStatus.Status": "Status chmury",
         "Indicator.ServerStatus.Good": "Dobry",
@@ -385,6 +390,7 @@
         "Indicator.Sync.StorageFull": "Pamięć Pełna <size=61.803%>Nie można zsynchronizować</size>",
 
         "Indicator.Storage.StorageFull": "Pamięć Pełna",
+        "Indicator.Storage.Usage": "{storage_used} of {storage_max}<br><size=61.803%>Storage Space Used</size>",
 
         "Indicator.LiveHiddenMessage": "(informacja ukryta podczas transmisji)",
 
@@ -481,11 +487,12 @@
         "Account.TOTP.Activate.InvalidToken": "Nieprawidłowy Token!",
         "Account.TOTP.Message.AlreadySetup": "2FA zostało już skonfigurowane na Twoim koncie!",
         "Account.TOTP.Message.Error": "Niespodziewany błąd! Spróbuj ponownie później.",
-
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Congratulations!</size><br><br>Your account is now setup with 2FA for extra protection!<br><br>You can optionally enable this for account login with /enableLogin2FA command.",
         "Account.TOTP.Deactivate.Header": "Dezaktywuj 2FA",
-
+        "Account.TOTP.Deactivate.Description": "2FA is currently <b><color=green>setup and active on your account</color></b>. If you need to deactivate it (e.g. due to loss of your phone or the codes being compromised), you can do so here.<br><br>After deactivation, you can setup 2FA again, which will generate a brand new secret code and new set of recovery codes.<br><br>If you lose your phone and need to setup 2FA again, we <b>STRONGLY</b> advise you do so immediately, as each recovery code can be used only once and after you run out you'll be completely locked out of your account.",
         "Account.TOTP.Deactivate.Deactivate": "Dezaktywuj",
         "Account.TOTP.Deactivate.Deactivating": "Dezaktywowanie...",
+        "Account.TOTP.Message.DeactivationComplete": "2FA has been successfully deactivated on your account.<br><br>Your account is now at increased risk!<br><br>We strongly recommend setting up 2FA again immediately, especially if you used a recovery code due to losing your phone.",
 
         "Account.Type.Standard": "Konto Standardowe",
         "Account.Type.Business": "Konto Biznesowe",
@@ -515,6 +522,12 @@
         "Session.Permission.Host": "Domyślny Gospodarz:",
         "Session.Permission.PermissionOverrideCount": "Nadpisane Uprawnienia: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Wyczyść Nadpisane Uprawnienia",
+
+        "Session.JoinVerifier.EnableHeader": "Activate Custom Join Verifier?",
+        "Session.JoinVerifier.EnableText": "<color=red>WARNING:</color> You are about to enable custom join verification that is part of the current world. Before you do so, make sure you trust the creator of the world, as custom verifier can bypass standard session access rules and allow or block entry to users using its own rules.",
+        "Session.JoinVerifier.Label": "Use Custom Join Verifier: {name}",
+        "Session.JoinVerifier.ComponentWarning": "<color=red>WARNING:</color> At the moment, there is no mechanism to prevent tampering with the verifier once enabled. If tampering with the ProtoFlux setup for verification is a concern, DO NOT USE this feature and DO NOT ENABLE it in your worlds.",
+        "Session.JoinVerifier.SetCustomVerifier": "Set as custom join request verifier",
 
         "Permissions.NotAllowedToSpawn": "Nie masz pozwolenia aby przyzywać przedmioty w tym świecie.",
         "Permissions.NotAllowedToSave": "Nie masz pozwolenia aby zapisywać przedmioty w tym świecie.",
@@ -616,6 +629,7 @@
         "Tooltips.Dev.DestroySelected": "Zniszcz Zaznaczone",
         "Tooltips.Dev.ConfirmDestroySelected": "NA PEWNO Zniszcz Zaznaczone",
 
+        "Tooltips.Dev.GizmoOptions": "Gizmo Options",
         "Tooltips.Dev.SelectParent": "Zaznacz Rodzica",
         "Tooltips.Dev.LocalSpace": "Przestrzeń lokalna",
         "Tooltips.Dev.GlobalSpace": "Globalna przestrzeń",
@@ -627,6 +641,8 @@
 
         "Tooltip.GrabbableSetter.Scalable": "Obiekty będą Skalowalne",
         "Tooltip.GrabbableSetter.NonScalable": "Obiekty nie będą Skalowalne",
+        "Tooltip.GrabbableSetter.ApplyToRoot": "Set Apply to Root",
+        "Tooltip.GrabbableSetter.AppyToHit": "Set Apply to Hit",
 
         "Tooltip.CharacterCollider.MarkGrippable": "Oznaczaj jako Wspinalny",
         "Tooltip.CharacterCollider.DontMarkGrippable": "Nie Oznaczaj jako Wspinalny",
@@ -668,6 +684,25 @@
         "Tooltip.Microphone.ModePress": "Kliknij aby zacząć/zakończyć nagrywanie",
         "Tooltip.Microphone.SourceRaw": "Surowe",
         "Tooltip.Microphone.SourceFiltered": "Filtrowane i Normalizowane",
+
+        "Tooltip.ProtoFlux.Drive": "Drive",
+        "Tooltip.ProtoFlux.Source": "Source",
+        "Tooltip.ProtoFlux.Reference": "Reference",
+        "Tooltip.ProtoFlux.Write": "Write",
+        "Tooltip.ProtoFlux.Proxy": "Proxy",
+        "Tooltip.ProtoFlux.CreateLocal": "Create Local",
+        "Tooltip.ProtoFlux.CreateStore": "Create Store",
+        "Tooltip.ProtoFlux.CreateDataModelStore": "Create Data Model Store",
+        "Tooltip.ProtoFlux.Overview": "Toggle Overview Mode",
+        "Tooltip.ProtoFlux.NodeBrowser": "Browse nodes",
+        "Tooltip.ProtoFlux.PackInPlace": "Pack In Place",
+        "Tooltip.ProtoFlux.PackInto": "Pack Into <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.Unpack": "Unpack <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.ExplicitCast": "Explicit Cast\n<size=50%>(<color=red>Warning:</color> Potential Data Loss)</size>",
+
+        "ProtoFlux.UI.Call": "Call",
+        "ProtoFlux.UI.AsyncCall": "<size=50%>Async</size> Call",
+        "ProtoFlux.UI.NodeBrowser.Title": "ProtoFlux Nodes",
 
         "CreateNew.Back": "<<< <i>Wstecz</i>",
         "CreateNew.EmptyObject": "Pusty Obiekt",
@@ -1143,6 +1178,37 @@
         "Security.HostAccess.Allow": "Zezwól",
         "Security.HostAccess.Deny": "Zabroń",
 
+        "ComponentSelector.Back": "< (back)",
+        "ComponentSelector.Title": "Components",
+        "ComponentSelector.CreateCustomType": "Create Custom Type",
+        "ComponentSelector.CommonGenericTypes": "Common Generic Types",
+        "ComponentSelector.CustomGenericArguments": "Custom Generic Arguments:",
+        "ComponentSelector.InvalidType": "Invalid type",
+
+        "Inspector.Title": "Scene Inspector",
+        "Inspector.Slot.AttachComponent": "Attach Component",
+
+        "Inspector.Slot.Axis.X": "X: <b>+</b>Right <b>-</b>Left",
+        "Inspector.Slot.Axis.Y": "Y: <b>+</b>Up <b>-</b>Down",
+        "Inspector.Slot.Axis.Z": "Z: <b>+</b>Forward <b>-</b>Backward",
+
+        "Inspector.Slot.Reset.Label": "Reset:",
+        "Inspector.Slot.Reset.Position": "Position",
+        "Inspector.Slot.Reset.Rotation": "Rotation",
+        "Inspector.Slot.Reset.Scale": "Scale",
+
+        "Inspector.Slot.CreatePivotAtCenter": "Create Pivot At Center",
+
+        "Inspector.Slot.JumpTo": "Jump To",
+        "Inspector.Slot.BringTo": "Bring To",
+        "Inspector.Slot.BringTo.Undo": "Bring {name} to user",
+
+        "Inspector.Slot.ParentUnder.Label": "Parent Under:",
+        "Inspector.Slot.ParentUnder.WorldRoot": "World Root",
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Parent {name} under world root",
+        "Inspector.Slot.ParentUnder.LocalUserSpace": "Local User Space",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Parent {name} under local user space",
+
         "Inspector.Mesh.StatsHeader": "Statystyki Meshu",
         "Inspector.Mesh.VertexCount": "Liczba Wierzchołków: {n}",
         "Inspector.Mesh.TriangleCount": "Liczba Trójkątów: {n}",
@@ -1153,13 +1219,15 @@
         "Inspector.Mesh.ChannelStats": "Normalne: {normals}, Styczne: {tangents}, Kolory: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh": "Wypal Mesh",
-
+        "Inspector.Mesh.SetupRenderer": "Setup Renderer",
         "Inspector.Mesh.ResaveMesh": "Zapisz Ponownie Mesh",
         "Inspector.Mesh.RecalculateNormals": "Przelicz Normalne",
         "Inspector.Mesh.RecalculateNormalsSmooth": "Przelicz Normalne (gładkie cieniowanie)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "Przelicz Styczne (Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "Przelicz Styczne (prosty)",
-
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Recalculate Blendshape Normals",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Recalculate Blendshape Normals (smooth shading)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Recalculate Blendshape Tangents (Mikktspace)",
         "Inspector.Mesh.FlipNormals": "Odwróć Normalne",
         "Inspector.Mesh.ReverseWinding": "Odwróć Nawijanie",
         "Inspector.Mesh.MakeDualSided": "Konwertuj na Dwustronny",
@@ -1170,6 +1238,7 @@
         "Inspector.Mesh.StripEmptyBlendshapes": "Usuń Puste Blendshapy",
         "Inspector.Mesh.StripBlendshapeNormals": "Usuń Normalne Blendshapeów",
         "Inspector.Mesh.StripBlendshapeTangents": "Usuń Styczne Blendshapeów",
+        "Inspector.Mesh.MergeBlendshapes": "Merge Blendshapes",
 
         "Inspector.Mesh.GetBoneList": "Wyświetl Listę Kości",
         "Inspector.Mesh.GetBoneData": "Wyświetl Dane Kości",
@@ -1181,6 +1250,34 @@
 
         "Inspector.MeshRenderer.MergeByMaterial": "Połącz podmeshe z takimi samymi materiałami",
         "Inspector.MeshRenderer.SplitByMaterial": "Rozdziel mesh na części z takimi samymi materiałami",
+
+        "Inspector.MeshCollider.VHACD": "Convex Hull Decomposition (V-HACD 2.0)",
+        "Inspector.MeshCollider.ReplaceBox": "Replace With Box Collider",
+
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Update locomotion modules on present users",
+
+        "Inspector.VHACD.Parameter.MergeDoubles": "Merge Doubles",
+        "Inspector.VHACD.Parameter.Resolution": "Resolution",
+        "Inspector.VHACD.Parameter.Depth": "Depth",
+        "Inspector.VHACD.Parameter.Concavity": "Concavity",
+        "Inspector.VHACD.Parameter.PlaneDownsampling": "Plane Downsampling",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling": "Convex Hull Downsampling",
+        "Inspector.VHACD.Parameter.Alpha": "Alpha",
+        "Inspector.VHACD.Parameter.Beta": "Beta",
+        "Inspector.VHACD.Parameter.Gamma": "Gamma",
+        "Inspector.VHACD.Parameter.Delta": "Delta",
+        "Inspector.VHACD.Parameter.PCA": "PCA",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Max Vertices Per Hull",
+        "Inspector.VHACD.Parameter.MinVolumePerHull": "Min Volume Per Hull",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation": "Convex Hull Approximation",
+
+        "Inspector.VHACD.DecompositionMode.Header": "Decomposition Mode:",
+        "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetrahedron",
+
+        "Inspector.VHACD.RunDecomposition": "Run Decomposition",
+        "Inspector.VHACD.RemoveVisuals": "Remove Visuals",
+        "Inspector.VHACD.RemoveHulls": "Remove Hulls",
 
         "Inspector.ReflectionProbe.Bake": "Wypal Odbicia",
         "Inspector.ReflectionProbe.Baking": "Wypalanie...",
@@ -1195,6 +1292,14 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "Wizualizuj obszary kości",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Wizualizuj przybliżone połączone obszary kości",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "Usuń wizualizacje obszarów kości",
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Compute explicit bounds from current pose",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Extend explicit bounds from current pose",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "Bake To Static Mesh",
+
+        "Inspector.SimpleAvatarProtection.RemoveAll": "Remove All Instances",
+        "Inspector.SimpleAvatarProtection.RemoveSingle": "Remove Single Instance",
+        "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>WARNING!</size></color><br>Removing this component through any means other than the dedicated buttons below will trip the protection mechanism and lead to self destruction and potential data loss!",
+        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "REMOVE Avatar Protection",
 
         "Inspector.BipedRig.GetDiagnosticInfo": "Pobierz informacje diagnostyczne szkieletu",
         "Inspector.BipedRig.GenerateDebugVisuals": "Generuj wizualizacje debugowania",
@@ -1210,6 +1315,8 @@
         "Inspector.Texture.Format": "Format: {format}, Pamięć: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "ID Wariantu: {variant}",
 
+        "Inspector.Texture.BakeTexture": "Bake Texture",
+
         "Inspector.Texture.InvertRGB": "Odwróć Kolory",
         "Inspector.Texture.InvertR": "Odwróć Czerwony",
         "Inspector.Texture.InvertG": "Odwróć Zielony",
@@ -1221,12 +1328,13 @@
         "Inspector.Texture.AlphaToMask": "Alfa do Maski",
         "Inspector.Texture.RemoveAlpha": "Usuń Alfę",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Konwertuj na Czarno-Biały (średnia)",
-
+        "Inspector.Texture.ConvertToGrayscaleLuminance": "Convert to grayscale (luminance)",
         "Inspector.Texture.SwapRG": "Zamień Czerwony i Zielony",
         "Inspector.Texture.SwapRB": "Zamień Czerwony i Niebieski",
-
+        "Inspector.Texture.SwapRA": "Swap R <--> A",
         "Inspector.Texture.SwapGB": "Zamień Zielony i Niebieski",
-
+        "Inspector.Texture.SwapGA": "Swap G <--> A",
+        "Inspector.Texture.SwapBA": "Swap B <--> A",
         "Inspector.Texture.AddWhiteBackground": "Dodaj Białe Tło",
         "Inspector.Texture.AddBlackBackground": "Dodaj Czarne Tło",
         "Inspector.Texture.Hue": "Odcień:",
@@ -1244,12 +1352,17 @@
         "Inspector.Texture.RotateCW": "Obróć o 90° w Prawo",
         "Inspector.Texture.RotateCCW": "Obróć o 90° w Lewo",
         "Inspector.Texture.Rotate180": "Obróć o 180°",
-
+        "Inspector.Texture.TrimTransparent": "Trim Transparency",
+        "Inspector.Texture.TrimByCornerColor": "Trim By Corner Color",
         "Inspector.Texture.MakeSquare": "Zamień na Kwadrat",
         "Inspector.Texture.ToNearestPOT": "Do Najbliższej Potęgi Dwójki",
         "Inspector.Texture.MakeTileable": "Wyrównaj brzegi (stosunek teselacji):",
         "Inspector.Texture.TileLoop": "Ustaw obok siebie (zapętl)",
         "Inspector.Texture.TileMirror": "Ustaw obok siebie (odwróć)",
+        "Inspector.Texture.NormalizeMaxOnly": "Normalize (max only)",
+        "Inspector.Texture.NormalizeMinMax": "Normalize (min and max)",
+        "Inspector.Texture.NormalizeIndependent": "Normalize RGB independently (min and max)",
+        "Inspector.Texture.BleedColorToAlpha": "Bleed Color To Alpha",
 
         "Inspector.Texture.InvalidFloats": "Diagnostyka: Niewłaściwe Wartości",
         "Inspector.Texture.GenerateMetadata": "Diagnostyka: Generuj Metadane Bitmapy",
@@ -1298,6 +1411,41 @@
         "Inspector.Rig.ClearDebugVisuals": "Usuń wizualizacje debugowania",
 
         "Inspector.AvatarExpression.AutoAssign": "Automatycznie Przypisz Blendshapy (używając heurystki)",
+
+        "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component as a simple rigidbody by checking SimulateRotation. Before you do, please understand that it is not optimized for this purpose and proper Rigidbody Support is coming in the future.<br>Proper rigidbody support will offer:<br><b>- CPU and network efficiency</b> - with CharacterController you'll be getting higher CPU usage and significant amount of network traffic<br><b>- Constraints</b> - you'll be able to create joints, hinges, springs and other constraints between rigidbodies<br><b>- Smooth simulation and interactions for everyone</b> - CharacterController will glitch out if another person tries to interact<br><b>- New Features and Tools</b> - to make using them much easier<br>-----------------------<br>As long as you understand those limitations, have fun!",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component to interact with references by using their IDs. This process is commonly called 'Ref Hacking'.<br><br><b>Before</b> you do this, please understand that this is <b>not</b> supported and may break at any time. Do not rely on this functionality for your creations.",
+
+        "Inspector.ParticleStyle.CommonTransitions": "Common Transition Templates:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha Fade In & Fade Out",
+        "Inspector.ParticleStyle.AlphaFadeIn": "Alpha Fade In",
+        "Inspector.ParticleStyle.AlphaFadeOut": "Alpha Fade Out",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "Intensity Fade In & Fade Out",
+        "Inspector.ParticleStyle.IntensityFadeIn": "Intensity Fade In",
+        "Inspector.ParticleStyle.IntensityFadeOut": "Intensity Fade Out",
+        "Inspector.ParticleStyle.ClearFades": "Clear Fades",
+
+        "Inspector.Collider.SetFromLocalBounds": "Set from local bounds",
+        "Inspector.Collider.SetFromGlobalBounds": "Set from global bounds",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "Set from local bounds (precise)",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "Set from global bounds (precise)",
+        "Inspector.Collider.SetFromPreciseBounds": "Set from precise bounds",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "Set from precise cylinder bounds",
+        "Inspector.Collider.Visualize": "Visualize Collider",
+
+        "Inspector.SimpleAwayIndicator.TestAway": "Set to away (debug)",
+        "Inspector.SimpleAwayIndicator.TestRestore": "Restore to normal (debug)",
+
+        "Inspector.Fields.Drive": "Drive",
+        "Inspector.Fields.DriveWriteBack": "Drive <size=50%>(write back)</size>",
+
+        "Inspector.Actions.CopyComponent": "Copy Component",
+        "Inspector.Actions.MoveComponent": "Move Component",
+
+        "UserInspector.Title": "User Inspector",
+
+        "WorkerInspector.Title": "{name} Inspector",
+
+        "CreateNew.Title": "New",
 
         "Wizard.General.ProcessRoot": "Miejsce Operacji:",
         "Wizard.General.Result": "Rezultat:",
@@ -1354,6 +1502,17 @@
         "Wizard.ReflectionProbes.BakeProbes": "Wypal Próbki",
         "Wizard.ReflectionProbes.Baking": "Wypalanie: {index} na {count}...",
 
+        "Wizard.TextRenderer.Header": "TextRenderer Wizard",
+        "Wizard.TextRenderer.ProcessRoot": "Process Root:",
+        "Wizard.TextRenderer.ProcessStandalone": "Process Standalone",
+        "Wizard.TextRenderer.ProcessUIX": "ProcessUIX",
+        "Wizard.TextRenderer.Disabled": "Process Disabled",
+        "Wizard.TextRenderer.WithTag": "With Tag:",
+        "Wizard.TextRenderer.ReplaceMaterial": "Replace Material",
+        "Wizard.TextRenderer.ReplaceFont": "Replace Font",
+        "Wizard.TextRenderer.SetColor": "Set Color",
+
+        "Desktop.Controls.Title": "Desktop Controls",
         "Desktop.OpenKeyboard": "Otwórz Klawiaturę",
         "Desktop.FollowCursor.On": "Podążaj za Kursorem: Tak",
         "Desktop.FollowCursor.Off": "Podążaj za Kursorem: Nie",
@@ -1361,6 +1520,13 @@
         "Desktop.LegacyInputMode.Off": "Starsza Metoda Wejścia: Nie",
         "Desktop.Brightness": "Jasność: {n,number,percent}",
         "Desktop.Opacity": "Przezroczystość: {n,number,percent}",
+
+        "VolumePlaneSlicer.Highlight": "Highlight",
+        "VolumePlaneSlicer.Slicer": "Slice",
+
+        "Tutorial.Welcome.Welcome": "Welcome!",
+        "Tutorial.Welcome.Description": "Dive into a brand new digital universe with infinite possibilities. Whether you come here to socialize and hang out with people around the world or to build, create and develop anything from beautiful art, interactive avatars and gadgets, to complex interactive worlds and games, Resonite is an endlessly customizable place where you'll be welcome and where you'll find a group to resonate with.<br><br>Before you start exploring, we'll first guide you through setting up some essentials, to ensure a smooth experience. When you're ready, click the button below",
+        "Tutorial.Welcome.Begin": "Let's begin!",
 
         "Tutorial.Welcome.AccountHeader": "Konto {appName}",
         "Tutorial.Welcome.AccountDescription": "Tworzenie konta daje Ci 1 GB darmowego miejsca w chmurze na zapisywanie przedmiotów, wybieranie awatarów, dodawanie Znajomych oraz wysyłanie wiadomości.",
@@ -1388,6 +1554,7 @@
 
         "Tutorial.Welcome.StartTutorialHeader": "Rozpocznij Samouczek",
         "Tutorial.Welcome.StartTutorialDescription": "Przeniesiemy cię do prostego świata samouczkowego aby pomóc Ci zacząć z {appName}. Możesz wybrać czy chcesz aby świat był publiczny, pozwalając społeczności {appName} na dołączanie i pomaganie Tobie albo możesz uczyć się samemu.",
+        "Tutorial.Welcome.StartTutorial": "Begin Tutorial",
 
         "Tutorial.CommunityYouTube.Title": "Kanały YouTube Społeczności",
 
@@ -1395,6 +1562,7 @@
         "Tutorial.UserResources.SupportTitle": "Jak Wspierać {appName}",
         "Tutorial.UserResources.MerchandiseTitle": "Merch {appName}",
 
+        "Tutorial.Intro.BadgesAppTeam": "{appName} Team",
         "Tutorial.Intro.BadgesModerator": "Moderator",
         "Tutorial.Intro.BadgesMentor": "Mentor",
         "Tutorial.Intro.BadgesDisabilityHearing": "Zaburzenia Słuchu",
@@ -1406,10 +1574,381 @@
 
         "Object.Mirror.Toggle": "Przełącznik Lokalny",
 
+        "Twitch.Panel.Button.Commands.Enabled": "Commands Enabled",
+        "Twitch.Panel.Button.Commands.Disabled": "Commands Disabled",
+        "Twitch.Panel.Button.SafeMode.Enabled": "Safemode Enabled",
+        "Twitch.Panel.Button.SafeMode.Disabled": "Safemode Disabled",
+        "Twitch.Panel.Button.SubscriberCommands.Enabled": "Subscriber Commands<br> Enabled for Subscribers Only",
+        "Twitch.Panel.Button.SubscriberCommands.Disabled": "Subscriber Commands<br> Enabled for Everyone",
+        "Twitch.Panel.Title.Text": "Twitch Chat",
+
         "Exiting.SavingItems": "Zapisywanie {n, plural, one {# przedmiotu} few {# przedmiotów} many {# przedmiotów}}...",
         "Exiting.SavingChanges": "Zapisywanie Zmian...",
         "Exiting.Exiting": "Wychodzenie...",
         "Exiting.LoggingOut": "Wylogowywanie...",
+
+        "Migration.Title": "Migration",
+        "Migration.NewTask": "New Migration Task",
+
+        "Migration.LoginModal.Title": "Migrate data?",
+        "Migration.LoginModal.Description": "Would you like to migrate data from another account? You can choose to do this later from the \"Migration\" tab on the dash as well.",
+        "Migration.LoginModal.OpenMigration": "Open migration",
+        "Migration.LoginModal.Later": "Maybe later",
+        "Migration.LoginResetID.Title": "Really reset UserID?",
+        "Migration.LoginResetID.Description": "Please understand that doing this will result in <color=red>UNPREDICTABLE CONTENT BREAKAGE</color>. All your items, worlds, contacts and messages will be migrated successfully, but any behaviors and components that rely on referencing your old UserID will likely break and require to be re-setup and be repaired. Unless you have a serious reason to want to reset your UserID, <color=red>DO NOT CHOOSE THIS OPTION</color>.",
+        "Migration.LoginResetID.ResetButton": "Yes, reset",
+
+        "Migration.ReservedUsername.Title": "<b>Reserved Username</b>",
+        "Migration.ReservedUsername.Description": "This username is reserved for original owner. If this is your account, please provide your {platform} credentials to unlock it. We do not store these credentials, they are only used to verify the ownership of your account on registration.",
+        "Migration.SourcePassword": "{platform} Password:",
+        "Migration.SourceUsername": "{platform} Username:",
+
+        "Migration.Dialog.Title": "Account Migration",
+        "Migration.Dialog.Source": "You can migrate data from any compatible infrastructure. First select one from the list below that you'd like to migrate data from. You can add additional infrastructures by placing config files in the \"Migrations\" folder in the installation.",
+        "Migration.Dialog.AccountDescription": "To migrate your account, we'll need your {platform} account password. This will let us login to it and access the data.",
+
+        "Migration.ResetID.Title": "Reset my UserID",
+        "Migration.ResetID.Description": "<color=red><b>WARNING:</b></color> Choosing this option <b>WILL PARTIALLY BREAK EXISTING CONTENT AND IS IRREVERSIBLE</b>, this includes any UserID references in user content, community services, links, cloud variables and more. These references will be reset, but your items, worlds, contacts and messages themselves will not be lost. We recommend using this option <b>ONLY</b> if you would like to get rid of your old UserId and replace it with a new randomized one. Unless you have a strong reason to reset your UserID, you <b>SHOULD NOT</b> check this option. Your UserID will change like this:\n U-MyUsername -> U-fX3pKe7AYYQ",
+
+        "Migration.DataSelection.Title": "When we migrate your account, what data should we migrate?",
+        "Migration.DataSelection.Everything": "Everything",
+        "Migration.DataSelection.Choose": "Let me choose",
+
+        "Migration.DataSelection.Favorites": "Favorites (avatar, home, camera, keyboard, facets)",
+
+        "Migration.DataSelection.Favorites.Description": "This will migrate your home, favorite avatar, keyboard, camera and dash first, so you can start using them as soon as possible.\n <color=red><b>WARNING:</b></color> If you choose this option, you might <b>LOSE ANY CHANGES</b> made on this platform before the migration to your favorites.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "When migrating should we overwrite your favorites?",
+
+        "Migration.DataSelection.Home.Title": "Set your old home as default?",
+        "Migration.DataSelection.Home.Description": "When we migrate your data, your original cloud home will be placed under different URL and you will get a brand new cloud home as default. However if you'd prefer, we can default your old home as the default one. Even if you select \"No\", your old cloud home will still be accessible and you can favorite it as your default later.",
+
+        "Migration.DataSelection.Contacts": "Contacts",
+        "Migration.DataSelection.Message History": "Message History",
+        "Migration.DataSelection.InventoryWorld": "Inventory & Worlds",
+        "Migration.DataSelection.CloudVariable.Definitions": "Cloud Variable Definitions",
+        "Migration.DataSelection.CloudVariable.Values": "Cloud Variable Values",
+
+        "Migration.DataSelection.AlwaysOverwrite": "Always overwrite",
+
+        "Migration.Start": "Start Migration",
+        "Migration.Groups.Title": "Migrate Groups",
+        "Migration.Groups.Introduction": "Should we migrate your groups?",
+
+        "Migration.Groups.Description": "All groups you are administrator of will be migrated by default. If you'd like to migrate only select groups, click the button below to load them and then check the groups you'd like to migrate.",
+
+        "Migration.Groups.LoadGroups": "Load groups",
+        "Migration.Groups.RefreshGroups": "Refresh groups",
+
+        "Migration.Groups.Fetching": "Fetching groups...",
+        "Migration.Groups.Fetching.LoginFailed": "Error logging in: {error}",
+        "Migration.Groups.Fetching.Error": "Error fetching groups: {error}",
+        "Migration.Groups.NoGroups": "No {platform} groups found to migrate.",
+        "Migration.Groups.NotGroupAdmin": "You're not an admin of any {platform} groups, ask your group admins to migrate the group!",
+
+        "Migration.Summary": "Ok, we have everything we need. Click Start Migration below and we'll get started on your migration.\n\nMigration might take a while, we've gotta copy everything across. If you've selected to migrate your favorites, we'll prioritize them so that you can get comfortable.\n\nYou don't need to keep {appName} running whilst we're migrating, but we'll send you updates via the {appName} bot to let you know how its going.",
+
+        "Migration.List.EmptyTitle": "Looking to start a new Migration?",
+        "Migration.List.EmptySubtitle": "Click on \"New Migration Task\" in the top left.",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Created on:{time}\nStatus:{state}",
+        "Migration.Report.Title": "Migration Task Report:",
+        "Migration.Report.Description": "<color={hex}>Description:</color> {value}",
+        "Migration.Report.Status": "<color={hex}>Status:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>Created on:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>Started on:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>Completed on:</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "Currently migrating the data of <color={hex}>{value}</color>.",
+        "Migration.Report.CurrentItem": "Current item: <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>Current rate:</color> ~{value} worlds/items per minute",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>Remaining tasks in queue before this one:</color> {value}",
+        "Migration.Report.ContactStatus": "Migrated <color={hex}>{current}</color> contacts out of <color={hex}>{total}</color>",
+        "Migration.Report.MessageStatus": "Migrated <color={hex}>{value}</color> messages",
+        "Migration.Report.CloudVariableDefinitionStatus": "Migrated <color={hex}>{value}</color> cloud variable definitions",
+        "Migration.Report.CloudVariableValueStatus": "Migrated <color={hex}>{value}</color> cloud variables",
+        "Migration.Report.RecordStatus": "Migrated <color={hex}>{current}</color> items/worlds out of <color={hex}>{total}</color>. <color=red>{failed}</color> failed.",
+        "Migration.Report.GroupStatus": "Migrated <color={hex}>{current}</color> groups out of <color={hex}>{total}</color>",
+        "Migration.Report.GroupMemberStatus": "Migrated total <color={hex}>{value}</color> group members",
+
+        "Migration.Error": "<color=red>Error:</color> {error}",
+        "Migration.NothingSelected": "Nothing selected, cannot start.",
+
+        "Migration.ColorManagement": "This world has been authored in gamma space and has been automatically converted to linear.<br><br>It may look different from original, but should be generally usable.<br><br>If you are the author and you find any issues with the conversion of world <color=red>DO NOT SAVE</color>. Only save copies.<br><br>As long as the original exists, we can tweak conversion process. Otherwise you will be responsible to fix it yourself.",
+
+        "Temporary.MMC.Voting UI": "MMC Voting UI",
+        "Temporary.MMC.Vote": "Vote",
+
+        "Temporary.MMC.Categories.Name": "Categories",
+
+        "Temporary.MMC.Categories.Worlds": "Worlds",
+        "Temporary.MMC.Categories.Worlds.Social": "Social",
+        "Temporary.MMC.Categories.Worlds.Game": "Game",
+
+        "Temporary.MMC.Categories.Other": "Other",
+        "Temporary.MMC.Categories.Misc": "Miscellaneous",
+        "Temporary.MMC.Categories.Meme": "Meme",
+
+        "Temporary.MMC.Categories.Avatars": "Avatars",
+        "Temporary.MMC.Categories.Avatars.Accessories": "Accessories",
+
+        "Temporary.MMC.VoteSuccess": "Vote cast in category {category} for {voteTarget}.",
+        "Temporary.MMC.VoteFailure": "Vote failed, your vote has not been registered please try again.",
+        "Temporary.MMC.VotedAlready": "You have already voted for {voteTarget}.",
+        "Temporary.MMC.VoteInvalid": "Vote is invalid, please try again.",
+
+        "CloudHome.WelcomeHome": "Welcome Home",
+        "CloudHome.TargetRangeOptions": "Target Range Options",
+
+        "Tutorial.Saving.Title": "Welcome Home!",
+        "Tutorial.Saving.Content": "Welcome to your <b><i><color=hero.yellow>Home</b></i></color> world! This is where you'll end up every time you log in.<br><br>This is a world all your own, so any changes you make are able to be saved.<br><br>If you save, everything will be just as you left it when you return!",
+
+        "CloudHome.Info.OnlineUsers": "Online {online_users,plural, one {user} other {users}}: {online_users}<br>Joinable {joinable_users,plural, one {user} other {users}}: {joinable_users}",
+        "CloudHome.Info.Moderation": "Moderation",
+        "CloudHome.Info.Inventory": "Inventory",
+        "CloudHome.Info.Tools": "Tools",
+        "CloudHome.Info.MoreInfo": "More Info",
+        "CloudHome.Info.SessionUptime": "Session Uptime:",
+        "CloudHome.Info.AccessLevel": "Access Level:",
+        "CloudHome.Info.StorageUsed": "Storage Used:",
+
+        "CloudHome.Info.DashInfoTab.Title": "Welcome!",
+        "CloudHome.Info.DashInfoDesktop": "Just to get you up to speed, there's a couple things you should know. You have a <i><color=hero.purple>Dashboard</color></i> that you can open by pressing Escape. Think of it as your desktop or control panel.<br><br>If you're confused, this display has some additional info to help you out. Click the button below to dismiss this message.",
+        "CloudHome.Info.DashInfoVR": "Just to get you up to speed, there's a couple things you should know. You have a <i><color=hero.purple>Dashboard</color></i> that you can open by pressing B or Y. Think of it as your desktop or control panel.<br><br>If you're confused, this display has some additional info to help you out. Click the button below to dismiss this message.",
+        "CloudHome.Info.DashInfoVRNoButtons": "Just to get you up to speed, there's a couple things you should know. You have a <i><color=hero.purple>Dashboard</color></i> that you can open by pressing and holding the Menu button until the circle completes. Think of it as your desktop or control panel.<br><br>If you're confused, this display has some additional info to help you out. Click the button below to dismiss this message.",
+
+        "CloudHome.Info.GoToWiki": "Go to Wiki!",
+        "CloudHome.Info.GoToDiscord": "Go to Discord!",
+
+        "CloudHome.Info.ModerationTab.Title": "Moderation!",
+        "CloudHome.Info.ModerationTab.Content": "Safety is important to us. If you need help or need to report a user, open a ticket in our <u><color=hero.cyan>Moderation Portal.</color></u><sprite name=hyperlink><br><br>We have a strong team of volunteer moderators <sprite name=modbadge> keeping the community safe! Please submit a ticket if you have questions or see guideline-breaking behavior.",
+
+        "CloudHome.Info.InventoryTab.Title": "Save Your Items!",
+        "CloudHome.Info.InventoryTab.Content": "The <i><color=hero.purple>Inventory</color></i> in your <i><color=hero.purple>Dashboard</color></i> contains your saved avatars and items.<br><br>The <i><color=hero.purple>Essentials</color></i> folder has some fun things to play with; double click an item to spawn it!",
+
+        "CloudHome.Info.ToolsTab.Title": "In-World Editing!",
+        "CloudHome.Info.ToolsTab.Content": "A hallmark of {appName} is being able to easily create or modify things right in-game.<br><br>Yes, that means right here! Or anywhere really - the tools available to you via <i><color=hero.purple>Essentials -> Tools</color></i> in your inventory allow you to easily edit the world around you to your liking.",
+
+        "CloudHome.Info.HelpTab.Title": "Getting Help",
+        "CloudHome.Info.HelpTab.InfoLineOne": "Need help? Take a look at our <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, or get answers to your",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "questions in our <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> Handily, you can view links on your desktop through your Dashboard in the <i><color=hero.purple>Desktop</color></i> tab.",
+
+        "CloudHome.Info.UsersTab.Title": "Finding Users",
+        "CloudHome.Info.UsersTab.Content": "Public sessions are a great way to immerse yourself in the community!<br><br>Public sessions which you can join right now can be found in the <i><color=hero.purple>Worlds</color></i> tab in your dashboard. Check it out!",
+
+        "Mirror.Header.RenderingOptions": "Rendering Options",
+        "Mirror.Header.Type": "Mirror Type",
+        "Mirror.Header.Resolution": "Mirror Resolution",
+        "Mirror.Header.AspectRatio": "Aspect Ratio",
+
+        "Mirror.EnableLights": "Enable Lights",
+        "Mirror.DisableLights": "Disable Lights",
+
+        "Mirror.EnableShadows": "Enable Shadows",
+        "Mirror.DisableShadows": "Disable Shadows",
+
+        "Mirror.Camera": "Camera",
+
+        "Mirror.AspectRatio.Tall": "Tall",
+        "Mirror.AspectRatio.Square": "Square",
+        "Mirror.AspectRatio.Wide": "Wide",
+
+        "Mirror.Menu": "Menu",
+        "Mirror.CloseMenu": "Close Menu",
+
+        "StickyNote.SpinMe": "Spin Me!",
+        "StickyNote.FruitPlate": "Free self-replenishing fruit plate",
+        "StickyNote.EmptyForYou": "Left empty just for you! :)",
+        "StickyNote.RelevantLinks": "Relevant links!<br><--<br><br><size=500>One could even call it a linking book</size>",
+        "StickyNote.SunTool": "Hold the power of the sun in your hands!",
+        "StickyNote.Bow": "Pull back your String and aim true",
+        "StickyNote.Crossbow": "Lever Action (or use secondary) to load",
+        "StickyNote.Shade": "Adjustable Shade",
+        "StickyNote.TheaterTablet": "Użyj tego tabletu, aby sterować wentylatorem i przyciemnieniem okien w tym pomieszczeniu!",
+        "StickyNote.ControlTablet": "Użyj tego tabletu do sterowania częściami domu!",
+
+        "StickyNote.RotateMeDesktop": "Obróć mnie trzymając E!",
+        "StickyNote.RotateMeVR": "Obracaj mnie!",
+
+        "StickyNote.EquipMeDesktop": "Podnieś i naciśnij lewy przycisk myszy!",
+        "StickyNote.EquipMeVR": "Podnieś i pociągnij za sznurek!",
+
+        "StickyNote.DipBrushes": "Zanurz pędzle w kulach, aby użyć materiałów",
+        "StickyNote.BrushColor": "Zmień kolor i rozmiar pędzla w Menu Kontekstowym",
+        "StickyNote.Drawing": "Możesz rysować na tablicy, w powietrzu lub w dowolnym miejscu!",
+        "StickyNote.WorldCanvas": "Świat to twoje płótno!",
+
+        "CloudHome.Panel.HomeControl": "Zarządzanie domem",
+
+        "CloudHome.Panel.General": "Ogólne",
+        "CloudHome.Panel.Lighting": "Oświetlenie",
+        "CloudHome.Panel.Furniture": "Meble",
+
+        "CloudHome.Panel.Quality": "Jakość",
+        "CloudHome.Panel.Doors": "Drzwi",
+        "CloudHome.Panel.Audio": "Dźwięk",
+        "CloudHome.Panel.OverheadLighting": "Górne oświetlenie",
+        "CloudHome.Panel.Sconces": "Kinkiety",
+        "CloudHome.Panel.FurnitureVisibility": "Widoczność mebli",
+
+        "CloudHome.Panel.LowQualityMode": "Tryb niskiej jakości",
+        "CloudHome.Panel.DoorSounds": "Dźwięki Drzwi",
+        "CloudHome.Panel.DoorsAlwaysOpen": "Drzwi zawsze otwarte",
+        "CloudHome.Panel.InteriorAmbience": "Atmosfera wewnętrzna",
+        "CloudHome.Panel.InteriorAmbienceVolume": "Interior<br>Ambience<br>Volume",
+        "CloudHome.Panel.LightsOn": "Światła Włączone",
+        "CloudHome.Panel.LightIntensity": "Light Intensity",
+        "CloudHome.Panel.LightColor": "Light Color",
+        "CloudHome.Panel.LightColorTemperature": "Temperatura Barwy Światła",
+
+        "CloudHome.Panel.Spawn": "Spawn",
+        "CloudHome.Panel.Foyer": "Foyer",
+        "CloudHome.Panel.Workspace": "Warsztat",
+        "CloudHome.Panel.ReadingLounge": "Reading Lounge",
+        "CloudHome.Panel.Lounge": "Lounge",
+        "CloudHome.Panel.Center": "Środek",
+        "CloudHome.Panel.Balcony": "Balkon",
+        "CloudHome.Panel.Theater": "Theater",
+
+        "CloudHome.Panel.TheaterControl": "Sterowanie teatrem",
+        "CloudHome.Panel.FanControl": "Sterowanie wentylatorem",
+        "CloudHome.Panel.WindowControl": "Sterowanie oknem",
+        "CloudHome.Panel.FanSpeed": "Prędkość wiatraka",
+        "CloudHome.Panel.WindowTint": "Przyciemnianie okien",
+
+        "CloudHome.FeaturedPanel.OpenWorld": "Otwórz świat",
+        "CloudHome.FeaturedPanel.LinkText": "Otwórz dla siebie <br>ten świat klikając tutaj!",
+        "CloudHome.FeaturedPanel.Featured": "featured",
+
+        "CloudHome.AvatarPanel.Title": "Wyróżnione światy awatarów",
+
+        "CloudHome.SupporterPanel.Title": "<b>Our Supporters</b>",
+
+        "Tutorial.InfoPanel.Title": "Hej! Zanim pójdziesz...",
+        "Tutorial.InfoPanel.Content": "     Czeka na Ciebie świat możliwości, a to, co jest możliwe, ogranicza tylko Twoja wyobraźnia.<br><br>     Prawie wszystkie rzeczy, które do tej pory widzieliście, zostały stworzone bezpośrednio w grze! Przy jego budowie współpracowali ludzie z całego świata w czasie rzeczywistym.<br><br>     Platforma jest wciąż na wczesnym etapie rozwoju i stale ją aktualizujemy i ulepszamy. Ale ty też jesteś częścią tej podróży, a niebo jest granicą!<br><br><align=center>Dziękujemy, że się zatrzymałeś i spróbowałeś.</align>",
+
+        "Tutorial.GrabItems.Grab": "Złap",
+        "Tutorial.GrabItems.Snap": "Snap",
+        "Tutorial.GrabItems.Slide": "Slide",
+
+        "Tutorial.Panel.Jumping.Title": "Skakanie",
+        "Tutorial.Panel.Jumping.ContentDesktop": "Będąc w lokomocji pieszej, naciśnij spację, aby skoczyć!",
+        "Tutorial.Panel.Jumping.ContentVR": "Będąc w trybie chodzenia, naciśnij joystick, aby skoczyć!",
+        "Tutorial.Panel.Jumping.ContentVRNoButtons": "Będąc w trybie chodzenia, naciśnij środek gładzika, aby skoczyć!",
+
+        "Tutorial.Panel.WalkLocomotion.Title": "Lokomocja spaceru",
+        "Tutorial.Panel.WalkLocomotion.Content": "Poruszaj się i skacz po podłodze.",
+
+        "Tutorial.Panel.TeleportLocomotion.Content": "Teleport natychmiast przeniesie Cię do wskaźnika teleportacji.",
+
+        "Hints.Spawn.InitialMovementDesktop": "Użyj klawiszy ruchu, aby chodzić!",
+        "Hints.Spawn.InitialMovementVR": "Użyj joysticków, aby chodzić!",
+        "Hints.Spawn.InitialMovementVRNoButtons": "Korzystaj z trackpadów, żeby chodzić!",
+
+        "Hints.Spawn.ContextMenuDesktop": "Otwórz menu kontekstowe, naciskając T, aby wyświetlić opcje!",
+        "Hints.Spawn.ContextMenuVR": "Źle się czuć? Otwórz menu kontekstowe, naciskając B lub Y, aby wyświetlić opcje!",
+        "Hints.Spawn.ContextMenuVRNoButtons": "Źle się czuć? Otwórz menu kontekstowe, naciskając przycisk Menu, aby wyświetlić opcje!",
+
+        "Hints.Spawn.TeleportLocomotionDesktop": "Inne opcje lokomocji, takie jak latanie, można wypróbować w menu Lokomocja.",
+        "Hints.Spawn.TeleportLocomotionVR": "Inne opcje lokomocji, takie jak teleportacja czy latanie, można wypróbować w menu Lokomocja.",
+
+        "Hints.Bridge.RaiseTheWorld": "Naciśnij ten przycisk, aby przenieść platformę do siebie!",
+
+        "Hints.Grabbing.GrabbingDesktop": "Fizycznie chwytaj rzeczy, przytrzymując prawy przycisk myszy!",
+        "Hints.Grabbing.GrabbingVR": "Fizycznie chwytaj rzeczy, trzymając Grip!",
+
+        "Hints.Grabbing.Rotating": "Obracaj trzymane przedmioty, przytrzymując E i poruszając myszką!",
+        "Hints.Grabbing.RotatingExtra": "Przytrzymaj Shift i E razem, aby obrócić obiekt wokół jego osi poziomej!",
+
+        "Hints.Grabbing.ScalingDesktop": "Chwyć przedmiot, przytrzymaj klawisz Shift i użyj kółka myszy, aby go skalować!",
+        "Hints.Grabbing.ScalingVR": "Fizycznie chwytaj rzeczy obiema rękami, aby je skalować!",
+
+        "Hints.Grabbing.OtherGrabbables": "Istnieje wiele elementów interaktywnych. Pobaw się tymi trzema obiektami, aby zobaczyć, jak działają!",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Oprócz skalowania obiektów możesz także skalować siebie, włączając skalowanie w menu kontekstowym, a następnie przytrzymując klawisz Ctrl i używając kółka myszki!",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "Oprócz skalowania obiektów możesz także skalować siebie, włączając skalowanie w menu kontekstowym, chwytając przed sobą obiema rękami i przesuwając je bliżej lub dalej!",
+
+        "Hints.Telescope.Alignment": "Chwyć teleskop i wyceluj w Księżyc!",
+
+        "Hints.Telescope.TheMoonDesktop": "While aiming at the moon, hold right click and look around to move the moon!",
+        "Hints.Telescope.TheMoonVR": "Deploy your laser with the Trigger button and grab the moon!",
+
+        "Hints.Sundial.SoftEquip": "Chwyć to narzędzie, aby z niego skorzystać!",
+        "Hints.Sundial.SoftEquipExtra": "Narzędzia pozwalają zmieniać otaczający Cię świat na wiele sposobów!",
+
+        "Hints.Sundial.HardEquip": "Kliknij to narzędzie, aby je wyposażyć!",
+        "Hints.Sundial.HardEquipExtra": "Don't see your laser? Slightly Hold your Trigger to reveal it!",
+
+        "Hints.Sundial.TheSun": "Celuj w niebo i kliknij, aby przenieść tam słońce!",
+        "Hints.Sundial.TheSunExtra": "Spróbuj wycelować poniżej horyzontu, aby zapadła noc!",
+
+        "Hints.Sundial.Dequip": "Upuść wyposażone narzędzie, wybierając opcję Odekwipuj w menu kontekstowym.",
+        "Hints.Sundial.DequipExtra": "Notice the options in your Context Menu have changed because you're holding this tool.",
+
+        "Hints.Sundial.Teleporter": "Naciśnij ten przycisk, aby aktywować Teleporter do swojego Cloud Home!",
+        "Hints.Sundial.TeleporterExtra": "Ciesz się swoim domem i dziękujemy za wizytę!",
+
+        "UI.TextDisplay.Landscape": "Poziomy",
+        "UI.TextDisplay.Portrait": "Pionowo",
+        "UI.TextDisplay.NormalText": "Normalny",
+        "UI.TextDisplay.MonospaceText": "Monospace",
+
+        "UI.VideoPlayer.GlobalSettings": "Global<br>Settings",
+        "UI.VideoPlayer.LocalSettings": "Ustawienia<br>Lokalne",
+        "UI.VideoPlayer.SpatialAudio": "Przestrzenny<br>Dźwięk",
+        "UI.VideoPlayer.AreaBroadcast": "Area<br>Broadcast",
+        "UI.VideoPlayer.BroascastAudio": "Broadcast<br>Audio",
+        "UI.VideoPlayer.EnterURL": "<i><alpha=#77>Wpisz tutaj adres URL</closeall>",
+        "UI.VideoPlayer.AudioZoneTheater": "Local to<br>Theater",
+        "UI.VideoPlayer.AudioZoneGlobal": "Słyszalne<br>dla świata",
+        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {user} other {users}}<br>loaded",
+
+        "UI.ColorPicker.ColorPicker": "Selektor kolorów",
+
+        "UI.ColorPicker.Linear": "Linearny",
+
+        "UI.ColorPicker.Hexadecimal": "Hex",
+        "UI.ColorPicker.ColorSwatches": "Swatch",
+
+        "UI.ColorPicker.Red": "Czerwień",
+        "UI.ColorPicker.Green": "Zieleń",
+        "UI.ColorPicker.Blue": "Niebieski",
+
+        "UI.ColorPicker.Hue": "Hue",
+        "UI.ColorPicker.Saturation": "Saturation",
+        "UI.ColorPicker.Value": "Wartość",
+
+        "UI.ColorPicker.Alpha": "Alpha",
+        "UI.ColorPicker.Gain": "Gain",
+
+        "UI.ProgressBar.ImportingItem": "Importowanie Przedmiotu",
+
+        "Tools.Names.MultiTool": "Narzędzie Wielofunkcyjne",
+
+        "Tools.Names.CommonTools": "Common Tools",
+        "Tools.Names.ManipulationTools": "Manipulation Tools",
+        "Tools.Names.InformationTools": "Information Tools",
+
+        "Tools.Names.GeometryLineBrush": "Narzędzie Pędzel geometrii",
+        "Tools.Names.Developer": "Narzędzie Deweloperskie",
+        "Tools.Names.ComponentClone": "Narzędzie klonowania komponentów",
+        "Tools.Names.ProtoFlux": "Narzędzie ProtoFlux",
+        "Tools.Names.Material": "Narzędzie materiału",
+        "Tools.Names.Glue": "Narzędzie klejenia",
+        "Tools.Names.Light": "Narzędzie Światła",
+        "Tools.Names.Shape": "Narzędzie kształtu",
+        "Tools.Names.Microphone": "Microphone Tool",
+        "Tools.Names.GrabbableSetter": "Grabbable Setter Tool",
+        "Tools.Names.PhysicalColliderSetter": "Physical Collider Setter Tool",
+        "Tools.Names.MeshVisibility": "Mesh Visibility Tool",
+        "Tools.Names.CameraObjectVisibility": "Camera Object Visibility Tool",
+        "Tools.Names.Color": "Narzędzie koloru",
+        "Tools.Names.Mesh": "Narzędzie siatki",
+        "Tools.Names.RiggedMeshTransfer": "Rigged Mesh Transfer Tool",
+        "Tools.Names.Slicer": "Mesh Slicer Tool",
+        "Tools.Names.ControllerDiagnostic": "Controller Diagnostic Tool",
+        "Tools.Names.Measure": "Narzędzie pomiarowe",
+        "Tools.Names.Label": "Label Tool",
 
         "Dummy": "Dummy"
     }
