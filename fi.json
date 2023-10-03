@@ -56,7 +56,7 @@
         "General.Sort.Descending": "Laskevasti",
 
         "Worlds.Home" : "Koti",
-        "Worlds.Tutorial" : "Harjoitukset",
+        "Worlds.Tutorial" : "Tutoriaali",
 
         "Locomotion.Noclip.Name": "Lento",
         "Locomotion.Noclip.Description": "Yksinkertainen läpäisevä lentotila.",
@@ -109,12 +109,12 @@
         "Interaction.CopyLink": "Kopioi linkki",
 
         "Inventory.OpenWorld": "Avaa Maailma",
-        "Inventory.Equip": "Ota Käyttöön",
+        "Inventory.Equip": "Ota käyttöön",
         "Inventory.Delete": "Poista",
-        "Inventory.SaveHeld": "Tallenna Kädessä Oleva",
+        "Inventory.SaveHeld": "Tallenna kädessä oleva",
         "Inventory.Inventories": "Inventaariot",
         "Inventory.Share": "Jaa",
-        "Inventory.Unshare": "Poista Jako",
+        "Inventory.Unshare": "Poista jako",
         "Inventory.SaveAvatar": "Tallenna Avatar",
         "Inventory.Favorite.Home": "Aseta Kodiksi",
         "Inventory.Favorite.ProgressBar": "Aseta Edistymispalkiksi",
@@ -147,8 +147,8 @@
         "Dash.Actions.CloudHome": "Pilvikotini",
 
         "Dash.Exit.Header": "Sulje {appName}",
-        "Dash.Exit.ExitAndSave": "Sulje & Tallenna Kodit",
-        "Dash.Exit.ExitAndDiscard": "Sulje & Hylkää Kodit",
+        "Dash.Exit.ExitAndSave": "Sulje & Tallenna kodit",
+        "Dash.Exit.ExitAndDiscard": "Sulje & Hylkää kodit",
         "Dash.Exit.Sponsor": "Valtava kiitos {name} projektin sponsoroinnista!",
         "Dash.Exit.Sponsor.You": "SINÄ",
         "Dash.Exit.Shoutouts": "Tämä projekti on ollut mahdollista näiden ihmisten ansiosta:",
@@ -193,10 +193,10 @@
         "World.Error.FailedToConnect": "Yhteyden muodostaminen epäonnistui",
         "World.Error.InvalidAddress": "Väärä osoite",
         "World.Error.NoPort": "Porttia ei ole määritetty",
-        "World.Error.IncompatibleVersion": "Yhteensopimaton Versio",
+        "World.Error.IncompatibleVersion": "Yhteensopimaton versio",
         "World.Error.HostBlocked": "Isäntä blokattu",
         "World.Error.HostBlockedDetail": "Olet blokannut isännän",
-        "World.Error.WorldCrash": "Maailma Kaatui",
+        "World.Error.WorldCrash": "Maailma kaatui",
         "World.Error.WorldCrashDetail" : "Kohtalokas virhe päivitettäessä maailmaa",
         "World.Error.Unknown": "Tuntematon virhe",
 
@@ -287,7 +287,7 @@
         "World.Category.ActiveSessions": "Aktiiviset Sessiot",
         "World.Category.ContactsSessions": "Kontaktien Sessiot",
         "World.Category.HeadlessSessions": "Palvelin Sessiot",
-        "World.Category.Social": "Sosiaalinen",
+        "World.Category.Social": "Sosiaaliset",
         "World.Category.Games": "Pelit",
         "World.Category.Art": "Taide",
         "World.Category.Tutorials": "Harjoitukset",
@@ -295,7 +295,7 @@
         "World.Category.Random": "Sekoitus",
         "World.Category.MyWorlds": "Omat Maailmani",
         "World.Category.Custom": "Mukauta Hakua",
-        "World.Category.GroupWorlds": "Ryhmän Maailmat",
+        "World.Category.GroupWorlds": "Ryhmien Maailmat",
 
         "World.AccessLevel.Anyone": "Kuka tahansa",
         "World.AccessLevel.RegisteredUsers": "Rekisteröityneet käyttäjät",
@@ -319,7 +319,7 @@
         "World.Filter.DataSources": "Tietolähteet:",
         "World.Filter.OpenedWorlds": "Avatut maailmat",
         "World.Filter.ActiveSessions": "Aktiiviset istunnot",
-        "World.Filter.PublishedWorlds": "Julkiset maailmat",
+        "World.Filter.PublishedWorlds": "Julkaistut maailmat",
         "World.Filter.LocalWorlds": "Paikalliset istunnot",
         "World.Filter.BaseSearch": "Haku:",
         "World.Filter.ByOwner": "Omistajan mukaan:",
@@ -339,11 +339,11 @@
         "World.Edit.Title": "Muokkaa maailman metatietoja",
         "World.Edit.Name": "Maailman nimi:",
         "World.Edit.Description": "Kuvaus:",
-        "World.Edit.Tags": "Tägit (pilkku erottelu):",
+        "World.Edit.Tags": "Tägit (pilkkuerottelulla):",
         "World.Edit.Path": "Maailman polku:",
         "World.Edit.AccessLevelHeader": "Kuka voi avata tämän maailman?",
         "World.Edit.AccessPrivate": "Vain minä",
-        "World.Edit.AccessPatreon": "Patreonin tukijat",
+        "World.Edit.AccessPatreon": "Patreon tukijat",
         "World.Edit.AccessPublic": "Kuka tahansa (Julkinen)",
 
         "Tools.AvatarCreator": "Avatarin luominen",
@@ -373,9 +373,9 @@
         "Options.Nameplates.DefaultStyle": "Käytä vakio nimilaattoja",
         "Options.Nameplates.CustomStyle": "Salli muokatut nimilaatat",
 
-
-
-
+        "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> Online {users,plural, one {käyttäjä} other {käyttäjää}}",
+        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {käyttäjä} other {käyttäjää}} VR-tilassa",
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {käyttäjä} other {käyttäjää}} Työpöytätilassa",
 
         "Indicator.ServerStatus.Status": "Pilven Tila",
         "Indicator.ServerStatus.Good": "Hyvä",
@@ -394,6 +394,38 @@
 
         "Indicator.LiveHiddenMessage": "(tiedot piilotettu suoratoiston aikana)",
 
+        "Login.InvalidCredentials": "Virheelliset kirjautumistiedot",
+        "Login.InvalidLogin": "Virheelliset kirjautumistiedot",
+
+        "Login.MalformedUID": "Virheelliset laitetiedot",
+        "Login.MissingUID": "Puutteelliset laitetiedot",
+        "Register.MissingUID": "Virheelliset laitetiedot",
+        "Register.MalformedUID": "Virheelliset laitetiedot",
+
+        "Login.MissingLogin": "Puuttuvat tunnukset",
+        "Login.InvalidRecoveryCode": "Virheellinen palautuskoodi",
+        "Login.UnsupportedAuthentication": "Todennusmenetelmää ei tueta",
+        "Login.EmailNotVerified": "Vahvistamaton sähköposti",
+        "Login.AccountTempLocked": "Käyttäjätili lukittu.",
+        "Login.AccountBanned": "Käyttäjätili estetty.",
+        "Login.DuplicateAccount": "Duplikaatti käyttäjätili",
+
+        "Register.MissingRequest": "Puuttuvat rekisteröintitiedot",
+        "Register.InvalidEmail": "Virheellinen sähköpostiosoite",
+        "Register.MissingUsername": "Puuttuva käyttäjänimi",
+        "Register.MissingEmail": "Puuttuva sähköpostiosoite",
+        "Register.UsernameTooLong": "Käyttäjänimi liian pitkä",
+        "Register.UsernameContainsAmpersand": "Käyttäjänimi ei voi sisältää @",
+        "Register.UsernameStartsWithU": "Käyttäjänimi ei voi alkaa U-",
+        "Register.InvalidUsername": "Virheellinen käyttäjänimi",
+        "Register.InvalidDateOfBirth": "Virheellinen syntymäaika",
+        "Register.UserContainsBlockedTerms": "Käyttäjänimi sisältää estettyjä sanoja",
+        "Register.MissingPassword": "Puuttuva salasana",
+        "Register.InvalidPassword": "Virheellinen salasana",
+        "Register.EmailAlreadyRegistered": "Sähköpostiosoite on jo käytössä",
+        "Register.UsernameAlreadyRegistered": "Käyttäjäni on jo käytössä",
+        "Register.ErrorCheckingUserId": "UserID tarkastusvirhe",
+
         "Account.Login": "Kirjaudu sisään",
         "Account.Logout": "Kirjaudu ulos",
         "Account.Register": "Rekisteröidy",
@@ -411,7 +443,7 @@
         "Account.UsernameOrEmail": "Käyttäjänimi tai Sähköposti:",
         "Account.Password": "Salasana:",
         "Account.RepeatPassword": "Toista Salasana:",
-        "Account.RecoverPassword": "Oletko Unohtanut Salasanan?",
+        "Account.RecoverPassword": "Unohtunut salasana?",
         "Account.LiveEmailWarning": "<color=#f00>Varoitus:</color> live.com, hotmail.com, outlook.com ja muilla Microsoftin alustoilla saattaa kestää jopa 1-2 päivää, ennen sähköpostin saapumista.",
         "Account.PasswordRules": "(vähintään 8 kirjainta, 1 numero, 1 pieni kirjain, 1 iso kirjain)",
         "Account.AgeConfirm": "Olen yli 13-vuotias",
@@ -426,7 +458,7 @@
         "Account.ErrorPasswordMismatch": "Salasanat eivät täsmää!",
         "Account.ErrorEmailMismatch": "Sähköpostit eivät täsmää!",
         "Account.ErrorLoginError": "Kirjautumisvirhe:",
-        "Account.RegistrationSuccess": "Onnistui! Vahvistuslinkki on lähetetty sähköpostiin: {email} Kun avaat tämän linkin, voit kirjautua sisään. Jos kirjautumisessa on ongelmia, ota meihin yhteyttä osoitteessa hello@{appName}.com tai discord.gg/resonite",
+        "Account.RegistrationSuccess": "Onnistui! Vahvistuslinkki on lähetetty sähköpostiin: {email} Kun avaat tämän linkin, voit kirjautua sisään. Jos kirjautumisessa on ongelmia, ota meihin yhteyttä osoitteessa {appEmail} tai {appCommunity}",
         "Account.BirthMonth": "Kuukausi:",
         "Account.BirthDay": "Päivä:",
         "Account.BirthYear": "Vuosi:",
@@ -437,7 +469,7 @@
         "Account.Saml2.Select" : "Valitse SAML 2.0 palvelu jota haluat käyttää:",
         "Account.Saml2.LoggingIn" : "Odotetaan kirjautumisen valmistumista (tarkista verkkoselaimesi)...",
 
-        "Account.TOTP.Title" : "Kaksi­vaiheinen tunnistautuminen",
+        "Account.TOTP.Title" : "Kaksi-vaiheinen tunnistautuminen",
         "Account.TOTP.Initializing": "Tarkistetaan tilisi 2FA-tila...",
         "Account.TOTP.Code.Header": "Salainen koodi",
         "Account.TOTP.Code.Description": "Ensin sinun on syötettävä salainen koodi TOTP-todennussovellukseesi, kuten <b>Authy</b> tai <b>Google Authenticator</b>.<br><br>Suosittelemme tämän tekemistä skannaamalla QR-koodin, mutta vaihtoehtoisesti voit syöttää salaisen koodin manuaalisesti. <b>Älä koskaan jaa tätä koodia kenenkään kanssa.</b><br><br>Jos olet VR-tilassa, voit siirtyä työpöytätilaan painamalla F8.",
@@ -462,7 +494,7 @@
         "Account.TOTP.Deactivate.Deactivating": "Poistetaan käytöstä...",
         "Account.TOTP.Message.DeactivationComplete": "2FA on poistettu käytöstä.<br><br>Tililläsi on nyt lisääntynyt riski!<br><br>Suosittelemme 2FA:n uudelleen käyttöön ottamista, varsinkin jos käytit palautuskoodia puhelimesi hukkaamisen vuoksi.",
 
-        "Account.Type.Standard" : "Vakiotili",
+        "Account.Type.Standard" : "Perustili",
         "Account.Type.Business" : "Yritystili",
         "Account.Type.Patreon" : "Patreon Tukija",
         "Account.Type.Mentor" : "{platform} Mentori",
@@ -490,7 +522,7 @@
         "Session.Permission.Contact": "Oletus kontakti:",
         "Session.Permission.Host": "Oletus isäntä:",
         "Session.Permission.PermissionOverrideCount": "Käyttäjä lupia: {n,select, -1 {---} other {{n}}}",
-        "Session.Permission.ClearOverrides": "Poista oletus käyttöoikeudet",
+        "Session.Permission.ClearOverrides": "Poista oletuskäyttöoikeudet",
 
 
 
@@ -523,17 +555,17 @@
         "Contacts.RecordingVoiceMessage": "Nauhoitetaan puhetta...",
 
         "Contacts.AvatarBlock" : "Estä Avatar",
-        "Contacts.MutualBlock" : "Yhteinen Esto",
-        "Contacts.SelfAccount": "Oma Tili",
+        "Contacts.MutualBlock" : "Yhteinen esto",
+        "Contacts.SelfAccount": "Minun tili",
         "Contacts.SearchPrompt": "Etsi kontakteja...",
         "Contacts.WriteMessage": "Kirjoita viesti...",
 
         "Contacts.InSession": "Maailmassa {name}",
         "Contacts.InPrivate": "Yksityisessä maailmassa",
-        "Contacts.InContactsOnly": "Vain Kontaktit maailmassa",
+        "Contacts.InContactsOnly": "Vain Kontaktit -maailmassa",
         "Contacts.InHidden": "Piilotetussa maailmassa",
-        "Contacts.InHiddenContactsOnly": "Piilotetussa, Vain Kontaktit maailmassa",
-        "Contacts.InHiddenContactsPlus": "Piilotetussa, Kontaktit+ maailmassa",
+        "Contacts.InHiddenContactsOnly": "Piilotetussa, Vain Kontaktit -maailmassa",
+        "Contacts.InHiddenContactsPlus": "Piilotetussa, Kontaktit+ -maailmassa",
         "Contacts.InLAN": "LAN-maailmassa",
         "Contacts.UsingDifferentVersion": "Käyttää versiota {version}",
         "Contacts.RequestSent": "Pyyntö lähetetty",
@@ -571,7 +603,7 @@
         "Undo.DuplicateGrabbed": "Kopioi napatut objektit",
 
         "Undo.ChangeBoxSize": "Muuta laatikon kokoa",
-        "Undo.BrushStroke": "Pensseli veto",
+        "Undo.BrushStroke": "Pensseliveto",
         "Undo.ChangeColor": "Vaihda väriä",
         "Undo.CloneComponent": "Kloonaa komponentti",
         "Undo.MoveIKBone": "Siirrä IK Bone",
@@ -585,11 +617,11 @@
         "Undo.ExtractMaterialsFromHierarchy": "Pura materiaalit hierarkiasta",
         "Undo.BatchConvertMaterials": "Erämuunna materiaalit",
 
-        "Tooltips.Brush.ChangeColor" : "Vaihda Väri",
+        "Tooltips.Brush.ChangeColor" : "Vaihda väri",
         "Tooltips.Brush.IncrementSize" : "Suurenna kokoa",
         "Tooltips.Brush.DecrementSize" : "Pienennä kokoa",
 
-        "Tooltips.Dev.CreateNew": "Tee uusi...",
+        "Tooltips.Dev.CreateNew": "Luo uusi...",
         "Tooltips.Dev.Selection": "Valintatila: {mode}",
         "Tooltips.Dev.DevMode.Off": "Kehittäjätila: Pois",
         "Tooltips.Dev.DevMode.On": "Kehittäjätila: Päällä",
@@ -862,11 +894,11 @@
         "Importer.Video.Depth.Prompt": "Esiasetettu syvyys",
         "Importer.Video.Depth.Default": "Oletus",
 
-
+        "Exporter.Title": "Vie",
         "Exporter.FileName": "Tiedoston nimi:",
-
-
-
+        "Exporter.ExportAs": "Vie nimellä:",
+        "Exporter.Export": "Vie",
+        "Exporter.Exporting": "Viedään...",
 
         "NewWorld.Title": "Uusi Maailma",
         "NewWorld.SessionTitle": "Uusi Sessio",
@@ -1059,7 +1091,7 @@
         "Settings.FetchIncompatibleSessions": "Näytä yhteensopimattomat istunnot",
         "Settings.DoNotSendReadStatus": "Älä lähetä tietoa luetusta viestistä reaaliajassa",
         "Settings.MaxConcurrentAssetTransfers": "Maksimimäärä samanaikaisia tiedostosiirtoja",
-        "Settings.AutosaveScreenshotPath": "Kuvankaappauksen automaattinen polku",
+        "Settings.AutosaveScreenshotPath": "Automaattisen kuvakaappauksen polku",
         "Settings.AutosaveAllScreenshots": "Tallenna KAIKKI kuvat automaattisesti maailmoissa",
 
 
@@ -1069,12 +1101,12 @@
         "Settings.LaserSmoothing.ModulateEndAngle": "Tarrauksen lopetuskulma",
         "Settings.LaserSmoothing.ModulateExponent": "Tarrauksen eksponentti",
         "Settings.LaserSmoothing.ModulateSpeedMultiplier": "Tarrauksen nopeuskerroin",
-        "Settings.LaserSmoothing.StickThreshold": "Kiinnityksen kynnys",
+        "Settings.LaserSmoothing.StickThreshold": "Tarrauksen kynnys",
         "Settings.Laser.ShowInDesktop": "Näytä laaseri työpöytätilassa",
         "Settings.LaserSmoothing.Reset": "Nollaa laaserin asetukset",
 
         "Settings.Audio.Header": "Audio",
-
+        "Settings.Audio.Input.Title" : "Äänen syöttölaitteet",
         "Settings.Audio.Master": "Pää-äänenvoimakkuus: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Ääniefektit: {n,number,percent}",
         "Settings.Audio.Multimedia": "Multimedia: {n,number,percent}",
@@ -1115,7 +1147,7 @@
         "Settings.Dash.Curvature": "Kaarevuus",
         "Settings.Dash.OpenCloseSpeed": "Avaamisen/Sulkemisen nopeus",
 
-        "Settings.LeapMotion.Name": "Leap Motion",
+
         "Settings.LeapMotion.Enabled": "Käytä Leap jäljitystä",
         "Settings.LeapMotion.HorizontalOffset": "Vaakasuuntainen siirto",
         "Settings.LeapMotion.VerticalOffset": "Vertikaalinen siirto",
@@ -1270,7 +1302,7 @@
 
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "POISTA AVATAR-SUOJAUS",
 
-        "Inspector.BipedRig.GetDiagnosticInfo": "Hae rigin diagnostiikka info",
+        "Inspector.BipedRig.GetDiagnosticInfo": "Rigin diagnostiikkatiedot",
         "Inspector.BipedRig.GenerateDebugVisuals": "Generoi debug visuaalit",
         "Inspector.BipedRig.ClearDebugVisuals": "Piilota debug visuaalit",
         "Inspector.BipedRig.DetectHands": "Etsi käsi rigit",
@@ -1297,7 +1329,7 @@
         "Inspector.Texture.AlphaToMask": "Alfa maskiksi",
         "Inspector.Texture.RemoveAlpha": "Poista alfa",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Muunna mustavalkoiseksi (keskiarvo)",
-
+        "Inspector.Texture.ConvertToGrayscaleLuminance": "Muunna mustavalkoiseksi (luminanssi)",
         "Inspector.Texture.SwapRG": "Vaihda R ja G",
         "Inspector.Texture.SwapRB": "Vaihda R ja B",
         "Inspector.Texture.SwapRA": "Vaihda R ja A",
@@ -1361,6 +1393,16 @@
         "Inspector.Audio.DenoiseRNNoise": "Melunvaimennus (RNNoise, optimoitu puheeseen 48kHz taajuudella)",
         "Inspector.Audio.ExtractSides": "Pura puolet (voi poistaa laulun stereoraidoilta)",
 
+
+
+
+
+
+
+
+
+
+
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Törmäyttimet & Tarttuminen -------",
 
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Tartu aina viimeiseen luuhun",
@@ -1371,6 +1413,9 @@
 
         "Inspector.AvatarExpression.AutoAssign": "Määritä Blendshapet automaattisesti (heuristiikan avulla)",
 
+
+
+
         "Inspector.ParticleStyle.CommonTransitions": "Yleiset siirtymämallit:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alfa alkuhäivytys & loppuhäivytys",
         "Inspector.ParticleStyle.AlphaFadeIn": "Alfa alkuhäivytys",
@@ -1380,7 +1425,28 @@
         "Inspector.ParticleStyle.IntensityFadeOut": "Voimakkuuden loppuhäivytys",
         "Inspector.ParticleStyle.ClearFades": "Poista häivytykset",
 
+
+
+
+
+
+
         "Inspector.Collider.Visualize": "Visualisoi törmäyttimet",
+
+
+
+
+
+
+
+        "Inspector.Actions.CopyComponent" : "Kopioi komponentti",
+        "Inspector.Actions.MoveComponent" : "Siirrä komponentti",
+
+        "UserInspector.Title" : "Käyttäjätarkastaja",
+
+
+
+        "CreateNew.Title" : "Uusi",
 
         "Wizard.General.ProcessRoot": "Prosessointipolku:",
         "Wizard.General.Result": "Tulos:",
@@ -1447,6 +1513,7 @@
         "Wizard.TextRenderer.ReplaceFont": "Korvaa fontti",
         "Wizard.TextRenderer.SetColor": "Aseta väri",
 
+        "Desktop.Controls.Title": "Työpöytätilan asetukset",
         "Desktop.OpenKeyboard": "Avaa näppäimistö",
         "Desktop.FollowCursor.On": "Seuraa osoitinta: Päällä",
         "Desktop.FollowCursor.Off": "Seuraa osoitinta: Pois",
@@ -1455,8 +1522,12 @@
         "Desktop.Brightness": "Kirkkaus: {n,number,percent}",
         "Desktop.Opacity": "Läpinäkyvyys: {n,number,percent}",
 
-        "Tutorial.Welcome.WelcomeTo": "Tervetuloa",
-        "Tutorial.Welcome.LetsStart": "Aloitetaan!",
+
+
+
+        "Tutorial.Welcome.Welcome": "Tervetuloa",
+
+        "Tutorial.Welcome.Begin": "Aloitetaan!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} tili",
         "Tutorial.Welcome.AccountDescription": "Kun teet tilin, saat 1 GB ilmaista tallennustilaa, kyvyn tallentaa tavaroita ja avatareja, lisätä kontakteja ja lähettää viestejä.",
@@ -1479,18 +1550,20 @@
         "Tutorial.Welcome.SettingsPrimaryLeftDescription": "<b>Vasen:</b> Käänny, <b>Oikea:</b> Liiku",
         "Tutorial.Welcome.SettingsPrimaryRight": "Oikea",
         "Tutorial.Welcome.SettingsPrimaryRightDescription": "<b>Vasen:</b> Liiku, <b>Oikea:</b> Käänny",
-        "Tutorial.Welcome.SettingsHeight": "Pituus",
+        "Tutorial.Welcome.SettingsHeight": "Pituutesi",
         "Tutorial.Welcome.SettingsHeightExamples": "Esim: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
-        "Tutorial.Welcome.StartTutorialHeader": "Aloita tutoriaali",
-        "Tutorial.Welcome.StartTutorialDescription": "Siirrämme sinut tutorial maailmaan auttaaksesi sinua pääsemään alkuun. Voit aloittaa tutorial sessiosi julkisena, johon muut pystyvät liittymään ja tulla auttamaan sinua, tai aloita yksityinen sessio.",
+        "Tutorial.Welcome.StartTutorialHeader": "Oletko valmis seikkailuun?",
+        "Tutorial.Welcome.StartTutorialDescription": "Siirrämme sinut tutoriaalimaailmaan, jonka lopussa sinua odottaa aivan uusi kotimaailma! Kun olet valmis, napsauta alla olevaa painiketta.",
+        "Tutorial.Welcome.StartTutorial": "Aloita tutoriaali",
 
-        "Tutorial.CommunityYouTube.Title": "Yhteisön YouTube kanavia",
+        "Tutorial.CommunityYouTube.Title": "Yhteisön YouTube kanavat",
 
-        "Tutorial.UserResources.UserResourcesTitle": "Yhteisöresursseja",
-        "Tutorial.UserResources.SupportTitle": "Kuinka voit tukea {appName}ta",
+        "Tutorial.UserResources.UserResourcesTitle": "Yhteisöresurssit",
+        "Tutorial.UserResources.SupportTitle": "Kuinka voit tukea {appName}a",
         "Tutorial.UserResources.MerchandiseTitle": "{appName} tuotteita",
 
+        "Tutorial.Intro.BadgesAppTeam": "{appName} Tiimi",
         "Tutorial.Intro.BadgesModerator": "Moderaattori",
         "Tutorial.Intro.BadgesMentor": "Mentori",
         "Tutorial.Intro.BadgesDisabilityHearing": "Kuuro & Heikentynyt kuulo",
@@ -1502,10 +1575,109 @@
 
         "Object.Mirror.Toggle": "Lokaali kytkin",
 
+        "Twitch.Panel.Button.Commands.Enabled": "Komennot käytössä",
+        "Twitch.Panel.Button.Commands.Disabled": "Komennot pois käytöstä",
+        "Twitch.Panel.Button.SafeMode.Enabled": "Turvatila käytössä",
+        "Twitch.Panel.Button.SafeMode.Disabled": "Turvatila pois käytöstä",
+        "Twitch.Panel.Button.SubscriberCommands.Enabled": "Tilaajakomennot<br> käytössä vain tilaajille",
+        "Twitch.Panel.Button.SubscriberCommands.Disabled": "Tilaajakomennot<br> käytössä kaikille",
+
+
         "Exiting.SavingItems": "Tallennetaan {n, plural, one {# kohde} other {# kohdetta}}...",
         "Exiting.SavingChanges": "Tallennetaan muutoksia...",
         "Exiting.Exiting": "Suljetaan...",
         "Exiting.LoggingOut": "Kirjaudutaan ulos...",
+
+        "Migration.Title": "Siirtyminen",
+        "Migration.NewTask": "Uusi siirtymistyö",
+
+        "Migration.LoginModal.Title": "Siirrä dataa?",
+        "Migration.LoginModal.Description": "Haluatko siirtää dataa toisesta tilistä? Voit tehdä tämän myös myöhemmin \"Siirtyminen\" välilehdestä.",
+        "Migration.LoginModal.OpenMigration": "Avaa siirtyminen",
+        "Migration.LoginModal.Later": "Myöhemmin",
+        "Migration.LoginResetID.Title": "Nollaa UserID?",
+
+        "Migration.LoginResetID.ResetButton": "Kyllä, nollaa",
+
+        "Migration.ReservedUsername.Title":"<b>Varattu käyttäjätunnus</b>",
+        "Migration.ReservedUsername.Description": "Tämä käyttäjätunnus on varattu. Jos tämä on sinun käyttäjätilisi, kirjaudu sisään {platform} käyttäjätunnuksella ja salasanalla. Me emme säilytä näitä tietoja, niitä käytetään vain tilisi omistajuuden vahvistamiseen rekisteröinnin yhteydessä.",
+        "Migration.SourcePassword": "{platform} Salasana:",
+        "Migration.SourceUsername": "{platform} Käyttäjätunnus:",
+
+        "Migration.Dialog.Title": "Tilin siirto",
+
+
+
+        "Migration.ResetID.Title": "Nollaa minun UserID",
+
+
+        "Migration.DataSelection.Title": "Kun siirrämme tilisi, mitkä kohteet haluat siirtää?",
+        "Migration.DataSelection.Everything": "Kaikki",
+        "Migration.DataSelection.Choose": "Anna minun valita",
+
+        "Migration.DataSelection.Favorites": "Suosikit (avatar, koti, kamera, näppäimistö, fasetit)",
+
+
+
+
+        "Migration.DataSelection.Home.Title": "Aseta vanha koti vakioksi?",
+
+
+        "Migration.DataSelection.Contacts": "Kontaktit",
+        "Migration.DataSelection.Message History": "Viestihistoria",
+        "Migration.DataSelection.InventoryWorld": "Inventaario & Maailmat",
+
+
+
+        "Migration.DataSelection.AlwaysOverwrite": "Ylikirjoita kaikki",
+
+        "Migration.Start": "Aloita siirtyminen",
+        "Migration.Groups.Title": "Siirrä ryhmät",
+        "Migration.Groups.Introduction": "Siirretäänkö myös ryhmäsi?",
+
+
+
+        "Migration.Groups.LoadGroups": "Lataa ryhmät",
+        "Migration.Groups.RefreshGroups": "Virkistä ryhmät",
+
+        "Migration.Groups.Fetching": "Haetaan ryhmiä...",
+        "Migration.Groups.Fetching.LoginFailed": "Virhe kirjautuessa sisään: {error}",
+        "Migration.Groups.Fetching.Error": "Virhe ryhmien haussa: {error}",
+        "Migration.Groups.NoGroups": "{platform} ryhmiä ei löytynyt siirrettäväksi.",
+        "Migration.Groups.NotGroupAdmin": "Et ole ainoankaan {platform} ryhmän omistaja, kysy ryhmän omistajaa siirtämään ryhmä!",
+
+
+
+
+        "Migration.List.EmptyTitle": "Uusi siirto?",
+        "Migration.List.EmptySubtitle": "Klikkaa \"Uusi siirtymistyö\" ylhäältä vasemmalta.",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Luotu:{time}\nStatus:{state}",
+        "Migration.Report.Title": "Siirtymistyön raportti:",
+        "Migration.Report.Description": "<color={hex}>Kuvaus:</color> {value}",
+        "Migration.Report.Status": "<color={hex}>Tila:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>Luotu:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>Aloitettu:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>Valmistunut:</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "Siirretään <color={hex}>{value}</color> dataa.",
+        "Migration.Report.CurrentItem": "Tämänhetkinen esine: <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>Tämänhetkinen nopeus:</color> ~{value} maailmaa/esinettä per minuutti",
+
+        "Migration.Report.EstimatedQueuePosition": "{value} <color={hex}>siirtoa jonossa ennen tätä siirtoa.</color>",
+        "Migration.Report.ContactStatus": "<color={hex}>{current}</color> / <color={hex}>{total}</color> kontaktia siirretty.",
+        "Migration.Report.MessageStatus": "<color={hex}>{value}</color> viestiä siirretty.",
+
+
+        "Migration.Report.RecordStatus": "<color={hex}>{current}</color> / <color={hex}>{total}</color> maailmaa/esinettä siirretty. <color=red>{failed}</color> epäonnistui.",
+        "Migration.Report.GroupStatus": "<color={hex}>{current}</color> / <color={hex}>{total}</color> ryhmää siirretty.",
+        "Migration.Report.GroupMemberStatus": "Siirretty <color={hex}>{value}</color> ryhmien jäsentä.",
+
+        "Migration.Error": "<color=red>Virhe:</color> {error}",
+        "Migration.NothingSelected": "Ei valintoja, ei voi aloittaa.",
+
+
 
         "Temporary.MMC.Voting UI": "MMC äänestysikkuna",
         "Temporary.MMC.Vote": "Äänestä",
@@ -1527,6 +1699,11 @@
         "Temporary.MMC.VoteFailure": "Äänestys epäonnistui! Yritä uudelleen.",
         "Temporary.MMC.VotedAlready": "Olet jo äänestänyt kohdetta {voteTarget}.",
         "Temporary.MMC.VoteInvalid": "Äänestys on virheellinen! Yritä uudelleen.",
+
+        "CloudHome.WelcomeHome": "Tervetuloa kotiin",
+
+
+        "Tutorial.Saving.Title": "Tervetuloa kotiin!",
 
         "Dummy": "Dummy"
     }
