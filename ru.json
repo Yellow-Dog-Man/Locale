@@ -9,7 +9,7 @@
         "General.Cancel": "Отмена",
         "General.Continue": "Продолжить",
         "General.Next": "Далее",
-        "General.Previous": "Previous",
+
         "General.Back": "Назад",
         "General.Confirm": "Точно?",
         "General.Loading": "Загрузка...",
@@ -28,16 +28,6 @@
         "General.Create": "Создать",
         "General.Creating": "Создание...",
         "General.Buy": "Купить",
-        "General.Yes": "Yes",
-        "General.No": "No",
-        "General.ClearSelection" : "Clear Selection",
-        "General.Off": "Off",
-        "General.On": "On",
-        "General.Understand": "I understand",
-        "General.Notice" : "Notice",
-        "General.UnderstandEnable" : "I understand, Enable",
-        "General.Dismiss": "Dismiss",
-        "General.Edit": "Edit",
 
         "General.UI.SearchPrompt": "Поиск...",
         "General.UI.SearchPromptLong": "Введите для поиска...",
@@ -54,9 +44,6 @@
 
         "General.Sort.Ascending": "По возрастанию",
         "General.Sort.Descending": "По убыванию",
-
-        "Worlds.Home" : "Home",
-        "Worlds.Tutorial" : "Tutorial",
 
         "Locomotion.Noclip.Name": "Noclip",
         "Locomotion.Noclip.Description": "Простой режим полёта сквозь стены. Идеально для редактирования мира.",
@@ -108,28 +95,6 @@
         "Interaction.ExportFile": "Экспортировать файл",
         "Interaction.CopyLink": "Копировать ссылку",
 
-        "Inventory.OpenWorld": "Open World",
-        "Inventory.Equip": "Equip",
-        "Inventory.Delete": "Delete",
-        "Inventory.SaveHeld": "Save Held",
-        "Inventory.Inventories": "Inventories",
-        "Inventory.Share": "Share",
-        "Inventory.Unshare": "Unshare",
-        "Inventory.SaveAvatar": "Save Avatar",
-        "Inventory.Favorite.Home": "Set Home",
-        "Inventory.Favorite.ProgressBar": "Set Progress Bar",
-        "Inventory.Favorite.AudioStreamController": "Set Stream Controller",
-        "Inventory.Favorite.TextDisplay": "Set Text Display",
-        "Inventory.Favorite.VideoPlayer": "Set Video Player",
-        "Inventory.Favorite.AudioPlayer": "Set Audio Player",
-        "Inventory.Favorite.InteractiveCamera": "Set Camera",
-        "Inventory.Favorite.Keyboard": "Set Keyboard",
-        "Inventory.Favorite.Avatar": "Set Avatar",
-        "Inventory.Favorite.WorldLoadingIndicator": "Set Loading Bar",
-        "Inventory.Favorite.ColorDialog": "Set Color Picker",
-        "Inventory.Favorite.Hyperlink": "Set URL Display",
-        "Inventory.SpawnFacet": "Spawn Facet",
-
         "Dash.Screens.Home": "Дом",
         "Dash.Screens.Worlds": "Миры",
         "Dash.Screens.Contacts": "Контакты",
@@ -149,15 +114,8 @@
         "Dash.Exit.Header": "Выйти из {appName}",
         "Dash.Exit.ExitAndSave": "Выйти и сохранить дома",
         "Dash.Exit.ExitAndDiscard": "Выйти и отменить изменения домов",
-        "Dash.Exit.Sponsor": "Huge thanks to {name} for sponsoring this project!",
-        "Dash.Exit.Sponsor.You": "YOU",
-        "Dash.Exit.Shoutouts": "This project is also being made possible thanks to these people:",
-        "Dash.Exit.Shoutouts.AndMore" : " and many more!",
-        "Dash.Exit.Shoutouts.You" : "{name} (That's you! Thank you!)",
-        "Dash.Exit.ThankYou": "Thank you for using {appName}!",
-        "Dash.Exit.SubmittedBy": "Submitted by: {name}",
-
-        "Facets.FPS": "{fps}<size=61.803%> FPS</size>",
+        "Dash.Exit.ThankYou": "Спасибо за использование {appName}!",
+        "Dash.Exit.SubmittedBy": "Опубликовано: {name}",
 
         "World.Waiting": "Ожидание...",
         "World.HostIsStarting": "Хост начинает сессию",
@@ -194,11 +152,8 @@
         "World.Error.InvalidAddress": "Ошибочный адрес",
         "World.Error.NoPort": "Не указан порт",
         "World.Error.IncompatibleVersion": "Несовместимая версия {appName}",
-        "World.Error.HostBlocked": "Host blocked",
-        "World.Error.HostBlockedDetail": "You have blocked the host",
-        "World.Error.WorldCrash": "World Crashed",
-        "World.Error.WorldCrashDetail" : "Fatal error when updating the world",
-        "World.Error.Unknown": "Unknown Error",
+
+        "World.Error.Unknown": "Неизвестная Ошибка",
 
         "World.Config.Name": "Название мира:",
         "World.Config.Description": "Описание:",
@@ -285,7 +240,7 @@
         "World.Category.Featured": "Рекомендуемые",
         "World.Category.PublishedWorlds": "Опубликованные миры",
         "World.Category.ActiveSessions": "Активные сессии",
-        "World.Category.ContactsSessions": "Contacts Sessions",
+
         "World.Category.HeadlessSessions": "Серверные сессии",
         "World.Category.Social": "Социальные",
         "World.Category.Games": "Игры",
@@ -295,12 +250,10 @@
         "World.Category.Random": "Вперемешку",
         "World.Category.MyWorlds": "Мои миры",
         "World.Category.Custom": "Расширенный поиск",
-        "World.Category.GroupWorlds": "Group Worlds",
 
         "World.AccessLevel.Anyone": "Все",
         "World.AccessLevel.RegisteredUsers": "Зарегистрированные",
-        "World.AccessLevel.Contacts": "Contacts",
-        "World.AccessLevel.ContactsPlus": "Contacts+",
+
         "World.AccessLevel.LAN": "Локальная сеть",
         "World.AccessLevel.Private": "Приватный (Только по приглашению)",
 
@@ -330,7 +283,7 @@
         "World.Filter.MyWorlds": "Мои миры",
         "World.Filter.SessionFiltering": "Фильтр сессии:",
         "World.Filter.MinimumUsers": "Минимум пользователей: <b>{n}</b>",
-        "World.Filter.MinimumContacts": "Minimum Contacts: <b>{n}</b>",
+
         "World.Filter.OnlyHeadless": "Только серверные хосты",
         "World.Filter.MaxAccessLevel": "Максимальный уровень доступа:",
         "World.Filter.MinimumUptime": "Минимальное время работы:",
@@ -354,7 +307,6 @@
         "Tools.StreamAudio": "Стриминг аудио",
         "Tools.Setup2FA": "Настроить 2FA (двухфакторную аутентификацию)",
 
-        "Tools.StreamAudio.Dialog.Title" : "Create Audio Stream",
         "Tools.StreamAudio.Start": "Начать трансляцию",
         "Tools.StreamAudio.Bitrate": "Битрейт: {bitrate} кбит/с",
         "Tools.StreamAudio.Title": "Аудио поток {username}",
@@ -370,18 +322,9 @@
         "Options.Nameplates.All": "Имена: Все",
         "Options.Nameplates.NonContacts": "Имена: Не-контакты",
         "Options.Nameplates.Hide": "Имена: Спрятать",
-        "Options.Nameplates.DefaultStyle": "Use default nameplates",
-        "Options.Nameplates.CustomStyle": "Allow custom nameplates",
 
         "Indicator.OnlineUsers": "Пользователи Онлайн: {num_registered} (~{num_total})",
-        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {user} other {users}} in VR",
-        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {user} other {users}} in Desktop",
-
-        "Indicator.ServerStatus.Status": "Cloud Status",
-        "Indicator.ServerStatus.Good": "Good",
-        "Indicator.ServerStatus.Slow": "Slow",
-        "Indicator.ServerStatus.Down": "Down",
-        "Indicator.ServerStatus.NoInternet": "No Internet",
+        "Indicator.ServerStatus": "<color=#fff>Статус Сервера:</color> {status, select, Good{Хорошо} Slow {Медл.} Down {Упал} NoInternet {Нет Интернета}} ({response_ms} мс)",
 
         "Indicator.Sync.AllSynced": "Все Синхронизировано",
         "Indicator.Sync.SyncingItems": "Синхронизация {item_count,plural, one {# предмета} few {# предметов} many {# предметов}} <nobr>({item_percent} %)",
@@ -389,42 +332,42 @@
         "Indicator.Sync.SyncError": "Ошибка Синхронизации ! <size=50%>Проверьте лог для подробностей</size>",
         "Indicator.Sync.StorageFull": "Нет Места! <size=50%>Невозможно синхронизировать</size>",
 
-        "Indicator.Storage.StorageFull": "Storage Full",
-        "Indicator.Storage.Usage": "{storage_used} of {storage_max}<br><size=61.803%>Storage Space Used</size>",
+        "Indicator.Storage.StorageFull": "Нет места в хранилище",
+        "Indicator.Storage.Usage": "{storage_used} из {storage_max}<br><size=61.803%>занято в хранилище</size>",
 
         "Indicator.LiveHiddenMessage": "(Информация скрыта пока пользователь в статусе: live)",
 
-        "Login.InvalidCredentials": "Invalid credentials",
-        "Login.InvalidLogin": "Invalid credentials",
+        "Login.InvalidCredentials": "Неверные учетные данные",
+        "Login.InvalidLogin": "Неверные учетные данные",
 
-        "Login.MalformedUID": "Invalid device information",
-        "Login.MissingUID": "Missing device information",
-        "Register.MissingUID": "Invalid device information",
-        "Register.MalformedUID": "Invalid device information",
+        "Login.MalformedUID": "Некорректная информация об устройстве",
+        "Login.MissingUID": "Отсутствует информация об устройстве",
+        "Register.MissingUID": "Отсутствует информация об устройстве",
+        "Register.MalformedUID": "Некорректная информация об устройстве",
 
-        "Login.MissingLogin": "No credentials provided",
-        "Login.InvalidRecoveryCode": "Invalid recovery code",
-        "Login.UnsupportedAuthentication": "Unsupported authentication method",
-        "Login.EmailNotVerified": "Email not verified",
-        "Login.AccountTempLocked": "Your account is locked.",
-        "Login.AccountBanned": "Your account is banned.",
-        "Login.DuplicateAccount": "Duplicate account",
+        "Login.MissingLogin": "Не указан логин",
+        "Login.InvalidRecoveryCode": "Неверный код восстановления",
+        "Login.UnsupportedAuthentication": "Неподдерживаемый метод аутентификации",
+        "Login.EmailNotVerified": "Электронная почта не подтверждена",
+        "Login.AccountTempLocked": "Ваш аккаунт временно заблокирован.",
+        "Login.AccountBanned": "Ваш аккаунт забанен.",
+        "Login.DuplicateAccount": "Аккаунт дубликат",
 
-        "Register.MissingRequest": "Missing registration details",
-        "Register.InvalidEmail": "Invalid Email address",
-        "Register.MissingUsername": "Missing username",
-        "Register.MissingEmail": "Missing Email",
-        "Register.UsernameTooLong": "Username too long",
-        "Register.UsernameContainsAmpersand": "Username cannot contain @",
-        "Register.UsernameStartsWithU": "Username cannot start with U-",
-        "Register.InvalidUsername": "Invalid username",
-        "Register.InvalidDateOfBirth": "Invalid date of birth",
-        "Register.UserContainsBlockedTerms": "Username contains blocked words",
-        "Register.MissingPassword": "Missing Password",
-        "Register.InvalidPassword": "Invalid Password",
-        "Register.EmailAlreadyRegistered": "Email already registered",
-        "Register.UsernameAlreadyRegistered": "Username already registered",
-        "Register.ErrorCheckingUserId": "Error checking UserID",
+        "Register.MissingRequest": "Отсутвуют данные для регистрации",
+        "Register.InvalidEmail": "Некорректная электронная почта",
+        "Register.MissingUsername": "Отсутвует имя пользователя",
+        "Register.MissingEmail": "Отсутвует электронная почта",
+        "Register.UsernameTooLong": "Имя пользователя слишком длинное",
+        "Register.UsernameContainsAmpersand": "В имение пользователя не должны присутвовать символы: @",
+        "Register.UsernameStartsWithU": "Имя пользователя не должно начинаться с U-",
+        "Register.InvalidUsername": "Некорректное имя пользователя",
+        "Register.InvalidDateOfBirth": "Некорректная дата рождения",
+        "Register.UserContainsBlockedTerms": "Имя пользователя содержит запрещенные слова",
+        "Register.MissingPassword": "Отсутствует пароль",
+        "Register.InvalidPassword": "Некорректный пароль",
+        "Register.EmailAlreadyRegistered": "Электронная почта уже используется",
+        "Register.UsernameAlreadyRegistered": "Имя пользователя уже используется",
+        "Register.ErrorCheckingUserId": "Проверка ошибок UserID",
 
         "Account.Login": "Войти",
         "Account.Logout": "Выйти",
@@ -438,7 +381,7 @@
         "Account.Anonymous": "Аноним",
         "Account.Username": "Имя пользователя:",
         "Account.Email": "Email:",
-        "Account.RememberMe": "Запомнить меня (на 7 дней):",
+        "Account.RememberMe": "Запомнить меня<br><size=50%>(авто-выход из системы после 30 дней бездействия)</size>",
         "Account.RepeatEmail": "Повторите Email:",
         "Account.UsernameOrEmail": "Имя Пользователя или Email:",
         "Account.Password": "Пароль:",
@@ -446,7 +389,7 @@
         "Account.RecoverPassword": "Забыли пароль?",
         "Account.LiveEmailWarning": "<color=#f00>ПРЕДУПРЕЖДЕНИЕ:</color> live.com, hotmail.com, outlook.com и другие почтовые службы Microsoft могут вызвать задержку письма с подтверждением до 1-2 дней.",
         "Account.PasswordRules": "(Как минимум 8 символов, в том числе хотя бы 1 цифра, 1 заглавная и 1 строчная буквы)",
-        "Account.AgeConfirm": "Мне 13 (или больше) лет",
+        "Account.AgeConfirm": "Мне 16 (или больше) лет",
         "Account.LostPassword": "Забыт пароль",
         "Account.SendRecoveryCode": "Отправить код восстановления",
         "Account.ResetPasswordHeader": "Сбросить ваш пароль",
@@ -459,27 +402,27 @@
         "Account.ErrorEmailMismatch": "Email-ы не совпадают!",
         "Account.ErrorLoginError": "Ошибка входа в аккаунт:",
         "Account.RegistrationSuccess": "<size=120%>Успех!</size><br><br>На {email} было отправлено письмо с ссылкой подтверждения.<br><br>Когда Вы активируете эту ссылку - мы автоматически залогиним Вас, если этот диалог будет открыт.<br><br>Если Вы столкнетесь с любыми проблемами, напишите нам на hello@{appName}.com или discord.gg/resonite",
-        "Account.BirthMonth": "Birth Month:",
-        "Account.BirthDay": "Birth Day:",
-        "Account.BirthYear": "Birth Year:",
-        "Account.PoliciesAgreement": "I agree to the <color=#22B2FF>terms of service</color> and <color=#22B2FF>privacy policy</color>",
-        "Account.AlternateMethods" : "Login with a 3rd party service instead:",
+        "Account.BirthMonth": "Месяц рождения:",
+        "Account.BirthDay": "День рождения:",
+        "Account.BirthYear": "Год рождения:",
+        "Account.PoliciesAgreement": "Я согласен с <color=#22B2FF>условия оказания услуг</color> и <color=#22B2FF>политикой конфиденциальности</color>",
+        "Account.AlternateMethods" : "Войти с помощью строннего сервиса:",
 
         "Account.Saml2.Title" : "SAML 2.0",
-        "Account.Saml2.Select" : "Please select the SAML 2.0 provider you want to use:",
-        "Account.Saml2.LoggingIn" : "Waiting for the login to complete (check your web browser)...",
+        "Account.Saml2.Select" : "Выберите SAML 2.0 провайдера:",
+        "Account.Saml2.LoggingIn" : "Ожидание завершения входа в систему (проверьте свой веб-браузер)...",
 
-        "Account.TOTP.Title" : "Two Factor Authentication",
+        "Account.TOTP.Title" : "Двухфакторная аутентификация",
         "Account.TOTP.Initializing": "Проверка состояния 2FA для вашего аккаунта...",
         "Account.TOTP.Code.Header": "Секретный код",
         "Account.TOTP.Code.Description": "Сначала Вы должны ввести секретный код в ваше TOTP приложение, такое как <b>Authy</b> или <b>Google Authenticator</b>.<br><br>Мы рекомендуем сделать это, отсканировав QR код, но Вы можете также ввести секретный код вручную. <b>Никогда не делитесь секретным кодом с другими.</b><br><br>Если Вы в VR, Вы можете переключиться в экранный режим нажав F8.",
         "Account.TOTP.Code.QRCode": "Отсканировать QR код",
         "Account.TOTP.Code.Key": "Секретный код:",
         "Account.TOTP.RecoveryCodes.Header": "Коды восстановления",
-        "Account.TOTP.RecoveryCodes.Description": "Сохраните эти коды в безопасном месте. Их можно будет использовать для восстановления доступа к аккаунту в случае если Вы сломаете или потеряете ваш телефон. Кадлый код может быть использован только один раз. <b>Никогда не делитесь ими с другими.</b> Если Вы потеряете их, вы <color=red>НАВСЕГДА</color> потеряете доступ к вашему аккаунту.",
+        "Account.TOTP.RecoveryCodes.Description": "Сохраните эти коды в безопасном месте. Их можно будет использовать для восстановления доступа к аккаунту в случае если Вы сломаете или потеряете ваш телефон. Каждый код может быть использован только один раз. <b>Никогда не делитесь ими с другими.</b> Если Вы потеряете их, вы <color=red>НАВСЕГДА</color> потеряете доступ к вашему аккаунту.",
         "Account.TOTP.RecoveryCodes.Codes": "Коды:",
         "Account.TOTP.Activate.Header": "Активировать 2FA",
-        "Account.TOTP.Activate.Description": "In order to activate the 2FA on your account, use the 6-digit token generated by your authenticator app to ensure that everything is working correctly.<br><br>Once activated, you'll need to use the code to confirm certain operations.",
+        "Account.TOTP.Activate.Description": "Чтобы активировать 2FA на своей учетной записи, используйте 6-значный токен, сгенерированный приложением-аутентификатором.<br><br>После активации потрубется использовать код для подтверждения некоторых операций.",
         "Account.TOTP.Activate.Token": "6-значный код:",
         "Account.TOTP.Activate.TokenField": "Введите ваш код...",
         "Account.TOTP.Activate.Activate": "Активировать",
@@ -487,19 +430,19 @@
         "Account.TOTP.Activate.InvalidToken": "Неправильный код!",
         "Account.TOTP.Message.AlreadySetup": "2FA уже была настроена на вашем аккаунте!",
         "Account.TOTP.Message.Error": "Неожиданная ошибка! Попробуйте позже.",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>Congratulations!</size><br><br>Your account is now setup with 2FA for extra protection!<br><br>You can optionally enable this for account login with /enableLogin2FA command.",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Поздравляем!</size><br><br>На вашем аккаунте установлен 2FA!<br><br>Теперь, по желанию, можно включить 2FA для входа в учетную запись с помощью комманды: /enableLogin2FA",
         "Account.TOTP.Deactivate.Header": "Деактивировать 2FA",
         "Account.TOTP.Deactivate.Description": "2FA в настоящий момент <b><color=green>настроена и активна на этом аккаунте</color></b>. Если Вам нужно отключить её (например, при утере телефона или утечке кодов), Вы можете сделать это здесь.<br><br>После деактивации, 2FA можно настроить заново, при этом будет сгенерирован новый секретный код и новый набор кодов восстановления.<br><br>Если Вы потеряете телефон и Вам будет необходимо заново настроить 2FA, мы <b>НАСТОЯТЕЛЬНО</b> рекомендуем сделать это сразу же, так как каждый код восстановления может быть использован только единожды и когда все закончатся - Вы полностью потеряете доступ к аккаунту.",
         "Account.TOTP.Deactivate.Deactivate": "Деактивировать",
         "Account.TOTP.Deactivate.Deactivating": "Деактивация...",
         "Account.TOTP.Message.DeactivationComplete": "2FA была успешно деактивирована на вашем аккаунте.<br><br>Ваш аккаунт сейчас подвержен дополнительному риску!<br><br>Мы настоятельно рекомендуем заново настроить 2FA, особенно если Вы использовали код восстановления в связи с утратой телефона.",
 
-        "Account.Type.Standard" : "Standard Account",
-        "Account.Type.Business" : "Business Account",
-        "Account.Type.Patreon" : "Patreon Supporter",
-        "Account.Type.Mentor" : "{platform} Mentor",
-        "Account.Type.Moderator" : "{platform} Moderator",
-        "Account.Type.Team" : "{platform} Team",
+        "Account.Type.Standard" : "Стандартный Аккаунт",
+        "Account.Type.Business" : "Бизнесс Аккаунт",
+        "Account.Type.Patreon" : "Спонсор на Patreon",
+        "Account.Type.Mentor" : "{platform} Учитель",
+        "Account.Type.Moderator" : "{platform} Модератор",
+        "Account.Type.Team" : "{platform} Группа",
 
         "Avatar.Badge.Live" : "LIVE",
 
@@ -511,7 +454,6 @@
         "Profile.Status.Busy": "Занят",
         "Profile.Status.Invisible": "Невидимый",
         "Profile.Status.Offline": "Оффлайн",
-        "Profile.Status.Headless": "Headless Host",
 
         "Session.Tab.Settings": "Настройки",
         "Session.Tab.Users": "Пользователи",
@@ -523,12 +465,6 @@
         "Session.Permission.Host": "По умолчанию Хост:",
         "Session.Permission.PermissionOverrideCount": "Переопределения разрешений: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Отменить пользовательские переопределения",
-
-        "Session.JoinVerifier.EnableHeader" : "Activate Custom Join Verifier?",
-        "Session.JoinVerifier.EnableText" : "<color=red>WARNING:</color> You are about to enable custom join verification that is part of the current world. Before you do so, make sure you trust the creator of the world, as custom verifier can bypass standard session access rules and allow or block entry to users using its own rules.",
-        "Session.JoinVerifier.Label" : "Use Custom Join Verifier: {name}",
-        "Session.JoinVerifier.ComponentWarning" : "<color=red>WARNING:</color> At the moment, there is no mechanism to prevent tampering with the verifier once enabled. If tampering with the ProtoFlux setup for verification is a concern, DO NOT USE this feature and DO NOT ENABLE it in your worlds.",
-        "Session.JoinVerifier.SetCustomVerifier" : "Set as custom join request verifier",
 
         "Permissions.NotAllowedToSpawn": "Вам запрещено создавать здесь предметы.",
         "Permissions.NotAllowedToSave": "Вам запрещено сохранять объекты из этого мира.",
@@ -547,25 +483,17 @@
         "Contacts.AcceptRequest": "Принять Запрос",
         "Contacts.IgnoreRequest": "Игнорировать Запрос",
         "Contacts.Invite": "Пригласить сюда",
-        "Contacts.RevokeInvite": "Revoke Invite",
         "Contacts.BanFromAllSessions": "Заблокировать в созданных мной сессиях",
         "Contacts.UnbanFromAllSessions": "Разблокировать в созданных мной сессиях",
         "Contacts.BanFromCurrentWorld": "Заблокировать в этом мире",
         "Contacts.UnbanFromCurrentWorld": "Разблокировать в этом мире",
         "Contacts.RecordingVoiceMessage": "Записывает голосовое сообщение...",
-        "Contacts.Unblocked" : "Unblocked",
-        "Contacts.AvatarBlock" : "Block Avatar",
-        "Contacts.MutualBlock" : "Mutual Block",
-        "Contacts.SelfAccount": "My Account",
-        "Contacts.SearchPrompt": "Search contacts...",
-        "Contacts.WriteMessage": "Write a message...",
 
         "Contacts.InSession": "В {name}",
         "Contacts.InPrivate": "В приватном мире",
-        "Contacts.InContactsOnly": "In Contacts Only World",
+
         "Contacts.InHidden": "В скрытом мире",
-        "Contacts.InHiddenContactsOnly": "In Hidden, Contacts Only World",
-        "Contacts.InHiddenContactsPlus": "In Hidden, Contacts+ World",
+
         "Contacts.InLAN": "В мире в локальной сети",
         "Contacts.UsingDifferentVersion": "Использует версию {version}",
         "Contacts.RequestSent": "Запрос отправлен",
@@ -574,13 +502,14 @@
         "Contacts.Blocked": "Заблокирован",
         "Contacts.SearchResult": "Результат поиска",
         "Contacts.Bot": "Бот",
-        "Contacts.Migrated": "Contact hasn't Migrated",
 
         "Notifications.IsOnline": "Сейчас Онлайн",
         "Notifications.IsOnlineOnDifferentVersion": "Сейчас Онлайн <size=75%>(использует версию: {version})</size>",
         "Notifications.ReceivedContactRequest": "Отправлен запрос на добавление",
         "Notifications.ReceivedInvite": "Приглашает вас в :",
         "Notifications.ReceivedItem": "Отправил(-ла) вам предмет:",
+        "Notifications.ReceivedTip": "Получил(-ла) чаевые {amount} {token}",
+        "Notifications.SentTip": "Отправил чаевые {amount} {token}",
         "Notifications.VoiceMessage": "Отправил(-ла) голосовое сообщение",
 
         "Undo.SetField": "Установка {field_name} в {value}",
@@ -617,10 +546,6 @@
         "Undo.ExtractMaterialsFromHierarchy": "Извлечение материалов из иерархии",
         "Undo.BatchConvertMaterials": "Пакетное конвертирование материалов",
 
-        "Tooltips.Brush.ChangeColor" : "Change Color",
-        "Tooltips.Brush.IncrementSize" : "Increment Size",
-        "Tooltips.Brush.DecrementSize" : "Decrement Size",
-
         "Tooltips.Dev.CreateNew": "Создание нового...",
         "Tooltips.Dev.Selection": "Выбор: {mode}",
         "Tooltips.Dev.DevMode.Off": "Режим разработчика: Выкл",
@@ -629,14 +554,6 @@
         "Tooltips.Dev.DeselectAll": "Убрать выделение",
         "Tooltips.Dev.DestroySelected": "Удалить выделенные",
         "Tooltips.Dev.ConfirmDestroySelected": "ТОЧНО удалить выделенное",
-
-        "Tooltips.Dev.GizmoOptions" : "Gizmo Options",
-        "Tooltips.Dev.SelectParent" : "Select Parent",
-        "Tooltips.Dev.LocalSpace" : "Local Space",
-        "Tooltips.Dev.GlobalSpace" : "Global Space",
-        "Tooltips.Dev.Translation" : "Translation",
-        "Tooltips.Dev.Rotation" : "Rotation",
-        "Tooltips.Dev.Scale" : "Scale",
 
         "Tooltip.Color.Picker": "Инстр: Пипетка",
 
@@ -675,8 +592,6 @@
         "Tooltip.Material.CreateNew": "Создать новый",
 
         "Tooltip.Mesh.Edit": "Редактировать меш",
-        
-        "Tooltip.Cartridge.Eject": "Eject Orb",
 
         "Tooltip.Microphone.Format.WAV": "WAV",
         "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
@@ -685,25 +600,6 @@
         "Tooltip.Microphone.ModePress": "Нажмите чтобы начать/закончить запись",
         "Tooltip.Microphone.SourceRaw": "Сырой",
         "Tooltip.Microphone.SourceFiltered": "Фильтрованный и нормализованный",
-
-        "Tooltip.ProtoFlux.Drive" : "Drive",
-        "Tooltip.ProtoFlux.Source" : "Source",
-        "Tooltip.ProtoFlux.Reference" : "Reference",
-        "Tooltip.ProtoFlux.Write" : "Write",
-        "Tooltip.ProtoFlux.Proxy" : "Proxy",
-        "Tooltip.ProtoFlux.CreateLocal" : "Create Local",
-        "Tooltip.ProtoFlux.CreateStore" : "Create Store",
-        "Tooltip.ProtoFlux.CreateDataModelStore" : "Create Data Model Store",
-        "Tooltip.ProtoFlux.Overview" : "Toggle Overview Mode",
-        "Tooltip.ProtoFlux.NodeBrowser" : "Browse nodes",
-        "Tooltip.ProtoFlux.PackInPlace" : "Pack In Place",
-        "Tooltip.ProtoFlux.PackInto" : "Pack Into <size=50%>{name}</size>",
-        "Tooltip.ProtoFlux.Unpack" : "Unpack <size=50%>{name}</size>",
-        "Tooltip.ProtoFlux.ExplicitCast" : "Explicit Cast\n<size=50%>(<color=red>Warning:</color> Potential Data Loss)</size>",
-
-        "ProtoFlux.UI.Call" : "Call",
-        "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> Call",
-        "ProtoFlux.UI.NodeBrowser.Title" : "ProtoFlux Nodes",
 
         "CreateNew.Back": "<<< <i>Назад</i>",
         "CreateNew.EmptyObject": "Пустой объект",
@@ -802,7 +698,7 @@
         "Importer.Image.Prompt": "Что вы импортируете?",
         "Importer.Image.Regular": "Изображение / Текстуру",
         "Importer.Image.Screenshot": "Фото из {appName} <size=50%>(снятое здась)</size>",
-        "Importer.Image.PixelArt" : "Pixel Art",
+
         "Importer.Image.360": "360 фото / скайбокс",
         "Importer.Image.StereoPhoto": "Стерео Фото",
         "Importer.Image.Stereo360": "Стерео 360 Фото",
@@ -893,15 +789,9 @@
         "Importer.Video.Stereo180": "Стерео 180 Видео",
         "Importer.Video.Depth.Prompt": "Пресет Глубины",
         "Importer.Video.Depth.Default": "По Умолчанию",
-        
-        "Exporter.Title": "Export",
-        "Exporter.FileName": "File name:",
-        "Exporter.ExportAs": "Export as:",
-        "Exporter.Export": "Export",
-        "Exporter.Exporting": "Exporting...",
 
         "NewWorld.Title": "Новый мир",
-        "NewWorld.SessionTitle": "New Session",
+
         "NewWorld.Template": "Шаблон мира:",
         "NewWorld.CustomPreset": "Кастомная предустановка:",
         "NewWorld.SessionSettings": "Настройки сессии:",
@@ -1045,7 +935,7 @@
         "CameraControl.OBS.Bitrate": "Битрейт: {n}/сек",
         "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "Пропущенные кадры: {n}",
-        "CameraControl.OBS.Idle": "IDLE",
+
         "CameraControl.OBS.Live": "LIVE",
         "CameraControl.OBS.Recording": "REC",
         "CameraControl.OBS.OpenInstallerReason": "С этой страницы можно будет скачать плагин websocket для OBS",
@@ -1068,7 +958,6 @@
         "Settings.HideAllTutorials": "Убрать все обучения",
         "Settings.ShowInteractionHints": "Показать подсказки взаимодействия",
         "Settings.PrimaryController": "Основной контроллер",
-        "Settings.Hotswitching": "VR Hotswitching",
         "Settings.AllowStrafing": "Включить стрейф",
         "Settings.UseHeadDirectionForMovement": "Использовать направление головы для движения",
         "Settings.SmoothTurn": "Плавный поворот",
@@ -1092,7 +981,7 @@
         "Settings.DoNotSendReadStatus": "Не отправлять сообщение о прочтении сразу",
         "Settings.MaxConcurrentAssetTransfers": "Максимальное количество передач ресурсов",
         "Settings.AutosaveScreenshotPath": "Путь авто-сохранения скриншотов",
-        "Settings.AutosaveAllScreenshots": "Auto-save ALL screenshots in world",
+
         "Settings.DebugInputBinding": "Отладка привязки ввода",
 
         "Settings.LaserSmoothing.Header": "Сглаживание лазера",
@@ -1106,7 +995,7 @@
         "Settings.LaserSmoothing.Reset": "Сброс настроек лазера",
 
         "Settings.Audio.Header": "Аудио",
-        "Settings.Audio.Input.Title" : "Audio Input Devices",
+
         "Settings.Audio.Master": "Общая громкость: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Звуковые эффекты: {n,number,percent}",
         "Settings.Audio.Multimedia": "Мультимедиа: {n,number,percent}",
@@ -1130,7 +1019,6 @@
 
         "Settings.Graphics.DesktopFOV": "Поле зрения в экранном режиме",
 
-        "Settings.Locale.Title" : "UI Language",
         "Settings.Locale.ChangeLanguage": "Сменить язык",
         "Settings.Locale.SelectLanguageHeader": "Выберите ваш язык:",
         "Settings.Locale.DefaultLanguage": "Системный по-умолчанию",
@@ -1166,7 +1054,6 @@
         "Settings.System.KeepOriginalScreenshotFormat": "Оставить оригинальный формат скриншота",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "Когда включена эта настройка, скриншоты при сохранении в Документы не будут конвертированы в формат JPG",
 
-        "Security.Hyperlink.Title" : "External Link",
         "Security.Hyperlink.Warning": "<b><size=125%>ПРЕДУПРЕЖДЕНИЕ: Исходящая гиперссылка </size></b>\nВы нажали на гиперссылку в мире. Вы хотите её открыть? Гиперссылка откроется в вашем браузере на рабочем столе.",
         "Security.Hyperlink.Open": "Открыть",
         "Security.Hyperlink.Cancel": "Отмена",
@@ -1179,14 +1066,6 @@
         "Security.HostAccess.Allow": "Принять",
         "Security.HostAccess.Deny": "Отклонить",
 
-        "ComponentSelector.Back" : "< (back)",
-        "ComponentSelector.Title" : "Components",
-        "ComponentSelector.CreateCustomType" : "Create Custom Type",
-        "ComponentSelector.CommonGenericTypes" : "Common Generic Types",
-        "ComponentSelector.CustomGenericArguments" : "Custom Generic Arguments:",
-        "ComponentSelector.InvalidType" : "Invalid type",
-
-        "Inspector.Title" : "Scene Inspector",
         "Inspector.Slot.AttachComponent": "Добавить компонент",
 
         "Inspector.Slot.Axis.X": "X: <b>+</b>Вправо <b>-</b>Влево",
@@ -1329,13 +1208,12 @@
         "Inspector.Texture.AlphaToMask": "Альфа в Маску",
         "Inspector.Texture.RemoveAlpha": "Удалить Альфа",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Конверт. в градации серого (усреднить)",
-        "Inspector.Texture.ConvertToGrayscaleLuminance": "Convert to grayscale (luminance)",
+
         "Inspector.Texture.SwapRG": "Поменять R и G",
         "Inspector.Texture.SwapRB": "Поменять R и B",
-        "Inspector.Texture.SwapRA": "Swap R <--> A",
+
         "Inspector.Texture.SwapGB": "Поменять G и B",
-        "Inspector.Texture.SwapGA": "Swap G <--> A",
-        "Inspector.Texture.SwapBA": "Swap B <--> A",
+
         "Inspector.Texture.AddWhiteBackground": "Добавить белый фон",
         "Inspector.Texture.AddBlackBackground": "Добавить чёрный фон",
         "Inspector.Texture.Hue": "Оттенок (H):",
@@ -1353,17 +1231,12 @@
         "Inspector.Texture.RotateCW": "Повернуть на 90° по ЧС",
         "Inspector.Texture.RotateCCW": "Повернуть на 90° против ЧС",
         "Inspector.Texture.Rotate180": "Повернуть на 180°",
-        "Inspector.Texture.TrimTransparent" : "Trim Transparency",
-        "Inspector.Texture.TrimByCornerColor" : "Trim By Corner Color",
+
         "Inspector.Texture.MakeSquare": "Сделать Квадратным",
         "Inspector.Texture.ToNearestPOT": "К ближайшей степени 2-х",
         "Inspector.Texture.MakeTileable": "Сделать повторяемой (размер перехода):",
         "Inspector.Texture.TileLoop": "Повторяемая (цикл)",
         "Inspector.Texture.TileMirror": "Повторяемая (зеркало)",
-        "Inspector.Texture.NormalizeMaxOnly" : "Normalize (max only)",
-        "Inspector.Texture.NormalizeMinMax" : "Normalize (min and max)",
-        "Inspector.Texture.NormalizeIndependent" : "Normalize RGB independently (min and max)",
-        "Inspector.Texture.BleedColorToAlpha" : "Bleed Color To Alpha",
 
         "Inspector.Texture.InvalidFloats": "Диагностика: Не действительные float числа",
         "Inspector.Texture.GenerateMetadata": "Диагностика: Генерация Bitmap Метаданных",
@@ -1414,7 +1287,6 @@
         "Inspector.AvatarExpression.AutoAssign": "Авто присвоение blendshape'ов (используя эвристику)",
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>Этот компонент можно использовать как простое твердое тело, выбрав SimulateRotation. Перед тем как сделать это, имейте в виду, что он не оптимизирован для этих целей и полная поддержка твердых тел будет позже.<br>Полная поддержка твердых тел даст:<br><b>- Эффективное использование ЦП и сети</b> - с CharacterController вы используете больше ресурсов ЦП и ощутимо больше сетевого трафика<br><b>- Ограничения</b> - вы сможете задавать суставы, петли, пружины и другие ограничения между твердыми телами<br><b>- Плавная симуляция и взаимодействие для всех</b> - CharacterController ведет себя очень странно если другой пользователь пытается с ним взаимодействовать<br><b>- Новые фичи и инструменты</b> - чтобы упростить их использование<br>-----------------------<br>Вы можете узнать больше в заявке #22 на GitHub. Прочитали и осознали? Дерзайте!",
-        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component to interact with references by using their IDs. This process is commonly called 'Ref Hacking'.<br><br><b>Before</b> you do this, please understand that this is <b>not</b> supported and may break at any time. Do not rely on this functionality for your creations.",
 
         "Inspector.ParticleStyle.CommonTransitions": "Часто используемые шаблоны:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Альфа нарастание и затухание",
@@ -1432,21 +1304,6 @@
         "Inspector.Collider.SetFromPreciseBounds": "Установить по точным границам",
         "Inspector.Collider.SetFromPreciseCylinderBounds": "Установить по точным цилиндрическим границам",
         "Inspector.Collider.Visualize": "Визуализировать коллайдер",
-
-        "Inspector.SimpleAwayIndicator.TestAway" : "Set to away (debug)",
-        "Inspector.SimpleAwayIndicator.TestRestore" : "Restore to normal (debug)",
-        
-        "Inspector.Fields.Drive" : "Drive",
-        "Inspector.Fields.DriveWriteBack" : "Drive <size=50%>(write back)</size>",
-
-        "Inspector.Actions.CopyComponent" : "Copy Component",
-        "Inspector.Actions.MoveComponent" : "Move Component",
-
-        "UserInspector.Title" : "User Inspector",
-
-        "WorkerInspector.Title" : "{name} Inspector",
-
-        "CreateNew.Title" : "New",
 
         "Wizard.General.ProcessRoot": "Начиная с корня:",
         "Wizard.General.Result": "Результат:",
@@ -1513,7 +1370,6 @@
         "Wizard.TextRenderer.ReplaceFont": "Заменить фонт",
         "Wizard.TextRenderer.SetColor": "Установить цвет",
 
-        "Desktop.Controls.Title": "Desktop Controls",
         "Desktop.OpenKeyboard": "Показать клавиатуру",
         "Desktop.FollowCursor.On": "Следовать за курсором: Вкл",
         "Desktop.FollowCursor.Off": "Следовать за курсором: Выкл",
@@ -1521,13 +1377,9 @@
         "Desktop.LegacyInputMode.Off": "Legacy ввод: Выкл",
         "Desktop.Brightness": "Яркость: {n,number,percent}",
         "Desktop.Opacity": "Непрозрачность: {n,number,percent}",
-        
-        "VolumePlaneSlicer.Highlight": "Highlight",
-        "VolumePlaneSlicer.Slicer": "Slice",
 
-        "Tutorial.Welcome.Welcome": "Добро пожаловать!",
-        "Tutorial.Welcome.Description" : "Dive into a brand new digital universe with infinite possibilities. Whether you come here to socialize and hang out with people around the world or to build, create and develop anything from beautiful art, interactive avatars and gadgets, to complex interactive worlds and games, Resonite is an endlessly customizable place where you'll be welcome and where you'll find a group to resonate with.<br><br>Before you start exploring, we'll first guide you through setting up some essentials, to ensure a smooth experience. When you're ready, click the button below",
-        "Tutorial.Welcome.Begin": "Поехали!",
+        "Tutorial.Welcome.WelcomeTo": "Добро пожаловать в",
+        "Tutorial.Welcome.LetsStart": "Поехали!",
 
         "Tutorial.Welcome.AccountHeader": "Аккаунт {appName}",
         "Tutorial.Welcome.AccountDescription": "Создание аккаунта даст Вам 1Гб бесплатного хранилища и доступ к сохранению предметов, установке постоянного аватара, добавлению контактов и переписке.",
@@ -1555,7 +1407,6 @@
 
         "Tutorial.Welcome.StartTutorialHeader": "Начать обучение",
         "Tutorial.Welcome.StartTutorialDescription": "Мы переместим Вас в мир базового обучения чтобы помочь Вам сделать первые шаги в {appName}. Вы можете сделать обучающий мир публичным, тем самым разрешая сообществу {appName} присоединиться и помочь Вам, или учиться самому.",
-        "Tutorial.Welcome.StartTutorial": "Begin Tutorial",
 
         "Tutorial.CommunityYouTube.Title": "YouTube каналы сообщества",
 
@@ -1563,7 +1414,6 @@
         "Tutorial.UserResources.SupportTitle": "Как поддержать {appName}",
         "Tutorial.UserResources.MerchandiseTitle": "Мерч {appName}",
 
-        "Tutorial.Intro.BadgesAppTeam": "{appName} Team",
         "Tutorial.Intro.BadgesModerator": "Модератор",
         "Tutorial.Intro.BadgesMentor": "Учитель",
         "Tutorial.Intro.BadgesDisabilityHearing": "Нарушение слуха",
@@ -1588,97 +1438,6 @@
         "Exiting.Exiting": "Выход...",
         "Exiting.LoggingOut": "Выход с аккаунта...",
 
-        "Migration.Title": "Migration",
-        "Migration.NewTask": "New Migration Task",
-
-        "Migration.LoginModal.Title": "Migrate data?",
-        "Migration.LoginModal.Description": "Would you like to migrate data from another account? You can choose to do this later from the \"Migration\" tab on the dash as well.",
-        "Migration.LoginModal.OpenMigration": "Open migration",
-        "Migration.LoginModal.Later": "Maybe later",
-        "Migration.LoginResetID.Title": "Really reset UserID?",
-        "Migration.LoginResetID.Description": "Please understand that doing this will result in <color=red>UNPREDICTABLE CONTENT BREAKAGE</color>. All your items, worlds, contacts and messages will be migrated successfully, but any behaviors and components that rely on referencing your old UserID will likely break and require to be re-setup and be repaired. Unless you have a serious reason to want to reset your UserID, <color=red>DO NOT CHOOSE THIS OPTION</color>.",
-        "Migration.LoginResetID.ResetButton": "Yes, reset",
-
-        "Migration.ReservedUsername.Title":"<b>Reserved Username</b>",
-        "Migration.ReservedUsername.Description": "This username is reserved for original owner. If this is your account, please provide your {platform} credentials to unlock it. We do not store these credentials, they are only used to verify the ownership of your account on registration.",
-        "Migration.SourcePassword": "{platform} Password:",
-        "Migration.SourceUsername": "{platform} Username:",
-
-        "Migration.Dialog.Title": "Account Migration",
-        "Migration.Dialog.Source" : "You can migrate data from any compatible infrastructure. First select one from the list below that you'd like to migrate data from. You can add additional infrastructures by placing config files in the \"Migrations\" folder in the installation.",
-        "Migration.Dialog.AccountDescription": "To migrate your account, we'll need your {platform} account password. This will let us login to it and access the data.",
-
-        "Migration.ResetID.Title": "Reset my UserID",
-        "Migration.ResetID.Description":"<color=red><b>WARNING:</b></color> Choosing this option <b>WILL PARTIALLY BREAK EXISTING CONTENT AND IS IRREVERSIBLE</b>, this includes any UserID references in user content, community services, links, cloud variables and more. These references will be reset, but your items, worlds, contacts and messages themselves will not be lost. We recommend using this option <b>ONLY</b> if you would like to get rid of your old UserId and replace it with a new randomized one. Unless you have a strong reason to reset your UserID, you <b>SHOULD NOT</b> check this option. Your UserID will change like this:\n U-MyUsername -> U-fX3pKe7AYYQ",
-
-        "Migration.DataSelection.Title": "When we migrate your account, what data should we migrate?",
-        "Migration.DataSelection.Everything": "Everything",
-        "Migration.DataSelection.Choose": "Let me choose",
-
-        "Migration.DataSelection.Favorites": "Favorites (avatar, home, camera, keyboard, facets)",
-
-        "Migration.DataSelection.Favorites.Description": "This will migrate your home, favorite avatar, keyboard, camera and dash first, so you can start using them as soon as possible.\n <color=red><b>WARNING:</b></color> If you choose this option, you might <b>LOSE ANY CHANGES</b> made on this platform before the migration to your favorites.",
-        "Migration.DataSelection.Favorites.OverwriteTitle": "When migrating should we overwrite your favorites?",
-
-        "Migration.DataSelection.Home.Title": "Set your old home as default?",
-        "Migration.DataSelection.Home.Description": "When we migrate your data, your original cloud home will be placed under different URL and you will get a brand new cloud home as default. However if you'd prefer, we can default your old home as the default one. Even if you select \"No\", your old cloud home will still be accessible and you can favorite it as your default later.",
-
-        "Migration.DataSelection.Contacts": "Contacts",
-        "Migration.DataSelection.Message History": "Message History",
-        "Migration.DataSelection.InventoryWorld": "Inventory & Worlds",
-        "Migration.DataSelection.CloudVariable.Definitions": "Cloud Variable Definitions",
-        "Migration.DataSelection.CloudVariable.Values": "Cloud Variable Values",
-
-        "Migration.DataSelection.AlwaysOverwrite": "Always overwrite",
-
-        "Migration.Start": "Start Migration",
-        "Migration.Groups.Title": "Migrate Groups",
-        "Migration.Groups.Introduction": "Should we migrate your groups?",
-
-        "Migration.Groups.Description": "All groups you are administrator of will be migrated by default. If you'd like to migrate only select groups, click the button below to load them and then check the groups you'd like to migrate.",
-
-        "Migration.Groups.LoadGroups": "Load groups",
-        "Migration.Groups.RefreshGroups": "Refresh groups",
-
-        "Migration.Groups.Fetching": "Fetching groups...",
-        "Migration.Groups.Fetching.LoginFailed": "Error logging in: {error}",
-        "Migration.Groups.Fetching.Error": "Error fetching groups: {error}",
-        "Migration.Groups.NoGroups": "No {platform} groups found to migrate.",
-        "Migration.Groups.NotGroupAdmin": "You're not an admin of any {platform} groups, ask your group admins to migrate the group!",
-
-        "Migration.Summary": "Ok, we have everything we need. Click Start Migration below and we'll get started on your migration.\n\nMigration might take a while, we've gotta copy everything across. If you've selected to migrate your favorites, we'll prioritize them so that you can get comfortable.\n\nYou don't need to keep {appName} running whilst we're migrating, but we'll send you updates via the {appName} bot to let you know how its going.",
-
-
-        "Migration.List.EmptyTitle": "Looking to start a new Migration?",
-        "Migration.List.EmptySubtitle": "Click on \"New Migration Task\" in the top left.",
-
-        "Migration.List.ButtonLabel": "{name}\n<size=50%>Created on:{time}\nStatus:{state}",
-        "Migration.Report.Title": "Migration Task Report:",
-        "Migration.Report.Description": "<color={hex}>Description:</color> {value}",
-        "Migration.Report.Status": "<color={hex}>Status:</color> {value}",
-        "Migration.Report.CreatedOn": "<color={hex}>Created on:</color> {value}",
-        "Migration.Report.StartedOn": "<color={hex}>Started on:</color> {value}",
-        "Migration.Report.CompletedOn": "<color={hex}>Completed on:</color> {value}",
-
-        "Migration.Report.CurrentlyMigrating": "Currently migrating the data of <color={hex}>{value}</color>.",
-        "Migration.Report.CurrentItem": "Current item: <color={hex}>{value}</color>",
-
-        "Migration.Report.CurrentRate": "<color={hex}>Current rate:</color> ~{value} worlds/items per minute",
-
-        "Migration.Report.EstimatedQueuePosition": "<color={hex}>Remaining tasks in queue before this one:</color> {value}",
-        "Migration.Report.ContactStatus": "Migrated <color={hex}>{current}</color> contacts out of <color={hex}>{total}</color>",
-        "Migration.Report.MessageStatus": "Migrated <color={hex}>{value}</color> messages",
-        "Migration.Report.CloudVariableDefinitionStatus": "Migrated <color={hex}>{value}</color> cloud variable definitions",
-        "Migration.Report.CloudVariableValueStatus":"Migrated <color={hex}>{value}</color> cloud variables",
-        "Migration.Report.RecordStatus": "Migrated <color={hex}>{current}</color> items/worlds out of <color={hex}>{total}</color>. <color=red>{failed}</color> failed.",
-        "Migration.Report.GroupStatus": "Migrated <color={hex}>{current}</color> groups out of <color={hex}>{total}</color>",
-        "Migration.Report.GroupMemberStatus": "Migrated total <color={hex}>{value}</color> group members",
-
-        "Migration.Error": "<color=red>Error:</color> {error}",
-        "Migration.NothingSelected": "Nothing selected, cannot start.",
-
-        "Migration.ColorManagement": "This world has been authored in gamma space and has been automatically converted to linear.<br><br>It may look different from original, but should be generally usable.<br><br>If you are the author and you find any issues with the conversion of world <color=red>DO NOT SAVE</color>. Only save copies.<br><br>As long as the original exists, we can tweak conversion process. Otherwise you will be responsible to fix it yourself.",
-
         "Temporary.MMC.Voting UI": "Интерфейс голосования MMC",
         "Temporary.MMC.Vote": "Голосовать",
 
@@ -1699,259 +1458,6 @@
         "Temporary.MMC.VoteFailure": "Голосование неуспешно, ваш голос не был зарегистрирован, попробуйте снова.",
         "Temporary.MMC.VotedAlready": "Вы уже голосовали за {voteTarget}.",
         "Temporary.MMC.VoteInvalid": "Голос некорректен, попробуйте снова.",
-
-        "CloudHome.WelcomeHome": "Welcome Home",
-        "CloudHome.TargetRangeOptions": "Target Range Options",
-
-        "Tutorial.Saving.Title": "Welcome Home!",
-        "Tutorial.Saving.Content": "Welcome to your <b><i><color=hero.yellow>Home</b></i></color> world! This is where you'll end up every time you log in.<br><br>This is a world all your own, so any changes you make are able to be saved.<br><br>If you save, everything will be just as you left it when you return!",
-
-        "CloudHome.Info.OnlineUsers": "Online {online_users,plural, one {user} other {users}}: {online_users}<br>Joinable {joinable_users,plural, one {user} other {users}}: {joinable_users}",
-        "CloudHome.Info.Moderation": "Moderation",
-        "CloudHome.Info.Inventory": "Inventory",
-        "CloudHome.Info.Tools": "Tools",
-        "CloudHome.Info.MoreInfo": "More Info",
-        "CloudHome.Info.SessionUptime": "Session Uptime:",
-        "CloudHome.Info.AccessLevel": "Access Level:",
-        "CloudHome.Info.StorageUsed": "Storage Used:",
-
-        "CloudHome.Info.DashInfoTab.Title": "Welcome!",
-        "CloudHome.Info.DashInfoDesktop": "Just to get you up to speed, there's a couple things you should know. You have a <i><color=hero.purple>Dashboard</color></i> that you can open by pressing Escape. Think of it as your desktop or control panel.<br><br>If you're confused, this display has some additional info to help you out. Click the button below to dismiss this message.",
-        "CloudHome.Info.DashInfoVR": "Just to get you up to speed, there's a couple things you should know. You have a <i><color=hero.purple>Dashboard</color></i> that you can open by pressing B or Y. Think of it as your desktop or control panel.<br><br>If you're confused, this display has some additional info to help you out. Click the button below to dismiss this message.",
-        "CloudHome.Info.DashInfoVRNoButtons": "Just to get you up to speed, there's a couple things you should know. You have a <i><color=hero.purple>Dashboard</color></i> that you can open by pressing and holding the Menu button until the circle completes. Think of it as your desktop or control panel.<br><br>If you're confused, this display has some additional info to help you out. Click the button below to dismiss this message.",
-
-        "CloudHome.Info.GoToWiki": "Go to Wiki!",
-        "CloudHome.Info.GoToDiscord": "Go to Discord!",
-
-        "CloudHome.Info.ModerationTab.Title": "Moderation!",
-        "CloudHome.Info.ModerationTab.Content": "Safety is important to us. If you need help or need to report a user, open a ticket in our <u><color=hero.cyan>Moderation Portal.</color></u><sprite name=hyperlink><br><br>We have a strong team of volunteer moderators <sprite name=modbadge> keeping the community safe! Please submit a ticket if you have questions or see guideline-breaking behavior.",
-
-        "CloudHome.Info.InventoryTab.Title": "Save Your Items!",
-        "CloudHome.Info.InventoryTab.Content": "The <i><color=hero.purple>Inventory</color></i> in your <i><color=hero.purple>Dashboard</color></i> contains your saved avatars and items.<br><br>The <i><color=hero.purple>Essentials</color></i> folder has some fun things to play with; double click an item to spawn it!",
-
-        "CloudHome.Info.ToolsTab.Title": "In-World Editing!",
-        "CloudHome.Info.ToolsTab.Content": "A hallmark of {appName} is being able to easily create or modify things right in-game.<br><br>Yes, that means right here! Or anywhere really - the tools available to you via <i><color=hero.purple>Essentials -> Tools</color></i> in your inventory allow you to easily edit the world around you to your liking.",
-
-        "CloudHome.Info.HelpTab.Title": "Getting Help",
-        "CloudHome.Info.HelpTab.InfoLineOne": "Need help? Take a look at our <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, or get answers to your",
-        "CloudHome.Info.HelpTab.InfoLineTwo": "questions in our <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> Handily, you can view links on your desktop through your Dashboard in the <i><color=hero.purple>Desktop</color></i> tab.",
-
-        "CloudHome.Info.UsersTab.Title": "Finding Users",
-        "CloudHome.Info.UsersTab.Content": "Public sessions are a great way to immerse yourself in the community!<br><br>Public sessions which you can join right now can be found in the <i><color=hero.purple>Worlds</color></i> tab in your dashboard. Check it out!",
-
-        "Mirror.Header.RenderingOptions" : "Rendering Options",
-        "Mirror.Header.Type" : "Mirror Type",
-        "Mirror.Header.Resolution" : "Mirror Resolution",
-        "Mirror.Header.AspectRatio" : "Aspect Ratio",
-
-        "Mirror.EnableLights": "Enable Lights",
-        "Mirror.DisableLights": "Disable Lights",
-
-        "Mirror.EnableShadows": "Enable Shadows",
-        "Mirror.DisableShadows": "Disable Shadows",
-
-        "Mirror.Camera": "Camera",
-
-        "Mirror.AspectRatio.Tall": "Tall",
-        "Mirror.AspectRatio.Square": "Square",
-        "Mirror.AspectRatio.Wide": "Wide",
-
-        "Mirror.Menu": "Menu",
-        "Mirror.CloseMenu": "Close Menu",
-
-        "StickyNote.SpinMe": "Spin Me!",
-        "StickyNote.FruitPlate": "Free self-replenishing fruit plate",
-        "StickyNote.EmptyForYou": "Left empty just for you! :)",
-        "StickyNote.RelevantLinks": "Relevant links!<br><--<br><br><size=500>One could even call it a linking book</size>",
-        "StickyNote.SunTool": "Hold the power of the sun in your hands!",
-        "StickyNote.Bow": "Pull back your String and aim true",
-        "StickyNote.Crossbow": "Lever Action (or use secondary) to load",
-        "StickyNote.Shade": "Adjustable Shade",
-        "StickyNote.TheaterTablet": "Use this tablet to control the fan and window tint for this room!",
-        "StickyNote.ControlTablet": "Use this tablet to control parts of the home!",
-
-        "StickyNote.RotateMeDesktop": "Rotate me by holding E!",
-        "StickyNote.RotateMeVR": "Rotate me!",
-
-        "StickyNote.EquipMeDesktop": "Equip and press left mouse!",
-        "StickyNote.EquipMeVR": "Equip and pull the string!",
-
-        "StickyNote.DipBrushes": "Dip brushes in orbs to use materials",
-        "StickyNote.BrushColor": "Change the brush color and size in your Context Menu",
-        "StickyNote.Drawing": "You can draw on the board, in the air, or anywhere!",
-        "StickyNote.WorldCanvas": "The world is your canvas!",
-
-        "CloudHome.Panel.HomeControl": "Home Control",
-
-        "CloudHome.Panel.General": "General",
-        "CloudHome.Panel.Lighting": "Lighting",
-        "CloudHome.Panel.Furniture": "Furniture",
-
-        "CloudHome.Panel.Quality": "Quality",
-        "CloudHome.Panel.Doors": "Doors",
-        "CloudHome.Panel.Audio": "Audio",
-        "CloudHome.Panel.OverheadLighting": "Overhead Lighting",
-        "CloudHome.Panel.Sconces": "Sconces",
-        "CloudHome.Panel.FurnitureVisibility": "Furniture Visibility",
-
-        "CloudHome.Panel.LowQualityMode": "Low Quality Mode",
-        "CloudHome.Panel.DoorSounds": "Door Sounds",
-        "CloudHome.Panel.DoorsAlwaysOpen": "Doors Always Open",
-        "CloudHome.Panel.InteriorAmbience": "Interior Ambience",
-        "CloudHome.Panel.InteriorAmbienceVolume": "Interior<br>Ambience<br>Volume",
-        "CloudHome.Panel.LightsOn": "Lights On",
-        "CloudHome.Panel.LightIntensity": "Light Intensity",
-        "CloudHome.Panel.LightColor": "Light Color",
-        "CloudHome.Panel.LightColorTemperature": "Light Color Temperature",
-
-        "CloudHome.Panel.Spawn": "Spawn",
-        "CloudHome.Panel.Foyer": "Foyer",
-        "CloudHome.Panel.Workspace": "Workspace",
-        "CloudHome.Panel.ReadingLounge": "Reading Lounge",
-        "CloudHome.Panel.Lounge": "Lounge",
-        "CloudHome.Panel.Center": "Center",
-        "CloudHome.Panel.Balcony": "Balcony",
-        "CloudHome.Panel.Theater": "Theater",
-
-        "CloudHome.Panel.TheaterControl": "Theater Control",
-        "CloudHome.Panel.FanControl": "Fan Control",
-        "CloudHome.Panel.WindowControl": "Window Control",
-        "CloudHome.Panel.FanSpeed": "Fan Speed",
-        "CloudHome.Panel.WindowTint": "Window Tint",
-
-        "CloudHome.FeaturedPanel.OpenWorld": "Open World",
-        "CloudHome.FeaturedPanel.LinkText": "Open this world for<br>yourself by clicking here!",
-        "CloudHome.FeaturedPanel.Featured": "featured",
-
-        "CloudHome.AvatarPanel.Title": "Featured Avatar Worlds",
-
-        "CloudHome.SupporterPanel.Title": "<b>Our Supporters</b>",
-
-        "Tutorial.InfoPanel.Title": "Hey! Before you go...",
-        "Tutorial.InfoPanel.Content": "     There's a world of possibilities waiting for you, and what's possible is limited only by your imagination.<br><br>     Almost all of the things you've seen so far were made right in-game! People from across the world worked together in real-time to build it.<br><br>     The platform is still very much in early development and we're updating and improving things constantly. But you're part of this journey too, and the sky is the limit!<br><br><align=center>Thanks for stopping in and giving us a try.</align>",
-
-        "Tutorial.GrabItems.Grab": "Grab",
-        "Tutorial.GrabItems.Snap": "Snap",
-        "Tutorial.GrabItems.Slide": "Slide",
-
-        "Tutorial.Panel.Jumping.Title": "Jumping",
-        "Tutorial.Panel.Jumping.ContentDesktop": "While in Walk locomotion, press space bar to jump!",
-        "Tutorial.Panel.Jumping.ContentVR": "While in Walk locomotion, press in on your joystick to jump!",
-        "Tutorial.Panel.Jumping.ContentVRNoButtons": "While in Walk locomotion, press in on the center of your trackpad to jump!",
-
-        "Tutorial.Panel.WalkLocomotion.Title": "Walk Locomotion",
-        "Tutorial.Panel.WalkLocomotion.Content": "Move and jump along the ground.",
-
-        "Tutorial.Panel.TeleportLocomotion.Title": "Teleport Locomotion",
-        "Tutorial.Panel.TeleportLocomotion.Content": "Teleport instantly sends you to the teleportation indicator.",
-
-        "Hints.Spawn.InitialMovementDesktop": "Use the movement keys to walk around!",
-        "Hints.Spawn.InitialMovementVR": "Use your joysticks to walk around!",
-        "Hints.Spawn.InitialMovementVRNoButtons": "Use your trackpads to walk around!",
-
-        "Hints.Spawn.ContextMenuDesktop": "Open your Context Menu by pressing T for options!",
-        "Hints.Spawn.ContextMenuVR": "Feeling sick? Open your Context Menu by pressing B or Y for options!",
-        "Hints.Spawn.ContextMenuVRNoButtons": "Feeling sick? Open your Context Menu by pressing the Menu button for options!",
-
-        "Hints.Spawn.TeleportLocomotionDesktop": "Other locomotion options, such as fly, are available to try in the Locomotion menu.",
-        "Hints.Spawn.TeleportLocomotionVR": "Other locomotion options, such as teleport or fly, are available to try in the Locomotion menu.",
-
-        "Hints.Bridge.RaiseTheWorld": "Press this button to bring the platform to you!",
-
-        "Hints.Grabbing.GrabbingDesktop": "Physically grab things by holding the right mouse button!",
-        "Hints.Grabbing.GrabbingVR": "Physically grab things by holding Grip!",
-
-        "Hints.Grabbing.Rotating": "Rotate held items by holding E and moving your mouse!",
-        "Hints.Grabbing.RotatingExtra": "Hold Shift and E together to rotate an object around its horizontal axis!",
-
-        "Hints.Grabbing.ScalingDesktop": "Grab an item, hold shift, and use your scroll wheel to scale it!",
-        "Hints.Grabbing.ScalingVR": "Physically grab things with both hands to scale them!",
-
-        "Hints.Grabbing.OtherGrabbables": "There are a variety of interactables, play with these three to see how they work!",
-        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "In addition to scaling objects, you can also scale yourself by enabling scaling in your Context Menu, then holding control and using your scroll wheel!",
-        "Hints.Grabbing.OtherGrabbablesExtraVR": "In addition to scaling objects, you can also scale yourself by enabling scaling in your Context Menu, grabbing in front of you with both hands, and moving them closer or further apart!",
-
-        "Hints.Telescope.Alignment": "Grab the telescope and aim it at the moon!",
-
-        "Hints.Telescope.TheMoonDesktop": "While aiming at the moon, hold right click and look around to move the moon!",
-        "Hints.Telescope.TheMoonVR": "Deploy your laser with the Trigger button and grab the moon!",
-
-        "Hints.Sundial.SoftEquip": "Grab this tool to use it!",
-        "Hints.Sundial.SoftEquipExtra": "Tools let you change the world around you in a variety of ways!",
-
-        "Hints.Sundial.HardEquip": "Click on this tool to equip it!",
-        "Hints.Sundial.HardEquipExtra": "Don't see your laser? Slightly Hold your Trigger to reveal it!",
-
-        "Hints.Sundial.TheSun": "Aim at the sky and click to move the sun there!",
-        "Hints.Sundial.TheSunExtra": "Try aiming below the horizon to make it night!",
-
-        "Hints.Sundial.Dequip": "Drop the equipped tool by choosing Dequip in your Context Menu.",
-        "Hints.Sundial.DequipExtra": "Notice the options in your Context Menu have changed because you're holding this tool.",
-
-        "Hints.Sundial.Teleporter": "Press this button to activate the Teleporter to your Cloud Home!",
-        "Hints.Sundial.TeleporterExtra": "Enjoy your home and thanks for stopping by!",
-
-        "UI.TextDisplay.Landscape": "Landscape",
-        "UI.TextDisplay.Portrait": "Portrait",
-        "UI.TextDisplay.NormalText": "Normal",
-        "UI.TextDisplay.MonospaceText": "Monospace",
-
-        "UI.VideoPlayer.GlobalSettings": "Global<br>Settings",
-        "UI.VideoPlayer.LocalSettings": "Local<br>Settings",
-        "UI.VideoPlayer.SpatialAudio": "Spatialized<br>Audio",
-        "UI.VideoPlayer.AreaBroadcast": "Area<br>Broadcast",
-        "UI.VideoPlayer.BroascastAudio": "Broadcast<br>Audio",
-        "UI.VideoPlayer.EnterURL": "<i><alpha=#77>Enter URL Here</closeall>",
-        "UI.VideoPlayer.AudioZoneTheater": "Local to<br>Theater",
-        "UI.VideoPlayer.AudioZoneGlobal": "Audible<br>to World",
-        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {user} other {users}}<br>loaded",
-
-        "UI.ColorPicker.ColorPicker": "Color Picker",
-
-        "UI.ColorPicker.Linear": "Linear",
-
-        "UI.ColorPicker.Hexadecimal": "Hex",
-        "UI.ColorPicker.ColorSwatches": "Swatch",
-
-        "UI.ColorPicker.Red": "Red",
-        "UI.ColorPicker.Green": "Green",
-        "UI.ColorPicker.Blue": "Blue",
-
-        "UI.ColorPicker.Hue": "Hue",
-        "UI.ColorPicker.Saturation": "Saturation",
-        "UI.ColorPicker.Value": "Value",
-
-        "UI.ColorPicker.Alpha": "Alpha",
-        "UI.ColorPicker.Gain": "Gain",
-
-        "UI.ProgressBar.ImportingItem": "Importing Item",
-
-        "Tools.Names.MultiTool": "Multi-Tool",
-
-        "Tools.Names.CommonTools": "Common Tools",
-        "Tools.Names.ManipulationTools": "Manipulation Tools",
-        "Tools.Names.InformationTools": "Information Tools",
-
-        "Tools.Names.GeometryLineBrush": "Geometry Line Brush Tool",
-        "Tools.Names.Developer": "Developer Tool",
-        "Tools.Names.ComponentClone": "Component Clone Tool",
-        "Tools.Names.ProtoFlux": "ProtoFlux Tool",
-        "Tools.Names.Material": "Material Tool",
-        "Tools.Names.Glue": "Glue Tool",
-        "Tools.Names.Light": "Light Tool",
-        "Tools.Names.Shape": "Shape Tool",
-        "Tools.Names.Microphone": "Microphone Tool",
-        "Tools.Names.GrabbableSetter": "Grabbable Setter Tool",
-        "Tools.Names.PhysicalColliderSetter": "Physical Collider Setter Tool",
-        "Tools.Names.MeshVisibility": "Mesh Visibility Tool",
-        "Tools.Names.CameraObjectVisibility": "Camera Object Visibility Tool",
-        "Tools.Names.Color": "Color Tool",
-        "Tools.Names.Mesh": "Mesh Tool",
-        "Tools.Names.RiggedMeshTransfer": "Rigged Mesh Transfer Tool",
-        "Tools.Names.Slicer": "Mesh Slicer Tool",
-        "Tools.Names.ControllerDiagnostic": "Controller Diagnostic Tool",
-        "Tools.Names.Measure": "Measure Tool",
-        "Tools.Names.Label": "Label Tool",
 
         "Dummy": "Dummy"
     }
