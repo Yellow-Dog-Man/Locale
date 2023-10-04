@@ -198,7 +198,7 @@
         "World.Error.HostBlocked": "ホストにブロックされています",
         "World.Error.HostBlockedDetail": "あなたはセッションのホストにブロックされています",
         "World.Error.WorldCrash": "ワールドがクラッシュしました",
-        "WOrld.Error.WorldCrashDetail": "ワールド更新時に致命的なエラーが発生しました",
+        "World.Error.WorldCrashDetail": "ワールド更新時に致命的なエラーが発生しました",
         "World.Error.Unknown": "未知のエラー",
 
         "World.Config.Name": "セッション名:",
@@ -300,8 +300,8 @@
 
         "World.AccessLevel.Anyone": "誰でも",
         "World.AccessLevel.RegisteredUsers": "登録ユーザー",
-        "World.AccessLevel.Friends": "フレンド",
-        "World.AccessLevel.FriendsOfFriends": "フレンド+",
+        "World.AccessLevel.Contacts": "フレンド",
+        "World.AccessLevel.ContactsPlus": "フレンド+",
         "World.AccessLevel.LAN": "LAN内",
         "World.AccessLevel.Private": "プライベート(招待のみ)",
 
@@ -331,7 +331,7 @@
         "World.Filter.MyWorlds": "自分のワールド",
         "World.Filter.SessionFiltering": "セッションフィルター:",
         "World.Filter.MinimumUsers": "最小ユーザー数: <b>{n}</b>",
-        "World.Filter.MinimumFriends": "最小フレンド数: <b>{n}</b>",
+        "World.Filter.MinimumContacts": "最小フレンド数: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "ヘッドレスのみ",
         "World.Filter.MaxAccessLevel": "最大アクセスレベル:",
         "World.Filter.MinimumUptime": "最小経過時間:",
@@ -378,7 +378,7 @@
         "Indicator.OnlineUsersVR": "VR <color=hero.purple>{users}</color> 人",
         "Indicator.OnlineUsersDesktop": "デスクトップ <color=hero.cyan>{users}</color> 人",
 
-        "Indicator.ServerStatus": "クラウドステータス",
+        "Indicator.ServerStatus.Status": "クラウドステータス",
         "Indicator.ServerStatus.Good": "良好",
         "Indicator.ServerStatus.Slow": "重い",
         "Indicator.ServerStatus.Down": "サーバーダウン",
@@ -388,7 +388,7 @@
         "Indicator.Sync.SyncingItems": "{item_count,plural, other {# 個のアイテムを}}シンク中<nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "{variant_count,plural, other {# 個のアセットバリアントを}} アップロード中",
         "Indicator.Sync.SyncError": "シンクエラー! <size=50%>ログをチェックしてください</size>",
-        "Indicator.Sync.OutOfSpace": "容量が足りません! <size=50%>シンクできません</size>",
+        "Indicator.Sync.StorageFull": "容量が足りません! <size=50%>シンクできません</size>",
         
         "Indicator.Storage.StorageFull": "空き容量なし",
         "Indicator.Storage.Usage": "{storage_used} / {storage_max}<br><size=61.803%>ストレージ使用量</size>",
@@ -575,7 +575,7 @@
         "Contacts.Blocked": "ブロック済み",
         "Contacts.SearchResult": "検索結果",
         "Contacts.Bot": "ボットアカウント",
-        "Contact.Migrated": "移行していないフレンド",
+        "Contacts.Migrated": "移行していないフレンド",
 
         "Notifications.IsOnline": "さんがオンラインになりました",
         "Notifications.IsOnlineOnDifferentVersion": " <size=75%>(using version: {version})</size>さんがオンラインになりました",
@@ -1047,8 +1047,8 @@
         "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "ドロップしたフレーム: {n}",
         "CameraControl.OBS.Idle": "IDLE",
-        "CameraCOntrol.OBS.Live": "LIVE",
-        "CameraCOntrol.OBS.Recording": "REC",
+        "CameraControl.OBS.Live": "LIVE",
+        "CameraControl.OBS.Recording": "REC",
         "CameraControl.OBS.OpenInstallerReason": "このWebページで、​OBSWebSocket​プラグインを​ダウンロード​できます。",
 
         "CameraControl.OBS.Streaming.Start": "配信開始",
@@ -1068,8 +1068,8 @@
         "Settings.OverrideLocale": "言語環境(ロケール上書き):",
         "Settings.HideAllTutorials": "全チュートリアルを非表示",
         "Settings.ShowInteractionHints": "インタラクションヒントを表示",
-        "Settings.Hotswitching": "VRモード切り替え",
         "Settings.PrimaryController": "プライマリーコントローラー",
+        "Settings.Hotswitching": "VRモード切り替え",
         "Settings.AllowStrafing": "平行移動を許可",
         "Settings.UseHeadDirectionForMovement": "頭の向きに移動",
         "Settings.SmoothTurn": "スムーズターン",
@@ -1905,7 +1905,7 @@
         "UI.VideoPlayer.EnterURL": "<i><alpha=#77>ここにURLを入力</closeall>",
         "UI.VideoPlayer.AudioZoneTheater": "シアター内<br>のみ",
         "UI.VideoPlayer.AudioZoneGlobal": "ワールド内<br>全体",
-        "UI.VideoPlsyer.UsersLoaded": "{users_loaded}/{users_present} 人<br>読込完了",
+        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} 人<br>読込完了",
 
         "UI.ColorPicker.ColorPicker": "カラーピッカー",
 
