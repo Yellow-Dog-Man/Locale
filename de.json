@@ -95,7 +95,7 @@
         "Interaction.Locomotion.None": "Keine",
 
         "Interaction.NamedEquipTool": "{name} ausrüsten",
-        "Interaction.NamedEquipTool.Default": "Werkzeug",
+        "Interaction.NamedEquipTool.Default": "Tool",
 
         "Interaction.EnterAnchor": "Anker betreten",
         "Interaction.ExitAnchor": "Anker verlassen",
@@ -773,7 +773,7 @@
         "AvatarCreator.Title": "Avatar-Assistent",
         "AvatarCreator.Instructions": "Richte Avatar-Objekte am Headset sowie optional an den Controller-Referenzen aus und drücke 'Erstellen'",
         "AvatarCreator.UseSymmetry": "Symmetrie verwenden",
-        "AvatarCreator.ShowToolAnchors": "Zeige Werkzeug-Ankerpunkte",
+        "AvatarCreator.ShowToolAnchors": "Zeige Tool-Ankerpunkte",
         "AvatarCreator.SetupVolumeMeter": "Volume Meter",
         "AvatarCreator.SetupEyes": "Augen konfigurieren",
         "AvatarCreator.SetupFaceTracking": "Gesicht konfigurieren",
@@ -785,7 +785,7 @@
         "AvatarCreator.AlignHeadRight": "Kopf auf Links-Rechts-Achse ausrichten",
         "AvatarCreator.CenterHead": "Kopf-Position zentrieren",
         "AvatarCreator.TryAlignHands": "Versuche, die Hände auszurichten",
-        "AvatarCreator.AlignToolAnchors": "Werkzeug-Ankerpunkte ausrichten",
+        "AvatarCreator.AlignToolAnchors": "Tool-Ankerpunkte ausrichten",
         "AvatarCreator.Create": "Erstellen",
 
         "Importer.General.AsRawFile": "Als Datei",
@@ -1413,7 +1413,7 @@
 
         "Inspector.AvatarExpression.AutoAssign": "Automatische Mischform zuordnung (Heuristisch)",
 
-        "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente als einfachen Rigidbody zu verwenden, indem 'Rotation Simulieren' ausgewählt wird. Bevor Sie dies tun, verstehen Sie bitte, dass sie nicht für diesen Zweck optimiert ist und dass vollständige Rididbody-Unterstützung in der Zukunft hinzugefügt wird.<br>Vollständige Rigidbody-Unterstützung wird folgendes ermöglichen:<br><b>- CPU- und Netzwerkeffizienz</b> - Mit CharacterController werden Sie höhere CPU-Auslastung und signifikant höhere Netzwerkauslastung verursachen<br><b>- Beschränkungen</b> - Sie werden in der Lage sein Gelenke, Schaniere, Federn und andere Beschränkungen zwischen Rigidbodies zu erstellen<br><b>- Geschmeidige Simulation und Interaktionen für Jeden</b> - CharacterController wird Fehlverhalten verursachen wenn ein anderer Benutzer versucht damit zu interagieren.<br><b>- Neue Features und Werkzeuge</b> - Dadurch wird die Verwendung deutlich einfacher<br>-----------------------<br>Sie können mehr Informationen hierzu in GitHub Issue #22 nachlesen. Solange sie diese Einschränkungen verstehen, viel Spaß!",
+        "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente als einfachen Rigidbody zu verwenden, indem 'Rotation Simulieren' ausgewählt wird. Bevor Sie dies tun, verstehen Sie bitte, dass sie nicht für diesen Zweck optimiert ist und dass vollständige Rididbody-Unterstützung in der Zukunft hinzugefügt wird.<br>Vollständige Rigidbody-Unterstützung wird folgendes ermöglichen:<br><b>- CPU- und Netzwerkeffizienz</b> - Mit CharacterController werden Sie höhere CPU-Auslastung und signifikant höhere Netzwerkauslastung verursachen<br><b>- Beschränkungen</b> - Sie werden in der Lage sein Gelenke, Schaniere, Federn und andere Beschränkungen zwischen Rigidbodies zu erstellen<br><b>- Geschmeidige Simulation und Interaktionen für Jeden</b> - CharacterController wird Fehlverhalten verursachen wenn ein anderer Benutzer versucht damit zu interagieren.<br><b>- Neue Features und Tools</b> - Dadurch wird die Verwendung deutlich einfacher<br>-----------------------<br>Sie können mehr Informationen hierzu in GitHub Issue #22 nachlesen. Solange sie diese Einschränkungen verstehen, viel Spaß!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente zu verwenden um mit Referenzen zu interagieren, die über Ihre IDs addressiert werden. Dieser Vorgang ist geläufig bekannt als 'Ref Hacking'.<br><br><b>Bevor</b> Sie dies tun, verstehen Sie bitte dass dies <b>nicht</b> unterstützt ist und zu jedem Zeitpunk kaputtgehen kann. Verlassen Sie sich nicht auf diese Funktionalität für Ihre Kreationen!",
 
         "Inspector.ParticleStyle.CommonTransitions": "Häufig verwendete Übergangs-Vorlagen:",
@@ -1709,7 +1709,7 @@
         "CloudHome.Info.OnlineUsers": "Benutzer online: {online_users}<br>Benutzer beitretbar: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderation",
         "CloudHome.Info.Inventory": "Inventar",
-        "CloudHome.Info.Tools": "Werkzeuge",
+        "CloudHome.Info.Tools": "Tools",
         "CloudHome.Info.MoreInfo": "Mehr Informationen",
         "CloudHome.Info.SessionUptime": "Sitzungslaufzeit:",
         "CloudHome.Info.AccessLevel": "Sichtbarkeit:",
@@ -1876,8 +1876,8 @@
         "Hints.Telescope.TheMoonDesktop": "Zielen sie auf den Mond und greifen Sie ihn, indem Sie die rechte Maustaste gedrückt halten und die Maus bewegen!",
         "Hints.Telescope.TheMoonVR": "Verwenden Sie Ihren Laser mit dem Trigger-Knopf und greifen Sie den Mond!",
 
-        "Hints.Sundial.SoftEquip": "Greifen Sie dieses Werkzeug, um es zu verwenden!",
-        "Hints.Sundial.SoftEquipExtra": "Werkzeuge erlauben es Ihnen die Welt um Sie herum auf verschiedene Arten zu verändern!",
+        "Hints.Sundial.SoftEquip": "Greifen Sie dieses Tool, um es zu verwenden!",
+        "Hints.Sundial.SoftEquipExtra": "Tools erlauben es Ihnen die Welt um Sie herum auf verschiedene Arten zu verändern!",
 
         "Hints.Sundial.HardEquip": "Klicken Sie dieses Tool, um es auszurüsten!",
         "Hints.Sundial.HardEquipExtra": "Sie sehen Ihren Laser nicht? Halten Sie den Trigger-Knopf sanft um ihn einzublenden!",
@@ -1886,7 +1886,7 @@
         "Hints.Sundial.TheSunExtra": "Versuchen Sie unter den Horizont zu zielen, um es Nacht zu machen!",
 
         "Hints.Sundial.Dequip": "Lösen Sie das ausgerüstete Tool von Ihrer Hand, indem sie Ablegen in Ihrem Kontext-Menü auswählen.",
-        "Hints.Sundial.DequipExtra": "Die Optionen in Ihrem Kontext-Menü haben sich verändert, weil Sie ein Werkzeug halten.",
+        "Hints.Sundial.DequipExtra": "Die Optionen in Ihrem Kontext-Menü haben sich verändert, weil Sie ein Tool halten.",
 
         "Hints.Sundial.Teleporter": "Drücken Sie diesen Knopf um den Teleporter zu Ihrem Cloud-Home zu aktivieren!",
         "Hints.Sundial.TeleporterExtra": "Viel Spaß in Ihrem neuen Zuhause und danke, dass Sie vorbeigeschaut haben!",
@@ -1926,32 +1926,32 @@
 
         "UI.ProgressBar.ImportingItem": "Objekt Importieren",
 
-        "Tools.Names.MultiTool": "Multi-Werkzeug",
+        "Tools.Names.MultiTool": "Multitool",
 
-        "Tools.Names.CommonTools": "Gebräuchliche Werkzeuge",
-        "Tools.Names.ManipulationTools": "Veränderungs-Werkzeuge",
-        "Tools.Names.InformationTools": "Informations-Werkzeuge",
+        "Tools.Names.CommonTools": "Gebräuchliche Tools",
+        "Tools.Names.ManipulationTools": "Veränderungs-Tools",
+        "Tools.Names.InformationTools": "Informations-Tools",
 
-        "Tools.Names.GeometryLineBrush": "Geometrischer Linien-Pinsel Werkzeug",
-        "Tools.Names.Developer": "Entwickler Werkzeug",
-        "Tools.Names.ComponentClone": "Komponenten Kopieren Werkzeug",
-        "Tools.Names.ProtoFlux": "ProtoFlux Werkzeug",
-        "Tools.Names.Material": "Material Werkzeug",
-        "Tools.Names.Glue": "Kleben Werkzeug",
-        "Tools.Names.Light": "Licht Werkzeug",
-        "Tools.Names.Shape": "Formen Werkzeug",
-        "Tools.Names.Microphone": "Mikrofon Werkzeug",
-        "Tools.Names.GrabbableSetter": "Greifbar Setzen Werkzeug",
-        "Tools.Names.PhysicalColliderSetter": "Physikalische Kollission Setzen Werkzeug",
-        "Tools.Names.MeshVisibility": "Mesh Sichtbarkeit Werkzeug",
-        "Tools.Names.CameraObjectVisibility": "Kamera Objekt Sichtbarkeit Werkzeug",
-        "Tools.Names.Color": "Farben Werkzeug",
-        "Tools.Names.Mesh": "Mesh Werkzeug",
-        "Tools.Names.RiggedMeshTransfer": "Rigged Mesh Transfer Werkzeug",
-        "Tools.Names.Slicer": "Mesh Schneiden Werkzeug",
-        "Tools.Names.ControllerDiagnostic": "Controller Diagnose Werkzeug",
-        "Tools.Names.Measure": "Ausmessen Werkzeug",
-        "Tools.Names.Label": "Ettiketier Werkzeug",
+        "Tools.Names.GeometryLineBrush": "Pinsel-Tool",
+        "Tools.Names.Developer": "Entwickler-Tool",
+        "Tools.Names.ComponentClone": "Komponenten-Kopiertool",
+        "Tools.Names.ProtoFlux": "ProtoFlux-Tool",
+        "Tools.Names.Material": "Material-Tool",
+        "Tools.Names.Glue": "Klebe-Tool",
+        "Tools.Names.Light": "Licht-Tool",
+        "Tools.Names.Shape": "Form-Tool",
+        "Tools.Names.Microphone": "Mikrofon-Tool",
+        "Tools.Names.GrabbableSetter": "Greifbarkeits-Tool",
+        "Tools.Names.PhysicalColliderSetter": "Kollisions-Tool",
+        "Tools.Names.MeshVisibility": "Mesh-Sichtbarkeits-Tool",
+        "Tools.Names.CameraObjectVisibility": "Kamera-Sichtbarkeits-Tool",
+        "Tools.Names.Color": "Farb-Tool",
+        "Tools.Names.Mesh": "Mesh-Tool",
+        "Tools.Names.RiggedMeshTransfer": "Rigged-Mesh-Übertragungs-Tool",
+        "Tools.Names.Slicer": "Mesh-Schneide-Tool",
+        "Tools.Names.ControllerDiagnostic": "Controller-Diagnose-Tool",
+        "Tools.Names.Measure": "Ausmessungs-Tool",
+        "Tools.Names.Label": "Etikettier-Tool",
 
         "Dummy": "Dummy"
     }
