@@ -42,6 +42,7 @@ Dash.Exit.Shoutouts
 Dash.Exit.Shoutouts.AndMore  
 Dash.Exit.Shoutouts.You  
 Facets.FPS  
+World.Loaded  
 World.Error.HostBlocked  
 World.Error.HostBlockedDetail  
 World.Error.WorldCrash  

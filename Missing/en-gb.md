@@ -145,6 +145,7 @@ World.Loading
 World.LoadingFailed  
 World.LoadedAssets  
 World.Downloading  
+World.Loaded  
 World.Connection.EstablishingConnection  
 World.Connection.RequestingJoin  
 World.Connection.Authenticating  
