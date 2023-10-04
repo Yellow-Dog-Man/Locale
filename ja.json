@@ -2,6 +2,7 @@
     "localeCode": "ja",
     "authors": ["orange", "Melnus", "Aesc", "kazu", "Rabbuttz", "zozokasu"],
     "messages": {
+        
         "General.OK": "OK",
         "General.Start": "開始",
         "General.Finish": "終了",
@@ -58,11 +59,11 @@
         "Worlds.Tutorial" : "チュートリアル",
 
         "Locomotion.Noclip.Name": "ノークリップ",
-        "Locomotion.Noclip.Description": "編集時に最適な衝突判定無しのフライモード。",
+        "Locomotion.Noclip.Description": "編集時に最適な衝突判定なしのフライモード。",
         "Locomotion.Teleport.Name": "テレポート",
         "Locomotion.Teleport.Description": "快適な移動のためのテレポート。",
         "Locomotion.Fly.Name": "フライ",
-        "Locomotion.Fly.Description": "衝突判定有りのフライモード。",
+        "Locomotion.Fly.Description": "衝突判定ありのフライモード。",
         "Locomotion.WalkRun.Name": "歩行",
         "Locomotion.WalkRun.Description": "物理的な歩行とジャンプ。",
         "Locomotion.WalkRunGripping.Name": "歩行<size=50%>(クライミング)</size>",
@@ -121,7 +122,7 @@
         "Inventory.Favorite.TextDisplay": "テキストディスプレイに設定",
         "Inventory.Favorite.VideoPlayer": "ビデオプレイヤーに設定",
         "Inventory.Favorite.AudioPlayer": "オーディオプレイヤーに設定",
-        "Inventory.Favorite.InteractiveCamera": "アバターカメラに設定",
+        "Inventory.Favorite.InteractiveCamera": "カメラに設定",
         "Inventory.Favorite.Keyboard": "キーボードに設定",
         "Inventory.Favorite.Avatar": "アバターに設定",
         "Inventory.Favorite.WorldLoadingIndicator": "ローディングバーに設定",
@@ -164,6 +165,7 @@
         "World.LoadingFailed": "ワールド読み込み失敗",
         "World.LoadedAssets": "アセット読み込み中: {assets} / {total_assets}",
         "World.Downloading": "ダウンロード中: {bytes} / {total_bytes}",
+        "World.Loaded": "ダウンロード完了",
 
         "World.Connection.EstablishingConnection": "接続を確立しています",
         "World.Connection.RequestingJoin": "参加をリクエストしています",
@@ -205,7 +207,7 @@
         "World.Config.MobileFriendly": "モバイル向けに調整済み",
         "World.Config.SaveOptionsHeader": "ワールドを保存:",
         "World.Config.EditMode": "編集モード:",
-        "World.Config.AccessLevelHeader": "このセッションに入れる人",
+        "World.Config.AccessLevelHeader": "このセッションに入れる人(アクセスレベル)",
         "World.Config.AutoKickAFK": "AFKユーザーを自動キック:",
         "World.Config.AutoKickAFKMinutes": "最大AFK時間(分):",
         "World.Config.HideFromListing": "セッションリストに表示しない",
@@ -291,16 +293,16 @@
         "World.Category.Art": "アート",
         "World.Category.Tutorials": "チュートリアル",
         "World.Category.Educational": "教育",
-        "World.Category.Random": "シャッフル",
+        "World.Category.Random": "ランダム",
         "World.Category.MyWorlds": "自分のワールド",
-        "World.Category.Custom": "カスタム",
+        "World.Category.Custom": "表示設定",
         "World.Category.GroupWorlds": "グループのワールド",
 
         "World.AccessLevel.Anyone": "誰でも",
         "World.AccessLevel.RegisteredUsers": "登録ユーザー",
         "World.AccessLevel.Friends": "フレンド",
         "World.AccessLevel.FriendsOfFriends": "フレンド+",
-        "World.AccessLevel.LAN": "LAN",
+        "World.AccessLevel.LAN": "LAN内",
         "World.AccessLevel.Private": "プライベート(招待のみ)",
 
         "World.SortParameter.SearchScore": "検索スコア",
@@ -320,7 +322,7 @@
         "World.Filter.ActiveSessions": "アクティブセッション",
         "World.Filter.PublishedWorlds": "公開されているワールド",
         "World.Filter.LocalWorlds": "ローカルワールド",
-        "World.Filter.BaseSearch": "ベースサーチ:",
+        "World.Filter.BaseSearch": "検索ワード:",
         "World.Filter.ByOwner": "オーナー:",
         "World.Filter.UserOwner": "ユーザーがオーナー",
         "World.Filter.GroupOwner": "グループがオーナー",
@@ -340,7 +342,7 @@
         "World.Edit.Description": "説明:",
         "World.Edit.Tags": "タグ​(コンマで分けてください):",
         "World.Edit.Path": "ワールドパス:",
-        "World.Edit.AccessLevelHeader": "このワールドは誰が開けますか？(入室制限)",
+        "World.Edit.AccessLevelHeader": "このワールドは誰が開けますか？(アクセスレベル)",
         "World.Edit.AccessPrivate": "私のみ",
         "World.Edit.AccessPatreon": "パトロンサポーター",
         "World.Edit.AccessPublic": "誰でも(パブリック)",
@@ -386,9 +388,9 @@
         "Indicator.Sync.SyncingItems": "{item_count,plural, other {# 個のアイテムを}}シンク中<nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "{variant_count,plural, other {# 個のアセットバリアントを}} アップロード中",
         "Indicator.Sync.SyncError": "シンクエラー! <size=50%>ログをチェックしてください</size>",
-        "Indicator.Sync.OutOfSpace": "空き容量が足りません! <size=50%>シンクできません</size>",
+        "Indicator.Sync.OutOfSpace": "容量が足りません! <size=50%>シンクできません</size>",
         
-        "Indicator.Storage.StorageFull": "容量満タン",
+        "Indicator.Storage.StorageFull": "空き容量なし",
         "Indicator.Storage.Usage": "{storage_used} / {storage_max}<br><size=61.803%>ストレージ使用量</size>",
 
         "Indicator.LiveHiddenMessage": "(ライブ中は非表示)",
@@ -404,7 +406,7 @@
         "Login.MissingLogin": "認証情報を入力してください",
         "Login.InvalidRecoveryCode": "リカバリーコードが違います",
         "Login.UnsupportedAuthentication": "サポートされていない認証手段です",
-        "Login.EmailNotVerified": "メールでの承認が済んでいません",
+        "Login.EmailNotVerified": "メールの承認が済んでいません",
         "Login.AccountTempLocked": "あなたのアカウントはロックアウトされています…",
         "Login.AccountBanned": "あなたのアカウントはBANされています。",
         "Login.DuplicateAccount": "アカウントが重複しています",
@@ -436,9 +438,9 @@
         "Account.Registering": "登録中...",
         "Account.Anonymous": "未登録ユーザー",
         "Account.Username": "ユーザー名:",
-        "Account.Email": "メール:",
+        "Account.Email": "メールアドレス:",
         "Account.RememberMe": "記憶する<br><size=50%>(30日間有効)</size>",
-        "Account.RepeatEmail": "メール(再入力):",
+        "Account.RepeatEmail": "メールアドレス(再入力):",
         "Account.UsernameOrEmail": "ユーザー名またはメール:",
         "Account.Password": "パスワード:",
         "Account.RepeatPassword": "パスワード(再入力):",
@@ -466,7 +468,7 @@
 
         "Account.Saml2.Title" : "SAML 2.0",
         "Account.Saml2.Select" : "使用するサービスを選んでください:",
-        "Account.Saml2.LoggingIn" : "ログイン待機中 (Webブラウザをご確認ください)...",
+        "Account.Saml2.LoggingIn" : "ログイン待機中 (Webブラウザを確認してください)...",
 
         "Account.TOTP.Title" : "2要素認証",
         "Account.TOTP.Initializing": "アカウントの2要素認証の状態を確認しています...",
@@ -517,7 +519,7 @@
         "Session.Tab.Permissions": "権限",
 
         "Session.Permission.Anonymous": "未登録ユーザーの初期値:",
-        "Session.Permission.Vistor": "フレンドでない登録ユーザの初期値:",
+        "Session.Permission.Vistor": "登録ユーザの初期値:",
         "Session.Permission.Contact": "フレンドの初期値:",
         "Session.Permission.Host": "ホストの初期値:",
         "Session.Permission.PermissionOverrideCount": "個別に権限設定を行ったユーザー数: {n,select, -1 {--表示できません--} other {{n}}}",
@@ -597,9 +599,9 @@
         "Undo.ResetRotation": "回転をリセット",
         "Undo.ResetScale": "スケールをリセット",
 
-        "Undo.GrabObjects": "オブジェクトをグラブする",
-        "Undo.DestroyGrabbed": "グラブしているオブジェクトを破棄する",
-        "Undo.DuplicateGrabbed": "グラブしているオブジェクトを複製する",
+        "Undo.GrabObjects": "オブジェクトをグラブ",
+        "Undo.DestroyGrabbed": "グラブしているオブジェクトを破棄",
+        "Undo.DuplicateGrabbed": "グラブしているオブジェクトを複製",
 
         "Undo.ChangeBoxSize": "ボックスサイズを変更",
         "Undo.BrushStroke": "ブラシストローク",
@@ -673,7 +675,7 @@
         "Tooltip.Material.ConvertAll": "全てを変換",
         "Tooltip.Material.CreateNew": "新規作成",
 
-        "Tooltip.Mesh.Edit": "メッシュの編集",
+        "Tooltip.Mesh.Edit": "メッシュを編集",
 
         "Tooltip.Cartridge.Eject": "オーブを取り出す",
 
@@ -800,7 +802,7 @@
         "Importer.Image.Title": "画像​インポーター",
         "Importer.Image.Prompt": "インポートしようと​しているものは​なんですか?",
         "Importer.Image.Regular": "画像​/​テクスチャ",
-        "Importer.Image.Screenshot": "{appName}​の写真",
+        "Importer.Image.Screenshot": "{appName}​の​スクリーンショット",
         "Importer.Image.PixelArt" : "ドット絵",
         "Importer.Image.360": "360°画像​/​スカイボックス",
         "Importer.Image.StereoPhoto": "ステレオ​画像",
@@ -965,8 +967,8 @@
         "FullBody.FeetNotTracking": "足がトラッキングされていません...",
 
         "FullBody.AvatarPointMapped": "マッピング済み",
-        "FullBody.AvatarPointNotMapped": "マッピング無し",
-        "FullBody.AvatarPointNoTracker": "トラッカー無し",
+        "FullBody.AvatarPointNotMapped": "マッピングなし",
+        "FullBody.AvatarPointNoTracker": "トラッカーなし",
 
         "CameraControl.Title": "カメラコントロール",
         "CameraControl.MirroringOffWarning": "ミラーリングOFF",
@@ -1529,7 +1531,7 @@
         "Tutorial.Welcome.Begin": "始める！",
 
         "Tutorial.Welcome.AccountHeader": "{appName} アカウント",
-        "Tutorial.Welcome.AccountDescription": "アカウントを作成すると、1 GBの無料ストレージと、アイテムの保存、​アバターのお気に入り設定、フレンド登録の追加、メッセージへのアクセスが提供されます。",
+        "Tutorial.Welcome.AccountDescription": "アカウントを作成すると、1GBの無料ストレージと、アイテムの保存、​アバターのお気に入り設定、フレンド登録、メッセージへのアクセスが提供されます。",
         "Tutorial.Welcome.AccountCreate": "アカウント作成",
         "Tutorial.Welcome.AccountLogin": "アカウントを持っています",
         "Tutorial.Welcome.AccountSkip": "アカウントなしで続行",
@@ -1700,7 +1702,7 @@
         "Temporary.MMC.VoteInvalid": "投票が無効です、​もう一度やり直してください。",
 
         "CloudHome.WelcomeHome": "ようこそ",
-        "CloudHome.TargetRangeOptions": "射撃場操作盤",
+        "CloudHome.TargetRangeOptions": "射撃場設定パネル",
 
         "Tutorial.Saving.Title": "ホームワールドへようこそ！",
         "Tutorial.Saving.Content": "ここは<b><i><color=hero.yellow>ホーム</b></i></color>ワールド、<br>ログインしたときに最初に開かれる<br>ワールドです！<br><br>ホームはあなた専用のワールドですので<br>自由に編集・保存ができます。<br><br>好みの家具を置いたり衣替えした後は、<br>忘れず保存しましょう！",
@@ -1715,11 +1717,9 @@
         "CloudHome.Info.StorageUsed": "ストレージ使用量:",
 
         "CloudHome.Info.DashInfoTab.Title": "ようこそ！",
-
         "CloudHome.Info.DashInfoDesktop": "～Resoniteかんたんチュートリアル～<br>その１ Escキーを押すと<i><color=hero.purple>ダッシュメニュー</color></i>が開きます。 フレンドやワールド一覧など、大事な機能はここに集約されています。<br><br>その2 このディスプレイには\"もしも\"の時に役立つ情報が書かれています。<br>一度目を通しておくことをお勧めします！ 「閉じる」ボタンをクリックするとこのメニューを閉じられます。",
         "CloudHome.Info.DashInfoVR": "～Resoniteかんたんチュートリアル～<br>その１ BまたはYボタンを押すと<i><color=hero.purple>ダッシュメニュー</color></i>が開きます。 フレンドやワールド一覧など、大事な機能はここに集約されています。。<br><br>その2 このディスプレイには\"もしも\"の時に役立つ情報が書かれています。<br>一度目を通しておくことをお勧めします！ 「閉じる」ボタンをクリックするとこのメニューを閉じられます。",
         "CloudHome.Info.DashInfoVRNoButtons": "～Resoniteかんたんチュートリアル～<br>その１ 円が一周するまでメニューボタンを押し続けると<i><color=hero.purple>ダッシュメニュー</color></i> が開きます。 フレンドやワールド一覧など、大事な機能はここに集約されています。<br><br>その2 このディスプレイには\"もしも\"の時に役立つ情報が書かれています。<br>一度目を通しておくことをお勧めします！ 「閉じる」ボタンをクリックするとこのメニューを閉じられます。",
-
 
         "CloudHome.Info.GoToWiki": "Wikiを見る！",
         "CloudHome.Info.GoToDiscord": "Discordを見る！",
@@ -1762,7 +1762,6 @@
 
         "StickyNote.SpinMe": "クルクルしてみ？",
         "StickyNote.FruitPlate": "<size=1500>増える増える 不思議な果物</size>",
-
         "StickyNote.EmptyForYou": "好きな物<br>飾ってね :)",
         "StickyNote.RelevantLinks": "関連リンク！<br><--<br><br><size=500>「接続書」などと言う人がいるらしい</size>",
         "StickyNote.SunTool": "太陽を 動かしたいよう",
@@ -1806,13 +1805,13 @@
         "CloudHome.Panel.LightColor": "ライトの色",
         "CloudHome.Panel.LightColorTemperature": "ライトの色温度",
 
-        "CloudHome.Panel.Spawn": "玄関前",
-        "CloudHome.Panel.Foyer": "エントランス",
+        "CloudHome.Panel.Spawn": "エントランス",
+        "CloudHome.Panel.Foyer": "ロビー",
         "CloudHome.Panel.Workspace": "会議スペース",
         "CloudHome.Panel.ReadingLounge": "読書スペース",
         "CloudHome.Panel.Lounge": "オーディオスペース",
         "CloudHome.Panel.Center": "メインホール",
-        "CloudHome.Panel.Balcony": "ベランダ",
+        "CloudHome.Panel.Balcony": "バルコニー",
         "CloudHome.Panel.Theater": "ホームシアター",
 
         "CloudHome.Panel.TheaterControl": "ホームシアター設定パネル",
@@ -1913,7 +1912,7 @@
         "UI.ColorPicker.Linear": "リニア",
 
         "UI.ColorPicker.Hexadecimal": "カラー<br>コード",
-        "UI.ColorPicker.ColorSwatches": "スウォッチ",
+        "UI.ColorPicker.ColorSwatches": "カラー<br>パレット",
 
         "UI.ColorPicker.Red": "赤",
         "UI.ColorPicker.Green": "緑",
