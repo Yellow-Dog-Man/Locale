@@ -378,22 +378,11 @@
         "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users,plural, one {пользователь} few {пользователя} other {пользователей}} в VR",
         "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users,plural, one {пользователь} few {пользователя} other {пользователей}} в экранном режиме",
 
-<<<<<<< HEAD
-        "Indicator.Sync.AllSynced": "Все Синхронизировано",
-        "Indicator.Sync.SyncingItems": "Синхронизация {item_count,plural, one {# предмета} few {# предметов} many {# предметов}} <nobr>({item_percent} %)",
-        "Indicator.Sync.UploadingVariants": "Загрузка {variant_count,plural, one {# варианта ассетов} few {# вариантов ассетов} many {# вариантов ассетов}}",
-        "Indicator.Sync.SyncError": "Ошибка Синхронизации ! <size=50%>Проверьте лог для подробностей</size>",
-        "Indicator.Sync.StorageFull": "Нет Места! <size=50%>Невозможно синхронизировать</size>",
-
-        "Indicator.Storage.StorageFull": "Нет места в хранилище",
-        "Indicator.Storage.Usage": "{storage_used} из {storage_max}<br><size=61.803%>занято в хранилище</size>",
-=======
         "Indicator.ServerStatus.Status": "Статус Облака",
         "Indicator.ServerStatus.Good": "Работает",
         "Indicator.ServerStatus.Slow": "Тормозит",
         "Indicator.ServerStatus.Down": "Упало",
         "Indicator.ServerStatus.NoInternet": "Нет интернета",
->>>>>>> upstream/main
 
         "Indicator.Sync.AllSynced": "Всё синхронизировано",
         "Indicator.Sync.SyncingItems": "Синхронизация<br><size=61.8033%>{item_count,plural, one {# предмета} few {# предметов} many {# предметов}}</size>",
@@ -472,11 +461,8 @@
 
         "Account.Login": "Войти",
         "Account.Logout": "Выйти",
-<<<<<<< HEAD
-        "Account.Register": "Регистрация",
 =======
         "Account.Register": "Регистрация аккаунта",
->>>>>>> upstream/main
         "Account.Saml2" : "Login with SAML 2.0",
         "Account.LoginOrRegister": "Вход / Регистрация",
         "Account.LogoutConfirm": "Точно выйти?",
@@ -494,7 +480,7 @@
         "Account.RecoverPassword": "Забыли пароль?",
         "Account.LiveEmailWarning": "<color=#f00>ПРЕДУПРЕЖДЕНИЕ:</color> live.com, hotmail.com, outlook.com и другие почтовые службы Microsoft могут вызвать задержку письма с подтверждением до 1-2 дней.",
         "Account.PasswordRules": "(Как минимум 8 символов, в том числе хотя бы 1 цифра, 1 заглавная и 1 строчная буквы)",
-        "Account.AgeConfirm": "Мне 16 (или больше) лет",
+        "Account.AgeConfirm": "Мне 13 (или больше) лет",
         "Account.LostPassword": "Забыт пароль",
         "Account.SendRecoveryCode": "Отправить код восстановления",
         "Account.ResetPasswordHeader": "Сбросить ваш пароль",
@@ -510,11 +496,7 @@
         "Account.BirthMonth": "Месяц рождения:",
         "Account.BirthDay": "День рождения:",
         "Account.BirthYear": "Год рождения:",
-<<<<<<< HEAD
-        "Account.PoliciesAgreement": "Я согласен с <color=#22B2FF>условия оказания услуг</color> и <color=#22B2FF>политикой конфиденциальности</color>",
-=======
         "Account.PoliciesAgreement": "Я согласен с <color=#22B2FF>условиями оказания услуг</color> и <color=#22B2FF>политикой конфиденциальности</color>",
->>>>>>> upstream/main
         "Account.AlternateMethods" : "Войти с помощью строннего сервиса:",
 
         "Account.Saml2.Title" : "SAML 2.0",
@@ -531,11 +513,7 @@
         "Account.TOTP.RecoveryCodes.Description": "Сохраните эти коды в безопасном месте. Их можно будет использовать для восстановления доступа к аккаунту в случае если Вы сломаете или потеряете ваш телефон. Каждый код может быть использован только один раз. <b>Никогда не делитесь ими с другими.</b> Если Вы потеряете их, вы <color=red>НАВСЕГДА</color> потеряете доступ к вашему аккаунту.",
         "Account.TOTP.RecoveryCodes.Codes": "Коды:",
         "Account.TOTP.Activate.Header": "Активировать 2FA",
-<<<<<<< HEAD
-        "Account.TOTP.Activate.Description": "Чтобы активировать 2FA на своей учетной записи, используйте 6-значный токен, сгенерированный приложением-аутентификатором.<br><br>После активации потрубется использовать код для подтверждения некоторых операций.",
-=======
         "Account.TOTP.Activate.Description": "Чтобы активировать 2FA на своей учетной записи, используйте 6-значный токен, сгенерированный приложением-аутентификатором.<br><br>После активации потребуется использовать код для подтверждения некоторых операций.",
->>>>>>> upstream/main
         "Account.TOTP.Activate.Token": "6-значный код:",
         "Account.TOTP.Activate.TokenField": "Введите ваш код...",
         "Account.TOTP.Activate.Activate": "Активировать",
@@ -551,19 +529,11 @@
         "Account.TOTP.Message.DeactivationComplete": "2FA была успешно деактивирована на вашем аккаунте.<br><br>Ваш аккаунт сейчас подвержен дополнительному риску!<br><br>Мы настоятельно рекомендуем заново настроить 2FA, особенно если Вы использовали код восстановления в связи с утратой телефона.",
 
         "Account.Type.Standard" : "Стандартный Аккаунт",
-<<<<<<< HEAD
-        "Account.Type.Business" : "Бизнесс Аккаунт",
-        "Account.Type.Patreon" : "Спонсор на Patreon",
-        "Account.Type.Mentor" : "{platform} Учитель",
-        "Account.Type.Moderator" : "{platform} Модератор",
-        "Account.Type.Team" : "{platform} Группа",
-=======
         "Account.Type.Business" : "Бизнес Аккаунт",
         "Account.Type.Patreon" : "Спонсор на Patreon",
         "Account.Type.Mentor" : "Ментор {platform}",
         "Account.Type.Moderator" : "Модератор {platform}",
         "Account.Type.Team" : "Команда {platform}",
->>>>>>> upstream/main
 
         "Avatar.Badge.Live" : "LIVE",
 
@@ -957,9 +927,15 @@
         "Importer.Video.Stereo180": "Стерео 180 Видео",
         "Importer.Video.Depth.Prompt": "Пресет Глубины",
         "Importer.Video.Depth.Default": "По Умолчанию",
+        
+        "Exporter.Title": "Панель экспорта",
+        "Exporter.FileName": "Имя файла:",
+        "Exporter.ExportAs": "Экспортировать как:",
+        "Exporter.Export": "Экспорт",
+        "Exporter.Exporting": "Идет экспорт...",
 
         "NewWorld.Title": "Новый мир",
-
+        "NewWorld.SessionTitle": "Новая Сессия",
         "NewWorld.Template": "Шаблон мира:",
         "NewWorld.CustomPreset": "Кастомная предустановка:",
         "NewWorld.SessionSettings": "Настройки сессии:",
@@ -1007,7 +983,7 @@
         "FullBody.ResetAvatarHeightCompensation": "Сброс компенсации роста",
         "FullBody.AvatarSaveWarning": "Не забудьте СОХРАНИТЬ аватар после завершения калибровки!",
         "FullBody.FinishAvatarCalibration": "Завершить калибровку аватара",
-        "FullBody.CalibrationFinishedInstructions": "Если вы удовлетворены калибровкой аватара, вы можете сохранить его и закрыть инструмент калибровки.",
+        "FullBody.CalibrationFinishedInstructions": "Если вы удовлетворены результатом калибровки аватара, вы можете сохранить его и закрыть инструмент калибровки.",
         "FullBody.CloseCalibrator": "Закрыть калибровщик",
         "FullBody.CalibrationRedoInstructions": "Если калибровка неверна или вы хотите откалибровать другие аватары - вы можете сделать это в этом окне. Также вы можете снова открыть калибровщик в любое время в будущем для других корректировок.\nЕсли вы только изменили трекеры, вам не нужно калибровать ваши аватары снова.",
         "FullBody.ReturnToTrackerCalibration": "Вернуться к калибровке трекеров",
@@ -1103,10 +1079,10 @@
         "CameraControl.OBS.Bitrate": "Битрейт: {n}/сек",
         "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "Пропущенные кадры: {n}",
-
+        "CameraControl.OBS.Idle": "IDLE",
         "CameraControl.OBS.Live": "LIVE",
         "CameraControl.OBS.Recording": "REC",
-        "CameraControl.OBS.OpenInstallerReason": "С этой страницы можно будет скачать плагин websocket для OBS",
+        "CameraControl.OBS.OpenInstallerReason": "С этой страницы можно скачать плагин websocket для OBS",
 
         "CameraControl.OBS.Streaming.Start": "Начать трансляцию",
         "CameraControl.OBS.Streaming.Starting": "Запуск трансляции...",
@@ -1126,6 +1102,7 @@
         "Settings.HideAllTutorials": "Убрать все обучения",
         "Settings.ShowInteractionHints": "Показать подсказки взаимодействия",
         "Settings.PrimaryController": "Основной контроллер",
+        "Settings.Hotswitching": "Переключение между VR и Desktop",
         "Settings.AllowStrafing": "Включить стрейф",
         "Settings.UseHeadDirectionForMovement": "Использовать направление головы для движения",
         "Settings.SmoothTurn": "Плавный поворот",
@@ -1149,7 +1126,7 @@
         "Settings.DoNotSendReadStatus": "Не отправлять сообщение о прочтении сразу",
         "Settings.MaxConcurrentAssetTransfers": "Максимальное количество передач ресурсов",
         "Settings.AutosaveScreenshotPath": "Путь авто-сохранения скриншотов",
-
+        "Settings.AutosaveAllScreenshots": "Авто-сохранение ВСЕХ скриншотов в мире",
         "Settings.DebugInputBinding": "Отладка привязки ввода",
 
         "Settings.LaserSmoothing.Header": "Сглаживание лазера",
@@ -1163,7 +1140,7 @@
         "Settings.LaserSmoothing.Reset": "Сброс настроек лазера",
 
         "Settings.Audio.Header": "Аудио",
-
+        "Settings.Audio.Input.Title" : "Аудио устройства ввода",
         "Settings.Audio.Master": "Общая громкость: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Звуковые эффекты: {n,number,percent}",
         "Settings.Audio.Multimedia": "Мультимедиа: {n,number,percent}",
@@ -1174,9 +1151,9 @@
         "Settings.Audio.NormzliationThreshold": "Порог нормализации: {n}",
         "Settings.Audio.NoiseSupression": "Фильтр подавления шума (RNNoise)",
         "Settings.Audio.WhisperVoiceVolume": "Громкость голоса за пределами зоны шёпота: {n,number,percent}",
-        "Settings.Audio.InputDevice": "Устройство аудио захвата:",
+        "Settings.Audio.InputDevice": "Устройство аудио ввода:",
         "Settings.Audio.OutputDevice": "Устройство аудио вывода:",
-        "Settings.Audio.SelectInputDevice": "Выберите устройство аудио захвата",
+        "Settings.Audio.SelectInputDevice": "Выберите устройство аудио ввода",
         "Settings.Audio.SelectOutputDevice": "Выберите устройство аудио вывода",
         "Settings.Audio.TestInput": "Протестируйте ваш звук:",
         "Settings.Audio.TestDescription": "Мы проиграем звук с выбранного устройства обратно к Вам чтобы проверить, что всё работает.",
@@ -1187,6 +1164,7 @@
 
         "Settings.Graphics.DesktopFOV": "Поле зрения в экранном режиме",
 
+        "Settings.Locale.Title" : "Язык интерфейса",
         "Settings.Locale.ChangeLanguage": "Сменить язык",
         "Settings.Locale.SelectLanguageHeader": "Выберите ваш язык:",
         "Settings.Locale.DefaultLanguage": "Системный по-умолчанию",
@@ -1214,7 +1192,7 @@
         "Settings.ViveHandTracking.Name": "Vive Трекинг Пальцев",
         "Settings.ViveHandTracking.Enabled": "Vive Трекинг Руки Вкл",
         "Settings.ViveHandTracking.SnapDistance": "Vive-Дистанция захвата трекинга рук",
-        "Settings.ViveHandTracking.UseFingersWhenSnapped": "Использовать Vive-Трекинг Пальцев когда захвачены руки",
+        "Settings.ViveHandTracking.UseFingersWhenSnapped": "Использовать Vive-Трекинг Пальцев когда руки в области захвата",
 
         "Settings.WindowsIntegration": "Интеграция с Windows",
         "Settings.LinuxIntegration": "Интеграция с Linux",
@@ -1222,7 +1200,8 @@
         "Settings.System.KeepOriginalScreenshotFormat": "Оставить оригинальный формат скриншота",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "Когда включена эта настройка, скриншоты при сохранении в Документы не будут конвертированы в формат JPG",
 
-        "Security.Hyperlink.Warning": "<b><size=125%>ПРЕДУПРЕЖДЕНИЕ: Исходящая гиперссылка </size></b>\nВы нажали на гиперссылку в мире. Вы хотите её открыть? Гиперссылка откроется в вашем браузере на рабочем столе.",
+        "Security.Hyperlink.Title" : "Внешняя гиперссылка",
+        "Security.Hyperlink.Warning": "<b><size=125%>ПРЕДУПРЕЖДЕНИЕ: Внешняя гиперссылка </size></b>\nВы нажали на гиперссылку в мире. Вы хотите её открыть? Гиперссылка откроется в вашем браузере на рабочем столе.",
         "Security.Hyperlink.Open": "Открыть",
         "Security.Hyperlink.Cancel": "Отмена",
 
@@ -1234,6 +1213,14 @@
         "Security.HostAccess.Allow": "Принять",
         "Security.HostAccess.Deny": "Отклонить",
 
+        "ComponentSelector.Back" : "< (назад)",
+        "ComponentSelector.Title" : "Компоненты",
+        "ComponentSelector.CreateCustomType" : "Создать новый тип",
+        "ComponentSelector.CommonGenericTypes" : "Общий базовый тип",
+        "ComponentSelector.CustomGenericArguments" : "Пользовательские общие аргументы:",
+        "ComponentSelector.InvalidType" : "Некорректный тип",
+
+        "Inspector.Title" : "Инспектор сцены",
         "Inspector.Slot.AttachComponent": "Добавить компонент",
 
         "Inspector.Slot.Axis.X": "X: <b>+</b>Вправо <b>-</b>Влево",
@@ -1376,12 +1363,13 @@
         "Inspector.Texture.AlphaToMask": "Альфа в Маску",
         "Inspector.Texture.RemoveAlpha": "Удалить Альфа",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Конверт. в градации серого (усреднить)",
-
+        "Inspector.Texture.ConvertToGrayscaleLuminance": "Конверт. в градации серого (освещенность)",
         "Inspector.Texture.SwapRG": "Поменять R и G",
         "Inspector.Texture.SwapRB": "Поменять R и B",
-
+        "Inspector.Texture.SwapRA": "Поменять R и A",
         "Inspector.Texture.SwapGB": "Поменять G и B",
-
+        "Inspector.Texture.SwapGA": "Поменять G и A",
+        "Inspector.Texture.SwapBA": "Поменять B и A",
         "Inspector.Texture.AddWhiteBackground": "Добавить белый фон",
         "Inspector.Texture.AddBlackBackground": "Добавить чёрный фон",
         "Inspector.Texture.Hue": "Оттенок (H):",
@@ -1399,12 +1387,17 @@
         "Inspector.Texture.RotateCW": "Повернуть на 90° по ЧС",
         "Inspector.Texture.RotateCCW": "Повернуть на 90° против ЧС",
         "Inspector.Texture.Rotate180": "Повернуть на 180°",
-
+        "Inspector.Texture.TrimTransparent" : "Обрамление прозрачности",
+        "Inspector.Texture.TrimByCornerColor" : "Обрамление по цвету углов",
         "Inspector.Texture.MakeSquare": "Сделать Квадратным",
         "Inspector.Texture.ToNearestPOT": "К ближайшей степени 2-х",
         "Inspector.Texture.MakeTileable": "Сделать повторяемой (размер перехода):",
         "Inspector.Texture.TileLoop": "Повторяемая (цикл)",
         "Inspector.Texture.TileMirror": "Повторяемая (зеркало)",
+        "Inspector.Texture.NormalizeMaxOnly" : "Нормализовать (только max)",
+        "Inspector.Texture.NormalizeMinMax" : "Нормализовать (min и max)",
+        "Inspector.Texture.NormalizeIndependent" : "Нормализовать только RGB (min и max)",
+        "Inspector.Texture.BleedColorToAlpha" : "Слияние цвета с Альфа-каналом",
 
         "Inspector.Texture.InvalidFloats": "Диагностика: Не действительные float числа",
         "Inspector.Texture.GenerateMetadata": "Диагностика: Генерация Bitmap Метаданных",
@@ -1414,7 +1407,7 @@
 
         "Inspector.Audio.BakeAudio": "Запечь аудио",
         "Inspector.Audio.FormatInfo": "Частота дискретизации: {rate} Hz, Каналы: {channels} ({channel_count})",
-        "Inspector.Audio.Duration": "Длительность: {duration}",
+        "Inspector.Audio.Duration": "Длительность: {duration}, Количество сэмплов: {samples}",
         "Inspector.Audio.EncodingInfo": "Кодек: {info}, Полностью раскодировано: {decoded}",
 
         "Inspector.Audio.Normalize": "Нормализовать громкость",
@@ -1446,7 +1439,7 @@
         "Inspector.DynamicBoneChain.ClearSmoothTransforms": "Очистить плавные трансформации в потомках",
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Коллайдеры & Захватывание -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Добавить фиксированные коллайдеры от иерархии (от корневого слота)",
-        "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Всегда хватать последнюю кость",
+        "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Всегда захватывать последнюю кость",
 
         "Inspector.Rig.CleanupBoneColliders": "Очистить коллайдеры костей",
         "Inspector.Rig.GenerateDebugVisuals": "Генерировать отладочную визуализацию",
@@ -1455,6 +1448,7 @@
         "Inspector.AvatarExpression.AutoAssign": "Авто присвоение blendshape'ов (используя эвристику)",
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>Этот компонент можно использовать как простое твердое тело, выбрав SimulateRotation. Перед тем как сделать это, имейте в виду, что он не оптимизирован для этих целей и полная поддержка твердых тел будет позже.<br>Полная поддержка твердых тел даст:<br><b>- Эффективное использование ЦП и сети</b> - с CharacterController вы используете больше ресурсов ЦП и ощутимо больше сетевого трафика<br><b>- Ограничения</b> - вы сможете задавать суставы, петли, пружины и другие ограничения между твердыми телами<br><b>- Плавная симуляция и взаимодействие для всех</b> - CharacterController ведет себя очень странно если другой пользователь пытается с ним взаимодействовать<br><b>- Новые фичи и инструменты</b> - чтобы упростить их использование<br>-----------------------<br>Вы можете узнать больше в заявке #22 на GitHub. Прочитали и осознали? Дерзайте!",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>С помощью этого компонента можно взаимодействовать с рефренсами, используя их ID. Этот процесс часто называют 'Ref Hacking'.<br><br><b>Прежде</b> чем начать, пожалуйста примите к сведению, что это <b>не</b> подерживается и может сломаться в любой момент. Не полагайтесь на данную функцию, при создании своих творений.",
 
         "Inspector.ParticleStyle.CommonTransitions": "Часто используемые шаблоны:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Альфа нарастание и затухание",
@@ -1472,6 +1466,21 @@
         "Inspector.Collider.SetFromPreciseBounds": "Установить по точным границам",
         "Inspector.Collider.SetFromPreciseCylinderBounds": "Установить по точным цилиндрическим границам",
         "Inspector.Collider.Visualize": "Визуализировать коллайдер",
+
+        "Inspector.SimpleAwayIndicator.TestAway" : "Выставить как 'отошел' (debug)",
+        "Inspector.SimpleAwayIndicator.TestRestore" : "Восстановить (debug)",
+        
+        "Inspector.Fields.Drive" : "Двигать",
+        "Inspector.Fields.DriveWriteBack" : "Двигать <size=50%>(с откликом)</size>",
+
+        "Inspector.Actions.CopyComponent" : "Скопировать компонент",
+        "Inspector.Actions.MoveComponent" : "Переместить компонент",
+
+        "UserInspector.Title" : "Пользовательский инспектор",
+
+        "WorkerInspector.Title" : "Инспектор {name}",
+
+        "CreateNew.Title" : "Новый",
 
         "Wizard.General.ProcessRoot": "Начиная с корня:",
         "Wizard.General.Result": "Результат:",
@@ -1538,6 +1547,7 @@
         "Wizard.TextRenderer.ReplaceFont": "Заменить фонт",
         "Wizard.TextRenderer.SetColor": "Установить цвет",
 
+        "Desktop.Controls.Title": "Настройки в режиме Desktop",
         "Desktop.OpenKeyboard": "Показать клавиатуру",
         "Desktop.FollowCursor.On": "Следовать за курсором: Вкл",
         "Desktop.FollowCursor.Off": "Следовать за курсором: Выкл",
@@ -1545,6 +1555,9 @@
         "Desktop.LegacyInputMode.Off": "Legacy ввод: Выкл",
         "Desktop.Brightness": "Яркость: {n,number,percent}",
         "Desktop.Opacity": "Непрозрачность: {n,number,percent}",
+        
+        "VolumePlaneSlicer.Highlight": "Подсветка",
+        "VolumePlaneSlicer.Slicer": "Срез",
 
         "Tutorial.Welcome.WelcomeTo": "Добро пожаловать в",
         "Tutorial.Welcome.LetsStart": "Поехали!",
