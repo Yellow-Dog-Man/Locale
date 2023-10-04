@@ -147,13 +147,13 @@
         "Dash.Actions.CloudHome": "Cloud-Home",
 
         "Dash.Exit.Header": "{appName} beenden",
-        "Dash.Exit.ExitAndSave": "Homes Speichern & Beenden",
-        "Dash.Exit.ExitAndDiscard": "Ohne Speichern beenden",
+        "Dash.Exit.ExitAndSave": "Homes Speichern &<br>beenden",
+        "Dash.Exit.ExitAndDiscard": "Ohne Speichern<br>beenden",
         "Dash.Exit.Sponsor": "Vielen Dank an {name} für das Sponsoring dieses Projektes!",
         "Dash.Exit.Sponsor.You": "SIE",
         "Dash.Exit.Shoutouts": "Dieses Projekt wurde außerdem möglich gemacht von diesen Leuten:",
-        "Dash.Exit.Shoutouts.AndMore" : " und vielen mehr!",
-        "Dash.Exit.Shoutouts.You" : "{name} (Das sind Sie! Vielen Dank!)",
+        "Dash.Exit.Shoutouts.AndMore": " und vielen mehr!",
+        "Dash.Exit.Shoutouts.You": "{name} (Das sind Sie! Vielen Dank!)",
         "Dash.Exit.ThankYou": "Vielen Dank, dass Sie {appName} benutzen!",
         "Dash.Exit.SubmittedBy": "Eingereicht von: {name}",
 
@@ -370,8 +370,8 @@
         "Options.Nameplates.All": "Namensschilder:<br>Alle",
         "Options.Nameplates.NonContacts": "Namensschilder:<br>Unbekannte",
         "Options.Nameplates.Hide": "Namensschilder:<br>Ausblenden",
-        "Options.Nameplates.DefaultStyle": "<nobr>Standard-Namensschilder</nobr> verwenden",
-        "Options.Nameplates.CustomStyle": "<nobr>Persönliche Namensschilder</nobr> erlauben",
+        "Options.Nameplates.DefaultStyle": "<nobr>Standard-Namensschilder</nobr>",
+        "Options.Nameplates.CustomStyle": "<nobr>Persönliche Namensschilder</nobr>",
 
         "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> Benutzer online",
         "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> Benutzer in VR",
@@ -530,9 +530,9 @@
         "Session.JoinVerifier.ComponentWarning" : "<color=red>WARNUNG:</color> Zum aktuellen Zeitpunkt gibt es keinen Mechanismus der es verhindert, die benutzerdefinierte Beitrittskontrolle nach dem aktivieren zu verändern. Wenn Sie sich Sorgen um Manipulation des ProtoFlux-Setups der benutzerdefinierten Beitrittskontrolle machen, BENUTZEN SIE DIESES FEATURE NICHT, und AKTIVIEREN SIE ES NICHT in Ihren Welten.",
         "Session.JoinVerifier.SetCustomVerifier" : "Festlegen als benutzerdefinierte Zugriffskontrolle",
 
-        "Permissions.NotAllowedToSpawn": "Sie sind nicht berechtigt Gegenstände hier zu erstellen.",
-        "Permissions.NotAllowedToSave": "Sie sind nicht berechtigt Gegenstände aus dieser Welt zu speichern.",
-        "Permissions.NotAllowedToSwapAvatar": "Sie sind nicht berechtigt einen personalisierten Avatar zu nutzen.",
+        "Permissions.NotAllowedToSpawn": "Sie sind nicht berechtigt, hier Gegenstände zu spawnen.",
+        "Permissions.NotAllowedToSave": "Sie sind nicht berechtigt, Gegenstände aus dieser Welt zu speichern.",
+        "Permissions.NotAllowedToSwapAvatar": "Sie sind nicht berechtigt, hier einen personalisierten Avatar zu nutzen.",
 
         "User.Actions.Silence": "Silencen",
         "User.Actions.Mute": "Stumm",
@@ -771,7 +771,7 @@
         "CreateNew.Directory.Error.InvalidName": "Ungültiger Name:",
 
         "AvatarCreator.Title": "Avatar-Assistent",
-        "AvatarCreator.Instructions": "Richte Avatar-Objekte am Headset sowie optional an den Controller-Referenzen aus und drücke 'Erstellen'",
+        "AvatarCreator.Instructions": "Richten Sie Avatar-Objekte am Headset sowie optional an den Controller-Referenzen aus und drücken Sie 'Erstellen'",
         "AvatarCreator.UseSymmetry": "Symmetrie verwenden",
         "AvatarCreator.ShowToolAnchors": "Zeige Tool-Ankerpunkte",
         "AvatarCreator.SetupVolumeMeter": "Volume Meter",
@@ -915,7 +915,7 @@
         "FullBody.HeightInstructions": "Stellen Sie sicher, dass dies Ihre richtige Größe ist, da sonst die Kalibrierung nicht korrekt funktionieren wird. Das Mannequin sollte zum Headset und zu den Controllern passen.",
         "FullBody.HeightWarning": "Dies scheint inkorrekt zu sein. Bitte stellen Sie sicher, dass dies Ihre korrekte Größe ist.",
         "FullBody.ConfirmMapping": "2) Bestätigen Sie die Tracker-Zuordnung",
-        "FullBody.MappingInstructions": "Stehen Sie in aufrecht und stellen Sie sicher, dass die Tracker erkannt werden und tracken.",
+        "FullBody.MappingInstructions": "Stehen Sie aufrecht und stellen Sie sicher, dass die Tracker erkannt werden und tracken.",
         "FullBody.StartCalibration": "Tracker-Kalibrierung starten",
         "FullBody.JustCalibrateAvatar": "Nur meinen Avatar kalibrieren",
         "FullBody.JustCalibrateAvatarDescription": "Ganzkörper-Kalibrierung überspringen und nur den Avatar kalibrieren",
@@ -923,7 +923,7 @@
         "FullBody.CalibrateInstructions": "Richten Sie sich selbst an der roten Körperüberlagerung in Ihrem Spielbereich aus und drücken Sie gleichzeitig beide Trigger zur Bestätigung. Stellen Sie dabei sicher, dass Ihre echten Füße und Hüfte so nah wie möglich an den virtuellen ausgerichtet sind.",
 
         "FullBody.BeforeCalibrationInstructions": "Stellen Sie sicher, das die Tracker funktionieren und Ihre Größe korrekt eingestellt ist.",
-        "FullBody.CalibratingPoseInstructions": "Richten Sie sich selbst an der Referenz aus und drücken beide Trigger zur Bestätigung.",
+        "FullBody.CalibratingPoseInstructions": "Richten Sie sich selbst an der Referenz aus und drücken Sie beide Trigger zur Bestätigung.",
         "FullBody.AdjustAvatarInstructions": "Passen Sie den Avatar-Körper-Versatz an, um sich so gut wie möglich der Referenz anzunähern.",
         "FullBody.FineTuneCalibrationInstructions": "Bewegen Sie die blauen Referenzen zur Überprüfung und Feinjustierung der Kalibrierung.",
 
@@ -1413,7 +1413,7 @@
 
         "Inspector.AvatarExpression.AutoAssign": "Automatische Mischform zuordnung (Heuristisch)",
 
-        "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente als einfachen Rigidbody zu verwenden, indem 'Rotation Simulieren' ausgewählt wird. Bevor Sie dies tun, verstehen Sie bitte, dass sie nicht für diesen Zweck optimiert ist und dass vollständige Rididbody-Unterstützung in der Zukunft hinzugefügt wird.<br>Vollständige Rigidbody-Unterstützung wird folgendes ermöglichen:<br><b>- CPU- und Netzwerkeffizienz</b> - Mit CharacterController werden Sie höhere CPU-Auslastung und signifikant höhere Netzwerkauslastung verursachen<br><b>- Beschränkungen</b> - Sie werden in der Lage sein Gelenke, Schaniere, Federn und andere Beschränkungen zwischen Rigidbodies zu erstellen<br><b>- Geschmeidige Simulation und Interaktionen für Jeden</b> - CharacterController wird Fehlverhalten verursachen wenn ein anderer Benutzer versucht damit zu interagieren.<br><b>- Neue Features und Tools</b> - Dadurch wird die Verwendung deutlich einfacher<br>-----------------------<br>Sie können mehr Informationen hierzu in GitHub Issue #22 nachlesen. Solange sie diese Einschränkungen verstehen, viel Spaß!",
+        "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente als einfachen Rigidbody zu verwenden, indem 'Rotation Simulieren' ausgewählt wird. Bevor Sie dies tun, verstehen Sie bitte, dass sie nicht für diesen Zweck optimiert ist und dass vollständige Rididbody-Unterstützung in der Zukunft hinzugefügt wird.<br>Vollständige Rigidbody-Unterstützung wird folgendes ermöglichen:<br><b>- CPU- und Netzwerkeffizienz</b> - Mit CharacterController werden Sie höhere CPU-Auslastung und signifikant höhere Netzwerkauslastung verursachen<br><b>- Beschränkungen</b> - Sie werden in der Lage sein Gelenke, Schaniere, Federn und andere Beschränkungen zwischen Rigidbodies zu erstellen<br><b>- Geschmeidige Simulation und Interaktionen für Jeden</b> - CharacterController wird Fehlverhalten verursachen wenn ein anderer Benutzer versucht damit zu interagieren.<br><b>- Neue Features und Tools</b> - Dadurch wird die Verwendung deutlich einfacher<br>-----------------------<br>Solange Sie diese Einschränkungen verstehen, viel Spaß!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente zu verwenden um mit Referenzen zu interagieren, die über Ihre IDs addressiert werden. Dieser Vorgang ist geläufig bekannt als 'Ref Hacking'.<br><br><b>Bevor</b> Sie dies tun, verstehen Sie bitte dass dies <b>nicht</b> unterstützt ist und zu jedem Zeitpunk kaputtgehen kann. Verlassen Sie sich nicht auf diese Funktionalität für Ihre Kreationen!",
 
         "Inspector.ParticleStyle.CommonTransitions": "Häufig verwendete Übergangs-Vorlagen:",
@@ -1526,7 +1526,7 @@
         "VolumePlaneSlicer.Slicer": "Schneiden",
 
         "Tutorial.Welcome.Welcome": "Willkommen!",
-        "Tutorial.Welcome.Description" : "Tauchen Sie ein in ein brandneues digitales Universum mit unendlich vielen Möglichkeiten. Ob Sie hier her kommen um soziale Kontakte zu pflegen und Leute aus der ganzen Welt zu treffen oder um von atemberaubender Kunst über interaktive Avatare und Spielzeuge bis hin zu komplexen, interaktiven Welten und Spielen alles zu schaffen und zu entwickeln, was Sie sich vorstellen können, {appName} ist ein endlos individualisierbar Ort an dem Sie willkommen sind und eine Gruppe finden werden, mit der Sie resonieren können.<br><br>Bevor sie mit dem Erkunden beginnen werden wir Ihnen eine Einführung in die Grundlagen geben, um Ihnen einen reibungslosen Einstieg zu ermöglichen. Wenn sie soweit sind, drücken Sie den Knopf unten.",
+        "Tutorial.Welcome.Description" : "Tauchen Sie ein in ein brandneues digitales Universum mit unendlich vielen Möglichkeiten. Ob Sie hier her kommen um soziale Kontakte zu pflegen und Leute aus der ganzen Welt zu treffen oder um von atemberaubender Kunst über interaktive Avatare und Spielzeuge bis hin zu komplexen, interaktiven Welten und Spielen alles zu schaffen und zu entwickeln, was Sie sich vorstellen können, {appName} ist ein endlos individualisierbar Ort an dem Sie willkommen sind und eine Gruppe finden werden, mit der Sie resonieren können.<br><br>Bevor Sie mit dem Erkunden beginnen werden wir Ihnen eine Einführung in die Grundlagen geben, um Ihnen einen reibungslosen Einstieg zu ermöglichen. Wenn Sie soweit sind, drücken Sie den Knopf unten.",
         "Tutorial.Welcome.Begin": "Los gehts!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} Account",
@@ -1596,11 +1596,11 @@
         "Migration.LoginModal.OpenMigration": "Migration öffnen",
         "Migration.LoginModal.Later": "Vielleicht später",
         "Migration.LoginResetID.Title": "UserID wirklich zurücksetzen?",
-        "Migration.LoginResetID.Description": "Bitte verstehen Sie, dass dies zu <color=red>UNVORHERSEHBAREM ZERSTÖREN VON INHALTEN</color> führt. Alle Ihre Items, Welten, Kontakte und Nachrichten werden erfolgreich migriert werden, aber sämtliche Verhalten und Komponenten die auf Ihrer UserID aufbauen werden wahrscheinlich zerstört werden und manuelle Neukonfiguration und Reparatur benötigen. Sofern Sie keinen ernsthaften Grund für das Zurücksetzen Ihrer UserID haben, <color=red>WÄHLEN SIE NICHT DIESE OPTION NICHT</color>.",
+        "Migration.LoginResetID.Description": "Bitte verstehen Sie, dass dies zu <color=red>UNVORHERSEHBAREM ZERSTÖREN VON INHALTEN</color> führt. Alle Ihre Items, Welten, Kontakte und Nachrichten werden erfolgreich migriert werden, aber sämtliche Verhalten und Komponenten die auf Ihrer UserID aufbauen werden wahrscheinlich zerstört werden und manuelle Neukonfiguration und Reparatur benötigen. Sofern Sie keinen ernsthaften Grund für das Zurücksetzen Ihrer UserID haben, <color=red>WÄHLEN SIE DIESE OPTION NICHT</color>.",
         "Migration.LoginResetID.ResetButton": "Ja, zurücksetzen",
 
         "Migration.ReservedUsername.Title":"<b>Reservierter Benutzername</b>",
-        "Migration.ReservedUsername.Description": "Dieser Benutzername ist für den ursprünglichen Besitzer reserviert. Wenn dies Ihr Account ist, melden Sie sich bitte mit Ihren {platform} Anmeldedaten an um ihn freizuschalten. Die Anmeldedaten werden nicht von uns gespeichert, sie werden nur verwendet um den Besitz Ihres Accounts bei der Registrierung zu verifizieren.",
+        "Migration.ReservedUsername.Description": "Dieser Benutzername ist für den ursprünglichen Besitzer reserviert. Wenn dies Ihr Account ist, melden Sie sich bitte mit Ihren {platform} Anmeldedaten an, um ihn freizuschalten. Die Anmeldedaten werden nicht von uns gespeichert, sie werden nur verwendet um den Besitz Ihres Accounts bei der Registrierung zu verifizieren.",
         "Migration.SourcePassword": "{platform} Passwort:",
         "Migration.SourceUsername": "{platform} Benutzername:",
 
@@ -1677,7 +1677,7 @@
         "Migration.Error": "<color=red>Fehler:</color> {error}",
         "Migration.NothingSelected": "Sie haben nichts ausgewählt, Migration kann nicht beginnen.",
 
-        "Migration.ColorManagement": "Diese Welt ist ursprünglich im Gamma-Farbraum erstellt worden und wurde automatisch in den linearen Farbraum konvertiert.<br><br>Sie sieht möglicherweise anders als das Original aus, sollte aber verwendbar sein.<br><br>Wenn Sie der Ersteller sind und Fehler in der Konvertierung der Welt finden <color=red>SPEICHERN SIE DIE WELT NICHT</color>. Speichern Sie nur Kopien davon.<br><br>Solange die Originale Welt existieren können wir den Konvertierungsvorgang verbessern. Andernfalls sind Sie verantwortlich dafür, die Fehler selbst zu beheben.",
+        "Migration.ColorManagement": "Diese Welt ist ursprünglich im Gamma-Farbraum erstellt worden und wurde automatisch in den linearen Farbraum konvertiert.<br><br>Sie sieht möglicherweise anders als das Original aus, sollte aber verwendbar sein.<br><br>Wenn Sie der Ersteller sind und Fehler in der Konvertierung der Welt finden <color=red>SPEICHERN SIE DIE WELT NICHT</color>. Speichern Sie nur Kopien davon.<br><br>Solange die Originale Welt existiert können wir den Konvertierungsvorgang verbessern. Andernfalls sind Sie verantwortlich dafür, die Fehler selbst zu beheben.",
 
         "Temporary.MMC.Voting UI": "MMC Wahl-UI",
         "Temporary.MMC.Vote": "Wählen",
@@ -1828,7 +1828,7 @@
         "CloudHome.SupporterPanel.Title": "<b>Unsere Unterstützer</b>",
 
         "Tutorial.InfoPanel.Title": "Hey! Bevor Sie gehen...",
-        "Tutorial.InfoPanel.Content": "     Eine Welt voller Möglichkeiten wartet auf Sie, und das Mögliche ist nur von Ihrer Vorstellungskraft begrenzt.<br><br>     Fast alles was Sie bisher gesehen haben wurde direkt hier im Spiel erschaffen! Leute von der ganzen Welt haben zusammen in Echtzeit daran gearbeitet.<br><br>     Die Platform befindet sich noch immer im frühen Entwicklungsstadium und wir updaten und verbessern sie stetig. Aber Sie sind auch ein Teil von dieser Reise, und der Fantasie sind keine Grenzen gesetzt!<br><br><align=center>Danke, dass Sie vorbeigeschaut und uns ausprobiert haben.</align>",
+        "Tutorial.InfoPanel.Content": "     Eine Welt voller Möglichkeiten wartet auf Sie, und das Mögliche ist nur von Ihrer Vorstellungskraft begrenzt.<br><br>     Fast alles, was Sie bisher gesehen haben, wurde direkt hier im Spiel erschaffen! Leute von der ganzen Welt haben zusammen in Echtzeit daran gearbeitet.<br><br>     Die Platform befindet sich noch immer im frühen Entwicklungsstadium und wir updaten und verbessern sie stetig. Aber Sie sind auch ein Teil von dieser Reise, und der Fantasie sind keine Grenzen gesetzt!<br><br><align=center>Danke, dass Sie vorbeigeschaut und uns ausprobiert haben.</align>",
 
         "Tutorial.GrabItems.Grab": "Greifen",
         "Tutorial.GrabItems.Snap": "Einrasten",
@@ -1850,8 +1850,8 @@
         "Hints.Spawn.InitialMovementVRNoButtons": "Benutzen Sie Ihr Trackpad, um herumzulaufen!",
 
         "Hints.Spawn.ContextMenuDesktop": "Drücken Sie T, um Ihr Kontext-Menü für weitere Optionen zu öffnen!",
-        "Hints.Spawn.ContextMenuVR": "Fühlen Sie sich unwohl? Drücken Sie B oder Y, um Ihr Kontext-Menü für für weitere Optionen zu öffnen!",
-        "Hints.Spawn.ContextMenuVRNoButtons": "Fühlen Sie sich unwohl? Drücken Sie den Menü-Knopf, um Ihr Kontext-Menü für für weitere Optionen zu öffnen!",
+        "Hints.Spawn.ContextMenuVR": "Fühlen Sie sich unwohl? Drücken Sie B oder Y, um Ihr Kontext-Menü für weitere Optionen zu öffnen!",
+        "Hints.Spawn.ContextMenuVRNoButtons": "Fühlen Sie sich unwohl? Drücken Sie den Menü-Knopf, um Ihr Kontext-Menü für weitere Optionen zu öffnen!",
 
         "Hints.Spawn.TeleportLocomotionDesktop": "Andere Fortbewegungsarten wie Fliegen finden Sie in dem Fortbewegungs-Menü.",
         "Hints.Spawn.TeleportLocomotionVR": "Andere Fortbewegungsarten wie Teleportieren oder Fliegen finden Sie in dem Fortbewegungs-Menü.",
@@ -1868,12 +1868,12 @@
         "Hints.Grabbing.ScalingVR": "Greifen Sie ein Objekt mit beiden Händen, um es zu skalieren!",
 
         "Hints.Grabbing.OtherGrabbables": "Es gibt viele verschiedene Interaktionen, experimentieren Sie mit diesen drei um zu sehen, wie sie funktionieren!",
-        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Zusätzlich zu Objekten können Sie auch sich selbst skalieren indem Sie Skalieren in Ihrem Kontext-Menü aktivieren und dann Strg gedrückt halten und Ihr Mausrad verwenden!",
-        "Hints.Grabbing.OtherGrabbablesExtraVR": "Zusätzlich zu Objekten können Sie auch sich selbst skalieren indem Sie Skalieren in Ihrem Kontext-Menü aktivieren und dann mit beiden Händen in die Luft greifen und sie annähern oder auseinander bewegen!",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Zusätzlich zu Objekten können Sie auch <b>sich selbst</b> skalieren, indem Sie Skalieren in Ihrem Kontext-Menü aktivieren und dann Strg gedrückt halten und Ihr Mausrad verwenden!",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "Zusätzlich zu Objekten können Sie auch <b>sich selbst</b> skalieren, indem Sie Skalieren in Ihrem Kontext-Menü aktivieren und dann mit beiden Händen in die Luft greifen und sie annähern oder auseinander bewegen!",
 
         "Hints.Telescope.Alignment": "Greifen Sie das Teleskop und richten Sie es auf den Mond!",
 
-        "Hints.Telescope.TheMoonDesktop": "Zielen sie auf den Mond und greifen Sie ihn, indem Sie die rechte Maustaste gedrückt halten und die Maus bewegen!",
+        "Hints.Telescope.TheMoonDesktop": "Zielen Sie auf den Mond und greifen Sie ihn, indem Sie die rechte Maustaste gedrückt halten und die Maus bewegen!",
         "Hints.Telescope.TheMoonVR": "Verwenden Sie Ihren Laser mit dem Trigger-Knopf und greifen Sie den Mond!",
 
         "Hints.Sundial.SoftEquip": "Greifen Sie dieses Tool, um es zu verwenden!",
@@ -1888,7 +1888,7 @@
         "Hints.Sundial.Dequip": "Lösen Sie das ausgerüstete Tool von Ihrer Hand, indem sie Ablegen in Ihrem Kontext-Menü auswählen.",
         "Hints.Sundial.DequipExtra": "Die Optionen in Ihrem Kontext-Menü haben sich verändert, weil Sie ein Tool halten.",
 
-        "Hints.Sundial.Teleporter": "Drücken Sie diesen Knopf um den Teleporter zu Ihrem Cloud-Home zu aktivieren!",
+        "Hints.Sundial.Teleporter": "Drücken Sie diesen Knopf, um den Teleporter zu Ihrem Cloud-Home zu aktivieren!",
         "Hints.Sundial.TeleporterExtra": "Viel Spaß in Ihrem neuen Zuhause und danke, dass Sie vorbeigeschaut haben!",
 
         "UI.TextDisplay.Landscape": "Landscape",
