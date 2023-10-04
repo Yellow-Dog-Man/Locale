@@ -3,7 +3,7 @@
     "authors": ["AdmiralSoap", "Napo", "Hexdigest", "Toni Kat"],
     "messages": {
 
-        "General.OK": "OK",
+
         "General.Start": "Aloita",
         "General.Finish": "Valmis",
         "General.Cancel": "Peruuta",
@@ -165,6 +165,7 @@
         "World.LoadingFailed": "Epäonnistui",
         "World.LoadedAssets": "Ladataan {assets} / {total_assets}",
         "World.Downloading": "Ladataan {bytes} / {total_bytes}",
+        "World.Loaded": "Ladattu",
 
         "World.Connection.EstablishingConnection": "Luodaan yhteyttä",
         "World.Connection.RequestingJoin": "Pyydetään liittyä",
@@ -240,7 +241,7 @@
         "World.Actions.CloseConfirm": "Sulje",
         "World.Actions.LeaveConfirm": "Poistu",
         "World.Actions.CannotClose": "(Ei pysty sulkemaan tätä maailmaa)",
-        "World.Actions.GuestWarning": "",
+
         "World.Actions.HostingWarning": "Isännöit tätä maailmaa. Kaikkien käyttäjien yhteys katkaistaan.",
 
         "World.Actions.GetWorldOrb": "Tuo maailman pallo",
@@ -301,7 +302,7 @@
         "World.AccessLevel.RegisteredUsers": "Rekisteröityneet käyttäjät",
         "World.AccessLevel.Contacts": "Kontaktit",
         "World.AccessLevel.ContactsPlus": "Kontaktit+",
-        "World.AccessLevel.LAN": "LAN",
+
         "World.AccessLevel.Private": "Yksityinen (Ainoastaan kutsutut)",
 
         "World.SortParameter.SearchScore": "Hakupisteet",
@@ -479,15 +480,15 @@
         "Account.TOTP.RecoveryCodes.Description": "Tallenna nämä koodit turvalliseen paikkaan. Niitä voidaan käyttää tilisi palauttamiseen, jos kadotat tai rikot puhelimesi. Kutakin koodia voidaan käyttää vain kerran. <b>Älä koskaan jaa niitä kenellekään.</b> Jos kadotat ne, menetät <color=red>PYSYVÄSTI</color> pääsyn tilillesi.",
         "Account.TOTP.RecoveryCodes.Codes": "Koodit:",
         "Account.TOTP.Activate.Header": "Aktivoi 2FA",
-
-        "Account.TOTP.Activate.Token": "6-numeroinen tunnus:",
-        "Account.TOTP.Activate.TokenField": "Kirjoita tunnuksesi tähän...",
+        "Account.TOTP.Activate.Description": "Aktivoidaksesi 2FA:n tililläsi, käytä autentikointisovelluksesi luomaa 6-numeroista koodia varmistaaksesi, että kaikki toimii oikein.<br><br>Aktivoinnin jälkeen sinun on käytettävä koodia tiettyjen toimintojen vahvistamiseen.",
+        "Account.TOTP.Activate.Token": "6-numeroinen koodi:",
+        "Account.TOTP.Activate.TokenField": "Kirjoita koodisi tähän...",
         "Account.TOTP.Activate.Activate": "Aktivoi",
         "Account.TOTP.Activate.Activating": "Aktivoidaan...",
         "Account.TOTP.Activate.InvalidToken": "Virheellinen tunnus!",
         "Account.TOTP.Message.AlreadySetup": "2FA on jo määritetty tilillesi!",
         "Account.TOTP.Message.Error": "Odottamaton virhe! Yritä uudelleen myöhemmin.",
-
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Onnittelut!</size><br><br>Tiliisi on nyt lisätty 2FA lisäsuojaus!<br><br>Voit halutessasi ottaa 2FA:n käyttöön tilille kirjautumiseen /enableLogin2FA -komennolla.",
         "Account.TOTP.Deactivate.Header": "Poista 2FA käytöstä",
         "Account.TOTP.Deactivate.Description": "2FA on tällä hetkellä <b><color=green>määritetty ja aktiivinen tililläsi</color></b>. Jos haluat poistaa sen käytöstä (esim. puhelimen kadottamisen tai koodien vaarantumisen vuoksi), voit tehdä sen täällä.<br><br>Käytöstä poistaminen jälkeen voit määrittää 2FA:n uudelleen, tämä luo uuden salaisen koodin ja uudet palautuskoodit.<br><br>Jos kadotat puhelimesi ja sinun on määritettävä 2FA uudelleen, suosittelemme, että teet sen heti, koska kutakin palautuskoodia voidaan käyttää vain kerran. Kun koodit ovat käytetty, tilisi on lukossa ja et voi enään kirjautua sisään.",
         "Account.TOTP.Deactivate.Deactivate": "Poista käytöstä",
@@ -504,13 +505,13 @@
 
 
         "2FA.Header": "2FA-vahvistus",
-        "2FA.Token": "6-numeroinen tunnus:",
+        "2FA.Token": "6-numeroinen koodi:",
 
-        "Profile.Status.Online": "Online",
+
         "Profile.Status.Away": "Poissa",
         "Profile.Status.Busy": "Kiireinen",
         "Profile.Status.Invisible": "Näkymätön",
-        "Profile.Status.Offline": "Offline",
+
         "Profile.Status.Headless": "Palvelin",
 
         "Session.Tab.Settings": "Asetukset",
@@ -678,9 +679,9 @@
 
 
 
-        "Tooltip.Microphone.Format.WAV": "WAV",
-        "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
-        "Tooltip.Microphone.Format.FLAC": "FLAC",
+
+
+
         "Tooltip.Microphone.ModeHold": "Paina nauhoittaaksesi",
         "Tooltip.Microphone.ModePress": "Paina aloittaaksesi/lopettaaksesi nauhoituksen",
         "Tooltip.Microphone.SourceRaw": "Raaka",
@@ -802,13 +803,13 @@
         "Importer.Image.Prompt": "Mitä tuot?",
         "Importer.Image.Regular": "Kuva / Tekstuuri",
         "Importer.Image.Screenshot": "{appName} kuva <size=50%>(otettu täällä)</size>",
-
+        "Importer.Image.PixelArt" : "Pikselitaide",
         "Importer.Image.360": "360° kuva / Skybox",
         "Importer.Image.StereoPhoto": "Stereokuva",
         "Importer.Image.Stereo360": "360° stereokuva",
         "Importer.Image.180": "180° kuva",
         "Importer.Image.Stereo180": "180° stereokuva",
-        "Importer.Image.LUT": "LUT",
+
 
         "Importer.ImageVideo.LayoutPrompt": "Mitä asettelua se käyttää?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Rinnakkain Vasen/Oikea",
@@ -882,9 +883,9 @@
         "Importer.Model.Advanced.PositionAtOrigin": "Tuo maailman keskipisteeseen",
         "Importer.Model.Advanced.AssetsOnObject": "Aseta resurssit objektiin",
 
-        "Importer.Video.Title": "Video",
+        "Importer.Video.Title": "Tuo Video",
         "Importer.Video.Prompt": "Mitä tuot?",
-        "Importer.Video.Regular": "Video",
+
         "Importer.Video.360": "360° video",
         "Importer.Video.Stereo": "Stereo video",
         "Importer.Video.Stereo360": "Stereo 360° video",
@@ -907,7 +908,7 @@
         "NewWorld.SessionSettings": "Session asetukset:",
         "NewWorld.UnsafeMode": "Epäturvallinen tila:",
         "NewWorld.Port": "Portti:",
-        "NewWorld.AutoPort": "Auto:",
+        "NewWorld.AutoPort": "Automaattinen:",
         "NewWorld.DefaultName": "{name} Maailma",
 
         "FullBody.Title": "Full-Body / Avatar kalibrointi",
@@ -1043,11 +1044,11 @@
         "CameraControl.OBS.ReturnToConnect": "Palaa yhdistyssivulle",
         "CameraControl.OBS.AutoMirror": "Peilaa automaattisesti kun nauhoitan/suoratoistan",
         "CameraControl.OBS.Bitrate": "Bittinopeus: {n}/s",
-        "CameraControl.OBS.FPS": "FPS: {n}",
+
         "CameraControl.OBS.DroppedFrames": "Tiputettuja ruutuja: {n}",
 
-        "CameraControl.OBS.Live": "LIVE",
-        "CameraControl.OBS.Recording": "REC",
+
+
         "CameraControl.OBS.OpenInstallerReason": "Täältä voit ladata OBS websocket lisäosan",
 
         "CameraControl.OBS.Streaming.Start": "Aloita suoratoisto",
@@ -1105,11 +1106,11 @@
         "Settings.Laser.ShowInDesktop": "Näytä laaseri työpöytätilassa",
         "Settings.LaserSmoothing.Reset": "Nollaa laaserin asetukset",
 
-        "Settings.Audio.Header": "Audio",
+
         "Settings.Audio.Input.Title" : "Äänen syöttölaitteet",
         "Settings.Audio.Master": "Pää-äänenvoimakkuus: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Ääniefektit: {n,number,percent}",
-        "Settings.Audio.Multimedia": "Multimedia: {n,number,percent}",
+
         "Settings.Audio.Voice": "Puhe: {n,number,percent}",
         "Settings.Audio.UI": "Käyttöliittymä: {n,number,percent}",
         "Settings.Audio.DisableVoiceNormalization": "Poista äänen normalisointi käytöstä",
@@ -1263,17 +1264,17 @@
         "Inspector.VHACD.Parameter.Concavity": "Koveruus",
 
 
-        "Inspector.VHACD.Parameter.Alpha": "Alpha",
-        "Inspector.VHACD.Parameter.Beta": "Beta",
-        "Inspector.VHACD.Parameter.Gamma": "Gamma",
-        "Inspector.VHACD.Parameter.Delta": "Delta",
-        "Inspector.VHACD.Parameter.PCA": "PCA",
+        "Inspector.VHACD.Parameter.Alpha": "Alfa",
+        "Inspector.VHACD.Parameter.Beta": "Beeta",
+
+
+
         "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Rungon maksimipisteet",
         "Inspector.VHACD.Parameter.MinVolumePerHull": "Rungon vähimmäistilavuus",
         "Inspector.VHACD.Parameter.ConvexHullApproximation": "Convex Hull arviointi",
 
         "Inspector.VHACD.DecompositionMode.Header": "Dekomponointimoodi:",
-        "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
+        "Inspector.VHACD.DecompositionMode.Voxel": "Voxeli",
         "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetraedri",
 
         "Inspector.VHACD.RunDecomposition": "Suorita dekomponointi",
