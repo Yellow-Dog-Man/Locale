@@ -31,6 +31,7 @@ Dash.Exit.Shoutouts
 Dash.Exit.Shoutouts.AndMore  
 Dash.Exit.Shoutouts.You  
 Facets.FPS  
+World.Loaded  
 World.Error.WorldCrashDetail  
 World.AccessLevel.Contacts  
 Indicator.OnlineUsersVR  
