@@ -165,6 +165,7 @@
         "World.LoadingFailed": "Ошибка загрузки",
         "World.LoadedAssets": "Загружены {assets} из {total_assets}",
         "World.Downloading": "Загружено {bytes} из {total_bytes}",
+        "World.Loaded": "Загружен",
 
         "World.Connection.EstablishingConnection": "Установка соединения",
         "World.Connection.RequestingJoin": "Запрос на подключение",
@@ -524,6 +525,12 @@
         "Session.Permission.PermissionOverrideCount": "Переопределения разрешений: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Отменить пользовательские переопределения",
 
+        "Session.JoinVerifier.EnableHeader" : "Включить Custom Join Verifier?",
+        "Session.JoinVerifier.EnableText" : "<color=red>ВНИМАНИЕ:</color> Вы пытаетесь включить кастомную проверку входа в сессию, которая является частью этого мира. Перед тем как это сделать, убедитесь что вы доверяете создателю этого мира, так как кастомная проверка может обойти стандартные правила доступа к сессии и разрешить или запретить доступ пользователям согласно своим собственным правилам.",
+        "Session.JoinVerifier.Label" : "Использовать Custom Join Verifier: {name}",
+        "Session.JoinVerifier.ComponentWarning" : "<color=red>ВНИМАНИЕ:</color> Сейчас нет механизма, который позволил бы запретить изменение логики проверки после включения. Если Вы беспокоитесь о вмешательстве в скрипт ProtoFlux используемый для верификации, НЕ ИСПОЛЬЗУЙТЕ эту механику и НЕ ВКЛЮЧАЙТЕ её в своих мирах.",
+        "Session.JoinVerifier.SetCustomVerifier" : "Установить как кастомную проверку запросов на вход",
+
         "Permissions.NotAllowedToSpawn": "Вам запрещено создавать здесь предметы.",
         "Permissions.NotAllowedToSave": "Вам запрещено сохранять объекты из этого мира.",
         "Permissions.NotAllowedToSwapAvatar": "Вам запрещено использовать здесь свой аватар.",
@@ -572,11 +579,9 @@
 
         "Notifications.IsOnline": "Сейчас Онлайн",
         "Notifications.IsOnlineOnDifferentVersion": "Сейчас Онлайн <size=75%>(использует версию: {version})</size>",
-        "Notifications.ReceivedContactRequest": "Отправлен запрос на добавление",
-        "Notifications.ReceivedInvite": "Приглашает вас в :",
+        "Notifications.ReceivedContactRequest": "Прислал запрос на добавление в контакты",
+        "Notifications.ReceivedInvite": "Приглашает вас в:",
         "Notifications.ReceivedItem": "Отправил(-ла) вам предмет:",
-        "Notifications.ReceivedTip": "Получил(-ла) чаевые {amount} {token}",
-        "Notifications.SentTip": "Отправил чаевые {amount} {token}",
         "Notifications.VoiceMessage": "Отправил(-ла) голосовое сообщение",
 
         "Undo.SetField": "Установка {field_name} в {value}",
@@ -613,6 +618,10 @@
         "Undo.ExtractMaterialsFromHierarchy": "Извлечение материалов из иерархии",
         "Undo.BatchConvertMaterials": "Пакетное конвертирование материалов",
 
+        "Tooltips.Brush.ChangeColor" : "Изменить цвет",
+        "Tooltips.Brush.IncrementSize" : "Увеличить размер",
+        "Tooltips.Brush.DecrementSize" : "Уменьшить размер",
+
         "Tooltips.Dev.CreateNew": "Создание нового...",
         "Tooltips.Dev.Selection": "Выбор: {mode}",
         "Tooltips.Dev.DevMode.Off": "Режим разработчика: Выкл",
@@ -622,7 +631,15 @@
         "Tooltips.Dev.DestroySelected": "Удалить выделенные",
         "Tooltips.Dev.ConfirmDestroySelected": "ТОЧНО удалить выделенное",
 
-        "Tooltip.Color.Picker": "Инстр: Пипетка",
+        "Tooltips.Dev.GizmoOptions" : "Настройки гизмо",
+        "Tooltips.Dev.SelectParent" : "Выбрать родителя",
+        "Tooltips.Dev.LocalSpace" : "Локальное пространство",
+        "Tooltips.Dev.GlobalSpace" : "Глобальное пространство",
+        "Tooltips.Dev.Translation" : "Перемещение",
+        "Tooltips.Dev.Rotation" : "Вращение",
+        "Tooltips.Dev.Scale" : "Масштаб",
+
+        "Tooltip.Color.Picker": "Пипетка",
 
         "Tooltip.GrabbableSetter.Scalable": "Сделать масштабируемым",
         "Tooltip.GrabbableSetter.NonScalable": "Сделать не-масштабируемым",
