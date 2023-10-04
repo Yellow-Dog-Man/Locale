@@ -180,7 +180,7 @@
 
         "World.Error.AccessDenied": "アクセスが拒否されました",
         "World.Error.SecurityViolation": "セキュリティ違反",
-        "World.Error.OnlyRegisteredUsers": "登録ユーザーのみが入室できます",
+        "World.Error.OnlyRegisteredUsers": "ログインユーザーのみが入室できます",
         "World.Error.OnlyContacts": "ホストのフレンドのみが入室できます",
         "World.Error.OnlyContactsOfContacts": "セッションにいるユーザーのフレンドのみが入室できます",
         "World.Error.Private": "このセッションはプライベートです",
@@ -299,7 +299,7 @@
         "World.Category.GroupWorlds": "グループのワールド",
 
         "World.AccessLevel.Anyone": "誰でも",
-        "World.AccessLevel.RegisteredUsers": "登録ユーザー",
+        "World.AccessLevel.RegisteredUsers": "ログインユーザー",
         "World.AccessLevel.Contacts": "フレンド",
         "World.AccessLevel.ContactsPlus": "フレンド+",
         "World.AccessLevel.LAN": "LAN内",
@@ -436,7 +436,7 @@
         "Account.LoggingIn": "ログイン中...",
         "Account.LoggingOut": "ログアウト中...",
         "Account.Registering": "登録中...",
-        "Account.Anonymous": "未登録ユーザー",
+        "Account.Anonymous": "未ログインユーザー",
         "Account.Username": "ユーザー名:",
         "Account.Email": "メールアドレス:",
         "Account.RememberMe": "記憶する<br><size=50%>(30日間有効)</size>",
@@ -518,8 +518,8 @@
         "Session.Tab.Users": "ユーザー",
         "Session.Tab.Permissions": "権限",
 
-        "Session.Permission.Anonymous": "未登録ユーザーの初期値:",
-        "Session.Permission.Vistor": "登録ユーザの初期値:",
+        "Session.Permission.Anonymous": "未ログインユーザーの初期値:",
+        "Session.Permission.Vistor": "ログインユーザの初期値:",
         "Session.Permission.Contact": "フレンドの初期値:",
         "Session.Permission.Host": "ホストの初期値:",
         "Session.Permission.PermissionOverrideCount": "個別に権限設定を行ったユーザー数: {n,select, -1 {--表示できません--} other {{n}}}",
