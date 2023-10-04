@@ -68,6 +68,7 @@ Dash.Exit.Shoutouts
 Dash.Exit.Shoutouts.AndMore  
 Dash.Exit.Shoutouts.You  
 Facets.FPS  
+World.Loaded  
 World.Connection.LNL.DirectIP  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
