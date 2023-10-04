@@ -43,6 +43,7 @@ Dash.Exit.Shoutouts
 Dash.Exit.Shoutouts.AndMore  
 Dash.Exit.Shoutouts.You  
 Facets.FPS  
+World.Loaded  
 World.Error.InvalidAddress  
 World.Error.HostBlocked  
 World.Error.HostBlockedDetail  
