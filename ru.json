@@ -1,6 +1,6 @@
 {
     "localeCode": "ru",
-    "authors": ["GhostZ36", "BrotiwkA", "Shadow Panther", "ENTERTHEWOLF", "ConfusedYeen", "Stanislavskii"],
+    "authors": ["GhostZ36", "BrotiwkA", "Shadow Panther", "ENTERTHEWOLF", "ConfusedYeen", "Stanislavskii", "maksim789456"],
     "messages": {
 
         "General.OK": "OK",
@@ -1542,6 +1542,96 @@
         "Exiting.SavingChanges": "Сохранение Изменений...",
         "Exiting.Exiting": "Выход...",
         "Exiting.LoggingOut": "Выход с аккаунта...",
+
+        "Migration.Title": "Миграция",
+        "Migration.NewTask": "Новая задача миграции",
+
+        "Migration.LoginModal.Title": "Мигрировать данные?",
+        "Migration.LoginModal.Description": "Хотите перенесите данные из другой учетной записи? Вы так же можете сделать это позже во вкладке \"Миграция\" на Дэшборде.",
+        "Migration.LoginModal.OpenMigration": "Открыть миграцию",
+        "Migration.LoginModal.Later": "Возможно позже",
+        "Migration.LoginResetID.Title": "Действительно сбросить UserID?",
+        "Migration.LoginResetID.Description": "Пожалуйста поймите, что это приведет к <color=red>НЕПРЕДСКАЗУЕМОМУ ПОВРЕЖДЕНИЮ СОДЕРЖИМОГО</color>. Все ваши предметы, миры, контакты и сообщения будут успешно перенесены, но любая логика и компоненты, которые полагаются на ваш старый UserID, скорее всего, сломаются что потребует перенастройки и починки.. Если у вас нет серьезной причины сбрасывать свой UserID, <color=red>НЕ ВЫБИРАЙТЕ ЭТОТ ВАРИАНТ</color>.",
+        "Migration.LoginResetID.ResetButton": "Да, сбросить",
+
+        "Migration.ReservedUsername.Title":"<b>Зарезервированное имя пользователя</b>",
+        "Migration.ReservedUsername.Description": "Это имя пользователя зарезервировано для первоначального владельца. Если это ваша учетная запись, предоставьте свои учетные данные для {platform}, чтобы разблокировать ее. Мы не храним эти учетные данные, они используются только для подтверждения принадлежности вашей учетной записи при регистрации.",
+        "Migration.SourcePassword": "{platform} Пароль:",
+        "Migration.SourceUsername": "{platform} Имя пользователя:",
+
+        "Migration.Dialog.Title": "Миграция аккаунта",
+        "Migration.Dialog.Source" : "Вы можете перенести данные из любой совместимой инфраструктуры. Сначала выберите из списка ниже то, откуда вы хотите перенести данные. Вы можете добавить дополнительную инфраструктуру, поместив файлы конфигурации в папку \"Migrations\" при установке.",
+        "Migration.Dialog.AccountDescription": "Чтобы перенести вашу учетную запись, нам понадобится пароль от вашей учетной записи в {platform}. Это позволит нам войти в систему и получить доступ к данным.",
+
+        "Migration.ResetID.Title": "Сбросить мой UserID",
+        "Migration.ResetID.Description":"<color=red><b>ВНИМАНИЕ:</b></color> Выбор этого пункта <b>ЯВЛЯЕТСЯ НЕОБРАТИМЫМ И ЧАСТИЧНО СЛОМАЕТ СУЩЕСТВУЮЩИЙ КОНТЕНТ</b>, включая любые ссылки на UserID в пользовательском контенте, публичных сервисах, ссылках, облачных переменных и т.д. Эти ссылки будут сброшены, но сами ваши предметы, миры, контакты и сообщения не потеряются. Мы рекомендуем использовать эту опцию <b>ТОЛЬКО</b> в том случае, если вы хотите избавиться от своего старого UserId и заменить его новым, рандомизированным. Если у вас нет веской причины для сброса вашего UserID, вам <b>НЕ СЛЕДУЕТ</b> выбирать этот пункт. Ваш UserID изменится следующим образом:\n U-MyUsername -> U-fX3pKe7AYYQ",
+
+        "Migration.DataSelection.Title": "Какие данные нам следует перенести при миграции вашей учетной записи?",
+        "Migration.DataSelection.Everything": "Все",
+        "Migration.DataSelection.Choose": "Позвольте мне выбрать",
+
+        "Migration.DataSelection.Favorites": "Избранное (аватар, домашний мир, камера, клавиатура, фасеты)",
+
+        "Migration.DataSelection.Favorites.Description": "Сначала будет перенесен ваш дом, любимый аватар, клавиатура, камера и фасеты, чтобы вы могли начать использовать их как можно скорее.\n <color=red><b>ВНИМАНИЕ:</b></color> Если вы виберете этот пункт, вы можете <b>ПОТЕРЯТЬ ВСЕ ИЗМЕНЕНИЯ</b> сделанные на этой платформе до переноса избранного.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "Должны ли мы переопределить избранное при переносе?",
+
+        "Migration.DataSelection.Home.Title": "Установить ли ваш старый дом избранным?",
+        "Migration.DataSelection.Home.Description": "Когда мы перенесем ваши данные, ваш оригинальный облачный дом будет размещен под другим URL-адресом, и по умолчанию вы получите совершенно новый облачный дом. Однако, если вы предпочитаете, мы можем сделать ваш старый дом избранным домом по умолчанию. Даже если вы выберете \"Нет\", ваш старый облачный дом по-прежнему будет доступен, и вы сможете отметить его избранным по умолчанию позже.",
+
+        "Migration.DataSelection.Contacts": "Контакты",
+        "Migration.DataSelection.Message History": "История сообщений",
+        "Migration.DataSelection.InventoryWorld": "Инвентари и Миры",
+        "Migration.DataSelection.CloudVariable.Definitions": "Определения облачных переменных",
+        "Migration.DataSelection.CloudVariable.Values": "Значения облачных переменных",
+
+        "Migration.DataSelection.AlwaysOverwrite": "Всегда переопределять",
+
+        "Migration.Start": "Начать Миграцию",
+        "Migration.Groups.Title": "Мигрировать Группы",
+        "Migration.Groups.Introduction": "Должны ли мы перенести ваши группы?",
+
+        "Migration.Groups.Description": "Все группы, администратором которых вы являетесь, будут перенесены по умолчанию. Если вы хотите перенести только избранные группы, нажмите кнопку ниже, чтобы загрузить их, а затем отметьте группы, которые вы хотите перенести.",
+
+        "Migration.Groups.LoadGroups": "Загрузить группы",
+        "Migration.Groups.RefreshGroups": "Обновить группы",
+
+        "Migration.Groups.Fetching": "Получение групп...",
+        "Migration.Groups.Fetching.LoginFailed": "Ошибка входа в: {error}",
+        "Migration.Groups.Fetching.Error": "Ошибка при получении групп: {error}",
+        "Migration.Groups.NoGroups": "Не найдено {platform} групп для переноса.",
+        "Migration.Groups.NotGroupAdmin": "Вы не являетесь администратором ни одной {platform} группы. Попросите администраторов вашей группы перенести её!",
+
+        "Migration.Summary": "Хорошо, у нас есть все, что нам нужно. Нажмите Начать Миграцию ниже, и мы начнем миграцию.\n\nМиграция может занять некоторое время, нам придется скопировать все. Если вы решили перенести избранное, мы расставим им приоритеты, чтобы вам было удобно.\n\nВам не нужно держать {appName} все время запущенным во время миграции, мы будем отправлять вам обновления через {appName} бота чтобы вы знали, как идут дела.",
+
+        "Migration.List.EmptyTitle": "Хотите начать новую миграцию?",
+        "Migration.List.EmptySubtitle": "Нажмите \"Новая задача миграции\" в левом верхнем углу.",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Создано в:{time}\nСтатус:{state}",
+        "Migration.Report.Title": "Отчет о задаче миграции:",
+        "Migration.Report.Description": "<color={hex}>Описание:</color> {value}",
+        "Migration.Report.Status": "<color={hex}>Статус:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>Создано в:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>Начато в:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>Завершено в:</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "В настоящее время переносятся данные <color={hex}>{value}</color>.",
+        "Migration.Report.CurrentItem": "Текущий предмет: <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>Текущая скорость:</color> ~{value} миров/предметов в минуту",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>Оставшиеся задачи в очереди перед этой:</color> {value}",
+        "Migration.Report.ContactStatus": "Перенесено <color={hex}>{current}</color> контактов из <color={hex}>{total}</color>",
+        "Migration.Report.MessageStatus": "Перенесено <color={hex}>{value}</color> сообщений",
+        "Migration.Report.CloudVariableDefinitionStatus": "Перенесено <color={hex}>{value}</color> определений облачных переменных",
+        "Migration.Report.CloudVariableValueStatus":"Перенесено <color={hex}>{value}</color> значений облачных переменных",
+        "Migration.Report.RecordStatus": "Перенесено <color={hex}>{current}</color> предметов/миров из <color={hex}>{total}</color>. <color=red>{failed}</color> неудачно.",
+        "Migration.Report.GroupStatus": "Перенесено <color={hex}>{current}</color> групп из <color={hex}>{total}</color>",
+        "Migration.Report.GroupMemberStatus": "Перенесено всего <color={hex}>{value}</color> участников группы",
+
+        "Migration.Error": "<color=red>Ошибка:</color> {error}",
+        "Migration.NothingSelected": "Ничего не выбрано, не можем запустить.",
+
+        "Migration.ColorManagement": "Этот мир был создан в гамма-пространстве и автоматически преобразован в линейное-пространство.<br><br>Он может отличаться от оригинала, но в целом должен быть пригоден для использования.<br><br>сли вы являетесь автором и обнаружите какие-либо проблемы с преобразованием мира <color=red>НЕ СОХРАНЯТЕ ЕГО</color>. Сохраняйте только копии.<br><br>Пока существует оригинал, мы можем настроить процесс преобразования. В противном случае вы будете нести ответственность за то, чтобы исправить это самостоятельно.",
 
         "Temporary.MMC.Voting UI": "Интерфейс голосования MMC",
         "Temporary.MMC.Vote": "Голосовать",
