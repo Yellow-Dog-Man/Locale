@@ -1567,6 +1567,212 @@
         "Exiting.Exiting": "正在退出...",
         "Exiting.LoggingOut": "正在注销...",
 
+        "Migration.Title": "迁移",
+        "Migration.NewTask": "新建迁移任务",
+
+        "Migration.LoginModal.Title": "迁移数据？",
+        "Migration.LoginModal.Description": "您希望从另一个账户迁移数据吗？您也可以选择稍后再从仪表盘上的“迁移”标签页执行此操作。",
+        "Migration.LoginModal.OpenMigration": "打开迁移",
+        "Migration.LoginModal.Later": "稍后",
+        "Migration.LoginResetID.Title": "确定要重置UserID吗？",
+        "Migration.LoginResetID.Description": "请您知悉，执行此项操作会导致 <color=red>难以预知的内容损坏</color>。您所有的物品、世界、好友和讯息都将被成功迁移，但任何依赖于您旧UserID引用的行为与组件很可能会不再工作，需要进行重新配置。<color=red>不！要！使用这个选项</color> 除非您有非常充分的理由。",
+        "Migration.LoginResetID.ResetButton": "我明白了，重置吧",
+
+        "Migration.ReservedUsername.Title":"<b>被保留的用户名</b>",
+        "Migration.ReservedUsername.Description": "这个用户名正为原拥有者所保留。如果这是您的账户，请提供您的 {platform} 凭据来解锁它。我们不会保留这些凭据，它们只在注册时被用于验证您对账号的拥有权。",
+        "Migration.SourcePassword": "{platform} 密码：",
+        "Migration.SourceUsername": "{platform} 用户名：",
+
+        "Migration.Dialog.Title": "账户迁移",
+        "Migration.Dialog.Source" : "您可以迁移来自任何兼容基础设施的数据。首先，从下方的列表中选择一个您希望自其迁移数据的基础设施。您也可以通过在安装文件夹下的“Migrations”文件夹放置配置文件来添加额外基础设施。",
+        "Migration.Dialog.AccountDescription": "要迁移您的账号，我们需要您的 {platform} 账户密码以登录并访问数据。",
+
+        "Migration.ResetID.Title": "重置我的UserID",
+        "Migration.ResetID.Description":"<color=red><b>警告：</b></color> 选择这个选项 <b>会不可还原地部分损坏现存内容</b>，其中包括用户内容、社区服务、链接、云变量等中任何对UserID的引用。这些引用会被重置，但您的物品、世界、好友与讯息不会丢失。我们 <b>只</b> 建议您在想更换一个新的随机UserID时使用此选项。除非您有重置UserID的充分理由，您 <b>不！该！</b> 使用此选项。您的UserID会像这样变化：\n U-MyUsername -> U-fX3pKe7AYYQ",
+
+        "Migration.DataSelection.Title": "当我们迁移您账户时，应该迁移哪些数据？",
+        "Migration.DataSelection.Everything": "所有数据",
+        "Migration.DataSelection.Choose": "让我自己选择",
+
+        "Migration.DataSelection.Favorites": "收藏内容（化身、家、相机、键盘、Facets）",
+
+        "Migration.DataSelection.Favorites.Description": "这将首先迁移您的家、收藏的化身、键盘、相机与仪表板，这样您就能尽快开始使用它们。\n <color=red><b>警告：</b></color> 如果您选择了这个选项，您可能 <b>失去某些</b> 在迁移前作出的对您收藏内容的更改。",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "我们应该在迁移时覆写您的收藏夹吗？",
+
+        "Migration.DataSelection.Home.Title": "将您原来的家设为默认？",
+        "Migration.DataSelection.Home.Description": "当我们迁移您数据时，您原本的云端家园会被安置在一个不同的URL下，您的默认家会被设为一个全新的云端家园。不过，如果您希望如此，我们也可以将您原有的家设置为默认。即使您选择了“不”，您原有的家依然可以被访问。您也可以稍后再收藏它并设为您的家。",
+
+        "Migration.DataSelection.Contacts": "好友",
+        "Migration.DataSelection.Message History": "消息历史",
+        "Migration.DataSelection.InventoryWorld": "库存 & 世界",
+        "Migration.DataSelection.CloudVariable.Definitions": "云变量定义",
+        "Migration.DataSelection.CloudVariable.Values": "云变量值",
+
+        "Migration.DataSelection.AlwaysOverwrite": "总是覆写",
+
+        "Migration.Start": "开始迁移",
+        "Migration.Groups.Title": "迁移群组",
+        "Migration.Groups.Introduction": "我们应该迁移您的群组吗？",
+
+        "Migration.Groups.Description": "所有您作为管理员的群组都将被默认迁移。如果您只想迁移指定群组，点击下方的按钮来加载它们并选择您希望迁移的群组。",
+
+        "Migration.Groups.LoadGroups": "加载群组",
+        "Migration.Groups.RefreshGroups": "刷新群组",
+
+        "Migration.Groups.Fetching": "群组拉取中...",
+        "Migration.Groups.Fetching.LoginFailed": "登录错误：{error}",
+        "Migration.Groups.Fetching.Error": "群组拉取错误：{error}",
+        "Migration.Groups.NoGroups": "未找到可迁移的 {platform} 群组。",
+        "Migration.Groups.NotGroupAdmin": "您未担任任何 {platform} 群组的管理员，请联系您群组的管理员以迁移它们！",
+
+        "Migration.Summary": "好的，我们已经完成了准备工作。点击下方的开始迁移按钮，我们就会开始您的迁移工作。\n\n迁移工作需要一些时间，我们需要拷贝所有的数据。如果您选择了迁移您的收藏夹，我们会优先迁移它们以便您能够尽快使用。\n\n在迁移运行时，您无需保持 {appName} 运行，但我们也会通过 {appName} 机器人向您发送通知以告知您进展如何。",
+
+
+        "Migration.List.EmptyTitle": "需要开始新的迁移工作吗？",
+        "Migration.List.EmptySubtitle": "点击左上方的“新建迁移任务”按钮",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>创建于：{time}\n状态：{state}",
+        "Migration.Report.Title": "迁移任务报告：",
+        "Migration.Report.Description": "<color={hex}>描述：</color> {value}",
+        "Migration.Report.Status": "<color={hex}>状态：</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>创建于：</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>开始于：</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>完成于：</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "正在迁移 <color={hex}>{value}</color> 的数据。",
+        "Migration.Report.CurrentItem": "当前项目： <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>当前速度：</color> ~{value} 世界/项目每分钟",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>此任务之前的排队任务数：</color> {value}",
+        "Migration.Report.ContactStatus": "已迁移 <color={hex}>{total}</color> 好友中的 <color={hex}>{current}</color> 个",
+        "Migration.Report.MessageStatus": "已迁移 <color={hex}>{value}</color> 条讯息",
+        "Migration.Report.CloudVariableDefinitionStatus": "已迁移 <color={hex}>{value}</color> 个云变量定义",
+        "Migration.Report.CloudVariableValueStatus":"已迁移 <color={hex}>{value}</color> 个云变量",
+        "Migration.Report.RecordStatus": "已迁移 <color={hex}>{total}</color> 世界/项目中的 <color={hex}>{current}</color> 个，失败 <color=red>{failed}</color> 个。",
+        "Migration.Report.GroupStatus": "已迁移 <color={hex}>{total}</color> 群组中的 <color={hex}>{current}</color> 个",
+        "Migration.Report.GroupMemberStatus": "共已迁移 <color={hex}>{value}</color> 群组成员",
+
+        "Migration.Error": "<color=red>错误：</color> {error}",
+        "Migration.NothingSelected": "未选择任何项，无法开始。",
+
+        "Migration.ColorManagement": "这个世界在伽马色彩空间下被创造，目前已被自动转换至线性色彩空间。<br><br>它看起来可能会有些不同，但总体应当保持可用。<br><br>如果您就是作者且发现了世界转换中的错误，<color=red>不！要！保！存！</color> 仅进行另存。<br><br>只要原始世界存在，我们还可以改良转换流程。否则您将自己负责修复这些错误。",
+
+        "Temporary.MMC.Voting UI": "MMC 投票界面",
+        "Temporary.MMC.Vote": "投票",
+
+        "Temporary.MMC.Categories.Name": "类别",
+
+        "Temporary.MMC.Categories.Worlds": "世界",
+        "Temporary.MMC.Categories.Worlds.Social": "社交",
+        "Temporary.MMC.Categories.Worlds.Game": "游戏",
+
+        "Temporary.MMC.Categories.Other": "其他",
+        "Temporary.MMC.Categories.Misc": "杂项",
+        "Temporary.MMC.Categories.Meme": "梗",
+
+        "Temporary.MMC.Categories.Avatars": "化身",
+        "Temporary.MMC.Categories.Avatars.Accessories": "配件",
+
+        "Temporary.MMC.VoteSuccess": "在 {category} 中您投票给了 {voteTarget}。",
+        "Temporary.MMC.VoteFailure": "投票失败，您的投票未被成功计票，请重试。",
+        "Temporary.MMC.VotedAlready": "您已经为 {voteTarget} 投过票了。",
+        "Temporary.MMC.VoteInvalid": "无效投票，请重试。",
+
+        "CloudHome.WelcomeHome": "欢迎回家",
+        "CloudHome.TargetRangeOptions": "目标范围选项",
+
+        "Tutorial.Saving.Title": "欢迎回家！",
+        "Tutorial.Saving.Content": "欢迎来到您的 <b><i><color=hero.yellow>家</b></i></color> 世界！这是您每次登录后所来到的地方。<br><br>这是一个您自己的世界，您可以保存任何所作的更改。<br><br>如果您保存了，当您下次回来时，一切将与您离开时一模一样！",
+
+        "CloudHome.Info.OnlineUsers": "在线 {online_users,plural, one {用户} other {用户}}: {online_users}<br>可加入 {joinable_users,plural, one {用户} other {用户}}: {joinable_users}",
+        "CloudHome.Info.Moderation": "监管",
+        "CloudHome.Info.Inventory": "库存",
+        "CloudHome.Info.Tools": "工具",
+        "CloudHome.Info.MoreInfo": "更多信息",
+        "CloudHome.Info.SessionUptime": "会话持续时间：",
+        "CloudHome.Info.AccessLevel": "权限等级：",
+        "CloudHome.Info.StorageUsed": "已用存储：",
+
+        "CloudHome.Info.DashInfoTab.Title": "欢迎！",
+        "CloudHome.Info.DashInfoDesktop": "为了让您更快上手，有几件事您应当知悉。当按下Esc键，您可以打开 <i><color=hero.purple>仪表盘</color></i>。它相当于您的桌面或是控制面板。<br><br>如果您对此感到疑惑，它用于显示能够帮助您的额外数据。点击下方按钮关闭这条消息。",
+        "CloudHome.Info.DashInfoVR": "为了让您更快上手，有几件事您应当知悉。当按下B或Y键，您可以打开 <i><color=hero.purple>仪表盘</color></i>。它相当于您的桌面或是控制面板。<br><br>如果您对此感到疑惑，它用于显示能够帮助您的额外数据。点击下方按钮关闭这条消息。",
+        "CloudHome.Info.DashInfoVRNoButtons": "为了让您更快上手，有几件事您应当知悉。当您按住菜单键直到圆圈填满，您可以打开 <i><color=hero.purple>仪表盘</color></i>。它相当于您的桌面或是控制面板。<br><br>如果您对此感到疑惑，它用于显示能够帮助您的额外数据。点击下方按钮关闭这条消息。",
+
+        "CloudHome.Info.GoToWiki": "前往Wiki！",
+        "CloudHome.Info.GoToDiscord": "前往Discord！",
+
+        "CloudHome.Info.ModerationTab.Title": "监管！",
+        "CloudHome.Info.ModerationTab.Content": "安全很重要。如果您需要帮助或者需要举报一位用户，请在我们的 <u><color=hero.cyan>监管平台</color></u><sprite name=hyperlink>发起工单。<br><br>我们有由志愿管理员组成的强大团队 <sprite name=modbadge> 来保障社区的安全！如果您有疑问，或是发现了违反行为准则的现象，请发起工单。",
+
+        "CloudHome.Info.InventoryTab.Title": "保存您的物品！",
+        "CloudHome.Info.InventoryTab.Content": "在 <i><color=hero.purple>仪表盘</color></i> 中的 <i><color=hero.purple>库存</color></i> 包含了您保存的物品与化身。<br><br>在 <i><color=hero.purple>基础</color></i> 文件夹中，我们准备了一些有趣的东西。您可以双击来生成它们！",
+
+        "CloudHome.Info.ToolsTab.Title": "世界内编辑！",
+        "CloudHome.Info.ToolsTab.Content": "{appName} 的一大特点在于，您能够轻易的在游戏中创造、修改事物。<br><br>是的！就在此处！实际上在任何地方都可以。您可以在库存中的 <i><color=hero.purple>基础 -> 工具</color></i> 栏找到用于修改世界的工具，并将一切变成您喜欢的样子。",
+
+        "CloudHome.Info.HelpTab.Title": "获得帮助",
+        "CloudHome.Info.HelpTab.InfoLineOne": "需要帮助？查看我们的 <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>，或者询问以获得解答。",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "在我们的 <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> 中提问，通过您仪表盘中的 <i><color=hero.purple>桌面</color></i> 标签页，您可以轻易地在桌面模式下查看链接。",
+
+        "CloudHome.Info.UsersTab.Title": "查找用户",
+        "CloudHome.Info.UsersTab.Content": "公共会话会是让您沉浸在社区氛围中的一个好去处！<br><br>您可以在仪表板中的 <i><color=hero.purple>世界</color></i> 标签页找到可以立即加入的公共会话。快去看看吧！",
+
+        "Mirror.Header.RenderingOptions" : "渲染选项",
+        "Mirror.Header.Type" : "镜子类型",
+        "Mirror.Header.Resolution" : "镜像分辨率",
+        "Mirror.Header.AspectRatio" : "宽高比",
+
+        "Mirror.EnableLights": "启用灯光",
+        "Mirror.DisableLights": "禁用灯光",
+
+        "Mirror.EnableShadows": "启用阴影",
+        "Mirror.DisableShadows": "禁用阴影",
+
+        "Mirror.Camera": "相机",
+
+        "Mirror.AspectRatio.Tall": "高",
+        "Mirror.AspectRatio.Square": "方形",
+        "Mirror.AspectRatio.Wide": "宽",
+
+        "Mirror.Menu": "菜单",
+        "Mirror.CloseMenu": "关闭菜单",
+
+        "StickyNote.SpinMe": "旋转我！",
+        "StickyNote.FruitPlate": "免费的自补充果盘",
+        "StickyNote.EmptyForYou": "专为您留空！:)",
+        "StickyNote.RelevantLinks": "相关链接！<br><--<br><br><size=500>甚至可以叫它黄页</size>",
+        "StickyNote.SunTool": "以您之手掌握太阳之力！",
+        "StickyNote.Bow": "拉弓，瞄准",
+        "StickyNote.Crossbow": "使用杠杆（或是次级）来装填！",
+        "StickyNote.Shade": "可调节的着色",
+        "StickyNote.TheaterTablet": "使用这个平板来控制房间的风扇与窗户！",
+        "StickyNote.ControlTablet": "使用这个平板来控制家的各个部分！",
+
+        "StickyNote.RotateMeDesktop": "按住E来旋转我！",
+        "StickyNote.RotateMeVR": "旋转我！",
+
+        "StickyNote.EquipMeDesktop": "装备并按下左键！",
+        "StickyNote.EquipMeVR": "装备并拉弦！",
+
+        "StickyNote.DipBrushes": "将笔刷浸入材质球来选择材质",
+        "StickyNote.BrushColor": "在您的上下文菜单中更改笔刷的颜色与大小",
+        "StickyNote.Drawing": "您可以在画板上或空气中绘画。事实上，在哪都行！",
+        "StickyNote.WorldCanvas": "世界就是您的画布！",
+
+        "CloudHome.Panel.HomeControl": "家控制",
+
+        "CloudHome.Panel.General": "通用",
+        "CloudHome.Panel.Lighting": "灯光",
+        "CloudHome.Panel.Furniture": "家具",
+
+        "CloudHome.Panel.Quality": "质量",
+        "CloudHome.Panel.Doors": "门",
+        "CloudHome.Panel.Audio": "音频",
+        "CloudHome.Panel.OverheadLighting": "顶灯",
+        "CloudHome.Panel.Sconces": "壁灯",
+        "CloudHome.Panel.FurnitureVisibility": "家具可见性",
+
         "Dummy": "Dummy"
     }
 }
