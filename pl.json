@@ -1,6 +1,6 @@
 {
     "localeCode": "pl",
-    "authors": ["art0007i", "DarkSugar", "Alex_2Pi"],
+    "authors": ["art0007i", "DarkSugar", "Alex_2Pi", "FoxoBread"],
     "messages": {
 
         "General.OK": "OK",
@@ -36,7 +36,7 @@
         "General.Understand": "Rozumiem",
         "General.Notice": "Notice",
         "General.UnderstandEnable": "Rozumiem, Włącz",
-        "General.Dismiss": "Anulować",
+        "General.Dismiss": "Zamknij",
         "General.Edit": "Edytuj",
 
         "General.UI.SearchPrompt": "Wyszukaj...",
@@ -160,7 +160,7 @@
         "Facets.FPS": "{fps}<size=61.803%> FPS</size>",
 
         "World.Waiting": "Oczekiwanie...",
-        "World.HostIsStarting": "Gospodarz zaczyna sesję...",
+        "World.HostIsStarting": "Host zaczyna sesję...",
         "World.Loading": "Ładowanie...",
         "World.LoadingFailed": "Niepowodzenie",
         "World.LoadedAssets": "Załadowano {assets} z {total_assets}",
@@ -180,7 +180,7 @@
         "World.Error.AccessDenied": "Odmowa Dostępu",
         "World.Error.SecurityViolation": "Naruszenie Bezpieczeństwa",
         "World.Error.OnlyRegisteredUsers": "Tylko zarejestrowani użytkownicy mogą dołączyć",
-        "World.Error.OnlyContacts": "Tylko kontakty gospodarza mogą dołączyć",
+        "World.Error.OnlyContacts": "Tylko kontakty hosta mogą dołączyć",
         "World.Error.OnlyContactsOfContacts": "Tylko kontakty użytkowników w sesji mogą dołączyć",
         "World.Error.Private": "Ta sesja jest prywatna",
         "World.Error.SessionEnded": "Sesja się zakończyła",
@@ -241,7 +241,7 @@
         "World.Actions.LeaveConfirm": "Opuść",
         "World.Actions.CannotClose": "(nie można zamknąć tego świata)",
         "World.Actions.GuestWarning": "",
-        "World.Actions.HostingWarning": "Jesteś gospodarzem tego świata. Wszyscy użytkownicy zostaną odłączeni.",
+        "World.Actions.HostingWarning": "Jesteś hostem tego świata. Wszyscy użytkownicy zostaną odłączeni.",
 
         "World.Actions.GetWorldOrb": "Zdobądź Kulę Świata",
         "World.Actions.CopyWorldURL": "Skopiuj URL Świata",
@@ -254,8 +254,8 @@
         "World.Indicator.NoData": "Brak Danych",
         "World.Indicator.LocalWorld": "Lokalna Maszyna",
         "World.Indicator.Author": "Przez: {name}",
-        "World.Indicator.Host": "Gospodarz: {name}",
-        "World.Indicator.Hosting": "Jesteś Gospodarzem",
+        "World.Indicator.Host": "Host: {name}",
+        "World.Indicator.Hosting": "Jesteś hostem",
         "World.Indicator.Sessions": "{n,plural, one {# sesja} few {# sesje} many {# sesji}}",
         "World.Indicator.Users": "Użytkownicy",
         "World.Indicator.Users.None": "(nie znaleziono aktywnych sesji)",
@@ -331,7 +331,7 @@
         "World.Filter.SessionFiltering": "Filtrowanie Sesji:",
         "World.Filter.MinimumUsers": "Minimum Użytkowników: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Minimalne kontakty: <b>{n}</b>",
-        "World.Filter.OnlyHeadless": "Tylko Gospodarze Headless",
+        "World.Filter.OnlyHeadless": "Tylko Headless",
         "World.Filter.MaxAccessLevel": "Najwyższy Poziom Dostępu:",
         "World.Filter.MinimumUptime": "Minimalny Czas Działania:",
         "World.Filter.Sorting": "Sortowanie:",
@@ -373,11 +373,11 @@
         "Options.Nameplates.DefaultStyle": "Użyj domyślnych plakietka",
         "Options.Nameplates.CustomStyle": "Zezwalaj na niestandardowe plakietki",
 
-        "Indicator.OnlineUsers": "Użytkownicy Online: ~{num_registered} (~{num_total})",
-        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {user} other {users}} in VR",
-        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {user} other {users}} in Desktop",
+        "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> {users,plural, one {Użytkownik} other {Użytkowników}} online",
+        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {Użytkownik} other {Użytkowników}} w VR",
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {Użytkownik stacjonarny} other {Użytkowników stacjonarnych}} ",
 
-        "Indicator.ServerStatus.Status": "Status chmury",
+        "Indicator.ServerStatus.Status": "Status serwera",
         "Indicator.ServerStatus.Good": "Dobry",
         "Indicator.ServerStatus.Slow": "Powolny",
         "Indicator.ServerStatus.Down": "Niesprawny",
@@ -390,7 +390,7 @@
         "Indicator.Sync.StorageFull": "Pamięć Pełna <size=61.803%>Nie można zsynchronizować</size>",
 
         "Indicator.Storage.StorageFull": "Pamięć Pełna",
-        "Indicator.Storage.Usage": "{storage_used} of {storage_max}<br><size=61.803%>Storage Space Used</size>",
+        "Indicator.Storage.Usage": "{storage_used} z {storage_max}<br><size=61.803%>Użytej pamięci</size>",
 
         "Indicator.LiveHiddenMessage": "(informacja ukryta podczas transmisji)",
 
@@ -411,7 +411,7 @@
         "Login.DuplicateAccount": "Zduplikowane konto",
 
         "Register.MissingRequest": "Brak danych rejestracyjnych",
-        "Register.InvalidEmail": "Niepoprawny adres email",
+        "Register.InvalidEmail": "Niepoprawny adres e-mail",
         "Register.MissingUsername": "Brak nazwy użytkownika",
         "Register.MissingEmail": "Brakujący e-mail",
         "Register.UsernameTooLong": "Nazwa użytkownika jest za długa",
@@ -456,9 +456,9 @@
         "Account.ResetPassword": "Ustaw Nowe Hasło",
         "Account.Requesting": "Żądanie...",
         "Account.ErrorPasswordMismatch": "Hasła nie są takie same!",
-        "Account.ErrorEmailMismatch": "Emaile nie są takie same!",
+        "Account.ErrorEmailMismatch": "Adresy e-mail nie są takie same!",
         "Account.ErrorLoginError": "Błąd Logowania:",
-        "Account.RegistrationSuccess": "<size=120%>Udało się!</size><br><br>Email z linkiem potwierdzającym został wysłany do {email}.<br><br>Po otworzeniu linku, zostaniesz zalogowany automatycznie jeżeli to okienko jest otwarte we'll automatically log you in as long as this dialog is open.<br><br>Jeśli napotkasz problemy, napisz do nas na hello@{appName}.com lub discord.gg/resonite",
+        "Account.RegistrationSuccess": "<size=120%>Udało się!</size><br><br>Email z linkiem potwierdzającym został wysłany do {email}.<br><br>Po otworzeniu linku, zostaniesz zalogowany automatycznie jeżeli to okienko jest otwarte.<br><br>Jeśli napotkasz problemy, napisz do nas na hello@{appName}.com lub discord.gg/resonite",
         "Account.BirthMonth": "Miesiąc Urodzenia:",
         "Account.BirthDay": "Dzień Urodzenia:",
         "Account.BirthYear": "Rok Urodzenia:",
@@ -487,12 +487,12 @@
         "Account.TOTP.Activate.InvalidToken": "Nieprawidłowy Token!",
         "Account.TOTP.Message.AlreadySetup": "2FA zostało już skonfigurowane na Twoim koncie!",
         "Account.TOTP.Message.Error": "Niespodziewany błąd! Spróbuj ponownie później.",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>Congratulations!</size><br><br>Your account is now setup with 2FA for extra protection!<br><br>You can optionally enable this for account login with /enableLogin2FA command.",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Gratulacje!</size><br><br>Twoje konto jest teraz skonfigurowane z 2FA dla dodatkowej ochrony!<br><br>Możesz opcjonalnie włączyć tę funkcję dla logowania do konta za pomocą polecenia /enableLogin2FA.",
         "Account.TOTP.Deactivate.Header": "Dezaktywuj 2FA",
-        "Account.TOTP.Deactivate.Description": "2FA is currently <b><color=green>setup and active on your account</color></b>. If you need to deactivate it (e.g. due to loss of your phone or the codes being compromised), you can do so here.<br><br>After deactivation, you can setup 2FA again, which will generate a brand new secret code and new set of recovery codes.<br><br>If you lose your phone and need to setup 2FA again, we <b>STRONGLY</b> advise you do so immediately, as each recovery code can be used only once and after you run out you'll be completely locked out of your account.",
+        "Account.TOTP.Deactivate.Description": "2FA jest obecnie <b><color=green>skonfigurowane i aktywne na Twoim koncie</color></b>. Jeśli musisz dezaktywować 2FA (np. z powodu utraty telefonu lub naruszenia bezpieczeństwa kodów), możesz to zrobić tutaj.<br><br>Po dezaktywacji możesz ponownie skonfigurować 2FA, co spowoduje wygenerowanie zupełnie nowego sekretnego kodu i nowego zestawu kodów odzyskiwania. <br><br>Jeśli zgubisz telefon i będziesz musiał ponownie skonfigurować 2FA, <b>zdecydowanie zalecamy</b> zrobienie tego natychmiast, ponieważ każdy kod odzyskiwania może być użyty tylko raz, a po jego wyczerpaniu zostaniesz całkowicie zablokowany na swoim koncie.",
         "Account.TOTP.Deactivate.Deactivate": "Dezaktywuj",
         "Account.TOTP.Deactivate.Deactivating": "Dezaktywowanie...",
-        "Account.TOTP.Message.DeactivationComplete": "2FA has been successfully deactivated on your account.<br><br>Your account is now at increased risk!<br><br>We strongly recommend setting up 2FA again immediately, especially if you used a recovery code due to losing your phone.",
+        "Account.TOTP.Message.DeactivationComplete": "2FA zostało pomyślnie dezaktywowane na Twoim koncie.<br><br>Twoje konto jest teraz bardziej narażone na ryzyko!<br><br>Zdecydowanie zalecamy natychmiastowe ponowne skonfigurowanie 2FA, zwłaszcza jeśli użyłeś kodu odzyskiwania z powodu utraty telefonu.",
 
         "Account.Type.Standard": "Konto Standardowe",
         "Account.Type.Business": "Konto Biznesowe",
@@ -519,7 +519,7 @@
         "Session.Permission.Anonymous": "Domyślny Anonim:",
         "Session.Permission.Vistor": "Domyślny Odwiedzający:",
         "Session.Permission.Contact": "Domyślny Kontakt:",
-        "Session.Permission.Host": "Domyślny Gospodarz:",
+        "Session.Permission.Host": "Domyślny Host:",
         "Session.Permission.PermissionOverrideCount": "Nadpisane Uprawnienia: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Wyczyść Nadpisane Uprawnienia",
 
@@ -1587,68 +1587,69 @@
         "Exiting.Exiting": "Wychodzenie...",
         "Exiting.LoggingOut": "Wylogowywanie...",
 
-        "Migration.Title": "Migration",
-        "Migration.NewTask": "New Migration Task",
+        "Migration.Title": "Migracja",
+        "Migration.NewTask": "Nowe zadanie migracji",
 
-        "Migration.LoginModal.Title": "Migrate data?",
-        "Migration.LoginModal.Description": "Would you like to migrate data from another account? You can choose to do this later from the \"Migration\" tab on the dash as well.",
-        "Migration.LoginModal.OpenMigration": "Open migration",
-        "Migration.LoginModal.Later": "Maybe later",
-        "Migration.LoginResetID.Title": "Really reset UserID?",
-        "Migration.LoginResetID.Description": "Please understand that doing this will result in <color=red>UNPREDICTABLE CONTENT BREAKAGE</color>. All your items, worlds, contacts and messages will be migrated successfully, but any behaviors and components that rely on referencing your old UserID will likely break and require to be re-setup and be repaired. Unless you have a serious reason to want to reset your UserID, <color=red>DO NOT CHOOSE THIS OPTION</color>.",
-        "Migration.LoginResetID.ResetButton": "Yes, reset",
+        "Migration.LoginModal.Title": "Przenieść dane?",
+        "Migration.LoginModal.Description": "Czy chcesz przenieść dane z innego konta? Możesz to zrobić później w zakładce \"Migracja\" na tablicy.",
+        "Migration.LoginModal.OpenMigration": "Otwórz migrację",
+        "Migration.LoginModal.Later": "Może później",
+        "Migration.LoginResetID.Title": "Naprawdę resetuj UserID?",
+        "Migration.LoginResetID.Description": "Należy pamiętać, że spowoduje to <color=red>NIEPRZEWIDYWALNE USZKODZENIE ZAWARTOŚCI</color>. Wszystkie przedmioty, światy, kontakty i wiadomości zostaną pomyślnie przeniesione, ale wszelkie zachowania i komponenty, które opierają się na odniesieniu do starego UserID, prawdopodobnie ulegną awarii i będą wymagały ponownej konfiguracji i naprawy. Chyba że masz poważny powód, aby zresetować swój UserID, <color=red>NIE WYBIERAJ TEJ OPCJI</color>.",
+        "Migration.LoginResetID.ResetButton": "Tak, zresetuj",
 
-        "Migration.ReservedUsername.Title": "<b>Reserved Username</b>",
-        "Migration.ReservedUsername.Description": "This username is reserved for original owner. If this is your account, please provide your {platform} credentials to unlock it. We do not store these credentials, they are only used to verify the ownership of your account on registration.",
-        "Migration.SourcePassword": "{platform} Password:",
-        "Migration.SourceUsername": "{platform} Username:",
+        "Migration.ReservedUsername.Title":"<b>Zarezerwowana nazwa użytkownika</b>",
+        "Migration.ReservedUsername.Description": "Ta nazwa użytkownika jest zarezerwowana dla pierwotnego właściciela. Jeśli jest to Twoje konto, podaj swoje dane logowania do {platform}, aby je odblokować. Nie przechowujemy tych danych logowania, są one używane tylko do weryfikacji własności konta podczas rejestracji.",
+        "Migration.SourcePassword": "Hasło",
+        "Migration.SourceUsername": "Nazwa użytkownika {platform}:",
 
-        "Migration.Dialog.Title": "Account Migration",
-        "Migration.Dialog.Source": "You can migrate data from any compatible infrastructure. First select one from the list below that you'd like to migrate data from. You can add additional infrastructures by placing config files in the \"Migrations\" folder in the installation.",
-        "Migration.Dialog.AccountDescription": "To migrate your account, we'll need your {platform} account password. This will let us login to it and access the data.",
+        "Migration.Dialog.Title": "Migracja konta",
+        "Migration.Dialog.Source" : "Dane można przenieść z dowolnej kompatybilnej infrastruktury. Najpierw wybierz z listy poniżej tę, z której chcesz migrować dane. Dodatkowe infrastruktury można dodać, umieszczając pliki konfiguracyjne w folderze \"Migrations\" w instalacji.",
+        "Migration.Dialog.AccountDescription": "Aby przeprowadzić migrację konta, będziemy potrzebować hasła do konta {platform}. Pozwoli nam to zalogować się do niego i uzyskać dostęp do danych.",
 
-        "Migration.ResetID.Title": "Reset my UserID",
-        "Migration.ResetID.Description": "<color=red><b>WARNING:</b></color> Choosing this option <b>WILL PARTIALLY BREAK EXISTING CONTENT AND IS IRREVERSIBLE</b>, this includes any UserID references in user content, community services, links, cloud variables and more. These references will be reset, but your items, worlds, contacts and messages themselves will not be lost. We recommend using this option <b>ONLY</b> if you would like to get rid of your old UserId and replace it with a new randomized one. Unless you have a strong reason to reset your UserID, you <b>SHOULD NOT</b> check this option. Your UserID will change like this:\n U-MyUsername -> U-fX3pKe7AYYQ",
+        "Migration.ResetID.Title": "Zresetuj mój UserID",
+        "Migration.ResetID.Description":"<color=red><b>OSTRZEŻENIE:</b></color> Wybranie tej opcji <b>CZĘŚCIOWO USZKODZI ISTNIEJĄCĄ ZAWARTOŚĆ I JEST NIEODWRACALNE</b>, w tym wszelkie odniesienia UserID w treściach użytkownika, usługach społecznościowych, linkach, zmiennych w chmurze i innych. Zalecamy korzystanie z tej opcji <b>TYLKO</b> wtedy, gdy chcesz pozbyć się starego UserId i zastąpić go nowym, losowym identyfikatorem. eśli nie masz ważnego powodu, aby zresetować swój identyfikator UserID, <b>NIE POWINIENEŚ</b> zaznaczać tej opcji. Twój UserID zmieni się w następujący sposób:\n U-MyUsername -> U-fX3pKe7AYYQ",
 
-        "Migration.DataSelection.Title": "When we migrate your account, what data should we migrate?",
-        "Migration.DataSelection.Everything": "Everything",
-        "Migration.DataSelection.Choose": "Let me choose",
+        "Migration.DataSelection.Title": "Jakie dane powinny zostać przeniesione podczas migracji konta?",
+        "Migration.DataSelection.Everything": "Wszystko",
+        "Migration.DataSelection.Choose": "Pozwól mi wybrać",
 
-        "Migration.DataSelection.Favorites": "Favorites (avatar, home, camera, keyboard, facets)",
+        "Migration.DataSelection.Favorites": "Ulubione (awatar, dom, kamera, klawiatura, aspekty)",
 
-        "Migration.DataSelection.Favorites.Description": "This will migrate your home, favorite avatar, keyboard, camera and dash first, so you can start using them as soon as possible.\n <color=red><b>WARNING:</b></color> If you choose this option, you might <b>LOSE ANY CHANGES</b> made on this platform before the migration to your favorites.",
-        "Migration.DataSelection.Favorites.OverwriteTitle": "When migrating should we overwrite your favorites?",
+        "Migration.DataSelection.Favorites.Description": "Spowoduje to najpierw migrację domu, ulubionego awatara, klawiatury, kamery i tablicy, aby można było zacząć z nich korzystać tak szybko, jak to możliwe.\n <color=red><b>OSTRZEŻENIE:</b></color> Wybranie tej opcji może spowodować <b>UTRATĘ WSZELKICH ZMIAN</b> dokonanych na tej platformie przed migracją ulubionych.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "Czy podczas migracji należy nadpisać ulubione?",
 
-        "Migration.DataSelection.Home.Title": "Set your old home as default?",
-        "Migration.DataSelection.Home.Description": "When we migrate your data, your original cloud home will be placed under different URL and you will get a brand new cloud home as default. However if you'd prefer, we can default your old home as the default one. Even if you select \"No\", your old cloud home will still be accessible and you can favorite it as your default later.",
+        "Migration.DataSelection.Home.Title": "Ustawić stary dom jako domyślny?",
+        "Migration.DataSelection.Home.Description": "Gdy przeprowadzimy migrację danych, oryginalny dom w chmurze zostanie umieszczony pod innym adresem URL, a jako domyślny zostanie ustawiony nowy dom w chmurze. Jeśli jednak wolisz, możemy ustawić Twój stary dom jako domyślny. Nawet jeśli wybierzesz opcję \"Nie\", stary dom w chmurze będzie nadal dostępny i możesz go później wybrać jako domyślny.",
 
-        "Migration.DataSelection.Contacts": "Contacts",
-        "Migration.DataSelection.Message History": "Message History",
-        "Migration.DataSelection.InventoryWorld": "Inventory & Worlds",
-        "Migration.DataSelection.CloudVariable.Definitions": "Cloud Variable Definitions",
-        "Migration.DataSelection.CloudVariable.Values": "Cloud Variable Values",
+        "Migration.DataSelection.Contacts": "Kontakty",
+        "Migration.DataSelection.Message History": "Historia wiadomości",
+        "Migration.DataSelection.InventoryWorld": "Ekwipunek i światy",
+        "Migration.DataSelection.CloudVariable.Definitions": "Definicje zmiennych w chmurze",
+        "Migration.DataSelection.CloudVariable.Values": "Wartości zmiennych w chmurze",
 
-        "Migration.DataSelection.AlwaysOverwrite": "Always overwrite",
+        "Migration.DataSelection.AlwaysOverwrite": "Zawsze nadpisuj",
 
-        "Migration.Start": "Start Migration",
-        "Migration.Groups.Title": "Migrate Groups",
-        "Migration.Groups.Introduction": "Should we migrate your groups?",
+        "Migration.Start": "Rozpocznij migrację",
+        "Migration.Groups.Title": "Przenieś grupy",
+        "Migration.Groups.Introduction": "Czy powinniśmy przenieść twoje grupy?",
 
-        "Migration.Groups.Description": "All groups you are administrator of will be migrated by default. If you'd like to migrate only select groups, click the button below to load them and then check the groups you'd like to migrate.",
+        "Migration.Groups.Description": "Wszystkie grupy, których jesteś administratorem, zostaną domyślnie przeniesione. Jeśli chcesz przenieść tylko wybrane grupy, kliknij poniższy przycisk, aby je załadować, a następnie zaznacz grupy, które chcesz przenieść.",
 
-        "Migration.Groups.LoadGroups": "Load groups",
-        "Migration.Groups.RefreshGroups": "Refresh groups",
+        "Migration.Groups.LoadGroups": "Załaduj grupy",
+        "Migration.Groups.RefreshGroups": "Odśwież grupy",
 
-        "Migration.Groups.Fetching": "Fetching groups...",
-        "Migration.Groups.Fetching.LoginFailed": "Error logging in: {error}",
-        "Migration.Groups.Fetching.Error": "Error fetching groups: {error}",
-        "Migration.Groups.NoGroups": "No {platform} groups found to migrate.",
-        "Migration.Groups.NotGroupAdmin": "You're not an admin of any {platform} groups, ask your group admins to migrate the group!",
+        "Migration.Groups.Fetching": "Pobieranie grup...",
+        "Migration.Groups.Fetching.LoginFailed": "Błąd podczas logowania: {error}",
+        "Migration.Groups.Fetching.Error": "Błąd podczas pobierania grup: {error}",
+        "Migration.Groups.NoGroups": "Nie znaleziono grup {platform} do migracji.",
+        "Migration.Groups.NotGroupAdmin": "Nie jesteś administratorem żadnej grupy {platform}, poproś administratorów grupy o migrację grupy!",
 
-        "Migration.Summary": "Ok, we have everything we need. Click Start Migration below and we'll get started on your migration.\n\nMigration might take a while, we've gotta copy everything across. If you've selected to migrate your favorites, we'll prioritize them so that you can get comfortable.\n\nYou don't need to keep {appName} running whilst we're migrating, but we'll send you updates via the {appName} bot to let you know how its going.",
+        "Migration.Summary": "Ok, mamy wszystko, czego potrzebujemy. Kliknij przycisk Rozpocznij migrację, a my rozpoczniemy migrację. Migracja może chwilę potrwać, ponieważ musimy wszystko skopiować. Jeśli wybrałeś migrację swoich ulubionych aplikacji, nadamy im priorytet, abyś mógł poczuć się wygodnie. Nie musisz uruchamiać {appName} podczas migracji, ale wyślemy ci aktualizacje za pośrednictwem bota {appName}, aby poinformować cię, jak idzie.",
 
-        "Migration.List.EmptyTitle": "Looking to start a new Migration?",
-        "Migration.List.EmptySubtitle": "Click on \"New Migration Task\" in the top left.",
+
+        "Migration.List.EmptyTitle": "Chcesz rozpocząć nową migrację?",
+        "Migration.List.EmptySubtitle": "Kliknij \"Nowe zadanie migracji\" w lewym górnym rogu.",
 
         "Migration.List.ButtonLabel": "{name}\n<size=50%>Created on:{time}\nStatus:{state}",
         "Migration.Report.Title": "Migration Task Report:",
@@ -1713,10 +1714,10 @@
         "CloudHome.Info.AccessLevel": "Access Level:",
         "CloudHome.Info.StorageUsed": "Storage Used:",
 
-        "CloudHome.Info.DashInfoTab.Title": "Welcome!",
-        "CloudHome.Info.DashInfoDesktop": "Just to get you up to speed, there's a couple things you should know. You have a <i><color=hero.purple>Dashboard</color></i> that you can open by pressing Escape. Think of it as your desktop or control panel.<br><br>If you're confused, this display has some additional info to help you out. Click the button below to dismiss this message.",
-        "CloudHome.Info.DashInfoVR": "Just to get you up to speed, there's a couple things you should know. You have a <i><color=hero.purple>Dashboard</color></i> that you can open by pressing B or Y. Think of it as your desktop or control panel.<br><br>If you're confused, this display has some additional info to help you out. Click the button below to dismiss this message.",
-        "CloudHome.Info.DashInfoVRNoButtons": "Just to get you up to speed, there's a couple things you should know. You have a <i><color=hero.purple>Dashboard</color></i> that you can open by pressing and holding the Menu button until the circle completes. Think of it as your desktop or control panel.<br><br>If you're confused, this display has some additional info to help you out. Click the button below to dismiss this message.",
+        "CloudHome.Info.DashInfoTab.Title": "Witaj!",
+        "CloudHome.Info.DashInfoDesktop": "Aby być na bieżąco, powinieneś wiedzieć parę rzeczy. Masz <i><color=hero.purple>Tablice</color></i> którą możesz otworzyć naciskając Escape. Potraktuj to jako pulpit lub panel sterowania.<br><br>Jeśli jesteś nie pewny, ten ekran zawiera dodatkowe informacje, które mogą Ci pomóc. Kliknij poniższy przycisk, aby odrzucić tę wiadomość.",
+        "CloudHome.Info.DashInfoVR": "Aby być na bieżąco, powinieneś wiedzieć parę rzeczy. Masz <i><color=hero.purple>Tablice</color></i> którą możesz otworzyć naciskając B lub Y. Potraktuj to jako pulpit lub panel sterowania.<br><br>Jeśli jesteś nie pewny, ten ekran zawiera dodatkowe informacje, które mogą Ci pomóc. Kliknij poniższy przycisk, aby odrzucić tę wiadomość.",
+        "CloudHome.Info.DashInfoVRNoButtons": "Aby być na bieżąco, powinieneś wiedzieć parę rzeczy. Masz <i><color=hero.purple>Tablice</color></i> którą możesz otworzyć, naciskając i przytrzymując przycisk Menu, aż okrąg się zamknie. Potraktuj to jako pulpit lub panel sterowania.<br><br>Jeśli jesteś nie pewny, ten ekran zawiera dodatkowe informacje, które mogą Ci pomóc. Kliknij poniższy przycisk, aby odrzucić tę wiadomość.",
 
         "CloudHome.Info.GoToWiki": "Go to Wiki!",
         "CloudHome.Info.GoToDiscord": "Go to Discord!",
@@ -1730,38 +1731,38 @@
         "CloudHome.Info.ToolsTab.Title": "In-World Editing!",
         "CloudHome.Info.ToolsTab.Content": "A hallmark of {appName} is being able to easily create or modify things right in-game.<br><br>Yes, that means right here! Or anywhere really - the tools available to you via <i><color=hero.purple>Essentials -> Tools</color></i> in your inventory allow you to easily edit the world around you to your liking.",
 
-        "CloudHome.Info.HelpTab.Title": "Getting Help",
-        "CloudHome.Info.HelpTab.InfoLineOne": "Need help? Take a look at our <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, or get answers to your",
-        "CloudHome.Info.HelpTab.InfoLineTwo": "questions in our <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> Handily, you can view links on your desktop through your Dashboard in the <i><color=hero.purple>Desktop</color></i> tab.",
+        "CloudHome.Info.HelpTab.Title": "Pomoc",
+        "CloudHome.Info.HelpTab.InfoLineOne": "Potrzebujesz pomocy? Zapoznaj się z naszą <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, lub uzyskać odpowiedzi na Twoje",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "pytania w naszym <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> Z łatwością możesz wyświetlać linki na pulpicie za pośrednictwem tablicy w zakładce  <i><color=hero.purple>Pulpit</color></i>.",
 
-        "CloudHome.Info.UsersTab.Title": "Finding Users",
-        "CloudHome.Info.UsersTab.Content": "Public sessions are a great way to immerse yourself in the community!<br><br>Public sessions which you can join right now can be found in the <i><color=hero.purple>Worlds</color></i> tab in your dashboard. Check it out!",
+        "CloudHome.Info.UsersTab.Title": "Znajdowanie użytkowników",
+        "CloudHome.Info.UsersTab.Content": "Sesje publiczne to świetny sposób na poznanie społeczności!<br><br>Publiczne sesje, do których można dołączyć już teraz, można znaleźć w zakładce <i><color=hero.purple>Światy</color></i> na tablicy. Spróbuj!",
 
-        "Mirror.Header.RenderingOptions": "Rendering Options",
-        "Mirror.Header.Type": "Mirror Type",
-        "Mirror.Header.Resolution": "Mirror Resolution",
-        "Mirror.Header.AspectRatio": "Aspect Ratio",
+        "Mirror.Header.RenderingOptions": "Opcje renderowania",
+        "Mirror.Header.Type": "Typ lustra",
+        "Mirror.Header.Resolution": "Rozdzielczość lustra",
+        "Mirror.Header.AspectRatio": "Proporcje",
 
-        "Mirror.EnableLights": "Enable Lights",
-        "Mirror.DisableLights": "Disable Lights",
+        "Mirror.EnableLights": "Włącz oświetlenie",
+        "Mirror.DisableLights": "Wyłącz oświetlenie",
 
-        "Mirror.EnableShadows": "Enable Shadows",
-        "Mirror.DisableShadows": "Disable Shadows",
+        "Mirror.EnableShadows": "Włącz cienie",
+        "Mirror.DisableShadows": "Wyłącz cienie",
 
-        "Mirror.Camera": "Camera",
+        "Mirror.Camera": "Kamera",
 
-        "Mirror.AspectRatio.Tall": "Tall",
-        "Mirror.AspectRatio.Square": "Square",
-        "Mirror.AspectRatio.Wide": "Wide",
+        "Mirror.AspectRatio.Tall": "Wysokie",
+        "Mirror.AspectRatio.Square": "Kwadratowe",
+        "Mirror.AspectRatio.Wide": "Szerokie",
 
         "Mirror.Menu": "Menu",
-        "Mirror.CloseMenu": "Close Menu",
+        "Mirror.CloseMenu": "Zamknij menu",
 
-        "StickyNote.SpinMe": "Spin Me!",
-        "StickyNote.FruitPlate": "Free self-replenishing fruit plate",
-        "StickyNote.EmptyForYou": "Left empty just for you! :)",
+        "StickyNote.SpinMe": "Obróć mnie!",
+        "StickyNote.FruitPlate": "Darmowy, samoodnawiający się talerz owoców",
+        "StickyNote.EmptyForYou": "Pozostawione puste specjalnie dla Ciebie! :)",
         "StickyNote.RelevantLinks": "Relevant links!<br><--<br><br><size=500>One could even call it a linking book</size>",
-        "StickyNote.SunTool": "Hold the power of the sun in your hands!",
+        "StickyNote.SunTool": "Trzymaj moc słońca w swoich rękach!",
         "StickyNote.Bow": "Pull back your String and aim true",
         "StickyNote.Crossbow": "Lever Action (or use secondary) to load",
         "StickyNote.Shade": "Adjustable Shade",
@@ -1819,7 +1820,7 @@
 
         "CloudHome.FeaturedPanel.OpenWorld": "Otwórz świat",
         "CloudHome.FeaturedPanel.LinkText": "Otwórz dla siebie <br>ten świat klikając tutaj!",
-        "CloudHome.FeaturedPanel.Featured": "featured",
+        "CloudHome.FeaturedPanel.Featured": "Wyróżnione",
 
         "CloudHome.AvatarPanel.Title": "Wyróżnione światy awatarów",
 
@@ -1893,7 +1894,7 @@
         "UI.TextDisplay.NormalText": "Normalny",
         "UI.TextDisplay.MonospaceText": "Monospace",
 
-        "UI.VideoPlayer.GlobalSettings": "Global<br>Settings",
+        "UI.VideoPlayer.GlobalSettings": "Globale<br>Ustawienia",
         "UI.VideoPlayer.LocalSettings": "Ustawienia<br>Lokalne",
         "UI.VideoPlayer.SpatialAudio": "Przestrzenny<br>Dźwięk",
         "UI.VideoPlayer.AreaBroadcast": "Area<br>Broadcast",
@@ -1915,19 +1916,19 @@
         "UI.ColorPicker.Blue": "Niebieski",
 
         "UI.ColorPicker.Hue": "Hue",
-        "UI.ColorPicker.Saturation": "Saturation",
+        "UI.ColorPicker.Saturation": "Nasycenie",
         "UI.ColorPicker.Value": "Wartość",
 
-        "UI.ColorPicker.Alpha": "Alpha",
-        "UI.ColorPicker.Gain": "Gain",
+        "UI.ColorPicker.Alpha": "Alfa",
+        "UI.ColorPicker.Gain": "Wzmocnienie",
 
         "UI.ProgressBar.ImportingItem": "Importowanie Przedmiotu",
 
         "Tools.Names.MultiTool": "Narzędzie Wielofunkcyjne",
 
         "Tools.Names.CommonTools": "Common Tools",
-        "Tools.Names.ManipulationTools": "Manipulation Tools",
-        "Tools.Names.InformationTools": "Information Tools",
+        "Tools.Names.ManipulationTools": "Narzędzia manipulacji",
+        "Tools.Names.InformationTools": "Narzędzia informacyjne",
 
         "Tools.Names.GeometryLineBrush": "Narzędzie Pędzel geometrii",
         "Tools.Names.Developer": "Narzędzie Deweloperskie",
@@ -1935,9 +1936,9 @@
         "Tools.Names.ProtoFlux": "Narzędzie ProtoFlux",
         "Tools.Names.Material": "Narzędzie materiału",
         "Tools.Names.Glue": "Narzędzie klejenia",
-        "Tools.Names.Light": "Narzędzie Światła",
+        "Tools.Names.Light": "Narzędzie światła",
         "Tools.Names.Shape": "Narzędzie kształtu",
-        "Tools.Names.Microphone": "Microphone Tool",
+        "Tools.Names.Microphone": "Narzędzie Mikrofon",
         "Tools.Names.GrabbableSetter": "Grabbable Setter Tool",
         "Tools.Names.PhysicalColliderSetter": "Physical Collider Setter Tool",
         "Tools.Names.MeshVisibility": "Mesh Visibility Tool",
@@ -1946,9 +1947,9 @@
         "Tools.Names.Mesh": "Narzędzie siatki",
         "Tools.Names.RiggedMeshTransfer": "Rigged Mesh Transfer Tool",
         "Tools.Names.Slicer": "Mesh Slicer Tool",
-        "Tools.Names.ControllerDiagnostic": "Controller Diagnostic Tool",
+        "Tools.Names.ControllerDiagnostic": "Narzędzie diagnostyczne kontrolera",
         "Tools.Names.Measure": "Narzędzie pomiarowe",
-        "Tools.Names.Label": "Label Tool",
+        "Tools.Names.Label": "Narzędzie etykietowania",
 
         "Dummy": "Dummy"
     }
