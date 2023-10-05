@@ -48,7 +48,7 @@
 
         "General.UI.MusicVolumeLocal": "Musiklautstärke (Lokal):",
         "General.UI.VoiceVolumeLocal": "Stimmenlautstärke (Lokal):",
-        "General.UI.SoundVolumeLocal": "Tonlautstärke (Lokal):",
+        "General.UI.SoundVolumeLocal": "Geräuschlautstärke (Lokal):",
 
         "General.UI.PressToBegin": "Drücken, um zu Beginnen",
 
@@ -85,7 +85,7 @@
         "Interaction.ScalingEnabled": "Skalieren<br>aktiviert",
         "Interaction.ScalingDisabled": "Skalieren<br>deaktiviert",
         "Interaction.ResetScale": "Skalierung<br>zurücksetzen",
-        "Interaction.LaserEnabled": "Lase<br>aktiviert",
+        "Interaction.LaserEnabled": "Laser<br>aktiviert",
         "Interaction.LaserDisabled": "Laser<br>deaktiviert",
         "Interaction.Grab.Palm": "Griff:<br>Handfläche",
         "Interaction.Grab.Precision": "Griff:<br>Präzision",
@@ -177,7 +177,7 @@
         "World.Connection.LNL.Relay": "LNL Relais",
         "World.Connection.SteamNetworkingSockets": "Steam Netzwerk Socket",
 
-        "World.Error.AccessDenied": "Zugriff verweigert",
+        "World.Error.AccessDenied": "Beitritt verweigert",
         "World.Error.SecurityViolation": "Sicherheitsverletzung",
         "World.Error.OnlyRegisteredUsers": "Nur registierte Benutzer dürfen beitreten",
         "World.Error.OnlyContacts": "Nur Kontakte des Hosts dürfen beitreten",
@@ -332,7 +332,7 @@
         "World.Filter.MinimumUsers": "Minimale Anzahl Benutzer: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Minimale Anzahl Kontakte: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Nur dedizierte Hosts",
-        "World.Filter.MaxAccessLevel": "Maximale Zugriffsberechtigung:",
+        "World.Filter.MaxAccessLevel": "Maximale Beitrittsberechtigung:",
         "World.Filter.MinimumUptime": "Minimale Laufzeit:",
         "World.Filter.Sorting": "Sortierung:",
 
@@ -487,7 +487,7 @@
         "Account.TOTP.Activate.InvalidToken": "Ungültiges Token!",
         "Account.TOTP.Message.AlreadySetup": "2FA ist auf Ihrem Konto bereits eingerichtet!",
         "Account.TOTP.Message.Error": "Unerwarteter Fehler! Bitte versuchen Sie es später noch einmal.",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>Glückwunsch!</size><br><br>Ihr Konto ist jetzt mit 2FA für zusätzlichen Schutz eingerichtet!<br><br>. Sie können dies optional für die Kontoanmeldung mit dem Befehl /enableLogin2FA aktivieren, aber beachten Sie, dass Sie dazu den Befehl /webLogin verwenden müssen, bevor Sie sich auf account.resonite.com anmelden.",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Glückwunsch!</size><br><br>Ihr Konto ist jetzt mit 2FA für zusätzlichen Schutz eingerichtet!<br><br>. Sie können dies optional für die Kontoanmeldung mit dem Befehl /enableLogin2FA aktivieren.",
         "Account.TOTP.Deactivate.Header": "2FA deaktivieren",
         "Account.TOTP.Deactivate.Description": "2FA ist derzeit <b><color=green>auf Ihrem Konto eingerichtet und aktiv</color></b>. Wenn Sie die 2FA deaktivieren müssen (z.B. wegen Verlust von Ihrem Telefon oder weil die Codes kompromittiert wurden), können Sie dies hier tun.<br><br>Nach der Deaktivierung können Sie 2FA erneut einrichten, wodurch ein neuer Geheimcode und ein neuer Satz von Wiederherstellungscodes generiert werden.<br><br>Wenn Sie Ihr Telefon verlieren und 2FA erneut einrichten müssen, raten wir Ihnen <b>dringlich</b>, dies sofort zu tun, da jeder Wiederherstellungscode nur einmal verwendet werden kann und Sie nach Ablauf der Zeit vollständig aus Ihrem Konto ausgesperrt werden.",
         "Account.TOTP.Deactivate.Deactivate": "Deaktivieren",
@@ -526,9 +526,9 @@
 
         "Session.JoinVerifier.EnableHeader" : "Benutzerdefinierte Beitrittskontrolle aktivieren?",
         "Session.JoinVerifier.EnableText" : "<color=red>WARNUNG:</color> Sie sind dabei, eine benutzerdefinierte Beitrittskontrolle die Teil der aktuellen Welt ist zu aktivieren. Bevor Sie dies tun, vergewissern Sie sich, dass Sie dem Ersteller der Welt vertrauen, da benutzerdefinierte Beitrittskontrollen die Standard-Sitzungsbeitrittsregeln umgehen und Benutzern den Beitritt nach eigenen Regeln gewähren oder verweigern können.",
-        "Session.JoinVerifier.Label" : "Verwende benutzerdefinierte Zugriffskontrolle: {name}",
+        "Session.JoinVerifier.Label" : "Verwende benutzerdefinierte Beitrittskontrolle: {name}",
         "Session.JoinVerifier.ComponentWarning" : "<color=red>WARNUNG:</color> Zum aktuellen Zeitpunkt gibt es keinen Mechanismus der es verhindert, die benutzerdefinierte Beitrittskontrolle nach dem aktivieren zu verändern. Wenn Sie sich Sorgen um Manipulation des ProtoFlux-Setups der benutzerdefinierten Beitrittskontrolle machen, BENUTZEN SIE DIESES FEATURE NICHT, und AKTIVIEREN SIE ES NICHT in Ihren Welten.",
-        "Session.JoinVerifier.SetCustomVerifier" : "Festlegen als benutzerdefinierte Zugriffskontrolle",
+        "Session.JoinVerifier.SetCustomVerifier" : "Festlegen als benutzerdefinierte Beitrittskontrolle",
 
         "Permissions.NotAllowedToSpawn": "Sie sind nicht berechtigt, hier Gegenstände zu spawnen.",
         "Permissions.NotAllowedToSave": "Sie sind nicht berechtigt, Gegenstände aus dieser Welt zu speichern.",
@@ -549,9 +549,9 @@
         "Contacts.Invite": "Hierhin einladen",
         "Contacts.RevokeInvite": "Einladung zurückziehen",
         "Contacts.BanFromAllSessions": "Aus ALLEN meinen gehosteten Sitzungen verbannen",
-        "Contacts.UnbanFromAllSessions": "Aus ALLEN meinen Sitzungen entbannen",
+        "Contacts.UnbanFromAllSessions": "In ALLEN meinen Sitzungen entbannen",
         "Contacts.BanFromCurrentWorld": "Aus aktueller Welt verbannen",
-        "Contacts.UnbanFromCurrentWorld": "Aus aktueller Welt entbannen",
+        "Contacts.UnbanFromCurrentWorld": "In aktueller Welt entbannen",
         "Contacts.RecordingVoiceMessage": "Aufnahme läuft...",
         "Contacts.Unblocked": "Nicht blockiert",
         "Contacts.AvatarBlock": "Avatar blockieren",
@@ -750,7 +750,7 @@
         "CreateNew.3DModel.Grid": "Raster",
         "CreateNew.3DModel.Torus": "Torus",
 
-        "CreateNew.Collider": "Kollisionsobjekt",
+        "CreateNew.Collider": "Collider",
         "CreateNew.Collider.Box": "Box",
         "CreateNew.Collider.Sphere": "Kugel",
         "CreateNew.Collider.Capsule": "Kapsel",
@@ -854,7 +854,7 @@
         "Importer.Model.Advanced.AlbedoColor": "Albedo-Texturen importieren",
         "Importer.Model.Advanced.ImportEmissive": "Emissions-Texturen importieren",
 
-        "Importer.Model.Advanced.Colliders": "Kollisionsobjekte generieren",
+        "Importer.Model.Advanced.Colliders": "Collider generieren",
         "Importer.Model.Advanced.Animations": "Animationen importieren",
         "Importer.Model.Advanced.SetupSnappable": "Als einrastbare Objekte importieren",
         "Importer.Model.Advanced.SetupTimelapse": "Als Zeitraffer importieren",
@@ -912,7 +912,7 @@
 
         "FullBody.Title": "Ganzkörper- / Avatar-Kalibrierung",
         "FullBody.SetHeight": "1) Geben Sie Ihre Größe ein",
-        "FullBody.HeightInstructions": "Stellen Sie sicher, dass dies Ihre richtige Größe ist, da sonst die Kalibrierung nicht korrekt funktionieren wird. Das Mannequin sollte zum Headset und zu den Controllern passen.",
+        "FullBody.HeightInstructions": "Stellen Sie sicher, dass dies Ihre tatsächliche Größe ist, da sonst die Kalibrierung nicht korrekt funktionieren wird. Das Mannequin sollte zum Headset und zu den Controllern passen.",
         "FullBody.HeightWarning": "Dies scheint inkorrekt zu sein. Bitte stellen Sie sicher, dass dies Ihre korrekte Größe ist.",
         "FullBody.ConfirmMapping": "2) Bestätigen Sie die Tracker-Zuordnung",
         "FullBody.MappingInstructions": "Stehen Sie aufrecht und stellen Sie sicher, dass die Tracker erkannt werden und tracken.",
@@ -928,10 +928,10 @@
         "FullBody.FineTuneCalibrationInstructions": "Bewegen Sie die blauen Referenzen zur Überprüfung und Feinjustierung der Kalibrierung.",
 
         "FullBody.CalibrateTrackersHeader": "Tracker kalibrieren",
-        "FullBody.CalibrateTrackersInstructions": "Greifen und platzieren Sie die blauen Körperteile relativ zu den Trackern um Ihren Versatz anzupassen. Sie sollten der Position der Tracker an Ihrem Körper entsprechen.\nSie können die Kalibrierung später jederzeit anpassen, indem Sie den Kalibrator erneut starten.",
+        "FullBody.CalibrateTrackersInstructions": "Greifen und platzieren Sie die blauen Körperteile relativ zu den Trackern, um Ihren Versatz anzupassen. Sie sollten der Position der Tracker an Ihrem Körper entsprechen.\nSie können die Kalibrierung später jederzeit anpassen, indem Sie den Kalibrator erneut starten.",
         "FullBody.UseSymmetry": "Symmetrie verwenden",
         "FullBody.ShowBodyOverlay": "Körperüberlagerung anzeigen",
-        "FullBody.HeightCompensationInstructions": "Falls der Mannequin zu groß ist (erkennbar durch gekrümmte Haltung) oder zu klein ist, nutzen Sie die Höhenkompensation zur genauen Ausrichtung.",
+        "FullBody.HeightCompensationInstructions": "Falls der Mannequin zu groß ist (erkennbar durch gekrümmte Haltung) oder zu klein ist, nutzen Sie die Größenkompensation zur genauen Ausrichtung.",
         "FullBody.RecalibratePrompt": "Nicht funktionierende oder fehlende Tracker?",
         "FullBody.Recalibrate": "Wiederholen Sie die T-Posen-Kalibrierung",
         "FullBody.CalibrateAvatarPrompt": "Muss die Avatar Ausrichtung angepasst werden?",
@@ -944,9 +944,9 @@
         "FullBody.ShowReferenceOverlay": "Referenz-Overlay anzeigen",
         "FullBody.ResetAvatarPrompt": "Avatar is verdreht oder trackt nicht?",
         "FullBody.ResetAvatar": "Zuordnung zurücksetzen",
-        "FullBody.AvatarHeightCompensationInstructions": "Falls der Avatar für Sie zu groß (erkennbar an gekrümmter Haltung) oder zu klein ist, können Sie ihn mit der Größen-Kompensation an Ihre Größe anpassen.",
-        "FullBody.AvatarHeightCompensation": "Avatar-Größen-Kompensation: {n, number, percent}",
-        "FullBody.ResetAvatarHeightCompensation": "Höhen-Kompensation zurücksetzen",
+        "FullBody.AvatarHeightCompensationInstructions": "Falls der Avatar für Sie zu groß (erkennbar an gekrümmter Haltung) oder zu klein ist, können Sie ihn mit der Größenkompensation an Ihre Größe anpassen.",
+        "FullBody.AvatarHeightCompensation": "Avatar-Größenkompensation: {n, number, percent}",
+        "FullBody.ResetAvatarHeightCompensation": "Größenkompensation zurücksetzen",
         "FullBody.AvatarSaveWarning": "Vergessen Sie nicht Ihren Avatar nach der Kalibrierung zu speichern!",
         "FullBody.FinishAvatarCalibration": "Avatar-Kalibrierung abschließen",
         "FullBody.CalibrationFinishedInstructions": "Wenn Sie mit der Kalibrierung zufrieden sind, können Sie Ihren Avatar jetzt speichern und den Wizard beenden.",
@@ -986,7 +986,7 @@
         "CameraControl.Settings.MovementWobble": "Wobble-Bewegung",
         "CameraControl.Settings.AimInFrontOfHead": "Vor das Gesicht zielen",
         "CameraControl.Settings.HideCamera": "Kamera verstecken",
-        "CameraControl.Settings.ForceEyesOnCamera": "Fokussiere Augen auf Kamera",
+        "CameraControl.Settings.ForceEyesOnCamera": "Richte Augen auf Kamera",
         "CameraControl.Settings.HideBadges": "Namen ausblenden",
         "CameraControl.Settings.HideLasers": "Laser ausblenden",
         "CameraControl.Settings.ShowFrustum": "Zeige Frustum",
@@ -1153,7 +1153,7 @@
         "Settings.LeapMotion.VerticalOffset": "Vertikaler Versatz",
         "Settings.LeapMotion.ForwardOffset": "Nach vorne Versatz",
         "Settings.LeapMotion.SnapDistance": "Controller Hand-Einrast-Distanz",
-        "Settings.LeapMotion.UseFingersWhenSnapped": "Benutze Finger wenn Eingerastet",
+        "Settings.LeapMotion.UseFingersWhenSnapped": "Benutze Finger wenn eingerastet",
 
         "Settings.ViveHandTracking.Name": "Vive Hand-Tracking",
         "Settings.ViveHandTracking.Enabled": "Vive Hand-Tracking aktivieren",
@@ -1191,7 +1191,7 @@
 
         "Inspector.Slot.Axis.X": "X: <b>+</b>Rechts <b>-</b>Links",
         "Inspector.Slot.Axis.Y": "Y: <b>+</b>Hoch <b>-</b>Runter",
-        "Inspector.Slot.Axis.Z": "Z: <b>+</b>Vorne <b>-</b>Hinten",
+        "Inspector.Slot.Axis.Z": "Z: <b>+</b>Vorwärts <b>-</b>Rückwärts",
 
         "Inspector.Slot.Reset.Label": "Zurücksetzen:",
         "Inspector.Slot.Reset.Position": "Position",
@@ -1244,7 +1244,7 @@
         "Inspector.Mesh.GetBoneList": "Sammle Knochen-Liste",
         "Inspector.Mesh.GetBoneData": "Sammle Knochen-Daten",
 
-        "Inspector.Mesh.TrimVertexBoneWeightsTo": "Vertex-Bone-Gewichte kürzen auf:",
+        "Inspector.Mesh.TrimVertexBoneWeightsTo": "Vertex-Knochen-Gewichte kürzen auf:",
         "Inspector.Mesh.BoneTrimCount": "{n, plural, one {# Knochen} other {# Knochen}}",
         "Inspector.Mesh.UV_Multiplicator": "Multiplikator:",
         "Inspector.Mesh.ScaleUVs": "Skaliere UVs",
@@ -1290,9 +1290,9 @@
         "Inspector.SkinnedMesh.StripBonesResult": "Erledigt! entfernte: {n,plural, one {# Knochen} other {# Knochen}}",
         "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes": "Fixiere freie Blendshapes",
         "Inspector.SkinnedMesh.BakeBlendShapeResult": "Anzahl Blendshapes die fixiert wurden: {n}",
-        "Inspector.SkinnedMesh.VisualizeBoneBounds": "Zeige Knochen Begrenzungsboxen an",
+        "Inspector.SkinnedMesh.VisualizeBoneBounds": "Zeige Knochen-Begrenzungsboxen an",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Zeige ungefähre Begrenzungskugeln von zusammengeführten Knochen an",
-        "Inspector.SkinnedMesh.ClearBoundsVisuals": "Entferne Darstellung von Knochen Begrenzungsboxen",
+        "Inspector.SkinnedMesh.ClearBoundsVisuals": "Entferne Knochen-Visualisierungen",
         "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Explizite Grenzen von aktueller Pose berechnen",
         "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Explizite Grenzen von aktueller Pose erweitern",
         "Inspector.SkinnedMesh.BakeToStaticMesh": "Zu statischem Mesh konvertieren",
@@ -1399,15 +1399,15 @@
         "Inspector.AudioStream.BufferStats": "Durchschnitt codec: {avgCodec}/s, Durchschnitt lesend: {avgRead}/s, Durchschnitt schreibend: {avgWritten}/s",
 
         "Inspector.DynamicBoneChain.SetupFromChildren": "Erzeuge auf Basis von untergeordneten Objekten",
-        "Inspector.DynamicBoneChain.SetupFromChildrenAll": "Erzeuge auf Basis von untergeordneten Objekten (erzwinge auf alle)",
+        "Inspector.DynamicBoneChain.SetupFromChildrenAll": "Erzeuge auf Basis von untergeordneten Objekten (für alle erzwingen)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "Erzeuge auf Basis von untergeordneten Objekten (nur Rig)",
         "Inspector.DynamicBoneChain.ReplaceSmoothTransforms": "Ersetze Glatte Transformationen in untergeordneten Objekten",
         "Inspector.DynamicBoneChain.ClearSmoothTransforms": "Lösche Glatte Transformationen in untergeordneten Objekten",
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Kollisionen & Greifen -------",
-        "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Erzeuge fixierte Kollisionsobjekte (verwende Objektursprung)",
+        "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Erzeuge fixierte Collider (verwende Objektursprung)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Immer den letzten Knochen auswählen",
 
-        "Inspector.Rig.CleanupBoneColliders": "Bereinige Knochen kollisionen",
+        "Inspector.Rig.CleanupBoneColliders": "Bereinige Knochen-Collider",
         "Inspector.Rig.GenerateDebugVisuals": "Generiere Debug Darstellung",
         "Inspector.Rig.ClearDebugVisuals": "Entferne Debug Darstellung",
 
@@ -1883,7 +1883,7 @@
         "Hints.Sundial.HardEquipExtra": "Sie sehen Ihren Laser nicht? Halten Sie den Trigger-Knopf sanft um ihn einzublenden!",
 
         "Hints.Sundial.TheSun": "Zielen Sie auf den Himmel und klicken Sie, um die Sonne dorthin zu bewegen!",
-        "Hints.Sundial.TheSunExtra": "Versuchen Sie unter den Horizont zu zielen, um es Nacht zu machen!",
+        "Hints.Sundial.TheSunExtra": "Versuchen Sie unter den Horizont zu zielen, um es Nacht werden zu lassen!",
 
         "Hints.Sundial.Dequip": "Lösen Sie das ausgerüstete Tool von Ihrer Hand, indem sie Ablegen in Ihrem Kontext-Menü auswählen.",
         "Hints.Sundial.DequipExtra": "Die Optionen in Ihrem Kontext-Menü haben sich verändert, weil Sie ein Tool halten.",
@@ -1898,8 +1898,8 @@
 
         "UI.VideoPlayer.GlobalSettings": "Globale<br>Einstellungen",
         "UI.VideoPlayer.LocalSettings": "Lokale<br>Einstellungen",
-        "UI.VideoPlayer.SpatialAudio": "Räumliches<br>Audio",
-        "UI.VideoPlayer.AreaBroadcast": "Umgebungs<br>Broadcast",
+        "UI.VideoPlayer.SpatialAudio": "<nobr>Räumliches</nobr><br>Audio",
+        "UI.VideoPlayer.AreaBroadcast": "<nobr>Umgebungs</nobr><br>Broadcast",
         "UI.VideoPlayer.BroascastAudio": "Broadcast<br>Audio",
         "UI.VideoPlayer.EnterURL": "<i><alpha=#77>URL hier eingeben</closeall>",
         "UI.VideoPlayer.AudioZoneTheater": "Im Theater<br>hörbar",
