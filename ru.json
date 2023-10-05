@@ -1210,13 +1210,13 @@
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Локального пространства пользователя",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Установка {name} потомком локального пространства пользователя",
 
-        "Inspector.Mesh.StatsHeader": "Статистика Меша",
-        "Inspector.Mesh.VertexCount": "Кол-во Вершин: {n}",
-        "Inspector.Mesh.TriangleCount": "Кол-во Треугольников: {n}",
-        "Inspector.Mesh.PointCount": "Кол-во Точек: {n}",
-        "Inspector.Mesh.SubmeshCount": "Кол-во Под-мешей: {n}",
-        "Inspector.Mesh.BoneCount": "Кол-во Костей: {n}",
-        "Inspector.Mesh.BlendshapeCount": "Кол-во Шейп-Ключей: {n}",
+        "Inspector.Mesh.StatsHeader": "Статистика меша",
+        "Inspector.Mesh.VertexCount": "Кол-во вершин: {n}",
+        "Inspector.Mesh.TriangleCount": "Кол-во треугольников: {n}",
+        "Inspector.Mesh.PointCount": "Кол-во точек: {n}",
+        "Inspector.Mesh.SubmeshCount": "Кол-во под-мешей: {n}",
+        "Inspector.Mesh.BoneCount": "Кол-во костей: {n}",
+        "Inspector.Mesh.BlendshapeCount": "Кол-во blendshape'ов: {n}",
         "Inspector.Mesh.ChannelStats": "Нормали: {normals}, Тангенты: {tangents}, Цвета: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh": "Запечь меш",
@@ -1226,9 +1226,9 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "Перерасчитать нормали (сглаж. шейдинг)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "Перерасчитать тангенты (Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "Перерасчитать тангенты (simple)",
-        "Inspector.Mesh.RecalculateBlendshapeNormals": "Перерасчитать нормали шейп-ключей",
-        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Перерасчитать нормали шейп-ключей (сглаж. шейдинг)",
-        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Перерасчитать тангенты шейп-ключей (Mikktspace)",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Перерасчитать нормали blendshape'ов",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Перерасчитать нормали blendshape'ов (сглаж. шейдинг)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Перерасчитать тангенты blendshape'ов (Mikktspace)",
         "Inspector.Mesh.FlipNormals": "Инвертировать нормали",
         "Inspector.Mesh.ReverseWinding": "Реверс намотки (наизнанку)",
         "Inspector.Mesh.MakeDualSided": "Сделать двухсторонним",
@@ -1236,13 +1236,13 @@
         "Inspector.Mesh.ConvertToConvexHull": "Конвертировать в Convex Hull",
         "Inspector.Mesh.ConvertToPointCloud": "Конвертировать в Point Cloud",
         "Inspector.Mesh.MergeDoubles": "Соединить дубли",
-        "Inspector.Mesh.StripEmptyBlendshapes": "Снять пустые шейп-ключи",
-        "Inspector.Mesh.StripBlendshapeNormals": "Снять нормали шейп-ключей",
-        "Inspector.Mesh.StripBlendshapeTangents": "Снять тангенты шейп-ключей",
-        "Inspector.Mesh.MergeBlendshapes": "Объединить шейп-ключи",
+        "Inspector.Mesh.StripEmptyBlendshapes": "Убрать пустые blendshape'ы",
+        "Inspector.Mesh.StripBlendshapeNormals": "Убрать нормали blendshape'ов",
+        "Inspector.Mesh.StripBlendshapeTangents": "Убрать тангенты blendshape'ов",
+        "Inspector.Mesh.MergeBlendshapes": "Объединить blendshape'ы",
 
-        "Inspector.Mesh.GetBoneList": "Получить Список Костей",
-        "Inspector.Mesh.GetBoneData": "Получить Данные Костей",
+        "Inspector.Mesh.GetBoneList": "Получить список костей",
+        "Inspector.Mesh.GetBoneData": "Получить данные костей",
 
         "Inspector.Mesh.TrimVertexBoneWeightsTo": "Урезать Vertex Bone Weights до:",
         "Inspector.Mesh.BoneTrimCount": "{n,plural, one {# Кость} few {# Кости} many {# Костей}}",
@@ -1286,7 +1286,7 @@
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Отделить части меша, не затронутые blendshape'ами",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Убрать пустые blendshape'ы",
         "Inspector.SkinnedMesh.StripBlendshapesResult": "Готово! Убрали: {n,plural, one {# blendshape} few {# blendshape'а} many {# blendshape'ов}}",
-        "Inspector.SkinnedMesh.StripEmptyBones": "Убрать Пустые Кости",
+        "Inspector.SkinnedMesh.StripEmptyBones": "Убрать пустые кости",
         "Inspector.SkinnedMesh.StripBonesResult": "Готово! Убрано: {n,plural, one {# кость} few {# кости} many {# костей}}",
         "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes": "Запечь неподвижные blendshape'ы",
         "Inspector.SkinnedMesh.BakeBlendShapeResult": "Запечено blendshape'ов: {n}",
@@ -1330,12 +1330,12 @@
         "Inspector.Texture.RemoveAlpha": "Удалить Альфа",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Конверт. в градации серого (усреднить)",
         "Inspector.Texture.ConvertToGrayscaleLuminance": "Конверт. в градации серого (освещенность)",
-        "Inspector.Texture.SwapRG": "Поменять R и G",
-        "Inspector.Texture.SwapRB": "Поменять R и B",
-        "Inspector.Texture.SwapRA": "Поменять R и A",
-        "Inspector.Texture.SwapGB": "Поменять G и B",
-        "Inspector.Texture.SwapGA": "Поменять G и A",
-        "Inspector.Texture.SwapBA": "Поменять B и A",
+        "Inspector.Texture.SwapRG": "Поменять R <--> G",
+        "Inspector.Texture.SwapRB": "Поменять R <--> B",
+        "Inspector.Texture.SwapRA": "Поменять R <--> A",
+        "Inspector.Texture.SwapGB": "Поменять G <--> B",
+        "Inspector.Texture.SwapGA": "Поменять G <--> A",
+        "Inspector.Texture.SwapBA": "Поменять B <--> A",
         "Inspector.Texture.AddWhiteBackground": "Добавить белый фон",
         "Inspector.Texture.AddBlackBackground": "Добавить чёрный фон",
         "Inspector.Texture.Hue": "Оттенок (H):",
@@ -1362,7 +1362,7 @@
         "Inspector.Texture.TileMirror": "Повторяемая (зеркало)",
         "Inspector.Texture.NormalizeMaxOnly" : "Нормализовать (только max)",
         "Inspector.Texture.NormalizeMinMax" : "Нормализовать (min и max)",
-        "Inspector.Texture.NormalizeIndependent" : "Нормализовать только RGB (min и max)",
+        "Inspector.Texture.NormalizeIndependent" : "Нормализовать отдельно RGB (min и max)",
         "Inspector.Texture.BleedColorToAlpha" : "Слияние цвета с Альфа-каналом",
 
         "Inspector.Texture.InvalidFloats": "Диагностика: Не действительные float числа",
@@ -1371,8 +1371,8 @@
         "Inspector.Material.VariantInfo": "Вариант: {variantID} (Raw: {rawVariantID})",
         "Inspector.Material.WaitingForApply": "Ожидание применения: {waiting}",
 
-        "Inspector.Audio.BakeAudio": "Запечь аудио",
-        "Inspector.Audio.FormatInfo": "Частота дискретизации: {rate} Hz, Каналы: {channels} ({channel_count})",
+        "Inspector.Audio.BakeAudio": "Запечь аудио клип",
+        "Inspector.Audio.FormatInfo": "Частота дискретизации: {rate} Гц, Каналы: {channels} ({channel_count})",
         "Inspector.Audio.Duration": "Длительность: {duration}, Количество сэмплов: {samples}",
         "Inspector.Audio.EncodingInfo": "Кодек: {info}, Полностью раскодировано: {decoded}",
 
@@ -1403,13 +1403,13 @@
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "Настроить по потомкам (только риг)",
         "Inspector.DynamicBoneChain.ReplaceSmoothTransforms": "Заменить плавные трансформации в потомках",
         "Inspector.DynamicBoneChain.ClearSmoothTransforms": "Очистить плавные трансформации в потомках",
-        "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Коллайдеры & Захватывание -------",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Коллайдеры и хватание -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Добавить фиксированные коллайдеры от иерархии (от корневого слота)",
-        "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Всегда захватывать последнюю кость",
+        "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Всегда хватать последнюю кость",
 
         "Inspector.Rig.CleanupBoneColliders": "Очистить коллайдеры костей",
         "Inspector.Rig.GenerateDebugVisuals": "Генерировать отладочную визуализацию",
-        "Inspector.Rig.ClearDebugVisuals": "Очистить отладочную визуализацию",
+        "Inspector.Rig.ClearDebugVisuals": "Убрать отладочную визуализацию",
 
         "Inspector.AvatarExpression.AutoAssign": "Авто присвоение blendshape'ов (используя эвристику)",
 
@@ -1435,20 +1435,20 @@
 
         "Inspector.SimpleAwayIndicator.TestAway" : "Выставить как 'отошел' (debug)",
         "Inspector.SimpleAwayIndicator.TestRestore" : "Восстановить (debug)",
-        
+
         "Inspector.Fields.Drive" : "Драйвить",
         "Inspector.Fields.DriveWriteBack" : "Драйвить <size=50%>(с обратной записью)</size>",
 
         "Inspector.Actions.CopyComponent" : "Скопировать компонент",
         "Inspector.Actions.MoveComponent" : "Переместить компонент",
 
-        "UserInspector.Title" : "Пользовательский инспектор",
+        "UserInspector.Title" : "Инспектор пользователей",
 
         "WorkerInspector.Title" : "Инспектор {name}",
 
         "CreateNew.Title" : "Новый",
 
-        "Wizard.General.ProcessRoot": "Начиная с корня:",
+        "Wizard.General.ProcessRoot": "Корень обработки:",
         "Wizard.General.Result": "Результат:",
         "Wizard.General.ErrorNoRoot": "Корень не выбран",
         "Wizard.General.RemovedResult": "Убрано {n}",
@@ -1458,7 +1458,7 @@
         "Wizard.AssetOptimization.CleanupEmptySlots": "Очистить пустые слоты",
         "Wizard.AssetOptimization.CleanupDisabledMeshRenderers": "Очистить отключенные Mesh Renderer'ы",
         "Wizard.AssetOptimization.DeduplicateMaterials": "Дедуплицировать материалы",
-        "Wizard.AssetOptimization.CleanupFileItems": "Очистить файлы",
+        "Wizard.AssetOptimization.CleanupFileItems": "Очистить предметы-файлы",
         "Wizard.AssetOptimization.MaxTextureResolution": "Установить максимальное разрешение текстур",
         "Wizard.AssetOptimization.RecompressTextures": "Пересжать текстуры",
         "Wizard.AssetOptimization.RecalculateAllNormals": "Пересчитать все нормали",
@@ -1521,7 +1521,7 @@
         "Desktop.LegacyInputMode.Off": "Legacy ввод: Выкл",
         "Desktop.Brightness": "Яркость: {n,number,percent}",
         "Desktop.Opacity": "Непрозрачность: {n,number,percent}",
-        
+
         "VolumePlaneSlicer.Highlight": "Подсветка",
         "VolumePlaneSlicer.Slicer": "Срез",
 
@@ -1535,11 +1535,11 @@
         "Tutorial.Welcome.AccountLogin": "У меня уже есть аккаунт",
         "Tutorial.Welcome.AccountSkip": "Продолжить без аккаунта",
         "Tutorial.Welcome.AccountSkipHeader": "Пропустить создание аккаунта?",
-        "Tutorial.Welcome.AccountSkipDescription": "Некоторый функционал, такой как сохранение предметов в инвентарь, установка постоянного аватара или добавление контактов, будет недоступен.",
+        "Tutorial.Welcome.AccountSkipDescription": "Некоторая функциональность, такая как сохранение предметов в инвентарь, установка постоянного аватара или добавление контактов, будет недоступна.",
         "Tutorial.Welcome.AccountSkipConfirm": "Точно пропустить",
 
         "Tutorial.Welcome.SettingsHeader": "Базовые настройки",
-        "Tutorial.Welcome.SettingsDescription": "Вы можете поменять базовые настройки передвижения и другие предпочтения. Все эти настройки могут быть изменены позже.",
+        "Tutorial.Welcome.SettingsDescription": "Вы можете выбрать базовые настройки передвижения и другие предпочтения. Все эти настройки можно изменить позже.",
         "Tutorial.Welcome.SettingsTurning": "Стиль поворота",
         "Tutorial.Welcome.SettingsSnapTurn": "Шагами",
         "Tutorial.Welcome.SettingsSnapTurnDescription": "Сразу поворачивает на фиксированный угол, идеально для новых пользователей",
@@ -1559,13 +1559,13 @@
 
         "Tutorial.CommunityYouTube.Title": "YouTube каналы сообщества",
 
-        "Tutorial.UserResources.UserResourcesTitle": "Ресурсы {appName}",
+        "Tutorial.UserResources.UserResourcesTitle": "Ресурсы пользователей",
         "Tutorial.UserResources.SupportTitle": "Как поддержать {appName}",
         "Tutorial.UserResources.MerchandiseTitle": "Мерч {appName}",
 
         "Tutorial.Intro.BadgesAppTeam": "Член команды {appName}",
         "Tutorial.Intro.BadgesModerator": "Модератор",
-        "Tutorial.Intro.BadgesMentor": "Учитель",
+        "Tutorial.Intro.BadgesMentor": "Ментор",
         "Tutorial.Intro.BadgesDisabilityHearing": "Нарушение слуха",
         "Tutorial.Intro.BadgesDisabilityVision": "Нарушение зрения",
         "Tutorial.Intro.BadgesDisabilitySpeech": "Нарушение речи",
@@ -1601,11 +1601,11 @@
 
         "Migration.ReservedUsername.Title":"<b>Зарезервированное имя пользователя</b>",
         "Migration.ReservedUsername.Description": "Это имя пользователя зарезервировано для первоначального владельца. Если это ваша учетная запись, предоставьте свои учетные данные для {platform}, чтобы разблокировать ее. Мы не храним эти учетные данные, они используются только для подтверждения принадлежности вашей учетной записи при регистрации.",
-        "Migration.SourcePassword": "{platform} Пароль:",
-        "Migration.SourceUsername": "{platform} Имя пользователя:",
+        "Migration.SourcePassword": "Пароль {platform}:",
+        "Migration.SourceUsername": "Имя пользователя {platform}:",
 
         "Migration.Dialog.Title": "Миграция аккаунта",
-        "Migration.Dialog.Source" : "Вы можете перенести данные из любой совместимой инфраструктуры. Сначала выберите из списка ниже, откуда вы хотите перенести данные. Вы можете добавить дополнительную инфраструктуру, поместив файлы конфигурации в папку \"Migrations\" при установке.",
+        "Migration.Dialog.Source" : "Вы можете перенести данные из любой совместимой инфраструктуры. Сначала выберите из списка ниже, откуда вы хотите перенести данные. Вы можете добавить дополнительную инфраструктуру, поместив файлы конфигурации в папку \"Migrations\" внутри установочной папки.",
         "Migration.Dialog.AccountDescription": "Чтобы перенести вашу учетную запись, нам понадобится пароль от вашей учетной записи в {platform}. Это позволит нам войти в систему и получить доступ к данным.",
 
         "Migration.ResetID.Title": "Сбросить мой UserID",
@@ -1625,14 +1625,14 @@
 
         "Migration.DataSelection.Contacts": "Контакты",
         "Migration.DataSelection.Message History": "История сообщений",
-        "Migration.DataSelection.InventoryWorld": "Инвентари и Миры",
+        "Migration.DataSelection.InventoryWorld": "Инвентарь и миры",
         "Migration.DataSelection.CloudVariable.Definitions": "Определения облачных переменных",
         "Migration.DataSelection.CloudVariable.Values": "Значения облачных переменных",
 
-        "Migration.DataSelection.AlwaysOverwrite": "Всегда переопределять",
+        "Migration.DataSelection.AlwaysOverwrite": "Всегда перезаписывать",
 
-        "Migration.Start": "Начать Миграцию",
-        "Migration.Groups.Title": "Мигрировать Группы",
+        "Migration.Start": "Начать миграцию",
+        "Migration.Groups.Title": "Мигрировать группы",
         "Migration.Groups.Introduction": "Должны ли мы перенести ваши группы?",
 
         "Migration.Groups.Description": "Все группы, администратором которых вы являетесь, будут перенесены по умолчанию. Если вы хотите перенести только избранные группы, нажмите кнопку ниже, чтобы загрузить их, а затем отметьте группы, которые вы хотите перенести.",
@@ -1641,23 +1641,23 @@
         "Migration.Groups.RefreshGroups": "Обновить группы",
 
         "Migration.Groups.Fetching": "Получение групп...",
-        "Migration.Groups.Fetching.LoginFailed": "Ошибка входа в: {error}",
+        "Migration.Groups.Fetching.LoginFailed": "Ошибка входа: {error}",
         "Migration.Groups.Fetching.Error": "Ошибка при получении групп: {error}",
         "Migration.Groups.NoGroups": "Не найдено групп в {platform} для переноса.",
         "Migration.Groups.NotGroupAdmin": "Вы не являетесь администратором ни одной группы в {platform}. Попросите администраторов вашей группы перенести её!",
 
-        "Migration.Summary": "Хорошо, у нас есть все, что нам нужно. Нажмите Начать Миграцию ниже, и мы начнем миграцию.\n\nМиграция может занять некоторое время, нам придется скопировать все. Если вы решили перенести избранное, мы сделаем это в первую очередь, чтобы вам было удобно.\n\nВам не нужно держать {appName} все время запущенным во время миграции, мы будем отправлять вам обновления через бота {appName} чтобы вы знали, как идут дела.",
+        "Migration.Summary": "Хорошо, у нас есть все, что нам нужно. Нажмите Начать миграцию ниже, и мы начнем миграцию.\n\nМиграция может занять некоторое время, нам нужно будет скопировать всё. Если вы решили перенести избранное, мы сделаем это в первую очередь, чтобы вам было удобно.\n\nВам не нужно держать {appName} все время запущенным во время миграции, мы будем отправлять вам обновления через бота {appName} чтобы вы знали, как идут дела.",
 
         "Migration.List.EmptyTitle": "Хотите начать новую миграцию?",
         "Migration.List.EmptySubtitle": "Нажмите \"Новая задача миграции\" в левом верхнем углу.",
 
-        "Migration.List.ButtonLabel": "{name}\n<size=50%>Создано в:{time}\nСтатус:{state}",
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Создана в:{time}\nСтатус:{state}",
         "Migration.Report.Title": "Отчет о задаче миграции:",
         "Migration.Report.Description": "<color={hex}>Описание:</color> {value}",
         "Migration.Report.Status": "<color={hex}>Статус:</color> {value}",
-        "Migration.Report.CreatedOn": "<color={hex}>Создано в:</color> {value}",
-        "Migration.Report.StartedOn": "<color={hex}>Начато в:</color> {value}",
-        "Migration.Report.CompletedOn": "<color={hex}>Завершено в:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>Создана в:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>Начата в:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>Завершена в:</color> {value}",
 
         "Migration.Report.CurrentlyMigrating": "В настоящее время переносятся данные <color={hex}>{value}</color>.",
         "Migration.Report.CurrentItem": "Текущий предмет: <color={hex}>{value}</color>",
@@ -1676,7 +1676,7 @@
         "Migration.Error": "<color=red>Ошибка:</color> {error}",
         "Migration.NothingSelected": "Ничего не выбрано, не можем запустить.",
 
-        "Migration.ColorManagement": "Этот мир был создан в гамма-пространстве и автоматически преобразован в линейное-пространство.<br><br>Он может отличаться от оригинала, но в целом должен быть пригоден для использования.<br><br>сли вы являетесь автором и обнаружите какие-либо проблемы с преобразованием мира <color=red>НЕ СОХРАНЯТЕ ЕГО</color>. Сохраняйте только копии.<br><br>Пока существует оригинал, мы можем настроить процесс преобразования. В противном случае вы будете нести ответственность за то, чтобы исправить это самостоятельно.",
+        "Migration.ColorManagement": "Этот мир был создан в гамма-пространстве и автоматически преобразован в линейное пространство.<br><br>Он может отличаться от оригинала, но в целом должен быть пригоден для использования.<br><br>сли вы являетесь автором и обнаружите какие-либо проблемы с преобразованием мира <color=red>НЕ СОХРАНЯТЕ ЕГО</color>. Сохраняйте только копии.<br><br>Пока существует оригинал, мы можем настроить процесс преобразования. В противном случае вы будете нести ответственность за то, чтобы исправить это самостоятельно.",
 
         "Temporary.MMC.Voting UI": "Интерфейс голосования MMC",
         "Temporary.MMC.Vote": "Голосовать",
@@ -1699,11 +1699,11 @@
         "Temporary.MMC.VotedAlready": "Вы уже голосовали за {voteTarget}.",
         "Temporary.MMC.VoteInvalid": "Голос некорректен, попробуйте снова.",
 
-        "CloudHome.WelcomeHome": "Добро пожаловать Домой",
-        "CloudHome.TargetRangeOptions": "Настройки Тира",
+        "CloudHome.WelcomeHome": "Добро пожаловать домой",
+        "CloudHome.TargetRangeOptions": "Настройки тира",
 
-        "Tutorial.Saving.Title": "Добро пожаловать Домой!",
-        "Tutorial.Saving.Content": "Добро пожаловать в ваш <b><i><color=hero.yellow>Дом</b></i></color>! Вы окажетесь в этом месте при каждом входе.<br>Этот мир полностью ваш, поэтому вы можете сохранить любые сделанные вами изменения.<br>При сохранении мира всё останется на своих местах в ваш следующий визит!",
+        "Tutorial.Saving.Title": "Добро пожаловать домой!",
+        "Tutorial.Saving.Content": "Добро пожаловать в ваш <b><i><color=hero.yellow>дом</b></i></color>! Вы окажетесь в этом месте при каждом входе.<br>Этот мир полностью ваш, поэтому вы можете сохранить любые сделанные вами изменения.<br>При сохранении мира всё останется на своих местах в ваш следующий визит!",
 
         "CloudHome.Info.OnlineUsers": "Онлайн: {online_users} {online_users,plural, one {пользователь} few {пользователя} other {пользователей}}<br>Можно подключится к: {joinable_users} {joinable_users,plural, one {пользователю} other {пользователям}}",
         "CloudHome.Info.Moderation": "Модерация",
@@ -1723,7 +1723,7 @@
         "CloudHome.Info.GoToDiscord": "Перейти в Discord!",
 
         "CloudHome.Info.ModerationTab.Title": "Модерация!",
-        "CloudHome.Info.ModerationTab.Content": "Нам важна безопасность. Если вам нужна помощь или вы хотите сообщить о пользователе, оставьте заявку в нашем <u><color=hero.cyan>Портале модерации.</color></u><sprite name=hyperlink><br><br>У нас есть сильная команда модераторов - волонтеров <sprite name=modbadge>, которая обеспечивает безопасность сообщества! Оставьте заявку, если у вас есть вопросы или вы заметили поведение, нарушающее правила.",
+        "CloudHome.Info.ModerationTab.Content": "Нам важна безопасность. Если вам нужна помощь или вы хотите пожаловаться на пользователя, оставьте заявку в нашем <u><color=hero.cyan>Портале модерации.</color></u><sprite name=hyperlink><br><br>У нас есть сильная команда модераторов - волонтеров <sprite name=modbadge>, которая обеспечивает безопасность сообщества! Оставьте заявку, если у вас есть вопросы или вы заметили поведение, нарушающее правила.",
 
         "CloudHome.Info.InventoryTab.Title": "Сохраните свои предметы!",
         "CloudHome.Info.InventoryTab.Content": "<i><color=hero.purple>Инвентарь</color></i> в вашем <i><color=hero.purple>Дэшборде</color></i> хранит ваши сохраненные аватары и иные предметы.<br><br>Папка <i><color=hero.purple>Essentials</color></i> хранит в себе ряд интересных вещей; дважды кликните по предмету чтобы заспавнить его!",
@@ -1887,7 +1887,7 @@
         "Hints.Sundial.Dequip": "Бросьте экипированный инструмент, выбрав пункт Отпустить в вашем контекстном меню.",
         "Hints.Sundial.DequipExtra": "Заметьте что опции в Контекстном Меню поменялись, потому что вы экипировали инструмент.",
 
-        "Hints.Sundial.Teleporter": "Нажмите эту кнопку чтобы активировать Телепорт в ваш Облачный Дом!",
+        "Hints.Sundial.Teleporter": "Нажмите эту кнопку чтобы активировать телепорт в ваш Облачный Дом!",
         "Hints.Sundial.TeleporterExtra": "Наслаждайтесь своим домом и спасибо что забежали к нам!",
 
         "UI.TextDisplay.Landscape": "Ландшафтный",
