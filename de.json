@@ -371,8 +371,8 @@
         "Options.Nameplates.All": "Namensschilder:<br>Alle",
         "Options.Nameplates.NonContacts": "Namensschilder:<br>Unbekannte",
         "Options.Nameplates.Hide": "Namensschilder:<br>Ausblenden",
-        "Options.Nameplates.DefaultStyle": "<nobr>Standard-Namensschilder</nobr>",
-        "Options.Nameplates.CustomStyle": "<nobr>Persönliche Namensschilder</nobr>",
+        "Options.Nameplates.DefaultStyle": "Standard-<br>Namensschilder",
+        "Options.Nameplates.CustomStyle": "Persönliche<br>Namensschilder",
 
         "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> Benutzer online",
         "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> Benutzer in VR",
@@ -823,7 +823,7 @@
         "Importer.Model.CAD": "CAD-Modell",
         "Importer.Model.PointCloud": "Punktwolke",
         "Importer.Model.VertexColorModel": "Vertex-koloriert",
-        "Importer.Model.AdvancedSettings": "Erweiterte Einstellungen",
+        "Importer.Model.AdvancedSettings": "Erweiterte Optionen",
         "Importer.Model.ModelKindPrompt": "Was für eine Art von 3D-Modell?",
         "Importer.Model.RegularKind": "Standard / Avatar",
         "Importer.Model.SeparableKind": "Separierbar mit einrastenden Teilen",
@@ -1701,7 +1701,7 @@
         "Temporary.MMC.VoteInvalid": "Stimme ist ungültig, bitte versuchen Sie es erneut.",
 
         "CloudHome.WelcomeHome": "Willkommen Zuhause",
-        "CloudHome.TargetRangeOptions": "Zielscheiben Optionen",
+        "CloudHome.TargetRangeOptions": "Zielscheiben",
 
         "Tutorial.Saving.Title": "Willkommen Zuhause!",
         "Tutorial.Saving.Content": "Willkommen in Ihrer <b><i><color=hero.yellow>Home</b></i></color>-Welt! Hier werden Sie jedes Mal starten, wenn Sie sich einloggen.<br><br>Diese Welt gehört ihnen, Sie können also Änderungen die Sie daran vornehmen speichern.<br><br>Wenn Sie die Welt speichern werden Sie sie beim nächsten Mal genau so vorfinden, wie Sie sie hinterlassen haben!",
@@ -1730,7 +1730,7 @@
         "CloudHome.Info.InventoryTab.Content": "Das <i><color=hero.purple>Inventar</color></i> in Ihrem <i><color=hero.purple>Dashboard</color></i> beinhaltet Ihre gespeicherten Avatare und Objekte. <br><br>Der <i><color=hero.purple>Essentials</color></i> Ordner enthält einige Objekte, mit denen Sie spielen können; Sie können Objekte durch Doppelklick spawnen!",
 
         "CloudHome.Info.ToolsTab.Title": "Editieren in Welten!",
-        "CloudHome.Info.ToolsTab.Content": "Eine Besonderheit von {appName} ist die Möglichkeit einfach Dinge direkt im Spiel erstellen oder bearbeiten zu können.<br><br>Ja, das heisst genau hier! Oder irgendwo anders - die Werkzeuge, die Sie unter <i><color=hero.purple>Essentials -> Tools</color></i> in Ihrem Inventar finden, ermöglichen es Ihnen die Welt um Sie herum einfach nach Ihren Wünschen zu gestalten.",
+        "CloudHome.Info.ToolsTab.Content": "Eine Besonderheit von {appName} ist die Möglichkeit einfach Dinge direkt im Spiel erstellen oder bearbeiten zu können.<br><br>Ja, das heißt genau hier! Oder irgendwo anders - die Werkzeuge, die Sie unter <i><color=hero.purple>Essentials -> Tools</color></i> in Ihrem Inventar finden, ermöglichen es Ihnen die Welt um Sie herum einfach nach Ihren Wünschen zu gestalten.",
 
         "CloudHome.Info.HelpTab.Title": "Hilfe Bekommen",
         "CloudHome.Info.HelpTab.InfoLineOne": "Benötigen Sie Hilfe? Schauen Sie in unserem <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink> nach, oder erhalten Sie Antworten auf Ihre",
@@ -1853,12 +1853,12 @@
         "Hints.Spawn.ContextMenuVR": "Fühlen Sie sich unwohl? Drücken Sie B oder Y, um Ihr Kontext-Menü für weitere Optionen zu öffnen!",
         "Hints.Spawn.ContextMenuVRNoButtons": "Fühlen Sie sich unwohl? Drücken Sie den Menü-Knopf, um Ihr Kontext-Menü für weitere Optionen zu öffnen!",
 
-        "Hints.Spawn.TeleportLocomotionDesktop": "Andere Fortbewegungsarten wie Fliegen finden Sie in dem Fortbewegungs-Menü.",
-        "Hints.Spawn.TeleportLocomotionVR": "Andere Fortbewegungsarten wie Teleportieren oder Fliegen finden Sie in dem Fortbewegungs-Menü.",
+        "Hints.Spawn.TeleportLocomotionDesktop": "Andere Fortbewegungsarten wie Fliegen finden Sie in dem Menü \"Fortbewegung\".",
+        "Hints.Spawn.TeleportLocomotionVR": "Andere Fortbewegungsarten wie Teleportieren oder Fliegen finden Sie in dem Menü \"Fortbewegung\".",
 
         "Hints.Bridge.RaiseTheWorld": "Drücken Sie diesen Knopf, um die Platform zu Ihnen zu holen!",
 
-        "Hints.Grabbing.GrabbingDesktop": "Halten Sie die rechte Maustaste gedrückt, um Objekte physikalisch zu greifen!", 
+        "Hints.Grabbing.GrabbingDesktop": "Halten Sie die rechte Maustaste gedrückt, um Objekte physikalisch zu greifen!",
         "Hints.Grabbing.GrabbingVR": "Drücken und halten Sie den Griff ihres Controllers, um Objekte physikalisch zu greifen!",
 
         "Hints.Grabbing.Rotating": "Halten Sie E gedrückt und bewegen Sie ihre Maus, um gehaltene Objekte zu drehen!",
@@ -1868,8 +1868,8 @@
         "Hints.Grabbing.ScalingVR": "Greifen Sie ein Objekt mit beiden Händen, um es zu skalieren!",
 
         "Hints.Grabbing.OtherGrabbables": "Es gibt viele verschiedene Interaktionen, experimentieren Sie mit diesen drei um zu sehen, wie sie funktionieren!",
-        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Zusätzlich zu Objekten können Sie auch <b>sich selbst</b> skalieren, indem Sie Skalieren in Ihrem Kontext-Menü aktivieren und dann Strg gedrückt halten und Ihr Mausrad verwenden!",
-        "Hints.Grabbing.OtherGrabbablesExtraVR": "Zusätzlich zu Objekten können Sie auch <b>sich selbst</b> skalieren, indem Sie Skalieren in Ihrem Kontext-Menü aktivieren und dann mit beiden Händen in die Luft greifen und sie annähern oder auseinander bewegen!",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Zusätzlich zu Objekten können Sie auch <b>sich selbst</b> skalieren, indem Sie \"Skalieren\" in Ihrem Kontext-Menü aktivieren und dann Strg gedrückt halten und Ihr Mausrad verwenden!",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "Zusätzlich zu Objekten können Sie auch <b>sich selbst</b> skalieren, indem Sie \"Skalieren\" in Ihrem Kontext-Menü aktivieren und dann mit beiden Händen in die Luft greifen und sie annähern oder auseinander bewegen!",
 
         "Hints.Telescope.Alignment": "Greifen Sie das Teleskop und richten Sie es auf den Mond!",
 
@@ -1885,7 +1885,7 @@
         "Hints.Sundial.TheSun": "Zielen Sie auf den Himmel und klicken Sie, um die Sonne dorthin zu bewegen!",
         "Hints.Sundial.TheSunExtra": "Versuchen Sie unter den Horizont zu zielen, um es Nacht werden zu lassen!",
 
-        "Hints.Sundial.Dequip": "Lösen Sie das ausgerüstete Tool von Ihrer Hand, indem sie Ablegen in Ihrem Kontext-Menü auswählen.",
+        "Hints.Sundial.Dequip": "Lösen Sie das ausgerüstete Tool von Ihrer Hand, indem Sie \"Ablegen\" in Ihrem Kontext-Menü auswählen.",
         "Hints.Sundial.DequipExtra": "Die Optionen in Ihrem Kontext-Menü haben sich verändert, weil Sie ein Tool halten.",
 
         "Hints.Sundial.Teleporter": "Drücken Sie diesen Knopf, um den Teleporter zu Ihrem Cloud-Home zu aktivieren!",
@@ -1896,8 +1896,8 @@
         "UI.TextDisplay.NormalText": "Normal",
         "UI.TextDisplay.MonospaceText": "Monospace",
 
-        "UI.VideoPlayer.GlobalSettings": "Globale<br>Einstellungen",
-        "UI.VideoPlayer.LocalSettings": "Lokale<br>Einstellungen",
+        "UI.VideoPlayer.GlobalSettings": "Globale<br>Optionen",
+        "UI.VideoPlayer.LocalSettings": "Lokale<br>Optionen",
         "UI.VideoPlayer.SpatialAudio": "<nobr>Räumliches</nobr><br>Audio",
         "UI.VideoPlayer.AreaBroadcast": "<nobr>Umgebungs</nobr><br>Broadcast",
         "UI.VideoPlayer.BroascastAudio": "Broadcast<br>Audio",
