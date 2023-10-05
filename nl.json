@@ -165,7 +165,8 @@
         "World.LoadingFailed": "Mislukt",
         "World.LoadedAssets": "{assets} geladen van {total_assets}",
         "World.Downloading": "{bytes} Gedownload van {total_bytes}",
-
+        "World.Loaded": "Geladen",
+        
         "World.Connection.EstablishingConnection": "Verbinding tot stand brengen",
         "World.Connection.RequestingJoin": "Toegang Verzoekend",
         "World.Connection.Authenticating": "Authenticatie",
@@ -446,7 +447,6 @@
         "Account.RecoverPassword": "Wachtwoord Vergeten?",
         "Account.LiveEmailWarning": "<color=#f00>WAARSCHUWING:</color> Bij live.com, hotmail.com, outlook.com en andere door Microsoft gehoste services kan dit 1-2 dagen duren om de e-mail te accepteren.",
         "Account.PasswordRules": "(minimaal 8 tekens, 1 cijfer, 1 kleine letter, 1 hoofdletter)",
-        "Account.AgeConfirm": "Ik ben 13 jaar of ouder",
         "Account.LostPassword": "Wachtwoord Vergeten",
         "Account.SendRecoveryCode": "Verzend herstelcode",
         "Account.ResetPasswordHeader": "Stel je wachtwoord opnieuw in",
@@ -1581,11 +1581,103 @@
         "Twitch.Panel.Button.SafeMode.Disabled": "Veilige modus Uitgeschakeld",
         "Twitch.Panel.Button.SubscriberCommands.Enabled": "Subscriber Commands <br> Alleen ingeschakeld voor abonnees",
         "Twitch.Panel.Button.SubscriberCommands.Disabled": "Subscriber Commands <br> Ingeschakeld voor iedereen",
+        "Twitch.Panel.Title.Text": "Twitch Chat",
 
         "Exiting.SavingItems": "Opslaan Van {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges": "Wijzigingen opslaan...",
         "Exiting.Exiting": "Afsluiten...",
         "Exiting.LoggingOut": "Uitloggen...",
+
+        "Migration.Title": "Migratie",
+        "Migration.NewTask": "Nieuwe Migratietaak",
+        
+        "Migration.LoginModal.Title": "Data Migreren?",
+        "Migration.LoginModal.Description": "Wilt u gegevens migreren vanuit een ander account? U kunt er ook voor kiezen om dit later te doen via het tabblad \"Migratie\" op het dashboard.",
+        "Migration.LoginModal.OpenMigration": "Open Migratie",
+        "Migration.LoginModal.Later": "Misschien Later",
+        "Migration.LoginResetID.Title": "Echt UserID Resetten?",
+        "Migration.LoginResetID.Description": "Begrijp alsjeblieft dat dit zal resulteren in <color=red>ONVOORSPELBARE CONTENTBREAKAGE</color>. Al uw items, werelden, contacten en berichten zullen met succes worden gemigreerd, maar alle gedragingen en componenten die afhankelijk zijn van het verwijzen naar uw oude UserID zullen waarschijnlijk kapot gaan en moeten opnieuw worden ingesteld en gerepareerd. Tenzij u een serieuze reden heeft om uw gebruikers-ID opnieuw in te stellen, <color=red>KIES DEZE OPTIE NIET</color>.",
+        "Migration.LoginResetID.ResetButton": "Ja, resetten",
+
+        "Migration.ReservedUsername.Title":"<b>Gereserveerde Gebruikersnaam</b>",
+        "Migration.ReservedUsername.Description": "Deze gebruikersnaam is gereserveerd voor de originele gebruiker. Als dit uw account is, geef dan uw {platform}-inloggegevens op om deze te ontgrendelen. We slaan deze inloggegevens niet op, ze worden alleen gebruikt om bij registratie het eigendom van uw account te verifiëren.",
+        "Migration.SourcePassword": "{platform} Wachtwoord:",
+        "Migration.SourceUsername": "{platform} Gebruikersnaam:",
+
+        "Migration.Dialog.Title": "Account Migratie",
+        "Migration.Dialog.Source" : "U kunt gegevens migreren vanuit elke compatibele infrastructuur. Selecteer eerst een uit de onderstaande lijst waaruit u gegevens wilt migreren. U kunt extra infrastructuren toevoegen door configuratiebestanden in de map \"Migrations\" van de installatie te plaatsen.",
+        "Migration.Dialog.AccountDescription": "Om uw account te migreren, hebben we uw {platform}-accountwachtwoord nodig. Hierdoor kunnen we inloggen en toegang krijgen tot de gegevens.",
+
+        "Migration.ResetID.Title": "Mijn UserID Resetten",
+        "Migration.ResetID.Description":"<color=red><b>WAARSCHUWING:</b></color> Het kiezen van deze optie <b>ZAL DE BESTAANDE INHOUD GEDEELTELIJK VERBREKEN EN IS ONOMKEERBAAR</b>, dit omvat alle UserID-referenties in gebruikersinhoud, gemeenschapsdiensten, links, cloudvariabelen en meer. Deze referenties worden gereset, maar uw items, werelden, contacten en berichten zelf gaan niet verloren. We raden u aan deze optie <b>ALLEEN</b> te gebruiken als u uw oude UserId wilt verwijderen en deze wilt vervangen door een nieuwe, gerandomiseerde gebruikersnaam. Tenzij u een goede reden heeft om uw gebruikers-ID opnieuw in te stellen, mag u deze optie <b>NIET</b> aanvinken. Uw gebruikers-ID zal als volgt veranderen:\n U-MijnGebruikersnaam -> U-fX3pKe7AYYQ",
+
+        "Migration.DataSelection.Title": "Waneer we uw account migreren, Welke gegevens zullen we migreren?",
+        "Migration.DataSelection.Everything": "Alles",
+        "Migration.DataSelection.Choose": "Laat me kiezen",
+
+        "Migration.DataSelection.Favorites": "Favoriten (avatar, thuis, camera, toetsenbord, facets)",
+
+        "Migration.DataSelection.Favorites.Description": "Hiermee worden eerst je thuis, favoriete avatar, toetsenbord, camera en dashboard gemigreerd, zodat je ze zo snel mogelijk kunt gaan gebruiken.\n <color=red><b>WAARSCHUWING:</b></color> als je kiest deze optie, kunt u <b>ELKE WIJZIGINGEN VERLIEZEN</b> die op dit platform zijn aangebracht vóór de migratie naar uw favorieten.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "Moeten we bij het migreren uw favorieten overschrijven?",
+
+        "Migration.DataSelection.Home.Title": "Je oude thuis als standaard zetten?",
+        "Migration.DataSelection.Home.Description": "Wanneer we uw gegevens migreren, wordt uw oorspronkelijke cloudhome onder een andere URL geplaatst en krijgt u standaard een gloednieuw cloudhome. Maar als u dat wilt, kunnen we uw oude woning als standaard woning instellen. Zelfs als u \"Nee\" selecteert, is uw oude cloudhome nog steeds toegankelijk en kunt u deze later als standaard instellen.",
+
+        "Migration.DataSelection.Contacts": "Contacten",
+        "Migration.DataSelection.Message History": "Berichtgeschiedenis",
+        "Migration.DataSelection.InventoryWorld": "Inventaris & Werelden",
+        "Migration.DataSelection.CloudVariable.Definitions": "Cloud Variable Definitions",
+        "Migration.DataSelection.CloudVariable.Values": "Cloud Variable Waarden",
+
+        "Migration.DataSelection.AlwaysOverwrite": "Altijd overschrijven",
+
+        "Migration.Start": "Migratie Starten",
+        "Migration.Groups.Title": "Groepen Migreren",
+        "Migration.Groups.Introduction": "Zouden we uw groepen migreren?",
+        
+        "Migration.Groups.Description": "Alle groepen waarvan u beheerder bent, worden standaard gemigreerd. Als u alleen bepaalde groepen wilt migreren, klikt u op de onderstaande knop om ze te laden en vinkt u vervolgens de groepen aan die u wilt migreren.",
+
+        "Migration.Groups.LoadGroups": "Groepen Laden",
+        "Migration.Groups.RefreshGroups": "Groepen Verversen",
+        
+        "Migration.Groups.Fetching": "Groepen Halen...",
+        "Migration.Groups.Fetching.LoginFailed": "Error met inloggen: {error}",
+        "Migration.Groups.Fetching.Error": "Error met groepen halen: {error}",
+        "Migration.Groups.NoGroups": "Geen {platform} Groepen gevonden om te migreren.",
+        "Migration.Groups.NotGroupAdmin": "U bent geen admin van de {platform} groepen, vraag uw groep admins om de groep te migreren!",
+        
+        "Migration.Summary": "Oké, we hebben alles wat we nodig hebben. Klik hieronder op Migratie starten en we gaan aan de slag met uw migratie.\n\nDe migratie kan enige tijd duren, we moeten alles kopiëren. Als u ervoor heeft gekozen uw favorieten te migreren, geven we prioriteit aan deze, zodat u zich op uw gemak kunt voelen.\n\nU hoeft {appName} niet actief te houden terwijl we migreren, maar we sturen u updates via de bot {appName} om je te laten weten hoe het gaat.",
+        
+
+        "Migration.List.EmptyTitle": "Wilt u een nieuwe migratie starten?",
+        "Migration.List.EmptySubtitle": "Klik linksboven op \"Nieuwe migratietaak\".",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Gecreërd op:{time}\nStatus:{state}",
+        "Migration.Report.Title": "Migratie Taak Rapportage:",
+        "Migration.Report.Description": "<color={hex}>Omschrijving:</color> {value}",
+        "Migration.Report.Status": "<color={hex}>Status:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>Gecreërd Op:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>Gestard Op:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>Voltooid Op:</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "Momenteel de gegevens migreren van <color={hex}>{value}</color>.",
+        "Migration.Report.CurrentItem": "Huidig item: <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>Huidige Aantal:</color> ~{value} werelden/items per minuut",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>Resterende taken in de wachtrij voor deze:</color> {value}",
+        "Migration.Report.ContactStatus": "Gemigreerde <color={hex}>{current}</color> contacten van de <color={hex}>{total}</color>",
+        "Migration.Report.MessageStatus": "Gemigreerde <color={hex}>{value}</color> berichten",
+        "Migration.Report.CloudVariableDefinitionStatus": "Gemigreerde <color={hex}>{value}</color> cloud variable definitions",
+        "Migration.Report.CloudVariableValueStatus":"Gemigreerde <color={hex}>{value}</color> cloud variablen",
+        "Migration.Report.RecordStatus": "Gemigreerde <color={hex}>{current}</color> items/werelden van de <color={hex}>{total}</color>. <color=red>{failed}</color> failed.",
+        "Migration.Report.GroupStatus": "Gemigreerde <color={hex}>{current}</color> groepen van de <color={hex}>{total}</color>",
+        "Migration.Report.GroupMemberStatus": "Totaal Gemigreerde <color={hex}>{value}</color> groepleden",
+
+        "Migration.Error": "<color=red>Error:</color> {error}",
+        "Migration.NothingSelected": "Niets geselecteerd, kan niet starten.",
+
+        "Migration.ColorManagement": "Deze wereld is geschreven in de gammaruimte en is automatisch geconverteerd naar lineair.<br><br>Het ziet er misschien anders uit dan het origineel, maar zou over het algemeen bruikbaar moeten zijn.<br><br>Als u de auteur bent en u vindt er een problemen met de conversie van de wereld <color=red>NIET OPSLAAN</color>. Bewaar alleen kopieën.<br><br>Zolang het origineel bestaat, kunnen we het conversieproces aanpassen. Anders bent u zelf verantwoordelijk om het probleem op te lossen.",
 
         "Temporary.MMC.Voting UI": "MMC Stem UI",
         "Temporary.MMC.Vote": "Stemmen",
@@ -1598,7 +1690,8 @@
 
         "Temporary.MMC.Categories.Other": "Ander",
         "Temporary.MMC.Categories.Misc": "Diversen",
-
+        "Temporary.MMC.Categories.Meme": "Meem",
+        
         "Temporary.MMC.Categories.Avatars": "Avatars",
         "Temporary.MMC.Categories.Avatars.Accessories": "Accessoires",
 
