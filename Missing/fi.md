@@ -2,6 +2,8 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Finnish [fi]
+Inventory.CreateDirectory  
+Inventory.GetURL  
 Facets.FPS  
 World.Loaded  
 Account.Saml2.Title  
@@ -34,6 +36,9 @@ ProtoFlux.UI.Call
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
 Importer.Image.PixelArt  
+Importer.Slices.Title  
+Importer.Slices.TitleGrayscale  
+Importer.Slices.Description  
 CameraControl.OBS.Idle  
 Settings.Hotswitching  
 Settings.DebugInputBinding  
@@ -264,6 +269,7 @@ UI.VideoPlayer.EnterURL
 UI.VideoPlayer.AudioZoneTheater  
 UI.VideoPlayer.AudioZoneGlobal  
 UI.VideoPlayer.UsersLoaded  
+UI.VideoPlayer.AllUsersLoaded  
 UI.ColorPicker.ColorPicker  
 UI.ColorPicker.Linear  
 UI.ColorPicker.Hexadecimal  

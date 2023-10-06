@@ -31,7 +31,9 @@ Interaction.Grab.Off
 Inventory.OpenWorld  
 Inventory.Equip  
 Inventory.Delete  
+Inventory.CreateDirectory  
 Inventory.SaveHeld  
+Inventory.GetURL  
 Inventory.Inventories  
 Inventory.Share  
 Inventory.Unshare  
@@ -181,6 +183,9 @@ CreateNew.Directory.Error.EmptyName
 CreateNew.Directory.Error.LongName  
 CreateNew.Directory.Error.InvalidName  
 Importer.Image.PixelArt  
+Importer.Slices.Title  
+Importer.Slices.TitleGrayscale  
+Importer.Slices.Description  
 Exporter.Title  
 Exporter.FileName  
 Exporter.ExportAs  
@@ -503,6 +508,7 @@ UI.VideoPlayer.EnterURL
 UI.VideoPlayer.AudioZoneTheater  
 UI.VideoPlayer.AudioZoneGlobal  
 UI.VideoPlayer.UsersLoaded  
+UI.VideoPlayer.AllUsersLoaded  
 UI.ColorPicker.ColorPicker  
 UI.ColorPicker.Linear  
 UI.ColorPicker.Hexadecimal  
