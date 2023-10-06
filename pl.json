@@ -111,9 +111,11 @@
         "Inventory.OpenWorld": "Otwórz świat",
         "Inventory.Equip": "Wyposaż",
         "Inventory.Delete": "Usuń",
+        "Inventory.CreateDirectory": "Utwórz folder",
         "Inventory.SaveHeld": "Zapisz trzymane",
+        "Inventory.GetURL": "Kopiuj URL",
         "Inventory.Inventories": "Ekwipuneki",
-        "Inventory.Share": "udostepnij",
+        "Inventory.Share": "Udostepnij",
         "Inventory.Unshare": "Cofnij udostępnianie",
         "Inventory.SaveAvatar": "Zapisz Awatara",
         "Inventory.Favorite.Home": "Ustaw domu",
@@ -127,7 +129,7 @@
         "Inventory.Favorite.Avatar": "Ustaw awatar",
         "Inventory.Favorite.WorldLoadingIndicator": "Ustaw pasek ładowania",
         "Inventory.Favorite.ColorDialog": "Ustaw próbnik kolorów",
-        "Inventory.Favorite.Hyperlink": "Set URL Display",
+        "Inventory.Favorite.Hyperlink": "Ustaw wyświetlanie URL",
         "Inventory.SpawnFacet": "Spawn Facet",
 
         "Dash.Screens.Home": "Dom",
@@ -511,6 +513,7 @@
         "Profile.Status.Busy": "Nie Przeszkadzać",
         "Profile.Status.Invisible": "Niewidzialny",
         "Profile.Status.Offline": "Offline",
+        "Profile.Status.Headless": "Host Headless",
 
         "Session.Tab.Settings": "Ustawienia",
         "Session.Tab.Users": "Użytkownicy",
@@ -1044,7 +1047,7 @@
         "CameraControl.OBS.Bitrate": "Szybkość transmisji: {n}/s",
         "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "Pominięte klatki: {n}",
-
+        "CameraControl.OBS.Idle": "BEZCZYNNY",
         "CameraControl.OBS.Live": "NA ŻYWO",
         "CameraControl.OBS.Recording": "REC",
         "CameraControl.OBS.OpenInstallerReason": "Z tej strony możesz pobrać wtyczkę websocket dla OBS",
@@ -1541,7 +1544,7 @@
         "Tutorial.Welcome.SettingsDescription": "Możesz tu konfigurować podstawowe ustawienia. Można je także zmienić później.",
         "Tutorial.Welcome.SettingsTurning": "Styl Obrotu",
         "Tutorial.Welcome.SettingsSnapTurn": "Natychmiastowy",
-        "Tutorial.Welcome.SettingsSnapTurnDescription": "Natychmiastowo obraca cię o ustaloną ilość stopni, dobre dla nowych użytkowników",
+        "Tutorial.Welcome.SettingsSnapTurnDescription": "Natychmiastowo obraca Cię o ustaloną ilość stopni, dobre dla nowych użytkowników",
         "Tutorial.Welcome.SettingsSmoothTurn": "Płynny",
         "Tutorial.Welcome.SettingsSmoothTurnDescription": "Płynne obracanie, może powodować mdłośći.",
         "Tutorial.Welcome.SettingsPrimaryController": "Główny Kontroler",
@@ -1553,7 +1556,7 @@
         "Tutorial.Welcome.SettingsHeightExamples": "Przykłady: 1.85 m, 185 cm, 6' 1\", 6 stóp 1 cal",
 
         "Tutorial.Welcome.StartTutorialHeader": "Rozpocznij Samouczek",
-        "Tutorial.Welcome.StartTutorialDescription": "Przeniesiemy cię do prostego świata samouczkowego aby pomóc Ci zacząć z {appName}. Możesz wybrać czy chcesz aby świat był publiczny, pozwalając społeczności {appName} na dołączanie i pomaganie Tobie albo możesz uczyć się samemu.",
+        "Tutorial.Welcome.StartTutorialDescription": "Przeniesiemy Cię do prostego świata samouczkowego aby pomóc Ci zacząć z {appName}. Możesz wybrać czy chcesz aby świat był publiczny, pozwalając społeczności {appName} na dołączanie i pomaganie Tobie albo możesz uczyć się samemu.",
         "Tutorial.Welcome.StartTutorial": "Begin Tutorial",
 
         "Tutorial.CommunityYouTube.Title": "Kanały YouTube Społeczności",
@@ -1632,7 +1635,7 @@
 
         "Migration.Start": "Rozpocznij migrację",
         "Migration.Groups.Title": "Przenieś grupy",
-        "Migration.Groups.Introduction": "Czy powinniśmy przenieść twoje grupy?",
+        "Migration.Groups.Introduction": "Czy powinniśmy przenieść Twoje grupy?",
 
         "Migration.Groups.Description": "Wszystkie grupy, których jesteś administratorem, zostaną domyślnie przeniesione. Jeśli chcesz przenieść tylko wybrane grupy, kliknij poniższy przycisk, aby je załadować, a następnie zaznacz grupy, które chcesz przenieść.",
 
@@ -1645,7 +1648,7 @@
         "Migration.Groups.NoGroups": "Nie znaleziono grup {platform} do migracji.",
         "Migration.Groups.NotGroupAdmin": "Nie jesteś administratorem żadnej grupy {platform}, poproś administratorów grupy o migrację grupy!",
 
-        "Migration.Summary": "Ok, mamy wszystko, czego potrzebujemy. Kliknij przycisk Rozpocznij migrację, a my rozpoczniemy migrację. Migracja może chwilę potrwać, ponieważ musimy wszystko skopiować. Jeśli wybrałeś migrację swoich ulubionych aplikacji, nadamy im priorytet, abyś mógł poczuć się wygodnie. Nie musisz uruchamiać {appName} podczas migracji, ale wyślemy ci aktualizacje za pośrednictwem bota {appName}, aby poinformować cię, jak idzie.",
+        "Migration.Summary": "Ok, mamy wszystko, czego potrzebujemy. Kliknij przycisk Rozpocznij migrację, a my rozpoczniemy migrację. Migracja może chwilę potrwać, ponieważ musimy wszystko skopiować. Jeśli wybrałeś migrację swoich ulubionych aplikacji, nadamy im priorytet, abyś mógł poczuć się wygodnie. Nie musisz uruchamiać {appName} podczas migracji, ale wyślemy ci aktualizacje za pośrednictwem bota {appName}, aby poinformować Cię, jak idzie.",
 
 
         "Migration.List.EmptyTitle": "Chcesz rozpocząć nową migrację?",
@@ -1700,6 +1703,7 @@
         "Temporary.MMC.VoteInvalid": "Głos jest nieprawidłowy, spróbuj ponownie.",
 
         "CloudHome.WelcomeHome": "Witaj w domu!",
+        "CloudHome.TargetRangeOptions": "Opcje tarcz",
 
 
         "Tutorial.Saving.Title": "Witaj w domu!",
@@ -1761,11 +1765,11 @@
         "StickyNote.SpinMe": "Obróć mnie!",
         "StickyNote.FruitPlate": "Darmowy, samoodnawiający się talerz owoców",
         "StickyNote.EmptyForYou": "Pozostawione puste specjalnie dla Ciebie! :)",
-        
+        "StickyNote.RelevantLinks": "Przydatne linki",
         "StickyNote.SunTool": "Trzymaj moc słońca w swoich rękach!",
-        
-        
-        
+        "StickyNote.Bow": "Pociągnij cięciwę do tyłu i celuj",
+        "StickyNote.Crossbow": "Użyj dźwigni (lub drugiego przycisku), aby załadować",
+        "StickyNote.Shade": "Regulowane zadaszenie",
         "StickyNote.TheaterTablet": "Użyj tego tabletu, aby sterować wentylatorem i przyciemnieniem okien w tym pomieszczeniu!",
         "StickyNote.ControlTablet": "Użyj tego tabletu do sterowania częściami domu!",
 
@@ -1778,7 +1782,7 @@
         "StickyNote.DipBrushes": "Zanurz pędzle w kulach, aby użyć materiałów",
         "StickyNote.BrushColor": "Zmień kolor i rozmiar pędzla w Menu Kontekstowym",
         "StickyNote.Drawing": "Możesz rysować na tablicy, w powietrzu lub w dowolnym miejscu!",
-        "StickyNote.WorldCanvas": "Świat to twoje płótno!",
+        "StickyNote.WorldCanvas": "Świat to Twoje płótno!",
 
         "CloudHome.Panel.HomeControl": "Zarządzanie domem",
 
@@ -1841,6 +1845,7 @@
         "Tutorial.Panel.WalkLocomotion.Title": "Lokomocja spaceru",
         "Tutorial.Panel.WalkLocomotion.Content": "Poruszaj się i skacz po podłodze.",
 
+        "Tutorial.Panel.TeleportLocomotion.Title": "Lokomocja teleport",
         "Tutorial.Panel.TeleportLocomotion.Content": "Teleport natychmiast przeniesie Cię do wskaźnika teleportacji.",
 
         "Hints.Spawn.InitialMovementDesktop": "Użyj klawiszy ruchu, aby chodzić!",
