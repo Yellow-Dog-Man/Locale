@@ -9,7 +9,7 @@
         "General.Cancel": "Zrušit",
         "General.Continue": "Pokračovat",
         "General.Next": "Další",
-
+        "General.Previous": "Předchozí",
         "General.Back": "Zpět",
         "General.Confirm": "Opravdu?",
         "General.Loading": "Nahrávám...",
@@ -28,6 +28,16 @@
         "General.Create": "Vytvořit",
         "General.Creating": "Vytvářím...",
         "General.Buy": "Koupit",
+        "General.Yes": "Ano",
+        "General.No": "Ne",
+        "General.ClearSelection" : "Vyprázdnit výběr",
+        "General.Off": "Vypnuto",
+        "General.On": "Zapnuto",
+        "General.Understand": "Rozumím",
+        "General.Notice" : "Upozornění",
+        "General.UnderstandEnable" : "Rozumím, povolit",
+        "General.Dismiss": "Zavřít",
+        "General.Edit": "Editovat",
 
         "General.UI.SearchPrompt": "Hledat...",
         "General.UI.SearchPromptLong": "Zadejte vyhledávání...",
@@ -44,6 +54,9 @@
 
         "General.Sort.Ascending": "Vzestupně",
         "General.Sort.Descending": "Sestupně",
+
+        "Worlds.Home" : "Domov",
+        "Worlds.Tutorial" : "Tutorial",
 
         "Locomotion.Noclip.Name": "Noclip",
         "Locomotion.Noclip.Description": "Umožňuje volný pohyb skrze objekty, vhodný pro editování.",
@@ -95,6 +108,30 @@
         "Interaction.ExportFile": "Exportovat Soubor",
         "Interaction.CopyLink": "Kopírovat odkaz",
 
+        "Inventory.OpenWorld": "Otevřít svět",
+        "Inventory.Equip": "Nasadit",
+        "Inventory.Delete": "Smazat",
+        "Inventory.CreateDirectory": "Vytvořit složku",
+        "Inventory.SaveHeld": "Uložit držený objekt",
+        "Inventory.GetURL": "Získat URL",
+        "Inventory.Inventories": "Inventáře",
+        "Inventory.Share": "Sdílet",
+        "Inventory.Unshare": "Zrušit sdílení",
+        "Inventory.SaveAvatar": "Uložit avatar",
+        "Inventory.Favorite.Home": "Nastavit jako domov",
+        "Inventory.Favorite.ProgressBar": "Vybrat ukazatel postupu",
+        "Inventory.Favorite.AudioStreamController": "Vybrat ovladač streamu",
+        "Inventory.Favorite.TextDisplay": "Vybrat zobrazovač textu",
+        "Inventory.Favorite.VideoPlayer": "Vybrat video přehrávač",
+        "Inventory.Favorite.AudioPlayer": "Vybrat audio přehrávač",
+        "Inventory.Favorite.InteractiveCamera": "Vybrat fotoaparát",
+        "Inventory.Favorite.Keyboard": "Vybrat klávesnici",
+        "Inventory.Favorite.Avatar": "Vybrat avatar",
+        "Inventory.Favorite.WorldLoadingIndicator": "Vybrat ukazatel nahrávání",
+        "Inventory.Favorite.ColorDialog": "Vybrat color picker",
+        "Inventory.Favorite.Hyperlink": "Vybrat zobrazovač URL",
+        "Inventory.SpawnFacet": "Spawnovat facet",
+
         "Dash.Screens.Home": "Domů",
         "Dash.Screens.Worlds": "Světy",
         "Dash.Screens.Contacts": "Kontakty",
@@ -114,8 +151,15 @@
         "Dash.Exit.Header": "Ukončit {appName}",
         "Dash.Exit.ExitAndSave": "Ukončit a uložit změny v domovech",
         "Dash.Exit.ExitAndDiscard": "Ukončit a zahodit změny v domovech",
+        "Dash.Exit.Sponsor": "Velké díky {name} za sponzorování tohoto projektu!",
+        "Dash.Exit.Sponsor.You": "VÁM",
+        "Dash.Exit.Shoutouts": "Tento projekt je možný také díky těmto lidem:",
+        "Dash.Exit.Shoutouts.AndMore" : " a mnohým dalším!",
+        "Dash.Exit.Shoutouts.You" : "{name} (To jste Vy! Děkujeme!)",
         "Dash.Exit.ThankYou": "Děkujeme že používáte {appName}!",
         "Dash.Exit.SubmittedBy": "Vloženo uživatelem: {name}",
+
+        "Facets.FPS": "{fps}<size=61.803%> snímků/s</size>",
 
         "World.Waiting": "Čekám...",
         "World.HostIsStarting": "Hostitel spouští relaci",
@@ -123,6 +167,7 @@
         "World.LoadingFailed": "Chyba",
         "World.LoadedAssets": "Načteno {assets} z {total_assets}",
         "World.Downloading": "Stahuji {bytes} z {total_bytes}",
+        "World.Loaded": "Nahráno",
 
         "World.Connection.EstablishingConnection": "Navazuji spojení",
         "World.Connection.RequestingJoin": "Žádám o vstup",
@@ -151,8 +196,11 @@
         "World.Error.FailedToConnect": "Pokus o připojení selhal",
         "World.Error.InvalidAddress": "Neplatná adresa",
         "World.Error.NoPort": "Nebyl specifikován port",
-        "World.Error.IncompatibleVersion": "Nekompatibilní verze {appName}u",
-
+        "World.Error.IncompatibleVersion": "Nekompatibilní verze Resonitu",
+        "World.Error.HostBlocked": "Hositel blokován",
+        "World.Error.HostBlockedDetail": "Máte blokovaného hostitele této relace",
+        "World.Error.WorldCrash": "Svět crashnul",
+        "World.Error.WorldCrashDetail" : "Fatální chyba při aktualizaci světa",
         "World.Error.Unknown": "Neznámá chyba",
 
         "World.Config.Name": "Název světa:",
@@ -240,7 +288,7 @@
         "World.Category.Featured": "Vybrané",
         "World.Category.PublishedWorlds": "Všechny publikované",
         "World.Category.ActiveSessions": "Aktivní světy",
-
+        "World.Category.ContactsSessions": "Relace kontaktů",
         "World.Category.HeadlessSessions": "Všechny dedikované relace",
         "World.Category.Social": "Sociální",
         "World.Category.Games": "Hry",
@@ -250,10 +298,12 @@
         "World.Category.Random": "Náhodné",
         "World.Category.MyWorlds": "Moje Světy",
         "World.Category.Custom": "Vlastní",
+        "World.Category.GroupWorlds": "Skupinové světy",
 
         "World.AccessLevel.Anyone": "Veřejný",
         "World.AccessLevel.RegisteredUsers": "Registrovaní uživatelé",
-
+        "World.AccessLevel.Contacts": "Kontakty",
+        "World.AccessLevel.ContactsPlus": "Kontakty+",
         "World.AccessLevel.LAN": "LAN (lokální síť)",
         "World.AccessLevel.Private": "Privátní (pouze pozvánky)",
 
@@ -283,7 +333,7 @@
         "World.Filter.MyWorlds": "Moje světy",
         "World.Filter.SessionFiltering": "Filtrování relací:",
         "World.Filter.MinimumUsers": "Minimální počet uživatelů: <b>{n}</b>",
-
+        "World.Filter.MinimumContacts": "Minimální počet kontaktů: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Pouze na dedikovaném serveru",
         "World.Filter.MaxAccessLevel": "Maximální viditelnost:",
         "World.Filter.MinimumUptime": "Minimální délka běhu:",
@@ -296,7 +346,7 @@
         "World.Edit.Path": "Cesta ke světu:",
         "World.Edit.AccessLevelHeader": "Kdo se může do tohoto světa připojit?",
         "World.Edit.AccessPrivate": "Pouze já",
-        "World.Edit.AccessPatreon": "Patroni Patreon",
+        "World.Edit.AccessPatreon": "Přispívající na Patreonu",
         "World.Edit.AccessPublic": "Kdokoliv (veřejný)",
 
         "Tools.AvatarCreator": "Vytvořit avatar",
@@ -307,6 +357,7 @@
         "Tools.StreamAudio": "Streamovat audio",
         "Tools.Setup2FA": "Nastavit 2FA",
 
+        "Tools.StreamAudio.Dialog.Title" : "Vytvořit audio stream",
         "Tools.StreamAudio.Start": "Spustit streamování",
         "Tools.StreamAudio.Bitrate": "Bitrate: {bitrate} kbps",
         "Tools.StreamAudio.Title": "Audio stream uživatele {username}",
@@ -322,22 +373,66 @@
         "Options.Nameplates.All": "Zobrazit jmenovky: Všechny",
         "Options.Nameplates.NonContacts": "Zobrazit jmenovky: Vyjma kontaktů",
         "Options.Nameplates.Hide": "Zobrazit jmenovky: Žádné",
+        "Options.Nameplates.DefaultStyle": "Používat defaultní jmenovky",
+        "Options.Nameplates.CustomStyle": "Povolit přizpůsobené jmenovky",
 
-        "Indicator.OnlineUsers": "Online uživatelé: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus": "<color=#fff>Server:</color> {status, select, Good {Dobrý} Slow {Pomalý} Down {Spadl} NoInternet {Bez internetu}} ({response_ms} ms)",
+        "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> Online {users,plural, one {uživatel} other {uživatelů}}",
+        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {uživatel} other {uživatelů}} ve VR",
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {uživatel} other {uživatelů}} v desktopovém režimu",
+        
+        "Indicator.ServerStatus.Status": "Stav cloudu",
+        "Indicator.ServerStatus.Good": "V pořádku",
+        "Indicator.ServerStatus.Slow": "Pomalý",
+        "Indicator.ServerStatus.Down": "Mimo provoz",
+        "Indicator.ServerStatus.NoInternet": "Jste offline",
 
         "Indicator.Sync.AllSynced": "Vše synchronizováno",
-        "Indicator.Sync.SyncingItems": "Synchronizuji {item_count,plural, one {# položku} few {# položky} other {# položek}} <nobr>({item_percent} %)",
-        "Indicator.Sync.UploadingVariants": "Nahrávám {variant_count,plural, one {# variantu assetu} few {# varianty assetů} other {# variant assetů}}",
-        "Indicator.Sync.SyncError": "Chyba synchronizace! <size=50%>Zkontrolujte log</size>",
-        "Indicator.Sync.OutOfSpace": "Došlo místo! <size=50%>nelze synchronizovat</size>",
+        "Indicator.Sync.SyncingItems": "Synchronizuji <br><size=61.8033%>{item_count, plural, one {# položku} other {# položek}}</size>",
+        "Indicator.Sync.UploadingVariants": "Uploaduji<br><size=61.8033%>varianty assetů</size>",
+        "Indicator.Sync.SyncError": "Chyba synchronizace <size=61.803%>Zkontrolujte log</size>",
+        "Indicator.Sync.StorageFull": "Uložiště je plné <size=61.803%>Nelze synchronizovat</size>",
+
+        "Indicator.Storage.StorageFull": "Uložiště je plné",
+        "Indicator.Storage.Usage": "{storage_used} z {storage_max}<br><size=61.803%>Využité místo v uložišti</size>",
 
         "Indicator.LiveHiddenMessage": "(informace jsou skryty během streamování)",
 
+        "Login.InvalidCredentials": "Nesprávné přihlašovací informace",
+        "Login.InvalidLogin": "Neplatné přihlašovací informace",
+
+        "Login.MalformedUID": "Neplatné informace o zařízení",
+        "Login.MissingUID": "Chybí informace o zařízení",
+        "Register.MissingUID": "Chybí informace o zařízení",
+        "Register.MalformedUID": "Neplatné informace o zařízení",
+
+        "Login.MissingLogin": "Nebyly zadány žádné přihlašovací informace",
+        "Login.InvalidRecoveryCode": "Neplatný kód k obnovení",
+        "Login.UnsupportedAuthentication": "Nepodporovaná metoda authentifikace",
+        "Login.EmailNotVerified": "E-mail nebyl ověřen",
+        "Login.AccountTempLocked": "Váš účet je uzamčen.",
+        "Login.AccountBanned": "Váš účet je zabanován.",
+        "Login.DuplicateAccount": "Duplikátní účet",
+
+        "Register.MissingRequest": "Chybí registrační údaje",
+        "Register.InvalidEmail": "Neplatná e-mailová adresa",
+        "Register.MissingUsername": "Chybí uživatelské jméno",
+        "Register.MissingEmail": "Chybí e-mail",
+        "Register.UsernameTooLong": "Uživatelské jméno je příliš dlouhé",
+        "Register.UsernameContainsAmpersand": "Uživatelská jména nemohou obsahovat @",
+        "Register.UsernameStartsWithU": "Uživatelské jméno nemůže začínat na U-",
+        "Register.InvalidUsername": "Neplatné uživatelské jméno",
+        "Register.InvalidDateOfBirth": "Neplatný datum narození",
+        "Register.UserContainsBlockedTerms": "Uživatelské jméno obsahuje blokovaná slova",
+        "Register.MissingPassword": "Chybí heslo",
+        "Register.InvalidPassword": "Neplatné heslo",
+        "Register.EmailAlreadyRegistered": "E-mail byl již registrován",
+        "Register.UsernameAlreadyRegistered": "Uživatelské jméno bylo již registrováno",
+        "Register.ErrorCheckingUserId": "Chyba kontroly UserID",
+
         "Account.Login": "Přihlásit",
         "Account.Logout": "Odhlásit",
-        "Account.Register": "Registrovat",
-
+        "Account.Register": "Registrovat účet",
+        "Account.Saml2" : "Přihlásit se pomocí SAML 2.0",
         "Account.LoginOrRegister": "Přihlásit / Registrovat",
         "Account.LogoutConfirm": "Opravdu odhlásit?",
         "Account.LoggingIn": "Přihlašuji...",
@@ -345,52 +440,70 @@
         "Account.Registering": "Registruji...",
         "Account.Anonymous": "Anonymní",
         "Account.Username": "Uživatelské jméno:",
-        "Account.Email": "Email:",
-        "Account.RememberMe": "Zapamatovat si mě:",
-        "Account.RepeatEmail": "Email znovu:",
-        "Account.UsernameOrEmail": "Uživatelské jméno nebo email:",
+        "Account.Email": "E-mail:",
+        "Account.RememberMe": "Zapamatovat si mě<br><size=50%>(k odhlášení dojde po 30dnech neaktivity)</size>",
+        "Account.RepeatEmail": "E-mail znovu:",
+        "Account.UsernameOrEmail": "Uživatelské jméno nebo e-mail:",
         "Account.Password": "Heslo:",
         "Account.RepeatPassword": "Heslo znovu:",
         "Account.RecoverPassword": "Zapomenuté heslo?",
         "Account.LiveEmailWarning": "<color=#f00>VAROVÁNÍ:</color> live.com, hotmail.com, outlook.com a další emailové služby od Microsoftu mohou email doručit se zpožděním až 1-2 dní.",
         "Account.PasswordRules": "(alespoň 8 znaků, 1 číslice, 1 malé písmeno, 1 velké)",
-        "Account.AgeConfirm": "Je mi 13 let nebo výše",
         "Account.LostPassword": "Zapomenuté heslo",
-        "Account.SendRecoveryCode": "Poslat obnovovací kód",
+        "Account.SendRecoveryCode": "Zaslat obnovovací kód",
         "Account.ResetPasswordHeader": "Resetování hesla",
-        "Account.ResetPasswordInstructions": "Obnovovací kód byl poslán na Váš email, zkopírujte jej sem:",
+        "Account.ResetPasswordInstructions": "Obnovovací kód byl poslán na Váš e-mail. Zkopírujte jej sem:",
         "Account.RecoveryCode": "Obnovovací kód:",
         "Account.NewPassword": "Nové heslo:",
         "Account.ResetPassword": "Nastavit nové heslo",
         "Account.Requesting": "Zpracovávám...",
         "Account.ErrorPasswordMismatch": "Hesla nejsou stejná!",
-        "Account.ErrorEmailMismatch": "Emaily nejsou stejné!",
+        "Account.ErrorEmailMismatch": "E-maily nejsou stejné!",
         "Account.ErrorLoginError": "Chyba přihlášení:",
-        "Account.RegistrationSuccess": "<size=120%>Registrace byla úspěšná!</size><br><br>Na adresu {email} byl odeslán email s ověřovacím odkazem.<br><br>Jakmile na tento odkaz kliknete, automaticky vás přihlásíme (pouze pokud nezavřete tento dialog).<br><br>Pokud jste narazili na problémy, spojte se s námi na hello@{appName}.com nebo discord.gg/resonite.",
+        "Account.RegistrationSuccess": "<size=120%>Registrace byla úspěšná!</size><br><br>Na adresu {email} byl odeslán email s ověřovacím odkazem.<br><br>Jakmile na tento odkaz kliknete, automaticky Vás přihlásíme (pouze pokud nezavřete tento dialog).<br><br>Pokud jste narazili na problémy, spojte se s námi na hello@{appName}.com nebo discord.gg/resonite.",
+        "Account.BirthMonth": "Měsíc narození:",
+        "Account.BirthDay": "Den narození:",
+        "Account.BirthYear": "Rok narození:",
+        "Account.PoliciesAgreement": "Souhlasím s <color=#22B2FF>podmínkami služby</color> a <color=#22B2FF>zásadami zpracování osobních údajů</color>",
+        "Account.AlternateMethods" : "Přihlásit se pomocí služby třetí strany:",
 
+        "Account.Saml2.Title" : "SAML 2.0",
+        "Account.Saml2.Select" : "Zvolte prosím poskytovatele SAML 2.0, kterého chcete využít:",
+        "Account.Saml2.LoggingIn" : "Čekám na dokončení přihlášení (zkontrolujte Váš prohlížeč)...",
+
+        "Account.TOTP.Title" : "Dvou-faktorová authentifikace",
         "Account.TOTP.Initializing": "Probíhá kontrola stavu 2FA pro váš účet...",
         "Account.TOTP.Code.Header": "Tajný kód",
-        "Account.TOTP.Code.Description": "Nejprve musíte zadat tajný kód do vaší TOTP authentifikační aplikace - například <b>Authy</b> nebo <b>Google Authenticator</b>.<br><br>Doporučujeme toto provést naskenováním QR kódu, alternativně ale můžete také zadat tajný kód ručně. <b>Tento kód nikdy s nikým nesdílejte.</b><br><br>Pokud jste ve VR, můžete do desktopového režimu přepnout stisknutím klávesy F8.",
+        "Account.TOTP.Code.Description": "Nejprve musíte zadat tajný kód do Vaší TOTP authentifikační aplikace - například <b>Authy</b> nebo <b>Google Authenticator</b>.<br><br>Doporučujeme toto provést naskenováním QR kódu, alternativně ale můžete také zadat tajný kód ručně. <b>Tento kód nikdy s nikým nesdílejte.</b><br><br>Pokud jste ve VR, můžete do desktopového režimu přepnout stisknutím klávesy F8.",
         "Account.TOTP.Code.QRCode": "Naskenujte QR kód",
         "Account.TOTP.Code.Key": "Tajný kód:",
         "Account.TOTP.RecoveryCodes.Header": "Záchranné kódy",
-        "Account.TOTP.RecoveryCodes.Description": "Uložte tyto kódy na bezpečné místo. Tyto kódy lze využít pro znovuzískání přístupu k vašemu účtu v případě ztráty nebo poruchy vašeho telefonu. Každý kód lze použít pouze jednou. <b>Záchranné kódy nikdy s nikým nesdílejte.</b> Pokud je ztratíte, přijdete <color=red>PERMANENTNĚ</color> o přístup k vašemu účtu.",
+        "Account.TOTP.RecoveryCodes.Description": "Uložte tyto kódy na bezpečné místo. Tyto kódy lze využít pro znovuzískání přístupu k Vašemu účtu v případě ztráty nebo poruchy Vašeho telefonu. Každý kód lze použít pouze jednou. <b>Záchranné kódy nikdy s nikým nesdílejte.</b> Pokud je ztratíte, přijdete <color=red>PERMANENTNĚ</color> o přístup k Vašemu účtu.",
         "Account.TOTP.RecoveryCodes.Codes": "Kódy:",
         "Account.TOTP.Activate.Header": "Aktivovat 2FA",
-
+        "Account.TOTP.Activate.Description": "Pro aktivaci 2FA na Vašem účtu, použijte 6-ti číselný token, generovaný authentifikační aplikací pro ověření, že vše funguje jak má.<br><br>Po aktivaci budete muset využít token k potvrzení některých operací.",
         "Account.TOTP.Activate.Token": "6-ti číselný token:",
         "Account.TOTP.Activate.TokenField": "Zde zadejte váš token...",
         "Account.TOTP.Activate.Activate": "Aktivovat",
         "Account.TOTP.Activate.Activating": "Aktivuji...",
         "Account.TOTP.Activate.InvalidToken": "Neplatný token!",
-        "Account.TOTP.Message.AlreadySetup": "2FA byla již na vašem účtu nastavena!",
+        "Account.TOTP.Message.AlreadySetup": "2FA byla již na Vašem účtu nastavena!",
         "Account.TOTP.Message.Error": "Neočekávaná chyba! Zkuste to prosím později.",
-
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Gratulujeme!</size><br><br>Váš účet má nyní nastavenu 2FA pro extra ochranu!<br><br>Volitelně můžete 2FA povolit pro přihlašování příkazem /enableLogin2FA.",
         "Account.TOTP.Deactivate.Header": "Deaktivovat 2FA",
-        "Account.TOTP.Deactivate.Description": "2FA je aktuálně <b><color=green>nastavena a aktivní na vašem účtu</color></b>. Pokud ji potřebujete deaktivovat (např. kvůli ztrátě telefonu nebo odtajnění kódů), můžete tak učinit zde.<br><br>Po deaktivaci můžete 2FA nastavit znovu, čímž vygenerujete nový tajný kód a novou sadu záchranných kódů.<br><br>Pokud ztratíte váš telefon, a potřebujete znovu nastavit 2FA, <b>DŮRAZNĚ</b> doporučujeme aby jste tak provedli okamžitě, jelikož každý záchranný kód lze použít pouze jednou, a jakmile všechny spotřebujete, ztratíte kompletně přístup k vašemu účtu.",
+        "Account.TOTP.Deactivate.Description": "2FA je aktuálně <b><color=green>nastavena a aktivní na Vašem účtu</color></b>. Pokud ji potřebujete deaktivovat (např. kvůli ztrátě telefonu nebo odtajnění kódů), můžete tak učinit zde.<br><br>Po deaktivaci můžete 2FA nastavit znovu, čímž vygenerujete nový tajný kód a novou sadu záchranných kódů.<br><br>Pokud ztratíte váš telefon, a potřebujete znovu nastavit 2FA, <b>DŮRAZNĚ</b> doporučujeme abyste tak provedli okamžitě, jelikož každý záchranný kód lze použít pouze jednou, a jakmile všechny spotřebujete, ztratíte kompletně přístup k Vašemu účtu.",
         "Account.TOTP.Deactivate.Deactivate": "Deaktivovat",
         "Account.TOTP.Deactivate.Deactivating": "Deaktivuji...",
-        "Account.TOTP.Message.DeactivationComplete": "2FA byla na vašem účtu úspěšně deaktivována.<br><br>Váš účet je nyní více zranitelný!<br><br>Důrazně doporučujeme okamžitě znovu nastavit 2FA, obzvláště pokud jste využili záchranného kódu kvůli ztrátě telefonu.",
+        "Account.TOTP.Message.DeactivationComplete": "2FA byla na Vašem účtu úspěšně deaktivována.<br><br>Váš účet je nyní více zranitelný!<br><br>Důrazně doporučujeme okamžitě znovu nastavit 2FA, obzvláště pokud jste využili záchranného kódu kvůli ztrátě telefonu.",
+
+        "Account.Type.Standard" : "Běžný účet",
+        "Account.Type.Business" : "Firemní účet",
+        "Account.Type.Patreon" : "Přispívající na Patreonu",
+        "Account.Type.Mentor" : "{platform} mentor",
+        "Account.Type.Moderator" : "{platform} moderátor",
+        "Account.Type.Team" : "{platform} tým",
+
+        "Avatar.Badge.Live" : "ŽIVĚ",
 
         "2FA.Header": "Ověření 2FA",
         "2FA.Token": "6-ti číselný token:",
@@ -400,6 +513,7 @@
         "Profile.Status.Busy": "Nerušit",
         "Profile.Status.Invisible": "Neviditelný",
         "Profile.Status.Offline": "Offline",
+        "Profile.Status.Headless": "Dedikovaný server",
 
         "Session.Tab.Settings": "Nastavení",
         "Session.Tab.Users": "Uživatelé",
@@ -411,6 +525,12 @@
         "Session.Permission.Host": "Výchozí host:",
         "Session.Permission.PermissionOverrideCount": "Počet uživatelů s individuálními právy: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Smazat individuální práva",
+
+        "Session.JoinVerifier.EnableHeader" : "Aktivovat vlastní ověřovač žádostí o připojení?",
+        "Session.JoinVerifier.EnableText" : "<color=red>VAROVÁNÍ:</color> Chystáte se povolit vlastní ověřovač žádostí o připojení, který je součástí aktuálního světa. Než tak učiníte, ujistěte se, že věříte tvůrci světa, jelikož vlastní ověřovač může obejít standardní pravidla práv přístupu k relaci, a povolit nebo blokovat uživatelům přístup na základě vlastních pravidel.",
+        "Session.JoinVerifier.Label" : "Využít vlastní ověřovač žádostí o připojení: {name}",
+        "Session.JoinVerifier.ComponentWarning" : "<color=red>VAROVÁNÍ:</color> Aktuálně neexistuje mechanismus pro zabránění neoprávněných úprav ověřovače po jeho povolení. Pokud se obáváte neoprávněných úprav ProtoFluxu ověřovače, NEPOUŽÍVEJTE tuto funkci, a NEPOVOLUJTE ji ve svých světech.",
+        "Session.JoinVerifier.SetCustomVerifier" : "Zvolit jako vlastní ověřovač žádostí o připojení",
 
         "Permissions.NotAllowedToSpawn": "Zde vám není dovoleno spawnovat objekty.",
         "Permissions.NotAllowedToSave": "Není vám dovoleno ukládat objekty v tomto světě.",
@@ -429,33 +549,40 @@
         "Contacts.AcceptRequest": "Přijmout požadavek",
         "Contacts.IgnoreRequest": "Ignorovat požadavek",
         "Contacts.Invite": "Pozvat do světa",
+        "Contacts.RevokeInvite": "Zrušit pozvánku",
         "Contacts.BanFromAllSessions": "Zabanovat ze VŠECH mých relací",
         "Contacts.UnbanFromAllSessions": "Odbanovat ze VŠECH mých relací",
         "Contacts.BanFromCurrentWorld": "Zabanovat z aktuálního světa",
         "Contacts.UnbanFromCurrentWorld": "Odbanovat z aktuálního světa",
         "Contacts.RecordingVoiceMessage": "Nahrávám hlasovou zprávu...",
+        "Contacts.Unblocked" : "Neblokován(a)",
+        "Contacts.AvatarBlock" : "Blokovat avatar",
+        "Contacts.MutualBlock" : "Vzájemná blokace",
+        "Contacts.SelfAccount": "Můj účet",
+        "Contacts.SearchPrompt": "Hledat kontakty...",
+        "Contacts.WriteMessage": "Napište zprávu...",
 
         "Contacts.InSession": "Ve světě {name}",
         "Contacts.InPrivate": "V privátním světě",
-
+        "Contacts.InContactsOnly": "Ve světě pouze pro kontakty",
         "Contacts.InHidden": "Ve skrytém světě",
-
+        "Contacts.InHiddenContactsOnly": "Ve skrytém světě pouze pro kontakty",
+        "Contacts.InHiddenContactsPlus": "Ve skrytím světě kontakty+",
         "Contacts.InLAN": "Ve světě jen pro LAN",
         "Contacts.UsingDifferentVersion": "Jiná verze: {version}",
         "Contacts.RequestSent": "Požadavek o kontakt odeslán",
-        "Contacts.RequestReceived": "Si vás chce přidat",
+        "Contacts.RequestReceived": "Si Vás chce přidat",
         "Contacts.RequestIgnored": "Požadavek o kontakt ignorován",
         "Contacts.Blocked": "Zablokován(a)",
         "Contacts.SearchResult": "Výsledek vyhledávání",
         "Contacts.Bot": "Bot účet",
+        "Contacts.Migrated": "Kontakt nepřemigroval",
 
         "Notifications.IsOnline": "Je nyní online",
         "Notifications.IsOnlineOnDifferentVersion": "Je nyní online <size=75%>(používá verzi: {version})</size>",
         "Notifications.ReceivedContactRequest": "Poslal(a) požadavek o kontakt",
         "Notifications.ReceivedInvite": "Vás zve do světa:",
         "Notifications.ReceivedItem": "Vám poslal(a) objekt:",
-        "Notifications.ReceivedTip": "Poslal(a) spropitné {amount} {token}",
-        "Notifications.SentTip": "Poslal(a) spropitné {amount} {token}",
         "Notifications.VoiceMessage": "Poslal(a) hlasovou zprávu",
 
         "Undo.SetField": "Nastavit hodnotu {field_name} na {value}",
@@ -492,6 +619,10 @@
         "Undo.ExtractMaterialsFromHierarchy": "Extrahovat materiály z hierarchie",
         "Undo.BatchConvertMaterials": "Hromadně konvertovat materiály",
 
+        "Tooltips.Brush.ChangeColor" : "Změnit barvu",
+        "Tooltips.Brush.IncrementSize" : "Zvětšit velikost",
+        "Tooltips.Brush.DecrementSize" : "Zmenšit velikost",
+
         "Tooltips.Dev.CreateNew": "Vytvořit nový...",
         "Tooltips.Dev.Selection": "Výběr: {mode}",
         "Tooltips.Dev.DevMode.Off": "Vývojářský režim: Vypnutý",
@@ -500,6 +631,14 @@
         "Tooltips.Dev.DeselectAll": "Zrušit výběr",
         "Tooltips.Dev.DestroySelected": "Ostranit vybrané",
         "Tooltips.Dev.ConfirmDestroySelected": "OPRAVDU odstranit vybrané",
+
+        "Tooltips.Dev.GizmoOptions" : "Možnosti gizem",
+        "Tooltips.Dev.SelectParent" : "Vybrat rodiče",
+        "Tooltips.Dev.LocalSpace" : "Lokální prostor",
+        "Tooltips.Dev.GlobalSpace" : "Globální prostor",
+        "Tooltips.Dev.Translation" : "Posun",
+        "Tooltips.Dev.Rotation" : "Rotace",
+        "Tooltips.Dev.Scale" : "Škálování",
 
         "Tooltip.Color.Picker": "Vybrat Barvu",
 
@@ -539,6 +678,8 @@
 
         "Tooltip.Mesh.Edit": "Editovat mesh",
 
+        "Tooltip.Cartridge.Eject": "Vysunout orb",
+
         "Tooltip.Microphone.Format.WAV": "WAV",
         "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
         "Tooltip.Microphone.Format.FLAC": "FLAC",
@@ -546,6 +687,25 @@
         "Tooltip.Microphone.ModePress": "Stisknout pro spuštění/zastavení nahrávání",
         "Tooltip.Microphone.SourceRaw": "Nezpracovaný",
         "Tooltip.Microphone.SourceFiltered": "Filtrovaný & Normalizovaný",
+
+        "Tooltip.ProtoFlux.Drive" : "Drive",
+        "Tooltip.ProtoFlux.Source" : "Zdroj",
+        "Tooltip.ProtoFlux.Reference" : "Reference",
+        "Tooltip.ProtoFlux.Write" : "Zapsat",
+        "Tooltip.ProtoFlux.Proxy" : "Proxy",
+        "Tooltip.ProtoFlux.CreateLocal" : "Vytvořit lokální",
+        "Tooltip.ProtoFlux.CreateStore" : "Vytvořit uložiště",
+        "Tooltip.ProtoFlux.CreateDataModelStore" : "Vytvořit uložiště datového modelu",
+        "Tooltip.ProtoFlux.Overview" : "Toggle přehledového režimu",
+        "Tooltip.ProtoFlux.NodeBrowser" : "Procházet nody",
+        "Tooltip.ProtoFlux.PackInPlace" : "Zabalit v místě",
+        "Tooltip.ProtoFlux.PackInto" : "Zabalit do <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.Unpack" : "Vybalit <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.ExplicitCast" : "Explicitní cast\n<size=50%>(<color=red>Varování:</color> Potenciální ztráta dat)</size>",
+
+        "ProtoFlux.UI.Call" : "Volání",
+        "ProtoFlux.UI.AsyncCall" : "<size=50%>Asynchronní</size> volání",
+        "ProtoFlux.UI.NodeBrowser.Title" : "ProtoFlux nody",
 
         "CreateNew.Back": "<<< <i>Zpět</i>",
         "CreateNew.EmptyObject": "Prázdný objekt",
@@ -644,7 +804,7 @@
         "Importer.Image.Prompt": "Co importujete?",
         "Importer.Image.Regular": "Obrázek / Texturu",
         "Importer.Image.Screenshot": "{appName} fotografie <size=50%>(pořízena zde)</size>",
-
+        "Importer.Image.PixelArt" : "Pixel Art <size=50%>(obrázky složené pixel po pixelu s omezenou barevnou škálou)</size>",
         "Importer.Image.360": "360° fotku / skybox",
         "Importer.Image.StereoPhoto": "Stereo foto",
         "Importer.Image.Stereo360": "Stereo 360° foto",
@@ -736,8 +896,18 @@
         "Importer.Video.Depth.Prompt": "Typ hloubkových dat",
         "Importer.Video.Depth.Default": "Výchozí",
 
-        "NewWorld.Title": "Vytvořit svět",
+        "Importer.Slices.Title": "Části obrázku jako volumetrická textura",
+        "Importer.Slices.TitleGrayscale": "Části obrázku jako volumetrická textura (stupně šedi)",
+        "Importer.Slices.Description": "Zpracovat veškeré obrazové soubory ve složce do volumetrické textury",
 
+        "Exporter.Title": "Exportovat",
+        "Exporter.FileName": "Název souboru:",
+        "Exporter.ExportAs": "Exportovat jako:",
+        "Exporter.Export": "Exportovat",
+        "Exporter.Exporting": "Exportuji...",
+
+        "NewWorld.Title": "Vytvořit svět",
+        "NewWorld.SessionTitle": "Nová relace",
         "NewWorld.Template": "Typ světa:",
         "NewWorld.CustomPreset": "Zvolený typ:",
         "NewWorld.SessionSettings": "Nastavení relace:",
@@ -881,7 +1051,7 @@
         "CameraControl.OBS.Bitrate": "Bitrate: {n}/s",
         "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "Zahozeno snímků: {n}",
-
+        "CameraControl.OBS.Idle": "NEČINNÝ",
         "CameraControl.OBS.Live": "ŽIVĚ",
         "CameraControl.OBS.Recording": "REC",
         "CameraControl.OBS.OpenInstallerReason": "Tato webová stránka vám umožní stáhnout OBS websocket plugin",
@@ -904,6 +1074,7 @@
         "Settings.HideAllTutorials": "Skrýt všechny tutoriály",
         "Settings.ShowInteractionHints": "Zobrazit popisky interakcí",
         "Settings.PrimaryController": "Primární ovladač",
+        "Settings.Hotswitching": "Automatické přepínání režimu VR",
         "Settings.AllowStrafing": "Povolit pohyb do strany",
         "Settings.UseHeadDirectionForMovement": "Použít směr pohledu pro pohyb",
         "Settings.SmoothTurn": "Plynulé otáčení",
@@ -927,7 +1098,7 @@
         "Settings.DoNotSendReadStatus": "Neposílat stav přečtení zpráv v reálném čase",
         "Settings.MaxConcurrentAssetTransfers": "Maximální souběžné přenosy assetů",
         "Settings.AutosaveScreenshotPath": "Cesta autom. ulož. screenshotů",
-
+        "Settings.AutosaveAllScreenshots": "Automaticky ukládat Všechny screenshoty ve světě",
         "Settings.DebugInputBinding": "Ladit mapování vstupů",
 
         "Settings.LaserSmoothing.Header": "Vyhlazování laseru",
@@ -941,7 +1112,7 @@
         "Settings.LaserSmoothing.Reset": "Resetovat nastavení laseru",
 
         "Settings.Audio.Header": "Zvuk",
-
+        "Settings.Audio.Input.Title" : "Vstupní zvuková zařízení",
         "Settings.Audio.Master": "Celková hlasitost: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Zvukové efekty: {n,number,percent}",
         "Settings.Audio.Multimedia": "Multimédia: {n,number,percent}",
@@ -956,8 +1127,8 @@
         "Settings.Audio.OutputDevice": "Výstupní zařízení:",
         "Settings.Audio.SelectInputDevice": "Vyberte vstupní zvukové zařízení",
         "Settings.Audio.SelectOutputDevice": "Vyberte výstupní zvukové zařízení",
-        "Settings.Audio.TestInput": "Otestujte vaše vstupní zvukové zařízení:",
-        "Settings.Audio.TestDescription": "Budeme zpětně přehrávat zvuk z vybráného zařízení, aby jste si ověřili zda jste vybrali to správné.",
+        "Settings.Audio.TestInput": "Otestujte Vaše vstupní zvukové zařízení:",
+        "Settings.Audio.TestDescription": "Budeme zpětně přehrávat zvuk z vybráného zařízení, abyste si ověřili zda jste vybrali to správné.",
         "Settings.Audio.StartTest": "Otestovat mikrofon",
         "Settings.Audio.StopTest": "Zastavit testování",
         "Settings.Audio.Monitoring": "Monitorování mikrofonu:",
@@ -965,6 +1136,7 @@
 
         "Settings.Graphics.DesktopFOV": "Zorné pole pro desktopový režim",
 
+        "Settings.Locale.Title" : "Jazyk UI",
         "Settings.Locale.ChangeLanguage": "Změnit jazyk",
         "Settings.Locale.SelectLanguageHeader": "Vyberte váš jazyk:",
         "Settings.Locale.DefaultLanguage": "Systémový výchozí",
@@ -1000,6 +1172,7 @@
         "Settings.System.KeepOriginalScreenshotFormat": "Zachovat originální formát screenshotů",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "Pokud je tato možnost aktivní, screenshoty nebudou převáděny do JPG formátu při ukládání do dokumentů",
 
+        "Security.Hyperlink.Title" : "Externí odkaz",
         "Security.Hyperlink.Warning": "<b><size=125%>Varování: Otevíráte externí odkaz</size></b>\nKlikli jste na odkaz ve světě. Chcete jej otevřit? Tato akce otevře Váš webový prohlížeč.",
         "Security.Hyperlink.Open": "Otevřít",
         "Security.Hyperlink.Cancel": "Zrušit",
@@ -1012,6 +1185,14 @@
         "Security.HostAccess.Allow": "Povolit",
         "Security.HostAccess.Deny": "Zakázat",
 
+        "ComponentSelector.Back" : "< (zpět)",
+        "ComponentSelector.Title" : "Komponenty",
+        "ComponentSelector.CreateCustomType" : "Vytvořit vlastní typ",
+        "ComponentSelector.CommonGenericTypes" : "Běžné generické typy",
+        "ComponentSelector.CustomGenericArguments" : "Vlastní generické argumenty:",
+        "ComponentSelector.InvalidType" : "Neplatný typ",
+
+        "Inspector.Title" : "Inspektor scény",
         "Inspector.Slot.AttachComponent": "Přidat komponentu",
 
         "Inspector.Slot.Axis.X": "X: <b>+</b>Doprava <b>-</b>Doleva",
@@ -1153,16 +1334,17 @@
         "Inspector.Texture.AlphaFromIntensity": "Vygenerovat průhlednost z jasu",
         "Inspector.Texture.AlphaToMask": "Převést průhlednost na masku",
         "Inspector.Texture.RemoveAlpha": "Odstranit průhlednost",
-        "Inspector.Texture.ConvertToGrayscaleAverage": "Převést na černobílý (průmeěr)",
-
+        "Inspector.Texture.ConvertToGrayscaleAverage": "Převést na černobílý (průměr)",
+        "Inspector.Texture.ConvertToGrayscaleLuminance": "Převést na černobílý (luminance)",
         "Inspector.Texture.SwapRG": "Přehodit červený a zelený kanál",
         "Inspector.Texture.SwapRB": "Přehodit červený a modrý kanál",
-
+        "Inspector.Texture.SwapRA": "Přehodit červený kanál a průhlednost",
         "Inspector.Texture.SwapGB": "Přehodit zelený a modrý kanál",
-
+        "Inspector.Texture.SwapGA": "Přehodit zelený kanál a průhlednost",
+        "Inspector.Texture.SwapBA": "Přehodit modrý kanál a průhlednost",
         "Inspector.Texture.AddWhiteBackground": "Přidat bílé pozadí",
         "Inspector.Texture.AddBlackBackground": "Přidat černé pozadí",
-        "Inspector.Texture.Hue": "Posun barvy:",
+        "Inspector.Texture.Hue": "Odstín:",
         "Inspector.Texture.ShiftHue": "Posunout barevný odstín",
         "Inspector.Texture.Saturation": "Saturace:",
         "Inspector.Texture.AdjustSaturation": "Upravit saturaci",
@@ -1171,18 +1353,23 @@
         "Inspector.Texture.Gamma": "Gamma:",
         "Inspector.Texture.AdjustGamma": "Upravit Gammu",
         "Inspector.Texture.LongestSide": "Maximální délka strany:",
-        "Inspector.Texture.Resize": "Zmenšit",
+        "Inspector.Texture.Resize": "Změnit velikost",
         "Inspector.Texture.FlipHorizontal": "Zrcadlit horizontálně",
         "Inspector.Texture.FlipVertical": "Zrcadlit vertikálně",
-        "Inspector.Texture.RotateCW": "Otočit ve směru hodinových ručiček",
-        "Inspector.Texture.RotateCCW": "Otočit proti směru hodinových ručiček",
+        "Inspector.Texture.RotateCW": "Otočit o 90˚ ve směru hodinových ručiček",
+        "Inspector.Texture.RotateCCW": "Otočit o 90˚ proti směru hodinových ručiček",
         "Inspector.Texture.Rotate180": "Otočit o 180 stupňů",
-
+        "Inspector.Texture.TrimTransparent" : "Oříznout průhlednost",
+        "Inspector.Texture.TrimByCornerColor" : "Oříznout podle rohové barvy",
         "Inspector.Texture.MakeSquare": "Změnit rozměry na čtvercové",
         "Inspector.Texture.ToNearestPOT": "Změnit rozměr na nejbližší mocninu dvou",
         "Inspector.Texture.MakeTileable": "Vydláždit (přechodový poměr):",
         "Inspector.Texture.TileLoop": "Dlaždice (opakovat)",
         "Inspector.Texture.TileMirror": "Dlaždice (zrcadlit)",
+        "Inspector.Texture.NormalizeMaxOnly" : "Normalizovat (pouze maxima)",
+        "Inspector.Texture.NormalizeMinMax" : "Normalizovat (minima a maxima)",
+        "Inspector.Texture.NormalizeIndependent" : "Normalizovat nezávisle na RGB (minima a maxima)",
+        "Inspector.Texture.BleedColorToAlpha" : "Bleedovat barvu do průhlednosti",
 
         "Inspector.Texture.InvalidFloats": "Diagnostika: Nesprávné floating point hodnoty",
         "Inspector.Texture.GenerateMetadata": "Diagnostika: Vygenerovat metadata",
@@ -1232,7 +1419,8 @@
 
         "Inspector.AvatarExpression.AutoAssign": "Přiřadit automaticky (pomocí heuristiky)",
 
-        "Inspector.CharacterController.Warning": "<color=red><size=150%>VAROVÁNÍ!</size></color><br>Je možné použít tuto komponentu jako jednoduché rigidbody zaškrtnutím SimulateRotation. Než tak učiníte, prosíme uvědomte si, že komponenta není optimalizována pro tento účel a opravdová podpora rigidbody bude do budoucna přidána.<br>Opravdová podpora rigidbody nabídne:<br><b>- CPU a síťovou efektivitu</b> - s komponentou CharacterController budete více zatěžovat CPU a síť<br><b>- Spojení</b> - s pravými rigidbody budete moci vytvářet spoje, panty, pružiny a jiná spojení mezi rigidbodies<br><b>- Hladká simulace a interakce pro všechny</b> - CharacterController se porouchá, pokud se jiná osoba pokusí o interakci<br><b>- Nové vlastnosti a nástroje</b> - aby bylo jejich používání snažší<br>-----------------------<br>Více informací můžete najít na GitHubu, uvnitř issue #22. Pokud rozumíte těmto omezením, bavte se!",
+        "Inspector.CharacterController.Warning": "<color=red><size=150%>VAROVÁNÍ!</size></color><br>Je možné použít tuto komponentu jako jednoduché rigidbody zaškrtnutím SimulateRotation. Než tak učiníte, prosíme uvědomte si, že komponenta není optimalizována pro tento účel a opravdová podpora rigidbody bude do budoucna přidána.<br>Opravdová podpora rigidbody nabídne:<br><b>- CPU a síťovou efektivitu</b> - s komponentou CharacterController budete více zatěžovat CPU a síť<br><b>- Spojení</b> - s pravými rigidbody budete moci vytvářet spoje, panty, pružiny a jiná spojení mezi rigidbodies<br><b>- Hladká simulace a interakce pro všechny</b> - CharacterController se porouchá, pokud se jiná osoba pokusí o interakci<br><b>- Nové vlastnosti a nástroje</b> - aby bylo jejich používání snažší<br>-----------------------<br>Pokud rozumíte těmto omezením, bavte se!",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>VAROVÁNÍ!</size></color><br>Je možné využít tuto klomponentu k interakci s referencemi pomocí jejich ID. Tento proces je běžně znám jako 'Ref Hacking'.<br><br><b>Předtím</b> než toto uděláte, porozumte prosím, že toto <b>není</b> podporováno, a může se kdykoliv porouchat. Snažte se nezáviset na této funkcionalitě ve svých výtvorech.",
 
         "Inspector.ParticleStyle.CommonTransitions": "Běžné šablony přechodů:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha fade in a Fade out",
@@ -1250,6 +1438,21 @@
         "Inspector.Collider.SetFromPreciseBounds": "Nastavit z precizních boundů",
         "Inspector.Collider.SetFromPreciseCylinderBounds": "Nastavit z precizních cylindrických boundů",
         "Inspector.Collider.Visualize": "Vizualizovat collider",
+
+        "Inspector.SimpleAwayIndicator.TestAway" : "Nastavit na pryč (pro ladění)",
+        "Inspector.SimpleAwayIndicator.TestRestore" : "Vrátit do normálu (pro ladění)",
+        
+        "Inspector.Fields.Drive" : "Drive",
+        "Inspector.Fields.DriveWriteBack" : "Drive <size=50%>(se zpětným zápisem)</size>",
+
+        "Inspector.Actions.CopyComponent" : "Kopírovat komponentu",
+        "Inspector.Actions.MoveComponent" : "Přesunout komponentu",
+
+        "UserInspector.Title" : "Inspektor uživatelů",
+
+        "WorkerInspector.Title" : "Inspektor {name}",
+
+        "CreateNew.Title" : "Nový",
 
         "Wizard.General.ProcessRoot": "Zpracovat root:",
         "Wizard.General.Result": "Výsledek:",
@@ -1316,6 +1519,7 @@
         "Wizard.TextRenderer.ReplaceFont": "Nahradit font",
         "Wizard.TextRenderer.SetColor": "Nastavit barvu",
 
+        "Desktop.Controls.Title": "Ovládání plochy",
         "Desktop.OpenKeyboard": "Otevřít klávesnici",
         "Desktop.FollowCursor.On": "Následovat kurzor: Zapnuto",
         "Desktop.FollowCursor.Off": "Následovat kurzor: Vypnuto",
@@ -1324,8 +1528,12 @@
         "Desktop.Brightness": "Jas: {n,number,percent}",
         "Desktop.Opacity": "Neprůhlednost: {n,number,percent}",
 
-        "Tutorial.Welcome.WelcomeTo": "Vítejte v",
-        "Tutorial.Welcome.LetsStart": "Pojďme začít!",
+        "VolumePlaneSlicer.Highlight": "Zvýraznit",
+        "VolumePlaneSlicer.Slicer": "Říznout",
+
+        "Tutorial.Welcome.Welcome": "Vítejte!",
+        "Tutorial.Welcome.Description" : "Ponořte se do zbrusu nového digitálního vesmíru s nekonečnými možnostmi. Ať už jse se přišli socializovat a bavit se s lidmi z celého světa, nebo stavět, tvořit a vyvíjet cokoliv od nádherného umění, interaktivních avatarů a gadgetů, až po komplexní interaktivní světy a hry, Resonite je nekonečně přizpůsobitelným místem, kde budete vítáni a najdete skupinu s kterou budete rezonovat.<br><br>Než začnete objevovat, nejprve Vás provedeme nastavením pár základních drobností, abychom Vám zajistili co nejlepší zážitek. Až budete připraveni, klikněte na tlačítko níže.",
+        "Tutorial.Welcome.Begin": "Pojďme začít!",
 
         "Tutorial.Welcome.AccountHeader": "Účet {appName}",
         "Tutorial.Welcome.AccountDescription": "Vytvořením účtu získáte 1 GB uložiště zdarma, možnost ukládat objekty, nastavit si oblíbený avatar, přidávat kontakty a chatovat s nimi.",
@@ -1351,8 +1559,9 @@
         "Tutorial.Welcome.SettingsHeight": "Vaše výška:",
         "Tutorial.Welcome.SettingsHeightExamples": "Příklady: 1.85 m, 185 cm, 6' 1\", 6 stop 1 palec",
 
-        "Tutorial.Welcome.StartTutorialHeader": "Začít tutorial",
-        "Tutorial.Welcome.StartTutorialDescription": "Přeneseme vás do základního tutorial světa, abychom vám pomohli začít s {appName}em. Můžete si vybrat, zda bude svět veřejný, čímž umožníte komunitě {appName}u do něj vstoupit a pomoci vám, nebo se můžete z tutoriálu učit sami.",
+        "Tutorial.Welcome.StartTutorialHeader": "Připraveni začít objevovat?",
+        "Tutorial.Welcome.StartTutorialDescription": "Vše je nastaveno a jste téměř připraveni vyrazit! Nyní Vás přeneseme do našeho tutorialového světa. Na jeho konci na Vás čeká zbrusu nový domovský svět, který bude sloužit jako Vaše základna pro objevování v Resonitu. Až budete připraveni, klikněte na tlačítko níže.",
+        "Tutorial.Welcome.StartTutorial": "Začít tutorial",
 
         "Tutorial.CommunityYouTube.Title": "Komunitní YouTube kanály",
 
@@ -1360,6 +1569,7 @@
         "Tutorial.UserResources.SupportTitle": "Jak podpořit {appName}",
         "Tutorial.UserResources.MerchandiseTitle": "{appName} Merch",
 
+        "Tutorial.Intro.BadgesAppTeam": "{appName} tým",
         "Tutorial.Intro.BadgesModerator": "Moderátor",
         "Tutorial.Intro.BadgesMentor": "Mentor",
         "Tutorial.Intro.BadgesDisabilityHearing": "Poškození sluchu",
@@ -1384,6 +1594,96 @@
         "Exiting.Exiting": "Ukončuji...",
         "Exiting.LoggingOut": "Odhlašuji...",
 
+        "Migration.Title": "Migrace",
+        "Migration.NewTask": "Nová migrační úloha",
+
+        "Migration.LoginModal.Title": "Migrovat data?",
+        "Migration.LoginModal.Description": "Chtěli byste migrovat data z jiného účtu? Můžete tak také učinit později, zvolením záložky \"Migrace\" na dashboardu.",
+        "Migration.LoginModal.OpenMigration": "Otevřít migraci",
+        "Migration.LoginModal.Later": "Možná později",
+        "Migration.LoginResetID.Title": "Opravdu resetovat UserID?",
+        "Migration.LoginResetID.Description": "Porozumnějte prosím, toto způsobí <color=red>NEOČEKÁVATELNÁ POŠKOZENÍ OBSAHU</color>. Veškeré Vaše předměty, světy, konatkty a zprávy budou bez problémů přemigrovány, ale jakákoliv chování a komponenty závisející na referencování Vašeho starého UserID se nejsíše rozbijí a budou vyžadovat opakované nastavení a nebo opravu. Pokud nemáte významný důvod k resetu Vašeho UserID, <color=red>NEVYBÍREJTE TUTO MOŽNOST</color>.",
+        "Migration.LoginResetID.ResetButton": "Ano, resetovat",
+
+        "Migration.ReservedUsername.Title":"<b>Rezervované uživatelské jméno</b>",
+        "Migration.ReservedUsername.Description": "Toto uživatelské jméno je rezervováno pro jeho originálního vlastníka. Pokud je toto Váš účet, zadejte prosím Vaše přihlašovací informace pro {platform} pro jeho odemčení. Tyto přihlašovací informace neukládáme, jsou využity jen k ověření Vašeho vlastnictví daného účtu.",
+        "Migration.SourcePassword": "{platform} heslo:",
+        "Migration.SourceUsername": "{platform} uživatelské jméno:",
+
+        "Migration.Dialog.Title": "Migrace účtu",
+        "Migration.Dialog.Source" : "Můžete migrovat data z jakékoliv kompatibilní infrastruktury. Nejprve zvolte tu, ze které chcete data migrovat níže.",
+        "Migration.Dialog.AccountDescription": "Pro migraci Vašeho účtu budeme potřebovat Vaše heslo k účtu {platform}. To nám umožní se přihlásit a mít přístup k datům.",
+
+        "Migration.ResetID.Title": "Resetovat mé UserID",
+        "Migration.ResetID.Description":"<color=red><b>VAROVÁNÍ:</b></color> Zvolení této možnosti <b>ČÁSTEČNĚ POŠKODÍ EXISTUJÍCÍ OBSAH A JE NEZVRATNÉ</b>. To zahrnuje veškeré reference na UserID ve Vašem obsahu, komunitních službách, odkazech, cloudových proměnných, a dalších místech. Tyto reference budou resetovány, ale Vaše předměty, světy, kontakty a zprávy themselves nebudou ztraceny. Doporučujeme tuto možnost využít <b>POUZE</b> pokud se chcete zbavit svého starého UserID, a nahradit jej novým náhodným. Pokud nemáte významný důvod k resetu Vašeho UserID, <b>NEMĚLI BYSTE</b> zaškrtnout tuto možnost. Vaše UserID se změní takto:\n U-MéUživatelskéJméno -> U-fX3pKe7AYYQ",
+
+        "Migration.DataSelection.Title": "Až budeme migrovat Váč účet, jaká data máme migrovat?",
+        "Migration.DataSelection.Everything": "Všechna",
+        "Migration.DataSelection.Choose": "Nechte mne vybrat",
+
+        "Migration.DataSelection.Favorites": "Oblíbené (avatar, domov, fotoaparát, klávesnice, facety)",
+
+        "Migration.DataSelection.Favorites.Description": "Toto nejprve přemigruje Váš domov, oblíbený avatar, klávesnici, fotoaparát a dashboard, abyste je mohli co nejdříve začít používat.\n <color=red><b>VAROVÁNÍ:</b></color> Pokud zvolíte tuto možnost, můžete <b>PŘIJÍT O VEŠKERÉ ZMĚNY</b> provedené na této platformě před migrací Vašich oblíbených.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "Máme při migraci přepsat Vaše oblíbené?",
+
+        "Migration.DataSelection.Home.Title": "Chcete nastavit Váš starý cloudový domov jako defaultní?",
+        "Migration.DataSelection.Home.Description": "Během migrace Vašich dat, Váš originální cloudový domov bude uložen pod jinou URL, a získáte zbrusu nový cloudový domov jako defaultní. Pokud však preferujete svůj starý cloudový domov, můžeme Vám jej nastavit jako defaultní. I pokud vyberete \"Ne\", Váš starý cloudový domov bude stále přístupný, a můžete jej nastavit jako oblíbený později.",
+
+        "Migration.DataSelection.Contacts": "Kontakty",
+        "Migration.DataSelection.Message History": "Historie zpráv",
+        "Migration.DataSelection.InventoryWorld": "Inventář a světy",
+        "Migration.DataSelection.CloudVariable.Definitions": "Definice cloudových proměnných",
+        "Migration.DataSelection.CloudVariable.Values": "Hodnoty cloudových proměnných",
+
+        "Migration.DataSelection.AlwaysOverwrite": "Vždy přepsat",
+
+        "Migration.Start": "Spustit migraci",
+        "Migration.Groups.Title": "Migrovat skupiny",
+        "Migration.Groups.Introduction": "Máme přemigrovat Vaše skupiny?",
+
+        "Migration.Groups.Description": "Všechny skupiny v nichž jste administrátorem budou v defaultu přemigrovány. Pokud chcete migrovat jen některé skupiny, klikněte na tlačítko níže pro jejich načtení, a následně zaškrtněte skupiny, které chcete migrovat.",
+
+        "Migration.Groups.LoadGroups": "Načíst skupiny",
+        "Migration.Groups.RefreshGroups": "Obnovit skupiny",
+
+        "Migration.Groups.Fetching": "Načítání skupin...",
+        "Migration.Groups.Fetching.LoginFailed": "Chyba přihlášení: {error}",
+        "Migration.Groups.Fetching.Error": "Chyba načítání skupin: {error}",
+        "Migration.Groups.NoGroups": "Nebyly nalezeny žádné {platform} skupiny k migraci.",
+        "Migration.Groups.NotGroupAdmin": "Nejste admin žádné {platform} skupiny. Požádejte adminy Vaší skupiny, aby skupiny přemigrovali!",
+
+        "Migration.Summary": "Ok, máme vše co potřebujeme. Klikněte na Spustit migraci níže, a my zahájíme Vaši migraci.\n\nMigrace může chvíli trvat - musíme vše překopírovat. Pokud jste zvolili migraci Vašich oblíbených, bude uspíšena, abyste se co nejdříve cítili pohodlně.\n\nNemusíte nechat {appName} běžet zatímco migrujeme. Budeme Vám zasílat aktualizace skrze {appName} bota, abyste věděli jak to jde.",
+
+        "Migration.List.EmptyTitle": "Chcete zahájit novou migraci?",
+        "Migration.List.EmptySubtitle": "Klikněte na \"Nová migrační úloha\" vlevo nahoře.",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Vytvořena:{time}\nStav:{state}",
+        "Migration.Report.Title": "Hlášení o stavu migrační úlohy:",
+        "Migration.Report.Description": "<color={hex}>Popis:</color> {value}",
+        "Migration.Report.Status": "<color={hex}>Stav:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>Vytvořena:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>Zahájena:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>Dokončena:</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "Aktuálně migrujeme data <color={hex}>{value}</color>.",
+        "Migration.Report.CurrentItem": "Aktuální položka: <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>Aktuální rychlost:</color> ~{value} světů/předmětů z minutu",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>Zbývající úlohy ve frontě před touto:</color> {value}",
+        "Migration.Report.ContactStatus": "Přemigrováno <color={hex}>{current}</color> kontaktů z <color={hex}>{total}</color>",
+        "Migration.Report.MessageStatus": "Přemigrováno <color={hex}>{value}</color> zpráv",
+        "Migration.Report.CloudVariableDefinitionStatus": "Přemigrováno <color={hex}>{value}</color> definic cloudových proměnných",
+        "Migration.Report.CloudVariableValueStatus":"Přemigrováno <color={hex}>{value}</color> cloudových proměnných",
+        "Migration.Report.RecordStatus": "Přemigrováno <color={hex}>{current}</color> předmětů/světů z <color={hex}>{total}</color>. <color=red>{failed}</color> selhal(o).",
+        "Migration.Report.GroupStatus": "Přemigrováno <color={hex}>{current}</color> skupin z <color={hex}>{total}</color>",
+        "Migration.Report.GroupMemberStatus": "Přemigrováno celkem <color={hex}>{value}</color> členů skupin",
+
+        "Migration.Error": "<color=red>Chyba:</color> {error}",
+        "Migration.NothingSelected": "Nic nebylo vybráno, nelze začít.",
+
+        "Migration.ColorManagement": "Tento svět byl vytvořen v gamma prostoru, a byl automaticky konvertován do lineárního.<br><br>Může vypadat jinak než originálně, ale měl by být víceméně použitelný.<br><br>Pokud jste autor(ka), a najdete jakékoliv nesrovnalosti s konverzí světa, <color=red>NEUKLÁDEJTE ŽÁDNÉ ZMĚNY</color>. Ukládejte jen kopie.<br><br>Dokud existuje originál, můžeme konverzní proces upravit. V opačném případě si svět budete muset opravit sami.",
+        
         "Temporary.MMC.Voting UI": "MMC Hlasovací UI",
         "Temporary.MMC.Vote": "Hlasovat",
 
@@ -1404,6 +1704,260 @@
         "Temporary.MMC.VoteFailure": "Hlasování selhalo, váš hlas nebyl registrován. Zkuste to prosím znovu.",
         "Temporary.MMC.VotedAlready": "V kategorii {category} jste již hlasovali.",
         "Temporary.MMC.VoteInvalid": "Hlas je neplatný, zkuste to prosím znovu.",
+
+        "CloudHome.WelcomeHome": "Vítejte doma",
+        "CloudHome.TargetRangeOptions": "Možnosti střelnice",
+
+        "Tutorial.Saving.Title": "Vítejte doma!",
+        "Tutorial.Saving.Content": "Vítejte ve Vašem <b><i><color=hero.yellow>domovském světě</b></i></color>! Zde skončíte pokaždé když se přihlásíte.<br><br>Tento svět je celý Váš, takže jakékoliv změny které provedete lze uložit.<br><br>Pokud uložíte změny, vše naleznete tak jak jste to ponechali až se vrátíte!",
+
+        "CloudHome.Info.OnlineUsers": "Online {online_users,plural, one {uživatel} other {uživatelů}}: {online_users}<br>Z toho {joinable_users,plural, one {uživatel} other {uživatelů}} ke kterým se lze připojit: {joinable_users}",
+        "CloudHome.Info.Moderation": "Moderace",
+        "CloudHome.Info.Inventory": "Inventář",
+        "CloudHome.Info.Tools": "Nástroje",
+        "CloudHome.Info.MoreInfo": "Více informací",
+        "CloudHome.Info.SessionUptime": "Doba běhu relace:",
+        "CloudHome.Info.AccessLevel": "Úroveň přístupu:",
+        "CloudHome.Info.StorageUsed": "Využitý prostor v uložišti:",
+
+        "CloudHome.Info.DashInfoTab.Title": "Vítejte!",
+        "CloudHome.Info.DashInfoDesktop": "Na základ je zde pár věcí, které byste měli vědět. Máte k dispozici <i><color=hero.purple>dashboard</color></i>, který můžete otevřít stiskem klávesy Escape. Vnímejte jej jako Vaši pracovní plochu nebo ovládací panel.<br><br>Pokud se cítíte zmateni, tato obrazovka obsahuje pár dalších informací, které by Vám mohly pomoci. Klikněte na tlačítko níže pro skrytí této zprávy.",
+        "CloudHome.Info.DashInfoVR": "Na základ je zde pár věcí, které byste měli vědět. Máte k dispozici <i><color=hero.purple>dashboard</color></i>, který můžete otevřít stiskem tlačítka B nebo Y. Vnímejte jej jako Vaši pracovní plochu nebo ovládací panel.<br><br>Pokud se cítíte zmateni, tato obrazovka obsahuje pár dalších informací, které by Vám mohly pomoci. Klikněte na tlačítko níže pro skrytí této zprávy.",
+        "CloudHome.Info.DashInfoVRNoButtons": "Na základ je zde pár věcí, které byste měli vědět. Máte k dispozici <i><color=hero.purple>dashboard</color></i>, který můžete otevřít stiskem a přidržením tlačítka Menu, dokud nedojde k naplnění kruhového indikátoru. Vnímejte jej jako Vaši pracovní plochu nebo ovládací panel.<br><br>Pokud se cítíte zmateni, tato obrazovka obsahuje pár dalších informací, které by Vám mohly pomoci. Klikněte na tlačítko níže pro skrytí této zprávy.",
+
+        "CloudHome.Info.GoToWiki": "Jděte na Wiki!",
+        "CloudHome.Info.GoToDiscord": "Jděte na Discord!",
+
+        "CloudHome.Info.ModerationTab.Title": "Moderace!",
+        "CloudHome.Info.ModerationTab.Content": "Bezpečnost je pro nás důležitá. Pokud potřebujete pomoc, nebo nahlásit uživatele, otevřete tiket v našem <u><color=hero.cyan>moderačním portálu.</color></u><sprite name=hyperlink><br><br>Máme silný tým dobrovolných moderátorů <sprite name=modbadge>, kteří se starají o zachování bezpečí v komunitě! Pokud máte dotazy, nebo jste svědky chování proti pokynům k používání platformy, prosíme, pošlete tiket.",
+
+        "CloudHome.Info.InventoryTab.Title": "Uložte si své předměty!",
+        "CloudHome.Info.InventoryTab.Content": "<i><color=hero.purple>Inventář</color></i> na Vašem <i><color=hero.purple>dashboardu</color></i> obsahuje Vaše uložené avatary a předměty.<br><br>Složka <i><color=hero.purple>Essentials</color></i> obsahuje pár hraček se kterými si můžete pohrát; předmět spawnujete dvojklikem!",
+
+        "CloudHome.Info.ToolsTab.Title": "Editování ve světě!",
+        "CloudHome.Info.ToolsTab.Content": "Puncem Resonitu je možnost jednoduše vytvářet nebo modifikovat věci přímo ve hře.<br><br>Ano, to znamená přímo tady! A nebo opravdu kdekoliv - nástroje k dispozici ve složce <i><color=hero.purple>Essentials -> Tools</color></i> ve Vašem inventáři Vám jednoduše umožňují editovat svět kolem Vás dle Vašich zálib.",
+
+        "CloudHome.Info.HelpTab.Title": "Získávání pomoci",
+        "CloudHome.Info.HelpTab.InfoLineOne": "Potřebujete pomoc? Podívejte se na naši <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, nebo získejte odpověď na Vaše",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "otázky na našem <u><color=hero.cyan>Discordu!</color></u><sprite name=hyperlink> Odkazy si můžete jednoduše prohlédnout na vaší parcovní ploše skrze Váš dashboard, na záložce <i><color=hero.purple>Plocha</color></i>.",
+
+        "CloudHome.Info.UsersTab.Title": "Hledání uživatelů",
+        "CloudHome.Info.UsersTab.Content": "Veřejné relace jsou skvělou možností, jak se spojit s komunitou!<br><br>Veřejné relace do kterých se aktuálně můžete připojit naleznete na záložce <i><color=hero.purple>Světy</color></i> na Vašem dashboardu. Zkuste si to!",
+
+        "Mirror.Header.RenderingOptions" : "Možnosti renderování",
+        "Mirror.Header.Type" : "Typ zrcadla",
+        "Mirror.Header.Resolution" : "Rozlišení zrcadla",
+        "Mirror.Header.AspectRatio" : "Poměr stran",
+
+        "Mirror.EnableLights": "Povolit světla",
+        "Mirror.DisableLights": "Zakázat světla",
+
+        "Mirror.EnableShadows": "Povolit stíny",
+        "Mirror.DisableShadows": "Zakázat stíny",
+
+        "Mirror.Camera": "Kamera",
+
+        "Mirror.AspectRatio.Tall": "Vysoké",
+        "Mirror.AspectRatio.Square": "Čtvercové",
+        "Mirror.AspectRatio.Wide": "Široké",
+
+        "Mirror.Menu": "Menu",
+        "Mirror.CloseMenu": "Zavřít Menu",
+
+        "StickyNote.SpinMe": "Roztoč mě!",
+        "StickyNote.FruitPlate": "Samodoplňující se tác s ovocem zdarma",
+        "StickyNote.EmptyForYou": "Ponecháno volné jen pro Vás! :)",
+        "StickyNote.RelevantLinks": "Relevantní odkazy!<br><--<br><br><size=500>Někdo by to mohl i nazvat \"linking book\"</size>",
+        "StickyNote.SunTool": "Držte sílu slunce ve svých rukou!",
+        "StickyNote.Bow": "Natáhněte svou tětivu a miřte přesně",
+        "StickyNote.Crossbow": "Použijte páku (nebo tlačítko sekundární akce) pro nabití",
+        "StickyNote.Shade": "Nastavitelný stín",
+        "StickyNote.TheaterTablet": "Použijte tento tablet pro ovládání větráku a zatemňování oken pro tuto místnost!",
+        "StickyNote.ControlTablet": "Použijte tento tablet pro ovládání částí domova!",
+
+        "StickyNote.RotateMeDesktop": "Otáčej mne držením E!",
+        "StickyNote.RotateMeVR": "Otáčej mne!",
+
+        "StickyNote.EquipMeDesktop": "Nasaď si mě a stiskni levé tlačítko myši!",
+        "StickyNote.EquipMeVR": "Nasaď si mě a natáhni tětivu!",
+
+        "StickyNote.DipBrushes": "Namočte štětce do orbů pro použití materiálů",
+        "StickyNote.BrushColor": "Změňte barvu a velikost štětce v kontextovém menu",
+        "StickyNote.Drawing": "Můžete kreslit na tabuli, do vzduchu nebo kdekoliv!",
+        "StickyNote.WorldCanvas": "Svět je Vaším plátnem!",
+
+        "CloudHome.Panel.HomeControl": "Ovládání domova",
+
+        "CloudHome.Panel.General": "Obecné",
+        "CloudHome.Panel.Lighting": "Osvětlení",
+        "CloudHome.Panel.Furniture": "Nábytek",
+
+        "CloudHome.Panel.Quality": "Kvalita",
+        "CloudHome.Panel.Doors": "Dveře",
+        "CloudHome.Panel.Audio": "Audio",
+        "CloudHome.Panel.OverheadLighting": "Stropní osvětlení",
+        "CloudHome.Panel.Sconces": "Nástěnná světla",
+        "CloudHome.Panel.FurnitureVisibility": "Viditelnost nábytku",
+
+        "CloudHome.Panel.LowQualityMode": "Režim nízké kvality",
+        "CloudHome.Panel.DoorSounds": "Zvuky dveří",
+        "CloudHome.Panel.DoorsAlwaysOpen": "Dveře vždy otevřené",
+        "CloudHome.Panel.InteriorAmbience": "Ambientní zvuky interiéru",
+        "CloudHome.Panel.InteriorAmbienceVolume": "Hlasitost<br>ambientních zvuků<br>interiéru",
+        "CloudHome.Panel.LightsOn": "Světla zapnuta",
+        "CloudHome.Panel.LightIntensity": "Intenzita světel",
+        "CloudHome.Panel.LightColor": "Barva světel",
+        "CloudHome.Panel.LightColorTemperature": "Teplota barvy světel",
+
+        "CloudHome.Panel.Spawn": "Spawn",
+        "CloudHome.Panel.Foyer": "Vstupní hala",
+        "CloudHome.Panel.Workspace": "Dílna",
+        "CloudHome.Panel.ReadingLounge": "Čtecí koutek",
+        "CloudHome.Panel.Lounge": "Obývací pokoj",
+        "CloudHome.Panel.Center": "Střed",
+        "CloudHome.Panel.Balcony": "Balkon",
+        "CloudHome.Panel.Theater": "Kino",
+
+        "CloudHome.Panel.TheaterControl": "Ovládání kina",
+        "CloudHome.Panel.FanControl": "Ovládání větráku",
+        "CloudHome.Panel.WindowControl": "Ovládání oken",
+        "CloudHome.Panel.FanSpeed": "Rychlost větráku",
+        "CloudHome.Panel.WindowTint": "Zatemnění oken",
+
+        "CloudHome.FeaturedPanel.OpenWorld": "Otevřít svět",
+        "CloudHome.FeaturedPanel.LinkText": "Otevřte tento svět pro<br>sebe kliknutím zde!",
+        "CloudHome.FeaturedPanel.Featured": "vybraný",
+
+        "CloudHome.AvatarPanel.Title": "Vybrané avatar světy",
+
+        "CloudHome.SupporterPanel.Title": "<b>Naši podporovatelé</b>",
+
+        "Tutorial.InfoPanel.Title": "Hej! Než vyrazíte...",
+        "Tutorial.InfoPanel.Content": "     Čeká na Vás svět možností, a co je možné je omezeno jen Vaší představivostí.<br><br>     Téměř vše co jste do teď viděli bylo vyrobeno zde ve hře! Lidé z celého světa pracovali společně v reálném čase na budování toho všeho.<br><br>     Platforma je stále velmi hluboko v ranném stádiu vývoje, a my vše neustále aktualizujeme a vylepšujeme. Vy jste však také součástí tohoto dobrodružství, a pouze nebe je limitem!<br><br><align=center>Děkujeme že jste se zastavili a dali nám šanci.</align>",
+
+        "Tutorial.GrabItems.Grab": "Uchopte",
+        "Tutorial.GrabItems.Snap": "Snapujte",
+        "Tutorial.GrabItems.Slide": "Posunujte",
+
+        "Tutorial.Panel.Jumping.Title": "Skákání",
+        "Tutorial.Panel.Jumping.ContentDesktop": "Když jste v režimu chůze, stiskněte mezerník pro skok!",
+        "Tutorial.Panel.Jumping.ContentVR": "Když jste v režimu chůze, stiskněte joystick pro skok!",
+        "Tutorial.Panel.Jumping.ContentVRNoButtons": "Když jste v režimu chůze, stiskněte střed Vašeho trackpadu pro skok!",
+
+        "Tutorial.Panel.WalkLocomotion.Title": "Režim chůze",
+        "Tutorial.Panel.WalkLocomotion.Content": "Pohybujte se a skákejte po zemi.",
+
+        "Tutorial.Panel.TeleportLocomotion.Title": "Režim teleportace",
+        "Tutorial.Panel.TeleportLocomotion.Content": "Teleportace Vás okamžitě přesune k teleportačnímu indikátoru.",
+
+        "Hints.Spawn.InitialMovementDesktop": "Použijte Vaše pohybové klávesy pro chození!",
+        "Hints.Spawn.InitialMovementVR": "Použijte Vaše joysticky pro chození!",
+        "Hints.Spawn.InitialMovementVRNoButtons": "Použijte Vaše trackpady pro chození!",
+
+        "Hints.Spawn.ContextMenuDesktop": "Otevřte Vaše kontextové menu stiskem T pro možnosti!",
+        "Hints.Spawn.ContextMenuVR": "Cítíte se nevolně? Otevřte Vaše kontextové menu stiskem tlačítka B nebo Y pro možnosti!",
+        "Hints.Spawn.ContextMenuVRNoButtons": "Cítíte se nevolně? Otevřte Vaše kontextové menu stiskem tlačítka Menu pro možnosti!",
+
+        "Hints.Spawn.TeleportLocomotionDesktop": "Další možnosti pohybu, jako je létání, jsou k dispozici v menu metod pohybu.",
+        "Hints.Spawn.TeleportLocomotionVR": "Další možnosti pohybu, jako je teleportace nebo létání, jsou k dispozici v menu metod pohybu.",
+
+        "Hints.Bridge.RaiseTheWorld": "Stikněte toto tlačítko pro přivolání platformy k Vám!",
+
+        "Hints.Grabbing.GrabbingDesktop": "Fyzikálně uchopujte předměty držením pravého tlačítka myši!",
+        "Hints.Grabbing.GrabbingVR": "Fyzikálně uchopujte předměty držením gripu!",
+
+        "Hints.Grabbing.Rotating": "Rotujte držené předměty držením E a pohybem Vaší myši!",
+        "Hints.Grabbing.RotatingExtra": "Držte Shift a E společně pro rotaci objektu kolem jeho horizontálních os!",
+
+        "Hints.Grabbing.ScalingDesktop": "Uchopte předmět, držte Shift, a použijte kolečko myši pro škálování předmětu!",
+        "Hints.Grabbing.ScalingVR": "Fyzikálně uchopte objekty oběma rukama pro jejich škálování!",
+
+        "Hints.Grabbing.OtherGrabbables": "Existuje mnoho dalších objektů umožňujících interakci. Zkuste si pohrát s těmito třemi a pozorujte jak fungují!",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Kromě škálování objektů můžete také škálovat sebe povolením škálování v kontextovém menu, a následně držením Ctrl a použitím kolečka myši!",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "Kromě škálování objektů můžete také škálovat sebe povolením škálování v kontextovém menu, chycením prázdného prostoru před sebou oběma rukama, a jejich pohybem přibližováním a oddalováním!",
+
+        "Hints.Telescope.Alignment": "Uchopte teleskop a namiřte jej na měsíc!",
+
+        "Hints.Telescope.TheMoonDesktop": "Během míření na měsíc, držte pravé tlačítko myši a dívejte se kolem pro pohyb měsícem!",
+        "Hints.Telescope.TheMoonVR": "Aktivujet Váš laser pomocí Triggeru a uchopte měsíc!",
+
+        "Hints.Sundial.SoftEquip": "Uchopte tento nástroj pro jeho použití!",
+        "Hints.Sundial.SoftEquipExtra": "Nástroje Vám umožňují měnit svět kolem Vás mnoha způsoby!",
+
+        "Hints.Sundial.HardEquip": "Klikněte na tento nástroj pro jeho nasazení!",
+        "Hints.Sundial.HardEquipExtra": "Nevidíte Váš laser? Lehce přidržte Váš Trigger pro jeho zobrazení!",
+
+        "Hints.Sundial.TheSun": "Namiřte na oblohu a klikněte pro přesun slunce na toto místo!",
+        "Hints.Sundial.TheSunExtra": "Zkuste namířit pod horizont, aby byla noc!",
+
+        "Hints.Sundial.Dequip": "Sundejte nasazený nástroj zvolením Sundat ve Vašem kontextovém menu.",
+        "Hints.Sundial.DequipExtra": "Všimněte si že se možnosti ve Vašem kontextovém menu změnily protože držíte tento nástroj.",
+
+        "Hints.Sundial.Teleporter": "Stiskněte toto tlačítko pro aktivaci teleporteru do Vašeho cloudovéhp domova!",
+        "Hints.Sundial.TeleporterExtra": "Užijte si Váš domov, a děkujeme že jste se zastavili!",
+
+        "UI.TextDisplay.Landscape": "Na šířku",
+        "UI.TextDisplay.Portrait": "Na výšku",
+        "UI.TextDisplay.NormalText": "Normální",
+        "UI.TextDisplay.MonospaceText": "Monospace <size=50%>(všechny znaky se stejnou šířkou)</size>",
+        
+        "UI.VideoPlayer.GlobalSettings": "Globální<br>nastavení",
+        "UI.VideoPlayer.LocalSettings": "Lokální<br>nastavení",
+        "UI.VideoPlayer.SpatialAudio": "Prostorové<br>audio",
+        "UI.VideoPlayer.AreaBroadcast": "Oblastní<br>vysílání",
+        "UI.VideoPlayer.BroascastAudio": "Vysílané<br>audio",
+        "UI.VideoPlayer.EnterURL": "<i><alpha=#77>Zadejte URL zde</closeall>",
+        "UI.VideoPlayer.AudioZoneTheater": "Lokální <br>v kině",
+        "UI.VideoPlayer.AudioZoneGlobal": "Slyšitelné<br>ve Světě",
+        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {uživatel<br>načetl} other {uživatelů<br>načetlo}}",
+        "UI.VideoPlayer.AllUsersLoaded": "Všichni uživatelé<br>načetli",
+        
+        "UI.ColorPicker.ColorPicker": "Color Picker",
+
+        "UI.ColorPicker.Linear": "Lineární",
+
+        "UI.ColorPicker.Hexadecimal": "Hex.",
+        "UI.ColorPicker.ColorSwatches": "Vzorek",
+
+        "UI.ColorPicker.Red": "Červená",
+        "UI.ColorPicker.Green": "Zelená",
+        "UI.ColorPicker.Blue": "Modrá",
+
+        "UI.ColorPicker.Hue": "Odstín",
+        "UI.ColorPicker.Saturation": "Saturace",
+        "UI.ColorPicker.Value": "Hodnota",
+
+        "UI.ColorPicker.Alpha": "Alpha <size=50%>(průhlednost)</size>",
+        "UI.ColorPicker.Gain": "Zesílení",
+
+        "UI.ProgressBar.ImportingItem": "Importuji položku",
+
+        "Tools.Names.MultiTool": "Multi-nástroj",
+
+        "Tools.Names.CommonTools": "Běžné nástroje",
+        "Tools.Names.ManipulationTools": "Manipulační nástroje",
+        "Tools.Names.InformationTools": "Informační nástroje",
+
+        "Tools.Names.GeometryLineBrush": "Štětec na geometrické linky",
+        "Tools.Names.Developer": "Vývojářský nástroj",
+        "Tools.Names.ComponentClone": "Nástroj pro klonování komponent",
+        "Tools.Names.ProtoFlux": "Nástroj na ProtoFlux",
+        "Tools.Names.Material": "Nástroj na materiály",
+        "Tools.Names.Glue": "Nástroj lepidlo",
+        "Tools.Names.Light": "Nástroj na světla",
+        "Tools.Names.Shape": "Nástroj na tvary",
+        "Tools.Names.Microphone": "Nástroj mikrofon",
+        "Tools.Names.GrabbableSetter": "Nástroj pro nastavení uchopitelnosti",
+        "Tools.Names.PhysicalColliderSetter": "Nástroj pro nastavení fyzických colliderů",
+        "Tools.Names.MeshVisibility": "Nástroj pro nastavení viditelnosti meshů",
+        "Tools.Names.CameraObjectVisibility": "Nástroj nastavení viditelnosti objektů na kameře",
+        "Tools.Names.Color": "Nástroj na barvy",
+        "Tools.Names.Mesh": "Nástroj na meshe",
+        "Tools.Names.RiggedMeshTransfer": "Nástroj pro přenos rigged meshů",
+        "Tools.Names.Slicer": "Nástroj pro slicování meshů",
+        "Tools.Names.ControllerDiagnostic": "Nástroj pro diagnostiku ovladačů",
+        "Tools.Names.Measure": "Měřící nástroj",
+        "Tools.Names.Label": "Nástroj pro tvorbu štítků",
 
         "Dummy": "Dummy"
     }

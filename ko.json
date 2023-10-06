@@ -1,6 +1,6 @@
 {
     "localeCode": "ko",
-    "authors": ["MirPASEC", "R3C0D3r", "LUA", "Guide", "Titancube", "Holy_Water"],
+    "authors": ["MirPASEC", "LUA", "R3C0D3r", "Titancube", "Holy_Water", "Guide", "IceCreamPie"],
     "messages": {
 
         "General.OK": "확인",
@@ -111,23 +111,25 @@
         "Inventory.OpenWorld": "세션 시작",
         "Inventory.Equip": "아바타 착용",
         "Inventory.Delete": "선택삭제",
+        "Inventory.CreateDirectory": "폴더 생성",
         "Inventory.SaveHeld": "저장하기",
+        "Inventory.GetURL": "URL복사",
         "Inventory.Inventories": "보관함 전환",
         "Inventory.Share": "선택공유",
         "Inventory.Unshare": "공유해제",
         "Inventory.SaveAvatar": "아바타 저장",
-        "Inventory.Favorite.Home": "지정:홈",
-        "Inventory.Favorite.ProgressBar": "지정:진행바",
-        "Inventory.Favorite.AudioStreamController": "지정:음향송출 제어",
-        "Inventory.Favorite.TextDisplay": "지정:문자출력",
-        "Inventory.Favorite.VideoPlayer": "지정:영상재생",
-        "Inventory.Favorite.AudioPlayer": "지정:음향재생",
-        "Inventory.Favorite.InteractiveCamera": "지정:카메라",
-        "Inventory.Favorite.Keyboard": "지정:키보드",
-        "Inventory.Favorite.Avatar": "지정:아바타",
-        "Inventory.Favorite.WorldLoadingIndicator": "지정:월드로딩 상태",
-        "Inventory.Favorite.ColorDialog": "지정:색상선택",
-        "Inventory.Favorite.Hyperlink": "지정:URL표시기",
+        "Inventory.Favorite.Home": "기본설정:홈",
+        "Inventory.Favorite.ProgressBar": "기본설정:진행바",
+        "Inventory.Favorite.AudioStreamController": "기본설정:음향송출제어기",
+        "Inventory.Favorite.TextDisplay": "기본설정:문자출력",
+        "Inventory.Favorite.VideoPlayer": "기본설정:영상재생",
+        "Inventory.Favorite.AudioPlayer": "기본설정:음향재생",
+        "Inventory.Favorite.InteractiveCamera": "기본설정:카메라",
+        "Inventory.Favorite.Keyboard": "기본설정:키보드",
+        "Inventory.Favorite.Avatar": "기본설정:아바타",
+        "Inventory.Favorite.WorldLoadingIndicator": "기본설정:월드로딩바",
+        "Inventory.Favorite.ColorDialog": "기본설정:색상선택",
+        "Inventory.Favorite.Hyperlink": "기본설정:URL표시기",
         "Inventory.SpawnFacet": "페싯으로 생성",
 
         "Dash.Screens.Home": "홈",
@@ -165,6 +167,7 @@
         "World.LoadingFailed": "읽어오기 실패",
         "World.LoadedAssets": "{total_assets}개의 에셋(Asset) 중 {assets}개를 읽고 있습니다.",
         "World.Downloading": "{total_bytes}중 {bytes} 다운로드 중",
+        "World.Loaded": "로딩완료",
 
         "World.Connection.EstablishingConnection": "연결을 진행중입니다.",
         "World.Connection.RequestingJoin": "참여를 요청합니다.",
@@ -387,7 +390,7 @@
         "Indicator.Sync.SyncingItems": "동기화<br><size=61.8033%>{item_count}개 항목</size>",
         "Indicator.Sync.UploadingVariants": "업로드<br><size=61.8033%>에셋 베리언츠</size>",
         "Indicator.Sync.SyncError": "동기화 오류 <size=61.803%>자세한 내용은 로그를 확인하세요.</size>",
-        "Indicator.Sync.OutOfSpace": "동기화 오류 <size=50%>저장소 부족</size>",
+        "Indicator.Sync.StorageFull": "동기화 오류 <size=50%>저장소 부족</size>",
 
         "Indicator.Storage.StorageFull": "저장소 부족",
         "Indicator.Storage.Usage": "<size=61.803%>사용중인 저장소</size><br>{storage_max}중 {storage_used}",
@@ -893,6 +896,10 @@
         "Importer.Video.Stereo180": "스테레오 180도 영상",
         "Importer.Video.Depth.Prompt": "깊이 프리셋(Depth Preset)",
         "Importer.Video.Depth.Default": "기본",
+
+        "Importer.Slices.Title": "볼륨메트릭 텍스쳐로 자르기",
+        "Importer.Slices.TitleGrayscale": "볼륨메트릭 텍스쳐로 자르기(회색조)",
+        "Importer.Slices.Description": "폴더의 모든 이미지 파일을 볼륨메트릭 텍스쳐로 처리합니다.",
 
         "Exporter.Title": "내보내기",
         "Exporter.FileName": "파일명:",
@@ -1636,6 +1643,7 @@
         "Migration.Groups.Introduction": "그룹 정보도 이전할까요?",
 
         "Migration.Groups.Description": "기본적으로 귀하가 관리자인 모든 그룹이 이전됩니다. 일부 그룹만 이전하고자 하는 경우 아래 버튼을 클릭하여 그룹 정보를 조회한 다음, 이전하고자 하는 그룹을 선택하세요.",
+        
         "Migration.Groups.LoadGroups": "그룹정보 읽어오기",
         "Migration.Groups.RefreshGroups": "그룹정보 다시읽기",
 
@@ -1647,6 +1655,7 @@
 
         "Migration.Summary": "모든 준비가 끝났습니다. 아래의 마이그레이션 시작을 클릭하면 이전 작업이 시작됩니다.\n\n마이그레이션은 모든 것을 복사하기에, 많은 시간이 걸릴 수 있습니다. 이전 작업은 즐겨찾기 해둔 항목을 우선적으로 수행하게 됩니다.\n\n이전 작업은 {appName}을(를) 계속 실행해 둘 필요는 없습니다만, 다음을 통해 진행상황을 보내드리겠습니다. {appName} 봇이 어떻게 진행되고 있는지 알려줍니다.",
 
+        
         "Migration.List.EmptyTitle": "새로운 마이그레이션을 시작하나요?",
         "Migration.List.EmptySubtitle": "좌 상단에 있는 \"새로운 마이그레이션 작업\"을 클릭하세요.",
 
@@ -1900,6 +1909,7 @@
         "UI.VideoPlayer.AudioZoneTheater": "로컬에서<br>구역으로",
         "UI.VideoPlayer.AudioZoneGlobal": "전역<br>송출",
         "UI.VideoPlayer.UsersLoaded": "재생준비<br>{users_loaded}/{users_present}",
+        "UI.VideoPlayer.AllUsersLoaded": "모든 사용자<br>재생준비 끝",
 
         "UI.ColorPicker.ColorPicker": "색상 선택기",
 

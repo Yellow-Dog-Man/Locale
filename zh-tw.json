@@ -77,7 +77,7 @@
 
         "Interaction.Destroy": "破壞",
         "Interaction.Duplicate": "重複",
-
+        "Interaction.SaveToInventory": "保存到物品欄",
         "Interaction.Undo": "撤消",
         "Interaction.Redo": "重做",
         "Interaction.EquipTool": "裝備",
@@ -87,7 +87,7 @@
         "Interaction.ResetScale": "重設比例",
         "Interaction.LaserEnabled": "啟用激光",
         "Interaction.LaserDisabled": "激光禁用",
-        
+        "Interaction.Grab.Palm": "抓取：手掌",
         "Interaction.Grab.Precision": "抓取：精準",
         "Interaction.Grab.Auto": "抓取：自動",
         "Interaction.Grab.Off": "抓取：僅激光",
@@ -111,7 +111,9 @@
         "Inventory.OpenWorld": "打開世界",
         "Inventory.Equip": "裝備",
         "Inventory.Delete": "刪除",
+	    "Inventory.CreateDirectory": "新建文件夾",
         "Inventory.SaveHeld": "保存所持",
+        "Inventory.GetURL": "獲取URL",
         "Inventory.Inventories": "裝備清單",
         "Inventory.Share": "分享",
         "Inventory.Unshare": "取消分享",
@@ -128,14 +130,14 @@
         "Inventory.Favorite.WorldLoadingIndicator": "設爲加載指示器",
         "Inventory.Favorite.ColorDialog": "設爲色盤",
         "Inventory.Favorite.Hyperlink": "設爲超鏈接顯示",
-
+        "Inventory.SpawnFacet": "生成Facet",
 
         "Dash.Screens.Home": "家",
         "Dash.Screens.Worlds": "世界",
         "Dash.Screens.Contacts": "朋友",
         "Dash.Screens.Inventory": "庫存",
         "Dash.Screens.Desktop": "桌面",
-        "Dash.Screens.Session": "會議",
+        "Dash.Screens.Session": "會話",
         "Dash.Screens.FileBrowser": "<nobr>文件瀏覽器",
         "Dash.Screens.Settings": "設定",
         "Dash.Screens.Exit": "出口",
@@ -165,6 +167,7 @@
         "World.LoadingFailed": "失敗",
         "World.LoadedAssets": "已加載{assets}個資產，共{total_assets}個",
         "World.Downloading": "正在下載{total_bytes}個{bytes}資產",
+        "World.Loaded": "加載完成",
 
         "World.Connection.EstablishingConnection": "建立連接",
         "World.Connection.RequestingJoin": "申請加入",
@@ -172,14 +175,19 @@
         "World.Connection.Connected": "連接的",
         "World.Connection.SyncingInitialState": "同步初始世界狀態",
 
+        "World.Connection.LNL.DirectIP": "LNL IP 直連",
+        "World.Connection.LNL.NATPunchthrough": "LNL NAT 穿透 {n}",
+        "World.Connection.LNL.Relay": "LNL 轉發",
+        "World.Connection.SteamNetworkingSockets": "Steam Networking 套接字",
+
         "World.Error.AccessDenied": "拒絕訪問",
         "World.Error.SecurityViolation": "安全違規",
         "World.Error.OnlyRegisteredUsers": "只允許註冊用戶加入",
         "World.Error.OnlyContacts": "僅允許主持人的朋友加入",
-        "World.Error.OnlyContactsOfContacts": "僅允許主持人的朋友加入",
-        "World.Error.Private": "本次會議是私人的",
-        "World.Error.SessionEnded": "會議已結束",
-        "World.Error.UserLimitReached": "會議達到了用戶限制",
+        "World.Error.OnlyContactsOfContacts": "僅允許會話中用戶的好友加入",
+        "World.Error.Private": "本次會話是私人的",
+        "World.Error.SessionEnded": "會話已結束",
+        "World.Error.UserLimitReached": "會話達到了用戶限制",
         "World.Error.FailedAuthentication": "身份驗證失敗",
         "World.Error.FailedUserID": "認證用戶標識失敗",
         "World.Error.FailedFetchingAuthentication": "無法獲取身份驗證信息",
@@ -204,13 +212,13 @@
         "World.Config.AccessLevelHeader": "誰可以加入這個世界？",
         "World.Config.AutoKickAFK": "自動踢AFK用戶:",
         "World.Config.AutoKickAFKMinutes": "最長AFK分鐘:",
-        "World.Config.HideFromListing": "不顯示在會議列表中",
+        "World.Config.HideFromListing": "不顯示在會話列表中",
         "World.Config.Autosave": "自動保存（將覆蓋上一次保存):",
         "World.Config.AutosaveInterval": "自動保存間隔（分鐘）:",
         "World.Config.CleanupAssets": "清理未使用的資產:",
         "World.Config.CleanupInterval": "清理間隔（秒）:",
 
-        "World.Actions.StartSession": "開始會議",
+        "World.Actions.StartSession": "開始會話",
         "World.Actions.Join": "加入",
         "World.Actions.Focus": "焦點",
         "World.Actions.Close": "關閉世界",
@@ -239,29 +247,30 @@
         "World.Actions.HostingWarning": "你在主持這個世界。所有的用戶都會被斷開連接。",
 
         "World.Actions.GetWorldOrb": "獲取世界球體",
-        "World.Actions.CopyWorldURL": "複製世界網址",
-        "World.Actions.CopyRecordURL": "複製記錄網址",
-        "World.Actions.StartCustomSession": "開始自定義會議",
+        "World.Actions.CopyWorldURL": "複製世界URL",
+        "World.Actions.CopyRecordURL": "複製記錄URL",
+        "World.Actions.StartCustomSession": "開始自定義會話",
         "World.Actions.ModifyMetadata": "編輯元數據",
-        "World.Actions.GetSessionOrb": "獲取會議球",
-        "World.Actions.CopySessionURL": "複製會議網址",
+        "World.Actions.GetSessionOrb": "獲取會話球",
+        "World.Actions.CopySessionURL": "複製會話URL",
 
         "World.Indicator.NoData": "沒有數據",
         "World.Indicator.LocalWorld": "本地機器",
         "World.Indicator.Author": "作者: {name}",
         "World.Indicator.Host": "主持人: {name}",
         "World.Indicator.Hosting": "託管",
-        "World.Indicator.Sessions": "{n,plural, other {# 會議}}",
+        "World.Indicator.Sessions": "{n,plural, other {# 會話}}",
         "World.Indicator.Users": "用戶",
-        "World.Indicator.Users.None": "(找不到活動的會議)",
+        "World.Indicator.Users.None": "(找不到活動的會話)",
         "World.Indicator.Description": "描述",
         "World.Indicator.Description.None": "(沒有提供描述)",
+        "World.Indicator.Visited": "(造訪過)",
 
         "World.Detail.ActiveSessions": "活動的會話:",
         "World.Detail.ActiveUsers": "活躍用戶:",
         "World.Detail.NewSession": "<新會話>",
         "World.Detail.DescriptionHeader": "描述: ",
-        "World.Detail.SessionInformationHeader": "會議信息",
+        "World.Detail.SessionInformationHeader": "會話信息",
         "World.Detail.Uptime": "正常運行時間",
         "World.Detail.AccessLevel": "能見度",
         "World.Detail.Users": "用戶",
@@ -277,10 +286,10 @@
 
         "World.Category.Everything": "萬事",
         "World.Category.Featured": "精選",
-        "World.Category.PublishedWorlds": "出版的世界",
+        "World.Category.PublishedWorlds": "發佈的世界",
         "World.Category.ActiveSessions": "活動會話",
         "World.Category.ContactsSessions": "好友的會話",
-        "World.Category.HeadlessSessions": "無頭客戶端",
+        "World.Category.HeadlessSessions": "無頭會話",
         "World.Category.Social": "社交",
         "World.Category.Games": "遊戲類",
         "World.Category.Art": "藝術",
@@ -301,7 +310,7 @@
         "World.SortParameter.SearchScore": "搜索分數",
         "World.SortParameter.Name": "名稱",
         "World.SortParameter.OpenedWorldCount": "開放世界",
-        "World.SortParameter.TotalSessionCount": "總會議",
+        "World.SortParameter.TotalSessionCount": "總會話",
         "World.SortParameter.TotalUserCount": "總用戶",
         "World.SortParameter.CreationDate": "創建日期",
         "World.SortParameter.LastUpdateDate": "修改日期",
@@ -313,7 +322,7 @@
         "World.Filter.DataSources": "數據源:",
         "World.Filter.OpenedWorlds": "開放的世界",
         "World.Filter.ActiveSessions": "活動會話",
-        "World.Filter.PublishedWorlds": "出版的世界",
+        "World.Filter.PublishedWorlds": "發佈的世界",
         "World.Filter.LocalWorlds": "本地世界",
         "World.Filter.BaseSearch": "基礎搜索:",
         "World.Filter.ByOwner": "由業主:",
@@ -386,7 +395,7 @@
         "Indicator.Storage.StorageFull": "存儲已滿",
         "Indicator.Storage.Usage": "{storage_used} 共 {storage_max}<br><size=61.803%>存儲空間已使用</size>",
 
-        "Indicator.LiveHiddenMessage": "（直播時信息已隱藏）",
+        "Indicator.LiveHiddenMessage": "（直播時訊息已隱藏）",
 
         "Login.InvalidCredentials": "無效憑據",
         "Login.InvalidLogin": "無效憑據",
@@ -400,8 +409,8 @@
         "Login.InvalidRecoveryCode": "無效恢復代碼",
         "Login.UnsupportedAuthentication": "不支援的認證方式",
         "Login.EmailNotVerified": "郵箱未驗證",
-        "Login.AccountTempLocked": "您的賬號已被鎖定。",
-        "Login.AccountBanned": "您的賬號已被封禁。",
+        "Login.AccountTempLocked": "您的賬戶已被鎖定。",
+        "Login.AccountBanned": "您的賬戶已被封禁。",
         "Login.DuplicateAccount": "重複的賬號",
 
         "Register.MissingRequest": "未輸入詳細註冊信息",
@@ -440,7 +449,6 @@
         "Account.RecoverPassword": "忘記密碼？",
         "Account.LiveEmailWarning": "<color=#f00>警告:</color> live.com，hotmail.com，Outlook.com和其他Microsoft託管的服務最多可能需要1-2天才能接受該電子郵件。",
         "Account.PasswordRules": "(至少8個字符，1個數字，1個小寫字母，1個大寫字母)",
-        "Account.AgeConfirm": "我今年13歲以上",
         "Account.LostPassword": "忘記密碼",
         "Account.SendRecoveryCode": "發送恢復碼",
         "Account.ResetPasswordHeader": "重置你的密碼",
@@ -464,35 +472,35 @@
         "Account.Saml2.LoggingIn" : "正在等待登錄完成（請查看您的瀏覽器）...",
 
         "Account.TOTP.Title" : "雙因子認證（2FA）",
-        "Account.TOTP.Initializing": "正在檢查您賬號的 2FA 狀態...",
+        "Account.TOTP.Initializing": "正在檢查您賬戶的 2FA 狀態...",
         "Account.TOTP.Code.Header": "安全碼",
         "Account.TOTP.Code.Description": "首先，您需要將一個安全碼輸入您的 TOTP 認證應用，例如 <b>Authy</b> 或者 <b>Google Authenticator</b>.<br><br>我們建議以掃描二維碼的方式輸入，但您也可以手動輸入。 <b>千萬不要告訴他人您的安全碼。</b><br><br>如果您正在VR模式下，您可以通過按下 F8 切換到桌面模式。",
         "Account.TOTP.Code.QRCode": "掃描二維碼",
         "Account.TOTP.Code.Key": "安全碼：",
         "Account.TOTP.RecoveryCodes.Header": "恢復碼",
-        "Account.TOTP.RecoveryCodes.Description": "把這些代碼保存在安全的地方。它們可以在您的手機丟失或損壞後，幫助您再次訪問您的賬號。每條代碼只能使用一次。<b>千萬不要告訴他人這些代碼。</b> 如果您弄丟了它們，您將 <color=red>永遠</color> 失去對您賬號的訪問權。",
+        "Account.TOTP.RecoveryCodes.Description": "把這些代碼保存在安全的地方。它們可以在您的手機丟失或損壞後，幫助您再次訪問您的賬戶。每條代碼只能使用一次。<b>千萬不要告訴他人這些代碼。</b> 如果您弄丟了它們，您將 <color=red>永遠</color> 失去對您賬戶的訪問權。",
         "Account.TOTP.RecoveryCodes.Codes": "恢復碼：",
         "Account.TOTP.Activate.Header": "激活 2FA",
-        "Account.TOTP.Activate.Description": "要在您的賬號上激活 2FA， 請使用您認證應用所產生的六位數字口令來確保一切工作正常。<br><br>一旦激活，您將需要這些代碼來進行特定操作。",
+        "Account.TOTP.Activate.Description": "要在您的賬戶上激活 2FA， 請使用您認證應用所產生的六位數字口令來確保一切工作正常。<br><br>一旦激活，您將需要這些代碼來進行特定操作。",
         "Account.TOTP.Activate.Token": "六位數字口令：",
         "Account.TOTP.Activate.TokenField": "在此處輸入口令...",
         "Account.TOTP.Activate.Activate": "激活",
         "Account.TOTP.Activate.Activating": "激活中...",
         "Account.TOTP.Activate.InvalidToken": "無效口令！",
-        "Account.TOTP.Message.AlreadySetup": "您的賬號已啓用 2FA！",
+        "Account.TOTP.Message.AlreadySetup": "您的賬戶已啓用 2FA！",
         "Account.TOTP.Message.Error": "遭遇意外錯誤！請稍候重試。",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>恭喜！</size><br><br>您的賬號已啓用 2FA 並享受其帶來的額外保護！<br><br>您還可以用 /enableLogin2FA 指令啓用此賬號登錄時的 2FA。",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>恭喜！</size><br><br>您的賬戶已啓用 2FA 並享受其帶來的額外保護！<br><br>您還可以用 /enableLogin2FA 指令啓用此賬戶登錄時的 2FA。",
         "Account.TOTP.Deactivate.Header": "取消 2FA",
-        "Account.TOTP.Deactivate.Description": "目前 2FA 已 <b><color=green>在您的賬號上設置並激活</color></b>。如果您需要取消它（例如：您丟失了手機或者恢復碼遭泄漏），您可以在此處進行操作。<br><br>取消 2FA 後，您可以再次設置啓用它，這將生成一個全新的安全碼與一套新的恢復碼。<br><br>如果您丟失了手機，且需要再次設置激活 2FA，我們 <b>強烈</b> 建議您馬上進行這項操作，因爲每條恢復碼只能被使用一次，當其耗盡後，您將永遠無法訪問您的賬號。",
+        "Account.TOTP.Deactivate.Description": "目前 2FA 已 <b><color=green>在您的賬戶上設置並激活</color></b>。如果您需要取消它（例如：您丟失了手機或者恢復碼遭泄漏），您可以在此處進行操作。<br><br>取消 2FA 後，您可以再次設置啓用它，這將生成一個全新的安全碼與一套新的恢復碼。<br><br>如果您丟失了手機，且需要再次設置激活 2FA，我們 <b>強烈</b> 建議您馬上進行這項操作，因爲每條恢復碼只能被使用一次，當其耗盡後，您將永遠無法訪問您的賬戶。",
         "Account.TOTP.Deactivate.Deactivate": "取消",
         "Account.TOTP.Deactivate.Deactivating": "取消中...",
-        "Account.TOTP.Message.DeactivationComplete": "您賬號的 2FA 已被成功取消。<br><br>您的賬號正因此面臨更大的風險！<br><br>我們強烈建議您馬上重新設置啓用 2FA，特別是當您因丟失手機而使用了恢復碼後。",
+        "Account.TOTP.Message.DeactivationComplete": "您賬戶的 2FA 已被成功取消。<br><br>您的賬戶正因此面臨更大的風險！<br><br>我們強烈建議您馬上重新設置啓用 2FA，特別是當您因丟失手機而使用了恢復碼後。",
 
-        "Account.Type.Standard" : "標準賬號",
-        "Account.Type.Business" : "商用賬號",
+        "Account.Type.Standard" : "標準賬戶",
+        "Account.Type.Business" : "商用賬戶",
         "Account.Type.Patreon" : "Patreon 支持者",
         "Account.Type.Mentor" : "{platform} 導師",
-        "Account.Type.Moderator" : "{platform} 版主",
+        "Account.Type.Moderator" : "{platform} 管理員",
         "Account.Type.Team" : "{platform} 團隊",
 
         "Avatar.Badge.Live" : "直播",
@@ -505,6 +513,7 @@
         "Profile.Status.Busy": "忙碌",
         "Profile.Status.Invisible": "隱身",
         "Profile.Status.Offline": "離線",
+        "Profile.Status.Headless": "無頭主機",
 
         "Session.Tab.Settings": "設定",
         "Session.Tab.Users": "用戶",
@@ -540,6 +549,7 @@
         "Contacts.AcceptRequest": "接受請求",
         "Contacts.IgnoreRequest": "忽略請求",
         "Contacts.Invite": "邀請",
+        "Contacts.RevokeInvite": "撤回邀請",
         "Contacts.BanFromAllSessions": "禁止進入我主持的會話",
         "Contacts.UnbanFromAllSessions": "取消禁止進入我主持的會話",
         "Contacts.BanFromCurrentWorld": "禁止進入當前的世界",
@@ -548,9 +558,9 @@
         "Contacts.Unblocked" : "取消屏蔽",
         "Contacts.AvatarBlock" : "屏蔽化身",
         "Contacts.MutualBlock" : "相互屏蔽",
-        "Contacts.SelfAccount": "我的賬號",
+        "Contacts.SelfAccount": "我的賬戶",
         "Contacts.SearchPrompt": "搜索好友...",
-        "Contacts.WriteMessage": "編寫信息...",
+        "Contacts.WriteMessage": "編寫訊息...",
 
         "Contacts.InSession": "在 {name}",
         "Contacts.InPrivate": "在私人世界",
@@ -573,7 +583,7 @@
         "Notifications.ReceivedContactRequest": "發來一個好友請求",
         "Notifications.ReceivedInvite": "邀請您：",
         "Notifications.ReceivedItem": "發來一件物品：",
-        "Notifications.VoiceMessage": "發來一條語音信息",
+        "Notifications.VoiceMessage": "發來一條語音訊息",
 
         "Undo.SetField": "將字段 {field_name} 設置為 {value}",
         "Undo.SetReference": "將引用 {ref_name} 設置為 {ref_target}",
@@ -678,6 +688,14 @@
         "Tooltip.Microphone.SourceRaw": "Raw文件",
         "Tooltip.Microphone.SourceFiltered": "過濾並歸一化",
 
+        "Tooltip.ProtoFlux.Drive" : "驅動",
+        "Tooltip.ProtoFlux.Source" : "源",
+        "Tooltip.ProtoFlux.Reference" : "參考",
+        "Tooltip.ProtoFlux.Write" : "寫",
+        "Tooltip.ProtoFlux.Proxy" : "代理",
+        "Tooltip.ProtoFlux.CreateLocal" : "創建局部變量",
+        "Tooltip.ProtoFlux.CreateStore" : "創建變量",
+        "Tooltip.ProtoFlux.CreateDataModelStore" : "創建結構變量",
         "Tooltip.ProtoFlux.Overview" : "切換概覽",
         "Tooltip.ProtoFlux.NodeBrowser" : "瀏覽節點",
         "Tooltip.ProtoFlux.PackInPlace" : "就地打包",
@@ -877,6 +895,10 @@
         "Importer.Video.Stereo180": "立體180度視頻",
         "Importer.Video.Depth.Prompt": "深度預設",
         "Importer.Video.Depth.Default": "默認",
+
+        "Importer.Slices.Title": "將圖像切片導入爲體積紋理",
+        "Importer.Slices.TitleGrayscale": "將圖像切片導入爲體積紋理（灰度）",
+        "Importer.Slices.Description": "將文件夾中的所有圖像合成爲一個體積紋理",
         
         "Exporter.Title": "導出",
         "Exporter.FileName": "文件名：",
@@ -1073,7 +1095,7 @@
         "Settings.LegacyGripEquip": "啟用舊版雙握把裝備",
         "Settings.LegacyWorldSwitcher": "啟用舊版世界切換器",
         "Settings.FetchIncompatibleSessions": "顯示不兼容的會話",
-        "Settings.DoNotSendReadStatus": "不發送實時消息已讀狀態",
+        "Settings.DoNotSendReadStatus": "不發送實時訊息已讀狀態",
         "Settings.MaxConcurrentAssetTransfers": "最大同時傳輸資產數",
         "Settings.AutosaveScreenshotPath": "自動保存截圖路徑",
         "Settings.AutosaveAllScreenshots": "自動保存世界中的所有截圖",
@@ -1300,6 +1322,8 @@
         "Inspector.Texture.Format": "格式：{format}, 存儲：<nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "變種ID：{variant}",
 
+        "Inspector.Texture.BakeTexture": "烘焙紋理",
+
         "Inspector.Texture.InvertRGB": "倒置 RGB",
         "Inspector.Texture.InvertR": "倒置 R",
         "Inspector.Texture.InvertG": "倒置 G",
@@ -1418,6 +1442,9 @@
         "Inspector.SimpleAwayIndicator.TestAway" : "設爲離開（調試）",
         "Inspector.SimpleAwayIndicator.TestRestore" : "返回正常（調試）",
 
+        "Inspector.Fields.Drive" : "驅動",
+        "Inspector.Fields.DriveWriteBack" : "驅動 <size=50%>（回寫）</size>",
+
         "Inspector.Actions.CopyComponent" : "拷貝組件",
         "Inspector.Actions.MoveComponent" : "移動組件",
 
@@ -1505,11 +1532,11 @@
         "VolumePlaneSlicer.Slicer": "滑塊",
 
         "Tutorial.Welcome.Welcome": "歡迎！",
-        "Tutorial.Welcome.Description" : "進入一個有着無限可能性的全新數字宇宙。不管您是爲了與世界各地的朋友社交，還是爲了建造、創作與開發從美麗的藝術品、交互式數字化身等小玩藝，到複雜的可交互遊戲和世界，Resonite 都爲您提供了一個無限可自定義的環境。這裏永遠歡迎您，您也將能在此找到志同道合的朋友。<br><br>在您開始探索之前，我們會先引導您進行一些必要的設置，以確保絲滑的體驗。當您準備就緒，就請點擊下方的按鈕。",
+        "Tutorial.Welcome.Description" : "進入一個有着無限可能性的全新數字宇宙。不管您是爲了與世界各地的朋友社交，還是爲了建造、創作與開發從美麗的藝術品、交互式數字化身等小玩意兒，到複雜的可交互遊戲和世界，Resonite 都爲您提供了一個無限可自定義的環境。這裏永遠歡迎您，您也將能在此找到志同道合的朋友。<br><br>在您開始探索之前，我們會先引導您進行一些必要的設置，以確保絲滑的體驗。當您準備就緒，就請點擊下方的按鈕。",
         "Tutorial.Welcome.Begin": "讓我們開始吧！",
 
         "Tutorial.Welcome.AccountHeader": "{appName}帳戶",
-        "Tutorial.Welcome.AccountDescription": "創建帳戶可為您提供1GB的免費存儲空間，您將可以保存物品、喜歡的化身，添加朋友和傳遞消息。",
+        "Tutorial.Welcome.AccountDescription": "創建帳戶可為您提供1GB的免費存儲空間，您將可以保存物品、喜歡的化身，添加朋友和傳遞訊息。",
         "Tutorial.Welcome.AccountCreate": "創建帳戶",
         "Tutorial.Welcome.AccountLogin": "我已經有一個帳戶",
         "Tutorial.Welcome.AccountSkip": "在沒有帳戶的情況下繼續",
@@ -1543,7 +1570,7 @@
         "Tutorial.UserResources.MerchandiseTitle": "{appName} 商品",
 
         "Tutorial.Intro.BadgesAppTeam": "{appName} 團隊",
-        "Tutorial.Intro.BadgesModerator": "版主",
+        "Tutorial.Intro.BadgesModerator": "管理員",
         "Tutorial.Intro.BadgesMentor": "導師",
         "Tutorial.Intro.BadgesDisabilityHearing": "聽力障礙",
         "Tutorial.Intro.BadgesDisabilityVision": "視覺障礙",
@@ -1566,6 +1593,371 @@
         "Exiting.SavingChanges": "正在保存更改...",
         "Exiting.Exiting": "正在退出中...",
         "Exiting.LoggingOut": "正在註銷...",
+
+        "Migration.Title": "遷移",
+        "Migration.NewTask": "新建遷移任務",
+
+        "Migration.LoginModal.Title": "遷移數據？",
+        "Migration.LoginModal.Description": "您希望從另一個賬戶遷移數據嗎？您也可以選擇稍後再從儀表盤上的“遷移”標籤頁執行此操作。",
+        "Migration.LoginModal.OpenMigration": "打開遷移",
+        "Migration.LoginModal.Later": "稍後",
+        "Migration.LoginResetID.Title": "確定要重置UserID嗎？",
+        "Migration.LoginResetID.Description": "請您知悉，執行此項操作會導致 <color=red>難以預知的內容損壞</color>。您所有的物品、世界、好友和訊息都將被成功遷移，但任何依賴於您舊UserID引用的行爲與組件很可能會不再工作，需要進行重新配置。<color=red>不！要！使用這個選項</color> 除非您有非常充分的理由。",
+        "Migration.LoginResetID.ResetButton": "我明白了，重置吧",
+
+        "Migration.ReservedUsername.Title":"<b>被保留的用戶名</b>",
+        "Migration.ReservedUsername.Description": "這個用戶名正爲原擁有者所保留。如果這是您的賬戶，請提供您的 {platform} 憑據來解鎖它。我們不會保留這些憑據，它們只在註冊時被用於驗證您對賬戶的所有權。",
+        "Migration.SourcePassword": "{platform} 密碼：",
+        "Migration.SourceUsername": "{platform} 用戶名：",
+
+        "Migration.Dialog.Title": "賬戶遷移",
+        "Migration.Dialog.Source" : "您可以遷移來自任何兼容基礎設施的數據。首先，從下方的列表中選擇一個您希望自其遷移數據的基礎設施。您也可以通過在安裝文件夾下的“Migrations”文件夾放置配置文件來添加額外基礎設施。",
+        "Migration.Dialog.AccountDescription": "要遷移您的賬戶，我們需要您的 {platform} 賬戶密碼以登錄並訪問數據。",
+
+        "Migration.ResetID.Title": "重置我的UserID",
+        "Migration.ResetID.Description":"<color=red><b>警告：</b></color> 選擇這個選項 <b>會不可還原地部分損壞現存內容</b>，其中包括用戶內容、社區服務、鏈接、雲變量等中任何對UserID的引用。這些引用會被重置，但您的物品、世界、好友與訊息不會丟失。我們 <b>只</b> 建議您在想更換一個新的隨機UserID時使用此選項。除非您有重置UserID的充分理由，您 <b>不！該！</b> 使用此選項。您的UserID會像這樣變化：\n U-MyUsername -> U-fX3pKe7AYYQ",
+
+        "Migration.DataSelection.Title": "當我們遷移您賬戶時，應該遷移哪些數據？",
+        "Migration.DataSelection.Everything": "所有數據",
+        "Migration.DataSelection.Choose": "讓我自己選擇",
+
+        "Migration.DataSelection.Favorites": "收藏內容（化身、家、相機、鍵盤、Facets）",
+
+        "Migration.DataSelection.Favorites.Description": "這將首先遷移您的家、收藏的化身、鍵盤、相機與儀表板，這樣您就能儘快開始使用它們。\n <color=red><b>警告：</b></color> 如果您選擇了這個選項，您可能 <b>失去某些</b> 在遷移前作出的對您收藏內容的更改。",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "我們應該在遷移時覆寫您的收藏夾嗎？",
+
+        "Migration.DataSelection.Home.Title": "將您原來的家設爲默認？",
+        "Migration.DataSelection.Home.Description": "當我們遷移您數據時，您原本的雲端家園會被安置在一個不同的URL下，您的默認家會被設爲一個全新的雲端家園。不過，如果您希望如此，我們也可以將您原有的家設置爲默認。即使您選擇了“不”，您原有的家依然可以被訪問。您也可以稍後再收藏它並設爲您的家。",
+
+        "Migration.DataSelection.Contacts": "好友",
+        "Migration.DataSelection.Message History": "訊息歷史",
+        "Migration.DataSelection.InventoryWorld": "庫存 & 世界",
+        "Migration.DataSelection.CloudVariable.Definitions": "雲變量定義",
+        "Migration.DataSelection.CloudVariable.Values": "雲變量值",
+
+        "Migration.DataSelection.AlwaysOverwrite": "總是覆寫",
+
+        "Migration.Start": "開始遷移",
+        "Migration.Groups.Title": "遷移羣組",
+        "Migration.Groups.Introduction": "我們應該遷移您的羣組嗎？",
+
+        "Migration.Groups.Description": "所有您作爲管理員的羣組都將被默認遷移。如果您只想遷移指定羣組，點擊下方的按鈕來加載它們並選擇您希望遷移的羣組。",
+
+        "Migration.Groups.LoadGroups": "加載羣組",
+        "Migration.Groups.RefreshGroups": "刷新羣組",
+
+        "Migration.Groups.Fetching": "羣組拉取中...",
+        "Migration.Groups.Fetching.LoginFailed": "登錄錯誤：{error}",
+        "Migration.Groups.Fetching.Error": "羣組拉取錯誤：{error}",
+        "Migration.Groups.NoGroups": "未找到可遷移的 {platform} 羣組。",
+        "Migration.Groups.NotGroupAdmin": "您未擔任任何 {platform} 羣組的管理員，請聯繫您羣組的管理員以遷移它們！",
+
+        "Migration.Summary": "好的，我們已經完成了準備工作。點擊下方的開始遷移按鈕，我們就會開始您的遷移工作。\n\n遷移工作需要一些時間，我們需要拷貝所有的數據。如果您選擇了遷移您的收藏夾，我們會優先遷移它們以便您能夠儘快使用。\n\n在遷移運行時，您無需保持 {appName} 運行，但我們也會通過 {appName} 機器人向您發送通知以告知您進展如何。",
+
+        "Migration.List.EmptyTitle": "需要開始新的遷移工作嗎？",
+        "Migration.List.EmptySubtitle": "點擊左上方的“新建遷移任務”按鈕",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>創建於：{time}\n狀態：{state}",
+        "Migration.Report.Title": "遷移任務報告：",
+        "Migration.Report.Description": "<color={hex}>描述：</color> {value}",
+        "Migration.Report.Status": "<color={hex}>狀態：</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>創建於：</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>開始於：</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>完成於：</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "正在遷移 <color={hex}>{value}</color> 的數據。",
+        "Migration.Report.CurrentItem": "當前項目： <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>當前速度：</color> ~{value} 世界/項目每分鐘",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>此任務之前的排隊任務數：</color> {value}",
+        "Migration.Report.ContactStatus": "已遷移 <color={hex}>{total}</color> 好友中的 <color={hex}>{current}</color> 個",
+        "Migration.Report.MessageStatus": "已遷移 <color={hex}>{value}</color> 條訊息",
+        "Migration.Report.CloudVariableDefinitionStatus": "已遷移 <color={hex}>{value}</color> 個雲變量定義",
+        "Migration.Report.CloudVariableValueStatus":"已遷移 <color={hex}>{value}</color> 個雲變量",
+        "Migration.Report.RecordStatus": "已遷移 <color={hex}>{total}</color> 世界/項目中的 <color={hex}>{current}</color> 個，失敗 <color=red>{failed}</color> 個。",
+        "Migration.Report.GroupStatus": "已遷移 <color={hex}>{total}</color> 羣組中的 <color={hex}>{current}</color> 個",
+        "Migration.Report.GroupMemberStatus": "共已遷移 <color={hex}>{value}</color> 羣組成員",
+
+        "Migration.Error": "<color=red>錯誤：</color> {error}",
+        "Migration.NothingSelected": "未選擇任何項，無法開始。",
+
+        "Migration.ColorManagement": "這個世界在伽馬色彩空間下被創建，目前已被自動轉換至線性色彩空間。<br><br>它看起來可能會有些不同，但總體應當保持可用。<br><br>如果您就是作者且發現了世界轉換中的錯誤，<color=red>不！要！存！儲！</color> 僅進行另存。<br><br>只要原始世界存在，我們還可以改良轉換流程。否則您將自己負責修復這些錯誤。",
+
+        "Temporary.MMC.Voting UI": "MMC 投票界面",
+        "Temporary.MMC.Vote": "投票",
+
+        "Temporary.MMC.Categories.Name": "類別",
+
+        "Temporary.MMC.Categories.Worlds": "世界",
+        "Temporary.MMC.Categories.Worlds.Social": "社交",
+        "Temporary.MMC.Categories.Worlds.Game": "遊戲",
+
+        "Temporary.MMC.Categories.Other": "其他",
+        "Temporary.MMC.Categories.Misc": "雜項",
+        "Temporary.MMC.Categories.Meme": "梗",
+
+        "Temporary.MMC.Categories.Avatars": "化身",
+        "Temporary.MMC.Categories.Avatars.Accessories": "配件",
+
+        "Temporary.MMC.VoteSuccess": "在 {category} 中您投票給了 {voteTarget}。",
+        "Temporary.MMC.VoteFailure": "投票失敗，您的投票未被成功計票，請重試。",
+        "Temporary.MMC.VotedAlready": "您已經爲 {voteTarget} 投過票了。",
+        "Temporary.MMC.VoteInvalid": "無效投票，請重試。",
+
+        "CloudHome.WelcomeHome": "歡迎回家",
+        "CloudHome.TargetRangeOptions": "目標範圍選項",
+
+        "Tutorial.Saving.Title": "歡迎回家！",
+        "Tutorial.Saving.Content": "歡迎來到您的 <b><i><color=hero.yellow>家</b></i></color> 世界！這是您每次登錄後所來到的地方。<br><br>這是一個您自己的世界，您可以保存任何所作的更改。<br><br>如果您保存了，當您下次回來時，一切將與您離開時一模一樣！",
+
+        "CloudHome.Info.OnlineUsers": "在線 {online_users,plural, one {用戶} other {用戶}}: {online_users}<br>可加入 {joinable_users,plural, one {用戶} other {用戶}}: {joinable_users}",
+        "CloudHome.Info.Moderation": "監管",
+        "CloudHome.Info.Inventory": "庫存",
+        "CloudHome.Info.Tools": "工具",
+        "CloudHome.Info.MoreInfo": "更多信息",
+        "CloudHome.Info.SessionUptime": "會話持續時間：",
+        "CloudHome.Info.AccessLevel": "權限等級：",
+        "CloudHome.Info.StorageUsed": "已用存儲：",
+
+        "CloudHome.Info.DashInfoTab.Title": "歡迎！",
+        "CloudHome.Info.DashInfoDesktop": "爲了讓您更快上手，有幾件事您應當知悉。當按下Esc鍵，您可以打開 <i><color=hero.purple>儀表盤</color></i>。它相當於您的桌面或是控制面板。<br><br>如果您對此感到疑惑，它用於顯示能夠幫助您的額外數據。點擊下方按鈕關閉這條消息。",
+        "CloudHome.Info.DashInfoVR": "爲了讓您更快上手，有幾件事您應當知悉。當按下B或Y鍵，您可以打開 <i><color=hero.purple>儀表盤</color></i>。它相當於您的桌面或是控制面板。<br><br>如果您對此感到疑惑，它用於顯示能夠幫助您的額外數據。點擊下方按鈕關閉這條消息。",
+        "CloudHome.Info.DashInfoVRNoButtons": "爲了讓您更快上手，有幾件事您應當知悉。當您按住菜單鍵直到圓圈填滿，您可以打開 <i><color=hero.purple>儀表盤</color></i>。它相當於您的桌面或是控制面板。<br><br>如果您對此感到疑惑，它用於顯示能夠幫助您的額外數據。點擊下方按鈕關閉這條消息。",
+
+        "CloudHome.Info.GoToWiki": "前往Wiki！",
+        "CloudHome.Info.GoToDiscord": "前往Discord！",
+
+        "CloudHome.Info.ModerationTab.Title": "監管！",
+        "CloudHome.Info.ModerationTab.Content": "安全很重要！如果您需要幫助或者需要舉報一位用戶，請在我們的 <u><color=hero.cyan>監管平臺</color></u><sprite name=hyperlink>發起工單。<br><br>我們有由志願管理員組成的強大團隊 <sprite name=modbadge> 來保障社區的安全！如果您有疑問，或是發現了違反行爲準則的現象，請發起工單。",
+
+        "CloudHome.Info.InventoryTab.Title": "保存您的物品！",
+        "CloudHome.Info.InventoryTab.Content": "在 <i><color=hero.purple>儀表盤</color></i> 中的 <i><color=hero.purple>庫存</color></i> 包含了您保存的物品與化身。<br><br>在 <i><color=hero.purple>基礎</color></i> 文件夾中，我們準備了一些有趣的東西。您可以雙擊來生成它們！",
+
+        "CloudHome.Info.ToolsTab.Title": "世界內編輯！",
+        "CloudHome.Info.ToolsTab.Content": "{appName} 的一大特點在於，您能夠輕易的在遊戲中創造、修改事物。<br><br>是的！就在此處！實際上在任何地方都可以。您可以在庫存中的 <i><color=hero.purple>基礎 -> 工具</color></i> 欄找到用於修改世界的工具，並將一切變成您喜歡的樣子。",
+
+        "CloudHome.Info.HelpTab.Title": "獲得幫助",
+        "CloudHome.Info.HelpTab.InfoLineOne": "需要幫助？查看我們的 <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>，或者詢問以獲得解答。",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "在我們的 <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> 中提問，通過您儀表盤中的 <i><color=hero.purple>桌面</color></i> 標籤頁，您可以輕易地在桌面模式下查看鏈接。",
+
+        "CloudHome.Info.UsersTab.Title": "查找用戶",
+        "CloudHome.Info.UsersTab.Content": "公共會話會是讓您沉浸在社區氛圍中的一個好去處！<br><br>您可以在儀表板中的 <i><color=hero.purple>世界</color></i> 標籤頁找到可以立即加入的公共會話。快去看看吧！",
+
+        "Mirror.Header.RenderingOptions" : "渲染選項",
+        "Mirror.Header.Type" : "鏡子類型",
+        "Mirror.Header.Resolution" : "鏡像分辨率",
+        "Mirror.Header.AspectRatio" : "寬高比",
+
+        "Mirror.EnableLights": "啓用燈光",
+        "Mirror.DisableLights": "禁用燈光",
+
+        "Mirror.EnableShadows": "啓用陰影",
+        "Mirror.DisableShadows": "禁用陰影",
+
+        "Mirror.Camera": "相機",
+
+        "Mirror.AspectRatio.Tall": "高",
+        "Mirror.AspectRatio.Square": "方形",
+        "Mirror.AspectRatio.Wide": "寬",
+
+        "Mirror.Menu": "菜單",
+        "Mirror.CloseMenu": "關閉菜單",
+
+        "StickyNote.SpinMe": "旋轉我！",
+        "StickyNote.FruitPlate": "免費的自補充果盤",
+        "StickyNote.EmptyForYou": "專爲您留空！:)",
+        "StickyNote.RelevantLinks": "相關鏈接！<br><--<br><br><size=500>甚至可以叫它黃頁</size>",
+        "StickyNote.SunTool": "以您之手掌握太陽之力！",
+        "StickyNote.Bow": "拉弓，瞄準",
+        "StickyNote.Crossbow": "使用槓桿（或是次級）來裝填！",
+        "StickyNote.Shade": "可調節的着色",
+        "StickyNote.TheaterTablet": "使用這個平板來控制房間的風扇與窗戶！",
+        "StickyNote.ControlTablet": "使用這個平板來控制家的各個部分！",
+
+        "StickyNote.RotateMeDesktop": "按住E來旋轉我！",
+        "StickyNote.RotateMeVR": "旋轉我！",
+
+        "StickyNote.EquipMeDesktop": "裝備並按下左鍵！",
+        "StickyNote.EquipMeVR": "裝備並拉弦！",
+
+        "StickyNote.DipBrushes": "將筆刷浸入材質球來選擇材質",
+        "StickyNote.BrushColor": "在您的上下文菜單中更改筆刷的顏色與大小",
+        "StickyNote.Drawing": "您可以在畫板上或空氣中繪畫。事實上，在哪都行！",
+        "StickyNote.WorldCanvas": "世界就是您的畫布！",
+
+        "CloudHome.Panel.HomeControl": "家控制",
+
+        "CloudHome.Panel.General": "通用",
+        "CloudHome.Panel.Lighting": "燈光",
+        "CloudHome.Panel.Furniture": "傢俱",
+
+        "CloudHome.Panel.Quality": "質量",
+        "CloudHome.Panel.Doors": "門",
+        "CloudHome.Panel.Audio": "音頻",
+        "CloudHome.Panel.OverheadLighting": "頂燈",
+        "CloudHome.Panel.Sconces": "壁燈",
+        "CloudHome.Panel.FurnitureVisibility": "傢俱可見性",
+
+        "CloudHome.Panel.LowQualityMode": "低質量模式",
+        "CloudHome.Panel.DoorSounds": "門的聲音",
+        "CloudHome.Panel.DoorsAlwaysOpen": "們常開",
+        "CloudHome.Panel.InteriorAmbience": "室內氛圍",
+        "CloudHome.Panel.InteriorAmbienceVolume": "室內<br>氛圍<br>音量",
+        "CloudHome.Panel.LightsOn": "打開燈",
+        "CloudHome.Panel.LightIntensity": "燈光強度",
+        "CloudHome.Panel.LightColor": "燈光顏色",
+        "CloudHome.Panel.LightColorTemperature": "燈光色溫",
+
+        "CloudHome.Panel.Spawn": "生成",
+        "CloudHome.Panel.Foyer": "門廳",
+        "CloudHome.Panel.Workspace": "工作間",
+        "CloudHome.Panel.ReadingLounge": "閱讀室",
+        "CloudHome.Panel.Lounge": "休息室",
+        "CloudHome.Panel.Center": "中心",
+        "CloudHome.Panel.Balcony": "陽臺",
+        "CloudHome.Panel.Theater": "私人劇院",
+
+        "CloudHome.Panel.TheaterControl": "劇院控制",
+        "CloudHome.Panel.FanControl": "風扇控制",
+        "CloudHome.Panel.WindowControl": "窗戶控制",
+        "CloudHome.Panel.FanSpeed": "風扇速度",
+        "CloudHome.Panel.WindowTint": "窗戶色調",
+
+        "CloudHome.FeaturedPanel.OpenWorld": "打開世界",
+        "CloudHome.FeaturedPanel.LinkText": "點擊這裏<br>來爲您打開世界！",
+        "CloudHome.FeaturedPanel.Featured": "精選",
+
+        "CloudHome.AvatarPanel.Title": "精選化身世界",
+
+        "CloudHome.SupporterPanel.Title": "<b>我們的支持者們</b>",
+
+        "Tutorial.InfoPanel.Title": "嘿！在您繼續之前...",
+        "Tutorial.InfoPanel.Content": "     等待着您的是一個充滿可能性的世界，您的想象將是唯一的限制。<br><br>     您迄今所見之物幾乎都是在遊戲內開發的！來自世界各地的人們實時協作、共同建造了它們。<br><br>     這個平臺仍處於早期開發階段，我們在不斷更新和改進它。現在，您也是這旅程的一份子了！海闊憑魚躍，天高任鳥飛！<br><br><align=center>感謝您駐足體驗。</align>",
+
+        "Tutorial.GrabItems.Grab": "抓取",
+        "Tutorial.GrabItems.Snap": "吸附",
+        "Tutorial.GrabItems.Slide": "滑動",
+
+        "Tutorial.Panel.Jumping.Title": "跳躍",
+        "Tutorial.Panel.Jumping.ContentDesktop": "在行走時，按下空格鍵跳躍！",
+        "Tutorial.Panel.Jumping.ContentVR": "在行走時，按下搖桿跳躍！",
+        "Tutorial.Panel.Jumping.ContentVRNoButtons": "在行走時，按下觸控板中心跳躍！",
+
+        "Tutorial.Panel.WalkLocomotion.Title": "行走移動",
+        "Tutorial.Panel.WalkLocomotion.Content": "沿着地面行走和跳躍",
+
+        "Tutorial.Panel.TeleportLocomotion.Title": "傳送移動",
+        "Tutorial.Panel.TeleportLocomotion.Content": "立即將您傳送至傳送指示器位置",
+
+        "Hints.Spawn.InitialMovementDesktop": "使用運動鍵位來四處移動！",
+        "Hints.Spawn.InitialMovementVR": "使用搖桿來四處行走！",
+        "Hints.Spawn.InitialMovementVRNoButtons": "使用觸控板來四處行走！",
+
+        "Hints.Spawn.ContextMenuDesktop": "按T打開您的上下文菜單以查看選項！",
+        "Hints.Spawn.ContextMenuVR": "感到不適？按B或Y鍵打開您的上下文菜單以查看選項！",
+        "Hints.Spawn.ContextMenuVRNoButtons": "感到不適？按菜單鍵打開您的上下文菜單以查看選項！",
+
+        "Hints.Spawn.TeleportLocomotionDesktop": "您可以在運動菜單中嘗試其他選項，例如飛行。",
+        "Hints.Spawn.TeleportLocomotionVR": "您可以在運動菜單中嘗試其他選項，例如傳送或飛行。",
+
+        "Hints.Bridge.RaiseTheWorld": "按下這個按鈕，召喚平臺！",
+
+        "Hints.Grabbing.GrabbingDesktop": "按住鼠標右鍵以符合物理地抓取物品！",
+        "Hints.Grabbing.GrabbingVR": "按下抓握鍵以符合物理地抓取物品！",
+
+        "Hints.Grabbing.Rotating": "按住E鍵並移動鼠標以旋轉抓取的物品！",
+        "Hints.Grabbing.RotatingExtra": "同時按住Shift鍵與E鍵來繞其水平軸旋轉物品！",
+
+        "Hints.Grabbing.ScalingDesktop": "抓取一個物品，按住Shift鍵，使用您的滾輪來縮放它！",
+        "Hints.Grabbing.ScalingVR": "用您的雙手抓取物品來縮放它們！",
+
+        "Hints.Grabbing.OtherGrabbables": "我們提供了繁多的交互類型，擺弄這三件物品來瞭解它們！",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "除了縮放物體，您也可以在上下文菜單中啓用縮放來縮放自己。按住Ctrl並使用滾輪即可！",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "除了縮放物體，您也可以在上下文菜單中啓用縮放來縮放自己。用雙手抓取它，然後將其移動得更近或更遠！",
+
+        "Hints.Telescope.Alignment": "抓取望遠鏡並將其對準月亮！",
+
+        "Hints.Telescope.TheMoonDesktop": "在對準月亮時，按住右鍵並移動視角來移動月亮！",
+        "Hints.Telescope.TheMoonVR": "按下扳機鍵以激活激光並抓取、移動月亮！",
+
+        "Hints.Sundial.SoftEquip": "抓取這個工具並使用它！",
+        "Hints.Sundial.SoftEquipExtra": "工具使您能夠以多種方式改變您所處的世界！",
+
+        "Hints.Sundial.HardEquip": "點擊這個工具來裝備它！",
+        "Hints.Sundial.HardEquipExtra": "沒有看見激光指示器？輕按您的扳機鍵來顯示它！",
+
+        "Hints.Sundial.TheSun": "瞄準天空並點擊來移動太陽！",
+        "Hints.Sundial.TheSunExtra": "試試瞄準地平線以下，將時間變成晚上！",
+
+        "Hints.Sundial.Dequip": "通過在上下文菜單中選擇取消裝備來丟棄已裝備的工具。",
+        "Hints.Sundial.DequipExtra": "注意，上下文菜單中的選項因您正手持工具而發生了改變。",
+
+        "Hints.Sundial.Teleporter": "按下這個按鈕來激活通向您雲端家園的傳送器！",
+        "Hints.Sundial.TeleporterExtra": "請享受您的家，感謝您駐足體驗！",
+
+        "UI.TextDisplay.Landscape": "橫向",
+        "UI.TextDisplay.Portrait": "縱向",
+        "UI.TextDisplay.NormalText": "常規文字",
+        "UI.TextDisplay.MonospaceText": "等寬文字",
+
+        "UI.VideoPlayer.GlobalSettings": "全局<br>設置",
+        "UI.VideoPlayer.LocalSettings": "本地<br>設置",
+        "UI.VideoPlayer.SpatialAudio": "空間<br>音頻",
+        "UI.VideoPlayer.AreaBroadcast": "區域<br>廣播",
+        "UI.VideoPlayer.BroascastAudio": "廣播<br>音頻",
+        "UI.VideoPlayer.EnterURL": "<i><alpha=#77>在此輸入URL</closeall>",
+        "UI.VideoPlayer.AudioZoneTheater": "本地<br>劇院",
+        "UI.VideoPlayer.AudioZoneGlobal": "世界<br>音頻",
+        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {用戶} other {用戶}}<br>已加載",
+        "UI.VideoPlayer.AllUsersLoaded": "所有用戶<br>均已加載",
+
+        "UI.ColorPicker.ColorPicker": "取色器",
+
+        "UI.ColorPicker.Linear": "線性",
+
+        "UI.ColorPicker.Hexadecimal": "16進制",
+        "UI.ColorPicker.ColorSwatches": "色板",
+
+        "UI.ColorPicker.Red": "紅",
+        "UI.ColorPicker.Green": "綠",
+        "UI.ColorPicker.Blue": "藍",
+
+        "UI.ColorPicker.Hue": "色調",
+        "UI.ColorPicker.Saturation": "飽和度",
+        "UI.ColorPicker.Value": "值",
+
+        "UI.ColorPicker.Alpha": "Alpha",
+        "UI.ColorPicker.Gain": "增益",
+
+        "UI.ProgressBar.ImportingItem": "導入項目",
+
+        "Tools.Names.MultiTool": "多功能工具",
+
+        "Tools.Names.CommonTools": "通用工具",
+        "Tools.Names.ManipulationTools": "操作工具集",
+        "Tools.Names.InformationTools": "信息工具集",
+
+        "Tools.Names.GeometryLineBrush": "幾何線條筆刷工具",
+        "Tools.Names.Developer": "開發者工具",
+        "Tools.Names.ComponentClone": "組件克隆工具",
+        "Tools.Names.ProtoFlux": "ProtoFlux工具",
+        "Tools.Names.Material": "材質工具",
+        "Tools.Names.Glue": "膠水工具",
+        "Tools.Names.Light": "燈光工具",
+        "Tools.Names.Shape": "形狀工具",
+        "Tools.Names.Microphone": "麥克風工具",
+        "Tools.Names.GrabbableSetter": "可抓取物品設置工具",
+        "Tools.Names.PhysicalColliderSetter": "物理碰撞器設置工具",
+        "Tools.Names.MeshVisibility": "網格可視性設置工具",
+        "Tools.Names.CameraObjectVisibility": "相機對象可視性設置工具",
+        "Tools.Names.Color": "顏色工具",
+        "Tools.Names.Mesh": "網格工具",
+        "Tools.Names.RiggedMeshTransfer": "綁定網格轉換工具",
+        "Tools.Names.Slicer": "網格切片工具",
+        "Tools.Names.ControllerDiagnostic": "控制器診斷工具",
+        "Tools.Names.Measure": "測量工具",
+        "Tools.Names.Label": "標籤工具",
 
         "Dummy": "Dummy"
     }
