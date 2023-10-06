@@ -111,6 +111,7 @@
         "Inventory.OpenWorld": "Otevřít svět",
         "Inventory.Equip": "Nasadit",
         "Inventory.Delete": "Smazat",
+        "Inventory.CreateDirectory": "Vytvořit složku",
         "Inventory.SaveHeld": "Uložit držený objekt",
         "Inventory.GetURL": "Získat URL",
         "Inventory.Inventories": "Inventáře",
@@ -803,7 +804,7 @@
         "Importer.Image.Prompt": "Co importujete?",
         "Importer.Image.Regular": "Obrázek / Texturu",
         "Importer.Image.Screenshot": "{appName} fotografie <size=50%>(pořízena zde)</size>",
-
+        "Importer.Image.PixelArt" : "Pixel Art <size=50%>(obrázky složené pixel po pixelu s omezenou barevnou škálou)</size>",
         "Importer.Image.360": "360° fotku / skybox",
         "Importer.Image.StereoPhoto": "Stereo foto",
         "Importer.Image.Stereo360": "Stereo 360° foto",
@@ -1073,7 +1074,7 @@
         "Settings.HideAllTutorials": "Skrýt všechny tutoriály",
         "Settings.ShowInteractionHints": "Zobrazit popisky interakcí",
         "Settings.PrimaryController": "Primární ovladač",
-
+        "Settings.Hotswitching": "Automatické přepínání režimu VR",
         "Settings.AllowStrafing": "Povolit pohyb do strany",
         "Settings.UseHeadDirectionForMovement": "Použít směr pohledu pro pohyb",
         "Settings.SmoothTurn": "Plynulé otáčení",
@@ -1653,7 +1654,6 @@
 
         "Migration.Summary": "Ok, máme vše co potřebujeme. Klikněte na Spustit migraci níže, a my zahájíme Vaši migraci.\n\nMigrace může chvíli trvat - musíme vše překopírovat. Pokud jste zvolili migraci Vašich oblíbených, bude uspíšena, abyste se co nejdříve cítili pohodlně.\n\nNemusíte nechat {appName} běžet zatímco migrujeme. Budeme Vám zasílat aktualizace skrze {appName} bota, abyste věděli jak to jde.",
 
-
         "Migration.List.EmptyTitle": "Chcete zahájit novou migraci?",
         "Migration.List.EmptySubtitle": "Klikněte na \"Nová migrační úloha\" vlevo nahoře.",
 
@@ -1896,11 +1896,11 @@
         "Hints.Sundial.Teleporter": "Stiskněte toto tlačítko pro aktivaci teleporteru do Vašeho cloudovéhp domova!",
         "Hints.Sundial.TeleporterExtra": "Užijte si Váš domov, a děkujeme že jste se zastavili!",
 
-        
-        
+        "UI.TextDisplay.Landscape": "Na šířku",
+        "UI.TextDisplay.Portrait": "Na výšku",
         "UI.TextDisplay.NormalText": "Normální",
+        "UI.TextDisplay.MonospaceText": "Monospace <size=50%>(všechny znaky se stejnou šířkou)</size>",
         
-
         "UI.VideoPlayer.GlobalSettings": "Globální<br>nastavení",
         "UI.VideoPlayer.LocalSettings": "Lokální<br>nastavení",
         "UI.VideoPlayer.SpatialAudio": "Prostorové<br>audio",
@@ -1909,13 +1909,14 @@
         "UI.VideoPlayer.EnterURL": "<i><alpha=#77>Zadejte URL zde</closeall>",
         "UI.VideoPlayer.AudioZoneTheater": "Lokální <br>v kině",
         "UI.VideoPlayer.AudioZoneGlobal": "Slyšitelné<br>ve Světě",
-        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {uživatel} other {uživatelů}}<br>načteno",
-
+        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {uživatel<br>načetl} other {uživatelů<br>načetlo}}",
+        "UI.VideoPlayer.AllUsersLoaded": "Všichni uživatelé<br>načetli",
         
+        "UI.ColorPicker.ColorPicker": "Color Picker",
 
         "UI.ColorPicker.Linear": "Lineární",
 
-        
+        "UI.ColorPicker.Hexadecimal": "Hex.",
         "UI.ColorPicker.ColorSwatches": "Vzorek",
 
         "UI.ColorPicker.Red": "Červená",
@@ -1926,7 +1927,7 @@
         "UI.ColorPicker.Saturation": "Saturace",
         "UI.ColorPicker.Value": "Hodnota",
 
-        
+        "UI.ColorPicker.Alpha": "Alpha <size=50%>(průhlednost)</size>",
         "UI.ColorPicker.Gain": "Zesílení",
 
         "UI.ProgressBar.ImportingItem": "Importuji položku",
