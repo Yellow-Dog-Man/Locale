@@ -7,7 +7,9 @@ General.Edit
 Inventory.OpenWorld  
 Inventory.Equip  
 Inventory.Delete  
+Inventory.CreateDirectory  
 Inventory.SaveHeld  
+Inventory.GetURL  
 Inventory.Inventories  
 Inventory.Share  
 Inventory.Unshare  
@@ -76,6 +78,9 @@ Contacts.RevokeInvite
 Contacts.Migrated  
 Tooltips.Dev.LocalSpace  
 Tooltips.Dev.GlobalSpace  
+Importer.Slices.Title  
+Importer.Slices.TitleGrayscale  
+Importer.Slices.Description  
 Settings.Hotswitching  
 Inspector.Actions.CopyComponent  
 Inspector.Actions.MoveComponent  
@@ -238,6 +243,7 @@ UI.VideoPlayer.EnterURL
 UI.VideoPlayer.AudioZoneTheater  
 UI.VideoPlayer.AudioZoneGlobal  
 UI.VideoPlayer.UsersLoaded  
+UI.VideoPlayer.AllUsersLoaded  
 UI.ColorPicker.ColorPicker  
 UI.ColorPicker.Linear  
 UI.ColorPicker.Hexadecimal  
