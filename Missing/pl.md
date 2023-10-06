@@ -2,13 +2,9 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Polish [pl]
-Inventory.CreateDirectory  
-Inventory.GetURL  
-Profile.Status.Headless  
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
-CameraControl.OBS.Idle  
 ComponentSelector.CommonGenericTypes  
 ComponentSelector.CustomGenericArguments  
 Inspector.MeshCollider.VHACD  
@@ -45,12 +41,6 @@ Inspector.Fields.Drive
 Inspector.Fields.DriveWriteBack  
 VolumePlaneSlicer.Highlight  
 VolumePlaneSlicer.Slicer  
-CloudHome.TargetRangeOptions  
-StickyNote.RelevantLinks  
-StickyNote.Bow  
-StickyNote.Crossbow  
-StickyNote.Shade  
-Tutorial.Panel.TeleportLocomotion.Title  
 Tools.Names.GrabbableSetter  
 Tools.Names.PhysicalColliderSetter  
 Tools.Names.MeshVisibility  
