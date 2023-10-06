@@ -76,7 +76,7 @@
         "Locomotion.Slide.Description": "简单的滑动运动（如果存在）会捕捉到表面，否则会飞行。",
 
         "Interaction.Destroy": "消灭",
-        "Interaction.Duplicate": "复制并粘贴",
+        "Interaction.Duplicate": "克隆",
         "Interaction.SaveToInventory": "保存到物品栏",
         "Interaction.Undo": "撤消",
         "Interaction.Redo": "重做",
@@ -87,7 +87,7 @@
         "Interaction.ResetScale": "重设比例",
         "Interaction.LaserEnabled": "启用激光",
         "Interaction.LaserDisabled": "禁用激光",
-        
+        "Interaction.Grab.Palm": "抓取：手掌",
         "Interaction.Grab.Precision": "抓取：精准",
         "Interaction.Grab.Auto": "抓取：自动",
         "Interaction.Grab.Off": "抓取：仅激光",
@@ -111,7 +111,9 @@
         "Inventory.OpenWorld": "打开世界",
         "Inventory.Equip": "装备",
         "Inventory.Delete": "删除",
+	    "Inventory.CreateDirectory": "新建文件夹",
         "Inventory.SaveHeld": "保存所持",
+        "Inventory.GetURL": "获取URL",
         "Inventory.Inventories": "装备清单",
         "Inventory.Share": "分享",
         "Inventory.Unshare": "取消分享",
@@ -128,7 +130,7 @@
         "Inventory.Favorite.WorldLoadingIndicator": "设为加载指示器",
         "Inventory.Favorite.ColorDialog": "设为色盘",
         "Inventory.Favorite.Hyperlink": "设为超链接显示",
-
+        "Inventory.SpawnFacet": "生成Facet",
 
         "Dash.Screens.Home": "家",
         "Dash.Screens.Worlds": "世界",
@@ -165,12 +167,18 @@
         "World.LoadingFailed": "失败",
         "World.LoadedAssets": "已加载{assets}个资产，共{total_assets}个",
         "World.Downloading": "正在下载{total_bytes}个{bytes}资产",
+        "World.Loaded": "加载完成",
 
         "World.Connection.EstablishingConnection": "正在连接",
         "World.Connection.RequestingJoin": "申请加入",
         "World.Connection.Authenticating": "验证中",
         "World.Connection.Connected": "连接成功",
         "World.Connection.SyncingInitialState": "同步初始世界状态",
+
+        "World.Connection.LNL.DirectIP": "LNL IP 直连",
+        "World.Connection.LNL.NATPunchthrough": "LNL NAT 穿透 {n}",
+        "World.Connection.LNL.Relay": "LNL 转发",
+        "World.Connection.SteamNetworkingSockets": "Steam Networking 套接字",
 
         "World.Error.AccessDenied": "拒绝访问",
         "World.Error.SecurityViolation": "安全违规",
@@ -256,6 +264,7 @@
         "World.Indicator.Users.None": "(找不到活跃的客户端)",
         "World.Indicator.Description": "描述",
         "World.Indicator.Description.None": "(没有提供描述)",
+        "World.Indicator.Visited": "(造访过)",
 
         "World.Detail.ActiveSessions": "活动的会话:",
         "World.Detail.ActiveUsers": "活跃用户:",
@@ -440,7 +449,6 @@
         "Account.RecoverPassword": "忘记密码？",
         "Account.LiveEmailWarning": "<color=#f00>警告:</color> live.com，hotmail.com，Outlook.com和其他Microsoft托管的服务最多可能需要1-2天才能接受该电子邮件。",
         "Account.PasswordRules": "(至少8个字符，1个数字，1个小写字母，1个大写字母)",
-        "Account.AgeConfirm": "我今年13岁以上",
         "Account.LostPassword": "忘记密码",
         "Account.SendRecoveryCode": "发送恢复码",
         "Account.ResetPasswordHeader": "重置你的密码",
@@ -505,6 +513,7 @@
         "Profile.Status.Busy": "忙碌",
         "Profile.Status.Invisible": "隐身",
         "Profile.Status.Offline": "离线",
+        "Profile.Status.Headless": "无头主机",
 
         "Session.Tab.Settings": "设定",
         "Session.Tab.Users": "用户",
@@ -540,6 +549,7 @@
         "Contacts.AcceptRequest": "接受请求",
         "Contacts.IgnoreRequest": "忽略请求",
         "Contacts.Invite": "邀请",
+        "Contacts.RevokeInvite": "撤回邀请",
         "Contacts.BanFromAllSessions": "禁止进入我主持的会话",
         "Contacts.UnbanFromAllSessions": "取消禁止进入我主持的会话",
         "Contacts.BanFromCurrentWorld": "禁止进入当前的世界",
@@ -678,6 +688,14 @@
         "Tooltip.Microphone.SourceRaw": "Raw文件",
         "Tooltip.Microphone.SourceFiltered": "过滤并归一化",
 
+        "Tooltip.ProtoFlux.Drive" : "驱动",
+        "Tooltip.ProtoFlux.Source" : "源",
+        "Tooltip.ProtoFlux.Reference" : "参考",
+        "Tooltip.ProtoFlux.Write" : "写",
+        "Tooltip.ProtoFlux.Proxy" : "代理",
+        "Tooltip.ProtoFlux.CreateLocal" : "创建局部变量",
+        "Tooltip.ProtoFlux.CreateStore" : "创建变量",
+        "Tooltip.ProtoFlux.CreateDataModelStore" : "创建结构变量",
         "Tooltip.ProtoFlux.Overview" : "切换概览",
         "Tooltip.ProtoFlux.NodeBrowser" : "浏览节点",
         "Tooltip.ProtoFlux.PackInPlace" : "就地打包",
@@ -877,6 +895,10 @@
         "Importer.Video.Stereo180": "立体180度视频",
         "Importer.Video.Depth.Prompt": "深度预设",
         "Importer.Video.Depth.Default": "默认",
+
+        "Importer.Slices.Title": "将图像切片导入为体积纹理",
+        "Importer.Slices.TitleGrayscale": "将图像切片导入为体积纹理（灰度）",
+        "Importer.Slices.Description": "将文件夹中的所有图像文件合成为一个体积纹理",
         
         "Exporter.Title": "导出",
         "Exporter.FileName": "文件名：",
@@ -1300,6 +1322,8 @@
         "Inspector.Texture.Format": "格式：{format}, 存储：<nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "变种ID：{variant}",
 
+        "Inspector.Texture.BakeTexture": "烘焙纹理",
+
         "Inspector.Texture.InvertRGB": "倒置 RGB",
         "Inspector.Texture.InvertR": "倒置 R",
         "Inspector.Texture.InvertG": "倒置 G",
@@ -1417,6 +1441,9 @@
 
         "Inspector.SimpleAwayIndicator.TestAway" : "设为离开（调试）",
         "Inspector.SimpleAwayIndicator.TestRestore" : "返回正常（调试）",
+
+        "Inspector.Fields.Drive" : "驱动",
+        "Inspector.Fields.DriveWriteBack" : "驱动 <size=50%>（回写）</size>",
 
         "Inspector.Actions.CopyComponent" : "拷贝组件",
         "Inspector.Actions.MoveComponent" : "移动组件",
@@ -1626,7 +1653,6 @@
         "Migration.Groups.NotGroupAdmin": "您未担任任何 {platform} 群组的管理员，请联系您群组的管理员以迁移它们！",
 
         "Migration.Summary": "好的，我们已经完成了准备工作。点击下方的开始迁移按钮，我们就会开始您的迁移工作。\n\n迁移工作需要一些时间，我们需要拷贝所有的数据。如果您选择了迁移您的收藏夹，我们会优先迁移它们以便您能够尽快使用。\n\n在迁移运行时，您无需保持 {appName} 运行，但我们也会通过 {appName} 机器人向您发送通知以告知您进展如何。",
-
 
         "Migration.List.EmptyTitle": "需要开始新的迁移工作吗？",
         "Migration.List.EmptySubtitle": "点击左上方的“新建迁移任务”按钮",
@@ -1884,6 +1910,7 @@
         "UI.VideoPlayer.AudioZoneTheater": "本地<br>剧院",
         "UI.VideoPlayer.AudioZoneGlobal": "世界<br>音频",
         "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {用户} other {用户}}<br>已加载",
+        "UI.VideoPlayer.AllUsersLoaded": "所有用户<br>均已加载",
 
         "UI.ColorPicker.ColorPicker": "取色器",
 

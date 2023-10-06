@@ -77,7 +77,7 @@
 
         "Interaction.Destroy": "破壞",
         "Interaction.Duplicate": "重複",
-
+        "Interaction.SaveToInventory": "保存到物品欄",
         "Interaction.Undo": "撤消",
         "Interaction.Redo": "重做",
         "Interaction.EquipTool": "裝備",
@@ -87,7 +87,7 @@
         "Interaction.ResetScale": "重設比例",
         "Interaction.LaserEnabled": "啟用激光",
         "Interaction.LaserDisabled": "激光禁用",
-        
+        "Interaction.Grab.Palm": "抓取：手掌",
         "Interaction.Grab.Precision": "抓取：精準",
         "Interaction.Grab.Auto": "抓取：自動",
         "Interaction.Grab.Off": "抓取：僅激光",
@@ -111,7 +111,9 @@
         "Inventory.OpenWorld": "打開世界",
         "Inventory.Equip": "裝備",
         "Inventory.Delete": "刪除",
+	    "Inventory.CreateDirectory": "新建文件夾",
         "Inventory.SaveHeld": "保存所持",
+        "Inventory.GetURL": "獲取URL",
         "Inventory.Inventories": "裝備清單",
         "Inventory.Share": "分享",
         "Inventory.Unshare": "取消分享",
@@ -128,7 +130,7 @@
         "Inventory.Favorite.WorldLoadingIndicator": "設爲加載指示器",
         "Inventory.Favorite.ColorDialog": "設爲色盤",
         "Inventory.Favorite.Hyperlink": "設爲超鏈接顯示",
-
+        "Inventory.SpawnFacet": "生成Facet",
 
         "Dash.Screens.Home": "家",
         "Dash.Screens.Worlds": "世界",
@@ -165,12 +167,18 @@
         "World.LoadingFailed": "失敗",
         "World.LoadedAssets": "已加載{assets}個資產，共{total_assets}個",
         "World.Downloading": "正在下載{total_bytes}個{bytes}資產",
+        "World.Loaded": "加載完成",
 
         "World.Connection.EstablishingConnection": "建立連接",
         "World.Connection.RequestingJoin": "申請加入",
         "World.Connection.Authenticating": "驗證中",
         "World.Connection.Connected": "連接的",
         "World.Connection.SyncingInitialState": "同步初始世界狀態",
+
+        "World.Connection.LNL.DirectIP": "LNL IP 直連",
+        "World.Connection.LNL.NATPunchthrough": "LNL NAT 穿透 {n}",
+        "World.Connection.LNL.Relay": "LNL 轉發",
+        "World.Connection.SteamNetworkingSockets": "Steam Networking 套接字",
 
         "World.Error.AccessDenied": "拒絕訪問",
         "World.Error.SecurityViolation": "安全違規",
@@ -256,6 +264,7 @@
         "World.Indicator.Users.None": "(找不到活動的會議)",
         "World.Indicator.Description": "描述",
         "World.Indicator.Description.None": "(沒有提供描述)",
+        "World.Indicator.Visited": "(造訪過)",
 
         "World.Detail.ActiveSessions": "活動的會話:",
         "World.Detail.ActiveUsers": "活躍用戶:",
@@ -440,7 +449,6 @@
         "Account.RecoverPassword": "忘記密碼？",
         "Account.LiveEmailWarning": "<color=#f00>警告:</color> live.com，hotmail.com，Outlook.com和其他Microsoft託管的服務最多可能需要1-2天才能接受該電子郵件。",
         "Account.PasswordRules": "(至少8個字符，1個數字，1個小寫字母，1個大寫字母)",
-        "Account.AgeConfirm": "我今年13歲以上",
         "Account.LostPassword": "忘記密碼",
         "Account.SendRecoveryCode": "發送恢復碼",
         "Account.ResetPasswordHeader": "重置你的密碼",
@@ -505,6 +513,7 @@
         "Profile.Status.Busy": "忙碌",
         "Profile.Status.Invisible": "隱身",
         "Profile.Status.Offline": "離線",
+        "Profile.Status.Headless": "無頭主機",
 
         "Session.Tab.Settings": "設定",
         "Session.Tab.Users": "用戶",
@@ -540,6 +549,7 @@
         "Contacts.AcceptRequest": "接受請求",
         "Contacts.IgnoreRequest": "忽略請求",
         "Contacts.Invite": "邀請",
+        "Contacts.RevokeInvite": "撤回邀請",
         "Contacts.BanFromAllSessions": "禁止進入我主持的會話",
         "Contacts.UnbanFromAllSessions": "取消禁止進入我主持的會話",
         "Contacts.BanFromCurrentWorld": "禁止進入當前的世界",
@@ -678,6 +688,14 @@
         "Tooltip.Microphone.SourceRaw": "Raw文件",
         "Tooltip.Microphone.SourceFiltered": "過濾並歸一化",
 
+        "Tooltip.ProtoFlux.Drive" : "驅動",
+        "Tooltip.ProtoFlux.Source" : "源",
+        "Tooltip.ProtoFlux.Reference" : "參考",
+        "Tooltip.ProtoFlux.Write" : "寫",
+        "Tooltip.ProtoFlux.Proxy" : "代理",
+        "Tooltip.ProtoFlux.CreateLocal" : "創建局部變量",
+        "Tooltip.ProtoFlux.CreateStore" : "創建變量",
+        "Tooltip.ProtoFlux.CreateDataModelStore" : "創建結構變量",
         "Tooltip.ProtoFlux.Overview" : "切換概覽",
         "Tooltip.ProtoFlux.NodeBrowser" : "瀏覽節點",
         "Tooltip.ProtoFlux.PackInPlace" : "就地打包",
@@ -877,6 +895,10 @@
         "Importer.Video.Stereo180": "立體180度視頻",
         "Importer.Video.Depth.Prompt": "深度預設",
         "Importer.Video.Depth.Default": "默認",
+
+        "Importer.Slices.Title": "將圖像切片導入爲體積紋理",
+        "Importer.Slices.TitleGrayscale": "將圖像切片導入爲體積紋理（灰度）",
+        "Importer.Slices.Description": "將文件夾中的所有圖像合成爲一個體積紋理",
         
         "Exporter.Title": "導出",
         "Exporter.FileName": "文件名：",
@@ -1300,6 +1322,8 @@
         "Inspector.Texture.Format": "格式：{format}, 存儲：<nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "變種ID：{variant}",
 
+        "Inspector.Texture.BakeTexture": "烘焙紋理",
+
         "Inspector.Texture.InvertRGB": "倒置 RGB",
         "Inspector.Texture.InvertR": "倒置 R",
         "Inspector.Texture.InvertG": "倒置 G",
@@ -1417,6 +1441,9 @@
 
         "Inspector.SimpleAwayIndicator.TestAway" : "設爲離開（調試）",
         "Inspector.SimpleAwayIndicator.TestRestore" : "返回正常（調試）",
+
+        "Inspector.Fields.Drive" : "驅動",
+        "Inspector.Fields.DriveWriteBack" : "驅動 <size=50%>（回寫）</size>",
 
         "Inspector.Actions.CopyComponent" : "拷貝組件",
         "Inspector.Actions.MoveComponent" : "移動組件",
@@ -1626,7 +1653,6 @@
         "Migration.Groups.NotGroupAdmin": "您未擔任任何 {platform} 羣組的管理員，請聯繫您羣組的管理員以遷移它們！",
 
         "Migration.Summary": "好的，我們已經完成了準備工作。點擊下方的開始遷移按鈕，我們就會開始您的遷移工作。\n\n遷移工作需要一些時間，我們需要拷貝所有的數據。如果您選擇了遷移您的收藏夾，我們會優先遷移它們以便您能夠儘快使用。\n\n在遷移運行時，您無需保持 {appName} 運行，但我們也會通過 {appName} 機器人向您發送通知以告知您進展如何。",
-
 
         "Migration.List.EmptyTitle": "需要開始新的遷移工作嗎？",
         "Migration.List.EmptySubtitle": "點擊左上方的“新建遷移任務”按鈕",
@@ -1884,6 +1910,7 @@
         "UI.VideoPlayer.AudioZoneTheater": "本地<br>劇院",
         "UI.VideoPlayer.AudioZoneGlobal": "世界<br>音頻",
         "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {用戶} other {用戶}}<br>已加載",
+        "UI.VideoPlayer.AllUsersLoaded": "所有用戶<br>均已加載",
 
         "UI.ColorPicker.ColorPicker": "取色器",
 
