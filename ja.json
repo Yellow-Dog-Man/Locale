@@ -2,7 +2,7 @@
     "localeCode": "ja",
     "authors": ["orange", "Melnus", "Aesc", "kazu", "Rabbuttz", "zozokasu"],
     "messages": {
-        
+
         "General.OK": "OK",
         "General.Start": "開始",
         "General.Finish": "終了",
@@ -111,6 +111,7 @@
         "Inventory.OpenWorld": "ワールドを開く",
         "Inventory.Equip": "アバターを変更",
         "Inventory.Delete": "選択アイテムを削除",
+	    "Inventory.CreateDirectory": "フォルダを作成",
         "Inventory.SaveHeld": "掴んでいるものを保存",
         "Inventory.GetURL": "URLを取得",
         "Inventory.Inventories": "インベントリー一覧",
@@ -317,7 +318,7 @@
         "World.SortParameter.TotalVisits": "訪問数",
         "World.SortParameter.LastVisit": "最後に訪問",
         "World.SortParameter.Random": "ランダム",
-        
+
         "World.Filter.DataSources": "検索ワード:",
         "World.Filter.OpenedWorlds": "接続中のセッション",
         "World.Filter.ActiveSessions": "アクティブセッション",
@@ -390,7 +391,7 @@
         "Indicator.Sync.UploadingVariants": "{variant_count,plural, other {# 個のアセットバリアントを}} アップロード中",
         "Indicator.Sync.SyncError": "シンクエラー! <size=50%>ログをチェックしてください</size>",
         "Indicator.Sync.StorageFull": "容量が足りません! <size=50%>シンクできません</size>",
-        
+
         "Indicator.Storage.StorageFull": "空き容量なし",
         "Indicator.Storage.Usage": "{storage_used} / {storage_max}<br><size=61.803%>ストレージ使用量</size>",
 
@@ -513,7 +514,7 @@
         "Profile.Status.Invisible": "非表示",
         "Profile.Status.Offline": "オフライン",
         "Profile.Status.Headless": "ヘッドレス",
-        
+
         "Session.Tab.Settings": "設定",
         "Session.Tab.Users": "ユーザー",
         "Session.Tab.Permissions": "権限",
@@ -894,7 +895,7 @@
         "Importer.Video.Stereo180": "ステレオ​180°​ビデオ",
         "Importer.Video.Depth.Prompt": "深度プリセット",
         "Importer.Video.Depth.Default": "デフォルト",
-        
+
         "Importer.Slices.Title": "スライス画像を<br>3Dテクスチャと<br>してインポート",
         "Importer.Slices.TitleGrayscale": "スライス画像を<br>3Dテクスチャと<br>してインポート<br>(グレースケール)",
         "Importer.Slices.Description": "フォルダ内の​すべての画像ファイル​を​3Dテクスチャ​に​します",
@@ -1653,7 +1654,6 @@
 
         "Migration.Summary": "設定完了！ 「移行を開始」を押して開始してください。​移行には時間がかかるかもしれません。​お気に入りの移行をした場合は、​優先的に行われますのでご安心ください。​\n移行中は {appName} を終了しても構いません。",
 
-
         "Migration.List.EmptyTitle": "現在、移行タスクはありません",
         "Migration.List.EmptySubtitle": "アカウント移行を開始するには、左上の「移行タスクを作成」を押してください",
 
@@ -1910,6 +1910,7 @@
         "UI.VideoPlayer.AudioZoneTheater": "シアター内<br>のみ",
         "UI.VideoPlayer.AudioZoneGlobal": "ワールド内<br>全体",
         "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} 人<br>読込完了",
+        "UI.VideoPlayer.AllUsersLoaded": "全員読込完了",
 
         "UI.ColorPicker.ColorPicker": "カラーピッカー",
 
