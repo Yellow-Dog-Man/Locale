@@ -1,6 +1,6 @@
 {
     "localeCode": "eo",
-    "authors": ["Melnus", "Yellow", "Sejden"],
+    "authors": ["Melnus", "Yellow", "Sejden", "XDelta", "RobertBaruch", "Jackalgirl"],
     "messages": {
 
         "General.OK": "Bone",
@@ -319,6 +319,38 @@
 
         "Indicator.LiveHiddenMessage": "(informoj kaŝitaj dum dissendado)",
 
+        "Login.InvalidCredentials": "Nevalidaj identigiloj",
+        "Login.InvalidLogin": "Nevalidaj identigiloj",
+
+        "Login.MalformedUID": "Nevalida aparatinformo",
+        "Login.MissingUID": "La aparatinformo mankas",
+        "Register.MissingUID": "La aparatinformo mankas",
+        "Register.MalformedUID": "Nevalida aparatinformo",
+
+        "Login.MissingLogin": "Neniuj indentigiloj provizataj",
+        "Login.InvalidRecoveryCode": "Nevalida restaŭrkodo",
+        "Login.UnsupportedAuthentication": "Nesubtenita metodo de aŭtentigo",
+        "Login.EmailNotVerified": "Retpoŝta addreso ne aprobita",
+        "Login.AccountTempLocked": "Via konto estas ŝlosata.",
+        "Login.AccountBanned": "Via konto estas barata.",
+        "Login.DuplicateAccount": "Duobla konto",
+
+        "Register.MissingRequest": "La detaloj de la registriĝo mankas",
+        "Register.InvalidEmail": "Nevalida retpoŝta adreso",
+        "Register.MissingUsername": "La uzantnomo mankas",
+        "Register.MissingEmail": "Retpoŝta adreso mankas",
+        "Register.UsernameTooLong": "La uzantnomo estas tro longa",
+        "Register.UsernameContainsAmpersand": "La uzantnomo ne permesiĝisas enhavi @",
+        "Register.UsernameStartsWithU": "La uzantnomo ne permesiĝisas komenci per U-",
+        "Register.InvalidUsername": "Nevalida uzantnomo",
+        "Register.InvalidDateOfBirth": "Nevalida naskiĝdato",
+        "Register.UserContainsBlockedTerms": "La uzantnomo enhavas barantajn vortojn",
+        "Register.MissingPassword": "La pasvorto mankas",
+        "Register.InvalidPassword": "Nevalida Pasvorto",
+        "Register.EmailAlreadyRegistered": "La retpoŝta adreso estas ja registrigita",
+        "Register.UsernameAlreadyRegistered": "La uzantnomo estas ja registrigita",
+        "Register.ErrorCheckingUserId": "Eraro dum kontrolo de la Uzantnumero",
+
         "Account.Login": "Ensaluti",
         "Account.Logout": "Elsaluti",
         "Account.Register": "Registriĝi",
@@ -377,6 +409,8 @@
         "Account.TOTP.Deactivate.Deactivating": "Malaktiviganta...",
         "Account.TOTP.Message.DeactivationComplete": "2FA sukcese malaktiviĝis en via konto.<br><br>Via konto estas nun en pli alta risko!<br><br>Ni forte rekomendas agordi tuj 2FA denove, speciale se vi uzis restaŭran kodon kaŭze de tio ke vi perdis vian poŝtelefonon.",
 
+        "Avatar.Badge.Live" : "TUJA",
+        
         "2FA.Header": "2FA kontrolo",
         "2FA.Token": "6-cifera ĵetono",
 
@@ -1337,6 +1371,6 @@
         "Exiting.Exiting": "Elirante...",
         "Exiting.LoggingOut": "Elŝalti...",
 
-        "Dummy": "Lokokupa"
+        "Dummy": "Dummy"
     }
 }
