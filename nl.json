@@ -111,7 +111,9 @@
         "Inventory.OpenWorld": "Wereld Openen",
         "Inventory.Equip": "Dragen",
         "Inventory.Delete": "Verwijderen",
+        "Inventory.CreateDirectory": "Folder creëren",
         "Inventory.SaveHeld": "Opslaan Vastgehouden Object",
+        "Inventory.GetURL": "Kopieer link",
         "Inventory.Inventories": "Inventaris",
         "Inventory.Share": "Delen",
         "Inventory.Unshare": "NietDelen",
@@ -430,7 +432,7 @@
         "Account.Login": "Log in",
         "Account.Logout": "Log uit",
         "Account.Register": "Registreer",
-
+        "Account.Saml2" : "Inloggen met SAML 2.0",
         "Account.LoginOrRegister": "Login / Registreer",
         "Account.LogoutConfirm": "Echt Uitloggen?",
         "Account.LoggingIn": "Inloggen...",
@@ -894,6 +896,10 @@
         "Importer.Video.Depth.Prompt": "Diepte Preset",
         "Importer.Video.Depth.Default": "Standaard",
 
+        "Importer.Slices.Title": "Image slices als volumetrische textuur",
+        "Importer.Slices.TitleGrayscale": "Image slices als volumetrische textuur (grijs)",
+        "Importer.Slices.Description": "Verwerk alle afbeeldingsbestanden in de map tot een volumetrische textuur",
+        
         "Exporter.Title": "Exporteer",
         "Exporter.FileName": "Bestandsnaam:",
         "Exporter.ExportAs": "Exporteer Als:",
@@ -1648,7 +1654,6 @@
         
         "Migration.Summary": "Oké, we hebben alles wat we nodig hebben. Klik hieronder op Migratie starten en we gaan aan de slag met uw migratie.\n\nDe migratie kan enige tijd duren, we moeten alles kopiëren. Als u ervoor heeft gekozen uw favorieten te migreren, geven we prioriteit aan deze, zodat u zich op uw gemak kunt voelen.\n\nU hoeft {appName} niet actief te houden terwijl we migreren, maar we sturen u updates via de bot {appName} om je te laten weten hoe het gaat.",
         
-
         "Migration.List.EmptyTitle": "Wilt u een nieuwe migratie starten?",
         "Migration.List.EmptySubtitle": "Klik linksboven op \"Nieuwe migratietaak\".",
 
@@ -1700,6 +1705,87 @@
         "Temporary.MMC.VotedAlready": "Je hebt al gestemd in {category}.",
         "Temporary.MMC.VoteInvalid": "Stem is ongeldig, probeer het opnieuw.",
 
+        "CloudHome.WelcomeHome": "Welkom thuis",
+        "CloudHome.TargetRangeOptions": "instellingen voor doelbereik",
+
+        "Tutorial.Saving.Title": "Welkom thuis!",
+        "Tutorial.Saving.Content": "Welkom in je <b><i><color=hero.gold>Thuis</b></i></color> wereld! Hier kom je elke keer terecht als je inlogt.<br><br>Dit is een geheel eigen wereld, dus alle wijzigingen die je aanbrengt kunnen worden opgeslagen.<br><br>Als je opslaat, wordt alles opgeslagen bij terugkomst zal het net zo zijn als u het achterliet!",
+
+        "CloudHome.Info.OnlineUsers": "Online {online_users,plural, een {user} andere {users}}: {online_users}<br>Joinable {joinable_users,plural, een {user} andere {users}}: {joinable_users}",
+        "CloudHome.Info.Moderation": "Moderation",
+        "CloudHome.Info.Inventory": "Inventory",
+        "CloudHome.Info.Tools": "Tools",
+        "CloudHome.Info.MoreInfo": "Meer Info",
+        "CloudHome.Info.SessionUptime": "Uptime van de sessie:",
+        "CloudHome.Info.AccessLevel": "Toegangsniveau:",
+        "CloudHome.Info.StorageUsed": "Gebruikte opslag:",
+
+        "CloudHome.Info.DashInfoTab.Title": "Welkom!",
+        "CloudHome.Info.DashInfoDesktop": "Om u op de hoogte te brengen, zijn er een paar dingen die u moet weten. Je hebt een <i><color=hero.purple>Dashboard</color></i> dat je kunt openen door op Escape te drukken. Zie het als uw bureaublad of configuratiescherm.<br><br>Als u in de war bent: dit scherm biedt aanvullende informatie om u te helpen. Klik op de onderstaande knop om dit bericht te sluiten.",
+        "CloudHome.Info.DashInfoVR": "Om u op de hoogte te brengen, zijn er een paar dingen die u moet weten. Je hebt een <i><color=hero.purple>Dashboard</color></i> dat je kunt openen door op B of Y te drukken. Zie het als je bureaublad of configuratiescherm.<br><br>Als je Als je in de war bent, bevat dit scherm wat extra informatie om je te helpen. Klik op de onderstaande knop om dit bericht te sluiten.",
+        "CloudHome.Info.DashInfoVRNoButtons": "Om u op de hoogte te brengen, zijn er een paar dingen die u moet weten. Je hebt een <i><color=hero.purple>Dashboard</color></i> dat je kunt openen door de Menu-knop ingedrukt te houden totdat de cirkel compleet is. Zie het als uw bureaublad of configuratiescherm.<br><br>Als u in de war bent: dit scherm biedt aanvullende informatie om u te helpen. Klik op de onderstaande knop om dit bericht te sluiten.",
+
+        "CloudHome.Info.GoToWiki": "Ga naar Wiki!",
+        "CloudHome.Info.GoToDiscord": "Ga naar Discord!",
+
+        "CloudHome.Info.ModerationTab.Title": "Moderation!",
+        "CloudHome.Info.ModerationTab.Content": "Veiligheid is belangrijk voor ons. Als je hulp nodig hebt of een gebruiker wilt rapporteren, open dan een ticket in ons <u><color=hero.cyan>Moderatieportaal.</color></u><sprite name=hyperlink><br><br>Wij een sterk team van vrijwillige moderators <sprite name=modbadge> hebben die de gemeenschap veilig houden! Dien een ticket in als u vragen heeft of normovertredend gedrag constateert.",
+        
+        "CloudHome.Info.InventoryTab.Title": "Je Items opslaan!",
+        "CloudHome.Info.InventoryTab.Content": "De <i><color=hero.purple>Inventaris</color></i> in uw <i><color=hero.purple>Dashboard</color></i> bevat uw opgeslagen avatars en items.<br ><br>De map <i><color=hero.purple>Essentials</color></i> bevat een aantal leuke dingen om mee te spelen; dubbelklik op een item om het te spawnen!",
+
+        "CloudHome.Info.ToolsTab.Title": "in-wereld bewerken!",
+        "CloudHome.Info.ToolsTab.Content": "Een kenmerk van {appName} is dat je eenvoudig dingen rechtstreeks in de game kunt maken of wijzigen.<br><br>Ja, dat betekent hier! Of waar dan ook: met de tools die voor je beschikbaar zijn via <i><color=hero.purple>Essentials -> Tools</color></i> in je inventaris kun je de wereld om je heen eenvoudig naar wens bewerken.",
+
+        "CloudHome.Info.HelpTab.Title": "Hulp Vragen",
+        "CloudHome.Info.HelpTab.InfoLineOne": "Hulp nodig? neem een kijkje bi onze  <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, of krijg een andwoord op je",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "vragen in onze <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> Handig is dat u links op uw bureaublad kunt bekijken via uw Dashboard in de <i><color=hero.purple>Desktop</color></i> tabblad.",
+
+        "CloudHome.Info.UsersTab.Title": "Gebruikers vinden",
+        "CloudHome.Info.UsersTab.Content": "Openbare sessies zijn een geweldige manier om jezelf onder te dompelen in de gemeenschap!<br><br>Openbare sessies waaraan je nu kunt deelnemen, zijn te vinden in de <i><color=hero.purple>Werelden</color></i > tabblad in uw dashboard. Bekijken!",
+
+        "Mirror.Header.RenderingOptions" : "Rendering Instellingen",
+        "Mirror.Header.Type" : "Spiegel soort",
+        "Mirror.Header.Resolution" : "Spiegel resolutie",
+        "Mirror.Header.AspectRatio" : "Beeldverhouding",
+
+        "Mirror.EnableLights": "Lichten inschakelen",
+        "Mirror.DisableLights": "Lichten uitschakelen",
+
+        "Mirror.EnableShadows": "Schaduws inschakelen",
+        "Mirror.DisableShadows": "Schaduws uitschakelen",
+
+        "Mirror.Camera": "kamera",
+
+        "Mirror.AspectRatio.Tall": "Hoog",
+        "Mirror.AspectRatio.Square": "Vierkant",
+        "Mirror.AspectRatio.Wide": "Breed",
+
+        "Mirror.Menu": "Menu",
+        "Mirror.CloseMenu": "Menu sluiten",
+
+        "StickyNote.SpinMe": "Draai mij!",
+        "StickyNote.FruitPlate": "Gratis zelfaanvullende fruitschaal",
+        "StickyNote.EmptyForYou": "Speciaal voor jou leeg gelaten! :)",
+        "StickyNote.RelevantLinks": "Relevante links!<br><--<br><br><size=500>Je zou het zelfs een linkboek kunnen noemen</size>",
+        "StickyNote.SunTool": "Houd de kracht van de zon in je handen!",
+        "StickyNote.Bow": "Trek het touw terug en richten maar",
+        "StickyNote.Crossbow": "Hendelactie (of gebruik secundair) om te laden",
+        "StickyNote.Shade": "Aanpasbare schaduw",
+        "StickyNote.TheaterTablet": "Gebruik deze tablet om de ventilator en de raamtint voor deze kamer te regelen!",
+        "StickyNote.ControlTablet": "Gebruik deze tablet om delen van het huis te bedienen!",
+
+        "StickyNote.RotateMeDesktop": "Draai mij door op E te drukken!",
+        "StickyNote.RotateMeVR": "Draai mij!",
+
+        "StickyNote.EquipMeDesktop": "Uitrusten en druk op de linkermuisknop!",
+        "StickyNote.EquipMeVR": "Uitrusten en trek aan het touw!",
+
+        "StickyNote.DipBrushes": "Doop penselen in bollen om materialen te gebruiken",
+        "StickyNote.BrushColor": "Wijzig de kleur en grootte van het penseel in uw contextmenu",
+        "StickyNote.Drawing": "Je kunt op het bord, in de lucht of waar dan ook tekenen!",
+        "StickyNote.WorldCanvas": "De wereld is jouw canvas!",
+        
         "Dummy": "Dummy"
     }
 }
