@@ -111,7 +111,9 @@
         "Inventory.OpenWorld": "Abrir Mundo",
         "Inventory.Equip": "Equipar",
         "Inventory.Delete": "Borrar",
+        "Inventory.CreateDirectory": "Crear Carpeta",
         "Inventory.SaveHeld": "Guardar Agarrado",
+        "Inventory.GetURL": "Obtener Enlace",
         "Inventory.Inventories": "Inventarios",
         "Inventory.Share": "Compartir",
         "Inventory.Unshare": "Descompartir",
@@ -447,7 +449,6 @@
         "Account.RecoverPassword": "¿Perdió su Contraseña?",
         "Account.LiveEmailWarning": "<color=#f00>ADVERTENCIA:</color> live.com, hotmail.com, outlook.com y otros servicios de Microsoft pueden tomar hasta 1-2 dias para aceptar el E-mail.",
         "Account.PasswordRules": "(al menos 8 caracteres, un dígito, una letra minúscula, una letra mayúscula)",
-        "Account.AgeConfirm": "Tengo 13 años de edad o más",
         "Account.LostPassword": "He Perdido mi Contraseña",
         "Account.SendRecoveryCode": "Enviar código de recuperación",
         "Account.ResetPasswordHeader": "Restablecer su contraseña",
@@ -526,9 +527,9 @@
         "Session.Permission.ClearOverrides": "Borrar permisos sobreescritos",
 
         "Session.JoinVerifier.EnableHeader" : "Activar verificación de usuarios entrantes personalizada?",
-        "Session.JoinVerifier.EnableText" : "<color=red>WARNING:</color> Está a punto de habilitar la verificación de usuarios entrantes que es parte del mundo actual. Antes que lo haga, asegúrese que confía en el creador del mundo, ya que los verificadores personalizados pueden sobrepasar las reglas estándar de la sesión y permitir o bloquear la entrada a usuarios usando sus propias reglas.",
+        "Session.JoinVerifier.EnableText" : "<color=red>ADVERTENCIA:</color> Está a punto de habilitar la verificación de usuarios entrantes que es parte del mundo actual. Antes que lo haga, asegúrese que confía en el creador del mundo, ya que los verificadores personalizados pueden sobrepasar las reglas estándar de la sesión y permitir o bloquear la entrada a usuarios usando sus propias reglas.",
         "Session.JoinVerifier.Label" : "Usar verificación de usuarios personalizada: {name}",
-        "Session.JoinVerifier.ComponentWarning" : "<color=red>WARNING:</color> Al momento, no hay ningún mecanismo para prevenir la alteración del verificador una vez activado. Si la alteración de la configuración de ProtoFlux para la verificación es una preocupación, NO USE ésta función y NO LO HABILITE en sus mundos.",
+        "Session.JoinVerifier.ComponentWarning" : "<color=red>ADVERTENCIA:</color> Al momento, no hay ningún mecanismo para prevenir la alteración del verificador una vez activado. Si la alteración de la configuración de ProtoFlux para la verificación es una preocupación, NO USE ésta función y NO LO HABILITE en sus mundos.",
         "Session.JoinVerifier.SetCustomVerifier" : "Establecer como verificador de usuarios personalizado",
 
         "Permissions.NotAllowedToSpawn": "No posee permisos para crear objetos de su inventario aquí.",
@@ -895,6 +896,10 @@
         "Importer.Video.Depth.Prompt": "Preajuste de Profundidad",
         "Importer.Video.Depth.Default": "Por Defecto",
         
+        "Importer.Slices.Title": "Lonchas de Imagenes como textura volumétrica",
+        "Importer.Slices.TitleGrayscale": "Lonchas de Imagenes como texura volumétrica (escala gris)",
+        "Importer.Slices.Description": "Procesar las Imagenes del Archivo en el archivo a textura volumétricas",
+    
         "Exporter.Title": "Exportar",
         "Exporter.FileName": "Nombre de archivo:",
         "Exporter.ExportAs": "Exportar como:",
