@@ -152,7 +152,7 @@
         "Dash.Exit.Sponsor": "Vastega dank' al {name} pro sponsori ĉi tiun projekton!",
         "Dash.Exit.Sponsor.You": "VI",
         "Dash.Exit.Shoutouts": "Ĉi tiu projekto ankaŭ eblas dank' al ĉi tiuj homoj:",
-        "Dash.Exit.Shoutouts.AndMore" : " kaj pli multa!",
+        "Dash.Exit.Shoutouts.AndMore" : " kaj pli multaj!",
         "Dash.Exit.Shoutouts.You" : "{name} (Estas vi! Dankon!)",
         "Dash.Exit.ThankYou": "Dankon pro via uzo de {appName}!",
         "Dash.Exit.SubmittedBy": "Sendita de: {name}",
@@ -1383,6 +1383,9 @@
         "Desktop.Brightness": "Brilo: {n,number,percent}",
         "Desktop.Opacity": "Maldiafaneco: {n,number,percent}",
 
+        "VolumePlaneSlicer.Highlight": "Marki",
+        "VolumePlaneSlicer.Slicer": "Segmenti",
+
         "Tutorial.Welcome.WelcomeTo": "Bonvenon al",
         "Tutorial.Welcome.LetsStart": "Ni Komencu!",
 
@@ -1441,7 +1444,97 @@
         "Exiting.SavingItems": "Konservante {n, plural, one {# ero} other {# erojn}}...",
         "Exiting.SavingChanges": "Konservi Ŝanĝojn...",
         "Exiting.Exiting": "Elirante...",
-        "Exiting.LoggingOut": "Elŝalti...",
+        "Exiting.LoggingOut": "Elsalutante...",
+
+        "Migration.Title": "Migrado",
+        "Migration.NewTask": "Nova Migradtasko",
+
+        "Migration.LoginModal.Title": "Migrigi datumojn?",
+        "Migration.LoginModal.Description": "Ĉu al vi plaĉus migrigi datumojn de alia konto? Vi ankaŭ povas elekti fari ĉi tion pli poste uzante la langeton \"Migrado\" en la Ekpanelo.",
+        "Migration.LoginModal.OpenMigration": "Malfermi Migradilon",
+        "Migration.LoginModal.Later": "Eble pli poste",
+        "Migration.LoginResetID.Title": "Ĉu vere restartigi la Uzantnumeron?",
+        "Migration.LoginResetID.Description": "Bonvolu kompreni ke ĉi tia ago rezultos en <color=red>LA NEANTAŬVIDEBLA ROMPIĜO DE ENHAVOJ</color>. Ĉiuj viaj aĵoj, mondoj, kontaktuloj, kaj mesaĝoj estos sukcese migradigotaj, sed iuj kondutoj kaj komponantoj kiuj fidi al la referenco de via malnova Uzantnumero varŝajne rompiĝos kaj bezonos esti re-agordotaj kaj reparotaj. Krome se vi havas seriozan reason por voli restartigi vian Uzantnumeron, <color=red>NE ELEKTU ĈI TIUN OPCION</color>.",
+        "Migration.LoginResetID.ResetButton": "Jes, restartigi",
+
+        "Migration.ReservedUsername.Title":"<b>Rezervita Uzantnomo</b>",
+        "Migration.ReservedUsername.Description": "Ĉi tiu uzantnomo estas rezervita por ĝia originala posedanto. Se ĉi tio estas via konto, bonvolu provizi viajn identigilojn de {platform} por malŝlosi ĝin. Ni ne konservos ĉi tiujn itentigilojn, iliaj estas nur uzotaj por kontroli la posedecon de via konto dum registriĝo.",
+        "Migration.SourcePassword": "{platform} Pasvorto:",
+        "Migration.SourceUsername": "{platform} Uzantnomo:",
+
+        "Migration.Dialog.Title": "Konto-Migrado",
+        "Migration.Dialog.Source" : "You can migrate data from any compatible infrastructure. First select one from the list below that you'd like to migrate data from. You can add additional infrastructures by placing config files in the \"Migrations\" folder in the installation.",
+        "Migration.Dialog.AccountDescription": "To migrate your account, we'll need your {platform} account password. This will let us login to it and access the data.",
+
+        "Migration.ResetID.Title": "Restartigi mian Uzantnomeron",
+        "Migration.ResetID.Description":"<color=red><b>AVERTO:</b></color> Elekti ĉi tiun opcion <b>PARTE ROMPOS EKZISANTAJN ENHAVOJN KAJ ES NENULIGEBLA</b>, ĉi tiu enhavas iu ajn Uzantnom-referencoj en enhavoj de uzantoj, servicoj de la komunumo, ligiloj, nubovariabloj, kaj pli. Ĉi tiuj referencoj estos restartigotaj, sed via aĵoj, mondoj, kontaktuloj, kaj mesaĵoj mem ne perdotos. Ni rekomendas ke vi uzu ĉi tiun opcion <b>NUR</b> se al vi plaĉus forĵeti vian malnovan Uzantnumeron kaj anstataŭi ĝin per nova, hazargidita Uzantnumero. Krom se vi havas fortan motivan restartigi vian Uzantnumeron, vi <b>NE ELEKTU</b> ĉi tiun opcion. Via Uzantnumero ŝanĝos ĉi tiel: \n U-MiaUzantnomo -> U-fX3pKe7AYYQ",
+
+        "Migration.DataSelection.Title": "Kiam ni migradigos vian kondon, kiujn datumojn ni migradigu?",
+        "Migration.DataSelection.Everything": "̂Ciuj",
+        "Migration.DataSelection.Choose": "Permesu al mi elekti",
+
+        "Migration.DataSelection.Favorites": "Plej Ŝatatajoj (avataro, hejmo, fotilo, kalvaro, faceotj)",
+
+        "Migration.DataSelection.Favorites.Description": "Ĉi tiu migradigos vian hejmon, plej ŝatatan avataron, klavaron, kaj ekpanelon unue, por ke vi povas uzi ilin kiom baldaŭ tiom eble.\n <color=red><b>AVERTO:</b></color> Se vi elektu ĉi tiun opcion, eble vi <b>PERDOS IUJN AJN ŜANĜOJN</b> faritajn en ĉi tiu platformo antaŭ ol la migrado al viajn plej ŝatitaĵon.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "Dum la migrado, ni anstataŭigu viajn plej ŝatitaĵojn?",
+
+        "Migration.DataSelection.Home.Title": "Agordi vian malnovan hejmon kiel defaŭlto?",
+        "Migration.DataSelection.Home.Description": "When we migrate your data, your original cloud home will be placed under different URL and you will get a brand new cloud home as default. However if you'd prefer, we can default your old home as the default one. Even if you select \"No\", your old cloud home will still be accessible and you can favorite it as your default later.",
+
+        "Migration.DataSelection.Contacts": "Kontaktuloj",
+        "Migration.DataSelection.Message History": "Historio de Mesaĝoj",
+        "Migration.DataSelection.InventoryWorld": "Inventaro & Mondoj",
+        "Migration.DataSelection.CloudVariable.Definitions": "Difinaro de Nubovariabloj",
+        "Migration.DataSelection.CloudVariable.Values": "Nublovariablaj Valoroj",
+
+        "Migration.DataSelection.AlwaysOverwrite": "Ĉiam anstataŭigi",
+
+        "Migration.Start": "Komenci Migradon",
+        "Migration.Groups.Title": "Migradigi Grupojn",
+        "Migration.Groups.Introduction": "Ni migragidu viajn grupojn?",
+
+        "Migration.Groups.Description": "Ĉiaj grupo, de kiuj vi estas administranto, migradotos defaŭlte. Se vi volus migradigi nur elektitajn grupojn, alklaku la butonon sube por ŝargi ilin kaj poste, elekti tiujn grupojn, kiujn vi volus migradigi.",
+
+        "Migration.Groups.LoadGroups": "Ŝargi grupojn",
+        "Migration.Groups.RefreshGroups": "Aktualigi grupojn",
+
+        "Migration.Groups.Fetching": "Grupoj elŝutataj...",
+        "Migration.Groups.Fetching.LoginFailed": "Eraro dum ensaluto: {error}",
+        "Migration.Groups.Fetching.Error": "Eraro dum elŝuto de grupoj: {error}",
+        "Migration.Groups.NoGroups": "Neniuj grupoj en {platform} trovitaj por migradigi.",
+        "Migration.Groups.NotGroupAdmin": "Vi ne stas administranto de iuj ajn grupoj de {platform}, demandoj la administrantojn de viaj grupoj por migradigi la grupojn!",
+
+        "Migration.Summary": "Bone, ni havas ĉiujn, kiujn ni bezonas. Alklaku Komenci Migradon sube kaj ni ekkomecos je via migrado.\n\nLa migrado eble daŭros iatempe ĉar ni devas transkopii ĉiujn. Se vi elektis migradigi viajn plej preferataĵon, ni prioritaigi ilin por ke vi povos vin farigi komforta.\n\nNe necesas ke vi daŭrigu {appName} rulantan ĉiam ni migradigas, sed ni sendos al vi ĝisdatigojn per la roboto de  {appName} por sciigi vin kiel la migrado fartas.",
+
+        "Migration.List.EmptyTitle": "Ĉu serĉanta komenci novan Migradon?",
+        "Migration.List.EmptySubtitle": "Alklaku  \"Nova Migrad-Taskon\" en la supre maldekstro.",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Kreiita je:{time}\nStato:{state}",
+        "Migration.Report.Title": "Raporto de Migrad-Taskojn:",
+        "Migration.Report.Description": "<color={hex}>Preskribo:</color> {value}",
+        "Migration.Report.Status": "<color={hex}>Stato:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>Kreiita je:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>Komencita je:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>Kompletigita je:</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "Nune migradigante la datumojn de <color={hex}>{value}</color>.",
+        "Migration.Report.CurrentItem": "Nuna ero: <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>Nuna rapido:</color> ~{value} mondaj/eroj per minuto",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>Restantaj taskoj en vico antaŭ ol ĉi tiu:</color> {value}",
+        "Migration.Report.ContactStatus": "Migradigite <color={hex}>{current}</color> kontaktulojn el <color={hex}>{total}</color>",
+        "Migration.Report.MessageStatus": "Migradigite <color={hex}>{value}</color> mesaĝojn",
+        "Migration.Report.CloudVariableDefinitionStatus": "Migradigite <color={hex}>{value}</color> difinojn de nubovariabloj",
+        "Migration.Report.CloudVariableValueStatus":"Migradigite <color={hex}>{value}</color> nubovariablojn",
+        "Migration.Report.RecordStatus": "Migradigite <color={hex}>{current}</color> erojn/mondojn el <color={hex}>{total}</color>. <color=red>{failed}</color> malsukcesis.",
+        "Migration.Report.GroupStatus": "Migradigite <color={hex}>{current}</color> grupojn el <color={hex}>{total}</color>",
+        "Migration.Report.GroupMemberStatus": "Migradigite sumon <color={hex}>{value}</color> membroj de grupoj",
+
+        "Migration.Error": "<color=red>Eraro:</color> {error}",
+        "Migration.NothingSelected": "Neniu elektita, ne povas komenci.",
+
+        "Migration.ColorManagement": "Ĉi tiu mondo aŭtoriĝis en gama spaco kaj aŭtomate estis konvertita al la linea.<br><br>Ĝi eble aspektos malsame ol la originala, sed estu ĝenerale uzebla.<br><br>Se vi estas la aŭtoro kaj trovas iujn problemojn en la konverto de la mondo, <color=red>NE KONSERVU</color>. Nur konservu kopiojn.<br><br>Kiom longe tiom ekzistas la orginalo, ni povos optimumigi la procezon de konverto. Alie vi respondecos pri ĝi mem ripari.",
 
         "UI.TextDisplay.Landscape": "Pejzaĝo",
         "UI.TextDisplay.Portrait": "Portreto",
