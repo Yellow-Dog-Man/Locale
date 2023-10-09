@@ -1,6 +1,6 @@
 {
     "localeCode": "ko",
-    "authors": ["MirPASEC", "R3C0D3r", "LUA", "Guide", "Titancube", "Holy_Water"],
+    "authors": ["MirPASEC", "LUA", "R3C0D3r", "Titancube", "Holy_Water", "Guide", "IceCreamPie"],
     "messages": {
 
         "General.OK": "확인",
@@ -9,7 +9,7 @@
         "General.Cancel": "취소",
         "General.Continue": "계속",
         "General.Next": "다음",
-
+        "General.Previous": "이전",
         "General.Back": "뒤로",
         "General.Confirm": "확실합니까?",
         "General.Loading": "읽어오는 중입니다.",
@@ -28,7 +28,17 @@
         "General.Create": "생성",
         "General.Creating": "생성하는 중 입니다.",
         "General.Buy": "구매",
-
+        "General.Yes": "네",
+        "General.No": "아니요",
+        "General.ClearSelection" : "선택취소",
+        "General.Off": "끄기",
+        "General.On": "켜기",
+        "General.Understand": "이해 하였습니다",
+        "General.Notice" : "알림",
+        "General.UnderstandEnable" : "이해 했습니다, 활성",
+        "General.Dismiss": "확인",
+        "General.Edit": "편집",
+        
         "General.UI.SearchPrompt": "검색하기...",
         "General.UI.SearchPromptLong": "이곳에 검색할 키워드를 입력하세요.",
         "General.UI.ToggleEditMode": "UI 편집모드 전환",
@@ -44,6 +54,9 @@
 
         "General.Sort.Ascending": "오름차순",
         "General.Sort.Descending": "내림차순",
+
+        "Worlds.Home" : "홈",
+        "Worlds.Tutorial" : "자습서",
 
         "Locomotion.Noclip.Name": "노클립(No-clip)",
         "Locomotion.Noclip.Description": "충돌 판정이 없는 노클립 비행모드. 편집작업을 할때 유용합니다.",
@@ -95,13 +108,37 @@
         "Interaction.ExportFile": "파일 다운로드(문서/{appName} VR)",
         "Interaction.CopyLink": "링크 복사",
 
+        "Inventory.OpenWorld": "세션 시작",
+        "Inventory.Equip": "아바타 착용",
+        "Inventory.Delete": "선택삭제",
+        "Inventory.CreateDirectory": "폴더 생성",
+        "Inventory.SaveHeld": "저장하기",
+        "Inventory.GetURL": "URL복사",
+        "Inventory.Inventories": "보관함 전환",
+        "Inventory.Share": "선택공유",
+        "Inventory.Unshare": "공유해제",
+        "Inventory.SaveAvatar": "아바타 저장",
+        "Inventory.Favorite.Home": "기본설정:홈",
+        "Inventory.Favorite.ProgressBar": "기본설정:진행바",
+        "Inventory.Favorite.AudioStreamController": "기본설정:음향송출제어기",
+        "Inventory.Favorite.TextDisplay": "기본설정:문자출력",
+        "Inventory.Favorite.VideoPlayer": "기본설정:영상재생",
+        "Inventory.Favorite.AudioPlayer": "기본설정:음향재생",
+        "Inventory.Favorite.InteractiveCamera": "기본설정:카메라",
+        "Inventory.Favorite.Keyboard": "기본설정:키보드",
+        "Inventory.Favorite.Avatar": "기본설정:아바타",
+        "Inventory.Favorite.WorldLoadingIndicator": "기본설정:월드로딩바",
+        "Inventory.Favorite.ColorDialog": "기본설정:색상선택",
+        "Inventory.Favorite.Hyperlink": "기본설정:URL표시기",
+        "Inventory.SpawnFacet": "페싯으로 생성",
+
         "Dash.Screens.Home": "홈",
         "Dash.Screens.Worlds": "월드",
         "Dash.Screens.Contacts": "연락처",
         "Dash.Screens.Inventory": "보관함",
         "Dash.Screens.Desktop": "데스크탑",
         "Dash.Screens.Session": "세션",
-        "Dash.Screens.FileBrowser": "<nobr>파일탐색기",
+        "Dash.Screens.FileBrowser": "파일탐색기",
         "Dash.Screens.Settings": "설정",
         "Dash.Screens.Exit": "종료",
 
@@ -114,8 +151,15 @@
         "Dash.Exit.Header": "{appName} 종료",
         "Dash.Exit.ExitAndSave": "저장 후 종료",
         "Dash.Exit.ExitAndDiscard": "{appName} 종료(저장안함)",
+        "Dash.Exit.Sponsor": "이 프로젝트를 후원해 주신 {name}에게 정말 감사드립니다!",
+        "Dash.Exit.Sponsor.You": "당신",
+        "Dash.Exit.Shoutouts": "이 프로젝트는 이 분들 덕분에 존재하고 있습니다:",
+        "Dash.Exit.Shoutouts.AndMore" : " 그리고 여기에 나오지 않은 많은 분들.",
+        "Dash.Exit.Shoutouts.You" : "{name}님, 바로 당신 입니다. 감사합니다!",
         "Dash.Exit.ThankYou": "{appName}를 이용해 주셔서 감사합니다.",
         "Dash.Exit.SubmittedBy": "이 메세지는 {name}이(가) 남겼습니다.",
+
+        "Facets.FPS": "{fps}<size=61.803%> FPS</size>",
 
         "World.Waiting": "대기중입니다.",
         "World.HostIsStarting": "호스트가 세션을 시작하고 있습니다.",
@@ -123,6 +167,7 @@
         "World.LoadingFailed": "읽어오기 실패",
         "World.LoadedAssets": "{total_assets}개의 에셋(Asset) 중 {assets}개를 읽고 있습니다.",
         "World.Downloading": "{total_bytes}중 {bytes} 다운로드 중",
+        "World.Loaded": "로딩완료",
 
         "World.Connection.EstablishingConnection": "연결을 진행중입니다.",
         "World.Connection.RequestingJoin": "참여를 요청합니다.",
@@ -152,7 +197,10 @@
         "World.Error.InvalidAddress": "잘못된 주소입니다.",
         "World.Error.NoPort": "포트가 설정되지 않았습니다.",
         "World.Error.IncompatibleVersion": "실행중인 클라이언트와 월드의 버전이 일치하지 않습니다.",
-
+        "World.Error.HostBlocked": "호스트 차단",
+        "World.Error.HostBlockedDetail": "당신이 차단한 호스트입니다.",
+        "World.Error.WorldCrash": "월드가 파괴됨",
+        "World.Error.WorldCrashDetail" : "월드에 치명적인 문제가 발생하였습니다.",
         "World.Error.Unknown": "알 수 없는 오류가 발생하였습니다.",
 
         "World.Config.Name": "월드명:",
@@ -240,7 +288,7 @@
         "World.Category.Featured": "추천",
         "World.Category.PublishedWorlds": "등록된 월드",
         "World.Category.ActiveSessions": "활성세션",
-
+        "World.Category.ContactsSessions": "친구의 세션",
         "World.Category.HeadlessSessions": "헤드리스 세션",
         "World.Category.Social": "소셜",
         "World.Category.Games": "게임",
@@ -250,10 +298,12 @@
         "World.Category.Random": "무작위",
         "World.Category.MyWorlds": "나의 월드",
         "World.Category.Custom": "검색조건 지정",
+        "World.Category.GroupWorlds": "그룹 월드",
 
         "World.AccessLevel.Anyone": "누구나",
-        "World.AccessLevel.RegisteredUsers": "{appName} 가입자",
-
+        "World.AccessLevel.RegisteredUsers": "가입자",
+        "World.AccessLevel.Contacts": "친구",
+        "World.AccessLevel.ContactsPlus": "친구의 친구",
         "World.AccessLevel.LAN": "로컬망(LAN) 인원",
         "World.AccessLevel.Private": "비공개 (호스트의 초대로만 참여 가능)",
 
@@ -269,29 +319,29 @@
         "World.SortParameter.LastVisit": "최근 방문순",
         "World.SortParameter.Random": "무작위",
 
-        "World.Filter.DataSources": "데이터 소스:",
+        "World.Filter.DataSources": "월드유형 필터",
         "World.Filter.OpenedWorlds": "열려있는 월드",
-        "World.Filter.ActiveSessions": "활성화된 세션",
+        "World.Filter.ActiveSessions": "활성세션",
         "World.Filter.PublishedWorlds": "등록된 월드",
         "World.Filter.LocalWorlds": "로컬망(LAN) 월드",
-        "World.Filter.BaseSearch": "검색:",
-        "World.Filter.ByOwner": "제작자로 검색:",
+        "World.Filter.BaseSearch": "검색어 필터",
+        "World.Filter.ByOwner": "제작자 필터",
         "World.Filter.UserOwner": "개인소유",
         "World.Filter.GroupOwner": "그룹소유",
-        "World.Filter.SubmittedToGroup": "그룹에 제출:",
+        "World.Filter.SubmittedToGroup": "제작한 그룹으로 필터",
         "World.Filter.Featured": "추천 월드만",
         "World.Filter.MyWorlds": "내 월드",
-        "World.Filter.SessionFiltering": "세션 필터링:",
+        "World.Filter.SessionFiltering": "세션 필터",
         "World.Filter.MinimumUsers": "최소 사용자 수: <b>{n}</b>",
-
+        "World.Filter.MinimumContacts": "최소 친구 수: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "헤드리스(Headless) 호스트만",
-        "World.Filter.MaxAccessLevel": "최대 권한 레벨:",
-        "World.Filter.MinimumUptime": "최소 경과 시간:",
-        "World.Filter.Sorting": "정렬:",
+        "World.Filter.MaxAccessLevel": "최고 접근 권한:",
+        "World.Filter.MinimumUptime": "최소 세션 시간:",
+        "World.Filter.Sorting": "정렬형식",
 
         "World.Edit.Title": "월드 정보 수정",
         "World.Edit.Name": "월드명 : ",
-        "World.Edit.Description": "설명문 : ",
+        "World.Edit.Description": "설명 : ",
         "World.Edit.Tags": "태그(콤마로 태그를 구분합니다) : ",
         "World.Edit.Path": "월드 경로 : ",
         "World.Edit.AccessLevelHeader": "월드를 열 수 있는 대상을 지정하세요.",
@@ -307,50 +357,95 @@
         "Tools.StreamAudio": "음향송출기",
         "Tools.Setup2FA": "2FA(2차인증) 설정",
 
+        "Tools.StreamAudio.Dialog.Title" : "음향송출",
         "Tools.StreamAudio.Start": "송출시작",
         "Tools.StreamAudio.Bitrate": "전송량: {bitrate} kbps",
         "Tools.StreamAudio.Title": "{username}의 음향송출",
-        "Tools.StreamAudio.Spatialized": "국지송출중",
-        "Tools.StreamAudio.Broadcast": "월드송출중",
-        "Tools.StreamAudio.PlayForOwner.Off": "같이듣는중",
-        "Tools.StreamAudio.PlayForOwner.On": "혼자듣는중",
+        "Tools.StreamAudio.Spatialized": "국지송출",
+        "Tools.StreamAudio.Broadcast": "전역송출",
+        "Tools.StreamAudio.PlayForOwner.Off": "송출자는 듣지 않기",
+        "Tools.StreamAudio.PlayForOwner.On": "자가 송출중",
 
         "Options.FreeformDash.On": "자유형 대시: 켜기",
         "Options.FreeformDash.Off": "자유형 대시: 끄기",
         "Options.SeatedMode.On": "좌식모드: 켜짐",
         "Options.SeatedMode.Off": "좌식모드: 꺼짐",
         "Options.Nameplates.All": "이름표 보기",
-        "Options.Nameplates.NonContacts": "친구 이름표 숨기기",
+        "Options.Nameplates.NonContacts": "친구가 아닌 사람만 이름표 보기",
         "Options.Nameplates.Hide": "이름표 숨기기",
+        "Options.Nameplates.DefaultStyle": "기본 이름표로 보기",
+        "Options.Nameplates.CustomStyle": "개인화된 이름표 허용",
 
-        "Indicator.OnlineUsers": "온라인 사용자: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus": "<color=#fff>서버상태:</color> {status, select, Good {좋음} Slow {느림} Down {다운} NoInternet {인터넷 연결 없음}} ({response_ms} ms)",
+        "Indicator.OnlineUsers": "온라인 : <color=hero.yellow>{users}</color>명",
+        "Indicator.OnlineUsersVR": "VR 사용자 <color=hero.purple>{users}</color>명",
+        "Indicator.OnlineUsersDesktop": "PC 사용자 <color=hero.cyan>{users}</color>명",
+        
+        "Indicator.ServerStatus.Status": "클라우드 상태",
+        "Indicator.ServerStatus.Good": "좋음",
+        "Indicator.ServerStatus.Slow": "느림",
+        "Indicator.ServerStatus.Down": "중단",
+        "Indicator.ServerStatus.NoInternet": "인터넷 연결 없음",
 
-        "Indicator.Sync.AllSynced": "모든 항목의 동기화가 완료되었습니다",
-        "Indicator.Sync.SyncingItems": "동기화 : {item_count,plural, other {# 항목}} <nobr>({item_percent} %)",
-        "Indicator.Sync.UploadingVariants": "업로드 : {variant_count,plural, other {# 에셋(asset)}}",
-        "Indicator.Sync.SyncError": "동기화 오류가 발생하였습니다.<size=50%>자세한 내용은 로그를 확인하세요.</size>",
-        "Indicator.Sync.OutOfSpace": "저장소 공간이 부족하여, <size=50%>동기화가 불가능합니다</size>",
+        "Indicator.Sync.AllSynced": "동기화 완료",
+        "Indicator.Sync.SyncingItems": "동기화<br><size=61.8033%>{item_count}개 항목</size>",
+        "Indicator.Sync.UploadingVariants": "업로드<br><size=61.8033%>에셋 베리언츠</size>",
+        "Indicator.Sync.SyncError": "동기화 오류 <size=61.803%>자세한 내용은 로그를 확인하세요.</size>",
+        "Indicator.Sync.StorageFull": "동기화 오류 <size=50%>저장소 부족</size>",
 
-        "Indicator.LiveHiddenMessage": "(방송중엔 가려집니다)",
+        "Indicator.Storage.StorageFull": "저장소 부족",
+        "Indicator.Storage.Usage": "<size=61.803%>사용중인 저장소</size><br>{storage_max}중 {storage_used}",
+
+        "Indicator.LiveHiddenMessage": "(방송중엔 안보입니다)",
+
+        "Login.InvalidCredentials": "계정 정보를 다시 확인해 주세요.",
+        "Login.InvalidLogin": "계정 정보를 다시 확인해 주세요.",
+
+        "Login.MalformedUID": "유효하지 않은 장치 식별자 정보 입니다.",
+        "Login.MissingUID": "장치 식별자 정보가 존재하지 않습니다.",
+        "Register.MissingUID": "유효하지 않은 장치 식별자 정보 입니다.",
+        "Register.MalformedUID": "유효하지 않은 장치 식별자 정보 입니다.",
+
+        "Login.MissingLogin": "계정 정보를 입력하세요.",
+        "Login.InvalidRecoveryCode": "유효치 않은 복구코드 입니다.",
+        "Login.UnsupportedAuthentication": "지원하지 않는 인증방법 입니다.",
+        "Login.EmailNotVerified": "전자메일이 확인되지 않았습니다.",
+        "Login.AccountTempLocked": "계정이 잠겨진 상태입니다.",
+        "Login.AccountBanned": "로그인이 차단된 계정입니다.",
+        "Login.DuplicateAccount": "중복 계정입니다.",
+
+        "Register.MissingRequest": "세부 정보가 빠져 있습니다.",
+        "Register.InvalidEmail": "전자메일 정보가 유효하지 않습니다.",
+        "Register.MissingUsername": "사용자명을 입력하세요.",
+        "Register.MissingEmail": "전자메일 주소를 입력하세요.",
+        "Register.UsernameTooLong": "사용자명이 너무 깁니다.",
+        "Register.UsernameContainsAmpersand": "사용자명에 @ 기호를 사용할 수 없습니다.",
+        "Register.UsernameStartsWithU": "사용자명은 U-로 시작하면 안됩니다.",
+        "Register.InvalidUsername": "유효하지 않은 사용자명 입니다.",
+        "Register.InvalidDateOfBirth": "생일은 유효한 날짜로 입력하세요.",
+        "Register.UserContainsBlockedTerms": "사용할 수 없는 단어가 사용자명에 들어 있습니다.",
+        "Register.MissingPassword": "암호를 입력하세요.",
+        "Register.InvalidPassword": "유효하지 않은 암호입니다.",
+        "Register.EmailAlreadyRegistered": "이미 등록된 전자메일 주소입니다.",
+        "Register.UsernameAlreadyRegistered": "이미 등록되어 있는 사용자명 입니다.",
+        "Register.ErrorCheckingUserId": "UserID 오류체크",
 
         "Account.Login": "로그인",
         "Account.Logout": "로그아웃",
         "Account.Register": "가입",
-
+        "Account.Saml2" : "SAML 2.0으로 로그인",
         "Account.LoginOrRegister": "로그인 / 가입",
         "Account.LogoutConfirm": "확실한가요?",
         "Account.LoggingIn": "로그인이 진행중입니다.",
         "Account.LoggingOut": "로그아웃이 진행중입니다.",
         "Account.Registering": "계정을 생성하고 있습니다.",
         "Account.Anonymous": "익명 사용자",
-        "Account.Username": "사용자명:",
-        "Account.Email": "전자메일:",
-        "Account.RememberMe": "계정정보 저장:",
-        "Account.RepeatEmail": "전자메일 재입력:",
-        "Account.UsernameOrEmail": "사용자명 또는 전자메일:",
-        "Account.Password": "암호:",
-        "Account.RepeatPassword": "(재입력)암호:",
+        "Account.Username": "사용자명",
+        "Account.Email": "전자메일",
+        "Account.RememberMe": "계정정보 저장<br><size=50%>(미활동 기준 30일간 유지)</size>",
+        "Account.RepeatEmail": "전자메일 재입력",
+        "Account.UsernameOrEmail": "사용자명 또는 전자메일",
+        "Account.Password": "암호",
+        "Account.RepeatPassword": "암호 재입력",
         "Account.RecoverPassword": "암호가 기억나지 않나요?",
         "Account.LiveEmailWarning": "<color=#f00>경고:</color> live.com, hotmail.com, outlook.com등의 Microsoft에서 제공하는 메일의 경우 1~2일의 기간이 소요됩니다.",
         "Account.PasswordRules": "(암호는 8자 이상으로 숫자, 소문자, 대문자로 이루어져 있어야 합니다.)",
@@ -366,8 +461,18 @@
         "Account.ErrorPasswordMismatch": "암호가 일치하지 않습니다.",
         "Account.ErrorEmailMismatch": "전자메일 주소가 일치하지 않습니다.",
         "Account.ErrorLoginError": "로그인 오류:",
-        "Account.RegistrationSuccess": "성공! 가입신청을 검증하기 위한 링크가 포함된 이메일이 발송되었습니다. 링크를 클릭하시면 로그인이 가능합니다.",
+        "Account.RegistrationSuccess": "<size=120%>성공!</size><br><br>{email}로 가입신청 확인용 링크가 포함된 메일을 발송하였습니다.<br><br>보고계신 대화상자가 열려있는 상태에서 메일 내 포함된 링크를 클릭하면 자동으로 로그인을 수행합니다.<br><br>문제 발생시 {appEmail} 또는 {appCommunity}로 문의 주시기 바랍니다.",
+        "Account.BirthMonth": "생월",
+        "Account.BirthDay": "생일",
+        "Account.BirthYear": "생년",
+        "Account.PoliciesAgreement": "저는 <color=#22B2FF>서비스 약관</color> 및 <color=#22B2FF>개인 정보 정책</color>에 동의 합니다.",
+        "Account.AlternateMethods" : "3자 인증서비스로 로그인:",        
 
+        "Account.Saml2.Title" : "SAML 2.0",
+        "Account.Saml2.Select" : "사용하고자 하는 SAML 2.0 제공자를 선택하세요.:",
+        "Account.Saml2.LoggingIn" : "로그인을 완료하기 위해 대기중 입니다. 웹브라우저를 확인해 주세요.",
+
+        "Account.TOTP.Title" : "2차인증",
         "Account.TOTP.Initializing": "2FA(2차인증) 상태를 확인하고 있습니다.",
         "Account.TOTP.Code.Header": "비밀코드",
         "Account.TOTP.Code.Description": "먼저, <b>Authy</b> 또는 <b>Google Authenticator</b>과 같은 TOTP 인증앱에 비밀번호를 입력하셔야 합니다.<br><br>비밀코드를 수동으로도 입력할 수 있지만, QR 코드 스캔 방식을 추천합니다.<b>이 코드를 타인에게 공유 또는 공개하지 마십시오.</b><br><br>VR 모드를 사용중이신 경우 F8 키를 눌러 데스크탑 모드로 전환할 수 있습니다.",
@@ -377,7 +482,7 @@
         "Account.TOTP.RecoveryCodes.Description": "이 코드를 안전하게 보관하세요. 인증을 위한 기기(=휴대폰)가 분실 또는 손상된 경우, 계정에 대한 접근권한을 복원하는데 사용할 수 있습니다. 각 코드는 한번만 사용 가능합니다.<b>절대 타인에게 공유 또는 공개하지 마세요.</b>)코드를 분실하실 경우 계정을 <color=red>영구적으로</color> 사용하실 수 없게 됩니다.",
         "Account.TOTP.RecoveryCodes.Codes": "코드:",
         "Account.TOTP.Activate.Header": "2FA(2차인증) 활성화",
-
+        "Account.TOTP.Activate.Description": "2차인증를 활성화 하려면 인증앱에서 생성된 6자리 토큰을 사용하여 정상적으로 동작하는지 확인하세요.<br><br>일단 활성화가 되면, 로그인시 추가 인증을 수행해야 합니다.",
         "Account.TOTP.Activate.Token": "토큰(6자리 숫자):",
         "Account.TOTP.Activate.TokenField": "여기에 토큰을 입력하세요....",
         "Account.TOTP.Activate.Activate": "활성화",
@@ -385,13 +490,22 @@
         "Account.TOTP.Activate.InvalidToken": "토큰 정보가 잘못되었습니다!",
         "Account.TOTP.Message.AlreadySetup": "2FA(2차인증)가 이미 활성화된 상태 입니다!",
         "Account.TOTP.Message.Error": "확인되지 않은 오류가 발생하였습니다. 잠시 후 재시도 해 주세요.",
-
+        "Account.TOTP.Message.SetupComplete": "<size=150%>축하합니다!</size><br><br>당신의 계정은 2차인증으로 조금 더 안전해졌습니다.<br><br>/enableLogin2FA 명령을 이용하면 로그인에 대해 선택적으로 활성화할 수 있습니다.",
         "Account.TOTP.Deactivate.Header": "2FA(2차인증) 끄기",
         "Account.TOTP.Deactivate.Description": "현재 <b><color=green>2FA(2차인증)가 활성화된 상태</color></b>입니다. 휴대전화 분실이나 코드분실등으로 이 기능을 끌 필요가 있는 경우. 이곳에서 진행할 수 있습니다. 기능을 껐다가 다시 활성화 시키시면 비밀코드와 복구코드가 새로 발급됩니다.<br><br>폰의 분실 등으로 2FA를 재설정 하는 경우, 일련의 설정 과정을 즉시 완료하는 것을 <b>강력히</b> 권고하는 바입니다. 각 복구 코드는 한번만 사용 가능하며, 모두 사용하는 경우 계정이 완전히 잠기게 됩니다.",
         "Account.TOTP.Deactivate.Deactivate": "비활성",
         "Account.TOTP.Deactivate.Deactivating": "기능을 끄는 중입니다.",
         "Account.TOTP.Message.DeactivationComplete": "2FA(2차인증)이 비활성화 되었습니다.<br><br>계정의 보안등급이 낮아졌습니다!<br><br>휴대전화 분실 등으로 복구코드를 사용하신 경우, 즉시 재설정하는것을 추천합니다.",
 
+        "Account.Type.Standard" : "일반 계정",
+        "Account.Type.Business" : "비즈니스 계정",
+        "Account.Type.Patreon" : "페트리온 후원자",
+        "Account.Type.Mentor" : "{platform} 멘토",
+        "Account.Type.Moderator" : "{platform} 중재자",
+        "Account.Type.Team" : "{platform} 팀",
+
+        "Avatar.Badge.Live" : "라이브",
+        
         "2FA.Header": "2FA(2차인증) 검증",
         "2FA.Token": "토큰(6자리 숫자):",
 
@@ -400,6 +514,7 @@
         "Profile.Status.Busy": "다른 용무 중",
         "Profile.Status.Invisible": "오프라인으로 표시",
         "Profile.Status.Offline": "오프라인",
+        "Profile.Status.Headless": "헤드리스",
 
         "Session.Tab.Settings": "세션설정",
         "Session.Tab.Users": "사용자",
@@ -411,6 +526,12 @@
         "Session.Permission.Host": "호스트(방장):",
         "Session.Permission.PermissionOverrideCount": "권한승계: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "권한승계 초기화",
+
+        "Session.JoinVerifier.EnableHeader" : "사용자 정의 세션참여 인증기를 활성화 하시겠습니까?",
+        "Session.JoinVerifier.EnableText" : "<color=red>경고:</color> 사용자 정의 세션참여 인증기를 활성화하려 합니다. 인증기는 표준적인 세션 접근 규칙이 아닌 자체 규칙을 만들어 우회하는 식으로 사용자의 진입을 허용 또는 차단할 수 있습니다. 월드 제작자 또는 세션 호스트를 신뢰하는지 확인하세요.",
+        "Session.JoinVerifier.Label" : "세션참여 인증기: {name}",
+        "Session.JoinVerifier.ComponentWarning" : "<color=red>경고:</color> 현재 인증 프로그램 활성화 후 위/변조를 방지할 수 있는 방법이 없습니다. ProtoFlux로 설정을 조작하는 것이 문제가 된다면 이 기능을 사용하지 마세요.",
+        "Session.JoinVerifier.SetCustomVerifier" : "세션참여 인증기로 설정",
 
         "Permissions.NotAllowedToSpawn": "생성 작업이 금지된 월드입니다.",
         "Permissions.NotAllowedToSave": "저장(Save) 작업이 금지된 월드입니다.",
@@ -429,17 +550,25 @@
         "Contacts.AcceptRequest": "친구요청 수락",
         "Contacts.IgnoreRequest": "친구요청 무시",
         "Contacts.Invite": "초대",
+        "Contacts.RevokeInvite": "초대 취소",
         "Contacts.BanFromAllSessions": "내가 시작한 세션에서 차단",
         "Contacts.UnbanFromAllSessions": "내가 시작한 세션의 차단해제",
         "Contacts.BanFromCurrentWorld": "현재 세션에서 차단",
         "Contacts.UnbanFromCurrentWorld": "현재 세션의 차단해제",
         "Contacts.RecordingVoiceMessage": "녹음중",
+        "Contacts.Unblocked" : "차단해제",
+        "Contacts.AvatarBlock" : "아바타 차단",
+        "Contacts.MutualBlock" : "상호 차단",
+        "Contacts.SelfAccount": "내 계정",
+        "Contacts.SearchPrompt": "..연락처 검색..",
+        "Contacts.WriteMessage": "..메세지 작성..",
 
         "Contacts.InSession": "{name}에 있음",
         "Contacts.InPrivate": "비공개 세션에 있음",
-
+        "Contacts.InContactsOnly": "친구전용 세션에 있음",
         "Contacts.InHidden": "숨겨진 세션에 있음",
-
+        "Contacts.InHiddenContactsOnly": "숨겨진 친구전용 세션에 있음",
+        "Contacts.InHiddenContactsPlus": "숨겨진 친구+ 세션에 있음",
         "Contacts.InLAN": "로컬망(LAN) 세션에 있음",
         "Contacts.UsingDifferentVersion": "다른 버전({version}) 사용중",
         "Contacts.RequestSent": "내가 친구 요청을 보냄",
@@ -448,14 +577,13 @@
         "Contacts.Blocked": "차단됨",
         "Contacts.SearchResult": "검색 결과",
         "Contacts.Bot": "봇 계정",
+        "Contacts.Migrated": "연락처를 이전하지 않았습니다.",
 
         "Notifications.IsOnline": "온라인 상태가 되었습니다.",
         "Notifications.IsOnlineOnDifferentVersion": "온라인 상태가 되었습니다. <size=75%>(버전: {version})</size>",
         "Notifications.ReceivedContactRequest": "친구 요청을 받았습니다.",
         "Notifications.ReceivedInvite": "초대받음:",
         "Notifications.ReceivedItem": "아이템을 수신받음:",
-        "Notifications.ReceivedTip": "팁으로 {amount} {token}을(를) 받았습니다.",
-        "Notifications.SentTip": "팁으로 {amount} {token}을(를) 보냈습니다.",
         "Notifications.VoiceMessage": "음성 메시지를 보냈습니다.",
 
         "Undo.SetField": "필드 {field_name}(을)를 {value}로 설정",
@@ -492,6 +620,10 @@
         "Undo.ExtractMaterialsFromHierarchy": "머티리얼을 계층에서 추출",
         "Undo.BatchConvertMaterials": "머티리얼 일괄 바꾸기",
 
+        "Tooltips.Brush.ChangeColor" : "색상변경",
+        "Tooltips.Brush.IncrementSize" : "좀 더 크게",
+        "Tooltips.Brush.DecrementSize" : "좀 더 작게",
+
         "Tooltips.Dev.CreateNew": "새로 만들기",
         "Tooltips.Dev.Selection": "선택 방법: {mode}",
         "Tooltips.Dev.DevMode.Off": "개발자 모드: 끄기",
@@ -500,6 +632,14 @@
         "Tooltips.Dev.DeselectAll": "전체 선택 해제",
         "Tooltips.Dev.DestroySelected": "선택된 물체 삭제",
         "Tooltips.Dev.ConfirmDestroySelected": "선택된 대상을 삭제합니다",
+
+        "Tooltips.Dev.GizmoOptions" : "기즈모 옵션",
+        "Tooltips.Dev.SelectParent" : "부모슬롯 선택",
+        "Tooltips.Dev.LocalSpace" : "로컬공간",
+        "Tooltips.Dev.GlobalSpace" : "월드공간",
+        "Tooltips.Dev.Translation" : "위치조정",
+        "Tooltips.Dev.Rotation" : "회전조정",
+        "Tooltips.Dev.Scale" : "배율조정",
 
         "Tooltip.Color.Picker": "색상 선택기",
 
@@ -510,9 +650,9 @@
 
         "Tooltip.CharacterCollider.MarkGrippable": "잡을 수 있게 설정",
         "Tooltip.CharacterCollider.DontMarkGrippable": "잡을 수 없도록 설정",
-        "Tooltip.CharacterCollider.EnsureWalkRun": "걷기/달리기 이동 보장",
-        "Tooltip.CharacterCollider.EnsureZeroG": "무중력(Zero-G) 이동 보장",
-        "Tooltip.CharacterCollider.EnsurePhysicalFly": "물리적인 비행 이동 보장",
+        "Tooltip.CharacterCollider.EnsureWalkRun": "걷기/달리기으로 이동 가능",
+        "Tooltip.CharacterCollider.EnsureZeroG": "무중력(Zero-G)으로 이동 가능",
+        "Tooltip.CharacterCollider.EnsurePhysicalFly": "자유비행으로 이동 가능",
 
         "Tooltip.Light.Point": "점(Point)",
         "Tooltip.Light.Spot": "스포트라이트(Spot)",
@@ -539,6 +679,8 @@
 
         "Tooltip.Mesh.Edit": "메시 편집",
 
+        "Tooltip.Cartridge.Eject": "오브 추출",
+
         "Tooltip.Microphone.Format.WAV": "WAV",
         "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
         "Tooltip.Microphone.Format.FLAC": "FLAC",
@@ -546,6 +688,25 @@
         "Tooltip.Microphone.ModePress": "토글(켜기/끄기)로 녹음",
         "Tooltip.Microphone.SourceRaw": "Raw",
         "Tooltip.Microphone.SourceFiltered": "필터 및 정규화",
+
+        "Tooltip.ProtoFlux.Drive" : "Drive(점유연결)",
+        "Tooltip.ProtoFlux.Source" : "Source(비점유연결)",
+        "Tooltip.ProtoFlux.Reference" : "Reference(참조추출)",
+        "Tooltip.ProtoFlux.Write" : "Write",
+        "Tooltip.ProtoFlux.Proxy" : "Proxy",
+        "Tooltip.ProtoFlux.CreateLocal" : "로컬변수 생성",
+        "Tooltip.ProtoFlux.CreateStore" : "변수 생성",
+        "Tooltip.ProtoFlux.CreateDataModelStore" : "Data Model 변수 생성",
+        "Tooltip.ProtoFlux.Overview" : "노드 시각화 방법 변경",
+        "Tooltip.ProtoFlux.NodeBrowser" : "노드 탐색기",
+        "Tooltip.ProtoFlux.PackInPlace" : "현재 슬롯에 팩킹",
+        "Tooltip.ProtoFlux.PackInto" : "<size=50%>{name}</size>에 팩킹",
+        "Tooltip.ProtoFlux.Unpack" : "<size=50%>{name}</size>을(를) 언팩",
+        "Tooltip.ProtoFlux.ExplicitCast" : "명시적 형변환\n<size=50%>(<color=red>경고:</color> 잠재적 데이터 손실이 발생할 수 있습니다.)</size>",
+
+        "ProtoFlux.UI.Call" : "호출",
+        "ProtoFlux.UI.AsyncCall" : "<size=50%>비동기</size> 호출",
+        "ProtoFlux.UI.NodeBrowser.Title" : "ProtoFlux 노드 탐색기",
 
         "CreateNew.Back": "<<< <i>뒤로 가기</i>",
         "CreateNew.EmptyObject": "빈 오브젝트",
@@ -576,7 +737,7 @@
         "CreateNew.Editor": "에디터",
         "CreateNew.Editor.UserInspector": "사용자 인스펙터",
         "CreateNew.Editor.LightSourcesWizard": "월드 광원 마법사",
-        "CreateNew.Editor.TextRendererWizard": "문자열 마법사",
+        "CreateNew.Editor.TextRendererWizard": "월드 문자열 렌더링 마법사",
         "CreateNew.Editor.AssetOptimizationWizard": "에셋(Asset) 최적화 마법사",
         "CreateNew.Editor.CubemapCreator": "큐브맵 생성기",
         "CreateNew.Editor.ReflectionProbes": "리플렉션 프로브",
@@ -603,7 +764,7 @@
         "CreateNew.Light": "빛",
         "CreateNew.Light.Point": "점(Point)",
         "CreateNew.Light.Spot": "스포트라이트(Spot)",
-        "CreateNew.Light.Directional": "태양(Sun)/직사(Directional)",
+        "CreateNew.Light.Directional": "직사광(Directional)",
 
         "CreateNew.Materials": "머티리얼(Materials)",
 
@@ -643,8 +804,8 @@
         "Importer.Image.Title": "이미지 가져오기",
         "Importer.Image.Prompt": "가져올 이미지의 유형을 선택하세요.",
         "Importer.Image.Regular": "이미지 / 텍스처",
-        "Importer.Image.Screenshot": "<size=70%>포토로<br>붙여넣기</size><br><size=50%>(세션정보 포함)</size>",
-
+        "Importer.Image.Screenshot": "<size=70%>스크린샷<br> 붙여넣기</size><br><size=50%>(세션정보 포함)</size>",
+        "Importer.Image.PixelArt" : "점묘화(Pixel art)",
         "Importer.Image.360": "360도 사진 / 스카이박스",
         "Importer.Image.StereoPhoto": "스테레오 사진",
         "Importer.Image.Stereo360": "스테레오 360도 사진",
@@ -709,7 +870,7 @@
 
         "Importer.Model.Advanced.DualSided": "양면(Dual Shaded)으로 설정",
         "Importer.Model.Advanced.FlatShaded": "플랫(Flat Shaded)으로 설정",
-        "Importer.Model.Advanced.DeduplicateInstances": "인스턴스 두 배로 복제 (성능이 안 좋음)",
+        "Importer.Model.Advanced.DeduplicateInstances": "인스턴스 복제 (성능이 안 좋음)",
         "Importer.Model.Advanced.Optimize": "모델/씬(Scene) 최적화",
         "Importer.Model.Advanced.SplitSubmeshes": "메시별로 분할",
         "Importer.Model.Advanced.RandomColors": "랜덤 색상 자동생성",
@@ -736,12 +897,22 @@
         "Importer.Video.Depth.Prompt": "깊이 프리셋(Depth Preset)",
         "Importer.Video.Depth.Default": "기본",
 
-        "NewWorld.Title": "새 월드",
+        "Importer.Slices.Title": "볼륨메트릭 텍스쳐로 자르기",
+        "Importer.Slices.TitleGrayscale": "볼륨메트릭 텍스쳐로 자르기(회색조)",
+        "Importer.Slices.Description": "폴더의 모든 이미지 파일을 볼륨메트릭 텍스쳐로 처리합니다.",
 
+        "Exporter.Title": "내보내기",
+        "Exporter.FileName": "파일명:",
+        "Exporter.ExportAs": "내보낼 유형:",
+        "Exporter.Export": "내보내기",
+        "Exporter.Exporting": "내보내는 중...",
+
+        "NewWorld.Title": "새 월드",
+        "NewWorld.SessionTitle": "새로운 세션",
         "NewWorld.Template": "월드 템플릿:",
         "NewWorld.CustomPreset": "수동 설정된 값:",
         "NewWorld.SessionSettings": "세션 설정:",
-        "NewWorld.UnsafeMode": "불안전 모드:",
+        "NewWorld.UnsafeMode": "비보호 모드:",
         "NewWorld.Port": "포트:",
         "NewWorld.AutoPort": "자동:",
         "NewWorld.DefaultName": "{name} 월드",
@@ -787,7 +958,7 @@
         "FullBody.FinishAvatarCalibration": "아바타 조정완료",
         "FullBody.CalibrationFinishedInstructions": "조정된 아바타가 만족스럽다면, 저장 후 이 창을 닫아주세요.",
         "FullBody.CloseCalibrator": "조정작업 종료",
-        "FullBody.CalibrationRedoInstructions": "대시에서 풀 바디 조정을 선택하여 언제든지 재조정이 가능합니다.\n트래커만 변경한 경우, 아바타 조정을 수행하실 필요는 없습니다.",
+        "FullBody.CalibrationRedoInstructions": "대시보드에서 풀 바디 조정을 선택하여 언제든지 재조정이 가능합니다.\n트래커만 변경한 경우, 아바타 조정을 수행하실 필요는 없습니다.",
         "FullBody.ReturnToTrackerCalibration": "트래커 조정하기",
 
         "FullBody.Hips": "골반/허리",
@@ -881,9 +1052,9 @@
         "CameraControl.OBS.Bitrate": "전송량: {n}/s",
         "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "무시된 프레임 수: {n}",
-
-        "CameraControl.OBS.Live": "LIVE",
-        "CameraControl.OBS.Recording": "REC",
+        "CameraControl.OBS.Idle": "대기",
+        "CameraControl.OBS.Live": "라이브",
+        "CameraControl.OBS.Recording": "녹화",
         "CameraControl.OBS.OpenInstallerReason": "OBS 웹소켓 플러그인을 내려받을 수 있는 사이트입니다.",
 
         "CameraControl.OBS.Streaming.Start": "방송 시작",
@@ -904,6 +1075,7 @@
         "Settings.HideAllTutorials": "모든 자습서 숨기기",
         "Settings.ShowInteractionHints": "상호 작용 도움말 보이기",
         "Settings.PrimaryController": "주 컨트롤러",
+        "Settings.Hotswitching": "VR <-> PC 자동전환",
         "Settings.AllowStrafing": "스트래핑(Strafing) 허용",
         "Settings.UseHeadDirectionForMovement": "이동을 머리 방향 중심으로 하기",
         "Settings.SmoothTurn": "부드러운 회전",
@@ -927,7 +1099,7 @@
         "Settings.DoNotSendReadStatus": "메시지 읽음 상태 실시간 전송 금지",
         "Settings.MaxConcurrentAssetTransfers": "에셋의 동시 전송량",
         "Settings.AutosaveScreenshotPath": "보관함 내 스크린샷 자동 저장 경로",
-
+        "Settings.AutosaveAllScreenshots": "세션 내 존재하는 모든 스크린샷 저장",
         "Settings.DebugInputBinding": "입력정보 확인(Debug input binding)",
 
         "Settings.LaserSmoothing.Header": "지시선 설정",
@@ -941,7 +1113,7 @@
         "Settings.LaserSmoothing.Reset": "지시선 설정을 초기화",
 
         "Settings.Audio.Header": "음향",
-
+        "Settings.Audio.Input.Title" : "음향 입력장치",
         "Settings.Audio.Master": "전체음량: {n,number,percent}",
         "Settings.Audio.SoundEffects": "음향효과: {n,number,percent}",
         "Settings.Audio.Multimedia": "미디어 볼륨: {n,number,percent}",
@@ -965,6 +1137,7 @@
 
         "Settings.Graphics.DesktopFOV": "데스크탑 시야(FOV)",
 
+        "Settings.Locale.Title" : "UI 언어",
         "Settings.Locale.ChangeLanguage": "언어변경",
         "Settings.Locale.SelectLanguageHeader": "언어를 선택하세요.",
         "Settings.Locale.DefaultLanguage": "시스템 기본값",
@@ -979,7 +1152,7 @@
 
         "Settings.Dash.Header": "대시",
         "Settings.Dash.Curvature": "대시의 휨 정도(곡률)",
-        "Settings.Dash.OpenCloseSpeed": "열기/닫기 속도",
+        "Settings.Dash.OpenCloseSpeed": "대시 여닫는 속도",
 
         "Settings.LeapMotion.Name": "Leap Motion",
         "Settings.LeapMotion.Enabled": "Leap Motion 추적기능 활성화 ",
@@ -1000,6 +1173,7 @@
         "Settings.System.KeepOriginalScreenshotFormat": "기본 스크린샷 형식 유지",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "형식 유지 상태일때는 스크린샷을 저장할때 JPG로 변환하지 않습니다.",
 
+        "Security.Hyperlink.Title" : "외부링크",
         "Security.Hyperlink.Warning": "<b><size=125%>경고: 외부로 연결된 웹링크</size></b>\n월드에 있는 링크를 클릭하셨습니다. 링크를 여시겠습니까? 이 링크는 데스크탑 웹 브라우저를 열 것입니다.",
         "Security.Hyperlink.Open": "열기",
         "Security.Hyperlink.Cancel": "취소",
@@ -1012,6 +1186,14 @@
         "Security.HostAccess.Allow": "수락",
         "Security.HostAccess.Deny": "거절",
 
+        "ComponentSelector.Back" : "< (뒤로가기)",
+        "ComponentSelector.Title" : "구성요소",
+        "ComponentSelector.CreateCustomType" : "사용자정의 자료형 생성",
+        "ComponentSelector.CommonGenericTypes" : "일반 자료형",
+        "ComponentSelector.CustomGenericArguments" : "일반 자료형 인자",
+        "ComponentSelector.InvalidType" : "유효하지 않은 자료형",
+
+        "Inspector.Title" : "인스펙터",
         "Inspector.Slot.AttachComponent": "구성요소(Component) 추가",
 
         "Inspector.Slot.Axis.X": "X: <b>+</b>우 / <b>-</b>좌",
@@ -1154,12 +1336,13 @@
         "Inspector.Texture.AlphaToMask": "알파를 마스크로",
         "Inspector.Texture.RemoveAlpha": "알파 제거",
         "Inspector.Texture.ConvertToGrayscaleAverage": "그레이스케일로 변환(평균)",
-
+        "Inspector.Texture.ConvertToGrayscaleLuminance": "그레이스케일로 변환(휘도)",
         "Inspector.Texture.SwapRG": "적색과 녹색을 서로 바꾸기",
         "Inspector.Texture.SwapRB": "적색과 청색을 서로 바꾸기",
-
+        "Inspector.Texture.SwapRA": "적색과 투명도를 서로 바꾸기",
         "Inspector.Texture.SwapGB": "녹색과 청색을 서로 바꾸기",
-
+        "Inspector.Texture.SwapGA": "녹색과 투명도를 서로 바꾸기",
+        "Inspector.Texture.SwapBA": "청색과 투명도를 서로 바꾸기",
         "Inspector.Texture.AddWhiteBackground": "백색배경 추가",
         "Inspector.Texture.AddBlackBackground": "흑색배경 추가",
         "Inspector.Texture.Hue": "휴(Hue):",
@@ -1177,13 +1360,18 @@
         "Inspector.Texture.RotateCW": "직각 우회전",
         "Inspector.Texture.RotateCCW": "직각 좌회전",
         "Inspector.Texture.Rotate180": "180도 회전",
-
+        "Inspector.Texture.TrimTransparent" : "투명한 4방 경계면 잘라내기",
+        "Inspector.Texture.TrimByCornerColor" : "Trim By Corner Color",
         "Inspector.Texture.MakeSquare": "정사각형 만들기",
         "Inspector.Texture.ToNearestPOT": "2 거듭제곱에 가깝게",
         "Inspector.Texture.MakeTileable": "타일 만들기(변환비):",
         "Inspector.Texture.TileLoop": "반복(Loop) 타일",
         "Inspector.Texture.TileMirror": "대칭(Mirror) 타일",
-
+        "Inspector.Texture.NormalizeMaxOnly" : "정규화 (최대만)",
+        "Inspector.Texture.NormalizeMinMax" : "정규화 (최소 및 최대)",
+        "Inspector.Texture.NormalizeIndependent" : "RGB 독립적으로 정규화 (최소 및 최대)",
+        "Inspector.Texture.BleedColorToAlpha" : "투명 경계선 흐리기",
+        
         "Inspector.Texture.InvalidFloats": "Diagnostic: Invalid floats",
         "Inspector.Texture.GenerateMetadata": "Diagnostic: 비트맵 메타데이터 생성",
 
@@ -1233,6 +1421,7 @@
         "Inspector.AvatarExpression.AutoAssign": "자동지정(휴리스틱)",
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>경고!</size></color><br>SimulateRotation을 선택하여, 이 구성요소를 단순한 형태의 리지드바디로 이용하실 수 있습니다. 이 기능은 향후 적절한 버전으로 지원될 예정이며, 현재는 목적에 부합하는 용도로 사용하기에 최적화된 상태는 아님을 이해해 주시기 바랍니다.<br>적절한 리지드바디는 아래와 같은 장단점을 제공합니다.<br><b>- CPU 및 네트워크 효율성</b> - CharacterController를 사용하는 경우, 더 많은 CPU 사용량과 상당한 양의 네트워크 트래픽이 발생됩니다.<br><b>- 제약 조건</b> - 리지드바디 간 조인트, 힌지, 스프링 및 기타 제약 조건을 생성할 수 있습니다.<br><b>- 여러 사용자에 대한 매끄러운 시뮬레이션 및 상호 작용</b> - 다른 사람이 상호 작용을 시도하면 CharacterController에서 오류를 발생시킵니다.<br><b>- 새로운 기능 및 도구</b> - 훨씬 더 간단한 사용환경을 제공합니다.<br>-----------------------<br>GitHub 이슈 #22에서 더 많은 정보를 확인하실 수 있습니다. 이러한 제약사항을 이해하신 후 즐겨주세요!",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>경고!</size></color><br>이 구성요소를 사용하면 해당 ID를 사용하여 참조와 상호작용할 수 있습니다. 이것을 일반적으로 'Ref Hacking'이라고 합니다.<br><br><b>사용하기 앞서</b> 이 기능은 언제든지 중단되거나 지원이 끊길 수 있음을 염두해 두시기 바랍니다.",
 
         "Inspector.ParticleStyle.CommonTransitions": "통상적인 변화유형:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "투명도: 페이드 인 -> 페이드 아웃",
@@ -1250,6 +1439,21 @@
         "Inspector.Collider.SetFromPreciseBounds": "정밀한 경계로 설정",
         "Inspector.Collider.SetFromPreciseCylinderBounds": "정밀한 실린더 경계로 설정",
         "Inspector.Collider.Visualize": "콜라이더 시각화",
+
+        "Inspector.SimpleAwayIndicator.TestAway" : "테스트 (디버그)",
+        "Inspector.SimpleAwayIndicator.TestRestore" : "복원 (디버그)",
+        
+        "Inspector.Fields.Drive" : "드라이브",
+        "Inspector.Fields.DriveWriteBack" : "드라이브 <size=50%>(입력)</size>",
+
+        "Inspector.Actions.CopyComponent" : "구성요소 복제",
+        "Inspector.Actions.MoveComponent" : "구성요소 이동",
+
+        "UserInspector.Title" : "사용자 인스펙터",
+
+        "WorkerInspector.Title" : "{name} 인스펙터",
+
+        "CreateNew.Title" : "새로 만들기",
 
         "Wizard.General.ProcessRoot": "프로세스 루트:",
         "Wizard.General.Result": "결과:",
@@ -1316,6 +1520,7 @@
         "Wizard.TextRenderer.ReplaceFont": "폰트 변경",
         "Wizard.TextRenderer.SetColor": "색상지정",
 
+        "Desktop.Controls.Title": "데스크탑 조작",
         "Desktop.OpenKeyboard": "가상키보드",
         "Desktop.FollowCursor.On": "커서추적 켜기",
         "Desktop.FollowCursor.Off": "커서추적 끄기",
@@ -1324,8 +1529,12 @@
         "Desktop.Brightness": "밝기: {n,number,percent}",
         "Desktop.Opacity": "불투명도: {n,number,percent}",
 
-        "Tutorial.Welcome.WelcomeTo": "어서오세요. 이곳은",
-        "Tutorial.Welcome.LetsStart": "시작합니다.",
+        "VolumePlaneSlicer.Highlight": "하이라이트",
+        "VolumePlaneSlicer.Slicer": "슬라이스",
+
+        "Tutorial.Welcome.Welcome": "환영합니다!",
+        "Tutorial.Welcome.Description" : "무한한 가능성이 있는 새로운 세계로 뛰어들어 보세요. 전 세계 사람들과 어울리기 위해 이곳에 오든, 아름다운 예술, 대화형 아바타 및 장치부터 복잡한 대화형 세계 및 게임에 이르기까지 무엇이든 구축, 생성 및 개발하기 위해 이곳에 오든 Resonite는 여러분을 환영합니다.<br><br>탐험을 떠나기 전, 우선 원활한 경험을 위해 몇 가지 설명을 드리겠습니다. 준비가 되면 아래 버튼을 클릭하세요.", 
+        "Tutorial.Welcome.Begin": "시작하기!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} 계정",
         "Tutorial.Welcome.AccountDescription": "계정 생성시 아이템과 아바타, 연락처, 메세지등을 저장하기 위한 1GB의 저장소를 무상으로 제공합니다.",
@@ -1351,19 +1560,22 @@
         "Tutorial.Welcome.SettingsHeight": "사용자의 키를 입력",
         "Tutorial.Welcome.SettingsHeightExamples": "예제: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
-        "Tutorial.Welcome.StartTutorialHeader": "자습서를 진행합니다.",
-        "Tutorial.Welcome.StartTutorialDescription": "기본 조작을 익히기 위한 월드로 이동합니다. 공개 월드를 선택하여 다른 사람의 도움을 받거나, 비공개로 스스로 배울 수 도 있습니다.",
+        "Tutorial.Welcome.StartTutorialHeader": "탐험을 떠날 준비가 되었나요?",
+        "Tutorial.Welcome.StartTutorialDescription": "모든 설정이 완료 되었습니다. 이제 기본 조작을 익히기 위한 월드로 이동합니다. {appName} 탐험의 기반이 될 새로운 홈이 당신을 기다리고 있습니다. 준비가 되셨으면 아래 버튼을 눌러주세요.",
+        "Tutorial.Welcome.StartTutorial": "자습서 시작",
 
         "Tutorial.CommunityYouTube.Title": "커뮤니티 유튜브 체널",
+        
         "Tutorial.UserResources.UserResourcesTitle": "사용자 리소스",
         "Tutorial.UserResources.SupportTitle": "{appName} 지원하는 방법",
         "Tutorial.UserResources.MerchandiseTitle": "{appName} 관련상품",
 
+        "Tutorial.Intro.BadgesAppTeam": "{appName} 팀",
         "Tutorial.Intro.BadgesModerator": "중재자",
-        "Tutorial.Intro.BadgesMentor": "조언자",
+        "Tutorial.Intro.BadgesMentor": "멘토",
         "Tutorial.Intro.BadgesDisabilityHearing": "청각장애",
         "Tutorial.Intro.BadgesDisabilityVision": "시각장애",
-        "Tutorial.Intro.BadgesDisabilitySpeech": "언어장애",
+        "Tutorial.Intro.BadgesDisabilitySpeech": "발성장애",
         "Tutorial.Intro.BadgesTitle": "배지",
         "Tutorial.Intro.BadgesDescription": "배지는 작은 아이콘으로 사용자의 위쪽에 표시됩니다. 여기 몇가지 중요한 배지가 있으니 기억해주세요. 장애와 관련된 배지는 연락처에 있는 {appName}Bot을 이용해 사용자 스스로 장착 또는 제거할 수 있습니다.",
         "Tutorial.Intro.HelpSite": "도움말",
@@ -1378,10 +1590,101 @@
         "Twitch.Panel.Button.SubscriberCommands.Disabled": "구독자 명령어<br> 모든 시청자가 사용 가능합니다.",
         "Twitch.Panel.Title.Text": "트위치 챗",
 
-        "Exiting.SavingItems": "{n, plural, one {# 항목} other {# 항목}} 저장 중 ...",
+        "Exiting.SavingItems": "{n}개 저장 중...",
         "Exiting.SavingChanges": "변경 사항 저장 중 입니다.",
         "Exiting.Exiting": "종료하는 중입니다.",
         "Exiting.LoggingOut": "로그아웃을 진행하고 있습니다.",
+
+        "Migration.Title": "마이그레이션",
+        "Migration.NewTask": "새로운 마이그레이션 작업",
+
+        "Migration.LoginModal.Title": "데이터 마이그레이션은?",
+        "Migration.LoginModal.Description": "다른 계정으로부터 데이터를 이전하고 싶으신가요? 대시 메뉴 하단에서 \"마이그레이션\"을 찾아보세요.",
+        "Migration.LoginModal.OpenMigration": "마이그레이션 시작",
+        "Migration.LoginModal.Later": "나중에",
+        "Migration.LoginResetID.Title": "정말로 UserID를 초기화 하실건가요?",
+        "Migration.LoginResetID.Description": "초기화 하는 경우, <color=red>UserID 정보를 이용하는 모든 컨텐츠가 파손</color>됩니다. 대부분의 경우 문제 없이 동작하지만, UserID를 이용하여 동작하는 모든 기능은 수정해야 합니다. UserID를 초기화하는 것에 중대한 사유가 없다면 <color=red>이 옵션을 선택하지 마세요</color>.",
+        "Migration.LoginResetID.ResetButton": "네",
+
+        "Migration.ReservedUsername.Title":"<b>예약된 이름</b>",
+        "Migration.ReservedUsername.Description": "이 사용자 이름은 소유자가 존재합니다. 귀하의 계정인 경우 {platform}의 자격정보를 제공해야 합니다. 당사는 제공된 정보를 별도로 저장하지 않으며, 요청한 계정의 소유권을 확인하는 데만 쓰입니다.",
+        "Migration.SourcePassword": "{platform} 암호:",
+        "Migration.SourceUsername": "{platform} 사용자명:",
+
+        "Migration.Dialog.Title": "계정 마이그레이션",
+        "Migration.Dialog.Source" : "호환 가능한 모든 플랫폼에서 이전을 수행할 수 있습니다. 아래에서 데이터를 이전하려는 플랫폼을 선택하세요. 설치경로에 있는 \"Migrations\" 폴더에 구성 파일을 놔두면, 플랫폼을 추가할 수 있습니다.",
+        "Migration.Dialog.AccountDescription": "이전 작업을 위해 원본 플랫폼인 {platform}의 계정 정보가 필요합니다. 이를통해 로그인 하여 데이터를 가져올 수 있습니다.",
+        
+        "Migration.ResetID.Title": "UserID 초기화",
+        "Migration.ResetID.Description":"<color=red><b>경고:</b></color> 이 옵션을 선택하는 경우, UserID를 이용하여 만들어진 <b>기존 컨텐츠가 부분적으로 문제가 발생할 수 있으며, 되돌릴 수 없습니다</b>. 물론 해당 컨텐츠 자체가 파괴되지는 않습니다. 과거 UserID 대신 무작위로 생성되는 UserID를 사용하고자 하는 경우에 사용하세요. 하지만, UserID를 초기화해야 하는 중대한 사유가 아니라면 <b>선택하지 않는 것</b>을 추천합니다. 귀하의 UserID는 다음과 같이 변경됩니다.\n U-MyUsername -> U-fX3pKe7AYYQ",
+        
+        "Migration.DataSelection.Title": "어떠한 데이터를 이전하시겠습니까?",
+        "Migration.DataSelection.Everything": "전체",
+        "Migration.DataSelection.Choose": "이전할 데이터 직접 선택",
+
+        "Migration.DataSelection.Favorites": "즐겨찾기 (아바타, 홈월드, 카메라, 키보드, 페싯)",
+
+        "Migration.DataSelection.Favorites.Description": "이것은 이전 플랫폼에서 사용되던 즐겨찾기(월드, 아바타, 카메라, 키보드 등) 정보를 그대로 사용하고자 할때 설정합니다.\n <color=red><b>경고:</b></color> 이 옵션을 활성화한 경우, 현재 플랫폼에서 설정한 모든 즐겨찾기 정보가 손실될 수 있습니다.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "즐겨찾기 정보를 마이그레이션할 정보로 변경할까요?",
+
+        "Migration.DataSelection.Home.Title": "과거의 홈을 기본 홈으로 설정할까요?",
+        "Migration.DataSelection.Home.Description": "데이터를 이전하면 원래의 클라우드 홈은 다른 주소로 설정되고, 새로운 클라우드 홈에 배정됩니다. 현재 홈이 마음에 드시다면 \"아니요\"를 선택하세요. 기존 홈이 사라지거나 하는것은 아니니 걱정하지 마세요.",
+
+        "Migration.DataSelection.Contacts": "연락처",
+        "Migration.DataSelection.Message History": "메세지 기록",
+        "Migration.DataSelection.InventoryWorld": "보관함 및 월드",
+        "Migration.DataSelection.CloudVariable.Definitions": "클라우드 변수",
+        "Migration.DataSelection.CloudVariable.Values": "클라우드 변수의 데이터",
+
+        "Migration.DataSelection.AlwaysOverwrite": "항상 덮어쓰기",
+
+        "Migration.Start": "마이그레이션 시작",
+        "Migration.Groups.Title": "그룹 이전",
+        "Migration.Groups.Introduction": "그룹 정보도 이전할까요?",
+
+        "Migration.Groups.Description": "기본적으로 귀하가 관리자인 모든 그룹이 이전됩니다. 일부 그룹만 이전하고자 하는 경우 아래 버튼을 클릭하여 그룹 정보를 조회한 다음, 이전하고자 하는 그룹을 선택하세요.",
+        
+        "Migration.Groups.LoadGroups": "그룹정보 읽어오기",
+        "Migration.Groups.RefreshGroups": "그룹정보 다시읽기",
+
+        "Migration.Groups.Fetching": "그룹정보 가져오는 중...",
+        "Migration.Groups.Fetching.LoginFailed": "에러 : {error}",
+        "Migration.Groups.Fetching.Error": "그룹정보 가져오기 에러: {error}",
+        "Migration.Groups.NoGroups": "{platform}내에서 발견된 그룹이 없습니다.",
+        "Migration.Groups.NotGroupAdmin": "만약 {platform} 그룹의 관리자가 아닌경우, 해당 그룹 관리자에게 이전문의를 해야 합니다.",
+
+        "Migration.Summary": "모든 준비가 끝났습니다. 아래의 마이그레이션 시작을 클릭하면 이전 작업이 시작됩니다.\n\n마이그레이션은 모든 것을 복사하기에, 많은 시간이 걸릴 수 있습니다. 이전 작업은 즐겨찾기 해둔 항목을 우선적으로 수행하게 됩니다.\n\n이전 작업은 {appName}을(를) 계속 실행해 둘 필요는 없습니다만, 다음을 통해 진행상황을 보내드리겠습니다. {appName} 봇이 어떻게 진행되고 있는지 알려줍니다.",
+
+        
+        "Migration.List.EmptyTitle": "새로운 마이그레이션을 시작하나요?",
+        "Migration.List.EmptySubtitle": "좌 상단에 있는 \"새로운 마이그레이션 작업\"을 클릭하세요.",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>생성일시:{time}\n상태:{state}",
+        "Migration.Report.Title": "이전작업 보고서:",
+        "Migration.Report.Description": "<color={hex}>설명:</color> {value}",
+        "Migration.Report.Status": "<color={hex}>상태:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>생성일시:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>시작일시:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>작업완료:</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "현재 <color={hex}>{value}</color>개 데이터를 이전하는 중입니다.",
+        "Migration.Report.CurrentItem": "현재 아이템: <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>분당 이전량:</color> ~{value}개",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>작업 시작까지 남은 계정:</color> {value}개",
+        "Migration.Report.ContactStatus": "연락처 <color={hex}>{total}</color>개 중 <color={hex}>{current}</color>개 이전 완료",
+        "Migration.Report.MessageStatus": "메세지 <color={hex}>{value}</color>개 이전 완료",
+        "Migration.Report.CloudVariableDefinitionStatus": "클라우드 변수 선언 <color={hex}>{value}</color>개 이전 완료",
+        "Migration.Report.CloudVariableValueStatus":"클라우드 변수의 값 <color={hex}>{value}</color>개 이전 완료",
+        "Migration.Report.RecordStatus": "아이템 및 월드 <color={hex}>{total}</color>개 중 <color={hex}>{current}</color>개 이전이 완료 되었으며, <color=red>{failed}</color>개 실패.",
+        "Migration.Report.GroupStatus": "그룹 <color={hex}>{total}</color>개 중 <color={hex}>{current}</color>개 이전 완료",
+        "Migration.Report.GroupMemberStatus": "그룹멤버 정보 <color={hex}>{value}</color>명 이전 완료",
+
+        "Migration.Error": "<color=red>오류:</color> {error}",
+        "Migration.NothingSelected": "아무것도 선택하지 않아 시작할 수 없습니다.",
+
+        "Migration.ColorManagement": "이 월드는 색상이 감마 공간에서 작성되었기에, 자동으로 선형 공간으로 변환되었습니다.<br><br>최초 생성때와 다르게 보일 수 있지만, 일반적으로 문제없이 동작합니다.<br><br>월드 제작자라면 <color=red>저장을 수행하지 마세요</color> 월드 이전시 변환 관련 문제가 있습니다. 필요하다면 '새 이름으로 저장'하세요.<br><br>원본만 있다면 변환 문제를 해결할 수 있으나, 그렇지 않으면 직접 문제를 해결해야 할 책임을 가지게 됩니다.",        
 
         "Temporary.MMC.Voting UI": "MMC 투표 화면",
         "Temporary.MMC.Vote": "투표",
@@ -1403,6 +1706,257 @@
         "Temporary.MMC.VoteFailure": "투표 처리가 실패하였습니다. 다시한번 진행해 주세요.",
         "Temporary.MMC.VotedAlready": "{category}에 대한 투표를 이미 완료하셨습니다.",
         "Temporary.MMC.VoteInvalid": "유효하지 않은 투표입니다. 재시도 해 주세요.",
+
+        "CloudHome.WelcomeHome": "홈월드에 오신것을 환영합니다.",
+        "CloudHome.TargetRangeOptions": "목표물 범위 설정",
+
+        "Tutorial.Saving.Title": "홈월드에 오신것을 환영합니다.",
+        "Tutorial.Saving.Content": "환영합니다. 이곳은 당신의 <b><i><color=hero.yellow>홈</b></i></color>입니다! 이곳은 접속시 접속되는 곳입니다.<br><br>이곳은 당신만의 월드이므로, 변경된 정보를 저장할 수 있습니다.<br><br>저장할 경우, 다시 돌아왔을때 마지막 모습 그대로 있을것입니다.",
+
+        "CloudHome.Info.OnlineUsers": "온라인: {online_users}명<br>접속 가능자: {joinable_users}명",
+        "CloudHome.Info.Moderation": "중재처리",
+        "CloudHome.Info.Inventory": "보관함",
+        "CloudHome.Info.Tools": "도구들",
+        "CloudHome.Info.MoreInfo": "추가정보",
+        "CloudHome.Info.SessionUptime": "세션 유지시간:",
+        "CloudHome.Info.AccessLevel": "접근 레벨:",
+        "CloudHome.Info.StorageUsed": "저장소 사용량:",
+
+        "CloudHome.Info.DashInfoTab.Title": "어서오세요!",
+        "CloudHome.Info.DashInfoDesktop": "몇가지 최신 정보를 확인할려면 Esc를 눌러 열 수 있는 <i><color=hero.purple>대시보드</color></i>가 있습니다. 이 메세지를 닫으려면 아래 버튼을 클릭하세요.",
+        "CloudHome.Info.DashInfoVR": "몇가지 최신 정보를 확인할려면 B 또는 Y를 눌러 열 수 있는 <i><color=hero.purple>대시보드</color></i>가 있습니다. 이 메세지를 닫으려면 아래 버튼을 클릭하세요.",
+        "CloudHome.Info.DashInfoVRNoButtons": "몇가지 최신 정보를 확인할려면 메뉴 버튼을 길게 눌러 열 수 있는 <i><color=hero.purple>대시보드</color></i>가 있습니다. 이 메세지를 닫으려면 아래 버튼을 클릭하세요.",
+
+        "CloudHome.Info.GoToWiki": "위키",
+        "CloudHome.Info.GoToDiscord": "디스코드",
+
+        "CloudHome.Info.ModerationTab.Title": "중재처리",
+        "CloudHome.Info.ModerationTab.Content": "안전은 중요한 이슈입니다. 도움이 필요하거나 특정 사용자를 신고해야 할때 <u><color=hero.cyan>중재처리 포털</color></u><sprite name=hyperlink><br><br>에서 티켓을 제출하세요. <sprite name=modbadge> 중재자로 구성된 이 팀의 역할중 하나는 커뮤니티를 보호하는 것입니다. 질문이 있거나 지침위반을 발견하는 경우 티켓을 제출하세요.",
+
+        "CloudHome.Info.InventoryTab.Title": "아이템 저장",
+        "CloudHome.Info.InventoryTab.Content": "<i><color=hero.purple>보관함</color></i>은 <i><color=hero.purple>대시</color></i>메뉴에 있으며, 당신의 아바타나 각종 아이템들을 저장할 수 있습니다.<br><br><i><color=hero.purple>Essentials</color></i> 폴더에서 게임 플레이를 위한 것들을 찾아볼 수 있습니다. 더블클릭하여 꺼내보세요.",
+
+        "CloudHome.Info.ToolsTab.Title": "인게임 편집",
+        "CloudHome.Info.ToolsTab.Content": "{appName}의 특징은 게임 내에서 아이템을 생성하거나 수정할 수 있다는 것입니다.<br><br>바로 이곳에 있습니다. 또는 당신이 어디에 있든 보관함의 <i><color=hero.purple>Essentials -> tools</color></i>에서 여러가지 사용 가능한 도구를 이용할 수 있습니다.",
+        "CloudHome.Info.HelpTab.Title": "도움요청",
+        "CloudHome.Info.HelpTab.InfoLineOne": "도움이 필요하신가요? <u><color=hero.yan>위키</color></u><sprite name=hyperlink>를 살펴보거나, 디스코드 등에 질문하시고 그 답을 구해보세요.",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "링크 클릭시 VR이시면 대시 메뉴내 <i><color=hero.purple>데스크탑</color></i> 메뉴를 이용하시면 내용 확인이 수월합니다.",
+
+        "CloudHome.Info.UsersTab.Title": "사용자 찾기",
+        "CloudHome.Info.UsersTab.Content": "공개 세션은 커뮤니티에 참여하기 좋은 방법입니다!<br><br>지금 참여할 수 있는 공개 세션은 <i><color=hero.purple>월드</color></i>에서 확인할 수 있습니다. 대시 메뉴 하단에서 찾아보세요.",
+
+        "Mirror.Header.RenderingOptions" : "렌더링 옵션",
+        "Mirror.Header.Type" : "거울",
+        "Mirror.Header.Resolution" : "해상도",
+        "Mirror.Header.AspectRatio" : "종횡비",
+
+        "Mirror.EnableLights": "빛 켜기",
+        "Mirror.DisableLights": "빛 비활성",
+
+        "Mirror.EnableShadows": "그림자 켜기",
+        "Mirror.DisableShadows": "그림자 끄기",
+
+        "Mirror.Camera": "카메라",
+
+        "Mirror.AspectRatio.Tall": "수직으로 길게",
+        "Mirror.AspectRatio.Square": "정사각형",
+        "Mirror.AspectRatio.Wide": "수평으로 길게",
+
+        "Mirror.Menu": "메뉴",
+        "Mirror.CloseMenu": "메뉴 닫기",
+
+        "StickyNote.SpinMe": "돌려줘요!",
+        "StickyNote.FruitPlate": "자동으로 채워지는 과일접시",
+        "StickyNote.EmptyForYou": "당신을 위해 비워두었습니다. :)",
+        "StickyNote.RelevantLinks": "관련 링크!<br><--<br><br><size=500>연결서라고 칭하도록 하자</size>",
+        "StickyNote.SunTool": "태양의 힘을 내 손안에!",
+        "StickyNote.Bow": "시위를 당겨 조준하세요.",
+        "StickyNote.Crossbow": "레버를 당기는 동작 또는 세컨드리 액션으로 장전합니다.",
+        "StickyNote.Shade": "조정 가능한 그늘",
+        "StickyNote.TheaterTablet": "이 태블릿으로 이 방의 환풍기나 창문의 투명도를 제어할 수 있어요!",
+        "StickyNote.ControlTablet": "이 태블릿으로 홈을 제어할 수 있어요!",
+
+        "StickyNote.RotateMeDesktop": "E키를 누른상태로 회전시켜봐요!",
+        "StickyNote.RotateMeVR": "회전시켜줘요!",
+
+        "StickyNote.EquipMeDesktop": "장착하고 마우스 왼쪽 버튼을 클릭!",
+        "StickyNote.EquipMeVR": "장착하고 시위를 당기세요.",
+
+        "StickyNote.DipBrushes": "머티리얼을 사용할려면 붓을 오브에 담궈보세요.",
+        "StickyNote.BrushColor": "색상과 크기는 컨텍스트 메뉴에서 설정할 수 있습니다.",
+        "StickyNote.Drawing": "어디에나 그려볼 수 있어요!",
+        "StickyNote.WorldCanvas": "세상은 당신의 캔버스!",
+
+        "CloudHome.Panel.HomeControl": "홈 제어",
+
+        "CloudHome.Panel.General": "일반",
+        "CloudHome.Panel.Lighting": "조명",
+        "CloudHome.Panel.Furniture": "가구",
+
+        "CloudHome.Panel.Quality": "품질",
+        "CloudHome.Panel.Doors": "문",
+        "CloudHome.Panel.Audio": "음향",
+        "CloudHome.Panel.OverheadLighting": "천장조명",
+        "CloudHome.Panel.Sconces": "촛대",
+        "CloudHome.Panel.FurnitureVisibility": "가구 보이기",
+
+        "CloudHome.Panel.LowQualityMode": "저사양 모드",
+        "CloudHome.Panel.DoorSounds": "문소리",
+        "CloudHome.Panel.DoorsAlwaysOpen": "항상 문 열여두기",
+        "CloudHome.Panel.InteriorAmbience": "환경음",
+        "CloudHome.Panel.InteriorAmbienceVolume": "환경음 음량",
+        "CloudHome.Panel.LightsOn": "조명 켜기",
+        "CloudHome.Panel.LightIntensity": "조명 밝기",
+        "CloudHome.Panel.LightColor": "조명 색상",
+        "CloudHome.Panel.LightColorTemperature": "색온도",
+
+        "CloudHome.Panel.Spawn": "출발지",
+        "CloudHome.Panel.Foyer": "휴게실",
+        "CloudHome.Panel.Workspace": "작업공간",
+        "CloudHome.Panel.ReadingLounge": "독서실",
+        "CloudHome.Panel.Lounge": "안락공간",
+        "CloudHome.Panel.Center": "중앙",
+        "CloudHome.Panel.Balcony": "발코니",
+        "CloudHome.Panel.Theater": "씨어터",
+
+        "CloudHome.Panel.TheaterControl": "씨어터 제어",
+        "CloudHome.Panel.FanControl": "환풍기 제어",
+        "CloudHome.Panel.WindowControl": "창문 제어",
+        "CloudHome.Panel.FanSpeed": "팬 속도",
+        "CloudHome.Panel.WindowTint": "창문 불투명",
+
+        "CloudHome.FeaturedPanel.OpenWorld": "월드 열기",
+        "CloudHome.FeaturedPanel.LinkText": "직접 클릭하여<br>월드를 열어보세요.!",
+        "CloudHome.FeaturedPanel.Featured": "추천",
+
+        "CloudHome.AvatarPanel.Title": "아바타 월드 추천",
+
+        "CloudHome.SupporterPanel.Title": "<b>후원하시는 분</b>",
+
+        "Tutorial.InfoPanel.Title": "잠깐만요!",
+        "Tutorial.InfoPanel.Content": "     가능성은 여러분이 가진 상상력으로만 제한 되는 것입니다.<br><br> 지금까지 보신 거의 모든것이 게임내에서 직접 만들어졌습니다. 전 세계 사람들이 실시간으로 협력하여 이를 구축했습니다.<br><br> 플랫폼은 아직 초기 개발 단계에 있으며 지속적으로 업데이트하고 개선하고 있습니다. 여러분도 이 여정에 참여하여 무한한 가능성을 발견하시기 바랍니다.<br><br><align=center>방문해 주셔서 감사합니다.</align>",
+        "Tutorial.GrabItems.Grab": "손으로 잡아보기",
+        "Tutorial.GrabItems.Snap": "잡아서 근처에 놔둬보기",
+        "Tutorial.GrabItems.Slide": "잡고 움직여보기",
+
+        "Tutorial.Panel.Jumping.Title": "점프",
+        "Tutorial.Panel.Jumping.ContentDesktop": "이동기능이 걷기인 상태에서 스페이스바를 누르면 점프를 합니다.",
+        "Tutorial.Panel.Jumping.ContentVR": "이동기능이 걷기인 상태에서 조이스틱을 클릭하면 점프 합니다.",
+        "Tutorial.Panel.Jumping.ContentVRNoButtons": "이동기능이 걷기인 상태에서 트랙패드의 중앙을 누르면 점프합니다.",
+
+        "Tutorial.Panel.WalkLocomotion.Title": "걷기 이동기능",
+        "Tutorial.Panel.WalkLocomotion.Content": "땅 위에서 이동과 점프를 할 수 있습니다.",
+
+        "Tutorial.Panel.TeleportLocomotion.Title": "텔레포트 이동기능",
+        "Tutorial.Panel.TeleportLocomotion.Content": "텔레포트 지시자를 이용하여 즉시 이동할 수 있습니다.",
+
+        "Hints.Spawn.InitialMovementDesktop": "이동키를 이용하여 움직여보세요.",
+        "Hints.Spawn.InitialMovementVR": "조이스틱을 조작하여 움직여보세요.",
+        "Hints.Spawn.InitialMovementVRNoButtons": "트랙패드를 조작하여 움직여보세요.",
+
+        "Hints.Spawn.ContextMenuDesktop": "키보드 T를 눌러 컨텍스트 메뉴를 사용할 수 있습니다.",
+        "Hints.Spawn.ContextMenuVR": "혹시 멀미가 나나요? 컨트롤러의 B 또는 Y 버튼을 눌러 컨텍스트 메뉴를 사용해보세요.",
+        "Hints.Spawn.ContextMenuVRNoButtons": "혹시 멀미가 나나요? 메뉴 버튼을 눌러 컨텍스트 메뉴를 사용해보세요.",
+
+        "Hints.Spawn.TeleportLocomotionDesktop": "컨텍스트 메뉴에서 찾을 수 있는 '이동기능'에서 '자유비행'등 다른 이동 방법을 찾아볼 수 있습니다.",
+        "Hints.Spawn.TeleportLocomotionVR": "컨텍스트 메뉴에서 찾을 수 있는 '이동기능'에서 '자유비행'등 다른 이동 방법을 찾아볼 수 있습니다.",
+
+        "Hints.Bridge.RaiseTheWorld": "플랫폼 연결을 위해 이 버튼을 누르세요.",
+
+        "Hints.Grabbing.GrabbingDesktop": "마우스 오른쪽 버튼을 눌러 대상을 잡아보세요.",
+        "Hints.Grabbing.GrabbingVR": "직접 손을 움직여 대상을 잡아봅니다.",
+
+        "Hints.Grabbing.Rotating": "아이템을 잡은 상태(마우스 우클릭 유지)에서 E키를 누른채로 마우스를 움직이면 회전을 할 수 있습니다.",
+        "Hints.Grabbing.RotatingExtra": "E대신 Shift + E 를 사용하는 경우 수직축을 기준으로 회전을 시킬 수 있습니다.",
+
+        "Hints.Grabbing.ScalingDesktop": "아이템을 잡은 상태(마우스 우클릭 유지)에서 Shift를 누른채로 마우스 휠을 회전시키면 크기 조정이 됩니다.",
+        "Hints.Grabbing.ScalingVR": "아이템을 양손으로 잡은 상태에서 넓히거나 좁히면 크기 조정이 됩니다.",
+
+        "Hints.Grabbing.OtherGrabbables": "다양한 상호작용이 가능합니다. 여기 3가지를 이용하여 직접 확인해 보세요.",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "자기 자신의 크기도 조절 가능합니다. 컨텍스트 메뉴에서 '크기비율조정'을 사용 가능하게 선택하고 Ctrl + 마우스스크롤을 조작하면 됩니다.",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "자기 자신의 크기도 조절 가능합니다. 컨텍스트 메뉴에서 '크기비율조정'을 사용 가능하게 선택하고 컨트롤러 좌/우를 모두 그립(잡기)한다음 좁혔다 넓혔다 하면 됩니다.",
+        "Hints.Telescope.Alignment": "망원경을 잡고 망원경을 바라보세요.",
+
+        "Hints.Telescope.TheMoonDesktop": "달을 마우스 오른쪽 클릭한 상태로 끌면 위치를 변경시킬 수 있습니다.",
+        "Hints.Telescope.TheMoonVR": "지시선을 달에 맞추고 잡기를 한 후 끌면 달이 이동합니다.",
+
+        "Hints.Sundial.SoftEquip": "이 툴을 잡고 사용해보세요.",
+        "Hints.Sundial.SoftEquipExtra": "이 툴은 월드에 전체적으로 멋진 효과를 제공합니다.",
+
+        "Hints.Sundial.HardEquip": "이 툴을 클릭하여 '장착하기'를 해 보세요.",
+        "Hints.Sundial.HardEquipExtra": "지시선이 보이지 않나요? 트리거를 살짝만 당겨보면 다시 보입니다",
+
+        "Hints.Sundial.TheSun": "하늘을 향해 조준하시고, 클릭하신 후 이곳으로 끌어보세요.",
+        "Hints.Sundial.TheSunExtra": "태양을 수평선 아래로 끌어내려서 밤이 되게 해 보세요.",
+
+        "Hints.Sundial.Dequip": "컨텍스트 메뉴에서 '장착해제'를 눌러 장착을 해제할 수 있습니다.",
+        "Hints.Sundial.DequipExtra": "장착 또는 잡고있는 도구에 따라 메뉴가 변경됩니다.",
+        
+        "Hints.Sundial.Teleporter": "이 버튼을 클릭하면 홈으로 이동시켜주는 텔레포터가 동작합니다.",
+        "Hints.Sundial.TeleporterExtra": "홈월드에서 즐거운 시간 보내세요. 들려주셔서 감사합니다.",
+
+        "UI.TextDisplay.Landscape": "수평으로",
+        "UI.TextDisplay.Portrait": "수직으로",
+        "UI.TextDisplay.NormalText": "일반",
+        "UI.TextDisplay.MonospaceText": "고정폭",
+
+        "UI.VideoPlayer.GlobalSettings": "전역<br>설정",
+        "UI.VideoPlayer.LocalSettings": "로컬<br>설정",
+        "UI.VideoPlayer.SpatialAudio": "구역<br>음향",
+        "UI.VideoPlayer.AreaBroadcast": "지역<br>송출",
+        "UI.VideoPlayer.BroascastAudio": "전역송출",
+        "UI.VideoPlayer.EnterURL": "<i><alpha=#77>여기에 주소를 입력하세요</closeall>",
+        "UI.VideoPlayer.AudioZoneTheater": "로컬에서<br>구역으로",
+        "UI.VideoPlayer.AudioZoneGlobal": "전역<br>송출",
+        "UI.VideoPlayer.UsersLoaded": "재생준비<br>{users_loaded}/{users_present}",
+        "UI.VideoPlayer.AllUsersLoaded": "모든 사용자<br>재생준비 끝",
+
+        "UI.ColorPicker.ColorPicker": "색상 선택기",
+
+        "UI.ColorPicker.Linear": "선형",
+
+        "UI.ColorPicker.Hexadecimal": "16진수",
+        "UI.ColorPicker.ColorSwatches": "견본",
+
+        "UI.ColorPicker.Red": "적",
+        "UI.ColorPicker.Green": "녹",
+        "UI.ColorPicker.Blue": "청",
+
+        "UI.ColorPicker.Hue": "Hue",
+        "UI.ColorPicker.Saturation": "Saturation",
+        "UI.ColorPicker.Value": "Value",
+
+        "UI.ColorPicker.Alpha": "Alpha",
+        "UI.ColorPicker.Gain": "Gain",
+
+        "UI.ProgressBar.ImportingItem": "가져오기",
+
+        "Tools.Names.MultiTool": "다용도 도구",
+
+        "Tools.Names.CommonTools": "공통 도구",
+        "Tools.Names.ManipulationTools": "변형 도구",
+        "Tools.Names.InformationTools": "정보 도구",
+
+        "Tools.Names.GeometryLineBrush": "붓",
+        "Tools.Names.Developer": "개발 도구",
+        "Tools.Names.ComponentClone": "구성요소 복제 도구",
+        "Tools.Names.ProtoFlux": "프로토플럭스 도구",
+        "Tools.Names.Material": "머티리얼 도구",
+        "Tools.Names.Glue": "글루 도구",
+        "Tools.Names.Light": "광원 도구",
+        "Tools.Names.Shape": "기본 메시 도구",
+        "Tools.Names.Microphone": "녹음기",
+        "Tools.Names.GrabbableSetter": "잡기 설정 도구",
+        "Tools.Names.PhysicalColliderSetter": "물리 콜라이더 설정 도구",
+        "Tools.Names.MeshVisibility": "메시 시각화 도구",
+        "Tools.Names.CameraObjectVisibility": "카메라 시각화 도구",
+        "Tools.Names.Color": "색상 도구",
+        "Tools.Names.Mesh": "메시 도구",
+        "Tools.Names.RiggedMeshTransfer": "리그드 메시 전송 도구",
+        "Tools.Names.Slicer": "메시 슬라이서",
+        "Tools.Names.ControllerDiagnostic": "컨트롤러 진단 도구",
+        "Tools.Names.Measure": "측정 도구",
+        "Tools.Names.Label": "라벨 도구",
 
         "Dummy": "Dummy"
     }

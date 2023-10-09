@@ -111,7 +111,9 @@
         "Inventory.OpenWorld": "Open World",
         "Inventory.Equip": "Equip",
         "Inventory.Delete": "Delete",
+	    "Inventory.CreateDirectory": "Create folder",
         "Inventory.SaveHeld": "Save Held",
+        "Inventory.GetURL": "Get URL",
         "Inventory.Inventories": "Inventories",
         "Inventory.Share": "Share",
         "Inventory.Unshare": "Unshare",
@@ -165,6 +167,7 @@
         "World.LoadingFailed": "Failed",
         "World.LoadedAssets": "Loaded {assets} of {total_assets}",
         "World.Downloading": "Downloading {bytes} of {total_bytes}",
+        "World.Loaded": "Loaded",
 
         "World.Connection.EstablishingConnection": "Establishing connection",
         "World.Connection.RequestingJoin": "Requesting Join",
@@ -446,7 +449,6 @@
         "Account.RecoverPassword": "Lost Password?",
         "Account.LiveEmailWarning": "<color=#f00>WARNING:</color> live.com, hotmail.com, outlook.com and other Microsoft-hosted services can take up to 1-2 days to accept the email.",
         "Account.PasswordRules": "(at least 8 characters, 1 digit, 1 lowercase, 1 uppercase)",
-        "Account.AgeConfirm": "I am 13 years of age or older",
         "Account.LostPassword": "Lost Password",
         "Account.SendRecoveryCode": "Send Recovery Code",
         "Account.ResetPasswordHeader": "Reset Your Password",
@@ -675,7 +677,7 @@
         "Tooltip.Material.CreateNew": "Create New",
 
         "Tooltip.Mesh.Edit": "Edit Mesh",
-        
+
         "Tooltip.Cartridge.Eject": "Eject Orb",
 
         "Tooltip.Microphone.Format.WAV": "WAV",
@@ -893,7 +895,11 @@
         "Importer.Video.Stereo180": "Stereo 180° Video",
         "Importer.Video.Depth.Prompt": "Depth Preset",
         "Importer.Video.Depth.Default": "Default",
-        
+
+        "Importer.Slices.Title": "Image slices as volumetric texture",
+        "Importer.Slices.TitleGrayscale": "Image slices as volumetric texture (grayscale)",
+        "Importer.Slices.Description": "Processes all image files in the folder into a volumetric texture",
+
         "Exporter.Title": "Export",
         "Exporter.FileName": "File name:",
         "Exporter.ExportAs": "Export as:",
@@ -1435,7 +1441,7 @@
 
         "Inspector.SimpleAwayIndicator.TestAway" : "Set to away (debug)",
         "Inspector.SimpleAwayIndicator.TestRestore" : "Restore to normal (debug)",
-        
+
         "Inspector.Fields.Drive" : "Drive",
         "Inspector.Fields.DriveWriteBack" : "Drive <size=50%>(write back)</size>",
 
@@ -1521,7 +1527,7 @@
         "Desktop.LegacyInputMode.Off": "Legacy Input: Off",
         "Desktop.Brightness": "Brightness: {n,number,percent}",
         "Desktop.Opacity": "Opacity: {n,number,percent}",
-        
+
         "VolumePlaneSlicer.Highlight": "Highlight",
         "VolumePlaneSlicer.Slicer": "Slice",
 
@@ -1647,7 +1653,6 @@
         "Migration.Groups.NotGroupAdmin": "You're not an admin of any {platform} groups, ask your group admins to migrate the group!",
 
         "Migration.Summary": "Ok, we have everything we need. Click Start Migration below and we'll get started on your migration.\n\nMigration might take a while, we've gotta copy everything across. If you've selected to migrate your favorites, we'll prioritize them so that you can get comfortable.\n\nYou don't need to keep {appName} running whilst we're migrating, but we'll send you updates via the {appName} bot to let you know how its going.",
-
 
         "Migration.List.EmptyTitle": "Looking to start a new Migration?",
         "Migration.List.EmptySubtitle": "Click on \"New Migration Task\" in the top left.",
@@ -1905,6 +1910,7 @@
         "UI.VideoPlayer.AudioZoneTheater": "Local to<br>Theater",
         "UI.VideoPlayer.AudioZoneGlobal": "Audible<br>to World",
         "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {user} other {users}}<br>loaded",
+        "UI.VideoPlayer.AllUsersLoaded": "All users<br>loaded",
 
         "UI.ColorPicker.ColorPicker": "Color Picker",
 

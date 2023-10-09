@@ -51,7 +51,9 @@ Interaction.CopyLink
 Inventory.OpenWorld  
 Inventory.Equip  
 Inventory.Delete  
+Inventory.CreateDirectory  
 Inventory.SaveHeld  
+Inventory.GetURL  
 Inventory.Inventories  
 Inventory.Share  
 Inventory.Unshare  
@@ -77,6 +79,7 @@ Dash.Exit.Shoutouts
 Dash.Exit.Shoutouts.AndMore  
 Dash.Exit.Shoutouts.You  
 Facets.FPS  
+World.Loaded  
 World.Connection.LNL.DirectIP  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
@@ -289,6 +292,9 @@ Importer.Model.Advanced.SplitSubmeshes
 Importer.Model.Advanced.ForcePointFiltering  
 Importer.Model.Advanced.ForceNoMipMaps  
 Importer.Model.Advanced.ForceUncompressed  
+Importer.Slices.Title  
+Importer.Slices.TitleGrayscale  
+Importer.Slices.Description  
 Exporter.Title  
 Exporter.FileName  
 Exporter.ExportAs  
@@ -842,6 +848,7 @@ UI.VideoPlayer.EnterURL
 UI.VideoPlayer.AudioZoneTheater  
 UI.VideoPlayer.AudioZoneGlobal  
 UI.VideoPlayer.UsersLoaded  
+UI.VideoPlayer.AllUsersLoaded  
 UI.ColorPicker.ColorPicker  
 UI.ColorPicker.Linear  
 UI.ColorPicker.Hexadecimal  
