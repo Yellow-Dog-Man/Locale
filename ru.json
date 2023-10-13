@@ -182,9 +182,9 @@
 
         "World.Error.AccessDenied": "Отказано в доступе",
         "World.Error.SecurityViolation": "Нарушение безопасности",
-        "World.Error.OnlyRegisteredUsers": "Только зарегистрированные пользователи могут присоединиться",
-        "World.Error.OnlyContacts": "Только контакты хоста сессии могут присоединиться",
-        "World.Error.OnlyContactsOfContacts": "Только контакты пользователей сессии могут присоединиться",
+        "World.Error.OnlyRegisteredUsers": "Только зарегистрированные пользователи могут подключиться",
+        "World.Error.OnlyContacts": "Только контакты хоста сессии могут подключиться",
+        "World.Error.OnlyContactsOfContacts": "Только контакты пользователей сессии могут подключиться",
         "World.Error.Private": "Эта сессия приватна",
         "World.Error.SessionEnded": "Сессия была завершена",
         "World.Error.UserLimitReached": "Сессия достигла лимита пользователей",
@@ -209,7 +209,7 @@
         "World.Config.MobileFriendly": "Подходит для мобильных",
         "World.Config.SaveOptionsHeader": "Настройки сохранения мира:",
         "World.Config.EditMode": "Режим редактирования:",
-        "World.Config.AccessLevelHeader": "Кто может присоединиться?",
+        "World.Config.AccessLevelHeader": "Кто может подключиться?",
         "World.Config.AutoKickAFK": "Авто-кик AFK пользователей:",
         "World.Config.AutoKickAFKMinutes": "Максимум AFK в минутах:",
         "World.Config.HideFromListing": "Не показывать в списке сессий",
@@ -219,7 +219,7 @@
         "World.Config.CleanupInterval": "Интервал очистки (секунды):",
 
         "World.Actions.StartSession": "Старт сессии",
-        "World.Actions.Join": "Присоединиться",
+        "World.Actions.Join": "Подключиться",
         "World.Actions.Focus": "Фокус",
         "World.Actions.Close": "Закрыть мир",
         "World.Actions.Leave": "Покинуть мир",
@@ -1606,7 +1606,7 @@
         "Migration.LoginResetID.ResetButton": "Да, сбросить",
 
         "Migration.ReservedUsername.Title":"<b>Зарезервированное имя пользователя</b>",
-        "Migration.ReservedUsername.Description": "Это имя пользователя зарезервировано для первоначального владельца. Если это ваша учетная запись, предоставьте свои учетные данные для {platform}, чтобы разблокировать ее. Мы не храним эти учетные данные, они используются только для подтверждения принадлежности вашей учетной записи при регистрации.",
+        "Migration.ReservedUsername.Description": "Это имя пользователя зарезервировано для первоначального владельца. Если это Ваша учетная запись, предоставьте свои учетные данные для {platform}, чтобы разблокировать ее. Мы не храним эти учетные данные, они используются только для подтверждения принадлежности вашей учетной записи при регистрации.",
         "Migration.SourcePassword": "Пароль {platform}:",
         "Migration.SourceUsername": "Имя пользователя {platform}:",
 
@@ -1623,8 +1623,8 @@
 
         "Migration.DataSelection.Favorites": "Избранное (аватар, домашний мир, камера, клавиатура, фасеты)",
 
-        "Migration.DataSelection.Favorites.Description": "Сначала будет перенесен ваш дом, любимый аватар, клавиатура, камера и фасеты, чтобы вы могли начать использовать их как можно скорее.\n <color=red><b>ВНИМАНИЕ:</b></color> Если вы выберете этот пункт, вы можете <b>ПОТЕРЯТЬ ВСЕ ИЗМЕНЕНИЯ</b> сделанные на этой платформе до переноса избранного.",
-        "Migration.DataSelection.Favorites.OverwriteTitle": "Должны ли мы переопределить избранное при переносе?",
+        "Migration.DataSelection.Favorites.Description": "Сначала будет перенесен ваш дом, любимый аватар, клавиатура, камера и фасеты, чтобы вы могли начать использовать их как можно скорее.\n <color=red><b>ВНИМАНИЕ:</b></color> Если вы выберете этот пункт, вы можете <b>ПОТЕРЯТЬ ИЗМЕНЕНИЯ</b> уже избранных предметов на этой платформе до переноса.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "Должны ли мы перезаписать избранное при переносе?",
 
         "Migration.DataSelection.Home.Title": "Установить ли ваш старый дом избранным?",
         "Migration.DataSelection.Home.Description": "Когда мы перенесем ваши данные, ваш оригинальный облачный дом будет размещен под другим URL-адресом, и по умолчанию вы получите совершенно новый облачный дом. Однако, если вы предпочитаете, мы можем сделать ваш старый дом избранным домом по умолчанию. Даже если вы выберете \"Нет\", ваш старый облачный дом по-прежнему будет доступен, и вы сможете отметить его избранным по умолчанию позже.",
@@ -1639,7 +1639,7 @@
 
         "Migration.Start": "Начать миграцию",
         "Migration.Groups.Title": "Мигрировать группы",
-        "Migration.Groups.Introduction": "Должны ли мы перенести ваши группы?",
+        "Migration.Groups.Introduction": "Перенести ли нам ваши группы?",
 
         "Migration.Groups.Description": "Все группы, администратором которых вы являетесь, будут перенесены по умолчанию. Если вы хотите перенести только избранные группы, нажмите кнопку ниже, чтобы загрузить их, а затем отметьте группы, которые вы хотите перенести.",
 
@@ -1711,7 +1711,7 @@
         "Tutorial.Saving.Title": "Добро пожаловать домой!",
         "Tutorial.Saving.Content": "Добро пожаловать в ваш <b><i><color=hero.yellow>дом</b></i></color>! Вы окажетесь в этом месте при каждом входе.<br>Этот мир полностью ваш, поэтому вы можете сохранить любые сделанные вами изменения.<br>При сохранении мира всё останется на своих местах в ваш следующий визит!",
 
-        "CloudHome.Info.OnlineUsers": "Онлайн: {online_users} {online_users,plural, one {пользователь} few {пользователя} other {пользователей}}<br>Можно подключится к: {joinable_users} {joinable_users,plural, one {пользователю} other {пользователям}}",
+        "CloudHome.Info.OnlineUsers": "Онлайн: {online_users} {online_users,plural, one {пользователь} few {пользователя} other {пользователей}}<br>Можно подключиться к: {joinable_users} {joinable_users,plural, one {пользователю} other {пользователям}}",
         "CloudHome.Info.Moderation": "Модерация",
         "CloudHome.Info.Inventory": "Инвентарь",
         "CloudHome.Info.Tools": "Инструменты",
@@ -1742,7 +1742,7 @@
         "CloudHome.Info.HelpTab.InfoLineTwo": "Кстати, вы можете открывать ссылки на вашем рабочем столе, внутри Дэшборда, на вкладке <i><color=hero.purple>Рабочий стол</color></i>.",
 
         "CloudHome.Info.UsersTab.Title": "Поиск пользователей",
-        "CloudHome.Info.UsersTab.Content": "Публичные сессии это отличный способ погрузиться в жизнь сообщества!<br><br>Публичные сессии, к которым вы сейчас можете присоединиться, можно найти во вкладке <i><color=hero.purple>Миры</color></i> вашего дэшборда. Проверьте сами!",
+        "CloudHome.Info.UsersTab.Content": "Публичные сессии это отличный способ погрузиться в жизнь сообщества!<br><br>Публичные сессии, к которым вы сейчас можете подключиться, можно найти во вкладке <i><color=hero.purple>Миры</color></i> вашего дэшборда. Проверьте сами!",
 
         "Mirror.Header.RenderingOptions": "Настройки рендера",
         "Mirror.Header.Type": "Тип Зеркала",
@@ -1861,7 +1861,7 @@
         "Hints.Spawn.TeleportLocomotionDesktop": "Другие режимы передвижения, такие как полет, вы можете попробовать в меню Передвижение.",
         "Hints.Spawn.TeleportLocomotionVR": "Другие режимы передвижения, такие как телепорт или полет, вы можете попробовать в меню Передвижение.",
 
-        "Hints.Bridge.RaiseTheWorld": "Нажмите эту кнопку чтобы призвать сюда платформу!",
+        "Hints.Bridge.RaiseTheWorld": "Нажмите на эту кнопку чтобы призвать платформу!",
 
         "Hints.Grabbing.GrabbingDesktop": "Хватайте вещи, удерживая правую кнопку мыши!",
         "Hints.Grabbing.GrabbingVR": "Хватайте вещи, удерживая Grip!",
