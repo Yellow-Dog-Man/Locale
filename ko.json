@@ -398,36 +398,88 @@
         "Indicator.LiveHiddenMessage": "(방송중엔 안보입니다)",
 
         "Login.InvalidCredentials": "계정 정보를 다시 확인해 주세요.",
+        "Login.InvalidCredentials.Description": "계정 정보를 다시 확인하여 시도 또는 \"암호가 기억나지 않나요?\"를 눌러주세요.",
+        
         "Login.InvalidLogin": "계정 정보를 다시 확인해 주세요.",
+        "Login.InvalidLogin.Description": "계정 정보를 다시 확인하여 시도 또는 \"암호가 기억나지 않나요?\"를 눌러주세요.",
 
         "Login.MalformedUID": "유효하지 않은 장치 식별자 정보 입니다.",
+        "Login.MalformedUID.Description": "재설치 또는 지원팀에 문의 바랍니다.",
+        
         "Login.MissingUID": "장치 식별자 정보가 존재하지 않습니다.",
+        "Login.MissingUID.Description": "재설치 또는 지원팀에 문의 바랍니다.",
+        
         "Register.MissingUID": "유효하지 않은 장치 식별자 정보 입니다.",
+        "Register.MissingUID.Description": "재설치 또는 지원팀에 문의 바랍니다.",
+        
         "Register.MalformedUID": "유효하지 않은 장치 식별자 정보 입니다.",
+        "Register.MalformedUID.Description": "재설치 또는 지원팀에 문의 바랍니다.",
 
         "Login.MissingLogin": "계정 정보를 입력하세요.",
+        "Login.MissingLogin.Description": "계정 정보 입력을 잊으신건 아닌가요?",
+        
         "Login.InvalidRecoveryCode": "유효치 않은 복구코드 입니다.",
+        "Login.InvalidRecoveryCode.Description": "복구코드를 다시 확인하여 주세요.",
+        
         "Login.UnsupportedAuthentication": "지원하지 않는 인증방법 입니다.",
+        "Login.UnsupportedAuthentication.Description": "지원되지 않는 인증방법입니다. 다른 방법으로 시도해 주세요.",
+        
         "Login.EmailNotVerified": "전자메일이 확인되지 않았습니다.",
+        "Login.EmailNotVerified.Description": "등록하신 전자메일을 확인해 주세요. 경우에 따라 스팸으로 분류되어 있을수도 있습니다.",
+        
         "Login.AccountTempLocked": "계정이 잠겨진 상태입니다.",
+        "Login.AccountTempLocked.Description": "moderation.resonite.com 사이트를 통해 중재를 받으세요.",
+        
         "Login.AccountBanned": "로그인이 차단된 계정입니다.",
+        "Login.AccountBanned.Description": "moderation.resonite.com 사이트를 통해 중재를 받으세요.",
+        
         "Login.DuplicateAccount": "중복 계정입니다.",
+        "Login.DuplicateAccount.Description": "support.resonite.com 사이트를 통해 지원을 받으세요.",
 
         "Register.MissingRequest": "세부 정보가 빠져 있습니다.",
+        "Register.MissingRequest.Description": "등록시 필요한 정보가 일부 누락되어 있습니다.",
+        
         "Register.InvalidEmail": "전자메일 정보가 유효하지 않습니다.",
+        "Register.InvalidEmail.Description": "전자메일 주소가 잘못되었는지 확인해 주세요.",
+        
         "Register.MissingUsername": "사용자명을 입력하세요.",
+        "Register.MissingUsername.Description": "사용자명을 입력하셔야 합니다.",
+        
         "Register.MissingEmail": "전자메일 주소를 입력하세요.",
+        "Register.MissingEmail.Description": "전자메일 주소를 입력하셔야 합니다.",
+        
         "Register.UsernameTooLong": "사용자명이 너무 깁니다.",
+        "Register.UsernameTooLong.Description": "사용자명은 최대 32글자까지 허용됩니다.",
+        
         "Register.UsernameContainsAmpersand": "사용자명에 @ 기호를 사용할 수 없습니다.",
+        "Register.UsernameContainsAmpersand.Description": "사용자명은 @ 기호가 포함되면 안됩니다.",
+        
         "Register.UsernameStartsWithU": "사용자명은 U-로 시작하면 안됩니다.",
+        "Register.UsernameStartsWithU.Description": "사용자명은 U-로 시작할 수 없습니다.",
+        
         "Register.InvalidUsername": "유효하지 않은 사용자명 입니다.",
+        "Register.InvalidUsername.Description": "사용자명이 잘못되었습니다.",
+        
         "Register.InvalidDateOfBirth": "생일은 유효한 날짜로 입력하세요.",
+        "Register.InvalidDateOfBirth.Description": "입력한 날짜는 존재하지 않습니다.",
+        
         "Register.UserContainsBlockedTerms": "사용할 수 없는 단어가 사용자명에 들어 있습니다.",
+        "Register.UserContainsBlockedTerms.Description": "금칙문자를 사용자 명에 사용할 수 없습니다. 오류인 것으로 생각되시면 contact support.resonite.com을 통해 알려주세요.",
+        
         "Register.MissingPassword": "암호를 입력하세요.",
+        "Register.MissingPassword.Description": "암호를 입력하지 않았습니다.",
+        
         "Register.InvalidPassword": "유효하지 않은 암호입니다.",
+        "Register.InvalidPassword.Description": "잘못된 암호입니다.",
+        
         "Register.EmailAlreadyRegistered": "이미 등록된 전자메일 주소입니다.",
+        "Register.EmailAlreadyRegistered.Description": "이미 계정으로 등록된 전자메일입니다. 암호를 분실 하신 경우라면 \"암호가 기억나지 않나요?\"를 눌러서 문제 해결 절차를 진행하시고, 그렇지 않은 경우라면 support.resonite.com을 통해 지원을 받아보시기 바랍니다.",
+        
         "Register.UsernameAlreadyRegistered": "이미 등록되어 있는 사용자명 입니다.",
+        "Register.UsernameAlreadyRegistered.Description": "이미 계정으로 등록된 사용자명입니다. 암호를 분실 하신 경우라면 \"암호가 기억나지 않나요?\"를 눌러서 문제 해결 절차를 진행하시고, 그렇지 않은 경우라면 support.resonite.com을 통해 지원을 받아보시기 바랍니다.",
+        
         "Register.ErrorCheckingUserId": "UserID 오류체크",
+        "Register.ErrorCheckingUserId.Description": "support.resonite.com을 통해 지원을 받으세요.",
 
         "Account.Login": "로그인",
         "Account.Logout": "로그아웃",
@@ -1713,6 +1765,8 @@
         "Tutorial.Saving.Title": "홈월드에 오신것을 환영합니다.",
         "Tutorial.Saving.Content": "환영합니다. 이곳은 당신의 <b><i><color=hero.yellow>홈</b></i></color>입니다! 이곳은 접속시 접속되는 곳입니다.<br><br>이곳은 당신만의 월드이므로, 변경된 정보를 저장할 수 있습니다.<br><br>저장할 경우, 다시 돌아왔을때 마지막 모습 그대로 있을것입니다.",
 
+        "Tutorial.Teleporter.Error": "클라우드 홈을 읽어오는 도중 문제가 발생하였습니다!<br><size=66%>텔레포터에 다시 탑승해보세요.</size>",
+        
         "CloudHome.Info.OnlineUsers": "온라인: {online_users}명<br>접속 가능자: {joinable_users}명",
         "CloudHome.Info.Moderation": "중재처리",
         "CloudHome.Info.Inventory": "보관함",
