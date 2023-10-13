@@ -3,7 +3,7 @@
     "authors": ["AdmiralSoap", "Napo", "Hexdigest", "Toni Kat"],
     "messages": {
 
-        "General.OK": "OK",
+
         "General.Start": "Aloita",
         "General.Finish": "Valmis",
         "General.Cancel": "Peruuta",
@@ -30,12 +30,12 @@
         "General.Buy": "Osta",
         "General.Yes": "Kyllä",
         "General.No": "Ei",
-        "General.ClearSelection" : "Tyhjennä Valinta",
+        "General.ClearSelection": "Tyhjennä Valinta",
         "General.Off": "Pois Päältä",
         "General.On": "Päällä",
         "General.Understand": "Ymmärrän",
-        "General.Notice" : "Ilmoitus",
-        "General.UnderstandEnable" : "Ymmärrän, Ota Käyttöön",
+        "General.Notice": "Ilmoitus",
+        "General.UnderstandEnable": "Ymmärrän, Ota Käyttöön",
         "General.Dismiss": "Hylkää",
         "General.Edit": "Muokkaa",
 
@@ -43,8 +43,8 @@
         "General.UI.SearchPromptLong": "Kirjoita etsiäksesi...",
         "General.UI.ToggleEditMode": "Muokkaustila",
         "General.UI.ToggleSubtitles": "Tekstitykset",
-        "General.UI.Subtitles.On" : "Tekstitykset: Päällä",
-        "General.UI.Subtitles.Off" : "Tekstitykset: Pois Päältä",
+        "General.UI.Subtitles.On": "Tekstitykset: Päällä",
+        "General.UI.Subtitles.Off": "Tekstitykset: Pois Päältä",
 
         "General.UI.MusicVolumeLocal": "Musiikin voimakkuus (lokaali):",
         "General.UI.VoiceVolumeLocal": "Puheen voimakkuus (lokaali):",
@@ -55,8 +55,8 @@
         "General.Sort.Ascending": "Nousevasti",
         "General.Sort.Descending": "Laskevasti",
 
-        "Worlds.Home" : "Koti",
-        "Worlds.Tutorial" : "Tutoriaali",
+        "Worlds.Home": "Koti",
+        "Worlds.Tutorial": "Tutoriaali",
 
         "Locomotion.Noclip.Name": "Lento",
         "Locomotion.Noclip.Description": "Yksinkertainen läpäisevä lentotila.",
@@ -111,7 +111,9 @@
         "Inventory.OpenWorld": "Avaa Maailma",
         "Inventory.Equip": "Ota käyttöön",
         "Inventory.Delete": "Poista",
+        "Inventory.CreateDirectory": "Uusi kansio",
         "Inventory.SaveHeld": "Tallenna kädessä oleva",
+        "Inventory.GetURL": "Kopioi URL",
         "Inventory.Inventories": "Inventaariot",
         "Inventory.Share": "Jaa",
         "Inventory.Unshare": "Poista jako",
@@ -152,8 +154,8 @@
         "Dash.Exit.Sponsor": "Valtava kiitos {name} projektin sponsoroinnista!",
         "Dash.Exit.Sponsor.You": "SINÄ",
         "Dash.Exit.Shoutouts": "Tämä projekti on ollut mahdollista näiden ihmisten ansiosta:",
-        "Dash.Exit.Shoutouts.AndMore" : " ja monia muita!",
-        "Dash.Exit.Shoutouts.You" : "{name} (Se olet sinä! Kiitos!)",
+        "Dash.Exit.Shoutouts.AndMore": " ja monia muita!",
+        "Dash.Exit.Shoutouts.You": "{name} (Se olet sinä! Kiitos!)",
         "Dash.Exit.ThankYou": "Kiitos kun käytät {appName}a!",
         "Dash.Exit.SubmittedBy": "Lähettäjä: {name}",
 
@@ -165,6 +167,7 @@
         "World.LoadingFailed": "Epäonnistui",
         "World.LoadedAssets": "Ladataan {assets} / {total_assets}",
         "World.Downloading": "Ladataan {bytes} / {total_bytes}",
+        "World.Loaded": "Ladattu",
 
         "World.Connection.EstablishingConnection": "Luodaan yhteyttä",
         "World.Connection.RequestingJoin": "Pyydetään liittyä",
@@ -197,7 +200,7 @@
         "World.Error.HostBlocked": "Isäntä blokattu",
         "World.Error.HostBlockedDetail": "Olet blokannut isännän",
         "World.Error.WorldCrash": "Maailma kaatui",
-        "World.Error.WorldCrashDetail" : "Kohtalokas virhe päivitettäessä maailmaa",
+        "World.Error.WorldCrashDetail": "Kohtalokas virhe päivitettäessä maailmaa",
         "World.Error.Unknown": "Tuntematon virhe",
 
         "World.Config.Name": "Maailman nimi:",
@@ -219,7 +222,7 @@
         "World.Actions.Join": "Liity",
         "World.Actions.Focus": "Vaihda",
         "World.Actions.Close": "Sulje maailma",
-        "World.Actions.Leave": "Lähde maailmasta",
+        "World.Actions.Leave": "Poistu maailmasta",
         "World.Actions.Save": "Tallenna muutokset",
         "World.Actions.SaveAs": "Tallenna nimellä...",
         "World.Actions.SaveCopy": "Tallenna kopio...",
@@ -240,7 +243,7 @@
         "World.Actions.CloseConfirm": "Sulje",
         "World.Actions.LeaveConfirm": "Poistu",
         "World.Actions.CannotClose": "(Ei pysty sulkemaan tätä maailmaa)",
-        "World.Actions.GuestWarning": "",
+
         "World.Actions.HostingWarning": "Isännöit tätä maailmaa. Kaikkien käyttäjien yhteys katkaistaan.",
 
         "World.Actions.GetWorldOrb": "Tuo maailman pallo",
@@ -301,7 +304,7 @@
         "World.AccessLevel.RegisteredUsers": "Rekisteröityneet käyttäjät",
         "World.AccessLevel.Contacts": "Kontaktit",
         "World.AccessLevel.ContactsPlus": "Kontaktit+",
-        "World.AccessLevel.LAN": "LAN",
+
         "World.AccessLevel.Private": "Yksityinen (Ainoastaan kutsutut)",
 
         "World.SortParameter.SearchScore": "Hakupisteet",
@@ -354,7 +357,7 @@
         "Tools.StreamAudio": "Äänen suoratoisto",
         "Tools.Setup2FA": "Määritä 2FA",
 
-        "Tools.StreamAudio.Dialog.Title" : "Luo suoratoisto",
+        "Tools.StreamAudio.Dialog.Title": "Luo suoratoisto",
         "Tools.StreamAudio.Start": "Aloita suoratoisto",
         "Tools.StreamAudio.Bitrate": "Bittinopeus: {bitrate} kbps",
         "Tools.StreamAudio.Title": "{username} audion suoratoisto",
@@ -384,10 +387,10 @@
         "Indicator.ServerStatus.NoInternet": "Ei yhteyttä",
 
         "Indicator.Sync.AllSynced": "Kaikki synkronoitu",
-        "Indicator.Sync.SyncingItems": "Synkronoidaan {item_count,plural, one {# kohde} other {# kohdetta}} <nobr>({item_percent} %)",
-        "Indicator.Sync.UploadingVariants": "Lähetetään {variant_count,plural, one {# muutos} other {# muutosta}}",
-        "Indicator.Sync.SyncError": "Synkronointivirhe! <size=50%>Tarkista loki</size>",
-        "Indicator.Sync.StorageFull": "Tila loppu! <size=50%>Ei voi synkronoida</size>",
+        "Indicator.Sync.SyncingItems": "Synkronoidaan <br><size=61.8033%>{item_count,plural, one {# kohde} other {# kohdetta}}</size>",
+        "Indicator.Sync.UploadingVariants": "Lähetetään<br><size=61.8033%>resurssivariantteja</size>",
+        "Indicator.Sync.SyncError": "Synkronointivirhe! <size=61.803%>Tarkista loki</size>",
+        "Indicator.Sync.StorageFull": "Tila loppu! <size=61.803%>Ei voi synkronoida</size>",
 
         "Indicator.Storage.StorageFull": "Tila loppu",
         "Indicator.Storage.Usage": "{storage_used} / {storage_max}<br><size=61.803%>Tilasta käytössä</size>",
@@ -429,7 +432,7 @@
         "Account.Login": "Kirjaudu sisään",
         "Account.Logout": "Kirjaudu ulos",
         "Account.Register": "Rekisteröidy",
-        "Account.Saml2" : "Kirjaudu käyttäen SAML 2.0",
+        "Account.Saml2": "Kirjaudu käyttäen SAML 2.0",
         "Account.LoginOrRegister": "Kirjaudu / Rekisteröidy",
         "Account.LogoutConfirm": "Haluatko varmasti kirjautua ulos?",
         "Account.LoggingIn": "Kirjaudutaan sisään...",
@@ -446,7 +449,6 @@
         "Account.RecoverPassword": "Unohtunut salasana?",
         "Account.LiveEmailWarning": "<color=#f00>Varoitus:</color> live.com, hotmail.com, outlook.com ja muilla Microsoftin alustoilla saattaa kestää jopa 1-2 päivää, ennen sähköpostin saapumista.",
         "Account.PasswordRules": "(vähintään 8 kirjainta, 1 numero, 1 pieni kirjain, 1 iso kirjain)",
-        "Account.AgeConfirm": "Olen yli 13-vuotias",
         "Account.LostPassword": "Kadonnut Salasana",
         "Account.SendRecoveryCode": "Lähetä Palautuskoodi",
         "Account.ResetPasswordHeader": "Nollaa Salasana",
@@ -458,18 +460,18 @@
         "Account.ErrorPasswordMismatch": "Salasanat eivät täsmää!",
         "Account.ErrorEmailMismatch": "Sähköpostit eivät täsmää!",
         "Account.ErrorLoginError": "Kirjautumisvirhe:",
-        "Account.RegistrationSuccess": "Onnistui! Vahvistuslinkki on lähetetty sähköpostiin: {email} Kun avaat tämän linkin, voit kirjautua sisään. Jos kirjautumisessa on ongelmia, ota meihin yhteyttä osoitteessa {appEmail} tai {appCommunity}",
+        "Account.RegistrationSuccess": "<size=120%>Onnistui!</size><br><br>Vahvistuslinkki on lähetetty sähköpostiin: {email} Kun avaat tämän linkin, voit kirjautua sisään. Jos kirjautumisessa on ongelmia, ota meihin yhteyttä osoitteessa {appEmail} tai {appCommunity}",
         "Account.BirthMonth": "Kuukausi:",
         "Account.BirthDay": "Päivä:",
         "Account.BirthYear": "Vuosi:",
         "Account.PoliciesAgreement": "Hyväksyn <color=#22B2FF>palveluehdot</color> ja <color=#22B2FF>tietosuojakäytännön</color>",
-        "Account.AlternateMethods" : "Kirjaudu sisään käyttäen kolmannen osapuolen palvelua:",
+        "Account.AlternateMethods": "Kirjaudu sisään käyttäen kolmannen osapuolen palvelua:",
 
 
-        "Account.Saml2.Select" : "Valitse SAML 2.0 palvelu jota haluat käyttää:",
-        "Account.Saml2.LoggingIn" : "Odotetaan kirjautumisen valmistumista (tarkista verkkoselaimesi)...",
+        "Account.Saml2.Select": "Valitse SAML 2.0 palvelu jota haluat käyttää:",
+        "Account.Saml2.LoggingIn": "Odotetaan kirjautumisen valmistumista (tarkista verkkoselaimesi)...",
 
-        "Account.TOTP.Title" : "Kaksi-vaiheinen tunnistautuminen",
+        "Account.TOTP.Title": "Kaksi-vaiheinen tunnistautuminen",
         "Account.TOTP.Initializing": "Tarkistetaan tilisi 2FA-tila...",
         "Account.TOTP.Code.Header": "Salainen koodi",
         "Account.TOTP.Code.Description": "Ensin sinun on syötettävä salainen koodi TOTP-todennussovellukseesi, kuten <b>Authy</b> tai <b>Google Authenticator</b>.<br><br>Suosittelemme tämän tekemistä skannaamalla QR-koodin, mutta vaihtoehtoisesti voit syöttää salaisen koodin manuaalisesti. <b>Älä koskaan jaa tätä koodia kenenkään kanssa.</b><br><br>Jos olet VR-tilassa, voit siirtyä työpöytätilaan painamalla F8.",
@@ -479,38 +481,38 @@
         "Account.TOTP.RecoveryCodes.Description": "Tallenna nämä koodit turvalliseen paikkaan. Niitä voidaan käyttää tilisi palauttamiseen, jos kadotat tai rikot puhelimesi. Kutakin koodia voidaan käyttää vain kerran. <b>Älä koskaan jaa niitä kenellekään.</b> Jos kadotat ne, menetät <color=red>PYSYVÄSTI</color> pääsyn tilillesi.",
         "Account.TOTP.RecoveryCodes.Codes": "Koodit:",
         "Account.TOTP.Activate.Header": "Aktivoi 2FA",
-
-        "Account.TOTP.Activate.Token": "6-numeroinen tunnus:",
-        "Account.TOTP.Activate.TokenField": "Kirjoita tunnuksesi tähän...",
+        "Account.TOTP.Activate.Description": "Aktivoidaksesi 2FA:n tililläsi, käytä autentikointisovelluksesi luomaa 6-numeroista koodia varmistaaksesi, että kaikki toimii oikein.<br><br>Aktivoinnin jälkeen sinun on käytettävä koodia tiettyjen toimintojen vahvistamiseen.",
+        "Account.TOTP.Activate.Token": "6-numeroinen koodi:",
+        "Account.TOTP.Activate.TokenField": "Kirjoita koodisi tähän...",
         "Account.TOTP.Activate.Activate": "Aktivoi",
         "Account.TOTP.Activate.Activating": "Aktivoidaan...",
         "Account.TOTP.Activate.InvalidToken": "Virheellinen tunnus!",
         "Account.TOTP.Message.AlreadySetup": "2FA on jo määritetty tilillesi!",
         "Account.TOTP.Message.Error": "Odottamaton virhe! Yritä uudelleen myöhemmin.",
-
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Onnittelut!</size><br><br>Tiliisi on nyt lisätty 2FA lisäsuojaus!<br><br>Voit halutessasi ottaa 2FA:n käyttöön tilille kirjautumiseen /enableLogin2FA -komennolla.",
         "Account.TOTP.Deactivate.Header": "Poista 2FA käytöstä",
         "Account.TOTP.Deactivate.Description": "2FA on tällä hetkellä <b><color=green>määritetty ja aktiivinen tililläsi</color></b>. Jos haluat poistaa sen käytöstä (esim. puhelimen kadottamisen tai koodien vaarantumisen vuoksi), voit tehdä sen täällä.<br><br>Käytöstä poistaminen jälkeen voit määrittää 2FA:n uudelleen, tämä luo uuden salaisen koodin ja uudet palautuskoodit.<br><br>Jos kadotat puhelimesi ja sinun on määritettävä 2FA uudelleen, suosittelemme, että teet sen heti, koska kutakin palautuskoodia voidaan käyttää vain kerran. Kun koodit ovat käytetty, tilisi on lukossa ja et voi enään kirjautua sisään.",
         "Account.TOTP.Deactivate.Deactivate": "Poista käytöstä",
         "Account.TOTP.Deactivate.Deactivating": "Poistetaan käytöstä...",
         "Account.TOTP.Message.DeactivationComplete": "2FA on poistettu käytöstä.<br><br>Tililläsi on nyt lisääntynyt riski!<br><br>Suosittelemme 2FA:n uudelleen käyttöön ottamista, varsinkin jos käytit palautuskoodia puhelimesi hukkaamisen vuoksi.",
 
-        "Account.Type.Standard" : "Perustili",
-        "Account.Type.Business" : "Yritystili",
-        "Account.Type.Patreon" : "Patreon Tukija",
-        "Account.Type.Mentor" : "{platform} Mentori",
-        "Account.Type.Moderator" : "{platform} Moderaattori",
-        "Account.Type.Team" : "{platform} Tiimi",
+        "Account.Type.Standard": "Perustili",
+        "Account.Type.Business": "Yritystili",
+        "Account.Type.Patreon": "Patreon Tukija",
+        "Account.Type.Mentor": "{platform} Mentori",
+        "Account.Type.Moderator": "{platform} Moderaattori",
+        "Account.Type.Team": "{platform} Tiimi",
 
 
 
         "2FA.Header": "2FA-vahvistus",
-        "2FA.Token": "6-numeroinen tunnus:",
+        "2FA.Token": "6-numeroinen koodi:",
 
-        "Profile.Status.Online": "Online",
+
         "Profile.Status.Away": "Poissa",
         "Profile.Status.Busy": "Kiireinen",
         "Profile.Status.Invisible": "Näkymätön",
-        "Profile.Status.Offline": "Offline",
+
         "Profile.Status.Headless": "Palvelin",
 
         "Session.Tab.Settings": "Asetukset",
@@ -521,8 +523,8 @@
         "Session.Permission.Vistor": "Oletus vierailija:",
         "Session.Permission.Contact": "Oletus kontakti:",
         "Session.Permission.Host": "Oletus isäntä:",
-        "Session.Permission.PermissionOverrideCount": "Käyttäjä lupia: {n,select, -1 {---} other {{n}}}",
-        "Session.Permission.ClearOverrides": "Poista oletuskäyttöoikeudet",
+        "Session.Permission.PermissionOverrideCount": "Käyttäjien erikoisluvat: {n,select, -1 {---} other {{n}}}",
+        "Session.Permission.ClearOverrides": "Poista erikoisluvat",
 
 
 
@@ -554,8 +556,8 @@
         "Contacts.UnbanFromCurrentWorld": "Poista esto nykyisestä maailmasta",
         "Contacts.RecordingVoiceMessage": "Nauhoitetaan puhetta...",
 
-        "Contacts.AvatarBlock" : "Estä Avatar",
-        "Contacts.MutualBlock" : "Yhteinen esto",
+        "Contacts.AvatarBlock": "Estä Avatar",
+        "Contacts.MutualBlock": "Yhteinen esto",
         "Contacts.SelfAccount": "Minun tili",
         "Contacts.SearchPrompt": "Etsi kontakteja...",
         "Contacts.WriteMessage": "Kirjoita viesti...",
@@ -617,9 +619,9 @@
         "Undo.ExtractMaterialsFromHierarchy": "Pura materiaalit hierarkiasta",
         "Undo.BatchConvertMaterials": "Erämuunna materiaalit",
 
-        "Tooltips.Brush.ChangeColor" : "Vaihda väri",
-        "Tooltips.Brush.IncrementSize" : "Suurenna kokoa",
-        "Tooltips.Brush.DecrementSize" : "Pienennä kokoa",
+        "Tooltips.Brush.ChangeColor": "Vaihda väri",
+        "Tooltips.Brush.IncrementSize": "Suurenna kokoa",
+        "Tooltips.Brush.DecrementSize": "Pienennä kokoa",
 
         "Tooltips.Dev.CreateNew": "Luo uusi...",
         "Tooltips.Dev.Selection": "Valintatila: {mode}",
@@ -630,13 +632,13 @@
         "Tooltips.Dev.DestroySelected": "Poista valitut",
         "Tooltips.Dev.ConfirmDestroySelected": "VARMASTI Poista valitut",
 
-        "Tooltips.Dev.GizmoOptions" : "Gizmo Asetukset",
-        "Tooltips.Dev.SelectParent" : "Valitse yliluokka",
-        "Tooltips.Dev.LocalSpace" : "Lokaali alue",
-        "Tooltips.Dev.GlobalSpace" : "Globaali alue",
-        "Tooltips.Dev.Translation" : "Liikutus",
-        "Tooltips.Dev.Rotation" : "Kierto",
-        "Tooltips.Dev.Scale" : "Skaala",
+        "Tooltips.Dev.GizmoOptions": "Gizmo Asetukset",
+        "Tooltips.Dev.SelectParent": "Valitse yliluokka",
+        "Tooltips.Dev.LocalSpace": "Lokaali alue",
+        "Tooltips.Dev.GlobalSpace": "Globaali alue",
+        "Tooltips.Dev.Translation": "Liikutus",
+        "Tooltips.Dev.Rotation": "Kierto",
+        "Tooltips.Dev.Scale": "Skaala",
 
         "Tooltip.Color.Picker": "Värinvalitsija",
 
@@ -678,9 +680,9 @@
 
 
 
-        "Tooltip.Microphone.Format.WAV": "WAV",
-        "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
-        "Tooltip.Microphone.Format.FLAC": "FLAC",
+
+
+
         "Tooltip.Microphone.ModeHold": "Paina nauhoittaaksesi",
         "Tooltip.Microphone.ModePress": "Paina aloittaaksesi/lopettaaksesi nauhoituksen",
         "Tooltip.Microphone.SourceRaw": "Raaka",
@@ -801,14 +803,14 @@
         "Importer.Image.Title": "Kuva",
         "Importer.Image.Prompt": "Mitä tuot?",
         "Importer.Image.Regular": "Kuva / Tekstuuri",
-        "Importer.Image.Screenshot": "{appName} kuva <size=50%>(otettu täällä)</size>",
-
+        "Importer.Image.Screenshot": "Kuvakaappaus <size=50%>(otettu täällä)</size>",
+        "Importer.Image.PixelArt": "Pikselitaide",
         "Importer.Image.360": "360° kuva / Skybox",
         "Importer.Image.StereoPhoto": "Stereokuva",
         "Importer.Image.Stereo360": "360° stereokuva",
         "Importer.Image.180": "180° kuva",
         "Importer.Image.Stereo180": "180° stereokuva",
-        "Importer.Image.LUT": "LUT",
+
 
         "Importer.ImageVideo.LayoutPrompt": "Mitä asettelua se käyttää?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Rinnakkain Vasen/Oikea",
@@ -882,9 +884,9 @@
         "Importer.Model.Advanced.PositionAtOrigin": "Tuo maailman keskipisteeseen",
         "Importer.Model.Advanced.AssetsOnObject": "Aseta resurssit objektiin",
 
-        "Importer.Video.Title": "Video",
+        "Importer.Video.Title": "Tuo Video",
         "Importer.Video.Prompt": "Mitä tuot?",
-        "Importer.Video.Regular": "Video",
+
         "Importer.Video.360": "360° video",
         "Importer.Video.Stereo": "Stereo video",
         "Importer.Video.Stereo360": "Stereo 360° video",
@@ -893,6 +895,10 @@
         "Importer.Video.Stereo180": "Stereo 180° video",
         "Importer.Video.Depth.Prompt": "Esiasetettu syvyys",
         "Importer.Video.Depth.Default": "Oletus",
+
+
+
+
 
         "Exporter.Title": "Vie",
         "Exporter.FileName": "Tiedoston nimi:",
@@ -907,7 +913,7 @@
         "NewWorld.SessionSettings": "Session asetukset:",
         "NewWorld.UnsafeMode": "Epäturvallinen tila:",
         "NewWorld.Port": "Portti:",
-        "NewWorld.AutoPort": "Auto:",
+        "NewWorld.AutoPort": "Automaattinen:",
         "NewWorld.DefaultName": "{name} Maailma",
 
         "FullBody.Title": "Full-Body / Avatar kalibrointi",
@@ -1043,11 +1049,11 @@
         "CameraControl.OBS.ReturnToConnect": "Palaa yhdistyssivulle",
         "CameraControl.OBS.AutoMirror": "Peilaa automaattisesti kun nauhoitan/suoratoistan",
         "CameraControl.OBS.Bitrate": "Bittinopeus: {n}/s",
-        "CameraControl.OBS.FPS": "FPS: {n}",
+
         "CameraControl.OBS.DroppedFrames": "Tiputettuja ruutuja: {n}",
 
-        "CameraControl.OBS.Live": "LIVE",
-        "CameraControl.OBS.Recording": "REC",
+
+
         "CameraControl.OBS.OpenInstallerReason": "Täältä voit ladata OBS websocket lisäosan",
 
         "CameraControl.OBS.Streaming.Start": "Aloita suoratoisto",
@@ -1105,15 +1111,15 @@
         "Settings.Laser.ShowInDesktop": "Näytä laaseri työpöytätilassa",
         "Settings.LaserSmoothing.Reset": "Nollaa laaserin asetukset",
 
-        "Settings.Audio.Header": "Audio",
-        "Settings.Audio.Input.Title" : "Äänen syöttölaitteet",
+
+        "Settings.Audio.Input.Title": "Äänen syöttölaitteet",
         "Settings.Audio.Master": "Pää-äänenvoimakkuus: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Ääniefektit: {n,number,percent}",
-        "Settings.Audio.Multimedia": "Multimedia: {n,number,percent}",
+
         "Settings.Audio.Voice": "Puhe: {n,number,percent}",
         "Settings.Audio.UI": "Käyttöliittymä: {n,number,percent}",
         "Settings.Audio.DisableVoiceNormalization": "Poista äänen normalisointi käytöstä",
-        "Settings.Audio.NoiseGateThreshold": "Äänenvoimakkuuden kynnys: {n}",
+        "Settings.Audio.NoiseGateThreshold": "Kohinan kynnys: {n}",
         "Settings.Audio.NormzliationThreshold": "Normalisoinnin kynnys: {n}",
         "Settings.Audio.NoiseSupression": "Kohinanvaimennussuodatin (RNNoise)",
         "Settings.Audio.WhisperVoiceVolume": "Kuiskauksen äänenvoimakkuus (kuplan ulkopuolella): {n,number,percent}",
@@ -1130,7 +1136,7 @@
 
         "Settings.Graphics.DesktopFOV": "Työpöytätilan FOV",
 
-        "Settings.Locale.Title" : "Käyttöliittymän kieli",
+        "Settings.Locale.Title": "Käyttöliittymän kieli",
         "Settings.Locale.ChangeLanguage": "Vaihda kieli - Change language",
         "Settings.Locale.SelectLanguageHeader": "Valitse kielesi:",
         "Settings.Locale.DefaultLanguage": "Järjestelmän oletus",
@@ -1166,7 +1172,7 @@
         "Settings.System.KeepOriginalScreenshotFormat": "Säilytä alkuperäinen kuvaformaatti",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "Kun tämä asetus on käytössä, kuvaa ei muunneta .jpg:ksi, kun ne tallennetaan Asiakirjat-kansioon",
 
-        "Security.Hyperlink.Title" : "Ulkoinen Linkki",
+        "Security.Hyperlink.Title": "Ulkoinen Linkki",
         "Security.Hyperlink.Warning": "<b><size=125%>Varoitus: Lähtevä hyperlinkki</size></b>\nOlet napsauttanut linkkiä maailmassa. Haluatko avata sen? Linkki avautuu työpöydän verkkoselaimessa.",
         "Security.Hyperlink.Open": "Avaa",
         "Security.Hyperlink.Cancel": "Peruuta",
@@ -1179,12 +1185,12 @@
         "Security.HostAccess.Allow": "Salli",
         "Security.HostAccess.Deny": "Estä",
 
-        "ComponentSelector.Back" : "< (takaisin)",
-        "ComponentSelector.Title" : "Komponentit",
-        "ComponentSelector.CreateCustomType" : "Luo mukautettu tyyppi",
-        "ComponentSelector.CommonGenericTypes" : "Yleiset Tyypit",
-        "ComponentSelector.CustomGenericArguments" : "Mukautetut Yleiset Argumentit:",
-        "ComponentSelector.InvalidType" : "Virheellinen tyyppi",
+        "ComponentSelector.Back": "< (takaisin)",
+        "ComponentSelector.Title": "Komponentit",
+        "ComponentSelector.CreateCustomType": "Luo mukautettu tyyppi",
+        "ComponentSelector.CommonGenericTypes": "Yleiset Tyypit",
+        "ComponentSelector.CustomGenericArguments": "Mukautetut Yleiset Argumentit:",
+        "ComponentSelector.InvalidType": "Virheellinen tyyppi",
 
 
         "Inspector.Slot.AttachComponent": "Lisää komponentti",
@@ -1263,17 +1269,17 @@
         "Inspector.VHACD.Parameter.Concavity": "Koveruus",
 
 
-        "Inspector.VHACD.Parameter.Alpha": "Alpha",
-        "Inspector.VHACD.Parameter.Beta": "Beta",
-        "Inspector.VHACD.Parameter.Gamma": "Gamma",
-        "Inspector.VHACD.Parameter.Delta": "Delta",
-        "Inspector.VHACD.Parameter.PCA": "PCA",
+        "Inspector.VHACD.Parameter.Alpha": "Alfa",
+        "Inspector.VHACD.Parameter.Beta": "Beeta",
+
+
+
         "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Rungon maksimipisteet",
         "Inspector.VHACD.Parameter.MinVolumePerHull": "Rungon vähimmäistilavuus",
         "Inspector.VHACD.Parameter.ConvexHullApproximation": "Convex Hull arviointi",
 
         "Inspector.VHACD.DecompositionMode.Header": "Dekomponointimoodi:",
-        "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
+        "Inspector.VHACD.DecompositionMode.Voxel": "Voxeli",
         "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetraedri",
 
         "Inspector.VHACD.RunDecomposition": "Suorita dekomponointi",
@@ -1285,7 +1291,7 @@
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Eroittele tahkoverkot johon Blendshapet eivät vaikuta",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Poista tyhjät Blendshapet",
-        "Inspector.SkinnedMesh.StripBlendshapesResult": "Valmis! Poistettu: {n,plural, one {# Blendshape} other {# Blendshapea}}",
+        "Inspector.SkinnedMesh.StripBlendshapesResult": "Valmis! Poistettu: {n,plural, one {# blendshape} other {# blendshapea}}",
         "Inspector.SkinnedMesh.StripEmptyBones": "Poista tyhjät luut",
         "Inspector.SkinnedMesh.StripBonesResult": "Valmis! Poistettu: {n,plural, one {# luu} other {# luuta}}",
         "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes": "Beikkaa käyttämättömät Blendshapet",
@@ -1439,14 +1445,14 @@
 
 
 
-        "Inspector.Actions.CopyComponent" : "Kopioi komponentti",
-        "Inspector.Actions.MoveComponent" : "Siirrä komponentti",
+        "Inspector.Actions.CopyComponent": "Kopioi komponentti",
+        "Inspector.Actions.MoveComponent": "Siirrä komponentti",
 
-        "UserInspector.Title" : "Käyttäjätarkastaja",
+        "UserInspector.Title": "Käyttäjätarkastaja",
 
 
 
-        "CreateNew.Title" : "Uusi",
+        "CreateNew.Title": "Uusi",
 
         "Wizard.General.ProcessRoot": "Prosessointipolku:",
         "Wizard.General.Result": "Tulos:",
@@ -1570,7 +1576,7 @@
         "Tutorial.Intro.BadgesDisabilityVision": "Sokeutta & muuta näkövammaa",
         "Tutorial.Intro.BadgesDisabilitySpeech": "Ei puhe kykeneväinen & puhevamma",
         "Tutorial.Intro.BadgesTitle": "Merkit",
-        "Tutorial.Intro.BadgesDescription": "Merkit ovat pieniä ikoneita jotka kuvaavat käyttäjää. Tässä lista muutamasta merkistä, jotka kannattaa muistaa. Kuulo-, näkö- ja puhevammaisuuden merkit pystyy itse lisäämään {appName} -botti komentojen avulla.",
+        "Tutorial.Intro.BadgesDescription": "Merkit ovat pieniä ikoneita jotka kuvaavat käyttäjää. Tässä lista muutamasta merkistä, jotka kannattaa muistaa. Kuulo-, näkö- ja puhevammaisuuden merkit pystyy itse lisäämään {appName} -botti komentojen avulla. Komennot löytyvät {appName} Wikistä",
         "Tutorial.Intro.HelpSite": "Apua",
 
         "Object.Mirror.Toggle": "Lokaali kytkin",
@@ -1648,7 +1654,6 @@
 
 
 
-
         "Migration.List.EmptyTitle": "Uusi siirto?",
         "Migration.List.EmptySubtitle": "Klikkaa \"Uusi siirtymistyö\" ylhäältä vasemmalta.",
 
@@ -1704,6 +1709,255 @@
 
 
         "Tutorial.Saving.Title": "Tervetuloa kotiin!",
+
+
+
+        "CloudHome.Info.Moderation": "Moderaatio",
+        "CloudHome.Info.Inventory": "Inventaario",
+        "CloudHome.Info.Tools": "Työkalut",
+        "CloudHome.Info.MoreInfo": "Lisää tietoa",
+        "CloudHome.Info.SessionUptime": "Session käyntiaika:",
+        "CloudHome.Info.AccessLevel": "Pääsyoikeustaso:",
+        "CloudHome.Info.StorageUsed": "Tallennustilaa käytetty:",
+
+        "CloudHome.Info.DashInfoTab.Title": "Tervetuloa!",
+
+
+
+
+        "CloudHome.Info.GoToWiki": "Avaa Wiki!",
+        "CloudHome.Info.GoToDiscord": "Avaa Discord!",
+
+
+
+
+        "CloudHome.Info.InventoryTab.Title": "Tallenna esineitä!",
+
+
+        "CloudHome.Info.ToolsTab.Title": "Pelin sisäinen editointi!",
+
+
+        "CloudHome.Info.HelpTab.Title": "Tarvitsen apua",
+
+
+
+        "CloudHome.Info.UsersTab.Title": "Etsi käyttäjiä",
+
+
+        "Mirror.Header.RenderingOptions": "Renderöintiasetukset",
+        "Mirror.Header.Type": "Peilin tyyppi",
+        "Mirror.Header.Resolution": "Peilin resoluutio",
+        "Mirror.Header.AspectRatio": "Kuvasuhde",
+
+        "Mirror.EnableLights": "Valot päälle",
+        "Mirror.DisableLights": "Valot pois päältä",
+
+        "Mirror.EnableShadows": "Varjot päälle",
+        "Mirror.DisableShadows": "Varjot pois päältä",
+
+        "Mirror.Camera": "Kamera",
+
+        "Mirror.AspectRatio.Tall": "Korkea",
+        "Mirror.AspectRatio.Square": "Neliö",
+        "Mirror.AspectRatio.Wide": "Leveä",
+
+        "Mirror.Menu": "Asetukset",
+        "Mirror.CloseMenu": "Sulje",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        "CloudHome.Panel.HomeControl": "Kodin asetukset",
+
+        "CloudHome.Panel.General": "Yleiset",
+        "CloudHome.Panel.Lighting": "Valaistus",
+        "CloudHome.Panel.Furniture": "Huonekalut",
+
+        "CloudHome.Panel.Quality": "Laatu",
+        "CloudHome.Panel.Doors": "Ovet",
+        "CloudHome.Panel.Audio": "Äänet",
+        "CloudHome.Panel.OverheadLighting": "Kattovalaistus",
+        "CloudHome.Panel.Sconces": "Lamput",
+        "CloudHome.Panel.FurnitureVisibility": "Huonekalujen näkyvyys",
+
+
+        "CloudHome.Panel.DoorSounds": "Ovien äänet",
+        "CloudHome.Panel.DoorsAlwaysOpen": "Ovet aina auki",
+        "CloudHome.Panel.InteriorAmbience": "Sisätilojen tunnelmaäänet",
+        "CloudHome.Panel.InteriorAmbienceVolume": "Sisätilojen<br>tunnelmaäänien<br>äänenvoimakkuus",
+        "CloudHome.Panel.LightsOn": "Valot päällä",
+        "CloudHome.Panel.LightIntensity": "Valojen kirkkaus",
+        "CloudHome.Panel.LightColor": "Valojen väri",
+        "CloudHome.Panel.LightColorTemperature": "Valojen värilämpötila",
+
+        "CloudHome.Panel.Spawn": "Spawni",
+        "CloudHome.Panel.Foyer": "Aula",
+        "CloudHome.Panel.Workspace": "Työskentelyalue",
+        "CloudHome.Panel.ReadingLounge": "Lukuhuone",
+
+        "CloudHome.Panel.Center": "Keskiosa",
+        "CloudHome.Panel.Balcony": "Parveke",
+        "CloudHome.Panel.Theater": "Teatteri",
+
+        "CloudHome.Panel.TheaterControl": "Teatterin asetukset",
+        "CloudHome.Panel.FanControl": "Tuulettimen asetukset",
+        "CloudHome.Panel.WindowControl": "Ikkunoiden asetukset",
+        "CloudHome.Panel.FanSpeed": "Tuulettimen nopeus",
+        "CloudHome.Panel.WindowTint": "Ikkunoiden tummennus",
+
+        "CloudHome.FeaturedPanel.OpenWorld": "Avaa maailma",
+
+        "CloudHome.FeaturedPanel.Featured": "Esittelyssä",
+
+
+
+        "CloudHome.SupporterPanel.Title": "<b>Tukijamme</b>",
+
+        "Tutorial.InfoPanel.Title": "Hei! Ennen kuin lähdet...",
+
+
+        "Tutorial.GrabItems.Grab": "Tartu",
+        "Tutorial.GrabItems.Snap": "Napsauta",
+        "Tutorial.GrabItems.Slide": "Liuku",
+
+        "Tutorial.Panel.Jumping.Title": "Hyppiminen",
+
+
+
+
+        "Tutorial.Panel.WalkLocomotion.Title": "Käveleminen",
+
+
+        "Tutorial.Panel.TeleportLocomotion.Title": "Kaukosiirto",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        "UI.TextDisplay.Landscape": "Vaaka",
+        "UI.TextDisplay.Portrait": "Pysty",
+        "UI.TextDisplay.NormalText": "Normaali",
+
+
+        "UI.VideoPlayer.GlobalSettings": "Globaalit<br>Asetukset",
+        "UI.VideoPlayer.LocalSettings": "Lokaalit<br>Asetukset",
+        "UI.VideoPlayer.SpatialAudio": "Spatialisoitu<br>Audio",
+
+
+        "UI.VideoPlayer.EnterURL": "<i><alpha=#77>Kirjoita URL tähän</closeall>",
+
+
+
+
+
+        "UI.ColorPicker.ColorPicker": "Värinvalitsija",
+
+        "UI.ColorPicker.Linear": "Lineaari",
+
+        "UI.ColorPicker.Hexadecimal": "Heksa",
+        "UI.ColorPicker.ColorSwatches": "Paletti",
+
+        "UI.ColorPicker.Red": "Punainen",
+        "UI.ColorPicker.Green": "Vihreä",
+        "UI.ColorPicker.Blue": "Sininen",
+
+        "UI.ColorPicker.Hue": "Sävy",
+        "UI.ColorPicker.Saturation": "Värikylläisyys",
+        "UI.ColorPicker.Value": "Arvo",
+
+        "UI.ColorPicker.Alpha": "Alfa",
+        "UI.ColorPicker.Gain": "Vahvistus",
+
+        "UI.ProgressBar.ImportingItem": "Tuodaan esinettä",
+
+        "Tools.Names.MultiTool": "Monityökalu",
+
+        "Tools.Names.CommonTools": "Yleistyökalut",
+        "Tools.Names.ManipulationTools": "Manipulaatiotyökalut",
+        "Tools.Names.InformationTools": "Informaatiotyökalut",
+
+        "Tools.Names.GeometryLineBrush": "Geometriaviivojen piirtotyökalu",
+        "Tools.Names.Developer": "Kehittäjätyökalu",
+        "Tools.Names.ComponentClone": "Komponentin kloonaustyökalu",
+        "Tools.Names.ProtoFlux": "ProtoFlux -työkalu",
+        "Tools.Names.Material": "Materiaalityökalu",
+        "Tools.Names.Glue": "Liimaustyökalu",
+        "Tools.Names.Light": "Valotyökalu",
+        "Tools.Names.Shape": "Muotoilutyökalu",
+        "Tools.Names.Microphone": "Mikrofonityökalu",
+        "Tools.Names.GrabbableSetter": "Tarttuvuuden asennustyökalu",
+        "Tools.Names.PhysicalColliderSetter": "Fyysisten törmäyttimien asennustyökalu",
+        "Tools.Names.MeshVisibility": "Tahkoverkkojen näkyvyystyökalu",
+        "Tools.Names.CameraObjectVisibility": "Kameraesineiden näkyvyystyökalu",
+        "Tools.Names.Color": "Värityökalu",
+        "Tools.Names.Mesh": "Tahkoverkkotyökalu",
+        "Tools.Names.RiggedMeshTransfer": "Rigin siirtotyökalu",
+        "Tools.Names.Slicer": "Tahkoverkkojen viipalointityökalu",
+        "Tools.Names.ControllerDiagnostic": "Ohjainten diagnostiikkatyökalu",
+        "Tools.Names.Measure": "Mittaustyökalu",
+        "Tools.Names.Label": "Labelointityökalu",
 
         "Dummy": "Dummy"
     }
