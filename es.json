@@ -111,7 +111,9 @@
         "Inventory.OpenWorld": "Abrir Mundo",
         "Inventory.Equip": "Equipar",
         "Inventory.Delete": "Borrar",
+	    "Inventory.CreateDirectory": "Crear carpeta",
         "Inventory.SaveHeld": "Guardar Agarrado",
+        "Inventory.GetURL": "Obtener URL",
         "Inventory.Inventories": "Inventarios",
         "Inventory.Share": "Compartir",
         "Inventory.Unshare": "Descompartir",
@@ -447,7 +449,6 @@
         "Account.RecoverPassword": "¿Perdió su Contraseña?",
         "Account.LiveEmailWarning": "<color=#f00>ADVERTENCIA:</color> live.com, hotmail.com, outlook.com y otros servicios de Microsoft pueden tomar hasta 1-2 dias para aceptar el E-mail.",
         "Account.PasswordRules": "(al menos 8 caracteres, un dígito, una letra minúscula, una letra mayúscula)",
-        "Account.AgeConfirm": "Tengo 13 años de edad o más",
         "Account.LostPassword": "He Perdido mi Contraseña",
         "Account.SendRecoveryCode": "Enviar código de recuperación",
         "Account.ResetPasswordHeader": "Restablecer su contraseña",
@@ -894,6 +895,10 @@
         "Importer.Video.Stereo180": "Video Estéreo 180º",
         "Importer.Video.Depth.Prompt": "Preajuste de Profundidad",
         "Importer.Video.Depth.Default": "Por Defecto",
+
+        "Importer.Slices.Title": "Secuencia de imágenes como textura volumétrica",
+        "Importer.Slices.TitleGrayscale": "Secuencia de imágenes como textura volumétrica (escala de grises)",
+        "Importer.Slices.Description": "Procesa todas las imágenes en la carpeta como una textura volumétrica",
         
         "Exporter.Title": "Exportar",
         "Exporter.FileName": "Nombre de archivo:",
@@ -1906,6 +1911,7 @@
         "UI.VideoPlayer.AudioZoneTheater": "Local al<br>Teatro",
         "UI.VideoPlayer.AudioZoneGlobal": "Audible<br>al Mundo",
         "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {usuario} other {usuarios}}<br>han cargado",
+        "UI.VideoPlayer.AllUsersLoaded": "Todos los usuarios<br>han cargado",
 
         "UI.ColorPicker.ColorPicker": "Selector de Color",
 
