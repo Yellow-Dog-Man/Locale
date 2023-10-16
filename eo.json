@@ -398,6 +398,9 @@
         "Login.AccountBanned": "Via konto estas barata.",
         "Login.DuplicateAccount": "Duobla konto",
 
+        "Login.UnknownError": "Nekonata Eraro",
+        "Login.UnknownError.Description": "Nekonata eraro okazis dum ensaluto. login. Bonvolu kontakti la subtenejon per support.resonite.com",
+
         "Register.MissingRequest": "La detaloj de la registriĝo mankas",
         "Register.InvalidEmail": "Nevalida retpoŝta adreso",
         "Register.MissingUsername": "La uzantnomo mankas",
@@ -414,6 +417,18 @@
         "Register.UsernameAlreadyRegistered": "La uzantnomo estas ja registrigita",
         "Register.ErrorCheckingUserId": "Eraro dum kontrolo de la Uzantnumero",
 
+        "Register.UnknownError": "Nekonata Eraro",
+        "Register.UnknownError.Description": "Nekonata eraro okazis dum registratdo. Bonvolu kontakti la subtenejon per support.resonite.com",
+
+        "Recovery.MissingEmail" : "Retpoŝta Adreson mankas",
+        "Recovery.MissingEmail.Description" : "Ĉu vi difinis vian retpoŝtan adreson?",
+
+        "Recovery.IncorrectEmail" : "Malĝusta Retpoŝta Adreso",
+        "Recovery.IncorrectEmail.Description" : "Vi eniris malĝustan retpoŝtan adreson por la pasvorta restarigo. Bonvolu kontroli la detalojn kaj reprovi.",
+
+        "Recovery.NoPasswordSetup" : "Neniu Pasvorto Agordita", 
+        "Recovery.NoPasswordSetup.Description" : "Bonvolu kontakti la subtenejon per support.resonite.com.",
+        
         "Account.Login": "Ensaluti",
         "Account.Logout": "Elsaluti",
         "Account.Register": "Registriĝi",
@@ -574,6 +589,10 @@
         "Undo.ExtractMaterialsFromHierarchy": "Elpreni materialojn el hierarkio",
         "Undo.BatchConvertMaterials": "Konverti materialojn staple",
 
+        "Tooltips.Brush.ChangeColor" : "Ŝanĝi Koloron",
+        "Tooltips.Brush.IncrementSize" : "Pligrandi Grandon",
+        "Tooltips.Brush.DecrementSize" : "Malpligrandigi Grandon",
+
         "Tooltips.Dev.CreateNew": "Krei novan...",
         "Tooltips.Dev.Selection": "Elekto: {mode}",
         "Tooltips.Dev.DevMode.Off": "Programisto: Malŝaltita",
@@ -583,10 +602,26 @@
         "Tooltips.Dev.DestroySelected": "Detrui elektitajn",
         "Tooltips.Dev.ConfirmDestroySelected": "VERE Detrui Elektitajn",
 
+        "Tooltips.Dev.GizmoOptions" : "Opcioj de la Gizmo",
+        "Tooltips.Dev.SelectParent" : "Eletkti Gepatron",
+        "Tooltips.Dev.LocalSpace" : "Loka Spaco",
+        "Tooltips.Dev.GlobalSpace" : "Ĉieja Spaco",
+        "Tooltips.Dev.Translation" : "Movado",
+        "Tooltips.Dev.Rotation" : "Rotacio",
+        "Tooltips.Dev.Scale" : "Skalo",
+        
+        "Tooltips.Dev.Selection.Single": "Unuopa",
+        "Tooltips.Dev.Selection.Multi": "Multaj",
+
+        "Tooltips.Dev.Interaction.Tip": "Pinto",
+        "Tooltips.Dev.Interaction.Projection": "Projekcio",
+
         "Tooltip.Color.Picker": "Kolora elektilo",
 
         "Tooltip.GrabbableSetter.Scalable": "Agordi Skaleblan",
         "Tooltip.GrabbableSetter.NonScalable": "Agordi Neskaleblan",
+        "Tooltip.GrabbableSetter.ApplyToRoot": "Agordi 'Apliki al Radiko'",
+        "Tooltip.GrabbableSetter.AppyToHit": "Agordi 'Apliki por Trafo'",
 
         "Tooltip.CharacterCollider.MarkGrippable": "Marki Teniebla",
         "Tooltip.CharacterCollider.DontMarkGrippable": "Ne Marki Teniebla",
@@ -597,6 +632,10 @@
         "Tooltip.Light.Point": "Punkto",
         "Tooltip.Light.Spot": "Spoto",
         "Tooltip.Light.Sun": "Suno",
+
+        "Tooltip.Light.Shadows.None": "Neniuj Ombroj",
+        "Tooltip.Light.Shadows.Hard": "Malmolaj Ombroj",
+        "Tooltip.Light.Shadows.Soft": "Molaj Ombroj",
 
         "Tooltip.MeshVisibility.KeepShadow": "Konservi Ombron",
         "Tooltip.MeshVisibility.ShadowOff": "Malŝalti Ombron",
@@ -627,6 +666,45 @@
         "Tooltip.Microphone.SourceRaw": "Kruda dosiero",
         "Tooltip.Microphone.SourceFiltered": "Filtrita kaj Normigita",
 
+        "Tooltip.ProtoFlux.Drive" : "Direkti",
+        "Tooltip.ProtoFlux.Source" : "Fonto",
+        "Tooltip.ProtoFlux.Reference" : "Referenco",
+        "Tooltip.ProtoFlux.Write" : "Skribi",
+        "Tooltip.ProtoFlux.Proxy" : "Prokura",
+        "Tooltip.ProtoFlux.CreateLocal" : "Kreii Loke",
+        "Tooltip.ProtoFlux.CreateStore" : "Kreii Memoron",
+        "Tooltip.ProtoFlux.CreateDataModelStore" : "Kreii Memoron de Datum-Modelo",
+        "Tooltip.ProtoFlux.Overview" : "Baskuligi Superrigard-Reĝimon",
+        "Tooltip.ProtoFlux.NodeBrowser" : "Esplori nodoj",
+        "Tooltip.ProtoFlux.PackInPlace" : "Paki Enloke",
+        "Tooltip.ProtoFlux.PackInto" : "Paki ene de <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.Unpack" : "Malpaki el <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.ExplicitCast" : "Eksplika Elsendo\n<size=50%>(<color=red>Averto:</color> Ebleco por Perdo de Datumoj)</size>",
+
+        "ProtoFlux.UI.Call" : "Pasigo",
+        "ProtoFlux.UI.AsyncCall" : "<size=50%>Nesinkrona</size> Pasigo",
+        "ProtoFlux.UI.NodeBrowser.Title" : "ProtoFlux-Nodoj",
+        
+        "Tooltip.Meter.Mode.Ray" : "Reĝimo: Radia",
+        "Tooltip.Meter.Mode.Perpendicular" : "Reĝimo: Perpendikulara",
+        "Tooltip.Meter.Mode.Drag" : "Reĝimo: Trenanta",
+
+        "Tooltip.Meter.Points.Two" : "Du Punkoj",
+        "Tooltip.Meter.Points.Multiple" : "Multaj Punktoj",
+
+        "Tooltip.Meter.ObjectSpace" : "Mezuri en Spaco de Objektoj",
+        "Tooltip.Meter.WorldSpace" : "Mezuri en Spaco de Mondo",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "Reĝimo: Bake meshes",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "Reĝimo: Bake skinned meshes",
+        "Tooltip.Glue.Mode.ParentObjects" : "Reĝimo: Gepatrigi objektojn",
+
+        "Tooltip.RigTransfer.ClearSource" : "Klarigi fonton",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "Ununura Apero: Eblita",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "Ununura Apero: Maleblita",
+        "Tooltip.ComponentClone.ClearTemplate" : "Klarigi ŝablonon",
+
         "CreateNew.Back": "<<< <i> Reen </i>",
         "CreateNew.EmptyObject": "Malplena objekto",
         "CreateNew.ParticleSystem": "Partikla Sistemo",
@@ -653,12 +731,12 @@
         "CreateNew.Text.Basic": "Baza",
         "CreateNew.Text.Outline": "Skizo",
 
-        "CreateNew.Editor": "Redaktoro",
+        "CreateNew.Editor": "Redaktilo",
         "CreateNew.Editor.UserInspector": "Inspektilo de uzantoj",
         "CreateNew.Editor.LightSourcesWizard": "Asistanto de Lumaj Fontoj",
-
+        "CreateNew.Editor.TextRendererWizard": "Asistanto de Tekst-Bildigo de Mondo",
         "CreateNew.Editor.AssetOptimizationWizard": "Asistanto pri Aktivigo",
-        "CreateNew.Editor.CubemapCreator": "Cubemap-Kreinto",
+        "CreateNew.Editor.CubemapCreator": "Kubmap-Kreinto",
         "CreateNew.Editor.ReflectionProbes": "Asistanto de Reflekta Sondo",
 
         "CreateNew.3DModel": "3D-modelo",
