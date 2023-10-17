@@ -398,36 +398,88 @@
         "Indicator.LiveHiddenMessage": "(Информация скрыта во время прямой трансляции)",
 
         "Login.InvalidCredentials": "Неверные учетные данные",
+        "Login.InvalidCredentials.Description": "Перепроверьте ваши учетные данные и попробуйте еще раз или нажмите \"Забыли пароль?\"",
+
         "Login.InvalidLogin": "Неверные учетные данные",
+        "Login.InvalidLogin.Description": "Перепроверьте ваши учетные данные и попробуйте еще раз или нажмите \"Забыли пароль?\"",
 
         "Login.MalformedUID": "Некорректная информация об устройстве",
-        "Login.MissingUID": "Отсутствует информация об устройстве",
-        "Register.MissingUID": "Некорректная информация об устройстве",
-        "Register.MalformedUID": "Некорректная информация об устройстве",
+        "Login.MalformedUID.Description": "Попробуйте переустановить приложение или обратитесь в поддержку.",
 
-        "Login.MissingLogin": "Не указан логин",
+        "Login.MissingUID": "Отсутствует информация об устройстве",
+        "Login.MissingUID.Description": "Попробуйте переустановить приложение или обратитесь в поддержку.",
+
+        "Register.MissingUID": "Некорректная информация об устройстве",
+        "Register.MissingUID.Description": "Попробуйте переустановить приложение или обратитесь в поддержку.",
+
+        "Register.MalformedUID": "Некорректная информация об устройстве",
+        "Register.MalformedUID.Description": "Попробуйте переустановить приложение или обратитесь в поддержку.",
+
+        "Login.MissingLogin": "Не указаны учетные данные",
+        "Login.MissingLogin.Description": "Вы не забыли ввести учетные данные?",
+
         "Login.InvalidRecoveryCode": "Неверный код восстановления",
-        "Login.UnsupportedAuthentication": "Неподдерживаемый метод аутентификации",
+        "Login.InvalidRecoveryCode.Description": "Проверьте код восстановления и попробуйте еще раз.",
+
+        "Login.UnsupportedAuthentication": "Неподдерживаемый способ аутентификации",
+        "Login.UnsupportedAuthentication.Description": "Мы не поддерживаем этот способ аутентификации. Пожалуйста попробуйте другой.",
+
         "Login.EmailNotVerified": "Электронная почта не подтверждена",
+        "Login.EmailNotVerified.Description":"Ваша электронная почта не подтверждена, поищите письмо от нас в вашей почте, в том числе в папке спам.",
+
         "Login.AccountTempLocked": "Ваш аккаунт заблокирован.",
+        "Login.AccountTempLocked.Description":"Пожалуйста, свяжитесь с командой модерации: moderation.resonite.com",
+
         "Login.AccountBanned": "Ваш аккаунт забанен.",
+        "Login.AccountBanned.Description":"Пожалуйста, свяжитесь с командой модерации: moderation.resonite.com",
+
         "Login.DuplicateAccount": "Повторный аккаунт",
+        "Login.DuplicateAccount.Description": "Пожалуйста свяжитесь с командой поддержки: support.resonite.com",
 
         "Register.MissingRequest": "Отсутвуют данные для регистрации",
+        "Register.MissingRequest.Description":"Мы не получили никаких данных для регистрации. Пожалуйста, введите их для регистрации.",
+
         "Register.InvalidEmail": "Некорректная электронная почта",
+        "Register.InvalidEmail.Description": "Адрес вашей электронной почты некорректен.",
+
         "Register.MissingUsername": "Отсутвует имя пользователя",
+        "Register.MissingUsername.Description": "Вы точно указали имя пользователя?",
+
         "Register.MissingEmail": "Отсутвует электронная почта",
+        "Register.MissingEmail.Description": "Вы точно указали адрес электронной почты?",
+
         "Register.UsernameTooLong": "Имя пользователя слишком длинное",
-        "Register.UsernameContainsAmpersand": "В имение пользователя не должны присутвовать символы: @",
+        "Register.UsernameTooLong.Description": "Мы принимаем имена пользователей длиной до 32 символов.",
+
+        "Register.UsernameContainsAmpersand": "В имени пользователя не должен присутвовать символ @",
+        "Register.UsernameContainsAmpersand.Description": "В вашем имени пользователя не должен присутвовать символ @",
+
         "Register.UsernameStartsWithU": "Имя пользователя не должно начинаться с U-",
+        "Register.UsernameStartsWithU.Description": "Имя пользователя не должно начинаться с U-.",
+
         "Register.InvalidUsername": "Некорректное имя пользователя",
+        "Register.InvalidUsername.Description": "Ваше имя пользователя некорректно.",
+
         "Register.InvalidDateOfBirth": "Некорректная дата рождения",
+        "Register.InvalidDateOfBirth.Description": "Ваша дата рождения некорректна.",
+
         "Register.UserContainsBlockedTerms": "Имя пользователя содержит запрещенные слова",
+        "Register.UserContainsBlockedTerms.Description": "Ваше имя пользователя содержит запрещенные слова. Если вы считаете что это ошибка, обратитесь по адресу: support.resonite.com",
+
         "Register.MissingPassword": "Отсутствует пароль",
+        "Register.MissingPassword.Description": "Вы не указали пароль.",
+
         "Register.InvalidPassword": "Некорректный пароль",
+        "Register.InvalidPassword.Description": "Ваш пароль некорректен",
+
         "Register.EmailAlreadyRegistered": "Электронная почта уже используется",
+        "Register.EmailAlreadyRegistered.Description": "Уже существует аккаунт, использующий этот адрес электронной почты. Если вы забыли пароль, вы можете нажать \"Забыли пароль?\". Также вы можете обратиться в поддержку по адресу: support.resonite.com.",
+
         "Register.UsernameAlreadyRegistered": "Имя пользователя уже используется",
+        "Register.UsernameAlreadyRegistered.Description": "Уже существует аккаунт, использующий это имя пользователя. Если вы забыли пароль, вы можете нажать \"Забыли пароль?\". Также вы можете обратиться в поддержку по адресу: support.resonite.com.",
+
         "Register.ErrorCheckingUserId": "Ошибка проверки UserID",
+        "Register.ErrorCheckingUserId.Description": "Пожалуйста, свяжитесь с поддержкой по адресу: support.resonite.com.",
 
         "Account.Login": "Войти",
         "Account.Logout": "Выйти",
@@ -449,7 +501,7 @@
         "Account.RecoverPassword": "Забыли пароль?",
         "Account.LiveEmailWarning": "<color=#f00>ПРЕДУПРЕЖДЕНИЕ:</color> live.com, hotmail.com, outlook.com и другие почтовые службы Microsoft могут вызвать задержку письма с подтверждением до 1-2 дней.",
         "Account.PasswordRules": "(Как минимум 8 символов, в том числе хотя бы 1 цифра, 1 заглавная и 1 строчная буквы)",
-        "Account.LostPassword": "Забыт пароль",
+        "Account.LostPassword": "Забыли пароль",
         "Account.SendRecoveryCode": "Отправить код восстановления",
         "Account.ResetPasswordHeader": "Сбросить ваш пароль",
         "Account.ResetPasswordInstructions": "Код восстановления был отправлен на ваш email. Скопируйте его в поле ниже:",
@@ -1710,6 +1762,8 @@
 
         "Tutorial.Saving.Title": "Добро пожаловать домой!",
         "Tutorial.Saving.Content": "Добро пожаловать в ваш <b><i><color=hero.yellow>дом</b></i></color>! Вы окажетесь в этом месте при каждом входе.<br>Этот мир полностью ваш, поэтому вы можете сохранить любые сделанные вами изменения.<br>При сохранении мира всё останется на своих местах в ваш следующий визит!",
+
+        "Tutorial.Teleporter.Error": "Ошибка при загрузке вашего облачного дома!<br><size=66%>Выйдите из телепортера и войдите обратно чтобы попробовать еще раз.</size>",
 
         "CloudHome.Info.OnlineUsers": "Онлайн: {online_users} {online_users,plural, one {пользователь} few {пользователя} other {пользователей}}<br>Можно подключиться к: {joinable_users} {joinable_users,plural, one {пользователю} other {пользователям}}",
         "CloudHome.Info.Moderation": "Модерация",
