@@ -425,19 +425,22 @@
         "Login.UnsupportedAuthentication.Description": "Мы не поддерживаем этот способ аутентификации. Пожалуйста попробуйте другой.",
 
         "Login.EmailNotVerified": "Электронная почта не подтверждена",
-        "Login.EmailNotVerified.Description":"Ваша электронная почта не подтверждена, поищите письмо от нас в вашей почте, в том числе в папке спам.",
+        "Login.EmailNotVerified.Description": "Ваша электронная почта не подтверждена, поищите письмо от нас в вашей почте, в том числе в папке спам.",
 
         "Login.AccountTempLocked": "Ваш аккаунт заблокирован.",
-        "Login.AccountTempLocked.Description":"Пожалуйста, свяжитесь с командой модерации: moderation.resonite.com",
+        "Login.AccountTempLocked.Description": "Пожалуйста, свяжитесь с командой модерации: moderation.resonite.com.",
 
         "Login.AccountBanned": "Ваш аккаунт забанен.",
-        "Login.AccountBanned.Description":"Пожалуйста, свяжитесь с командой модерации: moderation.resonite.com",
+        "Login.AccountBanned.Description": "Пожалуйста, свяжитесь с командой модерации: moderation.resonite.com.",
 
         "Login.DuplicateAccount": "Повторный аккаунт",
-        "Login.DuplicateAccount.Description": "Пожалуйста свяжитесь с командой поддержки: support.resonite.com",
+        "Login.DuplicateAccount.Description": "Пожалуйста свяжитесь с командой поддержки: support.resonite.com.",
+
+        "Login.UnknownError": "Неизвестная ошибка",
+        "Login.UnknownError.Description": "Во время входа произошла неизвестная ошибка. Пожалуйста свяжитесь с командой поддержки: support.resonite.com.",
 
         "Register.MissingRequest": "Отсутвуют данные для регистрации",
-        "Register.MissingRequest.Description":"Мы не получили никаких данных для регистрации. Пожалуйста, введите их для регистрации.",
+        "Register.MissingRequest.Description": "Мы не получили никаких данных для регистрации. Пожалуйста, введите их для регистрации.",
 
         "Register.InvalidEmail": "Некорректная электронная почта",
         "Register.InvalidEmail.Description": "Адрес вашей электронной почты некорректен.",
@@ -452,7 +455,7 @@
         "Register.UsernameTooLong.Description": "Мы принимаем имена пользователей длиной до 32 символов.",
 
         "Register.UsernameContainsAmpersand": "В имени пользователя не должен присутвовать символ @",
-        "Register.UsernameContainsAmpersand.Description": "В вашем имени пользователя не должен присутвовать символ @",
+        "Register.UsernameContainsAmpersand.Description": "В вашем имени пользователя не должен присутвовать символ @.",
 
         "Register.UsernameStartsWithU": "Имя пользователя не должно начинаться с U-",
         "Register.UsernameStartsWithU.Description": "Имя пользователя не должно начинаться с U-.",
@@ -464,13 +467,13 @@
         "Register.InvalidDateOfBirth.Description": "Ваша дата рождения некорректна.",
 
         "Register.UserContainsBlockedTerms": "Имя пользователя содержит запрещенные слова",
-        "Register.UserContainsBlockedTerms.Description": "Ваше имя пользователя содержит запрещенные слова. Если вы считаете что это ошибка, обратитесь по адресу: support.resonite.com",
+        "Register.UserContainsBlockedTerms.Description": "Ваше имя пользователя содержит запрещенные слова. Если вы считаете что это ошибка, обратитесь по адресу: support.resonite.com.",
 
         "Register.MissingPassword": "Отсутствует пароль",
         "Register.MissingPassword.Description": "Вы не указали пароль.",
 
         "Register.InvalidPassword": "Некорректный пароль",
-        "Register.InvalidPassword.Description": "Ваш пароль некорректен",
+        "Register.InvalidPassword.Description": "Ваш пароль некорректен. Он должен содержать как минимум 8 символов, 1 цифру, 1 заглавную букву 1 строчную букву.",
 
         "Register.EmailAlreadyRegistered": "Электронная почта уже используется",
         "Register.EmailAlreadyRegistered.Description": "Уже существует аккаунт, использующий этот адрес электронной почты. Если вы забыли пароль, вы можете нажать \"Забыли пароль?\". Также вы можете обратиться в поддержку по адресу: support.resonite.com.",
@@ -480,6 +483,18 @@
 
         "Register.ErrorCheckingUserId": "Ошибка проверки UserID",
         "Register.ErrorCheckingUserId.Description": "Пожалуйста, свяжитесь с поддержкой по адресу: support.resonite.com.",
+
+        "Recovery.MissingEmail" : "Отсутвует Email",
+        "Recovery.MissingEmail.Description" : "Вы указали ваш email?",
+
+        "Recovery.IncorrectEmail" : "Некорректный Email",
+        "Recovery.IncorrectEmail.Description" : "Вы ввели некорректный email для восстановления пароля. Пожалуйста, проверьте информацию и попробуйте еще раз.",
+
+        "Recovery.NoPasswordSetup" : "Пароль не установлен",
+        "Recovery.NoPasswordSetup.Description" : "Пожалуйста свяжитесь с командой поддержки: support.resonite.com.",
+
+        "Register.UnknownError": "Неизвестная ошибка",
+        "Register.UnknownError.Description": "Во время регистрации произошла неизвестная ошибка. Пожалуйста свяжитесь с командой поддержки: support.resonite.com.",
 
         "Account.Login": "Войти",
         "Account.Logout": "Выйти",
@@ -692,6 +707,12 @@
         "Tooltips.Dev.Rotation" : "Вращение",
         "Tooltips.Dev.Scale" : "Масштаб",
 
+        "Tooltips.Dev.Selection.Single": "Одиночное",
+        "Tooltips.Dev.Selection.Multi": "Множественное",
+
+        "Tooltips.Dev.Interaction.Tip": "Инструмент",
+        "Tooltips.Dev.Interaction.Projection": "Проекция",
+
         "Tooltip.Color.Picker": "Пипетка",
 
         "Tooltip.GrabbableSetter.Scalable": "Сделать масштабируемым",
@@ -708,6 +729,10 @@
         "Tooltip.Light.Point": "Точечный",
         "Tooltip.Light.Spot": "Конусный",
         "Tooltip.Light.Sun": "Солнце",
+
+        "Tooltip.Light.Shadows.None": "Нет теней",
+        "Tooltip.Light.Shadows.Hard": "Четкие тени",
+        "Tooltip.Light.Shadows.Soft": "Мягкие тени",
 
         "Tooltip.MeshVisibility.KeepShadow": "Оставить тени",
         "Tooltip.MeshVisibility.ShadowOff": "Отключить тени",
@@ -754,6 +779,26 @@
         "Tooltip.ProtoFlux.PackInto" : "Упаковать в <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.Unpack" : "Распаковать <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.ExplicitCast" : "Явное приведение\n<size=50%>(<color=red>Внимание:</color> потенциальная потеря данных)</size>",
+
+        "Tooltip.Meter.Mode.Ray" : "Режим: Луч",
+        "Tooltip.Meter.Mode.Perpendicular" : "Режим: Перпендикуляр",
+        "Tooltip.Meter.Mode.Drag" : "Режим: Рулетка",
+
+        "Tooltip.Meter.Points.Two" : "Две точки",
+        "Tooltip.Meter.Points.Multiple" : "Много точек",
+
+        "Tooltip.Meter.ObjectSpace" : "Измерение в пространстве объекта",
+        "Tooltip.Meter.WorldSpace" : "Измерение в пространстве мира",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "Режим: Запечь меши",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "Режим: Запечь skinned meshes",
+        "Tooltip.Glue.Mode.ParentObjects" : "Режим: Соединить иерархию",
+
+        "Tooltip.RigTransfer.ClearSource" : "Очистить источник",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "Единственный экземпляр: Да",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "Единственный экземпляр: Нет",
+        "Tooltip.ComponentClone.ClearTemplate" : "Очистить шаблон",
 
         "ProtoFlux.UI.Call" : "Вызов",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> вызов",
