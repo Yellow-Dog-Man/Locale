@@ -36,7 +36,7 @@ If you do translate them and you haven't added a credit yet, put your name in th
 
 ### If you're contributing a new language
 1. [Create a new Issue](https://github.com/Yellow-Dog-Man/Locale) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
-1. Verify that our' ork of ICU MessageFormat.NET has pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/YellowDogMan/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
+1. Verify that our fork of ICU MessageFormat.NET has a pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/YellowDogMan/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
 
 If you can't find your language code in this file, please make a Issue either on in this repository.
 
