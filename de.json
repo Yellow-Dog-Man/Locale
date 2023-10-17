@@ -111,8 +111,9 @@
         "Inventory.OpenWorld": "Welt öffnen",
         "Inventory.Equip": "Ausrüsten",
         "Inventory.Delete": "Löschen",
-        "Inventory.SaveHeld": "Gehaltenes Objekt speichern",
         "Inventory.CreateDirectory": "Neuer Ordner",
+        "Inventory.SaveHeld": "Gehaltenes Objekt speichern",
+        "Inventory.GetURL": "URL holen",
         "Inventory.Inventories": "Inventare",
         "Inventory.Share": "Teilen",
         "Inventory.Unshare": "Privat machen",
@@ -397,36 +398,88 @@
         "Indicator.LiveHiddenMessage": "(Information während Livemodus versteckt)",
 
         "Login.InvalidCredentials": "Ungültige Anmeldedaten",
+        "Login.InvalidCredentials.Description": "Überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut, oder drücken Sie \"Passwort vergessen?\".",
+
         "Login.InvalidLogin": "Ungültige Anmeldedaten",
+        "Login.InvalidLogin.Description": "Überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut, oder drücken Sie \"Passwort vergessen?\".",
 
         "Login.MalformedUID": "Ungültige Gerät-Informationen",
+        "Login.MalformedUID.Description": "Versuchen Sie eine Neuinstallation, oder wenden Sie sich an den Support unter support.resonite.com.",
+
         "Login.MissingUID": "Fehlende Gerät-Informationen",
+        "Login.MissingUID.Description": "Versuchen Sie eine Neuinstallation, oder wenden Sie sich an den Support unter support.resonite.com.",
+
         "Register.MissingUID": "Ungültige Gerät-Informationen",
+        "Register.MissingUID.Description": "Versuchen Sie eine Neuinstallation, oder wenden Sie sich an den Support unter support.resonite.com.",
+
         "Register.MalformedUID": "Fehlende Gerät-Informationen",
+        "Register.MalformedUID.Description": "Versuchen Sie eine Neuinstallation, oder wenden Sie sich an den Support unter support.resonite.com.",
 
         "Login.MissingLogin": "Keine Anmeldedaten bereitgestellt",
+        "Login.MissingLogin.Description": "Haben Sie Ihre Anmeldedaten eingegeben?",
+
         "Login.InvalidRecoveryCode": "Ungültiger Wiederherstellungscode",
+        "Login.InvalidRecoveryCode.Description": "Überprüfen Sie Ihren Wiederherstellungscode und versuchen Sie es erneut.",
+
         "Login.UnsupportedAuthentication": "Nicht unterstützte Authentifizierungsmethode",
-        "Login.EmailNotVerified": "Email nicht verifiziert",
+        "Login.UnsupportedAuthentication.Description": "Wir unterstützen diese Authentifizierungsmethode nicht. Bitte versuchen Sie es mit einer anderen erneut.",
+
+        "Login.EmailNotVerified": "E-Mail Adresse nicht verifiziert",
+        "Login.EmailNotVerified.Description": "Ihre E-Mail Adresse ist nicht verifiziert, überprüfen Sie Ihren Posteingang, wir haben Ihnen eine E-Mail gesendet. Bitte sehen Sie auch im Spam-Ordner nach.",
+
         "Login.AccountTempLocked": "Ihr Account ist gesperrt.",
+        "Login.AccountTempLocked.Description": "Bitte wenden Sie sich an unsere Moderatoren unter moderation.resonite.com.",
+
         "Login.AccountBanned": "Ihr Account ist gebannt.",
+        "Login.AccountBanned.Description": "Bitte wenden Sie sich an unsere Moderatoren unter moderation.resonite.com.",
+
         "Login.DuplicateAccount": "Doppelter Account",
+        "Login.DuplicateAccount.Description": "Bitte wenden Sie sich an unseren Support unter support.resonite.com.",
 
         "Register.MissingRequest": "Fehlende Registrierungsangaben",
+        "Register.MissingRequest.Description": "Wir konnten keine Registrierungsangaben finden, bitte geben Sie diese beim Registrieren an.",
+
         "Register.InvalidEmail": "Ungültige E-Mail Adresse",
+        "Register.InvalidEmail.Description": "Ihre E-Mail Adresse ist ungültig.",
+
         "Register.MissingUsername": "Fehlender Benutzername",
+        "Register.MissingUsername.Description": "Haben Sie Ihren Benutzernamen eingegeben?",
+
         "Register.MissingEmail": "Fehlende E-Mail Adresse",
+        "Register.MissingEmail.Description": "Haben Sie Ihre E-Mail Adresse eingegeben?",
+
         "Register.UsernameTooLong": "Benutzername zu lang",
+        "Register.UsernameTooLong.Description": "Wir erlauben Benutzernamen bis zu einer Länge von 32 Zeichen.",
+
         "Register.UsernameContainsAmpersand": "Benutzername darf kein @ enthalten",
+        "Register.UsernameContainsAmpersand.Description": "Ihr Benutzername darf das Zeichen @ nicht enthalten.",
+
         "Register.UsernameStartsWithU": "Benutzername darf nicht mit U- beginnen",
+        "Register.UsernameStartsWithU.Description": "Ihr Benutzername darf nicht mit U- beginnen.",
+
         "Register.InvalidUsername": "Ungültiger Benutzername",
+        "Register.InvalidUsername.Description": "Ihr Benutzername ist ungültig.",
+
         "Register.InvalidDateOfBirth": "Ungültiges Geburtsdatum",
+        "Register.InvalidDateOfBirth.Description": "Ihr Geburtsdatum ist ungültig.",
+
         "Register.UserContainsBlockedTerms": "Benutzername enthält gesperrte Wörter",
+        "Register.UserContainsBlockedTerms.Description": "Ihr Benutzername enthält gesperrte Wörter. Wenn Sie meinen, dass dies ein Fehler ist, wenden Sie sich an support.resonite.com.",
+
         "Register.MissingPassword": "Fehlendes Passwort",
+        "Register.MissingPassword.Description": "Sie haben kein Passwort eingegeben.",
+
         "Register.InvalidPassword": "Ungültiges Passwort",
+        "Register.InvalidPassword.Description": "Ihr Passwort ist ungültig.",
+
         "Register.EmailAlreadyRegistered": "E-Mail Adresse bereits registriert",
+        "Register.EmailAlreadyRegistered.Description": "Es existiert schon ein Account mit dieser E-Mail Adresse. Wenn Sie Ihr Passwort vergessen haben, drücken Sie \"Passwort vergessen?\", oder wenden Sie sich an den Support unter support.resonite.com.",
+
         "Register.UsernameAlreadyRegistered": "Benutzername bereits registriert",
+        "Register.UsernameAlreadyRegistered.Description": "Es existiert schon ein Account unter diesem Benutzernamen. Wenn Sie Ihr Passwort vergessen haben, drücken Sie \"Passwort vergessen?\", oder wenden Sie sich an den Support unter support.resonite.com.",
+
         "Register.ErrorCheckingUserId": "Fehler beim Prüfen der Benutzer-ID",
+        "Register.ErrorCheckingUserId.Description": "Bitte wenden Sie sich an den Support unter support.resonite.com.",
 
         "Account.Login": "Anmelden",
         "Account.Logout": "Abmelden",
@@ -894,6 +947,10 @@
         "Importer.Video.Stereo180": "Stereo-180-Video",
         "Importer.Video.Depth.Prompt": "Tiefen-Voreinstellung",
         "Importer.Video.Depth.Default": "Standard",
+
+        "Importer.Slices.Title": "Schnittbilder als volumetrische Textur",
+        "Importer.Slices.TitleGrayscale": "Schnittbilder als volumetrische Textur (Graustufen)",
+        "Importer.Slices.Description": "Verarbeitet alle Bilddateien im Ordner zu einer volumetrischen Textur",
 
         "Exporter.Title": "Exportieren",
         "Exporter.FileName": "Dateiname:",
@@ -1649,7 +1706,6 @@
 
         "Migration.Summary": "Okay, wir haben alles, was wir für die Migration benötigen. Drücken Sie auf \"Migration beginnen\" und wir werden damit anfangen, Ihre Daten zu übernehmen.\n\nDie Migration könnte eine Weile dauern - wir müssen schließlich alles rüberkopieren. Wenn Sie ausgewählt haben, Ihre Favoriten zu migrieren, werden wir diese priorisieren, damit Sie es sich schnell bequem machen können.\n\nSie müssen {appName} nicht laufen lassen, während wir Ihre Daten migrieren, aber wir werden Ihnen Updates über den {appName} Bot zukommen lassen, um Sie auf dem Laufenden zu halten.",
 
-
         "Migration.List.EmptyTitle": "Möchten Sie eine neue Migration starten?",
         "Migration.List.EmptySubtitle": "Klicken Sie auf \"Neuen Migrations-Task\" oben links.",
 
@@ -1706,6 +1762,8 @@
 
         "Tutorial.Saving.Title": "Willkommen Zuhause!",
         "Tutorial.Saving.Content": "Willkommen in Ihrer <b><i><color=hero.yellow>Home</b></i></color>-Welt! Hier werden Sie jedes Mal starten, wenn Sie sich einloggen.<br><br>Diese Welt gehört Ihnen; Sie können also Änderungen, die Sie daran vornehmen, speichern.<br><br>Wenn Sie die Welt speichern, werden Sie sie beim nächsten Mal genau so vorfinden, wie Sie sie hinterlassen haben!",
+
+        "Tutorial.Teleporter.Error": "Ihr Cloud-Home konnte nicht geladen werden!<br><size=66%>Versuchen Sie es erneut, indem Sie den Teleporter verlassen und ihn erneut betreten.</size>",
 
         "CloudHome.Info.OnlineUsers": "Benutzer online: {online_users}<br>Benutzer beitretbar: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderation",
