@@ -1,6 +1,6 @@
 {
     "localeCode": "ja",
-    "authors": ["orange", "Melnus", "Aesc", "kazu", "Rabbuttz", "zozokasu", "rhenium"],
+    "authors": ["orange", "Melnus", "Aesc", "kazu", "Rabbuttz", "zozokasu", "rhenium", "chaba_take"],
     "messages": {
 
         "General.OK": "OK",
@@ -376,7 +376,7 @@
         "Options.Nameplates.DefaultStyle": "カスタムネームプレート:<br>非表示",
         "Options.Nameplates.CustomStyle": "カスタムネームプレート:<br>表示",
 
-        "Indicator.OnlineUsers": "オンラインユーザー数​:{num_registered}(~{num_total})",
+        "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> 人がオンライン​",
         "Indicator.OnlineUsersVR": "VR <color=hero.purple>{users}</color> 人",
         "Indicator.OnlineUsersDesktop": "デスクトップ <color=hero.cyan>{users}</color> 人",
 
@@ -387,7 +387,7 @@
         "Indicator.ServerStatus.NoInternet": "インターネットなし",
 
         "Indicator.Sync.AllSynced": "シンク完了",
-        "Indicator.Sync.SyncingItems": "{item_count,plural, other {# 個のアイテムを}}シンク中<nobr>({item_percent} %)",
+        "Indicator.Sync.SyncingItems": "シンク中<br><size=61.8033%>{item_count, plural, other {# アイテム}}</size>",
         "Indicator.Sync.UploadingVariants": "{variant_count,plural, other {# 個のアセットバリアントを}} アップロード中",
         "Indicator.Sync.SyncError": "シンクエラー! <size=50%>ログをチェックしてください</size>",
         "Indicator.Sync.StorageFull": "容量が足りません! <size=50%>シンクできません</size>",
@@ -1074,7 +1074,7 @@
         "Settings.HideAllTutorials": "全チュートリアルを非表示",
         "Settings.ShowInteractionHints": "インタラクションヒントを表示",
         "Settings.PrimaryController": "プライマリーコントローラー",
-        "Settings.Hotswitching": "VRモード切り替え",
+        "Settings.Hotswitching": "VR/デスクトップ 自動切り替え",
         "Settings.AllowStrafing": "平行移動を許可",
         "Settings.UseHeadDirectionForMovement": "頭の向きに移動",
         "Settings.SmoothTurn": "スムーズターン",
@@ -1132,14 +1132,14 @@
         "Settings.Audio.StartTest": "自分の声を聴く​<size=50%>(マイク、オーディオ入力の確認ができます)</size>",
         "Settings.Audio.StopTest": "テスト中…（再度クリックして終了）",
         "Settings.Audio.Monitoring": "音声入力の音量・波形",
-        "Settings.Audio.SystemDefaultOutput": "規定のサウンドデバイス",
+        "Settings.Audio.SystemDefaultOutput": "既定のサウンドデバイス",
 
         "Settings.Graphics.DesktopFOV": "デスクトップモードの視野角(FOV)",
 
         "Settings.Locale.Title" : "UIの言語",
         "Settings.Locale.ChangeLanguage": "言語設定",
         "Settings.Locale.SelectLanguageHeader": "言語を選択:",
-        "Settings.Locale.DefaultLanguage": "規定の言語",
+        "Settings.Locale.DefaultLanguage": "既定の言語",
 
         "Settings.Save": "設定を保存",
 

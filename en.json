@@ -425,19 +425,22 @@
         "Login.UnsupportedAuthentication.Description": "We don't support this authentication method. Please try another.",
 
         "Login.EmailNotVerified": "Email not verified",
-        "Login.EmailNotVerified.Description":"Your email is not verified, check your inbox for an email from us, ensure you check your spam folder.",
+        "Login.EmailNotVerified.Description": "Your email is not verified, check your inbox for an email from us, ensure you check your spam folder.",
 
         "Login.AccountTempLocked": "Your account is locked.",
-        "Login.AccountTempLocked.Description":"Please contact Moderation at: moderation.resonite.com",
+        "Login.AccountTempLocked.Description": "Please contact Moderation at: moderation.resonite.com.",
 
         "Login.AccountBanned": "Your account is banned.",
-        "Login.AccountBanned.Description":"Please contact Moderation at: moderation.resonite.com",
+        "Login.AccountBanned.Description": "Please contact Moderation at: moderation.resonite.com.",
 
         "Login.DuplicateAccount": "Duplicate account",
-        "Login.DuplicateAccount.Description": "Please contact support at support.resonite.com",
+        "Login.DuplicateAccount.Description": "Please contact support at support.resonite.com.",
+
+        "Login.UnknownError": "Unknown Error",
+        "Login.UnknownError.Description": "An unknown error, occured during login. Please contact support at support.resonite.com",
 
         "Register.MissingRequest": "Missing registration details",
-        "Register.MissingRequest.Description":"We couldn't find any registration details. Make sure to include them when registering.",
+        "Register.MissingRequest.Description": "We couldn't find any registration details. Make sure to include them when registering.",
 
         "Register.InvalidEmail": "Invalid Email address",
         "Register.InvalidEmail.Description": "Your email address is invalid.",
@@ -452,7 +455,7 @@
         "Register.UsernameTooLong.Description": "We allow usernames up to 32 characters long.",
 
         "Register.UsernameContainsAmpersand": "Username cannot contain @",
-        "Register.UsernameContainsAmpersand.Description": "Your username cannot contain @",
+        "Register.UsernameContainsAmpersand.Description": "Your username cannot contain @.",
 
         "Register.UsernameStartsWithU": "Username cannot start with U-",
         "Register.UsernameStartsWithU.Description": "Usernames cannot start with U-.",
@@ -464,13 +467,13 @@
         "Register.InvalidDateOfBirth.Description": "Your date of birth is invalid.",
 
         "Register.UserContainsBlockedTerms": "Username contains blocked words",
-        "Register.UserContainsBlockedTerms.Description": "Your username contains blocked words. If you believe this is an error contact support.resonite.com",
+        "Register.UserContainsBlockedTerms.Description": "Your username contains blocked words. If you believe this is an error contact support.resonite.com.",
 
         "Register.MissingPassword": "Missing Password",
         "Register.MissingPassword.Description": "You did not provide a password.",
 
         "Register.InvalidPassword": "Invalid Password",
-        "Register.InvalidPassword.Description": "Your password is invalid",
+        "Register.InvalidPassword.Description": "Your password is invalid. It must contain at least 8 characters, 1 digit, 1 uppercase letter and 1 lowercase letter.",
 
         "Register.EmailAlreadyRegistered": "Email already registered",
         "Register.EmailAlreadyRegistered.Description": "An account using this email already exists, if you've forgotten your password you can click \"Lost Password\". Or you can contact support at support.resonite.com.",
@@ -478,8 +481,20 @@
         "Register.UsernameAlreadyRegistered": "Username already registered",
         "Register.UsernameAlreadyRegistered.Description": "An account using this username already exists, if you've forgotten your password you can click \"Lost Password\". Or you can contact support at support.resonite.com.",
 
-        "Register.ErrorCheckingUserId": "Error checking UserID",
-        "Register.ErrorCheckingUserId.Description": "Please contact support at support.resonite.com.",
+        "Register.ErrorCheckingUserId" : "Error checking UserID",
+        "Register.ErrorCheckingUserId.Description" : "Please contact support at support.resonite.com.",
+
+        "Recovery.MissingEmail" : "Missing Email",
+        "Recovery.MissingEmail.Description" : "Did you specify your email?",
+
+        "Recovery.IncorrectEmail" : "Incorrect Email",
+        "Recovery.IncorrectEmail.Description" : "You've entered an incorrect email for password recovery. Please check your details and try again.",
+
+        "Recovery.NoPasswordSetup" : "No Password Setup", 
+        "Recovery.NoPasswordSetup.Description" : "Please contact support at support.resonite.com.",
+
+        "Register.UnknownError": "Unknown Error",
+        "Register.UnknownError.Description": "An unknown error, occured during registration. Please contact support at support.resonite.com",
 
         "Account.Login": "Login",
         "Account.Logout": "Logout",
@@ -692,6 +707,12 @@
         "Tooltips.Dev.Rotation" : "Rotation",
         "Tooltips.Dev.Scale" : "Scale",
 
+        "Tooltips.Dev.Selection.Single": "Single",
+        "Tooltips.Dev.Selection.Multi": "Multi",
+
+        "Tooltips.Dev.Interaction.Tip": "Tip",
+        "Tooltips.Dev.Interaction.Projection": "Projection",
+
         "Tooltip.Color.Picker": "Color Picker",
 
         "Tooltip.GrabbableSetter.Scalable": "Set Scalable",
@@ -708,6 +729,10 @@
         "Tooltip.Light.Point": "Point",
         "Tooltip.Light.Spot": "Spot",
         "Tooltip.Light.Sun": "Sun",
+
+        "Tooltip.Light.Shadows.None": "No Shadows",
+        "Tooltip.Light.Shadows.Hard": "Hard Shadows",
+        "Tooltip.Light.Shadows.Soft": "Soft Shadows",
 
         "Tooltip.MeshVisibility.KeepShadow": "Keep Shadow",
         "Tooltip.MeshVisibility.ShadowOff": "Disable Shadow",
@@ -754,6 +779,26 @@
         "Tooltip.ProtoFlux.PackInto" : "Pack Into <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.Unpack" : "Unpack <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.ExplicitCast" : "Explicit Cast\n<size=50%>(<color=red>Warning:</color> Potential Data Loss)</size>",
+
+        "Tooltip.Meter.Mode.Ray" : "Mode: Ray",
+        "Tooltip.Meter.Mode.Perpendicular" : "Mode: Perpendicular",
+        "Tooltip.Meter.Mode.Drag" : "Mode: Drag",
+
+        "Tooltip.Meter.Points.Two" : "Two Points",
+        "Tooltip.Meter.Points.Multiple" : "Multiple Points",
+
+        "Tooltip.Meter.ObjectSpace" : "Measure in Object Space",
+        "Tooltip.Meter.WorldSpace" : "Measure in World Space",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "Mode: Bake meshes",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "Mode: Bake skinned meshes",
+        "Tooltip.Glue.Mode.ParentObjects" : "Mode: Parent objects",
+
+        "Tooltip.RigTransfer.ClearSource" : "Clear source",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "Single Instance: On",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "Single Instance: Off",
+        "Tooltip.ComponentClone.ClearTemplate" : "Clear template",
 
         "ProtoFlux.UI.Call" : "Call",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> Call",
@@ -1985,6 +2030,9 @@
         "UI.ColorPicker.Gain": "Gain",
 
         "UI.ProgressBar.ImportingItem": "Importing Item",
+
+        "UI.Camera.Automatic": "Automatic",
+        "UI.Camera.Manual": "Manual",
 
         "Tools.Names.MultiTool": "Multi-Tool",
 
