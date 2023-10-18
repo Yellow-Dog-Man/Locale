@@ -164,10 +164,10 @@
         "World.Waiting": "Oczekiwanie...",
         "World.HostIsStarting": "Host zaczyna sesję...",
         "World.Loading": "Ładowanie...",
-        "World.Loaded": "Świat załadowany",
         "World.LoadingFailed": "Niepowodzenie",
         "World.LoadedAssets": "Załadowano {assets} z {total_assets}",
         "World.Downloading": "Pobieranie {bytes} z {total_bytes}",
+        "World.Loaded": "Świat Załadowany",
 
         "World.Connection.EstablishingConnection": "Nawiązywanie połączenia",
         "World.Connection.RequestingJoin": "Proszenie o dołączenie",
@@ -398,36 +398,88 @@
         "Indicator.LiveHiddenMessage": "(informacja ukryta podczas transmisji)",
 
         "Login.InvalidCredentials": "Nieprawidłowe dane logowania",
+        "Login.InvalidCredentials.Description": "Sprawdź dokładnie swoje dane uwierzytelniające i spróbuj ponownie lub naciśnij \"Zapomniałeś hasła?\"",
+
         "Login.InvalidLogin": "Nieprawidłowe dane logowania",
+        "Login.InvalidLogin.Description": "Sprawdź dokładnie swoje dane uwierzytelniające i spróbuj ponownie lub naciśnij \"Zapomniałeś hasła?\"",
 
         "Login.MalformedUID": "Nieprawidłowe informacje o urządzeniu",
+        "Login.MalformedUID.Description": "Spróbuj zainstalować ponownie lub skontaktuj się z pomocą techniczną.",
+
         "Login.MissingUID": "Brak informacji o urządzeniu",
+        "Login.MissingUID.Description": "Spróbuj zainstalować ponownie lub skontaktuj się z pomocą techniczną.",
+
         "Register.MissingUID": "Nieprawidłowe informacje urządzenia",
+        "Register.MissingUID.Description": "Spróbuj zainstalować ponownie lub skontaktuj się z pomocą techniczną.",
+
         "Register.MalformedUID": "Nieprawidłowe informacje urządzenia",
+        "Register.MalformedUID.Description": "Spróbuj zainstalować ponownie lub skontaktuj się z pomocą techniczną.",
 
         "Login.MissingLogin": "Brak danych logowania",
+        "Login.MissingLogin.Description": "Czy zapomniałeś podać dane uwierzytelniające?",
+
         "Login.InvalidRecoveryCode": "Nieprawidłowy kod odzyskiwania",
+        "Login.InvalidRecoveryCode.Description": "Sprawdź kod odzyskiwania i spróbuj ponownie.",
+
         "Login.UnsupportedAuthentication": "Nieobsługiwana metoda uwierzytelniania",
+        "Login.UnsupportedAuthentication.Description": "Nie obsługujemy tej metody uwierzytelniania. Spróbuj innego.",
+
         "Login.EmailNotVerified": "E-mail niezweryfikowany",
+        "Login.EmailNotVerified.Description": "Twój adres e-mail nie został zweryfikowany. Sprawdź swoją skrzynkę odbiorczą, czy nie otrzymałeś od nas wiadomości e-mail oraz sprawdź folder ze spamem.",
+
         "Login.AccountTempLocked": "Twoje konto jest zablokowane.",
+        "Login.AccountTempLocked.Description": "Skontaktuj się ze wsparciem pod adresem: moderation.resonite.com",
+
         "Login.AccountBanned": "Twoje konto zostało zbanowane.",
+        "Login.AccountBanned.Description": "Skontaktuj się ze wsparciem pod adresem: moderation.resonite.com",
+
         "Login.DuplicateAccount": "Zduplikowane konto",
+        "Login.DuplicateAccount.Description": "Skontaktuj się ze wsparciem pod support.resonite.com",
 
         "Register.MissingRequest": "Brak danych rejestracyjnych",
+        "Register.MissingRequest.Description": "Nie znaleźliśmy żadnych danych rejestracyjnych. Pamiętaj, aby podać je podczas rejestracji.",
+
         "Register.InvalidEmail": "Niepoprawny adres e-mail",
+        "Register.InvalidEmail.Description": "Twój adres email jest niepoprawny.",
+
         "Register.MissingUsername": "Brak nazwy użytkownika",
+        "Register.MissingUsername.Description": "Czy podałeś swoją nazwę użytkownika?",
+
         "Register.MissingEmail": "Brakujący e-mail",
+        "Register.MissingEmail.Description": "Czy podałeś swój adres e-mail?",
+
         "Register.UsernameTooLong": "Nazwa użytkownika jest za długa",
+        "Register.UsernameTooLong.Description": "Dopuszczamy nazwy użytkowników o długości do 32 znaków.",
+
         "Register.UsernameContainsAmpersand": "Nazwa użytkownika nie może zawierać @",
+        "Register.UsernameContainsAmpersand.Description": "Twoja nazwa użytkownika nie może zawierać @",
+
         "Register.UsernameStartsWithU": "Nazwa użytkownika nie może zaczynać się od U-",
+        "Register.UsernameStartsWithU.Description": "Nazwy użytkowników nie mogą zaczynać się od U-.",
+
         "Register.InvalidUsername": "Nieprawidłowa nazwa użytkownika",
+        "Register.InvalidUsername.Description": "Twoja nazwa użytkownika jest nieprawidłowa.",
+
         "Register.InvalidDateOfBirth": "Nieprawidłowa data urodzenia",
+        "Register.InvalidDateOfBirth.Description": "Twoja data urodzenia jest nieprawidłowa.",
+
         "Register.UserContainsBlockedTerms": "Nazwa użytkownika zawiera zablokowane słowa",
+        "Register.UserContainsBlockedTerms.Description": "Twoja nazwa użytkownika zawiera zablokowane słowa. Jeśli uważasz, że to pomyłka, skontaktuj się z nami support.resonite.com",
+
         "Register.MissingPassword": "Brak hasła",
+        "Register.MissingPassword.Description": "Nie podałeś hasła.",
+
         "Register.InvalidPassword": "Nieprawidłowe Hasło",
+        "Register.InvalidPassword.Description": "Twoje hasło jest nieprawidłowe",
+
         "Register.EmailAlreadyRegistered": "E-mail już zarejestrowany",
+        "Register.EmailAlreadyRegistered.Description": "Konto używające tego adresu e-mail już istnieje. Jeśli zapomniałeś hasła, możesz kliknąć \"Zapomniałeś hasła?\". Możesz też skontaktować się z pomocą techniczną pod adresem support.resonite.com.",
+
         "Register.UsernameAlreadyRegistered": "Nazwa użytkownika jest już zarejestrowana",
+        "Register.UsernameAlreadyRegistered.Description": "Konto korzystające z tej nazwy użytkownika już istnieje. Jeśli zapomniałeś hasła, możesz kliknąć \"Zapomniałeś hasła?\". Możesz też skontaktować się z pomocą techniczną pod adresem support.resonite.com.",
+
         "Register.ErrorCheckingUserId": "Błąd podczas sprawdzania identyfikatora użytkownika",
+        "Register.ErrorCheckingUserId.Description": "Skontaktuj się ze wsparciem pod support.resonite.com.",
 
         "Account.Login": "Zaloguj się",
         "Account.Logout": "Wyloguj się",
@@ -725,7 +777,7 @@
 
         "CreateNew.Object.FogVolume": "Mgła",
         "CreateNew.Object.FogVolume.Additive": "Przyłączeniowy",
-        "CreateNew.Object.FogVolume.Alpha": "Alfa",
+        "CreateNew.Object.FogVolume.Alpha": "Przezroczystość",
         "CreateNew.Object.FogVolume.Multiplicative": "Mnożny",
         "CreateNew.Object.FogVolume.Gradient": "Gradient",
 
@@ -852,7 +904,7 @@
         "Importer.Model.Advanced.VertexColors": "Importuj Kolory Wierzchołków",
         "Importer.Model.Advanced.Bones": "Importuj Kości",
         "Importer.Model.Advanced.Lights": "Importuj Światła",
-        "Importer.Model.Advanced.TextureAlpha": "Oblicz Alfa Tekstur",
+        "Importer.Model.Advanced.TextureAlpha": "Oblicz Przezroczystość Tekstur",
         "Importer.Model.Advanced.AlbedoColor": "Importuj Kolor Albedo",
         "Importer.Model.Advanced.ImportEmissive": "Importuj Emisję",
 
@@ -895,6 +947,10 @@
         "Importer.Video.Stereo180": "Film Stereo 180",
         "Importer.Video.Depth.Prompt": "Szablon Głębii",
         "Importer.Video.Depth.Default": "Domyślny",
+
+        "Importer.Slices.Title": "Plasterki obrazu jako tekstura wolumetryczna",
+        "Importer.Slices.TitleGrayscale": "Plasterki obrazu jako tekstura wolumetryczna (grayscale)",
+        "Importer.Slices.Description": "Przetwarza wszystkie pliki obrazów w folderze do postaci tekstury wolumetrycznej",
 
         "Exporter.Title": "Eksport",
         "Exporter.FileName": "Nazwa pliku:",
@@ -1184,8 +1240,8 @@
         "ComponentSelector.Back": "< (wstecz)",
         "ComponentSelector.Title": "Components",
         "ComponentSelector.CreateCustomType": "Utwórz typ niestandardowy",
-
-
+        "ComponentSelector.CommonGenericTypes": "Powszechne typy ogólne",
+        "ComponentSelector.CustomGenericArguments": "Niestandardowe argumenty ogólne:",
         "ComponentSelector.InvalidType": "Nieprawidłowy typ",
 
         "Inspector.Title": "Inspektor sceny",
@@ -1254,33 +1310,33 @@
         "Inspector.MeshRenderer.MergeByMaterial": "Połącz podmeshe z takimi samymi materiałami",
         "Inspector.MeshRenderer.SplitByMaterial": "Rozdziel mesh na części z takimi samymi materiałami",
 
-
-
+        "Inspector.MeshCollider.VHACD": "Convex Hull Decomposition (V-HACD 2.0)",
+        "Inspector.MeshCollider.ReplaceBox": "Zamień na Box Collider",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Aktualizuj moduły lokomocji dla obecnych użytkowników",
 
         "Inspector.VHACD.Parameter.MergeDoubles": "Łączenie podwójnych",
         "Inspector.VHACD.Parameter.Resolution": "Rozdzielczość",
         "Inspector.VHACD.Parameter.Depth": "Głębokość",
-
-
-
-        "Inspector.VHACD.Parameter.Alpha": "Alfa",
+        "Inspector.VHACD.Parameter.Concavity": "Concavity",
+        "Inspector.VHACD.Parameter.PlaneDownsampling": "Plane Downsampling",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling": "Convex Hull Downsampling",
+        "Inspector.VHACD.Parameter.Alpha": "Przezroczystość",
         "Inspector.VHACD.Parameter.Beta": "Beta",
         "Inspector.VHACD.Parameter.Gamma": "Gamma",
         "Inspector.VHACD.Parameter.Delta": "Delta",
         "Inspector.VHACD.Parameter.PCA": "PCA",
-
-
-
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Max Vertices Per Hull",
+        "Inspector.VHACD.Parameter.MinVolumePerHull": "Min Volume Per Hull",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation": "Convex Hull Approximation",
 
         "Inspector.VHACD.DecompositionMode.Header": "Tryb dekompozycji:",
         "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
         "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetrahedron",
 
-
+        "Inspector.VHACD.RunDecomposition": "Uruchom dekompozycję",
         "Inspector.VHACD.RemoveVisuals": "Usuń wizualizacje",
-
+        "Inspector.VHACD.RemoveHulls": "Remove Hulls",
 
         "Inspector.ReflectionProbe.Bake": "Wypal Odbicia",
         "Inspector.ReflectionProbe.Baking": "Wypalanie...",
@@ -1295,9 +1351,9 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "Wizualizuj obszary kości",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Wizualizuj przybliżone połączone obszary kości",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "Usuń wizualizacje obszarów kości",
-
-
-
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Oblicz wyraźne granice z bieżącej pozycji",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Rozszerz wyraźne granice z bieżącej pozycji",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "Bake do siatki statycznej",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Usuń wszystkie instancje",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Usuń pojedyncze instancje",
@@ -1318,18 +1374,18 @@
         "Inspector.Texture.Format": "Format: {format}, Pamięć: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "ID Wariantu: {variant}",
 
-        "Inspector.Texture.BakeTexture": "Bake Texture",
+        "Inspector.Texture.BakeTexture": "Wypal Texture",
 
         "Inspector.Texture.InvertRGB": "Odwróć Kolory",
         "Inspector.Texture.InvertR": "Odwróć Czerwony",
         "Inspector.Texture.InvertG": "Odwróć Zielony",
         "Inspector.Texture.InvertB": "Odwróć Niebieski",
         "Inspector.Texture.InvertA": "Odwróć Kanał Alfa",
-        "Inspector.Texture.ColorToAlphaWhite": "Kolor na Alfę (biały)",
-        "Inspector.Texture.ColorToAlphaBlack": "Kolor na Alfę (czarny)",
-        "Inspector.Texture.AlphaFromIntensity": "Alfa z Intensywności",
-        "Inspector.Texture.AlphaToMask": "Alfa do Maski",
-        "Inspector.Texture.RemoveAlpha": "Usuń Alfę",
+        "Inspector.Texture.ColorToAlphaWhite": "Kolor na Przezroczystość (biały)",
+        "Inspector.Texture.ColorToAlphaBlack": "Kolor na Przezroczystość (czarny)",
+        "Inspector.Texture.AlphaFromIntensity": "Przezroczystość z Intensywności",
+        "Inspector.Texture.AlphaToMask": "Przezroczystość do Maski",
+        "Inspector.Texture.RemoveAlpha": "Usuń Przezroczystość",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Konwertuj na Czarno-Biały (średnia)",
         "Inspector.Texture.ConvertToGrayscaleLuminance": "Convert to grayscale (luminance)",
         "Inspector.Texture.SwapRG": "Zamień Czerwony i Zielony",
@@ -1365,7 +1421,7 @@
         "Inspector.Texture.NormalizeMaxOnly": "Normalize (max only)",
         "Inspector.Texture.NormalizeMinMax": "Normalize (min and max)",
         "Inspector.Texture.NormalizeIndependent": "Normalize RGB independently (min and max)",
-        "Inspector.Texture.BleedColorToAlpha": "Bleed Color To Alpha",
+        "Inspector.Texture.BleedColorToAlpha": "Rozmyj kolor do przezroczystości",
 
         "Inspector.Texture.InvalidFloats": "Diagnostyka: Niewłaściwe Wartości",
         "Inspector.Texture.GenerateMetadata": "Diagnostyka: Generuj Metadane Bitmapy",
@@ -1418,28 +1474,28 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>OSTRZEŻENIE!</size></color><br>Możliwe jest użycie tego komponentu jako prostego ciała sztywnego poprzez zaznaczenie opcji SimulateRotation. Zanim to zrobisz, pamiętaj, że nie jest on zoptymalizowany do tego celu, a odpowiednie wsparcie dla sztywnych ciał pojawi się w przyszłości.<br>Prawidłowe wsparcie sztywnego ciała zapewni:<br><b>- Wydajność procesora i sieci</b> - CharacterController będzie powodował większe użycie procesora i zwiększony ruch sieciowy.<br><b>- Ograniczenia</b> - będziesz mógł tworzyć połączenia, zawiasy, sprężyny i inne ograniczenia między sztywnymi ciałami<br><b>- Płynna symulacja i interakcje dla każdego</b> - CharacterController ulegnie glitchowi, jeśli inna osoba spróbuje interakcji.<br><b>- Nowe funkcje i narzędzia</b> - aby korzystanie z nich było znacznie łatwiejsze<br>-----------------------<br>Jeśli tylko rozumiesz te ograniczenia, baw się dobrze!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>Możliwe jest użycie tego komponentu do interakcji z referencjami przy użyciu ich ID. Proces ten jest powszechnie nazywany \"Ref Hacking\".<br><br><b>Zanim</b> to zrobisz, pamiętaj, że ta funkcja <b>nie</b> jest obsługiwana i może zostać przerwana w dowolnym momencie. Nie należy polegać na tej funkcji przy tworzeniu swoich dzieł.",
 
+        "Inspector.ParticleStyle.CommonTransitions": "Common Transition Templates:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "Zanikanie przezroczystości & Fade Out",
+        "Inspector.ParticleStyle.AlphaFadeIn": "Zanikanie przezroczystości",
+        "Inspector.ParticleStyle.AlphaFadeOut": "Alpha Fade Out",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "Intensity Fade In & Fade Out",
+        "Inspector.ParticleStyle.IntensityFadeIn": "Intensity Fade In",
+        "Inspector.ParticleStyle.IntensityFadeOut": "Intensity Fade Out",
+        "Inspector.ParticleStyle.ClearFades": "Wyczyść zanikanie",
 
+        "Inspector.Collider.SetFromLocalBounds": "Ustaw od granic lokalnych",
+        "Inspector.Collider.SetFromGlobalBounds": "Ustaw z granic globalnych",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "Ustaw od granic lokalnych (dokładny)",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "Ustaw z granic globalnych (dokładny)",
+        "Inspector.Collider.SetFromPreciseBounds": "Ustaw z dokładnych granic",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "Ustaw z dokładnych cylindrycznych granic.",
+        "Inspector.Collider.Visualize": "Wizualizuj Collider.",
 
+        "Inspector.SimpleAwayIndicator.TestAway": "Set to away (debug)",
+        "Inspector.SimpleAwayIndicator.TestRestore": "Przywróć do normy (debug)",
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        "Inspector.Fields.Drive": "Steruj",
+        "Inspector.Fields.DriveWriteBack": "Steruj <size=50%>(write back)</size>",
 
         "Inspector.Actions.CopyComponent": "Kopiuj komponent",
         "Inspector.Actions.MoveComponent": "Przenieś komponent",
@@ -1524,8 +1580,8 @@
         "Desktop.Brightness": "Jasność: {n,number,percent}",
         "Desktop.Opacity": "Przezroczystość: {n,number,percent}",
 
-
-
+        "VolumePlaneSlicer.Highlight": "Zaznacz",
+        "VolumePlaneSlicer.Slicer": "Kawałek",
 
         "Tutorial.Welcome.Welcome": "Witamy!",
         "Tutorial.Welcome.Description": "Wejdź do zupełnie nowego cyfrowego wszechświata z nieskończonymi możliwościami. Niezależnie od tego, czy przychodzisz tutaj, aby nawiązać kontakty i spędzać czas z ludźmi z całego świata, czy też budować i tworzyć cokolwiek, od pięknej sztuki, interaktywnych awatarów i gadżetów, do skomplikowanych interaktywnych światów i gier, Resonite to nieskończenie elastyczne miejsce, w którym będziesz mile widziany i gdzie znajdziesz grupę, z którą będziesz rezonować.<br><br>Zanim zaczniesz eksplorować, najpierw przeprowadzimy Cię przez konfigurację kilku niezbędnych elementów, aby zapewnić płynne działanie. Gdy będziesz gotowy, kliknij poniższy przycisk",
@@ -1601,17 +1657,17 @@
         "Migration.LoginResetID.Description": "Należy pamiętać, że spowoduje to <color=red>NIEPRZEWIDYWALNE USZKODZENIE ZAWARTOŚCI</color>. Wszystkie przedmioty, światy, kontakty i wiadomości zostaną pomyślnie przeniesione, ale wszelkie zachowania i komponenty, które opierają się na odniesieniu do starego UserID, prawdopodobnie ulegną awarii i będą wymagały ponownej konfiguracji i naprawy. Chyba że masz poważny powód, aby zresetować swój UserID, <color=red>NIE WYBIERAJ TEJ OPCJI</color>.",
         "Migration.LoginResetID.ResetButton": "Tak, zresetuj",
 
-        "Migration.ReservedUsername.Title":"<b>Zarezerwowana nazwa użytkownika</b>",
+        "Migration.ReservedUsername.Title": "<b>Zarezerwowana nazwa użytkownika</b>",
         "Migration.ReservedUsername.Description": "Ta nazwa użytkownika jest zarezerwowana dla pierwotnego właściciela. Jeśli jest to Twoje konto, podaj swoje dane logowania do {platform}, aby je odblokować. Nie przechowujemy tych danych logowania, są one używane tylko do weryfikacji własności konta podczas rejestracji.",
         "Migration.SourcePassword": "Hasło",
         "Migration.SourceUsername": "Nazwa użytkownika {platform}:",
 
         "Migration.Dialog.Title": "Migracja konta",
-        "Migration.Dialog.Source" : "Dane można przenieść z dowolnej kompatybilnej infrastruktury. Najpierw wybierz z listy poniżej tę, z której chcesz migrować dane. Dodatkowe infrastruktury można dodać, umieszczając pliki konfiguracyjne w folderze \"Migrations\" w instalacji.",
+        "Migration.Dialog.Source": "Dane można przenieść z dowolnej kompatybilnej infrastruktury. Najpierw wybierz z listy poniżej tę, z której chcesz migrować dane. Dodatkowe infrastruktury można dodać, umieszczając pliki konfiguracyjne w folderze \"Migrations\" w instalacji.",
         "Migration.Dialog.AccountDescription": "Aby przeprowadzić migrację konta, będziemy potrzebować hasła do konta {platform}. Pozwoli nam to zalogować się do niego i uzyskać dostęp do danych.",
 
         "Migration.ResetID.Title": "Zresetuj mój UserID",
-        "Migration.ResetID.Description":"<color=red><b>OSTRZEŻENIE:</b></color> Wybranie tej opcji <b>CZĘŚCIOWO USZKODZI ISTNIEJĄCĄ ZAWARTOŚĆ I JEST NIEODWRACALNE</b>, w tym wszelkie odniesienia UserID w treściach użytkownika, usługach społecznościowych, linkach, zmiennych w chmurze i innych. Zalecamy korzystanie z tej opcji <b>TYLKO</b> wtedy, gdy chcesz pozbyć się starego UserId i zastąpić go nowym, losowym identyfikatorem. eśli nie masz ważnego powodu, aby zresetować swój identyfikator UserID, <b>NIE POWINIENEŚ</b> zaznaczać tej opcji. Twój UserID zmieni się w następujący sposób:\n U-MyUsername -> U-fX3pKe7AYYQ",
+        "Migration.ResetID.Description": "<color=red><b>OSTRZEŻENIE:</b></color> Wybranie tej opcji <b>CZĘŚCIOWO USZKODZI ISTNIEJĄCĄ ZAWARTOŚĆ I JEST NIEODWRACALNE</b>, w tym wszelkie odniesienia UserID w treściach użytkownika, usługach społecznościowych, linkach, zmiennych w chmurze i innych. Zalecamy korzystanie z tej opcji <b>TYLKO</b> wtedy, gdy chcesz pozbyć się starego UserId i zastąpić go nowym, losowym identyfikatorem. eśli nie masz ważnego powodu, aby zresetować swój identyfikator UserID, <b>NIE POWINIENEŚ</b> zaznaczać tej opcji. Twój UserID zmieni się w następujący sposób:\n U-MyUsername -> U-fX3pKe7AYYQ",
 
         "Migration.DataSelection.Title": "Jakie dane powinny zostać przeniesione podczas migracji konta?",
         "Migration.DataSelection.Everything": "Wszystko",
@@ -1649,7 +1705,6 @@
         "Migration.Groups.NotGroupAdmin": "Nie jesteś administratorem żadnej grupy {platform}, poproś administratorów grupy o migrację grupy!",
 
         "Migration.Summary": "Ok, mamy wszystko, czego potrzebujemy. Kliknij przycisk Rozpocznij migrację, a my rozpoczniemy migrację. Migracja może chwilę potrwać, ponieważ musimy wszystko skopiować. Jeśli wybrałeś migrację swoich ulubionych aplikacji, nadamy im priorytet, abyś mógł poczuć się wygodnie. Nie musisz uruchamiać {appName} podczas migracji, ale wyślemy ci aktualizacje za pośrednictwem bota {appName}, aby poinformować Cię, jak idzie.",
-
 
         "Migration.List.EmptyTitle": "Chcesz rozpocząć nową migrację?",
         "Migration.List.EmptySubtitle": "Kliknij \"Nowe zadanie migracji\" w lewym górnym rogu.",
@@ -1705,9 +1760,10 @@
         "CloudHome.WelcomeHome": "Witaj w domu!",
         "CloudHome.TargetRangeOptions": "Opcje tarcz",
 
-
         "Tutorial.Saving.Title": "Witaj w domu!",
         "Tutorial.Saving.Content": "Witamy w <b><i><color=hero.yellow>domu</b></i></color>! Jest to miejsce, do którego trafisz za każdym razem, gdy się zalogujesz.<br><br>Jest to twój własny świat, więc wszelkie wprowadzone zmiany można zapisać.<br><br>Jeśli zapiszesz, po powrocie wszystko będzie tak, jak zostawiłeś!",
+
+        "Tutorial.Teleporter.Error": "Nie udało się załadować domu w chmurze!<br><size=66%>Wyjdź z teleportera i wejdź ponownie, aby spróbować ponownie.</size>",
 
         "CloudHome.Info.OnlineUsers": "Online {online_users,plural, one {user} other {users}}: {online_users}<br>Joinable {joinable_users,plural, one {user} other {users}}: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderacja",
@@ -1925,7 +1981,7 @@
         "UI.ColorPicker.Saturation": "Nasycenie",
         "UI.ColorPicker.Value": "Wartość",
 
-        "UI.ColorPicker.Alpha": "Alfa",
+        "UI.ColorPicker.Alpha": "Przezroczystość",
         "UI.ColorPicker.Gain": "Wzmocnienie",
 
         "UI.ProgressBar.ImportingItem": "Importowanie Przedmiotu",
@@ -1945,14 +2001,14 @@
         "Tools.Names.Light": "Narzędzie światła",
         "Tools.Names.Shape": "Narzędzie kształtu",
         "Tools.Names.Microphone": "Narzędzie Mikrofon",
-
-
-
-
+        "Tools.Names.GrabbableSetter": "Narzędzie ustawień podnoszenia",
+        "Tools.Names.PhysicalColliderSetter": "Narzędzie do ustawiania kontaktów fizycznych",
+        "Tools.Names.MeshVisibility": "Narzędzie widoczności siatki",
+        "Tools.Names.CameraObjectVisibility": "Camera Object Visibility Tool",
         "Tools.Names.Color": "Narzędzie koloru",
         "Tools.Names.Mesh": "Narzędzie siatki",
-
-
+        "Tools.Names.RiggedMeshTransfer": "Rigged narzędzie do przenoszenia siatki",
+        "Tools.Names.Slicer": "Narzędzie do krajania siatki",
         "Tools.Names.ControllerDiagnostic": "Narzędzie diagnostyczne kontrolera",
         "Tools.Names.Measure": "Narzędzie pomiarowe",
         "Tools.Names.Label": "Narzędzie etykietowania",
