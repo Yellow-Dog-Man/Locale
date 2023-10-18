@@ -243,7 +243,7 @@
         "World.Actions.CloseConfirm": "Schließen",
         "World.Actions.LeaveConfirm": "Verlassen",
         "World.Actions.CannotClose": "(diese Welt kann nicht geschlossen werden)",
-        "World.Actions.GuestWarning": "Gäste-Warnung",
+        "World.Actions.GuestWarning": "",
         "World.Actions.HostingWarning": "Sie sind Host dieser Welt. Alle anwesenden Benutzer werden getrennt, wenn Sie die Welt schließen.",
 
         "World.Actions.GetWorldOrb": "Welt-Orb erzeugen",
@@ -678,7 +678,7 @@
         "Undo.MoveIKBone": "IK-Knochen bewegen",
         "Undo.MoveSun": "Sonne bewegen",
         "Undo.ApplyMaterial": "Material anwenden",
-        "Undo.BakeMeshes": "{name} vereinfachen (Bake)",
+        "Undo.BakeMeshes": "{name} vereinen",
         "Undo.ChangeMesh": "Mesh ändern",
         "Undo.InsertParent": "Parent für {name} einfügen",
         "Undo.Wiggler": "Böses Zeug",
@@ -707,6 +707,12 @@
         "Tooltips.Dev.Rotation" : "Rotieren",
         "Tooltips.Dev.Scale" : "Skalieren",
 
+        "Tooltips.Dev.Selection.Single": "Einzelauswahl",
+        "Tooltips.Dev.Selection.Multi": "Mehrfachauswahl",
+
+        "Tooltips.Dev.Interaction.Tip": "Spitze",
+        "Tooltips.Dev.Interaction.Projection": "Projiziert",
+
         "Tooltip.Color.Picker": "Farbauswahl",
 
         "Tooltip.GrabbableSetter.Scalable": "Skalierbar setzen",
@@ -721,8 +727,12 @@
         "Tooltip.CharacterCollider.EnsurePhysicalFly": "Physikalische Flug-Fortbewegung sicherstellen",
 
         "Tooltip.Light.Point": "Punkt",
-        "Tooltip.Light.Spot": "Spot",
+        "Tooltip.Light.Spot": "Strahler",
         "Tooltip.Light.Sun": "Sonne",
+
+        "Tooltip.Light.Shadows.None": "Keine Schatten",
+        "Tooltip.Light.Shadows.Hard": "Harte Schatten",
+        "Tooltip.Light.Shadows.Soft": "Weiche Schatten",
 
         "Tooltip.MeshVisibility.KeepShadow": "Schatten behalten",
         "Tooltip.MeshVisibility.ShadowOff": "Schatten deaktivieren",
@@ -769,6 +779,26 @@
         "Tooltip.ProtoFlux.PackInto": "Verpacken nach <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.Unpack": "Entpacke <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.ExplicitCast": "Explizite Umwandlung\n<size=50%>(<color=red>Warnung:</color> Möglicher Informationsverlust)</size>",
+
+        "Tooltip.Meter.Mode.Ray" : "Modus: Projiziert",
+        "Tooltip.Meter.Mode.Perpendicular" : "Modus: Senkrecht",
+        "Tooltip.Meter.Mode.Drag" : "Mode: Ziehen",
+
+        "Tooltip.Meter.Points.Two" : "Zwei Punkte",
+        "Tooltip.Meter.Points.Multiple" : "Mehrere Punkte",
+
+        "Tooltip.Meter.ObjectSpace" : "Im Objekt-Koordinatenraum messen",
+        "Tooltip.Meter.WorldSpace" : "Im Welt-Koordinatenraum messen",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "Modus: Meshes vereinen",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "Modus: Skinned-Meshes vereinen",
+        "Tooltip.Glue.Mode.ParentObjects" : "Modus: Objekte parentieren",
+
+        "Tooltip.RigTransfer.ClearSource" : "Quelle entfernen",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "Nur eine Instanz: An",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "Nur eine Instanz: Aus",
+        "Tooltip.ComponentClone.ClearTemplate" : "Vorlage entfernen",
 
         "ProtoFlux.UI.Call": "Aufruf",
         "ProtoFlux.UI.AsyncCall": "<size=50%>Asynchroner</size> Aufruf",
@@ -1389,7 +1419,7 @@
         "Inspector.Texture.Format": "Format: {format}, Speicher: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "Variante: {variant}",
 
-        "Inspector.Texture.BakeTexture": "Texturen zusammenfügen",
+        "Inspector.Texture.BakeTexture": "Texturen vereinen",
 
         "Inspector.Texture.InvertRGB": "Invertiere RGB",
         "Inspector.Texture.InvertR": "Invertiere R",
@@ -1444,7 +1474,7 @@
         "Inspector.Material.VariantInfo": "Variante: {variantID} (Rohwert: {rawVariantID})",
         "Inspector.Material.WaitingForApply": "Warte auf Anwendung: {waiting}",
 
-        "Inspector.Audio.BakeAudio": "Audio-Clip zusammenfügen",
+        "Inspector.Audio.BakeAudio": "Audio-Clip vereinen",
         "Inspector.Audio.FormatInfo": "Sample-Rate: {rate} Hz, Kanäle: {channels} ({channel_count})",
         "Inspector.Audio.Duration": "Dauer: {duration}, Sample-Anzahl: {samples}",
         "Inspector.Audio.EncodingInfo": "Codec-Info: {info}, Dekodiert: {decoded}",
@@ -2000,6 +2030,9 @@
         "UI.ColorPicker.Gain": "Stärke",
 
         "UI.ProgressBar.ImportingItem": "Objekt Importieren",
+        
+        "UI.Camera.Automatic": "Automatisch",
+        "UI.Camera.Manual": "Manuell",
 
         "Tools.Names.MultiTool": "Multitool",
 
