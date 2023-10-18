@@ -30,6 +30,7 @@
         "General.Buy": "Aĉeti",
         "General.Yes": "Jes",
         "General.No": "Ne",
+        "General.ClearSelection" : "Nuligi Elekton",
         "General.Off": "Malŝalti",
         "General.On": "Ŝalti",
         "General.Understand": "Mi komprenas",
@@ -86,7 +87,6 @@
         "Interaction.ResetScale": "Reŝarĝi Skalon",
         "Interaction.LaserEnabled": "Lasero Ebligita",
         "Interaction.LaserDisabled": "Lasero Malebligita",
-
         "Interaction.Grab.Palm": "Ekpreni: Manplato",
         "Interaction.Grab.Precision": "Ekpreni: Precizeco",
         "Interaction.Grab.Auto": "Ekpreni: Aŭtomata",
@@ -111,7 +111,9 @@
         "Inventory.OpenWorld": "Malfermi Mondon",
         "Inventory.Equip": "Ekipi",
         "Inventory.Delete": "Forviŝi",
+        "Inventory.CreateDirectory": "Kreii dosierujon",
         "Inventory.SaveHeld": "Konservi Tenatan",
+        "Inventory.GetURL": "Akiri URL-on",
         "Inventory.Inventories": "Inventaroj",
         "Inventory.Share": "Kunhavigi",
         "Inventory.Unshare": "Malkunhavigi",
@@ -132,7 +134,7 @@
 
         "Dash.Screens.Home": "Hejmo",
         "Dash.Screens.Worlds": "Mondoj",
-        "Dash.Screens.Contacts": "Kontaktoj",
+        "Dash.Screens.Contacts": "Kontaktuloj",
         "Dash.Screens.Inventory": "Inventaro",
         "Dash.Screens.Desktop": "Labortablo",
         "Dash.Screens.Session": "Seanco",
@@ -165,6 +167,7 @@
         "World.LoadingFailed": "Malsukcesis",
         "World.LoadedAssets": "{assets} ŝarĝitaj el {total_assets}",
         "World.Downloading": "Elŝutante {bytes} el {total_bytes}",
+        "World.Loaded": "Ŝarĝita",
 
         "World.Connection.EstablishingConnection": "Stariganta konekton",
         "World.Connection.RequestingJoin": "Petanta Aliĝon",
@@ -180,8 +183,8 @@
         "World.Error.AccessDenied": "Malpermesita aliro",
         "World.Error.SecurityViolation": "Sekureca Malobservo",
         "World.Error.OnlyRegisteredUsers": "Nur registritaj uzantoj rajtas aliĝi",
-        "World.Error.OnlyContacts": "Nur kontaktoj de la gastiganto rajtas aliĝi",
-        "World.Error.OnlyContactsOfContacts": "Nur kontaktoj de uzantoj en la seanco rajtas aliĝi",
+        "World.Error.OnlyContacts": "Nur kontaktuloj de la gastiganto rajtas aliĝi",
+        "World.Error.OnlyContactsOfContacts": "Nur kontaktuloj de uzantoj en la seanco rajtas aliĝi",
         "World.Error.Private": "Ĉi tiu seanco estas privata",
         "World.Error.SessionEnded": "Seanco Finiĝis",
         "World.Error.UserLimitReached": "Seanco atingis uzantlimon",
@@ -191,11 +194,14 @@
         "World.Error.JoinAlreadyRequested": "Aliĝo jam estis petita",
         "World.Error.FailedConnectToRelay": "Malsukcesis konekto al relajso",
         "World.Error.FailedToConnect": "Malsukcesis la konekto",
-
-        "World.Error.NoPort": "Neniu Pordo Specifita",
-        "World.Error.IncompatibleVersion": "Malkongrua {appName}-Versio",
-
-        "World.Error.Unknown": "Nekonata Eraro",
+        "World.Error.InvalidAddress": "Nevalida Adreso",
+        "World.Error.NoPort": "Neniu Pordo Difinita",
+        "World.Error.IncompatibleVersion": "Nekongrua Versio",
+        "World.Error.HostBlocked": "Gastiganto barita",
+        "World.Error.HostBlockedDetail": "La gastiganton estas barita de vi",
+        "World.Error.WorldCrash": "La Mondo Kolapsis",
+        "World.Error.WorldCrashDetail" : "Neriparebla eraro dum la ĝisdatigo de la mondo",
+        "World.Error.Unknown": "Nekontata Eraro",
 
         "World.Config.Name": "Nomo de la mondo:",
         "World.Config.Description": "Priskribo:",
@@ -258,6 +264,7 @@
         "World.Indicator.Users.None": "(neniuj aktivaj seancoj troviĝis)",
         "World.Indicator.Description": "Priskribo",
         "World.Indicator.Description.None": "(neniu priskribo estas donita)",
+        "World.Indicator.Visited": "(visita)",
 
         "World.Detail.ActiveSessions": "Aktivaj Seancoj:",
         "World.Detail.ActiveUsers": "Aktivaj uzantoj:",
@@ -281,7 +288,7 @@
         "World.Category.Featured": "Prezentita",
         "World.Category.PublishedWorlds": "Eldonitaj Mondoj",
         "World.Category.ActiveSessions": "Aktivaj Seancoj",
-
+        "World.Category.ContactsSessions": "Seancoj de Kontaktuloj",
         "World.Category.HeadlessSessions": "Senkapaj Seancoj",
         "World.Category.Social": "Socia",
         "World.Category.Games": "Ludoj",
@@ -291,10 +298,12 @@
         "World.Category.Random": "Senorda",
         "World.Category.MyWorlds": "Miaj Mondoj",
         "World.Category.Custom": "Propra",
+        "World.Category.GroupWorlds": "Mondoj de Grupoj",
 
         "World.AccessLevel.Anyone": "Iu ajn",
         "World.AccessLevel.RegisteredUsers": "Registritaj Uzantoj",
-
+        "World.AccessLevel.Contacts": "Kuntaktoj",
+        "World.AccessLevel.ContactsPlus": "Kuntaktoj+",
         "World.AccessLevel.LAN": "LAN",
         "World.AccessLevel.Private": "Privata (nur invito)",
 
@@ -307,9 +316,9 @@
         "World.SortParameter.LastUpdateDate": "Dato de modifo",
         "World.SortParameter.FirstPublishTime": "Eldonita dato",
         "World.SortParameter.TotalVisits": "Entute Vizitoj",
-
-        "World.SortParameter.Random": "Senorda",
-
+        "World.SortParameter.LastVisit": "Lasta Visito",
+        "World.SortParameter.Random": "Hazarde",
+        
         "World.Filter.DataSources": "Datumfontoj:",
         "World.Filter.OpenedWorlds": "Malfermitaj Mondoj",
         "World.Filter.ActiveSessions": "Aktivaj Seancoj",
@@ -324,7 +333,7 @@
         "World.Filter.MyWorlds": "Miaj Mondoj",
         "World.Filter.SessionFiltering": "Seanc-Filtrado:",
         "World.Filter.MinimumUsers": "Minimumaj uzantoj: <b> {n} </b>",
-
+        "World.Filter.MinimumContacts": "Minimumaj Kontaktuloj: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Nur Senkapaj Gastigantoj",
         "World.Filter.MaxAccessLevel": "Maksimuma Alira Nivelo:",
         "World.Filter.MinimumUptime": "Minimuma Vivdaŭro:",
@@ -348,6 +357,7 @@
         "Tools.StreamAudio": "Elsendi sonon",
         "Tools.Setup2FA": "Agordi 2FA",
 
+        "Tools.StreamAudio.Dialog.Title" : "Kreii Aŭdiofluon",
         "Tools.StreamAudio.Start": "Komenci elsendfluon",
         "Tools.StreamAudio.Bitrate": "Bitkvanto: {bitrate} kbps",
         "Tools.StreamAudio.Title": "Son-elsendfluo de {username}",
@@ -361,8 +371,10 @@
         "Options.SeatedMode.On": "Sidita Reĝimo: Enŝaltita",
         "Options.SeatedMode.Off": "Sidita reĝimo: Malŝaltita",
         "Options.Nameplates.All": "Nomplatoj: Montras ĉiujn nomplatojn",
-        "Options.Nameplates.NonContacts": "Nomplatoj: Kaŝas nomplatojn de viaj kontaktoj",
+        "Options.Nameplates.NonContacts": "Nomplatoj: Kaŝas nomplatojn de viaj kontaktuloj",
         "Options.Nameplates.Hide": "Nomplatoj: Kaŝas ĉiujn nomplatojn",
+        "Options.Nameplates.DefaultStyle": "Uzi defaŭltajn nomplatojn",
+        "Options.Nameplates.CustomStyle": "Permesi tajloritajn nomplatojn",
 
         "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> {users,plural, one {Enreta Uzanto} other {Enretaj Uzantoj}}",
         "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {uzanto} other {uzantoj}} en VR",
@@ -378,62 +390,116 @@
         "Indicator.Sync.SyncingItems": "Sinkronigante {item_count,plural, one {# ero} other {# erojn}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "Alŝutado de {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError": "Eraro de sinkronigo! <size=50%>Check log for details</size>",
-        "Indicator.Sync.OutOfSpace": "Ekstere de spaco! <size=50%>Cannot sync</size>",
+        "Indicator.Sync.StorageFull": "Konservejo plenas! <size=61.803%>Ne povas sinkronigi</size>",
+
+        "Indicator.Storage.StorageFull": "Konservejo Plenas",
+        "Indicator.Storage.Usage": "{storage_used} de {storage_max}<br><size=61.803%>de Space en la Konservejo Uzita</size>",
 
         "Indicator.LiveHiddenMessage": "(informoj kaŝitaj dum dissendado)",
 
         "Login.InvalidCredentials": "Nevalidaj identigiloj",
+        "Login.InvalidCredentials.Description": "Kontroli viajn identigilojn kaj reprovi aŭ premi \"Pasvorto Perdita?\"",
+
         "Login.InvalidLogin": "Nevalidaj identigiloj",
+        "Login.InvalidLogin.Description": "Kontroli viajn identigilojn kaj reprovi aŭ premi \"Pasvorto Perdita?\"",
 
         "Login.MalformedUID": "Nevalida aparatinformo",
+        "Login.MalformedUID.Description": "Bonvolu provi reinstali, aŭ kontakti subtenadon je support.resonite.com.",
+        
         "Login.MissingUID": "La aparatinformo mankas",
+        "Login.MissingUID.Description": "Bonvolu provi reinstali, aŭ kontakti subtenadon je support.resonite.com.",
+        
         "Register.MissingUID": "La aparatinformo mankas",
+        "Register.MissingUID.Description": "Bonvolu provi reinstali, aŭ kontakti subtenadon je support.resonite.com.",
+        
         "Register.MalformedUID": "Nevalida aparatinformo",
+        "Register.MalformedUID.Description": "Bonvolu provi reinstali, aŭ kontakti subtenadon je support.resonite.com.",
 
         "Login.MissingLogin": "Neniuj indentigiloj provizataj",
+        "Login.MissingLogin.Description": "Ĉu vi forgesis provizi itentigilojn?",
+        
         "Login.InvalidRecoveryCode": "Nevalida restaŭrkodo",
+        "Login.InvalidRecoveryCode.Description": "Bonvolu kontroli vian resaŭrkodon kaj reprovi.",
+        
         "Login.UnsupportedAuthentication": "Nesubtenita metodo de aŭtentigo",
+        "Login.UnsupportedAuthentication.Description": "Ni ne subtenas ĉi tion metodon de aŭtentigo. Bonvolu provi alian.",
+
         "Login.EmailNotVerified": "Retpoŝta addreso ne aprobita",
+        "Login.EmailNotVerified.Description": "Via retpoŝta adreso ne estas aprobita, bonvolu kontroli vian enirkeston por e-poŝton de ni, certe kontroli vian trudmesaĵ-dosierujon.",
+
         "Login.AccountTempLocked": "Via konto estas ŝlosata.",
+        "Login.AccountTempLocked.Description": "Bonvolu kontakti Kontroladon je: moderation.resonite.com.",
+
         "Login.AccountBanned": "Via konto estas barata.",
+        "Login.AccountBanned.Description": "Bonvolu kontakti Kontroladon je: moderation.resonite.com.",
+
         "Login.DuplicateAccount": "Duobla konto",
+        "Login.DuplicateAccount.Description": "Bonvolu kontakti subtenadon at support.resonite.com.",
 
         "Login.UnknownError": "Nekonata Eraro",
         "Login.UnknownError.Description": "Nekonata eraro okazis dum ensaluto. login. Bonvolu kontakti la subtenejon per support.resonite.com",
 
         "Register.MissingRequest": "La detaloj de la registriĝo mankas",
-        "Register.InvalidEmail": "Nevalida retpoŝta adreso",
-        "Register.MissingUsername": "La uzantnomo mankas",
-        "Register.MissingEmail": "Retpoŝta adreso mankas",
-        "Register.UsernameTooLong": "La uzantnomo estas tro longa",
-        "Register.UsernameContainsAmpersand": "La uzantnomo ne permesiĝisas enhavi @",
-        "Register.UsernameStartsWithU": "La uzantnomo ne permesiĝisas komenci per U-",
-        "Register.InvalidUsername": "Nevalida uzantnomo",
-        "Register.InvalidDateOfBirth": "Nevalida naskiĝdato",
-        "Register.UserContainsBlockedTerms": "La uzantnomo enhavas barantajn vortojn",
-        "Register.MissingPassword": "La pasvorto mankas",
-        "Register.InvalidPassword": "Nevalida Pasvorto",
-        "Register.InvalidPassword.Description": "Via pasvorto estas nevalida. Ĝi devas enhavi minimune 8 signojn, 1 ciferon, 1 majusklon, kaj 1 minusklon.",
-        "Register.EmailAlreadyRegistered": "La retpoŝta adreso estas ja registrigita",
-        "Register.UsernameAlreadyRegistered": "La uzantnomo estas ja registrigita",
-        "Register.ErrorCheckingUserId": "Eraro dum kontrolo de la Uzantnumero",
+        "Register.MissingRequest.Description": "Ne povis trovi iujn ajn detalojn de registrado. Bonvolu certe inkluzivi ilin dum registrado.",
 
-        "Register.UnknownError": "Nekonata Eraro",
-        "Register.UnknownError.Description": "Nekonata eraro okazis dum registratdo. Bonvolu kontakti la subtenejon per support.resonite.com",
+        "Register.InvalidEmail": "Nevalida retpoŝta adreso",
+        "Register.InvalidEmail.Description": "Via retpoŝta adreso ne estas valida.",
+
+        "Register.MissingUsername": "La uzantnomo mankas",
+        "Register.MissingUsername.Description": "Ĉu vi provizis vian uzantnomon?",
+
+        "Register.MissingEmail": "Retpoŝta adreso mankas",
+        "Register.MissingEmail.Description": "Ĉu vi provizis vian retpoŝtan adreson?",
+
+        "Register.UsernameTooLong": "La uzantnomo estas tro longa",
+        "Register.UsernameTooLong.Description": "Uzantnomon eblas enhavi ĝis 32 signojn.",
+
+        "Register.UsernameContainsAmpersand": "La uzantnomo ne permesiĝisas enhavi @",
+        "Register.UsernameContainsAmpersand.Description": "La uzantnomo ne permesiĝisas enhavi la @-signon.",
+        
+        "Register.UsernameStartsWithU": "La uzantnomo ne permesiĝisas komenci per U-",
+        "Register.UsernameStartsWithU.Description": "Uzantnomoj ne permesiĝisas komenci per U-.",
+        
+        "Register.InvalidUsername": "Nevalida uzantnomo",
+        "Register.InvalidUsername.Description": "Via uzantnomo ne estas valida.",
+        
+        "Register.InvalidDateOfBirth": "Nevalida naskiĝdato",
+        "Register.InvalidDateOfBirth.Description": "Via naskiĝdato ne estas valida.",
+        
+        "Register.UserContainsBlockedTerms": "La uzantnomo enhavas barantajn vortojn",
+        "Register.UserContainsBlockedTerms.Description": "Via uzantnomo enhavas barantajn vortojn. Se vi creas ke ĉi tiu eraras, bonvolu kontakti subtenadon je support.resonite.com.",
+
+        "Register.MissingPassword": "La pasvorto mankas",
+        "Register.MissingPassword.Description": "Vi ne provizis pasvorton.",
+        
+        "Register.InvalidPassword": "Nevalida Pasvorto",
+        "Register.InvalidPassword.Description": "Via pasvorto ne estas valida. Ĝi devas enhavi minimune 8 signojn, 1 ciferon, 1 majusklon, kaj 1 minusklon.",
+        
+        "Register.EmailAlreadyRegistered": "La retpoŝta adreso estas ja registrigita",
+        "Register.EmailAlreadyRegistered.Description": "Konto uzante ĉi tiun retpoŝta adreso ja ekzistas, se vi forgesis vian pasvorton vi povas alklaki \"Pasvorto Perdita\". Or vi povas kontakti subtenadon per support.resonite.com.",
+
+        "Register.UsernameAlreadyRegistered": "La uzantnomo estas ja registrigita",
+        "Register.UsernameAlreadyRegistered.Description": "Konto uzante ĉi tiun uzantnomon ja ekzistas, se vi forgesis vian pasvorton vi povas alklaki \"Pasvorto Perdita\". Or vi povas kontakti subtenadon per support.resonite.com.",
+
+        "Register.ErrorCheckingUserId": "Eraro dum kontrolo de la Uzantnumero",
+        "Register.ErrorCheckingUserId.Description" : "Bonvolu kontakti subtenadon per support.resonite.com.",
 
         "Recovery.MissingEmail" : "Retpoŝta Adreson mankas",
         "Recovery.MissingEmail.Description" : "Ĉu vi difinis vian retpoŝtan adreson?",
-
+        
         "Recovery.IncorrectEmail" : "Malĝusta Retpoŝta Adreso",
         "Recovery.IncorrectEmail.Description" : "Vi eniris malĝustan retpoŝtan adreson por la pasvorta restarigo. Bonvolu kontroli la detalojn kaj reprovi.",
 
         "Recovery.NoPasswordSetup" : "Neniu Pasvorto Agordita", 
         "Recovery.NoPasswordSetup.Description" : "Bonvolu kontakti la subtenejon per support.resonite.com.",
         
+        "Register.UnknownError": "Nekonata Eraro",
+        "Register.UnknownError.Description": "Nekonata eraro okazis dum registratdo. Bonvolu kontakti la subtenejon per support.resonite.com",
+        
         "Account.Login": "Ensaluti",
         "Account.Logout": "Elsaluti",
         "Account.Register": "Registriĝi",
-
+        "Account.Saml2" : "Ensaluti per SAML 2.0",
         "Account.LoginOrRegister": "Ensaluti / Registriĝi",
         "Account.LogoutConfirm": "Ĉu vere elsaluti?",
         "Account.LoggingIn": "Ensaluti...",
@@ -450,7 +516,6 @@
         "Account.RecoverPassword": "Ĉu pasvorto perdita?",
         "Account.LiveEmailWarning": "<color = # f00> AVERTO: </color> live.com, hotmail.com, outlook.com kaj aliaj Microsoft-gastigitaj servoj povas daŭri ĝis 1-2 tagojn por akcepti la retpoŝton.",
         "Account.PasswordRules": "(almenaŭ 8 signoj, 1 cifero, 1 minuskla, 1 majuskla)",
-        "Account.AgeConfirm": "Mi aĝas 16 jarojn aŭ pli",
         "Account.LostPassword": "Perdita Pasvorto",
         "Account.SendRecoveryCode": "Sendi Rekuperan Kodon",
         "Account.ResetPasswordHeader": "Restarigi Vian Pasvorton",
@@ -463,8 +528,18 @@
         "Account.ErrorEmailMismatch": "Retpoŝtoj ne kongruas!",
         "Account.ErrorLoginError": "Ensaluta Eraro:",
         "Account.RegistrationSuccess": "<size=120%> Sukceso!</size><br><br> Retpoŝto estis sendita al {email} kun kontrola ligilo. <br><br> Post kiam vi alklakos ĉi tiun ligon, ni aŭtomate ensalutos. vin dum ĉi tiu dialogo estos malfermita. <br><br> Se vi havas problemojn, kontaktu nin ĉe hello@{appName}.com aŭ discord.gg/resonite",
+        "Account.BirthMonth": "Naskiĝmonato:",
+        "Account.BirthDay": "Naskiĝtago:",
+        "Account.BirthYear": "Naskiĝjaro:",
+        "Account.PoliciesAgreement": "Mi interkonsentas al la <color=#22B2FF>kondiĉoj de uzado</color> kaj <color=#22B2FF>regularo pri privateco</color>",
+        "Account.AlternateMethods" : "Ensaluti per servuo de ekstera liveranto anstataŭ:",
+        
+        "Account.Saml2.Title" : "SAML 2.0",
+        "Account.Saml2.Select" : "Bonvolu elekti la SAML 2.0-provanto kiun vi volas uzi:",
+        "Account.Saml2.LoggingIn" : "Atendante la kompleton de la ensaluto (kontrolu la retumilon)...",
 
-        "Account.TOTP.Initializing": "Kontrolanta staton de 2FA por via konto...",
+        "Account.TOTP.Title" : "Dupaŝa Aŭtentigo",
+        "Account.TOTP.Initializing": "Kontrolanta staton de 2PA por via konto...",
         "Account.TOTP.Code.Header": "Sekreta kodo",
         "Account.TOTP.Code.Description": "Unue vi devas entajpi sekretan kodon por via TOTP aŭtentiga apo, kiel <b>Authy</b> aŭ <b>Google Authenticator</b>.<br><br>Ni rekomendas fari tion per skano de la QR kodo, sed alternative vi povas permane entajpi la sekretan kodon. <b>Neniam diskonigu ĉi tiun kodon kun iu ajn.</b><br><br>Se vi estas en VR, vi povas ŝanĝi al via komputilo premante F8.",
         "Account.TOTP.Code.QRCode": "Skani QR-kodon",
@@ -472,8 +547,8 @@
         "Account.TOTP.RecoveryCodes.Header": "Restaŭraj kodoj",
         "Account.TOTP.RecoveryCodes.Description": "Konservu ĉi tiujn kodojn en sekura loko. Vi povas uzi ilin por restaŭri la enireblon al via konto okaze de perdo aŭ difekto de via poŝtelefono. Ĉiu kodo povas esti uzita nur unufoje. <b>Neniam diskonigu ilin kun iu ajn.</b> Se vi perdas ilin, vi perdos <color=red>PORĈIAME</color> la enireblon al via konto.",
         "Account.TOTP.RecoveryCodes.Codes": "Kodoj",
-        "Account.TOTP.Activate.Header": "Aktivigi 2FA",
-
+        "Account.TOTP.Activate.Header": "Aktivigi 2PA",
+        "Account.TOTP.Activate.Description": "Por aktivigi 2PA por via konto, uzu la 6-ciferan ĵetonon, kion generis vian aŭtentigilo por certigi ke ĉio funkcias ĝuste.<br><br>Kiam aktivigita, vi bezonos uzi la kodon dum konfirmi certajn agadojn.",
         "Account.TOTP.Activate.Token": "6-cifera ĵetono:",
         "Account.TOTP.Activate.TokenField": "Entajpu vian ĵetonon ĉi tie...",
         "Account.TOTP.Activate.Activate": "Aktivigi",
@@ -481,13 +556,20 @@
         "Account.TOTP.Activate.InvalidToken": "Nevalida ĵetono!",
         "Account.TOTP.Message.AlreadySetup": "2FA estas jam agordita en via konto!",
         "Account.TOTP.Message.Error": "Neatendita eraro! Bonvolu reprovi poste.",
-
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Gratulojn!</size><br><br>Via konto estas nuntempe agordita per 2PA por aldona protekto!<br><br>Vi povas opcie eligi ĉi tion por via kontoensaluto per la komando /enableLogin2FA .",
         "Account.TOTP.Deactivate.Header": "Malaktivigi 2FA",
-        "Account.TOTP.Deactivate.Description": "2FA estas nuntempe <b><color=green>agordita kaj aktiva en via konto</color></b>. Se vi bezonas malaktivigi ĝin (ekz. kaŭze ke vi perdas vian poŝtelefonon aŭ la kodoj endanĝeriĝas), vi povas fari tion tie ĉi.<br><br>Post malaktivigo, vi povas agordi 2FA denove, kio generos tute novan sekretan kodon kaj novan aron de restaŭran kodojn.<br><br>Se vi perdas vian poŝtelefonon kaj bezonas agordi 2FA denove, ni <b>FORTE</b> konsilas ke vi faru tuj, ĉar ĉiu restaŭra kodo uzeblas nur unufoje kaj post kiam ili elĉerpiĝos vi estos tute ŝlosita ekster via konto.",
+        "Account.TOTP.Deactivate.Description": "2PA estas nuntempe <b><color=green>agordita kaj aktiva en via konto</color></b>. Se vi bezonas malaktivigi ĝin (ekz. kaŭze ke vi perdas vian poŝtelefonon aŭ la kodoj endanĝeriĝas), vi povas fari tion tie ĉi.<br><br>Post malaktivigo, vi povas agordi 2FA denove, kio generos tute novan sekretan kodon kaj novan aron de restaŭran kodojn.<br><br>Se vi perdas vian poŝtelefonon kaj bezonas agordi 2FA denove, ni <b>FORTE</b> konsilas ke vi faru tuj, ĉar ĉiu restaŭra kodo uzeblas nur unufoje kaj post kiam ili elĉerpiĝos vi estos tute ŝlosita ekster via konto.",
         "Account.TOTP.Deactivate.Deactivate": "Malaktivigi",
         "Account.TOTP.Deactivate.Deactivating": "Malaktiviganta...",
         "Account.TOTP.Message.DeactivationComplete": "2FA sukcese malaktiviĝis en via konto.<br><br>Via konto estas nun en pli alta risko!<br><br>Ni forte rekomendas agordi tuj 2FA denove, speciale se vi uzis restaŭran kodon kaŭze de tio ke vi perdis vian poŝtelefonon.",
 
+        "Account.Type.Standard" : "Norma Konto",
+        "Account.Type.Business" : "Komerca Konto",
+        "Account.Type.Patreon" : "Subtenanto per Patreon",
+        "Account.Type.Mentor" : "{platform} Mentoro",
+        "Account.Type.Moderator" : "{platform} Kontrolisto",
+        "Account.Type.Team" : "{platform} Teamo",
+        
         "Avatar.Badge.Live" : "TUJA",
         
         "2FA.Header": "2FA kontrolo",
@@ -498,6 +580,7 @@
         "Profile.Status.Busy": "Okupata",
         "Profile.Status.Invisible": "Nevidebla",
         "Profile.Status.Offline": "Senkonekta",
+        "Profile.Status.Headless": "Senkapa Gastigo",
 
         "Session.Tab.Settings": "Agordoj",
         "Session.Tab.Users": "Uzantoj",
@@ -510,9 +593,15 @@
         "Session.Permission.PermissionOverrideCount": "Permesaj Superregoj: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Forigi uzantajn anstataŭigojn",
 
+        "Session.JoinVerifier.EnableHeader" : "Aktivigi Tajlorita Aliĝ-Aprobilo?",
+        "Session.JoinVerifier.EnableText" : "<color=red>AVERTO:</color> Vi estas ebligonta tajloritan aliĝ-aprobilecon kio estas parto de la nuna mondo. Antaŭ ol vi tion faros, certigi ke vi fidas al la kreinto de la mondo, ĉar tajlorita aliĝ-aprobilo povas preterpasi la regulojn de normaj seancoj kaj permesi aŭ bari la eniron de uzantoj per ĝiaj propraj reguloj.",
+        "Session.JoinVerifier.Label" : "Uzi Tajloritan Aliĝ-Aprobilon: {name}",
+        "Session.JoinVerifier.ComponentWarning" : "<color=red>AVERTO:</color> Nuntempe, ne ekzistas mekanismo por preventi tuŝaĉi kun la aprobilo tiam, kiam ĝi estas ebligita. Se tuŝaĉi kun la agordo de ProtoFlux por aprobecon estas zorgo, NE UZU ĉi tion fukcion kaj NE EBLIGI ĝin en viaj mondoj.",
+        "Session.JoinVerifier.SetCustomVerifier" : "Agordi kiel tajlorita aliĝ-aprobilo",
+
         "Permissions.NotAllowedToSpawn": "Vi ne rajtas krei aferojn ĉi tie",
         "Permissions.NotAllowedToSave": "Vi ne rajtas konservi aĵojn en ĉi tiu mondo.",
-        "Permissions.NotAllowedToSwapAvatar": "Vi ne rajtas interŝanĝi al kutima avataro ĉi tie.",
+        "Permissions.NotAllowedToSwapAvatar": "Vi ne rajtas interŝanĝi al tajlorita avataro ĉi tie.",
 
         "User.Actions.Silence": "Silentigi por ĉiu",
         "User.Actions.Mute": "Silentigi",
@@ -527,17 +616,25 @@
         "Contacts.AcceptRequest": "Akcepti Peton",
         "Contacts.IgnoreRequest": "Ignori Peton",
         "Contacts.Invite": "Inviti ĉi tien",
+        "Contacts.RevokeInvite": "Revoke Invite",
         "Contacts.BanFromAllSessions": "Forbari de ĈIUJ miaj seancoj",
         "Contacts.UnbanFromAllSessions": "Malforbari de ĈIUJ miaj seancoj",
         "Contacts.BanFromCurrentWorld": "Forbari de nuna mondo",
         "Contacts.UnbanFromCurrentWorld": "Malforbari de nuna mondo",
         "Contacts.RecordingVoiceMessage": "Registrante voĉon...",
-
+        "Contacts.Unblocked" : "Malbarita",
+        "Contacts.AvatarBlock" : "Forbari Avataron",
+        "Contacts.MutualBlock" : "Reciproke Forbari",
+        "Contacts.SelfAccount": "Mia Konto",
+        "Contacts.SearchPrompt": "Serĉi kuntaktojn...",
+        "Contacts.WriteMessage": "Skribi mesaĝon...",
+        
         "Contacts.InSession": "En {name}",
         "Contacts.InPrivate": "En privata mondo",
-
+        "Contacts.InContactsOnly": "En Mondo por Kontaktuloj Nur",
         "Contacts.InHidden": "En Kaŝita Mondo",
-
+        "Contacts.InHiddenContactsOnly": "En Kaŝita Mondo por Kontaktuloj Nur",
+        "Contacts.InHiddenContactsPlus": "En Kaŝita Mondo por Kontaktuloj+",
         "Contacts.InLAN": "En LAN-Mondo",
         "Contacts.UsingDifferentVersion": "Uzante version {version}",
         "Contacts.RequestSent": "Peto sendita",
@@ -546,14 +643,13 @@
         "Contacts.Blocked": "Blokita",
         "Contacts.SearchResult": "Serĉrezulto",
         "Contacts.Bot": "Bot-konto",
+        "Contacts.Migrated": "Kontakto Ankoraŭ ne Migris",
 
         "Notifications.IsOnline": "Nun estas Interrete",
         "Notifications.IsOnlineOnDifferentVersion": "Nun estas Interrete <size=75%>(uzante version: {version})</size>",
         "Notifications.ReceivedContactRequest": "Sendis kontaktopeton",
         "Notifications.ReceivedInvite": "Invitas vin al:",
         "Notifications.ReceivedItem": "Sendis al vi eron:",
-        "Notifications.ReceivedTip": "Ricevita konsileto {amount} {token}",
-        "Notifications.SentTip": "Sendita konsileto {amount} {token}",
         "Notifications.VoiceMessage": "Sendis voĉan mesaĝon",
 
         "Undo.SetField": "Agordi kampon {field_name} al {value}",
@@ -659,6 +755,8 @@
 
         "Tooltip.Mesh.Edit": "Redakti maŝaron",
 
+        "Tooltip.Cartridge.Eject": "Elĵeti Globon",
+
         "Tooltip.Microphone.Format.WAV": "WAV dosiero",
         "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis dosiero",
         "Tooltip.Microphone.Format.FLAC": "FLAC dosiero",
@@ -682,10 +780,6 @@
         "Tooltip.ProtoFlux.Unpack" : "Malpaki el <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.ExplicitCast" : "Eksplika Elsendo\n<size=50%>(<color=red>Averto:</color> Ebleco por Perdo de Datumoj)</size>",
 
-        "ProtoFlux.UI.Call" : "Pasigo",
-        "ProtoFlux.UI.AsyncCall" : "<size=50%>Nesinkrona</size> Pasigo",
-        "ProtoFlux.UI.NodeBrowser.Title" : "ProtoFlux-Nodoj",
-        
         "Tooltip.Meter.Mode.Ray" : "Reĝimo: Radia",
         "Tooltip.Meter.Mode.Perpendicular" : "Reĝimo: Perpendikulara",
         "Tooltip.Meter.Mode.Drag" : "Reĝimo: Trenanta",
@@ -705,6 +799,10 @@
         "Tooltip.ComponentClone.SingleInstanceOn" : "Ununura Apero: Eblita",
         "Tooltip.ComponentClone.SingleInstanceOff" : "Ununura Apero: Maleblita",
         "Tooltip.ComponentClone.ClearTemplate" : "Defaŭltigi ŝablonon",
+
+        "ProtoFlux.UI.Call" : "Pasigo",
+        "ProtoFlux.UI.AsyncCall" : "<size=50%>Nesinkrona</size> Pasigo",
+        "ProtoFlux.UI.NodeBrowser.Title" : "ProtoFlux-Nodoj",
 
         "CreateNew.Back": "<<< <i> Reen </i>",
         "CreateNew.EmptyObject": "Malplena objekto",
@@ -759,14 +857,19 @@
         "CreateNew.Collider.Cone": "Konuso",
         "CreateNew.Collider.Mesh": "Maŝaro",
 
-        "CreateNew.Light": "Malpeza",
+        "CreateNew.Light": "Lumo",
         "CreateNew.Light.Point": "Punkto",
         "CreateNew.Light.Spot": "Spoto",
         "CreateNew.Light.Directional": "Unudirekta",
 
         "CreateNew.Materials": "Materialoj",
 
-        "AvatarCreator.Title": "Kreanto de Avataro",
+        "CreateNew.Directory.Title": "Krei novan dosierujon:",
+        "CreateNew.Directory.Error.EmptyName": "Bonvolu provizi nomon:",
+        "CreateNew.Directory.Error.LongName": "La nomo tro longas:",
+        "CreateNew.Directory.Error.InvalidName": "Nevalida nomo:",
+
+        "AvatarCreator.Title": "Kreantilo de Avataro",
         "AvatarCreator.Instructions": "Vicigu avatarajn objektojn kun la aŭdilaj kaj regilaj referencoj (laŭvola) kaj premu Krei por konverti ilin al avataro",
         "AvatarCreator.UseSymmetry": "Uzi Simetrion",
         "AvatarCreator.ShowToolAnchors": "Montri Ilajn Ankrojn",
@@ -890,6 +993,10 @@
         "Importer.Video.Depth.Prompt": "Antaŭagordo de Profundo",
         "Importer.Video.Depth.Default": "Implicita",
 
+        "Importer.Slices.Title": "Bildaj tranĉaĵoj kiel volumenmezura teksturo",
+        "Importer.Slices.TitleGrayscale": "Bildaj tranĉaĵoj kiel volumenmezura teksturo (grizoskalo)",
+        "Importer.Slices.Description": "Trakti ĉiuj bild-dosierojn en la dosierujo en volumenmezuran teksturon",
+
         "Exporter.Title": "Eksporti",
         "Exporter.FileName": "Dosiernomo:",
         "Exporter.ExportAs": "Eksporti kiel:",
@@ -965,11 +1072,11 @@
         "FullBody.AvatarPointNotMapped": "Ne Mapita",
         "FullBody.AvatarPointNoTracker": "Neniu Spurilo",
 
-        "CameraControl.Title": "Regilo de la kamerao",
+        "CameraControl.Title": "Regilo de la fotilo",
         "CameraControl.MirroringOffWarning": "SPEGULADO MALŜALTITA",
         "CameraControl.MirrorToDisplay": "Speguli al ekrano",
         "CameraControl.TakePhoto": "Foto",
-        "CameraControl.Take360Photo": "360-foto",
+        "CameraControl.Take360Photo": "Foto de 360°",
 
         "CameraControl.Mode.SmoothPOV": "Glata vidpunkto",
         "CameraControl.Mode.ThirdPerson": "Tria Persono",
@@ -991,12 +1098,12 @@
         "CameraControl.Settings.AudioFromCameraViewpoint": "Sono el vidpunkto de la kamerao",
 
         "CameraControl.OpenCloseUsers": "Uzantoj",
-        "CameraControl.CreateCameraAnchor": "Krei Ĉambran Ankron",
+        "CameraControl.CreateCameraAnchor": "Krei Ankron de Fotilon",
 
         "CameraControl.Anchors.Interpolate": "Interpoli inter ankroj",
-        "CameraControl.Anchors.InterpolationSpeed": "Ankra Interpola Rapido:",
-
-        "CameraControl.Anchors.NoAnchors": "Neniuj ĉambraj ankroj en ĉi tiu mondo",
+        "CameraControl.Anchors.InterpolationSpeed": "Interpola Rapido de Ankroj:",
+        "CameraControl.Anchors.LinearInterpolation": "Linea Interpolo",
+        "CameraControl.Anchors.NoAnchors": "Neniuj ankroj de fotilo en ĉi tiu mondo",
 
         "CameraControl.Positioning.FieldOfView": "Vidkampo (FOV)",
         "CameraControl.Positioning.AngleOffset": "Angulo de deŝovo",
@@ -1041,9 +1148,10 @@
         "CameraControl.OBS.Bitrate": "Bitrapideco: {n} / s",
         "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "Faligitaj kadroj: {n}",
-
-        "CameraControl.OBS.Live": "LIVE",
-        "CameraControl.OBS.Recording": "REC",
+        "CameraControl.OBS.Idle": "SENOKUPA",
+        "CameraControl.OBS.Live": "TUJA",
+        "CameraControl.OBS.Recording": "RIK",
+        "CameraControl.OBS.OpenInstallerReason": "Ĉi tiu retejo ebligos vin elŝuti la komprogramon de la OBS-konektinterfaco",
 
         "CameraControl.OBS.Streaming.Start": "Komenci Elsendfluo",
         "CameraControl.OBS.Streaming.Starting": "Komencante Elsendfluo...",
@@ -1063,6 +1171,7 @@
         "Settings.HideAllTutorials": "Kaŝi ĉiujn lernilojn",
         "Settings.ShowInteractionHints": "Montri Interagajn Konsilojn",
         "Settings.PrimaryController": "Ĉefa Stirilo",
+        "Settings.Hotswitching": "VR-a Tujŝanĝi",
         "Settings.AllowStrafing": "Permesi Strafadon",
         "Settings.UseHeadDirectionForMovement": "Uzi Kapdirekton por movado",
         "Settings.SmoothTurn": "Glata Turno",
@@ -1086,7 +1195,7 @@
         "Settings.DoNotSendReadStatus": "Ne sendi realtempajn leg-statojn de la mesaĝoj",
         "Settings.MaxConcurrentAssetTransfers": "Maksimumaj Samtempaj Aktaj Translokigoj",
         "Settings.AutosaveScreenshotPath": "Aŭtomate konservi ekranpadon",
-
+        "Settings.AutosaveAllScreenshots": "Aŭtomate konservi ĈIUJN enkranpadon en mondo",
         "Settings.DebugInputBinding": "Elpurigi Enigajn Katenojn",
 
         "Settings.LaserSmoothing.Header": "Lasera Glatigado",
@@ -1100,7 +1209,7 @@
         "Settings.LaserSmoothing.Reset": "Restarigi laseron-agordojn",
 
         "Settings.Audio.Header": "Sono",
-
+        "Settings.Audio.Input.Title" : "Sona Enigilo",
         "Settings.Audio.Master": "Majstra Volumo: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Sonefikoj: {n, number, percent}",
         "Settings.Audio.Multimedia": "Plurmedio: {n, number, percent}",
@@ -1124,8 +1233,10 @@
 
         "Settings.Graphics.DesktopFOV": "Labortabla FOV",
 
+        "Settings.Locale.Title" : "Interfac-lingvo",
         "Settings.Locale.ChangeLanguage": "Ŝanĝi Lingvon",
         "Settings.Locale.SelectLanguageHeader": "Elektu vian lingvon:",
+        "Settings.Locale.DefaultLanguage": "Defaŭlto de la Sistemo",
 
         "Settings.Save": "Konservi Agordojn",
 
@@ -1158,6 +1269,7 @@
         "Settings.System.KeepOriginalScreenshotFormat": "Konservi originalan ekranfoton",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "Se ebligita, ekrankopioj ne konvertiĝos al JPG se konservitaj en la dosierujo Dokumentoj",
 
+        "Security.Hyperlink.Title" : "Ligilo al Ekstero",
         "Security.Hyperlink.Warning": "<b> <size=125%> Averto: Eliranta hiperligo </size> </b> \n Vi alklakis ligon en mondo. Ĉu vi volas malfermi ĝin? Ĉi tio faros malfermu en via labortabla retumilo. ",
         "Security.Hyperlink.Open": "Malfermi",
         "Security.Hyperlink.Cancel": "Nuligi",
@@ -1215,9 +1327,11 @@
         "Inspector.Mesh.ResaveMesh": "Konservi Maŝaron",
         "Inspector.Mesh.RecalculateNormals": "Rekalkuli Ortantojn",
         "Inspector.Mesh.RecalculateNormalsSmooth": "Rekalkuli Ortantojn (glata ombrado)",
-        "Inspector.Mesh.RecalculateTangentsMikkt": "Rekalkuli Ortantojn (Mikktspace)",
+        "Inspector.Mesh.RecalculateTangentsMikkt": "Rekalkuli Tanĝantojn (spaco 'Mikkt')",
         "Inspector.Mesh.RecalculateTangentsSimple": "Rekalkuli Ortantojn (simpla)",
-
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Rekalkuli Ortantojn de Esprimoceloj",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Rekalkuli Ortantojn de Esprimoceloj (glata ombrado)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Rekalkuli Tanĝantojn de Esprimoceloj (spaco 'Mikkt')",
         "Inspector.Mesh.FlipNormals": "Renversi Ortantojn",
         "Inspector.Mesh.ReverseWinding": "Renversi Volvaĵon",
         "Inspector.Mesh.MakeDualSided": "Fari Duflanka",
@@ -1225,9 +1339,10 @@
         "Inspector.Mesh.ConvertToConvexHull": "Konverti al Konveksa Ŝelo",
         "Inspector.Mesh.ConvertToPointCloud": "Konverti al Punkta Nubo",
         "Inspector.Mesh.MergeDoubles": "Kunfandi Duoblojn",
-        "Inspector.Mesh.StripEmptyBlendshapes": "Forpreni Malplenajn Miksaĵformojn",
-        "Inspector.Mesh.StripBlendshapeNormals": "Forpreni Miksaĵformojn Ortantojn",
-        "Inspector.Mesh.StripBlendshapeTangents": "Forpreni Miksaĵformojn Tanĝantojn",
+        "Inspector.Mesh.StripEmptyBlendshapes": "Forpreni Malplenajn Esprimocelojn",
+        "Inspector.Mesh.StripBlendshapeNormals": "Forpreni Ortantojn de Esprimocelojn",
+        "Inspector.Mesh.StripBlendshapeTangents": "Forpreni Tanĝantojn de Esprimocelojn",
+        "Inspector.Mesh.MergeBlendshapes": "Kunfandi Esprim-celojn",
 
         "Inspector.Mesh.GetBoneList": "Akiri Ostan Liston",
         "Inspector.Mesh.GetBoneData": "Akiri Ostajn Datumojn",
@@ -1241,6 +1356,7 @@
         "Inspector.MeshRenderer.SplitByMaterial": "Disigi en apartajn maŝarojn laŭ materialo",
 
         "Inspector.MeshCollider.VHACD": "Dismetado De Konveksa Ŝelo (V-HACD 2.0)",
+        "Inspector.MeshCollider.ReplaceBox": "Anstataŭigi kun Kub-Kolizanto",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Ĝisdatigi movadajn modulojn de ĉeestantaj uzantoj",
 
@@ -1270,19 +1386,23 @@
         "Inspector.ReflectionProbe.Bake": "Baki Reflektadojn",
         "Inspector.ReflectionProbe.Baking": "Bakante...",
 
-        "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Apartigi partoj de maŝaro netuŝitaj de miksaĵformoj",
-        "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Nudigi Malplenajn nudigi malplenajn miksaĵformojn",
-        "Inspector.SkinnedMesh.StripBlendshapesResult": "Finita! Senvestigita: {n,plural, one {# Miksaĵformo} other {#  Miksaĵformojn}}",
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Apartigi partoj de maŝaro netuŝitaj de esprimceloj",
+        "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Nudigi Malplenajn nudigi malplenajn esprimocelojn",
+        "Inspector.SkinnedMesh.StripBlendshapesResult": "Finita! Senvestigita: {n,plural, one {# Esprimocelo} other {#  Esprimoceloj}}",
         "Inspector.SkinnedMesh.StripEmptyBones": "Nudigi Malplenajn ostojn",
         "Inspector.SkinnedMesh.StripBonesResult": "Finita! Senvestigita: {n,plural, one {# Osto} other {# Ostoj}}",
-        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes": "Baki sen-pelilajn Miksformojn",
-        "Inspector.SkinnedMesh.BakeBlendShapeResult": "Bakitaj Miksformoj: {n}",
+        "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes": "Baki sen-pelilajn Esprimoceloj",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult": "Bakitaj Esprimoceloj: {n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "Bildigi ostajn limigajn skatolojn",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Bildigi proksimumajn kunfanditajn ostajn sferajn limojn",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "Forigi bildojn limoj de ostoj",
-
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Kalkuli eksplicitajn limojn de nuntempa pozo",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Etendi eksplicitajn limojn de nuntempa pozo",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "Baki al Statikan Maŝaron",
+        
         "Inspector.SimpleAvatarProtection.RemoveAll": "Forigi Ĉiajn Aperojn",
-
+        "Inspector.SimpleAvatarProtection.RemoveSingle": "Forigi Unuopan Aperon",
+        "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>AVERTO!</size></color><br>Forigi ĉi tiun komponanton iel ajn krom se la dediĉitaj butonoj subaj ekigos la mekanismon de protektado kaj rezultos en mem-detruo kaj potenciala perdo de datumoj!",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "FORIGI protekton de avataro",
 
         "Inspector.BipedRig.GetDiagnosticInfo": "Akiri diagnozajn informojn pri Rigilaro",
@@ -1299,11 +1419,11 @@
         "Inspector.Texture.Format": "Formato: {format}, Memoro: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "VariantID: {variant}",
 
-        "Inspector.Texture.BakeTexture": "Baki Teksturo",
+        "Inspector.Texture.BakeTexture": "Baki Teksturon",
 
-        "Inspector.Texture.InvertRGB": "Inversigi RGB",
+        "Inspector.Texture.InvertRGB": "Inversigi RVB",
         "Inspector.Texture.InvertR": "Inversigi R",
-        "Inspector.Texture.InvertG": "Inversigi G",
+        "Inspector.Texture.InvertG": "Inversigi V",
         "Inspector.Texture.InvertB": "Inversigi B",
         "Inspector.Texture.InvertA": "Inversigi Alfon",
         "Inspector.Texture.ColorToAlphaWhite": "Koloro al Alfon (blankan)",
@@ -1312,12 +1432,13 @@
         "Inspector.Texture.AlphaToMask": "Alfo al Masko",
         "Inspector.Texture.RemoveAlpha": "Forigi Alfon",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Konverti al grizskala (averaĝe)",
-
-        "Inspector.Texture.SwapRG": "Interŝanĝi R kaj G",
+        "Inspector.Texture.ConvertToGrayscaleLuminance": "Konverti al grizskala (luminece)",
+        "Inspector.Texture.SwapRG": "Interŝanĝi R kaj V",
         "Inspector.Texture.SwapRB": "Interŝanĝi R kaj B",
-
-        "Inspector.Texture.SwapGB": "Interŝanĝi G kaj B",
-
+        "Inspector.Texture.SwapRA": "Interŝanĝi R kaj A",
+        "Inspector.Texture.SwapGB": "Interŝanĝi V kaj B",
+        "Inspector.Texture.SwapGA": "Interŝanĝi V kaj A",
+        "Inspector.Texture.SwapBA": "Interŝanĝi B kaj A",
         "Inspector.Texture.AddWhiteBackground": "Aldoni Blankan Fonon",
         "Inspector.Texture.AddBlackBackground": "Aldoni Nigran Fonon",
         "Inspector.Texture.Hue": "Kolortono:",
@@ -1335,20 +1456,25 @@
         "Inspector.Texture.RotateCW": "Turni 90° Dekstrume",
         "Inspector.Texture.RotateCCW": "Turni 90° Maldekstrume",
         "Inspector.Texture.Rotate180": "Turni 180°",
-
+        "Inspector.Texture.TrimTransparent" : "Tondi Travideblecon",
+        "Inspector.Texture.TrimByCornerColor" : "Tondi per Koloro de Anguloj",
         "Inspector.Texture.MakeSquare": "Fari Kvadrata",
         "Inspector.Texture.ToNearestPOT": "Al plej proksima potenco de du",
         "Inspector.Texture.MakeTileable": "Fari Kahelebla (proporcio de transiro):",
         "Inspector.Texture.TileLoop": "Kahelo (buklo)",
         "Inspector.Texture.TileMirror": "Kahelo (spegulo)",
-
+        "Inspector.Texture.NormalizeMaxOnly" : "Normaligi (maksimume nur)",
+        "Inspector.Texture.NormalizeMinMax" : "Normaligi (maksimume kaj minimume)",
+        "Inspector.Texture.NormalizeIndependent" : "Normaligi RVB sendepende (maksimume kaj minimume)",
+        "Inspector.Texture.BleedColorToAlpha" : "Likigi Koloron al Alfon",
+        
         "Inspector.Texture.InvalidFloats": "Diagnozo: Nevalidaj flosiloj",
         "Inspector.Texture.GenerateMetadata": "Diagnozo: Generi Bitmapajn Metadatenojn",
 
         "Inspector.Material.VariantInfo": "Varianto: {variantID} (Kruda: {rawVariantID})",
         "Inspector.Material.WaitingForApply": "Atendas aplikadon: {waiting}",
 
-        "Inspector.Audio.BakeAudio": "Baki Sonon",
+        "Inspector.Audio.BakeAudio": "Baki Soneron",
         "Inspector.Audio.FormatInfo": "Prova Specifo: {rate} Hz, Kanaloj: {channels} ({channel_count})",
         "Inspector.Audio.Duration": "Daŭro: {duration}",
         "Inspector.Audio.EncodingInfo": "Plene Deĉifrita: {decoded}, Dosiera Etendaĵo: {ext}",
@@ -1388,8 +1514,43 @@
         "Inspector.Rig.GenerateDebugVisuals": "Generi senararigajn bildojn",
         "Inspector.Rig.ClearDebugVisuals": "Klari vida elpurigado",
 
-        "Inspector.AvatarExpression.AutoAssign": "Aŭtomate Asigni Miksaĵformojn (uzante heŭristikon)",
+        "Inspector.AvatarExpression.AutoAssign": "Aŭtomate Asigni Esprimocelojn (uzante heŭristikon)",
 
+        "Inspector.CharacterController.Warning": "<color=red><size=150%>AVERTO!</size></color><br>Eblas uzi ĉi tiun komponanton kiel simple rigidkorpo per elekti by checking SimuliRotacion. Antaŭ ol vi faros, bonvolu kompreni ke tio ne estas optimumigita por ĉi tiu celo kaj ĝusta subteno por Rigidkorpoj venos ose.<br>Ĝusta subteno por rigidkorpoj ofertos:<br><b>- rendimento de CPU kaj reto</b> - per RolulKontrolilo vi akiros pli trean usado de la CPU kaj gravan kvanton de rettrafikon<br><b>- Limigoj</b> - vi eblos krei artikojn, ĉarnirojn, risortojn, kaj aliaj limigojn inter rigidkorpojn<br><b>- Glata simulado kaj interago por ĉiuj</b> - Rolulkontrolilo missignalos se alia persono provos interagi<br><b>- Novaj Ebloj kaj Iloj</b> - por fari la uzo de ilin multe pli faciler<br>-----------------------<br>Tiel longe kiel vi komprenas tiujn limigojn, amuziĝu!",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>AVERTO!</size></color><br>Eblas uzi ĉi tiun komponanton por interagi kun referencoj per uzi iliajn identnumerojn. Oni komune nomigis ĉi tiun procezon 'Ref-Kodumon'.<br><br><b>Antaŭ ol</b> vi faros ĉi tion, you do this, bonvolu kompreni ke ĉi tio <b>ne</b> estas subtanata kaj eble rompos ĉiutempe. Ne fidu al ĉi tiu funkciado en viaj kreitaĵoj.",
+
+        "Inspector.ParticleStyle.CommonTransitions": "Oftuzitaj Ŝablanoj de Transpaso:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "Maldissolvi kaj Fordissolvi per Alfo",
+        "Inspector.ParticleStyle.AlphaFadeIn": "Maldissolvi per Alfo",
+        "Inspector.ParticleStyle.AlphaFadeOut": "Fordissolvi per Alfo",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "Maldissolvi kaj Fordissolvi per Intenseco",
+        "Inspector.ParticleStyle.IntensityFadeIn": "Maldissolvi per Intenseco",
+        "Inspector.ParticleStyle.IntensityFadeOut": "Fordissolvi per Intenseco",
+        "Inspector.ParticleStyle.ClearFades": "Nuligi Dissolvagordojn",
+
+        "Inspector.Collider.SetFromLocalBounds": "Agordi de lokaj limoj",
+        "Inspector.Collider.SetFromGlobalBounds": "Agordi de mondaj limoj",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "Agordi de lokaj limoj (precize)",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "Agordi de mondaj limoj (precize)",
+        "Inspector.Collider.SetFromPreciseBounds": "Agordi de precizaj limoj",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "Agordi de precizaj cilindraj limoj",
+        "Inspector.Collider.Visualize": "Videbligi Kolizanton",
+
+        "Inspector.SimpleAwayIndicator.TestAway" : "Agordi al fora (cimspure)",
+        "Inspector.SimpleAwayIndicator.TestRestore" : "Restaŭri al normala (cimspure)",
+
+        "Inspector.Fields.Drive" : "Disko",
+        "Inspector.Fields.DriveWriteBack" : "Disko <size=50%>(kaŝmemorskribe)</size>",
+
+        "Inspector.Actions.CopyComponent" : "Kopii Komponanton",
+        "Inspector.Actions.MoveComponent" : "Movigi Komponanton",
+
+        "UserInspector.Title" : "Uzant-Inspektilo",
+
+        "WorkerInspector.Title" : "{name} Inspektilo",
+
+        "CreateNew.Title" : "Nova",
+        
         "Wizard.General.ProcessRoot": "Radiko de Procezo:",
         "Wizard.General.Result": "Rezulto:",
         "Wizard.General.ErrorNoRoot": "Neniu Radiko Elektita",
@@ -1397,14 +1558,14 @@
 
         "Wizard.AssetOptimization.Title": "Asistanto de Aktiva Optimumigo",
         "Wizard.AssetOptimization.CleanupUnusedAssets": "Purigi Neuzitajn Aktivaĵojn",
-          "Wizard.AssetOptimization.CleanupEmptySlots": "Purigi Malplenajn Fendojn",
+        "Wizard.AssetOptimization.CleanupEmptySlots": "Purigi Malplenajn Fendojn",
         "Wizard.AssetOptimization.CleanupDisabledMeshRenderers": "Purigi Malebligitajn Maŝar-bildigilojn",
         "Wizard.AssetOptimization.DeduplicateMaterials": "Malmultigi Materialojn",
         "Wizard.AssetOptimization.CleanupFileItems": "Purigi Dosier-eroj",
         "Wizard.AssetOptimization.MaxTextureResolution": "Agordi Maksimuman Tekstur-rezolucion",
         "Wizard.AssetOptimization.RecompressTextures": "Rekompremi Teksturojn",
-        "Wizard.AssetOptimization.RecalculateAllNormals": "Rekalkuli Ĉiujn Ortojn",
-        "Wizard.AssetOptimization.RecalculateAllNormalsMerged": "Rekalkuli Ĉiujn Ortojn (kunfanditajn)",
+        "Wizard.AssetOptimization.RecalculateAllNormals": "Rekalkuli Ĉiujn Ortantojn",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged": "Rekalkuli Ĉiujn Ortantojn (kunfanditajn)",
         "Wizard.AssetOptimization.RecalculateAllTangents": "Rekalkuli Ĉiujn Tanĝantojn (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult": "Ŝanĝis Grandecon de {n}",
 
@@ -1423,14 +1584,15 @@
         "Wizard.LightSources.Disable": "Malebligi",
         "Wizard.LightSources.Destroy": "Detrui",
 
-        "Wizard.CubemapCreator.Title": "Cubemap-Kreinto",
+        "Wizard.CubemapCreator.Title": "Kubomap-Kreinto",
         "Wizard.CubemapCreator.Textures": "Font-teksturoj:",
         "Wizard.CubemapCreator.TexturesNote": "Notu, ke kelkaj konvencioj interŝanĝis maldekstren kaj dekstren. Se la rezultita kubmapo malĝustas, provu interŝanĝi la maldekstran kaj dekstran teksturojn.",        "Wizard.CubemapCreator.PosX": "Pozitiva X (dekstre)",
+        "Wizard.CubemapCreator.PosX": "Positiva X (dekstre)",
         "Wizard.CubemapCreator.NegX": "Negativa X (maldekstre)",
         "Wizard.CubemapCreator.PosY": "Pozitiva Y (supre)",
         "Wizard.CubemapCreator.NegY": "Negativa Y (malsupre)",
-        "Wizard.CubemapCreator.PosZ": "Pozitiva Z (antaŭa)",
-        "Wizard.CubemapCreator.NegZ": "Negativa Z (malantaŭa)",
+        "Wizard.CubemapCreator.PosZ": "Pozitiva Z (antaŭe)",
+        "Wizard.CubemapCreator.NegZ": "Negativa Z (malantaŭe)",
         "Wizard.CubemapCreator.TopBottomRotation": "Supra/Malsupra Rotacio:",
 
         "Wizard.ReflectionProbes.Title": "Asistanto de Reflekt-sondoj",
@@ -1454,6 +1616,7 @@
         "Wizard.TextRenderer.ReplaceFont": "Anstataŭigi Tiparon",
         "Wizard.TextRenderer.SetColor": "Agordi Koloron",
 
+        "Desktop.Controls.Title": "Kontroliloj de Labortablo",
         "Desktop.OpenKeyboard": "Malfermi Klavaron",
         "Desktop.FollowCursor.On": "Sekvi Kursoron: Ek",
         "Desktop.FollowCursor.Off": "Sekvi Kursoron: For",
@@ -1465,16 +1628,17 @@
         "VolumePlaneSlicer.Highlight": "Marki",
         "VolumePlaneSlicer.Slicer": "Segmenti",
 
-        "Tutorial.Welcome.WelcomeTo": "Bonvenon al",
+        "Tutorial.Welcome.WelcomeTo": "Bonvenon!",
+        "Tutorial.Welcome.Description" : "Plonĝu en tute novan bituniverson kun nefinitaj eblecoj. Ĉu vi venas ĉi tien por societumi kaj kunvivi kun homoj tra la mondo aŭ konstrui, krei, kaj evoluigi iun ajn de bela desegnarto, interageblaj avataroj kaj akcesoraĵo, al kompleksaj interageblajmondoj kaj ludoj, Resonite estas nefina tajlorebla loko kie vi estos bonvenita kaj trovos grupon kun kiun resoni.<br><br>Antaŭ ol vi komencos esplori, ni unue givdos vin tra la agordo de iuj ajn necesaĵojn, por certigi glatan sperton. Kiam vi pretas, alklaku la butonon suban",
         "Tutorial.Welcome.LetsStart": "Ni Komencu!",
 
         "Tutorial.Welcome.AccountHeader": "{appName}-konto",
-        "Tutorial.Welcome.AccountDescription": "Krei konton donas al vi 1GB senpagan stokadon kaj aliron al konservado de artikoloj, favoraj avataroj, aldono de kontaktoj kaj mesaĝoj.",
+        "Tutorial.Welcome.AccountDescription": "Krei konton donas al vi 1GB senpagan stokadon kaj aliron al konservado de artikoloj, plej ŝatatajn avataroj, aldono de kontaktuloj kaj mesaĝoj.",
         "Tutorial.Welcome.AccountCreate": "Krei konton",
         "Tutorial.Welcome.AccountLogin": "Mi jam havas konton",
         "Tutorial.Welcome.AccountSkip": "Daŭrigi sen konto",
         "Tutorial.Welcome.AccountSkipHeader": "Ĉu preterlasi krei konton?",
-        "Tutorial.Welcome.AccountSkipDescription": "Iuj funkcioj kiel konservi artikolojn por stokado, favorante avataron pri aldono de kontaktoj ne estos alireblaj.",
+        "Tutorial.Welcome.AccountSkipDescription": "Iuj funkcioj kiel konservi artikolojn por stokado, plej ŝatatan avataron pri aldono de kontakultoj ne estos alireblaj.",
         "Tutorial.Welcome.AccountSkipConfirm": "Vere preterpasi",
 
         "Tutorial.Welcome.SettingsHeader": "Bazaj Preferoj",
@@ -1492,16 +1656,18 @@
         "Tutorial.Welcome.SettingsHeight": "Via alteco",
         "Tutorial.Welcome.SettingsHeightExamples": "Ekzemploj: 1.85 m, 185 cm, 6' 1\", 6 futo 1 colo",
 
-        "Tutorial.Welcome.StartTutorialHeader": "Komenci Lernilon",
+        "Tutorial.Welcome.StartTutorialHeader": "Ĉu vi pretas komenci esplori?",
         "Tutorial.Welcome.StartTutorialDescription": "Ni translokos vin al baza lernila mondo por helpi vin komenci kun {appName}. Vi povas elekti aŭ havi la lernil-mondon publika, permesante al {appName}-komunumo aliĝi kaj helpi vin, aŭ lerni memstare.",
-
+        "Tutorial.Welcome.StartTutorial": "Komenci Lernilon",
+        
         "Tutorial.CommunityYouTube.Title": "Komunumaj YouTube-kanaloj",
 
         "Tutorial.UserResources.UserResourcesTitle": "Uzant-resursoj",
         "Tutorial.UserResources.SupportTitle": "Kiel subteni {appName}?",
         "Tutorial.UserResources.MerchandiseTitle": "Varoj de {appName}",
 
-        "Tutorial.Intro.BadgesModerator": "Moderigisto",
+        "Tutorial.Intro.BadgesAppTeam": "{appName} Teamo",
+        "Tutorial.Intro.BadgesModerator": "Kontrolisto",
         "Tutorial.Intro.BadgesMentor": "Mentoro",
         "Tutorial.Intro.BadgesDisabilityHearing": "Aŭde Handikapita",
         "Tutorial.Intro.BadgesDisabilityVision": "Vide Handikapita",
@@ -1549,13 +1715,13 @@
         "Migration.ResetID.Description":"<color=red><b>AVERTO:</b></color> Elekti ĉi tiun opcion <b>PARTE ROMPOS EKZISANTAJN ENHAVOJN KAJ ES NENULIGEBLA</b>, ĉi tiu enhavas iu ajn Uzantnom-referencoj en enhavoj de uzantoj, servicoj de la komunumo, ligiloj, nubovariabloj, kaj pli. Ĉi tiuj referencoj estos restartigotaj, sed via aĵoj, mondoj, kontaktuloj, kaj mesaĵoj mem ne perdotos. Ni rekomendas ke vi uzu ĉi tiun opcion <b>NUR</b> se al vi plaĉus forĵeti vian malnovan Uzantnumeron kaj anstataŭi ĝin per nova, hazargidita Uzantnumero. Krom se vi havas fortan motivan restartigi vian Uzantnumeron, vi <b>NE ELEKTU</b> ĉi tiun opcion. Via Uzantnumero ŝanĝos ĉi tiel: \n U-MiaUzantnomo -> U-fX3pKe7AYYQ",
 
         "Migration.DataSelection.Title": "Kiam ni migradigos vian kondon, kiujn datumojn ni migradigu?",
-        "Migration.DataSelection.Everything": "̂Ciuj",
+        "Migration.DataSelection.Everything": "Ĉiujn",
         "Migration.DataSelection.Choose": "Permesu al mi elekti",
 
         "Migration.DataSelection.Favorites": "Plej Ŝatatajoj (avataro, hejmo, fotilo, kalvaro, faceotj)",
 
-        "Migration.DataSelection.Favorites.Description": "Ĉi tiu migradigos vian hejmon, plej ŝatatan avataron, klavaron, kaj panelon unue, por ke vi povas uzi ilin kiom baldaŭ tiom eble.\n <color=red><b>AVERTO:</b></color> Se vi elektu ĉi tiun opcion, eble vi <b>PERDOS IUJN AJN ŜANĜOJN</b> faritajn en ĉi tiu platformo antaŭ ol la migrado al viajn plej ŝatitaĵon.",
-        "Migration.DataSelection.Favorites.OverwriteTitle": "Dum la migrado, ni anstataŭigu viajn plej ŝatitaĵojn?",
+        "Migration.DataSelection.Favorites.Description": "Ĉi tiu migradigos vian hejmon, plej ŝatatajn avataron, klavaron, kaj panelon unue, por ke vi povas uzi ilin kiom baldaŭ tiom eble.\n <color=red><b>AVERTO:</b></color> Se vi elektu ĉi tiun opcion, eble vi <b>PERDOS IUJN AJN ŜANĜOJN</b> faritajn en ĉi tiu platformo antaŭ ol la migrado al viajn plej ŝatataĵon.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "Dum la migrado, ni anstataŭigu viajn plej ŝatataĵojn?",
 
         "Migration.DataSelection.Home.Title": "Agordi vian malnovan hejmon kiel defaŭlto?",
         "Migration.DataSelection.Home.Description": "When we migrate your data, your original cloud home will be placed under different URL and you will get a brand new cloud home as default. However if you'd prefer, we can default your old home as the default one. Even if you select \"No\", your old cloud home will still be accessible and you can favorite it as your default later.",
@@ -1570,7 +1736,7 @@
 
         "Migration.Start": "Komenci Migradon",
         "Migration.Groups.Title": "Migradigi Grupojn",
-        "Migration.Groups.Introduction": "Ni migragidu viajn grupojn?",
+        "Migration.Groups.Introduction": "Ni migradigu viajn grupojn?",
 
         "Migration.Groups.Description": "Ĉiaj grupo, de kiuj vi estas administranto, migradotos defaŭlte. Se vi volus migradigi nur elektitajn grupojn, alklaku la butonon sube por ŝargi ilin kaj poste, elekti tiujn grupojn, kiujn vi volus migradigi.",
 
@@ -1642,6 +1808,8 @@
         "Tutorial.Saving.Title": "Bonvenon Hejmen!",
         "Tutorial.Saving.Content": "Bonvenon al via <b><i><color=hero.yellow>Hejm-mondo</b></i></color>! Ĉi tie estas tie, kie vi aperiĝos ĉiufoje kiam vi ensalutos.<br><br>Ĉi tio estas mundo tuta propra, do iujn ŝanĝojn vi faras estas konserveblan.<br><br>Se vi konservos, ĉio estos precize kial forlasita kiam vi revenos!",
 
+        "Tutorial.Teleporter.Error": "Malsukcesis ŝarĝi vian nubohejmon!<br><size=66%>Eliru el la teleportilo kaj eniru denove por reprovi.</size>",
+
         "CloudHome.Info.OnlineUsers": "Enrete {online_users,plural, one {uzanto} other {uzantoj}}: {online_users}<br>Joinable {joinable_users,plural, one {aliĝebla} other {aliĝeblaj}}: {joinable_users}",
         "CloudHome.Info.Moderation": "Kontrolado",
         "CloudHome.Info.Inventory": "Inventaro",
@@ -1656,8 +1824,8 @@
         "CloudHome.Info.DashInfoVR": "Por viaj unuaj paŝoj, estas kelkaj aferoj pri kiuj vin ni sciigu. Vi havas <i><color=hero.purple>Panelon</color></i>, kiun vi povas malfermi per premi B or Y. Bonvolu pensi pri ĝi kiel via labortablo aŭ kontrolpanelo.<br><br>Ĉu vi konfusiĝis, ĉi tiu ekrano havas ian kroman informon por vin helpi. Alklaku la suban butonon por kaŝi ĉi tiun mesaĝon.",
         "CloudHome.Info.DashInfoVRNoButtons": "Por viaj unuaj paŝoj, estas kelkaj aferoj pri kiuj vin ni sciigu. Vi havas. Vi havas <i><color=hero.purple>Panelon</color></i>, kiun vi povas malfermi per premtemi la Menubutonon ĝis la cirklo kompletiĝas. Bonvolu pensi pri ĝi kiel via labortablo aŭ kontrolpanelo.<br><br>Ĉu vi konfusiĝis, ĉi tiu ekrano havas ian kroman informon por vin helpi. Alklaku la suban butonon por kaŝi ĉi tiun mesaĝon.",
 
-        "CloudHome.Info.GoToWiki": "Iri al Wiki-paĝaron!",
-        "CloudHome.Info.GoToDiscord": "Iri al Discord-servilon!",
+        "CloudHome.Info.GoToWiki": "Ek al Wiki-paĝaron!",
+        "CloudHome.Info.GoToDiscord": "Ek al Discord-servilon!",
 
         "CloudHome.Info.ModerationTab.Title": "Kontrolado!",
         "CloudHome.Info.ModerationTab.Content": "Sekureco tre gravas al ni. Se vi bezonas helpon aŭ bezonas raporti pri uzanto, malfermu help-bileton en nia <u><color=hero.cyan>Portalo de Kontrolado.</color></u><sprite name=hyperlink><br><br>Ni havas fortan temamon de volontaj kontralodisto <sprite name=modbadge> kiuj konservas la komunumon sekura! Bonvolu krei help-bileton se vi havas demandojn aŭ observas konduton, kio rompas la gvidnormaron.",
@@ -1830,16 +1998,25 @@
         "UI.TextDisplay.Landscape": "Pejzaĝo",
         "UI.TextDisplay.Portrait": "Portreto",
         "UI.TextDisplay.NormalText": "Normala",
+        "UI.TextDisplay.MonospaceText": "Egallarĝa",
 
         "UI.VideoPlayer.GlobalSettings": "Mallokaj<br>Agordoj",
         "UI.VideoPlayer.LocalSettings": "Loka<br>Agordoj",
         "UI.VideoPlayer.SpatialAudio": "Spaca<br>Aŭdio",
         "UI.VideoPlayer.AreaBroadcast": "Zona<br>Elsendo",
+        "UI.VideoPlayer.BroascastAudio": "Ellsendata<br>Sono",
+        "UI.VideoPlayer.EnterURL": "<i><alpha=#77>Eniru URL-on Ĉi tien</closeall>",
+        "UI.VideoPlayer.AudioZoneTheater": "Loke al<br>Teatro",
+        "UI.VideoPlayer.AudioZoneGlobal": "Aŭdebla<br>al Mondo",
         "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {uzanto} other {uzantoj}}<br>ŝarĝita",
+        "UI.VideoPlayer.AllUsersLoaded": "Ĉiuj uzantoj<br>ŝarĝitaj",
 
         "UI.ColorPicker.ColorPicker": "Koloro Elektilo",
 
         "UI.ColorPicker.Linear": "Lineara",
+
+        "UI.ColorPicker.Hexadecimal": "Deksusuma",
+        "UI.ColorPicker.ColorSwatches": "Specimenaro",
 
         "UI.ColorPicker.Red": "Ruĝa",
         "UI.ColorPicker.Green": "Verda",
@@ -1852,7 +2029,9 @@
         "UI.ColorPicker.Alpha": "Alfo",
         "UI.ColorPicker.Gain": "Gajno",
 
-        "Tools.Names.MultiTool": "Kunmetita Ilo",
+        "UI.ProgressBar.ImportingItem": "Importante Eron",
+
+        "Tools.Names.MultiTool": "Plur-Ilo",
 
         "Tools.Names.CommonTools": "Kutimaj Iloj",
         "Tools.Names.ManipulationTools": "Iloj por Manipulado",
