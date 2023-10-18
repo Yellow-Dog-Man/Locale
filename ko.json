@@ -436,6 +436,9 @@
         "Login.DuplicateAccount": "중복 계정입니다.",
         "Login.DuplicateAccount.Description": "support.resonite.com 사이트를 통해 지원을 받으세요.",
 
+        "Login.UnknownError": "알 수 없는 오류",
+        "Login.UnknownError.Description": "로그인 진행 중 알 수 없는 오류가 발생하였습니다. support.resonite.com를 통해 지원을 받아보세요.",
+        
         "Register.MissingRequest": "세부 정보가 빠져 있습니다.",
         "Register.MissingRequest.Description": "등록시 필요한 정보가 일부 누락되어 있습니다.",
         
@@ -481,6 +484,18 @@
         "Register.ErrorCheckingUserId": "UserID 오류체크",
         "Register.ErrorCheckingUserId.Description": "support.resonite.com을 통해 지원을 받으세요.",
 
+        "Recovery.MissingEmail" : "메일 주소가 비어 있습니다.",
+        "Recovery.MissingEmail.Description" : "전자메일 정보를 작성하셨나요?",
+
+        "Recovery.IncorrectEmail" : "메일 주소가 잘못되었습니다.",
+        "Recovery.IncorrectEmail.Description" : "전자메일 주소를 잘못 입력하셨습니다. 확인 후 다시 시도해보세요.",
+
+        "Recovery.NoPasswordSetup" : "비밀번호가 설정되지 않았습니다.", 
+        "Recovery.NoPasswordSetup.Description" : "support.resonite.com을 통해 지원을 받으세요.",
+
+        "Register.UnknownError": "알 수 없는 오류",
+        "Register.UnknownError.Description": "계정 등록 중 알 수 없는 오류가 발생하였습니다. support.resonite.com을 통해 지원을 받아보세요.",
+        
         "Account.Login": "로그인",
         "Account.Logout": "로그아웃",
         "Account.Register": "가입",
@@ -692,6 +707,12 @@
         "Tooltips.Dev.Rotation" : "회전조작",
         "Tooltips.Dev.Scale" : "배율조작",
 
+        "Tooltips.Dev.Selection.Single": "단일선택 사용",
+        "Tooltips.Dev.Selection.Multi": "다중선택 사용",
+
+        "Tooltips.Dev.Interaction.Tip": "등배조작",
+        "Tooltips.Dev.Interaction.Projection": "비례조작",
+
         "Tooltip.Color.Picker": "색상 선택기",
 
         "Tooltip.GrabbableSetter.Scalable": "크기 조정이 가능하게 설정",
@@ -708,6 +729,10 @@
         "Tooltip.Light.Point": "점(Point)",
         "Tooltip.Light.Spot": "스포트라이트(Spot)",
         "Tooltip.Light.Sun": "태양(Sun)/직사(Directional)",
+
+        "Tooltip.Light.Shadows.None": "그림자 없음",
+        "Tooltip.Light.Shadows.Hard": "선명한 그림자(Hard)",
+        "Tooltip.Light.Shadows.Soft": "흐릿한 그림자(Soft)",
 
         "Tooltip.MeshVisibility.KeepShadow": "그림자 유지",
         "Tooltip.MeshVisibility.ShadowOff": "그림자 끄기",
@@ -743,8 +768,8 @@
         "Tooltip.ProtoFlux.Drive" : "Drive(점유연결)",
         "Tooltip.ProtoFlux.Source" : "Source(비점유연결)",
         "Tooltip.ProtoFlux.Reference" : "Reference(참조추출)",
-        "Tooltip.ProtoFlux.Write" : "Write",
-        "Tooltip.ProtoFlux.Proxy" : "Proxy",
+        "Tooltip.ProtoFlux.Write" : "Write 추출",
+        "Tooltip.ProtoFlux.Proxy" : "프록시 추출",
         "Tooltip.ProtoFlux.CreateLocal" : "로컬변수 생성",
         "Tooltip.ProtoFlux.CreateStore" : "변수 생성",
         "Tooltip.ProtoFlux.CreateDataModelStore" : "Data Model 변수 생성",
@@ -755,6 +780,26 @@
         "Tooltip.ProtoFlux.Unpack" : "<size=50%>{name}</size>을(를) 언팩",
         "Tooltip.ProtoFlux.ExplicitCast" : "명시적 형변환\n<size=50%>(<color=red>경고:</color> 잠재적 데이터 손실이 발생할 수 있습니다.)</size>",
 
+        "Tooltip.Meter.Mode.Ray" : "모드: 직선",
+        "Tooltip.Meter.Mode.Perpendicular" : "모드: 수직",
+        "Tooltip.Meter.Mode.Drag" : "모드: 끌기",
+
+        "Tooltip.Meter.Points.Two" : "두점",
+        "Tooltip.Meter.Points.Multiple" : "다점",
+
+        "Tooltip.Meter.ObjectSpace" : "지정 대상 좌표계 기준",
+        "Tooltip.Meter.WorldSpace" : "월드 좌표계 기준",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "모드: 메시 베이크",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "모드: 스킨드 메시 베이크",
+        "Tooltip.Glue.Mode.ParentObjects" : "모드: 계층관계로 묶기",
+
+        "Tooltip.RigTransfer.ClearSource" : "원본 삭제",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "단일객체: ON",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "단일객체: OFF",
+        "Tooltip.ComponentClone.ClearTemplate" : "임시 저장본 삭제",
+        
         "ProtoFlux.UI.Call" : "호출",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>비동기</size> 호출",
         "ProtoFlux.UI.NodeBrowser.Title" : "ProtoFlux 노드 탐색기",
