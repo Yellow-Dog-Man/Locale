@@ -922,6 +922,8 @@ UI.ColorPicker.Value
 UI.ColorPicker.Alpha  
 UI.ColorPicker.Gain  
 UI.ProgressBar.ImportingItem  
+UI.Camera.Automatic  
+UI.Camera.Manual  
 Tools.Names.MultiTool  
 Tools.Names.CommonTools  
 Tools.Names.ManipulationTools  

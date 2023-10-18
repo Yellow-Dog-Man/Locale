@@ -267,4 +267,6 @@ UI.VideoPlayer.AudioZoneTheater
 UI.VideoPlayer.AudioZoneGlobal  
 UI.VideoPlayer.UsersLoaded  
 UI.VideoPlayer.AllUsersLoaded  
+UI.Camera.Automatic  
+UI.Camera.Manual  
 

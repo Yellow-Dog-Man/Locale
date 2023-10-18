@@ -68,4 +68,6 @@ Importer.Slices.TitleGrayscale
 Importer.Slices.Description  
 Tutorial.Teleporter.Error  
 UI.VideoPlayer.AllUsersLoaded  
+UI.Camera.Automatic  
+UI.Camera.Manual  
 

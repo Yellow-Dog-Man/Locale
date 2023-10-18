@@ -62,4 +62,6 @@ Tooltip.ComponentClone.SingleInstanceOn
 Tooltip.ComponentClone.SingleInstanceOff  
 Tooltip.ComponentClone.ClearTemplate  
 Tutorial.Teleporter.Error  
+UI.Camera.Automatic  
+UI.Camera.Manual  
 

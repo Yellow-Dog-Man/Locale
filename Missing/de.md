@@ -2,16 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # German [de]
-Login.UnknownError  
-Login.UnknownError.Description  
-Recovery.MissingEmail  
-Recovery.MissingEmail.Description  
-Recovery.IncorrectEmail  
-Recovery.IncorrectEmail.Description  
-Recovery.NoPasswordSetup  
-Recovery.NoPasswordSetup.Description  
-Register.UnknownError  
-Register.UnknownError.Description  
 Tooltips.Dev.Selection.Single  
 Tooltips.Dev.Selection.Multi  
 Tooltips.Dev.Interaction.Tip  
@@ -33,4 +23,6 @@ Tooltip.RigTransfer.ClearSource
 Tooltip.ComponentClone.SingleInstanceOn  
 Tooltip.ComponentClone.SingleInstanceOff  
 Tooltip.ComponentClone.ClearTemplate  
+UI.Camera.Automatic  
+UI.Camera.Manual  
 

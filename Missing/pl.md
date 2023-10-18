@@ -101,6 +101,8 @@ Inspector.Fields.DriveWriteBack
 VolumePlaneSlicer.Highlight  
 VolumePlaneSlicer.Slicer  
 Tutorial.Teleporter.Error  
+UI.Camera.Automatic  
+UI.Camera.Manual  
 Tools.Names.GrabbableSetter  
 Tools.Names.PhysicalColliderSetter  
 Tools.Names.MeshVisibility  

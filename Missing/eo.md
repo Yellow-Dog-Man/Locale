@@ -497,4 +497,6 @@ UI.VideoPlayer.AllUsersLoaded
 UI.ColorPicker.Hexadecimal  
 UI.ColorPicker.ColorSwatches  
 UI.ProgressBar.ImportingItem  
+UI.Camera.Automatic  
+UI.Camera.Manual  
 
