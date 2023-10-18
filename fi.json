@@ -398,36 +398,103 @@
         "Indicator.LiveHiddenMessage": "(tiedot piilotettu suoratoiston aikana)",
 
         "Login.InvalidCredentials": "Virheelliset kirjautumistiedot",
+        "Login.InvalidCredentials.Description": "Tarkista kirjautumistietosi ja yritä uudelleen tai valitse \"Unohtunut salasana?\"",
+
         "Login.InvalidLogin": "Virheelliset kirjautumistiedot",
+        "Login.InvalidLogin.Description": "Tarkista kirjautumistietosi ja yritä uudelleen tai valitse \"Unohtunut salasana?\"",
 
         "Login.MalformedUID": "Virheelliset laitetiedot",
+        "Login.MalformedUID.Description": "Yritä uudelleen asennusta tai ota yhteyttä tukeen osoitteessa {supportUrl}.",
+
         "Login.MissingUID": "Puutteelliset laitetiedot",
+        "Login.MissingUID.Description": "Yritä uudelleen asennusta tai ota yhteyttä tukeen osoitteessa {supportUrl}.",
+
         "Register.MissingUID": "Virheelliset laitetiedot",
+        "Register.MissingUID.Description": "Yritä uudelleen asennusta tai ota yhteyttä tukeen osoitteessa {supportUrl}.",
+
         "Register.MalformedUID": "Virheelliset laitetiedot",
+        "Register.MalformedUID.Description": "Yritä uudelleen asennusta tai ota yhteyttä tukeen osoitteessa {supportUrl}.",
 
         "Login.MissingLogin": "Puuttuvat tunnukset",
+        "Login.MissingLogin.Description": "Unohditko antaa kirjautumistunnukset?",
+
         "Login.InvalidRecoveryCode": "Virheellinen palautuskoodi",
+        "Login.InvalidRecoveryCode.Description": "Tarkista palautuskoodi ja yritä uudelleen.",
+
         "Login.UnsupportedAuthentication": "Todennusmenetelmää ei tueta",
+        "Login.UnsupportedAuthentication.Description": "Emme tue tätä todennusmenetelmää, kokeile toista.",
+
         "Login.EmailNotVerified": "Vahvistamaton sähköposti",
-        "Login.AccountTempLocked": "Käyttäjätili lukittu.",
-        "Login.AccountBanned": "Käyttäjätili estetty.",
+        "Login.EmailNotVerified.Description": "Sähköpostiasi ei ole vahvistettu. Vahvistusviesti on lähetetty sähköpostiosoitteeseesi. Tarkista myös roskapostikansiosi.",
+
+        "Login.AccountTempLocked": "Käyttäjätili lukittu",
+        "Login.AccountTempLocked.Description": "Ota yhteyttä moderaatioon osoitteessa {moderationUrl}.",
+
+        "Login.AccountBanned": "Käyttäjätili estetty",
+        "Login.AccountBanned.Description": "Ota yhteyttä moderaatioon osoitteessa {moderationUrl}.",
+
         "Login.DuplicateAccount": "Duplikaatti käyttäjätili",
+        "Login.DuplicateAccount.Description": "Ota yhteyttä tukeen osoitteessa {supportUrl}.",
+
+        "Login.UnknownError": "Tuntematon virhe",
+        "Login.UnknownError.Description": "Kirjautumisessa tapahtui tuntematon virhe. Ota yhteyttä tukeen osoitteessa {supportUrl}.",
 
         "Register.MissingRequest": "Puuttuvat rekisteröintitiedot",
+        "Register.MissingRequest.Description": "Emme löytäneet rekisteröintitietojasi. Muista lisätä ne rekisteröitymisen yhteydessä.",
+
         "Register.InvalidEmail": "Virheellinen sähköpostiosoite",
+        "Register.InvalidEmail.Description": "Sähköpostiosoitteesi on virheellinen.",
+
         "Register.MissingUsername": "Puuttuva käyttäjänimi",
+        "Register.MissingUsername.Description": "Määrititkö käyttäjänimesi?",
+
         "Register.MissingEmail": "Puuttuva sähköpostiosoite",
+        "Register.MissingEmail.Description": "Määrititkö sähköpostiosoitteesi?",
+
         "Register.UsernameTooLong": "Käyttäjänimi liian pitkä",
+        "Register.UsernameTooLong.Description": "Käyttäjänimen maksimipituus on 32 merkkiä.",
+
         "Register.UsernameContainsAmpersand": "Käyttäjänimi ei voi sisältää @",
+        "Register.UsernameContainsAmpersand.Description": "Käyttäjänimessä ei voi käyttää @ -merkkiä.",
+
         "Register.UsernameStartsWithU": "Käyttäjänimi ei voi alkaa U-",
+        "Register.UsernameStartsWithU.Description": "Käyttäjänimet eivät voi alkaa U-.",
+
         "Register.InvalidUsername": "Virheellinen käyttäjänimi",
+        "Register.InvalidUsername.Description": "Käyttäjänimesi on virheellinen.",
+
         "Register.InvalidDateOfBirth": "Virheellinen syntymäaika",
+        "Register.InvalidDateOfBirth.Description": "Syntymäaikasi on virheellinen.",
+
         "Register.UserContainsBlockedTerms": "Käyttäjänimi sisältää estettyjä sanoja",
+        "Register.UserContainsBlockedTerms.Description": "Käyttäjänimesi sisältää estettyjä sanoja. Jos uskot tämän olevan virhe, ota yhteyttä {supportUrl}.",
+
         "Register.MissingPassword": "Puuttuva salasana",
+        "Register.MissingPassword.Description": "Et kirjoittanut salasanaasi.",
+
         "Register.InvalidPassword": "Virheellinen salasana",
+        "Register.InvalidPassword.Description": "Salasanasi on virheellinen. Sen tulee sisältää vähintään kahdeksan (8) merkkiä, yhden (1) numeron, yhden (1) ison kirjaimen ja yhden (1) pienen kirjaimen.",
+
         "Register.EmailAlreadyRegistered": "Sähköpostiosoite on jo käytössä",
-        "Register.UsernameAlreadyRegistered": "Käyttäjäni on jo käytössä",
+        "Register.EmailAlreadyRegistered.Description": "Tätä sähköpostiosoitetta käyttävä tili on jo olemassa. Jos olet unohtanut salasanasi, napsauta \"Unohtunut salasana?\". Voit myös ottaa yhteyttä tukeen osoitteessa {supportUrl}.",
+
+        "Register.UsernameAlreadyRegistered": "Käyttäjänimi on jo käytössä",
+        "Register.UsernameAlreadyRegistered.Description": "Tätä käyttäjänimeä käyttävä tili on jo olemassa. Jos olet unohtanut salasanasi, napsauta \"Unohtunut salasana?\". Voit myös ottaa yhteyttä tukeen osoitteessa {supportUrl}.",
+
         "Register.ErrorCheckingUserId": "UserID tarkastusvirhe",
+        "Register.ErrorCheckingUserId.Description": "Ota yhteyttä tukeen osoitteessa {supportUrl}.",
+
+        "Recovery.MissingEmail": "Puuttuva sähköpostiosoite",
+        "Recovery.MissingEmail.Description": "Määrititkö sähköpostiosoitteesi?",
+
+        "Recovery.IncorrectEmail": "Väärä sähköpostiosoite",
+        "Recovery.IncorrectEmail.Description": "Annoit väärän sähköpostiosoitteen salasanan palautusta varten. Tarkista tietosi ja yritä uudelleen.",
+
+        "Recovery.NoPasswordSetup": "Salasanaa ei määritetty", 
+        "Recovery.NoPasswordSetup.Description": "Ota yhteyttä tukeen osoitteessa {supportUrl}.",
+
+        "Register.UnknownError": "Tuntematon virhe",
+        "Register.UnknownError.Description": "Rekisteröitymisessä tapahtui tuntematon virhe. Ota yhteyttä tukeen osoitteessa {supportUrl}.",
 
         "Account.Login": "Kirjaudu sisään",
         "Account.Logout": "Kirjaudu ulos",
@@ -640,6 +707,12 @@
         "Tooltips.Dev.Rotation": "Kierto",
         "Tooltips.Dev.Scale": "Skaala",
 
+        "Tooltips.Dev.Selection.Single": "Yksi",
+        "Tooltips.Dev.Selection.Multi": "Moni",
+
+        "Tooltips.Dev.Interaction.Tip": "Kärki",
+        "Tooltips.Dev.Interaction.Projection": "Projektio",
+
         "Tooltip.Color.Picker": "Värinvalitsija",
 
         "Tooltip.GrabbableSetter.Scalable": "Aseta skaalautuva",
@@ -656,6 +729,10 @@
         "Tooltip.Light.Point": "Piste",
         "Tooltip.Light.Spot": "Spotti",
         "Tooltip.Light.Sun": "Aurinko",
+
+        "Tooltip.Light.Shadows.None": "Ei varjoja",
+        "Tooltip.Light.Shadows.Hard": "Terävät varjot",
+        "Tooltip.Light.Shadows.Soft": "Pehmeät varjot",
 
         "Tooltip.MeshVisibility.KeepShadow": "Pidä varjot",
         "Tooltip.MeshVisibility.ShadowOff": "Poista käytöstä varjot",
@@ -703,9 +780,29 @@
 
 
 
+        "Tooltip.Meter.Mode.Ray": "Tila: Säde",
+        "Tooltip.Meter.Mode.Perpendicular": "Tila: Kohtisuora",
+        "Tooltip.Meter.Mode.Drag": "Tila: Veto",
 
+        "Tooltip.Meter.Points.Two": "Kaksi pistettä",
+        "Tooltip.Meter.Points.Multiple": "Useita pisteitä",
 
+        "Tooltip.Meter.ObjectSpace": "Mittaa objektiavaruudessa",
+        "Tooltip.Meter.WorldSpace": "Mittaa maailmanavaruudessa",
 
+        "Tooltip.Glue.Mode.BakeMeshes": "Tila: Beikkaa tahkoverkot",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes": "Tila: Beikkaa skinned meshit",
+        "Tooltip.Glue.Mode.ParentObjects": "Tila: Lisää yliluokkaan",
+
+        "Tooltip.RigTransfer.ClearSource": "Nollaa lähde",
+
+        "Tooltip.ComponentClone.SingleInstanceOn": "Single Instance: On",
+        "Tooltip.ComponentClone.SingleInstanceOff": "Single Instance: Off",
+        "Tooltip.ComponentClone.ClearTemplate": "Nollaa malli",
+
+        "ProtoFlux.UI.Call": "Call",
+        "ProtoFlux.UI.AsyncCall": "<size=50%>Async</size> Call",
+        "ProtoFlux.UI.NodeBrowser.Title": "ProtoFlux Nodes",
 
         "CreateNew.Back": "<<< <i>Takaisin</i>",
         "CreateNew.EmptyObject": "Tyhjä Objekti",
@@ -734,7 +831,7 @@
         "CreateNew.Text.Outline": "Ääriviivoilla",
 
         "CreateNew.Editor": "Editori",
-        "CreateNew.Editor.UserInspector": "Käyttäjätarkastaja",
+        "CreateNew.Editor.UserInspector": "Käyttäjätarkistaja",
         "CreateNew.Editor.LightSourcesWizard": "Valonlähteiden asetukset",
         "CreateNew.Editor.TextRendererWizard": "Tekstin renderöijän asetukset",
         "CreateNew.Editor.AssetOptimizationWizard": "Resurssien optimointi",
@@ -1074,7 +1171,7 @@
         "Settings.HideAllTutorials": "Piilota kaikki oppaat",
         "Settings.ShowInteractionHints": "Näytä vihjeitä",
         "Settings.PrimaryController": "Ensisijainen ohjain",
-
+        "Settings.Hotswitching": "VR-Pikavaihto",
         "Settings.AllowStrafing": "Salli sivuttain liikkuminen",
         "Settings.UseHeadDirectionForMovement": "Käytä pään suuntaa liikkumiseen",
         "Settings.SmoothTurn": "Pehmeä kääntyminen",
@@ -1448,7 +1545,7 @@
         "Inspector.Actions.CopyComponent": "Kopioi komponentti",
         "Inspector.Actions.MoveComponent": "Siirrä komponentti",
 
-        "UserInspector.Title": "Käyttäjätarkastaja",
+        "UserInspector.Title": "Käyttäjätarkistaja",
 
 
 
@@ -1712,6 +1809,8 @@
 
 
 
+
+
         "CloudHome.Info.Moderation": "Moderaatio",
         "CloudHome.Info.Inventory": "Inventaario",
         "CloudHome.Info.Tools": "Työkalut",
@@ -1931,6 +2030,9 @@
         "UI.ColorPicker.Gain": "Vahvistus",
 
         "UI.ProgressBar.ImportingItem": "Tuodaan esinettä",
+
+        "UI.Camera.Automatic": "Automaattinen",
+        "UI.Camera.Manual": "Manuaalinen",
 
         "Tools.Names.MultiTool": "Monityökalu",
 
