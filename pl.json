@@ -1,6 +1,6 @@
 {
     "localeCode": "pl",
-    "authors": ["art0007i", "DarkSugar", "Alex_2Pi", "FoxoBread"],
+    "authors": ["art0007i", "DarkSugar", "Alex_2Pi", "FoxoBread", "AdamSkI2003"],
     "messages": {
 
         "General.OK": "OK",
@@ -114,11 +114,11 @@
         "Inventory.CreateDirectory": "Utwórz folder",
         "Inventory.SaveHeld": "Zapisz trzymane",
         "Inventory.GetURL": "Kopiuj URL",
-        "Inventory.Inventories": "Ekwipuneki",
+        "Inventory.Inventories": "Ekwipunki",
         "Inventory.Share": "Udostepnij",
         "Inventory.Unshare": "Cofnij udostępnianie",
         "Inventory.SaveAvatar": "Zapisz Awatara",
-        "Inventory.Favorite.Home": "Ustaw domu",
+        "Inventory.Favorite.Home": "Ustaw dom",
         "Inventory.Favorite.ProgressBar": "Ustaw pasek postępu",
         "Inventory.Favorite.AudioStreamController": "Ustaw Steam kontroler",
         "Inventory.Favorite.TextDisplay": "Ustaw wyświetlania tekstu",
@@ -199,7 +199,7 @@
         "World.Error.IncompatibleVersion": "Niekompatybilna wersja {appName}",
         "World.Error.HostBlocked": "Host zablokowany",
         "World.Error.HostBlockedDetail": "Zablokowałeś hosta",
-        "World.Error.WorldCrash": "Crash światu",
+        "World.Error.WorldCrash": "Crash świata",
         "World.Error.WorldCrashDetail": "Fatalny błąd podczas aktualizacji świata",
         "World.Error.Unknown": "Nieznany Błąd",
 
@@ -295,7 +295,7 @@
         "World.Category.Art": "Sztuka",
         "World.Category.Tutorials": "Poradniki",
         "World.Category.Educational": "Edukacyjne",
-        "World.Category.Random": "Losowye",
+        "World.Category.Random": "Losowe",
         "World.Category.MyWorlds": "Moje Światy",
         "World.Category.Custom": "Niestandardowe",
         "World.Category.GroupWorlds": "Światy Grupowe",
@@ -316,7 +316,7 @@
         "World.SortParameter.LastUpdateDate": "Data Modyfikacji",
         "World.SortParameter.FirstPublishTime": "Data Opublikowania",
         "World.SortParameter.TotalVisits": "Całkowita Liczba Odwiedzin",
-        "World.SortParameter.LastVisit": "Ostatnio odwiedzine",
+        "World.SortParameter.LastVisit": "Ostatnio odwiedzone",
         "World.SortParameter.Random": "Losowo",
 
         "World.Filter.DataSources": "Źródła Danych:",
@@ -373,7 +373,7 @@
         "Options.Nameplates.All": "Nazwy Graczy: Wszystkie",
         "Options.Nameplates.NonContacts": "Nazwy Graczy: Nie Kontaktów",
         "Options.Nameplates.Hide": "Nazwy Graczy: Ukryte",
-        "Options.Nameplates.DefaultStyle": "Użyj domyślnych plakietka",
+        "Options.Nameplates.DefaultStyle": "Użyj domyślnych plakietek",
         "Options.Nameplates.CustomStyle": "Zezwalaj na niestandardowe plakietki",
 
         "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> {users,plural, one {Użytkownik} other {Użytkowników}} online",
@@ -399,35 +399,97 @@
 
         "Login.InvalidCredentials": "Nieprawidłowe dane logowania",
         "Login.InvalidLogin": "Nieprawidłowe dane logowania",
+        "Login.InvalidLogin.Description": "Sprawdź poprawność danych logowania i spróbuj ponownie lub naciśnij \"Zgubione Hasło?\"",
 
         "Login.MalformedUID": "Nieprawidłowe informacje o urządzeniu",
+        "Login.MalformedUID.Description": "Spróbuj reinstalować program lub skontaktuj się z pomocą techniczną.",
+
         "Login.MissingUID": "Brak informacji o urządzeniu",
+        "Login.MissingUID.Description": "Spróbuj reinstalować program lub skontaktuj się z pomocą techniczną.",
+
         "Register.MissingUID": "Nieprawidłowe informacje urządzenia",
+        "Register.MissingUID.Description": "Spróbuj reinstalować program lub skontaktuj się z pomocą techniczną.",
+
         "Register.MalformedUID": "Nieprawidłowe informacje urządzenia",
+        "Register.MalformedUID.Description": "Spróbuj reinstalować program lub skontaktuj się z pomocą techniczną.",
 
         "Login.MissingLogin": "Brak danych logowania",
+        "Login.MissingLogin.Description": "Czy na pewno wpisałeś dane logowania?",
+
         "Login.InvalidRecoveryCode": "Nieprawidłowy kod odzyskiwania",
+        "Login.InvalidRecoveryCode.Description": "Sprawdź poprawność kodu odzyskiwania i spróbuj ponownie.",
+
         "Login.UnsupportedAuthentication": "Nieobsługiwana metoda uwierzytelniania",
+        "Login.UnsupportedAuthentication.Description": "Nie obsługujemy tej metody uwierzytelniania. Spróbuj użyć innej.",
+
         "Login.EmailNotVerified": "E-mail niezweryfikowany",
+        "Login.EmailNotVerified.Description": "Twój adres e-mail nie jest zweryfikowany. Sprawdź swoją skrzynkę odbiorczą (w tym folder spam) i poszukaj wiadomości od nas.",
+
         "Login.AccountTempLocked": "Twoje konto jest zablokowane.",
+        "Login.AccountTempLocked.Description": "Skontaktuj się z Moderatorami: moderation.resonite.com",
+
         "Login.AccountBanned": "Twoje konto zostało zbanowane.",
+        "Login.AccountBanned.Description": "Skontaktuj się z Moderatorami: moderation.resonite.com",
+
         "Login.DuplicateAccount": "Zduplikowane konto",
+        "Login.DuplicateAccount.Description": "Skontaktuj się z pomocą techniczną: support.resonite.com",
 
         "Register.MissingRequest": "Brak danych rejestracyjnych",
+        "Register.MissingRequest.Description": "Czy na pewno wpisałeś dane rejestracyjne?",
+
         "Register.InvalidEmail": "Niepoprawny adres e-mail",
+        "Register.InvalidEmail.Description": "Wpisany adres e-mail jest niepoprawny.",
+
         "Register.MissingUsername": "Brak nazwy użytkownika",
+        "Register.MissingUsername.Description": "Czy na pewno wpisałeś nazwę użytkownika?",
+
         "Register.MissingEmail": "Brakujący e-mail",
+        "Register.MissingEmail.Description": "Czy na pewno wpisałeś e-mail?",
+
         "Register.UsernameTooLong": "Nazwa użytkownika jest za długa",
+        "Register.UsernameTooLong.Description": "Nazwa użytkownika nie może być dłuższa niż 32 znaki.",
+
         "Register.UsernameContainsAmpersand": "Nazwa użytkownika nie może zawierać @",
+        "Register.UsernameContainsAmpersand.Description": "Twoja nazwa użytkownika nie może zawierać @",
+
         "Register.UsernameStartsWithU": "Nazwa użytkownika nie może zaczynać się od U-",
+        "Register.UsernameStartsWithU.Description": "Twoja nazwa użytkownika nie może zaczynać się od U-",
+
         "Register.InvalidUsername": "Nieprawidłowa nazwa użytkownika",
+        "Register.InvalidUsername.Description": "Wpisana nazwa użytkownika jest nieprawidłowa.",
+
         "Register.InvalidDateOfBirth": "Nieprawidłowa data urodzenia",
+        "Register.InvalidDateOfBirth.Description": "Wpisana data urodzenia jest nieprawidłowa.",
+
         "Register.UserContainsBlockedTerms": "Nazwa użytkownika zawiera zablokowane słowa",
+        "Register.UserContainsBlockedTerms.Description": "Twoja nazwa użytkownika zawiera zablokowane słowa.",
+
         "Register.MissingPassword": "Brak hasła",
+        "Register.MissingPassword.Description": "Czy na pewno wpisałeś hasło?",
+
         "Register.InvalidPassword": "Nieprawidłowe Hasło",
+        "Register.InvalidPassword.Description": "Wpisane hasło jest nieprawidłowe. Hasło musi zawierać co najmniej 8 znaków, w tym co najmniej jedną małą literę, jedną dużą literę i jedną cyfrę.",
+
         "Register.EmailAlreadyRegistered": "E-mail już zarejestrowany",
+        "Register.EmailAlreadyRegistered.Description": "Ten adres e-mail jest już zarejestrowany. Jeśli zapomniałeś hasła, kliknij \"Zgubione Hasło?\". Możesz też skontaktować się z pomocą techniczną: support.resonite.com",
+
         "Register.UsernameAlreadyRegistered": "Nazwa użytkownika jest już zarejestrowana",
+        "Register.UsernameAlreadyRegistered.Description": "Ta nazwa użytkownika jest już zarejestrowana. Jeśli zapomniałeś hasła, kliknij \"Zgubione Hasło?\". Możesz też skontaktować się z pomocą techniczną: support.resonite.com",
+
         "Register.ErrorCheckingUserId": "Błąd podczas sprawdzania identyfikatora użytkownika",
+        "Register.ErrorCheckingUserId.Description": "Skontaktuj się z pomocą techniczną: support.resonite.com",
+
+        "Recovery.MissingEmail": "Brakujący e-mail",
+        "Recovery.MissingEmail.Description": "Czy na pewno wpisałeś e-mail?",
+
+        "Recovery.IncorrectEmail": "Nieprawidłowy e-mail",
+        "Recovery.IncorrectEmail.Description": "Wpisany e-mail jest nieprawidłowy.",
+
+        "Recovery.NoPasswordSetup": "Nie skonfigurowano hasła",
+        "Recovery.NoPasswordSetup.Description": "Skontaktuj się z pomocą techniczną: support.resonite.com",
+
+        "Register.UnknownError": "Nieznany błąd",
+        "Register.UnknownError.Description": "Przy rejestracji wystąpił nieznany błąd. Skontaktuj się z pomocą techniczną: support.resonite.com",
 
         "Account.Login": "Zaloguj się",
         "Account.Logout": "Wyloguj się",
@@ -474,7 +536,7 @@
         "Account.TOTP.Title": "Uwierzytelnianie dwupoziomowe",
         "Account.TOTP.Initializing": "Sprawdzanie statusu 2FA dla Twojego konta...",
         "Account.TOTP.Code.Header": "Sekretny kod",
-        "Account.TOTP.Code.Description": "Najpierw musisz wprowadzić tajny kod do aplikacji uwierzytelniającej TOTP, taki jak <b>Authy</b> lub <b>Google Authenticator</b>.<br><br>Zalecamy zrobienie tego poprzez zeskanowanie kodu QR, ale alternatywnie możesz ręcznie wprowadzić tajny kod. <b>Nigdy nikomu nie udostępniaj tego kodu.</b><br><br>Jeśli jesteś w VR, możesz przełączyć się na Monitor, naciskając klawisz F8.",
+        "Account.TOTP.Code.Description": "Najpierw musisz wprowadzić tajny kod do aplikacji uwierzytelniającej TOTP, takiej jak <b>Authy</b> lub <b>Google Authenticator</b>.<br><br>Zalecamy zrobienie tego poprzez zeskanowanie kodu QR, ale alternatywnie możesz ręcznie wprowadzić tajny kod. <b>Nigdy nikomu nie udostępniaj tego kodu.</b><br><br>Jeśli jesteś w VR, możesz przełączyć się na Monitor, naciskając klawisz F8.",
         "Account.TOTP.Code.QRCode": "Zeskanuj kod QR",
         "Account.TOTP.Code.Key": "Sekretny kod:",
         "Account.TOTP.RecoveryCodes.Header": "Kody odzyskiwania",
@@ -526,9 +588,9 @@
         "Session.Permission.PermissionOverrideCount": "Nadpisane Uprawnienia: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Wyczyść Nadpisane Uprawnienia",
 
-        "Session.JoinVerifier.EnableHeader": "Aktywować niestandardowy weryfikator połączeń?",
-        "Session.JoinVerifier.EnableText": "<color=red>OSTRZEŻENIE:</color> YZamierzasz włączyć niestandardową weryfikację dołączania, która jest częścią bieżącego świata. Zanim to zrobisz, upewnij się, że ufasz twórcy świata, ponieważ niestandardowy weryfikator może ominąć standardowe reguły dostępu do sesji i zezwolić lub zablokować dostęp użytkownikom przy użyciu własnych reguł.",
-        "Session.JoinVerifier.Label": "Use Custom Join Verifier: {name}",
+        "Session.JoinVerifier.EnableHeader": "Aktywować niestandardowy weryfikator dołączania?",
+        "Session.JoinVerifier.EnableText": "<color=red>OSTRZEŻENIE:</color> Zamierzasz włączyć niestandardową weryfikację dołączania, która jest częścią bieżącego świata. Zanim to zrobisz, upewnij się, że ufasz twórcy świata, ponieważ niestandardowy weryfikator może ominąć standardowe reguły dostępu do sesji i zezwolić lub zablokować dostęp użytkownikom przy użyciu własnych reguł.",
+        "Session.JoinVerifier.Label": "Użyj niestandardowego weryfikatora dołączania: {name}",
         "Session.JoinVerifier.ComponentWarning": "<color=red>OSTRZEŻENIE:</color> W tej chwili nie ma mechanizmu zapobiegającego manipulowaniu weryfikatorem po jego włączeniu. Jeśli obawiasz się manipulowania ustawieniami ProtoFlux w celu weryfikacji, NIE UŻYWAJ tej funkcji i NIE WŁĄCZAJ jej w swoich światach.",
         "Session.JoinVerifier.SetCustomVerifier": "Ustaw jako niestandardowy weryfikator żądania dołączenia",
 
@@ -623,7 +685,7 @@
         "Tooltips.Brush.IncrementSize": "Zwiększ rozmiar",
         "Tooltips.Brush.DecrementSize": "Zmniejsz rozmiar",
 
-        "Tooltips.Dev.CreateNew": "Stwóż Nowy...",
+        "Tooltips.Dev.CreateNew": "Stwórz Nowy...",
         "Tooltips.Dev.Selection": "Zaznaczanie: {mode}",
         "Tooltips.Dev.DevMode.Off": "Tryb Dewelopera: Nie",
         "Tooltips.Dev.DevMode.On": "Tryb Dewelopera: Tak",
@@ -639,6 +701,12 @@
         "Tooltips.Dev.Translation": "Przejście",
         "Tooltips.Dev.Rotation": "Obrót",
         "Tooltips.Dev.Scale": "Skala",
+
+        "Tooltips.Dev.Selection.Single": "Pojedynczy",
+        "Tooltips.Dev.Selection.Multi:": "Wiele",
+
+        "Tooltips.Dev.Interaction.Tip": "Końcówka",
+        "Tooltips.Dev.Interaction.Projection": "Projekcja",
 
         "Tooltip.Color.Picker": "Wybieranie Kolorów",
 
@@ -702,6 +770,26 @@
         "Tooltip.ProtoFlux.PackInto": "Pack Into <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.Unpack": "Unpack <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.ExplicitCast": "Explicit Cast\n<size=50%>(<color=red>Warning:</color> Potential Data Loss)</size>",
+
+        "Tooltip.Meter.Mode.Ray" : "Tryb: Promień",
+        "Tooltip.Meter.Mode.Perpendicular" : "Tryb: Prostopadły",
+        "Tooltip.Meter.Mode.Drag" : "Tryb: Przeciągnij",
+
+        "Tooltip.Meter.Points.Two" : "Dwa punkty",
+        "Tooltip.Meter.Points.Multiple" : "Wiele punktów",
+
+        "Tooltip.Meter.ObjectSpace" : "Zmierz w Przestrzeni Obiektu",
+        "Tooltip.Meter.WorldSpace" : "Zmierz w Przestrzeni Świata",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "Mode: Bake meshes",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "Mode: Bake skinned meshes",
+        "Tooltip.Glue.Mode.ParentObjects" : "Mode: Parent objects",
+
+        "Tooltip.RigTransfer.ClearSource" : "Wyczyść źródło",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "Pojedyncza Instancja: Włączona",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "Pojeedyncza Instancja: Wyłączona",
+        "Tooltip.ComponentClone.ClearTemplate" : "Wyczyść Szablon",
 
         "ProtoFlux.UI.Call": "Call",
         "ProtoFlux.UI.AsyncCall": "<size=50%>Async</size> Call",
@@ -896,6 +984,10 @@
         "Importer.Video.Depth.Prompt": "Szablon Głębii",
         "Importer.Video.Depth.Default": "Domyślny",
 
+        "Importer.Slices.Title": "Wycinki obrazu jako tekstura wolumetryczna",
+        "Importer.Slices.TitleGrayscale": "Wycinki obrazu jako tekstura wolumetryczna (skala szarości)",
+        "Importer.Slices.Description": "Przetwarza wszystkie obrazy w folderze jako wycinki tekstury wolumetrycznej.",
+
         "Exporter.Title": "Eksport",
         "Exporter.FileName": "Nazwa pliku:",
         "Exporter.ExportAs": "Eksportuj jako:",
@@ -963,7 +1055,7 @@
         "FullBody.Knees": "Kolana",
 
         "FullBody.TrackerMapped": "Tracker Zmapowany",
-        "FullBody.NotTracking": "Nie działa...",
+        "FullBody.NotTracking": "Nie śledzi...",
         "FullBody.NoTracker": "Brak Mapowania Trackera",
         "FullBody.FeetNotTracking": "Trackery stóp nie działają...",
 
@@ -981,7 +1073,7 @@
         "CameraControl.Mode.ThirdPerson": "Trzecia Osoba",
         "CameraControl.Mode.Group": "Grupa",
         "CameraControl.Mode.World": "Świat",
-        "CameraControl.Mode.Manual": "Manualny",
+        "CameraControl.Mode.Manual": "Ręczny",
 
         "CameraControl.Settings.AvoidOcclusion": "Unikaj Okluzji",
         "CameraControl.Settings.KeepInWorldspace": "Zachowaj W Świecie",
@@ -1109,7 +1201,7 @@
 
         "Settings.Audio.Header": "Audio",
         "Settings.Audio.Input.Title": "Urządzenia wejściowe audio",
-        "Settings.Audio.Master": "Cały Dźwięk: {n,number,percent}",
+        "Settings.Audio.Master": "Głośność główna: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Efekty Dźwiękowe: {n,number,percent}",
         "Settings.Audio.Multimedia": "Multimedia: {n,number,percent}",
         "Settings.Audio.Voice": "Głosy: {n,number,percent}",
@@ -1124,7 +1216,7 @@
         "Settings.Audio.SelectInputDevice": "Wybierz Urządzenie Wejściowe",
         "Settings.Audio.SelectOutputDevice": "Wybierz Urządzenie Wyjściowe",
         "Settings.Audio.TestInput": "Testuj Swoje Wejście Audio:",
-        "Settings.Audio.TestDescription": "Puścimy dźwięk z wybranego urządzenia audio, aby upewnić się że to prawidłowe urządzenie.",
+        "Settings.Audio.TestDescription": "Puścimy dźwięk z wybranego urządzenia audio aby upewnić, się że to prawidłowe urządzenie.",
         "Settings.Audio.StartTest": "Nasłuchuj urządzenie\n<size=50%>(sprawdź mikrofon / wejście audio)</size>",
         "Settings.Audio.StopTest": "Zakończ Test",
         "Settings.Audio.Monitoring": "Monitorowanie Wejścia Audio:",
@@ -1184,8 +1276,8 @@
         "ComponentSelector.Back": "< (wstecz)",
         "ComponentSelector.Title": "Components",
         "ComponentSelector.CreateCustomType": "Utwórz typ niestandardowy",
-
-
+        "ComponentSelector.CommonGenericTypes" : "Powszechne typy generyczne:",
+        "ComponentSelector.CustomGenericArguments" : "Niestandardowe argumenty generyczne:",
         "ComponentSelector.InvalidType": "Nieprawidłowy typ",
 
         "Inspector.Title": "Inspektor sceny",
@@ -1203,7 +1295,7 @@
         "Inspector.Slot.CreatePivotAtCenter": "Utwórz punkt obrotu w środku",
 
         "Inspector.Slot.JumpTo": "Skocz do",
-        "Inspector.Slot.BringTo": "Przynieś do",
+        "Inspector.Slot.BringTo": "Przenieś do",
         "Inspector.Slot.BringTo.Undo": "Przenieś {name} do użytkownika",
 
         "Inspector.Slot.ParentUnder.Label": "Parent Under:",
@@ -1228,9 +1320,9 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "Przelicz Normalne (gładkie cieniowanie)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "Przelicz Styczne (Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "Przelicz Styczne (prosty)",
-        "Inspector.Mesh.RecalculateBlendshapeNormals": "Recalculate Blendshape Normals",
-        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Recalculate Blendshape Normals (smooth shading)",
-        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Recalculate Blendshape Tangents (Mikktspace)",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Przelicz Normalne Blendshape'ów",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Przelicz Normalne Blendshape'ów (gładkie cieniowanie)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Przelicz Normalne Blendshape'ów (Mikktspace)",
         "Inspector.Mesh.FlipNormals": "Odwróć Normalne",
         "Inspector.Mesh.ReverseWinding": "Odwróć Nawijanie",
         "Inspector.Mesh.MakeDualSided": "Konwertuj na Dwustronny",
@@ -1241,7 +1333,7 @@
         "Inspector.Mesh.StripEmptyBlendshapes": "Usuń Puste Blendshapy",
         "Inspector.Mesh.StripBlendshapeNormals": "Usuń Normalne Blendshapeów",
         "Inspector.Mesh.StripBlendshapeTangents": "Usuń Styczne Blendshapeów",
-        "Inspector.Mesh.MergeBlendshapes": "Merge Blendshapes",
+        "Inspector.Mesh.MergeBlendshapes": "Połącz Blendshape'y",
 
         "Inspector.Mesh.GetBoneList": "Wyświetl Listę Kości",
         "Inspector.Mesh.GetBoneData": "Wyświetl Dane Kości",
@@ -1254,33 +1346,33 @@
         "Inspector.MeshRenderer.MergeByMaterial": "Połącz podmeshe z takimi samymi materiałami",
         "Inspector.MeshRenderer.SplitByMaterial": "Rozdziel mesh na części z takimi samymi materiałami",
 
-
-
+        "Inspector.MeshCollider.VHACD": "Dekompozycja wypukłej struktury (V-HACD 2.0)",
+        "Inspector.MeshCollider.ReplaceBox": "Zamień na Box Collider",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Aktualizuj moduły lokomocji dla obecnych użytkowników",
 
         "Inspector.VHACD.Parameter.MergeDoubles": "Łączenie podwójnych",
         "Inspector.VHACD.Parameter.Resolution": "Rozdzielczość",
         "Inspector.VHACD.Parameter.Depth": "Głębokość",
-
-
-
+        "Inspector.VHACD.Parameter.Concavity": "Wklęsłość",
+        "Inspector.VHACD.Parameter.PlaneDownsampling": "Downsampling płaszczyzny",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling": "Downsampling otoczki wypukłej",
         "Inspector.VHACD.Parameter.Alpha": "Alfa",
         "Inspector.VHACD.Parameter.Beta": "Beta",
         "Inspector.VHACD.Parameter.Gamma": "Gamma",
         "Inspector.VHACD.Parameter.Delta": "Delta",
         "Inspector.VHACD.Parameter.PCA": "PCA",
-
-
-
-
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Maksymalna liczba wierzchołków na otoczkę",
+        "Inspector.VHACD.Parameter.MinVolumePerHull": "Minimalny objętość na otoczkę",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation": "Przybliżenie otoczki",
+        
         "Inspector.VHACD.DecompositionMode.Header": "Tryb dekompozycji:",
         "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
         "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetrahedron",
 
-
+        "Inspector.VHACD.RunDecomposition": "Uruchom dekompozycję",
         "Inspector.VHACD.RemoveVisuals": "Usuń wizualizacje",
-
+        "Inspector.VHACD.RemoveHulls": "Usuń otoczki",
 
         "Inspector.ReflectionProbe.Bake": "Wypal Odbicia",
         "Inspector.ReflectionProbe.Baking": "Wypalanie...",
@@ -1295,9 +1387,9 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "Wizualizuj obszary kości",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Wizualizuj przybliżone połączone obszary kości",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "Usuń wizualizacje obszarów kości",
-
-
-
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Oblicz bezpośrednie granice na podstawie bieżącej pozy",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Rozszerz bezpośrednie granice na podstawie bieżącej pozy",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "Wypal do statycznego meshu",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Usuń wszystkie instancje",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Usuń pojedyncze instancje",
@@ -1318,7 +1410,7 @@
         "Inspector.Texture.Format": "Format: {format}, Pamięć: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "ID Wariantu: {variant}",
 
-        "Inspector.Texture.BakeTexture": "Bake Texture",
+        "Inspector.Texture.BakeTexture": "Wypal teksturę",
 
         "Inspector.Texture.InvertRGB": "Odwróć Kolory",
         "Inspector.Texture.InvertR": "Odwróć Czerwony",
@@ -1331,13 +1423,13 @@
         "Inspector.Texture.AlphaToMask": "Alfa do Maski",
         "Inspector.Texture.RemoveAlpha": "Usuń Alfę",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Konwertuj na Czarno-Biały (średnia)",
-        "Inspector.Texture.ConvertToGrayscaleLuminance": "Convert to grayscale (luminance)",
+        "Inspector.Texture.ConvertToGrayscaleLuminance": "Konwertuj na skalę szarości (luminancja)",
         "Inspector.Texture.SwapRG": "Zamień Czerwony i Zielony",
         "Inspector.Texture.SwapRB": "Zamień Czerwony i Niebieski",
-        "Inspector.Texture.SwapRA": "Swap R <--> A",
+        "Inspector.Texture.SwapRA": "Zamień Czerwony i Alfa",
         "Inspector.Texture.SwapGB": "Zamień Zielony i Niebieski",
-        "Inspector.Texture.SwapGA": "Swap G <--> A",
-        "Inspector.Texture.SwapBA": "Swap B <--> A",
+        "Inspector.Texture.SwapGA": "Zamień Zielony i Alfa",
+        "Inspector.Texture.SwapBA": "Zamień Niebieski i Alfa",
         "Inspector.Texture.AddWhiteBackground": "Dodaj Białe Tło",
         "Inspector.Texture.AddBlackBackground": "Dodaj Czarne Tło",
         "Inspector.Texture.Hue": "Odcień:",
