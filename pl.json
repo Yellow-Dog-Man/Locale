@@ -1,6 +1,6 @@
 {
     "localeCode": "pl",
-    "authors": ["art0007i", "DarkSugar", "Alex_2Pi", "FoxoBread"],
+    "authors": ["art0007i", "DarkSugar", "Alex_2Pi", "FoxoBread", "AdamSkI2003"],
     "messages": {
 
         "General.OK": "OK",
@@ -118,7 +118,7 @@
         "Inventory.Share": "Udostepnij",
         "Inventory.Unshare": "Cofnij udostępnianie",
         "Inventory.SaveAvatar": "Zapisz Awatara",
-        "Inventory.Favorite.Home": "Ustaw domu",
+        "Inventory.Favorite.Home": "Ustaw dom",
         "Inventory.Favorite.ProgressBar": "Ustaw pasek postępu",
         "Inventory.Favorite.AudioStreamController": "Ustaw Steam kontroler",
         "Inventory.Favorite.TextDisplay": "Ustaw wyświetlania tekstu",
@@ -199,7 +199,7 @@
         "World.Error.IncompatibleVersion": "Niekompatybilna wersja {appName}",
         "World.Error.HostBlocked": "Host zablokowany",
         "World.Error.HostBlockedDetail": "Zablokowałeś hosta",
-        "World.Error.WorldCrash": "Crash światu",
+        "World.Error.WorldCrash": "Crash świata",
         "World.Error.WorldCrashDetail": "Fatalny błąd podczas aktualizacji świata",
         "World.Error.Unknown": "Nieznany Błąd",
 
@@ -295,7 +295,7 @@
         "World.Category.Art": "Sztuka",
         "World.Category.Tutorials": "Poradniki",
         "World.Category.Educational": "Edukacyjne",
-        "World.Category.Random": "Losowye",
+        "World.Category.Random": "Losowe",
         "World.Category.MyWorlds": "Moje Światy",
         "World.Category.Custom": "Niestandardowe",
         "World.Category.GroupWorlds": "Światy Grupowe",
@@ -316,7 +316,7 @@
         "World.SortParameter.LastUpdateDate": "Data Modyfikacji",
         "World.SortParameter.FirstPublishTime": "Data Opublikowania",
         "World.SortParameter.TotalVisits": "Całkowita Liczba Odwiedzin",
-        "World.SortParameter.LastVisit": "Ostatnio odwiedzine",
+        "World.SortParameter.LastVisit": "Ostatnio odwiedzone",
         "World.SortParameter.Random": "Losowo",
 
         "World.Filter.DataSources": "Źródła Danych:",
@@ -373,7 +373,7 @@
         "Options.Nameplates.All": "Nazwy Graczy: Wszystkie",
         "Options.Nameplates.NonContacts": "Nazwy Graczy: Nie Kontaktów",
         "Options.Nameplates.Hide": "Nazwy Graczy: Ukryte",
-        "Options.Nameplates.DefaultStyle": "Użyj domyślnych plakietka",
+        "Options.Nameplates.DefaultStyle": "Użyj domyślnych plakietek",
         "Options.Nameplates.CustomStyle": "Zezwalaj na niestandardowe plakietki",
 
         "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> {users,plural, one {Użytkownik} other {Użytkowników}} online",
@@ -541,7 +541,7 @@
         "Account.TOTP.Title": "Uwierzytelnianie dwupoziomowe",
         "Account.TOTP.Initializing": "Sprawdzanie statusu 2FA dla Twojego konta...",
         "Account.TOTP.Code.Header": "Sekretny kod",
-        "Account.TOTP.Code.Description": "Najpierw musisz wprowadzić tajny kod do aplikacji uwierzytelniającej TOTP, taki jak <b>Authy</b> lub <b>Google Authenticator</b>.<br><br>Zalecamy zrobienie tego poprzez zeskanowanie kodu QR, ale alternatywnie możesz ręcznie wprowadzić tajny kod. <b>Nigdy nikomu nie udostępniaj tego kodu.</b><br><br>Jeśli jesteś w VR, możesz przełączyć się na Monitor, naciskając klawisz F8.",
+        "Account.TOTP.Code.Description": "Najpierw musisz wprowadzić tajny kod do aplikacji uwierzytelniającej TOTP, takiej jak <b>Authy</b> lub <b>Google Authenticator</b>.<br><br>Zalecamy zrobienie tego poprzez zeskanowanie kodu QR, ale alternatywnie możesz ręcznie wprowadzić tajny kod. <b>Nigdy nikomu nie udostępniaj tego kodu.</b><br><br>Jeśli jesteś w VR, możesz przełączyć się na Monitor, naciskając klawisz F8.",
         "Account.TOTP.Code.QRCode": "Zeskanuj kod QR",
         "Account.TOTP.Code.Key": "Sekretny kod:",
         "Account.TOTP.RecoveryCodes.Header": "Kody odzyskiwania",
@@ -593,12 +593,13 @@
         "Session.Permission.PermissionOverrideCount": "Nadpisane Uprawnienia: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Wyczyść Nadpisane Uprawnienia",
 
-        "Session.JoinVerifier.EnableHeader": "Aktywować niestandardowy weryfikator połączeń?",
-        "Session.JoinVerifier.EnableText": "<color=red>OSTRZEŻENIE:</color> YZamierzasz włączyć niestandardową weryfikację dołączania, która jest częścią bieżącego świata. Zanim to zrobisz, upewnij się, że ufasz twórcy świata, ponieważ niestandardowy weryfikator może ominąć standardowe reguły dostępu do sesji i zezwolić lub zablokować dostęp użytkownikom przy użyciu własnych reguł.",
+        "Session.JoinVerifier.EnableHeader": "Aktywować niestandardowy weryfikator dołączania?",
+        "Session.JoinVerifier.EnableText": "<color=red>OSTRZEŻENIE:</color> Zamierzasz włączyć niestandardową weryfikację dołączania, która jest częścią bieżącego świata. Zanim to zrobisz, upewnij się, że ufasz twórcy świata, ponieważ niestandardowy weryfikator może ominąć standardowe reguły dostępu do sesji i zezwolić lub zablokować dostęp użytkownikom przy użyciu własnych reguł.",
         "Session.JoinVerifier.Label": "Use Custom Join Verifier: {name}",
         "Session.JoinVerifier.ComponentWarning": "<color=red>OSTRZEŻENIE:</color> W tej chwili nie ma mechanizmu zapobiegającego manipulowaniu weryfikatorem po jego włączeniu. Jeśli obawiasz się manipulowania ustawieniami ProtoFlux w celu weryfikacji, NIE UŻYWAJ tej funkcji i NIE WŁĄCZAJ jej w swoich światach.",
         "Session.JoinVerifier.SetCustomVerifier": "Ustaw jako niestandardowy weryfikator żądania dołączenia",
-
+        "Session.JoinVerifier.Label": "Użyj niestandardowego weryfikatora dołączania: {name}",
+        
         "Permissions.NotAllowedToSpawn": "Nie masz pozwolenia aby przyzywać przedmioty w tym świecie.",
         "Permissions.NotAllowedToSave": "Nie masz pozwolenia aby zapisywać przedmioty w tym świecie.",
         "Permissions.NotAllowedToSwapAvatar": "Nie masz pozwolenia aby użyć własnego awatara w tym świecie.",
@@ -690,7 +691,7 @@
         "Tooltips.Brush.IncrementSize": "Zwiększ rozmiar",
         "Tooltips.Brush.DecrementSize": "Zmniejsz rozmiar",
 
-        "Tooltips.Dev.CreateNew": "Stwóż Nowy...",
+        "Tooltips.Dev.CreateNew": "Stwórz Nowy...",
         "Tooltips.Dev.Selection": "Zaznaczanie: {mode}",
         "Tooltips.Dev.DevMode.Off": "Tryb Dewelopera: Nie",
         "Tooltips.Dev.DevMode.On": "Tryb Dewelopera: Tak",
@@ -1064,7 +1065,7 @@
         "FullBody.Knees": "Kolana",
 
         "FullBody.TrackerMapped": "Tracker Zmapowany",
-        "FullBody.NotTracking": "Nie działa...",
+        "FullBody.NotTracking": "Nie śledzi...",
         "FullBody.NoTracker": "Brak Mapowania Trackera",
         "FullBody.FeetNotTracking": "Trackery stóp nie działają...",
 
@@ -1082,7 +1083,7 @@
         "CameraControl.Mode.ThirdPerson": "Trzecia Osoba",
         "CameraControl.Mode.Group": "Grupa",
         "CameraControl.Mode.World": "Świat",
-        "CameraControl.Mode.Manual": "Manualny",
+        "CameraControl.Mode.Manual": "Ręczny",
 
         "CameraControl.Settings.AvoidOcclusion": "Unikaj Okluzji",
         "CameraControl.Settings.KeepInWorldspace": "Zachowaj W Świecie",
@@ -1210,7 +1211,7 @@
 
         "Settings.Audio.Header": "Audio",
         "Settings.Audio.Input.Title": "Urządzenia wejściowe audio",
-        "Settings.Audio.Master": "Cały Dźwięk: {n,number,percent}",
+        "Settings.Audio.Master": "Głośność główna: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Efekty Dźwiękowe: {n,number,percent}",
         "Settings.Audio.Multimedia": "Multimedia: {n,number,percent}",
         "Settings.Audio.Voice": "Głosy: {n,number,percent}",
@@ -1304,7 +1305,7 @@
         "Inspector.Slot.CreatePivotAtCenter": "Utwórz punkt obrotu w środku",
 
         "Inspector.Slot.JumpTo": "Skocz do",
-        "Inspector.Slot.BringTo": "Przynieś do",
+        "Inspector.Slot.BringTo": "Przenieś do",
         "Inspector.Slot.BringTo.Undo": "Przenieś {name} do użytkownika",
 
         "Inspector.Slot.ParentUnder.Label": "Parent Under:",
@@ -1329,9 +1330,9 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "Przelicz Normalne (gładkie cieniowanie)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "Przelicz Styczne (Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "Przelicz Styczne (prosty)",
-        "Inspector.Mesh.RecalculateBlendshapeNormals": "Recalculate Blendshape Normals",
-        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Recalculate Blendshape Normals (smooth shading)",
-        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Recalculate Blendshape Tangents (Mikktspace)",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Przelicz Normalne Blendshape'ów",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Przelicz Normalne Blendshape'ów (gładkie cieniowanie)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Przelicz Normalne Blendshape'ów (Mikktspace)",
         "Inspector.Mesh.FlipNormals": "Odwróć Normalne",
         "Inspector.Mesh.ReverseWinding": "Odwróć Nawijanie",
         "Inspector.Mesh.MakeDualSided": "Konwertuj na Dwustronny",
@@ -1342,7 +1343,7 @@
         "Inspector.Mesh.StripEmptyBlendshapes": "Usuń Puste Blendshapy",
         "Inspector.Mesh.StripBlendshapeNormals": "Usuń Normalne Blendshapeów",
         "Inspector.Mesh.StripBlendshapeTangents": "Usuń Styczne Blendshapeów",
-        "Inspector.Mesh.MergeBlendshapes": "Merge Blendshapes",
+        "Inspector.Mesh.MergeBlendshapes": "Połącz Blendshape'y",
 
         "Inspector.Mesh.GetBoneList": "Wyświetl Listę Kości",
         "Inspector.Mesh.GetBoneData": "Wyświetl Dane Kości",
@@ -1355,8 +1356,8 @@
         "Inspector.MeshRenderer.MergeByMaterial": "Połącz podmeshe z takimi samymi materiałami",
         "Inspector.MeshRenderer.SplitByMaterial": "Rozdziel mesh na części z takimi samymi materiałami",
 
-        "Inspector.MeshCollider.VHACD": "Convex Hull Decomposition (V-HACD 2.0)",
-        "Inspector.MeshCollider.ReplaceBox": "Zastąp Koliderem Sześcianu",
+        "Inspector.MeshCollider.VHACD": "Dekompozycja wypukłej struktury (V-HACD 2.0)",
+        "Inspector.MeshCollider.ReplaceBox": "Zastąp Koliderem Sześciennym",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Aktualizuj moduły lokomocji dla obecnych użytkowników",
 
@@ -1365,7 +1366,7 @@
         "Inspector.VHACD.Parameter.Depth": "Głębokość",
         "Inspector.VHACD.Parameter.Concavity": "Wklęsłość",
         "Inspector.VHACD.Parameter.PlaneDownsampling": "Redukcja płaszczyzn",
-        "Inspector.VHACD.Parameter.ConvexHullDownsampling": "Redukcja otoczek wypukłych",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling": "Redukcja struktur wypukłych",
         "Inspector.VHACD.Parameter.Alpha": "Alpha",
         "Inspector.VHACD.Parameter.Beta": "Beta",
         "Inspector.VHACD.Parameter.Gamma": "Gamma",
