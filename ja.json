@@ -404,16 +404,16 @@
         "Login.InvalidLogin.Description": "認証情報をを再確認してもう一度試すか、 \"パスワードを忘れてしまった\"を押してください",
 
         "Login.MalformedUID": "デバイス情報が正しくありません",
-        "Login.MalformedUID.Description": "再インストールするか、サポートに連絡してください",
+        "Login.MalformedUID.Description": "再インストールするか、サポート{supportUrl}に連絡してください",
 
         "Login.MissingUID": "デバイス情報を入力して下さい",
-        "Login.MissingUID.Description": "再インストールするか、サポートに連絡してください",
+        "Login.MissingUID.Description": "再インストールするか、サポート{supportUrl}に連絡してください",
 
         "Register.MissingUID": "デバイス情報を入力して下さい",
-        "Register.MissingUID.Description": "再インストールするか、サポートに連絡してください",
+        "Register.MissingUID.Description": "再インストールするか、サポート{supportUrl}に連絡してください",
 
         "Register.MalformedUID": "デバイス情報が正しくありません",
-        "Register.MalformedUID.Description": "再インストールするか、サポートに連絡してください",
+        "Register.MalformedUID.Description": "再インストールするか、サポート{supportUrl}に連絡してください",
 
         "Login.MissingLogin": "認証情報を入力してください",
         "Login.MissingLogin.Description": "認証情報をお忘れですか？",
@@ -428,13 +428,13 @@
         "Login.EmailNotVerified.Description": "メールアドレスは確認されていません、​受信トレイや​迷惑メールフォルダに​メールが届いていないか​確認してください。",
 
         "Login.AccountTempLocked": "あなたのアカウントはロックアウトされています…",
-        "Login.AccountTempLocked.Description": "モデレーションまでご連絡ください: moderation.resonite.com",
+        "Login.AccountTempLocked.Description": "モデレーションまでご連絡ください: {moderationUrl}",
 
         "Login.AccountBanned": "あなたのアカウントはBANされています。",
-        "Login.AccountBanned.Description": "モデレーションまでご連絡ください: moderation.resonite.com",
+        "Login.AccountBanned.Description": "モデレーションまでご連絡ください: {moderationUrl}",
 
         "Login.DuplicateAccount": "アカウントが重複しています",
-        "Login.DuplicateAccount.Description": "サポートまでご連絡ください: support.resonite.com",
+        "Login.DuplicateAccount.Description": "サポートまでご連絡ください: {supportUrl}",
 
         "Login.UnknownError": "未知のエラーです",
         "Login.UnknownError.Description": "ログイン中に未知なエラーが発生しました。 サポートまでご連絡ください support.resonite.com",
@@ -467,7 +467,7 @@
         "Register.InvalidDateOfBirth.Description": "生年月日が無効な形式です",
 
         "Register.UserContainsBlockedTerms": "ユーザー名に不適切な単語が含まれています",
-        "Register.UserContainsBlockedTerms.Description": "ユーザー名にブロックワードが含まれています。 エラーと思われる場合はサポートまでご連絡ください support.resonite.com",
+        "Register.UserContainsBlockedTerms.Description": "ユーザー名にブロックワードが含まれています。 エラーと思われる場合はサポートまでご連絡ください {supportUrl}",
 
         "Register.MissingPassword": "パスワードを入力してください",
         "Register.MissingPassword.Description": "パスワードが入力されていません",
@@ -476,13 +476,13 @@
         "Register.InvalidPassword.Description": "パスワードが無効です。8文字以上で、数字、大文字、小文字をそれぞれ1字以上使用してください。",
 
         "Register.EmailAlreadyRegistered": "このEmailは既に登録されています",
-        "Register.EmailAlreadyRegistered.Description": "このメールアドレスを使用したアカウントはすでに存在します。 パスワードを忘れた場合は、\"パスワードを忘れてしまった\"をクリックしてください。 もしくはサポートまでご連絡ください support.resonite.com",
+        "Register.EmailAlreadyRegistered.Description": "このメールアドレスを使用したアカウントはすでに存在します。 パスワードを忘れた場合は、\"パスワードを忘れてしまった\"をクリックしてください。 もしくはサポートまでご連絡ください {supportUrl}",
 
         "Register.UsernameAlreadyRegistered": "このユーザー名は既に使用されています",
-        "Register.UsernameAlreadyRegistered.Description": "このユーザー名を使用したアカウントはすでに存在します。 パスワードを忘れた場合は、\"パスワードを忘れてしまった\"をクリックしてください。 もしくはサポートまでご連絡ください support.resonite.com",
+        "Register.UsernameAlreadyRegistered.Description": "このユーザー名を使用したアカウントはすでに存在します。 パスワードを忘れた場合は、\"パスワードを忘れてしまった\"をクリックしてください。 もしくはサポートまでご連絡ください {supportUrl}",
 
         "Register.ErrorCheckingUserId": "ユーザーIDの確認中にエラーが発生しました",
-        "Register.ErrorCheckingUserId.Description": "サポートまでご連絡ください support.resonite.com",
+        "Register.ErrorCheckingUserId.Description": "サポートまでご連絡ください {supportUrl}",
 
         "Recovery.MissingEmail" : "メールアドレスを入力してください",
         "Recovery.MissingEmail.Description" : "メールアドレスを入力しましたか?",
@@ -490,11 +490,11 @@
         "Recovery.IncorrectEmail" : "メールアドレスが異なります",
         "Recovery.IncorrectEmail.Description" : "パスワード回復のために入力したメールアドレスが正しくありません。​再確認してください。",
 
-        "Recovery.NoPasswordSetup" : "パスワードが設定されていません", 
-        "Recovery.NoPasswordSetup.Description" : "サポートまでご連絡ください support.resonite.com",
+        "Recovery.NoPasswordSetup" : "パスワードが設定されていません",
+        "Recovery.NoPasswordSetup.Description" : "サポートまでご連絡ください {supportUrl}",
 
         "Register.UnknownError": "未知のエラーです",
-        "Register.UnknownError.Description": "登録中に未知なエラーが発生しました。 サポートまでご連絡ください support.resonite.com",
+        "Register.UnknownError.Description": "登録中に未知なエラーが発生しました。 サポートまでご連絡ください {supportUrl}",
 
         "Account.Login": "ログイン",
         "Account.Logout": "ログアウト",
@@ -578,7 +578,7 @@
         "Profile.Status.Online": "オンライン",
         "Profile.Status.Away": "退席中",
         "Profile.Status.Busy": "取込中",
-        "Profile.Status.Invisible": "居留守",
+        "Profile.Status.Invisible": "非表示",
         "Profile.Status.Offline": "オフライン",
         "Profile.Status.Headless": "ヘッドレス",
 
