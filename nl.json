@@ -80,7 +80,7 @@
         "Interaction.SaveToInventory": "Opslaan in inventaris",
         "Interaction.Undo": "Ongedaan maken",
         "Interaction.Redo": "Herdoen",
-        "Interaction.EquipTool": "Vastgrijpen",
+        "Interaction.EquipTool": "Vastpakken",
         "Interaction.DequipTool": "Loslaten",
         "Interaction.ScalingEnabled": "Schalen Aan",
         "Interaction.ScalingDisabled": "Schalen Uit",
@@ -1409,7 +1409,7 @@
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "Stel op van Children (alleen rig)",
         "Inspector.DynamicBoneChain.ReplaceSmoothTransforms": "Vervang Smooth Transforms in children",
         "Inspector.DynamicBoneChain.ClearSmoothTransforms": "Verwijder Smooth Transforms in children",
-        "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Colliders & Grijpen -------",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Colliders & Pakken -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Voeg vaste colliders toe van de hierarchy (gebruikt object root)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Grijp altijd het laatste bot",
 
@@ -1785,7 +1785,183 @@
         "StickyNote.BrushColor": "Wijzig de kleur en grootte van het penseel in uw contextmenu",
         "StickyNote.Drawing": "Je kunt op het bord, in de lucht of waar dan ook tekenen!",
         "StickyNote.WorldCanvas": "De wereld is jouw canvas!",
+
+        "CloudHome.Panel.HomeControl": "Controle Thuis",
+
+        "CloudHome.Panel.General": "Algemeen",
+        "CloudHome.Panel.Lighting": "Verlichting",
+        "CloudHome.Panel.Furniture": "Meubilair",
+
+        "CloudHome.Panel.Quality": "Kwaliteit",
+        "CloudHome.Panel.Doors": "Deuren",
+        "CloudHome.Panel.Audio": "Geluid",
+        "CloudHome.Panel.OverheadLighting": "Bovenverlichting",
+        "CloudHome.Panel.Sconces": "Blaker",
+        "CloudHome.Panel.FurnitureVisibility": "Zichtbaarheid Van Meubels",
+
+        "CloudHome.Panel.LowQualityMode": "Lage Kwaliteit Mode",
+        "CloudHome.Panel.DoorSounds": "Deur Geluiden",
+        "CloudHome.Panel.DoorsAlwaysOpen": "Deuren Altijd Open",
+        "CloudHome.Panel.InteriorAmbience": "Interieur Sfeer",
+        "CloudHome.Panel.InteriorAmbienceVolume": "Interieur<br>Sfeer<br>Volume",
+        "CloudHome.Panel.LightsOn": "Lichten Aan",
+        "CloudHome.Panel.LightIntensity": "Licht Intensiteit",
+        "CloudHome.Panel.LightColor": "Licht Kleur",
+        "CloudHome.Panel.LightColorTemperature": "Lichtkleurentemparatuur",
+
+        "CloudHome.Panel.Spawn": "Spawn",
+        "CloudHome.Panel.Foyer": "Hal",
+        "CloudHome.Panel.Workspace": "Werkplaats",
+        "CloudHome.Panel.ReadingLounge": "Leeshoek",
+        "CloudHome.Panel.Lounge": "Lounge",
+        "CloudHome.Panel.Center": "Centrum",
+        "CloudHome.Panel.Balcony": "Balkon",
+        "CloudHome.Panel.Theater": "Theater",
+
+        "CloudHome.Panel.TheaterControl": "Theater Controle",
+        "CloudHome.Panel.FanControl": "Ventilator Controle",
+        "CloudHome.Panel.WindowControl": "Raam Controle",
+        "CloudHome.Panel.FanSpeed": "Ventilator Snelheid",
+        "CloudHome.Panel.WindowTint": "Raamtint",
+
+        "CloudHome.FeaturedPanel.OpenWorld": "Wereld Openen",
+        "CloudHome.FeaturedPanel.LinkText": "Open deze wereld voor<br>jezelf door hier te klikken!",
+        "CloudHome.FeaturedPanel.Featured": "Aanbevolen",
+
+        "CloudHome.AvatarPanel.Title": "Aanbevolen Avatar Werelden",
+
+        "CloudHome.SupporterPanel.Title": "<b>Onze Supporters</b>",
+
+        "Tutorial.InfoPanel.Title": "Hee! Voordat Je Gaat...",
+        "Tutorial.InfoPanel.Content": "     Er ligt een wereld vol mogelijkheden op je te wachten, en wat mogelijk is, wordt alleen beperkt door jouw verbeeldingskracht.<br><br> Bijna alle dingen die je tot nu toe hebt gezien, zijn rechtstreeks in de game gemaakt! Mensen van over de hele wereld werkten in realtime samen om het te bouwen.<br><br> Het platform bevindt zich nog in de beginfase van de ontwikkeling en we zijn voortdurend bezig met het bijwerken en verbeteren van zaken. Maar jij maakt ook deel uit van deze reis, en de sky is the limit!<br><br><align=center>Bedankt dat je langskwam en ons een kans gaf.</align>",
         
+        "Tutorial.GrabItems.Grab": "Pakken",
+        "Tutorial.GrabItems.Snap": "Klikken",
+        "Tutorial.GrabItems.Slide": "Schuiven",
+
+        "Tutorial.Panel.Jumping.Title": "Springen",
+        "Tutorial.Panel.Jumping.ContentDesktop": "Terwijl je in loop locomotie bent druk op space om te springen!",
+        "Tutorial.Panel.Jumping.ContentVR": "Terwijl je in loop locomotie bent druk op je joysticks om te springen!",
+        "Tutorial.Panel.Jumping.ContentVRNoButtons": "Terwijl je in loop locomotie bent druk op het midde van je trackpad om te springen!",
+
+        "Tutorial.Panel.WalkLocomotion.Title": "Loop locomotie",
+        "Tutorial.Panel.WalkLocomotion.Content": "Beweeg en spring over de vloer.",
+
+        "Tutorial.Panel.TeleportLocomotion.Title": "Teleport Locomotie",
+        "Tutorial.Panel.TeleportLocomotion.Content": "Teleport stuurt je onmiddellijk naar de teleportatie-indicator.",
+
+        "Hints.Spawn.InitialMovementDesktop": "Gebruik de bewegings knoppen om rond te lopen!",
+        "Hints.Spawn.InitialMovementVR": "Gebruik je joysticks om rond te lopen!",
+        "Hints.Spawn.InitialMovementVRNoButtons": "Gebruik je trackpad om rond te lopen!",
+
+        "Hints.Spawn.ContextMenuDesktop": "Open je contextmenu door op T te drukken voor opties!",
+        "Hints.Spawn.ContextMenuVR": "Voel je je ziek? Open uw contextmenu door op B of Y te drukken voor opties!",
+        "Hints.Spawn.ContextMenuVRNoButtons": "Voel je je ziek? Open uw contextmenu door op de Menu-knop te drukken voor opties!",
+
+        "Hints.Spawn.TeleportLocomotionDesktop": "Andere voortbewegingsopties, zoals vliegen, zijn beschikbaar om uit te proberen in het voortbewegingsmenu.",
+        "Hints.Spawn.TeleportLocomotionVR": "Andere voortbewegingsopties, zoals teleporteren of vliegen, zijn beschikbaar om uit te proberen in het voortbewegingsmenu.",
+
+        "Hints.Bridge.RaiseTheWorld": "Druk op deze knop om het platform naar je toe te brengen!",
+
+        "Hints.Grabbing.GrabbingDesktop": "Pak dingen fysiek door de rechtermuisknop ingedrukt te houden!",
+        "Hints.Grabbing.GrabbingVR": "Pak dingen fysiek vast door Grip vast te houden!",
+
+        "Hints.Grabbing.Rotating": "Roteer vastgehouden items door E ingedrukt te houden en je muis te bewegen!",
+        "Hints.Grabbing.RotatingExtra": "Houd Shift en E samen ingedrukt om een ​​object rond zijn horizontale as te roteren!",
+
+        "Hints.Grabbing.ScalingDesktop": "Pak een item, houd shift ingedrukt en gebruik je scrollwiel om het te schalen!",
+        "Hints.Grabbing.ScalingVR": "Pak dingen fysiek met beide handen vast om ze te schalen!",
+
+        "Hints.Grabbing.OtherGrabbables": "Er zijn verschillende interactieve onderdelen, speel met deze drie om te zien hoe ze werken!",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Naast het schalen van objecten, kun je ook jezelf schalen door schalen in je contextmenu in te schakelen, vervolgens de controle ingedrukt te houden en je scrollwiel te gebruiken!",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "Naast het schalen van objecten, kun je ook jezelf schalen door schalen in je contextmenu in te schakelen, door ze met beide handen voor je vast te pakken en ze dichter of verder uit elkaar te bewegen!",
+
+        "Hints.Telescope.Alignment": "Pak de telescoop en richt hem op de maan!",
+
+        "Hints.Telescope.TheMoonDesktop": "Terwijl je op de maan richt, houd je de rechtermuisknop ingedrukt en kijk je rond om de maan te verplaatsen!",
+        "Hints.Telescope.TheMoonVR": "Zet je laser aan met de triggerknop en pak de maan!",
+
+        "Hints.Sundial.SoftEquip": "Grijp deze tool om hem te gebruiken!",
+        "Hints.Sundial.SoftEquipExtra": "Met tools kun je de wereld om je heen op verschillende manieren veranderen!",
+
+        "Hints.Sundial.HardEquip": "Klik op dit hulpmiddel om het uit te rusten!",
+        "Hints.Sundial.HardEquipExtra": "Ziet u uw laser niet? Houd uw trekker lichtjes vast om deze te onthullen!",
+
+        "Hints.Sundial.TheSun": "Richt op de lucht en klik om de zon daarheen te verplaatsen!",
+        "Hints.Sundial.TheSunExtra": "Probeer onder de horizon te mikken om het nacht te maken!",
+
+        "Hints.Sundial.Dequip": "Laat het uitgeruste gereedschap vallen door Dequip te kiezen in uw contextmenu.",
+        "Hints.Sundial.DequipExtra": "Merk op dat de opties in je contextmenu zijn veranderd omdat je dit hulpmiddel vasthoudt.",
+
+        "Hints.Sundial.Teleporter": "Druk op deze knop om de Teleporter naar uw Cloud Home te activeren!",
+        "Hints.Sundial.TeleporterExtra": "Geniet van je huis en bedankt voor het langskomen!",
+
+        "UI.TextDisplay.Landscape": "Landschap",
+        "UI.TextDisplay.Portrait": "Portret",
+        "UI.TextDisplay.NormalText": "Normaal",
+        "UI.TextDisplay.MonospaceText": "Monospace",
+
+        "UI.VideoPlayer.GlobalSettings": "Globaale<br>Instellingen",
+        "UI.VideoPlayer.LocalSettings": "Lokale<br>Instellingen",
+        "UI.VideoPlayer.SpatialAudio": "Ruimtelijke<br>Audio",
+        "UI.VideoPlayer.AreaBroadcast": "Gebieds<br>Omroep",
+        "UI.VideoPlayer.BroascastAudio": "omroep<br>Audio",
+        "UI.VideoPlayer.EnterURL": "<i><alpha=#77>Voer hier de URL in</closeall>",
+        "UI.VideoPlayer.AudioZoneTheater": "Lokaal naar<br>Theater",
+        "UI.VideoPlayer.AudioZoneGlobal": "Hoorbaar<br>voor de wereld",
+        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, een {user} andere {users}}<br>geladen",
+        "UI.VideoPlayer.AllUsersLoaded": "Alle gebruikers<br>geladen",
+
+        "UI.ColorPicker.ColorPicker": "Kleurenkiezer",
+
+        "UI.ColorPicker.Linear": "Linear",
+
+        "UI.ColorPicker.Hexadecimal": "Hex",
+        "UI.ColorPicker.ColorSwatches": "Swatch",
+
+        "UI.ColorPicker.Red": "Rood",
+        "UI.ColorPicker.Green": "Groen",
+        "UI.ColorPicker.Blue": "Blauw",
+
+        "UI.ColorPicker.Hue": "Tonen",
+        "UI.ColorPicker.Saturation": "Verzadiging",
+        "UI.ColorPicker.Value": "Waarde",
+
+        "UI.ColorPicker.Alpha": "Alfa",
+        "UI.ColorPicker.Gain": "Bereik",
+
+        "UI.ProgressBar.ImportingItem": "Item Importeren",
+
+        "UI.Camera.Automatic": "Automatisch",
+        "UI.Camera.Manual": "Handmatig",
+
+        "Tools.Names.MultiTool": "Multi-Tool",
+
+        "Tools.Names.CommonTools": "meest gebruikte Tools",
+        "Tools.Names.ManipulationTools": "Manipulatie Tools",
+        "Tools.Names.InformationTools": "Informatie Tools",
+
+        "Tools.Names.GeometryLineBrush": "Geometry Line Brush Tool",
+        "Tools.Names.Developer": "Developer Tool",
+        "Tools.Names.ComponentClone": "Component Clone Tool",
+        "Tools.Names.ProtoFlux": "ProtoFlux Tool",
+        "Tools.Names.Material": "Materiaal Tool",
+        "Tools.Names.Glue": "Lijm Tool",
+        "Tools.Names.Light": "Licht Tool",
+        "Tools.Names.Shape": "Vorm Tool",
+        "Tools.Names.Microphone": "Microfoon Tool",
+        "Tools.Names.GrabbableSetter": "Grabbable Setter Tool",
+        "Tools.Names.PhysicalColliderSetter": "Physical Collider Setter Tool",
+        "Tools.Names.MeshVisibility": "Mesh Visibility Tool",
+        "Tools.Names.CameraObjectVisibility": "Camera Object Visibility Tool",
+        "Tools.Names.Color": "Kleuren Tool",
+        "Tools.Names.Mesh": "Mesh Tool",
+        "Tools.Names.RiggedMeshTransfer": "Rigged Mesh Transfeer Tool",
+        "Tools.Names.Slicer": "Mesh Slicer Tool",
+        "Tools.Names.ControllerDiagnostic": "Controller Diagnostic Tool",
+        "Tools.Names.Measure": "Meet Tool",
+        "Tools.Names.Label": "Etiket Tool",
+  
         "Dummy": "Dummy"
     }
 }
