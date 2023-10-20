@@ -1261,12 +1261,12 @@
         "Settings.System.KeepOriginalScreenshotFormat.Description": "Po włączeniu zrzuty ekranu nie będą konwertowane do formatu JPG po zapisaniu w folderze Dokumenty",
 
         "Security.Hyperlink.Title": "link Zewnętrzny",
-        "Security.Hyperlink.Warning": "<b><size=125%>Ostrzeżenie: hiperłącze wychodzące</size></b>\nKliknąłeś łącze w świecie. Chcesz je otworzyć? Otworzy się w przeglądarce internetowej na komputerze.",
+        "Security.Hyperlink.Warning": "<b><size=125%>Ostrzeżenie: link zewnętrzny</size></b>\nKliknąłeś link w świecie. Chcesz je otworzyć? Otworzy się w przeglądarce internetowej na komputerze.",
         "Security.Hyperlink.Open": "Otwórz",
         "Security.Hyperlink.Cancel": "Anuluj",
 
         "Security.HostAccess.Title": "Dostęp do hosta",
-        "Security.HostAccess.Warning": "<b><size=125%>Uwaga: Świat próbuje uzyskać dostęp do nieoficialnego hosta</size></b>\nZezwolenie na dostęp może pozwolić nieoficjalnej stronie na zebranie niektórych danych osobowych, takich jak adres IP i lokalizacja geograficzna.",
+        "Security.HostAccess.Warning": "<b><size=125%>Uwaga: Świat próbuje uzyskać dostęp do zewnętrznego hosta</size></b>\nZezwolenie na dostęp może pozwolić zewnętrznej stronie na zebranie niektórych danych osobowych, takich jak adres IP i lokalizacja geograficzna.",
         "Security.HostAccess.TargetHost": "Host docelowy: <b>{host}</b>",
         "Security.HostAccess.Reason": "Powód: {reason}",
         "Security.HostAccess.NoReason": "<i>Nie podano powodu</i>",
@@ -1327,7 +1327,7 @@
         "Inspector.Mesh.ReverseWinding": "Odwróć Nawijanie",
         "Inspector.Mesh.MakeDualSided": "Konwertuj na Dwustronny",
         "Inspector.Mesh.ConvertToFlatShading": "Konwertuj na Płaskie Cieniowanie",
-        "Inspector.Mesh.ConvertToConvexHull": "Konwertuj na Otoczkę Wypukłą",
+        "Inspector.Mesh.ConvertToConvexHull": "Konwertuj na Powłokę Wypukłą",
         "Inspector.Mesh.ConvertToPointCloud": "Konwertuj na Chmurę Punktów",
         "Inspector.Mesh.MergeDoubles": "Połącz Podwojone Wierzchołki",
         "Inspector.Mesh.StripEmptyBlendshapes": "Usuń Puste Blendshapy",
@@ -1346,7 +1346,7 @@
         "Inspector.MeshRenderer.MergeByMaterial": "Połącz podmeshe z takimi samymi materiałami",
         "Inspector.MeshRenderer.SplitByMaterial": "Rozdziel mesh na części z takimi samymi materiałami",
 
-        "Inspector.MeshCollider.VHACD": "Dekompozycja wypukłej struktury (V-HACD 2.0)",
+        "Inspector.MeshCollider.VHACD": "Dekompozycja wypukłej powłoki (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Zamień na Box Collider",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Aktualizuj moduły lokomocji dla obecnych użytkowników",
@@ -1356,15 +1356,15 @@
         "Inspector.VHACD.Parameter.Depth": "Głębokość",
         "Inspector.VHACD.Parameter.Concavity": "Wklęsłość",
         "Inspector.VHACD.Parameter.PlaneDownsampling": "Downsampling płaszczyzny",
-        "Inspector.VHACD.Parameter.ConvexHullDownsampling": "Downsampling otoczki wypukłej",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling": "Downsampling powłoki wypukłej",
         "Inspector.VHACD.Parameter.Alpha": "Alfa",
         "Inspector.VHACD.Parameter.Beta": "Beta",
         "Inspector.VHACD.Parameter.Gamma": "Gamma",
         "Inspector.VHACD.Parameter.Delta": "Delta",
         "Inspector.VHACD.Parameter.PCA": "PCA",
-        "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Maksymalna liczba wierzchołków na otoczkę",
-        "Inspector.VHACD.Parameter.MinVolumePerHull": "Minimalny objętość na otoczkę",
-        "Inspector.VHACD.Parameter.ConvexHullApproximation": "Przybliżenie otoczki",
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Maksymalna liczba wierzchołków na powłokę",
+        "Inspector.VHACD.Parameter.MinVolumePerHull": "Minimalna objętość na powłokę",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation": "Przybliżenie powłoki",
         
         "Inspector.VHACD.DecompositionMode.Header": "Tryb dekompozycji:",
         "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
@@ -1372,7 +1372,7 @@
 
         "Inspector.VHACD.RunDecomposition": "Uruchom dekompozycję",
         "Inspector.VHACD.RemoveVisuals": "Usuń wizualizacje",
-        "Inspector.VHACD.RemoveHulls": "Usuń otoczki",
+        "Inspector.VHACD.RemoveHulls": "Usuń powłoki",
 
         "Inspector.ReflectionProbe.Bake": "Wypal Odbicia",
         "Inspector.ReflectionProbe.Baking": "Wypalanie...",
