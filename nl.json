@@ -404,33 +404,97 @@
         "Login.InvalidLogin.Description": "Controleer je inloggegevens nogmaals en probeer het opnieuw of druk op \"Wachtwoord Vergeten?\"",
         
         "Login.MalformedUID": "Onjuiste Apparaat Informatie",
+        "Login.MalformedUID.Description": "Probeer het opnieuw te installeren of neem contact op met de ondersteuning op {supportUrl}.",
+       
         "Login.MissingUID": "Ontbrekende Apparaat Informatie",
+        "Login.MissingUID.Description": "Probeer het opnieuw te installeren of neem contact op met de ondersteuning op {supportUrl}.",
+        
         "Register.MissingUID": "Onjuiste Apparaat Informatie",
+        "Register.MissingUID.Description": "Probeer het opnieuw te installeren of neem contact op met de ondersteuning op {supportUrl}.",
+        
         "Register.MalformedUID": "Onjuiste Apparaat Informatie",
-
+        "Register.MalformedUID.Description": "Probeer het opnieuw te installeren of neem contact op met de ondersteuning op {supportUrl}.",
+        
         "Login.MissingLogin": "Geen Informatie Gegeven",
+        "Login.MissingLogin.Description": "Bent je vergeten je gegevens op te geven?",
+        
         "Login.InvalidRecoveryCode": "Onjuiste recovery code",
+        "Login.InvalidRecoveryCode.Description": "Controleer uw herstelcode en probeer het opnieuw.",
+        
         "Login.UnsupportedAuthentication": "Niet Ondersteunde Authenticatiemethode",
+        "Login.UnsupportedAuthentication.Description": "We ondersteunen deze authenticatiemethode niet. Probeer een andere.",
+        
         "Login.EmailNotVerified": "Email Is Niet Geverificeerd",
+        "Login.EmailNotVerified.Description": "Uw e-mailadres is niet geverifieerd. Controleer je inbox op een e-mail van ons en controleer je spammap.",
+        
         "Login.AccountTempLocked": "Je Account Is Geblokkeerd.",
+        "Login.AccountTempLocked.Description": "Neem contact op met Moderatie via: {moderationUrl}.",
+        
         "Login.AccountBanned": "Je Account Is Verbannen.",
+        "Login.AccountBanned.Description": "Neem contact op met Moderatie via: {moderationUrl}.",
+        
         "Login.DuplicateAccount": "Dubbel Account",
+        "Login.DuplicateAccount.Description": "Neem contact op met de ondersteuning via: {supportUrl}.",
 
+        "Login.UnknownError": "Onbekende Fout",
+        "Login.UnknownError.Description": "Er is een onbekende fout opgetreden tijdens het inloggen. Neem contact op met de ondersteuning via support.resonite.com",
+ 
         "Register.MissingRequest": "Ontbrekende Regestratiegegevens",
+        "Register.MissingRequest.Description": "We konden geen registratiegegevens vinden. Zorg ervoor dat je deze bij je inschrijving vermeldt.",
+        
         "Register.InvalidEmail": "Ongeldige Email Adres",
+        "Register.InvalidEmail.Description": "Je e-mailadres is ongeldig.",
+        
         "Register.MissingUsername": "Ontbrekende Gebruikersnaam",
+        "Register.MissingUsername.Description": "Heb je je gebruikersnaam opgegeven?",
+        
         "Register.MissingEmail": "Ontbrekende Email",
+        "Register.MissingEmail.Description": "Heb je je e-mailadres opgegeven?",
+        
         "Register.UsernameTooLong": "Gebruikersnaam Te Lang",
+        "Register.UsernameTooLong.Description": "We staan ​​gebruikersnamen van maximaal 32 tekens toe.",
+        
         "Register.UsernameContainsAmpersand": "Gebruikersnaam Kan Geen @ Bevatten",
+        "Register.UsernameContainsAmpersand.Description": "Gebruikersnaam Kan Geen @ Bevatten.",
+        
         "Register.UsernameStartsWithU": "Gebruikersnaam Kan Niet Met U- Beginnen",
+        "Register.UsernameStartsWithU.Description": "Gebruikersnaam Kan Niet Met U- Beginnen.",
+        
         "Register.InvalidUsername": "Ongeldige Gebruikersnaam",
+        "Register.InvalidUsername.Description": "Je gebruikersnaam is ongeldig.",
+        
         "Register.InvalidDateOfBirth": "Ongeldige GeboortenJaar",
+        "Register.InvalidDateOfBirth.Description": "Je geboortedatum is ongeldig.",
+        
         "Register.UserContainsBlockedTerms": "Gebruikersnaam Bevat Geblokkeerde Woorden",
+        "Register.UserContainsBlockedTerms.Description": "Je gebruikersnaam bevat geblokkeerde woorden. Als je denkt dat dit een fout is neem dan contact op {supportUrl}.",
+        
         "Register.MissingPassword": "Ontbrekent Wachtwoord",
+        "Register.MissingPassword.Description": "Je hebt geen wachtwoord opgegeven.",
+        
         "Register.InvalidPassword": "Onjuist Wachtwoord",
+        "Register.InvalidPassword.Description": "Je wachtwoord is ongeldig. Het moet minimaal 8 tekens, 1 cijfer, 1 hoofdletter en 1 kleine letter bevatten.",
+        
         "Register.EmailAlreadyRegistered": "Email Is Al Geregistreerd",
+        "Register.EmailAlreadyRegistered.Description": "Er bestaat al een account met dit e-mailadres. Als je je wachtwoord bent vergeten, kan je op \"Wachtwoord vergeten\" klikken. Of je kan contact opnemen met de ondersteuning via {supportUrl}.",
+        
         "Register.UsernameAlreadyRegistered": "Gebruikersnaam Is Al Geregistreerd",
+        "Register.UsernameAlreadyRegistered.Description": "Er bestaat al een account met deze gebruikersnaam. Als u uw wachtwoord bent vergeten, kunt u op \"Wachtwoord vergeten\" klikken. Of u kunt contact opnemen met de ondersteuning via {supportUrl}.",
+        
         "Register.ErrorCheckingUserId": "Error Met Het Checken Van GebruikersID",
+        "Register.ErrorCheckingUserId.Description" : "Neem contact op met de ondersteuning via {supportUrl}.",
+
+        "Recovery.MissingEmail" : "Ontbrekende E-mail",
+        "Recovery.MissingEmail.Description" : "Heb je je email opgegeven?",
+
+        "Recovery.IncorrectEmail" : "Incorrecte E-mail",
+        "Recovery.IncorrectEmail.Description" : "Je hebt een onjuist e-mailadres ingevoerd voor wachtwoordherstel. Controleer je gegevens en probeer het opnieuw.",
+
+        "Recovery.NoPasswordSetup" : "Geen Wachtwoord Ingesteld", 
+        "Recovery.NoPasswordSetup.Description" : "Neem contact op met de ondersteuning via {supportUrl}.",
+
+        "Register.UnknownError": "Onbekende Error",
+        "Register.UnknownError.Description": "Er is een onbekende fout opgetreden tijdens de registratie. Neem contact op met de ondersteuning via {supportUrl}.",
         
         "Account.Login": "Log in",
         "Account.Logout": "Log uit",
@@ -642,7 +706,13 @@
         "Tooltips.Dev.Translation" : "Vertaling",
         "Tooltips.Dev.Rotation" : "Draai",
         "Tooltips.Dev.Scale" : "Afmeting",
-        
+
+        "Tooltips.Dev.Selection.Single": "Enkele",
+        "Tooltips.Dev.Selection.Multi": "Meerdere",
+
+        "Tooltips.Dev.Interaction.Tip": "Tip",
+        "Tooltips.Dev.Interaction.Projection": "Projectie",
+
         "Tooltip.Color.Picker": "Kleur kiezer",
 
         "Tooltip.GrabbableSetter.Scalable": "Schaalbaar instellen",
@@ -660,6 +730,10 @@
         "Tooltip.Light.Spot": "Spot",
         "Tooltip.Light.Sun": "Zon",
 
+        "Tooltip.Light.Shadows.None": "Geen Schaduwen",
+        "Tooltip.Light.Shadows.Hard": "Harde Schaduwen",
+        "Tooltip.Light.Shadows.Soft": "Zachte Schaduwen",
+       
         "Tooltip.MeshVisibility.KeepShadow": "Behoud schaduw",
         "Tooltip.MeshVisibility.ShadowOff": "Zet schaduwen Uit",
         "Tooltip.MeshVisibility.ShadowOn": "Zet schaduwen Aan",
@@ -705,6 +779,26 @@
         "Tooltip.ProtoFlux.PackInto" : "Pak In <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.Unpack" : "Uitpakken <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.ExplicitCast" : "Expliciet Cast\n<size=50%>(<color=red>Warning:</color> Potential Data Loss)</size>",
+
+        "Tooltip.Meter.Mode.Ray" : "Modus: Stralen",
+        "Tooltip.Meter.Mode.Perpendicular" : "Modus: Loodrecht",
+        "Tooltip.Meter.Mode.Drag" : "Modus: Slepen",
+
+        "Tooltip.Meter.Points.Two" : "Twee Punten",
+        "Tooltip.Meter.Points.Multiple" : "Meerdere Punten",
+
+        "Tooltip.Meter.ObjectSpace" : "Meten in objectruimte",
+        "Tooltip.Meter.WorldSpace" : "Meten in wereldruimte",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "Modus: meshes bakken",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "Modus: skinned meshes bakken",
+        "Tooltip.Glue.Mode.ParentObjects" : "Modus: Parent objecten",
+
+        "Tooltip.RigTransfer.ClearSource" : "Oorsprong Opschonen",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "Enkele Instantie: Aan",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "Enkele Instantie: Uit",
+        "Tooltip.ComponentClone.ClearTemplate" : "Sjabloon Opschonen",
 
         "ProtoFlux.UI.Call" : "Roepen",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> Roepen",
@@ -1714,6 +1808,8 @@
         "Tutorial.Saving.Title": "Welkom thuis!",
         "Tutorial.Saving.Content": "Welkom in je <b><i><color=hero.gold>Thuis</b></i></color> wereld! Hier kom je elke keer terecht als je inlogt.<br><br>Dit is een geheel eigen wereld, dus alle wijzigingen die je aanbrengt kunnen worden opgeslagen.<br><br>Als je opslaat, wordt alles opgeslagen bij terugkomst zal het net zo zijn als u het achterliet!",
 
+        "Tutorial.Teleporter.Error": "Het laden van je cloudhome is mislukt!<br><size=66%>Stap uit de teleporter en stap er weer in om het opnieuw te proberen.</size>",
+        
         "CloudHome.Info.OnlineUsers": "Online {online_users,plural, een {user} andere {users}}: {online_users}<br>Joinable {joinable_users,plural, een {user} andere {users}}: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderation",
         "CloudHome.Info.Inventory": "Inventory",
