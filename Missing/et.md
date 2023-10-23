@@ -144,8 +144,8 @@ Register.InvalidUsername
 Register.InvalidUsername.Description  
 Register.InvalidDateOfBirth  
 Register.InvalidDateOfBirth.Description  
-Register.UserContainsBlockedTerms  
-Register.UserContainsBlockedTerms.Description  
+Register.UsernameContainsBlockedTerms  
+Register.UsernameContainsBlockedTerms.Description  
 Register.MissingPassword  
 Register.MissingPassword.Description  
 Register.InvalidPassword  
