@@ -111,8 +111,9 @@
         "Inventory.OpenWorld": "Welt öffnen",
         "Inventory.Equip": "Ausrüsten",
         "Inventory.Delete": "Löschen",
-        "Inventory.SaveHeld": "Gehaltenes Objekt speichern",
         "Inventory.CreateDirectory": "Neuer Ordner",
+        "Inventory.SaveHeld": "Gehaltenes Objekt speichern",
+        "Inventory.GetURL": "URL holen",
         "Inventory.Inventories": "Inventare",
         "Inventory.Share": "Teilen",
         "Inventory.Unshare": "Privat machen",
@@ -242,7 +243,7 @@
         "World.Actions.CloseConfirm": "Schließen",
         "World.Actions.LeaveConfirm": "Verlassen",
         "World.Actions.CannotClose": "(diese Welt kann nicht geschlossen werden)",
-        "World.Actions.GuestWarning": "Gäste-Warnung",
+        "World.Actions.GuestWarning": "",
         "World.Actions.HostingWarning": "Sie sind Host dieser Welt. Alle anwesenden Benutzer werden getrennt, wenn Sie die Welt schließen.",
 
         "World.Actions.GetWorldOrb": "Welt-Orb erzeugen",
@@ -397,36 +398,103 @@
         "Indicator.LiveHiddenMessage": "(Information während Livemodus versteckt)",
 
         "Login.InvalidCredentials": "Ungültige Anmeldedaten",
+        "Login.InvalidCredentials.Description": "Überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut, oder drücken Sie \"Passwort vergessen?\".",
+
         "Login.InvalidLogin": "Ungültige Anmeldedaten",
+        "Login.InvalidLogin.Description": "Überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut, oder drücken Sie \"Passwort vergessen?\".",
 
         "Login.MalformedUID": "Ungültige Gerät-Informationen",
+        "Login.MalformedUID.Description": "Versuchen Sie eine Neuinstallation, oder wenden Sie sich an den Support unter {supportUrl}.",
+
         "Login.MissingUID": "Fehlende Gerät-Informationen",
+        "Login.MissingUID.Description": "Versuchen Sie eine Neuinstallation, oder wenden Sie sich an den Support unter {supportUrl}.",
+
         "Register.MissingUID": "Ungültige Gerät-Informationen",
+        "Register.MissingUID.Description": "Versuchen Sie eine Neuinstallation, oder wenden Sie sich an den Support unter {supportUrl}.",
+
         "Register.MalformedUID": "Fehlende Gerät-Informationen",
+        "Register.MalformedUID.Description": "Versuchen Sie eine Neuinstallation, oder wenden Sie sich an den Support unter {supportUrl}.",
 
         "Login.MissingLogin": "Keine Anmeldedaten bereitgestellt",
+        "Login.MissingLogin.Description": "Haben Sie Ihre Anmeldedaten eingegeben?",
+
         "Login.InvalidRecoveryCode": "Ungültiger Wiederherstellungscode",
+        "Login.InvalidRecoveryCode.Description": "Überprüfen Sie Ihren Wiederherstellungscode und versuchen Sie es erneut.",
+
         "Login.UnsupportedAuthentication": "Nicht unterstützte Authentifizierungsmethode",
-        "Login.EmailNotVerified": "Email nicht verifiziert",
+        "Login.UnsupportedAuthentication.Description": "Wir unterstützen diese Authentifizierungsmethode nicht. Bitte versuchen Sie es mit einer anderen erneut.",
+
+        "Login.EmailNotVerified": "E-Mail Adresse nicht verifiziert",
+        "Login.EmailNotVerified.Description": "Ihre E-Mail Adresse ist nicht verifiziert, überprüfen Sie Ihren Posteingang, wir haben Ihnen eine E-Mail gesendet. Bitte sehen Sie auch im Spam-Ordner nach.",
+
         "Login.AccountTempLocked": "Ihr Account ist gesperrt.",
+        "Login.AccountTempLocked.Description": "Bitte wenden Sie sich an unsere Moderatoren unter {moderationUrl}.",
+
         "Login.AccountBanned": "Ihr Account ist gebannt.",
+        "Login.AccountBanned.Description": "Bitte wenden Sie sich an unsere Moderatoren unter {moderationUrl}.",
+
         "Login.DuplicateAccount": "Doppelter Account",
+        "Login.DuplicateAccount.Description": "Bitte wenden Sie sich an unseren Support unter {supportUrl}.",
+
+        "Login.UnknownError": "Unbekannter Fehler",
+        "Login.UnknownError.Description": "Während der Anmeldung ist ein unbekannter Fehler aufgetreten. Bitte wenden Sie sich an den Support unter {supportUrl}.",
 
         "Register.MissingRequest": "Fehlende Registrierungsangaben",
+        "Register.MissingRequest.Description": "Wir konnten keine Registrierungsangaben finden, bitte geben Sie diese beim Registrieren an.",
+
         "Register.InvalidEmail": "Ungültige E-Mail Adresse",
+        "Register.InvalidEmail.Description": "Ihre E-Mail Adresse ist ungültig.",
+
         "Register.MissingUsername": "Fehlender Benutzername",
+        "Register.MissingUsername.Description": "Haben Sie Ihren Benutzernamen eingegeben?",
+
         "Register.MissingEmail": "Fehlende E-Mail Adresse",
+        "Register.MissingEmail.Description": "Haben Sie Ihre E-Mail Adresse eingegeben?",
+
         "Register.UsernameTooLong": "Benutzername zu lang",
+        "Register.UsernameTooLong.Description": "Wir erlauben Benutzernamen bis zu einer Länge von 32 Zeichen.",
+
         "Register.UsernameContainsAmpersand": "Benutzername darf kein @ enthalten",
+        "Register.UsernameContainsAmpersand.Description": "Ihr Benutzername darf das Zeichen @ nicht enthalten.",
+
         "Register.UsernameStartsWithU": "Benutzername darf nicht mit U- beginnen",
+        "Register.UsernameStartsWithU.Description": "Ihr Benutzername darf nicht mit U- beginnen.",
+
         "Register.InvalidUsername": "Ungültiger Benutzername",
+        "Register.InvalidUsername.Description": "Ihr Benutzername ist ungültig.",
+
         "Register.InvalidDateOfBirth": "Ungültiges Geburtsdatum",
+        "Register.InvalidDateOfBirth.Description": "Ihr Geburtsdatum ist ungültig.",
+
         "Register.UserContainsBlockedTerms": "Benutzername enthält gesperrte Wörter",
+        "Register.UserContainsBlockedTerms.Description": "Ihr Benutzername enthält gesperrte Wörter. Wenn Sie meinen, dass dies ein Fehler ist, wenden Sie sich an {supportUrl}.",
+
         "Register.MissingPassword": "Fehlendes Passwort",
+        "Register.MissingPassword.Description": "Sie haben kein Passwort eingegeben.",
+
         "Register.InvalidPassword": "Ungültiges Passwort",
+        "Register.InvalidPassword.Description": "Ihr Passwort ist ungültig.",
+
         "Register.EmailAlreadyRegistered": "E-Mail Adresse bereits registriert",
+        "Register.EmailAlreadyRegistered.Description": "Es existiert schon ein Account mit dieser E-Mail Adresse. Wenn Sie Ihr Passwort vergessen haben, drücken Sie \"Passwort vergessen?\", oder wenden Sie sich an den Support unter {supportUrl}.",
+
         "Register.UsernameAlreadyRegistered": "Benutzername bereits registriert",
+        "Register.UsernameAlreadyRegistered.Description": "Es existiert schon ein Account unter diesem Benutzernamen. Wenn Sie Ihr Passwort vergessen haben, drücken Sie \"Passwort vergessen?\", oder wenden Sie sich an den Support unter {supportUrl}.",
+
         "Register.ErrorCheckingUserId": "Fehler beim Prüfen der Benutzer-ID",
+        "Register.ErrorCheckingUserId.Description": "Bitte wenden Sie sich an den Support unter {supportUrl}.",
+
+        "Recovery.MissingEmail" : "Fehlende E-Mail Adresse",
+        "Recovery.MissingEmail.Description" : "Haben Sie Ihre E-Mail Adresse eingegeben?",
+
+        "Recovery.IncorrectEmail" : "Falsche E-Mail Adresse",
+        "Recovery.IncorrectEmail.Description" : "Sie haben eine falsche E-Mail Adresse für das Zurücksetzen des Passworts angegeben. Bitte überprüfen Sie Ihre Eingaben und versuchen Sie es erneut.",
+
+        "Recovery.NoPasswordSetup" : "Kein Passwort eingerichtet",
+        "Recovery.NoPasswordSetup.Description" : "Bitte wenden Sie sich an unseren Support unter {supportUrl}.",
+
+        "Register.UnknownError": "Unbekannter Fehler",
+        "Register.UnknownError.Description": "Während der Registrierung ist ein unbekannter Fehler aufgetreten. Bitte wenden Sie sich an den Support unter {supportUrl}.",
 
         "Account.Login": "Anmelden",
         "Account.Logout": "Abmelden",
@@ -459,7 +527,7 @@
         "Account.ErrorPasswordMismatch": "Passwörter stimmen nicht überein!",
         "Account.ErrorEmailMismatch": "E-Mail-Adressen stimmen nicht überein!",
         "Account.ErrorLoginError": "Fehler bei der Anmeldung:",
-        "Account.RegistrationSuccess": "<size=120%>Registrierung erfolgreich!</size><br><br>Ein Bestätigungslink wurde per E-Mail an {email} gesendet.<br><br>Sie werden automatisch eingeloggt, sobald Sie diesen Link öffnen, solange dieser Dialog angezeigt wird.<br><br>Bei Problemen können Sie uns über hello@resonite.com oder discord.gg/resonite erreichen.",
+        "Account.RegistrationSuccess": "<size=120%>Registrierung erfolgreich!</size><br><br>Ein Bestätigungslink wurde per E-Mail an {email} gesendet.<br><br>Sie werden automatisch eingeloggt, sobald Sie diesen Link öffnen, solange dieser Dialog angezeigt wird.<br><br>Bei Problemen können Sie uns über {appEmail} oder {appCommunity} erreichen.",
         "Account.BirthMonth": "Geburtsmonat",
         "Account.BirthDay": "Geburtstag",
         "Account.BirthYear": "Geburtsjahr",
@@ -610,7 +678,7 @@
         "Undo.MoveIKBone": "IK-Knochen bewegen",
         "Undo.MoveSun": "Sonne bewegen",
         "Undo.ApplyMaterial": "Material anwenden",
-        "Undo.BakeMeshes": "{name} vereinfachen (Bake)",
+        "Undo.BakeMeshes": "{name} vereinen",
         "Undo.ChangeMesh": "Mesh ändern",
         "Undo.InsertParent": "Parent für {name} einfügen",
         "Undo.Wiggler": "Böses Zeug",
@@ -639,6 +707,12 @@
         "Tooltips.Dev.Rotation" : "Rotieren",
         "Tooltips.Dev.Scale" : "Skalieren",
 
+        "Tooltips.Dev.Selection.Single": "Einzelauswahl",
+        "Tooltips.Dev.Selection.Multi": "Mehrfachauswahl",
+
+        "Tooltips.Dev.Interaction.Tip": "Spitze",
+        "Tooltips.Dev.Interaction.Projection": "Projiziert",
+
         "Tooltip.Color.Picker": "Farbauswahl",
 
         "Tooltip.GrabbableSetter.Scalable": "Skalierbar setzen",
@@ -653,8 +727,12 @@
         "Tooltip.CharacterCollider.EnsurePhysicalFly": "Physikalische Flug-Fortbewegung sicherstellen",
 
         "Tooltip.Light.Point": "Punkt",
-        "Tooltip.Light.Spot": "Spot",
+        "Tooltip.Light.Spot": "Strahler",
         "Tooltip.Light.Sun": "Sonne",
+
+        "Tooltip.Light.Shadows.None": "Keine Schatten",
+        "Tooltip.Light.Shadows.Hard": "Harte Schatten",
+        "Tooltip.Light.Shadows.Soft": "Weiche Schatten",
 
         "Tooltip.MeshVisibility.KeepShadow": "Schatten behalten",
         "Tooltip.MeshVisibility.ShadowOff": "Schatten deaktivieren",
@@ -701,6 +779,26 @@
         "Tooltip.ProtoFlux.PackInto": "Verpacken nach <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.Unpack": "Entpacke <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.ExplicitCast": "Explizite Umwandlung\n<size=50%>(<color=red>Warnung:</color> Möglicher Informationsverlust)</size>",
+
+        "Tooltip.Meter.Mode.Ray" : "Modus: Projiziert",
+        "Tooltip.Meter.Mode.Perpendicular" : "Modus: Senkrecht",
+        "Tooltip.Meter.Mode.Drag" : "Modus: Ziehen",
+
+        "Tooltip.Meter.Points.Two" : "Zwei Punkte",
+        "Tooltip.Meter.Points.Multiple" : "Mehrere Punkte",
+
+        "Tooltip.Meter.ObjectSpace" : "Im Objekt-Koordinatenraum messen",
+        "Tooltip.Meter.WorldSpace" : "Im Welt-Koordinatenraum messen",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "Modus: Meshes vereinen",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "Modus: Skinned-Meshes vereinen",
+        "Tooltip.Glue.Mode.ParentObjects" : "Modus: Objekte parentieren",
+
+        "Tooltip.RigTransfer.ClearSource" : "Quelle entfernen",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "Nur eine Instanz: An",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "Nur eine Instanz: Aus",
+        "Tooltip.ComponentClone.ClearTemplate" : "Vorlage entfernen",
 
         "ProtoFlux.UI.Call": "Aufruf",
         "ProtoFlux.UI.AsyncCall": "<size=50%>Asynchroner</size> Aufruf",
@@ -894,6 +992,10 @@
         "Importer.Video.Stereo180": "Stereo-180-Video",
         "Importer.Video.Depth.Prompt": "Tiefen-Voreinstellung",
         "Importer.Video.Depth.Default": "Standard",
+
+        "Importer.Slices.Title": "Schnittbilder als volumetrische Textur",
+        "Importer.Slices.TitleGrayscale": "Schnittbilder als volumetrische Textur (Graustufen)",
+        "Importer.Slices.Description": "Verarbeitet alle Bilddateien im Ordner zu einer volumetrischen Textur",
 
         "Exporter.Title": "Exportieren",
         "Exporter.FileName": "Dateiname:",
@@ -1317,7 +1419,7 @@
         "Inspector.Texture.Format": "Format: {format}, Speicher: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "Variante: {variant}",
 
-        "Inspector.Texture.BakeTexture": "Texturen zusammenfügen",
+        "Inspector.Texture.BakeTexture": "Texturen vereinen",
 
         "Inspector.Texture.InvertRGB": "Invertiere RGB",
         "Inspector.Texture.InvertR": "Invertiere R",
@@ -1372,7 +1474,7 @@
         "Inspector.Material.VariantInfo": "Variante: {variantID} (Rohwert: {rawVariantID})",
         "Inspector.Material.WaitingForApply": "Warte auf Anwendung: {waiting}",
 
-        "Inspector.Audio.BakeAudio": "Audio-Clip zusammenfügen",
+        "Inspector.Audio.BakeAudio": "Audio-Clip vereinen",
         "Inspector.Audio.FormatInfo": "Sample-Rate: {rate} Hz, Kanäle: {channels} ({channel_count})",
         "Inspector.Audio.Duration": "Dauer: {duration}, Sample-Anzahl: {samples}",
         "Inspector.Audio.EncodingInfo": "Codec-Info: {info}, Dekodiert: {decoded}",
@@ -1649,7 +1751,6 @@
 
         "Migration.Summary": "Okay, wir haben alles, was wir für die Migration benötigen. Drücken Sie auf \"Migration beginnen\" und wir werden damit anfangen, Ihre Daten zu übernehmen.\n\nDie Migration könnte eine Weile dauern - wir müssen schließlich alles rüberkopieren. Wenn Sie ausgewählt haben, Ihre Favoriten zu migrieren, werden wir diese priorisieren, damit Sie es sich schnell bequem machen können.\n\nSie müssen {appName} nicht laufen lassen, während wir Ihre Daten migrieren, aber wir werden Ihnen Updates über den {appName} Bot zukommen lassen, um Sie auf dem Laufenden zu halten.",
 
-
         "Migration.List.EmptyTitle": "Möchten Sie eine neue Migration starten?",
         "Migration.List.EmptySubtitle": "Klicken Sie auf \"Neuen Migrations-Task\" oben links.",
 
@@ -1706,6 +1807,8 @@
 
         "Tutorial.Saving.Title": "Willkommen Zuhause!",
         "Tutorial.Saving.Content": "Willkommen in Ihrer <b><i><color=hero.yellow>Home</b></i></color>-Welt! Hier werden Sie jedes Mal starten, wenn Sie sich einloggen.<br><br>Diese Welt gehört Ihnen; Sie können also Änderungen, die Sie daran vornehmen, speichern.<br><br>Wenn Sie die Welt speichern, werden Sie sie beim nächsten Mal genau so vorfinden, wie Sie sie hinterlassen haben!",
+
+        "Tutorial.Teleporter.Error": "Ihr Cloud-Home konnte nicht geladen werden!<br><size=66%>Versuchen Sie es erneut, indem Sie den Teleporter verlassen und ihn erneut betreten.</size>",
 
         "CloudHome.Info.OnlineUsers": "Benutzer online: {online_users}<br>Benutzer beitretbar: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderation",
@@ -1927,6 +2030,9 @@
         "UI.ColorPicker.Gain": "Stärke",
 
         "UI.ProgressBar.ImportingItem": "Objekt Importieren",
+        
+        "UI.Camera.Automatic": "Automatisch",
+        "UI.Camera.Manual": "Manuell",
 
         "Tools.Names.MultiTool": "Multitool",
 

@@ -1,6 +1,6 @@
 {
     "localeCode": "ja",
-    "authors": ["orange", "Melnus", "Aesc", "kazu", "Rabbuttz", "zozokasu", "rhenium"],
+    "authors": ["orange", "Melnus", "Aesc", "kazu", "Rabbuttz", "zozokasu", "rhenium", "chaba_take"],
     "messages": {
 
         "General.OK": "OK",
@@ -376,7 +376,7 @@
         "Options.Nameplates.DefaultStyle": "カスタムネームプレート:<br>非表示",
         "Options.Nameplates.CustomStyle": "カスタムネームプレート:<br>表示",
 
-        "Indicator.OnlineUsers": "オンラインユーザー数​:{num_registered}(~{num_total})",
+        "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> 人がオンライン​",
         "Indicator.OnlineUsersVR": "VR <color=hero.purple>{users}</color> 人",
         "Indicator.OnlineUsersDesktop": "デスクトップ <color=hero.cyan>{users}</color> 人",
 
@@ -387,7 +387,7 @@
         "Indicator.ServerStatus.NoInternet": "インターネットなし",
 
         "Indicator.Sync.AllSynced": "シンク完了",
-        "Indicator.Sync.SyncingItems": "{item_count,plural, other {# 個のアイテムを}}シンク中<nobr>({item_percent} %)",
+        "Indicator.Sync.SyncingItems": "シンク中<br><size=61.8033%>{item_count, plural, other {# アイテム}}</size>",
         "Indicator.Sync.UploadingVariants": "{variant_count,plural, other {# 個のアセットバリアントを}} アップロード中",
         "Indicator.Sync.SyncError": "シンクエラー! <size=50%>ログをチェックしてください</size>",
         "Indicator.Sync.StorageFull": "容量が足りません! <size=50%>シンクできません</size>",
@@ -398,36 +398,103 @@
         "Indicator.LiveHiddenMessage": "(ライブ中は非表示)",
 
         "Login.InvalidCredentials": "認証情報が異なります",
+        "Login.InvalidCredentials.Description": "認証情報を再確認してもう一度試すか、 \"パスワードを忘れてしまった\"を押してください",
+
         "Login.InvalidLogin": "ログイン情報が異なります",
+        "Login.InvalidLogin.Description": "認証情報をを再確認してもう一度試すか、 \"パスワードを忘れてしまった\"を押してください",
 
         "Login.MalformedUID": "デバイス情報が正しくありません",
+        "Login.MalformedUID.Description": "再インストールするか、サポート{supportUrl}に連絡してください",
+
         "Login.MissingUID": "デバイス情報を入力して下さい",
+        "Login.MissingUID.Description": "再インストールするか、サポート{supportUrl}に連絡してください",
+
         "Register.MissingUID": "デバイス情報を入力して下さい",
+        "Register.MissingUID.Description": "再インストールするか、サポート{supportUrl}に連絡してください",
+
         "Register.MalformedUID": "デバイス情報が正しくありません",
+        "Register.MalformedUID.Description": "再インストールするか、サポート{supportUrl}に連絡してください",
 
         "Login.MissingLogin": "認証情報を入力してください",
+        "Login.MissingLogin.Description": "認証情報をお忘れですか？",
+
         "Login.InvalidRecoveryCode": "リカバリーコードが違います",
+        "Login.InvalidRecoveryCode.Description": "リカバリーコードを再確認してください",
+
         "Login.UnsupportedAuthentication": "サポートされていない認証手段です",
+        "Login.UnsupportedAuthentication.Description": "この認証方法はサポートしていません。他の方法をお試しください。",
+
         "Login.EmailNotVerified": "メールの承認が済んでいません",
+        "Login.EmailNotVerified.Description": "メールアドレスは確認されていません、​受信トレイや​迷惑メールフォルダに​メールが届いていないか​確認してください。",
+
         "Login.AccountTempLocked": "あなたのアカウントはロックアウトされています…",
+        "Login.AccountTempLocked.Description": "モデレーションまでご連絡ください: {moderationUrl}",
+
         "Login.AccountBanned": "あなたのアカウントはBANされています。",
+        "Login.AccountBanned.Description": "モデレーションまでご連絡ください: {moderationUrl}",
+
         "Login.DuplicateAccount": "アカウントが重複しています",
+        "Login.DuplicateAccount.Description": "サポートまでご連絡ください: {supportUrl}",
+
+        "Login.UnknownError": "未知のエラーです",
+        "Login.UnknownError.Description": "ログイン中に未知なエラーが発生しました。 サポートまでご連絡ください support.resonite.com",
 
         "Register.MissingRequest": "必要情報を入力してください",
+        "Register.MissingRequest.Description": "登録情報が見つかりませんでした。 登録時には必ず必要事項を入力してください。",
+
         "Register.InvalidEmail": "メールアドレスが一致しません",
+        "Register.InvalidEmail.Description": "メールアドレスが無効です",
+
         "Register.MissingUsername": "ユーザー名を入力してください",
+        "Register.MissingUsername.Description": "ユーザー名を入力しましたか?",
+
         "Register.MissingEmail": "メールアドレスを入力してください",
+        "Register.MissingEmail.Description": "メールアドレスを入力しましたか?",
+
         "Register.UsernameTooLong": "ユーザー名が長すぎます",
+        "Register.UsernameTooLong.Description": "ユーザー名は32文字までです",
+
         "Register.UsernameContainsAmpersand": "ユーザー名には @ は含めないでください",
+        "Register.UsernameContainsAmpersand.Description": "ユーザー名に @ は使用できません",
+
         "Register.UsernameStartsWithU": "U- から始まるユーザー名は設定できません",
+        "Register.UsernameStartsWithU.Description": "ユーザー名は U- で始めてはいけません",
+
         "Register.InvalidUsername": "ユーザー名を変更してください",
-        "Register.InvalidDateOfBirth": "誕生日の形式が正しくありません",
+        "Register.InvalidUsername.Description": "ユーザー名が無効です",
+
+        "Register.InvalidDateOfBirth": "誕生日を正しく入力してください",
+        "Register.InvalidDateOfBirth.Description": "生年月日が無効な形式です",
+
         "Register.UserContainsBlockedTerms": "ユーザー名に不適切な単語が含まれています",
+        "Register.UserContainsBlockedTerms.Description": "ユーザー名にブロックワードが含まれています。 エラーと思われる場合はサポートまでご連絡ください {supportUrl}",
+
         "Register.MissingPassword": "パスワードを入力してください",
-        "Register.InvalidPassword": "パスワードが一致しません",
+        "Register.MissingPassword.Description": "パスワードが入力されていません",
+
+        "Register.InvalidPassword": "無効なパスワードです",
+        "Register.InvalidPassword.Description": "パスワードが無効です。8文字以上で、数字、大文字、小文字をそれぞれ1字以上使用してください。",
+
         "Register.EmailAlreadyRegistered": "このEmailは既に登録されています",
+        "Register.EmailAlreadyRegistered.Description": "このメールアドレスを使用したアカウントはすでに存在します。 パスワードを忘れた場合は、\"パスワードを忘れてしまった\"をクリックしてください。 もしくはサポートまでご連絡ください {supportUrl}",
+
         "Register.UsernameAlreadyRegistered": "このユーザー名は既に使用されています",
+        "Register.UsernameAlreadyRegistered.Description": "このユーザー名を使用したアカウントはすでに存在します。 パスワードを忘れた場合は、\"パスワードを忘れてしまった\"をクリックしてください。 もしくはサポートまでご連絡ください {supportUrl}",
+
         "Register.ErrorCheckingUserId": "ユーザーIDの確認中にエラーが発生しました",
+        "Register.ErrorCheckingUserId.Description": "サポートまでご連絡ください {supportUrl}",
+
+        "Recovery.MissingEmail" : "メールアドレスを入力してください",
+        "Recovery.MissingEmail.Description" : "メールアドレスを入力しましたか?",
+
+        "Recovery.IncorrectEmail" : "メールアドレスが異なります",
+        "Recovery.IncorrectEmail.Description" : "パスワード回復のために入力したメールアドレスが正しくありません。​再確認してください。",
+
+        "Recovery.NoPasswordSetup" : "パスワードが設定されていません",
+        "Recovery.NoPasswordSetup.Description" : "サポートまでご連絡ください {supportUrl}",
+
+        "Register.UnknownError": "未知のエラーです",
+        "Register.UnknownError.Description": "登録中に未知なエラーが発生しました。 サポートまでご連絡ください {supportUrl}",
 
         "Account.Login": "ログイン",
         "Account.Logout": "ログアウト",
@@ -511,7 +578,7 @@
         "Profile.Status.Online": "オンライン",
         "Profile.Status.Away": "退席中",
         "Profile.Status.Busy": "取込中",
-        "Profile.Status.Invisible": "居留守",
+        "Profile.Status.Invisible": "非表示",
         "Profile.Status.Offline": "オフライン",
         "Profile.Status.Headless": "ヘッドレス",
 
@@ -638,7 +705,13 @@
         "Tooltips.Dev.GlobalSpace" : "グローバル空間",
         "Tooltips.Dev.Translation" : "位置",
         "Tooltips.Dev.Rotation" : "回転",
-        "Tooltips.Dev.Scale" : "スケール",
+        "Tooltips.Dev.Scale" : "大きさ",
+
+        "Tooltips.Dev.Selection.Single": "選択: 単独",
+        "Tooltips.Dev.Selection.Multi": "選択: 複数",
+
+        "Tooltips.Dev.Interaction.Tip": "Tip",
+        "Tooltips.Dev.Interaction.Projection": "Projection",
 
         "Tooltip.Color.Picker": "カラーピッカー",
 
@@ -656,6 +729,10 @@
         "Tooltip.Light.Point": "ポイントライト",
         "Tooltip.Light.Spot": "スポットライト",
         "Tooltip.Light.Sun": "ディレクショナルライト",
+
+        "Tooltip.Light.Shadows.None": "影なし",
+        "Tooltip.Light.Shadows.Hard": "影: ハード",
+        "Tooltip.Light.Shadows.Soft": "影: ソフト",
 
         "Tooltip.MeshVisibility.KeepShadow": "影を残す",
         "Tooltip.MeshVisibility.ShadowOff": "影を無効にする",
@@ -702,6 +779,26 @@
         "Tooltip.ProtoFlux.PackInto" : "<size=50%>{name}</size>にパッキング",
         "Tooltip.ProtoFlux.Unpack" : "<size=50%>{name}</size>をアンパック",
         "Tooltip.ProtoFlux.ExplicitCast" : "明示的キャスト\n<size=50%>(<color=red>警告:</color> 潜在的なデータ損失)</size>",
+
+        "Tooltip.Meter.Mode.Ray" : "モード: レイ",
+        "Tooltip.Meter.Mode.Perpendicular" : "モード: 直角",
+        "Tooltip.Meter.Mode.Drag" : "モード: ドラッグ",
+
+        "Tooltip.Meter.Points.Two" : "2点間",
+        "Tooltip.Meter.Points.Multiple" : "複数点",
+
+        "Tooltip.Meter.ObjectSpace" : "オブジェクト空間で計測",
+        "Tooltip.Meter.WorldSpace" : "ワールド空間で計測",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "メッシュをベイク",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "スキンドメッシュをベイク",
+        "Tooltip.Glue.Mode.ParentObjects" : "親子付け",
+
+        "Tooltip.RigTransfer.ClearSource" : "送信元をクリア",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "シングルインスタンス: オン",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "シングルインスタンス: オフ",
+        "Tooltip.ComponentClone.ClearTemplate" : "テンプレートをクリア",
 
         "ProtoFlux.UI.Call" : "Call",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> Call",
@@ -1074,7 +1171,7 @@
         "Settings.HideAllTutorials": "全チュートリアルを非表示",
         "Settings.ShowInteractionHints": "インタラクションヒントを表示",
         "Settings.PrimaryController": "プライマリーコントローラー",
-        "Settings.Hotswitching": "VRモード切り替え",
+        "Settings.Hotswitching": "VR/デスクトップ 自動切り替え",
         "Settings.AllowStrafing": "平行移動を許可",
         "Settings.UseHeadDirectionForMovement": "頭の向きに移動",
         "Settings.SmoothTurn": "スムーズターン",
@@ -1132,14 +1229,14 @@
         "Settings.Audio.StartTest": "自分の声を聴く​<size=50%>(マイク、オーディオ入力の確認ができます)</size>",
         "Settings.Audio.StopTest": "テスト中…（再度クリックして終了）",
         "Settings.Audio.Monitoring": "音声入力の音量・波形",
-        "Settings.Audio.SystemDefaultOutput": "規定のサウンドデバイス",
+        "Settings.Audio.SystemDefaultOutput": "既定のサウンドデバイス",
 
         "Settings.Graphics.DesktopFOV": "デスクトップモードの視野角(FOV)",
 
         "Settings.Locale.Title" : "UIの言語",
         "Settings.Locale.ChangeLanguage": "言語設定",
         "Settings.Locale.SelectLanguageHeader": "言語を選択:",
-        "Settings.Locale.DefaultLanguage": "規定の言語",
+        "Settings.Locale.DefaultLanguage": "既定の言語",
 
         "Settings.Save": "設定を保存",
 
@@ -1711,6 +1808,8 @@
         "Tutorial.Saving.Title": "ホームワールドへようこそ！",
         "Tutorial.Saving.Content": "ここは<b><i><color=hero.yellow>ホーム</b></i></color>ワールド、<br>ログインしたときに最初に開かれる<br>ワールドです！<br><br>ホームはあなた専用のワールドですので<br>自由に編集・保存ができます。<br><br>好みの家具を置いたり衣替えした後は、<br>忘れず保存しましょう！",
 
+        "Tutorial.Teleporter.Error": "クラウドホームの読み込みに失敗しました!<br><size=66%>テレポーターから一度出て、やり直してください。</size>",
+
         "CloudHome.Info.OnlineUsers": "オンラインユーザー: {online_users}<br>参加できるユーザー: {joinable_users}",
         "CloudHome.Info.Moderation": "モデレーション",
         "CloudHome.Info.Inventory": "インベントリ",
@@ -1931,6 +2030,9 @@
         "UI.ColorPicker.Gain": "ゲイン",
 
         "UI.ProgressBar.ImportingItem": "アイテムインポート中",
+
+        "UI.Camera.Automatic": "オート",
+        "UI.Camera.Manual": "マニュアル",
 
         "Tools.Names.MultiTool": "マルチツール",
 

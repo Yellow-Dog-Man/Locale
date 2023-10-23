@@ -1,6 +1,6 @@
 {
     "localeCode": "cs",
-    "authors": ["Frooxius", "rampa_3"],
+    "authors": ["Frooxius", "rampa_3", "Chundelac"],
     "messages": {
 
         "General.OK": "OK",
@@ -398,36 +398,88 @@
         "Indicator.LiveHiddenMessage": "(informace jsou skryty během streamování)",
 
         "Login.InvalidCredentials": "Nesprávné přihlašovací informace",
+        "Login.InvalidCredentials.Description": "Překontrolujte si přihlašovací informace a zkuste to znovu, nebo zmáčkněte \"Zapomenuté heslo\"",
+        
         "Login.InvalidLogin": "Neplatné přihlašovací informace",
+        "Login.InvalidLogin.Description": "Překontrolujte si přihlašovací informace a zkuste to znovu nebo, zmáčkněte \"Zapomenuté heslo\"",
 
         "Login.MalformedUID": "Neplatné informace o zařízení",
+        "Login.MalformedUID.Description": "Přeinstalujte Resonite, nebo kontaktujte podporu.",
+        
         "Login.MissingUID": "Chybí informace o zařízení",
+        "Login.MissingUID.Description": "Přeinstalujte Resonite, nebo kontaktujte podporu.",
+        
         "Register.MissingUID": "Chybí informace o zařízení",
+        "Register.MissingUID.Description": "Přeinstalujte Resonite, nebo kontaktujte podporu.",
+        
         "Register.MalformedUID": "Neplatné informace o zařízení",
+        "Register.MalformedUID.Description": "Přeinstalujte Resonite, nebo kontaktujte podporu.",
 
         "Login.MissingLogin": "Nebyly zadány žádné přihlašovací informace",
+        "Login.MissingLogin.Description": "Nezapomněli jste zadat přihlašovací informace?",
+        
         "Login.InvalidRecoveryCode": "Neplatný kód k obnovení",
+        "Login.InvalidRecoveryCode.Description": "Zkontrolujte Váš kód k obnovení a zkuste to znovu.",
+        
         "Login.UnsupportedAuthentication": "Nepodporovaná metoda authentifikace",
+        "Login.UnsupportedAuthentication.Description": "Tuto metodu authentifikace nepodporujeme. Prosím zkuste jinou.",
+        
         "Login.EmailNotVerified": "E-mail nebyl ověřen",
+        "Login.EmailNotVerified.Description": "Váš e-mail není ověřen. Zkontrolujte Vaši schránku, zda Vám od nás přišel e-mail, nezapomeňte na Vaší spam složku.",
+        
         "Login.AccountTempLocked": "Váš účet je uzamčen.",
+        "Login.AccountTempLocked.Description": "Prosím kontaktujte moderátory na adrese moderation.resonite.com",
+        
         "Login.AccountBanned": "Váš účet je zabanován.",
+        "Login.AccountBanned.Description": "Prosím kontaktujte moderátory na adrese moderation.resonite.com",
+        
         "Login.DuplicateAccount": "Duplikátní účet",
+        "Login.DuplicateAccount.Description": "Prosím kontaktujte podporu na adrese support.resonite.com",
 
         "Register.MissingRequest": "Chybí registrační údaje",
+        "Register.MissingRequest.Description": "Nemohli jsme najít registrační údaje. Ujistěte se že jsou vyplněné v registraci.",
+        
         "Register.InvalidEmail": "Neplatná e-mailová adresa",
+        "Register.InvalidEmail.Description": "Vaše e-mailová adresa je neplatná.",
+        
         "Register.MissingUsername": "Chybí uživatelské jméno",
+        "Register.MissingUsername.Description": "Zadali jste Vaše uživatelské jméno?",
+        
         "Register.MissingEmail": "Chybí e-mail",
+        "Register.MissingEmail.Description": "Zadali jste Váš e-mail?",
+        
         "Register.UsernameTooLong": "Uživatelské jméno je příliš dlouhé",
+        "Register.UsernameTooLong.Description": "Povolujeme uživatelská jména s maximální délkou 32 znaků.",
+        
         "Register.UsernameContainsAmpersand": "Uživatelská jména nemohou obsahovat @",
+        "Register.UsernameContainsAmpersand.Description": "Vaše uživatelské jméno nemůže obsahovat @.",
+        
         "Register.UsernameStartsWithU": "Uživatelské jméno nemůže začínat na U-",
+        "Register.UsernameStartsWithU.Description": "Uživatelské jména nemohou začínat na U-.",
+        
         "Register.InvalidUsername": "Neplatné uživatelské jméno",
+        "Register.InvalidUsername.Description": "Vaše uživatelské jméno je neplatné.",
+        
         "Register.InvalidDateOfBirth": "Neplatný datum narození",
+        "Register.InvalidDateOfBirth.Description": "Vaše datum narození je neplatné.",
+        
         "Register.UserContainsBlockedTerms": "Uživatelské jméno obsahuje blokovaná slova",
+        "Register.UserContainsBlockedTerms.Description": "Vaše uživatelské jméno obsahuje blokovaná slova. Pokud si myslíte že se jedná o chybu kontaktujte podporu na adrese support.resonite.com",
+        
         "Register.MissingPassword": "Chybí heslo",
+        "Register.MissingPassword.Description": "Nezadali jste heslo.",
+        
         "Register.InvalidPassword": "Neplatné heslo",
+        "Register.InvalidPassword.Description": "Vaše heslo je neplatné.",
+        
         "Register.EmailAlreadyRegistered": "E-mail byl již registrován",
+        "Register.EmailAlreadyRegistered.Description": "Účet s touto e-mailovou adresu již existuje. Pokud jste zapomněli Vaše heslo, můžete zmáčknout \"Zapomenuté heslo\". Nebo můžete kontaktovat podporu na adrese support.resonite.com",
+        
         "Register.UsernameAlreadyRegistered": "Uživatelské jméno bylo již registrováno",
+        "Register.UsernameAlreadyRegistered.Description": "Účet s tímto uživatelským jménem již existuje. Pokud jste zapomněli Vaše heslo, můžete zmáčknout \"Zapomenuté heslo\". Nebo můžete kontaktovat podporu na adrese support.resonite.com",
+        
         "Register.ErrorCheckingUserId": "Chyba kontroly UserID",
+        "Register.ErrorCheckingUserId.Description": "Prosím kontaktujte podporu na adrese support.resonite.com",
 
         "Account.Login": "Přihlásit",
         "Account.Logout": "Odhlásit",
@@ -1711,6 +1763,8 @@
         "Tutorial.Saving.Title": "Vítejte doma!",
         "Tutorial.Saving.Content": "Vítejte ve Vašem <b><i><color=hero.yellow>domovském světě</b></i></color>! Zde skončíte pokaždé když se přihlásíte.<br><br>Tento svět je celý Váš, takže jakékoliv změny které provedete lze uložit.<br><br>Pokud uložíte změny, vše naleznete tak jak jste to ponechali až se vrátíte!",
 
+        "Tutorial.Teleporter.Error": "Načítání vašeho cloudového domova selhalo!<br><size=66%>Vystupte z teleporteru a vstupte zpět dovnitř pro opakování pokusu o načtení.</size>",
+
         "CloudHome.Info.OnlineUsers": "Online {online_users,plural, one {uživatel} other {uživatelů}}: {online_users}<br>Z toho {joinable_users,plural, one {uživatel} other {uživatelů}} ke kterým se lze připojit: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderace",
         "CloudHome.Info.Inventory": "Inventář",
@@ -1893,7 +1947,7 @@
         "Hints.Sundial.Dequip": "Sundejte nasazený nástroj zvolením Sundat ve Vašem kontextovém menu.",
         "Hints.Sundial.DequipExtra": "Všimněte si že se možnosti ve Vašem kontextovém menu změnily protože držíte tento nástroj.",
 
-        "Hints.Sundial.Teleporter": "Stiskněte toto tlačítko pro aktivaci teleporteru do Vašeho cloudovéhp domova!",
+        "Hints.Sundial.Teleporter": "Stiskněte toto tlačítko pro aktivaci teleporteru do Vašeho cloudového domova!",
         "Hints.Sundial.TeleporterExtra": "Užijte si Váš domov, a děkujeme že jste se zastavili!",
 
         "UI.TextDisplay.Landscape": "Na šířku",
