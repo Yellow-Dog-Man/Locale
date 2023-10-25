@@ -309,13 +309,11 @@
         "Options.Nameplates.Hide": "Noms: Cacher",
 
         "Indicator.OnlineUsers": "Utilisateurs en ligne: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus": "<color=#fff>Statut du serveur :</color> {status, select, Good {Bon} Slow {Lent} Down {Inaccessible} NoInternet {Sans Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced": "Synchronization complèté",
         "Indicator.Sync.SyncingItems": "Synchronization: {item_count,plural, one {# élément} other {# éléments}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "Chargement {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError": "Erreur de synchronisation! <size=50%>Valider les logs pour les détails</size>",
-        "Indicator.Sync.OutOfSpace": "Manque d'espace! <size=50%>Impossible de synchroniser</size>",
 
         "Indicator.LiveHiddenMessage": "(Vos informations sont cachées pendant que vous diffuser)",
 
@@ -339,7 +337,6 @@
         "Account.RecoverPassword": "Mot de passe perdu ?",
         "Account.LiveEmailWarning": "<color=#f00>ATTENTION :</color> les domaines suivants peuvent prendre jusqu'à deux jours avant d'afficher le courriel d'enregistrement: live.com, hotmail.com, outlook.com, et quelques autres services hébergés par Microsoft.",
         "Account.PasswordRules": "(au moin 8 caractères, un numéro, une majuscule, et une minuscule)",
-        "Account.AgeConfirm": "J'ai 13 ans ou plus",
         "Account.LostPassword": "Mot de passe perdu",
         "Account.SendRecoveryCode": "Envoyer le code de confirmation",
         "Account.ResetPasswordHeader": "Réinitialization du mot de passe",
@@ -439,8 +436,6 @@
         "Notifications.ReceivedContactRequest": "à envoyé une demande d'ami",
         "Notifications.ReceivedInvite": "Vous invite à:",
         "Notifications.ReceivedItem": "Vous envoie un objet:",
-        "Notifications.ReceivedTip": "Pourboire reçu: {amount} {token}",
-        "Notifications.SentTip": "Pourboire envoyé: {amount} {token}",
         "Notifications.VoiceMessage": "Envoyer un message vocal",
 
         "Undo.SetField": "Remettre {field_name} à {value}",
@@ -1265,9 +1260,6 @@
         "Desktop.LegacyInputMode.Off": "Ancien mode d'entrée : Inactif",
         "Desktop.Brightness": "Luminosité : {n,number,percent}",
         "Desktop.Opacity": "Opacité : {n,number,percent}",
-
-        "Tutorial.Welcome.WelcomeTo": "Bienvenue à",
-        "Tutorial.Welcome.LetsStart": "C'est parti!",
 
         "Tutorial.Welcome.AccountHeader": "Compte {appName}",
         "Tutorial.Welcome.AccountDescription": "La création d'un compte vous donne 1 Go de stockage gratuit et l'accès aux éléments de sauvegarde, aux avatars favoris, à l'ajout de contacts et de messagerie.",
