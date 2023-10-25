@@ -296,13 +296,11 @@
         "Options.Nameplates.Hide": "Nafnspjöld: Fela",
 
         "Indicator.OnlineUsers": "Virkir notendur: ~{num_registered} ({num_total})",
-        "Indicator.ServerStatus": "<color=#fff>Netþjónusta:</color> {status, select, Good {Góð} Slow {Hæg} Down {Niðri} NoInternet {Ekkert netsamband}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced": "Allt samstillt",
         "Indicator.Sync.SyncingItems": "Samstilla {item_count,plural, one {# hlut} other {# hlutir}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "Upphlaða {variant_count,plural, one {# eignarafbrigði} other {# eignarafbrögð}}",
         "Indicator.Sync.SyncError": "Samstillingarvilla! <size=50%>Kíktu á log skrá fyrir gríðalega góðar upplysýngar</size>",
-        "Indicator.Sync.OutOfSpace": "Ekkert pláss til! <size=50%>Ekki hægt að framkvæma samstillingu</size>",
 
         "Indicator.LiveHiddenMessage": "(Upplysingar faldar á meðan þú ert í beinni)",
 
@@ -326,7 +324,6 @@
         "Account.RecoverPassword": "Týnt lykilorð?",
         "Account.LiveEmailWarning": "<color=#f00>VARÚÐ:</color> live.com, hotmail.com, outlook.com og aðrar Microsoft-hýsað þjónustur geta tekið up að 1-2 dagar til að samþykkja tölvupóstinn.",
         "Account.PasswordRules": "(að minnsta kosti 8 stafi, 1 tölu, 1 lítin staf og 1 stóran staf)",
-        "Account.AgeConfirm": "Ég er þrettán ára eða eldri",
         "Account.LostPassword": "Týnt lykilorð",
         "Account.SendRecoveryCode": "Senda auðkenniskóða",
         "Account.ResetPasswordHeader": "Endursetja lykilorð",
@@ -397,8 +394,6 @@
         "Notifications.ReceivedContactRequest": "Senti tengiliðabeiðni",
         "Notifications.ReceivedInvite": "Er að bjóða þig að taka þátt í:",
         "Notifications.ReceivedItem": "Senti þér hlut:",
-        "Notifications.ReceivedTip": "Fékkst klink {amount} {token}",
-        "Notifications.SentTip": "Senti klink {amount} {token}",
         "Notifications.VoiceMessage": "Senti talskilaboð",
 
         "Undo.SetField": "Filla Field {field_name} sem {value}",
@@ -570,9 +565,6 @@
         "Inspector.Mesh.SubmeshCount": "Submesh fjölda: {n}",
         "Inspector.Mesh.BoneCount": "Bein fjölda: {n}",
         "Inspector.Mesh.BlendshapeCount": "Blendshape fjölda: {n}",
-
-        "Tutorial.Welcome.WelcomeTo": "Velkomin/nn í",
-        "Tutorial.Welcome.LetsStart": "Byrjum!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} reikningur",
         "Tutorial.Welcome.AccountDescription": "Að nota {appName} reikning gefur þér aðgang að 1GB ókeypis geymsluplássi. Þú getur vistað hluti og avatars, bætt fólki við sem tengilið og send skilaboð.",
