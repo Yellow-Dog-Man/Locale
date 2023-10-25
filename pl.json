@@ -404,16 +404,16 @@
         "Login.InvalidLogin.Description": "Sprawdź swoje dane logowania i spróbuj ponownie lub naciśnij \"Nie pamiętasz hasła?\"",
         
         "Login.MalformedUID": "Nieprawidłowe informacje o urządzeniu",
-        "Login.MalformedUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną.",
+        "Login.MalformedUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
         
         "Login.MissingUID": "Brak informacji o urządzeniu",
-        "Login.MissingUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną.",
+        "Login.MissingUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
         
         "Register.MissingUID": "Nieprawidłowe informacje urządzenia",
-        "Register.MissingUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną.",
+        "Register.MissingUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
         
         "Register.MalformedUID": "Nieprawidłowe informacje urządzenia",
-        "Register.MalformedUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną.",
+        "Register.MalformedUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
         
         "Login.MissingLogin": "Brak danych logowania",
         "Login.MissingLogin.Description": "Zapomniałeś podać danych logowania?",
@@ -428,16 +428,16 @@
         "Login.EmailNotVerified.Description": "Twój adres e-mail nie został zweryfikowany, sprawdź swoją skrzynkę pocztową czy nie otrzymałeś wiadomości od nas i upewnij się, że sprawdziłeś folder spamu.",
 
         "Login.AccountTempLocked": "Twoje konto jest zablokowane.",
-        "Login.AccountTempLocked.Description": "Prosimy o kontakt z moderacją pod adresem: moderation.resonite.com.",
+        "Login.AccountTempLocked.Description": "Prosimy o kontakt z zespołem moderacyjnym: {moderationUrl}.",
 
         "Login.AccountBanned": "Twoje konto zostało zbanowane.",
-        "Login.AccountBanned.Description": "Prosimy o kontakt z moderacją pod adresem: moderation.resonite.com.",
+        "Login.AccountBanned.Description": "Prosimy o kontakt z zespołem moderacyjnym: {moderationUrl}.",
 
         "Login.DuplicateAccount": "Zduplikowane konto",
-        "Login.DuplicateAccount.Description": "Skontaktuj się z pomocą techniczną pod adresem support.resonite.com.",
+        "Login.DuplicateAccount.Description": "Prosimy o kontakt z pomocą techniczną: {supportUrl}.",
 
         "Login.UnknownError": "Nieznany błąd",
-        "Login.UnknownError.Description": "Podczas logowania wystąpił nieznany błąd. Skontaktuj się z pomocą techniczną pod adresem support.resonite.com",
+        "Login.UnknownError.Description": "Podczas logowania wystąpił nieznany błąd. Prosimy o kontakt z pomocą techniczną: {supportUrl}.",
 
         "Register.MissingRequest": "Brak danych rejestracyjnych",
         "Register.MissingRequest.Description": "Nie mogliśmy znaleźć żadnych danych rejestracyjnych. Pamiętaj, aby podać je podczas rejestracji.",
@@ -467,7 +467,7 @@
         "Register.InvalidDateOfBirth.Description": "Twoja data urodzenia jest nieprawidłowa.",
 
         "Register.UserContainsBlockedTerms": "Nazwa użytkownika zawiera zablokowane słowa",
-        "Register.UserContainsBlockedTerms.Description": "Twoja nazwa użytkownika zawiera zablokowane słowa. Jeśli uważasz, że jest to błąd, skontaktuj się z pomocą techniczną pod adresem support.resonite.com.",
+        "Register.UserContainsBlockedTerms.Description": "Twoja nazwa użytkownika zawiera niedozwolone słowa. Jeśli uważasz, że jest to błąd, skontaktuj się z nami: {supportUrl}.",
 
         "Register.MissingPassword": "Brak hasła",
         "Register.MissingPassword.Description": "Hasło nie zostało wprowadzone.",
@@ -476,13 +476,13 @@
         "Register.InvalidPassword.Description": "Hasło jest nieprawidłowe. Musi zawierać co najmniej 8 znaków, 1 cyfrę, 1 wielką literę i 1 małą literę.",
 
         "Register.EmailAlreadyRegistered": "E-mail już zarejestrowany",
-        "Register.EmailAlreadyRegistered.Description": "Konto z tym adresem e-mail już istnieje, jeśli nie pamiętasz hasła, możesz kliknąć \"Nie pamiętam hasła\". Lub skontaktować się z pomocą techniczną pod adresem support.resonite.com.",
+        "Register.EmailAlreadyRegistered.Description": "Istnieje już konto korzystające z tego adresu e-mail. Jeśli nie pamiętasz hasła, możesz kliknąć \"Nie pamiętam hasła\" Możesz również skontaktować się z pomocą techniczną: {supportUrl}.",
 
         "Register.UsernameAlreadyRegistered": "Nazwa użytkownika jest już zarejestrowana",
-        "Register.UsernameAlreadyRegistered.Description": "Konto używające tej nazwy użytkownika już istnieje, jeśli nie pamiętasz hasła, możesz kliknąć \"Nie pamiętam hasła\". Lub skontaktować się z pomocą techniczną pod adresem support.resonite.com.",
+        "Register.UsernameAlreadyRegistered.Description": "Konto używające tej nazwy użytkownika już istnieje, jeśli nie pamiętasz hasła, możesz kliknąć \"Nie pamiętam hasła\". Możesz również skontaktować się z pomocą techniczną: {supportUrl}.",
 
         "Register.ErrorCheckingUserId" : "Błąd podczas sprawdzania identyfikatora użytkownika",
-        "Register.ErrorCheckingUserId.Description" : "Skontaktuj się z pomocą techniczną pod adresem support.resonite.com.",
+        "Register.ErrorCheckingUserId.Description" : "Skontaktuj się z pomocą techniczną: {supportUrl}.",
 
         "Recovery.MissingEmail" : "Brak adresu e-mail",
         "Recovery.MissingEmail.Description" : "Czy podano adres e-mail?",
@@ -491,10 +491,10 @@
         "Recovery.IncorrectEmail.Description" : "Wprowadzono nieprawidłowy adres e-mail do odzyskania hasła. Sprawdź swoje dane i spróbuj ponownie.",
 
         "Recovery.NoPasswordSetup" : "Hasło nie zostało ustawione", 
-        "Recovery.NoPasswordSetup.Description" : "Skontaktuj się z pomocą techniczną pod adresem support.resonite.com.",
+        "Recovery.NoPasswordSetup.Description" : "Skontaktuj się z pomocą techniczną: {supportUrl}.",
 
         "Register.UnknownError": "Nieznany błąd",
-        "Register.UnknownError.Description": "Podczas rejestracji wystąpił nieznany błąd. Skontaktuj się z pomocą techniczną pod adresem support.resonite.com.",
+        "Register.UnknownError.Description": "Podczas rejestracji wystąpił nieznany błąd. Skontaktuj się z pomocą techniczną: {supportUrl}.",
 
         "Account.Login": "Zaloguj się",
         "Account.Logout": "Wyloguj się",
@@ -1987,13 +1987,13 @@
         "Hints.Sundial.SoftEquipExtra": "Narzędzia pozwalają zmieniać otaczający Cię świat na wiele sposobów!",
 
         "Hints.Sundial.HardEquip": "Kliknij to narzędzie, aby je wyposażyć!",
-        "Hints.Sundial.HardEquipExtra": "Don't see your laser? Slightly Hold your Trigger to reveal it!",
+        "Hints.Sundial.HardEquipExtra": "Nie widzisz swojego lasera? Lekko przytrzymaj spust, aby go zobaczyć!",
 
         "Hints.Sundial.TheSun": "Celuj w niebo i kliknij, aby przenieść tam słońce!",
         "Hints.Sundial.TheSunExtra": "Spróbuj wycelować poniżej horyzontu, aby zapadła noc!",
 
         "Hints.Sundial.Dequip": "Upuść wyposażone narzędzie, wybierając opcję Odekwipuj w menu kontekstowym.",
-        "Hints.Sundial.DequipExtra": "Notice the options in your Context Menu have changed because you're holding this tool.",
+        "Hints.Sundial.DequipExtra": "Zauważ, ponieważ trzymasz to narzędzie, opcje w menu zmieniły się.",
 
         "Hints.Sundial.Teleporter": "Naciśnij ten przycisk, aby aktywować Teleporter do swojego Cloud Home!",
         "Hints.Sundial.TeleporterExtra": "Ciesz się swoim domem i dziękujemy za wizytę!",
