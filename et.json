@@ -296,13 +296,11 @@
         "Options.Nameplates.Hide": "Nimesilt: Peida kõigil",
 
         "Indicator.OnlineUsers": "Ühendatud kasutajad: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus": "<color=#fff>Serveristaatus:</color> {status, select, Good {Hea} Slow {Halb} Down {Maas} NoInternet {Pole ühendust}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced": "Failid Laetud",
         "Indicator.Sync.SyncingItems": "Sünkimas {item_count,plural, one {# asja} other {# asju}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "Laen üles {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError": "Sünkiviga! <size=50%>Vaata logi rohkema info jaoks</size>",
-        "Indicator.Sync.OutOfSpace": "Ruumi pole! <size=50%>Ei saa sünkida</size>",
 
         "Indicator.LiveHiddenMessage": "(Infot ei näidata kui olete laivis)",
 
@@ -326,7 +324,6 @@
         "Account.RecoverPassword": "Unustasite salasõna?",
         "Account.LiveEmailWarning": "<color=#f00>HOIATUS:</color> live.com, hotmail.com, outlook.com ja teised Microsofti-teenused võivad võtta 1-2 päeva emaili saatmiseks.",
         "Account.PasswordRules": "(vähemalt 8 tähemärki, 1 number, 1 väike täht, 1 suur täht)",
-        "Account.AgeConfirm": "Ma olen vähemalt 13-aastane",
         "Account.LostPassword": "Unustasin salasõna",
         "Account.SendRecoveryCode": "Saada taastamiskood",
         "Account.ResetPasswordHeader": "Lähtesta salasõna",
@@ -399,8 +396,6 @@
         "Notifications.ReceivedContactRequest": "Saatis kontaktikutse",
         "Notifications.ReceivedInvite": "Kutsub sind siia:",
         "Notifications.ReceivedItem": "Saatis sulle eseme:",
-        "Notifications.ReceivedTip": "Said tippi {amount} {token}",
-        "Notifications.SentTip": "Saatsid tippi {amount} {token}",
         "Notifications.VoiceMessage": "Häälsõnum saadetud",
 
         "Undo.SetField": "Säti väli {field_name} väärtus {value}",
@@ -1041,9 +1036,6 @@
         "Desktop.LegacyInputMode.Off": "'Legacy' sisend: Väljas",
         "Desktop.Brightness": "Heledus: {n,number,percent}",
         "Desktop.Opacity": "Läbipaistvus: {n,number,percent}",
-
-        "Tutorial.Welcome.WelcomeTo": "Tere tulemast metaversumisse",
-        "Tutorial.Welcome.LetsStart": "Alustame!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} konto",
         "Tutorial.Welcome.AccountDescription": "Konto loomine annab sulle 1 GB tasuta andmeruumi ja võimaluse salvestada virtuaalseid esemeid, valida endale lemmik-avatare, lisada kontakte ja vahendada sõnumeid.",
