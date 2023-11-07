@@ -2,28 +2,29 @@
 This repository contains the locale assets for the core UI of [Resonite](https://resonite.com) and allows anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (STEAM) and other platforms.
 
 ## Localization Status
-Czech [cs] - 72.2% - Missing keys: 462  
-German [de] - 83.6% - Missing keys: 273  
-English (United Kingdom) [en-gb] - 1.7% - Missing keys: 1635  
+Czech [cs] - 98.1% - Missing keys: 33  
+German [de] - 100.0% - Missing keys: 0  
+English (United Kingdom) [en-gb] - 1.7% - Missing keys: 1702  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 67.7% - Missing keys: 538  
-Spanish [es] - 72.1% - Missing keys: 465  
-Estonian [et] - 54.8% - Missing keys: 752  
-Finnish [fi] - 82.0% - Missing keys: 299  
-French [fr] - 67.8% - Missing keys: 536  
-Icelandic [is] - 30.7% - Missing keys: 1153  
-Japanese [ja] - 99.3% - Missing keys: 11  
-Korean [ko] - 99.9% - Missing keys: 2  
-Dutch [nl] - 67.2% - Missing keys: 546  
-Norwegian [no] - 47.2% - Missing keys: 878  
-Polish [pl] - 99.8% - Missing keys: 4  
-Russian [ru] - 85.5% - Missing keys: 242  
-Swedish [sv] - 14.4% - Missing keys: 1425  
-Turkish [tr] - 53.2% - Missing keys: 778  
-Chinese (China) [zh-cn] - 82.3% - Missing keys: 295  
-Chinese (Taiwan) [zh-tw] - 82.2% - Missing keys: 296  
+Esperanto [eo] - 71.3% - Missing keys: 497  
+Spanish [es] - 96.4% - Missing keys: 62  
+Estonian [et] - 52.6% - Missing keys: 820  
+Finnish [fi] - 88.3% - Missing keys: 202  
+French [fr] - 65.1% - Missing keys: 604  
+Icelandic [is] - 29.5% - Missing keys: 1221  
+Japanese [ja] - 100.0% - Missing keys: 0  
+Korean [ko] - 100.0% - Missing keys: 0  
+Dutch [nl] - 64.5% - Missing keys: 614  
+Norwegian [no] - 45.3% - Missing keys: 946  
+Polish [pl] - 93.8% - Missing keys: 107  
+Portuguese (Brazil) [pt-br] - 96.1% - Missing keys: 68  
+Russian [ru] - 100.0% - Missing keys: 0  
+Swedish [sv] - 13.8% - Missing keys: 1492  
+Turkish [tr] - 51.1% - Missing keys: 846  
+Chinese (China) [zh-cn] - 96.4% - Missing keys: 62  
+Chinese (Taiwan) [zh-tw] - 96.4% - Missing keys: 62  
 
-Total keys: 1664
+Total keys: 1731
 
 ## How To Contribute
 If you'd like to contribute translations, create a fork of the repository, make the changes and **once they are ready** to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
@@ -35,7 +36,7 @@ If you do translate them and you haven't added a credit yet, put your name in th
 
 ### If you're contributing a new language
 1. [Create a new Issue](https://github.com/Yellow-Dog-Man/Locale) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
-1. Verify that our' ork of ICU MessageFormat.NET has pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/YellowDogMan/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
+1. Verify that our fork of ICU MessageFormat.NET has a pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/YellowDogMan/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
 
 If you can't find your language code in this file, please make a Issue either on in this repository.
 

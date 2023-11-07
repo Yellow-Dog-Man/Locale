@@ -1,6 +1,6 @@
 {
     "localeCode": "ko",
-    "authors": ["MirPASEC", "R3C0D3r", "LUA", "Guide", "Titancube", "Holy_Water"],
+    "authors": ["MirPASEC", "LUA", "R3C0D3r", "Titancube", "Holy_Water", "Guide", "IceCreamPie"],
     "messages": {
 
         "General.OK": "확인",
@@ -111,23 +111,25 @@
         "Inventory.OpenWorld": "세션 시작",
         "Inventory.Equip": "아바타 착용",
         "Inventory.Delete": "선택삭제",
+        "Inventory.CreateDirectory": "폴더 생성",
         "Inventory.SaveHeld": "저장하기",
+        "Inventory.GetURL": "URL복사",
         "Inventory.Inventories": "보관함 전환",
         "Inventory.Share": "선택공유",
         "Inventory.Unshare": "공유해제",
         "Inventory.SaveAvatar": "아바타 저장",
-        "Inventory.Favorite.Home": "지정:홈",
-        "Inventory.Favorite.ProgressBar": "지정:진행바",
-        "Inventory.Favorite.AudioStreamController": "지정:음향송출 제어",
-        "Inventory.Favorite.TextDisplay": "지정:문자출력",
-        "Inventory.Favorite.VideoPlayer": "지정:영상재생",
-        "Inventory.Favorite.AudioPlayer": "지정:음향재생",
-        "Inventory.Favorite.InteractiveCamera": "지정:카메라",
-        "Inventory.Favorite.Keyboard": "지정:키보드",
-        "Inventory.Favorite.Avatar": "지정:아바타",
-        "Inventory.Favorite.WorldLoadingIndicator": "지정:월드로딩 상태",
-        "Inventory.Favorite.ColorDialog": "지정:색상선택",
-        "Inventory.Favorite.Hyperlink": "지정:URL표시기",
+        "Inventory.Favorite.Home": "기본설정:홈",
+        "Inventory.Favorite.ProgressBar": "기본설정:진행바",
+        "Inventory.Favorite.AudioStreamController": "기본설정:음향송출제어기",
+        "Inventory.Favorite.TextDisplay": "기본설정:문자출력",
+        "Inventory.Favorite.VideoPlayer": "기본설정:영상재생",
+        "Inventory.Favorite.AudioPlayer": "기본설정:음향재생",
+        "Inventory.Favorite.InteractiveCamera": "기본설정:카메라",
+        "Inventory.Favorite.Keyboard": "기본설정:키보드",
+        "Inventory.Favorite.Avatar": "기본설정:아바타",
+        "Inventory.Favorite.WorldLoadingIndicator": "기본설정:월드로딩바",
+        "Inventory.Favorite.ColorDialog": "기본설정:색상선택",
+        "Inventory.Favorite.Hyperlink": "기본설정:URL표시기",
         "Inventory.SpawnFacet": "페싯으로 생성",
 
         "Dash.Screens.Home": "홈",
@@ -165,6 +167,7 @@
         "World.LoadingFailed": "읽어오기 실패",
         "World.LoadedAssets": "{total_assets}개의 에셋(Asset) 중 {assets}개를 읽고 있습니다.",
         "World.Downloading": "{total_bytes}중 {bytes} 다운로드 중",
+        "World.Loaded": "로딩완료",
 
         "World.Connection.EstablishingConnection": "연결을 진행중입니다.",
         "World.Connection.RequestingJoin": "참여를 요청합니다.",
@@ -387,7 +390,7 @@
         "Indicator.Sync.SyncingItems": "동기화<br><size=61.8033%>{item_count}개 항목</size>",
         "Indicator.Sync.UploadingVariants": "업로드<br><size=61.8033%>에셋 베리언츠</size>",
         "Indicator.Sync.SyncError": "동기화 오류 <size=61.803%>자세한 내용은 로그를 확인하세요.</size>",
-        "Indicator.Sync.OutOfSpace": "동기화 오류 <size=50%>저장소 부족</size>",
+        "Indicator.Sync.StorageFull": "동기화 오류 <size=50%>저장소 부족</size>",
 
         "Indicator.Storage.StorageFull": "저장소 부족",
         "Indicator.Storage.Usage": "<size=61.803%>사용중인 저장소</size><br>{storage_max}중 {storage_used}",
@@ -395,37 +398,104 @@
         "Indicator.LiveHiddenMessage": "(방송중엔 안보입니다)",
 
         "Login.InvalidCredentials": "계정 정보를 다시 확인해 주세요.",
+        "Login.InvalidCredentials.Description": "계정 정보를 다시 확인하여 시도 또는 \"암호가 기억나지 않나요?\"를 눌러주세요.",
+        
         "Login.InvalidLogin": "계정 정보를 다시 확인해 주세요.",
+        "Login.InvalidLogin.Description": "계정 정보를 다시 확인하여 시도 또는 \"암호가 기억나지 않나요?\"를 눌러주세요.",
 
         "Login.MalformedUID": "유효하지 않은 장치 식별자 정보 입니다.",
+        "Login.MalformedUID.Description": "재설치 또는 레소나이트 지원({supportUrl})에 문의 바랍니다.",
+        
         "Login.MissingUID": "장치 식별자 정보가 존재하지 않습니다.",
+        "Login.MissingUID.Description": "재설치 또는 레소나이트 지원({supportUrl})에 문의 바랍니다.",
+        
         "Register.MissingUID": "유효하지 않은 장치 식별자 정보 입니다.",
+        "Register.MissingUID.Description": "재설치 또는 레소나이트 지원({supportUrl})에 문의 바랍니다.",
+        
         "Register.MalformedUID": "유효하지 않은 장치 식별자 정보 입니다.",
+        "Register.MalformedUID.Description": "재설치 또는 레소나이트 지원({supportUrl})에 문의 바랍니다.",
 
         "Login.MissingLogin": "계정 정보를 입력하세요.",
+        "Login.MissingLogin.Description": "계정 정보 입력을 잊으신건 아닌가요?",
+        
         "Login.InvalidRecoveryCode": "유효치 않은 복구코드 입니다.",
+        "Login.InvalidRecoveryCode.Description": "복구코드를 다시 확인하여 주세요.",
+        
         "Login.UnsupportedAuthentication": "지원하지 않는 인증방법 입니다.",
+        "Login.UnsupportedAuthentication.Description": "지원되지 않는 인증방법입니다. 다른 방법으로 시도해 주세요.",
+        
         "Login.EmailNotVerified": "전자메일이 확인되지 않았습니다.",
+        "Login.EmailNotVerified.Description": "등록하신 전자메일을 확인해 주세요. 경우에 따라 스팸으로 분류되어 있을수도 있습니다.",
+        
         "Login.AccountTempLocked": "계정이 잠겨진 상태입니다.",
+        "Login.AccountTempLocked.Description": "{moderationUrl} 사이트를 통해 중재를 받으세요.",
+        
         "Login.AccountBanned": "로그인이 차단된 계정입니다.",
+        "Login.AccountBanned.Description": "{moderationUrl} 사이트를 통해 중재를 받으세요.",
+        
         "Login.DuplicateAccount": "중복 계정입니다.",
+        "Login.DuplicateAccount.Description": "{supportUrl} 사이트를 통해 지원을 받으세요.",
 
+        "Login.UnknownError": "알 수 없는 오류",
+        "Login.UnknownError.Description": "로그인 진행 중 알 수 없는 오류가 발생하였습니다. {supportUrl} 사이트를 통해 지원을 받아보세요.",
+        
         "Register.MissingRequest": "세부 정보가 빠져 있습니다.",
+        "Register.MissingRequest.Description": "등록시 필요한 정보가 일부 누락되어 있습니다.",
+        
         "Register.InvalidEmail": "전자메일 정보가 유효하지 않습니다.",
+        "Register.InvalidEmail.Description": "전자메일 주소가 잘못되었는지 확인해 주세요.",
+        
         "Register.MissingUsername": "사용자명을 입력하세요.",
+        "Register.MissingUsername.Description": "사용자명을 입력하셔야 합니다.",
+        
         "Register.MissingEmail": "전자메일 주소를 입력하세요.",
+        "Register.MissingEmail.Description": "전자메일 주소를 입력하셔야 합니다.",
+        
         "Register.UsernameTooLong": "사용자명이 너무 깁니다.",
+        "Register.UsernameTooLong.Description": "사용자명은 최대 32글자까지 허용됩니다.",
+        
         "Register.UsernameContainsAmpersand": "사용자명에 @ 기호를 사용할 수 없습니다.",
+        "Register.UsernameContainsAmpersand.Description": "사용자명은 @ 기호가 포함되면 안됩니다.",
+        
         "Register.UsernameStartsWithU": "사용자명은 U-로 시작하면 안됩니다.",
+        "Register.UsernameStartsWithU.Description": "사용자명은 U-로 시작할 수 없습니다.",
+        
         "Register.InvalidUsername": "유효하지 않은 사용자명 입니다.",
+        "Register.InvalidUsername.Description": "사용자명이 잘못되었습니다.",
+        
         "Register.InvalidDateOfBirth": "생일은 유효한 날짜로 입력하세요.",
-        "Register.UserContainsBlockedTerms": "사용할 수 없는 단어가 사용자명에 들어 있습니다.",
+        "Register.InvalidDateOfBirth.Description": "입력한 날짜는 존재하지 않습니다.",
+        
+        "Register.UsernameContainsBlockedTerms": "사용할 수 없는 단어가 사용자명에 들어 있습니다.",
+        "Register.UsernameContainsBlockedTerms.Description": "금칙문자를 사용자 명에 사용할 수 없습니다. 오류인 것으로 생각되시면 {supportUrl} 사이트를 통해 알려주세요.",
+        
         "Register.MissingPassword": "암호를 입력하세요.",
+        "Register.MissingPassword.Description": "암호를 입력하지 않았습니다.",
+        
         "Register.InvalidPassword": "유효하지 않은 암호입니다.",
+        "Register.InvalidPassword.Description": "잘못된 암호입니다.",
+        
         "Register.EmailAlreadyRegistered": "이미 등록된 전자메일 주소입니다.",
+        "Register.EmailAlreadyRegistered.Description": "이미 계정으로 등록된 전자메일입니다. 암호를 분실 하신 경우라면 \"암호가 기억나지 않나요?\"를 눌러서 문제 해결 절차를 진행하시고, 그렇지 않은 경우라면 {supportUrl} 사이트를 통해 지원을 받아보시기 바랍니다.",
+        
         "Register.UsernameAlreadyRegistered": "이미 등록되어 있는 사용자명 입니다.",
+        "Register.UsernameAlreadyRegistered.Description": "이미 계정으로 등록된 사용자명입니다. 암호를 분실 하신 경우라면 \"암호가 기억나지 않나요?\"를 눌러서 문제 해결 절차를 진행하시고, 그렇지 않은 경우라면 {supportUrl} 사이트를 통해 지원을 받아보시기 바랍니다.",
+        
         "Register.ErrorCheckingUserId": "UserID 오류체크",
+        "Register.ErrorCheckingUserId.Description": "{supportUrl} 사이트를 통해 지원을 받으세요.",
 
+        "Recovery.MissingEmail" : "메일 주소가 비어 있습니다.",
+        "Recovery.MissingEmail.Description" : "전자메일 정보를 작성하셨나요?",
+
+        "Recovery.IncorrectEmail" : "메일 주소가 잘못되었습니다.",
+        "Recovery.IncorrectEmail.Description" : "전자메일 주소를 잘못 입력하셨습니다. 확인 후 다시 시도해보세요.",
+
+        "Recovery.NoPasswordSetup" : "비밀번호가 설정되지 않았습니다.", 
+        "Recovery.NoPasswordSetup.Description" : "{supportUrl} 사이트를 통해 지원을 받으세요.",
+
+        "Register.UnknownError": "알 수 없는 오류",
+        "Register.UnknownError.Description": "계정 등록 중 알 수 없는 오류가 발생하였습니다. {supportUrl} 사이트를 통해 지원을 받아보세요.",
+        
         "Account.Login": "로그인",
         "Account.Logout": "로그아웃",
         "Account.Register": "가입",
@@ -446,7 +516,6 @@
         "Account.RecoverPassword": "암호가 기억나지 않나요?",
         "Account.LiveEmailWarning": "<color=#f00>경고:</color> live.com, hotmail.com, outlook.com등의 Microsoft에서 제공하는 메일의 경우 1~2일의 기간이 소요됩니다.",
         "Account.PasswordRules": "(암호는 8자 이상으로 숫자, 소문자, 대문자로 이루어져 있어야 합니다.)",
-        "Account.AgeConfirm": "제 나이는 13살 이상입니다.",
         "Account.LostPassword": "암호 분실",
         "Account.SendRecoveryCode": "복원코드 발송",
         "Account.ResetPasswordHeader": "암호 초기화",
@@ -632,11 +701,17 @@
 
         "Tooltips.Dev.GizmoOptions" : "기즈모 옵션",
         "Tooltips.Dev.SelectParent" : "부모슬롯 선택",
-        "Tooltips.Dev.LocalSpace" : "로컬공간",
-        "Tooltips.Dev.GlobalSpace" : "월드공간",
-        "Tooltips.Dev.Translation" : "위치조정",
-        "Tooltips.Dev.Rotation" : "회전조정",
-        "Tooltips.Dev.Scale" : "배율조정",
+        "Tooltips.Dev.LocalSpace" : "로컬좌표계",
+        "Tooltips.Dev.GlobalSpace" : "전역좌표계",
+        "Tooltips.Dev.Translation" : "위치조작",
+        "Tooltips.Dev.Rotation" : "회전조작",
+        "Tooltips.Dev.Scale" : "배율조작",
+
+        "Tooltips.Dev.Selection.Single": "단일선택 사용",
+        "Tooltips.Dev.Selection.Multi": "다중선택 사용",
+
+        "Tooltips.Dev.Interaction.Tip": "등배조작",
+        "Tooltips.Dev.Interaction.Projection": "비례조작",
 
         "Tooltip.Color.Picker": "색상 선택기",
 
@@ -654,6 +729,10 @@
         "Tooltip.Light.Point": "점(Point)",
         "Tooltip.Light.Spot": "스포트라이트(Spot)",
         "Tooltip.Light.Sun": "태양(Sun)/직사(Directional)",
+
+        "Tooltip.Light.Shadows.None": "그림자 없음",
+        "Tooltip.Light.Shadows.Hard": "선명한 그림자(Hard)",
+        "Tooltip.Light.Shadows.Soft": "흐릿한 그림자(Soft)",
 
         "Tooltip.MeshVisibility.KeepShadow": "그림자 유지",
         "Tooltip.MeshVisibility.ShadowOff": "그림자 끄기",
@@ -689,8 +768,8 @@
         "Tooltip.ProtoFlux.Drive" : "Drive(점유연결)",
         "Tooltip.ProtoFlux.Source" : "Source(비점유연결)",
         "Tooltip.ProtoFlux.Reference" : "Reference(참조추출)",
-        "Tooltip.ProtoFlux.Write" : "Write",
-        "Tooltip.ProtoFlux.Proxy" : "Proxy",
+        "Tooltip.ProtoFlux.Write" : "Write 추출",
+        "Tooltip.ProtoFlux.Proxy" : "프록시 추출",
         "Tooltip.ProtoFlux.CreateLocal" : "로컬변수 생성",
         "Tooltip.ProtoFlux.CreateStore" : "변수 생성",
         "Tooltip.ProtoFlux.CreateDataModelStore" : "Data Model 변수 생성",
@@ -701,6 +780,26 @@
         "Tooltip.ProtoFlux.Unpack" : "<size=50%>{name}</size>을(를) 언팩",
         "Tooltip.ProtoFlux.ExplicitCast" : "명시적 형변환\n<size=50%>(<color=red>경고:</color> 잠재적 데이터 손실이 발생할 수 있습니다.)</size>",
 
+        "Tooltip.Meter.Mode.Ray" : "모드: 직선",
+        "Tooltip.Meter.Mode.Perpendicular" : "모드: 수직",
+        "Tooltip.Meter.Mode.Drag" : "모드: 끌기",
+
+        "Tooltip.Meter.Points.Two" : "두점",
+        "Tooltip.Meter.Points.Multiple" : "다점",
+
+        "Tooltip.Meter.ObjectSpace" : "지정 대상 좌표계 기준",
+        "Tooltip.Meter.WorldSpace" : "월드 좌표계 기준",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "모드: 메시 베이크",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "모드: 스킨드 메시 베이크",
+        "Tooltip.Glue.Mode.ParentObjects" : "모드: 계층관계로 묶기",
+
+        "Tooltip.RigTransfer.ClearSource" : "원본 삭제",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "단일객체: ON",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "단일객체: OFF",
+        "Tooltip.ComponentClone.ClearTemplate" : "임시 저장본 삭제",
+        
         "ProtoFlux.UI.Call" : "호출",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>비동기</size> 호출",
         "ProtoFlux.UI.NodeBrowser.Title" : "ProtoFlux 노드 탐색기",
@@ -893,6 +992,10 @@
         "Importer.Video.Stereo180": "스테레오 180도 영상",
         "Importer.Video.Depth.Prompt": "깊이 프리셋(Depth Preset)",
         "Importer.Video.Depth.Default": "기본",
+
+        "Importer.Slices.Title": "볼륨메트릭 텍스쳐로 자르기",
+        "Importer.Slices.TitleGrayscale": "볼륨메트릭 텍스쳐로 자르기(회색조)",
+        "Importer.Slices.Description": "폴더의 모든 이미지 파일을 볼륨메트릭 텍스쳐로 처리합니다.",
 
         "Exporter.Title": "내보내기",
         "Exporter.FileName": "파일명:",
@@ -1299,7 +1402,7 @@
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "아바타 보호기능 모두 제거",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "단일 아바타 보호기능 제거",
-        "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>경고!</size></color><br>아래에서 제공되는 전용 기능 버튼이 아닌 다른 방법을 통해 이 구성쇼소를 제거하면 보호기능이 무력화되며 스스로 파괴될 수 있으며, 이는 데이터 손실로 이어질 수 있습니다!",
+        "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>경고!</size></color><br>아래에서 제공되는 전용 기능 버튼이 아닌 다른 방법을 통해 이 구성요소를 제거하면 보호기능이 무력화되며 스스로 파괴될 수 있으며, 이는 데이터 손실로 이어질 수 있습니다!",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "아바타 보호기능을 제거합니다",
 
         "Inspector.BipedRig.GetDiagnosticInfo": "리그 정보 조회",
@@ -1322,12 +1425,12 @@
         "Inspector.Texture.InvertR": "적색 반전",
         "Inspector.Texture.InvertG": "녹색 반전",
         "Inspector.Texture.InvertB": "청색 반전",
-        "Inspector.Texture.InvertA": "알파 반전",
-        "Inspector.Texture.ColorToAlphaWhite": "색상을 알파로(백색)",
-        "Inspector.Texture.ColorToAlphaBlack": "색상을 알파로(흑색)",
-        "Inspector.Texture.AlphaFromIntensity": "강도에서 알파로",
-        "Inspector.Texture.AlphaToMask": "알파를 마스크로",
-        "Inspector.Texture.RemoveAlpha": "알파 제거",
+        "Inspector.Texture.InvertA": "투명도 반전",
+        "Inspector.Texture.ColorToAlphaWhite": "색상값을 투명도에 반비례 반영 및 흰색 채우기",
+        "Inspector.Texture.ColorToAlphaBlack": "색상값을 투명도에 반비례 반영 및 흑색 채우기",
+        "Inspector.Texture.AlphaFromIntensity": "색상값을 투명도에 비례 반영",
+        "Inspector.Texture.AlphaToMask": "투명도로 마스크 이미지 생성",
+        "Inspector.Texture.RemoveAlpha": "투명도 제거 및 흑색 채우기",
         "Inspector.Texture.ConvertToGrayscaleAverage": "그레이스케일로 변환(평균)",
         "Inspector.Texture.ConvertToGrayscaleLuminance": "그레이스케일로 변환(휘도)",
         "Inspector.Texture.SwapRG": "적색과 녹색을 서로 바꾸기",
@@ -1338,8 +1441,8 @@
         "Inspector.Texture.SwapBA": "청색과 투명도를 서로 바꾸기",
         "Inspector.Texture.AddWhiteBackground": "백색배경 추가",
         "Inspector.Texture.AddBlackBackground": "흑색배경 추가",
-        "Inspector.Texture.Hue": "휴(Hue):",
-        "Inspector.Texture.ShiftHue": "쉬프트 휴",
+        "Inspector.Texture.Hue": "색조:",
+        "Inspector.Texture.ShiftHue": "색조 증감",
         "Inspector.Texture.Saturation": "채도:",
         "Inspector.Texture.AdjustSaturation": "채도 조정",
         "Inspector.Texture.Value": "값:",
@@ -1636,6 +1739,7 @@
         "Migration.Groups.Introduction": "그룹 정보도 이전할까요?",
 
         "Migration.Groups.Description": "기본적으로 귀하가 관리자인 모든 그룹이 이전됩니다. 일부 그룹만 이전하고자 하는 경우 아래 버튼을 클릭하여 그룹 정보를 조회한 다음, 이전하고자 하는 그룹을 선택하세요.",
+        
         "Migration.Groups.LoadGroups": "그룹정보 읽어오기",
         "Migration.Groups.RefreshGroups": "그룹정보 다시읽기",
 
@@ -1646,7 +1750,7 @@
         "Migration.Groups.NotGroupAdmin": "만약 {platform} 그룹의 관리자가 아닌경우, 해당 그룹 관리자에게 이전문의를 해야 합니다.",
 
         "Migration.Summary": "모든 준비가 끝났습니다. 아래의 마이그레이션 시작을 클릭하면 이전 작업이 시작됩니다.\n\n마이그레이션은 모든 것을 복사하기에, 많은 시간이 걸릴 수 있습니다. 이전 작업은 즐겨찾기 해둔 항목을 우선적으로 수행하게 됩니다.\n\n이전 작업은 {appName}을(를) 계속 실행해 둘 필요는 없습니다만, 다음을 통해 진행상황을 보내드리겠습니다. {appName} 봇이 어떻게 진행되고 있는지 알려줍니다.",
-
+        
         "Migration.List.EmptyTitle": "새로운 마이그레이션을 시작하나요?",
         "Migration.List.EmptySubtitle": "좌 상단에 있는 \"새로운 마이그레이션 작업\"을 클릭하세요.",
 
@@ -1702,8 +1806,10 @@
         "CloudHome.TargetRangeOptions": "목표물 범위 설정",
 
         "Tutorial.Saving.Title": "홈월드에 오신것을 환영합니다.",
-        "Tutorial.Saving.Content": "환영합니다. 이곳은 당신의 <b><i><color=hero.yellow>홈</b></i></color>입니다! 이곳은 접속시 접속되는 곳입니다.<br><br>이곳은 당신만의 월드이므로, 변경된 정보를 저장할 수 있습니다.<br><br>저장할 경우, 다시 돌아왔을때 마지막 모습 그대로 있을것입니다.",
+        "Tutorial.Saving.Content": "환영합니다. 이곳은 당신의 <b><i><color=hero.yellow>홈</b></i></color>입니다!여기는 당신만의 월드이므로, 변경된 정보를 저장할 수 있습니다.<br><br>만약, 저장 하신다면 이곳은 저장한 모습 그대로 당신을 기다릴것입니다.",
 
+        "Tutorial.Teleporter.Error": "클라우드 홈을 읽어오는 도중 문제가 발생하였습니다!<br><size=66%>텔레포터에 다시 탑승해보세요.</size>",
+        
         "CloudHome.Info.OnlineUsers": "온라인: {online_users}명<br>접속 가능자: {joinable_users}명",
         "CloudHome.Info.Moderation": "중재처리",
         "CloudHome.Info.Inventory": "보관함",
@@ -1729,6 +1835,7 @@
 
         "CloudHome.Info.ToolsTab.Title": "인게임 편집",
         "CloudHome.Info.ToolsTab.Content": "{appName}의 특징은 게임 내에서 아이템을 생성하거나 수정할 수 있다는 것입니다.<br><br>바로 이곳에 있습니다. 또는 당신이 어디에 있든 보관함의 <i><color=hero.purple>Essentials -> tools</color></i>에서 여러가지 사용 가능한 도구를 이용할 수 있습니다.",
+
         "CloudHome.Info.HelpTab.Title": "도움요청",
         "CloudHome.Info.HelpTab.InfoLineOne": "도움이 필요하신가요? <u><color=hero.yan>위키</color></u><sprite name=hyperlink>를 살펴보거나, 디스코드 등에 질문하시고 그 답을 구해보세요.",
         "CloudHome.Info.HelpTab.InfoLineTwo": "링크 클릭시 VR이시면 대시 메뉴내 <i><color=hero.purple>데스크탑</color></i> 메뉴를 이용하시면 내용 확인이 수월합니다.",
@@ -1756,9 +1863,9 @@
         "Mirror.Menu": "메뉴",
         "Mirror.CloseMenu": "메뉴 닫기",
 
-        "StickyNote.SpinMe": "돌려줘요!",
+        "StickyNote.SpinMe": "회전시켜 보세요!",
         "StickyNote.FruitPlate": "자동으로 채워지는 과일접시",
-        "StickyNote.EmptyForYou": "당신을 위해 비워두었습니다. :)",
+        "StickyNote.EmptyForYou": "이 자리는 당신을 위해 비워두었습니다. :)",
         "StickyNote.RelevantLinks": "관련 링크!<br><--<br><br><size=500>연결서라고 칭하도록 하자</size>",
         "StickyNote.SunTool": "태양의 힘을 내 손안에!",
         "StickyNote.Bow": "시위를 당겨 조준하세요.",
@@ -1767,7 +1874,7 @@
         "StickyNote.TheaterTablet": "이 태블릿으로 이 방의 환풍기나 창문의 투명도를 제어할 수 있어요!",
         "StickyNote.ControlTablet": "이 태블릿으로 홈을 제어할 수 있어요!",
 
-        "StickyNote.RotateMeDesktop": "E키를 누른상태로 회전시켜봐요!",
+        "StickyNote.RotateMeDesktop": "E키를 누른상태로 마우스를 움직여보세요!",
         "StickyNote.RotateMeVR": "회전시켜줘요!",
 
         "StickyNote.EquipMeDesktop": "장착하고 마우스 왼쪽 버튼을 클릭!",
@@ -1826,6 +1933,7 @@
 
         "Tutorial.InfoPanel.Title": "잠깐만요!",
         "Tutorial.InfoPanel.Content": "     가능성은 여러분이 가진 상상력으로만 제한 되는 것입니다.<br><br> 지금까지 보신 거의 모든것이 게임내에서 직접 만들어졌습니다. 전 세계 사람들이 실시간으로 협력하여 이를 구축했습니다.<br><br> 플랫폼은 아직 초기 개발 단계에 있으며 지속적으로 업데이트하고 개선하고 있습니다. 여러분도 이 여정에 참여하여 무한한 가능성을 발견하시기 바랍니다.<br><br><align=center>방문해 주셔서 감사합니다.</align>",
+
         "Tutorial.GrabItems.Grab": "손으로 잡아보기",
         "Tutorial.GrabItems.Snap": "잡아서 근처에 놔둬보기",
         "Tutorial.GrabItems.Slide": "잡고 움직여보기",
@@ -1866,6 +1974,7 @@
         "Hints.Grabbing.OtherGrabbables": "다양한 상호작용이 가능합니다. 여기 3가지를 이용하여 직접 확인해 보세요.",
         "Hints.Grabbing.OtherGrabbablesExtraDesktop": "자기 자신의 크기도 조절 가능합니다. 컨텍스트 메뉴에서 '크기비율조정'을 사용 가능하게 선택하고 Ctrl + 마우스스크롤을 조작하면 됩니다.",
         "Hints.Grabbing.OtherGrabbablesExtraVR": "자기 자신의 크기도 조절 가능합니다. 컨텍스트 메뉴에서 '크기비율조정'을 사용 가능하게 선택하고 컨트롤러 좌/우를 모두 그립(잡기)한다음 좁혔다 넓혔다 하면 됩니다.",
+        
         "Hints.Telescope.Alignment": "망원경을 잡고 망원경을 바라보세요.",
 
         "Hints.Telescope.TheMoonDesktop": "달을 마우스 오른쪽 클릭한 상태로 끌면 위치를 변경시킬 수 있습니다.",
@@ -1891,15 +2000,16 @@
         "UI.TextDisplay.NormalText": "일반",
         "UI.TextDisplay.MonospaceText": "고정폭",
 
-        "UI.VideoPlayer.GlobalSettings": "전역<br>설정",
-        "UI.VideoPlayer.LocalSettings": "로컬<br>설정",
-        "UI.VideoPlayer.SpatialAudio": "구역<br>음향",
-        "UI.VideoPlayer.AreaBroadcast": "지역<br>송출",
-        "UI.VideoPlayer.BroascastAudio": "전역송출",
+        "UI.VideoPlayer.GlobalSettings": "전역",
+        "UI.VideoPlayer.LocalSettings": "로컬",
+        "UI.VideoPlayer.SpatialAudio": "구역",
+        "UI.VideoPlayer.AreaBroadcast": "지역",
+        "UI.VideoPlayer.BroascastAudio": "음향송출",
         "UI.VideoPlayer.EnterURL": "<i><alpha=#77>여기에 주소를 입력하세요</closeall>",
-        "UI.VideoPlayer.AudioZoneTheater": "로컬에서<br>구역으로",
+        "UI.VideoPlayer.AudioZoneTheater": "로컬에서<br>극장모드로",
         "UI.VideoPlayer.AudioZoneGlobal": "전역<br>송출",
         "UI.VideoPlayer.UsersLoaded": "재생준비<br>{users_loaded}/{users_present}",
+        "UI.VideoPlayer.AllUsersLoaded": "모든 사용자<br>재생준비 끝",
 
         "UI.ColorPicker.ColorPicker": "색상 선택기",
 
@@ -1912,14 +2022,17 @@
         "UI.ColorPicker.Green": "녹",
         "UI.ColorPicker.Blue": "청",
 
-        "UI.ColorPicker.Hue": "Hue",
-        "UI.ColorPicker.Saturation": "Saturation",
-        "UI.ColorPicker.Value": "Value",
+        "UI.ColorPicker.Hue": "색조",
+        "UI.ColorPicker.Saturation": "채도",
+        "UI.ColorPicker.Value": "값",
 
-        "UI.ColorPicker.Alpha": "Alpha",
-        "UI.ColorPicker.Gain": "Gain",
+        "UI.ColorPicker.Alpha": "불투명도",
+        "UI.ColorPicker.Gain": "게인",
 
         "UI.ProgressBar.ImportingItem": "가져오기",
+
+        "UI.Camera.Automatic": "자동",
+        "UI.Camera.Manual": "수동",
 
         "Tools.Names.MultiTool": "다용도 도구",
 

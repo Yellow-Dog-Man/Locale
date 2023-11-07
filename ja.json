@@ -1,7 +1,8 @@
 {
     "localeCode": "ja",
-    "authors": ["orange", "Melnus", "Aesc", "kazu", "Rabbuttz", "zozokasu"],
+    "authors": ["orange", "Melnus", "Aesc", "kazu", "Rabbuttz", "zozokasu", "rhenium", "chaba_take"],
     "messages": {
+
         "General.OK": "OK",
         "General.Start": "開始",
         "General.Finish": "終了",
@@ -39,7 +40,7 @@
         "General.Edit": "編集",
 
         "General.UI.SearchPrompt": "検索...",
-        "General.UI.SearchPromptLong": "入力して検索...",
+        "General.UI.SearchPromptLong": "検索したい文字をここに入力…",
         "General.UI.ToggleEditMode": "エディットモード​(on/off)",
         "General.UI.ToggleSubtitles": "字幕表示​(on/off)",
         "General.UI.Subtitles.On": "字幕: オン",
@@ -58,11 +59,11 @@
         "Worlds.Tutorial" : "チュートリアル",
 
         "Locomotion.Noclip.Name": "ノークリップ",
-        "Locomotion.Noclip.Description": "編集時に最適な衝突判定無しのフライモード。",
+        "Locomotion.Noclip.Description": "編集時に最適な衝突判定なしのフライモード。",
         "Locomotion.Teleport.Name": "テレポート",
         "Locomotion.Teleport.Description": "快適な移動のためのテレポート。",
         "Locomotion.Fly.Name": "フライ",
-        "Locomotion.Fly.Description": "衝突判定有りのフライモード。",
+        "Locomotion.Fly.Description": "衝突判定ありのフライモード。",
         "Locomotion.WalkRun.Name": "歩行",
         "Locomotion.WalkRun.Description": "物理的な歩行とジャンプ。",
         "Locomotion.WalkRunGripping.Name": "歩行<size=50%>(クライミング)</size>",
@@ -76,7 +77,7 @@
 
         "Interaction.Destroy": "破棄",
         "Interaction.Duplicate": "複製",
-        "Interaction.SaveToInventory": "インベントリーに保存",
+        "Interaction.SaveToInventory": "インベントリに保存",
         "Interaction.Undo": "戻す",
         "Interaction.Redo": "やり直す",
         "Interaction.EquipTool": "装備",
@@ -108,22 +109,24 @@
         "Interaction.CopyLink": "リンクをコピー",
 
         "Inventory.OpenWorld": "ワールドを開く",
-        "Inventory.Equip": "アバターを変更",
-        "Inventory.Delete": "削除",
-        "Inventory.SaveHeld": "アイテムを保存",
-        "Inventory.Inventories": "インベントリー一覧",
-        "Inventory.Share": "パブリック化",
-        "Inventory.Unshare": "プライベート化",
-        "Inventory.SaveAvatar": "アバターを保存",
+        "Inventory.Equip": "アバターを着る",
+        "Inventory.Delete": "選択アイテムを削除",
+	    "Inventory.CreateDirectory": "フォルダを作成",
+        "Inventory.SaveHeld": "掴んでいるものを保存",
+        "Inventory.GetURL": "URLを取得",
+        "Inventory.Inventories": "インベントリ一覧",
+        "Inventory.Share": "フォルダ共有",
+        "Inventory.Unshare": "フォルダ共有停止",
+        "Inventory.SaveAvatar": "現在のアバターを保存",
         "Inventory.Favorite.Home": "ホームに設定",
         "Inventory.Favorite.ProgressBar": "プログレスバーに設定",
         "Inventory.Favorite.AudioStreamController": "オーディオストリームに設定",
         "Inventory.Favorite.TextDisplay": "テキストディスプレイに設定",
         "Inventory.Favorite.VideoPlayer": "ビデオプレイヤーに設定",
         "Inventory.Favorite.AudioPlayer": "オーディオプレイヤーに設定",
-        "Inventory.Favorite.InteractiveCamera": "アバターカメラに設定",
+        "Inventory.Favorite.InteractiveCamera": "カメラに設定",
         "Inventory.Favorite.Keyboard": "キーボードに設定",
-        "Inventory.Favorite.Avatar": "アバターに設定",
+        "Inventory.Favorite.Avatar": "既定のアバターに設定",
         "Inventory.Favorite.WorldLoadingIndicator": "ローディングバーに設定",
         "Inventory.Favorite.ColorDialog": "カラーピッカーに設定",
         "Inventory.Favorite.Hyperlink": "URLディスプレイに設定",
@@ -132,26 +135,26 @@
         "Dash.Screens.Home": "ホーム",
         "Dash.Screens.Worlds": "ワールド",
         "Dash.Screens.Contacts": "フレンド",
-        "Dash.Screens.Inventory": "インベントリー",
+        "Dash.Screens.Inventory": "インベントリ",
         "Dash.Screens.Desktop": "デスクトップ",
         "Dash.Screens.Session": "セッション",
         "Dash.Screens.FileBrowser": "<nobr>ファイルブラウザ",
         "Dash.Screens.Settings": "設定",
         "Dash.Screens.Exit": "終了",
 
-        "Dash.Actions.PasteFromClipboard": "クリップボード​からペースト",
+        "Dash.Actions.PasteFromClipboard": "クリップボード<br>から貼り付け",
 
         "Dash.Actions.TurnOffUIEdit": "UI編集モード​をオフにする",
 
-        "Dash.Actions.CloudHome": "クラウドホーム",
+        "Dash.Actions.CloudHome": "ホームワールドへ移動",
 
         "Dash.Exit.Header": "{appName} を終了",
         "Dash.Exit.ExitAndSave": "ホームを保存して終了",
         "Dash.Exit.ExitAndDiscard": "ホームを保存せず終了",
-        "Dash.Exit.Sponsor": "このプロジェクトのスポンサーになってくれた {name} に大感謝！",
+        "Dash.Exit.Sponsor": "{name}さまのご支援に特別な感謝を込めて！",
         "Dash.Exit.Sponsor.You": "あなた",
-        "Dash.Exit.Shoutouts": "このプロジェクトはこの人たちのおかげで成り立っています:",
-        "Dash.Exit.Shoutouts.AndMore" : "などなど！",
+        "Dash.Exit.Shoutouts": "-プロジェクトを支援してくださっている方々-",
+        "Dash.Exit.Shoutouts.AndMore" : "以下多数",
         "Dash.Exit.Shoutouts.You" : "{name} (あなただよ！ありがとう！)",
         "Dash.Exit.ThankYou": "{appName} をご利用いただきありがとうございます!",
         "Dash.Exit.SubmittedBy": "{name}​さんの投稿",
@@ -164,6 +167,7 @@
         "World.LoadingFailed": "ワールド読み込み失敗",
         "World.LoadedAssets": "アセット読み込み中: {assets} / {total_assets}",
         "World.Downloading": "ダウンロード中: {bytes} / {total_bytes}",
+        "World.Loaded": "ダウンロード完了",
 
         "World.Connection.EstablishingConnection": "接続を確立しています",
         "World.Connection.RequestingJoin": "参加をリクエストしています",
@@ -178,7 +182,7 @@
 
         "World.Error.AccessDenied": "アクセスが拒否されました",
         "World.Error.SecurityViolation": "セキュリティ違反",
-        "World.Error.OnlyRegisteredUsers": "登録ユーザーのみが入室できます",
+        "World.Error.OnlyRegisteredUsers": "ログインユーザーのみが入室できます",
         "World.Error.OnlyContacts": "ホストのフレンドのみが入室できます",
         "World.Error.OnlyContactsOfContacts": "セッションにいるユーザーのフレンドのみが入室できます",
         "World.Error.Private": "このセッションはプライベートです",
@@ -196,7 +200,7 @@
         "World.Error.HostBlocked": "ホストにブロックされています",
         "World.Error.HostBlockedDetail": "あなたはセッションのホストにブロックされています",
         "World.Error.WorldCrash": "ワールドがクラッシュしました",
-        "WOrld.Error.WorldCrashDetail": "ワールド更新時に致命的なエラーが発生しました",
+        "World.Error.WorldCrashDetail": "ワールドに致命的なエラーが発生しました",
         "World.Error.Unknown": "未知のエラー",
 
         "World.Config.Name": "セッション名:",
@@ -205,7 +209,7 @@
         "World.Config.MobileFriendly": "モバイル向けに調整済み",
         "World.Config.SaveOptionsHeader": "ワールドを保存:",
         "World.Config.EditMode": "編集モード:",
-        "World.Config.AccessLevelHeader": "このセッションに入れる人",
+        "World.Config.AccessLevelHeader": "このセッションに入れる人(アクセスレベル)",
         "World.Config.AutoKickAFK": "AFKユーザーを自動キック:",
         "World.Config.AutoKickAFKMinutes": "最大AFK時間(分):",
         "World.Config.HideFromListing": "セッションリストに表示しない",
@@ -219,11 +223,11 @@
         "World.Actions.Focus": "フォーカス",
         "World.Actions.Close": "セッションを閉じる",
         "World.Actions.Leave": "セッションを​切断する",
-        "World.Actions.Save": "変更を保存",
+        "World.Actions.Save": "上書き保存",
         "World.Actions.SaveAs": "名前をつけて保存...",
-        "World.Actions.SaveCopy": "コピーを保存...",
+        "World.Actions.SaveCopy": "コピーして保存...",
         "World.Actions.SaveHere": "ここに保存",
-        "World.Actions.SaveToInventory": "インベントリーに保存",
+        "World.Actions.SaveToInventory": "インベントリに保存",
         "World.Actions.Saving": "保存中...",
         "World.Actions.Discard": "変更を破棄",
         "World.Actions.Clone": "ワールドを複製",
@@ -280,8 +284,8 @@
         "World.Detail.Tags": "タグ",
         "World.Detail.ActionsHeader": "アクション:",
 
-        "World.Category.Everything": "全ワールド",
-        "World.Category.Featured": "注目",
+        "World.Category.Everything": "全てのワールド",
+        "World.Category.Featured": "注目ワールド",
         "World.Category.PublishedWorlds": "公開ワールド",
         "World.Category.ActiveSessions": "アクティブセッション",
         "World.Category.ContactsSessions": "フレンドセッション",
@@ -291,16 +295,16 @@
         "World.Category.Art": "アート",
         "World.Category.Tutorials": "チュートリアル",
         "World.Category.Educational": "教育",
-        "World.Category.Random": "シャッフル",
+        "World.Category.Random": "ランダム",
         "World.Category.MyWorlds": "自分のワールド",
-        "World.Category.Custom": "カスタム",
+        "World.Category.Custom": "表示設定",
         "World.Category.GroupWorlds": "グループのワールド",
 
         "World.AccessLevel.Anyone": "誰でも",
-        "World.AccessLevel.RegisteredUsers": "登録ユーザー",
-        "World.AccessLevel.Friends": "フレンド",
-        "World.AccessLevel.FriendsOfFriends": "フレンド+",
-        "World.AccessLevel.LAN": "LAN",
+        "World.AccessLevel.RegisteredUsers": "ログインユーザー",
+        "World.AccessLevel.Contacts": "フレンド",
+        "World.AccessLevel.ContactsPlus": "フレンド+",
+        "World.AccessLevel.LAN": "LAN内",
         "World.AccessLevel.Private": "プライベート(招待のみ)",
 
         "World.SortParameter.SearchScore": "検索スコア",
@@ -315,21 +319,21 @@
         "World.SortParameter.LastVisit": "最後に訪問",
         "World.SortParameter.Random": "ランダム",
 
-        "World.Filter.DataSources": "データソース:",
+        "World.Filter.DataSources": "検索ワールド:",
         "World.Filter.OpenedWorlds": "接続中のセッション",
         "World.Filter.ActiveSessions": "アクティブセッション",
         "World.Filter.PublishedWorlds": "公開されているワールド",
         "World.Filter.LocalWorlds": "ローカルワールド",
-        "World.Filter.BaseSearch": "ベースサーチ:",
-        "World.Filter.ByOwner": "オーナー:",
-        "World.Filter.UserOwner": "ユーザーがオーナー",
-        "World.Filter.GroupOwner": "グループがオーナー",
+        "World.Filter.BaseSearch": "検索ワード:",
+        "World.Filter.ByOwner": "オーナー名:",
+        "World.Filter.UserOwner": "ユーザー名で検索",
+        "World.Filter.GroupOwner": "グループ名で検索",
         "World.Filter.SubmittedToGroup": "グループに送信:",
         "World.Filter.Featured": "「注目」のみ",
         "World.Filter.MyWorlds": "自分のワールド",
-        "World.Filter.SessionFiltering": "セッションフィルター:",
-        "World.Filter.MinimumUsers": "最小ユーザー数: <b>{n}</b>",
-        "World.Filter.MinimumFriends": "最小フレンド数: <b>{n}</b>",
+        "World.Filter.SessionFiltering": "フィルター設定:",
+        "World.Filter.MinimumUsers": "ユーザーが「<b>{n}</b>」人以上いるセッション",
+        "World.Filter.MinimumContacts": "フレンドが「<b>{n}</b>」人以上いるセッション",
         "World.Filter.OnlyHeadless": "ヘッドレスのみ",
         "World.Filter.MaxAccessLevel": "最大アクセスレベル:",
         "World.Filter.MinimumUptime": "最小経過時間:",
@@ -340,7 +344,7 @@
         "World.Edit.Description": "説明:",
         "World.Edit.Tags": "タグ​(コンマで分けてください):",
         "World.Edit.Path": "ワールドパス:",
-        "World.Edit.AccessLevelHeader": "このワールドは誰が開けますか？(入室制限)",
+        "World.Edit.AccessLevelHeader": "このワールドは誰が開けますか？(アクセスレベル)",
         "World.Edit.AccessPrivate": "私のみ",
         "World.Edit.AccessPatreon": "パトロンサポーター",
         "World.Edit.AccessPublic": "誰でも(パブリック)",
@@ -348,7 +352,7 @@
         "Tools.AvatarCreator": "アバター​クリエイター",
         "Tools.FullBodyCalibrator": "フルボディ/アバター​キャリブレーター",
         "Tools.CameraStreaming": "カメラ",
-        "Tools.CreateNewWorld": "新規ワールド作成",
+        "Tools.CreateNewWorld": "新規ワールドを作成",
         "Tools.Debug": "デバッグ",
         "Tools.StreamAudio": "ストリームオーディオ",
         "Tools.Setup2FA": "2要素認証を設定",
@@ -364,66 +368,133 @@
 
         "Options.FreeformDash.On": "ダッシュメニューの傾き​:オン",
         "Options.FreeformDash.Off": "ダッシュメニューの傾き​:オフ",
-        "Options.SeatedMode.On": "着席モード​:オン",
-        "Options.SeatedMode.Off": "着席モード​:オフ",
-        "Options.Nameplates.All": "ネームプレート:​すべての名前を表示",
-        "Options.Nameplates.NonContacts": "ネームプレート:​フレンドの名前を非表示",
-        "Options.Nameplates.Hide": "ネームプレート:​すべての名前を非表示",
-        "Options.Nameplates.DefaultStyle": "デフォルトネームプレートを使用",
-        "Options.Nameplates.CustomStyle": "カスタムネームプレートを許可",
+        "Options.SeatedMode.On": "着席モード:オン",
+        "Options.SeatedMode.Off": "着席モード:オフ",
+        "Options.Nameplates.All": "ネームプレート:​表示",
+        "Options.Nameplates.NonContacts": "ネームプレート:​フレンド以外表示",
+        "Options.Nameplates.Hide": "ネームプレート:<br>非表示",
+        "Options.Nameplates.DefaultStyle": "カスタムネームプレート:<br>非表示",
+        "Options.Nameplates.CustomStyle": "カスタムネームプレート:<br>表示",
 
-        "Indicator.OnlineUsers": "オンラインユーザー数​:{num_registered}(~{num_total})",
+        "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> 人がオンライン​",
         "Indicator.OnlineUsersVR": "VR <color=hero.purple>{users}</color> 人",
         "Indicator.OnlineUsersDesktop": "デスクトップ <color=hero.cyan>{users}</color> 人",
 
-        "Indicator.ServerStatus": "クラウドステータス",
+        "Indicator.ServerStatus.Status": "クラウドステータス",
         "Indicator.ServerStatus.Good": "良好",
         "Indicator.ServerStatus.Slow": "重い",
-        "Indicator.ServerStatus.Down": "サーバーダウン",
+        "Indicator.ServerStatus.Down": "応答なし",
         "Indicator.ServerStatus.NoInternet": "インターネットなし",
 
         "Indicator.Sync.AllSynced": "シンク完了",
-        "Indicator.Sync.SyncingItems": "{item_count,plural, other {# 個のアイテムを}}シンク中<nobr>({item_percent} %)",
+        "Indicator.Sync.SyncingItems": "シンク中<br><size=61.8033%>{item_count, plural, other {# アイテム}}</size>",
         "Indicator.Sync.UploadingVariants": "{variant_count,plural, other {# 個のアセットバリアントを}} アップロード中",
         "Indicator.Sync.SyncError": "シンクエラー! <size=50%>ログをチェックしてください</size>",
-        "Indicator.Sync.OutOfSpace": "空き容量が足りません! <size=50%>シンクできません</size>",
-        
-        "Indicator.Storage.StorageFull": "容量満タン",
+        "Indicator.Sync.StorageFull": "容量が足りません! <size=50%>シンクできません</size>",
+
+        "Indicator.Storage.StorageFull": "空き容量なし",
         "Indicator.Storage.Usage": "{storage_used} / {storage_max}<br><size=61.803%>ストレージ使用量</size>",
 
         "Indicator.LiveHiddenMessage": "(ライブ中は非表示)",
 
         "Login.InvalidCredentials": "認証情報が異なります",
+        "Login.InvalidCredentials.Description": "認証情報を再確認してもう一度試すか、 \"パスワードを忘れてしまった\"を押してください",
+
         "Login.InvalidLogin": "ログイン情報が異なります",
+        "Login.InvalidLogin.Description": "認証情報をを再確認してもう一度試すか、 \"パスワードを忘れてしまった\"を押してください",
 
         "Login.MalformedUID": "デバイス情報が正しくありません",
+        "Login.MalformedUID.Description": "再インストールするか、サポート{supportUrl}に連絡してください",
+
         "Login.MissingUID": "デバイス情報を入力して下さい",
+        "Login.MissingUID.Description": "再インストールするか、サポート{supportUrl}に連絡してください",
+
         "Register.MissingUID": "デバイス情報を入力して下さい",
+        "Register.MissingUID.Description": "再インストールするか、サポート{supportUrl}に連絡してください",
+
         "Register.MalformedUID": "デバイス情報が正しくありません",
+        "Register.MalformedUID.Description": "再インストールするか、サポート{supportUrl}に連絡してください",
 
         "Login.MissingLogin": "認証情報を入力してください",
+        "Login.MissingLogin.Description": "認証情報をお忘れですか？",
+
         "Login.InvalidRecoveryCode": "リカバリーコードが違います",
+        "Login.InvalidRecoveryCode.Description": "リカバリーコードを再確認してください",
+
         "Login.UnsupportedAuthentication": "サポートされていない認証手段です",
-        "Login.EmailNotVerified": "メールでの承認が済んでいません",
+        "Login.UnsupportedAuthentication.Description": "この認証方法はサポートしていません。他の方法をお試しください。",
+
+        "Login.EmailNotVerified": "メールの承認が済んでいません",
+        "Login.EmailNotVerified.Description": "メールアドレスは確認されていません、​受信トレイや​迷惑メールフォルダに​メールが届いていないか​確認してください。",
+
         "Login.AccountTempLocked": "あなたのアカウントはロックアウトされています…",
+        "Login.AccountTempLocked.Description": "モデレーションまでご連絡ください: {moderationUrl}",
+
         "Login.AccountBanned": "あなたのアカウントはBANされています。",
+        "Login.AccountBanned.Description": "モデレーションまでご連絡ください: {moderationUrl}",
+
         "Login.DuplicateAccount": "アカウントが重複しています",
+        "Login.DuplicateAccount.Description": "サポートまでご連絡ください: {supportUrl}",
+
+        "Login.UnknownError": "未知のエラーです",
+        "Login.UnknownError.Description": "ログイン中に未知なエラーが発生しました。 サポートまでご連絡ください {supportUrl}",
 
         "Register.MissingRequest": "必要情報を入力してください",
+        "Register.MissingRequest.Description": "登録情報が見つかりませんでした。 登録時には必ず必要事項を入力してください。",
+
         "Register.InvalidEmail": "メールアドレスが一致しません",
+        "Register.InvalidEmail.Description": "メールアドレスが無効です",
+
         "Register.MissingUsername": "ユーザー名を入力してください",
+        "Register.MissingUsername.Description": "ユーザー名を入力しましたか?",
+
         "Register.MissingEmail": "メールアドレスを入力してください",
+        "Register.MissingEmail.Description": "メールアドレスを入力しましたか?",
+
         "Register.UsernameTooLong": "ユーザー名が長すぎます",
+        "Register.UsernameTooLong.Description": "ユーザー名は32文字までです",
+
         "Register.UsernameContainsAmpersand": "ユーザー名には @ は含めないでください",
+        "Register.UsernameContainsAmpersand.Description": "ユーザー名に @ は使用できません",
+
         "Register.UsernameStartsWithU": "U- から始まるユーザー名は設定できません",
+        "Register.UsernameStartsWithU.Description": "ユーザー名は U- で始めてはいけません",
+
         "Register.InvalidUsername": "ユーザー名を変更してください",
-        "Register.InvalidDateOfBirth": "誕生日の形式が正しくありません",
-        "Register.UserContainsBlockedTerms": "ユーザー名に不適切な単語が含まれています",
+        "Register.InvalidUsername.Description": "ユーザー名が無効です",
+
+        "Register.InvalidDateOfBirth": "誕生日を正しく入力してください",
+        "Register.InvalidDateOfBirth.Description": "生年月日が無効な形式です",
+
+        "Register.UsernameContainsBlockedTerms": "ユーザー名に不適切な単語が含まれています",
+        "Register.UsernameContainsBlockedTerms.Description": "ユーザー名にブロックワードが含まれています。 エラーと思われる場合はサポートまでご連絡ください {supportUrl}",
+
         "Register.MissingPassword": "パスワードを入力してください",
-        "Register.InvalidPassword": "パスワードが一致しません",
+        "Register.MissingPassword.Description": "パスワードが入力されていません",
+
+        "Register.InvalidPassword": "無効なパスワードです",
+        "Register.InvalidPassword.Description": "パスワードが無効です。8文字以上で、数字、大文字、小文字をそれぞれ1字以上使用してください。",
+
         "Register.EmailAlreadyRegistered": "このEmailは既に登録されています",
+        "Register.EmailAlreadyRegistered.Description": "このメールアドレスを使用したアカウントはすでに存在します。 パスワードを忘れた場合は、\"パスワードを忘れてしまった\"をクリックしてください。 もしくはサポートまでご連絡ください {supportUrl}",
+
         "Register.UsernameAlreadyRegistered": "このユーザー名は既に使用されています",
+        "Register.UsernameAlreadyRegistered.Description": "このユーザー名を使用したアカウントはすでに存在します。 パスワードを忘れた場合は、\"パスワードを忘れてしまった\"をクリックしてください。 もしくはサポートまでご連絡ください {supportUrl}",
+
         "Register.ErrorCheckingUserId": "ユーザーIDの確認中にエラーが発生しました",
+        "Register.ErrorCheckingUserId.Description": "サポートまでご連絡ください {supportUrl}",
+
+        "Recovery.MissingEmail" : "メールアドレスを入力してください",
+        "Recovery.MissingEmail.Description" : "メールアドレスを入力しましたか?",
+
+        "Recovery.IncorrectEmail" : "メールアドレスが異なります",
+        "Recovery.IncorrectEmail.Description" : "パスワード回復のために入力したメールアドレスが正しくありません。​再確認してください。",
+
+        "Recovery.NoPasswordSetup" : "パスワードが設定されていません",
+        "Recovery.NoPasswordSetup.Description" : "サポートまでご連絡ください {supportUrl}",
+
+        "Register.UnknownError": "未知のエラーです",
+        "Register.UnknownError.Description": "登録中に未知なエラーが発生しました。 サポートまでご連絡ください {supportUrl}",
 
         "Account.Login": "ログイン",
         "Account.Logout": "ログアウト",
@@ -434,18 +505,17 @@
         "Account.LoggingIn": "ログイン中...",
         "Account.LoggingOut": "ログアウト中...",
         "Account.Registering": "登録中...",
-        "Account.Anonymous": "未登録ユーザー",
+        "Account.Anonymous": "未ログインユーザー",
         "Account.Username": "ユーザー名:",
-        "Account.Email": "メール:",
+        "Account.Email": "メールアドレス:",
         "Account.RememberMe": "記憶する<br><size=50%>(30日間有効)</size>",
-        "Account.RepeatEmail": "メール(再入力):",
+        "Account.RepeatEmail": "メールアドレス(再入力):",
         "Account.UsernameOrEmail": "ユーザー名またはメール:",
         "Account.Password": "パスワード:",
         "Account.RepeatPassword": "パスワード(再入力):",
         "Account.RecoverPassword": "パスワードを忘れてしまった",
         "Account.LiveEmailWarning": "<color=#f00>警告:</color>​live.com、hotmail.com、outlook.com、​その他のMicrosoftが提供するサービスでは、​メールを受け取るまでに最大1～2日かかることがあります。",
         "Account.PasswordRules": "(最低8文字、1桁の数字、1つの小文字、1つの大文字が必要です)",
-        "Account.AgeConfirm": "私は13歳以上です",
         "Account.LostPassword": "パスワードを忘れてしまった",
         "Account.SendRecoveryCode": "リカバリーコード送信",
         "Account.ResetPasswordHeader": "パスワードをリセット",
@@ -466,7 +536,7 @@
 
         "Account.Saml2.Title" : "SAML 2.0",
         "Account.Saml2.Select" : "使用するサービスを選んでください:",
-        "Account.Saml2.LoggingIn" : "ログイン待機中 (Webブラウザをご確認ください)...",
+        "Account.Saml2.LoggingIn" : "ログイン待機中 (Webブラウザを確認してください)...",
 
         "Account.TOTP.Title" : "2要素認証",
         "Account.TOTP.Initializing": "アカウントの2要素認証の状態を確認しています...",
@@ -511,17 +581,17 @@
         "Profile.Status.Invisible": "非表示",
         "Profile.Status.Offline": "オフライン",
         "Profile.Status.Headless": "ヘッドレス",
-        
+
         "Session.Tab.Settings": "設定",
         "Session.Tab.Users": "ユーザー",
         "Session.Tab.Permissions": "権限",
 
-        "Session.Permission.Anonymous": "未登録ユーザーの初期値:",
-        "Session.Permission.Vistor": "フレンドでない登録ユーザの初期値:",
-        "Session.Permission.Contact": "フレンドの初期値:",
-        "Session.Permission.Host": "ホストの初期値:",
-        "Session.Permission.PermissionOverrideCount": "個別に権限設定を行ったユーザー数: {n,select, -1 {--表示できません--} other {{n}}}",
-        "Session.Permission.ClearOverrides": "ユーザー個別の権限設定を消去",
+        "Session.Permission.Anonymous": "未ログインユーザーの権限",
+        "Session.Permission.Vistor": "フレンドでないユーザーの権限",
+        "Session.Permission.Contact": "フレンドの権限",
+        "Session.Permission.Host": "ホストユーザーの権限",
+        "Session.Permission.PermissionOverrideCount": "個別に権限を設定したユーザー: {n,select, -1 {--表示できません--} other {{n}}}人",
+        "Session.Permission.ClearOverrides": "ユーザー個別の権限設定をリセット",
 
         "Session.JoinVerifier.EnableHeader" : "カスタム参加検証を使用しますか？",
         "Session.JoinVerifier.EnableText" : "<color=red>警告:</color> カスタム参加検証を有効にしようとしています。 有効にする前に、ワールドの作成者が信頼できることを確認してください。 カスタム参加検証は標準のセッションのアクセスルールをバイパスし、独自のルールでユーザーの参加を許可またはブロックすることができるからです。",
@@ -552,8 +622,8 @@
         "Contacts.BanFromCurrentWorld": "現在のワールド​からBAN",
         "Contacts.UnbanFromCurrentWorld": "現在のワールド​からBAN解除",
         "Contacts.RecordingVoiceMessage": "録音中...",
-        "Contacts.Unblocked" : "ブロック解除",
-        "Contacts.AvatarBlock" : "アバターブロック",
+        "Contacts.Unblocked" : "非表示・ブロック解除",
+        "Contacts.AvatarBlock" : "アバターを非表示",
         "Contacts.MutualBlock" : "相互ブロック",
         "Contacts.SelfAccount": "マイアカウント",
         "Contacts.SearchPrompt": "フレンドを検索...",
@@ -573,7 +643,7 @@
         "Contacts.Blocked": "ブロック済み",
         "Contacts.SearchResult": "検索結果",
         "Contacts.Bot": "ボットアカウント",
-        "Contact.Migrated": "移行していないフレンド",
+        "Contacts.Migrated": "移行していないフレンド",
 
         "Notifications.IsOnline": "さんがオンラインになりました",
         "Notifications.IsOnlineOnDifferentVersion": " <size=75%>(using version: {version})</size>さんがオンラインになりました",
@@ -597,9 +667,9 @@
         "Undo.ResetRotation": "回転をリセット",
         "Undo.ResetScale": "スケールをリセット",
 
-        "Undo.GrabObjects": "オブジェクトをグラブする",
-        "Undo.DestroyGrabbed": "グラブしているオブジェクトを破棄する",
-        "Undo.DuplicateGrabbed": "グラブしているオブジェクトを複製する",
+        "Undo.GrabObjects": "オブジェクトをグラブ",
+        "Undo.DestroyGrabbed": "グラブしているオブジェクトを破棄",
+        "Undo.DuplicateGrabbed": "グラブしているオブジェクトを複製",
 
         "Undo.ChangeBoxSize": "ボックスサイズを変更",
         "Undo.BrushStroke": "ブラシストローク",
@@ -635,7 +705,13 @@
         "Tooltips.Dev.GlobalSpace" : "グローバル空間",
         "Tooltips.Dev.Translation" : "位置",
         "Tooltips.Dev.Rotation" : "回転",
-        "Tooltips.Dev.Scale" : "スケール",
+        "Tooltips.Dev.Scale" : "大きさ",
+
+        "Tooltips.Dev.Selection.Single": "選択: 単独",
+        "Tooltips.Dev.Selection.Multi": "選択: 複数",
+
+        "Tooltips.Dev.Interaction.Tip": "Tip",
+        "Tooltips.Dev.Interaction.Projection": "Projection",
 
         "Tooltip.Color.Picker": "カラーピッカー",
 
@@ -653,6 +729,10 @@
         "Tooltip.Light.Point": "ポイントライト",
         "Tooltip.Light.Spot": "スポットライト",
         "Tooltip.Light.Sun": "ディレクショナルライト",
+
+        "Tooltip.Light.Shadows.None": "影なし",
+        "Tooltip.Light.Shadows.Hard": "影: ハード",
+        "Tooltip.Light.Shadows.Soft": "影: ソフト",
 
         "Tooltip.MeshVisibility.KeepShadow": "影を残す",
         "Tooltip.MeshVisibility.ShadowOff": "影を無効にする",
@@ -673,7 +753,7 @@
         "Tooltip.Material.ConvertAll": "全てを変換",
         "Tooltip.Material.CreateNew": "新規作成",
 
-        "Tooltip.Mesh.Edit": "メッシュの編集",
+        "Tooltip.Mesh.Edit": "メッシュを編集",
 
         "Tooltip.Cartridge.Eject": "オーブを取り出す",
 
@@ -699,6 +779,26 @@
         "Tooltip.ProtoFlux.PackInto" : "<size=50%>{name}</size>にパッキング",
         "Tooltip.ProtoFlux.Unpack" : "<size=50%>{name}</size>をアンパック",
         "Tooltip.ProtoFlux.ExplicitCast" : "明示的キャスト\n<size=50%>(<color=red>警告:</color> 潜在的なデータ損失)</size>",
+
+        "Tooltip.Meter.Mode.Ray" : "モード: レイ",
+        "Tooltip.Meter.Mode.Perpendicular" : "モード: 直角",
+        "Tooltip.Meter.Mode.Drag" : "モード: ドラッグ",
+
+        "Tooltip.Meter.Points.Two" : "2点間",
+        "Tooltip.Meter.Points.Multiple" : "複数点",
+
+        "Tooltip.Meter.ObjectSpace" : "オブジェクト空間で計測",
+        "Tooltip.Meter.WorldSpace" : "ワールド空間で計測",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "メッシュをベイク",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "スキンドメッシュをベイク",
+        "Tooltip.Glue.Mode.ParentObjects" : "親子付け",
+
+        "Tooltip.RigTransfer.ClearSource" : "送信元をクリア",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "シングルインスタンス: オン",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "シングルインスタンス: オフ",
+        "Tooltip.ComponentClone.ClearTemplate" : "テンプレートをクリア",
 
         "ProtoFlux.UI.Call" : "Call",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> Call",
@@ -800,7 +900,7 @@
         "Importer.Image.Title": "画像​インポーター",
         "Importer.Image.Prompt": "インポートしようと​しているものは​なんですか?",
         "Importer.Image.Regular": "画像​/​テクスチャ",
-        "Importer.Image.Screenshot": "{appName}​の写真",
+        "Importer.Image.Screenshot": "​スクリーンショット <size=50%>(ここでスクショした扱いになります)</size>",
         "Importer.Image.PixelArt" : "ドット絵",
         "Importer.Image.360": "360°画像​/​スカイボックス",
         "Importer.Image.StereoPhoto": "ステレオ​画像",
@@ -893,19 +993,23 @@
         "Importer.Video.Depth.Prompt": "深度プリセット",
         "Importer.Video.Depth.Default": "デフォルト",
 
+        "Importer.Slices.Title": "スライス画像を<br>3Dテクスチャと<br>してインポート",
+        "Importer.Slices.TitleGrayscale": "スライス画像を<br>3Dテクスチャと<br>してインポート<br>(グレースケール)",
+        "Importer.Slices.Description": "フォルダ内の​すべての画像ファイル​を​3Dテクスチャ​に​します",
+
         "Exporter.Title": "エクスポート",
         "Exporter.FileName": "ファイル名:",
-        "Exporter.ExportAs": "Export as:",
+        "Exporter.ExportAs": "ファイル形式:",
         "Exporter.Export": "エクスポート",
         "Exporter.Exporting": "エクスポート中...",
 
-        "NewWorld.Title": "新規ワールド",
+        "NewWorld.Title": "新規ワールドを作成",
         "NewWorld.SessionTitle": "新しいセッション",
-        "NewWorld.Template": "テンプレート:",
+        "NewWorld.Template": "テンプレートを選択",
         "NewWorld.CustomPreset": "カスタムプリセット:",
         "NewWorld.SessionSettings": "セッション設定:",
         "NewWorld.UnsafeMode": "アンセーフモード:",
-        "NewWorld.Port": "ポート:",
+        "NewWorld.Port": "ポート番号:",
         "NewWorld.AutoPort": "自動設定:",
         "NewWorld.DefaultName": "{name} World",
 
@@ -965,8 +1069,8 @@
         "FullBody.FeetNotTracking": "足がトラッキングされていません...",
 
         "FullBody.AvatarPointMapped": "マッピング済み",
-        "FullBody.AvatarPointNotMapped": "マッピング無し",
-        "FullBody.AvatarPointNoTracker": "トラッカー無し",
+        "FullBody.AvatarPointNotMapped": "マッピングなし",
+        "FullBody.AvatarPointNoTracker": "トラッカーなし",
 
         "CameraControl.Title": "カメラコントロール",
         "CameraControl.MirroringOffWarning": "ミラーリングOFF",
@@ -981,33 +1085,33 @@
         "CameraControl.Mode.Manual": "マニュアル",
 
         "CameraControl.Settings.AvoidOcclusion": "遮蔽物を避ける",
-        "CameraControl.Settings.KeepInWorldspace": "ワールド空間をキープ",
+        "CameraControl.Settings.KeepInWorldspace": "ワールド空間に固定",
         "CameraControl.Settings.MovementWobble": "ゆらゆら動かす",
         "CameraControl.Settings.AimInFrontOfHead": "頭の前方を狙う",
-        "CameraControl.Settings.HideCamera": "カメラ非表示",
+        "CameraControl.Settings.HideCamera": "カメラを非表示",
         "CameraControl.Settings.ForceEyesOnCamera": "カメラ目線にする",
-        "CameraControl.Settings.HideBadges": "バッジ非表示",
-        "CameraControl.Settings.HideLasers": "レーザー非表示",
-        "CameraControl.Settings.ShowFrustum": "画角の錐台を表示",
+        "CameraControl.Settings.HideBadges": "ネームプレートを非表示",
+        "CameraControl.Settings.HideLasers": "レーザーを非表示",
+        "CameraControl.Settings.ShowFrustum": "撮影範囲を表示",
         "CameraControl.Settings.PhotoTimer": "セルフタイマー",
         "CameraControl.Settings.ShowLiveBadge": "Liveバッジを表示",
-        "CameraControl.Settings.AudioFromCameraViewpoint": "カメラビューからのオーディオ",
+        "CameraControl.Settings.AudioFromCameraViewpoint": "カメラの位置で音を拾う",
 
-        "CameraControl.OpenCloseUsers": "ユーザー",
-        "CameraControl.CreateCameraAnchor": "カメラアンカー配置",
+        "CameraControl.OpenCloseUsers": "ユーザー別<br>詳細設定",
+        "CameraControl.CreateCameraAnchor": "カメラアンカー作成",
 
         "CameraControl.Anchors.Interpolate": "アンカー間をなめらかに移動する",
-        "CameraControl.Anchors.InterpolationSpeed": "アンカー間の補完速度:",
-        "CameraControl.Anchors.LinearInterpolation": "線形補間",
+        "CameraControl.Anchors.InterpolationSpeed": "アンカー間の移動速度:",
+        "CameraControl.Anchors.LinearInterpolation": "等速移動・回転",
         "CameraControl.Anchors.NoAnchors": "ワールドにカメラアンカーがありません。",
 
         "CameraControl.Positioning.FieldOfView": "画角(FOV)",
-        "CameraControl.Positioning.AngleOffset": "角度オフセット",
+        "CameraControl.Positioning.AngleOffset": "回転オフセット",
         "CameraControl.Positioning.Distance": "距離",
         "CameraControl.Positioning.Height": "高さ",
-        "CameraControl.Positioning.FirstPersonPitch": "一人称視点のピッチ",
-        "CameraControl.Positioning.FirstPersonRoll": "一人称視点のロール",
-        "CameraControl.Positioning.FirstPersonOffset": "一人称視点のオフセット",
+        "CameraControl.Positioning.FirstPersonPitch": "ピッチ回転(一人称)",
+        "CameraControl.Positioning.FirstPersonRoll": "ロール回転(一人称)",
+        "CameraControl.Positioning.FirstPersonOffset": "前後移動(一人称)",
         "CameraControl.Positioning.Reset": "リセット",
 
         "CameraControl.Control.AnyoneCanInteract": "他人が触れるようにする",
@@ -1015,16 +1119,16 @@
         "CameraControl.Control.RenderPrivateUI": "プライベートUIを表示",
         "CameraControl.Control.MotionBlur": "モーションブラー",
         "CameraControl.Control.ScreenSpaceReflections": "画面空間の反射(SSR)",
-        "CameraControl.Control.SpawnPhotoInWorld": "ワールドに写真をスポーン",
-        "CameraControl.Control.FlipPreview": "プレビューを反転",
-        "CameraControl.Control.GroupDetectionRadius": "グループの判定範囲: {n} m",
-        "CameraControl.Control.GroupExcludeBoundary": "グループの除外境界: {n} m",
-        "CameraControl.Control.PositionSmoothSpeed": "位置のスムーズスピード: {n}",
-        "CameraControl.Control.AngleSmoothSpeed": "角度のスムーズスピード: {n}",
-        "CameraControl.Control.FramingSmoothSpeed": "フレーミングのスムーズスピード: {n}",
+        "CameraControl.Control.SpawnPhotoInWorld": "撮影時に写真をスポーン",
+        "CameraControl.Control.FlipPreview": "プレビューを左右反転",
+        "CameraControl.Control.GroupDetectionRadius": "グループの判定範囲: {n}m",
+        "CameraControl.Control.GroupExcludeBoundary": "グループの除外境界: {n}m",
+        "CameraControl.Control.PositionSmoothSpeed": "カメラの移動速度: {n}",
+        "CameraControl.Control.AngleSmoothSpeed": "カメラの旋回速度: {n}",
+        "CameraControl.Control.FramingSmoothSpeed": "カメラの追跡速度: {n}",
 
         "CameraControl.OBS.IP": "OBS Websocket IP:",
-        "CameraControl.OBS.Password": "OBSパスワード​(オプション):",
+        "CameraControl.OBS.Password": "OBSパスワード​(任意):",
         "CameraControl.OBS.Connect": "接続",
         "CameraControl.OBS.Instructions": "OBSが実行中で、obs-websocketプラグインが​インストールされていることを確認してください。",
         "CameraControl.OBS.OpenInstaller": "インストーラーのWebページを表示",
@@ -1045,8 +1149,8 @@
         "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "ドロップしたフレーム: {n}",
         "CameraControl.OBS.Idle": "IDLE",
-        "CameraCOntrol.OBS.Live": "LIVE",
-        "CameraCOntrol.OBS.Recording": "REC",
+        "CameraControl.OBS.Live": "LIVE",
+        "CameraControl.OBS.Recording": "REC",
         "CameraControl.OBS.OpenInstallerReason": "このWebページで、​OBSWebSocket​プラグインを​ダウンロード​できます。",
 
         "CameraControl.OBS.Streaming.Start": "配信開始",
@@ -1066,8 +1170,8 @@
         "Settings.OverrideLocale": "言語環境(ロケール上書き):",
         "Settings.HideAllTutorials": "全チュートリアルを非表示",
         "Settings.ShowInteractionHints": "インタラクションヒントを表示",
-        "Settings.Hotswitching": "VRモード切り替え",
         "Settings.PrimaryController": "プライマリーコントローラー",
+        "Settings.Hotswitching": "VR/デスクトップ 自動切り替え",
         "Settings.AllowStrafing": "平行移動を許可",
         "Settings.UseHeadDirectionForMovement": "頭の向きに移動",
         "Settings.SmoothTurn": "スムーズターン",
@@ -1100,39 +1204,39 @@
         "Settings.LaserSmoothing.ModulateEndAngle": "終点の角度を変更",
         "Settings.LaserSmoothing.ModulateExponent": "指数を変更",
         "Settings.LaserSmoothing.ModulateSpeedMultiplier": "スピード倍率を変更",
-        "Settings.LaserSmoothing.StickThreshold": "吸い付く閾値",
+        "Settings.LaserSmoothing.StickThreshold": "吸い付くしきい値",
         "Settings.Laser.ShowInDesktop": "デスクトップモードでレーザーを表示",
         "Settings.LaserSmoothing.Reset": "レーザーの設定をリセット",
 
-        "Settings.Audio.Header": "オーディオ",
+        "Settings.Audio.Header": "オーディオ設定",
         "Settings.Audio.Input.Title" : "音声入力デバイス",
-        "Settings.Audio.Master": "マスターボリューム: {n,number,percent}",
+        "Settings.Audio.Master": "マスター音量: {n,number,percent}",
         "Settings.Audio.SoundEffects": "サウンドエフェクト: {n,number,percent}",
         "Settings.Audio.Multimedia": "マルチメディア: {n,number,percent}",
         "Settings.Audio.Voice": "ボイス: {n,number,percent}",
         "Settings.Audio.UI": "UI: {n,number,percent}",
         "Settings.Audio.DisableVoiceNormalization": "ボイスノーマライゼーションを無効化",
-        "Settings.Audio.NoiseGateThreshold": "ノイズゲートの閾値: {n}",
-        "Settings.Audio.NormzliationThreshold": "ノーマライゼーションの閾値: {n}",
-        "Settings.Audio.NoiseSupression": "ノイズ抑制フィルター（RNNoise）",
-        "Settings.Audio.WhisperVoiceVolume": "ウィスパーモードの音量(球の外側): {n,number,percent}",
-        "Settings.Audio.InputDevice": "音声入力デバイス:",
-        "Settings.Audio.OutputDevice": "音声出力デバイス:",
+        "Settings.Audio.NoiseGateThreshold": "ノイズゲートのしきい値: {n}",
+        "Settings.Audio.NormzliationThreshold": "ノーマライズのしきい値: {n}",
+        "Settings.Audio.NoiseSupression": "ノイズフィルター（RNNoise）",
+        "Settings.Audio.WhisperVoiceVolume": "ウィスパーモード中の外部音量{n,number,percent}",
+        "Settings.Audio.InputDevice": "音声入力デバイス(マイク)を選択",
+        "Settings.Audio.OutputDevice": "音声出力デバイス(スピーカー/イヤホン)を選択",
         "Settings.Audio.SelectInputDevice": "音声入力デバイスを選択",
         "Settings.Audio.SelectOutputDevice": "音声出力デバイスを選択",
-        "Settings.Audio.TestInput": "音声入力デバイスのテスト:",
-        "Settings.Audio.TestDescription": "選択したオーディオデバイスからのサウンド​が再生され、入力した音声を確認できます。",
-        "Settings.Audio.StartTest": "入力した音声を聴く​<size=50%>(マイク/オーディオ入力を確認してください)</size>",
-        "Settings.Audio.StopTest": "テスト終了",
-        "Settings.Audio.Monitoring": "音声入力のモニタリング:",
-        "Settings.Audio.SystemDefaultOutput": "規定のサウンドデバイス",
+        "Settings.Audio.TestInput": "マイク等のテスト",
+        "Settings.Audio.TestDescription": "選択したデバイスの音が再生され<br>音量が適切かどうか確認できます。",
+        "Settings.Audio.StartTest": "自分の声を聴く​<size=50%>(マイク、オーディオ入力の確認ができます)</size>",
+        "Settings.Audio.StopTest": "テスト中…（再度クリックして終了）",
+        "Settings.Audio.Monitoring": "音声入力の音量・波形",
+        "Settings.Audio.SystemDefaultOutput": "既定のサウンドデバイス",
 
         "Settings.Graphics.DesktopFOV": "デスクトップモードの視野角(FOV)",
 
         "Settings.Locale.Title" : "UIの言語",
         "Settings.Locale.ChangeLanguage": "言語設定",
         "Settings.Locale.SelectLanguageHeader": "言語を選択:",
-        "Settings.Locale.DefaultLanguage": "規定の言語",
+        "Settings.Locale.DefaultLanguage": "既定の言語",
 
         "Settings.Save": "設定を保存",
 
@@ -1183,7 +1287,7 @@
         "ComponentSelector.CreateCustomType" : "Create Custom Type",
         "ComponentSelector.CommonGenericTypes" : "Common Generic Types",
         "ComponentSelector.CustomGenericArguments" : "Custom Generic Arguments:",
-        "ComponentSelector.InvalidType" : "無効な型です",
+        "ComponentSelector.InvalidType" : "その型は存在しません",
 
         "Inspector.Title" : "シーンインスペクター",
         "Inspector.Slot.AttachComponent": "コンポーネントをアタッチ",
@@ -1529,7 +1633,7 @@
         "Tutorial.Welcome.Begin": "始める！",
 
         "Tutorial.Welcome.AccountHeader": "{appName} アカウント",
-        "Tutorial.Welcome.AccountDescription": "アカウントを作成すると、1 GBの無料ストレージと、アイテムの保存、​アバターのお気に入り設定、フレンド登録の追加、メッセージへのアクセスが提供されます。",
+        "Tutorial.Welcome.AccountDescription": "アカウントを作成すると、1GBの無料ストレージと、アイテムの保存、​アバターのお気に入り設定、フレンド登録、メッセージへのアクセスが提供されます。",
         "Tutorial.Welcome.AccountCreate": "アカウント作成",
         "Tutorial.Welcome.AccountLogin": "アカウントを持っています",
         "Tutorial.Welcome.AccountSkip": "アカウントなしで続行",
@@ -1544,10 +1648,10 @@
         "Tutorial.Welcome.SettingsSnapTurnDescription": "角度ごとに瞬時にスナップします。初心者向けです。",
         "Tutorial.Welcome.SettingsSmoothTurn": "スムーズ",
         "Tutorial.Welcome.SettingsSmoothTurnDescription": "徐々に向きを変えます。吐き気を引き起こす可能性があります。",
-        "Tutorial.Welcome.SettingsPrimaryController": "プライマリーコントローラー(標準は右です)",
-        "Tutorial.Welcome.SettingsPrimaryLeft": "左",
+        "Tutorial.Welcome.SettingsPrimaryController": "プライマリーコントローラー(標準は右手です)",
+        "Tutorial.Welcome.SettingsPrimaryLeft": "左手",
         "Tutorial.Welcome.SettingsPrimaryLeftDescription": "<b>左:</b> 回転, <b>右:</b> 平行移動",
-        "Tutorial.Welcome.SettingsPrimaryRight": "右",
+        "Tutorial.Welcome.SettingsPrimaryRight": "右手",
         "Tutorial.Welcome.SettingsPrimaryRightDescription": "<b>左:</b> 平行移動, <b>右:</b> 回転",
         "Tutorial.Welcome.SettingsHeight": "身長",
         "Tutorial.Welcome.SettingsHeightExamples": "例: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
@@ -1587,8 +1691,8 @@
         "Exiting.Exiting": "終了中...",
         "Exiting.LoggingOut": "ログアウト中...",
 
-        "Migration.Title": "移行",
-        "Migration.NewTask": "移行タスクを作成",
+        "Migration.Title": "データ移行",
+        "Migration.NewTask": "データを移行する",
 
         "Migration.LoginModal.Title": "データを移行しますか？",
         "Migration.LoginModal.Description": "他のアカウントからデータを移行しますか？ダッシュボードの「移行」タブからも後で移行することができます。",
@@ -1603,8 +1707,8 @@
         "Migration.SourcePassword": "{platform} パスワード:",
         "Migration.SourceUsername": "{platform} ユーザー名:",
 
-        "Migration.Dialog.Title": "アカウント移行",
-        "Migration.Dialog.Source" : "互換性のあるインフラからデータを移行できます。​まず、以下のリストから移行したいものを選択します。​インストールフォルダ内の「Migrations」フォルダに設定ファイルを配置することで、インフラを追加できます。",
+        "Migration.Dialog.Title": "アカウントの移行",
+        "Migration.Dialog.Source" : "互換性のある他のデータベースからアカウント情報を移行します。<br>以下から該当する移行元データベースを選択してください。該当するものが無ければ、​インストールフォルダ内の「Migrations」フォルダに設定ファイルを配置して、データベースを追加してください。",
         "Migration.Dialog.AccountDescription": "アカウントを移行するには、{platform}アカウントのパスワードが必要です。​ログインしてデータにアクセスできるようになります。",
 
         "Migration.ResetID.Title": "ユーザーIDをリセット",
@@ -1647,9 +1751,8 @@
 
         "Migration.Summary": "設定完了！ 「移行を開始」を押して開始してください。​移行には時間がかかるかもしれません。​お気に入りの移行をした場合は、​優先的に行われますのでご安心ください。​\n移行中は {appName} を終了しても構いません。",
 
-
-        "Migration.List.EmptyTitle": "移行を始めますか？",
-        "Migration.List.EmptySubtitle": "左上の「移行タスクを作成」を押してください",
+        "Migration.List.EmptyTitle": "現在、移行タスクはありません",
+        "Migration.List.EmptySubtitle": "アカウント移行を開始するには、左上の「移行タスクを作成」を押してください",
 
         "Migration.List.ButtonLabel": "{name}\n<size=50%>作成日時:{time}\nステータス:{state}",
         "Migration.Report.Title": "移行レポート:",
@@ -1700,14 +1803,16 @@
         "Temporary.MMC.VoteInvalid": "投票が無効です、​もう一度やり直してください。",
 
         "CloudHome.WelcomeHome": "ようこそ",
-        "CloudHome.TargetRangeOptions": "射撃場操作盤",
+        "CloudHome.TargetRangeOptions": "ターゲット表示",
 
         "Tutorial.Saving.Title": "ホームワールドへようこそ！",
         "Tutorial.Saving.Content": "ここは<b><i><color=hero.yellow>ホーム</b></i></color>ワールド、<br>ログインしたときに最初に開かれる<br>ワールドです！<br><br>ホームはあなた専用のワールドですので<br>自由に編集・保存ができます。<br><br>好みの家具を置いたり衣替えした後は、<br>忘れず保存しましょう！",
 
+        "Tutorial.Teleporter.Error": "クラウドホームの読み込みに失敗しました!<br><size=66%>テレポーターから一度出て、やり直してください。</size>",
+
         "CloudHome.Info.OnlineUsers": "オンラインユーザー: {online_users}<br>参加できるユーザー: {joinable_users}",
         "CloudHome.Info.Moderation": "モデレーション",
-        "CloudHome.Info.Inventory": "インベントリー",
+        "CloudHome.Info.Inventory": "インベントリ",
         "CloudHome.Info.Tools": "ツール",
         "CloudHome.Info.MoreInfo": "ヘルプ・その他",
         "CloudHome.Info.SessionUptime": "セッション継続時間:",
@@ -1715,11 +1820,9 @@
         "CloudHome.Info.StorageUsed": "ストレージ使用量:",
 
         "CloudHome.Info.DashInfoTab.Title": "ようこそ！",
-
         "CloudHome.Info.DashInfoDesktop": "～Resoniteかんたんチュートリアル～<br>その１ Escキーを押すと<i><color=hero.purple>ダッシュメニュー</color></i>が開きます。 フレンドやワールド一覧など、大事な機能はここに集約されています。<br><br>その2 このディスプレイには\"もしも\"の時に役立つ情報が書かれています。<br>一度目を通しておくことをお勧めします！ 「閉じる」ボタンをクリックするとこのメニューを閉じられます。",
         "CloudHome.Info.DashInfoVR": "～Resoniteかんたんチュートリアル～<br>その１ BまたはYボタンを押すと<i><color=hero.purple>ダッシュメニュー</color></i>が開きます。 フレンドやワールド一覧など、大事な機能はここに集約されています。。<br><br>その2 このディスプレイには\"もしも\"の時に役立つ情報が書かれています。<br>一度目を通しておくことをお勧めします！ 「閉じる」ボタンをクリックするとこのメニューを閉じられます。",
         "CloudHome.Info.DashInfoVRNoButtons": "～Resoniteかんたんチュートリアル～<br>その１ 円が一周するまでメニューボタンを押し続けると<i><color=hero.purple>ダッシュメニュー</color></i> が開きます。 フレンドやワールド一覧など、大事な機能はここに集約されています。<br><br>その2 このディスプレイには\"もしも\"の時に役立つ情報が書かれています。<br>一度目を通しておくことをお勧めします！ 「閉じる」ボタンをクリックするとこのメニューを閉じられます。",
-
 
         "CloudHome.Info.GoToWiki": "Wikiを見る！",
         "CloudHome.Info.GoToDiscord": "Discordを見る！",
@@ -1728,7 +1831,7 @@
         "CloudHome.Info.ModerationTab.Content": "我々が重視するもの、それはユーザー皆様の安全です。 サポートを必要とする場合、または通報の際は <u><color=hero.cyan>モデレーションポータル</color></u><sprite name=hyperlink>にアクセスして<br>モデレーションチケットを発行してください。<br><br>有志で活動するモデレーターチーム<sprite name=modbadge>が<br>皆様やコミュニティの安全を守り抜きます！ お問い合わせの他、ガイドラインに違反した行為を目撃した際は、<br>モデレーションチケットの発行にてお知らせください。",
 
         "CloudHome.Info.InventoryTab.Title": "アイテムの保存",
-        "CloudHome.Info.InventoryTab.Content": "<i><color=hero.purple>ダッシュメニュー</color></i>の<i><color=hero.purple>インベントリー</color></i>には アイテムやアバターが保存できます。<br><br><i><color=hero.purple>Resonite Essentials</color></i>フォルダには楽しいおもちゃが入っています。 アイテムをダブルクリックして取り出してみましょう。",
+        "CloudHome.Info.InventoryTab.Content": "<i><color=hero.purple>ダッシュメニュー</color></i>の<i><color=hero.purple>インベントリ</color></i>には アイテムやアバターが保存できます。<br><br><i><color=hero.purple>Resonite Essentials</color></i>フォルダには楽しいおもちゃが入っています。 アイテムをダブルクリックして取り出してみましょう。",
 
         "CloudHome.Info.ToolsTab.Title": "ゲーム内制作",
         "CloudHome.Info.ToolsTab.Content": "{appName}ではなんと、ゲーム内で簡単に創作や改変ができるんです！ <br><br>専用のツールはインベントリの<i><color=hero.purple>Resonite Essentials -> Tools</color></i> から取り出せます。 ワールドを好みに合わせて編集しちゃいましょう！",
@@ -1762,7 +1865,6 @@
 
         "StickyNote.SpinMe": "クルクルしてみ？",
         "StickyNote.FruitPlate": "<size=1500>増える増える 不思議な果物</size>",
-
         "StickyNote.EmptyForYou": "好きな物<br>飾ってね :)",
         "StickyNote.RelevantLinks": "関連リンク！<br><--<br><br><size=500>「接続書」などと言う人がいるらしい</size>",
         "StickyNote.SunTool": "太陽を 動かしたいよう",
@@ -1806,13 +1908,13 @@
         "CloudHome.Panel.LightColor": "ライトの色",
         "CloudHome.Panel.LightColorTemperature": "ライトの色温度",
 
-        "CloudHome.Panel.Spawn": "玄関前",
-        "CloudHome.Panel.Foyer": "エントランス",
+        "CloudHome.Panel.Spawn": "エントランス",
+        "CloudHome.Panel.Foyer": "ロビー",
         "CloudHome.Panel.Workspace": "会議スペース",
         "CloudHome.Panel.ReadingLounge": "読書スペース",
         "CloudHome.Panel.Lounge": "オーディオスペース",
         "CloudHome.Panel.Center": "メインホール",
-        "CloudHome.Panel.Balcony": "ベランダ",
+        "CloudHome.Panel.Balcony": "バルコニー",
         "CloudHome.Panel.Theater": "ホームシアター",
 
         "CloudHome.Panel.TheaterControl": "ホームシアター設定パネル",
@@ -1823,7 +1925,7 @@
 
         "CloudHome.FeaturedPanel.OpenWorld": "ワールドを開く",
         "CloudHome.FeaturedPanel.LinkText": "ここをクリックして<br>ワールドを開く！",
-        "CloudHome.FeaturedPanel.Featured": "特集",
+        "CloudHome.FeaturedPanel.Featured": "FEATURED - 注目",
 
         "CloudHome.AvatarPanel.Title": "アバターワールド特集",
 
@@ -1906,14 +2008,15 @@
         "UI.VideoPlayer.EnterURL": "<i><alpha=#77>ここにURLを入力</closeall>",
         "UI.VideoPlayer.AudioZoneTheater": "シアター内<br>のみ",
         "UI.VideoPlayer.AudioZoneGlobal": "ワールド内<br>全体",
-        "UI.VideoPlsyer.UsersLoaded": "{users_loaded}/{users_present} 人<br>読込完了",
+        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} 人<br>読込完了",
+        "UI.VideoPlayer.AllUsersLoaded": "全員読込完了",
 
         "UI.ColorPicker.ColorPicker": "カラーピッカー",
 
         "UI.ColorPicker.Linear": "リニア",
 
         "UI.ColorPicker.Hexadecimal": "カラー<br>コード",
-        "UI.ColorPicker.ColorSwatches": "スウォッチ",
+        "UI.ColorPicker.ColorSwatches": "カラー<br>パレット",
 
         "UI.ColorPicker.Red": "赤",
         "UI.ColorPicker.Green": "緑",
@@ -1923,10 +2026,13 @@
         "UI.ColorPicker.Saturation": "彩度",
         "UI.ColorPicker.Value": "輝度",
 
-        "UI.ColorPicker.Alpha": "透明度",
+        "UI.ColorPicker.Alpha": "不透明度",
         "UI.ColorPicker.Gain": "ゲイン",
 
         "UI.ProgressBar.ImportingItem": "アイテムインポート中",
+
+        "UI.Camera.Automatic": "オート",
+        "UI.Camera.Manual": "マニュアル",
 
         "Tools.Names.MultiTool": "マルチツール",
 

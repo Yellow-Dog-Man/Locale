@@ -1,6 +1,6 @@
 {
     "localeCode": "ru",
-    "authors": ["GhostZ36", "BrotiwkA", "Shadow Panther", "ENTERTHEWOLF", "ConfusedYeen", "Stanislavskii"],
+    "authors": ["GhostZ36", "BrotiwkA", "Shadow Panther", "ENTERTHEWOLF", "ConfusedYeen", "Stanislavskii", "maksim789456"],
     "messages": {
 
         "General.OK": "OK",
@@ -111,7 +111,9 @@
         "Inventory.OpenWorld": "Открыть мир",
         "Inventory.Equip": "Надеть",
         "Inventory.Delete": "Удалить",
+        "Inventory.CreateDirectory": "Создать папку",
         "Inventory.SaveHeld": "Сохранить из руки",
+        "Inventory.GetURL": "Получить URL",
         "Inventory.Inventories": "Инвентари",
         "Inventory.Share": "Поделиться",
         "Inventory.Unshare": "Не делиться",
@@ -165,6 +167,7 @@
         "World.LoadingFailed": "Ошибка загрузки",
         "World.LoadedAssets": "Загружены {assets} из {total_assets}",
         "World.Downloading": "Загружено {bytes} из {total_bytes}",
+        "World.Loaded": "Загружен",
 
         "World.Connection.EstablishingConnection": "Установка соединения",
         "World.Connection.RequestingJoin": "Запрос на подключение",
@@ -179,9 +182,9 @@
 
         "World.Error.AccessDenied": "Отказано в доступе",
         "World.Error.SecurityViolation": "Нарушение безопасности",
-        "World.Error.OnlyRegisteredUsers": "Только зарегистрированные пользователи могут присоединиться",
-        "World.Error.OnlyContacts": "Только контакты хоста сессии могут присоединиться",
-        "World.Error.OnlyContactsOfContacts": "Только контакты пользователей сессии могут присоединиться",
+        "World.Error.OnlyRegisteredUsers": "Только зарегистрированные пользователи могут подключиться",
+        "World.Error.OnlyContacts": "Только контакты хоста сессии могут подключиться",
+        "World.Error.OnlyContactsOfContacts": "Только контакты пользователей сессии могут подключиться",
         "World.Error.Private": "Эта сессия приватна",
         "World.Error.SessionEnded": "Сессия была завершена",
         "World.Error.UserLimitReached": "Сессия достигла лимита пользователей",
@@ -194,7 +197,7 @@
         "World.Error.InvalidAddress": "Ошибочный адрес",
         "World.Error.NoPort": "Не указан порт",
         "World.Error.IncompatibleVersion": "Несовместимая версия",
-        "World.Error.HostBlocked": "Вы заблокированы хостом",
+        "World.Error.HostBlocked": "Хост заблокирован",
         "World.Error.HostBlockedDetail": "Вы заблокировали хоста",
         "World.Error.WorldCrash": "Мир крашнулся",
         "World.Error.WorldCrashDetail" : "Фатальная ошибка при обновлении мира",
@@ -206,7 +209,7 @@
         "World.Config.MobileFriendly": "Подходит для мобильных",
         "World.Config.SaveOptionsHeader": "Настройки сохранения мира:",
         "World.Config.EditMode": "Режим редактирования:",
-        "World.Config.AccessLevelHeader": "Кто может присоединиться?",
+        "World.Config.AccessLevelHeader": "Кто может подключиться?",
         "World.Config.AutoKickAFK": "Авто-кик AFK пользователей:",
         "World.Config.AutoKickAFKMinutes": "Максимум AFK в минутах:",
         "World.Config.HideFromListing": "Не показывать в списке сессий",
@@ -216,7 +219,7 @@
         "World.Config.CleanupInterval": "Интервал очистки (секунды):",
 
         "World.Actions.StartSession": "Старт сессии",
-        "World.Actions.Join": "Присоединиться",
+        "World.Actions.Join": "Подключиться",
         "World.Actions.Focus": "Фокус",
         "World.Actions.Close": "Закрыть мир",
         "World.Actions.Leave": "Покинуть мир",
@@ -330,7 +333,7 @@
         "World.Filter.MyWorlds": "Мои миры",
         "World.Filter.SessionFiltering": "Фильтр сессии:",
         "World.Filter.MinimumUsers": "Минимум пользователей: <b>{n}</b>",
-
+        "World.Filter.MinimumContacts": "Минимум контактов: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Только серверные хосты",
         "World.Filter.MaxAccessLevel": "Максимальный уровень доступа:",
         "World.Filter.MinimumUptime": "Минимальное время работы:",
@@ -354,6 +357,7 @@
         "Tools.StreamAudio": "Стриминг аудио",
         "Tools.Setup2FA": "Настроить 2FA (двухфакторную аутентификацию)",
 
+        "Tools.StreamAudio.Dialog.Title" : "Создать аудио стрим",
         "Tools.StreamAudio.Start": "Начать трансляцию",
         "Tools.StreamAudio.Bitrate": "Битрейт: {bitrate} кбит/с",
         "Tools.StreamAudio.Title": "Аудио поток {username}",
@@ -362,59 +366,135 @@
         "Tools.StreamAudio.PlayForOwner.Off": "Проигрывать для владельца: Выкл",
         "Tools.StreamAudio.PlayForOwner.On": "Проигрывать для владельца: Вкл",
 
-        "Options.FreeformDash.On": "Свободное Меню: Вкл",
-        "Options.FreeformDash.Off": "Свободное Меню: Выкл",
+        "Options.FreeformDash.On": "Свободный Дэшборд: Вкл",
+        "Options.FreeformDash.Off": "Свободный Дэшборд: Выкл",
         "Options.SeatedMode.On": "Режим сидя: Вкл",
         "Options.SeatedMode.Off": "Режим сидя: Выкл",
         "Options.Nameplates.All": "Имена: Все",
         "Options.Nameplates.NonContacts": "Имена: Не-контакты",
         "Options.Nameplates.Hide": "Имена: Спрятать",
+        "Options.Nameplates.DefaultStyle": "Использовать таблички имён по умолчанию",
+        "Options.Nameplates.CustomStyle": "Разрешить кастомные таблички имён",
 
-        "Indicator.OnlineUsers": "Пользователи Онлайн: {num_registered} (~{num_total})",
-        "Indicator.ServerStatus": "<color=#fff>Статус Сервера:</color> {status, select, Good{Хорошо} Slow {Медл.} Down {Упал} NoInternet {Нет Интернета}} ({response_ms} мс)",
+        "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> {users,plural, one {пользователь} few {пользователя} other {пользователей}} онлайн",
+        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users,plural, one {пользователь} few {пользователя} other {пользователей}} в VR",
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users,plural, one {пользователь} few {пользователя} other {пользователей}} в экранном режиме",
 
-        "Indicator.Sync.AllSynced": "Все Синхронизировано",
-        "Indicator.Sync.SyncingItems": "Синхронизация {item_count,plural, one {# предмета} few {# предметов} many {# предметов}} <nobr>({item_percent} %)",
-        "Indicator.Sync.UploadingVariants": "Загрузка {variant_count,plural, one {# варианта ассетов} few {# вариантов ассетов} many {# вариантов ассетов}}",
-        "Indicator.Sync.SyncError": "Ошибка Синхронизации ! <size=50%>Проверьте лог для подробностей</size>",
-        "Indicator.Sync.StorageFull": "Нет Места! <size=50%>Невозможно синхронизировать</size>",
+        "Indicator.ServerStatus.Status": "Статус Облака",
+        "Indicator.ServerStatus.Good": "Работает",
+        "Indicator.ServerStatus.Slow": "Тормозит",
+        "Indicator.ServerStatus.Down": "Упало",
+        "Indicator.ServerStatus.NoInternet": "Нет интернета",
+
+        "Indicator.Sync.AllSynced": "Всё синхронизировано",
+        "Indicator.Sync.SyncingItems": "Синхронизация<br><size=61.8033%>{item_count,plural, one {# предмета} few {# предметов} many {# предметов}}</size>",
+        "Indicator.Sync.UploadingVariants": "Загрузка<br><size=61.8033%>вариантов ассетов</size>",
+        "Indicator.Sync.SyncError": "Ошибка Синхронизации <size=61.803%>Проверьте лог для подробностей</size>",
+        "Indicator.Sync.StorageFull": "Хранилище заполнено <size=61.803%>Невозможно синхронизировать</size>",
 
         "Indicator.Storage.StorageFull": "Нет места в хранилище",
         "Indicator.Storage.Usage": "{storage_used} из {storage_max}<br><size=61.803%>занято в хранилище</size>",
 
-        "Indicator.LiveHiddenMessage": "(Информация скрыта пока пользователь в статусе: live)",
+        "Indicator.LiveHiddenMessage": "(Информация скрыта во время прямой трансляции)",
 
         "Login.InvalidCredentials": "Неверные учетные данные",
+        "Login.InvalidCredentials.Description": "Перепроверьте ваши учетные данные и попробуйте еще раз или нажмите \"Забыли пароль?\"",
+
         "Login.InvalidLogin": "Неверные учетные данные",
+        "Login.InvalidLogin.Description": "Перепроверьте ваши учетные данные и попробуйте еще раз или нажмите \"Забыли пароль?\"",
 
         "Login.MalformedUID": "Некорректная информация об устройстве",
-        "Login.MissingUID": "Отсутствует информация об устройстве",
-        "Register.MissingUID": "Некорректная информация об устройстве",
-        "Register.MalformedUID": "Некорректная информация об устройстве",
+        "Login.MalformedUID.Description": "Попробуйте переустановить приложение или обратитесь в поддержку: {supportUrl}.",
 
-        "Login.MissingLogin": "Не указан логин",
+        "Login.MissingUID": "Отсутствует информация об устройстве",
+        "Login.MissingUID.Description": "Попробуйте переустановить приложение или обратитесь в поддержку: {supportUrl}.",
+
+        "Register.MissingUID": "Некорректная информация об устройстве",
+        "Register.MissingUID.Description": "Попробуйте переустановить приложение или обратитесь в поддержку: {supportUrl}.",
+
+        "Register.MalformedUID": "Некорректная информация об устройстве",
+        "Register.MalformedUID.Description": "Попробуйте переустановить приложение или обратитесь в поддержку: {supportUrl}.",
+
+        "Login.MissingLogin": "Не указаны учетные данные",
+        "Login.MissingLogin.Description": "Вы не забыли ввести учетные данные?",
+
         "Login.InvalidRecoveryCode": "Неверный код восстановления",
-        "Login.UnsupportedAuthentication": "Неподдерживаемый метод аутентификации",
+        "Login.InvalidRecoveryCode.Description": "Проверьте код восстановления и попробуйте еще раз.",
+
+        "Login.UnsupportedAuthentication": "Неподдерживаемый способ аутентификации",
+        "Login.UnsupportedAuthentication.Description": "Мы не поддерживаем этот способ аутентификации. Пожалуйста попробуйте другой.",
+
         "Login.EmailNotVerified": "Электронная почта не подтверждена",
+        "Login.EmailNotVerified.Description": "Ваша электронная почта не подтверждена, поищите письмо от нас в вашей почте, в том числе в папке спам.",
+
         "Login.AccountTempLocked": "Ваш аккаунт заблокирован.",
+        "Login.AccountTempLocked.Description": "Пожалуйста, свяжитесь с командой модерации: {moderationUrl}.",
+
         "Login.AccountBanned": "Ваш аккаунт забанен.",
+        "Login.AccountBanned.Description": "Пожалуйста, свяжитесь с командой модерации: {moderationUrl}.",
+
         "Login.DuplicateAccount": "Повторный аккаунт",
+        "Login.DuplicateAccount.Description": "Пожалуйста свяжитесь с командой поддержки: {supportUrl}.",
+
+        "Login.UnknownError": "Неизвестная ошибка",
+        "Login.UnknownError.Description": "Во время входа произошла неизвестная ошибка. Пожалуйста свяжитесь с командой поддержки: {supportUrl}.",
 
         "Register.MissingRequest": "Отсутвуют данные для регистрации",
+        "Register.MissingRequest.Description": "Мы не получили никаких данных для регистрации. Пожалуйста, введите их для регистрации.",
+
         "Register.InvalidEmail": "Некорректная электронная почта",
+        "Register.InvalidEmail.Description": "Адрес вашей электронной почты некорректен.",
+
         "Register.MissingUsername": "Отсутвует имя пользователя",
+        "Register.MissingUsername.Description": "Вы точно указали имя пользователя?",
+
         "Register.MissingEmail": "Отсутвует электронная почта",
+        "Register.MissingEmail.Description": "Вы точно указали адрес электронной почты?",
+
         "Register.UsernameTooLong": "Имя пользователя слишком длинное",
-        "Register.UsernameContainsAmpersand": "В имение пользователя не должны присутвовать символы: @",
+        "Register.UsernameTooLong.Description": "Мы принимаем имена пользователей длиной до 32 символов.",
+
+        "Register.UsernameContainsAmpersand": "В имени пользователя не должен присутвовать символ @",
+        "Register.UsernameContainsAmpersand.Description": "В вашем имени пользователя не должен присутвовать символ @.",
+
         "Register.UsernameStartsWithU": "Имя пользователя не должно начинаться с U-",
+        "Register.UsernameStartsWithU.Description": "Имя пользователя не должно начинаться с U-.",
+
         "Register.InvalidUsername": "Некорректное имя пользователя",
+        "Register.InvalidUsername.Description": "Ваше имя пользователя некорректно.",
+
         "Register.InvalidDateOfBirth": "Некорректная дата рождения",
-        "Register.UserContainsBlockedTerms": "Имя пользователя содержит запрещенные слова",
+        "Register.InvalidDateOfBirth.Description": "Ваша дата рождения некорректна.",
+
+        "Register.UsernameContainsBlockedTerms": "Имя пользователя содержит запрещенные слова",
+        "Register.UsernameContainsBlockedTerms.Description": "Ваше имя пользователя содержит запрещенные слова. Если вы считаете что это ошибка, обратитесь по адресу: {supportUrl}.",
+
         "Register.MissingPassword": "Отсутствует пароль",
+        "Register.MissingPassword.Description": "Вы не указали пароль.",
+
         "Register.InvalidPassword": "Некорректный пароль",
+        "Register.InvalidPassword.Description": "Ваш пароль некорректен. Он должен содержать как минимум 8 символов и содержать как минимум 1 цифру, 1 заглавную букву 1 строчную букву.",
+
         "Register.EmailAlreadyRegistered": "Электронная почта уже используется",
+        "Register.EmailAlreadyRegistered.Description": "Уже существует аккаунт, использующий этот адрес электронной почты. Если вы забыли пароль, вы можете нажать \"Забыли пароль?\". Также вы можете обратиться в поддержку по адресу: {supportUrl}.",
+
         "Register.UsernameAlreadyRegistered": "Имя пользователя уже используется",
+        "Register.UsernameAlreadyRegistered.Description": "Уже существует аккаунт, использующий это имя пользователя. Если вы забыли пароль, вы можете нажать \"Забыли пароль?\". Также вы можете обратиться в поддержку по адресу: {supportUrl}.",
+
         "Register.ErrorCheckingUserId": "Ошибка проверки UserID",
+        "Register.ErrorCheckingUserId.Description": "Пожалуйста, свяжитесь с поддержкой по адресу: {supportUrl}.",
+
+        "Recovery.MissingEmail" : "Отсутвует Email",
+        "Recovery.MissingEmail.Description" : "Вы указали ваш email?",
+
+        "Recovery.IncorrectEmail" : "Некорректный Email",
+        "Recovery.IncorrectEmail.Description" : "Вы ввели некорректный email для восстановления пароля. Пожалуйста, проверьте информацию и попробуйте еще раз.",
+
+        "Recovery.NoPasswordSetup" : "Пароль не установлен",
+        "Recovery.NoPasswordSetup.Description" : "Пожалуйста свяжитесь с командой поддержки: {supportUrl}.",
+
+        "Register.UnknownError": "Неизвестная ошибка",
+        "Register.UnknownError.Description": "Во время регистрации произошла неизвестная ошибка. Пожалуйста свяжитесь с командой поддержки: {supportUrl}.",
 
         "Account.Login": "Войти",
         "Account.Logout": "Выйти",
@@ -436,8 +516,7 @@
         "Account.RecoverPassword": "Забыли пароль?",
         "Account.LiveEmailWarning": "<color=#f00>ПРЕДУПРЕЖДЕНИЕ:</color> live.com, hotmail.com, outlook.com и другие почтовые службы Microsoft могут вызвать задержку письма с подтверждением до 1-2 дней.",
         "Account.PasswordRules": "(Как минимум 8 символов, в том числе хотя бы 1 цифра, 1 заглавная и 1 строчная буквы)",
-        "Account.AgeConfirm": "Мне 13 (или больше) лет",
-        "Account.LostPassword": "Забыт пароль",
+        "Account.LostPassword": "Забыли пароль",
         "Account.SendRecoveryCode": "Отправить код восстановления",
         "Account.ResetPasswordHeader": "Сбросить ваш пароль",
         "Account.ResetPasswordInstructions": "Код восстановления был отправлен на ваш email. Скопируйте его в поле ниже:",
@@ -501,6 +580,7 @@
         "Profile.Status.Busy": "Занят",
         "Profile.Status.Invisible": "Невидимый",
         "Profile.Status.Offline": "Оффлайн",
+        "Profile.Status.Headless": "Сервер",
 
         "Session.Tab.Settings": "Настройки",
         "Session.Tab.Users": "Пользователи",
@@ -513,6 +593,12 @@
         "Session.Permission.PermissionOverrideCount": "Переопределения разрешений: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Отменить пользовательские переопределения",
 
+        "Session.JoinVerifier.EnableHeader" : "Включить Custom Join Verifier?",
+        "Session.JoinVerifier.EnableText" : "<color=red>ВНИМАНИЕ:</color> Вы пытаетесь включить кастомную проверку входа в сессию, которая является частью этого мира. Перед тем как это сделать, убедитесь что вы доверяете создателю этого мира, так как кастомная проверка может обойти стандартные правила доступа к сессии и разрешить или запретить доступ пользователям согласно своим собственным правилам.",
+        "Session.JoinVerifier.Label" : "Использовать Custom Join Verifier: {name}",
+        "Session.JoinVerifier.ComponentWarning" : "<color=red>ВНИМАНИЕ:</color> Сейчас нет механизма, который позволил бы запретить изменение логики проверки после включения. Если Вы беспокоитесь о вмешательстве в скрипт ProtoFlux используемый для верификации, НЕ ИСПОЛЬЗУЙТЕ эту механику и НЕ ВКЛЮЧАЙТЕ её в своих мирах.",
+        "Session.JoinVerifier.SetCustomVerifier" : "Установить как кастомную проверку запросов на вход",
+
         "Permissions.NotAllowedToSpawn": "Вам запрещено создавать здесь предметы.",
         "Permissions.NotAllowedToSave": "Вам запрещено сохранять объекты из этого мира.",
         "Permissions.NotAllowedToSwapAvatar": "Вам запрещено использовать здесь свой аватар.",
@@ -522,7 +608,7 @@
         "User.Actions.Jump": "Прыгнуть к",
         "User.Actions.Respawn": "Респаун",
         "User.Actions.Kick": "Кик",
-        "User.Actions.Ban": "Блок",
+        "User.Actions.Ban": "Бан",
 
         "Contacts.Add": "Добавить Контакт",
         "Contacts.Remove": "Удалить Контакт",
@@ -530,33 +616,40 @@
         "Contacts.AcceptRequest": "Принять Запрос",
         "Contacts.IgnoreRequest": "Игнорировать Запрос",
         "Contacts.Invite": "Пригласить сюда",
+        "Contacts.RevokeInvite": "Отозвать приглашение",
         "Contacts.BanFromAllSessions": "Заблокировать в созданных мной сессиях",
         "Contacts.UnbanFromAllSessions": "Разблокировать в созданных мной сессиях",
         "Contacts.BanFromCurrentWorld": "Заблокировать в этом мире",
         "Contacts.UnbanFromCurrentWorld": "Разблокировать в этом мире",
         "Contacts.RecordingVoiceMessage": "Записывает голосовое сообщение...",
+        "Contacts.Unblocked" : "Разблокирован",
+        "Contacts.AvatarBlock" : "Заблокировать аватар",
+        "Contacts.MutualBlock" : "Взаимная блокировка",
+        "Contacts.SelfAccount": "Мой аккаунт",
+        "Contacts.SearchPrompt": "Искать в контактах...",
+        "Contacts.WriteMessage": "Напишите сообщение...",
 
         "Contacts.InSession": "В {name}",
         "Contacts.InPrivate": "В приватном мире",
-
+        "Contacts.InContactsOnly": "В мире только для контактов",
         "Contacts.InHidden": "В скрытом мире",
-
+        "Contacts.InHiddenContactsOnly": "В спрятанном мире только для контактов хоста",
+        "Contacts.InHiddenContactsPlus": "В спрятанном мире только для контактов гостей",
         "Contacts.InLAN": "В мире в локальной сети",
         "Contacts.UsingDifferentVersion": "Использует версию {version}",
         "Contacts.RequestSent": "Запрос отправлен",
-        "Contacts.RequestReceived": "Запрос получен",
+        "Contacts.RequestReceived": "Запрос контакта",
         "Contacts.RequestIgnored": "Игнорирован",
         "Contacts.Blocked": "Заблокирован",
         "Contacts.SearchResult": "Результат поиска",
         "Contacts.Bot": "Бот",
+        "Contacts.Migrated": "Контакт не мигрировал",
 
         "Notifications.IsOnline": "Сейчас Онлайн",
         "Notifications.IsOnlineOnDifferentVersion": "Сейчас Онлайн <size=75%>(использует версию: {version})</size>",
-        "Notifications.ReceivedContactRequest": "Отправлен запрос на добавление",
-        "Notifications.ReceivedInvite": "Приглашает вас в :",
+        "Notifications.ReceivedContactRequest": "Прислал запрос на добавление в контакты",
+        "Notifications.ReceivedInvite": "Приглашает вас в:",
         "Notifications.ReceivedItem": "Отправил(-ла) вам предмет:",
-        "Notifications.ReceivedTip": "Получил(-ла) чаевые {amount} {token}",
-        "Notifications.SentTip": "Отправил чаевые {amount} {token}",
         "Notifications.VoiceMessage": "Отправил(-ла) голосовое сообщение",
 
         "Undo.SetField": "Установка {field_name} в {value}",
@@ -593,6 +686,10 @@
         "Undo.ExtractMaterialsFromHierarchy": "Извлечение материалов из иерархии",
         "Undo.BatchConvertMaterials": "Пакетное конвертирование материалов",
 
+        "Tooltips.Brush.ChangeColor" : "Изменить цвет",
+        "Tooltips.Brush.IncrementSize" : "Увеличить размер",
+        "Tooltips.Brush.DecrementSize" : "Уменьшить размер",
+
         "Tooltips.Dev.CreateNew": "Создание нового...",
         "Tooltips.Dev.Selection": "Выбор: {mode}",
         "Tooltips.Dev.DevMode.Off": "Режим разработчика: Выкл",
@@ -602,7 +699,21 @@
         "Tooltips.Dev.DestroySelected": "Удалить выделенные",
         "Tooltips.Dev.ConfirmDestroySelected": "ТОЧНО удалить выделенное",
 
-        "Tooltip.Color.Picker": "Инстр: Пипетка",
+        "Tooltips.Dev.GizmoOptions" : "Настройки гизмо",
+        "Tooltips.Dev.SelectParent" : "Выбрать родителя",
+        "Tooltips.Dev.LocalSpace" : "Локальное пространство",
+        "Tooltips.Dev.GlobalSpace" : "Глобальное пространство",
+        "Tooltips.Dev.Translation" : "Перемещение",
+        "Tooltips.Dev.Rotation" : "Вращение",
+        "Tooltips.Dev.Scale" : "Масштаб",
+
+        "Tooltips.Dev.Selection.Single": "Одиночное",
+        "Tooltips.Dev.Selection.Multi": "Множественное",
+
+        "Tooltips.Dev.Interaction.Tip": "Инструмент",
+        "Tooltips.Dev.Interaction.Projection": "Проекция",
+
+        "Tooltip.Color.Picker": "Пипетка",
 
         "Tooltip.GrabbableSetter.Scalable": "Сделать масштабируемым",
         "Tooltip.GrabbableSetter.NonScalable": "Сделать не-масштабируемым",
@@ -618,6 +729,10 @@
         "Tooltip.Light.Point": "Точечный",
         "Tooltip.Light.Spot": "Конусный",
         "Tooltip.Light.Sun": "Солнце",
+
+        "Tooltip.Light.Shadows.None": "Нет теней",
+        "Tooltip.Light.Shadows.Hard": "Четкие тени",
+        "Tooltip.Light.Shadows.Soft": "Мягкие тени",
 
         "Tooltip.MeshVisibility.KeepShadow": "Оставить тени",
         "Tooltip.MeshVisibility.ShadowOff": "Отключить тени",
@@ -640,6 +755,8 @@
 
         "Tooltip.Mesh.Edit": "Редактировать меш",
 
+        "Tooltip.Cartridge.Eject": "Извлечь сферу",
+
         "Tooltip.Microphone.Format.WAV": "WAV",
         "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
         "Tooltip.Microphone.Format.FLAC": "FLAC",
@@ -647,6 +764,45 @@
         "Tooltip.Microphone.ModePress": "Нажмите чтобы начать/закончить запись",
         "Tooltip.Microphone.SourceRaw": "Сырой",
         "Tooltip.Microphone.SourceFiltered": "Фильтрованный и нормализованный",
+
+        "Tooltip.ProtoFlux.Drive" : "Drive",
+        "Tooltip.ProtoFlux.Source" : "Source",
+        "Tooltip.ProtoFlux.Reference" : "Reference",
+        "Tooltip.ProtoFlux.Write" : "Write",
+        "Tooltip.ProtoFlux.Proxy" : "Proxy",
+        "Tooltip.ProtoFlux.CreateLocal" : "Создать Local",
+        "Tooltip.ProtoFlux.CreateStore" : "Создать Store",
+        "Tooltip.ProtoFlux.CreateDataModelStore" : "Создать Data Model Store",
+        "Tooltip.ProtoFlux.Overview" : "Переключить режим обзора",
+        "Tooltip.ProtoFlux.NodeBrowser" : "Обозреватель нод",
+        "Tooltip.ProtoFlux.PackInPlace" : "Упаковать в то же место",
+        "Tooltip.ProtoFlux.PackInto" : "Упаковать в <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.Unpack" : "Распаковать <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.ExplicitCast" : "Явное приведение\n<size=50%>(<color=red>Внимание:</color> потенциальная потеря данных)</size>",
+
+        "Tooltip.Meter.Mode.Ray" : "Режим: Луч",
+        "Tooltip.Meter.Mode.Perpendicular" : "Режим: Перпендикуляр",
+        "Tooltip.Meter.Mode.Drag" : "Режим: Рулетка",
+
+        "Tooltip.Meter.Points.Two" : "Две точки",
+        "Tooltip.Meter.Points.Multiple" : "Много точек",
+
+        "Tooltip.Meter.ObjectSpace" : "Измерение в пространстве объекта",
+        "Tooltip.Meter.WorldSpace" : "Измерение в пространстве мира",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "Режим: Запечь меши",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "Режим: Запечь skinned meshes",
+        "Tooltip.Glue.Mode.ParentObjects" : "Режим: Соединить иерархию",
+
+        "Tooltip.RigTransfer.ClearSource" : "Очистить источник",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "Единственный экземпляр: Да",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "Единственный экземпляр: Нет",
+        "Tooltip.ComponentClone.ClearTemplate" : "Очистить шаблон",
+
+        "ProtoFlux.UI.Call" : "Вызов",
+        "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> вызов",
+        "ProtoFlux.UI.NodeBrowser.Title" : "Ноды ProtoFlux",
 
         "CreateNew.Back": "<<< <i>Назад</i>",
         "CreateNew.EmptyObject": "Пустой объект",
@@ -745,7 +901,7 @@
         "Importer.Image.Prompt": "Что вы импортируете?",
         "Importer.Image.Regular": "Изображение / Текстуру",
         "Importer.Image.Screenshot": "Фото из {appName} <size=50%>(снятое здась)</size>",
-
+        "Importer.Image.PixelArt" : "Пиксель-арт",
         "Importer.Image.360": "360 фото / скайбокс",
         "Importer.Image.StereoPhoto": "Стерео Фото",
         "Importer.Image.Stereo360": "Стерео 360 Фото",
@@ -828,17 +984,27 @@
         "Importer.Video.Title": "Импорт Видео",
         "Importer.Video.Prompt": "Что вы импортируете?",
         "Importer.Video.Regular": "Видео",
-        "Importer.Video.360": "360 Видео",
+        "Importer.Video.360": "360° Видео",
         "Importer.Video.Stereo": "Стерео Видео",
-        "Importer.Video.Stereo360": "Стерео 360 Видео",
-        "Importer.Video.Depth": "Видео с Глубиной",
-        "Importer.Video.180": "180 Видео",
-        "Importer.Video.Stereo180": "Стерео 180 Видео",
-        "Importer.Video.Depth.Prompt": "Пресет Глубины",
-        "Importer.Video.Depth.Default": "По Умолчанию",
+        "Importer.Video.Stereo360": "Стерео 360° Видео",
+        "Importer.Video.Depth": "Видео с глубиной",
+        "Importer.Video.180": "180° Видео",
+        "Importer.Video.Stereo180": "Стерео 180° Видео",
+        "Importer.Video.Depth.Prompt": "Пресет глубины",
+        "Importer.Video.Depth.Default": "По умолчанию",
+
+        "Importer.Slices.Title": "Слайсы картинки как объемная текстура",
+        "Importer.Slices.TitleGrayscale": "Слайсы картинки как объемная текстура (ч/б)",
+        "Importer.Slices.Description": "Превращает все картинки в папке в объемную (volumetric) текстуру",
+
+        "Exporter.Title": "Панель экспорта",
+        "Exporter.FileName": "Имя файла:",
+        "Exporter.ExportAs": "Экспортировать как:",
+        "Exporter.Export": "Экспорт",
+        "Exporter.Exporting": "Идет экспорт...",
 
         "NewWorld.Title": "Новый мир",
-
+        "NewWorld.SessionTitle": "Новая сессия",
         "NewWorld.Template": "Шаблон мира:",
         "NewWorld.CustomPreset": "Кастомная предустановка:",
         "NewWorld.SessionSettings": "Настройки сессии:",
@@ -857,7 +1023,7 @@
         "FullBody.JustCalibrateAvatar": "Просто откалибруйте мой аватар",
         "FullBody.JustCalibrateAvatarDescription": "Пропустить full body калибровку и просто откалибровать аватар.",
         "FullBody.SkipAndAdjustAvatar": "Пропустить и подогнать аватар",
-        "FullBody.CalibrateInstructions": "Сведите себя с красным оверлеем тела в вашем игровом пространстве и нажмите оба триггера на контроллерах для подтверждения. Убедитесь что ваши реальные ноги и таз совпадают с виртуальным телом максимально точно насколько это возможно.",
+        "FullBody.CalibrateInstructions": "Сведите себя с красным оверлеем тела в вашем игровом пространстве и нажмите оба триггера на контроллерах для подтверждения. Убедитесь что ваши реальные ноги и таз совпадают с виртуальным телом настолько точно насколько это возможно.",
 
         "FullBody.BeforeCalibrationInstructions": "Убедитесь что ваши трекеры работают и ваш рост установлен правильно",
         "FullBody.CalibratingPoseInstructions": "Сведите себя с референсом и нажмите оба триггера на контроллерах, чтобы подтвердить положение.",
@@ -884,9 +1050,9 @@
         "FullBody.AvatarHeightCompensationInstructions": "Если аватар слишком высок (сгорбившийся) или слишком низок для вас, измените компенсацию роста, чтобы он более точно совпадал с вашим ростом.",
         "FullBody.AvatarHeightCompensation": "Компенсация роста аватара: {n, number, percent}",
         "FullBody.ResetAvatarHeightCompensation": "Сброс компенсации роста",
-        "FullBody.AvatarSaveWarning": "Не забудьте СОХРАНИТЬ аватар после завершения калибровки!",
+        "FullBody.AvatarSaveWarning": "Не забудьте сохранить аватар после завершения калибровки!",
         "FullBody.FinishAvatarCalibration": "Завершить калибровку аватара",
-        "FullBody.CalibrationFinishedInstructions": "Если вы удовлетворены калибровкой аватара, вы можете сохранить его и закрыть инструмент калибровки.",
+        "FullBody.CalibrationFinishedInstructions": "Если вы удовлетворены результатом калибровки аватара, вы можете сохранить его и закрыть инструмент калибровки.",
         "FullBody.CloseCalibrator": "Закрыть калибровщик",
         "FullBody.CalibrationRedoInstructions": "Если калибровка неверна или вы хотите откалибровать другие аватары - вы можете сделать это в этом окне. Также вы можете снова открыть калибровщик в любое время в будущем для других корректировок.\nЕсли вы только изменили трекеры, вам не нужно калибровать ваши аватары снова.",
         "FullBody.ReturnToTrackerCalibration": "Вернуться к калибровке трекеров",
@@ -910,7 +1076,7 @@
         "CameraControl.MirroringOffWarning": "ОТОБРАЖЕНИЕ ОТКЛ.",
         "CameraControl.MirrorToDisplay": "Отобразить на монитор",
         "CameraControl.TakePhoto": "Фото",
-        "CameraControl.Take360Photo": "360 Фото",
+        "CameraControl.Take360Photo": "360° Фото",
 
         "CameraControl.Mode.SmoothPOV": "Сглаженный вид от 1-го лица",
         "CameraControl.Mode.ThirdPerson": "От 3-го лица",
@@ -934,8 +1100,8 @@
         "CameraControl.OpenCloseUsers": "Пользователи",
         "CameraControl.CreateCameraAnchor": "Создать якорь камеры",
 
-        "CameraControl.Anchors.Interpolate": "Интерполировать между анкерами",
-        "CameraControl.Anchors.InterpolationSpeed": "Скорость интерполяции анкеров:",
+        "CameraControl.Anchors.Interpolate": "Интерполировать между якорями",
+        "CameraControl.Anchors.InterpolationSpeed": "Скорость интерполяции якорей:",
         "CameraControl.Anchors.LinearInterpolation": "Линейная интерполяция",
         "CameraControl.Anchors.NoAnchors": "В этом мире нет якорей камеры",
 
@@ -982,10 +1148,10 @@
         "CameraControl.OBS.Bitrate": "Битрейт: {n}/сек",
         "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "Пропущенные кадры: {n}",
-
+        "CameraControl.OBS.Idle": "IDLE",
         "CameraControl.OBS.Live": "LIVE",
         "CameraControl.OBS.Recording": "REC",
-        "CameraControl.OBS.OpenInstallerReason": "С этой страницы можно будет скачать плагин websocket для OBS",
+        "CameraControl.OBS.OpenInstallerReason": "С этой страницы можно скачать плагин websocket для OBS",
 
         "CameraControl.OBS.Streaming.Start": "Начать трансляцию",
         "CameraControl.OBS.Streaming.Starting": "Запуск трансляции...",
@@ -1005,6 +1171,7 @@
         "Settings.HideAllTutorials": "Убрать все обучения",
         "Settings.ShowInteractionHints": "Показать подсказки взаимодействия",
         "Settings.PrimaryController": "Основной контроллер",
+        "Settings.Hotswitching": "Автоматическое переключение VR/Screen",
         "Settings.AllowStrafing": "Включить стрейф",
         "Settings.UseHeadDirectionForMovement": "Использовать направление головы для движения",
         "Settings.SmoothTurn": "Плавный поворот",
@@ -1028,8 +1195,8 @@
         "Settings.DoNotSendReadStatus": "Не отправлять сообщение о прочтении сразу",
         "Settings.MaxConcurrentAssetTransfers": "Максимальное количество передач ресурсов",
         "Settings.AutosaveScreenshotPath": "Путь авто-сохранения скриншотов",
-
-        "Settings.DebugInputBinding": "Отладка привязки ввода",
+        "Settings.AutosaveAllScreenshots": "Авто-сохранение ВСЕХ скриншотов в мире",
+        "Settings.DebugInputBinding": "Отладка ввода",
 
         "Settings.LaserSmoothing.Header": "Сглаживание лазера",
         "Settings.LaserSmoothing.Speed": "Скорость сглаживания",
@@ -1042,30 +1209,31 @@
         "Settings.LaserSmoothing.Reset": "Сброс настроек лазера",
 
         "Settings.Audio.Header": "Аудио",
-
+        "Settings.Audio.Input.Title" : "Устройства аудио ввода",
         "Settings.Audio.Master": "Общая громкость: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Звуковые эффекты: {n,number,percent}",
         "Settings.Audio.Multimedia": "Мультимедиа: {n,number,percent}",
-        "Settings.Audio.Voice": "Голосовой Чат: {n,number,percent}",
+        "Settings.Audio.Voice": "Голос: {n,number,percent}",
         "Settings.Audio.UI": "Интерфейс: {n,number,percent}",
-        "Settings.Audio.DisableVoiceNormalization": "Отключить Нормализацию Голосового Чата",
+        "Settings.Audio.DisableVoiceNormalization": "Отключить нормализацию голоса",
         "Settings.Audio.NoiseGateThreshold": "Порог шумодава: {n}",
         "Settings.Audio.NormzliationThreshold": "Порог нормализации: {n}",
         "Settings.Audio.NoiseSupression": "Фильтр подавления шума (RNNoise)",
         "Settings.Audio.WhisperVoiceVolume": "Громкость голоса за пределами зоны шёпота: {n,number,percent}",
-        "Settings.Audio.InputDevice": "Устройство аудио захвата:",
+        "Settings.Audio.InputDevice": "Устройство аудио ввода:",
         "Settings.Audio.OutputDevice": "Устройство аудио вывода:",
-        "Settings.Audio.SelectInputDevice": "Выберите устройство аудио захвата",
+        "Settings.Audio.SelectInputDevice": "Выберите устройство аудио ввода",
         "Settings.Audio.SelectOutputDevice": "Выберите устройство аудио вывода",
         "Settings.Audio.TestInput": "Протестируйте ваш звук:",
         "Settings.Audio.TestDescription": "Мы проиграем звук с выбранного устройства обратно к Вам чтобы проверить, что всё работает.",
         "Settings.Audio.StartTest": "Прослушать устройство\n<size=50%>(проверить микрофон / аудио вход)</size>",
         "Settings.Audio.StopTest": "Остановить проверку",
         "Settings.Audio.Monitoring": "Монитор аудио входа:",
-        "Settings.Audio.SystemDefaultOutput": "Использовать системные настройки",
+        "Settings.Audio.SystemDefaultOutput": "Использовать системное устройство по умолчанию",
 
-        "Settings.Graphics.DesktopFOV": "Поле зрения в экранном режиме",
+        "Settings.Graphics.DesktopFOV": "Поле зрения (FOV) в экранном режиме",
 
+        "Settings.Locale.Title" : "Язык интерфейса",
         "Settings.Locale.ChangeLanguage": "Сменить язык",
         "Settings.Locale.SelectLanguageHeader": "Выберите ваш язык:",
         "Settings.Locale.DefaultLanguage": "Системный по-умолчанию",
@@ -1078,22 +1246,22 @@
         "Settings.FullBody.HipsPositionSmoothing": "Сглаживание Позиции Бёдер",
         "Settings.FullBody.HipsRotationSmoothing": "Сглаживание Поворота Бёдер",
 
-        "Settings.Dash.Header": "Настройки Меню",
-        "Settings.Dash.Curvature": "Изгиб меню",
-        "Settings.Dash.OpenCloseSpeed": "Скорость Открытия/Закрытия",
+        "Settings.Dash.Header": "Настройки Дэшборда",
+        "Settings.Dash.Curvature": "Изгиб",
+        "Settings.Dash.OpenCloseSpeed": "Скорость открытия/закрытия",
 
         "Settings.LeapMotion.Name": "Leap Motion",
-        "Settings.LeapMotion.Enabled": "Leap Трекинг Вкл",
-        "Settings.LeapMotion.HorizontalOffset": "Горизонт. Смещение",
-        "Settings.LeapMotion.VerticalOffset": "Вертик. Смещение",
-        "Settings.LeapMotion.ForwardOffset": "Продольное Смещение",
-        "Settings.LeapMotion.SnapDistance": "Дистанция захвата рук",
-        "Settings.LeapMotion.UseFingersWhenSnapped": "Использовать Трекинг Пальцев когда захвачены руки",
+        "Settings.LeapMotion.Enabled": "Leap трекинг включен",
+        "Settings.LeapMotion.HorizontalOffset": "Горизонтальное смещение",
+        "Settings.LeapMotion.VerticalOffset": "Вертикальное смещение",
+        "Settings.LeapMotion.ForwardOffset": "Продольное смещение",
+        "Settings.LeapMotion.SnapDistance": "Дистанция захвата трекинга рук",
+        "Settings.LeapMotion.UseFingersWhenSnapped": "Использовать трекинг пальцев когда руки в области захвата",
 
-        "Settings.ViveHandTracking.Name": "Vive Трекинг Пальцев",
-        "Settings.ViveHandTracking.Enabled": "Vive Трекинг Руки Вкл",
-        "Settings.ViveHandTracking.SnapDistance": "Vive-Дистанция захвата трекинга рук",
-        "Settings.ViveHandTracking.UseFingersWhenSnapped": "Использовать Vive-Трекинг Пальцев когда захвачены руки",
+        "Settings.ViveHandTracking.Name": "Vive трекинг пальцев",
+        "Settings.ViveHandTracking.Enabled": "Vive Трекинг рук включен",
+        "Settings.ViveHandTracking.SnapDistance": "Vive дистанция захвата трекинга рук",
+        "Settings.ViveHandTracking.UseFingersWhenSnapped": "Использовать Vive трекинг пальцев когда руки в области захвата",
 
         "Settings.WindowsIntegration": "Интеграция с Windows",
         "Settings.LinuxIntegration": "Интеграция с Linux",
@@ -1101,18 +1269,27 @@
         "Settings.System.KeepOriginalScreenshotFormat": "Оставить оригинальный формат скриншота",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "Когда включена эта настройка, скриншоты при сохранении в Документы не будут конвертированы в формат JPG",
 
-        "Security.Hyperlink.Warning": "<b><size=125%>ПРЕДУПРЕЖДЕНИЕ: Исходящая гиперссылка </size></b>\nВы нажали на гиперссылку в мире. Вы хотите её открыть? Гиперссылка откроется в вашем браузере на рабочем столе.",
+        "Security.Hyperlink.Title" : "Внешняя ссылка",
+        "Security.Hyperlink.Warning": "<b><size=125%>ПРЕДУПРЕЖДЕНИЕ: Внешняя гиперссылка </size></b>\nВы нажали на гиперссылку в мире. Вы хотите её открыть? Гиперссылка откроется в вашем браузере на рабочем столе.",
         "Security.Hyperlink.Open": "Открыть",
         "Security.Hyperlink.Cancel": "Отмена",
 
-        "Security.HostAccess.Title": "Доступ к Хосту",
-        "Security.HostAccess.Warning": "<b><size=125%>ПРЕДУПРЕЖДЕНИЕ: Мир пытается открыть соединение со сторонним хостом</size></b>\nПринятие доступа может позволить третьей стороне получить некоторую персональную информацию, как например IP и/или ваше географическое положение.",
+        "Security.HostAccess.Title": "Доступ к хосту",
+        "Security.HostAccess.Warning": "<b><size=125%>ПРЕДУПРЕЖДЕНИЕ: Мир пытается открыть соединение со сторонним хостом</size></b>\nРазрешение доступа может позволить третьей стороне получить некоторую персональную информацию, такую как IP и ваше географическое положение.",
         "Security.HostAccess.TargetHost": "Целевой Хост: <b>{host}</b>",
         "Security.HostAccess.Reason": "Причина: {reason}",
         "Security.HostAccess.NoReason": "<i>Нет приведённой причины</i>",
         "Security.HostAccess.Allow": "Принять",
         "Security.HostAccess.Deny": "Отклонить",
 
+        "ComponentSelector.Back" : "< (назад)",
+        "ComponentSelector.Title" : "Компоненты",
+        "ComponentSelector.CreateCustomType" : "Создать компонент кастомного типа",
+        "ComponentSelector.CommonGenericTypes" : "Распространенные базовые типы",
+        "ComponentSelector.CustomGenericArguments" : "Кастомные аргументы базового типа:",
+        "ComponentSelector.InvalidType" : "Некорректный тип",
+
+        "Inspector.Title" : "Инспектор сцены",
         "Inspector.Slot.AttachComponent": "Добавить компонент",
 
         "Inspector.Slot.Axis.X": "X: <b>+</b>Вправо <b>-</b>Влево",
@@ -1136,13 +1313,13 @@
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Локального пространства пользователя",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Установка {name} потомком локального пространства пользователя",
 
-        "Inspector.Mesh.StatsHeader": "Статистика Меша",
-        "Inspector.Mesh.VertexCount": "Кол-во Вершин: {n}",
-        "Inspector.Mesh.TriangleCount": "Кол-во Треугольников: {n}",
-        "Inspector.Mesh.PointCount": "Кол-во Точек: {n}",
-        "Inspector.Mesh.SubmeshCount": "Кол-во Под-мешей: {n}",
-        "Inspector.Mesh.BoneCount": "Кол-во Костей: {n}",
-        "Inspector.Mesh.BlendshapeCount": "Кол-во Шейп-Ключей: {n}",
+        "Inspector.Mesh.StatsHeader": "Статистика меша",
+        "Inspector.Mesh.VertexCount": "Кол-во вершин: {n}",
+        "Inspector.Mesh.TriangleCount": "Кол-во треугольников: {n}",
+        "Inspector.Mesh.PointCount": "Кол-во точек: {n}",
+        "Inspector.Mesh.SubmeshCount": "Кол-во под-мешей: {n}",
+        "Inspector.Mesh.BoneCount": "Кол-во костей: {n}",
+        "Inspector.Mesh.BlendshapeCount": "Кол-во blendshape'ов: {n}",
         "Inspector.Mesh.ChannelStats": "Нормали: {normals}, Тангенты: {tangents}, Цвета: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh": "Запечь меш",
@@ -1152,9 +1329,9 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "Перерасчитать нормали (сглаж. шейдинг)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "Перерасчитать тангенты (Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "Перерасчитать тангенты (simple)",
-        "Inspector.Mesh.RecalculateBlendshapeNormals": "Перерасчитать нормали шейп-ключей",
-        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Перерасчитать нормали шейп-ключей (сглаж. шейдинг)",
-        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Перерасчитать тангенты шейп-ключей (Mikktspace)",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Перерасчитать нормали blendshape'ов",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Перерасчитать нормали blendshape'ов (сглаж. шейдинг)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Перерасчитать тангенты blendshape'ов (Mikktspace)",
         "Inspector.Mesh.FlipNormals": "Инвертировать нормали",
         "Inspector.Mesh.ReverseWinding": "Реверс намотки (наизнанку)",
         "Inspector.Mesh.MakeDualSided": "Сделать двухсторонним",
@@ -1162,13 +1339,13 @@
         "Inspector.Mesh.ConvertToConvexHull": "Конвертировать в Convex Hull",
         "Inspector.Mesh.ConvertToPointCloud": "Конвертировать в Point Cloud",
         "Inspector.Mesh.MergeDoubles": "Соединить дубли",
-        "Inspector.Mesh.StripEmptyBlendshapes": "Снять пустые шейп-ключи",
-        "Inspector.Mesh.StripBlendshapeNormals": "Снять нормали шейп-ключей",
-        "Inspector.Mesh.StripBlendshapeTangents": "Снять тангенты шейп-ключей",
-        "Inspector.Mesh.MergeBlendshapes": "Объединить шейп-ключи",
+        "Inspector.Mesh.StripEmptyBlendshapes": "Убрать пустые blendshape'ы",
+        "Inspector.Mesh.StripBlendshapeNormals": "Убрать нормали blendshape'ов",
+        "Inspector.Mesh.StripBlendshapeTangents": "Убрать тангенты blendshape'ов",
+        "Inspector.Mesh.MergeBlendshapes": "Объединить blendshape'ы",
 
-        "Inspector.Mesh.GetBoneList": "Получить Список Костей",
-        "Inspector.Mesh.GetBoneData": "Получить Данные Костей",
+        "Inspector.Mesh.GetBoneList": "Получить список костей",
+        "Inspector.Mesh.GetBoneData": "Получить данные костей",
 
         "Inspector.Mesh.TrimVertexBoneWeightsTo": "Урезать Vertex Bone Weights до:",
         "Inspector.Mesh.BoneTrimCount": "{n,plural, one {# Кость} few {# Кости} many {# Костей}}",
@@ -1212,7 +1389,7 @@
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Отделить части меша, не затронутые blendshape'ами",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Убрать пустые blendshape'ы",
         "Inspector.SkinnedMesh.StripBlendshapesResult": "Готово! Убрали: {n,plural, one {# blendshape} few {# blendshape'а} many {# blendshape'ов}}",
-        "Inspector.SkinnedMesh.StripEmptyBones": "Убрать Пустые Кости",
+        "Inspector.SkinnedMesh.StripEmptyBones": "Убрать пустые кости",
         "Inspector.SkinnedMesh.StripBonesResult": "Готово! Убрано: {n,plural, one {# кость} few {# кости} many {# костей}}",
         "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes": "Запечь неподвижные blendshape'ы",
         "Inspector.SkinnedMesh.BakeBlendShapeResult": "Запечено blendshape'ов: {n}",
@@ -1255,12 +1432,13 @@
         "Inspector.Texture.AlphaToMask": "Альфа в Маску",
         "Inspector.Texture.RemoveAlpha": "Удалить Альфа",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Конверт. в градации серого (усреднить)",
-
-        "Inspector.Texture.SwapRG": "Поменять R и G",
-        "Inspector.Texture.SwapRB": "Поменять R и B",
-
-        "Inspector.Texture.SwapGB": "Поменять G и B",
-
+        "Inspector.Texture.ConvertToGrayscaleLuminance": "Конверт. в градации серого (освещенность)",
+        "Inspector.Texture.SwapRG": "Поменять R <--> G",
+        "Inspector.Texture.SwapRB": "Поменять R <--> B",
+        "Inspector.Texture.SwapRA": "Поменять R <--> A",
+        "Inspector.Texture.SwapGB": "Поменять G <--> B",
+        "Inspector.Texture.SwapGA": "Поменять G <--> A",
+        "Inspector.Texture.SwapBA": "Поменять B <--> A",
         "Inspector.Texture.AddWhiteBackground": "Добавить белый фон",
         "Inspector.Texture.AddBlackBackground": "Добавить чёрный фон",
         "Inspector.Texture.Hue": "Оттенок (H):",
@@ -1278,12 +1456,17 @@
         "Inspector.Texture.RotateCW": "Повернуть на 90° по ЧС",
         "Inspector.Texture.RotateCCW": "Повернуть на 90° против ЧС",
         "Inspector.Texture.Rotate180": "Повернуть на 180°",
-
+        "Inspector.Texture.TrimTransparent" : "Обрезать прозрачное",
+        "Inspector.Texture.TrimByCornerColor" : "Обрезать по цвету угла",
         "Inspector.Texture.MakeSquare": "Сделать Квадратным",
         "Inspector.Texture.ToNearestPOT": "К ближайшей степени 2-х",
         "Inspector.Texture.MakeTileable": "Сделать повторяемой (размер перехода):",
         "Inspector.Texture.TileLoop": "Повторяемая (цикл)",
         "Inspector.Texture.TileMirror": "Повторяемая (зеркало)",
+        "Inspector.Texture.NormalizeMaxOnly" : "Нормализовать (только max)",
+        "Inspector.Texture.NormalizeMinMax" : "Нормализовать (min и max)",
+        "Inspector.Texture.NormalizeIndependent" : "Нормализовать отдельно RGB (min и max)",
+        "Inspector.Texture.BleedColorToAlpha" : "Слияние цвета с Альфа-каналом",
 
         "Inspector.Texture.InvalidFloats": "Диагностика: Не действительные float числа",
         "Inspector.Texture.GenerateMetadata": "Диагностика: Генерация Bitmap Метаданных",
@@ -1291,9 +1474,9 @@
         "Inspector.Material.VariantInfo": "Вариант: {variantID} (Raw: {rawVariantID})",
         "Inspector.Material.WaitingForApply": "Ожидание применения: {waiting}",
 
-        "Inspector.Audio.BakeAudio": "Запечь аудио",
-        "Inspector.Audio.FormatInfo": "Частота дискретизации: {rate} Hz, Каналы: {channels} ({channel_count})",
-        "Inspector.Audio.Duration": "Длительность: {duration}",
+        "Inspector.Audio.BakeAudio": "Запечь аудио клип",
+        "Inspector.Audio.FormatInfo": "Частота дискретизации: {rate} Гц, Каналы: {channels} ({channel_count})",
+        "Inspector.Audio.Duration": "Длительность: {duration}, Количество сэмплов: {samples}",
         "Inspector.Audio.EncodingInfo": "Кодек: {info}, Полностью раскодировано: {decoded}",
 
         "Inspector.Audio.Normalize": "Нормализовать громкость",
@@ -1323,17 +1506,18 @@
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "Настроить по потомкам (только риг)",
         "Inspector.DynamicBoneChain.ReplaceSmoothTransforms": "Заменить плавные трансформации в потомках",
         "Inspector.DynamicBoneChain.ClearSmoothTransforms": "Очистить плавные трансформации в потомках",
-        "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Коллайдеры & Захватывание -------",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Коллайдеры и хватание -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Добавить фиксированные коллайдеры от иерархии (от корневого слота)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Всегда хватать последнюю кость",
 
         "Inspector.Rig.CleanupBoneColliders": "Очистить коллайдеры костей",
         "Inspector.Rig.GenerateDebugVisuals": "Генерировать отладочную визуализацию",
-        "Inspector.Rig.ClearDebugVisuals": "Очистить отладочную визуализацию",
+        "Inspector.Rig.ClearDebugVisuals": "Убрать отладочную визуализацию",
 
         "Inspector.AvatarExpression.AutoAssign": "Авто присвоение blendshape'ов (используя эвристику)",
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>Этот компонент можно использовать как простое твердое тело, выбрав SimulateRotation. Перед тем как сделать это, имейте в виду, что он не оптимизирован для этих целей и полная поддержка твердых тел будет позже.<br>Полная поддержка твердых тел даст:<br><b>- Эффективное использование ЦП и сети</b> - с CharacterController вы используете больше ресурсов ЦП и ощутимо больше сетевого трафика<br><b>- Ограничения</b> - вы сможете задавать суставы, петли, пружины и другие ограничения между твердыми телами<br><b>- Плавная симуляция и взаимодействие для всех</b> - CharacterController ведет себя очень странно если другой пользователь пытается с ним взаимодействовать<br><b>- Новые фичи и инструменты</b> - чтобы упростить их использование<br>-----------------------<br>Вы можете узнать больше в заявке #22 на GitHub. Прочитали и осознали? Дерзайте!",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>С помощью этого компонента можно взаимодействовать с рефренсами, используя их ID. Этот процесс часто называют 'Ref Hacking'.<br><br><b>Прежде</b> чем начать, пожалуйста примите к сведению, что это <b>не</b> подерживается и может сломаться в любой момент. Не полагайтесь на данную функцию, при создании своих творений.",
 
         "Inspector.ParticleStyle.CommonTransitions": "Часто используемые шаблоны:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Альфа нарастание и затухание",
@@ -1352,7 +1536,22 @@
         "Inspector.Collider.SetFromPreciseCylinderBounds": "Установить по точным цилиндрическим границам",
         "Inspector.Collider.Visualize": "Визуализировать коллайдер",
 
-        "Wizard.General.ProcessRoot": "Начиная с корня:",
+        "Inspector.SimpleAwayIndicator.TestAway" : "Выставить как 'отошел' (debug)",
+        "Inspector.SimpleAwayIndicator.TestRestore" : "Восстановить (debug)",
+
+        "Inspector.Fields.Drive" : "Драйвить",
+        "Inspector.Fields.DriveWriteBack" : "Драйвить <size=50%>(с обратной записью)</size>",
+
+        "Inspector.Actions.CopyComponent" : "Скопировать компонент",
+        "Inspector.Actions.MoveComponent" : "Переместить компонент",
+
+        "UserInspector.Title" : "Инспектор пользователей",
+
+        "WorkerInspector.Title" : "Инспектор {name}",
+
+        "CreateNew.Title" : "Новый",
+
+        "Wizard.General.ProcessRoot": "Корень обработки:",
         "Wizard.General.Result": "Результат:",
         "Wizard.General.ErrorNoRoot": "Корень не выбран",
         "Wizard.General.RemovedResult": "Убрано {n}",
@@ -1362,7 +1561,7 @@
         "Wizard.AssetOptimization.CleanupEmptySlots": "Очистить пустые слоты",
         "Wizard.AssetOptimization.CleanupDisabledMeshRenderers": "Очистить отключенные Mesh Renderer'ы",
         "Wizard.AssetOptimization.DeduplicateMaterials": "Дедуплицировать материалы",
-        "Wizard.AssetOptimization.CleanupFileItems": "Очистить файлы",
+        "Wizard.AssetOptimization.CleanupFileItems": "Очистить предметы-файлы",
         "Wizard.AssetOptimization.MaxTextureResolution": "Установить максимальное разрешение текстур",
         "Wizard.AssetOptimization.RecompressTextures": "Пересжать текстуры",
         "Wizard.AssetOptimization.RecalculateAllNormals": "Пересчитать все нормали",
@@ -1417,6 +1616,7 @@
         "Wizard.TextRenderer.ReplaceFont": "Заменить фонт",
         "Wizard.TextRenderer.SetColor": "Установить цвет",
 
+        "Desktop.Controls.Title": "Настройки в режиме Desktop",
         "Desktop.OpenKeyboard": "Показать клавиатуру",
         "Desktop.FollowCursor.On": "Следовать за курсором: Вкл",
         "Desktop.FollowCursor.Off": "Следовать за курсором: Выкл",
@@ -1425,8 +1625,12 @@
         "Desktop.Brightness": "Яркость: {n,number,percent}",
         "Desktop.Opacity": "Непрозрачность: {n,number,percent}",
 
-        "Tutorial.Welcome.WelcomeTo": "Добро пожаловать в",
-        "Tutorial.Welcome.LetsStart": "Поехали!",
+        "VolumePlaneSlicer.Highlight": "Подсветка",
+        "VolumePlaneSlicer.Slicer": "Срез",
+
+        "Tutorial.Welcome.Welcome": "Добро пожаловать!",
+        "Tutorial.Welcome.Description": "Окунитесь в новую цифровую вселенную, наполненную бесконечными возможностями. Неважно, пришли вы сюда чтобы общаться с людьми со всего света или чтобы строить, создавать и разрабатывать что-либо, будь то прекрасное искусство, интерактивные аватары и гаджеты, сложные интерактивные миры и игры, Resonite это бесконечное, настраиваемое место, где вам всегда рады, и где вы всегда найдете группу, с которой вы сможете <i>резонировать</i>.<br><br>Перед тем как вы начнете своё приключение, мы проведем вас через настройку основных элементов, чтобы обеспечить вас приятным опытом. Когда будете готовы, нажмите на кнопку ниже.",
+        "Tutorial.Welcome.Begin": "Поехали!",
 
         "Tutorial.Welcome.AccountHeader": "Аккаунт {appName}",
         "Tutorial.Welcome.AccountDescription": "Создание аккаунта даст Вам 1Гб бесплатного хранилища и доступ к сохранению предметов, установке постоянного аватара, добавлению контактов и переписке.",
@@ -1434,11 +1638,11 @@
         "Tutorial.Welcome.AccountLogin": "У меня уже есть аккаунт",
         "Tutorial.Welcome.AccountSkip": "Продолжить без аккаунта",
         "Tutorial.Welcome.AccountSkipHeader": "Пропустить создание аккаунта?",
-        "Tutorial.Welcome.AccountSkipDescription": "Некоторый функционал, такой как сохранение предметов в инвентарь, установка постоянного аватара или добавление контактов, будет недоступен.",
+        "Tutorial.Welcome.AccountSkipDescription": "Некоторая функциональность, такая как сохранение предметов в инвентарь, установка постоянного аватара или добавление контактов, будет недоступна.",
         "Tutorial.Welcome.AccountSkipConfirm": "Точно пропустить",
 
         "Tutorial.Welcome.SettingsHeader": "Базовые настройки",
-        "Tutorial.Welcome.SettingsDescription": "Вы можете поменять базовые настройки передвижения и другие предпочтения. Все эти настройки могут быть изменены позже.",
+        "Tutorial.Welcome.SettingsDescription": "Вы можете выбрать базовые настройки передвижения и другие предпочтения. Все эти настройки можно изменить позже.",
         "Tutorial.Welcome.SettingsTurning": "Стиль поворота",
         "Tutorial.Welcome.SettingsSnapTurn": "Шагами",
         "Tutorial.Welcome.SettingsSnapTurnDescription": "Сразу поворачивает на фиксированный угол, идеально для новых пользователей",
@@ -1452,17 +1656,19 @@
         "Tutorial.Welcome.SettingsHeight": "Ваш рост",
         "Tutorial.Welcome.SettingsHeightExamples": "Например: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
-        "Tutorial.Welcome.StartTutorialHeader": "Начать обучение",
-        "Tutorial.Welcome.StartTutorialDescription": "Мы переместим Вас в мир базового обучения чтобы помочь Вам сделать первые шаги в {appName}. Вы можете сделать обучающий мир публичным, тем самым разрешая сообществу {appName} присоединиться и помочь Вам, или учиться самому.",
+        "Tutorial.Welcome.StartTutorialHeader": "Готовы начать?",
+        "Tutorial.Welcome.StartTutorialDescription": "Все настроено и почти готово к работе. Мы переместим вас в мир базового обучения. В конце вас ждет новый домашний мир, с которого вы можете начать изучение {appName}. Когда будете готовы, нажмите на кнопку ниже.",
+        "Tutorial.Welcome.StartTutorial": "Начать обучение",
 
         "Tutorial.CommunityYouTube.Title": "YouTube каналы сообщества",
 
-        "Tutorial.UserResources.UserResourcesTitle": "Ресурсы {appName}",
+        "Tutorial.UserResources.UserResourcesTitle": "Ресурсы пользователей",
         "Tutorial.UserResources.SupportTitle": "Как поддержать {appName}",
         "Tutorial.UserResources.MerchandiseTitle": "Мерч {appName}",
 
+        "Tutorial.Intro.BadgesAppTeam": "Член команды {appName}",
         "Tutorial.Intro.BadgesModerator": "Модератор",
-        "Tutorial.Intro.BadgesMentor": "Учитель",
+        "Tutorial.Intro.BadgesMentor": "Ментор",
         "Tutorial.Intro.BadgesDisabilityHearing": "Нарушение слуха",
         "Tutorial.Intro.BadgesDisabilityVision": "Нарушение зрения",
         "Tutorial.Intro.BadgesDisabilitySpeech": "Нарушение речи",
@@ -1483,7 +1689,97 @@
         "Exiting.SavingItems": "Сохранение {n, plural, one {# предмета} few {# предметов} many {# предметов}}...",
         "Exiting.SavingChanges": "Сохранение Изменений...",
         "Exiting.Exiting": "Выход...",
-        "Exiting.LoggingOut": "Выход с аккаунта...",
+        "Exiting.LoggingOut": "Выход из аккаунта...",
+
+        "Migration.Title": "Миграция",
+        "Migration.NewTask": "Новая задача миграции",
+
+        "Migration.LoginModal.Title": "Мигрировать данные?",
+        "Migration.LoginModal.Description": "Хотите перенести данные из другой учетной записи? Вы также можете сделать это позже во вкладке \"Миграция\" на Дэшборде.",
+        "Migration.LoginModal.OpenMigration": "Открыть миграцию",
+        "Migration.LoginModal.Later": "Возможно позже",
+        "Migration.LoginResetID.Title": "Действительно сбросить UserID?",
+        "Migration.LoginResetID.Description": "Пожалуйста имейте в виду, что это приведет к <color=red>НЕПРЕДСКАЗУЕМОМУ ПОВРЕЖДЕНИЮ СОДЕРЖИМОГО</color>. Все ваши предметы, миры, контакты и сообщения будут успешно перенесены, но любая логика и компоненты, которые полагаются на ваш старый UserID, скорее всего, сломаются, что потребует перенастройки и починки. Если у вас нет серьезной причины сбрасывать свой UserID, <color=red>НЕ ВЫБИРАЙТЕ ЭТОТ ВАРИАНТ</color>.",
+        "Migration.LoginResetID.ResetButton": "Да, сбросить",
+
+        "Migration.ReservedUsername.Title":"<b>Зарезервированное имя пользователя</b>",
+        "Migration.ReservedUsername.Description": "Это имя пользователя зарезервировано для первоначального владельца. Если это Ваша учетная запись, предоставьте свои учетные данные для {platform}, чтобы разблокировать ее. Мы не храним эти учетные данные, они используются только для подтверждения принадлежности вашей учетной записи при регистрации.",
+        "Migration.SourcePassword": "Пароль {platform}:",
+        "Migration.SourceUsername": "Имя пользователя {platform}:",
+
+        "Migration.Dialog.Title": "Миграция аккаунта",
+        "Migration.Dialog.Source" : "Вы можете перенести данные из любой совместимой инфраструктуры. Сначала выберите из списка ниже, откуда вы хотите перенести данные. Вы можете добавить дополнительную инфраструктуру, поместив файлы конфигурации в папку \"Migrations\" внутри установочной папки.",
+        "Migration.Dialog.AccountDescription": "Чтобы перенести вашу учетную запись, нам понадобится пароль от вашей учетной записи в {platform}. Это позволит нам войти в систему и получить доступ к данным.",
+
+        "Migration.ResetID.Title": "Сбросить мой UserID",
+        "Migration.ResetID.Description":"<color=red><b>ВНИМАНИЕ:</b></color> Выбор этого пункта <b>ЯВЛЯЕТСЯ НЕОБРАТИМЫМ И ЧАСТИЧНО СЛОМАЕТ СУЩЕСТВУЮЩИЙ КОНТЕНТ</b>, включая любые ссылки на UserID в пользовательском контенте, публичных сервисах, ссылках, облачных переменных и т.д. Эти ссылки будут сброшены, но сами ваши предметы, миры, контакты и сообщения не потеряются. Мы рекомендуем использовать эту опцию <b>ТОЛЬКО</b> в том случае, если вы хотите избавиться от своего старого UserId и заменить его новым, рандомизированным. Если у вас нет веской причины для сброса вашего UserID, вам <b>НЕ СЛЕДУЕТ</b> выбирать этот пункт. Ваш UserID изменится следующим образом:\n U-MyUsername -> U-fX3pKe7AYYQ",
+
+        "Migration.DataSelection.Title": "Какие данные нам следует перенести при миграции вашей учетной записи?",
+        "Migration.DataSelection.Everything": "Все",
+        "Migration.DataSelection.Choose": "Позвольте мне выбрать",
+
+        "Migration.DataSelection.Favorites": "Избранное (аватар, домашний мир, камера, клавиатура, фасеты)",
+
+        "Migration.DataSelection.Favorites.Description": "Сначала будет перенесен ваш дом, любимый аватар, клавиатура, камера и фасеты, чтобы вы могли начать использовать их как можно скорее.\n <color=red><b>ВНИМАНИЕ:</b></color> Если вы выберете этот пункт, вы можете <b>ПОТЕРЯТЬ ИЗМЕНЕНИЯ</b> уже избранных предметов на этой платформе до переноса.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "Должны ли мы перезаписать избранное при переносе?",
+
+        "Migration.DataSelection.Home.Title": "Установить ли ваш старый дом избранным?",
+        "Migration.DataSelection.Home.Description": "Когда мы перенесем ваши данные, ваш оригинальный облачный дом будет размещен под другим URL-адресом, и по умолчанию вы получите совершенно новый облачный дом. Однако, если вы предпочитаете, мы можем сделать ваш старый дом избранным домом по умолчанию. Даже если вы выберете \"Нет\", ваш старый облачный дом по-прежнему будет доступен, и вы сможете отметить его избранным по умолчанию позже.",
+
+        "Migration.DataSelection.Contacts": "Контакты",
+        "Migration.DataSelection.Message History": "История сообщений",
+        "Migration.DataSelection.InventoryWorld": "Инвентарь и миры",
+        "Migration.DataSelection.CloudVariable.Definitions": "Определения облачных переменных",
+        "Migration.DataSelection.CloudVariable.Values": "Значения облачных переменных",
+
+        "Migration.DataSelection.AlwaysOverwrite": "Всегда перезаписывать",
+
+        "Migration.Start": "Начать миграцию",
+        "Migration.Groups.Title": "Мигрировать группы",
+        "Migration.Groups.Introduction": "Перенести ли нам ваши группы?",
+
+        "Migration.Groups.Description": "Все группы, администратором которых вы являетесь, будут перенесены по умолчанию. Если вы хотите перенести только избранные группы, нажмите кнопку ниже, чтобы загрузить их, а затем отметьте группы, которые вы хотите перенести.",
+
+        "Migration.Groups.LoadGroups": "Загрузить группы",
+        "Migration.Groups.RefreshGroups": "Обновить группы",
+
+        "Migration.Groups.Fetching": "Получение групп...",
+        "Migration.Groups.Fetching.LoginFailed": "Ошибка входа: {error}",
+        "Migration.Groups.Fetching.Error": "Ошибка при получении групп: {error}",
+        "Migration.Groups.NoGroups": "Не найдено групп в {platform} для переноса.",
+        "Migration.Groups.NotGroupAdmin": "Вы не являетесь администратором ни одной группы в {platform}. Попросите администраторов вашей группы перенести её!",
+
+        "Migration.Summary": "Хорошо, у нас есть все, что нам нужно. Нажмите Начать миграцию ниже, и мы начнем миграцию.\n\nМиграция может занять некоторое время, нам нужно будет скопировать всё. Если вы решили перенести избранное, мы сделаем это в первую очередь, чтобы вам было удобно.\n\nВам не нужно держать {appName} все время запущенным во время миграции, мы будем отправлять вам обновления через бота {appName} чтобы вы знали, как идут дела.",
+
+        "Migration.List.EmptyTitle": "Хотите начать новую миграцию?",
+        "Migration.List.EmptySubtitle": "Нажмите \"Новая задача миграции\" в левом верхнем углу.",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Создана в:{time}\nСтатус:{state}",
+        "Migration.Report.Title": "Отчет о задаче миграции:",
+        "Migration.Report.Description": "<color={hex}>Описание:</color> {value}",
+        "Migration.Report.Status": "<color={hex}>Статус:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>Создана в:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>Начата в:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>Завершена в:</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "В настоящее время переносятся данные <color={hex}>{value}</color>.",
+        "Migration.Report.CurrentItem": "Текущий предмет: <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>Текущая скорость:</color> ~{value} миров/предметов в минуту",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>Оставшиеся задачи в очереди перед этой:</color> {value}",
+        "Migration.Report.ContactStatus": "Перенесено <color={hex}>{current}</color> контактов из <color={hex}>{total}</color>",
+        "Migration.Report.MessageStatus": "Перенесено <color={hex}>{value}</color> сообщений",
+        "Migration.Report.CloudVariableDefinitionStatus": "Перенесено <color={hex}>{value}</color> определений облачных переменных",
+        "Migration.Report.CloudVariableValueStatus":"Перенесено <color={hex}>{value}</color> значений облачных переменных",
+        "Migration.Report.RecordStatus": "Перенесено <color={hex}>{current}</color> предметов/миров из <color={hex}>{total}</color>. <color=red>{failed}</color> неудачно.",
+        "Migration.Report.GroupStatus": "Перенесено <color={hex}>{current}</color> групп из <color={hex}>{total}</color>",
+        "Migration.Report.GroupMemberStatus": "Перенесено всего <color={hex}>{value}</color> участников группы",
+
+        "Migration.Error": "<color=red>Ошибка:</color> {error}",
+        "Migration.NothingSelected": "Ничего не выбрано, не можем запустить.",
+
+        "Migration.ColorManagement": "Этот мир был создан в гамма-пространстве и автоматически преобразован в линейное пространство.<br><br>Он может отличаться от оригинала, но в целом должен быть пригоден для использования.<br><br>сли вы являетесь автором и обнаружите какие-либо проблемы с преобразованием мира <color=red>НЕ СОХРАНЯТЕ ЕГО</color>. Сохраняйте только копии.<br><br>Пока существует оригинал, мы можем настроить процесс преобразования. В противном случае вы будете нести ответственность за то, чтобы исправить это самостоятельно.",
 
         "Temporary.MMC.Voting UI": "Интерфейс голосования MMC",
         "Temporary.MMC.Vote": "Голосовать",
@@ -1506,13 +1802,15 @@
         "Temporary.MMC.VotedAlready": "Вы уже голосовали за {voteTarget}.",
         "Temporary.MMC.VoteInvalid": "Голос некорректен, попробуйте снова.",
 
-        "CloudHome.WelcomeHome": "Добро пожаловать Домой",
-        "CloudHome.TargetRangeOptions": "Настройки Тира",
+        "CloudHome.WelcomeHome": "Добро пожаловать домой",
+        "CloudHome.TargetRangeOptions": "Настройки тира",
 
-        "Tutorial.Saving.Title": "Добро пожаловать Домой!",
-        "Tutorial.Saving.Content": "Добро пожаловать в ваш <b><i><color=hero.yellow>Дом</b></i></color>! Вы окажетесь в этом месте при каждом входе.<br>Этот мир полностью ваш, поэтому вы можете сохранить любые сделанные вами изменения.<br>При сохранении мира всё останется на своих местах в ваш следующий визит!",
+        "Tutorial.Saving.Title": "Добро пожаловать домой!",
+        "Tutorial.Saving.Content": "Добро пожаловать в ваш <b><i><color=hero.yellow>дом</b></i></color>! Вы окажетесь в этом месте при каждом входе.<br>Этот мир полностью ваш, поэтому вы можете сохранить любые сделанные вами изменения.<br>При сохранении мира всё останется на своих местах в ваш следующий визит!",
 
-        "CloudHome.Info.OnlineUsers": "Онлайн: {online_users} {online_users,plural, one {пользователь} few {пользователя} other {пользователей}}<br>Можно подключится к: {joinable_users} {joinable_users,plural, one {пользователю} other {пользователям}}",
+        "Tutorial.Teleporter.Error": "Ошибка при загрузке вашего облачного дома!<br><size=66%>Выйдите из телепортера и войдите обратно чтобы попробовать еще раз.</size>",
+
+        "CloudHome.Info.OnlineUsers": "Онлайн: {online_users} {online_users,plural, one {пользователь} few {пользователя} other {пользователей}}<br>Можно подключиться к: {joinable_users} {joinable_users,plural, one {пользователю} other {пользователям}}",
         "CloudHome.Info.Moderation": "Модерация",
         "CloudHome.Info.Inventory": "Инвентарь",
         "CloudHome.Info.Tools": "Инструменты",
@@ -1530,7 +1828,7 @@
         "CloudHome.Info.GoToDiscord": "Перейти в Discord!",
 
         "CloudHome.Info.ModerationTab.Title": "Модерация!",
-        "CloudHome.Info.ModerationTab.Content": "Нам важна безопасность. Если вам нужна помощь или вы хотите сообщить о пользователе, оставьте заявку в нашем <u><color=hero.cyan>Портале модерации.</color></u><sprite name=hyperlink><br><br>У нас есть сильная команда модераторов - волонтеров <sprite name=modbadge>, которая обеспечивает безопасность сообщества! Оставьте заявку, если у вас есть вопросы или вы заметили поведение, нарушающее правила.",
+        "CloudHome.Info.ModerationTab.Content": "Нам важна безопасность. Если вам нужна помощь или вы хотите пожаловаться на пользователя, оставьте заявку в нашем <u><color=hero.cyan>Портале модерации.</color></u><sprite name=hyperlink><br><br>У нас есть сильная команда модераторов - волонтеров <sprite name=modbadge>, которая обеспечивает безопасность сообщества! Оставьте заявку, если у вас есть вопросы или вы заметили поведение, нарушающее правила.",
 
         "CloudHome.Info.InventoryTab.Title": "Сохраните свои предметы!",
         "CloudHome.Info.InventoryTab.Content": "<i><color=hero.purple>Инвентарь</color></i> в вашем <i><color=hero.purple>Дэшборде</color></i> хранит ваши сохраненные аватары и иные предметы.<br><br>Папка <i><color=hero.purple>Essentials</color></i> хранит в себе ряд интересных вещей; дважды кликните по предмету чтобы заспавнить его!",
@@ -1543,7 +1841,7 @@
         "CloudHome.Info.HelpTab.InfoLineTwo": "Кстати, вы можете открывать ссылки на вашем рабочем столе, внутри Дэшборда, на вкладке <i><color=hero.purple>Рабочий стол</color></i>.",
 
         "CloudHome.Info.UsersTab.Title": "Поиск пользователей",
-        "CloudHome.Info.UsersTab.Content": "Публичные сессии это отличный способ погрузиться в жизнь сообщества!<br><br>Публичные сессии, к которым вы сейчас можете присоединиться, можно найти во вкладке <i><color=hero.purple>Миры</color></i> вашего дэшборда. Проверьте сами!",
+        "CloudHome.Info.UsersTab.Content": "Публичные сессии это отличный способ погрузиться в жизнь сообщества!<br><br>Публичные сессии, к которым вы сейчас можете подключиться, можно найти во вкладке <i><color=hero.purple>Миры</color></i> вашего дэшборда. Проверьте сами!",
 
         "Mirror.Header.RenderingOptions": "Настройки рендера",
         "Mirror.Header.Type": "Тип Зеркала",
@@ -1633,10 +1931,115 @@
 
         "CloudHome.SupporterPanel.Title": "<b>Наши спонсоры</b>",
 
+        "Tutorial.InfoPanel.Title": "Хэй! Перед тем как вы уйдете...",
+        "Tutorial.InfoPanel.Content": "     Впереди вас ждет мир, полный возможностей, и эти возможности ограничены лишь вашим воображением.<br><br>     Почти все что вы видели до этого момента было сделано прямо в игре! Люди по всему миру работали вместе в реальном времени чтобы добиться этого.<br><br>     Продукт все еще в стадии очень ранней разработки, и мы постоянно его обновляем и улучшаем. Но вы тоже часть этого путешествия, и бесконечность - не предел!<br><br><align=center>Спасибо что заглянули и дали нам шанс.</align>",
+
+        "Tutorial.GrabItems.Grab": "Схватите",
+        "Tutorial.GrabItems.Snap": "Примагнитьте",
+        "Tutorial.GrabItems.Slide": "Подвигайте",
+
+        "Tutorial.Panel.Jumping.Title": "Прыжок",
+        "Tutorial.Panel.Jumping.ContentDesktop": "Пока вы находитесь в режиме ходьбы, нажмите пробел, чтобы прыгнуть!",
+        "Tutorial.Panel.Jumping.ContentVR": "Пока вы находитесь в режиме ходьбы, нажмите на джойстик, чтобы прыгнуть!",
+        "Tutorial.Panel.Jumping.ContentVRNoButtons": "Пока вы находитесь в режиме ходьбы, нажмите на центр вашего трэкпада, чтобы прыгнуть!",
+
+        "Tutorial.Panel.WalkLocomotion.Title": "Режим ходьбы",
+        "Tutorial.Panel.WalkLocomotion.Content": "Двигайтесь и прыгайте по земле.",
+
+        "Tutorial.Panel.TeleportLocomotion.Title": "Режим телепорта",
+        "Tutorial.Panel.TeleportLocomotion.Content": "Телепорт моментально перемещает вас в указанную локацию.",
+
+        "Hints.Spawn.InitialMovementDesktop": "Используйте кнопки перемещения для передвижения!",
+        "Hints.Spawn.InitialMovementVR": "Используйте джойстик для передвижения!",
+        "Hints.Spawn.InitialMovementVRNoButtons": "Используйте трэкпад для передвижения!",
+
+        "Hints.Spawn.ContextMenuDesktop": "Откройте ваше Контекстное Меню нажатием на кнопку T!",
+        "Hints.Spawn.ContextMenuVR": "Укачивает? Откройте ваше Контекстное Меню нажатием на кнопки B или Y!",
+        "Hints.Spawn.ContextMenuVRNoButtons": "Укачивает? Откройте ваше Контекстное Меню нажатием на кнопку Menu!",
+
+        "Hints.Spawn.TeleportLocomotionDesktop": "Другие режимы передвижения, такие как полет, вы можете попробовать в меню Передвижение.",
+        "Hints.Spawn.TeleportLocomotionVR": "Другие режимы передвижения, такие как телепорт или полет, вы можете попробовать в меню Передвижение.",
+
+        "Hints.Bridge.RaiseTheWorld": "Нажмите на эту кнопку чтобы призвать платформу!",
+
+        "Hints.Grabbing.GrabbingDesktop": "Хватайте вещи, удерживая правую кнопку мыши!",
+        "Hints.Grabbing.GrabbingVR": "Хватайте вещи, удерживая Grip!",
+
+        "Hints.Grabbing.Rotating": "Предметы можно крутить, удерживая E и двигая мышью!",
+        "Hints.Grabbing.RotatingExtra": "Держите Shift и E чтобы крутить предметы по горизонтали!",
+
+        "Hints.Grabbing.ScalingDesktop": "Возьмите предмет и, удерживая Shift, прокрутите колесико мыши чтобы изменить размер предмета!",
+        "Hints.Grabbing.ScalingVR": "Схватите предмет обоими руками, чтобы изменить его размер!",
+
+        "Hints.Grabbing.OtherGrabbables": "В игре много вариантов взаимодействия с предметами, поиграйтесь с этими тремя и посмотрите как они работают!",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Помимо изменения размеров объектов, вы также можете изменить и свой размер, включив масштабирование в Контекстном Меню. Затем удерживайте Control и прокрутите колесико мыши!",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "Помимо изменения размеров объектов, вы также можете изменить и свой размер, включив масштабирование в Контекстном Меню. Затем зажмите Grab обоими руками перед собой и двигайте их ближе - дальше друг от друга!",
+
+        "Hints.Telescope.Alignment": "Возьмитесь за телескоп и наведите его на луну!",
+
+        "Hints.Telescope.TheMoonDesktop": "Смотря на луну, зажмите правую кнопку мыши и подвигайте мышью, чтобы подвигать луну!",
+        "Hints.Telescope.TheMoonVR": "Активируйте свой лазер нажатием на Trigger и схватите луну!",
+
+        "Hints.Sundial.SoftEquip": "Возьмите этот инструмент, чтобы экипировать его!",
+        "Hints.Sundial.SoftEquipExtra": "Инструменты позволяют вам менять мир вокруг вас разными способами!",
+
+        "Hints.Sundial.HardEquip": "Нажмите на этот инструмент, чтобы экипировать его!",
+        "Hints.Sundial.HardEquipExtra": "Не видите свой лазер? Слегка нажмите на Trigger чтобы показать его!",
+
+        "Hints.Sundial.TheSun": "Прицельтесь в небо и нажмите, чтобы пододвинуть солнце в эту точку!",
+        "Hints.Sundial.TheSunExtra": "Попробуйте прицелиться за горизонт чтобы сотворить ночь!",
+
+        "Hints.Sundial.Dequip": "Бросьте экипированный инструмент, выбрав пункт Отпустить в вашем контекстном меню.",
+        "Hints.Sundial.DequipExtra": "Заметьте что опции в Контекстном Меню поменялись, потому что вы экипировали инструмент.",
+
+        "Hints.Sundial.Teleporter": "Нажмите эту кнопку чтобы активировать телепорт в ваш Облачный Дом!",
+        "Hints.Sundial.TeleporterExtra": "Наслаждайтесь своим домом и спасибо что забежали к нам!",
+
+        "UI.TextDisplay.Landscape": "Ландшафтный",
+        "UI.TextDisplay.Portrait": "Портретный",
+        "UI.TextDisplay.NormalText": "Нормальный",
+        "UI.TextDisplay.MonospaceText": "Фиксированная ширина",
+
+        "UI.VideoPlayer.GlobalSettings": "Глобальные<br>настройки",
+        "UI.VideoPlayer.LocalSettings": "Локальные<br>настройки",
+        "UI.VideoPlayer.SpatialAudio": "Пространственное<br>Аудио",
+        "UI.VideoPlayer.AreaBroadcast": "Вещание<br>в области",
+        "UI.VideoPlayer.BroascastAudio": "Глобальное<br>вещание",
+        "UI.VideoPlayer.EnterURL": "<i><alpha=#77>Введите URL...</closeall>",
+        "UI.VideoPlayer.AudioZoneTheater": "Звук:<br>Кинозал",
+        "UI.VideoPlayer.AudioZoneGlobal": "Звук:<br>Глобальный",
+        "UI.VideoPlayer.UsersLoaded": "Загружено у<br>{users_loaded}/{users_present} {users_present,plural, one {пользователя} other {пользователей}}",
+        "UI.VideoPlayer.AllUsersLoaded": "Загружено у<br>всех пользователей",
+
+        "UI.ColorPicker.ColorPicker": "Выбор цвета",
+
+        "UI.ColorPicker.Linear": "Линейный",
+
+        "UI.ColorPicker.Hexadecimal": "цвет",
+        "UI.ColorPicker.ColorSwatches": "Образец",
+
+        "UI.ColorPicker.Red": "Красный",
+        "UI.ColorPicker.Green": "Зелёный",
+        "UI.ColorPicker.Blue": "Синий",
+
+        "UI.ColorPicker.Hue": "Оттенок",
+        "UI.ColorPicker.Saturation": "Насыщенность",
+        "UI.ColorPicker.Value": "Значение",
+
+        "UI.ColorPicker.Alpha": "Альфа/прозрачность",
+        "UI.ColorPicker.Gain": "Усиление белого",
+
+        "UI.ProgressBar.ImportingItem": "Импорт предмета",
+
+        "UI.Camera.Automatic": "Авто",
+        "UI.Camera.Manual": "Ручная",
+
         "Tools.Names.MultiTool": "Мультитул",
+
         "Tools.Names.CommonTools": "Обычные инструменты",
         "Tools.Names.ManipulationTools": "Инструменты манипуляции",
         "Tools.Names.InformationTools": "Инструменты информации",
+
         "Tools.Names.GeometryLineBrush": "Геометрическая кисть",
         "Tools.Names.Developer": "Инструмент разработчика",
         "Tools.Names.ComponentClone": "Инструмент копирования компонентов",
@@ -1647,7 +2050,7 @@
         "Tools.Names.Shape": "Инструмент форм",
         "Tools.Names.Microphone": "Микрофон",
         "Tools.Names.GrabbableSetter": "Установка хватаемых объектов",
-        "Tools.Names.PhysicalColliderSetter": "Установка физическиз коллайдеров",
+        "Tools.Names.PhysicalColliderSetter": "Установка физических коллайдеров",
         "Tools.Names.MeshVisibility": "Инструмент видимости меша",
         "Tools.Names.CameraObjectVisibility": "Инструмент видимости камеры",
         "Tools.Names.Color": "Инструмент цвета",
@@ -1657,6 +2060,12 @@
         "Tools.Names.ControllerDiagnostic": "Диагностика контроллеров",
         "Tools.Names.Measure": "Рулетка",
         "Tools.Names.Label": "Инструмент подписей",
+
+        "Discord.RichPresence.InPrivateWorld": "В приватном мире",
+        "Discord.RichPresence.InPrivateLargeText": "В приватном ({version})",
+        "Discord.RichPresence.InPublicWorld": "В публичном мире",
+        "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} миров)",
+        "Discord.RichPresence.InPublicLargeText": "В публичном ({version})",
 
         "Dummy": "Dummy"
     }
