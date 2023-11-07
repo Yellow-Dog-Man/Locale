@@ -270,13 +270,11 @@
         "Options.SeatedMode.Off": "Oturma Modu: Kapalı",
 
         "Indicator.OnlineUsers": "Çevrimiçi Kullanıcılar: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus": "<color=#fff>Sunucu Durumu:</color> {status, select, Good {İyi} Slow {Yavaş} Down {Çalışmıyor} NoInternet {İnternet Yok}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced": "Tümü Senkronize Edildi",
         "Indicator.Sync.SyncingItems": "{item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %) senkronize ediliyor",
         "Indicator.Sync.UploadingVariants": "{variant_count,plural, one {# asset variant} other {# asset variants} yükleniyor",
         "Indicator.Sync.SyncError": "Senkronizasyon Hatası!<size=50%>Ayrıntılar için günlüğü kontrol edin</size>",
-        "Indicator.Sync.OutOfSpace": "Alan Yetersiz! <size=50%>Senkronize edilemiyor</size>",
 
         "Indicator.LiveHiddenMessage": "(Canlıyken Bilgiler gizli)",
 
@@ -300,7 +298,6 @@
         "Account.RecoverPassword": "Şifrenizi mi kaybettiniz?",
         "Account.LiveEmailWarning": "<color=#f00>UYARI:</color> live.com, hotmail.com, outlook.com ve diğer Microsoft tarafından barındırılan hizmetlerin e-postayı kabul etmesi 1-2 gün kadar sürebilir.",
         "Account.PasswordRules": "(en az 8 karakter, 1 rakam, 1 küçük harf, 1 büyük harf)",
-        "Account.AgeConfirm": "13 yaşında veya daha büyüğüm",
         "Account.LostPassword": "Kayıp Parola",
         "Account.SendRecoveryCode": "Kurtarma Kodunu Gönder",
         "Account.ResetPasswordHeader": "Şifrenizi Sıfırlayın",
@@ -368,8 +365,6 @@
         "Notifications.ReceivedContactRequest": "Bir iletişim isteği gönderildi",
         "Notifications.ReceivedInvite": "Sizi davet ediyor:",
         "Notifications.ReceivedItem": "Size bir öğe gönderdi:",
-        "Notifications.ReceivedTip": "Alınan ipucu {amount} {token}",
-        "Notifications.SentTip": "Gönderilen ipucu {amount} {token}",
         "Notifications.VoiceMessage": "Sesli mesaj gönderdi",
 
         "Undo.SetField": "{field_name} alanını {value} olarak ayarlayın",
@@ -1037,9 +1032,6 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged": "Tüm Normalleri Yeniden Hesapla (birleştirilmiş)",
         "Wizard.AssetOptimization.RecalculateAllTangents": "Tüm Teğetleri Yeniden Hesapla (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult": "Yeniden boyutlandır {n}",
-
-        "Tutorial.Welcome.WelcomeTo": "Hoşgeldiniz",
-        "Tutorial.Welcome.LetsStart": "Başlayalım!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} hesabı",
         "Tutorial.Welcome.AccountDescription": "Hesap oluşturma, 1 GB ücretsiz depolama alanı ve öğeleri kaydetme, avatarları kaydetme, kişi ekleme ve mesajlaşma olanağı sağlar.",

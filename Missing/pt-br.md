@@ -28,7 +28,7 @@ Register.UsernameContainsAmpersand.Description
 Register.UsernameStartsWithU.Description  
 Register.InvalidUsername.Description  
 Register.InvalidDateOfBirth.Description  
-Register.UserContainsBlockedTerms.Description  
+Register.UsernameContainsBlockedTerms.Description  
 Register.MissingPassword.Description  
 Register.InvalidPassword.Description  
 Register.EmailAlreadyRegistered.Description  

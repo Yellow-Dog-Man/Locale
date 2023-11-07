@@ -142,7 +142,7 @@
         "Dash.Screens.Settings": "Optionen",
         "Dash.Screens.Exit": "Beenden",
 
-        "Dash.Actions.PasteFromClipboard": "Aus Zwischenablage einfügen",
+        "Dash.Actions.PasteFromClipboard": "Einfügen aus Zwischenablage",
 
         "Dash.Actions.TurnOffUIEdit": "UI Bearbeitungsmodus ausschalten",
 
@@ -466,14 +466,14 @@
         "Register.InvalidDateOfBirth": "Ungültiges Geburtsdatum",
         "Register.InvalidDateOfBirth.Description": "Ihr Geburtsdatum ist ungültig.",
 
-        "Register.UserContainsBlockedTerms": "Benutzername enthält gesperrte Wörter",
-        "Register.UserContainsBlockedTerms.Description": "Ihr Benutzername enthält gesperrte Wörter. Wenn Sie meinen, dass dies ein Fehler ist, wenden Sie sich an {supportUrl}.",
+        "Register.UsernameContainsBlockedTerms": "Benutzername enthält gesperrte Wörter",
+        "Register.UsernameContainsBlockedTerms.Description": "Ihr Benutzername enthält gesperrte Wörter. Wenn Sie meinen, dass dies ein Fehler ist, wenden Sie sich an {supportUrl}.",
 
         "Register.MissingPassword": "Fehlendes Passwort",
         "Register.MissingPassword.Description": "Sie haben kein Passwort eingegeben.",
 
         "Register.InvalidPassword": "Ungültiges Passwort",
-        "Register.InvalidPassword.Description": "Ihr Passwort ist ungültig.",
+        "Register.InvalidPassword.Description": "Ihr Passwort ist ungültig. Es muss mindestens 8 Zeichen lang sein und mindestens 1 Ziffer, 1 Klein- und 1 Großbuchstaben enthalten.",
 
         "Register.EmailAlreadyRegistered": "E-Mail Adresse bereits registriert",
         "Register.EmailAlreadyRegistered.Description": "Es existiert schon ein Account mit dieser E-Mail Adresse. Wenn Sie Ihr Passwort vergessen haben, drücken Sie \"Passwort vergessen?\", oder wenden Sie sich an den Support unter {supportUrl}.",
@@ -2024,7 +2024,7 @@
 
         "UI.ColorPicker.Hue": "Farbton",
         "UI.ColorPicker.Saturation": "Sättigung",
-        "UI.ColorPicker.Value": "Wert",
+        "UI.ColorPicker.Value": "Helligkeit",
 
         "UI.ColorPicker.Alpha": "Alpha",
         "UI.ColorPicker.Gain": "Stärke",
@@ -2060,6 +2060,12 @@
         "Tools.Names.ControllerDiagnostic": "Controller-Diagnose-Tool",
         "Tools.Names.Measure": "Ausmessungs-Tool",
         "Tools.Names.Label": "Etikettier-Tool",
+
+        "Discord.RichPresence.InPrivateWorld": "In privater Welt",
+        "Discord.RichPresence.InPrivateLargeText": "Privat ({version})",
+        "Discord.RichPresence.InPublicWorld": "In öffentlicher Welt",
+        "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} Welten)",
+        "Discord.RichPresence.InPublicLargeText": "Öffentlich ({version})",
 
         "Dummy": "Dummy"
     }

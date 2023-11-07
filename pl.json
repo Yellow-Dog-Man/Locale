@@ -1,6 +1,6 @@
 {
     "localeCode": "pl",
-    "authors": ["art0007i", "DarkSugar", "Alex_2Pi", "FoxoBread"],
+    "authors": ["art0007i", "DarkSugar", "Alex_2Pi", "FoxoBread", "AdamSkI2003"],
     "messages": {
 
         "General.OK": "OK",
@@ -114,11 +114,11 @@
         "Inventory.CreateDirectory": "Utwórz folder",
         "Inventory.SaveHeld": "Zapisz trzymane",
         "Inventory.GetURL": "Kopiuj URL",
-        "Inventory.Inventories": "Ekwipuneki",
+        "Inventory.Inventories": "Ekwipunki",
         "Inventory.Share": "Udostepnij",
         "Inventory.Unshare": "Cofnij udostępnianie",
         "Inventory.SaveAvatar": "Zapisz Awatara",
-        "Inventory.Favorite.Home": "Ustaw domu",
+        "Inventory.Favorite.Home": "Ustaw dom",
         "Inventory.Favorite.ProgressBar": "Ustaw pasek postępu",
         "Inventory.Favorite.AudioStreamController": "Ustaw Steam kontroler",
         "Inventory.Favorite.TextDisplay": "Ustaw wyświetlania tekstu",
@@ -199,7 +199,7 @@
         "World.Error.IncompatibleVersion": "Niekompatybilna wersja {appName}",
         "World.Error.HostBlocked": "Host zablokowany",
         "World.Error.HostBlockedDetail": "Zablokowałeś hosta",
-        "World.Error.WorldCrash": "Crash światu",
+        "World.Error.WorldCrash": "Crash świata",
         "World.Error.WorldCrashDetail": "Fatalny błąd podczas aktualizacji świata",
         "World.Error.Unknown": "Nieznany Błąd",
 
@@ -295,7 +295,7 @@
         "World.Category.Art": "Sztuka",
         "World.Category.Tutorials": "Poradniki",
         "World.Category.Educational": "Edukacyjne",
-        "World.Category.Random": "Losowye",
+        "World.Category.Random": "Losowe",
         "World.Category.MyWorlds": "Moje Światy",
         "World.Category.Custom": "Niestandardowe",
         "World.Category.GroupWorlds": "Światy Grupowe",
@@ -316,7 +316,7 @@
         "World.SortParameter.LastUpdateDate": "Data Modyfikacji",
         "World.SortParameter.FirstPublishTime": "Data Opublikowania",
         "World.SortParameter.TotalVisits": "Całkowita Liczba Odwiedzin",
-        "World.SortParameter.LastVisit": "Ostatnio odwiedzine",
+        "World.SortParameter.LastVisit": "Ostatnio odwiedzone",
         "World.SortParameter.Random": "Losowo",
 
         "World.Filter.DataSources": "Źródła Danych:",
@@ -373,7 +373,7 @@
         "Options.Nameplates.All": "Nazwy Graczy: Wszystkie",
         "Options.Nameplates.NonContacts": "Nazwy Graczy: Nie Kontaktów",
         "Options.Nameplates.Hide": "Nazwy Graczy: Ukryte",
-        "Options.Nameplates.DefaultStyle": "Użyj domyślnych plakietka",
+        "Options.Nameplates.DefaultStyle": "Użyj domyślnych plakietek",
         "Options.Nameplates.CustomStyle": "Zezwalaj na niestandardowe plakietki",
 
         "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> {users,plural, one {Użytkownik} other {Użytkowników}} online",
@@ -398,36 +398,104 @@
         "Indicator.LiveHiddenMessage": "(informacja ukryta podczas transmisji)",
 
         "Login.InvalidCredentials": "Nieprawidłowe dane logowania",
+        "Login.InvalidCredentials.Description": "Sprawdź swoje dane logowania i spróbuj ponownie lub naciśnij \"Nie pamiętasz hasła\"?",
+        
         "Login.InvalidLogin": "Nieprawidłowe dane logowania",
-
+        "Login.InvalidLogin.Description": "Sprawdź swoje dane logowania i spróbuj ponownie lub naciśnij \"Nie pamiętasz hasła?\"",
+        
         "Login.MalformedUID": "Nieprawidłowe informacje o urządzeniu",
+        "Login.MalformedUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
+        
         "Login.MissingUID": "Brak informacji o urządzeniu",
+        "Login.MissingUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
+        
         "Register.MissingUID": "Nieprawidłowe informacje urządzenia",
+        "Register.MissingUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
+        
         "Register.MalformedUID": "Nieprawidłowe informacje urządzenia",
-
+        "Register.MalformedUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
+        
         "Login.MissingLogin": "Brak danych logowania",
+        "Login.MissingLogin.Description": "Zapomniałeś podać danych logowania?",
+
         "Login.InvalidRecoveryCode": "Nieprawidłowy kod odzyskiwania",
+        "Login.InvalidRecoveryCode.Description": "Sprawdź kod odzyskiwania i spróbuj ponownie.",
+
         "Login.UnsupportedAuthentication": "Nieobsługiwana metoda uwierzytelniania",
+        "Login.UnsupportedAuthentication.Description": "Nie obsługujemy tej metody uwierzytelniania. Spróbuj użyć innej.",
+
         "Login.EmailNotVerified": "E-mail niezweryfikowany",
+        "Login.EmailNotVerified.Description": "Twój adres e-mail nie został zweryfikowany, sprawdź swoją skrzynkę pocztową czy nie otrzymałeś wiadomości od nas i upewnij się, że sprawdziłeś folder spamu.",
+
         "Login.AccountTempLocked": "Twoje konto jest zablokowane.",
+        "Login.AccountTempLocked.Description": "Prosimy o kontakt z zespołem moderacyjnym: {moderationUrl}.",
+
         "Login.AccountBanned": "Twoje konto zostało zbanowane.",
+        "Login.AccountBanned.Description": "Prosimy o kontakt z zespołem moderacyjnym: {moderationUrl}.",
+
         "Login.DuplicateAccount": "Zduplikowane konto",
+        "Login.DuplicateAccount.Description": "Prosimy o kontakt z pomocą techniczną: {supportUrl}.",
+
+        "Login.UnknownError": "Nieznany błąd",
+        "Login.UnknownError.Description": "Podczas logowania wystąpił nieznany błąd. Prosimy o kontakt z pomocą techniczną: {supportUrl}.",
 
         "Register.MissingRequest": "Brak danych rejestracyjnych",
+        "Register.MissingRequest.Description": "Nie mogliśmy znaleźć żadnych danych rejestracyjnych. Pamiętaj, aby podać je podczas rejestracji.",
+
         "Register.InvalidEmail": "Niepoprawny adres e-mail",
+        "Register.InvalidEmail.Description": "Twój adres e-mail jest nieprawidłowy.",
+
         "Register.MissingUsername": "Brak nazwy użytkownika",
-        "Register.MissingEmail": "Brakujący e-mail",
+        "Register.MissingUsername.Description": "Czy podałeś swoją nazwę użytkownika?",
+
+        "Register.MissingEmail": "Brak adresu e-mail",
+        "Register.MissingEmail.Description": "Czy podałeś swój adres e-mail?",
+
         "Register.UsernameTooLong": "Nazwa użytkownika jest za długa",
+        "Register.UsernameTooLong.Description": "Nazwy użytkownika mogą mieć maksymalnie 32 znaki.",
+
         "Register.UsernameContainsAmpersand": "Nazwa użytkownika nie może zawierać @",
+        "Register.UsernameContainsAmpersand.Description": "Nazwa użytkownika nie może zawierać @.",
+
         "Register.UsernameStartsWithU": "Nazwa użytkownika nie może zaczynać się od U-",
+        "Register.UsernameStartsWithU.Description": "Nazwa użytkownika nie może zaczynać się od U-",
+
         "Register.InvalidUsername": "Nieprawidłowa nazwa użytkownika",
+        "Register.InvalidUsername.Description": "Twoja nazwa użytkownika jest nieprawidłowa.",
+
         "Register.InvalidDateOfBirth": "Nieprawidłowa data urodzenia",
-        "Register.UserContainsBlockedTerms": "Nazwa użytkownika zawiera zablokowane słowa",
+
+        "Register.InvalidDateOfBirth.Description": "Twoja data urodzenia jest nieprawidłowa.",
+
+        "Register.UsernameContainsBlockedTerms": "Nazwa użytkownika zawiera zablokowane słowa",
+        "Register.UserContainsBlockedTerms.Description": "Twoja nazwa użytkownika zawiera niedozwolone słowa. Jeśli uważasz, że jest to błąd, skontaktuj się z nami: {supportUrl}.",
+
         "Register.MissingPassword": "Brak hasła",
+        "Register.MissingPassword.Description": "Hasło nie zostało wprowadzone.",
+
         "Register.InvalidPassword": "Nieprawidłowe Hasło",
+        "Register.InvalidPassword.Description": "Hasło jest nieprawidłowe. Musi zawierać co najmniej 8 znaków, 1 cyfrę, 1 wielką literę i 1 małą literę.",
+
         "Register.EmailAlreadyRegistered": "E-mail już zarejestrowany",
+        "Register.EmailAlreadyRegistered.Description": "Istnieje już konto korzystające z tego adresu e-mail. Jeśli nie pamiętasz hasła, możesz kliknąć \"Nie pamiętam hasła\" Możesz również skontaktować się z pomocą techniczną: {supportUrl}.",
+
         "Register.UsernameAlreadyRegistered": "Nazwa użytkownika jest już zarejestrowana",
-        "Register.ErrorCheckingUserId": "Błąd podczas sprawdzania identyfikatora użytkownika",
+        "Register.UsernameAlreadyRegistered.Description": "Konto używające tej nazwy użytkownika już istnieje, jeśli nie pamiętasz hasła, możesz kliknąć \"Nie pamiętam hasła\". Możesz również skontaktować się z pomocą techniczną: {supportUrl}.",
+
+        "Register.ErrorCheckingUserId" : "Błąd podczas sprawdzania identyfikatora użytkownika",
+        "Register.ErrorCheckingUserId.Description" : "Skontaktuj się z pomocą techniczną: {supportUrl}.",
+
+        "Recovery.MissingEmail" : "Brak adresu e-mail",
+        "Recovery.MissingEmail.Description" : "Czy podano adres e-mail?",
+
+        "Recovery.IncorrectEmail" : "Niepoprawny adres e-mail",
+        "Recovery.IncorrectEmail.Description" : "Wprowadzono nieprawidłowy adres e-mail do odzyskania hasła. Sprawdź swoje dane i spróbuj ponownie.",
+
+        "Recovery.NoPasswordSetup" : "Hasło nie zostało ustawione", 
+        "Recovery.NoPasswordSetup.Description" : "Skontaktuj się z pomocą techniczną: {supportUrl}.",
+
+        "Register.UnknownError": "Nieznany błąd",
+        "Register.UnknownError.Description": "Podczas rejestracji wystąpił nieznany błąd. Skontaktuj się z pomocą techniczną: {supportUrl}.",
 
         "Account.Login": "Zaloguj się",
         "Account.Logout": "Wyloguj się",
@@ -446,10 +514,10 @@
         "Account.UsernameOrEmail": "Nazwa Użytkownika lub Email:",
         "Account.Password": "Hasło:",
         "Account.RepeatPassword": "Powtórz Hasło:",
-        "Account.RecoverPassword": "Zgubione Hasło?",
+        "Account.RecoverPassword": "Nie pamiętasz hasła?",
         "Account.LiveEmailWarning": "<color=#f00>UWAGA:</color> live.com, hotmail.com, outlook.com i inne domeny Microsoft mogą zająć 1-2 dni aby przyjąć email.",
         "Account.PasswordRules": "(co najmniej 8 znaków, 1 liczba, 1 mała litera, 1 duża litera)",
-        "Account.LostPassword": "Zgubione hasło",
+        "Account.LostPassword": "Nie pamiętam hasła",
         "Account.SendRecoveryCode": "Wyślij Kod Odzyskiwania",
         "Account.ResetPasswordHeader": "Resetuj Swoje Hasło",
         "Account.ResetPasswordInstructions": "Kod odzyskiwania został wysłany na twój email. Wklej go w poniższe pole:",
@@ -474,7 +542,7 @@
         "Account.TOTP.Title": "Uwierzytelnianie dwupoziomowe",
         "Account.TOTP.Initializing": "Sprawdzanie statusu 2FA dla Twojego konta...",
         "Account.TOTP.Code.Header": "Sekretny kod",
-        "Account.TOTP.Code.Description": "Najpierw musisz wprowadzić tajny kod do aplikacji uwierzytelniającej TOTP, taki jak <b>Authy</b> lub <b>Google Authenticator</b>.<br><br>Zalecamy zrobienie tego poprzez zeskanowanie kodu QR, ale alternatywnie możesz ręcznie wprowadzić tajny kod. <b>Nigdy nikomu nie udostępniaj tego kodu.</b><br><br>Jeśli jesteś w VR, możesz przełączyć się na Monitor, naciskając klawisz F8.",
+        "Account.TOTP.Code.Description": "Najpierw musisz wprowadzić tajny kod do aplikacji uwierzytelniającej TOTP, takiej jak <b>Authy</b> lub <b>Google Authenticator</b>.<br><br>Zalecamy zrobienie tego poprzez zeskanowanie kodu QR, ale alternatywnie możesz ręcznie wprowadzić tajny kod. <b>Nigdy nikomu nie udostępniaj tego kodu.</b><br><br>Jeśli jesteś w VR, możesz przełączyć się na Monitor, naciskając klawisz F8.",
         "Account.TOTP.Code.QRCode": "Zeskanuj kod QR",
         "Account.TOTP.Code.Key": "Sekretny kod:",
         "Account.TOTP.RecoveryCodes.Header": "Kody odzyskiwania",
@@ -526,12 +594,13 @@
         "Session.Permission.PermissionOverrideCount": "Nadpisane Uprawnienia: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Wyczyść Nadpisane Uprawnienia",
 
-        "Session.JoinVerifier.EnableHeader": "Aktywować niestandardowy weryfikator połączeń?",
-        "Session.JoinVerifier.EnableText": "<color=red>OSTRZEŻENIE:</color> YZamierzasz włączyć niestandardową weryfikację dołączania, która jest częścią bieżącego świata. Zanim to zrobisz, upewnij się, że ufasz twórcy świata, ponieważ niestandardowy weryfikator może ominąć standardowe reguły dostępu do sesji i zezwolić lub zablokować dostęp użytkownikom przy użyciu własnych reguł.",
+        "Session.JoinVerifier.EnableHeader": "Aktywować niestandardowy weryfikator dołączania?",
+        "Session.JoinVerifier.EnableText": "<color=red>OSTRZEŻENIE:</color> Zamierzasz włączyć niestandardową weryfikację dołączania, która jest częścią bieżącego świata. Zanim to zrobisz, upewnij się, że ufasz twórcy świata, ponieważ niestandardowy weryfikator może ominąć standardowe reguły dostępu do sesji i zezwolić lub zablokować dostęp użytkownikom przy użyciu własnych reguł.",
         "Session.JoinVerifier.Label": "Use Custom Join Verifier: {name}",
         "Session.JoinVerifier.ComponentWarning": "<color=red>OSTRZEŻENIE:</color> W tej chwili nie ma mechanizmu zapobiegającego manipulowaniu weryfikatorem po jego włączeniu. Jeśli obawiasz się manipulowania ustawieniami ProtoFlux w celu weryfikacji, NIE UŻYWAJ tej funkcji i NIE WŁĄCZAJ jej w swoich światach.",
         "Session.JoinVerifier.SetCustomVerifier": "Ustaw jako niestandardowy weryfikator żądania dołączenia",
-
+        "Session.JoinVerifier.Label": "Użyj niestandardowego weryfikatora dołączania: {name}",
+        
         "Permissions.NotAllowedToSpawn": "Nie masz pozwolenia aby przyzywać przedmioty w tym świecie.",
         "Permissions.NotAllowedToSave": "Nie masz pozwolenia aby zapisywać przedmioty w tym świecie.",
         "Permissions.NotAllowedToSwapAvatar": "Nie masz pozwolenia aby użyć własnego awatara w tym świecie.",
@@ -623,7 +692,7 @@
         "Tooltips.Brush.IncrementSize": "Zwiększ rozmiar",
         "Tooltips.Brush.DecrementSize": "Zmniejsz rozmiar",
 
-        "Tooltips.Dev.CreateNew": "Stwóż Nowy...",
+        "Tooltips.Dev.CreateNew": "Stwórz Nowy...",
         "Tooltips.Dev.Selection": "Zaznaczanie: {mode}",
         "Tooltips.Dev.DevMode.Off": "Tryb Dewelopera: Nie",
         "Tooltips.Dev.DevMode.On": "Tryb Dewelopera: Tak",
@@ -639,6 +708,12 @@
         "Tooltips.Dev.Translation": "Przejście",
         "Tooltips.Dev.Rotation": "Obrót",
         "Tooltips.Dev.Scale": "Skala",
+
+        "Tooltips.Dev.Selection.Single": "Pojedyncze",
+        "Tooltips.Dev.Selection.Multi": "Multi",
+
+        "Tooltips.Dev.Interaction.Tip": "Narzędzie",
+        "Tooltips.Dev.Interaction.Projection": "Projekcja",
 
         "Tooltip.Color.Picker": "Wybieranie Kolorów",
 
@@ -656,6 +731,10 @@
         "Tooltip.Light.Point": "Punktowe",
         "Tooltip.Light.Spot": "Stożkowe",
         "Tooltip.Light.Sun": "Słońce",
+
+        "Tooltip.Light.Shadows.None": "Brak cieni",
+        "Tooltip.Light.Shadows.Hard": "Ostre cienie",
+        "Tooltip.Light.Shadows.Soft": "Miękkie cienie",    
 
         "Tooltip.MeshVisibility.KeepShadow": "Pozostaw Cień",
         "Tooltip.MeshVisibility.ShadowOff": "Wyłącz Cień",
@@ -693,19 +772,39 @@
         "Tooltip.ProtoFlux.Reference": "Reference",
         "Tooltip.ProtoFlux.Write": "Write",
         "Tooltip.ProtoFlux.Proxy": "Proxy",
-        "Tooltip.ProtoFlux.CreateLocal": "Create Local",
+        "Tooltip.ProtoFlux.CreateLocal": "Utwórz lokalny",
         "Tooltip.ProtoFlux.CreateStore": "Create Store",
         "Tooltip.ProtoFlux.CreateDataModelStore": "Create Data Model Store",
-        "Tooltip.ProtoFlux.Overview": "Toggle Overview Mode",
-        "Tooltip.ProtoFlux.NodeBrowser": "Browse nodes",
-        "Tooltip.ProtoFlux.PackInPlace": "Pack In Place",
-        "Tooltip.ProtoFlux.PackInto": "Pack Into <size=50%>{name}</size>",
-        "Tooltip.ProtoFlux.Unpack": "Unpack <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.Overview": "Przełącz tryb przeglądu",
+        "Tooltip.ProtoFlux.NodeBrowser": "Przeglądaj nody",
+        "Tooltip.ProtoFlux.PackInPlace": "Pakowanie w miejscu",
+        "Tooltip.ProtoFlux.PackInto": "Pakuj do <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.Unpack": "Rozpakuj <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.ExplicitCast": "Explicit Cast\n<size=50%>(<color=red>Warning:</color> Potential Data Loss)</size>",
 
-        "ProtoFlux.UI.Call": "Call",
-        "ProtoFlux.UI.AsyncCall": "<size=50%>Async</size> Call",
-        "ProtoFlux.UI.NodeBrowser.Title": "ProtoFlux Nodes",
+        "Tooltip.Meter.Mode.Ray" : "Tryb: Promień",
+        "Tooltip.Meter.Mode.Perpendicular" : "Tryb: Prostopadły",
+        "Tooltip.Meter.Mode.Drag" : "Tryb: Przeciąganie",
+
+        "Tooltip.Meter.Points.Two" : "Dwa Punkty",
+        "Tooltip.Meter.Points.Multiple" : "Wiele Punktów",
+
+        "Tooltip.Meter.ObjectSpace" : "Pomiar w Przestrzeni Obiektu",
+        "Tooltip.Meter.WorldSpace" : "Pomiar w Przestrzeni Światowej",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "Tryb: Finalizuj meshe",
+
+        "Tooltip.Glue.Mode.ParentObjects" : "Tryb: Rodzicowanie obiektów",
+
+        "Tooltip.RigTransfer.ClearSource" : "Wyczyść źródło",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "Jedna Instancja: Włączona",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "Jedna Instancja: Wyłączona",
+        "Tooltip.ComponentClone.ClearTemplate" : "Wyczyść szablon",
+        
+        "ProtoFlux.UI.Call": "Uruchom",
+        "ProtoFlux.UI.AsyncCall": "<size=50%>Asynchroniczne</size> uruchomienie",
+        "ProtoFlux.UI.NodeBrowser.Title": "Nody ProtoFlux",
 
         "CreateNew.Back": "<<< <i>Wstecz</i>",
         "CreateNew.EmptyObject": "Pusty Obiekt",
@@ -895,6 +994,10 @@
         "Importer.Video.Stereo180": "Film Stereo 180",
         "Importer.Video.Depth.Prompt": "Szablon Głębii",
         "Importer.Video.Depth.Default": "Domyślny",
+        
+        "Importer.Slices.Title": "Obrazy w formie warstw jako tekstura objętościowa",
+        "Importer.Slices.TitleGrayscale": "Obrazy w formie warstw jako tekstura objętościowa (skala szarości)",
+        "Importer.Slices.Description": "Przetwarza wszystkie pliki obrazów w folderze na teksturę objętościową",
 
         "Exporter.Title": "Eksport",
         "Exporter.FileName": "Nazwa pliku:",
@@ -963,7 +1066,7 @@
         "FullBody.Knees": "Kolana",
 
         "FullBody.TrackerMapped": "Tracker Zmapowany",
-        "FullBody.NotTracking": "Nie działa...",
+        "FullBody.NotTracking": "Nie śledzi...",
         "FullBody.NoTracker": "Brak Mapowania Trackera",
         "FullBody.FeetNotTracking": "Trackery stóp nie działają...",
 
@@ -981,7 +1084,7 @@
         "CameraControl.Mode.ThirdPerson": "Trzecia Osoba",
         "CameraControl.Mode.Group": "Grupa",
         "CameraControl.Mode.World": "Świat",
-        "CameraControl.Mode.Manual": "Manualny",
+        "CameraControl.Mode.Manual": "Ręczny",
 
         "CameraControl.Settings.AvoidOcclusion": "Unikaj Okluzji",
         "CameraControl.Settings.KeepInWorldspace": "Zachowaj W Świecie",
@@ -1109,7 +1212,7 @@
 
         "Settings.Audio.Header": "Audio",
         "Settings.Audio.Input.Title": "Urządzenia wejściowe audio",
-        "Settings.Audio.Master": "Cały Dźwięk: {n,number,percent}",
+        "Settings.Audio.Master": "Głośność główna: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Efekty Dźwiękowe: {n,number,percent}",
         "Settings.Audio.Multimedia": "Multimedia: {n,number,percent}",
         "Settings.Audio.Voice": "Głosy: {n,number,percent}",
@@ -1169,12 +1272,12 @@
         "Settings.System.KeepOriginalScreenshotFormat.Description": "Po włączeniu zrzuty ekranu nie będą konwertowane do formatu JPG po zapisaniu w folderze Dokumenty",
 
         "Security.Hyperlink.Title": "link Zewnętrzny",
-        "Security.Hyperlink.Warning": "<b><size=125%>Ostrzeżenie: hiperłącze wychodzące</size></b>\nKliknąłeś łącze w świecie. Chcesz je otworzyć? Otworzy się w przeglądarce internetowej na komputerze.",
+        "Security.Hyperlink.Warning": "<b><size=125%>Ostrzeżenie: link zewnętrzny</size></b>\nKliknąłeś link w świecie. Chcesz go otworzyć? Otworzy się w przeglądarce internetowej na komputerze.",
         "Security.Hyperlink.Open": "Otwórz",
         "Security.Hyperlink.Cancel": "Anuluj",
 
         "Security.HostAccess.Title": "Dostęp do hosta",
-        "Security.HostAccess.Warning": "<b><size=125%>Uwaga: Świat próbuje uzyskać dostęp do nieoficialnego hosta</size></b>\nZezwolenie na dostęp może pozwolić nieoficjalnej stronie na zebranie niektórych danych osobowych, takich jak adres IP i lokalizacja geograficzna.",
+        "Security.HostAccess.Warning": "<b><size=125%>Uwaga: Świat próbuje uzyskać dostęp do zewnętrznego hosta</size></b>\nZezwolenie na dostęp może pozwolić zewnętrznej stronie na zebranie niektórych danych osobowych, takich jak adres IP i lokalizacja geograficzna.",
         "Security.HostAccess.TargetHost": "Host docelowy: <b>{host}</b>",
         "Security.HostAccess.Reason": "Powód: {reason}",
         "Security.HostAccess.NoReason": "<i>Nie podano powodu</i>",
@@ -1184,8 +1287,8 @@
         "ComponentSelector.Back": "< (wstecz)",
         "ComponentSelector.Title": "Components",
         "ComponentSelector.CreateCustomType": "Utwórz typ niestandardowy",
-
-
+        "ComponentSelector.CommonGenericTypes" : "Wspólne Typy Ogólne",
+        "ComponentSelector.CustomGenericArguments" : "Niestandardowe Argumenty Ogólne:",
         "ComponentSelector.InvalidType": "Nieprawidłowy typ",
 
         "Inspector.Title": "Inspektor sceny",
@@ -1203,7 +1306,7 @@
         "Inspector.Slot.CreatePivotAtCenter": "Utwórz punkt obrotu w środku",
 
         "Inspector.Slot.JumpTo": "Skocz do",
-        "Inspector.Slot.BringTo": "Przynieś do",
+        "Inspector.Slot.BringTo": "Przenieś do",
         "Inspector.Slot.BringTo.Undo": "Przenieś {name} do użytkownika",
 
         "Inspector.Slot.ParentUnder.Label": "Parent Under:",
@@ -1221,27 +1324,27 @@
         "Inspector.Mesh.BlendshapeCount": "Liczba Blendshapeów: {n}",
         "Inspector.Mesh.ChannelStats": "Normalne: {normals}, Styczne: {tangents}, Kolory: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
-        "Inspector.Mesh.BakeMesh": "Wypal Mesh",
+        "Inspector.Mesh.BakeMesh": "Finalizuj Mesh",
         "Inspector.Mesh.SetupRenderer": "Setup Renderer",
         "Inspector.Mesh.ResaveMesh": "Zapisz Ponownie Mesh",
         "Inspector.Mesh.RecalculateNormals": "Przelicz Normalne",
         "Inspector.Mesh.RecalculateNormalsSmooth": "Przelicz Normalne (gładkie cieniowanie)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "Przelicz Styczne (Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "Przelicz Styczne (prosty)",
-        "Inspector.Mesh.RecalculateBlendshapeNormals": "Recalculate Blendshape Normals",
-        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Recalculate Blendshape Normals (smooth shading)",
-        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Recalculate Blendshape Tangents (Mikktspace)",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Przelicz Normalne Blendshape'ów",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Przelicz Normalne Blendshape'ów (gładkie cieniowanie)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Przelicz Normalne Blendshape'ów (Mikktspace)",
         "Inspector.Mesh.FlipNormals": "Odwróć Normalne",
         "Inspector.Mesh.ReverseWinding": "Odwróć Nawijanie",
         "Inspector.Mesh.MakeDualSided": "Konwertuj na Dwustronny",
         "Inspector.Mesh.ConvertToFlatShading": "Konwertuj na Płaskie Cieniowanie",
-        "Inspector.Mesh.ConvertToConvexHull": "Konwertuj na Otoczkę Wypukłą",
+        "Inspector.Mesh.ConvertToConvexHull": "Konwertuj na powłokę Wypukłą",
         "Inspector.Mesh.ConvertToPointCloud": "Konwertuj na Chmurę Punktów",
         "Inspector.Mesh.MergeDoubles": "Połącz Podwojone Wierzchołki",
         "Inspector.Mesh.StripEmptyBlendshapes": "Usuń Puste Blendshapy",
         "Inspector.Mesh.StripBlendshapeNormals": "Usuń Normalne Blendshapeów",
         "Inspector.Mesh.StripBlendshapeTangents": "Usuń Styczne Blendshapeów",
-        "Inspector.Mesh.MergeBlendshapes": "Merge Blendshapes",
+        "Inspector.Mesh.MergeBlendshapes": "Połącz Blendshape'y",
 
         "Inspector.Mesh.GetBoneList": "Wyświetl Listę Kości",
         "Inspector.Mesh.GetBoneData": "Wyświetl Dane Kości",
@@ -1254,36 +1357,36 @@
         "Inspector.MeshRenderer.MergeByMaterial": "Połącz podmeshe z takimi samymi materiałami",
         "Inspector.MeshRenderer.SplitByMaterial": "Rozdziel mesh na części z takimi samymi materiałami",
 
-
-
+        "Inspector.MeshCollider.VHACD": "Dekompozycja wypukłej powłoki (V-HACD 2.0)",
+        "Inspector.MeshCollider.ReplaceBox": "Zastąp Koliderem Sześciennym",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Aktualizuj moduły lokomocji dla obecnych użytkowników",
 
-        "Inspector.VHACD.Parameter.MergeDoubles": "Łączenie podwójnych",
+        "Inspector.VHACD.Parameter.MergeDoubles": "Scalanie duplikatów",
         "Inspector.VHACD.Parameter.Resolution": "Rozdzielczość",
         "Inspector.VHACD.Parameter.Depth": "Głębokość",
-
-
-
-        "Inspector.VHACD.Parameter.Alpha": "Alfa",
+        "Inspector.VHACD.Parameter.Concavity": "Wklęsłość",
+        "Inspector.VHACD.Parameter.PlaneDownsampling": "Redukcja płaszczyzn",
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling": "Redukcja powłók wypukłych",
+        "Inspector.VHACD.Parameter.Alpha": "Alpha",
         "Inspector.VHACD.Parameter.Beta": "Beta",
         "Inspector.VHACD.Parameter.Gamma": "Gamma",
         "Inspector.VHACD.Parameter.Delta": "Delta",
         "Inspector.VHACD.Parameter.PCA": "PCA",
-
-
-
+        "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Maks. wierzchołków na powłokę",
+        "Inspector.VHACD.Parameter.MinVolumePerHull": "Min. objętość na powłokę",
+        "Inspector.VHACD.Parameter.ConvexHullApproximation": "Aproksymacja powłoki wypukłej",
 
         "Inspector.VHACD.DecompositionMode.Header": "Tryb dekompozycji:",
-        "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
-        "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetrahedron",
+        "Inspector.VHACD.DecompositionMode.Voxel": "Woksel",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetraedr",
 
-
+        "Inspector.VHACD.RunDecomposition": "Uruchom dekompozycję",
         "Inspector.VHACD.RemoveVisuals": "Usuń wizualizacje",
+        "Inspector.VHACD.RemoveHulls": "Usuń powłoki",
 
-
-        "Inspector.ReflectionProbe.Bake": "Wypal Odbicia",
-        "Inspector.ReflectionProbe.Baking": "Wypalanie...",
+        "Inspector.ReflectionProbe.Bake": "Finalizuj Odbicia",
+        "Inspector.ReflectionProbe.Baking": "Finalizacja......",
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Rozdziel części meshu niezmieniane przez blendshapy",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Usuń Puste Blendshapy",
@@ -1418,37 +1521,37 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>OSTRZEŻENIE!</size></color><br>Możliwe jest użycie tego komponentu jako prostego ciała sztywnego poprzez zaznaczenie opcji SimulateRotation. Zanim to zrobisz, pamiętaj, że nie jest on zoptymalizowany do tego celu, a odpowiednie wsparcie dla sztywnych ciał pojawi się w przyszłości.<br>Prawidłowe wsparcie sztywnego ciała zapewni:<br><b>- Wydajność procesora i sieci</b> - CharacterController będzie powodował większe użycie procesora i zwiększony ruch sieciowy.<br><b>- Ograniczenia</b> - będziesz mógł tworzyć połączenia, zawiasy, sprężyny i inne ograniczenia między sztywnymi ciałami<br><b>- Płynna symulacja i interakcje dla każdego</b> - CharacterController ulegnie glitchowi, jeśli inna osoba spróbuje interakcji.<br><b>- Nowe funkcje i narzędzia</b> - aby korzystanie z nich było znacznie łatwiejsze<br>-----------------------<br>Jeśli tylko rozumiesz te ograniczenia, baw się dobrze!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>Możliwe jest użycie tego komponentu do interakcji z referencjami przy użyciu ich ID. Proces ten jest powszechnie nazywany \"Ref Hacking\".<br><br><b>Zanim</b> to zrobisz, pamiętaj, że ta funkcja <b>nie</b> jest obsługiwana i może zostać przerwana w dowolnym momencie. Nie należy polegać na tej funkcji przy tworzeniu swoich dzieł.",
 
+        "Inspector.ParticleStyle.CommonTransitions": "Wspólne szablony przejść:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "Zanikanie Alpha: Wprowadzenie i Wycofanie",
+        "Inspector.ParticleStyle.AlphaFadeIn": "Zanikanie Alpha: Wprowadzenie",
+        "Inspector.ParticleStyle.AlphaFadeOut": "Zanikanie Alpha: Wycofanie",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "Zanikanie Intensywności: Wprowadzenie i Wycofanie",
+        "Inspector.ParticleStyle.IntensityFadeIn": "Zanikanie Intensywności: Wprowadzenie",
+        "Inspector.ParticleStyle.IntensityFadeOut": "Zanikanie Intensywności: Wycofanie",
+        "Inspector.ParticleStyle.ClearFades": "Usuń Zanikania",
 
+        "Inspector.Collider.SetFromLocalBounds": "Ustaw z lokalnych granic",
+        "Inspector.Collider.SetFromGlobalBounds": "Ustaw z globalnych granic",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "Ustaw z lokalnych granic (precyzyjnie)",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "Ustaw z globalnych granic (precyzyjnie)",
+        "Inspector.Collider.SetFromPreciseBounds": "Ustaw z precyzyjnych granic",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "Ustaw z precyzyjnych granic cylindra",
+        "Inspector.Collider.Visualize": "Wizualizacja Kolidera",
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
+        
+        
+        
+        
 
         "Inspector.Actions.CopyComponent": "Kopiuj komponent",
         "Inspector.Actions.MoveComponent": "Przenieś komponent",
 
-        "UserInspector.Title": "User Inspektor",
+        "UserInspector.Title": "Inspektor użytkownika",
 
         "WorkerInspector.Title": "{name} Inspektor",
 
-        "CreateNew.Title": "New",
+        "CreateNew.Title": "Nowy",
 
         "Wizard.General.ProcessRoot": "Miejsce Operacji:",
         "Wizard.General.Result": "Rezultat:",
@@ -1524,8 +1627,8 @@
         "Desktop.Brightness": "Jasność: {n,number,percent}",
         "Desktop.Opacity": "Przezroczystość: {n,number,percent}",
 
-
-
+        "VolumePlaneSlicer.Highlight": "Podświetl",
+        "VolumePlaneSlicer.Slicer": "Wytnij",
 
         "Tutorial.Welcome.Welcome": "Witamy!",
         "Tutorial.Welcome.Description": "Wejdź do zupełnie nowego cyfrowego wszechświata z nieskończonymi możliwościami. Niezależnie od tego, czy przychodzisz tutaj, aby nawiązać kontakty i spędzać czas z ludźmi z całego świata, czy też budować i tworzyć cokolwiek, od pięknej sztuki, interaktywnych awatarów i gadżetów, do skomplikowanych interaktywnych światów i gier, Resonite to nieskończenie elastyczne miejsce, w którym będziesz mile widziany i gdzie znajdziesz grupę, z którą będziesz rezonować.<br><br>Zanim zaczniesz eksplorować, najpierw przeprowadzimy Cię przez konfigurację kilku niezbędnych elementów, aby zapewnić płynne działanie. Gdy będziesz gotowy, kliknij poniższy przycisk",
@@ -1709,7 +1812,9 @@
         "Tutorial.Saving.Title": "Witaj w domu!",
         "Tutorial.Saving.Content": "Witamy w <b><i><color=hero.yellow>domu</b></i></color>! Jest to miejsce, do którego trafisz za każdym razem, gdy się zalogujesz.<br><br>Jest to twój własny świat, więc wszelkie wprowadzone zmiany można zapisać.<br><br>Jeśli zapiszesz, po powrocie wszystko będzie tak, jak zostawiłeś!",
 
-        "CloudHome.Info.OnlineUsers": "Online {online_users,plural, one {user} other {users}}: {online_users}<br>Joinable {joinable_users,plural, one {user} other {users}}: {joinable_users}",
+        "Tutorial.Teleporter.Error": "Nie udało się wczytać Twojego domu w chmurze!<br><size=66%>Wyjdź z teleportera i wróć, aby spróbować ponownie.</size>",
+        
+        "CloudHome.Info.OnlineUsers": "{online_users} {online_users,plural, one {Użytkownik} other {Użytkowników}} online <br>{joinable_users} {joinable_users,plural, one {Dołączalny} other {Dołączalnych}} {joinable_users,plural, one {Użytkownik} other {Użytkowników}} ",
         "CloudHome.Info.Moderation": "Moderacja",
         "CloudHome.Info.Inventory": "Ekwipunek",
         "CloudHome.Info.Tools": "Narzędzia",
@@ -1883,13 +1988,13 @@
         "Hints.Sundial.SoftEquipExtra": "Narzędzia pozwalają zmieniać otaczający Cię świat na wiele sposobów!",
 
         "Hints.Sundial.HardEquip": "Kliknij to narzędzie, aby je wyposażyć!",
-        "Hints.Sundial.HardEquipExtra": "Don't see your laser? Slightly Hold your Trigger to reveal it!",
+        "Hints.Sundial.HardEquipExtra": "Nie widzisz swojego lasera? Lekko przytrzymaj spust, aby go zobaczyć!",
 
         "Hints.Sundial.TheSun": "Celuj w niebo i kliknij, aby przenieść tam słońce!",
         "Hints.Sundial.TheSunExtra": "Spróbuj wycelować poniżej horyzontu, aby zapadła noc!",
 
         "Hints.Sundial.Dequip": "Upuść wyposażone narzędzie, wybierając opcję Odekwipuj w menu kontekstowym.",
-        "Hints.Sundial.DequipExtra": "Notice the options in your Context Menu have changed because you're holding this tool.",
+        "Hints.Sundial.DequipExtra": "Zauważ, ponieważ trzymasz to narzędzie, opcje w menu zmieniły się.",
 
         "Hints.Sundial.Teleporter": "Naciśnij ten przycisk, aby aktywować Teleporter do swojego Cloud Home!",
         "Hints.Sundial.TeleporterExtra": "Ciesz się swoim domem i dziękujemy za wizytę!",
@@ -1930,13 +2035,16 @@
 
         "UI.ProgressBar.ImportingItem": "Importowanie Przedmiotu",
 
+        "UI.Camera.Automatic": "Automatyczna",
+        "UI.Camera.Manual": "Manualna",
+        
         "Tools.Names.MultiTool": "Narzędzie Wielofunkcyjne",
 
-        "Tools.Names.CommonTools": "Common Tools",
+        "Tools.Names.CommonTools": "Ogólne narzędzia",
         "Tools.Names.ManipulationTools": "Narzędzia manipulacji",
         "Tools.Names.InformationTools": "Narzędzia informacyjne",
 
-        "Tools.Names.GeometryLineBrush": "Narzędzie Pędzel geometrii",
+        "Tools.Names.GeometryLineBrush": "Narzędzie Pędzel linii geometrycznej",
         "Tools.Names.Developer": "Narzędzie Deweloperskie",
         "Tools.Names.ComponentClone": "Narzędzie klonowania komponentów",
         "Tools.Names.ProtoFlux": "Narzędzie ProtoFlux",
@@ -1945,14 +2053,14 @@
         "Tools.Names.Light": "Narzędzie światła",
         "Tools.Names.Shape": "Narzędzie kształtu",
         "Tools.Names.Microphone": "Narzędzie Mikrofon",
-
-
-
-
+        "Tools.Names.GrabbableSetter": "Narzędzie Ustalania Możliwości Chwytania",
+        "Tools.Names.PhysicalColliderSetter": "Narzędzie Ustalania Kolizji Fizycznej",
+        "Tools.Names.MeshVisibility": "Narzędzie Widoczności Siatki",
+        "Tools.Names.CameraObjectVisibility": "Narzędzie Widoczności Obiektów Kamery",
         "Tools.Names.Color": "Narzędzie koloru",
-        "Tools.Names.Mesh": "Narzędzie siatki",
+        "Tools.Names.Mesh": "Narzędzie meshu",
 
-
+        "Tools.Names.Slicer": "Narzędzie Wycinania meshy",
         "Tools.Names.ControllerDiagnostic": "Narzędzie diagnostyczne kontrolera",
         "Tools.Names.Measure": "Narzędzie pomiarowe",
         "Tools.Names.Label": "Narzędzie etykietowania",
