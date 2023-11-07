@@ -256,13 +256,11 @@
         "Options.SeatedMode.Off": "Sittende modus: Av",
 
         "Indicator.OnlineUsers": "Online brukere: ~{num_total} ({num_registered})",
-        "Indicator.ServerStatus": "<color=#fff>Serverstatus:</color> {status, select, Good {Good} Slow {Slow} Down {Down} NoInternet {No Internet}} ({response_ms} ms)",
 
         "Indicator.Sync.AllSynced": "Allet synkronisert",
         "Indicator.Sync.SyncingItems": "Synkronisering {item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "Laster opp {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError": "Synkroniseringsfeil! <size=50%>Sjekk loggen for detaljer</size>",
-        "Indicator.Sync.OutOfSpace": "Tom for rom! <size=50%>Kan ikke synkronisere</size>",
 
         "Indicator.LiveHiddenMessage": "(informasjon skjult mens du er live)",
 
@@ -286,7 +284,6 @@
         "Account.RecoverPassword": "Mistet Passord?",
         "Account.LiveEmailWarning": "<color=#f00>WARNING:</color> live.com, hotmail.com, outlook.com og andre Microsoft-eide tjenester kan ta opptil 1-2 dager å godta e-posten.",
         "Account.PasswordRules": "(minst 8 tegn, 1 siffer, 1 liten bokstav, 1 stor bokstav)",
-        "Account.AgeConfirm": "Jeg er 13 år eller eldre",
         "Account.LostPassword": "Mistet Passord",
         "Account.SendRecoveryCode": "Send gjenopprettingskode",
         "Account.ResetPasswordHeader": "Tilbakestill passordet ditt",
@@ -349,8 +346,6 @@
         "Notifications.ReceivedContactRequest": "Sendte en kontaktforespørsel",
         "Notifications.ReceivedInvite": "Inviterer deg til:",
         "Notifications.ReceivedItem": "Sendte deg et element:",
-        "Notifications.ReceivedTip": "Mottatt tipp {amount} {token}",
-        "Notifications.SentTip": "Sendt tipp {amount} {token}",
 
         "Undo.SetField": "Sett felt {field_name} til {value}",
         "Undo.SetReference": "Angi referanse {ref_name} til {ref_target}",
