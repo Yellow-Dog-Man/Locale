@@ -92,15 +92,15 @@ optional arguments:
 - Make sure the .json locale file is UTF8 encoded
 - Always keep the "Dummy" : "Dummy" entry at the bottom of the file. This way you don't have to remember to remove the comma at the end of the last entry every time
 - Copy & Paste the whole content of the file into this online validator to ensure you don't have any syntax errors: https://jsonformatter.curiousconcept.com/
-- DO use spaces instead of tabs to keep the formatting of all documents consistent
-- DO check if other users are making modifications to the same locale as you are in Issues and coordinate. If you send changes that conflict with other users, it's hard to resolve them on our end since we don't understand the language.
-- DO keep the same style of formatting and coloring where it's present in the text to ensure it stays consistent across locales. Coloring in particular can be contextual and used in other parts of the UI and changing or removing it would cause user confusion.
+- **DO** use spaces instead of tabs to keep the formatting of all documents consistent
+- **DO** check if other users are making modifications to the same locale as you are in Issues and coordinate. If you send changes that conflict with other users, it's hard to resolve them on our end since we don't understand the language.
+- **DO** keep the same style of formatting and coloring where it's present in the text to ensure it stays consistent across locales. Coloring in particular can be contextual and used in other parts of the UI and changing or removing it would cause user confusion.
 
-- DON'T update the Localization Status section of this document, it is automatically generated when changes are merged
-- DON'T update the MISSING.md file manually, it's automatically generated as part of the build process based on the changes you submit
-- DON'T convert the formatting of the entire document. This creates major merge conflicts and makes it hard to track what was actually changed, plus it introduces inconsistencies
-- DON'T correct mistakes in the string keys, only report them. They will be fixed by a script, which will apply the correction to all locales at once.
-- DON'T submit purely machine translated locales. Those often result in odd and confusing results for user interfaces. Using machine translation as basis for manual translation is ok.
+- **DON'T** update the Localization Status section of this document, it is automatically generated when changes are merged
+- **DON'T** convert the formatting of the entire document. This creates major merge conflicts and makes it hard to track what was actually changed, plus it introduces inconsistencies
+- **DON'T** correct mistakes in the string keys, only report them. They will be fixed by a script, which will apply the correction to all locales at once.
+- **DON'T** submit purely machine translated locales. Those often result in odd and confusing results for user interfaces. Using machine translation as basis for manual translation is ok.
+- **DON'T** Submit strings from PRs that have the "New Strings" label until that PR is merged. The development team may need to update or change these strings as a part of their inclusion and this can cause conflicts. Wait till the PR is merged and THEN work on the new strings.
 
 ## The ICU MessageFormat Syntax for translation strings
 Resonite uses the ICU MessageFormat Syntax defined by the Unicode organization for its localized strings. This offers high amount of flexibility on how you translate strings and ensures that you can correctly follow the grammar rules of your language, particularly with regards to pluralization (e.g. displaying "1 item" vs "1 items"). This is why it's important to ensure that your language has a pluralizer implemented in our fork of MessageFormat.NET
@@ -132,6 +132,9 @@ For example if your system locale is British English (en-gb), it will first look
 We recommend putting most translations into the general language file (single two letter or three letter code) and if necessary only put specific overrides into the more specific language file. That way, most translations can be shared across variants of the language if possible.
 
 Any strings you don't translate at all will also fall back into their English variants, so you don't have to worry about missing some of them, they can be translated later (or by another contributor). This also ensures that newly added strings in the English will show up and can be gradually translated as they come.
+
+## CI
+When you open a PR some tooling will run to validate that your JSON is valid and that your changes do not include any keys that are not found in the english file. If these checks fail, we cannot merge your PR so make sure to look into why the failure occurs.
 
 ## FAQ
 ### What if I find string that cannot be translated?
