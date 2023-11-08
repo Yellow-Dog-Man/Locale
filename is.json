@@ -9,7 +9,7 @@
         "General.Cancel": "Hætta",
         "General.Continue": "Halda áfram",
         "General.Next": "Næst",
-
+        "General.Previous": "Fyrr",
         "General.Back": "Til baka",
         "General.Confirm": "Ertu viss?",
         "General.Loading": "Hlaða...",
@@ -21,17 +21,42 @@
         "General.Saving": "Að vista...",
         "General.Saved": "Vistað!",
         "General.Done": "Búið!",
-
+        "General.Close": "Loka",
+        "General.CopyToClipboard": "Afrita í klippborð",
         "General.CopiedToClipboard": "Afritað!",
         "General.CopiedToClipboardLong": "Afritað í klippborð!",
         "General.Create": "Búa til",
         "General.Creating": "Að búa til...",
+        "General.Buy": "Kaupa",
+        "General.Yes": "Já",
+        "General.No": "Nei",
+        "General.ClearSelection" : "Hreinsa val",
+        "General.Off": "Af",
+        "General.On": "Á",
+        "General.Understand": "Ég skil",
+        "General.Notice" : "Tilkynning",
+        "General.UnderstandEnable" : "Ég skil, Kveika á",
+	    "General.Dismiss": "Hunsa",
+        "General.Edit": "Breyta",
 
         "General.UI.SearchPrompt": "Leita...",
         "General.UI.SearchPromptLong": "Sláðu inn til að leita...",
 
+        "General.UI.ToggleSubtitles": "Kveikja/Slökkva Texta",
+        "General.UI.Subtitles.On" : "Texta: Á",
+        "General.UI.Subtitles.Off" : "Texta: Af"
+
+        "General.UI.MusicVolumeLocal": "Tónlistarstyrkur (local):",
+        "General.UI.VoiceVolumeLocal": "Raddstyrkur (local):",
+        "General.UI.SoundVolumeLocal": "Hljóðstyrkur (local):",
+
+        "General.UI.PressToBegin": "Ýttu á til að byrja",
+
         "General.Sort.Ascending": "Hækkandi",
         "General.Sort.Descending": "Lækkandi",
+
+        "Worlds.Home" : "Heima",
+        "Worlds.Tutorial" : "Byrjendanámskeið",
 
         "Locomotion.Noclip.Name": "Neiklip",
         "Locomotion.Noclip.Description": "Einfallt flug hreyfingargerfi án gerfihöggskynjun. Gott að nota fyrir að vinna.",
@@ -55,16 +80,19 @@
         "Interaction.SaveToInventory": "Vista í birgðahald",
         "Interaction.Undo": "Afgera",
         "Interaction.Redo": "Endurgera",
-        "Interaction.EquipTool": "Tengja",
-        "Interaction.DequipTool": "Ótengja",
+        "Interaction.EquipTool": "Tengja verkfæri",
+        "Interaction.DequipTool": "Aftengja verkfæri",
         "Interaction.ScalingEnabled": "Breytileg stigstærð: Á",
         "Interaction.ScalingDisabled": "Breytileg stigstærð: Af",
         "Interaction.ResetScale": "Endurstilla stigstærð",
         "Interaction.LaserEnabled": "Bendill: Á",
         "Interaction.LaserDisabled": "Bendill: Af",
+		
+		
+		
 
         "Interaction.Locomotion": "Hreyfingarkerfi",
-        "Interaction.Locomotion.None": "Enginn",
+        "Interaction.Locomotion.None": "Ekkert",
 
         "Interaction.NamedEquipTool": "Tengja {name}",
         "Interaction.NamedEquipTool.Default": "Verkfæri",
@@ -74,11 +102,35 @@
 
         "Interaction.EquipAvatar": "Hoppa í avatar",
 
-        "Interaction.SaveAsScreenshot": "Vista sem screenshot",
-
+        "Interaction.SaveAsScreenshot": "Vista sem skjámynd",
+        "Interaction.ExportScreenshot": "Útflytja skjámynd",
         "Interaction.ImportFile": "Innflytla skjal",
         "Interaction.ExportFile": "Útflytja skjal",
         "Interaction.CopyLink": "Afrita linkur",
+		
+        "Inventory.OpenWorld": "Opna heim",
+        "Inventory.Equip": "Tengja",
+        "Inventory.Delete": "Eyða",
+        "Inventory.CreateDirectory": "Búa til möppu",
+        "Inventory.SaveHeld": "Vista hlut í hendi",
+        "Inventory.GetURL": "Fá URL",
+        "Inventory.Inventories": "Birgðahöld",
+        "Inventory.Share": "Deila",
+        "Inventory.Unshare": "Afdeila",
+        "Inventory.SaveAvatar": "Vista avatar",
+        "Inventory.Favorite.Home": "Velja Heimili",
+        "Inventory.Favorite.ProgressBar": "Velja Hleðslustikur",
+        "Inventory.Favorite.AudioStreamController": "Velja Straumstýring",
+        "Inventory.Favorite.TextDisplay": "Velja Textaskjá",
+        "Inventory.Favorite.VideoPlayer": "Velja Myndbandsspilari",
+        "Inventory.Favorite.AudioPlayer": "Velja  Hljóðspilari",
+        "Inventory.Favorite.InteractiveCamera": "Velja Myndavél",
+        "Inventory.Favorite.Keyboard": "Velja lyklaborð",
+        "Inventory.Favorite.Avatar": "Velja avatar",
+        "Inventory.Favorite.WorldLoadingIndicator": "Velja Veraldarhleðslustikur",
+        "Inventory.Favorite.ColorDialog": "Velja Litaveljari",
+        "Inventory.Favorite.Hyperlink": "Velja URL Display",
+
 
         "Dash.Screens.Home": "Heim",
         "Dash.Screens.Worlds": "Veraldir",
@@ -91,14 +143,23 @@
         "Dash.Screens.Exit": "Loka",
 
         "Dash.Actions.PasteFromClipboard": "Líma innihald klippiborðs",
+		
+
 
         "Dash.Actions.CloudHome": "Heimilið mitt á netinu",
 
         "Dash.Exit.Header": "Loka {appName}",
         "Dash.Exit.ExitAndSave": "Loka og vista heimil",
         "Dash.Exit.ExitAndDiscard": "Loka og ekki vista hemili",
+        "Dash.Exit.Sponsor": "Gífulegar þakkir {name} fyrir að styrkja þetta verkefni!",
+        "Dash.Exit.Shoutouts": "Þetta verkefni er einnig gert mögulegt þökk sé þessu fólki:",
+        "Dash.Exit.Shoutouts.AndMore" : " og margir fleiri!",
+        "Dash.Exit.Shoutouts.You" : "{name} (Þarna ertu! Þakka þér fyrir!)",
+        "Dash.Exit.Sponsor.You": "ÞÚ",
         "Dash.Exit.ThankYou": "Takk fyrir að spila {appName}!",
         "Dash.Exit.SubmittedBy": "Sent inn af: {name}",
+
+
 
         "World.Waiting": "Er í biðslu...",
         "World.HostIsStarting": "Gestgjafi er að hefja þing",
@@ -106,12 +167,18 @@
         "World.LoadingFailed": "Mistókst",
         "World.LoadedAssets": "Hlaðaði {assets} af {total_assets}",
         "World.Downloading": "Niðurhalaði {bytes} af {total_bytes}",
+        "World.Loaded": "Fullkomin hleðsla",
 
         "World.Connection.EstablishingConnection": "Er að tengjast",
         "World.Connection.RequestingJoin": "Ósk um tengingu",
         "World.Connection.Authenticating": "Að staðfesta",
         "World.Connection.Connected": "Tengd/ur",
         "World.Connection.SyncingInitialState": "Er að samstilla uprunaleg veraldar staða",
+		
+
+
+
+
 
         "World.Error.AccessDenied": "Aðgengi hafnað",
         "World.Error.SecurityViolation": "Öryggisbrot",
@@ -216,7 +283,7 @@
         "World.Category.Featured": "Valin sérstaklega",
         "World.Category.PublishedWorlds": "Útgefnir veraldar",
         "World.Category.ActiveSessions": "Virk þing",
-
+        "World.Category.ContactsSessions": "Tengilið þing",
         "World.Category.HeadlessSessions": "Netþjónn hýst þing",
         "World.Category.Social": "Félagsleg",
         "World.Category.Games": "Leikir",
@@ -258,7 +325,7 @@
         "World.Filter.SessionFiltering": "þingsía:",
         "World.Filter.MinimumUsers": "Lámarksnotendur: <b>{n}</b>",
 
-        "World.Filter.OnlyHeadless": "Einungis höfuðlausar hýsendur",
+        "World.Filter.OnlyHeadless": "Einungis netþjónn hýsendur",
         "World.Filter.MaxAccessLevel": "Hámarks aðgangstig:",
         "World.Filter.MinimumUptime": "Lámarks upptími:",
         "World.Filter.Sorting": "Flokkun:",
@@ -294,20 +361,96 @@
         "Options.Nameplates.All": "Nafnspjöld: Sýna",
         "Options.Nameplates.NonContacts": "Nafnspjöld: Sýna ekki tengiliði",
         "Options.Nameplates.Hide": "Nafnspjöld: Fela",
+        "Options.Nameplates.DefaultStyle": "Nota default nafnspjöld",
+        "Options.Nameplates.CustomStyle": "Leyfa custom nafnspjöld",
 
-        "Indicator.OnlineUsers": "Virkir notendur: ~{num_registered} ({num_total})",
+        "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> Virkir notendur {users,plural, one {User} other {Users}}",
+        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {user} other {users}} í VR",
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {user} other {users}} á Desktop",
+
+        "Indicator.ServerStatus.Status": "Staða skýjaþjóns",
+        "Indicator.ServerStatus.Good": "Gott",
+        "Indicator.ServerStatus.Slow": "Hægt",
+        "Indicator.ServerStatus.Down": "Niður",
+        "Indicator.ServerStatus.NoInternet": "Ekkert internet",
 
         "Indicator.Sync.AllSynced": "Allt samstillt",
         "Indicator.Sync.SyncingItems": "Samstilla {item_count,plural, one {# hlut} other {# hlutir}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "Upphlaða {variant_count,plural, one {# eignarafbrigði} other {# eignarafbrögð}}",
         "Indicator.Sync.SyncError": "Samstillingarvilla! <size=50%>Kíktu á log skrá fyrir gríðalega góðar upplysýngar</size>",
+        "Indicator.Sync.StorageFull": "Geymsla fullt <size=61.803%>Ekki hægt að samstilla</size>",
+		
+        "Indicator.Storage.StorageFull": "Geymsla fullt",
+        "Indicator.Storage.Usage": "{storage_used} af {storage_max}<br><size=61.803%>Geymslupláss notað</size>",
 
         "Indicator.LiveHiddenMessage": "(Upplysingar faldar á meðan þú ert í beinni)",
+		
+        "Login.InvalidCredentials": "Skilríki ógild",
+        "Login.InvalidCredentials.Description": "Athugaðu skilríkin þín og reyndu aftur eða ýttu á „Týnt lykilorð?“",
+		
+        "Login.InvalidLogin": "Skilríki ógild",
+        "Login.InvalidLogin.Description": "Athugaðu skilríkin þín og reyndu aftur eða ýttu á „Týnt lykilorð?“",
+		
+        "Login.MalformedUID": "Ógildar upplýsingar um tæki",
+        "Login.MalformedUID.Description": "Prófaðu að eyða og síðan endurhlaða {appName} eða hafðu samband við þjónustuver á {supportUrl}.",
+		
+        "Login.MissingUID": "Vantar upplýsingar um tæki",
+        "Login.MissingUID.Description": "Prófaðu að eyða og síðan endurhlaða {appName} eða hafðu samband við þjónustuver á {supportUrl}.",
+		
+        "Register.MissingUID": "Vantar upplýsingar um tæki",
+        "Register.MissingUID.Description": "Prófaðu að eyða og síðan endurhlaða {appName} eða hafðu samband við þjónustuver á {supportUrl}.",
+		
+        "Register.MalformedUID": "Ógildar upplýsingar um tæki",
+        "Register.MalformedUID.Description": "Prófaðu að eyða og síðan endurhlaða {appName} eða hafðu samband við þjónustuver á {supportUrl}.",
+		
+        "Login.MissingLogin": "No credentials provided",
+        "Login.MissingLogin.Description": "Did you forget to provide credentials?",
 
+
+        "Login.EmailNotVerified": "Tölvupóstfang ekki staðfest",
+        "Login.EmailNotVerified.Description": "Tölvupóstfangið þitt er ekki staðfest, athugaðu pósthólfið þitt fyrir tölvupóst frá okkur, vertu viss um að þú skoðir ruslpóstmöppuna þína.",
+
+
+        "Register.UsernameTooLong": "Notendanafn of langt",
+        "Register.UsernameTooLong.Description": "Við leyfum notendanöfn allt að 32 stafir að lengd.",
+		
+        "Register.UsernameContainsAmpersand": "Notandanafn má ekki innihalda @",
+        "Register.UsernameContainsAmpersand.Description": "Notandanafnið þitt má ekki innihalda @.",
+		
+        "Register.UsernameStartsWithU": "Notendanafn má ekki byrja á U-",
+        "Register.UsernameStartsWithU.Description": "Notendanöfn geta ekki byrjað á U-.",
+		
+        "Register.InvalidUsername": "Notandanafn ógilt",
+        "Register.InvalidUsername.Description": "Notandanafnið þitt er ógilt.",
+		
+        "Register.InvalidDateOfBirth": "Fæðingardagur ógildur",
+        "Register.InvalidDateOfBirth.Description": "Fæðingardagur þinn er ógildur.",
+		
+        "Register.UserContainsBlockedTerms": "Notandanafn inniheldur bönnuð orð",
+        "Register.UserContainsBlockedTerms.Description": "Notandanafnið þitt inniheldur læst orð. Ef þú telur að þetta sé villa hafðu samband við {supportUrl}.",
+		
+        "Register.MissingPassword": "Lykilorð vantar",
+        "Register.MissingPassword.Description": "Þú skrifaði ekki inn lykilorð.",
+		
+        "Register.InvalidPassword": "Lykilorð ógilt",
+        "Register.InvalidPassword.Description": "Lykilorðið þitt er ógilt. Það verður að innihalda að minnsta kosti 8 stafi, 1 tölustaf, 1 hástaf og 1 lágstaf.",
+
+        "Register.EmailAlreadyRegistered": "Tölvupóstfang þegar skráð",
+        "Register.EmailAlreadyRegistered.Description": "Reikningur sem notar þetta tölvupóstfang er þegar til, ef þú hefur gleymt lykilorðinu þínu geturðu smellt á „Týnt lykilorð“. Eða þú getur haft samband við þjónustudeild á {supportUrl}.",
+
+        "Register.UsernameAlreadyRegistered": "Notandanafn nú þegar skráð",
+        "Register.UsernameAlreadyRegistered.Description": "Reikningur sem notar þetta notendanafn er þegar til, ef þú hefur gleymt lykilorðinu þínu geturðu smellt á „Týnt lykilorð“. Eða þú getur haft samband við þjónustudeild á {supportUrl}.",
+
+        "Recovery.NoPasswordSetup" : "Ekkert lykilorð uppset", 
+        "Recovery.NoPasswordSetup.Description" : "Vinsamlegast hafðu samband við þjónustudeild á {supportUrl}.",
+
+        "Register.UnknownError": "Óþekkt villa",
+        "Register.UnknownError.Description": "Óþekkt villa kom upp við skráningu. Vinsamlegast hafðu samband við þjónustudeild á {supportUrl}.",
+		
         "Account.Login": "Innskráning",
         "Account.Logout": "Útskráning",
         "Account.Register": "Skrá nýr notandi",
-
+        "Account.Saml2" : "Innskrá með SAML 2.0",
         "Account.LoginOrRegister": "Innskráning / Skrá sig",
         "Account.LogoutConfirm": "Ertu viss um að þú viljir skrá þig út?",
         "Account.LoggingIn": "Innskráning í vinnslu...",
@@ -316,8 +459,8 @@
         "Account.Anonymous": "Nafnlaus",
         "Account.Username": "Notendanafn:",
         "Account.Email": "Tölvupóstfang:",
-        "Account.RememberMe": "Muna eftir mér: (7 daga)",
-        "Account.RepeatEmail": "Endurtaka Tölvupóstfang:",
+        "Account.RememberMe": "Muna eftir mér<br><size=50%>(skráir þig út eftir 30 daga óvirkni)</size>",
+        "Account.RepeatEmail": "Endurtaka tölvupóstfang:",
         "Account.UsernameOrEmail": "Notendanafn eða tölvupóstfang:",
         "Account.Password": "Lykilorð:",
         "Account.RepeatPassword": "Endurtaka lykilorð:",
@@ -335,13 +478,34 @@
         "Account.ErrorPasswordMismatch": "Lykilorð passa ekki!",
         "Account.ErrorEmailMismatch": "Tölvupóstfang passa ekki!",
         "Account.ErrorLoginError": "Villa við innskráningu:",
-        "Account.RegistrationSuccess": "Vá glæsilegt! Erum búin að senda þér tölvupóst með staðfestingarhlekk. Eftir þú ert búin að smella á þennan hlekk getur þú skráð þig inn.",
+        "Account.RegistrationSuccess": "<size=120%>Vá glæsilegt!</size><br><br>Erum búin að senda {email} tölvupóst með staðfestingarhlekk.<br><br>Þegar þú hefur smellt á þennan hlekk munum við skrá þig sjálfkrafa inn svo lengi sem þessi gluggi er opinn.<br><br>Ef þú lendir í vandræðum skaltu hafa samband við okkur á {appEmail} eða {appCommunity}.",
+        "Account.BirthMonth": "Fæðingarmánuður:",
+        "Account.BirthDay": "Fæðingardagur:",
+        "Account.BirthYear": "Fæðingarár:",
+        "Account.PoliciesAgreement": "Ég samþykki <color=#22B2FF>þjónustuskilmála</color> og <color=#22B2FF>persónuverndarstefnu</color>",
+        "Account.AlternateMethods" : "Skráðu þig inn með þriðja aðila þjónustu í staðinn:",
+		
+        "Account.Saml2.Title" : "SAML 2.0",
+        "Account.Saml2.Select" : "Vinsamlegast veldu SAML 2.0 þjónustuveita þú vilt nota:",
+        "Account.Saml2.LoggingIn" : "Að bíða eftir innskráningu ljúki (athugaðu vafrann þinn)...",
+		
+		
+
+        "Account.Type.Standard" : "Venjulegur reikningur",
+        "Account.Type.Business" : "Viðskiptareikningur",
+        "Account.Type.Patreon" : "Patreon stuðningsmaður",
+        "Account.Type.Mentor" : "{platform} Mentor leiðbeinandi",
+        "Account.Type.Moderator" : "{platform} lögreglumaður",
+        "Account.Type.Team" : "{platform} liðsmaður",
+
+        "Avatar.Badge.Live" : "BEINT",
 
         "Profile.Status.Online": "Virkur",
         "Profile.Status.Away": "Í burtu",
         "Profile.Status.Busy": "Upptekinn",
         "Profile.Status.Invisible": "Ósýnilegur",
         "Profile.Status.Offline": "Ótengdur",
+        "Profile.Status.Headless": "Netþjónn gestgjafi",
 
         "Session.Tab.Settings": "Stillingar",
         "Session.Tab.Users": "Notendur",
@@ -356,8 +520,9 @@
 
         "Permissions.NotAllowedToSpawn": "Þú mátt ekki spawna hluti hérna.",
         "Permissions.NotAllowedToSave": "Þú mátt ekki vista hluti frá þessum heim.",
-        "Permissions.NotAllowedToSwapAvatar": "Þú mátt ekki skipta í kustom avararinn þinn hér.",
+        "Permissions.NotAllowedToSwapAvatar": "Þú mátt ekki skipta í kustom avarar hér.",
 
+        "User.Actions.Silence": "Þaggna",
         "User.Actions.Mute": "Mállaus",
         "User.Actions.Jump": "Hoppa",
         "User.Actions.Respawn": "Endurræsa mann",
@@ -476,28 +641,44 @@
         "Tooltip.Microphone.SourceRaw": "Hrátt",
         "Tooltip.Microphone.SourceFiltered": "Sigtað og venjað",
 
-        "Importer.Image.Title": "Mynd importara",
-        "Importer.Image.Prompt": "Hvað ertu að importa?",
+        "Importer.Image.Title": "Innflytja ljósmynd",
+        "Importer.Image.Prompt": "Hvað ertu að innflytja?",
         "Importer.Image.Regular": "Ljósmynd / Texture",
+        "Importer.Image.Screenshot": "skjáskót <size=50%>(Tekin hér)</size>",
+    	"Importer.Image.PixelArt" : "Pixla myndlist",
+        "Importer.Image.360": "360 ljósmynd / skybox",
+        "Importer.Image.StereoPhoto": "Steríó ljósmynd",
+        "Importer.Image.Stereo360": "Steríó 360 ljósmynd",
+        "Importer.Image.180": "180 ljósmynd",
+        "Importer.Image.Stereo180": "Steríó 180 ljósmynd",
 
-        "Importer.Image.360": "360 mynd / skybox",
-        "Importer.Image.StereoPhoto": "Stereo mynd",
-        "Importer.Image.Stereo360": "Stereo 360 mynd",
-        "Importer.Image.180": "180 mynd",
-        "Importer.Image.Stereo180": "Stereo 180 mynd",
 
         "Importer.Model.Meters": "Metrar (m)",
         "Importer.Model.Millimeters": "Millimetrar (mm)",
         "Importer.Model.Centimeters": "Sentimetrar (cm)",
         "Importer.Model.Inches": "Tommur",
         "Importer.Model.FinalizePrompt": "Allt tilbúið?",
-
+		
+        "Importer.Video.Title": "Innflytja Video",
+        "Importer.Video.Prompt": "Hvað ertu að innflytja?",
+        "Importer.Video.Regular": "Myndband",
+        "Importer.Video.360": "360° myndband",
+        "Importer.Video.Stereo360": "Steríó 360° myndband",
+        "Importer.Video.180": "180° myndband",
+        "Importer.Video.Stereo180": "Steríó 180° myndband",
+		
+        "Importer.Video.Depth.Default": "Sjálfgefið",
+		
+        "NewWorld.SessionSettings": "Þing stillingar:",
+		
+        "NewWorld.DefaultName": "{name} heim",
+				
         "Settings.Height": "Hæðin mín:",
         "Settings.Metric": "Metrakerfi (cm)",
         "Settings.Imperial": "Tómmumál (ft)",
 
         "Settings.OverrideLocale": "Yfirskrifa Locale:",
-        "Settings.HideAllTutorials": "Fela öll Tutorial",
+        "Settings.HideAllTutorials": "Fela öll byrjendanámskeið",
         "Settings.ShowInteractionHints": "Sýna Interaction Hints",
         "Settings.PrimaryController": "Aðalfjarstýring",
         "Settings.AllowStrafing": "Leyfa streifing",
@@ -506,22 +687,41 @@
         "Settings.SmoothTurnExclusiveMode": "Einungis slétt snúnings stilling",
         "Settings.SmoothTurnSpeed": "Slétt snúnings hraði",
         "Settings.SnapTurnAngle": "Smell snúning í gráðum",
-        "Settings.NoclipSpeed": "Hraði á flugi gegnum veggi",
+        "Settings.NoclipSpeed": "Neiklip hraði",
 
         "Settings.ControllerVibration": "Titring í fjarstýringu",
 
         "Settings.DisablePhysicalInteractions": "Slökkva á Physical Interactions",
         "Settings.EnableGestures": "Kveikja á Gestures",
         "Settings.DoubleClickInterval": "Double Click tímabil",
-        "Settings.ResetAllTutorials": "Endurstilla öll Tutorial",
+        "Settings.ResetAllTutorials": "Endurstilla öll byrjendanámskeið",
         "Settings.PreferSteamNetworking": "Velja frekar Steam Networking Sockets",
 
         "Settings.LegacyGripEquip": "Kveikja á Legacy Double Grip Equip",
         "Settings.LegacyWorldSwitcher": "Kveikja á Legacy World Switcher",
         "Settings.FetchIncompatibleSessions": "Sýna Incompatible Sessions",
+		
+        "Settings.Audio.Header": "Hljóð",
+        "Settings.Audio.Input.Title" : "Hljóðinntakstæki",
+        "Settings.Audio.Master": "Master hljóðstyrk: {n,number,percent}",
+        "Settings.Audio.SoundEffects": "Hljóð effects: {n,number,percent}",
+		
+        "Settings.Audio.DisableVoiceNormalization": "Slökkva á Voice Normalisation",
+		
+        "Settings.Audio.NormzliationThreshold": "Normalisation þröskuldur: {n}",
+		
+        "Settings.Audio.InputDevice": "Hljóðinntakstæki:",
+        "Settings.Audio.OutputDevice": "Hljóðúttakstæki:",
+        "Settings.Audio.SelectInputDevice": "Veldu hljóðinntakstæki",
+        "Settings.Audio.SelectOutputDevice": "Veldu hljóðúttakstæki",
+        "Settings.Audio.TestInput": "Prófaðu hljóðinntakið þitt:",
+		
+        "Settings.Audio.StopTest": "Hættu að prófa",
 
+        "Settings.Locale.Title" : "Tungumál notendaviðmóts",
         "Settings.Locale.ChangeLanguage": "Breyta tungumáli",
         "Settings.Locale.SelectLanguageHeader": "Veldu tungumálið þitt:",
+        "Settings.Locale.DefaultLanguage": "Stillingar tölvunnar minnar",
 
         "Settings.Save": "Vista breytingar",
 
@@ -543,8 +743,8 @@
         "Settings.WindowsIntegration": "Windows samþætting",
         "Settings.LinuxIntegration": "GNU/Linux samþætting",
 
-        "Settings.System.KeepOriginalScreenshotFormat": "Halda upprunaleg screenshot snið",
-        "Settings.System.KeepOriginalScreenshotFormat.Description": "Með kveikt, screenshottar verða ekki breyttar í JPG þegar flutt út í skjalasaft á tölvunni",
+        "Settings.System.KeepOriginalScreenshotFormat": "Halda upprunaleg skjámynd snið",
+        "Settings.System.KeepOriginalScreenshotFormat.Description": "Með kveikt, skjámyndir verða ekki breyttar í JPG þegar flutt út í skjalasafn á tölvunni",
 
         "Security.Hyperlink.Warning": "<b><size=125%>Warning: Outgoing hyperlink</size></b>\nÞú hefur smellt á hlekk. Viltu opna það? Þessi hlekkur opnar í vafra á tölvuna þína.",
         "Security.Hyperlink.Open": "Opna",
@@ -565,6 +765,20 @@
         "Inspector.Mesh.SubmeshCount": "Submesh fjölda: {n}",
         "Inspector.Mesh.BoneCount": "Bein fjölda: {n}",
         "Inspector.Mesh.BlendshapeCount": "Blendshape fjölda: {n}",
+		
+        "Inspector.Fields.Drive" : "Keyra",
+        "Inspector.Fields.DriveWriteBack" : "Keyra <size=50%>(skrifa til baka)</size>",
+		
+        "Inspector.Actions.CopyComponent" : "Afrita Component",
+        "Inspector.Actions.MoveComponent" : "Færa Component",
+		
+        "CreateNew.Title" : "Nýtt",
+		
+        "Wizard.TextRenderer.SetColor": "Stilla lit",
+		
+        "Tutorial.Welcome.Welcome": "Velkominn/n!",
+		
+        "Tutorial.Welcome.Begin": "Byrjum!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} reikningur",
         "Tutorial.Welcome.AccountDescription": "Að nota {appName} reikning gefur þér aðgang að 1GB ókeypis geymsluplássi. Þú getur vistað hluti og avatars, bætt fólki við sem tengilið og send skilaboð.",
@@ -590,22 +804,56 @@
         "Tutorial.Welcome.SettingsHeight": "Hæðin þín",
         "Tutorial.Welcome.SettingsHeightExamples": "Dæmi: 1.85 m, 185 cm, 6' 1\", 6 fett 1 tomma",
 
-        "Tutorial.Welcome.StartTutorialHeader": "Byrja Tutorial",
-        "Tutorial.Welcome.StartTutorialDescription": "Við munum færa þig í tutorial heiminn til að aðlagast {appName}. Þú getur valið að hafa heiminn aðgengilegann fyrir aðra notendur, þá getur {appName} samfélagið hoppað inn og hjálpað þér. Eða læra á eigin spýtur.",
+        "Tutorial.Welcome.StartTutorialHeader": "Tilbúinn/n að kanna {appName}?",
+        "Tutorial.Welcome.StartTutorialDescription": "Allt komið og næstum tilbúið héðan! Við munum nú flytja þig yfir í kennsluheiminn okkar fyrir byrjendur. Í lokin er glænýr heimaheimur sem bíður þín, sem mun þjóna þér sem grunnur til að kanna {appName}. Þegar þú ert tilbúinn skaltu smella á hnappinn hér að neðan.",
+        "Tutorial.Welcome.StartTutorial": "Byrja námskeið",
 
-        "Tutorial.Intro.BadgesModerator": "{appName} hófstjóri",
-        "Tutorial.Intro.BadgesMentor": "Kennari",
+        "Tutorial.Intro.BadgesModerator": "{appName} lögreglumaður",
+        "Tutorial.Intro.BadgesMentor": "Mentor leiðbeinandi",
         "Tutorial.Intro.BadgesDisabilityHearing": "Heirnarskertur",
         "Tutorial.Intro.BadgesDisabilityVision": "Sjónskertur",
         "Tutorial.Intro.BadgesDisabilitySpeech": "Talskertur",
-        "Tutorial.Intro.BadgesTitle": "Merki",
-        "Tutorial.Intro.BadgesDescription": "Merki eða „Badges“ eru lítil merki sem sýna áhveðna hætti um notendur. Hérna eru nokkur mikilvæg merki til að vita um. Fötlunarmerkin er hægt að stilla sjálfur í gegnum {appName} vélmennið. Meiri upplýsingar eru á {appName} Wiki.",
+        "Tutorial.Intro.BadgesTitle": "Myndmerki",
+        "Tutorial.Intro.BadgesDescription": "Myndmerki eða „Badges“ eru lítil merki sem sýna áhveðna hætti um notendur. Hérna eru nokkur mikilvæg merki til að vita um. Fötlunarmerkin er hægt að stilla sjálfur í gegnum {appName} botinn. Meiri upplýsingar eru á {appName} Wiki.",
         "Tutorial.Intro.HelpSite": "Hjálp",
 
         "Exiting.SavingItems": "Að vista {n, plural, one {# hlut} other {# hlutir}}...",
         "Exiting.SavingChanges": "Að vista Breytingar...",
         "Exiting.Exiting": "Að loka...",
         "Exiting.LoggingOut": "Útskráning...",
+		
+        "Migration.Title": "Flutningur",
+        "Migration.NewTask": "Nýtt flutningsverkefni",
+		
+        "UI.ColorPicker.ColorPicker": "Litaveljari",
+		
+        "UI.ColorPicker.Red": "Rauður",
+        "UI.ColorPicker.Green": "Grænn",
+        "UI.ColorPicker.Blue": "Blár",
+		
+        "UI.Camera.Automatic": "Sjálfvirkur",
+        "UI.Camera.Manual": "Handvirkur",
+
+        "Tools.Names.GeometryLineBrush": "Geometry Line Brush verkfæri",
+        "Tools.Names.Developer": "Developer verkfæri",
+        "Tools.Names.ComponentClone": "Component Clone verkfæri",
+        "Tools.Names.ProtoFlux": "ProtoFlux verkfæri",
+        "Tools.Names.Material": "Material verkfæri",
+        "Tools.Names.Glue": "Glue verkfæri",
+        "Tools.Names.Light": "Ljós verkfæri",
+        "Tools.Names.Shape": "Shape verkfæri",
+        "Tools.Names.Microphone": "Hljóðnema verkfæri",
+        "Tools.Names.GrabbableSetter": "Grabbable Setter verkfæri",
+        "Tools.Names.PhysicalColliderSetter": "Physical Collider Setter verkfæri",
+        "Tools.Names.MeshVisibility": "Mesh Visibility verkfæri",
+        "Tools.Names.CameraObjectVisibility": "Camera Object Visibility verkfæri",
+        "Tools.Names.Color": "Lit verkfæri",
+        "Tools.Names.Mesh": "Mesh verkfæri",
+        "Tools.Names.RiggedMeshTransfer": "Rigged Mesh Transfer verkfæri",
+        "Tools.Names.Slicer": "Mesh Slicer verkfæri",
+        "Tools.Names.ControllerDiagnostic": "Controller Diagnostic verkfæri",
+        "Tools.Names.Measure": "Measure verkfæri",
+        "Tools.Names.Label": "Label verkfæri",
 
         "Dummy": "Dummy"
     }
