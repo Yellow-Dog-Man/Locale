@@ -35,6 +35,9 @@ Tooltip.ProtoFlux.PackInPlace
 Tooltip.ProtoFlux.PackInto  
 Tooltip.ProtoFlux.Unpack  
 Tooltip.ProtoFlux.ExplicitCast  
+ProtoFlux.UI.Call  
+ProtoFlux.UI.AsyncCall  
+ProtoFlux.UI.NodeBrowser.Title  
 Importer.Image.LUT  
 Importer.Video.Regular  
 Importer.Slices.Title  

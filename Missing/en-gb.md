@@ -115,7 +115,6 @@ Inventory.Favorite.InteractiveCamera
 Inventory.Favorite.Keyboard  
 Inventory.Favorite.Avatar  
 Inventory.Favorite.WorldLoadingIndicator  
-Inventory.Favorite.ColorDialog  
 Inventory.Favorite.Hyperlink  
 Inventory.SpawnFacet  
 Dash.Screens.Home  
@@ -323,7 +322,6 @@ Tools.StreamAudio.Dialog.Title
 Tools.StreamAudio.Start  
 Tools.StreamAudio.Bitrate  
 Tools.StreamAudio.Title  
-Tools.StreamAudio.Spatialized  
 Tools.StreamAudio.Broadcast  
 Tools.StreamAudio.PlayForOwner.Off  
 Tools.StreamAudio.PlayForOwner.On  
@@ -588,7 +586,6 @@ Undo.InsertParent
 Undo.Wiggler  
 Undo.ExtractMaterialsFromHierarchy  
 Undo.BatchConvertMaterials  
-Tooltips.Brush.ChangeColor  
 Tooltips.Brush.IncrementSize  
 Tooltips.Brush.DecrementSize  
 Tooltips.Dev.CreateNew  
@@ -1232,16 +1229,11 @@ Inspector.Texture.RotateCW
 Inspector.Texture.RotateCCW  
 Inspector.Texture.Rotate180  
 Inspector.Texture.TrimTransparent  
-Inspector.Texture.TrimByCornerColor  
 Inspector.Texture.MakeSquare  
 Inspector.Texture.ToNearestPOT  
 Inspector.Texture.MakeTileable  
 Inspector.Texture.TileLoop  
 Inspector.Texture.TileMirror  
-Inspector.Texture.NormalizeMaxOnly  
-Inspector.Texture.NormalizeMinMax  
-Inspector.Texture.NormalizeIndependent  
-Inspector.Texture.BleedColorToAlpha  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
 Inspector.Material.VariantInfo  
@@ -1363,7 +1355,6 @@ Wizard.TextRenderer.Disabled
 Wizard.TextRenderer.WithTag  
 Wizard.TextRenderer.ReplaceMaterial  
 Wizard.TextRenderer.ReplaceFont  
-Wizard.TextRenderer.SetColor  
 Desktop.Controls.Title  
 Desktop.OpenKeyboard  
 Desktop.FollowCursor.On  
@@ -1567,7 +1558,6 @@ StickyNote.RotateMeVR
 StickyNote.EquipMeDesktop  
 StickyNote.EquipMeVR  
 StickyNote.DipBrushes  
-StickyNote.BrushColor  
 StickyNote.Drawing  
 StickyNote.WorldCanvas  
 CloudHome.Panel.HomeControl  
@@ -1587,8 +1577,6 @@ CloudHome.Panel.InteriorAmbience
 CloudHome.Panel.InteriorAmbienceVolume  
 CloudHome.Panel.LightsOn  
 CloudHome.Panel.LightIntensity  
-CloudHome.Panel.LightColor  
-CloudHome.Panel.LightColorTemperature  
 CloudHome.Panel.Spawn  
 CloudHome.Panel.Foyer  
 CloudHome.Panel.Workspace  
@@ -1665,7 +1653,6 @@ UI.VideoPlayer.AudioZoneTheater
 UI.VideoPlayer.AudioZoneGlobal  
 UI.VideoPlayer.UsersLoaded  
 UI.VideoPlayer.AllUsersLoaded  
-UI.ColorPicker.ColorPicker  
 UI.ColorPicker.Linear  
 UI.ColorPicker.Hexadecimal  
 UI.ColorPicker.ColorSwatches  
@@ -1697,7 +1684,6 @@ Tools.Names.GrabbableSetter
 Tools.Names.PhysicalColliderSetter  
 Tools.Names.MeshVisibility  
 Tools.Names.CameraObjectVisibility  
-Tools.Names.Color  
 Tools.Names.Mesh  
 Tools.Names.RiggedMeshTransfer  
 Tools.Names.Slicer  
