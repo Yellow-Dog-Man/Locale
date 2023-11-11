@@ -52,8 +52,6 @@ Register.MissingUsername
 Register.MissingUsername.Description  
 Register.MissingEmail  
 Register.MissingEmail.Description  
-Register.UsernameContainsBlockedTerms  
-Register.UsernameContainsBlockedTerms.Description  
 Register.ErrorCheckingUserId  
 Register.ErrorCheckingUserId.Description  
 Recovery.MissingEmail  
@@ -515,6 +513,14 @@ Inspector.Slot.ParentUnder.WorldRoot
 Inspector.Slot.ParentUnder.WorldRoot.Undo  
 Inspector.Slot.ParentUnder.LocalUserSpace  
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
+Inspector.Member.ResetToDefault  
+Inspector.Member.BreakLinkDrive  
+Inspector.Member.OpenLinkDrive  
+Inspector.Member.SetAllToAvg  
+Inspector.Member.SetAllToX  
+Inspector.Member.SetAllToY  
+Inspector.Member.SetAllToZ  
+Inspector.Member.SetAllToW  
 Inspector.Mesh.ChannelStats  
 Inspector.Mesh.BakeMesh  
 Inspector.Mesh.SetupRenderer  
@@ -1039,4 +1045,9 @@ Tools.Names.MultiTool
 Tools.Names.CommonTools  
 Tools.Names.ManipulationTools  
 Tools.Names.InformationTools  
+Discord.RichPresence.InPrivateWorld  
+Discord.RichPresence.InPrivateLargeText  
+Discord.RichPresence.InPublicWorld  
+Discord.RichPresence.PublicWorldDetails  
+Discord.RichPresence.InPublicLargeText  
 

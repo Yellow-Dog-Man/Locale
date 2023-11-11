@@ -33,6 +33,19 @@ Tooltip.RigTransfer.ClearSource
 Tooltip.ComponentClone.SingleInstanceOn  
 Tooltip.ComponentClone.SingleInstanceOff  
 Tooltip.ComponentClone.ClearTemplate  
+Inspector.Member.ResetToDefault  
+Inspector.Member.BreakLinkDrive  
+Inspector.Member.OpenLinkDrive  
+Inspector.Member.SetAllToAvg  
+Inspector.Member.SetAllToX  
+Inspector.Member.SetAllToY  
+Inspector.Member.SetAllToZ  
+Inspector.Member.SetAllToW  
 UI.Camera.Automatic  
 UI.Camera.Manual  
+Discord.RichPresence.InPrivateWorld  
+Discord.RichPresence.InPrivateLargeText  
+Discord.RichPresence.InPublicWorld  
+Discord.RichPresence.PublicWorldDetails  
+Discord.RichPresence.InPublicLargeText  
 

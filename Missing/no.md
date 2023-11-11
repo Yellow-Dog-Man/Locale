@@ -27,7 +27,6 @@ Register.UsernameContainsAmpersand.Description
 Register.UsernameStartsWithU.Description  
 Register.InvalidUsername.Description  
 Register.InvalidDateOfBirth.Description  
-Register.UsernameContainsBlockedTerms  
 Register.UsernameContainsBlockedTerms.Description  
 Register.MissingPassword.Description  
 Register.InvalidPassword.Description  
@@ -66,8 +65,21 @@ Tooltip.ComponentClone.ClearTemplate
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
+Inspector.Member.ResetToDefault  
+Inspector.Member.BreakLinkDrive  
+Inspector.Member.OpenLinkDrive  
+Inspector.Member.SetAllToAvg  
+Inspector.Member.SetAllToX  
+Inspector.Member.SetAllToY  
+Inspector.Member.SetAllToZ  
+Inspector.Member.SetAllToW  
 Tutorial.Teleporter.Error  
 UI.VideoPlayer.AllUsersLoaded  
 UI.Camera.Automatic  
 UI.Camera.Manual  
+Discord.RichPresence.InPrivateWorld  
+Discord.RichPresence.InPrivateLargeText  
+Discord.RichPresence.InPublicWorld  
+Discord.RichPresence.PublicWorldDetails  
+Discord.RichPresence.InPublicLargeText  
 

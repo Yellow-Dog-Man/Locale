@@ -266,6 +266,14 @@ ComponentSelector.CommonGenericTypes
 ComponentSelector.CustomGenericArguments  
 ComponentSelector.InvalidType  
 Inspector.Title  
+Inspector.Member.ResetToDefault  
+Inspector.Member.BreakLinkDrive  
+Inspector.Member.OpenLinkDrive  
+Inspector.Member.SetAllToAvg  
+Inspector.Member.SetAllToX  
+Inspector.Member.SetAllToY  
+Inspector.Member.SetAllToZ  
+Inspector.Member.SetAllToW  
 Inspector.Mesh.RecalculateBlendshapeNormals  
 Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
 Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
@@ -606,4 +614,9 @@ Tools.Names.Slicer
 Tools.Names.ControllerDiagnostic  
 Tools.Names.Measure  
 Tools.Names.Label  
+Discord.RichPresence.InPrivateWorld  
+Discord.RichPresence.InPrivateLargeText  
+Discord.RichPresence.InPublicWorld  
+Discord.RichPresence.PublicWorldDetails  
+Discord.RichPresence.InPublicLargeText  
 

@@ -298,6 +298,14 @@ Inspector.Slot.Reset.Label
 Inspector.Slot.ParentUnder.Label  
 Inspector.Slot.ParentUnder.WorldRoot.Undo  
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
+Inspector.Member.ResetToDefault  
+Inspector.Member.BreakLinkDrive  
+Inspector.Member.OpenLinkDrive  
+Inspector.Member.SetAllToAvg  
+Inspector.Member.SetAllToX  
+Inspector.Member.SetAllToY  
+Inspector.Member.SetAllToZ  
+Inspector.Member.SetAllToW  
 Inspector.Mesh.SetupRenderer  
 Inspector.Mesh.UV_Multiplicator  
 Inspector.MeshCollider.VHACD  
@@ -616,4 +624,9 @@ Tools.Names.Slicer
 Tools.Names.ControllerDiagnostic  
 Tools.Names.Measure  
 Tools.Names.Label  
+Discord.RichPresence.InPrivateWorld  
+Discord.RichPresence.InPrivateLargeText  
+Discord.RichPresence.InPublicWorld  
+Discord.RichPresence.PublicWorldDetails  
+Discord.RichPresence.InPublicLargeText  
 

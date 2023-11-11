@@ -388,6 +388,14 @@ Inspector.Slot.ParentUnder.WorldRoot
 Inspector.Slot.ParentUnder.WorldRoot.Undo  
 Inspector.Slot.ParentUnder.LocalUserSpace  
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
+Inspector.Member.ResetToDefault  
+Inspector.Member.BreakLinkDrive  
+Inspector.Member.OpenLinkDrive  
+Inspector.Member.SetAllToAvg  
+Inspector.Member.SetAllToX  
+Inspector.Member.SetAllToY  
+Inspector.Member.SetAllToZ  
+Inspector.Member.SetAllToW  
 Inspector.Mesh.SetupRenderer  
 Inspector.Mesh.RecalculateBlendshapeNormals  
 Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
@@ -848,4 +856,9 @@ Tools.Names.Slicer
 Tools.Names.ControllerDiagnostic  
 Tools.Names.Measure  
 Tools.Names.Label  
+Discord.RichPresence.InPrivateWorld  
+Discord.RichPresence.InPrivateLargeText  
+Discord.RichPresence.InPublicWorld  
+Discord.RichPresence.PublicWorldDetails  
+Discord.RichPresence.InPublicLargeText  
 
