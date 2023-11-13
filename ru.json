@@ -831,7 +831,7 @@
         "CreateNew.Text.Outline": "Выделенный",
 
         "CreateNew.Editor": "Редактор",
-        "CreateNew.Editor.UserInspector": "Обозреватель пользователей",
+        "CreateNew.Editor.UserInspector": "Инспектор пользователей",
         "CreateNew.Editor.LightSourcesWizard": "Мастер источников света",
         "CreateNew.Editor.TextRendererWizard": "Мастер текстовых объектов",
         "CreateNew.Editor.AssetOptimizationWizard": "Мастер оптимизации ассетов",
@@ -1312,6 +1312,17 @@
         "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Установка {name} потомком корня мира",
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Локального пространства пользователя",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Установка {name} потомком локального пространства пользователя",
+
+        "Inspector.Member.ResetToDefault" : "Сбросить в значение по умолчанию",
+
+        "Inspector.Member.BreakLinkDrive" : "Убрать связь/драйв",
+        "Inspector.Member.OpenLinkDrive" : "Открыть источник связи/драйва",
+
+        "Inspector.Member.SetAllToAvg" : "Установить все к среднему значению",
+        "Inspector.Member.SetAllToX" : "Установить все к X",
+        "Inspector.Member.SetAllToY" : "Установить все к Y",
+        "Inspector.Member.SetAllToZ" : "Установить все к Z",
+        "Inspector.Member.SetAllToW" : "Установить все к W",
 
         "Inspector.Mesh.StatsHeader": "Статистика меша",
         "Inspector.Mesh.VertexCount": "Кол-во вершин: {n}",
@@ -2062,10 +2073,10 @@
         "Tools.Names.Label": "Инструмент подписей",
 
         "Discord.RichPresence.InPrivateWorld": "В приватном мире",
-        "Discord.RichPresence.InPrivateLargeText": "В приватном ({version})",
+        "Discord.RichPresence.InPrivateLargeText": "В приватном мире ({version})",
         "Discord.RichPresence.InPublicWorld": "В публичном мире",
-        "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} миров)",
-        "Discord.RichPresence.InPublicLargeText": "В публичном ({version})",
+        "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} {totalWorlds,plural, one {мир} few {мира} other {миров}})",
+        "Discord.RichPresence.InPublicLargeText": "В публичном мире ({version})",
 
         "Dummy": "Dummy"
     }
