@@ -14,6 +14,8 @@ Inspector.Member.SetAllToW
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
 Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose  
 Inspector.SkinnedMesh.BakeToStaticMesh  
+Inspector.SkinnedMesh.SortBlendshapes.Name  
+Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.SimpleAwayIndicator.TestAway  
 Inspector.SimpleAwayIndicator.TestRestore  
 Inspector.Fields.Drive  

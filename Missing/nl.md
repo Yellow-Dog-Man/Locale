@@ -317,6 +317,8 @@ Inspector.VHACD.Parameter.Delta
 Inspector.VHACD.Parameter.PCA  
 Inspector.VHACD.Parameter.ConvexHullApproximation  
 Inspector.VHACD.DecompositionMode.Voxel  
+Inspector.SkinnedMesh.SortBlendshapes.Name  
+Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.Texture.Variant  
 Inspector.Texture.ConvertToGrayscaleLuminance  
 Inspector.Texture.SwapRA  

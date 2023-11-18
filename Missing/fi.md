@@ -79,6 +79,8 @@ Inspector.VHACD.Parameter.PCA
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
 Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose  
+Inspector.SkinnedMesh.SortBlendshapes.Name  
+Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.SimpleAvatarProtection.Warning  
 Inspector.Texture.Value  
 Inspector.Texture.AdjustValue  

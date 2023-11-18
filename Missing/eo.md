@@ -10,6 +10,8 @@ Inspector.Member.SetAllToX
 Inspector.Member.SetAllToY  
 Inspector.Member.SetAllToZ  
 Inspector.Member.SetAllToW  
+Inspector.SkinnedMesh.SortBlendshapes.Name  
+Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Tutorial.Welcome.Welcome  
 Tutorial.Welcome.Begin  
 Discord.RichPresence.InPrivateWorld  
