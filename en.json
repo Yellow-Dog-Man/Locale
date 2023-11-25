@@ -1,6 +1,6 @@
 {
     "localeCode": "en",
-    "authors": ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus", "Earthmark", "Ryuvi"],
+    "authors": ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus", "Earthmark", "Ryuvi", "Nammi"],
     "messages": {
 
         "General.OK": "OK",
@@ -30,12 +30,12 @@
         "General.Buy": "Buy",
         "General.Yes": "Yes",
         "General.No": "No",
-        "General.ClearSelection" : "Clear Selection",
+        "General.ClearSelection": "Clear Selection",
         "General.Off": "Off",
         "General.On": "On",
         "General.Understand": "I understand",
-        "General.Notice" : "Notice",
-        "General.UnderstandEnable" : "I understand, Enable",
+        "General.Notice": "Notice",
+        "General.UnderstandEnable": "I understand, Enable",
         "General.Dismiss": "Dismiss",
         "General.Edit": "Edit",
 
@@ -43,8 +43,8 @@
         "General.UI.SearchPromptLong": "Type to search...",
         "General.UI.ToggleEditMode": "Toggle Edit Mode",
         "General.UI.ToggleSubtitles": "Toggle Subtitles",
-        "General.UI.Subtitles.On" : "Subtitles: On",
-        "General.UI.Subtitles.Off" : "Subtitles: Off",
+        "General.UI.Subtitles.On": "Subtitles: On",
+        "General.UI.Subtitles.Off": "Subtitles: Off",
 
         "General.UI.MusicVolumeLocal": "Music Volume (local):",
         "General.UI.VoiceVolumeLocal": "Voice Volume (local):",
@@ -55,8 +55,8 @@
         "General.Sort.Ascending": "Ascending",
         "General.Sort.Descending": "Descending",
 
-        "Worlds.Home" : "Home",
-        "Worlds.Tutorial" : "Tutorial",
+        "Worlds.Home": "Home",
+        "Worlds.Tutorial": "Tutorial",
 
         "Locomotion.Noclip.Name": "Noclip",
         "Locomotion.Noclip.Description": "Simple no-clip flying mode, ideal for editing.",
@@ -81,7 +81,7 @@
         "Interaction.Undo": "Undo",
         "Interaction.Redo": "Redo",
         "Interaction.EquipTool": "Equip",
-        "Interaction.DequipTool": "Dequip",
+        "Interaction.DequipTool": "Unequip",
         "Interaction.ScalingEnabled": "Scaling Enabled",
         "Interaction.ScalingDisabled": "Scaling Disabled",
         "Interaction.ResetScale": "Reset Scale",
@@ -111,7 +111,9 @@
         "Inventory.OpenWorld": "Open World",
         "Inventory.Equip": "Equip",
         "Inventory.Delete": "Delete",
+	    "Inventory.CreateDirectory": "Create folder",
         "Inventory.SaveHeld": "Save Held",
+        "Inventory.GetURL": "Get URL",
         "Inventory.Inventories": "Inventories",
         "Inventory.Share": "Share",
         "Inventory.Unshare": "Unshare",
@@ -152,8 +154,8 @@
         "Dash.Exit.Sponsor": "Huge thanks to {name} for sponsoring this project!",
         "Dash.Exit.Sponsor.You": "YOU",
         "Dash.Exit.Shoutouts": "This project is also being made possible thanks to these people:",
-        "Dash.Exit.Shoutouts.AndMore" : " and many more!",
-        "Dash.Exit.Shoutouts.You" : "{name} (That's you! Thank you!)",
+        "Dash.Exit.Shoutouts.AndMore": " and many more!",
+        "Dash.Exit.Shoutouts.You": "{name} (That's you! Thank you!)",
         "Dash.Exit.ThankYou": "Thank you for using {appName}!",
         "Dash.Exit.SubmittedBy": "Submitted by: {name}",
 
@@ -165,6 +167,7 @@
         "World.LoadingFailed": "Failed",
         "World.LoadedAssets": "Loaded {assets} of {total_assets}",
         "World.Downloading": "Downloading {bytes} of {total_bytes}",
+        "World.Loaded": "Loaded",
 
         "World.Connection.EstablishingConnection": "Establishing connection",
         "World.Connection.RequestingJoin": "Requesting Join",
@@ -197,7 +200,7 @@
         "World.Error.HostBlocked": "Host blocked",
         "World.Error.HostBlockedDetail": "You have blocked the host",
         "World.Error.WorldCrash": "World Crashed",
-        "World.Error.WorldCrashDetail" : "Fatal error when updating the world",
+        "World.Error.WorldCrashDetail": "Fatal error when updating the world",
         "World.Error.Unknown": "Unknown Error",
 
         "World.Config.Name": "World Name:",
@@ -354,7 +357,7 @@
         "Tools.StreamAudio": "Stream Audio",
         "Tools.Setup2FA": "Setup 2FA",
 
-        "Tools.StreamAudio.Dialog.Title" : "Create Audio Stream",
+        "Tools.StreamAudio.Dialog.Title": "Create Audio Stream",
         "Tools.StreamAudio.Start": "Start Streaming",
         "Tools.StreamAudio.Bitrate": "Bitrate: {bitrate} kbps",
         "Tools.StreamAudio.Title": "{username} Audio Stream",
@@ -395,41 +398,108 @@
         "Indicator.LiveHiddenMessage": "(information hidden while live)",
 
         "Login.InvalidCredentials": "Invalid credentials",
+        "Login.InvalidCredentials.Description": "Double check your credentials and try again or press \"Lost Password?\"",
+
         "Login.InvalidLogin": "Invalid credentials",
+        "Login.InvalidLogin.Description": "Double check your credentials and try again or press \"Lost Password?\"",
 
         "Login.MalformedUID": "Invalid device information",
+        "Login.MalformedUID.Description": "Try reinstalling, or contact support at {supportUrl}.",
+
         "Login.MissingUID": "Missing device information",
-        "Register.MissingUID": "Invalid device information",
+        "Login.MissingUID.Description": "Try reinstalling, or contact support at {supportUrl}.",
+
+        "Register.MissingUID": "Missing device information",
+        "Register.MissingUID.Description": "Try reinstalling, or contact support at {supportUrl}.",
+
         "Register.MalformedUID": "Invalid device information",
+        "Register.MalformedUID.Description": "Try reinstalling, or contact support at {supportUrl}.",
 
         "Login.MissingLogin": "No credentials provided",
+        "Login.MissingLogin.Description": "Did you forget to provide credentials?",
+
         "Login.InvalidRecoveryCode": "Invalid recovery code",
+        "Login.InvalidRecoveryCode.Description": "Check your recovery code and try again.",
+
         "Login.UnsupportedAuthentication": "Unsupported authentication method",
+        "Login.UnsupportedAuthentication.Description": "We don't support this authentication method. Please try another.",
+
         "Login.EmailNotVerified": "Email not verified",
+        "Login.EmailNotVerified.Description": "Your email is not verified, check your inbox for an email from us, ensure you check your spam folder.",
+
         "Login.AccountTempLocked": "Your account is locked.",
+        "Login.AccountTempLocked.Description": "Please contact Moderation at: {moderationUrl}.",
+
         "Login.AccountBanned": "Your account is banned.",
+        "Login.AccountBanned.Description": "Please contact Moderation at: {moderationUrl}.",
+
         "Login.DuplicateAccount": "Duplicate account",
+        "Login.DuplicateAccount.Description": "Please contact support at {supportUrl}.",
+
+        "Login.UnknownError": "Unknown Error",
+        "Login.UnknownError.Description": "An unknown error occured during login. Please contact support at {supportUrl}.",
 
         "Register.MissingRequest": "Missing registration details",
+        "Register.MissingRequest.Description": "We couldn't find any registration details. Make sure to include them when registering.",
+
         "Register.InvalidEmail": "Invalid Email address",
+        "Register.InvalidEmail.Description": "Your email address is invalid.",
+
         "Register.MissingUsername": "Missing username",
+        "Register.MissingUsername.Description": "Did you specify your username?",
+
         "Register.MissingEmail": "Missing Email",
+        "Register.MissingEmail.Description": "Did you specify your email?",
+
         "Register.UsernameTooLong": "Username too long",
+        "Register.UsernameTooLong.Description": "We allow usernames up to 32 characters long.",
+
         "Register.UsernameContainsAmpersand": "Username cannot contain @",
+        "Register.UsernameContainsAmpersand.Description": "Your username cannot contain @.",
+
         "Register.UsernameStartsWithU": "Username cannot start with U-",
+        "Register.UsernameStartsWithU.Description": "Usernames cannot start with U-.",
+
         "Register.InvalidUsername": "Invalid username",
+        "Register.InvalidUsername.Description": "Your username is invalid.",
+
         "Register.InvalidDateOfBirth": "Invalid date of birth",
-        "Register.UserContainsBlockedTerms": "Username contains blocked words",
+        "Register.InvalidDateOfBirth.Description": "Your date of birth is invalid.",
+
+        "Register.UsernameContainsBlockedTerms": "Username contains blocked words",
+        "Register.UsernameContainsBlockedTerms.Description": "Your username contains blocked words. If you believe this is an error contact {supportUrl}.",
+
         "Register.MissingPassword": "Missing Password",
+        "Register.MissingPassword.Description": "You did not provide a password.",
+
         "Register.InvalidPassword": "Invalid Password",
+        "Register.InvalidPassword.Description": "Your password is invalid. It must contain at least 8 characters, including 1 digit, 1 uppercase letter and 1 lowercase letter.",
+
         "Register.EmailAlreadyRegistered": "Email already registered",
+        "Register.EmailAlreadyRegistered.Description": "An account using this email already exists, if you've forgotten your password you can click \"Lost Password\". Or you can contact support at {supportUrl}.",
+
         "Register.UsernameAlreadyRegistered": "Username already registered",
+        "Register.UsernameAlreadyRegistered.Description": "An account using this username already exists, if you've forgotten your password you can click \"Lost Password\". Or you can contact support at {supportUrl}.",
+
         "Register.ErrorCheckingUserId": "Error checking UserID",
+        "Register.ErrorCheckingUserId.Description": "Please contact support at {supportUrl}.",
+
+        "Recovery.MissingEmail": "Missing Email",
+        "Recovery.MissingEmail.Description": "Did you specify your email?",
+
+        "Recovery.IncorrectEmail": "Incorrect Email",
+        "Recovery.IncorrectEmail.Description": "You've entered an incorrect email for password recovery. Please check your details and try again.",
+
+        "Recovery.NoPasswordSetup": "No Password Setup", 
+        "Recovery.NoPasswordSetup.Description": "Please contact support at {supportUrl}.",
+
+        "Register.UnknownError": "Unknown Error",
+        "Register.UnknownError.Description": "An unknown error occurred during registration. Please contact support at {supportUrl}.",
 
         "Account.Login": "Login",
         "Account.Logout": "Logout",
         "Account.Register": "Register Account",
-        "Account.Saml2" : "Login with SAML 2.0",
+        "Account.Saml2": "Login with SAML 2.0",
         "Account.LoginOrRegister": "Login / Register",
         "Account.LogoutConfirm": "Really logout?",
         "Account.LoggingIn": "Logging in...",
@@ -446,7 +516,6 @@
         "Account.RecoverPassword": "Lost Password?",
         "Account.LiveEmailWarning": "<color=#f00>WARNING:</color> live.com, hotmail.com, outlook.com and other Microsoft-hosted services can take up to 1-2 days to accept the email.",
         "Account.PasswordRules": "(at least 8 characters, 1 digit, 1 lowercase, 1 uppercase)",
-        "Account.AgeConfirm": "I am 13 years of age or older",
         "Account.LostPassword": "Lost Password",
         "Account.SendRecoveryCode": "Send Recovery Code",
         "Account.ResetPasswordHeader": "Reset Your Password",
@@ -463,13 +532,13 @@
         "Account.BirthDay": "Birth Day:",
         "Account.BirthYear": "Birth Year:",
         "Account.PoliciesAgreement": "I agree to the <color=#22B2FF>terms of service</color> and <color=#22B2FF>privacy policy</color>",
-        "Account.AlternateMethods" : "Login with a 3rd party service instead:",
+        "Account.AlternateMethods": "Login with a 3rd party service instead:",
 
-        "Account.Saml2.Title" : "SAML 2.0",
-        "Account.Saml2.Select" : "Please select the SAML 2.0 provider you want to use:",
-        "Account.Saml2.LoggingIn" : "Waiting for the login to complete (check your web browser)...",
+        "Account.Saml2.Title": "SAML 2.0",
+        "Account.Saml2.Select": "Please select the SAML 2.0 provider you want to use:",
+        "Account.Saml2.LoggingIn": "Waiting for the login to complete (check your web browser)...",
 
-        "Account.TOTP.Title" : "Two Factor Authentication",
+        "Account.TOTP.Title": "Two Factor Authentication",
         "Account.TOTP.Initializing": "Checking status of 2FA for your account...",
         "Account.TOTP.Code.Header": "Secret Code",
         "Account.TOTP.Code.Description": "First you need to input a secret code to your TOTP authentication app such as <b>Authy</b> or <b>Google Authenticator</b>.<br><br>We recommend doing this by scanning the QR code, but alternatively you can manually input the secret code. <b>Never share this code with anyone.</b><br><br>If you're in VR you can switch to desktop by pressing F8.",
@@ -494,14 +563,14 @@
         "Account.TOTP.Deactivate.Deactivating": "Deactivating...",
         "Account.TOTP.Message.DeactivationComplete": "2FA has been successfully deactivated on your account.<br><br>Your account is now at increased risk!<br><br>We strongly recommend setting up 2FA again immediately, especially if you used a recovery code due to losing your phone.",
 
-        "Account.Type.Standard" : "Standard Account",
-        "Account.Type.Business" : "Business Account",
-        "Account.Type.Patreon" : "Patreon Supporter",
-        "Account.Type.Mentor" : "{platform} Mentor",
-        "Account.Type.Moderator" : "{platform} Moderator",
-        "Account.Type.Team" : "{platform} Team",
+        "Account.Type.Standard": "Standard Account",
+        "Account.Type.Business": "Business Account",
+        "Account.Type.Patreon": "Patreon Supporter",
+        "Account.Type.Mentor": "{platform} Mentor",
+        "Account.Type.Moderator": "{platform} Moderator",
+        "Account.Type.Team": "{platform} Team",
 
-        "Avatar.Badge.Live" : "LIVE",
+        "Avatar.Badge.Live": "LIVE",
 
         "2FA.Header": "2FA Verification",
         "2FA.Token": "6-digit Token:",
@@ -524,11 +593,11 @@
         "Session.Permission.PermissionOverrideCount": "Permission Overrides: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Clear User Overrides",
 
-        "Session.JoinVerifier.EnableHeader" : "Activate Custom Join Verifier?",
-        "Session.JoinVerifier.EnableText" : "<color=red>WARNING:</color> You are about to enable custom join verification that is part of the current world. Before you do so, make sure you trust the creator of the world, as custom verifier can bypass standard session access rules and allow or block entry to users using its own rules.",
-        "Session.JoinVerifier.Label" : "Use Custom Join Verifier: {name}",
-        "Session.JoinVerifier.ComponentWarning" : "<color=red>WARNING:</color> At the moment, there is no mechanism to prevent tampering with the verifier once enabled. If tampering with the ProtoFlux setup for verification is a concern, DO NOT USE this feature and DO NOT ENABLE it in your worlds.",
-        "Session.JoinVerifier.SetCustomVerifier" : "Set as custom join request verifier",
+        "Session.JoinVerifier.EnableHeader": "Activate Custom Join Verifier?",
+        "Session.JoinVerifier.EnableText": "<color=red>WARNING:</color> You are about to enable custom join verification that is part of the current world. Before you do so, make sure you trust the creator of the world, as custom verifier can bypass standard session access rules and allow or block entry to users using its own rules.",
+        "Session.JoinVerifier.Label": "Use Custom Join Verifier: {name}",
+        "Session.JoinVerifier.ComponentWarning": "<color=red>WARNING:</color> At the moment, there is no mechanism to prevent tampering with the verifier once enabled. If tampering with the ProtoFlux setup for verification is a concern, DO NOT USE this feature and DO NOT ENABLE it in your worlds.",
+        "Session.JoinVerifier.SetCustomVerifier": "Set as custom join request verifier",
 
         "Permissions.NotAllowedToSpawn": "You are not allowed to spawn things here.",
         "Permissions.NotAllowedToSave": "You are not allowed to save items in this world.",
@@ -553,9 +622,9 @@
         "Contacts.BanFromCurrentWorld": "Ban from current world",
         "Contacts.UnbanFromCurrentWorld": "Unban from current world",
         "Contacts.RecordingVoiceMessage": "Recording voice...",
-        "Contacts.Unblocked" : "Unblocked",
-        "Contacts.AvatarBlock" : "Block Avatar",
-        "Contacts.MutualBlock" : "Mutual Block",
+        "Contacts.Unblocked": "Unblocked",
+        "Contacts.AvatarBlock": "Block Avatar",
+        "Contacts.MutualBlock": "Mutual Block",
         "Contacts.SelfAccount": "My Account",
         "Contacts.SearchPrompt": "Search contacts...",
         "Contacts.WriteMessage": "Write a message...",
@@ -617,9 +686,9 @@
         "Undo.ExtractMaterialsFromHierarchy": "Extract Materials from Hierarchy",
         "Undo.BatchConvertMaterials": "Batch convert materials",
 
-        "Tooltips.Brush.ChangeColor" : "Change Color",
-        "Tooltips.Brush.IncrementSize" : "Increment Size",
-        "Tooltips.Brush.DecrementSize" : "Decrement Size",
+        "Tooltips.Brush.ChangeColor": "Change Color",
+        "Tooltips.Brush.IncrementSize": "Increment Size",
+        "Tooltips.Brush.DecrementSize": "Decrement Size",
 
         "Tooltips.Dev.CreateNew": "Create New...",
         "Tooltips.Dev.Selection": "Selection: {mode}",
@@ -630,13 +699,19 @@
         "Tooltips.Dev.DestroySelected": "Destroy Selected",
         "Tooltips.Dev.ConfirmDestroySelected": "REALLY Destroy Selected",
 
-        "Tooltips.Dev.GizmoOptions" : "Gizmo Options",
-        "Tooltips.Dev.SelectParent" : "Select Parent",
-        "Tooltips.Dev.LocalSpace" : "Local Space",
-        "Tooltips.Dev.GlobalSpace" : "Global Space",
-        "Tooltips.Dev.Translation" : "Translation",
-        "Tooltips.Dev.Rotation" : "Rotation",
-        "Tooltips.Dev.Scale" : "Scale",
+        "Tooltips.Dev.GizmoOptions": "Gizmo Options",
+        "Tooltips.Dev.SelectParent": "Select Parent",
+        "Tooltips.Dev.LocalSpace": "Local Space",
+        "Tooltips.Dev.GlobalSpace": "Global Space",
+        "Tooltips.Dev.Translation": "Translation",
+        "Tooltips.Dev.Rotation": "Rotation",
+        "Tooltips.Dev.Scale": "Scale",
+
+        "Tooltips.Dev.Selection.Single": "Single",
+        "Tooltips.Dev.Selection.Multi": "Multi",
+
+        "Tooltips.Dev.Interaction.Tip": "Tip",
+        "Tooltips.Dev.Interaction.Projection": "Projection",
 
         "Tooltip.Color.Picker": "Color Picker",
 
@@ -654,6 +729,10 @@
         "Tooltip.Light.Point": "Point",
         "Tooltip.Light.Spot": "Spot",
         "Tooltip.Light.Sun": "Sun",
+
+        "Tooltip.Light.Shadows.None": "No Shadows",
+        "Tooltip.Light.Shadows.Hard": "Hard Shadows",
+        "Tooltip.Light.Shadows.Soft": "Soft Shadows",
 
         "Tooltip.MeshVisibility.KeepShadow": "Keep Shadow",
         "Tooltip.MeshVisibility.ShadowOff": "Disable Shadow",
@@ -675,7 +754,7 @@
         "Tooltip.Material.CreateNew": "Create New",
 
         "Tooltip.Mesh.Edit": "Edit Mesh",
-        
+
         "Tooltip.Cartridge.Eject": "Eject Orb",
 
         "Tooltip.Microphone.Format.WAV": "WAV",
@@ -686,24 +765,44 @@
         "Tooltip.Microphone.SourceRaw": "Raw",
         "Tooltip.Microphone.SourceFiltered": "Filtered & Normalized",
 
-        "Tooltip.ProtoFlux.Drive" : "Drive",
-        "Tooltip.ProtoFlux.Source" : "Source",
-        "Tooltip.ProtoFlux.Reference" : "Reference",
-        "Tooltip.ProtoFlux.Write" : "Write",
-        "Tooltip.ProtoFlux.Proxy" : "Proxy",
-        "Tooltip.ProtoFlux.CreateLocal" : "Create Local",
-        "Tooltip.ProtoFlux.CreateStore" : "Create Store",
-        "Tooltip.ProtoFlux.CreateDataModelStore" : "Create Data Model Store",
-        "Tooltip.ProtoFlux.Overview" : "Toggle Overview Mode",
-        "Tooltip.ProtoFlux.NodeBrowser" : "Browse nodes",
-        "Tooltip.ProtoFlux.PackInPlace" : "Pack In Place",
-        "Tooltip.ProtoFlux.PackInto" : "Pack Into <size=50%>{name}</size>",
-        "Tooltip.ProtoFlux.Unpack" : "Unpack <size=50%>{name}</size>",
-        "Tooltip.ProtoFlux.ExplicitCast" : "Explicit Cast\n<size=50%>(<color=red>Warning:</color> Potential Data Loss)</size>",
+        "Tooltip.ProtoFlux.Drive": "Drive",
+        "Tooltip.ProtoFlux.Source": "Source",
+        "Tooltip.ProtoFlux.Reference": "Reference",
+        "Tooltip.ProtoFlux.Write": "Write",
+        "Tooltip.ProtoFlux.Proxy": "Proxy",
+        "Tooltip.ProtoFlux.CreateLocal": "Create Local",
+        "Tooltip.ProtoFlux.CreateStore": "Create Store",
+        "Tooltip.ProtoFlux.CreateDataModelStore": "Create Data Model Store",
+        "Tooltip.ProtoFlux.Overview": "Toggle Overview Mode",
+        "Tooltip.ProtoFlux.NodeBrowser": "Browse nodes",
+        "Tooltip.ProtoFlux.PackInPlace": "Pack In Place",
+        "Tooltip.ProtoFlux.PackInto": "Pack Into <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.Unpack": "Unpack <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.ExplicitCast": "Explicit Cast\n<size=50%>(<color=red>Warning:</color> Potential Data Loss)</size>",
 
-        "ProtoFlux.UI.Call" : "Call",
-        "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> Call",
-        "ProtoFlux.UI.NodeBrowser.Title" : "ProtoFlux Nodes",
+        "Tooltip.Meter.Mode.Ray": "Mode: Ray",
+        "Tooltip.Meter.Mode.Perpendicular": "Mode: Perpendicular",
+        "Tooltip.Meter.Mode.Drag": "Mode: Drag",
+
+        "Tooltip.Meter.Points.Two": "Two Points",
+        "Tooltip.Meter.Points.Multiple": "Multiple Points",
+
+        "Tooltip.Meter.ObjectSpace": "Measure in Object Space",
+        "Tooltip.Meter.WorldSpace": "Measure in World Space",
+
+        "Tooltip.Glue.Mode.BakeMeshes": "Mode: Bake meshes",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes": "Mode: Bake skinned meshes",
+        "Tooltip.Glue.Mode.ParentObjects": "Mode: Parent objects",
+
+        "Tooltip.RigTransfer.ClearSource": "Clear source",
+
+        "Tooltip.ComponentClone.SingleInstanceOn": "Single Instance: On",
+        "Tooltip.ComponentClone.SingleInstanceOff": "Single Instance: Off",
+        "Tooltip.ComponentClone.ClearTemplate": "Clear template",
+
+        "ProtoFlux.UI.Call": "Call",
+        "ProtoFlux.UI.AsyncCall": "<size=50%>Async</size> Call",
+        "ProtoFlux.UI.NodeBrowser.Title": "ProtoFlux Nodes",
 
         "CreateNew.Back": "<<< <i>Back</i>",
         "CreateNew.EmptyObject": "Empty Object",
@@ -802,7 +901,7 @@
         "Importer.Image.Prompt": "What are you importing?",
         "Importer.Image.Regular": "Image / Texture",
         "Importer.Image.Screenshot": "Screenshot <size=50%>(captured here)</size>",
-        "Importer.Image.PixelArt" : "Pixel Art",
+        "Importer.Image.PixelArt": "Pixel Art",
         "Importer.Image.360": "360° photo / skybox",
         "Importer.Image.StereoPhoto": "Stereo Photo",
         "Importer.Image.Stereo360": "Stereo 360° photo",
@@ -893,7 +992,11 @@
         "Importer.Video.Stereo180": "Stereo 180° Video",
         "Importer.Video.Depth.Prompt": "Depth Preset",
         "Importer.Video.Depth.Default": "Default",
-        
+
+        "Importer.Slices.Title": "Image slices as volumetric texture",
+        "Importer.Slices.TitleGrayscale": "Image slices as volumetric texture (grayscale)",
+        "Importer.Slices.Description": "Processes all image files in the folder into a volumetric texture",
+
         "Exporter.Title": "Export",
         "Exporter.FileName": "File name:",
         "Exporter.ExportAs": "Export as:",
@@ -1106,7 +1209,7 @@
         "Settings.LaserSmoothing.Reset": "Reset Laser Settings",
 
         "Settings.Audio.Header": "Audio",
-        "Settings.Audio.Input.Title" : "Audio Input Devices",
+        "Settings.Audio.Input.Title": "Audio Input Devices",
         "Settings.Audio.Master": "Master Volume: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Sound Effects: {n,number,percent}",
         "Settings.Audio.Multimedia": "Multimedia: {n,number,percent}",
@@ -1130,7 +1233,7 @@
 
         "Settings.Graphics.DesktopFOV": "Desktop FOV",
 
-        "Settings.Locale.Title" : "UI Language",
+        "Settings.Locale.Title": "UI Language",
         "Settings.Locale.ChangeLanguage": "Change Language",
         "Settings.Locale.SelectLanguageHeader": "Select your language:",
         "Settings.Locale.DefaultLanguage": "System Default",
@@ -1166,7 +1269,7 @@
         "Settings.System.KeepOriginalScreenshotFormat": "Keep original screenshot format",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "When enabled, screenshots won't be converted to JPG when saved into the Documents folder",
 
-        "Security.Hyperlink.Title" : "External Link",
+        "Security.Hyperlink.Title": "External Link",
         "Security.Hyperlink.Warning": "<b><size=125%>Warning: Outgoing hyperlink</size></b>\nYou've clicked a link in a world. Do you want to open it? This will open in your desktop web browser.",
         "Security.Hyperlink.Open": "Open",
         "Security.Hyperlink.Cancel": "Cancel",
@@ -1179,14 +1282,14 @@
         "Security.HostAccess.Allow": "Allow",
         "Security.HostAccess.Deny": "Deny",
 
-        "ComponentSelector.Back" : "< (back)",
-        "ComponentSelector.Title" : "Components",
-        "ComponentSelector.CreateCustomType" : "Create Custom Type",
-        "ComponentSelector.CommonGenericTypes" : "Common Generic Types",
-        "ComponentSelector.CustomGenericArguments" : "Custom Generic Arguments:",
-        "ComponentSelector.InvalidType" : "Invalid type",
+        "ComponentSelector.Back": "< (back)",
+        "ComponentSelector.Title": "Components",
+        "ComponentSelector.CreateCustomType": "Create Custom Type",
+        "ComponentSelector.CommonGenericTypes": "Common Generic Types",
+        "ComponentSelector.CustomGenericArguments": "Custom Generic Arguments:",
+        "ComponentSelector.InvalidType": "Invalid type",
 
-        "Inspector.Title" : "Scene Inspector",
+        "Inspector.Title": "Scene Inspector",
         "Inspector.Slot.AttachComponent": "Attach Component",
 
         "Inspector.Slot.Axis.X": "X: <b>+</b>Right <b>-</b>Left",
@@ -1209,6 +1312,17 @@
         "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Parent {name} under world root",
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Local User Space",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Parent {name} under local user space",
+
+        "Inspector.Member.ResetToDefault": "Reset to default",
+        
+        "Inspector.Member.BreakLinkDrive": "Break Link/Drive",
+        "Inspector.Member.OpenLinkDrive": "Open Link/Drive source",
+
+        "Inspector.Member.SetAllToAvg": "Set all to average",
+        "Inspector.Member.SetAllToX": "Set all to X",
+        "Inspector.Member.SetAllToY": "Set all to Y",
+        "Inspector.Member.SetAllToZ": "Set all to Z",
+        "Inspector.Member.SetAllToW": "Set all to W",
 
         "Inspector.Mesh.StatsHeader": "Mesh Statistics",
         "Inspector.Mesh.VertexCount": "Vertex Count: {n}",
@@ -1296,6 +1410,8 @@
         "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Compute explicit bounds from current pose",
         "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Extend explicit bounds from current pose",
         "Inspector.SkinnedMesh.BakeToStaticMesh": "Bake To Static Mesh",
+        "Inspector.SkinnedMesh.SortBlendshapes.Name": "Sort Blendshapes (by name)",
+        "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Sort Blendshapes (by name length, then name)",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Remove All Instances",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Remove Single Instance",
@@ -1353,17 +1469,17 @@
         "Inspector.Texture.RotateCW": "Rotate 90° CW",
         "Inspector.Texture.RotateCCW": "Rotate 90° CCW",
         "Inspector.Texture.Rotate180": "Rotate 180°",
-        "Inspector.Texture.TrimTransparent" : "Trim Transparency",
-        "Inspector.Texture.TrimByCornerColor" : "Trim By Corner Color",
+        "Inspector.Texture.TrimTransparent": "Trim Transparency",
+        "Inspector.Texture.TrimByCornerColor": "Trim By Corner Color",
         "Inspector.Texture.MakeSquare": "Make Square",
         "Inspector.Texture.ToNearestPOT": "To nearest power of two",
         "Inspector.Texture.MakeTileable": "Make Tileable (transition ratio):",
         "Inspector.Texture.TileLoop": "Tile (loop)",
         "Inspector.Texture.TileMirror": "Tile (mirror)",
-        "Inspector.Texture.NormalizeMaxOnly" : "Normalize (max only)",
-        "Inspector.Texture.NormalizeMinMax" : "Normalize (min and max)",
-        "Inspector.Texture.NormalizeIndependent" : "Normalize RGB independently (min and max)",
-        "Inspector.Texture.BleedColorToAlpha" : "Bleed Color To Alpha",
+        "Inspector.Texture.NormalizeMaxOnly": "Normalize (max only)",
+        "Inspector.Texture.NormalizeMinMax": "Normalize (min and max)",
+        "Inspector.Texture.NormalizeIndependent": "Normalize RGB independently (min and max)",
+        "Inspector.Texture.BleedColorToAlpha": "Bleed Color To Alpha",
 
         "Inspector.Texture.InvalidFloats": "Diagnostic: Invalid floats",
         "Inspector.Texture.GenerateMetadata": "Diagnostic: Generate Bitmap Metadata",
@@ -1433,20 +1549,20 @@
         "Inspector.Collider.SetFromPreciseCylinderBounds": "Set from precise cylinder bounds",
         "Inspector.Collider.Visualize": "Visualize Collider",
 
-        "Inspector.SimpleAwayIndicator.TestAway" : "Set to away (debug)",
-        "Inspector.SimpleAwayIndicator.TestRestore" : "Restore to normal (debug)",
-        
-        "Inspector.Fields.Drive" : "Drive",
-        "Inspector.Fields.DriveWriteBack" : "Drive <size=50%>(write back)</size>",
+        "Inspector.SimpleAwayIndicator.TestAway": "Set to away (debug)",
+        "Inspector.SimpleAwayIndicator.TestRestore": "Restore to normal (debug)",
 
-        "Inspector.Actions.CopyComponent" : "Copy Component",
-        "Inspector.Actions.MoveComponent" : "Move Component",
+        "Inspector.Fields.Drive": "Drive",
+        "Inspector.Fields.DriveWriteBack": "Drive <size=50%>(write back)</size>",
 
-        "UserInspector.Title" : "User Inspector",
+        "Inspector.Actions.CopyComponent": "Copy Component",
+        "Inspector.Actions.MoveComponent": "Move Component",
 
-        "WorkerInspector.Title" : "{name} Inspector",
+        "UserInspector.Title": "User Inspector",
 
-        "CreateNew.Title" : "New",
+        "WorkerInspector.Title": "{name} Inspector",
+
+        "CreateNew.Title": "New",
 
         "Wizard.General.ProcessRoot": "Process Root:",
         "Wizard.General.Result": "Result:",
@@ -1521,12 +1637,12 @@
         "Desktop.LegacyInputMode.Off": "Legacy Input: Off",
         "Desktop.Brightness": "Brightness: {n,number,percent}",
         "Desktop.Opacity": "Opacity: {n,number,percent}",
-        
+
         "VolumePlaneSlicer.Highlight": "Highlight",
         "VolumePlaneSlicer.Slicer": "Slice",
 
         "Tutorial.Welcome.Welcome": "Welcome!",
-        "Tutorial.Welcome.Description" : "Dive into a brand new digital universe with infinite possibilities. Whether you come here to socialize and hang out with people around the world or to build, create and develop anything from beautiful art, interactive avatars and gadgets, to complex interactive worlds and games, Resonite is an endlessly customizable place where you'll be welcome and where you'll find a group to resonate with.<br><br>Before you start exploring, we'll first guide you through setting up some essentials, to ensure a smooth experience. When you're ready, click the button below",
+        "Tutorial.Welcome.Description": "Dive into a brand new digital universe with infinite possibilities. Whether you come here to socialize and hang out with people around the world or to build, create and develop anything from beautiful art, interactive avatars and gadgets, to complex interactive worlds and games, Resonite is an endlessly customizable place where you'll be welcome and where you'll find a group to resonate with.<br><br>Before you start exploring, we'll first guide you through setting up some essentials, to ensure a smooth experience. When you're ready, click the button below",
         "Tutorial.Welcome.Begin": "Let's begin!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} account",
@@ -1605,7 +1721,7 @@
         "Migration.SourceUsername": "{platform} Username:",
 
         "Migration.Dialog.Title": "Account Migration",
-        "Migration.Dialog.Source" : "You can migrate data from any compatible infrastructure. First select one from the list below that you'd like to migrate data from. You can add additional infrastructures by placing config files in the \"Migrations\" folder in the installation.",
+        "Migration.Dialog.Source": "You can migrate data from any compatible infrastructure. First select one from the list below that you'd like to migrate data from. You can add additional infrastructures by placing config files in the \"Migrations\" folder in the installation.",
         "Migration.Dialog.AccountDescription": "To migrate your account, we'll need your {platform} account password. This will let us login to it and access the data.",
 
         "Migration.ResetID.Title": "Reset my UserID",
@@ -1647,7 +1763,6 @@
         "Migration.Groups.NotGroupAdmin": "You're not an admin of any {platform} groups, ask your group admins to migrate the group!",
 
         "Migration.Summary": "Ok, we have everything we need. Click Start Migration below and we'll get started on your migration.\n\nMigration might take a while, we've gotta copy everything across. If you've selected to migrate your favorites, we'll prioritize them so that you can get comfortable.\n\nYou don't need to keep {appName} running whilst we're migrating, but we'll send you updates via the {appName} bot to let you know how its going.",
-
 
         "Migration.List.EmptyTitle": "Looking to start a new Migration?",
         "Migration.List.EmptySubtitle": "Click on \"New Migration Task\" in the top left.",
@@ -1706,6 +1821,8 @@
         "Tutorial.Saving.Title": "Welcome Home!",
         "Tutorial.Saving.Content": "Welcome to your <b><i><color=hero.yellow>Home</b></i></color> world! This is where you'll end up every time you log in.<br><br>This is a world all your own, so any changes you make are able to be saved.<br><br>If you save, everything will be just as you left it when you return!",
 
+        "Tutorial.Teleporter.Error": "Failed to load your cloud home!<br><size=66%>Step out of the teleporter and step back in to try again.</size>",
+
         "CloudHome.Info.OnlineUsers": "Online {online_users,plural, one {user} other {users}}: {online_users}<br>Joinable {joinable_users,plural, one {user} other {users}}: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderation",
         "CloudHome.Info.Inventory": "Inventory",
@@ -1739,10 +1856,10 @@
         "CloudHome.Info.UsersTab.Title": "Finding Users",
         "CloudHome.Info.UsersTab.Content": "Public sessions are a great way to immerse yourself in the community!<br><br>Public sessions which you can join right now can be found in the <i><color=hero.purple>Worlds</color></i> tab in your dashboard. Check it out!",
 
-        "Mirror.Header.RenderingOptions" : "Rendering Options",
-        "Mirror.Header.Type" : "Mirror Type",
-        "Mirror.Header.Resolution" : "Mirror Resolution",
-        "Mirror.Header.AspectRatio" : "Aspect Ratio",
+        "Mirror.Header.RenderingOptions": "Rendering Options",
+        "Mirror.Header.Type": "Mirror Type",
+        "Mirror.Header.Resolution": "Mirror Resolution",
+        "Mirror.Header.AspectRatio": "Aspect Ratio",
 
         "Mirror.EnableLights": "Enable Lights",
         "Mirror.DisableLights": "Disable Lights",
@@ -1885,7 +2002,7 @@
         "Hints.Sundial.TheSun": "Aim at the sky and click to move the sun there!",
         "Hints.Sundial.TheSunExtra": "Try aiming below the horizon to make it night!",
 
-        "Hints.Sundial.Dequip": "Drop the equipped tool by choosing Dequip in your Context Menu.",
+        "Hints.Sundial.Dequip": "Drop the equipped tool by choosing Unequip in your Context Menu.",
         "Hints.Sundial.DequipExtra": "Notice the options in your Context Menu have changed because you're holding this tool.",
 
         "Hints.Sundial.Teleporter": "Press this button to activate the Teleporter to your Cloud Home!",
@@ -1905,6 +2022,7 @@
         "UI.VideoPlayer.AudioZoneTheater": "Local to<br>Theater",
         "UI.VideoPlayer.AudioZoneGlobal": "Audible<br>to World",
         "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {user} other {users}}<br>loaded",
+        "UI.VideoPlayer.AllUsersLoaded": "All users<br>loaded",
 
         "UI.ColorPicker.ColorPicker": "Color Picker",
 
@@ -1925,6 +2043,9 @@
         "UI.ColorPicker.Gain": "Gain",
 
         "UI.ProgressBar.ImportingItem": "Importing Item",
+
+        "UI.Camera.Automatic": "Automatic",
+        "UI.Camera.Manual": "Manual",
 
         "Tools.Names.MultiTool": "Multi-Tool",
 
@@ -1952,6 +2073,12 @@
         "Tools.Names.ControllerDiagnostic": "Controller Diagnostic Tool",
         "Tools.Names.Measure": "Measure Tool",
         "Tools.Names.Label": "Label Tool",
+
+        "Discord.RichPresence.InPrivateWorld": "In private world",
+        "Discord.RichPresence.InPrivateLargeText": "In private ({version})",
+        "Discord.RichPresence.InPublicWorld": "In public world",
+        "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} worlds)",
+        "Discord.RichPresence.InPublicLargeText": "In public ({version})",
 
         "Dummy": "Dummy"
     }
