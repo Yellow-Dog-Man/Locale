@@ -2,6 +2,10 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Czech [cs]
+Login.MissingSecretMachineId  
+Login.MissingSecretMachineId.Description  
+Login.MalformedSecretMachineId  
+Login.MalformedSecretMachineId.Description  
 Login.UnknownError  
 Login.UnknownError.Description  
 Recovery.MissingEmail  

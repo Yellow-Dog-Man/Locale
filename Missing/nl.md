@@ -77,6 +77,10 @@ Login.MalformedUID
 Login.MalformedUID.Description  
 Login.MissingUID  
 Login.MissingUID.Description  
+Login.MissingSecretMachineId  
+Login.MissingSecretMachineId.Description  
+Login.MalformedSecretMachineId  
+Login.MalformedSecretMachineId.Description  
 Register.MissingUID  
 Register.MissingUID.Description  
 Register.MalformedUID  

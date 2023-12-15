@@ -6,6 +6,10 @@ General.OK
 Facets.FPS  
 World.Actions.GuestWarning  
 World.AccessLevel.LAN  
+Login.MissingSecretMachineId  
+Login.MissingSecretMachineId.Description  
+Login.MalformedSecretMachineId  
+Login.MalformedSecretMachineId.Description  
 Account.Saml2.Title  
 Avatar.Badge.Live  
 Profile.Status.Online  

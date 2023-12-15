@@ -32,6 +32,10 @@ Tools.Setup2FA
 Tools.StreamAudio.Dialog.Title  
 Tools.StreamAudio.Spatialized  
 Tools.StreamAudio.Broadcast  
+Login.MissingSecretMachineId  
+Login.MissingSecretMachineId.Description  
+Login.MalformedSecretMachineId  
+Login.MalformedSecretMachineId.Description  
 Login.InvalidRecoveryCode  
 Login.InvalidRecoveryCode.Description  
 Login.UnsupportedAuthentication  

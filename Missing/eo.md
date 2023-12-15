@@ -2,6 +2,10 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Esperanto [eo]
+Login.MissingSecretMachineId  
+Login.MissingSecretMachineId.Description  
+Login.MalformedSecretMachineId  
+Login.MalformedSecretMachineId.Description  
 Inspector.Member.ResetToDefault  
 Inspector.Member.BreakLinkDrive  
 Inspector.Member.OpenLinkDrive  

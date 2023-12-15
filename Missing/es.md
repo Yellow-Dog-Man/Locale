@@ -6,6 +6,10 @@ Login.InvalidCredentials.Description
 Login.InvalidLogin.Description  
 Login.MalformedUID.Description  
 Login.MissingUID.Description  
+Login.MissingSecretMachineId  
+Login.MissingSecretMachineId.Description  
+Login.MalformedSecretMachineId  
+Login.MalformedSecretMachineId.Description  
 Register.MissingUID.Description  
 Register.MalformedUID.Description  
 Login.MissingLogin.Description  
