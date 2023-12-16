@@ -408,6 +408,12 @@
         
         "Login.MissingUID": "Brak informacji o urządzeniu",
         "Login.MissingUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
+
+        "Login.MissingSecretMachineId": "Brak tajnego machine ID",
+        "Login.MissingSecretMachineId.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
+        
+        "Login.MalformedSecretMachineId": "Nieprawidłowe tajne machine ID",
+        "Login.MalformedSecretMachineId.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
         
         "Register.MissingUID": "Nieprawidłowe informacje urządzenia",
         "Register.MissingUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
@@ -767,8 +773,8 @@
         "Tooltip.Microphone.SourceRaw": "Surowe",
         "Tooltip.Microphone.SourceFiltered": "Filtrowane i Normalizowane",
 
-        "Tooltip.ProtoFlux.Drive": "Drive",
-        "Tooltip.ProtoFlux.Source": "Source",
+        "Tooltip.ProtoFlux.Drive": "Steruj",
+        "Tooltip.ProtoFlux.Source": "Źródło",
         "Tooltip.ProtoFlux.Reference": "Odnieś",
         "Tooltip.ProtoFlux.Write": "Write",
         "Tooltip.ProtoFlux.Proxy": "Proxy",
@@ -1309,11 +1315,22 @@
         "Inspector.Slot.BringTo": "Przenieś do",
         "Inspector.Slot.BringTo.Undo": "Przenieś {name} do użytkownika",
 
-        "Inspector.Slot.ParentUnder.Label": "Parent Under:",
-        "Inspector.Slot.ParentUnder.WorldRoot": "World Root",
-        "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Parent {name} under world root",
-        "Inspector.Slot.ParentUnder.LocalUserSpace": "Local User Space",
-        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Parent {name} under local user space",
+        "Inspector.Slot.ParentUnder.Label": "Ustaw rodzica pod:",
+        "Inspector.Slot.ParentUnder.WorldRoot": "Root świata",
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Ustaw rodzica {name} pod rootem świata",
+        "Inspector.Slot.ParentUnder.LocalUserSpace": "Lokalna przestrzeń użytkownika",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Ustaw rodzica {name} pod nazwą świata",    
+
+        "Inspector.Member.ResetToDefault": "Przywróć domyślne wartości",
+
+        "Inspector.Member.BreakLinkDrive": "Przerwij Link/Sterowania",
+        "Inspector.Member.OpenLinkDrive": "Otwórz źródło Link/Sterowania",
+
+        "Inspector.Member.SetAllToAvg": "Ustaw wszystko na średnią",
+        "Inspector.Member.SetAllToX": "Ustaw wszystko na X",
+        "Inspector.Member.SetAllToY": "Ustaw wszystko na Y",
+        "Inspector.Member.SetAllToZ": "Ustaw wszystko na Z",
+        "Inspector.Member.SetAllToW": "Ustaw wszystko na W",
 
         "Inspector.Mesh.StatsHeader": "Statystyki Meshu",
         "Inspector.Mesh.VertexCount": "Liczba Wierzchołków: {n}",
@@ -1536,13 +1553,13 @@
         "Inspector.Collider.SetFromGlobalBoundsPrecise": "Ustaw z globalnych granic (precyzyjnie)",
         "Inspector.Collider.SetFromPreciseBounds": "Ustaw z precyzyjnych granic",
         "Inspector.Collider.SetFromPreciseCylinderBounds": "Ustaw z precyzyjnych granic cylindra",
-        "Inspector.Collider.Visualize": "Wizualizacja Kolidera",
+        "Inspector.Collider.Visualize": "Wizualizuj kolider",
 
-        
-        
-        
-        
-        
+        "Inspector.SimpleAwayIndicator.TestAway": "Ustaw na away (debug)",
+        "Inspector.SimpleAwayIndicator.TestRestore": "Przywróć do normalnego stanu (debug)",
+
+        "Inspector.Fields.Drive": "Steruj",
+        "Inspector.Fields.DriveWriteBack": "Steruj <size=50%>(write back)</size>",
 
         "Inspector.Actions.CopyComponent": "Kopiuj komponent",
         "Inspector.Actions.MoveComponent": "Przenieś komponent",
