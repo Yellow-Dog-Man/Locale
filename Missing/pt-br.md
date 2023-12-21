@@ -4,6 +4,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Portuguese (Brazil) [pt-br]
 Inventory.CreateDirectory  
 Inventory.GetURL  
+Inventory.Favorite.Document  
 Login.InvalidCredentials.Description  
 Login.InvalidLogin.Description  
 Login.MalformedUID.Description  

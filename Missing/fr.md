@@ -50,6 +50,7 @@ Inventory.Favorite.Avatar
 Inventory.Favorite.WorldLoadingIndicator  
 Inventory.Favorite.ColorDialog  
 Inventory.Favorite.Hyperlink  
+Inventory.Favorite.Document  
 Inventory.SpawnFacet  
 Dash.Exit.Sponsor  
 Dash.Exit.Sponsor.You  

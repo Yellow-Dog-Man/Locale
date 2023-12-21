@@ -116,6 +116,7 @@ Inventory.Favorite.Keyboard
 Inventory.Favorite.Avatar  
 Inventory.Favorite.WorldLoadingIndicator  
 Inventory.Favorite.Hyperlink  
+Inventory.Favorite.Document  
 Inventory.SpawnFacet  
 Dash.Screens.Home  
 Dash.Screens.Worlds  

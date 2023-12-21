@@ -3,6 +3,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Finnish [fi]
 General.OK  
+Inventory.Favorite.Document  
 Facets.FPS  
 World.Actions.GuestWarning  
 World.AccessLevel.LAN  
