@@ -2,6 +2,7 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Norwegian [no]
+Inventory.Favorite.Document  
 World.Loaded  
 Login.InvalidCredentials.Description  
 Login.InvalidLogin.Description  

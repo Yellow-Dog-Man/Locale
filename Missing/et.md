@@ -56,6 +56,7 @@ Inventory.Favorite.Avatar
 Inventory.Favorite.WorldLoadingIndicator  
 Inventory.Favorite.ColorDialog  
 Inventory.Favorite.Hyperlink  
+Inventory.Favorite.Document  
 Inventory.SpawnFacet  
 Dash.Actions.TurnOffUIEdit  
 Dash.Exit.Sponsor  
