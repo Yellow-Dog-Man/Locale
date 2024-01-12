@@ -903,6 +903,8 @@ Inspector.Member.SetAllToX
 Inspector.Member.SetAllToY  
 Inspector.Member.SetAllToZ  
 Inspector.Member.SetAllToW  
+Inspector.ProceduralAsset.UpdateCount  
+Inspector.ProceduralAsset.Error  
 Inspector.Mesh.StatsHeader  
 Inspector.Mesh.VertexCount  
 Inspector.Mesh.TriangleCount  

@@ -3,4 +3,6 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Japanese [ja]
 Inventory.Favorite.Document  
+Inspector.ProceduralAsset.UpdateCount  
+Inspector.ProceduralAsset.Error  
 

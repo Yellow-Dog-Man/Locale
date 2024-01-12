@@ -72,6 +72,8 @@ Inspector.Member.SetAllToX
 Inspector.Member.SetAllToY  
 Inspector.Member.SetAllToZ  
 Inspector.Member.SetAllToW  
+Inspector.ProceduralAsset.UpdateCount  
+Inspector.ProceduralAsset.Error  
 Inspector.Mesh.ReverseWinding  
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  

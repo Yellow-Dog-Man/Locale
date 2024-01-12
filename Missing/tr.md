@@ -401,6 +401,8 @@ Inspector.Member.SetAllToX
 Inspector.Member.SetAllToY  
 Inspector.Member.SetAllToZ  
 Inspector.Member.SetAllToW  
+Inspector.ProceduralAsset.UpdateCount  
+Inspector.ProceduralAsset.Error  
 Inspector.Mesh.SetupRenderer  
 Inspector.Mesh.RecalculateBlendshapeNormals  
 Inspector.Mesh.RecalculateBlendshapeNormalsSmooth  
