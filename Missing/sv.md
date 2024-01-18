@@ -998,6 +998,7 @@ Inspector.BipedRig.RightHandRigResult
 Inspector.Texture.Size  
 Inspector.Texture.Format  
 Inspector.Texture.Variant  
+Inspector.Texture3D.Size  
 Inspector.Texture.BakeTexture  
 Inspector.Texture.InvertRGB  
 Inspector.Texture.InvertR  

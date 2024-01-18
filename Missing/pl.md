@@ -11,4 +11,5 @@ Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose
 Inspector.SkinnedMesh.BakeToStaticMesh  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
+Inspector.Texture3D.Size  
 

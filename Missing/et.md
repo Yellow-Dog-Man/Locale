@@ -400,6 +400,7 @@ Inspector.SimpleAvatarProtection.RemoveSingle
 Inspector.SimpleAvatarProtection.Warning  
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Inspector.Texture.Variant  
+Inspector.Texture3D.Size  
 Inspector.Texture.BakeTexture  
 Inspector.Texture.ConvertToGrayscaleLuminance  
 Inspector.Texture.SwapRA  

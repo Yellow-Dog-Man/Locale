@@ -19,6 +19,7 @@ Inspector.ProceduralAsset.UpdateCount
 Inspector.ProceduralAsset.Error  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
+Inspector.Texture3D.Size  
 Tutorial.Welcome.Welcome  
 Tutorial.Welcome.Begin  
 Discord.RichPresence.InPrivateWorld  

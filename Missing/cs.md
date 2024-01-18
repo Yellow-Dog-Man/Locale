@@ -50,6 +50,7 @@ Inspector.ProceduralAsset.UpdateCount
 Inspector.ProceduralAsset.Error  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
+Inspector.Texture3D.Size  
 UI.Camera.Automatic  
 UI.Camera.Manual  
 Discord.RichPresence.InPrivateWorld  

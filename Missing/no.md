@@ -82,6 +82,7 @@ Inspector.ProceduralAsset.UpdateCount
 Inspector.ProceduralAsset.Error  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
+Inspector.Texture3D.Size  
 Tutorial.Teleporter.Error  
 UI.VideoPlayer.AllUsersLoaded  
 UI.Camera.Automatic  

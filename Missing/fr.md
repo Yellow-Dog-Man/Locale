@@ -293,6 +293,7 @@ Inspector.SkinnedMesh.SortBlendshapes.Name
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.SimpleAvatarProtection.RemoveSingle  
 Inspector.SimpleAvatarProtection.Warning  
+Inspector.Texture3D.Size  
 Inspector.Texture.ConvertToGrayscaleLuminance  
 Inspector.Texture.SwapRA  
 Inspector.Texture.SwapGA  

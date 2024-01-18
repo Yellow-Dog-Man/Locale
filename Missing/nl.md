@@ -327,6 +327,7 @@ Inspector.VHACD.DecompositionMode.Voxel
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.Texture.Variant  
+Inspector.Texture3D.Size  
 Inspector.Texture.ConvertToGrayscaleLuminance  
 Inspector.Texture.SwapRA  
 Inspector.Texture.SwapGA  

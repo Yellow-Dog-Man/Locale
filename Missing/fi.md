@@ -89,6 +89,7 @@ Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.SimpleAvatarProtection.Warning  
+Inspector.Texture3D.Size  
 Inspector.Texture.Value  
 Inspector.Texture.AdjustValue  
 Inspector.Texture.TrimTransparent  
