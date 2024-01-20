@@ -9,7 +9,7 @@
         "General.Cancel": "Annuler",
         "General.Continue": "Continuer",
         "General.Next": "Suivant",
-
+        "General.Previous": "Précédent",
         "General.Back": "Précédent",
         "General.Confirm": "Confirmer ?",
         "General.Loading": "Chargement...",
@@ -27,7 +27,6 @@
         "General.CopiedToClipboardLong": "Copié dans le presse-papier",
         "General.Create": "Créer",
         "General.Creating": "En cours de création...",
-        "General.Previous": "Précédent",
         "General.Buy": "Acheter",
         "General.Yes": "Oui",
         "General.No": "Non",
@@ -44,11 +43,11 @@
         "General.UI.SearchPromptLong": "Taper ici pour rechercher...",
         "General.UI.ToggleEditMode": "Basculer le mode d'édition",
         "General.UI.ToggleSubtitles": "Basculer les sous-titres",
-        "General.UI.SubtitlesOn": "Sous-titres activés",
-        "General.UI.SubtitlesOff": "Sous-titres désactivés",
+
         "General.UI.MusicVolumeLocal": "Volume de la musique (local)",
         "General.UI.VoiceVolumeLocal": "Volume des voix (local)",
         "General.UI.SoundVolumeLocal": "Volume des sons (local)",
+
         "General.UI.PressToBegin": "Pressez pour commencer",
 
         "General.Sort.Ascending": "Ascendant",
@@ -88,9 +87,8 @@
         "Interaction.LaserDisabled": "Laser désactivé",
         "Interaction.Grab.Palm": "Saisir: paume",
         "Interaction.Grab.Precision": "Saisir: précision",
-        "Interaction.Grab.Audo": "Saisir: automatique",
-        "Interaction.Grab.Off": "Saisir: laser seulement",
 
+        "Interaction.Grab.Off": "Saisir: laser seulement",
         "Interaction.Locomotion": "Mouvement",
         "Interaction.Locomotion.None": "Aucun",
 
@@ -118,9 +116,9 @@
         "Inventory.Share": "Partager",
         "Inventory.Unshare": "Annuler le partage",
         "Inventory.SaveAvatar": "Sauvegarder l'avatar",
-        "Inventory.SpawnFacet": "Matérialiser la facette",
         "Inventory.Favorite.Home": "Définir comme maison",
         "Inventory.Favorite.ProgressBar": "Définir comme barre de progrès",
+
         "Inventory.Favorite.TextDisplay": "Définir comme bloc-notes",
         "Inventory.Favorite.VideoPlayer": "Définir comme lecteur vidéo",
         "Inventory.Favorite.AudioPlayer": "Définir comme lecteur audio",
@@ -129,8 +127,9 @@
         "Inventory.Favorite.Avatar": "Définir comme avatar",
         "Inventory.Favorite.WorldLoadingIndicator": "Définir comme barre de chargement",
         "Inventory.Favorite.ColorDialog": "Définir comme sélecteur de couleurs",
-        "Inventory.Favorite.HyperLink": "Définir comme affichage d'un lien",
+
         "Inventory.Favorite.Document": "Définir comme visionneuse de documents",
+        "Inventory.SpawnFacet": "Matérialiser la facette",
 
         "Dash.Screens.Home": "Maison",
         "Dash.Screens.Worlds": "Mondes",
@@ -151,13 +150,13 @@
         "Dash.Exit.Header": "Quitter {appName}",
         "Dash.Exit.ExitAndSave": "Quitter et sauvegarder les changements",
         "Dash.Exit.ExitAndDiscard": "Quitter sans sauvegarder",
-        "Dash.Exit.ThankYou": "Merci d'utiliser {appName}!",
-        "Dash.Exit.SubmittedBy": "Soumis par: {name}",
         "Dash.Exit.Sponsor": "Un grand merci a {name} pour avoir sponsorisé ce projet!",
         "Dash.Exit.Sponsor.You": "TOI",
         "Dash.Exit.Shoutouts": "Ce projet est rendu possible grâce a ces personnes:",
         "Dash.Exit.Shoutouts.AndMore": " et bien plus encore!",
         "Dash.Exit.Shoutouts.You": "{name} (C'est toi! Merci!)",
+        "Dash.Exit.ThankYou": "Merci d'utiliser {appName}!",
+        "Dash.Exit.SubmittedBy": "Soumis par: {name}",
 
         "Facets.FPS": "{fps}<size=61.803%> FPS</size>",
 
@@ -195,14 +194,12 @@
         "World.Error.FailedConnectToRelay": "Impossible de se connecter au relai",
         "World.Error.FailedToConnect": "Impossible d'établir une connexion",
         "World.Error.InvalidAddress": "Adresse invalide",
+        "World.Error.NoPort": "Aucun port spécifié",
+        "World.Error.IncompatibleVersion": "Version de {appName} incompatible",
         "World.Error.HostBlocked": "Hôte bloqué",
         "World.Error.HostBlockedDetail": "Vous avez bloqué l'hôte",
         "World.Error.WorldCrash": "Le monde a crashé",
         "World.Error.WorldCrashDetail": "Erreur fatale en tentant de mettre a jour le monde",
-
-        "World.Error.NoPort": "Aucun port spécifié",
-        "World.Error.IncompatibleVersion": "Version de {appName} incompatible",
-
         "World.Error.Unknown": "Erreur inconnue",
 
         "World.Config.Name": "Nom du monde:",
@@ -290,7 +287,7 @@
         "World.Category.Featured": "En vedette",
         "World.Category.PublishedWorlds": "Mondes publiés",
         "World.Category.ActiveSessions": "Sessions actives",
-
+        "World.Category.ContactsSessions": "Sessions de contacts",
         "World.Category.HeadlessSessions": "Sessions avec hôte dédié",
         "World.Category.Social": "Social",
         "World.Category.Games": "Jeux",
@@ -300,16 +297,14 @@
         "World.Category.Random": "Aléatoire",
         "World.Category.MyWorlds": "Mes mondes",
         "World.Category.Custom": "Personnalisé",
-        "World.Category.ContactsSessions": "Sessions de contacts",
         "World.Category.GroupWorlds": "Mondes de groupes",
 
         "World.AccessLevel.Anyone": "N'importe qui",
         "World.AccessLevel.RegisteredUsers": "Utilisateurs enregistrés",
-
-        "World.AccessLevel.LAN": "En réseau",
-        "World.AccessLevel.Private": "Privé (sur invitation seulement)",
         "World.AccessLevel.Contacts": "Contacts",
         "World.AccessLevel.ContactsPlus": "Contacts+",
+        "World.AccessLevel.LAN": "En réseau",
+        "World.AccessLevel.Private": "Privé (sur invitation seulement)",
 
         "World.SortParameter.SearchScore": "Recherche par pointage",
         "World.SortParameter.Name": "Nom",
@@ -321,7 +316,6 @@
         "World.SortParameter.FirstPublishTime": "Date de publication",
         "World.SortParameter.TotalVisits": "Total des visites",
         "World.SortParameter.LastVisit": "Dernière visite",
-
         "World.SortParameter.Random": "Aléatoire",
 
         "World.Filter.DataSources": "Source des données:",
@@ -339,7 +333,6 @@
         "World.Filter.SessionFiltering": "Filtre des sessions:",
         "World.Filter.MinimumUsers": "Nombre d'utilisateurs minimum: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Nombre de contacts minimum: <b>{n}</b>",
-
         "World.Filter.OnlyHeadless": "Hôtes serveurs sans-ecrans seulement",
         "World.Filter.MaxAccessLevel": "Niveau d'accès maximal:",
         "World.Filter.MinimumUptime": "Durée de fonctionnement minimal:",
@@ -363,6 +356,7 @@
         "Tools.StreamAudio": "Stream audio",
         "Tools.Setup2FA": "Configurer 2FA",
 
+        "Tools.StreamAudio.Dialog.Title": "Créer un flux audio",
         "Tools.StreamAudio.Start": "Démarrer la diffusion",
         "Tools.StreamAudio.Bitrate": "Bitrate: {bitrate} kbps",
         "Tools.StreamAudio.Title": "Flux audio de {username}",
@@ -370,7 +364,6 @@
         "Tools.StreamAudio.Broadcast": "Diffusion",
         "Tools.StreamAudio.PlayForOwner.Off": "Jouer pour le propriétaire: Inactif",
         "Tools.StreamAudio.PlayForOwner.On": "Jouer pour le propriétaire: Actif",
-        "Tools.StreamAudio.Dialog.Title": "Créer un flux audio",
 
         "Options.FreeformDash.On": "Tableau de bord libre: Actif",
         "Options.FreeformDash.Off": "Tableau de bord libre: Inactif",
@@ -509,6 +502,7 @@
         "Contacts.AcceptRequest": "Accepter la requète",
         "Contacts.IgnoreRequest": "Ignorer la requète",
         "Contacts.Invite": "Inviter ici",
+
         "Contacts.BanFromAllSessions": "Interdire l'accès à TOUTES mes sessions",
         "Contacts.UnbanFromAllSessions": "Lever l'interdiction dans toutes mes sessions",
         "Contacts.BanFromCurrentWorld": "Interdire l'accès à ce monde",
@@ -974,6 +968,7 @@
         "Settings.HideAllTutorials": "Cacher tous les tutoriels",
         "Settings.ShowInteractionHints": "Montrez des conseils d'interaction",
         "Settings.PrimaryController": "Contrôleur principal",
+
         "Settings.AllowStrafing": "Autoriser le déplacement latéral (strafing)",
         "Settings.UseHeadDirectionForMovement": "Utiliser la direction de la tête pour le mouvement",
         "Settings.SmoothTurn": "Rotation fluide",
