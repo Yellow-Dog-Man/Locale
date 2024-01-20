@@ -383,11 +383,23 @@
         "Options.Nameplates.CustomStyle": "Noms customisés",
 
         "Indicator.OnlineUsers": "Utilisateurs en ligne: ~{num_total} ({num_registered})",
+        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {utilisateur} other {utilisateurs}} en VR",
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {utilisateur} other {utilisateurs}} en Desktop",
 
-        "Indicator.Sync.AllSynced": "Synchronization complèté",
-        "Indicator.Sync.SyncingItems": "Synchronization: {item_count,plural, one {# élément} other {# éléments}} <nobr>({item_percent} %)",
+        "Indicator.ServerStatus.ServerStatus": "Statut du serveur",
+        "Indicator.ServerStatus.Good": "Bon",
+        "Indicator.ServerStatus.Slow": "Lent",
+        "Indicator.ServerStatus.Down": "Indisponible",
+        "Indicator.ServerStatus.NoInternet": "Aucune connexion internet",
+
+        "Indicator.Sync.AllSynced": "Synchronisation complété",
+        "Indicator.Sync.SyncingItems": "Synchronisation: {item_count,plural, one {# élément} other {# éléments}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "Chargement {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError": "Erreur de synchronisation! <size=50%>Valider les logs pour les détails</size>",
+        "Indicator.Sync.StorageFull": "Stockage plein <size=61.803%>synchronisation impossible</size>",
+
+        "Indicator.Storage.StorageFull": "Stockage plein",
+        "Indicator.Storage.Usage": "{storage_used} de {storage_max}<br><size=61.803%>Stockage utilisé</size>",
 
         "Indicator.LiveHiddenMessage": "(Vos informations sont cachées pendant que vous diffuser)",
 
