@@ -167,6 +167,7 @@
         "World.LoadingFailed": "Échec du chargement",
         "World.LoadedAssets": "{assets} chargés sur {total_assets}",
         "World.Downloading": "{bytes} téléchargé sur {total_bytes}",
+        "World.Loaded": "Chargé",
 
         "World.Connection.EstablishingConnection": "Connection...",
         "World.Connection.RequestingJoin": "Requête envoyée",
@@ -192,7 +193,12 @@
         "World.Error.FailedFetchingAuthentication": "Impossible de trouver l'information d'authentification",
         "World.Error.JoinAlreadyRequested": "Une requête à déjà été envoyée",
         "World.Error.FailedConnectToRelay": "Impossible de se connecter au relai",
-        "World.Error.FailedToConnect": "Impossible d'établir une connection",
+        "World.Error.FailedToConnect": "Impossible d'établir une connexion",
+        "World.Error.InvalidAddress": "Adresse invalide",
+        "World.Error.HostBlocked": "Hôte bloqué",
+        "World.Error.HostBlockedDetail": "Vous avez bloqué l'hôte",
+        "World.Error.WorldCrash": "Le monde a crashé",
+        "World.Error.WorldCrashDetail": "Erreur fatale en tentant de mettre a jour le monde",
 
         "World.Error.NoPort": "Aucun port spécifié",
         "World.Error.IncompatibleVersion": "Version de {appName} incompatible",
@@ -260,6 +266,7 @@
         "World.Indicator.Users.None": "(aucune session active)",
         "World.Indicator.Description": "Description",
         "World.Indicator.Description.None": "(une description n'a pas été donnée)",
+        "World.Indicator.Visited": "(visité)",
 
         "World.Detail.ActiveSessions": "Sessions actives :",
         "World.Detail.ActiveUsers": "Utilisateurs actifs :",
@@ -292,13 +299,17 @@
         "World.Category.Educational": "Éducationnel",
         "World.Category.Random": "Aléatoire",
         "World.Category.MyWorlds": "Mes mondes",
-        "World.Category.Custom": "Personalisé",
+        "World.Category.Custom": "Personnalisé",
+        "World.Category.ContactsSessions": "Sessions de contacts",
+        "World.Category.GroupWorlds": "Mondes de groupes",
 
         "World.AccessLevel.Anyone": "N'importe qui",
-        "World.AccessLevel.RegisteredUsers": "Utilisateurs enregistés",
+        "World.AccessLevel.RegisteredUsers": "Utilisateurs enregistrés",
 
         "World.AccessLevel.LAN": "En réseau",
         "World.AccessLevel.Private": "Privé (sur invitation seulement)",
+        "World.AccessLevel.Contacts": "Contacts",
+        "World.AccessLevel.ContactsPlus": "Contacts+",
 
         "World.SortParameter.SearchScore": "Recherche par pointage",
         "World.SortParameter.Name": "Nom",
@@ -309,6 +320,7 @@
         "World.SortParameter.LastUpdateDate": "Date de modification",
         "World.SortParameter.FirstPublishTime": "Date de publication",
         "World.SortParameter.TotalVisits": "Total des visites",
+        "World.SortParameter.LastVisit": "Dernière visite",
 
         "World.SortParameter.Random": "Aléatoire",
 
@@ -326,6 +338,7 @@
         "World.Filter.MyWorlds": "Mes mondes",
         "World.Filter.SessionFiltering": "Filtre des sessions:",
         "World.Filter.MinimumUsers": "Nombre d'utilisateurs minimum: <b>{n}</b>",
+        "World.Filter.MinimumContacts": "Nombre de contacts minimum: <b>{n}</b>",
 
         "World.Filter.OnlyHeadless": "Hôtes serveurs sans-ecrans seulement",
         "World.Filter.MaxAccessLevel": "Niveau d'accès maximal:",
