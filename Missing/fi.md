@@ -3,6 +3,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Finnish [fi]
 General.OK  
+Interaction.CopyImage  
 Inventory.Favorite.Document  
 Facets.FPS  
 World.Actions.GuestWarning  

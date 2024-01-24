@@ -28,6 +28,7 @@ Interaction.Grab.Palm
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
 Interaction.Grab.Off  
+Interaction.CopyImage  
 Inventory.OpenWorld  
 Inventory.Equip  
 Inventory.Delete  

@@ -2,6 +2,7 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Portuguese (Brazil) [pt-br]
+Interaction.CopyImage  
 Inventory.CreateDirectory  
 Inventory.GetURL  
 Inventory.Favorite.Document  

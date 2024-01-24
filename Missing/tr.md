@@ -39,6 +39,7 @@ Interaction.Grab.Auto
 Interaction.Grab.Off  
 Interaction.ExportScreenshot  
 Interaction.CopyLink  
+Interaction.CopyImage  
 Inventory.OpenWorld  
 Inventory.Equip  
 Inventory.Delete  

@@ -2,6 +2,7 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Czech [cs]
+Interaction.CopyImage  
 Inventory.Favorite.Document  
 Login.MissingSecretMachineId  
 Login.MissingSecretMachineId.Description  

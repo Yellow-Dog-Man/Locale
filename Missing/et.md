@@ -34,6 +34,7 @@ Interaction.Grab.Precision
 Interaction.Grab.Auto  
 Interaction.Grab.Off  
 Interaction.ExportScreenshot  
+Interaction.CopyImage  
 Inventory.OpenWorld  
 Inventory.Equip  
 Inventory.Delete  

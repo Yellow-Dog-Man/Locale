@@ -95,6 +95,7 @@ Interaction.ExportScreenshot
 Interaction.ImportFile  
 Interaction.ExportFile  
 Interaction.CopyLink  
+Interaction.CopyImage  
 Inventory.OpenWorld  
 Inventory.Equip  
 Inventory.Delete  

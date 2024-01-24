@@ -15,6 +15,7 @@ General.Dismiss
 General.Edit  
 Worlds.Home  
 Worlds.Tutorial  
+Interaction.CopyImage  
 Inventory.OpenWorld  
 Inventory.Equip  
 Inventory.Delete  

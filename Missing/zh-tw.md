@@ -2,6 +2,7 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Chinese (Taiwan) [zh-tw]
+Interaction.CopyImage  
 Inventory.Favorite.Document  
 Login.InvalidCredentials.Description  
 Login.InvalidLogin.Description  
