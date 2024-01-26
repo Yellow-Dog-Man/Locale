@@ -449,6 +449,7 @@ Inspector.SimpleAvatarProtection.ConfirmRemoveAll
 Inspector.Texture.Variant  
 Inspector.Texture3D.Size  
 Inspector.Texture.BakeTexture  
+Inspector.Texture.ReplaceFromClipboard  
 Inspector.Texture.ConvertToGrayscaleLuminance  
 Inspector.Texture.SwapRA  
 Inspector.Texture.SwapGA  

@@ -6,4 +6,5 @@ Interaction.CopyImage
 Inspector.ProceduralAsset.UpdateCount  
 Inspector.ProceduralAsset.Error  
 Inspector.Texture3D.Size  
+Inspector.Texture.ReplaceFromClipboard  
 

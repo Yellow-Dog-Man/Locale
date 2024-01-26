@@ -52,6 +52,7 @@ Inspector.ProceduralAsset.Error
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.Texture3D.Size  
+Inspector.Texture.ReplaceFromClipboard  
 UI.Camera.Automatic  
 UI.Camera.Manual  
 Discord.RichPresence.InPrivateWorld  

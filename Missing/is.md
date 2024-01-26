@@ -617,6 +617,7 @@ Inspector.Texture.Format
 Inspector.Texture.Variant  
 Inspector.Texture3D.Size  
 Inspector.Texture.BakeTexture  
+Inspector.Texture.ReplaceFromClipboard  
 Inspector.Texture.InvertRGB  
 Inspector.Texture.InvertR  
 Inspector.Texture.InvertG  

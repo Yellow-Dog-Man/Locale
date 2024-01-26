@@ -3,4 +3,5 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # German [de]
 Interaction.CopyImage  
+Inspector.Texture.ReplaceFromClipboard  
 
