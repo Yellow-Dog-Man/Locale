@@ -107,6 +107,7 @@
         "Interaction.ImportFile": "파일을 월드로 추출",
         "Interaction.ExportFile": "파일 다운로드(문서/{appName} VR)",
         "Interaction.CopyLink": "링크 복사",
+        "Interaction.CopyImage": "이미지 복사",
 
         "Inventory.OpenWorld": "세션 시작",
         "Inventory.Equip": "아바타 착용",
@@ -1330,6 +1331,9 @@
         "Inspector.Member.SetAllToY": "모두 Y값으로 설정",
         "Inspector.Member.SetAllToZ": "모두 Z값으로 설정",
         "Inspector.Member.SetAllToW": "모두 W값으로 설정",
+
+        "Inspector.ProceduralAsset.UpdateCount": "갱신 횟수: {n}",
+        "Inspector.ProceduralAsset.Error": "오류: {error}",
         
         "Inspector.Mesh.StatsHeader": "메시 통계정보",
         "Inspector.Mesh.VertexCount": "버텍스 수: {n}",
@@ -1438,7 +1442,8 @@
         "Inspector.Texture.Size": "크기: {width} x {height}",
         "Inspector.Texture.Format": "형식: {format}, 메모리: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "텍스쳐 식별자: {variant}",
-
+        "Inspector.Texture3D.Size": "크기: {width} x {height} x {depth}",
+        
         "Inspector.Texture.BakeTexture": "텍스쳐 베이크",
 
         "Inspector.Texture.InvertRGB": "색상반전(RGB)",
