@@ -1,6 +1,6 @@
 {
     "localeCode": "fr",
-    "authors": ["Archer", "FreakyWaves", "Xqua", "brodokk", "Sopra", "Khosumi"],
+    "authors": ["Archer", "FreakyWaves", "Xqua", "brodokk", "Sopra", "Khosumi", "j4"],
     "messages": {
 
         "General.OK": "OK",
@@ -9,7 +9,7 @@
         "General.Cancel": "Annuler",
         "General.Continue": "Continuer",
         "General.Next": "Suivant",
-
+        "General.Previous": "Précédent",
         "General.Back": "Précédent",
         "General.Confirm": "Confirmer ?",
         "General.Loading": "Chargement...",
@@ -27,12 +27,34 @@
         "General.CopiedToClipboardLong": "Copié dans le presse-papier",
         "General.Create": "Créer",
         "General.Creating": "En cours de création...",
+        "General.Buy": "Acheter",
+        "General.Yes": "Oui",
+        "General.No": "Non",
+        "General.ClearSelection": "Tout déselectionner",
+        "General.Off": "Désactivé",
+        "General.On": "Activé",
+        "General.Understand": "Je comprends",
+        "General.Notice": "Note",
+        "General.UnderstandEnable": "Je comprends, activer",
+        "General.Dismiss": "Rejeter",
+        "General.Edit": "Éditer",
 
         "General.UI.SearchPrompt": "Recherche...",
         "General.UI.SearchPromptLong": "Taper ici pour rechercher...",
+        "General.UI.ToggleEditMode": "Basculer le mode d'édition",
+        "General.UI.ToggleSubtitles": "Basculer les sous-titres",
+
+        "General.UI.MusicVolumeLocal": "Volume de la musique (local)",
+        "General.UI.VoiceVolumeLocal": "Volume des voix (local)",
+        "General.UI.SoundVolumeLocal": "Volume des sons (local)",
+
+        "General.UI.PressToBegin": "Pressez pour commencer",
 
         "General.Sort.Ascending": "Ascendant",
         "General.Sort.Descending": "Descendant",
+
+        "Worlds.Home": "Maison",
+        "Worlds.Tutorial": "Tutoriel",
 
         "Locomotion.Noclip.Name": "Sans collisions",
         "Locomotion.Noclip.Description": "Locomotion de vol sans collisions, idéal pour l'édition.",
@@ -63,7 +85,10 @@
         "Interaction.ResetScale": "Réinitialiser sa taille",
         "Interaction.LaserEnabled": "Laser activé",
         "Interaction.LaserDisabled": "Laser désactivé",
+        "Interaction.Grab.Palm": "Saisir: paume",
+        "Interaction.Grab.Precision": "Saisir: précision",
 
+        "Interaction.Grab.Off": "Saisir: laser seulement",
         "Interaction.Locomotion": "Mouvement",
         "Interaction.Locomotion.None": "Aucun",
 
@@ -80,6 +105,31 @@
         "Interaction.ImportFile": "Importer le fichier",
         "Interaction.ExportFile": "Exporter le fichier",
         "Interaction.CopyLink": "Copier le lien",
+
+        "Inventory.OpenWorld": "Ouvrir le monde",
+        "Inventory.Equip": "Équiper",
+        "Inventory.Delete": "Supprimer",
+        "Inventory.CreateDirectory": "Créer un dossier",
+        "Inventory.SaveHeld": "Sauvegarder objet saisi",
+        "Inventory.GetURL": "Copier le lien",
+        "Inventory.Inventories": "Inventaires",
+        "Inventory.Share": "Partager",
+        "Inventory.Unshare": "Annuler le partage",
+        "Inventory.SaveAvatar": "Sauvegarder l'avatar",
+        "Inventory.Favorite.Home": "Définir comme maison",
+        "Inventory.Favorite.ProgressBar": "Définir comme barre de progrès",
+
+        "Inventory.Favorite.TextDisplay": "Définir comme bloc-notes",
+        "Inventory.Favorite.VideoPlayer": "Définir comme lecteur vidéo",
+        "Inventory.Favorite.AudioPlayer": "Définir comme lecteur audio",
+        "Inventory.Favorite.InteractiveCamera": "Définir comme camera",
+        "Inventory.Favorite.Keyboard": "Définir comme clavier",
+        "Inventory.Favorite.Avatar": "Définir comme avatar",
+        "Inventory.Favorite.WorldLoadingIndicator": "Définir comme barre de chargement",
+        "Inventory.Favorite.ColorDialog": "Définir comme sélecteur de couleurs",
+        "Inventory.Favorite.Hyperlink": "Définir comme affichage d'un lien",
+        "Inventory.Favorite.Document": "Définir comme visionneuse de documents",
+        "Inventory.SpawnFacet": "Matérialiser la facette",
 
         "Dash.Screens.Home": "Maison",
         "Dash.Screens.Worlds": "Mondes",
@@ -100,8 +150,15 @@
         "Dash.Exit.Header": "Quitter {appName}",
         "Dash.Exit.ExitAndSave": "Quitter et sauvegarder les changements",
         "Dash.Exit.ExitAndDiscard": "Quitter sans sauvegarder",
+        "Dash.Exit.Sponsor": "Un grand merci a {name} pour avoir sponsorisé ce projet!",
+        "Dash.Exit.Sponsor.You": "TOI",
+        "Dash.Exit.Shoutouts": "Ce projet est rendu possible grâce a ces personnes:",
+        "Dash.Exit.Shoutouts.AndMore": " et bien plus encore!",
+        "Dash.Exit.Shoutouts.You": "{name} (C'est toi! Merci!)",
         "Dash.Exit.ThankYou": "Merci d'utiliser {appName}!",
         "Dash.Exit.SubmittedBy": "Soumis par: {name}",
+
+        "Facets.FPS": "{fps}<size=61.803%> FPS</size>",
 
         "World.Waiting": "En attente...",
         "World.HostIsStarting": "L'hôte démarre la session",
@@ -109,6 +166,7 @@
         "World.LoadingFailed": "Échec du chargement",
         "World.LoadedAssets": "{assets} chargés sur {total_assets}",
         "World.Downloading": "{bytes} téléchargé sur {total_bytes}",
+        "World.Loaded": "Chargé",
 
         "World.Connection.EstablishingConnection": "Connection...",
         "World.Connection.RequestingJoin": "Requête envoyée",
@@ -134,11 +192,14 @@
         "World.Error.FailedFetchingAuthentication": "Impossible de trouver l'information d'authentification",
         "World.Error.JoinAlreadyRequested": "Une requête à déjà été envoyée",
         "World.Error.FailedConnectToRelay": "Impossible de se connecter au relai",
-        "World.Error.FailedToConnect": "Impossible d'établir une connection",
-
+        "World.Error.FailedToConnect": "Impossible d'établir une connexion",
+        "World.Error.InvalidAddress": "Adresse invalide",
         "World.Error.NoPort": "Aucun port spécifié",
         "World.Error.IncompatibleVersion": "Version de {appName} incompatible",
-
+        "World.Error.HostBlocked": "Hôte bloqué",
+        "World.Error.HostBlockedDetail": "Vous avez bloqué l'hôte",
+        "World.Error.WorldCrash": "Le monde a crashé",
+        "World.Error.WorldCrashDetail": "Erreur fatale en tentant de mettre a jour le monde",
         "World.Error.Unknown": "Erreur inconnue",
 
         "World.Config.Name": "Nom du monde:",
@@ -202,6 +263,7 @@
         "World.Indicator.Users.None": "(aucune session active)",
         "World.Indicator.Description": "Description",
         "World.Indicator.Description.None": "(une description n'a pas été donnée)",
+        "World.Indicator.Visited": "(visité)",
 
         "World.Detail.ActiveSessions": "Sessions actives :",
         "World.Detail.ActiveUsers": "Utilisateurs actifs :",
@@ -225,7 +287,7 @@
         "World.Category.Featured": "En vedette",
         "World.Category.PublishedWorlds": "Mondes publiés",
         "World.Category.ActiveSessions": "Sessions actives",
-
+        "World.Category.ContactsSessions": "Sessions de contacts",
         "World.Category.HeadlessSessions": "Sessions avec hôte dédié",
         "World.Category.Social": "Social",
         "World.Category.Games": "Jeux",
@@ -234,11 +296,13 @@
         "World.Category.Educational": "Éducationnel",
         "World.Category.Random": "Aléatoire",
         "World.Category.MyWorlds": "Mes mondes",
-        "World.Category.Custom": "Personalisé",
+        "World.Category.Custom": "Personnalisé",
+        "World.Category.GroupWorlds": "Mondes de groupes",
 
         "World.AccessLevel.Anyone": "N'importe qui",
-        "World.AccessLevel.RegisteredUsers": "Utilisateurs enregistés",
-
+        "World.AccessLevel.RegisteredUsers": "Utilisateurs enregistrés",
+        "World.AccessLevel.Contacts": "Contacts",
+        "World.AccessLevel.ContactsPlus": "Contacts+",
         "World.AccessLevel.LAN": "En réseau",
         "World.AccessLevel.Private": "Privé (sur invitation seulement)",
 
@@ -251,7 +315,7 @@
         "World.SortParameter.LastUpdateDate": "Date de modification",
         "World.SortParameter.FirstPublishTime": "Date de publication",
         "World.SortParameter.TotalVisits": "Total des visites",
-
+        "World.SortParameter.LastVisit": "Dernière visite",
         "World.SortParameter.Random": "Aléatoire",
 
         "World.Filter.DataSources": "Source des données:",
@@ -268,7 +332,7 @@
         "World.Filter.MyWorlds": "Mes mondes",
         "World.Filter.SessionFiltering": "Filtre des sessions:",
         "World.Filter.MinimumUsers": "Nombre d'utilisateurs minimum: <b>{n}</b>",
-
+        "World.Filter.MinimumContacts": "Nombre de contacts minimum: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Hôtes serveurs sans-ecrans seulement",
         "World.Filter.MaxAccessLevel": "Niveau d'accès maximal:",
         "World.Filter.MinimumUptime": "Durée de fonctionnement minimal:",
@@ -292,6 +356,7 @@
         "Tools.StreamAudio": "Stream audio",
         "Tools.Setup2FA": "Configurer 2FA",
 
+        "Tools.StreamAudio.Dialog.Title": "Créer un flux audio",
         "Tools.StreamAudio.Start": "Démarrer la diffusion",
         "Tools.StreamAudio.Bitrate": "Bitrate: {bitrate} kbps",
         "Tools.StreamAudio.Title": "Flux audio de {username}",
@@ -307,15 +372,41 @@
         "Options.Nameplates.All": "Noms: Visibles",
         "Options.Nameplates.NonContacts": "Noms: Cacher les contacts",
         "Options.Nameplates.Hide": "Noms: Cacher",
+        "Options.Nameplates.DefaultStyle": "Forcer les noms par défauts",
+        "Options.Nameplates.CustomStyle": "Noms customisés",
 
-        "Indicator.OnlineUsers": "Utilisateurs en ligne: ~{num_total} ({num_registered})",
+        "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> {users,plural, one {Utilisateur} other {Utilisateurs}} en ligne",
+        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {utilisateur} other {utilisateurs}} en VR",
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {utilisateur} other {utilisateurs}} en Desktop",
 
-        "Indicator.Sync.AllSynced": "Synchronization complèté",
-        "Indicator.Sync.SyncingItems": "Synchronization: {item_count,plural, one {# élément} other {# éléments}} <nobr>({item_percent} %)",
+        "Indicator.ServerStatus.Status": "Statut du serveur",
+        "Indicator.ServerStatus.Good": "Bon",
+        "Indicator.ServerStatus.Slow": "Lent",
+        "Indicator.ServerStatus.Down": "Indisponible",
+        "Indicator.ServerStatus.NoInternet": "Aucune connexion internet",
+
+        "Indicator.Sync.AllSynced": "Synchronisation complété",
+        "Indicator.Sync.SyncingItems": "Synchronisation: {item_count,plural, one {# élément} other {# éléments}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "Chargement {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError": "Erreur de synchronisation! <size=50%>Valider les logs pour les détails</size>",
+        "Indicator.Sync.StorageFull": "Stockage plein <size=61.803%>synchronisation impossible</size>",
+
+        "Indicator.Storage.StorageFull": "Stockage plein",
+        "Indicator.Storage.Usage": "{storage_used} de {storage_max}<br><size=61.803%>Stockage utilisé</size>",
 
         "Indicator.LiveHiddenMessage": "(Vos informations sont cachées pendant que vous diffuser)",
+
+        "Login.InvalidCredentials": "Identification invalide",
+        "Login.InvalidCredentials.Description": "Veuillez vérifier votre identification et ré-essayer \"Mot de passe oublié?\"",
+
+        "Login.InvalidLogin": "Identification invalide",
+        "Login.InvalidLogin.Description": "Veuillez vérifier votre identification et ré-essayer \"Mot de passe oublié?\"",
+
+        "Login.MalformedUID": "Information de l'appareil invalide",
+        "Login.MalformedUID.Description": "Essayez de réinstaller ou contactez le support a {supportUrl}.",
+
+        "Login.MissingUID": "Information de l'appareil manquante",
+        "Login.MissingUID.Description": "Essayez de réinstaller ou contactez le support a {supportUrl}.",
 
         "Account.Login": "Connexion",
         "Account.Logout": "Déconnexion",
@@ -411,6 +502,7 @@
         "Contacts.AcceptRequest": "Accepter la requète",
         "Contacts.IgnoreRequest": "Ignorer la requète",
         "Contacts.Invite": "Inviter ici",
+
         "Contacts.BanFromAllSessions": "Interdire l'accès à TOUTES mes sessions",
         "Contacts.UnbanFromAllSessions": "Lever l'interdiction dans toutes mes sessions",
         "Contacts.BanFromCurrentWorld": "Interdire l'accès à ce monde",
@@ -876,6 +968,7 @@
         "Settings.HideAllTutorials": "Cacher tous les tutoriels",
         "Settings.ShowInteractionHints": "Montrez des conseils d'interaction",
         "Settings.PrimaryController": "Contrôleur principal",
+
         "Settings.AllowStrafing": "Autoriser le déplacement latéral (strafing)",
         "Settings.UseHeadDirectionForMovement": "Utiliser la direction de la tête pour le mouvement",
         "Settings.SmoothTurn": "Rotation fluide",
