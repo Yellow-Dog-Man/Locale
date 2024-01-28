@@ -435,8 +435,8 @@
         "Login.EmailNotVerified": "E-mail non vérifié",
         "Login.EmailNotVerified.Description": "Votre e-mail n'est pas vérifiée. Veuillez vérifier votre boîte de réception et votre dossier spam pour un e-mail de vérification.",
 
-        "Login.AccountTempLocked": "Votre compte est bloqué",
-        "Login.AccountTempLocked": "Veuillez contacter la modération sur {moderationUrl}.",
+        "Login.AccountTempLocked": "Votre compte est bloqué.",
+        "Login.AccountTempLocked.Description": "Veuillez contacter la modération sur {moderationUrl}.",
 
         "Login.AccountBanned": "Votre compte est banni",
         "Login.AccountBanned.Description": "Veuillez contacter la modération sur {modertionUrl}.",
@@ -499,7 +499,7 @@
         "Recovery.NoPasswordSetup.Description": "Veuillez contacter notre support sur {supportUrl}.",
 
         "Register.UnknownError": "Erreur inconnue",
-        "Register.UnknownError.Description": "Une erreur inconnue est survenue. Veuillez contacter notre support sur {supportUrl}.","
+        "Register.UnknownError.Description": "Une erreur inconnue est survenue. Veuillez contacter notre support sur {supportUrl}.",
 
         "Account.Login": "Connexion",
         "Account.Logout": "Déconnexion",
@@ -601,8 +601,8 @@
         "Session.JoinVerifier.EnableHeader": "Activer l'authentification customisée",
         "Session.JoinVerifier.EnableText": "<color=red>ATTENTION:</color> Vous allez activer l'authentification customisée qui fait partie du monde actif. Avant de procéder vérifiez que vous faites confiance au créateur du monde vu que l'authentification customisée peut bloquer n'importe qui de rejoindre le monde et peut passer outre les règles d'accès de session.",
         "Session.JoinVerifier.Label": "Utiliser l'authentification customisée: {name}",
-        "Session.JoinVerifier:ComponentWarning": "<color=red>ATTENTION:</color> Pour le moment, il n'y a aucune permission pour éviter la modification de l'authentification customisée. Si vous pensez que quelqu'un va modifier votre système, N'UTILISEZ PAS CETTE FONCTIONALITÉ!",
-        "Session.JoinVerifier.SetCustomJoinVerifier": "Sélectionner comme authentification customisée",
+        "Session.JoinVerifier.ComponentWarning": "<color=red>ATTENTION:</color> Pour le moment, il n'y a aucune permission pour éviter la modification de l'authentification customisée. Si vous pensez que quelqu'un va modifier votre système, N'UTILISEZ PAS CETTE FONCTIONALITÉ!",
+        "Session.JoinVerifier.SetCustomVerifier": "Sélectionner comme authentification customisée",
 
         "Permissions.NotAllowedToSpawn": "Vous n'êtes pas autorisé à matérialiser des choses ici.",
         "Permissions.NotAllowedToSave": "Vous n'êtes pas autorisé à sauvegarder des objets dans ce monde.",
@@ -627,7 +627,7 @@
         "Contacts.BanFromCurrentWorld": "Interdire l'accès à ce monde",
         "Contacts.UnbanFromCurrentWorld": "Lever l'interdiction d'accès à ce monde",
         "Contacts.RecordingVoiceMessage": "Enregistrement du message...",
-        "Contacts.Unblock": "Débloqué",
+        "Contacts.Unblocked": "Débloquer",
         "Contacts.AvatarBlock": "Bloquer l'avatar",
         "Contacts.MutualBlock": "Bloquer mutuellement",
         "Contacts.SelfAccount": "Mon compte",
@@ -639,7 +639,7 @@
         "Contacts.InContactsOnly": "Dans un monde visible aux contacts",
         "Contacts.InHidden": "Dans un monde invisible",
         "Contacts.InHiddenContactsOnly": "Dans un monde invisible pour les contacts",
-        "Contacts.InHIddenContactsPlus": "Dans un monde invisible pour les contacts+",
+        "Contacts.InHiddenContactsPlus": "Dans un monde invisible pour les contacts+",
         "Contacts.InLAN": "Dans un monde pour LAN locale",
         "Contacts.UsingDifferentVersion": "Utilise la version {version}",
         "Contacts.RequestSent": "Requête envoyée",
@@ -723,7 +723,7 @@
         "Tooltip.GrabbableSetter.Scalable": "Définir comme redimensionable",
         "Tooltip.GrabbableSetter.NonScalable": "Définir comme non-redimensionable",
         "Tooltip.GrabbableSetter.ApplyToRoot": "Appliquer à la racine",
-        "Tooltip.GrabbableSetter.ApplyToHit": "Appliquer à ce qui est touché",
+        "Tooltip.GrabbableSetter.AppyToHit": "Appliquer à ce qui est touché",
 
         "Tooltip.CharacterCollider.MarkGrippable": "Marquer comme aggripabble",
         "Tooltip.CharacterCollider.DontMarkGrippable": "Ne pas marquer aggripabble",
@@ -783,7 +783,7 @@
         "Tooltip.ProtoFlux.PackInPlace": "Emballer sur place",
         "Tooltip.ProtoFlux.PackInto": "Emballer dans <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.Unpack": "Déballer <size=50%>{name}</size>",
-        "Tooltip.ProtoFlux.ExplicitCase": "Caster explicitement\n<size=50%>(<color=red>ATTENTION:</color> perte de données potentielle)</size>",
+        "Tooltip.ProtoFlux.ExplicitCast": "Caster explicitement\n<size=50%>(<color=red>ATTENTION:</color> perte de données potentielle)</size>",
 
         "Tooltip.Meter.Mode.Ray": "Mode: Rayon",
         "Tooltip.Meter.Mode.Perpendicular": "Mode: Perpendiculaire",
@@ -803,7 +803,7 @@
 
         "Tooltip.ComponentClone.SingleInstanceOn": "Instance seule: activée",
         "Tooltip.ComponentClone.SingleInstanceOff": "Instance seule: désactivée",
-        "Tooltip.ComponentClone.clearTemplate": "Retirer le modèle",
+        "Tooltip.ComponentClone.ClearTemplate": "Retirer le modèle",
 
         "ProtoFlux.UI.Call": "Appeler",
         "ProtoFlux.UI.AsyncCall": "Appeler async",
@@ -838,7 +838,7 @@
         "CreateNew.Editor": "Éditeur",
         "CreateNew.Editor.UserInspector": "Inspecteur d'utilisateur",
         "CreateNew.Editor.LightSourcesWizard": "Assistant des sources de lumière du monde",
-        "CreateNew.Editor.TextRendererWrizard": "Assistant de textes",
+        "CreateNew.Editor.TextRendererWizard": "Assistant de textes",
         "CreateNew.Editor.AssetOptimizationWizard": "Assistant d'optimisation des ressources",
         "CreateNew.Editor.CubemapCreator": "Createur de Cubemaps",
         "CreateNew.Editor.ReflectionProbes": "Assistant pour les sondes de réflexion",
@@ -1608,14 +1608,14 @@
         "Exiting.Exiting": "Au revoir!",
         "Exiting.LoggingOut": "En déconnexion",
 
+        "Tutorial.InfoPanel.Title": "Hey! Avant de continuer...",
+        "Tutorial.InfoPanel.Content": "     Il y a un monde plein de possibilités qui t'attends et tout cela est possible grâce a ton imagination.<br><br>     Presque tout ce que tu as vu a été créé en jeu! Des personnes du monde entier ont collaboré dessus pour le construire.<br><br>     La plateforme est encore en développement et nous publions des mises a jour pour améliorer la plateforme de jour en jour. Maintenant tu fait aussi partie de ce voyage et la seule limite est ton imagination!<br><br><align=center>Merci d'avoir essayé {platform}!</align>",
+
         "Discord.RichPresence.InPrivateWorld": "Dans un monde privé",
-        "Discord.RichPresence.InPrivateWorldLargeText": "Dans un monde privé ({version})",
+        "Discord.RichPresence.InPrivateLargeText": "Dans un monde privé ({version})",
         "Discord.RichPresence.InPublicWorld": "Dans un monde publique",
         "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} mondes)",
         "Discord.RichPresence.InPublicLargeText": "Dans un monde publique ({version})",
-
-        "Tutorial.InfoPanel.Title": "Hey! Avant de continuer...",
-        "Tutorial.InfoPanel.Content": "     Il y a un monde plein de possibilités qui t'attends et tout cela est possible grâce a ton imagination.<br><br>     Presque tout ce que tu as vu a été créé en jeu! Des personnes du monde entier ont collaboré dessus pour le construire.<br><br>     La plateforme est encore en développement et nous publions des mises a jour pour améliorer la plateforme de jour en jour. Maintenant tu fait aussi partie de ce voyage et la seule limite est ton imagination!<br><br><align=center>Merci d'avoir essayé {platform}!</align>",
 
         "Dummy": "Dummy"
     }
