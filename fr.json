@@ -43,6 +43,8 @@
         "General.UI.SearchPromptLong": "Taper ici pour rechercher...",
         "General.UI.ToggleEditMode": "Basculer le mode d'édition",
         "General.UI.ToggleSubtitles": "Basculer les sous-titres",
+        "General.UI.Subtitles.On": "Sous-titres activés",
+        "General.UI.Subtitles.Off": "Sous-titres désactivés",
 
         "General.UI.MusicVolumeLocal": "Volume de la musique (local)",
         "General.UI.VoiceVolumeLocal": "Volume des voix (local)",
@@ -87,7 +89,7 @@
         "Interaction.LaserDisabled": "Laser désactivé",
         "Interaction.Grab.Palm": "Saisir: paume",
         "Interaction.Grab.Precision": "Saisir: précision",
-
+        "Interaction.Grab.Auto": "Saisir: automatique",
         "Interaction.Grab.Off": "Saisir: laser seulement",
         "Interaction.Locomotion": "Mouvement",
         "Interaction.Locomotion.None": "Aucun",
@@ -105,6 +107,7 @@
         "Interaction.ImportFile": "Importer le fichier",
         "Interaction.ExportFile": "Exporter le fichier",
         "Interaction.CopyLink": "Copier le lien",
+        "Interaction.CopyImage": "Copier l'image",
 
         "Inventory.OpenWorld": "Ouvrir le monde",
         "Inventory.Equip": "Équiper",
@@ -118,7 +121,7 @@
         "Inventory.SaveAvatar": "Sauvegarder l'avatar",
         "Inventory.Favorite.Home": "Définir comme maison",
         "Inventory.Favorite.ProgressBar": "Définir comme barre de progrès",
-
+        "Inventory.Favorite.AudioStreamController": "Définir le contrôleur de flux",
         "Inventory.Favorite.TextDisplay": "Définir comme bloc-notes",
         "Inventory.Favorite.VideoPlayer": "Définir comme lecteur vidéo",
         "Inventory.Favorite.AudioPlayer": "Définir comme lecteur audio",
@@ -403,10 +406,16 @@
         "Login.InvalidLogin.Description": "Veuillez vérifier votre identification et ré-essayer \"Mot de passe oublié?\"",
 
         "Login.MalformedUID": "Information de l'appareil invalide",
-        "Login.MalformedUID.Description": "Essayez de réinstaller ou contactez le support a {supportUrl}.",
+        "Login.MalformedUID.Description": "Essayez de réinstaller ou contactez le support sur {supportUrl}.",
 
         "Login.MissingUID": "Information de l'appareil manquante",
-        "Login.MissingUID.Description": "Essayez de réinstaller ou contactez le support a {supportUrl}.",
+        "Login.MissingUID.Description": "Essayez de réinstaller ou contactez le support sur {supportUrl}.",
+
+        "Login.MissingSecretMachineId": "ID de machine secret manquant",
+        "Login.MissingSecretMachineId.Description": "Essayez de réinstaller ou contactez le support sur {supportUrl}.",
+
+        "Login.MalformedSecretMachineId": "ID de machine secret invalide",
+        "Login.MalformedSecretMachineId.Description": "Essayez de réinstaller ou contactez le support sur {supportUrl}.",
 
         "Account.Login": "Connexion",
         "Account.Logout": "Déconnexion",
