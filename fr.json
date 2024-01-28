@@ -585,6 +585,7 @@
         "Profile.Status.Busy": "Occupé",
         "Profile.Status.Invisible": "Invisible",
         "Profile.Status.Offline": "Hors ligne",
+        "Profile.Status.Headless": "Serveur",
 
         "Session.Tab.Settings": "Paramètres",
         "Session.Tab.Users": "Utilisateurs",
@@ -596,6 +597,12 @@
         "Session.Permission.Host": "Hôte, par défaut:",
         "Session.Permission.PermissionOverrideCount": "Permissions spéciales: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Effacer les permissions spéciales",
+
+        "Session.JoinVerifier.EnableHeader": "Activer l'authentification customisée",
+        "Session.JoinVerifier.EnableText": "<color=red>ATTENTION:</color> Vous allez activer l'authentification customisée qui fait partie du monde actif. Avant de procéder vérifiez que vous faites confiance au créateur du monde vu que l'authentification customisée peut bloquer n'importe qui de rejoindre le monde et peut passer outre les règles d'accès de session.",
+        "Session.JoinVerifier.Label": "Utiliser l'authentification customisée: {name}",
+        "Session.JoinVerifier:ComponentWarning": "<color=red>ATTENTION:</color> Pour le moment, il n'y a aucune permission pour éviter la modification de l'authentification customisée. Si vous pensez que quelqu'un va modifier votre système, N'UTILISEZ PAS CETTE FONCTIONALITÉ!",
+        "Session.JoinVerifier.SetCustomJoinVerifier": "Sélectionner comme authentification customisée",
 
         "Permissions.NotAllowedToSpawn": "Vous n'êtes pas autorisé à matérialiser des choses ici.",
         "Permissions.NotAllowedToSave": "Vous n'êtes pas autorisé à sauvegarder des objets dans ce monde.",
