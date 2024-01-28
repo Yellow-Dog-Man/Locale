@@ -504,7 +504,7 @@
         "Account.Login": "Connexion",
         "Account.Logout": "Déconnexion",
         "Account.Register": "Enregistrement",
-
+        "Account.Saml2": "Vous authentifier avec SAML 2.0",
         "Account.LoginOrRegister": "Connexion / Enregistrement",
         "Account.LogoutConfirm": "Confirmer la déconnexion?",
         "Account.LoggingIn": "Connexion en cours...",
@@ -533,7 +533,17 @@
         "Account.ErrorEmailMismatch": "Les addresses courriels ne concordent pas!",
         "Account.ErrorLoginError": "Erreur de connexion:",
         "Account.RegistrationSuccess": "Succès! Un courriel contenant un lien de verification à été envoyé. Une fois ce lien ouvert, vous pourrez vous connecter.",
+        "Account.BirthMonth": "Mois de naissance",
+        "Account.BirthDay": "Jour de naissance",
+        "Account.BirthYear": "Année de naissance",
+        "Account.PoliciesAgreement": "J'accepte les <color=#22B2FF>conditions d'utilisation</color> et la <color=#22B2FF>politique de confidentialité</color>",
+        "Account.AlternateMethods": "Vous connecter avec un service tiers:",
 
+        "Account.Saml2.Title": "SAML 2.0",
+        "Account.Saml2.Select": "Veuillez sélectionner le fournisseur SAML 2.0 que vous voulez utiliser:",
+        "Account.Saml2.LoggingIn": "En attente que la connexion soit complète (voyez votre navigateur web)...",
+
+        "Account.TOTP.Title": "Authentification deux facteurs","
         "Account.TOTP.Initializing": "Vérification du statut 2FA pour votre compte...",
         "Account.TOTP.Code.Header": "Code secret",
         "Account.TOTP.Code.Description": "Vous devez d'abord saisir un code secret dans votre application d'authentification TOTP tel que <b>Authy</b> ou <b>Google Authenticator</b>.<br><br>Nous vous recommandons de le faire en scannant le code QR, mais vous pouvez également saisir manuellement le code secret. <b>Ne partagez jamais ce code avec qui que ce soit.</b><br><br>Si vous êtes en VR, vous pouvez passer au bureau en appuyant sur F8.",
@@ -543,7 +553,7 @@
         "Account.TOTP.RecoveryCodes.Description": "Enregistrez ces codes dans un endroit sécurisé. Ils peuvent être utilisés pour récupérer l'accès à votre compte au cas où vous perdriez ou endommageriez votre téléphone. Chaque code ne peut être utilisé qu'une seule fois. <b>Ne les partagez jamais avec qui que ce soit.</b> Si vous les perdez, vous perdrez <color=red>PERMANENTEMENT</color> l'accès à votre compte.",
         "Account.TOTP.RecoveryCodes.Codes": "Codes:",
         "Account.TOTP.Activate.Header": "Activer 2FA",
-
+        "Account.TOTP.Activate.Description": "Pour activer l'authentification a deux facteurs, utilisez le nombre a 6 chiffres généré par votre application d'authentification pour être sûr que tout fonctionne correctement. Une fois activé, vous devrez entrer le code pour confirmer certaines opérations.",
         "Account.TOTP.Activate.Token": "Jeton à 6 chiffres:",
         "Account.TOTP.Activate.TokenField": "Entrez votre jeton ici....",
         "Account.TOTP.Activate.Activate": "Activer",
@@ -551,12 +561,21 @@
         "Account.TOTP.Activate.InvalidToken": "Jeton invalide!",
         "Account.TOTP.Message.AlreadySetup": "2FA a déjà été configuré sur votre compte!",
         "Account.TOTP.Message.Error": "Erreur inattendue! Veuillez réessayer plus tard.",
-
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Bravo!</size><br><br>Votre compte dispose maintenant de l'authentification a deux facteurs pour plus de sécurité.<br><br>Vous pouvez optionnellement l'activer pour la connexion au compte avec la commande /enabledLogin2FA.",
         "Account.TOTP.Deactivate.Header": "Désactiver 2FA",
         "Account.TOTP.Deactivate.Description": "2FA est actuellement <b><color=green>configuré et actif sur votre compte</color></b>. Si vous devez le désactiver (par exemple en raison de la perte de votre téléphone ou de la compromission des codes), vous pouvez le faire ici.<br><br>Après la désactivation, vous pouvez à nouveau configurer 2FA, ce qui générera un tout nouveau code secret et un nouvel ensemble de codes de récupération.<br><br>Si vous perdez votre téléphone et devez configurer à nouveau 2FA, nous vous conseillons <b>FORTEMENT</b> de le faire immédiatement, car chaque code de récupération ne peut être utilisé qu'une seule fois et une fois épuisé, votre compte sera complètement bloqué.",
         "Account.TOTP.Deactivate.Deactivate": "Désactiver",
         "Account.TOTP.Deactivate.Deactivating": "Désactivation...",
         "Account.TOTP.Message.DeactivationComplete": "2FA a été désactivé avec succès sur votre compte.<br><br>Votre compte est maintenant à risque accru !<br><br>Nous vous recommandons fortement de configurer à nouveau 2FA immédiatement, surtout si vous avez utilisé un code de récupération en raison de la perte de votre téléphone .",
+
+        "Account.Type.Standard": "Compte Standard",
+        "Account.Type.Business": "Compte Business",
+        "Account.Type.Patreon": "Compte Supporteur",
+        "Account.Type.Mentor": "Mentor {platform}",
+        "Account.Type.Moderator": "Modérateur {platform}",
+        "Account.Type.Team": "Équipe {platform}",
+
+        "Avatar.Badge.Live": "EN DIRECT",
 
         "2FA.Header": "Vérification 2FA",
         "2FA.Token": "jeton à 6 chiffres:",
