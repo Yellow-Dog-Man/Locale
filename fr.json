@@ -1442,8 +1442,10 @@
         "Inspector.Texture.Size": "Dimensions: {width} x {height}",
         "Inspector.Texture.Format": "Format: {format}, Mémoire: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "ID de variant: {variant}",
+        "Inspector.Texture3D.Size": "Taille: {width} x {height} x {depth}",
 
         "Inspector.Texture.BakeTexture": "Cuire la texture",
+        "Inspector.Texture.ReplaceFromClipboard": "Remplacer depuis le presse-papier",
 
         "Inspector.Texture.InvertRGB": "Inverser le RGB",
         "Inspector.Texture.InvertR": "Inverser le rouge",
@@ -1456,12 +1458,13 @@
         "Inspector.Texture.AlphaToMask": "Transparence vers masque",
         "Inspector.Texture.RemoveAlpha": "Retirer la transparence",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Nuances de gris",
-
+        "Inspector.Texture.ConvertToGrayscaleLuminance": "Convertir en nuances de gris (luminance)",
         "Inspector.Texture.SwapRG": "Échanger le rouge et le vert",
         "Inspector.Texture.SwapRB": "Échanger le rouge et le bleu",
-
+        "Inspector.Texture.SwapRA": "Échanger le rouge et l'alpha",
         "Inspector.Texture.SwapGB": "Échanger le vert et le rouge",
-
+        "Inspector.Texture.SwapGA": "Échanger le vert et l'alpha",
+        "Inspector.Texture.SwapBA": "Échanger le bleu et l'alpha",
         "Inspector.Texture.AddWhiteBackground": "Ajouter un fond blanc",
         "Inspector.Texture.AddBlackBackground": "Ajouter un fond noir",
         "Inspector.Texture.Hue": "Teinte:",
@@ -1479,12 +1482,17 @@
         "Inspector.Texture.RotateCW": "Pivoter de 90° à droite",
         "Inspector.Texture.RotateCCW": "Pivoter de 90° à gauche",
         "Inspector.Texture.Rotate180": "Pivoter de 180°",
-
+        "Inspector.Texture.TrimTransparent": "Retirer la transparence",
+        "Inspector.Texture.TrimByCornerColor": "Tailler depuis la couleur des coins",
         "Inspector.Texture.MakeSquare": "Rendre carré",
         "Inspector.Texture.ToNearestPOT": "Puissance de deux la plus près",
         "Inspector.Texture.MakeTileable": "Rendre tuilable (ration de transition)",
         "Inspector.Texture.TileLoop": "Tuile (boucle)",
         "Inspector.Texture.TileMirror": "Tuile (miroir)",
+        "Inspector.Texture.NormalizeMaxOnly": "Normaliser (maximum)",
+        "Inspector.Texture.NormalizeMinMax": "Normaliser (maximum et minimum)",
+        "Inspector.Texture.NormalizeIndependent": "Normaliser indépendamment (maximum et minimum)",
+        "Inspector.Texture.BleedColorToAlpha": "Liseré vers alpha",
 
         "Inspector.Texture.InvalidFloats": "Diagnostique: Variables numériques invalides",
         "Inspector.Texture.GenerateMetadata": "Diagnostique: Générer les métadonnées des Bitmaps",
@@ -1535,6 +1543,39 @@
         "Inspector.AvatarExpression.AutoAssign": "Affectation automatique (utiliser l'heuristique)",
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Il est possible d'utiliser ce composant comme un simple RigidBody en cochant SimulateRotation. Avant de le faire, veuillez comprendre qu'il n'est pas optimisé à cet effet et qu'un support Rigidbody approprié arrive à l'avenir.<br>Un support rigidbody approprié offrira :<br><b>- Efficacité du processeur et du réseau</b> - avec CharacterController, vous obtiendrez une utilisation plus élevée du processeur et une quantité importante de trafic réseau<br><b>- Contraintes</b> - vous pourrez créer des articulations, des charnières, des ressorts et d'autres contraintes entre les corps rigides<br><b >- Simulation et interactions fluides pour tout le monde</b> - CharacterController disparaîtra si une autre personne essaie d'interagir<br><b>- Nouvelles fonctionnalités et outils</b> - pour en faciliter l'utilisation<br>-- ---------------------<br>Vous pouvez en trouver plus sur GitHub n°22. Tant que vous comprenez ces limites, amusez-vous !",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Il est possible d'utiliser ce composant pour interagir avec des références depuis leur ID. Ce processus est appelé 'ref hacking'.<br><br><b>Avant</b> de continuer, faire cela n'est <b>pas</b> supporté officiellement et peut casser a tout moment. Ne comptez pas dessus pour vos créations.",
+
+        "Inspector.ParticleStyle.CommonTransitions": "Modèles de transition communs:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "Fondu alpha entrant et sortant",
+        "Inspector.ParticleStyle.AlphaFadeIn": "Fondu alpha entrant",
+        "Inspector.ParticleStyle.AlphaFadeOut": "Fondu alpha sortant",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "Intensité du fondu",
+        "Inspector.ParticleStyle.IntensityFadeIn": "Intensité du fondu entrant",
+        "Inspector.ParticleStyle.IntensityFadeOut": "Intensité du fondu sortant",
+        "Inspector.ParticleStyle.ClearFades": "Retirer les fondus",
+
+        "Inspector.Collider.SetFromLocalBounds": "Définir depuis les limites locales",
+        "Inspector.Collider.SetFromGlobalBounds": "Définir depuis les limites globales",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "Définir depuis les limites locales (précis)",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "Définir depuis les limites globales (précis)",
+        "Inspector.Collider.SetFromPreciseBounds": "Définir depuis des limites précises",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "Définir depuis des limites précises cylindriques",
+        "Inspector.Collider.Visualize": "Visualiser le collisionneur",
+
+        "Inspector.SimpleAwayIndicator.TestAway": "Définir comme absent (debug)",
+        "Inspector.SimpleAwayIndicator.TestRestore": "Définir comme normal (debug)",
+
+        "Inspector.Fields.Drive": "Conduire",
+        "Inspector.Fields.DriveWriteBack": "Conduire <size=50%>(écrire en retour)</size>",
+
+        "Inspector.Actions.CopyComponent": "Copier le composant",
+        "Inspector.Actions.MoveComponent": "Bouger le composant",
+
+        "UserInspector.Title": "Inspecteur d'utilisateurs",
+
+        "WorkerInspector.Title": "Inspecteur de {name}",
+
+        "CreateNew.Title": "Nouveau",
 
         "Wizard.General.ProcessRoot": "Racine du Processus:",
         "Wizard.General.Result": "Résultat:",
@@ -1591,6 +1632,17 @@
         "Wizard.ReflectionProbes.BakeProbes": "Pre-Calculer les Sondes",
         "Wizard.ReflectionProbes.Baking": "Pre-calcul {index} sur {count}...",
 
+        "Wizard.TextRenderer.Header": "Assistant de rendu de textes",
+        "Wizard.TextRenderer.ProcessRoot": "Racine du processus:",
+        "Wizard.TextRenderer.ProcessStandalone": "Processus seul",
+        "Wizard.TextRenderer.ProcessUIX": "ProcessUIX",
+        "Wizard.TextRenderer.Disabled": "Processus désactivé",
+        "Wizard.TextRenderer.WithTag": "Avec l'étiquette:",
+        "Wizard.TextRenderer.ReplaceMaterial": "Remplacer le matériau",
+        "Wizard.TextRenderer.ReplaceFont": "Remplacer la police d'écriture",
+        "Wizard.TextRenderer.SetColor": "Définir la couleur",
+
+        "Desktop.Controls.Title": "Contrôles Desktop",
         "Desktop.OpenKeyboard": "Ouvrir le clavier",
         "Desktop.FollowCursor.On": "Suivre le curseur : Actif",
         "Desktop.FollowCursor.Off": "Suivre le curseur : Inactif",
@@ -1598,6 +1650,9 @@
         "Desktop.LegacyInputMode.Off": "Ancien mode d'entrée : Inactif",
         "Desktop.Brightness": "Luminosité : {n,number,percent}",
         "Desktop.Opacity": "Opacité : {n,number,percent}",
+
+        "VolumePlaneSlicer.Highlight": "Souligner",
+        "VolumePlaneSlicer.Slicer": "Trancher",
 
         "Tutorial.Welcome.Welcome": "Bienvenue!",
         "Tutorial.Welcome.Description": "Plongez dans un nouvel univers digital ayant des possibilités infinies. Que vous venez ici pour socialiser avec des gens du monde entier ou créer des mondes, objets, avatars et bien d'autres. Resonite est un espace personnalisable sans limites ou vous serez le bienvenue qui que vous soyez.<br><br>Avant de commencer, il faut mettre en place quelques essentiels pour que l’expérience soit la meilleure possible. Quant vous êtes prêt, cliquez le bouton ci-dessous.",
@@ -1629,13 +1684,15 @@
 
         "Tutorial.Welcome.StartTutorialHeader": "Commencer le Tutoriel",
         "Tutorial.Welcome.StartTutorialDescription": "Nous vous transférerons dans un monde de tutoriels pour vous aider à démarrer avec {appName}. Vous pouvez choisir de rendre public le monde du tutoriel, permettant à la communauté {appName} de se joindre et de vous aider, ou d'apprendre par vous-même.",
+        "Tutorial.Welcome.StartTutorial": "Démarrer le tutoriel",
 
-        "Tutorial.CommunityYouTube.Title": "Chaînes YouTube communautaire",
+        "Tutorial.CommunityYouTube.Title": "Chaînes YouTube communautaires",
 
         "Tutorial.UserResources.UserResourcesTitle": "Resources utilisateur",
         "Tutorial.UserResources.SupportTitle": "Comment supporter {appName}",
         "Tutorial.UserResources.MerchandiseTitle": "Produits dérivés de {appName}",
 
+        "Tutorial.Intro.BadgesAppTeam": "Équipe {appName}",
         "Tutorial.Intro.BadgesModerator": "Modérateur",
         "Tutorial.Intro.BadgesMentor": "Mentor",
         "Tutorial.Intro.BadgesDisabilityHearing": "Malentendants",
@@ -1772,9 +1829,12 @@
         "Temporary.MMC.VoteInvalid": "Le vote est invalide, veuillez ré-essayer.",
 
         "CloudHome.WelcomeHome": "Bienvenue chez toi!",
+        "CloudHome.TargetRangeOptions": "Distance des cibles",
 
         "Tutorial.Saving.Title": "Bienvenue chez toi!",
         "Tutorial.Saving.Content": "Bienvenue dans ta <b><i><color=hero.yellow>Maison</b></i></color>! C'est ici que tu apparaîtra à chaque fois que tu te connectera.<br><br>Ce monde est le tiens, sent toi libre de le modifier comme tu veux.<br><br>Si tu sauvegarde ce monde, tout sera comme tu l'aura laissé.",
+
+        "Tutorial.Teleporter.Error": "Le chargement de ta maison a échoué.<br><size=66%>Sort du téléporteur et essaye encore une fois.</size>"
 
         "CloudHome.Info.OnlineUsers": "{online_users} {online_users,plural, one {utilisateur} other {utilisateurs}} en ligne<br>{joinable_users} {joinable_users,plural, one {utilisateur} other {utilisateurs}} dans des sessions joignables",
         "CloudHome.Info.Moderation": "Modération",
