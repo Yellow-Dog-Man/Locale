@@ -486,6 +486,9 @@
         "Register.EmailAlreadyRegistered": "Courriel déjà utilisée",
         "Register.EmailAlreadyRegistered.Description": "Un compte utilisant ce courriel existe déjà. Si vous avez perdu votre mot de passe, cliquez sur \"Mot de passe oublié\". Vous pouvez aussi contacter le support sur {supportUrl}.",
 
+        "Register.UsernameAlreadyRegistered": "Nom d'utilisateur existant",
+        "Register.UsernameAlreadyRegistered.Description": "Un compte avec ce nom d'utilisateur existe déjà. Si vous avez perdu votre mot de passe, cliquez sur \"Mot de passe perdu\". Vous pouvez aussi contacter notre support sur {supportUrl}",
+
         "Register.ErrorCheckingUserId": "Erreur lors de la vérification de l'ID utilisateur",
         "Register.ErrorCheckingUserId.Description": "Veuillez contacter notre support sur {supportUrl}.",
 
@@ -913,7 +916,7 @@
         "Importer.Image.180": "Photo 180",
         "Importer.Image.Stereo180": "Photo stéréoscopique 180",
         "Importer.Image.LUT": "LUT",
-
+        "Importer.Image.PixelArt": "Pixel Art",
         "Importer.ImageVideo.LayoutPrompt": "Quelle disposition utilisez-vous?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Côte à côte LR",
         "Importer.ImageVideo.LayoutHorizontalRL": "Côte à côte RL",
@@ -998,8 +1001,18 @@
         "Importer.Video.Depth.Prompt": "Préréglage de profondeur",
         "Importer.Video.Depth.Default": "Par défaut",
 
-        "NewWorld.Title": "Nouveau monde",
+        "Importer.Slices.Title": "Lamelles comme texture volumétrique",
+        "Importer.Slices.TitleGrayscale": "Lamelles comme texture volumétrique (niveaux de gris)",
+        "Importer.Slices.Description": "Convertir toutes les images dans le dossier en une texture volumétrique",
 
+        "Exporter.Title": "Exporter",
+        "Exporter.FileName": "Nom du fichier:",
+        "Exporter.ExportAs": "Exporter comme:",
+        "Exporter.Export": "Exporter",
+        "Exporter.Exporting": "Exportation...",
+
+        "NewWorld.Title": "Nouveau monde",
+        "NewWorld.SessionTitle": "Nouvelle session",
         "NewWorld.Template": "Modèle de monde:",
         "NewWorld.CustomPreset": "Préréglage personnalisé:",
         "NewWorld.SessionSettings": "Paramètres de session:",
@@ -1097,7 +1110,7 @@
 
         "CameraControl.Anchors.Interpolate": "Interpoler entre les ancrages",
         "CameraControl.Anchors.InterpolationSpeed": "Vitesse d'interpolation des ancrages:",
-
+        "CameraControl.Anchors.LinearInterpolation": "Interpolation linéaire",
         "CameraControl.Anchors.NoAnchors": "Pas d'ancrage de caméra dans ce monde",
 
         "CameraControl.Positioning.FieldOfView": "Champ de vision",
@@ -1143,9 +1156,10 @@
         "CameraControl.OBS.Bitrate": "Bitrate: {n}/s",
         "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "Images perdues: {n}",
-
+        "CameraControl.OBS.Idle": "EN ATTENTE",
         "CameraControl.OBS.Live": "EN DIRECT",
         "CameraControl.OBS.Recording": "ENREGISTREMENT",
+        "CameraControl.OBS.OpenInstallerReason": "Cette page web vous permet de télécharger le plugin WebSocket pour OBS.",
 
         "CameraControl.OBS.Streaming.Start": "Démarrer le streaming",
         "CameraControl.OBS.Streaming.Starting": "Démarrage du streaming...",
@@ -1165,7 +1179,7 @@
         "Settings.HideAllTutorials": "Cacher tous les tutoriels",
         "Settings.ShowInteractionHints": "Montrez des conseils d'interaction",
         "Settings.PrimaryController": "Contrôleur principal",
-
+        "Settings.Hotswitching": "Basculement VR automatique",
         "Settings.AllowStrafing": "Autoriser le déplacement latéral (strafing)",
         "Settings.UseHeadDirectionForMovement": "Utiliser la direction de la tête pour le mouvement",
         "Settings.SmoothTurn": "Rotation fluide",
@@ -1189,7 +1203,7 @@
         "Settings.DoNotSendReadStatus": "Ne pas envoyer l'état de lecture du message en temps réel",
         "Settings.MaxConcurrentAssetTransfers": "Transferts d'actifs simultanés maximum",
         "Settings.AutosaveScreenshotPath": "Chemin de sauvegarde automatique des captures d'écran",
-
+        "Settings.AutosaveAllScreenshots": "Sauvegarder automatiquement TOUTES les captures d'écran dans le monde",
         "Settings.DebugInputBinding": "Déboguer l'assignation des entrées",
 
         "Settings.LaserSmoothing.Header": "Lissage du laser",
@@ -1203,7 +1217,7 @@
         "Settings.LaserSmoothing.Reset": "Réinitialisation des paramètres du laser",
 
         "Settings.Audio.Header": "Audio",
-
+        "Settings.Audio.Input.Title": "Périphériques d'enregistrement audio",
         "Settings.Audio.Master": "Volume principale: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Effets sonores: {n,number,percent}",
         "Settings.Audio.Multimedia": "Multimédia: {n,number,percent}",
@@ -1227,6 +1241,7 @@
 
         "Settings.Graphics.DesktopFOV": "Champ de vision du bureau (FOV)",
 
+        "Settings.Locale.Title": "Langue de l'interface",
         "Settings.Locale.ChangeLanguage": "Changer la langue",
         "Settings.Locale.SelectLanguageHeader": "Choisissez votre langue:",
         "Settings.Locale.DefaultLanguage": "Paramètre par défaut du système",
@@ -1262,6 +1277,7 @@
         "Settings.System.KeepOriginalScreenshotFormat": "Conserver le format original de la capture d'écran",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "Si cette option est activée, les captures d'écran ne seront pas converties en JPG lorsqu'elles seront enregistrées dans le dossier Documents",
 
+        "Security.Hyperlink.Title": "Lien externe",
         "Security.Hyperlink.Warning": "<b><size=125%>Avertissement : lien externe</size></b>\nVous avez cliqué sur un lien dans un monde. Vous voulez l'ouvrir ? Il s'ouvrira dans le navigateur web sur votre bureau.",
         "Security.Hyperlink.Open": "Ouvrir le lien",
         "Security.Hyperlink.Cancel": "Annuler",
@@ -1274,6 +1290,14 @@
         "Security.HostAccess.Allow": "Autoriser",
         "Security.HostAccess.Deny": "Refuser",
 
+        "ComponentSelector.Back": "< (retour)",
+        "ComponentSelector.Title": "Composants",
+        "ComponentSelector.CreateCustomType": "Créer un type customisé",
+        "ComponentSelector.CommonGenericTypes": "Types génériques communs",
+        "ComponentSelector.CustomGenericArguments": "Arguments génériques customisés:",
+        "ComponentSelector.InvalidType": "Type invalide",
+
+        "Inspector.Title": "Inspecteur de scène",
         "Inspector.Slot.AttachComponent": "Attacher le composant",
 
         "Inspector.Slot.Axis.X": "X: <b>+</b>Droite <b>-</b>Gauche",
