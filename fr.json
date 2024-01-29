@@ -1321,6 +1321,20 @@
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Espace utilisateur local",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Parenter {name} sous l'espace utilisateur local",
 
+        "Inspector.Member.ResetToDefault": "Réinitialiser",
+
+        "Inspector.Member.BreakLinkDrive": "Casser le lien",
+        "Inspector.Member.OpenLinkDrive": "Ouvrir la source du lien",
+
+        "Inspector.Member.SetAllToAvg": "Définir a la moyenne",
+        "Inspector.Member.SetAllToX": "Tout définir comme X",
+        "Inspector.Member.SetAllToY": "Tout définir comme Y",
+        "Inspector.Member.SetAllToZ": "Tout définir comme Z",
+        "Inspector.Member.SetAllToW": "Tout définir comme W",
+
+        "Inspector.ProceduralAsset.UpdateCount": "Nombre de mises à jour: {n}",
+        "Inspector.ProceduralAsset.Error": "Erreur: {error}",
+
         "Inspector.Mesh.StatsHeader": "Statistiques du modèle",
         "Inspector.Mesh.VertexCount": "Nombre de Vertex: {n}",
         "Inspector.Mesh.TriangleCount": "Nombre de triangles: {n}",
@@ -1337,7 +1351,9 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "Recalculer les normales (ombrage lissé)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "Recalculer les tangentes (Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "Recalculer les tangentes (simple)",
-
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Recalculer les normales de Blenshapes",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Recalculer les normales de Blendshapes (ombrage lissé)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Recalculer les normales de Blendshapes (Mikktspace)",
         "Inspector.Mesh.FlipNormals": "Retourner les normales",
         "Inspector.Mesh.ReverseWinding": "Retourner le Winding",
         "Inspector.Mesh.MakeDualSided": "Rendre à double-coté",
@@ -1348,6 +1364,7 @@
         "Inspector.Mesh.StripEmptyBlendshapes": "Enlever les Blendshapes vides",
         "Inspector.Mesh.StripBlendshapeNormals": "Enlever les normales des Blendshapes",
         "Inspector.Mesh.StripBlendshapeTangents": "Enlever les tangentes des Blendshapes",
+        "Inspector.Mesh.MergeBlendshapes": "Fusionner les Blendshapes",
 
         "Inspector.Mesh.GetBoneList": "Obtenir la liste des os",
         "Inspector.Mesh.GetBoneData": "Obtenir les données des os",
@@ -1361,6 +1378,7 @@
         "Inspector.MeshRenderer.SplitByMaterial": "Séparer le modèle par matériaux",
 
         "Inspector.MeshCollider.VHACD": "Décomposition par coque convexe (V-HACD 2.0)",
+        "Inspector.MeshCollider.ReplaceBox": "Remplacer avec collisionneur en forme de boîte",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Mettre à jour les modules de locomotion sur les utilisateurs actuels",
 
@@ -1400,9 +1418,15 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "Voir la limite des os",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Voir la limite approximative des os",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "Retirer l'aperçu de la limite des os",
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Calculer les limites explicites depuis la pose courante",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Étendre les limites explicites depuis la pose courante",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "Cuire vers un modèle statique",
+        "Inspector.SkinnedMesh.SortBlendshapes.Name": "Trier les Blendshapes (par nom)",
+        "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Trier les Blenshapes (par longueur, puis nom)",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Supprimer TOUTES les instances",
-
+        "Inspector.SimpleAvatarProtection.RemoveSingle": "Supprimer une seule instance",
+        "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Retirer ce composant sans passer par les boutons dédiés ci-dessous aura pour effet de supprimer l'objet.",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "SUPPRIMER la protection d'avatar",
 
         "Inspector.BipedRig.GetDiagnosticInfo": "Obtenir l'information sur l'armature",
