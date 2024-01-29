@@ -10,7 +10,7 @@ Esperanto [eo] - 98.5% - Missing keys: 27
 Spanish [es] - 95.0% - Missing keys: 87  
 Estonian [et] - 51.9% - Missing keys: 845  
 Finnish [fi] - 87.2% - Missing keys: 225  
-French [fr] - 69.1% - Missing keys: 543  
+French [fr] - 94.2% - Missing keys: 102  
 Icelandic [is] - 39.6% - Missing keys: 1060  
 Japanese [ja] - 100.0% - Missing keys: 0  
 Korean [ko] - 100.0% - Missing keys: 0  
