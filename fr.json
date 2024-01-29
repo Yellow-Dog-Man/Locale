@@ -30,7 +30,7 @@
         "General.Buy": "Acheter",
         "General.Yes": "Oui",
         "General.No": "Non",
-        "General.ClearSelection": "Tout déselectionner",
+        "General.ClearSelection": "Tout désélectionner",
         "General.Off": "Désactivé",
         "General.On": "Activé",
         "General.Understand": "Je comprends",
@@ -43,6 +43,8 @@
         "General.UI.SearchPromptLong": "Taper ici pour rechercher...",
         "General.UI.ToggleEditMode": "Basculer le mode d'édition",
         "General.UI.ToggleSubtitles": "Basculer les sous-titres",
+        "General.UI.Subtitles.On": "Sous-titres activés",
+        "General.UI.Subtitles.Off": "Sous-titres désactivés",
 
         "General.UI.MusicVolumeLocal": "Volume de la musique (local)",
         "General.UI.VoiceVolumeLocal": "Volume des voix (local)",
@@ -87,24 +89,25 @@
         "Interaction.LaserDisabled": "Laser désactivé",
         "Interaction.Grab.Palm": "Saisir: paume",
         "Interaction.Grab.Precision": "Saisir: précision",
-
+        "Interaction.Grab.Auto": "Saisir: automatique",
         "Interaction.Grab.Off": "Saisir: laser seulement",
         "Interaction.Locomotion": "Mouvement",
         "Interaction.Locomotion.None": "Aucun",
 
-        "Interaction.NamedEquipTool": "Equiper {name}",
+        "Interaction.NamedEquipTool": "Équiper {name}",
         "Interaction.NamedEquipTool.Default": "Outil",
 
         "Interaction.EnterAnchor": "Entrer dans l'ancre",
         "Interaction.ExitAnchor": "Sortir de l'ancre",
 
-        "Interaction.EquipAvatar": "Equiper Avatar",
+        "Interaction.EquipAvatar": "Équiper Avatar",
 
         "Interaction.SaveAsScreenshot": "Sauvegarder en tant que capture d'écran",
         "Interaction.ExportScreenshot": "Exporter en tant que capture d'écran",
         "Interaction.ImportFile": "Importer le fichier",
         "Interaction.ExportFile": "Exporter le fichier",
         "Interaction.CopyLink": "Copier le lien",
+        "Interaction.CopyImage": "Copier l'image",
 
         "Inventory.OpenWorld": "Ouvrir le monde",
         "Inventory.Equip": "Équiper",
@@ -118,7 +121,7 @@
         "Inventory.SaveAvatar": "Sauvegarder l'avatar",
         "Inventory.Favorite.Home": "Définir comme maison",
         "Inventory.Favorite.ProgressBar": "Définir comme barre de progrès",
-
+        "Inventory.Favorite.AudioStreamController": "Définir le contrôleur de flux",
         "Inventory.Favorite.TextDisplay": "Définir comme bloc-notes",
         "Inventory.Favorite.VideoPlayer": "Définir comme lecteur vidéo",
         "Inventory.Favorite.AudioPlayer": "Définir comme lecteur audio",
@@ -168,11 +171,11 @@
         "World.Downloading": "{bytes} téléchargé sur {total_bytes}",
         "World.Loaded": "Chargé",
 
-        "World.Connection.EstablishingConnection": "Connection...",
+        "World.Connection.EstablishingConnection": "Connexion...",
         "World.Connection.RequestingJoin": "Requête envoyée",
         "World.Connection.Authenticating": "Authentification",
         "World.Connection.Connected": "Connecté",
-        "World.Connection.SyncingInitialState": "Synchronization de l'état initial du monde",
+        "World.Connection.SyncingInitialState": "Synchronisation de l'état initial du monde",
 
         "World.Connection.LNL.DirectIP": "LNL Direct IP",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT Punchthrough {n}",
@@ -206,16 +209,16 @@
         "World.Config.Description": "Description:",
         "World.Config.MaxUsers": "Nombre maximal d'utilisateurs:",
         "World.Config.MobileFriendly": "Adapté aux appareils mobiles",
-        "World.Config.SaveOptionsHeader": "Options de sauvergarde du monde:",
+        "World.Config.SaveOptionsHeader": "Options de sauvegarde du monde:",
         "World.Config.EditMode": "Mode de Modification:",
         "World.Config.AccessLevelHeader": "Qui peut rejoindre ce monde?",
         "World.Config.AutoKickAFK": "Éjection automatique des utilisateurs inactifs:",
         "World.Config.AutoKickAFKMinutes": "Minutes d'inactivité maximale:",
         "World.Config.HideFromListing": "Ne pas afficher dans la liste des sessions",
         "World.Config.Autosave": "Sauvegarde automatique (écrase la dernière sauvegarde):",
-        "World.Config.AutosaveInterval": "Intervale des sauvegardes automatiques (minutes):",
+        "World.Config.AutosaveInterval": "Intervalle des sauvegardes automatiques (minutes):",
         "World.Config.CleanupAssets": "Nettoyage des ressources non-utilisées:",
-        "World.Config.CleanupInterval": "Intervale du nettoyage (secondes):",
+        "World.Config.CleanupInterval": "Intervalle du nettoyage (secondes):",
 
         "World.Actions.StartSession": "Démarrer une session",
         "World.Actions.Join": "Rejoindre",
@@ -248,8 +251,8 @@
         "World.Actions.GetWorldOrb": "Obtenir une orbe-portail",
         "World.Actions.CopyWorldURL": "Copier le lien vers ce monde",
         "World.Actions.CopyRecordURL": "Copier le lien vers cette entrée",
-        "World.Actions.StartCustomSession": "Démarré une session sur mesure",
-        "World.Actions.ModifyMetadata": "Modification des metadonnées",
+        "World.Actions.StartCustomSession": "Démarrer une session sur mesure",
+        "World.Actions.ModifyMetadata": "Modification des métadonnées",
         "World.Actions.GetSessionOrb": "Obtenir l'orbe-portail de la session",
         "World.Actions.CopySessionURL": "Copier le lien vers cette session",
 
@@ -257,7 +260,7 @@
         "World.Indicator.LocalWorld": "Machine locale",
         "World.Indicator.Author": "Auteur: {name}",
         "World.Indicator.Host": "Hôte: {name}",
-        "World.Indicator.Hosting": "Hébergement",
+        "World.Indicator.Hosting": "Hôte",
         "World.Indicator.Sessions": "{n,plural, one {# session} other {# sessions}}",
         "World.Indicator.Users": "Utilisateurs",
         "World.Indicator.Users.None": "(aucune session active)",
@@ -277,13 +280,13 @@
 
         "World.Detail.WorldInformationHeader": "Information sur ce monde",
         "World.Detail.PublishDate": "Publié le",
-        "World.Detail.ModifyDate": "Dernière mise-à-jour:",
+        "World.Detail.ModifyDate": "Dernière mise-à-jour",
         "World.Detail.Visits": "Visites",
 
         "World.Detail.Tags": "Mots clefs",
         "World.Detail.ActionsHeader": "Actions:",
 
-        "World.Category.Everything": "Toutes categories",
+        "World.Category.Everything": "Toutes catégories",
         "World.Category.Featured": "En vedette",
         "World.Category.PublishedWorlds": "Mondes publiés",
         "World.Category.ActiveSessions": "Sessions actives",
@@ -303,7 +306,7 @@
         "World.AccessLevel.RegisteredUsers": "Utilisateurs enregistrés",
         "World.AccessLevel.Contacts": "Contacts",
         "World.AccessLevel.ContactsPlus": "Contacts+",
-        "World.AccessLevel.LAN": "En réseau",
+        "World.AccessLevel.LAN": "Sur le réseau local",
         "World.AccessLevel.Private": "Privé (sur invitation seulement)",
 
         "World.SortParameter.SearchScore": "Recherche par pointage",
@@ -333,7 +336,7 @@
         "World.Filter.SessionFiltering": "Filtre des sessions:",
         "World.Filter.MinimumUsers": "Nombre d'utilisateurs minimum: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Nombre de contacts minimum: <b>{n}</b>",
-        "World.Filter.OnlyHeadless": "Hôtes serveurs sans-ecrans seulement",
+        "World.Filter.OnlyHeadless": "Hôtes serveurs sans-écrans seulement",
         "World.Filter.MaxAccessLevel": "Niveau d'accès maximal:",
         "World.Filter.MinimumUptime": "Durée de fonctionnement minimal:",
         "World.Filter.Sorting": "Ordre:",
@@ -349,7 +352,7 @@
         "World.Edit.AccessPublic": "N'importe qui (publique)",
 
         "Tools.AvatarCreator": "Créateur d'avatar",
-        "Tools.FullBodyCalibrator": "Calibrateur de corps / avatar",
+        "Tools.FullBodyCalibrator": "Calibreur de corps / avatar",
         "Tools.CameraStreaming": "Caméra / Diffusion",
         "Tools.CreateNewWorld": "Créer un nouveau monde",
         "Tools.Debug": "Déboguer",
@@ -385,7 +388,7 @@
         "Indicator.ServerStatus.Down": "Indisponible",
         "Indicator.ServerStatus.NoInternet": "Aucune connexion internet",
 
-        "Indicator.Sync.AllSynced": "Synchronisation complété",
+        "Indicator.Sync.AllSynced": "Synchronisation complétée",
         "Indicator.Sync.SyncingItems": "Synchronisation: {item_count,plural, one {# élément} other {# éléments}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "Chargement {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError": "Erreur de synchronisation! <size=50%>Valider les logs pour les détails</size>",
@@ -403,15 +406,105 @@
         "Login.InvalidLogin.Description": "Veuillez vérifier votre identification et ré-essayer \"Mot de passe oublié?\"",
 
         "Login.MalformedUID": "Information de l'appareil invalide",
-        "Login.MalformedUID.Description": "Essayez de réinstaller ou contactez le support a {supportUrl}.",
+        "Login.MalformedUID.Description": "Essayez de réinstaller ou contactez le support sur {supportUrl}.",
 
         "Login.MissingUID": "Information de l'appareil manquante",
-        "Login.MissingUID.Description": "Essayez de réinstaller ou contactez le support a {supportUrl}.",
+        "Login.MissingUID.Description": "Essayez de réinstaller ou contactez le support sur {supportUrl}.",
+
+        "Login.MissingSecretMachineId": "ID de machine secret manquant",
+        "Login.MissingSecretMachineId.Description": "Essayez de réinstaller ou contactez le support sur {supportUrl}.",
+
+        "Login.MalformedSecretMachineId": "ID de machine secret invalide",
+        "Login.MalformedSecretMachineId.Description": "Essayez de réinstaller ou contactez le support sur {supportUrl}.",
+
+        "Register.MissingUID": "Information de l'appareil manquant.",
+        "Register.MissingUID.Description": "Essayez de réinstaller ou contactez le support sur {supportUrl}.",
+
+        "Register.MalformedUID": "Information de l'appareil invalide",
+        "Register.MalformedUID.Description": "Essayez de réinstaller ou contactez le support sur {supportUrl}.",
+
+        "Login.MissingLogin": "Informations manquantes",
+        "Login.MissingLogin.Description": "Est-ce que vous avez oublié d'entrer vos informations?",
+
+        "Login.InvalidRecoveryCode": "Code de récupération invalide",
+        "Login.InvalidRecoveryCode.Description": "Vérifiez votre code de récupération et ré-essayez",
+
+        "Login.UnsupportedAuthentication": "Méthode d’authentification non supportée",
+        "Login.UnsupportedAuthentication.Description": "Nous ne supportons pas cette méthode d'authentification. Veuillez en utiliser une autre.",
+
+        "Login.EmailNotVerified": "Courriel non vérifié",
+        "Login.EmailNotVerified.Description": "Votre courriel n'est pas vérifiée. Veuillez vérifier votre boîte de réception et votre dossier spam pour un courriel de vérification.",
+
+        "Login.AccountTempLocked": "Votre compte est bloqué.",
+        "Login.AccountTempLocked.Description": "Veuillez contacter la modération sur {moderationUrl}.",
+
+        "Login.AccountBanned": "Votre compte est banni",
+        "Login.AccountBanned.Description": "Veuillez contacter la modération sur {modertionUrl}.",
+
+        "Login.DuplicateAccount": "Compte dupliqué",
+        "Login.DuplicateAccount.Description": "Veuillez contacter la modération sur {modertionUrl}.",
+
+        "Login.UnknownError": "Erreur inconnue",
+        "Login.UnknownError.Description": "Une erreur inconnue s'est produite. Veuillez contacter notre support sur {supportUrl}.",
+
+        "Register.MissingRequest": "Informations d'inscription manquantes",
+        "Register.MissingRequest.Description": "Nous n'avons pas pu trouver vos information d'inscription. Êtes-vous sûr des les avoir incluses?",
+
+        "Register.InvalidEmail": "Courriel invalide",
+        "Register.InvalidEmail.Description": "Votre courriel est invalide.",
+
+        "Register.MissingUsername": "Nom d'utilisateur manquant",
+        "Register.MissingUsername.Description": "Avez-vous spécifié un nom d'utilisateur?",
+
+        "Register.MissingEmail": "Courriel manquant",
+        "Register.MissingEmail.Description": "Avez-vous spécifié un courriel?",
+
+        "Register.UsernameTooLong": "Nom d'utilisateur trop long",
+        "Register.UsernameTooLong.Description": "Votre nom d'utilisateur ne doit pas surpasser 32 caractères.",
+
+        "Register.UsernameContainsAmpersand": "Votre nom d'utilisateur ne peut pas contenir @",
+        "Register.UsernameContainsAmpersand.Description": "Votre nom d'utilisateur ne peut pas contenir @.",
+
+        "Register.UsernameStartsWithU": "Votre nom d'utilisateur ne peut pas commencer avec U-",
+        "Register.UsernameStartsWithU.Description": "Votre nom d'utilisateur ne peut pas commencer avec U-.",
+
+        "Register.InvalidUsername": "Nom d'utilisateur invalide",
+        "Register.InvalidUsername.Description": "Votre nom d'utilisateur est invalide.",
+
+        "Register.InvalidDateOfBirth": "Date de naissance invalide",
+        "Register.InvalidDateOfBirth.Description": "Votre date de naissance est invalide.",
+
+        "Register.UsernameContainsBlockedTerms": "Votre nom d'utilisateur contiens des mots bloqués",
+        "Register.UsernameContainsBlockedTerms.Description": "Votre nom d'utilisateur contiens de mots bloqués. Si vous pensez que c'est une erreur, contactez le support sur {supportUrl}.",
+
+        "Register.MissingPassword": "Mot de passe manquant",
+        "Register.MissingPassword.Description": "Vous n'avez pas entré de mot de passe.",
+
+        "Register.InvalidPassword": "Mot de passe invalide",
+        "Register.InvalidPassword.Description": "Votre mot de passe doit avoir au moins 8 caractères, incluant un nombre et une lettre minuscule et une lettre majuscule.",
+
+        "Register.EmailAlreadyRegistered": "Courriel déjà utilisée",
+        "Register.EmailAlreadyRegistered.Description": "Un compte utilisant ce courriel existe déjà. Si vous avez perdu votre mot de passe, cliquez sur \"Mot de passe oublié\". Vous pouvez aussi contacter le support sur {supportUrl}.",
+
+        "Register.ErrorCheckingUserId": "Erreur lors de la vérification de l'ID utilisateur",
+        "Register.ErrorCheckingUserId.Description": "Veuillez contacter notre support sur {supportUrl}.",
+
+        "Recovery.MissingEmail": "Courriel manquant",
+        "Recovery.MissingEmail.Description": "Avez-vous spécifié votre courriel?",
+
+        "Recovery.IncorrectEmail": "Courriel incorrect",
+        "Recovery.IncorrectEmail.Description": "Vous avez entré un courriel incorrect. Veuillez vérifier qu'il soit correct.",
+
+        "Recovery.NoPasswordSetup": "Aucun mot de passe présent",
+        "Recovery.NoPasswordSetup.Description": "Veuillez contacter notre support sur {supportUrl}.",
+
+        "Register.UnknownError": "Erreur inconnue",
+        "Register.UnknownError.Description": "Une erreur inconnue est survenue. Veuillez contacter notre support sur {supportUrl}.",
 
         "Account.Login": "Connexion",
         "Account.Logout": "Déconnexion",
         "Account.Register": "Enregistrement",
-
+        "Account.Saml2": "Vous authentifier avec SAML 2.0",
         "Account.LoginOrRegister": "Connexion / Enregistrement",
         "Account.LogoutConfirm": "Confirmer la déconnexion?",
         "Account.LoggingIn": "Connexion en cours...",
@@ -427,20 +520,30 @@
         "Account.RepeatPassword": "Confirmer le mot de passe:",
         "Account.RecoverPassword": "Mot de passe perdu ?",
         "Account.LiveEmailWarning": "<color=#f00>ATTENTION :</color> les domaines suivants peuvent prendre jusqu'à deux jours avant d'afficher le courriel d'enregistrement: live.com, hotmail.com, outlook.com, et quelques autres services hébergés par Microsoft.",
-        "Account.PasswordRules": "(au moin 8 caractères, un numéro, une majuscule, et une minuscule)",
+        "Account.PasswordRules": "(au moins 8 caractères, un numéro, une majuscule, et une minuscule)",
         "Account.LostPassword": "Mot de passe perdu",
         "Account.SendRecoveryCode": "Envoyer le code de confirmation",
-        "Account.ResetPasswordHeader": "Réinitialization du mot de passe",
-        "Account.ResetPasswordInstructions": "Un code de confirmation à été envoyé à votre addresse courriel. Copiez le dans le champ suivant:",
+        "Account.ResetPasswordHeader": "Réinitialisation du mot de passe",
+        "Account.ResetPasswordInstructions": "Un code de confirmation à été envoyé à votre adresse courriel. Copiez le dans le champ suivant:",
         "Account.RecoveryCode": "Code de confirmation :",
         "Account.NewPassword": "Nouveau mot de passe :",
         "Account.ResetPassword": "Appliquer le nouveau mot de passe",
         "Account.Requesting": "Requête en cours...",
         "Account.ErrorPasswordMismatch": "Les mots de passe ne concordent pas!",
-        "Account.ErrorEmailMismatch": "Les addresses courriels ne concordent pas!",
+        "Account.ErrorEmailMismatch": "Les adresses courriels ne concordent pas!",
         "Account.ErrorLoginError": "Erreur de connexion:",
-        "Account.RegistrationSuccess": "Succès! Un courriel contenant un lien de verification à été envoyé. Une fois ce lien ouvert, vous pourrez vous connecter.",
+        "Account.RegistrationSuccess": "Succès! Un courriel contenant un lien de vérification à été envoyé. Une fois ce lien ouvert, vous pourrez vous connecter.",
+        "Account.BirthMonth": "Mois de naissance",
+        "Account.BirthDay": "Jour de naissance",
+        "Account.BirthYear": "Année de naissance",
+        "Account.PoliciesAgreement": "J'accepte les <color=#22B2FF>conditions d'utilisation</color> et la <color=#22B2FF>politique de confidentialité</color>",
+        "Account.AlternateMethods": "Vous connecter avec un service tiers:",
 
+        "Account.Saml2.Title": "SAML 2.0",
+        "Account.Saml2.Select": "Veuillez sélectionner le fournisseur SAML 2.0 que vous voulez utiliser:",
+        "Account.Saml2.LoggingIn": "En attente que la connexion soit complète (voyez votre navigateur web)...",
+
+        "Account.TOTP.Title": "Authentification deux facteurs",
         "Account.TOTP.Initializing": "Vérification du statut 2FA pour votre compte...",
         "Account.TOTP.Code.Header": "Code secret",
         "Account.TOTP.Code.Description": "Vous devez d'abord saisir un code secret dans votre application d'authentification TOTP tel que <b>Authy</b> ou <b>Google Authenticator</b>.<br><br>Nous vous recommandons de le faire en scannant le code QR, mais vous pouvez également saisir manuellement le code secret. <b>Ne partagez jamais ce code avec qui que ce soit.</b><br><br>Si vous êtes en VR, vous pouvez passer au bureau en appuyant sur F8.",
@@ -450,7 +553,7 @@
         "Account.TOTP.RecoveryCodes.Description": "Enregistrez ces codes dans un endroit sécurisé. Ils peuvent être utilisés pour récupérer l'accès à votre compte au cas où vous perdriez ou endommageriez votre téléphone. Chaque code ne peut être utilisé qu'une seule fois. <b>Ne les partagez jamais avec qui que ce soit.</b> Si vous les perdez, vous perdrez <color=red>PERMANENTEMENT</color> l'accès à votre compte.",
         "Account.TOTP.RecoveryCodes.Codes": "Codes:",
         "Account.TOTP.Activate.Header": "Activer 2FA",
-
+        "Account.TOTP.Activate.Description": "Pour activer l'authentification a deux facteurs, utilisez le nombre a 6 chiffres généré par votre application d'authentification pour être sûr que tout fonctionne correctement. Une fois activé, vous devrez entrer le code pour confirmer certaines opérations.",
         "Account.TOTP.Activate.Token": "Jeton à 6 chiffres:",
         "Account.TOTP.Activate.TokenField": "Entrez votre jeton ici....",
         "Account.TOTP.Activate.Activate": "Activer",
@@ -458,12 +561,21 @@
         "Account.TOTP.Activate.InvalidToken": "Jeton invalide!",
         "Account.TOTP.Message.AlreadySetup": "2FA a déjà été configuré sur votre compte!",
         "Account.TOTP.Message.Error": "Erreur inattendue! Veuillez réessayer plus tard.",
-
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Bravo!</size><br><br>Votre compte dispose maintenant de l'authentification a deux facteurs pour plus de sécurité.<br><br>Vous pouvez optionnellement l'activer pour la connexion au compte avec la commande /enabledLogin2FA.",
         "Account.TOTP.Deactivate.Header": "Désactiver 2FA",
         "Account.TOTP.Deactivate.Description": "2FA est actuellement <b><color=green>configuré et actif sur votre compte</color></b>. Si vous devez le désactiver (par exemple en raison de la perte de votre téléphone ou de la compromission des codes), vous pouvez le faire ici.<br><br>Après la désactivation, vous pouvez à nouveau configurer 2FA, ce qui générera un tout nouveau code secret et un nouvel ensemble de codes de récupération.<br><br>Si vous perdez votre téléphone et devez configurer à nouveau 2FA, nous vous conseillons <b>FORTEMENT</b> de le faire immédiatement, car chaque code de récupération ne peut être utilisé qu'une seule fois et une fois épuisé, votre compte sera complètement bloqué.",
         "Account.TOTP.Deactivate.Deactivate": "Désactiver",
         "Account.TOTP.Deactivate.Deactivating": "Désactivation...",
         "Account.TOTP.Message.DeactivationComplete": "2FA a été désactivé avec succès sur votre compte.<br><br>Votre compte est maintenant à risque accru !<br><br>Nous vous recommandons fortement de configurer à nouveau 2FA immédiatement, surtout si vous avez utilisé un code de récupération en raison de la perte de votre téléphone .",
+
+        "Account.Type.Standard": "Compte Standard",
+        "Account.Type.Business": "Compte Business",
+        "Account.Type.Patreon": "Compte Supporteur",
+        "Account.Type.Mentor": "Mentor {platform}",
+        "Account.Type.Moderator": "Modérateur {platform}",
+        "Account.Type.Team": "Équipe {platform}",
+
+        "Avatar.Badge.Live": "EN DIRECT",
 
         "2FA.Header": "Vérification 2FA",
         "2FA.Token": "jeton à 6 chiffres:",
@@ -473,6 +585,7 @@
         "Profile.Status.Busy": "Occupé",
         "Profile.Status.Invisible": "Invisible",
         "Profile.Status.Offline": "Hors ligne",
+        "Profile.Status.Headless": "Serveur",
 
         "Session.Tab.Settings": "Paramètres",
         "Session.Tab.Users": "Utilisateurs",
@@ -484,6 +597,12 @@
         "Session.Permission.Host": "Hôte, par défaut:",
         "Session.Permission.PermissionOverrideCount": "Permissions spéciales: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Effacer les permissions spéciales",
+
+        "Session.JoinVerifier.EnableHeader": "Activer l'authentification customisée",
+        "Session.JoinVerifier.EnableText": "<color=red>ATTENTION:</color> Vous allez activer l'authentification customisée qui fait partie du monde actif. Avant de procéder vérifiez que vous faites confiance au créateur du monde vu que l'authentification customisée peut bloquer n'importe qui de rejoindre le monde et peut passer outre les règles d'accès de session.",
+        "Session.JoinVerifier.Label": "Utiliser l'authentification customisée: {name}",
+        "Session.JoinVerifier.ComponentWarning": "<color=red>ATTENTION:</color> Pour le moment, il n'y a aucune permission pour éviter la modification de l'authentification customisée. Si vous pensez que quelqu'un va modifier votre système, N'UTILISEZ PAS CETTE FONCTIONALITÉ!",
+        "Session.JoinVerifier.SetCustomVerifier": "Sélectionner comme authentification customisée",
 
         "Permissions.NotAllowedToSpawn": "Vous n'êtes pas autorisé à matérialiser des choses ici.",
         "Permissions.NotAllowedToSave": "Vous n'êtes pas autorisé à sauvegarder des objets dans ce monde.",
@@ -499,21 +618,28 @@
         "Contacts.Add": "Ajouter comme ami",
         "Contacts.Remove": "Retirer des amis",
         "Contacts.ConfirmRemove": "Confirmer la suppression?",
-        "Contacts.AcceptRequest": "Accepter la requète",
-        "Contacts.IgnoreRequest": "Ignorer la requète",
+        "Contacts.AcceptRequest": "Accepter la requête",
+        "Contacts.IgnoreRequest": "Ignorer la requête",
         "Contacts.Invite": "Inviter ici",
-
+        "Contacts.RevokeInvite": "Révoquer l'invitation",
         "Contacts.BanFromAllSessions": "Interdire l'accès à TOUTES mes sessions",
         "Contacts.UnbanFromAllSessions": "Lever l'interdiction dans toutes mes sessions",
         "Contacts.BanFromCurrentWorld": "Interdire l'accès à ce monde",
         "Contacts.UnbanFromCurrentWorld": "Lever l'interdiction d'accès à ce monde",
         "Contacts.RecordingVoiceMessage": "Enregistrement du message...",
+        "Contacts.Unblocked": "Débloquer",
+        "Contacts.AvatarBlock": "Bloquer l'avatar",
+        "Contacts.MutualBlock": "Bloquer mutuellement",
+        "Contacts.SelfAccount": "Mon compte",
+        "Contacts.SearchPrompt": "Chercher un contact...",
+        "Contacts.WriteMessage": "Écrire un message...",
 
         "Contacts.InSession": "Dans {name}",
         "Contacts.InPrivate": "Dans un monde privé",
-
+        "Contacts.InContactsOnly": "Dans un monde visible aux contacts",
         "Contacts.InHidden": "Dans un monde invisible",
-
+        "Contacts.InHiddenContactsOnly": "Dans un monde pour les contacts invisible",
+        "Contacts.InHiddenContactsPlus": "Dans un monde pour les contacts+ invisible",
         "Contacts.InLAN": "Dans un monde pour LAN locale",
         "Contacts.UsingDifferentVersion": "Utilise la version {version}",
         "Contacts.RequestSent": "Requête envoyée",
@@ -522,6 +648,7 @@
         "Contacts.Blocked": "Bloqué",
         "Contacts.SearchResult": "Résultats de recherche",
         "Contacts.Bot": "Compte de bot",
+        "Contacts.Migrated": "Contact non-migré",
 
         "Notifications.IsOnline": "est maintenant en ligne",
         "Notifications.IsOnlineOnDifferentVersion": "est maintenant en ligne <size=75%>(sur la version: {version})</size>",
@@ -545,9 +672,9 @@
         "Undo.ResetRotation": "Réinitialiser la rotation",
         "Undo.ResetScale": "Réinitialiser l'échelle ",
 
-        "Undo.GrabObjects": "Aggripper un objet",
-        "Undo.DestroyGrabbed": "Détruire l'objet aggrippé",
-        "Undo.DuplicateGrabbed": "Dupliquer l'objet aggrippé",
+        "Undo.GrabObjects": "Saisir un objet",
+        "Undo.DestroyGrabbed": "Détruire l'objet saisi",
+        "Undo.DuplicateGrabbed": "Dupliquer l'objet saisi",
 
         "Undo.ChangeBoxSize": "Changer la taille de la boîte",
         "Undo.BrushStroke": "Coup de pinceau",
@@ -564,22 +691,42 @@
         "Undo.ExtractMaterialsFromHierarchy": "Extraire les matériaux de la hiérarchie",
         "Undo.BatchConvertMaterials": "Convertir des matériaux par lots",
 
+        "Tooltips.Brush.ChangeColor": "Changer la couleur",
+        "Tooltips.Brush.IncrementSize": "Augmenter la taille",
+        "Tooltips.Brush.DecrementSize": "Réduire la taille",
+
         "Tooltips.Dev.CreateNew": "Nouvelle création...",
         "Tooltips.Dev.Selection": "Sélection: {mode}",
-        "Tooltips.Dev.DevMode.Off": "Mode Dévelopeur: Inactif",
-        "Tooltips.Dev.DevMode.On": "Mode Dévelopeur: Actif",
+        "Tooltips.Dev.DevMode.Off": "Mode Développeur: Inactif",
+        "Tooltips.Dev.DevMode.On": "Mode Développeur: Actif",
         "Tooltips.Dev.OpenInspector": "Ouvrir l'inspecteur",
         "Tooltips.Dev.DeselectAll": "Désélectionner tout",
         "Tooltips.Dev.DestroySelected": "Détruire la sélection",
         "Tooltips.Dev.ConfirmDestroySelected": "VRAIMENT détruire la sélection",
 
+        "Tooltips.Dev.GizmoOptions": "Options de sélecteur",
+        "Tooltips.Dev.SelectParent": "Sélectionner le parent",
+        "Tooltips.Dev.LocalSpace": "Espace local",
+        "Tooltips.Dev.GlobalSpace": "Espace global",
+        "Tooltips.Dev.Translation": "Translation",
+        "Tooltips.Dev.Rotation": "Rotation",
+        "Tooltips.Dev.Scale": "Échelle",
+
+        "Tooltips.Dev.Selection.Single": "Sélection unique",
+        "Tooltips.Dev.Selection.Multi": "Sélection multiple",
+
+        "Tooltips.Dev.Interaction.Tip": "Bout",
+        "Tooltips.Dev.Interaction.Projection": "Projection",
+
         "Tooltip.Color.Picker": "Pipette à couleurs",
 
-        "Tooltip.GrabbableSetter.Scalable": "Définir comme redimensionable",
-        "Tooltip.GrabbableSetter.NonScalable": "Définir comme non-redimensionable",
+        "Tooltip.GrabbableSetter.Scalable": "Définir comme redimensionnable",
+        "Tooltip.GrabbableSetter.NonScalable": "Définir comme non-redimensionnable",
+        "Tooltip.GrabbableSetter.ApplyToRoot": "Appliquer à la racine",
+        "Tooltip.GrabbableSetter.AppyToHit": "Appliquer à ce qui est touché",
 
-        "Tooltip.CharacterCollider.MarkGrippable": "Marquer comme aggripabble",
-        "Tooltip.CharacterCollider.DontMarkGrippable": "Ne pas marquer aggripabble",
+        "Tooltip.CharacterCollider.MarkGrippable": "Marquer comme saisissable",
+        "Tooltip.CharacterCollider.DontMarkGrippable": "Ne pas marquer saisissable",
         "Tooltip.CharacterCollider.EnsureWalkRun": "Garantir mouvement Marche/Course",
         "Tooltip.CharacterCollider.EnsureZeroG": "Garantir mouvement sans gravité",
         "Tooltip.CharacterCollider.EnsurePhysicalFly": "Garantir mouvement vol avec physique",
@@ -587,6 +734,10 @@
         "Tooltip.Light.Point": "Point",
         "Tooltip.Light.Spot": "Projecteur",
         "Tooltip.Light.Sun": "Soleil",
+
+        "Tooltip.Light.Shadows.None": "Pas d'ombres",
+        "Tooltip.Light.Shadows.Hard": "Ombres dures",
+        "Tooltip.Light.Shadows.Soft": "Ombres douces",
 
         "Tooltip.MeshVisibility.KeepShadow": "Garder l'ombre",
         "Tooltip.MeshVisibility.ShadowOff": "Désactiver l'ombre",
@@ -609,6 +760,8 @@
 
         "Tooltip.Mesh.Edit": "Modifier le Maillage",
 
+        "Tooltip.Cartridge.Eject": "Éjecter l'orbe",
+
         "Tooltip.Microphone.Format.WAV": "WAV",
         "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
         "Tooltip.Microphone.Format.FLAC": "FLAC",
@@ -616,6 +769,45 @@
         "Tooltip.Microphone.ModePress": "Appuyez pour démarrer/arrêter l'enregistrement",
         "Tooltip.Microphone.SourceRaw": "RAW",
         "Tooltip.Microphone.SourceFiltered": "Filtré et normalisé",
+
+        "Tooltip.ProtoFlux.Drive": "Conduire",
+        "Tooltip.ProtoFlux.Source": "Sourcer",
+        "Tooltip.ProtoFlux.Reference": "Référencer",
+        "Tooltip.ProtoFlux.Write": "Écrire",
+        "Tooltip.ProtoFlux.Proxy": "Proxier",
+        "Tooltip.ProtoFlux.CreateLocal": "Créer localement",
+        "Tooltip.ProtoFlux.CreateStore": "Créer un stockage",
+        "Tooltip.ProtoFlux.CreateDataModelStore": "Créer un stockage de modèle de données",
+        "Tooltip.ProtoFlux.Overview": "Basculer la vue d'ensemble",
+        "Tooltip.ProtoFlux.NodeBrowser": "Navigateur de nodes",
+        "Tooltip.ProtoFlux.PackInPlace": "Emballer sur place",
+        "Tooltip.ProtoFlux.PackInto": "Emballer dans <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.Unpack": "Déballer <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.ExplicitCast": "Caster explicitement\n<size=50%>(<color=red>ATTENTION:</color> perte de données potentielle)</size>",
+
+        "Tooltip.Meter.Mode.Ray": "Mode: Rayon",
+        "Tooltip.Meter.Mode.Perpendicular": "Mode: Perpendiculaire",
+        "Tooltip.Meter.Mode.Drag": "Mode: Glisser",
+
+        "Tooltip.Meter.Points.Two": "Deux points",
+        "Tooltip.Meter.Points.Multiple": "Points multiples",
+
+        "Tooltip.Meter.ObjectSpace": "Mesurer dans l'espace de l'objet",
+        "Tooltip.Meter.WorldSpace": "Mesurer dans l'espace du monde",
+
+        "Tooltip.Glue.Mode.BakeMeshes": "Cuire les modèles",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes": "Cuire les composants SkinnedMeshRenderers",
+        "Tooltip.Glue.Mode.ParentObjects": "Parenter les objets",
+
+        "Tooltip.RigTransfer.ClearSource": "Retirer la source",
+
+        "Tooltip.ComponentClone.SingleInstanceOn": "Instance seule: activée",
+        "Tooltip.ComponentClone.SingleInstanceOff": "Instance seule: désactivée",
+        "Tooltip.ComponentClone.ClearTemplate": "Retirer le modèle",
+
+        "ProtoFlux.UI.Call": "Pulser",
+        "ProtoFlux.UI.AsyncCall": "Pulser async",
+        "ProtoFlux.UI.NodeBrowser.Title": "Nodes ProtoFlux",
 
         "CreateNew.Back": "<<< <i>Retour</i>",
         "CreateNew.EmptyObject": "Objet vide",
@@ -646,9 +838,9 @@
         "CreateNew.Editor": "Éditeur",
         "CreateNew.Editor.UserInspector": "Inspecteur d'utilisateur",
         "CreateNew.Editor.LightSourcesWizard": "Assistant des sources de lumière du monde",
-
+        "CreateNew.Editor.TextRendererWizard": "Assistant de textes",
         "CreateNew.Editor.AssetOptimizationWizard": "Assistant d'optimisation des ressources",
-        "CreateNew.Editor.CubemapCreator": "Createur de Cubemaps",
+        "CreateNew.Editor.CubemapCreator": "Créateur de Cubemaps",
         "CreateNew.Editor.ReflectionProbes": "Assistant pour les sondes de réflexion",
 
         "CreateNew.3DModel": "Modèle 3D",
@@ -677,11 +869,16 @@
 
         "CreateNew.Materials": "Matériaux",
 
+        "CreateNew.Directory.Title": "Créer nouveau dossier:",
+        "CreateNew.Directory.Error.EmptyName": "Veuillez entrer un nom:",
+        "CreateNew.Directory.Error.LongName": "Nom trop long:",
+        "CreateNew.Directory.Error.InvalidName": "Nom invalide",
+
         "AvatarCreator.Title": "Créateur d'avatar",
         "AvatarCreator.Instructions": "Alignez les objets de l'avatar avec les références du casque et du contrôleur (facultatif) et appuyez sur Créer pour les convertir en avatar",
         "AvatarCreator.UseSymmetry": "Utiliser la symétrie",
         "AvatarCreator.ShowToolAnchors": "Montrer les ancres des outils",
-        "AvatarCreator.SetupVolumeMeter": "Configurer un volumètre",
+        "AvatarCreator.SetupVolumeMeter": "Configurer un compteur de volume",
         "AvatarCreator.SetupEyes": "Configurer les yeux",
         "AvatarCreator.SetupFaceTracking": "Configurer le tracking du visage",
         "AvatarCreator.ProtectAvatar": "Protéger l'avatar",
@@ -784,7 +981,7 @@
         "Importer.Model.Advanced.ForceNoMipMaps": "Pas de MipMaps",
         "Importer.Model.Advanced.ForceUncompressed": "Forcer la décompression",
 
-        "Importer.Model.Advanced.Grabbable": "Rendre agrippable",
+        "Importer.Model.Advanced.Grabbable": "Rendre saisissable",
         "Importer.Model.Advanced.Scalable": "Rendre redimensionnable",
         "Importer.Model.Advanced.PositionAtOrigin": "Positionner à l'origine",
         "Importer.Model.Advanced.AssetsOnObject": "Placer les ressources sur l'objet",
@@ -803,7 +1000,7 @@
 
         "NewWorld.Title": "Nouveau monde",
 
-        "NewWorld.Template": "Modèle mondial:",
+        "NewWorld.Template": "Modèle de monde:",
         "NewWorld.CustomPreset": "Préréglage personnalisé:",
         "NewWorld.SessionSettings": "Paramètres de session:",
         "NewWorld.UnsafeMode": "Mode non sûr:",
@@ -817,7 +1014,7 @@
         "FullBody.HeightWarning": "Cela semble incorrect. Assurez-vous que c'est bien votre taille réelle.",
         "FullBody.ConfirmMapping": "2) Confirmer la correspondance des traqueurs",
         "FullBody.MappingInstructions": "Mettez-vous en position verticale et assurez-vous que les traqueurs suivent et sont bien détectés.",
-        "FullBody.StartCalibration": "Démarrer le calibrage du tracker",
+        "FullBody.StartCalibration": "Démarrer le calibrage des traqueurs",
         "FullBody.JustCalibrateAvatar": "Calibrer mon avatar",
         "FullBody.JustCalibrateAvatarDescription": "Ne pas calibrer le corps entier, mais simplement calibrer l'avatar",
         "FullBody.SkipAndAdjustAvatar": "Passer et ajuster l'avatar",
@@ -829,7 +1026,7 @@
         "FullBody.FineTuneCalibrationInstructions": "Vérifier et affiner le calibrage en déplaçant les références bleues",
 
         "FullBody.CalibrateTrackersHeader": "Calibrer les traqueurs",
-        "FullBody.CalibrateTrackersInstructions": "Attrapez et positionnez les parties bleues du corps par rapport aux trackers pour ajuster leur décalage. Ils doivent correspondre à l'emplacement du tracker sur votre corps.\nVous pouvez ajuster l'étalonnage à tout moment plus tard en rouvrant cet outil.",
+        "FullBody.CalibrateTrackersInstructions": "Attrapez et positionnez les parties bleues du corps par rapport aux traqueurs pour ajuster leur décalage. Ils doivent correspondre à l'emplacement du traqueur sur votre corps.\nVous pouvez ajuster l'étalonnage à tout moment plus tard en rouvrant cet outil.",
         "FullBody.UseSymmetry": "Utiliser la symétrie",
         "FullBody.ShowBodyOverlay": "Afficher la superposition du corps",
         "FullBody.HeightCompensationInstructions": "Si le mannequin est trop grand (voûté) ou trop court, ajustez la compensation de hauteur pour obtenir le meilleur ajustement.",
@@ -890,7 +1087,7 @@
         "CameraControl.Settings.ForceEyesOnCamera": "Forcer les yeux sur la caméra",
         "CameraControl.Settings.HideBadges": "Cacher les badges",
         "CameraControl.Settings.HideLasers": "Cacher les lasers",
-        "CameraControl.Settings.ShowFrustum": "Montrez Frustum",
+        "CameraControl.Settings.ShowFrustum": "Montrer le tronc",
         "CameraControl.Settings.PhotoTimer": "Minuteur photo",
         "CameraControl.Settings.ShowLiveBadge": "Afficher le badge en direct",
         "CameraControl.Settings.AudioFromCameraViewpoint": "Audio du point de vue de la caméra",
@@ -1120,9 +1317,9 @@
         "Inspector.Mesh.FlipNormals": "Retourner les normales",
         "Inspector.Mesh.ReverseWinding": "Retourner le Winding",
         "Inspector.Mesh.MakeDualSided": "Rendre à double-coté",
-        "Inspector.Mesh.ConvertToFlatShading": "Convertire à l'ombrage plat",
+        "Inspector.Mesh.ConvertToFlatShading": "Convertir à l'ombrage plat",
         "Inspector.Mesh.ConvertToConvexHull": "Coquille convexe",
-        "Inspector.Mesh.ConvertToPointCloud": "Convertire en nuage de point",
+        "Inspector.Mesh.ConvertToPointCloud": "Convertir en nuage de point",
         "Inspector.Mesh.MergeDoubles": "Réduire les doublons",
         "Inspector.Mesh.StripEmptyBlendshapes": "Enlever les Blendshapes vides",
         "Inspector.Mesh.StripBlendshapeNormals": "Enlever les normales des Blendshapes",
@@ -1131,7 +1328,7 @@
         "Inspector.Mesh.GetBoneList": "Obtenir la liste des os",
         "Inspector.Mesh.GetBoneData": "Obtenir les données des os",
 
-        "Inspector.Mesh.TrimVertexBoneWeightsTo": "Reduire le poid des vertex des os à:",
+        "Inspector.Mesh.TrimVertexBoneWeightsTo": "Réduire le poids des vertex des os à:",
         "Inspector.Mesh.BoneTrimCount": "{n,plural, one {# Bone} other {# Bones}}",
         "Inspector.Mesh.UV_Multiplicator": "Multiplicateur:",
         "Inspector.Mesh.ScaleUVs": "Échelle des UVs",
@@ -1185,8 +1382,8 @@
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "SUPPRIMER la protection d'avatar",
 
         "Inspector.BipedRig.GetDiagnosticInfo": "Obtenir l'information sur l'armature",
-        "Inspector.BipedRig.GenerateDebugVisuals": "Générer un visuel de déboguage",
-        "Inspector.BipedRig.ClearDebugVisuals": "Nettoyer le visuel de déboguage",
+        "Inspector.BipedRig.GenerateDebugVisuals": "Générer un visuel de débogage",
+        "Inspector.BipedRig.ClearDebugVisuals": "Nettoyer le visuel de débogage",
         "Inspector.BipedRig.DetectHands": "Détecter l'armature des mains",
         "Inspector.BipedRig.DetectLeftHand": "Détecter la main gauche",
         "Inspector.BipedRig.DetectRightHand": "Détecter la main droite",
@@ -1242,7 +1439,7 @@
         "Inspector.Texture.TileMirror": "Tuile (miroir)",
 
         "Inspector.Texture.InvalidFloats": "Diagnostique: Variables numériques invalides",
-        "Inspector.Texture.GenerateMetadata": "Diagnostique: Générer les metadonnées des Bitmaps",
+        "Inspector.Texture.GenerateMetadata": "Diagnostique: Générer les métadonnées des Bitmaps",
 
         "Inspector.Material.VariantInfo": "Variant: {variantID} (Brute: {rawVariantID})",
         "Inspector.Material.WaitingForApply": "En attente de l'application: {waiting}",
@@ -1354,6 +1551,10 @@
         "Desktop.Brightness": "Luminosité : {n,number,percent}",
         "Desktop.Opacity": "Opacité : {n,number,percent}",
 
+        "Tutorial.Welcome.Welcome": "Bienvenue!",
+        "Tutorial.Welcome.Description": "Plongez dans un nouvel univers digital ayant des possibilités infinies. Que vous venez ici pour socialiser avec des gens du monde entier ou créer des mondes, objets, avatars et bien d'autres. Resonite est un espace personnalisable sans limites ou vous serez le bienvenue qui que vous soyez.<br><br>Avant de commencer, il faut mettre en place quelques essentiels pour que l’expérience soit la meilleure possible. Quant vous êtes prêt, cliquez le bouton ci-dessous.",
+        "Tutorial.Welcome.Begin": "Commençons!",
+
         "Tutorial.Welcome.AccountHeader": "Compte {appName}",
         "Tutorial.Welcome.AccountDescription": "La création d'un compte vous donne 1 Go de stockage gratuit et l'accès aux éléments de sauvegarde, aux avatars favoris, à l'ajout de contacts et de messagerie.",
         "Tutorial.Welcome.AccountCreate": "Créer un compte",
@@ -1381,10 +1582,10 @@
         "Tutorial.Welcome.StartTutorialHeader": "Commencer le Tutoriel",
         "Tutorial.Welcome.StartTutorialDescription": "Nous vous transférerons dans un monde de tutoriels pour vous aider à démarrer avec {appName}. Vous pouvez choisir de rendre public le monde du tutoriel, permettant à la communauté {appName} de se joindre et de vous aider, ou d'apprendre par vous-même.",
 
-        "Tutorial.CommunityYouTube.Title": "Chaines youtube communautaire",
+        "Tutorial.CommunityYouTube.Title": "Chaînes YouTube communautaire",
 
         "Tutorial.UserResources.UserResourcesTitle": "Resources utilisateur",
-        "Tutorial.UserResources.SupportTitle": "Comment suporter {appName}",
+        "Tutorial.UserResources.SupportTitle": "Comment supporter {appName}",
         "Tutorial.UserResources.MerchandiseTitle": "Produits dérivés de {appName}",
 
         "Tutorial.Intro.BadgesModerator": "Modérateur",
@@ -1410,6 +1611,379 @@
         "Exiting.SavingChanges": "Sauvegarde en cours...",
         "Exiting.Exiting": "Au revoir!",
         "Exiting.LoggingOut": "En déconnexion",
+
+        "Migration.Title": "Migration",
+        "Migration.NewTask": "Nouvelle tâche de migration",
+
+        "Migration.LoginModal.Title": "Migrer vos donnés?",
+        "Migration.LoginModal.Description": "Voulez-vous migrer vos données depuis un autre compte? Vous pouvez aussi faire ça plus tard dans l'onglet \"Migration\" de votre tableau de bord.",
+        "Migration.LoginModal.OpenMigration": "Ouvrir la migration",
+        "Migration.LoginModal.Later": "Plus tard",
+        "Migration.LoginResetID.Title": "Êtes-vous bien sûr de vouloir réinitialiser votre ID utilisateur?",
+        "Migration.LoginResetID.Description": "Faire ça peut <color=red>CASSER IMPRÉVISIBLEMENT</code> du contenu. Tous vos objets, mondes, contacts et messages seront migrés normalement mais tous les composants et code référençant votre ID d'utilisateur précédent devront être remplacés. A mois que vous soyez vraiment sûr et savez ce que vous faites, <color=red>NE CHOISISSEZ PAS CETTE OPTION</color>.",
+        "Migration.LoginResetID.ResetButton": "Oui, réinitialiser",
+
+        "Migration.ReservedUsername.Title": "<b>Nom d'utilisateur réservé</b>",
+        "Migration.ReservedUsername.Description": "Ce nom d'utilisateur est réservé pour son propriétaire original. Si c'est vous, veuillez entrer vos informations de connexion de {platform} pour le débloquer. Nous ne stockons pas ces informations, elles sont juste utilisées pour vérifier que vous êtes le propriétaire original du compte.",
+        "Migration.SourcePassword": "Mot de passe {platform}",
+        "Migration.SourceUsername": "Nom d'utilisateur {platform}",
+
+        "Migration.Dialog.Title": "Migration de compte",
+        "Migration.Dialog.Source": "Vous pouvez migrer des données depuis une autre plateforme compatible. En premier, sélectionnez la plateforme dont laquelle vous voulez migrer. Vous pouvez ajouter des plateformes additionnelles dans le dossier \"Migrations\" de votre installation.",
+        "Migration.Dialog.AccountDescription": "Pour migrer votre compte, vous devez avoir votre mot de passe {platform}. Cela va nous permettre de télécharger vos données.",
+
+        "Migration.ResetID.Title": "Réinitialiser mon ID d'utilisateur",
+        "Migration.ResetID.Description": "<color=red><b>ATTENTION:</b></color> Choisir cette option va <b>PEUT CASSER DES OBJETS EXISTANTS ET NE PEUT PAS ÊTRE REVERSÉ</b>, cela inclus n'importe quelle référence a votre ID d'utilisateur, n'importe quel service tiers l'utilisant, liens, variables de Cloud et autres. Ces références seront réinitialisées mais vos contacts, objets et messages ne seront pas perdus. Nous recommandons de n'utiliser cette option <b>QUE</b> si vous savez vraiment ce que vous faites. Si vous choisissez cette option, votre ID d'utilisateur va être changé comme:\nU-MonNom -> U-fX3pKe7AYYQ",
+
+        "Migration.DataSelection.Title": "Que voulez-vous migrer?",
+        "Migration.DataSelection.Everything": "Tout",
+        "Migration.DataSelection.Choose": "Choisir",
+
+        "Migration.DataSelection.Favorites": "Favoris (avatar, maison, caméra, clavier, facettes)",
+
+        "Migration.DataSelection.Favorites.Description": "Cela va migrer votre maison, avatar favoris, clavier, caméra et facettes en premier pour que vous puissiez les utiliser le plus rapidement possible.\n<color=red><b>ATTENTION</b></color> si vous choisissez cette option, il y a une chance de perdre quelques changements.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "Remplacer vos favoris actuels?",
+
+        "Migration.DataSelection.Home.Title": "Définir votre ancienne maison comme défaut?",
+        "Migration.DataSelection.Home.Description": "Pendant la migration, votre maison originale va être placée sous une nouvelle URL et vous aurez une nouvelle maison par défaut. Si vous préférez, nous pouvons garder votre ancienne maison comme défaut. Notez que choisir \"Non\" ne supprimera pas votre ancienne maison et elle sera toujours disponible dans vos mondes.",
+
+        "Migration.DataSelection.Contacts": "Contacts",
+        "Migration.DataSelection.Message History": "Historique des messages",
+        "Migration.DataSelection.InventoryWorld": "Inventaire et mondes",
+        "Migration.DataSelection.CloudVariable.Definitions": "Définitions de variables de cloud",
+        "Migration.DataSelection.CloudVariable.Values": "Valeurs de variables de cloud",
+
+        "Migration.DataSelection.AlwaysOverwrite": "Tout remplacer",
+
+        "Migration.Start": "Démarrer la migration",
+        "Migration.Groups.Title": "Migrer vos groupes",
+        "Migration.Groups.Introduction": "Devons-nous migrer vos groupes?",
+
+        "Migration.Groups.Description": "Tous les groupes dont vous êtes l'administrateur seront migrés par défaut. Si vous voulez seulement migrer certains groupes, cliquez sur le bouton ci-dessous pour les charger et sélectionnez ceux que vous voulez migrer.",
+
+        "Migration.Groups.LoadGroups": "Charger vos groupes",
+        "Migration.Groups.RefreshGroups": "Rafraîchir vous groupes",
+
+        "Migration.Groups.Fetching": "Récupération de vos groupes...",
+        "Migration.Groups.Fetching.LoginFailed": "Erreur dans la connexion: {error}",
+        "Migration.Groups.Fetching.Error": "Erreur dans la récupération: {error}",
+        "Migration.Groups.NoGroups": "Aucun groupes {platform} à migrer.",
+        "Migration.Groups.NotGroupAdmin": "Vous n'êtes administrateur d'aucun groupe {platform}. Demandez a votre administrateur de migrer vos goupes.",
+
+        "Migration.Summary": "OK, tout est bon. Cliquez sur Commencer La Migration ci-dessous et nous commenceront de suite!\n\nLes migrations peuvent prendre un peut de temps pour tout copier. Si vous avez sélectionné l'option pour migrer vos favoris, ceux-cis seront migrés en premier pour que vous puissiez avoir une base.\n\nVous n'avez pas besoin de garder {appName} lancé pendant la migration. Nous vous enverront des mises à jour sur votre migration depuis le {appName} Bot et votre courriel pour vous tenir au courant.",
+
+        "Migration.List.EmptyTitle": "Démarrer une nouvelle migration?",
+        "Migration.List.EmptySubtitle": "Cliquez sur \"Nouvelle tâche de migration\" en haut a gauche.",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Créé:{time}\nStatut:{state}",
+        "Migration.Report.Title": "Report de tâche:",
+        "Migration.Report.Description": "<color={hex}>Description:</color> {value}",
+        "Migration.Report.Status": "<color={hex}>Statut:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>Créé:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>Démarré:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>Complété:</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "En train de migrer les données de <color={hex}>{value}</color>.",
+        "Migration.Report.CurrentItem": "Objet courant: <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>Vitesse:</color> ~{value} mondes/objets par minute",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>Tâches dans la queue avant celle-ci:</color> {value}",
+        "Migration.Report.ContactStatus": "<color={hex}>{current}</color> contacts migrés de <color={hex}>{total}</color>",
+        "Migration.Report.MessageStatus": "<color={hex}>{value}</color> messages migrés",
+        "Migration.Report.CloudVariableDefinitionStatus": "<color={hex}>{value}</color> définitions de variables cloud migrées",
+        "Migration.Report.CloudVariableValueStatus": "<color={hex}>{value}</color> variables cloud migrées",
+        "Migration.Report.RecordStatus": "<color={hex}>{current}</color> mondes/objets migrés de <color={hex}>{total}</color>. <color=red>{failed}</color> échoués.",
+        "Migration.Report.GroupStatus": "<color={hex}>{current}</color> groupes migrés de <color={hex}>{total}</color>",
+        "Migration.Report.GroupMemberStatus": "<color={hex}>{value}</color> membres de groupes migrés au total",
+
+        "Migration.Error": "<color=red>Erreur:</color> {error}",
+        "Migration.NothingSelected": "Rien n'est sélectionné.",
+
+        "Migration.ColorManagement": "Ce monde a été créé dans l'espace de couleurs gamma et a été converti en linéaire.<br><br>Il peut avoir des différences visuelles mais devrait être utilisable.<br><br>Si vous êtes l'auteur et avez des problèmes avec cette version, <color=red>NE SAUVEGARDEZ PAS</color> et a la place faites des copies.<br><br>Tant que l'original existe, nous pouvons modifier la conversion pour tenter de résoudre les problèmes.",
+
+        "Temporary.MMC.Voting UI": "Interface de vote MMC",
+        "Temporary.MMC.Vote": "Vote",
+
+        "Temporary.MMC.Categories.Name": "Catégories",
+
+        "Temporary.MMC.Categories.Worlds": "Mondes",
+        "Temporary.MMC.Categories.Worlds.Social": "Social",
+        "Temporary.MMC.Categories.Worlds.Game": "Jeux",
+
+        "Temporary.MMC.Categories.Other": "Autres",
+        "Temporary.MMC.Categories.Misc": "Divers",
+        "Temporary.MMC.Categories.Meme": "Meme",
+
+        "Temporary.MMC.Categories.Avatars": "Avatars",
+        "Temporary.MMC.Categories.Avatars.Accessories": "Accessoires",
+
+        "Temporary.MMC.VoteSuccess": "Vote effectué dans la catégorie {category} pour {voteTarget}.",
+        "Temporary.MMC.VoteFailure": "Votre vote n'a pas été pris en compte du a une erreur. Veuillez ré-essayer.",
+        "Temporary.MMC.VotedAlready": "Vous avez déjà voté pour {voteTarget}.",
+        "Temporary.MMC.VoteInvalid": "Le vote est invalide, veuillez ré-essayer.",
+
+        "CloudHome.WelcomeHome": "Bienvenue chez toi!",
+
+        "Tutorial.Saving.Title": "Bienvenue chez toi!",
+        "Tutorial.Saving.Content": "Bienvenue dans ta <b><i><color=hero.yellow>Maison</b></i></color>! C'est ici que tu apparaîtra à chaque fois que tu te connectera.<br><br>Ce monde est le tiens, sent toi libre de le modifier comme tu veux.<br><br>Si tu sauvegarde ce monde, tout sera comme tu l'aura laissé.",
+
+        "CloudHome.Info.OnlineUsers": "{online_users} {online_users,plural, one {utilisateur} other {utilisateurs}} en ligne<br>{joinable_users} {joinable_users,plural, one {utilisateur} other {utilisateurs}} dans des sessions joignables",
+        "CloudHome.Info.Moderation": "Modération",
+        "CloudHome.Info.Inventory": "Inventaire",
+        "CloudHome.Info.Tools": "Outils",
+        "CloudHome.Info.MoreInfo": "Plus d'informations",
+        "CloudHome.Info.SessionUptime": "Disponibilité de la session:",
+        "CloudHome.Info.AccessLevel": "Niveau d'accès:",
+        "CloudHome.Info.StorageUsed": "Stockage utilisé:",
+
+        "CloudHome.Info.DashInfoTab.Title": "Bienvenue!",
+        "CloudHome.Info.DashInfoDesktop": "Pour te mettre au courant, tu peut cliquer sur ESC pour ouvrir ton <i><color=hero.purple>tableau de bord</color></i>.<br><br>Si tu as besoin de plus d'informations, ce panneau peut t'aider. Juste clique sur le bouton ci-dessous pour fermer ce message.",
+        "CloudHome.Info.DashInfoVR": "Pour te mettre au courant, tu peut cliquer sur B ou Y pour ouvrir ton <i><color=hero.purple>tableau de bord</color></i>.<br><br>Si tu as besoin de plus d'informations, ce panneau peut t'aider. Juste clique sur le bouton ci-dessous pour fermer ce message.",
+        "CloudHome.Info.DashInfoVRNoButtons": "Pour te mettre au courant, tu peut cliquer sur ton bouton menu pour ouvrir ton <i><color=hero.purple>tableau de bord</color></i>.<br><br>Si tu as besoin de plus d'information, ce panneau peut t'aider. Juste clique sur le bouton ci-dessous pour fermer ce message.",
+
+        "CloudHome.Info.GoToWiki": "Aller sur le wiki!",
+        "CloudHome.Info.GoToDiscord": "Aller sur le Discord",
+
+        "CloudHome.Info.ModerationTab.Title": "Modération",
+        "CloudHome.Info.ModerationTab.Content": "La sécurité est quelque chose de très important pour nous. Si tu as besoin d'aide ou a besoin de reporter un utilisateur, ouvre un ticket sur notre <u><color=hero.cyan>portail de modération.</color></u><sprite name=hyperlink><br><br>Nous avons une bonne équipe volontaire de modération <sprite name=modbadge> qui assurent la sécurité de communauté! Créez un ticket si vous assistez a quelque chose violant les lignes directrices.",
+
+        "CloudHome.Info.InventoryTab.Title": "Sauvegardez vos objets!",
+        "CloudHome.Info.InventoryTab.Content": "L'<i><color=hero.purple>inventaire</color></i> dans votre <i><color=hero.purple>tableau de bord</color></i> contiens tous les objets et avatars que tu as sauvegardé.<br><br>Le dossier <i><color=hero.purple>Essentials</color></i> a plein d'objets avec lesquels tu peut jouer; fait un double clic sur un objet pour le matérialiser.",
+
+        "CloudHome.Info.ToolsTab.Title": "Édition dans le monde!",
+        "CloudHome.Info.ToolsTab.Content": "La marque de fabrique de {appName} est que tu peut créer et modifier super facilement tout ce qui est en jeu.<br><br>Oui, cela veux dire ici, ou n'importe ou! Les outils sont disponibles dans le dossier <i><color=hero.purple>Essentials -> Tools</color></i> dans ton inventaire et vont te permettre d'éditer le monde facilement.",
+
+        "CloudHome.Info.HelpTab.Title": "Obtenir de l'aide",
+        "CloudHome.Info.HelpTab.InfoLineOne": "Besoin d'aide? Jette un coup d’œil au <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink> ou demande sur le <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink>.",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "Tu peux voir une vue de ton bureau dans ton tableau de bord, dans l'onglet <i><color=hero.purple>Bureau</color></i>.",
+
+        "CloudHome.Info.UsersTab.Title": "Trouver des utilisateurs",
+        "CloudHome.Info.UsersTab.Content": "Les sessions publiques sont un bon moyen de plonger dans la communauté!<br><br>Les sessions publiques sont celles que vous pouvez rejoindre sans prérequis et peuvent être trouvées dans l'onglet <i><color=hero.purple>Mondes</color></i> de votre tableau de bord.",
+
+        "Mirror.Header.RenderingOptions": "Options de rendu",
+        "Mirror.Header.Type": "Type de miroir",
+        "Mirror.Header.Resolution": "Résolution du miroir",
+        "Mirror.Header.AspectRatio": "Format du miroir",
+
+        "Mirror.EnableLights": "Activer les lumières",
+        "Mirror.DisableLights": "Désactiver les lumières",
+
+        "Mirror.EnableShadows": "Activer les ombres",
+        "Mirror.DisableShadows": "Désactiver les ombres",
+
+        "Mirror.Camera": "Caméra",
+
+        "Mirror.AspectRatio.Tall": "Grand",
+        "Mirror.AspectRatio.Square": "Carré",
+        "Mirror.AspectRatio.Wide": "Large",
+
+        "Mirror.Menu": "Menu",
+        "Mirror.CloseMenu": "Fermer le menu",
+
+        "StickyNote.SpinMe": "Fait moi tourner!",
+        "StickyNote.FruitPlate": "Plateau de fruits magiques",
+        "StickyNote.EmptyForYou": "Laissé vide juste pour toi :)",
+        "StickyNote.RelevantLinks": "Liens importants!<br><br><size=500>C'est comme un annuaire!</size>",
+        "StickyNote.SunTool": "Tiens le pouvoir du soleil entre tes mains!",
+        "StickyNote.Bow": "Bande l'arc et vise bien!",
+        "StickyNote.Crossbow": "Utilise ton bouton secondaire pour le charger",
+        "StickyNote.Shade": "Parasol ajustable",
+        "StickyNote.TheaterTablet": "Utilise moi pour contrôler le ventilateur et les fenêtres!",
+        "StickyNote.ControlTablet": "Utilise moi pour contrôler ta maison!",
+
+        "StickyNote.RotateMeDesktop": "Fait moi tourner avec E!",
+        "StickyNote.RotateMeVR": "Fait moi tourner!",
+
+        "StickyNote.EquipMeDesktop": "Équipe moi et fait le bouton gauche de la souris!",
+        "StickyNote.EquipMeVR": "Équipe moi et tire la ficelle!",
+
+        "StickyNote.DipBrushes": "Touche les orbes avec le pinceau pour prendre le matériau",
+        "StickyNote.BrushColor": "Change la couleur dans ton menu contextuel",
+        "StickyNote.Drawing": "Tu peut dessiner sur ce tableau, dans l'air et de partout!",
+        "StickyNote.WorldCanvas": "Le monde est ton tableau!",
+
+        "CloudHome.Panel.HomeControl": "Contrôle de la maison",
+
+        "CloudHome.Panel.General": "Général",
+        "CloudHome.Panel.Lighting": "Lumière",
+        "CloudHome.Panel.Furniture": "Meubles",
+
+        "CloudHome.Panel.Quality": "Qualité",
+        "CloudHome.Panel.Doors": "Portes",
+        "CloudHome.Panel.Audio": "Audio",
+        "CloudHome.Panel.OverheadLighting": "Lumière du ciel",
+        "CloudHome.Panel.Sconces": "Appliques murales",
+        "CloudHome.Panel.FurnitureVisibility": "Visibilité des meubles",
+
+        "CloudHome.Panel.LowQualityMode": "Mode basse qualité",
+        "CloudHome.Panel.DoorSounds": "Bruit des portes",
+        "CloudHome.Panel.DoorsAlwaysOpen": "Portes toujours ouvertes",
+        "CloudHome.Panel.InteriorAmbience": "Ambiance extérieure",
+        "CloudHome.Panel.InteriorAmbienceVolume": "Volume de l'ambiance intérieure",
+        "CloudHome.Panel.LightsOn": "Lumières allumées",
+        "CloudHome.Panel.LightIntensity": "Intensité de la lumière",
+        "CloudHome.Panel.LightColor": "Couleur de la lumière",
+        "CloudHome.Panel.LightColorTemperature": "Température de la lumière",
+
+        "CloudHome.Panel.Spawn": "Apparition",
+        "CloudHome.Panel.Foyer": "Foyer",
+        "CloudHome.Panel.Workspace": "Espace de travail",
+        "CloudHome.Panel.ReadingLounge": "Salle de lecture",
+        "CloudHome.Panel.Lounge": "Salon",
+        "CloudHome.Panel.Center": "Centre",
+        "CloudHome.Panel.Balcony": "Balcon",
+        "CloudHome.Panel.Theater": "Salle multimédias",
+
+        "CloudHome.Panel.TheaterControl": "Contrôle de la salle multimédias",
+        "CloudHome.Panel.FanControl": "Contrôle du ventilateur",
+        "CloudHome.Panel.WindowControl": "Contrôle des fenêtres",
+        "CloudHome.Panel.FanSpeed": "Vitesse du ventilateur",
+        "CloudHome.Panel.WindowTint": "Opacité des fenêtres",
+
+        "CloudHome.FeaturedPanel.OpenWorld": "Ouvrir le monde",
+        "CloudHome.FeaturedPanel.LinkText": "Ouvrez ce monde vous-même en cliquant ici!",
+        "CloudHome.FeaturedPanel.Featured": "mis en avant",
+
+        "CloudHome.AvatarPanel.Title": "Mondes d'avatars mis en avant",
+
+        "CloudHome.SupporterPanel.Title": "<b>Nos supporteurs</b>",
+
+        "Tutorial.InfoPanel.Title": "Hey! Avant de continuer...",
+        "Tutorial.InfoPanel.Content": "Il y a un monde plein de possibilités qui t'attends et tout cela est possible grâce a ton imagination.<br><br>Presque tout ce que tu as vu a été créé en jeu, ou des personnes du monde entier ont collaboré en temps réel.<br><br>La plateforme est encore en développement, et nous publions des mises à jour régulièrement pour l'améliorer. Maintenant tu fait aussi partie de ce voyage et la seule limite est ton imagination!<br><br><align=center>Merci d'être venu! Le monde t'attends!</align>",
+
+        "Tutorial.GrabItems.Grab": "Saisir",
+        "Tutorial.GrabItems.Snap": "Attacher",
+        "Tutorial.GrabItems.Slide": "Glisser",
+
+        "Tutorial.Panel.Jumping.Title": "Sauter",
+        "Tutorial.Panel.Jumping.ContentDesktop": "Pour sauter, marchez et pressez la barre espace.",
+        "Tutorial.Panel.Jumping.ContentVR": "Pour sauter, marchez et cliquez un de vos stick analogiques.",
+        "Tutorial.Panel.Jumping.ContentVRNoButtons": "Pour sauter, pressez votre pavé tactile en marchant.",
+
+        "Tutorial.Panel.WalkLocomotion.Title": "Marcher",
+        "Tutorial.Panel.WalkLocomotion.Content": "Bougez par rapport au sol.",
+
+        "Tutorial.Panel.TeleportLocomotion.Title": "Téléportation",
+        "Tutorial.Panel.TeleportLocomotion.Content": "La téléportation vous téléporte instantanément ou vous visez.",
+
+        "Hints.Spawn.InitialMovementDesktop": "Utilisez les touches de mouvement pour vous déplacer!",
+        "Hints.Spawn.InitialMovementVR": "Utilisez le stick analogique pour vous déplacer!",
+        "Hints.Spawn.InitialMovementVRNoButtons": "Utilisez votre pavé tactile pour vous déplacer!",
+
+        "Hints.Spawn.ContextMenuDesktop": "Ouvrez le menu contextuel avec le bouton T!",
+        "Hints.Spawn.ContextMenuVR": "Vous vous sentez mal? Ouvrez le menu contextuel avec B ou Y pour plus d'options!",
+        "Hints.Spawn.ContextMenuVRNoButtons": "Vous vous sentez mal? Ouvrez le menu contextuel avec le bouton menu pour plus d'options!",
+
+        "Hints.Spawn.TeleportLocomotionDesktop": "D'autres moyens de locomotion comme le vol sont disponibles dans le menu de locomotion.",
+        "Hints.Spawn.TeleportLocomotionVR": "D'autres modes de locomotion comme la téléportation sont disponibles dans le menu de locomotion.",
+
+        "Hints.Bridge.RaiseTheWorld": "Pressez ce bouton pour amener la plateforme vers vous!",
+
+        "Hints.Grabbing.GrabbingDesktop": "Pour saisir quelque chose, utilisez le bouton droit de la souris!",
+        "Hints.Grabbing.GrabbingVR": "Pour saisir quelque chose, tenez votre grip!",
+
+        "Hints.Grabbing.Rotating": "Pour faire tourner l'objet, tenez la touche E et bougez votre souris.",
+        "Hints.Grabbing.RotatingExtra": "Pour faire tourner l'objet, saisissez-le et tournez-le.",
+
+        "Hints.Grabbing.ScalingDesktop": "Pour changer l'échelle de l'objet, saisissez-le, tenez SHIFT et utilisez votre molette.",
+        "Hints.Grabbing.ScalingVR": "Pour changer l'échelle de l'objet, saisissez-le avec vos deux mains et tirez-le.",
+
+        "Hints.Grabbing.OtherGrabbables": "Il y a une variété d'objets avec lesquels vous pouvez interagir. Essayez et voyez comme ils fonctionnent!",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Vous pouvez aussi changer votre propre échelle en activant l'option dans le menu contextuel et en utilisant les touches SHIFT + molette.",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "Vous pouvez aussi changer votre propre échelle en activant l'option dans votre menu contextuel et en attrapant dans le vite.",
+
+        "Hints.Telescope.Alignment": "Attrapez le télescope et visez la lune!",
+
+        "Hints.Telescope.TheMoonDesktop": "Quand vous visez la lune, vous pouvez l'attraper et la bouger!",
+        "Hints.Telescope.TheMoonVR": "Utilisez votre laser pour attraper et bouger la lune!",
+
+        "Hints.Sundial.SoftEquip": "Attrapez et équipez cet outil pour l'utiliser!",
+        "Hints.Sundial.SoftEquipExtra": "Les outils vous permettent de changer le monde autours de vous dans une variété de manières différentes!",
+
+        "Hints.Sundial.HardEquip": "Cliquez sur cet outil pour l'équiper!",
+        "Hints.Sundial.HardEquipExtra": "Vous ne voyez pas votre laser? Pressez votre bouton principal pour le faire apparaître!",
+
+        "Hints.Sundial.TheSun": "Visez le ciel et cliquez pour faire bouger le soleil!",
+        "Hints.Sundial.TheSunExtra": "Essayez de viser sous l'horizon pour faire tomber la nuit!",
+
+        "Hints.Sundial.Dequip": "Lâchez l'outil équipé avec le bouton Déséquiper dans le menu contextuel.",
+        "Hints.Sundial.DequipExtra": "Observez comme le menu contextuel a changé par rapport a l'outil équipé.",
+
+        "Hints.Sundial.Teleporter": "Presse ce bouton pour activer le téléporteur vers ta maison!",
+        "Hints.Sundial.TeleporterExtra": "Fait comme chez toi et bienvenue par ici!",
+
+        "UI.TextDisplay.Landscape": "Paysage",
+        "UI.TextDisplay.Portrait": "Portrait",
+        "UI.TextDisplay.NormalText": "Normal",
+        "UI.TextDisplay.MonospaceText": "Monospace",
+
+        "UI.VideoPlayer.GlobalSettings": "Options<br>Globales",
+        "UI.VideoPlayer.LocalSettings": "Option<br>Locales",
+        "UI.VideoPlayer.SpatialAudio": "Audio<br>Spatial",
+        "UI.VideoPlayer.AreaBroadcast": "Diffusion<br>de zone",
+        "UI.VideoPlayer.BroascastAudio": "Diffusion<br>globale",
+        "UI.VideoPlayer.EnterURL": "<i><alpha=#77>Entrez une URL ici</alpha></i>",
+        "UI.VideoPlayer.AudioZoneTheater": "Local vers<br>home cinéma",
+        "UI.VideoPlayer.AudioZoneGlobal": "Audible<br>dans le monde",
+        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {utilisateur} other {utilisateurs}}<br>chargés",
+        "UI.VideoPlayer.AllUsersLoaded": "Tous les utilisateurs<br>sont chargés",
+
+        "UI.ColorPicker.ColorPicker": "Pipette a couleurs",
+
+        "UI.ColorPicker.Linear": "Linéaire",
+
+        "UI.ColorPicker.Hexadecimal": "Hex",
+        "UI.ColorPicker.ColorSwatches": "Échantillons",
+
+        "UI.ColorPicker.Red": "Rouge",
+        "UI.ColorPicker.Green": "Vert",
+        "UI.ColorPicker.Blue": "Bleu",
+
+        "UI.ColorPicker.Hue": "Teinte",
+        "UI.ColorPicker.Saturation": "Saturation",
+        "UI.ColorPicker.Value": "Valeur",
+
+        "UI.ColorPicker.Alpha": "Alpha",
+        "UI.ColorPicker.Gain": "Gain",
+
+        "UI.ProgressBar.ImportingItem": "Objet en cours d'importation",
+
+        "UI.Camera.Automatic": "Automatique",
+        "UI.Camera.Manual": "Manuel",
+
+        "Tools.Names.MultiTool": "Multi-outil",
+
+        "Tools.Names.CommonTools": "Outils communs",
+        "Tools.Names.ManipulationTools": "Outils de manipulation",
+        "Tools.Names.InformationTools": "Outils d'informations",
+
+        "Tools.Names.GeometryLineBrush": "Pinceau de géométrie",
+        "Tools.Names.Developer": "Outil de développement",
+        "Tools.Names.ComponentClone": "Outil de clonage de composants",
+        "Tools.Names.ProtoFlux": "Outil de ProtoFlux",
+        "Tools.Names.Material": "Outil de matériaux",
+        "Tools.Names.Glue": "Colle",
+        "Tools.Names.Light": "Outil de lumières",
+        "Tools.Names.Shape": "Outil de formes",
+        "Tools.Names.Microphone": "Microphone",
+        "Tools.Names.GrabbableSetter": "Outil saisissable",
+        "Tools.Names.PhysicalColliderSetter": "Outil de collisions",
+        "Tools.Names.MeshVisibility": "Outil de visibilité de modèles",
+        "Tools.Names.CameraObjectVisibility": "Outil de visibilité de caméra",
+        "Tools.Names.Color": "Pipette de couleur",
+        "Tools.Names.Mesh": "Outil de modèles",
+        "Tools.Names.RiggedMeshTransfer": "Outil de transfer de rig",
+        "Tools.Names.Slicer": "Coupeur de modèles",
+        "Tools.Names.ControllerDiagnostic": "Outil de diagnostic de manettes",
+        "Tools.Names.Measure": "Outil de mesure",
+        "Tools.Names.Label": "Étiqueteuse",
+
+        "Discord.RichPresence.InPrivateWorld": "Dans un monde privé",
+        "Discord.RichPresence.InPrivateLargeText": "Dans un monde privé ({version})",
+        "Discord.RichPresence.InPublicWorld": "Dans un monde publique",
+        "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} mondes)",
+        "Discord.RichPresence.InPublicLargeText": "Dans un monde publique ({version})",
 
         "Dummy": "Dummy"
     }
