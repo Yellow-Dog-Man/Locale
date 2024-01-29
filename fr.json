@@ -1608,6 +1608,117 @@
         "Exiting.Exiting": "Au revoir!",
         "Exiting.LoggingOut": "En déconnexion",
 
+        "Migration.Title": "Migration",
+        "Migration.NewTask": "Nouvelle tâche de migration",
+
+        "Migration.LoginModal.Title": "Migrer vos donnés?",
+        "Migration.LoginModal.Description": "Voulez-vous migrer vos données depuis un autre compte? Vous pouvez aussi faire ça plus tard dans l'onglet \"Migration\" de votre tableau de bord.",
+        "Migration.LoginModal.OpenMigration": "Ouvrir la migration",
+        "Migration.LoginModal.Later": "Plus tard",
+        "Migration.LoginResetID.Title": "Êtes-vous bien sûr de vouloir réinitialiser votre ID utilisateur?",
+        "Migration.LoginResetID.Description": "Faire ça peut <color=red>CASSER IMPRÉVISIBLEMENT</code> du contenu. Tous vos objets, mondes, contacts et messages seront migrés normalement mais tous les composants et code référençant votre ID d'utilisateur précédent devront être remplacés. A mois que vous soyez vraiment sûr et savez ce que vous faites, <color=red>NE CHOISISSEZ PAS CETTE OPTION</color>.",
+        "Migration.LoginResetID.ResetButton": "Oui, réinitialiser",
+
+        "Migration.ReservedUsername.Title": "<b>Nom d'utilisateur réservé</b>",
+        "Migration.ReservedUsername.Description": "Ce nom d'utilisateur est réservé pour son propriétaire original. Si c'est vous, veuillez entrer vos informations de connexion de {platform} pour le débloquer. Nous ne stockons pas ces informations, elles sont juste utilisées pour vérifier que vous êtes le propriétaire original du compte.",
+        "Migration.SourcePassword": "Mot de passe {platform}",
+        "Migration.SourceUsername": "Nom d'utilisateur {platform}",
+
+        "Migration.Dialog.Title": "Migration de compte",
+        "Migration.Dialog.Source": "Vous pouvez migrer des données depuis une autre plateforme compatible. En premier, sélectionnez la plateforme dont laquelle vous voulez migrer. Vous pouvez ajouter des plateformes additionnelles dans le dossier \"Migrations\" de votre installation.",
+        "Migration.Dialog.AccountDescription": "Pour migrer votre compte, vous devez avoir votre mot de passe {platform}. Cela va nous permettre de télécharger vos données.",
+
+        "Migration.ResetID.Title": "Réinitialiser mon ID d'utilisateur",
+        "Migration.ResetID.Description": "<color=red><b>ATTENTION:</b></color> Choisir cette option va <b>PEUT CASSER DES OBJETS EXISTANTS ET NE PEUT PAS ÊTRE REVERSÉ</b>, cela inclus n'importe quelle référence a votre ID d'utilisateur, n'importe quel service tiers l'utilisant, liens, variables de Cloud et autres. Ces références seront réinitialisées mais vos contacts, objets et messages ne seront pas perdus. Nous recommandons de n'utiliser cette option <b>QUE</b> si vous savez vraiment ce que vous faites. Si vous choisissez cette option, votre ID d'utilisateur va être changé comme:\nU-MonNom -> U-fX3pKe7AYYQ",
+
+        "Migration.DataSelection.Title": "Que voulez-vous migrer?",
+        "Migration.DataSelection.Everything": "Tout",
+        "Migration.DataSelection.Choose": "Choisir",
+
+        "Migration.DataSelection.Favorites": "Favoris (avatar, maison, caméra, clavier, facettes)",
+
+        "Migration.DataSelection.Favorites.Description": "Cela va migrer votre maison, avatar favoris, clavier, caméra et facettes en premier pour que vous puissiez les utiliser le plus rapidement possible.\n<color=red><b>ATTENTION</b></color> si vous choisissez cette option, il y a une chance de perdre quelques changements.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "Remplacer vos favoris actuels?",
+
+        "Migration.DataSelection.Home.Title": "Définir votre ancienne maison comme défaut?",
+        "Migration.DataSelection.Home.Description": "Pendant la migration, votre maison originale va être placée sous une nouvelle URL et vous aurez une nouvelle maison par défaut. Si vous préférez, nous pouvons garder votre ancienne maison comme défaut. Notez que choisir \"Non\" ne supprimera pas votre ancienne maison et elle sera toujours disponible dans vos mondes.",
+
+        "Migration.DataSelection.Contacts": "Contacts",
+        "Migration.DataSelection.Message History": "Historique des messages",
+        "Migration.DataSelection.InventoryWorld": "Inventaire et mondes",
+        "Migration.DataSelection.CloudVariable.Definitions": "Définitions de variables de cloud",
+        "Migration.DataSelection.CloudVariable.Values": "Valeurs de variables de cloud",
+
+        "Migration.DataSelection.AlwaysOverwrite": "Tout remplacer",
+
+        "Migration.Start": "Démarrer la migration",
+        "Migration.Groups.Title": "Migrer vos groupes",
+        "Migration.Groups.Introduction": "Devons-nous migrer vos groupes?",
+
+        "Migration.Groups.Description": "Tous les groupes dont vous êtes l'administrateur seront migrés par défaut. Si vous voulez seulement migrer certains groupes, cliquez sur le bouton ci-dessous pour les charger et sélectionnez ceux que vous voulez migrer.",
+
+        "Migration.Groups.LoadGroups": "Charger vos groupes",
+        "Migration.Groups.RefreshGroups": "Rafraîchir vous groupes",
+
+        "Migration.Groups.Fetching": "Récupération de vos groupes...",
+        "Migration.Groups.Fetching.LoginFailed": "Erreur dans la connexion: {error}",
+        "Migration.Groups.Fetching.Error": "Erreur dans la récupération: {error}",
+        "Migration.Groups.NoGroups": "Aucun groupes {platform} à migrer.",
+        "Migration.Groups.NotGroupAdmin": "Vous n'êtes administrateur d'aucun groupe {platform}. Demandez a votre administrateur de migrer vos goupes.",
+
+        "Migration.Summary": "OK, tout est bon. Cliquez sur Commencer La Migration ci-dessous et nous commenceront de suite!\n\nLes migrations peuvent prendre un peut de temps pour tout copier. Si vous avez sélectionné l'option pour migrer vos favoris, ceux-cis seront migrés en premier pour que vous puissiez avoir une base.\n\nVous n'avez pas besoin de garder {appName} lancé pendant la migration. Nous vous enverront des mises à jour sur votre migration depuis le {appName} Bot et votre courriel pour vous tenir au courant.",
+
+        "Migration.List.EmptyTitle": "Démarrer une nouvelle migration?",
+        "Migration.List.EmptySubtitle": "Cliquez sur \"Nouvelle tâche de migration\" en haut a gauche.",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Créé:{time}\nStatut:{state}",
+        "Migration.Report.Title": "Report de tâche:",
+        "Migration.Report.Description": "<color={hex}>Description:</color> {value}",
+        "Migration.Report.Status": "<color={hex}>Statut:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>Créé:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>Démarré:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>Complété:</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "En train de migrer les données de <color={hex}>{value}</color>.",
+        "Migration.Report.CurrentItem": "Objet courant: <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>Vitesse:</color> ~{value} mondes/objets par minute",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>Tâches dans la queue avant celle-ci:</color> {value}",
+        "Migration.Report.ContactStatus": "<color={hex}>{current}</color> contacts migrés de <color={hex}>{total}</color>",
+        "Migration.Report.MessageStatus": "<color={hex}>{value}</color> messages migrés",
+        "Migration.Report.CloudVariableDefinitionStatus": "<color={hex}>{value}</color> définitions de variables cloud migrées",
+        "Migration.Report.CloudVariableValueStatus": "<color={hex}>{value}</color> variables cloud migrées",
+        "Migration.Report.RecordStatus": "<color={hex}>{current}</color> mondes/objets migrés de <color={hex}>{total}</color>. <color=red>{failed}</color> échoués.",
+        "Migration.Report.GroupStatus": "<color={hex}>{current}</color> groupes migrés de <color={hex}>{total}</color>",
+        "Migration.Report.GroupMemberStatus": "<color={hex}>{value}</color> membres de groupes migrés au total",
+
+        "Migration.Error": "<color=red>Erreur:</color> {error}",
+        "Migration.NothingSelected": "Rien n'est sélectionné.",
+
+        "Migration.ColorManagement": "Ce monde a été créé dans l'espace de couleurs gamma et a été converti en linéaire.<br><br>Il peut avoir des différences visuelles mais devrait être utilisable.<br><br>Si vous êtes l'auteur et avez des problèmes avec cette version, <color=red>NE SAUVEGARDEZ PAS</color> et a la place faites des copies.<br><br>Tant que l'original existe, nous pouvons modifier la conversion pour tenter de résoudre les problèmes.",
+
+        "Temporary.MMC.Voting UI": "Interface de vote MMC",
+        "Temporary.MMC.Vote": "Vote",
+
+        "Temporary.MMC.Categories.Name": "Catégories",
+
+        "Temporary.MMC.Categories.Worlds": "Mondes",
+        "Temporary.MMC.Categories.Worlds.Social": "Social",
+        "Temporary.MMC.Categories.Worlds.Game": "Jeux",
+
+        "Temporary.MMC.Categories.Other": "Autres",
+        "Temporary.MMC.Categories.Misc": "Divers",
+        "Temporary.MMC.Categories.Meme": "Meme",
+
+        "Temporary.MMC.Categories.Avatars": "Avatars",
+        "Temporary.MMC.Categories.Avatars.Accessories": "Accessoires",
+
+        "Temporary.MMC.VoteSuccess": "Vote effectué dans la catégorie {category} pour {voteTarget}.",
+        "Temporary.MMC.VoteFailure": "Votre vote n'a pas été pris en compte du a une erreur. Veuillez ré-essayer.",
+        "Temporary.MMC.VotedAlready": "Vous avez déjà voté pour {voteTarget}.",
+        "Temporary.MMC.VoteInvalid": "Le vote est invalide, veuillez ré-essayer.",
+
         "CloudHome.WelcomeHome": "Bienvenue chez toi!",
 
         "Tutorial.Saving.Title": "Bienvenue chez toi!",
@@ -1800,117 +1911,6 @@
         "Discord.RichPresence.InPublicWorld": "Dans un monde publique",
         "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} mondes)",
         "Discord.RichPresence.InPublicLargeText": "Dans un monde publique ({version})",
-
-        "Migration.Title": "Migration",
-        "Migration.NewTask": "Nouvelle tâche de migration",
-
-        "Migration.LoginModal.Title": "Migrer vos donnés?",
-        "Migration.LoginModal.Description": "Voulez-vous migrer vos données depuis un autre compte? Vous pouvez aussi faire ça plus tard dans l'onglet \"Migration\" de votre tableau de bord.",
-        "Migration.LoginModal.OpenMigration": "Ouvrir la migration",
-        "Migration.LoginModal.Later": "Plus tard",
-        "Migration.LoginResetID.Title": "Êtes-vous bien sûr de vouloir réinitialiser votre ID utilisateur?",
-        "Migration.LoginResetID.Description": "Faire ça peut <color=red>CASSER IMPRÉVISIBLEMENT</code> du contenu. Tous vos objets, mondes, contacts et messages seront migrés normalement mais tous les composants et code référençant votre ID d'utilisateur précédent devront être remplacés. A mois que vous soyez vraiment sûr et savez ce que vous faites, <color=red>NE CHOISISSEZ PAS CETTE OPTION</color>.",
-        "Migration.LoginResetID.ResetButton": "Oui, réinitialiser",
-
-        "Migration.ReservedUsername.Title": "<b>Nom d'utilisateur réservé</b>",
-        "Migration.ReservedUsername.Description": "Ce nom d'utilisateur est réservé pour son propriétaire original. Si c'est vous, veuillez entrer vos informations de connexion de {platform} pour le débloquer. Nous ne stockons pas ces informations, elles sont juste utilisées pour vérifier que vous êtes le propriétaire original du compte.",
-        "Migration.SourcePassword": "Mot de passe {platform}",
-        "Migration.SourceUsername": "Nom d'utilisateur {platform}",
-
-        "Migration.Dialog.Title": "Migration de compte",
-        "Migration.Dialog.Source": "Vous pouvez migrer des données depuis une autre plateforme compatible. En premier, sélectionnez la plateforme dont laquelle vous voulez migrer. Vous pouvez ajouter des plateformes additionnelles dans le dossier \"Migrations\" de votre installation.",
-        "Migration.Dialog.AccountDescription": "Pour migrer votre compte, vous devez avoir votre mot de passe {platform}. Cela va nous permettre de télécharger vos données.",
-
-        "Migration.ResetID.Title": "Réinitialiser mon ID d'utilisateur",
-        "Migration.ResetID.Description": "<color=red><b>ATTENTION:</b></color> Choisir cette option va <b>PEUT CASSER DES OBJETS EXISTANTS ET NE PEUT PAS ÊTRE REVERSÉ</b>, cela inclus n'importe quelle référence a votre ID d'utilisateur, n'importe quel service tiers l'utilisant, liens, variables de Cloud et autres. Ces références seront réinitialisées mais vos contacts, objets et messages ne seront pas perdus. Nous recommandons de n'utiliser cette option <b>QUE</b> si vous savez vraiment ce que vous faites. Si vous choisissez cette option, votre ID d'utilisateur va être changé comme:\nU-MonNom -> U-fX3pKe7AYYQ",
-
-        "Migration.DataSelection.Title": "Que voulez-vous migrer?",
-        "Migration.DataSelection.Everything": "Tout",
-        "Migration.DataSelection.Choose": "Choisir",
-
-        "Migration.DataSelection.Favorites": "Favoris (avatar, maison, caméra, clavier, facettes)",
-
-        "Migration.DataSelection.Favorites.Description": "Cela va migrer votre maison, avatar favoris, clavier, caméra et facettes en premier pour que vous puissiez les utiliser le plus rapidement possible.\n<color=red><b>ATTENTION</b></color> si vous choisissez cette option, il y a une chance de perdre quelques changements.",
-        "Migration.DataSelection.Favorites.OverwriteTitle": "Remplacer vos favoris actuels?",
-
-        "Migration.DataSelection.Home.Title": "Définir votre ancienne maison comme défaut?",
-        "Migration.DataSelection.Home.Description": "Pendant la migration, votre maison originale va être placée sous une nouvelle URL et vous aurez une nouvelle maison par défaut. Si vous préférez, nous pouvons garder votre ancienne maison comme défaut. Notez que choisir \"Non\" ne supprimera pas votre ancienne maison et elle sera toujours disponible dans vos mondes.",
-
-        "Migration.DataSelection.Contacts": "Contacts",
-        "Migration.DataSelection.Message History": "Historique des messages",
-        "Migration.DataSelection.InventoryWorld": "Inventaire et mondes",
-        "Migration.DataSelection.CloudVariable.Definitions": "Définitions de variables de cloud",
-        "Migration.DataSelection.CloudVariable.Values": "Valeurs de variables de cloud",
-
-        "Migration.DataSelection.AlwaysOverwrite": "Tout remplacer",
-
-        "Migration.Start": "Démarrer la migration",
-        "Migration.Groups.Title": "Migrer vos groupes",
-        "Migration.Groups.Introduction": "Devons-nous migrer vos groupes?",
-
-        "Migration.Groups.Description": "Tous les groupes dont vous êtes l'administrateur seront migrés par défaut. Si vous voulez seulement migrer certains groupes, cliquez sur le bouton ci-dessous pour les charger et sélectionnez ceux que vous voulez migrer.",
-
-        "Migration.Groups.LoadGroups": "Charger vos groupes",
-        "Migration.Groups.RefreshGroups": "Rafraîchir vous groupes",
-
-        "Migration.Groups.Fetching": "Récupération de vos groupes...",
-        "Migration.Groups.Fetching.LoginFailed": "Erreur dans la connexion: {error}",
-        "Migration.Groups.Fetching.Error": "Erreur dans la récupération: {error}",
-        "Migration.Groups.NoGroups": "Aucun groupes {platform} à migrer.",
-        "Migration.Groups.NotGroupAdmin": "Vous n'êtes administrateur d'aucun groupe {platform}. Demandez a votre administrateur de migrer vos goupes.",
-
-        "Migration.Summary": "OK, tout est bon. Cliquez sur Commencer La Migration ci-dessous et nous commenceront de suite!\n\nLes migrations peuvent prendre un peut de temps pour tout copier. Si vous avez sélectionné l'option pour migrer vos favoris, ceux-cis seront migrés en premier pour que vous puissiez avoir une base.\n\nVous n'avez pas besoin de garder {appName} lancé pendant la migration. Nous vous enverront des mises à jour sur votre migration depuis le {appName} Bot et votre courriel pour vous tenir au courant.",
-
-        "Migration.List.EmptyTitle": "Démarrer une nouvelle migration?",
-        "Migration.List.EmptySubtitle": "Cliquez sur \"Nouvelle tâche de migration\" en haut a gauche.",
-
-        "Migration.List.ButtonLabel": "{name}\n<size=50%>Créé:{time}\nStatut:{state}",
-        "Migration.Report.Title": "Report de tâche:",
-        "Migration.Report.Description": "<color={hex}>Description:</color> {value}",
-        "Migration.Report.Status": "<color={hex}>Statut:</color> {value}",
-        "Migration.Report.CreatedOn": "<color={hex}>Créé:</color> {value}",
-        "Migration.Report.StartedOn": "<color={hex}>Démarré:</color> {value}",
-        "Migration.Report.CompletedOn": "<color={hex}>Complété:</color> {value}",
-
-        "Migration.Report.CurrentlyMigrating": "En train de migrer les données de <color={hex}>{value}</color>.",
-        "Migration.Report.CurrentItem": "Objet courant: <color={hex}>{value}</color>",
-
-        "Migration.Report.CurrentRate": "<color={hex}>Vitesse:</color> ~{value} mondes/objets par minute",
-
-        "Migration.Report.EstimatedQueuePosition": "<color={hex}>Tâches dans la queue avant celle-ci:</color> {value}",
-        "Migration.Report.ContactStatus": "<color={hex}>{current}</color> contacts migrés de <color={hex}>{total}</color>",
-        "Migration.Report.MessageStatus": "<color={hex}>{value}</color> messages migrés",
-        "Migration.Report.CloudVariableDefinitionStatus": "<color={hex}>{value}</color> définitions de variables cloud migrées",
-        "Migration.Report.CloudVariableValueStatus":"<color={hex}>{value}</color> variables cloud migrées",
-        "Migration.Report.RecordStatus": "<color={hex}>{current}</color> mondes/objets migrés de <color={hex}>{total}</color>. <color=red>{failed}</color> échoués.",
-        "Migration.Report.GroupStatus": "<color={hex}>{current}</color> groupes migrés de <color={hex}>{total}</color>",
-        "Migration.Report.GroupMemberStatus": "<color={hex}>{value}</color> membres de groupes migrés au total",
-
-        "Migration.Error": "<color=red>Erreur:</color> {error}",
-        "Migration.NothingSelected": "Rien n'est sélectionné.",
-
-        "Migration.ColorManagement": "Ce monde a été créé dans l'espace de couleurs gamma et a été converti en linéaire.<br><br>Il peut avoir des différences visuelles mais devrait être utilisable.<br><br>Si vous êtes l'auteur et avez des problèmes avec cette version, <color=red>NE SAUVEGARDEZ PAS</color> et a la place faites des copies.<br><br>Tant que l'original existe, nous pouvons modifier la conversion pour tenter de résoudre les problèmes.",
-
-        "Temporary.MMC.Voting UI": "Interface de vote MMC",
-        "Temporary.MMC.Vote": "Vote",
-
-        "Temporary.MMC.Categories.Name": "Catégories",
-
-        "Temporary.MMC.Categories.Worlds": "Mondes",
-        "Temporary.MMC.Categories.Worlds.Social": "Social",
-        "Temporary.MMC.Categories.Worlds.Game": "Jeux",
-
-        "Temporary.MMC.Categories.Other": "Autres",
-        "Temporary.MMC.Categories.Misc": "Divers",
-        "Temporary.MMC.Categories.Meme": "Meme",
-
-        "Temporary.MMC.Categories.Avatars": "Avatars",
-        "Temporary.MMC.Categories.Avatars.Accessories": "Accessoires",
-
-        "Temporary.MMC.VoteSuccess": "Vote effectué dans la catégorie {category} pour {voteTarget}.",
-        "Temporary.MMC.VoteFailure": "Votre vote n'a pas été pris en compte du a une erreur. Veuillez ré-essayer.",
-        "Temporary.MMC.VotedAlready": "Vous avez déjà voté pour {voteTarget}.",
-        "Temporary.MMC.VoteInvalid": "Le vote est invalide, veuillez ré-essayer.",
 
         "Dummy": "Dummy"
     }
