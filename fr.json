@@ -121,7 +121,7 @@
         "Inventory.SaveAvatar": "Sauvegarder l'avatar",
         "Inventory.Favorite.Home": "Définir comme maison",
         "Inventory.Favorite.ProgressBar": "Définir comme barre de progrès",
-        "Inventory.Favorite.AudioStreamController": "Définir le contrôleur de flux",
+        "Inventory.Favorite.AudioStreamController": "Définir comme flux audio",
         "Inventory.Favorite.TextDisplay": "Définir comme bloc-notes",
         "Inventory.Favorite.VideoPlayer": "Définir comme lecteur vidéo",
         "Inventory.Favorite.AudioPlayer": "Définir comme lecteur audio",
@@ -214,7 +214,7 @@
         "World.Config.AccessLevelHeader": "Qui peut rejoindre ce monde?",
         "World.Config.AutoKickAFK": "Éjection automatique des utilisateurs inactifs:",
         "World.Config.AutoKickAFKMinutes": "Minutes d'inactivité maximale:",
-        "World.Config.HideFromListing": "Ne pas afficher dans la liste des sessions",
+        "World.Config.HideFromListing": "Ne pas afficher dans la liste des sessions:",
         "World.Config.Autosave": "Sauvegarde automatique (écrase la dernière sauvegarde):",
         "World.Config.AutosaveInterval": "Intervalle des sauvegardes automatiques (minutes):",
         "World.Config.CleanupAssets": "Nettoyage des ressources non-utilisées:",
@@ -338,7 +338,7 @@
         "World.Filter.MinimumContacts": "Nombre de contacts minimum: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Hôtes serveurs sans-écrans seulement",
         "World.Filter.MaxAccessLevel": "Niveau d'accès maximal:",
-        "World.Filter.MinimumUptime": "Durée de fonctionnement minimal:",
+        "World.Filter.MinimumUptime": "Disponibilité minimale (uptime):",
         "World.Filter.Sorting": "Ordre:",
 
         "World.Edit.Title": "Éditer les Métadonnées du Monde",
@@ -483,8 +483,11 @@
         "Register.InvalidPassword": "Mot de passe invalide",
         "Register.InvalidPassword.Description": "Votre mot de passe doit avoir au moins 8 caractères, incluant un nombre et une lettre minuscule et une lettre majuscule.",
 
-        "Register.EmailAlreadyRegistered": "Courriel déjà utilisée",
+        "Register.EmailAlreadyRegistered": "Courriel déjà utilisé",
         "Register.EmailAlreadyRegistered.Description": "Un compte utilisant ce courriel existe déjà. Si vous avez perdu votre mot de passe, cliquez sur \"Mot de passe oublié\". Vous pouvez aussi contacter le support sur {supportUrl}.",
+
+        "Register.UsernameAlreadyRegistered": "Nom d'utilisateur existant",
+        "Register.UsernameAlreadyRegistered.Description": "Un compte avec ce nom d'utilisateur existe déjà. Si vous avez perdu votre mot de passe, cliquez sur \"Mot de passe perdu\". Vous pouvez aussi contacter notre support sur {supportUrl}",
 
         "Register.ErrorCheckingUserId": "Erreur lors de la vérification de l'ID utilisateur",
         "Register.ErrorCheckingUserId.Description": "Veuillez contacter notre support sur {supportUrl}.",
@@ -906,7 +909,7 @@
         "Importer.Image.Prompt": "Qu'importez-vous?",
         "Importer.Image.Regular": "Image / Texture",
         "Importer.Image.Screenshot": "{appName} Photo <size=50%>(capturé ici)</size>",
-
+        "Importer.Image.PixelArt": "Pixel Art",
         "Importer.Image.360": "Photo 360 / skybox",
         "Importer.Image.StereoPhoto": "Photo stéréoscopique",
         "Importer.Image.Stereo360": "Photo 360 stéréoscopique",
@@ -998,8 +1001,18 @@
         "Importer.Video.Depth.Prompt": "Préréglage de profondeur",
         "Importer.Video.Depth.Default": "Par défaut",
 
-        "NewWorld.Title": "Nouveau monde",
+        "Importer.Slices.Title": "Lamelles comme texture volumétrique",
+        "Importer.Slices.TitleGrayscale": "Lamelles comme texture volumétrique (niveaux de gris)",
+        "Importer.Slices.Description": "Convertir toutes les images dans le dossier en une texture volumétrique",
 
+        "Exporter.Title": "Exporter",
+        "Exporter.FileName": "Nom du fichier:",
+        "Exporter.ExportAs": "Exporter comme:",
+        "Exporter.Export": "Exporter",
+        "Exporter.Exporting": "Exportation...",
+
+        "NewWorld.Title": "Nouveau monde",
+        "NewWorld.SessionTitle": "Nouvelle session",
         "NewWorld.Template": "Modèle de monde:",
         "NewWorld.CustomPreset": "Préréglage personnalisé:",
         "NewWorld.SessionSettings": "Paramètres de session:",
@@ -1097,7 +1110,7 @@
 
         "CameraControl.Anchors.Interpolate": "Interpoler entre les ancrages",
         "CameraControl.Anchors.InterpolationSpeed": "Vitesse d'interpolation des ancrages:",
-
+        "CameraControl.Anchors.LinearInterpolation": "Interpolation linéaire",
         "CameraControl.Anchors.NoAnchors": "Pas d'ancrage de caméra dans ce monde",
 
         "CameraControl.Positioning.FieldOfView": "Champ de vision",
@@ -1143,9 +1156,10 @@
         "CameraControl.OBS.Bitrate": "Bitrate: {n}/s",
         "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "Images perdues: {n}",
-
+        "CameraControl.OBS.Idle": "EN ATTENTE",
         "CameraControl.OBS.Live": "EN DIRECT",
         "CameraControl.OBS.Recording": "ENREGISTREMENT",
+        "CameraControl.OBS.OpenInstallerReason": "Cette page web vous permet de télécharger le plugin WebSocket pour OBS.",
 
         "CameraControl.OBS.Streaming.Start": "Démarrer le streaming",
         "CameraControl.OBS.Streaming.Starting": "Démarrage du streaming...",
@@ -1165,7 +1179,7 @@
         "Settings.HideAllTutorials": "Cacher tous les tutoriels",
         "Settings.ShowInteractionHints": "Montrez des conseils d'interaction",
         "Settings.PrimaryController": "Contrôleur principal",
-
+        "Settings.Hotswitching": "Basculement VR automatique",
         "Settings.AllowStrafing": "Autoriser le déplacement latéral (strafing)",
         "Settings.UseHeadDirectionForMovement": "Utiliser la direction de la tête pour le mouvement",
         "Settings.SmoothTurn": "Rotation fluide",
@@ -1183,13 +1197,13 @@
         "Settings.ResetAllTutorials": "Réinitialiser tous les tutoriels",
         "Settings.PreferSteamNetworking": "Préférer les sockets réseau de Steam",
         "Settings.DisableLAN": "Désactiver le LAN",
-        "Settings.LegacyGripEquip": "Permettre l'équipement de la double prise en main Legacy",
-        "Settings.LegacyWorldSwitcher": "Activer le sélecteur de monde Legacy",
+        "Settings.LegacyGripEquip": "Permettre l'équipement en saisissant deux fois (Ancien)",
+        "Settings.LegacyWorldSwitcher": "Activer le sélecteur de monde (Ancien)",
         "Settings.FetchIncompatibleSessions": "Afficher les sessions incompatibles",
         "Settings.DoNotSendReadStatus": "Ne pas envoyer l'état de lecture du message en temps réel",
         "Settings.MaxConcurrentAssetTransfers": "Transferts d'actifs simultanés maximum",
         "Settings.AutosaveScreenshotPath": "Chemin de sauvegarde automatique des captures d'écran",
-
+        "Settings.AutosaveAllScreenshots": "Sauvegarder automatiquement TOUTES les captures d'écran dans le monde",
         "Settings.DebugInputBinding": "Déboguer l'assignation des entrées",
 
         "Settings.LaserSmoothing.Header": "Lissage du laser",
@@ -1203,17 +1217,17 @@
         "Settings.LaserSmoothing.Reset": "Réinitialisation des paramètres du laser",
 
         "Settings.Audio.Header": "Audio",
-
-        "Settings.Audio.Master": "Volume principale: {n,number,percent}",
+        "Settings.Audio.Input.Title": "Périphériques d'enregistrement audio",
+        "Settings.Audio.Master": "Volume principal: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Effets sonores: {n,number,percent}",
         "Settings.Audio.Multimedia": "Multimédia: {n,number,percent}",
-        "Settings.Audio.Voice": "Voix : {n,number,percent}",
+        "Settings.Audio.Voice": "Voix: {n,number,percent}",
         "Settings.Audio.UI": "Interface utilisateur: {n,number,percent}",
         "Settings.Audio.DisableVoiceNormalization": "Désactiver la normalisation de la voix",
         "Settings.Audio.NoiseGateThreshold": "Seuil antibruit: {n}",
         "Settings.Audio.NormzliationThreshold": "Seuil de normalisation: {n}",
         "Settings.Audio.NoiseSupression": "Filtre de suppression du bruit (RNNoise)",
-        "Settings.Audio.WhisperVoiceVolume": "Volume de la voix chuchotée (en dehors de la bulle): {n,number,perc ent}",
+        "Settings.Audio.WhisperVoiceVolume": "Volume de la voix chuchotée (en dehors de la bulle): {n,number,percent}",
         "Settings.Audio.InputDevice": "Dispositif d'entrée audio:",
         "Settings.Audio.OutputDevice": "Dispositif de sortie audio:",
         "Settings.Audio.SelectInputDevice": "Sélectionner le périphérique audio d'entrée",
@@ -1227,6 +1241,7 @@
 
         "Settings.Graphics.DesktopFOV": "Champ de vision du bureau (FOV)",
 
+        "Settings.Locale.Title": "Langue de l'interface",
         "Settings.Locale.ChangeLanguage": "Changer la langue",
         "Settings.Locale.SelectLanguageHeader": "Choisissez votre langue:",
         "Settings.Locale.DefaultLanguage": "Paramètre par défaut du système",
@@ -1239,8 +1254,8 @@
         "Settings.FullBody.HipsPositionSmoothing": "Lissage de la position des hanches",
         "Settings.FullBody.HipsRotationSmoothing": "Lissage de la rotation des hanches",
 
-        "Settings.Dash.Header": "Dash",
-        "Settings.Dash.Curvature": "Courbure du Dash",
+        "Settings.Dash.Header": "Tableau de bord",
+        "Settings.Dash.Curvature": "Courbure du tableau de bord",
         "Settings.Dash.OpenCloseSpeed": "Vitesse d'ouverture/fermeture",
 
         "Settings.LeapMotion.Name": "Leap Motion",
@@ -1262,6 +1277,7 @@
         "Settings.System.KeepOriginalScreenshotFormat": "Conserver le format original de la capture d'écran",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "Si cette option est activée, les captures d'écran ne seront pas converties en JPG lorsqu'elles seront enregistrées dans le dossier Documents",
 
+        "Security.Hyperlink.Title": "Lien externe",
         "Security.Hyperlink.Warning": "<b><size=125%>Avertissement : lien externe</size></b>\nVous avez cliqué sur un lien dans un monde. Vous voulez l'ouvrir ? Il s'ouvrira dans le navigateur web sur votre bureau.",
         "Security.Hyperlink.Open": "Ouvrir le lien",
         "Security.Hyperlink.Cancel": "Annuler",
@@ -1274,6 +1290,14 @@
         "Security.HostAccess.Allow": "Autoriser",
         "Security.HostAccess.Deny": "Refuser",
 
+        "ComponentSelector.Back": "< (retour)",
+        "ComponentSelector.Title": "Composants",
+        "ComponentSelector.CreateCustomType": "Créer un type customisé",
+        "ComponentSelector.CommonGenericTypes": "Types génériques communs",
+        "ComponentSelector.CustomGenericArguments": "Arguments génériques customisés:",
+        "ComponentSelector.InvalidType": "Type invalide",
+
+        "Inspector.Title": "Inspecteur de scène",
         "Inspector.Slot.AttachComponent": "Attacher le composant",
 
         "Inspector.Slot.Axis.X": "X: <b>+</b>Droite <b>-</b>Gauche",
@@ -1297,6 +1321,20 @@
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Espace utilisateur local",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Parenter {name} sous l'espace utilisateur local",
 
+        "Inspector.Member.ResetToDefault": "Réinitialiser",
+
+        "Inspector.Member.BreakLinkDrive": "Casser le lien",
+        "Inspector.Member.OpenLinkDrive": "Ouvrir la source du lien",
+
+        "Inspector.Member.SetAllToAvg": "Définir a la moyenne",
+        "Inspector.Member.SetAllToX": "Tout définir comme X",
+        "Inspector.Member.SetAllToY": "Tout définir comme Y",
+        "Inspector.Member.SetAllToZ": "Tout définir comme Z",
+        "Inspector.Member.SetAllToW": "Tout définir comme W",
+
+        "Inspector.ProceduralAsset.UpdateCount": "Nombre de mises à jour: {n}",
+        "Inspector.ProceduralAsset.Error": "Erreur: {error}",
+
         "Inspector.Mesh.StatsHeader": "Statistiques du modèle",
         "Inspector.Mesh.VertexCount": "Nombre de Vertex: {n}",
         "Inspector.Mesh.TriangleCount": "Nombre de triangles: {n}",
@@ -1313,7 +1351,9 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "Recalculer les normales (ombrage lissé)",
         "Inspector.Mesh.RecalculateTangentsMikkt": "Recalculer les tangentes (Mikktspace)",
         "Inspector.Mesh.RecalculateTangentsSimple": "Recalculer les tangentes (simple)",
-
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "Recalculer les normales de Blenshapes",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "Recalculer les normales de Blendshapes (ombrage lissé)",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "Recalculer les normales de Blendshapes (Mikktspace)",
         "Inspector.Mesh.FlipNormals": "Retourner les normales",
         "Inspector.Mesh.ReverseWinding": "Retourner le Winding",
         "Inspector.Mesh.MakeDualSided": "Rendre à double-coté",
@@ -1324,6 +1364,7 @@
         "Inspector.Mesh.StripEmptyBlendshapes": "Enlever les Blendshapes vides",
         "Inspector.Mesh.StripBlendshapeNormals": "Enlever les normales des Blendshapes",
         "Inspector.Mesh.StripBlendshapeTangents": "Enlever les tangentes des Blendshapes",
+        "Inspector.Mesh.MergeBlendshapes": "Fusionner les Blendshapes",
 
         "Inspector.Mesh.GetBoneList": "Obtenir la liste des os",
         "Inspector.Mesh.GetBoneData": "Obtenir les données des os",
@@ -1337,6 +1378,7 @@
         "Inspector.MeshRenderer.SplitByMaterial": "Séparer le modèle par matériaux",
 
         "Inspector.MeshCollider.VHACD": "Décomposition par coque convexe (V-HACD 2.0)",
+        "Inspector.MeshCollider.ReplaceBox": "Remplacer avec collisionneur en forme de boîte",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Mettre à jour les modules de locomotion sur les utilisateurs actuels",
 
@@ -1376,9 +1418,15 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "Voir la limite des os",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Voir la limite approximative des os",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "Retirer l'aperçu de la limite des os",
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Calculer les limites explicites depuis la pose courante",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Étendre les limites explicites depuis la pose courante",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "Cuire vers un modèle statique",
+        "Inspector.SkinnedMesh.SortBlendshapes.Name": "Trier les Blendshapes (par nom)",
+        "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Trier les Blenshapes (par longueur, puis nom)",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Supprimer TOUTES les instances",
-
+        "Inspector.SimpleAvatarProtection.RemoveSingle": "Supprimer une seule instance",
+        "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Retirer ce composant sans passer par les boutons dédiés ci-dessous aura pour effet de supprimer l'objet.",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "SUPPRIMER la protection d'avatar",
 
         "Inspector.BipedRig.GetDiagnosticInfo": "Obtenir l'information sur l'armature",
@@ -1394,8 +1442,10 @@
         "Inspector.Texture.Size": "Dimensions: {width} x {height}",
         "Inspector.Texture.Format": "Format: {format}, Mémoire: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "ID de variant: {variant}",
+        "Inspector.Texture3D.Size": "Taille: {width} x {height} x {depth}",
 
         "Inspector.Texture.BakeTexture": "Cuire la texture",
+        "Inspector.Texture.ReplaceFromClipboard": "Remplacer depuis le presse-papier",
 
         "Inspector.Texture.InvertRGB": "Inverser le RGB",
         "Inspector.Texture.InvertR": "Inverser le rouge",
@@ -1408,12 +1458,13 @@
         "Inspector.Texture.AlphaToMask": "Transparence vers masque",
         "Inspector.Texture.RemoveAlpha": "Retirer la transparence",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Nuances de gris",
-
+        "Inspector.Texture.ConvertToGrayscaleLuminance": "Convertir en nuances de gris (luminance)",
         "Inspector.Texture.SwapRG": "Échanger le rouge et le vert",
         "Inspector.Texture.SwapRB": "Échanger le rouge et le bleu",
-
+        "Inspector.Texture.SwapRA": "Échanger le rouge et l'alpha",
         "Inspector.Texture.SwapGB": "Échanger le vert et le rouge",
-
+        "Inspector.Texture.SwapGA": "Échanger le vert et l'alpha",
+        "Inspector.Texture.SwapBA": "Échanger le bleu et l'alpha",
         "Inspector.Texture.AddWhiteBackground": "Ajouter un fond blanc",
         "Inspector.Texture.AddBlackBackground": "Ajouter un fond noir",
         "Inspector.Texture.Hue": "Teinte:",
@@ -1431,12 +1482,17 @@
         "Inspector.Texture.RotateCW": "Pivoter de 90° à droite",
         "Inspector.Texture.RotateCCW": "Pivoter de 90° à gauche",
         "Inspector.Texture.Rotate180": "Pivoter de 180°",
-
+        "Inspector.Texture.TrimTransparent": "Retirer la transparence",
+        "Inspector.Texture.TrimByCornerColor": "Tailler depuis la couleur des coins",
         "Inspector.Texture.MakeSquare": "Rendre carré",
         "Inspector.Texture.ToNearestPOT": "Puissance de deux la plus près",
         "Inspector.Texture.MakeTileable": "Rendre tuilable (ration de transition)",
         "Inspector.Texture.TileLoop": "Tuile (boucle)",
         "Inspector.Texture.TileMirror": "Tuile (miroir)",
+        "Inspector.Texture.NormalizeMaxOnly": "Normaliser (maximum)",
+        "Inspector.Texture.NormalizeMinMax": "Normaliser (maximum et minimum)",
+        "Inspector.Texture.NormalizeIndependent": "Normaliser indépendamment (maximum et minimum)",
+        "Inspector.Texture.BleedColorToAlpha": "Liseré vers alpha",
 
         "Inspector.Texture.InvalidFloats": "Diagnostique: Variables numériques invalides",
         "Inspector.Texture.GenerateMetadata": "Diagnostique: Générer les métadonnées des Bitmaps",
@@ -1487,6 +1543,39 @@
         "Inspector.AvatarExpression.AutoAssign": "Affectation automatique (utiliser l'heuristique)",
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Il est possible d'utiliser ce composant comme un simple RigidBody en cochant SimulateRotation. Avant de le faire, veuillez comprendre qu'il n'est pas optimisé à cet effet et qu'un support Rigidbody approprié arrive à l'avenir.<br>Un support rigidbody approprié offrira :<br><b>- Efficacité du processeur et du réseau</b> - avec CharacterController, vous obtiendrez une utilisation plus élevée du processeur et une quantité importante de trafic réseau<br><b>- Contraintes</b> - vous pourrez créer des articulations, des charnières, des ressorts et d'autres contraintes entre les corps rigides<br><b >- Simulation et interactions fluides pour tout le monde</b> - CharacterController disparaîtra si une autre personne essaie d'interagir<br><b>- Nouvelles fonctionnalités et outils</b> - pour en faciliter l'utilisation<br>-- ---------------------<br>Vous pouvez en trouver plus sur GitHub n°22. Tant que vous comprenez ces limites, amusez-vous !",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Il est possible d'utiliser ce composant pour interagir avec des références depuis leur ID. Ce processus est appelé 'ref hacking'.<br><br><b>Avant</b> de continuer, faire cela n'est <b>pas</b> supporté officiellement et peut casser a tout moment. Ne comptez pas dessus pour vos créations.",
+
+        "Inspector.ParticleStyle.CommonTransitions": "Modèles de transition communs:",
+        "Inspector.ParticleStyle.AlphaFadeInOut": "Fondu alpha entrant et sortant",
+        "Inspector.ParticleStyle.AlphaFadeIn": "Fondu alpha entrant",
+        "Inspector.ParticleStyle.AlphaFadeOut": "Fondu alpha sortant",
+        "Inspector.ParticleStyle.IntensityFadeInOut": "Intensité du fondu",
+        "Inspector.ParticleStyle.IntensityFadeIn": "Intensité du fondu entrant",
+        "Inspector.ParticleStyle.IntensityFadeOut": "Intensité du fondu sortant",
+        "Inspector.ParticleStyle.ClearFades": "Retirer les fondus",
+
+        "Inspector.Collider.SetFromLocalBounds": "Définir depuis les limites locales",
+        "Inspector.Collider.SetFromGlobalBounds": "Définir depuis les limites globales",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "Définir depuis les limites locales (précis)",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "Définir depuis les limites globales (précis)",
+        "Inspector.Collider.SetFromPreciseBounds": "Définir depuis des limites précises",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "Définir depuis des limites précises cylindriques",
+        "Inspector.Collider.Visualize": "Visualiser le collisionneur",
+
+        "Inspector.SimpleAwayIndicator.TestAway": "Définir comme absent (debug)",
+        "Inspector.SimpleAwayIndicator.TestRestore": "Définir comme normal (debug)",
+
+        "Inspector.Fields.Drive": "Conduire",
+        "Inspector.Fields.DriveWriteBack": "Conduire <size=50%>(écrire en retour)</size>",
+
+        "Inspector.Actions.CopyComponent": "Copier le composant",
+        "Inspector.Actions.MoveComponent": "Bouger le composant",
+
+        "UserInspector.Title": "Inspecteur d'utilisateurs",
+
+        "WorkerInspector.Title": "Inspecteur de {name}",
+
+        "CreateNew.Title": "Nouveau",
 
         "Wizard.General.ProcessRoot": "Racine du Processus:",
         "Wizard.General.Result": "Résultat:",
@@ -1543,6 +1632,17 @@
         "Wizard.ReflectionProbes.BakeProbes": "Pre-Calculer les Sondes",
         "Wizard.ReflectionProbes.Baking": "Pre-calcul {index} sur {count}...",
 
+        "Wizard.TextRenderer.Header": "Assistant de rendu de textes",
+        "Wizard.TextRenderer.ProcessRoot": "Racine du processus:",
+        "Wizard.TextRenderer.ProcessStandalone": "Processus seul",
+        "Wizard.TextRenderer.ProcessUIX": "ProcessUIX",
+        "Wizard.TextRenderer.Disabled": "Processus désactivé",
+        "Wizard.TextRenderer.WithTag": "Avec l'étiquette:",
+        "Wizard.TextRenderer.ReplaceMaterial": "Remplacer le matériau",
+        "Wizard.TextRenderer.ReplaceFont": "Remplacer la police d'écriture",
+        "Wizard.TextRenderer.SetColor": "Définir la couleur",
+
+        "Desktop.Controls.Title": "Contrôles Desktop",
         "Desktop.OpenKeyboard": "Ouvrir le clavier",
         "Desktop.FollowCursor.On": "Suivre le curseur : Actif",
         "Desktop.FollowCursor.Off": "Suivre le curseur : Inactif",
@@ -1550,6 +1650,9 @@
         "Desktop.LegacyInputMode.Off": "Ancien mode d'entrée : Inactif",
         "Desktop.Brightness": "Luminosité : {n,number,percent}",
         "Desktop.Opacity": "Opacité : {n,number,percent}",
+
+        "VolumePlaneSlicer.Highlight": "Souligner",
+        "VolumePlaneSlicer.Slicer": "Trancher",
 
         "Tutorial.Welcome.Welcome": "Bienvenue!",
         "Tutorial.Welcome.Description": "Plongez dans un nouvel univers digital ayant des possibilités infinies. Que vous venez ici pour socialiser avec des gens du monde entier ou créer des mondes, objets, avatars et bien d'autres. Resonite est un espace personnalisable sans limites ou vous serez le bienvenue qui que vous soyez.<br><br>Avant de commencer, il faut mettre en place quelques essentiels pour que l’expérience soit la meilleure possible. Quant vous êtes prêt, cliquez le bouton ci-dessous.",
@@ -1581,13 +1684,15 @@
 
         "Tutorial.Welcome.StartTutorialHeader": "Commencer le Tutoriel",
         "Tutorial.Welcome.StartTutorialDescription": "Nous vous transférerons dans un monde de tutoriels pour vous aider à démarrer avec {appName}. Vous pouvez choisir de rendre public le monde du tutoriel, permettant à la communauté {appName} de se joindre et de vous aider, ou d'apprendre par vous-même.",
+        "Tutorial.Welcome.StartTutorial": "Démarrer le tutoriel",
 
-        "Tutorial.CommunityYouTube.Title": "Chaînes YouTube communautaire",
+        "Tutorial.CommunityYouTube.Title": "Chaînes YouTube communautaires",
 
         "Tutorial.UserResources.UserResourcesTitle": "Resources utilisateur",
         "Tutorial.UserResources.SupportTitle": "Comment supporter {appName}",
         "Tutorial.UserResources.MerchandiseTitle": "Produits dérivés de {appName}",
 
+        "Tutorial.Intro.BadgesAppTeam": "Équipe {appName}",
         "Tutorial.Intro.BadgesModerator": "Modérateur",
         "Tutorial.Intro.BadgesMentor": "Mentor",
         "Tutorial.Intro.BadgesDisabilityHearing": "Malentendants",
@@ -1724,9 +1829,12 @@
         "Temporary.MMC.VoteInvalid": "Le vote est invalide, veuillez ré-essayer.",
 
         "CloudHome.WelcomeHome": "Bienvenue chez toi!",
+        "CloudHome.TargetRangeOptions": "Distance des cibles",
 
         "Tutorial.Saving.Title": "Bienvenue chez toi!",
         "Tutorial.Saving.Content": "Bienvenue dans ta <b><i><color=hero.yellow>Maison</b></i></color>! C'est ici que tu apparaîtra à chaque fois que tu te connectera.<br><br>Ce monde est le tiens, sent toi libre de le modifier comme tu veux.<br><br>Si tu sauvegarde ce monde, tout sera comme tu l'aura laissé.",
+
+        "Tutorial.Teleporter.Error": "Le chargement de ta maison a échoué.<br><size=66%>Sort du téléporteur et essaye encore une fois.</size>",
 
         "CloudHome.Info.OnlineUsers": "{online_users} {online_users,plural, one {utilisateur} other {utilisateurs}} en ligne<br>{joinable_users} {joinable_users,plural, one {utilisateur} other {utilisateurs}} dans des sessions joignables",
         "CloudHome.Info.Moderation": "Modération",
@@ -1973,7 +2081,7 @@
         "Tools.Names.CameraObjectVisibility": "Outil de visibilité de caméra",
         "Tools.Names.Color": "Pipette de couleur",
         "Tools.Names.Mesh": "Outil de modèles",
-        "Tools.Names.RiggedMeshTransfer": "Outil de transfer de rig",
+        "Tools.Names.RiggedMeshTransfer": "Outil de transfert de rig",
         "Tools.Names.Slicer": "Coupeur de modèles",
         "Tools.Names.ControllerDiagnostic": "Outil de diagnostic de manettes",
         "Tools.Names.Measure": "Outil de mesure",
