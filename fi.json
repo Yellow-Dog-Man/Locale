@@ -107,6 +107,7 @@
         "Interaction.ImportFile": "Tuo tiedosto",
         "Interaction.ExportFile": "Vie tiedosto",
         "Interaction.CopyLink": "Kopioi linkki",
+        "Interaction.CopyImage": "Kopioi kuva",
 
         "Inventory.OpenWorld": "Avaa Maailma",
         "Inventory.Equip": "Ota käyttöön",
@@ -130,6 +131,7 @@
         "Inventory.Favorite.WorldLoadingIndicator": "Aseta Latauspalkiksi",
         "Inventory.Favorite.ColorDialog": "Aseta Värinvalitsijaksi",
         "Inventory.Favorite.Hyperlink": "Aseta Linkkinäytöksi",
+        "Inventory.Favorite.Document": "Aseta Dokumenttinäytöksi",
         "Inventory.SpawnFacet": "Spawnaa Facetti",
 
         "Dash.Screens.Home": "Koti",
@@ -408,6 +410,12 @@
 
         "Login.MissingUID": "Puutteelliset laitetiedot",
         "Login.MissingUID.Description": "Yritä uudelleen asennusta tai ota yhteyttä tukeen osoitteessa {supportUrl}.",
+
+        "Login.MissingSecretMachineId": "Puuttuva salattu laite ID",
+        "Login.MissingSecretMachineId.Description": "Yritä uudelleen asennusta tai ota yhteyttä tukeen osoitteessa {supportUrl}.",
+
+        "Login.MalformedSecretMachineId": "Virheellinen salattu laite ID",
+        "Login.MalformedSecretMachineId.Description": "Yritä uudelleen asennusta tai ota yhteyttä tukeen osoitteessa {supportUrl}.",
 
         "Register.MissingUID": "Virheelliset laitetiedot",
         "Register.MissingUID.Description": "Yritä uudelleen asennusta tai ota yhteyttä tukeen osoitteessa {supportUrl}.",
@@ -1313,6 +1321,20 @@
 
 
 
+        "Inspector.Member.ResetToDefault": "Palauta oletusarvoksi",
+
+
+
+
+        "Inspector.Member.SetAllToAvg": "Aseta kaikki keskiarvoon",
+        "Inspector.Member.SetAllToX": "Aseta kaikki X",
+        "Inspector.Member.SetAllToY": "Aseta kaikki Y",
+        "Inspector.Member.SetAllToZ": "Aseta kaikki Z",
+        "Inspector.Member.SetAllToW": "Aseta kaikki W",
+
+        "Inspector.ProceduralAsset.UpdateCount": "Päivitettyjen määrä: {n}",
+        "Inspector.ProceduralAsset.Error": "Virhe: {error}",
+
         "Inspector.Mesh.StatsHeader": "Tahkoverkon tiedot",
         "Inspector.Mesh.VertexCount": "Kärkipisteiden määrä: {n}",
         "Inspector.Mesh.TriangleCount": "Kolmioiden määrä: {n}",
@@ -1399,6 +1421,8 @@
 
 
         "Inspector.SkinnedMesh.BakeToStaticMesh": "Beikkaa staattiseksi tahkoverkoksi",
+        "Inspector.SkinnedMesh.SortBlendshapes.Name": "Järjestä Blendshapet (Nimi)",
+        "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Järjestä Blendshapet (Nimen pituus, Nimi)",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Poista KAIKKI suojaukset",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Poista yksittäinen suojaus",
@@ -1418,8 +1442,10 @@
         "Inspector.Texture.Size": "Koko: {width} x {height}",
         "Inspector.Texture.Format": "Formaatti: {format}, Muisti: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "Variantti-ID: {variant}",
+        "Inspector.Texture3D.Size": "Koko: {width} x {height} x {depth}",
 
         "Inspector.Texture.BakeTexture": "Beikkaa tekstuuri",
+        "Inspector.Texture.ReplaceFromClipboard" : "Korvaa leikepöydältä",
 
         "Inspector.Texture.InvertRGB": "Invertoi RGB",
         "Inspector.Texture.InvertR": "Invertoi R",
@@ -1702,7 +1728,7 @@
 
         "Migration.LoginResetID.ResetButton": "Kyllä, nollaa",
 
-        "Migration.ReservedUsername.Title":"<b>Varattu käyttäjätunnus</b>",
+        "Migration.ReservedUsername.Title": "<b>Varattu käyttäjätunnus</b>",
         "Migration.ReservedUsername.Description": "Tämä käyttäjätunnus on varattu. Jos tämä on sinun käyttäjätilisi, kirjaudu sisään {platform} käyttäjätunnuksella ja salasanalla. Me emme säilytä näitä tietoja, niitä käytetään vain tilisi omistajuuden vahvistamiseen rekisteröinnin yhteydessä.",
         "Migration.SourcePassword": "{platform} Salasana:",
         "Migration.SourceUsername": "{platform} Käyttäjätunnus:",
