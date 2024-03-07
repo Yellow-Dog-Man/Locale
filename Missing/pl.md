@@ -5,6 +5,16 @@ Note that this file updates only during build processes and doesn't necessarily 
 Interaction.CopyImage  
 Inventory.Favorite.Document  
 Tooltip.Glue.Mode.BakeSkinnedMeshes  
+Settings.Category.Audio  
+Settings.Category.Controls  
+Settings.Category.Devices  
+Settings.Category.Profile  
+Settings.Category.Networking  
+Settings.Category.Security  
+Settings.Category.Misc  
+Settings.Category.Privacy  
+Settings.Category.UserInterface  
+Settings.Category.Graphics  
 Inspector.ProceduralAsset.UpdateCount  
 Inspector.ProceduralAsset.Error  
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
