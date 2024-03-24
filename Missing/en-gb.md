@@ -987,6 +987,16 @@ CameraControl.OBS.Recording.Start
 CameraControl.OBS.Recording.Starting  
 CameraControl.OBS.Recording.Stop  
 CameraControl.OBS.Recording.Stopping  
+Settings.Category.Audio  
+Settings.Category.Controls  
+Settings.Category.Devices  
+Settings.Category.Profile  
+Settings.Category.Networking  
+Settings.Category.Security  
+Settings.Category.Misc  
+Settings.Category.Privacy  
+Settings.Category.UserInterface  
+Settings.Category.Graphics  
 Settings.Height  
 Settings.Metric  
 Settings.Imperial  

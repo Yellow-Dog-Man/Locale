@@ -316,6 +316,16 @@ CameraControl.Control.MotionBlur
 CameraControl.Control.ScreenSpaceReflections  
 CameraControl.OBS.Idle  
 CameraControl.OBS.OpenInstallerReason  
+Settings.Category.Audio  
+Settings.Category.Controls  
+Settings.Category.Devices  
+Settings.Category.Profile  
+Settings.Category.Networking  
+Settings.Category.Security  
+Settings.Category.Misc  
+Settings.Category.Privacy  
+Settings.Category.UserInterface  
+Settings.Category.Graphics  
 Settings.Hotswitching  
 Settings.DoNotSendReadStatus  
 Settings.AutosaveAllScreenshots  

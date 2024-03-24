@@ -47,6 +47,16 @@ CameraControl.OBS.FPS
 CameraControl.OBS.Idle  
 CameraControl.OBS.Live  
 CameraControl.OBS.Recording  
+Settings.Category.Audio  
+Settings.Category.Controls  
+Settings.Category.Devices  
+Settings.Category.Profile  
+Settings.Category.Networking  
+Settings.Category.Security  
+Settings.Category.Misc  
+Settings.Category.Privacy  
+Settings.Category.UserInterface  
+Settings.Category.Graphics  
 Settings.DebugInputBinding  
 Settings.Audio.Header  
 Settings.Audio.Multimedia  
