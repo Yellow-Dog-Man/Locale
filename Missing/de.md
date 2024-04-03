@@ -2,7 +2,9 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # German [de]
-Settings.Category.IntractiveCamera  
+Settings.Category.InteractiveCamera  
+Settings.LegacyFeatureSettings.ConvertLegacySettings  
+Settings.DebugSettings.DebugResetAllSimpleSettings  
 Settings.UserRestrictionsSettings  
 Settings.GeneralVRSettings.UseVRHotswitching  
 Settings.HostAccessSettings.DebugReset  
