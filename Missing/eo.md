@@ -24,6 +24,13 @@ Inspector.Texture3D.Size
 Inspector.Texture.ReplaceFromClipboard  
 Tutorial.Welcome.Welcome  
 Tutorial.Welcome.Begin  
+UI.DocumentDisplay.PageNumber  
+UI.DocumentDisplay.DocumentQuality  
+UI.DocumentDisplay.QualityLow  
+UI.DocumentDisplay.QualityMedium  
+UI.DocumentDisplay.QualityHigh  
+UI.DocumentDisplay.Pages  
+UI.DocumentDisplay.ResetZoom  
 Discord.RichPresence.InPrivateWorld  
 Discord.RichPresence.InPrivateLargeText  
 Discord.RichPresence.InPublicWorld  
