@@ -997,6 +997,7 @@ Settings.Category.Misc
 Settings.Category.Privacy  
 Settings.Category.UserInterface  
 Settings.Category.Graphics  
+Settings.Category.IntractiveCamera  
 Settings.GeneralControlsSettings  
 Settings.LocomotionSettings  
 Settings.MovementSettings  
