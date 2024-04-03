@@ -95,6 +95,7 @@ Settings.AudioInputFilteringSettings
 Settings.RealtimeNetworkingSettings  
 Settings.AssetGatherSettings  
 Settings.HostAccessSettings  
+Settings.UserRestrictionsSettings  
 Settings.WindowsSettings  
 Settings.DebugSettings  
 Settings.LegacyFeatureSettings  
@@ -127,7 +128,7 @@ Settings.MouseSettings.MouseRotateSpeed
 Settings.MouseSettings.MouseFreeformRotateSpeed  
 Settings.GeneralHapticsSettings.EnableControllerVibration  
 Settings.GeneralHapticsSettings.EnableHaptics  
-Settings.GeneralVRSettings.UseVRhotswitching  
+Settings.GeneralVRSettings.UseVRHotswitching  
 Settings.LeapMotionSettings.LeapMotionEnabled  
 Settings.LeapMotionSettings.Offset  
 Settings.LeapMotionSettings.SnapDistance  
@@ -168,6 +169,8 @@ Settings.HostAccessSettings.Entries.AllowHTTP_Requests
 Settings.HostAccessSettings.Entries.AllowWebsockets  
 Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason  
 Settings.HostAccessSettings.Entries.LastWebsocketRequestReason  
+Settings.HostAccessSettings.DebugReset  
+Settings.UserRestrictionsSettings.DebugReset  
 Settings.WindowsSettings.KeepOriginalScreenshotFormat  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.FetchIncompatibleSessions  
@@ -177,6 +180,8 @@ Settings.MessagingPrivacySettings.DoNotSendReadStatus
 Settings.LocaleSettings.PrimaryInterfaceLocaleCode  
 Settings.LocaleSettings.CultureLocaleCode  
 Settings.LocaleSettings.UseImperialUnits  
+Settings.LocaleSettings.AvailableLocales  
+Settings.LocaleSettings.AvailableLocales.Breadcrumb  
 Settings.DashSettings.FreeformDash  
 Settings.DashSettings.DashCurvature  
 Settings.DashSettings.OpenCloseSpeed  
