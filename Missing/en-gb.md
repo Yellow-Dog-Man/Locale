@@ -997,6 +997,9 @@ Settings.Category.Misc
 Settings.Category.Privacy  
 Settings.Category.UserInterface  
 Settings.Category.Graphics  
+Settings.Category.InteractiveCamera  
+Settings.LegacyFeatureSettings.ConvertLegacySettings  
+Settings.DebugSettings.DebugResetAllSimpleSettings  
 Settings.GeneralControlsSettings  
 Settings.LocomotionSettings  
 Settings.MovementSettings  
