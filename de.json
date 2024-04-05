@@ -1226,6 +1226,15 @@
 
         "Settings.DesktopRenderSettings": "Desktop Render Einstellungen",
 
+        "Settings.InteractiveCameraFramingSettings": "Rahmung",
+        "Settings.InteractiveCameraPositioningSettings": "Positionierung",
+        "Settings.InteractiveCameraRenderSettings": "Rendering",
+        "Settings.InteractiveCameraGroupSettings": "Benutzergruppierung",
+        "Settings.InteractiveCameraSmoothingSettings": "Glättung",
+        "Settings.InteractiveCameraAnchorSettings": "Anker",
+        "Settings.InteractiveCameraPhotoSettings": "Fotos",
+        "Settings.InteractiveCameraPostProcessingSettings": "Nachbearbeitung",
+
         "Settings.GeneralControlsSettings.PrimaryHand": "Primäre Hand",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Doppelklick-Intervall",
 
@@ -1311,10 +1320,12 @@
         "Settings.WindowsSettings.KeepOriginalScreenshotFormat": "Ursprüngliches Screenshot-Format beibehalten",
 
         "Settings.DebugSettings.DebugInputBindings": "Debug Eingabebindungen",
-	    "Settings.DebugSettings.FetchIncompatibleSessions": "Zeige inkompatible Sitzungen",
+        "Settings.DebugSettings.FetchIncompatibleSessions": "Zeige inkompatible Sitzungen",
+        "Settings.DebugSettings.DebugResetAllSimpleSettings": "Setze alle einfachen Einstellugnen zurück",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Doppel-Druck auf Griff, um Gegenstände auszurüsten",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Benutze alten Welten-Wechseler",
+        "Settings.LegacyFeatureSettings.ConvertLegacySettings": "Konvertiere alte Einstellungen",
 
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Keinen Lesestatus versenden",
 
@@ -1352,6 +1363,44 @@
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Pfad für automatisch gespeicherte Fotos",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Sichtfeld",
+
+        "Settings.InteractiveCameraFramingSettings.PositioningMode": "Positionierungsmodus",
+        "Settings.InteractiveCameraFramingSettings.FieldOfView": "Sichtfeld",
+        "Settings.InteractiveCameraFramingSettings.AnglePosition": "Winkel",
+        "Settings.InteractiveCameraFramingSettings.Distance": "Distanz",
+        "Settings.InteractiveCameraFramingSettings.HeightOffset": "Höhenversatz",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonPitch": "First person Neigungswinkel",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll": "First person Rollwinkel",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset": "First person Versatz",
+        "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "Position des Rahmen-Sichtfensters",
+        "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "Vor das Gesicht zielen",
+
+        "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion": "Verdeckung vermeiden",
+        "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace": "Im Worldspace bleiben",
+        "Settings.InteractiveCameraPositioningSettings.MovementWobble": "Wobble-Bewegung",
+
+        "Settings.InteractiveCameraRenderSettings.HideAllBadges": "Namen ausblenden",
+        "Settings.InteractiveCameraRenderSettings.HideAllLasers": "Laser ausblenden",
+        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera": "Richte Augen auf Kamera",
+
+        "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius": "Gruppen-Erkennungs-Radius",
+        "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary": "Gruppen-Ausschluss-Grenze",
+
+        "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed": "Positions-Glättungs-Geschwindigkeit",
+        "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "Winkel-Glättungs-Geschwindigkeit",
+        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed": "Rahmen-Glättungs-Geschwindigkeit",
+
+        "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors": "Interpoliere zwischen Ankerpunkten",
+        "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed": "Interpolationsgeschwindigkeit",
+        "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation": "Lineare Interpolation",
+
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "Foto in der Welt spawnen",
+
+        "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "Bewegungsunschärfe",
+        "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Bildschirmreflexionen",
+
+        "Settings.DescriptionField.NoTextTitle": "Mehr Informationen",
+        "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Bewegen Sie den Cursor über eine Einstellung um ihre Beschreibung anzuzeigen.</closeall>",
 
         "LocomotionArchetype.Walk": "Gehen",
         "LocomotionArchetype.Fly": "Fliegen",
