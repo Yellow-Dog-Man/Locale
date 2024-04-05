@@ -1181,6 +1181,10 @@
         "Settings.Category.Privacy": "Datenschutz",
         "Settings.Category.UserInterface": "Benutzeroberfläche",
         "Settings.Category.Graphics": "Grafik",
+        "Settings.Category.InteractiveCamera": "Kamera",
+
+        "Settings.LegacyFeatureSettings.ConvertLegacySettings": "DEBUG - Konvertiere alte Einstellungen",
+        "Settings.DebugSettings.DebugResetAllSimpleSettings": "DEBUG - Setze alle einfachen Einstellugnen zurück",
 
         "Settings.GeneralControlsSettings": "Allgemeine Steuerung",
         "Settings.LocomotionSettings": "Fortbewegung",
@@ -1191,7 +1195,7 @@
         "Settings.GeneralVRSettings": "VR",
         "Settings.LeapMotionSettings": "Leap Motion",
         "Settings.ViveHandTrackingSettings": "Vive Hand Tracking",
-        "Settings.TrackingSmoothingSettings": "Tracking-Glättung",
+        "Settings.TrackingSmoothingSettings": "Glättung des Trackings",
 
         "Settings.UserMetricsSettings": "Benutzer-Messwerte",
 
@@ -1205,6 +1209,7 @@
         "Settings.AssetGatherSettings": "Asset-Sammlung",
 
         "Settings.HostAccessSettings": "Host Zugriff",
+        "Settings.UserRestrictionsSettings": "Benutzerbeschränkungen",
 
         "Settings.WindowsSettings": "Windows Einstellungen",
         "Settings.DebugSettings": "Debug",
@@ -1213,7 +1218,7 @@
         "Settings.MessagingPrivacySettings": "Datenschutz bei Nachrichten",
 
         "Settings.LocaleSettings": "Lokalisierung",
-        "Settings.DashSettings": "Dash",
+        "Settings.DashSettings": "Dash-Menü",
         "Settings.NamePlateSettings": "Namensschilder",
         "Settings.LaserSettings": "Interaktionslaser",
         "Settings.DesktopViewSettings": "Desktop Ansicht",
@@ -1222,7 +1227,7 @@
         "Settings.DesktopRenderSettings": "Desktop Render Einstellungen",
 
         "Settings.GeneralControlsSettings.PrimaryHand": "Primäre Hand",
-        "Settings.GeneralControlsSettings.DoubleClickInterval": "Doppelklick Intervall",
+        "Settings.GeneralControlsSettings.DoubleClickInterval": "Doppelklick-Intervall",
 
         "Settings.LocomotionSettings.LocomotionPreferences": "Fortbewegungspräferenzen",
         "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Fortbewegungspräferenzen",
@@ -1247,7 +1252,7 @@
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Controller-Vibration",
         "Settings.GeneralHapticsSettings.EnableHaptics": "Haptisches Feedback",
 
-        "Settings.GeneralVRSettings.UseVRhotswitching": "VR Hotswitching",
+        "Settings.GeneralVRSettings.UseVRHotswitching": "VR Hotswitching",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap motion Hand Tracking",
         "Settings.LeapMotionSettings.Offset": "Hand Tracking Versatz",
@@ -1299,11 +1304,14 @@
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Erlaube Websockets",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Grund der letzten Hyperlink-Anfrage",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Grund der letzten Websocket-Anfrage",
+        "Settings.HostAccessSettings.DebugReset": "Host-Zugriffseinträge zurücksetzen",
+
+        "Settings.UserRestrictionsSettings.DebugReset": "Benutzerbeschränkungen zurücksetzen",
 
         "Settings.WindowsSettings.KeepOriginalScreenshotFormat": "Ursprüngliches Screenshot-Format beibehalten",
 
         "Settings.DebugSettings.DebugInputBindings": "Debug Eingabebindungen",
-        "Settings.DebugSettings.FetchIncompatibleSessions": "Zeige inkompatible Sitzungen",
+	    "Settings.DebugSettings.FetchIncompatibleSessions": "Zeige inkompatible Sitzungen",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Doppel-Druck auf Griff, um Gegenstände auszurüsten",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Benutze alten Welten-Wechseler",
@@ -1313,6 +1321,9 @@
         "Settings.LocaleSettings.PrimaryInterfaceLocaleCode": "Standardinterface Locale-Code",
         "Settings.LocaleSettings.CultureLocaleCode": "Kultur Locale-Code",
         "Settings.LocaleSettings.UseImperialUnits": "Nutze imperiale Einheiten",
+        "Settings.LocaleSettings.AvailableLocales" : "Verfügbare Lokalisierungen",
+        "Settings.LocaleSettings.AvailableLocales.Breadcrumb" : "Verfügbare Lokalisierungen",
+
 
         "Settings.DashSettings.FreeformDash": "Freiform-Dash",
         "Settings.DashSettings.DashCurvature": "Krümmung",
