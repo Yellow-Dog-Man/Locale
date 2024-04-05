@@ -1,6 +1,6 @@
 {
     "localeCode": "zh-cn",
-    "authors": ["Melnus", "Holy_Water", "huang825172"],
+    "authors": ["Melnus", "Holy_Water", "huang825172", "modimobeikete"],
     "messages": {
 
         "General.OK": "确定",
@@ -75,8 +75,8 @@
         "Locomotion.Slide.Name": "滑动",
         "Locomotion.Slide.Description": "简单的滑动运动（如果存在）会捕捉到表面，否则会飞行。",
 
-        "Interaction.Destroy": "消灭",
-        "Interaction.Duplicate": "克隆",
+        "Interaction.Destroy": "删除",
+        "Interaction.Duplicate": "复制",
         "Interaction.SaveToInventory": "保存到物品栏",
         "Interaction.Undo": "撤消",
         "Interaction.Redo": "重做",
@@ -134,7 +134,7 @@
 
         "Dash.Screens.Home": "家",
         "Dash.Screens.Worlds": "世界",
-        "Dash.Screens.Contacts": "联系人",
+        "Dash.Screens.Contacts": "好友",
         "Dash.Screens.Inventory": "物品栏",
         "Dash.Screens.Desktop": "桌面",
         "Dash.Screens.Session": "会话",
@@ -178,7 +178,7 @@
         "World.Connection.LNL.DirectIP": "LNL IP 直连",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT 穿透 {n}",
         "World.Connection.LNL.Relay": "LNL 转发",
-        "World.Connection.SteamNetworkingSockets": "Steam Networking 套接字",
+        "World.Connection.SteamNetworkingSockets": "Steam 网络通讯",
 
         "World.Error.AccessDenied": "拒绝访问",
         "World.Error.SecurityViolation": "安全违规",
@@ -197,8 +197,8 @@
         "World.Error.InvalidAddress": "无效地址",
         "World.Error.NoPort": "未指定端口",
         "World.Error.IncompatibleVersion": "不兼容的版本",
-        "World.Error.HostBlocked": "主持人被屏蔽",
-        "World.Error.HostBlockedDetail": "您已屏蔽该主持人",
+        "World.Error.HostBlocked": "房主被屏蔽",
+        "World.Error.HostBlockedDetail": "您已屏蔽该房主",
         "World.Error.WorldCrash": "世界崩溃",
         "World.Error.WorldCrashDetail" : "在更新该世界时遭遇了致命错误",
         "World.Error.Unknown": "未知错误",
@@ -206,7 +206,7 @@
         "World.Config.Name": "世界名:",
         "World.Config.Description": "描述:",
         "World.Config.MaxUsers": "最大用户数:",
-        "World.Config.MobileFriendly": "Mobile友好",
+        "World.Config.MobileFriendly": "移动端友好",
         "World.Config.SaveOptionsHeader": "世界保存选项:",
         "World.Config.EditMode": "编辑模式:",
         "World.Config.AccessLevelHeader": "谁可以加入这个世界？",
@@ -274,7 +274,7 @@
         "World.Detail.Uptime": "运行时间",
         "World.Detail.AccessLevel": "能见度",
         "World.Detail.Users": "用户",
-        "World.Detail.Users.Count": "{active}{away, select, 0 {} other { (+{away} away)}} out of {max}",
+        "World.Detail.Users.Count": "{active}{away, select, 0 {} other { (+{away} 离开)}} / {max}",
 
         "World.Detail.WorldInformationHeader": "世界信息",
         "World.Detail.PublishDate": "已发表",
@@ -471,7 +471,7 @@
         "Account.Saml2.Select" : "请选择您想使用的 SAML 2.0 服务商：",
         "Account.Saml2.LoggingIn" : "正在等待登录完成（请查看您的浏览器）...",
 
-        "Account.TOTP.Title" : "双因子认证（2FA）",
+        "Account.TOTP.Title" : "双重认证（2FA）",
         "Account.TOTP.Initializing": "正在检查您账户的 2FA 状态...",
         "Account.TOTP.Code.Header": "安全码",
         "Account.TOTP.Code.Description": "首先，您需要将一个安全码输入您的 TOTP 认证应用，例如 <b>Authy</b> 或者 <b>Google Authenticator</b>.<br><br>我们建议以扫描二维码的方式输入，但您也可以手动输入。 <b>千万不要告诉他人您的安全码。</b><br><br>如果您正在VR模式下，您可以通过按下 F8 切换到桌面模式。",
@@ -532,7 +532,7 @@
         "Session.JoinVerifier.ComponentWarning" : "<color=red>警告：</color> 目前，并没有机制可以在认证器启用后防止篡改。如果篡改用于认证的 ProtoFlux 设置可能导致问题, 请！不！要！使用这个功能且 不！要！在您的世界中激活它。",
         "Session.JoinVerifier.SetCustomVerifier" : "设为自定义加入请求认证器",
 
-        "Permissions.NotAllowedToSpawn": "您不可以在此处生成事物",
+        "Permissions.NotAllowedToSpawn": "您不可以在此处生成物品",
         "Permissions.NotAllowedToSave": "您无权在这个世界上保存项目。",
         "Permissions.NotAllowedToSwapAvatar": "您不允许在此处交换到自定化身。",
 
@@ -601,7 +601,7 @@
         "Undo.ResetScale": "重置缩放",
 
         "Undo.GrabObjects": "抓取物体",
-        "Undo.DestroyGrabbed": "销毁所持物体",
+        "Undo.DestroyGrabbed": "删除所持物体",
         "Undo.DuplicateGrabbed": "复制所持物体",
 
         "Undo.ChangeBoxSize": "变更盒子尺寸",
