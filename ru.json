@@ -1728,7 +1728,7 @@
         "Migration.LoginResetID.Description": "Пожалуйста имейте в виду, что это приведет к <color=red>НЕПРЕДСКАЗУЕМОМУ ПОВРЕЖДЕНИЮ СОДЕРЖИМОГО</color>. Все ваши предметы, миры, контакты и сообщения будут успешно перенесены, но любая логика и компоненты, которые полагаются на ваш старый UserID, скорее всего, сломаются, что потребует перенастройки и починки. Если у вас нет серьезной причины сбрасывать свой UserID, <color=red>НЕ ВЫБИРАЙТЕ ЭТОТ ВАРИАНТ</color>.",
         "Migration.LoginResetID.ResetButton": "Да, сбросить",
 
-        "Migration.ReservedUsername.Title":"<b>Зарезервированное имя пользователя</b>",
+        "Migration.ReservedUsername.Title": "<b>Зарезервированное имя пользователя</b>",
         "Migration.ReservedUsername.Description": "Это имя пользователя зарезервировано для первоначального владельца. Если это Ваша учетная запись, предоставьте свои учетные данные для {platform}, чтобы разблокировать ее. Мы не храним эти учетные данные, они используются только для подтверждения принадлежности вашей учетной записи при регистрации.",
         "Migration.SourcePassword": "Пароль {platform}:",
         "Migration.SourceUsername": "Имя пользователя {platform}:",
@@ -1738,7 +1738,7 @@
         "Migration.Dialog.AccountDescription": "Чтобы перенести вашу учетную запись, нам понадобится пароль от вашей учетной записи в {platform}. Это позволит нам войти в систему и получить доступ к данным.",
 
         "Migration.ResetID.Title": "Сбросить мой UserID",
-        "Migration.ResetID.Description":"<color=red><b>ВНИМАНИЕ:</b></color> Выбор этого пункта <b>ЯВЛЯЕТСЯ НЕОБРАТИМЫМ И ЧАСТИЧНО СЛОМАЕТ СУЩЕСТВУЮЩИЙ КОНТЕНТ</b>, включая любые ссылки на UserID в пользовательском контенте, публичных сервисах, ссылках, облачных переменных и т.д. Эти ссылки будут сброшены, но сами ваши предметы, миры, контакты и сообщения не потеряются. Мы рекомендуем использовать эту опцию <b>ТОЛЬКО</b> в том случае, если вы хотите избавиться от своего старого UserId и заменить его новым, рандомизированным. Если у вас нет веской причины для сброса вашего UserID, вам <b>НЕ СЛЕДУЕТ</b> выбирать этот пункт. Ваш UserID изменится следующим образом:\n U-MyUsername -> U-fX3pKe7AYYQ",
+        "Migration.ResetID.Description": "<color=red><b>ВНИМАНИЕ:</b></color> Выбор этого пункта <b>ЯВЛЯЕТСЯ НЕОБРАТИМЫМ И ЧАСТИЧНО СЛОМАЕТ СУЩЕСТВУЮЩИЙ КОНТЕНТ</b>, включая любые ссылки на UserID в пользовательском контенте, публичных сервисах, ссылках, облачных переменных и т.д. Эти ссылки будут сброшены, но сами ваши предметы, миры, контакты и сообщения не потеряются. Мы рекомендуем использовать эту опцию <b>ТОЛЬКО</b> в том случае, если вы хотите избавиться от своего старого UserId и заменить его новым, рандомизированным. Если у вас нет веской причины для сброса вашего UserID, вам <b>НЕ СЛЕДУЕТ</b> выбирать этот пункт. Ваш UserID изменится следующим образом:\n U-MyUsername -> U-fX3pKe7AYYQ",
 
         "Migration.DataSelection.Title": "Какие данные нам следует перенести при миграции вашей учетной записи?",
         "Migration.DataSelection.Everything": "Все",
@@ -1797,7 +1797,7 @@
         "Migration.Report.ContactStatus": "Перенесено <color={hex}>{current}</color> контактов из <color={hex}>{total}</color>",
         "Migration.Report.MessageStatus": "Перенесено <color={hex}>{value}</color> сообщений",
         "Migration.Report.CloudVariableDefinitionStatus": "Перенесено <color={hex}>{value}</color> определений облачных переменных",
-        "Migration.Report.CloudVariableValueStatus":"Перенесено <color={hex}>{value}</color> значений облачных переменных",
+        "Migration.Report.CloudVariableValueStatus": "Перенесено <color={hex}>{value}</color> значений облачных переменных",
         "Migration.Report.RecordStatus": "Перенесено <color={hex}>{current}</color> предметов/миров из <color={hex}>{total}</color>. <color=red>{failed}</color> неудачно.",
         "Migration.Report.GroupStatus": "Перенесено <color={hex}>{current}</color> групп из <color={hex}>{total}</color>",
         "Migration.Report.GroupMemberStatus": "Перенесено всего <color={hex}>{value}</color> участников группы",
@@ -2025,6 +2025,14 @@
         "UI.TextDisplay.Portrait": "Портретный",
         "UI.TextDisplay.NormalText": "Нормальный",
         "UI.TextDisplay.MonospaceText": "Фиксированная ширина",
+
+        "UI.DocumentDisplay.PageNumber": "Страница {page_number}",
+        "UI.DocumentDisplay.DocumentQuality": "Качество",
+        "UI.DocumentDisplay.QualityLow": "Низкое",
+        "UI.DocumentDisplay.QualityMedium": "Среднее",
+        "UI.DocumentDisplay.QualityHigh": "Высокое",
+        "UI.DocumentDisplay.Pages": "Страницы",
+        "UI.DocumentDisplay.ResetZoom": "Сбросить масштаб",
 
         "UI.VideoPlayer.GlobalSettings": "Глобальные<br>настройки",
         "UI.VideoPlayer.LocalSettings": "Локальные<br>настройки",
