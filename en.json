@@ -1226,6 +1226,15 @@
 
         "Settings.DesktopRenderSettings": "Desktop Render Settings",
 
+        "Settings.InteractiveCameraFramingSettings": "Framing",
+        "Settings.InteractiveCameraPositioningSettings": "Positioning",
+        "Settings.InteractiveCameraRenderSettings": "Rendering",
+        "Settings.InteractiveCameraGroupSettings": "User Grouping",
+        "Settings.InteractiveCameraSmoothingSettings": "Smoothing",
+        "Settings.InteractiveCameraAnchorSettings": "Anchors",
+        "Settings.InteractiveCameraPhotoSettings": "Photos",
+        "Settings.InteractiveCameraPostProcessingSettings": "Post Processing",
+
         "Settings.GeneralControlsSettings.PrimaryHand": "Primary hand",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Double click interval",
 
@@ -1312,17 +1321,19 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Debug input bindings",
         "Settings.DebugSettings.FetchIncompatibleSessions": "Fetch incompatible sessions",
+        "Settings.DebugSettings.DebugResetAllSimpleSettings": "Reset All Simple Settings",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Double press grip to equip items",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Use legacy world switcher",
+        "Settings.LegacyFeatureSettings.ConvertLegacySettings": "Convert Legacy Settings",
 
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Do not send read status",
 
         "Settings.LocaleSettings.PrimaryInterfaceLocaleCode": "Default interface locale code",
         "Settings.LocaleSettings.CultureLocaleCode": "Culture locale code",
         "Settings.LocaleSettings.UseImperialUnits": "Use imperial units",
-        "Settings.LocaleSettings.AvailableLocales" : "Available Locales",
-        "Settings.LocaleSettings.AvailableLocales.Breadcrumb" : "Available Locales",
+        "Settings.LocaleSettings.AvailableLocales": "Available Locales",
+        "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Available Locales",
 
 
         "Settings.DashSettings.FreeformDash": "Freeform dash",
@@ -1349,9 +1360,44 @@
         "Settings.PhotoCaptureSettings.TimerCaptureResolution": "Timed photo resolution",
         "Settings.PhotoCaptureSettings.TimerSeconds": "Timer duration",
         "Settings.PhotoCaptureSettings.CaptureStereo": "Capture stereo photo",
-        "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Photo autosave path",
+        "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Photo inventory autosave path",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Field of view",
+
+        "Settings.InteractiveCameraFramingSettings.PositioningMode": "Positioning mode",
+        "Settings.InteractiveCameraFramingSettings.FieldOfView": "Field of view",
+        "Settings.InteractiveCameraFramingSettings.AnglePosition": "Angle",
+        "Settings.InteractiveCameraFramingSettings.Distance": "Distance",
+        "Settings.InteractiveCameraFramingSettings.HeightOffset": "Height offset",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonPitch": "First person pitch angle",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll": "First person roll angle",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset": "First person offset",
+        "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "Framing viewport position",
+        "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "Aim in front of head",
+
+        "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion": "Avoid occlusion",
+        "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace": "Keep in world space",
+        "Settings.InteractiveCameraPositioningSettings.MovementWobble": "Movement wobble",
+
+        "Settings.InteractiveCameraRenderSettings.HideAllBadges": "Hide badges",
+        "Settings.InteractiveCameraRenderSettings.HideAllLasers": "Hide lasers",
+        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera": "User eyes always look at camera",
+
+        "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius": "Group detection radius",
+        "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary": "Group leave boundary",
+
+        "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed": "Position smoothing speed",
+        "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "Angle smoothing speed",
+        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed": "Framing smoothing speed",
+
+        "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors": "Interpolate between anchors",
+        "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed": "Interpolation speed",
+        "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation": "Use linear interpolation",
+
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "Spawn taken photos in world",
+
+        "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "Motion blur",
+        "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Screen space reflections",
 
         "LocomotionArchetype.Walk": "Walk",
         "LocomotionArchetype.Fly": "Fly",
