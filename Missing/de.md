@@ -2,13 +2,39 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # German [de]
-Settings.Category.InteractiveCamera  
-Settings.LegacyFeatureSettings.ConvertLegacySettings  
-Settings.DebugSettings.DebugResetAllSimpleSettings  
-Settings.UserRestrictionsSettings  
-Settings.GeneralVRSettings.UseVRHotswitching  
-Settings.HostAccessSettings.DebugReset  
-Settings.UserRestrictionsSettings.DebugReset  
-Settings.LocaleSettings.AvailableLocales  
-Settings.LocaleSettings.AvailableLocales.Breadcrumb  
+Settings.InteractiveCameraFramingSettings  
+Settings.InteractiveCameraPositioningSettings  
+Settings.InteractiveCameraRenderSettings  
+Settings.InteractiveCameraGroupSettings  
+Settings.InteractiveCameraSmoothingSettings  
+Settings.InteractiveCameraAnchorSettings  
+Settings.InteractiveCameraPhotoSettings  
+Settings.InteractiveCameraPostProcessingSettings  
+Settings.InteractiveCameraFramingSettings.PositioningMode  
+Settings.InteractiveCameraFramingSettings.FieldOfView  
+Settings.InteractiveCameraFramingSettings.AnglePosition  
+Settings.InteractiveCameraFramingSettings.Distance  
+Settings.InteractiveCameraFramingSettings.HeightOffset  
+Settings.InteractiveCameraFramingSettings.FirstPersonPitch  
+Settings.InteractiveCameraFramingSettings.FirstPersonRoll  
+Settings.InteractiveCameraFramingSettings.FirstPersonOffset  
+Settings.InteractiveCameraFramingSettings.FramingViewportPosition  
+Settings.InteractiveCameraFramingSettings.AimInFrontOfHead  
+Settings.InteractiveCameraPositioningSettings.AvoidOcclusion  
+Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace  
+Settings.InteractiveCameraPositioningSettings.MovementWobble  
+Settings.InteractiveCameraRenderSettings.HideAllBadges  
+Settings.InteractiveCameraRenderSettings.HideAllLasers  
+Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera  
+Settings.InteractiveCameraGroupSettings.GroupDetectionRadius  
+Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary  
+Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed  
+Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed  
+Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed  
+Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors  
+Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed  
+Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation  
+Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld  
+Settings.InteractiveCameraPostProcessingSettings.MotionBlur  
+Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections  
 
