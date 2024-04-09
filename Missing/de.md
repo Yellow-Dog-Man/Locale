@@ -53,7 +53,7 @@ Settings.AssetGatherSettings.MaxConcurrentDownloads.Description
 Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description  
 Settings.DebugSettings.DebugInputBindings.Description  
 Settings.DebugSettings.FetchIncompatibleSessions.Description  
-Settings.LegacyFeatureSettings.UseLegacyGripEquip.Legacy  
+Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description  
 Settings.LocaleSettings.CultureLocaleCode.Description  

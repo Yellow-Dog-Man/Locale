@@ -627,7 +627,7 @@ Settings.DebugSettings.DebugInputBindings.Description
 Settings.DebugSettings.FetchIncompatibleSessions  
 Settings.DebugSettings.FetchIncompatibleSessions.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip  
-Settings.LegacyFeatureSettings.UseLegacyGripEquip.Legacy  
+Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus  
