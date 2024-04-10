@@ -1184,7 +1184,7 @@
         "Settings.Category.InteractiveCamera": "Kamera",
 
         "Settings.LegacyFeatureSettings.ConvertLegacySettings": "DEBUG - Konvertiere alte Einstellungen",
-        "Settings.DebugSettings.DebugResetAllSimpleSettings": "DEBUG - Setze alle einfachen Einstellugnen zurück",
+        "Settings.DebugSettings.DebugResetAllSimpleSettings": "DEBUG - Setze alle einfachen Einstellungen zurück",
 
         "Settings.GeneralControlsSettings": "Allgemeine Steuerung",
         "Settings.LocomotionSettings": "Fortbewegung",
@@ -1226,6 +1226,15 @@
 
         "Settings.DesktopRenderSettings": "Desktop Render Einstellungen",
 
+        "Settings.InteractiveCameraFramingSettings": "Rahmung",
+        "Settings.InteractiveCameraPositioningSettings": "Positionierung",
+        "Settings.InteractiveCameraRenderSettings": "Rendering",
+        "Settings.InteractiveCameraGroupSettings": "Benutzergruppierung",
+        "Settings.InteractiveCameraSmoothingSettings": "Glättung",
+        "Settings.InteractiveCameraAnchorSettings": "Anker",
+        "Settings.InteractiveCameraPhotoSettings": "Fotos",
+        "Settings.InteractiveCameraPostProcessingSettings": "Nachbearbeitung",
+
         "Settings.GeneralControlsSettings.PrimaryHand": "Primäre Hand",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Doppelklick-Intervall",
 
@@ -1254,7 +1263,7 @@
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR Hotswitching",
 
-        "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap motion Hand Tracking",
+        "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion Hand Tracking",
         "Settings.LeapMotionSettings.Offset": "Hand Tracking Versatz",
         "Settings.LeapMotionSettings.SnapDistance": "Controller Einrast-Distanz",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Tracke Hände bei Verwendung von Controllern",
@@ -1263,7 +1272,7 @@
         "Settings.ViveHandTrackingSettings.SnapDistance": "Controller Einrast-Distanz",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Tracke Hände bei Verwendung von Controllern",
 
-        "Settings.UserMetricsSettings.UserHeight": "Größe",
+        "Settings.UserMetricsSettings.UserHeight": "Körpergröße",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Benutze Standard-Aufnahmegerät des Systems",
         "Settings.AudioInputDeviceSettings.DevicePriorities": "Audio Aufnahmegeräte",
@@ -1311,10 +1320,12 @@
         "Settings.WindowsSettings.KeepOriginalScreenshotFormat": "Ursprüngliches Screenshot-Format beibehalten",
 
         "Settings.DebugSettings.DebugInputBindings": "Debug Eingabebindungen",
-	    "Settings.DebugSettings.FetchIncompatibleSessions": "Zeige inkompatible Sitzungen",
+        "Settings.DebugSettings.FetchIncompatibleSessions": "Zeige inkompatible Sitzungen",
+        "Settings.DebugSettings.DebugResetAllSimpleSettings": "Setze alle einfachen Einstellungen zurück",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Doppel-Druck auf Griff, um Gegenstände auszurüsten",
-        "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Benutze alten Welten-Wechseler",
+        "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Benutze alten Welten-Wechsler",
+        "Settings.LegacyFeatureSettings.ConvertLegacySettings": "Konvertiere alte Einstellungen",
 
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Keinen Lesestatus versenden",
 
@@ -1352,6 +1363,44 @@
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Pfad für automatisch gespeicherte Fotos",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Sichtfeld",
+
+        "Settings.InteractiveCameraFramingSettings.PositioningMode": "Positionierungsmodus",
+        "Settings.InteractiveCameraFramingSettings.FieldOfView": "Sichtfeld",
+        "Settings.InteractiveCameraFramingSettings.AnglePosition": "Winkel",
+        "Settings.InteractiveCameraFramingSettings.Distance": "Distanz",
+        "Settings.InteractiveCameraFramingSettings.HeightOffset": "Höhenversatz",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonPitch": "First person Neigungswinkel",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll": "First person Rollwinkel",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset": "First person Versatz",
+        "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "Position des Rahmen-Sichtfensters",
+        "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "Vor das Gesicht zielen",
+
+        "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion": "Verdeckung vermeiden",
+        "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace": "Im Worldspace bleiben",
+        "Settings.InteractiveCameraPositioningSettings.MovementWobble": "Wobble-Bewegung",
+
+        "Settings.InteractiveCameraRenderSettings.HideAllBadges": "Namen ausblenden",
+        "Settings.InteractiveCameraRenderSettings.HideAllLasers": "Laser ausblenden",
+        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera": "Richte Augen auf Kamera",
+
+        "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius": "Gruppen-Erkennungs-Radius",
+        "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary": "Gruppen-Ausschluss-Grenze",
+
+        "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed": "Positions-Glättungs-Geschwindigkeit",
+        "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "Winkel-Glättungs-Geschwindigkeit",
+        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed": "Rahmen-Glättungs-Geschwindigkeit",
+
+        "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors": "Interpoliere zwischen Ankerpunkten",
+        "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed": "Interpolationsgeschwindigkeit",
+        "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation": "Lineare Interpolation",
+
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "Foto in der Welt spawnen",
+
+        "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "Bewegungsunschärfe",
+        "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Bildschirmreflexionen",
+
+        "Settings.DescriptionField.NoTextTitle": "Mehr Informationen",
+        "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Zeigen Sie auf eine Einstellung, um ihre Beschreibung zu sehen.</closeall>",
 
         "LocomotionArchetype.Walk": "Gehen",
         "LocomotionArchetype.Fly": "Fliegen",
@@ -1393,7 +1442,7 @@
         "Settings.PreferSteamNetworking": "Bevorzuge Steam Networking Sockets",
         "Settings.DisableLAN": "LAN deaktivieren",
         "Settings.LegacyGripEquip": "Aktiviere altes Doppel-Greifen-Ausrüsten",
-        "Settings.LegacyWorldSwitcher": "Aktiviere alten Welten-Wechseler",
+        "Settings.LegacyWorldSwitcher": "Aktiviere alten Welten-Wechsler",
         "Settings.FetchIncompatibleSessions": "Zeige inkompatible Sitzungen",
         "Settings.DoNotSendReadStatus": "Lesebestätigungen nicht sofort senden",
         "Settings.MaxConcurrentAssetTransfers": "Max. gleichzeitige Asset-Übertragungen",
