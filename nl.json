@@ -9,7 +9,7 @@
         "General.Cancel": "Annuleer",
         "General.Continue": "Doorgaan",
         "General.Next": "Volgende",
-
+        "General.Previous": "Vorige",
         "General.Back": "Terug",
         "General.Confirm": "Bevestigen?",
         "General.Loading": "Laden...",
@@ -28,7 +28,17 @@
         "General.Create": "Creëer",
         "General.Creating": "Creëren...",
         "General.Buy": "Koop",
-
+        "General.Yes": "Ja",
+        "General.No": "Nee",
+        "General.ClearSelection" : "Selectie Weg",
+        "General.Off": "Uit",
+        "General.On": "Aan",
+        "General.Understand": "Ik Begrijp Het",
+        "General.Notice" : "Aankondiging",
+        "General.UnderstandEnable" : "Ik Begrijp Het, Zet Aan",
+        "General.Dismiss": "Afwijzen",
+        "General.Edit": "Bewerken",
+       
         "General.UI.SearchPrompt": "Zoeken...",
         "General.UI.SearchPromptLong": "Hier typen...",
         "General.UI.ToggleEditMode": "Schakel Edit Mode",
@@ -45,6 +55,9 @@
         "General.Sort.Ascending": "Oplopend",
         "General.Sort.Descending": "Aflopend",
 
+        "Worlds.Home" : "Thuis",
+        "Worlds.Tutorial" : "Inleiding",
+       
         "Locomotion.Noclip.Name": "Noclip",
         "Locomotion.Noclip.Description": "Eenvoudige vliegmodus zonder colisie, ideaal voor editing.",
         "Locomotion.Teleport.Name": "Teleporteren",
@@ -67,7 +80,7 @@
         "Interaction.SaveToInventory": "Opslaan in inventaris",
         "Interaction.Undo": "Ongedaan maken",
         "Interaction.Redo": "Herdoen",
-        "Interaction.EquipTool": "Vastgrijpen",
+        "Interaction.EquipTool": "Vastpakken",
         "Interaction.DequipTool": "Loslaten",
         "Interaction.ScalingEnabled": "Schalen Aan",
         "Interaction.ScalingDisabled": "Schalen Uit",
@@ -95,6 +108,30 @@
         "Interaction.ExportFile": "Exporteer Bestand",
         "Interaction.CopyLink": "Kopieer link",
 
+        "Inventory.OpenWorld": "Wereld Openen",
+        "Inventory.Equip": "Dragen",
+        "Inventory.Delete": "Verwijderen",
+        "Inventory.CreateDirectory": "Folder creëren",
+        "Inventory.SaveHeld": "Opslaan Vastgehouden Object",
+        "Inventory.GetURL": "Kopieer link",
+        "Inventory.Inventories": "Inventaris",
+        "Inventory.Share": "Delen",
+        "Inventory.Unshare": "NietDelen",
+        "Inventory.SaveAvatar": "Avatar Opslaan",
+        "Inventory.Favorite.Home": "Zet Als Huis",
+        "Inventory.Favorite.ProgressBar": "Zet Voortgangsbalk",
+        "Inventory.Favorite.AudioStreamController": "Zet Stream Controller",
+        "Inventory.Favorite.TextDisplay": "Zet Text Scherm",
+        "Inventory.Favorite.VideoPlayer": "Zet Video Speler",
+        "Inventory.Favorite.AudioPlayer": "Zet Geluidsspeler",
+        "Inventory.Favorite.InteractiveCamera": "Zet kamera",
+        "Inventory.Favorite.Keyboard": "Zet Toetsenbord",
+        "Inventory.Favorite.Avatar": "zet Avatar",
+        "Inventory.Favorite.WorldLoadingIndicator": "Zet Laadbalk",
+        "Inventory.Favorite.ColorDialog": "Zet Kleurenkeuzenmenu",
+        "Inventory.Favorite.Hyperlink": "Zet URL Scherm",
+        "Inventory.SpawnFacet": "Facet Spawnen",
+        
         "Dash.Screens.Home": "Thuis",
         "Dash.Screens.Worlds": "Werelden",
         "Dash.Screens.Contacts": "Contacten",
@@ -114,16 +151,24 @@
         "Dash.Exit.Header": "Verlaat {appName}",
         "Dash.Exit.ExitAndSave": "Verlaat en bewaar Thuis",
         "Dash.Exit.ExitAndDiscard": "Verlaat en vernietig Thuis",
+        "Dash.Exit.Sponsor": "Veel Dank Aan {name} Voor Dit Project Te Sponseren!",
+        "Dash.Exit.Sponsor.You": "JOU",
+        "Dash.Exit.Shoutouts": "Dit Project Is Ook Mogelijk Gemaakt Dankzij Deze Mensen:",
+        "Dash.Exit.Shoutouts.AndMore" : " En Nog Veel Meer!",
+        "Dash.Exit.Shoutouts.You" : "{name} (Dat Ben Jij! Bedankt!)",
         "Dash.Exit.ThankYou": "Bedankt en tot ziens!",
         "Dash.Exit.SubmittedBy": "Ingezonden door: {name}",
 
+        "Facets.FPS": "{fps}<size=61.803%> FPS</size>",
+        
         "World.Waiting": "Wachten...",
         "World.HostIsStarting": "Host begint sessie",
         "World.Loading": "Bezig met laden...",
         "World.LoadingFailed": "Mislukt",
         "World.LoadedAssets": "{assets} geladen van {total_assets}",
         "World.Downloading": "{bytes} Gedownload van {total_bytes}",
-
+        "World.Loaded": "Geladen",
+        
         "World.Connection.EstablishingConnection": "Verbinding tot stand brengen",
         "World.Connection.RequestingJoin": "Toegang Verzoekend",
         "World.Connection.Authenticating": "Authenticatie",
@@ -152,7 +197,10 @@
         "World.Error.InvalidAddress": "Ongeldig adres",
         "World.Error.NoPort": "Geen poort gespecificeerd",
         "World.Error.IncompatibleVersion": "Incompatibele {appName}-versie",
-
+        "World.Error.HostBlocked": "Host Geblokkeerd",
+        "World.Error.HostBlockedDetail": "Je Bent Door De Host Geblokkeerd",
+        "World.Error.WorldCrash": "Wereld Gecrasht",
+        "World.Error.WorldCrashDetail" : "Fatalen Error Met Updaten Van De Wereld",
         "World.Error.Unknown": "Onbekende fout",
 
         "World.Config.Name": "Wereldnaam:",
@@ -240,7 +288,7 @@
         "World.Category.Featured": "Aanbevolen",
         "World.Category.PublishedWorlds": "Gepubliceerde werelden",
         "World.Category.ActiveSessions": "Actieve sessies",
-
+        "World.Category.ContactsSessions": "Contacten Sessie",
         "World.Category.HeadlessSessions": "Hoofdloze Sessies",
         "World.Category.Social": "Sociaal",
         "World.Category.Games": "Spelletjes",
@@ -250,10 +298,12 @@
         "World.Category.Random": "willekeurig",
         "World.Category.MyWorlds": "Mijn werelden",
         "World.Category.Custom": "Aangepast",
+        "World.Category.GroupWorlds": "Groep Werelden",
 
         "World.AccessLevel.Anyone": "Iedereen",
         "World.AccessLevel.RegisteredUsers": "Geregistreerde gebruikers",
-
+        "World.AccessLevel.Contacts": "Contacten",
+        "World.AccessLevel.ContactsPlus": "Contacten+",
         "World.AccessLevel.LAN": "LAN",
         "World.AccessLevel.Private": "Privé (alleen op uitnodiging)",
 
@@ -283,7 +333,7 @@
         "World.Filter.MyWorlds": "Mijn werelden",
         "World.Filter.SessionFiltering": "Sessiefiltering:",
         "World.Filter.MinimumUsers": "Minimale Aantal Gebruikers: <b>{n}</b>",
-
+        "World.Filter.MinimumContacts": "Minimale Aantal Contacten: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Alleen Headless Hosts",
         "World.Filter.MaxAccessLevel": "Maximaal toegangsniveau:",
         "World.Filter.MinimumUptime": "Minimale uptime:",
@@ -299,13 +349,15 @@
         "World.Edit.AccessPatreon": "Patreon Supporters",
         "World.Edit.AccessPublic": "Iedereen (Openbaar)",
 
+        "Tools.AvatarCreator": "Avatar Maker",
         "Tools.FullBodyCalibrator": "Full Body Kalibrator",
         "Tools.CameraStreaming": "Camera / Streamen",
         "Tools.CreateNewWorld": "Creëer een nieuwe wereld",
-
+        "Tools.Debug": "Debug",
         "Tools.StreamAudio": "Audio Streamen",
         "Tools.Setup2FA": "Stel 2FA in",
 
+        "Tools.StreamAudio.Dialog.Title" : "Creen Audio Stream",
         "Tools.StreamAudio.Start": "Begin met streamen",
         "Tools.StreamAudio.Bitrate": "Bitsnelheid: {bitrate} kbps",
         "Tools.StreamAudio.Title": "{username} Audiostream",
@@ -321,20 +373,133 @@
         "Options.Nameplates.All": "Naamplaten: Alle",
         "Options.Nameplates.NonContacts": "Naamplaten: niet-contacten",
         "Options.Nameplates.Hide": "Naamplaten: Verborgen",
+        "Options.Nameplates.DefaultStyle": "Gebruik Normale Naamborden",
+        "Options.Nameplates.CustomStyle": "Sta Aangepaste Naamborden Toe",
 
         "Indicator.OnlineUsers": "Online Gebruikers: {num_registered} (~{num_total})",
+        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, Een {user} Anderen {users}} in VR",
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, Een {user} Anderen {users}} in Desktop",
+        
+        "Indicator.ServerStatus.Status": "Cloud Status",
+        "Indicator.ServerStatus.Good": "Goed",
+        "Indicator.ServerStatus.Slow": "Sloom",
+        "Indicator.ServerStatus.Down": "Uitval",
+        "Indicator.ServerStatus.NoInternet": "Geen Internet",
 
         "Indicator.Sync.AllSynced": "Alles gesynchroniseerd",
         "Indicator.Sync.SyncingItems": "Synchroniseren {item_count,plural, one {# item} other {# items}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "Uploaden {variant_count,plural, one {# asset variant} other {# asset variants}}",
         "Indicator.Sync.SyncError": "Synchronisatiefout! <size=50%>Bekijk de log voor details</size>",
+        "Indicator.Sync.StorageFull": "Geen Ruimte Meer! <size=50%>Kan niet synchroniseren</size>",
 
+        "Indicator.Storage.StorageFull": "Opslag Vol",
+        "Indicator.Storage.Usage": "{storage_used} Van {storage_max}<br><size=61.803%>Opslag Gebruikt</size>",
+       
         "Indicator.LiveHiddenMessage": "(informatie verborgen terwijl je Live bent)",
 
+        "Login.InvalidCredentials": "Onjuiste Gegevens",
+        "Login.InvalidCredentials.Description": "Controleer je inloggegevens nogmaals en probeer het opnieuw of druk op \"Wachtwoord Vergeten?\"",
+       
+        "Login.InvalidLogin": "Onjuiste Gegevens",
+        "Login.InvalidLogin.Description": "Controleer je inloggegevens nogmaals en probeer het opnieuw of druk op \"Wachtwoord Vergeten?\"",
+        
+        "Login.MalformedUID": "Onjuiste Apparaat Informatie",
+        "Login.MalformedUID.Description": "Probeer het opnieuw te installeren of neem contact op met de ondersteuning op {supportUrl}.",
+       
+        "Login.MissingUID": "Ontbrekende Apparaat Informatie",
+        "Login.MissingUID.Description": "Probeer het opnieuw te installeren of neem contact op met de ondersteuning op {supportUrl}.",
+        
+        "Register.MissingUID": "Onjuiste Apparaat Informatie",
+        "Register.MissingUID.Description": "Probeer het opnieuw te installeren of neem contact op met de ondersteuning op {supportUrl}.",
+        
+        "Register.MalformedUID": "Onjuiste Apparaat Informatie",
+        "Register.MalformedUID.Description": "Probeer het opnieuw te installeren of neem contact op met de ondersteuning op {supportUrl}.",
+        
+        "Login.MissingLogin": "Geen Informatie Gegeven",
+        "Login.MissingLogin.Description": "Bent je vergeten je gegevens op te geven?",
+        
+        "Login.InvalidRecoveryCode": "Onjuiste recovery code",
+        "Login.InvalidRecoveryCode.Description": "Controleer uw herstelcode en probeer het opnieuw.",
+        
+        "Login.UnsupportedAuthentication": "Niet Ondersteunde Authenticatiemethode",
+        "Login.UnsupportedAuthentication.Description": "We ondersteunen deze authenticatiemethode niet. Probeer een andere.",
+        
+        "Login.EmailNotVerified": "Email Is Niet Geverificeerd",
+        "Login.EmailNotVerified.Description": "Uw e-mailadres is niet geverifieerd. Controleer je inbox op een e-mail van ons en controleer je spammap.",
+        
+        "Login.AccountTempLocked": "Je Account Is Geblokkeerd.",
+        "Login.AccountTempLocked.Description": "Neem contact op met Moderatie via: {moderationUrl}.",
+        
+        "Login.AccountBanned": "Je Account Is Verbannen.",
+        "Login.AccountBanned.Description": "Neem contact op met Moderatie via: {moderationUrl}.",
+        
+        "Login.DuplicateAccount": "Dubbel Account",
+        "Login.DuplicateAccount.Description": "Neem contact op met de ondersteuning via: {supportUrl}.",
+
+        "Login.UnknownError": "Onbekende Fout",
+        "Login.UnknownError.Description": "Er is een onbekende fout opgetreden tijdens het inloggen. Neem contact op met de ondersteuning via support.resonite.com",
+ 
+        "Register.MissingRequest": "Ontbrekende Regestratiegegevens",
+        "Register.MissingRequest.Description": "We konden geen registratiegegevens vinden. Zorg ervoor dat je deze bij je inschrijving vermeldt.",
+        
+        "Register.InvalidEmail": "Ongeldige Email Adres",
+        "Register.InvalidEmail.Description": "Je e-mailadres is ongeldig.",
+        
+        "Register.MissingUsername": "Ontbrekende Gebruikersnaam",
+        "Register.MissingUsername.Description": "Heb je je gebruikersnaam opgegeven?",
+        
+        "Register.MissingEmail": "Ontbrekende Email",
+        "Register.MissingEmail.Description": "Heb je je e-mailadres opgegeven?",
+        
+        "Register.UsernameTooLong": "Gebruikersnaam Te Lang",
+        "Register.UsernameTooLong.Description": "We staan ​​gebruikersnamen van maximaal 32 tekens toe.",
+        
+        "Register.UsernameContainsAmpersand": "Gebruikersnaam Kan Geen @ Bevatten",
+        "Register.UsernameContainsAmpersand.Description": "Gebruikersnaam Kan Geen @ Bevatten.",
+        
+        "Register.UsernameStartsWithU": "Gebruikersnaam Kan Niet Met U- Beginnen",
+        "Register.UsernameStartsWithU.Description": "Gebruikersnaam Kan Niet Met U- Beginnen.",
+        
+        "Register.InvalidUsername": "Ongeldige Gebruikersnaam",
+        "Register.InvalidUsername.Description": "Je gebruikersnaam is ongeldig.",
+        
+        "Register.InvalidDateOfBirth": "Ongeldige GeboortenJaar",
+        "Register.InvalidDateOfBirth.Description": "Je geboortedatum is ongeldig.",
+        
+        "Register.UserContainsBlockedTerms": "Gebruikersnaam Bevat Geblokkeerde Woorden",
+        "Register.UserContainsBlockedTerms.Description": "Je gebruikersnaam bevat geblokkeerde woorden. Als je denkt dat dit een fout is neem dan contact op {supportUrl}.",
+        
+        "Register.MissingPassword": "Ontbrekent Wachtwoord",
+        "Register.MissingPassword.Description": "Je hebt geen wachtwoord opgegeven.",
+        
+        "Register.InvalidPassword": "Onjuist Wachtwoord",
+        "Register.InvalidPassword.Description": "Je wachtwoord is ongeldig. Het moet minimaal 8 tekens, 1 cijfer, 1 hoofdletter en 1 kleine letter bevatten.",
+        
+        "Register.EmailAlreadyRegistered": "Email Is Al Geregistreerd",
+        "Register.EmailAlreadyRegistered.Description": "Er bestaat al een account met dit e-mailadres. Als je je wachtwoord bent vergeten, kan je op \"Wachtwoord vergeten\" klikken. Of je kan contact opnemen met de ondersteuning via {supportUrl}.",
+        
+        "Register.UsernameAlreadyRegistered": "Gebruikersnaam Is Al Geregistreerd",
+        "Register.UsernameAlreadyRegistered.Description": "Er bestaat al een account met deze gebruikersnaam. Als u uw wachtwoord bent vergeten, kunt u op \"Wachtwoord vergeten\" klikken. Of u kunt contact opnemen met de ondersteuning via {supportUrl}.",
+        
+        "Register.ErrorCheckingUserId": "Error Met Het Checken Van GebruikersID",
+        "Register.ErrorCheckingUserId.Description" : "Neem contact op met de ondersteuning via {supportUrl}.",
+
+        "Recovery.MissingEmail" : "Ontbrekende E-mail",
+        "Recovery.MissingEmail.Description" : "Heb je je email opgegeven?",
+
+        "Recovery.IncorrectEmail" : "Incorrecte E-mail",
+        "Recovery.IncorrectEmail.Description" : "Je hebt een onjuist e-mailadres ingevoerd voor wachtwoordherstel. Controleer je gegevens en probeer het opnieuw.",
+
+        "Recovery.NoPasswordSetup" : "Geen Wachtwoord Ingesteld", 
+        "Recovery.NoPasswordSetup.Description" : "Neem contact op met de ondersteuning via {supportUrl}.",
+
+        "Register.UnknownError": "Onbekende Error",
+        "Register.UnknownError.Description": "Er is een onbekende fout opgetreden tijdens de registratie. Neem contact op met de ondersteuning via {supportUrl}.",
+        
         "Account.Login": "Log in",
         "Account.Logout": "Log uit",
         "Account.Register": "Registreer",
-
+        "Account.Saml2" : "Inloggen met SAML 2.0",
         "Account.LoginOrRegister": "Login / Registreer",
         "Account.LogoutConfirm": "Echt Uitloggen?",
         "Account.LoggingIn": "Inloggen...",
@@ -363,7 +528,17 @@
         "Account.ErrorEmailMismatch": "Emails komen niet overeen!",
         "Account.ErrorLoginError": "Login fout:",
         "Account.RegistrationSuccess": "<size=120%>Succes!</size><br><br>Er is een e-mail verzonden naar {email} met een verificatielink.<br><br>Zodra je deze link opent, loggen we je automatisch in zolang dit bericht open is.<br><br>Als je problemen ondervindt e-mail ons dan naar hello@{appName}.com of stuur een bericht in onze officiële Discord, discord.gg/resonite",
+        "Account.BirthMonth": "Geboortemaand:",
+        "Account.BirthDay": "Geboortedag:",
+        "Account.BirthYear": "Geboortejaar:",
+        "Account.PoliciesAgreement": "Ik Ga Akkoord Met De <color=#22B2FF>terms of service</color> en <color=#22B2FF>privacy beleid</color>",
+        "Account.AlternateMethods" : "Login Plaats Daarvan In Met Een Service Van Derden:",
 
+        "Account.Saml2.Title" : "SAML 2.0",
+        "Account.Saml2.Select" : "Selecteer Alstublieft De SAML 2.0 provider die je wilt gebruiken:",
+        "Account.Saml2.LoggingIn" : "Wachten tot het inloggen is voltooid (check je web browser)...",
+        
+        "Account.TOTP.Title" : "Tweevoudige Authenticatie",
         "Account.TOTP.Initializing": "De status van 2FA controleren voor uw account...",
         "Account.TOTP.Code.Header": "Geheime code",
         "Account.TOTP.Code.Description": "Eerst moet u een geheime code invoeren in uw TOTP-verificatie-app, zoals <b>Authy</b> of <b>Google Authenticator</b>.<br><br>Wij raden aan dit te doen door de QR-code te scannen, maar u kunt de geheime code ook handmatig invoeren. <b>Deel deze code nooit met anderen.</b><br><br>Als u in VR bent, kunt u naar het bureaublad overschakelen door op F8 te drukken.",
@@ -373,7 +548,7 @@
         "Account.TOTP.RecoveryCodes.Description": "Bewaar deze codes op een veilige plaats. Ze kunnen worden gebruikt om de toegang tot uw account te herstellen als u uw telefoon verliest of beschadigt. Elke code kan slechts één keer worden gebruikt. <b>Deel ze nooit met iemand.</b> Als u ze verliest, verliest u <color=red>PERMANENT</color> de toegang tot uw account.",
         "Account.TOTP.RecoveryCodes.Codes": "Codes:",
         "Account.TOTP.Activate.Header": "Activeer 2FA",
-
+        "Account.TOTP.Activate.Description": "Om de 2FA op uw account te activeren, gebruikt u het 6-cijferige token dat door uw authenticator-app is gegenereerd om er zeker van te zijn dat alles correct werkt.<br><br>Eenmaal geactiveerd, moet u de code gebruiken om bepaalde bewerkingen te bevestigen.",
         "Account.TOTP.Activate.Token": "6-cijferige token:",
         "Account.TOTP.Activate.TokenField": "Voer hier je token in...",
         "Account.TOTP.Activate.Activate": "Activeren",
@@ -381,13 +556,22 @@
         "Account.TOTP.Activate.InvalidToken": "Ongeldige Token!",
         "Account.TOTP.Message.AlreadySetup": "2FA is al ingesteld op uw account!",
         "Account.TOTP.Message.Error": "Onverwachte fout! Probeer het later nog eens.",
-
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Gefeliciteerd!</size><br><br>Uw account is nu ingesteld met 2FA voor extra bescherming!<br><br>U kunt dit optioneel inschakelen voor accountaanmelding met de opdracht /enableLogin2FA.",
         "Account.TOTP.Deactivate.Header": "Deactiveer 2FA",
         "Account.TOTP.Deactivate.Description": "2FA is nu <b><color=green>ingesteld en actief op uw account</color></b>. Als u het moet deactiveren (bijv. Na deactivatie kunt u 2FA opnieuw instellen, wat een geheel nieuwe geheime code en een nieuwe set herstelcodes oplevert.<br><br>Als u uw telefoon verliest en opnieuw 2FA moet instellen, raden we <b>STERK</b> u aan dit onmiddellijk te doen, omdat elke herstelcode slechts één keer kan worden gebruikt en als deze op is, wordt u volledig geblokkeerd van uw account.",
         "Account.TOTP.Deactivate.Deactivate": "Deactiveren",
         "Account.TOTP.Deactivate.Deactivating": "Deactiveren...",
         "Account.TOTP.Message.DeactivationComplete": "2FA is met succes gedeactiveerd voor uw account.<br><br>Uw account loopt nu een verhoogd risico!<br><br>We raden u sterk aan om 2FA onmiddellijk opnieuw in te stellen, vooral als u een herstelcode hebt gebruikt omdat u uw telefoon bent kwijtgeraakt.",
 
+        "Account.Type.Standard" : "Standard Account",
+        "Account.Type.Business" : "Business Account",
+        "Account.Type.Patreon" : "Patreon Supporter",
+        "Account.Type.Mentor" : "{platform} Mentor",
+        "Account.Type.Moderator" : "{platform} Moderator",
+        "Account.Type.Team" : "{platform} Team",
+
+        "Avatar.Badge.Live" : "LIVE",
+        
         "2FA.Header": "2FA verificatie",
         "2FA.Token": "6-cijferige token:",
 
@@ -396,6 +580,7 @@
         "Profile.Status.Busy": "Niet Storen",
         "Profile.Status.Invisible": "Onzichtbaar",
         "Profile.Status.Offline": "Offline",
+        "Profile.Status.Headless": "Hoofdloze Host",
 
         "Session.Tab.Settings": "Instellingen",
         "Session.Tab.Users": "Gebruikers",
@@ -408,6 +593,12 @@
         "Session.Permission.PermissionOverrideCount": "Rechten Overschrijven: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Wis Gebruikersoverschrijvingen",
 
+        "Session.JoinVerifier.EnableHeader" : "Aangepaste Deelnamenvereficatie Activeren?",
+        "Session.JoinVerifier.EnableText" : "<color=red>WAARSCHUWING:</color> U staat op het punt aangepaste deelnameverificatie in te schakelen die deel uitmaakt van de huidige wereld. Voordat u dit doet, moet u ervoor zorgen dat u de maker van de wereld vertrouwt, aangezien een aangepaste verificateur de standaard toegangsregels voor sessies kan omzeilen en de toegang voor gebruikers kan toestaan ​​of blokkeren met behulp van zijn eigen regels.",
+        "Session.JoinVerifier.Label" : "Gebruik Een AAngepaste Deelnameverificatie: {name}",
+        "Session.JoinVerifier.ComponentWarning" : "<color=red>WAARSCHUWING:</color> Op dit moment is er geen mechanisme om te voorkomen dat er met de verifier wordt geknoeid zodra deze is ingeschakeld. Als het knoeien met de ProtoFlux-installatie voor verificatie een probleem is, GEBRUIK deze functie dan NIET en schakel deze NIET IN in uw werelden.",
+        "Session.JoinVerifier.SetCustomVerifier" : "Stel In Als Aangepaste Deelnameverificatie",
+        
         "Permissions.NotAllowedToSpawn": "Je mag hier geen dingen spawnen.",
         "Permissions.NotAllowedToSave": "Je mag in deze wereld geen voorwerpen opslaan.",
         "Permissions.NotAllowedToSwapAvatar": "Je mag hier niet wisselen naar een aangepaste avatar.",
@@ -425,17 +616,25 @@
         "Contacts.AcceptRequest": "Accepteer Verzoek",
         "Contacts.IgnoreRequest": "Negeer Verzoek",
         "Contacts.Invite": "Nodig Hier Uit",
+        "Contacts.RevokeInvite": "Uitnodeging Intrekken",
         "Contacts.BanFromAllSessions": "Verban van mijn gehoste sessies",
         "Contacts.UnbanFromAllSessions": "Ontban van mijn gehoste sessies",
         "Contacts.BanFromCurrentWorld": "Verban uit huidige wereld",
         "Contacts.UnbanFromCurrentWorld": "Ontban uit huidige wereld",
         "Contacts.RecordingVoiceMessage": "Neemt Stem Op...",
+        "Contacts.Unblocked" : "Ongeblokkeerd",
+        "Contacts.AvatarBlock" : "Blokkeer Avatar",
+        "Contacts.MutualBlock" : "Wederzijdse Blok",
+        "Contacts.SelfAccount": "Mijn Account",
+        "Contacts.SearchPrompt": "Contacten Zoeken...",
+        "Contacts.WriteMessage": "Schrijf Een Bericht...",
 
         "Contacts.InSession": "In {name}",
         "Contacts.InPrivate": "In privéwereld",
-
+        "Contacts.InContactsOnly": "In Alleen Contacten Wereld",
         "Contacts.InHidden": "In Verborgen wereld",
-
+        "Contacts.InHiddenContactsOnly": "In Veborgen, Alleen Contacten Wereld",
+        "Contacts.InHiddenContactsPlus": "In Veborgen, Contacten+ Wereld",
         "Contacts.InLAN": "In LAN Wereld",
         "Contacts.UsingDifferentVersion": "Gebruikt Versie {version}",
         "Contacts.RequestSent": "Verzoek verzonden",
@@ -444,6 +643,7 @@
         "Contacts.Blocked": "Geblokkeerd",
         "Contacts.SearchResult": "Zoekresultaat",
         "Contacts.Bot": "Bot-account",
+        "Contacts.Migrated": "Contact Is Niet Gemigreerd",
 
         "Notifications.IsOnline": "Is nu online",
         "Notifications.IsOnlineOnDifferentVersion": "Is nu online <size=75%>(Met versie: {version})</size>",
@@ -486,6 +686,10 @@
         "Undo.ExtractMaterialsFromHierarchy": "Materialen uit hiërarchie halen",
         "Undo.BatchConvertMaterials": "Batch convert materialen",
 
+        "Tooltips.Brush.ChangeColor" : "Verander Kleur",
+        "Tooltips.Brush.IncrementSize" : "Afmeting vergroten",
+        "Tooltips.Brush.DecrementSize" : "Afmeting Verkleinen",
+        
         "Tooltips.Dev.CreateNew": "Maak nieuw...",
         "Tooltips.Dev.Selection": "Selectie: {mode}",
         "Tooltips.Dev.DevMode.Off": "Ontwikkelaarsmodus: Uit",
@@ -494,6 +698,20 @@
         "Tooltips.Dev.DeselectAll": "Deselecteer alles",
         "Tooltips.Dev.DestroySelected": "Verwijder geselecteerde",
         "Tooltips.Dev.ConfirmDestroySelected": "ECHT Geselecteerde Vernietigen",
+
+        "Tooltips.Dev.GizmoOptions" : "Gizmo Opties",
+        "Tooltips.Dev.SelectParent" : "Seleceer Parent",
+        "Tooltips.Dev.LocalSpace" : "Locale Ruimte",
+        "Tooltips.Dev.GlobalSpace" : "Globale Ruimte",
+        "Tooltips.Dev.Translation" : "Vertaling",
+        "Tooltips.Dev.Rotation" : "Draai",
+        "Tooltips.Dev.Scale" : "Afmeting",
+
+        "Tooltips.Dev.Selection.Single": "Enkele",
+        "Tooltips.Dev.Selection.Multi": "Meerdere",
+
+        "Tooltips.Dev.Interaction.Tip": "Tip",
+        "Tooltips.Dev.Interaction.Projection": "Projectie",
 
         "Tooltip.Color.Picker": "Kleur kiezer",
 
@@ -512,6 +730,10 @@
         "Tooltip.Light.Spot": "Spot",
         "Tooltip.Light.Sun": "Zon",
 
+        "Tooltip.Light.Shadows.None": "Geen Schaduwen",
+        "Tooltip.Light.Shadows.Hard": "Harde Schaduwen",
+        "Tooltip.Light.Shadows.Soft": "Zachte Schaduwen",
+       
         "Tooltip.MeshVisibility.KeepShadow": "Behoud schaduw",
         "Tooltip.MeshVisibility.ShadowOff": "Zet schaduwen Uit",
         "Tooltip.MeshVisibility.ShadowOn": "Zet schaduwen Aan",
@@ -533,6 +755,8 @@
 
         "Tooltip.Mesh.Edit": "Bewerk Mesh",
 
+        "Tooltip.Cartridge.Eject": "Bol Uitwerpen",
+        
         "Tooltip.Microphone.Format.WAV": "WAV",
         "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
         "Tooltip.Microphone.Format.FLAC": "FLAC",
@@ -540,6 +764,45 @@
         "Tooltip.Microphone.ModePress": "Druk om te starten/stoppen met opnemen",
         "Tooltip.Microphone.SourceRaw": "Rauw",
         "Tooltip.Microphone.SourceFiltered": "Gefilterd & Genormaliseerd",
+
+        "Tooltip.ProtoFlux.Drive" : "Besturen",
+        "Tooltip.ProtoFlux.Source" : "Bron",
+        "Tooltip.ProtoFlux.Reference" : "Referentie",
+        "Tooltip.ProtoFlux.Write" : "Schrijf",
+        "Tooltip.ProtoFlux.Proxy" : "Proxy",
+        "Tooltip.ProtoFlux.CreateLocal" : "Lokaal Creëren",
+        "Tooltip.ProtoFlux.CreateStore" : "Opslag Creëren",
+        "Tooltip.ProtoFlux.CreateDataModelStore" : "Datamodelopslag Creëren",
+        "Tooltip.ProtoFlux.Overview" : "Schakel De OVerzichtsmodus In",
+        "Tooltip.ProtoFlux.NodeBrowser" : "Nodes Zoeken",
+        "Tooltip.ProtoFlux.PackInPlace" : "Inplaats Verpakken",
+        "Tooltip.ProtoFlux.PackInto" : "Pak In <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.Unpack" : "Uitpakken <size=50%>{name}</size>",
+        "Tooltip.ProtoFlux.ExplicitCast" : "Expliciet Cast\n<size=50%>(<color=red>Warning:</color> Potential Data Loss)</size>",
+
+        "Tooltip.Meter.Mode.Ray" : "Modus: Stralen",
+        "Tooltip.Meter.Mode.Perpendicular" : "Modus: Loodrecht",
+        "Tooltip.Meter.Mode.Drag" : "Modus: Slepen",
+
+        "Tooltip.Meter.Points.Two" : "Twee Punten",
+        "Tooltip.Meter.Points.Multiple" : "Meerdere Punten",
+
+        "Tooltip.Meter.ObjectSpace" : "Meten in objectruimte",
+        "Tooltip.Meter.WorldSpace" : "Meten in wereldruimte",
+
+        "Tooltip.Glue.Mode.BakeMeshes" : "Modus: meshes bakken",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "Modus: skinned meshes bakken",
+        "Tooltip.Glue.Mode.ParentObjects" : "Modus: Parent objecten",
+
+        "Tooltip.RigTransfer.ClearSource" : "Oorsprong Opschonen",
+
+        "Tooltip.ComponentClone.SingleInstanceOn" : "Enkele Instantie: Aan",
+        "Tooltip.ComponentClone.SingleInstanceOff" : "Enkele Instantie: Uit",
+        "Tooltip.ComponentClone.ClearTemplate" : "Sjabloon Opschonen",
+
+        "ProtoFlux.UI.Call" : "Roepen",
+        "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> Roepen",
+        "ProtoFlux.UI.NodeBrowser.Title" : "ProtoFlux Nodes",
 
         "CreateNew.Back": "<<< <i>Terug</i>",
         "CreateNew.EmptyObject": "Leeg Object",
@@ -554,10 +817,12 @@
         "CreateNew.Object.VideoPlayer": "Video Speler",
         "CreateNew.Object.SpawnArea": "Spawn gebied",
         "CreateNew.Object.SpawnPoint": "Spawn Punt",
+        "CreateNew.Object.UIXCanvas": "UIX Canvas",
+        "CreateNew.Object.Facet": "Facet",
 
         "CreateNew.Object.FogVolume": "Mist volume",
         "CreateNew.Object.FogVolume.Additive": "Additief",
-
+        "CreateNew.Object.FogVolume.Alpha": "Alfa",
         "CreateNew.Object.FogVolume.Multiplicative": "Multiplicatief",
         "CreateNew.Object.FogVolume.Gradient": "KleurOvergang",
 
@@ -565,29 +830,36 @@
         "CreateNew.Text.Basic": "Eenvoudig",
         "CreateNew.Text.Outline": "Omlijning",
 
+        "CreateNew.Editor": "Bewerker",
         "CreateNew.Editor.UserInspector": "Gebruikers Inspector",
         "CreateNew.Editor.LightSourcesWizard": "Wereldlichtbronnen Wizard",
         "CreateNew.Editor.TextRendererWizard": "Wereld Text Renderer Wizard",
         "CreateNew.Editor.AssetOptimizationWizard": "Asset Optimalisatie Wizard",
-
+        "CreateNew.Editor.CubemapCreator": "Cubemap Creërder",
         "CreateNew.Editor.ReflectionProbes": "Reflectie Probe Wizard",
 
+        "CreateNew.3DModel": "3D Model",
         "CreateNew.3DModel.Triangle": "Driehoek",
         "CreateNew.3DModel.Box": "Kubus",
         "CreateNew.3DModel.Sphere": "Bol",
-
+        "CreateNew.3DModel.Capsule": "Capsule",
         "CreateNew.3DModel.Cone": "Kegel",
-
+        "CreateNew.3DModel.Cylinder": "Cilinder",
         "CreateNew.3DModel.Quad": "Vierhoek",
+        "CreateNew.3DModel.Grid": "Raster",
+        "CreateNew.3DModel.Torus": "Torus",
 
+        "CreateNew.Collider": "Collider",
         "CreateNew.Collider.Box": "Kubus",
         "CreateNew.Collider.Sphere": "Bol",
-
+        "CreateNew.Collider.Capsule": "Capsule",
+        "CreateNew.Collider.Cylinder": "Cilinder",
         "CreateNew.Collider.Cone": "Kegel",
+        "CreateNew.Collider.Mesh": "Mesh",
 
         "CreateNew.Light": "Licht",
         "CreateNew.Light.Point": "Punt",
-
+        "CreateNew.Light.Spot": "Spot",
         "CreateNew.Light.Directional": "Directioneel",
 
         "CreateNew.Materials": "Materialen",
@@ -597,6 +869,7 @@
         "CreateNew.Directory.Error.LongName": "Naam is te lang:",
         "CreateNew.Directory.Error.InvalidName": "Ongeldige naam:",
 
+        "AvatarCreator.Title": "Avatar Creërder",
         "AvatarCreator.Instructions": "Lijn de avatarobjecten uit met de referenties van de headset en controller (optioneel) en druk op Maken om ze naar een avatar te converteren",
         "AvatarCreator.UseSymmetry": "Gebruik symmetrie",
         "AvatarCreator.ShowToolAnchors": "Toon gereedschapsankers",
@@ -628,12 +901,13 @@
         "Importer.Image.Prompt": "Wat importeert u?",
         "Importer.Image.Regular": "Afbeelding / textuur",
         "Importer.Image.Screenshot": "{appName} Foto<size=50%>(Hier opgenomen)</size>",
-
+        "Importer.Image.PixelArt" : "Pixel Art",
         "Importer.Image.360": "360 foto / skybox",
         "Importer.Image.StereoPhoto": "Stereo Foto",
         "Importer.Image.Stereo360": "Stereo 360 Foto",
         "Importer.Image.180": "180 Foto",
         "Importer.Image.Stereo180": "Stereo 180 Foto",
+        "Importer.Image.LUT": "LUT",
 
         "Importer.ImageVideo.LayoutPrompt": "Welke lay-out gebruikt het?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Zij aan Zij LR",
@@ -641,8 +915,12 @@
         "Importer.ImageVideo.LayoutVerticalLR": "Boven elkaar Links-Rechts",
         "Importer.ImageVideo.LayoutVerticalRL": "Boven elkaar Rechts-Links",
 
+        "Importer.Model.Title": "Importeer Model",
         "Importer.Model.Prompt": "Wat importeert u?",
-
+        "Importer.Model.Regular": "3D Model",
+        "Importer.Model.3DScan": "3D Scan",
+        "Importer.Model.CAD": "CAD Model",
+        "Importer.Model.PointCloud": "Point Cloud",
         "Importer.Model.VertexColorModel": "Vertex Gekleurd Model",
         "Importer.Model.AdvancedSettings": "Geavanceerde Instellingen",
         "Importer.Model.ModelKindPrompt": "Wat voor soort 3D Model?",
@@ -703,21 +981,36 @@
         "Importer.Model.Advanced.PositionAtOrigin": "Positioneer Op Oorsprong",
         "Importer.Model.Advanced.AssetsOnObject": "Plaats Assets Op Object",
 
+        "Importer.Video.Title": "Importeer Video",
         "Importer.Video.Prompt": "Wat wil je Importeren?",
-
-        "Importer.Video.Depth": "Diepte video",
-
+        "Importer.Video.Regular": "Video",
+        "Importer.Video.360": "360° Video",
+        "Importer.Video.Stereo": "Stereo video",
+        "Importer.Video.Stereo360": "Stereo 360° Video",
+        "Importer.Video.Depth": "Diepte Video",
+        "Importer.Video.180": "180° Video",
+        "Importer.Video.Stereo180": "Stereo 180° Video",
         "Importer.Video.Depth.Prompt": "Diepte Preset",
         "Importer.Video.Depth.Default": "Standaard",
 
+        "Importer.Slices.Title": "Image slices als volumetrische textuur",
+        "Importer.Slices.TitleGrayscale": "Image slices als volumetrische textuur (grijs)",
+        "Importer.Slices.Description": "Verwerk alle afbeeldingsbestanden in de map tot een volumetrische textuur",
+        
+        "Exporter.Title": "Exporteer",
+        "Exporter.FileName": "Bestandsnaam:",
+        "Exporter.ExportAs": "Exporteer Als:",
+        "Exporter.Export": "Exporteer",
+        "Exporter.Exporting": "Exporteeren..",
+        
         "NewWorld.Title": "Nieuwe Wereld",
-
+        "NewWorld.SessionTitle": "Newe Sessie",
         "NewWorld.Template": "Wereld Sjabloon:",
         "NewWorld.CustomPreset": "Aangepast Sjabloon:",
         "NewWorld.SessionSettings": "Sessie Instellingen:",
         "NewWorld.UnsafeMode": "Onveilige Modus:",
         "NewWorld.Port": "Poort:",
-
+        "NewWorld.AutoPort": "Automatisch:",
         "NewWorld.DefaultName": "{name} Wereld",
 
         "FullBody.Title": "Full Body Calibratie",
@@ -786,7 +1079,7 @@
         "CameraControl.Take360Photo": "360 Foto",
 
         "CameraControl.Mode.SmoothPOV": "Gestabiliseerd POV",
-
+        "CameraControl.Mode.ThirdPerson": "Derde Persoon",
         "CameraControl.Mode.Group": "Groep",
         "CameraControl.Mode.World": "Wereld",
         "CameraControl.Mode.Manual": "Manueel",
@@ -816,12 +1109,16 @@
         "CameraControl.Positioning.AngleOffset": "Hoek offset",
         "CameraControl.Positioning.Distance": "Afstand",
         "CameraControl.Positioning.Height": "Hoogte",
+        "CameraControl.Positioning.FirstPersonPitch": "Hoek Voor Eerste Persoon",
+        "CameraControl.Positioning.FirstPersonRoll": "Draai Voor Eerste Persoon",
+        "CameraControl.Positioning.FirstPersonOffset": "Compensatie Voor Eerste Persoon",
+        "CameraControl.Positioning.Reset": "Reset",
 
         "CameraControl.Control.AnyoneCanInteract": "Iedereen kan Bedienen",
         "CameraControl.Control.RenderPreviewForEveryone": "Render Preview Voor Iedereen",
         "CameraControl.Control.RenderPrivateUI": "Render Privé UI",
         "CameraControl.Control.MotionBlur": "Bewegingsonscherpte",
-
+        "CameraControl.Control.ScreenSpaceReflections": "Reflectie Van De Schermruimte",
         "CameraControl.Control.SpawnPhotoInWorld": "Spawn Foto in De wereld",
         "CameraControl.Control.FlipPreview": "Voorbeeld Omdraaien",
         "CameraControl.Control.GroupDetectionRadius": "Groepsdetectieradius: {n} m",
@@ -830,6 +1127,7 @@
         "CameraControl.Control.AngleSmoothSpeed": "Hoek Smooth Snelheid: {n}",
         "CameraControl.Control.FramingSmoothSpeed": "Framing Smooth Snelheid: {n}",
 
+        "CameraControl.OBS.IP": "OBS Websocket IP:",
         "CameraControl.OBS.Password": "OBS Wachtwoord (optioneel):",
         "CameraControl.OBS.Connect": "Verbind",
         "CameraControl.OBS.Instructions": "Zorg ervoor dat OBS actief is en dat de obs-websocket plug-in is geïnstalleerd",
@@ -847,8 +1145,13 @@
         "CameraControl.OBS.DisconnectedPage": "OBS Verbinding Verbroken",
         "CameraControl.OBS.ReturnToConnect": "Ga terug naar de verbindingspagina",
         "CameraControl.OBS.AutoMirror": "Auto Spiegelen bij Opnemen/Streamen",
-
+        "CameraControl.OBS.Bitrate": "Bitrate: {n}/s",
+        "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "Verloren frames: {n}",
+        "CameraControl.OBS.Idle": "INACTIEF",
+        "CameraControl.OBS.Live": "LIVE",
+        "CameraControl.OBS.Recording": "REC",
+        "CameraControl.OBS.OpenInstallerReason": "Bij Deze Webpagina Kan Je De OBS websocket plugin Downloaden",
 
         "CameraControl.OBS.Streaming.Start": "Start Stream",
         "CameraControl.OBS.Streaming.Starting": "Stream Starten...",
@@ -868,6 +1171,7 @@
         "Settings.HideAllTutorials": "Verberg Alle Tutorials",
         "Settings.ShowInteractionHints": "Laat Interactie Hints Zien",
         "Settings.PrimaryController": "Primaire Controller",
+        "Settings.Hotswitching": "VR Hotswitching",
         "Settings.AllowStrafing": "Sta Strafing Toe",
         "Settings.UseHeadDirectionForMovement": "Gebruik Hoofd Voor Bewegingsrichting",
         "Settings.SmoothTurn": "Smooth Draaien",
@@ -891,10 +1195,11 @@
         "Settings.DoNotSendReadStatus": "Stuur geen realtime bericht gelezen status",
         "Settings.MaxConcurrentAssetTransfers": "Max. gelijktijdige asset overdrachten",
         "Settings.AutosaveScreenshotPath": "Pad voor het automatisch opslaan van screenshots",
-
+        "Settings.AutosaveAllScreenshots": "Automatisch Alle Fotos In De Wereld Opslaan",
         "Settings.DebugInputBinding": "Debug Invoer Bindingen",
 
-        "Settings.LaserSmoothing.Speed": "Smooth Snelheid",
+        "Settings.LaserSmoothing.Header": "Laser Verzachtiging",
+        "Settings.LaserSmoothing.Speed": "Snelheid Verzachten",
         "Settings.LaserSmoothing.ModulateStartAngle": "Moduleer de starthoek",
         "Settings.LaserSmoothing.ModulateEndAngle": "Moduleer de eindhoek",
         "Settings.LaserSmoothing.ModulateExponent": "Moduleer Exponent",
@@ -903,9 +1208,11 @@
         "Settings.Laser.ShowInDesktop": "Laser weergeven in bureaubladmodus",
         "Settings.LaserSmoothing.Reset": "Reset LaserInstellingen",
 
+        "Settings.Audio.Header": "Audio",
+        "Settings.Audio.Input.Title" : "Audio Invoer Apparaten",
         "Settings.Audio.Master": "Hoofdvolume: {n,number,percent}",
         "Settings.Audio.SoundEffects": "Geluidseffecten: {n,number,percent}",
-
+        "Settings.Audio.Multimedia": "Multimedia: {n,number,percent}",
         "Settings.Audio.Voice": "Stem: {n,number,percent}",
         "Settings.Audio.UI": "GebruikersOmgeving: {n,number,percent}",
         "Settings.Audio.DisableVoiceNormalization": "Schakel Stemnormalisatie Uit",
@@ -924,20 +1231,26 @@
         "Settings.Audio.Monitoring": "Audio-ingang Controleren:",
         "Settings.Audio.SystemDefaultOutput": "Gebruik Systeemstandaard",
 
+        "Settings.Graphics.DesktopFOV": "Desktop Gezichtsveld",
+
+        "Settings.Locale.Title" : "Scherm Taal",
         "Settings.Locale.ChangeLanguage": "Taal Veranderen",
         "Settings.Locale.SelectLanguageHeader": "Selecteer je Taal:",
         "Settings.Locale.DefaultLanguage": "Systeem Standaard",
 
         "Settings.Save": "Instellingen opslaan",
 
+        "Settings.FullBody.Header": "Full Body Tracking:",
         "Settings.FullBody.FeetPositionSmoothing": "Voeten Positie Smoothing",
         "Settings.FullBody.FeetRotationSmoothing": "Voeten Rotatie Smoothing",
         "Settings.FullBody.HipsPositionSmoothing": "Heupen Positie Smoothing",
         "Settings.FullBody.HipsRotationSmoothing": "Heupen Rotatie Smoothing",
 
+        "Settings.Dash.Header": "Menu",
         "Settings.Dash.Curvature": "Kromming",
         "Settings.Dash.OpenCloseSpeed": "Open/Sluit Snelheid",
 
+        "Settings.LeapMotion.Name": "Leap Motion",
         "Settings.LeapMotion.Enabled": "Leap Tracking ingeschakeld",
         "Settings.LeapMotion.HorizontalOffset": "Horizontale Compensatie",
         "Settings.LeapMotion.VerticalOffset": "Verticale Compensatie",
@@ -956,8 +1269,9 @@
         "Settings.System.KeepOriginalScreenshotFormat": "Behoud Orginele Screenshot Formaat",
         "Settings.System.KeepOriginalScreenshotFormat.Description": "Wanneer Ingeschakeld, worden screenshots niet geconverteerd naar JPG wanneer het wordt opgeslagen in de Documenten map",
 
+        "Security.Hyperlink.Title" : "Externe Link",
         "Security.Hyperlink.Warning": "<b><size=125%>Waarschuwing: Uitgaande hyperlink</size></b>\nJe hebt op een link in een wereld geklikt. Wilt u deze openen? Dit wordt geopend in uw desktopwebbrowser.",
-
+        "Security.Hyperlink.Open": "Openen",
         "Security.Hyperlink.Cancel": "Annuleer",
 
         "Security.HostAccess.Title": "Hosttoegang",
@@ -968,12 +1282,21 @@
         "Security.HostAccess.Allow": "Toestaan",
         "Security.HostAccess.Deny": "Weigeren",
 
+        "ComponentSelector.Back" : "< (Terug)",
+        "ComponentSelector.Title" : "Componenten",
+        "ComponentSelector.CreateCustomType" : "Aangepaste Type Creëren",
+        "ComponentSelector.CommonGenericTypes" : "Veelvoorkomende Generieke Typen",
+        "ComponentSelector.CustomGenericArguments" : "Aangepaste Generieke Argumenten:",
+        "ComponentSelector.InvalidType" : "Ongeldige type",
+
+        "Inspector.Title" : "Scene Inspector",
         "Inspector.Slot.AttachComponent": "Voeg component toe",
 
         "Inspector.Slot.Axis.X": "X: <b>+</b>Rechts <b>-</b>Links",
         "Inspector.Slot.Axis.Y": "Y: <b>+</b>Omhoog <b>-</b>Omlaag",
         "Inspector.Slot.Axis.Z": "Z: <b>+</b>Vooruit <b>-</b>Achteruit",
 
+        "Inspector.Slot.Reset.Label": "Reset:",
         "Inspector.Slot.Reset.Position": "Positie",
         "Inspector.Slot.Reset.Rotation": "Rotatie",
         "Inspector.Slot.Reset.Scale": "Schaal",
@@ -984,10 +1307,12 @@
         "Inspector.Slot.BringTo": "Breng naar",
         "Inspector.Slot.BringTo.Undo": "Breng {name} naar gebruiker",
 
+        "Inspector.Slot.ParentUnder.Label": "Onderkoppelen:",
         "Inspector.Slot.ParentUnder.WorldRoot": "Wereld Oorsprong",
-
+        "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Koppel {name} Onder Wereld Oorsprong",
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Lokale gebruikersruimte",
-
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Koppel {name} Onder Lokale Gebruikersruimte",
+        
         "Inspector.Mesh.StatsHeader": "Mesh Statistieken",
         "Inspector.Mesh.VertexCount": "Vertex Hoeveelheid: {n}",
         "Inspector.Mesh.TriangleCount": "Triangle Hoeveelheid: {n}",
@@ -998,7 +1323,7 @@
         "Inspector.Mesh.ChannelStats": "Normals: {normals}, Tangents: {tangents}, kleuren: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
         "Inspector.Mesh.BakeMesh": "Bak Mesh",
-
+        "Inspector.Mesh.SetupRenderer": "Renderer Instellen",
         "Inspector.Mesh.ResaveMesh": "Mesh opnieuw opslaan",
         "Inspector.Mesh.RecalculateNormals": "Hercalculeer Normals",
         "Inspector.Mesh.RecalculateNormalsSmooth": "Normals opnieuw berekenen (smooth shading)",
@@ -1024,12 +1349,13 @@
 
         "Inspector.Mesh.TrimVertexBoneWeightsTo": "Trim Vertex Botten Gewichten Naar:",
         "Inspector.Mesh.BoneTrimCount": "{n,plural, one {# Bot} other {# Botten}}",
-
+        "Inspector.Mesh.UV_Multiplicator": "Vermenigvuldiger:",
         "Inspector.Mesh.ScaleUVs": "Schaal UVs",
 
         "Inspector.MeshRenderer.MergeByMaterial": "Voeg submeshes samem die het zeldfe materiaal hebben",
         "Inspector.MeshRenderer.SplitByMaterial": "Splits in losse meshes gebaseerd op materiaal",
 
+        "Inspector.MeshCollider.VHACD": "Convex Hull Decomposition (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Vervang door Box Collider",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Update locomototie-modules op de aanwezig gebruikers",
@@ -1039,12 +1365,18 @@
         "Inspector.VHACD.Parameter.Depth": "Diepte",
         "Inspector.VHACD.Parameter.Concavity": "Concaviteit",
         "Inspector.VHACD.Parameter.PlaneDownsampling": "Vlak Downsampling",
-
+        "Inspector.VHACD.Parameter.ConvexHullDownsampling": "Convex Hull Downsampling",
+        "Inspector.VHACD.Parameter.Alpha": "Alpha",
+        "Inspector.VHACD.Parameter.Beta": "Beta",
+        "Inspector.VHACD.Parameter.Gamma": "Gamma",
+        "Inspector.VHACD.Parameter.Delta": "Delta",
+        "Inspector.VHACD.Parameter.PCA": "PCA",
         "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Maximum Vertices Per Hull",
         "Inspector.VHACD.Parameter.MinVolumePerHull": "Minimum Volume Per Hull",
-
+        "Inspector.VHACD.Parameter.ConvexHullApproximation": "Convex Hull Benadering",
+        
         "Inspector.VHACD.DecompositionMode.Header": "Decompositie Mode:",
-
+        "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
         "Inspector.VHACD.DecompositionMode.Tetrahedron": "Viervlak",
 
         "Inspector.VHACD.RunDecomposition": "Begin Decompositie",
@@ -1085,7 +1417,8 @@
 
         "Inspector.Texture.Size": "Formaat: {width} x {height}",
         "Inspector.Texture.Format": "Formaat: {format}, Memory: <nobr>{memory}</nobr>",
-
+        "Inspector.Texture.Variant": "VariantID: {variant}",
+        
         "Inspector.Texture.BakeTexture": "Bak Textuur",
 
         "Inspector.Texture.InvertRGB": "Keer RGB om",
@@ -1099,12 +1432,13 @@
         "Inspector.Texture.AlphaToMask": "Alpha naar Masker",
         "Inspector.Texture.RemoveAlpha": "Verwijder Alpha",
         "Inspector.Texture.ConvertToGrayscaleAverage": "Converteer naar grayscale (gemiddeld)",
-
+        "Inspector.Texture.ConvertToGrayscaleLuminance": "Converteer naar grayscale (luminance)",
         "Inspector.Texture.SwapRG": "Verwissel R en G",
         "Inspector.Texture.SwapRB": "Verwissel R en B",
-
+        "Inspector.Texture.SwapRA": "Verwissel R <--> A",
         "Inspector.Texture.SwapGB": "Verwissel G en B",
-
+        "Inspector.Texture.SwapGA": "Verwissel G <--> A",
+        "Inspector.Texture.SwapBA": "Verwissel B <--> A",
         "Inspector.Texture.AddWhiteBackground": "Witte achtergrond toevoegen",
         "Inspector.Texture.AddBlackBackground": "Zwarte achtergrond toevoegen",
         "Inspector.Texture.Hue": "Tint:",
@@ -1113,7 +1447,7 @@
         "Inspector.Texture.AdjustSaturation": "Saturatie aanpassen",
         "Inspector.Texture.Value": "Waarde:",
         "Inspector.Texture.AdjustValue": "Waarde aanpassen",
-
+        "Inspector.Texture.Gamma": "Gamma:",
         "Inspector.Texture.AdjustGamma": "Pas gamma aan",
         "Inspector.Texture.LongestSide": "Langste zijde:",
         "Inspector.Texture.Resize": "Formaat wijzigen",
@@ -1122,13 +1456,18 @@
         "Inspector.Texture.RotateCW": "Draai 90° CW",
         "Inspector.Texture.RotateCCW": "Draai 90° CCW",
         "Inspector.Texture.Rotate180": "Draai 180°",
-
+        "Inspector.Texture.TrimTransparent" : "Transparentie Trimmen",
+        "Inspector.Texture.TrimByCornerColor" : "Op Hoek Kleur Trimmen",
         "Inspector.Texture.MakeSquare": "Maak vierkant",
         "Inspector.Texture.ToNearestPOT": "Tot de dichtstbijzijnde macht van twee",
         "Inspector.Texture.MakeTileable": "Tileable maken (overgangsratio):",
         "Inspector.Texture.TileLoop": "Tegel (lus)",
         "Inspector.Texture.TileMirror": "Tegel (spiegel)",
-
+        "Inspector.Texture.NormalizeMaxOnly" : "Normaliseren (Alleen Maximaal)",
+        "Inspector.Texture.NormalizeMinMax" : "Normaliseren (minimaal en maximaal)",
+        "Inspector.Texture.NormalizeIndependent" : "Normaliseer RGB onafhankelijk (minimaal en maximaal)",
+        "Inspector.Texture.BleedColorToAlpha" : "Loop kleur uit naar alfa",
+        
         "Inspector.Texture.InvalidFloats": "Diagnose: ongeldige floats",
         "Inspector.Texture.GenerateMetadata": "Diagnose: Genereer Bitmap Metadata",
 
@@ -1167,7 +1506,7 @@
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "Stel op van Children (alleen rig)",
         "Inspector.DynamicBoneChain.ReplaceSmoothTransforms": "Vervang Smooth Transforms in children",
         "Inspector.DynamicBoneChain.ClearSmoothTransforms": "Verwijder Smooth Transforms in children",
-        "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Colliders & Grijpen -------",
+        "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Colliders & Pakken -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Voeg vaste colliders toe van de hierarchy (gebruikt object root)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Grijp altijd het laatste bot",
 
@@ -1176,7 +1515,10 @@
         "Inspector.Rig.ClearDebugVisuals": "Verwijder debug visuals",
 
         "Inspector.AvatarExpression.AutoAssign": "Automatisch Blendshapes toewijzen (met behulp van heuristiek)",
-
+        
+        "Inspector.CharacterController.Warning": "<color=red><size=150%>WAARSCHUWING!</size></color><br>Het is mogelijk om dit onderdeel als een eenvoudig starbody te gebruiken door SimulateRotation aan te vinken. Voordat u dit doet, moet u begrijpen dat het niet voor dit doel is geoptimaliseerd en dat er in de toekomst goede Rigidbody-ondersteuning zal komen.<br>Goede rigidbody-ondersteuning biedt:<br><b>- CPU- en netwerkefficiëntie</b> - met CharacterController krijgt u een hoger CPU-gebruik en een aanzienlijke hoeveelheid netwerkverkeer<br><b>- Beperkingen</b> - u kunt verbindingen, scharnieren, veren en andere beperkingen tussen starre lichamen creëren<br><b >- Soepele simulatie en interacties voor iedereen</b> - CharacterController valt uit als iemand anders probeert te communiceren<br><b>- Nieuwe functies en hulpmiddelen</b> - om het gebruik ervan veel gemakkelijker te maken<br>----------------------<br>Zolang je deze beperkingen begrijpt, veel plezier!",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WAARSCHUWING!</size></color><br>Het is mogelijk om deze component te gebruiken om met referenties te communiceren door hun ID's te gebruiken. Dit proces wordt gewoonlijk 'Ref Hacking' genoemd.<br><br><b>Voordat</b> u dit doet, moet u begrijpen dat dit <b>niet</b> wordt ondersteund en op elk moment kapot kan gaan. Vertrouw niet op deze functionaliteit voor uw creaties.",
+        
         "Inspector.ParticleStyle.CommonTransitions": "Algemene Overgang-sjablonen:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha Fade-in & Fade-out",
         "Inspector.ParticleStyle.AlphaFadeIn": "Alpha Fade-in",
@@ -1184,7 +1526,8 @@
         "Inspector.ParticleStyle.IntensityFadeInOut": "Intensiteit Fade-in & Fade-out",
         "Inspector.ParticleStyle.IntensityFadeIn": "Intensiteit Fade-in",
         "Inspector.ParticleStyle.IntensityFadeOut": "Intensiteit Fade-out",
-
+        "Inspector.ParticleStyle.ClearFades": "Verwijder Fades",
+        
         "Inspector.Collider.SetFromLocalBounds": "Stel in vanuit lokale grenzen",
         "Inspector.Collider.SetFromGlobalBounds": "Stel in vanuit globale grenzen",
         "Inspector.Collider.SetFromLocalBoundsPrecise": "Stel in vanuit lokale grenzen (precies)",
@@ -1193,6 +1536,21 @@
         "Inspector.Collider.SetFromPreciseCylinderBounds": "Stel in vanuit precieze cilinder grenzen",
         "Inspector.Collider.Visualize": "Visualiseer Collider",
 
+        "Inspector.SimpleAwayIndicator.TestAway" : "Zet Naar Weg (debug)",
+        "Inspector.SimpleAwayIndicator.TestRestore" : "Herstel Naar Normaal (debug)",
+        
+        "Inspector.Fields.Drive" : "Besturen",
+        "Inspector.Fields.DriveWriteBack" : "Besturen <size=50%>(Terug Schrijven)</size>",
+
+        "Inspector.Actions.CopyComponent" : "Component copieeren",
+        "Inspector.Actions.MoveComponent" : "Component Verplaatsen",
+
+        "UserInspector.Title" : "Gebruikers Inspector",
+
+        "WorkerInspector.Title" : "{name} Inspector",
+
+        "CreateNew.Title" : "Nieuw",
+   
         "Wizard.General.ProcessRoot": "Procesbasis:",
         "Wizard.General.Result": "Resultaat:",
         "Wizard.General.ErrorNoRoot": "Geen Root Geselecteerd",
@@ -1226,6 +1584,7 @@
         "Wizard.LightSources.Disable": "Uitschakelen",
         "Wizard.LightSources.Destroy": "Verwijderen",
 
+        "Wizard.CubemapCreator.Title": "Cubemap Creërder",
         "Wizard.CubemapCreator.Textures": "Bron Textures:",
         "Wizard.CubemapCreator.TexturesNote": "Let op! Sommige conventies hebben links en rechts verwisseld. Als de cubemap resultaat incorrect is, probeer dan links en rechts te verwisselen.",
         "Wizard.CubemapCreator.PosX": "Positief X (right)",
@@ -1247,14 +1606,17 @@
         "Wizard.ReflectionProbes.BakeProbes": "Bak probes",
         "Wizard.ReflectionProbes.Baking": "Bakken {index} van {count}...",
 
-        "Wizard.TextRenderer.ProcessStandalone": "Proces Standalone",
-        "Wizard.TextRenderer.ProcessUIX": "Proces UIX",
+        "Wizard.TextRenderer.Header": "TeksRenderer Wizard",
+        "Wizard.TextRenderer.ProcessRoot": "Hoofd Process:",
+        "Wizard.TextRenderer.ProcessStandalone": "Zelfstandig Process",
+        "Wizard.TextRenderer.ProcessUIX": "UIX Process",
         "Wizard.TextRenderer.Disabled": "Proces Uitgeschakeld",
         "Wizard.TextRenderer.WithTag": "Met Tag:",
         "Wizard.TextRenderer.ReplaceMaterial": "Vervang Materiaal",
         "Wizard.TextRenderer.ReplaceFont": "Vervang Lettertype",
         "Wizard.TextRenderer.SetColor": "Kleur instellen",
 
+        "Desktop.Controls.Title": "Desktop Bediening",
         "Desktop.OpenKeyboard": "Open Toetsenbord",
         "Desktop.FollowCursor.On": "Volg Cursor: Aan",
         "Desktop.FollowCursor.Off": "Volg Cursor: Uit",
@@ -1263,6 +1625,14 @@
         "Desktop.Brightness": "Helderheid: {n,number,percent}",
         "Desktop.Opacity": "Ondoorzichtigheid: {n,number,percent}",
 
+        "VolumePlaneSlicer.Highlight": "Hoofdpunten",
+        "VolumePlaneSlicer.Slicer": "Snijden",
+
+        "Tutorial.Welcome.WelcomeTo": "Welkom Bij",
+          "Tutorial.Welcome.Description" : "Duik in een gloednieuw digitaal universum met oneindige mogelijkheden. Of je hier nu komt om te socialiseren en rond te hangen met mensen over de hele wereld of om iets te bouwen, creëren en ontwikkelen, van prachtige kunst, interactieve avatars en gadgets tot complexe interactieve werelden en games, Resonite is een eindeloos aanpasbare plek waar je welkom bent en waar je een groep zult vinden waarmee je kunt resoneren.<br><br>Voordat je begint met verkennen, begeleiden we je eerst bij het instellen van enkele essentiële zaken, om een ​​soepele ervaring te garanderen. Als u klaar bent, klikt u op de onderstaande knop",
+        "Tutorial.Welcome.LetsStart": "Laten We Beginnen!",
+
+        "Tutorial.Welcome.AccountHeader": "{appName} account",
         "Tutorial.Welcome.AccountDescription": "Creëren van een account geeft je 1 GB gratis opslag en geeft je toegang om objecten te kunnen opslaan in je inventaris, Avatars te kunnen favoriteren, Contacten te kunnen toevoegen en berichten kunnen sturen.",
         "Tutorial.Welcome.AccountCreate": "Creëer Account",
         "Tutorial.Welcome.AccountLogin": "Ik heb al een Account",
@@ -1286,19 +1656,26 @@
         "Tutorial.Welcome.SettingsHeight": "Je Hoogte",
         "Tutorial.Welcome.SettingsHeightExamples": "Voorbeelden: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
+        "Tutorial.Welcome.StartTutorialHeader": "Klaar Om Te Onderzoeken?",
         "Tutorial.Welcome.StartTutorialDescription": "We brengen je naar een eenvoudige tutorialwereld om je op weg te helpen met {appName}. je kan ervoor kiezen om de tutorial wereld openbaar te maken, zodat de {appName}-community je kan joinen zodat ze je kunnen helpen, of zodat je zelf kan leren.",
-
+        "Tutorial.Welcome.StartTutorial": "Tutorial Beginnen",
+        
         "Tutorial.CommunityYouTube.Title": "Community YouTube Kanalen",
 
         "Tutorial.UserResources.UserResourcesTitle": "Hulpmiddelen",
         "Tutorial.UserResources.SupportTitle": "Hoe kan ik {appName} ondersteunen",
+        "Tutorial.UserResources.MerchandiseTitle": "{appName} Merch",
 
+        "Tutorial.Intro.BadgesAppTeam": "{appName} Team",
+        "Tutorial.Intro.BadgesModerator": "Moderator",
+        "Tutorial.Intro.BadgesMentor": "Mentor",
         "Tutorial.Intro.BadgesDisabilityHearing": "Slechthorend",
         "Tutorial.Intro.BadgesDisabilityVision": "Slechtziend",
         "Tutorial.Intro.BadgesDisabilitySpeech": "Spraakmoeilijkheden",
-
+        "Tutorial.Intro.BadgesTitle": "Badges",
         "Tutorial.Intro.BadgesDescription": "Badges zijn kleine icoontjes die aspecten van een gebruiker laten zien. Hier zijn een paar belangrijke badges om te onthouden. De invaliditeitsbadges kunnen zelf worden toegewezen via de {appName} bot. Voor meer informatie kan je de {appName} Wiki raadplegen",
-
+        "Tutorial.Intro.HelpSite": "Help",
+        
         "Object.Mirror.Toggle": "Aan/Uitschakelen",
 
         "Twitch.Panel.Button.Commands.Enabled": "Commando's Ingeschakeld",
@@ -1307,11 +1684,102 @@
         "Twitch.Panel.Button.SafeMode.Disabled": "Veilige modus Uitgeschakeld",
         "Twitch.Panel.Button.SubscriberCommands.Enabled": "Subscriber Commands <br> Alleen ingeschakeld voor abonnees",
         "Twitch.Panel.Button.SubscriberCommands.Disabled": "Subscriber Commands <br> Ingeschakeld voor iedereen",
+        "Twitch.Panel.Title.Text": "Twitch Chat",
 
         "Exiting.SavingItems": "Opslaan Van {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges": "Wijzigingen opslaan...",
         "Exiting.Exiting": "Afsluiten...",
         "Exiting.LoggingOut": "Uitloggen...",
+
+        "Migration.Title": "Migratie",
+        "Migration.NewTask": "Nieuwe Migratietaak",
+        
+        "Migration.LoginModal.Title": "Data Migreren?",
+        "Migration.LoginModal.Description": "Wilt u gegevens migreren vanuit een ander account? U kunt er ook voor kiezen om dit later te doen via het tabblad \"Migratie\" op het dashboard.",
+        "Migration.LoginModal.OpenMigration": "Open Migratie",
+        "Migration.LoginModal.Later": "Misschien Later",
+        "Migration.LoginResetID.Title": "Echt UserID Resetten?",
+        "Migration.LoginResetID.Description": "Begrijp alsjeblieft dat dit zal resulteren in <color=red>ONVOORSPELBARE CONTENTBREAKAGE</color>. Al uw items, werelden, contacten en berichten zullen met succes worden gemigreerd, maar alle gedragingen en componenten die afhankelijk zijn van het verwijzen naar uw oude UserID zullen waarschijnlijk kapot gaan en moeten opnieuw worden ingesteld en gerepareerd. Tenzij u een serieuze reden heeft om uw gebruikers-ID opnieuw in te stellen, <color=red>KIES DEZE OPTIE NIET</color>.",
+        "Migration.LoginResetID.ResetButton": "Ja, resetten",
+
+        "Migration.ReservedUsername.Title":"<b>Gereserveerde Gebruikersnaam</b>",
+        "Migration.ReservedUsername.Description": "Deze gebruikersnaam is gereserveerd voor de originele gebruiker. Als dit uw account is, geef dan uw {platform}-inloggegevens op om deze te ontgrendelen. We slaan deze inloggegevens niet op, ze worden alleen gebruikt om bij registratie het eigendom van uw account te verifiëren.",
+        "Migration.SourcePassword": "{platform} Wachtwoord:",
+        "Migration.SourceUsername": "{platform} Gebruikersnaam:",
+
+        "Migration.Dialog.Title": "Account Migratie",
+        "Migration.Dialog.Source" : "U kunt gegevens migreren vanuit elke compatibele infrastructuur. Selecteer eerst een uit de onderstaande lijst waaruit u gegevens wilt migreren. U kunt extra infrastructuren toevoegen door configuratiebestanden in de map \"Migrations\" van de installatie te plaatsen.",
+        "Migration.Dialog.AccountDescription": "Om uw account te migreren, hebben we uw {platform}-accountwachtwoord nodig. Hierdoor kunnen we inloggen en toegang krijgen tot de gegevens.",
+
+        "Migration.ResetID.Title": "Mijn UserID Resetten",
+        "Migration.ResetID.Description":"<color=red><b>WAARSCHUWING:</b></color> Het kiezen van deze optie <b>ZAL DE BESTAANDE INHOUD GEDEELTELIJK VERBREKEN EN IS ONOMKEERBAAR</b>, dit omvat alle UserID-referenties in gebruikersinhoud, gemeenschapsdiensten, links, cloudvariabelen en meer. Deze referenties worden gereset, maar uw items, werelden, contacten en berichten zelf gaan niet verloren. We raden u aan deze optie <b>ALLEEN</b> te gebruiken als u uw oude UserId wilt verwijderen en deze wilt vervangen door een nieuwe, gerandomiseerde gebruikersnaam. Tenzij u een goede reden heeft om uw gebruikers-ID opnieuw in te stellen, mag u deze optie <b>NIET</b> aanvinken. Uw gebruikers-ID zal als volgt veranderen:\n U-MijnGebruikersnaam -> U-fX3pKe7AYYQ",
+
+        "Migration.DataSelection.Title": "Waneer we uw account migreren, Welke gegevens zullen we migreren?",
+        "Migration.DataSelection.Everything": "Alles",
+        "Migration.DataSelection.Choose": "Laat me kiezen",
+
+        "Migration.DataSelection.Favorites": "Favoriten (avatar, thuis, camera, toetsenbord, facets)",
+
+        "Migration.DataSelection.Favorites.Description": "Hiermee worden eerst je thuis, favoriete avatar, toetsenbord, camera en dashboard gemigreerd, zodat je ze zo snel mogelijk kunt gaan gebruiken.\n <color=red><b>WAARSCHUWING:</b></color> als je kiest deze optie, kunt u <b>ELKE WIJZIGINGEN VERLIEZEN</b> die op dit platform zijn aangebracht vóór de migratie naar uw favorieten.",
+        "Migration.DataSelection.Favorites.OverwriteTitle": "Moeten we bij het migreren uw favorieten overschrijven?",
+
+        "Migration.DataSelection.Home.Title": "Je oude thuis als standaard zetten?",
+        "Migration.DataSelection.Home.Description": "Wanneer we uw gegevens migreren, wordt uw oorspronkelijke cloudhome onder een andere URL geplaatst en krijgt u standaard een gloednieuw cloudhome. Maar als u dat wilt, kunnen we uw oude woning als standaard woning instellen. Zelfs als u \"Nee\" selecteert, is uw oude cloudhome nog steeds toegankelijk en kunt u deze later als standaard instellen.",
+
+        "Migration.DataSelection.Contacts": "Contacten",
+        "Migration.DataSelection.Message History": "Berichtgeschiedenis",
+        "Migration.DataSelection.InventoryWorld": "Inventaris & Werelden",
+        "Migration.DataSelection.CloudVariable.Definitions": "Cloud Variable Definitions",
+        "Migration.DataSelection.CloudVariable.Values": "Cloud Variable Waarden",
+
+        "Migration.DataSelection.AlwaysOverwrite": "Altijd overschrijven",
+
+        "Migration.Start": "Migratie Starten",
+        "Migration.Groups.Title": "Groepen Migreren",
+        "Migration.Groups.Introduction": "Zouden we uw groepen migreren?",
+        
+        "Migration.Groups.Description": "Alle groepen waarvan u beheerder bent, worden standaard gemigreerd. Als u alleen bepaalde groepen wilt migreren, klikt u op de onderstaande knop om ze te laden en vinkt u vervolgens de groepen aan die u wilt migreren.",
+
+        "Migration.Groups.LoadGroups": "Groepen Laden",
+        "Migration.Groups.RefreshGroups": "Groepen Verversen",
+        
+        "Migration.Groups.Fetching": "Groepen Halen...",
+        "Migration.Groups.Fetching.LoginFailed": "Error met inloggen: {error}",
+        "Migration.Groups.Fetching.Error": "Error met groepen halen: {error}",
+        "Migration.Groups.NoGroups": "Geen {platform} Groepen gevonden om te migreren.",
+        "Migration.Groups.NotGroupAdmin": "U bent geen admin van de {platform} groepen, vraag uw groep admins om de groep te migreren!",
+        
+        "Migration.Summary": "Oké, we hebben alles wat we nodig hebben. Klik hieronder op Migratie starten en we gaan aan de slag met uw migratie.\n\nDe migratie kan enige tijd duren, we moeten alles kopiëren. Als u ervoor heeft gekozen uw favorieten te migreren, geven we prioriteit aan deze, zodat u zich op uw gemak kunt voelen.\n\nU hoeft {appName} niet actief te houden terwijl we migreren, maar we sturen u updates via de bot {appName} om je te laten weten hoe het gaat.",
+        
+        "Migration.List.EmptyTitle": "Wilt u een nieuwe migratie starten?",
+        "Migration.List.EmptySubtitle": "Klik linksboven op \"Nieuwe migratietaak\".",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Gecreërd op:{time}\nStatus:{state}",
+        "Migration.Report.Title": "Migratie Taak Rapportage:",
+        "Migration.Report.Description": "<color={hex}>Omschrijving:</color> {value}",
+        "Migration.Report.Status": "<color={hex}>Status:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>Gecreërd Op:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>Gestard Op:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>Voltooid Op:</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "Momenteel de gegevens migreren van <color={hex}>{value}</color>.",
+        "Migration.Report.CurrentItem": "Huidig item: <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>Huidige Aantal:</color> ~{value} werelden/items per minuut",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>Resterende taken in de wachtrij voor deze:</color> {value}",
+        "Migration.Report.ContactStatus": "Gemigreerde <color={hex}>{current}</color> contacten van de <color={hex}>{total}</color>",
+        "Migration.Report.MessageStatus": "Gemigreerde <color={hex}>{value}</color> berichten",
+        "Migration.Report.CloudVariableDefinitionStatus": "Gemigreerde <color={hex}>{value}</color> cloud variable definitions",
+        "Migration.Report.CloudVariableValueStatus":"Gemigreerde <color={hex}>{value}</color> cloud variablen",
+        "Migration.Report.RecordStatus": "Gemigreerde <color={hex}>{current}</color> items/werelden van de <color={hex}>{total}</color>. <color=red>{failed}</color> failed.",
+        "Migration.Report.GroupStatus": "Gemigreerde <color={hex}>{current}</color> groepen van de <color={hex}>{total}</color>",
+        "Migration.Report.GroupMemberStatus": "Totaal Gemigreerde <color={hex}>{value}</color> groepleden",
+
+        "Migration.Error": "<color=red>Error:</color> {error}",
+        "Migration.NothingSelected": "Niets geselecteerd, kan niet starten.",
+
+        "Migration.ColorManagement": "Deze wereld is geschreven in de gammaruimte en is automatisch geconverteerd naar lineair.<br><br>Het ziet er misschien anders uit dan het origineel, maar zou over het algemeen bruikbaar moeten zijn.<br><br>Als u de auteur bent en u vindt er een problemen met de conversie van de wereld <color=red>NIET OPSLAAN</color>. Bewaar alleen kopieën.<br><br>Zolang het origineel bestaat, kunnen we het conversieproces aanpassen. Anders bent u zelf verantwoordelijk om het probleem op te lossen.",
 
         "Temporary.MMC.Voting UI": "MMC Stem UI",
         "Temporary.MMC.Vote": "Stemmen",
@@ -1324,7 +1792,8 @@
 
         "Temporary.MMC.Categories.Other": "Ander",
         "Temporary.MMC.Categories.Misc": "Diversen",
-
+        "Temporary.MMC.Categories.Meme": "Meem",
+        
         "Temporary.MMC.Categories.Avatars": "Avatars",
         "Temporary.MMC.Categories.Avatars.Accessories": "Accessoires",
 
@@ -1333,6 +1802,265 @@
         "Temporary.MMC.VotedAlready": "Je hebt al gestemd in {category}.",
         "Temporary.MMC.VoteInvalid": "Stem is ongeldig, probeer het opnieuw.",
 
+        "CloudHome.WelcomeHome": "Welkom thuis",
+        "CloudHome.TargetRangeOptions": "instellingen voor doelbereik",
+
+        "Tutorial.Saving.Title": "Welkom thuis!",
+        "Tutorial.Saving.Content": "Welkom in je <b><i><color=hero.gold>Thuis</b></i></color> wereld! Hier kom je elke keer terecht als je inlogt.<br><br>Dit is een geheel eigen wereld, dus alle wijzigingen die je aanbrengt kunnen worden opgeslagen.<br><br>Als je opslaat, wordt alles opgeslagen bij terugkomst zal het net zo zijn als u het achterliet!",
+
+        "Tutorial.Teleporter.Error": "Het laden van je cloudhome is mislukt!<br><size=66%>Stap uit de teleporter en stap er weer in om het opnieuw te proberen.</size>",
+        
+        "CloudHome.Info.OnlineUsers": "Online {online_users,plural, een {user} andere {users}}: {online_users}<br>Joinable {joinable_users,plural, een {user} andere {users}}: {joinable_users}",
+        "CloudHome.Info.Moderation": "Moderation",
+        "CloudHome.Info.Inventory": "Inventory",
+        "CloudHome.Info.Tools": "Tools",
+        "CloudHome.Info.MoreInfo": "Meer Info",
+        "CloudHome.Info.SessionUptime": "Uptime van de sessie:",
+        "CloudHome.Info.AccessLevel": "Toegangsniveau:",
+        "CloudHome.Info.StorageUsed": "Gebruikte opslag:",
+
+        "CloudHome.Info.DashInfoTab.Title": "Welkom!",
+        "CloudHome.Info.DashInfoDesktop": "Om u op de hoogte te brengen, zijn er een paar dingen die u moet weten. Je hebt een <i><color=hero.purple>Dashboard</color></i> dat je kunt openen door op Escape te drukken. Zie het als uw bureaublad of configuratiescherm.<br><br>Als u in de war bent: dit scherm biedt aanvullende informatie om u te helpen. Klik op de onderstaande knop om dit bericht te sluiten.",
+        "CloudHome.Info.DashInfoVR": "Om u op de hoogte te brengen, zijn er een paar dingen die u moet weten. Je hebt een <i><color=hero.purple>Dashboard</color></i> dat je kunt openen door op B of Y te drukken. Zie het als je bureaublad of configuratiescherm.<br><br>Als je Als je in de war bent, bevat dit scherm wat extra informatie om je te helpen. Klik op de onderstaande knop om dit bericht te sluiten.",
+        "CloudHome.Info.DashInfoVRNoButtons": "Om u op de hoogte te brengen, zijn er een paar dingen die u moet weten. Je hebt een <i><color=hero.purple>Dashboard</color></i> dat je kunt openen door de Menu-knop ingedrukt te houden totdat de cirkel compleet is. Zie het als uw bureaublad of configuratiescherm.<br><br>Als u in de war bent: dit scherm biedt aanvullende informatie om u te helpen. Klik op de onderstaande knop om dit bericht te sluiten.",
+
+        "CloudHome.Info.GoToWiki": "Ga naar Wiki!",
+        "CloudHome.Info.GoToDiscord": "Ga naar Discord!",
+
+        "CloudHome.Info.ModerationTab.Title": "Moderation!",
+        "CloudHome.Info.ModerationTab.Content": "Veiligheid is belangrijk voor ons. Als je hulp nodig hebt of een gebruiker wilt rapporteren, open dan een ticket in ons <u><color=hero.cyan>Moderatieportaal.</color></u><sprite name=hyperlink><br><br>Wij een sterk team van vrijwillige moderators <sprite name=modbadge> hebben die de gemeenschap veilig houden! Dien een ticket in als u vragen heeft of normovertredend gedrag constateert.",
+        
+        "CloudHome.Info.InventoryTab.Title": "Je Items opslaan!",
+        "CloudHome.Info.InventoryTab.Content": "De <i><color=hero.purple>Inventaris</color></i> in uw <i><color=hero.purple>Dashboard</color></i> bevat uw opgeslagen avatars en items.<br ><br>De map <i><color=hero.purple>Essentials</color></i> bevat een aantal leuke dingen om mee te spelen; dubbelklik op een item om het te spawnen!",
+
+        "CloudHome.Info.ToolsTab.Title": "in-wereld bewerken!",
+        "CloudHome.Info.ToolsTab.Content": "Een kenmerk van {appName} is dat je eenvoudig dingen rechtstreeks in de game kunt maken of wijzigen.<br><br>Ja, dat betekent hier! Of waar dan ook: met de tools die voor je beschikbaar zijn via <i><color=hero.purple>Essentials -> Tools</color></i> in je inventaris kun je de wereld om je heen eenvoudig naar wens bewerken.",
+
+        "CloudHome.Info.HelpTab.Title": "Hulp Vragen",
+        "CloudHome.Info.HelpTab.InfoLineOne": "Hulp nodig? neem een kijkje bi onze  <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, of krijg een andwoord op je",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "vragen in onze <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> Handig is dat u links op uw bureaublad kunt bekijken via uw Dashboard in de <i><color=hero.purple>Desktop</color></i> tabblad.",
+
+        "CloudHome.Info.UsersTab.Title": "Gebruikers vinden",
+        "CloudHome.Info.UsersTab.Content": "Openbare sessies zijn een geweldige manier om jezelf onder te dompelen in de gemeenschap!<br><br>Openbare sessies waaraan je nu kunt deelnemen, zijn te vinden in de <i><color=hero.purple>Werelden</color></i > tabblad in uw dashboard. Bekijken!",
+
+        "Mirror.Header.RenderingOptions" : "Rendering Instellingen",
+        "Mirror.Header.Type" : "Spiegel soort",
+        "Mirror.Header.Resolution" : "Spiegel resolutie",
+        "Mirror.Header.AspectRatio" : "Beeldverhouding",
+
+        "Mirror.EnableLights": "Lichten inschakelen",
+        "Mirror.DisableLights": "Lichten uitschakelen",
+
+        "Mirror.EnableShadows": "Schaduws inschakelen",
+        "Mirror.DisableShadows": "Schaduws uitschakelen",
+
+        "Mirror.Camera": "kamera",
+
+        "Mirror.AspectRatio.Tall": "Hoog",
+        "Mirror.AspectRatio.Square": "Vierkant",
+        "Mirror.AspectRatio.Wide": "Breed",
+
+        "Mirror.Menu": "Menu",
+        "Mirror.CloseMenu": "Menu sluiten",
+
+        "StickyNote.SpinMe": "Draai mij!",
+        "StickyNote.FruitPlate": "Gratis zelfaanvullende fruitschaal",
+        "StickyNote.EmptyForYou": "Speciaal voor jou leeg gelaten! :)",
+        "StickyNote.RelevantLinks": "Relevante links!<br><--<br><br><size=500>Je zou het zelfs een linkboek kunnen noemen</size>",
+        "StickyNote.SunTool": "Houd de kracht van de zon in je handen!",
+        "StickyNote.Bow": "Trek het touw terug en richten maar",
+        "StickyNote.Crossbow": "Hendelactie (of gebruik secundair) om te laden",
+        "StickyNote.Shade": "Aanpasbare schaduw",
+        "StickyNote.TheaterTablet": "Gebruik deze tablet om de ventilator en de raamtint voor deze kamer te regelen!",
+        "StickyNote.ControlTablet": "Gebruik deze tablet om delen van het huis te bedienen!",
+
+        "StickyNote.RotateMeDesktop": "Draai mij door op E te drukken!",
+        "StickyNote.RotateMeVR": "Draai mij!",
+
+        "StickyNote.EquipMeDesktop": "Uitrusten en druk op de linkermuisknop!",
+        "StickyNote.EquipMeVR": "Uitrusten en trek aan het touw!",
+
+        "StickyNote.DipBrushes": "Doop penselen in bollen om materialen te gebruiken",
+        "StickyNote.BrushColor": "Wijzig de kleur en grootte van het penseel in uw contextmenu",
+        "StickyNote.Drawing": "Je kunt op het bord, in de lucht of waar dan ook tekenen!",
+        "StickyNote.WorldCanvas": "De wereld is jouw canvas!",
+
+        "CloudHome.Panel.HomeControl": "Controle Thuis",
+
+        "CloudHome.Panel.General": "Algemeen",
+        "CloudHome.Panel.Lighting": "Verlichting",
+        "CloudHome.Panel.Furniture": "Meubilair",
+
+        "CloudHome.Panel.Quality": "Kwaliteit",
+        "CloudHome.Panel.Doors": "Deuren",
+        "CloudHome.Panel.Audio": "Geluid",
+        "CloudHome.Panel.OverheadLighting": "Bovenverlichting",
+        "CloudHome.Panel.Sconces": "Blaker",
+        "CloudHome.Panel.FurnitureVisibility": "Zichtbaarheid Van Meubels",
+
+        "CloudHome.Panel.LowQualityMode": "Lage Kwaliteit Mode",
+        "CloudHome.Panel.DoorSounds": "Deur Geluiden",
+        "CloudHome.Panel.DoorsAlwaysOpen": "Deuren Altijd Open",
+        "CloudHome.Panel.InteriorAmbience": "Interieur Sfeer",
+        "CloudHome.Panel.InteriorAmbienceVolume": "Interieur<br>Sfeer<br>Volume",
+        "CloudHome.Panel.LightsOn": "Lichten Aan",
+        "CloudHome.Panel.LightIntensity": "Licht Intensiteit",
+        "CloudHome.Panel.LightColor": "Licht Kleur",
+        "CloudHome.Panel.LightColorTemperature": "Lichtkleurentemparatuur",
+
+        "CloudHome.Panel.Spawn": "Spawn",
+        "CloudHome.Panel.Foyer": "Hal",
+        "CloudHome.Panel.Workspace": "Werkplaats",
+        "CloudHome.Panel.ReadingLounge": "Leeshoek",
+        "CloudHome.Panel.Lounge": "Lounge",
+        "CloudHome.Panel.Center": "Centrum",
+        "CloudHome.Panel.Balcony": "Balkon",
+        "CloudHome.Panel.Theater": "Theater",
+
+        "CloudHome.Panel.TheaterControl": "Theater Controle",
+        "CloudHome.Panel.FanControl": "Ventilator Controle",
+        "CloudHome.Panel.WindowControl": "Raam Controle",
+        "CloudHome.Panel.FanSpeed": "Ventilator Snelheid",
+        "CloudHome.Panel.WindowTint": "Raamtint",
+
+        "CloudHome.FeaturedPanel.OpenWorld": "Wereld Openen",
+        "CloudHome.FeaturedPanel.LinkText": "Open deze wereld voor<br>jezelf door hier te klikken!",
+        "CloudHome.FeaturedPanel.Featured": "Aanbevolen",
+
+        "CloudHome.AvatarPanel.Title": "Aanbevolen Avatar Werelden",
+
+        "CloudHome.SupporterPanel.Title": "<b>Onze Supporters</b>",
+
+        "Tutorial.InfoPanel.Title": "Hee! Voordat Je Gaat...",
+        "Tutorial.InfoPanel.Content": "     Er ligt een wereld vol mogelijkheden op je te wachten, en wat mogelijk is, wordt alleen beperkt door jouw verbeeldingskracht.<br><br> Bijna alle dingen die je tot nu toe hebt gezien, zijn rechtstreeks in de game gemaakt! Mensen van over de hele wereld werkten in realtime samen om het te bouwen.<br><br> Het platform bevindt zich nog in de beginfase van de ontwikkeling en we zijn voortdurend bezig met het bijwerken en verbeteren van zaken. Maar jij maakt ook deel uit van deze reis, en de sky is the limit!<br><br><align=center>Bedankt dat je langskwam en ons een kans gaf.</align>",
+        
+        "Tutorial.GrabItems.Grab": "Pakken",
+        "Tutorial.GrabItems.Snap": "Klikken",
+        "Tutorial.GrabItems.Slide": "Schuiven",
+
+        "Tutorial.Panel.Jumping.Title": "Springen",
+        "Tutorial.Panel.Jumping.ContentDesktop": "Terwijl je in loop locomotie bent druk op space om te springen!",
+        "Tutorial.Panel.Jumping.ContentVR": "Terwijl je in loop locomotie bent druk op je joysticks om te springen!",
+        "Tutorial.Panel.Jumping.ContentVRNoButtons": "Terwijl je in loop locomotie bent druk op het midde van je trackpad om te springen!",
+
+        "Tutorial.Panel.WalkLocomotion.Title": "Loop locomotie",
+        "Tutorial.Panel.WalkLocomotion.Content": "Beweeg en spring over de vloer.",
+
+        "Tutorial.Panel.TeleportLocomotion.Title": "Teleport Locomotie",
+        "Tutorial.Panel.TeleportLocomotion.Content": "Teleport stuurt je onmiddellijk naar de teleportatie-indicator.",
+
+        "Hints.Spawn.InitialMovementDesktop": "Gebruik de bewegings knoppen om rond te lopen!",
+        "Hints.Spawn.InitialMovementVR": "Gebruik je joysticks om rond te lopen!",
+        "Hints.Spawn.InitialMovementVRNoButtons": "Gebruik je trackpad om rond te lopen!",
+
+        "Hints.Spawn.ContextMenuDesktop": "Open je contextmenu door op T te drukken voor opties!",
+        "Hints.Spawn.ContextMenuVR": "Voel je je ziek? Open uw contextmenu door op B of Y te drukken voor opties!",
+        "Hints.Spawn.ContextMenuVRNoButtons": "Voel je je ziek? Open uw contextmenu door op de Menu-knop te drukken voor opties!",
+
+        "Hints.Spawn.TeleportLocomotionDesktop": "Andere voortbewegingsopties, zoals vliegen, zijn beschikbaar om uit te proberen in het voortbewegingsmenu.",
+        "Hints.Spawn.TeleportLocomotionVR": "Andere voortbewegingsopties, zoals teleporteren of vliegen, zijn beschikbaar om uit te proberen in het voortbewegingsmenu.",
+
+        "Hints.Bridge.RaiseTheWorld": "Druk op deze knop om het platform naar je toe te brengen!",
+
+        "Hints.Grabbing.GrabbingDesktop": "Pak dingen fysiek door de rechtermuisknop ingedrukt te houden!",
+        "Hints.Grabbing.GrabbingVR": "Pak dingen fysiek vast door Grip vast te houden!",
+
+        "Hints.Grabbing.Rotating": "Roteer vastgehouden items door E ingedrukt te houden en je muis te bewegen!",
+        "Hints.Grabbing.RotatingExtra": "Houd Shift en E samen ingedrukt om een ​​object rond zijn horizontale as te roteren!",
+
+        "Hints.Grabbing.ScalingDesktop": "Pak een item, houd shift ingedrukt en gebruik je scrollwiel om het te schalen!",
+        "Hints.Grabbing.ScalingVR": "Pak dingen fysiek met beide handen vast om ze te schalen!",
+
+        "Hints.Grabbing.OtherGrabbables": "Er zijn verschillende interactieve onderdelen, speel met deze drie om te zien hoe ze werken!",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Naast het schalen van objecten, kun je ook jezelf schalen door schalen in je contextmenu in te schakelen, vervolgens de controle ingedrukt te houden en je scrollwiel te gebruiken!",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "Naast het schalen van objecten, kun je ook jezelf schalen door schalen in je contextmenu in te schakelen, door ze met beide handen voor je vast te pakken en ze dichter of verder uit elkaar te bewegen!",
+
+        "Hints.Telescope.Alignment": "Pak de telescoop en richt hem op de maan!",
+
+        "Hints.Telescope.TheMoonDesktop": "Terwijl je op de maan richt, houd je de rechtermuisknop ingedrukt en kijk je rond om de maan te verplaatsen!",
+        "Hints.Telescope.TheMoonVR": "Zet je laser aan met de triggerknop en pak de maan!",
+
+        "Hints.Sundial.SoftEquip": "Grijp deze tool om hem te gebruiken!",
+        "Hints.Sundial.SoftEquipExtra": "Met tools kun je de wereld om je heen op verschillende manieren veranderen!",
+
+        "Hints.Sundial.HardEquip": "Klik op dit hulpmiddel om het uit te rusten!",
+        "Hints.Sundial.HardEquipExtra": "Ziet u uw laser niet? Houd uw trekker lichtjes vast om deze te onthullen!",
+
+        "Hints.Sundial.TheSun": "Richt op de lucht en klik om de zon daarheen te verplaatsen!",
+        "Hints.Sundial.TheSunExtra": "Probeer onder de horizon te mikken om het nacht te maken!",
+
+        "Hints.Sundial.Dequip": "Laat het uitgeruste gereedschap vallen door Dequip te kiezen in uw contextmenu.",
+        "Hints.Sundial.DequipExtra": "Merk op dat de opties in je contextmenu zijn veranderd omdat je dit hulpmiddel vasthoudt.",
+
+        "Hints.Sundial.Teleporter": "Druk op deze knop om de Teleporter naar uw Cloud Home te activeren!",
+        "Hints.Sundial.TeleporterExtra": "Geniet van je huis en bedankt voor het langskomen!",
+
+        "UI.TextDisplay.Landscape": "Landschap",
+        "UI.TextDisplay.Portrait": "Portret",
+        "UI.TextDisplay.NormalText": "Normaal",
+        "UI.TextDisplay.MonospaceText": "Monospace",
+
+        "UI.VideoPlayer.GlobalSettings": "Globaale<br>Instellingen",
+        "UI.VideoPlayer.LocalSettings": "Lokale<br>Instellingen",
+        "UI.VideoPlayer.SpatialAudio": "Ruimtelijke<br>Audio",
+        "UI.VideoPlayer.AreaBroadcast": "Gebieds<br>Omroep",
+        "UI.VideoPlayer.BroascastAudio": "omroep<br>Audio",
+        "UI.VideoPlayer.EnterURL": "<i><alpha=#77>Voer hier de URL in</closeall>",
+        "UI.VideoPlayer.AudioZoneTheater": "Lokaal naar<br>Theater",
+        "UI.VideoPlayer.AudioZoneGlobal": "Hoorbaar<br>voor de wereld",
+        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, een {user} andere {users}}<br>geladen",
+        "UI.VideoPlayer.AllUsersLoaded": "Alle gebruikers<br>geladen",
+
+        "UI.ColorPicker.ColorPicker": "Kleurenkiezer",
+
+        "UI.ColorPicker.Linear": "Linear",
+
+        "UI.ColorPicker.Hexadecimal": "Hex",
+        "UI.ColorPicker.ColorSwatches": "Swatch",
+
+        "UI.ColorPicker.Red": "Rood",
+        "UI.ColorPicker.Green": "Groen",
+        "UI.ColorPicker.Blue": "Blauw",
+
+        "UI.ColorPicker.Hue": "Tonen",
+        "UI.ColorPicker.Saturation": "Verzadiging",
+        "UI.ColorPicker.Value": "Waarde",
+
+        "UI.ColorPicker.Alpha": "Alfa",
+        "UI.ColorPicker.Gain": "Bereik",
+
+        "UI.ProgressBar.ImportingItem": "Item Importeren",
+
+        "UI.Camera.Automatic": "Automatisch",
+        "UI.Camera.Manual": "Handmatig",
+
+        "Tools.Names.MultiTool": "Multi-Tool",
+
+        "Tools.Names.CommonTools": "meest gebruikte Tools",
+        "Tools.Names.ManipulationTools": "Manipulatie Tools",
+        "Tools.Names.InformationTools": "Informatie Tools",
+
+        "Tools.Names.GeometryLineBrush": "Geometry Line Brush Tool",
+        "Tools.Names.Developer": "Developer Tool",
+        "Tools.Names.ComponentClone": "Component Clone Tool",
+        "Tools.Names.ProtoFlux": "ProtoFlux Tool",
+        "Tools.Names.Material": "Materiaal Tool",
+        "Tools.Names.Glue": "Lijm Tool",
+        "Tools.Names.Light": "Licht Tool",
+        "Tools.Names.Shape": "Vorm Tool",
+        "Tools.Names.Microphone": "Microfoon Tool",
+        "Tools.Names.GrabbableSetter": "Grabbable Setter Tool",
+        "Tools.Names.PhysicalColliderSetter": "Physical Collider Setter Tool",
+        "Tools.Names.MeshVisibility": "Mesh Visibility Tool",
+        "Tools.Names.CameraObjectVisibility": "Camera Object Visibility Tool",
+        "Tools.Names.Color": "Kleuren Tool",
+        "Tools.Names.Mesh": "Mesh Tool",
+        "Tools.Names.RiggedMeshTransfer": "Rigged Mesh Transfeer Tool",
+        "Tools.Names.Slicer": "Mesh Slicer Tool",
+        "Tools.Names.ControllerDiagnostic": "Controller Diagnostic Tool",
+        "Tools.Names.Measure": "Meet Tool",
+        "Tools.Names.Label": "Etiket Tool",
+  
         "Dummy": "Dummy"
     }
 }
