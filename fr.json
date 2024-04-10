@@ -1285,7 +1285,7 @@
         "Settings.LeapMotionSettings.Offset": "Compensation du traquage des mains",
         "Settings.LeapMotionSettings.Offset.Description": "Cela est la compensation en mètres du capteur Leap Motion sur votre casque. Changez ces valeurs pour avoir que la position de vos mains soit correcte.",
         "Settings.LeapMotionSettings.SnapDistance": "Distance d'attachement de la manette",
-        "Settings.LeapMotionSettings.SnapDistance": "Quand vos mains sont dans une certaine distance de vos manettes, elles vont s'attacher a elles et utiliser le traquage de celles-ci. Cette option contrôle a quelle distance cela arrive.",
+        "Settings.LeapMotionSettings.SnapDistance.Description": "Quand vos mains sont dans une certaine distance de vos manettes, elles vont s'attacher a elles et utiliser le traquage de celles-ci. Cette option contrôle a quelle distance cela arrive.",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Traquer les mains en utilisant les manettes",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "Quand les mains sont attachées a la manette, cela va poser les doigts en suivant les données envoyées par le Leap Motion.",
 
@@ -1294,10 +1294,10 @@
         "Settings.ViveHandTrackingSettings.SnapDistance": "Distance d'attachement de la manette",
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Quand vos mains sont dans une certaine distance de vos manettes, elles vont s'attacher a elles et utiliser le traquage de celles-ci. Cette option contrôle a quelle distance cela arrive.",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Traquer les mains en utilisant les manettes",
-        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Quand les mains sont attachées a la manette, cela va poser les doigts en suivant les données envoyées par Vive.",
+        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "Quand les mains sont attachées a la manette, cela va poser les doigts en suivant les données envoyées par Vive.",
 
         "Settings.UserMetricsSettings.UserHeight": "Taille",
-        "Settings.UserMetricsSettings.UserHeight": "Votre taille dans la vraie vie qui est utilisée pour mettre a l'échelle correctement votre avatar. Cela est aussi la taille a laquelle vous serez en mode assis.\n\nVous pouvez entrer votre taille avec différentes unités, par exemple <color=hero.yellow>175 cm</color> ou <color=hero.yellow>1.75m</color> pour le système métrique, ou <color=hero.yellow>5'11\"</color> pour le système impérial.",
+        "Settings.UserMetricsSettings.UserHeight.Description": "Votre taille dans la vraie vie qui est utilisée pour mettre a l'échelle correctement votre avatar. Cela est aussi la taille a laquelle vous serez en mode assis.\n\nVous pouvez entrer votre taille avec différentes unités, par exemple <color=hero.yellow>175 cm</color> ou <color=hero.yellow>1.75m</color> pour le système métrique, ou <color=hero.yellow>5'11\"</color> pour le système impérial.",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Utiliser le périphérique audio par défaut",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Activez cette option pour utiliser automatiquement le périphérique audio par défaut de votre système. Si vous voulez en utiliser un customisé, désactivez cette option et utilisez les réglages ci-dessous.",
@@ -1331,8 +1331,10 @@
         "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "Cette option contrôle pour combien de temps le volume ajusté reste après avoir été détecté.",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease": "Libération de la noise gate",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "Cette option contrôle quand la noise gate se referme après que l'audio soit faible.",
+
         "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Seuil de normalisation",
         "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Utiliser cette option va définir a quel point l'audio entrant sera amplifié. Si votre voix est trop faible et non amplifiée, réduisez la valeur. Si du bruit est amplifié, augmentez la valeur.",
+
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Supression de bruit (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Cette fonctionnalité retire les bruits et autres sons indésirables de votre audio. Nous recommandons vivement de laisser option activée.",
 
@@ -1342,6 +1344,7 @@
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Quand activé, vous vous connecterez aux sessions via le protocole Steam Networking Sockets si possible. Cela peut aider dans les cas ou le protocole LNL est problématique. Malheureusement ce protocole manque certaines fonctionnalités ce qui peut amener quelques problèmes en amont, nous recommandons donc de ne l'activer que si vous avez des problèmes avec les autres protocoles.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Nombre maximum de transferts d'assets concurrents",
+
         "Settings.AssetGatherSettings.MaxConcurrentDownloads": "Nombre maximum de téléchargements concurrents",
 
         "Settings.HostAccessSettings.Entries": "Entrées d'accès d'hôte",
@@ -1400,7 +1403,7 @@
         "Settings.LaserSettings.StickThreshold": "Adhérence du laser",
         "Settings.LaserSettings.StickThreshold.Description": "Contrôle l'adhérence du laser aux objets. 0 retire l'adhérence.",
         "Settings.LaserSettings.ShowInDesktop": "Montrer les lasers en mode bureau",
-        "Settings.LaserSettings.ShowInDesktop": "Quand activé, les lasers seront visibles en mode bureau a la première personne.",
+        "Settings.LaserSettings.ShowInDesktop.Description": "Quand activé, les lasers seront visibles en mode bureau a la première personne.",
 
         "Settings.DesktopViewSettings.FollowCursor": "Suivre le curseur",
         "Settings.DesktopViewSettings.FollowCursor.Description": "Quand activé, la vue bureau montrera l'écran sur lequel votre curseur est automatiquement.",
