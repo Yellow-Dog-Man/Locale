@@ -1183,6 +1183,9 @@
         "Settings.Category.Graphics": "Graphismes",
         "Settings.Category.InteractiveCamera": "Caméra",
 
+        "Settings.LegacyFeatureSettings.ConvertLegacySettings": "DEBUG - Convertir les anciennes options",
+        "Settings.DebugSettings.DebugResetAllSimpleSettings": "DEBUG - Réinitialiser toutes les options simples",
+
         "Settings.GeneralControlsSettings": "Contrôles généraux",
         "Settings.LocomotionSettings": "Locomotion",
         "Settings.MovementSettings": "Mouvement",
@@ -1305,6 +1308,12 @@
         "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "Périphériques d'entrée audio",
         "Settings.AudioInputDeviceSettings.SetAsDefault": "Définir comme défaut",
 
+        "Settings.AudioOutputDeviceSettings.UseSystemDefault": "Utiliser le périphérique audio par défaut",
+        "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Utilisez cette option pour utiliser le défaut de votre système. Désactiver cette option peut être utile si vous voulez que l'audio sorte d'un autre périphérique.",
+        "Settings.AudioOutputDeviceSettings.DevicePriorities": "Périphériques de sortie audio",
+        "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "Périphériques de sortie audio",
+        "Settings.AudioOutputDeviceSettings.SetAsDefault": "Définir comme défaut",
+
         "Settings.AudioVolumeSettings.MasterVolume": "Volume principal",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "Règle le volume de tout. Réglez cette option si tout est trop fort ou faible.",
         "Settings.AudioVolumeSettings.SoundEffectVolume": "Volume des effets sonores",
@@ -1344,15 +1353,19 @@
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Quand activé, vous vous connecterez aux sessions via le protocole Steam Networking Sockets si possible. Cela peut aider dans les cas ou le protocole LNL est problématique. Malheureusement ce protocole manque certaines fonctionnalités ce qui peut amener quelques problèmes en amont, nous recommandons donc de ne l'activer que si vous avez des problèmes avec les autres protocoles.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Nombre maximum de transferts d'assets concurrents",
-
+        "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "Quand vous hébergez une session, cela indique combien de transfert locaux seront téléchargés a la fois. Définir cette valeur trop haute pourrait surcharger votre connexion.",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads": "Nombre maximum de téléchargements concurrents",
+        "Settings.AssetGatherSettings.MaxConcurrentDownloads.Description": "Utilisez cette option pour définir combien de téléchargements simultanés seront fait depuis le Cloud. Cela peut accélérer le chargement de mondes.",
 
         "Settings.HostAccessSettings.Entries": "Entrées d'accès d'hôte",
         "Settings.HostAccessSettings.Entries.Breadcrumb": "Entrées d'accès d'hôte",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "Autoriser les requêtes HTTP",
+        "Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description": "Cela indique si vous autorisez le service a faire des requêtes HTTP pour accéder a des APIs.",
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Autoriser les websockets",
+        "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Cela indique si vous autorisez le service a recevoir des requêtes WebSocket pour de la communication en temps réel.",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Raison de la dernière requête HTTP",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Raison de la dernière requête websocket",
+        "Settings.HostAccessSettings.Entries.Remove": "Retirer cette entrée",
         "Settings.HostAccessSettings.DebugReset": "Réinitialiser les accès d'hôtes",
 
         "Settings.UserRestrictionsSettings.DebugReset": "Réinitialiser les restrictions utilisateur",
