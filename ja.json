@@ -1203,7 +1203,7 @@
         "Settings.AudioInputFilteringSettings": "入力フィルター",
 
         "Settings.RealtimeNetworkingSettings": "リアルタイムネットワーキング",
-        "Settings.AssetGatherSettings": "アセットギャザー",
+        "Settings.AssetGatherSettings": "アセットの読み込み",
 
         "Settings.HostAccessSettings": "ホストアクセス",
         "Settings.UserRestrictionsSettings": "ユーザー制限",
@@ -1218,10 +1218,10 @@
         "Settings.DashSettings": "ダッシュボード",
         "Settings.NamePlateSettings": "ネームプレート",
         "Settings.LaserSettings": "レーザー",
-        "Settings.DesktopViewSettings": "デスクトップの表示",
+        "Settings.DesktopViewSettings": "デスクトップ画面の表示",
         "Settings.PhotoCaptureSettings": "スクリーンショット",
 
-        "Settings.DesktopRenderSettings": "デスクトップのレンダリング設定",
+        "Settings.DesktopRenderSettings": "デスクトップモード",
 
         "Settings.InteractiveCameraFramingSettings": "フレーム",
         "Settings.InteractiveCameraPositioningSettings": "ポジション",
@@ -1235,32 +1235,32 @@
         "Settings.GeneralControlsSettings.PrimaryHand": "利き手",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "ダブルクリックの間隔",
 
-        "Settings.LocomotionSettings.LocomotionPreferences": "ロコモーション設定",
-        "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "ロコモーションの優先度",
+        "Settings.LocomotionSettings.LocomotionPreferences": "ロコモーション優先度の設定",
+        "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "ロコモーション優先度の設定",
 
-        "Settings.MovementSettings.LeftSidewaysMode": "左コントローラーで移動",
-        "Settings.MovementSettings.RightSidewaysMode": "右コントローラーで移動",
-        "Settings.MovementSettings.UseHeadDirectionForMovement": "頭の向きに移動",
-        "Settings.MovementSettings.UseSmoothTurn": "スムーズターン",
+        "Settings.MovementSettings.LeftSidewaysMode": "左コントローラーでの移動方法",
+        "Settings.MovementSettings.RightSidewaysMode": "右コントローラーでの移動方法",
+        "Settings.MovementSettings.UseHeadDirectionForMovement": "頭の向きに移動する",
+        "Settings.MovementSettings.UseSmoothTurn": "スムーズターンを使用する",
         "Settings.MovementSettings.SmoothTurnExclusiveMode": "スムーズターン専用モード",
-        "Settings.MovementSettings.SmoothTurnSpeed": "スムーズターンの速度",
-        "Settings.MovementSettings.SnapTurnAngle": "スナップターンの角度",
-        "Settings.MovementSettings.NoClipSpeed": "ノークリップの速度",
+        "Settings.MovementSettings.SmoothTurnSpeed": "スムーズターンの回転速度",
+        "Settings.MovementSettings.SnapTurnAngle": "スナップターンの回転角度",
+        "Settings.MovementSettings.NoClipSpeed": "ノークリップの移動速度",
         "Settings.MovementSettings.MovementDeadzone": "移動のデッドゾーン",
         "Settings.MovementSettings.MovementExponent": "移動指数",
 
-        "Settings.MouseSettings.MouseSensitivity": "感度",
-        "Settings.MouseSettings.MouseLookSpeed": "視点速度",
-        "Settings.MouseSettings.MousePanSpeed": "パン速度",
-        "Settings.MouseSettings.MouseRotateSpeed": "回転速度",
-        "Settings.MouseSettings.MouseFreeformRotateSpeed": "フリーフォームの回転速度",
+        "Settings.MouseSettings.MouseSensitivity": "マウス感度倍率",
+        "Settings.MouseSettings.MouseLookSpeed": "視点移動速度",
+        "Settings.MouseSettings.MousePanSpeed": "UIフォーカスモードの移動速度",
+        "Settings.MouseSettings.MouseRotateSpeed": "オブジェクトの水平回転速度",
+        "Settings.MouseSettings.MouseFreeformRotateSpeed": "オブジェクトの回転速度",
 
-        "Settings.GeneralHapticsSettings.EnableControllerVibration": "コントローラーの振動",
-        "Settings.GeneralHapticsSettings.EnableHaptics": "触覚フィードバック",
+        "Settings.GeneralHapticsSettings.EnableControllerVibration": "コントローラーの振動機能を使う",
+        "Settings.GeneralHapticsSettings.EnableHaptics": "ハプティクスデバイスを使う",
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "VRホットスイッチ",
 
-        "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap motion ハンドトラッキング",
+        "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion ハンドトラッキング",
         "Settings.LeapMotionSettings.Offset": "ハンドトラッキングのオフセット",
         "Settings.LeapMotionSettings.SnapDistance": "コントローラースナップ距離",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "コントローラー使用中にハンドトラッキングする",
@@ -1271,21 +1271,21 @@
 
         "Settings.UserMetricsSettings.UserHeight": "身長",
 
-        "Settings.AudioInputDeviceSettings.UseSystemDefault": "システムのデフォルト入力デバイスを使用",
-        "Settings.AudioInputDeviceSettings.DevicePriorities": "音声入力デバイス",
-        "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "音声入力デバイスを選択",
+        "Settings.AudioInputDeviceSettings.UseSystemDefault": "PCのデフォルト入力デバイスを使用する",
+        "Settings.AudioInputDeviceSettings.DevicePriorities": "音声入力デバイスの選択",
+        "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "音声入力デバイスの選択",
         "Settings.AudioInputDeviceSettings.SetAsDefault": "既定に設定",
 
-        "Settings.AudioOutputDeviceSettings.UseSystemDefault": "システムのデフォルト出力デバイスを使用",
-        "Settings.AudioOutputDeviceSettings.DevicePriorities": "音声出力デバイス",
-        "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "音声出力デバイスを選択",
+        "Settings.AudioOutputDeviceSettings.UseSystemDefault": "PCのデフォルト出力デバイスを使用する",
+        "Settings.AudioOutputDeviceSettings.DevicePriorities": "音声出力デバイスの選択",
+        "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "音声出力デバイスの選択",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "既定に設定",
 
-        "Settings.AudioVolumeSettings.MasterVolume": "マスター",
+        "Settings.AudioVolumeSettings.MasterVolume": "マスターボリューム",
         "Settings.AudioVolumeSettings.SoundEffectVolume": "サウンドエフェクト",
         "Settings.AudioVolumeSettings.MultimediaVolume": "マルチメディア",
-        "Settings.AudioVolumeSettings.VoiceVolume": "ユーザーの声",
-        "Settings.AudioVolumeSettings.UserInterfaceVolume": "UI",
+        "Settings.AudioVolumeSettings.VoiceVolume": "ユーザーのボイス",
+        "Settings.AudioVolumeSettings.UserInterfaceVolume": "UIサウンド",
 
         "Settings.AudioAccessibilitySettings.WhisperVolume": "ウイスパーモードの音量",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "ボイスメッセージの音量",
@@ -1299,10 +1299,10 @@
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "ノイズフィルター",
 
         "Settings.RealtimeNetworkingSettings.DisableLAN": "LANを無効化",
-        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "steam networking socketsを優先",
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Steam Networking Socketsを優先",
 
-        "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "最大同時アセット転送数",
-        "Settings.AssetGatherSettings.MaxConcurrentDownloads": "最大同時ダウンロード数",
+        "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "アセットを同時に転送する上限数",
+        "Settings.AssetGatherSettings.MaxConcurrentDownloads": "ダウンロードを同時に行う上限数",
 
         "Settings.HostAccessSettings.Entries": "ホストアクセス一覧",
         "Settings.HostAccessSettings.Entries.Breadcrumb": "ホストアクセス一覧",
@@ -1327,18 +1327,18 @@
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "メッセージの既読状態を送信しない",
 
         "Settings.LocaleSettings.PrimaryInterfaceLocaleCode": "標準の言語表示コード",
-        "Settings.LocaleSettings.CultureLocaleCode": "カルチャ-ロケールコード",
-        "Settings.LocaleSettings.UseImperialUnits": "ヤード・ポンド単位を使用",
-        "Settings.LocaleSettings.AvailableLocales": "表示言語を設定",
-        "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "表示言語を選択",
+        "Settings.LocaleSettings.CultureLocaleCode": "言語コード",
+        "Settings.LocaleSettings.UseImperialUnits": "ヤード・ポンド法で表示する",
+        "Settings.LocaleSettings.AvailableLocales": "使用する言語の設定",
+        "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "使用する言語の設定",
 
 
-        "Settings.DashSettings.FreeformDash": "ダッシュボードを傾ける",
-        "Settings.DashSettings.DashCurvature": "湾曲率",
+        "Settings.DashSettings.FreeformDash": "ダッシュメニューを傾ける",
+        "Settings.DashSettings.DashCurvature": "ダッシュメニューの曲がり具合",
         "Settings.DashSettings.OpenCloseSpeed": "開閉スピード",
 
-        "Settings.NamePlateSettings.NameplateVisibility": "ネームプレートの表示",
-        "Settings.NamePlateSettings.UseCustomNameplates": "カスタムネームプレートを表示",
+        "Settings.NamePlateSettings.NameplateVisibility": "ネームプレートを表示するユーザーの種類",
+        "Settings.NamePlateSettings.UseCustomNameplates": "カスタムネームプレートを表示する",
 
         "Settings.LaserSettings.SmoothSpeed": "スムーズスピード",
         "Settings.LaserSettings.ModulateStartAngle": "始点の角度",
@@ -1348,16 +1348,16 @@
         "Settings.LaserSettings.StickThreshold": "くっ付きやすさ",
         "Settings.LaserSettings.ShowInDesktop": "デスクトップモードでレーザーを表示",
 
-        "Settings.DesktopViewSettings.FollowCursor": "カーソルに追従",
+        "Settings.DesktopViewSettings.FollowCursor": "カーソルを追従させる",
         "Settings.DesktopViewSettings.Brightness": "明るさ",
         "Settings.DesktopViewSettings.Opacity": "不透明度",
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "フィンガーフォト",
-        "Settings.PhotoCaptureSettings.NormalCaptureResolution": "解像度",
-        "Settings.PhotoCaptureSettings.TimerCaptureResolution": "タイマーモードの解像度",
-        "Settings.PhotoCaptureSettings.TimerSeconds": "タイマーの長さ",
-        "Settings.PhotoCaptureSettings.CaptureStereo": "立体写真で撮影",
-        "Settings.PhotoCaptureSettings.PhotoAutosavePath": "自動保存パス",
+        "Settings.PhotoCaptureSettings.NormalCaptureResolution": "ノーマル撮影の解像度",
+        "Settings.PhotoCaptureSettings.TimerCaptureResolution": "タイマー撮影の解像度",
+        "Settings.PhotoCaptureSettings.TimerSeconds": "タイマーの時間（秒）",
+        "Settings.PhotoCaptureSettings.CaptureStereo": "立体写真モード",
+        "Settings.PhotoCaptureSettings.PhotoAutosavePath": "写真の保存先ディレクトリ",
 
         "Settings.DesktopRenderSettings.FieldOfView": "視野角",
 
@@ -1409,7 +1409,7 @@
         "LocomotionArchetype.ThreeAxisFly": "3軸フライ",
         "LocomotionArchetype.ZeroG": "ゼロ・グラビティ",
 
-        "LocomotionSettings.MakePreferred": "優先にする",
+        "LocomotionSettings.MakePreferred": "最優先にする",
         "LocomotionSettings.MakeLeastPreferred": "最下位にする",
 
         "Settings.Height": "身長:",
