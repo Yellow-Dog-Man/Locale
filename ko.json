@@ -1327,15 +1327,15 @@
 
         "Settings.AudioAccessibilitySettings.WhisperVolume": "개인 대화시 외부 청음 볼륨",
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "개인 대화(귓속말) 모드 상태일때 외부 대화소리가 어느정도 볼륨으로 들리는지를 설정합니다.",
-        "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "음성 메세지 볼륨",
-        "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "This indicates how loud will other sounds be when you are recording voice message in Contacts. This can help prevent \"voice jamming\", making it easier to focus on what you are saying.",
+        "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "음성 메세지 녹음 볼륨",
+        "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "<color=hero.yellow>연락처</color>에서 음성 메세지를 녹음할때의 볼륨입니다. 이는 음성이 찢어지는 상태로 녹음이 되는것을 방지하는데 도움이 되고, 상대방에게 정확한 메세지를 보낼 수 있습니다.",
 
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "음성 평탄화",
-        "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "This feature will try to ensure that your voice input is brought to a uniform level. This helps make your volume be same as other users, regardless of your microphone settings. We strongly recommend to keep this setting on to ensure you can be heard well by other users.",
+        "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "이 기능은 음성 입력이 균일한 수준으로 유지되도록 조정합니다. 이렇게 하면 마이크 설정에 관계없이 볼륨을 다른 사용자들과 동일하게 유지할 수 있습니다. 명확한 대화를 위해 이 설정을 유지하는것이 좋습니다.",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "잡음 식별 임계치(Threshold)",
-        "Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description": "Noise gate prevents random noises from being transmitted to other users. This setting indicates when should we start letting the audio coming from your microphone in. If too much noise is making it in, increase this setting, if your voice is not getting through, lower it.",
+        "Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description": "노이즈 게이트로서 마이크에 입력되는 소리에서 어느정도 크기 까지를 잡음으로 식별할지 결정합니다. 잡음으로 식별된 크기는 마이크 입력으로 간주되지 않아 상대방에게 전달되지 않습니다. 주변 환경음이 크다면 값을 높이고, 음성 전달이 안될경우 낮추세요.",
         "Settings.AudioInputFilteringSettings.NoiseGateAttack": "음성개방 속도(Attack)",
-        "Settings.AudioInputFilteringSettings.NoiseGateAttack.Description": "This indicates how fast the noise gate responds to an incoming audio that is too quiet. Bigger values will result in a slower volume fade in, while smaller ones will make the volume ramp up quicker.",
+        "Settings.AudioInputFilteringSettings.NoiseGateAttack.Description": "조용한 상태에서 소리가 입력될때 노이즈 게이트가 반응하는 속도입니다. 값과 페이드인 속도는 반비례(값이 크면 느리고, 값이 작으면 빨라짐) 합니다.",
         "Settings.AudioInputFilteringSettings.NoiseGateHold": "음성개방 최소 유지시간(Hold)",
         "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "This controls for how long should adjusted volume be held after it's initially detected, before starting to filter audio again. A higher setting will let more quieter audio through after you've made a loud enough noise.",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease": "음성 감쇠 시간(Release)",
@@ -1391,7 +1391,7 @@
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "사용 가능한 언어",
 
         "Settings.DashSettings.DashCurvature": "곡률",
-        "Settings.DashSettings.DashCurvature.Description": "This controls how curved the dash is when you are in VR. Setting it to 0 will make it completely flat.",
+        "Settings.DashSettings.DashCurvature.Description": "VR상에서 대시메뉴가 얼마나 휘어져야 하는지를 설정합니다. 0으로 설정하면 완벽하게 평면이 됩니다.",
         "Settings.DashSettings.OpenCloseSpeed": "애니메이션 속도",
         "Settings.DashSettings.OpenCloseSpeed.Description": "Use this to adjust how quickly the dash opens and closes. If you don't like the animation, you can set this to very high value so dash opens and closes near instantly.",
 
