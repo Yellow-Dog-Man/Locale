@@ -1300,7 +1300,7 @@
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "When hands are snapped to controllers, this will still pose the fingers using data coming from the VR headset cameras",
 
         "Settings.UserMetricsSettings.UserHeight": "Height",
-        "Settings.UserMetricsSettings.UserHeight.Description": "This is your real world height, which is used to properly scale your avatar so it fits you well. It is also the height you will be placed at when you enable seated mode.\n\nYou can enter your height by using appropriate units, for example by typing <color=hero.yellow>175 cm</color> or <color=hero.yellow>1.75 m</color> for metric or <color=hero.yellow>5'11\"</color> for imperial.",
+        "Settings.UserMetricsSettings.UserHeight.Description": "This is your real world height, which is used to properly scale your avatar so it fits you well. It is also the height you will be placed at when you enable seated mode.\n\nYou can enter your height by using appropriate units, for example by typing <nobr><color=hero.yellow>175 cm</color></nobr> or <nobr><color=hero.yellow>1.75 m</color></nobr> for metric or <color=hero.yellow>5'11\"</color> for imperial.",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Use System Default Input Device",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Enable this to automatically use the input device you have set as default input in your system. If you'd like to override this and use a specific device instead, disable this option and configure the preferred devices below.",
@@ -1357,12 +1357,15 @@
         "Settings.AssetGatherSettings.MaxConcurrentDownloads": "Maximum number of concurrent downloads",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads.Description": "Use this to control how many assets can be downloaded at the same time. Using bigger value can speed up loading of worlds, but can also overload your network, so use caution when tweaking this value.",
 
-        "Settings.HostAccessSettings.Entries": "Host Access Entries",
-        "Settings.HostAccessSettings.Entries.Breadcrumb": "Host Access Entries",
+        "Settings.HostAccessSettings.Entries": "Manage Host Access Permissions",
+        "Settings.HostAccessSettings.Entries.Breadcrumb": "Host Access Permissions",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "Allow HTTP requests",
+        "Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description": "This indicates if HTTP(s) requests are allowed for this host. These are typically REST API requests to communicate with a third party services.",
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Allow websockets",
+        "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "This indicates of realtime Websocket connections are allowed for this host. These are often used for more realtime bi-directional communications and data streams.",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Last hyperlink request reason",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Last websocket request reason",
+        "Settings.HostAccessSettings.Entries.Remove": "Remove entry (you will be asked again next time)",
         "Settings.HostAccessSettings.DebugReset": "Reset Host Access Entries",
 
         "Settings.UserRestrictionsSettings.DebugReset": "Reset User Restrictions",
@@ -2016,14 +2019,31 @@
         "Tutorial.Welcome.SettingsDescription": "You can configure basic motion and user preferences. All of these can be changed at later point.",
         "Tutorial.Welcome.SettingsTurning": "Turning Style",
         "Tutorial.Welcome.SettingsSnapTurn": "Snap",
-        "Tutorial.Welcome.SettingsSnapTurnDescription": "Instantly snaps to new angle, ideal for new users",
+        "Tutorial.Welcome.SettingsSnapTurn.Description": "Instantly snaps to new angle, ideal for new users",
         "Tutorial.Welcome.SettingsSmoothTurn": "Smooth",
-        "Tutorial.Welcome.SettingsSmoothTurnDescription": "Gradually turns, but can cause nausea.",
-        "Tutorial.Welcome.SettingsPrimaryController": "Primary Controller",
+        "Tutorial.Welcome.SettingsSmoothTurn.Description": "Gradually turns, but can cause nausea.",
+        "Tutorial.Welcome.SettingsPrimaryController": "Primary Hand",
         "Tutorial.Welcome.SettingsPrimaryLeft": "Left",
-        "Tutorial.Welcome.SettingsPrimaryLeftDescription": "<b>Left:</b> Turn, <b>Right:</b> Strafe",
+        "Tutorial.Welcome.SettingsPrimaryLeft.Description": "Left handed",
         "Tutorial.Welcome.SettingsPrimaryRight": "Right",
-        "Tutorial.Welcome.SettingsPrimaryRightDescription": "<b>Left:</b> Strafe, <b>Right:</b> Turn",
+        "Tutorial.Welcome.SettingsPrimaryRight.Description": "Right handed",      
+        
+        "Tutorial.Welcome.SettingsHeadDirectionMovement": "Movement Direction",
+        "Tutorial.Welcome.SettingsUseHeadDirection": "Head Direction",
+        "Tutorial.Welcome.SettingsUseHeadDirection.Description": "You will move in the direction you're looking",
+        "Tutorial.Welcome.SettingsUseControllerDirection": "Controller Direction",
+        "Tutorial.Welcome.SettingsUseControllerDirection.Description": "You will move in the direction of your controller",
+
+        "Tutorial.Welcome.LeftControllerMode": "Left Controller Mode",
+        "Tutorial.Welcome.RightControllerMode": "Right Controller Mode",
+
+        "Tutorial.Welcome.SidewaysTurn": "Turning",
+        "Tutorial.Welcome.SidewaysTurn.Description": "Use this controller for turning",
+        "Tutorial.Welcome.SidewaysStrafe": "Strafing",
+        "Tutorial.Welcome.SidewaysStrafe.Description": "Use this controller for strafing",
+        "Tutorial.Welcome.SidewaysOff": "Off",
+        "Tutorial.Welcome.SidewaysOff.Description": "Only forward/backward movement",
+
         "Tutorial.Welcome.SettingsHeight": "Your height",
         "Tutorial.Welcome.SettingsHeightExamples": "Examples: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
