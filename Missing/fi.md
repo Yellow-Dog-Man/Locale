@@ -527,7 +527,7 @@ UI.DocumentDisplay.QualityHigh
 UI.DocumentDisplay.Pages  
 UI.DocumentDisplay.ResetZoom  
 UI.VideoPlayer.AreaBroadcast  
-UI.VideoPlayer.BroascastAudio  
+UI.VideoPlayer.BroadcastAudio  
 UI.VideoPlayer.AudioZoneTheater  
 UI.VideoPlayer.AudioZoneGlobal  
 UI.VideoPlayer.UsersLoaded  

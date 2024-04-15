@@ -45,3 +45,4 @@ UI.DocumentDisplay.QualityMedium
 UI.DocumentDisplay.QualityHigh  
 UI.DocumentDisplay.Pages  
 UI.DocumentDisplay.ResetZoom  
+

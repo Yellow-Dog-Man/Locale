@@ -1701,7 +1701,7 @@ UI.VideoPlayer.GlobalSettings
 UI.VideoPlayer.LocalSettings  
 UI.VideoPlayer.SpatialAudio  
 UI.VideoPlayer.AreaBroadcast  
-UI.VideoPlayer.BroascastAudio  
+UI.VideoPlayer.BroadcastAudio  
 UI.VideoPlayer.EnterURL  
 UI.VideoPlayer.AudioZoneTheater  
 UI.VideoPlayer.AudioZoneGlobal  
