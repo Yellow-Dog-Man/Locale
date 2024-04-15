@@ -1118,6 +1118,13 @@ UI.TextDisplay.Landscape
 UI.TextDisplay.Portrait  
 UI.TextDisplay.NormalText  
 UI.TextDisplay.MonospaceText  
+UI.DocumentDisplay.PageNumber  
+UI.DocumentDisplay.DocumentQuality  
+UI.DocumentDisplay.QualityLow  
+UI.DocumentDisplay.QualityMedium  
+UI.DocumentDisplay.QualityHigh  
+UI.DocumentDisplay.Pages  
+UI.DocumentDisplay.ResetZoom  
 UI.VideoPlayer.GlobalSettings  
 UI.VideoPlayer.LocalSettings  
 UI.VideoPlayer.SpatialAudio  

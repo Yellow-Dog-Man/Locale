@@ -138,4 +138,11 @@ Tutorial.Welcome.SidewaysStrafe
 Tutorial.Welcome.SidewaysStrafe.Description  
 Tutorial.Welcome.SidewaysOff  
 Tutorial.Welcome.SidewaysOff.Description  
+UI.DocumentDisplay.PageNumber  
+UI.DocumentDisplay.DocumentQuality  
+UI.DocumentDisplay.QualityLow  
+UI.DocumentDisplay.QualityMedium  
+UI.DocumentDisplay.QualityHigh  
+UI.DocumentDisplay.Pages  
+UI.DocumentDisplay.ResetZoom  
 
