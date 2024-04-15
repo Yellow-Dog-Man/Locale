@@ -1276,47 +1276,92 @@
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "Эта настройка контролирует скорость свободного врещения предметов, которые вы держите, в экранном режиме.",
 
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Вибрация контроллера",
+        "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Включает тактильную отдачу на VR контроллерах.",
         "Settings.GeneralHapticsSettings.EnableHaptics": "Тактильная отдача",
+        "Settings.GeneralHapticsSettings.EnableHaptics.Description": "Когда эта настройка включена, вы будуте получать тактильную отдачу от аватаров и предметов в мире на маших контроллерах и других устройствах с отдачей.",
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "Быстрое переключение VR",
+        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Когда включено, Resinite автоматически переключается между VR и экранным режимом когда вы снимаете или надеваете VR шлем.",
+
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing" : "Сглаживание позиции рук",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing" : "Сглаживание поворота рук",
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description" : "Когда включено, определяет, насколько сильно сглаживается позиция рук. Обычно помогает пользователям с тремором и другими ограничениями, вызывающими дрожание.",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description" : "Когда включено, определяет, насколько сильно сглаживается поворот рук. Обычно помогает пользователям с тремором и другими ограничениями, вызывающими дрожание.",
+
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing" : "Сглаживание позиции ног",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing" : "Сглаживание поворота ног",
+
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description" : "Когда включено, определяет, насколько сильно сглаживается позиция ног при использовании FBT (трекинга тела). Может быть полезно чтобы уменьшить вибрацию и дрожание, но из-за этого трекеры могут отставать и не откликаться на резкие движения.",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description" : "Когда включено, определяет, насколько сильно сглаживается поворот ног при использовании FBT (трекинга тела). Может быть полезно чтобы уменьшить вибрацию и дрожание, но из-за этого трекеры могут отставать и не откликаться на резкие движения.",
+
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing" : "Сглаживание позиции бедер",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing" : "Сглаживание поворота бедер",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description" : "Когда включено, определяет, насколько сильно сглаживается позиция бедер при использовании FBT (трекинга тела). Может быть полезно чтобы уменьшить вибрацию и дрожание, но из-за этого трекеры могут отставать и не откликаться на резкие движения.",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description" : "Когда включено, определяет, насколько сильно сглаживается поворот бедер при использовании FBT (трекинга тела). Может быть полезно чтобы уменьшить вибрацию и дрожание, но из-за этого трекеры могут отставать и не откликаться на резкие движения.",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Трекинг рук Leap Motion",
+        "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Когда включен, устройктво Leap Motion, если подключено, будет использоваться для отслеживания ваших рук и пальцев.",
         "Settings.LeapMotionSettings.Offset": "Отступ трекинга рук",
+        "Settings.LeapMotionSettings.Offset.Description": "Это сдвиг сенсора Leap Motion относительно вашего VR шлема в метрах. Подстройте эти значения чтобы руки были в правильной позиции.",
         "Settings.LeapMotionSettings.SnapDistance": "Дистанция \"прилипания\" к контроллерам",
+        "Settings.LeapMotionSettings.SnapDistance.Description": "Когда ваши руки рядом с контроллерами, они автоматически \"прилипнут\" к ним и будут использовать трекинг с самих контроллеров вместо Leap Motion. Эта настройка задает дистанцию \"прилипания\".",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Отслеживать руки при использовании контроллеров",
+        "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "Когда руки \"прилипли\" к контроллерам, эта настройка позволяет использовать позы пальцев с Leap Motion.",
 
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Трекинг рук Vive",
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "Когда включен, ваши руки и пальцы будут отслеживаться трекингом Vive. Обычно для этого используются камеры самого VR шлема. Вас возможно потребуется включить трекинг рук в настройках Steam VR.",
         "Settings.ViveHandTrackingSettings.SnapDistance": "Дистанция \"прилипания\" к контроллерам",
+        "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Когда ваши руки рядом с контроллерами, они автоматически \"прилипнут\" к ним и будут использовать трекинг с самих контроллеров вместо камер VR шлема. Эта настройка задает дистанцию \"прилипания\".",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Отслеживать руки при использовании контроллеров",
+        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "Когда руки \"прилипли\" к контроллерам, эта настройка позволяет использовать позы пальцев с камер VR шлема.",
 
         "Settings.UserMetricsSettings.UserHeight": "Рост",
+        "Settings.UserMetricsSettings.UserHeight.Description": "Это ваш реальный рост, который используется чтобы правильно масштабировать ваш аватар и подогнать его под ваше тело. Также это высота, которая будет использоваться для сидячего режима.\n\nВы можете ввести свой рост в подходящих единицах длины, например <nobr><color=hero.yellow>175 cm</color></nobr> или <nobr><color=hero.yellow>1.75 m</color></nobr> для метрической системы или <color=hero.yellow>5'11\"</color> для имперской.",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Использовать системное устройство ввода по умолчанию",
+        "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Включите чтобы автоматически использовать устройство ввода, которое вы выбрали как устройство по умолчанию в системных настройках. Если вам нужно использовать устройство, отличное от устройства по умолчанию, выключите эту настройку и выберите устройство в настройках ниже.",
         "Settings.AudioInputDeviceSettings.DevicePriorities": "Устройства аудио ввода",
         "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "Устройства аудио ввода",
         "Settings.AudioInputDeviceSettings.SetAsDefault": "Установить по умолчанию",
 
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "Использовать системное устройство вывода по умолчанию",
+        "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Включите чтобы автоматически использовать устройство вывода, которое вы выбрали как устройство по умолчанию в системных настройках. Если вам нужно использовать устройство, отличное от устройства по умолчанию, выключите эту настройку и выберите устройство в настройках ниже. Это может быть полезно если вы используете разные устройства при переключении между VR и экранным режимом.",
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "Устройства аудио вывода",
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "Устройства аудио вывода",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Установить по умолчанию",
 
         "Settings.AudioVolumeSettings.MasterVolume": "Главная громкость",
+        "Settings.AudioVolumeSettings.MasterVolume.Description": "Настраивает громкость всех звуков. Если все звуки слишком тихие или громкие, вам нужна эта настройка.",
         "Settings.AudioVolumeSettings.SoundEffectVolume": "Громкость звуковых эффектов",
+        "Settings.AudioVolumeSettings.SoundEffectVolume.Description": "Задает громкость зауковых эффектов. Чаще всего это звуки, которые производят разные предметы и инструменты.",
         "Settings.AudioVolumeSettings.MultimediaVolume": "Громкость мультимедиа",
+        "Settings.AudioVolumeSettings.MultimediaVolume.Description": "Задает громкость мультимедиа. Обычно проигрыватели звуков, музыки и видео подпадают под эту категорию, вместе с фоновой музыкой миров.",
         "Settings.AudioVolumeSettings.VoiceVolume": "Громкость голоса",
+        "Settings.AudioVolumeSettings.VoiceVolume.Description": "Задает громкость речи всех пользователей. Для некоторых пред-записанных голосов также будет использоваться эта настройка. Вы можете настроить громкость голоса отдельных пользователей на вкладке сессии.",
         "Settings.AudioVolumeSettings.UserInterfaceVolume": "Громкость интерфейса",
+        "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "Этой настройкой вы можете задать отдельно громколсть интерфейса - наведение и нажатие на кнопки, движки, некоторые взаимодействия инструментов, снятие фотографий, и так далее.",
 
         "Settings.AudioAccessibilitySettings.WhisperVolume": "Громкость шёпота",
+        "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Когда вы включаете режим шёпота, эта настройка задает, насколько громкоми будут звуки снаружи сферы. Если они слишком громкие или тихие, эта настройка поможет задать их затухание.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Громкость голосовых сообщений",
+        "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Задает, насколько громкими будут внешние звуки когда вы записываете голосовое сообщение на скледке контактов. Позволяет избежать \"перебивания\" и сконцентрироваться на том, что вы хотите сказать.",
 
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Нормализация голоса",
+        "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Эта фенкциональность пытается поддерживать громкость вышего голоса на постоянном уровне. Это делает громкость вашего голоса постоянной для других пользователей, независимо от настроек микрофона. Настоятельно рекомендуем оставить эту настройку включенной, чтобы другие пользователи могли хорошо слышать вас.",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "Порог шумодава",
+        "Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description": "Шумодав предотвращает передачу посторонних шумов другим пользователям. Эта настройка задает, когда шумодав начнет пропускать записываемый вашим микрофоном звук. Если пропускается слишком много шумов, увеличьте эту настройку, а если ваш голос не всегда проходит, уменьшите её.",
         "Settings.AudioInputFilteringSettings.NoiseGateAttack": "Подъём шумодава",
+        "Settings.AudioInputFilteringSettings.NoiseGateAttack.Description": "Задает, как быстро шумодав реагирует на слишком тихий звук. При больших значениях громкость нарастает более плавно, а при маленьких - резко.",
         "Settings.AudioInputFilteringSettings.NoiseGateHold": "Поддержка шумодава",
+        "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "Задает, как долго громкость звука будет удерживаться после того как шумодав сработал, прежде чем опять начать подстраивать громкость. Большее значение пропустит больше тихого звука после громкого.",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease": "Затухание шумодава",
+        "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "Эта настройка задает, как быстро шумодав закрывается после того как звук стал слишком тихим.",
+
         "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Порог нормализации",
+        "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Этой настройкой вы можете задать порог, начиная с которого записываемый звук будет нормализован. Если ваша обычная речь слишком тихая и не усиливается, уменьшите эту настройку. Если случайные тихие звуки усиливаются, увеличьте её.",
+
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Подавление шума (RNNoise)",
+        "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Эта функциональность обрабатывает записываемое аудио чтобы отфильтровать различные мешающие шумы. Она может значительно очистить звук, написанный на шумный микрофон, и получить более чистый голос. Настоятельно рекомендуем оставить эту настройку включенной. С другой стороны, она может отфильтровать некоторые звуки, которые не определяются как речь.",
 
         "Settings.RealtimeNetworkingSettings.DisableLAN": "Отключить LAN",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Приоритет Steam Networking Sockets",
