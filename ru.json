@@ -1376,29 +1376,38 @@
         "Settings.HostAccessSettings.Entries": "Список доступа к хостам",
         "Settings.HostAccessSettings.Entries.Breadcrumb": "Список доступа к хостам",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "Разрешить HTTP запросы",
+        "Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description": "Показывает, разрешены ли HTTP(S) запросы к этому хосту. Чаще всего это запросы к REST API каких-либо внешних сервисов.",
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Разрешить WebSockets",
+        "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Показывает, разрешены ли соединения Websocket с этим хостом. Они часто используются для двухстороннего обмена информацией в реальном времени и потоков данных.",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Последний повод запроса HTTP",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Последний повод запроса WebSockets",
+        "Settings.HostAccessSettings.Entries.Remove": "Удалить хост (при следующей попытке доступа снова появится диалог)",
         "Settings.HostAccessSettings.DebugReset": "Сбросить список доступа к хостам",
 
         "Settings.UserRestrictionsSettings.DebugReset": "Сбросить ограничения пользователей",
 
         "Settings.WindowsSettings.KeepOriginalScreenshotFormat": "Сохранять оригинальный формат скриншотов",
+        "Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description": "Включите чтобы отключить конвертацию скриншотов в формат JPG или PNG при созранении их в папку Документы в Windows. Это может усложнить их использование, так как не все приложения поддерживают формат WEBP.",
 
         "Settings.DebugSettings.DebugInputBindings": "Отладка привязок ввода",
+        "Settings.DebugSettings.DebugInputBindings.Description": "Когда включено, будет показана информация для системы привязок ввода. В осномном это полезно для разработчиков.",
         "Settings.DebugSettings.FetchIncompatibleSessions": "Получить несовместимые сессии",
-
+        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "Когда включено, вы увидите активные сессии, которые несовместимы с вашим клиентом и к которым вы из-за этого не сможете подключиться.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Дважды нажать хват для экипировки",
+        "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Когда включено, вы можете экипировать инструменты и гаджеты быстрым двойным нажатием хвата. Эта настройка, скорее всего, когда-нибудт будет убрана.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Использовать старый переключатель миров",
-
+        "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Когда включено, кнопка приложения на вашей не-основной руке откроет старый переключатель миров. Это решение в будущем будет заменено более гибким.",
 
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Не отправлять статус прочтения",
+        "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "Когда включено, другие пользователи не будут видеть что вы прочитали их сообщения. Вы также не будете видеть когда они прочитали ваши сообщения.",
 
         "Settings.LocaleSettings.CultureLocaleCode": "Код локали региональных настроек",
+        "Settings.LocaleSettings.CultureLocaleCode.Description": "Когда задано, это значение будет использоваться вместо региональных настроек (культуры) из выбранной локали. Региональные настройки задают форматирование чисел и количеств. По умолчанию используется культура из выбранной локали, но эта настройка позволяет задать другую. Например, вы можете использовать ваш родной язык с форматированием, используемым в США.",
         "Settings.LocaleSettings.UseImperialUnits": "Использовать имперские единицы измерения",
-        "Settings.LocaleSettings.AvailableLocales": "Доступные локали",
-        "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Доступные локали",
+        "Settings.LocaleSettings.UseImperialUnits.Description": "Когда включено, редакторы для количеств (длина/высота, масса, объем...) будут использовать имперские единицв вместо метрических. Полезно если вы из США, Великобритании, Либерии или Мьянмы.",
+        "Settings.LocaleSettings.AvailableLocales": "Выберите локаль",
+        "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Локали",
 
         "Settings.DashSettings.DashCurvature": "Изгиб",
         "Settings.DashSettings.OpenCloseSpeed": "Скорость открытия/закрытия",
