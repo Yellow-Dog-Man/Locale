@@ -1280,6 +1280,22 @@
         "Settings.GeneralVRSettings.UseVRHotswitching": "VRホットスイッチ",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "設定を有効にすると、VRヘッドセットの着脱時に自動的にVRモードとデスクトップモードが切り替わります。",
 
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing" : "手の位置のスムージング",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing" : "手の角度のスムージング",
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description" : "設定を有効にすると、手の位置をどの程度なめらかにするか設定できるようになります。これはアクセシビリティ等の問題で手の震えが発生するユーザーに役立ちます。",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description" : "設定を有効にすると、手の角度をどの程度なめらかにするか設定できるようになります。これはアクセシビリティ等の問題で手の震えが発生するユーザーに役立ちます。",
+
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing" : "足の位置のスムージング",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing" : "足の角度のスムージング",
+
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description" : "設定を有効にすると、フルボディトラッキング使用時に、足の位置がどの程度なめらかになるかを設定できるようになります。これはブレや震えをなくすのに便利ですが、トラッカーの動きが遅れるようになり、急激な動きに反応できなくなります。",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description" : "設定を有効にすると、フルボディトラッキング使用時に、足の角度がどの程度なめらかになるかを設定できるようになります。これはブレや震えをなくすのに便利ですが、トラッカーの動きが遅れるようになり、急激な動きに反応できなくなります。",
+
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing" : "腰の位置のスムージング",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing" : "腰の角度のスムージング",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description" : "設定を有効にすると、フルボディトラッキング使用時に、腰の位置がどの程度なめらかになるかを設定できるようになります。これはブレや震えをなくすのに便利ですが、トラッカーの動きが遅れるようになり、急激な動きに反応できなくなります。",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description" : "設定を有効にすると、フルボディトラッキング使用時に、腰の角度がどの程度なめらかになるかを設定できるようになります。これはブレや震えをなくすのに便利ですが、トラッカーの動きが遅れるようになり、急激な動きに反応できなくなります。.",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion ハンドトラッキング",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "設定を有効にした場合、Leap Motionデバイスがあれば、それにより手や指のトラッキングを行います。",
         "Settings.LeapMotionSettings.Offset": "ハンドトラッキングのオフセット",
@@ -1428,7 +1444,7 @@
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "タイマーモードで撮影した際の解像度を設定できます。タイマー撮影で集合写真を撮影する際に便利です。",
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "タイマー撮影時のタイマー時間の長さを設定します。",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "設定を有効にした場合、ノーマル撮影した写真がステレオ写真として撮影されます。主にVRで写真を鑑賞する場合に使えます。",
-        "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "保存先を示すパスを設定することで、撮影（またはコンテキストメニューから保存）した写真を自動でゲーム内インベントリに保存します。パスの例: <color=hero.yellowr>Photos/%year%/%month_name%</color>\n\n変数として次のものが使えます。\n\nn<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size",
+        "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "保存先を示すパスを設定することで、撮影（またはコンテキストメニューから保存）した写真を自動でゲーム内インベントリに保存します。パスの例: <color=hero.yellow>Photos/%year%/%month_name%</color>\n\n変数として次のものが使えます。\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "自動保存パス",
 
         "Settings.DesktopRenderSettings.FieldOfView": "視野角",
