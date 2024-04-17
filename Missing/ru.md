@@ -141,10 +141,8 @@ Settings.PostProcessingSettings.AmbientOcclusionIntensity
 Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description  
 Settings.PostProcessingSettings.ScreenSpaceReflections  
 Settings.PostProcessingSettings.ScreenSpaceReflections.Description  
-Settings.PostProcessingSettings.Antialising  
-Settings.PostProcessingSettings.Antialising.Description  
-Tutorial.Welcome.SettingsSnapTurn.Description  
-Tutorial.Welcome.SettingsSmoothTurn.Description  
+Settings.PostProcessingSettings.Antialiasing  
+Settings.PostProcessingSettings.Antialiasing.Description  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  
 Tutorial.Welcome.SettingsPrimaryRight.Description  
 Tutorial.Welcome.SettingsHeadDirectionMovement  
