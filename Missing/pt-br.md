@@ -386,8 +386,8 @@ Settings.PostProcessingSettings.AmbientOcclusionIntensity
 Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description  
 Settings.PostProcessingSettings.ScreenSpaceReflections  
 Settings.PostProcessingSettings.ScreenSpaceReflections.Description  
-Settings.PostProcessingSettings.Antialising  
-Settings.PostProcessingSettings.Antialising.Description  
+Settings.PostProcessingSettings.Antialiasing  
+Settings.PostProcessingSettings.Antialiasing.Description  
 LocomotionArchetype.Walk  
 LocomotionArchetype.Fly  
 LocomotionArchetype.NoClip  
