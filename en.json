@@ -1222,7 +1222,7 @@
         "Settings.NamePlateSettings": "Nameplates",
         "Settings.LaserSettings": "Interaction Lasers",
         "Settings.DesktopViewSettings": "Desktop View",
-        "Settings.PhotoCaptureSettings": "Photo Capture",
+        "Settings.PhotoCaptureSettings": "Quick Photo Capture",
 
         "Settings.DesktopRenderSettings": "Desktop Render Settings",
 
@@ -1453,6 +1453,10 @@
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "When enabled, all quick photo captures will be stereoscopic. This us mostly useful when viewed in VR.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Photo inventory autosave path",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "When set, any photos you capture (or save with context menu) will be automatically saved to your in-game inventory. For example <color=hero.yellow>Photos/%year%/%month_name%</color>\n\nFollowing variables are available:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI" : "Capture Private UI",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "When enabled, the quick photo capture will render your private UI such as the dash. This can be useful in case you want to show information show there.\n\nWe recommend turning this setting off once you're done, as leaving it on can lead to accidentally capturing and leaking your private information.",
+        "Settings.PhotoCaptureSettings.EncodeFormat" : "Encode Format",
+        "Settings.PhotoCaptureSettings.EncodeFormat.Description" : "The image file format which captured photos will be encoded into. If you need the photos to be in particular format, you can use this setting to select which one they'll be encoded in.\n\nPlease note that certain formats might lack some features (like alpha support), might encode significantly slower, have lower image quality or result in bigger files.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Field of view",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Use this to control the field of view (FOV) when in desktop mode. Larger values will give you wider view at the cost of greater distortion on the sides.",
