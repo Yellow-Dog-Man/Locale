@@ -1067,8 +1067,6 @@ Desktop.Brightness
 Desktop.Opacity  
 VolumePlaneSlicer.Highlight  
 VolumePlaneSlicer.Slicer  
-Tutorial.Welcome.SettingsSnapTurn.Description  
-Tutorial.Welcome.SettingsSmoothTurn.Description  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  
 Tutorial.Welcome.SettingsPrimaryRight.Description  
 Tutorial.Welcome.SettingsHeadDirectionMovement  

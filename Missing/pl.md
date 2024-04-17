@@ -341,8 +341,6 @@ Inspector.SkinnedMesh.SortBlendshapes.Name
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.Texture3D.Size  
 Inspector.Texture.ReplaceFromClipboard  
-Tutorial.Welcome.SettingsSnapTurn.Description  
-Tutorial.Welcome.SettingsSmoothTurn.Description  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  
 Tutorial.Welcome.SettingsPrimaryRight.Description  
 Tutorial.Welcome.SettingsHeadDirectionMovement  

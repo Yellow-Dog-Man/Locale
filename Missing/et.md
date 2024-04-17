@@ -872,8 +872,6 @@ VolumePlaneSlicer.Slicer
 Tutorial.Welcome.Welcome  
 Tutorial.Welcome.Description  
 Tutorial.Welcome.Begin  
-Tutorial.Welcome.SettingsSnapTurn.Description  
-Tutorial.Welcome.SettingsSmoothTurn.Description  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  
 Tutorial.Welcome.SettingsPrimaryRight.Description  
 Tutorial.Welcome.SettingsHeadDirectionMovement  

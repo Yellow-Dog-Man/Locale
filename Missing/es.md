@@ -329,8 +329,6 @@ LocomotionArchetype.ThreeAxisFly
 LocomotionArchetype.ZeroG  
 LocomotionSettings.MakePreferred  
 LocomotionSettings.MakeLeastPreferred  
-Tutorial.Welcome.SettingsSnapTurn.Description  
-Tutorial.Welcome.SettingsSmoothTurn.Description  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  
 Tutorial.Welcome.SettingsPrimaryRight.Description  
 Tutorial.Welcome.SettingsHeadDirectionMovement  

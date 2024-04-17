@@ -435,8 +435,6 @@ WorkerInspector.Title
 VolumePlaneSlicer.Highlight  
 VolumePlaneSlicer.Slicer  
 Tutorial.Welcome.Description  
-Tutorial.Welcome.SettingsSnapTurn.Description  
-Tutorial.Welcome.SettingsSmoothTurn.Description  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  
 Tutorial.Welcome.SettingsPrimaryRight.Description  
 Tutorial.Welcome.SettingsHeadDirectionMovement  

@@ -2,27 +2,27 @@
 This repository contains the locale assets for the core UI of [Resonite](https://resonite.com) and allows anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (STEAM) and other platforms.
 
 ## Localization Status
-Czech [cs] - 79.7% - Missing keys: 409  
-German [de] - 98.8% - Missing keys: 24  
+Czech [cs] - 79.8% - Missing keys: 407  
+German [de] - 98.9% - Missing keys: 22  
 English (United Kingdom) [en-gb] - 2.0% - Missing keys: 1969  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 81.2% - Missing keys: 378  
-Spanish [es] - 82.9% - Missing keys: 344  
-Estonian [et] - 40.8% - Missing keys: 1189  
-Finnish [fi] - 72.5% - Missing keys: 552  
+Esperanto [eo] - 81.3% - Missing keys: 376  
+Spanish [es] - 83.0% - Missing keys: 342  
+Estonian [et] - 40.9% - Missing keys: 1187  
+Finnish [fi] - 72.6% - Missing keys: 550  
 French [fr] - 98.9% - Missing keys: 22  
-Icelandic [is] - 31.6% - Missing keys: 1374  
-Japanese [ja] - 97.1% - Missing keys: 58  
-Korean [ko] - 97.3% - Missing keys: 54  
-Dutch [nl] - 51.3% - Missing keys: 979  
-Norwegian [no] - 78.0% - Missing keys: 443  
-Polish [pl] - 81.9% - Missing keys: 363  
-Portuguese (Brazil) [pt-br] - 77.9% - Missing keys: 444  
-Russian [ru] - 92.1% - Missing keys: 158  
-Swedish [sv] - 31.6% - Missing keys: 1375  
+Icelandic [is] - 31.7% - Missing keys: 1372  
+Japanese [ja] - 97.2% - Missing keys: 56  
+Korean [ko] - 97.4% - Missing keys: 52  
+Dutch [nl] - 51.4% - Missing keys: 977  
+Norwegian [no] - 78.1% - Missing keys: 441  
+Polish [pl] - 82.0% - Missing keys: 361  
+Portuguese (Brazil) [pt-br] - 78.0% - Missing keys: 442  
+Russian [ru] - 92.2% - Missing keys: 156  
+Swedish [sv] - 31.7% - Missing keys: 1373  
 Turkish [tr] - 40.3% - Missing keys: 1199  
-Chinese (China) [zh-cn] - 78.2% - Missing keys: 438  
-Chinese (Taiwan) [zh-tw] - 78.2% - Missing keys: 438  
+Chinese (China) [zh-cn] - 78.3% - Missing keys: 436  
+Chinese (Taiwan) [zh-tw] - 78.3% - Missing keys: 436  
 
 Total keys: 2010
 

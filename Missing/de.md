@@ -24,6 +24,4 @@ Settings.PostProcessingSettings.ScreenSpaceReflections
 Settings.PostProcessingSettings.ScreenSpaceReflections.Description  
 Settings.PostProcessingSettings.Antialiasing  
 Settings.PostProcessingSettings.Antialiasing.Description  
-Tutorial.Welcome.SettingsSnapTurn.Description  
-Tutorial.Welcome.SettingsSmoothTurn.Description  
 
