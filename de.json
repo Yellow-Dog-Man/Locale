@@ -179,7 +179,7 @@
 
         "World.Connection.LNL.DirectIP": "LNL Direkt IP",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT Punchthrough {n}",
-        "World.Connection.LNL.Relay": "LNL Relais",
+        "World.Connection.LNL.Relay": "LNL Relay",
         "World.Connection.SteamNetworkingSockets": "Steam Netzwerk Socket",
 
         "World.Error.AccessDenied": "Beitritt verweigert",
@@ -1522,13 +1522,13 @@
         "Settings.DescriptionField.NoTextTitle": "Mehr Informationen",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Zeigen Sie auf eine Einstellung, um ihre Beschreibung zu sehen.</closeall>",
 
-        "Settings.RelaySettings": "Netzwerk Relais",
-        "Settings.RelaySettings.AlwaysUseRelay": "Immer Relais zur Verbindung nutzen",
-        "Settings.RelaySettings.AlwaysUseRelay.Description": "Relais werden üblicherweise als Ausweichlösung genutzt, wenn keine direkte Verbindung zum Host hergestellt werden kann. Wenn Sie diese Option aktivieren, wird die Verbindung immer über ein Relais hergestellt.\n\nDies kann bei Verbindungsproblemen mit bestimmten Hosts nützlich sein. Es wird <b>NICHT</b> empfohlen, diese Option dauerhaft zu aktivieren.",
-        "Settings.RelaySettings.UseClosestAvailableRelay": "Nächstgelegenes verfügbares Relais verwenden",
-        "Settings.RelaySettings.UseClosestAvailableRelay.Description": "Wenn diese Option aktiv ist, wird automatisch das Ihnen am nächsten liegende verfügbare Relais für die Verbindung ausgewählt. Falls Sie eine Verbindung über ein bestimmtes Relais herstellen wollen (z.B. um Paketstaus bei Fernverbindungen zu vermeiden), können Sie diese Option deaktivieren und das bevorzugte Relais unten einstellen.",
-        "Settings.RelaySettings.RelayPriorities": "Prioritäten der Relais-Server einstellen",
-        "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Prioritäten der Relais",
+        "Settings.RelaySettings" : "Netzwerk-Relays",
+        "Settings.RelaySettings.AlwaysUseRelay" : "Immer Relays für Verbindungen verwenden",
+        "Settings.RelaySettings.AlwaysUseRelay.Description" : "Im Normalfall wird auf Relays zurückgegriffen, wenn eine direkte Verbindung zum Host nicht möglich ist. Wenn Sie dies aktivieren, erzwingen Sie die Verwendung von Relays für jede Verbindung.\n\nDies kann im Fall von Verbindungsproblemen zu einem bestimmten Host hilfreich sein. Es wird <b>NICHT</b> empfohlen, diese Option dauerhaft aktiviert zu haben.",
+        "Settings.RelaySettings.UseClosestAvailableRelay" : "Nächstgelegenen verfügbaren Relay-Server verwenden",
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description" : "Wenn dies aktiviert ist, wird automatisch der nächstgelegene verfügbare Relay-Server für ihren Standpunkt ausgewählt. Wenn Sie sich über einen spezifischen Relay-Server verbinden wollen (beispielsweise zum Vermeiden von Paketverzögerungen bei Verbindungen über weite Distanz), können Sie diese Einstellung deaktivieren und ihren bevorzugten Relay-Server unten konfigurieren.",
+        "Settings.RelaySettings.RelayPriorities": "Relay-Server Prioritäten konfigurieren",
+        "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Relay-Server Prioritäten",
 
         "LocomotionArchetype.Walk": "Gehen",
         "LocomotionArchetype.Fly": "Fliegen",
