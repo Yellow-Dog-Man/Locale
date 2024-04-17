@@ -17,6 +17,10 @@ Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description
 Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description  
 Settings.HostAccessSettings.Entries.AllowWebsockets.Description  
 Settings.HostAccessSettings.Entries.Remove  
+Settings.PhotoCaptureSettings.CapturePrivateUI  
+Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
+Settings.PhotoCaptureSettings.EncodeFormat  
+Settings.PhotoCaptureSettings.EncodeFormat.Description  
 Settings.RelaySettings  
 Settings.RelaySettings.AlwaysUseRelay  
 Settings.RelaySettings.AlwaysUseRelay.Description  

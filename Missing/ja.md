@@ -21,6 +21,10 @@ Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description
 Settings.LocaleSettings.AvailableLocales  
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.PhotoCaptureSettings.CapturePrivateUI  
+Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
+Settings.PhotoCaptureSettings.EncodeFormat  
+Settings.PhotoCaptureSettings.EncodeFormat.Description  
 Settings.RelaySettings  
 Settings.RelaySettings.AlwaysUseRelay  
 Settings.RelaySettings.AlwaysUseRelay.Description  

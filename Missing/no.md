@@ -307,6 +307,10 @@ Settings.PhotoCaptureSettings.CaptureStereo
 Settings.PhotoCaptureSettings.CaptureStereo.Description  
 Settings.PhotoCaptureSettings.PhotoAutosavePath  
 Settings.PhotoCaptureSettings.PhotoAutosavePath.Description  
+Settings.PhotoCaptureSettings.CapturePrivateUI  
+Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
+Settings.PhotoCaptureSettings.EncodeFormat  
+Settings.PhotoCaptureSettings.EncodeFormat.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
 Settings.InteractiveCameraFramingSettings.PositioningMode  
