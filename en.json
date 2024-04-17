@@ -1522,6 +1522,14 @@
         "Settings.DescriptionField.NoTextTitle": "More Information",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Hover over a setting to see its description.</closeall>",
 
+        "Settings.RelaySettings" : "Network Relays",
+        "Settings.RelaySettings.AlwaysUseRelay" : "Always use relay to connect",
+        "Settings.RelaySettings.AlwaysUseRelay.Description" : "Relays are typically used as a fallback when a direct connection to the host cannot be established. By enabling this option, you will force the connection to always happen through a relay.\n\nThis can be useful in cases of connection issues to particular hosts. It is <b>NOT</b> recommended to have this option permanently on.",
+        "Settings.RelaySettings.UseClosestAvailableRelay" : "Use closest available relay",
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description" : "When this option is enabled an available relay that is the closest to you will automatically be selected for the connection. If you want to connect through a specific relay (e.g. in case of long distance connections to avoid packet queing) you can disable this option and configure the preferred relays below.",
+        "Settings.RelaySettings.RelayPriorities": "Configure relay server priorities",
+        "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Relay Priorities",
+
         "LocomotionArchetype.Walk": "Walk",
         "LocomotionArchetype.Fly": "Fly",
         "LocomotionArchetype.NoClip": "Noclip",
