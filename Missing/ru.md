@@ -121,6 +121,13 @@ Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description
 Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description  
 Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description  
+Settings.RelaySettings  
+Settings.RelaySettings.AlwaysUseRelay  
+Settings.RelaySettings.AlwaysUseRelay.Description  
+Settings.RelaySettings.UseClosestAvailableRelay  
+Settings.RelaySettings.UseClosestAvailableRelay.Description  
+Settings.RelaySettings.RelayPriorities  
+Settings.RelaySettings.RelayPriorities.Breadcrumb  
 Tutorial.Welcome.SettingsSnapTurn.Description  
 Tutorial.Welcome.SettingsSmoothTurn.Description  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  

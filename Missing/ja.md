@@ -21,6 +21,13 @@ Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description
 Settings.LocaleSettings.AvailableLocales  
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.RelaySettings  
+Settings.RelaySettings.AlwaysUseRelay  
+Settings.RelaySettings.AlwaysUseRelay.Description  
+Settings.RelaySettings.UseClosestAvailableRelay  
+Settings.RelaySettings.UseClosestAvailableRelay.Description  
+Settings.RelaySettings.RelayPriorities  
+Settings.RelaySettings.RelayPriorities.Breadcrumb  
 Tutorial.Welcome.SettingsSnapTurn.Description  
 Tutorial.Welcome.SettingsSmoothTurn.Description  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  

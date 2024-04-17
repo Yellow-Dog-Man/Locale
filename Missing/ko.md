@@ -17,6 +17,13 @@ Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description
 Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description  
 Settings.HostAccessSettings.Entries.AllowWebsockets.Description  
 Settings.HostAccessSettings.Entries.Remove  
+Settings.RelaySettings  
+Settings.RelaySettings.AlwaysUseRelay  
+Settings.RelaySettings.AlwaysUseRelay.Description  
+Settings.RelaySettings.UseClosestAvailableRelay  
+Settings.RelaySettings.UseClosestAvailableRelay.Description  
+Settings.RelaySettings.RelayPriorities  
+Settings.RelaySettings.RelayPriorities.Breadcrumb  
 Tutorial.Welcome.SettingsSnapTurn.Description  
 Tutorial.Welcome.SettingsSmoothTurn.Description  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  

@@ -365,6 +365,13 @@ Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description  
 Settings.DescriptionField.NoTextTitle  
 Settings.DescriptionField.NoTextDescription  
+Settings.RelaySettings  
+Settings.RelaySettings.AlwaysUseRelay  
+Settings.RelaySettings.AlwaysUseRelay.Description  
+Settings.RelaySettings.UseClosestAvailableRelay  
+Settings.RelaySettings.UseClosestAvailableRelay.Description  
+Settings.RelaySettings.RelayPriorities  
+Settings.RelaySettings.RelayPriorities.Breadcrumb  
 LocomotionArchetype.Walk  
 LocomotionArchetype.Fly  
 LocomotionArchetype.NoClip  
