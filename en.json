@@ -1534,6 +1534,18 @@
         "Settings.RelaySettings.RelayPriorities": "Configure relay server priorities",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Relay Priorities",
 
+        "Settings.PostProcessingSettings" : "Post Processing",
+        "Settings.PostProcessingSettings.MotionBlurIntensity" : "Motion Blur Intensity",
+        "Settings.PostProcessingSettings.MotionBlurIntensity.Description" : "This controls the strength of the motion blur effect, which smears image with motion. Higher values will result in more blurring with same amount of motion.\n\nIf you set the effect to <nobr><color=hero.yellow>0 %</color></nobr> the filter will be disabled completely, which can improve performance.",
+        "Settings.PostProcessingSettings.BloomIntensity" : "Bloom Intensity",
+        "Settings.PostProcessingSettings.BloomIntensity.Description" : "Bloom effect causes a glow to appear around bright objects in the scene, typically with ones in the HDR range. This lets you control the strength of this effect for the same amount of light. \n\nPlease note that some content can look incorrect when this effect is set to low or disabled.\n\nIf you set the effect to <nobr><color=hero.yellow>0 %</color></nobr> the filter will be disabled completely, which can improve performance.",
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity" : "Ambient Occlusion (AO) Intensity",
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description" : "Ambient Occlusion darkens creases and corners in the scene, which would typically receive less light. This can give the scene more depth and realism. Using this control you can control the intensity of the effect.\n\nPlease note that by setting this too low or disabling it, some content might look incorrect or completely flat when it otherwise would not.\n\nIf you set the effect to <nobr><color=hero.yellow>0 %</color></nobr> the filter will be disabled completely, which can improve performance.",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections" : "Screen Space Reflections <size=75%>(experimental)</size>",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections.Description" : "When enabled, any parts of the scene currently visible to the camera will reflect off shiny surfaces in realtime. This can add more realism to the scene and improve look of shiny surfaces at cost of extra performance.\n\nPlease note that this filter is considered experimental right now and does not work well in a lot of scenarios, resulting in ghostly reflections and artifacts.",
+        "Settings.PostProcessingSettings.Antialising" : "Antialiasing (AA)",
+        "Settings.PostProcessingSettings.Antialising.Description" : "Antialising smooths out sharp jagged edges on objects in the scene. You can select from several different filters, with each filter having different downsides. FXAA is commonly used and works reasonably well enough, but can also blur other parts of the scene, such as text.",
+
         "LocomotionArchetype.Walk": "Walk",
         "LocomotionArchetype.Fly": "Fly",
         "LocomotionArchetype.NoClip": "Noclip",
