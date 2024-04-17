@@ -429,7 +429,7 @@
         "Login.InvalidRecoveryCode": "Code de récupération invalide",
         "Login.InvalidRecoveryCode.Description": "Vérifiez votre code de récupération et ré-essayez",
 
-        "Login.UnsupportedAuthentication": "Méthode d’authentification non supportée",
+        "Login.UnsupportedAuthentication": "Méthode d'authentification non supportée",
         "Login.UnsupportedAuthentication.Description": "Nous ne supportons pas cette méthode d'authentification. Veuillez en utiliser une autre.",
 
         "Login.EmailNotVerified": "Courriel non vérifié",
@@ -439,10 +439,10 @@
         "Login.AccountTempLocked.Description": "Veuillez contacter la modération sur {moderationUrl}.",
 
         "Login.AccountBanned": "Votre compte est banni",
-        "Login.AccountBanned.Description": "Veuillez contacter la modération sur {modertionUrl}.",
+        "Login.AccountBanned.Description": "Veuillez contacter la modération sur {moderationUrl}.",
 
         "Login.DuplicateAccount": "Compte dupliqué",
-        "Login.DuplicateAccount.Description": "Veuillez contacter la modération sur {modertionUrl}.",
+        "Login.DuplicateAccount.Description": "Veuillez contacter le support sur {supportUrl}.",
 
         "Login.UnknownError": "Erreur inconnue",
         "Login.UnknownError.Description": "Une erreur inconnue s'est produite. Veuillez contacter notre support sur {supportUrl}.",
@@ -553,7 +553,7 @@
         "Account.TOTP.Code.QRCode": "Scannez le code QR",
         "Account.TOTP.Code.Key": "Code secret:",
         "Account.TOTP.RecoveryCodes.Header": "Codes de récupération",
-        "Account.TOTP.RecoveryCodes.Description": "Enregistrez ces codes dans un endroit sécurisé. Ils peuvent être utilisés pour récupérer l'accès à votre compte au cas où vous perdriez ou endommageriez votre téléphone. Chaque code ne peut être utilisé qu'une seule fois. <b>Ne les partagez jamais avec qui que ce soit.</b> Si vous les perdez, vous perdrez <color=red>PERMANENTEMENT</color> l'accès à votre compte.",
+        "Account.TOTP.RecoveryCodes.Description": "Enregistrez ces codes dans un endroit sécurisé. Ils peuvent être utilisés pour récupérer l'accès à votre compte au cas où vous perdriez ou endommageriez votre téléphone. Chaque code ne peut être utilisé qu'une seule fois. <b>Ne les partagez jamais avec qui que ce soit.</b> Si vous les perdez, vous perdrez <color=red>DÉFINITIVEMENT</color> l'accès à votre compte.",
         "Account.TOTP.RecoveryCodes.Codes": "Codes:",
         "Account.TOTP.Activate.Header": "Activer 2FA",
         "Account.TOTP.Activate.Description": "Pour activer l'authentification a deux facteurs, utilisez le nombre a 6 chiffres généré par votre application d'authentification pour être sûr que tout fonctionne correctement. Une fois activé, vous devrez entrer le code pour confirmer certaines opérations.",
@@ -604,7 +604,7 @@
         "Session.JoinVerifier.EnableHeader": "Activer l'authentification customisée",
         "Session.JoinVerifier.EnableText": "<color=red>ATTENTION:</color> Vous allez activer l'authentification customisée qui fait partie du monde actif. Avant de procéder vérifiez que vous faites confiance au créateur du monde vu que l'authentification customisée peut bloquer n'importe qui de rejoindre le monde et peut passer outre les règles d'accès de session.",
         "Session.JoinVerifier.Label": "Utiliser l'authentification customisée: {name}",
-        "Session.JoinVerifier.ComponentWarning": "<color=red>ATTENTION:</color> Pour le moment, il n'y a aucune permission pour éviter la modification de l'authentification customisée. Si vous pensez que quelqu'un va modifier votre système, N'UTILISEZ PAS CETTE FONCTIONALITÉ!",
+        "Session.JoinVerifier.ComponentWarning": "<color=red>ATTENTION:</color> Pour le moment, il n'y a aucune permission pour éviter la modification de l'authentification customisée. Si vous pensez que quelqu'un va modifier votre système, N'UTILISEZ PAS CETTE FONCTIONNALITÉ!",
         "Session.JoinVerifier.SetCustomVerifier": "Sélectionner comme authentification customisée",
 
         "Permissions.NotAllowedToSpawn": "Vous n'êtes pas autorisé à matérialiser des choses ici.",
@@ -614,7 +614,7 @@
         "User.Actions.Silence": "Mettre en sourdine",
         "User.Actions.Mute": "Sourdine",
         "User.Actions.Jump": "Saut",
-        "User.Actions.Respawn": "Rematérialiser",
+        "User.Actions.Respawn": "Re-matérialiser",
         "User.Actions.Kick": "Éjecter",
         "User.Actions.Ban": "Bannir",
 
@@ -749,7 +749,7 @@
         "Tooltip.MeshVisibility.DoubleSidedShadow": "Définir ombre double face",
 
         "Tooltip.Slicer.Add": "Ajouter découpage",
-        "Tooltip.Slicer.Clear": "Éffacer tout les découpages",
+        "Tooltip.Slicer.Clear": "Effacer tout les découpages",
 
         "Tooltip.Material.RayMode": "Mode rayon",
         "Tooltip.Material.AreaMode": "Mode zone",
@@ -1342,7 +1342,7 @@
         "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "Ajuste le volume des effets sonores de l'interface.",
 
         "Settings.AudioAccessibilitySettings.WhisperVolume": "Volume du mode chuchotement",
-        "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Ajuste le volume des sons a l’extérieur de la sphère de chuchotement.",
+        "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Ajuste le volume des sons a l'extérieur de la sphère de chuchotement.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Volume des messages vocaux",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Ajuste le volume des sons ambiants quand vous enregistrez un message vocal.",
 
@@ -1360,7 +1360,7 @@
         "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Seuil de normalisation",
         "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Utiliser cette option va définir a quel point l'audio entrant sera amplifié. Si votre voix est trop faible et non amplifiée, réduisez la valeur. Si du bruit est amplifié, augmentez la valeur.",
 
-        "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Supression de bruit (RNNoise)",
+        "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Suppression de bruit (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Cette fonctionnalité retire les bruits et autres sons indésirables de votre audio. Nous recommandons vivement de laisser option activée.",
 
         "Settings.RealtimeNetworkingSettings.DisableLAN": "Désactiver LAN",
@@ -1377,7 +1377,7 @@
         "Settings.HostAccessSettings.Entries.Breadcrumb": "Entrées d'accès d'hôte",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "Autoriser les requêtes HTTP",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description": "Cela indique si vous autorisez le service a faire des requêtes HTTP pour accéder a des APIs.",
-        "Settings.HostAccessSettings.Entries.AllowWebsockets": "Autoriser les websockets",
+        "Settings.HostAccessSettings.Entries.AllowWebsockets": "Autoriser les WebSocket",
         "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Cela indique si vous autorisez le service a recevoir des requêtes WebSocket pour de la communication en temps réel.",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Raison de la dernière requête HTTP",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Raison de la dernière requête websocket",
@@ -1534,7 +1534,7 @@
         "LocomotionArchetype.Fly": "Vol",
         "LocomotionArchetype.NoClip": "Sans collisions",
         "LocomotionArchetype.Teleport": "Téléportation",
-        "LocomotionArchetype.GrabWorld": "Attrapper le monde",
+        "LocomotionArchetype.GrabWorld": "Attraper le monde",
         "LocomotionArchetype.NoLocomotion": "Pas de locomotion",
         "LocomotionArchetype.ThreeAxisNoClip": "Sans collisions trois axes",
         "LocomotionArchetype.ThreeAxisFly": "Vol trois axes",
@@ -1610,7 +1610,7 @@
         "Inspector.Mesh.BlendshapeCount": "Nombre de Blendshapes: {n}",
         "Inspector.Mesh.ChannelStats": "Normales: {normals}, Tangentes: {tangents}, Couleurs: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
-        "Inspector.Mesh.BakeMesh": "Précalculer le modèle",
+        "Inspector.Mesh.BakeMesh": "Pré-calculer le modèle",
         "Inspector.Mesh.SetupRenderer": "Configurer le moteur de rendu",
         "Inspector.Mesh.ResaveMesh": "Sauvegarder le modèle à nouveau",
         "Inspector.Mesh.RecalculateNormals": "Recalculer les normales",
