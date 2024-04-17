@@ -1222,7 +1222,7 @@
         "Settings.NamePlateSettings": "Namensschilder",
         "Settings.LaserSettings": "Interaktionslaser",
         "Settings.DesktopViewSettings": "Desktop Ansicht",
-        "Settings.PhotoCaptureSettings": "Fotoaufnahme",
+        "Settings.PhotoCaptureSettings": "schnelle Fotoaufnahme",
 
         "Settings.DesktopRenderSettings": "Desktop Darstellungs-Einstellungen",
 
@@ -1453,7 +1453,11 @@
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Wenn dies aktiviert ist, werden alle schnellen Fotos stereoskopisch aufgenommen. Dies ist hauptsächlich hilfreich, wenn Sie sich die Bilder in VR ansehen.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Pfad für automatisch gespeicherte Fotos",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Wenn dies konfiguriert ist, werden alle Fotos die Sie aufnehmen (oder per Kontext-Menü speichern), automatisch in ihrem Inventar unter diesem Pfad abgespeichert. Zum Beispiel <color=hero.yellow>Fotos/%year%/%month_name%</color>\n\nFolgende Variablen sind verfügbar:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
-
+        "Settings.PhotoCaptureSettings.CapturePrivateUI" : "Private Benutzeroberfläche erfassen",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "Wenn diese Option aktiviert ist, wird die schnelle Fotoaufnahme Ihre private Benutzeroberfläche, wie z.B. das Dash-Menü, abbilden. Dies kann nützlich sein, falls Sie die dort dargestellten Informationen aufnehmen wollen.\n\nWir empfehlen, diese Einstellung zu deaktivieren, sobald Sie mit der beabsichtigten Aufnahme fertig sind, sonst kann es versehentlich zu einer Aufnahme und Weitergabe Ihrer privaten Daten kommen.",
+        "Settings.PhotoCaptureSettings.EncodeFormat" : "Dateiformat",
+        "Settings.PhotoCaptureSettings.EncodeFormat.Description" : "Dies ist das Bild-Dateiformat, in dem die aufgenommenen Fotos gespeichert werden. Wenn Sie die Fotots in einem bestimmten Bildformat benötigen, können Sie mit dieser Einstellung das Dateiformat auswählen.\n\nBitte beachten Sie, dass nicht jedes Dateiformat alle Fähigkeiten unterstützt (wie z.B. ein Alphakanal), die Kodierung langsamer, die Bildqualität schlechter oder die Dateien größer sein können.",
+        
         "Settings.DesktopRenderSettings.FieldOfView": "Sichtfeld",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Hiermit können Sie ihr Sichtfeld (FOV) anpassen, wenn Sie im Desktop-Modus sind. Höhere Werte verursachen eine weitere Sicht, haben jedoch auch mehr Verzerrungen am Rand.",
 
