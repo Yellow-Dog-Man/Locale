@@ -397,13 +397,13 @@
         "Indicator.Storage.StorageFull": "Stockage plein",
         "Indicator.Storage.Usage": "{storage_used} de {storage_max}<br><size=61.803%>Stockage utilisé</size>",
 
-        "Indicator.LiveHiddenMessage": "(Vos informations sont cachées pendant que vous diffuser)",
+        "Indicator.LiveHiddenMessage": "(Vos informations sont cachées pendant la diffusion)",
 
         "Login.InvalidCredentials": "Identification invalide",
-        "Login.InvalidCredentials.Description": "Veuillez vérifier votre identification et ré-essayer \"Mot de passe oublié?\"",
+        "Login.InvalidCredentials.Description": "Veuillez vérifier vos identifiants et ré-essayer \"Mot de passe oublié?\"",
 
         "Login.InvalidLogin": "Identification invalide",
-        "Login.InvalidLogin.Description": "Veuillez vérifier votre identification et ré-essayer \"Mot de passe oublié?\"",
+        "Login.InvalidLogin.Description": "Veuillez vérifier vos identifiants et ré-essayer \"Mot de passe oublié?\"",
 
         "Login.MalformedUID": "Information de l'appareil invalide",
         "Login.MalformedUID.Description": "Essayez de réinstaller ou contactez le support sur {supportUrl}.",
@@ -475,7 +475,7 @@
         "Register.InvalidDateOfBirth.Description": "Votre date de naissance est invalide.",
 
         "Register.UsernameContainsBlockedTerms": "Votre nom d'utilisateur contiens des mots bloqués",
-        "Register.UsernameContainsBlockedTerms.Description": "Votre nom d'utilisateur contiens de mots bloqués. Si vous pensez que c'est une erreur, contactez le support sur {supportUrl}.",
+        "Register.UsernameContainsBlockedTerms.Description": "Votre nom d'utilisateur contiens des mots bloqués. Si vous pensez que c'est une erreur, contactez le support sur {supportUrl}.",
 
         "Register.MissingPassword": "Mot de passe manquant",
         "Register.MissingPassword.Description": "Vous n'avez pas entré de mot de passe.",
@@ -569,7 +569,7 @@
         "Account.TOTP.Deactivate.Description": "2FA est actuellement <b><color=green>configuré et actif sur votre compte</color></b>. Si vous devez le désactiver (par exemple en raison de la perte de votre téléphone ou de la compromission des codes), vous pouvez le faire ici.<br><br>Après la désactivation, vous pouvez à nouveau configurer 2FA, ce qui générera un tout nouveau code secret et un nouvel ensemble de codes de récupération.<br><br>Si vous perdez votre téléphone et devez configurer à nouveau 2FA, nous vous conseillons <b>FORTEMENT</b> de le faire immédiatement, car chaque code de récupération ne peut être utilisé qu'une seule fois et une fois épuisé, votre compte sera complètement bloqué.",
         "Account.TOTP.Deactivate.Deactivate": "Désactiver",
         "Account.TOTP.Deactivate.Deactivating": "Désactivation...",
-        "Account.TOTP.Message.DeactivationComplete": "2FA a été désactivé avec succès sur votre compte.<br><br>Votre compte est maintenant à risque accru !<br><br>Nous vous recommandons fortement de configurer à nouveau 2FA immédiatement, surtout si vous avez utilisé un code de récupération en raison de la perte de votre téléphone .",
+        "Account.TOTP.Message.DeactivationComplete": "2FA a été désactivé avec succès sur votre compte.<br><br>Votre compte est maintenant à risque accru!<br><br>Nous vous recommandons fortement de configurer à nouveau 2FA immédiatement, surtout si vous avez utilisé un code de récupération en raison de la perte de votre téléphone .",
 
         "Account.Type.Standard": "Compte Standard",
         "Account.Type.Business": "Compte Business",
@@ -581,7 +581,7 @@
         "Avatar.Badge.Live": "EN DIRECT",
 
         "2FA.Header": "Vérification 2FA",
-        "2FA.Token": "jeton à 6 chiffres:",
+        "2FA.Token": "Jeton à 6 chiffres:",
 
         "Profile.Status.Online": "En ligne",
         "Profile.Status.Away": "Inactif",
@@ -609,7 +609,7 @@
 
         "Permissions.NotAllowedToSpawn": "Vous n'êtes pas autorisé à matérialiser des choses ici.",
         "Permissions.NotAllowedToSave": "Vous n'êtes pas autorisé à sauvegarder des objets dans ce monde.",
-        "Permissions.NotAllowedToSwapAvatar": "Vous n'êtes pas autorisé à permuter vers un avatar personnalisé ici.",
+        "Permissions.NotAllowedToSwapAvatar": "Vous n'êtes pas autorisé à équiper un avatar personnalisé ici.",
 
         "User.Actions.Silence": "Mettre en sourdine",
         "User.Actions.Mute": "Sourdine",
@@ -625,10 +625,10 @@
         "Contacts.IgnoreRequest": "Ignorer la requête",
         "Contacts.Invite": "Inviter ici",
         "Contacts.RevokeInvite": "Révoquer l'invitation",
-        "Contacts.BanFromAllSessions": "Interdire l'accès à TOUTES mes sessions",
-        "Contacts.UnbanFromAllSessions": "Lever l'interdiction dans toutes mes sessions",
-        "Contacts.BanFromCurrentWorld": "Interdire l'accès à ce monde",
-        "Contacts.UnbanFromCurrentWorld": "Lever l'interdiction d'accès à ce monde",
+        "Contacts.BanFromAllSessions": "Bannir de TOUTES mes sessions",
+        "Contacts.UnbanFromAllSessions": "Dé-bannir de toutes mes sessions",
+        "Contacts.BanFromCurrentWorld": "Bannir de ce monde",
+        "Contacts.UnbanFromCurrentWorld": "Dé-bannir de ce monde",
         "Contacts.RecordingVoiceMessage": "Enregistrement du message...",
         "Contacts.Unblocked": "Débloquer",
         "Contacts.AvatarBlock": "Bloquer l'avatar",
