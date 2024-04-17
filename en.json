@@ -1222,7 +1222,7 @@
         "Settings.NamePlateSettings": "Nameplates",
         "Settings.LaserSettings": "Interaction Lasers",
         "Settings.DesktopViewSettings": "Desktop View",
-        "Settings.PhotoCaptureSettings": "Photo Capture",
+        "Settings.PhotoCaptureSettings": "Quick Photo Capture",
 
         "Settings.DesktopRenderSettings": "Desktop Render Settings",
 
@@ -1325,7 +1325,7 @@
         "Settings.AudioInputDeviceSettings.SetAsDefault": "Set As Default",
 
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "Use System Default Output Device",
-        "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Enable this to use the default  system device for outputting audio. By disabling this, you can configure which audio device is used for outputting the audio below. This can be useful when you use different devices when toggling between VR and desktop.",
+        "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Enable this to use the default system device for outputting audio. By disabling this, you can configure which audio device is used for outputting the audio below. This can be useful when you use different devices when toggling between VR and desktop.",
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "Audio Output Devices",
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "Audio Output Devices",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Set As Default",
@@ -1453,6 +1453,10 @@
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "When enabled, all quick photo captures will be stereoscopic. This us mostly useful when viewed in VR.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Photo inventory autosave path",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "When set, any photos you capture (or save with context menu) will be automatically saved to your in-game inventory. For example <color=hero.yellow>Photos/%year%/%month_name%</color>\n\nFollowing variables are available:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI" : "Capture Private UI",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "When enabled, the quick photo capture will render your private UI such as the dash. This can be useful in case you want to show information show there.\n\nWe recommend turning this setting off once you're done, as leaving it on can lead to accidentally capturing and leaking your private information.",
+        "Settings.PhotoCaptureSettings.EncodeFormat" : "Encode Format",
+        "Settings.PhotoCaptureSettings.EncodeFormat.Description" : "The image file format which captured photos will be encoded into. If you need the photos to be in particular format, you can use this setting to select which one they'll be encoded in.\n\nPlease note that certain formats might lack some features (like alpha support), might encode significantly slower, have lower image quality or result in bigger files.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Field of view",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Use this to control the field of view (FOV) when in desktop mode. Larger values will give you wider view at the cost of greater distortion on the sides.",
@@ -1521,6 +1525,14 @@
 
         "Settings.DescriptionField.NoTextTitle": "More Information",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Hover over a setting to see its description.</closeall>",
+
+        "Settings.RelaySettings" : "Network Relays",
+        "Settings.RelaySettings.AlwaysUseRelay" : "Always use relay to connect",
+        "Settings.RelaySettings.AlwaysUseRelay.Description" : "Relays are typically used as a fallback when a direct connection to the host cannot be established. By enabling this option, you will force the connection to always happen through a relay.\n\nThis can be useful in cases of connection issues to particular hosts. It is <b>NOT</b> recommended to have this option permanently on.",
+        "Settings.RelaySettings.UseClosestAvailableRelay" : "Use closest available relay",
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description" : "When this option is enabled an available relay that is the closest to you will automatically be selected for the connection. If you want to connect through a specific relay (e.g. in case of long distance connections to avoid packet queing) you can disable this option and configure the preferred relays below.",
+        "Settings.RelaySettings.RelayPriorities": "Configure relay server priorities",
+        "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Relay Priorities",
 
         "LocomotionArchetype.Walk": "Walk",
         "LocomotionArchetype.Fly": "Fly",
