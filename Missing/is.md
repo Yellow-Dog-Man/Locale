@@ -693,6 +693,10 @@ Settings.PhotoCaptureSettings.CaptureStereo
 Settings.PhotoCaptureSettings.CaptureStereo.Description  
 Settings.PhotoCaptureSettings.PhotoAutosavePath  
 Settings.PhotoCaptureSettings.PhotoAutosavePath.Description  
+Settings.PhotoCaptureSettings.CapturePrivateUI  
+Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
+Settings.PhotoCaptureSettings.EncodeFormat  
+Settings.PhotoCaptureSettings.EncodeFormat.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
 Settings.InteractiveCameraFramingSettings.PositioningMode  
@@ -758,6 +762,17 @@ Settings.RelaySettings.UseClosestAvailableRelay
 Settings.RelaySettings.UseClosestAvailableRelay.Description  
 Settings.RelaySettings.RelayPriorities  
 Settings.RelaySettings.RelayPriorities.Breadcrumb  
+Settings.PostProcessingSettings  
+Settings.PostProcessingSettings.MotionBlurIntensity  
+Settings.PostProcessingSettings.MotionBlurIntensity.Description  
+Settings.PostProcessingSettings.BloomIntensity  
+Settings.PostProcessingSettings.BloomIntensity.Description  
+Settings.PostProcessingSettings.AmbientOcclusionIntensity  
+Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description  
+Settings.PostProcessingSettings.ScreenSpaceReflections  
+Settings.PostProcessingSettings.ScreenSpaceReflections.Description  
+Settings.PostProcessingSettings.Antialiasing  
+Settings.PostProcessingSettings.Antialiasing.Description  
 LocomotionArchetype.Walk  
 LocomotionArchetype.Fly  
 LocomotionArchetype.NoClip  
@@ -1069,8 +1084,6 @@ Desktop.Opacity
 VolumePlaneSlicer.Highlight  
 VolumePlaneSlicer.Slicer  
 Tutorial.Welcome.Description  
-Tutorial.Welcome.SettingsSnapTurn.Description  
-Tutorial.Welcome.SettingsSmoothTurn.Description  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  
 Tutorial.Welcome.SettingsPrimaryRight.Description  
 Tutorial.Welcome.SettingsHeadDirectionMovement  
