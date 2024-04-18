@@ -179,7 +179,7 @@
 
         "World.Connection.LNL.DirectIP": "LNL Direkt IP",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT Punchthrough {n}",
-        "World.Connection.LNL.Relay": "LNL Relais",
+        "World.Connection.LNL.Relay": "LNL Relay",
         "World.Connection.SteamNetworkingSockets": "Steam Netzwerk Socket",
 
         "World.Error.AccessDenied": "Beitritt verweigert",
@@ -1222,7 +1222,7 @@
         "Settings.NamePlateSettings": "Namensschilder",
         "Settings.LaserSettings": "Interaktionslaser",
         "Settings.DesktopViewSettings": "Desktop Ansicht",
-        "Settings.PhotoCaptureSettings": "Fotoaufnahme",
+        "Settings.PhotoCaptureSettings": "schnelle Fotoaufnahme",
 
         "Settings.DesktopRenderSettings": "Desktop Darstellungs-Einstellungen",
 
@@ -1266,8 +1266,8 @@
 
         "Settings.MouseSettings.MouseSensitivity": "Empfindlichkeit",
         "Settings.MouseSettings.MouseSensitivity.Description": "Dies beeinflusst die generelle Mausempfindlichkeit für Desktop-Interaktionen.",
-        "Settings.MouseSettings.MouseLookSpeed": "Schwenkgeschwindidkeit",
-        "Settings.MouseSettings.MouseLookSpeed.Description": "Dies beeinflusst die Schwenkgeschwindidkeit der Kamera in der Ego- und Vogelperspektive.",
+        "Settings.MouseSettings.MouseLookSpeed": "Schwenkgeschwindigkeit",
+        "Settings.MouseSettings.MouseLookSpeed.Description": "Dies beeinflusst die Schwenkgeschwindigkeit der Kamera in der Ego- und Vogelperspektive.",
         "Settings.MouseSettings.MousePanSpeed": "2D-Bewegungsgeschwindigkeit",
         "Settings.MouseSettings.MousePanSpeed.Description": "Dies beeinflusst die 2D-Bewegungsgeschwindigkeit der Kamera in der UI-Ausgerichteten Perspektive.",
         "Settings.MouseSettings.MouseRotateSpeed": "Rotationsgeschwindigkeit",
@@ -1337,7 +1337,7 @@
         "Settings.AudioVolumeSettings.MultimediaVolume": "Lautstärke Multimedia",
         "Settings.AudioVolumeSettings.MultimediaVolume.Description": "Steuert die Multimedia-Lautstärke, üblicherweise werden Audio-, Musik- und Videoplayer und Hintergrundmusik als Multimedia bezeichnet.",
         "Settings.AudioVolumeSettings.VoiceVolume": "Lautstärke Stimmen",
-        "Settings.AudioVolumeSettings.VoiceVolume.Description": "Diese Einstellung kontolliert die Sprachlautstärke aller anderen Nutzer. Manchmal werden auch aufgezeichnete Sprach-Aufnahmen durch diese Einstellung beeinflusst. Die Lautstärke einzelner Benutzer kann im Sitzungs-Tab eingestellt werden.",
+        "Settings.AudioVolumeSettings.VoiceVolume.Description": "Diese Einstellung kontrolliert die Sprachlautstärke aller anderen Nutzer. Manchmal werden auch aufgezeichnete Sprach-Aufnahmen durch diese Einstellung beeinflusst. Die Lautstärke einzelner Benutzer kann im Sitzungs-Tab eingestellt werden.",
         "Settings.AudioVolumeSettings.UserInterfaceVolume": "Lautstärke Benutzeroberfläche",
         "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "Dieser Regler beeinflusst insbesondere die Lautstärke der Soundeffekte der Benutzeroberfläche: das Drücken von Knöpfen, das Nutzen von Reglern, einige Interaktionen mit Werkzeugen, Aufnehmen von Fotos usw.",
 
@@ -1390,7 +1390,7 @@
         "Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description": "Wenn Sie dies aktivieren werden aufgenommene Screenshots nicht zu JPG oder PNG konvertiert, wenn Sie in ihrem Windows Dokumente-Verzeichnis gespeichert werden. Dies kann dazu führen, dass die Screenshots schwieriger zu verwenden sind, da das Format von anderen Anwendungen möglicherweise nicht unterstützt wird.",
 
         "Settings.DebugSettings.DebugInputBindings": "Debug Eingabebindungen",
-        "Settings.DebugSettings.DebugInputBindings.Description": "Wenn Sie dies aktivieren, sehen Sie Debugging-Informationen für das Eingebebindungs-System. Dies ist hauptsächlich für Entwickler nützlich.",
+        "Settings.DebugSettings.DebugInputBindings.Description": "Wenn Sie dies aktivieren, sehen Sie Debugging-Informationen für das Eingabebindungs-System. Dies ist hauptsächlich für Entwickler nützlich.",
         "Settings.DebugSettings.FetchIncompatibleSessions": "Zeige inkompatible Sitzungen",
         "Settings.DebugSettings.FetchIncompatibleSessions.Description": "Wenn dies aktiviert ist, sehen Sie aktive Sitzungen, die nicht mit ihrer aktuellen Client-Version kompatibel sind und denen Sie nicht beitreten können.",
 
@@ -1453,7 +1453,11 @@
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Wenn dies aktiviert ist, werden alle schnellen Fotos stereoskopisch aufgenommen. Dies ist hauptsächlich hilfreich, wenn Sie sich die Bilder in VR ansehen.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Pfad für automatisch gespeicherte Fotos",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Wenn dies konfiguriert ist, werden alle Fotos die Sie aufnehmen (oder per Kontext-Menü speichern), automatisch in ihrem Inventar unter diesem Pfad abgespeichert. Zum Beispiel <color=hero.yellow>Fotos/%year%/%month_name%</color>\n\nFolgende Variablen sind verfügbar:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
-
+        "Settings.PhotoCaptureSettings.CapturePrivateUI" : "Private Benutzeroberfläche erfassen",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "Wenn diese Option aktiviert ist, wird die schnelle Fotoaufnahme Ihre private Benutzeroberfläche, wie z.B. das Dash-Menü, abbilden. Dies kann nützlich sein, falls Sie die dort dargestellten Informationen aufnehmen wollen.\n\nWir empfehlen, diese Einstellung zu deaktivieren, sobald Sie mit der beabsichtigten Aufnahme fertig sind, sonst kann es versehentlich zu einer Aufnahme und Weitergabe Ihrer privaten Daten kommen.",
+        "Settings.PhotoCaptureSettings.EncodeFormat" : "Dateiformat",
+        "Settings.PhotoCaptureSettings.EncodeFormat.Description" : "Dies ist das Bild-Dateiformat, in dem die aufgenommenen Fotos gespeichert werden. Wenn Sie die Fotos in einem bestimmten Dateiformat benötigen, können Sie dieses mit dieser Einstellung auswählen.\n\nBitte beachten Sie, dass nicht jedes Dateiformat alle Fähigkeiten unterstützt (wie z.B. ein Alphakanal), die Kodierung langsamer, die Bildqualität schlechter oder die Dateien größer sein können.",
+        
         "Settings.DesktopRenderSettings.FieldOfView": "Sichtfeld",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Hiermit können Sie ihr Sichtfeld (FOV) anpassen, wenn Sie im Desktop-Modus sind. Höhere Werte verursachen eine weitere Sicht, haben jedoch auch mehr Verzerrungen am Rand.",
 
@@ -1521,7 +1525,15 @@
 
         "Settings.DescriptionField.NoTextTitle": "Mehr Informationen",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Zeigen Sie auf eine Einstellung, um ihre Beschreibung zu sehen.</closeall>",
-        
+
+        "Settings.RelaySettings": "Netzwerk-Relays",
+        "Settings.RelaySettings.AlwaysUseRelay": "Immer Relays für Verbindungen verwenden",
+        "Settings.RelaySettings.AlwaysUseRelay.Description": "Im Normalfall wird auf Relays zurückgegriffen, wenn eine direkte Verbindung zum Host nicht möglich ist. Wenn Sie dies aktivieren, erzwingen Sie die Verwendung von Relays für jede Verbindung.\n\nDies kann im Fall von Verbindungsproblemen zu einem bestimmten Host hilfreich sein. Es wird <b>NICHT</b> empfohlen, diese Option dauerhaft aktiviert zu haben.",
+        "Settings.RelaySettings.UseClosestAvailableRelay": "Nächstgelegenen verfügbaren Relay-Server verwenden",
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description": "Wenn dies aktiviert ist, wird automatisch der nächstgelegene verfügbare Relay-Server für ihren Standpunkt ausgewählt. Wenn Sie sich über einen spezifischen Relay-Server verbinden wollen (beispielsweise zum Vermeiden von Paketverzögerungen bei Verbindungen über weite Distanz), können Sie diese Einstellung deaktivieren und ihren bevorzugten Relay-Server unten konfigurieren.",
+        "Settings.RelaySettings.RelayPriorities": "Relay-Server Prioritäten konfigurieren",
+        "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Relay-Server Prioritäten",
+
         "LocomotionArchetype.Walk": "Gehen",
         "LocomotionArchetype.Fly": "Fliegen",
         "LocomotionArchetype.NoClip": "Noclip",
