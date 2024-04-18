@@ -1546,6 +1546,18 @@
         "Settings.PostProcessingSettings.Antialiasing" : "Antialiasing (AA)",
         "Settings.PostProcessingSettings.Antialiasing.Description" : "Antialising smooths out sharp jagged edges on objects in the scene. You can select from several different filters, with each filter having different downsides. FXAA is commonly used and works reasonably well enough, but can also blur other parts of the scene, such as text.\n\n<color=red>Warning:</color> Some AA options might not be suitable or work at all in VR.",
 
+        "Settings.RenderingQualitySettings" : "Rendering Quality",
+        "Settings.RenderingQualitySettings.PerPixelLights" : "Per Pixel Lights",
+        "Settings.RenderingQualitySettings.PerPixelLights.Decription" : "This controls how many point & spot lights can directly affect objects rendered using the forward method - typically transparent and non-PBS objects (e.g. with the toon shader).\n\nIncreasing this value will improve the quality of lighting and reduce color flickering in presence of multiple lights at the cost of performance - the object needs to be rendered multiple times for each light affecting it.",
+        "Settings.RenderingQualitySettings.ShadowCascades" : "Shadow Cascades",
+        "Settings.RenderingQualitySettings.ShadowCascades.Description" : "This controls the resolution cascading of the shadows for directional lights in the world. Cascades better distribute the resolution of the shadow map - providing higher shadow resolution up close and lower resolution further away, but cost more performance to render.",
+        "Settings.RenderingQualitySettings.ShadowResolution" : "Shadow Resolution",
+        "Settings.RenderingQualitySettings.ShadowResolution.Description" : "This controls the resolution of shadows for lights. Increasing this value will give shadow smoother edges and better definition, but increase the performance requirements.\n\nPlease note that some lights might override the shadow resolution and won't be affected by this setting.",
+        "Settings.RenderingQualitySettings.ShadowDistance" : "Shadow Distance",
+        "Settings.RenderingQualitySettings.ShadowDistance.Description" : "This controls the distance that shadows cover. Increasing this value will make sure more distant parts of the scene are properly covered in shadows, but this also spreads out the detail of the shadow over larger area.\n\nYou should change this setting together with the shadow cascades and resolution - with higher shadow resolution, you can afford higher shadow distance. If you lower the shadow resolution and cascades, you'll want to lower the shadow distance so shadows have better definition.",
+        "Settings.RenderingQualitySettings.SkinWeightMode" : "Skin Weights",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "For any skinned meshes (3D models that are deformed by bones, like most avatars), this controls how many bones are used to affect position of each vertex.\n\nLowering this value will save some performance, but the deformation quality will be lower, resulting in sharp creases and other artifacts, typically around joints.",
+
         "LocomotionArchetype.Walk": "Walk",
         "LocomotionArchetype.Fly": "Fly",
         "LocomotionArchetype.NoClip": "Noclip",
