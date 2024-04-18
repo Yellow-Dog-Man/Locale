@@ -82,6 +82,7 @@ Settings.UserRestrictionsSettings
 Settings.WindowsSettings  
 Settings.DebugSettings  
 Settings.LegacyFeatureSettings  
+Settings.TwitchInterfaceSettings  
 Settings.MessagingPrivacySettings  
 Settings.LocaleSettings  
 Settings.DashSettings  
@@ -235,6 +236,8 @@ Settings.LegacyFeatureSettings.UseLegacyGripEquip
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
+Settings.TwitchInterfaceSettings.ChannelName  
+Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description  
 Settings.LocaleSettings.CultureLocaleCode  

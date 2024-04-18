@@ -2,6 +2,9 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # French [fr]
+Settings.TwitchInterfaceSettings  
+Settings.TwitchInterfaceSettings.ChannelName  
+Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.PhotoCaptureSettings.CapturePrivateUI  
 Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
 Settings.PhotoCaptureSettings.EncodeFormat  

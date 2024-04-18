@@ -2,43 +2,9 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Korean [ko]
-Settings.TrackingSmoothingSettings.HandPositionSmoothing  
-Settings.TrackingSmoothingSettings.HandRotationSmoothing  
-Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description  
-Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description  
-Settings.TrackingSmoothingSettings.FeetPositionSmoothing  
-Settings.TrackingSmoothingSettings.FeetRotationSmoothing  
-Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description  
-Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description  
-Settings.TrackingSmoothingSettings.HipsPositionSmoothing  
-Settings.TrackingSmoothingSettings.HipsRotationSmoothing  
-Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description  
-Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description  
-Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description  
-Settings.HostAccessSettings.Entries.AllowWebsockets.Description  
-Settings.HostAccessSettings.Entries.Remove  
-Settings.PhotoCaptureSettings.CapturePrivateUI  
-Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
-Settings.PhotoCaptureSettings.EncodeFormat  
-Settings.PhotoCaptureSettings.EncodeFormat.Description  
-Settings.RelaySettings  
-Settings.RelaySettings.AlwaysUseRelay  
-Settings.RelaySettings.AlwaysUseRelay.Description  
-Settings.RelaySettings.UseClosestAvailableRelay  
-Settings.RelaySettings.UseClosestAvailableRelay.Description  
-Settings.RelaySettings.RelayPriorities  
-Settings.RelaySettings.RelayPriorities.Breadcrumb  
-Settings.PostProcessingSettings  
-Settings.PostProcessingSettings.MotionBlurIntensity  
-Settings.PostProcessingSettings.MotionBlurIntensity.Description  
-Settings.PostProcessingSettings.BloomIntensity  
-Settings.PostProcessingSettings.BloomIntensity.Description  
-Settings.PostProcessingSettings.AmbientOcclusionIntensity  
-Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description  
-Settings.PostProcessingSettings.ScreenSpaceReflections  
-Settings.PostProcessingSettings.ScreenSpaceReflections.Description  
-Settings.PostProcessingSettings.Antialiasing  
-Settings.PostProcessingSettings.Antialiasing.Description  
+Settings.TwitchInterfaceSettings  
+Settings.TwitchInterfaceSettings.ChannelName  
+Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.RenderingQualitySettings  
 Settings.RenderingQualitySettings.PerPixelLights  
 Settings.RenderingQualitySettings.PerPixelLights.Decription  
@@ -50,19 +16,4 @@ Settings.RenderingQualitySettings.ShadowDistance
 Settings.RenderingQualitySettings.ShadowDistance.Description  
 Settings.RenderingQualitySettings.SkinWeightMode  
 Settings.RenderingQualitySettings.SkinWeightMode.Description  
-Tutorial.Welcome.SettingsPrimaryLeft.Description  
-Tutorial.Welcome.SettingsPrimaryRight.Description  
-Tutorial.Welcome.SettingsHeadDirectionMovement  
-Tutorial.Welcome.SettingsUseHeadDirection  
-Tutorial.Welcome.SettingsUseHeadDirection.Description  
-Tutorial.Welcome.SettingsUseControllerDirection  
-Tutorial.Welcome.SettingsUseControllerDirection.Description  
-Tutorial.Welcome.LeftControllerMode  
-Tutorial.Welcome.RightControllerMode  
-Tutorial.Welcome.SidewaysTurn  
-Tutorial.Welcome.SidewaysTurn.Description  
-Tutorial.Welcome.SidewaysStrafe  
-Tutorial.Welcome.SidewaysStrafe.Description  
-Tutorial.Welcome.SidewaysOff  
-Tutorial.Welcome.SidewaysOff.Description  
 
