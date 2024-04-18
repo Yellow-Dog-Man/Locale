@@ -7,7 +7,7 @@ Settings.TwitchInterfaceSettings.ChannelName
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.RenderingQualitySettings  
 Settings.RenderingQualitySettings.PerPixelLights  
-Settings.RenderingQualitySettings.PerPixelLights.Decription  
+Settings.RenderingQualitySettings.PerPixelLights.Description  
 Settings.RenderingQualitySettings.ShadowCascades  
 Settings.RenderingQualitySettings.ShadowCascades.Description  
 Settings.RenderingQualitySettings.ShadowResolution  
