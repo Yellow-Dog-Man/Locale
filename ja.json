@@ -1183,6 +1183,9 @@
         "Settings.Category.Graphics": "グラフィック",
         "Settings.Category.InteractiveCamera": "カメラ",
 
+        "Settings.LegacyFeatureSettings.ConvertLegacySettings": "デバッグ - レガシー設定を変換",
+        "Settings.DebugSettings.DebugResetAllSimpleSettings": "デバッグ - すべてのシンプル設定をリセット",
+
         "Settings.GeneralControlsSettings": "一般操作",
         "Settings.LocomotionSettings": "ロコモーション",
         "Settings.MovementSettings": "移動",
@@ -1280,6 +1283,22 @@
         "Settings.GeneralVRSettings.UseVRHotswitching": "VRホットスイッチ",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "設定を有効にすると、VRヘッドセットの着脱時に自動的にVRモードとデスクトップモードが切り替わります。",
 
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing" : "手の位置のスムージング",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing" : "手の角度のスムージング",
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description" : "有効にすると、手の位置の動きがスムーズになります。これは、手の震えやその他のアクセシビリティの課題によるぶれを軽減するのに役立つ機能です。",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description" : "有効にすると、手の回転運動がスムーズになります。これは、手の震えやその他のアクセシビリティの課題によるぶれを軽減するのに役立つ機能です。",
+
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing" : "足の位置のスムージング",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing" : "足の角度のスムージング",
+
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description" : "有効にすると、フルボディトラッキングを使用する際に、足の位置の動きが滑らかになります。これは震えやぶれをなくすのに役立ちますが、追従が遅れやすくなり、急激な動きにも反応しなくなります。",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description" : "有効にすると、フルボディトラッキングを使用する際に、足の回転運動が滑らかになります。これは震えやぶれをなくすのに役立ちますが、追従が遅れやすくなり、急激な動きにも反応しなくなります。",
+
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing" : "腰の位置のスムージング",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing" : "腰の角度のスムージング",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description" : "有効にすると、フルボディトラッキングを使用する際に、腰の位置が滑らかになります。これは震えやぶれをなくすのに役立ちますが、トラッカーが遅れやすくなり、急激な動きにも反応しなくなります。",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description" : "有効にすると、フルボディトラッキングを使用する際に、腰の回転運動が滑らかになります。これは震えやぶれをなくすのに役立ちますが、トラッカーが遅れやすくなり、急激な動きにも反応しなくなります。",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion ハンドトラッキング",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "設定を有効にした場合、Leap Motionデバイスがあれば、それにより手や指のトラッキングを行います。",
         "Settings.LeapMotionSettings.Offset": "ハンドトラッキングのオフセット",
@@ -1300,16 +1319,15 @@
         "Settings.UserMetricsSettings.UserHeight.Description": "現実世界の身長を設定します。アバターのサイズとユーザーの身長を合わせるために使用されます。着席モード時にも使われます。\n\n適切な単位を用いて身長を入力できます。例えば、メートル法であれば<color=hero.yellow>175cm</color>、または<color=hero.yellow>1.75m</color>のように入力し、ヤードポンド法の場合<color=hero.yellow>5'11\"</color>のように入力します。",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "PCのデフォルト入力デバイスを使用する",
+        "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "設定を有効にした場合、PC上でデフォルトの入力デバイスとして設定しているデバイスが自動的に使用されます。他のデバイスを使用したい場合は、この設定を無効にし、下部から使用したい入力デバイスを選択してください。",
         "Settings.AudioInputDeviceSettings.DevicePriorities": "音声入力デバイスの選択",
         "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "音声入力デバイスの選択",
-        "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "設定を有効にした場合、PC上でデフォルトの入力デバイスとして設定しているデバイスが自動的に使用されます。他のデバイスを使用したい場合は、この設定を無効にし、下部から使用したい入力デバイスを選択してください。",
         "Settings.AudioInputDeviceSettings.SetAsDefault": "既定に設定",
 
+        "Settings.AudioOutputDeviceSettings.UseSystemDefault": "PCのデフォルト出力デバイスを使用する",
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "設定を有効にした場合、PC上でデフォルトの入力デバイスとして設定しているデバイスが自動的に使用されます。無効にした場合、どのオーディオデバイスを使って音声を出力するかを設定できます。これによって、VRとデスクトップを切り替えた際に異なるデバイスを使用するように設定できます。",        
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "音声出力デバイスを選択",
-        "Settings.AudioOutputDeviceSettings.UseSystemDefault": "PCのデフォルト出力デバイスを使用する",
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "音声出力デバイスの選択",
-        "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "音声出力デバイスの選択",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "既定に設定",
 
         "Settings.AudioVolumeSettings.MasterVolume": "マスターボリューム",
@@ -1317,10 +1335,10 @@
         "Settings.AudioVolumeSettings.SoundEffectVolume": "サウンドエフェクト",
         "Settings.AudioVolumeSettings.SoundEffectVolume.Description": "サウンドエフェクト音量を調整します。通常、アイテムやツールなどから鳴る音がサウンドエフェクトに含まれます。",
         "Settings.AudioVolumeSettings.MultimediaVolume": "マルチメディア",
-        "Settings.AudioVolumeSettings.VoiceVolume": "ユーザーのボイス",
-        "Settings.AudioVolumeSettings.UserInterfaceVolume": "UIサウンド",
         "Settings.AudioVolumeSettings.MultimediaVolume.Description": "マルチメディア音量を調整します。通常、BGMの他、オーディオ入力、音楽、動画プレイヤーの音がマルティメディアに含まれます。",
+        "Settings.AudioVolumeSettings.VoiceVolume": "ユーザーのボイス",
         "Settings.AudioVolumeSettings.VoiceVolume.Description": "他のユーザーが話す声すべての音量を調整します。録音した音声クリップの音量もこの設定から操作される場合があります。ユーザー音量の個別設定は、ダッシュメニューの「セッション」タブから行えます。",
+        "Settings.AudioVolumeSettings.UserInterfaceVolume": "UIサウンド",
         "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "UI効果音の音量を調整します。ボタン、スライダー、ツールの操作、写真を撮影する際に鳴る音が含まれます。",
 
         "Settings.AudioAccessibilitySettings.WhisperVolume": "ウイスパーモードの音量",
@@ -1338,27 +1356,32 @@
         "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "しきい値を超えた音量が検出された後、再び音声のフィルタリングを開始するまでの時間を設定します。値を大きくすると、しきい値を超えた音声のあと、より小さな音声をしばらく通すようになります。",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease": "ノイズゲートのリリース",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "入力音声がしきい値を下回った後に、音声を送信しなくなるまでの時間を設定します。",
+
         "Settings.AudioInputFilteringSettings.NormalizationThreshold": "ノーマライゼーションのしきい値",
         "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "音量がどれほど以上であれば入力音声を増幅するかの値を設定します。普通に話す声が増幅されない場合は、設定値を小さくしてください。小さい雑音が増幅されてしまう場合は、設定値を大きくしてください。",
+
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "ノイズフィルター",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "入力されるオーディオデータを処理して、不要なノイズを除去します。これにより、ノイズの多いマイクから入力されたオーディオデータから、よりクリーンな音声を生成することができます。この設定をオンにしておくことを強くおすすめします。ただし、音声として識別されないノイズも一緒に除去してしまう可能性がありますので、ご注意ください。",        
 
         "Settings.RealtimeNetworkingSettings.DisableLAN": "LANを無効化",
-        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Steam Networking Socketsを優先",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "LANを利用した機能が無効化されます。例えば、同じLAN内で動くセッションを表示したり、逆に同じLAN内にいる人が自分のセッションを見れるようにする機能などが含まれます。",
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Steam Networking Socketsを優先",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "設定を有効にした場合、Steam Networking Socketsプロトコルを利用してセッションに接続するようになります。これは、LNLプロトコル利用時に著しく遅延が発生する場合に役立ちます。ただし、このプロトコルにはいくつかの機能がないため、接続が不安定になる可能性があります",
 
-        "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "セッションをホストしている時、ローカルファイル上のアセットを一度に転送できる数を設定します。この数字を増やすと、ユーザーへのアセット転送が速くなりますが、ネットワーク接続の品質が低下する可能性があります。ネットワークが処理しきれる値を確認してみることをお勧めします。",
-        "Settings.AssetGatherSettings.MaxConcurrentDownloads.Description": "同時にダウンロードできるアセット数を設定します。この値を大きくするとワールドの読み込みが速くなりますが、ネットワークに過負荷がかかる可能性があります",        
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "最大同時アセット転送数",
+        "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "セッションをホストしている時、ローカルファイル上のアセットを一度に転送できる数を設定します。この数字を増やすと、ユーザーへのアセット転送が速くなりますが、ネットワーク接続の品質が低下する可能性があります。ネットワークが処理しきれる値を確認してみることをお勧めします。",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads": "最大同時ダウンロード数",
+        "Settings.AssetGatherSettings.MaxConcurrentDownloads.Description": "同時にダウンロードできるアセット数を設定します。この値を大きくするとワールドの読み込みが速くなりますが、ネットワークに過負荷がかかる可能性があります",
 
-        "Settings.HostAccessSettings.Entries": "ホストアクセス一覧",
+        "Settings.HostAccessSettings.Entries": "ホストアクセス許可の管理",
         "Settings.HostAccessSettings.Entries.Breadcrumb": "ホストアクセス一覧",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "HTTPリクエストを許可",
+        "Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description": "このホストに対してHTTP(s)リクエストが許可されているかどうかを示します。一般的には、サードパーティのサービスと通信するためのREST APIリクエストです。",
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "websocketを許可",
+        "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "このホストで許可された、リアルタイムWebsocket接続を示します。これらは、リアルタイムの双方向通信やデータストリームによく使われます。",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "ハイパーリンクリクエストの理由",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "websocketリクエストの理由",
+        "Settings.HostAccessSettings.Entries.Remove": "許可を削除する（次回、再度尋ねられます）",
         "Settings.HostAccessSettings.DebugReset": "ホストアクセスエントリをリセット",
 
         "Settings.UserRestrictionsSettings.DebugReset": "ユーザー制限をリセット",
@@ -1370,25 +1393,26 @@
         "Settings.DebugSettings.DebugInputBindings.Description": "設定を有効にした場合、インプットバインディングシステムのデバッグ情報が表示されます。主に開発者向けの機能です。",
         "Settings.DebugSettings.FetchIncompatibleSessions": "互換性のないセッションを表示",
         "Settings.DebugSettings.FetchIncompatibleSessions.Description": "設定を有効にした場合、現在のバージョンと互換性がないため参加できないアクティブセッションも表示されます。",        
-        "Settings.DebugSettings.DebugResetAllSimpleSettings": "デバッグ - すべてのシンプル設定をリセット",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "ダブルグリップでアイテムを装備",
+        "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "有効にすると、グリップを2回連続で押すことでツールやアイテムを装備できます。この設定は将来削除されます。",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "レガシーワールドスイッチャーを使用",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "設定を有効にした場合、利き手ではない方のアプリボタンを押すことでレガシーワールドスイッチが開き、セッションを切り替えることができます。この機能は将来、より柔軟なソリューションに置き換えられる予定です",        
-        "Settings.LegacyFeatureSettings.ConvertLegacySettings": "デバッグ - レガシー設定を変換",
 
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "メッセージの既読状態を送信しない",
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "設定を有効にした場合、メッセージを送ってきた相手は、自分がメッセージを読んだことを即座に知ることができなくなります。また、相手がいつ自分のメッセージを読んだかもわからなくなります。",
 
-        "Settings.LocaleSettings.UseImperialUnits": "ヤード・ポンド法で表示する",
         "Settings.LocaleSettings.CultureLocaleCode": "ロケールコード",
         "Settings.LocaleSettings.CultureLocaleCode.Description": "設定すると、数値やその他の数量の書式に使われるデフォルトのロケールを上書きします。通常は設定した言語のロケールが使用されますが、これを使用するとそれらを組み合わせて使用することができます。例えば、言語は日本語で、単位はアメリカのもので表示できます。",
+        "Settings.LocaleSettings.UseImperialUnits": "ヤード・ポンド法で表示する",
         "Settings.LocaleSettings.UseImperialUnits.Description": "設定を有効にした場合、数量（長さ/高さ、質量、体積...）の入力画面でメートル法の代わりにヤードポンド法を使うようになります。アメリカ、イギリス、リベリア、ミャンマーにいる人向けの機能です。",        
+        "Settings.LocaleSettings.AvailableLocales": "表示言語を選択",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "表示言語を選択",
 
-
         "Settings.DashSettings.DashCurvature": "ダッシュメニューの曲がり具合",
+        "Settings.DashSettings.DashCurvature.Description": "VRでのダッシュメニューの曲がり具合を設定できます。0に設定すると完全に平面になります。",
         "Settings.DashSettings.OpenCloseSpeed": "開閉スピード",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "ダッシュメニューの開閉速度を調整できます。アニメーションが気に入らない場合は、この値を非常に大きくして、ほぼ瞬時に開閉するように設定できます。",
 
         "Settings.NamePlateSettings.NameplateVisibility": "ネームプレートの表示",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "どの種類のユーザーのネームプレートを表示するかを設定します",
@@ -1420,15 +1444,19 @@
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "フィンガーフォト",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description" : "設定を有効にした場合、指で写真を撮るポーズをとりながら人差し指を折り曲げることで、素早く写真を撮ることができます。",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "ノーマル撮影の解像度",
-        "Settings.PhotoCaptureSettings.TimerCaptureResolution": "タイマー撮影の解像度",
-        "Settings.PhotoCaptureSettings.CaptureStereo": "立体写真モード",
-        "Settings.PhotoCaptureSettings.TimerSeconds": "タイマーの時間（秒）",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "フィンガーフォトやデスクトップのショートカットで撮影した際の写真の解像度を設定します。解像度を高くすると処理に時間がかかり、PCの容量を圧迫しますが、より鮮明な写真が撮れます。",
+        "Settings.PhotoCaptureSettings.TimerCaptureResolution": "タイマー撮影の解像度",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "タイマーモードで撮影した際の解像度を設定できます。タイマー撮影で集合写真を撮影する際に便利です。",
-        "Settings.PhotoCaptureSettings.TimerSeconds.Description": "タイマー撮影時のタイマー時間の長さを設定します。",
+        "Settings.PhotoCaptureSettings.CaptureStereo": "立体写真モード",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "設定を有効にした場合、ノーマル撮影した写真がステレオ写真として撮影されます。主にVRで写真を鑑賞する場合に使えます。",
-        "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "保存先を示すパスを設定することで、撮影（またはコンテキストメニューから保存）した写真を自動でゲーム内インベントリに保存します。パスの例: <color=hero.yellowr>Photos/%year%/%month_name%</color>\n\n変数として次のものが使えます。\n\nn<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size",
+        "Settings.PhotoCaptureSettings.TimerSeconds": "タイマーの時間（秒）",
+        "Settings.PhotoCaptureSettings.TimerSeconds.Description": "タイマー撮影時のタイマー時間の長さを設定します。",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "自動保存パス",
+        "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "保存先を示すパスを設定することで、撮影（またはコンテキストメニューから保存）した写真を自動でゲーム内インベントリに保存します。パスの例: <color=hero.yellowr>Photos/%year%/%month_name%</color>\n\n変数として次のものが使えます。\n\nn<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI" : "プライベートUIを撮影する",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "有効にすると、ダッシュメニューなどのプライベートなUIが撮影時に含まれます。\n\nこの設定を有効にしたままにすると、誤って撮影してしまった場合に、個人情報が漏れてしまう可能性があるので、撮影が終わったらオフにすることをおすすめします。",
+        "Settings.PhotoCaptureSettings.EncodeFormat" : "エンコードフォーマット",
+        "Settings.PhotoCaptureSettings.EncodeFormat.Description" : "撮影した写真をエンコードする画像ファイル形式を設定できます。写真を特定の形式でエンコードする必要がある場合は、この設定でエンコードする形式を選択できます。\n\n形式によっては（透過のサポートなど）いくつかの機能が欠けていたり、エンコードが著しく遅かったり、画質が悪かったり、ファイルが大きくなったりする場合がありますのでご注意ください。",
 
         "Settings.DesktopRenderSettings.FieldOfView": "視野角",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "デスクトップモード時の視野角（FOV）を設定します。値を大きくすると視野が広くなりますが、画面端の歪みが大きくなります。",        
@@ -1489,6 +1517,7 @@
         
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "撮影時に写真をスポーン",
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "インタラクティブカメラパネルを使って写真を撮った際、写真がワールドにスポーンするかどうか設定します。無効にした場合、写真はドキュメントやインベントリ（自動保存パスが設定されている場合）にのみ保存されます。",
+
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "モーションブラー",
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "カメラにモーションブラーを適用するかどうかを設定します。",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "SSR(スクリーンスペースリフレクション)",
@@ -1496,6 +1525,26 @@
 
         "Settings.DescriptionField.NoTextTitle": "詳細",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>カーソルを合わせると詳しい説明が表示されます。</closeall>",
+
+        "Settings.RelaySettings" : "ネットワーク・リレー",
+        "Settings.RelaySettings.AlwaysUseRelay" : "接続に必ずリレーを使用する",
+        "Settings.RelaySettings.AlwaysUseRelay.Description" : "リレーは通常、ホストへの直接接続を確立できない場合の代替手段として使用されます。この設定を有効にすると、常にリレー経由で接続されるようになります。\n\nこれは、特定のホストへの接続に問題がある場合に便利です。通常の場合には、この設定を無効にしておくことをおすすめします。",
+        "Settings.RelaySettings.UseClosestAvailableRelay" : "最も近いリレーを使用する",
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description" : "これ有効にすると、最も近い利用可能なリレーが自動的に選択されます。特定のリレーを経由して接続したい場合（長距離接続でパケットの混信を避ける場合など）、このオプションを無効にし、優先リレーを以下で設定できます。",
+        "Settings.RelaySettings.RelayPriorities": "リレーサーバーの優先順位を設定",
+        "Settings.RelaySettings.RelayPriorities.Breadcrumb": "レーサーバーの優先順位を設定",
+
+        "Settings.PostProcessingSettings" : "ポストプロセッシング",
+        "Settings.PostProcessingSettings.MotionBlurIntensity" : "モーションブラーの強さ",
+        "Settings.PostProcessingSettings.MotionBlurIntensity.Description" : "モーションブラー効果の強さを設定できます。高い値にすると、同じ動きでもより多くボケるようになります。\n\n<nobr><color=hero.yellow>0 %</color></nobr> に設定すると、フィルタは完全に無効になり、パフォーマンスが向上します。",
+        "Settings.PostProcessingSettings.BloomIntensity" : "ブルームの強さ",
+        "Settings.PostProcessingSettings.BloomIntensity.Description" : "ブルーム効果により、画面内の明るいオブジェクト（通常はHDR範囲内のオブジェクト）の周囲が輝きます。同じ光量でのエフェクトの強さを設定できます。\n\nこの設定値が低いか、無効に設定されている場合、一部のコンテンツが正しく表示されないことがありますのでご注意ください。\n\n<nobr><color=hero.yellow>0 %</color></nobr>に設定すると、フィルタが完全に無効になり、パフォーマンスが向上します。",
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity" : "アンビエントオクルージョンの強さ",
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description" : "アンビエントオクルージョンは、穴や隙間などの狭い場所を暗くします。これによってリアリティを増やすことができます。\n\nこれを低く設定しすぎたり無効にしたりすると、一部のコンテンツが正しくな かったり、平坦に見えることがあるので注意してください。\n\n<nobr><color=hero.yellow>0 %</color></nobr>に設定すると、フィルタが完全に無効になり、パフォーマンスが向上します。",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections" : "SSR<size=75%>(実験的)</size>",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections.Description" : "このフィルタを有効にすると、画面に見えている物がリアルタイムで光沢のある物に映り込むようになります。これにより、リアリティが増え光沢のある物の見栄えが良くなります。\n\nこのフィルタは現在実験的なものと考えられており、多くの場合ではうまく機能せず、幽霊のような反射や歪みが発生することに注意してください。",
+        "Settings.PostProcessingSettings.Antialiasing" : "アンチエイリアス (AA)",
+        "Settings.PostProcessingSettings.Antialiasing.Description" : "アンチエイリアス(AA)は、画面内の物体の端いギザギザを滑らかにします。いくつかのフィルターを選択でき、それぞれのフィルターには異なる欠点があります。FXAAは一般的に使用され、うまく機能しますが、テキストなど画面内の他の部分をぼかすことにもなります。\n\n<color=red>警告：</color> 一部の AA 設定は、VR に適していないか、まったく機能しない場合があります。",
 
         "LocomotionArchetype.Walk": "歩行",
         "LocomotionArchetype.Fly": "フライ",
