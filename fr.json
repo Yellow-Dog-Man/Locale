@@ -1214,6 +1214,7 @@
         "Settings.WindowsSettings": "Paramètres Windows",
         "Settings.DebugSettings": "Débug",
         "Settings.LegacyFeatureSettings": "Fonctionnalités dépréciés",
+        "Settings.TwitchInterfaceSettings": "Interface de diffusion Twitch",
 
         "Settings.MessagingPrivacySettings": "Confidentialité de la messagerie",
 
@@ -1399,6 +1400,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Utiliser l'ancien commutateur de mondes",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Quand activé, le bouton d'application sur votre manette non primaire ouvrira un ancien commutateur de mondes. Cette option sera remplacée par une plus flexible dans le futur.",
 
+        "Settings.TwitchInterfaceSettings.ChannelName": "Nom de la chaîne Twitch",
+        "Settings.TwitchInterfaceSettings.ChannelName.Description": "Cette option définis la chaîne Twitch par défaut utilisée par le panneau de chat Twitch. Cela est principalement utilisé par les créateurs de contenu.",
+
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Ne pas envoyer les accusés de lecture",
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "Quand activé, les autres ne pourront pas voir quand vous avez lu leurs messages. Vous ne pourrez pas non plus voir quand ils auront lu les votres.",
 
@@ -1543,8 +1547,20 @@
         "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description": "L'occlusion ambiante rajoute du noir dans les coins de la scène qui devraient recevoir moins de lumière. Cela peut donner au monde plus de profondeur et de réalisme. Il est a noter que définir cette valeur trop basse ou la désactiver peut changer l'apparence de certains mondes. Définir la valeur à <nobr><color=hero.yellow>0 %</color></nobr> désactive cet effet.",
         "Settings.PostProcessingSettings.ScreenSpaceReflections": "Réflexions d'espace d'écran <size=75%>(expérimental)</size>",
         "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "Quand activées, les parties de la scène visibles a la caméra vont refléter les parties du monde brillantes en temps réel. Cela peut rendre les mondes plus beau, au coût de performance. Ce filtre est considéré expérimental et ne fonctionne que dans certains scénarios spécifiques.",
-        "Settings.PostProcessingSettings.Antialising": "Anti crénelage",
-        "Settings.PostProcessingSettings.Antialising.Description": "L'anti crénelage lisse les côtés des objets dans une scène. Vous pouvez sélectionner plusieurs filtres. FXAA est le plus communément utilisé, mais peut rendre des parties des la scène flous (comme du texte).",
+        "Settings.PostProcessingSettings.Antialiasing": "Anti crénelage",
+        "Settings.PostProcessingSettings.Antialiasing.Description": "L'anti crénelage lisse les côtés des objets dans une scène. Vous pouvez sélectionner plusieurs filtres. FXAA est le plus communément utilisé, mais peut rendre des parties des la scène flous (comme du texte).",
+
+        "Settings.RenderingQualitySettings" : "Qualité de rendu",
+        "Settings.RenderingQualitySettings.PerPixelLights" : "Lumière par pixel",
+        "Settings.RenderingQualitySettings.PerPixelLights.Description" : "Cette option contrôle combien de spots et points de lumière affectent les objets rendus - typiquement les objets transparents et non-PBS (toon). Cela rend le rendu plus beau avec un coût de performance.",
+        "Settings.RenderingQualitySettings.ShadowCascades" : "Cascade d'ombres",
+        "Settings.RenderingQualitySettings.ShadowCascades.Description" : "Cette option contrôle la résolution des ombres en cascade pour les lumières directionnelles dans le monde. Les cascades distribuent mieux la carte d'ombres avec une résolution plus haute proche et plus basse de loin, mais coûtant plus de performance.",
+        "Settings.RenderingQualitySettings.ShadowResolution" : "Résolution des ombres",
+        "Settings.RenderingQualitySettings.ShadowResolution.Description" : "Cela contrôle la résolution des ombres pour les lumières. Augmenter cette valeur va lisser les ombres mais va avoir un impact sur la performance.\n\nCertaines lumières passent outre les ombres et ne seront pas affectés par cette option.",
+        "Settings.RenderingQualitySettings.ShadowDistance" : "Distance des ombres",
+        "Settings.RenderingQualitySettings.ShadowDistance.Description" : "Cette option contrôle la distance que couvrent les ombres. Augmenter cette valeur va fair en sorte que les ombres soient rendues plus loin mais va étaler les détails sur une plus grande distance.\n\nCombinez cette option avec la cascade d'ombres. Si vous baissez la cascade d'ombres, baissez aussi la distance des ombres pour avoir un meilleur résultat.",
+        "Settings.RenderingQualitySettings.SkinWeightMode" : "Poids d'os dynamiques",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "Pour chaque maillage polygonal (modèles 3D qui sont déformés par des os, ce qui est le cas des avatars), cette option contrôle combien d'os affectent la position de chaque vertex.\n\nBaisser cette valeur peut augmenter la performance mais la qualité de déformation sera moindre.",
 
         "LocomotionArchetype.Walk": "Marche",
         "LocomotionArchetype.Fly": "Vol",
