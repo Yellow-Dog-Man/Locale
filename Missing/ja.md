@@ -3,6 +3,11 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Japanese [ja]
 Settings.TwitchInterfaceSettings  
+Settings.MediaPrivacySettings  
+Settings.MediaPrivacySettings.MediaMetadataOptOut  
+Settings.MediaPrivacySettings.MediaMetadataOptOut.Description  
+Settings.MediaPrivacySettings.HideInScreenshots  
+Settings.MediaPrivacySettings.HideInScreenshots.Description  
 Settings.TrackerSettings  
 Settings.TrackerSettings.UseTrackers  
 Settings.TrackerSettings.UseTrackers.Description  

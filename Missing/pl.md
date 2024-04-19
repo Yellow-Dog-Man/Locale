@@ -111,6 +111,11 @@ Settings.TrackingSmoothingSettings.HipsPositionSmoothing
 Settings.TrackingSmoothingSettings.HipsRotationSmoothing  
 Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description  
 Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description  
+Settings.MediaPrivacySettings  
+Settings.MediaPrivacySettings.MediaMetadataOptOut  
+Settings.MediaPrivacySettings.MediaMetadataOptOut.Description  
+Settings.MediaPrivacySettings.HideInScreenshots  
+Settings.MediaPrivacySettings.HideInScreenshots.Description  
 Settings.LeapMotionSettings.LeapMotionEnabled  
 Settings.LeapMotionSettings.LeapMotionEnabled.Description  
 Settings.LeapMotionSettings.Offset  
