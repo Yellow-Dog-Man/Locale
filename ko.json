@@ -1214,6 +1214,7 @@
         "Settings.WindowsSettings": "윈도우즈 설정",
         "Settings.DebugSettings": "디버그",
         "Settings.LegacyFeatureSettings": "과거 기능들",
+        "Settings.TwitchInterfaceSettings": "트위치 방송 설정",
 
         "Settings.MessagingPrivacySettings": "메시지 보호",
 
@@ -1399,6 +1400,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "기존 월드 스위처 사용",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "활셩화 한 경우, <color=hero.yellow>주로 사용하는 손 방향</color>에서 설정한 방향의 반대쪽 컨트롤러의 대시 메뉴 호출 버튼을 누르면, 과거에 사용되던 월드 스위쳐가 나타납니다. 이는 향후 더 유연한 시스템으로 대체될 예정입니다.",
 
+        "Settings.TwitchInterfaceSettings.ChannelName": "트위치 체널명",
+        "Settings.TwitchInterfaceSettings.ChannelName.Description": "<color=hero.yellow>카메라 제어</color> 화면의 트위치 채팅 화면 내 사용할 기본 채널명을 설정합니다. 트위치에 방송하면서 채팅을 보고자 하시면 유용하게 사용할 수 있습니다.",
+        
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "읽음여부 전달하지 않기",
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "메시지 송/수신 후 해당 메시지를 상대 또는 본인이 읽었는지 여부를 상호전달하지 않습니다.",
 
@@ -1546,6 +1550,18 @@
         "Settings.PostProcessingSettings.Antialiasing" : "계단현상 제거(Antialiasing : AA)",
         "Settings.PostProcessingSettings.Antialiasing.Description" : "화면에 있는 개체들의 날카롭고 들쭉날쭉한 가장자리를 부드럽게 표현합니다. 여러 가지 필터 중에서 선택할 수 있고, 각기 서로 다른 장단점을 가집니다. 일반적으로 FXAA가 사용되나, 문자열 같은 부분을 흐리게 할 수도 있습니다.\n\n<color=red>경고:</color> 일부 옵션은 VR에 적합하지 않거나 전혀 작동하지 않을 수 있습니다.",
 
+        "Settings.RenderingQualitySettings" : "렌더링 품질",
+        "Settings.RenderingQualitySettings.PerPixelLights" : "픽셀당 조명(Per Pixel Lights)",
+        "Settings.RenderingQualitySettings.PerPixelLights.Description" : "이는 일반적으로 PBS가 아닌 대상(예를 들자면 툰 셰이더)에 대해 영향을 줄 수 있는 점 또는 스포트라이트 광원의 수를 제어합니다.\n\n값을 높이면 조명 품질이 향상되고 색상의 깜빡임이 줄어들지만, 조명의 갯수에 비례하여 렌더링을 반복해야 하므로, 클라이언트 성능을 희생합니다.",
+        "Settings.RenderingQualitySettings.ShadowCascades" : "거리기반 그림자 해상도(Shadow Cascades)",
+        "Settings.RenderingQualitySettings.ShadowCascades.Description" : "직사광(Directional light)에 대해 발생하는 그림자를 거리에 따라 서로 다른 해상도로 제공합니다. 거리가 가까우면 고해상도, 먼 경우 저해상도로 제공합니다.",
+        "Settings.RenderingQualitySettings.ShadowResolution" : "그림자 해상도(Shadow Resolution)",
+        "Settings.RenderingQualitySettings.ShadowResolution.Description" : "광원에 의해 렌더링되는 그림자의 해상도를 제어합니다. 이 값을 늘리면 그림자의 경계면이 부드러워지고 명확하게 보이게 되지만, 클라이언트의 성능 요구사항이 높아집니다.\n\n일부 광원은 이 설정을 무시할 수 있습니다.",
+        "Settings.RenderingQualitySettings.ShadowDistance" : "그림자 표현 거리(Shadow Distance)",
+        "Settings.RenderingQualitySettings.ShadowDistance.Description" : "개체로 부터 그림자를 어느 정도 거리까지 표현할지 설정합니다.\n\n이 값을 늘리면 먼 거리까지 그림자가 표현되지만, 세부적인 부분도 표시되기에 <color=hero.yellow>거리기반 그림자 해상도(Shadow Cascades)</color> 및 <color=hero.yellow>그림자 해상도(Shadow Resolution)</color>를 함께 조정해야 합니다.\n\n그림자의 해상도를 높이면 먼 거리에 그림자가 표현될때 더 잘 표현합니다. 반대로 그림자의 해상도 설정들이 모두 낮은 상태일때, 이 값도 적절한 값으로 낮추면 그림자가 더 정확하게 표현된다고 느낄 수 있습니다.",
+        "Settings.RenderingQualitySettings.SkinWeightMode" : "스킨 웨이트(Skin Weights)",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "매시에 뼈(Bone) 가중치가 할당된 모든 <color=hero.yellow>스킨드 매시</color>에 대해 각 정점의 위치에 영항을 미치는 뼈(Bone)의 수를 제어합니다.\n\n값을 낮추면 클라이언트의 성능은 좋아지지만, 뼈의 움직임에 의해 변화되는 품질은 낮아집니다. 일반적으로 관절부에 날카로운 주름과 무언가가 나타납니다.",
+        
         "LocomotionArchetype.Walk": "걷기/뛰기",
         "LocomotionArchetype.Fly": "자유비행",
         "LocomotionArchetype.NoClip": "노클립(No-clip)",
