@@ -1214,6 +1214,7 @@
         "Settings.WindowsSettings": "Windows向け設定",
         "Settings.DebugSettings": "デバッグ",
         "Settings.LegacyFeatureSettings": "レガシー",
+        "Settings.TwitchInterfaceSettings": "Twitch配信設定",
 
         "Settings.MessagingPrivacySettings": "メッセージのプライバシー",
 
@@ -1399,6 +1400,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "レガシーワールドスイッチャーを使用",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "設定を有効にした場合、利き手ではない方のアプリボタンを押すことでレガシーワールドスイッチが開き、セッションを切り替えることができます。この機能は将来、より柔軟なソリューションに置き換えられる予定です",        
 
+        "Settings.TwitchInterfaceSettings.ChannelName": "Twitchチャンネル名",
+        "Settings.TwitchInterfaceSettings.ChannelName.Description": "カメラコントロールパネルのTwitchチャットパネルの標準のTwitchチャンネル名を設定出来ます。主にTwitch配信者が自分のTwitchチャットを見たい場合に使用します。",
+
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "メッセージの既読状態を送信しない",
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "設定を有効にした場合、メッセージを送ってきた相手は、自分がメッセージを読んだことを即座に知ることができなくなります。また、相手がいつ自分のメッセージを読んだかもわからなくなります。",
 
@@ -1545,6 +1549,18 @@
         "Settings.PostProcessingSettings.ScreenSpaceReflections.Description" : "このフィルタを有効にすると、画面に見えている物がリアルタイムで光沢のある物に映り込むようになります。これにより、リアリティが増え光沢のある物の見栄えが良くなります。\n\nこのフィルタは現在実験的なものと考えられており、多くの場合ではうまく機能せず、幽霊のような反射や歪みが発生することに注意してください。",
         "Settings.PostProcessingSettings.Antialiasing" : "アンチエイリアス (AA)",
         "Settings.PostProcessingSettings.Antialiasing.Description" : "アンチエイリアス(AA)は、画面内の物体の端いギザギザを滑らかにします。いくつかのフィルターを選択でき、それぞれのフィルターには異なる欠点があります。FXAAは一般的に使用され、うまく機能しますが、テキストなど画面内の他の部分をぼかすことにもなります。\n\n<color=red>警告：</color> 一部の AA 設定は、VR に適していないか、まったく機能しない場合があります。",
+
+        "Settings.RenderingQualitySettings" : "描画品質",
+        "Settings.RenderingQualitySettings.PerPixelLights" : "ピクセルあたりのライト",
+        "Settings.RenderingQualitySettings.PerPixelLights.Description" : "これは、フォワードメソッドを使用して描画されたオブジェクト（透過オブジェクトとトゥーンシェーダなどの非PBSオブジェクト）に直接影響するポイントライトとスポットライトの数を制御します。\n\nこの値を大きくすると、ライティングの品質が向上し、オブジェクトの質感が増します。（複数のライト がある場合の色のちらつきが減ります。）",
+        "Settings.RenderingQualitySettings.ShadowCascades" : "シャドウカスケード",
+        "Settings.RenderingQualitySettings.ShadowCascades.Description" : "ワールド内のディレクショナルライトの影の解像度カスケードを制御します。カスケードすることで、シャドウマップの解像度がより分散されます。- シャドウマップの解像度をよりよく分散させ、近くではより高い解像度を、遠くではより低い解像度を提供しますが、描画負荷は高くなります。",
+        "Settings.RenderingQualitySettings.ShadowResolution" : "影の解像度",
+        "Settings.RenderingQualitySettings.ShadowResolution.Description" : "影の解像度を設定できます。この値を大きくすると、影の端がより滑らかになり鮮明度が増しますが、描画負荷が高くなります。",
+        "Settings.RenderingQualitySettings.ShadowDistance" : "影の距離",
+        "Settings.RenderingQualitySettings.ShadowDistance.Description" : "影がカバーする距離を設定できます。この値を大きくすると、より遠くの部分が影で適切にカバーされるようになりますが、影の影響がより広い範囲に広がります。\n\nこの設定は、シャドウカスケードや解像度と一緒に変更する必要があります。- 影の解像度を高くすると、距離を長くすることができます。影の解像度とカスケードを下げると距離が短くなり，影がより鮮明になります。",
+        "Settings.RenderingQualitySettings.SkinWeightMode" : "スキンウェイト",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "スキニングされたメッシュ（アバターのようにボーンによって変形する3Dモデル）で、各頂点の位置に影響を与えるために使用されるボーン数を制御します。\n\nこの値を下げると、パフォーマンスは多少下がりますが、変形の質は低下し、曲がりが粗くなり、他の歪みが発生します。",
 
         "LocomotionArchetype.Walk": "歩行",
         "LocomotionArchetype.Fly": "フライ",
