@@ -1534,6 +1534,18 @@
         "Settings.RelaySettings.RelayPriorities": "Relay-Server Prioritäten konfigurieren",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Relay-Server Prioritäten",
 
+        "Settings.PostProcessingSettings": "Nachbearbeitung",
+        "Settings.PostProcessingSettings.MotionBlurIntensity": "Stärke der Bewegungsunschärfe",
+        "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Dies steuert die Stärke des Effektes, der das Bild mit Bewegungsunschärfe verwischt. Größere Werte führen bei gleicher Bewegung zu einer stärkeren Unschärfe.\n\nWenn Sie den Wert auf <nobr><color=hero.yellow>0 %</color></nobr> setzen, wird der Filter vollständig deaktiviert, was die Geschwindigkeit verbessern kann.",
+        "Settings.PostProcessingSettings.BloomIntensity": "Intensität des Bloom-Effektes",
+        "Settings.PostProcessingSettings.BloomIntensity.Description": "Der Bloom-Effekt bewirkt ein Leuchten um helle Objekte in der Szene, typischerweise um solche im HDR-Bereich. Diese Einstellung erlaubt es, die Stärke dieses Effektes für ein Objekt gleichbleibender Helligkeit einzustellen.\n\nBitte beachten Sie, dass manche Inhalte falsch aussehen können, wenn dieser Effekt auf niedrig eingestellt oder deaktiviert ist.\n\nWenn Sie den Wert auf <nobr><color=hero.yellow>0 %</color></nobr> setzen, wird der Filter vollständig deaktiviert, was die Geschwindigkeit verbessern kann.",
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity": "Umgebungsverdeckung (Ambient Occlusion, AO)",
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description": "Umgebungsverdeckung dunkelt Spalten und Ecken in der Szene ab, die normalerweise weniger Licht erhalten würden. Dies kann der Szene mehr Tiefe und Realismus verleihen. Mit diesem Regler können Sie die Intensität des Effekts steuern.\n\nBitte beachten Sie, dass durch eine zu niedrige Einstellung oder Deaktivierung einige Inhalte falsch oder völlig flach aussehen können, was sonst nicht der Fall wäre.\n\nWenn Sie den Wert auf <nobr><color=hero.yellow>0 %</color></nobr> setzen, wird der Filter vollständig deaktiviert, was die Geschwindigkeit verbessern kann.",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections": "Screen-Space-Reflexionen  <size=75%>(experimentell)</size>",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "Wenn dieser Filter aktiviert ist, reflektieren glänzende Oberflächen in Echtzeit alle Teile der Szene, die für die Kamera sichtbar sind. Dies kann der Szene mehr Realismus verleihen und das Aussehen glänzender Oberflächen auf Kosten der Geschwindigleit verbessern.\n\nBitte beachten Sie, dass dieser Filter noch experimentell ist und in vielen Szenarien nicht gut funktioniert, was zu schemenhaften Reflexionen und Artefakten führt.",
+        "Settings.PostProcessingSettings.Antialiasing": "Kantenglättung (Antialiasing AA)",
+        "Settings.PostProcessingSettings.Antialiasing.Description": "Die Kantenglättung glättet scharfe, gezackte Ränder an Objekten in der Szene. Sie können aus mehreren verschiedenen Filtern wählen, die alle unterschiedliche Nachteile haben. FXAA wird häufig verwendet und funktioniert recht gut, kann aber auch andere Teile der Szene, wie z. B. Text, weichzeichnen.\n\n<color=red>Warnung:</color> Einige Kantenglättungs-Filter sind möglicherweise nicht für VR geeignet oder funktionieren gar nicht in VR.",
+        
         "LocomotionArchetype.Walk": "Gehen",
         "LocomotionArchetype.Fly": "Fliegen",
         "LocomotionArchetype.NoClip": "Noclip",
