@@ -1248,7 +1248,7 @@
         "Settings.MovementSettings.RightSidewaysMode": "右コントローラーでの移動方法",
         "Settings.MovementSettings.UseHeadDirectionForMovement": "頭の向きに移動する",
         "Settings.MovementSettings.UseSmoothTurn": "スムーズターンを使用する",
-        "Settings.MovementSettings.LeftSidewaysMode.Description": "左コントローラーのジョイスティック・タッチパッドを横方向に倒した時に、どのような動作をするか設定します。",        
+        "Settings.MovementSettings.LeftSidewaysMode.Description": "左コントローラーのジョイスティック・タッチパッドを横方向に倒した時に、どのような動作をするか設定します。",
         "Settings.MovementSettings.RightSidewaysMode.Description": "右コントローラーのジョイスティック・タッチパッドを横方向に倒した時に、どのような動作をするか設定します。",
         "Settings.MovementSettings.UseHeadDirectionForMovement.Description": "VRモードで、かつ設定を有効にした場合場合、前方に移動する際に今見ている方向に進みます。無効の場合、コントローラーが向いている方向に進みます。",
         "Settings.MovementSettings.UseSmoothTurn.Description": "VRモードの際の回転がなめらかになります。より没入的な体験ができますが、酔いやすくなる可能性があります。スナップターンを使いたい場合は設定を無効にしてください。",
@@ -1257,7 +1257,7 @@
         "Settings.MovementSettings.SnapTurnAngle": "スナップターンの回転角度",
         "Settings.MovementSettings.NoClipSpeed": "ノークリップの移動速度",
         "Settings.MovementSettings.SmoothTurnExclusiveMode.Description": "設定を有効にした場合場合、一つのジョイスティックでできる操作が回転か、前進後進かのどちらか片方のみになります。移動中に回転してしまうことが頻繁に起こる場合は設定を有効にしてください。",
-        "Settings.MovementSettings.SmoothTurnSpeed.Description": "スムーズターン有効時の回転の速さを設定します。値は「1秒あたり何度回転するか」なので、例えば360と設定すると、ジョイスティックを倒した時ちょうど1秒で一回転します。",        
+        "Settings.MovementSettings.SmoothTurnSpeed.Description": "スムーズターン有効時の回転の速さを設定します。値は「1秒あたり何度回転するか」なので、例えば360と設定すると、ジョイスティックを倒した時ちょうど1秒で一回転します。",
         "Settings.MovementSettings.SnapTurnAngle.Description": "スナップターン時に回転する角度（単位は度）を設定します。",
         "Settings.MovementSettings.NoClipSpeed.Description": "移動モードをノークリップにしている場合の移動速度を設定します。この移動モード（ロコモーション）は、何かを制作する際や、テストをする際に多く使われます。他の移動モードとは異なり、ワールドから干渉されなくなります。",
         "Settings.MovementSettings.MovementDeadzone": "移動のデッドゾーン",
@@ -1272,14 +1272,14 @@
         "Settings.MouseSettings.MouseFreeformRotateSpeed": "オブジェクトの回転速度",
         "Settings.MouseSettings.MouseSensitivity.Description": "デスクトップモードでの操作時のマウス感度を設定します。",
         "Settings.MouseSettings.MouseLookSpeed.Description": "一人称視点または三人称視点モード時の、視点を動かす速度の感度を設定します。",
-        "Settings.MouseSettings.MousePanSpeed.Description": "UIフォーカスモード時の、視点の移動速度を設定します。",        
+        "Settings.MouseSettings.MousePanSpeed.Description": "UIフォーカスモード時の、視点の移動速度を設定します。",
         "Settings.MouseSettings.MouseRotateSpeed.Description": "デスクトップモードでアイテムをつかんだ際、マウスで軸の周りの回転をさせた時の回転速度を設定します。",
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "デスクトップモードでアイテムをつかんだ際、マウスで自由回転をさせた時の回転速度を設定します。",
 
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "コントローラーの振動機能を使う",
         "Settings.GeneralHapticsSettings.EnableHaptics": "ハプティクスデバイスを使う",
         "Settings.GeneralHapticsSettings.EnableHaptics.Description": "設定を有効にすると、アバターやアイテムからのハプティックフィードバックを、コントローラーやハプティックデバイスで受け取ることが出来ます。",
-        "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "VRコントローラーの振動のオン、オフを設定します。",    
+        "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "VRコントローラーの振動のオン、オフを設定します。",
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "VRホットスイッチ",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "設定を有効にすると、VRヘッドセットの着脱時に自動的にVRモードとデスクトップモードが切り替わります。",
@@ -1316,6 +1316,31 @@
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "コントローラー使用中のハンドトラッキング",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "コントローラー使用中でもVIVE ハンドトラッキングからのデータを使って指を操作するようになります。",
 
+        "Settings.TrackerSettings" : "トラッカー設定",
+        "Settings.TrackerSettings.UseTrackers" : "トラッカーを使用",
+        "Settings.TrackerSettings.UseTrackers.Description" : "この設定で、トラッカーを個別に無効化できます。トラッカーを充電している際などに便利です。",
+        "Settings.TrackerSettings.Trackers" : "トラッカー個別設定",
+        "Settings.TrackerSettings.Trackers.Breadcrumb" : "トラッカー個別設定",
+
+        "Settings.TrackerSettings.Trackers.UseTracker" : "トラッカーを使用",
+        "Settings.TrackerSettings.Trackers.UseTracker.Description" : "このトラッカーをトラッキングに使用しますか？割当をリセットすることなく、一時的に無効にすることができます。",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode" : "トラッカー割当",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode.Description" : "トラッカーを体のどの部位に割り当てるかです\n\nここで手動で調整するのではなく、フルボディキャリブレーションを使用して設定することをお勧めします。",
+        "Settings.TrackerSettings.Trackers.MappedPosition" : "トラッカーの位置",
+        "Settings.TrackerSettings.Trackers.MappedPosition.Description" : "トラッカーを割り当てしている体の部位に対する相対位置です。\n\nここで手動で調整するのではなく、フルボディキャリブレーションを使用して設定することをお勧めします。",
+        "Settings.TrackerSettings.Trackers.MappedRotation" : "トラッカーの角度",
+        "Settings.TrackerSettings.Trackers.MappedRotation.Description" : "トラッカーを割り当てしている体の部位に対する相対角度です。\n\nここで手動で調整するのではなく、フルボディキャリブレーションを使用して設定することをお勧めします。",
+        "Settings.TrackerSettings.Trackers.UseInVR" : "VRで使用",
+        "Settings.TrackerSettings.Trackers.UseInVR.Description" : "このトラッカーがVRモード中にアバターに影響を与えるか設定出来ます。",
+        "Settings.TrackerSettings.Trackers.UseInDesktop" : "デスクトップで使用",
+        "Settings.TrackerSettings.Trackers.UseInDesktop.Description" : "このトラッカーがデスクトップモードにアバターに影響を与えるか設定出来ます。",
+        "Settings.TrackerSettings.Trackers.TrackerID" : "トラッカーID",
+        "Settings.TrackerSettings.Trackers.TrackerID.Description" : "Unique ID of this tracker. This information is considered private and is not the same ID as one that will be shown in world to avoid tracking through fingerprinting.",
+        "Settings.TrackerSettings.Trackers.TrackerBattery" : "バッテリー残量",
+        "Settings.TrackerSettings.Trackers.TrackerBattery.Description" : "現在の充電残量。トラッカーによっては、現在の充電残量の報告をサポートしていない場合があります。",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging" : "充電しているか",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description" : "これは、トラッカーが現在充電中かどうかを示します。トラッカーによっては、この情報の報告をサポートしていない場合があります。",
+
         "Settings.UserMetricsSettings.UserHeight": "身長",
         "Settings.UserMetricsSettings.UserHeight.Description": "現実世界の身長を設定します。アバターのサイズとユーザーの身長を合わせるために使用されます。着席モード時にも使われます。\n\n適切な単位を用いて身長を入力できます。例えば、メートル法であれば<color=hero.yellow>175cm</color>、または<color=hero.yellow>1.75m</color>のように入力し、ヤードポンド法の場合<color=hero.yellow>5'11\"</color>のように入力します。",
 
@@ -1326,7 +1351,7 @@
         "Settings.AudioInputDeviceSettings.SetAsDefault": "既定に設定",
 
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "PCの標準の出力デバイスを使用",
-        "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "設定を有効にした場合、PC上で標準の入力デバイスとして設定しているデバイスが自動的に使用されます。無効にした場合、どのオーディオデバイスを使って音声を出力するかを設定できます。これによって、VRとデスクトップを切り替えた際に異なるデバイスを使用するように設定できます。",        
+        "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "設定を有効にした場合、PC上で標準の入力デバイスとして設定しているデバイスが自動的に使用されます。無効にした場合、どのオーディオデバイスを使って音声を出力するかを設定できます。これによって、VRとデスクトップを切り替えた際に異なるデバイスを使用するように設定できます。",
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "音声出力デバイスを選択",
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "音声出力デバイスの選択",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "既定に設定",
@@ -1362,7 +1387,7 @@
         "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "音量がどれほど以上であれば入力音声を増幅するかの値を設定します。普通に話す声が増幅されない場合は、設定値を小さくしてください。小さい雑音が増幅されてしまう場合は、設定値を大きくしてください。",
 
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "ノイズフィルター",
-        "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "入力されるオーディオデータを処理して、不要なノイズを除去します。これにより、ノイズの多いマイクから入力されたオーディオデータから、よりクリーンな音声を生成することができます。この設定をオンにしておくことを強くおすすめします。ただし、音声として識別されないノイズも一緒に除去してしまう可能性がありますので、ご注意ください。",        
+        "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "入力されるオーディオデータを処理して、不要なノイズを除去します。これにより、ノイズの多いマイクから入力されたオーディオデータから、よりクリーンな音声を生成することができます。この設定をオンにしておくことを強くおすすめします。ただし、音声として識別されないノイズも一緒に除去してしまう可能性がありますので、ご注意ください。",
 
         "Settings.RealtimeNetworkingSettings.DisableLAN": "LANを無効化",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "LANを利用した機能が無効化されます。例えば、同じLAN内で動くセッションを表示したり、逆に同じLAN内にいる人が自分のセッションを見れるようにする機能などが含まれます。",
@@ -1393,12 +1418,12 @@
         "Settings.DebugSettings.DebugInputBindings": "インプットバインディングのデバッグ",
         "Settings.DebugSettings.DebugInputBindings.Description": "設定を有効にした場合、インプットバインディングシステムのデバッグ情報が表示されます。主に開発者向けの機能です。",
         "Settings.DebugSettings.FetchIncompatibleSessions": "互換性のないセッションを表示",
-        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "設定を有効にした場合、現在のバージョンと互換性がないため参加できないアクティブセッションも表示されます。",        
+        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "設定を有効にした場合、現在のバージョンと互換性がないため参加できないアクティブセッションも表示されます。",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "ダブルグリップでアイテムを装備",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "有効にすると、グリップを2回連続で押すことでツールやアイテムを装備できます。この設定は将来削除されます。",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "レガシーワールドスイッチャーを使用",
-        "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "設定を有効にした場合、利き手ではない方のアプリボタンを押すことでレガシーワールドスイッチが開き、セッションを切り替えることができます。この機能は将来、より柔軟なソリューションに置き換えられる予定です",        
+        "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "設定を有効にした場合、利き手ではない方のアプリボタンを押すことでレガシーワールドスイッチが開き、セッションを切り替えることができます。この機能は将来、より柔軟なソリューションに置き換えられる予定です",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitchチャンネル名",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "カメラコントロールパネルのTwitchチャットパネルの標準のTwitchチャンネル名を設定出来ます。主にTwitch配信者が自分のTwitchチャットを見たい場合に使用します。",
@@ -1409,7 +1434,7 @@
         "Settings.LocaleSettings.CultureLocaleCode": "ロケールコード",
         "Settings.LocaleSettings.CultureLocaleCode.Description": "設定すると、数値やその他の数量の書式に使われる標準ののロケールを上書きします。通常は設定した言語のロケールが使用されますが、これを使用するとそれらを組み合わせて使用することができます。例えば、言語は日本語で、単位はアメリカのもので表示できます。",
         "Settings.LocaleSettings.UseImperialUnits": "ヤード・ポンド法で表示",
-        "Settings.LocaleSettings.UseImperialUnits.Description": "設定を有効にした場合、数量（長さ/高さ、質量、体積...）の入力画面でメートル法の代わりにヤードポンド法を使うようになります。アメリカ、イギリス、リベリア、ミャンマーにいる人向けの機能です。",        
+        "Settings.LocaleSettings.UseImperialUnits.Description": "設定を有効にした場合、数量（長さ/高さ、質量、体積...）の入力画面でメートル法の代わりにヤードポンド法を使うようになります。アメリカ、イギリス、リベリア、ミャンマーにいる人向けの機能です。",
         "Settings.LocaleSettings.AvailableLocales": "表示言語を選択",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "表示言語を選択",
 
@@ -1424,7 +1449,7 @@
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "ネームプレートが読みにくかったり、完全に隠されていたり、実際のユーザー名やバッジを見る必要がある場合（モデレーションのためなど）、カスタムネームプレートを無効にすることで、標準のネームプレートを表示できます。",
 
         "Settings.LaserSettings.SmoothSpeed": "スムーズスピード",
-        "Settings.LaserSettings.SmoothSpeed.Description": "レーザーがコントローラーに追従するスピードを設定します。値を低くすると、レーザーは鈍くなりますが、手ブレの影響を抑えられます。値を高くすると、レーザーはより機敏に反応しますが、手ブレの影響を受けやすくなります。",        
+        "Settings.LaserSettings.SmoothSpeed.Description": "レーザーがコントローラーに追従するスピードを設定します。値を低くすると、レーザーは鈍くなりますが、手ブレの影響を抑えられます。値を高くすると、レーザーはより機敏に反応しますが、手ブレの影響を受けやすくなります。",
         "Settings.LaserSettings.ModulateStartAngle": "始点の角度",
         "Settings.LaserSettings.ModulateStartAngle.Description": "レーザーのスムージング速度があなたの動きに追いつくために変化を開始する角度を設定します。この値を大きくすると、レーザーが追いつき始めるまでに大きな動きが必要になります",
         "Settings.LaserSettings.ModulateEndAngle": "終点の角度",
@@ -1463,7 +1488,7 @@
         "Settings.PhotoCaptureSettings.EncodeFormat.Description" : "撮影した写真をエンコードする画像ファイル形式を設定できます。写真を特定の形式でエンコードする必要がある場合は、この設定でエンコードする形式を選択できます。\n\n形式によっては（透過のサポートなど）いくつかの機能が欠けていたり、エンコードが著しく遅かったり、画質が悪かったり、ファイルが大きくなったりする場合がありますのでご注意ください。",
 
         "Settings.DesktopRenderSettings.FieldOfView": "視野角",
-        "Settings.DesktopRenderSettings.FieldOfView.Description": "デスクトップモード時の視野角（FOV）を設定します。値を大きくすると視野が広くなりますが、画面端の歪みが大きくなります。",        
+        "Settings.DesktopRenderSettings.FieldOfView.Description": "デスクトップモード時の視野角（FOV）を設定します。値を大きくすると視野が広くなりますが、画面端の歪みが大きくなります。",
 
         "Settings.InteractiveCameraFramingSettings.PositioningMode": "ポジションモード",
         "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "インタラクティブカメラの位置取りを設定します。",
@@ -1518,7 +1543,7 @@
         "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed.Description": "アンカー間を補完する設定が有効になっている際の、補間による移動速度を設定します。",
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation": "線形補間を使用",
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "有効にすると、アンカー間の移動時になめらかな補間ではなく、線形補間を使用します。線形補間では、移動が急発進・急停止するような動きになりますが、アンカー間の距離に関わらず一定の速度で移動します。つまり、アンカー間の距離が長いほど、カメラがその位置に到達するのに時間がかかります。",
-        
+
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "撮影時に写真をスポーン",
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "インタラクティブカメラパネルを使って写真を撮った際、写真がワールドにスポーンするかどうか設定します。無効にした場合、写真はドキュメントやインベントリ（自動保存パスが設定されている場合）にのみ保存されます。",
 
