@@ -1214,6 +1214,7 @@
         "Settings.WindowsSettings": "Настройки окон",
         "Settings.DebugSettings": "Отладка",
         "Settings.LegacyFeatureSettings": "Устаревшие настройки",
+        "Settings.TwitchInterfaceSettings": "Настройки стриминга Twitch",
 
         "Settings.MessagingPrivacySettings": "Приватность обмена сообщениями",
 
@@ -1299,6 +1300,12 @@
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description" : "Когда включено, определяет, насколько сильно сглаживается позиция бедер при использовании FBT (трекинга тела). Может быть полезно чтобы уменьшить вибрацию и дрожание, но из-за этого трекеры могут отставать и не откликаться на резкие движения.",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description" : "Когда включено, определяет, насколько сильно сглаживается поворот бедер при использовании FBT (трекинга тела). Может быть полезно чтобы уменьшить вибрацию и дрожание, но из-за этого трекеры могут отставать и не откликаться на резкие движения.",
 
+        "Settings.MediaPrivacySettings" : "Приватность в медиа",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut" : "Исключить меня из метаданных медиа",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description" : "Если вы включите эту опцию, вы будете исключены из метаданных записанных медиа (например, виртуальных фото и аудио записей). Вы всё ещё будете присутствовать в самих ассетах, но метаинформация, такая как ваши UserID и позиция в сцене, не будет сохранена.\n\nЕсли вам известно о пользователях, использующих модифицированный клиент, который игнорирует эту настройку, пожалуйста сообщите о них команде модерации, так как это является харассментом.",
+        "Settings.MediaPrivacySettings.HideInScreenshots" : "Не показывать меня на скриншотах",
+        "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "Когда включено, вы не будете отображаться в скриншотаз, снятых в игре.\n\n<color=hero.red>ВАЖНО:</color> Обратите внимание, что это не затрагивает камеры реального времени, скриншоты снятые внешними средствами или другие средства рендера в виртуальном мире, которые могут быть частью механик этого мира.",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Трекинг рук Leap Motion",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Когда включен, устройктво Leap Motion, если подключено, будет использоваться для отслеживания ваших рук и пальцев.",
         "Settings.LeapMotionSettings.Offset": "Отступ трекинга рук",
@@ -1314,6 +1321,31 @@
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Когда ваши руки рядом с контроллерами, они автоматически \"прилипнут\" к ним и будут использовать трекинг с самих контроллеров вместо камер VR шлема. Эта настройка задает дистанцию \"прилипания\".",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Отслеживать руки при использовании контроллеров",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "Когда руки \"прилипли\" к контроллерам, эта настройка позволяет использовать позы пальцев с камер VR шлема.",
+
+        "Settings.TrackerSettings" : "Настройки трекеров",
+        "Settings.TrackerSettings.UseTrackers" : "Использовать трекеры",
+        "Settings.TrackerSettings.UseTrackers.Description" : "Этой опцией вы можете полностью отключить все трекеры тела. Это может быть полезным если все ваши трекеры заряжаются в углу, а ваш аватар из-за этого согнулся буквой Зю.",
+        "Settings.TrackerSettings.Trackers" : "Управление трекерами",
+        "Settings.TrackerSettings.Trackers.Breadcrumb" : "Трекеры",
+
+        "Settings.TrackerSettings.Trackers.UseTracker" : "Использовать трекер",
+        "Settings.TrackerSettings.Trackers.UseTracker.Description" : "Должен ли этот трекер использоваться для трекинга? Вы можете временно отключить этот трекер без сброса его привязки.",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode" : "Привязка трекера",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode.Description" : "Какой части тела соответствует этот трекер при трекинге тела.\n\nРекомендуем использовать калибрацию трекинга для установки привязок, а не настраивать их здесь вручную.",
+        "Settings.TrackerSettings.Trackers.MappedPosition" : "Позиция привязки",
+        "Settings.TrackerSettings.Trackers.MappedPosition.Description" : "Позиция трекера относительно части тела, которой он соответствует.\n\nРекомендуем использовать калибрацию трекинга для установки привязок, а не настраивать их здесь вручную.",
+        "Settings.TrackerSettings.Trackers.MappedRotation" : "Вращение привязки",
+        "Settings.TrackerSettings.Trackers.MappedRotation.Description" : "Вращение трекера относительно части тела, которой он соответствует.\n\nРекомендуем использовать калибрацию трекинга для установки привязок, а не настраивать их здесь вручную.",
+        "Settings.TrackerSettings.Trackers.UseInVR" : "Использовать в VR",
+        "Settings.TrackerSettings.Trackers.UseInVR.Description" : "Должен ли этот трекер использоваться для вашего аватара в VR?",
+        "Settings.TrackerSettings.Trackers.UseInDesktop" : "Использовать в экранном режиме",
+        "Settings.TrackerSettings.Trackers.UseInDesktop.Description" : "Должен ли этот трекер использоваться для вашего аватара в экранном режиме?",
+        "Settings.TrackerSettings.Trackers.TrackerID" : "ID трекера",
+        "Settings.TrackerSettings.Trackers.TrackerID.Description" : "Уникальный ID этого трекера. Эта информация считается приватной и отличается от того ID, который отображается в мире, чтобы пресечь слежку за пользователями.",
+        "Settings.TrackerSettings.Trackers.TrackerBattery" : "Заряд трекера",
+        "Settings.TrackerSettings.Trackers.TrackerBattery.Description" : "Уровень заряда батареи этого трекера. Обратите внимание, что некоторые трекеры не поддерживают отслеживание заряда батареи.",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging" : "Заряжается",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description" : "Показывает что трекер сейчас заряжается. Обратите внимание, что некоторые трекеры могут не показывать эту информацию.",
 
         "Settings.UserMetricsSettings.UserHeight": "Рост",
         "Settings.UserMetricsSettings.UserHeight.Description": "Это ваш реальный рост, который используется чтобы правильно масштабировать ваш аватар и подогнать его под ваше тело. Также это высота, которая будет использоваться для сидячего режима.\n\nВы можете ввести свой рост в подходящих единицах длины, например <nobr><color=hero.yellow>175 cm</color></nobr> или <nobr><color=hero.yellow>1.75 m</color></nobr> для метрической системы или <color=hero.yellow>5'11\"</color> для имперской.",
