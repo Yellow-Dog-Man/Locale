@@ -1,6 +1,6 @@
 {
     "localeCode": "zh-cn",
-    "authors": ["Melnus", "Holy_Water", "huang825172", "modimobeikete"],
+    "authors": ["Melnus", "Holy_Water", "huang825172", "modimobeikete", "WARCRAFT11"],
     "messages": {
 
         "General.OK": "确定",
@@ -97,8 +97,8 @@
         "Interaction.NamedEquipTool": "装备{name}",
         "Interaction.NamedEquipTool.Default": "工具",
 
-        "Interaction.EnterAnchor": "进入Anchor",
-        "Interaction.ExitAnchor": "退出Anchor",
+        "Interaction.EnterAnchor": "进入座位",
+        "Interaction.ExitAnchor": "退出座位",
 
         "Interaction.EquipAvatar": "装备化身",
 
@@ -107,6 +107,7 @@
         "Interaction.ImportFile": "导入文件",
         "Interaction.ExportFile": "导出文件",
         "Interaction.CopyLink": "复制链接",
+        "Interaction.CopyImage": "复制图片",
 
         "Inventory.OpenWorld": "打开世界",
         "Inventory.Equip": "装备",
@@ -130,6 +131,7 @@
         "Inventory.Favorite.WorldLoadingIndicator": "设为加载指示器",
         "Inventory.Favorite.ColorDialog": "设为色盘",
         "Inventory.Favorite.Hyperlink": "设为超链接显示",
+        "Inventory.Favorite.Document": "Set Document Display",
         "Inventory.SpawnFacet": "生成Facet",
 
         "Dash.Screens.Home": "家",
@@ -289,7 +291,7 @@
         "World.Category.PublishedWorlds": "发布的世界",
         "World.Category.ActiveSessions": "活跃会话",
         "World.Category.ContactsSessions": "好友的会话",
-        "World.Category.HeadlessSessions": "无头会话",
+        "World.Category.HeadlessSessions": "云端会话",
         "World.Category.Social": "社交",
         "World.Category.Games": "游戏类",
         "World.Category.Art": "艺术",
@@ -334,7 +336,7 @@
         "World.Filter.SessionFiltering": "会话过滤:",
         "World.Filter.MinimumUsers": "最低人数: <b>{n}</b>",
         "World.Filter.MinimumContacts": "最低好友数: <b>{n}</b>",
-        "World.Filter.OnlyHeadless": "仅无头主机",
+        "World.Filter.OnlyHeadless": "仅云端主机",
         "World.Filter.MaxAccessLevel": "最大访问权限:",
         "World.Filter.MinimumUptime": "最小运行时间:",
         "World.Filter.Sorting": "排序:",
@@ -376,9 +378,9 @@
         "Options.Nameplates.DefaultStyle": "使用默认铭牌风格",
         "Options.Nameplates.CustomStyle": "允许自定义铭牌",
 
-        "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> 用户在线 {users,plural, one {User} other {Users}}",
-        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {user} other {users}} 在VR中",
-        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {user} other {users}} 在桌面模式下",
+        "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> 位用户在线 {users,plural, one {User} other {Users}}",
+        "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {user} other {users}} 位在VR中",
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {user} other {users}} 位在桌面模式下",
 
         "Indicator.ServerStatus.Status": "云状态",
         "Indicator.ServerStatus.Good": "良好",
@@ -397,37 +399,110 @@
 
         "Indicator.LiveHiddenMessage": "（直播时讯息已隐藏）",
 
-        "Login.InvalidCredentials": "无效凭据",
-        "Login.InvalidLogin": "无效凭据",
+        "Login.InvalidCredentials": "登录信息无效",
+        "Login.InvalidCredentials.Description": "再次检查你的登录信息后再试一次或者点击 \"忘记密码？\"",
 
-        "Login.MalformedUID": "无效设备信息",
+        "Login.InvalidLogin": "登录信息无效",
+        "Login.InvalidLogin.Description": "再次检查你的登录信息后再试一次或者点击 \"忘记密码？\"",
+
+        "Login.MalformedUID": "设备信息无效",
+        "Login.MalformedUID.Description": "尝试重新安装， 或者在 {supportUrl}联系客服。",
+
         "Login.MissingUID": "设备信息缺失",
-        "Register.MissingUID": "无效设备信息",
-        "Register.MalformedUID": "无效设备信息",
+        "Login.MissingUID.Description": "尝试重新安装， 或者在 {supportUrl}联系客服。",
+
+        "Login.MissingSecretMachineId": "机器码缺失",
+        "Login.MissingSecretMachineId.Description": "尝试重新安装， 或者在 {supportUrl}联系客服。",
+
+        "Login.MalformedSecretMachineId": "机器码无效",
+        "Login.MalformedSecretMachineId.Description": "尝试重新安装， 或者在 {supportUrl}联系客服。",
+
+        "Register.MissingUID": "设备信息无效",
+        "Register.MissingUID.Description": "尝试重新安装， 或者在 {supportUrl}联系客服。",
+
+        "Register.MalformedUID": "设备信息无效",
+        "Register.MalformedUID.Description": "尝试重新安装， 或者在 {supportUrl}联系客服。",
 
         "Login.MissingLogin": "未提供凭据",
+        "Login.MissingLogin.Description": "你是不是忘了填你的登录信息了？",
+
         "Login.InvalidRecoveryCode": "无效恢复码",
+        "Login.InvalidRecoveryCode.Description": "检查你的恢复码后再试一次。",
+
         "Login.UnsupportedAuthentication": "不支持的认证方式",
+        "Login.UnsupportedAuthentication.Description": "我们并不支持这种验证方式 请尝试另外一个。",
+
         "Login.EmailNotVerified": "邮箱未验证",
+        "Login.EmailNotVerified.Description": "你的邮箱还没验证， 请在邮箱里查找我们给你发的邮件， 确保你检查过垃圾邮件了。",
+
         "Login.AccountTempLocked": "您的账户已被锁定。",
+        "Login.AccountTempLocked.Description": "请在：{moderationUrl}联系管理员。",
+
         "Login.AccountBanned": "您的账户已被封禁。",
+        "Login.AccountBanned.Description": "请在：{moderationUrl}联系管理员。",
+
         "Login.DuplicateAccount": "重复的账号",
+        "Login.DuplicateAccount.Description": "请在：{moderationUrl}联系管理员。",
+
+        "Login.UnknownError": "未知错误",
+        "Login.UnknownError.Description": "在登录时发生了未知错误。 请在 {supportUrl}联系客服。",
 
         "Register.MissingRequest": "未输入详细注册信息",
+        "Register.MissingRequest.Description": "我们无法找到任何注册信息。 在注册时请确保已经填入了。",
+
         "Register.InvalidEmail": "无效邮箱地址",
+        "Register.InvalidEmail.Description": "你的邮箱地址是有误的",
+
         "Register.MissingUsername": "未输入用户名",
+        "Register.MissingUsername.Description": "你填好了你的用户名了吗？",
+
         "Register.MissingEmail": "未输入电子邮箱",
+        "Register.MissingEmail.Description": "你填好了你的邮件了吗？",
+
         "Register.UsernameTooLong": "用户名过长",
+        "Register.UsernameTooLong.Description": "We allow usernames up to 32 characters long.",
+
         "Register.UsernameContainsAmpersand": "用户名不能含有 @",
+        "Register.UsernameContainsAmpersand.Description": "你的用户名不能含有 @。",
+
         "Register.UsernameStartsWithU": "用户名不能以 U- 开头",
+        "Register.UsernameStartsWithU.Description": "用户名不能以 U- 开头.",
+
         "Register.InvalidUsername": "无效用户名",
+        "Register.InvalidUsername.Description": "你的用户名是无效的",
+
         "Register.InvalidDateOfBirth": "无效出生日期",
+        "Register.InvalidDateOfBirth.Description": "你的出生日期是无效的",
+
         "Register.UsernameContainsBlockedTerms": "用户名含有屏蔽词",
+        "Register.UsernameContainsBlockedTerms.Description": "你的用户名含有屏蔽词。 如果你认为这是一个错误，请在 {supportUrl}联系客服。",
+
         "Register.MissingPassword": "未输入密码",
+        "Register.MissingPassword.Description": "你没有提供密码。",
+
         "Register.InvalidPassword": "无效密码",
+        "Register.InvalidPassword.Description": "你的密码无效。 密码必须至少包含 8 个字符，包括 1 个数字、1 个大写字母和 1 个小写字母。",
+
         "Register.EmailAlreadyRegistered": "此邮箱已注册",
+        "Register.EmailAlreadyRegistered.Description": "此电子邮件的账户已经存在， 如果你忘记了密码，可以点击\"Lost Password\"。 或者通过 {supportUrl} 联系技术支持。",
+
         "Register.UsernameAlreadyRegistered": "此用户名已注册",
+        "Register.UsernameAlreadyRegistered.Description": "此用户名的帐户已经存在， 如果你忘记了密码，可以点击\"Lost Password\"。 或者通过 {supportUrl} 联系技术支持。",
+        
         "Register.ErrorCheckingUserId": "检查用户ID时出错",
+        "Register.ErrorCheckingUserId.Description": "请在 {supportUrl}联系客服。",
+
+        "Recovery.MissingEmail": "未输入电子邮箱",
+        "Recovery.MissingEmail.Description": "你填好了你的邮件了吗？",
+
+        "Recovery.IncorrectEmail": "电子邮箱错误",
+        "Recovery.IncorrectEmail.Description": "你填写了一个错误的用于恢复密码的邮箱。 请检查细节后再试一次。",
+
+        "Recovery.NoPasswordSetup": "无密码设置", 
+        "Recovery.NoPasswordSetup.Description": "请在：{supportUrl}联系客服。",
+
+        "Register.UnknownError": "未知错误",
+        "Register.UnknownError.Description": "在注册时发生了未知的错误。 请在 {supportUrl}联系客服。",
 
         "Account.Login": "登录",
         "Account.Logout": "登出",
@@ -513,7 +588,7 @@
         "Profile.Status.Busy": "忙碌",
         "Profile.Status.Invisible": "隐身",
         "Profile.Status.Offline": "离线",
-        "Profile.Status.Headless": "无头主机",
+        "Profile.Status.Headless": "云端主机",
 
         "Session.Tab.Settings": "设定",
         "Session.Tab.Users": "用户",
@@ -534,7 +609,7 @@
 
         "Permissions.NotAllowedToSpawn": "您不可以在此处生成物品",
         "Permissions.NotAllowedToSave": "您无权在这个世界上保存项目。",
-        "Permissions.NotAllowedToSwapAvatar": "您不允许在此处交换到自定化身。",
+        "Permissions.NotAllowedToSwapAvatar": "您不允许在此处切换到自定义化身。",
 
         "User.Actions.Silence": "全局静音",
         "User.Actions.Mute": "静音",
@@ -614,7 +689,7 @@
         "Undo.BakeMeshes": "烘焙 {name}",
         "Undo.ChangeMesh": "更换网格",
         "Undo.InsertParent": "为 {name} 插入父项",
-        "Undo.Wiggler": "邪恶的东西",
+        "Undo.Wiggler": "有问题的物品",
 
         "Undo.ExtractMaterialsFromHierarchy": "从层次结构提取材质",
         "Undo.BatchConvertMaterials": "批量转换材质",
@@ -640,6 +715,12 @@
         "Tooltips.Dev.Rotation" : "旋转",
         "Tooltips.Dev.Scale" : "缩放",
 
+        "Tooltips.Dev.Selection.Single": "单选",
+        "Tooltips.Dev.Selection.Multi": "多选",
+
+        "Tooltips.Dev.Interaction.Tip": "提示",
+        "Tooltips.Dev.Interaction.Projection": "估算",
+
         "Tooltip.Color.Picker": "选色器",
 
         "Tooltip.GrabbableSetter.Scalable": "设为可缩放",
@@ -656,6 +737,10 @@
         "Tooltip.Light.Point": "点光源",
         "Tooltip.Light.Spot": "聚光灯",
         "Tooltip.Light.Sun": "太阳",
+
+        "Tooltip.Light.Shadows.None": "无阴影",
+        "Tooltip.Light.Shadows.Hard": "深层阴影",
+        "Tooltip.Light.Shadows.Soft": "浅层阴影",
 
         "Tooltip.MeshVisibility.KeepShadow": "保持阴影",
         "Tooltip.MeshVisibility.ShadowOff": "禁用阴影",
@@ -702,6 +787,26 @@
         "Tooltip.ProtoFlux.PackInto" : "打包为 <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.Unpack" : "将 <size=50%>{name}</size> 解包",
         "Tooltip.ProtoFlux.ExplicitCast" : "显式转换\n<size=50%>(<color=red>警告：</color> 可能丢失数据)</size>",
+
+        "Tooltip.Meter.Mode.Ray": "模式: 激光",
+        "Tooltip.Meter.Mode.Perpendicular": "模式: 垂直",
+        "Tooltip.Meter.Mode.Drag": "模式: 拖拽",
+
+        "Tooltip.Meter.Points.Two": "两点",
+        "Tooltip.Meter.Points.Multiple": "多点",
+
+        "Tooltip.Meter.ObjectSpace": "在物体空间里测量",
+        "Tooltip.Meter.WorldSpace": "在世界空间里测量",
+
+        "Tooltip.Glue.Mode.BakeMeshes": "模式: 烘焙面数",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes": "模式: 烘焙上材质后的面",
+        "Tooltip.Glue.Mode.ParentObjects": "模式: 父级物体",
+
+        "Tooltip.RigTransfer.ClearSource": "清理源文件",
+
+        "Tooltip.ComponentClone.SingleInstanceOn": "单个实例: 启用",
+        "Tooltip.ComponentClone.SingleInstanceOff": "单个实例: 禁用",
+        "Tooltip.ComponentClone.ClearTemplate": "清除模板",
 
         "ProtoFlux.UI.Call" : "调用",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>异步</size> 调用",
@@ -1066,7 +1171,410 @@
         "CameraControl.OBS.Recording.Stop": "停止录音",
         "CameraControl.OBS.Recording.Stopping": "正在停止录音",
 
-         "Security.Hyperlink.Title" : "外部链接",
+        "Settings.Category.Audio": "音频",
+        "Settings.Category.Controls": "控制",
+        "Settings.Category.Devices": "设备",
+        "Settings.Category.Profile": "个人信息",
+        "Settings.Category.Networking": "网络",
+        "Settings.Category.Security": "安全",
+        "Settings.Category.Misc": "其他",
+        "Settings.Category.Privacy": "隐私",
+        "Settings.Category.UserInterface": "UI",
+        "Settings.Category.Graphics": "画质",
+        "Settings.Category.InteractiveCamera": "摄像机",
+
+        "Settings.LegacyFeatureSettings.ConvertLegacySettings": "调试 - 转换传统设置",
+        "Settings.DebugSettings.DebugResetAllSimpleSettings": "调试 - 重置所有单一设置",
+
+        "Settings.GeneralControlsSettings": "一般控制",
+        "Settings.LocomotionSettings": "运动",
+        "Settings.MovementSettings": "移动",
+        "Settings.MouseSettings": "鼠标",
+
+        "Settings.GeneralHapticsSettings": "触觉反馈",
+        "Settings.GeneralVRSettings": "VR",
+        "Settings.LeapMotionSettings": "体感控制器",
+        "Settings.ViveHandTrackingSettings": "Vive手指追踪",
+        "Settings.TrackingSmoothingSettings": "平滑追踪",
+
+        "Settings.UserMetricsSettings": "用户数值",
+
+        "Settings.AudioInputDeviceSettings": "音频输入",
+        "Settings.AudioOutputDeviceSettings": "音频输出",
+        "Settings.AudioVolumeSettings": "音量",
+        "Settings.AudioAccessibilitySettings": "无障碍音频",
+        "Settings.AudioInputFilteringSettings": "音频输入过滤",
+
+        "Settings.RealtimeNetworkingSettings": "实时网络通讯",
+        "Settings.AssetGatherSettings": "资产获取",
+
+        "Settings.HostAccessSettings": "主机许可",
+        "Settings.UserRestrictionsSettings": "用户限制",
+
+        "Settings.WindowsSettings": "Windows设置",
+        "Settings.DebugSettings": "调试",
+        "Settings.LegacyFeatureSettings": "传统内容",
+        "Settings.TwitchInterfaceSettings": "Twitch Streaming Interface",
+
+        "Settings.MessagingPrivacySettings": "信息隐私",
+
+        "Settings.LocaleSettings": "语言",
+        "Settings.DashSettings": "Dashboard",
+        "Settings.NamePlateSettings": "铭牌",
+        "Settings.LaserSettings": "互动激光",
+        "Settings.DesktopViewSettings": "桌面视角",
+        "Settings.PhotoCaptureSettings": "快速拍摄照片",
+
+        "Settings.DesktopRenderSettings": "桌面渲染设置",
+
+        "Settings.InteractiveCameraFramingSettings": "框架",
+        "Settings.InteractiveCameraPositioningSettings": "定位",
+        "Settings.InteractiveCameraRenderSettings": "渲染",
+        "Settings.InteractiveCameraGroupSettings": "用户群组",
+        "Settings.InteractiveCameraSmoothingSettings": "平滑",
+        "Settings.InteractiveCameraAnchorSettings": "坐标",
+        "Settings.InteractiveCameraPhotoSettings": "照片",
+        "Settings.InteractiveCameraPostProcessingSettings": "后期处理",
+
+        "Settings.GeneralControlsSettings.PrimaryHand": "惯用手部",
+        "Settings.GeneralControlsSettings.PrimaryHand.Description": "哪只手被认为是你的主要用的手。各种系统都会使用这个进行交互，例如在装备工具时。",
+        "Settings.GeneralControlsSettings.DoubleClickInterval": "双击间隔",
+        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "对于任何需要双击的交互，该值控制着双击之间的最长间隔时间。如果在触发双击时遇到困难，请增加该值。如果太容易检测到单次点击，则降低该值。",
+
+        "Settings.LocomotionSettings.LocomotionPreferences": "运动模式偏好",
+        "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "运动模式偏好",
+
+        "Settings.MovementSettings.LeftSidewaysMode": "左控制器侧向移动模式",
+        "Settings.MovementSettings.LeftSidewaysMode.Description": "用它来确定左控制器上的侧向操纵杆/触摸板使用什么方式移动。",
+        "Settings.MovementSettings.RightSidewaysMode": "右控制器侧向移动模式",
+        "Settings.MovementSettings.RightSidewaysMode.Description": "用它来确定右控制器上的侧向操纵杆/触摸板使用什么方式移动。",
+        "Settings.MovementSettings.UseHeadDirectionForMovement": "以头部方向进行移动",
+        "Settings.MovementSettings.UseHeadDirectionForMovement.Description": "启用后，在 VR模式中向前移动时，你将朝当前正在寻找的方向移动。禁用时，将使用控制器指向的方向。",
+        "Settings.MovementSettings.UseSmoothTurn": "平滑转向",
+        "Settings.MovementSettings.UseSmoothTurn.Description": "这将使您在 VR模式中转动时逐渐旋转。这样会更有身临其境的感觉，但也更容易引起恶心。如果你喜欢快速转动，请关闭此设置。",
+        "Settings.MovementSettings.SmoothTurnExclusiveMode": "使用平滑转向专用模式",
+        "Settings.MovementSettings.SmoothTurnExclusiveMode.Description": "启用后，单个操纵杆既可以让你前进/后退，也可以让你转弯，但不能同时进行。如果你在移动时经常不小心转向，请启用此功能。",
+        "Settings.MovementSettings.SmoothTurnSpeed": "平滑转向速度",
+        "Settings.MovementSettings.SmoothTurnSpeed.Description": "该设置可控制启用平滑转弯时的转弯速度。 该值为每秒度数，因此值为 360 时，在摇杆完全倾斜的情况下，您将在一秒钟内转一圈。",
+        "Settings.MovementSettings.SnapTurnAngle": "转弯角度",
+        "Settings.MovementSettings.SnapTurnAngle.Description": "这是触发急转弯时的旋转角度（单位：度）。",
+        "Settings.MovementSettings.NoClipSpeed": "穿墙模式速度",
+        "Settings.MovementSettings.NoClipSpeed.Description": "当您使用穿墙模式时，它可以控制您的移动速度。 这种移动方式通常用于建造和测试，因此不受所处世界属性影响，而其他移动方式通常受世界属性影响。",
+        "Settings.MovementSettings.MovementDeadzone": "移动死区",
+        "Settings.MovementSettings.MovementDeadzone.Description": "该设置可用于纠正漂移。 增加该值需要进一步倾斜摇杆才能开始移动。",
+        "Settings.MovementSettings.MovementExponent": "移动指数",
+        "Settings.MovementSettings.MovementExponent.Description": "用它来控制移动时的曲线响应。 你可以用它来使曲线在开始移动时速度较慢，然后快速上升，或者立即开始加速移动，具体取决于该值是高于还是低于 1.0。",
+
+        "Settings.MouseSettings.MouseSensitivity": "灵敏度",
+        "Settings.MouseSettings.MouseSensitivity.Description": "桌面模式下的鼠标整体灵敏度.",
+        "Settings.MouseSettings.MouseLookSpeed": "观察速度",
+        "Settings.MouseSettings.MouseLookSpeed.Description": "在第一人称或第三人称模式下，用它来调整摄像机环顾四周速度的灵敏度。",
+        "Settings.MouseSettings.MousePanSpeed": "平移速度",
+        "Settings.MouseSettings.MousePanSpeed.Description": "在 UI 对齐查看模式下，该选项可控制UI随鼠标移动的速度。",
+        "Settings.MouseSettings.MouseRotateSpeed": "旋转速度",
+        "Settings.MouseSettings.MouseRotateSpeed.Description": "当在桌面模式下拿取物品时，它可以控制物体用鼠标绕轴旋转的速度。",
+        "Settings.MouseSettings.MouseFreeformRotateSpeed": "自由旋转速度",
+        "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "当在桌面模式下拿取物品时，它可以控制物体用鼠标自由旋转的速度。",
+
+        "Settings.GeneralHapticsSettings.EnableControllerVibration": "控制器振动",
+        "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "使用此功能可专门在 VR 控制器上启用或禁用触觉振动。",
+        "Settings.GeneralHapticsSettings.EnableHaptics": "触觉反馈",
+        "Settings.GeneralHapticsSettings.EnableHaptics.Description": "启用后，你将通过控制器和其他触觉设备收到来自世界中的化身和物品的触觉反馈。",
+
+        "Settings.GeneralVRSettings.UseVRHotswitching": "VR热切换",
+        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "启用后，当你戴上或摘下 VR 头显时，将自动在 VR模式和桌面模式之间切换",
+
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing" : "手部位置平滑",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing" : "手部旋转平滑",
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description" : "启用后，可以控制手部位置的平滑程度。通常情况下，这对有多动症和其他互动的问题而导致抖动的用户很有帮助。",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description" : "启用后，可以控制手部旋转的平滑程度。通常情况下，这对有多动症和其他抖动问题的用户很有帮助。",
+
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing" : "脚部位置平滑",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing" : "脚部旋转平滑",
+
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description" : "启用后，在使用全身跟踪时，可控制脚部位置的平滑程度。这对消除振动和抖动很有用，但也会使跟踪器更加滞后，无法对快速运动做出反应。",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description" : "启用后，在使用全身跟踪时，可控制脚部旋转的平滑程度。这对消除振动和抖动很有用，但也会使跟踪器更加滞后，无法对快速运动作出反应。",
+
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing" : "臀部位置平滑",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing" : "臀部旋转平滑",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description" : "启用后，可控制使用全身跟踪时臀部位置的平滑程度。这对消除振动和抖动很有用，但也会使追踪器更加滞后，无法对快速运动做出反应。",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description" : "启用后，可以控制使用全身跟踪时臀部旋转的平滑程度。这对消除振动和抖动很有用，但也会使追踪器更加滞后，无法对快速运动做出反应。",
+
+        "Settings.LeapMotionSettings.LeapMotionEnabled": "运动追踪器手部追踪",
+        "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "启用后，运动做中期将用来追踪你的手和手指。",
+        "Settings.LeapMotionSettings.Offset": "手动追踪偏移量",
+        "Settings.LeapMotionSettings.Offset.Description": "这是 VR 头显上运动追踪器的偏移量（以米为单位）。调整这些值以确保你的双手位置正确。",
+        "Settings.LeapMotionSettings.SnapDistance": "控制器捕捉距离",
+        "Settings.LeapMotionSettings.SnapDistance.Description": "当你的手在控制器的范围内时，控制器会自动捕捉到你的手，并使用控制器本身的手部追踪数据，而不是运动追踪器的数据。这可以控制手部捕捉的距离。",
+        "Settings.LeapMotionSettings.UseFingersWhenSnapped": "使用控制器时追踪手部",
+        "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "当双手被固定在控制器上时，它仍会使用来自运动追踪器的数据来摆出手指的姿势。",
+
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Vive手部追踪",
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "启用后，你的双手和手指将使用 Vive 手部追踪功能进行追踪。 这通常要用 VR 头显本身的摄像头。 你可能需要在 Steam VR 设置中启用手部追踪功能。",
+        "Settings.ViveHandTrackingSettings.SnapDistance": "控制器捕捉距离",
+        "Settings.ViveHandTrackingSettings.SnapDistance.Description": "当您的手在控制器的范围内时，控制器会自动捕捉到你的手，并使用控制器本身的手部追踪数据，而不是头显摄像头。这可以控制手部捕捉的距离。",
+        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "使用控制器时追踪手部",
+        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "当手被固定在控制器上时，它仍会利用来自 VR 头显摄像头的数据来摆出手指的姿势。",
+
+        "Settings.UserMetricsSettings.UserHeight": "身高",
+        "Settings.UserMetricsSettings.UserHeight.Description": "这是你在现实世界中的身高，用于适当缩放你的化身，使其本身匹配你。这也是你启用坐姿模式时的身高。\n\n你可以使用适当的单位输入您的身高，例如输入 <nobr><color=hero.yellow>175 cm</color></nobr> 或者 <nobr><color=hero.yellow>1.75 m</color></nobr> （公制单位）或者 <color=hero.yellow>5'11\"</color> （英制单位）。",
+
+        "Settings.AudioInputDeviceSettings.UseSystemDefault": "使用系统默认音频输入设备",
+        "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "启用此选项可自动使用你在系统中设置为默认音频输入的输入设备。如果想覆盖此选项并使用特定设备，请禁用此选项并在下面配置首选设备。",
+        "Settings.AudioInputDeviceSettings.DevicePriorities": "配置默认音频输入设备",
+        "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "音频输入设备",
+        "Settings.AudioInputDeviceSettings.SetAsDefault": "设为默认",
+
+        "Settings.AudioOutputDeviceSettings.UseSystemDefault": "使用系统默认音频输出设备",
+        "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "启用此选项可使用默认音频设备输出音频。禁用此选项后，您可以配置使用哪个音频设备来输出下面的音频。在 VR模式和桌面模式之间切换时，如果使用不同的设备，这将非常有用。",
+        "Settings.AudioOutputDeviceSettings.DevicePriorities": "音频输出设备",
+        "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "音频输出设备",
+        "Settings.AudioOutputDeviceSettings.SetAsDefault": "设为默认",
+
+        "Settings.AudioVolumeSettings.MasterVolume": "主音量",
+        "Settings.AudioVolumeSettings.MasterVolume.Description": "这可以统一控制所有声音的音量。如果声音过大或过小，你可以调整这一设置。",
+        "Settings.AudioVolumeSettings.SoundEffectVolume": "音效音量",
+        "Settings.AudioVolumeSettings.SoundEffectVolume.Description": "调整所有音效的音量。这些通常是各种物品和工具发出的声音。",
+        "Settings.AudioVolumeSettings.MultimediaVolume": "多媒体音量",
+        "Settings.AudioVolumeSettings.MultimediaVolume.Description": "控制各种多媒体的音频音量。 通常情况下，音频、音乐和视频播放器都属于多媒体，也包括世界上的背景音乐。",
+        "Settings.AudioVolumeSettings.VoiceVolume": "语音音量",
+        "Settings.AudioVolumeSettings.VoiceVolume.Description": "这可以控制所有其他用户的语音音量。在某些情况下，预先录制的语音片段也受此设置控制。您还可以在会话选项中调整每个用户的音量。",
+        "Settings.AudioVolumeSettings.UserInterfaceVolume": "UI音量",
+        "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "通过该设置，你可以专门调整UI的声音效果--悬停和按下按钮、滑块、某些工具的交互、捕捉照片等。",
+
+        "Settings.AudioAccessibilitySettings.WhisperVolume": "耳语音量",
+        "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "启动耳语模式后，它将调整球外声音的响度。 如果声音太大或太小，你可以用它来调整音量衰减。",
+        "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "语音消息音量",
+        "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "这表示当你在好友中录制语音信息时，其他声音的响度。 这有助于防止 \"语音干扰\"，让你更容易集中注意力。",
+
+        "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "语音标准化",
+        "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "该功能将尽量确保你的语音输入达到统一的水平。无论您的麦克风设置如何，这都有助于使你的音量与其他用户相同。 我们强烈建议保持此设置，以确保其他用户也能清楚地听到您的声音。",
+        "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "语音阈值",
+        "Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description": "噪声门可防止随机噪声传播给其他用户。该设置表示何时开始允许麦克风中的声音传入。如果有太多噪音传入，请提高该设置；如果您的声音无法传入，请降低该设置。",
+        "Settings.AudioInputFilteringSettings.NoiseGateAttack": "语音阈值缓冲",
+        "Settings.AudioInputFilteringSettings.NoiseGateAttack.Description": "此设置调整噪声阈值对过于安静的传入音频的响应速度。 数值越大，音量减弱的速度越慢，而数值越小，音量上升的速度越快。",
+        "Settings.AudioInputFilteringSettings.NoiseGateHold": "语音阈值滞留",
+        "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "此设置调整在最初检测到音量后，调整音量应保持多长时间，然后再开始过滤音频。如果设置较高，则在发出足够大的声音后，会有更多较安静的音频通过。",
+        "Settings.AudioInputFilteringSettings.NoiseGateRelease": "语音阈值释放",
+        "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "此设置可调整噪声门在传入音频恢复安静后的关闭速度。",
+        
+        "Settings.AudioInputFilteringSettings.NormalizationThreshold": "标准化阈值",
+        "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "使用该设置，你可以控制阈值，使传入的音频在何时被放大。如果你的正常说话声太小，没有被放大，请降低该设置。如果有外界的噪音被放大，则提高阈值。",
+
+        "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "噪声抑制滤波器（RNNoise）",
+        "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "该功能可处理输入的音频，过滤掉各种不良噪音。这可以净化来自嘈杂麦克风的音频，从而产生更纯净的声音。我们强烈建议将此设置打开。不过，它也可以过滤某些无法识别为语音的噪音。",
+
+        "Settings.RealtimeNetworkingSettings.DisableLAN": "禁用局域网",
+        "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "这将禁用本地网络特有的联网功能，例如在本地网络上广播会话或监听本网络上广播的其他会话。",
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Steam 网络通讯优先",
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "启用后，您将尽可能通过 Steam 网络通讯协议进行连接。在某些情况下，例如当 LNL 协议处于严重拥堵时，这将有所帮助。不过，由于该协议缺少某些功能，可能会导致网络更不稳定，因此我们建议只有在遇到问题时才启用该协议。",
+
+        "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "最大同时传输资产数",
+        "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "在开始会话时，该设置调整当时可以传输多少本地导入的资产。增加该值可以更快地向用户传输资产，但也会降低网络连接的质量。我们建议测试网络可以承受的数值。",
+        "Settings.AssetGatherSettings.MaxConcurrentDownloads": "最大同时下载数",
+        "Settings.AssetGatherSettings.MaxConcurrentDownloads.Description": "使用此值可控制同时下载资产的数量。 使用较大的值可以加快世界的加载速度，但也会导致网络超载，因此在调整此值时要谨慎。",
+
+        "Settings.HostAccessSettings.Entries": "管理主机访问权限",
+        "Settings.HostAccessSettings.Entries.Breadcrumb": "主机访问权限",
+        "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "允许HTTP请求",
+        "Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description": "这表示该主机是否允许 HTTP（s）请求。这些请求通常是与第三方服务通信的 REST API 请求。",
+        "Settings.HostAccessSettings.Entries.AllowWebsockets": "允许websockets",
+        "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "表示该主机允许的实时 Websocket 连接数。 这些连接通常用于更实时的双向通信和数据流。",
+        "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "最后一次发出超链接请求的原因",
+        "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "最后一次发出 websocket 请求的原因",
+        "Settings.HostAccessSettings.Entries.Remove": "移除入口 (下一次你将会被询问)",
+        "Settings.HostAccessSettings.DebugReset": "重置主机访问入口",
+
+        "Settings.UserRestrictionsSettings.DebugReset": "重置用户限制",
+
+        "Settings.WindowsSettings.KeepOriginalScreenshotFormat": "保留原始屏幕截图格式",
+        "Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description": "启用此选项可避免在将截图保存到 Windows 的文档文件夹时将截图转换为 JPG 或 PNG 格式。这会使截图更难使用，因为某些应用程序可能无法打开这种格式。",
+
+        "Settings.DebugSettings.DebugInputBindings": "调试输入绑定",
+        "Settings.DebugSettings.DebugInputBindings.Description": "启用后，您将看到输入绑定系统的调试信息。 这对开发人员非常有用。",
+        "Settings.DebugSettings.FetchIncompatibleSessions": "获取不兼容的会话",
+        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "启用后，您将看到与当前客户端不兼容且无法加入的活动会话。",
+
+        "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "双按手柄装备物品",
+        "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "启用后，只要连续按两次握把键，就可以装备工具和小物件。这一设置可能会在某个时候被移除。",
+        "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "使用传统世界切换器",
+        "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "启用后，非主要手部的应用按钮将打开传统的世界开关，在在线的世界之间切换。这一功能将来会被更灵活的解决方案所取代。",
+
+        "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Channel Name",
+        "Settings.TwitchInterfaceSettings.ChannelName.Description": "This sets the default Twitch channel name for the Twitch Chat panel in the Camera Controls panel. This is mostly used by Twitch streamers who want to see their Twitch chat.",
+
+        "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "不要发送实时读写状态",
+        "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "启用此功能后，其他用户将无法看到你何时立即阅读了他们的信息。 你也看不到他们何时阅读了您的信息。",
+
+        "Settings.LocaleSettings.CultureLocaleCode": "文化区域代码",
+        "Settings.LocaleSettings.CultureLocaleCode.Description": "设置后，将覆盖用于格式化数字和其他数量的默认文化区域。通常情况下，将使用所选语言的文化区域，但这可以让您混合和匹配它们。例如，使用您的母语和美国文化代码。",
+        "Settings.LocaleSettings.UseImperialUnits": "使用英制单位",
+        "Settings.LocaleSettings.UseImperialUnits.Description": "启用后，数量（长度/高度、质量、体积......）编辑器将尝试使用英制单位，而不是公制单位。如果您来自美国、英国、利比里亚或缅甸，这将非常有用。",
+        "Settings.LocaleSettings.AvailableLocales": "选择语言",
+        "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "语言",
+
+        "Settings.DashSettings.DashCurvature": "曲度",
+        "Settings.DashSettings.DashCurvature.Description": "此设置可以控制在 VR模式中仪表盘的弯曲程度。将其设置为 0 将使其完全平坦。",
+        "Settings.DashSettings.OpenCloseSpeed": "打开/关闭速度",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "用它来调整界面打开和关闭的速度。如果您不喜欢这种动画效果，可以将其设置为非常高的值，这样界面打开和关闭的速度就会非常快。",
+
+        "Settings.NamePlateSettings.NameplateVisibility": "铭牌可见度",
+        "Settings.NamePlateSettings.NameplateVisibility.Description": "该选项可以控制你可以看到谁的铭牌。",
+        "Settings.NamePlateSettings.UseCustomNameplates": "显示自定义铭牌",
+        "Settings.NamePlateSettings.UseCustomNameplates.Description": "如果某些铭牌难以阅读、完全隐藏或您需要查看用户的实际用户名和徽章（例如用于管理目的），你可以禁用自定义铭牌并查看默认铭牌。",
+
+        "Settings.LaserSettings.SmoothSpeed": "激光平滑速度",
+        "Settings.LaserSettings.SmoothSpeed.Description": "用它来控制激光对你的动作做出反应的速度。较低的数值会使激光更加迟缓，但能更好地过滤震颤。数值越大，响应速度越快，但也会传递更多的控制器震动。",
+        "Settings.LaserSettings.ModulateStartAngle": "调节起始角度",
+        "Settings.LaserSettings.ModulateStartAngle.Description": "这表示激光平滑速度开始调节以跟上您移动的角度。增大该值将需要更大的移动幅度，激光才会开始跟上。",
+        "Settings.LaserSettings.ModulateEndAngle": "调节末端角度",
+        "Settings.LaserSettings.ModulateEndAngle.Description": "与调整起始角有关，它表示调整何时达到最大速度。通过改变起始角和结束角，您可以控制激光器在您的手增加移动动作时的响应速度。",
+        "Settings.LaserSettings.ModulateExponent": "调制指数",
+        "Settings.LaserSettings.ModulateExponent.Description": "它可以控制激光调制在起始角和终止角之间的响应曲线。您可以用它来使激光器在开始时反应较慢，或者开始时反应较快，然后逐渐减弱。",
+        "Settings.LaserSettings.ModulateSpeedMultiplier": "调制速度倍增器",
+        "Settings.LaserSettings.ModulateSpeedMultiplier.Description": "达到调制末端角度后，激光平滑速度将乘以该值。一旦您的手移动到足够远的距离，增加该值将使激光更快地跟上您的手部指向。 降低该值则需要更长的时间让激光赶上您的手部指向。",
+        "Settings.LaserSettings.StickThreshold": "激光粘性",
+        "Settings.LaserSettings.StickThreshold.Description": "这可以控制激光对互动物品的粘附程度。数值越大，粘性越强。将此值设为零将完全消除粘性（例如在拾取物品过程中）。",
+        "Settings.LaserSettings.ShowInDesktop": "在桌面模式下显示激光",
+        "Settings.LaserSettings.ShowInDesktop.Description": "开启后，在桌面模式下的第一人称视角中，激光视觉效果将完全呈现在你眼前",
+
+        "Settings.DesktopViewSettings.FollowCursor": "跟随光标",
+        "Settings.DesktopViewSettings.FollowCursor.Description": "启用后，桌面视图将自动切换到光标所在的屏幕。当您在 VR模式中使用物理键盘和鼠标时，这将非常有用",
+        "Settings.DesktopViewSettings.Brightness": "亮度",
+        "Settings.DesktopViewSettings.Brightness.Description": "桌面视角下的亮度",
+        "Settings.DesktopViewSettings.Opacity": "不透明度",
+        "Settings.DesktopViewSettings.Opacity.Description": "降低该值可使桌面视角半透明，从而更容易看到后面的世界",
+
+        "Settings.PhotoCaptureSettings.FingerGestureEnabled": "手指拍照手势",
+        "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description" : "启用该功能后，您只需将手指摆成相框的形状，然后卷曲食指，就能在世界中快速拍照。",
+        "Settings.PhotoCaptureSettings.NormalCaptureResolution": "照片分辨率",
+        "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "这将设置手指手势或桌面快捷键捕获的普通照片的分辨率。更高的分辨率需要更多的时间和存储空间来处理，但能提供更好的细节。",
+        "Settings.PhotoCaptureSettings.TimerCaptureResolution": "定时照片分辨率",
+        "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "与普通分辨率类似，您可以为在定时功能拍摄照片模式下设置单独的分辨率。如果您使用定时器拍摄集体照，这将非常有用，因为更高的分辨率会在集体拍摄时呈现更好的效果",
+        "Settings.PhotoCaptureSettings.TimerSeconds": "计时器持续时间",
+        "Settings.PhotoCaptureSettings.TimerSeconds.Description": "使用定时功能需要多少秒后拍摄照片。",
+        "Settings.PhotoCaptureSettings.CaptureStereo": "拍摄立体照片",
+        "Settings.PhotoCaptureSettings.CaptureStereo.Description": "启用后，所有快速照片捕捉都将是立体的。 这在 VR 模式中非常有用",
+        "Settings.PhotoCaptureSettings.PhotoAutosavePath": "照片自动保存路径",
+        "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "设置后，您拍摄（或使用右键菜单保存）的任何照片都将自动保存到您的游戏库存中。例如 <color=hero.yellow>照片/%year%/%month_name%</color>\n\n以下变量可用：\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI" : "捕捉私人UI",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "启用后， 快速照片捕捉将呈现你的UI， 如界面。\n\n我们建议你在完成设置后将其关闭，因为开启它可能会导致意外拍摄到并泄露你的个人信息。",
+        "Settings.PhotoCaptureSettings.EncodeFormat" : "编码格式",
+        "Settings.PhotoCaptureSettings.EncodeFormat.Description" : "拍摄的照片将被编码成的图像文件格式。请注意，某些格式可能缺乏某些功能（如支持 alpha），编码速度可能会明显变慢，图像质量可能会降低，或导致文件变大。",
+
+        "Settings.DesktopRenderSettings.FieldOfView": "视场",
+        "Settings.DesktopRenderSettings.FieldOfView.Description": "在桌面模式下，用它来控制视场（FOV）。 数值越大，视野越开阔，但两侧的失真也越大。",
+
+        "Settings.InteractiveCameraFramingSettings.PositioningMode": "定位模式",
+        "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "这将控制交互式摄像头在世界中的位置",
+        "Settings.InteractiveCameraFramingSettings.FieldOfView": "视场",
+        "Settings.InteractiveCameraFramingSettings.FieldOfView.Description": "交互式摄像机的视场。 数值越大，捕捉到的场景越多，但边缘会失真。",
+        "Settings.InteractiveCameraFramingSettings.AnglePosition": "角度",
+        "Settings.InteractiveCameraFramingSettings.AnglePosition.Description": "在第三人称或群组模式下，该选项控制摄像机与目标对象/群组的角度。",
+        "Settings.InteractiveCameraFramingSettings.Distance": "距离",
+        "Settings.InteractiveCameraFramingSettings.Distance.Description": "在第三人称或群组模式下，该选项控制摄像机与目标对象/群组的距离。",
+        "Settings.InteractiveCameraFramingSettings.HeightOffset": "高度偏移",
+        "Settings.InteractiveCameraFramingSettings.HeightOffset.Description": "在第三人称或群组模式下，可将摄像机相对于目标对象/群组移高或移低。",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonPitch": "第一人称俯仰角",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonPitch.Description": "在第一人称模式下，使用此选项可上下俯仰摄像机。",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll": "第一人称旋转角度",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll.Description": "在第一人称模式下，它控制摄像机的侧向旋转--左右倾斜。",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset": "第一人称偏移",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset.Description": "该设置调整第一人称视角中相对于眼睛的摄像机偏移量。如果头像面部几何图形剪切到摄像机视图中，则可以使用此功能。",
+        "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "框架视角位置",
+        "Settings.InteractiveCameraFramingSettings.FramingViewportPosition.Description": "这些是摄像机视角中的标准化坐标。摄像机会尝试将目标（例如第三人称模式下的用户头部）框定在视角中的这一位置。",
+        "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "对准头部前方",
+        "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead.Description": "摄像机不会直接对准用户的头部，而是会尽量瞄准用户头部前方的一个点。这在你想为用户正在查看的内容（如世界中的物品和界面）时非常有用。",
+
+        "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion": "防止遮挡",
+        "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion.Description": "如果摄像机的视线被可碰撞物体遮挡，摄像机将自动移近以避免被遮挡。",
+        "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace": "保持在世界空间内",
+        "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace.Description": "确保摄像机保持在主世界空间中，而不是在与用户相同的空间中自成体系。这可以在使用用户（如在车辆中）时提供更好的取景和定位效果。",
+        "Settings.InteractiveCameraPositioningSettings.MovementWobble": "运动摇摆",
+        "Settings.InteractiveCameraPositioningSettings.MovementWobble.Description": "这将为摄像机位置添加随时间变化的随机移动偏移。这可以让镜头看起来不那么静态，尤其是在你不怎么移动的情况下。",
+
+        "Settings.InteractiveCameraRenderSettings.HideAllBadges": "隐藏徽章",
+        "Settings.InteractiveCameraRenderSettings.HideAllBadges.Description": "无论您的徽章设置如何，摄像机都不会渲染出任何用户的徽章。",
+        "Settings.InteractiveCameraRenderSettings.HideAllLasers": "隐藏激光",
+        "Settings.InteractiveCameraRenderSettings.HideAllLasers.Description": "摄像机不会渲染任何用户的交互激光。",
+        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera": "用户眼睛始终注视摄像机",
+        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera.Description": "当你的形象使用模拟眼球运动时（即用户没有眼部跟踪功能），这将使用户的化身优先与摄像机进行眼神接触。",
+
+        "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius": "群组检测半径",
+        "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius.Description": "在此距离内的用户将被添加到摄像机在群组模式下自动取景的群组中。",
+        "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary": "群组离开边界范围",
+        "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary.Description": "用户需要离开群组半径多远才会被排除在群组之外。",
+
+        "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed": "位置平滑速度",
+        "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed.Description": "这表示摄像机移动到世界中目标位置的速度。数值越大，摄像机移动速度越快，但也会导致移动更加生涩。",
+        "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "角度平滑速度",
+        "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed.Description": "这表示摄像机对目标对象周围角度变化的响应速度。",
+        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed": "渲染平滑速度",
+        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed.Description": "这控制着摄像机调整目标对象取景的速度。数值越大，追踪目标的速度越快，但也会导致动作更加生涩。",
+
+        "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors": "在锚点之间插值",
+        "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors.Description": "启用后，摄像机将在世界中的摄像机锚点之间平滑插值。",
+        "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed": "插值速度",
+        "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed.Description": "当启用锚点之间的插值时，它控制摄像机从一个锚点移动到另一个锚点的速度。",
+        "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation": "使用线性插值",
+        "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "启用此选项可在锚点之间移动时使用线性插值，而不是平滑插值。线性插值会突然开始和停止，但移动速度不变，与锚点之间的距离无关。这意味着如果锚点之间的距离较远，摄像机到达锚点所需的时间会更长。",
+
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "生成在世界中已拍摄的照片",
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "当您使用交互式照相机对话框拍照时，照片是否会生成到世界中？如果禁用，照片只会保存到您的文档或库存中（如果配置了自动保存）",
+
+        "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "动态模糊",
+        "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "摄像机是否应该渲染动态模糊效果？",
+        "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "屏幕空间反射",
+        "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "摄像机是否应该渲染屏幕空间反射效果？这可以为闪亮的表面提供更好的反射效果，但可能会导致伪影并增加性能要求。",
+
+        "Settings.DescriptionField.NoTextTitle": "更多信息",
+        "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>将鼠标悬停在某个设置上可查看其说明。</closeall>",
+        "Settings.RelaySettings" : "网络中继",
+        "Settings.RelaySettings.AlwaysUseRelay" : "总是使用中继模式连接",
+        "Settings.RelaySettings.AlwaysUseRelay.Description" : "当无法建立与主机的直接连接时，中继模式通常用作备用。\n\n这在特定主机出现连接问题时非常有用。 但我们 <b>不</b> 推荐永久打开此选项。",
+        "Settings.RelaySettings.UseClosestAvailableRelay" : "使用最近的可用中继服务器",
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description" : "启用该选项后，将自动选择离你最近可用的中继服务器进行连接。如果你想通过特定中继服务器进行连接（例如，在长距离连接时，为避免数据包排队），可以禁用此选项，并在下面配置首选中继服务器。.",
+        "Settings.RelaySettings.RelayPriorities": "配置中继服务器优先级",
+        "Settings.RelaySettings.RelayPriorities.Breadcrumb": "中继服务器优先级",
+
+        "Settings.PostProcessingSettings" : "后期处理",
+        "Settings.PostProcessingSettings.MotionBlurIntensity" : "动态模糊强度",
+        "Settings.PostProcessingSettings.MotionBlurIntensity.Description" : "这可以控制运动模糊效果的强度，使图像随着运动而模糊。 \n\n如果你将该效果设置为 <nobr><color=hero.yellow>0 %</color></nobr> ，该效果将被完全禁用，这样可以提高性能。",
+        "Settings.PostProcessingSettings.BloomIntensity" : "光晕效果",
+        "Settings.PostProcessingSettings.BloomIntensity.Description" : "光晕效果会使场景中明亮的物体周围出现光晕，通常是 HDR 范围内的物体。 这可以让你在相同光量下控制该效果的强度。 \n\n请注意，当该效果设置为低或禁用时，某些内容可能看起来不正确。\n\n如果你将该效果设置为 <nobr><color=hero.yellow>0 %</color></nobr> ，该效果将被完全禁用，这样可以提高性能。",
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity" : "环境遮挡 (AO) 强度",
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description" : "环境光遮蔽会使场景中的褶皱和角落变暗，这些地方通常受光较少。这可以增加场景的深度和真实感。请注意，如果将其设置得过低或禁用，某些内容可能会看起来不正确或完全平淡，而在其他情况下则不会出现这种情况。",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections" : "屏幕空间反射 <size=75%>(实验性功能)</size>",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections.Description" : "启用后，摄像机当前可见的任何场景部分都会实时反射出闪亮的表面。请注意，此滤镜目前还处于试验阶段，在很多场景中效果不佳，会产生诡异的反射和伪影。",
+        "Settings.PostProcessingSettings.Antialiasing" : "抗锯齿 (AA)",
+        "Settings.PostProcessingSettings.Antialiasing.Description" : "抗锯齿滤镜可以平滑场景中物体的锯齿状边缘。你可以选择几种不同的滤镜，每种滤镜都有不同的缺点。FXAA 是常用的滤镜，效果相当不错，但也会模糊场景中的其他部分，例如文本。\n\n<color=red>警告：</color> 有些 AA 选项可能不适合在 VR 中使用或根本无法在 VR 中使用。",
+
+        "Settings.RenderingQualitySettings" : "渲染质量",
+        "Settings.RenderingQualitySettings.PerPixelLights" : "每像素灯光",
+        "Settings.RenderingQualitySettings.PerPixelLights.Description" : "这个值控制着有多少点光源和聚光灯可以直接影响使用正向方法渲染的对象--通常是透明和非 PBS 对象（例如使用着色器）。\n\n增加该值可以提高照明质量，减少多灯情况下的色彩闪烁，但同时也会影响性能--每影响一束光，就需要对物体进行多次渲染。",
+        "Settings.RenderingQualitySettings.ShadowCascades" : "阴影级联",
+        "Settings.RenderingQualitySettings.ShadowCascades.Description" : "这可以控制世界中定向灯光阴影的分辨率级联。级联可以更好地分配阴影贴图的分辨率--近处的阴影分辨率较高，远处的分辨率较低，但渲染性能较高。",
+        "Settings.RenderingQualitySettings.ShadowResolution" : "阴影分辨率",
+        "Settings.RenderingQualitySettings.ShadowResolution.Description" : "该值控制灯光阴影的分辨率。提高该值会使阴影边缘更平滑，清晰度更高，但会提高性能要求。\n\n请注意，某些灯光可能会覆盖阴影分辨率，不受此设置的影响。",
+        "Settings.RenderingQualitySettings.ShadowDistance" : "阴影距离",
+        "Settings.RenderingQualitySettings.ShadowDistance.Description" : " 该值控制阴影覆盖的距离。增大该值可以确保场景中更远的部分被阴影适当覆盖，但同时也会使阴影的细节分散到更大的区域。\n\n你应该将此设置与阴影级联和分辨率一起更改--阴影分辨率越高，阴影距离就越大。如果降低阴影分辨率和级联，你会希望降低阴影距离，这样阴影的清晰度会更好。",
+        "Settings.RenderingQualitySettings.SkinWeightMode" : "蒙皮权重",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "对于任何蒙皮权重（通过骨骼变形的 3D 模型，如大多数头像），该值控制使用多少骨骼来影响每个顶点的位置。\n\n降低该值可以节省一些性能，但变形质量会降低，从而产生尖锐的折痕和其他伪影，通常出现在接缝处。",
+
+        "LocomotionArchetype.Walk": "移动",
+        "LocomotionArchetype.Fly": "飞行",
+        "LocomotionArchetype.NoClip": "穿墙",
+        "LocomotionArchetype.Teleport": "传送",
+        "LocomotionArchetype.GrabWorld": "Grab World",
+        "LocomotionArchetype.NoLocomotion": "无运动",
+        "LocomotionArchetype.ThreeAxisNoClip": "三轴穿墙",
+        "LocomotionArchetype.ThreeAxisFly": "三轴飞行",
+        "LocomotionArchetype.ZeroG": "零重力",
+
+        "LocomotionSettings.MakePreferred": "设为首选",
+        "LocomotionSettings.MakeLeastPreferred": "设为次选",
+
+        "Security.Hyperlink.Title" : "外部链接",
         "Security.Hyperlink.Warning": "<b><size=125%>警告：外部超链接</size></b>\n您点击了世界中的一个链接。 您要打开它吗？其将在您的桌面网络浏览器中打开。",
         "Security.Hyperlink.Open": "打开",
         "Security.Hyperlink.Cancel": "取消",
@@ -1109,6 +1617,20 @@
         "Inspector.Slot.ParentUnder.WorldRoot.Undo": "将世界根空间作为 {name} 的父级",
         "Inspector.Slot.ParentUnder.LocalUserSpace": "用户本地空间",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "将用户本地空间作为 {name} 的父级",
+
+        "Inspector.Member.ResetToDefault": "重置为默认值",
+
+        "Inspector.Member.BreakLinkDrive": "断开连接/驱动",
+        "Inspector.Member.OpenLinkDrive": "打开链接/驱动器来源",
+
+        "Inspector.Member.SetAllToAvg": "全部设置为平均值",
+        "Inspector.Member.SetAllToX": "全部设为 X",
+        "Inspector.Member.SetAllToY": "全部设为 Y",
+        "Inspector.Member.SetAllToZ": "全部设为 Z",
+        "Inspector.Member.SetAllToW": "全部设为 W",
+
+        "Inspector.ProceduralAsset.UpdateCount": "更新次数： {n}",
+        "Inspector.ProceduralAsset.Error": "错误： {error}",
 
         "Inspector.Mesh.StatsHeader": "网格统计",
         "Inspector.Mesh.VertexCount": "顶点数：{sn}",
@@ -1196,6 +1718,8 @@
         "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "根据当前姿态计算显式边界",
         "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "从当前姿态拓展显式边界",
         "Inspector.SkinnedMesh.BakeToStaticMesh": "烘焙为静态网格",
+        "Inspector.SkinnedMesh.SortBlendshapes.Name": "分类 Blendshapes (通过名字)",
+        "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "分类 Blendshapes (通过名字长度, 后名字)",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "移除所有实例",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "移除单个实例",
@@ -1215,8 +1739,10 @@
         "Inspector.Texture.Size": "尺寸：{width} x {height}",
         "Inspector.Texture.Format": "格式：{format}, 存储：<nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "变种ID：{variant}",
+        "Inspector.Texture3D.Size": "Size: {width} x {height} x {depth}",
 
         "Inspector.Texture.BakeTexture": "烘焙纹理",
+        "Inspector.Texture.ReplaceFromClipboard" : "Replace from clipboard",
 
         "Inspector.Texture.InvertRGB": "倒置 RGB",
         "Inspector.Texture.InvertR": "倒置 R",
@@ -1447,8 +1973,27 @@
         "Tutorial.Welcome.SettingsSmoothTurn.Description": "平滑地转向，但易引起晕动症。",
         "Tutorial.Welcome.SettingsPrimaryController": "主控制器",
         "Tutorial.Welcome.SettingsPrimaryLeft": "左",
+        "Tutorial.Welcome.SettingsPrimaryLeft.Description": "左手",
         "Tutorial.Welcome.SettingsPrimaryRight": "右",
-        "Tutorial.Welcome.SettingsHeight": "您的身高",
+        "Tutorial.Welcome.SettingsPrimaryRight.Description": "右手",
+
+        "Tutorial.Welcome.SettingsHeadDirectionMovement": "移动位置",
+        "Tutorial.Welcome.SettingsUseHeadDirection": "头部位置",
+        "Tutorial.Welcome.SettingsUseHeadDirection.Description": "你将朝着你在看的方向前进",
+        "Tutorial.Welcome.SettingsUseControllerDirection": "控制器方向",
+        "Tutorial.Welcome.SettingsUseControllerDirection.Description": "你会朝着控制器的方向移动",
+
+        "Tutorial.Welcome.LeftControllerMode": "左控制器模式",
+        "Tutorial.Welcome.RightControllerMode": "右控制器模式",
+
+        "Tutorial.Welcome.SidewaysTurn": "转向",
+        "Tutorial.Welcome.SidewaysTurn.Description": "使用控制器来转向",
+        "Tutorial.Welcome.SidewaysStrafe": "前进",
+        "Tutorial.Welcome.SidewaysStrafe.Description": "使用控制器来前进",
+        "Tutorial.Welcome.SidewaysOff": "关闭",
+        "Tutorial.Welcome.SidewaysOff.Description": "只能前后移动",
+
+        "Tutorial.Welcome.SettingsHeight": "你的身高",
         "Tutorial.Welcome.SettingsHeightExamples": "例子: 1.85 m, 185 cm, 6' 1\", 6 英尺 1 英寸",
 
         "Tutorial.Welcome.StartTutorialHeader": "准备好开始探索了吗？",
@@ -1479,7 +2024,7 @@
         "Twitch.Panel.Button.SafeMode.Disabled": "安全模式禁用",
         "Twitch.Panel.Button.SubscriberCommands.Enabled": "订阅者命令<br> 仅对订阅者启用",
         "Twitch.Panel.Button.SubscriberCommands.Disabled": "订阅者命令<br> 对所有人启用",
-        "Twitch.Panel.Title.Text": "Twitch Chat",
+        "Twitch.Panel.Title.Text": "Twitch 聊天室",
 
         "Exiting.SavingItems": "正在保存 {n, plural, other {# 项目}}...",
         "Exiting.SavingChanges": "正在保存更改...",
@@ -1601,7 +2146,9 @@
         "CloudHome.TargetRangeOptions": "目标范围选项",
 
         "Tutorial.Saving.Title": "欢迎回家！",
-        "Tutorial.Saving.Content": "欢迎来到您的 <b><i><color=hero.yellow>家</b></i></color> 世界！这是您每次登录后所来到的地方。<br><br>这是一个您自己的世界，您可以保存任何所作的更改。<br><br>如果您保存了，当您下次回来时，一切将与您离开时一模一样！",
+        "Tutorial.Saving.Content": "欢迎来到你的 <b><i><color=hero.yellow>家园</b></i></color> 世界！这是您每次登录后所来到的地方。<br><br>这是一个您自己的世界，您可以保存任何所作的更改。<br><br>如果您保存了，当您下次回来时，一切将与您离开时一模一样！",
+
+        "Tutorial.Teleporter.Error": "加载家园失败！<br><size=66%>走出传送器，然后再尝试走进去</size>",
 
         "CloudHome.Info.OnlineUsers": "在线 {online_users,plural, one {用户} other {用户}}: {online_users}<br>可加入 {joinable_users,plural, one {用户} other {用户}}: {joinable_users}",
         "CloudHome.Info.Moderation": "监管",
@@ -1742,7 +2289,7 @@
         "Tutorial.Panel.TeleportLocomotion.Title": "传送移动",
         "Tutorial.Panel.TeleportLocomotion.Content": "立即将您传送至传送指示器位置",
 
-        "Hints.Spawn.InitialMovementDesktop": "使用运动键位来四处移动！",
+        "Hints.Spawn.InitialMovementDesktop": "使用移动键位来四处移动！",
         "Hints.Spawn.InitialMovementVR": "使用摇杆来四处行走！",
         "Hints.Spawn.InitialMovementVRNoButtons": "使用触控板来四处行走！",
 
@@ -1750,8 +2297,8 @@
         "Hints.Spawn.ContextMenuVR": "感到不适？按B或Y键打开您的上下文菜单以查看选项！",
         "Hints.Spawn.ContextMenuVRNoButtons": "感到不适？按菜单键打开您的上下文菜单以查看选项！",
 
-        "Hints.Spawn.TeleportLocomotionDesktop": "您可以在运动菜单中尝试其他选项，例如飞行。",
-        "Hints.Spawn.TeleportLocomotionVR": "您可以在运动菜单中尝试其他选项，例如传送或飞行。",
+        "Hints.Spawn.TeleportLocomotionDesktop": "您可以在移动菜单中尝试其他选项，例如飞行。",
+        "Hints.Spawn.TeleportLocomotionVR": "您可以在移动菜单中尝试其他选项，例如传送或飞行。",
 
         "Hints.Bridge.RaiseTheWorld": "按下这个按钮，召唤平台！",
 
@@ -1793,6 +2340,14 @@
         "UI.TextDisplay.NormalText": "常规文字",
         "UI.TextDisplay.MonospaceText": "等宽文字",
 
+        "UI.DocumentDisplay.PageNumber": "页数 {page_number}",
+        "UI.DocumentDisplay.DocumentQuality": "质量",
+        "UI.DocumentDisplay.QualityLow": "低",
+        "UI.DocumentDisplay.QualityMedium": "中",
+        "UI.DocumentDisplay.QualityHigh": "高",
+        "UI.DocumentDisplay.Pages": "页数",
+        "UI.DocumentDisplay.ResetZoom": "重置缩放",
+
         "UI.VideoPlayer.GlobalSettings": "全局<br>设置",
         "UI.VideoPlayer.LocalSettings": "本地<br>设置",
         "UI.VideoPlayer.SpatialAudio": "空间<br>音频",
@@ -1824,6 +2379,9 @@
 
         "UI.ProgressBar.ImportingItem": "导入项目",
 
+        "UI.Camera.Automatic": "自动",
+        "UI.Camera.Manual": "手动",
+
         "Tools.Names.MultiTool": "多功能工具",
 
         "Tools.Names.CommonTools": "通用工具",
@@ -1850,6 +2408,12 @@
         "Tools.Names.ControllerDiagnostic": "控制器诊断工具",
         "Tools.Names.Measure": "测量工具",
         "Tools.Names.Label": "标签工具",
+
+        "Discord.RichPresence.InPrivateWorld": "在私人世界",
+        "Discord.RichPresence.InPrivateLargeText": "在私人世界 ({version})",
+        "Discord.RichPresence.InPublicWorld": "在公开世界",
+        "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} 个世界)",
+        "Discord.RichPresence.InPublicLargeText": "在公开世界 ({version})",
 
         "Dummy": "Dummy"
     }
