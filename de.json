@@ -1214,6 +1214,7 @@
         "Settings.WindowsSettings": "Windows Einstellungen",
         "Settings.DebugSettings": "Debug",
         "Settings.LegacyFeatureSettings": "Alte Funktionen",
+        "Settings.TwitchInterfaceSettings": "Twitch Streaming Interface",
 
         "Settings.MessagingPrivacySettings": "Datenschutz bei Nachrichten",
 
@@ -1399,6 +1400,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Benutze alten Welten-Wechsler",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Wenn dies aktiviert ist, öffnet die App-Taste des Controllers ihrer nicht-dominanten Hand den alten Welten-Wechsler, mit dem Sie zwischen aktiven Welten wechseln können. Diese Funktionalität wird in der Zukunft mit einem flexibleren System ersetzt.",
 
+        "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Kanalname",
+        "Settings.TwitchInterfaceSettings.ChannelName.Description": "Dies stellt den standard Twitch Kanalnamen für das Twitch Chat-Panel im Kamerasteuerungs-Panel ein. Dies wird meistens von Twitch Streamern verwendet, die ihren Twitch Chat sehen möchten.",
+
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Keinen Echtzeit-Lesestatus versenden",
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "Wenn dies aktiviert ist, können Kontakte nicht direkt sehen, dass Sie eine ihrer Nachrichten gelesen haben. Gleichzeitig werden Sie nicht in der Lage sein, direkt zu sehen, dass ein Kontakt eine Nachricht von Ihnen gelesen hat.",
 
@@ -1542,10 +1546,23 @@
         "Settings.PostProcessingSettings.AmbientOcclusionIntensity": "Umgebungsverdeckung (Ambient Occlusion, AO)",
         "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description": "Umgebungsverdeckung dunkelt Spalten und Ecken in der Szene ab, die normalerweise weniger Licht erhalten würden. Dies kann der Szene mehr Tiefe und Realismus verleihen. Mit diesem Regler können Sie die Intensität des Effekts steuern.\n\nBitte beachten Sie, dass durch eine zu niedrige Einstellung oder Deaktivierung einige Inhalte falsch oder völlig flach aussehen können, was sonst nicht der Fall wäre.\n\nWenn Sie den Wert auf <nobr><color=hero.yellow>0 %</color></nobr> setzen, wird der Filter vollständig deaktiviert, was die Geschwindigkeit verbessern kann.",
         "Settings.PostProcessingSettings.ScreenSpaceReflections": "Screen-Space-Reflexionen  <size=75%>(experimentell)</size>",
-        "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "Wenn dieser Filter aktiviert ist, reflektieren glänzende Oberflächen in Echtzeit alle Teile der Szene, die für die Kamera sichtbar sind. Dies kann der Szene mehr Realismus verleihen und das Aussehen glänzender Oberflächen auf Kosten der Geschwindigleit verbessern.\n\nBitte beachten Sie, dass dieser Filter noch experimentell ist und in vielen Szenarien nicht gut funktioniert, was zu schemenhaften Reflexionen und Artefakten führt.",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "Wenn dieser Filter aktiviert ist, reflektieren glänzende Oberflächen in Echtzeit alle Teile der Szene, die für die Kamera sichtbar sind. Dies kann der Szene mehr Realismus verleihen und das Aussehen glänzender Oberflächen auf Kosten der Geschwindigkeit verbessern.\n\nBitte beachten Sie, dass dieser Filter noch experimentell ist und in vielen Szenarien nicht gut funktioniert, was zu schemenhaften Reflexionen und Artefakten führt.",
         "Settings.PostProcessingSettings.Antialiasing": "Kantenglättung (Antialiasing AA)",
         "Settings.PostProcessingSettings.Antialiasing.Description": "Die Kantenglättung glättet scharfe, gezackte Ränder an Objekten in der Szene. Sie können aus mehreren verschiedenen Filtern wählen, die alle unterschiedliche Nachteile haben. FXAA wird häufig verwendet und funktioniert recht gut, kann aber auch andere Teile der Szene, wie z. B. Text, weichzeichnen.\n\n<color=red>Warnung:</color> Einige Kantenglättungs-Filter sind möglicherweise nicht für VR geeignet oder funktionieren gar nicht in VR.",
-        
+
+        "Settings.RenderingQualitySettings": "Rendering-Qualität",
+        "Settings.RenderingQualitySettings.PerPixelLights": "Per-Pixel-Lichter",
+        "Settings.RenderingQualitySettings.PerPixelLights.Description": "Dies steuert, wie viele Punkt- und Spotlichter direkt auf Objekte angewandt werden können, die mit der Vorwärtsmethode wiedergegeben werden - typischerweise transparente und Nicht-PBS-Objekte (z. B. mit dem Toon-Shader).\n\nEine Erhöhung dieses Wertes verbessert die Qualität der Beleuchtung und reduziert das Farbflimmern bei mehreren Lichtern auf Kosten der Geschwindigkeit - das Objekt muss für jedes Licht, das es beeinflusst, gerendert werden.",
+        "Settings.RenderingQualitySettings.ShadowCascades": "Schatten-Kaskaden",
+        "Settings.RenderingQualitySettings.ShadowCascades.Description": "Diese Einstellung steuert die Kaskadierung der Auflösung der Schatten für gerichtete Lichter in der Welt. Kaskaden verteilen die Auflösung der Schatten-Map besser - sie bieten eine höhere Schattenauflösung in der Nähe und eine geringere Auflösung in der Ferne, kosten aber mehr Leistung beim Rendern.",
+        "Settings.RenderingQualitySettings.ShadowResolution": "Schatten-Auflösung",
+        "Settings.RenderingQualitySettings.ShadowResolution.Description": "Dies steuert die Auflösung der Schatten für Lichter. Wenn Sie diesen Wert erhöhen, erhalten die Schatten glattere Kanten und eine bessere Definition, aber die Leistungsanforderungen steigen.\n\nBitte beachten Sie, dass einige Lichter die Schattenauflösung übersteuern können und von dieser Einstellung nicht betroffen sind.",
+        "Settings.RenderingQualitySettings.ShadowDistance": "Schatten-Distanz",
+        "Settings.RenderingQualitySettings.ShadowDistance.Description": "Diese Einstellung steuert die Entfernung, die die Schatten abdecken. Große Werte decken weiter entfernte Teile der Szene richtig mit Schatten ab, aber dadurch werden auch die Details des Schattens über einen größeren Bereich gestreckt.\n\nSie sollten diese Einstellung zusammen mit den Schatten-Kaskaden und der Auflösung einstellen - mit einer höheren Schatten-Auflösung können Sie sich eine größere Schatten-Distanz leisten. Wenn Sie die Schatten-Auflösung und die Kaskaden verringern, sollten Sie auch die Schatten-Distanz verkleinern, damit die Schatten besser definiert sind.",
+        "Settings.RenderingQualitySettings.SkinWeightMode": "Oberflächen-Gewichtung (Skin Weights)",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Bei Skinned-Meshes (3D-Modelle, deren Oberfläche durch Knochen verformt werden, wie die meisten Avatare) steuert dieser Wert, wie viele Knochen verwendet werden, um die Position jedes Vertex zu beeinflussen.\n\nWenn Sie diesen Wert verringern, sparen Sie etwas Rechenleistung, aber die Qualität der Verformung wird schlechter. Dies führt typischerweise zu scharfen Falten und anderen Artefakten um Gelenke herum.",
+
+
         "LocomotionArchetype.Walk": "Gehen",
         "LocomotionArchetype.Fly": "Fliegen",
         "LocomotionArchetype.NoClip": "Noclip",
