@@ -397,13 +397,13 @@
         "Indicator.Storage.StorageFull": "Stockage plein",
         "Indicator.Storage.Usage": "{storage_used} de {storage_max}<br><size=61.803%>Stockage utilisé</size>",
 
-        "Indicator.LiveHiddenMessage": "(Vos informations sont cachées pendant que vous diffuser)",
+        "Indicator.LiveHiddenMessage": "(Vos informations sont cachées pendant la diffusion)",
 
         "Login.InvalidCredentials": "Identification invalide",
-        "Login.InvalidCredentials.Description": "Veuillez vérifier votre identification et ré-essayer \"Mot de passe oublié?\"",
+        "Login.InvalidCredentials.Description": "Veuillez vérifier vos identifiants et ré-essayer \"Mot de passe oublié?\"",
 
         "Login.InvalidLogin": "Identification invalide",
-        "Login.InvalidLogin.Description": "Veuillez vérifier votre identification et ré-essayer \"Mot de passe oublié?\"",
+        "Login.InvalidLogin.Description": "Veuillez vérifier vos identifiants et ré-essayer \"Mot de passe oublié?\"",
 
         "Login.MalformedUID": "Information de l'appareil invalide",
         "Login.MalformedUID.Description": "Essayez de réinstaller ou contactez le support sur {supportUrl}.",
@@ -429,7 +429,7 @@
         "Login.InvalidRecoveryCode": "Code de récupération invalide",
         "Login.InvalidRecoveryCode.Description": "Vérifiez votre code de récupération et ré-essayez",
 
-        "Login.UnsupportedAuthentication": "Méthode d’authentification non supportée",
+        "Login.UnsupportedAuthentication": "Méthode d'authentification non supportée",
         "Login.UnsupportedAuthentication.Description": "Nous ne supportons pas cette méthode d'authentification. Veuillez en utiliser une autre.",
 
         "Login.EmailNotVerified": "Courriel non vérifié",
@@ -439,10 +439,10 @@
         "Login.AccountTempLocked.Description": "Veuillez contacter la modération sur {moderationUrl}.",
 
         "Login.AccountBanned": "Votre compte est banni",
-        "Login.AccountBanned.Description": "Veuillez contacter la modération sur {modertionUrl}.",
+        "Login.AccountBanned.Description": "Veuillez contacter la modération sur {moderationUrl}.",
 
         "Login.DuplicateAccount": "Compte dupliqué",
-        "Login.DuplicateAccount.Description": "Veuillez contacter la modération sur {modertionUrl}.",
+        "Login.DuplicateAccount.Description": "Veuillez contacter le support sur {supportUrl}.",
 
         "Login.UnknownError": "Erreur inconnue",
         "Login.UnknownError.Description": "Une erreur inconnue s'est produite. Veuillez contacter notre support sur {supportUrl}.",
@@ -475,7 +475,7 @@
         "Register.InvalidDateOfBirth.Description": "Votre date de naissance est invalide.",
 
         "Register.UsernameContainsBlockedTerms": "Votre nom d'utilisateur contiens des mots bloqués",
-        "Register.UsernameContainsBlockedTerms.Description": "Votre nom d'utilisateur contiens de mots bloqués. Si vous pensez que c'est une erreur, contactez le support sur {supportUrl}.",
+        "Register.UsernameContainsBlockedTerms.Description": "Votre nom d'utilisateur contiens des mots bloqués. Si vous pensez que c'est une erreur, contactez le support sur {supportUrl}.",
 
         "Register.MissingPassword": "Mot de passe manquant",
         "Register.MissingPassword.Description": "Vous n'avez pas entré de mot de passe.",
@@ -553,7 +553,7 @@
         "Account.TOTP.Code.QRCode": "Scannez le code QR",
         "Account.TOTP.Code.Key": "Code secret:",
         "Account.TOTP.RecoveryCodes.Header": "Codes de récupération",
-        "Account.TOTP.RecoveryCodes.Description": "Enregistrez ces codes dans un endroit sécurisé. Ils peuvent être utilisés pour récupérer l'accès à votre compte au cas où vous perdriez ou endommageriez votre téléphone. Chaque code ne peut être utilisé qu'une seule fois. <b>Ne les partagez jamais avec qui que ce soit.</b> Si vous les perdez, vous perdrez <color=red>PERMANENTEMENT</color> l'accès à votre compte.",
+        "Account.TOTP.RecoveryCodes.Description": "Enregistrez ces codes dans un endroit sécurisé. Ils peuvent être utilisés pour récupérer l'accès à votre compte au cas où vous perdriez ou endommageriez votre téléphone. Chaque code ne peut être utilisé qu'une seule fois. <b>Ne les partagez jamais avec qui que ce soit.</b> Si vous les perdez, vous perdrez <color=red>DÉFINITIVEMENT</color> l'accès à votre compte.",
         "Account.TOTP.RecoveryCodes.Codes": "Codes:",
         "Account.TOTP.Activate.Header": "Activer 2FA",
         "Account.TOTP.Activate.Description": "Pour activer l'authentification a deux facteurs, utilisez le nombre a 6 chiffres généré par votre application d'authentification pour être sûr que tout fonctionne correctement. Une fois activé, vous devrez entrer le code pour confirmer certaines opérations.",
@@ -569,7 +569,7 @@
         "Account.TOTP.Deactivate.Description": "2FA est actuellement <b><color=green>configuré et actif sur votre compte</color></b>. Si vous devez le désactiver (par exemple en raison de la perte de votre téléphone ou de la compromission des codes), vous pouvez le faire ici.<br><br>Après la désactivation, vous pouvez à nouveau configurer 2FA, ce qui générera un tout nouveau code secret et un nouvel ensemble de codes de récupération.<br><br>Si vous perdez votre téléphone et devez configurer à nouveau 2FA, nous vous conseillons <b>FORTEMENT</b> de le faire immédiatement, car chaque code de récupération ne peut être utilisé qu'une seule fois et une fois épuisé, votre compte sera complètement bloqué.",
         "Account.TOTP.Deactivate.Deactivate": "Désactiver",
         "Account.TOTP.Deactivate.Deactivating": "Désactivation...",
-        "Account.TOTP.Message.DeactivationComplete": "2FA a été désactivé avec succès sur votre compte.<br><br>Votre compte est maintenant à risque accru !<br><br>Nous vous recommandons fortement de configurer à nouveau 2FA immédiatement, surtout si vous avez utilisé un code de récupération en raison de la perte de votre téléphone .",
+        "Account.TOTP.Message.DeactivationComplete": "2FA a été désactivé avec succès sur votre compte.<br><br>Votre compte est maintenant à risque accru!<br><br>Nous vous recommandons fortement de configurer à nouveau 2FA immédiatement, surtout si vous avez utilisé un code de récupération en raison de la perte de votre téléphone .",
 
         "Account.Type.Standard": "Compte Standard",
         "Account.Type.Business": "Compte Business",
@@ -581,7 +581,7 @@
         "Avatar.Badge.Live": "EN DIRECT",
 
         "2FA.Header": "Vérification 2FA",
-        "2FA.Token": "jeton à 6 chiffres:",
+        "2FA.Token": "Jeton à 6 chiffres:",
 
         "Profile.Status.Online": "En ligne",
         "Profile.Status.Away": "Inactif",
@@ -604,17 +604,17 @@
         "Session.JoinVerifier.EnableHeader": "Activer l'authentification customisée",
         "Session.JoinVerifier.EnableText": "<color=red>ATTENTION:</color> Vous allez activer l'authentification customisée qui fait partie du monde actif. Avant de procéder vérifiez que vous faites confiance au créateur du monde vu que l'authentification customisée peut bloquer n'importe qui de rejoindre le monde et peut passer outre les règles d'accès de session.",
         "Session.JoinVerifier.Label": "Utiliser l'authentification customisée: {name}",
-        "Session.JoinVerifier.ComponentWarning": "<color=red>ATTENTION:</color> Pour le moment, il n'y a aucune permission pour éviter la modification de l'authentification customisée. Si vous pensez que quelqu'un va modifier votre système, N'UTILISEZ PAS CETTE FONCTIONALITÉ!",
+        "Session.JoinVerifier.ComponentWarning": "<color=red>ATTENTION:</color> Pour le moment, il n'y a aucune permission pour éviter la modification de l'authentification customisée. Si vous pensez que quelqu'un va modifier votre système, N'UTILISEZ PAS CETTE FONCTIONNALITÉ!",
         "Session.JoinVerifier.SetCustomVerifier": "Sélectionner comme authentification customisée",
 
         "Permissions.NotAllowedToSpawn": "Vous n'êtes pas autorisé à matérialiser des choses ici.",
         "Permissions.NotAllowedToSave": "Vous n'êtes pas autorisé à sauvegarder des objets dans ce monde.",
-        "Permissions.NotAllowedToSwapAvatar": "Vous n'êtes pas autorisé à permuter vers un avatar personnalisé ici.",
+        "Permissions.NotAllowedToSwapAvatar": "Vous n'êtes pas autorisé à équiper un avatar personnalisé ici.",
 
         "User.Actions.Silence": "Mettre en sourdine",
         "User.Actions.Mute": "Sourdine",
         "User.Actions.Jump": "Saut",
-        "User.Actions.Respawn": "Rematérialiser",
+        "User.Actions.Respawn": "Re-matérialiser",
         "User.Actions.Kick": "Éjecter",
         "User.Actions.Ban": "Bannir",
 
@@ -625,10 +625,10 @@
         "Contacts.IgnoreRequest": "Ignorer la requête",
         "Contacts.Invite": "Inviter ici",
         "Contacts.RevokeInvite": "Révoquer l'invitation",
-        "Contacts.BanFromAllSessions": "Interdire l'accès à TOUTES mes sessions",
-        "Contacts.UnbanFromAllSessions": "Lever l'interdiction dans toutes mes sessions",
-        "Contacts.BanFromCurrentWorld": "Interdire l'accès à ce monde",
-        "Contacts.UnbanFromCurrentWorld": "Lever l'interdiction d'accès à ce monde",
+        "Contacts.BanFromAllSessions": "Bannir de TOUTES mes sessions",
+        "Contacts.UnbanFromAllSessions": "Dé-bannir de toutes mes sessions",
+        "Contacts.BanFromCurrentWorld": "Bannir de ce monde",
+        "Contacts.UnbanFromCurrentWorld": "Dé-bannir de ce monde",
         "Contacts.RecordingVoiceMessage": "Enregistrement du message...",
         "Contacts.Unblocked": "Débloquer",
         "Contacts.AvatarBlock": "Bloquer l'avatar",
@@ -749,7 +749,7 @@
         "Tooltip.MeshVisibility.DoubleSidedShadow": "Définir ombre double face",
 
         "Tooltip.Slicer.Add": "Ajouter découpage",
-        "Tooltip.Slicer.Clear": "Éffacer tout les découpages",
+        "Tooltip.Slicer.Clear": "Effacer tout les découpages",
 
         "Tooltip.Material.RayMode": "Mode rayon",
         "Tooltip.Material.AreaMode": "Mode zone",
@@ -1214,6 +1214,7 @@
         "Settings.WindowsSettings": "Paramètres Windows",
         "Settings.DebugSettings": "Débug",
         "Settings.LegacyFeatureSettings": "Fonctionnalités dépréciés",
+        "Settings.TwitchInterfaceSettings": "Interface de diffusion Twitch",
 
         "Settings.MessagingPrivacySettings": "Confidentialité de la messagerie",
 
@@ -1222,7 +1223,7 @@
         "Settings.NamePlateSettings": "Noms",
         "Settings.LaserSettings": "Interaction des lasers",
         "Settings.DesktopViewSettings": "Vue bureau",
-        "Settings.PhotoCaptureSettings": "Capture de photo",
+        "Settings.PhotoCaptureSettings": "Capture de photo rapide",
 
         "Settings.DesktopRenderSettings": "Options de rendu de bureau",
 
@@ -1299,6 +1300,12 @@
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description" : "Quand activé, cela contrôle comme la position des hanches est lissée en utilisant du fullbody tracking. Cela est utile pour éliminer des vibrations mais cela ralentis les pieds.",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description" : "Quand activé, cela contrôle comme la position des hanches est lissée en utilisant du fullbody tracking. Cela est utile pour éliminer des vibrations mais cela ralentis les pieds.",
 
+        "Settings.MediaPrivacySettings": "Confidentialité média",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Se retirer des métadonnées des photos",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Quand activé, vous serez exclus des métadonnées contenue dans les médias (photos et clips audio). Vous apparaîtrez toujours dans les photos mais aucune information comme votre ID utilisateur ne sera présente dans le fichier.\n\nSi vous connaissez quelqu'un modifiant leur jeu pour passer outre cette option, veuillez le reporter a la modération.",
+        "Settings.MediaPrivacySettings.HideInScreenshots": "Ne pas apparaître dans les photos",
+        "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Si activé, vous n'apparaîtrez pas dans le photos capturées en jeu.\n\n<color=hero.red>IMPORTANT:</color> Notez que cette option n'affecte pas les caméras en temps réel et les photos prises en dehors du jeu.",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Traquage des mains Leap Motion",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Quand activé, Leap Motion sera utilisé pour traquer vos mains et doigts.",
         "Settings.LeapMotionSettings.Offset": "Compensation du traquage des mains",
@@ -1314,6 +1321,31 @@
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Quand vos mains sont dans une certaine distance de vos manettes, elles vont s'attacher a elles et utiliser le traquage de celles-ci. Cette option contrôle a quelle distance cela arrive.",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Traquer les mains en utilisant les manettes",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "Quand les mains sont attachées a la manette, cela va poser les doigts en suivant les données envoyées par Vive.",
+
+        "Settings.TrackerSettings": "Options de traqueurs",
+        "Settings.TrackerSettings.UseTrackers": "Utiliser les traqueurs",
+        "Settings.TrackerSettings.UseTrackers.Description": "Cette option peut désactiver globalement le traqueurs. Cela peut être utile quand ils sont dans un coin pour charger pour éviter que votre avatar ne soit tout bizarre.",
+        "Settings.TrackerSettings.Trackers": "Gérer les traqueurs",
+        "Settings.TrackerSettings.Trackers.Breadcrumb": "Traqueurs",
+
+        "Settings.TrackerSettings.Trackers.UseTracker": "Utiliser le traqueur",
+        "Settings.TrackerSettings.Trackers.UseTracker.Description": "Est-ce que ce traqueur doit être activement utilisé? Vous pouvez temporairement le désactiver sans réinitialiser sa position.",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode": "Position du traqueur",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode.Description": "Sur quelle partie du corps ce traqueur se trouve.\n\nNous recommandons de faire la calibration au lieu de l'ajuster manuellement ici.",
+        "Settings.TrackerSettings.Trackers.MappedPosition": "Position définie",
+        "Settings.TrackerSettings.Trackers.MappedPosition.Description": "La position du traqueur relative à la partie du corps sur laquelle il se trouve.\n\nNous recommandons de faire la calibration au lieu de l'ajuster manuellement ici.",
+        "Settings.TrackerSettings.Trackers.MappedRotation": "Rotation définie",
+        "Settings.TrackerSettings.Trackers.MappedRotation.Description": "La rotation du traqueur relative à la partie du corps sur laquelle il se trouve.\n\nNous recommandons de faire la calibration au lieu de l'ajuster manuellement ici.",
+        "Settings.TrackerSettings.Trackers.UseInVR": "Utiliser en VR",
+        "Settings.TrackerSettings.Trackers.UseInVR.Description": "Est-ce que ce traqueur doit affecter votre avatar en mode VR?",
+        "Settings.TrackerSettings.Trackers.UseInDesktop": "Utiliser en mode bureau",
+        "Settings.TrackerSettings.Trackers.UseInDesktop.Description": "Est-ce que ce traqueur doit affecter votre avatar en mode bureau?",
+        "Settings.TrackerSettings.Trackers.TrackerID": "ID du traqueur",
+        "Settings.TrackerSettings.Trackers.TrackerID.Description": "L'ID unique du traqueur. Cette information est considérée privée et n'est pas le même qui va être dans le monde.",
+        "Settings.TrackerSettings.Trackers.TrackerBattery": "Batterie du traqueur",
+        "Settings.TrackerSettings.Trackers.TrackerBattery.Description": "Le niveau de batterie du traqueur. Certains traqueurs ne supportent pas cette fonctionnalité.",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging": "Est en train de charger",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "Cela indique si le traqueur est en train de charger.",
 
         "Settings.UserMetricsSettings.UserHeight": "Taille",
         "Settings.UserMetricsSettings.UserHeight.Description": "Votre taille dans la vraie vie qui est utilisée pour mettre a l'échelle correctement votre avatar. Cela est aussi la taille a laquelle vous serez en mode assis.\n\nVous pouvez entrer votre taille avec différentes unités, par exemple <color=hero.yellow>175 cm</color> ou <color=hero.yellow>1.75m</color> pour le système métrique, ou <color=hero.yellow>5'11\"</color> pour le système impérial.",
@@ -1342,7 +1374,7 @@
         "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "Ajuste le volume des effets sonores de l'interface.",
 
         "Settings.AudioAccessibilitySettings.WhisperVolume": "Volume du mode chuchotement",
-        "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Ajuste le volume des sons a l’extérieur de la sphère de chuchotement.",
+        "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Ajuste le volume des sons a l'extérieur de la sphère de chuchotement.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Volume des messages vocaux",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Ajuste le volume des sons ambiants quand vous enregistrez un message vocal.",
 
@@ -1360,7 +1392,7 @@
         "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Seuil de normalisation",
         "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Utiliser cette option va définir a quel point l'audio entrant sera amplifié. Si votre voix est trop faible et non amplifiée, réduisez la valeur. Si du bruit est amplifié, augmentez la valeur.",
 
-        "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Supression de bruit (RNNoise)",
+        "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Suppression de bruit (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Cette fonctionnalité retire les bruits et autres sons indésirables de votre audio. Nous recommandons vivement de laisser option activée.",
 
         "Settings.RealtimeNetworkingSettings.DisableLAN": "Désactiver LAN",
@@ -1377,7 +1409,7 @@
         "Settings.HostAccessSettings.Entries.Breadcrumb": "Entrées d'accès d'hôte",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "Autoriser les requêtes HTTP",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description": "Cela indique si vous autorisez le service a faire des requêtes HTTP pour accéder a des APIs.",
-        "Settings.HostAccessSettings.Entries.AllowWebsockets": "Autoriser les websockets",
+        "Settings.HostAccessSettings.Entries.AllowWebsockets": "Autoriser les WebSocket",
         "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Cela indique si vous autorisez le service a recevoir des requêtes WebSocket pour de la communication en temps réel.",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Raison de la dernière requête HTTP",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Raison de la dernière requête websocket",
@@ -1398,6 +1430,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Quand activé, vous pourrez équiper des objets et gadgets en pressant grip en rapide succession. Cette option va probablement être retirée a un certain point.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Utiliser l'ancien commutateur de mondes",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Quand activé, le bouton d'application sur votre manette non primaire ouvrira un ancien commutateur de mondes. Cette option sera remplacée par une plus flexible dans le futur.",
+
+        "Settings.TwitchInterfaceSettings.ChannelName": "Nom de la chaîne Twitch",
+        "Settings.TwitchInterfaceSettings.ChannelName.Description": "Cette option définis la chaîne Twitch par défaut utilisée par le panneau de chat Twitch. Cela est principalement utilisé par les créateurs de contenu.",
 
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Ne pas envoyer les accusés de lecture",
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "Quand activé, les autres ne pourront pas voir quand vous avez lu leurs messages. Vous ne pourrez pas non plus voir quand ils auront lu les votres.",
@@ -1453,6 +1488,10 @@
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Capture les photos en mode stéréoscopique. Cela est utile pour les voir en VR.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Chemin de sauvegarde automatique",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Quand vous prenez ou sauvegardez une photo, cela va la sauvegarder dans ce chemin dans votre inventaire. Par exemple: <color=hero.yellow>Photos/%year%/%month_name%</color>.\n\nLes variables suivantes sont disponibles: \n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI": "Capturer les interfaces privées",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "Quand activé, cela permet de capturer les interfaces privées tels que votre tableau de bord. Cela peut être utile pour montrer certaines choses. Il est recommandé de laisser cette option désactivée.",
+        "Settings.PhotoCaptureSettings.EncodeFormat": "Format d'encodage",
+        "Settings.PhotoCaptureSettings.EncodeFormat.Description": "Le format d'image dans lequel la photo sera encodée. Si vous avez besoin d'un format spécifique, définissez le ici.\n\nCertains formats ne possèdent pas certaines fonctionnalités comme avoir de l'alpha. D'autres ont des temps d'encodage plus long et créent des fichiers plus gros.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Champ de vision",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Définis le champ de vision en mode bureau.",
@@ -1522,11 +1561,43 @@
         "Settings.DescriptionField.NoTextTitle": "Plus d'informations",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Survolez le paramètre pour voir sa description.</closeall>",
 
+        "Settings.RelaySettings": "Relais",
+        "Settings.RelaySettings.AlwaysUseRelay": "Forcer l'utilisation du relais",
+        "Settings.RelaySettings.AlwaysUseRelay.Description": "Les relais sont généralement utilisés dans le cas ou une connexion directe ne peut pas être établie avec l'hôte de la session. En activant cette options, votre connexion va toujours passer par un relais.\n\nCela peut être utile dans le cas de problèmes de connexion vers certains hôtes. Il n'est <b>PAS</b> recommandé de laisser cette option activée tout le temps.",
+        "Settings.RelaySettings.UseClosestAvailableRelay": "Utiliser le relais le plus proche",
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description": "Quand cette option est activée, le relais le plus proche est automatiquement sélectionné pour la connexion. Si vous voulez vous connecter a un relais spécifique (par exemple, lors de connexions longue distances), vous pouvez désactiver cette option et configurer les relais manuellement ci-dessous.",
+        "Settings.RelaySettings.RelayPriorities": "Configurer les priorités de relais",
+        "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Priorités des relais",
+
+        "Settings.PostProcessingSettings": "Post-traitement",
+        "Settings.PostProcessingSettings.MotionBlurIntensity": "Intensité du flou de mouvement",
+        "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Cette option contrôle l'intensité du flou de mouvement. Définir cette valeur à <nobr><color=hero.yellow>0 %</color></nobr> désactive cet effet.",
+        "Settings.PostProcessingSettings.BloomIntensity": "Intensité du flou lumineux",
+        "Settings.PostProcessingSettings.BloomIntensity.Description": "Le flou lumineux fait en sorte que les lumières brillent plus dans une scène. Définir la valeur à <nobr><color=hero.yellow>0 %</color></nobr> désactive cet effet.",
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity": "Intensité de l'occlusion ambiante",
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description": "L'occlusion ambiante rajoute du noir dans les coins de la scène qui devraient recevoir moins de lumière. Cela peut donner au monde plus de profondeur et de réalisme. Il est a noter que définir cette valeur trop basse ou la désactiver peut changer l'apparence de certains mondes. Définir la valeur à <nobr><color=hero.yellow>0 %</color></nobr> désactive cet effet.",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections": "Réflexions d'espace d'écran <size=75%>(expérimental)</size>",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "Quand activées, les parties de la scène visibles a la caméra vont refléter les parties du monde brillantes en temps réel. Cela peut rendre les mondes plus beau, au coût de performance. Ce filtre est considéré expérimental et ne fonctionne que dans certains scénarios spécifiques.",
+        "Settings.PostProcessingSettings.Antialiasing": "Anti crénelage",
+        "Settings.PostProcessingSettings.Antialiasing.Description": "L'anti crénelage lisse les côtés des objets dans une scène. Vous pouvez sélectionner plusieurs filtres. FXAA est le plus communément utilisé, mais peut rendre des parties des la scène flous (comme du texte).",
+
+        "Settings.RenderingQualitySettings" : "Qualité de rendu",
+        "Settings.RenderingQualitySettings.PerPixelLights" : "Lumière par pixel",
+        "Settings.RenderingQualitySettings.PerPixelLights.Description" : "Cette option contrôle combien de spots et points de lumière affectent les objets rendus - typiquement les objets transparents et non-PBS (toon). Cela rend le rendu plus beau avec un coût de performance.",
+        "Settings.RenderingQualitySettings.ShadowCascades" : "Cascade d'ombres",
+        "Settings.RenderingQualitySettings.ShadowCascades.Description" : "Cette option contrôle la résolution des ombres en cascade pour les lumières directionnelles dans le monde. Les cascades distribuent mieux la carte d'ombres avec une résolution plus haute proche et plus basse de loin, mais coûtant plus de performance.",
+        "Settings.RenderingQualitySettings.ShadowResolution" : "Résolution des ombres",
+        "Settings.RenderingQualitySettings.ShadowResolution.Description" : "Cela contrôle la résolution des ombres pour les lumières. Augmenter cette valeur va lisser les ombres mais va avoir un impact sur la performance.\n\nCertaines lumières passent outre les ombres et ne seront pas affectés par cette option.",
+        "Settings.RenderingQualitySettings.ShadowDistance" : "Distance des ombres",
+        "Settings.RenderingQualitySettings.ShadowDistance.Description" : "Cette option contrôle la distance que couvrent les ombres. Augmenter cette valeur va fair en sorte que les ombres soient rendues plus loin mais va étaler les détails sur une plus grande distance.\n\nCombinez cette option avec la cascade d'ombres. Si vous baissez la cascade d'ombres, baissez aussi la distance des ombres pour avoir un meilleur résultat.",
+        "Settings.RenderingQualitySettings.SkinWeightMode" : "Poids d'os dynamiques",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "Pour chaque maillage polygonal (modèles 3D qui sont déformés par des os, ce qui est le cas des avatars), cette option contrôle combien d'os affectent la position de chaque vertex.\n\nBaisser cette valeur peut augmenter la performance mais la qualité de déformation sera moindre.",
+
         "LocomotionArchetype.Walk": "Marche",
         "LocomotionArchetype.Fly": "Vol",
         "LocomotionArchetype.NoClip": "Sans collisions",
         "LocomotionArchetype.Teleport": "Téléportation",
-        "LocomotionArchetype.GrabWorld": "Attrapper le monde",
+        "LocomotionArchetype.GrabWorld": "Attraper le monde",
         "LocomotionArchetype.NoLocomotion": "Pas de locomotion",
         "LocomotionArchetype.ThreeAxisNoClip": "Sans collisions trois axes",
         "LocomotionArchetype.ThreeAxisFly": "Vol trois axes",
@@ -1602,7 +1673,7 @@
         "Inspector.Mesh.BlendshapeCount": "Nombre de Blendshapes: {n}",
         "Inspector.Mesh.ChannelStats": "Normales: {normals}, Tangentes: {tangents}, Couleurs: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
 
-        "Inspector.Mesh.BakeMesh": "Précalculer le modèle",
+        "Inspector.Mesh.BakeMesh": "Pré-calculer le modèle",
         "Inspector.Mesh.SetupRenderer": "Configurer le moteur de rendu",
         "Inspector.Mesh.ResaveMesh": "Sauvegarder le modèle à nouveau",
         "Inspector.Mesh.RecalculateNormals": "Recalculer les normales",
@@ -1900,7 +1971,7 @@
         "Wizard.TextRenderer.ReplaceFont": "Remplacer la police d'écriture",
         "Wizard.TextRenderer.SetColor": "Définir la couleur",
 
-        "Desktop.Controls.Title": "Contrôles Desktop",
+        "Desktop.Controls.Title": "Contrôles Bureau",
         "Desktop.OpenKeyboard": "Ouvrir le clavier",
         "Desktop.FollowCursor.On": "Suivre le curseur : Actif",
         "Desktop.FollowCursor.Off": "Suivre le curseur : Inactif",
@@ -2137,7 +2208,7 @@
         "CloudHome.Info.ToolsTab.Content": "La marque de fabrique de {appName} est que tu peut créer et modifier super facilement tout ce qui est en jeu.<br><br>Oui, cela veux dire ici, ou n'importe ou! Les outils sont disponibles dans le dossier <i><color=hero.purple>Essentials -> Tools</color></i> dans ton inventaire et vont te permettre d'éditer le monde facilement.",
 
         "CloudHome.Info.HelpTab.Title": "Obtenir de l'aide",
-        "CloudHome.Info.HelpTab.InfoLineOne": "Besoin d'aide? Jette un coup d’œil au <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink> ou demande sur le <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink>.",
+        "CloudHome.Info.HelpTab.InfoLineOne": "Besoin d'aide? Jette un coup d'œil au <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink> ou demande sur le <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink>.",
         "CloudHome.Info.HelpTab.InfoLineTwo": "Tu peux voir une vue de ton bureau dans ton tableau de bord, dans l'onglet <i><color=hero.purple>Bureau</color></i>.",
 
         "CloudHome.Info.UsersTab.Title": "Trouver des utilisateurs",
