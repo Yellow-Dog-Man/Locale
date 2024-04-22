@@ -2,7 +2,11 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Korean [ko]
-Settings.TwitchInterfaceSettings  
+Settings.GamepadSettings  
+Settings.GamepadSettings.ThumbstickLookSpeed  
+Settings.GamepadSettings.ThumbstickLookSpeed.Description  
+Settings.GamepadSettings.ThumbstickLookExponent  
+Settings.GamepadSettings.ThumbstickLookExponent.Description  
 Settings.MediaPrivacySettings  
 Settings.MediaPrivacySettings.MediaMetadataOptOut  
 Settings.MediaPrivacySettings.MediaMetadataOptOut.Description  
@@ -34,17 +38,4 @@ Settings.TrackerSettings.Trackers.TrackerIsCharging.Description
 Settings.VoiceSettings  
 Settings.VoiceSettings.MutePersistence  
 Settings.VoiceSettings.MutePersistence.Description  
-Settings.TwitchInterfaceSettings.ChannelName  
-Settings.TwitchInterfaceSettings.ChannelName.Description  
-Settings.RenderingQualitySettings  
-Settings.RenderingQualitySettings.PerPixelLights  
-Settings.RenderingQualitySettings.PerPixelLights.Description  
-Settings.RenderingQualitySettings.ShadowCascades  
-Settings.RenderingQualitySettings.ShadowCascades.Description  
-Settings.RenderingQualitySettings.ShadowResolution  
-Settings.RenderingQualitySettings.ShadowResolution.Description  
-Settings.RenderingQualitySettings.ShadowDistance  
-Settings.RenderingQualitySettings.ShadowDistance.Description  
-Settings.RenderingQualitySettings.SkinWeightMode  
-Settings.RenderingQualitySettings.SkinWeightMode.Description  
 

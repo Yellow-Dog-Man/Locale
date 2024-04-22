@@ -150,6 +150,11 @@ Settings.MovementSettings.MovementDeadzone
 Settings.MovementSettings.MovementDeadzone.Description  
 Settings.MovementSettings.MovementExponent  
 Settings.MovementSettings.MovementExponent.Description  
+Settings.GamepadSettings  
+Settings.GamepadSettings.ThumbstickLookSpeed  
+Settings.GamepadSettings.ThumbstickLookSpeed.Description  
+Settings.GamepadSettings.ThumbstickLookExponent  
+Settings.GamepadSettings.ThumbstickLookExponent.Description  
 Settings.MouseSettings.MouseSensitivity  
 Settings.MouseSettings.MouseSensitivity.Description  
 Settings.MouseSettings.MouseLookSpeed  
