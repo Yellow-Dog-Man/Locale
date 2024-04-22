@@ -1265,6 +1265,12 @@
         "Settings.MovementSettings.MovementExponent": "Экспонента скорости",
         "Settings.MovementSettings.MovementExponent.Description": "Используйте чтобы контролировать кривую ускорения при движении. Вы можете начать двигаться медленно и затем ускориться млм сразу начать двигаться быстро, в зависимости от того, является ли значение больше или меньше 1.0",
 
+        "Settings.GamepadSettings": "Геймпад",
+        "Settings.GamepadSettings.ThumbstickLookSpeed": "Скорость поворота камеры",
+        "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Настраивает скорость, с которой камера поворачивается стиком.",
+        "Settings.GamepadSettings.ThumbstickLookExponent": "Экспонента поворота камеры",
+        "Settings.GamepadSettings.ThumbstickLookExponent.Description": "Настраивает кривую ответа поворота камеры стиком. С этой настройкой вы можете начать движение плавно и затем нарастить скорость или наоборот начать движение быстрее, в зависимости от того, больше или меньше значение этого параметра чем 1.0.",
+
         "Settings.MouseSettings.MouseSensitivity": "Чувствительность",
         "Settings.MouseSettings.MouseSensitivity.Description": "Общая чувствительность мыши для экранного режима.",
         "Settings.MouseSettings.MouseLookSpeed": "Скорость поворота камеры",
@@ -1394,6 +1400,10 @@
 
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Подавление шума (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Эта функциональность обрабатывает записываемое аудио чтобы отфильтровать различные мешающие шумы. Она может значительно очистить звук, написанный на шумный микрофон, и получить более чистый голос. Настоятельно рекомендуем оставить эту настройку включенной. С другой стороны, она может отфильтровать некоторые звуки, которые не определяются как речь.",
+
+        "Settings.VoiceSettings" : "Настройки голоса",
+        "Settings.VoiceSettings.MutePersistence" : "Запоминать отключения микрофона",
+        "Settings.VoiceSettings.MutePersistence.Description" : "<color=hero.yellow>Start Unmuted:</color> При запуске, микрофон всегда включен.\n\n<color=hero.yellow>Start Muted:</color> При запуске, микрофон всегда отключен. Вам нужно будет или поменять режим голоса, или использовать клавишу \"push to talk\" (по умолчанию V) чтобы говорить.\n\n<color=hero.yellow>Remember Last: </color> При запуске, будет восстановлено последнее запомненное состояние микрофона.",
 
         "Settings.RealtimeNetworkingSettings.DisableLAN": "Отключить LAN",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Выключает функциональности локальной сети, такие как широковещательное объявление вашей сессии в локальной сети или обнаружение сессий других пользователей в этой локальной сети.",
