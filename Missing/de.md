@@ -31,6 +31,9 @@ Settings.TrackerSettings.Trackers.TrackerBattery
 Settings.TrackerSettings.Trackers.TrackerBattery.Description  
 Settings.TrackerSettings.Trackers.TrackerIsCharging  
 Settings.TrackerSettings.Trackers.TrackerIsCharging.Description  
+Settings.VoiceSettings  
+Settings.VoiceSettings.MutePersistence  
+Settings.VoiceSettings.MutePersistence.Description  
 Settings.TwitchInterfaceSettings.ChannelName  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.PostProcessingSettings  

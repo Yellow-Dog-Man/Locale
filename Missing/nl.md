@@ -468,6 +468,9 @@ Settings.AudioInputFilteringSettings.NormalizationThreshold
 Settings.AudioInputFilteringSettings.NormalizationThreshold.Description  
 Settings.AudioInputFilteringSettings.UseNoiseSuppression  
 Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description  
+Settings.VoiceSettings  
+Settings.VoiceSettings.MutePersistence  
+Settings.VoiceSettings.MutePersistence.Description  
 Settings.RealtimeNetworkingSettings.DisableLAN  
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking  
