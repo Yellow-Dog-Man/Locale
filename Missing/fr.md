@@ -7,6 +7,8 @@ Settings.GamepadSettings.ThumbstickLookSpeed
 Settings.GamepadSettings.ThumbstickLookSpeed.Description  
 Settings.GamepadSettings.ThumbstickLookExponent  
 Settings.GamepadSettings.ThumbstickLookExponent.Description  
+Settings.TrackerSettings.Trackers.CustomName  
+Settings.TrackerSettings.Trackers.CustomName.Description  
 Settings.VoiceSettings  
 Settings.VoiceSettings.MutePersistence  
 Settings.VoiceSettings.MutePersistence.Description  

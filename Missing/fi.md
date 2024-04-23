@@ -184,6 +184,8 @@ Settings.TrackerSettings.Trackers
 Settings.TrackerSettings.Trackers.Breadcrumb  
 Settings.TrackerSettings.Trackers.UseTracker  
 Settings.TrackerSettings.Trackers.UseTracker.Description  
+Settings.TrackerSettings.Trackers.CustomName  
+Settings.TrackerSettings.Trackers.CustomName.Description  
 Settings.TrackerSettings.Trackers.MappedBodyNode  
 Settings.TrackerSettings.Trackers.MappedBodyNode.Description  
 Settings.TrackerSettings.Trackers.MappedPosition  
