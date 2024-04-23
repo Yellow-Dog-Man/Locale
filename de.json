@@ -1265,6 +1265,12 @@
         "Settings.MovementSettings.MovementExponent": "Bewegungs-Exponent",
         "Settings.MovementSettings.MovementExponent.Description": "Hiermit können Sie die Reaktionskurve beim Bewegen beeinflussen. Je nachdem, ob dieser Wert über oder unter 1.0 ist, bewegen Sie sich entweder anfangs langsam und beschleunigen dann oder starten direkt schneller.",
 
+        "Settings.GamepadSettings": "Gamepad",
+        "Settings.GamepadSettings.ThumbstickLookSpeed": "Thumbstick Schwenkgeschwindigkeit",
+        "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Hier können Sie die Empfindlichkeit des Thumbsticks einstellen, mit dem Sie ihre Blickrichtung ändern.",
+        "Settings.GamepadSettings.ThumbstickLookExponent": "Thumbstick Schwenk-Exponent",
+        "Settings.GamepadSettings.ThumbstickLookExponent.Description": "Hiermit stellen Sie die Kurvenform der Änderung der Blickrichtung ein. Entweder beginnt die Bewegung zunächst langsam und wird dann schneller oder sie beginnt sofort mit einer schnelleren Bewegung, je nachdem, ob der eingestellte Wert über oder unter 1,0 liegt.",
+
         "Settings.MouseSettings.MouseSensitivity": "Empfindlichkeit",
         "Settings.MouseSettings.MouseSensitivity.Description": "Dies beeinflusst die generelle Mausempfindlichkeit für Desktop-Interaktionen.",
         "Settings.MouseSettings.MouseLookSpeed": "Schwenkgeschwindigkeit",
@@ -1300,6 +1306,12 @@
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description" : "Wenn dies aktiviert ist bestimmt es, wie stark die Position ihrer Hüfte beim verwenden von Ganzkörper-Tracking geglättet wird. Dies kann hilfreich sein um Vibrationen und Zittern zu eliminieren, es sorgt aber auch dafür, dass die Tracker träger sind und nicht mehr gut auf schnelle Bewegungen reagieren.",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description" : "Wenn dies aktiviert ist bestimmt es, wie stark die Rotation ihrer Hüfte beim verwenden von Ganzkörper-Tracking geglättet wird. Dies kann hilfreich sein um Vibrationen und Zittern zu eliminieren, es sorgt aber auch dafür, dass die Tracker träger sind und nicht mehr gut auf schnelle Bewegungen reagieren.",
 
+        "Settings.MediaPrivacySettings": "Datenschutz in Medien",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Verweigern von Medien-Metadaten",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Wenn Sie diese Option aktivieren, werden Ihre Metadaten aus aufgenommenen Medien (typischerweise virtuelle Fotos und Audioaufnahmen) herausgehalten. Sie werden weiterhin in diesen Medien erscheinen, aber es werden keine zusätzlichen Informationen wie Ihre UserID und Ihre Position in der Szene mitgespeichert.\n\nWenn Sie bemerken, dass Benutzer ihr Resonite-Programm so modifizieren, dass es diese Option ignoriert, melden Sie sie bitte dem Moderationsteam, da dies als Belästigung gewertet wird.",
+        "Settings.MediaPrivacySettings.HideInScreenshots": "Zeigen sie mich nicht in Screenshots",
+        "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Wenn dies aktiviert ist, werden Sie auf Screenshots, die im Spiel aufgenommen wurden, nicht dargestellt.\n\n<color=hero.red>WICHTIG:</color> Bitte beachten Sie, dass dies keine Auswirkungen auf Echtzeitkameras, mit Methoden außerhalb des Spiels aufgenommenen Screenshots, oder Aufnahmen, die möglicherweise mit anderen Methoden als Teil der Weltmechanik in der virtuellen Welt gemacht werden, hat.",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion Hand Tracking",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Wenn dies aktiviert ist, wird ein Leap Motion Gerät zum Verfolgen Ihrer Hände verwendet, sofern es vorhanden ist.",
         "Settings.LeapMotionSettings.Offset": "Hand Tracking Versatz",
@@ -1315,6 +1327,31 @@
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Wenn Ihre Hände sich innerhalb dieser Distanz zu einem Controller befinden, werden die Tracking-Informationen vom Controller zur Positionsbestimmung verwendet.",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Verfolge Hände bei Verwendung von Controllern",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "Wenn Ihre Hände an einem Controller eingerastet sind, bestimmt diese Einstellung, ob die Fingerpositionen weiterhin von den Kameras ihres VR-Headsets bestimmt werden sollen.",
+
+        "Settings.TrackerSettings": "Tracker Einstellungen",
+        "Settings.TrackerSettings.UseTrackers": "Tracker verwenden",
+        "Settings.TrackerSettings.UseTrackers.Description": "Diese Option deaktiviert global alle Körper-Tracker. Dies kann nützlich sein, wenn Ihr Avatar zusammengefallen ist, weil z.B. Ihre Tracker zum Aufladen in einer Ecke liegen.",
+        "Settings.TrackerSettings.Trackers": "Tracker verwalten",
+        "Settings.TrackerSettings.Trackers.Breadcrumb": "Tracker",
+
+        "Settings.TrackerSettings.Trackers.UseTracker": "Tracker verwenden",
+        "Settings.TrackerSettings.Trackers.UseTracker.Description": "Soll dieser Tracker verwendet werden? Sie können einen Tracker hier vorübergehend deaktivieren, ohne dass seine Zuordnung verloren geht.",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode": "Tracker Zuordnung",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode.Description": "Welchem Körperteil dieser Tracker für die Ganzkörpererfassung zugeordnet ist.\n\nWir empfehlen, dies über die Ganzkörperkalibrierung einzustellen, anstatt sie hier manuell anzupassen.",
+        "Settings.TrackerSettings.Trackers.MappedPosition": "Position der Zuordnung",
+        "Settings.TrackerSettings.Trackers.MappedPosition.Description": "Die Position des Trackers relativ zu seinem zugeordneten Körperteil.\n\nWir empfehlen, dies über die Ganzkörperkalibrierung einzustellen, anstatt sie hier manuell anzupassen.",
+        "Settings.TrackerSettings.Trackers.MappedRotation": "Rotation der Zuordnung",
+        "Settings.TrackerSettings.Trackers.MappedRotation.Description": "Die Rotation des Trackers relativ zu seinem zugeordneten Körperteil.\n\nWir empfehlen, dies über die Ganzkörperkalibrierung einzustellen, anstatt sie hier manuell anzupassen.",
+        "Settings.TrackerSettings.Trackers.UseInVR": "Im VR-Modus verwenden",
+        "Settings.TrackerSettings.Trackers.UseInVR.Description": "Soll dieser Tracker Ihren Avatar im VR-Modus beeinflussen?",
+        "Settings.TrackerSettings.Trackers.UseInDesktop": "Im Desktop-Modus verwenden",
+        "Settings.TrackerSettings.Trackers.UseInDesktop.Description": "Soll dieser Tracker Ihren Avatar im Desktop-Modus beeinflussen?",
+        "Settings.TrackerSettings.Trackers.TrackerID": "Tracker ID",
+        "Settings.TrackerSettings.Trackers.TrackerID.Description": "Eindeutige ID dieses Trackers. Dies ist eine private Information, es ist nicht dieselbe ID, die in der Welt angezeigt wird. Dies verhindert die Verfolgung durch Fingerprinting.",
+        "Settings.TrackerSettings.Trackers.TrackerBattery": "Tracker Ladezustand",
+        "Settings.TrackerSettings.Trackers.TrackerBattery.Description": "Dies ist der aktuelle Ladezustand dieses Trackers. Bitte beachten Sie, dass einige Tracker möglicherweise nicht ihren Ladezustand melden können.",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging": "Wird geladen",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "Dies zeigt an, dass ein Tracker zurzeit aufgeladen wird. Bitte beachten Sie, dass einige Tracker diese Information nicht melden können.",
 
         "Settings.UserMetricsSettings.UserHeight": "Körpergröße",
         "Settings.UserMetricsSettings.UserHeight.Description": "Dies ist Ihre tatsächliche Körpergröße. Sie wird zur Skalierung Ihres Avatars benutzt, damit er gut passt. Auch bei aktivem 'Sitz-Modus' werden Sie auf diese Höhe platziert. Sie können Ihre Größe in verschiedenen Einheiten eingeben, z.B. als <nobr><color=hero.yellow>175 cm</color></nobr> oder <nobr><color=hero.yellow>1,75 m</color></nobr> im metrischen System oder <color=hero.yellow>5'11\"</color> für das imperiale System.",
@@ -1363,6 +1400,10 @@
 
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Rauschunterdrückungsfilter (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Diese Funktion verarbeitet das eingehende Tonsignal und filtert unerwünschte Geräusche heraus. Dies kann den Ton von einem rauschenden Mikrofon erheblich verbessern und eine klarere Stimme erzeugen. Wir empfehlen diese Einstellung aktiviert zu lassen. Allerdings können Geräusche herausgefiltert werden, wenn sie nicht als Sprache erkannt werden.",
+
+        "Settings.VoiceSettings": "Stimm-Einstellungen",
+        "Settings.VoiceSettings.MutePersistence": "Stummschaltungs-Persistenz",
+        "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Starte nicht Stummgeschaltet:</color> Bei jedem Login starten Sie mit nicht stummgeschalteter Stimme.\n\n<color=hero.yellow>Starte Stummgeschaltet:</color> Bei jeder Anmeldung starten Sie mit stummgeschalteter Stimme. Sie können entweder die Stummschaltung aufheben oder die Sprechtaste (standardmäßig V) zum Sprechen drücken.\n\n<color=hero.yellow>Letzte gewählte Einstellung:</color> Ihre gewählte Einstellung wird beim Abmelden gespeichert und bei der Anmeldung wiederhergestellt.",
 
         "Settings.RealtimeNetworkingSettings.DisableLAN": "LAN deaktivieren",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Dies deaktiviert Netzwerkfunktionen in ihrem lokalen Netzwerk, zum Beispiel das Übertragen ihrer Sitzungen oder suchen nach anderen lokalen Sitzungen.",
@@ -1461,7 +1502,7 @@
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "Wenn diese Option aktiviert ist, wird die schnelle Fotoaufnahme Ihre private Benutzeroberfläche, wie z.B. das Dash-Menü, abbilden. Dies kann nützlich sein, falls Sie die dort dargestellten Informationen aufnehmen wollen.\n\nWir empfehlen, diese Einstellung zu deaktivieren, sobald Sie mit der beabsichtigten Aufnahme fertig sind, sonst kann es versehentlich zu einer Aufnahme und Weitergabe Ihrer privaten Daten kommen.",
         "Settings.PhotoCaptureSettings.EncodeFormat" : "Dateiformat",
         "Settings.PhotoCaptureSettings.EncodeFormat.Description" : "Dies ist das Bild-Dateiformat, in dem die aufgenommenen Fotos gespeichert werden. Wenn Sie die Fotos in einem bestimmten Dateiformat benötigen, können Sie dieses mit dieser Einstellung auswählen.\n\nBitte beachten Sie, dass nicht jedes Dateiformat alle Fähigkeiten unterstützt (wie z.B. ein Alphakanal), die Kodierung langsamer, die Bildqualität schlechter oder die Dateien größer sein können.",
-        
+
         "Settings.DesktopRenderSettings.FieldOfView": "Sichtfeld",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Hiermit können Sie ihr Sichtfeld (FOV) anpassen, wenn Sie im Desktop-Modus sind. Höhere Werte verursachen eine weitere Sicht, haben jedoch auch mehr Verzerrungen am Rand.",
 
@@ -1561,7 +1602,6 @@
         "Settings.RenderingQualitySettings.ShadowDistance.Description": "Diese Einstellung steuert die Entfernung, die die Schatten abdecken. Große Werte decken weiter entfernte Teile der Szene richtig mit Schatten ab, aber dadurch werden auch die Details des Schattens über einen größeren Bereich gestreckt.\n\nSie sollten diese Einstellung zusammen mit den Schatten-Kaskaden und der Auflösung einstellen - mit einer höheren Schatten-Auflösung können Sie sich eine größere Schatten-Distanz leisten. Wenn Sie die Schatten-Auflösung und die Kaskaden verringern, sollten Sie auch die Schatten-Distanz verkleinern, damit die Schatten besser definiert sind.",
         "Settings.RenderingQualitySettings.SkinWeightMode": "Oberflächen-Gewichtung (Skin Weights)",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Bei Skinned-Meshes (3D-Modelle, deren Oberfläche durch Knochen verformt werden, wie die meisten Avatare) steuert dieser Wert, wie viele Knochen verwendet werden, um die Position jedes Vertex zu beeinflussen.\n\nWenn Sie diesen Wert verringern, sparen Sie etwas Rechenleistung, aber die Qualität der Verformung wird schlechter. Dies führt typischerweise zu scharfen Falten und anderen Artefakten um Gelenke herum.",
-
 
         "LocomotionArchetype.Walk": "Gehen",
         "LocomotionArchetype.Fly": "Fliegen",
