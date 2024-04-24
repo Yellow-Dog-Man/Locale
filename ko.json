@@ -1265,6 +1265,12 @@
         "Settings.MovementSettings.MovementExponent": "컨트롤러 가속 계수",
         "Settings.MovementSettings.MovementExponent.Description": "이동시 조이스틱의 기울기에 비례하여 가속되는 비율을 설정합니다.",
 
+        "Settings.GamepadSettings": "게임패드",
+        "Settings.GamepadSettings.ThumbstickLookSpeed": "아날로그 스틱 감도",
+        "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "시점 이동 속도(마우스 감도와 의미상 동일)를 조정합니다.",
+        "Settings.GamepadSettings.ThumbstickLookExponent": "시점 이동시 가속 계수",
+        "Settings.GamepadSettings.ThumbstickLookExponent.Description": "아날로그 스틱으로 시점 이동시 가속 속도를 지정합니다. 1.0을 기준으로 천천히 가속할지 빠르게 가속할지 또는 즉시 최대 이동속도로 움직일지를 결정합니다.",
+        
         "Settings.MouseSettings.MouseSensitivity": "민감도",
         "Settings.MouseSettings.MouseSensitivity.Description": "데스크탑 모드에서 마우스의 민감도를 설정합니다.",
         "Settings.MouseSettings.MouseLookSpeed": "1인칭/3인칭 마우스 감도",
@@ -1299,6 +1305,12 @@
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing" : "허리의 회전각간 보간 처리",
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description" : "활성할 경우, 허리의 위치 변화를 매끄럽게 표현합니다. 다만, 이것은 떨림과 지터를 제거하는 데 유용할 수 있지만 트래커의 물리적 위치 변화에 대해 느린 반응을 보이게 됩니다.",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description" : "활성할 경우, 허리의 각도 변화를 매끄럽게 표현합니다. 다만, 이것은 떨림과 지터를 제거하는 데 유용할 수 있지만 트래커의 물리적 위치 변화에 대해 느린 반응을 보이게 됩니다.",
+
+        "Settings.MediaPrivacySettings" : "미디어에 대한 개인정보 보호",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut" : "미디어 내 사용자 정보 기록 중지",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description" : "옵션을 활성화 하면, 게임 내에서 촬영 또는 녹음되는 미디어(사진, 오디오 등)에 자동 기록되는 메타 데이터에 본인의 정보를 기록하지 않습니다.\n\n클라이언트 개조등을 통해 이 옵션을 무력화 하려는 사용자를 발견한 경우, 이는 괴롭힘으로 간주될 수 있습니다. 중재팀에 신고해 주세요.",
+        "Settings.MediaPrivacySettings.HideInScreenshots" : "스크린샷 캡쳐시 제외 처리",
+        "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "활성화 한 경우, 게임 내에서 촬영된 스크린샷에 사용자가 표시되지 않습니다.\n\n<color=hero.red>중요:</color>이는 월드에 종속된 특정 방법이나 실시간 카메라 또는 게임 외부 시스템을 이용한 촬영에는 영향을 미치지 않습니다.",
         
         "Settings.LeapMotionSettings.LeapMotionEnabled": "립모션(Leap Motion) 손가락 추적",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "립모션 장치가 있는 상태에서 활성화하면 손가락 정보를 추적하는데 립모션을 이용합니다.",
@@ -1316,6 +1328,31 @@
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "컨트롤러 사용중 손가락 추적 허용",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "활성화 시 <color=hero.yellow>VR 컨트롤러가 인식거리</color>에 의해 추적 주체가 변경된 상태에서도 손가락 추적정보는 VR 헤드셋의 카메라 장치를 이용합니다.",
 
+        "Settings.TrackerSettings" : "추적장치(트래커) 설정",
+        "Settings.TrackerSettings.UseTrackers" : "트래커 사용",
+        "Settings.TrackerSettings.UseTrackers.Description" : "이 옵션을 통해 전신 추적 기능을 전체적으로 비활성화 할 수 있습니다. 트래커의 위치가 틀어져 한구석에 표시되거나, 충전중이라 아바타가 구겨진 경우등의 상황에 유용하게 사용할 수 있습니다.",
+        "Settings.TrackerSettings.Trackers" : "트래커 관리",
+        "Settings.TrackerSettings.Trackers.Breadcrumb" : "트래커",
+
+        "Settings.TrackerSettings.Trackers.UseTracker" : "사용여부",
+        "Settings.TrackerSettings.Trackers.UseTracker.Description" : "이 트래커를 활성화 할까요? 이것을 이용하여 특정 트래커를 일시적으로 비활성화 시킬 수 있습니다.",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode" : "맵핑된 신체부위",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode.Description" : "이 트래커가 장착된 위치를 선택하세요.\n\n이 기능을 통해 수동으로 조정하는 것보다는 <color=hero.yellow>풀 바디 조정</color> 기능을 이용하는 것을 추천합니다.",
+        "Settings.TrackerSettings.Trackers.MappedPosition" : "맵핑 위치",
+        "Settings.TrackerSettings.Trackers.MappedPosition.Description" : "<color=hero.yellow>맵핑된 신체부위</color>를 기준으로 한 트래커의 위치 입니다.\n\n이 기능을 통해 수동으로 조정하는 것보다는 <color=hero.yellow>풀 바디 조정</color> 기능을 이용하는 것을 추천합니다.",
+        "Settings.TrackerSettings.Trackers.MappedRotation" : "맵핑된 회전각도",
+        "Settings.TrackerSettings.Trackers.MappedRotation.Description" : "<color=hero.yellow>맵핑된 신체부위</color>를 기준으로 한 트래커의 회전각도 입니다.\n\n이 기능을 통해 수동으로 조정하는 것보다는 <color=hero.yellow>풀 바디 조정</color> 기능을 이용하는 것을 추천합니다.",
+        "Settings.TrackerSettings.Trackers.UseInVR" : "VR 모드에서 트래커 사용",
+        "Settings.TrackerSettings.Trackers.UseInVR.Description" : "VR 모드일때 트래커의 위치나 회전정보가 아바타에 반영되야 한다면 활성화 하세요.",
+        "Settings.TrackerSettings.Trackers.UseInDesktop" : "데스크탑 모드에서 트래커 사용",
+        "Settings.TrackerSettings.Trackers.UseInDesktop.Description" : "데스크탑 모드일때 트래커의 위치나 회전정보가 아바타에 반영되야 한다면 활성화 하세요.",
+        "Settings.TrackerSettings.Trackers.TrackerID" : "식별정보",
+        "Settings.TrackerSettings.Trackers.TrackerID.Description" : "이것은 트래커마다 가진 고유 식별정보입니다. 이것은 개인정보로 간주되므로, 인스펙터등을 통해 보는 식별자와 일치하지 않습니다.",
+        "Settings.TrackerSettings.Trackers.TrackerBattery" : "배터리 잔량",
+        "Settings.TrackerSettings.Trackers.TrackerBattery.Description" : "현재 트래커의 배터리 잔량 정보입니다. 일부 추적장치의 경우 이 정보가 제공되지 않을 수 있습니다.",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging" : "충전 진행중",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description" : "현재 트래커가 배터리 충전중인지를 표시합니다. 일부 추적창지는 이 정보가 제공되지 않을 수 있습니다.",
+        
         "Settings.UserMetricsSettings.UserHeight": "신장(키)",
         "Settings.UserMetricsSettings.UserHeight.Description": "아바타의 크기를 적절하게 조정하기 위한 값입니다. 또한, <color=hero.yellow>좌식 모드</color>를 활성화 했을때 배치되는 높이이기도 합니다. 기록시 미터법에 쓰이는 <color=hero.yellow>cm</color>나 <color=hero.yellow>m</color>, 파운드/인치/피트인 경우 <color=hero.yellow>n'n\"</color> 형식으로 기호를 포함하여 키 정보를 입력하실 수 있습니다.",
 
@@ -1364,6 +1401,10 @@
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "노이즈 제거 필터(RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "이 기능이 활성화 되면, 잡음으로 식별되는 모든 소리를 정리하여 깨끗한 음성대화가 가능해지므로 항상 켜두시는 것을 추천합니다. 다만, 이 기능은 음성으로 식별되지 특정 소음을 필터링할 수도 있습니다.",
 
+        "Settings.VoiceSettings" : "음성 설정",
+        "Settings.VoiceSettings.MutePersistence" : "음성대화 설정",
+        "Settings.VoiceSettings.MutePersistence.Description" : "<color=hero.yellow>Start Unmuted:</color> 로그인 시 음성대화 가능상태로 지정됩니다.\n\n<color=hero.yellow>Started Muted:</color> 로그인 시 자동적으로 마이크를 끕니다. 이 상태에서는 <color=hero.yellow>V키</color>를 누르고 있는 동안 대화(Push to talk)가 가능합니다.\n\n<color=hero.yellow>Remember Last: </color> 마지막으로 로그아웃 했을때의 상태를 사용합니다.",
+        
         "Settings.RealtimeNetworkingSettings.DisableLAN": "지역망(LAN:Local Area Network) 비활성화",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "활성화하면 지역망 내에서의 세션 브로드캐스팅이 양방향으로 모두 중단됩니다.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "스팀(Steam) 네트워킹 소켓을 우선적용",
@@ -2349,11 +2390,11 @@
         "UI.DocumentDisplay.Pages": "전체쪽수",
         "UI.DocumentDisplay.ResetZoom": "배율 초기화",
 
-        "UI.VideoPlayer.GlobalSettings": "전역",
-        "UI.VideoPlayer.LocalSettings": "로컬",
+        "UI.VideoPlayer.GlobalSettings": "전체설정",
+        "UI.VideoPlayer.LocalSettings": "로컬설정",
         "UI.VideoPlayer.SpatialAudio": "구역",
         "UI.VideoPlayer.AreaBroadcast": "지역",
-        "UI.VideoPlayer.BroadcastAudio": "음향송출",
+        "UI.VideoPlayer.BroadcastAudio": "전역",
         "UI.VideoPlayer.EnterURL": "<i><alpha=#77>여기에 주소를 입력하세요</closeall>",
         "UI.VideoPlayer.AudioZoneTheater": "로컬에서<br>극장모드로",
         "UI.VideoPlayer.AudioZoneGlobal": "전역<br>송출",
