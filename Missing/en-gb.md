@@ -1144,6 +1144,8 @@ Settings.TrackerSettings.Trackers.TrackerIsCharging
 Settings.TrackerSettings.Trackers.TrackerIsCharging.Description  
 Settings.HapticPointMapping.MappingTarget  
 Settings.HapticPointMapping.MappingTarget.Description  
+Settings.HapticPointMapping.PointRadius  
+Settings.HapticPointMapping.PointRadius.Description  
 Settings.HapticPointMapping.TorsoHorizontalPosition  
 Settings.HapticPointMapping.TorsoHorizontalPosition.Description  
 Settings.HapticPointMapping.TorsoVerticalPosition  
@@ -1172,6 +1174,10 @@ Settings.GiggleTechSettings
 Settings.GiggleTechSettings.Devices  
 Settings.GiggleTechSettings.Devices.IP  
 Settings.GiggleTechSettings.Devices.IsConnected  
+Settings.GiggleTechSettings.Devices.UseDevice  
+Settings.GiggleTechSettings.Devices.UseDevice.Description  
+Settings.GiggleTechSettings.Devices.IntensityScale  
+Settings.GiggleTechSettings.Devices.IntensityScale.Description  
 Settings.GiggleTechSettings.Devices.Breadcrumb  
 Settings.UserMetricsSettings.UserHeight  
 Settings.UserMetricsSettings.UserHeight.Description  
