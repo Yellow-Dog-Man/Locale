@@ -1263,7 +1263,7 @@
         "Settings.MovementSettings.MovementDeadzone": "移動のデッドゾーン",
         "Settings.MovementSettings.MovementDeadzone.Description": "コントローラーに触れていないのに勝手に動く等の場合に有効な設定です。設定値を大きくすると、ジョイスティックを倒した際の移動し始めるまでの角度が大きくなります。",
         "Settings.MovementSettings.MovementExponent": "移動指数",
-        "Settings.MovementSettings.MovementExponent.Description": "ジョイスティックを倒した際の移動大きさのカーブ特性を制御できます。値が1.0より小さい場合は、最初はゆっくりと動き、その後急激に速度が上がります。値が1.0より大きい場合は、最初から高速で移動を開始することができます。",
+        "Settings.MovementSettings.MovementExponent.Description": "ジョイスティックを倒した際の移動大きさのカーブ特性を制御できます。値が1.0より大きい場合は、最初はゆっくりと動き、その後急激に速度が上がります。値が1.0より小さい場合は、最初から高速で移動を開始することができます。",
 
         "Settings.GamepadSettings": "ゲームパッド",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "ジョイスティックの視点移動速度",
@@ -1400,6 +1400,10 @@
 
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "ノイズフィルター",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "入力されるオーディオデータを処理して、不要なノイズを除去します。これにより、ノイズの多いマイクから入力されたオーディオデータから、よりクリーンな音声を生成することができます。この設定をオンにしておくことを強くおすすめします。ただし、音声として識別されないノイズも一緒に除去してしまう可能性がありますので、ご注意ください。",
+
+        "Settings.VoiceSettings" : "ボイスチャット設定",
+        "Settings.VoiceSettings.MutePersistence" : "ミュート状態の持続化",
+        "Settings.VoiceSettings.MutePersistence.Description" : "<color=hero.yellow>Start Unmuted:</color> ログイン時、常にミュートが解除された状態になります。\n\n<color=hero.yellow>Started Muted:</color> ログイン時、常にミュート状態になります。発話する際にミュートを解除するか \"プッシュトゥトーク\" キー (デフォルトでVキー)を押す必要があります。\n\n<color=hero.yellow>Remember Last: </color> ログイン時、前回のプレイ時のミュート状態が引き継がれた状態になります。",
 
         "Settings.RealtimeNetworkingSettings.DisableLAN": "LANを無効化",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "LANを利用した機能が無効化されます。例えば、同じLAN内で動くセッションを表示したり、逆に同じLAN内にいる人が自分のセッションを見れるようにする機能などが含まれます。",
