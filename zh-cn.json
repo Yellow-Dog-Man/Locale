@@ -1265,6 +1265,12 @@
         "Settings.MovementSettings.MovementExponent": "移动指数",
         "Settings.MovementSettings.MovementExponent.Description": "用它来控制移动时的曲线响应。 你可以用它来使曲线在开始移动时速度较慢，然后快速上升，或者立即开始加速移动，具体取决于该值是高于还是低于 1.0。",
 
+        "Settings.GamepadSettings": "手柄",
+        "Settings.GamepadSettings.ThumbstickLookSpeed": "摇杆观察速度",
+        "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "用它来调整拇指摇杆移动视角速度的灵敏度。",
+        "Settings.GamepadSettings.ThumbstickLookExponent": "摇杆观察死角",
+        "Settings.GamepadSettings.ThumbstickLookExponent.Description": "用它来控制拇指摇杆视角移动的曲线响应。有了这个设置，你既可以一开始缓慢移动，然后迅速变快，也可以立即开始快速移动，这取决于数值是高于还是低于 1.0。",
+
         "Settings.MouseSettings.MouseSensitivity": "灵敏度",
         "Settings.MouseSettings.MouseSensitivity.Description": "桌面模式下的鼠标整体灵敏度.",
         "Settings.MouseSettings.MouseLookSpeed": "观察速度",
@@ -1358,8 +1364,8 @@
 
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "使用系统默认音频输出设备",
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "启用此选项可使用默认音频设备输出音频。禁用此选项后，你可以配置使用哪个音频设备来输出下面的音频。在 VR模式和桌面模式之间切换时，如果使用不同的设备，这将非常有用。",
-        "Settings.AudioOutputDeviceSettings.DevicePriorities": "配置音频输出设备",
-        "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "配置音频输出设备",
+        "Settings.AudioOutputDeviceSettings.DevicePriorities": "配置默认音频输出设备",
+        "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "配置默认音频输出设备",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "设为默认",
 
         "Settings.AudioVolumeSettings.MasterVolume": "主音量",
@@ -1395,6 +1401,10 @@
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "噪声抑制滤波器（RNNoise）",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "该功能可处理输入的音频，过滤掉各种不良噪音。这可以净化来自嘈杂麦克风的音频，从而产生更纯净的声音。我们强烈建议将此设置打开。不过，它也可以过滤某些无法识别为语音的噪音。",
 
+        "Settings.VoiceSettings" : "语音设置",
+        "Settings.VoiceSettings.MutePersistence" : "静音持久性",
+        "Settings.VoiceSettings.MutePersistence.Description" : "<color=hero.yellow>开始解除静音：</color> 当你登录的时候，你将会一直保持开麦状态。\n\n<color=hero.yellow>开始静音：</color> 当你登录的时候， 你将会一直保持静音状态。 你将需要点击开麦或者点击 \"按下说话\" 键 (默认为 V) 才能说话。\n\n<color=hero.yellow>最后请注意： </color> 登录时，将保留上次退出登录时的状态。",
+
         "Settings.RealtimeNetworkingSettings.DisableLAN": "禁用局域网",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "这将禁用本地网络特有的联网功能，例如在本地网络上广播会话或监听本网络上广播的其他会话。",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Steam 网络通讯优先",
@@ -1425,7 +1435,7 @@
         "Settings.DebugSettings.DebugInputBindings.Description": "启用后，你将看到输入绑定系统的调试信息。 这对开发人员非常有用。",
         "Settings.DebugSettings.FetchIncompatibleSessions": "获取不兼容的会话",
         "Settings.DebugSettings.FetchIncompatibleSessions.Description": "启用后，你将看到与当前客户端不兼容且无法加入的活动会话。",
-
+        
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "双按手柄装备物品",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "启用后，只要连续按两次握把键，就可以装备工具和小物件。这一设置可能会在某个时候被移除。",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "使用传统世界切换器",
@@ -1591,7 +1601,7 @@
         "Settings.RenderingQualitySettings.ShadowDistance" : "阴影距离",
         "Settings.RenderingQualitySettings.ShadowDistance.Description" : " 该值控制阴影覆盖的距离。增大该值可以确保场景中更远的部分被阴影适当覆盖，但同时也会使阴影的细节分散到更大的区域。\n\n你应该将此设置与阴影级联和分辨率一起更改--阴影分辨率越高，阴影距离就越大。如果降低阴影分辨率和级联，你会希望降低阴影距离，这样阴影的清晰度会更好。",
         "Settings.RenderingQualitySettings.SkinWeightMode" : "蒙皮权重",
-        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "对于任何蒙皮权重（通过骨骼变形的 3D 模型，如大多数头像），该值控制使用多少骨骼来影响每个顶点的位置。\n\n降低该值可以节省一些性能，但变形质量会降低，从而产生尖锐的折痕和其他伪影，通常出现在接缝处。",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "对于任何蒙皮权重（通过骨骼变形的 3D 模型，如大多数化身），该值控制使用多少骨骼来影响每个顶点的位置。\n\n降低该值可以节省一些性能，但变形质量会降低，从而产生尖锐的折痕和其他伪影，通常出现在接缝处。",
 
         "LocomotionArchetype.Walk": "移动",
         "LocomotionArchetype.Fly": "飞行",
