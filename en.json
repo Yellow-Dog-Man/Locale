@@ -1355,6 +1355,44 @@
         "Settings.TrackerSettings.Trackers.TrackerIsCharging" : "Is Charging",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description" : "This indicates if the tracker is currently charging. Note that some trackers might not support reporting this information.",
 
+        "Settings.HapticPointMapping.MappingTarget" : "Map To",
+        "Settings.HapticPointMapping.MappingTarget.Description" : "Use this to configure which part of the avatar you want this device to be mapped to.",
+
+        "Settings.HapticPointMapping.TorsoHorizontalPosition" : "Horizontal position on torso",
+        "Settings.HapticPointMapping.TorsoHorizontalPosition.Description" : "This is the horizontal position along torso, going from left to the right",
+        "Settings.HapticPointMapping.TorsoVerticalPosition" : "Vertical position on torso",
+        "Settings.HapticPointMapping.TorsoVerticalPosition.Description" : "This is the vertical position along torso, going from the top to bottom.",
+        "Settings.HapticPointMapping.TorsoSide" : "Torso side",
+        "Settings.HapticPointMapping.TorsoSide.Description" : "This indicates which side of torso should this device be mapped to (front of back)",
+
+        "Settings.HapticPointMapping.HeadPitchAngle" : "Head Pitch Angle",
+        "Settings.HapticPointMapping.HeadPitchAngle.Description" : "This controls position along the \"vertical\" axis of the head. The default position is the center of face (where your nose is). Increating the angle will go upwards toward the top of your head. Decreasing the value goes downwards towards the chin.",
+        "Settings.HapticPointMapping.HeadYawAngle" : "Head Yaw Angle",
+        "Settings.HapticPointMapping.HeadYawAngle.Description" : "This controls the horizontal position around head, turning left or right. The center (where your nose is) is the default pose. Decreasing the value will go left, increasing will go right. This wraps all around the head in a circle at 180°, which is where the back of your head is.",
+
+        "Settings.HapticPointMapping.ArmSide" : "Arm",
+        "Settings.HapticPointMapping.ArmSide.Description" : "Which arm should this map to? Left or right?",
+        "Settings.HapticPointMapping.ArmPositionAlong" : "Position along the arm",
+        "Settings.HapticPointMapping.ArmPositionAlong.Description" : "This controls the position along the arm. This starts at the shoulder and goes all the way to the wrist. Midway position is where the elbow is.",
+        "Settings.HapticPointMapping.ArmAngleAround" : "Angle around the arm",
+        "Settings.HapticPointMapping.ArmAngleAround.Description" : "This controls the angle around the circumference of the arm. The default 0° position is aligned with the top of your hand. Going negative will go left, positive to the right. Wrapping around 180° will put the point at the side of your arm where your palm is.",
+
+        "Settings.HapticPointMapping.LegSide" : "Leg",
+        "Settings.HapticPointMapping.LegSide.Description" : "Which leg should this map to? Left or right?",
+        "Settings.HapticPointMapping.LegPositionAlong" : "Position along the leg",
+        "Settings.HapticPointMapping.LegPositionAlong.Description" : "This controls the position along the leg. This starts at the hips and goes all the way to the angle. Midway position is where the knee is.",
+        "Settings.HapticPointMapping.LegAngleAround" : "Angle around the leg",
+        "Settings.HapticPointMapping.LegAngleAround.Description" : "This controls the angle around the circumference of the leg. The default 0° position is aligned with the front of your leg - the direction your knee is pointing. Going negative will go left, positive to the right. Wrapping around 180° will put the point at the back side of your leg.",
+
+        "Settings.HapticPointMapping.ControllerSide" : "Controller",
+        "Settings.HapticPointMapping.ControllerSide.Description" : "Which controller should this haptic point be mapped to? Left or right?",
+
+        "Settings.GiggleTechSettings" : "GiggleTech Devices",
+        "Settings.GiggleTechSettings.Devices" : "Manage GigglePucks",
+        "Settings.GiggleTechSettings.Devices.IP" : "GigglePuck IP",
+        "Settings.GiggleTechSettings.Devices.IsConnected" : "Is GigglePuck connected",
+        "Settings.GiggleTechSettings.Devices.Breadcrumb" : "GigglePucks",
+
         "Settings.UserMetricsSettings.UserHeight": "Height",
         "Settings.UserMetricsSettings.UserHeight.Description": "This is your real world height, which is used to properly scale your avatar so it fits you well. It is also the height you will be placed at when you enable seated mode.\n\nYou can enter your height by using appropriate units, for example by typing <nobr><color=hero.yellow>175 cm</color></nobr> or <nobr><color=hero.yellow>1.75 m</color></nobr> for metric or <color=hero.yellow>5'11\"</color> for imperial.",
 
