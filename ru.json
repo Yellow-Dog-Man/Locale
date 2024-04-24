@@ -1336,6 +1336,8 @@
 
         "Settings.TrackerSettings.Trackers.UseTracker" : "Использовать трекер",
         "Settings.TrackerSettings.Trackers.UseTracker.Description" : "Должен ли этот трекер использоваться для трекинга? Вы можете временно отключить этот трекер без сброса его привязки.",
+        "Settings.TrackerSettings.Trackers.CustomName" : "Название трекера",
+        "Settings.TrackerSettings.Trackers.CustomName.Description" : "Вы можете задать для трекера название чтобы легче отличать его от других, вместо того чтобы использовать его ID. Это чисто косметическая настройка, и никак не влияет на функциональность.",
         "Settings.TrackerSettings.Trackers.MappedBodyNode" : "Привязка трекера",
         "Settings.TrackerSettings.Trackers.MappedBodyNode.Description" : "Какой части тела соответствует этот трекер при трекинге тела.\n\nРекомендуем использовать калибрацию трекинга для установки привязок, а не настраивать их здесь вручную.",
         "Settings.TrackerSettings.Trackers.MappedPosition" : "Позиция привязки",
@@ -1496,6 +1498,8 @@
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "Через сколько секунд снимается фото с таймером.",
         "Settings.PhotoCaptureSettings.CaptureStereo": "Снимать стерео фото",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Когда включено, все быстрые фото будут стерео-фото. Их луше всего смотреть в VR.",
+        "Settings.PhotoCaptureSettings.StereoSeparation" : "Стерео разделение",
+        "Settings.PhotoCaptureSettings.StereoSeparation.Description" : "Настраивает расстояние между стерео камерами при использовании стерео режима. Расстояние между камерами влияет на силу стерео эффекта для удаленных объектов.\n\nДля фотографирования близких обхектов лучше подходят небольшие значения, а для больших сцен - большие.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Путь автосохранения фото в инвентаре",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Когда путь задан, все фото которые вы снимете (или сохраните через контекстное меню) будут автоматически сохранены в ваш инвентарь. Например, <color=hero.yellow>Photos/%year%/%month_name%</color>\n\nДоступны следующие переменные:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
         "Settings.PhotoCaptureSettings.CapturePrivateUI" : "Снимать приватный интерфейс",
