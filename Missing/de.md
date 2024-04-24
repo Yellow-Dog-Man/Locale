@@ -40,6 +40,8 @@ Settings.GiggleTechSettings.Devices.UseDevice
 Settings.GiggleTechSettings.Devices.UseDevice.Description  
 Settings.GiggleTechSettings.Devices.IntensityScale  
 Settings.GiggleTechSettings.Devices.IntensityScale.Description  
+Settings.GiggleTechSettings.Devices.CustomName  
+Settings.GiggleTechSettings.Devices.CustomName.Description  
 Settings.GiggleTechSettings.Devices.Breadcrumb  
 Settings.PhotoCaptureSettings.StereoSeparation  
 Settings.PhotoCaptureSettings.StereoSeparation.Description  
