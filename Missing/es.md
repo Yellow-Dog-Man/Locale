@@ -277,6 +277,8 @@ Settings.PhotoCaptureSettings.TimerSeconds
 Settings.PhotoCaptureSettings.TimerSeconds.Description  
 Settings.PhotoCaptureSettings.CaptureStereo  
 Settings.PhotoCaptureSettings.CaptureStereo.Description  
+Settings.PhotoCaptureSettings.StereoSeparation  
+Settings.PhotoCaptureSettings.StereoSeparation.Description  
 Settings.PhotoCaptureSettings.PhotoAutosavePath  
 Settings.PhotoCaptureSettings.PhotoAutosavePath.Description  
 Settings.PhotoCaptureSettings.CapturePrivateUI  

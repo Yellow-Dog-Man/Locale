@@ -7,4 +7,6 @@ Settings.TrackerSettings.Trackers.CustomName.Description
 Settings.VoiceSettings  
 Settings.VoiceSettings.MutePersistence  
 Settings.VoiceSettings.MutePersistence.Description  
+Settings.PhotoCaptureSettings.StereoSeparation  
+Settings.PhotoCaptureSettings.StereoSeparation.Description  
 
