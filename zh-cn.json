@@ -1525,7 +1525,7 @@
         "Settings.InteractiveCameraFramingSettings.FirstPersonRoll": "第一人称旋转角度",
         "Settings.InteractiveCameraFramingSettings.FirstPersonRoll.Description": "在第一人称模式下，它控制摄像机的侧向旋转--左右倾斜。",
         "Settings.InteractiveCameraFramingSettings.FirstPersonOffset": "第一人称偏移",
-        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset.Description": "该设置调整第一人称视角中相对于眼睛的摄像机偏移量。如果头像面部几何图形剪切到摄像机视图中，则可以使用此功能。",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset.Description": "该设置调整第一人称视角中相对于眼睛的摄像机偏移量。如果化身面部几何图形剪切到摄像机视图中，则可以使用此功能。",
         "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "框架视角位置",
         "Settings.InteractiveCameraFramingSettings.FramingViewportPosition.Description": "这些是摄像机视角中的标准化坐标。摄像机会尝试将目标（例如第三人称模式下的用户头部）框定在视角中的这一位置。",
         "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "对准头部前方",
@@ -1543,7 +1543,7 @@
         "Settings.InteractiveCameraRenderSettings.HideAllLasers": "隐藏激光",
         "Settings.InteractiveCameraRenderSettings.HideAllLasers.Description": "摄像机不会渲染任何用户的交互激光。",
         "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera": "用户眼睛始终注视摄像机",
-        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera.Description": "当你的形象使用模拟眼球运动时（即用户没有眼追踪功能），这将使用户的化身优先与摄像机进行眼神接触。",
+        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera.Description": "当你的形象使用模拟眼球运动时（即用户没有眼部追踪功能），这将使用户的化身优先与摄像机进行眼神接触。",
 
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius": "群组检测半径",
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius.Description": "在此距离内的用户将被添加到摄像机在群组模式下自动取景的群组中。",
@@ -1605,7 +1605,7 @@
         "Settings.RenderingQualitySettings.ShadowDistance" : "阴影距离",
         "Settings.RenderingQualitySettings.ShadowDistance.Description" : " 该值控制阴影覆盖的距离。增大该值可以确保场景中更远的部分被阴影适当覆盖，但同时也会使阴影的细节分散到更大的区域。\n\n你应该将此设置与阴影级联和分辨率一起更改--阴影分辨率越高，阴影距离就越大。如果降低阴影分辨率和级联，你会希望降低阴影距离，这样阴影的清晰度会更好。",
         "Settings.RenderingQualitySettings.SkinWeightMode" : "蒙皮权重",
-        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "对于任何蒙皮权重（通过骨骼变形的 3D 模型，如大多数头像），该值控制使用多少骨骼来影响每个顶点的位置。\n\n降低该值可以节省一些性能，但变形质量会降低，从而产生尖锐的折痕和其他伪影，通常出现在接缝处。",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "对于任何蒙皮权重（通过骨骼变形的 3D 模型，如大多数化身），该值控制使用多少骨骼来影响每个顶点的位置。\n\n降低该值可以节省一些性能，但变形质量会降低，从而产生尖锐的折痕和其他伪影，通常出现在接缝处。",
 
         "LocomotionArchetype.Walk": "移动",
         "LocomotionArchetype.Fly": "飞行",
