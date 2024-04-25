@@ -1355,6 +1355,50 @@
         "Settings.TrackerSettings.Trackers.TrackerIsCharging" : "充電しているか",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description" : "これは、トラッカーが現在充電中かどうかを示します。トラッカーによっては、この情報の報告をサポートしていない場合があります。",
 
+        "Settings.HapticPointMapping.MappingTarget" : "割当",
+        "Settings.HapticPointMapping.MappingTarget.Description" : "このデバイスをアバターのどの部分に割当するかを設定します。",
+
+        "Settings.HapticPointMapping.TorsoHorizontalPosition" : "胴体の水平位置",
+        "Settings.HapticPointMapping.TorsoHorizontalPosition.Description" : "これは胴体に沿った左から右へ向かった水平位置です。",
+        "Settings.HapticPointMapping.TorsoVerticalPosition" : "胴体の垂直位置",
+        "Settings.HapticPointMapping.TorsoVerticalPosition.Description" : "これは胴体に沿った下から上に向かった垂直位置です。",
+        "Settings.HapticPointMapping.TorsoSide" : "胴体の前後位置",
+        "Settings.HapticPointMapping.TorsoSide.Description" : "これは、このデバイスを胴体のどちら側にマッピングするかを示します（前面または背面）。",
+
+        "Settings.HapticPointMapping.HeadPitchAngle" : "頭の前後角度",
+        "Settings.HapticPointMapping.HeadPitchAngle.Description" : "頭の縦軸に沿った角度を設定できます。標準は顔の中心（鼻の位置）の位置です。角度を大きくすると、頭頂部に向かって上向きになります。値を小さくすると、あごに向かって下向きになります。",
+        "Settings.HapticPointMapping.HeadYawAngle" : "頭の左右角度",
+        "Settings.HapticPointMapping.HeadYawAngle.Description" : "頭に対する水平位置を設定できます。標準では頭の中央（鼻の位置）の位置です。値を小さくすると左に回り、大きくすると右に回ります。円を描くように頭部を一周するので、180°で後頭部の位置になります。",
+
+        "Settings.HapticPointMapping.ArmSide" : "腕",
+        "Settings.HapticPointMapping.ArmSide.Description" : "左右どちらの腕に対応するか設定出来ます。",
+        "Settings.HapticPointMapping.ArmPositionAlong" : "腕に沿った位置",
+        "Settings.HapticPointMapping.ArmPositionAlong.Description" : "腕に沿った位置を設定できます。肩から始まり手首まで続き、真ん中が肘の位置です。",
+        "Settings.HapticPointMapping.ArmAngleAround" : "腕周りの角度",
+        "Settings.HapticPointMapping.ArmAngleAround.Description" : "腕に対する角度を設定出来ます。標準の0°は手の甲です。マイナスにすると左に、プラスにすると右に回ります。180度回すと、掌がある側に来ます。",
+
+        "Settings.HapticPointMapping.LegSide" : "脚",
+        "Settings.HapticPointMapping.LegSide.Description" : "左右どちらの足に対応するか設定出来ます。",
+        "Settings.HapticPointMapping.LegPositionAlong" : "脚に沿った位置",
+        "Settings.HapticPointMapping.LegPositionAlong.Description" : "脚に沿った位置を設定できます。腰から始まり足首まで続き、真ん中が膝の位置です。",
+        "Settings.HapticPointMapping.LegAngleAround" : "脚周りの角度",
+        "Settings.HapticPointMapping.LegAngleAround.Description" : "脚に対する角度を設定出来ます。標準の0°は脚の正面、つまり膝が向いている方向です。マイナスにすると左に、プラスにすると右に回ります。180度回すと、脚の後ろ側に来ます。",
+
+        "Settings.HapticPointMapping.ControllerSide" : "コントローラー",
+        "Settings.HapticPointMapping.ControllerSide.Description" : "ハプティックポイントを左右どちらのコントローラーに割り当てるか設定出来ます。",
+
+        "Settings.GiggleTechSettings" : "GiggleTechデバイス",
+        "Settings.GiggleTechSettings.Devices" : "GigglePucksの管理",
+        "Settings.GiggleTechSettings.Devices.IP" : "GigglePuck IP",
+        "Settings.GiggleTechSettings.Devices.IsConnected" : "GigglePuckが接続されているかどうか",
+        "Settings.GiggleTechSettings.Devices.UseDevice" : "デバイスを使用",
+        "Settings.GiggleTechSettings.Devices.UseDevice.Description" : "GigglePucksが割当されているときに、個々のGigglePucksを有効か無効にできます。デバイスを無効にすると、すべてのハプティクスが停止します。",
+        "Settings.GiggleTechSettings.Devices.IntensityScale" : "強さ",
+        "Settings.GiggleTechSettings.Devices.IntensityScale.Description" : "GigglePuckに送信されるハプティクスの強さを調整することができます。ハプティクスの実際の強さはGigglePuckの最大安全値を超えることはありません。 - 値はモーターに過電圧を与えない安全な値に制限されます。",
+        "Settings.GiggleTechSettings.Devices.CustomName" : "カスタム名",
+        "Settings.GiggleTechSettings.Devices.CustomName.Description" : "このGigglePuckにカスタム名を付けることができます。これに機能的な影響はありません。",
+        "Settings.GiggleTechSettings.Devices.Breadcrumb" : "GigglePuck",
+
         "Settings.UserMetricsSettings.UserHeight": "身長",
         "Settings.UserMetricsSettings.UserHeight.Description": "現実世界の身長を設定してください。アバターのサイズとユーザーの身長を合わせるために使用されます。着席モード時にも使われます。\n\n適切な単位を用いて身長を入力できます。例えば、メートル法であれば<color=hero.yellow>175cm</color>、または<color=hero.yellow>1.75m</color>のように入力し、ヤードポンド法の場合<color=hero.yellow>5'11\"</color>のように入力します。",
 
