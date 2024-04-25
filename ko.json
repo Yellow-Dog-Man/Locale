@@ -1354,6 +1354,53 @@
         "Settings.TrackerSettings.Trackers.TrackerBattery.Description" : "현재 트래커의 배터리 잔량 정보입니다. 일부 추적장치의 경우 이 정보가 제공되지 않을 수 있습니다.",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging" : "충전 진행중",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description" : "현재 트래커가 배터리 충전중인지를 표시합니다. 일부 추적창지는 이 정보가 제공되지 않을 수 있습니다.",
+
+        "Settings.HapticPointMapping.MappingTarget" : "맵핑할 위치",
+        "Settings.HapticPointMapping.MappingTarget.Description" : "맵핑할 아바타의 신체 부위를 선택합니다.",
+
+        "Settings.HapticPointMapping.PointRadius" : "햅틱반응 반경",
+        "Settings.HapticPointMapping.PointRadius.Description" : "햅틱 반응이 일어날 범위를 설정합니다. 범위를 키우면 햅틱 반응을 일으키기는 쉬우나 정밀도가 떨어집니다.",
+
+        "Settings.HapticPointMapping.TorsoHorizontalPosition" : "상체 수평 위치",
+        "Settings.HapticPointMapping.TorsoHorizontalPosition.Description" : "상체의 수평 위치를 의미합니다.",
+        "Settings.HapticPointMapping.TorsoVerticalPosition" : "상체 수직 위치",
+        "Settings.HapticPointMapping.TorsoVerticalPosition.Description" : "상체의 수직 위치를 의미합니다.",
+        "Settings.HapticPointMapping.TorsoSide" : "상체 전후 위치",
+        "Settings.HapticPointMapping.TorsoSide.Description" : "이는 상체의 앞/뒤 중 어떤 방향에 맵핑해야 하는지를 의미합니다.",
+
+        "Settings.HapticPointMapping.HeadPitchAngle" : "머리 상하 각도",
+        "Settings.HapticPointMapping.HeadPitchAngle.Description" : "머리에서의 \"수직축 위치\"를 제어합니다. 기본 위치는 코가 있는 곳이며, 값을 늘리면 머리의 윗방향으로, 낮추면 턱방향으로 이동합니다.",
+        "Settings.HapticPointMapping.HeadYawAngle" : "머리 수평회전 각도",
+        "Settings.HapticPointMapping.HeadYawAngle.Description" : "머리에서의 \"수평축 위치\"를 제어합니다. 기본 위치는 코가 있는 곳이며, 값을 낮추면 왼쪽, 높이면 오른쪽으로 조정됩니다. 180°의 경우 뒤통수에 위치하게 됩니다.",
+
+        "Settings.HapticPointMapping.ArmSide" : "팔",
+        "Settings.HapticPointMapping.ArmSide.Description" : "어떤 팔에 맵핑할지를 결정합니다. 왼팔 또는 오른팔",
+        "Settings.HapticPointMapping.ArmPositionAlong" : "위치보정",
+        "Settings.HapticPointMapping.ArmPositionAlong.Description" : "어깨부터 손목까지 위치 중 어느 지점을 햅틱위치로 할지 결정합니다. 중앙값은 팔꿈치 입니다.",
+        "Settings.HapticPointMapping.ArmAngleAround" : "회전각도 보정",
+        "Settings.HapticPointMapping.ArmAngleAround.Description" : "팔의 중심점을 기준으로 각도를 보정합니다. 기본값인 0°는 팔의 바깥방향(손을 일자로 폈을때 기준으로 손등방향) 음의 각도는 좌측, 양의 각도는 우측으로 각도가 보정되며, 180°로 지정할 경우 팔의 안쪽 방향으로 정렬됩니다.",
+
+        "Settings.HapticPointMapping.LegSide" : "다리",
+        "Settings.HapticPointMapping.LegSide.Description" : "어떤 다리에 맵핑할지를 결정합니다. 왼다리 또는 오른다리",
+        "Settings.HapticPointMapping.LegPositionAlong" : "위치보정",
+        "Settings.HapticPointMapping.LegPositionAlong.Description" : "엉덩이부터 발목까지의 위치 중 어느 지점을 햅틱위치로 할지 결정합니다. 중앙값은 무릎입니다.",
+        "Settings.HapticPointMapping.LegAngleAround" : "회전각도 보정",
+        "Settings.HapticPointMapping.LegAngleAround.Description" : "다리의 중심점을 기준으로 각도를 보정합니다. 기본값인 0°는 무릎이 가르키는 방향에 정렬되며, 음의 각도는 좌측, 양의 각도는 우측으로 각도 보정이 이뤄집니다. 마찬가지로 180°로 지정한 경우 다리의 뒷쪽 방향으로 정렬됩니다.",
+
+        "Settings.HapticPointMapping.ControllerSide" : "컨트롤러",
+        "Settings.HapticPointMapping.ControllerSide.Description" : "햅틱 반응 지점을 연결할 컨트롤러를 설정합니다. 왼쪽 또는 오른쪽",
+
+        "Settings.GiggleTechSettings" : "기글테크(GiggleTech) 장치",
+        "Settings.GiggleTechSettings.Devices" : "기글퍽(GigglePucks) 관리",
+        "Settings.GiggleTechSettings.Devices.IP" : "기글퍽 IP",
+        "Settings.GiggleTechSettings.Devices.IsConnected" : "기글퍽 연결상태",
+        "Settings.GiggleTechSettings.Devices.UseDevice" : "사용여부",
+        "Settings.GiggleTechSettings.Devices.UseDevice.Description" : "이를 이용하여 기글퍽을 개별적으로 활성화 또는 비활성화 할 수 있습니다. 비활성화시 햅틱 반응이 중단됩니다.",
+        "Settings.GiggleTechSettings.Devices.IntensityScale" : "반응강도 배율",
+        "Settings.GiggleTechSettings.Devices.IntensityScale.Description" : "기글퍽 장치에 지정된 최대 안전값을 초과하지 않는 선에서 전송값의 배율을 설정합니다.",
+        "Settings.GiggleTechSettings.Devices.CustomName" : "사용자 정의 명칭",
+        "Settings.GiggleTechSettings.Devices.CustomName.Description" : "단순하게 기글퍽의 이름을 설정하는 용도입니다. 식별자대신 이용하여 구별성을 높일 수 있습니다.",
+        "Settings.GiggleTechSettings.Devices.Breadcrumb" : "기글퍽(GigglePuck)",
         
         "Settings.UserMetricsSettings.UserHeight": "신장(키)",
         "Settings.UserMetricsSettings.UserHeight.Description": "아바타의 크기를 적절하게 조정하기 위한 값입니다. 또한, <color=hero.yellow>좌식 모드</color>를 활성화 했을때 배치되는 높이이기도 합니다. 기록시 미터법에 쓰이는 <color=hero.yellow>cm</color>나 <color=hero.yellow>m</color>, 파운드/인치/피트인 경우 <color=hero.yellow>n'n\"</color> 형식으로 기호를 포함하여 키 정보를 입력하실 수 있습니다.",
