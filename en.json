@@ -1390,6 +1390,9 @@
         "Settings.HapticPointMapping.ControllerSide" : "Controller",
         "Settings.HapticPointMapping.ControllerSide.Description" : "Which controller should this haptic point be mapped to? Left or right?",
 
+        "Settings.HapticPointMapping.Tag" : "Haptic Tag",
+        "Settings.HapticPointMapping.Tag.Description" : "Tag associated with this haptic point. This will map to the point on your avatar with a matching haptic tag specified on the TagHapticPointMapper component. If no point with this haptic tag is defined on the avatar, the haptic device will not work.\n\nThis is useful when you need full control over precise point on the avatar that the haptic device will be mapped to - e.g. when the generalized mapping doesn't suit your needs.",
+
         "Settings.GiggleTechSettings" : "GiggleTech Devices",
         "Settings.GiggleTechSettings.Devices" : "Manage GigglePucks",
         "Settings.GiggleTechSettings.Devices.IP" : "GigglePuck IP",
@@ -1401,6 +1404,7 @@
         "Settings.GiggleTechSettings.Devices.CustomName" : "Custom Name",
         "Settings.GiggleTechSettings.Devices.CustomName.Description" : "You can use this to give this GigglePuck a custom name for easier reference. This is purely cosmetic and has no functional differences.",
         "Settings.GiggleTechSettings.Devices.Breadcrumb" : "GigglePucks",
+        "Settings.GiggleTechSettings.ActivationIntensity" : "Current Intensity",
 
         "Settings.UserMetricsSettings.UserHeight": "Height",
         "Settings.UserMetricsSettings.UserHeight.Description": "This is your real world height, which is used to properly scale your avatar so it fits you well. It is also the height you will be placed at when you enable seated mode.\n\nYou can enter your height by using appropriate units, for example by typing <nobr><color=hero.yellow>175 cm</color></nobr> or <nobr><color=hero.yellow>1.75 m</color></nobr> for metric or <color=hero.yellow>5'11\"</color> for imperial.",

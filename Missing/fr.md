@@ -2,8 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # French [fr]
-Settings.TrackerSettings.Trackers.CustomName  
-Settings.TrackerSettings.Trackers.CustomName.Description  
 Settings.HapticPointMapping.MappingTarget  
 Settings.HapticPointMapping.MappingTarget.Description  
 Settings.HapticPointMapping.PointRadius  
@@ -32,6 +30,8 @@ Settings.HapticPointMapping.LegAngleAround
 Settings.HapticPointMapping.LegAngleAround.Description  
 Settings.HapticPointMapping.ControllerSide  
 Settings.HapticPointMapping.ControllerSide.Description  
+Settings.HapticPointMapping.Tag  
+Settings.HapticPointMapping.Tag.Description  
 Settings.GiggleTechSettings  
 Settings.GiggleTechSettings.Devices  
 Settings.GiggleTechSettings.Devices.IP  
@@ -43,6 +43,5 @@ Settings.GiggleTechSettings.Devices.IntensityScale.Description
 Settings.GiggleTechSettings.Devices.CustomName  
 Settings.GiggleTechSettings.Devices.CustomName.Description  
 Settings.GiggleTechSettings.Devices.Breadcrumb  
-Settings.PhotoCaptureSettings.StereoSeparation  
-Settings.PhotoCaptureSettings.StereoSeparation.Description  
+Settings.GiggleTechSettings.ActivationIntensity  
 
