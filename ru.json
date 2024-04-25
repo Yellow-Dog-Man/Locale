@@ -1313,7 +1313,7 @@
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "Когда включено, вы не будете отображаться в скриншотаз, снятых в игре.\n\n<color=hero.red>ВАЖНО:</color> Обратите внимание, что это не затрагивает камеры реального времени, скриншоты снятые внешними средствами или другие средства рендера в виртуальном мире, которые могут быть частью механик этого мира.",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Трекинг рук Leap Motion",
-        "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Когда включен, устройктво Leap Motion, если подключено, будет использоваться для отслеживания ваших рук и пальцев.",
+        "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Когда включен, устройство Leap Motion, если подключено, будет использоваться для отслеживания ваших рук и пальцев.",
         "Settings.LeapMotionSettings.Offset": "Отступ трекинга рук",
         "Settings.LeapMotionSettings.Offset.Description": "Это сдвиг сенсора Leap Motion относительно вашего VR шлема в метрах. Подстройте эти значения чтобы руки были в правильной позиции.",
         "Settings.LeapMotionSettings.SnapDistance": "Дистанция \"прилипания\" к контроллерам",
@@ -1354,6 +1354,53 @@
         "Settings.TrackerSettings.Trackers.TrackerBattery.Description" : "Уровень заряда батареи этого трекера. Обратите внимание, что некоторые трекеры не поддерживают отслеживание заряда батареи.",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging" : "Заряжается",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description" : "Показывает что трекер сейчас заряжается. Обратите внимание, что некоторые трекеры могут не показывать эту информацию.",
+
+        "Settings.HapticPointMapping.MappingTarget" : "Привязать к",
+        "Settings.HapticPointMapping.MappingTarget.Description" : "Задайте какой части аватара должно соответствовать это устройство.",
+
+        "Settings.HapticPointMapping.PointRadius" : "Радиус тактильной точки",
+        "Settings.HapticPointMapping.PointRadius.Description" : "Задает размер тактильной точки на аватаре. Чем он больше, тем легче срабатывает отдача, но это также снижает точность, потому что любой тактильный триггер в радиусе действия точки активирует её.",
+
+        "Settings.HapticPointMapping.TorsoHorizontalPosition" : "Горизонтальная позиция на туловище",
+        "Settings.HapticPointMapping.TorsoHorizontalPosition.Description" : "Это горизонтальная позиция на туловище, считая слева направо.",
+        "Settings.HapticPointMapping.TorsoVerticalPosition" : "Вертикальная позиция на туловище",
+        "Settings.HapticPointMapping.TorsoVerticalPosition.Description" : "Это вертикальная позиция на туловище, считая снизу вверх.",
+        "Settings.HapticPointMapping.TorsoSide" : "Сторона туловища",
+        "Settings.HapticPointMapping.TorsoSide.Description" : "Указывает, на какой стороне туловища размещено это устройство (спереди или сзади)",
+
+        "Settings.HapticPointMapping.HeadPitchAngle" : "Угол наклона на голове",
+        "Settings.HapticPointMapping.HeadPitchAngle.Description" : "Задает позицию вдоль \"вертикальной\" оси головы. Позиция по умолчанию это центр лица (примерно там где нос). Увеличение угла сдвигает позицию вверх до макушки. Уменьшение - вниз до подбородка.",
+        "Settings.HapticPointMapping.HeadYawAngle" : "Угол поворота на голове",
+        "Settings.HapticPointMapping.HeadYawAngle.Description" : "Задает горизонтальную позицию вокруг головы, поворачивая налево или направо. Позиция по умолчанию это центр лица (примерно там где нос). Уменьшение значения сдвигает налево, увеличение - направо. Позиция оборачивается вокруг всей головы вплоть до 180°, когда позиция приходится на затылок.",
+
+        "Settings.HapticPointMapping.ArmSide" : "Рука",
+        "Settings.HapticPointMapping.ArmSide.Description" : "К какой из рук должно быть привязано устройство? К левой или правой?",
+        "Settings.HapticPointMapping.ArmPositionAlong" : "Позиция вдоль руки",
+        "Settings.HapticPointMapping.ArmPositionAlong.Description" : "Задает позицию вдоль руки. Отсчет начинается от плеча и заканчивается на запястье. Середина - там где локоть.",
+        "Settings.HapticPointMapping.ArmAngleAround" : "Угол вокруг руки",
+        "Settings.HapticPointMapping.ArmAngleAround.Description" : "Задает угол вдоль окружности руки. Позиция в 0° направлена в сторону верха руки. Уменьшение значения двигает позицию влево, увеличение - вправо. Значения в районе 180° указывают на точку с той стороны руки, где находится ладонь.",
+
+        "Settings.HapticPointMapping.LegSide" : "Нога",
+        "Settings.HapticPointMapping.LegSide.Description" : "К какой из ног должно быть привязано устройство? К левой или правой?",
+        "Settings.HapticPointMapping.LegPositionAlong" : "Позиция вдоль ноги",
+        "Settings.HapticPointMapping.LegPositionAlong.Description" : "Задает позицию вдоль ноги. Отсчет начинается от таза и заканчивается на пятке. Середина - там где колено.",
+        "Settings.HapticPointMapping.LegAngleAround" : "Угол вокруг ноги",
+        "Settings.HapticPointMapping.LegAngleAround.Description" : "Задает угол вдоль окружности ноги. Позиция в 0° направлена вперед - туда где колено. Уменьшение значения двигает позицию влево, увеличение - вправо. Значения в районе 180° указывают на точку с задней стороны ноги.",
+
+        "Settings.HapticPointMapping.ControllerSide" : "Контроллер",
+        "Settings.HapticPointMapping.ControllerSide.Description" : "К какому контроллеру должна быть привязана эта тактильная точка? К левому или правому?",
+
+        "Settings.GiggleTechSettings" : "Устройства GiggleTech",
+        "Settings.GiggleTechSettings.Devices" : "Управление GigglePuck'ами",
+        "Settings.GiggleTechSettings.Devices.IP" : "IP адрес GigglePuck",
+        "Settings.GiggleTechSettings.Devices.IsConnected" : "Подключен ли  GigglePuck",
+        "Settings.GiggleTechSettings.Devices.UseDevice" : "Использовать устройство",
+        "Settings.GiggleTechSettings.Devices.UseDevice.Description" : "Вы можете включить или выключить отдельные GigglePuck'и когда они привязаны. Отключение устройства остановит всю тактильную отдачу.",
+        "Settings.GiggleTechSettings.Devices.IntensityScale" : "Интенсивность",
+        "Settings.GiggleTechSettings.Devices.IntensityScale.Description" : "Задает множитель интенсивности тактильной отдачи GigglePuck. Итоговая сила отдачи никогда не превысит максимальное безопасное значение GigglePuck - значения обрезаются по максимальному пределу чтобы не перегрузить мотор.",
+        "Settings.GiggleTechSettings.Devices.CustomName" : "Название",
+        "Settings.GiggleTechSettings.Devices.CustomName.Description" : "Вы можете задать этому GigglePuck отдельное название. Имя чисто косметическое и не меняет функциональности.",
+        "Settings.GiggleTechSettings.Devices.Breadcrumb" : "GigglePuck'и",
 
         "Settings.UserMetricsSettings.UserHeight": "Рост",
         "Settings.UserMetricsSettings.UserHeight.Description": "Это ваш реальный рост, который используется чтобы правильно масштабировать ваш аватар и подогнать его под ваше тело. Также это высота, которая будет использоваться для сидячего режима.\n\nВы можете ввести свой рост в подходящих единицах длины, например <nobr><color=hero.yellow>175 cm</color></nobr> или <nobr><color=hero.yellow>1.75 m</color></nobr> для метрической системы или <color=hero.yellow>5'11\"</color> для имперской.",
