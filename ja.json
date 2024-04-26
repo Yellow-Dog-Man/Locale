@@ -1358,6 +1358,9 @@
         "Settings.HapticPointMapping.MappingTarget" : "割当",
         "Settings.HapticPointMapping.MappingTarget.Description" : "このデバイスをアバターのどの部分に割当するかを設定します。",
 
+        "Settings.HapticPointMapping.PointRadius" : "ハプティックポイントの大きさ",
+        "Settings.HapticPointMapping.PointRadius.Description" : "アバター上のハプティックポイントの大きさを設定できます。大きくすることで、離れた位置から動作でも反応しやすくなりますが、範囲内にハプティック・トリガーがあればそれが動作するため、精度が落ちます。",
+
         "Settings.HapticPointMapping.TorsoHorizontalPosition" : "胴体の水平位置",
         "Settings.HapticPointMapping.TorsoHorizontalPosition.Description" : "これは胴体に沿った左から右へ向かった水平位置です。",
         "Settings.HapticPointMapping.TorsoVerticalPosition" : "胴体の垂直位置",
@@ -1387,6 +1390,9 @@
         "Settings.HapticPointMapping.ControllerSide" : "コントローラー",
         "Settings.HapticPointMapping.ControllerSide.Description" : "ハプティックポイントを左右どちらのコントローラーに割り当てるか設定出来ます。",
 
+        "Settings.HapticPointMapping.Tag" : "ハプティック・タグ",
+        "Settings.HapticPointMapping.Tag.Description" : "このハプティックポイントに設定したタグ。これはTagHapticPointMapperコンポーネントで指定された一致するハプティック・タグを持つアバター上の位置に割当されます。このハプティック・タグを持つポイントがアバター上に設定されていない場合、ハプティック・デバイスは動作しません。\n\nこれは、ハプティック・デバイスが割当されるアバター上の正確な位置を完全に制御する必要がある場合に便利です。",
+
         "Settings.GiggleTechSettings" : "GiggleTechデバイス",
         "Settings.GiggleTechSettings.Devices" : "GigglePucksの管理",
         "Settings.GiggleTechSettings.Devices.IP" : "GigglePuck IP",
@@ -1398,6 +1404,7 @@
         "Settings.GiggleTechSettings.Devices.CustomName" : "カスタム名",
         "Settings.GiggleTechSettings.Devices.CustomName.Description" : "このGigglePuckにカスタム名を付けることができます。これに機能的な影響はありません。",
         "Settings.GiggleTechSettings.Devices.Breadcrumb" : "GigglePuck",
+        "Settings.GiggleTechSettings.ActivationIntensity" : "現在の強さ",
 
         "Settings.UserMetricsSettings.UserHeight": "身長",
         "Settings.UserMetricsSettings.UserHeight.Description": "現実世界の身長を設定してください。アバターのサイズとユーザーの身長を合わせるために使用されます。着席モード時にも使われます。\n\n適切な単位を用いて身長を入力できます。例えば、メートル法であれば<color=hero.yellow>175cm</color>、または<color=hero.yellow>1.75m</color>のように入力し、ヤードポンド法の場合<color=hero.yellow>5'11\"</color>のように入力します。",
