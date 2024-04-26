@@ -1390,6 +1390,9 @@
         "Settings.HapticPointMapping.ControllerSide" : "控制器",
         "Settings.HapticPointMapping.ControllerSide.Description" : "该触点应该定位到哪个控制器？左侧还是右侧？",
 
+        "Settings.HapticPointMapping.Tag" : "触点标签",
+        "Settings.HapticPointMapping.Tag.Description" : "与此触觉点相关联的标签。这将定位到化身上与标签触点定位器组件上指定的触觉标签相匹配的点。如果化身上没有定义带有此触点标签的点，触觉设备将无法工作。\n\n当你需要完全控制触觉设备定位到的化身上的精确点时（例如，当通用定位不符合你的需求时），这个功能就非常有用。",
+
         "Settings.GiggleTechSettings" : "GiggleTech 设备",
         "Settings.GiggleTechSettings.Devices" : "管理 GigglePucks",
         "Settings.GiggleTechSettings.Devices.IP" : "GigglePuck IP",
@@ -1400,7 +1403,8 @@
         "Settings.GiggleTechSettings.Devices.IntensityScale.Description" : "这样你就可以调节发送到 GigglePuck 的触觉强度。 触觉的实际强度永远不会超过 GigglePuck 的最大安全值 - 这些值会被限制在电动机过载的安全最大值。",
         "Settings.GiggleTechSettings.Devices.CustomName" : "自定义名字",
         "Settings.GiggleTechSettings.Devices.CustomName.Description" : "你可以用它来给这个 GigglePuck 起一个自定义名称，以便于参考。这纯粹是用于美观，没有功能上的区别。",
-        "Settings.GiggleTechSettings.Devices.Breadcrumb" : "GigglePucks",
+        "Settings.GiggleTechSettings.Devices.Breadcrumb" : "GigglePucks 设备",
+        "Settings.GiggleTechSettings.ActivationIntensity" : "当前强度",
 
         "Settings.UserMetricsSettings.UserHeight": "身高",
         "Settings.UserMetricsSettings.UserHeight.Description": "这是你在现实世界中的身高，用于适当缩放你的化身，使其本身匹配你。这也是你启用坐姿模式时的身高。\n\n你可以使用适当的单位输入你的身高，例如输入 <nobr><color=hero.yellow>175 cm</color></nobr> 或者 <nobr><color=hero.yellow>1.75 m</color></nobr> （公制单位）或者 <color=hero.yellow>5'11\"</color> （英制单位）。",
@@ -1596,7 +1600,7 @@
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius.Description": "在此距离内的用户将被添加到摄像机在群组模式下自动取景的群组中。",
         "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary": "群组离开边界范围",
         "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary.Description": "用户需要离开群组半径多远才会被排除在群组之外。",
-
+        
         "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed": "位置平滑速度",
         "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed.Description": "这表示摄像机移动到世界中目标位置的速度。数值越大，摄像机移动速度越快，但也会导致移动更加生涩。",
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "角度平滑速度",
