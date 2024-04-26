@@ -1354,6 +1354,8 @@
         "Settings.TrackerSettings.Trackers.TrackerBattery.Description" : "Уровень заряда батареи этого трекера. Обратите внимание, что некоторые трекеры не поддерживают отслеживание заряда батареи.",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging" : "Заряжается",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description" : "Показывает что трекер сейчас заряжается. Обратите внимание, что некоторые трекеры могут не показывать эту информацию.",
+        "Settings.TrackerSettings.Trackers.Unmap" : "Сбросить привязку",
+        "Settings.TrackerSettings.Trackers.Remove" : "Удалить трекер",
 
         "Settings.HapticPointMapping.MappingTarget" : "Привязать к",
         "Settings.HapticPointMapping.MappingTarget.Description" : "Задайте какой части аватара должно соответствовать это устройство.",
@@ -1390,6 +1392,9 @@
         "Settings.HapticPointMapping.ControllerSide" : "Контроллер",
         "Settings.HapticPointMapping.ControllerSide.Description" : "К какому контроллеру должна быть привязана эта тактильная точка? К левому или правому?",
 
+        "Settings.HapticPointMapping.Tag" : "Тактильная метка",
+        "Settings.HapticPointMapping.Tag.Description" : "Метка ассоциированная с этой тактильной точкой. Она будет привязана к точке на аватаре с той же тактильной меткой в компоненте TagHapticPointMapper. Если на аватаре нет точки с такой меткой, тактильное устройство не будет работать.\n\nПолезно если вам нужен полный контроль над точным расположением тактильной точки на аватаре к которой будет привязано тактильное устройство - например, когда автоматическая привязка работает не так как нужно.",
+
         "Settings.GiggleTechSettings" : "Устройства GiggleTech",
         "Settings.GiggleTechSettings.Devices" : "Управление GigglePuck'ами",
         "Settings.GiggleTechSettings.Devices.IP" : "IP адрес GigglePuck",
@@ -1398,9 +1403,11 @@
         "Settings.GiggleTechSettings.Devices.UseDevice.Description" : "Вы можете включить или выключить отдельные GigglePuck'и когда они привязаны. Отключение устройства остановит всю тактильную отдачу.",
         "Settings.GiggleTechSettings.Devices.IntensityScale" : "Интенсивность",
         "Settings.GiggleTechSettings.Devices.IntensityScale.Description" : "Задает множитель интенсивности тактильной отдачи GigglePuck. Итоговая сила отдачи никогда не превысит максимальное безопасное значение GigglePuck - значения обрезаются по максимальному пределу чтобы не перегрузить мотор.",
+        "Settings.GiggleTechSettings.Devices.Remove" : "Удалить",
         "Settings.GiggleTechSettings.Devices.CustomName" : "Название",
         "Settings.GiggleTechSettings.Devices.CustomName.Description" : "Вы можете задать этому GigglePuck отдельное название. Имя чисто косметическое и не меняет функциональности.",
         "Settings.GiggleTechSettings.Devices.Breadcrumb" : "GigglePuck'и",
+        "Settings.GiggleTechSettings.Devices.ActivationIntensity" : "Такущая интенсивность",
 
         "Settings.UserMetricsSettings.UserHeight": "Рост",
         "Settings.UserMetricsSettings.UserHeight.Description": "Это ваш реальный рост, который используется чтобы правильно масштабировать ваш аватар и подогнать его под ваше тело. Также это высота, которая будет использоваться для сидячего режима.\n\nВы можете ввести свой рост в подходящих единицах длины, например <nobr><color=hero.yellow>175 cm</color></nobr> или <nobr><color=hero.yellow>1.75 m</color></nobr> для метрической системы или <color=hero.yellow>5'11\"</color> для имперской.",
