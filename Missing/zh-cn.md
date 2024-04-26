@@ -5,7 +5,6 @@ Note that this file updates only during build processes and doesn't necessarily 
 Settings.TrackerSettings.Trackers.Unmap  
 Settings.TrackerSettings.Trackers.Remove  
 Settings.GiggleTechSettings.Devices.Remove  
-Settings.GiggleTechSettings.Devices.ActivationIntensity  
 Settings.GiggleTechSettings.Devices.MinimumIntensity  
 Settings.GiggleTechSettings.Devices.MinimumIntensity.Description  
 Settings.GiggleTechSettings.Devices.InitialActivationIntensity  
