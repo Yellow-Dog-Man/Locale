@@ -160,6 +160,8 @@ Settings.TrackerSettings.Trackers.TrackerBattery
 Settings.TrackerSettings.Trackers.TrackerBattery.Description  
 Settings.TrackerSettings.Trackers.TrackerIsCharging  
 Settings.TrackerSettings.Trackers.TrackerIsCharging.Description  
+Settings.TrackerSettings.Trackers.Unmap  
+Settings.TrackerSettings.Trackers.Remove  
 Settings.HapticPointMapping.MappingTarget  
 Settings.HapticPointMapping.MappingTarget.Description  
 Settings.HapticPointMapping.PointRadius  
@@ -198,10 +200,15 @@ Settings.GiggleTechSettings.Devices.UseDevice
 Settings.GiggleTechSettings.Devices.UseDevice.Description  
 Settings.GiggleTechSettings.Devices.IntensityScale  
 Settings.GiggleTechSettings.Devices.IntensityScale.Description  
+Settings.GiggleTechSettings.Devices.Remove  
 Settings.GiggleTechSettings.Devices.CustomName  
 Settings.GiggleTechSettings.Devices.CustomName.Description  
 Settings.GiggleTechSettings.Devices.Breadcrumb  
-Settings.GiggleTechSettings.ActivationIntensity  
+Settings.GiggleTechSettings.Devices.ActivationIntensity  
+Settings.GiggleTechSettings.Devices.MinimumIntensity  
+Settings.GiggleTechSettings.Devices.MinimumIntensity.Description  
+Settings.GiggleTechSettings.Devices.InitialActivationIntensity  
+Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description  
 Settings.UserMetricsSettings.UserHeight  
 Settings.UserMetricsSettings.UserHeight.Description  
 Settings.AudioInputDeviceSettings.UseSystemDefault  
