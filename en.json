@@ -1408,6 +1408,10 @@
         "Settings.GiggleTechSettings.Devices.CustomName.Description" : "You can use this to give this GigglePuck a custom name for easier reference. This is purely cosmetic and has no functional differences.",
         "Settings.GiggleTechSettings.Devices.Breadcrumb" : "GigglePucks",
         "Settings.GiggleTechSettings.Devices.ActivationIntensity" : "Current Intensity",
+        "Settings.GiggleTechSettings.Devices.MinimumIntensity" : "Minimum Intensity",
+        "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description" : "This is the minimum intensity that the haptic will be run at. When the intensity is too low, this can cause the haptic device to stall and stop responding.",
+        "Settings.GiggleTechSettings.Devices.InitialActivationIntensity" : "Initial Acitvation Intensity",
+        "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description" : "When the haptics go from inactive to active, they will be run at at least this amount of intensity for a very short time period. This can help \"kick-start\" the haptics, when the activation value is too low for the motor to start spinning.",
 
         "Settings.UserMetricsSettings.UserHeight": "Height",
         "Settings.UserMetricsSettings.UserHeight.Description": "This is your real world height, which is used to properly scale your avatar so it fits you well. It is also the height you will be placed at when you enable seated mode.\n\nYou can enter your height by using appropriate units, for example by typing <nobr><color=hero.yellow>175 cm</color></nobr> or <nobr><color=hero.yellow>1.75 m</color></nobr> for metric or <color=hero.yellow>5'11\"</color> for imperial.",
