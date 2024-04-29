@@ -6,4 +6,10 @@ Settings.GiggleTechSettings.Devices.MinimumIntensity
 Settings.GiggleTechSettings.Devices.MinimumIntensity.Description  
 Settings.GiggleTechSettings.Devices.InitialActivationIntensity  
 Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description  
+Settings.HostAccessSettings.Entries.AllowOSC_Receiving  
+Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description  
+Settings.HostAccessSettings.Entries.AllowOSC_Sending  
+Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description  
+Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason  
+Settings.HostAccessSettings.Entries.LastOSC_ReceiverRequestReason  
 

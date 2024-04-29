@@ -1248,8 +1248,14 @@ Settings.HostAccessSettings.Entries.AllowHTTP_Requests
 Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description  
 Settings.HostAccessSettings.Entries.AllowWebsockets  
 Settings.HostAccessSettings.Entries.AllowWebsockets.Description  
+Settings.HostAccessSettings.Entries.AllowOSC_Receiving  
+Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description  
+Settings.HostAccessSettings.Entries.AllowOSC_Sending  
+Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description  
 Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason  
 Settings.HostAccessSettings.Entries.LastWebsocketRequestReason  
+Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason  
+Settings.HostAccessSettings.Entries.LastOSC_ReceiverRequestReason  
 Settings.HostAccessSettings.Entries.Remove  
 Settings.HostAccessSettings.DebugReset  
 Settings.UserRestrictionsSettings.DebugReset  
