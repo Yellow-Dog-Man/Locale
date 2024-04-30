@@ -3,13 +3,6 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Chinese (China) [zh-cn]
 Notifications.SessionStarted  
-Settings.TrackerSettings.Trackers.Unmap  
-Settings.TrackerSettings.Trackers.Remove  
-Settings.GiggleTechSettings.Devices.Remove  
-Settings.GiggleTechSettings.Devices.MinimumIntensity  
-Settings.GiggleTechSettings.Devices.MinimumIntensity.Description  
-Settings.GiggleTechSettings.Devices.InitialActivationIntensity  
-Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description  
 Settings.HostAccessSettings.Entries.AllowOSC_Receiving  
 Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description  
 Settings.HostAccessSettings.Entries.AllowOSC_Sending  
