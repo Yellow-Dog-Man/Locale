@@ -1674,6 +1674,15 @@
         "Settings.PostProcessingSettings.Antialiasing" : "アンチエイリアス (AA)",
         "Settings.PostProcessingSettings.Antialiasing.Description" : "アンチエイリアス(AA)は、画面内の物体の端いギザギザを滑らかにします。いくつかのフィルターを選択でき、それぞれのフィルターには異なる欠点があります。FXAAは一般的に使用され、うまく機能しますが、テキストなど画面内の他の部分をぼかすことにもなります。\n\n<color=red>警告：</color> 一部のAA設定は、VRに適していないか、まったく機能しない場合があります。",
 
+        "Settings.ResolutionSettings" : "解像度",
+        "Settings.ResolutionSettings.Fullscreen" : "フルスクリーン",
+        "Settings.ResolutionSettings.Fullscreen.Description" : "フルスクリーンモードとウィンドウモードを切り替えます。",
+        "Settings.ResolutionSettings.WindowResolution" : "ウインドウの解像度",
+        "Settings.ResolutionSettings.WindowResolution.Description" : "ウィンドウモード時に使用する解像度。画面上のウィンドウの実際の大きさになります。",
+        "Settings.ResolutionSettings.FullscreenResolution" : "フルスクリーンの解像度",
+        "Settings.ResolutionSettings.FullscreenResolution.Description" : "フルスクリーンモードで使用する解像度。サイズは変わりませんが、4Kのような高解像度モニターを使用している場合には、解像度を下げるとパフォーマンスが向上します。",
+        "Settings.ResolutionSettings.ApplyResolution" : "変更を適用",
+
         "Settings.RenderingQualitySettings" : "描画品質",
         "Settings.RenderingQualitySettings.PerPixelLights" : "ピクセルあたりのライト",
         "Settings.RenderingQualitySettings.PerPixelLights.Description" : "これは、フォワードメソッドを使用して描画されたオブジェクト（透過オブジェクトとトゥーンシェーダなどの非PBSオブジェクト）に直接影響するポイントライトとスポットライトの数を制御します。\n\nこの値を大きくすると、ライティングの品質が向上し、オブジェクトの質感が増します。（複数のライトがある場合の色のちらつきが減ります。）",
