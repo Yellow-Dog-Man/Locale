@@ -1354,6 +1354,8 @@
         "Settings.TrackerSettings.Trackers.TrackerBattery.Description" : "此追踪器的当前电池电量。请注意，某些追踪器可能不支持追踪当前电池电量。",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging" : "正在充电",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description" : "这表示追踪器当前是否正在充电。请注意，某些追踪器可能不支持报告此信息。",
+        "Settings.TrackerSettings.Trackers.Unmap" : "重置定位",
+        "Settings.TrackerSettings.Trackers.Remove" : "重置追踪器绑定",
 
         "Settings.HapticPointMapping.MappingTarget" : "定位到",
         "Settings.HapticPointMapping.MappingTarget.Description" : "用它来配置你希望将此设备定位到化身的哪个部分。",
@@ -1401,13 +1403,18 @@
         "Settings.GiggleTechSettings.Devices.UseDevice.Description" : "在映射时，你可以用它来启用或禁用单个 GigglePucks 设备。禁用设备将关闭所有触点。",
         "Settings.GiggleTechSettings.Devices.IntensityScale" : "强度等级",
         "Settings.GiggleTechSettings.Devices.IntensityScale.Description" : "这样你就可以调节发送到 GigglePuck 的触觉强度。 触觉的实际强度永远不会超过 GigglePuck 的最大安全值 - 这些值会被限制在电动机过载的安全最大值。",
+        "Settings.GiggleTechSettings.Devices.Remove" : "移除绑定",
         "Settings.GiggleTechSettings.Devices.CustomName" : "自定义名字",
         "Settings.GiggleTechSettings.Devices.CustomName.Description" : "你可以用它来给这个 GigglePuck 起一个自定义名称，以便于参考。这纯粹是用于美观，没有功能上的区别。",
         "Settings.GiggleTechSettings.Devices.Breadcrumb" : "GigglePucks 设备",
         "Settings.GiggleTechSettings.Devices.ActivationIntensity" : "当前强度",
+        "Settings.GiggleTechSettings.Devices.MinimumIntensity" : "最小强度",
+        "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description" : "这是触控装置运行时的最小强度。当强度过低时，会导致触控设备停滞并停止响应。",
+        "Settings.GiggleTechSettings.Devices.InitialActivationIntensity" : "初始激活强度",
+        "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description" : "当触觉装置从非激活状态转为激活状态时，它们将在很短的时间内以设定的最低强度运行。当激活值过低，电机无法启动时，这可以帮助触觉设备启动。",
 
         "Settings.UserMetricsSettings.UserHeight": "身高",
-        "Settings.UserMetricsSettings.UserHeight.Description": "这是你在现实世界中的身高，用于适当缩放你的化身，使其本身匹配你。这也是你启用坐姿模式时的身高。\n\n你可以使用适当的单位输入你的身高，例如输入 <nobr><color=hero.yellow>175 cm</color></nobr> 或者 <nobr><color=hero.yellow>1.75 m</color></nobr> （公制单位）或者 <color=hero.yellow>5'11\"</color> （英制单位）。",
+        "Settings.UserMetricsSettings.UserHeight.Description": "这是你在现实世界中的身高，用于适当缩放你的化身，使其本身匹配你。这也是你启用坐姿模式时的身高。\n\n你可以使用适当的单位输入你的身高，例如输入 <nobr><color=hero.yellow>175 cm</color></nobr> 或者 <nobr><color=hero.yellow>1.75 m</color></nobr> （公制单位）或者 <color=hero.yellow>5'11\"</color> （英制单位）。",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "使用系统默认音频输入设备",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "启用此选项可自动使用你在系统中设置为默认音频输入的输入设备。如果想覆盖此选项并使用特定设备，请禁用此选项并在下面配置首选设备。",
