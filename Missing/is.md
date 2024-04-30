@@ -809,6 +809,8 @@ Settings.PhotoCaptureSettings.CapturePrivateUI
 Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
 Settings.PhotoCaptureSettings.EncodeFormat  
 Settings.PhotoCaptureSettings.EncodeFormat.Description  
+Settings.PhotoCaptureSettings.AlwaysHideNameplates  
+Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
 Settings.InteractiveCameraFramingSettings.PositioningMode  

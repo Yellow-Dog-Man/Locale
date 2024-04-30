@@ -71,4 +71,6 @@ Settings.NotificationSettings.ContactRequest
 Settings.NotificationSettings.ContactRequest.Description  
 Settings.NotificationSettings.SessionStarted  
 Settings.NotificationSettings.SessionStarted.Description  
+Settings.PhotoCaptureSettings.AlwaysHideNameplates  
+Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
 
