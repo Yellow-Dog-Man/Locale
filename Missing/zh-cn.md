@@ -2,6 +2,7 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Chinese (China) [zh-cn]
+Notifications.SessionStarted  
 Settings.TrackerSettings.Trackers.Unmap  
 Settings.TrackerSettings.Trackers.Remove  
 Settings.GiggleTechSettings.Devices.Remove  
@@ -15,4 +16,17 @@ Settings.HostAccessSettings.Entries.AllowOSC_Sending
 Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description  
 Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason  
 Settings.HostAccessSettings.Entries.LastOSC_ReceiverRequestReason  
+Settings.NotificationSettings  
+Settings.NotificationSettings.UserOnline  
+Settings.NotificationSettings.UserOnline.Description  
+Settings.NotificationSettings.UserOnlineOnAnotherBuild  
+Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description  
+Settings.NotificationSettings.Message  
+Settings.NotificationSettings.Message.Description  
+Settings.NotificationSettings.Invite  
+Settings.NotificationSettings.Invite.Description  
+Settings.NotificationSettings.ContactRequest  
+Settings.NotificationSettings.ContactRequest.Description  
+Settings.NotificationSettings.SessionStarted  
+Settings.NotificationSettings.SessionStarted.Description  
 

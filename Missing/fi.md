@@ -17,6 +17,7 @@ Session.JoinVerifier.ComponentWarning
 Session.JoinVerifier.SetCustomVerifier  
 Contacts.Unblocked  
 Contacts.Migrated  
+Notifications.SessionStarted  
 Tooltip.Cartridge.Eject  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
@@ -343,6 +344,19 @@ Settings.DashSettings.DashCurvature
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.NotificationSettings  
+Settings.NotificationSettings.UserOnline  
+Settings.NotificationSettings.UserOnline.Description  
+Settings.NotificationSettings.UserOnlineOnAnotherBuild  
+Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description  
+Settings.NotificationSettings.Message  
+Settings.NotificationSettings.Message.Description  
+Settings.NotificationSettings.Invite  
+Settings.NotificationSettings.Invite.Description  
+Settings.NotificationSettings.ContactRequest  
+Settings.NotificationSettings.ContactRequest.Description  
+Settings.NotificationSettings.SessionStarted  
+Settings.NotificationSettings.SessionStarted.Description  
 Settings.NamePlateSettings.NameplateVisibility  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  
