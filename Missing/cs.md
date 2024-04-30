@@ -469,6 +469,14 @@ Settings.PostProcessingSettings.ScreenSpaceReflections
 Settings.PostProcessingSettings.ScreenSpaceReflections.Description  
 Settings.PostProcessingSettings.Antialiasing  
 Settings.PostProcessingSettings.Antialiasing.Description  
+Settings.ResolutionSettings  
+Settings.ResolutionSettings.Fullscreen  
+Settings.ResolutionSettings.Fullscreen.Description  
+Settings.ResolutionSettings.WindowResolution  
+Settings.ResolutionSettings.WindowResolution.Description  
+Settings.ResolutionSettings.FullscreenResolution  
+Settings.ResolutionSettings.FullscreenResolution.Description  
+Settings.ResolutionSettings.ApplyResolution  
 Settings.RenderingQualitySettings  
 Settings.RenderingQualitySettings.PerPixelLights  
 Settings.RenderingQualitySettings.PerPixelLights.Description  

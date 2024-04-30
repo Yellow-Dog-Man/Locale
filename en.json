@@ -1676,6 +1676,15 @@
         "Settings.PostProcessingSettings.Antialiasing" : "Antialiasing (AA)",
         "Settings.PostProcessingSettings.Antialiasing.Description" : "Antialising smooths out sharp jagged edges on objects in the scene. You can select from several different filters, with each filter having different downsides. FXAA is commonly used and works reasonably well enough, but can also blur other parts of the scene, such as text.\n\n<color=red>Warning:</color> Some AA options might not be suitable or work at all in VR.",
 
+        "Settings.ResolutionSettings" : "Resolution",
+        "Settings.ResolutionSettings.Fullscreen" : "Fullscreen",
+        "Settings.ResolutionSettings.Fullscreen.Description" : "Toggles between fullscreen mode and windowed mode",
+        "Settings.ResolutionSettings.WindowResolution" : "Window Resolution",
+        "Settings.ResolutionSettings.WindowResolution.Description" : "What resolution should be used when in the windowed mode. This controls the actual size of the window on the screen.",
+        "Settings.ResolutionSettings.FullscreenResolution" : "Fullscreen Resolution",
+        "Settings.ResolutionSettings.FullscreenResolution.Description" : "What resolution should be used when in fullscreen mode. The size will remain the same, but lowering the resolution can improve performance (particularly with high-resolution screens like 4K) at the cost of more blurry image.",
+        "Settings.ResolutionSettings.ApplyResolution" : "Apply Changes",
+
         "Settings.RenderingQualitySettings" : "Rendering Quality",
         "Settings.RenderingQualitySettings.PerPixelLights" : "Per Pixel Lights",
         "Settings.RenderingQualitySettings.PerPixelLights.Description" : "This controls how many point & spot lights can directly affect objects rendered using the forward method - typically transparent and non-PBS objects (e.g. with the toon shader).\n\nIncreasing this value will improve the quality of lighting and reduce color flickering in presence of multiple lights at the cost of performance - the object needs to be rendered multiple times for each light affecting it.",
