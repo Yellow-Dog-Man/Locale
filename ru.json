@@ -1676,6 +1676,15 @@
         "Settings.PostProcessingSettings.Antialiasing" : "Антиалиасинг (AA)",
         "Settings.PostProcessingSettings.Antialiasing.Description" : "Антиалиасинг сглаживает ступенчатые границы объектов в сцене. Вы можете выбрать один из нескольких фильтров, у каждого из которых есть свои преимущества и недостатки. FXAA используется чаще всего и работает достаточно хорошо, но также может размыть другие части сцены, такие как текст.\n\n<color=red>Внимание:</color> Некоторые варианты антиалиасинга могут работать некорректно или вообще не работать в VR.",
 
+        "Settings.ResolutionSettings" : "Разрешение",
+        "Settings.ResolutionSettings.Fullscreen" : "Полноэкранный режим",
+        "Settings.ResolutionSettings.Fullscreen.Description" : "Переключает между полноэкранным и оконным режимами",
+        "Settings.ResolutionSettings.WindowResolution" : "Разрешение оконного режима",
+        "Settings.ResolutionSettings.WindowResolution.Description" : "Какое разрешение должно использоваться в оконном режиме. Задает размер окна на экране.",
+        "Settings.ResolutionSettings.FullscreenResolution" : "Разрешение полноэкранного режима",
+        "Settings.ResolutionSettings.FullscreenResolution.Description" : "Какое разрешение должно использоваться в полноэкранном режиме. Размер останется тем же, но уменьшение разрешения может улучшить производительность (особенно с экранами высокого разрешения типа 4K) ценой размытой картинки.",
+        "Settings.ResolutionSettings.ApplyResolution" : "Применить изменения",
+
         "Settings.RenderingQualitySettings" : "Качество рендера",
         "Settings.RenderingQualitySettings.PerPixelLights" : "Количество источников света на пиксель",
         "Settings.RenderingQualitySettings.PerPixelLights.Description" : "Задает количество точечных и направленных источников света, которые могут напрямую освещать объекты, рендеренные прямым методом - обычно прозрачные и не-PBS (например, с toon shader).\n\nУвеличение этого значения улучшит качество освещения и уменьшит мерцание в окресностях нескольких источников света за счет производительности - объект нужно отрендерить лишний раз для каждого источника света, освещающего его.",
