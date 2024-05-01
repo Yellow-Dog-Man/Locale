@@ -1313,6 +1313,13 @@
         "Settings.MediaPrivacySettings.HideInScreenshots" : "Не показывать меня на скриншотах",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "Когда включено, вы не будете отображаться в скриншотаз, снятых в игре.\n\n<color=hero.red>ВАЖНО:</color> Обратите внимание, что это не затрагивает камеры реального времени, скриншоты снятые внешними средствами или другие средства рендера в виртуальном мире, которые могут быть частью механик этого мира.",
 
+        "Settings.RichPresenceSettings": "Богатое присутствие",
+        "Settings.RichPresenceSettings.DiscordPreference": "Богатое присутствие Discord",
+        "Settings.RichPresenceSettings.DiscordPreference.Description": "Задает, какую информацию Resonite передает в систему богатого присутствия Discord.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Discord.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информациюб такую как присутствие в Resonite.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Discord. Включает название мира и количество пользователей в сессии.\n\nDiscord сам также определяет в какую игру вы играете. Это можно отключить в настройках Discord.",
+
+        "Settings.RichPresenceSettings.SteamPreference": "Богатое присутствие Steam",
+        "Settings.RichPresenceSettings.SteamPreference.Description": "Задает, какую информацию Resonite передает в систему богатого присутствия Steam.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Steam.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информациюб такую как присутствие в Resonite.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Steam. Включает название мира и количество пользователей в сессии.\n\nSteam сам также будет отображать что вы в Resonite, независимо от этой настройки. Изменение этой настройки только задает сколько дополнительных сведений о вашей активной сессии отправляются в Steam.",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Трекинг рук Leap Motion",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Когда включен, устройство Leap Motion, если подключено, будет использоваться для отслеживания ваших рук и пальцев.",
         "Settings.LeapMotionSettings.Offset": "Отступ трекинга рук",
