@@ -40,3 +40,5 @@ Indonesian
 The language name is usually lowercased in the text file, but we can check for your after you PR the strings.
 
 see: https://partner.steamgames.com/doc/features/enhancedrichpresence#4 for more info.
+
+The file format is VDF or "Valve Data Format", It is left in txt format to be easily editable in most user's editors. You can read about the format on Valve's wiki: https://developer.valvesoftware.com/wiki/KeyValues
