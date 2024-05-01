@@ -5,7 +5,7 @@
 		"tokens"
 		{
 			"#StatusInPrivateWorld"	"Is in a private world. (has %total_worlds% open)"
-			"#StatusInWorld" "Is in %current_world_name% with %current_world_users%.(has %total_worlds% open)"
+			"#StatusInWorld" "Is in %current_world_name% with %current_world_users% other users.(has %total_worlds% open)"
 		}
 	}
 	"french"
@@ -14,6 +14,14 @@
 		{
 			"#StatusInPrivateWorld"	"Dans un monde privé. (à %total_worlds% mondes ouverts)"
 			"#StatusInWorld" "Est dans %current_world_name% avec %current_world_users% utilisateurs. (à %total_worlds% mondes ouverts%)"
+		}
+	}
+	"german"
+	{
+		"tokens"
+		{
+			"#StatusInPrivateWorld" "Ist in einer privaten Welt. (hat %total_worlds% geöffnet)"
+			"#StatusInWorld" "Ist in %current_world_name% mit %current_world_users% anderen Nutzern. (hat %total_worlds% geöffnet)"
 		}
 	}
 }
