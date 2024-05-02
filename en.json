@@ -660,6 +660,8 @@
         "Notifications.ReceivedItem": "Sent you an item:",
         "Notifications.VoiceMessage": "Sent a voice message",
         "Notifications.SessionStarted": "Started session:",
+        "Notifications.UserJoined": "User joined",
+        "Notifications.UserLeft": "User left",
 
         "Undo.SetField": "Set field {field_name} to {value}",
         "Undo.SetReference": "Set reference {ref_name} to {ref_target}",
@@ -1266,11 +1268,17 @@
         "Settings.MovementSettings.MovementExponent": "Movement exponent",
         "Settings.MovementSettings.MovementExponent.Description": "Use this to control the curve response when moving. You can use this to either start moving slow at first and then quickly ramp up or start moving faster immediatelly, depending whether the value is above or below 1.0",
 
+        "Settings.GrabbingSettings" : "Grabbing Settings",
+        "Settings.GrabbingSettings.DefaultHandGrabType" : "Default Hand Grab Type",
+        "Settings.GrabbingSettings.DefaultHandGrabType.Description" : "This determines what your default grab mode for hands is when you spawn in new worlds.\n\n<color=hero.yellow>Palm:</color> You will grab all objects that are near your palm.\n\n<color=hero.yellow>Precision:</color> You will grab a single object between your index finger and thumb.\n\n<color=hero.yellow>Auto:</color> Mode is automatically switched between palm and precision depending on the orientation of your hand.\n\n<color=hero.yellow>Off:</color> You'll only be able to grab items with your lasers.",
+
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Thumbstick Looking Speed",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Use this to adjust the sensitivity of the speed at which the viewpoint is moved with the thumbstick.",
         "Settings.GamepadSettings.ThumbstickLookExponent": "Thumbstick Looking Exponent",
         "Settings.GamepadSettings.ThumbstickLookExponent.Description": "Use this to control the curve response of the viewpoint movement with the thumbstick. With this setting, you can either start moving slowly at first and then ramp up quickly, or start moving faster immediately, depending on whether the value is above or below 1.0.",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused": "Use gamepad when unfocused",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "When this setting is enabled, any inputs from gamepads will be used even when the applicatoin window isn't currently focused. You can turn this off if you like to run other games at the same time that also use gamepad.",
 
         "Settings.MouseSettings.MouseSensitivity": "Sensitivity",
         "Settings.MouseSettings.MouseSensitivity.Description": "Overall mouse sensitivity for desktop interactions.",
@@ -1337,6 +1345,8 @@
 
         "Settings.TrackerSettings.Trackers.UseTracker" : "Use Tracker",
         "Settings.TrackerSettings.Trackers.UseTracker.Description" : "Should this tracker be used for tracking? You can use this to temporarily disable given tracker without having to reset its mapping.",
+        "Settings.TrackerSettings.Trackers.FreezeTracking" : "Freeze Tracking",
+        "Settings.TrackerSettings.Trackers.FreezeTracking.Description" : "Enabling this will keep the tracker active, but freeze its current position and rotation. This setting is not persistent and will be reset on the next launch.",
         "Settings.TrackerSettings.Trackers.CustomName" : "Custom Name",
         "Settings.TrackerSettings.Trackers.CustomName.Description" : "You can give the tracker a custom name to make it easy to distinguish from others, rather than using its ID. This is mostly cosmetic, with no functional differences.",
         "Settings.TrackerSettings.Trackers.MappedBodyNode" : "Tracker Mapping",
@@ -1553,6 +1563,8 @@
         "Settings.NotificationSettings.ContactRequest.Description" : "This controls what notifications you get when you receive a contact request from someone",
         "Settings.NotificationSettings.SessionStarted" : "New Sessions",
         "Settings.NotificationSettings.SessionStarted.Description" : "This controls what notifications you get when a new session is discovered that you are able to join.",
+        "Settings.NotificationSettings.UserJoinAndLeave" : "Users joining & leaving",
+        "Settings.NotificationSettings.UserJoinAndLeave.Description" : "When enabled, you will receive notifications when users join and leave the world you're currently in.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Nameplate visibility",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Use this to control whose nameplates will be visible to you.",

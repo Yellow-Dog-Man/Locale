@@ -49,6 +49,8 @@ Recovery.NoPasswordSetup.Description
 Register.UnknownError  
 Register.UnknownError.Description  
 Notifications.SessionStarted  
+Notifications.UserJoined  
+Notifications.UserLeft  
 Tooltips.Dev.Selection.Single  
 Tooltips.Dev.Selection.Multi  
 Tooltips.Dev.Interaction.Tip  
@@ -151,11 +153,16 @@ Settings.MovementSettings.MovementDeadzone
 Settings.MovementSettings.MovementDeadzone.Description  
 Settings.MovementSettings.MovementExponent  
 Settings.MovementSettings.MovementExponent.Description  
+Settings.GrabbingSettings  
+Settings.GrabbingSettings.DefaultHandGrabType  
+Settings.GrabbingSettings.DefaultHandGrabType.Description  
 Settings.GamepadSettings  
 Settings.GamepadSettings.ThumbstickLookSpeed  
 Settings.GamepadSettings.ThumbstickLookSpeed.Description  
 Settings.GamepadSettings.ThumbstickLookExponent  
 Settings.GamepadSettings.ThumbstickLookExponent.Description  
+Settings.GamepadSettings.UseGamepadWhenUnfocused  
+Settings.GamepadSettings.UseGamepadWhenUnfocused.Description  
 Settings.MouseSettings.MouseSensitivity  
 Settings.MouseSettings.MouseSensitivity.Description  
 Settings.MouseSettings.MouseLookSpeed  
@@ -210,6 +217,8 @@ Settings.TrackerSettings.Trackers
 Settings.TrackerSettings.Trackers.Breadcrumb  
 Settings.TrackerSettings.Trackers.UseTracker  
 Settings.TrackerSettings.Trackers.UseTracker.Description  
+Settings.TrackerSettings.Trackers.FreezeTracking  
+Settings.TrackerSettings.Trackers.FreezeTracking.Description  
 Settings.TrackerSettings.Trackers.CustomName  
 Settings.TrackerSettings.Trackers.CustomName.Description  
 Settings.TrackerSettings.Trackers.MappedBodyNode  
@@ -395,6 +404,8 @@ Settings.NotificationSettings.ContactRequest
 Settings.NotificationSettings.ContactRequest.Description  
 Settings.NotificationSettings.SessionStarted  
 Settings.NotificationSettings.SessionStarted.Description  
+Settings.NotificationSettings.UserJoinAndLeave  
+Settings.NotificationSettings.UserJoinAndLeave.Description  
 Settings.NamePlateSettings.NameplateVisibility  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  
