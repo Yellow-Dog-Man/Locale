@@ -660,6 +660,8 @@
         "Notifications.ReceivedItem": "Отправил(-ла) вам предмет:",
         "Notifications.VoiceMessage": "Отправил(-ла) голосовое сообщение",
         "Notifications.SessionStarted": "Запустил(-ла) сессию:",
+        "Notifications.UserJoined": "Пользователь подключился",
+        "Notifications.UserLeft": "Пользователь отключился",
 
         "Undo.SetField": "Установка {field_name} в {value}",
         "Undo.SetReference": "Установка ссылки {ref_name} в {ref_target}",
@@ -1266,11 +1268,17 @@
         "Settings.MovementSettings.MovementExponent": "Экспонента скорости",
         "Settings.MovementSettings.MovementExponent.Description": "Используйте чтобы контролировать кривую ускорения при движении. Вы можете начать двигаться медленно и затем ускориться млм сразу начать двигаться быстро, в зависимости от того, является ли значение больше или меньше 1.0",
 
+        "Settings.GrabbingSettings" : "Настройки хвата",
+        "Settings.GrabbingSettings.DefaultHandGrabType" : "Тип хвата по умолчанию",
+        "Settings.GrabbingSettings.DefaultHandGrabType.Description" : "Задает ваш режим хвата по умолчанию когда вы заходите в новые миры.\n\n<color=hero.yellow>Palm:</color> Вы будете хватать все объекты, находящиеся рядом с вашей рукой.\n\n<color=hero.yellow>Precision:</color> Вы будете хватать один объект, находящийся между вашими указательным и большим пальцами.\n\n<color=hero.yellow>Auto:</color> Режим автоматически переключается между хватом ладонью и точным хватом в зависимости от ориентации вашей руки.\n\n<color=hero.yellow>Off:</color> Вы сможете хватать предметы только с помощью лазеров.",
+
         "Settings.GamepadSettings": "Геймпад",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Скорость поворота камеры",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Настраивает скорость, с которой камера поворачивается стиком.",
         "Settings.GamepadSettings.ThumbstickLookExponent": "Экспонента поворота камеры",
         "Settings.GamepadSettings.ThumbstickLookExponent.Description": "Настраивает кривую ответа поворота камеры стиком. С этой настройкой вы можете начать движение плавно и затем нарастить скорость или наоборот начать движение быстрее, в зависимости от того, больше или меньше значение этого параметра чем 1.0.",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused": "Использовать геймпад когда окно не в фокусе",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "Когда эта настройка включена, весь ввод с геймпада будет использоваться даже когда окно приложения не находится в фокусе. Вы можете отключить её если одновременно вы играете в другие игры, которые используют геймпад.",
 
         "Settings.MouseSettings.MouseSensitivity": "Чувствительность",
         "Settings.MouseSettings.MouseSensitivity.Description": "Общая чувствительность мыши для экранного режима.",
@@ -1337,6 +1345,8 @@
 
         "Settings.TrackerSettings.Trackers.UseTracker" : "Использовать трекер",
         "Settings.TrackerSettings.Trackers.UseTracker.Description" : "Должен ли этот трекер использоваться для трекинга? Вы можете временно отключить этот трекер без сброса его привязки.",
+        "Settings.TrackerSettings.Trackers.FreezeTracking" : "Заморозить трекинг",
+        "Settings.TrackerSettings.Trackers.FreezeTracking.Description" : "Включите чтобы созранить трекер активным, но заморозить его текущие позицию и направление. Эта настройка не постоянна и будет сброшена при следующем запуске.",
         "Settings.TrackerSettings.Trackers.CustomName" : "Название трекера",
         "Settings.TrackerSettings.Trackers.CustomName.Description" : "Вы можете задать для трекера название чтобы легче отличать его от других, вместо того чтобы использовать его ID. Это чисто косметическая настройка, и никак не влияет на функциональность.",
         "Settings.TrackerSettings.Trackers.MappedBodyNode" : "Привязка трекера",
@@ -1553,6 +1563,8 @@
         "Settings.NotificationSettings.ContactRequest.Description" : "Будете ли вы получать уведомления когда получаете запрос контакта от пользователя",
         "Settings.NotificationSettings.SessionStarted" : "Новые сессии",
         "Settings.NotificationSettings.SessionStarted.Description" : "Управляет уведомлениями об обнаружении новой сессии, к которой вы можете подключиться.",
+        "Settings.NotificationSettings.UserJoinAndLeave" : "Подключающиеся и отключающиеся пользователи",
+        "Settings.NotificationSettings.UserJoinAndLeave.Description" : "Когда включено, вы будете получать уведомления когда юзеры заходят или покидают мир, в котором вы сейчас находитесь.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Видимость табличек имён",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Определяет, чьи таблички имен видны вам.",
