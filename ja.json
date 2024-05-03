@@ -660,6 +660,8 @@
         "Notifications.ReceivedItem": "アイテムが届きました:",
         "Notifications.VoiceMessage": "ボイスメッセージが送られてきました",
         "Notifications.SessionStarted": "セッションが開始しました:",
+        "Notifications.UserJoined": "ユーザーが参加しました",
+        "Notifications.UserLeft": "ユーザーが退出しました",
 
         "Undo.SetField": "フィールド​{field_name}​に​{value}​をセット",
         "Undo.SetReference": "フィールド​{ref_name}​に​{ref_target}​をセット",
@@ -1266,11 +1268,17 @@
         "Settings.MovementSettings.MovementExponent": "移動指数",
         "Settings.MovementSettings.MovementExponent.Description": "ジョイスティックを倒した際の移動大きさのカーブ特性を制御できます。値が1.0より大きい場合は、最初はゆっくりと動き、その後急激に速度が上がります。値が1.0より小さい場合は、最初から高速で移動を開始できます。",
 
+        "Settings.GrabbingSettings" : "グラブ(つかみ方)設定",
+        "Settings.GrabbingSettings.DefaultHandGrabType" : "標準のグラブ方法",
+        "Settings.GrabbingSettings.DefaultHandGrabType.Description" : "新しいワールドに参加した際の、手でつかみ方を設定できます。\n\n<color=hero.yellow>Palm:</color> 手のひら:手の近くのものを全て掴みます。\n\n<color=hero.yellow>Precision:</color> 精密モード:人差し指と親指の間で一つのものだけを摘みます。\n\n<color=hero.yellow>Auto:</color> 自動切替:手の向きによって、手のひらモードと精密モードを自動的に切り替えます。\n\n<color=hero.yellow>Off:</color> レーザーのみ:レーザーでしかアイテムを掴めません。",
+
         "Settings.GamepadSettings": "ゲームパッド",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "ジョイスティックの視点移動速度",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "ジョイスティックで視点を動かす速度の感度を設定できます。",
         "Settings.GamepadSettings.ThumbstickLookExponent": "ジョイスティックの視点移動指数",
         "Settings.GamepadSettings.ThumbstickLookExponent.Description": "ジョイスティックを倒した際の視点移動の大きさのカーブ特性を制御できます。値が1.0より小さい場合は、最初はゆっくりと動き、その後急激に速度が上がります。値が1.0より大きい場合は、最初から高速で移動を開始できます。",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused": "非アクティブ時にゲームパッドを使用する",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "この設定を有効にすると、Resoniteのウィンドウがアクティブでない場合にも、ゲームパッドからの入力を使用します。ゲームパッドを使用する他のゲームを同時に実行したい場合は、この設定をオフにすることをおすすめします。",
 
         "Settings.MouseSettings.MouseSensitivity": "マウス感度倍率",
         "Settings.MouseSettings.MouseLookSpeed": "視点移動速度",
@@ -1313,13 +1321,6 @@
         "Settings.MediaPrivacySettings.HideInScreenshots" : "スクリーンショットに自分を映さない",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "これを有効にすると、ゲーム内で撮影された写真に映らなくなります。\n\n<color=hero.red>重要:</color>。これは、リアルタイムカメラ、ゲーム外の方法で撮影されたスクリーンショット、ワールド内の他の方法で撮影された写真には影響しないことに注意してください。",
 
-        "Settings.RichPresenceSettings": "リッチプレゼンス",
-        "Settings.RichPresenceSettings.DiscordPreference": "Discordリッチプレゼンス",
-        "Settings.RichPresenceSettings.DiscordPreference.Description": "ResoniteがDiscordのリッチプレゼンスシステムに送信する情報を設定できます。\n\n<color=hero.yellow>None</color> - リッチプレゼンス情報をDiscordに送信しません。\n<color=hero.yellow>Basic</color> - 限られたプレゼンス情報のみを送信します。\n<color=hero.yellow>Full</color> - パブリックセッションの場合、セッション情報を全てDiscordに送信します。ワールド名や何人のユーザーがセッションに参加しているかを含みます。\n\nDiscord自体も、あなたがどのゲームをプレイしているかを表示するために独自の検出を行います。これはDiscordの設定で無効にできます。",
-
-        "Settings.RichPresenceSettings.SteamPreference": "Steamリッチプレゼンス",
-        "Settings.RichPresenceSettings.SteamPreference.Description": "ResoniteがSteamのリッチプレゼンスシステムに送信する情報を設定できます。\n\n<color=hero.yellow>None</color> - リッチプレゼンス情報をSteamに送信しません。\n<color=hero.yellow>Basic</color> - 限られたプレゼンス情報のみを送信します。\n<color=hero.yellow>Full</color> - 公開セッションの場合、適切なセッション情報をすべてSteamに送信します。ワールド名やセッションに参加しているユーザー数などが含まれます。\n\nこの設定に関係なく、Steam自体にResoniteをプレイしていることが表示されます。この設定は、アクティブなセッションに関する追加データがSteamに送信されるかどうかです。",
-
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion ハンドトラッキング",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "設定を有効にした場合、Leap Motionデバイスがあれば、それにより手や指のトラッキングを行います。",
         "Settings.LeapMotionSettings.Offset": "ハンドトラッキングのオフセット",
@@ -1344,6 +1345,8 @@
 
         "Settings.TrackerSettings.Trackers.UseTracker": "トラッカーを使用",
         "Settings.TrackerSettings.Trackers.UseTracker.Description": "このトラッカーをトラッキングに使用するかどうかです。フルボディトラッキングの割当を変更することなく、一時的に無効にできます。",
+        "Settings.TrackerSettings.Trackers.FreezeTracking" : "トラッカーを固定",
+        "Settings.TrackerSettings.Trackers.FreezeTracking.Description" : "これを有効にすると、トラッカーはアクティブな状態を維持しますが、現在の位置と回転は固定されます。この設定は永続的ではなく、次回の起動時にリセットされます。",
         "Settings.TrackerSettings.Trackers.CustomName": "カスタム名",
         "Settings.TrackerSettings.Trackers.CustomName.Description": "トラッカーにカスタム名を付けて、他のトラッカーと区別できます。これに、機能的な効果はありません。",
         "Settings.TrackerSettings.Trackers.MappedBodyNode": "トラッカー割当",
@@ -1475,8 +1478,10 @@
         "Settings.EarmuffSettings": "イヤーマフ",
         "Settings.EarmuffSettings.EarmuffEnabled": "イヤーマフを使用",
         "Settings.EarmuffSettings.EarmuffEnabled.Description": "イヤーマフモードを有効にすると、ユーザーの声の大きさが距離や向きによって小さくなります。\n\nこの機能により\"リスニングコーン\"が形成され、複数の声が重なって聞き取りにくい場合に役立ちます。",
-        "Settings.EarmuffSettings.ConeDistance": "距離",
-        "Settings.EarmuffSettings.ConeDistance.Description": "どの程度離れると声が小さくなるかを設定できます。(\"リスニングコーン\"の長さです)",
+        "Settings.EarmuffSettings.Directionality" : "指向性",
+        "Settings.EarmuffSettings.Directionality.Description" : "声の減衰の指向性を設定できます。0%にするとあなたの後ろの声は、あなたの前の声と同じ音量になります。100%にすると、かなり近くにいない限り後ろの声は聞こえません。\n\n後ろからの声をよく聞きたい場合は、この値を下げてください。",
+        "Settings.EarmuffSettings.Distance" : "距離",
+        "Settings.EarmuffSettings.Distance.Description" : "あなたの前方のに向かって(指向性が0％の場合は後方も)、この距離を超えると声が小さくなります。",
         "Settings.EarmuffSettings.ConeAngle": "角度",
         "Settings.EarmuffSettings.ConeAngle.Description": "あなたの顔から前方に向かって、声が普通の音量で聞こえる範囲の角度を設定できます(\"リスニングコーン\"の角度です)。この角度を超えた声は、移行開始距離に達すると小さくなっていきます。",
         "Settings.EarmuffSettings.TransitionStart": "移行開始距離",
@@ -1559,6 +1564,8 @@
         "Settings.NotificationSettings.ContactRequest.Description": "誰かからフレンドの申請を受けたときに通知するかどうかを設定できます。",
         "Settings.NotificationSettings.SessionStarted": "新しいセッション",
         "Settings.NotificationSettings.SessionStarted.Description": "参加可能な新しいセッションが検出されたときに通知するかどうか設定出来ます。",
+        "Settings.NotificationSettings.UserJoinAndLeave" : "ユーザー参加/退出",
+        "Settings.NotificationSettings.UserJoinAndLeave.Description" : "現在いるワールドにユーザーが参加したり退出したりしたときに通知するかどうか設定出来ます。",
 
         "Settings.NamePlateSettings.NameplateVisibility": "ネームプレートの表示",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "どの種類のユーザーのネームプレートを表示するかを設定できます",
@@ -1695,6 +1702,19 @@
         "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "このフィルタを有効にすると、画面に見えている物がリアルタイムで光沢のある物に映り込むようになります。これにより、リアリティが増え光沢のある物の見栄えが良くなります。\n\nこのフィルタは現在実験的なものと考えられており、多くの場合ではうまく機能せず、幽霊のような反射や歪みが発生することに注意してください。",
         "Settings.PostProcessingSettings.Antialiasing": "アンチエイリアス (AA)",
         "Settings.PostProcessingSettings.Antialiasing.Description": "アンチエイリアス(AA)は、画面内の物体の端いギザギザを滑らかにします。いくつかのフィルターを選択でき、それぞれのフィルターには異なる欠点があります。FXAAは一般的に使用され、うまく機能しますが、テキストなど画面内の他の部分をぼかすことにもなります。\n\n<color=red>警告：</color> 一部のAA設定は、VRに適していないか、まったく機能しない場合があります。",
+
+        "Settings.TextureQualitySettings" : "テクスチャ品質",
+        "Settings.TextureQualitySettings.TextureSizeRatio" : "相対的なテクスチャサイズ",
+        "Settings.TextureQualitySettings.TextureSizeRatio.Description" : "読み込まれるすべてのテクスチャの相対サイズを設定できます。これを使用してテクスチャの全体的な解像度を下げることができ、VRAMの使用量とロード速度が向上しますが、鮮明さは犠牲になります。\n\n例えば、テクスチャが4Kの際に半分の解像度に設定すると、代わりに2Kのテクスチャを読み込みます。",
+        "Settings.TextureQualitySettings.TextureSizeLimit" : "最大のテクスチャサイズ",
+        "Settings.TextureQualitySettings.TextureSizeLimit.Description" : "読み込むテクスチャ解像度の最大値を制限するために使用します。設定した解像度以上サイズのテクスチャは、設定された解像度に制限されます。小さいテクスチャは影響を受けません。\n\n相対的なテクスチャサイズ適用後にこの設定が適用されます。",
+        "Settings.TextureQualitySettings.MinimumTextureSize" : "このサイズを超えるテクスチャを制限",
+        "Settings.TextureQualitySettings.MinimumTextureSize.Description" : "上記の設定によって制限されるテクスチャの最小解像度を制御します。テクスチャがこのサイズ以下の場合、そのまま読み込みます。\n\n例:ここで512に設定すると、テクスチャ解像度が256の場合、相対的なテクスチャサイズを半分に設定しても256のまま読み込みます。",
+        "Settings.TextureQualitySettings.DefaultFilterMode" : "テクスチャフィルタリング",
+        "Settings.TextureQualitySettings.DefaultFilterMode.Description" : "テクスチャに使用するフィルタリングを設定し、品質とパフォーマンスを制御できます。\n\n<color=hero.yellow>Point:</color> 補間なしの最低品質。テクスチャはブロック状になります。\n\n<color=hero.yellow>Bilinear:</color> テクスチャのピクセルは補間されますが、ミップマップの境界線が見える場合があります。\n\n<color=hero.yellow>Trilinear:</color> 異なるミップマップ間を滑らかに補間し、境界線は目立たなくなります。\n\n<color=hero.yellow>Anisotropic:</color> (異方性フィルタリング)最高品質。テクスチャが斜めに表示される際にも鮮明になります。",
+        "Settings.TextureQualitySettings.AnisotropicLevel" : "異方性フィルタリングの設定",
+        "Settings.TextureQualitySettings.AnisotropicLevel.Description" : "異方性フィルタリングの品質を設定できます。",
+        "Settings.TextureQualitySettings.ReloadAllTextures" : "すべてのテクスチャを再読み込みする(重くなる可能性があります)",
 
         "Settings.ResolutionSettings": "解像度",
         "Settings.ResolutionSettings.Fullscreen": "フルスクリーン",
