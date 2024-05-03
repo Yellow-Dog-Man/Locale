@@ -454,6 +454,12 @@ Settings.PhotoCaptureSettings.AlwaysHideNameplates
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
+Settings.DesktopRenderSettings.VSync  
+Settings.DesktopRenderSettings.VSync.Description  
+Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused  
+Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description  
+Settings.DesktopRenderSettings.MaximumBackgroundFramerate  
+Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description  
 Settings.InteractiveCameraFramingSettings.PositioningMode  
 Settings.InteractiveCameraFramingSettings.PositioningMode.Description  
 Settings.InteractiveCameraFramingSettings.FieldOfView  

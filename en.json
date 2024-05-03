@@ -1618,6 +1618,12 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "Field of view",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Use this to control the field of view (FOV) when in desktop mode. Larger values will give you wider view at the cost of greater distortion on the sides.",
+        "Settings.DesktopRenderSettings.VSync": "VSync",
+        "Settings.DesktopRenderSettings.VSync.Description": "When this option is enabled, the framerate will be synced with the refresh rate of your screen. Disabling this can render frames faster, but also cause visible tearing.\n\nThis can be useful when doing performance testing, as it will uncap the update and rendering speed.",
+        "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Limit framerate when in background",
+        "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "When enabled, the framerate will be limited to a set value when the application window is unfocused. This is useful if you use other programs and games at the same time, as it will free up more resources for them.",
+        "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "Maximum background framerate",
+        "Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description": "This determines the allowed maximum framerate while in background. Lower values will conserve more system resources.",
 
         "Settings.InteractiveCameraFramingSettings.PositioningMode": "Positioning mode",
         "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "This controls how is the interactive camera positioned in the world.",

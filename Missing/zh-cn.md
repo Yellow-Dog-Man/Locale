@@ -50,6 +50,12 @@ Settings.NotificationSettings.UserJoinAndLeave
 Settings.NotificationSettings.UserJoinAndLeave.Description  
 Settings.PhotoCaptureSettings.AlwaysHideNameplates  
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
+Settings.DesktopRenderSettings.VSync  
+Settings.DesktopRenderSettings.VSync.Description  
+Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused  
+Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description  
+Settings.DesktopRenderSettings.MaximumBackgroundFramerate  
+Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description  
 Settings.TextureQualitySettings  
 Settings.TextureQualitySettings.TextureSizeRatio  
 Settings.TextureQualitySettings.TextureSizeRatio.Description  
