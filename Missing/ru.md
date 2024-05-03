@@ -14,8 +14,10 @@ Settings.TrackerSettings.Trackers.FreezeTracking.Description
 Settings.EarmuffSettings  
 Settings.EarmuffSettings.EarmuffEnabled  
 Settings.EarmuffSettings.EarmuffEnabled.Description  
-Settings.EarmuffSettings.ConeDistance  
-Settings.EarmuffSettings.ConeDistance.Description  
+Settings.EarmuffSettings.Directionality  
+Settings.EarmuffSettings.Directionality.Description  
+Settings.EarmuffSettings.Distance  
+Settings.EarmuffSettings.Distance.Description  
 Settings.EarmuffSettings.ConeAngle  
 Settings.EarmuffSettings.ConeAngle.Description  
 Settings.EarmuffSettings.TransitionStart  
@@ -26,4 +28,16 @@ Settings.EarmuffSettings.VolumeAttenuation
 Settings.EarmuffSettings.VolumeAttenuation.Description  
 Settings.NotificationSettings.UserJoinAndLeave  
 Settings.NotificationSettings.UserJoinAndLeave.Description  
+Settings.TextureQualitySettings  
+Settings.TextureQualitySettings.TextureSizeRatio  
+Settings.TextureQualitySettings.TextureSizeRatio.Description  
+Settings.TextureQualitySettings.TextureSizeLimit  
+Settings.TextureQualitySettings.TextureSizeLimit.Description  
+Settings.TextureQualitySettings.MinimumTextureSize  
+Settings.TextureQualitySettings.MinimumTextureSize.Description  
+Settings.TextureQualitySettings.DefaultFilterMode  
+Settings.TextureQualitySettings.DefaultFilterMode.Description  
+Settings.TextureQualitySettings.AnisotropicLevel  
+Settings.TextureQualitySettings.AnisotropicLevel.Description  
+Settings.TextureQualitySettings.ReloadAllTextures  
 
