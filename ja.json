@@ -1718,7 +1718,7 @@
         "Settings.TextureQualitySettings.MinimumTextureSize.Description" : "上記の設定によって制限されるテクスチャの最小解像度を制御します。テクスチャがこのサイズ以下の場合、そのまま読み込みます。\n\n例:ここで512に設定すると、テクスチャ解像度が256の場合、相対的なテクスチャサイズを半分に設定しても256のまま読み込みます。",
         "Settings.TextureQualitySettings.DefaultFilterMode" : "テクスチャフィルタリング",
         "Settings.TextureQualitySettings.DefaultFilterMode.Description" : "テクスチャに使用するフィルタリングを設定し、品質とパフォーマンスを制御できます。\n\n<color=hero.yellow>Point:</color> 補間なしの最低品質。テクスチャはブロック状になります。\n\n<color=hero.yellow>Bilinear:</color> テクスチャのピクセルは補間されますが、ミップマップの境界線が見える場合があります。\n\n<color=hero.yellow>Trilinear:</color> 異なるミップマップ間を滑らかに補間し、境界線は目立たなくなります。\n\n<color=hero.yellow>Anisotropic:</color> (異方性フィルタリング)最高品質。テクスチャが斜めに表示される際にも鮮明になります。",
-        "Settings.TextureQualitySettings.AnisotropicLevel" : "異方性フィルタリングの設定",
+        "Settings.TextureQualitySettings.AnisotropicLevel" : "異方性フィルタリングの品質",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description" : "異方性フィルタリングの品質を設定できます。",
         "Settings.TextureQualitySettings.ReloadAllTextures" : "すべてのテクスチャを再読み込みする(重くなる可能性があります)",
 
