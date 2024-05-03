@@ -1,6 +1,6 @@
 {
     "localeCode": "zh-cn",
-    "authors": ["Melnus", "Holy_Water", "huang825172", "modimobeikete", "WARCRAFT11"],
+    "authors": ["Melnus", "Holy_Water", "huang825172", "modimobeikete", "WARCRAFT11","flower-elf"],
     "messages": {
 
         "General.OK": "确定",
@@ -183,17 +183,17 @@
         "World.Connection.SteamNetworkingSockets": "Steam 网络通讯",
 
         "World.Error.AccessDenied": "拒绝访问",
-        "World.Error.SecurityViolation": "安全违规",
+        "World.Error.SecurityViolation": "发生安全违例",
         "World.Error.OnlyRegisteredUsers": "只允许注册用户加入",
         "World.Error.OnlyContacts": "仅允许房主的联系人加入",
-        "World.Error.OnlyContactsOfContacts": "仅允许会话中用戶的联系人加入",
-        "World.Error.Private": "本会话仅允许私人用户",
+        "World.Error.OnlyContactsOfContacts": "仅允许在会话中的用戶的联系人加入",
+        "World.Error.Private": "本会话仅允许私人加入",
         "World.Error.SessionEnded": "会话已关闭",
-        "World.Error.UserLimitReached": "会话达到了用户限制",
+        "World.Error.UserLimitReached": "会话达到了用户数限制",
         "World.Error.FailedAuthentication": "身份验证失败",
         "World.Error.FailedUserID": "认证用户标识失败",
         "World.Error.FailedFetchingAuthentication": "无法获取身份验证信息",
-        "World.Error.JoinAlreadyRequested": "已要求加入",
+        "World.Error.JoinAlreadyRequested": "已请求加入",
         "World.Error.FailedConnectToRelay": "连接中继失败",
         "World.Error.FailedToConnect": "连接失败",
         "World.Error.InvalidAddress": "无效地址",
@@ -201,8 +201,8 @@
         "World.Error.IncompatibleVersion": "不兼容的版本",
         "World.Error.HostBlocked": "房主被屏蔽",
         "World.Error.HostBlockedDetail": "你已屏蔽该房主",
-        "World.Error.WorldCrash": "世界崩溃",
-        "World.Error.WorldCrashDetail" : "在更新该世界时遭遇了致命错误",
+        "World.Error.WorldCrash": "世界崩溃了",
+        "World.Error.WorldCrashDetail" : "在尝试更新该世界时遭遇了致命错误",
         "World.Error.Unknown": "未知错误",
 
         "World.Config.Name": "世界名:",
@@ -212,7 +212,7 @@
         "World.Config.SaveOptionsHeader": "世界保存选项:",
         "World.Config.EditMode": "编辑模式:",
         "World.Config.AccessLevelHeader": "谁可以加入这个世界？",
-        "World.Config.AutoKickAFK": "自动踢AFK用户:",
+        "World.Config.AutoKickAFK": "自动踢出AFK用户:",
         "World.Config.AutoKickAFKMinutes": "最长AFK时长（分）:",
         "World.Config.HideFromListing": "不显示在会话列表中",
         "World.Config.Autosave": "自动保存（将覆盖上一次保存):",
@@ -246,7 +246,7 @@
         "World.Actions.LeaveConfirm": "离开",
         "World.Actions.CannotClose": "(无法关闭这个世界)",
         "World.Actions.GuestWarning": "",
-        "World.Actions.HostingWarning": "你在主持这个世界。所有的用户都会从此会话断开连接。",
+        "World.Actions.HostingWarning": "你目前在主持这个世界。如果继续，所有的用户都会从此会话断开连接。",
 
         "World.Actions.GetWorldOrb": "获取世界球体",
         "World.Actions.CopyWorldURL": "复制世界URL",
@@ -311,14 +311,14 @@
 
         "World.SortParameter.SearchScore": "搜索分数",
         "World.SortParameter.Name": "名称",
-        "World.SortParameter.OpenedWorldCount": "开放世界",
-        "World.SortParameter.TotalSessionCount": "总会话",
-        "World.SortParameter.TotalUserCount": "总用户",
+        "World.SortParameter.OpenedWorldCount": "开放的世界数",
+        "World.SortParameter.TotalSessionCount": "总会话数",
+        "World.SortParameter.TotalUserCount": "总用户数",
         "World.SortParameter.CreationDate": "创建日期",
         "World.SortParameter.LastUpdateDate": "修改日期",
         "World.SortParameter.FirstPublishTime": "发布日期",
-        "World.SortParameter.TotalVisits": "总造访",
-        "World.SortParameter.LastVisit": "最近造访",
+        "World.SortParameter.TotalVisits": "总访问次数",
+        "World.SortParameter.LastVisit": "最近访问",
         "World.SortParameter.Random": "随机",
 
         "World.Filter.DataSources": "数据源:",
@@ -337,7 +337,7 @@
         "World.Filter.MinimumUsers": "最低人数: <b>{n}</b>",
         "World.Filter.MinimumContacts": "最低好友数: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "仅云端主机",
-        "World.Filter.MaxAccessLevel": "最大访问权限:",
+        "World.Filter.MaxAccessLevel": "最大访问权限级别:",
         "World.Filter.MinimumUptime": "最小运行时间:",
         "World.Filter.Sorting": "排序:",
 
@@ -397,70 +397,70 @@
         "Indicator.Storage.StorageFull": "存储已满",
         "Indicator.Storage.Usage": "{storage_used} 共 {storage_max}<br><size=61.803%>存储空间已使用</size>",
 
-        "Indicator.LiveHiddenMessage": "（直播时讯息已隐藏）",
+        "Indicator.LiveHiddenMessage": "（直播时信息已隐藏）",
 
         "Login.InvalidCredentials": "登录信息无效",
-        "Login.InvalidCredentials.Description": "再次检查你的登录信息后再试一次或者点击 \"忘记密码？\"",
+        "Login.InvalidCredentials.Description": "检查你的登录信息后再试一次，或者点击 \"忘记密码？\"来进行密码重置",
 
         "Login.InvalidLogin": "登录信息无效",
-        "Login.InvalidLogin.Description": "再次检查你的登录信息后再试一次或者点击 \"忘记密码？\"",
+        "Login.InvalidLogin.Description": "检查你的登录信息后再试一次，或者点击 \"忘记密码？\"来进行密码重置",
 
         "Login.MalformedUID": "设备信息无效",
-        "Login.MalformedUID.Description": "尝试重新安装， 或者在 {supportUrl}联系客服。",
+        "Login.MalformedUID.Description": "尝试重新安装Resonite， 或者在 {supportUrl}联系支持人员。",
 
         "Login.MissingUID": "设备信息缺失",
-        "Login.MissingUID.Description": "尝试重新安装， 或者在 {supportUrl}联系客服。",
+        "Login.MissingUID.Description": "尝试重新安装Resonite， 或者在 {supportUrl}联系支持人员。",
 
         "Login.MissingSecretMachineId": "机器码缺失",
-        "Login.MissingSecretMachineId.Description": "尝试重新安装， 或者在 {supportUrl}联系客服。",
+        "Login.MissingSecretMachineId.Description": "尝试重新安装Resonite， 或者在 {supportUrl}联系支持人员。",
 
         "Login.MalformedSecretMachineId": "机器码无效",
-        "Login.MalformedSecretMachineId.Description": "尝试重新安装， 或者在 {supportUrl}联系客服。",
+        "Login.MalformedSecretMachineId.Description": "尝试重新安装Resonite， 或者在 {supportUrl}联系支持人员。",
 
         "Register.MissingUID": "设备信息无效",
-        "Register.MissingUID.Description": "尝试重新安装， 或者在 {supportUrl}联系客服。",
+        "Register.MissingUID.Description": "尝试重新安装Resonite， 或者在 {supportUrl}联系支持人员。",
 
         "Register.MalformedUID": "设备信息无效",
-        "Register.MalformedUID.Description": "尝试重新安装， 或者在 {supportUrl}联系客服。",
+        "Register.MalformedUID.Description": "尝试重新安装Resonite， 或者在 {supportUrl}联系支持人员。",
 
         "Login.MissingLogin": "未提供凭据",
-        "Login.MissingLogin.Description": "你是不是忘了填你的登录信息了？",
+        "Login.MissingLogin.Description": "你是不是忘了填写你的登录信息了？",
 
         "Login.InvalidRecoveryCode": "无效恢复码",
         "Login.InvalidRecoveryCode.Description": "检查你的恢复码后再试一次。",
 
         "Login.UnsupportedAuthentication": "不支持的认证方式",
-        "Login.UnsupportedAuthentication.Description": "我们并不支持这种验证方式 请尝试另外一个。",
+        "Login.UnsupportedAuthentication.Description": "我们并不支持这种验证方式，请尝试另外一个。",
 
         "Login.EmailNotVerified": "邮箱未验证",
-        "Login.EmailNotVerified.Description": "你的邮箱还没验证， 请在邮箱里查找我们给你发的邮件， 确保你检查过垃圾邮件了。",
+        "Login.EmailNotVerified.Description": "你的邮箱还没验证，请在邮箱里查找我们给你发的邮件。如果没有，确保你检查过垃圾箱。",
 
         "Login.AccountTempLocked": "你的账户已被锁定。",
-        "Login.AccountTempLocked.Description": "请在：{moderationUrl}联系管理员。",
+        "Login.AccountTempLocked.Description": "请在：{moderationUrl}联系支持人员。",
 
         "Login.AccountBanned": "你的账户已被封禁。",
-        "Login.AccountBanned.Description": "请在：{moderationUrl}联系管理员。",
+        "Login.AccountBanned.Description": "请在：{moderationUrl}联系支持人员。",
 
         "Login.DuplicateAccount": "重复的账号",
-        "Login.DuplicateAccount.Description": "请在：{moderationUrl}联系管理员。",
+        "Login.DuplicateAccount.Description": "请在：{moderationUrl}联系支持人员。",
 
         "Login.UnknownError": "未知错误",
-        "Login.UnknownError.Description": "在登录时发生了未知错误。 请在 {supportUrl}联系客服。",
+        "Login.UnknownError.Description": "在登录时发生了未知错误。请在 {supportUrl}联系支持人员。",
 
         "Register.MissingRequest": "未输入详细注册信息",
-        "Register.MissingRequest.Description": "我们无法找到任何注册信息。 在注册时请确保已经填入了。",
+        "Register.MissingRequest.Description": "我们无法找到任何注册信息。在注册时请确保已经填入了所需的信息。",
 
         "Register.InvalidEmail": "无效邮箱地址",
-        "Register.InvalidEmail.Description": "你的邮箱地址是有误的",
+        "Register.InvalidEmail.Description": "你的邮箱地址有误",
 
         "Register.MissingUsername": "未输入用户名",
-        "Register.MissingUsername.Description": "你填好了你的用户名了吗？",
+        "Register.MissingUsername.Description": "你似乎没有填写你的用户名",
 
         "Register.MissingEmail": "未输入电子邮箱",
-        "Register.MissingEmail.Description": "你填好了你的邮件了吗？",
+        "Register.MissingEmail.Description": "你似乎没有填写你的邮箱",
 
         "Register.UsernameTooLong": "用户名过长",
-        "Register.UsernameTooLong.Description": "We allow usernames up to 32 characters long.",
+        "Register.UsernameTooLong.Description": "我们最多允许长达32个字符的用户名",
 
         "Register.UsernameContainsAmpersand": "用户名不能含有 @",
         "Register.UsernameContainsAmpersand.Description": "你的用户名不能含有 @。",
@@ -469,40 +469,40 @@
         "Register.UsernameStartsWithU.Description": "用户名不能以 U- 开头.",
 
         "Register.InvalidUsername": "无效用户名",
-        "Register.InvalidUsername.Description": "你的用户名是无效的",
+        "Register.InvalidUsername.Description": "你的用户名无效",
 
         "Register.InvalidDateOfBirth": "无效出生日期",
-        "Register.InvalidDateOfBirth.Description": "你的出生日期是无效的",
+        "Register.InvalidDateOfBirth.Description": "你的出生日期无效",
 
         "Register.UsernameContainsBlockedTerms": "用户名含有屏蔽词",
-        "Register.UsernameContainsBlockedTerms.Description": "你的用户名含有屏蔽词。 如果你认为这是一个错误，请在 {supportUrl}联系客服。",
+        "Register.UsernameContainsBlockedTerms.Description": "你的用户名含有屏蔽词。 如果你认为这是一个错误，请在 {supportUrl}联系支持人员。",
 
         "Register.MissingPassword": "未输入密码",
-        "Register.MissingPassword.Description": "你没有提供密码。",
+        "Register.MissingPassword.Description": "你似乎没有提供密码",
 
         "Register.InvalidPassword": "无效密码",
         "Register.InvalidPassword.Description": "你的密码无效。 密码必须至少包含 8 个字符，包括 1 个数字、1 个大写字母和 1 个小写字母。",
 
         "Register.EmailAlreadyRegistered": "此邮箱已注册",
-        "Register.EmailAlreadyRegistered.Description": "此电子邮件的账户已经存在， 如果你忘记了密码，可以点击\"Lost Password\"。 或者通过 {supportUrl} 联系技术支持。",
+        "Register.EmailAlreadyRegistered.Description": "使用此电子邮件的账户已经存在， 如果你忘记了密码，可以点击\"Lost Password\"。 或者通过 {supportUrl} 联系支持人员。",
 
         "Register.UsernameAlreadyRegistered": "此用户名已注册",
-        "Register.UsernameAlreadyRegistered.Description": "此用户名的帐户已经存在， 如果你忘记了密码，可以点击\"Lost Password\"。 或者通过 {supportUrl} 联系技术支持。",
+        "Register.UsernameAlreadyRegistered.Description": "使用此用户名的帐户已经存在， 如果你忘记了密码，可以点击\"Lost Password\"。 或者通过 {supportUrl} 联系支持人员。",
         
         "Register.ErrorCheckingUserId": "检查用户ID时出错",
-        "Register.ErrorCheckingUserId.Description": "请在 {supportUrl}联系客服。",
+        "Register.ErrorCheckingUserId.Description": "请在 {supportUrl}联系支持人员。",
 
         "Recovery.MissingEmail": "未输入电子邮箱",
-        "Recovery.MissingEmail.Description": "你填好了你的邮件了吗？",
+        "Recovery.MissingEmail.Description": "你似乎没有填写你的邮箱",
 
         "Recovery.IncorrectEmail": "电子邮箱错误",
         "Recovery.IncorrectEmail.Description": "你填写了一个错误的用于恢复密码的邮箱。 请检查细节后再试一次。",
 
-        "Recovery.NoPasswordSetup": "无密码设置", 
-        "Recovery.NoPasswordSetup.Description": "请在：{supportUrl}联系客服。",
+        "Recovery.NoPasswordSetup": "未设置密码", 
+        "Recovery.NoPasswordSetup.Description": "请在：{supportUrl}联系支持人员。",
 
         "Register.UnknownError": "未知错误",
-        "Register.UnknownError.Description": "在注册时发生了未知的错误。 请在 {supportUrl}联系客服。",
+        "Register.UnknownError.Description": "在注册时发生了未知的错误。 请在 {supportUrl}联系支持人员。",
 
         "Account.Login": "登录",
         "Account.Logout": "登出",
@@ -522,12 +522,12 @@
         "Account.Password": "密码：",
         "Account.RepeatPassword": "重复输入密码：",
         "Account.RecoverPassword": "忘记密码？",
-        "Account.LiveEmailWarning": "<color=#f00>警告:</color> live.com，hotmail.com，Outlook.com和其他Microsoft托管的服务最多可能需要1-2天才能接受该电子邮件。",
+        "Account.LiveEmailWarning": "<color=#f00>警告:</color> live.com，hotmail.com，Outlook.com和其他Microsoft托管的服务最多可能需要1-2天才能接收到该电子邮件。",
         "Account.PasswordRules": "(至少8个字符，1个数字，1个小写字母，1个大写字母)",
         "Account.LostPassword": "忘记密码",
         "Account.SendRecoveryCode": "发送恢复码",
         "Account.ResetPasswordHeader": "重置你的密码",
-        "Account.ResetPasswordInstructions": "恢复码已发送到你的电子邮件。将其复制到下方输入框：",
+        "Account.ResetPasswordInstructions": "恢复码已发送到你的电子邮件。将其复制到下方输入框，然后继续：",
         "Account.RecoveryCode": "恢复码：",
         "Account.NewPassword": "新密码：",
         "Account.ResetPassword": "设置新密码",
@@ -546,14 +546,14 @@
         "Account.Saml2.Select" : "请选择你想使用的 SAML 2.0 服务商：",
         "Account.Saml2.LoggingIn" : "正在等待登录完成（请查看你的浏览器）...",
 
-        "Account.TOTP.Title" : "二次认证（2FA）",
+        "Account.TOTP.Title" : "两步验证（2FA）",
         "Account.TOTP.Initializing": "正在检查你账户的 2FA 状态...",
         "Account.TOTP.Code.Header": "安全码",
         "Account.TOTP.Code.Description": "首先，你需要将一个安全码输入你的 TOTP 认证应用，例如 <b>Authy</b> 或者 <b>Google Authenticator</b>.<br><br>我们建议以扫描二维码的方式输入，但你也可以手动输入。 <b>千万不要告诉他人你的安全码。</b><br><br>如果你正在VR模式下，你可以通过按下 F8 切换到桌面模式。",
         "Account.TOTP.Code.QRCode": "扫描二维码",
         "Account.TOTP.Code.Key": "安全码：",
         "Account.TOTP.RecoveryCodes.Header": "恢复码",
-        "Account.TOTP.RecoveryCodes.Description": "把这些代码保存在安全的地方。它们可以在你的手机丢失或损坏后，帮助你再次访问你的账户。每条代码只能使用一次。<b>千万不要告诉他人这些代码。</b> 如果你弄丢了它们，你将 <color=red>永远</color> 失去对你账户的访问权。",
+        "Account.TOTP.RecoveryCodes.Description": "把这些代码保存在安全的地方。它们可以在你的手机丢失或损坏后，帮助你再次访问你的账户。每条代码只能使用一次。<b>千万不要告诉他人这些代码。</b> 如果你弄丢了它们，你将会 <color=red>永远</color> 失去对你账户的访问权。",
         "Account.TOTP.RecoveryCodes.Codes": "恢复码：",
         "Account.TOTP.Activate.Header": "激活 2FA",
         "Account.TOTP.Activate.Description": "要在你的账户上激活 2FA， 请使用你认证应用所产生的六位数字口令来确保一切工作正常。<br><br>一旦激活，你将需要这些代码来进行特定操作。",
@@ -635,7 +635,7 @@
         "Contacts.MutualBlock" : "相互屏蔽",
         "Contacts.SelfAccount": "我的账户",
         "Contacts.SearchPrompt": "搜索好友...",
-        "Contacts.WriteMessage": "编写讯息...",
+        "Contacts.WriteMessage": "编写消息...",
 
         "Contacts.InSession": "在 {name}",
         "Contacts.InPrivate": "在私人世界",
@@ -658,7 +658,7 @@
         "Notifications.ReceivedContactRequest": "发来一个好友请求",
         "Notifications.ReceivedInvite": "邀请你：",
         "Notifications.ReceivedItem": "发来一件物品：",
-        "Notifications.VoiceMessage": "发来一条语音讯息",
+        "Notifications.VoiceMessage": "发来一条语音信息",
         "Notifications.SessionStarted": "开始的会话：",
         "Notifications.UserJoined": "用户加入了",
         "Notifications.UserLeft": "用户已离开",
@@ -1216,10 +1216,10 @@
 
         "Settings.WindowsSettings": "Windows设置",
         "Settings.DebugSettings": "调试",
-        "Settings.LegacyFeatureSettings": "传统内容",
+        "Settings.LegacyFeatureSettings": "传统设置",
         "Settings.TwitchInterfaceSettings": "Twitch 直播界面",
 
-        "Settings.MessagingPrivacySettings": "信息隐私",
+        "Settings.MessagingPrivacySettings": "通信隐私",
 
         "Settings.LocaleSettings": "语言",
         "Settings.DashSettings": "面板",
@@ -1240,7 +1240,7 @@
         "Settings.InteractiveCameraPostProcessingSettings": "后期处理",
 
         "Settings.GeneralControlsSettings.PrimaryHand": "惯用手部",
-        "Settings.GeneralControlsSettings.PrimaryHand.Description": "哪只手被认为是你的主要用的手。各种系统都会使用这个进行交互，例如在装备工具时。",
+        "Settings.GeneralControlsSettings.PrimaryHand.Description": "指定哪只手是你的主手。各种系统都会使用这个进行交互，例如在装备工具时。",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "双击间隔",
         "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "对于任何需要双击的交互，该值控制着双击之间的最长间隔时间。如果在触发双击时遇到困难，请增加该值。如果太容易检测到单次点击，则降低该值。",
 
@@ -1316,7 +1316,7 @@
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description" : "启用后，可以控制使用全身追踪时臀部旋转的平滑程度。这对消除振动和抖动很有用，但也会使追踪器更加滞后，无法对快速运动做出反应。",
 
         "Settings.MediaPrivacySettings" : "多媒体隐私",
-        "Settings.MediaPrivacySettings.MediaMetadataOptOut" : "排开在媒体元数据之外",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut" : "排除在媒体元数据之外",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description" : "启用此选项后，你将被排除在捕获媒体拍摄（通常是虚拟照片和音频剪辑）的元数据之外。 你仍会出现在这些多媒体资产中，但你的用户 ID 和在场景中的位置等信息将不会存储在这些资产中。\n\n如果你发现有任何用户在通过修改他们的客户端忽略此排开选项，请向管理员报告，因为这将被视为骚扰行为。",
         "Settings.MediaPrivacySettings.HideInScreenshots" : "不要在截图里展示我",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "启用后，在游戏中截取的屏幕截图中将不会显示你。\n\n<color=hero.red>请注意：</color> 这并不影响实时摄像头、通过游戏外的方法截图或通过世界中的其他方法截图（可能是世界机制的一部分）。",
@@ -1474,7 +1474,7 @@
 
         "Settings.VoiceSettings" : "语音设置",
         "Settings.VoiceSettings.MutePersistence" : "静音持久性",
-        "Settings.VoiceSettings.MutePersistence.Description" : "<color=hero.yellow>开始解除静音：</color> 当你登录的时候，你将会一直保持开麦状态。\n\n<color=hero.yellow>开始静音：</color> 当你登录的时候， 你将会一直保持静音状态。 你将需要点击开麦或者点击 \"按下说话\" 键 (默认为 V) 才能说话。\n\n<color=hero.yellow>最后请注意： </color> 登录时，将保留上次退出登录时的状态。",
+        "Settings.VoiceSettings.MutePersistence.Description" : "<color=hero.yellow>麦克风常开：</color> 当你登录的时候，你将会一直保持开麦状态。\n\n<color=hero.yellow>麦克风常闭：</color> 当你登录的时候， 你将会一直保持静音状态。 你将需要点击开麦或者点击 \"按下说话\" 键 (默认为 V) 才能说话。\n\n<color=hero.yellow>最后请注意： </color> 登录时，将保留上次退出登录时的状态。",
 
         "Settings.EarmuffSettings" : "耳罩模式",
         "Settings.EarmuffSettings.EarmuffEnabled" : "使用耳罩模式",
@@ -1486,7 +1486,7 @@
         "Settings.EarmuffSettings.ConeAngle" : "角度",
         "Settings.EarmuffSettings.ConeAngle.Description" : "这可以控制声音在您的脸前保持正常水平的角度。任何超出这个角度的声音在到达过渡距离后都会开始衰减。",
         "Settings.EarmuffSettings.TransitionStart" : "过渡起步距离",
-        "Settings.EarmuffSettings.TransitionStart.Description" : "这控制着与 \"侦听锥\" 的距离，在这个距离上，声音会变得更小。 建议将其保持在零以上，因为这样可以更好地包含两侧的声音和头部附近的声音 (例如，本质上在你的后面，但却非常接近)。",
+        "Settings.EarmuffSettings.TransitionStart.Description" : "这控制着与 \"侦听锥\" 的距离，在这个距离上，声音会变得更小。 建议将其保持在零以上，因为这样可以更好地包含两侧的声音和头部附近的声音 (例如，声音本质上在你的后面，但却非常接近)。",
         "Settings.EarmuffSettings.TransitionLength" : "过度范围",
         "Settings.EarmuffSettings.TransitionLength.Description" : "用它来控制声音从正常音量渐弱到完全衰减的距离。数值越大，音量过渡越平滑，而数值越小，过渡越突然。",
         "Settings.EarmuffSettings.VolumeAttenuation" : "音量衰减",
@@ -1494,8 +1494,8 @@
 
         "Settings.RealtimeNetworkingSettings.DisableLAN": "禁用局域网",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "这将禁用本地网络特有的联网功能，例如在本地网络上广播会话或监听本网络上广播的其他会话。",
-        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Steam 网络通讯优先",
-        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "启用后，你将尽可能通过 Steam 网络通讯协议进行连接。在某些情况下，例如当 LNL 协议处于严重拥堵时，这将有所帮助。不过，由于该协议缺少某些功能，可能会导致网络更不稳定，因此我们建议只有在遇到问题时才启用该协议。",
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Steam 网络通信优先",
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "启用后，你将尽可能通过 Steam 网络通信协议进行连接。在某些情况下，例如当 LNL 协议处于严重拥堵状态时，这将有所帮助。不过，由于该协议缺少某些功能，可能会导致网络更不稳定，因此我们建议只有在遇到问题时才启用该协议。",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "最大同时传输资产数",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "在开始会话时，该设置调整当时可以传输多少本地导入的资产。增加该值可以更快地向用户传输资产，但也会降低网络连接的质量。我们建议测试网络可以承受的数值。",
@@ -1540,8 +1540,8 @@
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "不要发送实时读写状态",
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "启用此功能后，其他用户将无法看到你何时立即阅读了他们的信息。 你也看不到他们何时阅读了你的信息。",
 
-        "Settings.LocaleSettings.CultureLocaleCode": "文化区域代码",
-        "Settings.LocaleSettings.CultureLocaleCode.Description": "设置后，将覆盖用于格式化数字和其他数量的默认文化区域。通常情况下，将使用所选语言的文化区域，但这可以让你混合和匹配它们。例如，使用你的母语和美国文化代码。",
+        "Settings.LocaleSettings.CultureLocaleCode": "区域代码",
+        "Settings.LocaleSettings.CultureLocaleCode.Description": "设置后，将覆盖用于格式化数字和其他数量的默认区域格式。通常情况下，将使用所选语言的区域格式，这个设置可以让你混合它们。例如，使用你的母语语言和美国区域格式来显示内容。",
         "Settings.LocaleSettings.UseImperialUnits": "使用英制单位",
         "Settings.LocaleSettings.UseImperialUnits.Description": "启用后，数量（长度/高度、质量、体积......）编辑器将尝试使用英制单位，而不是公制单位。如果你来自美国、英国、利比里亚或缅甸，这将非常有用。",
         "Settings.LocaleSettings.AvailableLocales": "选择语言",
@@ -1558,7 +1558,7 @@
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild" : "在不兼容的会话中通知在线",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description" : "如果好友使用的版本与您的版本不兼容（例如，新版本或预发布版本），则此选项将控制您是否会在好友上线时收到通知。",
         "Settings.NotificationSettings.Message" : "信息",
-        "Settings.NotificationSettings.Message.Description" : "这将控制你收到信息时收到的通知。",
+        "Settings.NotificationSettings.Message.Description" : "这将控制你收到信息时的通知提醒。",
         "Settings.NotificationSettings.Invite" : "会话邀请",
         "Settings.NotificationSettings.Invite.Description" : "这可以控制你是否在受邀加入会话时收到通知。",
         "Settings.NotificationSettings.ContactRequest" : "联络请求",
@@ -1692,7 +1692,7 @@
         
         "Settings.RelaySettings" : "网络中继",
         "Settings.RelaySettings.AlwaysUseRelay" : "总是使用中继模式连接",
-        "Settings.RelaySettings.AlwaysUseRelay.Description" : "当无法建立与主机的直接连接时，中继模式通常用作备用。\n\n这在特定主机出现连接问题时非常有用。 但我们 <b>不</b> 推荐永久打开此选项。",
+        "Settings.RelaySettings.AlwaysUseRelay.Description" : "当无法建立与主机的直接连接时，中继模式通常用作备用。\n\n这在特定主机出现连接问题时非常有用。 但我们 <b>不</b> 推荐一直打开此选项。",
         "Settings.RelaySettings.UseClosestAvailableRelay" : "使用最近的可用中继服务器",
         "Settings.RelaySettings.UseClosestAvailableRelay.Description" : "启用该选项后，将自动选择离你最近可用的中继服务器进行连接。如果你想通过特定中继服务器进行连接（例如，在长距离连接时，为避免数据包排队），可以禁用此选项，并在下面配置首选中继服务器。.",
         "Settings.RelaySettings.RelayPriorities": "配置中继服务器优先级",
@@ -1758,7 +1758,7 @@
         "LocomotionSettings.MakeLeastPreferred": "设为次选",
 
         "Security.Hyperlink.Title" : "外部链接",
-        "Security.Hyperlink.Warning": "<b><size=125%>警告：外部超链接</size></b>\n你点击了世界中的一个链接。 你要打开它吗？其将在你的桌面网络浏览器中打开。",
+        "Security.Hyperlink.Warning": "<b><size=125%>警告：外部超链接</size></b>\n你点击了世界中的一个链接。 你要打开它吗？其将在你的桌面默认浏览器中打开。",
         "Security.Hyperlink.Open": "打开",
         "Security.Hyperlink.Cancel": "取消",
 
@@ -2135,11 +2135,11 @@
         "VolumePlaneSlicer.Slicer": "滑块",
 
         "Tutorial.Welcome.Welcome": "欢迎！",
-        "Tutorial.Welcome.Description" : "进入一个有着无限可能性的全新数字宇宙。不管你是为了与世界各地的朋友社交，还是为了建造、创作与开发从美丽的艺术品、交互式数字化身等小玩意儿，到复杂的可交互游戏和世界，Resonite 都为你提供了一个无限可自定义的环境。这里永远欢迎你，你也将能在此找到志同道合的朋友。<br><br>在你开始探索之前，我们会先引导你进行一些必要的设置，以确保丝滑的体验。当你准备就绪，就请点击下方的按钮",
+        "Tutorial.Welcome.Description" : "进入一个有着无限可能性的全新数字宇宙。不管你是为了与世界各地的朋友社交，还是为了建造、创作与开发美丽的艺术品与交互式数字化身，亦或是复杂的可交互游戏和世界，Resonite 都为你提供了一个无限可自定义的环境。这里永远欢迎你，你也将能在此找到志同道合的朋友。<br><br>在你开始探索之前，我们会先引导你进行一些必要的设置，以确保丝滑的体验。当你准备就绪，就请点击下方的按钮",
         "Tutorial.Welcome.Begin": "让我们开始吧！",
 
         "Tutorial.Welcome.AccountHeader": "{appName}帐户",
-        "Tutorial.Welcome.AccountDescription": "创建帐户可为你提供1GB的免费存储空间，你将可以保存物品、喜欢的化身，添加朋友和传递讯息。",
+        "Tutorial.Welcome.AccountDescription": "创建帐户可为你提供1GB的免费存储空间，你将可以保存物品、喜欢的化身，添加朋友和传递信息。",
         "Tutorial.Welcome.AccountCreate": "创建帐户",
         "Tutorial.Welcome.AccountLogin": "我已经有一个帐户",
         "Tutorial.Welcome.AccountSkip": "在没有帐户的情况下继续",
@@ -2222,7 +2222,7 @@
         "Migration.LoginModal.OpenMigration": "打开迁移",
         "Migration.LoginModal.Later": "稍后",
         "Migration.LoginResetID.Title": "确定要重置UserID吗？",
-        "Migration.LoginResetID.Description": "请你知悉，执行此项操作会导致 <color=red>难以预知的内容损坏</color>。你所有的物品、世界、好友和讯息都将被成功迁移，但任何依赖于你旧UserID引用的行为与组件很可能会不再工作，需要进行重新配置。<color=red>不！要！使用这个选项</color> 除非你有非常充分的理由。",
+        "Migration.LoginResetID.Description": "请你知悉，执行此项操作会导致 <color=red>难以预知的内容损坏</color>。你所有的物品、世界、好友和信息都将被成功迁移，但任何依赖于你旧UserID引用的行为与组件很可能会不再工作，需要进行重新配置。<color=red>不！要！使用这个选项</color> 除非你有非常充分的理由。",
         "Migration.LoginResetID.ResetButton": "我明白了，重置吧",
 
         "Migration.ReservedUsername.Title":"<b>被保留的用户名</b>",
@@ -2235,7 +2235,7 @@
         "Migration.Dialog.AccountDescription": "要迁移你的账户，我们需要你的 {platform} 账户密码以登录并访问数据。",
 
         "Migration.ResetID.Title": "重置我的UserID",
-        "Migration.ResetID.Description":"<color=red><b>警告：</b></color> 选择这个选项 <b>会不可还原地部分损坏现存内容</b>，其中包括用户内容、社区服务、链接、云变量等中任何对UserID的引用。这些引用会被重置，但你的物品、世界、好友与讯息不会丢失。我们 <b>只</b> 建议你在想更换一个新的随机UserID时使用此选项。除非你有重置UserID的充分理由，你 <b>不！该！</b> 使用此选项。你的UserID会像这样变化：\n U-MyUsername -> U-fX3pKe7AYYQ",
+        "Migration.ResetID.Description":"<color=red><b>警告：</b></color> 选择这个选项 <b>会不可还原地部分损坏现存内容</b>，其中包括用户内容、社区服务、链接、云变量等中任何对UserID的引用。这些引用会被重置，但你的物品、世界、好友与信息不会丢失。我们 <b>只</b> 建议你在想更换一个新的随机UserID时使用此选项。除非你有重置UserID的充分理由，你 <b>不！该！</b> 使用此选项。你的UserID会像这样变化：\n U-MyUsername -> U-fX3pKe7AYYQ",
 
         "Migration.DataSelection.Title": "当我们迁移你账户时，应该迁移哪些数据？",
         "Migration.DataSelection.Everything": "所有数据",
@@ -2250,7 +2250,7 @@
         "Migration.DataSelection.Home.Description": "当我们迁移你数据时，你原本的云端家园会被安置在一个不同的URL下，你的默认家会被设为一个全新的云端家园。不过，如果你希望如此，我们也可以将你原有的家设置为默认。即使你选择了“不”，你原有的家依然可以被访问。你也可以稍后再收藏它并设为你的家。",
 
         "Migration.DataSelection.Contacts": "好友",
-        "Migration.DataSelection.Message History": "讯息历史",
+        "Migration.DataSelection.Message History": "消息历史",
         "Migration.DataSelection.InventoryWorld": "库存 & 世界",
         "Migration.DataSelection.CloudVariable.Definitions": "云变量定义",
         "Migration.DataSelection.CloudVariable.Values": "云变量值",
@@ -2292,7 +2292,7 @@
 
         "Migration.Report.EstimatedQueuePosition": "<color={hex}>此任务之前的排队任务数：</color> {value}",
         "Migration.Report.ContactStatus": "已迁移 <color={hex}>{total}</color> 好友中的 <color={hex}>{current}</color> 个",
-        "Migration.Report.MessageStatus": "已迁移 <color={hex}>{value}</color> 条讯息",
+        "Migration.Report.MessageStatus": "已迁移 <color={hex}>{value}</color> 条消息",
         "Migration.Report.CloudVariableDefinitionStatus": "已迁移 <color={hex}>{value}</color> 个云变量定义",
         "Migration.Report.CloudVariableValueStatus":"已迁移 <color={hex}>{value}</color> 个云变量",
         "Migration.Report.RecordStatus": "已迁移 <color={hex}>{total}</color> 世界/项目中的 <color={hex}>{current}</color> 个，失败 <color=red>{failed}</color> 个。",
