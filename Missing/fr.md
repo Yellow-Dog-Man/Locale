@@ -14,4 +14,16 @@ Settings.TrackerSettings.Trackers.FreezeTracking.Description
 Settings.EarmuffSettings.ConeAngle.Description  
 Settings.NotificationSettings.UserJoinAndLeave  
 Settings.NotificationSettings.UserJoinAndLeave.Description  
+Settings.TextureQualitySettings  
+Settings.TextureQualitySettings.TextureSizeRatio  
+Settings.TextureQualitySettings.TextureSizeRatio.Description  
+Settings.TextureQualitySettings.TextureSizeLimit  
+Settings.TextureQualitySettings.TextureSizeLimit.Description  
+Settings.TextureQualitySettings.MinimumTextureSize  
+Settings.TextureQualitySettings.MinimumTextureSize.Description  
+Settings.TextureQualitySettings.DefaultFilterMode  
+Settings.TextureQualitySettings.DefaultFilterMode.Description  
+Settings.TextureQualitySettings.AnisotropicLevel  
+Settings.TextureQualitySettings.AnisotropicLevel.Description  
+Settings.TextureQualitySettings.ReloadAllTextures  
 
