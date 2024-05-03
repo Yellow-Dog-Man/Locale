@@ -107,6 +107,7 @@
         "Interaction.ImportFile": "Importuj Plik",
         "Interaction.ExportFile": "Eksportuj Plik",
         "Interaction.CopyLink": "Kopiuj Link",
+        "Interaction.CopyImage": "Kopiuj Obraz",
 
         "Inventory.OpenWorld": "Otwórz świat",
         "Inventory.Equip": "Wyposaż",
@@ -129,8 +130,9 @@
         "Inventory.Favorite.Avatar": "Ustaw awatar",
         "Inventory.Favorite.WorldLoadingIndicator": "Ustaw pasek ładowania",
         "Inventory.Favorite.ColorDialog": "Ustaw próbnik kolorów",
-        "Inventory.Favorite.Hyperlink": "Ustaw wyświetlanie URL",
-        "Inventory.SpawnFacet": "Spawn Facet",
+        "Inventory.Favorite.Hyperlink": "Ustaw wyświetlacz URL",
+        "Inventory.Favorite.Document": "Ustaw wyświetlacz dokumentów",
+        "Inventory.SpawnFacet": "Przyzwij Fastetę",
 
         "Dash.Screens.Home": "Dom",
         "Dash.Screens.Worlds": "Światy",
@@ -152,7 +154,7 @@
         "Dash.Exit.ExitAndSave": "Wyjdź i Zapisz Domy",
         "Dash.Exit.ExitAndDiscard": "Wyjdź i Nie Zapisuj Domów",
         "Dash.Exit.Sponsor": "Ogromne podziękowania dla {name} za Wspieranie tego projektu!",
-        "Dash.Exit.Sponsor.You": "Ty",
+        "Dash.Exit.Sponsor.You": "TY",
         "Dash.Exit.Shoutouts": "Ten projekt powstał także dzięki tym osobom:",
         "Dash.Exit.Shoutouts.AndMore": " i wiele więcej!",
         "Dash.Exit.Shoutouts.You": "{name} (To ty! Dziękujęmy!)",
@@ -164,10 +166,10 @@
         "World.Waiting": "Oczekiwanie...",
         "World.HostIsStarting": "Host zaczyna sesję...",
         "World.Loading": "Ładowanie...",
-        "World.Loaded": "Świat załadowany",
         "World.LoadingFailed": "Niepowodzenie",
         "World.LoadedAssets": "Załadowano {assets} z {total_assets}",
         "World.Downloading": "Pobieranie {bytes} z {total_bytes}",
+        "World.Loaded": "Świat załadowany",
 
         "World.Connection.EstablishingConnection": "Nawiązywanie połączenia",
         "World.Connection.RequestingJoin": "Proszenie o dołączenie",
@@ -399,28 +401,28 @@
 
         "Login.InvalidCredentials": "Nieprawidłowe dane logowania",
         "Login.InvalidCredentials.Description": "Sprawdź swoje dane logowania i spróbuj ponownie lub naciśnij \"Nie pamiętasz hasła\"?",
-        
+
         "Login.InvalidLogin": "Nieprawidłowe dane logowania",
         "Login.InvalidLogin.Description": "Sprawdź swoje dane logowania i spróbuj ponownie lub naciśnij \"Nie pamiętasz hasła?\"",
-        
+
         "Login.MalformedUID": "Nieprawidłowe informacje o urządzeniu",
         "Login.MalformedUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
-        
+
         "Login.MissingUID": "Brak informacji o urządzeniu",
         "Login.MissingUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
 
         "Login.MissingSecretMachineId": "Brak tajnego machine ID",
         "Login.MissingSecretMachineId.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
-        
+
         "Login.MalformedSecretMachineId": "Nieprawidłowe tajne machine ID",
         "Login.MalformedSecretMachineId.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
-        
+
         "Register.MissingUID": "Nieprawidłowe informacje urządzenia",
         "Register.MissingUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
-        
+
         "Register.MalformedUID": "Nieprawidłowe informacje urządzenia",
         "Register.MalformedUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
-        
+
         "Login.MissingLogin": "Brak danych logowania",
         "Login.MissingLogin.Description": "Zapomniałeś podać danych logowania?",
 
@@ -470,7 +472,6 @@
         "Register.InvalidUsername.Description": "Twoja nazwa użytkownika jest nieprawidłowa.",
 
         "Register.InvalidDateOfBirth": "Nieprawidłowa data urodzenia",
-
         "Register.InvalidDateOfBirth.Description": "Twoja data urodzenia jest nieprawidłowa.",
 
         "Register.UsernameContainsBlockedTerms": "Nazwa użytkownika zawiera zablokowane słowa",
@@ -488,17 +489,17 @@
         "Register.UsernameAlreadyRegistered": "Nazwa użytkownika jest już zarejestrowana",
         "Register.UsernameAlreadyRegistered.Description": "Konto używające tej nazwy użytkownika już istnieje, jeśli nie pamiętasz hasła, możesz kliknąć \"Nie pamiętam hasła\". Możesz również skontaktować się z pomocą techniczną: {supportUrl}.",
 
-        "Register.ErrorCheckingUserId" : "Błąd podczas sprawdzania identyfikatora użytkownika",
-        "Register.ErrorCheckingUserId.Description" : "Skontaktuj się z pomocą techniczną: {supportUrl}.",
+        "Register.ErrorCheckingUserId": "Błąd podczas sprawdzania identyfikatora użytkownika",
+        "Register.ErrorCheckingUserId.Description": "Skontaktuj się z pomocą techniczną: {supportUrl}.",
 
-        "Recovery.MissingEmail" : "Brak adresu e-mail",
-        "Recovery.MissingEmail.Description" : "Czy podano adres e-mail?",
+        "Recovery.MissingEmail": "Brak adresu e-mail",
+        "Recovery.MissingEmail.Description": "Czy podano adres e-mail?",
 
-        "Recovery.IncorrectEmail" : "Niepoprawny adres e-mail",
-        "Recovery.IncorrectEmail.Description" : "Wprowadzono nieprawidłowy adres e-mail do odzyskania hasła. Sprawdź swoje dane i spróbuj ponownie.",
+        "Recovery.IncorrectEmail": "Niepoprawny adres e-mail",
+        "Recovery.IncorrectEmail.Description": "Wprowadzono nieprawidłowy adres e-mail do odzyskania hasła. Sprawdź swoje dane i spróbuj ponownie.",
 
-        "Recovery.NoPasswordSetup" : "Hasło nie zostało ustawione", 
-        "Recovery.NoPasswordSetup.Description" : "Skontaktuj się z pomocą techniczną: {supportUrl}.",
+        "Recovery.NoPasswordSetup": "Hasło nie zostało ustawione",
+        "Recovery.NoPasswordSetup.Description": "Skontaktuj się z pomocą techniczną: {supportUrl}.",
 
         "Register.UnknownError": "Nieznany błąd",
         "Register.UnknownError.Description": "Podczas rejestracji wystąpił nieznany błąd. Skontaktuj się z pomocą techniczną: {supportUrl}.",
@@ -602,11 +603,10 @@
 
         "Session.JoinVerifier.EnableHeader": "Aktywować niestandardowy weryfikator dołączania?",
         "Session.JoinVerifier.EnableText": "<color=red>OSTRZEŻENIE:</color> Zamierzasz włączyć niestandardową weryfikację dołączania, która jest częścią bieżącego świata. Zanim to zrobisz, upewnij się, że ufasz twórcy świata, ponieważ niestandardowy weryfikator może ominąć standardowe reguły dostępu do sesji i zezwolić lub zablokować dostęp użytkownikom przy użyciu własnych reguł.",
-        "Session.JoinVerifier.Label": "Use Custom Join Verifier: {name}",
+        "Session.JoinVerifier.Label": "Użyj niestandardowego weryfikatora dołączania: {name}",
         "Session.JoinVerifier.ComponentWarning": "<color=red>OSTRZEŻENIE:</color> W tej chwili nie ma mechanizmu zapobiegającego manipulowaniu weryfikatorem po jego włączeniu. Jeśli obawiasz się manipulowania ustawieniami ProtoFlux w celu weryfikacji, NIE UŻYWAJ tej funkcji i NIE WŁĄCZAJ jej w swoich światach.",
         "Session.JoinVerifier.SetCustomVerifier": "Ustaw jako niestandardowy weryfikator żądania dołączenia",
-        "Session.JoinVerifier.Label": "Użyj niestandardowego weryfikatora dołączania: {name}",
-        
+
         "Permissions.NotAllowedToSpawn": "Nie masz pozwolenia aby przyzywać przedmioty w tym świecie.",
         "Permissions.NotAllowedToSave": "Nie masz pozwolenia aby zapisywać przedmioty w tym świecie.",
         "Permissions.NotAllowedToSwapAvatar": "Nie masz pozwolenia aby użyć własnego awatara w tym świecie.",
@@ -655,10 +655,11 @@
 
         "Notifications.IsOnline": "Jest teraz Online",
         "Notifications.IsOnlineOnDifferentVersion": "Jest teraz Online <size=75%>(używając wersji: {version})</size>",
-        "Notifications.ReceivedContactRequest": "Wysłano Zaproszenie do Znajomych",
+        "Notifications.ReceivedContactRequest": "Wysłano zaproszenie do znajomych",
         "Notifications.ReceivedInvite": "Zaproszono Cię do:",
         "Notifications.ReceivedItem": "Wysyłano Ci przedmiot:",
         "Notifications.VoiceMessage": "Wysłano wiadomość głosową",
+        "Notifications.SessionStarted": "Stworzono sesję:",
 
         "Undo.SetField": "Ustawienie pola {field_name} na {value}",
         "Undo.SetReference": "Ustawienie odniesienia {ref_name} na {ref_target}",
@@ -740,7 +741,7 @@
 
         "Tooltip.Light.Shadows.None": "Brak cieni",
         "Tooltip.Light.Shadows.Hard": "Ostre cienie",
-        "Tooltip.Light.Shadows.Soft": "Miękkie cienie",    
+        "Tooltip.Light.Shadows.Soft": "Miękkie cienie",
 
         "Tooltip.MeshVisibility.KeepShadow": "Pozostaw Cień",
         "Tooltip.MeshVisibility.ShadowOff": "Wyłącz Cień",
@@ -788,26 +789,26 @@
         "Tooltip.ProtoFlux.Unpack": "Rozpakuj <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.ExplicitCast": "Explicit Cast\n<size=50%>(<color=red>Warning:</color> Potential Data Loss)</size>",
 
-        "Tooltip.Meter.Mode.Ray" : "Tryb: Promień",
-        "Tooltip.Meter.Mode.Perpendicular" : "Tryb: Prostopadły",
-        "Tooltip.Meter.Mode.Drag" : "Tryb: Przeciąganie",
+        "Tooltip.Meter.Mode.Ray": "Tryb: Promień",
+        "Tooltip.Meter.Mode.Perpendicular": "Tryb: Prostopadły",
+        "Tooltip.Meter.Mode.Drag": "Tryb: Przeciąganie",
 
-        "Tooltip.Meter.Points.Two" : "Dwa Punkty",
-        "Tooltip.Meter.Points.Multiple" : "Wiele Punktów",
+        "Tooltip.Meter.Points.Two": "Dwa Punkty",
+        "Tooltip.Meter.Points.Multiple": "Wiele Punktów",
 
-        "Tooltip.Meter.ObjectSpace" : "Pomiar w Przestrzeni Obiektu",
-        "Tooltip.Meter.WorldSpace" : "Pomiar w Przestrzeni Światowej",
+        "Tooltip.Meter.ObjectSpace": "Pomiar w Przestrzeni Obiektu",
+        "Tooltip.Meter.WorldSpace": "Pomiar w Przestrzeni Światowej",
 
-        "Tooltip.Glue.Mode.BakeMeshes" : "Tryb: Finalizuj meshe",
+        "Tooltip.Glue.Mode.BakeMeshes": "Tryb: Finalizuj meshe",
 
-        "Tooltip.Glue.Mode.ParentObjects" : "Tryb: Rodzicowanie obiektów",
+        "Tooltip.Glue.Mode.ParentObjects": "Tryb: Rodzicowanie obiektów",
 
-        "Tooltip.RigTransfer.ClearSource" : "Wyczyść źródło",
+        "Tooltip.RigTransfer.ClearSource": "Wyczyść źródło",
 
-        "Tooltip.ComponentClone.SingleInstanceOn" : "Jedna Instancja: Włączona",
-        "Tooltip.ComponentClone.SingleInstanceOff" : "Jedna Instancja: Wyłączona",
-        "Tooltip.ComponentClone.ClearTemplate" : "Wyczyść szablon",
-        
+        "Tooltip.ComponentClone.SingleInstanceOn": "Jedna Instancja: Włączona",
+        "Tooltip.ComponentClone.SingleInstanceOff": "Jedna Instancja: Wyłączona",
+        "Tooltip.ComponentClone.ClearTemplate": "Wyczyść szablon",
+
         "ProtoFlux.UI.Call": "Uruchom",
         "ProtoFlux.UI.AsyncCall": "<size=50%>Asynchroniczne</size> uruchomienie",
         "ProtoFlux.UI.NodeBrowser.Title": "Nody ProtoFlux",
@@ -1000,7 +1001,7 @@
         "Importer.Video.Stereo180": "Film Stereo 180",
         "Importer.Video.Depth.Prompt": "Szablon Głębii",
         "Importer.Video.Depth.Default": "Domyślny",
-        
+
         "Importer.Slices.Title": "Obrazy w formie warstw jako tekstura objętościowa",
         "Importer.Slices.TitleGrayscale": "Obrazy w formie warstw jako tekstura objętościowa (skala szarości)",
         "Importer.Slices.Description": "Przetwarza wszystkie pliki obrazów w folderze na teksturę objętościową",
@@ -1171,6 +1172,99 @@
         "CameraControl.OBS.Recording.Stop": "Zakończ Nagrywanie",
         "CameraControl.OBS.Recording.Stopping": "Zakańczanie Nagrywania",
 
+        "Settings.Category.Audio": "Dźwięk",
+        "Settings.Category.Controls": "Sterowanie",
+        "Settings.Category.Devices": "Urządzenia",
+        "Settings.Category.Profile": "Profil",
+        "Settings.Category.Networking": "Sieć",
+        "Settings.Category.Security": "Bezpieczeństwo",
+        "Settings.Category.Misc": "Inne",
+        "Settings.Category.Privacy": "Prywatność",
+        "Settings.Category.UserInterface": "Interfejs",
+        "Settings.Category.Graphics": "Grafika",
+        "Settings.Category.InteractiveCamera": "Kamera",
+
+        "Settings.LegacyFeatureSettings.ConvertLegacySettings": "DEBUG - Konwertuj Stare Ustawienia",
+        "Settings.DebugSettings.DebugResetAllSimpleSettings": "DEBUG - Resetuj wszystkie proste ustawienia",
+
+        "Settings.GeneralControlsSettings": "Ogólne Sterowanie",
+        "Settings.LocomotionSettings": "Lokomocja",
+        "Settings.MovementSettings": "Poruszanie",
+        "Settings.MouseSettings": "Mysz",
+
+        "Settings.GeneralHapticsSettings": "Sprzężenie Zwrotne",
+        "Settings.GeneralVRSettings": "VR",
+        "Settings.LeapMotionSettings": "Leap Motion",
+        "Settings.ViveHandTrackingSettings": "Vive Hand Tracking",
+        "Settings.TrackingSmoothingSettings": "Wygładzanie Urządzeń",
+
+        "Settings.UserMetricsSettings": "Parametry Użytkownika",
+
+        "Settings.AudioInputDeviceSettings": "Urządzenie Wejścia",
+        "Settings.AudioOutputDeviceSettings": "Urządzenie Wyjścia",
+        "Settings.AudioVolumeSettings": "Głośność",
+        "Settings.AudioAccessibilitySettings": "Dostępność",
+        "Settings.AudioInputFilteringSettings": "Filtrowanie Wejścia",
+
+        "Settings.RealtimeNetworkingSettings": "Sieć w czasie rzeczywistym",
+        "Settings.AssetGatherSettings": "Pobieranie zasobów",
+
+        "Settings.HostAccessSettings": "Dostęp Hostów",
+        "Settings.UserRestrictionsSettings": "Ograniczenia Użytkownikoów",
+
+        "Settings.WindowsSettings": "Ustawienia Windows",
+        "Settings.DebugSettings": "Debugowanie",
+        "Settings.LegacyFeatureSettings": "Stare Funkcje",
+        "Settings.TwitchInterfaceSettings": "Ustawienia Interfejsu Twitch",
+
+        "Settings.MessagingPrivacySettings": "Prywatność Wiadomości",
+
+        "Settings.LocaleSettings": "Lokalizacja",
+        "Settings.DashSettings": "Tablica",
+        "Settings.NamePlateSettings": "Nazwy graczy",
+        "Settings.LaserSettings": "Lasery Interakcyjne",
+        "Settings.DesktopViewSettings": "Ekran Pulpitu",
+        "Settings.PhotoCaptureSettings": "Szybkie Robienie Zdjęć",
+
+        "Settings.DesktopRenderSettings": "Stacjonarne Ustawienia Renderowania",
+
+        "Settings.InteractiveCameraFramingSettings": "Kadrowanie",
+        "Settings.InteractiveCameraPositioningSettings": "Pozycjonowanie",
+        "Settings.InteractiveCameraRenderSettings": "Renderowanie",
+        "Settings.InteractiveCameraGroupSettings": "Grupowanie Użytkowników",
+        "Settings.InteractiveCameraSmoothingSettings": "Wygładzanie",
+        "Settings.InteractiveCameraAnchorSettings": "Punkty Kamery",
+        "Settings.InteractiveCameraPhotoSettings": "Zdjęcia",
+        "Settings.InteractiveCameraPostProcessingSettings": "Przetwarzanie Końcowe",
+
+        "Settings.GeneralControlsSettings.PrimaryHand": "Głowna ręka",
+        "Settings.GeneralControlsSettings.PrimaryHand.Description": "Którą ręke uważasz za główną. Różne systemy używają tego przy interakcji, np. przy ekwipowaniu narzędzi.",
+        "Settings.GeneralControlsSettings.DoubleClickInterval": "Odstęp podwójnego kliknijęcia",
+        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Dla dowolnych interakcji wymagających podwójnego kliknięcia, to ustawienie kontroluje maksymalny czas żeby kliknięcie było uznane za podwójne. Jeśli trudno jest ci wykonać podwójne kliknięcie zwiększ tą wartość. Jeśli zbyt łatwo jest ci wykonać podwójne kliknięcie zmniejsz tą wartość.",
+
+        "Settings.LocomotionSettings.LocomotionPreferences": "Preferencje Lokomocji",
+        "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Preferencje Lokomocji",
+
+        "Settings.MovementSettings.LeftSidewaysMode": "Tryb poruszania na boki lewego kontrolera",
+        "Settings.MovementSettings.LeftSidewaysMode.Description": "To ustawienie zmienia co poruszanie na boki joystickiem będzie robiło na twoim lewym kontrolerze.",
+        "Settings.MovementSettings.RightSidewaysMode": "Tryb poruszania na boki prawego kontrolera",
+        "Settings.MovementSettings.RightSidewaysMode.Description": "To ustawienie zmienia co poruszanie na boki joystickiem będzie robiło na twoim prawym kontrolerze.",
+        "Settings.MovementSettings.UseHeadDirectionForMovement": "Używaj kierunku głowy do poruszania",
+        "Settings.MovementSettings.UseHeadDirectionForMovement.Description": "Kiedy włączone poruszanie do przodu będzie w kierunku w którym patrzysz w VR. Kiedy wyłączone poruszanie do przodu będzie w kierunku wskazanym przez twój kontroler.",
+        "Settings.MovementSettings.UseSmoothTurn": "Gładkie obracanie",
+        "Settings.MovementSettings.UseSmoothTurn.Description": "Obracanie w VR będzie wykonywane gładko. To może zwiększyć imersję, ale częściej wywołuje nudności. Wyłącz to ustawienie jeśli wolisz obracanie natychmiastowe.",
+        "Settings.MovementSettings.SmoothTurnExclusiveMode": "Używaj trybu ekskluzywnego gładkiego obracania",
+        "Settings.MovementSettings.SmoothTurnExclusiveMode.Description": "Kiedy włączone jeden joystick może tylko obracać cię lub poruszać się do przodu/tyłu, ale nigdy obydwa na raz. Włącz to ustawienie jeśli często przez przypadek obracasz się próbując się poruszać.",
+        "Settings.MovementSettings.SmoothTurnSpeed": "Prędkość gładkiego obracania",
+        "Settings.MovementSettings.SmoothTurnSpeed.Description": "To ustawienie kontroluje jak szybko będziesz się obracał jeśli gładkie obracanie jest włączone. Wartość jest podawana w stopniach na sekundę, czyli przy wartości 360 jak przechylisz joystick maksymalnie w prawo to obrócisz się w prawo o 360 stopni w 1 sekundę.",
+        "Settings.MovementSettings.SnapTurnAngle": "Kąt natychmiastowego obrotu",
+        "Settings.MovementSettings.SnapTurnAngle.Description": "To jest kąt w stopniach o który zostaniesz obrócony przy używaniu natychmiastowego obrotu.",
+        "Settings.MovementSettings.NoClipSpeed": "Prędkość Noclip",
+        "Settings.MovementSettings.NoClipSpeed.Description": "To ustawienie kontroluje jak szybko będziesz się poruszał w lokomocji Noclip. Ten typ lokomocji jest często używany przy budowaniu i testowaniu, dlatego nie jest kontrolowany przez świat w którym jesteś, gdzie inne tryby są kontrolowane.",
+        "Settings.MovementSettings.MovementDeadzone": "Martwa Strefa Poruszania",
+        "Settings.MovementSettings.MovementDeadzone.Description": "To ustawienie może być użyte aby poprawić dryfowanie kontrolera. To ustawienie spowoduje że będziesz musieć bardziej przeychlić joystick aby zacząć się poruszać.",
+        "Settings.MovementSettings.MovementExponent": "Wykładnik Poruszania",
+
         "Security.Hyperlink.Title": "link Zewnętrzny",
         "Security.Hyperlink.Warning": "<b><size=125%>Ostrzeżenie: link zewnętrzny</size></b>\nKliknąłeś link w świecie. Chcesz go otworzyć? Otworzy się w przeglądarce internetowej na komputerze.",
         "Security.Hyperlink.Open": "Otwórz",
@@ -1187,8 +1281,8 @@
         "ComponentSelector.Back": "< (wstecz)",
         "ComponentSelector.Title": "Komponenty",
         "ComponentSelector.CreateCustomType": "Utwórz typ niestandardowy",
-        "ComponentSelector.CommonGenericTypes" : "Wspólne Typy Ogólne",
-        "ComponentSelector.CustomGenericArguments" : "Niestandardowe Argumenty Ogólne:",
+        "ComponentSelector.CommonGenericTypes": "Wspólne Typy Ogólne",
+        "ComponentSelector.CustomGenericArguments": "Niestandardowe Argumenty Ogólne:",
         "ComponentSelector.InvalidType": "Nieprawidłowy typ",
 
         "Inspector.Title": "Inspektor sceny",
@@ -1213,7 +1307,7 @@
         "Inspector.Slot.ParentUnder.WorldRoot": "Root świata",
         "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Ustaw rodzica {name} pod rootem świata",
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Lokalna przestrzeń użytkownika",
-        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Ustaw rodzica {name} pod nazwą świata",    
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Ustaw rodzica {name} pod nazwą świata",
 
         "Inspector.Member.ResetToDefault": "Przywróć domyślne wartości",
 
@@ -1309,9 +1403,6 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "Wizualizuj obszary kości",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Wizualizuj przybliżone połączone obszary kości",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "Usuń wizualizacje obszarów kości",
-
-
-
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Usuń wszystkie instancje",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Usuń pojedyncze instancje",
@@ -1563,7 +1654,9 @@
         "Tutorial.Welcome.SettingsSmoothTurn.Description": "Płynne obracanie, może powodować mdłości.",
         "Tutorial.Welcome.SettingsPrimaryController": "Główny Kontroler",
         "Tutorial.Welcome.SettingsPrimaryLeft": "Lewy",
+
         "Tutorial.Welcome.SettingsPrimaryRight": "Prawy",
+
         "Tutorial.Welcome.SettingsHeight": "Twój wzrost",
         "Tutorial.Welcome.SettingsHeightExamples": "Przykłady: 1.85 m, 185 cm, 6' 1\", 6 stóp 1 cal",
 
@@ -1613,17 +1706,17 @@
         "Migration.LoginResetID.Description": "Należy pamiętać, że spowoduje to <color=red>NIEPRZEWIDYWALNE USZKODZENIE ZAWARTOŚCI</color>. Wszystkie przedmioty, światy, kontakty i wiadomości zostaną pomyślnie przeniesione, ale wszelkie zachowania i komponenty, które opierają się na odniesieniu do starego UserID, prawdopodobnie ulegną awarii i będą wymagały ponownej konfiguracji i naprawy. Chyba że masz poważny powód, aby zresetować swój UserID, <color=red>NIE WYBIERAJ TEJ OPCJI</color>.",
         "Migration.LoginResetID.ResetButton": "Tak, zresetuj",
 
-        "Migration.ReservedUsername.Title":"<b>Zarezerwowana nazwa użytkownika</b>",
+        "Migration.ReservedUsername.Title": "<b>Zarezerwowana nazwa użytkownika</b>",
         "Migration.ReservedUsername.Description": "Ta nazwa użytkownika jest zarezerwowana dla pierwotnego właściciela. Jeśli jest to Twoje konto, podaj swoje dane logowania do {platform}, aby je odblokować. Nie przechowujemy tych danych logowania, są one używane tylko do weryfikacji własności konta podczas rejestracji.",
         "Migration.SourcePassword": "Hasło",
         "Migration.SourceUsername": "Nazwa użytkownika {platform}:",
 
         "Migration.Dialog.Title": "Migracja konta",
-        "Migration.Dialog.Source" : "Dane można przenieść z dowolnej kompatybilnej infrastruktury. Najpierw wybierz z listy poniżej tę, z której chcesz migrować dane. Dodatkowe infrastruktury można dodać, umieszczając pliki konfiguracyjne w folderze \"Migrations\" w instalacji.",
+        "Migration.Dialog.Source": "Dane można przenieść z dowolnej kompatybilnej infrastruktury. Najpierw wybierz z listy poniżej tę, z której chcesz migrować dane. Dodatkowe infrastruktury można dodać, umieszczając pliki konfiguracyjne w folderze \"Migrations\" w instalacji.",
         "Migration.Dialog.AccountDescription": "Aby przeprowadzić migrację konta, będziemy potrzebować hasła do konta {platform}. Pozwoli nam to zalogować się do niego i uzyskać dostęp do danych.",
 
         "Migration.ResetID.Title": "Zresetuj mój UserID",
-        "Migration.ResetID.Description":"<color=red><b>OSTRZEŻENIE:</b></color> Wybranie tej opcji <b>CZĘŚCIOWO USZKODZI ISTNIEJĄCĄ ZAWARTOŚĆ I JEST NIEODWRACALNE</b>, w tym wszelkie odniesienia UserID w treściach użytkownika, usługach społecznościowych, linkach, zmiennych w chmurze i innych. Zalecamy korzystanie z tej opcji <b>TYLKO</b> wtedy, gdy chcesz pozbyć się starego UserId i zastąpić go nowym, losowym identyfikatorem. eśli nie masz ważnego powodu, aby zresetować swój identyfikator UserID, <b>NIE POWINIENEŚ</b> zaznaczać tej opcji. Twój UserID zmieni się w następujący sposób:\n U-MyUsername -> U-fX3pKe7AYYQ",
+        "Migration.ResetID.Description": "<color=red><b>OSTRZEŻENIE:</b></color> Wybranie tej opcji <b>CZĘŚCIOWO USZKODZI ISTNIEJĄCĄ ZAWARTOŚĆ I JEST NIEODWRACALNE</b>, w tym wszelkie odniesienia UserID w treściach użytkownika, usługach społecznościowych, linkach, zmiennych w chmurze i innych. Zalecamy korzystanie z tej opcji <b>TYLKO</b> wtedy, gdy chcesz pozbyć się starego UserId i zastąpić go nowym, losowym identyfikatorem. eśli nie masz ważnego powodu, aby zresetować swój identyfikator UserID, <b>NIE POWINIENEŚ</b> zaznaczać tej opcji. Twój UserID zmieni się w następujący sposób:\n U-MyUsername -> U-fX3pKe7AYYQ",
 
         "Migration.DataSelection.Title": "Jakie dane powinny zostać przeniesione podczas migracji konta?",
         "Migration.DataSelection.Everything": "Wszystko",
@@ -1661,7 +1754,6 @@
         "Migration.Groups.NotGroupAdmin": "Nie jesteś administratorem żadnej grupy {platform}, poproś administratorów grupy o migrację grupy!",
 
         "Migration.Summary": "Ok, mamy wszystko, czego potrzebujemy. Kliknij przycisk Rozpocznij migrację, a my rozpoczniemy migrację. Migracja może chwilę potrwać, ponieważ musimy wszystko skopiować. Jeśli wybrałeś migrację swoich ulubionych aplikacji, nadamy im priorytet, abyś mógł poczuć się wygodnie. Nie musisz uruchamiać {appName} podczas migracji, ale wyślemy ci aktualizacje za pośrednictwem bota {appName}, aby poinformować Cię, jak idzie.",
-
 
         "Migration.List.EmptyTitle": "Chcesz rozpocząć nową migrację?",
         "Migration.List.EmptySubtitle": "Kliknij \"Nowe zadanie migracji\" w lewym górnym rogu.",
@@ -1717,12 +1809,11 @@
         "CloudHome.WelcomeHome": "Witaj w domu!",
         "CloudHome.TargetRangeOptions": "Opcje tarcz",
 
-
         "Tutorial.Saving.Title": "Witaj w domu!",
         "Tutorial.Saving.Content": "Witamy w <b><i><color=hero.yellow>domu</b></i></color>! Jest to miejsce, do którego trafisz za każdym razem, gdy się zalogujesz.<br><br>Jest to twój własny świat, więc wszelkie wprowadzone zmiany można zapisać.<br><br>Jeśli zapiszesz, po powrocie wszystko będzie tak, jak zostawiłeś!",
 
         "Tutorial.Teleporter.Error": "Nie udało się wczytać Twojego domu w chmurze!<br><size=66%>Wyjdź z teleportera i wróć, aby spróbować ponownie.</size>",
-        
+
         "CloudHome.Info.OnlineUsers": "{online_users} {online_users,plural, one {Użytkownik} other {Użytkowników}} online <br>{joinable_users} {joinable_users,plural, one {Dołączalny} other {Dołączalnych}} {joinable_users,plural, one {Użytkownik} other {Użytkowników}} ",
         "CloudHome.Info.Moderation": "Moderacja",
         "CloudHome.Info.Inventory": "Ekwipunek",
@@ -1946,7 +2037,7 @@
 
         "UI.Camera.Automatic": "Automatyczna",
         "UI.Camera.Manual": "Manualna",
-        
+
         "Tools.Names.MultiTool": "Narzędzie Wielofunkcyjne",
 
         "Tools.Names.CommonTools": "Ogólne narzędzia",
@@ -1973,7 +2064,7 @@
         "Tools.Names.ControllerDiagnostic": "Narzędzie diagnostyki kontrolera",
         "Tools.Names.Measure": "Narzędzie pomiarowe",
         "Tools.Names.Label": "Narzędzie etykiet",
-        
+
         "Discord.RichPresence.InPrivateWorld": "W Prywatnym Świecie",
         "Discord.RichPresence.InPrivateLargeText": "W Prywatnym ({version})",
         "Discord.RichPresence.InPublicWorld": "W Publicznym Świecie",
