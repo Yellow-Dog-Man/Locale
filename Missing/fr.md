@@ -11,6 +11,10 @@ Settings.GamepadSettings.UseGamepadWhenUnfocused
 Settings.GamepadSettings.UseGamepadWhenUnfocused.Description  
 Settings.TrackerSettings.Trackers.FreezeTracking  
 Settings.TrackerSettings.Trackers.FreezeTracking.Description  
+Settings.EarmuffSettings.Directionality  
+Settings.EarmuffSettings.Directionality.Description  
+Settings.EarmuffSettings.Distance  
+Settings.EarmuffSettings.Distance.Description  
 Settings.EarmuffSettings.ConeAngle.Description  
 Settings.NotificationSettings.UserJoinAndLeave  
 Settings.NotificationSettings.UserJoinAndLeave.Description  

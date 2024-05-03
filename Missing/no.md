@@ -331,8 +331,10 @@ Settings.VoiceSettings.MutePersistence.Description
 Settings.EarmuffSettings  
 Settings.EarmuffSettings.EarmuffEnabled  
 Settings.EarmuffSettings.EarmuffEnabled.Description  
-Settings.EarmuffSettings.ConeDistance  
-Settings.EarmuffSettings.ConeDistance.Description  
+Settings.EarmuffSettings.Directionality  
+Settings.EarmuffSettings.Directionality.Description  
+Settings.EarmuffSettings.Distance  
+Settings.EarmuffSettings.Distance.Description  
 Settings.EarmuffSettings.ConeAngle  
 Settings.EarmuffSettings.ConeAngle.Description  
 Settings.EarmuffSettings.TransitionStart  
