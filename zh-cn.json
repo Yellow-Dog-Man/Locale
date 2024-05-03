@@ -660,6 +660,8 @@
         "Notifications.ReceivedItem": "发来一件物品：",
         "Notifications.VoiceMessage": "发来一条语音讯息",
         "Notifications.SessionStarted": "开始的会话：",
+        "Notifications.UserJoined": "用户加入了",
+        "Notifications.UserLeft": "用户已离开",
 
         "Undo.SetField": "将字段 {field_name} 设置为 {value}",
         "Undo.SetReference": "将引用 {ref_name} 设置为 {ref_target}",
@@ -1266,11 +1268,17 @@
         "Settings.MovementSettings.MovementExponent": "移动指数",
         "Settings.MovementSettings.MovementExponent.Description": "用它来控制移动时的曲线响应。 你可以用它来使曲线在开始移动时速度较慢，然后快速上升，或者立即开始加速移动，具体取决于该值是高于还是低于 1.0。",
 
+        "Settings.GrabbingSettings" : "抓取设置",
+        "Settings.GrabbingSettings.DefaultHandGrabType" : "默认抓取模式",
+        "Settings.GrabbingSettings.DefaultHandGrabType.Description" : "这将决定你在进入新世界时双手的默认抓取模式。\n\n<color=hero.yellow>手掌：</color> 你会抓住所有靠近你手掌的物体。\n\n<color=hero.yellow>精确：</color> 你要用食指和拇指抓住一个物体。\n\n<color=hero.yellow>自动：</color> 模式会根据手的方向在手掌和精确度之间自动切换。\n\n<color=hero.yellow>关闭：</color> 你只能用激光抓取物品。",
+
         "Settings.GamepadSettings": "手柄",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "摇杆观察速度",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "用它来调整拇指摇杆移动视角速度的灵敏度。",
         "Settings.GamepadSettings.ThumbstickLookExponent": "摇杆观察死角",
         "Settings.GamepadSettings.ThumbstickLookExponent.Description": "用它来控制拇指摇杆视角移动的曲线响应。有了这个设置，你既可以一开始缓慢移动，然后迅速变快，也可以立即开始快速移动，这取决于数值是高于还是低于 1.0。",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused": "未聚焦时使用手柄",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "启用此设置后，即使应用程序窗口当前没有聚焦，也会使用来自游戏手柄的任何输入。如果你想同时运行其他也使用游戏手柄的游戏，可以将其关闭。",
 
         "Settings.MouseSettings.MouseSensitivity": "灵敏度",
         "Settings.MouseSettings.MouseSensitivity.Description": "桌面模式下的鼠标整体灵敏度.",
@@ -1337,6 +1345,8 @@
         
         "Settings.TrackerSettings.Trackers.UseTracker" : "使用追踪器",
         "Settings.TrackerSettings.Trackers.UseTracker.Description" : "是否应使用此追踪器进行追踪？你可以用它来暂时禁用给定的追踪器，而无需重置其映射。",
+        "Settings.TrackerSettings.Trackers.FreezeTracking" : "冻结追踪器",
+        "Settings.TrackerSettings.Trackers.FreezeTracking.Description" : "启用后，跟踪器将保持激活状态，但会冻结其当前位置和旋转角度。此设置不是持久性的，将在下次启动时重置。",
         "Settings.TrackerSettings.Trackers.CustomName" : "自定义名称",
         "Settings.TrackerSettings.Trackers.CustomName.Description" : "你可以给追踪器起一个自定义名称，以便于与其他追踪器器区分，而不是使用它的 ID。这主要是为了美观，在功能上没有区别。",
         "Settings.TrackerSettings.Trackers.MappedBodyNode" : "追踪器映射",
@@ -1464,7 +1474,7 @@
 
         "Settings.VoiceSettings" : "语音设置",
         "Settings.VoiceSettings.MutePersistence" : "静音持久性",
-        "Settings.VoiceSettings.MutePersistence.Description" : "<color=hero.yellow>开始解除静音：</color> 当你登录的时候，你将会一直保持开麦状态。\n\n<color=hero.yellow>开始静音：</color> 当你登录的时候， 你将会一直保持静音状态。 你将需要点击开麦或者点击 \"按下说话\" 键 (默认为 V) 才能说话。\n\n<color=hero.yellow>最后请注意： </color> 登录时，将保留上次退出登录时的状态。",
+        "Settings.VoiceSettings.MutePersistence.Description" : "<color=hero.yellow>开始解除静音：</color> 当你登录的时候，你将会一直保持开麦状态。\n\n<color=hero.yellow>开始静音：</color> 当你登录的时候， 你将会一直保持静音状态。 你将需要点击开麦或者点击 \"按下说话\" 键 (默认为 V) 才能说话。\n\n<color=hero.yellow>记住最后的选择： </color> 登录时，将保留上次退出登录时的状态。",
 
         "Settings.EarmuffSettings" : "耳罩模式",
         "Settings.EarmuffSettings.EarmuffEnabled" : "使用耳罩模式",
@@ -1553,6 +1563,8 @@
         "Settings.NotificationSettings.ContactRequest.Description" : "这可以控制当你收到某人的联络请求时，你是否能收到通知。",
         "Settings.NotificationSettings.SessionStarted" : "新会话",
         "Settings.NotificationSettings.SessionStarted.Description" : "这将控制当发现新会话并可以加入时，你是否能收到通知。",
+        "Settings.NotificationSettings.UserJoinAndLeave" : "用户加入 & 离开",
+        "Settings.NotificationSettings.UserJoinAndLeave.Description" : "启用后，当用户加入或离开你当前所在的世界时，你将收到通知。",
 
         "Settings.NamePlateSettings.NameplateVisibility": "铭牌可见度",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "该选项可以控制你可以看到谁的铭牌。",
