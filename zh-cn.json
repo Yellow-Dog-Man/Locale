@@ -658,7 +658,7 @@
         "Notifications.ReceivedContactRequest": "发来一个好友请求",
         "Notifications.ReceivedInvite": "邀请你：",
         "Notifications.ReceivedItem": "发来一件物品：",
-        "Notifications.VoiceMessage": "发来一条语音信息",
+        "Notifications.VoiceMessage": "发来一条语音消息",
         "Notifications.SessionStarted": "开始的会话：",
         "Notifications.UserJoined": "用户加入了",
         "Notifications.UserLeft": "用户已离开",
@@ -1453,7 +1453,7 @@
         "Settings.AudioAccessibilitySettings.WhisperVolume": "耳语音量",
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "启动耳语模式后，它将调整球外声音的响度。 如果声音太大或太小，你可以用它来调整音量衰减。",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "语音消息音量",
-        "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "这表示当你在好友中录制语音信息时，其他声音的响度。 这有助于防止 \"语音干扰\"，让你更容易集中注意力。",
+        "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "这表示当你在好友中录制语音消息时，其他声音的响度。 这有助于防止 \"语音干扰\"，让你更容易集中注意力。",
 
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "语音标准化",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "该功能将尽量确保你的语音输入达到统一的水平。无论你的麦克风设置如何，这都有助于使你的音量与其他用户相同。 我们强烈建议保持此设置，以确保其他用户也能清楚地听到你的声音。",
@@ -1538,7 +1538,7 @@
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "这将为摄像机控制面板中的 Twitch 聊天面板设置默认的 Twitch 频道名称。这主要用于希望看到 Twitch 聊天的 Twitch 主播而用的。",
 
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "不要发送实时读写状态",
-        "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "启用此功能后，其他用户将无法看到你何时立即阅读了他们的信息。 你也看不到他们何时阅读了你的信息。",
+        "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "启用此功能后，其他用户将无法看到你何时立即阅读了他们的消息。 你也看不到他们何时阅读了你的消息。",
 
         "Settings.LocaleSettings.CultureLocaleCode": "区域代码",
         "Settings.LocaleSettings.CultureLocaleCode.Description": "设置后，将覆盖用于格式化数字和其他数量的默认区域格式。通常情况下，将使用所选语言的区域格式，这个设置可以让你混合它们。例如，使用你的母语语言和美国区域格式来显示内容。",
@@ -1557,8 +1557,8 @@
         "Settings.NotificationSettings.UserOnline.Description" : "这可以控制好友上线时是否会收到通知。",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild" : "在不兼容的会话中通知在线",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description" : "如果好友使用的版本与您的版本不兼容（例如，新版本或预发布版本），则此选项将控制您是否会在好友上线时收到通知。",
-        "Settings.NotificationSettings.Message" : "信息",
-        "Settings.NotificationSettings.Message.Description" : "这将控制你收到信息时的通知提醒。",
+        "Settings.NotificationSettings.Message" : "消息",
+        "Settings.NotificationSettings.Message.Description" : "这将控制你收到消息时的通知提醒。",
         "Settings.NotificationSettings.Invite" : "会话邀请",
         "Settings.NotificationSettings.Invite.Description" : "这可以控制你是否在受邀加入会话时收到通知。",
         "Settings.NotificationSettings.ContactRequest" : "联络请求",
@@ -2222,7 +2222,7 @@
         "Migration.LoginModal.OpenMigration": "打开迁移",
         "Migration.LoginModal.Later": "稍后",
         "Migration.LoginResetID.Title": "确定要重置UserID吗？",
-        "Migration.LoginResetID.Description": "请你知悉，执行此项操作会导致 <color=red>难以预知的内容损坏</color>。你所有的物品、世界、好友和信息都将被成功迁移，但任何依赖于你旧UserID引用的行为与组件很可能会不再工作，需要进行重新配置。<color=red>不！要！使用这个选项</color> 除非你有非常充分的理由。",
+        "Migration.LoginResetID.Description": "请你知悉，执行此项操作会导致 <color=red>难以预知的内容损坏</color>。你所有的物品、世界、好友和消息都将会被迁移，但任何依赖于你旧UserID引用的行为与组件很可能会不再工作，需要进行重新配置。<color=red>不！要！使用这个选项</color> 除非你有非常充分的理由。",
         "Migration.LoginResetID.ResetButton": "我明白了，重置吧",
 
         "Migration.ReservedUsername.Title":"<b>被保留的用户名</b>",
@@ -2237,7 +2237,7 @@
         "Migration.ResetID.Title": "重置我的UserID",
         "Migration.ResetID.Description":"<color=red><b>警告：</b></color> 选择这个选项 <b>会不可还原地部分损坏现存内容</b>，其中包括用户内容、社区服务、链接、云变量等中任何对UserID的引用。这些引用会被重置，但你的物品、世界、好友与信息不会丢失。我们 <b>只</b> 建议你在想更换一个新的随机UserID时使用此选项。除非你有重置UserID的充分理由，你 <b>不！该！</b> 使用此选项。你的UserID会像这样变化：\n U-MyUsername -> U-fX3pKe7AYYQ",
 
-        "Migration.DataSelection.Title": "当我们迁移你账户时，应该迁移哪些数据？",
+        "Migration.DataSelection.Title": "当我们迁移你的账户时，应该迁移哪些数据？",
         "Migration.DataSelection.Everything": "所有数据",
         "Migration.DataSelection.Choose": "让我自己选择",
 
