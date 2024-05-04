@@ -448,7 +448,7 @@
         "Login.UnknownError.Description": "在登录时发生了未知错误。请在 {supportUrl}联系支持人员。",
 
         "Register.MissingRequest": "未输入详细注册信息",
-        "Register.MissingRequest.Description": "我们无法找到任何注册信息。在注册时请确保已经填入了所需的信息。",
+        "Register.MissingRequest.Description": "我们无法找到任何注册信息。请确保你在注册时填入了所需的信息。",
 
         "Register.InvalidEmail": "无效邮箱地址",
         "Register.InvalidEmail.Description": "你的邮箱地址有误",
@@ -484,10 +484,10 @@
         "Register.InvalidPassword.Description": "你的密码无效。 密码必须至少包含 8 个字符，包括 1 个数字、1 个大写字母和 1 个小写字母。",
 
         "Register.EmailAlreadyRegistered": "此邮箱已注册",
-        "Register.EmailAlreadyRegistered.Description": "使用此电子邮件的账户已经存在， 如果你忘记了密码，可以点击\"Lost Password\"。 或者通过 {supportUrl} 联系支持人员。",
+        "Register.EmailAlreadyRegistered.Description": "使用此电子邮件的账户已经存在， 如果你忘记了密码，可以点击\"忘记密码？\"。 或者通过 {supportUrl} 联系支持人员。",
 
         "Register.UsernameAlreadyRegistered": "此用户名已注册",
-        "Register.UsernameAlreadyRegistered.Description": "使用此用户名的帐户已经存在， 如果你忘记了密码，可以点击\"Lost Password\"。 或者通过 {supportUrl} 联系支持人员。",
+        "Register.UsernameAlreadyRegistered.Description": "使用此用户名的帐户已经存在， 如果你忘记了密码，可以点击\"忘记密码？\"。 或者通过 {supportUrl} 联系支持人员。",
         
         "Register.ErrorCheckingUserId": "检查用户ID时出错",
         "Register.ErrorCheckingUserId.Description": "请在 {supportUrl}联系支持人员。",
@@ -2243,7 +2243,7 @@
 
         "Migration.DataSelection.Favorites": "收藏内容（化身、家、相机、键盘、Facets）",
 
-        "Migration.DataSelection.Favorites.Description": "这将首先迁移你的家、收藏的化身、键盘、相机与仪表板，这样你就能尽快开始使用它们。\n <color=red><b>警告：</b></color> 如果你选择了这个选项，你可能 <b>失去某些</b> 在迁移前作出的对你收藏内容的更改。",
+        "Migration.DataSelection.Favorites.Description": "这将首先迁移你的家、收藏的化身、键盘、相机与仪表板，这样你就能尽快开始使用它们。\n <color=red><b>警告：</b></color> 如果你选择了这个选项，你可能会 <b>失去某些</b> 在迁移前作出的对你收藏内容的更改。",
         "Migration.DataSelection.Favorites.OverwriteTitle": "我们应该在迁移时覆写你的收藏夹吗？",
 
         "Migration.DataSelection.Home.Title": "将你原来的家设为默认？",
@@ -2261,7 +2261,7 @@
         "Migration.Groups.Title": "迁移群组",
         "Migration.Groups.Introduction": "我们应该迁移你的群组吗？",
 
-        "Migration.Groups.Description": "所有你作为管理员的群组都将被默认迁移。如果你只想迁移指定群组，点击下方的按钮来加载它们并选择你希望迁移的群组。",
+        "Migration.Groups.Description": "所有你作为管理员的群组默认都将被迁移。如果你只想迁移指定群组，点击下方的按钮来加载它们并选择你希望迁移的群组。",
 
         "Migration.Groups.LoadGroups": "加载群组",
         "Migration.Groups.RefreshGroups": "刷新群组",
@@ -2501,7 +2501,7 @@
         "Hints.Telescope.Alignment": "抓取望远镜并将其对准月亮！",
 
         "Hints.Telescope.TheMoonDesktop": "在对准月亮时，按住右键并移动视角来移动月亮！",
-        "Hints.Telescope.TheMoonVR": "按下扳机键以激活激光并抓取、移动月亮！",
+        "Hints.Telescope.TheMoonVR": "按下扳机键以激活激光来抓取和移动月亮！",
 
         "Hints.Sundial.SoftEquip": "抓取这个工具并使用它！",
         "Hints.Sundial.SoftEquipExtra": "工具使你能够以多种方式改变你所处的世界！",
