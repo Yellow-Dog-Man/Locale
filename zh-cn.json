@@ -1455,15 +1455,15 @@
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "语音消息音量",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "这表示当你在好友中录制语音消息时，其他声音的响度。 这有助于防止 \"语音干扰\"，让你更容易集中注意力。",
 
-        "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "语音标准化",
+        "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "语音音量标准化",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "该功能将尽量确保你的语音输入达到统一的水平。无论你的麦克风设置如何，这都有助于使你的音量与其他用户相同。 我们强烈建议保持此设置，以确保其他用户也能清楚地听到你的声音。",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "语音阈值",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description": "噪声门可防止随机噪声传播给其他用户。该设置表示何时开始允许麦克风中的声音传入。如果有太多噪音传入，请提高该设置；如果你的声音无法传入，请降低该设置。",
-        "Settings.AudioInputFilteringSettings.NoiseGateAttack": "语音阈值缓冲",
+        "Settings.AudioInputFilteringSettings.NoiseGateAttack": "语音缓冲阈值",
         "Settings.AudioInputFilteringSettings.NoiseGateAttack.Description": "此设置调整噪声阈值对过于安静的传入音频的响应速度。 数值越大，音量减弱的速度越慢，而数值越小，音量上升的速度越快。",
         "Settings.AudioInputFilteringSettings.NoiseGateHold": "语音阈值滞留",
         "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "此设置调整在最初检测到音量后，调整音量应保持多长时间，然后再开始过滤音频。如果设置较高，则在发出足够大的声音后，会有更多较安静的音频通过。",
-        "Settings.AudioInputFilteringSettings.NoiseGateRelease": "语音阈值释放",
+        "Settings.AudioInputFilteringSettings.NoiseGateRelease": "语音释放阈值",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "此设置可调整噪声门在传入音频恢复安静后的关闭速度。",
         
         "Settings.AudioInputFilteringSettings.NormalizationThreshold": "标准化阈值",
@@ -1473,8 +1473,8 @@
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "该功能可处理输入的音频，过滤掉各种不良噪音。这可以净化来自嘈杂麦克风的音频，从而产生更纯净的声音。我们强烈建议将此设置打开。不过，它也可以过滤某些无法识别为语音的噪音。",
 
         "Settings.VoiceSettings" : "语音设置",
-        "Settings.VoiceSettings.MutePersistence" : "静音持久性",
-        "Settings.VoiceSettings.MutePersistence.Description" : "<color=hero.yellow>麦克风常开：</color> 当你登录的时候，你将会一直保持开麦状态。\n\n<color=hero.yellow>麦克风常闭：</color> 当你登录的时候， 你将会一直保持静音状态。 你将需要点击开麦或者点击 \"按下说话\" 键 (默认为 V) 才能说话。\n\n<color=hero.yellow>最后请注意： </color> 登录时，将保留上次退出登录时的状态。",
+        "Settings.VoiceSettings.MutePersistence" : "登录时的麦克风状态",
+        "Settings.VoiceSettings.MutePersistence.Description" : "<color=hero.yellow>麦克风常开：</color> 当你登录的时候，你将会一直保持开麦状态。\n\n<color=hero.yellow>麦克风常闭：</color> 当你登录的时候， 你将会一直保持静音状态。 你将需要点击开麦或者点击 \"按下说话\" 键 (默认为 V) 才能说话。\n\n<color=hero.yellow>最后一次的状态： </color> 登录时，将保留上次退出登录时的状态。",
 
         "Settings.EarmuffSettings" : "耳罩模式",
         "Settings.EarmuffSettings.EarmuffEnabled" : "使用耳罩模式",
