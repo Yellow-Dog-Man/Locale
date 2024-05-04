@@ -112,7 +112,7 @@
         "Inventory.OpenWorld": "打开世界",
         "Inventory.Equip": "装备",
         "Inventory.Delete": "删除",
-	    "Inventory.CreateDirectory": "新建文件夹",
+        "Inventory.CreateDirectory": "新建文件夹",
         "Inventory.SaveHeld": "保存所持",
         "Inventory.GetURL": "获取URL",
         "Inventory.Inventories": "装备清单",
@@ -1618,6 +1618,12 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "视场",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "在桌面模式下，用它来控制视场（FOV）。 数值越大，视野越开阔，但两侧的失真也越大。",
+        "Settings.DesktopRenderSettings.VSync": "垂直同步",
+        "Settings.DesktopRenderSettings.VSync.Description": "启用该选项后，帧速率将与屏幕刷新率同步。禁用此选项可加快帧的渲染速度，但也会导致明显的撕裂。\n\n这在进行性能测试时非常有用，因为它将解除刷新限制和提高渲染速度上限。",
+        "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "限制后台运行时的帧速率",
+        "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "启用后，当应用程序窗口未聚焦时，帧速率将被限制在设定值内。如果你同时使用其他程序和游戏，这将非常有用，因为这样可以为它们释放更多资源。",
+        "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "最大背景帧速率",
+        "Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description": "这决定了后台允许的最大帧速率。较低的值可以节省更多的系统资源。",
 
         "Settings.InteractiveCameraFramingSettings.PositioningMode": "定位模式",
         "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "这将控制交互式摄像头在世界中的位置",
@@ -1715,7 +1721,7 @@
         "Settings.TextureQualitySettings.DefaultFilterMode.Description" : "这可以控制纹理的过滤，从而控制纹理的质量和性能。\n\n<color=hero.yellow>单线性：</color> 最低质量，无插值。纹理将呈块状。\n\n<color=hero.yellow>双线性：</color> 纹理像素是内插的，但贴图的过渡会很粗糙，导致过渡线清晰可见。\n\n<color=hero.yellow>三线性：</color> 不同 mip 级之间平滑过渡，消除了距离上刺眼的过渡线。\n\n<color=hero.yellow>各向异性：</color> 最高质量，即使在陡峭的角度下，纹理也会非常清晰。",
         "Settings.TextureQualitySettings.AnisotropicLevel" : "各向异性等级",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description" : "控制各向异性过滤的质量。",
-        "Settings.TextureQualitySettings.ReloadAllTextures" : "重新加载所有材质 (can be heavy)",
+        "Settings.TextureQualitySettings.ReloadAllTextures" : "重新加载所有材质 (会使游戏运行速度变慢)",
 
         "Settings.ResolutionSettings" : "分辨率",
         "Settings.ResolutionSettings.Fullscreen" : "全屏",
