@@ -388,11 +388,11 @@
         "Indicator.ServerStatus.Down": "応答なし",
         "Indicator.ServerStatus.NoInternet": "インターネットなし",
 
-        "Indicator.Sync.AllSynced": "シンク完了",
-        "Indicator.Sync.SyncingItems": "シンク中<br><size=61.8033%>{item_count, plural, other {# アイテム}}</size>",
+        "Indicator.Sync.AllSynced": "同期完了",
+        "Indicator.Sync.SyncingItems": "同期中<br><size=61.8033%>{item_count, plural, other {# アイテム}}</size>",
         "Indicator.Sync.UploadingVariants": "{variant_count,plural, other {# 個のアセットバリアントを}} アップロード中",
-        "Indicator.Sync.SyncError": "シンクエラー! <size=50%>ログをチェックしてください</size>",
-        "Indicator.Sync.StorageFull": "容量が足りません! <size=50%>シンクできません</size>",
+        "Indicator.Sync.SyncError": "同期エラー! <size=50%>ログをチェックしてください</size>",
+        "Indicator.Sync.StorageFull": "容量が足りません! <size=50%>同期できません</size>",
 
         "Indicator.Storage.StorageFull": "空き容量なし",
         "Indicator.Storage.Usage": "{storage_used} / {storage_max}<br><size=61.803%>ストレージ使用量</size>",
@@ -1617,6 +1617,12 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "視野角",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "デスクトップモード時の視野角（FOV）を設定できます。値を大きくすると視野が広くなりますが、画面端の歪みが大きくなります。",
+        "Settings.DesktopRenderSettings.VSync": "垂直同期(V-Sync)",
+        "Settings.DesktopRenderSettings.VSync.Description": "これを有効にすると、Resoniteのフレームレートがモニターのリフレッシュレートに同期します。オフにするとフレームレートの制限が解除されますが、ティアリング(映像が上下で分断されているように見える現象)が発生する可能性があります。\n\nオフにするとのフレームレートの制限が解除されるので、パフォーマンステストを行う際に役立ちます。",
+        "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "非アクティブ時のフレームレートを制限",
+        "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "有効にすると、Resonitenoの画面が非アクティブの場合にフレームレートを制限します。同時に他のプログラムやゲームを使用する場合に便利です。",
+        "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "非アクティブ時の最大フレームレート",
+        "Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description": "非アクティブ時の最大フレームレートを設定できます。値が小さいほどPCリソースを節約できます。",
 
         "Settings.InteractiveCameraFramingSettings.PositioningMode": "ポジションモード",
         "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "インタラクティブカメラの位置取りを設定できます。",
@@ -1712,7 +1718,7 @@
         "Settings.TextureQualitySettings.MinimumTextureSize.Description" : "上記の設定によって制限されるテクスチャの最小解像度を制御します。テクスチャがこのサイズ以下の場合、そのまま読み込みます。\n\n例:ここで512に設定すると、テクスチャ解像度が256の場合、相対的なテクスチャサイズを半分に設定しても256のまま読み込みます。",
         "Settings.TextureQualitySettings.DefaultFilterMode" : "テクスチャフィルタリング",
         "Settings.TextureQualitySettings.DefaultFilterMode.Description" : "テクスチャに使用するフィルタリングを設定し、品質とパフォーマンスを制御できます。\n\n<color=hero.yellow>Point:</color> 補間なしの最低品質。テクスチャはブロック状になります。\n\n<color=hero.yellow>Bilinear:</color> テクスチャのピクセルは補間されますが、ミップマップの境界線が見える場合があります。\n\n<color=hero.yellow>Trilinear:</color> 異なるミップマップ間を滑らかに補間し、境界線は目立たなくなります。\n\n<color=hero.yellow>Anisotropic:</color> (異方性フィルタリング)最高品質。テクスチャが斜めに表示される際にも鮮明になります。",
-        "Settings.TextureQualitySettings.AnisotropicLevel" : "異方性フィルタリングの設定",
+        "Settings.TextureQualitySettings.AnisotropicLevel" : "異方性フィルタリングの品質",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description" : "異方性フィルタリングの品質を設定できます。",
         "Settings.TextureQualitySettings.ReloadAllTextures" : "すべてのテクスチャを再読み込みする(重くなる可能性があります)",
 
