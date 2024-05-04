@@ -115,7 +115,7 @@
         "Inventory.CreateDirectory": "新建文件夹",
         "Inventory.SaveHeld": "保存所持",
         "Inventory.GetURL": "获取URL",
-        "Inventory.Inventories": "装备清单",
+        "Inventory.Inventories": "物品列表",
         "Inventory.Share": "分享",
         "Inventory.Unshare": "取消分享",
         "Inventory.SaveAvatar": "保存化身",
@@ -134,7 +134,7 @@
         "Inventory.Favorite.Document": "设为文档显示",
         "Inventory.SpawnFacet": "生成Facet",
 
-        "Dash.Screens.Home": "家",
+        "Dash.Screens.Home": "主界面",
         "Dash.Screens.Worlds": "世界",
         "Dash.Screens.Contacts": "好友",
         "Dash.Screens.Inventory": "物品栏",
@@ -148,7 +148,7 @@
 
         "Dash.Actions.TurnOffUIEdit": "退出UI编辑模式",
 
-        "Dash.Actions.CloudHome": "我的云端",
+        "Dash.Actions.CloudHome": "回家",
 
         "Dash.Exit.Header": "退出{appName}",
         "Dash.Exit.ExitAndSave": "退出并保存世界",
@@ -209,7 +209,7 @@
         "World.Config.Description": "描述:",
         "World.Config.MaxUsers": "最大用户数:",
         "World.Config.MobileFriendly": "移动端友好",
-        "World.Config.SaveOptionsHeader": "世界保存选项:",
+        "World.Config.SaveOptionsHeader": "保存这个世界:",
         "World.Config.EditMode": "编辑模式:",
         "World.Config.AccessLevelHeader": "谁可以加入这个世界？",
         "World.Config.AutoKickAFK": "自动踢出AFK用户:",
@@ -342,7 +342,7 @@
         "World.Filter.Sorting": "排序:",
 
         "World.Edit.Title": "编辑世界元数据",
-        "World.Edit.Name": "世界名:",
+        "World.Edit.Name": "世界名称:",
         "World.Edit.Description": "描述:",
         "World.Edit.Tags": "标签（以逗号分隔）:",
         "World.Edit.Path": "世界路径:",
@@ -354,7 +354,7 @@
         "Tools.AvatarCreator": "化身创建器",
         "Tools.FullBodyCalibrator": "全身/化身校准器",
         "Tools.CameraStreaming": "相机/流媒体",
-        "Tools.CreateNewWorld": "创造新世界",
+        "Tools.CreateNewWorld": "创建新世界",
         "Tools.Debug": "调试",
         "Tools.StreamAudio": "流音频",
         "Tools.Setup2FA": "设置2FA",
@@ -395,7 +395,7 @@
         "Indicator.Sync.StorageFull": "存储已满 <size=61.803%>无法同步</size>",
 
         "Indicator.Storage.StorageFull": "存储已满",
-        "Indicator.Storage.Usage": "{storage_used} 共 {storage_max}<br><size=61.803%>存储空间已使用</size>",
+        "Indicator.Storage.Usage": "已使用 {storage_used} 的存储 你共有 {storage_max}的存储空间<br><size=61.803%></size>",
 
         "Indicator.LiveHiddenMessage": "（直播时信息已隐藏）",
 
@@ -594,12 +594,12 @@
         "Session.Tab.Users": "用户",
         "Session.Tab.Permissions": "权限",
 
-        "Session.Permission.Anonymous": "默认匿名：",
-        "Session.Permission.Vistor": "默认访客：",
-        "Session.Permission.Contact": "默认好友：",
-        "Session.Permission.Host": "默认主机：",
+        "Session.Permission.Anonymous": "匿名用户的默认权限：",
+        "Session.Permission.Vistor": "访客的默认权限：",
+        "Session.Permission.Contact": "好友的默认权限：",
+        "Session.Permission.Host": "主机的默认权限：",
         "Session.Permission.PermissionOverrideCount": "权限覆盖: {n,select, -1 {---} other {{n}}}",
-        "Session.Permission.ClearOverrides": "清除用户覆盖项",
+        "Session.Permission.ClearOverrides": "清除权限覆盖项",
 
         "Session.JoinVerifier.EnableHeader" : "激活自定义准入认证？",
         "Session.JoinVerifier.EnableText" : "<color=red>警告：</color> 你将要启用自定义准入认证，其是当前世界的一部分。当你这样做之前，请确保你信任此世界的创建者。因为自定义准入认证器可以绕过标准会话访问规则，并使用其自己的规则允许或阻止用户进入。",
@@ -615,8 +615,8 @@
         "User.Actions.Mute": "静音",
         "User.Actions.Jump": "跳跃",
         "User.Actions.Respawn": "重生",
-        "User.Actions.Kick": "踢",
-        "User.Actions.Ban": "禁止",
+        "User.Actions.Kick": "踢出",
+        "User.Actions.Ban": "封禁",
 
         "Contacts.Add": "添加好友",
         "Contacts.Remove": "移除好友",
@@ -1555,7 +1555,7 @@
         "Settings.NotificationSettings" : "通知",
         "Settings.NotificationSettings.UserOnline" : "有好友上线",
         "Settings.NotificationSettings.UserOnline.Description" : "这可以控制好友上线时是否会收到通知。",
-        "Settings.NotificationSettings.UserOnlineOnAnotherBuild" : "即使在好友不兼容的会话中也发送上线通知",
+        "Settings.NotificationSettings.UserOnlineOnAnotherBuild" : "即使好友在不兼容的会话中也发送上线通知",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description" : "如果好友使用的版本与您的版本不兼容（例如，新版本或预发布版本），则此选项将控制您是否会在好友上线时收到通知。",
         "Settings.NotificationSettings.Message" : "消息",
         "Settings.NotificationSettings.Message.Description" : "这将控制你收到消息时的通知提醒。",
@@ -2272,9 +2272,9 @@
         "Migration.Groups.NoGroups": "未找到可迁移的 {platform} 群组。",
         "Migration.Groups.NotGroupAdmin": "你未担任任何 {platform} 群组的管理员，请联系你群组的管理员以迁移它们！",
 
-        "Migration.Summary": "好的，我们已经完成了准备工作。点击下方的开始迁移按钮，我们就会开始你的迁移工作。\n\n迁移工作需要一些时间，我们需要拷贝所有的数据。如果你选择了迁移你的收藏夹，我们会优先迁移它们以便你能够尽快使用。\n\n在迁移运行时，你无需保持 {appName} 运行，但我们也会通过 {appName} 机器人向你发送通知以告知你进展如何。",
+        "Migration.Summary": "好的，我们已经完成了准备工作。点击下方的开始迁移按钮，我们就会开始你的迁移任务。\n\n迁移将花费一些时间，我们需要拷贝所有的数据。如果你选择迁移你的收藏夹，我们会优先迁移它们以便你能够尽快使用。\n\n在迁移进行时，你无需保持 {appName} 运行，但我们也会通过 {appName} 机器人向你发送通知，以告知你进展如何。",
 
-        "Migration.List.EmptyTitle": "需要开始新的迁移工作吗？",
+        "Migration.List.EmptyTitle": "需要开始新的迁移任务吗？",
         "Migration.List.EmptySubtitle": "点击左上方的“新建迁移任务”按钮",
 
         "Migration.List.ButtonLabel": "{name}\n<size=50%>创建于：{time}\n状态：{state}",
