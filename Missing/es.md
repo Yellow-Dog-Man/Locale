@@ -3,6 +3,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Spanish [es]
 Notifications.SessionStarted  
+Notifications.UserJoined  
+Notifications.UserLeft  
 Settings.Category.Audio  
 Settings.Category.Controls  
 Settings.Category.Devices  
@@ -81,11 +83,16 @@ Settings.MovementSettings.MovementDeadzone
 Settings.MovementSettings.MovementDeadzone.Description  
 Settings.MovementSettings.MovementExponent  
 Settings.MovementSettings.MovementExponent.Description  
+Settings.GrabbingSettings  
+Settings.GrabbingSettings.DefaultHandGrabType  
+Settings.GrabbingSettings.DefaultHandGrabType.Description  
 Settings.GamepadSettings  
 Settings.GamepadSettings.ThumbstickLookSpeed  
 Settings.GamepadSettings.ThumbstickLookSpeed.Description  
 Settings.GamepadSettings.ThumbstickLookExponent  
 Settings.GamepadSettings.ThumbstickLookExponent.Description  
+Settings.GamepadSettings.UseGamepadWhenUnfocused  
+Settings.GamepadSettings.UseGamepadWhenUnfocused.Description  
 Settings.MouseSettings.MouseSensitivity  
 Settings.MouseSettings.MouseSensitivity.Description  
 Settings.MouseSettings.MouseLookSpeed  
@@ -140,6 +147,8 @@ Settings.TrackerSettings.Trackers
 Settings.TrackerSettings.Trackers.Breadcrumb  
 Settings.TrackerSettings.Trackers.UseTracker  
 Settings.TrackerSettings.Trackers.UseTracker.Description  
+Settings.TrackerSettings.Trackers.FreezeTracking  
+Settings.TrackerSettings.Trackers.FreezeTracking.Description  
 Settings.TrackerSettings.Trackers.CustomName  
 Settings.TrackerSettings.Trackers.CustomName.Description  
 Settings.TrackerSettings.Trackers.MappedBodyNode  
@@ -253,8 +262,10 @@ Settings.VoiceSettings.MutePersistence.Description
 Settings.EarmuffSettings  
 Settings.EarmuffSettings.EarmuffEnabled  
 Settings.EarmuffSettings.EarmuffEnabled.Description  
-Settings.EarmuffSettings.ConeDistance  
-Settings.EarmuffSettings.ConeDistance.Description  
+Settings.EarmuffSettings.Directionality  
+Settings.EarmuffSettings.Directionality.Description  
+Settings.EarmuffSettings.Distance  
+Settings.EarmuffSettings.Distance.Description  
 Settings.EarmuffSettings.ConeAngle  
 Settings.EarmuffSettings.ConeAngle.Description  
 Settings.EarmuffSettings.TransitionStart  
@@ -325,6 +336,8 @@ Settings.NotificationSettings.ContactRequest
 Settings.NotificationSettings.ContactRequest.Description  
 Settings.NotificationSettings.SessionStarted  
 Settings.NotificationSettings.SessionStarted.Description  
+Settings.NotificationSettings.UserJoinAndLeave  
+Settings.NotificationSettings.UserJoinAndLeave.Description  
 Settings.NamePlateSettings.NameplateVisibility  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  
@@ -371,6 +384,12 @@ Settings.PhotoCaptureSettings.AlwaysHideNameplates
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
+Settings.DesktopRenderSettings.VSync  
+Settings.DesktopRenderSettings.VSync.Description  
+Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused  
+Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description  
+Settings.DesktopRenderSettings.MaximumBackgroundFramerate  
+Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description  
 Settings.InteractiveCameraFramingSettings.PositioningMode  
 Settings.InteractiveCameraFramingSettings.PositioningMode.Description  
 Settings.InteractiveCameraFramingSettings.FieldOfView  
@@ -445,6 +464,18 @@ Settings.PostProcessingSettings.ScreenSpaceReflections
 Settings.PostProcessingSettings.ScreenSpaceReflections.Description  
 Settings.PostProcessingSettings.Antialiasing  
 Settings.PostProcessingSettings.Antialiasing.Description  
+Settings.TextureQualitySettings  
+Settings.TextureQualitySettings.TextureSizeRatio  
+Settings.TextureQualitySettings.TextureSizeRatio.Description  
+Settings.TextureQualitySettings.TextureSizeLimit  
+Settings.TextureQualitySettings.TextureSizeLimit.Description  
+Settings.TextureQualitySettings.MinimumTextureSize  
+Settings.TextureQualitySettings.MinimumTextureSize.Description  
+Settings.TextureQualitySettings.DefaultFilterMode  
+Settings.TextureQualitySettings.DefaultFilterMode.Description  
+Settings.TextureQualitySettings.AnisotropicLevel  
+Settings.TextureQualitySettings.AnisotropicLevel.Description  
+Settings.TextureQualitySettings.ReloadAllTextures  
 Settings.ResolutionSettings  
 Settings.ResolutionSettings.Fullscreen  
 Settings.ResolutionSettings.Fullscreen.Description  
