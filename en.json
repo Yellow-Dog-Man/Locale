@@ -1313,12 +1313,18 @@
         "Settings.MediaPrivacySettings.HideInScreenshots" : "Do not show me in screenshots",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "When enabled, you will not be rendered in screenshots captured in-game.\n\n<color=hero.red>IMPORTANT:</color> Please note that this does not affect realtime cameras, screenshots taken by methods outside of the game or captures done through other methods in-world that might be part of the world's mechanics.",
 
-        "Settings.RichPresenceSettings": "Rich Presence",
-        "Settings.RichPresenceSettings.DiscordPreference": "Discord Rich Presence",
-        "Settings.RichPresenceSettings.DiscordPreference.Description": "Controls what information Resonite sends to Discord's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Discord.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Discord. Includes the world name and how many users are in the session.\n\nDiscord itself also does its own detection to display what game you are playing. This can be disabled in Discord's settings.",
-        
-        "Settings.RichPresenceSettings.SteamPreference": "Steam Rich Presence",
-        "Settings.RichPresenceSettings.SteamPreference.Description": "Controls what information Resonite sends to Steam's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Discord.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Steam. Includes the world name and how many users are in the session.\n\nSteam itself will display that you are playing Resonite regardless of this setting. Changing this setting only affects how much extra data is sent to Steam about your active session.",
+        "Settings.Category.Integrations": "Integrations",
+        "Settings.DiscordIntegrationSettings": "Discord Integration",
+        "Settings.SteamIntegrationSettings": "Steam Integration",
+
+        "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Discord's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Discord.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Discord. Includes the world name and how many users are in the session.\n\nDiscord itself also does its own detection to display what game you are playing. This can be disabled in Discord's settings.",
+
+        "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Steam's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Discord.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Steam. Includes the world name and how many users are in the session.\n\nSteam itself will display that you are playing Resonite regardless of this setting. Changing this setting only affects how much extra data is sent to Steam about your active session.",
+
+        "Settings.SteamIntegrationSettings.SaveScreenshots": "Save Screenshots",
+        "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "When you take a picture with this setting enabled, a copy will be saved to Steam Sscreenshots.",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap motion hand tracking",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "When enabled, Leap Motion device will be used to track your hands and fingers when present.",
