@@ -12,4 +12,10 @@ Settings.GiggleTechSettings.GigglePuckIP.Description
 Settings.GiggleTechSettings.RegisterGigglePuck  
 Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected  
 Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description  
+Settings.FavoritesSettings.AutoLoadCloudHome  
+Settings.FavoritesSettings.AutoLoadCloudHome.Description  
+Settings.NotificationSettings.ContactSessionStarted  
+Settings.NotificationSettings.ContactSessionStarted.Description  
+Settings.NotificationSettings.PublicSessionStarted  
+Settings.NotificationSettings.PublicSessionStarted.Description  
 

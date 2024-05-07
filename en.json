@@ -1442,8 +1442,11 @@
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity" : "Initial Activation Intensity",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description" : "When the haptics go from inactive to active, they will be run at at least this amount of intensity for a very short time period. This can help \"kick-start\" the haptics, when the activation value is too low for the motor to start spinning.",
 
-        "Settings.UserMetricsSettings.UserHeight": "Height",
-        "Settings.UserMetricsSettings.UserHeight.Description": "This is your real world height, which is used to properly scale your avatar so it fits you well. It is also the height you will be placed at when you enable seated mode.\n\nYou can enter your height by using appropriate units, for example by typing <nobr><color=hero.yellow>175 cm</color></nobr> or <nobr><color=hero.yellow>1.75 m</color></nobr> for metric or <color=hero.yellow>5'11\"</color> for imperial.",
+        "Settings.UserMetricsSettings.UserHeight" : "Height",
+        "Settings.UserMetricsSettings.UserHeight.Description" : "This is your real world height, which is used to properly scale your avatar so it fits you well. It is also the height you will be placed at when you enable seated mode.\n\nYou can enter your height by using appropriate units, for example by typing <nobr><color=hero.yellow>175 cm</color></nobr> or <nobr><color=hero.yellow>1.75 m</color></nobr> for metric or <color=hero.yellow>5'11\"</color> for imperial.",
+
+        "Settings.FavoritesSettings.AutoLoadCloudHome" : "Load cloud home on startup",
+        "Settings.FavoritesSettings.AutoLoadCloudHome.Description" : "When enabled, your cloud home will be automatically loaded on startup. If you'd prefer it to not be loaded, you can disable this option. It will take effect next time you start.",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Use System Default Input Device",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Enable this to automatically use the input device you have set as default input in your system. If you'd like to override this and use a specific device instead, disable this option and configure the preferred devices below.",
@@ -1581,8 +1584,10 @@
         "Settings.NotificationSettings.Invite.Description" : "This controls if you get notifications when you are invited to a session.",
         "Settings.NotificationSettings.ContactRequest" : "Contact Requests",
         "Settings.NotificationSettings.ContactRequest.Description" : "This controls what notifications you get when you receive a contact request from someone",
-        "Settings.NotificationSettings.SessionStarted" : "New Sessions",
-        "Settings.NotificationSettings.SessionStarted.Description" : "This controls what notifications you get when a new session is discovered that you are able to join.",
+        "Settings.NotificationSettings.ContactSessionStarted" : "New Contact Sessions",
+        "Settings.NotificationSettings.ContactSessionStarted.Description" : "This controls what notifications you get when a new session is started by one of your contacts.",
+        "Settings.NotificationSettings.PublicSessionStarted" : "New Public Sessions",
+        "Settings.NotificationSettings.PublicSessionStarted.Description" : "This controls what notifications you get when a new public session is started by a person that's not your contact.",
         "Settings.NotificationSettings.UserJoinAndLeave" : "Users joining & leaving",
         "Settings.NotificationSettings.UserJoinAndLeave.Description" : "When enabled, you will receive notifications when users join and leave the world you're currently in.",
 

@@ -155,6 +155,8 @@ Settings.GiggleTechSettings.Devices.InitialActivationIntensity
 Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description  
 Settings.UserMetricsSettings.UserHeight  
 Settings.UserMetricsSettings.UserHeight.Description  
+Settings.FavoritesSettings.AutoLoadCloudHome  
+Settings.FavoritesSettings.AutoLoadCloudHome.Description  
 Settings.AudioInputDeviceSettings.UseSystemDefault  
 Settings.AudioInputDeviceSettings.UseSystemDefault.Description  
 Settings.AudioInputDeviceSettings.DevicePriorities  
@@ -271,8 +273,10 @@ Settings.NotificationSettings.Invite
 Settings.NotificationSettings.Invite.Description  
 Settings.NotificationSettings.ContactRequest  
 Settings.NotificationSettings.ContactRequest.Description  
-Settings.NotificationSettings.SessionStarted  
-Settings.NotificationSettings.SessionStarted.Description  
+Settings.NotificationSettings.ContactSessionStarted  
+Settings.NotificationSettings.ContactSessionStarted.Description  
+Settings.NotificationSettings.PublicSessionStarted  
+Settings.NotificationSettings.PublicSessionStarted.Description  
 Settings.NotificationSettings.UserJoinAndLeave  
 Settings.NotificationSettings.UserJoinAndLeave.Description  
 Settings.NamePlateSettings.NameplateVisibility  
