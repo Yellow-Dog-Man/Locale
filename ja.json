@@ -1321,6 +1321,19 @@
         "Settings.MediaPrivacySettings.HideInScreenshots" : "スクリーンショットに自分を映さない",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "これを有効にすると、ゲーム内で撮影された写真に映らなくなります。\n\n<color=hero.red>重要:</color>。これは、リアルタイムカメラ、ゲーム外の方法で撮影されたスクリーンショット、ワールド内の他の方法で撮影された写真には影響しないことに注意してください。",
 
+        "Settings.Category.Integrations": "連携機能",
+        "Settings.DiscordIntegrationSettings": "Discord連携",
+        "Settings.SteamIntegrationSettings": "Steam連携",
+
+        "Settings.DiscordIntegrationSettings.RichPresence": "Discordリッチプレゼンス",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "ResoniteがDiscordのリッチプレゼンスシステムに送信する情報を設定できます。\n\n<color=hero.yellow>None</color> - リッチプレゼンス情報をDiscordに送信しません。\n<color=hero.yellow>Basic</color> - 限られたプレゼンス情報のみを送信します。\n<color=hero.yellow>Full</color> - パブリックセッションの場合、セッション情報を全てDiscordに送信します。ワールド名や何人のユーザーがセッションに参加しているかを含みます。\n\nDiscord自体も、あなたがどのゲームをプレイしているかを表示するために独自の検出を行います。これはDiscordの設定で無効にできます。",
+
+        "Settings.SteamIntegrationSettings.RichPresence": "Steamリッチプレゼンス",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "ResoniteがSteamのリッチプレゼンスシステムに送信する情報を設定できます。\n\n<color=hero.yellow>None</color> - リッチプレゼンス情報をSteamに送信しません。\n<color=hero.yellow>Basic</color> - 限られたプレゼンス情報のみを送信します。\n<color=hero.yellow>Full</color> - 公開セッションの場合、適切なセッション情報をすべてSteamに送信します。ワールド名やセッションに参加しているユーザー数などが含まれます。\n\nこの設定に関係なく、Steam自体にResoniteをプレイしていることが表示されます。この設定は、アクティブなセッションに関する追加データがSteamに送信されるかどうかです。",
+
+        "Settings.SteamIntegrationSettings.SaveScreenshots": "スクリーンショットを保存",
+        "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "この設定を有効にしておくと、写真を撮った際にSteamのスクリーンショットとしても保存されます。",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion ハンドトラッキング",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "設定を有効にした場合、Leap Motionデバイスがあれば、それにより手や指のトラッキングを行います。",
         "Settings.LeapMotionSettings.Offset": "ハンドトラッキングのオフセット",
@@ -1406,11 +1419,16 @@
         "Settings.HapticPointMapping.Tag.Description": "このハプティックポイントに設定したタグ。これはTagHapticPointMapperコンポーネントで指定された一致するハプティック・タグを持つアバター上の位置に割当されます。このハプティック・タグを持つポイントがアバター上に設定されていない場合、ハプティック・デバイスは動作しません。\n\nこれは、ハプティック・デバイスが割当されるアバター上の正確な位置を完全に制御する必要がある場合に便利です。",
 
         "Settings.GiggleTechSettings": "GiggleTechデバイス",
-        "Settings.GiggleTechSettings.Devices": "GigglePucksの管理",
+        "Settings.GiggleTechSettings.Devices": "GigglePuckを管理",
+        "Settings.GiggleTechSettings.GigglePuckIP" : "GigglePuck IPを手動で追加",
+        "Settings.GiggleTechSettings.GigglePuckIP.Description" : "ネットワーク上のGigglePuckが自動的に検出されない場合は、ここにIPアドレスを入力し、下のボタンをクリックして手動で追加してください。\n\n追加されたものは\"GigglePuckを管理\"から設定できます。",
+        "Settings.GiggleTechSettings.RegisterGigglePuck" : "GigglePuckを手動で登録",
         "Settings.GiggleTechSettings.Devices.IP": "GigglePuck IP",
         "Settings.GiggleTechSettings.Devices.IsConnected": "GigglePuckが接続されているかどうか",
         "Settings.GiggleTechSettings.Devices.UseDevice": "デバイスを使用",
         "Settings.GiggleTechSettings.Devices.UseDevice.Description": "GigglePucksが割当されているときに、個々のGigglePucksを有効か無効にできます。デバイスを無効にすると、すべてのハプティクスが停止します。",
+        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected" : "常に接続されているものとして扱う",
+        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description" : "これを有効にすると、GigglePuckがネットワーク上から検出されないときにも、常に接続されていると扱います。\n\nこれは、ネットワークから自動検出されない問題がある場合に役立ちます。",
         "Settings.GiggleTechSettings.Devices.IntensityScale": "強さ",
         "Settings.GiggleTechSettings.Devices.IntensityScale.Description": "GigglePuckに送信されるハプティクスの強さを調整することができます。ハプティクスの実際の強さはGigglePuckの最大安全値を超えることはありません。 - 値はモーターに過電圧を与えない安全な値に制限されます。",
         "Settings.GiggleTechSettings.Devices.Remove": "登録を削除",
