@@ -2,6 +2,7 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Japanese [ja]
+Settings.FavoritesSettings  
 Settings.FavoritesSettings.AutoLoadCloudHome  
 Settings.FavoritesSettings.AutoLoadCloudHome.Description  
 Settings.NotificationSettings.ContactSessionStarted  
