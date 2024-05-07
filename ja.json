@@ -1321,6 +1321,19 @@
         "Settings.MediaPrivacySettings.HideInScreenshots" : "スクリーンショットに自分を映さない",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "これを有効にすると、ゲーム内で撮影された写真に映らなくなります。\n\n<color=hero.red>重要:</color>。これは、リアルタイムカメラ、ゲーム外の方法で撮影されたスクリーンショット、ワールド内の他の方法で撮影された写真には影響しないことに注意してください。",
 
+        "Settings.Category.Integrations": "連携機能",
+        "Settings.DiscordIntegrationSettings": "Discord連携",
+        "Settings.SteamIntegrationSettings": "Steam連携",
+
+        "Settings.DiscordIntegrationSettings.RichPresence": "Discordリッチプレゼンス",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "ResoniteがDiscordのリッチプレゼンスシステムに送信する情報を設定できます。\n\n<color=hero.yellow>None</color> - リッチプレゼンス情報をDiscordに送信しません。\n<color=hero.yellow>Basic</color> - 限られたプレゼンス情報のみを送信します。\n<color=hero.yellow>Full</color> - パブリックセッションの場合、セッション情報を全てDiscordに送信します。ワールド名や何人のユーザーがセッションに参加しているかを含みます。\n\nDiscord自体も、あなたがどのゲームをプレイしているかを表示するために独自の検出を行います。これはDiscordの設定で無効にできます。",
+
+        "Settings.SteamIntegrationSettings.RichPresence": "Steamリッチプレゼンス",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "ResoniteがSteamのリッチプレゼンスシステムに送信する情報を設定できます。\n\n<color=hero.yellow>None</color> - リッチプレゼンス情報をSteamに送信しません。\n<color=hero.yellow>Basic</color> - 限られたプレゼンス情報のみを送信します。\n<color=hero.yellow>Full</color> - 公開セッションの場合、適切なセッション情報をすべてSteamに送信します。ワールド名やセッションに参加しているユーザー数などが含まれます。\n\nこの設定に関係なく、Steam自体にResoniteをプレイしていることが表示されます。この設定は、アクティブなセッションに関する追加データがSteamに送信されるかどうかです。",
+
+        "Settings.SteamIntegrationSettings.SaveScreenshots": "スクリーンショットを保存",
+        "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "この設定を有効にしておくと、写真を撮った際にSteamのスクリーンショットとしても保存されます。",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion ハンドトラッキング",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "設定を有効にした場合、Leap Motionデバイスがあれば、それにより手や指のトラッキングを行います。",
         "Settings.LeapMotionSettings.Offset": "ハンドトラッキングのオフセット",
