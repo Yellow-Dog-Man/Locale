@@ -1736,7 +1736,7 @@
         "Settings.TextureQualitySettings" : "テクスチャ品質",
         "Settings.TextureQualitySettings.TextureSizeRatio" : "相対的なテクスチャサイズ",
         "Settings.TextureQualitySettings.TextureSizeRatio.Description" : "読み込まれるすべてのテクスチャの相対サイズを設定できます。これを使用してテクスチャの全体的な解像度を下げることができ、VRAMの使用量とロード速度が向上しますが、鮮明さは犠牲になります。\n\n例えば、テクスチャが4Kの際に半分の解像度に設定すると、代わりに2Kのテクスチャを読み込みます。",
-        "Settings.TextureQualitySettings.TextureSizeLimit" : "最大のテクスチャサイズ",
+        "Settings.TextureQualitySettings.TextureSizeLimit" : "最大テクスチャサイズ",
         "Settings.TextureQualitySettings.TextureSizeLimit.Description" : "読み込むテクスチャ解像度の最大値を制限するために使用します。設定した解像度以上サイズのテクスチャは、設定された解像度に制限されます。小さいテクスチャは影響を受けません。\n\n相対的なテクスチャサイズ適用後にこの設定が適用されます。",
         "Settings.TextureQualitySettings.MinimumTextureSize" : "このサイズを超えるテクスチャを制限",
         "Settings.TextureQualitySettings.MinimumTextureSize.Description" : "上記の設定によって制限されるテクスチャの最小解像度を制御します。テクスチャがこのサイズ以下の場合、そのまま読み込みます。\n\n例:ここで512に設定すると、テクスチャ解像度が256の場合、相対的なテクスチャサイズを半分に設定しても256のまま読み込みます。",
@@ -1744,7 +1744,7 @@
         "Settings.TextureQualitySettings.DefaultFilterMode.Description" : "テクスチャに使用するフィルタリングを設定し、品質とパフォーマンスを制御できます。\n\n<color=hero.yellow>Point:</color> 補間なしの最低品質。テクスチャはブロック状になります。\n\n<color=hero.yellow>Bilinear:</color> テクスチャのピクセルは補間されますが、ミップマップの境界線が見える場合があります。\n\n<color=hero.yellow>Trilinear:</color> 異なるミップマップ間を滑らかに補間し、境界線は目立たなくなります。\n\n<color=hero.yellow>Anisotropic:</color> (異方性フィルタリング)最高品質。テクスチャが斜めに表示される際にも鮮明になります。",
         "Settings.TextureQualitySettings.AnisotropicLevel" : "異方性フィルタリングの品質",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description" : "異方性フィルタリングの品質を設定できます。",
-        "Settings.TextureQualitySettings.ReloadAllTextures" : "すべてのテクスチャを再読み込みする(重くなる可能性があります)",
+        "Settings.TextureQualitySettings.ReloadAllTextures" : "すべてのテクスチャを再読み込み(重くなる可能性があります)",
 
         "Settings.ResolutionSettings": "解像度",
         "Settings.ResolutionSettings.Fullscreen": "フルスクリーン",
