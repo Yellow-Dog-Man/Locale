@@ -18,10 +18,4 @@ Settings.NotificationSettings.ContactSessionStarted
 Settings.NotificationSettings.ContactSessionStarted.Description  
 Settings.NotificationSettings.PublicSessionStarted  
 Settings.NotificationSettings.PublicSessionStarted.Description  
-Settings.DesktopRenderSettings.VSync  
-Settings.DesktopRenderSettings.VSync.Description  
-Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused  
-Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description  
-Settings.DesktopRenderSettings.MaximumBackgroundFramerate  
-Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description  
 
