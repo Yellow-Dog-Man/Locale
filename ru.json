@@ -1321,12 +1321,18 @@
         "Settings.MediaPrivacySettings.HideInScreenshots" : "Не показывать меня на скриншотах",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "Когда включено, вы не будете отображаться в скриншотаз, снятых в игре.\n\n<color=hero.red>ВАЖНО:</color> Обратите внимание, что это не затрагивает камеры реального времени, скриншоты снятые внешними средствами или другие средства рендера в виртуальном мире, которые могут быть частью механик этого мира.",
 
+        "Settings.Category.Integrations": "Интеграции",
+        "Settings.DiscordIntegrationSettings": "Интеграция с Discord",
+        "Settings.SteamIntegrationSettings": "Интеграция со Steam",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "Богатое присутствие Discord",
         "Settings.DiscordIntegrationSettings.RichPresence.Description": "Задает, какую информацию Resonite передает в систему богатого присутствия Discord.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Discord.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в Resonite.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Discord. Включает название мира и количество пользователей в сессии.\n\nDiscord сам также определяет в какую игру вы играете. Это можно отключить в настройках Discord.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Богатое присутствие Steam",
         "Settings.SteamIntegrationSettings.RichPresence.Description": "Задает, какую информацию Resonite передает в систему богатого присутствия Steam.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Steam.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в Resonite.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Steam. Включает название мира и количество пользователей в сессии.\n\nSteam сам также будет отображать что вы в Resonite, независимо от этой настройки. Изменение этой настройки только задает сколько дополнительных сведений о вашей активной сессии отправляются в Steam.",
+
+        "Settings.SteamIntegrationSettings.SaveScreenshots": "Сохранять скриншоты",
+        "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Если вы снимаете фото и эта настройка включена, копия фото будет сохранена в скриншоты Steam.",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Трекинг рук Leap Motion",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Когда включен, устройство Leap Motion, если подключено, будет использоваться для отслеживания ваших рук и пальцев.",
@@ -1415,10 +1421,15 @@
 
         "Settings.GiggleTechSettings" : "Устройства GiggleTech",
         "Settings.GiggleTechSettings.Devices" : "Управление GigglePuck'ами",
+        "Settings.GiggleTechSettings.GigglePuckIP" : "IP адрес GigglePuck для добавления вручную",
+        "Settings.GiggleTechSettings.GigglePuckIP.Description" : "Если ваш GigglePuck не обнаруживается в сети автоматически, введите его IP в это поле и нажмите кнопку ниже чтобы добавить его вручную.\n\nПосле добавления, перейдите в \"Управление GigglePuck'ами\" чтобы настроить его.",
+        "Settings.GiggleTechSettings.RegisterGigglePuck" : "Зарегистрировать GigglePuck вручную",
         "Settings.GiggleTechSettings.Devices.IP" : "IP адрес GigglePuck",
         "Settings.GiggleTechSettings.Devices.IsConnected" : "Подключен ли  GigglePuck",
         "Settings.GiggleTechSettings.Devices.UseDevice" : "Использовать устройство",
         "Settings.GiggleTechSettings.Devices.UseDevice.Description" : "Вы можете включить или выключить отдельные GigglePuck'и когда они привязаны. Отключение устройства остановит всю тактильную отдачу.",
+        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected" : "Всегда считать подключенным",
+        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description" : "Когда включено, этот GigglePuck будет всегда считаться подключенным, даже если он не найден в сети.\n\nМожет оказаться полезным в некоторых сетях, в которых есть проблемы с автоматическим обнаружением.",
         "Settings.GiggleTechSettings.Devices.IntensityScale" : "Интенсивность",
         "Settings.GiggleTechSettings.Devices.IntensityScale.Description" : "Задает множитель интенсивности тактильной отдачи GigglePuck. Итоговая сила отдачи никогда не превысит максимальное безопасное значение GigglePuck - значения обрезаются по максимальному пределу чтобы не перегрузить мотор.",
         "Settings.GiggleTechSettings.Devices.Remove" : "Удалить",
@@ -1433,6 +1444,10 @@
 
         "Settings.UserMetricsSettings.UserHeight": "Рост",
         "Settings.UserMetricsSettings.UserHeight.Description": "Это ваш реальный рост, который используется чтобы правильно масштабировать ваш аватар и подогнать его под ваше тело. Также это высота, которая будет использоваться для сидячего режима.\n\nВы можете ввести свой рост в подходящих единицах длины, например <nobr><color=hero.yellow>175 cm</color></nobr> или <nobr><color=hero.yellow>1.75 m</color></nobr> для метрической системы или <color=hero.yellow>5'11\"</color> для имперской.",
+
+        "Settings.FavoritesSettings" : "Избранное",
+        "Settings.FavoritesSettings.AutoLoadCloudHome" : "Загружать облачный дом при запуске",
+        "Settings.FavoritesSettings.AutoLoadCloudHome.Description" : "Когда включено, ваш облачный дом будет автоматически загружаться при запуске. Если вы предпочитаете не загружать его автоматически, вы можете отклюить эту опцию. Настройка действует при следующем запуске.",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Использовать системное устройство ввода по умолчанию",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Включите чтобы автоматически использовать устройство ввода, которое вы выбрали как устройство по умолчанию в системных настройках. Если вам нужно использовать устройство, отличное от устройства по умолчанию, выключите эту настройку и выберите устройство в настройках ниже.",
@@ -1570,10 +1585,12 @@
         "Settings.NotificationSettings.Invite.Description" : "Будете ли вы получать уведомления когда получаете приглашения в сессии.",
         "Settings.NotificationSettings.ContactRequest" : "Запросы контактов",
         "Settings.NotificationSettings.ContactRequest.Description" : "Будете ли вы получать уведомления когда получаете запрос контакта от пользователя",
-        "Settings.NotificationSettings.SessionStarted" : "Новые сессии",
-        "Settings.NotificationSettings.SessionStarted.Description" : "Управляет уведомлениями об обнаружении новой сессии, к которой вы можете подключиться.",
+        "Settings.NotificationSettings.ContactSessionStarted" : "Новые сессии контактов",
+        "Settings.NotificationSettings.ContactSessionStarted.Description" : "Управляет тем, какие уведомления вы будете получать, когда кто-то из ваших контактов запускает новую сессию.",
+        "Settings.NotificationSettings.PublicSessionStarted" : "Новые публичные сессии",
+        "Settings.NotificationSettings.PublicSessionStarted.Description" : "Управляет тем, какие уведомления вы будете получать, когда кто-то не из ваших контактов запускает новую сессию.",
         "Settings.NotificationSettings.UserJoinAndLeave" : "Подключающиеся и отключающиеся пользователи",
-        "Settings.NotificationSettings.UserJoinAndLeave.Description" : "Когда включено, вы будете получать уведомления когда юзеры заходят или покидают мир, в котором вы сейчас находитесь.",
+        "Settings.NotificationSettings.UserJoinAndLeave.Description" : "Когда включено, вы будете получать уведомления когда пользователи заходят или покидают мир, в котором вы сейчас находитесь.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Видимость табличек имён",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Определяет, чьи таблички имен видны вам.",
