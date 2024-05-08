@@ -16,6 +16,7 @@ Settings.GiggleTechSettings.GigglePuckIP.Description
 Settings.GiggleTechSettings.RegisterGigglePuck  
 Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected  
 Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description  
+Settings.FavoritesSettings  
 Settings.FavoritesSettings.AutoLoadCloudHome  
 Settings.FavoritesSettings.AutoLoadCloudHome.Description  
 Settings.NotificationSettings.ContactSessionStarted  
