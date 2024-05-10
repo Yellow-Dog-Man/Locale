@@ -1322,7 +1322,7 @@
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "When enabled, you will not be rendered in screenshots captured in-game.\n\n<color=hero.red>IMPORTANT:</color> Please note that this does not affect realtime cameras, screenshots taken by methods outside of the game or captures done through other methods in-world that might be part of the world's mechanics.",
 
         "Settings.MediaPrivacySettings.StripImageFileMetadata": "Strip image metadata on import",
-        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "When enabled, strips metadata from images on <b>import</b>.\n\nIncludes EXIF, Embeded comments, IPTC, XMP, and GEOTIFF metadata.\n\nDoes <b>not</b>, include files imported with the \"Raw File\" option.",
+        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "When enabled, strips metadata from images on <b>import</b>.\n\nIncludes EXIF, Embeded comments, IPTC, XMP, and GEOTIFF metadata.\n\nThis will also strip any location data (such as GPS) within that metadata.\n\nDoes <b>not</b>, include files imported with the \"Raw File\" option.",
 
         "Settings.Category.Integrations": "Integrations",
         "Settings.DiscordIntegrationSettings": "Discord Integration",
