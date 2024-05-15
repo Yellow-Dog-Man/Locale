@@ -12,16 +12,11 @@ Settings.GiggleTechSettings.GigglePuckIP.Description
 Settings.GiggleTechSettings.RegisterGigglePuck  
 Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected  
 Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description  
+Settings.FavoritesSettings  
 Settings.FavoritesSettings.AutoLoadCloudHome  
 Settings.FavoritesSettings.AutoLoadCloudHome.Description  
 Settings.NotificationSettings.ContactSessionStarted  
 Settings.NotificationSettings.ContactSessionStarted.Description  
 Settings.NotificationSettings.PublicSessionStarted  
 Settings.NotificationSettings.PublicSessionStarted.Description  
-Settings.DesktopRenderSettings.VSync  
-Settings.DesktopRenderSettings.VSync.Description  
-Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused  
-Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description  
-Settings.DesktopRenderSettings.MaximumBackgroundFramerate  
-Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description  
 

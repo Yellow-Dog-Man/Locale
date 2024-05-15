@@ -1217,6 +1217,7 @@ Settings.GiggleTechSettings.Devices.InitialActivationIntensity
 Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description  
 Settings.UserMetricsSettings.UserHeight  
 Settings.UserMetricsSettings.UserHeight.Description  
+Settings.FavoritesSettings  
 Settings.FavoritesSettings.AutoLoadCloudHome  
 Settings.FavoritesSettings.AutoLoadCloudHome.Description  
 Settings.AudioInputDeviceSettings.UseSystemDefault  
