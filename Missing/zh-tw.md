@@ -191,6 +191,8 @@ Settings.MediaPrivacySettings.MediaMetadataOptOut
 Settings.MediaPrivacySettings.MediaMetadataOptOut.Description  
 Settings.MediaPrivacySettings.HideInScreenshots  
 Settings.MediaPrivacySettings.HideInScreenshots.Description  
+Settings.MediaPrivacySettings.StripImageFileMetadata  
+Settings.MediaPrivacySettings.StripImageFileMetadata.Description  
 Settings.Category.Integrations  
 Settings.DiscordIntegrationSettings  
 Settings.SteamIntegrationSettings  
