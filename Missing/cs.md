@@ -163,6 +163,8 @@ Settings.MediaPrivacySettings.MediaMetadataOptOut
 Settings.MediaPrivacySettings.MediaMetadataOptOut.Description  
 Settings.MediaPrivacySettings.HideInScreenshots  
 Settings.MediaPrivacySettings.HideInScreenshots.Description  
+Settings.MediaPrivacySettings.StripImageFileMetadata  
+Settings.MediaPrivacySettings.StripImageFileMetadata.Description  
 Settings.Category.Integrations  
 Settings.DiscordIntegrationSettings  
 Settings.SteamIntegrationSettings  
@@ -215,6 +217,9 @@ Settings.TrackerSettings.Trackers.TrackerIsCharging
 Settings.TrackerSettings.Trackers.TrackerIsCharging.Description  
 Settings.TrackerSettings.Trackers.Unmap  
 Settings.TrackerSettings.Trackers.Remove  
+Settings.SteamLinkSettings  
+Settings.SteamLinkSettings.OSC_DataPort  
+Settings.SteamLinkSettings.OSC_DataPort.Description  
 Settings.HapticPointMapping.MappingTarget  
 Settings.HapticPointMapping.MappingTarget.Description  
 Settings.HapticPointMapping.PointRadius  

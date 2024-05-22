@@ -1381,6 +1381,10 @@
         "Settings.TrackerSettings.Trackers.Unmap": "割当をリセット",
         "Settings.TrackerSettings.Trackers.Remove": "トラッカーの登録を削除",
 
+        "Settings.SteamLinkSettings" : "Steam連携",
+        "Settings.SteamLinkSettings.OSC_DataPort" : "OSCフェイストラッキングポート",
+        "Settings.SteamLinkSettings.OSC_DataPort.Description" : "どのポートをOSCフェイストラッキングデータの受信に使用するか。これはSteamVRで設定したポートと一致する必要があります。",
+
         "Settings.HapticPointMapping.MappingTarget": "割当",
         "Settings.HapticPointMapping.MappingTarget.Description": "このデバイスをアバターのどの部分に割当するかを設定します。",
         "Settings.HapticPointMapping.PointRadius": "ハプティックポイントの大きさ",
@@ -1443,6 +1447,10 @@
 
         "Settings.UserMetricsSettings.UserHeight": "身長",
         "Settings.UserMetricsSettings.UserHeight.Description": "現実世界の身長を設定してください。アバターのサイズとユーザーの身長を合わせるために使用されます。着席モード時にも使われます。\n\n適切な単位を用いて身長を入力できます。例えば、メートル法であれば<color=hero.yellow>175cm</color>、または<color=hero.yellow>1.75m</color>のように入力し、ヤードポンド法の場合<color=hero.yellow>5'11\"</color>のように入力します。",
+
+        "Settings.FavoritesSettings" : "お気に入り",
+        "Settings.FavoritesSettings.AutoLoadCloudHome" : "起動時にクラウドホームを読み込む",
+        "Settings.FavoritesSettings.AutoLoadCloudHome.Description" : "これを有効にすると、起動時にクラウドホームを自動的に読み込みます。クラウドホームを自動的に開きたくない場合は、この設定をを無効にしてください。次回起動時から適用されます。",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "PCの標準の入力デバイスを使用",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "設定を有効にした場合、PC上で標準の入力デバイスとして設定しているデバイスが自動的に使用されます。他のデバイスを使用したい場合は、この設定を無効にし、下部から使用したい入力デバイスを選択してください。",
@@ -1580,6 +1588,12 @@
         "Settings.NotificationSettings.Invite.Description": "セッションに招待されたときに通知するかどうかを設定できます。",
         "Settings.NotificationSettings.ContactRequest": "フレンド申請",
         "Settings.NotificationSettings.ContactRequest.Description": "誰かからフレンドの申請を受けたときに通知するかどうかを設定できます。",
+
+        "Settings.NotificationSettings.ContactSessionStarted" : "フレンドの新しいセッション",
+        "Settings.NotificationSettings.ContactSessionStarted.Description" : "フレンドの誰かが新しいセッションを開始したときに通知するかどうかを設定できます。",
+        "Settings.NotificationSettings.PublicSessionStarted" : "新しいパブリックセッション",
+        "Settings.NotificationSettings.PublicSessionStarted.Description" : "誰かが新しいパブリックセッションを開始したときに通知するかどうかを設定できます。",
+
         "Settings.NotificationSettings.UserJoinAndLeave" : "ユーザー参加/退出",
         "Settings.NotificationSettings.UserJoinAndLeave.Description" : "現在いるワールドにユーザーが参加したり退出したりしたときに通知するかどうか設定出来ます。",
 
@@ -1728,7 +1742,7 @@
         "Settings.TextureQualitySettings" : "テクスチャ品質",
         "Settings.TextureQualitySettings.TextureSizeRatio" : "相対的なテクスチャサイズ",
         "Settings.TextureQualitySettings.TextureSizeRatio.Description" : "読み込まれるすべてのテクスチャの相対サイズを設定できます。これを使用してテクスチャの全体的な解像度を下げることができ、VRAMの使用量とロード速度が向上しますが、鮮明さは犠牲になります。\n\n例えば、テクスチャが4Kの際に半分の解像度に設定すると、代わりに2Kのテクスチャを読み込みます。",
-        "Settings.TextureQualitySettings.TextureSizeLimit" : "最大のテクスチャサイズ",
+        "Settings.TextureQualitySettings.TextureSizeLimit" : "最大テクスチャサイズ",
         "Settings.TextureQualitySettings.TextureSizeLimit.Description" : "読み込むテクスチャ解像度の最大値を制限するために使用します。設定した解像度以上サイズのテクスチャは、設定された解像度に制限されます。小さいテクスチャは影響を受けません。\n\n相対的なテクスチャサイズ適用後にこの設定が適用されます。",
         "Settings.TextureQualitySettings.MinimumTextureSize" : "このサイズを超えるテクスチャを制限",
         "Settings.TextureQualitySettings.MinimumTextureSize.Description" : "上記の設定によって制限されるテクスチャの最小解像度を制御します。テクスチャがこのサイズ以下の場合、そのまま読み込みます。\n\n例:ここで512に設定すると、テクスチャ解像度が256の場合、相対的なテクスチャサイズを半分に設定しても256のまま読み込みます。",
@@ -1736,7 +1750,7 @@
         "Settings.TextureQualitySettings.DefaultFilterMode.Description" : "テクスチャに使用するフィルタリングを設定し、品質とパフォーマンスを制御できます。\n\n<color=hero.yellow>Point:</color> 補間なしの最低品質。テクスチャはブロック状になります。\n\n<color=hero.yellow>Bilinear:</color> テクスチャのピクセルは補間されますが、ミップマップの境界線が見える場合があります。\n\n<color=hero.yellow>Trilinear:</color> 異なるミップマップ間を滑らかに補間し、境界線は目立たなくなります。\n\n<color=hero.yellow>Anisotropic:</color> (異方性フィルタリング)最高品質。テクスチャが斜めに表示される際にも鮮明になります。",
         "Settings.TextureQualitySettings.AnisotropicLevel" : "異方性フィルタリングの品質",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description" : "異方性フィルタリングの品質を設定できます。",
-        "Settings.TextureQualitySettings.ReloadAllTextures" : "すべてのテクスチャを再読み込みする(重くなる可能性があります)",
+        "Settings.TextureQualitySettings.ReloadAllTextures" : "すべてのテクスチャを再読み込む(重くなる可能性があります)",
 
         "Settings.ResolutionSettings": "解像度",
         "Settings.ResolutionSettings.Fullscreen": "フルスクリーン",

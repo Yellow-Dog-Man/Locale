@@ -1321,6 +1321,19 @@
         "Settings.MediaPrivacySettings.HideInScreenshots" : "不要在截图里展示我",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "启用后，在游戏中截取的屏幕截图中将不会显示你。\n\n<color=hero.red>请注意：</color> 这并不影响实时摄像头、通过游戏外的方法截图或通过世界中的其他方法截图（可能是世界机制的一部分）。",
 
+        "Settings.Category.Integrations": "整合",
+        "Settings.DiscordIntegrationSettings": "Discord 整合",
+        "Settings.SteamIntegrationSettings": "Steam 整合",
+
+        "Settings.DiscordIntegrationSettings.RichPresence": "Discord 游戏状态",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "控制 Resonite 向 Discord 的游戏状态系统发送哪些信息。\n\n<color=hero.yellow>无</color> - 不要向 Discord 发送游戏状态。\n<color=hero.yellow>基础</color> - 只发送有限的详细信息，例如你目前在 Resonite 处于在线状态。\n<color=hero.yellow>完整</color> - 在公开会话中，将所有合适的会话信息发送到 Discord。 包括世界名称和会话中有多少用户。\n\nDiscord 本身也会进行检测，以显示您正在玩的游戏。 这可以在 Discord 的设置中禁用。",
+
+        "Settings.SteamIntegrationSettings.RichPresence": "Steam 游戏状态",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "控制 Resonite 向 Steam 的游戏状态系统发送哪些信息。\n\n<color=hero.yellow>无</color> - 不要向 Steam 发送游戏状态。\n<color=hero.yellow>基础</color> - 只发送有限的详细信息，例如你目前在 Resonite 处于在线状态。\n<color=hero.yellow>完整</color> - 在公开会话中，将所有合适的会话状态发送到 Steam。 包括世界名称和会话中有多少用户。\n\n无论设置与否，Steam 本身都会显示您正在玩 Resonite。更改此设置只会影响向 Steam 发送多少有关当前会话的额外数据。",
+
+        "Settings.SteamIntegrationSettings.SaveScreenshots": "保存截图",
+        "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "启用此设置后，您拍摄的照片副本将保存到 Steam 屏幕截图中。",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "启用手部追踪",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "启用后，运动追踪器将用来追踪你的手和手指。",
         "Settings.LeapMotionSettings.Offset": "手部追踪偏移量",
@@ -1408,10 +1421,15 @@
 
         "Settings.GiggleTechSettings" : "GiggleTech 设备",
         "Settings.GiggleTechSettings.Devices" : "管理 GigglePucks",
+        "Settings.GiggleTechSettings.GigglePuckIP" : "根据GigglePuck IP 手动绑定",
+        "Settings.GiggleTechSettings.GigglePuckIP.Description" : "如果网络上没有自动检测到 GigglePuck，请在此栏填写 IP 地址，然后点击下面的按钮手动添加。\n\n添加后，点击\"管理 GigglePucks\" 进行配置。",
+        "Settings.GiggleTechSettings.RegisterGigglePuck" : "手动注册 GigglePuck",
         "Settings.GiggleTechSettings.Devices.IP" : "GigglePuck IP",
         "Settings.GiggleTechSettings.Devices.IsConnected" : "GigglePuck 设备连接了吗",
         "Settings.GiggleTechSettings.Devices.UseDevice" : "使用该设备",
         "Settings.GiggleTechSettings.Devices.UseDevice.Description" : "在映射时，你可以用它来启用或禁用单个 GigglePucks 设备。禁用设备将关闭所有触点。",
+        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected" : "始终视为已连接",
+        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description" : "启用此选项后，即使网络上未检测到 GigglePuck，它也会被视为已连接。\n\n这对某些可能存在自动检测问题的网络环境中非常有用。",
         "Settings.GiggleTechSettings.Devices.IntensityScale" : "强度等级",
         "Settings.GiggleTechSettings.Devices.IntensityScale.Description" : "这样你就可以调节发送到 GigglePuck 的触觉强度。 触觉的实际强度永远不会超过 GigglePuck 的最大安全值 - 这些值会被限制在电动机过载的安全最大值。",
         "Settings.GiggleTechSettings.Devices.Remove" : "移除绑定",
@@ -1426,6 +1444,10 @@
 
         "Settings.UserMetricsSettings.UserHeight": "身高",
         "Settings.UserMetricsSettings.UserHeight.Description": "这是你在现实世界中的身高，用于适当缩放你的化身，使其本身匹配你。这也是你启用坐姿模式时的身高。\n\n你可以使用适当的单位输入你的身高，例如输入 <nobr><color=hero.yellow>175 cm</color></nobr> 或者 <nobr><color=hero.yellow>1.75 m</color></nobr> （公制单位）或者 <color=hero.yellow>5'11\"</color> （英制单位）。",
+
+        "Settings.FavoritesSettings" : "偏好",
+        "Settings.FavoritesSettings.AutoLoadCloudHome" : "启动时加载云端家园",
+        "Settings.FavoritesSettings.AutoLoadCloudHome.Description" : "启用后，云端家园将在启动时自动加载。如果希望不加载，可以禁用此选项。它将在下次启动时生效。",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "使用系统默认音频输入设备",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "启用此选项可自动使用你在系统中设置为默认音频输入的输入设备。如果想覆盖此选项并使用特定设备，请禁用此选项并在下面配置首选设备。",
@@ -1563,6 +1585,12 @@
         "Settings.NotificationSettings.Invite.Description" : "这可以控制你是否在受邀加入会话时收到通知。",
         "Settings.NotificationSettings.ContactRequest" : "联络请求",
         "Settings.NotificationSettings.ContactRequest.Description" : "这可以控制当你收到某人的联络请求时，你是否能收到通知。",
+
+        "Settings.NotificationSettings.ContactSessionStarted" : "新的好友会话",
+        "Settings.NotificationSettings.ContactSessionStarted.Description" : "这可以控制当好友启动新会话时，你会收到哪些通知。",
+        "Settings.NotificationSettings.PublicSessionStarted" : "新的公开会话",
+        "Settings.NotificationSettings.PublicSessionStarted.Description" : "这将控制新的公开会话由非联系人发起时，你是否能收到通知。",
+
         "Settings.NotificationSettings.UserJoinAndLeave" : "用户加入 & 离开",
         "Settings.NotificationSettings.UserJoinAndLeave.Description" : "启用后，当用户加入或离开你当前所在的世界时，你将收到通知。",
 
