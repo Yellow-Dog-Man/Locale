@@ -58,7 +58,7 @@
         "Worlds.Home": "Thuiswereld",
         "Worlds.Tutorial": "Tutorialwereld",
 
-        "Locomotion.Noclip.Name": "Noclip", // TODO (noclip)
+        "Locomotion.Noclip.Name": "Noclip",
         "Locomotion.Noclip.Description": "Simpele vliegmodus zonder botsingen, ideaal voor bewerken.",
         "Locomotion.Teleport.Name": "Teleporteren",
         "Locomotion.Teleport.Description": "Met een boog teleporteren, voor comfortabel bewegen.",
@@ -82,9 +82,9 @@
         "Interaction.Redo": "Opnieuw doen",
         "Interaction.EquipTool": "Vastgrijpen", // TODO (equip)
         "Interaction.DequipTool": "Loslaten", // TODO (equip)
-        "Interaction.ScalingEnabled": "Schalen Aan", // TODO (scaling)
-        "Interaction.ScalingDisabled": "Schalen Uit", // TODO (scaling)
-        "Interaction.ResetScale": "Schaal resetten", // TODO (scale)
+        "Interaction.ScalingEnabled": "Schalen Aan",
+        "Interaction.ScalingDisabled": "Schalen Uit",
+        "Interaction.ResetScale": "Schaal resetten",
         "Interaction.LaserEnabled": "Laser Aan",
         "Interaction.LaserDisabled": "Laser Uit",
         "Interaction.Grab.Palm": "Grijp: Palm",
@@ -121,7 +121,7 @@
         "Inventory.SaveAvatar": "Avatar opslaan",
         "Inventory.Favorite.Home": "Als thuiswereld instellen",
         "Inventory.Favorite.ProgressBar": "Als voortgangsbalk instellen",
-        "Inventory.Favorite.AudioStreamController": "Set Stream Controller", // TODO (stream controller)
+        "Inventory.Favorite.AudioStreamController": "Als streamcontroller instellen",
         "Inventory.Favorite.TextDisplay": "Als tekstweergave instellen",
         "Inventory.Favorite.VideoPlayer": "Als videospeler instellen",
         "Inventory.Favorite.AudioPlayer": "Als audiospeler instellen",
@@ -290,7 +290,7 @@
         "World.Category.Featured": "Aanbevolen",
         "World.Category.PublishedWorlds": "Gepubliceerde werelden",
         "World.Category.ActiveSessions": "Actieve sessies",
-        "World.Category.ContactsSessions": "Contacten sessies", // TODO
+        "World.Category.ContactsSessions": "Sessies met contacten",
         "World.Category.HeadlessSessions": "Hoofdloze sessies", // TODO (headless)
         "World.Category.Social": "Sociaal",
         "World.Category.Games": "Spelletjes",
@@ -435,7 +435,7 @@
         "Login.EmailNotVerified": "E-mail niet geverifieerd",
         "Login.EmailNotVerified.Description": "Je e-mail is niet geverifieerd, kijk je inbox na voor een e-mail van ons, kijk ook in je spam folder.",
 
-        "Login.AccountTempLocked": "Je account is locked.", // TODO (locked)
+        "Login.AccountTempLocked": "Je account is vergrendeld.",
         "Login.AccountTempLocked.Description": "Neem contact op met ons op: {moderationUrl}.",
 
         "Login.AccountBanned": "Je account is verbannen.", // TODO (ban)
@@ -1261,8 +1261,8 @@
         "Settings.MovementSettings.SmoothTurnSpeed.Description": "Deze instelling bepaalt hoe snel je draait als smooth draaien aan staat. De waarde is graden per seconde, dus een waarde van 360 draait je in een seconde rond met de joystick volledig naar links/rechts.",
         "Settings.MovementSettings.SnapTurnAngle": "Snap draai hoek", // TODO (snap)
         "Settings.MovementSettings.SnapTurnAngle.Description": "Dit is de hoek (in graden) die je draait als je met snap draai probeert te draaien.", // TODO (snap)
-        "Settings.MovementSettings.NoClipSpeed": "Noclip snelheid", // TODO (noclip)
-        "Settings.MovementSettings.NoClipSpeed.Description": "Dit bepaalt hoe snel je beweegt met de Noclip voortbewegingsmodus. Dit type voortbeweging wordt vaak gebruikt voor bouwen en testen, en is dus vaak niet bestuurd door de wereld waar je in bent.", // TODO (noclip)
+        "Settings.MovementSettings.NoClipSpeed": "Noclip snelheid",
+        "Settings.MovementSettings.NoClipSpeed.Description": "Dit bepaalt hoe snel je beweegt met de Noclip voortbewegingsmodus. Dit type voortbeweging wordt vaak gebruikt voor bouwen en testen, en is dus vaak niet bestuurd door de wereld waar je in bent.",
         "Settings.MovementSettings.MovementDeadzone": "Bewegings deadzone", // TODO (deadzone)
         "Settings.MovementSettings.MovementDeadzone.Description": "Deze instelling kan gebruikt worden om drift te corrigeren. Door deze waarde te verhogen moet je de joystick verder duwen voordat je beweegt.", // TODO (drift)
         "Settings.MovementSettings.MovementExponent": "Bewegings exponent", // TODO (exponent)
@@ -1774,12 +1774,12 @@
 
         "LocomotionArchetype.Walk": "Lopen",
         "LocomotionArchetype.Fly": "Vliegen",
-        "LocomotionArchetype.NoClip": "Noclip", // TODO (noclip)
+        "LocomotionArchetype.NoClip": "Noclip",
         "LocomotionArchetype.Teleport": "Teleporteren",
         "LocomotionArchetype.GrabWorld": "Wereld Vastpakken",
         "LocomotionArchetype.NoLocomotion": "Geen Voortbeweging",
-        "LocomotionArchetype.ThreeAxisNoClip": "Drie-As Noclip", // TODO (noclip, three-axis)
-        "LocomotionArchetype.ThreeAxisFly": "Drie-As Vliegen", // TODO (three-axis)
+        "LocomotionArchetype.ThreeAxisNoClip": "Drie-Assige Noclip",
+        "LocomotionArchetype.ThreeAxisFly": "Drie-Assig Vliegen",
         "LocomotionArchetype.ZeroG": "Gewichtloosheid",
 
         "LocomotionSettings.MakePreferred": "Geef Voorkeur",
