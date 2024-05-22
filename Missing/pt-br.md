@@ -248,6 +248,9 @@ Settings.TrackerSettings.Trackers.TrackerIsCharging
 Settings.TrackerSettings.Trackers.TrackerIsCharging.Description  
 Settings.TrackerSettings.Trackers.Unmap  
 Settings.TrackerSettings.Trackers.Remove  
+Settings.SteamLinkSettings  
+Settings.SteamLinkSettings.OSC_DataPort  
+Settings.SteamLinkSettings.OSC_DataPort.Description  
 Settings.HapticPointMapping.MappingTarget  
 Settings.HapticPointMapping.MappingTarget.Description  
 Settings.HapticPointMapping.PointRadius  
