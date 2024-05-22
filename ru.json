@@ -1321,6 +1321,9 @@
         "Settings.MediaPrivacySettings.HideInScreenshots" : "Не показывать меня на скриншотах",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "Когда включено, вы не будете отображаться в скриншотаз, снятых в игре.\n\n<color=hero.red>ВАЖНО:</color> Обратите внимание, что это не затрагивает камеры реального времени, скриншоты снятые внешними средствами или другие средства рендера в виртуальном мире, которые могут быть частью механик этого мира.",
 
+        "Settings.MediaPrivacySettings.StripImageFileMetadata": "Убирать метаданные изображений при импорте",
+        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "Когда включено, убирает метаданные изображений при <b>импорте</b>.\n\nВключает метаданные EXIF, встроенные комментарии, IPTC, XMP, и GEOTIFF.\n\nЭто также уберет любую информацию о местонахождении (такую как GPS координаты) вместе с метаданными.\n\n<b>Не</b> включает файлы, импортированные с опцией \"Сырой файл\".",
+
         "Settings.Category.Integrations": "Интеграции",
         "Settings.DiscordIntegrationSettings": "Интеграция с Discord",
         "Settings.SteamIntegrationSettings": "Интеграция со Steam",
@@ -1589,12 +1592,10 @@
         "Settings.NotificationSettings.Invite.Description" : "Будете ли вы получать уведомления когда получаете приглашения в сессии.",
         "Settings.NotificationSettings.ContactRequest" : "Запросы контактов",
         "Settings.NotificationSettings.ContactRequest.Description" : "Будете ли вы получать уведомления когда получаете запрос контакта от пользователя",
-
         "Settings.NotificationSettings.ContactSessionStarted" : "Новые сессии контактов",
         "Settings.NotificationSettings.ContactSessionStarted.Description" : "Управляет тем, какие уведомления вы будете получать, когда кто-то из ваших контактов запускает новую сессию.",
         "Settings.NotificationSettings.PublicSessionStarted" : "Новые публичные сессии",
         "Settings.NotificationSettings.PublicSessionStarted.Description" : "Управляет тем, какие уведомления вы будете получать, когда кто-то не из ваших контактов запускает новую сессию.",
-
         "Settings.NotificationSettings.UserJoinAndLeave" : "Подключающиеся и отключающиеся пользователи",
         "Settings.NotificationSettings.UserJoinAndLeave.Description" : "Когда включено, вы будете получать уведомления когда пользователи заходят или покидают мир, в котором вы сейчас находитесь.",
 
