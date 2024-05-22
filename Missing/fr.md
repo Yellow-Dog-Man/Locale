@@ -11,6 +11,9 @@ Settings.SteamIntegrationSettings.RichPresence
 Settings.SteamIntegrationSettings.RichPresence.Description  
 Settings.SteamIntegrationSettings.SaveScreenshots  
 Settings.SteamIntegrationSettings.SaveScreenshots.Description  
+Settings.SteamLinkSettings  
+Settings.SteamLinkSettings.OSC_DataPort  
+Settings.SteamLinkSettings.OSC_DataPort.Description  
 Settings.GiggleTechSettings.GigglePuckIP  
 Settings.GiggleTechSettings.GigglePuckIP.Description  
 Settings.GiggleTechSettings.RegisterGigglePuck  
