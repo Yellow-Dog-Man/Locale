@@ -1321,6 +1321,19 @@
         "Settings.MediaPrivacySettings.HideInScreenshots": "Ne pas apparaître dans les photos",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Si activé, vous n'apparaîtrez pas dans le photos capturées en jeu.\n\n<color=hero.red>IMPORTANT:</color> Notez que cette option n'affecte pas les caméras en temps réel et les photos prises en dehors du jeu.",
 
+        "Settings.Category.Integrations": "Intégrations",
+        "Settings.DiscordIntegrationSettings": "Intégration à Discord",
+        "Settings.SteamIntegrationSettings": "Intégration à Steam",
+
+        "Settings.DiscordIntegrationSettings.RichPresence": "Présence riche Discord",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Contrôle quelles informations Resonite envoie au client Discord pour la présence riche.\n\n<color=hero.yellow>Rien</color> - N'envoie aucune information.\n\n<color=hero.yellow>Basique</color> - N'envoie que des détails limités comme votre présence sur Resonite.\n\n<color=hero.yellow>Complète</color> - Quand dans une session publique, envoie toutes les données possible comme le nom de la session et le nombre d'utilisateurs dans celle-ci.\n\nDiscord à aussi une option pour désactiver la présence riche.",
+
+        "Settings.SteamIntegrationSettings.RichPresence": "Présence riche Steam",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Contrôle quelles informations Resonite envoie à Steam pour la présence riche.\n\n<color=hero.yellow>Rien</color> - N'envoie aucune information.\n\n<color=hero.yellow>Basique</color> - N'envoie que des détails limités comme votre présence sur Resonite.\n\n<color=hero.yellow>Complète</color> - Quand dans une session publique, envoie toutes les données possible comme le nom de la session et le nombre d'utilisateurs dans celle-ci.",
+
+        "Settings.SteamIntegrationSettings.SaveScreenshots": "Sauvegarder les photos",
+        "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Si activé, a chaque vous que vous prendrez une photo ou en sauvegarderez une, elle sera aussi sauvegardée dans Steam.",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Traquage des mains Leap Motion",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Quand activé, Leap Motion sera utilisé pour traquer vos mains et doigts.",
         "Settings.LeapMotionSettings.Offset": "Compensation du traquage des mains",
@@ -1408,10 +1421,15 @@
 
         "Settings.GiggleTechSettings": "Appareils GiggleTech",
         "Settings.GiggleTechSettings.Devices": "Gérer les GigglePucks",
+        "Settings.GiggleTechSettings.GigglePuckIP": "IP du GigglePuck à ajouter manuellement",
+        "Settings.GiggleTechSettings.GigglePuckIP.Description": "Si votre GigglePuck n'est pas détecté automatiquement sur votre réseau, utilisez cette option pour l'ajouter manuellement par son IP.",
+        "Settings.GiggleTechSettings.RegisterGigglePuck": "Enregistrer le GigglePuck manuellement",
         "Settings.GiggleTechSettings.Devices.IP": "IP du GigglePuck",
         "Settings.GiggleTechSettings.Devices.IsConnected": "Est-ce que le GigglePuck est connecté",
         "Settings.GiggleTechSettings.Devices.UseDevice": "Utiliser l'appareil",
         "Settings.GiggleTechSettings.Devices.UseDevice.Description": "Utilisez cette option pour activer et désactiver des GigglePuck individuels.",
+        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected": "Toujours considérer comme connecté",
+        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description": "Quand cette option est active, le GigglePuck sera toujours considéré comme actif.\n\nCela peut être utile quand certains réseaux ont des problèmes avec la détection automatique.",
         "Settings.GiggleTechSettings.Devices.IntensityScale": "Intensité",
         "Settings.GiggleTechSettings.Devices.IntensityScale.Description": "Cette option vous permet de régler l'intensité des GigglePuck.",
         "Settings.GiggleTechSettings.Devices.Remove": "Supprimer le GigglePuck",
@@ -1426,6 +1444,10 @@
 
         "Settings.UserMetricsSettings.UserHeight": "Taille",
         "Settings.UserMetricsSettings.UserHeight.Description": "Votre taille dans la vraie vie qui est utilisée pour mettre a l'échelle correctement votre avatar. Cela est aussi la taille a laquelle vous serez en mode assis.\n\nVous pouvez entrer votre taille avec différentes unités, par exemple <color=hero.yellow>175 cm</color> ou <color=hero.yellow>1.75m</color> pour le système métrique, ou <color=hero.yellow>5'11\"</color> pour le système impérial.",
+
+        "Settings.FavoritesSettings": "Favoris",
+        "Settings.FavoritesSettings.AutoLoadCloudHome": "Charger la maison Cloud au lancement",
+        "Settings.FavoritesSettings.AutoLoadCloudHome.Description": "Quand activé, votre maison dans le Cloud sera automatiquement chargée au lancement du jeu.",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Utiliser le périphérique audio par défaut",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Activez cette option pour utiliser automatiquement le périphérique audio par défaut de votre système. Si vous voulez en utiliser un customisé, désactivez cette option et utilisez les réglages ci-dessous.",
@@ -1563,8 +1585,12 @@
         "Settings.NotificationSettings.Invite.Description": "Contrôle si vous voulez recevoir les notifications d'invitation à une session.",
         "Settings.NotificationSettings.ContactRequest": "Demande de contact",
         "Settings.NotificationSettings.ContactRequest.Description": "Contrôle si vous voulez recevoir les notifications de demande de contacts.",
-        "Settings.NotificationSettings.SessionStarted": "Nouvelle sessions",
-        "Settings.NotificationSettings.SessionStarted.Description": "Contrôle si vous voulez recevoir les notifications quand une session joignable est découverte.",
+
+        "Settings.NotificationSettings.ContactSessionStarted": "Nouvelle session de contact",
+        "Settings.NotificationSettings.ContactSessionStarted.Description": "Contrôle les notification que vous recevrez quand un de vos contacts ouvre une session.",
+        "Settings.NotificationSettings.PublicSessionStarted": "Nouvelle session publique",
+        "Settings.NotificationSettings.PublicSessionStarted.Description": "Contrôle les notifications que vous recevrez quand une nouvelle session publique est ouverte.",
+
         "Settings.NotificationSettings.UserJoinAndLeave": "Utilisateurs rejoignant et partant",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Quand activé, vous aurez une notification à chaque fois qu'un utilisateur rejoigne ou quitte votre session.",
 
