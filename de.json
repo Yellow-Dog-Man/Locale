@@ -1321,6 +1321,19 @@
         "Settings.MediaPrivacySettings.HideInScreenshots": "Zeigen sie mich nicht in Screenshots",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Wenn dies aktiviert ist, werden Sie auf Screenshots, die im Spiel aufgenommen wurden, nicht dargestellt.\n\n<color=hero.red>WICHTIG:</color> Bitte beachten Sie, dass dies keine Auswirkungen auf Echtzeitkameras, mit Methoden außerhalb des Spiels aufgenommenen Screenshots, oder Aufnahmen, die möglicherweise mit anderen Methoden als Teil der Weltmechanik in der virtuellen Welt gemacht werden, hat.",
 
+        "Settings.Category.Integrations": "Integrationen",
+        "Settings.DiscordIntegrationSettings": "Discord Integration",
+        "Settings.SteamIntegrationSettings": "Steam Integration",
+
+        "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Steuert, welche Informationen Resonite an Discords Rich-Presence-System sendet.\n\n<color=hero.yellow>Keine</color> - Keine Rich-Presence-Informationen an Discord senden.\n<color=hero.yellow>Eingeschränkt</color> - Nur wenige Details wie Ihre Anwesenheit in Resonite senden.\n<color=hero.yellow>Vollständig</color> - Wenn Sie sich in einer öffentlichen Sitzung befinden, senden Sie alle passenden Sitzungsinformationen an Discord. Dazu gehört auch der Name der Welt und wie viele Benutzer in der Sitzung sind.\n\nAuch Discord selbst erkennt, welches Spiel Sie spielen. Dies kann in Discords Einstellungen deaktiviert werden.",
+
+        "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Steuert, welche Informationen Resonite an Steams Rich-Presence-System sendet.\n\n<color=hero.yellow>Keine</color> - Keine Rich-Presence-Informationen an Steam senden.\n<color=hero.yellow>Eingeschränkt</color> - Nur wenige Details wie Ihre Anwesenheit in Resonite senden.\n<color=hero.yellow>Vollständig</color> - Wenn Sie sich in einer öffentlichen Sitzung befinden, senden Sie alle passenden Sitzungsinformationen an Steam. Dazu gehört auch der Name der Welt und wie viele Benutzer in der Sitzung sind.\n\nSteam selbst zeigt unabhängig von dieser Einstellung an, dass Sie Resonite spielen. Das Ändern dieser Einstellung wirkt sich nur darauf aus, wie viele zusätzliche Daten über Ihre aktive Sitzung an Steam gesendet werden.",
+
+        "Settings.SteamIntegrationSettings.SaveScreenshots": "Screenshots speichern",
+        "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Wenn diese Einstellung aktiviert ist, wird bei der Aufnahme eines Bildes eine Kopie in Steam Screenshots gespeichert.",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion Hand Tracking",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Wenn dies aktiviert ist, wird ein Leap Motion Gerät zum Verfolgen Ihrer Hände verwendet, sofern es vorhanden ist.",
         "Settings.LeapMotionSettings.Offset": "Hand Tracking Versatz",
@@ -1368,6 +1381,10 @@
         "Settings.TrackerSettings.Trackers.Unmap": "Zuordnung zurücksetzen",
         "Settings.TrackerSettings.Trackers.Remove": "Tracker-Eintrag entfernen",
 
+        "Settings.SteamLinkSettings": "Steam Link",
+        "Settings.SteamLinkSettings.OSC_DataPort": "OSC Port für Gesichtsverfolgung",
+        "Settings.SteamLinkSettings.OSC_DataPort.Description": "Dies ist der Port, der für die Daten der Gesichtsverfolgung (Face Tracking) verwendet werden soll. Damit die Gesichtsverfolgung funktioniert, stellen Sie hier denselben Port ein, den Sie in den SteamVR-Einstellungen festgelegt haben.", 
+        
         "Settings.HapticPointMapping.MappingTarget": "Zuordnen",
         "Settings.HapticPointMapping.MappingTarget.Description": "Benutzen Sie diese Einstellungen, um dieses Gerät einem bestimmten Teil des Avatars zuzuordnen.",
 
@@ -1408,10 +1425,15 @@
 
         "Settings.GiggleTechSettings": "GiggleTech Geräte",
         "Settings.GiggleTechSettings.Devices": "GigglePucks verwalten",
+        "Settings.GiggleTechSettings.GigglePuckIP": "Diese GigglePuck IP manuell hinzufügen",
+        "Settings.GiggleTechSettings.GigglePuckIP.Description": "Wenn Ihr GigglePuck nicht automatisch im Netzwerk erkannt wird, tragen Sie seine IP-Adresse in dieses Feld ein und klicken Sie dann auf die Schaltfläche unten, um ihn manuell hinzuzufügen.\n\nNach dem Hinzufügen gehen Sie zu \"GigglePucks verwalten\", um ihn zu konfigurieren.",
+        "Settings.GiggleTechSettings.RegisterGigglePuck": "GigglePuck manuell registrieren",
         "Settings.GiggleTechSettings.Devices.IP": "GigglePuck IP",
         "Settings.GiggleTechSettings.Devices.IsConnected": "Ist GigglePuck verbunden",
         "Settings.GiggleTechSettings.Devices.UseDevice": "Gerät benutzen",
         "Settings.GiggleTechSettings.Devices.UseDevice.Description": "Hiermit können Sie einzelne, schon zugeordnete GigglePucks aktivieren oder deaktivieren. Wenn Sie das Gerät deaktivieren, wird die gesamte Haptik-Erzeugung gestoppt.",
+        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected": "Immer als angeschlossen behandeln",
+        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description": "Wenn dies aktiv ist, wird der GigglePuck immer als verbunden behandelt, auch wenn er nicht im Netzwerk erkannt wird.\n\nDies kann bei bestimmten Netzwerken nützlich sein, die Probleme mit der automatischen Erkennung haben.",
         "Settings.GiggleTechSettings.Devices.IntensityScale": "Intensitätsskala",
         "Settings.GiggleTechSettings.Devices.IntensityScale.Description": "Diese Einstellung skaliert die Intensität der an den GigglePuck gesendeten haptischen Bewegungen. Die Stärke wird nie über den maximalen sicheren Wert des GigglePucks hinausgehen, sie ist begrenzt, damit der Motor nicht überlastet wird.",
         "Settings.GiggleTechSettings.Devices.Remove": "Eintrag entfernen",
@@ -1426,6 +1448,10 @@
 
         "Settings.UserMetricsSettings.UserHeight": "Körpergröße",
         "Settings.UserMetricsSettings.UserHeight.Description": "Dies ist Ihre tatsächliche Körpergröße. Sie wird zur Skalierung Ihres Avatars benutzt, damit er gut passt. Auch bei aktivem 'Sitz-Modus' werden Sie auf diese Höhe platziert. Sie können Ihre Größe in verschiedenen Einheiten eingeben, z.B. als <nobr><color=hero.yellow>175 cm</color></nobr> oder <nobr><color=hero.yellow>1,75 m</color></nobr> im metrischen System oder <color=hero.yellow>5'11\"</color> für das imperiale System.",
+
+        "Settings.FavoritesSettings": "Favoriten",
+        "Settings.FavoritesSettings.AutoLoadCloudHome": "Cloud Home beim Start laden",
+        "Settings.FavoritesSettings.AutoLoadCloudHome.Description": "Wenn diese Option aktiv ist, wird Ihr Cloud Home beim Start automatisch geladen. Wenn Sie nicht möchten, dass es geladen wird, können Sie diese Option deaktivieren. Sie wird dann beim nächsten Start wirksam.",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Benutze Standard-Aufnahmegerät des Systems",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Wählen Sie diese Einstellung, um das in Ihrem System eingestellte Standard-Aufnahmegerät zu nutzen. Wenn Sie stattdessen ein bestimmtes Gerät nutzen wollen, deaktivieren Sie diese Option und wählen Sie das gewünschte Gerät unten aus.",
@@ -1563,8 +1589,12 @@
         "Settings.NotificationSettings.Invite.Description": "Dies bestimmt, ob Sie benachrichtigt werden, wenn Sie zu einer Sitzung eingeladen werden.",
         "Settings.NotificationSettings.ContactRequest": "Kontaktanfrage",
         "Settings.NotificationSettings.ContactRequest.Description": "Hier können Sie einstellen, welche Benachrichtigungen Sie erhalten, wenn Ihnen jemand eine Kontaktanfrage schickt.",
-        "Settings.NotificationSettings.SessionStarted": "Neue Sitzung",
-        "Settings.NotificationSettings.SessionStarted.Description": "Dies legt fest, ob Sie benachrichtigt werden, wenn eine neue Sitzung entdeckt wird, der Sie beitreten können.",
+
+        "Settings.NotificationSettings.ContactSessionStarted": "Neue Sitzungen Ihrer Kontakte",
+        "Settings.NotificationSettings.ContactSessionStarted.Description": "Dies steuert, welche Benachrichtigungen Sie erhalten, wenn einer Ihrer Kontakte eine neue Sitzung beginnt.",
+        "Settings.NotificationSettings.PublicSessionStarted": "Neue öffentliche Sitzungen",
+        "Settings.NotificationSettings.PublicSessionStarted.Description": "Dies steuert, welche Benachrichtigungen Sie erhalten, wenn eine neue öffentliche Sitzung von einer Person gestartet wird, die nicht in Ihrer Kontaktliste steht.",
+
         "Settings.NotificationSettings.UserJoinAndLeave": "Beitritt und Austritt von Benutzern",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Wenn dies aktiviert ist, werden Sie benachrichtigt, wenn ein Benutzer die Welt, in der Sie sich gerade befinden, betritt oder sie wieder verlässt.",
 
