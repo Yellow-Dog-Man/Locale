@@ -336,7 +336,7 @@
         "World.Filter.SessionFiltering": "Sessiefiltering:",
         "World.Filter.MinimumUsers": "Minimale aantal gebruikers: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Minimale aantal contacten: <b>{n}</b>",
-        "World.Filter.OnlyHeadless": "Alleen hoofdloze hosts", // TODO (headless, host)
+        "World.Filter.OnlyHeadless": "Alleen hoofdloze hosts", // TODO (headless)
         "World.Filter.MaxAccessLevel": "Maximaal toegangsniveau:",
         "World.Filter.MinimumUptime": "Minimale tijd online:",
         "World.Filter.Sorting": "Sorteer:",
@@ -588,7 +588,7 @@
         "Profile.Status.Busy": "Niet Storen",
         "Profile.Status.Invisible": "Onzichtbaar",
         "Profile.Status.Offline": "Offline",
-        "Profile.Status.Headless": "Hoofdloze Host", // TODO (headless, host)
+        "Profile.Status.Headless": "Hoofdloze Host", // TODO (headless)
 
         "Session.Tab.Settings": "Instellingen",
         "Session.Tab.Users": "Gebruikers",
@@ -597,7 +597,7 @@
         "Session.Permission.Anonymous": "Standaard Anoniem:",
         "Session.Permission.Vistor": "Standaard Bezoeker:",
         "Session.Permission.Contact": "Standaard Contact:",
-        "Session.Permission.Host": "Standaard Host:", // TODO (host)
+        "Session.Permission.Host": "Standaard Host:",
         "Session.Permission.PermissionOverrideCount": "Rechten Overschreven: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Wis Gebruikersoverschrijvingen",
 
@@ -625,8 +625,8 @@
         "Contacts.IgnoreRequest": "Negeer Verzoek",
         "Contacts.Invite": "Nodig Hier Uit",
         "Contacts.RevokeInvite": "Uitnodiging Intrekken",
-        "Contacts.BanFromAllSessions": "Verban van mijn gehoste sessies", // TODO (ban, hosted)
-        "Contacts.UnbanFromAllSessions": "Ontban van mijn gehoste sessies", // TODO (ban, hosted)
+        "Contacts.BanFromAllSessions": "Verban van mijn gehoste sessies", // TODO (ban)
+        "Contacts.UnbanFromAllSessions": "Ontban van mijn gehoste sessies", // TODO (ban)
         "Contacts.BanFromCurrentWorld": "Verban uit huidige wereld", // TODO (ban)
         "Contacts.UnbanFromCurrentWorld": "Ontban uit huidige wereld", // TODO (ban)
         "Contacts.RecordingVoiceMessage": "Opnemen...",
@@ -881,7 +881,7 @@
         "CreateNew.Directory.Error.InvalidName": "Ongeldige naam:",
 
         "AvatarCreator.Title": "Avatar Creator", // TODO (creator)
-        "AvatarCreator.Instructions": "Lijn de avatarobjecten uit met de referenties van de headset en controller (optioneel) en druk op Maken om ze naar een avatar te converteren", // TODO (align)
+        "AvatarCreator.Instructions": "Lijn de avatarobjecten uit met de referenties van de headset en controller (optioneel) en druk op Maken om ze naar een avatar te converteren",
         "AvatarCreator.UseSymmetry": "Gebruik symmetrie",
         "AvatarCreator.ShowToolAnchors": "Toon gereedschapsankers", // TODO (anchor)
         "AvatarCreator.SetupVolumeMeter": "Stel volumemeter in",
@@ -890,12 +890,12 @@
         "AvatarCreator.ProtectAvatar": "Bescherm Avatar",
         "AvatarCreator.CalibrateFeet": "Kalibreer voeten",
         "AvatarCreator.CalibrateHips": "Kalibreer bekken/heupen",
-        "AvatarCreator.AlignHeadForward": "Lijn hoofd naar voren uit", // TODO (align)
-        "AvatarCreator.AlignHeadUp": "Lijn hoofd naar boven uit", // TODO (align)
-        "AvatarCreator.AlignHeadRight": "Lijn hoofd rechts uit", // TODO (align)
+        "AvatarCreator.AlignHeadForward": "Lijn hoofd naar voren uit",
+        "AvatarCreator.AlignHeadUp": "Lijn hoofd naar boven uit",
+        "AvatarCreator.AlignHeadRight": "Lijn hoofd rechts uit",
         "AvatarCreator.CenterHead": "Centreer hoofd positie",
-        "AvatarCreator.TryAlignHands": "Probeer handen uit te lijnen", // TODO (align)
-        "AvatarCreator.AlignToolAnchors": "Lijn de gereedschapsankers uit", // TODO (align, anchor)
+        "AvatarCreator.TryAlignHands": "Probeer handen uit te lijnen",
+        "AvatarCreator.AlignToolAnchors": "Lijn de gereedschapsankers uit", // TODO (anchor)
         "AvatarCreator.Create": "Creëer",
 
         "Importer.General.AsRawFile": "Onbewerkt Bestand",
@@ -1034,10 +1034,10 @@
         "FullBody.JustCalibrateAvatar": "Kalibreer alleen mijn avatar",
         "FullBody.JustCalibrateAvatarDescription": "Sla de volledige lichaamskalibratie over en kalibreer alleen de avatar",
         "FullBody.SkipAndAdjustAvatar": "Sla over en pas avatar aan",
-        "FullBody.CalibrateInstructions": "Lijn jezelf uit met de rode lichaam-overlay in je speelruimte en druk op beide triggers om te bevestigen. Zorg ervoor dat jouw echte voeten en heupen zo goed mogelijk overeenkomen met de virtuele.", // TODO (align)
+        "FullBody.CalibrateInstructions": "Lijn jezelf uit met de rode lichaam-overlay in je speelruimte en druk op beide triggers om te bevestigen. Zorg ervoor dat jouw echte voeten en heupen zo goed mogelijk overeenkomen met de virtuele.",
 
         "FullBody.BeforeCalibrationInstructions": "Zorg ervoor dat de trackers werken en dat jouw lengte is ingesteld",
-        "FullBody.CalibratingPoseInstructions": "Lijn jezelf uit met de referentie en druk op beide triggers om te bevestigen", // TODO (align)
+        "FullBody.CalibratingPoseInstructions": "Lijn jezelf uit met de referentie en druk op beide triggers om te bevestigen",
         "FullBody.AdjustAvatarInstructions": "Pas de lichaams compensatie van de avatar aan zodat deze het beste overeenkomen met de referentie",
         "FullBody.FineTuneCalibrationInstructions": "Controleer en verfijn de kalibratie door de blauwe referenties te verplaatsen",
 
@@ -1533,13 +1533,13 @@
         "Settings.HostAccessSettings.Entries": "Beheer Host-toegang",
         "Settings.HostAccessSettings.Entries.Breadcrumb": "Host-toegang",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "Sta HTTP requests toe",
-        "Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description": "Dit bepaalt of HTTP(s) requests toegestaan worden voor deze host. Dit zijn vaak REST API requests om te communiceren met services van derde partijen.", // TODO (host)
+        "Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description": "Dit bepaalt of HTTP(s) requests toegestaan worden voor deze host. Dit zijn vaak REST API requests om te communiceren met services van derde partijen.",
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Sta websockets toe",
-        "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Dit bepaalt of realtime Websocket verbindingen toegestaan worden voor deze host. Deze worden vaak gebruikt voor realtime bidirectionele communicaties en datastromen.", // TODO (host, realtime)
+        "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Dit bepaalt of realtime Websocket verbindingen toegestaan worden voor deze host. Deze worden vaak gebruikt voor realtime bidirectionele communicaties en datastromen.", // TODO (realtime)
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Sta ontvangen via OSC toe",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Dit bepaalt of Resonite OSC data mag ontvangen en verwerken voor deze host", // TODO (host)
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Dit bepaalt of Resonite OSC data mag ontvangen en verwerken voor deze host",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Sta versturen via OSC toe",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Dit bepaalt of Resonite OSC data mag versturen naar deze host", // TODO (host)
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Dit bepaalt of Resonite OSC data mag versturen naar deze host",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Laatste hyperlink request reden", // TODO (request)
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Laatste websocket request reden", // TODO (request)
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Laatste OSC Sender request reden", // TODO (request)
@@ -1722,7 +1722,7 @@
 
         "Settings.RelaySettings" : "Netwerk Relays", // TODO (relay)
         "Settings.RelaySettings.AlwaysUseRelay" : "Gebruik altijd een relay om te verbinden", // TODO (relay)
-        "Settings.RelaySettings.AlwaysUseRelay.Description" : "Relays worden gebruikt om op terug te vallen als een directe verbinding met een host niet lukt. Door deze optie aan te zetten, forceer je de verbinding om altijd door een relay te gaan.\n\nDit kan handig zijn in het geval van verbindingsproblemen met specifieke hosts. Het is <b>NIET</b> aangeraden om deze optie permanent aan te hebben.", // TODO (relay, host)
+        "Settings.RelaySettings.AlwaysUseRelay.Description" : "Relays worden gebruikt om op terug te vallen als een directe verbinding met een host niet lukt. Door deze optie aan te zetten, forceer je de verbinding om altijd door een relay te gaan.\n\nDit kan handig zijn in het geval van verbindingsproblemen met specifieke hosts. Het is <b>NIET</b> aangeraden om deze optie permanent aan te hebben.", // TODO (relay)
         "Settings.RelaySettings.UseClosestAvailableRelay" : "Gebruik dichtsbijzijnde beschikbare relay",
         "Settings.RelaySettings.UseClosestAvailableRelay.Description" : "Wanneer deze optie aan staat wordt automatisch de dichtsbijzijnde beschikbare relay gebruikt voor de verbinding. Als je handmatig een relay wil kiezen (bijvoorbeeld in het geval van verbindingen over lange afstanden, om te voorkomen dat packets ophopen) kan je deze optie uitzetten en handmatig de relays hieronder instetllen.", // TODO (relay, packet)
         "Settings.RelaySettings.RelayPriorities": "Configureer relay server prioriteit",
@@ -1792,9 +1792,9 @@
         "Security.Hyperlink.Open": "Open",
         "Security.Hyperlink.Cancel": "Annuleer",
 
-        "Security.HostAccess.Title": "Hosttoegang", // TODO (host)
-        "Security.HostAccess.Warning": "<b><size=125%>Waarschuwing: De wereld probeert toegang te krijgen tot de host van een derde partij</size></b>\nAls je toegang verleent, kan de derde partij bepaalde persoonlijke informatie verzamelen, zoals jouw IP en geografische locatie.", // TODO (host)
-        "Security.HostAccess.TargetHost": "Doelhost: <b>{host}</b>", // TODO (host)
+        "Security.HostAccess.Title": "Hosttoegang",
+        "Security.HostAccess.Warning": "<b><size=125%>Waarschuwing: De wereld probeert toegang te krijgen tot de host van een derde partij</size></b>\nAls je toegang verleent, kan de derde partij bepaalde persoonlijke informatie verzamelen, zoals jouw IP en geografische locatie.",
+        "Security.HostAccess.TargetHost": "Doelhost: <b>{host}</b>",
         "Security.HostAccess.Reason": "Reden: {reason}",
         "Security.HostAccess.NoReason": "<i>Geen reden opgegeven</i>",
         "Security.HostAccess.Allow": "Toestaan",
