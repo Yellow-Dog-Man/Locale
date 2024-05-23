@@ -5,39 +5,11 @@ This file is provided to Steam via Steamworks and used to create rich presence s
 
 While this file, resembles JSON, it is not actually JSON so please be careful, PRs are welcome!
 
-Valid languages are:
-* English
-* German
-* French
-* Italian
-* Korean
-* Spanish - Spain
-* Simplified Chinese
-* Traditional Chinese
-* Russian
-* Thai
-* Japanese
-* Portuguese - Portugal
-* Polish
-* Danish
-* Dutch
-* Finnish
-* Norwegian
-* Swedish
-* Hungarian
-* Czech
-* Romanian
-* Turkish
-* Arabic
-* Portuguese - Brazil
-* Bulgarian
-* Greek
-* Ukrainian
-* Spanish - Latin America
-* Vietnamese
-* Indonesian
+Valid languages are, detailed here: https://partner.steamgames.com/doc/store/localization/languages#supported_languages
 
-The language name is usually lowercased in the text file, but we can check for your after you PR the strings.
+Use "API language code" for the strings in your file.
+
+For example for Korean, instead of "korean" "koreana" was used.
 
 ### See Also
 

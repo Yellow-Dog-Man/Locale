@@ -1321,6 +1321,9 @@
         "Settings.MediaPrivacySettings.HideInScreenshots" : "Do not show me in screenshots",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "When enabled, you will not be rendered in screenshots captured in-game.\n\n<color=hero.red>IMPORTANT:</color> Please note that this does not affect realtime cameras, screenshots taken by methods outside of the game or captures done through other methods in-world that might be part of the world's mechanics.",
 
+        "Settings.MediaPrivacySettings.StripImageFileMetadata": "Strip image metadata on import",
+        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "When enabled, strips metadata from images on <b>import</b>.\n\nIncludes EXIF, Embeded comments, IPTC, XMP, and GEOTIFF metadata.\n\nThis will also strip any location data (such as GPS) within that metadata.\n\nDoes <b>not</b>, include files imported with the \"Raw File\" option.",
+
         "Settings.Category.Integrations": "Integrations",
         "Settings.DiscordIntegrationSettings": "Discord Integration",
         "Settings.SteamIntegrationSettings": "Steam Integration",
@@ -1332,7 +1335,7 @@
         "Settings.SteamIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Steam's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Steam.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Steam. Includes the world name and how many users are in the session.\n\nSteam itself will display that you are playing Resonite regardless of this setting. Changing this setting only affects how much extra data is sent to Steam about your active session.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Save Screenshots",
-        "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "When you take a picture with this setting enabled, a copy will be saved to Steam Sscreenshots.",
+        "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "When you take a picture with this setting enabled, a copy will be saved to Steam screenshots.",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap motion hand tracking",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "When enabled, Leap Motion device will be used to track your hands and fingers when present.",
@@ -1585,7 +1588,7 @@
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description" : "This controls if you'll get notifications when your contacts come online when they are using a build that's not compatible with your own (e.g. a new version or pre-release builds).",
         "Settings.NotificationSettings.Message" : "Messages",
         "Settings.NotificationSettings.Message.Description" : "This controls notifications you will get when you receive messages.",
-        "Settings.NotificationSettings.Invite" : "Sesion Invites",
+        "Settings.NotificationSettings.Invite" : "Session Invites",
         "Settings.NotificationSettings.Invite.Description" : "This controls if you get notifications when you are invited to a session.",
         "Settings.NotificationSettings.ContactRequest" : "Contact Requests",
         "Settings.NotificationSettings.ContactRequest.Description" : "This controls what notifications you get when you receive a contact request from someone",
