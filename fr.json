@@ -1321,6 +1321,9 @@
         "Settings.MediaPrivacySettings.HideInScreenshots": "Ne pas apparaître dans les photos",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Si activé, vous n'apparaîtrez pas dans le photos capturées en jeu.\n\n<color=hero.red>IMPORTANT:</color> Notez que cette option n'affecte pas les caméras en temps réel et les photos prises en dehors du jeu.",
 
+        "Settings.MediaPrivacySettings.StripImageFileMetadata": "Retirer les métadonnées de l'image à l'import",
+        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "Quand activé, retire les métadonnées des images a <b>l'import</b>.\n\nInclus les données EXIF, les commentaires, IPTC, XMP et GOTIFF.\n\nCela retirera aussi les données de localisation (comme GPS),\n\nNe concerne <b>PAS</b> les fichiers importés en avec l'option \"En tant que fichier brut\".",
+
         "Settings.Category.Integrations": "Intégrations",
         "Settings.DiscordIntegrationSettings": "Intégration à Discord",
         "Settings.SteamIntegrationSettings": "Intégration à Steam",
@@ -1380,6 +1383,10 @@
         "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "Cela indique si le traqueur est en train de charger.",
         "Settings.TrackerSettings.Trackers.Unmap": "Réinitialiser la position du traqueur",
         "Settings.TrackerSettings.Trackers.Remove": "Supprimer le traqueur",
+
+        "Settings.SteamLinkSettings": "Steam Link",
+        "Settings.SteamLinkSettings.OSC_DataPort": "Port OSC pour le traquage du visage",
+        "Settings.SteamLinkSettings.OSC_DataPort.Description": "Quel port doit être utilisé pour recevoir les données OSC. Cela doit être le même port que dans les options de SteamVR.",
 
         "Settings.HapticPointMapping.MappingTarget": "Posisionner sur",
         "Settings.HapticPointMapping.MappingTarget.Description": "Utilisez cette option pour définir sur quelle partie du corps vous voulez que cet appareil réagisse.",
