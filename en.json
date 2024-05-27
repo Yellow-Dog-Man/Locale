@@ -1562,6 +1562,8 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "When enabled, you can equip tools and gadgets by pressing grip twice in rapid succession. This setting will likely get removed at some point.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Use legacy world switcher",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "When enabled, the app button on your non-primary hand will open a legacy world switch to switch between active worlds. This feature will be replaced in the future by a more flexible solution.",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "Use inventory & session gesture shortcut",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "When enabled, when you hold grip and press the App button (that normally opens/closes dash), it will open the legacy inventory or session menu.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Channel Name",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "This sets the default Twitch channel name for the Twitch Chat panel in the Camera Controls panel. This is mostly used by Twitch streamers who want to see their Twitch chat.",
@@ -1580,6 +1582,8 @@
         "Settings.DashSettings.DashCurvature.Description": "This controls how curved the dash is when you are in VR. Setting it to 0 will make it completely flat.",
         "Settings.DashSettings.OpenCloseSpeed": "Open/close speed",
         "Settings.DashSettings.OpenCloseSpeed.Description": "Use this to adjust how quickly the dash opens and closes. If you don't like the animation, you can set this to very high value so dash opens and closes near instantly.",
+        "Settings.DashSettings.AllowReplacingSettings" : "Allow replacing settings",
+        "Settings.DashSettings.AllowReplacingSettings.Description" : "When enabled, you'll be able to pick the Settings facet on the dash when in UI edit mode and replace it with another.\n\nThis setting needs to be off if you want to pick the individual settings as facets. It's recommended to turn this on temporarily when you want to replace the settings UI with custom and then disable it again.",
 
         "Settings.NotificationSettings" : "Notifications",
         "Settings.NotificationSettings.UserOnline" : "Contact Online",
@@ -1603,6 +1607,12 @@
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Use this to control whose nameplates will be visible to you.",
         "Settings.NamePlateSettings.UseCustomNameplates": "Show custom nameplates",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "If some nameplates are difficult to read, completely hidden or you need to see user's actual username and badges (e.g. for moderation purposes), you disable custom nameplates and see the default ones.",
+
+        "Settings.FacetAnchorsSettings" : "Facet Anchors",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors" : "Use Facet Anchors",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description" : "When enabled, you will be able to use the app button on your right controller to toggle facet anchors on your arms and forearms. These provide space to place any facets for quick access in addition to the main dash.",
+        "Settings.FacetAnchorsSettings.AnimationSpeed" : "Show/Hide Animation Speed",
+        "Settings.FacetAnchorsSettings.AnimationSpeed.Description" : "This determines how quickly the facet anchors appear and hide when toggled.",
 
         "Settings.LaserSettings.SmoothSpeed": "Laser smooth speed",
         "Settings.LaserSettings.SmoothSpeed.Description": "Use this to control how fast the laser responds to your movements. Lower values will make the laser more sluggish, but better at filtering tremors. Higher values will be more responsive, but also transfer more controller shake.",
