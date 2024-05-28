@@ -1323,6 +1323,7 @@
 
         "Settings.MediaPrivacySettings.StripImageFileMetadata": "Metadata van afbeeldingen weghalen bij importeren",
         "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "Wanneer dit aan staat wordt metadata van afbeeldingen verwijderd bij <b>importeren</b>.\n\nDit bevat EXIF, ingebouwd commentaar, IPTC, XMP, en GEOTIFF metadata.\n\nHiermee worden ook locatiegegevens (zoals GPS) binnen die metadata verwijderd\n\nDit heeft <b>geen</b> invloed op bestanden die geïmporteerd zijn met de optie \"Onbewerkt Bestand\".",
+
         "Settings.Category.Integrations": "Integratie",
         "Settings.DiscordIntegrationSettings": "Discord Integratie",
         "Settings.SteamIntegrationSettings": "Steam Integratie",
@@ -1561,6 +1562,8 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wanneer dit aan staat kan je gereedschappen en gadgets equippen door snel twee keer vast te pakken. Deze instelling wordt waarschijnlijk in de toekomst verwijderd.", // TODO (equip)
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Gebruik oude wereld wisselaar",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Wanneer dit aan staat, opent de app knop op je niet-primaire hand een oude wereld wisselaar om tussen actieve werelden te wisselen. Deze functie wordt in de toekomst verwijderd met een meer flexibele oplossing.",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "Gebruik oude inventaris & sessie snelkoppeling gebaar",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "Wanneer dit aan staat, als je grip vasthoudt en op de App knop drukt (die normaal de dash opent/sluit), open je de oude inventaris of het oude sessie menu.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Channel Naam",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Dit stelt de standaard naam in voor de Twitch chat in het camera-besturing paneel. Dit wordt vooral gebruikt door Twitch streamers die hun chat willen zien.",
@@ -1579,6 +1582,8 @@
         "Settings.DashSettings.DashCurvature.Description": "Dit bepaalt hoe curved de dash is als je in VR bent. Als je dit instelt op 0 wordt het volledig vlak.", // TODO (curvature)
         "Settings.DashSettings.OpenCloseSpeed": "Open/Sluit Snelheid",
         "Settings.DashSettings.OpenCloseSpeed.Description": "Gebruik dit om te bepalen hoe snel de dash opent en sluit. Als je de animatie niet wil, kan je dit op een hele hoge waarde zetten, zodat de dash bijna direct opent en sluit.",
+        "Settings.DashSettings.AllowReplacingSettings" : "Sta vervangen van instellingen toe",
+        "Settings.DashSettings.AllowReplacingSettings.Description" : "Wanneer dit aan staat, kan je het hele instellingen paneel van de dash oppakken en vervangen met een aangepaste versie als je in UI bewerkingsmodus zit.\n\nDeze instelling moet uit staan als je de individuele instellingen los wil oppakken. Wij raden aan om dit tijdelijk aan te zetten wanneer je het instellingen paneel wil vervangen, en daarna weer uit te zetten", // TODO (UI)
 
         "Settings.NotificationSettings" : "Notificaties",
         "Settings.NotificationSettings.UserOnline" : "Contact Online",
@@ -1602,6 +1607,16 @@
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Gebruik dit om te bepalen welke naamborden zichtbaar zijn voor jou.",
         "Settings.NamePlateSettings.UseCustomNameplates": "Laat aangepaste naamborden zien",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "Als sommige naamborden lastig te zien zijn, volledig verstopt zijn of als je een gebruikers werkelijke gebruikersnaam en badges moet zien (bijvoorbeeld voor moderatie), kan je aangepaste naamborden uitzetten en de standaard naamborden zien.", // TODO (moderation)
+
+        "Settings.CustomizationSettings" : "Aanpassings-instellingen",
+        "Settings.CustomizationSettings.UserInterfaceEditMode" : "UI-bewerkingsmodus",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description" : "Wanneer dit aan staat, kan je de plek van facets (modulaire stukken van de gebruikersinterface) aanpassen in je dash of op je facet ankers op je handen en gezichtsveld (als die aan staan).\n\nVergeet niet dit uit te zetten zodra je klaar bent! Je kan het ook uit zetten met de knop onder je dash.", // TODO (UI, anchor)
+
+        "Settings.FacetAnchorsSettings" : "Facet Ankers", // TODO (anchor)
+        "Settings.FacetAnchorsSettings.UseFacetAnchors" : "Gebruik Facet Ankers", // TODO (anchor)
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description" : "Wanneer dit aan staat, kan je de app knop op je rechtercontroller gebruiken om facet ankers op je arm en onderarm aan/uit te zetten. Deze geven meer ruimte om facets op te plaatsen voor snelle toegang, naast je dash.", // TODO (anchor)
+        "Settings.FacetAnchorsSettings.AnimationSpeed" : "Tonen/Verbergen Animatie Snelheid",
+        "Settings.FacetAnchorsSettings.AnimationSpeed.Description" : "Dit bepaalt hoe snel de facet ankers tonen en verbergen wanneer ze aan/uit gezet worden.", // TODO (anchor)
 
         "Settings.LaserSettings.SmoothSpeed": "Laser smooth snelheid", // TODO (smooth)
         "Settings.LaserSettings.SmoothSpeed.Description": "Gebruik dit om te bepalen hoe snel de laser reageert op je bewegingen. Lagere waarden maken de laser langzamer, maar beter met rillingen filteren. Hogere waarden reageren sneller, maar gaan ook mee met onbedoelde controller bewegingen.",
@@ -2045,6 +2060,10 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Colliders & Grijpen -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Voeg vaste colliders toe van de hiërarchie (gebruikt object root)", // TODO (root)
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Grijp altijd het laatste bot",
+
+        "Inspector.DataPreset.SetActive": "Stel actief in",
+        "Inspector.DataPreset.SetValues": "Stel waaren in",
+        "Inspector.DataPreset.AddAllChildren": "Voeg alle children toe", // TODO (child)
 
         "Inspector.Rig.CleanupBoneColliders": "Bot colliders opruimen",
         "Inspector.Rig.GenerateDebugVisuals": "Genereer debug visuelen", // TODO (debug, visuals)
