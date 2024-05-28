@@ -542,6 +542,9 @@ LocomotionArchetype.ThreeAxisFly
 LocomotionArchetype.ZeroG  
 LocomotionSettings.MakePreferred  
 LocomotionSettings.MakeLeastPreferred  
+Inspector.DataPreset.SetActive  
+Inspector.DataPreset.SetValues  
+Inspector.DataPreset.AddAllChildren  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  
 Tutorial.Welcome.SettingsPrimaryRight.Description  
 Tutorial.Welcome.SettingsHeadDirectionMovement  

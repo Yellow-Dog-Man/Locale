@@ -998,6 +998,9 @@ Inspector.AudioStream.BufferState
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  
 Inspector.AudioStream.BufferStats  
+Inspector.DataPreset.SetActive  
+Inspector.DataPreset.SetValues  
+Inspector.DataPreset.AddAllChildren  
 Inspector.Rig.CleanupBoneColliders  
 Inspector.Rig.GenerateDebugVisuals  
 Inspector.Rig.ClearDebugVisuals  

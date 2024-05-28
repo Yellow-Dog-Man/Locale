@@ -562,6 +562,9 @@ Inspector.SkinnedMesh.SortBlendshapes.Name
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.Texture3D.Size  
 Inspector.Texture.ReplaceFromClipboard  
+Inspector.DataPreset.SetActive  
+Inspector.DataPreset.SetValues  
+Inspector.DataPreset.AddAllChildren  
 Tutorial.Welcome.Welcome  
 Tutorial.Welcome.Begin  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  

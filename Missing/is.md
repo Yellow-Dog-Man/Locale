@@ -1203,6 +1203,9 @@ Inspector.DynamicBoneChain.ClearSmoothTransforms
 Inspector.DynamicBoneChain.CollidersGrabbingHeader  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.DynamicBoneChain.AlwaysGrabLastBone  
+Inspector.DataPreset.SetActive  
+Inspector.DataPreset.SetValues  
+Inspector.DataPreset.AddAllChildren  
 Inspector.Rig.CleanupBoneColliders  
 Inspector.Rig.GenerateDebugVisuals  
 Inspector.Rig.ClearDebugVisuals  

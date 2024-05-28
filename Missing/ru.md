@@ -14,4 +14,7 @@ Settings.FacetAnchorsSettings.UseFacetAnchors
 Settings.FacetAnchorsSettings.UseFacetAnchors.Description  
 Settings.FacetAnchorsSettings.AnimationSpeed  
 Settings.FacetAnchorsSettings.AnimationSpeed.Description  
+Inspector.DataPreset.SetActive  
+Inspector.DataPreset.SetValues  
+Inspector.DataPreset.AddAllChildren  
 

@@ -337,6 +337,9 @@ Inspector.DynamicBoneChain.SetupFromChildrenRig
 Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
 Inspector.DynamicBoneChain.ClearSmoothTransforms  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DataPreset.SetActive  
+Inspector.DataPreset.SetValues  
+Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.Collider.SetFromLocalBounds  

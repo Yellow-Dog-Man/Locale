@@ -870,6 +870,9 @@ Inspector.Texture.NormalizeMaxOnly
 Inspector.Texture.NormalizeMinMax  
 Inspector.Texture.NormalizeIndependent  
 Inspector.Texture.BleedColorToAlpha  
+Inspector.DataPreset.SetActive  
+Inspector.DataPreset.SetValues  
+Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.ParticleStyle.ClearFades  
