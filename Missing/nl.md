@@ -609,6 +609,8 @@ Settings.LegacyFeatureSettings.UseLegacyGripEquip
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
+Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts  
+Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
 Settings.TwitchInterfaceSettings.ChannelName  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus  
@@ -623,6 +625,8 @@ Settings.DashSettings.DashCurvature
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.AllowReplacingSettings  
+Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings  
 Settings.NotificationSettings.UserOnline  
 Settings.NotificationSettings.UserOnline.Description  
@@ -644,6 +648,14 @@ Settings.NamePlateSettings.NameplateVisibility
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  
 Settings.NamePlateSettings.UseCustomNameplates.Description  
+Settings.CustomizationSettings  
+Settings.CustomizationSettings.UserInterfaceEditMode  
+Settings.CustomizationSettings.UserInterfaceEditMode.Description  
+Settings.FacetAnchorsSettings  
+Settings.FacetAnchorsSettings.UseFacetAnchors  
+Settings.FacetAnchorsSettings.UseFacetAnchors.Description  
+Settings.FacetAnchorsSettings.AnimationSpeed  
+Settings.FacetAnchorsSettings.AnimationSpeed.Description  
 Settings.LaserSettings.SmoothSpeed  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle  
@@ -858,6 +870,9 @@ Inspector.Texture.NormalizeMaxOnly
 Inspector.Texture.NormalizeMinMax  
 Inspector.Texture.NormalizeIndependent  
 Inspector.Texture.BleedColorToAlpha  
+Inspector.DataPreset.SetActive  
+Inspector.DataPreset.SetValues  
+Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.ParticleStyle.ClearFades  

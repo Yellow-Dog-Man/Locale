@@ -178,6 +178,8 @@ Settings.DebugSettings.DebugInputBindings.Description
 Settings.DebugSettings.FetchIncompatibleSessions.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
+Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts  
+Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description  
 Settings.LocaleSettings.CultureLocaleCode  
@@ -186,6 +188,8 @@ Settings.LocaleSettings.UseImperialUnits
 Settings.LocaleSettings.UseImperialUnits.Description  
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.AllowReplacingSettings  
+Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings.UserOnline.Description  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description  
 Settings.NotificationSettings.Message.Description  
@@ -196,6 +200,14 @@ Settings.NotificationSettings.PublicSessionStarted.Description
 Settings.NotificationSettings.UserJoinAndLeave.Description  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates.Description  
+Settings.CustomizationSettings  
+Settings.CustomizationSettings.UserInterfaceEditMode  
+Settings.CustomizationSettings.UserInterfaceEditMode.Description  
+Settings.FacetAnchorsSettings  
+Settings.FacetAnchorsSettings.UseFacetAnchors  
+Settings.FacetAnchorsSettings.UseFacetAnchors.Description  
+Settings.FacetAnchorsSettings.AnimationSpeed  
+Settings.FacetAnchorsSettings.AnimationSpeed.Description  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle  
 Settings.LaserSettings.ModulateStartAngle.Description  
@@ -325,6 +337,9 @@ Inspector.DynamicBoneChain.SetupFromChildrenRig
 Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
 Inspector.DynamicBoneChain.ClearSmoothTransforms  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DataPreset.SetActive  
+Inspector.DataPreset.SetValues  
+Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.Collider.SetFromLocalBounds  
