@@ -6,6 +6,9 @@ Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
 Settings.DashSettings.AllowReplacingSettings  
 Settings.DashSettings.AllowReplacingSettings.Description  
+Settings.CustomizationSettings  
+Settings.CustomizationSettings.UserInterfaceEditMode  
+Settings.CustomizationSettings.UserInterfaceEditMode.Description  
 Settings.FacetAnchorsSettings  
 Settings.FacetAnchorsSettings.UseFacetAnchors  
 Settings.FacetAnchorsSettings.UseFacetAnchors.Description  

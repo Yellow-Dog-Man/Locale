@@ -293,6 +293,9 @@ Settings.NamePlateSettings.NameplateVisibility
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  
 Settings.NamePlateSettings.UseCustomNameplates.Description  
+Settings.CustomizationSettings  
+Settings.CustomizationSettings.UserInterfaceEditMode  
+Settings.CustomizationSettings.UserInterfaceEditMode.Description  
 Settings.FacetAnchorsSettings  
 Settings.FacetAnchorsSettings.UseFacetAnchors  
 Settings.FacetAnchorsSettings.UseFacetAnchors.Description  

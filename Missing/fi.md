@@ -200,6 +200,9 @@ Settings.NotificationSettings.PublicSessionStarted.Description
 Settings.NotificationSettings.UserJoinAndLeave.Description  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates.Description  
+Settings.CustomizationSettings  
+Settings.CustomizationSettings.UserInterfaceEditMode  
+Settings.CustomizationSettings.UserInterfaceEditMode.Description  
 Settings.FacetAnchorsSettings  
 Settings.FacetAnchorsSettings.UseFacetAnchors  
 Settings.FacetAnchorsSettings.UseFacetAnchors.Description  
