@@ -1561,6 +1561,8 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "有効にすると、グリップを2回連続で押すことでツールやアイテムを装備できます。この設定は将来削除されます。",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "レガシーワールドスイッチャーを使用",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "設定を有効にした場合、利き手ではない方のアプリボタンを押すことでレガシーワールドスイッチャーが開き、セッションを切り替えることができます。この機能は将来、より柔軟なソリューションに置き換えられる予定です",
+         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "インベントリとセッションジェスチャーのショートカットを使用する",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "有効にすると、グリップを握ったままAppボタン（ダッシュメニューを開閉するボタン）を押すと、レガシーのインベントリーまたはセッションメニューが開きます。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitchチャンネル名",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "カメラコントロールパネルのTwitchチャットパネルの標準のTwitchチャンネル名を設定できます。主にTwitch配信者が自分のTwitchチャットを見たい場合に使用します。",
@@ -1579,6 +1581,8 @@
         "Settings.DashSettings.DashCurvature.Description": "VRでのダッシュメニューの曲がり具合を設定できます。0に設定すると完全に平面になります。",
         "Settings.DashSettings.OpenCloseSpeed": "開閉スピード",
         "Settings.DashSettings.OpenCloseSpeed.Description": "ダッシュメニューの開閉速度を調整できます。アニメーションが気に入らない場合は、この値を非常に大きくして、ほぼ瞬時に開閉するように設定できます。",
+        "Settings.DashSettings.AllowReplacingSettings" : "設定の入れ替えを許可する",
+        "Settings.DashSettings.AllowReplacingSettings.Description" : "有効にすると、UI編集モードのときにダッシュメニューの設定ファセットを他のファセットに置き換えることができます。\n\n個々の設定をファセットとして取り出したい場合は、この設定をオフにする必要があります。設定UIをカスタムUIに置き換えたいときにだけ、一時的にこの設定をオンにすることをお勧めします。",
 
         "Settings.NotificationSettings": "通知設定",
         "Settings.NotificationSettings.UserOnline": "フレンド・オンライン",
@@ -1604,6 +1608,16 @@
         "Settings.NamePlateSettings.NameplateVisibility.Description": "どの種類のユーザーのネームプレートを表示するかを設定できます",
         "Settings.NamePlateSettings.UseCustomNameplates": "カスタムネームプレートを表示",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "ネームプレートが読みにくかったり、完全に隠されていたり、実際のユーザー名やバッジを見る必要がある場合（モデレーションのためなど）、カスタムネームプレートを無効にすることで、標準のネームプレートを表示できます。",
+
+        "Settings.CustomizationSettings" : "カスタマイズ設定",
+        "Settings.CustomizationSettings.UserInterfaceEditMode" : "UI編集モード",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description" : "この設定を有効にすると、ダッシュメニューのファセットや、有効になっているファセットアンカーの配置を編集できるようになります。\n\n設定が終了したら、これをオフにすることを忘れないでください！ダッシュの下にある専用ボタンでオフにすることもできます。",
+
+        "Settings.FacetAnchorsSettings" : "ファセットアンカー",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors" : "ファセットアンカーを使用する",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description" : "有効にすると、右コントローラーのアプリボタンを使って、腕と前腕のファセットアンカーを切り替えることができます。これは、素早くアクセスできるように任意のファセットを配置するスペースとなります。",
+        "Settings.FacetAnchorsSettings.AnimationSpeed" : "開閉スピード",
+        "Settings.FacetAnchorsSettings.AnimationSpeed.Description" : "ファセットアンカーを表示/非表示にする際のアニメーションの速さを設定できます。",
 
         "Settings.LaserSettings.SmoothSpeed": "スムーズスピード",
         "Settings.LaserSettings.SmoothSpeed.Description": "レーザーがコントローラーに追従するスピードを設定できます。値を低くすると、レーザーは鈍くなりますが、手ブレの影響を抑えられます。値を高くすると、レーザーはより機敏に反応しますが、手ブレの影響を受けやすくなります。",
