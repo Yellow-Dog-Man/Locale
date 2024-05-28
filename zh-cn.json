@@ -1,4 +1,4 @@
-{
+    {
     "localeCode": "zh-cn",
     "authors": ["Melnus", "Holy_Water", "huang825172", "modimobeikete", "WARCRAFT11","flower-elf"],
     "messages": {
@@ -1562,6 +1562,8 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "启用后，只要连续按两次握把键，就可以装备工具和小物件。这一设置可能会在某个时候被移除。",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "使用传统世界切换器",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "启用后，非主要手部的应用按钮将打开传统的世界开关，在在线的世界之间切换。这一功能将来会被更灵活的解决方案所取代。",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "使用物品栏 & 会话手势快捷键",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "启用后，当你按住手柄并按下 A 键（通常会打开/关闭仪表盘）时，就会打开传统的库存或会话菜单。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch 频道名",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "这将为摄像机控制面板中的 Twitch 聊天面板设置默认的 Twitch 频道名称。这主要用于希望看到 Twitch 聊天的 Twitch 主播而用的。",
@@ -1580,6 +1582,8 @@
         "Settings.DashSettings.DashCurvature.Description": "此设置可以控制在 VR 模式中面板的弯曲程度。将其设置为 0 将使其完全平坦。",
         "Settings.DashSettings.OpenCloseSpeed": "打开/关闭速度",
         "Settings.DashSettings.OpenCloseSpeed.Description": "用它来调整面板打开和关闭的速度。如果你不喜欢这种动画效果，可以将其设置为非常高的值，这样面板打开和关闭的速度就会非常快。",
+        "Settings.DashSettings.AllowReplacingSettings" : "允许替换设置面板",
+        "Settings.DashSettings.AllowReplacingSettings.Description" : "启用后，您就可以在 UI 编辑模式下选择面板上的设置面板，并将其替换为另一个面板。\n\n如果你想选取单个设置作为维面，则需要关闭此设置。 建议在你想用自定义替换设置 UI 时暂时打开，然后再禁用。",
 
         "Settings.NotificationSettings" : "通知",
         "Settings.NotificationSettings.UserOnline" : "有好友上线",
@@ -1603,6 +1607,16 @@
         "Settings.NamePlateSettings.NameplateVisibility.Description": "该选项可以控制你可以看到谁的铭牌。",
         "Settings.NamePlateSettings.UseCustomNameplates": "显示自定义铭牌",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "如果某些铭牌难以阅读、完全隐藏或你需要查看用户的实际用户名和徽章（例如用于管理目的），你可以禁用自定义铭牌并查看默认铭牌。",
+
+        "Settings.CustomizationSettings" : "自定义设置",
+        "Settings.CustomizationSettings.UserInterfaceEditMode" : "UI 编辑模式",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description" : "启用后，你就可以编辑面板中以及手部和视口（如果已启用）上的面锚（模块化用户界面）的位置。\n\n使用完毕后，请记得关闭此设置！你也可以使用面板下方的专用按钮将其关闭。",
+
+        "Settings.FacetAnchorsSettings" : "维面锚点",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors" : "使用维面锚点",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description" : "启用后，你就可以使用右控制器上的应用按钮来切换手臂和前臂上的维面锚点。除了主面板外，这些锚点还提供了放置任何锚点的空间，以便快速取用。",
+        "Settings.FacetAnchorsSettings.AnimationSpeed" : "显示/隐藏动画播放速度",
+        "Settings.FacetAnchorsSettings.AnimationSpeed.Description" : "这决定了切换时维面锚点出现和隐藏的速度。",
 
         "Settings.LaserSettings.SmoothSpeed": "激光平滑速度",
         "Settings.LaserSettings.SmoothSpeed.Description": "用它来控制激光对你的动作做出反应的速度。较低的数值会使激光更加迟缓，但能更好地过滤震颤。数值越大，响应速度越快，但也会传递更多的控制器震动。",
@@ -2046,6 +2060,10 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- 碰撞体与抓取 -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "从层次结构添加固定碰撞体（使用对象根）",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "总是抓取末端骨骼",
+        
+        "Inspector.DataPreset.SetActive": "设置激活状态",
+        "Inspector.DataPreset.SetValues": "设定数值",
+        "Inspector.DataPreset.AddAllChildren": "增加所有子集",
 
         "Inspector.Rig.CleanupBoneColliders": "清理骨骼碰撞体",
         "Inspector.Rig.GenerateDebugVisuals": "生成调试视觉效果",
