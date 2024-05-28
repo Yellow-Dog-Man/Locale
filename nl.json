@@ -1194,7 +1194,7 @@
         "Settings.MovementSettings": "Beweging",
         "Settings.MouseSettings": "Muis",
 
-        "Settings.GeneralHapticsSettings": "Haptic Feedback", // TODO (haptic, feedback)
+        "Settings.GeneralHapticsSettings": "Haptische Feedback",
         "Settings.GeneralVRSettings": "VR",
         "Settings.LeapMotionSettings": "Leap Motion",
         "Settings.ViveHandTrackingSettings": "Vive Hand Tracking",
@@ -1292,9 +1292,9 @@
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "Wanneer je een voorwerp vasthoudt in bureaubladmodus, bepaalt dit hoe snel ze ronddraaien met vrije vorm.",
 
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Controller trillingen",
-        "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Gebruik dit om haptic trillingen aan of uit te zetten specifiek voor VR controllers.", // TODO (haptic)
-        "Settings.GeneralHapticsSettings.EnableHaptics": "Haptic feedback", // TODO (haptic, feedback)
-        "Settings.GeneralHapticsSettings.EnableHaptics.Description": "Wanneer dit aan staat krijg je haptic feedback van avatars en voorwerpen in de wereld op je controllers en andere ondersteunde apparaten.", // TODO (haptic, feedback)
+        "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Gebruik dit om haptische trillingen aan of uit te zetten specifiek voor VR controllers.",
+        "Settings.GeneralHapticsSettings.EnableHaptics": "Haptische feedback",
+        "Settings.GeneralHapticsSettings.EnableHaptics.Description": "Wanneer dit aan staat krijg je haptische feedback van avatars en voorwerpen in de wereld op je controllers en andere ondersteunde apparaten.",
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR Hotswitching",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Als dit aan staat, wissel je automatisch tussen VR- en bureaublad-modus wanneer je jouw VR headset op of af doet.",
@@ -1317,7 +1317,7 @@
 
         "Settings.MediaPrivacySettings" : "Media Privacy",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut" : "Niet in media metadata voorkomen",
-        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description" : "Wanneer je deze optie aanzet, kom je niet voor in de metadata van media (meestal virtuele fotos en audio-opnamen). Je bent er nog steeds in te zien of horen, maar geen verdere informatie, zoals je UserID en positie in de scene worden ermee opgeslagen.\n\nAls je merkt dat andere gebruikers hun client aanpassen om deze optie te negeren, rapporteer ze aan het moderatieteam, omdat dit gezien wordt als intimidatie.", // TODO (client)
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description" : "Wanneer je deze optie aanzet, kom je niet voor in de metadata van media (meestal virtuele fotos en audio-opnamen). Je bent er nog steeds in te zien of horen, maar geen verdere informatie, zoals je UserID en positie in de scene worden ermee opgeslagen.\n\nAls je merkt dat andere gebruikers hun client aanpassen om deze optie te negeren, rapporteer ze aan het moderatieteam, omdat dit gezien wordt als intimidatie.",
         "Settings.MediaPrivacySettings.HideInScreenshots" : "Laat me niet zien in screenshots",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "Wanneer deze optie aan staat, kom je niet voor in screenshots die in-game gemaakt zijn.\n\n<color=hero.red>BELANGRIJK:</color> Wees ervan bewust dat dit geen invloed heeft op realtime cameras, screenshots die buiten Resonite gemaakt zijn of opnames die gemaakt zijn door andere methodes in een wereld, die mogelijk onderdeel zijn van de functies van een wereld.", // TODO (realtime cameras)
 
@@ -1390,8 +1390,8 @@
         "Settings.HapticPointMapping.MappingTarget" : "Wijs toe aan",
         "Settings.HapticPointMapping.MappingTarget.Description" : "Gebruik dit om te bepalen welk gedeelte van de avatar dit apparaat aan wordt toegewezen.",
 
-        "Settings.HapticPointMapping.PointRadius" : "Haptic Punt Radius", // TODO (haptic)
-        "Settings.HapticPointMapping.PointRadius.Description" : "Hiermee kan je de grootte van de haptic punt op de avatar aanpassen. Door dit groter te maken wordt het makkelijker om van grotere afstanden te activeren, maar resulteert ook in minder precisie, omdat alle haptic triggers in de radius van de punt het activeren.", // TODO (haptic)
+        "Settings.HapticPointMapping.PointRadius" : "Haptisch Punt Radius",
+        "Settings.HapticPointMapping.PointRadius.Description" : "Hiermee kan je de grootte van het haptisch punt op de avatar aanpassen. Door dit groter te maken wordt het makkelijker om van grotere afstanden te activeren, maar resulteert ook in minder precisie, omdat alle haptische triggers in de radius van de punt het activeren.",
 
         "Settings.HapticPointMapping.TorsoHorizontalPosition" : "Horizontale positie op torso", // TODO (torso)
         "Settings.HapticPointMapping.TorsoHorizontalPosition.Description" : "Dit is de horizontale positie langs de torso, van links naar rechts", // TODO (torso)
@@ -1420,10 +1420,10 @@
         "Settings.HapticPointMapping.LegAngleAround.Description" : "Dit bepaalt de hoek om de omtrek van het been. De standaard 0° positie is de voorkant van je been - de richting waar je knie naar wijst. Negatieve waarden gaan naar links, positieve gaan naar rechts. Door 180° te draaien komt het punt aan de achterkant van je been.",
 
         "Settings.HapticPointMapping.ControllerSide" : "Controller",
-        "Settings.HapticPointMapping.ControllerSide.Description" : "Aan welke controller moet dit haptic punt toegewezen worden? Links of rechts?", // TODO (haptic)
+        "Settings.HapticPointMapping.ControllerSide.Description" : "Aan welke controller moet dit haptisch punt toegewezen worden? Links of rechts?",
 
-        "Settings.HapticPointMapping.Tag" : "Haptic Tag", // TODO (haptic)
-        "Settings.HapticPointMapping.Tag.Description" : "Tag verbonden met dit haptic punt. Dit verbindt het haptic punt met een punt op je avatar die dezelfde tag heeft (bepaald met een TagHapticPointMapper component). Als er geen punten met deze tag op de avatar bestaan, werkt het haptic apparaat niet.\n\nDit is handig als je volledige controle moet hebben over het exacte punt op de avatar waar het haptic apparaat aan toegewezen wordt - bijvoorbeeld als de generieke toewijzing niet past.", // TODO (haptic)
+        "Settings.HapticPointMapping.Tag" : "Haptisch Tag",
+        "Settings.HapticPointMapping.Tag.Description" : "Tag verbonden met dit haptisch punt. Dit verbindt het haptisch punt met een punt op je avatar die dezelfde tag heeft (bepaald met een TagHapticPointMapper component). Als er geen punten met deze tag op de avatar bestaan, werkt het haptische apparaat niet.\n\nDit is handig als je volledige controle moet hebben over het exacte punt op de avatar waar het haptische apparaat aan toegewezen wordt - bijvoorbeeld als de generieke toewijzing niet past.",
 
         "Settings.GiggleTechSettings" : "GiggleTech Apparaten",
         "Settings.GiggleTechSettings.Devices" : "Beheer GigglePucks",
@@ -1433,20 +1433,20 @@
         "Settings.GiggleTechSettings.Devices.IP" : "GigglePuck IP",
         "Settings.GiggleTechSettings.Devices.IsConnected" : "Is GigglePuck verbonden",
         "Settings.GiggleTechSettings.Devices.UseDevice" : "Gebruik Apparaat",
-        "Settings.GiggleTechSettings.Devices.UseDevice.Description" : "Je kan dit gebruiken om individuele GigglePucks aan of uit te zetten wanneer ze toegewezen zijn. Door dit uit te zetten stoppen alle haptics.", // TODO (haptic)
+        "Settings.GiggleTechSettings.Devices.UseDevice.Description" : "Je kan dit gebruiken om individuele GigglePucks aan of uit te zetten wanneer ze toegewezen zijn. Door dit uit te zetten stopt alle haptische feedback.",
         "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected" : "Behandel altijd als verbonden",
         "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description" : "Wanneer dit aan staat, wordt de GigglePuck altijd gezien als verbonden, ook als het niet op het netwerk gedetecteerd is.\n\nDit kan handig zijn voor bepaalde netwerken die problemen hebben met automatische detectie.",
         "Settings.GiggleTechSettings.Devices.IntensityScale" : "Intensiteit Schaal",
-        "Settings.GiggleTechSettings.Devices.IntensityScale.Description" : "Hiermee verander je de intensiteit van de haptics die naar de GigglePuck gestuurd worden. De maximale kracht van de haptics gaat nooit boven de veilige waarde van de GigglePuck - de waarden worden onder een veilig maximum gehouden die geen overspanning geven aan de motor.",
+        "Settings.GiggleTechSettings.Devices.IntensityScale.Description" : "Hiermee verander je de intensiteit van de haptische feedback die naar de GigglePuck gestuurd worden. De maximale kracht van de haptische feedback gaat nooit boven de veilige waarde van de GigglePuck - de waarden worden onder een veilig maximum gehouden die geen overspanning geven aan de motor.",
         "Settings.GiggleTechSettings.Devices.Remove" : "Verwijder",
         "Settings.GiggleTechSettings.Devices.CustomName" : "Aangepaste Naam",
         "Settings.GiggleTechSettings.Devices.CustomName.Description" : "Je kan hier je GigglePuck een aangepaste naam geven. Dit is vooral cosmetisch, zonder functionele verschillen.",
         "Settings.GiggleTechSettings.Devices.Breadcrumb" : "GigglePucks",
         "Settings.GiggleTechSettings.Devices.ActivationIntensity" : "Huidige Intensiteit",
         "Settings.GiggleTechSettings.Devices.MinimumIntensity" : "Minimale Intensiteit",
-        "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description" : "Dit is de minimale intensiteit waarbij het haptic apparaat aan gaat. Wanneer de intensiteit te laag is, kan het haptic apparaat stoppen met reageren.", // TODO (haptic)
+        "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description" : "Dit is de minimale intensiteit waarbij het haptsiche apparaat aan gaat. Wanneer de intensiteit te laag is, kan het haptische apparaat stoppen met reageren.",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity" : "Initiële activeringsintensiteit",
-        "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description" : "Wanneer de haptics van inactief naar actief gaan, worden ze voor een korte tijd op deze intensiteit aangezet. Dit kan helpen een \"kick-start\" te geven aan de haptics, wanneer de activatie waarde te laag is voor de motor om te beginnen met draaien.", // TODO (haptic)
+        "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description" : "Wanneer de haptische feedback van inactief naar actief gaan, worden ze voor een korte tijd op deze intensiteit aangezet. Dit kan helpen een \"kick-start\" te geven aan het haptische apparaat, wanneer de activatie waarde te laag is voor de motor om te beginnen met draaien.",
 
         "Settings.UserMetricsSettings.UserHeight" : "Lengte",
         "Settings.UserMetricsSettings.UserHeight.Description" : "Dit is je lengte in de echte wereld, die wordt gebruikt om je avatar goed te laten passen. Het is ook de hoogte waar je geplaatst wordt wanneer je zittende modus aanzet.\n\nJe kan je lengte invoeren door de juiste schaal erbij te zetten, bijvoorbeeld met <nobr><color=hero.yellow>175 cm</color></nobr> of <nobr><color=hero.yellow>1.75 m</color></nobr> voor metrisch, of <color=hero.yellow>5'11\"</color> voor imperiaal.",
@@ -1555,7 +1555,7 @@
         "Settings.DebugSettings.DebugInputBindings": "Debug input bindings", // TODO (debug, bindings)
         "Settings.DebugSettings.DebugInputBindings.Description": "Wanneer dit aan staat zie je debug informatie voor het input binding systeem. Dit is vooral nuttig voor ontwikkelaars.", // TODO (debug, bindings)
         "Settings.DebugSettings.FetchIncompatibleSessions": "Haal incompatibele sessies op", // TODO (incompatible)
-        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "Wanneer dit aan staat, zie je actieve sessies die niet bruikbaar zijn met jouw huidige client. Bij deze sessies kan je niet meedoen.", // TODO (join, client)
+        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "Wanneer dit aan staat, zie je actieve sessies die niet bruikbaar zijn met jouw huidige client. Bij deze sessies kan je niet meedoen.", // TODO (join)
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Dubbelklik vastpakken om gereedschap te equippen", // TODO (equip)
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wanneer dit aan staat kan je gereedschappen en gadgets equippen door snel twee keer vast te pakken. Deze instelling wordt waarschijnlijk in de toekomst verwijderd.", // TODO (equip)
