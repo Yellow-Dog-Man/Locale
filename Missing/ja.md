@@ -11,7 +11,4 @@ Inspector.Member.RemoveBlendshape
 Inspector.Member.SplitBlendshape.X  
 Inspector.Member.SplitBlendshape.Y  
 Inspector.Member.SplitBlendshape.Z  
-Inspector.DataPreset.SetActive  
-Inspector.DataPreset.SetValues  
-Inspector.DataPreset.AddAllChildren  
 
