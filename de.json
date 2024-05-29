@@ -1387,7 +1387,7 @@
         "Settings.SteamLinkSettings": "Steam Link",
         "Settings.SteamLinkSettings.OSC_DataPort": "OSC Port für Gesichtsverfolgung",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "Dies ist der Port, der für die Daten der Gesichtsverfolgung (Face Tracking) verwendet werden soll. Damit die Gesichtsverfolgung funktioniert, stellen Sie hier denselben Port ein, den Sie in den SteamVR-Einstellungen festgelegt haben.", 
-        
+
         "Settings.HapticPointMapping.MappingTarget": "Zuordnen",
         "Settings.HapticPointMapping.MappingTarget.Description": "Benutzen Sie diese Einstellungen, um dieses Gerät einem bestimmten Teil des Avatars zuzuordnen.",
 
@@ -1562,6 +1562,8 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wenn dies aktiviert ist, können Sie Tools und andere ausrüstbare Objekte ausrüsten, indem Sie ihren Griff zweimal schnell nacheinander drücken. Diese Einstellung wird wahrscheinlich irgendwann entfernt werden.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Benutze alten Welten-Wechsler",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Wenn dies aktiviert ist, öffnet die App-Taste des Controllers ihrer nicht-dominanten Hand den alten Welten-Wechsler, mit dem Sie zwischen aktiven Welten wechseln können. Diese Funktionalität wird in der Zukunft mit einem flexibleren System ersetzt.",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Geste für Inventar und Sitzung verwenden",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Wenn diese Einstellung aktiviert ist, öffnet sich das alte Inventar- oder Sitzungsmenü, wenn Sie den Griff gedrückt halten und die App-Taste drücken (was normalerweise das Dash-Menü öffnet/schließt).",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Kanalname",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Dies stellt den standard Twitch Kanalnamen für das Twitch Chat-Panel im Kamerasteuerungs-Panel ein. Dies wird meistens von Twitch Streamern verwendet, die ihren Twitch Chat sehen möchten.",
@@ -1580,6 +1582,8 @@
         "Settings.DashSettings.DashCurvature.Description": "Diese Einstellung bestimmt, wie gekrümmt das Dash-Menu in VR ist. Wenn sie auf 0 gesetzt wird, ist es völlig flach. ",
         "Settings.DashSettings.OpenCloseSpeed": "Öffnungs-/Schließ-Geschwindigkeit",
         "Settings.DashSettings.OpenCloseSpeed.Description": "Stellen Sie hier ein, wie schnell sich das Dash-Menü öffnen oder schliessen soll. Falls Sie keine Animation wünschen, stellen Sie einen großen Wert ein, damit das Dash-Menü schlagartig geöffnet oder geschlossen wird.",
+        "Settings.DashSettings.AllowReplacingSettings": "Austausch von Optionen erlauben",
+        "Settings.DashSettings.AllowReplacingSettings.Description": "Wenn dies aktiviert ist, können Sie im Bearbeitungsmodus das Facet Optionen auf dem Dash-Menü auswählen und durch ein anderes ersetzen.\n\nDiese Einstellung muss deaktiviert sein, wenn Sie die einzelnen Einstellungen als Facet auswählen wollen. Es wird empfohlen, diese Einstellung vorübergehend zu aktivieren, wenn Sie die Optionen-Benutzeroberfläche durch eine benutzerdefinierte ersetzen möchten, und sie danach wieder zu deaktivieren.",
 
         "Settings.NotificationSettings": "Benachrichtigungen",
         "Settings.NotificationSettings.UserOnline": "Kontakt Online",
@@ -1603,6 +1607,16 @@
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Hier können Sie festlegen, wessen Namensschilder für Sie sichtbar sein sollen.",
         "Settings.NamePlateSettings.UseCustomNameplates": "Zeige benutzerdefinierte Namensschilder",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "Wenn manche benutzerdefinierte Namenschilder schwer zu erkennen oder komplett versteckt sind, oder Sie den tatsächlichen Benutzernamen und Badges eines Benutzers sehen wollen (z.B. für Moderationszwecke), können Sie benutzerdefinierte Namenschilder deaktivieren und anstelle dessen die Standard-Namensschilder anzeigen.",
+
+        "Settings.CustomizationSettings": "Einstellungen für Anpassungen",
+        "Settings.CustomizationSettings.UserInterfaceEditMode": "Bearbeitungsmodus für Benutzeroberfläche",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "Wenn diese Option aktiviert ist, können Sie die Platzierung von Facets (modulare Teile der Benutzeroberfläche) im Dash-Menü und auf den Facet-Ankern auf Ihren Händen und im Sichtfenster (wenn diese aktiviert sind) bearbeiten.\n\nVergessen Sie nicht, diese Einstellung zu deaktivieren, sobald Sie fertig sind! Sie können sie auch über die zugehörige Schaltfläche unter dem Dash-Menü ausschalten.",
+
+        "Settings.FacetAnchorsSettings": "Facet-Anker",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors": "Benutze Facet-Anker",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "Wenn dies aktiviert ist, können Sie mit der App-Taste auf Ihrem rechten Controller die Facet-Anker an Ihren Armen und Unterarmen ein- und ausschalten. Diese bieten Platz, um beliebige Facets für den schnellen Zugriff zusätzlich zum Dash-Menü zu platzieren.",
+        "Settings.FacetAnchorsSettings.AnimationSpeed": "Animationsgeschwindigkeit ein-/ausblenden",
+        "Settings.FacetAnchorsSettings.AnimationSpeed.Description": "Dies legt fest, wie schnell die Facet-Anker ein- und ausgeblendet werden, wenn sie umgeschaltet werden.",
 
         "Settings.LaserSettings.SmoothSpeed": "Laser Glättungsgeschwindigkeit",
         "Settings.LaserSettings.SmoothSpeed.Description": "Hier können Sie einstellen, wie schnell der Laser auf Ihre Bewegungen reagiert. Bei niedrigen Werten ist der Laser träge, filtert aber Zittern besser heraus. Größere Werte sind reaktionsschneller, übertragen aber auch mehr Controller-Zittern.",
@@ -2046,6 +2060,10 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Kollisionen & Greifen -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Erzeuge fixierte Collider (verwende Objektursprung)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Immer den letzten Knochen auswählen",
+
+        "Inspector.DataPreset.SetActive": "Aktivieren",
+        "Inspector.DataPreset.SetValues": "Werte setzen",
+        "Inspector.DataPreset.AddAllChildren": "Alle untergeordneten Objekte hinzufügen",
 
         "Inspector.Rig.CleanupBoneColliders": "Bereinige Knochen-Collider",
         "Inspector.Rig.GenerateDebugVisuals": "Generiere Debug Darstellung",
