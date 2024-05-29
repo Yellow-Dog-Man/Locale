@@ -1562,6 +1562,8 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Когда включено, вы можете экипировать инструменты и гаджеты быстрым двойным нажатием хвата. Эта настройка, скорее всего, когда-нибудт будет убрана.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Использовать старый переключатель миров",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Когда включено, кнопка приложения на вашей не-основной руке откроет старый переключатель миров. Это решение в будущем будет заменено более гибким.",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "Использовать старый жест инвентаря или меню сессий",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "Когда включено, если вы зажмете хват и нажмете кнопку приложения (которая обычно открывает/закрывает Дэшборд), откроется старая панель инвентаря или меню сессий.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Название канала Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Устанавливает имя канала Twitch по умолчанию для панели чата Twitch в панели настроек камеры. В основном используется стримерами на Twitch, которые хотят видеть чат на их канале.",
@@ -1580,6 +1582,8 @@
         "Settings.DashSettings.DashCurvature.Description": "Эта настройка определяет изгиб дэшборда в VR. Установите в 0 чтобы сделать его полностью плоским.",
         "Settings.DashSettings.OpenCloseSpeed": "Скорость открытия/закрытия",
         "Settings.DashSettings.OpenCloseSpeed.Description": "Используйте чтобы настроить, как быстро дэшборд открывается и закрывается. Если вам не нравится анимация, можете поставить очень большое значение чтобы дэшборд открывался и закрывался практически моментально.",
+        "Settings.DashSettings.AllowReplacingSettings" : "Разрешить замену экрана настроек",
+        "Settings.DashSettings.AllowReplacingSettings.Description" : "Когда включено, вы сможете взять фасет Настроек на Дэшборде в режиме редактирования интерфейса и заменить его на другой.\n\nЭта настройка должна быть выключена если вы хотите брать отдельные настройки как фасеты. Рекомендуется включать эту настройку временно когда вы хотите заменить интерфейс настроек другим, и выключать её после этого.",
 
         "Settings.NotificationSettings" : "Уведомления",
         "Settings.NotificationSettings.UserOnline" : "Контакт онлайн",
@@ -1603,6 +1607,20 @@
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Определяет, чьи таблички имен видны вам.",
         "Settings.NamePlateSettings.UseCustomNameplates": "Показывать кастомные таблички имён",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "Если некоторые таблички имен сложно прочитать, полностью спрятаны или вам нужно увидить настоящее имя и бэджи пользователя (например, в целях модерации), вы можете выключить кастомные таблички имен чтобы видеть системные.",
+
+        "Settings.CustomizationSettings" : "Настройки кастомизации",
+        "Settings.CustomizationSettings.UserInterfaceEditMode" : "Режим редактирования интерфейса",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description" : "Когда включено, вы сможете редактировать размещение фасетов (модулей интерфейса) в Дэшборде и на якорях фасетов на ваших руках и в поле зрения (если они включены).\n\nНе забудьте выключить эту настройку когда закончите с редактированием! Вы также можете выключить её с помощью отдельной кнопки ниже вашего Дэшборда.",
+
+        "Settings.FacetAnchorsSettings" : "Якоря фасетов",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors" : "Использовать якоря фасетов",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description" : "Когда включено, вы сможете использовать кнопку приложения на вашем правом контроллере чтобы переключить якоря фасетов на ваших руках и предплечьях. На них можно разместить любые фасеты для быстрого доступа, так же как и на Дэшборде.",
+        "Settings.FacetAnchorsSettings.AnimationSpeed" : "Скорость анимации отображения/скрытия",
+        "Settings.FacetAnchorsSettings.AnimationSpeed.Description" : "Определяет, как быстро якоря фасетов будут появляться и прятаться при переключении.",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle" : "Контроллер для переключения",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description" : "Определяет, какой контроллер (левый или правый) будет переключать якоря фасетов. Дэшборд будет вызываться другим контроллером.",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground" : "Показать фон",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description" : "Выключение этой настройки отключит фон на якорях фасетов, чтобы остались видимыми только сами фасеты.",
 
         "Settings.LaserSettings.SmoothSpeed": "Скорость сглаживания лазеров",
         "Settings.LaserSettings.SmoothSpeed.Description": "Используйте чтобы определить, как быстро лазер реагирует на ваши движения. Низвие значения сделают лазер более заторможенным, но улучшат фильтрацию дрожи. Высокие значения делают лазер более отзывчивым, но пропускают больше дрожания контроллеров.",
@@ -1842,6 +1860,11 @@
         "Inspector.Member.SetAllToY" : "Установить все к Y",
         "Inspector.Member.SetAllToZ" : "Установить все к Z",
         "Inspector.Member.SetAllToW" : "Установить все к W",
+        "Inspector.Member.BakeBlendshape" : "Запечь blendshape",
+        "Inspector.Member.RemoveBlendshape" : "Убрать blendshape",
+        "Inspector.Member.SplitBlendshape.X" : "Разделить blendshape по оси X",
+        "Inspector.Member.SplitBlendshape.Y" : "Разделить blendshape по оси Y",
+        "Inspector.Member.SplitBlendshape.Z" : "Разделить blendshape по оси Z",
 
         "Inspector.ProceduralAsset.UpdateCount": "Количество обновлений: {n}",
         "Inspector.ProceduralAsset.Error": "Ошибка: {error}",
@@ -2046,6 +2069,10 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Коллайдеры и хватание -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Добавить фиксированные коллайдеры от иерархии (от корневого слота)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Всегда хватать последнюю кость",
+
+        "Inspector.DataPreset.SetActive": "Установить активным",
+        "Inspector.DataPreset.SetValues": "Установить значения",
+        "Inspector.DataPreset.AddAllChildren": "Добавить для всех потомков",
 
         "Inspector.Rig.CleanupBoneColliders": "Очистить коллайдеры костей",
         "Inspector.Rig.GenerateDebugVisuals": "Генерировать отладочную визуализацию",
