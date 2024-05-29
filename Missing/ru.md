@@ -14,6 +14,15 @@ Settings.FacetAnchorsSettings.UseFacetAnchors
 Settings.FacetAnchorsSettings.UseFacetAnchors.Description  
 Settings.FacetAnchorsSettings.AnimationSpeed  
 Settings.FacetAnchorsSettings.AnimationSpeed.Description  
+Settings.FacetAnchorsSettings.FacetAnchorToggle  
+Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
+Settings.FacetAnchorsSettings.ShowContainerBackground  
+Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
+Inspector.Member.BakeBlendshape  
+Inspector.Member.RemoveBlendshape  
+Inspector.Member.SplitBlendshape.X  
+Inspector.Member.SplitBlendshape.Y  
+Inspector.Member.SplitBlendshape.Z  
 Inspector.DataPreset.SetActive  
 Inspector.DataPreset.SetValues  
 Inspector.DataPreset.AddAllChildren  
