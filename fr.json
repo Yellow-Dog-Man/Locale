@@ -1022,7 +1022,7 @@
         "NewWorld.UnsafeMode": "Mode non sûr:",
         "NewWorld.Port": "Port:",
         "NewWorld.AutoPort": "Auto:",
-        "NewWorld.DefaultName": "{name} Monde",
+        "NewWorld.DefaultName": "Monde de {name}",
 
         "FullBody.Title": "Calibration du corps",
         "FullBody.SetHeight": "1) Définissez votre taille",
@@ -1453,8 +1453,8 @@
         "Settings.UserMetricsSettings.UserHeight.Description": "Votre taille dans la vraie vie qui est utilisée pour mettre a l'échelle correctement votre avatar. Cela est aussi la taille a laquelle vous serez en mode assis.\n\nVous pouvez entrer votre taille avec différentes unités, par exemple <color=hero.yellow>175 cm</color> ou <color=hero.yellow>1.75m</color> pour le système métrique, ou <color=hero.yellow>5'11\"</color> pour le système impérial.",
 
         "Settings.FavoritesSettings": "Favoris",
-        "Settings.FavoritesSettings.AutoLoadCloudHome": "Charger la maison Cloud au lancement",
-        "Settings.FavoritesSettings.AutoLoadCloudHome.Description": "Quand activé, votre maison dans le Cloud sera automatiquement chargée au lancement du jeu.",
+        "Settings.FavoritesSettings.AutoLoadCloudHome": "Charger la maison en ligne au lancement",
+        "Settings.FavoritesSettings.AutoLoadCloudHome.Description": "Quand activé, votre maison en ligne sera automatiquement chargée au lancement du jeu.",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Utiliser le périphérique audio par défaut",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Activez cette option pour utiliser automatiquement le périphérique audio par défaut de votre système. Si vous voulez en utiliser un customisé, désactivez cette option et utilisez les réglages ci-dessous.",
@@ -1619,6 +1619,10 @@
         "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "Quand activé, vous pourrez utiliser votre manette droite pour activer les ancres de facettes sur vos bras. Ces ancres donnent un espace sur lequel vous pouvez attacher des facettes en plus du tableau de bord.",
         "Settings.FacetAnchorsSettings.AnimationSpeed": "Vitesse d'animation",
         "Settings.FacetAnchorsSettings.AnimationSpeed.Description": "Vitesse a laquelle les ancres de facettes apparaissent.",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle": "Côté du basculement",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "Quelle manette (droite ou gauche) va basculer les ancres de facettes. Le tableau de bord sera ouvert avec l'autre.",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground": "Montrer l'arrière-plan",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Désactiver cette option cachera l'arrière-plan des ancres de facettes, ne montrant que les facettes.",
 
         "Settings.LaserSettings.SmoothSpeed": "Vitesse de lissage de laser",
         "Settings.LaserSettings.SmoothSpeed.Description": "Définis la vitesse a laquelle les lasers répondent a vos mouvements. Une valeur faible sera plus lente mais filtrera mieux le bruit alors qu'une valeur plus élevée sera plus rapide mais est sujet à des tremblements.",
@@ -1858,6 +1862,12 @@
         "Inspector.Member.SetAllToY": "Tout définir comme Y",
         "Inspector.Member.SetAllToZ": "Tout définir comme Z",
         "Inspector.Member.SetAllToW": "Tout définir comme W",
+        "Inspector.Member.BakeBlendshape": "Pré-calculer la Blendshape",
+        "Inspector.Member.RemoveBlendshape": "Retirer la Blendshape",
+        "Inspector.Member.SplitBlendshape.X": "Séparer la Blendshape par X",
+        "Inspector.Member.SplitBlendshape.Y": "Séparer la Blendshape par Y",
+        "Inspector.Member.SplitBlendshape.Z": "Séparer la Blendshape par Z",
+
 
         "Inspector.ProceduralAsset.UpdateCount": "Nombre de mises à jour: {n}",
         "Inspector.ProceduralAsset.Error": "Erreur: {error}",
