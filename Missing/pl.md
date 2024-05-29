@@ -301,6 +301,10 @@ Settings.FacetAnchorsSettings.UseFacetAnchors
 Settings.FacetAnchorsSettings.UseFacetAnchors.Description  
 Settings.FacetAnchorsSettings.AnimationSpeed  
 Settings.FacetAnchorsSettings.AnimationSpeed.Description  
+Settings.FacetAnchorsSettings.FacetAnchorToggle  
+Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
+Settings.FacetAnchorsSettings.ShowContainerBackground  
+Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
 Settings.LaserSettings.SmoothSpeed  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle  
@@ -465,6 +469,11 @@ LocomotionArchetype.ThreeAxisFly
 LocomotionArchetype.ZeroG  
 LocomotionSettings.MakePreferred  
 LocomotionSettings.MakeLeastPreferred  
+Inspector.Member.BakeBlendshape  
+Inspector.Member.RemoveBlendshape  
+Inspector.Member.SplitBlendshape.X  
+Inspector.Member.SplitBlendshape.Y  
+Inspector.Member.SplitBlendshape.Z  
 Inspector.ProceduralAsset.UpdateCount  
 Inspector.ProceduralAsset.Error  
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  

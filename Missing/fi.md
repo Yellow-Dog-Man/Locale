@@ -208,6 +208,10 @@ Settings.FacetAnchorsSettings.UseFacetAnchors
 Settings.FacetAnchorsSettings.UseFacetAnchors.Description  
 Settings.FacetAnchorsSettings.AnimationSpeed  
 Settings.FacetAnchorsSettings.AnimationSpeed.Description  
+Settings.FacetAnchorsSettings.FacetAnchorToggle  
+Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
+Settings.FacetAnchorsSettings.ShowContainerBackground  
+Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle  
 Settings.LaserSettings.ModulateStartAngle.Description  
@@ -301,6 +305,11 @@ Inspector.Slot.ParentUnder.LocalUserSpace
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
 Inspector.Member.BreakLinkDrive  
 Inspector.Member.OpenLinkDrive  
+Inspector.Member.BakeBlendshape  
+Inspector.Member.RemoveBlendshape  
+Inspector.Member.SplitBlendshape.X  
+Inspector.Member.SplitBlendshape.Y  
+Inspector.Member.SplitBlendshape.Z  
 Inspector.Mesh.ReverseWinding  
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  
