@@ -55,6 +55,9 @@
         "General.Sort.Ascending": "По возрастанию",
         "General.Sort.Descending": "По убыванию",
 
+        "General.Units.Metric": "Метрические",
+        "General.Units.Imperial": "Имперские",
+
         "Worlds.Home": "Дом",
         "Worlds.Tutorial": "Обучение",
 
@@ -78,6 +81,8 @@
         "Interaction.Destroy": "Удалить",
         "Interaction.Duplicate": "Дублировать",
         "Interaction.SaveToInventory": "Сохранить в инвентарь",
+        "Interaction.SaveToInventory.NotLoggedIn": "Вам нужно залогиниться чтобы созранять предметы.",
+        "Interaction.SaveToInventory.NoWritePermission": "Невозможно сохранить в текущую папку в инвентаре.",
         "Interaction.Undo": "Отменить",
         "Interaction.Redo": "Вернуть",
         "Interaction.EquipTool": "Взять",
@@ -897,6 +902,7 @@
         "AvatarCreator.TryAlignHands": "Попытаться свести руки",
         "AvatarCreator.AlignToolAnchors": "Свести точки инструментов",
         "AvatarCreator.Create": "Создать",
+        "AvatarCreator.ProtectionUnavailable": "<i>Защита аватара недоступна в этом мире. Переключитесь на другой мир чтобы защитить свой аватар.</i>",
 
         "Importer.General.AsRawFile": "Сырой файл",
 
@@ -1265,6 +1271,8 @@
         "Settings.MovementSettings.NoClipSpeed.Description": "Определяет как быстро вы будете перемещаться в Noclip режиме перемещения. Этот тип перемещения часто используется для разработки и тестирования и поэтому не контролируется миром, в котором вы находитесь, тогда как остальные режимы обычно определяются самим миром.",
         "Settings.MovementSettings.MovementDeadzone": "Мёртвая зона движения",
         "Settings.MovementSettings.MovementDeadzone.Description": "Этой настройкой можно компенсировать дрейф. Увеличение этой настройки потребует от вас сильнее отклонять джойстик чтобы начать двигаться.",
+        "Settings.MovementSettings.TurningDeadzone": "Мертвая зона поворота",
+        "Settings.MovementSettings.TurningDeadzone.Description": "Этой настройкой можно компенсировать дрейф и избежать случайного поворота при перемещении и повороте одним и тем же джостиком. Увеличение этой настройки потребует от вас сильнее отклонять джойстик чтобы начать поворачиваться.",
         "Settings.MovementSettings.MovementExponent": "Экспонента скорости",
         "Settings.MovementSettings.MovementExponent.Description": "Используйте чтобы контролировать кривую ускорения при движении. Вы можете начать двигаться медленно и затем ускориться млм сразу начать двигаться быстро, в зависимости от того, является ли значение больше или меньше 1.0",
 
@@ -2226,6 +2234,11 @@
 
         "Tutorial.Welcome.LeftControllerMode": "Режим левого контроллера",
         "Tutorial.Welcome.RightControllerMode": "Режим правого контроллера",
+
+        "Tutorial.Welcome.SidewaysTurnOnly": "Только поворот",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "Использовать этот контроллер только для поворота",
+        "Tutorial.Welcome.SidewaysTurnAndMove": "Поворот и перемещение",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "Использовать этот контроллер для поворота и перемещения",
 
         "Tutorial.Welcome.SidewaysStrafe": "Стрейф",
         "Tutorial.Welcome.SidewaysStrafe.Description": "Использовать этот контроллер для стрейфа",
