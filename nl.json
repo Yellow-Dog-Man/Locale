@@ -55,6 +55,9 @@
         "General.Sort.Ascending": "Oplopend",
         "General.Sort.Descending": "Aflopend",
 
+        "General.Units.Metric" : "Metrish",
+        "General.Units.Imperial" : "Imperiaal",
+
         "Worlds.Home": "Thuiswereld",
         "Worlds.Tutorial": "Tutorialwereld",
 
@@ -78,6 +81,8 @@
         "Interaction.Destroy": "Verwijderen",
         "Interaction.Duplicate": "Dupliceren",
         "Interaction.SaveToInventory": "Opslaan in inventaris",
+        "Interaction.SaveToInventory.NotLoggedIn": "Je moet ingelogd zijn om op te kunnen slaan.",
+        "Interaction.SaveToInventory.NoWritePermission": "Kan niet in de huidige folder opslaan.",
         "Interaction.Undo": "Ongedaan maken",
         "Interaction.Redo": "Opnieuw doen",
         "Interaction.EquipTool": "Vastgrijpen", // TODO (equip)
@@ -897,6 +902,7 @@
         "AvatarCreator.TryAlignHands": "Probeer handen uit te lijnen",
         "AvatarCreator.AlignToolAnchors": "Lijn de gereedschapsankers uit", // TODO (anchor)
         "AvatarCreator.Create": "Creëer",
+        "AvatarCreator.ProtectionUnavailable": "<i>Avatarberscherming is niet beschikbaar in deze wereld. Ga naar een andere wereld om je avatar te beschermen.</i>",
 
         "Importer.General.AsRawFile": "Onbewerkt Bestand",
 
@@ -1265,6 +1271,8 @@
         "Settings.MovementSettings.NoClipSpeed.Description": "Dit bepaalt hoe snel je beweegt met de Noclip voortbewegingsmodus. Dit type voortbeweging wordt vaak gebruikt voor bouwen en testen, en is dus vaak niet bestuurd door de wereld waar je in bent.",
         "Settings.MovementSettings.MovementDeadzone": "Bewegings deadzone", // TODO (deadzone)
         "Settings.MovementSettings.MovementDeadzone.Description": "Deze instelling kan gebruikt worden om drift te corrigeren. Door deze waarde te verhogen moet je de joystick verder duwen voordat je beweegt.", // TODO (drift)
+        "Settings.MovementSettings.TurningDeadzone": "Draaien deadzone", // TODO (deadzone)
+        "Settings.MovementSettings.TurningDeadzone.Description": "Deze instelling kan gebruikt worden om drift te corrigeren en per ongeluk draaien voorkomen wanneer je beweegt en draait met dezelfde joystick. Door deze waarde te verhogen moet je de joystick verder duwen voordat je draait.",
         "Settings.MovementSettings.MovementExponent": "Bewegings exponent", // TODO (exponent)
         "Settings.MovementSettings.MovementExponent.Description": "Gebruik dit om de curve-reactie voor bewegen te bewerken. Je kan dit gebruiken om te beginnen met langzaam bewegen en daarna vlugger snel bewegen, or gelijk sneller bewegen, gebaseerd op of de waarde boven of onder 1.0 is.",
 
@@ -1617,6 +1625,10 @@
         "Settings.FacetAnchorsSettings.UseFacetAnchors.Description" : "Wanneer dit aan staat, kan je de app knop op je rechtercontroller gebruiken om facet ankers op je arm en onderarm aan/uit te zetten. Deze geven meer ruimte om facets op te plaatsen voor snelle toegang, naast je dash.", // TODO (anchor)
         "Settings.FacetAnchorsSettings.AnimationSpeed" : "Tonen/Verbergen Animatie Snelheid",
         "Settings.FacetAnchorsSettings.AnimationSpeed.Description" : "Dit bepaalt hoe snel de facet ankers tonen en verbergen wanneer ze aan/uit gezet worden.", // TODO (anchor)
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle" : "Facet Ankers aan/uitzetten", // TODO (anchor)
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description" : "Dit bepaalt welke controller (links of rechts) de facet ankers aan/uit zet. De dash wordt met de andere controller geopend.", // TODO (anchor)
+        "Settings.FacetAnchorsSettings.ShowContainerBackground" : "Laat achtergrond zien",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description" : "Door dit uit te zetten schakel je het visuele gedeelte van de achtergrond uit op de facet ankers. Hiermee worden de facetten zelf het enige zichtbare gedeelte.", // TODO (anchor)
 
         "Settings.LaserSettings.SmoothSpeed": "Laser smooth snelheid", // TODO (smooth)
         "Settings.LaserSettings.SmoothSpeed.Description": "Gebruik dit om te bepalen hoe snel de laser reageert op je bewegingen. Lagere waarden maken de laser langzamer, maar beter met rillingen filteren. Hogere waarden reageren sneller, maar gaan ook mee met onbedoelde controller bewegingen.",
@@ -1856,6 +1868,12 @@
         "Inspector.Member.SetAllToY": "Stel alles in naar Y",
         "Inspector.Member.SetAllToZ": "Stel alles in naar Z",
         "Inspector.Member.SetAllToW": "Stel alles in naar W",
+        "Inspector.Member.BakeBlendshape" : "Bak blendshape",
+        "Inspector.Member.RemoveBlendshape" : "Verwijder blendshape",
+        "Inspector.Member.SplitBlendshape.X" : "Split blendshape over X",
+        "Inspector.Member.SplitBlendshape.Y" : "Split blendshape over Y",
+        "Inspector.Member.SplitBlendshape.Z" : "Split blendshape over Z",
+
 
         "Inspector.ProceduralAsset.UpdateCount": "Aantal Updates: {n}",
         "Inspector.ProceduralAsset.Error": "Fout: {error}",
@@ -2218,9 +2236,11 @@
         "Tutorial.Welcome.LeftControllerMode": "Linker Controller Modus",
         "Tutorial.Welcome.RightControllerMode": "Rechter Controller Modus",
 
-        "Tutorial.Welcome.SidewaysTurn": "Draaien",
-        "Tutorial.Welcome.SidewaysTurn.Description": "Gebruik deze controller voor draaien",
-        "Tutorial.Welcome.SidewaysStrafe": "Strafing", // TODO (strafe)
+        "Tutorial.Welcome.SidewaysTurnOnly": "Alleen Draaien",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "Gebruik deze controller alleen voor draaien",
+        "Tutorial.Welcome.SidewaysTurnAndMove": "Draaien & Bewegen",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "Gebruik deze controller voor draaien en bewegen",
+        "Tutorial.Welcome.SidewaysStrafe": "Bewegen",
         "Tutorial.Welcome.SidewaysStrafe.Description": "Gebruik deze controller voor naar links/rechts bewegen",
         "Tutorial.Welcome.SidewaysOff": "Zijwaarts Uit",
         "Tutorial.Welcome.SidewaysOff.Description": "Alleen naar voren/achter bewegen",
