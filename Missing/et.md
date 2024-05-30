@@ -26,6 +26,8 @@ General.UI.MusicVolumeLocal
 General.UI.VoiceVolumeLocal  
 General.UI.SoundVolumeLocal  
 General.UI.PressToBegin  
+General.Units.Metric  
+General.Units.Imperial  
 Worlds.Home  
 Worlds.Tutorial  
 Interaction.SaveToInventory  
@@ -229,7 +231,6 @@ Contacts.InContactsOnly
 Contacts.InHiddenContactsOnly  
 Contacts.InHiddenContactsPlus  
 Contacts.Migrated  
-Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  

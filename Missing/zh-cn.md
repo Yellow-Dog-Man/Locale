@@ -2,7 +2,8 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Chinese (China) [zh-cn]
-Notifications.IsSociable  
+General.Units.Metric  
+General.Units.Imperial  
 Settings.MovementSettings.TurningDeadzone  
 Settings.MovementSettings.TurningDeadzone.Description  
 Tutorial.Welcome.SidewaysTurnOnly  

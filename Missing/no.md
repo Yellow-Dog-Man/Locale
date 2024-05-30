@@ -2,6 +2,8 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Norwegian [no]
+General.Units.Metric  
+General.Units.Imperial  
 Interaction.CopyImage  
 Inventory.Favorite.Document  
 World.Loaded  
@@ -47,7 +49,6 @@ Recovery.NoPasswordSetup
 Recovery.NoPasswordSetup.Description  
 Register.UnknownError  
 Register.UnknownError.Description  
-Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  

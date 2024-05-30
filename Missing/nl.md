@@ -13,6 +13,8 @@ General.Notice
 General.UnderstandEnable  
 General.Dismiss  
 General.Edit  
+General.Units.Metric  
+General.Units.Imperial  
 Worlds.Home  
 Worlds.Tutorial  
 Interaction.CopyImage  
@@ -177,7 +179,6 @@ Contacts.InContactsOnly
 Contacts.InHiddenContactsOnly  
 Contacts.InHiddenContactsPlus  
 Contacts.Migrated  
-Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  

@@ -3,6 +3,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Icelandic [is]
 General.UI.ToggleEditMode  
+General.Units.Metric  
+General.Units.Imperial  
 Interaction.Grab.Palm  
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
@@ -107,7 +109,6 @@ Contacts.InContactsOnly
 Contacts.InHiddenContactsOnly  
 Contacts.InHiddenContactsPlus  
 Contacts.Migrated  
-Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  

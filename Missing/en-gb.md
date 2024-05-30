@@ -49,6 +49,8 @@ General.UI.SoundVolumeLocal
 General.UI.PressToBegin  
 General.Sort.Ascending  
 General.Sort.Descending  
+General.Units.Metric  
+General.Units.Imperial  
 Worlds.Home  
 Worlds.Tutorial  
 Locomotion.Noclip.Name  
@@ -559,7 +561,6 @@ Contacts.Bot
 Contacts.Migrated  
 Notifications.IsOnline  
 Notifications.IsOnlineOnDifferentVersion  
-Notifications.IsSociable  
 Notifications.ReceivedContactRequest  
 Notifications.ReceivedInvite  
 Notifications.ReceivedItem  

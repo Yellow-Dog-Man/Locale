@@ -3,6 +3,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Finnish [fi]
 General.OK  
+General.Units.Metric  
+General.Units.Imperial  
 Facets.FPS  
 World.Actions.GuestWarning  
 World.AccessLevel.LAN  
@@ -16,7 +18,6 @@ Session.JoinVerifier.Label
 Session.JoinVerifier.ComponentWarning  
 Session.JoinVerifier.SetCustomVerifier  
 Contacts.Unblocked  
-Notifications.IsSociable  
 Tooltip.Cartridge.Eject  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
