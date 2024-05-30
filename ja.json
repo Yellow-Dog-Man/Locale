@@ -55,6 +55,9 @@
         "General.Sort.Ascending": "昇順",
         "General.Sort.Descending": "降順",
 
+        "General.Units.Metric" : "メートル法",
+        "General.Units.Imperial" : "ヤード・ポンド法",
+
         "Worlds.Home" : "ホーム",
         "Worlds.Tutorial" : "チュートリアル",
 
@@ -78,6 +81,8 @@
         "Interaction.Destroy": "破棄",
         "Interaction.Duplicate": "複製",
         "Interaction.SaveToInventory": "インベントリに保存",
+        "Interaction.SaveToInventory.NotLoggedIn": "アイテムを保存するには、ログインする必要があります。",
+        "Interaction.SaveToInventory.NoWritePermission": "現在のフォルダには保存できません。",
         "Interaction.Undo": "戻す",
         "Interaction.Redo": "やり直す",
         "Interaction.EquipTool": "装備",
@@ -897,6 +902,7 @@
         "AvatarCreator.TryAlignHands": "手の位置をあわせる",
         "AvatarCreator.AlignToolAnchors": "ツールアンカーの位置を揃える",
         "AvatarCreator.Create": "作成",
+        "AvatarCreator.ProtectionUnavailable": "<i>このワールド(local home)ではアバター保護をつけることが。別のワールドに切り替えてから、アバターを作成してください。</i>",
 
         "Importer.General.AsRawFile": "ファイル​​アイテム",
 
@@ -1264,6 +1270,8 @@
         "Settings.MovementSettings.SnapTurnAngle.Description": "スナップターン時に回転する角度（単位は度）を設定できます。",
         "Settings.MovementSettings.NoClipSpeed.Description": "移動モードをノークリップにしている場合の移動速度を設定できます。この移動モード（ロコモーション）は、何かを制作する際や、テストをする際に多く使われます。他の移動モードとは異なり、ワールドから干渉されなくなります。",
         "Settings.MovementSettings.MovementDeadzone": "移動のデッドゾーン",
+        "Settings.MovementSettings.TurningDeadzone": "回転のデッドゾーン",
+        "Settings.MovementSettings.TurningDeadzone.Description": "コントローラーに触れていないのに勝手に回転してしまう場合に有効な設定です。この値を大きくすると、回転し始めるまでにジョイスティックをより大きく傾ける必要があります。",
         "Settings.MovementSettings.MovementDeadzone.Description": "コントローラーに触れていないのに勝手に動く等の場合に有効な設定です。設定値を大きくすると、ジョイスティックを倒した際の移動し始めるまでの角度が大きくなります。",
         "Settings.MovementSettings.MovementExponent": "移動指数",
         "Settings.MovementSettings.MovementExponent.Description": "ジョイスティックを倒した際の移動大きさのカーブ特性を制御できます。値が1.0より大きい場合は、最初はゆっくりと動き、その後急激に速度が上がります。値が1.0より小さい場合は、最初から高速で移動を開始できます。",
@@ -2229,6 +2237,11 @@
 
         "Tutorial.Welcome.LeftControllerMode": "左コントローラーの設定",
         "Tutorial.Welcome.RightControllerMode": "右コントローラーの設定",
+
+        "Tutorial.Welcome.SidewaysTurnOnly": "回転のみ",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "このコントローラーを回転だけに使用します",
+        "Tutorial.Welcome.SidewaysTurnAndMove": "回転と移動",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "このコントローラーを回転と前後左右の移動に使用します",
 
         "Tutorial.Welcome.SidewaysStrafe": "左右",
         "Tutorial.Welcome.SidewaysStrafe.Description": "このコントローラーで左右に移動するようにする",
