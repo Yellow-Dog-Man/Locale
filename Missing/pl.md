@@ -2,9 +2,16 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Polish [pl]
+General.Units.Metric  
+General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Notifications.UserJoined  
 Notifications.UserLeft  
 Tooltip.Glue.Mode.BakeSkinnedMeshes  
+AvatarCreator.ProtectionUnavailable  
+Settings.MovementSettings.TurningDeadzone  
+Settings.MovementSettings.TurningDeadzone.Description  
 Settings.MovementSettings.MovementExponent.Description  
 Settings.GrabbingSettings  
 Settings.GrabbingSettings.DefaultHandGrabType  
@@ -495,8 +502,10 @@ Tutorial.Welcome.SettingsUseControllerDirection
 Tutorial.Welcome.SettingsUseControllerDirection.Description  
 Tutorial.Welcome.LeftControllerMode  
 Tutorial.Welcome.RightControllerMode  
-Tutorial.Welcome.SidewaysTurn  
-Tutorial.Welcome.SidewaysTurn.Description  
+Tutorial.Welcome.SidewaysTurnOnly  
+Tutorial.Welcome.SidewaysTurnOnly.Description  
+Tutorial.Welcome.SidewaysTurnAndMove  
+Tutorial.Welcome.SidewaysTurnAndMove.Description  
 Tutorial.Welcome.SidewaysStrafe  
 Tutorial.Welcome.SidewaysStrafe.Description  
 Tutorial.Welcome.SidewaysOff  

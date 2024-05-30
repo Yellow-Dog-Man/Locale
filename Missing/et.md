@@ -26,9 +26,13 @@ General.UI.MusicVolumeLocal
 General.UI.VoiceVolumeLocal  
 General.UI.SoundVolumeLocal  
 General.UI.PressToBegin  
+General.Units.Metric  
+General.Units.Imperial  
 Worlds.Home  
 Worlds.Tutorial  
 Interaction.SaveToInventory  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.Grab.Palm  
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
@@ -295,6 +299,7 @@ CreateNew.Directory.Title
 CreateNew.Directory.Error.EmptyName  
 CreateNew.Directory.Error.LongName  
 CreateNew.Directory.Error.InvalidName  
+AvatarCreator.ProtectionUnavailable  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
 Importer.Image.Screenshot  
@@ -395,6 +400,8 @@ Settings.MovementSettings.NoClipSpeed
 Settings.MovementSettings.NoClipSpeed.Description  
 Settings.MovementSettings.MovementDeadzone  
 Settings.MovementSettings.MovementDeadzone.Description  
+Settings.MovementSettings.TurningDeadzone  
+Settings.MovementSettings.TurningDeadzone.Description  
 Settings.MovementSettings.MovementExponent  
 Settings.MovementSettings.MovementExponent.Description  
 Settings.GrabbingSettings  
@@ -1106,8 +1113,10 @@ Tutorial.Welcome.SettingsUseControllerDirection
 Tutorial.Welcome.SettingsUseControllerDirection.Description  
 Tutorial.Welcome.LeftControllerMode  
 Tutorial.Welcome.RightControllerMode  
-Tutorial.Welcome.SidewaysTurn  
-Tutorial.Welcome.SidewaysTurn.Description  
+Tutorial.Welcome.SidewaysTurnOnly  
+Tutorial.Welcome.SidewaysTurnOnly.Description  
+Tutorial.Welcome.SidewaysTurnAndMove  
+Tutorial.Welcome.SidewaysTurnAndMove.Description  
 Tutorial.Welcome.SidewaysStrafe  
 Tutorial.Welcome.SidewaysStrafe.Description  
 Tutorial.Welcome.SidewaysOff  

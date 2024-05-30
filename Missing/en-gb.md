@@ -49,6 +49,8 @@ General.UI.SoundVolumeLocal
 General.UI.PressToBegin  
 General.Sort.Ascending  
 General.Sort.Descending  
+General.Units.Metric  
+General.Units.Imperial  
 Worlds.Home  
 Worlds.Tutorial  
 Locomotion.Noclip.Name  
@@ -70,6 +72,8 @@ Locomotion.Slide.Description
 Interaction.Destroy  
 Interaction.Duplicate  
 Interaction.SaveToInventory  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.Undo  
 Interaction.Redo  
 Interaction.EquipTool  
@@ -755,6 +759,7 @@ AvatarCreator.AlignHeadRight
 AvatarCreator.TryAlignHands  
 AvatarCreator.AlignToolAnchors  
 AvatarCreator.Create  
+AvatarCreator.ProtectionUnavailable  
 Importer.General.AsRawFile  
 Importer.Folder.Title  
 Importer.Folder.Individual  
@@ -1066,6 +1071,8 @@ Settings.MovementSettings.NoClipSpeed
 Settings.MovementSettings.NoClipSpeed.Description  
 Settings.MovementSettings.MovementDeadzone  
 Settings.MovementSettings.MovementDeadzone.Description  
+Settings.MovementSettings.TurningDeadzone  
+Settings.MovementSettings.TurningDeadzone.Description  
 Settings.MovementSettings.MovementExponent  
 Settings.MovementSettings.MovementExponent.Description  
 Settings.GrabbingSettings  
@@ -1876,8 +1883,10 @@ Tutorial.Welcome.SettingsUseControllerDirection
 Tutorial.Welcome.SettingsUseControllerDirection.Description  
 Tutorial.Welcome.LeftControllerMode  
 Tutorial.Welcome.RightControllerMode  
-Tutorial.Welcome.SidewaysTurn  
-Tutorial.Welcome.SidewaysTurn.Description  
+Tutorial.Welcome.SidewaysTurnOnly  
+Tutorial.Welcome.SidewaysTurnOnly.Description  
+Tutorial.Welcome.SidewaysTurnAndMove  
+Tutorial.Welcome.SidewaysTurnAndMove.Description  
 Tutorial.Welcome.SidewaysStrafe  
 Tutorial.Welcome.SidewaysStrafe.Description  
 Tutorial.Welcome.SidewaysOff  

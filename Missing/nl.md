@@ -13,8 +13,12 @@ General.Notice
 General.UnderstandEnable  
 General.Dismiss  
 General.Edit  
+General.Units.Metric  
+General.Units.Imperial  
 Worlds.Home  
 Worlds.Tutorial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.CopyImage  
 Inventory.OpenWorld  
 Inventory.Equip  
@@ -245,6 +249,7 @@ CreateNew.Collider.Cylinder
 CreateNew.Collider.Mesh  
 CreateNew.Light.Spot  
 AvatarCreator.Title  
+AvatarCreator.ProtectionUnavailable  
 Importer.Image.PixelArt  
 Importer.Image.LUT  
 Importer.Model.Title  
@@ -359,6 +364,8 @@ Settings.MovementSettings.NoClipSpeed
 Settings.MovementSettings.NoClipSpeed.Description  
 Settings.MovementSettings.MovementDeadzone  
 Settings.MovementSettings.MovementDeadzone.Description  
+Settings.MovementSettings.TurningDeadzone  
+Settings.MovementSettings.TurningDeadzone.Description  
 Settings.MovementSettings.MovementExponent  
 Settings.MovementSettings.MovementExponent.Description  
 Settings.GrabbingSettings  
@@ -913,8 +920,10 @@ Tutorial.Welcome.SettingsUseControllerDirection
 Tutorial.Welcome.SettingsUseControllerDirection.Description  
 Tutorial.Welcome.LeftControllerMode  
 Tutorial.Welcome.RightControllerMode  
-Tutorial.Welcome.SidewaysTurn  
-Tutorial.Welcome.SidewaysTurn.Description  
+Tutorial.Welcome.SidewaysTurnOnly  
+Tutorial.Welcome.SidewaysTurnOnly.Description  
+Tutorial.Welcome.SidewaysTurnAndMove  
+Tutorial.Welcome.SidewaysTurnAndMove.Description  
 Tutorial.Welcome.SidewaysStrafe  
 Tutorial.Welcome.SidewaysStrafe.Description  
 Tutorial.Welcome.SidewaysOff  

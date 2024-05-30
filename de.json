@@ -55,6 +55,9 @@
         "General.Sort.Ascending": "Aufsteigend",
         "General.Sort.Descending": "Absteigend",
 
+        "General.Units.Metric": "Metrisch",
+        "General.Units.Imperial": "Imperial",
+
         "Worlds.Home": "Home",
         "Worlds.Tutorial": "Tutorial",
 
@@ -78,6 +81,8 @@
         "Interaction.Destroy": "Löschen",
         "Interaction.Duplicate": "Duplizieren",
         "Interaction.SaveToInventory": "Ins Inventar speichern",
+        "Interaction.SaveToInventory.NotLoggedIn": "Sie müssen angemeldet sein, um Dinge zu speichern.",
+        "Interaction.SaveToInventory.NoWritePermission": "Kann nicht in den aktuellen Inventarordner speichern.",
         "Interaction.Undo": "Rückgängig",
         "Interaction.Redo": "Wiederherstellen",
         "Interaction.EquipTool": "Ausrüsten",
@@ -897,6 +902,7 @@
         "AvatarCreator.TryAlignHands": "Versuche, die Hände auszurichten",
         "AvatarCreator.AlignToolAnchors": "Tool-Ankerpunkte ausrichten",
         "AvatarCreator.Create": "Erstellen",
+        "AvatarCreator.ProtectionUnavailable": "<i>Der Avatarschutz ist in dieser Welt nicht verfügbar. Wechseln Sie in eine andere Welt, um Ihren Avatar zu schützen.</i>",
 
         "Importer.General.AsRawFile": "Rohdatei",
 
@@ -1265,6 +1271,8 @@
         "Settings.MovementSettings.NoClipSpeed.Description": "Dies beeinflusst, wie schnell Sie sich bewegen, während Sie die Noclip-Fortbewegung nutzen. Diese Fortbewegung wird oft zum Bauen und Testen verwendet und ist daher im Gegensatz zu anderen Fortbewegungen nicht von der aktuellen Welt kontrolliert.",
         "Settings.MovementSettings.MovementDeadzone": "Bewegungs-Totzone",
         "Settings.MovementSettings.MovementDeadzone.Description": "Diese Einstellung kann verwendet werden, um Joystick-Ungenauigkeiten in der Ruheposition zu kompensieren. Wenn Sie diesen Wert erhöhen, müssen Sie ihren Joystick weiter neigen, um sich zu bewegen.",
+        "Settings.MovementSettings.TurningDeadzone": "Drehungs-Totzone",
+        "Settings.MovementSettings.TurningDeadzone.Description": "Diese Einstellung kann verwendet werden, um Abdriften zu korrigieren und ein versehentliches Drehen beim Bewegen und Drehen mit demselben Joystick zu verhindern. Wenn Sie diesen Wert erhöhen, müssen Sie den Joystick stärker neigen, bis Sie anfangen, sich zu drehen.",
         "Settings.MovementSettings.MovementExponent": "Bewegungs-Exponent",
         "Settings.MovementSettings.MovementExponent.Description": "Hiermit können Sie die Reaktionskurve beim Bewegen beeinflussen. Je nachdem, ob dieser Wert über oder unter 1.0 ist, bewegen Sie sich entweder anfangs langsam und beschleunigen dann oder starten direkt schneller.",
 
@@ -1617,6 +1625,10 @@
         "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "Wenn dies aktiviert ist, können Sie mit der App-Taste auf Ihrem rechten Controller die Facet-Anker an Ihren Armen und Unterarmen ein- und ausschalten. Diese bieten Platz, um beliebige Facets für den schnellen Zugriff zusätzlich zum Dash-Menü zu platzieren.",
         "Settings.FacetAnchorsSettings.AnimationSpeed": "Animationsgeschwindigkeit ein-/ausblenden",
         "Settings.FacetAnchorsSettings.AnimationSpeed.Description": "Dies legt fest, wie schnell die Facet-Anker ein- und ausgeblendet werden, wenn sie umgeschaltet werden.",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle": "Controller zum Umschalten",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "Dies bestimmt, mit welchem Controller (rechts oder links) die Facet-Anker umgeschaltet werden. Das Dash-Menü wird dann mit dem anderen Controller aufgerufen.",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground": "Zeige Hintergrund",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Wenn diese Option aktiviert ist, sind nur noch die Facets selbst sichtbar, der Hintergrund der Facet-Anker wird nicht mehr dargestellt.",
 
         "Settings.LaserSettings.SmoothSpeed": "Laser Glättungsgeschwindigkeit",
         "Settings.LaserSettings.SmoothSpeed.Description": "Hier können Sie einstellen, wie schnell der Laser auf Ihre Bewegungen reagiert. Bei niedrigen Werten ist der Laser träge, filtert aber Zittern besser heraus. Größere Werte sind reaktionsschneller, übertragen aber auch mehr Controller-Zittern.",
@@ -1856,6 +1868,12 @@
         "Inspector.Member.SetAllToY": "Setze alle auf Y",
         "Inspector.Member.SetAllToZ": "Setze alle auf Z",
         "Inspector.Member.SetAllToW": "Setze alle auf W",
+        "Inspector.Member.BakeBlendshape": "Fixiere Blendshape",
+        "Inspector.Member.RemoveBlendshape": "Entferne Blendshape",
+        "Inspector.Member.SplitBlendshape.X": "Blendshape über X zerteilen",
+        "Inspector.Member.SplitBlendshape.Y": "Blendshape über Y zerteilen",
+        "Inspector.Member.SplitBlendshape.Z": "Blendshape über Z zerteilen",
+
 
         "Inspector.ProceduralAsset.UpdateCount": "Anzahl der Aktualisierungen: {n}",
         "Inspector.ProceduralAsset.Error": "Fehler: {error}",
@@ -2218,12 +2236,14 @@
         "Tutorial.Welcome.LeftControllerMode": "Seitwärts-Bewegungsmodus linker Controller",
         "Tutorial.Welcome.RightControllerMode": "Seitwärts-Bewegungsmodus rechter Controller",
 
-        "Tutorial.Welcome.SidewaysTurn": "Drehen",
-        "Tutorial.Welcome.SidewaysTurn.Description": "Diesen Controller zum drehen verwenden.",
+        "Tutorial.Welcome.SidewaysTurnOnly": "Nur Drehen",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "Diesen Controller nur zum Drehen verwenden.",
+        "Tutorial.Welcome.SidewaysTurnAndMove": "Drehen und Bewegen",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "Diesen Controller zum Drehen und zur Bewegung verwenden.",
         "Tutorial.Welcome.SidewaysStrafe": "Seitwärtsbewegung",
-        "Tutorial.Welcome.SidewaysStrafe.Description": "Diesen Controller zum seitwärts bewegen verwenden.",
+        "Tutorial.Welcome.SidewaysStrafe.Description": "Diesen Controller zum seitwärts Bewegen verwenden.",
         "Tutorial.Welcome.SidewaysOff": "Aus",
-        "Tutorial.Welcome.SidewaysOff.Description": "Diesen Controller nur zum vorwärts/rückwärts bewegen verwenden.",
+        "Tutorial.Welcome.SidewaysOff.Description": "Diesen Controller nur zum vorwärts/rückwärts Bewegen verwenden.",
         
         "Tutorial.Welcome.SettingsHeight": "Ihre Größe",
         "Tutorial.Welcome.SettingsHeightExamples": "zum Beispiel: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",

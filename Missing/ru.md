@@ -2,28 +2,15 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Russian [ru]
-Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts  
-Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
-Settings.DashSettings.AllowReplacingSettings  
-Settings.DashSettings.AllowReplacingSettings.Description  
-Settings.CustomizationSettings  
-Settings.CustomizationSettings.UserInterfaceEditMode  
-Settings.CustomizationSettings.UserInterfaceEditMode.Description  
-Settings.FacetAnchorsSettings  
-Settings.FacetAnchorsSettings.UseFacetAnchors  
-Settings.FacetAnchorsSettings.UseFacetAnchors.Description  
-Settings.FacetAnchorsSettings.AnimationSpeed  
-Settings.FacetAnchorsSettings.AnimationSpeed.Description  
-Settings.FacetAnchorsSettings.FacetAnchorToggle  
-Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
-Settings.FacetAnchorsSettings.ShowContainerBackground  
-Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
-Inspector.Member.BakeBlendshape  
-Inspector.Member.RemoveBlendshape  
-Inspector.Member.SplitBlendshape.X  
-Inspector.Member.SplitBlendshape.Y  
-Inspector.Member.SplitBlendshape.Z  
-Inspector.DataPreset.SetActive  
-Inspector.DataPreset.SetValues  
-Inspector.DataPreset.AddAllChildren  
+General.Units.Metric  
+General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
+AvatarCreator.ProtectionUnavailable  
+Settings.MovementSettings.TurningDeadzone  
+Settings.MovementSettings.TurningDeadzone.Description  
+Tutorial.Welcome.SidewaysTurnOnly  
+Tutorial.Welcome.SidewaysTurnOnly.Description  
+Tutorial.Welcome.SidewaysTurnAndMove  
+Tutorial.Welcome.SidewaysTurnAndMove.Description  
 

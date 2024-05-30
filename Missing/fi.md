@@ -3,6 +3,10 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Finnish [fi]
 General.OK  
+General.Units.Metric  
+General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Facets.FPS  
 World.Actions.GuestWarning  
 World.AccessLevel.LAN  
@@ -37,6 +41,7 @@ Tooltip.ProtoFlux.ExplicitCast
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
+AvatarCreator.ProtectionUnavailable  
 Importer.Image.LUT  
 Importer.Video.Regular  
 Importer.Slices.Title  
@@ -60,6 +65,8 @@ Settings.MovementSettings.SmoothTurnSpeed.Description
 Settings.MovementSettings.SnapTurnAngle.Description  
 Settings.MovementSettings.NoClipSpeed.Description  
 Settings.MovementSettings.MovementDeadzone.Description  
+Settings.MovementSettings.TurningDeadzone  
+Settings.MovementSettings.TurningDeadzone.Description  
 Settings.MovementSettings.MovementExponent.Description  
 Settings.GrabbingSettings.DefaultHandGrabType.Description  
 Settings.GamepadSettings.ThumbstickLookSpeed  
@@ -361,6 +368,10 @@ Inspector.Fields.Drive
 Inspector.Fields.DriveWriteBack  
 WorkerInspector.Title  
 Tutorial.Welcome.Description  
+Tutorial.Welcome.SidewaysTurnOnly  
+Tutorial.Welcome.SidewaysTurnOnly.Description  
+Tutorial.Welcome.SidewaysTurnAndMove  
+Tutorial.Welcome.SidewaysTurnAndMove.Description  
 Twitch.Panel.Title.Text  
 Migration.LoginResetID.Description  
 Migration.Dialog.Source  
