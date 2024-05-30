@@ -55,6 +55,9 @@
         "General.Sort.Ascending": "Ascendant",
         "General.Sort.Descending": "Descendant",
 
+        "General.Units.Metric": "Métrique",
+        "General.Units.Imperial": "Impérial",
+
         "Worlds.Home": "Maison",
         "Worlds.Tutorial": "Tutoriel",
 
@@ -78,6 +81,8 @@
         "Interaction.Destroy": "Détruire",
         "Interaction.Duplicate": "Dupliquer",
         "Interaction.SaveToInventory": "Sauvegarder dans l'inventaire",
+        "Interaction.SaveToInventory.NotLoggedIn": "Vous devez vous connecter pour utiliser l'inventaire",
+        "Interaction.SaveToInventory.NoWritePermission": "Permissions insuffisantes pour sauvegarder dans le dossier actuel",
         "Interaction.Undo": "Défaire",
         "Interaction.Redo": "Refaire",
         "Interaction.EquipTool": "Équiper",
@@ -897,6 +902,7 @@
         "AvatarCreator.TryAlignHands": "Essayer d'aligner les mains",
         "AvatarCreator.AlignToolAnchors": "Aligner les ancres des outils",
         "AvatarCreator.Create": "Creér",
+        "AvatarCreator.ProtectionUnavailable": "<i>La protection d'avatar n'est pas disponible dans ce monde. Allez dans un autre monde pour protéger votre avatar.</i>",
 
         "Importer.General.AsRawFile": "Fichier brut",
 
@@ -1265,6 +1271,8 @@
         "Settings.MovementSettings.NoClipSpeed.Description": "Cela contrôle la vitesse de mouvement en utilisant le mode sans collisions. Ce mode de locomotion est généralement utilisé pour construire et tester des mondes.",
         "Settings.MovementSettings.MovementDeadzone": "Zone morte de mouvement",
         "Settings.MovementSettings.MovementDeadzone.Description": "Cette option peut être utilisée pour corriger le drift des manettes. Augmenter cette valeur va faire en sorte que vous devez bouger votre joystick plus loin pour bouger.",
+        "Settings.MovementSettings.TurningDeadzone": "Zone morte de rotation",
+        "Settings.MovementSettings.TurningDeadzone.Description": "Cette option peut vous aider a corriger le drift des manettes quand vous tentez de tourner avec une manette. Augmenter cette valeur fera en sorte que vous aurez à plus bouger votre joystick pour tourner.",
         "Settings.MovementSettings.MovementExponent": "Exposant de mouvement",
         "Settings.MovementSettings.MovementExponent.Description": "Cette option règle la vitesse a laquelle vous allez accélérer quand vous bougez. Vous pouvez soit commencer doucement et graduellement aller plus vite ou commencer directement a la vitesse maximale.",
 
@@ -2232,6 +2240,10 @@
         "Tutorial.Welcome.LeftControllerMode": "Mode manette gauche",
         "Tutorial.Welcome.RightControllerMode": "Mode manette droite",
 
+        "Tutorial.Welcome.SidewaysTurnOnly": "Rotation seule",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "Cette manette ne sera utilisée que pour tourner.",
+        "Tutorial.Welcome.SidewaysTurnAndMove": "Rotation et mouvement",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "Cette manette sera utilisée pour tourner et bouger.",
         "Tutorial.Welcome.SidewaysStrafe": "Straffer",
         "Tutorial.Welcome.SidewaysStrafe.Description": "Utiliser cette manette pour straffer",
         "Tutorial.Welcome.SidewaysOff": "Désactivé",
