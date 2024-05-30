@@ -72,6 +72,8 @@ Locomotion.Slide.Description
 Interaction.Destroy  
 Interaction.Duplicate  
 Interaction.SaveToInventory  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.Undo  
 Interaction.Redo  
 Interaction.EquipTool  
@@ -757,6 +759,7 @@ AvatarCreator.AlignHeadRight
 AvatarCreator.TryAlignHands  
 AvatarCreator.AlignToolAnchors  
 AvatarCreator.Create  
+AvatarCreator.ProtectionUnavailable  
 Importer.General.AsRawFile  
 Importer.Folder.Title  
 Importer.Folder.Individual  

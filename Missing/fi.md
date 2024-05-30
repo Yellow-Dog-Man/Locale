@@ -5,6 +5,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 General.OK  
 General.Units.Metric  
 General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Facets.FPS  
 World.Actions.GuestWarning  
 World.AccessLevel.LAN  
@@ -39,6 +41,7 @@ Tooltip.ProtoFlux.ExplicitCast
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
+AvatarCreator.ProtectionUnavailable  
 Importer.Image.LUT  
 Importer.Video.Regular  
 Importer.Slices.Title  

@@ -4,17 +4,11 @@ Note that this file updates only during build processes and doesn't necessarily 
 # German [de]
 General.Units.Metric  
 General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
+AvatarCreator.ProtectionUnavailable  
 Settings.MovementSettings.TurningDeadzone  
 Settings.MovementSettings.TurningDeadzone.Description  
-Settings.FacetAnchorsSettings.FacetAnchorToggle  
-Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
-Settings.FacetAnchorsSettings.ShowContainerBackground  
-Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
-Inspector.Member.BakeBlendshape  
-Inspector.Member.RemoveBlendshape  
-Inspector.Member.SplitBlendshape.X  
-Inspector.Member.SplitBlendshape.Y  
-Inspector.Member.SplitBlendshape.Z  
 Tutorial.Welcome.SidewaysTurnOnly  
 Tutorial.Welcome.SidewaysTurnOnly.Description  
 Tutorial.Welcome.SidewaysTurnAndMove  

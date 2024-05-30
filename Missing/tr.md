@@ -35,6 +35,8 @@ General.Units.Imperial
 Worlds.Home  
 Worlds.Tutorial  
 Interaction.SaveToInventory  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.Grab.Palm  
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
@@ -330,6 +332,7 @@ CreateNew.Directory.Error.EmptyName
 CreateNew.Directory.Error.LongName  
 CreateNew.Directory.Error.InvalidName  
 AvatarCreator.SetupFaceTracking  
+AvatarCreator.ProtectionUnavailable  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
 Importer.Image.Screenshot  

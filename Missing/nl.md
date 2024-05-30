@@ -17,6 +17,8 @@ General.Units.Metric
 General.Units.Imperial  
 Worlds.Home  
 Worlds.Tutorial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.CopyImage  
 Inventory.OpenWorld  
 Inventory.Equip  
@@ -247,6 +249,7 @@ CreateNew.Collider.Cylinder
 CreateNew.Collider.Mesh  
 CreateNew.Light.Spot  
 AvatarCreator.Title  
+AvatarCreator.ProtectionUnavailable  
 Importer.Image.PixelArt  
 Importer.Image.LUT  
 Importer.Model.Title  

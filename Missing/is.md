@@ -5,6 +5,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 General.UI.ToggleEditMode  
 General.Units.Metric  
 General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.Grab.Palm  
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
@@ -242,6 +244,7 @@ AvatarCreator.CenterHead
 AvatarCreator.TryAlignHands  
 AvatarCreator.AlignToolAnchors  
 AvatarCreator.Create  
+AvatarCreator.ProtectionUnavailable  
 Importer.General.AsRawFile  
 Importer.Folder.Title  
 Importer.Folder.Individual  
