@@ -55,6 +55,9 @@
         "General.Sort.Ascending": "升序",
         "General.Sort.Descending": "降序",
 
+        "General.Units.Metric" : "米制",
+        "General.Units.Imperial" : "英制单位",
+
         "Worlds.Home" : "家",
         "Worlds.Tutorial" : "教程",
 
@@ -78,6 +81,8 @@
         "Interaction.Destroy": "删除",
         "Interaction.Duplicate": "复制",
         "Interaction.SaveToInventory": "保存到物品栏",
+        "Interaction.SaveToInventory.NotLoggedIn": "你必须登录才能保存物品。",
+        "Interaction.SaveToInventory.NoWritePermission": "无法保存到当前物品栏文件夹。",
         "Interaction.Undo": "撤消",
         "Interaction.Redo": "重做",
         "Interaction.EquipTool": "装备",
@@ -897,6 +902,7 @@
         "AvatarCreator.TryAlignHands": "尝试对齐手",
         "AvatarCreator.AlignToolAnchors": "对齐工具锚点",
         "AvatarCreator.Create": "创建",
+        "AvatarCreator.ProtectionUnavailable": "<i>虚拟形象保护在该世界不可用。 请切换到另外一个世界来保护虚拟形象。</i>",
 
         "Importer.General.AsRawFile": "Raw文件",
 
@@ -1265,6 +1271,8 @@
         "Settings.MovementSettings.NoClipSpeed.Description": "当你使用穿墙模式时，这个选项可以控制你的移动速度。 这种移动方式通常用于建造和测试，因此不受所处世界属性影响，而其他移动方式通常受世界属性影响。",
         "Settings.MovementSettings.MovementDeadzone": "移动死区",
         "Settings.MovementSettings.MovementDeadzone.Description": "该设置可用于纠正漂移。 增加该值需要进一步倾斜摇杆才能开始移动。",
+        "Settings.MovementSettings.TurningDeadzone": "转向死区",
+        "Settings.MovementSettings.TurningDeadzone.Description": "该设置可用于纠正漂移，防止在同一操纵杆上移动和转向时发生意外转向。 增加该值将需要你进一步倾斜摇杆才能开始转向。",
         "Settings.MovementSettings.MovementExponent": "移动指数",
         "Settings.MovementSettings.MovementExponent.Description": "用它来控制移动时的曲线响应。 你可以用它来使曲线在开始移动时速度较慢，然后快速上升，或者立即开始加速移动，具体取决于该值是高于还是低于 1.0。",
 
@@ -2227,6 +2235,11 @@
 
         "Tutorial.Welcome.LeftControllerMode": "左控制器模式",
         "Tutorial.Welcome.RightControllerMode": "右控制器模式",
+
+        "Tutorial.Welcome.SidewaysTurnOnly": "仅转向",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "控制器仅用于转动",
+        "Tutorial.Welcome.SidewaysTurnAndMove": "转向 & 移动",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "控制器用于转向和移动",
 
         "Tutorial.Welcome.SidewaysStrafe": "前进",
         "Tutorial.Welcome.SidewaysStrafe.Description": "使用控制器来前进",
