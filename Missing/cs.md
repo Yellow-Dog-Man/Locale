@@ -2,6 +2,10 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Czech [cs]
+General.Units.Metric  
+General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.CopyImage  
 Inventory.Favorite.Document  
 Login.MissingSecretMachineId  
@@ -18,7 +22,6 @@ Recovery.NoPasswordSetup
 Recovery.NoPasswordSetup.Description  
 Register.UnknownError  
 Register.UnknownError.Description  
-Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
@@ -43,6 +46,7 @@ Tooltip.RigTransfer.ClearSource
 Tooltip.ComponentClone.SingleInstanceOn  
 Tooltip.ComponentClone.SingleInstanceOff  
 Tooltip.ComponentClone.ClearTemplate  
+AvatarCreator.ProtectionUnavailable  
 Settings.Category.Audio  
 Settings.Category.Controls  
 Settings.Category.Devices  

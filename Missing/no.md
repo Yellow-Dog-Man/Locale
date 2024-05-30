@@ -2,6 +2,10 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Norwegian [no]
+General.Units.Metric  
+General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.CopyImage  
 Inventory.Favorite.Document  
 World.Loaded  
@@ -47,7 +51,6 @@ Recovery.NoPasswordSetup
 Recovery.NoPasswordSetup.Description  
 Register.UnknownError  
 Register.UnknownError.Description  
-Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
@@ -72,6 +75,7 @@ Tooltip.RigTransfer.ClearSource
 Tooltip.ComponentClone.SingleInstanceOn  
 Tooltip.ComponentClone.SingleInstanceOff  
 Tooltip.ComponentClone.ClearTemplate  
+AvatarCreator.ProtectionUnavailable  
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
