@@ -450,7 +450,7 @@
         "Login.DuplicateAccount.Description": "Please contact support at {supportUrl}.",
 
         "Login.UnknownError": "Unknown Error",
-        "Login.UnknownError.Description": "An unknown error occured during login. Please contact support at {supportUrl}.",
+        "Login.UnknownError.Description": "An unknown error occurred during login. Please contact support at {supportUrl}.",
 
         "Register.MissingRequest": "Missing registration details",
         "Register.MissingRequest.Description": "We couldn't find any registration details. Make sure to include them when registering.",
@@ -1274,7 +1274,7 @@
         "Settings.MovementSettings.TurningDeadzone": "Turning deadzone",
         "Settings.MovementSettings.TurningDeadzone.Description": "This setting can be used to correct drift and prevent accidental turning when moving and turning on the same joystick. Increasing this value will require you to tilt your joystick further to start turning.",
         "Settings.MovementSettings.MovementExponent": "Movement exponent",
-        "Settings.MovementSettings.MovementExponent.Description": "Use this to control the curve response when moving. You can use this to either start moving slow at first and then quickly ramp up or start moving faster immediatelly, depending whether the value is above or below 1.0",
+        "Settings.MovementSettings.MovementExponent.Description": "Use this to control the curve response when moving. You can use this to either start moving slow at first and then quickly ramp up or start moving faster immediately, depending whether the value is above or below 1.0",
 
         "Settings.GrabbingSettings" : "Grabbing Settings",
         "Settings.GrabbingSettings.DefaultHandGrabType" : "Default Hand Grab Type",
@@ -1330,7 +1330,7 @@
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "When enabled, you will not be rendered in screenshots captured in-game.\n\n<color=hero.red>IMPORTANT:</color> Please note that this does not affect realtime cameras, screenshots taken by methods outside of the game or captures done through other methods in-world that might be part of the world's mechanics.",
 
         "Settings.MediaPrivacySettings.StripImageFileMetadata": "Strip image metadata on import",
-        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "When enabled, strips metadata from images on <b>import</b>.\n\nIncludes EXIF, Embeded comments, IPTC, XMP, and GEOTIFF metadata.\n\nThis will also strip any location data (such as GPS) within that metadata.\n\nDoes <b>not</b>, include files imported with the \"Raw File\" option.",
+        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "When enabled, strips metadata from images on <b>import</b>.\n\nIncludes EXIF, Embedded comments, IPTC, XMP, and GEOTIFF metadata.\n\nThis will also strip any location data (such as GPS) within that metadata.\n\nDoes <b>not</b>, include files imported with the \"Raw File\" option.",
 
         "Settings.Category.Integrations": "Integrations",
         "Settings.DiscordIntegrationSettings": "Discord Integration",
@@ -1345,7 +1345,7 @@
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Save Screenshots",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "When you take a picture with this setting enabled, a copy will be saved to Steam screenshots.",
 
-        "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap motion hand tracking",
+        "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion hand tracking",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "When enabled, Leap Motion device will be used to track your hands and fingers when present.",
         "Settings.LeapMotionSettings.Offset": "Hand tracking offset",
         "Settings.LeapMotionSettings.Offset.Description": "This is the offset in meters of the Leap Motion sensor on your VR headset. Tweak these values to make sure your hands are positioned correctly.",
@@ -1410,7 +1410,7 @@
         "Settings.HapticPointMapping.TorsoSide.Description" : "This indicates which side of torso should this device be mapped to (front or back)",
 
         "Settings.HapticPointMapping.HeadPitchAngle" : "Head Pitch Angle",
-        "Settings.HapticPointMapping.HeadPitchAngle.Description" : "This controls position along the \"vertical\" axis of the head. The default position is the center of face (where your nose is). Increating the angle will go upwards toward the top of your head. Decreasing the value goes downwards towards the chin.",
+        "Settings.HapticPointMapping.HeadPitchAngle.Description" : "This controls position along the \"vertical\" axis of the head. The default position is the center of face (where your nose is). Increasing the angle will go upwards toward the top of your head. Decreasing the value goes downwards towards the chin.",
         "Settings.HapticPointMapping.HeadYawAngle" : "Head Yaw Angle",
         "Settings.HapticPointMapping.HeadYawAngle.Description" : "This controls the horizontal position around head, turning left or right. The center (where your nose is) is the default pose. Decreasing the value will go left, increasing will go right. This wraps all around the head in a circle at 180°, which is where the back of your head is.",
 
@@ -1532,10 +1532,10 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN": "Disable LAN",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "This disables networking features specific to local networks, such as broadcasting your session on the local network or listening to other sessions broadcasted on this network.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Prefer Steam Networking Sockets",
-        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "When enabled, you will connect via Steam Networking Sockets protocol if possible. This can help in some cases when LNL protocol results in significant queing. However as this protocol is missing some features, you can run into more networking instability, so we recommend only enabling this once you ran into issues.",
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "When enabled, you will connect via Steam Networking Sockets protocol if possible. This can help in some cases when LNL protocol results in significant queuing. However as this protocol is missing some features, you can run into more networking instability, so we recommend only enabling this once you ran into issues.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Maximum number of concurrent asset transfers",
-        "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "When hosting sessions, this indicates how many locally imported assets can be transferred at the time. Increasing this can transfer assets to users faster, but can also degrate the quality of the network connection. We recommend testing what values can your network handle.",
+        "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "When hosting sessions, this indicates how many locally imported assets can be transferred at the time. Increasing this can transfer assets to users faster, but can also degrade the quality of the network connection. We recommend testing what values can your network handle.",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads": "Maximum number of concurrent downloads",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads.Description": "Use this to control how many assets can be downloaded at the same time. Using bigger value can speed up loading of worlds, but can also overload your network, so use caution when tweaking this value.",
 
@@ -1577,7 +1577,7 @@
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "This sets the default Twitch channel name for the Twitch Chat panel in the Camera Controls panel. This is mostly used by Twitch streamers who want to see their Twitch chat.",
 
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Do not send realtime read status",
-        "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "When enabled, other users won't be able to see when you have read their messages immediatelly. You will also not see when they have read yours.",
+        "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "When enabled, other users won't be able to see when you have read their messages immediately. You will also not see when they have read yours.",
 
         "Settings.LocaleSettings.CultureLocaleCode": "Culture locale code",
         "Settings.LocaleSettings.CultureLocaleCode.Description": "When set, this will override the default culture locale used for formatting numbers and other quantities. Normally the culture of your selected locale will be used, but this lets you mix and match them. E.g. using your native language with US culture.",
@@ -1640,7 +1640,7 @@
         "Settings.LaserSettings.ModulateExponent.Description": "This controls the response curve of the laser modulation between the start and end angles. You can use this to either make the laser respond more sluggishly at first or to start responding quickly and then tapering off.",
         "Settings.LaserSettings.ModulateSpeedMultiplier": "Modulate speed multiplier",
         "Settings.LaserSettings.ModulateSpeedMultiplier.Description": "The laser smoothing speed will be multiplied by this value once you have reached the modulate end angle. Increasing this value will make the laser catch up quicker once you move your hand far enough. Lowering the value will make it take longer to catch up.",
-        "Settings.LaserSettings.StickThreshold": "Laser stickyness",
+        "Settings.LaserSettings.StickThreshold": "Laser stickiness",
         "Settings.LaserSettings.StickThreshold.Description": "This controls how much will the laser stick to interactive items. Larger values will make it stick more. Setting this to zero will stop the stickiness completely.",
         "Settings.LaserSettings.ShowInDesktop": "Show lasers in desktop mode",
         "Settings.LaserSettings.ShowInDesktop.Description": "When on, the laser visual will be rendered to you fully when in first person view in desktop mode.",
@@ -1695,7 +1695,7 @@
         "Settings.InteractiveCameraFramingSettings.FirstPersonPitch": "First person pitch angle",
         "Settings.InteractiveCameraFramingSettings.FirstPersonPitch.Description": "In first person mode, use this to pitch the camera up and down.",
         "Settings.InteractiveCameraFramingSettings.FirstPersonRoll": "First person roll angle",
-        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll.Description": "In first person mode, this controlls the sideways rotation of the camera - tilting of left and right",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll.Description": "In first person mode, this controls the sideways rotation of the camera - tilting of left and right",
         "Settings.InteractiveCameraFramingSettings.FirstPersonOffset": "First person offset",
         "Settings.InteractiveCameraFramingSettings.FirstPersonOffset.Description": "Use this to move the camera offset in first person view relative to your eyes. This can be used if the avatar face geometry is clipping into the camera's view.",
         "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "Framing viewport position",
@@ -1751,7 +1751,7 @@
         "Settings.RelaySettings.AlwaysUseRelay" : "Always use relay to connect",
         "Settings.RelaySettings.AlwaysUseRelay.Description" : "Relays are typically used as a fallback when a direct connection to the host cannot be established. By enabling this option, you will force the connection to always happen through a relay.\n\nThis can be useful in cases of connection issues to particular hosts. It is <b>NOT</b> recommended to have this option permanently on.",
         "Settings.RelaySettings.UseClosestAvailableRelay" : "Use closest available relay",
-        "Settings.RelaySettings.UseClosestAvailableRelay.Description" : "When this option is enabled an available relay that is the closest to you will automatically be selected for the connection. If you want to connect through a specific relay (e.g. in case of long distance connections to avoid packet queing) you can disable this option and configure the preferred relays below.",
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description" : "When this option is enabled an available relay that is the closest to you will automatically be selected for the connection. If you want to connect through a specific relay (e.g. in case of long distance connections to avoid packet queuing) you can disable this option and configure the preferred relays below.",
         "Settings.RelaySettings.RelayPriorities": "Configure relay server priorities",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Relay Priorities",
 
@@ -1873,7 +1873,6 @@
         "Inspector.Member.SplitBlendshape.X" : "Split Blendshape across X",
         "Inspector.Member.SplitBlendshape.Y" : "Split Blendshape across Y",
         "Inspector.Member.SplitBlendshape.Z" : "Split Blendshape across Z",
-
 
         "Inspector.ProceduralAsset.UpdateCount": "Update Count: {n}",
         "Inspector.ProceduralAsset.Error": "Error: {error}",
@@ -2493,8 +2492,8 @@
         "CloudHome.Panel.LowQualityMode": "Low Quality Mode",
         "CloudHome.Panel.DoorSounds": "Door Sounds",
         "CloudHome.Panel.DoorsAlwaysOpen": "Doors Always Open",
-        "CloudHome.Panel.InteriorAmbience": "Interior Ambience",
-        "CloudHome.Panel.InteriorAmbienceVolume": "Interior<br>Ambience<br>Volume",
+        "CloudHome.Panel.InteriorAmbience": "Interior Ambiance",
+        "CloudHome.Panel.InteriorAmbienceVolume": "Interior<br>Ambiance<br>Volume",
         "CloudHome.Panel.LightsOn": "Lights On",
         "CloudHome.Panel.LightIntensity": "Light Intensity",
         "CloudHome.Panel.LightColor": "Light Color",
