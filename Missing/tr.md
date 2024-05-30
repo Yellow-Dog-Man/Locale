@@ -30,9 +30,13 @@ General.UI.MusicVolumeLocal
 General.UI.VoiceVolumeLocal  
 General.UI.SoundVolumeLocal  
 General.UI.PressToBegin  
+General.Units.Metric  
+General.Units.Imperial  
 Worlds.Home  
 Worlds.Tutorial  
 Interaction.SaveToInventory  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.Grab.Palm  
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
@@ -260,7 +264,6 @@ Contacts.InHiddenContactsOnly
 Contacts.InHiddenContactsPlus  
 Contacts.Bot  
 Contacts.Migrated  
-Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
@@ -329,6 +332,7 @@ CreateNew.Directory.Error.EmptyName
 CreateNew.Directory.Error.LongName  
 CreateNew.Directory.Error.InvalidName  
 AvatarCreator.SetupFaceTracking  
+AvatarCreator.ProtectionUnavailable  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
 Importer.Image.Screenshot  

@@ -2,7 +2,11 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Korean [ko]
-Notifications.IsSociable  
+General.Units.Metric  
+General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
+AvatarCreator.ProtectionUnavailable  
 Settings.MovementSettings.TurningDeadzone  
 Settings.MovementSettings.TurningDeadzone.Description  
 Tutorial.Welcome.SidewaysTurnOnly  

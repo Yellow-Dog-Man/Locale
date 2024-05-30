@@ -13,8 +13,12 @@ General.Notice
 General.UnderstandEnable  
 General.Dismiss  
 General.Edit  
+General.Units.Metric  
+General.Units.Imperial  
 Worlds.Home  
 Worlds.Tutorial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.CopyImage  
 Inventory.OpenWorld  
 Inventory.Equip  
@@ -177,7 +181,6 @@ Contacts.InContactsOnly
 Contacts.InHiddenContactsOnly  
 Contacts.InHiddenContactsPlus  
 Contacts.Migrated  
-Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
@@ -246,6 +249,7 @@ CreateNew.Collider.Cylinder
 CreateNew.Collider.Mesh  
 CreateNew.Light.Spot  
 AvatarCreator.Title  
+AvatarCreator.ProtectionUnavailable  
 Importer.Image.PixelArt  
 Importer.Image.LUT  
 Importer.Model.Title  

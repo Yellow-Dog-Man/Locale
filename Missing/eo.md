@@ -2,16 +2,20 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Esperanto [eo]
+General.Units.Metric  
+General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.CopyImage  
 Inventory.Favorite.Document  
 Login.MissingSecretMachineId  
 Login.MissingSecretMachineId.Description  
 Login.MalformedSecretMachineId  
 Login.MalformedSecretMachineId.Description  
-Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
+AvatarCreator.ProtectionUnavailable  
 Settings.Category.Audio  
 Settings.Category.Controls  
 Settings.Category.Devices  
