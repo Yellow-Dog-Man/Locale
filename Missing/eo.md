@@ -8,6 +8,7 @@ Login.MissingSecretMachineId
 Login.MissingSecretMachineId.Description  
 Login.MalformedSecretMachineId  
 Login.MalformedSecretMachineId.Description  
+Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
@@ -87,6 +88,8 @@ Settings.MovementSettings.NoClipSpeed
 Settings.MovementSettings.NoClipSpeed.Description  
 Settings.MovementSettings.MovementDeadzone  
 Settings.MovementSettings.MovementDeadzone.Description  
+Settings.MovementSettings.TurningDeadzone  
+Settings.MovementSettings.TurningDeadzone.Description  
 Settings.MovementSettings.MovementExponent  
 Settings.MovementSettings.MovementExponent.Description  
 Settings.GrabbingSettings  
@@ -585,8 +588,10 @@ Tutorial.Welcome.SettingsUseControllerDirection
 Tutorial.Welcome.SettingsUseControllerDirection.Description  
 Tutorial.Welcome.LeftControllerMode  
 Tutorial.Welcome.RightControllerMode  
-Tutorial.Welcome.SidewaysTurn  
-Tutorial.Welcome.SidewaysTurn.Description  
+Tutorial.Welcome.SidewaysTurnOnly  
+Tutorial.Welcome.SidewaysTurnOnly.Description  
+Tutorial.Welcome.SidewaysTurnAndMove  
+Tutorial.Welcome.SidewaysTurnAndMove.Description  
 Tutorial.Welcome.SidewaysStrafe  
 Tutorial.Welcome.SidewaysStrafe.Description  
 Tutorial.Welcome.SidewaysOff  

@@ -2,6 +2,9 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Russian [ru]
+Notifications.IsSociable  
+Settings.MovementSettings.TurningDeadzone  
+Settings.MovementSettings.TurningDeadzone.Description  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
 Settings.DashSettings.AllowReplacingSettings  
@@ -26,4 +29,8 @@ Inspector.Member.SplitBlendshape.Z
 Inspector.DataPreset.SetActive  
 Inspector.DataPreset.SetValues  
 Inspector.DataPreset.AddAllChildren  
+Tutorial.Welcome.SidewaysTurnOnly  
+Tutorial.Welcome.SidewaysTurnOnly.Description  
+Tutorial.Welcome.SidewaysTurnAndMove  
+Tutorial.Welcome.SidewaysTurnAndMove.Description  
 

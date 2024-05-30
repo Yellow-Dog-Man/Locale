@@ -55,6 +55,9 @@
         "General.Sort.Ascending": "Ascending",
         "General.Sort.Descending": "Descending",
 
+        "General.Units.Metric" : "Metric",
+        "General.Units.Imperial" : "Imperial",
+
         "Worlds.Home": "Home",
         "Worlds.Tutorial": "Tutorial",
 
@@ -1265,6 +1268,8 @@
         "Settings.MovementSettings.NoClipSpeed.Description": "This controls how fast you'll move when you're using the Noclip locomotion specifically. This type of locomotion is often used for building and testing and as such is not controlled by the world you're in, while others typically are.",
         "Settings.MovementSettings.MovementDeadzone": "Movement deadzone",
         "Settings.MovementSettings.MovementDeadzone.Description": "This setting can be used to correct drift. Increasing this value will require you to tilt your joystick further to start moving.",
+        "Settings.MovementSettings.TurningDeadzone": "Turning deadzone",
+        "Settings.MovementSettings.TurningDeadzone.Description": "This setting can be used to correct drift and prevent accidental turning when moving and turning on the same joystick. Increasing this value will require you to tilt your joystick further to start turning.",
         "Settings.MovementSettings.MovementExponent": "Movement exponent",
         "Settings.MovementSettings.MovementExponent.Description": "Use this to control the curve response when moving. You can use this to either start moving slow at first and then quickly ramp up or start moving faster immediatelly, depending whether the value is above or below 1.0",
 
@@ -2228,8 +2233,10 @@
         "Tutorial.Welcome.LeftControllerMode": "Left Controller Mode",
         "Tutorial.Welcome.RightControllerMode": "Right Controller Mode",
 
-        "Tutorial.Welcome.SidewaysTurn": "Turning",
-        "Tutorial.Welcome.SidewaysTurn.Description": "Use this controller for turning",
+        "Tutorial.Welcome.SidewaysTurnOnly": "Turning Only",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "Use this controller only for turning",
+        "Tutorial.Welcome.SidewaysTurnAndMove": "Turning & Moving",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "Use this controller for turning and moving",
         "Tutorial.Welcome.SidewaysStrafe": "Strafing",
         "Tutorial.Welcome.SidewaysStrafe.Description": "Use this controller for strafing",
         "Tutorial.Welcome.SidewaysOff": "Off",

@@ -16,6 +16,7 @@ Session.JoinVerifier.Label
 Session.JoinVerifier.ComponentWarning  
 Session.JoinVerifier.SetCustomVerifier  
 Contacts.Unblocked  
+Notifications.IsSociable  
 Tooltip.Cartridge.Eject  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
@@ -60,6 +61,8 @@ Settings.MovementSettings.SmoothTurnSpeed.Description
 Settings.MovementSettings.SnapTurnAngle.Description  
 Settings.MovementSettings.NoClipSpeed.Description  
 Settings.MovementSettings.MovementDeadzone.Description  
+Settings.MovementSettings.TurningDeadzone  
+Settings.MovementSettings.TurningDeadzone.Description  
 Settings.MovementSettings.MovementExponent.Description  
 Settings.GrabbingSettings.DefaultHandGrabType.Description  
 Settings.GamepadSettings.ThumbstickLookSpeed  
@@ -361,6 +364,10 @@ Inspector.Fields.Drive
 Inspector.Fields.DriveWriteBack  
 WorkerInspector.Title  
 Tutorial.Welcome.Description  
+Tutorial.Welcome.SidewaysTurnOnly  
+Tutorial.Welcome.SidewaysTurnOnly.Description  
+Tutorial.Welcome.SidewaysTurnAndMove  
+Tutorial.Welcome.SidewaysTurnAndMove.Description  
 Twitch.Panel.Title.Text  
 Migration.LoginResetID.Description  
 Migration.Dialog.Source  
