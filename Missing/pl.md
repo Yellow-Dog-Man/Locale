@@ -6,6 +6,8 @@ General.Units.Metric
 General.Units.Imperial  
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
+Profile.Status.Sociable  
+Notifications.IsSociable  
 Notifications.UserJoined  
 Notifications.UserLeft  
 Tooltip.Glue.Mode.BakeSkinnedMeshes  
@@ -282,6 +284,8 @@ Settings.DashSettings.AllowReplacingSettings.Description
 Settings.NotificationSettings  
 Settings.NotificationSettings.UserOnline  
 Settings.NotificationSettings.UserOnline.Description  
+Settings.NotificationSettings.UserSociable  
+Settings.NotificationSettings.UserSociable.Description  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description  
 Settings.NotificationSettings.Message  

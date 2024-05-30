@@ -12,6 +12,7 @@ World.Actions.GuestWarning
 World.AccessLevel.LAN  
 Account.Saml2.Title  
 Avatar.Badge.Live  
+Profile.Status.Sociable  
 Profile.Status.Online  
 Profile.Status.Offline  
 Session.JoinVerifier.EnableHeader  
@@ -20,6 +21,7 @@ Session.JoinVerifier.Label
 Session.JoinVerifier.ComponentWarning  
 Session.JoinVerifier.SetCustomVerifier  
 Contacts.Unblocked  
+Notifications.IsSociable  
 Tooltip.Cartridge.Eject  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
@@ -198,6 +200,8 @@ Settings.DashSettings.OpenCloseSpeed.Description
 Settings.DashSettings.AllowReplacingSettings  
 Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings.UserOnline.Description  
+Settings.NotificationSettings.UserSociable  
+Settings.NotificationSettings.UserSociable.Description  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description  
 Settings.NotificationSettings.Message.Description  
 Settings.NotificationSettings.Invite.Description  
