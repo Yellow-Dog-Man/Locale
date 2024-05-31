@@ -216,6 +216,7 @@ Account.Type.Team
 Avatar.Badge.Live  
 2FA.Header  
 2FA.Token  
+Profile.Status.Sociable  
 Profile.Status.Headless  
 Session.JoinVerifier.EnableHeader  
 Session.JoinVerifier.EnableText  
@@ -233,6 +234,7 @@ Contacts.InContactsOnly
 Contacts.InHiddenContactsOnly  
 Contacts.InHiddenContactsPlus  
 Contacts.Migrated  
+Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
@@ -673,6 +675,8 @@ Settings.DashSettings.AllowReplacingSettings.Description
 Settings.NotificationSettings  
 Settings.NotificationSettings.UserOnline  
 Settings.NotificationSettings.UserOnline.Description  
+Settings.NotificationSettings.UserSociable  
+Settings.NotificationSettings.UserSociable.Description  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description  
 Settings.NotificationSettings.Message  

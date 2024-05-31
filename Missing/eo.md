@@ -12,6 +12,8 @@ Login.MissingSecretMachineId
 Login.MissingSecretMachineId.Description  
 Login.MalformedSecretMachineId  
 Login.MalformedSecretMachineId.Description  
+Profile.Status.Sociable  
+Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
@@ -365,6 +367,8 @@ Settings.DashSettings.AllowReplacingSettings.Description
 Settings.NotificationSettings  
 Settings.NotificationSettings.UserOnline  
 Settings.NotificationSettings.UserOnline.Description  
+Settings.NotificationSettings.UserSociable  
+Settings.NotificationSettings.UserSociable.Description  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description  
 Settings.NotificationSettings.Message  
