@@ -588,6 +588,7 @@
         "2FA.Header": "2FA Verifikation",
         "2FA.Token": "6-stelliges Token:",
 
+        "Profile.Status.Sociable": "Gesellig",
         "Profile.Status.Online": "Online",
         "Profile.Status.Away": "Abwesend",
         "Profile.Status.Busy": "Beschäftigt",
@@ -658,6 +659,7 @@
         "Contacts.Bot": "Bot-Konto",
         "Contacts.Migrated": "Kontakt ist noch nicht migriert",
 
+        "Notifications.IsSociable": "Ist gesellig, bitte anstupsen oder einladen!",
         "Notifications.IsOnline": "Ist jetzt Online",
         "Notifications.IsOnlineOnDifferentVersion": "Ist jetzt Online <size=75%>(mit Version: {version})</size>",
         "Notifications.ReceivedContactRequest": "Hat eine Kontaktanfrage gesendet",
@@ -1596,6 +1598,8 @@
         "Settings.NotificationSettings": "Benachrichtigungen",
         "Settings.NotificationSettings.UserOnline": "Kontakt Online",
         "Settings.NotificationSettings.UserOnline.Description": "Hier stellen Sie ein, ob Sie benachrichtigt werden, wenn dieser Kontakt online geht.",
+        "Settings.NotificationSettings.UserSociable": "Kontakt Gesellig",
+        "Settings.NotificationSettings.UserSociable.Description": "Wenn einer Ihrer Kontakte gesellig wird, erhalten Sie eine deutliche Benachrichtigung mit Signalton, so dass Sie ihn einladen oder anstupsen können!\n\nWenn Sie diese Benachrichtigungen nicht mögen, können Sie sie hiermit ausschalten, dann wird dies nicht anders behandelt, als ob ein Benutzer online kommt.",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild": "Kontakt Online mit einem inkompatiblen Build",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description": "Hier können Sie festlegen, ob Sie Benachrichtigungen erhalten, wenn Ihre Kontakte online gehen und dabei einen Build verwenden, der nicht mit Ihrem eigenen kompatibel ist (z. B. eine neue Version oder Pre-Release-Builds).",
         "Settings.NotificationSettings.Message": "Nachrichten",
@@ -1873,7 +1877,6 @@
         "Inspector.Member.SplitBlendshape.X": "Blendshape über X zerteilen",
         "Inspector.Member.SplitBlendshape.Y": "Blendshape über Y zerteilen",
         "Inspector.Member.SplitBlendshape.Z": "Blendshape über Z zerteilen",
-
 
         "Inspector.ProceduralAsset.UpdateCount": "Anzahl der Aktualisierungen: {n}",
         "Inspector.ProceduralAsset.Error": "Fehler: {error}",
