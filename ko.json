@@ -55,6 +55,9 @@
         "General.Sort.Ascending": "오름차순",
         "General.Sort.Descending": "내림차순",
 
+        "General.Units.Metric" : "미터법",
+        "General.Units.Imperial" : "야드파운드법",
+        
         "Worlds.Home" : "홈",
         "Worlds.Tutorial" : "자습서",
 
@@ -78,6 +81,8 @@
         "Interaction.Destroy": "제거",
         "Interaction.Duplicate": "복제",
         "Interaction.SaveToInventory": "보관함에 저장",
+        "Interaction.SaveToInventory.NotLoggedIn": "아이템 저장은 로그인을 필요로 합니다.",
+        "Interaction.SaveToInventory.NoWritePermission": "현재 <color=hero.yellow>대시 > 보관함</color>의 위치에는 저장할 수 없습니다.",
         "Interaction.Undo": "실행취소",
         "Interaction.Redo": "되돌리기",
         "Interaction.EquipTool": "장착하기",
@@ -132,7 +137,7 @@
         "Inventory.Favorite.ColorDialog": "기본설정:색상선택",
         "Inventory.Favorite.Hyperlink": "기본설정:URL표시기",
         "Inventory.Favorite.Document": "기본설정:문서보기",
-        "Inventory.SpawnFacet": "페싯으로 생성",
+        "Inventory.SpawnFacet": "패싯으로 생성",
 
         "Dash.Screens.Home": "홈",
         "Dash.Screens.Worlds": "월드",
@@ -829,7 +834,7 @@
         "CreateNew.Object.SpawnArea": "스폰 구역",
         "CreateNew.Object.SpawnPoint": "스폰 포인트",
         "CreateNew.Object.UIXCanvas": "UIX 캔버스",
-        "CreateNew.Object.Facet": "페싯",
+        "CreateNew.Object.Facet": "패싯",
 
         "CreateNew.Object.FogVolume": "안개 생성",
         "CreateNew.Object.FogVolume.Additive": "가산혼합(밝음)",
@@ -897,6 +902,7 @@
         "AvatarCreator.TryAlignHands": "손 위치 재정렬 시도",
         "AvatarCreator.AlignToolAnchors": "도구 앵커 위치 재정렬",
         "AvatarCreator.Create": "만들기",
+        "AvatarCreator.ProtectionUnavailable": "<i>지금 계신 월드에서는 아바타 보호기능을 이용하실 수 없습니다. 다른 월드에서 시도해 주세요.</i>",
 
         "Importer.General.AsRawFile": "원시(Raw) 파일",
 
@@ -1265,6 +1271,8 @@
         "Settings.MovementSettings.NoClipSpeed.Description": "노클립(No-clip) 이동 기능 사용시, 그 속도를 제어합니다.",
         "Settings.MovementSettings.MovementDeadzone": "컨트롤러 데드존",
         "Settings.MovementSettings.MovementDeadzone.Description": "컨트롤러 조이스틱의 움직임을 인식하는 임계값을 설정합니다. 설정값이 클수록 조이스틱을 많이 기울여야 조작한 것으로 인식합니다.",
+        "Settings.MovementSettings.TurningDeadzone": "회전 데드존",
+        "Settings.MovementSettings.TurningDeadzone.Description": "이 설정은 우발적인 회전을 방지하는데 사용할 수 있습니다. 이 값을 높이면 회전을 수행할때 조이스틱을 더 많이 기울여야 합니다.",
         "Settings.MovementSettings.MovementExponent": "컨트롤러 가속 계수",
         "Settings.MovementSettings.MovementExponent.Description": "이동시 조이스틱의 기울기에 비례하여 가속되는 비율을 설정합니다.",
 
@@ -1321,6 +1329,9 @@
         "Settings.MediaPrivacySettings.HideInScreenshots" : "스크린샷 캡쳐시 제외 처리",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "활성화 한 경우, 게임 내에서 촬영된 스크린샷에 사용자가 표시되지 않습니다.\n\n<color=hero.red>중요:</color>이는 월드에 종속된 특정 방법이나 실시간 카메라 또는 게임 외부 시스템을 이용한 촬영에는 영향을 미치지 않습니다.",
 
+        "Settings.MediaPrivacySettings.StripImageFileMetadata": "이미지 가져오기시 메타데이터 제거",
+        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "활성화 시, <b>가져오기(Import)</b>시 이미지에서 메타데이터를 제거합니다.\n\n이미지 내 메타데이터인 EXIF, 설명글, IPTC, XMP, GEOTIFF등 모든것이 포함됩니다.\n\n이렇게 하면 이미지 내 GPS 정보 같은 위치 데이터들도 모두 삭제됩니다.\n\n단, 가져오기 옵션에서 <color=hero.yellow>원시(Raw) 파일</color>을 선택한 경우에는 적용되지 않습니다.",
+        
         "Settings.Category.Integrations": "연동",
         "Settings.DiscordIntegrationSettings": "디스코드 연동",
         "Settings.SteamIntegrationSettings": "스팀 연동",
@@ -1381,6 +1392,10 @@
         "Settings.TrackerSettings.Trackers.Unmap" : "맵핑 초기화",
         "Settings.TrackerSettings.Trackers.Remove" : "삭제",
 
+        "Settings.SteamLinkSettings" : "스팀링크",
+        "Settings.SteamLinkSettings.OSC_DataPort" : "안면추적 OSC 포트번호",
+        "Settings.SteamLinkSettings.OSC_DataPort.Description" : "OSC를 통한 안면 추적에 사용할 통신 포트를 설정합니다. 설정값은 SteamVR에서 설정한 것과 동일하게 하셔야 합니다.",
+        
         "Settings.HapticPointMapping.MappingTarget" : "맵핑할 위치",
         "Settings.HapticPointMapping.MappingTarget.Description" : "맵핑할 아바타의 신체 부위를 선택합니다.",
 
@@ -1555,6 +1570,8 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "활성화 시, 잡기(Grab)를 빠르게 두번 수행하여 도구를 장착할 수 있습니다. 이 기능은 잠재적으로 삭제될 예정입니다.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "기존 월드 스위처 사용",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "활셩화 한 경우, <color=hero.yellow>주로 사용하는 손 방향</color>에서 설정한 방향의 반대쪽 컨트롤러의 대시 메뉴 호출 버튼을 누르면, 과거에 사용되던 월드 스위쳐가 나타납니다. 이는 향후 더 유연한 시스템으로 대체될 예정입니다.",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "보관함 & 세션 제스쳐 사용",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "활성화 후, 컨트롤러에서 잡기 동작을 한 상태로 대시 메뉴 호출 버튼을 누르면 구 보관함 또는 세션 메뉴가 나타납니다.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "트위치 체널명",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "<color=hero.yellow>카메라 제어</color> 화면의 트위치 채팅 화면 내 사용할 기본 채널명을 설정합니다. 트위치에 방송하면서 채팅을 보고자 하시면 유용하게 사용할 수 있습니다.",
@@ -1573,6 +1590,8 @@
         "Settings.DashSettings.DashCurvature.Description": "VR 상에서 대시 메뉴가 얼마나 휘어져야 하는지를 설정합니다. 0으로 설정하면 완벽하게 평면이 됩니다.",
         "Settings.DashSettings.OpenCloseSpeed": "애니메이션 속도",
         "Settings.DashSettings.OpenCloseSpeed.Description": "대시 메뉴가 열리고 닫히는 속도를 설정합니다. 값을 높일수록 빠르게 즉시 열리고 닫히는것처럼 보입니다.",
+        "Settings.DashSettings.AllowReplacingSettings" : "설정 편집 허용",
+        "Settings.DashSettings.AllowReplacingSettings.Description" : "활성화 시, <color=hero.yellow>UI 편집 모드</color>에서 <color=hero.yellow>대시메뉴 > 설정</color>에 있는 각 패싯을 선택하고 다른 패싯으로 변경할 수 있습니다.\n\n각각의 설정을 패싯으로 이용 하고자 할때는 먼저 이 설정을 비활성화 해야 합니다. 설정 UI를 변경하고 싶을때 잠시 활성화 했다가, 변경이 완료되면 비활성화 하는것을 추천합니다.",
 
         "Settings.NotificationSettings" : "알림",
         "Settings.NotificationSettings.UserOnline" : "친구가 접속할 때",
@@ -1585,12 +1604,10 @@
         "Settings.NotificationSettings.Invite.Description" : "활성화 시, 세션에 초대될때 알림을 받습니다.",
         "Settings.NotificationSettings.ContactRequest" : "친구 요청을 받을 때",
         "Settings.NotificationSettings.ContactRequest.Description" : "활성화 시, 누군가에게 친구 요청을 받을때 알림을 받습니다.",
-      
         "Settings.NotificationSettings.ContactSessionStarted" : "친구가 세션을 시작할 때",
         "Settings.NotificationSettings.ContactSessionStarted.Description" : "연락처 내 친구가 새로운 세션을 시작하였을때 알림을 받을지 설정합니다.",
         "Settings.NotificationSettings.PublicSessionStarted" : "새로운 공개 세션이 시작할 때",
         "Settings.NotificationSettings.PublicSessionStarted.Description" : "친구가 아닌 사용자가 새로운 공개 세션을 시작한 경우 알림을 받을지 설정합니다.",
-      
         "Settings.NotificationSettings.UserJoinAndLeave" : "사용자 참여 & 퇴장할 때",
         "Settings.NotificationSettings.UserJoinAndLeave.Description" : "활성화 시, 현재 세션에 대해 사용자의 참여 또는 퇴장이 생길경우 알림이 표시됩니다.",
 
@@ -1599,6 +1616,20 @@
         "Settings.NamePlateSettings.UseCustomNameplates": "개인화된 이름표 허용",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "만약 상대방의 이름을 읽기 힘들거나, 완전히 안보이도록 조정한 사용자가 있을 경우. 또는 사용자 이름과 배지(특히, 모더레이터 배지 등)를 정확하게 표시하고 싶다면 비활성화 해 주세요.",
 
+        "Settings.CustomizationSettings" : "개인화 설정",
+        "Settings.CustomizationSettings.UserInterfaceEditMode" : "UI 편집 모드",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description" : "활성화 시, 대시와 손, 시야의 패싯 앵커(활성화된 상태에서)에 패싯(모듈식 UI 조각)의 배치를 편집할 수 있습니다.\n\n편집 완료 후, 이 설정을 비활성화 하는것을 잊지 마세요. 대시메뉴 하단에 표시되는 버튼을 눌러 끌 수도 있습니다.",
+
+        "Settings.FacetAnchorsSettings" : "패싯 앵커",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors" : "패싯 앵커 사용",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description" : "활성화 시, 우측 VR 컨트롤러의 앱 버튼을 눌르 손과 하완(팔뚝)등의 패싯 앵커를 시각화할 수 있습니다. 이는 대시메뉴를 제외한 부가적인 패싯 배치 공간을 제공합니다.",
+        "Settings.FacetAnchorsSettings.AnimationSpeed" : "애니메이션 속도",
+        "Settings.FacetAnchorsSettings.AnimationSpeed.Description" : "패싯 앵커가 시각화되는 속도를 지정합니다.",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle" : "조작방향",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description" : "패싯 앵커를 호출할때 사용할 컨트롤러의 방향(좌, 우)을 지정합니다. 대시 메뉴 호출은 항상 반대 방향이 됩니다.",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground" : "패싯 패널 시각화",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description" : "이 옵션을 끄는 경우, 패싯만 보이고 패싯이 배치된 패널은 보이지 않게 됩니다.",
+        
         "Settings.LaserSettings.SmoothSpeed": "지시선 반응 속도",
         "Settings.LaserSettings.SmoothSpeed.Description": "지시선이 사용자의 움직임에 반응하는 속도를 설정하세요. 낮은 값일수록 지시선의 반응이 늦어지지만 손떨림을 걸러내는데 유용합니다. 반대로, 높게 설정한 경우 컨트롤러의 미세한 흔들림도 반영됩니다.",
         "Settings.LaserSettings.ModulateStartAngle": "시작점 휨 각도",
@@ -1837,6 +1868,11 @@
         "Inspector.Member.SetAllToY": "모두 Y값으로 설정",
         "Inspector.Member.SetAllToZ": "모두 Z값으로 설정",
         "Inspector.Member.SetAllToW": "모두 W값으로 설정",
+        "Inspector.Member.BakeBlendshape" : "블렌드셰이프 베이크",
+        "Inspector.Member.RemoveBlendshape" : "블렌드셰이프 삭제",
+        "Inspector.Member.SplitBlendshape.X" : "블렌드셰이프를 좌/우(X축)로 분리",
+        "Inspector.Member.SplitBlendshape.Y" : "블렌드셰이프를 상/하(Y축)로 분리",
+        "Inspector.Member.SplitBlendshape.Z" : "블렌드셰이프를 전/후(Z축)로 분리",
 
         "Inspector.ProceduralAsset.UpdateCount": "갱신 횟수: {n}",
         "Inspector.ProceduralAsset.Error": "오류: {error}",
@@ -2042,6 +2078,10 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "부모로부터 상속된 고정 콜라이더를 추가",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "항상 마지막 본을 잡도록 함",
 
+        "Inspector.DataPreset.SetActive": "프리셋 적용",
+        "Inspector.DataPreset.SetValues": "현재값을 프리셋에 저장",
+        "Inspector.DataPreset.AddAllChildren": "항목 자동 추가",
+        
         "Inspector.Rig.CleanupBoneColliders": "본(Bone) 콜라이더 삭제",
         "Inspector.Rig.GenerateDebugVisuals": "디버그 시각화 생성",
         "Inspector.Rig.ClearDebugVisuals": "디버그 시각화 삭제",
@@ -2195,8 +2235,11 @@
         "Tutorial.Welcome.LeftControllerMode": "왼쪽 컨트롤러 모드",
         "Tutorial.Welcome.RightControllerMode": "오른쪽 컨트롤러 모드",
 
-        "Tutorial.Welcome.SidewaysTurn": "아바타 회전",
-        "Tutorial.Welcome.SidewaysTurn.Description": "이 컨트롤러로 아바타의 몸을 회전합니다.",
+        "Tutorial.Welcome.SidewaysTurnOnly": "회전 전용",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "이 컨트롤러를 회전 용도로 사용합니다.",
+        "Tutorial.Welcome.SidewaysTurnAndMove": "회전 및 이동",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "이 컨트롤러를 이용하여 회전과 이동을 합니다.",
+
         "Tutorial.Welcome.SidewaysStrafe": "수평이동(Strafing)",
         "Tutorial.Welcome.SidewaysStrafe.Description": "이 컨트롤러로 아바타의 수평이동을 처리합니다.",
         "Tutorial.Welcome.SidewaysOff": "끄기",
@@ -2267,7 +2310,7 @@
         "Migration.DataSelection.Everything": "전체",
         "Migration.DataSelection.Choose": "이전할 데이터 직접 선택",
 
-        "Migration.DataSelection.Favorites": "즐겨찾기 (아바타, 홈월드, 카메라, 키보드, 페싯)",
+        "Migration.DataSelection.Favorites": "즐겨찾기 (아바타, 홈월드, 카메라, 키보드, 패싯)",
 
         "Migration.DataSelection.Favorites.Description": "이것은 이전 플랫폼에서 사용되던 즐겨찾기(월드, 아바타, 카메라, 키보드 등) 정보를 그대로 사용하고자 할때 설정합니다.\n <color=red><b>경고:</b></color> 이 옵션을 활성화한 경우, 현재 플랫폼에서 설정한 모든 즐겨찾기 정보가 손실될 수 있습니다.",
         "Migration.DataSelection.Favorites.OverwriteTitle": "즐겨찾기 정보를 마이그레이션할 정보로 변경할까요?",

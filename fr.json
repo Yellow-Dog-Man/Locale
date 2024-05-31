@@ -55,6 +55,9 @@
         "General.Sort.Ascending": "Ascendant",
         "General.Sort.Descending": "Descendant",
 
+        "General.Units.Metric": "Métrique",
+        "General.Units.Imperial": "Impérial",
+
         "Worlds.Home": "Maison",
         "Worlds.Tutorial": "Tutoriel",
 
@@ -78,6 +81,8 @@
         "Interaction.Destroy": "Détruire",
         "Interaction.Duplicate": "Dupliquer",
         "Interaction.SaveToInventory": "Sauvegarder dans l'inventaire",
+        "Interaction.SaveToInventory.NotLoggedIn": "Vous devez vous connecter pour utiliser l'inventaire",
+        "Interaction.SaveToInventory.NoWritePermission": "Permissions insuffisantes pour sauvegarder dans le dossier actuel",
         "Interaction.Undo": "Défaire",
         "Interaction.Redo": "Refaire",
         "Interaction.EquipTool": "Équiper",
@@ -127,7 +132,7 @@
         "Inventory.Favorite.AudioPlayer": "Définir comme lecteur audio",
         "Inventory.Favorite.InteractiveCamera": "Définir comme camera",
         "Inventory.Favorite.Keyboard": "Définir comme clavier",
-        "Inventory.Favorite.Avatar": "Définir comme avatar",
+        "Inventory.Favorite.Avatar": "Définir comme avatar par défaut",
         "Inventory.Favorite.WorldLoadingIndicator": "Définir comme barre de chargement",
         "Inventory.Favorite.ColorDialog": "Définir comme sélecteur de couleurs",
         "Inventory.Favorite.Hyperlink": "Définir comme affichage d'un lien",
@@ -146,13 +151,13 @@
 
         "Dash.Actions.PasteFromClipboard": "Coller le contenu du presse-papier",
 
-        "Dash.Actions.TurnOffUIEdit": "Désactiver le mode de modification de l'interface utilisateur",
+        "Dash.Actions.TurnOffUIEdit": "Désactiver le mode d'édition de l'interface",
 
         "Dash.Actions.CloudHome": "Ma Maison (en ligne)",
 
         "Dash.Exit.Header": "Quitter {appName}",
-        "Dash.Exit.ExitAndSave": "Quitter et sauvegarder les changements",
-        "Dash.Exit.ExitAndDiscard": "Quitter sans sauvegarder",
+        "Dash.Exit.ExitAndSave": "Quitter et sauvegarder les maisons",
+        "Dash.Exit.ExitAndDiscard": "Quitter sans sauvegarder les maisons",
         "Dash.Exit.Sponsor": "Un grand merci a {name} pour avoir sponsorisé ce projet!",
         "Dash.Exit.Sponsor.You": "TOI",
         "Dash.Exit.Shoutouts": "Ce projet est rendu possible grâce a ces personnes:",
@@ -296,7 +301,7 @@
         "World.Category.Games": "Jeux",
         "World.Category.Art": "Art",
         "World.Category.Tutorials": "Tutoriels",
-        "World.Category.Educational": "Éducationnel",
+        "World.Category.Educational": "Éducation",
         "World.Category.Random": "Aléatoire",
         "World.Category.MyWorlds": "Mes mondes",
         "World.Category.Custom": "Personnalisé",
@@ -897,6 +902,7 @@
         "AvatarCreator.TryAlignHands": "Essayer d'aligner les mains",
         "AvatarCreator.AlignToolAnchors": "Aligner les ancres des outils",
         "AvatarCreator.Create": "Creér",
+        "AvatarCreator.ProtectionUnavailable": "<i>La protection d'avatar n'est pas disponible dans ce monde. Allez dans un autre monde pour protéger votre avatar.</i>",
 
         "Importer.General.AsRawFile": "Fichier brut",
 
@@ -1022,7 +1028,7 @@
         "NewWorld.UnsafeMode": "Mode non sûr:",
         "NewWorld.Port": "Port:",
         "NewWorld.AutoPort": "Auto:",
-        "NewWorld.DefaultName": "{name} Monde",
+        "NewWorld.DefaultName": "Monde de {name}",
 
         "FullBody.Title": "Calibration du corps",
         "FullBody.SetHeight": "1) Définissez votre taille",
@@ -1265,6 +1271,8 @@
         "Settings.MovementSettings.NoClipSpeed.Description": "Cela contrôle la vitesse de mouvement en utilisant le mode sans collisions. Ce mode de locomotion est généralement utilisé pour construire et tester des mondes.",
         "Settings.MovementSettings.MovementDeadzone": "Zone morte de mouvement",
         "Settings.MovementSettings.MovementDeadzone.Description": "Cette option peut être utilisée pour corriger le drift des manettes. Augmenter cette valeur va faire en sorte que vous devez bouger votre joystick plus loin pour bouger.",
+        "Settings.MovementSettings.TurningDeadzone": "Zone morte de rotation",
+        "Settings.MovementSettings.TurningDeadzone.Description": "Cette option peut vous aider a corriger le drift des manettes quand vous tentez de tourner avec une manette. Augmenter cette valeur fera en sorte que vous aurez à plus bouger votre joystick pour tourner.",
         "Settings.MovementSettings.MovementExponent": "Exposant de mouvement",
         "Settings.MovementSettings.MovementExponent.Description": "Cette option règle la vitesse a laquelle vous allez accélérer quand vous bougez. Vous pouvez soit commencer doucement et graduellement aller plus vite ou commencer directement a la vitesse maximale.",
 
@@ -1320,6 +1328,9 @@
         "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Quand activé, vous serez exclus des métadonnées contenue dans les médias (photos et clips audio). Vous apparaîtrez toujours dans les photos mais aucune information comme votre ID utilisateur ne sera présente dans le fichier.\n\nSi vous connaissez quelqu'un modifiant leur jeu pour passer outre cette option, veuillez le reporter a la modération.",
         "Settings.MediaPrivacySettings.HideInScreenshots": "Ne pas apparaître dans les photos",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Si activé, vous n'apparaîtrez pas dans le photos capturées en jeu.\n\n<color=hero.red>IMPORTANT:</color> Notez que cette option n'affecte pas les caméras en temps réel et les photos prises en dehors du jeu.",
+
+        "Settings.MediaPrivacySettings.StripImageFileMetadata": "Retirer les métadonnées de l'image à l'import",
+        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "Quand activé, retire les métadonnées des images a <b>l'import</b>.\n\nInclus les données EXIF, les commentaires, IPTC, XMP et GOTIFF.\n\nCela retirera aussi les données de localisation (comme GPS),\n\nNe concerne <b>PAS</b> les fichiers importés en avec l'option \"En tant que fichier brut\".",
 
         "Settings.Category.Integrations": "Intégrations",
         "Settings.DiscordIntegrationSettings": "Intégration à Discord",
@@ -1380,6 +1391,10 @@
         "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "Cela indique si le traqueur est en train de charger.",
         "Settings.TrackerSettings.Trackers.Unmap": "Réinitialiser la position du traqueur",
         "Settings.TrackerSettings.Trackers.Remove": "Supprimer le traqueur",
+
+        "Settings.SteamLinkSettings": "Steam Link",
+        "Settings.SteamLinkSettings.OSC_DataPort": "Port OSC pour le traquage du visage",
+        "Settings.SteamLinkSettings.OSC_DataPort.Description": "Quel port doit être utilisé pour recevoir les données OSC. Cela doit être le même port que dans les options de SteamVR.",
 
         "Settings.HapticPointMapping.MappingTarget": "Posisionner sur",
         "Settings.HapticPointMapping.MappingTarget.Description": "Utilisez cette option pour définir sur quelle partie du corps vous voulez que cet appareil réagisse.",
@@ -1446,8 +1461,8 @@
         "Settings.UserMetricsSettings.UserHeight.Description": "Votre taille dans la vraie vie qui est utilisée pour mettre a l'échelle correctement votre avatar. Cela est aussi la taille a laquelle vous serez en mode assis.\n\nVous pouvez entrer votre taille avec différentes unités, par exemple <color=hero.yellow>175 cm</color> ou <color=hero.yellow>1.75m</color> pour le système métrique, ou <color=hero.yellow>5'11\"</color> pour le système impérial.",
 
         "Settings.FavoritesSettings": "Favoris",
-        "Settings.FavoritesSettings.AutoLoadCloudHome": "Charger la maison Cloud au lancement",
-        "Settings.FavoritesSettings.AutoLoadCloudHome.Description": "Quand activé, votre maison dans le Cloud sera automatiquement chargée au lancement du jeu.",
+        "Settings.FavoritesSettings.AutoLoadCloudHome": "Charger la maison en ligne au lancement",
+        "Settings.FavoritesSettings.AutoLoadCloudHome.Description": "Quand activé, votre maison en ligne sera automatiquement chargée au lancement du jeu.",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Utiliser le périphérique audio par défaut",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Activez cette option pour utiliser automatiquement le périphérique audio par défaut de votre système. Si vous voulez en utiliser un customisé, désactivez cette option et utilisez les réglages ci-dessous.",
@@ -1555,6 +1570,8 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Quand activé, vous pourrez équiper des objets et gadgets en pressant grip en rapide succession. Cette option va probablement être retirée a un certain point.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Utiliser l'ancien commutateur de mondes",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Quand activé, le bouton d'application sur votre manette non primaire ouvrira un ancien commutateur de mondes. Cette option sera remplacée par une plus flexible dans le futur.",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Utiliser le geste d'inventaire et de sessions",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Quand activé, quand vous tenez grip et pressez le bouton du tableau de bord, cela va ouvrir l'inventaire ou le menu des sessions.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Nom de la chaîne Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Cette option définis la chaîne Twitch par défaut utilisée par le panneau de chat Twitch. Cela est principalement utilisé par les créateurs de contenu.",
@@ -1573,6 +1590,8 @@
         "Settings.DashSettings.DashCurvature.Description": "Cette option contrôle la curvature du panneau de contrôle en VR. 0 le rend plat.",
         "Settings.DashSettings.OpenCloseSpeed": "Vitesse d'ouverture/de fermeture",
         "Settings.DashSettings.OpenCloseSpeed.Description": "Cette option règle la vitesse d'ouverture et de fermeture du panneau de contrôle. Si vous n'aimez pas l'animation, définissez la valeur très haute pour rendre l'animation instantanée.",
+        "Settings.DashSettings.AllowReplacingSettings": "Replacer les options",
+        "Settings.DashSettings.AllowReplacingSettings.Description": "Quand activé, vous pourrez prendre les options dans le tableau de bord et les remplacer par une autre.\n\nCette option doit être désactivée pour prendre les facette individuelles. Il est recommandé de n'activer cette option que temporairement.",
 
         "Settings.NotificationSettings": "Notifications",
         "Settings.NotificationSettings.UserOnline": "Contact en ligne",
@@ -1598,6 +1617,20 @@
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Cette option permet de régler quels noms sont visibles pour vous.",
         "Settings.NamePlateSettings.UseCustomNameplates": "Montrer les noms customisés",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "Certains noms sont difficiles a lire ou cachés. Si vous avez besoin de voir le nom de quelqu'un ou ses badges, utilisez cette option pour montrer les noms par défaut.",
+
+        "Settings.CustomizationSettings": "Options de customisation",
+        "Settings.CustomizationSettings.UserInterfaceEditMode": "Mode d'édition d'interface",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "Quand activé, vous pourrez éditer le placement de Facettes (interface modulaire) dans le tableau de bord et sur les ancres de facettes sur vos mains (si activé).\n\nDésactivez cette option quand vous avez fini d'éditer les facettes. Vous pouvez aussi la désactiver avec le bouton en-dessous du tableau de bord.",
+
+        "Settings.FacetAnchorsSettings": "Ancres de facettes",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors": "Utiliser les ancres de facettes",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "Quand activé, vous pourrez utiliser votre manette droite pour activer les ancres de facettes sur vos bras. Ces ancres donnent un espace sur lequel vous pouvez attacher des facettes en plus du tableau de bord.",
+        "Settings.FacetAnchorsSettings.AnimationSpeed": "Vitesse d'animation",
+        "Settings.FacetAnchorsSettings.AnimationSpeed.Description": "Vitesse a laquelle les ancres de facettes apparaissent.",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle": "Côté du basculement",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "Quelle manette (droite ou gauche) va basculer les ancres de facettes. Le tableau de bord sera ouvert avec l'autre.",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground": "Montrer l'arrière-plan",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Désactiver cette option cachera l'arrière-plan des ancres de facettes, ne montrant que les facettes.",
 
         "Settings.LaserSettings.SmoothSpeed": "Vitesse de lissage de laser",
         "Settings.LaserSettings.SmoothSpeed.Description": "Définis la vitesse a laquelle les lasers répondent a vos mouvements. Une valeur faible sera plus lente mais filtrera mieux le bruit alors qu'une valeur plus élevée sera plus rapide mais est sujet à des tremblements.",
@@ -1837,6 +1870,12 @@
         "Inspector.Member.SetAllToY": "Tout définir comme Y",
         "Inspector.Member.SetAllToZ": "Tout définir comme Z",
         "Inspector.Member.SetAllToW": "Tout définir comme W",
+        "Inspector.Member.BakeBlendshape": "Pré-calculer la Blendshape",
+        "Inspector.Member.RemoveBlendshape": "Retirer la Blendshape",
+        "Inspector.Member.SplitBlendshape.X": "Séparer la Blendshape par X",
+        "Inspector.Member.SplitBlendshape.Y": "Séparer la Blendshape par Y",
+        "Inspector.Member.SplitBlendshape.Z": "Séparer la Blendshape par Z",
+
 
         "Inspector.ProceduralAsset.UpdateCount": "Nombre de mises à jour: {n}",
         "Inspector.ProceduralAsset.Error": "Erreur: {error}",
@@ -2042,6 +2081,10 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Ajouter des collisionneurs fixes depuis la hiérarchie (utilisant la racine de l'objet)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Toujours attraper le dernier os",
 
+        "Inspector.DataPreset.SetActive": "Définir comme actif",
+        "Inspector.DataPreset.SetValues": "Définir les valeurs",
+        "Inspector.DataPreset.AddAllChildren": "Ajouter a tous les enfants",
+
         "Inspector.Rig.CleanupBoneColliders": "Nettoyer les collisions osseuses",
         "Inspector.Rig.GenerateDebugVisuals": "Générer des visuels de débogage",
         "Inspector.Rig.ClearDebugVisuals": "Effacer les visuels de débogage",
@@ -2197,8 +2240,11 @@
         "Tutorial.Welcome.LeftControllerMode": "Mode manette gauche",
         "Tutorial.Welcome.RightControllerMode": "Mode manette droite",
 
-        "Tutorial.Welcome.SidewaysTurn": "Rotation",
-        "Tutorial.Welcome.SidewaysTurn.Description": "Utiliser cette manette pour tourner",
+        "Tutorial.Welcome.SidewaysTurnOnly": "Rotation seule",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "Cette manette ne sera utilisée que pour tourner.",
+        "Tutorial.Welcome.SidewaysTurnAndMove": "Rotation et mouvement",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "Cette manette sera utilisée pour tourner et bouger.",
+
         "Tutorial.Welcome.SidewaysStrafe": "Straffer",
         "Tutorial.Welcome.SidewaysStrafe.Description": "Utiliser cette manette pour straffer",
         "Tutorial.Welcome.SidewaysOff": "Désactivé",

@@ -2,9 +2,18 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Polish [pl]
+General.Units.Metric  
+General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
+Profile.Status.Sociable  
+Notifications.IsSociable  
 Notifications.UserJoined  
 Notifications.UserLeft  
 Tooltip.Glue.Mode.BakeSkinnedMeshes  
+AvatarCreator.ProtectionUnavailable  
+Settings.MovementSettings.TurningDeadzone  
+Settings.MovementSettings.TurningDeadzone.Description  
 Settings.MovementSettings.MovementExponent.Description  
 Settings.GrabbingSettings  
 Settings.GrabbingSettings.DefaultHandGrabType  
@@ -254,6 +263,8 @@ Settings.LegacyFeatureSettings.UseLegacyGripEquip
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
+Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts  
+Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
 Settings.TwitchInterfaceSettings.ChannelName  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus  
@@ -268,9 +279,13 @@ Settings.DashSettings.DashCurvature
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.AllowReplacingSettings  
+Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings  
 Settings.NotificationSettings.UserOnline  
 Settings.NotificationSettings.UserOnline.Description  
+Settings.NotificationSettings.UserSociable  
+Settings.NotificationSettings.UserSociable.Description  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description  
 Settings.NotificationSettings.Message  
@@ -289,6 +304,18 @@ Settings.NamePlateSettings.NameplateVisibility
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  
 Settings.NamePlateSettings.UseCustomNameplates.Description  
+Settings.CustomizationSettings  
+Settings.CustomizationSettings.UserInterfaceEditMode  
+Settings.CustomizationSettings.UserInterfaceEditMode.Description  
+Settings.FacetAnchorsSettings  
+Settings.FacetAnchorsSettings.UseFacetAnchors  
+Settings.FacetAnchorsSettings.UseFacetAnchors.Description  
+Settings.FacetAnchorsSettings.AnimationSpeed  
+Settings.FacetAnchorsSettings.AnimationSpeed.Description  
+Settings.FacetAnchorsSettings.FacetAnchorToggle  
+Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
+Settings.FacetAnchorsSettings.ShowContainerBackground  
+Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
 Settings.LaserSettings.SmoothSpeed  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle  
@@ -453,6 +480,11 @@ LocomotionArchetype.ThreeAxisFly
 LocomotionArchetype.ZeroG  
 LocomotionSettings.MakePreferred  
 LocomotionSettings.MakeLeastPreferred  
+Inspector.Member.BakeBlendshape  
+Inspector.Member.RemoveBlendshape  
+Inspector.Member.SplitBlendshape.X  
+Inspector.Member.SplitBlendshape.Y  
+Inspector.Member.SplitBlendshape.Z  
 Inspector.ProceduralAsset.UpdateCount  
 Inspector.ProceduralAsset.Error  
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
@@ -462,6 +494,9 @@ Inspector.SkinnedMesh.SortBlendshapes.Name
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.Texture3D.Size  
 Inspector.Texture.ReplaceFromClipboard  
+Inspector.DataPreset.SetActive  
+Inspector.DataPreset.SetValues  
+Inspector.DataPreset.AddAllChildren  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  
 Tutorial.Welcome.SettingsPrimaryRight.Description  
 Tutorial.Welcome.SettingsHeadDirectionMovement  
@@ -471,8 +506,10 @@ Tutorial.Welcome.SettingsUseControllerDirection
 Tutorial.Welcome.SettingsUseControllerDirection.Description  
 Tutorial.Welcome.LeftControllerMode  
 Tutorial.Welcome.RightControllerMode  
-Tutorial.Welcome.SidewaysTurn  
-Tutorial.Welcome.SidewaysTurn.Description  
+Tutorial.Welcome.SidewaysTurnOnly  
+Tutorial.Welcome.SidewaysTurnOnly.Description  
+Tutorial.Welcome.SidewaysTurnAndMove  
+Tutorial.Welcome.SidewaysTurnAndMove.Description  
 Tutorial.Welcome.SidewaysStrafe  
 Tutorial.Welcome.SidewaysStrafe.Description  
 Tutorial.Welcome.SidewaysOff  

@@ -55,6 +55,9 @@
         "General.Sort.Ascending": "昇順",
         "General.Sort.Descending": "降順",
 
+        "General.Units.Metric" : "メートル法",
+        "General.Units.Imperial" : "ヤード・ポンド法",
+
         "Worlds.Home" : "ホーム",
         "Worlds.Tutorial" : "チュートリアル",
 
@@ -78,6 +81,8 @@
         "Interaction.Destroy": "破棄",
         "Interaction.Duplicate": "複製",
         "Interaction.SaveToInventory": "インベントリに保存",
+        "Interaction.SaveToInventory.NotLoggedIn": "アイテムを保存するには、ログインする必要があります。",
+        "Interaction.SaveToInventory.NoWritePermission": "現在のフォルダには保存できません。",
         "Interaction.Undo": "戻す",
         "Interaction.Redo": "やり直す",
         "Interaction.EquipTool": "装備",
@@ -897,6 +902,7 @@
         "AvatarCreator.TryAlignHands": "手の位置をあわせる",
         "AvatarCreator.AlignToolAnchors": "ツールアンカーの位置を揃える",
         "AvatarCreator.Create": "作成",
+        "AvatarCreator.ProtectionUnavailable": "<i>このワールド(local home)ではアバター保護をつけることが。別のワールドに切り替えてから、アバターを作成してください。</i>",
 
         "Importer.General.AsRawFile": "ファイル​​アイテム",
 
@@ -1264,6 +1270,8 @@
         "Settings.MovementSettings.SnapTurnAngle.Description": "スナップターン時に回転する角度（単位は度）を設定できます。",
         "Settings.MovementSettings.NoClipSpeed.Description": "移動モードをノークリップにしている場合の移動速度を設定できます。この移動モード（ロコモーション）は、何かを制作する際や、テストをする際に多く使われます。他の移動モードとは異なり、ワールドから干渉されなくなります。",
         "Settings.MovementSettings.MovementDeadzone": "移動のデッドゾーン",
+        "Settings.MovementSettings.TurningDeadzone": "回転のデッドゾーン",
+        "Settings.MovementSettings.TurningDeadzone.Description": "コントローラーに触れていないのに勝手に回転してしまう場合に有効な設定です。この値を大きくすると、回転し始めるまでにジョイスティックをより大きく傾ける必要があります。",
         "Settings.MovementSettings.MovementDeadzone.Description": "コントローラーに触れていないのに勝手に動く等の場合に有効な設定です。設定値を大きくすると、ジョイスティックを倒した際の移動し始めるまでの角度が大きくなります。",
         "Settings.MovementSettings.MovementExponent": "移動指数",
         "Settings.MovementSettings.MovementExponent.Description": "ジョイスティックを倒した際の移動大きさのカーブ特性を制御できます。値が1.0より大きい場合は、最初はゆっくりと動き、その後急激に速度が上がります。値が1.0より小さい場合は、最初から高速で移動を開始できます。",
@@ -1561,6 +1569,8 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "有効にすると、グリップを2回連続で押すことでツールやアイテムを装備できます。この設定は将来削除されます。",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "レガシーワールドスイッチャーを使用",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "設定を有効にした場合、利き手ではない方のアプリボタンを押すことでレガシーワールドスイッチャーが開き、セッションを切り替えることができます。この機能は将来、より柔軟なソリューションに置き換えられる予定です",
+         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "インベントリとセッションジェスチャーのショートカットを使用する",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "有効にすると、グリップを握ったままAppボタン（ダッシュメニューを開閉するボタン）を押すと、レガシーのインベントリーまたはセッションメニューが開きます。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitchチャンネル名",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "カメラコントロールパネルのTwitchチャットパネルの標準のTwitchチャンネル名を設定できます。主にTwitch配信者が自分のTwitchチャットを見たい場合に使用します。",
@@ -1579,6 +1589,8 @@
         "Settings.DashSettings.DashCurvature.Description": "VRでのダッシュメニューの曲がり具合を設定できます。0に設定すると完全に平面になります。",
         "Settings.DashSettings.OpenCloseSpeed": "開閉スピード",
         "Settings.DashSettings.OpenCloseSpeed.Description": "ダッシュメニューの開閉速度を調整できます。アニメーションが気に入らない場合は、この値を非常に大きくして、ほぼ瞬時に開閉するように設定できます。",
+        "Settings.DashSettings.AllowReplacingSettings" : "設定の入れ替えを許可する",
+        "Settings.DashSettings.AllowReplacingSettings.Description" : "有効にすると、UI編集モードのときにダッシュメニューの設定ファセットを他のファセットに置き換えることができます。\n\n個々の設定をファセットとして取り出したい場合は、この設定をオフにする必要があります。設定UIをカスタムUIに置き換えたいときにだけ、一時的にこの設定をオンにすることをお勧めします。",
 
         "Settings.NotificationSettings": "通知設定",
         "Settings.NotificationSettings.UserOnline": "フレンド・オンライン",
@@ -1604,6 +1616,20 @@
         "Settings.NamePlateSettings.NameplateVisibility.Description": "どの種類のユーザーのネームプレートを表示するかを設定できます",
         "Settings.NamePlateSettings.UseCustomNameplates": "カスタムネームプレートを表示",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "ネームプレートが読みにくかったり、完全に隠されていたり、実際のユーザー名やバッジを見る必要がある場合（モデレーションのためなど）、カスタムネームプレートを無効にすることで、標準のネームプレートを表示できます。",
+
+        "Settings.CustomizationSettings" : "カスタマイズ設定",
+        "Settings.CustomizationSettings.UserInterfaceEditMode" : "UI編集モード",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description" : "この設定を有効にすると、ダッシュメニューのファセットや、有効になっているファセットアンカーの配置を編集できるようになります。\n\n設定が終了したら、これをオフにすることを忘れないでください！ダッシュの下にある専用ボタンでオフにすることもできます。",
+
+        "Settings.FacetAnchorsSettings" : "ファセットアンカー",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors" : "ファセットアンカーを使用する",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description" : "有効にすると、右コントローラーのアプリボタンを使って、腕と前腕のファセットアンカーを切り替えることができます。これは、素早くアクセスできるように任意のファセットを配置するスペースとなります。",
+        "Settings.FacetAnchorsSettings.AnimationSpeed" : "開閉スピード",
+        "Settings.FacetAnchorsSettings.AnimationSpeed.Description" : "ファセットアンカーを表示/非表示にする際のアニメーションの速さを設定できます。",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle" : "左右切り替え",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description" : "左右どちらのコントローラでファセットアンカーの表示を切り替えるかを設定できます。ダッシュメニューはもう片方のコントローラで開閉されます。",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground" : "背景を表示",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description" : "これをオフにすると、ファセットアンカーの背景表示が無効になり、ファセットそのものだけが見えるようになります。",
 
         "Settings.LaserSettings.SmoothSpeed": "スムーズスピード",
         "Settings.LaserSettings.SmoothSpeed.Description": "レーザーがコントローラーに追従するスピードを設定できます。値を低くすると、レーザーは鈍くなりますが、手ブレの影響を抑えられます。値を高くすると、レーザーはより機敏に反応しますが、手ブレの影響を受けやすくなります。",
@@ -1843,6 +1869,11 @@
         "Inspector.Member.SetAllToY": "すべてをYの値に設定",
         "Inspector.Member.SetAllToZ": "すべてをZの値に設定",
         "Inspector.Member.SetAllToW": "すべてをWの値に設定",
+        "Inspector.Member.BakeBlendshape" : "ブレンドシェイプをベイク",
+        "Inspector.Member.RemoveBlendshape" : "ブレンドシェイプを削除",
+        "Inspector.Member.SplitBlendshape.X" : "ブレンドシェイプをX軸で分割",
+        "Inspector.Member.SplitBlendshape.Y" : "ブレンドシェイプをY軸で分割",
+        "Inspector.Member.SplitBlendshape.Z" : "ブレンドシェイプをZ軸で分割",
 
         "Inspector.ProceduralAsset.UpdateCount": "アップデート回数: {n}",
         "Inspector.ProceduralAsset.Error": "エラー: {error}",
@@ -2048,6 +2079,10 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "(オブジェクトルートを使用して)ヒエラルキーから固定コライダーを追加",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "常に最後のボーンをグラブする",
 
+        "Inspector.DataPreset.SetActive": "アクティブ状態を変更",
+        "Inspector.DataPreset.SetValues": "値を設定",
+        "Inspector.DataPreset.AddAllChildren": "すべての子に追加",
+
         "Inspector.Rig.CleanupBoneColliders": "ボーンコライダーをクリーンアップ",
         "Inspector.Rig.GenerateDebugVisuals": "デバッグビジュアルを生成",
         "Inspector.Rig.ClearDebugVisuals": "デバッグビジュアルを除去",
@@ -2203,8 +2238,11 @@
         "Tutorial.Welcome.LeftControllerMode": "左コントローラーの設定",
         "Tutorial.Welcome.RightControllerMode": "右コントローラーの設定",
 
-        "Tutorial.Welcome.SidewaysTurn": "回転",
-        "Tutorial.Welcome.SidewaysTurn.Description": "このコントローラーで回転するようにする",
+        "Tutorial.Welcome.SidewaysTurnOnly": "回転のみ",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "このコントローラーを回転だけに使用します",
+        "Tutorial.Welcome.SidewaysTurnAndMove": "回転と移動",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "このコントローラーを回転と前後左右の移動に使用します",
+
         "Tutorial.Welcome.SidewaysStrafe": "左右",
         "Tutorial.Welcome.SidewaysStrafe.Description": "このコントローラーで左右に移動するようにする",
         "Tutorial.Welcome.SidewaysOff": "オフ",

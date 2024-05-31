@@ -3,11 +3,16 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Finnish [fi]
 General.OK  
+General.Units.Metric  
+General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Facets.FPS  
 World.Actions.GuestWarning  
 World.AccessLevel.LAN  
 Account.Saml2.Title  
 Avatar.Badge.Live  
+Profile.Status.Sociable  
 Profile.Status.Online  
 Profile.Status.Offline  
 Session.JoinVerifier.EnableHeader  
@@ -16,6 +21,7 @@ Session.JoinVerifier.Label
 Session.JoinVerifier.ComponentWarning  
 Session.JoinVerifier.SetCustomVerifier  
 Contacts.Unblocked  
+Notifications.IsSociable  
 Tooltip.Cartridge.Eject  
 Tooltip.Microphone.Format.WAV  
 Tooltip.Microphone.Format.Vorbis  
@@ -37,6 +43,7 @@ Tooltip.ProtoFlux.ExplicitCast
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
+AvatarCreator.ProtectionUnavailable  
 Importer.Image.LUT  
 Importer.Video.Regular  
 Importer.Slices.Title  
@@ -60,6 +67,8 @@ Settings.MovementSettings.SmoothTurnSpeed.Description
 Settings.MovementSettings.SnapTurnAngle.Description  
 Settings.MovementSettings.NoClipSpeed.Description  
 Settings.MovementSettings.MovementDeadzone.Description  
+Settings.MovementSettings.TurningDeadzone  
+Settings.MovementSettings.TurningDeadzone.Description  
 Settings.MovementSettings.MovementExponent.Description  
 Settings.GrabbingSettings.DefaultHandGrabType.Description  
 Settings.GamepadSettings.ThumbstickLookSpeed  
@@ -178,6 +187,8 @@ Settings.DebugSettings.DebugInputBindings.Description
 Settings.DebugSettings.FetchIncompatibleSessions.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
+Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts  
+Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description  
 Settings.LocaleSettings.CultureLocaleCode  
@@ -186,7 +197,11 @@ Settings.LocaleSettings.UseImperialUnits
 Settings.LocaleSettings.UseImperialUnits.Description  
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.AllowReplacingSettings  
+Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings.UserOnline.Description  
+Settings.NotificationSettings.UserSociable  
+Settings.NotificationSettings.UserSociable.Description  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description  
 Settings.NotificationSettings.Message.Description  
 Settings.NotificationSettings.Invite.Description  
@@ -196,6 +211,18 @@ Settings.NotificationSettings.PublicSessionStarted.Description
 Settings.NotificationSettings.UserJoinAndLeave.Description  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates.Description  
+Settings.CustomizationSettings  
+Settings.CustomizationSettings.UserInterfaceEditMode  
+Settings.CustomizationSettings.UserInterfaceEditMode.Description  
+Settings.FacetAnchorsSettings  
+Settings.FacetAnchorsSettings.UseFacetAnchors  
+Settings.FacetAnchorsSettings.UseFacetAnchors.Description  
+Settings.FacetAnchorsSettings.AnimationSpeed  
+Settings.FacetAnchorsSettings.AnimationSpeed.Description  
+Settings.FacetAnchorsSettings.FacetAnchorToggle  
+Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
+Settings.FacetAnchorsSettings.ShowContainerBackground  
+Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle  
 Settings.LaserSettings.ModulateStartAngle.Description  
@@ -289,6 +316,11 @@ Inspector.Slot.ParentUnder.LocalUserSpace
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
 Inspector.Member.BreakLinkDrive  
 Inspector.Member.OpenLinkDrive  
+Inspector.Member.BakeBlendshape  
+Inspector.Member.RemoveBlendshape  
+Inspector.Member.SplitBlendshape.X  
+Inspector.Member.SplitBlendshape.Y  
+Inspector.Member.SplitBlendshape.Z  
 Inspector.Mesh.ReverseWinding  
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  
@@ -325,6 +357,9 @@ Inspector.DynamicBoneChain.SetupFromChildrenRig
 Inspector.DynamicBoneChain.ReplaceSmoothTransforms  
 Inspector.DynamicBoneChain.ClearSmoothTransforms  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
+Inspector.DataPreset.SetActive  
+Inspector.DataPreset.SetValues  
+Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.Collider.SetFromLocalBounds  
@@ -337,6 +372,10 @@ Inspector.Fields.Drive
 Inspector.Fields.DriveWriteBack  
 WorkerInspector.Title  
 Tutorial.Welcome.Description  
+Tutorial.Welcome.SidewaysTurnOnly  
+Tutorial.Welcome.SidewaysTurnOnly.Description  
+Tutorial.Welcome.SidewaysTurnAndMove  
+Tutorial.Welcome.SidewaysTurnAndMove.Description  
 Twitch.Panel.Title.Text  
 Migration.LoginResetID.Description  
 Migration.Dialog.Source  

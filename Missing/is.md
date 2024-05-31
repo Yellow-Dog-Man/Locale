@@ -3,6 +3,10 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Icelandic [is]
 General.UI.ToggleEditMode  
+General.Units.Metric  
+General.Units.Imperial  
+Interaction.SaveToInventory.NotLoggedIn  
+Interaction.SaveToInventory.NoWritePermission  
 Interaction.Grab.Palm  
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
@@ -90,6 +94,7 @@ Account.TOTP.Deactivate.Deactivating
 Account.TOTP.Message.DeactivationComplete  
 2FA.Header  
 2FA.Token  
+Profile.Status.Sociable  
 Session.JoinVerifier.EnableHeader  
 Session.JoinVerifier.EnableText  
 Session.JoinVerifier.Label  
@@ -107,6 +112,7 @@ Contacts.InContactsOnly
 Contacts.InHiddenContactsOnly  
 Contacts.InHiddenContactsPlus  
 Contacts.Migrated  
+Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
@@ -240,6 +246,7 @@ AvatarCreator.CenterHead
 AvatarCreator.TryAlignHands  
 AvatarCreator.AlignToolAnchors  
 AvatarCreator.Create  
+AvatarCreator.ProtectionUnavailable  
 Importer.General.AsRawFile  
 Importer.Folder.Title  
 Importer.Folder.Individual  
@@ -536,6 +543,8 @@ Settings.MovementSettings.NoClipSpeed
 Settings.MovementSettings.NoClipSpeed.Description  
 Settings.MovementSettings.MovementDeadzone  
 Settings.MovementSettings.MovementDeadzone.Description  
+Settings.MovementSettings.TurningDeadzone  
+Settings.MovementSettings.TurningDeadzone.Description  
 Settings.MovementSettings.MovementExponent  
 Settings.MovementSettings.MovementExponent.Description  
 Settings.GrabbingSettings  
@@ -786,6 +795,8 @@ Settings.LegacyFeatureSettings.UseLegacyGripEquip
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
+Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts  
+Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
 Settings.TwitchInterfaceSettings.ChannelName  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus  
@@ -800,9 +811,13 @@ Settings.DashSettings.DashCurvature
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.AllowReplacingSettings  
+Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings  
 Settings.NotificationSettings.UserOnline  
 Settings.NotificationSettings.UserOnline.Description  
+Settings.NotificationSettings.UserSociable  
+Settings.NotificationSettings.UserSociable.Description  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild  
 Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description  
 Settings.NotificationSettings.Message  
@@ -821,6 +836,18 @@ Settings.NamePlateSettings.NameplateVisibility
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  
 Settings.NamePlateSettings.UseCustomNameplates.Description  
+Settings.CustomizationSettings  
+Settings.CustomizationSettings.UserInterfaceEditMode  
+Settings.CustomizationSettings.UserInterfaceEditMode.Description  
+Settings.FacetAnchorsSettings  
+Settings.FacetAnchorsSettings.UseFacetAnchors  
+Settings.FacetAnchorsSettings.UseFacetAnchors.Description  
+Settings.FacetAnchorsSettings.AnimationSpeed  
+Settings.FacetAnchorsSettings.AnimationSpeed.Description  
+Settings.FacetAnchorsSettings.FacetAnchorToggle  
+Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
+Settings.FacetAnchorsSettings.ShowContainerBackground  
+Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
 Settings.LaserSettings.SmoothSpeed  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle  
@@ -1018,6 +1045,11 @@ Inspector.Member.SetAllToX
 Inspector.Member.SetAllToY  
 Inspector.Member.SetAllToZ  
 Inspector.Member.SetAllToW  
+Inspector.Member.BakeBlendshape  
+Inspector.Member.RemoveBlendshape  
+Inspector.Member.SplitBlendshape.X  
+Inspector.Member.SplitBlendshape.Y  
+Inspector.Member.SplitBlendshape.Z  
 Inspector.ProceduralAsset.UpdateCount  
 Inspector.ProceduralAsset.Error  
 Inspector.Mesh.ChannelStats  
@@ -1191,6 +1223,9 @@ Inspector.DynamicBoneChain.ClearSmoothTransforms
 Inspector.DynamicBoneChain.CollidersGrabbingHeader  
 Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy  
 Inspector.DynamicBoneChain.AlwaysGrabLastBone  
+Inspector.DataPreset.SetActive  
+Inspector.DataPreset.SetValues  
+Inspector.DataPreset.AddAllChildren  
 Inspector.Rig.CleanupBoneColliders  
 Inspector.Rig.GenerateDebugVisuals  
 Inspector.Rig.ClearDebugVisuals  
@@ -1294,8 +1329,10 @@ Tutorial.Welcome.SettingsUseControllerDirection
 Tutorial.Welcome.SettingsUseControllerDirection.Description  
 Tutorial.Welcome.LeftControllerMode  
 Tutorial.Welcome.RightControllerMode  
-Tutorial.Welcome.SidewaysTurn  
-Tutorial.Welcome.SidewaysTurn.Description  
+Tutorial.Welcome.SidewaysTurnOnly  
+Tutorial.Welcome.SidewaysTurnOnly.Description  
+Tutorial.Welcome.SidewaysTurnAndMove  
+Tutorial.Welcome.SidewaysTurnAndMove.Description  
 Tutorial.Welcome.SidewaysStrafe  
 Tutorial.Welcome.SidewaysStrafe.Description  
 Tutorial.Welcome.SidewaysOff  

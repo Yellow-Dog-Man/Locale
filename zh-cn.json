@@ -55,6 +55,9 @@
         "General.Sort.Ascending": "升序",
         "General.Sort.Descending": "降序",
 
+        "General.Units.Metric" : "米制",
+        "General.Units.Imperial" : "英制单位",
+
         "Worlds.Home" : "家",
         "Worlds.Tutorial" : "教程",
 
@@ -78,6 +81,8 @@
         "Interaction.Destroy": "删除",
         "Interaction.Duplicate": "复制",
         "Interaction.SaveToInventory": "保存到物品栏",
+        "Interaction.SaveToInventory.NotLoggedIn": "你必须登录才能保存物品。",
+        "Interaction.SaveToInventory.NoWritePermission": "无法保存到当前物品栏文件夹。",
         "Interaction.Undo": "撤消",
         "Interaction.Redo": "重做",
         "Interaction.EquipTool": "装备",
@@ -100,7 +105,7 @@
         "Interaction.EnterAnchor": "进入座位",
         "Interaction.ExitAnchor": "退出座位",
 
-        "Interaction.EquipAvatar": "装备化身",
+        "Interaction.EquipAvatar": "装备虚拟形象",
 
         "Interaction.SaveAsScreenshot": "另存为屏幕截图",
         "Interaction.ExportScreenshot": "导出截图",
@@ -118,7 +123,7 @@
         "Inventory.Inventories": "物品列表",
         "Inventory.Share": "分享",
         "Inventory.Unshare": "取消分享",
-        "Inventory.SaveAvatar": "保存化身",
+        "Inventory.SaveAvatar": "保存虚拟形象",
         "Inventory.Favorite.Home": "设为家",
         "Inventory.Favorite.ProgressBar": "设为进度条",
         "Inventory.Favorite.AudioStreamController": "设为音频流控制器",
@@ -127,7 +132,7 @@
         "Inventory.Favorite.AudioPlayer": "设为音频播放器",
         "Inventory.Favorite.InteractiveCamera": "设为相机",
         "Inventory.Favorite.Keyboard": "设为键盘",
-        "Inventory.Favorite.Avatar": "设为化身",
+        "Inventory.Favorite.Avatar": "设为虚拟形象",
         "Inventory.Favorite.WorldLoadingIndicator": "设为加载指示器",
         "Inventory.Favorite.ColorDialog": "设为色盘",
         "Inventory.Favorite.Hyperlink": "设为超链接显示",
@@ -222,7 +227,7 @@
 
         "World.Actions.StartSession": "开始会话",
         "World.Actions.Join": "加入",
-        "World.Actions.Focus": "焦点",
+        "World.Actions.Focus": "聚焦",
         "World.Actions.Close": "关闭世界",
         "World.Actions.Leave": "离开世界",
         "World.Actions.Save": "保存更改",
@@ -351,8 +356,8 @@
         "World.Edit.AccessPatreon": "Patreon的支持者",
         "World.Edit.AccessPublic": "任何人（公开）",
 
-        "Tools.AvatarCreator": "化身创建器",
-        "Tools.FullBodyCalibrator": "全身/化身校准器",
+        "Tools.AvatarCreator": "虚拟形象创建器",
+        "Tools.FullBodyCalibrator": "全身/虚拟形象校准器",
         "Tools.CameraStreaming": "相机/流媒体",
         "Tools.CreateNewWorld": "创建新世界",
         "Tools.Debug": "调试",
@@ -609,7 +614,7 @@
 
         "Permissions.NotAllowedToSpawn": "你不可以在此处生成物品",
         "Permissions.NotAllowedToSave": "你无权在这个世界上保存项目。",
-        "Permissions.NotAllowedToSwapAvatar": "你不允许在此处切换到自定义化身。",
+        "Permissions.NotAllowedToSwapAvatar": "你不允许在此处切换到自定义虚拟形象。",
 
         "User.Actions.Silence": "全局静音",
         "User.Actions.Mute": "静音",
@@ -631,7 +636,7 @@
         "Contacts.UnbanFromCurrentWorld": "取消禁止进入当前的世界",
         "Contacts.RecordingVoiceMessage": "正在录音...",
         "Contacts.Unblocked" : "取消屏蔽",
-        "Contacts.AvatarBlock" : "屏蔽化身",
+        "Contacts.AvatarBlock" : "屏蔽虚拟形象",
         "Contacts.MutualBlock" : "相互屏蔽",
         "Contacts.SelfAccount": "我的账户",
         "Contacts.SearchPrompt": "搜索好友...",
@@ -820,7 +825,7 @@
         "CreateNew.ParticleSystem": "粒子系统",
 
         "CreateNew.Object": "对象",
-        "CreateNew.Object.AvatarCreator": "化身创建器",
+        "CreateNew.Object.AvatarCreator": "虚拟形象创建器",
         "CreateNew.Object.Camera": "相机",
         "CreateNew.Object.ReflectionProbe": "反射探针",
         "CreateNew.Object.Mirror": "镜子",
@@ -880,14 +885,14 @@
         "CreateNew.Directory.Error.LongName": "名称太长了：",
         "CreateNew.Directory.Error.InvalidName": "无效名称：",
 
-        "AvatarCreator.Title": "化身创建器",
-        "AvatarCreator.Instructions": "将化身对象与头显和控制器参考对齐（可选），然后按创建将其转换为化身",
+        "AvatarCreator.Title": "虚拟形象创建器",
+        "AvatarCreator.Instructions": "将虚拟形象对象与头显和控制器参考对齐（可选），然后按创建将其转换为虚拟形象",
         "AvatarCreator.UseSymmetry": "使用对称",
         "AvatarCreator.ShowToolAnchors": "显示工具锚点",
         "AvatarCreator.SetupVolumeMeter": "设置音量计",
         "AvatarCreator.SetupEyes": "设置眼睛",
         "AvatarCreator.SetupFaceTracking": "设置人脸追踪",
-        "AvatarCreator.ProtectAvatar": "保护化身",
+        "AvatarCreator.ProtectAvatar": "保护虚拟形象",
         "AvatarCreator.CalibrateFeet": "校准脚",
         "AvatarCreator.CalibrateHips": "校准骨盆/臀部",
         "AvatarCreator.AlignHeadForward": "头向前对齐",
@@ -897,6 +902,7 @@
         "AvatarCreator.TryAlignHands": "尝试对齐手",
         "AvatarCreator.AlignToolAnchors": "对齐工具锚点",
         "AvatarCreator.Create": "创建",
+        "AvatarCreator.ProtectionUnavailable": "<i>虚拟形象保护在该世界不可用。 请切换到另外一个世界来保护虚拟形象。</i>",
 
         "Importer.General.AsRawFile": "Raw文件",
 
@@ -935,7 +941,7 @@
         "Importer.Model.VertexColorModel": "顶点着色模型",
         "Importer.Model.AdvancedSettings": "高级设置",
         "Importer.Model.ModelKindPrompt": "什么样的3D模型？",
-        "Importer.Model.RegularKind": "常规/化身",
+        "Importer.Model.RegularKind": "常规/虚拟形象",
         "Importer.Model.SeparableKind": "可分离的可吸附组件",
         "Importer.Model.UnitsPrompt": "它的单位是什么？",
         "Importer.Model.AutoScale": "自动缩放（未知缩放）",
@@ -1024,21 +1030,21 @@
         "NewWorld.AutoPort": "自动：",
         "NewWorld.DefaultName": "{name} 世界",
 
-        "FullBody.Title": "全身/化身校准",
+        "FullBody.Title": "全身/虚拟形象校准",
         "FullBody.SetHeight": "1) 设定身高",
         "FullBody.HeightInstructions": "确保这是你的实际身高，否则校准将无法正常进行。人体模型应与头显和控制器相符。",
         "FullBody.HeightWarning": "这似乎不正确。确保它是你的实际身高。",
         "FullBody.ConfirmMapping": "2) 确认追踪器映射",
         "FullBody.MappingInstructions": "直立站立，确保追踪器正在追踪并被正确检测到。",
         "FullBody.StartCalibration": "启动追踪器校准",
-        "FullBody.JustCalibrateAvatar": "只是校准我的化身",
-        "FullBody.JustCalibrateAvatarDescription": "跳过全身校准，仅校准化身",
-        "FullBody.SkipAndAdjustAvatar": "跳过并调整化身",
+        "FullBody.JustCalibrateAvatar": "只是校准我的虚拟形象",
+        "FullBody.JustCalibrateAvatarDescription": "跳过全身校准，仅校准虚拟形象",
+        "FullBody.SkipAndAdjustAvatar": "跳过并调整虚拟形象",
         "FullBody.CalibrateInstructions": "使自己与游戏空间中的红色身体覆盖层对齐，然后按下两个扳机键进行确认。确保你真实的脚和臀部与虚拟的尽可能接近。",
 
         "FullBody.BeforeCalibrationInstructions": "确保追踪器正在追踪且你的身高已设置",
         "FullBody.CalibratingPoseInstructions": "确保自己与参考对齐，然后按下两个扳机键进行确认",
-        "FullBody.AdjustAvatarInstructions": "调整化身的身体偏移，使其与参考最匹配",
+        "FullBody.AdjustAvatarInstructions": "调整虚拟形象的身体偏移，使其与参考最匹配",
         "FullBody.FineTuneCalibrationInstructions": "通过移动蓝色参考来验证和微调校准",
 
         "FullBody.CalibrateTrackersHeader": "校准追踪器",
@@ -1048,24 +1054,24 @@
         "FullBody.HeightCompensationInstructions": "如果人体模型过高（弯曲）或过矮，请调整高度补偿以达到最佳配合。",
         "FullBody.RecalibratePrompt": "追踪器损坏或丢失？",
         "FullBody.Recalibrate": "再次运行T-Pose校准",
-        "FullBody.CalibrateAvatarPrompt": "需要调整化身配合度吗？",
-        "FullBody.CalibrateAvatar": "校准我的化身",
+        "FullBody.CalibrateAvatarPrompt": "需要调整虚拟形象配合度吗？",
+        "FullBody.CalibrateAvatar": "校准我的虚拟形象",
         "FullBody.FinishPrompt": "看起来不错？",
         "FullBody.FinishCalibration": "完成全身校准",
 
-        "FullBody.CalibrateAvatarTitle": "校准化身",
-        "FullBody.CalibrateAvatarInstructions": "确保已映射所有身体部位，然后在其周围拖动蓝色球体，以使化身与身体参考最匹配。",
+        "FullBody.CalibrateAvatarTitle": "校准虚拟形象",
+        "FullBody.CalibrateAvatarInstructions": "确保已映射所有身体部位，然后在其周围拖动蓝色球体，以使虚拟形象与身体参考最匹配。",
         "FullBody.ShowReferenceOverlay": "显示参考叠加",
-        "FullBody.ResetAvatarPrompt": "化身扭曲或无法追踪？",
+        "FullBody.ResetAvatarPrompt": "虚拟形象扭曲或无法追踪？",
         "FullBody.ResetAvatar": "重置映射",
-        "FullBody.AvatarHeightCompensationInstructions": "如果化身太高（最终弯成弓形）或太矮，在此处调整其高度补偿使它更适合你的身高。",
-        "FullBody.AvatarHeightCompensation": "化身高度补偿: {n, number, percent}",
+        "FullBody.AvatarHeightCompensationInstructions": "如果虚拟形象太高（最终弯成弓形）或太矮，在此处调整其高度补偿使它更适合你的身高。",
+        "FullBody.AvatarHeightCompensation": "虚拟形象高度补偿: {n, number, percent}",
         "FullBody.ResetAvatarHeightCompensation": "重置高度补偿",
-        "FullBody.AvatarSaveWarning": "完成校准后，不要忘记保存你的化身！",
-        "FullBody.FinishAvatarCalibration": "完成化身校准",
-        "FullBody.CalibrationFinishedInstructions": "如果你对校准满意，则可以保存你的化身并退出。",
+        "FullBody.AvatarSaveWarning": "完成校准后，不要忘记保存你的虚拟形象！",
+        "FullBody.FinishAvatarCalibration": "完成虚拟形象校准",
+        "FullBody.CalibrationFinishedInstructions": "如果你对校准满意，则可以保存你的虚拟形象并退出。",
         "FullBody.CloseCalibrator": "关闭校准工具",
-        "FullBody.CalibrationRedoInstructions": "如果校准有误差，或是你想校准更多的化身，则可以进行更多的调整。 你也可以在以后的任何时候重新打开此校准器以进行调整。\n 如果你仅更改了追踪器，则无需再次校准化身。",
+        "FullBody.CalibrationRedoInstructions": "如果校准有误差，或是你想校准更多的虚拟形象，则可以进行更多的调整。 你也可以在以后的任何时候重新打开此校准器以进行调整。\n 如果你仅更改了追踪器，则无需再次校准虚拟形象。",
         "FullBody.ReturnToTrackerCalibration": "返回追踪器校准",
 
         "FullBody.Hips": "臀部",
@@ -1265,6 +1271,8 @@
         "Settings.MovementSettings.NoClipSpeed.Description": "当你使用穿墙模式时，这个选项可以控制你的移动速度。 这种移动方式通常用于建造和测试，因此不受所处世界属性影响，而其他移动方式通常受世界属性影响。",
         "Settings.MovementSettings.MovementDeadzone": "移动死区",
         "Settings.MovementSettings.MovementDeadzone.Description": "该设置可用于纠正漂移。 增加该值需要进一步倾斜摇杆才能开始移动。",
+        "Settings.MovementSettings.TurningDeadzone": "转向死区",
+        "Settings.MovementSettings.TurningDeadzone.Description": "该设置可用于纠正漂移，防止在同一操纵杆上移动和转向时发生意外转向。 增加该值将需要你进一步倾斜摇杆才能开始转向。",
         "Settings.MovementSettings.MovementExponent": "移动指数",
         "Settings.MovementSettings.MovementExponent.Description": "用它来控制移动时的曲线响应。 你可以用它来使曲线在开始移动时速度较慢，然后快速上升，或者立即开始加速移动，具体取决于该值是高于还是低于 1.0。",
 
@@ -1294,7 +1302,7 @@
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "控制器振动",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "使用此功能可专门在 VR 控制器上启用或禁用触觉振动。",
         "Settings.GeneralHapticsSettings.EnableHaptics": "触觉反馈",
-        "Settings.GeneralHapticsSettings.EnableHaptics.Description": "启用后，你将通过控制器和其他触觉设备收到来自世界中的化身和物品的触觉反馈。",
+        "Settings.GeneralHapticsSettings.EnableHaptics.Description": "启用后，你将通过控制器和其他触觉设备收到来自世界中的虚拟形象和物品的触觉反馈。",
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR热切换",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "启用后，当你戴上或摘下 VR 头显时，将自动在 VR模式和桌面模式之间切换。",
@@ -1355,7 +1363,7 @@
 
         "Settings.TrackerSettings" : "追踪器设置",
         "Settings.TrackerSettings.UseTrackers" : "使用追踪器",
-        "Settings.TrackerSettings.UseTrackers.Description" : "使用此选项，你可以全局禁用所有追踪器。如果你的追踪器在角落里充电，导致你的化身皱成一团的时候，这就很有用了。",
+        "Settings.TrackerSettings.UseTrackers.Description" : "使用此选项，你可以全局禁用所有追踪器。如果你的追踪器在角落里充电，导致你的虚拟形象皱成一团的时候，这就很有用了。",
         "Settings.TrackerSettings.Trackers" : "管理追踪器",
         "Settings.TrackerSettings.Trackers.Breadcrumb" : "追踪器",
         
@@ -1372,9 +1380,9 @@
         "Settings.TrackerSettings.Trackers.MappedRotation" : "映射旋转角度",
         "Settings.TrackerSettings.Trackers.MappedRotation.Description" : "追踪器相对于所映射的身体部位的旋转角度。\n\n我们建议使用全身校准来设置此设置，而不是在此手动调整。",
         "Settings.TrackerSettings.Trackers.UseInVR" : "在 VR 模式里使用",
-        "Settings.TrackerSettings.Trackers.UseInVR.Description" : "这个追踪器是否会在在 VR 模式下影响你的化身？",
+        "Settings.TrackerSettings.Trackers.UseInVR.Description" : "这个追踪器是否会在在 VR 模式下影响你的虚拟形象？",
         "Settings.TrackerSettings.Trackers.UseInDesktop" : "在桌面模式里使用",
-        "Settings.TrackerSettings.Trackers.UseInDesktop.Description" : "这个追踪器是否会在在桌面模式下影响你的化身？",
+        "Settings.TrackerSettings.Trackers.UseInDesktop.Description" : "这个追踪器是否会在在桌面模式下影响你的虚拟形象？",
         "Settings.TrackerSettings.Trackers.TrackerID" : "追踪器ID",
         "Settings.TrackerSettings.Trackers.TrackerID.Description" : "此追踪器的唯一 ID。此信息被视为隐私，与在世界上显示的 ID 不同，以避免通过指纹追踪。",
         "Settings.TrackerSettings.Trackers.TrackerBattery" : "追踪器电量",
@@ -1389,10 +1397,10 @@
         "Settings.SteamLinkSettings.OSC_DataPort.Description" : "用于监听 OSC 面部追踪数据的端口。 该端口应与你在 SteamVR 设置中设置的端口一致，这样面部追踪才能正常工作。",
 
         "Settings.HapticPointMapping.MappingTarget" : "定位到",
-        "Settings.HapticPointMapping.MappingTarget.Description" : "用它来配置你希望将此设备定位到化身的哪个部分。",
+        "Settings.HapticPointMapping.MappingTarget.Description" : "用它来配置你希望将此设备定位到虚拟形象的哪个部分。",
 
         "Settings.HapticPointMapping.PointRadius" : "触点半径",
-        "Settings.HapticPointMapping.PointRadius.Description" : "这可以让你控制化身上触觉点的大小。将其做得更大，可以更容易地从更远的距离触发，但同时也会降低精确度，因为在该点的范围内任何触觉触发都会激活它。",
+        "Settings.HapticPointMapping.PointRadius.Description" : "这可以让你控制虚拟形象上触觉点的大小。将其做得更大，可以更容易地从更远的距离触发，但同时也会降低精确度，因为在该点的范围内任何触觉触发都会激活它。",
 
         "Settings.HapticPointMapping.TorsoHorizontalPosition" : "躯干水平位置",
         "Settings.HapticPointMapping.TorsoHorizontalPosition.Description" : "这是沿躯干从左到右的水平位置。",
@@ -1424,7 +1432,7 @@
         "Settings.HapticPointMapping.ControllerSide.Description" : "该触点应该定位到哪个控制器？左侧还是右侧？",
 
         "Settings.HapticPointMapping.Tag" : "触点标签",
-        "Settings.HapticPointMapping.Tag.Description" : "与此触觉点相关联的标签。这将定位到化身上与标签触点定位器组件上指定的触觉标签相匹配的点。如果化身上没有定义带有此触点标签的点，触觉设备将无法工作。\n\n当你需要完全控制触觉设备定位到的化身上的精确点时（例如，当通用定位不符合你的需求时），这个功能就非常有用。",
+        "Settings.HapticPointMapping.Tag.Description" : "与此触觉点相关联的标签。这将定位到虚拟形象上与标签触点定位器组件上指定的触觉标签相匹配的点。如果虚拟形象上没有定义带有此触点标签的点，触觉设备将无法工作。\n\n当你需要完全控制触觉设备定位到的虚拟形象上的精确点时（例如，当通用定位不符合你的需求时），这个功能就非常有用。",
 
         "Settings.GiggleTechSettings" : "GiggleTech 设备",
         "Settings.GiggleTechSettings.Devices" : "管理 GigglePucks",
@@ -1450,7 +1458,7 @@
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description" : "当触觉装置从非激活状态转为激活状态时，它们将在很短的时间内以设定的最低强度运行。当激活值过低，电机无法启动时，这可以帮助触觉设备启动。",
 
         "Settings.UserMetricsSettings.UserHeight": "身高",
-        "Settings.UserMetricsSettings.UserHeight.Description": "这是你在现实世界中的身高，用于适当缩放你的化身，使其本身匹配你。这也是你启用坐姿模式时的身高。\n\n你可以使用适当的单位输入你的身高，例如输入 <nobr><color=hero.yellow>175 cm</color></nobr> 或者 <nobr><color=hero.yellow>1.75 m</color></nobr> （公制单位）或者 <color=hero.yellow>5'11\"</color> （英制单位）。",
+        "Settings.UserMetricsSettings.UserHeight.Description": "这是你在现实世界中的身高，用于适当缩放你的虚拟形象，使其本身匹配你。这也是你启用坐姿模式时的身高。\n\n你可以使用适当的单位输入你的身高，例如输入 <nobr><color=hero.yellow>175 cm</color></nobr> 或者 <nobr><color=hero.yellow>1.75 m</color></nobr> （公制单位）或者 <color=hero.yellow>5'11\"</color> （英制单位）。",
 
         "Settings.FavoritesSettings" : "偏好",
         "Settings.FavoritesSettings.AutoLoadCloudHome" : "启动时加载云端家园",
@@ -1562,6 +1570,8 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "启用后，只要连续按两次握把键，就可以装备工具和小物件。这一设置可能会在某个时候被移除。",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "使用传统世界切换器",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "启用后，非主要手部的应用按钮将打开传统的世界开关，在在线的世界之间切换。这一功能将来会被更灵活的解决方案所取代。",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "使用物品栏 & 会话手势快捷键",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "启用后，当你按住手柄并按下 A 键（通常会打开/关闭仪表盘）时，就会打开传统的库存或会话菜单。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch 频道名",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "这将为摄像机控制面板中的 Twitch 聊天面板设置默认的 Twitch 频道名称。这主要用于希望看到 Twitch 聊天的 Twitch 主播而用的。",
@@ -1580,6 +1590,8 @@
         "Settings.DashSettings.DashCurvature.Description": "此设置可以控制在 VR 模式中面板的弯曲程度。将其设置为 0 将使其完全平坦。",
         "Settings.DashSettings.OpenCloseSpeed": "打开/关闭速度",
         "Settings.DashSettings.OpenCloseSpeed.Description": "用它来调整面板打开和关闭的速度。如果你不喜欢这种动画效果，可以将其设置为非常高的值，这样面板打开和关闭的速度就会非常快。",
+        "Settings.DashSettings.AllowReplacingSettings" : "允许替换设置面板",
+        "Settings.DashSettings.AllowReplacingSettings.Description" : "启用后，您就可以在 UI 编辑模式下选择面板上的设置面板，并将其替换为另一个面板。\n\n如果你想选取单个设置作为维面，则需要关闭此设置。 建议在你想用自定义替换设置 UI 时暂时打开，然后再禁用。",
 
         "Settings.NotificationSettings" : "通知",
         "Settings.NotificationSettings.UserOnline" : "有好友上线",
@@ -1603,6 +1615,20 @@
         "Settings.NamePlateSettings.NameplateVisibility.Description": "该选项可以控制你可以看到谁的铭牌。",
         "Settings.NamePlateSettings.UseCustomNameplates": "显示自定义铭牌",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "如果某些铭牌难以阅读、完全隐藏或你需要查看用户的实际用户名和徽章（例如用于管理目的），你可以禁用自定义铭牌并查看默认铭牌。",
+
+        "Settings.CustomizationSettings" : "自定义设置",
+        "Settings.CustomizationSettings.UserInterfaceEditMode" : "UI 编辑模式",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description" : "启用后，你就可以编辑面板中以及手部和视口（如果已启用）上的面锚（模块化用户界面）的位置。\n\n使用完毕后，请记得关闭此设置！你也可以使用面板下方的专用按钮将其关闭。",
+
+        "Settings.FacetAnchorsSettings" : "维面锚点",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors" : "使用维面锚点",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description" : "启用后，你就可以使用右控制器上的应用按钮来切换手臂和前臂上的维面锚点。除了主面板外，这些锚点还提供了放置任何锚点的空间，以便快速取用。",
+        "Settings.FacetAnchorsSettings.AnimationSpeed" : "显示/隐藏动画播放速度",
+        "Settings.FacetAnchorsSettings.AnimationSpeed.Description" : "这决定了切换时维面锚点出现和隐藏的速度。",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle" : "切换控制器",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description" : "这将控制哪个控制器（左侧或右侧）来切换维面锚点。 该面板将与另一个控制器进行切换。",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground" : "显示背景",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description" : "关闭此选项将禁用维面锚点的背景视觉效果，使维面本身成为唯一可见的部分。",
 
         "Settings.LaserSettings.SmoothSpeed": "激光平滑速度",
         "Settings.LaserSettings.SmoothSpeed.Description": "用它来控制激光对你的动作做出反应的速度。较低的数值会使激光更加迟缓，但能更好地过滤震颤。数值越大，响应速度越快，但也会传递更多的控制器震动。",
@@ -1671,7 +1697,7 @@
         "Settings.InteractiveCameraFramingSettings.FirstPersonRoll": "第一人称旋转角度",
         "Settings.InteractiveCameraFramingSettings.FirstPersonRoll.Description": "在第一人称模式下，它控制摄像机的侧向旋转--左右倾斜。",
         "Settings.InteractiveCameraFramingSettings.FirstPersonOffset": "第一人称偏移",
-        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset.Description": "该设置调整第一人称视角中相对于眼睛的摄像机偏移量。如果化身面部几何图形剪切到摄像机视图中，则可以使用此功能。",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset.Description": "该设置调整第一人称视角中相对于眼睛的摄像机偏移量。如果虚拟形象面部几何图形剪切到摄像机视图中，则可以使用此功能。",
         "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "框架视角位置",
         "Settings.InteractiveCameraFramingSettings.FramingViewportPosition.Description": "这些是摄像机视角中的标准化坐标。摄像机会尝试将目标（例如第三人称模式下的用户头部）框定在视角中的这一位置。",
         "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "对准头部前方",
@@ -1689,7 +1715,7 @@
         "Settings.InteractiveCameraRenderSettings.HideAllLasers": "隐藏激光",
         "Settings.InteractiveCameraRenderSettings.HideAllLasers.Description": "摄像机不会渲染任何用户的交互激光。",
         "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera": "用户眼睛始终注视摄像机",
-        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera.Description": "当你的形象使用模拟眼球运动时（即用户没有眼部追踪功能），这将使用户的化身优先与摄像机进行眼神接触。",
+        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera.Description": "当你的形象使用模拟眼球运动时（即用户没有眼部追踪功能），这将使用户的虚拟形象优先与摄像机进行眼神接触。",
 
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius": "群组检测半径",
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius.Description": "在此距离内的用户将被添加到摄像机在群组模式下自动取景的群组中。",
@@ -1773,7 +1799,7 @@
         "Settings.RenderingQualitySettings.ShadowDistance" : "阴影距离",
         "Settings.RenderingQualitySettings.ShadowDistance.Description" : " 该值控制阴影覆盖的距离。增大该值可以确保场景中更远的部分被阴影适当覆盖，但同时也会使阴影的细节分散到更大的区域。\n\n你应该将此设置与阴影级联和分辨率一起更改--阴影分辨率越高，阴影距离就越大。如果降低阴影分辨率和级联，你会希望降低阴影距离，这样阴影的清晰度会更好。",
         "Settings.RenderingQualitySettings.SkinWeightMode" : "蒙皮权重",
-        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "对于任何蒙皮权重（通过骨骼变形的 3D 模型，如大多数化身），该值控制使用多少骨骼来影响每个顶点的位置。\n\n降低该值可以节省一些性能，但变形质量会降低，从而产生尖锐的折痕和其他伪影，通常出现在接缝处。",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "对于任何蒙皮权重（通过骨骼变形的 3D 模型，如大多数虚拟形象），该值控制使用多少骨骼来影响每个顶点的位置。\n\n降低该值可以节省一些性能，但变形质量会降低，从而产生尖锐的折痕和其他伪影，通常出现在接缝处。",
 
         "LocomotionArchetype.Walk": "移动",
         "LocomotionArchetype.Fly": "飞行",
@@ -1842,7 +1868,13 @@
         "Inspector.Member.SetAllToY": "全部设为 Y",
         "Inspector.Member.SetAllToZ": "全部设为 Z",
         "Inspector.Member.SetAllToW": "全部设为 W",
-
+        "Inspector.Member.BakeBlendshape" : "烘焙 Blendshape",
+        "Inspector.Member.RemoveBlendshape" : "移除 Blendshape",
+        "Inspector.Member.SplitBlendshape.X" : "在 X 轴上分割 Blendshape",
+        "Inspector.Member.SplitBlendshape.Y" : "在 Y 轴上分割 Blendshape",
+        "Inspector.Member.SplitBlendshape.Z" : "在 Z 轴上分割 Blendshape",
+        
+        
         "Inspector.ProceduralAsset.UpdateCount": "更新次数： {n}",
         "Inspector.ProceduralAsset.Error": "错误： {error}",
 
@@ -1891,7 +1923,7 @@
         "Inspector.MeshCollider.VHACD": "凸包分解 (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "使用盒碰撞器替换",
 
-        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "更新现有化身的运动模块",
+        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "更新现有虚拟形象的运动模块",
 
         "Inspector.VHACD.Parameter.MergeDoubles": "合并重复项",
         "Inspector.VHACD.Parameter.Resolution": "分辨率",
@@ -1938,7 +1970,7 @@
         "Inspector.SimpleAvatarProtection.RemoveAll": "移除所有实例",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "移除单个实例",
         "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>警告！</size></color><br>以任何除下方按钮之外的方式移除这个组件，都会触发保护机制，并导致自毁和可能的数据损失！",
-        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "移除化身保护",
+        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "移除虚拟形象保护",
 
         "Inspector.BipedRig.GetDiagnosticInfo": "获取rig诊断信息",
         "Inspector.BipedRig.GenerateDebugVisuals": "生成调试视觉效果",
@@ -2046,6 +2078,10 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- 碰撞体与抓取 -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "从层次结构添加固定碰撞体（使用对象根）",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "总是抓取末端骨骼",
+        
+        "Inspector.DataPreset.SetActive": "设置激活状态",
+        "Inspector.DataPreset.SetValues": "设定数值",
+        "Inspector.DataPreset.AddAllChildren": "增加所有子集",
 
         "Inspector.Rig.CleanupBoneColliders": "清理骨骼碰撞体",
         "Inspector.Rig.GenerateDebugVisuals": "生成调试视觉效果",
@@ -2166,16 +2202,16 @@
         "VolumePlaneSlicer.Slicer": "滑块",
 
         "Tutorial.Welcome.Welcome": "欢迎！",
-        "Tutorial.Welcome.Description" : "进入一个有着无限可能性的全新数字宇宙。不管你是为了与世界各地的朋友社交，还是为了建造、创作与开发美丽的艺术品与交互式数字化身，亦或是复杂的可交互游戏和世界，Resonite 都为你提供了一个无限可自定义的环境。这里永远欢迎你，你也将能在此找到志同道合的朋友。<br><br>在你开始探索之前，我们会先引导你进行一些必要的设置，以确保丝滑的体验。当你准备就绪，就请点击下方的按钮",
+        "Tutorial.Welcome.Description" : "进入一个有着无限可能性的全新数字宇宙。不管你是为了与世界各地的朋友社交，还是为了建造、创作与开发美丽的艺术品与交互式数字虚拟形象，亦或是复杂的可交互游戏和世界，Resonite 都为你提供了一个无限可自定义的环境。这里永远欢迎你，你也将能在此找到志同道合的朋友。<br><br>在你开始探索之前，我们会先引导你进行一些必要的设置，以确保丝滑的体验。当你准备就绪，就请点击下方的按钮",
         "Tutorial.Welcome.Begin": "让我们开始吧！",
 
         "Tutorial.Welcome.AccountHeader": "{appName}帐户",
-        "Tutorial.Welcome.AccountDescription": "创建帐户可为你提供1GB的免费存储空间，你将可以保存物品、喜欢的化身，添加朋友和传递信息。",
+        "Tutorial.Welcome.AccountDescription": "创建帐户可为你提供1GB的免费存储空间，你将可以保存物品、喜欢的虚拟形象，添加朋友和传递信息。",
         "Tutorial.Welcome.AccountCreate": "创建帐户",
         "Tutorial.Welcome.AccountLogin": "我已经有一个帐户",
         "Tutorial.Welcome.AccountSkip": "在没有帐户的情况下继续",
         "Tutorial.Welcome.AccountSkipHeader": "跳过创建帐户？",
-        "Tutorial.Welcome.AccountSkipDescription": "某些功能（例如，保存物品、化身，添加好友等）将无法访问。",
+        "Tutorial.Welcome.AccountSkipDescription": "某些功能（例如，保存物品、虚拟形象，添加好友等）将无法访问。",
         "Tutorial.Welcome.AccountSkipConfirm": "确定跳过",
 
         "Tutorial.Welcome.SettingsHeader": "基本配置",
@@ -2200,8 +2236,11 @@
         "Tutorial.Welcome.LeftControllerMode": "左控制器模式",
         "Tutorial.Welcome.RightControllerMode": "右控制器模式",
 
-        "Tutorial.Welcome.SidewaysTurn": "转向",
-        "Tutorial.Welcome.SidewaysTurn.Description": "使用控制器来转向",
+        "Tutorial.Welcome.SidewaysTurnOnly": "仅转向",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "控制器仅用于转动",
+        "Tutorial.Welcome.SidewaysTurnAndMove": "转向 & 移动",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "控制器用于转向和移动",
+
         "Tutorial.Welcome.SidewaysStrafe": "前进",
         "Tutorial.Welcome.SidewaysStrafe.Description": "使用控制器来前进",
         "Tutorial.Welcome.SidewaysOff": "关闭",
@@ -2272,9 +2311,9 @@
         "Migration.DataSelection.Everything": "所有数据",
         "Migration.DataSelection.Choose": "让我自己选择",
 
-        "Migration.DataSelection.Favorites": "收藏内容（化身、家、相机、键盘、Facets）",
+        "Migration.DataSelection.Favorites": "收藏内容（虚拟形象、家、相机、键盘、Facets）",
 
-        "Migration.DataSelection.Favorites.Description": "这将首先迁移你的家、收藏的化身、键盘、相机与仪表板，这样你就能尽快开始使用它们。\n <color=red><b>警告：</b></color> 如果你选择了这个选项，你可能会 <b>失去某些</b> 在迁移前作出的对你收藏内容的更改。",
+        "Migration.DataSelection.Favorites.Description": "这将首先迁移你的家、收藏的虚拟形象、键盘、相机与仪表板，这样你就能尽快开始使用它们。\n <color=red><b>警告：</b></color> 如果你选择了这个选项，你可能会 <b>失去某些</b> 在迁移前作出的对你收藏内容的更改。",
         "Migration.DataSelection.Favorites.OverwriteTitle": "我们应该在迁移时覆写你的收藏夹吗？",
 
         "Migration.DataSelection.Home.Title": "将你原来的家设为默认？",
@@ -2348,7 +2387,7 @@
         "Temporary.MMC.Categories.Misc": "杂项",
         "Temporary.MMC.Categories.Meme": "梗",
 
-        "Temporary.MMC.Categories.Avatars": "化身",
+        "Temporary.MMC.Categories.Avatars": "虚拟形象",
         "Temporary.MMC.Categories.Avatars.Accessories": "配件",
 
         "Temporary.MMC.VoteSuccess": "在 {category} 中你投票给了 {voteTarget}。",
@@ -2385,7 +2424,7 @@
         "CloudHome.Info.ModerationTab.Content": "安全很重要。如果你需要帮助或者需要举报一位用户，请在我们的 <u><color=hero.cyan>监管平台</color></u><sprite name=hyperlink>发起工单。<br><br>我们有由志愿管理员组成的强大团队 <sprite name=modbadge> 来保障社区的安全！如果你有疑问，或是发现了违反行为准则的现象，请发起工单。",
 
         "CloudHome.Info.InventoryTab.Title": "保存你的物品！",
-        "CloudHome.Info.InventoryTab.Content": "在 <i><color=hero.purple>仪表盘</color></i> 中的 <i><color=hero.purple>库存</color></i> 包含了你保存的物品与化身。<br><br>在 <i><color=hero.purple>基础</color></i> 文件夹中，我们准备了一些有趣的东西。你可以双击来生成它们！",
+        "CloudHome.Info.InventoryTab.Content": "在 <i><color=hero.purple>仪表盘</color></i> 中的 <i><color=hero.purple>库存</color></i> 包含了你保存的物品与虚拟形象。<br><br>在 <i><color=hero.purple>基础</color></i> 文件夹中，我们准备了一些有趣的东西。你可以双击来生成它们！",
 
         "CloudHome.Info.ToolsTab.Title": "世界内编辑！",
         "CloudHome.Info.ToolsTab.Content": "{appName} 的一大特点在于，你能够轻易的在游戏中创造、修改事物。<br><br>是的！就在此处！实际上在任何地方都可以。你可以在库存中的 <i><color=hero.purple>基础 -> 工具</color></i> 栏找到用于修改世界的工具，并将一切变成你喜欢的样子。",
@@ -2481,7 +2520,7 @@
         "CloudHome.FeaturedPanel.LinkText": "点击这里<br>来为你打开世界！",
         "CloudHome.FeaturedPanel.Featured": "精选",
 
-        "CloudHome.AvatarPanel.Title": "精选化身世界",
+        "CloudHome.AvatarPanel.Title": "精选虚拟形象世界",
 
         "CloudHome.SupporterPanel.Title": "<b>我们的支持者们</b>",
 
