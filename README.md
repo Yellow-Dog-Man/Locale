@@ -20,6 +20,7 @@ Polish [pl] - 76.9% - Missing keys: 519
 Portuguese (Brazil) [pt-br] - 69.8% - Missing keys: 680  
 Russian [ru] - 99.8% - Missing keys: 4  
 Swedish [sv] - 28.3% - Missing keys: 1611  
+Thai [th] - 1.8% - Missing keys: 2208  
 Turkish [tr] - 36.1% - Missing keys: 1437  
 Chinese (China) [zh-cn] - 99.8% - Missing keys: 4  
 Chinese (Taiwan) [zh-tw] - 70.0% - Missing keys: 674  
