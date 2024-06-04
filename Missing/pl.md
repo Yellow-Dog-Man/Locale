@@ -12,6 +12,7 @@ Notifications.UserJoined
 Notifications.UserLeft  
 Tooltip.Glue.Mode.BakeSkinnedMeshes  
 AvatarCreator.ProtectionUnavailable  
+Importer.Image.Sprite  
 Settings.OnlineStatusSettings  
 Settings.OnlineStatusSettings.DefaultStatus  
 Settings.OnlineStatusSettings.DefaultStatus.Description  

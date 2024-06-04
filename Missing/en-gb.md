@@ -774,6 +774,7 @@ Importer.Image.Prompt
 Importer.Image.Regular  
 Importer.Image.Screenshot  
 Importer.Image.PixelArt  
+Importer.Image.Sprite  
 Importer.Image.360  
 Importer.Image.StereoPhoto  
 Importer.Image.Stereo360  

@@ -79,6 +79,7 @@ Tooltip.ComponentClone.SingleInstanceOn
 Tooltip.ComponentClone.SingleInstanceOff  
 Tooltip.ComponentClone.ClearTemplate  
 AvatarCreator.ProtectionUnavailable  
+Importer.Image.Sprite  
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  

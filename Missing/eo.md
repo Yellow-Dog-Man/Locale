@@ -18,6 +18,7 @@ Notifications.SessionStarted
 Notifications.UserJoined  
 Notifications.UserLeft  
 AvatarCreator.ProtectionUnavailable  
+Importer.Image.Sprite  
 Settings.Category.Audio  
 Settings.Category.Controls  
 Settings.Category.Devices  

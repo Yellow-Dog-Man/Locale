@@ -306,6 +306,7 @@ Importer.Folder.Minecraft
 Importer.Folder.Minecraft.Description  
 Importer.Image.Screenshot  
 Importer.Image.PixelArt  
+Importer.Image.Sprite  
 Importer.Model.Advanced.PreferSpecular  
 Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  

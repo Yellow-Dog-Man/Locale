@@ -2,6 +2,7 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Chinese (China) [zh-cn]
+Importer.Image.Sprite  
 Settings.OnlineStatusSettings  
 Settings.OnlineStatusSettings.DefaultStatus  
 Settings.OnlineStatusSettings.DefaultStatus.Description  

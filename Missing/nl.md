@@ -253,6 +253,7 @@ CreateNew.Light.Spot
 AvatarCreator.Title  
 AvatarCreator.ProtectionUnavailable  
 Importer.Image.PixelArt  
+Importer.Image.Sprite  
 Importer.Image.LUT  
 Importer.Model.Title  
 Importer.Model.Regular  
