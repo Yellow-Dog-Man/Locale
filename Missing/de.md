@@ -4,6 +4,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 # German [de]
 Profile.Status.Sociable  
 Notifications.IsSociable  
+Importer.Image.Sprite  
 Settings.OnlineStatusSettings  
 Settings.OnlineStatusSettings.DefaultStatus  
 Settings.OnlineStatusSettings.DefaultStatus.Description  

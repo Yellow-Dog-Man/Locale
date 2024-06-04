@@ -77,6 +77,7 @@ Tooltip.ComponentClone.SingleInstanceOn
 Tooltip.ComponentClone.SingleInstanceOff  
 Tooltip.ComponentClone.ClearTemplate  
 AvatarCreator.ProtectionUnavailable  
+Importer.Image.Sprite  
 Settings.Category.Audio  
 Settings.Category.Controls  
 Settings.Category.Devices  

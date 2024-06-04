@@ -255,6 +255,7 @@ Importer.Folder.Batch
 Importer.Folder.Batch.Description  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
+Importer.Image.Sprite  
 Importer.Image.LUT  
 Importer.ImageVideo.LayoutPrompt  
 Importer.ImageVideo.LayoutHorizontalLR  

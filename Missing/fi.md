@@ -44,6 +44,7 @@ ProtoFlux.UI.Call
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
 AvatarCreator.ProtectionUnavailable  
+Importer.Image.Sprite  
 Importer.Image.LUT  
 Importer.Video.Regular  
 Importer.Slices.Title  
