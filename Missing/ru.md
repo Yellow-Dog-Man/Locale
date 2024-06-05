@@ -2,8 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Russian [ru]
-Profile.Status.Sociable  
-Notifications.IsSociable  
 Importer.Image.Sprite  
 Settings.OnlineStatusSettings  
 Settings.OnlineStatusSettings.DefaultStatus  
@@ -18,6 +16,6 @@ Settings.OnlineStatusSettings.InvisibleRememberTimespan
 Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description  
 Settings.OnlineStatusSettings.AutoAwayTimespan  
 Settings.OnlineStatusSettings.AutoAwayTimespan.Description  
-Settings.NotificationSettings.UserSociable  
-Settings.NotificationSettings.UserSociable.Description  
+Settings.EarmuffSettings.Angle  
+Settings.EarmuffSettings.Angle.Description  
 

@@ -589,8 +589,8 @@ Settings.EarmuffSettings.Directionality
 Settings.EarmuffSettings.Directionality.Description  
 Settings.EarmuffSettings.Distance  
 Settings.EarmuffSettings.Distance.Description  
-Settings.EarmuffSettings.ConeAngle  
-Settings.EarmuffSettings.ConeAngle.Description  
+Settings.EarmuffSettings.Angle  
+Settings.EarmuffSettings.Angle.Description  
 Settings.EarmuffSettings.TransitionStart  
 Settings.EarmuffSettings.TransitionStart.Description  
 Settings.EarmuffSettings.TransitionLength  

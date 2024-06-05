@@ -18,6 +18,8 @@ Settings.OnlineStatusSettings.InvisibleRememberTimespan
 Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description  
 Settings.OnlineStatusSettings.AutoAwayTimespan  
 Settings.OnlineStatusSettings.AutoAwayTimespan.Description  
+Settings.EarmuffSettings.Angle  
+Settings.EarmuffSettings.Angle.Description  
 Settings.NotificationSettings.UserSociable  
 Settings.NotificationSettings.UserSociable.Description  
 
