@@ -44,6 +44,7 @@ ProtoFlux.UI.Call
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
 AvatarCreator.ProtectionUnavailable  
+Importer.Image.Sprite  
 Importer.Image.LUT  
 Importer.Video.Regular  
 Importer.Slices.Title  
@@ -56,6 +57,19 @@ CameraControl.OBS.Recording
 Settings.Category.Audio  
 Settings.GeneralVRSettings  
 Settings.LeapMotionSettings  
+Settings.OnlineStatusSettings  
+Settings.OnlineStatusSettings.DefaultStatus  
+Settings.OnlineStatusSettings.DefaultStatus.Description  
+Settings.OnlineStatusSettings.RememberMode  
+Settings.OnlineStatusSettings.RememberMode.Description  
+Settings.OnlineStatusSettings.RememberTimespan  
+Settings.OnlineStatusSettings.RememberTimespan.Description  
+Settings.OnlineStatusSettings.InvisibleRememberMode  
+Settings.OnlineStatusSettings.InvisibleRememberMode.Description  
+Settings.OnlineStatusSettings.InvisibleRememberTimespan  
+Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description  
+Settings.OnlineStatusSettings.AutoAwayTimespan  
+Settings.OnlineStatusSettings.AutoAwayTimespan.Description  
 Settings.GeneralControlsSettings.PrimaryHand.Description  
 Settings.GeneralControlsSettings.DoubleClickInterval.Description  
 Settings.MovementSettings.LeftSidewaysMode.Description  
@@ -169,7 +183,7 @@ Settings.VoiceSettings.MutePersistence.Description
 Settings.EarmuffSettings.EarmuffEnabled.Description  
 Settings.EarmuffSettings.Directionality.Description  
 Settings.EarmuffSettings.Distance.Description  
-Settings.EarmuffSettings.ConeAngle.Description  
+Settings.EarmuffSettings.Angle.Description  
 Settings.EarmuffSettings.TransitionStart.Description  
 Settings.EarmuffSettings.TransitionLength.Description  
 Settings.EarmuffSettings.VolumeAttenuation.Description  
