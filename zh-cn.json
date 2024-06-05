@@ -493,7 +493,7 @@
 
         "Register.UsernameAlreadyRegistered": "此用户名已注册",
         "Register.UsernameAlreadyRegistered.Description": "使用此用户名的帐户已经存在， 如果你忘记了密码，可以点击\"忘记密码？\"。 或者通过 {supportUrl} 联系支持人员。",
-        
+
         "Register.ErrorCheckingUserId": "检查用户ID时出错",
         "Register.ErrorCheckingUserId.Description": "请在 {supportUrl}联系支持人员。",
 
@@ -503,7 +503,7 @@
         "Recovery.IncorrectEmail": "电子邮箱错误",
         "Recovery.IncorrectEmail.Description": "你填写了一个错误的用于恢复密码的邮箱。 请检查细节后再试一次。",
 
-        "Recovery.NoPasswordSetup": "未设置密码", 
+        "Recovery.NoPasswordSetup": "未设置密码",
         "Recovery.NoPasswordSetup.Description": "请在：{supportUrl}联系支持人员。",
 
         "Register.UnknownError": "未知错误",
@@ -772,7 +772,7 @@
         "Tooltip.Material.CreateNew": "创建新的",
 
         "Tooltip.Mesh.Edit": "编辑网格",
-        
+
         "Tooltip.Cartridge.Eject": "取出球体",
 
         "Tooltip.Microphone.Format.WAV": "WAV文件",
@@ -1015,7 +1015,7 @@
         "Importer.Slices.Title": "将图像切片导入为体积纹理",
         "Importer.Slices.TitleGrayscale": "将图像切片导入为体积纹理（灰度）",
         "Importer.Slices.Description": "将文件夹中的所有图像文件合成为一个体积纹理",
-        
+
         "Exporter.Title": "导出",
         "Exporter.FileName": "文件名：",
         "Exporter.ExportAs": "导出为：",
@@ -1368,7 +1368,7 @@
         "Settings.TrackerSettings.UseTrackers.Description" : "使用此选项，你可以全局禁用所有追踪器。如果你的追踪器在角落里充电，导致你的虚拟形象皱成一团的时候，这就很有用了。",
         "Settings.TrackerSettings.Trackers" : "管理追踪器",
         "Settings.TrackerSettings.Trackers.Breadcrumb" : "追踪器",
-        
+
         "Settings.TrackerSettings.Trackers.UseTracker" : "使用追踪器",
         "Settings.TrackerSettings.Trackers.UseTracker.Description" : "是否应使用此追踪器进行追踪？你可以用它来暂时禁用给定的追踪器，而无需重置其映射。",
         "Settings.TrackerSettings.Trackers.FreezeTracking" : "冻结追踪器",
@@ -1415,7 +1415,7 @@
         "Settings.HapticPointMapping.HeadPitchAngle.Description" : "它控制头部 \"垂直\" 轴的位置。 默认位置是脸部中心（鼻子的位置）。增大角度会向上偏向头顶。减小角度值则会向下巴方向移动。",
         "Settings.HapticPointMapping.HeadYawAngle" : "头部偏转角度",
         "Settings.HapticPointMapping.HeadYawAngle.Description" : "这可以控制头部周围的水平位置，向左或向右转。中心（鼻子的位置）是默认姿势。减小数值会向左转，增大数值会向右转。它以 180° 的角度环绕头部一周，也就是后脑勺的位置。",
-        
+
         "Settings.HapticPointMapping.ArmSide" : "手臂",
         "Settings.HapticPointMapping.ArmSide.Description" : "要定位到哪边手臂？左臂还是右臂？",
         "Settings.HapticPointMapping.ArmPositionAlong" : "手臂的位置",
@@ -1504,7 +1504,7 @@
         "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "此设置调整在最初检测到音量后，调整音量应保持多长时间，然后再开始过滤音频。如果设置较高，则在发出足够大的声音后，会有更多较安静的音频通过。",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease": "语音释放阈值",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "此设置可调整噪声门在传入音频恢复安静后的关闭速度。",
-        
+
         "Settings.AudioInputFilteringSettings.NormalizationThreshold": "标准化阈值",
         "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "使用该设置，你可以控制阈值，使传入的音频在何时被放大。如果你的正常说话声太小，没有被放大，请降低该设置。如果有外界的噪音被放大，则提高阈值。",
 
@@ -1522,8 +1522,8 @@
         "Settings.EarmuffSettings.Directionality.Description" : "这可以控制声音衰减的方向性。0 % 时，你身后的声音与你身前相同距离的声音音量相同。当值为 100 % 时，除非距离很近，否则你将听不到身后的声音。\n\n如果你想更好地听到身后的声音，请降低该值。",
         "Settings.EarmuffSettings.Distance" : "距离",
         "Settings.EarmuffSettings.Distance.Description" : "这控制着你前方（如果方向性为 0 %，则控制着你后方）的距离，超过这个距离，声音就会变得更小。",
-        "Settings.EarmuffSettings.ConeAngle" : "角度",
-        "Settings.EarmuffSettings.ConeAngle.Description" : "这可以控制声音在您的脸前保持正常水平的角度。任何超出这个角度的声音在到达过渡距离后都会开始衰减。",
+        "Settings.EarmuffSettings.Angle" : "角度",
+        "Settings.EarmuffSettings.Angle.Description" : "这可以控制声音在您的脸前保持正常水平的角度。任何超出这个角度的声音在到达过渡距离后都会开始衰减。",
         "Settings.EarmuffSettings.TransitionStart" : "过渡起步距离",
         "Settings.EarmuffSettings.TransitionStart.Description" : "这控制着与 \"侦听锥\" 的距离，在这个距离上，声音会变得更小。 建议将其保持在零以上，因为这样可以更好地包含两侧的声音和头部附近的声音 (例如，声音本质上在你的后面，但却非常接近)。",
         "Settings.EarmuffSettings.TransitionLength" : "过渡范围",
@@ -1567,7 +1567,7 @@
         "Settings.DebugSettings.DebugInputBindings.Description": "启用后，你将看到输入绑定系统的调试信息。 这对开发人员非常有用。",
         "Settings.DebugSettings.FetchIncompatibleSessions": "在会话列表显示不兼容的会话",
         "Settings.DebugSettings.FetchIncompatibleSessions.Description": "启用后，你将会在会话列表看到与当前客户端版本不兼容的活动会话。",
-        
+
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "双击手柄握把键装备物品",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "启用后，只要连续按两次握把键，就可以装备工具和小物件。这一设置可能会在某个时候被移除。",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "使用传统世界切换器",
@@ -1674,8 +1674,8 @@
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "启用后， 快速照片捕捉将呈现你的UI， 如界面。\n\n我们建议你在完成设置后将其关闭，因为开启它可能会导致意外拍摄到并泄露你的个人信息。",
         "Settings.PhotoCaptureSettings.EncodeFormat" : "照片编码格式",
         "Settings.PhotoCaptureSettings.EncodeFormat.Description" : "拍摄的照片将被编码成的图像文件格式。请注意，某些格式可能缺乏某些功能（如支持 alpha），编码速度可能会明显变慢，图像质量可能会降低，或导致文件变大。",
-        "Settings.PhotoCaptureSettings.AlwaysHideNameplates" : "始终隐藏铭牌",        
-        "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description" : "如果你希望照片中永远不显示铭牌，请将其打开。此设置与当前的铭牌可见性无关，将始终确保铭牌隐藏在拍摄的照片中。",        
+        "Settings.PhotoCaptureSettings.AlwaysHideNameplates" : "始终隐藏铭牌",
+        "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description" : "如果你希望照片中永远不显示铭牌，请将其打开。此设置与当前的铭牌可见性无关，将始终确保铭牌隐藏在拍摄的照片中。",
 
         "Settings.DesktopRenderSettings.FieldOfView": "视场",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "在桌面模式下，用它来控制视场（FOV）。 数值越大，视野越开阔，但两侧的失真也越大。",
@@ -1725,7 +1725,7 @@
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius.Description": "在此距离内的用户将被添加到摄像机在群组模式下自动取景的群组中。",
         "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary": "群组离开边界范围",
         "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary.Description": "用户需要离开群组半径多远才会被排除在群组之外。",
-        
+
         "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed": "位置平滑速度",
         "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed.Description": "这表示摄像机移动到世界中目标位置的速度。数值越大，摄像机移动速度越快，但也会导致移动更加生涩。",
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "角度平滑速度",
@@ -1750,7 +1750,7 @@
 
         "Settings.DescriptionField.NoTextTitle": "更多信息",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>将鼠标悬停在某个设置上可查看其说明。</closeall>",
-        
+
         "Settings.RelaySettings" : "网络中继",
         "Settings.RelaySettings.AlwaysUseRelay" : "总是使用中继模式连接",
         "Settings.RelaySettings.AlwaysUseRelay.Description" : "当无法建立与主机的直接连接时，中继模式通常用作备用方法。\n\n这在特定主机出现连接问题时非常有用。 但我们 <b>不</b> 推荐一直打开此选项。",
@@ -1877,7 +1877,7 @@
         "Inspector.Member.SplitBlendshape.X" : "在 X 轴上分割 Blendshape",
         "Inspector.Member.SplitBlendshape.Y" : "在 Y 轴上分割 Blendshape",
         "Inspector.Member.SplitBlendshape.Z" : "在 Z 轴上分割 Blendshape",
-        
+
         "Inspector.ProceduralAsset.UpdateCount": "更新次数： {n}",
         "Inspector.ProceduralAsset.Error": "错误： {error}",
 
@@ -2081,7 +2081,7 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- 碰撞体与抓取 -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "从层次结构添加固定碰撞体（使用对象根）",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "总是抓取末端骨骼",
-        
+
         "Inspector.DataPreset.SetActive": "设置激活状态",
         "Inspector.DataPreset.SetValues": "设定数值",
         "Inspector.DataPreset.AddAllChildren": "增加所有子集",
@@ -2200,7 +2200,7 @@
         "Desktop.LegacyInputMode.Off": "旧版输入模式：禁用",
         "Desktop.Brightness": "亮度：{n,number,percent}",
         "Desktop.Opacity": "不透明度：{n,number,percent}",
-        
+
         "VolumePlaneSlicer.Highlight": "高亮",
         "VolumePlaneSlicer.Slicer": "滑块",
 
