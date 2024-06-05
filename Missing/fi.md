@@ -183,7 +183,6 @@ Settings.VoiceSettings.MutePersistence.Description
 Settings.EarmuffSettings.EarmuffEnabled.Description  
 Settings.EarmuffSettings.Directionality.Description  
 Settings.EarmuffSettings.Distance.Description  
-Settings.EarmuffSettings.Angle  
 Settings.EarmuffSettings.Angle.Description  
 Settings.EarmuffSettings.TransitionStart.Description  
 Settings.EarmuffSettings.TransitionLength.Description  
