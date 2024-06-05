@@ -588,6 +588,7 @@
         "2FA.Header": "2FA Verifikation",
         "2FA.Token": "6-stelliges Token:",
 
+        "Profile.Status.Sociable": "Gesellig",
         "Profile.Status.Online": "Online",
         "Profile.Status.Away": "Abwesend",
         "Profile.Status.Busy": "Beschäftigt",
@@ -658,6 +659,7 @@
         "Contacts.Bot": "Bot-Konto",
         "Contacts.Migrated": "Kontakt ist noch nicht migriert",
 
+        "Notifications.IsSociable": "Ist gesellig, bitte anstupsen oder einladen!",
         "Notifications.IsOnline": "Ist jetzt Online",
         "Notifications.IsOnlineOnDifferentVersion": "Ist jetzt Online <size=75%>(mit Version: {version})</size>",
         "Notifications.ReceivedContactRequest": "Hat eine Kontaktanfrage gesendet",
@@ -919,6 +921,7 @@
         "Importer.Image.Regular": "Bild / Textur",
         "Importer.Image.Screenshot": "{platform} Photo <size=50%>(hier aufgenommen)</size>",
         "Importer.Image.PixelArt": "Pixel-Art",
+        "Importer.Image.Sprite": "Sprite",
         "Importer.Image.360": "360-Foto / Skybox",
         "Importer.Image.StereoPhoto": "Stereo-Foto",
         "Importer.Image.Stereo360": "Stereo-360-Grad-Foto",
@@ -1207,6 +1210,20 @@
         "Settings.TrackingSmoothingSettings": "Glättung des Trackings",
 
         "Settings.UserMetricsSettings": "Benutzer-Messwerte",
+
+        "Settings.OnlineStatusSettings": "Online Status",
+        "Settings.OnlineStatusSettings.DefaultStatus": "Standard-Status",
+        "Settings.OnlineStatusSettings.DefaultStatus.Description": "Nach dem Anmelden beginnen Sie mit diesem Status, es sei denn, es gibt einen früher gespeicherten Status.",
+        "Settings.OnlineStatusSettings.RememberMode": "Letzten Status merken",
+        "Settings.OnlineStatusSettings.RememberMode.Description": "Hiermit stellen Sie ein, ob Ihr letzter Online-Staus für die nächste Anmeldung beibehalten werden soll oder nicht. Dies gilt nicht für den Unsichtbar-Status, dieser wird über eine eigene Einstellung gesteuert.",
+        "Settings.OnlineStatusSettings.RememberTimespan": "Status merken für",
+        "Settings.OnlineStatusSettings.RememberTimespan.Description": "Der letzte Status wird nur für diese Zeitspanne gespeichert. Wenn Ihre letzte Anmeldung länger zurückliegt, wird stattdessen wieder der Standard-Status verwendet.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode": "Letzten Unsichtbar-Status merken",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description": "Diese Einstellung speichert nur Ihren Unsichtbar-Staus.\n\nFür diesen Status gibt es aus Gründen der Privatsphäre eine eigene Einstellung. Dies stellt sicher, dass Sie beim nächsten Anmelden unsichtbar bleiben können, auch wenn Sie ihren anderen Status nicht speichen lassen.",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan": "Unsichtbar-Status merken für",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description": "Der letzte Unsichtbar-Status wird nur für diese Zeitspanne gespeichert. Wenn Ihre letzte Anmeldung länger zurückliegt, wird stattdessen wieder der Standard-Status verwendet.",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan": "Auf Abwesend schalten nach Inaktivität für",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description": "Wenn Sie länger als diese Zeispanne inaktiv sind, wird Ihr Online-Status auf Abwesend umgeschaltet. Sobald Sie zurückkommen, wird er automatisch wieder auf den vorherigen Status zurückgestellt, außer Sie stellen ihn von Hand auf Abwesend.",
 
         "Settings.AudioInputDeviceSettings": "Audio Aufnahmegeräte",
         "Settings.AudioOutputDeviceSettings": "Audio Ausgabegeräte",
@@ -1596,6 +1613,8 @@
         "Settings.NotificationSettings": "Benachrichtigungen",
         "Settings.NotificationSettings.UserOnline": "Kontakt Online",
         "Settings.NotificationSettings.UserOnline.Description": "Hier stellen Sie ein, ob Sie benachrichtigt werden, wenn dieser Kontakt online geht.",
+        "Settings.NotificationSettings.UserSociable": "Kontakt Gesellig",
+        "Settings.NotificationSettings.UserSociable.Description": "Wenn einer Ihrer Kontakte gesellig wird, erhalten Sie eine deutliche Benachrichtigung mit Signalton, so dass Sie ihn einladen oder anstupsen können!\n\nWenn Sie diese Benachrichtigungen nicht mögen, können Sie sie hiermit ausschalten, dann wird dies nicht anders behandelt, als ob ein Benutzer online kommt.",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild": "Kontakt Online mit einem inkompatiblen Build",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description": "Hier können Sie festlegen, ob Sie Benachrichtigungen erhalten, wenn Ihre Kontakte online gehen und dabei einen Build verwenden, der nicht mit Ihrem eigenen kompatibel ist (z. B. eine neue Version oder Pre-Release-Builds).",
         "Settings.NotificationSettings.Message": "Nachrichten",
@@ -1873,7 +1892,6 @@
         "Inspector.Member.SplitBlendshape.X": "Blendshape über X zerteilen",
         "Inspector.Member.SplitBlendshape.Y": "Blendshape über Y zerteilen",
         "Inspector.Member.SplitBlendshape.Z": "Blendshape über Z zerteilen",
-
 
         "Inspector.ProceduralAsset.UpdateCount": "Anzahl der Aktualisierungen: {n}",
         "Inspector.ProceduralAsset.Error": "Fehler: {error}",
@@ -2240,7 +2258,6 @@
         "Tutorial.Welcome.SidewaysTurnOnly.Description": "Diesen Controller nur zum Drehen verwenden.",
         "Tutorial.Welcome.SidewaysTurnAndMove": "Drehen und Bewegen",
         "Tutorial.Welcome.SidewaysTurnAndMove.Description": "Diesen Controller zum Drehen und zur Bewegung verwenden.",
-
         "Tutorial.Welcome.SidewaysStrafe": "Seitwärtsbewegung",
         "Tutorial.Welcome.SidewaysStrafe.Description": "Diesen Controller zum seitwärts Bewegen verwenden.",
         "Tutorial.Welcome.SidewaysOff": "Aus",
