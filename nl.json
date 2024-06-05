@@ -55,8 +55,8 @@
         "General.Sort.Ascending": "Oplopend",
         "General.Sort.Descending": "Aflopend",
 
-        "General.Units.Metric" : "Metrish",
-        "General.Units.Imperial" : "Imperiaal",
+        "General.Units.Metric": "Metrish",
+        "General.Units.Imperial": "Imperiaal",
 
         "Worlds.Home": "Thuiswereld",
         "Worlds.Tutorial": "Tutorialwereld",
@@ -588,7 +588,7 @@
         "2FA.Header": "2FA verificatie",
         "2FA.Token": "6-cijferige code:",
 
-        "Profile.Status.Sociable" : "Sociaal",
+        "Profile.Status.Sociable": "Sociaal",
         "Profile.Status.Online": "Online",
         "Profile.Status.Away": "Weg",
         "Profile.Status.Busy": "Niet Storen",
@@ -659,7 +659,7 @@
         "Contacts.Bot": "Bot-account",
         "Contacts.Migrated": "Contact heeft niet gemigreerd",
 
-        "Notifications.IsSociable" : "Is sociaal, stuur een bericht of nodig uit!",
+        "Notifications.IsSociable": "Is sociaal, stuur een bericht of nodig uit!",
         "Notifications.IsOnline": "Is nu Online",
         "Notifications.IsOnlineOnDifferentVersion": "Is nu Online <size=75%>(Met versie: {version})</size>",
         "Notifications.ReceivedContactRequest": "Heeft een contact-verzoek gestuurd",
@@ -921,6 +921,7 @@
         "Importer.Image.Regular": "Afbeelding / Texture",
         "Importer.Image.Screenshot": "{appName} Foto<size=50%>(Hier opgenomen)</size>",
         "Importer.Image.PixelArt": "Pixel-Art",
+        "Importer.Image.Sprite": "Sprite",
         "Importer.Image.360": "360° Foto / Skybox",
         "Importer.Image.StereoPhoto": "Stereo Foto",
         "Importer.Image.Stereo360": "Stereo 360° Foto",
@@ -1210,6 +1211,20 @@
 
         "Settings.UserMetricsSettings": "Gebruikers-gegevens",
 
+        "Settings.OnlineStatusSettings" : "Online Status",
+        "Settings.OnlineStatusSettings.DefaultStatus" : "Standaard Status",
+        "Settings.OnlineStatusSettings.DefaultStatus.Description" : "Dit is de standaard status waar je mee begint na inloggen, tenzij er een vorige status onthouden is.",
+        "Settings.OnlineStatusSettings.RememberMode" : "Onthoud laatste status",
+        "Settings.OnlineStatusSettings.RememberMode.Description" : "Gebruik dit om te bepalen of je laatste status onthouden moet worden elke keer dat je inlogt. Dit bevat statussen anders dan Onzichtbaar, die met een andere instelling bepaald wordt.",
+        "Settings.OnlineStatusSettings.RememberTimespan" : "Onthoud status voor",
+        "Settings.OnlineStatusSettings.RememberTimespan.Description" : "Je laatste online status wordt alleen onthouden als je opnieuw inlogt binnen deze tijd. Als je langer duurt dan dit, start je met je standaard status.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode" : "Onthoud laatste Onzichtbaar status",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "Dit bepaalt hoe je laatste status onthouden wordt, specifiek voor Onzichtbaar. Anders functioneert dit hetzelfde.\n\nDe Onzichtbare status heeft een aparte instelling voor privacy redenen, om zeker te weten dat als je als laatste op onzichtbaar stond, dat je op de volgende login ook onzichtbaar bent, ook als je andere statussen niet worden onthouden.",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "Onthoud Onzichtbaar status voor",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "Je laatste onzichtbare status wordt alleen onthouden als je opnieuw inlogt binnen deze tijd. Als je langer duurt dan dit, start je met je standaard status.",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan" : "Wissel naar Weg wanneer inactief voor",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description" : "Wanneer je inactief bent voor deze tijd, wordt je online status automatisch naar weg gezet. Wanneer je terug komt, wordt het automatisch terug gezet naar de vorige status, tenzij je het standaard op Weg hebt gezet.",
+
         "Settings.AudioInputDeviceSettings": "Audio Invoer",
         "Settings.AudioOutputDeviceSettings": "Audio Uitvoer",
         "Settings.AudioVolumeSettings": "Volume",
@@ -1278,9 +1293,9 @@
         "Settings.MovementSettings.MovementExponent": "Bewegings exponent", // TODO (exponent)
         "Settings.MovementSettings.MovementExponent.Description": "Gebruik dit om de curve-reactie voor bewegen te bewerken. Je kan dit gebruiken om te beginnen met langzaam bewegen en daarna vlugger snel bewegen, or gelijk sneller bewegen, gebaseerd op of de waarde boven of onder 1.0 is.",
 
-        "Settings.GrabbingSettings" : "Vastpakken",
-        "Settings.GrabbingSettings.DefaultHandGrabType" : "Standaard Hand Vastpak Type",
-        "Settings.GrabbingSettings.DefaultHandGrabType.Description" : "Dit bepaalt wat jouw standaard vastpake modus is wanneer je nieuwe werelden toetreed.\n\n<color=hero.yellow>Palm:</color> Je pakt alle objecten vast in de buurt van je palm.\n\n<color=hero.yellow>Precisie:</color> Je pakt een enkel object vast tussen je wijsvinger en duim.\n\n<color=hero.yellow>Automatisch:</color> De modus wordt automatisch geselecteerd tussen handpalm en precisie afhankelijk van de richting van je hand.\n\n<color=hero.yellow>Uit:</color> Je kan alleen vastpakken met je lasers.",
+        "Settings.GrabbingSettings": "Vastpakken",
+        "Settings.GrabbingSettings.DefaultHandGrabType": "Standaard Hand Vastpak Type",
+        "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Dit bepaalt wat jouw standaard vastpake modus is wanneer je nieuwe werelden toetreed.\n\n<color=hero.yellow>Palm:</color> Je pakt alle objecten vast in de buurt van je palm.\n\n<color=hero.yellow>Precisie:</color> Je pakt een enkel object vast tussen je wijsvinger en duim.\n\n<color=hero.yellow>Automatisch:</color> De modus wordt automatisch geselecteerd tussen handpalm en precisie afhankelijk van de richting van je hand.\n\n<color=hero.yellow>Uit:</color> Je kan alleen vastpakken met je lasers.",
 
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Thumbstick draaisnelheid",
@@ -1309,27 +1324,27 @@
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR Hotswitching",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Als dit aan staat, wissel je automatisch tussen VR- en bureaublad-modus wanneer je jouw VR headset op of af doet.",
 
-        "Settings.TrackingSmoothingSettings.HandPositionSmoothing" : "Handen Positie Smoothing", // TODO (smooth)
-        "Settings.TrackingSmoothingSettings.HandRotationSmoothing" : "Handen Rotatie Smoothing", // TODO (smooth)
-        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description" : "Wanneer dit aan staat, bepaalt het hoe veel de handen positie smoothed is. Dit kan helpen voor gebruikers met handtrillingen en andere toegankelijkheidsproblemen die rilling veroorzaken.", // TODO (smooth)
-        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description" : "Wanneer dit aan staat, bepaalt het hoe veel de handen rotatie smoothed is. Dit kan helpen voor gebruikers met handtrillingen en andere toegankelijkheidsproblemen die rilling veroorzaken.", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Handen Positie Smoothing", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Handen Rotatie Smoothing", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de handen positie smoothed is. Dit kan helpen voor gebruikers met handtrillingen en andere toegankelijkheidsproblemen die rilling veroorzaken.", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de handen rotatie smoothed is. Dit kan helpen voor gebruikers met handtrillingen en andere toegankelijkheidsproblemen die rilling veroorzaken.", // TODO (smooth)
 
-        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing" : "Voeten Positie Smoothing", // TODO (smooth)
-        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing" : "Voeten Rotatie Smoothing", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Voeten Positie Smoothing", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Voeten Rotatie Smoothing", // TODO (smooth)
 
-        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description" : "Wanneer dit aan staat, bepaalt het hoe veel de voeten positie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
-        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description" : "Wanneer dit aan staat, bepaalt het hoe veel de voeten rotatie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de voeten positie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de voeten rotatie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
 
-        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing" : "Heupen Positie Smoothing", // TODO (smooth)
-        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing" : "Heupen Rotatie Smoothing", // TODO (smooth)
-        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description" : "Wanneer dit aan staat, bepaalt het hoe veel de heupen positie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
-        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description" : "Wanneer dit aan staat, bepaalt het hoe veel de heupen rotatie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Heupen Positie Smoothing", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Heupen Rotatie Smoothing", // TODO (smooth)
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de heupen positie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de heupen rotatie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
 
-        "Settings.MediaPrivacySettings" : "Media Privacy",
-        "Settings.MediaPrivacySettings.MediaMetadataOptOut" : "Niet in media metadata voorkomen",
-        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description" : "Wanneer je deze optie aanzet, kom je niet voor in de metadata van media (meestal virtuele fotos en audio-opnamen). Je bent er nog steeds in te zien of horen, maar geen verdere informatie, zoals je UserID en positie in de scene worden ermee opgeslagen.\n\nAls je merkt dat andere gebruikers hun client aanpassen om deze optie te negeren, rapporteer ze aan het moderatieteam, omdat dit gezien wordt als intimidatie.",
-        "Settings.MediaPrivacySettings.HideInScreenshots" : "Laat me niet zien in screenshots",
-        "Settings.MediaPrivacySettings.HideInScreenshots.Description" : "Wanneer deze optie aan staat, kom je niet voor in screenshots die in-game gemaakt zijn.\n\n<color=hero.red>BELANGRIJK:</color> Wees ervan bewust dat dit geen invloed heeft op realtime cameras, screenshots die buiten Resonite gemaakt zijn of opnames die gemaakt zijn door andere methodes in een wereld, die mogelijk onderdeel zijn van de functies van een wereld.", // TODO (realtime cameras)
+        "Settings.MediaPrivacySettings": "Media Privacy",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Niet in media metadata voorkomen",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Wanneer je deze optie aanzet, kom je niet voor in de metadata van media (meestal virtuele fotos en audio-opnamen). Je bent er nog steeds in te zien of horen, maar geen verdere informatie, zoals je UserID en positie in de scene worden ermee opgeslagen.\n\nAls je merkt dat andere gebruikers hun client aanpassen om deze optie te negeren, rapporteer ze aan het moderatieteam, omdat dit gezien wordt als intimidatie.",
+        "Settings.MediaPrivacySettings.HideInScreenshots": "Laat me niet zien in screenshots",
+        "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Wanneer deze optie aan staat, kom je niet voor in screenshots die in-game gemaakt zijn.\n\n<color=hero.red>BELANGRIJK:</color> Wees ervan bewust dat dit geen invloed heeft op realtime cameras, screenshots die buiten Resonite gemaakt zijn of opnames die gemaakt zijn door andere methodes in een wereld, die mogelijk onderdeel zijn van de functies van een wereld.", // TODO (realtime cameras)
 
         "Settings.MediaPrivacySettings.StripImageFileMetadata": "Metadata van afbeeldingen weghalen bij importeren",
         "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "Wanneer dit aan staat wordt metadata van afbeeldingen verwijderd bij <b>importeren</b>.\n\nDit bevat EXIF, ingebouwd commentaar, IPTC, XMP, en GEOTIFF metadata.\n\nHiermee worden ook locatiegegevens (zoals GPS) binnen die metadata verwijderd\n\nDit heeft <b>geen</b> invloed op bestanden die geïmporteerd zijn met de optie \"Onbewerkt Bestand\".",
@@ -1363,108 +1378,108 @@
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Track vingers terwijl je controllers gebruikt",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "Wanneer je handen de positie van de controllers gebruiken, kan je hiermee de vinger data gebruiken van de VR headset cameras.",
 
-        "Settings.TrackerSettings" : "Tracker Instellingen",
-        "Settings.TrackerSettings.UseTrackers" : "Gebruik Trackers",
-        "Settings.TrackerSettings.UseTrackers.Description" : "Met deze optie kan je globaal alle trackers uitzetten. Dit kan nuttig zijn als je trackers in een hoek liggen op te laden, waardoor je avatar opgefrommeld wordt.",
-        "Settings.TrackerSettings.Trackers" : "Beheer Trackers",
-        "Settings.TrackerSettings.Trackers.Breadcrumb" : "Trackers",
+        "Settings.TrackerSettings": "Tracker Instellingen",
+        "Settings.TrackerSettings.UseTrackers": "Gebruik Trackers",
+        "Settings.TrackerSettings.UseTrackers.Description": "Met deze optie kan je globaal alle trackers uitzetten. Dit kan nuttig zijn als je trackers in een hoek liggen op te laden, waardoor je avatar opgefrommeld wordt.",
+        "Settings.TrackerSettings.Trackers": "Beheer Trackers",
+        "Settings.TrackerSettings.Trackers.Breadcrumb": "Trackers",
 
-        "Settings.TrackerSettings.Trackers.UseTracker" : "Gebruik Tracker",
-        "Settings.TrackerSettings.Trackers.UseTracker.Description" : "Moet deze tracker gebruikt worden? Je kan deze optie gebruiken om tijdelijk een tracker uit te zetten zonder de toewijzing te resetten.",
-        "Settings.TrackerSettings.Trackers.FreezeTracking" : "Bevries Tracking",
-        "Settings.TrackerSettings.Trackers.FreezeTracking.Description" : "Door dit aan te zetten blijft de tracker actief, maar bevriest de huidige positie en rotatie. Deze instelling wordt niet bewaard en reset de volgende keer dat je de applicatie opstart.",
-        "Settings.TrackerSettings.Trackers.CustomName" : "Aangepaste Naam",
-        "Settings.TrackerSettings.Trackers.CustomName.Description" : "Je kan hier je tracker een aangepaste naam geven, in plaats van de ID te gebruiken, om het makkelijker te maken om het te onderscheiden van andere trackers. Dit is vooral cosmetisch, zonder functionele verschillen.",
-        "Settings.TrackerSettings.Trackers.MappedBodyNode" : "Tracker Toewijzing",
-        "Settings.TrackerSettings.Trackers.MappedBodyNode.Description" : "Welk lichaamsdeel aan deze tracker toegewezen is.\n\nWe raden aan de full-body calibratie hiervoor te gebruiken, inplaats van hier handmatig aanpassen.",
-        "Settings.TrackerSettings.Trackers.MappedPosition" : "Relatieve Positie",
-        "Settings.TrackerSettings.Trackers.MappedPosition.Description" : "De positie van de tracker relatief tot het lichaamsdeel waar het aan toegewezen is.\n\nWe raden aan de full-body calibratie hiervoor te gebruiken, inplaats van hier handmatig aanpassen.",
-        "Settings.TrackerSettings.Trackers.MappedRotation" : "Relatieve Rotatie",
-        "Settings.TrackerSettings.Trackers.MappedRotation.Description" : "De rotatie van de tracker relatief tot het lichaamsdeel waar het aan toegewezen is.\n\nWe raden aan de full-body calibratie hiervoor te gebruiken, inplaats van hier handmatig aanpassen.",
-        "Settings.TrackerSettings.Trackers.UseInVR" : "Gebruik in VR",
-        "Settings.TrackerSettings.Trackers.UseInVR.Description" : "Moet deze tracker invloed hebben op jouw avatar in VR-modus?",
-        "Settings.TrackerSettings.Trackers.UseInDesktop" : "Gebruik in bureaubladmodus",
-        "Settings.TrackerSettings.Trackers.UseInDesktop.Description" : "Moet deze tracker invloed hebben op jouw avatar in bureaubladmodus?",
-        "Settings.TrackerSettings.Trackers.TrackerID" : "Tracker ID",
-        "Settings.TrackerSettings.Trackers.TrackerID.Description" : "Unieke ID van deze tracker. Deze informatie world als privé gezien, en is niet dezelfde ID als degene die in de wereld wordt gezien om tracking met fingerprinting te voorkomen.",
-        "Settings.TrackerSettings.Trackers.TrackerBattery" : "Tracker batterij",
-        "Settings.TrackerSettings.Trackers.TrackerBattery.Description" : "Het huidige batterijniveau van deze tracker. Sommige trackers ondersteunen dit mogelijk niet.",
-        "Settings.TrackerSettings.Trackers.TrackerIsCharging" : "Is aan het opladen",
-        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description" : "Dit laat zien of de tracker aan het opladen is. Sommige trackers ondersteunen dit mogelijk niet.",
-        "Settings.TrackerSettings.Trackers.Unmap" : "Reset toewijzing",
-        "Settings.TrackerSettings.Trackers.Remove" : "Verwijder tracker",
+        "Settings.TrackerSettings.Trackers.UseTracker": "Gebruik Tracker",
+        "Settings.TrackerSettings.Trackers.UseTracker.Description": "Moet deze tracker gebruikt worden? Je kan deze optie gebruiken om tijdelijk een tracker uit te zetten zonder de toewijzing te resetten.",
+        "Settings.TrackerSettings.Trackers.FreezeTracking": "Bevries Tracking",
+        "Settings.TrackerSettings.Trackers.FreezeTracking.Description": "Door dit aan te zetten blijft de tracker actief, maar bevriest de huidige positie en rotatie. Deze instelling wordt niet bewaard en reset de volgende keer dat je de applicatie opstart.",
+        "Settings.TrackerSettings.Trackers.CustomName": "Aangepaste Naam",
+        "Settings.TrackerSettings.Trackers.CustomName.Description": "Je kan hier je tracker een aangepaste naam geven, in plaats van de ID te gebruiken, om het makkelijker te maken om het te onderscheiden van andere trackers. Dit is vooral cosmetisch, zonder functionele verschillen.",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode": "Tracker Toewijzing",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode.Description": "Welk lichaamsdeel aan deze tracker toegewezen is.\n\nWe raden aan de full-body calibratie hiervoor te gebruiken, inplaats van hier handmatig aanpassen.",
+        "Settings.TrackerSettings.Trackers.MappedPosition": "Relatieve Positie",
+        "Settings.TrackerSettings.Trackers.MappedPosition.Description": "De positie van de tracker relatief tot het lichaamsdeel waar het aan toegewezen is.\n\nWe raden aan de full-body calibratie hiervoor te gebruiken, inplaats van hier handmatig aanpassen.",
+        "Settings.TrackerSettings.Trackers.MappedRotation": "Relatieve Rotatie",
+        "Settings.TrackerSettings.Trackers.MappedRotation.Description": "De rotatie van de tracker relatief tot het lichaamsdeel waar het aan toegewezen is.\n\nWe raden aan de full-body calibratie hiervoor te gebruiken, inplaats van hier handmatig aanpassen.",
+        "Settings.TrackerSettings.Trackers.UseInVR": "Gebruik in VR",
+        "Settings.TrackerSettings.Trackers.UseInVR.Description": "Moet deze tracker invloed hebben op jouw avatar in VR-modus?",
+        "Settings.TrackerSettings.Trackers.UseInDesktop": "Gebruik in bureaubladmodus",
+        "Settings.TrackerSettings.Trackers.UseInDesktop.Description": "Moet deze tracker invloed hebben op jouw avatar in bureaubladmodus?",
+        "Settings.TrackerSettings.Trackers.TrackerID": "Tracker ID",
+        "Settings.TrackerSettings.Trackers.TrackerID.Description": "Unieke ID van deze tracker. Deze informatie world als privé gezien, en is niet dezelfde ID als degene die in de wereld wordt gezien om tracking met fingerprinting te voorkomen.",
+        "Settings.TrackerSettings.Trackers.TrackerBattery": "Tracker batterij",
+        "Settings.TrackerSettings.Trackers.TrackerBattery.Description": "Het huidige batterijniveau van deze tracker. Sommige trackers ondersteunen dit mogelijk niet.",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging": "Is aan het opladen",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "Dit laat zien of de tracker aan het opladen is. Sommige trackers ondersteunen dit mogelijk niet.",
+        "Settings.TrackerSettings.Trackers.Unmap": "Reset toewijzing",
+        "Settings.TrackerSettings.Trackers.Remove": "Verwijder tracker",
 
-        "Settings.SteamLinkSettings" : "Steam Link",
-        "Settings.SteamLinkSettings.OSC_DataPort" : "OSC Gezichtstracking poort",
-        "Settings.SteamLinkSettings.OSC_DataPort.Description" : "Welke poort er gebruikt moet worden voor luisteren naar OSC gezichtstracking gegevens. Dit moet dezelfde poort zijn die je in SteamVR instellingen gebruikt zodat gezichtstracking kan werken.",
+        "Settings.SteamLinkSettings": "Steam Link",
+        "Settings.SteamLinkSettings.OSC_DataPort": "OSC Gezichtstracking poort",
+        "Settings.SteamLinkSettings.OSC_DataPort.Description": "Welke poort er gebruikt moet worden voor luisteren naar OSC gezichtstracking gegevens. Dit moet dezelfde poort zijn die je in SteamVR instellingen gebruikt zodat gezichtstracking kan werken.",
 
-        "Settings.HapticPointMapping.MappingTarget" : "Wijs toe aan",
-        "Settings.HapticPointMapping.MappingTarget.Description" : "Gebruik dit om te bepalen welk gedeelte van de avatar dit apparaat aan wordt toegewezen.",
+        "Settings.HapticPointMapping.MappingTarget": "Wijs toe aan",
+        "Settings.HapticPointMapping.MappingTarget.Description": "Gebruik dit om te bepalen welk gedeelte van de avatar dit apparaat aan wordt toegewezen.",
 
-        "Settings.HapticPointMapping.PointRadius" : "Haptisch Punt Radius",
-        "Settings.HapticPointMapping.PointRadius.Description" : "Hiermee kan je de grootte van het haptisch punt op de avatar aanpassen. Door dit groter te maken wordt het makkelijker om van grotere afstanden te activeren, maar resulteert ook in minder precisie, omdat alle haptische triggers in de radius van de punt het activeren.",
+        "Settings.HapticPointMapping.PointRadius": "Haptisch Punt Radius",
+        "Settings.HapticPointMapping.PointRadius.Description": "Hiermee kan je de grootte van het haptisch punt op de avatar aanpassen. Door dit groter te maken wordt het makkelijker om van grotere afstanden te activeren, maar resulteert ook in minder precisie, omdat alle haptische triggers in de radius van de punt het activeren.",
 
-        "Settings.HapticPointMapping.TorsoHorizontalPosition" : "Horizontale positie op torso", // TODO (torso)
-        "Settings.HapticPointMapping.TorsoHorizontalPosition.Description" : "Dit is de horizontale positie langs de torso, van links naar rechts", // TODO (torso)
-        "Settings.HapticPointMapping.TorsoVerticalPosition" : "Verticale positie op torso", // TODO (torso)
-        "Settings.HapticPointMapping.TorsoVerticalPosition.Description" : "Dit is de verticale positie langs de torso, van onder naar boven.", // TODO (torso)
-        "Settings.HapticPointMapping.TorsoSide" : "Torso kant", // TODO (torso)
-        "Settings.HapticPointMapping.TorsoSide.Description" : "Dit bepaalt aan welke kant van de torso het apparaat toegegwezen moet worden (voor- of achterkant)", // TODO (torso)
+        "Settings.HapticPointMapping.TorsoHorizontalPosition": "Horizontale positie op torso", // TODO (torso)
+        "Settings.HapticPointMapping.TorsoHorizontalPosition.Description": "Dit is de horizontale positie langs de torso, van links naar rechts", // TODO (torso)
+        "Settings.HapticPointMapping.TorsoVerticalPosition": "Verticale positie op torso", // TODO (torso)
+        "Settings.HapticPointMapping.TorsoVerticalPosition.Description": "Dit is de verticale positie langs de torso, van onder naar boven.", // TODO (torso)
+        "Settings.HapticPointMapping.TorsoSide": "Torso kant", // TODO (torso)
+        "Settings.HapticPointMapping.TorsoSide.Description": "Dit bepaalt aan welke kant van de torso het apparaat toegegwezen moet worden (voor- of achterkant)", // TODO (torso)
 
-        "Settings.HapticPointMapping.HeadPitchAngle" : "Hoofd pitchhoek", // TODO (pitch)
-        "Settings.HapticPointMapping.HeadPitchAngle.Description" : "Dit bepaalt de positie langs de \"verticale\" as van het hoofd. De standaard positie is het midden van het gezicht (waar je neus is). Een grotere hoek gaat omhoog naar de bovenkant van je hoofd. Een lagere waarde gaat omlaag naar de kin.",
-        "Settings.HapticPointMapping.HeadYawAngle" : "Hoofd yawhoek", // TODO (yaw)
-        "Settings.HapticPointMapping.HeadYawAngle.Description" : "Dit bepaalt de horizontale positie rond het hoofd, links of rechts draaien. Het midden (waar je neus is) is de standaard positie. Een lagere waarde gaat naar links, een hogere waarde gaat naar rechts. Dit gaat rond het hoofd in een cirkel op 180°, waar de achterkant van je hoofd is.",
+        "Settings.HapticPointMapping.HeadPitchAngle": "Hoofd pitchhoek", // TODO (pitch)
+        "Settings.HapticPointMapping.HeadPitchAngle.Description": "Dit bepaalt de positie langs de \"verticale\" as van het hoofd. De standaard positie is het midden van het gezicht (waar je neus is). Een grotere hoek gaat omhoog naar de bovenkant van je hoofd. Een lagere waarde gaat omlaag naar de kin.",
+        "Settings.HapticPointMapping.HeadYawAngle": "Hoofd yawhoek", // TODO (yaw)
+        "Settings.HapticPointMapping.HeadYawAngle.Description": "Dit bepaalt de horizontale positie rond het hoofd, links of rechts draaien. Het midden (waar je neus is) is de standaard positie. Een lagere waarde gaat naar links, een hogere waarde gaat naar rechts. Dit gaat rond het hoofd in een cirkel op 180°, waar de achterkant van je hoofd is.",
 
-        "Settings.HapticPointMapping.ArmSide" : "Arm",
-        "Settings.HapticPointMapping.ArmSide.Description" : "Aan welk arm moet dit toegewezen worden? Links of rechts?",
-        "Settings.HapticPointMapping.ArmPositionAlong" : "Positie langs het arm",
-        "Settings.HapticPointMapping.ArmPositionAlong.Description" : "Dit bepaalt de positie langs het arm. Dit start bij de schouder en gaat helemaal naar de pols. In het midden is de elleboog.",
-        "Settings.HapticPointMapping.ArmAngleAround" : "Hoek rond het arm",
-        "Settings.HapticPointMapping.ArmAngleAround.Description" : "Dit bepaalt de hoek om de omtrek van het arm. De standaard 0° positie is de bovenkant van je hand. Negatieve waarden gaan naar links, positieve gaan naar rechts. Door 180° te draaien komt het punt aan de zijde van je arm waar je handpalm is.",
+        "Settings.HapticPointMapping.ArmSide": "Arm",
+        "Settings.HapticPointMapping.ArmSide.Description": "Aan welk arm moet dit toegewezen worden? Links of rechts?",
+        "Settings.HapticPointMapping.ArmPositionAlong": "Positie langs het arm",
+        "Settings.HapticPointMapping.ArmPositionAlong.Description": "Dit bepaalt de positie langs het arm. Dit start bij de schouder en gaat helemaal naar de pols. In het midden is de elleboog.",
+        "Settings.HapticPointMapping.ArmAngleAround": "Hoek rond het arm",
+        "Settings.HapticPointMapping.ArmAngleAround.Description": "Dit bepaalt de hoek om de omtrek van het arm. De standaard 0° positie is de bovenkant van je hand. Negatieve waarden gaan naar links, positieve gaan naar rechts. Door 180° te draaien komt het punt aan de zijde van je arm waar je handpalm is.",
 
-        "Settings.HapticPointMapping.LegSide" : "Been",
-        "Settings.HapticPointMapping.LegSide.Description" : "Aan welk been moet dit toegewezen worden? Links of rechts?",
-        "Settings.HapticPointMapping.LegPositionAlong" : "Positie langs het been",
-        "Settings.HapticPointMapping.LegPositionAlong.Description" : "Dit bepaalt de positie langs het been. Dit start bij de heupen en gaat helemaal naar de enkel. In het midden is de knie.",
-        "Settings.HapticPointMapping.LegAngleAround" : "Hoek rond het been",
-        "Settings.HapticPointMapping.LegAngleAround.Description" : "Dit bepaalt de hoek om de omtrek van het been. De standaard 0° positie is de voorkant van je been - de richting waar je knie naar wijst. Negatieve waarden gaan naar links, positieve gaan naar rechts. Door 180° te draaien komt het punt aan de achterkant van je been.",
+        "Settings.HapticPointMapping.LegSide": "Been",
+        "Settings.HapticPointMapping.LegSide.Description": "Aan welk been moet dit toegewezen worden? Links of rechts?",
+        "Settings.HapticPointMapping.LegPositionAlong": "Positie langs het been",
+        "Settings.HapticPointMapping.LegPositionAlong.Description": "Dit bepaalt de positie langs het been. Dit start bij de heupen en gaat helemaal naar de enkel. In het midden is de knie.",
+        "Settings.HapticPointMapping.LegAngleAround": "Hoek rond het been",
+        "Settings.HapticPointMapping.LegAngleAround.Description": "Dit bepaalt de hoek om de omtrek van het been. De standaard 0° positie is de voorkant van je been - de richting waar je knie naar wijst. Negatieve waarden gaan naar links, positieve gaan naar rechts. Door 180° te draaien komt het punt aan de achterkant van je been.",
 
-        "Settings.HapticPointMapping.ControllerSide" : "Controller",
-        "Settings.HapticPointMapping.ControllerSide.Description" : "Aan welke controller moet dit haptisch punt toegewezen worden? Links of rechts?",
+        "Settings.HapticPointMapping.ControllerSide": "Controller",
+        "Settings.HapticPointMapping.ControllerSide.Description": "Aan welke controller moet dit haptisch punt toegewezen worden? Links of rechts?",
 
-        "Settings.HapticPointMapping.Tag" : "Haptisch Tag",
-        "Settings.HapticPointMapping.Tag.Description" : "Tag verbonden met dit haptisch punt. Dit verbindt het haptisch punt met een punt op je avatar die dezelfde tag heeft (bepaald met een TagHapticPointMapper component). Als er geen punten met deze tag op de avatar bestaan, werkt het haptische apparaat niet.\n\nDit is handig als je volledige controle moet hebben over het exacte punt op de avatar waar het haptische apparaat aan toegewezen wordt - bijvoorbeeld als de generieke toewijzing niet past.",
+        "Settings.HapticPointMapping.Tag": "Haptisch Tag",
+        "Settings.HapticPointMapping.Tag.Description": "Tag verbonden met dit haptisch punt. Dit verbindt het haptisch punt met een punt op je avatar die dezelfde tag heeft (bepaald met een TagHapticPointMapper component). Als er geen punten met deze tag op de avatar bestaan, werkt het haptische apparaat niet.\n\nDit is handig als je volledige controle moet hebben over het exacte punt op de avatar waar het haptische apparaat aan toegewezen wordt - bijvoorbeeld als de generieke toewijzing niet past.",
 
-        "Settings.GiggleTechSettings" : "GiggleTech Apparaten",
-        "Settings.GiggleTechSettings.Devices" : "Beheer GigglePucks",
-        "Settings.GiggleTechSettings.GigglePuckIP" : "GigglePuck IP om handmatig toe te voegen",
-        "Settings.GiggleTechSettings.GigglePuckIP.Description" : "Als jouw GigglePuck niet automatisch gedetecteerd wordt op het netwerk, vul het IP addres in dit veld in en klik op de knop eronder om het handmatig toe te voegen.\n\nZodra het is toegevoegd, ga naar \"Beheer GigglePucks\" om het te configureren.",
-        "Settings.GiggleTechSettings.RegisterGigglePuck" : "Registreer handmatig GigglePuck",
-        "Settings.GiggleTechSettings.Devices.IP" : "GigglePuck IP",
-        "Settings.GiggleTechSettings.Devices.IsConnected" : "Is GigglePuck verbonden",
-        "Settings.GiggleTechSettings.Devices.UseDevice" : "Gebruik Apparaat",
-        "Settings.GiggleTechSettings.Devices.UseDevice.Description" : "Je kan dit gebruiken om individuele GigglePucks aan of uit te zetten wanneer ze toegewezen zijn. Door dit uit te zetten stopt alle haptische feedback.",
-        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected" : "Behandel altijd als verbonden",
-        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description" : "Wanneer dit aan staat, wordt de GigglePuck altijd gezien als verbonden, ook als het niet op het netwerk gedetecteerd is.\n\nDit kan handig zijn voor bepaalde netwerken die problemen hebben met automatische detectie.",
-        "Settings.GiggleTechSettings.Devices.IntensityScale" : "Intensiteit Schaal",
-        "Settings.GiggleTechSettings.Devices.IntensityScale.Description" : "Hiermee verander je de intensiteit van de haptische feedback die naar de GigglePuck gestuurd worden. De maximale kracht van de haptische feedback gaat nooit boven de veilige waarde van de GigglePuck - de waarden worden onder een veilig maximum gehouden die geen overspanning geven aan de motor.",
-        "Settings.GiggleTechSettings.Devices.Remove" : "Verwijder",
-        "Settings.GiggleTechSettings.Devices.CustomName" : "Aangepaste Naam",
-        "Settings.GiggleTechSettings.Devices.CustomName.Description" : "Je kan hier je GigglePuck een aangepaste naam geven. Dit is vooral cosmetisch, zonder functionele verschillen.",
-        "Settings.GiggleTechSettings.Devices.Breadcrumb" : "GigglePucks",
-        "Settings.GiggleTechSettings.Devices.ActivationIntensity" : "Huidige Intensiteit",
-        "Settings.GiggleTechSettings.Devices.MinimumIntensity" : "Minimale Intensiteit",
-        "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description" : "Dit is de minimale intensiteit waarbij het haptsiche apparaat aan gaat. Wanneer de intensiteit te laag is, kan het haptische apparaat stoppen met reageren.",
-        "Settings.GiggleTechSettings.Devices.InitialActivationIntensity" : "Initiële activeringsintensiteit",
-        "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description" : "Wanneer de haptische feedback van inactief naar actief gaan, worden ze voor een korte tijd op deze intensiteit aangezet. Dit kan helpen een \"kick-start\" te geven aan het haptische apparaat, wanneer de activatie waarde te laag is voor de motor om te beginnen met draaien.",
+        "Settings.GiggleTechSettings": "GiggleTech Apparaten",
+        "Settings.GiggleTechSettings.Devices": "Beheer GigglePucks",
+        "Settings.GiggleTechSettings.GigglePuckIP": "GigglePuck IP om handmatig toe te voegen",
+        "Settings.GiggleTechSettings.GigglePuckIP.Description": "Als jouw GigglePuck niet automatisch gedetecteerd wordt op het netwerk, vul het IP addres in dit veld in en klik op de knop eronder om het handmatig toe te voegen.\n\nZodra het is toegevoegd, ga naar \"Beheer GigglePucks\" om het te configureren.",
+        "Settings.GiggleTechSettings.RegisterGigglePuck": "Registreer handmatig GigglePuck",
+        "Settings.GiggleTechSettings.Devices.IP": "GigglePuck IP",
+        "Settings.GiggleTechSettings.Devices.IsConnected": "Is GigglePuck verbonden",
+        "Settings.GiggleTechSettings.Devices.UseDevice": "Gebruik Apparaat",
+        "Settings.GiggleTechSettings.Devices.UseDevice.Description": "Je kan dit gebruiken om individuele GigglePucks aan of uit te zetten wanneer ze toegewezen zijn. Door dit uit te zetten stopt alle haptische feedback.",
+        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected": "Behandel altijd als verbonden",
+        "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description": "Wanneer dit aan staat, wordt de GigglePuck altijd gezien als verbonden, ook als het niet op het netwerk gedetecteerd is.\n\nDit kan handig zijn voor bepaalde netwerken die problemen hebben met automatische detectie.",
+        "Settings.GiggleTechSettings.Devices.IntensityScale": "Intensiteit Schaal",
+        "Settings.GiggleTechSettings.Devices.IntensityScale.Description": "Hiermee verander je de intensiteit van de haptische feedback die naar de GigglePuck gestuurd worden. De maximale kracht van de haptische feedback gaat nooit boven de veilige waarde van de GigglePuck - de waarden worden onder een veilig maximum gehouden die geen overspanning geven aan de motor.",
+        "Settings.GiggleTechSettings.Devices.Remove": "Verwijder",
+        "Settings.GiggleTechSettings.Devices.CustomName": "Aangepaste Naam",
+        "Settings.GiggleTechSettings.Devices.CustomName.Description": "Je kan hier je GigglePuck een aangepaste naam geven. Dit is vooral cosmetisch, zonder functionele verschillen.",
+        "Settings.GiggleTechSettings.Devices.Breadcrumb": "GigglePucks",
+        "Settings.GiggleTechSettings.Devices.ActivationIntensity": "Huidige Intensiteit",
+        "Settings.GiggleTechSettings.Devices.MinimumIntensity": "Minimale Intensiteit",
+        "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description": "Dit is de minimale intensiteit waarbij het haptsiche apparaat aan gaat. Wanneer de intensiteit te laag is, kan het haptische apparaat stoppen met reageren.",
+        "Settings.GiggleTechSettings.Devices.InitialActivationIntensity": "Initiële activeringsintensiteit",
+        "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description": "Wanneer de haptische feedback van inactief naar actief gaan, worden ze voor een korte tijd op deze intensiteit aangezet. Dit kan helpen een \"kick-start\" te geven aan het haptische apparaat, wanneer de activatie waarde te laag is voor de motor om te beginnen met draaien.",
 
-        "Settings.UserMetricsSettings.UserHeight" : "Lengte",
-        "Settings.UserMetricsSettings.UserHeight.Description" : "Dit is je lengte in de echte wereld, die wordt gebruikt om je avatar goed te laten passen. Het is ook de hoogte waar je geplaatst wordt wanneer je zittende modus aanzet.\n\nJe kan je lengte invoeren door de juiste schaal erbij te zetten, bijvoorbeeld met <nobr><color=hero.yellow>175 cm</color></nobr> of <nobr><color=hero.yellow>1.75 m</color></nobr> voor metrisch, of <color=hero.yellow>5'11\"</color> voor imperiaal.",
+        "Settings.UserMetricsSettings.UserHeight": "Lengte",
+        "Settings.UserMetricsSettings.UserHeight.Description": "Dit is je lengte in de echte wereld, die wordt gebruikt om je avatar goed te laten passen. Het is ook de hoogte waar je geplaatst wordt wanneer je zittende modus aanzet.\n\nJe kan je lengte invoeren door de juiste schaal erbij te zetten, bijvoorbeeld met <nobr><color=hero.yellow>175 cm</color></nobr> of <nobr><color=hero.yellow>1.75 m</color></nobr> voor metrisch, of <color=hero.yellow>5'11\"</color> voor imperiaal.",
 
-        "Settings.FavoritesSettings" : "Favorieten",
-        "Settings.FavoritesSettings.AutoLoadCloudHome" : "Laad thuiswereld bij opstarten",
-        "Settings.FavoritesSettings.AutoLoadCloudHome.Description" : "Wanneer dit aan staat, wordt je thuiswereld automatisch geladen bij opstarten. Als je het liever niet wil laden, kan je deze instelling uitzetten. Dit zal de volgende keer dat je opstart invloed hebben.",
+        "Settings.FavoritesSettings": "Favorieten",
+        "Settings.FavoritesSettings.AutoLoadCloudHome": "Laad thuiswereld bij opstarten",
+        "Settings.FavoritesSettings.AutoLoadCloudHome.Description": "Wanneer dit aan staat, wordt je thuiswereld automatisch geladen bij opstarten. Als je het liever niet wil laden, kan je deze instelling uitzetten. Dit zal de volgende keer dat je opstart invloed hebben.",
 
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Gebruik systeem standaard audio-invoerapparaat",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Zet dit aan om automatisch het standaard invoerapparaat van je systeem te gebruiken. Als je een ander apparaat wil gebruiken, zet deze optie uit en stel je voorkeur hieronder in.",
@@ -1511,9 +1526,9 @@
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Geluidsonderdrukking (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Deze functie verwerkt de inkomende audio om ongewenste geluiden uit te filteren. Dit kan audio van microfoons met veel ruis schoonmaken, en hiermee je stem veel duidelijker maken. We raden sterk aan deze instelling aan te houden. Dit kan mogelijk andere geluiden filteren die niet als een stem gezien worden.",
 
-        "Settings.VoiceSettings" : "Stem Instellingen",
-        "Settings.VoiceSettings.MutePersistence" : "Stemmodus",
-        "Settings.VoiceSettings.MutePersistence.Description" : "<color=hero.yellow>Start met microfoon:</color> Wanneer je inlogt, begin je altijd met microfoon aan.\n\n<color=hero.yellow>Start Gedempt:</color> Wanneer je inlogt is je stem altijd gedempt. Je moet unmuten of de \"push to talk\" knop indrukken (V is standaard) om te praten.\n\n<color=hero.yellow>Onthoud Laatste: </color> Wanneer je inlogt wordt de stem modus gebruikt van de laatste keer dat je uitgelogd bent.", // TODO (mute, unmute, push to talk)
+        "Settings.VoiceSettings": "Stem Instellingen",
+        "Settings.VoiceSettings.MutePersistence": "Stemmodus",
+        "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Start met microfoon:</color> Wanneer je inlogt, begin je altijd met microfoon aan.\n\n<color=hero.yellow>Start Gedempt:</color> Wanneer je inlogt is je stem altijd gedempt. Je moet unmuten of de \"push to talk\" knop indrukken (V is standaard) om te praten.\n\n<color=hero.yellow>Onthoud Laatste: </color> Wanneer je inlogt wordt de stem modus gebruikt van de laatste keer dat je uitgelogd bent.", // TODO (mute, unmute, push to talk)
 
         "Settings.EarmuffSettings" : "Oorkap",
         "Settings.EarmuffSettings.EarmuffEnabled" : "Gebruik Oorkap",
@@ -1522,8 +1537,8 @@
         "Settings.EarmuffSettings.Directionality.Description" : "Dit bepaalt hoe gericht de stemverzwakking is. Bij 0 % zijn stemmen achter je hetzelfde volume als stemmen op dezelfde afstand voor je. Bij 100 % hoor je geen stemmen achter je tenzij ze heel dichtbij zijn.\n\nAls je stemmen achter je beter wil horen, zet deze waarde lager.",
         "Settings.EarmuffSettings.Distance" : "Afstand",
         "Settings.EarmuffSettings.Distance.Description" : "Dit bepaalt de afstand voor (en achter als directionaliteit op 0 % staat) je vanaf waar stemmen zachter worden.",
-        "Settings.EarmuffSettings.ConeAngle" : "Hoek",
-        "Settings.EarmuffSettings.ConeAngle.Description" : "Dit bepaalt de hoek voor je gezicht waarin stemmen op een normaal volume afspelen. Stemmen buiten deze hoek zullen zachter worden zodra ze de transitie afstand voorbijgaan.",
+        "Settings.EarmuffSettings.Angle" : "Hoek",
+        "Settings.EarmuffSettings.Angle.Description" : "Dit bepaalt de hoek voor je gezicht waarin stemmen op een normaal volume afspelen. Stemmen buiten deze hoek zullen zachter worden zodra ze de transitie afstand voorbijgaan.",
         "Settings.EarmuffSettings.TransitionStart" : "Tansitie Start",
         "Settings.EarmuffSettings.TransitionStart.Description" : "Dit bepaalt de afstand van de \"luisterkegel\" waarbij stemmen zachter worden. Het is aangeraden om dit boven nul te houden, omdat je daarmee beter stemmen kan horen aan de zijkant of in de buurt van je hoofd (bijvoorbeeld gebruikers die dicht achter je staan).",
         "Settings.EarmuffSettings.TransitionLength" : "Transitie Bereik",
@@ -1572,8 +1587,8 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wanneer dit aan staat kan je gereedschappen en gadgets equippen door snel twee keer vast te pakken. Deze instelling wordt waarschijnlijk in de toekomst verwijderd.", // TODO (equip)
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Gebruik oude wereld wisselaar",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Wanneer dit aan staat, opent de app knop op je niet-primaire hand een oude wereld wisselaar om tussen actieve werelden te wisselen. Deze functie wordt in de toekomst verwijderd met een meer flexibele oplossing.",
-        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "Gebruik oude inventaris & sessie snelkoppeling gebaar",
-        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "Wanneer dit aan staat, als je grip vasthoudt en op de App knop drukt (die normaal de dash opent/sluit), open je de oude inventaris of het oude sessie menu.",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Gebruik oude inventaris & sessie snelkoppeling gebaar",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Wanneer dit aan staat, als je grip vasthoudt en op de App knop drukt (die normaal de dash opent/sluit), open je de oude inventaris of het oude sessie menu.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Channel Naam",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Dit stelt de standaard naam in voor de Twitch chat in het camera-besturing paneel. Dit wordt vooral gebruikt door Twitch streamers die hun chat willen zien.",
@@ -1592,47 +1607,47 @@
         "Settings.DashSettings.DashCurvature.Description": "Dit bepaalt hoe curved de dash is als je in VR bent. Als je dit instelt op 0 wordt het volledig vlak.", // TODO (curvature)
         "Settings.DashSettings.OpenCloseSpeed": "Open/Sluit Snelheid",
         "Settings.DashSettings.OpenCloseSpeed.Description": "Gebruik dit om te bepalen hoe snel de dash opent en sluit. Als je de animatie niet wil, kan je dit op een hele hoge waarde zetten, zodat de dash bijna direct opent en sluit.",
-        "Settings.DashSettings.AllowReplacingSettings" : "Sta vervangen van instellingen toe",
-        "Settings.DashSettings.AllowReplacingSettings.Description" : "Wanneer dit aan staat, kan je het hele instellingen paneel van de dash oppakken en vervangen met een aangepaste versie als je in UI bewerkingsmodus zit.\n\nDeze instelling moet uit staan als je de individuele instellingen los wil oppakken. Wij raden aan om dit tijdelijk aan te zetten wanneer je het instellingen paneel wil vervangen, en daarna weer uit te zetten", // TODO (UI)
+        "Settings.DashSettings.AllowReplacingSettings": "Sta vervangen van instellingen toe",
+        "Settings.DashSettings.AllowReplacingSettings.Description": "Wanneer dit aan staat, kan je het hele instellingen paneel van de dash oppakken en vervangen met een aangepaste versie als je in UI bewerkingsmodus zit.\n\nDeze instelling moet uit staan als je de individuele instellingen los wil oppakken. Wij raden aan om dit tijdelijk aan te zetten wanneer je het instellingen paneel wil vervangen, en daarna weer uit te zetten", // TODO (UI)
 
-        "Settings.NotificationSettings" : "Notificaties",
-        "Settings.NotificationSettings.UserOnline" : "Contact Online",
-        "Settings.NotificationSettings.UserOnline.Description" : "Dit bepaalt of je een bericht krijgt wanneer je contacten online komen.",
-        "Settings.NotificationSettings.UserSociable" : "Contact Sociaal",
-        "Settings.NotificationSettings.UserSociable.Description" : "Wanneer een van je contacten sociaal is, krijg je een uniek bericht met geluid, zodat je een bericht of uitnodiging kan sturen!\n\nAls je deze berichten niet wil, kan je dit uitzetten, waardoor de Sociale status hetzelfde wordt gezien als Online voor notificaties.",
-        "Settings.NotificationSettings.UserOnlineOnAnotherBuild" : "Contact Online op een incompatibele versie",
-        "Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description" : "Dit bepaalt of je berichten krijgt wanneer je contacten online komen met een versie die niet samenwerkt met jouw versie (bijvoorbeeld een nieuwe versie of pre-release versies).",
-        "Settings.NotificationSettings.Message" : "Berichten",
-        "Settings.NotificationSettings.Message.Description" : "Dit bepaalt de notificaties die je krijgt als je berichten ontvangt.",
-        "Settings.NotificationSettings.Invite" : "Sessie Uitnodigingen",
-        "Settings.NotificationSettings.Invite.Description" : "Dit bepaalt of je notificaties krijgt wanneer je een uitnodiging krijgt voor een sessie.",
-        "Settings.NotificationSettings.ContactRequest" : "Contactverzoeken",
-        "Settings.NotificationSettings.ContactRequest.Description" : "Dit bepaalt welke notificaties je krijgt wanneer je een contactverzoek krijgt van iemand.",
-        "Settings.NotificationSettings.ContactSessionStarted" : "Nieuwe Sessies Van Contacten",
-        "Settings.NotificationSettings.ContactSessionStarted.Description" : "Dit bepaalt welke notificaties je krijgt wanneer een nieuwe sessie is gestart door een van je contacten.",
-        "Settings.NotificationSettings.PublicSessionStarted" : "Nieuwe Publieke Sessies",
-        "Settings.NotificationSettings.PublicSessionStarted.Description" : "Dit bepaalt welke notificaties je krijgt wanneer een nieuwe publieke sessie is gestart door iemand die niet in je contactenlijst staat.",
-        "Settings.NotificationSettings.UserJoinAndLeave" : "Gebruikers toetreden & verlaten", // TODO (join)
-        "Settings.NotificationSettings.UserJoinAndLeave.Description" : "Wanneer dit aan staat, krijg je notificaties wanneer gebruikers de wereld waar je in zit toetreden of verlaten.", // TODO (join)
+        "Settings.NotificationSettings": "Notificaties",
+        "Settings.NotificationSettings.UserOnline": "Contact Online",
+        "Settings.NotificationSettings.UserOnline.Description": "Dit bepaalt of je een bericht krijgt wanneer je contacten online komen.",
+        "Settings.NotificationSettings.UserSociable": "Contact Sociaal",
+        "Settings.NotificationSettings.UserSociable.Description": "Wanneer een van je contacten sociaal is, krijg je een uniek bericht met geluid, zodat je een bericht of uitnodiging kan sturen!\n\nAls je deze berichten niet wil, kan je dit uitzetten, waardoor de Sociale status hetzelfde wordt gezien als Online voor notificaties.",
+        "Settings.NotificationSettings.UserOnlineOnAnotherBuild": "Contact Online op een incompatibele versie",
+        "Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description": "Dit bepaalt of je berichten krijgt wanneer je contacten online komen met een versie die niet samenwerkt met jouw versie (bijvoorbeeld een nieuwe versie of pre-release versies).",
+        "Settings.NotificationSettings.Message": "Berichten",
+        "Settings.NotificationSettings.Message.Description": "Dit bepaalt de notificaties die je krijgt als je berichten ontvangt.",
+        "Settings.NotificationSettings.Invite": "Sessie Uitnodigingen",
+        "Settings.NotificationSettings.Invite.Description": "Dit bepaalt of je notificaties krijgt wanneer je een uitnodiging krijgt voor een sessie.",
+        "Settings.NotificationSettings.ContactRequest": "Contactverzoeken",
+        "Settings.NotificationSettings.ContactRequest.Description": "Dit bepaalt welke notificaties je krijgt wanneer je een contactverzoek krijgt van iemand.",
+        "Settings.NotificationSettings.ContactSessionStarted": "Nieuwe Sessies Van Contacten",
+        "Settings.NotificationSettings.ContactSessionStarted.Description": "Dit bepaalt welke notificaties je krijgt wanneer een nieuwe sessie is gestart door een van je contacten.",
+        "Settings.NotificationSettings.PublicSessionStarted": "Nieuwe Publieke Sessies",
+        "Settings.NotificationSettings.PublicSessionStarted.Description": "Dit bepaalt welke notificaties je krijgt wanneer een nieuwe publieke sessie is gestart door iemand die niet in je contactenlijst staat.",
+        "Settings.NotificationSettings.UserJoinAndLeave": "Gebruikers toetreden & verlaten", // TODO (join)
+        "Settings.NotificationSettings.UserJoinAndLeave.Description": "Wanneer dit aan staat, krijg je notificaties wanneer gebruikers de wereld waar je in zit toetreden of verlaten.", // TODO (join)
 
         "Settings.NamePlateSettings.NameplateVisibility": "Naamborden Zichtbaarheid",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Gebruik dit om te bepalen welke naamborden zichtbaar zijn voor jou.",
         "Settings.NamePlateSettings.UseCustomNameplates": "Laat aangepaste naamborden zien",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "Als sommige naamborden lastig te zien zijn, volledig verstopt zijn of als je een gebruikers werkelijke gebruikersnaam en badges moet zien (bijvoorbeeld voor moderatie), kan je aangepaste naamborden uitzetten en de standaard naamborden zien.", // TODO (moderation)
 
-        "Settings.CustomizationSettings" : "Aanpassings-instellingen",
-        "Settings.CustomizationSettings.UserInterfaceEditMode" : "UI-bewerkingsmodus",
-        "Settings.CustomizationSettings.UserInterfaceEditMode.Description" : "Wanneer dit aan staat, kan je de plek van facets (modulaire stukken van de gebruikersinterface) aanpassen in je dash of op je facet ankers op je handen en gezichtsveld (als die aan staan).\n\nVergeet niet dit uit te zetten zodra je klaar bent! Je kan het ook uit zetten met de knop onder je dash.", // TODO (UI, anchor)
+        "Settings.CustomizationSettings": "Aanpassings-instellingen",
+        "Settings.CustomizationSettings.UserInterfaceEditMode": "UI-bewerkingsmodus",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "Wanneer dit aan staat, kan je de plek van facets (modulaire stukken van de gebruikersinterface) aanpassen in je dash of op je facet ankers op je handen en gezichtsveld (als die aan staan).\n\nVergeet niet dit uit te zetten zodra je klaar bent! Je kan het ook uit zetten met de knop onder je dash.", // TODO (UI, anchor)
 
-        "Settings.FacetAnchorsSettings" : "Facet Ankers", // TODO (anchor)
-        "Settings.FacetAnchorsSettings.UseFacetAnchors" : "Gebruik Facet Ankers", // TODO (anchor)
-        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description" : "Wanneer dit aan staat, kan je de app knop op je rechtercontroller gebruiken om facet ankers op je arm en onderarm aan/uit te zetten. Deze geven meer ruimte om facets op te plaatsen voor snelle toegang, naast je dash.", // TODO (anchor)
-        "Settings.FacetAnchorsSettings.AnimationSpeed" : "Tonen/Verbergen Animatie Snelheid",
-        "Settings.FacetAnchorsSettings.AnimationSpeed.Description" : "Dit bepaalt hoe snel de facet ankers tonen en verbergen wanneer ze aan/uit gezet worden.", // TODO (anchor)
-        "Settings.FacetAnchorsSettings.FacetAnchorToggle" : "Facet Ankers aan/uitzetten", // TODO (anchor)
-        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description" : "Dit bepaalt welke controller (links of rechts) de facet ankers aan/uit zet. De dash wordt met de andere controller geopend.", // TODO (anchor)
-        "Settings.FacetAnchorsSettings.ShowContainerBackground" : "Laat achtergrond zien",
-        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description" : "Door dit uit te zetten schakel je het visuele gedeelte van de achtergrond uit op de facet ankers. Hiermee worden de facetten zelf het enige zichtbare gedeelte.", // TODO (anchor)
+        "Settings.FacetAnchorsSettings": "Facet Ankers", // TODO (anchor)
+        "Settings.FacetAnchorsSettings.UseFacetAnchors": "Gebruik Facet Ankers", // TODO (anchor)
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "Wanneer dit aan staat, kan je de app knop op je rechtercontroller gebruiken om facet ankers op je arm en onderarm aan/uit te zetten. Deze geven meer ruimte om facets op te plaatsen voor snelle toegang, naast je dash.", // TODO (anchor)
+        "Settings.FacetAnchorsSettings.AnimationSpeed": "Tonen/Verbergen Animatie Snelheid",
+        "Settings.FacetAnchorsSettings.AnimationSpeed.Description": "Dit bepaalt hoe snel de facet ankers tonen en verbergen wanneer ze aan/uit gezet worden.", // TODO (anchor)
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle": "Facet Ankers aan/uitzetten", // TODO (anchor)
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "Dit bepaalt welke controller (links of rechts) de facet ankers aan/uit zet. De dash wordt met de andere controller geopend.", // TODO (anchor)
+        "Settings.FacetAnchorsSettings.ShowContainerBackground": "Laat achtergrond zien",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Door dit uit te zetten schakel je het visuele gedeelte van de achtergrond uit op de facet ankers. Hiermee worden de facetten zelf het enige zichtbare gedeelte.", // TODO (anchor)
 
         "Settings.LaserSettings.SmoothSpeed": "Laser smooth snelheid", // TODO (smooth)
         "Settings.LaserSettings.SmoothSpeed.Description": "Gebruik dit om te bepalen hoe snel de laser reageert op je bewegingen. Lagere waarden maken de laser langzamer, maar beter met rillingen filteren. Hogere waarden reageren sneller, maar gaan ook mee met onbedoelde controller bewegingen.",
@@ -1657,7 +1672,7 @@
         "Settings.DesktopViewSettings.Opacity.Description": "Stel deze waarde lager in om de bureaubladweergave semi-transparant te maken, zodat het makkelijker is om te zien wat erachter zit in de wereld.",
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Vinger foto gebaar",
-        "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description" : "Wanneer dit aan staat, kan je snel fotos maken in de wereld door met je vingers een gebaar te maken van een fotolijst en dan een van je wijsvingers buigen.",
+        "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "Wanneer dit aan staat, kan je snel fotos maken in de wereld door met je vingers een gebaar te maken van een fotolijst en dan een van je wijsvingers buigen.",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "Foto resolutie",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "Hiermee stel je de standaard resolutie van fotos in, die gemaakt zijn met het vinger gebaar of de bureaublad sneltoets. Hogere resoluties duren langer en hebben meer opslag nodig, maar geven meer detail.",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution": "Getimede foto resolutie",
@@ -1666,16 +1681,16 @@
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "Hoe lang (in seconden) de timer is voordat een foto gemaakt wordt.",
         "Settings.PhotoCaptureSettings.CaptureStereo": "Stereofoto maken",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Wanneer dit aan staat, worden alle snelle fotos gemaakt als stereoscopisch. Dit is vooral voor het bekijken van de foto in VR.",
-        "Settings.PhotoCaptureSettings.StereoSeparation" : "Stereo Scheiding",
-        "Settings.PhotoCaptureSettings.StereoSeparation.Description" : "Gebruik dit om de scheiding tussen cameras te bepalen op stereo-modus. Dit bepaalt de afstand tussen de cameras, wat invloed heeft op de kracht van het stereo-effect voor objecten op een grotere afstand.\n\nWanneer je fotos maakt van dichtbij zijn lagere waarden beter. Wanneer je fotos maakt van grote scènes werken grotere waarden beter.",
+        "Settings.PhotoCaptureSettings.StereoSeparation": "Stereo Scheiding",
+        "Settings.PhotoCaptureSettings.StereoSeparation.Description": "Gebruik dit om de scheiding tussen cameras te bepalen op stereo-modus. Dit bepaalt de afstand tussen de cameras, wat invloed heeft op de kracht van het stereo-effect voor objecten op een grotere afstand.\n\nWanneer je fotos maakt van dichtbij zijn lagere waarden beter. Wanneer je fotos maakt van grote scènes werken grotere waarden beter.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Foto automatisch opslaan in inventaris pad",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Wanneer dit ingesteld is, worden fotos die je maakt (of via het context menu bewaart) automatisch opgeslagen in je inventaris. Bijvoorbeeld <color=hero.yellow>Fotos/%year%/%month_name%</color>\n\nDe volgende variabelen zijn beschikbaar:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
-        "Settings.PhotoCaptureSettings.CapturePrivateUI" : "Privé UI vastleggen", // TODO (UI)
-        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "Wanneer dit aan staat, zal de snelle foto opname je privé UI vastleggen, zoals je dash. Dit kan handig zijn als je informatie wil laten zien die daar staat.\n\nWe raden aan om dit uit te zetten zodra je klaar bent, omdat je per ongeluk privé informatie kan vastleggen en lekken.", // TODO (UI, dash)
-        "Settings.PhotoCaptureSettings.EncodeFormat" : "Codeer Formaat",
-        "Settings.PhotoCaptureSettings.EncodeFormat.Description" : "Het bestandsformaat waar alle gemaakte fotos in worden opgeslagen. Als je een specifiek formaat nodig hebt, kan je deze instelling gebruiken.\n\nWeet wel dat sommige formaten functies kunnen missen (zoals transparantie), mogelijk langzamer zijn, lagere kwaliteit hebben of resulteren in grotere bestanden.",
-        "Settings.PhotoCaptureSettings.AlwaysHideNameplates" : "Verstop altijd naamborden",
-        "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description" : "Zet dit aan als je nooit naamborden in jouw fotos wil opnemen. Deze instelling staat los van de huidige naambord zichtbaarheid en zal er altijd voor zorgen dat ze verstopt zijn in fotos.",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI": "Privé UI vastleggen", // TODO (UI)
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "Wanneer dit aan staat, zal de snelle foto opname je privé UI vastleggen, zoals je dash. Dit kan handig zijn als je informatie wil laten zien die daar staat.\n\nWe raden aan om dit uit te zetten zodra je klaar bent, omdat je per ongeluk privé informatie kan vastleggen en lekken.", // TODO (UI, dash)
+        "Settings.PhotoCaptureSettings.EncodeFormat": "Codeer Formaat",
+        "Settings.PhotoCaptureSettings.EncodeFormat.Description": "Het bestandsformaat waar alle gemaakte fotos in worden opgeslagen. Als je een specifiek formaat nodig hebt, kan je deze instelling gebruiken.\n\nWeet wel dat sommige formaten functies kunnen missen (zoals transparantie), mogelijk langzamer zijn, lagere kwaliteit hebben of resulteren in grotere bestanden.",
+        "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Verstop altijd naamborden",
+        "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Zet dit aan als je nooit naamborden in jouw fotos wil opnemen. Deze instelling staat los van de huidige naambord zichtbaarheid en zal er altijd voor zorgen dat ze verstopt zijn in fotos.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Gezichtsveld",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Gebruik dit om het gezichtsveld (FOV) aan te passen in bureaubladmodus. Hogere waarden geven je een groter zicht, ten koste van grotere vervorming aan de zijkanten.",
@@ -1751,59 +1766,59 @@
         "Settings.DescriptionField.NoTextTitle": "Meer Informatie",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Beweeg over een intelling om de beschrijving te zien.</closeall>",
 
-        "Settings.RelaySettings" : "Netwerk Relays", // TODO (relay)
-        "Settings.RelaySettings.AlwaysUseRelay" : "Gebruik altijd een relay om te verbinden", // TODO (relay)
-        "Settings.RelaySettings.AlwaysUseRelay.Description" : "Relays worden gebruikt om op terug te vallen als een directe verbinding met een host niet lukt. Door deze optie aan te zetten, forceer je de verbinding om altijd door een relay te gaan.\n\nDit kan handig zijn in het geval van verbindingsproblemen met specifieke hosts. Het is <b>NIET</b> aangeraden om deze optie permanent aan te hebben.", // TODO (relay)
-        "Settings.RelaySettings.UseClosestAvailableRelay" : "Gebruik dichtsbijzijnde beschikbare relay",
-        "Settings.RelaySettings.UseClosestAvailableRelay.Description" : "Wanneer deze optie aan staat wordt automatisch de dichtsbijzijnde beschikbare relay gebruikt voor de verbinding. Als je handmatig een relay wil kiezen (bijvoorbeeld in het geval van verbindingen over lange afstanden, om te voorkomen dat packets ophopen) kan je deze optie uitzetten en handmatig de relays hieronder instetllen.", // TODO (relay, packet)
+        "Settings.RelaySettings": "Netwerk Relays", // TODO (relay)
+        "Settings.RelaySettings.AlwaysUseRelay": "Gebruik altijd een relay om te verbinden", // TODO (relay)
+        "Settings.RelaySettings.AlwaysUseRelay.Description": "Relays worden gebruikt om op terug te vallen als een directe verbinding met een host niet lukt. Door deze optie aan te zetten, forceer je de verbinding om altijd door een relay te gaan.\n\nDit kan handig zijn in het geval van verbindingsproblemen met specifieke hosts. Het is <b>NIET</b> aangeraden om deze optie permanent aan te hebben.", // TODO (relay)
+        "Settings.RelaySettings.UseClosestAvailableRelay": "Gebruik dichtsbijzijnde beschikbare relay",
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description": "Wanneer deze optie aan staat wordt automatisch de dichtsbijzijnde beschikbare relay gebruikt voor de verbinding. Als je handmatig een relay wil kiezen (bijvoorbeeld in het geval van verbindingen over lange afstanden, om te voorkomen dat packets ophopen) kan je deze optie uitzetten en handmatig de relays hieronder instetllen.", // TODO (relay, packet)
         "Settings.RelaySettings.RelayPriorities": "Configureer relay server prioriteit",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Relay Prioriteit",
 
-        "Settings.PostProcessingSettings" : "Post Processing", // TODO (post processing)
-        "Settings.PostProcessingSettings.MotionBlurIntensity" : "Bewegingsonscherpte intensiteit", // TODO (motion blur)
-        "Settings.PostProcessingSettings.MotionBlurIntensity.Description" : "Dit bepaalt de kracht van het bewegingsonscherpte effect. Hogere waarden resulteren in meer onscherpte met dezelfde beweging.\n\nAls je dit instelt op <nobr><color=hero.yellow>0 %</color></nobr> wordt het effect helemaal uitgezet, wat prestaties kan verbeteren.",
-        "Settings.PostProcessingSettings.BloomIntensity" : "Bloom Intensiteit", // TODO (bloom)
-        "Settings.PostProcessingSettings.BloomIntensity.Description" : "Het bloom effect laat een gloed rond heldere objecten in de scène zien, meestal bij objecten binnen HDR bereik. Hiermee bepaal je de kracht van het effect voor dezelfde hoeveelheid licht.\n\nWees ervan bewust dat sommige objecten er verkeerd uit kunnen zien wanneer dit effect laag of uit staat.\n\nAls je het effect op <nobr><color=hero.yellow>0 %</color></nobr> instelt wordt de filter volledig uitgeschakeld, wat prestaties kan verbeteren.", // TODO (bloom)
-        "Settings.PostProcessingSettings.AmbientOcclusionIntensity" : "Ambient Occlusion (AO) Intensiteit", // TODO (AO)
-        "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description" : "Ambient Occlusion verdonkert vouwen en hoeken in de scène, die meestal minder licht krijgen. Dit kan de scène meer diepte en realisme geven. Hiermee kan je de intensiteit van het effect aanpassen.\n\nWees ervan bewust dat sommige objecten er verkeerd of volledig plat uit kunnen zien wanneer dit effect laag of uit staat.\n\nAls je het effect op <nobr><color=hero.yellow>0 %</color></nobr> instelt wordt de filter volledig uitgeschakeld, wat prestaties kan verbeteren.", // TODO (AO)
-        "Settings.PostProcessingSettings.ScreenSpaceReflections" : "Screenspace Reflecties <size=75%>(experimenteel)</size>", // TODO (screenspace)
-        "Settings.PostProcessingSettings.ScreenSpaceReflections.Description" : "Wanneer dit aan staat, worden delen van de scène die zichtbaar zijn in de camera weerspiegeld op gladde oppervlakken. Dit kan meer realisme toevoegen aan de scène en de weergave van gladde oppervlakken verbeteren ten koste van prestaties.\n\nWees ervan bewust dat deze filter op dit moment gezien wordt als experimenteel, en niet goed werkt in veel scenario's. Het kan resulteren in spookachtige reflecties en artefacten.", // TODO (screenspace)
-        "Settings.PostProcessingSettings.Antialiasing" : "Anti-aliasing (AA)", // TODO (AA)
-        "Settings.PostProcessingSettings.Antialiasing.Description" : "Anti-aliasing verzacht scherpe, gekartelde randen van objecten in de scène. Je kan kiezen tussen verschillende filters, waar elke filter andere nadelen heeft. FXAA wordt vaak gebruikt en werkt goed genoeg, maar kan ook andere delen van de scène vervagen, zoals text.\n\n<color=red>Waarschuwing:</color> Sommige AA opties zijn niet geschikt voor, of werken helemaal niet in VR.", // TODO (AA)
+        "Settings.PostProcessingSettings": "Post Processing", // TODO (post processing)
+        "Settings.PostProcessingSettings.MotionBlurIntensity": "Bewegingsonscherpte intensiteit", // TODO (motion blur)
+        "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Dit bepaalt de kracht van het bewegingsonscherpte effect. Hogere waarden resulteren in meer onscherpte met dezelfde beweging.\n\nAls je dit instelt op <nobr><color=hero.yellow>0 %</color></nobr> wordt het effect helemaal uitgezet, wat prestaties kan verbeteren.",
+        "Settings.PostProcessingSettings.BloomIntensity": "Bloom Intensiteit", // TODO (bloom)
+        "Settings.PostProcessingSettings.BloomIntensity.Description": "Het bloom effect laat een gloed rond heldere objecten in de scène zien, meestal bij objecten binnen HDR bereik. Hiermee bepaal je de kracht van het effect voor dezelfde hoeveelheid licht.\n\nWees ervan bewust dat sommige objecten er verkeerd uit kunnen zien wanneer dit effect laag of uit staat.\n\nAls je het effect op <nobr><color=hero.yellow>0 %</color></nobr> instelt wordt de filter volledig uitgeschakeld, wat prestaties kan verbeteren.", // TODO (bloom)
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity": "Ambient Occlusion (AO) Intensiteit", // TODO (AO)
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description": "Ambient Occlusion verdonkert vouwen en hoeken in de scène, die meestal minder licht krijgen. Dit kan de scène meer diepte en realisme geven. Hiermee kan je de intensiteit van het effect aanpassen.\n\nWees ervan bewust dat sommige objecten er verkeerd of volledig plat uit kunnen zien wanneer dit effect laag of uit staat.\n\nAls je het effect op <nobr><color=hero.yellow>0 %</color></nobr> instelt wordt de filter volledig uitgeschakeld, wat prestaties kan verbeteren.", // TODO (AO)
+        "Settings.PostProcessingSettings.ScreenSpaceReflections": "Screenspace Reflecties <size=75%>(experimenteel)</size>", // TODO (screenspace)
+        "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "Wanneer dit aan staat, worden delen van de scène die zichtbaar zijn in de camera weerspiegeld op gladde oppervlakken. Dit kan meer realisme toevoegen aan de scène en de weergave van gladde oppervlakken verbeteren ten koste van prestaties.\n\nWees ervan bewust dat deze filter op dit moment gezien wordt als experimenteel, en niet goed werkt in veel scenario's. Het kan resulteren in spookachtige reflecties en artefacten.", // TODO (screenspace)
+        "Settings.PostProcessingSettings.Antialiasing": "Anti-aliasing (AA)", // TODO (AA)
+        "Settings.PostProcessingSettings.Antialiasing.Description": "Anti-aliasing verzacht scherpe, gekartelde randen van objecten in de scène. Je kan kiezen tussen verschillende filters, waar elke filter andere nadelen heeft. FXAA wordt vaak gebruikt en werkt goed genoeg, maar kan ook andere delen van de scène vervagen, zoals text.\n\n<color=red>Waarschuwing:</color> Sommige AA opties zijn niet geschikt voor, of werken helemaal niet in VR.", // TODO (AA)
 
-        "Settings.TextureQualitySettings" : "Texture Kwaliteit",
-        "Settings.TextureQualitySettings.TextureSizeRatio" : "Relatieve Texture Grootte",
-        "Settings.TextureQualitySettings.TextureSizeRatio.Description" : "Dit bepaalt de relatieve grootte van alle textures die geladen worden. Je kan dit gebruiken om de resolutie van textures te verlagen, wat VRAM gebruik en laadsnelheid kan verbeteren ten kosten van scherpte en kwaliteit.\n\nBijvoorbeeld als de texture 4K is, en dit staat op halve resolutie, wordt de 2K versie van de texture geladen.",
-        "Settings.TextureQualitySettings.TextureSizeLimit" : "Maximale Texutre Grootte",
-        "Settings.TextureQualitySettings.TextureSizeLimit.Description" : "Gebruik dit om de maximale resolutie van de geladen textures te limiteren. Textures boven deze resolutie worden gelimiteerd tot de ingestelde resolutie. Textures die kleiner zijn dan dit worden niet aangepast.\n\nDeze instelling wordt toegepast na de relatieve texture grootte.",
-        "Settings.TextureQualitySettings.MinimumTextureSize" : "Limiteer Texture Boven Resolutie",
-        "Settings.TextureQualitySettings.MinimumTextureSize.Description" : "Dit bepaalt de minimale resolutie van textures die gelimiteerd worden door de instellingen hierboven. Als de texture onder deze grootte is, wordt het zoals het is geladen.\n\nBijvoorbeeld als je dit instelt op 512, en de texture is 256, wordt het nog steeds geladen als 256 ook als de relatieve texture grootte ingesteld is op half.",
-        "Settings.TextureQualitySettings.DefaultFilterMode" : "Texture Filteren",
-        "Settings.TextureQualitySettings.DefaultFilterMode.Description" : "Dit bepaalt de filter die gebruikt wordt voor textures, wat invloed heeft op kwaliteit en prestaties.\n\n<color=hero.yellow>Punt:</color> Laagste kwaliteit zonder interpolatie. Textures zullen blokkerig zijn.\n\n<color=hero.yellow>Bilinear:</color> Texture pixels zijn geïnterpoleerd, maar mipmap overgangen zijn hard, wat leidt tot een zichtbare overgangslijn.\n\n<color=hero.yellow>Trilinear:</color> Gaat zacht over tussen verschillende mipmap niveaus, wat de harde overgangslijn weghaalt op een afstand.\n\n<color=hero.yellow>Anisotropic:</color> Hoogste kwaliteit, textures zijn scherp zelfs op scherpe hoeken.",
-        "Settings.TextureQualitySettings.AnisotropicLevel" : "Anisotropic Niveau",
-        "Settings.TextureQualitySettings.AnisotropicLevel.Description" : "Bepaalt het niveau van kwaliteit met de anisotropic filter.",
-        "Settings.TextureQualitySettings.ReloadAllTextures" : "Herlaad Alle Textures (kan zwaar zijn)",
+        "Settings.TextureQualitySettings": "Texture Kwaliteit",
+        "Settings.TextureQualitySettings.TextureSizeRatio": "Relatieve Texture Grootte",
+        "Settings.TextureQualitySettings.TextureSizeRatio.Description": "Dit bepaalt de relatieve grootte van alle textures die geladen worden. Je kan dit gebruiken om de resolutie van textures te verlagen, wat VRAM gebruik en laadsnelheid kan verbeteren ten kosten van scherpte en kwaliteit.\n\nBijvoorbeeld als de texture 4K is, en dit staat op halve resolutie, wordt de 2K versie van de texture geladen.",
+        "Settings.TextureQualitySettings.TextureSizeLimit": "Maximale Texutre Grootte",
+        "Settings.TextureQualitySettings.TextureSizeLimit.Description": "Gebruik dit om de maximale resolutie van de geladen textures te limiteren. Textures boven deze resolutie worden gelimiteerd tot de ingestelde resolutie. Textures die kleiner zijn dan dit worden niet aangepast.\n\nDeze instelling wordt toegepast na de relatieve texture grootte.",
+        "Settings.TextureQualitySettings.MinimumTextureSize": "Limiteer Texture Boven Resolutie",
+        "Settings.TextureQualitySettings.MinimumTextureSize.Description": "Dit bepaalt de minimale resolutie van textures die gelimiteerd worden door de instellingen hierboven. Als de texture onder deze grootte is, wordt het zoals het is geladen.\n\nBijvoorbeeld als je dit instelt op 512, en de texture is 256, wordt het nog steeds geladen als 256 ook als de relatieve texture grootte ingesteld is op half.",
+        "Settings.TextureQualitySettings.DefaultFilterMode": "Texture Filteren",
+        "Settings.TextureQualitySettings.DefaultFilterMode.Description": "Dit bepaalt de filter die gebruikt wordt voor textures, wat invloed heeft op kwaliteit en prestaties.\n\n<color=hero.yellow>Punt:</color> Laagste kwaliteit zonder interpolatie. Textures zullen blokkerig zijn.\n\n<color=hero.yellow>Bilinear:</color> Texture pixels zijn geïnterpoleerd, maar mipmap overgangen zijn hard, wat leidt tot een zichtbare overgangslijn.\n\n<color=hero.yellow>Trilinear:</color> Gaat zacht over tussen verschillende mipmap niveaus, wat de harde overgangslijn weghaalt op een afstand.\n\n<color=hero.yellow>Anisotropic:</color> Hoogste kwaliteit, textures zijn scherp zelfs op scherpe hoeken.",
+        "Settings.TextureQualitySettings.AnisotropicLevel": "Anisotropic Niveau",
+        "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Bepaalt het niveau van kwaliteit met de anisotropic filter.",
+        "Settings.TextureQualitySettings.ReloadAllTextures": "Herlaad Alle Textures (kan zwaar zijn)",
 
-        "Settings.ResolutionSettings" : "Resolutie",
-        "Settings.ResolutionSettings.Fullscreen" : "Volledig scherm",
-        "Settings.ResolutionSettings.Fullscreen.Description" : "Schakelt tussen een volledig scherm en een venster",
-        "Settings.ResolutionSettings.WindowResolution" : "Venster Resolutie",
-        "Settings.ResolutionSettings.WindowResolution.Description" : "Welke resolutie gebruikt wordt bij een venster. Dit bepaalt de werkelijke grootte van het venster op het scherm.",
-        "Settings.ResolutionSettings.FullscreenResolution" : "Volledig Scherm Resolutie",
-        "Settings.ResolutionSettings.FullscreenResolution.Description" : "Welke resolutie gebruikt wordt bij een volledig scherm. De grootte blijft hetzelfde, maar een lagere resolutie kan prestaties verbeteren (helemaal op hoge resolutie schermen, zoals 4K) ten kosten van een waziger beeld.",
-        "Settings.ResolutionSettings.ApplyResolution" : "Wijzigingen Toepassen",
+        "Settings.ResolutionSettings": "Resolutie",
+        "Settings.ResolutionSettings.Fullscreen": "Volledig scherm",
+        "Settings.ResolutionSettings.Fullscreen.Description": "Schakelt tussen een volledig scherm en een venster",
+        "Settings.ResolutionSettings.WindowResolution": "Venster Resolutie",
+        "Settings.ResolutionSettings.WindowResolution.Description": "Welke resolutie gebruikt wordt bij een venster. Dit bepaalt de werkelijke grootte van het venster op het scherm.",
+        "Settings.ResolutionSettings.FullscreenResolution": "Volledig Scherm Resolutie",
+        "Settings.ResolutionSettings.FullscreenResolution.Description": "Welke resolutie gebruikt wordt bij een volledig scherm. De grootte blijft hetzelfde, maar een lagere resolutie kan prestaties verbeteren (helemaal op hoge resolutie schermen, zoals 4K) ten kosten van een waziger beeld.",
+        "Settings.ResolutionSettings.ApplyResolution": "Wijzigingen Toepassen",
 
-        "Settings.RenderingQualitySettings" : "Render Kwaliteit",
-        "Settings.RenderingQualitySettings.PerPixelLights" : "Per Pixel Lichten",
-        "Settings.RenderingQualitySettings.PerPixelLights.Description" : "Dit bepaalt hoeveel punt & spot lichten rechtstreeks een voorwerp kunnen beïnvloeden - Vaak zijn dit doorzichtige en niet-PBS objecten (bijvoorbeeld met de \"toon\" shader).\n\nEen hogere waarde kan de kwaliteit van het licht verbeteren, en flikkeren verminderen wanneer een object in de buurt is van meerdere lichten, ten koste van prestaties - Het object moet meerdere keren verwerkt worden voor elk licht wat het beïnvloedt.",
-        "Settings.RenderingQualitySettings.ShadowCascades" : "Schaduwcascades",
-        "Settings.RenderingQualitySettings.ShadowCascades.Description" : "Dit bepaalt hoe snel de resolutie van directionele schaduwen omlaag gaan op basis van afstand tot de gebruiker. Cascades verdelen de resolutie van de schaduwen beter - met hogere resolutie dichtbij en lagere resolutie verder weg, maar vereist meer van het systeem.",
-        "Settings.RenderingQualitySettings.ShadowResolution" : "Schaduw Resolutie",
-        "Settings.RenderingQualitySettings.ShadowResolution.Description" : "Dit bepaalt de resolutie van schaduwen voor lichten. Een hogere waarde geeft zachtere randen en beter gedefinieerde schaduwen, maar vereist meer van het systeem.\n\nWees ervan bewust dat sommige lichten de schaduwresolutie overschrijven en niet beïnvloed worden door deze instelling.",
-        "Settings.RenderingQualitySettings.ShadowDistance" : "Schaduw Afstand",
-        "Settings.RenderingQualitySettings.ShadowDistance.Description" : "Dit bepaalt de afstand van schaduwen. Een hogere waarde zorg ervoor dat meer van de scène onder schaduw zit, maar dit verspreid ook het detail van de schaduws over een groter gebied.\n\nJe kan het beste deze intelling veranderen samen met schaduwcascades en schaduw resolutie - met een hogere schaduw resolutie, kan je een grotere afstand gebruiken. Als je schaduw resolutie en cascades verlaagt, wil je de schaduw afstand verlagen zodat schaduws beter gedefinieerd zijn.",
-        "Settings.RenderingQualitySettings.SkinWeightMode" : "Skinned Mesh Gewichten", // TODO (skinned mesh)
-        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "Voor alle skinned meshes (3D modellen die vervormed worden door botten, zoals de meeste avatars), bepaalt dit hoeveel botten gebruikt worden om de positie van elke vertex beïnvloeden.\n\nDoor deze waarde lager te zetten bespaar je wat prestaties, maar de vervormings kwaliteit zal lager zijn, wat resulteert in scherpe vouwen en andere artefacten, meestal rond gewrichten.", // TODO (skinned mesh)
+        "Settings.RenderingQualitySettings": "Render Kwaliteit",
+        "Settings.RenderingQualitySettings.PerPixelLights": "Per Pixel Lichten",
+        "Settings.RenderingQualitySettings.PerPixelLights.Description": "Dit bepaalt hoeveel punt & spot lichten rechtstreeks een voorwerp kunnen beïnvloeden - Vaak zijn dit doorzichtige en niet-PBS objecten (bijvoorbeeld met de \"toon\" shader).\n\nEen hogere waarde kan de kwaliteit van het licht verbeteren, en flikkeren verminderen wanneer een object in de buurt is van meerdere lichten, ten koste van prestaties - Het object moet meerdere keren verwerkt worden voor elk licht wat het beïnvloedt.",
+        "Settings.RenderingQualitySettings.ShadowCascades": "Schaduwcascades",
+        "Settings.RenderingQualitySettings.ShadowCascades.Description": "Dit bepaalt hoe snel de resolutie van directionele schaduwen omlaag gaan op basis van afstand tot de gebruiker. Cascades verdelen de resolutie van de schaduwen beter - met hogere resolutie dichtbij en lagere resolutie verder weg, maar vereist meer van het systeem.",
+        "Settings.RenderingQualitySettings.ShadowResolution": "Schaduw Resolutie",
+        "Settings.RenderingQualitySettings.ShadowResolution.Description": "Dit bepaalt de resolutie van schaduwen voor lichten. Een hogere waarde geeft zachtere randen en beter gedefinieerde schaduwen, maar vereist meer van het systeem.\n\nWees ervan bewust dat sommige lichten de schaduwresolutie overschrijven en niet beïnvloed worden door deze instelling.",
+        "Settings.RenderingQualitySettings.ShadowDistance": "Schaduw Afstand",
+        "Settings.RenderingQualitySettings.ShadowDistance.Description": "Dit bepaalt de afstand van schaduwen. Een hogere waarde zorg ervoor dat meer van de scène onder schaduw zit, maar dit verspreid ook het detail van de schaduws over een groter gebied.\n\nJe kan het beste deze intelling veranderen samen met schaduwcascades en schaduw resolutie - met een hogere schaduw resolutie, kan je een grotere afstand gebruiken. Als je schaduw resolutie en cascades verlaagt, wil je de schaduw afstand verlagen zodat schaduws beter gedefinieerd zijn.",
+        "Settings.RenderingQualitySettings.SkinWeightMode": "Skinned Mesh Gewichten", // TODO (skinned mesh)
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Voor alle skinned meshes (3D modellen die vervormed worden door botten, zoals de meeste avatars), bepaalt dit hoeveel botten gebruikt worden om de positie van elke vertex beïnvloeden.\n\nDoor deze waarde lager te zetten bespaar je wat prestaties, maar de vervormings kwaliteit zal lager zijn, wat resulteert in scherpe vouwen en andere artefacten, meestal rond gewrichten.", // TODO (skinned mesh)
 
         "LocomotionArchetype.Walk": "Lopen",
         "LocomotionArchetype.Fly": "Vliegen",
@@ -1872,12 +1887,11 @@
         "Inspector.Member.SetAllToY": "Stel alles in naar Y",
         "Inspector.Member.SetAllToZ": "Stel alles in naar Z",
         "Inspector.Member.SetAllToW": "Stel alles in naar W",
-        "Inspector.Member.BakeBlendshape" : "Bak blendshape",
-        "Inspector.Member.RemoveBlendshape" : "Verwijder blendshape",
-        "Inspector.Member.SplitBlendshape.X" : "Split blendshape over X",
-        "Inspector.Member.SplitBlendshape.Y" : "Split blendshape over Y",
-        "Inspector.Member.SplitBlendshape.Z" : "Split blendshape over Z",
-
+        "Inspector.Member.BakeBlendshape": "Bak blendshape",
+        "Inspector.Member.RemoveBlendshape": "Verwijder blendshape",
+        "Inspector.Member.SplitBlendshape.X": "Split blendshape over X",
+        "Inspector.Member.SplitBlendshape.Y": "Split blendshape over Y",
+        "Inspector.Member.SplitBlendshape.Z": "Split blendshape over Z",
 
         "Inspector.ProceduralAsset.UpdateCount": "Aantal Updates: {n}",
         "Inspector.ProceduralAsset.Error": "Fout: {error}",
@@ -1992,7 +2006,7 @@
         "Inspector.Texture3D.Size": "Resolutie: {width} x {height} x {depth}",
 
         "Inspector.Texture.BakeTexture": "Bak Texture",
-        "Inspector.Texture.ReplaceFromClipboard" : "Vervang met afbeelding op klembord",
+        "Inspector.Texture.ReplaceFromClipboard": "Vervang met afbeelding op klembord",
 
         "Inspector.Texture.InvertRGB": "Keer RGB om",
         "Inspector.Texture.InvertR": "Keer R om",
