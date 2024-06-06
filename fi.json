@@ -3,7 +3,7 @@
     "authors": ["AdmiralSoap", "Napo", "Hexdigest", "Toni Kat"],
     "messages": {
 
-
+        "General.OK": "OK",
         "General.Start": "Aloita",
         "General.Finish": "Valmis",
         "General.Cancel": "Peruuta",
@@ -55,6 +55,9 @@
         "General.Sort.Ascending": "Nousevasti",
         "General.Sort.Descending": "Laskevasti",
 
+
+
+
         "Worlds.Home": "Koti",
         "Worlds.Tutorial": "Tutoriaali",
 
@@ -78,6 +81,8 @@
         "Interaction.Destroy": "Tuhoa",
         "Interaction.Duplicate": "Kopioi",
         "Interaction.SaveToInventory": "Tallenna inventaarioon",
+        "Interaction.SaveToInventory.NotLoggedIn": "Kirjaudu sisään tallentaaksesi esineitä.",
+        "Interaction.SaveToInventory.NoWritePermission": "Avoinna olevaan kansioon ei voi tallentaa.",
         "Interaction.Undo": "Peruuta",
         "Interaction.Redo": "Toista",
         "Interaction.EquipTool": "Pidä kädessä",
@@ -132,7 +137,7 @@
         "Inventory.Favorite.ColorDialog": "Aseta Värinvalitsijaksi",
         "Inventory.Favorite.Hyperlink": "Aseta Linkkinäytöksi",
         "Inventory.Favorite.Document": "Aseta Dokumenttinäytöksi",
-        "Inventory.SpawnFacet": "Spawnaa Facetti",
+        "Inventory.SpawnFacet": "Spawnaa Fasetti",
 
         "Dash.Screens.Home": "Koti",
         "Dash.Screens.Worlds": "Maailmat",
@@ -161,7 +166,7 @@
         "Dash.Exit.ThankYou": "Kiitos kun käytät {appName}a!",
         "Dash.Exit.SubmittedBy": "Lähettäjä: {name}",
 
-
+        "Facets.FPS": "{fps}<size=61.803%> FPS</size>",
 
         "World.Waiting": "Odotetaan...",
         "World.HostIsStarting": "Isäntä aloittaa sessiota...",
@@ -306,7 +311,7 @@
         "World.AccessLevel.RegisteredUsers": "Rekisteröityneet käyttäjät",
         "World.AccessLevel.Contacts": "Kontaktit",
         "World.AccessLevel.ContactsPlus": "Kontaktit+",
-
+        "World.AccessLevel.LAN": "LAN",
         "World.AccessLevel.Private": "Yksityinen (Ainoastaan kutsutut)",
 
         "World.SortParameter.SearchScore": "Hakupisteet",
@@ -542,7 +547,7 @@
         "Account.PoliciesAgreement": "Hyväksyn <color=#22B2FF>palveluehdot</color> ja <color=#22B2FF>tietosuojakäytännön</color>",
         "Account.AlternateMethods": "Kirjaudu sisään käyttäen kolmannen osapuolen palvelua:",
 
-
+        "Account.Saml2.Title": "SAML 2.0",
         "Account.Saml2.Select": "Valitse SAML 2.0 palvelu jota haluat käyttää:",
         "Account.Saml2.LoggingIn": "Odotetaan kirjautumisen valmistumista (tarkista verkkoselaimesi)...",
 
@@ -578,16 +583,17 @@
         "Account.Type.Moderator": "{platform} Moderaattori",
         "Account.Type.Team": "{platform} Tiimi",
 
-
+        "Avatar.Badge.Live": "LIVE",
 
         "2FA.Header": "2FA-vahvistus",
         "2FA.Token": "6-numeroinen koodi:",
 
-
+        "Profile.Status.Sociable": "Sosiaalinen",
+        "Profile.Status.Online": "Online",
         "Profile.Status.Away": "Poissa",
         "Profile.Status.Busy": "Kiireinen",
         "Profile.Status.Invisible": "Näkymätön",
-
+        "Profile.Status.Offline": "Offline",
         "Profile.Status.Headless": "Palvelin",
 
         "Session.Tab.Settings": "Asetukset",
@@ -601,11 +607,11 @@
         "Session.Permission.PermissionOverrideCount": "Käyttäjien erikoisluvat: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Poista erikoisluvat",
 
+        "Session.JoinVerifier.EnableHeader": "Aktivoi mukautettu liittymistodentaja?",
 
+        "Session.JoinVerifier.Label": "Käytä mukautettua liittymistodentajaa: {name}",
 
-
-
-
+        "Session.JoinVerifier.SetCustomVerifier": "Aseta mukautetuksi liittymistodentajaksi",
 
         "Permissions.NotAllowedToSpawn": "Et voi spawnata esineitä tässä maailmassa.",
         "Permissions.NotAllowedToSave": "Et voi tallentaa esineitä tässä maailmassa.",
@@ -653,8 +659,9 @@
         "Contacts.Bot": "Robotti",
         "Contacts.Migrated": "Kontakti ei ole siirtänyt tiliään",
 
-        "Notifications.IsOnline": "On nyt online",
-        "Notifications.IsOnlineOnDifferentVersion": "On nyt online <size=75%>(käyttää versiota: {version})</size>",
+        "Notifications.IsSociable": "Asetti tilansa sosiaaliseksi",
+        "Notifications.IsOnline": "On nyt Online",
+        "Notifications.IsOnlineOnDifferentVersion": "On nyt Online <size=75%>(käyttää versiota: {version})</size>",
         "Notifications.ReceivedContactRequest": "Lähetti kontaktipyynnön",
         "Notifications.ReceivedInvite": "Kutsuu sinut maailmaan:",
         "Notifications.ReceivedItem": "Lähetti sinulle tavaran:",
@@ -768,9 +775,9 @@
 
 
 
-
-
-
+        "Tooltip.Microphone.Format.WAV": "WAV",
+        "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
+        "Tooltip.Microphone.Format.FLAC": "FLAC",
         "Tooltip.Microphone.ModeHold": "Paina nauhoittaaksesi",
         "Tooltip.Microphone.ModePress": "Paina aloittaaksesi/lopettaaksesi nauhoituksen",
         "Tooltip.Microphone.SourceRaw": "Raaka",
@@ -807,9 +814,9 @@
 
         "Tooltip.RigTransfer.ClearSource": "Nollaa lähde",
 
-        "Tooltip.ComponentClone.SingleInstanceOn": "Single Instance: On",
-        "Tooltip.ComponentClone.SingleInstanceOff": "Single Instance: Off",
-        "Tooltip.ComponentClone.ClearTemplate": "Nollaa malli",
+        "Tooltip.ComponentClone.SingleInstanceOn": "Kertakloonaus: Päällä",
+        "Tooltip.ComponentClone.SingleInstanceOff": "Kertakloonaus: Pois",
+        "Tooltip.ComponentClone.ClearTemplate": "Tyhjennä malli",
 
 
 
@@ -897,6 +904,7 @@
         "AvatarCreator.TryAlignHands": "Yritä kohdistaa kädet",
         "AvatarCreator.AlignToolAnchors": "Kohdista työkaluankkurit",
         "AvatarCreator.Create": "Luo",
+        "AvatarCreator.ProtectionUnavailable": "<i>Avatarin suojaus ei ole mahdollista tässä maailmassa. Vaihda maailmaa suojataksesi avatarisi.</i>",
 
         "Importer.General.AsRawFile": "Tiedosto",
 
@@ -913,12 +921,13 @@
         "Importer.Image.Regular": "Kuva / Tekstuuri",
         "Importer.Image.Screenshot": "Kuvakaappaus <size=50%>(otettu täällä)</size>",
         "Importer.Image.PixelArt": "Pikselitaide",
+        "Importer.Image.Sprite": "Sprite",
         "Importer.Image.360": "360° kuva / Skybox",
         "Importer.Image.StereoPhoto": "Stereokuva",
         "Importer.Image.Stereo360": "360° stereokuva",
         "Importer.Image.180": "180° kuva",
         "Importer.Image.Stereo180": "180° stereokuva",
-
+        "Importer.Image.LUT": "LUT",
 
         "Importer.ImageVideo.LayoutPrompt": "Mitä asettelua se käyttää?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Rinnakkain Vasen/Oikea",
@@ -994,7 +1003,7 @@
 
         "Importer.Video.Title": "Tuo Video",
         "Importer.Video.Prompt": "Mitä tuot?",
-
+        "Importer.Video.Regular": "Video",
         "Importer.Video.360": "360° video",
         "Importer.Video.Stereo": "Stereo video",
         "Importer.Video.Stereo360": "Stereo 360° video",
@@ -1054,11 +1063,11 @@
         "FullBody.FinishCalibration": "Full-Body kalibrointi valmis",
 
         "FullBody.CalibrateAvatarTitle": "Kalibroi avatar",
-        "FullBody.CalibrateAvatarInstructions": "Varmista, että kaikki eri kehonosat ovat mapattu, sitten liikuta sinisiä sphearejä muokataksesi asentoa sellaiseksi mikä sopii kehon esikatselulle parhaiten.",
+        "FullBody.CalibrateAvatarInstructions": "Varmista, että kaikki eri kehonosat ovat mapattu, sitten liikuta sinisiä palloja muokataksesi asentoa sellaiseksi mikä sopii kehon esikatselulle parhaiten.",
         "FullBody.ShowReferenceOverlay": "Näytä kehon kerros",
         "FullBody.ResetAvatarPrompt": "Avatari on sekaisin tai ei trackaa?",
         "FullBody.ResetAvatar": "Nollaa kartoitus",
-        "FullBody.AvatarHeightCompensationInstructions": "Jos avatarisi on liian korkea (hartiat ovat ylhäällä) tai liian lyhyt, säädä pituuden konpensaatiota, jotta saat avatarin sopimaan sinulle paremmin.",
+        "FullBody.AvatarHeightCompensationInstructions": "Jos avatarisi on liian korkea (hartiat ovat ylhäällä) tai liian lyhyt, säädä pituuden kompensaatiota, jotta saat avatarin sopimaan sinulle paremmin.",
         "FullBody.AvatarHeightCompensation": "Avatarin pituuden kompensointi: {n, number, percent}",
         "FullBody.ResetAvatarHeightCompensation": "Nollaa pituuden kompensointi",
         "FullBody.AvatarSaveWarning": "Muista tallentaa avatar kalibroinnin jälkeen!",
@@ -1141,7 +1150,7 @@
         "CameraControl.OBS.IP": "OBS Websocketin IP:",
         "CameraControl.OBS.Password": "OBS salasana (valinnainen):",
         "CameraControl.OBS.Connect": "Yhdistä",
-        "CameraControl.OBS.Instructions": "Varmista, että OBS on käynnissä ja obs-websocket on asennettu",
+        "CameraControl.OBS.Instructions": "Varmista, että OBS on käynnissä ja OBS-websocket on asennettu",
         "CameraControl.OBS.OpenInstaller": "Avaa asennusohjelman verkkosivu",
         "CameraControl.OBS.Launch": "Käynnistä OBS",
         "CameraControl.OBS.Launching": "Käynnistää...",
@@ -1151,18 +1160,18 @@
         "CameraControl.OBS.Disconnected": "Yhteys katkaistu!",
         "CameraControl.OBS.AuthFailure": "Todennusvirhe!",
         "CameraControl.OBS.ConnectionFailed": "Yhdistäminen epäonnistui: ",
-        "CameraControl.OBS.ConnectionTimeout": "Yhteyden aikakatkaisu. Onko OBS käynnissä ja obs-websocket asennettu?",
+        "CameraControl.OBS.ConnectionTimeout": "Yhteyden aikakatkaisu. Onko OBS käynnissä ja OBS-websocket asennettu?",
         "CameraControl.OBS.UnexpectedConnectionError": "Odottamaton yhteysvirhe:",
         "CameraControl.OBS.DisconnectedPage": "OBS yhteys katkaistu",
         "CameraControl.OBS.ReturnToConnect": "Palaa yhdistyssivulle",
-        "CameraControl.OBS.AutoMirror": "Peilaa automaattisesti kun nauhoitan/suoratoistan",
+        "CameraControl.OBS.AutoMirror": "Peilaa automaattisesti, kun nauhoitan/suoratoistan",
         "CameraControl.OBS.Bitrate": "Bittinopeus: {n}/s",
-
+        "CameraControl.OBS.FPS": "FPS: {n}",
         "CameraControl.OBS.DroppedFrames": "Tiputettuja ruutuja: {n}",
-
-
-
-        "CameraControl.OBS.OpenInstallerReason": "Täältä voit ladata OBS websocket lisäosan",
+        "CameraControl.OBS.Idle": "IDLE",
+        "CameraControl.OBS.Live": "LIVE",
+        "CameraControl.OBS.Recording": "REC",
+        "CameraControl.OBS.OpenInstallerReason": "Täältä voit ladata OBS-websocket lisäosan",
 
         "CameraControl.OBS.Streaming.Start": "Aloita suoratoisto",
         "CameraControl.OBS.Streaming.Starting": "Aloitetaan suoratoistoa...",
@@ -1174,7 +1183,7 @@
         "CameraControl.OBS.Recording.Stop": "Lopeta nauhoitus",
         "CameraControl.OBS.Recording.Stopping": "Lopetetaan nauhoitusta...",
 
-
+        "Settings.Category.Audio": "Audio",
         "Settings.Category.Controls": "Kontrollit",
         "Settings.Category.Devices": "Laitteet",
         "Settings.Category.Profile": "Profiili",
@@ -1195,12 +1204,26 @@
         "Settings.MouseSettings": "Hiiri",
 
         "Settings.GeneralHapticsSettings": "Haptinen palaute",
-
-
+        "Settings.GeneralVRSettings": "VR",
+        "Settings.LeapMotionSettings": "Leap Motion",
         "Settings.ViveHandTrackingSettings": "Vive käsien seuranta",
         "Settings.TrackingSmoothingSettings": "Liikkumisen tasoitus",
 
         "Settings.UserMetricsSettings": "Käyttäjämittarit",
+
+        "Settings.OnlineStatusSettings": "Online-tila",
+        "Settings.OnlineStatusSettings.DefaultStatus": "Oletustila",
+
+        "Settings.OnlineStatusSettings.RememberMode": "Muista edellinen tila",
+
+        "Settings.OnlineStatusSettings.RememberTimespan": "Muistamisen aikaväli",
+
+        "Settings.OnlineStatusSettings.InvisibleRememberMode": "Muista edellinen näkymätön -tila",
+
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan": "Näkymätön tilan muistamisen aikaväli",
+
+        "Settings.OnlineStatusSettings.AutoAwayTimespan": "Vaihda tilaksi Poissa, kun aikaa on kulunut",
+
 
         "Settings.AudioInputDeviceSettings": "Äänitulolaite",
         "Settings.AudioOutputDeviceSettings": "Äänilähtölaite",
@@ -1255,7 +1278,7 @@
 
         "Settings.MovementSettings.UseSmoothTurn": "Pehmeä kääntyminen",
 
-        "Settings.MovementSettings.SmoothTurnExclusiveMode": "Käytä pehmeän kääntymisen ekslusiivista tilaa",
+        "Settings.MovementSettings.SmoothTurnExclusiveMode": "Käytä pehmeän kääntymisen eksklusiivista tilaa",
 
         "Settings.MovementSettings.SmoothTurnSpeed": "Pehmeän kääntymisen nopeus",
 
@@ -1264,6 +1287,8 @@
         "Settings.MovementSettings.NoClipSpeed": "Läpäisevän lentotilan nopeus",
 
         "Settings.MovementSettings.MovementDeadzone": "Liikkumisen deadzone",
+
+        "Settings.MovementSettings.TurningDeadzone": "Kääntymisen deadzone",
 
         "Settings.MovementSettings.MovementExponent": "Liikkumisen eksponentti",
 
@@ -1319,6 +1344,9 @@
         "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Poista minut median metadatasta",
 
         "Settings.MediaPrivacySettings.HideInScreenshots": "Poista minut valokuvista",
+
+
+        "Settings.MediaPrivacySettings.StripImageFileMetadata": "Poista kuvan metadata tuonnin yhteydessä",
 
 
         "Settings.Category.Integrations": "Integraatiot",
@@ -1380,6 +1408,10 @@
 
         "Settings.TrackerSettings.Trackers.Unmap": "Nollaa kartoitus",
         "Settings.TrackerSettings.Trackers.Remove": "Poista tracker",
+
+        "Settings.SteamLinkSettings": "Steam Link",
+        "Settings.SteamLinkSettings.OSC_DataPort": "OSC kasvoseurannan portti",
+
 
         "Settings.HapticPointMapping.MappingTarget": "Kartoituspiste",
 
@@ -1472,9 +1504,9 @@
         "Settings.AudioVolumeSettings.UserInterfaceVolume": "Käyttöliittymä",
 
 
-        "Settings.AudioAccessibilitySettings.WhisperVolume": "Äänenvoimakkuus kuiskaustilassa",
+        "Settings.AudioAccessibilitySettings.WhisperVolume": "Kuiskaustila",
 
-        "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Äänenvoimakkuus nauhoittaessa ääniviestiä",
+        "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Ääniviestit",
 
 
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Puheen normalisointi",
@@ -1507,9 +1539,9 @@
 
         "Settings.EarmuffSettings.Angle": "Kulma",
 
-        "Settings.EarmuffSettings.TransitionStart": "Hiljennyksen alkaminen",
+        "Settings.EarmuffSettings.TransitionStart": "Muutoksen alkaminen",
 
-        "Settings.EarmuffSettings.TransitionLength": "Hiljennyksen ulottuvuus",
+        "Settings.EarmuffSettings.TransitionLength": "Muutoksen ulottuvuus",
 
         "Settings.EarmuffSettings.VolumeAttenuation": "Äänenvoimakkuuden vaimennus",
 
@@ -1555,6 +1587,8 @@
 
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Käytä vanhaa maailman vaihtajaa",
 
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Käytä inventaarion ja session pikaelettä",
+
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch kanavan nimi",
 
@@ -1566,16 +1600,20 @@
 
 
 
-        "Settings.LocaleSettings.AvailableLocales": "Vaihda kieli",
+        "Settings.LocaleSettings.AvailableLocales": "Valitse kieli",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Kielet",
 
         "Settings.DashSettings.DashCurvature": "Kaarevuus",
 
-        "Settings.DashSettings.OpenCloseSpeed": "Avaamisen/sulkemisen nopeus",
+        "Settings.DashSettings.OpenCloseSpeed": "Avaamisen/Sulkemisen nopeus",
+
+        "Settings.DashSettings.AllowReplacingSettings": "Salli asetusvalikon korvaus",
 
 
         "Settings.NotificationSettings": "Ilmoitukset",
         "Settings.NotificationSettings.UserOnline": "Kontakti Online-tilassa",
+
+        "Settings.NotificationSettings.UserSociable": "Kontakti Sosiaalinen-tilassa",
 
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild": "Kontakti Online-tilassa yhteensopimattomalla versiolla",
 
@@ -1597,15 +1635,29 @@
         "Settings.NamePlateSettings.UseCustomNameplates": "Näytä kustomoidut nimilaatat",
 
 
+        "Settings.CustomizationSettings": "Muokkausasetukset",
+        "Settings.CustomizationSettings.UserInterfaceEditMode": "Käyttöliittymän muokkaustila",
+
+
+        "Settings.FacetAnchorsSettings": "Fasettiankkurit",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors": "Käytä fasettiankkureita",
+
+        "Settings.FacetAnchorsSettings.AnimationSpeed": "Näkyvyysanimaation nopeus",
+
+
+
+        "Settings.FacetAnchorsSettings.ShowContainerBackground": "Näytä tausta",
+
+
         "Settings.LaserSettings.SmoothSpeed": "Laaserin liikkumisen pehmennys",
 
+        "Settings.LaserSettings.ModulateStartAngle": "Moduloi aloituskulma",
 
+        "Settings.LaserSettings.ModulateEndAngle": "Moduloi lopetuskulma",
 
+        "Settings.LaserSettings.ModulateExponent": "Moduloi eksponentti",
 
-
-
-
-
+        "Settings.LaserSettings.ModulateSpeedMultiplier": "Moduloi nopeuden kerroin",
 
         "Settings.LaserSettings.StickThreshold": "Laaserin tarraavuus",
 
@@ -1619,13 +1671,13 @@
         "Settings.DesktopViewSettings.Opacity": "Läpinäkyvyys",
 
 
-        "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Pikakuvausele",
+        "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Pikakuvaus ele",
 
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "Kuvan resoluutio",
 
         "Settings.PhotoCaptureSettings.TimerCaptureResolution": "Ajastetun kuvan resoluutio",
 
-        "Settings.PhotoCaptureSettings.TimerSeconds": "Ajastin",
+        "Settings.PhotoCaptureSettings.TimerSeconds": "Ajastimen kesto",
 
         "Settings.PhotoCaptureSettings.CaptureStereo": "Kaappaa stereokuva",
 
@@ -1640,16 +1692,16 @@
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Piilota nimilaatat aina",
 
 
-        "Settings.DesktopRenderSettings.FieldOfView": "Näkökenttä",
 
-        "Settings.DesktopRenderSettings.VSync": "Vertikaalisynkronointi",
+
+        "Settings.DesktopRenderSettings.VSync": "VSync - Vertikaalisynkronointi",
 
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Rajoita ruudunpäivitysnopeus taustalla",
 
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "Suurin ruudunpäivitysnopeus taustalla",
 
 
-
+        "Settings.InteractiveCameraFramingSettings.PositioningMode": "Asettelutila",
 
         "Settings.InteractiveCameraFramingSettings.FieldOfView": "Näkökenttä",
 
@@ -1719,7 +1771,7 @@
 
         "Settings.RelaySettings.UseClosestAvailableRelay": "Käytä lähintä mahdollista relettä",
 
-        "Settings.RelaySettings.RelayPriorities": "Hallitse relepalvelimien prioriteettejä",
+        "Settings.RelaySettings.RelayPriorities": "Hallitse relepalvelimien prioriteetteja",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Releiden prioriteetit",
 
         "Settings.PostProcessingSettings": "Jälkikäsittely",
@@ -1741,7 +1793,7 @@
 
         "Settings.TextureQualitySettings.MinimumTextureSize": "Rajoita tekstuurien maksimiresoluutio",
 
-        "Settings.TextureQualitySettings.DefaultFilterMode": "Tekstuurien filtteröinti",
+        "Settings.TextureQualitySettings.DefaultFilterMode": "Tekstuurifiltteröinti",
 
         "Settings.TextureQualitySettings.AnisotropicLevel": "Anisotropiikan taso",
 
@@ -1835,6 +1887,11 @@
         "Inspector.Member.SetAllToY": "Aseta kaikki Y",
         "Inspector.Member.SetAllToZ": "Aseta kaikki Z",
         "Inspector.Member.SetAllToW": "Aseta kaikki W",
+        "Inspector.Member.BakeBlendshape": "Beikkaa Blendshape",
+        "Inspector.Member.RemoveBlendshape": "Poista Blendshape",
+        "Inspector.Member.SplitBlendshape.X": "Splittaa Blendshape X-akselilla",
+        "Inspector.Member.SplitBlendshape.Y": "Splittaa Blendshape Y-akselilla",
+        "Inspector.Member.SplitBlendshape.Z": "Splittaa Blendshape Z-akselilla",
 
         "Inspector.ProceduralAsset.UpdateCount": "Päivitettyjen määrä: {n}",
         "Inspector.ProceduralAsset.Error": "Virhe: {error}",
@@ -1894,9 +1951,9 @@
 
         "Inspector.VHACD.Parameter.Alpha": "Alfa",
         "Inspector.VHACD.Parameter.Beta": "Beeta",
-
-
-
+        "Inspector.VHACD.Parameter.Gamma": "Gamma",
+        "Inspector.VHACD.Parameter.Delta": "Delta",
+        "Inspector.VHACD.Parameter.PCA": "PCA",
         "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Rungon maksimipisteet",
         "Inspector.VHACD.Parameter.MinVolumePerHull": "Rungon vähimmäistilavuus",
         "Inspector.VHACD.Parameter.ConvexHullApproximation": "Convex Hull arviointi",
@@ -1977,7 +2034,7 @@
         "Inspector.Texture.AdjustSaturation": "Säädä värikylläisyyttä",
         "Inspector.Texture.Value": "Kirkkaus:",
         "Inspector.Texture.AdjustValue": "Säädä kirkkautta",
-
+        "Inspector.Texture.Gamma": "Gamma:",
         "Inspector.Texture.AdjustGamma": "Säädä gammaa",
         "Inspector.Texture.LongestSide": "Pisin sivu:",
         "Inspector.Texture.Resize": "Muuta koko",
@@ -1993,8 +2050,8 @@
 
 
 
-
-
+        "Inspector.Texture.NormalizeMaxOnly": "Normalisoi (vain maksimi)",
+        "Inspector.Texture.NormalizeMinMax": "Normalisoi (minimi ja maksimi)",
 
 
 
@@ -2039,6 +2096,10 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Törmäyttimet & Tarttuminen -------",
 
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Tartu aina viimeiseen luuhun",
+
+
+
+
 
         "Inspector.Rig.CleanupBoneColliders": "Siivoa luiden törmäyttimet",
         "Inspector.Rig.GenerateDebugVisuals": "Generoi debug visuaalit",
@@ -2190,9 +2251,13 @@
         "Tutorial.Welcome.SettingsUseControllerDirection": "Ohjaimen suunta",
         "Tutorial.Welcome.SettingsUseControllerDirection.Description": "Liikut ohjaimen osoittamaan suuntaan",
 
-        "Tutorial.Welcome.LeftControllerMode": "Vasen ohjain",
-        "Tutorial.Welcome.RightControllerMode": "Oikea ohjain",
+        "Tutorial.Welcome.LeftControllerMode": "Vasemman ohjaimen tila",
+        "Tutorial.Welcome.RightControllerMode": "Oikean ohjaimen tila",
 
+        "Tutorial.Welcome.SidewaysTurnOnly": "Vain kääntyminen",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "Käytä tätä ohjainta vain kääntymiseen",
+        "Tutorial.Welcome.SidewaysTurnAndMove": "Kääntyminen & Liikkuminen",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "Käytä tätä ohjainta kääntymiseen ja liikkumiseen",
         "Tutorial.Welcome.SidewaysStrafe": "Sivuttaisliikkuminen",
         "Tutorial.Welcome.SidewaysStrafe.Description": "Käytä tätä ohjainta sivuttaisliikkumiseen",
         "Tutorial.Welcome.SidewaysOff": "Pois",
@@ -2229,7 +2294,7 @@
         "Twitch.Panel.Button.SafeMode.Disabled": "Turvatila pois käytöstä",
         "Twitch.Panel.Button.SubscriberCommands.Enabled": "Tilaajakomennot<br> käytössä vain tilaajille",
         "Twitch.Panel.Button.SubscriberCommands.Disabled": "Tilaajakomennot<br> käytössä kaikille",
-
+        "Twitch.Panel.Title.Text": "Twitch Chat",
 
         "Exiting.SavingItems": "Tallennetaan {n, plural, one {# kohde} other {# kohdetta}}...",
         "Exiting.SavingChanges": "Tallennetaan muutoksia...",
@@ -2283,7 +2348,7 @@
         "Migration.Groups.Title": "Siirrä ryhmät",
         "Migration.Groups.Introduction": "Siirretäänkö myös ryhmäsi?",
 
-
+        "Migration.Groups.Description": "Kaikki ryhmät jossa olet omistaja, siirretään vakiona. Jos haluat siirtää vain valitut ryhmät, klikkaa alla olevaa näppäintä ladataksesi ne, jonka jälkeen voit valita siirrettävät ryhmät.",
 
         "Migration.Groups.LoadGroups": "Lataa ryhmät",
         "Migration.Groups.RefreshGroups": "Virkistä ryhmät",
@@ -2299,7 +2364,7 @@
         "Migration.List.EmptyTitle": "Uusi siirto?",
         "Migration.List.EmptySubtitle": "Klikkaa \"Uusi siirtymistyö\" ylhäältä vasemmalta.",
 
-        "Migration.List.ButtonLabel": "{name}\n<size=50%>Luotu:{time}\nStatus:{state}",
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Luotu:{time}\nTila:{state}",
         "Migration.Report.Title": "Siirtymistyön raportti:",
         "Migration.Report.Description": "<color={hex}>Kuvaus:</color> {value}",
         "Migration.Report.Status": "<color={hex}>Tila:</color> {value}",
@@ -2372,7 +2437,7 @@
         "CloudHome.Info.GoToWiki": "Avaa Wiki!",
         "CloudHome.Info.GoToDiscord": "Avaa Discord!",
 
-
+        "CloudHome.Info.ModerationTab.Title": "Moderaatio!",
 
 
         "CloudHome.Info.InventoryTab.Title": "Tallenna esineitä!",
@@ -2443,7 +2508,7 @@
         "CloudHome.Panel.Sconces": "Lamput",
         "CloudHome.Panel.FurnitureVisibility": "Huonekalujen näkyvyys",
 
-
+        "CloudHome.Panel.LowQualityMode": "Matalan laadun tila",
         "CloudHome.Panel.DoorSounds": "Ovien äänet",
         "CloudHome.Panel.DoorsAlwaysOpen": "Ovet aina auki",
         "CloudHome.Panel.InteriorAmbience": "Sisätilojen tunnelmaäänet",
@@ -2457,7 +2522,7 @@
         "CloudHome.Panel.Foyer": "Aula",
         "CloudHome.Panel.Workspace": "Työskentelyalue",
         "CloudHome.Panel.ReadingLounge": "Lukuhuone",
-
+        "CloudHome.Panel.Lounge": "Lounge",
         "CloudHome.Panel.Center": "Keskiosa",
         "CloudHome.Panel.Balcony": "Parveke",
         "CloudHome.Panel.Theater": "Teatteri",
@@ -2469,10 +2534,10 @@
         "CloudHome.Panel.WindowTint": "Ikkunoiden tummennus",
 
         "CloudHome.FeaturedPanel.OpenWorld": "Avaa maailma",
-
+        "CloudHome.FeaturedPanel.LinkText": "Avaa tämä maailma<br>klikkaamalla tästä!",
         "CloudHome.FeaturedPanel.Featured": "Esittelyssä",
 
-
+        "CloudHome.AvatarPanel.Title": "Esittelyssä avatar -maailmat",
 
         "CloudHome.SupporterPanel.Title": "<b>Tukijamme</b>",
 
@@ -2543,7 +2608,7 @@
         "UI.TextDisplay.Landscape": "Vaaka",
         "UI.TextDisplay.Portrait": "Pysty",
         "UI.TextDisplay.NormalText": "Normaali",
-
+        "UI.TextDisplay.MonospaceText": "Monospace",
 
         "UI.DocumentDisplay.PageNumber": "Sivu {page_number}",
         "UI.DocumentDisplay.DocumentQuality": "Laatu",
