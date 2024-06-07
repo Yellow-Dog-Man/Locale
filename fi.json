@@ -55,8 +55,8 @@
         "General.Sort.Ascending": "Nousevasti",
         "General.Sort.Descending": "Laskevasti",
 
-
-
+        "General.Units.Metric": "Metrijärjestelmä",
+        "General.Units.Imperial": "Tuumajärjestelmä",
 
         "Worlds.Home": "Koti",
         "Worlds.Tutorial": "Tutoriaali",
@@ -89,7 +89,7 @@
         "Interaction.DequipTool": "Irrota kädestä",
         "Interaction.ScalingEnabled": "Skaalaus päällä",
         "Interaction.ScalingDisabled": "Skaalaus pois päältä",
-        "Interaction.ResetScale": "Resetoi skaala",
+        "Interaction.ResetScale": "Palauta skaala",
         "Interaction.LaserEnabled": "Laaseri päällä",
         "Interaction.LaserDisabled": "Laaseri pois päältä",
         "Interaction.Grab.Palm": "Tartunta: Kämmen",
@@ -257,7 +257,7 @@
         "World.Actions.CopyWorldURL": "Kopioi maailman URL",
         "World.Actions.CopyRecordURL": "Kopioi Record URL",
         "World.Actions.StartCustomSession": "Aloita mukautettu sessio",
-        "World.Actions.ModifyMetadata": "Muokkaa Metadataa",
+        "World.Actions.ModifyMetadata": "Muokkaa metadataa",
         "World.Actions.GetSessionOrb": "Tuo session pallo",
         "World.Actions.CopySessionURL": "Kopioi session URL",
 
@@ -317,7 +317,7 @@
         "World.SortParameter.SearchScore": "Hakupisteet",
         "World.SortParameter.Name": "Nimi",
         "World.SortParameter.OpenedWorldCount": "Avatut maailmat",
-        "World.SortParameter.TotalSessionCount": "Istuntoja yhteensä",
+        "World.SortParameter.TotalSessionCount": "Sessioita yhteensä",
         "World.SortParameter.TotalUserCount": "Käyttäjiä yhteensä",
         "World.SortParameter.CreationDate": "Luomispäivä",
         "World.SortParameter.LastUpdateDate": "Viimeksi päivitetty",
@@ -346,7 +346,7 @@
         "World.Filter.MinimumUptime": "Minimi käyntiaika:",
         "World.Filter.Sorting": "Lajittelu:",
 
-        "World.Edit.Title": "Muokkaa maailman metatietoja",
+        "World.Edit.Title": "Muokkaa maailman metadataa",
         "World.Edit.Name": "Maailman nimi:",
         "World.Edit.Description": "Kuvaus:",
         "World.Edit.Tags": "Tägit (pilkkuerottelulla):",
@@ -529,9 +529,9 @@
         "Account.RecoverPassword": "Unohtunut salasana?",
         "Account.LiveEmailWarning": "<color=#f00>Varoitus:</color> live.com, hotmail.com, outlook.com ja muilla Microsoftin alustoilla saattaa kestää jopa 1-2 päivää, ennen sähköpostin saapumista.",
         "Account.PasswordRules": "(vähintään 8 kirjainta, 1 numero, 1 pieni kirjain, 1 iso kirjain)",
-        "Account.LostPassword": "Kadonnut Salasana",
+        "Account.LostPassword": "Unohtunut salasana",
         "Account.SendRecoveryCode": "Lähetä Palautuskoodi",
-        "Account.ResetPasswordHeader": "Nollaa Salasana",
+        "Account.ResetPasswordHeader": "Salasanan vaihto",
         "Account.ResetPasswordInstructions": "Palautuskoodi on lähetetty sähköpostiisi. Liitä se alla olevaan kenttään:",
         "Account.RecoveryCode": "Palautuskoodi:",
         "Account.NewPassword": "Uusi Salasana:",
@@ -608,9 +608,9 @@
         "Session.Permission.ClearOverrides": "Poista erikoisluvat",
 
         "Session.JoinVerifier.EnableHeader": "Aktivoi mukautettu liittymistodentaja?",
-
+        "Session.JoinVerifier.EnableText": "<color=red>VAROITUS:</color> Olet ottamassa käyttöön mukautetun liittymistodentajan, joka on osa tämänhetkistä maailmaa. Varmista ennen sitä, että luotat maailman tekijään, sillä mukautettu todentaja voi ohittaa tavalliset istunnon käyttöoikeussäännöt ja sallia tai estää käyttäjien pääsyn omien sääntöjensä avulla.",
         "Session.JoinVerifier.Label": "Käytä mukautettua liittymistodentajaa: {name}",
-
+        "Session.JoinVerifier.ComponentWarning": "<color=red>VAROITUS:</color> Tällä hetkellä ei ole olemassa mekanismia, joka estäisi todentajan peukaloinnin, kun se on otettu käyttöön. Jos todentamisasetusten peukalointi on huolenaihe, ÄLÄ KÄYTÄ tätä ominaisuutta äläkä ota sitä käyttöön maailmoissasi.",
         "Session.JoinVerifier.SetCustomVerifier": "Aseta mukautetuksi liittymistodentajaksi",
 
         "Permissions.NotAllowedToSpawn": "Et voi spawnata esineitä tässä maailmassa.",
@@ -773,7 +773,7 @@
 
         "Tooltip.Mesh.Edit": "Muokkaa tahkoverkkoa",
 
-
+        "Tooltip.Cartridge.Eject": "Pudota pallo",
 
         "Tooltip.Microphone.Format.WAV": "WAV",
         "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
@@ -1023,6 +1023,9 @@
         "Exporter.Export": "Vie",
         "Exporter.Exporting": "Viedään...",
 
+        "Export.PackageExportable.Package": "Resonite Package",
+        "Export.PackageExportable.PackageWithVariants": "Resonite Package <size=50%>(+variantit)</size>",
+
         "NewWorld.Title": "Uusi Maailma",
         "NewWorld.SessionTitle": "Uusi Sessio",
         "NewWorld.Template": "Mallimaailmat:",
@@ -1213,17 +1216,17 @@
 
         "Settings.OnlineStatusSettings": "Online-tila",
         "Settings.OnlineStatusSettings.DefaultStatus": "Oletustila",
-
+        "Settings.OnlineStatusSettings.DefaultStatus.Description": "Tämä on oletustila, jolla aloitat sisäänkirjautumisen jälkeen, ellei sinulla ole aiemmin muistettua tilaa.",
         "Settings.OnlineStatusSettings.RememberMode": "Muista edellinen tila",
-
+        "Settings.OnlineStatusSettings.RememberMode.Description": "Tällä voit määrittää, säilytetäänkö viimeisin Online-tilasi kirjautumiskertojen välillä vai ei. Tämä koskee kaikkia muita tiloja paitsi Näkymätön, jota ohjataan erillisellä asetuksella.",
         "Settings.OnlineStatusSettings.RememberTimespan": "Muistamisen aikaväli",
-
-        "Settings.OnlineStatusSettings.InvisibleRememberMode": "Muista edellinen näkymätön -tila",
-
+        "Settings.OnlineStatusSettings.RememberTimespan.Description": "Viimeisin Online-tilasi muistetaan vain, jos kirjaudut sisään uudelleen tämän ajan sisällä. Jos sinulla kestää tätä kauemmin, aloitat sen sijaan oletustilalla.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode": "Muista edellinen Näkymätön-tila",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description": "Tämä määrittää, miten viimeinen tilasi muistetaan, jos olet viimeksi ollut Näkymätön.\n\nNäkymätön-tilalla on erillinen asetus yksityisyyden suojaamiseksi. Sen varmistamiseksi, jos olit viimeksi asetettu näkymättömäksi, pysyt näkymättömänä seuraavalla kirjautumiskerralla, vaikka muita tilojasi ei muistettaisi.",
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan": "Näkymätön tilan muistamisen aikaväli",
-
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description": "Viimeisin Näkymätön-tilasi muistetaan vain, jos kirjaudut sisään uudelleen tämän ajan sisällä. Jos sinulla kestää tätä kauemmin, aloitat sen sijaan oletustilalla.",
         "Settings.OnlineStatusSettings.AutoAwayTimespan": "Vaihda tilaksi Poissa, kun aikaa on kulunut",
-
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description": "Kun olet poissa tämän ajan, Online-tilasi vaihtuu automaattisesti Poissa-tilaan. Kun palaat takaisin, se palautuu automaattisesti edelliseen tilaan, ellet aseta sitä manuaalisesti Poissa-tilaan.",
 
         "Settings.AudioInputDeviceSettings": "Äänitulolaite",
         "Settings.AudioOutputDeviceSettings": "Äänilähtölaite",
@@ -1263,107 +1266,107 @@
         "Settings.InteractiveCameraPostProcessingSettings": "Jälkikäsittely",
 
         "Settings.GeneralControlsSettings.PrimaryHand": "Kätisyys",
-
+        "Settings.GeneralControlsSettings.PrimaryHand.Description": "Kumpi käsi katsotaan ensisijaiseksi kädeksi. Useat järjestelmät käyttävät tätä esimerkiksi työkalujen käyttöönotossa.",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Tuplaklikkauksen aikaväli",
-
+        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Kaksoisnapsautusta vaativissa vuorovaikutustapahtumissa tämä määrittää enimmäisajan, joka napsautusten välillä kuluu ja joka katsotaan kaksoisnapsautukseksi. Jos sinulla on ongelmia kaksoisnapsautuksen kanssa, suurenna lukua. Jos yksittäiset napsautukset havaitaan kaksoisnapsautuksina, pienennä lukua.",
 
         "Settings.LocomotionSettings.LocomotionPreferences": "Liikkumistila -asetukset",
         "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Liikkumistila -asetukset",
 
-        "Settings.MovementSettings.LeftSidewaysMode": "Vasemman ohjaimen sivuttaisliikkumisen tila",
-
-        "Settings.MovementSettings.RightSidewaysMode": "Oikean ohjaimen sivuttaisliikkumisen tila",
-
+        "Settings.MovementSettings.LeftSidewaysMode": "Vasemman ohjaimen sivuttaisliikkeen tila",
+        "Settings.MovementSettings.LeftSidewaysMode.Description": "Määritä tällä, mitä vasemman ohjaimen sivuttainen joystickin/touchpadin liike tekee.",
+        "Settings.MovementSettings.RightSidewaysMode": "Oikean ohjaimen sivuttaisliikkeen tila",
+        "Settings.MovementSettings.RightSidewaysMode.Description": "Määritä tällä, mitä oikean ohjaimen sivuttainen joystickin/touchpadin liike tekee.",
         "Settings.MovementSettings.UseHeadDirectionForMovement": "Käytä pään suuntaa liikkumiseen",
-
+        "Settings.MovementSettings.UseHeadDirectionForMovement.Description": "Kun tämä asetus on käytössä, liikut pään osoittamaan suuntaan VR:ssä. Kun tämä asetus on pois päältä, liikut ohjaimen osoittamaan suuntaan.",
         "Settings.MovementSettings.UseSmoothTurn": "Pehmeä kääntyminen",
-
+        "Settings.MovementSettings.UseSmoothTurn.Description": "Tämä asetus kääntää sinua portaattomasti VR:ssä. Tämä voi olla immersiivisempää, mutta todennäköisesti aiheuttaa pahoinvointia. Kytke asetus pois päältä, jos haluat käyttää pikakäännostä.",
         "Settings.MovementSettings.SmoothTurnExclusiveMode": "Käytä pehmeän kääntymisen eksklusiivista tilaa",
-
+        "Settings.MovementSettings.SmoothTurnExclusiveMode.Description": "Kun tämä asetus on käytössä, yhdellä joystickillä voi joko liikkua eteenpäin/taaksepäin tai kääntyä, mutta ei molempia samaan aikaan. Ota tämä asetus käyttöön, jos käännyt usein vahingossa, kun yrität liikkua.",
         "Settings.MovementSettings.SmoothTurnSpeed": "Pehmeän kääntymisen nopeus",
-
-        "Settings.MovementSettings.SnapTurnAngle": "Napsautuskääntymisen kulma",
-
-        "Settings.MovementSettings.NoClipSpeed": "Läpäisevän lentotilan nopeus",
-
+        "Settings.MovementSettings.SmoothTurnSpeed.Description": "Tämä asetus määrittää, kuinka nopeasti käännyt, kun pehmeä kääntyminen on käytössä. Luku on astetta sekunnissa, joten luvulla 360 käännyt ympäri sekunnissa joystickin ollessa täysin kallistettuna.",
+        "Settings.MovementSettings.SnapTurnAngle": "Pikakäännöksen kulma",
+        "Settings.MovementSettings.SnapTurnAngle.Description": "Tämä määrittää kulman asteina, jonka käännyt, kun teet pikakäännöksen.",
+        "Settings.MovementSettings.NoClipSpeed": "Läpäisevän lentotilan (NoClip) nopeus",
+        "Settings.MovementSettings.NoClipSpeed.Description": "Tämä asetus määrittää, kuinka nopeasti liikut, kun käytät läpäisevää lentotilaa (NoClip). Tätä liikkumistilaa käytetään usein rakentamiseen.",
         "Settings.MovementSettings.MovementDeadzone": "Liikkumisen deadzone",
-
+        "Settings.MovementSettings.MovementDeadzone.Description": "Tätä asetusta voidaan käyttää ajelehtimisen korjaamiseen. Kun tätä lukua kasvatetaan, joystickiä on kallistettava kauemmas, jotta liike alkaa.",
         "Settings.MovementSettings.TurningDeadzone": "Kääntymisen deadzone",
-
+        "Settings.MovementSettings.TurningDeadzone.Description": "Tätä asetusta voidaan käyttää ajelehtimisen korjaamiseen ja vahingossa tapahtuvan kääntymisen estämiseen, kun liikut ja käännyt samalla joystickillä. Tämän luvun kasvattaminen edellyttää, että joystickiä on kallistettava kauemmas kääntymisen alkamiseksi.",
         "Settings.MovementSettings.MovementExponent": "Liikkumisen eksponentti",
-
+        "Settings.MovementSettings.MovementExponent.Description": "Käytä tätä säätääksesi liikkeen toimintaa. Tämän avulla voit joko aloittaa liikkumisen aluksi hitaasti ja sitten lisätä liikettä nopeasti tai aloittaa liikkumisen heti nopeasti, riippuen siitä, onko luku yli vai alle 1.0.",
 
         "Settings.GrabbingSettings": "Tarttumisasetukset",
         "Settings.GrabbingSettings.DefaultHandGrabType": "Tarttumistyylin vakiotila",
-
+        "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Tämä määrittää, mikä on käsien vakiotarttumistyyli, kun spawnaat maailmaan.\n\n<color=hero.yellow>Kämmen:</color> Tartut kaikkiin esineisiin, jotka ovat lähellä kämmentäsi.\n\n<color=hero.yellow>Tarkkuus:</color> Tartut yksittäiseen esineeseen etusormen ja peukalon välissä.\n\n<color=hero.yellow>Auto:</color> Tila vaihtuu automaattisesti Kämmenen ja Tarkkuuden välillä kätesi asennon mukaan.\n\n<color=hero.yellow>Off:</color> Voit tarttua esineisiin vain lasereilla.",
 
         "Settings.GamepadSettings": "Peliohjain",
-
-
-
-
+        "Settings.GamepadSettings.ThumbstickLookSpeed": "Ohjaimen herkkyys",
+        "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Tällä voit säätää ohjaimen herkkyyttä, jota käytät katseen suuntaamiseen.",
+        "Settings.GamepadSettings.ThumbstickLookExponent": "Ohjaimen katseen suuntauksen eksponentti",
+        "Settings.GamepadSettings.ThumbstickLookExponent.Description": "Käytä tätä säätääksesi ohjaimen katseen suuntauksen toimintaa. Tämän avulla voit joko aloittaa liikkeen aluksi hitaasti ja sitten lisätä liikettä nopeasti tai aloittaa liikkeen heti nopeasti, riippuen siitä, onko luku yli vai alle 1.0.",
         "Settings.GamepadSettings.UseGamepadWhenUnfocused": "Käytä peliohjainta taustalla",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "Kun tämä asetus on käytössä, peliohjaimen antamia syöttöjä käytetään myös silloin, kun sovellusikkuna ei ole parhaillaan fokusoitu. Poista tämä asetus käytöstä, jos haluat pelata samaan aikaan muita pelejä, jotka käyttävät myös peliohjainta.",
 
-
-
-
-
-
-
-
-
-
-
-
+        "Settings.MouseSettings.MouseSensitivity": "Herkkyys",
+        "Settings.MouseSettings.MouseSensitivity.Description": "Hiiren herkkyys työpöytätilan vuorovaikutuksessa.",
+        "Settings.MouseSettings.MouseLookSpeed": "Katseen suuntauksen nopeus",
+        "Settings.MouseSettings.MouseLookSpeed.Description": "Tällä voit säätää herkkyyttä, kuinka nopeasti kamera kääntyy, kun olet ensimmäisen tai kolmannen persoonan tilassa.",
+        "Settings.MouseSettings.MousePanSpeed": "Panorointinopeus",
+        "Settings.MouseSettings.MousePanSpeed.Description": "Tämä säätää sitä, kuinka nopeasti näkymä reagoi hiiren liikkeisiin, kun olet käyttöliittymää seuraavassa tilassa.",
+        "Settings.MouseSettings.MouseRotateSpeed": "Pyörintänopeus",
+        "Settings.MouseSettings.MouseRotateSpeed.Description": "Kun esineitä pidellään työpöytätilassa, tämä määrittää, kuinka nopeasti niitä voi pyörittää akselinsa ympäri hiirellä.",
+        "Settings.MouseSettings.MouseFreeformRotateSpeed": "Vapaamuotoinen pyörintänopeus",
+        "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "Kun esineitä pidellään työpöytätilassa, tämä määrittää, kuinka nopeasti niitä voi pyörittää, kun käytetään vapaamuotoista kiertoa.",
 
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Ohjaimen värinä",
-
+        "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Tällä voit ottaa värinän käyttöön tai poistaa sen käytöstä VR-ohjaimissa.",
         "Settings.GeneralHapticsSettings.EnableHaptics": "Haptinen palaute",
-
+        "Settings.GeneralHapticsSettings.EnableHaptics.Description": "Kun tämä on käytössä, saat haptista palautetta avatareista ja maailman esineistä ohjaimiin ja muihin haptisiin laitteisiin.",
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR-pikavaihto",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Asetus vaihtaa automaattisesti VR ja työpöytätilan välillä, kun laitat VR kypärän päähän tai otat sen pois päästä",
 
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Käsien sijainnin tasoitus",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Käsien käännön tasoitus",
-
-
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "Tällä voit säätää, kuinka paljon käsien sijaintia tasoitetaan. Tämä on hyödyllistä käyttäjille, joilla on vapinaa tai muita esteettömyysongelmia, jotka aiheuttavat käsien tärinää.",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "Tällä voit säätää, kuinka paljon käsien kääntöä tasoitetaan. Tämä on hyödyllistä käyttäjille, joilla on vapinaa tai muita esteettömyysongelmia, jotka aiheuttavat käsien tärinää.",
 
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Jalkojen sijainnin tasoitus",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Jalkojen käännön tasoitus",
 
-
-
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "Tällä voit säätää, kuinka paljon jalkojen sijaintia tasoitetaan, kun käytät FBT:tä. Tämä on hyvä keino vähentää tärinää ja värinää, mutta trackerit eivät reagoi yhtä hyvin nopeisiin liikkeisiin.",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "Tällä voit säätää, kuinka paljon jalkojen kääntöä tasoitetaan, kun käytät FBT:tä. Tämä on hyvä keino vähentää tärinää ja värinää, mutta trackerit eivät reagoi yhtä hyvin nopeisiin liikkeisiin.",
 
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Vyötärön sijainnin tasoitus",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Vyötärön käännön tasoitus",
-
-
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "Tällä voit säätää, kuinka paljon vyötärön sijaintia tasoitetaan, kun käytät FBT:tä. Tämä on hyvä keino vähentää tärinää ja värinää, mutta trackerit eivät reagoi yhtä hyvin nopeisiin liikkeisiin.",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "Tällä voit säätää, kuinka paljon vyötärön kääntöä tasoitetaan, kun käytät FBT:tä. Tämä on hyvä keino vähentää tärinää ja värinää, mutta trackerit eivät reagoi yhtä hyvin nopeisiin liikkeisiin.",
 
         "Settings.MediaPrivacySettings": "Median yksityisyys",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Poista minut median metadatasta",
-
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Kun otat tämän asetuksen käyttöön, sinut jätetään pois otettujen medioiden metadatasta (tyypillisesti valokuvat ja äänileikkeet). Olet edelleen mukana näissä mediatiedostoissa, mutta niihin ei tallenneta mitään tietoja, kuten UserID:täsi tai sijaintiasi.\n\nJos saat tietoosi, että joku käyttäjä ohittaa tämän asetuksen, ilmoita siitä moderaatiotiimille. Tämä katsotaan häirinnäksi.",
         "Settings.MediaPrivacySettings.HideInScreenshots": "Poista minut valokuvista",
-
+        "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Kun tämä on käytössä, sinua ei renderöidä pelissä otettuihin kuvakaappauksiin.\n\n<color=hero.red>TÄRKEÄÄ:</color> Huomaa, että tämä ei vaikuta reaaliaikakameroihin ja pelin ulkopuolisilla menetelmillä otettuihin kuvakaappauksiin.",
 
         "Settings.MediaPrivacySettings.StripImageFileMetadata": "Poista kuvan metadata tuonnin yhteydessä",
-
+        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "Kun tämä on käytössä, metadata poistetaan kuvista <b>tuonnin</b> yhteydessä.\n\nTämä sisältää kommentit, EXIF-, IPTC-, XMP- ja GEOTIFF -metadatan.\n\nTämä poistaa myös metadatassa olevat sijaintitiedot (kuten GPS).\n\nToiminto <b>ei</b> koske tiedostoja, jotka on tuotu \"Tiedosto\" -asetuksella.",
 
         "Settings.Category.Integrations": "Integraatiot",
         "Settings.DiscordIntegrationSettings": "Discord integraatio",
         "Settings.SteamIntegrationSettings": "Steam integraatio",
 
+        "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Mitä tietoja Resonite lähettää Discordin Rich Presence -järjestelmään.\n\n<color=hero.yellow>None</color> - Älä lähetä Rich Presence -tietoja Discordiin.\n<color=hero.yellow>Basic</color> - Lähetä vain rajoitetut tiedot, kuten Online-tilasi Resonitessa.\n<color=hero.yellow>Full</color> - Kun olet julkisessa sessiossa, lähetä kaikki mahdolliset sessiotiedot Discordiin. Sisältää maailman nimen ja sen, kuinka monta käyttäjää sessiossa on.\n\nDiscord tekee myös oman tunnistuksensa näyttääkseen, mitä peliä pelaat. Tämän voi poistaa käytöstä Discordin asetuksista.",
 
-
-
-
-
+        "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Mitä tietoja Resonite lähettää Steamin Rich Presence -järjestelmään.\n\n<color=hero.yellow>None</color> - Älä lähetä Rich Presence -tietoja Steamiin.\n<color=hero.yellow>Basic</color> - Lähetä vain rajoitetut tiedot, kuten Online-tilasi Resonitessa.\n<color=hero.yellow>Full</color> - Kun olet julkisessa sessiossa, lähetä kaikki mahdolliset sessiotiedot Steamiin. Sisältää maailman nimen ja sen, kuinka monta käyttäjää sessiossa on.\n\n Steam näyttää, että pelaat Resonitea tästä asetuksesta riippumatta. Tämän asetuksen muuttaminen vaikuttaa vain siihen, kuinka paljon lisätietoa Steamiin lähetetään aktiivisesta sessiostasi.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Tallenna kuvakaappaukset",
-
+        "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Kun tämä on käytössä, kopio ottamistasi valokuvista tallennetaan Steam-kuvakaappauksiisi.",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion käsien seuranta",
-
+        "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Kun tämä on käytössä, Leap Motion -laitetta käytetään seuraamaan käsiäsi ja sormiasi, kun ne ovat näkyvissä.",
         "Settings.LeapMotionSettings.Offset": "Käsien seurannan siirto",
 
         "Settings.LeapMotionSettings.SnapDistance": "Käsien ohjaimiin napsausetäisyys",
@@ -2235,7 +2238,7 @@
         "Tutorial.Welcome.SettingsHeader": "Perusasetukset",
         "Tutorial.Welcome.SettingsDescription": "Voit määrittää liikkeen ja käyttäjän perusasetukset. Kaikkia näitä asetuksia voi myös muokata myöhemmin",
         "Tutorial.Welcome.SettingsTurning": "Kääntymistyyli",
-        "Tutorial.Welcome.SettingsSnapTurn": "Napsautus kääntyminen",
+        "Tutorial.Welcome.SettingsSnapTurn": "Pikakäännös",
         "Tutorial.Welcome.SettingsSnapTurn.Description": "Kääntyminen tapahtuu välittömästi napsahtamalla uuteen kulmaan. Ideaali uusille käyttäjille.",
         "Tutorial.Welcome.SettingsSmoothTurn": "Pehmeä kääntyminen",
         "Tutorial.Welcome.SettingsSmoothTurn.Description": "Pehmeä kääntyminen. Voi aiheuttaa pahoinvointia.",
@@ -2416,9 +2419,9 @@
 
 
         "Tutorial.Saving.Title": "Tervetuloa kotiin!",
+        "Tutorial.Saving.Content": "Tervetuloa <b><i><color=hero.yellow>Koti</b></i></color>maailmaasi! Päädyt tänne aina kun kirjaudut sisään.<br><br>Tämä on täysin oma maailmasi, joten kaikki tekemäsi muutokset voidaan tallentaa.<br><br>Jos tallennat, kaikki jää juuri sellaiseksi kuin ne jätit, kunnes palaat takaisin!",
 
-
-
+        "Tutorial.Teleporter.Error": "Pilvikotiasi ei onnistuttu lataamaan!<br><size=66%>Poistu teleportterista ja astu takaisin sisään yrittääksesi uudelleen.</size>",
 
 
         "CloudHome.Info.Moderation": "Moderaatio",
@@ -2438,7 +2441,7 @@
         "CloudHome.Info.GoToDiscord": "Avaa Discord!",
 
         "CloudHome.Info.ModerationTab.Title": "Moderaatio!",
-
+        "CloudHome.Info.ModerationTab.Content": "Turvallisuus on meille tärkeää. Jos tarvitset apua tai haluat ilmiantaa käyttäjän, avaa tiketti <u><color=hero.cyan>Moderaatioportaalissamme.</color></u><sprite name=hyperlink><br><br>Meillä on vahva vapaaehtoismoderaattoreiden tiimi, <sprite name=modbadge> joka pitää yhteisömme turvallisena! Lähetä tiketti, jos sinulla on kysyttävää tai havaitset sääntöjen vastaista käytöstä.",
 
         "CloudHome.Info.InventoryTab.Title": "Tallenna esineitä!",
 
@@ -2616,7 +2619,7 @@
         "UI.DocumentDisplay.QualityMedium": "Keskiverto",
         "UI.DocumentDisplay.QualityHigh": "Korkea",
         "UI.DocumentDisplay.Pages": "Sivut",
-        "UI.DocumentDisplay.ResetZoom": "Nollaa zoomaus",
+        "UI.DocumentDisplay.ResetZoom": "Palauta zoomaus",
 
         "UI.VideoPlayer.GlobalSettings": "Globaalit<br>Asetukset",
         "UI.VideoPlayer.LocalSettings": "Lokaalit<br>Asetukset",
