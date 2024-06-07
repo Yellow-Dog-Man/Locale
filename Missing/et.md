@@ -321,6 +321,8 @@ Exporter.FileName
 Exporter.ExportAs  
 Exporter.Export  
 Exporter.Exporting  
+Export.PackageExportable.Package  
+Export.PackageExportable.PackageWithVariants  
 NewWorld.SessionTitle  
 CameraControl.Anchors.LinearInterpolation  
 CameraControl.Control.MotionBlur  

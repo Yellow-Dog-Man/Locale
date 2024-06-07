@@ -354,6 +354,8 @@ Exporter.FileName
 Exporter.ExportAs  
 Exporter.Export  
 Exporter.Exporting  
+Export.PackageExportable.Package  
+Export.PackageExportable.PackageWithVariants  
 NewWorld.SessionTitle  
 CameraControl.Settings.AudioFromCameraViewpoint  
 CameraControl.Anchors.LinearInterpolation  
