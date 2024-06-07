@@ -78,6 +78,8 @@ Tooltip.ComponentClone.SingleInstanceOff
 Tooltip.ComponentClone.ClearTemplate  
 AvatarCreator.ProtectionUnavailable  
 Importer.Image.Sprite  
+Export.PackageExportable.Package  
+Export.PackageExportable.PackageWithVariants  
 Settings.Category.Audio  
 Settings.Category.Controls  
 Settings.Category.Devices  

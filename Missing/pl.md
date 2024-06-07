@@ -13,6 +13,8 @@ Notifications.UserLeft
 Tooltip.Glue.Mode.BakeSkinnedMeshes  
 AvatarCreator.ProtectionUnavailable  
 Importer.Image.Sprite  
+Export.PackageExportable.Package  
+Export.PackageExportable.PackageWithVariants  
 Settings.OnlineStatusSettings  
 Settings.OnlineStatusSettings.DefaultStatus  
 Settings.OnlineStatusSettings.DefaultStatus.Description  

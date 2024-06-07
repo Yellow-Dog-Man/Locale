@@ -3,6 +3,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # French [fr]
 Importer.Image.Sprite  
+Export.PackageExportable.Package  
+Export.PackageExportable.PackageWithVariants  
 Settings.OnlineStatusSettings  
 Settings.OnlineStatusSettings.DefaultStatus  
 Settings.OnlineStatusSettings.DefaultStatus.Description  
