@@ -83,6 +83,8 @@ Importer.Image.Sprite
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
+Export.PackageExportable.Package  
+Export.PackageExportable.PackageWithVariants  
 Settings.Category.Audio  
 Settings.Category.Controls  
 Settings.Category.Devices  
