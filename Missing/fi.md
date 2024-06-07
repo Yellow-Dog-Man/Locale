@@ -50,6 +50,8 @@ Importer.Video.Regular
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
+Export.PackageExportable.Package  
+Export.PackageExportable.PackageWithVariants  
 CameraControl.OBS.FPS  
 CameraControl.OBS.Idle  
 CameraControl.OBS.Live  
