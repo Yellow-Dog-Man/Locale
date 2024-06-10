@@ -52,6 +52,14 @@ Importer.Slices.TitleGrayscale
 Importer.Slices.Description  
 Export.PackageExportable.Package  
 Export.PackageExportable.PackageWithVariants  
+Export.AudioExportable.OriginalFormat  
+Export.VideoExportable.OriginalFormat  
+Importer.Package.Progress.DecodingPackage  
+Importer.Package.Progress.DecodingObject  
+Importer.Package.Progress.ImportingAssets  
+Importer.Package.Progress.LoadingObject  
+Importer.Package.Progress.Imported  
+Importer.Package.Progress.Fail  
 CameraControl.OBS.FPS  
 CameraControl.OBS.Idle  
 CameraControl.OBS.Live  
