@@ -921,6 +921,7 @@
         "Importer.Image.Regular": "Изображение / Текстуру",
         "Importer.Image.Screenshot": "Фото из {appName} <size=50%>(снятое здась)</size>",
         "Importer.Image.PixelArt": "Пиксель-арт",
+        "Importer.Image.Sprite": "Спрайт",
         "Importer.Image.360": "360 фото / скайбокс",
         "Importer.Image.StereoPhoto": "Стерео Фото",
         "Importer.Image.Stereo360": "Стерео 360 Фото",
@@ -1021,6 +1022,20 @@
         "Exporter.ExportAs": "Экспортировать как:",
         "Exporter.Export": "Экспорт",
         "Exporter.Exporting": "Идет экспорт...",
+
+        "Export.PackageExportable.Package": "Пакет Resonite",
+        "Export.PackageExportable.PackageWithVariants": "Пакет Resonite <size=75%>(+варианты ассетов)</size>",
+
+        "Export.AudioExportable.OriginalFormat" : "Аудио <size=75%>(оригинальный формат)</size>",
+
+        "Export.VideoExportable.OriginalFormat" : "Видео <size=75%>(оригинальный формат)</size>",
+
+        "Importer.Package.Progress.DecodingPackage" : "Декодирование пакета",
+        "Importer.Package.Progress.DecodingObject" : "Декодирование объекта",
+        "Importer.Package.Progress.ImportingAssets" : "Импорт ассетов",
+        "Importer.Package.Progress.LoadingObject" : "Загрузка объекта",
+        "Importer.Package.Progress.Imported" : "Пакет импортирован",
+        "Importer.Package.Progress.Fail" : "Ошибка импорта. Проверьте логи",
 
         "NewWorld.Title": "Новый мир",
         "NewWorld.SessionTitle": "Новая сессия",
@@ -1209,6 +1224,20 @@
         "Settings.TrackingSmoothingSettings": "Сглаживание трекинга",
 
         "Settings.UserMetricsSettings": "Метрики пользователя",
+
+        "Settings.OnlineStatusSettings" : "Онлайн статус",
+        "Settings.OnlineStatusSettings.DefaultStatus" : "Статус по умолчанию",
+        "Settings.OnlineStatusSettings.DefaultStatus.Description" : "Это статус по умолчанию, который будет установлен при входе, кроме случаев когда запомнен предыдущий статус.",
+        "Settings.OnlineStatusSettings.RememberMode" : "Запоминать предыдущий статус",
+        "Settings.OnlineStatusSettings.RememberMode.Description" : "Определяет, будет ли сохраняться ваш последний онлайн статус между входами. Включает все статусы кроме Невидимый, который управляется отдельной настройкой.",
+        "Settings.OnlineStatusSettings.RememberTimespan" : "Запомнить статус на",
+        "Settings.OnlineStatusSettings.RememberTimespan.Description" : "Ваш последний онлайн статус будет запомнен только если вы зайдете снова в течение этого времени. Если вы зайдете позже, будет установлен статус по умолчанию.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode" : "Запомнить предыдущий статус Невидимый",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "Определяет, будет ли сохраняться ваш последний онлайн статус между входами, если вы были в статусе Невидимый. В остальном настройки идентичны.\n\nОтдельная настройка для статуса Невидимый добавлена из соображений приватности, чтобы гарантировать, что если вы были в статусе Невидимый, вы останетесь в нем при следующем входе даже если другие ваши статусы не запомниаются.",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "Запомнить статус Невидимый на",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "Ваш последний статус Невидимый будет запомнен только если вы зайдете снова в течение этого времени. Если вы зайдете позже, будет установлен статус по умолчанию.",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan" : "Переключиться в Отошел если нет активности в течение",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description" : "Когда вы не активны в течение указанного времени, ваш онлайн статус будет автоматически переключен в Отошел. Когда вы вернетесь, он автоматически вернется к прошлому состоянию, если вы не установили статус Отошел вручную.",
 
         "Settings.AudioInputDeviceSettings": "Аудио ввод",
         "Settings.AudioOutputDeviceSettings": "Аудио вывод",
@@ -2243,7 +2272,6 @@
         "Tutorial.Welcome.SidewaysTurnOnly.Description": "Использовать этот контроллер только для поворота",
         "Tutorial.Welcome.SidewaysTurnAndMove": "Поворот и перемещение",
         "Tutorial.Welcome.SidewaysTurnAndMove.Description": "Использовать этот контроллер для поворота и перемещения",
-
         "Tutorial.Welcome.SidewaysStrafe": "Стрейф",
         "Tutorial.Welcome.SidewaysStrafe.Description": "Использовать этот контроллер для стрейфа",
         "Tutorial.Welcome.SidewaysOff": "Выключен",

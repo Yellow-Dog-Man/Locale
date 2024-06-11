@@ -588,7 +588,7 @@
         "2FA.Header": "2要素認証",
         "2FA.Token": "6桁のコードを入力",
 
-        "Profile.Status.Sociable" : "ひまなう",
+        "Profile.Status.Sociable" : "ひまです",
         "Profile.Status.Online": "オンライン",
         "Profile.Status.Away": "退席中",
         "Profile.Status.Busy": "取込中",
@@ -659,7 +659,7 @@
         "Contacts.Bot": "ボットアカウント",
         "Contacts.Migrated": "移行していないフレンド",
 
-        "Notifications.IsSociable" : "ひまなう、気軽に交流できます!",
+        "Notifications.IsSociable" : "さんはひまです。気軽に交流しましょう!",
         "Notifications.IsOnline": "さんがオンラインになりました",
         "Notifications.IsOnlineOnDifferentVersion": " <size=75%>(using version: {version})</size>さんがオンラインになりました",
         "Notifications.ReceivedContactRequest": "フレンドリクエストを受け取りました",
@@ -1023,6 +1023,9 @@
         "Exporter.Export": "エクスポート",
         "Exporter.Exporting": "エクスポート中...",
 
+        "Export.PackageExportable.Package": "Resonite​パッケージ",
+        "Export.PackageExportable.PackageWithVariants": "Resonite​パッケージ​<size=50%>(+variants)</size>",
+
         "NewWorld.Title": "新規ワールドを作成",
         "NewWorld.SessionTitle": "新しいセッション",
         "NewWorld.Template": "テンプレートを選択",
@@ -1206,7 +1209,7 @@
         "Settings.GeneralHapticsSettings": "触覚フィードバック",
         "Settings.GeneralVRSettings": "VR",
         "Settings.LeapMotionSettings": "Leap Motion",
-        "Settings.ViveHandTrackingSettings": "Viveハンドトラッキング",
+        "Settings.ViveHandTrackingSettings": "VIVEハンドトラッキング",
         "Settings.TrackingSmoothingSettings": "トラッカーのスムージング",
 
         "Settings.UserMetricsSettings": "ユーザー情報",
@@ -1371,7 +1374,7 @@
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "コントローラー使用中にハンドトラッキングする",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "コントローラー使用中でもLeap Motionからのデータを使って指を操作するようになります。",
 
-        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Viveハンドトラッキング",
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "VIVEハンドトラッキング",
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "設定を有効にした場合、手と指がVIVE ハンドトラッキングによってトラッキングされます。通常、VRヘッドセット内臓のカメラを使用します。Steam VRの設定からハンドトラッキングを有効化しなければならない場合があります。",
         "Settings.ViveHandTrackingSettings.SnapDistance": "コントローラーのスナップ距離",
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "コントローラーから一定の距離まで手を近づけると、手がコントローラーの位置にスナップし、手の操作がVIVE ハンドトラッキングからコントローラによるものに切り替わります。この設定では切り替わる距離を設定できます。",
@@ -1431,21 +1434,21 @@
         "Settings.HapticPointMapping.HeadYawAngle.Description": "頭に対する水平位置を設定できます。標準では頭の中央（鼻の位置）の位置です。値を小さくすると左に回り、大きくすると右に回ります。円を描くように頭部を一周するので、180°で後頭部の位置になります。",
 
         "Settings.HapticPointMapping.ArmSide": "腕",
-        "Settings.HapticPointMapping.ArmSide.Description": "左右どちらの腕に対応するか設定出来ます。",
+        "Settings.HapticPointMapping.ArmSide.Description": "左右どちらの腕に対応するか設定できます。",
         "Settings.HapticPointMapping.ArmPositionAlong": "腕に沿った位置",
         "Settings.HapticPointMapping.ArmPositionAlong.Description": "腕に沿った位置を設定できます。肩から始まり手首まで続き、真ん中が肘の位置です。",
         "Settings.HapticPointMapping.ArmAngleAround": "腕周りの角度",
-        "Settings.HapticPointMapping.ArmAngleAround.Description": "腕に対する角度を設定出来ます。標準の0°は手の甲です。マイナスにすると左に、プラスにすると右に回ります。180度回すと、掌がある側に来ます。",
+        "Settings.HapticPointMapping.ArmAngleAround.Description": "腕に対する角度を設定できます。標準の0°は手の甲です。マイナスにすると左に、プラスにすると右に回ります。180度回すと、掌がある側に来ます。",
 
         "Settings.HapticPointMapping.LegSide": "脚",
-        "Settings.HapticPointMapping.LegSide.Description": "左右どちらの足に対応するか設定出来ます。",
+        "Settings.HapticPointMapping.LegSide.Description": "左右どちらの足に対応するか設定できます。",
         "Settings.HapticPointMapping.LegPositionAlong": "脚に沿った位置",
         "Settings.HapticPointMapping.LegPositionAlong.Description": "脚に沿った位置を設定できます。腰から始まり足首まで続き、真ん中が膝の位置です。",
         "Settings.HapticPointMapping.LegAngleAround": "脚周りの角度",
-        "Settings.HapticPointMapping.LegAngleAround.Description": "脚に対する角度を設定出来ます。標準の0°は脚の正面、つまり膝が向いている方向です。マイナスにすると左に、プラスにすると右に回ります。180度回すと、脚の後ろ側に来ます。",
+        "Settings.HapticPointMapping.LegAngleAround.Description": "脚に対する角度を設定できます。標準の0°は脚の正面、つまり膝が向いている方向です。マイナスにすると左に、プラスにすると右に回ります。180度回すと、脚の後ろ側に来ます。",
 
         "Settings.HapticPointMapping.ControllerSide": "コントローラー",
-        "Settings.HapticPointMapping.ControllerSide.Description": "ハプティックポイントを左右どちらのコントローラーに割り当てるか設定出来ます。",
+        "Settings.HapticPointMapping.ControllerSide.Description": "ハプティックポイントを左右どちらのコントローラーに割り当てるか設定できます。",
 
         "Settings.HapticPointMapping.Tag": "ハプティック・タグ",
         "Settings.HapticPointMapping.Tag.Description": "このハプティックポイントに設定したタグ。これはTagHapticPointMapperコンポーネントで指定された一致するハプティック・タグを持つアバター上の位置に割当されます。このハプティック・タグを持つポイントがアバター上に設定されていない場合、ハプティック・デバイスは動作しません。\n\nこれは、ハプティック・デバイスが割当されるアバター上の正確な位置を完全に制御する必要がある場合に便利です。",
@@ -1612,8 +1615,8 @@
         "Settings.NotificationSettings": "通知設定",
         "Settings.NotificationSettings.UserOnline": "フレンド・オンライン",
         "Settings.NotificationSettings.UserOnline.Description": "フレンドがオンラインになったときに通知するかどうかを設定できます。",
-        "Settings.NotificationSettings.UserSociable" : "フレンドがひまなうになった",
-        "Settings.NotificationSettings.UserSociable.Description" : "フレンドが「ひまなう」になると、通知されます。気軽に交流しましょう!\n\nこの設定をオフにすると、フレンド・オンラインと同じように扱われます。",
+        "Settings.NotificationSettings.UserSociable" : "フレンドがひまですになった",
+        "Settings.NotificationSettings.UserSociable.Description" : "フレンドが「ひまです」になると、通知されます。気軽に交流しましょう!\n\nこの設定をオフにすると、フレンド・オンラインと同じように扱われます。",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild": "互換性のないビルドでのフレンド・オンライン",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description": "フレンド互換性のないResonito（例:新しいバージョンやプレリリースビルドなど）でオンラインになったときに通知するかどうかを設定できます。",
         "Settings.NotificationSettings.Message": "メッセージ",
@@ -1629,7 +1632,7 @@
         "Settings.NotificationSettings.PublicSessionStarted.Description" : "誰かが新しいパブリックセッションを開始したときに通知するかどうかを設定できます。",
 
         "Settings.NotificationSettings.UserJoinAndLeave" : "ユーザー参加/退出",
-        "Settings.NotificationSettings.UserJoinAndLeave.Description" : "現在いるワールドにユーザーが参加したり退出したりしたときに通知するかどうか設定出来ます。",
+        "Settings.NotificationSettings.UserJoinAndLeave.Description" : "現在いるワールドにユーザーが参加したり退出したりしたときに通知するかどうか設定できます。",
 
         "Settings.NamePlateSettings.NameplateVisibility": "ネームプレートの表示",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "どの種類のユーザーのネームプレートを表示するかを設定できます",

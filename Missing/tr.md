@@ -354,6 +354,16 @@ Exporter.FileName
 Exporter.ExportAs  
 Exporter.Export  
 Exporter.Exporting  
+Export.PackageExportable.Package  
+Export.PackageExportable.PackageWithVariants  
+Export.AudioExportable.OriginalFormat  
+Export.VideoExportable.OriginalFormat  
+Importer.Package.Progress.DecodingPackage  
+Importer.Package.Progress.DecodingObject  
+Importer.Package.Progress.ImportingAssets  
+Importer.Package.Progress.LoadingObject  
+Importer.Package.Progress.Imported  
+Importer.Package.Progress.Fail  
 NewWorld.SessionTitle  
 CameraControl.Settings.AudioFromCameraViewpoint  
 CameraControl.Anchors.LinearInterpolation  
