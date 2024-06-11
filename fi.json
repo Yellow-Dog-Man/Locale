@@ -66,13 +66,13 @@
         "Locomotion.Teleport.Name": "Kaukosiirto",
         "Locomotion.Teleport.Description": "Käyttää teleportaatiota mukavaan liikkumiseen.",
         "Locomotion.Fly.Name": "Fyysinen Lento",
-        "Locomotion.Fly.Description": "Fyysinen lentotila",
+        "Locomotion.Fly.Description": "Fyysinen lentotila.",
         "Locomotion.WalkRun.Name": "Kävely/Juoksu",
         "Locomotion.WalkRun.Description": "Kävely, juoksu ja hyppiminen.",
         "Locomotion.WalkRunGripping.Name": "Kävely/Juoksu (kiipeilyllä)",
         "Locomotion.WalkRunGripping.Description": "Kävely, juoksu, hyppiminen ja kiipeily.",
         "Locomotion.ZeroG.Name": "Painottomuus",
-        "Locomotion.ZeroG.Description": "Painovoimaton tila",
+        "Locomotion.ZeroG.Description": "Painovoimaton tila.",
         "Locomotion.GrabWorld.Name": "Tartuntatila",
         "Locomotion.GrabWorld.Description": "Luo ankkurin joka viittaa maailman keskipisteeseen ja siirtää käyttäjää suhteessa siihen.",
         "Locomotion.Slide.Name": "Liukutila",
@@ -357,7 +357,7 @@
         "World.Edit.AccessPublic": "Kuka tahansa (Julkinen)",
 
         "Tools.AvatarCreator": "Avatarin luominen",
-        "Tools.FullBodyCalibrator": "Full-Body kalibrointi",
+        "Tools.FullBodyCalibrator": "FBT kalibrointi",
         "Tools.CameraStreaming": "Kamera / Suoratoisto",
         "Tools.CreateNewWorld": "Tee uusi maailma",
         "Tools.Debug": "Debugi",
@@ -945,7 +945,7 @@
         "Importer.Model.AdvancedSettings": "Lisäasetukset",
         "Importer.Model.ModelKindPrompt": "Millainen 3D-malli?",
         "Importer.Model.RegularKind": "Normaali / Avatar",
-        "Importer.Model.SeparableKind": "Erotettavissa napsautettavilla osilla",
+        "Importer.Model.SeparableKind": "Erotettavissa kiinnitettävillä osilla",
         "Importer.Model.UnitsPrompt": "Mitä yksikköjä se käyttää?",
         "Importer.Model.AutoScale": "Automaattinen skaala (tuntematon skaala)",
         "Importer.Model.AutoHumanoid": "Automaattinen humanoidikorkeus",
@@ -975,7 +975,7 @@
 
         "Importer.Model.Advanced.Colliders": "Luo törmäyttimet",
         "Importer.Model.Advanced.Animations": "Tuo animaatiot",
-        "Importer.Model.Advanced.SetupSnappable": "Asenna napsautettavaksi",
+        "Importer.Model.Advanced.SetupSnappable": "Asenna kiinnitettäväksi",
         "Importer.Model.Advanced.SetupTimelapse": "Asenna aikaviivekuvaukseksi",
         "Importer.Model.Advanced.ImportExternalTextures": "Tuo ulkoiset tekstuurit",
         "Importer.Model.Advanced.SkinnedMeshes": "Tuo skinned meshit",
@@ -1026,6 +1026,17 @@
         "Export.PackageExportable.Package": "Resonite Package",
         "Export.PackageExportable.PackageWithVariants": "Resonite Package <size=50%>(+variantit)</size>",
 
+        "Export.AudioExportable.OriginalFormat": "Audio <size=75%>(alkuperäinen formaatti)</size>",
+
+        "Export.VideoExportable.OriginalFormat": "Video <size=75%>(alkuperäinen formaatti)</size>",
+
+        "Importer.Package.Progress.DecodingPackage": "Puretaan pakettia",
+        "Importer.Package.Progress.DecodingObject": "Puretaan objektia",
+        "Importer.Package.Progress.ImportingAssets": "Tuodaan tiedostoja",
+        "Importer.Package.Progress.LoadingObject": "Ladataan objektia",
+        "Importer.Package.Progress.Imported": "Paketti tuotu",
+        "Importer.Package.Progress.Fail": "Tuonti epäonnistui, tarkista loki.",
+
         "NewWorld.Title": "Uusi Maailma",
         "NewWorld.SessionTitle": "Uusi Sessio",
         "NewWorld.Template": "Mallimaailmat:",
@@ -1036,7 +1047,7 @@
         "NewWorld.AutoPort": "Automaattinen:",
         "NewWorld.DefaultName": "{name} Maailma",
 
-        "FullBody.Title": "Full-Body / Avatar kalibrointi",
+        "FullBody.Title": "FBT / Avatar kalibrointi",
         "FullBody.SetHeight": "1) Aseta pituutesi",
         "FullBody.HeightInstructions": "Varmista, että pituutesi on oikein. Mallinuken tulee sopia VR-laseihin ja ohjaimiin.",
         "FullBody.HeightWarning": "Onko pituutesi varmasti oikein?",
@@ -1044,7 +1055,7 @@
         "FullBody.MappingInstructions": "Seiso pystyasennossa ja varmista, että trackerit tunnistuvat ja seuraavat oikein.",
         "FullBody.StartCalibration": "Aloita tracker kalibrointi",
         "FullBody.JustCalibrateAvatar": "Kalibroi vain avatar",
-        "FullBody.JustCalibrateAvatarDescription": "Ohita Full-Body kalibrointi ja kalibroi vain avatar",
+        "FullBody.JustCalibrateAvatarDescription": "Ohita FBT kalibrointi ja kalibroi vain avatar.",
         "FullBody.SkipAndAdjustAvatar": "Ohita ja säädä avataria",
         "FullBody.CalibrateInstructions": "Kohdista itsesi punaisen mallinuken päälle ja hyväksy painamalla molempia liipaisimia. Varmista, että jalkasi ja vyötärösi ovat mahdollisimman lähellä mallinuken jalkoja ja vyötäröä.",
 
@@ -1063,10 +1074,10 @@
         "FullBody.CalibrateAvatarPrompt": "Muokkaa avatarin istuvuutta?",
         "FullBody.CalibrateAvatar": "Kalibroi avatarini",
         "FullBody.FinishPrompt": "Valmis?",
-        "FullBody.FinishCalibration": "Full-Body kalibrointi valmis",
+        "FullBody.FinishCalibration": "FBT kalibrointi valmis",
 
         "FullBody.CalibrateAvatarTitle": "Kalibroi avatar",
-        "FullBody.CalibrateAvatarInstructions": "Varmista, että kaikki eri kehonosat ovat mapattu, sitten liikuta sinisiä palloja muokataksesi asentoa sellaiseksi mikä sopii kehon esikatselulle parhaiten.",
+        "FullBody.CalibrateAvatarInstructions": "Varmista, että kaikki eri kehonosat ovat kartoitettu, sitten liikuta sinisiä palloja muokataksesi asentoa sellaiseksi mikä sopii kehon esikatselulle parhaiten.",
         "FullBody.ShowReferenceOverlay": "Näytä kehon kerros",
         "FullBody.ResetAvatarPrompt": "Avatari on sekaisin tai ei trackaa?",
         "FullBody.ResetAvatar": "Nollaa kartoitus",
@@ -1325,7 +1336,7 @@
         "Settings.GeneralHapticsSettings.EnableHaptics.Description": "Kun tämä on käytössä, saat haptista palautetta avatareista ja maailman esineistä ohjaimiin ja muihin haptisiin laitteisiin.",
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR-pikavaihto",
-        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Asetus vaihtaa automaattisesti VR ja työpöytätilan välillä, kun laitat VR kypärän päähän tai otat sen pois päästä",
+        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Asetus vaihtaa automaattisesti VR ja työpöytätilan välillä, kun laitat VR-headsetin päähän tai otat sen pois päästä.",
 
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Käsien sijainnin tasoitus",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Käsien käännön tasoitus",
@@ -1368,59 +1379,59 @@
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion käsien seuranta",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Kun tämä on käytössä, Leap Motion -laitetta käytetään seuraamaan käsiäsi ja sormiasi, kun ne ovat näkyvissä.",
         "Settings.LeapMotionSettings.Offset": "Käsien seurannan siirto",
-
-        "Settings.LeapMotionSettings.SnapDistance": "Käsien ohjaimiin napsausetäisyys",
-
-        "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Seuraa käsiä kun käytät ohjaimia",
-
+        "Settings.LeapMotionSettings.Offset.Description": "Tämä on VR-headsetin Leap Motion -anturin etäisyys käsistäsi metreinä. Säädä näitä lukuja niin, että kätesi ovat oikeassa paikassa.",
+        "Settings.LeapMotionSettings.SnapDistance": "Käsien ohjaimiin kiinnittymisetäisyys",
+        "Settings.LeapMotionSettings.SnapDistance.Description": "Kun kätesi ovat ohjainten lähettyvillä, ne kiinnittyvät niihin automaattisesti ja käyttävät Leap Motionin sijasta itse ohjaimesta saatuja käsien seurantatietoja. Tämä säätää etäisyyttä, jolla kädet kiinnittyvät ohjaimiin.",
+        "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Seuraa käsiäni, kun käytän ohjaimia",
+        "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "Kun kätesi ovat kiinni ohjaimissa, sormet asemoidaan edelleen Leap Motionista saatavien tietojen avulla.",
 
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Vive käsien seuranta",
-
-        "Settings.ViveHandTrackingSettings.SnapDistance": "Käsien ohjaimiin napsausetäisyys",
-
-        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Seuraa käsiä kun käytät ohjaimia",
-
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "Kun tämä on käytössä, käsiäsi ja sormiasi seurataan Vive Hand Trackingin avulla. Tämä käyttää VR-headsetin kameroita. Sinun on otettava käsien seuranta käyttöön Steam VR:n asetuksissa.",
+        "Settings.ViveHandTrackingSettings.SnapDistance": "Käsien ohjaimiin kiinnittymisetäisyys",
+        "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Kun kätesi ovat ohjainten lähettyvillä, ne kiinnittyvät niihin automaattisesti ja käyttävät VR-headsetin kameroiden sijasta itse ohjaimesta saatuja käsien seurantatietoja. Tämä säätää etäisyyttä, jolla kädet kiinnittyvät ohjaimiin.",
+        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Seuraa käsiäni, kun käytän ohjaimia",
+        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "Kun kätesi ovat kiinni ohjaimissa, sormet asemoidaan edelleen VR-headsetin kameroista saatavien tietojen avulla.",
 
         "Settings.TrackerSettings": "Tracker asetukset",
         "Settings.TrackerSettings.UseTrackers": "Käytä trackereitä",
-
+        "Settings.TrackerSettings.UseTrackers.Description": "Tämän asetuksen avulla voit poistaa kaikki trackerit käytöstä globaalisti. Tämä on kätevä, jos trackerit ovat esimerkiksi latauksessa.",
         "Settings.TrackerSettings.Trackers": "Trackereiden hallinta",
         "Settings.TrackerSettings.Trackers.Breadcrumb": "Trackerit",
 
         "Settings.TrackerSettings.Trackers.UseTracker": "Käytä trackeriä",
-
+        "Settings.TrackerSettings.Trackers.UseTracker.Description": "Pitäisikö tätä trackeria käyttää seurantaan? Tämän avulla voit poistaa tietyn trackerin tilapäisesti käytöstä ilman, että sinun tarvitsee muuttaa sen kartoitusta.",
         "Settings.TrackerSettings.Trackers.FreezeTracking": "Jäädytä seuranta",
-
+        "Settings.TrackerSettings.Trackers.FreezeTracking.Description": "Tämän asetuksen ottaminen käyttöön pitää trackerin aktiivisena, mutta jäädyttää sen nykyisen sijainnin ja kierron. Tämä asetus ei ole pysyvä, ja se mitätöidään seuraavalla käynnistyskerralla.",
         "Settings.TrackerSettings.Trackers.CustomName": "Mukautettu nimi",
-
+        "Settings.TrackerSettings.Trackers.CustomName.Description": "Voit antaa trackerille mukautetun nimen, jotta se on helppo erottaa muista, sen sijaan että käyttäisit sen ID:tä. Tämä on vain kosmeettinen muutos, eikä sillä ole toiminnallista merkitystä.",
         "Settings.TrackerSettings.Trackers.MappedBodyNode": "Trackereiden kartoitus",
-
+        "Settings.TrackerSettings.Trackers.MappedBodyNode.Description": "Mihin kehon osaan tämä tracker on kartoitettu FBT:tä varten.\n\nSuosittelemme, että käytät FBT kalibrointia sen sijaan, että sitä säädettäisiin manuaalisesti tässä.",
         "Settings.TrackerSettings.Trackers.MappedPosition": "Kartoitettu sijainti",
-
+        "Settings.TrackerSettings.Trackers.MappedPosition.Description": "Trackerin sijainti suhteessa siihen kehon osaan, johon se on liitetty.\n\nSuosittelemme, että käytät FBT kalibrointia sen sijaan, että sitä säädettäisiin manuaalisesti tässä.",
         "Settings.TrackerSettings.Trackers.MappedRotation": "Kartoitettu kierto",
-
-        "Settings.TrackerSettings.Trackers.UseInVR": "Käytä VR:ssä",
-
+        "Settings.TrackerSettings.Trackers.MappedRotation.Description": "Trackerin kierto suhteessa siihen kehon osaan, johon se on liitetty.\n\nSuosittelemme, että käytät FBT kalibrointia sen sijaan, että sitä säädettäisiin manuaalisesti tässä.",
+        "Settings.TrackerSettings.Trackers.UseInVR": "Käytä VR-tilassa",
+        "Settings.TrackerSettings.Trackers.UseInVR.Description": "Liikuttaako tracker avataria VR-tilassa?",
         "Settings.TrackerSettings.Trackers.UseInDesktop": "Käytä työpöytätilassa",
-
+        "Settings.TrackerSettings.Trackers.UseInDesktop.Description": "Liikuttaako tracker avataria työpöytätilassa?",
         "Settings.TrackerSettings.Trackers.TrackerID": "Trackerin ID",
-
+        "Settings.TrackerSettings.Trackers.TrackerID.Description": "Trackerin oma ID-tunnus. Tämä tieto on yksityinen, eikä se ole sama tunnus, joka näytetään maailmoissa jäljittämisen välttämiseksi.",
         "Settings.TrackerSettings.Trackers.TrackerBattery": "Tracker akku",
-
+        "Settings.TrackerSettings.Trackers.TrackerBattery.Description": "Tämän trackerin akun varaustaso. Huomaa, että jotkin trackerit eivät välttämättä tue akun varaustason mittaamista.",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging": "Latautuu",
-
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "Tämä kertoo, ladataanko trackeriä tällä hetkellä. Huomaa, että jotkin trackerit eivät ehkä tue tämän tiedon ilmoittamista.",
         "Settings.TrackerSettings.Trackers.Unmap": "Nollaa kartoitus",
         "Settings.TrackerSettings.Trackers.Remove": "Poista tracker",
 
         "Settings.SteamLinkSettings": "Steam Link",
         "Settings.SteamLinkSettings.OSC_DataPort": "OSC kasvoseurannan portti",
-
+        "Settings.SteamLinkSettings.OSC_DataPort.Description": "Mitä porttia tulisi käyttää OSC-kasvojen seurantatietojen vastaanottamiseen. Tämän pitäisi vastata samaa porttia, jonka asetat SteamVR:n asetuksissa, jotta kasvojen seuranta toimisi.",
 
         "Settings.HapticPointMapping.MappingTarget": "Kartoituspiste",
+        "Settings.HapticPointMapping.MappingTarget.Description": "Tässä voit määrittää, mihin avatarin osaan laite on kiinnitetty.",
 
-
-        "Settings.HapticPointMapping.PointRadius": "Haptisen palautteen pisteen säde",
-
+        "Settings.HapticPointMapping.PointRadius": "Haptisen palautteen pisteen koko",
+        "Settings.HapticPointMapping.PointRadius.Description": "Tämän avulla voit säätää haptisen pisteen kokoa avatarissa. Sen suurentaminen helpottaa aktivointia isommalta etäisyydeltä, mutta se vähentää myös tarkkuutta, sillä mikä tahansa pisteen alueella oleva haptinen aktivointi käynnistää haptiikan.",
 
         "Settings.HapticPointMapping.TorsoHorizontalPosition": "Vaakasuuntainen paikoitus vartalossa",
 
@@ -2223,7 +2234,7 @@
         "VolumePlaneSlicer.Slicer": "Siivuta",
 
         "Tutorial.Welcome.Welcome": "Tervetuloa",
-
+        "Tutorial.Welcome.Description": "Sukella upouuteen digitaaliseen maailmaan, jossa on rajattomat mahdollisuudet. Tulitpa sitten tänne sosiaalisoitumaan ja hengailemaan ihmisten kanssa ympäri maailmaa tai rakentamaan, luomaan ja kehittämään mitä tahansa kauniista taiteesta, interaktiivisista avatareista ja vempaimista monimutkaisiin interaktiivisiin maailmoihin ja peleihin, Resonite on loputtomasti muokattavissa oleva paikka, jossa olet tervetullut ja jossa löydät ryhmän, jonka kanssa resonoit.<br><br>Ennen kuin aloitat tutkimisen, opastamme sinua ensin joidenkin olennaisten asioiden määrittelyssä, jotta kokemus olisi mahdollisimman sujuva. Kun olet valmis, napsauta alla olevaa painiketta.",
         "Tutorial.Welcome.Begin": "Aloitetaan!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} tili",
@@ -2236,7 +2247,7 @@
         "Tutorial.Welcome.AccountSkipConfirm": "Varmista ohitus",
 
         "Tutorial.Welcome.SettingsHeader": "Perusasetukset",
-        "Tutorial.Welcome.SettingsDescription": "Voit määrittää liikkeen ja käyttäjän perusasetukset. Kaikkia näitä asetuksia voi myös muokata myöhemmin",
+        "Tutorial.Welcome.SettingsDescription": "Voit määrittää liikkeen ja käyttäjän perusasetukset. Kaikkia näitä asetuksia voi myös muokata myöhemmin.",
         "Tutorial.Welcome.SettingsTurning": "Kääntymistyyli",
         "Tutorial.Welcome.SettingsSnapTurn": "Pikakäännös",
         "Tutorial.Welcome.SettingsSnapTurn.Description": "Kääntyminen tapahtuu välittömästi napsahtamalla uuteen kulmaan. Ideaali uusille käyttäjille.",
@@ -2250,21 +2261,21 @@
 
         "Tutorial.Welcome.SettingsHeadDirectionMovement": "Liikkumisen suunta",
         "Tutorial.Welcome.SettingsUseHeadDirection": "Pään suunta",
-        "Tutorial.Welcome.SettingsUseHeadDirection.Description": "Liikut suuntaan johon katsot",
+        "Tutorial.Welcome.SettingsUseHeadDirection.Description": "Liikut suuntaan johon katsot.",
         "Tutorial.Welcome.SettingsUseControllerDirection": "Ohjaimen suunta",
-        "Tutorial.Welcome.SettingsUseControllerDirection.Description": "Liikut ohjaimen osoittamaan suuntaan",
+        "Tutorial.Welcome.SettingsUseControllerDirection.Description": "Liikut ohjaimen osoittamaan suuntaan.",
 
         "Tutorial.Welcome.LeftControllerMode": "Vasemman ohjaimen tila",
         "Tutorial.Welcome.RightControllerMode": "Oikean ohjaimen tila",
 
         "Tutorial.Welcome.SidewaysTurnOnly": "Vain kääntyminen",
-        "Tutorial.Welcome.SidewaysTurnOnly.Description": "Käytä tätä ohjainta vain kääntymiseen",
+        "Tutorial.Welcome.SidewaysTurnOnly.Description": "Käytä tätä ohjainta vain kääntymiseen.",
         "Tutorial.Welcome.SidewaysTurnAndMove": "Kääntyminen & Liikkuminen",
-        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "Käytä tätä ohjainta kääntymiseen ja liikkumiseen",
+        "Tutorial.Welcome.SidewaysTurnAndMove.Description": "Käytä tätä ohjainta kääntymiseen ja liikkumiseen.",
         "Tutorial.Welcome.SidewaysStrafe": "Sivuttaisliikkuminen",
-        "Tutorial.Welcome.SidewaysStrafe.Description": "Käytä tätä ohjainta sivuttaisliikkumiseen",
+        "Tutorial.Welcome.SidewaysStrafe.Description": "Käytä tätä ohjainta sivuttaisliikkumiseen.",
         "Tutorial.Welcome.SidewaysOff": "Pois",
-        "Tutorial.Welcome.SidewaysOff.Description": "Vain eteenpäin/taaksepäin liikkuminen",
+        "Tutorial.Welcome.SidewaysOff.Description": "Vain eteenpäin/taaksepäin liikkuminen.",
 
         "Tutorial.Welcome.SettingsHeight": "Pituutesi",
         "Tutorial.Welcome.SettingsHeightExamples": "Esim: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
@@ -2286,7 +2297,7 @@
         "Tutorial.Intro.BadgesDisabilityVision": "Sokeutta & muuta näkövammaa",
         "Tutorial.Intro.BadgesDisabilitySpeech": "Ei puhe kykeneväinen & puhevamma",
         "Tutorial.Intro.BadgesTitle": "Merkit",
-        "Tutorial.Intro.BadgesDescription": "Merkit ovat pieniä ikoneita jotka kuvaavat käyttäjää. Tässä lista muutamasta merkistä, jotka kannattaa muistaa. Kuulo-, näkö- ja puhevammaisuuden merkit pystyy itse lisäämään {appName} -botti komentojen avulla. Komennot löytyvät {appName} Wikistä",
+        "Tutorial.Intro.BadgesDescription": "Merkit ovat pieniä ikoneita jotka kuvaavat käyttäjää. Tässä lista muutamasta merkistä, jotka kannattaa muistaa. Kuulo-, näkö- ja puhevammaisuuden merkit pystyy itse lisäämään {appName} -botti komentojen avulla. Komennot löytyvät {appName} Wikistä.",
         "Tutorial.Intro.HelpSite": "Apua",
 
         "Object.Mirror.Toggle": "Lokaali kytkin",
@@ -2416,10 +2427,10 @@
         "Temporary.MMC.VoteInvalid": "Äänestys on virheellinen! Yritä uudelleen.",
 
         "CloudHome.WelcomeHome": "Tervetuloa kotiin",
-
+        "CloudHome.TargetRangeOptions": "Ampumaradan asetukset",
 
         "Tutorial.Saving.Title": "Tervetuloa kotiin!",
-        "Tutorial.Saving.Content": "Tervetuloa <b><i><color=hero.yellow>Koti</b></i></color>maailmaasi! Päädyt tänne aina kun kirjaudut sisään.<br><br>Tämä on täysin oma maailmasi, joten kaikki tekemäsi muutokset voidaan tallentaa.<br><br>Jos tallennat, kaikki jää juuri sellaiseksi kuin ne jätit, kunnes palaat takaisin!",
+        "Tutorial.Saving.Content": "Tervetuloa <b><i><color=hero.yellow>Koti</b></i></color> maailmaasi! Päädyt tänne aina kun kirjaudut sisään.<br><br>Tämä on täysin oma maailmasi, joten kaikki tekemäsi muutokset voidaan tallentaa.<br><br>Jos tallennat, kaikki jää juuri sellaiseksi kuin ne jätit, kunnes palaat takaisin!",
 
         "Tutorial.Teleporter.Error": "Pilvikotiasi ei onnistuttu lataamaan!<br><size=66%>Poistu teleportterista ja astu takaisin sisään yrittääksesi uudelleen.</size>",
 
@@ -2433,7 +2444,7 @@
         "CloudHome.Info.StorageUsed": "Tallennustilaa käytetty:",
 
         "CloudHome.Info.DashInfoTab.Title": "Tervetuloa!",
-
+        "CloudHome.Info.DashInfoDesktop": "Jotta pääsisit vauhtiin, sinun on hyvä tietää pari asiaa. Sinulla on <i><color=hero.purple>Valikko</color></i> jonka voit avata painamalla ESC-näppäintä. Ajattele sitä työpöytänäsi tai ohjauspaneelina.<br><br>Jos olet hämmentynyt, tässä näytössä on lisätietoja, jotka auttavat sinua. Voit sulkea tämän ilmoituksen napsauttamalla alla olevaa painiketta.",
 
 
 
@@ -2545,14 +2556,14 @@
         "CloudHome.SupporterPanel.Title": "<b>Tukijamme</b>",
 
         "Tutorial.InfoPanel.Title": "Hei! Ennen kuin lähdet...",
-
+        "Tutorial.InfoPanel.Content": "     Mahdollisuuksien maailma odottaa sinua, ja vain mielikuvituksesi on rajana.<br><br>     Lähes kaikki tähän mennessä näkemäsi asiat on tehty suoraan pelin sisällä! Ihmiset eri puolilta maailmaa työskentelivät yhdessä reaaliaikaisesti niiden rakentamiseksi.<br><br>     Resonite on vielä hyvin varhaisessa kehitysvaiheessa, ja päivitämme ja parannamme sitä jatkuvasti. Mutta sinäkin olet osa tätä matkaa, ja vain taivas on rajana!<br><br><align=center>Kiitos, että kävit ja annoit meille mahdollisuuden.</align>",
 
         "Tutorial.GrabItems.Grab": "Tartu",
-        "Tutorial.GrabItems.Snap": "Napsauta",
+        "Tutorial.GrabItems.Snap": "Kiinnitä",
         "Tutorial.GrabItems.Slide": "Liuku",
 
         "Tutorial.Panel.Jumping.Title": "Hyppiminen",
-
+        "Tutorial.Panel.Jumping.ContentDesktop": "Kun olet kävelytilassa, hyppää painamalla välilyöntiä!",
 
 
 
@@ -2573,6 +2584,7 @@
 
 
 
+        "Hints.Bridge.RaiseTheWorld": "Paina tätä painiketta tuodaksesi alustan luoksesi!",
 
 
 
@@ -2583,30 +2595,29 @@
 
 
 
+        "Hints.Grabbing.OtherGrabbables": "Pelissä on erilaisia vuorovaikutteisia laitteita, kokeile näillä kolmella, miten ne toimivat!",
+
+
+
+        "Hints.Telescope.Alignment": "Tartu kaukoputkeen ja suuntaa se kuuhun!",
+
+        "Hints.Telescope.TheMoonDesktop": "Pidä oikeaa painiketta pohjassa, kun tähtäät kuuhun, ja katso ympärillesi siirtääksesi kuuta!",
+
+
+        "Hints.Sundial.SoftEquip": "Tartu tähän työkaluun käyttääksesi sitä!",
+
+
+        "Hints.Sundial.HardEquip": "Klikkaa tätä työkalua ottaaksesi sen käyttöön!",
+
+
+        "Hints.Sundial.TheSun": "Tähtää taivaalle ja siirrä aurinko sinne klikkaamalla!",
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        "Hints.Sundial.Teleporter": "Paina tätä painiketta aktivoidaksesi teleportin pilvikotiisi!",
+        "Hints.Sundial.TeleporterExtra": "Nauti pilvikodistasi ja kiitos käynnistä!",
 
         "UI.TextDisplay.Landscape": "Vaaka",
         "UI.TextDisplay.Portrait": "Pysty",
