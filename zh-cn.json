@@ -1026,16 +1026,16 @@
         "Export.PackageExportable.Package": "Resonite 包文件",
         "Export.PackageExportable.PackageWithVariants": "Resonite 包文件 <size=50%>(+variants)</size>",
 
-        "Export.AudioExportable.OriginalFormat" : "Audio <size=75%>(original format)</size>",
+        "Export.AudioExportable.OriginalFormat" : "音频 <size=75%>(original format)</size>",
 
-        "Export.VideoExportable.OriginalFormat" : "Video <size=75%>(original format)</size>",
+        "Export.VideoExportable.OriginalFormat" : "视频 <size=75%>(original format)</size>",
 
-        "Importer.Package.Progress.DecodingPackage" : "Decoding Package",
-        "Importer.Package.Progress.DecodingObject" : "Decoding Object",
-        "Importer.Package.Progress.ImportingAssets" : "Importing Assets",
-        "Importer.Package.Progress.LoadingObject" : "Loading Object",
-        "Importer.Package.Progress.Imported" : "Package Imported",
-        "Importer.Package.Progress.Fail" : "Failed to import. Check logs",
+        "Importer.Package.Progress.DecodingPackage" : "解包包文件",
+        "Importer.Package.Progress.DecodingObject" : "解包物品",
+        "Importer.Package.Progress.ImportingAssets" : "导入资产",
+        "Importer.Package.Progress.LoadingObject" : "正在加载物品",
+        "Importer.Package.Progress.Imported" : "已导入包文件",
+        "Importer.Package.Progress.Fail" : "导入失败。 请检查日志。",
 
         "NewWorld.Title": "创建世界",
         "NewWorld.SessionTitle": "新会话",
@@ -1616,6 +1616,17 @@
         "Settings.LocaleSettings.UseImperialUnits.Description": "启用后，数量（长度/高度、质量、体积......）编辑器将尝试使用英制单位，而不是公制单位。如果你来自美国、英国、利比里亚或缅甸，这将非常有用。",
         "Settings.LocaleSettings.AvailableLocales": "选择语言",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "语言",
+
+        "Settings.Locale.ChangeLanguage" : "改变语言",
+        "Settings.Locale.SelectLanguageHeader" : "选择你的语言:",
+
+        "Settings.Audio.InputDevice" : "音频输入:",
+        "Settings.Audio.OutputDevice" : "音频输出设备:",
+        "Settings.Audio.TestInput" : "测试您的音频输入:",
+        "Settings.Audio.TestDescription" : "我们会向你播放来自所选音频设备的声音，以确保它是正确的。",
+        "Settings.Audio.StartTest" : "听设备\n<size=50％>(检查麦克风/音频输入)</size>",
+        "Settings.Audio.StopTest" : "停止测试",
+        "Settings.Audio.Monitoring" : "音频输入监控:",
 
         "Settings.DashSettings.DashCurvature": "曲度",
         "Settings.DashSettings.DashCurvature.Description": "此设置可以控制在 VR 模式中面板的弯曲程度。将其设置为 0 将使其完全平坦。",
