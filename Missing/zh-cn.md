@@ -2,20 +2,12 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Chinese (China) [zh-cn]
-Importer.Image.Sprite  
-Export.PackageExportable.Package  
-Export.PackageExportable.PackageWithVariants  
-Settings.OnlineStatusSettings  
-Settings.OnlineStatusSettings.DefaultStatus  
-Settings.OnlineStatusSettings.DefaultStatus.Description  
-Settings.OnlineStatusSettings.RememberMode  
-Settings.OnlineStatusSettings.RememberMode.Description  
-Settings.OnlineStatusSettings.RememberTimespan  
-Settings.OnlineStatusSettings.RememberTimespan.Description  
-Settings.OnlineStatusSettings.InvisibleRememberMode  
-Settings.OnlineStatusSettings.InvisibleRememberMode.Description  
-Settings.OnlineStatusSettings.InvisibleRememberTimespan  
-Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description  
-Settings.OnlineStatusSettings.AutoAwayTimespan  
-Settings.OnlineStatusSettings.AutoAwayTimespan.Description  
+Export.AudioExportable.OriginalFormat  
+Export.VideoExportable.OriginalFormat  
+Importer.Package.Progress.DecodingPackage  
+Importer.Package.Progress.DecodingObject  
+Importer.Package.Progress.ImportingAssets  
+Importer.Package.Progress.LoadingObject  
+Importer.Package.Progress.Imported  
+Importer.Package.Progress.Fail  
 

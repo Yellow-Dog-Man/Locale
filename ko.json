@@ -922,6 +922,7 @@
         "Importer.Image.Screenshot": "세션정보가 포함된 이미지(스크린샷으로도 저장)",
         "Importer.Image.PixelArt" : "점묘화(Pixel art)",
         "Importer.Image.360": "360도 사진 / 스카이박스",
+        "Importer.Image.Sprite": "스프라이트",
         "Importer.Image.StereoPhoto": "스테레오 사진",
         "Importer.Image.Stereo360": "스테레오 360도 사진",
         "Importer.Image.180": "180도 사진",
@@ -1210,6 +1211,20 @@
 
         "Settings.UserMetricsSettings": "개인특성",
 
+        "Settings.OnlineStatusSettings" : "온라인 상태",
+        "Settings.OnlineStatusSettings.DefaultStatus" : "기본 상태 설정",
+        "Settings.OnlineStatusSettings.DefaultStatus.Description" : "이전에 저장된 상태정보가 없다면 로그인 후 반영되는 기본 상태입니다.",
+        "Settings.OnlineStatusSettings.RememberMode" : "마지막 상태정보 유지",
+        "Settings.OnlineStatusSettings.RememberMode.Description" : "이 설정을 통해 로그인 간 사용자 상태 정보를 저장할지 여부를 제어할 수 있습니다. 여기에는 별도의 설정으로 분리되는 <color=hero.yellow>오프라인으로 표시</color>상태를 제외한 모든 상태가 그 대상이 됩니다.",
+        "Settings.OnlineStatusSettings.RememberTimespan" : "상태정보 유지 기간",
+        "Settings.OnlineStatusSettings.RememberTimespan.Description" : "접속 상태 정보는 지정된 기간내 로그인한 경우 유지됩니다. 지정한 시간을 지나 로그인 할 경우 기본값으로 설정됩니다.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode" : "마지막 '오프라인으로 표시' 상태 유지",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "<color=hero.yellow>오프라인으로 표시</color>로 설정한 경우, 이를 유지하는 방법을 제어합니다.\n\n이 상태는 개인정보 유출 방지를 위해 <color=hero.yellow>마지막 상태정보 유지</color>설정과 분리되었습니다.",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "'오프라인으로 표시'를 유지할 기간",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "<color=hero.yellow>오프라인으로 표시</color>가 유지되는 기간을 설정합니다. 설정 된 기간내 로그인을 수행할 경우 이전 설정과 상관없이 <color=hero.yellow>오프라인으로 표시</color>로 유지 되지만, 그 이후에 로그인 하는 경우 기본상태로 돌아갑니다.",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan" : "'자리비움' 대기 시간",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description" : "설정된 시간동안 아무런 조작이 없을경우, <color=hero.yellow>자리비움</color>상태가 됩니다. 다시 조작을 할때 별도의 상태 설정을 하지 않았다면, 이전 상태로 돌아갑니다.",
+        
         "Settings.AudioInputDeviceSettings": "음향 입력장치",
         "Settings.AudioOutputDeviceSettings": "음향 출력장치",
         "Settings.AudioVolumeSettings": "볼륨",

@@ -921,6 +921,7 @@
         "Importer.Image.Regular": "Image / Texture",
         "Importer.Image.Screenshot": "{appName} Photo <size=50%>(capturé ici)</size>",
         "Importer.Image.PixelArt": "Pixel Art",
+        "Importer.Image.Sprite": "Sprite",
         "Importer.Image.360": "Photo 360 / skybox",
         "Importer.Image.StereoPhoto": "Photo stéréoscopique",
         "Importer.Image.Stereo360": "Photo 360 stéréoscopique",
@@ -1021,6 +1022,9 @@
         "Exporter.ExportAs": "Exporter comme:",
         "Exporter.Export": "Exporter",
         "Exporter.Exporting": "Exportation...",
+
+        "Export.PackageExportable.Package": "Paquet Resonite",
+        "Export.PackageExportable.PackageWithVariants": "Paquet Resonite <size=50%>(+variants)</size>",
 
         "NewWorld.Title": "Nouveau monde",
         "NewWorld.SessionTitle": "Nouvelle session",
@@ -1209,6 +1213,20 @@
         "Settings.TrackingSmoothingSettings": "Lissage du traquage",
 
         "Settings.UserMetricsSettings": "Statistiques utilisateur",
+
+        "Settings.OnlineStatusSettings": "Options de status",
+        "Settings.OnlineStatusSettings.DefaultStatus": "Status par défaut",
+        "Settings.OnlineStatusSettings.DefaultStatus.Description": "Le status avec lequel le jeu démarrera a moins qu'il y en ai un autre qui soit sauvegardé.",
+        "Settings.OnlineStatusSettings.RememberMode": "Sauvegarder le dernier status",
+        "Settings.OnlineStatusSettings.RememberMode.Description": "Utilisez cette option pour contrôller si vous voulez que votre dernier status soit sauvegardé entre les connections. Cela inclus tous les status sauf invisible, qui est contrôlé par une option différente.",
+        "Settings.OnlineStatusSettings.RememberTimespan": "Se rappeler du status pour",
+        "Settings.OnlineStatusSettings.RememberTimespan.Description": "Votre dernier status ne sera sauvegardé que si vous vous reconnectez dans ce temps. Si vous prenez plus de temps, votre status par défaut sera utilisé.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode": "Se rappeler du dernier status invisible",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description": "Contrôle si votre dernier status est spécifiquement invisible.\n\nLe status invisible a une option différente pour des raisons de vie privée, pour faire en sorte que vous restez bien sur ce status, quoi qu'il en soit.",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan": "Rester invisible pour",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description": "Votre dernier status invisible sera conservé si vous vous reconnectez pendant ce temps. Si vous prenez plus de temps, votre status par défaut sera utilisé.",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan": "Commuter en inactif après",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description": "Commute votre status sur inactif après cette période de temps et le remet sur votre défaut a votre retour.",
 
         "Settings.AudioInputDeviceSettings": "Entrée audio",
         "Settings.AudioOutputDeviceSettings": "Sortie audio",

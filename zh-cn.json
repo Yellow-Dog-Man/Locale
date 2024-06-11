@@ -921,6 +921,7 @@
         "Importer.Image.Regular": "图像/纹理",
         "Importer.Image.Screenshot": "<size=50%>（在这）</size> 截图",
         "Importer.Image.PixelArt" : "像素艺术",
+        "Importer.Image.Sprite": "雪碧（Sprite）式图片",
         "Importer.Image.360": "360度照片/天空盒",
         "Importer.Image.StereoPhoto": "立体照片",
         "Importer.Image.Stereo360": "立体360度照片",
@@ -1021,6 +1022,9 @@
         "Exporter.ExportAs": "导出为：",
         "Exporter.Export": "导出",
         "Exporter.Exporting": "导出中...",
+
+        "Export.PackageExportable.Package": "Resonite 包文件",
+        "Export.PackageExportable.PackageWithVariants": "Resonite 包文件 <size=50%>(+variants)</size>",
 
         "NewWorld.Title": "创建世界",
         "NewWorld.SessionTitle": "新会话",
@@ -1209,6 +1213,20 @@
         "Settings.TrackingSmoothingSettings": "平滑追踪",
 
         "Settings.UserMetricsSettings": "用户设置",
+
+        "Settings.OnlineStatusSettings" : "在线状态",
+        "Settings.OnlineStatusSettings.DefaultStatus" : "默认状态",
+        "Settings.OnlineStatusSettings.DefaultStatus.Description" : "这是你登录后的默认状态， 除非有先前记住的状态。",
+        "Settings.OnlineStatusSettings.RememberMode" : "记住最后的状态",
+        "Settings.OnlineStatusSettings.RememberMode.Description" : "使用此选项可调整是否保留在登录之间上次在线状态。这包括除不可见以外的任何其他状态，不可见可通过单独设置控制。",
+        "Settings.OnlineStatusSettings.RememberTimespan" : "在指定时间内记住状态",
+        "Settings.OnlineStatusSettings.RememberTimespan.Description" : "只有当你在这段时间内再次登录时，你上次的在线状态才会被记住。 如果超过这个时间，你将从默认状态开始。",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode" : "记住最后一次隐身状态",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "如果你上次被设置为隐身，该设置将控制如何记住你上次的状态。出于隐私原因，隐身状态有一个单独的设置，以确保如果你上次被设置为隐身，即使你的其他状态没有被记住，你也可以确保下次登录时保持隐身状态。",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "在指定时间内记住隐身状态",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "只有当你在这段时间内再次登录时，你上次的隐身状态才会被记住。如果超过这个时间，你将从默认状态开始。",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan" : "在挂机到指定事件后设置为离开",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description" : "当你挂机时长达到这个时间后，你的在线状态将自动切换为离开。一旦你回来，就会自动设置回之前的状态，除非你手动设置为离开。",
 
         "Settings.AudioInputDeviceSettings": "音频输入",
         "Settings.AudioOutputDeviceSettings": "音频输出",
