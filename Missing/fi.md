@@ -246,6 +246,9 @@ Inspector.Texture.TileLoop
 Inspector.Texture.TileMirror  
 Inspector.Texture.NormalizeIndependent  
 Inspector.Texture.BleedColorToAlpha  
+Inspector.Texture.AlphaGamma  
+Inspector.Texture.AdjustAlphaGamma  
+Inspector.Texture.AddAlpha  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
 Inspector.Audio.MakeLoopable  

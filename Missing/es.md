@@ -2,8 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Spanish [es]
-General.Units.Metric  
-General.Units.Imperial  
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
 Profile.Status.Sociable  
@@ -586,6 +584,9 @@ Inspector.Member.RemoveBlendshape
 Inspector.Member.SplitBlendshape.X  
 Inspector.Member.SplitBlendshape.Y  
 Inspector.Member.SplitBlendshape.Z  
+Inspector.Texture.AlphaGamma  
+Inspector.Texture.AdjustAlphaGamma  
+Inspector.Texture.AddAlpha  
 Inspector.DataPreset.SetActive  
 Inspector.DataPreset.SetValues  
 Inspector.DataPreset.AddAllChildren  

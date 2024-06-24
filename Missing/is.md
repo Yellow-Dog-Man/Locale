@@ -3,8 +3,6 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Icelandic [is]
 General.UI.ToggleEditMode  
-General.Units.Metric  
-General.Units.Imperial  
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
 Interaction.Grab.Palm  
@@ -1211,6 +1209,9 @@ Inspector.Texture.NormalizeMaxOnly
 Inspector.Texture.NormalizeMinMax  
 Inspector.Texture.NormalizeIndependent  
 Inspector.Texture.BleedColorToAlpha  
+Inspector.Texture.AlphaGamma  
+Inspector.Texture.AdjustAlphaGamma  
+Inspector.Texture.AddAlpha  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
 Inspector.Material.VariantInfo  
