@@ -3,13 +3,14 @@
 import json
 
 class LocaleCleaner:
-    def __init__(self, en, lang, out):
+    def __init__(self, en, lang, out, add_missing_keys=False):
         en_file = open(en, 'r', encoding="utf8")
         lang_file = open(lang, 'r', encoding="utf8")
         self.out = out
         self.en = en_file.readlines()
         self.lang = json.load(lang_file)
         self.output = []
+        self.add_missing_keys=add_missing_keys
         
     def run(self):
         self.make_header()
@@ -43,11 +44,16 @@ class LocaleCleaner:
         for line in self.en[start_pos:]:
             if '"Dummy": "Dummy"' in line:
                 break
-            key = line.strip().split(':')[0].strip().replace('"','')
+            kv = line.strip().split(':', 1)
+            key = kv[0].strip().replace('"','')
             if key in self.lang["messages"]:
                 blank = False
                 translation = self.lang["messages"][key].replace('\n','\\n').replace('"','\\"')
                 self.output.append('        "{}": "{}",'.format(key, translation))
+            elif self.add_missing_keys and key != "":
+                blank = False
+                value = kv[1].strip().rstrip(",")[1:-1]
+                self.output.append('        "{}": "{}",'.format(key, value))
             elif blank == False:
                 self.output.append('')
                 blank = True
@@ -67,9 +73,10 @@ if __name__ == "__main__":
                         help='The path to the LANG.json locale to clean.')
     parser.add_argument('--out', metavar='out_path', type=str, 
                         help='The path to save the formatted file.')
+    parser.add_argument('-a', '--add-missing-keys', action="store_true",
+                        help='If a key is missing in the translation, copy original text from en.json to the output file.')
 
     args = parser.parse_args()
-    N = LocaleCleaner(args.en, args.lang, args.out)
+    N = LocaleCleaner(args.en, args.lang, args.out, args.add_missing_keys)
     N.run()
     print("Cleaned!")
-
