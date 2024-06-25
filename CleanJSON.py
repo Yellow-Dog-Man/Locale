@@ -4,14 +4,14 @@ import json
 
 
 class LocaleCleaner:
-    def __init__(self, en, lang, out, add_missing_keys=False):
-        en_file = open(en, "r", encoding="utf8")
-        lang_file = open(lang, "r", encoding="utf8")
-        self.out = out
-        self.en = en_file.readlines()
-        self.lang = json.load(lang_file)
-        self.output = []
-        self.add_missing_keys = add_missing_keys
+    def __init__(self, en: str, lang: str, out: str, add_missing_keys: bool = False):
+        with open(en, "r", encoding="utf8") as en_file:
+            self.en: list = en_file.readlines()
+        with open(lang, "r", encoding="utf8") as lang_file:
+            self.lang: dict = json.load(lang_file)
+        self.out: str = out
+        self.output: list = []
+        self.add_missing_keys: bool = add_missing_keys
 
     def run(self):
         self.make_header()
@@ -64,9 +64,8 @@ class LocaleCleaner:
                 blank = True
 
     def save(self):
-        out = open(self.out, "w", encoding="utf8")
-        out.write("\n".join(self.output))
-        out.close()
+        with open(self.out, "w", encoding="utf8") as out:
+            out.write("\n".join(self.output))
 
 
 if __name__ == "__main__":
