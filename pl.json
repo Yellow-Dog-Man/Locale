@@ -81,6 +81,8 @@
         "Interaction.Destroy": "Zniszcz",
         "Interaction.Duplicate": "Duplikuj",
         "Interaction.SaveToInventory": "Zapisz do Ekwipunku",
+        "Interaction.SaveToInventory.NotLoggedIn": "Musisz się zalogować, aby zapisać przedmioty.",
+        "Interaction.SaveToInventory.NoWritePermission": "Nie można zapisać przedmiotu w bieżącym folderze ekwipunku.",
         "Interaction.Undo": "Cofnij",
         "Interaction.Redo": "Ponów",
         "Interaction.EquipTool": "Ekwipuj",
@@ -586,6 +588,7 @@
         "2FA.Header": "Weryfikacja 2FA",
         "2FA.Token": "6-cyfrowy Token:",
 
+        "Profile.Status.Sociable": "Towarzyski",
         "Profile.Status.Online": "Online",
         "Profile.Status.Away": "Zaraz Wracam",
         "Profile.Status.Busy": "Nie Przeszkadzać",
@@ -656,6 +659,7 @@
         "Contacts.Bot": "Konto Bota",
         "Contacts.Migrated": "Znajomy nie przeszedł Migracji",
 
+        "Notifications.IsSociable": "Poszukuje towarzystwa, Wyślij im wiadomość lub zaproś ich!",
         "Notifications.IsOnline": "Jest teraz Online",
         "Notifications.IsOnlineOnDifferentVersion": "Jest teraz Online <size=75%>(używając wersji: {version})</size>",
         "Notifications.ReceivedContactRequest": "Wysłano zaproszenie do znajomych",
@@ -663,6 +667,8 @@
         "Notifications.ReceivedItem": "Wysyłano Ci przedmiot:",
         "Notifications.VoiceMessage": "Wysłano wiadomość głosową",
         "Notifications.SessionStarted": "Stworzono sesję:",
+        "Notifications.UserJoined": "Użytkownik dołączył sesję",
+        "Notifications.UserLeft": "Użytkownik opuścił sesję",
 
         "Undo.SetField": "Ustawienie pola {field_name} na {value}",
         "Undo.SetReference": "Ustawienie odniesienia {ref_name} na {ref_target}",
@@ -803,7 +809,7 @@
         "Tooltip.Meter.WorldSpace": "Pomiar w Przestrzeni Światowej",
 
         "Tooltip.Glue.Mode.BakeMeshes": "Tryb: Wypal meshe",
-
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes": "Tryb: Wypal meshe z teksturą",
         "Tooltip.Glue.Mode.ParentObjects": "Tryb: Rodzicowanie obiektów",
 
         "Tooltip.RigTransfer.ClearSource": "Wyczyść źródło",
@@ -898,6 +904,7 @@
         "AvatarCreator.TryAlignHands": "Spróbuj Wyrównać Ręce",
         "AvatarCreator.AlignToolAnchors": "Wyrównaj Pozycje Narzędzi",
         "AvatarCreator.Create": "Utwórz",
+        "AvatarCreator.ProtectionUnavailable": "<i>Ochrona awatara nie jest dostępna na tym świecie. Przełącz się na inny świat, aby chronić swój awatar.</i>",
 
         "Importer.General.AsRawFile": "Plik",
 
@@ -914,6 +921,7 @@
         "Importer.Image.Regular": "Obraz / Tekstura",
         "Importer.Image.Screenshot": "Zrzut ekranu <size=50%>(zrobiony tutaj)</size>",
         "Importer.Image.PixelArt": "Pixel Art",
+        "Importer.Image.Sprite": "Sprite",
         "Importer.Image.360": "Zdjęcie 360 / Skybox",
         "Importer.Image.StereoPhoto": "Zdjęcie Stereo",
         "Importer.Image.Stereo360": "Zdjęcie Stereo 360",
@@ -1014,6 +1022,20 @@
         "Exporter.ExportAs": "Eksportuj jako:",
         "Exporter.Export": "Eksport",
         "Exporter.Exporting": "Eksportowanie...",
+
+        "Export.PackageExportable.Package": "Pakiet Resonite",
+        "Export.PackageExportable.PackageWithVariants": "Pakiet Resonite <size=75%>(+warianty)</size>",
+
+        "Export.AudioExportable.OriginalFormat" : "Audio <size=75%>(oryginalny format)</size>",
+
+        "Export.VideoExportable.OriginalFormat" : "Video <size=75%>(oryginalny format)</size>",
+
+        "Importer.Package.Progress.DecodingPackage" : "Dekodowanie pakietu",
+        "Importer.Package.Progress.DecodingObject" : "Dekodowanie obiektu",
+        "Importer.Package.Progress.ImportingAssets" : "Importowanie zasobów",
+        "Importer.Package.Progress.LoadingObject" : "Ładowanie obiektu",
+        "Importer.Package.Progress.Imported" : "Pakiet importowany",
+        "Importer.Package.Progress.Fail" : "Importowanie się nie powiodło. Sprawdź logi",
 
         "NewWorld.Title": "Nowy Świat",
         "NewWorld.SessionTitle": "Nowa sesja",
@@ -1819,7 +1841,7 @@
 
         "CloudHome.Info.OnlineUsers": "{online_users} {online_users,plural, one {Użytkownik} other {Użytkowników}} online <br>{joinable_users} {joinable_users,plural, one {Dołączalny} other {Dołączalnych}} {joinable_users,plural, one {Użytkownik} other {Użytkowników}} ",
         "CloudHome.Info.Moderation": "Moderacja",
-        "CloudHome.Info.Inventory": "Ekwipunek",
+        "CloudHome.Info.": "Ekwipunek",
         "CloudHome.Info.Tools": "Narzędzia",
         "CloudHome.Info.MoreInfo": "Więcej informacji",
         "CloudHome.Info.SessionUptime": "Czas działania sesji:",
@@ -1837,8 +1859,8 @@
         "CloudHome.Info.ModerationTab.Title": "Moderacja!",
         "CloudHome.Info.ModerationTab.Content": "Bezpieczeństwo jest dla nas ważne. Jeśli potrzebujesz pomocy lub chcesz zgłosić użytkownika, otwórz zgłoszenie w naszym <u><color=hero.cyan>Portalu moderacji.</color></u><sprite name=hyperlink><br><br>Mamy silny zespół wolontariuszy-moderatorów <sprite name=modbadge> którzy dbają o bezpieczeństwo społeczności! Prześlij zgłoszenie, jeśli masz pytania lub widzisz zachowanie łamiące wytyczne.",
 
-        "CloudHome.Info.InventoryTab.Title": "Zachowaj swoje przedmioty!",
-        "CloudHome.Info.InventoryTab.Content": "<i><color=hero.purple>Ekfipunek</color></i> na <i><color=hero.purple>Tablocy</color></i> zawiera zapisane awatary i przedmioty.<br><br>Folder <i><color=hero.purple>Niezbędne</color></i> ma parę fajnych rzeczy do zabawy; kliknij dwukrotnie przedmiot, aby go spawnować!",
+        "CloudHome.Info.Tab.Title": "Zachowaj swoje przedmioty!",
+        "CloudHome.Info.Tab.Content": "<i><color=hero.purple>Ekfipunek</color></i> na <i><color=hero.purple>Tablocy</color></i> zawiera zapisane awatary i przedmioty.<br><br>Folder <i><color=hero.purple>Niezbędne</color></i> ma parę fajnych rzeczy do zabawy; kliknij dwukrotnie przedmiot, aby go spawnować!",
 
         "CloudHome.Info.ToolsTab.Title": "Edytowanie w świecie!",
         "CloudHome.Info.ToolsTab.Content": "Cechą charakterystyczną {appName} jest możliwość łatwego tworzenia lub modyfikowania rzeczy bezpośrednio w świecie.<br><br>Tak, to znaczy właśnie tutaj! Lub gdziekolwiek indziej - narzędzia dostępne za pośrednictwem <i><color=hero.purple>Niezbędne -> Narzędzia</color></i> w ekwipunku pozwalają łatwo edytować otaczający świat według własnych upodobań.",
