@@ -97,6 +97,9 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
+    if args.lang is None or args.en is None or args.out is None:
+        parser.print_help()
+        exit(1)
     N = LocaleCleaner(args.en, args.lang, args.out, args.add_missing_keys)
     N.run()
     print("Cleaned!")
