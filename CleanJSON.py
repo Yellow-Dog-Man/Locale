@@ -20,6 +20,12 @@ class LocaleCleaner:
         self.save()
 
     def make_header(self):
+        """
+        {
+            "localeCode": "en",
+            "authors": ["author1", "author2", ],
+            "messages": {
+        """
         self.output.append("{")
         self.output.append('    "localeCode": "{}",'.format(self.lang["localeCode"]))
         self.output.append(
@@ -28,6 +34,11 @@ class LocaleCleaner:
         self.output.append('    "messages": {')
 
     def make_footer(self):
+        """
+                "Dummy": "Dummy"
+            }
+        }
+        """
         self.output.append('        "Dummy": "Dummy"')
         self.output.append("    }")
         self.output.append("}")
