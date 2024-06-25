@@ -58,7 +58,7 @@ class LocaleCleaner:
             elif self.add_missing_keys and key != "":
                 blank = False
                 value = kv[1].strip().rstrip(",")[1:-1]
-                self.output.append('        "{}": "{}",'.format(key, value))
+                self.output.append('        "#{}": "{}",'.format(key, value))
             elif blank == False:
                 self.output.append("")
                 blank = True
@@ -94,7 +94,7 @@ if __name__ == "__main__":
         "-a",
         "--add-missing-keys",
         action="store_true",
-        help="If a key is missing in the translation, copy original text from en.json to the output file.",
+        help="If a key is missing in the translation, copy original text from en.json to the output file.  The key will be prefixed with #.",
     )
 
     args = parser.parse_args()
