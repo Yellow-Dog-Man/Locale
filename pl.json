@@ -1357,6 +1357,14 @@
         "Inspector.Member.SetAllToY": "Ustaw wszystko na Y",
         "Inspector.Member.SetAllToZ": "Ustaw wszystko na Z",
         "Inspector.Member.SetAllToW": "Ustaw wszystko na W",
+        "Inspector.Member.BakeBlendshape": "Wypal Blendshape",
+        "Inspector.Member.RemoveBlendshape": "Usuń Blendshape",
+        "Inspector.Member.SplitBlendshape.X": "Podziel Blendshape w poprzek osi X",
+        "Inspector.Member.SplitBlendshape.Y": "Podziel Blendshape w poprzek osi Y",
+        "Inspector.Member.SplitBlendshape.Z": "Podziel Blendshape w poprzek osi Z",
+
+        "Inspector.ProceduralAsset.UpdateCount": "Zmodyfikowano: {n}",
+        "Inspector.ProceduralAsset.Error": "Error: {error}",
 
         "Inspector.Mesh.StatsHeader": "Statystyki Meshu",
         "Inspector.Mesh.VertexCount": "Liczba Wierzchołków: {n}",
@@ -1437,10 +1445,15 @@
         "Inspector.SkinnedMesh.StripEmptyBones": "Usuń Puste Kości",
         "Inspector.SkinnedMesh.StripBonesResult": "Gotowe! Usunięto: {n,plural, one {# kość} few {# kości} many {# kości}}",
         "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes": "Wypal nieaktywne Blendshapy",
-        "Inspector.SkinnedMesh.BakeBlendShapeResult": "Ilość wypalonych blendshapeów: {n}",
+        "Inspector.SkinnedMesh.BakeBlendShapeResult": "Gotowe! Wypalono: {n} {n,plural, one {# blendshape} few {# blendshapy} many {# blendshapeów}}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "Wizualizuj obszary kości",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Wizualizuj przybliżone połączone obszary kości",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "Usuń wizualizacje obszarów kości",
+        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Oblicz granice na podstawie bieżącej pozycji",
+        "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Rozszerz ranice na podstawie bieżącej pozycji",
+        "Inspector.SkinnedMesh.BakeToStaticMesh": "Wypal Mesh",
+        "Inspector.SkinnedMesh.SortBlendshapes.Name": "Sortuj Blendshapes według nazwy",
+        "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Sortuj blenshapes według długości nazwy, a następnie nazwy",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Usuń wszystkie instancje",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Usuń pojedyncze instancje",
@@ -1460,8 +1473,10 @@
         "Inspector.Texture.Size": "Rozmiar: {width} x {height}",
         "Inspector.Texture.Format": "Format: {format}, Pamięć: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "ID Wariantu: {variant}",
+        "Inspector.Texture3D.Size": "Rozmiar: {width} x {height} x {depth}",
 
-        "Inspector.Texture.BakeTexture": "Bake Texture",
+        "Inspector.Texture.BakeTexture": "Wypal Texture",
+        "Inspector.Texture.ReplaceFromClipboard": "Zastąp ze schowka",
 
         "Inspector.Texture.InvertRGB": "Odwróć Kolory",
         "Inspector.Texture.InvertR": "Odwróć Czerwony",
@@ -1509,6 +1524,9 @@
         "Inspector.Texture.NormalizeMinMax": "Normalizuj (min. i maks.)",
         "Inspector.Texture.NormalizeIndependent": "Niezależna normalizacja RGB (min. i maks.)",
         "Inspector.Texture.BleedColorToAlpha": "Bleed Color To Alpha",
+        "Inspector.Texture.AlphaGamma": "Gamma Alfy",
+        "Inspector.Texture.AdjustAlphaGamma": " Zmień Gammę Alfy",
+        "Inspector.Texture.AddAlpha": "Dodaj Alfa",
 
         "Inspector.Texture.InvalidFloats": "Diagnostyka: Niewłaściwe Wartości",
         "Inspector.Texture.GenerateMetadata": "Diagnostyka: Generuj Metadane Bitmapy",
@@ -1551,6 +1569,10 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Obszary i Chwytanie -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Dodaj obszary do punktów centralnych obiektów w hierarchii",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Zawsze chwytaj ostatnią kość",
+
+        "Inspector.DataPreset.SetActive": "Ustaw Aktywne",
+        "Inspector.DataPreset.SetValues": "Ustaw Wartości",
+        "Inspector.DataPreset.AddAllChildren": "Dodaj Wszystkie dzieci",
 
         "Inspector.Rig.CleanupBoneColliders": "Usuń strefy kolizji kości",
         "Inspector.Rig.GenerateDebugVisuals": "Generuj wizualizacje debugowania",
