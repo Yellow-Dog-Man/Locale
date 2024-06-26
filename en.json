@@ -1341,7 +1341,7 @@
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Hand Position Smoothing",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Hand Rotation Smoothing",
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "When enabled, this controls how much is the hand position smoothed out. Typically this is helpful for users with tremors and other accessibility issues that cause jitter.",
-        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "When enabled, this controls how much is the hand rotation smoothed out. Typically this is helpful for users with tremors and other accessibility issues jitter.",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "When enabled, this controls how much is the hand rotation smoothed out. Typically this is helpful for users with tremors and other accessibility issues that cause jitter.",
 
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Feet Position Smoothing",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Feet Rotation Smoothing",
@@ -1368,10 +1368,10 @@
         "Settings.SteamIntegrationSettings": "Steam Integration",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Discord's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Discord.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Discord. Includes the world name and how many users are in the session.\n\nDiscord itself also does its own detection to display what game you are playing. This can be disabled in Discord's settings.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Controls what information {appName} sends to Discord's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Discord.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in {appName}.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Discord. Includes the world name and how many users are in the session.\n\nDiscord itself also does its own detection to display what game you are playing. This can be disabled in Discord's settings.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Steam's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Steam.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Steam. Includes the world name and how many users are in the session.\n\nSteam itself will display that you are playing Resonite regardless of this setting. Changing this setting only affects how much extra data is sent to Steam about your active session.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Controls what information {appName} sends to Steam's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Steam.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in {appName}.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Steam. Includes the world name and how many users are in the session.\n\nSteam itself will display that you are playing {appName} regardless of this setting. Changing this setting only affects how much extra data is sent to Steam about your active session.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Save Screenshots",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "When you take a picture with this setting enabled, a copy will be saved to Steam screenshots.",
@@ -1577,9 +1577,9 @@
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Allow websockets",
         "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "This indicates of realtime Websocket connections are allowed for this host. These are often used for more realtime bi-directional communications and data streams.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Allow OSC receiving",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "This indicates if Resonite can receive and process OSC data",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "This indicates if {appName} can receive and process OSC data",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Allow OSC sending",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "This controls if Resonite is allowed to send data via OSC protocol to given host",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "This controls if {appName} is allowed to send data via OSC protocol to given host",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Last hyperlink request reason",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Last websocket request reason",
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Last OSC Sender request reason",
@@ -2237,7 +2237,7 @@
         "VolumePlaneSlicer.Slicer": "Slice",
 
         "Tutorial.Welcome.Welcome": "Welcome!",
-        "Tutorial.Welcome.Description": "Dive into a brand new digital universe with infinite possibilities. Whether you come here to socialize and hang out with people around the world or to build, create and develop anything from beautiful art, interactive avatars and gadgets, to complex interactive worlds and games, Resonite is an endlessly customizable place where you'll be welcome and where you'll find a group to resonate with.<br><br>Before you start exploring, we'll first guide you through setting up some essentials, to ensure a smooth experience. When you're ready, click the button below",
+        "Tutorial.Welcome.Description": "Dive into a brand new digital universe with infinite possibilities. Whether you come here to socialize and hang out with people around the world or to build, create and develop anything from beautiful art, interactive avatars and gadgets, to complex interactive worlds and games, {appName} is an endlessly customizable place where you'll be welcome and where you'll find a group to resonate with.<br><br>Before you start exploring, we'll first guide you through setting up some essentials, to ensure a smooth experience. When you're ready, click the button below",
         "Tutorial.Welcome.Begin": "Let's begin!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} account",
