@@ -13,8 +13,6 @@ General.Notice
 General.UnderstandEnable  
 General.Dismiss  
 General.Edit  
-General.Units.Metric  
-General.Units.Imperial  
 Worlds.Home  
 Worlds.Tutorial  
 Interaction.SaveToInventory.NotLoggedIn  
@@ -914,6 +912,9 @@ Inspector.Texture.NormalizeMaxOnly
 Inspector.Texture.NormalizeMinMax  
 Inspector.Texture.NormalizeIndependent  
 Inspector.Texture.BleedColorToAlpha  
+Inspector.Texture.AlphaGamma  
+Inspector.Texture.AdjustAlphaGamma  
+Inspector.Texture.AddAlpha  
 Inspector.DataPreset.SetActive  
 Inspector.DataPreset.SetValues  
 Inspector.DataPreset.AddAllChildren  
