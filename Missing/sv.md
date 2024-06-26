@@ -1189,6 +1189,9 @@ Inspector.Texture.NormalizeMaxOnly
 Inspector.Texture.NormalizeMinMax  
 Inspector.Texture.NormalizeIndependent  
 Inspector.Texture.BleedColorToAlpha  
+Inspector.Texture.AlphaGamma  
+Inspector.Texture.AdjustAlphaGamma  
+Inspector.Texture.AddAlpha  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
 Inspector.Material.VariantInfo  

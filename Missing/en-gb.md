@@ -1282,7 +1282,6 @@ Settings.AudioAccessibilitySettings.WhisperVolume
 Settings.AudioAccessibilitySettings.WhisperVolume.Description  
 Settings.AudioAccessibilitySettings.VoiceMessageVolume  
 Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description  
-Settings.AudioInputFilteringSettings.UseVoiceNormalization  
 Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description  
 Settings.AudioInputFilteringSettings.NoiseGateThreshold  
 Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description  
@@ -1292,7 +1291,6 @@ Settings.AudioInputFilteringSettings.NoiseGateHold
 Settings.AudioInputFilteringSettings.NoiseGateHold.Description  
 Settings.AudioInputFilteringSettings.NoiseGateRelease  
 Settings.AudioInputFilteringSettings.NoiseGateRelease.Description  
-Settings.AudioInputFilteringSettings.NormalizationThreshold  
 Settings.AudioInputFilteringSettings.NormalizationThreshold.Description  
 Settings.AudioInputFilteringSettings.UseNoiseSuppression  
 Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description  
@@ -1747,6 +1745,9 @@ Inspector.Texture.ToNearestPOT
 Inspector.Texture.MakeTileable  
 Inspector.Texture.TileLoop  
 Inspector.Texture.TileMirror  
+Inspector.Texture.AlphaGamma  
+Inspector.Texture.AdjustAlphaGamma  
+Inspector.Texture.AddAlpha  
 Inspector.Texture.InvalidFloats  
 Inspector.Texture.GenerateMetadata  
 Inspector.Material.VariantInfo  

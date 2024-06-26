@@ -30,8 +30,6 @@ General.UI.MusicVolumeLocal
 General.UI.VoiceVolumeLocal  
 General.UI.SoundVolumeLocal  
 General.UI.PressToBegin  
-General.Units.Metric  
-General.Units.Imperial  
 Worlds.Home  
 Worlds.Tutorial  
 Interaction.SaveToInventory  
@@ -1034,6 +1032,9 @@ Inspector.Texture.NormalizeMaxOnly
 Inspector.Texture.NormalizeMinMax  
 Inspector.Texture.NormalizeIndependent  
 Inspector.Texture.BleedColorToAlpha  
+Inspector.Texture.AlphaGamma  
+Inspector.Texture.AdjustAlphaGamma  
+Inspector.Texture.AddAlpha  
 Inspector.Material.VariantInfo  
 Inspector.Material.WaitingForApply  
 Inspector.Audio.DenoiseRNNoise  
