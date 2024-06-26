@@ -1026,6 +1026,17 @@
         "Export.PackageExportable.Package": "Resonite​パッケージ",
         "Export.PackageExportable.PackageWithVariants": "Resonite​パッケージ​<size=50%>(+variants)</size>",
 
+        "Export.AudioExportable.OriginalFormat" : "音声​<size=75%>(元のフォーマット)</size>",
+
+        "Export.VideoExportable.OriginalFormat" : "動画​<size=75%>(元のフォーマット)</size>",
+
+        "Importer.Package.Progress.DecodingPackage" : "パッケージを解凍中",
+        "Importer.Package.Progress.DecodingObject" : "オブジェクトを解凍中",
+        "Importer.Package.Progress.ImportingAssets" : "アセットインポート中",
+        "Importer.Package.Progress.LoadingObject" : "オブジェクト読込中",
+        "Importer.Package.Progress.Imported" : "パッケージのインポート完了",
+        "Importer.Package.Progress.Fail" : "インポート失敗。ログを確認してください。",
+
         "NewWorld.Title": "新規ワールドを作成",
         "NewWorld.SessionTitle": "新しいセッション",
         "NewWorld.Template": "テンプレートを選択",
@@ -1688,7 +1699,7 @@
         "Settings.PhotoCaptureSettings.TimerSeconds": "タイマーの時間（秒）",
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "タイマー撮影時のタイマー時間の長さを設定できます。",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "自動保存パス",
-        "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "保存先を示すパスを設定することで、撮影（またはコンテキストメニューから保存）した写真を自動でゲーム内インベントリに保存します。パスの例: <color=hero.yellowr>Photos/%year%/%month_name%</color>\n\n変数として次のものが使えます。\n\nn<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size",
+        "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "保存先を示すパスを設定することで、撮影（またはコンテキストメニューから保存）した写真を自動でゲーム内インベントリに保存します。例: <color=hero.yellow>Photos/%year%/%month_name%</color>\n\n変数として次のものが使えます。\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "プライベートUIを撮影",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "有効にすると、ダッシュメニューなどのプライベートなUIが撮影時に含まれます。\n\nこの設定を有効にしたままにすると、誤って撮影してしまった場合に、個人情報が漏れてしまう可能性があるので、撮影が終わったらオフにすることをおすすめします。",
         "Settings.PhotoCaptureSettings.EncodeFormat": "エンコードフォーマット",
