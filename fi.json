@@ -1368,10 +1368,10 @@
         "Settings.SteamIntegrationSettings": "Steam integraatio",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Mitä tietoja Resonite lähettää Discordin Rich Presence -järjestelmään.\n\n<color=hero.yellow>None</color> - Älä lähetä Rich Presence -tietoja Discordiin.\n<color=hero.yellow>Basic</color> - Lähetä vain rajoitetut tiedot, kuten Online-tilasi Resonitessa.\n<color=hero.yellow>Full</color> - Kun olet julkisessa sessiossa, lähetä kaikki mahdolliset sessiotiedot Discordiin. Sisältää maailman nimen ja sen, kuinka monta käyttäjää sessiossa on.\n\nDiscord tekee myös oman tunnistuksensa näyttääkseen, mitä peliä pelaat. Tämän voi poistaa käytöstä Discordin asetuksista.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Mitä tietoja {appName} lähettää Discordin Rich Presence -järjestelmään.\n\n<color=hero.yellow>None</color> - Älä lähetä Rich Presence -tietoja Discordiin.\n<color=hero.yellow>Basic</color> - Lähetä vain rajoitetut tiedot, kuten Online-tilasi {appName}ssa.\n<color=hero.yellow>Full</color> - Kun olet julkisessa sessiossa, lähetä kaikki mahdolliset sessiotiedot Discordiin. Sisältää maailman nimen ja sen, kuinka monta käyttäjää sessiossa on.\n\nDiscord tekee myös oman tunnistuksensa näyttääkseen, mitä peliä pelaat. Tämän voi poistaa käytöstä Discordin asetuksista.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "Mitä tietoja Resonite lähettää Steamin Rich Presence -järjestelmään.\n\n<color=hero.yellow>None</color> - Älä lähetä Rich Presence -tietoja Steamiin.\n<color=hero.yellow>Basic</color> - Lähetä vain rajoitetut tiedot, kuten Online-tilasi Resonitessa.\n<color=hero.yellow>Full</color> - Kun olet julkisessa sessiossa, lähetä kaikki mahdolliset sessiotiedot Steamiin. Sisältää maailman nimen ja sen, kuinka monta käyttäjää sessiossa on.\n\n Steam näyttää, että pelaat Resonitea tästä asetuksesta riippumatta. Tämän asetuksen muuttaminen vaikuttaa vain siihen, kuinka paljon lisätietoa Steamiin lähetetään aktiivisesta sessiostasi.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Mitä tietoja {appName} lähettää Steamin Rich Presence -järjestelmään.\n\n<color=hero.yellow>None</color> - Älä lähetä Rich Presence -tietoja Steamiin.\n<color=hero.yellow>Basic</color> - Lähetä vain rajoitetut tiedot, kuten Online-tilasi {appName}ssa.\n<color=hero.yellow>Full</color> - Kun olet julkisessa sessiossa, lähetä kaikki mahdolliset sessiotiedot Steamiin. Sisältää maailman nimen ja sen, kuinka monta käyttäjää sessiossa on.\n\n Steam näyttää, että pelaat {appName}a tästä asetuksesta riippumatta. Tämän asetuksen muuttaminen vaikuttaa vain siihen, kuinka paljon lisätietoa Steamiin lähetetään aktiivisesta sessiostasi.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Tallenna kuvakaappaukset",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Kun tämä on käytössä, kopio ottamistasi valokuvista tallennetaan Steam-kuvakaappauksiisi.",
@@ -2068,6 +2068,9 @@
         "Inspector.Texture.NormalizeMinMax": "Normalisoi (minimi ja maksimi)",
 
         "Inspector.Texture.BleedColorToAlpha": "Vuodata väri alfaan",
+        "Inspector.Texture.AlphaGamma": "Alfan gamma",
+        "Inspector.Texture.AdjustAlphaGamma": "Säädä alfan gammaa",
+        "Inspector.Texture.AddAlpha": "Lisää alfa",
 
 
 
@@ -2234,7 +2237,7 @@
         "VolumePlaneSlicer.Slicer": "Siivuta",
 
         "Tutorial.Welcome.Welcome": "Tervetuloa",
-        "Tutorial.Welcome.Description": "Sukella upouuteen digitaaliseen maailmaan, jossa on rajattomat mahdollisuudet. Tulitpa sitten tänne sosiaalisoitumaan ja hengailemaan ihmisten kanssa ympäri maailmaa tai rakentamaan, luomaan ja kehittämään mitä tahansa kauniista taiteesta, interaktiivisista avatareista ja vempaimista monimutkaisiin interaktiivisiin maailmoihin ja peleihin, Resonite on loputtomasti muokattavissa oleva paikka, jossa olet tervetullut ja jossa löydät ryhmän, jonka kanssa resonoit.<br><br>Ennen kuin aloitat tutkimisen, opastamme sinua ensin joidenkin olennaisten asioiden määrittelyssä, jotta kokemus olisi mahdollisimman sujuva. Kun olet valmis, napsauta alla olevaa painiketta.",
+        "Tutorial.Welcome.Description": "Sukella upouuteen digitaaliseen maailmaan, jossa on rajattomat mahdollisuudet. Tulitpa sitten tänne sosiaalisoitumaan ja hengailemaan ihmisten kanssa ympäri maailmaa tai rakentamaan, luomaan ja kehittämään mitä tahansa kauniista taiteesta, interaktiivisista avatareista ja vempaimista monimutkaisiin interaktiivisiin maailmoihin ja peleihin, {appName} on loputtomasti muokattavissa oleva paikka, jossa olet tervetullut ja jossa löydät ryhmän, jonka kanssa resonoit.<br><br>Ennen kuin aloitat tutkimisen, opastamme sinua ensin joidenkin olennaisten asioiden määrittelyssä, jotta kokemus olisi mahdollisimman sujuva. Kun olet valmis, napsauta alla olevaa painiketta.",
         "Tutorial.Welcome.Begin": "Aloitetaan!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} tili",
@@ -2458,14 +2461,14 @@
 
 
         "CloudHome.Info.ToolsTab.Title": "Pelin sisäinen editointi!",
-
+        "CloudHome.Info.ToolsTab.Content": "{appName}n erityispiirre on, että asioita voi luoda ja muokata helposti suoraan pelissä.<br><br>Kyllä, se tarkoittaa juuri tässä! Tai oikeastaan missä tahansa - työkalut, jotka ovat käytettävissäsi inventaarion <i><color=hero.purple>Essentials -> Tools</color></i> -valikon kautta, antavat sinulle mahdollisuuden muokata ympäröivää maailmaa helposti mieleiseksesi.",
 
         "CloudHome.Info.HelpTab.Title": "Tarvitsen apua",
 
 
 
         "CloudHome.Info.UsersTab.Title": "Etsi käyttäjiä",
-
+        "CloudHome.Info.UsersTab.Content": "Julkiset sessiot ovat loistava tapa tutustua yhteisöön!<br><br>Julkiset sessiot, joihin voit liittyä juuri nyt, löytyvät valikon <i><color=hero.purple>Maailmat</color></i> -välilehdestä.",
 
         "Mirror.Header.RenderingOptions": "Renderöintiasetukset",
         "Mirror.Header.Type": "Peilin tyyppi",
@@ -2504,10 +2507,10 @@
         "StickyNote.EquipMeDesktop": "Ota käteen ja paina hiiren vasenta näppäintä!",
 
 
-
-
+        "StickyNote.DipBrushes": "Dippaa siveltimiä palloihin käyttääksesi materiaaleja.",
+        "StickyNote.BrushColor": "Muuta siveltimen väriä ja kokoa kontekstivalikosta.",
         "StickyNote.Drawing": "Voit piirtää taululle, ilmaan tai minne tahansa!",
-
+        "StickyNote.WorldCanvas": "Maailma on taulusi!",
 
         "CloudHome.Panel.HomeControl": "Kodin asetukset",
 
@@ -2556,7 +2559,7 @@
         "CloudHome.SupporterPanel.Title": "<b>Tukijamme</b>",
 
         "Tutorial.InfoPanel.Title": "Hei! Ennen kuin lähdet...",
-        "Tutorial.InfoPanel.Content": "     Mahdollisuuksien maailma odottaa sinua, ja vain mielikuvituksesi on rajana.<br><br>     Lähes kaikki tähän mennessä näkemäsi asiat on tehty suoraan pelin sisällä! Ihmiset eri puolilta maailmaa työskentelivät yhdessä reaaliaikaisesti niiden rakentamiseksi.<br><br>     Resonite on vielä hyvin varhaisessa kehitysvaiheessa, ja päivitämme ja parannamme sitä jatkuvasti. Mutta sinäkin olet osa tätä matkaa, ja vain taivas on rajana!<br><br><align=center>Kiitos, että kävit ja annoit meille mahdollisuuden.</align>",
+        "Tutorial.InfoPanel.Content": "     Mahdollisuuksien maailma odottaa sinua, ja vain mielikuvituksesi on rajana.<br><br>     Lähes kaikki tähän mennessä näkemäsi asiat on tehty suoraan pelin sisällä! Ihmiset eri puolilta maailmaa työskentelivät yhdessä reaaliaikaisesti niiden rakentamiseksi.<br><br>     {appName} on vielä hyvin varhaisessa kehitysvaiheessa, ja päivitämme ja parannamme sitä jatkuvasti. Mutta sinäkin olet osa tätä matkaa, ja vain taivas on rajana!<br><br><align=center>Kiitos, että kävit ja annoit meille mahdollisuuden.</align>",
 
         "Tutorial.GrabItems.Grab": "Tartu",
         "Tutorial.GrabItems.Snap": "Kiinnitä",
@@ -2595,9 +2598,9 @@
         "Hints.Grabbing.ScalingDesktop": "Tartu esineeseen, pidä Shift-näppäin painettuna ja käytä hiiren rullaa esineen skaalaamiseen!",
         "Hints.Grabbing.ScalingVR": "Tartu esineisiin molemmin käsin skaalataksesi niitä!",
 
-        "Hints.Grabbing.OtherGrabbables": "Pelissä on erilaisia vuorovaikutteisia laitteita, kokeile näillä kolmella, miten ne toimivat!",
-
-
+        "Hints.Grabbing.OtherGrabbables": "Pelissä on erilaisia vuorovaikutteisia esineitä, kokeile näillä kolmella, miten ne toimivat!",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Esineiden skaalaamisen lisäksi voit myös skaalata itseäsi laittamalla skaalauksen päälle kontekstivalikosta, pitämällä Ctrl-näppäin painettuna ja käyttämällä hiiren rullaa!",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "Esineiden skaalaamisen lisäksi voit myös skaalata itseäsi laittamalla skaalauksen päälle kontekstivalikosta, laittamalla kädet nyrkkiin edessäsi ja liikuttamalla niitä lähemmäs tai kauemmas toisistaan!",
 
         "Hints.Telescope.Alignment": "Tartu kaukoputkeen ja suuntaa se kuuhun!",
 
