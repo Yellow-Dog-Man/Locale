@@ -1030,13 +1030,13 @@
 
         "Export.VideoExportable.OriginalFormat" : "视频 <size=75%>(original format)</size>",
 
-        "Importer.Package.Progress.DecodingPackage" : "解包包文件",
-        "Importer.Package.Progress.DecodingObject" : "解包物品",
-        "Importer.Package.Progress.ImportingAssets" : "导入资产",
+        "Importer.Package.Progress.DecodingPackage" : "正在解包包文件",
+        "Importer.Package.Progress.DecodingObject" : "正在解包物品",
+        "Importer.Package.Progress.ImportingAssets" : "正在导入资产",
         "Importer.Package.Progress.LoadingObject" : "正在加载物品",
-        "Importer.Package.Progress.Imported" : "已导入包文件",
-        "Importer.Package.Progress.Fail" : "导入失败。 请检查日志。",
-        
+        "Importer.Package.Progress.Imported" : "包文件已导入",
+        "Importer.Package.Progress.Fail" : "无法导入。 请检查日志",
+
         "NewWorld.Title": "创建世界",
         "NewWorld.SessionTitle": "新会话",
         "NewWorld.Template": "世界模板：",
@@ -1236,7 +1236,7 @@
         "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "如果你上次被设置为隐身，该设置将控制如何记住你上次的状态。出于隐私原因，隐身状态有一个单独的设置，以确保如果你上次被设置为隐身，即使你的其他状态没有被记住，你也可以确保下次登录时保持隐身状态。",
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "在指定时间内记住隐身状态",
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "只有当你在这段时间内再次登录时，你上次的隐身状态才会被记住。如果超过这个时间，你将从默认状态开始。",
-        "Settings.OnlineStatusSettings.AutoAwayTimespan" : "在挂机到指定时间后设置为离开",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan" : "在挂机到指定事件后设置为离开",
         "Settings.OnlineStatusSettings.AutoAwayTimespan.Description" : "当你挂机时长达到这个时间后，你的在线状态将自动切换为离开。一旦你回来，就会自动设置回之前的状态，除非你手动设置为离开。",
 
         "Settings.AudioInputDeviceSettings": "音频输入",
@@ -2068,6 +2068,9 @@
         "Inspector.Texture.NormalizeMinMax" : "归一化（最小值与最大值）",
         "Inspector.Texture.NormalizeIndependent" : "独立归一化RGB值（最小值与最大值）",
         "Inspector.Texture.BleedColorToAlpha" : "将颜色渗入Alpha",
+        "Inspector.Texture.AlphaGamma": "Alpha 伽玛",
+        "Inspector.Texture.AdjustAlphaGamma": " 调整 Alpha 伽玛",
+        "Inspector.Texture.AddAlpha": "添加 Alpha",
 
         "Inspector.Texture.InvalidFloats": "诊断：无效的浮点数",
         "Inspector.Texture.GenerateMetadata": "诊断：生成位图元数据",
