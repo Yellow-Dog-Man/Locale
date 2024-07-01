@@ -786,6 +786,8 @@ Settings.RealtimeNetworkingSettings.DisableLAN
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
+Settings.RealtimeNetworkingSettings.LNL_WindowSize  
+Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description  
 Settings.AssetGatherSettings.MaxConcurrentDownloads  
