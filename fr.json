@@ -1564,6 +1564,8 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Désactive les fonctionnalités de réseau spécifique aux réseaux locaux comme annoncer vos sessions sur le réseau local ou écouter pour ces mêmes sessions sur le réseau local.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Préférer steam networking sockets",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Quand activé, vous vous connecterez aux sessions via le protocole Steam Networking Sockets si possible. Cela peut aider dans les cas ou le protocole LNL est problématique. Malheureusement ce protocole manque certaines fonctionnalités ce qui peut amener quelques problèmes en amont, nous recommandons donc de ne l'activer que si vous avez des problèmes avec les autres protocoles.",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "Taille de fenêtre LNL",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Contrôle la taille de fenêtre pour le protocole LNL. Changer cette option aura un effet immédiat dans toutes les sessions quand vous aurez rejoin.\n\nSi vous rencontrez du \"paquet queuing\", augmenter cette valeur peut améliorer la connection, au coût de la stabilité.\n\nValeur par défaut: 64\n\nNotez que cette option est temporaire et que cette valeur sera ajustée automatiquement dans le futur.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Nombre maximum de transferts d'assets concurrents",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "Quand vous hébergez une session, cela indique combien de transfert locaux seront téléchargés a la fois. Définir cette valeur trop haute pourrait surcharger votre connexion.",
