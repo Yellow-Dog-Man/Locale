@@ -101,6 +101,8 @@ Settings.EarmuffSettings.TransitionLength.Description
 Settings.EarmuffSettings.VolumeAttenuation.Description  
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
+Settings.RealtimeNetworkingSettings.LNL_WindowSize  
+Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description  
 Settings.AssetGatherSettings.MaxConcurrentDownloads.Description  
 Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description  
