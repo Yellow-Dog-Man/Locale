@@ -929,6 +929,9 @@
         "Importer.Image.Stereo180": "Stereo 180° photo",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.LUT.Failure.Heading": "Failed to Import LUT <color=hero.yellow>{image}</color>",
+        "Importer.LUT.Failure.Description": "Failed to import LUT due to the following:\n\n<color=hero.red>{error}</color>",
+
         "Importer.ImageVideo.LayoutPrompt": "What layout does it use?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Side by Side LR",
         "Importer.ImageVideo.LayoutHorizontalRL": "Side by Side RL",
@@ -1022,6 +1025,7 @@
         "Exporter.ExportAs": "Export as:",
         "Exporter.Export": "Export",
         "Exporter.Exporting": "Exporting...",
+        "Exporter.InvalidFileName": "Invalid Filename",
 
         "Export.PackageExportable.Package": "Resonite Package",
         "Export.PackageExportable.PackageWithVariants": "Resonite Package <size=75%>(+variants)</size>",
@@ -1564,6 +1568,8 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "This disables networking features specific to local networks, such as broadcasting your session on the local network or listening to other sessions broadcasted on this network.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Prefer Steam Networking Sockets",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "When enabled, you will connect via Steam Networking Sockets protocol if possible. This can help in some cases when LNL protocol results in significant queuing. However as this protocol is missing some features, you can run into more networking instability, so we recommend only enabling this once you ran into issues.",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL Window Size",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "This controls the LNL protocol window size for real time networking. Changing this setting will have an immediate effect in all active sessions.\n\nIf you experience any packet queuing, you can increase this value to improve the connection throughput. However, higher values can also destabilize the connection further, so be careful.\n\n<color=hero.yellow>Default Value:</color> 64\n\n<color=hero.red>IMPORTANT:</color> This setting is for diagnostics and a temporary workaround; this value will automatically adjust itself in the future.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Maximum number of concurrent asset transfers",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "When hosting sessions, this indicates how many locally imported assets can be transferred at the time. Increasing this can transfer assets to users faster, but can also degrade the quality of the network connection. We recommend testing what values can your network handle.",

@@ -21,9 +21,12 @@ Tooltip.ProtoFlux.ExplicitCast
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
+Importer.LUT.Failure.Heading  
+Importer.LUT.Failure.Description  
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
+Exporter.InvalidFileName  
 Export.AudioExportable.OriginalFormat  
 Export.VideoExportable.OriginalFormat  
 Importer.Package.Progress.DecodingPackage  
@@ -101,6 +104,8 @@ Settings.EarmuffSettings.TransitionLength.Description
 Settings.EarmuffSettings.VolumeAttenuation.Description  
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
+Settings.RealtimeNetworkingSettings.LNL_WindowSize  
+Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description  
 Settings.AssetGatherSettings.MaxConcurrentDownloads.Description  
 Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description  
