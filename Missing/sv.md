@@ -207,6 +207,8 @@ Importer.Image.Stereo360
 Importer.Image.180  
 Importer.Image.Stereo180  
 Importer.Image.LUT  
+Importer.LUT.Failure.Heading  
+Importer.LUT.Failure.Description  
 Importer.ImageVideo.LayoutPrompt  
 Importer.ImageVideo.LayoutHorizontalLR  
 Importer.ImageVideo.LayoutHorizontalRL  
@@ -291,6 +293,7 @@ Exporter.FileName
 Exporter.ExportAs  
 Exporter.Export  
 Exporter.Exporting  
+Exporter.InvalidFileName  
 Export.PackageExportable.Package  
 Export.PackageExportable.PackageWithVariants  
 Export.AudioExportable.OriginalFormat  
