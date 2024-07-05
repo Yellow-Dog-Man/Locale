@@ -1024,7 +1024,18 @@
         "Exporter.Exporting": "导出中...",
 
         "Export.PackageExportable.Package": "Resonite 包文件",
-        "Export.PackageExportable.PackageWithVariants": "Resonite 包文件 <size=50%>(+variants)</size>",
+        "Export.PackageExportable.PackageWithVariants": "Resonite 包文件 <size=50%>(+变量)</size>",
+
+        "Export.AudioExportable.OriginalFormat" : "音频 <size=75%>(原始格式)</size>",
+
+        "Export.VideoExportable.OriginalFormat" : "视频 <size=75%>(原始格式)</size>",
+
+        "Importer.Package.Progress.DecodingPackage" : "正在解包包文件",
+        "Importer.Package.Progress.DecodingObject" : "正在解包物品",
+        "Importer.Package.Progress.ImportingAssets" : "正在导入资产",
+        "Importer.Package.Progress.LoadingObject" : "正在加载物品",
+        "Importer.Package.Progress.Imported" : "包文件已导入",
+        "Importer.Package.Progress.Fail" : "无法导入。 请检查日志",
 
         "NewWorld.Title": "创建世界",
         "NewWorld.SessionTitle": "新会话",
@@ -1553,6 +1564,8 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "这将禁用本地网络特有的联网功能，例如在本地网络上广播会话或监听本网络上广播的其他会话。",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "尽可能通过 Steam 网络通信",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "启用后，你将尽可能通过 Steam 网络通信协议进行连接。在某些情况下，例如当 LNL 协议处于严重拥堵状态时，这将有所帮助。不过，由于该协议缺少某些功能，可能会导致网络更不稳定，因此我们建议只有在遇到问题时才启用该协议。",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL 数据包大小",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "该值会控制用于实时联网的 LNL 协议的窗口大小。 更改此设置将对你加入的所有会话立即生效。\n\n如果你遇到数据包排队的情况，可以增加该值，这样可以提高连接吞吐量。不过，数值越大也会使连接越不稳定，所以要注意。\n\n默认值：64\n\n请注意，此设置只是诊断和临时性的解决办法，将来会自动调整此值。",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "最大同时传输资产数",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "在开始会话时，该设置调整当时可以传输多少本地导入的资产。增加该值可以更快地向用户传输资产，但也会降低网络连接的质量。我们建议测试网络可以承受的数值。",
@@ -2057,6 +2070,9 @@
         "Inspector.Texture.NormalizeMinMax" : "归一化（最小值与最大值）",
         "Inspector.Texture.NormalizeIndependent" : "独立归一化RGB值（最小值与最大值）",
         "Inspector.Texture.BleedColorToAlpha" : "将颜色渗入Alpha",
+        "Inspector.Texture.AlphaGamma": "Alpha 伽玛",
+        "Inspector.Texture.AdjustAlphaGamma": " 调整 Alpha 伽玛",
+        "Inspector.Texture.AddAlpha": "添加 Alpha",
 
         "Inspector.Texture.InvalidFloats": "诊断：无效的浮点数",
         "Inspector.Texture.GenerateMetadata": "诊断：生成位图元数据",
