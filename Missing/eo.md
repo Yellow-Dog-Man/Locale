@@ -17,6 +17,9 @@ Notifications.UserJoined
 Notifications.UserLeft  
 AvatarCreator.ProtectionUnavailable  
 Importer.Image.Sprite  
+Importer.LUT.Failure.Heading  
+Importer.LUT.Failure.Description  
+Exporter.InvalidFileName  
 Export.PackageExportable.Package  
 Export.PackageExportable.PackageWithVariants  
 Export.AudioExportable.OriginalFormat  

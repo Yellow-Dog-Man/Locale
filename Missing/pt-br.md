@@ -78,9 +78,12 @@ Tooltip.ComponentClone.SingleInstanceOff
 Tooltip.ComponentClone.ClearTemplate  
 AvatarCreator.ProtectionUnavailable  
 Importer.Image.Sprite  
+Importer.LUT.Failure.Heading  
+Importer.LUT.Failure.Description  
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
+Exporter.InvalidFileName  
 Export.PackageExportable.Package  
 Export.PackageExportable.PackageWithVariants  
 Export.AudioExportable.OriginalFormat  

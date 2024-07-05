@@ -21,9 +21,12 @@ Tooltip.ProtoFlux.ExplicitCast
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
+Importer.LUT.Failure.Heading  
+Importer.LUT.Failure.Description  
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
+Exporter.InvalidFileName  
 Export.AudioExportable.OriginalFormat  
 Export.VideoExportable.OriginalFormat  
 Importer.Package.Progress.DecodingPackage  
