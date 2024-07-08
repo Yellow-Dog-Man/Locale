@@ -338,6 +338,8 @@ Importer.Folder.Minecraft.Description
 Importer.Image.Screenshot  
 Importer.Image.PixelArt  
 Importer.Image.Sprite  
+Importer.LUT.Failure.Heading  
+Importer.LUT.Failure.Description  
 Importer.Model.Advanced.PreferSpecular  
 Importer.Model.Advanced.Lights  
 Importer.Model.Advanced.SplitSubmeshes  
@@ -352,6 +354,7 @@ Exporter.FileName
 Exporter.ExportAs  
 Exporter.Export  
 Exporter.Exporting  
+Exporter.InvalidFileName  
 Export.PackageExportable.Package  
 Export.PackageExportable.PackageWithVariants  
 Export.AudioExportable.OriginalFormat  
@@ -679,6 +682,8 @@ Settings.RealtimeNetworkingSettings.DisableLAN
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
+Settings.RealtimeNetworkingSettings.LNL_WindowSize  
+Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description  
 Settings.AssetGatherSettings.MaxConcurrentDownloads  

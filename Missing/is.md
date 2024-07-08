@@ -255,6 +255,8 @@ Importer.Folder.Minecraft
 Importer.Folder.Minecraft.Description  
 Importer.Image.Sprite  
 Importer.Image.LUT  
+Importer.LUT.Failure.Heading  
+Importer.LUT.Failure.Description  
 Importer.ImageVideo.LayoutPrompt  
 Importer.ImageVideo.LayoutHorizontalLR  
 Importer.ImageVideo.LayoutHorizontalRL  
@@ -326,6 +328,7 @@ Exporter.FileName
 Exporter.ExportAs  
 Exporter.Export  
 Exporter.Exporting  
+Exporter.InvalidFileName  
 Export.PackageExportable.Package  
 Export.PackageExportable.PackageWithVariants  
 Export.AudioExportable.OriginalFormat  
@@ -786,6 +789,8 @@ Settings.RealtimeNetworkingSettings.DisableLAN
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
+Settings.RealtimeNetworkingSettings.LNL_WindowSize  
+Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description  
 Settings.AssetGatherSettings.MaxConcurrentDownloads  
