@@ -50,6 +50,7 @@ Recovery.NoPasswordSetup.Description
 Register.UnknownError  
 Register.UnknownError.Description  
 Profile.Status.Sociable  
+Contacts.IncompatibleSession  
 Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  

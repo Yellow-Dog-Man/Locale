@@ -562,6 +562,7 @@ Contacts.Blocked
 Contacts.SearchResult  
 Contacts.Bot  
 Contacts.Migrated  
+Contacts.IncompatibleSession  
 Notifications.IsSociable  
 Notifications.IsOnline  
 Notifications.IsOnlineOnDifferentVersion  

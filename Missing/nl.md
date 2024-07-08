@@ -180,6 +180,7 @@ Contacts.InContactsOnly
 Contacts.InHiddenContactsOnly  
 Contacts.InHiddenContactsPlus  
 Contacts.Migrated  
+Contacts.IncompatibleSession  
 Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
