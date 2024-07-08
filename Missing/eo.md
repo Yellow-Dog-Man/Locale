@@ -11,6 +11,7 @@ Login.MissingSecretMachineId.Description
 Login.MalformedSecretMachineId  
 Login.MalformedSecretMachineId.Description  
 Profile.Status.Sociable  
+Contacts.IncompatibleSession  
 Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
