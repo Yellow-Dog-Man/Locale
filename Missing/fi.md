@@ -4,6 +4,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Finnish [fi]
 World.Actions.GuestWarning  
 Contacts.Unblocked  
+Contacts.IncompatibleSession  
 Tooltip.ProtoFlux.Drive  
 Tooltip.ProtoFlux.Source  
 Tooltip.ProtoFlux.Reference  

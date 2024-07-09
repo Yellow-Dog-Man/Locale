@@ -263,6 +263,7 @@ Contacts.InHiddenContactsOnly
 Contacts.InHiddenContactsPlus  
 Contacts.Bot  
 Contacts.Migrated  
+Contacts.IncompatibleSession  
 Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  

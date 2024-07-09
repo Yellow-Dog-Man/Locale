@@ -7,6 +7,7 @@ General.Units.Imperial
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
 Profile.Status.Sociable  
+Contacts.IncompatibleSession  
 Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
