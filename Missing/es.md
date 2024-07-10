@@ -5,6 +5,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
 Profile.Status.Sociable  
+Contacts.IncompatibleSession  
 Notifications.IsSociable  
 Notifications.SessionStarted  
 Notifications.UserJoined  
