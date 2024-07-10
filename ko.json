@@ -929,6 +929,9 @@
         "Importer.Image.Stereo180": "스테레오 180도 사진",
         "Importer.Image.LUT": "색상보정시트(LUT)",
 
+        "Importer.LUT.Failure.Heading": "LUT 가져오기 실패 <color=hero.yellow>{image}</color>",
+        "Importer.LUT.Failure.Description": "LUT 가져오기 실패 사유:\n\n<color=hero.red>{error}</color>",
+
         "Importer.ImageVideo.LayoutPrompt": "사용할 레이아웃을 선택하세요.",
         "Importer.ImageVideo.LayoutHorizontalLR": "양쪽으로 배치(LR)",
         "Importer.ImageVideo.LayoutHorizontalRL": "양쪽으로 배치(RL)",
@@ -1022,6 +1025,7 @@
         "Exporter.ExportAs": "내보낼 유형:",
         "Exporter.Export": "내보내기",
         "Exporter.Exporting": "내보내는 중...",
+        "Exporter.InvalidFileName": "파일 이름이 잘못되었습니다.",
 
         "Export.PackageExportable.Package": "레소나이트 패키지",
         "Export.PackageExportable.PackageWithVariants": "레소나이트 패키지 <size=75%>(베리언트 포함)</size>",
@@ -1564,6 +1568,8 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "활성화하면 지역망 내에서의 세션 브로드캐스팅이 양방향으로 모두 중단됩니다.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "스팀(Steam) 네트워킹 소켓을 우선적용",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "활성화되면 Steam 네트워킹 소켓 프로토콜을 우선하여 연결합니다. 이는 LNL 프로토콜로 인해 심각한 대기열이 발생하는 경우에 도움이 될 수 있습니다. 그러나 이 프로토콜에는 일부 기능이 누락되어있어 연결상태가 불안정해 질 수 있으므로, 문제가 있을 경우만 활성화 하는것을 추천드립니다.",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL 윈도우 사이즈",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "실시간 네트워킹을 위한 LNL 프토로콜의 통신 대역폭을 제어합니다. 모든 활성세션에 대해 즉시 반영됩니다.\n\n통신이 느릴경우 이 값을 늘려 처리량을 향상 시킬 수 있으나, 그만큼 연결이 불안정해 질 수도 있으니 주의하세요.\n\n<color=hero.yellow>기본값:</color> 64\n\n<color=hero.red>중요:</color> 이 설정은 문제진단 또는 일시적인 문제 해결을 위한 것입니다. 추후 자동으로 제어될 예정입니다.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "자산의 최대 동시 전송량",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "세션 호스팅 시 한 번에 전송할 자산의 수를 설정합니다. 높이면 그만큼 빠르게 다른 사용자들에게 전달이 가능하지만, 네트워크 품질이 저하됩니다. 네트워크 성능을 고려하여 적절한 값으로 조정하세요.",

@@ -658,6 +658,7 @@
         "Contacts.SearchResult": "Suchergebnis",
         "Contacts.Bot": "Bot-Konto",
         "Contacts.Migrated": "Kontakt ist noch nicht migriert",
+        "Contacts.IncompatibleSession": "Inkompatible Sitzung",
 
         "Notifications.IsSociable": "Ist gesellig, bitte anstupsen oder einladen!",
         "Notifications.IsOnline": "Ist jetzt Online",
@@ -929,6 +930,9 @@
         "Importer.Image.Stereo180": "Stereo-180-Grad-Foto",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.LUT.Failure.Heading": "LUT-Import fehlgeschlagen <color=hero.yellow>{image}</color>",
+        "Importer.LUT.Failure.Description": "Der Import der LUT ist aus diesem Grund fehlgeschlagen:\n\n<color=hero.red>{error}</color>",
+
         "Importer.ImageVideo.LayoutPrompt": "Was für ein Layout hat die Datei?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Nebeneinander Links Rechts",
         "Importer.ImageVideo.LayoutHorizontalRL": "Nebeneinander Rechts Links",
@@ -1022,6 +1026,7 @@
         "Exporter.ExportAs": "Exportieren als:",
         "Exporter.Export": "Export",
         "Exporter.Exporting": "Wird exportiert...",
+        "Exporter.InvalidFileName": "Ungültiger Dateiname",
 
         "Export.PackageExportable.Package": "Resonite Paket",
         "Export.PackageExportable.PackageWithVariants": "Resonite Paket <size=75%>(+Varianten)</size>",
@@ -1565,7 +1570,7 @@
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Bevorzuge Steam Networking Sockets",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Wenn dies aktiviert ist, werden sofern möglich Steam Networking Sockets für Verbindungen verwendet. Dies kann Ihnen helfen, wenn das LNL-Protokoll erhebliche Paketverzögerungen verursacht. Da diesem Protokoll allerdings einige Funktionalitäten fehlen, kann es zu mehr Stabilitätsproblemen führen, daher empfehlen wir es nur zu aktivieren, wenn Sie Probleme bemerken.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL Fenstergröße",
-        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Dies stellt die Fenstergröße für das LNL-Protokoll für Echtzeit-Netzwerke ein. Eine Änderung wirkt sich sofort auf alle Sitzungen aus, an denen Sie teilnehmen.\n\nSollten Sie feststellen, dass es zu Paketstaus kommt, können Sie diesen Wert erhöhen, wodurch sich der Durchsatz der Verbindung verbessern kann. Allerdings können größere Werte die Verbindung auch instabiler machen, seien Sie also vorsichtig.\n\nStandardwert: 64\n\nBeachten Sie, dass es sich bei dieser Einstellung um eine vorübergehende Behelfslösung handelt, die auch der Diagnose dient. Dieser Wert wird in Zukunft automatisch angepasst.",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Dies stellt die Fenstergröße für das LNL-Protokoll für Echtzeit-Netzwerke ein. Eine Änderung wirkt sich sofort auf alle Sitzungen aus, an denen Sie teilnehmen.\n\nSollten Sie feststellen, dass es zu Paketstaus kommt, können Sie diesen Wert erhöhen, wodurch sich der Durchsatz der Verbindung verbessern kann. Allerdings können größere Werte die Verbindung auch instabiler machen, seien Sie also vorsichtig.\n\n<color=hero.yellow>Standardwert:</color> 64\n\n<color=hero.red>WICHTIG:</color> Beachten Sie, dass es sich bei dieser Einstellung um eine vorübergehende Behelfslösung handelt, die auch der Diagnose dient. Dieser Wert wird in Zukunft automatisch angepasst.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Maximale Anzahl gleichzeitiger Asset-Übertragungen",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "Wenn Sie eine Sitzung hosten, beeinflusst diese Einstellung, wie viele lokal importierte Assets gleichzeitig von ihrem Computer übertragen werden können. Wenn Sie diesen Wert erhöhen, werden Assets schneller an andere Benutzer übertragen, es kann aber die Qualität ihrer Netzwerkverbindung beeinträchtigen. Wir empfehlen zu testen, welchen Wert ihr Netzwerk aushalten kann.",
