@@ -2,6 +2,7 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # German [de]
+Contacts.IncompatibleSession  
 Importer.LUT.Failure.Heading  
 Importer.LUT.Failure.Description  
 Exporter.InvalidFileName  
