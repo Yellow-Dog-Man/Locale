@@ -658,6 +658,7 @@
         "Contacts.SearchResult": "Etsinnän tulos",
         "Contacts.Bot": "Robotti",
         "Contacts.Migrated": "Kontakti ei ole siirtänyt tiliään",
+        "Contacts.IncompatibleSession": "Yhteensopimaton sessio",
 
         "Notifications.IsSociable": "Asetti tilansa sosiaaliseksi",
         "Notifications.IsOnline": "On nyt Online",
@@ -929,6 +930,9 @@
         "Importer.Image.Stereo180": "180° stereokuva",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.LUT.Failure.Heading": "LUT:n tuonti epäonnistui <color=hero.yellow>{image}</color>",
+        "Importer.LUT.Failure.Description": "LUT:n tuonti epäonnistui seuraavista syistä:\n\n<color=hero.red>{error}</color>",
+
         "Importer.ImageVideo.LayoutPrompt": "Mitä asettelua se käyttää?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Rinnakkain Vasen/Oikea",
         "Importer.ImageVideo.LayoutHorizontalRL": "Rinnakkain Oikea/Vasen",
@@ -1022,6 +1026,7 @@
         "Exporter.ExportAs": "Vie nimellä:",
         "Exporter.Export": "Vie",
         "Exporter.Exporting": "Viedään...",
+        "Exporter.InvalidFileName": "Virheellinen tiedostonimi",
 
         "Export.PackageExportable.Package": "Resonite Package",
         "Export.PackageExportable.PackageWithVariants": "Resonite Package <size=50%>(+variantit)</size>",
@@ -1434,11 +1439,11 @@
         "Settings.HapticPointMapping.PointRadius.Description": "Tämän avulla voit säätää haptisen pisteen kokoa avatarissa. Sen suurentaminen helpottaa aktivointia isommalta etäisyydeltä, mutta se vähentää myös tarkkuutta, sillä mikä tahansa pisteen alueella oleva haptinen aktivointi käynnistää haptiikan.",
 
         "Settings.HapticPointMapping.TorsoHorizontalPosition": "Vaakasuuntainen paikoitus vartalossa",
-
+        "Settings.HapticPointMapping.TorsoHorizontalPosition.Description": "Haptisen pisteen vaakasuora sijainti vartaloa pitkin. Vasemmalta oikealle.",
         "Settings.HapticPointMapping.TorsoVerticalPosition": "Vertikaalinen paikoitus vartalossa",
-
+        "Settings.HapticPointMapping.TorsoVerticalPosition.Description": "Haptisen pisteen vertikaali sijainti vartaloa pitkin. Alhaalta ylöspäin.",
         "Settings.HapticPointMapping.TorsoSide": "Vartalon puoli",
-
+        "Settings.HapticPointMapping.TorsoSide.Description": "Kummalla puolella vartaloa laite on. Edessä vai takana.",
 
         "Settings.HapticPointMapping.HeadPitchAngle": "Pään poikkiakselin -Pitch aste",
 
@@ -1524,9 +1529,9 @@
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Tämä säätää kuinka kovalla muut äänet ovat, kun nauhoitat ääniviestiä Kontaktit -välilehdessä.",
 
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Puheen normalisointi",
-
+        "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Tämä toiminto pyrkii varmistamaan, että puheesi saadaan yhdenmukaiseen äänitasoon. Näin äänenvoimakkuutesi on sama kuin muilla käyttäjillä mikrofoniasetuksista riippumatta. Suosittelemme, että pidät tämän asetuksen käytössä, jotta muut käyttäjät kuulevat sinut hyvin.",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "Kohinakynnys",
-
+        "Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description": "Kohinakynnys estää satunnaisten äänien lähettämisen muille käyttäjille. Tämä asetus säätää, milloin mikrofonistasi tuleva ääni pitäisi päästää läpi. Jos taustamelu pääsee läpi, suurenna tätä asetusta, jos puheesi ei pääse läpi, pienennä sitä.",
         "Settings.AudioInputFilteringSettings.NoiseGateAttack": "Kohinakynnyksen nopeus",
 
         "Settings.AudioInputFilteringSettings.NoiseGateHold": "Kohinakynnyksen pito",
@@ -1538,7 +1543,7 @@
 
 
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Kohinanvaimennus (RNNoise)",
-
+        "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Tämä toiminto käsittelee saapuvan äänen ja suodattaa pois useita ei-toivottuja ääniä. Tämä voi puhdistaa meluisista mikrofoneista tulevaa ääntä huomattavasti puhtaamman äänen aikaansaamiseksi. Suosittelemme tämän asetuksen pitämistä päällä. Toiminto voi kuitenkin suodattaa pois myös tiettyjä ääniä, joita ei tunnisteta puheeksi.",
 
         "Settings.VoiceSettings": "Puheasetukset",
         "Settings.VoiceSettings.MutePersistence": "Mykistyksen pysyvyys",
@@ -1564,6 +1569,8 @@
 
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Suosi Steam verkkoliitäntää",
 
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL ikkunan koko",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Tämä säätää LNL-protokollan ikkunan kokoa reaaliaikaista verkkoliikennettä varten. Tämän asetuksen muuttaminen vaikuttaa välittömästi kaikkiin aktiivisiin sessioihin.\n\nJos havaitset pakettien jonoutumista, voit suurentaa tätä arvoa yhteyden läpäisykyvyn parantamiseksi. Suuremmat arvot voivat kuitenkin myös heikentää yhteyden vakautta entisestään, joten ole varovainen.\n\n<color=hero.yellow>Oletusarvo:</color> 64\n\n<color=hero.red>TÄRKEÄÄ:</color> Tämä asetus on diagnostiikkaa ja väliaikaista korjausta varten; tämä arvo säätyy automaattisesti tulevaisuudessa.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Maksimimäärä samanaikaisia tiedostosiirtoja",
 
@@ -1577,9 +1584,9 @@
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Salli websocketit",
 
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Salli OSC vastaanotto",
-
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Tämä määrittää, voiko {appName} vastaanottaa ja käsitellä OSC-dataa.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Salli OSC lähetys",
-
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Tämä määrittää, voiko {appName} lähettää tietoja OSC-protokollan kautta kyseiselle vastaanottajalle.",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Edellisen hyperlinkin pyynnön syy",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Edellisen websocketin pyynnön syy",
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Edellisen OSC lähetyksen pyynnön syy",
@@ -1590,7 +1597,7 @@
         "Settings.UserRestrictionsSettings.DebugReset": "Nollaa käyttäjärajoitukset",
 
         "Settings.WindowsSettings.KeepOriginalScreenshotFormat": "Säilytä alkuperäinen kuvakaappauksen kuvaformaatti",
-
+        "Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description": "Ota tämä asetus käyttöön, jos haluat välttää kuvakaappausten muuntamisen JPG- tai PNG-muotoon, kun tallennat ne Windowsin Documents-kansioon. Tämä voi vaikeuttaa kuvien käyttöä, sillä jotkin sovellukset eivät ehkä pysty avaamaan tätä tiedostomuotoa.",
 
 
 
@@ -1681,7 +1688,7 @@
         "Settings.DesktopViewSettings.FollowCursor": "Seuraa kursoria",
 
         "Settings.DesktopViewSettings.Brightness": "Kirkkaus",
-
+        "Settings.DesktopViewSettings.Brightness.Description": "Työpöydän kirkkaus",
         "Settings.DesktopViewSettings.Opacity": "Läpinäkyvyys",
 
 
@@ -1778,7 +1785,7 @@
 
 
         "Settings.DescriptionField.NoTextTitle": "Lisätiedot",
-
+        "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Vie laaseri tai hiiren kursori asetuksen päälle nähdäksesi sen kuvauksen.</closeall>",
 
         "Settings.RelaySettings": "Verkkoreleet",
         "Settings.RelaySettings.AlwaysUseRelay": "Yhdistä aina releen kautta",
