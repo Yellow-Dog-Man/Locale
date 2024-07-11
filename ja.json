@@ -658,6 +658,7 @@
         "Contacts.SearchResult": "検索結果",
         "Contacts.Bot": "ボットアカウント",
         "Contacts.Migrated": "移行していないフレンド",
+        "Contacts.IncompatibleSession" : "互換性のないセッション",
 
         "Notifications.IsSociable" : "さんはひまです。気軽に交流しましょう!",
         "Notifications.IsOnline": "さんがオンラインになりました",
@@ -929,6 +930,9 @@
         "Importer.Image.Stereo180": "ステレオ​180°​画像",
         "Importer.Image.LUT": "ルックアップ​テーブル​(LUT)",
 
+        "Importer.LUT.Failure.Heading": "LUTのインポートに失敗しました<color=hero.yellow>{image}</color>",
+        "Importer.LUT.Failure.Description": "以下の理由でLUTのインポートに失敗しました\n\n<color=hero.red>{error}</color>",
+
         "Importer.ImageVideo.LayoutPrompt": "どのレイアウトを​使用していますか?",
         "Importer.ImageVideo.LayoutHorizontalLR": "サイドバイサイド LR",
         "Importer.ImageVideo.LayoutHorizontalRL": "サイドバイサイド RL",
@@ -1022,6 +1026,7 @@
         "Exporter.ExportAs": "ファイル形式:",
         "Exporter.Export": "エクスポート",
         "Exporter.Exporting": "エクスポート中...",
+        "Exporter.InvalidFileName": "無効なファイル名です",
 
         "Export.PackageExportable.Package": "Resonite​パッケージ",
         "Export.PackageExportable.PackageWithVariants": "Resonite​パッケージ​<size=50%>(+variants)</size>",
@@ -1563,6 +1568,8 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "LANを利用した機能が無効化されます。例えば、同じLAN内で動くセッションを表示したり、逆に同じLAN内にいる人が自分のセッションを見れるようにする機能などが含まれます。",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Steam Networking Socketsを優先",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "設定を有効にした場合、 Steam Networking Sockets プロトコルを利用してセッションに接続するようになります。これは、LNLプロトコル利用時に著しく遅延が発生する場合に役立ちます。ただし、このプロトコルにはいくつかの機能がないため、接続が不安定になる可能性があります",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNLウィンドウサイズ",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "リアルタイムネットワーキング用のLNLプロトコルで一度に送信できるデータ量を制御できます。この設定を変更すると、すべてのアクティブなセッションに即座に反映されます。\n\nパケット詰まりが発生する場合は、この値を大きくして通信のデータ量を増やすことができます。値を大きくすると接続がさらに不安定になることがあるので、注意が必要です。\n\n<color=hero.yellow>既定値:</color>64\n\n<color=hero.red>注意:</color>この設定は診断と一時的な回避を目的としています、この値は将来的に自動的に調整されます。",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "最大同時アセット転送数",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "セッションをホストしている時、ローカルファイル上のアセットを一度に転送できる数を設定できます。この数字を増やすと、ユーザーへのアセット転送が速くなりますが、ネットワーク接続の品質が低下する可能性があります。ネットワークが処理しきれる値を確認してみることをおすすめします。",
@@ -2069,6 +2076,9 @@
         "Inspector.Texture.NormalizeMinMax" : "正規化 (最大最小)",
         "Inspector.Texture.NormalizeIndependent" : "RGBを個別に正規化 (最大最小)",
         "Inspector.Texture.BleedColorToAlpha" : "透明部分に色を塗り足す",
+        "Inspector.Texture.AlphaGamma": "Alpha Gamma",
+        "Inspector.Texture.AdjustAlphaGamma": "Adjust Alpha Gamma",
+        "Inspector.Texture.AddAlpha": "Add Alpha",
 
         "Inspector.Texture.InvalidFloats": "診断: フロートが無効です",
         "Inspector.Texture.GenerateMetadata": "診断: ビットマップメタデータを生成します",
