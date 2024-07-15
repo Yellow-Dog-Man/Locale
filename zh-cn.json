@@ -1570,7 +1570,7 @@
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "尽可能通过 Steam 网络通信",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "启用后，你将尽可能通过 Steam 网络通信协议进行连接。在某些情况下，例如当 LNL 协议处于严重拥堵状态时，这将有所帮助。不过，由于该协议缺少某些功能，可能会导致网络更不稳定，因此我们建议只有在遇到问题时才启用该协议。",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL 数据包大小",
-        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "该值会控制用于实时联网的 LNL 协议的窗口大小。 更改此设置将对你加入的所有会话立即生效。\n\n如果你遇到数据包排队的情况，可以增加该值，这样可以提高连接吞吐量。不过，数值越大也会使连接越不稳定，所以要注意。\n\n默认值：64\n\n请注意，此设置只是诊断和临时性的解决办法，将来会自动调整此值。",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "该值会控制用于实时联网的 LNL 协议的数据包大小。 更改此设置将对你加入的所有会话立即生效。\n\n如果你遇到数据包排队的情况，可以增加该值，这样可以提高连接吞吐量。不过，数值越大也会使连接越不稳定，所以要谨慎。\n\n默认值：64\n\n请注意，此设置只是诊断和临时性的解决办法，将来会自动调整此值。",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "最大同时传输资产数",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "在开始会话时，该设置调整当时可以传输多少本地导入的资产。增加该值可以更快地向用户传输资产，但也会降低网络连接的质量。我们建议测试网络可以承受的数值。",
