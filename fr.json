@@ -342,6 +342,7 @@
         "World.Filter.MinimumUsers": "Nombre d'utilisateurs minimum: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Nombre de contacts minimum: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Hôtes serveurs de session seulement",
+        "World.Filter.IncompatibleSessions": "Sessions incompatibles",
         "World.Filter.MaxAccessLevel": "Niveau d'accès maximal:",
         "World.Filter.MinimumUptime": "Disponibilité minimale (uptime):",
         "World.Filter.Sorting": "Ordre:",
@@ -1381,10 +1382,14 @@
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Sauvegarder les photos",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Si activé, à chaque fois que vous prendrez une photo ou en sauvegarderez une, elle sera aussi sauvegardée dans Steam.",
 
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Forcer l'utilisation de Steam Voice quand Remote Play est en cours d'utilisation",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "Force votre périphérique d'entrée audio à utiliser Steam Voice quand vous utilisez Steam Remote Play. Cela est utile si vous ne voulez pas basculer automatiquement vers le microphone transmis par Remote Play.<br><br>Désactiver cette option est utile si vous voulez utiliser un autre périphérique audio - par exemple, un microphone externe.",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Traque des mains Leap Motion",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Quand activé, le Leap Motion sera utilisé pour traquer vos mains et doigts.",
         "Settings.LeapMotionSettings.Offset": "Compensation de la traque des mains",
         "Settings.LeapMotionSettings.Offset.Description": "C'est la compensation en mètres du capteur Leap Motion sur votre casque. Changez ces valeurs pour que la position de vos mains soit correcte.",
+
         "Settings.LeapMotionSettings.SnapDistance": "Distance d'attachement de la manette",
         "Settings.LeapMotionSettings.SnapDistance.Description": "Quand vos mains sont à une certaine distance de vos manettes, elles s'attachent à elles et utilisent leur traque. Cette option contrôle à quelle distance cela arrive.",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Traquer les mains en utilisant les manettes",
@@ -1601,8 +1606,6 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Déboguer les entrées",
         "Settings.DebugSettings.DebugInputBindings.Description": "Quand activé, vous verrez des informations concernant le système de liason d'entrées . Ceci est utile pour les développeurs.",
-        "Settings.DebugSettings.FetchIncompatibleSessions": "Montrer les sessions incompatibles",
-        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "Quand activé, vous verrez les sessions actives qui ne sont pas compatibles avec la version de votre client. Notez que vous ne pourrez pas rejoindre ces sessions.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Double-presser grip pour équiper un objet",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Quand activé, vous pourrez équiper des objets et gadgets en pressant le bouton de grip en succession rapide. Cette option sera probablement retirée dans le futur.",
