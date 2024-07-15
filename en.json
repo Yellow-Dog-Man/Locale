@@ -342,6 +342,7 @@
         "World.Filter.MinimumUsers": "Minimum Users: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Minimum Contacts: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Only Headless Hosts",
+        "World.Filter.IncompatibleSessions": "Incompatible sessions",
         "World.Filter.MaxAccessLevel": "Maximum Access Level:",
         "World.Filter.MinimumUptime": "Minimum Uptime:",
         "World.Filter.Sorting": "Sorting:",
@@ -1381,6 +1382,9 @@
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Save Screenshots",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "When you take a picture with this setting enabled, a copy will be saved to Steam screenshots.",
 
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Force Steam Voice when Remote Play is active",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "When enabled, this automatically forces the audio input to use Steam Voice when you play through Steam Remote Play. This helps so you don't need to switch automatically to use the forwarded microphone input.<br><br>Disabling this can be useful if you want to use your own audio device - e.g. external micrphone.",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion hand tracking",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "When enabled, Leap Motion device will be used to track your hands and fingers when present.",
         "Settings.LeapMotionSettings.Offset": "Hand tracking offset",
@@ -1601,8 +1605,6 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Debug input bindings",
         "Settings.DebugSettings.DebugInputBindings.Description": "When enabled, you will see a debugging information for the input binding system. This is mostly useful for developers.",
-        "Settings.DebugSettings.FetchIncompatibleSessions": "Fetch incompatible sessions",
-        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "When enabled, you will see active sessions that are not compatible with your current client and that you are unable to join.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Double press grip to equip items",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "When enabled, you can equip tools and gadgets by pressing grip twice in rapid succession. This setting will likely get removed at some point.",
