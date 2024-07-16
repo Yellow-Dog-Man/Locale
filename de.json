@@ -342,6 +342,7 @@
         "World.Filter.MinimumUsers": "Minimale Anzahl Benutzer: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Minimale Anzahl Kontakte: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Nur dedizierte Hosts",
+        "World.Filter.IncompatibleSessions": "Inkompatible Sitzung",
         "World.Filter.MaxAccessLevel": "Maximale Beitrittsberechtigung:",
         "World.Filter.MinimumUptime": "Minimale Laufzeit:",
         "World.Filter.Sorting": "Sortierung:",
@@ -1381,6 +1382,9 @@
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Screenshots speichern",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Wenn diese Einstellung aktiviert ist, wird bei der Aufnahme eines Bildes eine Kopie in Steam Screenshots gespeichert.",
 
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Steam Voice erzwingen, wenn Remote Play aktiv ist",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "Wenn diese Option aktiviert ist, wird das Audio-Aufnahmegerät automatisch auf Steam Voice umgeschaltet, wenn Sie über Steam Remote Play spielen. Auf diese Weise müssen Sie nicht selbst auf den weitergeleiteten Mikrofoneingang umschalten.<br><br>Das Abschalten dieser Funktion kann nützlich sein, wenn Sie ein anderes Aufnahmegerät verwenden möchten - z. B. ein externes Mikrofon.",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion Hand Tracking",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Wenn dies aktiviert ist, wird ein Leap Motion Gerät zum Verfolgen Ihrer Hände verwendet, sofern es vorhanden ist.",
         "Settings.LeapMotionSettings.Offset": "Hand Tracking Versatz",
@@ -1601,8 +1605,6 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Debug Eingabebindungen",
         "Settings.DebugSettings.DebugInputBindings.Description": "Wenn Sie dies aktivieren, sehen Sie Debugging-Informationen für das Eingabebindungs-System. Dies ist hauptsächlich für Entwickler nützlich.",
-        "Settings.DebugSettings.FetchIncompatibleSessions": "Zeige inkompatible Sitzungen",
-        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "Wenn dies aktiviert ist, sehen Sie aktive Sitzungen, die nicht mit ihrer aktuellen Client-Version kompatibel sind und denen Sie nicht beitreten können.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Doppel-Druck auf Griff, um Gegenstände auszurüsten",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wenn dies aktiviert ist, können Sie Tools und andere ausrüstbare Objekte ausrüsten, indem Sie ihren Griff zweimal schnell nacheinander drücken. Diese Einstellung wird wahrscheinlich irgendwann entfernt werden.",
