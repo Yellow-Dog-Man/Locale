@@ -183,9 +183,11 @@
         "World.Connection.SyncingInitialState": "Synchronisation de l'état initial du monde",
 
         "World.Connection.LNL.DirectIP": "LNL Direct IP",
+        "World.Connection.LNL.LNLPoke": "Demander un Poke LNL",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT Punchthrough {n}",
         "World.Connection.LNL.Relay": "LNL Relay",
         "World.Connection.SteamNetworkingSockets": "Steam Networking Sockets",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "Accès refusé",
         "World.Error.SecurityViolation": "Violation de sécurité",
@@ -1574,6 +1576,8 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Désactive les fonctionnalités de réseau spécifiques aux réseaux locaux telles qu'annoncer vos sessions sur le réseau local ou écouter en l'attente d'autres sessions sur le réseau local.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Préférer les Steam Networking Sockets",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Quand activé, vous vous connecterez aux sessions via le protocole Steam Networking Sockets si possible. Ceci peut aider dans les cas où le protocole LNL crée trop de queue pour les paquets. Cependant, ce protocole manque de certaines fonctionnalités, pouvant créer de l'instabilité, donc nous vous recommandons de ne l'activer que si vous avez des problèmes avec les autres protocoles.",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "Préférer TCP",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Quand activé, les connections sur TCP sont préférées. Cela affecte le plus les connections locales étant donné que TCP n'est pas utilisé par défaut pour se connecter sur internet.\n\nTCP peut avoir une meilleure performance sur un réseau local et fonctionner sur certains réseaux ou les protocoles basés sur UDP ne fonctionnent pas.\n\nCependant, ils peuvent également souffrir d'un blocage en \"tête de ligne\", ce qui entraîne un retard important des voix et des poses.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "Taille de la fenêtre LNL",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Contrôle la taille de la fenêtre du protocole LNL, pour le réseautage en temps réel. Changer cette option aura un effet immédiat dans toutes les sessions que vous aurez rejoint.\n\nSi vous rencontrez du \"packet queuing\" (queue pour la réception des paquets), augmenter cette valeur peut améliorer le débit de la connection, au coût de la stabilité.\n\n<color=hero.yellow>Valeur par défaut:</color> 64\n\n<color=hero.red>IMPORTANT:</color> Notez que cette option est présente pour le diagnostic et n'est qu'une solution temporaire; cette valeur sera ajustée automatiquement dans le futur.",
 
