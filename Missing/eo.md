@@ -6,6 +6,8 @@ Interaction.SaveToInventory.NotLoggedIn
 Interaction.SaveToInventory.NoWritePermission  
 Interaction.CopyImage  
 Inventory.Favorite.Document  
+World.Connection.LNL.LNLPoke  
+World.Connection.TCP  
 World.Filter.IncompatibleSessions  
 Login.MissingSecretMachineId  
 Login.MissingSecretMachineId.Description  

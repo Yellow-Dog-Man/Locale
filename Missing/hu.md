@@ -22,8 +22,10 @@ Inventory.Favorite.AudioStreamController
 Inventory.Favorite.TextDisplay  
 Inventory.SpawnFacet  
 Dash.Exit.SubmittedBy  
+World.Connection.LNL.LNLPoke  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
+World.Connection.TCP  
 World.Error.SecurityViolation  
 World.Actions.CopyRecordURL  
 World.Indicator.Sessions  

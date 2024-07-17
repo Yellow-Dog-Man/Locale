@@ -6,6 +6,8 @@ General.Units.Metric
 General.Units.Imperial  
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
+World.Connection.LNL.LNLPoke  
+World.Connection.TCP  
 World.Filter.IncompatibleSessions  
 Profile.Status.Sociable  
 Contacts.IncompatibleSession  

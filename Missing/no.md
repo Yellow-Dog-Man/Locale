@@ -7,6 +7,8 @@ Interaction.SaveToInventory.NoWritePermission
 Interaction.CopyImage  
 Inventory.Favorite.Document  
 World.Loaded  
+World.Connection.LNL.LNLPoke  
+World.Connection.TCP  
 World.Filter.IncompatibleSessions  
 Login.InvalidCredentials.Description  
 Login.InvalidLogin.Description  

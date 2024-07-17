@@ -4,6 +4,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Spanish [es]
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
+World.Connection.LNL.LNLPoke  
+World.Connection.TCP  
 World.Filter.IncompatibleSessions  
 Profile.Status.Sociable  
 Contacts.IncompatibleSession  

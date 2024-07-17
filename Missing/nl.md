@@ -49,6 +49,8 @@ Dash.Exit.Shoutouts.AndMore
 Dash.Exit.Shoutouts.You  
 Facets.FPS  
 World.Loaded  
+World.Connection.LNL.LNLPoke  
+World.Connection.TCP  
 World.Error.HostBlocked  
 World.Error.HostBlockedDetail  
 World.Error.WorldCrash  

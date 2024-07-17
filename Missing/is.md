@@ -15,9 +15,11 @@ Inventory.SpawnFacet
 Dash.Actions.TurnOffUIEdit  
 Facets.FPS  
 World.Connection.LNL.DirectIP  
+World.Connection.LNL.LNLPoke  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
+World.Connection.TCP  
 World.Error.FailedToConnect  
 World.Error.InvalidAddress  
 World.Error.HostBlocked  

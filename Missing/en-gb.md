@@ -159,9 +159,11 @@ World.Connection.Authenticating
 World.Connection.Connected  
 World.Connection.SyncingInitialState  
 World.Connection.LNL.DirectIP  
+World.Connection.LNL.LNLPoke  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
+World.Connection.TCP  
 World.Error.AccessDenied  
 World.Error.SecurityViolation  
 World.Error.OnlyRegisteredUsers  
