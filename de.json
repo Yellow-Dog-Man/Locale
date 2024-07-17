@@ -182,10 +182,12 @@
         "World.Connection.Connected": "Verbunden",
         "World.Connection.SyncingInitialState": "Synchronisiere initialen Weltzustand",
 
-        "World.Connection.LNL.DirectIP": "LNL Direkt IP",
+        "World.Connection.LNL.DirectIP": "LNL Direkt IP<br><size=75%>{address}</size>",
+        "World.Connection.LNL.LNLPoke": "Fordere LNL Poke an",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT Punchthrough {n}",
         "World.Connection.LNL.Relay": "LNL Relay",
         "World.Connection.SteamNetworkingSockets": "Steam Netzwerk Socket",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "Beitritt verweigert",
         "World.Error.SecurityViolation": "Sicherheitsverletzung",
@@ -1573,6 +1575,8 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Dies deaktiviert Netzwerkfunktionen in ihrem lokalen Netzwerk, zum Beispiel das Übertragen ihrer Sitzungen oder suchen nach anderen lokalen Sitzungen.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Bevorzuge Steam Networking Sockets",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Wenn dies aktiviert ist, werden sofern möglich Steam Networking Sockets für Verbindungen verwendet. Dies kann Ihnen helfen, wenn das LNL-Protokoll erhebliche Paketverzögerungen verursacht. Da diesem Protokoll allerdings einige Funktionalitäten fehlen, kann es zu mehr Stabilitätsproblemen führen, daher empfehlen wir es nur zu aktivieren, wenn Sie Probleme bemerken.",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "Bevorzuge TCP",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Wenn dies aktiviert ist, werden Verbindungen über TCP gegenüber allen anderen Protokollen bevorzugt. Dies betrifft vor allem Verbindungen im LAN, da TCP standardmäßig nicht für Verbindungen über das Internet verwendet wird.\n\nTCP kann in lokalen LAN-Netzwerken eine bessere Leistung bringen und auch in bestimmten Netzwerken funktionieren, in denen UDP-basierte Protokolle nicht funktionieren.\n\nEs kann jedoch unter einer \"Head-of-Line\" Blockierung leiden, wodurch Stimmen und Posen erheblich verzögert werden können.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL Fenstergröße",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Dies stellt die Fenstergröße für das LNL-Protokoll für Echtzeit-Netzwerke ein. Eine Änderung wirkt sich sofort auf alle Sitzungen aus, an denen Sie teilnehmen.\n\nSollten Sie feststellen, dass es zu Paketstaus kommt, können Sie diesen Wert erhöhen, wodurch sich der Durchsatz der Verbindung verbessern kann. Allerdings können größere Werte die Verbindung auch instabiler machen, seien Sie also vorsichtig.\n\n<color=hero.yellow>Standardwert:</color> 64\n\n<color=hero.red>WICHTIG:</color> Beachten Sie, dass es sich bei dieser Einstellung um eine vorübergehende Behelfslösung handelt, die auch der Diagnose dient. Dieser Wert wird in Zukunft automatisch angepasst.",
 
