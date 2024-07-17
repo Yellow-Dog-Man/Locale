@@ -183,9 +183,11 @@
         "World.Connection.SyncingInitialState": "동기화가 진행중입니다.",
 
         "World.Connection.LNL.DirectIP": "LNL Direct IP",
+        "World.Connection.LNL.LNLPoke": "Requesting LNL Poke",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT Punchthrough {n}",
         "World.Connection.LNL.Relay": "LNL Relay",
         "World.Connection.SteamNetworkingSockets": "스팀 네트워크 소켓",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "접근이 거부되었습니다.",
         "World.Error.SecurityViolation": "보안 위반이 발생하였습니다.",
@@ -1573,6 +1575,8 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "활성화하면 지역망 내에서의 세션 브로드캐스팅이 양방향으로 모두 중단됩니다.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "스팀(Steam) 네트워킹 소켓을 우선적용",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "활성화되면 Steam 네트워킹 소켓 프로토콜을 우선하여 연결합니다. 이는 LNL 프로토콜로 인해 심각한 대기열이 발생하는 경우에 도움이 될 수 있습니다. 그러나 이 프로토콜에는 일부 기능이 누락되어있어 연결상태가 불안정해 질 수 있으므로, 문제가 있을 경우만 활성화 하는것을 추천드립니다.",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "TCP 우선",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "활성화 한 경우, TCP를 다른 프로토콜보다 우선적으로 선택하게 됩니다. TCP는 기본적으로 인터넷을 통한 연결에 사용되지 않으므로, 이 설정은 LAN 연결에 영향을 미칩니다.\n\nTCP는 LAN 환경에서 더 좋은 성능을 발휘할 수 있으며, UDP 기반 프로토콜이 동작하지 않는 특정한 네트워크 환경에서도 동작할 수 있습니다.\n\n그러나 \"head of line\" 차단으로 인해 음성 및 아바타의 동작등이 크게 지연될 수 있습니다.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL 윈도우 사이즈",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "실시간 네트워킹을 위한 LNL 프토로콜의 통신 대역폭을 제어합니다. 모든 활성세션에 대해 즉시 반영됩니다.\n\n통신이 느릴경우 이 값을 늘려 처리량을 향상 시킬 수 있으나, 그만큼 연결이 불안정해 질 수도 있으니 주의하세요.\n\n<color=hero.yellow>기본값:</color> 64\n\n<color=hero.red>중요:</color> 이 설정은 문제진단 또는 일시적인 문제 해결을 위한 것입니다. 추후 자동으로 제어될 예정입니다.",
 
