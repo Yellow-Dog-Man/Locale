@@ -342,6 +342,7 @@
         "World.Filter.MinimumUsers": "ユーザーが「<b>{n}</b>」人以上いるセッション",
         "World.Filter.MinimumContacts": "フレンドが「<b>{n}</b>」人以上いるセッション",
         "World.Filter.OnlyHeadless": "ヘッドレスのみ",
+        "World.Filter.IncompatibleSessions": "互換性のないセッション",
         "World.Filter.MaxAccessLevel": "最大アクセスレベル:",
         "World.Filter.MinimumUptime": "最小経過時間:",
         "World.Filter.Sorting": "並べ替え:",
@@ -1381,6 +1382,9 @@
         "Settings.SteamIntegrationSettings.SaveScreenshots": "スクリーンショットを保存",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "この設定を有効にしておくと、写真を撮った際にSteamのスクリーンショットとしても保存されます。",
 
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Steamリモートプレイ時、Steam Voiceに切り替える",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "有効にすると、Steamリモートプレイを使用する際に、音声入力が自動的にSteam Voiceを使用するようになります。これにより、音声が転送されるマイク入力を使用するように自動的に切り替える必要がなくなります。<br><br>外部マイクなど、独自のオーディオデバイスを使用する場合は、無効にしてください。",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion ハンドトラッキング",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "設定を有効にした場合、Leap Motionデバイスがあれば、それにより手や指のトラッキングを行います。",
         "Settings.LeapMotionSettings.Offset": "ハンドトラッキングのオフセット",
@@ -1600,12 +1604,12 @@
 
         "Settings.DebugSettings.DebugInputBindings": "インプットバインディングのデバッグ",
         "Settings.DebugSettings.DebugInputBindings.Description": "設定を有効にした場合、インプットバインディングシステムのデバッグ情報が表示されます。主に開発者向けの機能です。",
-        
+
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "ダブルグリップでアイテムを装備",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "有効にすると、グリップを2回連続で押すことでツールやアイテムを装備できます。この設定は将来削除されます。",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "レガシーワールドスイッチャーを使用",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "設定を有効にした場合、利き手ではない方のアプリボタンを押すことでレガシーワールドスイッチャーが開き、セッションを切り替えることができます。この機能は将来、より柔軟なソリューションに置き換えられる予定です",
-         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "インベントリとセッションジェスチャーのショートカットを使用する",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "インベントリとセッションジェスチャーのショートカットを使用する",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "有効にすると、グリップを握ったままAppボタン（ダッシュメニューを開閉するボタン）を押すと、レガシーのインベントリーまたはセッションメニューが開きます。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitchチャンネル名",

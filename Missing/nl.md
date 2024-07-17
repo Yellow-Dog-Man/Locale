@@ -49,6 +49,8 @@ Dash.Exit.Shoutouts.AndMore
 Dash.Exit.Shoutouts.You  
 Facets.FPS  
 World.Loaded  
+World.Connection.LNL.LNLPoke  
+World.Connection.TCP  
 World.Error.HostBlocked  
 World.Error.HostBlockedDetail  
 World.Error.WorldCrash  
@@ -616,6 +618,8 @@ Settings.RealtimeNetworkingSettings.DisableLAN
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
+Settings.RealtimeNetworkingSettings.PreferTCP  
+Settings.RealtimeNetworkingSettings.PreferTCP.Description  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers  
