@@ -2127,8 +2127,6 @@ CloudHome.Panel.ReadingLounge
 CloudHome.Panel.Lounge  
 CloudHome.Panel.Center  
 CloudHome.Panel.Balcony  
-CloudHome.Panel.Theater  
-CloudHome.Panel.TheaterControl  
 CloudHome.Panel.FanControl  
 CloudHome.Panel.WindowControl  
 CloudHome.Panel.FanSpeed  
@@ -2199,7 +2197,6 @@ UI.VideoPlayer.SpatialAudio
 UI.VideoPlayer.AreaBroadcast  
 UI.VideoPlayer.BroadcastAudio  
 UI.VideoPlayer.EnterURL  
-UI.VideoPlayer.AudioZoneTheater  
 UI.VideoPlayer.AudioZoneGlobal  
 UI.VideoPlayer.UsersLoaded  
 UI.VideoPlayer.AllUsersLoaded  
