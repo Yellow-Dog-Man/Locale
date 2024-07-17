@@ -8,6 +8,8 @@ Interaction.CopyImage
 Inventory.CreateDirectory  
 Inventory.GetURL  
 Inventory.Favorite.Document  
+World.Connection.LNL.LNLPoke  
+World.Connection.TCP  
 World.Filter.IncompatibleSessions  
 Login.InvalidCredentials.Description  
 Login.InvalidLogin.Description  
@@ -408,6 +410,8 @@ Settings.RealtimeNetworkingSettings.DisableLAN
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
+Settings.RealtimeNetworkingSettings.PreferTCP  
+Settings.RealtimeNetworkingSettings.PreferTCP.Description  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers  

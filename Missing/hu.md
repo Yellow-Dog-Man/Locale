@@ -22,8 +22,10 @@ Inventory.Favorite.AudioStreamController
 Inventory.Favorite.TextDisplay  
 Inventory.SpawnFacet  
 Dash.Exit.SubmittedBy  
+World.Connection.LNL.LNLPoke  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
+World.Connection.TCP  
 World.Error.SecurityViolation  
 World.Actions.CopyRecordURL  
 World.Indicator.Sessions  
@@ -815,6 +817,8 @@ Settings.RealtimeNetworkingSettings.DisableLAN
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
+Settings.RealtimeNetworkingSettings.PreferTCP  
+Settings.RealtimeNetworkingSettings.PreferTCP.Description  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers  
