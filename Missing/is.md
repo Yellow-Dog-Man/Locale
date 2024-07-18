@@ -96,6 +96,8 @@ Account.TOTP.Message.DeactivationComplete
 2FA.Header  
 2FA.Token  
 Profile.Status.Sociable  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Session.JoinVerifier.EnableHeader  
 Session.JoinVerifier.EnableText  
 Session.JoinVerifier.Label  

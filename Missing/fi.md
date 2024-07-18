@@ -6,6 +6,8 @@ World.Connection.LNL.LNLPoke
 World.Connection.TCP  
 World.Actions.GuestWarning  
 World.Filter.IncompatibleSessions  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Contacts.Unblocked  
 Contacts.IncompatibleSession  
 Tooltip.ProtoFlux.Drive  

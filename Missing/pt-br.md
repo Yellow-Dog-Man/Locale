@@ -54,6 +54,8 @@ Recovery.NoPasswordSetup.Description
 Register.UnknownError  
 Register.UnknownError.Description  
 Profile.Status.Sociable  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Contacts.IncompatibleSession  
 Notifications.IsSociable  
 Notifications.SessionStarted  

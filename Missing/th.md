@@ -477,6 +477,8 @@ Profile.Status.Busy
 Profile.Status.Invisible  
 Profile.Status.Offline  
 Profile.Status.Headless  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Session.Tab.Settings  
 Session.Tab.Users  
 Session.Tab.Permissions  

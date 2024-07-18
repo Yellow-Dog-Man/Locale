@@ -14,6 +14,8 @@ Login.MissingSecretMachineId.Description
 Login.MalformedSecretMachineId  
 Login.MalformedSecretMachineId.Description  
 Profile.Status.Sociable  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Contacts.IncompatibleSession  
 Notifications.IsSociable  
 Notifications.SessionStarted  

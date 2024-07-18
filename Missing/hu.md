@@ -59,6 +59,8 @@ Account.RecoveryCode
 Account.Requesting  
 Account.Saml2.Select  
 Profile.Status.Headless  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Session.Permission.ClearOverrides  
 Session.JoinVerifier.EnableHeader  
 Session.JoinVerifier.EnableText  

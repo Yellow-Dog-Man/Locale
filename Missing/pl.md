@@ -5,6 +5,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 World.Connection.LNL.LNLPoke  
 World.Connection.TCP  
 World.Filter.IncompatibleSessions  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Contacts.IncompatibleSession  
 Importer.LUT.Failure.Heading  
 Importer.LUT.Failure.Description  

@@ -167,6 +167,8 @@ Account.Type.Team
 Avatar.Badge.Live  
 Profile.Status.Sociable  
 Profile.Status.Headless  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Session.JoinVerifier.EnableHeader  
 Session.JoinVerifier.EnableText  
 Session.JoinVerifier.Label  

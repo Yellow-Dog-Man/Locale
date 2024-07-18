@@ -246,6 +246,8 @@ Avatar.Badge.Live
 2FA.Token  
 Profile.Status.Sociable  
 Profile.Status.Headless  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Session.JoinVerifier.EnableHeader  
 Session.JoinVerifier.EnableText  
 Session.JoinVerifier.Label  

@@ -8,6 +8,8 @@ World.Connection.LNL.LNLPoke
 World.Connection.TCP  
 World.Filter.IncompatibleSessions  
 Profile.Status.Sociable  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Contacts.IncompatibleSession  
 Notifications.IsSociable  
 Notifications.SessionStarted  
