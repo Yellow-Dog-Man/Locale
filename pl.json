@@ -344,6 +344,7 @@
         "World.Filter.MinimumUsers": "Minimum Użytkowników: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Minimalne kontakty: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Tylko Headless",
+        "World.Filter.IncompatibleSessions": "Niekompatybilne sesje",
         "World.Filter.MaxAccessLevel": "Najwyższy Poziom Dostępu:",
         "World.Filter.MinimumUptime": "Minimalny Czas Działania:",
         "World.Filter.Sorting": "Sortowanie:",
@@ -597,6 +598,8 @@
         "Profile.Status.Invisible": "Niewidzialny",
         "Profile.Status.Offline": "Offline",
         "Profile.Status.Headless": "Host Headless",
+        "Profile.Status.Bot": "<b>Bot:</b> {version}",
+        "Profile.Status.ChatClient": "<b>Klient czatowy:</b> {version}",
 
         "Session.Tab.Settings": "Ustawienia",
         "Session.Tab.Users": "Użytkownicy",
@@ -660,6 +663,7 @@
         "Contacts.SearchResult": "Wynik Wyszukiwania",
         "Contacts.Bot": "Konto Bota",
         "Contacts.Migrated": "Znajomy nie przeszedł Migracji",
+        "Contacts.IncompatibleSession" : "Niekompatybilna sesja",
 
         "Notifications.IsSociable": "Poszukuje towarzystwa, Wyślij im wiadomość lub zaproś ich!",
         "Notifications.IsOnline": "Jest teraz Online",
@@ -931,6 +935,9 @@
         "Importer.Image.Stereo180": "Zdjęcie Stereo 180",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.LUT.Failure.Heading": "Import LUT nie powiódł się <color=hero.yellow>{image}</color>",
+        "Importer.LUT.Failure.Description": "Import LUT nie powiódł się przez:\n\n<color=hero.red>{error}</color>",
+
         "Importer.ImageVideo.LayoutPrompt": "Z jakiego układu korzysta?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Obok Siebie LR",
         "Importer.ImageVideo.LayoutHorizontalRL": "Obok Siebie RL",
@@ -1024,6 +1031,7 @@
         "Exporter.ExportAs": "Eksportuj jako:",
         "Exporter.Export": "Eksport",
         "Exporter.Exporting": "Eksportowanie...",
+        "Exporter.InvalidFileName": "Nieprawidłowa nazwa pliku",
 
         "Export.PackageExportable.Package": "Pakiet Resonite",
         "Export.PackageExportable.PackageWithVariants": "Pakiet Resonite <size=75%>(+warianty)</size>",
@@ -1227,6 +1235,20 @@
 
         "Settings.UserMetricsSettings": "Parametry Użytkownika",
 
+        "Settings.OnlineStatusSettings" : "Ustawienia Statusu",
+        "Settings.OnlineStatusSettings.DefaultStatus" : "Domyślny Status",
+        "Settings.OnlineStatusSettings.DefaultStatus.Description" : "To jest domyślny status, który zostanie ustawiony po logowaniu, chyba że istnieje poprzednio zapamiętany status.",
+        "Settings.OnlineStatusSettings.RememberMode" : "Pamiętaj ostatni status",
+        "Settings.OnlineStatusSettings.RememberMode.Description" : "Użyj tego aby ustalić czy twój ostatnio używany status powinien być zachowany pomiędzy logowaniami czy nie. To dotyczy statusów innych niż Niewidzialny, który to jest kontrolowany przez inne ustawienie.",
+        "Settings.OnlineStatusSettings.RememberTimespan" : "Zapamiętaj status na",
+        "Settings.OnlineStatusSettings.RememberTimespan.Description" : "Twój ostatni status będzie zapamiętany tylko jeżeli zalogujesz się ponownie w tym czasie. Jeśli będziesz wylogowany dłużej, zaczniesz ze swoim domyślnym statusem.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode" : "Pamiętaj ostatni niewidzialny status",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "To kontroluje sposób w jaki twój ostatni status jest zapamiętywany, tylko jeżeli ostatnio byłeś Niewidzialny.\n\nNiewidzialny status ma osobne ustawienie dla prywatności. Możesz ustalić, że jeżeli ostatnio byłeś Niewidzialny, to pozostaniesz Niewidzialny przy następnym logowaniu, nawet jeśli inne twoje statusy nie są zapamiętywane.",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "Zapamiętaj niewidzialny status na",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "Twój ostatni niewidzialny status będzie zapamiętany tylko jeżeli zalogujesz się ponownie w tym czasie. Jeśli będziesz wylogowany dłużej, zaczniesz ze swoim domyślnym statusem.",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan" : "Zmień na Zaraz Wracam po",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description" : "Jeśli jesteś bezczynny przez ten okres czasu, twój status zostanie automatycznie ustawiony na Zaraz Wracam. Gdy wrócisz, zostanie ustawiony na poprzedni status, chyba że ustawiłeś go na Zaraz Wracam ręcznie.",
+
         "Settings.AudioInputDeviceSettings": "Urządzenie Wejścia",
         "Settings.AudioOutputDeviceSettings": "Urządzenie Wyjścia",
         "Settings.AudioVolumeSettings": "Głośność",
@@ -1237,7 +1259,7 @@
         "Settings.AssetGatherSettings": "Pobieranie zasobów",
 
         "Settings.HostAccessSettings": "Dostęp Hostów",
-        "Settings.UserRestrictionsSettings": "Ograniczenia Użytkownikoów",
+        "Settings.UserRestrictionsSettings": "Ograniczenia Użytkowników",
 
         "Settings.WindowsSettings": "Ustawienia Windows",
         "Settings.DebugSettings": "Debugowanie",
@@ -1290,7 +1312,14 @@
         "Settings.MovementSettings.NoClipSpeed.Description": "To ustawienie kontroluje jak szybko będziesz się poruszał w lokomocji Noclip. Ten typ lokomocji jest często używany przy budowaniu i testowaniu, dlatego nie jest kontrolowany przez świat w którym jesteś, gdzie inne tryby są kontrolowane.",
         "Settings.MovementSettings.MovementDeadzone": "Martwa Strefa Poruszania",
         "Settings.MovementSettings.MovementDeadzone.Description": "To ustawienie może być użyte aby poprawić dryfowanie kontrolera. To ustawienie spowoduje że będziesz musieć bardziej przeychlić joystick aby zacząć się poruszać.",
+        "Settings.MovementSettings.TurningDeadzone": "Martwa Strefa Obrotu",
+        "Settings.MovementSettings.TurningDeadzone.Description": "To ustawienie może być użyte aby poprawić dryfowanie kontrolera i zapobiec przypadkowemu obracaniu się. To ustawienie spowoduje że będziesz musieć bardziej przeychlić joystick aby zacząć się obracać.",
         "Settings.MovementSettings.MovementExponent": "Wykładnik Poruszania",
+        "Settings.MovementSettings.MovementExponent.Description": "To ustawienie może być użyte aby kontrolować krzywą, która modyfikuje poruszanie się. Możesz zacząć poruszać się powoli i później przyśpieszyć albo zacząć poruszać się szybko od razu, w zależności od tego czy wartość jest większa czy mniejsza niż 1.0.",
+
+        "Settings.GrabbingSettings": "Ustawienia Chwytania",
+        "Settings.GrabbingSettings.DefaultHandGrabType": "Domyślny Tryb Chwytania",
+        "Settings.GrabbingSettings.DefaultHandGrabType.Description": "To ustala twój domyślny tryb chwytania gdy pojawiasz się na nowym świecie.\n\n<color=hero.yellow>Dłoń:</color> Złapiesz wszystkie obiekty, które są w pobliżu twojej dłoni.\n\n<color=hero.yellow>Precyzja:</color> Złapiesz pojedynczy obiekt pomiędzy twoim palcem wskazującym i kciukiem.\n\n<color=hero.yellow>Automatyczna:</color> Tryb łapania jest automatycznie zmienany pomiędzy Dłonią i Precyzyjnym, w zależności od położenia twojej ręki.\n\n<color=hero.yellow>Wyłączone:</color> Będziesz mógł łapać przedmioty tylko laserami.",
 
         "LocomotionArchetype.Walk": "Chodzenie",
         "LocomotionArchetype.Fly": "Lot",
