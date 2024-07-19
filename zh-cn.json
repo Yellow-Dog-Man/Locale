@@ -182,10 +182,12 @@
         "World.Connection.Connected": "连接成功",
         "World.Connection.SyncingInitialState": "同步初始世界状态",
 
-        "World.Connection.LNL.DirectIP": "LNL IP 直连",
+        "World.Connection.LNL.DirectIP": "LNL IP 直连<br><size=75%>{address}</size>",
+        "World.Connection.LNL.LNLPoke": "、正在请求 LNL 探测连接",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT 穿透 {n}",
         "World.Connection.LNL.Relay": "LNL 中继",
         "World.Connection.SteamNetworkingSockets": "Steam 网络通讯",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "拒绝访问",
         "World.Error.SecurityViolation": "发生安全违例",
@@ -1573,6 +1575,8 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "这将禁用本地网络特有的联网功能，例如在本地网络上广播会话或监听本网络上广播的其他会话。",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "尽可能通过 Steam 网络通信",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "启用后，你将尽可能通过 Steam 网络通信协议进行连接。在某些情况下，例如当 LNL 协议处于严重拥堵状态时，这将有所帮助。不过，由于该协议缺少某些功能，可能会导致网络更不稳定，因此我们建议只有在遇到问题时才启用该协议。",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "尽可能使用 TCP",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "启用后，通过 TCP 的连接将优先于所有其他协议。这主要影响局域网内的连接，因为默认情况下互联网上的连接不使用 TCP。\n\nTCP 在局域网中性能更好，在某些基于 UDP 协议的网络中也能正常工作。\n\n不过，它们也会受到 \"头部数据包\" 堵塞的影响, 导致声音和动作出现明显延迟。",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL 数据包大小",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "该值会控制用于实时联网的 LNL 协议的数据包大小。 更改此设置将对你加入的所有会话立即生效。\n\n如果你遇到数据包排队的情况，可以增加该值，这样可以提高连接吞吐量。不过，数值越大也会使连接越不稳定，所以要谨慎。\n\n默认值：64\n\n请注意，此设置只是诊断和临时性的解决办法，将来会自动调整此值。",
 
