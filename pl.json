@@ -1501,6 +1501,14 @@
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity": "Intensywność wstępnej aktywacji",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description": "Gdy haptyka przechodzi ze stanu nieaktywnego w aktywny, będzie odtwarzana na co najmniej tej intensywności prez bardzo krótki okres czasu. To może pomóc \"rozruszać\" haptykę, gdy wartość aktywacji jest zbyt niska aby silnik zaczął się kręcić.",
 
+        "Settings.RelaySettings": "Przekaźniki sieciowe",
+        "Settings.RelaySettings.AlwaysUseRelay": "Zawsze używaj przekaźnika do połączenia",
+        "Settings.RelaySettings.AlwaysUseRelay.Description": "Przekaźniki są zwykle używane jako rozwiązanie awaryjne, gdy nie można nawiązać bezpośredniego połączenia z hostem. Włączenie tej opcji wymusza, aby połączenie zawsze odbywało się za pośrednictwem przekaźnika.\n\nMoże to być przydatne w przypadku problemów z połączeniem z niektórymi hostami. <b>NIE</b> zalecane jest stałe włączanie tej opcji.",
+        "Settings.RelaySettings.UseClosestAvailableRelay": "Użyj najbliższego dostępnego przekaźnika",
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description": "Gdy ta opcja jest włączona, dostępny przekaźnik, który znajduje się najbliżej użytkownika, zostanie automatycznie wybrany do połączenia. Jeśli chcesz połączyć się za pośrednictwem określonego przekaźnika (np. w przypadku połączeń na duże odległości, aby uniknąć kolejkowania pakietów), możesz wyłączyć tę opcję i skonfigurować preferowane przekaźniki po niżej.",
+        "Settings.RelaySettings.RelayPriorities": "Konfiguracja priorytetów serwera przekaźnikowego",
+        "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Priorytety przekaźników",
+        
         "Settings.TextureQualitySettings": "Jakość Tekstur",
         "Settings.TextureQualitySettings.TextureSizeRatio": "Względny rozmiar tekstur",
         "Settings.TextureQualitySettings.TextureSizeRatio.Description": "Określa względny rozmiar wszystkich tekstur, które zostaną załadowane. Można tego użyć do obniżenia ogólnej rozdzielczości tekstur, co zmniejsza zużycie pamięci graficznej i szybkość ładowania kosztem przejrzystości wizualnej.\n\nNa przykład, jeśli tekstura ma rozdzielczość 4K i ustawisz ją na połowę rozdzielczości, zamiast tego zostanie załadowana wersja 2K.",
