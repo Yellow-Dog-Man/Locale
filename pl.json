@@ -673,7 +673,7 @@
         "Notifications.ReceivedItem": "Wysyłano Ci przedmiot:",
         "Notifications.VoiceMessage": "Wysłano wiadomość głosową",
         "Notifications.SessionStarted": "Stworzono sesję:",
-        "Notifications.UserJoined": "Użytkownik dołączył sesję",
+        "Notifications.UserJoined": "Użytkownik dołączył do sesji",
         "Notifications.UserLeft": "Użytkownik opuścił sesję",
 
         "Undo.SetField": "Ustawienie pola {field_name} na {value}",
@@ -1320,6 +1320,83 @@
         "Settings.GrabbingSettings": "Ustawienia Chwytania",
         "Settings.GrabbingSettings.DefaultHandGrabType": "Domyślny Tryb Chwytania",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "To ustala twój domyślny tryb chwytania gdy pojawiasz się na nowym świecie.\n\n<color=hero.yellow>Dłoń:</color> Złapiesz wszystkie obiekty, które są w pobliżu twojej dłoni.\n\n<color=hero.yellow>Precyzja:</color> Złapiesz pojedynczy obiekt pomiędzy twoim palcem wskazującym i kciukiem.\n\n<color=hero.yellow>Automatyczna:</color> Tryb łapania jest automatycznie zmienany pomiędzy Dłonią i Precyzyjnym, w zależności od położenia twojej ręki.\n\n<color=hero.yellow>Wyłączone:</color> Będziesz mógł łapać przedmioty tylko laserami.",
+
+        "Settings.GamepadSettings": "Gamepad",
+        "Settings.GamepadSettings.ThumbstickLookSpeed": "Prędkość rozglądania się joystickiem",
+        "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Użyj tego aby dostosować prędkość z jaką kamera jest obracana za pomocą joysticka.",
+        "Settings.GamepadSettings.ThumbstickLookExponent": "Wykładnik prędkości rozlgądania się",
+        "Settings.GamepadSettings.ThumbstickLookExponent.Description": "To ustawienie może być użyte aby kontrolować krzywą, która modyfikuje rozglądanie się joystickiem. Możesz zacząć obracać się powoli i później przyśpieszyć albo zacząć obracać się szybko od razu, w zależności od tego czy wartość jest większa czy mniejsza niż 1.0.",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused": "Użyj gamepada gdy niezfokusowany",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "Gdy to ustawienie jest włączone, gamepad będzie używany nawet gdy okienko aplikacji nie jest aktualnie fokusowane. Możesz to wyłączyć, jeżeli chcesz grać w inne gry w tym samym czasie, które również korzystają z gamepada.",
+        
+        "Settings.MouseSettings.MouseSensitivity": "Czułość myszy",
+        "Settings.MouseSettings.MouseSensitivity.Description": "Ogólna czułość myszy w trybie stacjonarnym.",
+        "Settings.MouseSettings.MouseLookSpeed": "Prędkość rozglądania się",
+        "Settings.MouseSettings.MouseLookSpeed.Description": "Użyj tego aby dostosować czułość rozglądania się kamery w widoku z pierwszej lub trzeciej osoby.",
+        "Settings.MouseSettings.MousePanSpeed": "Prędkość płaskiego rozglądania się",
+        "Settings.MouseSettings.MousePanSpeed.Description": "To kontroluje jak szybko widok porusza się za pomocą myszy w trybie płaskiego przeglądania UI.",
+        "Settings.MouseSettings.MouseRotateSpeed": "Prędkość obracania",
+        "Settings.MouseSettings.MouseRotateSpeed.Description": "Gdy przedmiot jest trzymany w trybie stacjonarnym, to ustawienie kontroluje jak szybko ten przedmiot będzie się obracać wokół własnej osi za pomocą myszy.",
+        "Settings.MouseSettings.MouseFreeformRotateSpeed": "Prędkość swobodnego obracania",
+        "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "Gdy przedmiot jest trzymany w trybie stacjonarnym, to ustawienie kontroluje jak szybko ten przedmiot będzie się obracać, podczas swobodnego obracania.",
+
+        "Settings.GeneralHapticsSettings.EnableControllerVibration": "Wibracja kontrolerów",
+        "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Użyj tego aby włączyć lub wyłączyć haptyczne wibracje na kontrolerach VR.",
+        "Settings.GeneralHapticsSettings.EnableHaptics": "Haptic feedback",
+        "Settings.GeneralHapticsSettings.EnableHaptics.Description": "Gdy to ustawienie jest włączone, będziesz odczuwać haptyczne wibracje od awatarów i przedmiotów na świecie przez swoje kontrolery i inne urządzenia haptyczne.",
+
+        "Settings.GeneralVRSettings.UseVRHotswitching": "VR Hotswitching",
+        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Gdy to ustawienie jest włączone, gra automatycznie przełączy się pomiędzy trybem VR a trybem okienkowym gdy założysz lub zdejmiesz gogle VR.",
+
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Wygładzanie pozycji dłoni",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Wygładzanie rotacji dłoni",
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "Gdy to ustawienie jest włączone, to kontroluje jak bardzo pozycja dłoni jest wygładzana. Zwykle pomaga to użytkownikom z trzęsącymi się rękoma lub z innymi doległościami które mogą wywołać drgania.",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "Gdy to ustawienie jest włączone, to kontroluje jak bardzo rotacja dłoni jest wygładzana. Zwykle pomaga to użytkownikom z trzęsącymi się rękoma lub z innymi doległościami które mogą wywołać drgania.",
+
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Wygładzanie pozycji stóp",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Wygładzanie rotacji stóp",
+
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "Gdy to ustawienie jest włączone, to kontroluje jak bardzo pozycja stóp jest wygładzana podczas używania śledzenia Full Body. To może się przydać do wyeliminowania niechcianych wibracji i drgań, ale sprawia też, że pozycje trackerów są opóźnione i nie śledzą dobrze szybkich ruchów.",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "Gdy to ustawienie jest włączone, to kontroluje jak bardzo rotacja stóp jest wygładzana podczas używania śledzenia Full Body. To może się przydać do wyeliminowania niechcianych wibracji i drgań, ale sprawia też, że pozycje trackerów są opóźnione i nie śledzą dobrze szybkich ruchów.",
+
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Wygładzanie pozycji bioder",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Wygładzanie rotacji bioder",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "Gdy to ustawienie jest włączone, to kontroluje jak bardzo pozycja bioder jest wygładzana podczas używania śledzenia Full Body. To może się przydać do wyeliminowania niechcianych wibracji i drgań, ale sprawia też, że pozycje trackerów są opóźnione i nie śledzą dobrze szybkich ruchów.",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "Gdy to ustawienie jest włączone, to kontroluje jak bardzo rotacja bioder jest wygładzana podczas używania śledzenia Full Body. To może się przydać do wyeliminowania niechcianych wibracji i drgań, ale sprawia też, że pozycje trackerów są opóźnione i nie śledzą dobrze szybkich ruchów.",
+
+        "Settings.MediaPrivacySettings": "Prywatność mediów",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Zrezygnuj z metadanych mediów",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Gdy ta opcja jest włączona, będziesz wykluczony z metadanych zawartych w zrzutach ekranów, klipów audio i tym podobnych. Wciąż będziesz obecny w tych zasobach, ale żadne informacje takie jak ID Użytkownika czy twoja pozycja na scenie nie będą zapisane razem z nimi.\n\nJeżeli dowiesz się, że ktoś modyfikuje klienta gry w sposób, który ignorowałby tą opcję, zgłoś się z tym do moderacji, ponieważ to uznawane jest za znęcanie się.",
+        "Settings.MediaPrivacySettings.HideInScreenshots": "Nie pokazuj mnie w zrzutach ekranu",
+        "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Gdy ta opcja jest włączona, nie będziesz renderowany w zrzutach ekranu zrobionych w grze.\n\n<color=hero.red>WAŻNE:</color> Ta opcja nie dotyczy kamer, które renderują w czasie rzeczywistym, zrzutów ekranu za pomocą metod spoza gry, ani innych metod użytych na świecie, które mogą być częścią jego działania.",
+
+        "Settings.MediaPrivacySettings.StripImageFileMetadata": "Usuń metadane obrazów przy importowaniu",
+        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "Gdy ta opcja jest włączona, metadane na <b>importowanych</b> obrazach są usuwane.\n\nTo dotyczy metadanych EXIF, osadzonych komentarzy, IPTC, XMP i GEOTIFF.\n\nUsunie też dane lokalizacji (takie jak GPS) wewnątrz tych metadanych.\n\nTo <b>nie</b> dotyczy obrazów importowanych przy pomocy opcji \"Plik\".",
+
+        "Settings.Category.Integrations": "Integracje",
+        "Settings.DiscordIntegrationSettings": "Integracje z Discord",
+        "Settings.SteamIntegrationSettings": "Integracje ze Steam",
+
+        "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "To kontroluje jakie informacje Resonite wysyła do systemów Rich Presence Discord.\n\n<color=hero.yellow>None</color> - Nie wysyłaj informacji Rich Presence do Discord\n<color=hero.yellow>Basic</color> - Wyślij tylko podstawowe dane, takie jak twoja obecność w Resonite.\n<color=hero.yellow>Full</color> - W sesjach publicznych, wyślij wszystkie stosowne informacje o sesji do Discord. W tym, nazwa świata i liczba użytkowników w sesji.\n\nDiscord również sam wykrywa w jaką grę grasz. To może być wyłączone w ustawieniach Discorda.",
+
+        "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "To kontroluje jakie informacje Resonite wysyła do systemów Rich Presence Steam.\n\n<color=hero.yellow>None</color> - Nie wysyłaj informacji Rich Presence do Steam\n<color=hero.yellow>Basic</color> - Wyślij tylko podstawowe dane, takie jak twoja obecność w Resonite.\n<color=hero.yellow>Full</color> - W sesjach publicznych, wyślij wszystkie stosowne informacje o sesji do Steam. W tym, nazwa świata i liczba użytkowników w sesji.\n\nSteam będzie pokazywał, że grasz w Resonite niezależnie od tego ustawienia. Zmiana tego ustawienia ustala tylko ile dodatkowych informacji jest wysyłanych do Steam o twojej aktywnej sesji.",
+
+        "Settings.SteamIntegrationSettings.SaveScreenshots": "Zapisuj zrzuty ekranu",
+        "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Gdy zrobisz zdjęcie z tym ustawieniem włączonym, kopia zostanie zapisana do zrzutów ekranu Steam.",
+
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Wymuś Steam Voice gdy Remote Play jest aktywowany",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "Gdy to ustawienie jest włączone, automatycznie wymusza wejście audio aby używało Steam Voice, gdy grasz przez Steam Remote Play. To sprawia, że nie musisz zmieniać urządzenia wejścia aby używało przekazanego mikrofonu<br><br>Wyłączenie tego ustawienia może być przydatne gdy chcesz używać swojego własnego urządzenia audio, np. zewnętrznego mikrofonu.",
+
+        "Settings.LeapMotionSettings.LeapMotionEnabled": "Śledzenie rąk Leap Motion",
+        "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Gdy to ustawienie jest włączone, urządzenie Leap Motion będzie używane aby śledzić twoje ręce i palce.",
+        "Settings.LeapMotionSettings.Offset": "Offset śledzenia rąk",
+        "Settings.LeapMotionSettings.Offset.Description": "To jest offset sensora Leap Motion na goglach VR podany w metrach. Ustaw te wartości aby odpowiednio ustalić pozycję rąk.",
+        "Settings.LeapMotionSettings.SnapDistance": "Dystans przyciągania kontrolerów",
+        "Settings.LeapMotionSettings.SnapDistance.Description": "Gdy twoje ręcę są w pobliżu kontrolerów, automatycznie zostaną one do nich przyciągnięte i dane śledzenia rąk będą pochodzić z nich, a nie z Leap Motion. To kontroluje dystans, przy którym ręce zostaną przyciągnięte.",
+        "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Śledź ręce podczas używania kontrolerów",
+        "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "Gdy ręcę są przyciągnięte do kontrolerów, to ustawienie pozwoli na używanie danych z Leap Motion aby pozować palce.",
 
         "Settings.TextureQualitySettings": "Jakość Tekstur",
         "Settings.TextureQualitySettings.TextureSizeRatio": "Względny rozmiar tekstur",
