@@ -1321,6 +1321,19 @@
         "Settings.GrabbingSettings.DefaultHandGrabType": "Domyślny Tryb Chwytania",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "To ustala twój domyślny tryb chwytania gdy pojawiasz się na nowym świecie.\n\n<color=hero.yellow>Dłoń:</color> Złapiesz wszystkie obiekty, które są w pobliżu twojej dłoni.\n\n<color=hero.yellow>Precyzja:</color> Złapiesz pojedynczy obiekt pomiędzy twoim palcem wskazującym i kciukiem.\n\n<color=hero.yellow>Automatyczna:</color> Tryb łapania jest automatycznie zmienany pomiędzy Dłonią i Precyzyjnym, w zależności od położenia twojej ręki.\n\n<color=hero.yellow>Wyłączone:</color> Będziesz mógł łapać przedmioty tylko laserami.",
 
+        "Settings.TextureQualitySettings": "Jakość Tekstur",
+        "Settings.TextureQualitySettings.TextureSizeRatio": "Względny rozmiar tekstur",
+        "Settings.TextureQualitySettings.TextureSizeRatio.Description": "Określa względny rozmiar wszystkich tekstur, które zostaną załadowane. Można tego użyć do obniżenia ogólnej rozdzielczości tekstur, co zmniejsza zużycie pamięci graficznej i szybkość ładowania kosztem przejrzystości wizualnej.\n\nNa przykład, jeśli tekstura ma rozdzielczość 4K i ustawisz ją na połowę rozdzielczości, zamiast tego zostanie załadowana wersja 2K.",
+        "Settings.TextureQualitySettings.TextureSizeLimit": "Maksymalny rozmiar tekstury",
+        "Settings.TextureQualitySettings.TextureSizeLimit.Description": "Służy do ograniczania maksymalnej rozdzielczości załadowanych tekstur. Wszelkie tekstury powyżej tej rozdzielczości zostaną ograniczone do ustawionej rozdzielczości. Nie wpływa to na tekstury mniejsze niż ustawiony limit.\n\nTo ustawienie jest stosowane po względnym rozmiarze tekstury.",
+        "Settings.TextureQualitySettings.MinimumTextureSize": "Ogranicz teksturę poniżej rozdzielczości",
+        "Settings.TextureQualitySettings.MinimumTextureSize.Description": "To ustawia minimalny rozmiar tekstury limitowanej przez ustawienie względnego rozmiaru. Jeśli rozmiar tekstury jest mniejszy niż podany, zostanie ona załadowana bez zmian.\n\nNp. jeśli ustawisz tę wartość na 512, to jeśli tekstura ma rozmiar 256, nadal będzie ładowana jako 256, nawet jeśli ustawienie względnego rozmiaru tekstury jest ustawiony na połowę.",
+        "Settings.TextureQualitySettings.DefaultFilterMode": "Texture Filtering",
+        "Settings.TextureQualitySettings.DefaultFilterMode.Description": "This controls the filtering used for textures, which controls their quality and performance.\n\n<color=hero.yellow>Point:</color> Lowest quality with no interpolation. Textures will be blocky.\n\n<color=hero.yellow>Bilinear:</color> Texture pixels are interpolated, but mip map transitions will be harsh, leading to a visible transition line.\n\n<color=hero.yellow>Trilinear:</color> Smoothly transitions between different mip levels, removing the harsh transition line at distance.\n\n<color=hero.yellow>Anisotropic:</color> Highest quality, textures will be sharp even at steep angles.",
+        "Settings.TextureQualitySettings.AnisotropicLevel": "Anisotropic Level",
+        "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Controls the quality of the anisotropic filtering.",
+        "Settings.TextureQualitySettings.ReloadAllTextures": "Przeładuj wszystkie tekstury",
+        
         "Settings.ResolutionSettings": "Rozdzielczość",
         "Settings.ResolutionSettings.Fullscreen": "Pełny ekran",
         "Settings.ResolutionSettings.Fullscreen.Description": "Przełącza między trybem pełnoekranowym a trybem okienkowym",
@@ -1340,7 +1353,7 @@
         "Settings.RenderingQualitySettings.ShadowDistance": "Dystans cieni",
         "Settings.RenderingQualitySettings.ShadowDistance.Description": "To ustawia odległość, którą pokrywają cienie. Zwiększenie tej wartości sprawi, że bardziej odległe części sceny będą odpowiednio pokryte cieniami, ale spowoduje to również rozłożenie szczegółów cienia na większym obszarze.\nNależy zmienić to ustawienie wraz z kaskadami cieni i rozdzielczością - przy wyższej rozdzielczości cieni można pozwolić sobie na większą odległość cieni. Jeśli obniżysz rozdzielczość i kaskady cieni, warto zmniejszyć odległość cieni, aby cienie miały lepszą definicję.",
         "Settings.RenderingQualitySettings.SkinWeightMode": "Waga kości",
-        "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Dla meszy z kościami (Modele 3D które są deformowane przez kości, n.p avatary), to ustawia ile kości jest używanych do wpływania na pozycję każdego wierzchołka.\n\nObniżenie tej wartości zwiększy wydajność, ale jakość deformacji będzie niższa, co spowoduje ostre zagniecenia i inne artefakty, zwykle wokół połączeń.",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Dla meszy z kościami (Modele 3D które są deformowane przez kości, np. avatary), to ustawia ile kości jest używanych do wpływania na pozycję każdego wierzchołka.\n\nObniżenie tej wartości zwiększy wydajność, ale jakość deformacji będzie niższa, co spowoduje ostre zagniecenia i inne artefakty, zwykle wokół połączeń.",
         
         "LocomotionArchetype.Walk": "Chodzenie",
         "LocomotionArchetype.Fly": "Lot",
