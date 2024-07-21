@@ -182,10 +182,12 @@
         "World.Connection.Connected": "Соединено",
         "World.Connection.SyncingInitialState": "Синхронизация с текущим состоянием мира",
 
-        "World.Connection.LNL.DirectIP": "LNL напрямую по IP",
+        "World.Connection.LNL.DirectIP": "LNL напрямую по IP<br><size=75%>{address}</size>",
+        "World.Connection.LNL.LNLPoke": "Запрашиваем LNL Poke",
         "World.Connection.LNL.NATPunchthrough": "LNL через NAT {n}",
         "World.Connection.LNL.Relay": "LNL ретранслятор",
         "World.Connection.SteamNetworkingSockets": "Сетевые сокеты Steam",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "Отказано в доступе",
         "World.Error.SecurityViolation": "Нарушение безопасности",
@@ -596,6 +598,8 @@
         "Profile.Status.Invisible": "Невидимый",
         "Profile.Status.Offline": "Оффлайн",
         "Profile.Status.Headless": "Сервер",
+        "Profile.Status.Bot": "<b>Бот:</b> {version}",
+        "Profile.Status.ChatClient": "<b>Мессенджер:</b> {version}",
 
         "Session.Tab.Settings": "Настройки",
         "Session.Tab.Users": "Пользователи",
@@ -1285,7 +1289,7 @@
         "Settings.GeneralControlsSettings.PrimaryHand": "Основная рука",
         "Settings.GeneralControlsSettings.PrimaryHand.Description": "Какой рукой вы в основном пользуетесь. Различные системы используют эту настройку для взаимодействий, например для экипировки инструментов.",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Интервал двойного щелчка",
-        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Для любого взаимодействия, требующего двойного щелчка, эта настройка задает время между щелчками, которое будет считаться двойным щелчком. Если у вас не получается сделать двойной щелчок, увеличьте значение. Если одиночные щелчки срабатывают как двойные - уменьшите.",
+        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Для любого взаимодействия, требующего двойного щелчка, эта настройка задает время между щелчками, которое будет считаться двойным щелчком. Если у вас не получается сделать двойной щелчок, уменьшите значение. Если одиночные щелчки срабатывают как двойные - увеличьте.",
 
         "Settings.LocomotionSettings.LocomotionPreferences": "Настройки перемещения",
         "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Настройки перемещения",
@@ -1573,6 +1577,8 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Выключает функциональности локальной сети, такие как широковещательное объявление вашей сессии в локальной сети или обнаружение сессий других пользователей в этой локальной сети.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Приоритет Steam Networking Sockets",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Кагда включено, вы будете подключаться через протокол Steam Networking Sockets, если возможно. Может помочь в некоторых случаях, когда использование протокола LNL приводит к больщим задержкам и отставанию. Но, так как этот протокол поддерживает не всю функциональность, вы можете столкнуться с еще большей нестабильностью сети, поэтому рекомендуем использовать эту настройку только когда вы уже имеете проблемы с сетью.",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "Предпочитать TCP",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Когда включено, подключение через TCP будет в приоритете перед остальными протоколами. Это в основном влияет на подключения по локальной сети, так как TCP по умолчанию не используется для подключений через интернет.\n\nTCP может дать преимущество в скорости в локальных сетях, а также будет работать в некоторых окружениях, где протоколы на базе UDP не будут работать.\n\nС другой стороны, TCP подвержен блокировке пакетов \"head of line\", из-за чего голоса и позы могут приходить с ощутимой задержкой.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "Размер окна LNL",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Задает размер окна LNL протокола для сетевых передач реального времени. Изменение этой настройко применяется моментально во всех активных сессиях.\n\nЕсли вы сталкиваетесь с очередью пакетов, вы можете увеличить это значение чтобы повысить пропускнуд способность. С другой стороны, большие значения могут еще сильнее дестабилизировать работу сети, так что будьте аккуратны.\n\n<color=hero.yellow>Значение по умолчанию:</color> 64\n\n<color=hero.red>ВАЖНО:</color> Эта настройка предназначена для диагностики и как временная мера; это значение будет подстраиваться автоматически в будущем.",
 
