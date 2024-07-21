@@ -1270,6 +1270,32 @@
 
         "Settings.LocaleSettings": "Lokalizacja",
         "Settings.DashSettings": "Tablica",
+        
+        "Settings.NotificationSettings": "Powiadomienia",
+        "Settings.NotificationSettings.UserOnline": "Znajomy online",
+        "Settings.NotificationSettings.UserOnline.Description": "Kontroluje czy będziesz otrzymywać powiadomienia gdy Twoi znajomi będą online.",
+        "Settings.NotificationSettings.UserSociable": "Znajomy towarzyski",
+        "Settings.NotificationSettings.UserSociable.Description": "Kontroluje czy będziesz otrzymywać powiadomienia gdy Twoi znajomi są towarzyscy.\n\n<color=hero.yellow>None</color>: Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly</color>: Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly</color>: Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full</color>: Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
+        "Settings.NotificationSettings.UserOnlineOnAnotherBuild": "Znajomy online na niekompatybilnej wersji",
+        "Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description": "Kontroluje czy będziesz otrzymywać powiadomienia gdy Twoi znajomi będą online ale używają wersji, która nie jest kompatybilna z twoją (np. nowa wersja lub pre-release kompilacja).",
+        "Settings.NotificationSettings.Message": "Wiadomości",
+        "Settings.NotificationSettings.Message.Description": "Kontroluje czy będziesz otrzymywać powiadomienia gdy otrzymasz wiadomość.\n\n<color=hero.yellow>None</color>: Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly</color>: Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly</color>: Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full</color>: Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
+        "Settings.NotificationSettings.Invite": "Zaproszenia do sesji",
+        "Settings.NotificationSettings.Invite.Description": "Kontroluje czy otrzymujesz powiadomienia o zaproszeniu do sesji.\n\n<color=hero.yellow>None</color>: Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly</color>: Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly</color>: Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full</color>: Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
+        "Settings.NotificationSettings.ContactRequest": "Prośby o dodanie do znajomych",
+        "Settings.NotificationSettings.ContactRequest.Description": "Kontroluje czy otrzymujesz powiadomienia gdy otrzymujesz zaproszenie do znajomych.\n\n<color=hero.yellow>None</color>: Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly</color>: Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly</color>: Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full</color>: Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
+        "Settings.NotificationSettings.ContactSessionStarted": "Nowe sesje znajomych",
+        "Settings.NotificationSettings.ContactSessionStarted.Description": "Kontroluje czy otrzymujesz powiadomienia gdy twoi znajomi są w nowej sesji.\n\n<color=hero.yellow>None</color>: Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly</color>: Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly</color>: Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full</color>: Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
+        "Settings.NotificationSettings.PublicSessionStarted": "Nowe publiczne sesje",
+        "Settings.NotificationSettings.PublicSessionStarted.Description": "Kontroluje czy otrzymujesz powiadomienia gdy zaczęte są publiczne sesje.\n\n<color=hero.yellow>None</color>: Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly</color>: Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly</color>: Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full</color>: Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
+        "Settings.NotificationSettings.UserJoinAndLeave": "Dołączanie i opuszczanie użytkowników",
+        "Settings.NotificationSettings.UserJoinAndLeave.Description": "Kontroluje czy będziesz otrzymywać powiadomienia gdy użytkownicy dołączają lub opuszczają sesję, w której się znajdujesz.\n\n<color=hero.yellow>None</color>: Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly</color>: Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly</color>: Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full</color>: Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
+
+        "Settings.NamePlateSettings.NameplateVisibility": "Widoczność tabliczki znamionowej",
+        "Settings.NamePlateSettings.NameplateVisibility.Description": "Służy do kontrolowania, czyje tabliczki znamionowe będą widoczne.\n\n<color=hero.yellow>All</color>: Wszystkie tabliczki.\n\n<color=hero.yellow>NonContacts</color>: Wyświetlone są tabliczki tylko nieznajomych.\n\n<color=hero.yellow>None</color>: Nie wyświetlone są żadne tabliczki.",
+        "Settings.NamePlateSettings.UseCustomNameplates": "Pokaż niestandardowe tabliczki znamionowe",
+        "Settings.NamePlateSettings.UseCustomNameplates.Description": "Jeśli niektóre tabliczki są trudne do odczytania, całkowicie ukryte lub musisz zobaczyć rzeczywistą nazwę użytkownika i odznaki (np. do celów moderacji), wyłącz niestandardowe tabliczki, aby zobaczyć domyślne.",
+        
         "Settings.NamePlateSettings": "Nazwy graczy",
         "Settings.LaserSettings": "Lasery Interakcyjne",
         "Settings.DesktopViewSettings": "Ekran Pulpitu",
@@ -1295,9 +1321,9 @@
         "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Preferencje Lokomocji",
 
         "Settings.MovementSettings.LeftSidewaysMode": "Tryb poruszania na boki lewego kontrolera",
-        "Settings.MovementSettings.LeftSidewaysMode.Description": "To ustawienie zmienia co poruszanie na boki joystickiem będzie robiło na twoim lewym kontrolerze.",
+        "Settings.MovementSettings.LeftSidewaysMode.Description": "To ustawienie zmienia co poruszanie na boki joystickiem będzie robiło na twoim lewym kontrolerze.\n\n<color=hero.yellow>TurnAndMove:</color> Ten kontroler służy do obracania i ruchu.\n\n<color=hero.yellow>TurnOnly:</color> Ten kontroler służy wyłącznie do obracania.\n\n<color=hero.yellow>Strafe:</color> Ten kontroler służy wyłącznie do strafowania.\n\n<color=hero.yellow>Off:</color> Tylko ruch do przodu/do tyłu.",
         "Settings.MovementSettings.RightSidewaysMode": "Tryb poruszania na boki prawego kontrolera",
-        "Settings.MovementSettings.RightSidewaysMode.Description": "To ustawienie zmienia co poruszanie na boki joystickiem będzie robiło na twoim prawym kontrolerze.",
+        "Settings.MovementSettings.RightSidewaysMode.Description": "To ustawienie zmienia co poruszanie na boki joystickiem będzie robiło na twoim prawym kontrolerze.\n\n<color=hero.yellow>TurnAndMove:</color> Ten kontroler służy do obracania i ruchu.\n\n<color=hero.yellow>TurnOnly:</color> Ten kontroler służy wyłącznie do obracania.\n\n<color=hero.yellow>Strafe:</color> Ten kontroler służy wyłącznie do strafowania.\n\n<color=hero.yellow>Off:</color> Tylko ruch do przodu/do tyłu.",
         "Settings.MovementSettings.UseHeadDirectionForMovement": "Używaj kierunku głowy do poruszania",
         "Settings.MovementSettings.UseHeadDirectionForMovement.Description": "Kiedy włączone poruszanie do przodu będzie w kierunku w którym patrzysz w VR. Kiedy wyłączone poruszanie do przodu będzie w kierunku wskazanym przez twój kontroler.",
         "Settings.MovementSettings.UseSmoothTurn": "Gładkie obracanie",
@@ -1319,7 +1345,7 @@
 
         "Settings.GrabbingSettings": "Ustawienia Chwytania",
         "Settings.GrabbingSettings.DefaultHandGrabType": "Domyślny Tryb Chwytania",
-        "Settings.GrabbingSettings.DefaultHandGrabType.Description": "To ustala twój domyślny tryb chwytania gdy pojawiasz się na nowym świecie.\n\n<color=hero.yellow>Dłoń:</color> Złapiesz wszystkie obiekty, które są w pobliżu twojej dłoni.\n\n<color=hero.yellow>Precyzja:</color> Złapiesz pojedynczy obiekt pomiędzy twoim palcem wskazującym i kciukiem.\n\n<color=hero.yellow>Automatyczna:</color> Tryb łapania jest automatycznie zmienany pomiędzy Dłonią i Precyzyjnym, w zależności od położenia twojej ręki.\n\n<color=hero.yellow>Wyłączone:</color> Będziesz mógł łapać przedmioty tylko laserami.",
+        "Settings.GrabbingSettings.DefaultHandGrabType.Description": "To ustala twój domyślny tryb chwytania gdy pojawiasz się na nowym świecie.\n\n<color=hero.yellow>Palm:</color> Złapiesz wszystkie obiekty, które są w pobliżu twojej dłoni.\n\n<color=hero.yellow>Precision:</color> Złapiesz pojedynczy obiekt pomiędzy twoim palcem wskazującym i kciukiem.\n\n<color=hero.yellow>Auto:</color> Tryb łapania jest automatycznie zmienany pomiędzy Dłonią i Precyzyjnym, w zależności od położenia twojej ręki.\n\n<color=hero.yellow>Off:</color> Będziesz mógł łapać przedmioty tylko laserami.",
 
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Prędkość rozglądania się joystickiem",
