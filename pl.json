@@ -1539,6 +1539,18 @@
         "Settings.RelaySettings.UseClosestAvailableRelay.Description": "Gdy ta opcja jest włączona, dostępny przekaźnik, który znajduje się najbliżej użytkownika, zostanie automatycznie wybrany do połączenia. Jeśli chcesz połączyć się za pośrednictwem określonego przekaźnika (np. w przypadku połączeń na duże odległości, aby uniknąć kolejkowania pakietów), możesz wyłączyć tę opcję i skonfigurować preferowane przekaźniki po niżej.",
         "Settings.RelaySettings.RelayPriorities": "Konfiguracja priorytetów serwera przekaźnikowego",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Priorytety przekaźników",
+        
+        "Settings.PostProcessingSettings": "Post Processing",
+        "Settings.PostProcessingSettings.MotionBlurIntensity": "Siła rozmycia w ruchu",
+        "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Kontroluje siłę efektu rozmycia ruchu, który rozmazuje obraz z ruchem. Wyższe wartości spowodują większe rozmycie przy tej samej ilości ruchu.\n\nJeśli ustawisz tę opcję na <nobr><color=hero.yellow>0 %</color></nobr> rozmycie zostanie całkowicie wyłączone, co może poprawić wydajność.",
+        "Settings.PostProcessingSettings.BloomIntensity": "Siła efektu bloom",
+        "Settings.PostProcessingSettings.BloomIntensity.Description": "Efekt Bloom powoduje pojawienie się poświaty wokół jasnych obiektów w scenie, zazwyczaj tych z zakresu HDR. To ustawienie pozwala kontrolować siłę tego efektu przy tej samej ilości światła.\n\nNależy pamiętać, że niektóre elementy mogą wyglądać nieprawidłowo, gdy ten efekt jest ustawiony na niski lub wyłączony.\n\nJeśli ustawisz tę opcję na <nobr><color=hero.yellow>0 %</color></nobr> efekt zostanie całkowicie wyłączony, co może poprawić wydajność.",
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity": "Okluzja otoczenia",
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description": "Okluzja otoczenia przyciemnia zagięcia i narożniki sceny, które zazwyczaj otrzymują mniej światła. Może to nadać scenie więcej głębi i realizmu. To ustawienie pozwala kontrolować intensywność efektu.\n\nNależy pamiętać, że ustawienie tej opcji zbyt nisko lub jej wyłączenie może sprawić, że niektóre treści będą wyglądać nieprawidłowo lub zupełnie płasko.\n\nJeśli ustawisz tę opcję na <nobr><color=hero.yellow>0 %</color></nobr> filtr zostanie całkowicie wyłączony, co może poprawić wydajność.",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections": "Odbicia w przestrzeni ekranu <size=75%>(eksperymentalne)</size>",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "Gdy ten efekt jest włączony, wszystkie części sceny aktualnie widoczne dla kamery będą odbijać się od błyszczących powierzchni w czasie rzeczywistym. Może to zwiększyć realizm sceny i poprawić wygląd błyszczących powierzchni kosztem wydajności.\n\nNależy pamiętać, że filtr ten jest obecnie uważany za eksperymentalny i nie działa dobrze w wielu scenariuszach, powodując artefakty.",
+        "Settings.PostProcessingSettings.Antialiasing": "Wygładzanie krawędzi",
+        "Settings.PostProcessingSettings.Antialiasing.Description": "Wygładza ostre, postrzępione krawędzie obiektów na scenie. Do wyboru jest kilka różnych filtrów, z których każdy ma inne wady. FXAA jest powszechnie używany i działa dość dobrze, ale może również rozmywać inne części sceny, takie jak tekst.\n\n<color=red>Uwaga:</color> Niektóre opcje mogą nie być odpowiednie lub w ogóle nie działać w VR.",
 
         "Settings.TextureQualitySettings": "Jakość Tekstur",
         "Settings.TextureQualitySettings.TextureSizeRatio": "Względny rozmiar tekstur",
