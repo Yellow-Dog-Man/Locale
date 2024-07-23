@@ -182,10 +182,12 @@
         "World.Connection.Connected": "连接成功",
         "World.Connection.SyncingInitialState": "同步初始世界状态",
 
-        "World.Connection.LNL.DirectIP": "LNL IP 直连",
+        "World.Connection.LNL.DirectIP": "LNL IP 直连<br><size=75%>{address}</size>",
+        "World.Connection.LNL.LNLPoke": "、正在请求 LNL 探测连接",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT 穿透 {n}",
         "World.Connection.LNL.Relay": "LNL 中继",
         "World.Connection.SteamNetworkingSockets": "Steam 网络通讯",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "拒绝访问",
         "World.Error.SecurityViolation": "发生安全违例",
@@ -342,6 +344,7 @@
         "World.Filter.MinimumUsers": "最低人数: <b>{n}</b>",
         "World.Filter.MinimumContacts": "最低好友数: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "仅云端主机",
+        "World.Filter.IncompatibleSessions": "不兼容的会话",
         "World.Filter.MaxAccessLevel": "最大访问权限级别:",
         "World.Filter.MinimumUptime": "最小运行时间:",
         "World.Filter.Sorting": "排序:",
@@ -595,6 +598,8 @@
         "Profile.Status.Invisible": "隐身",
         "Profile.Status.Offline": "离线",
         "Profile.Status.Headless": "云端主机",
+        "Profile.Status.Bot": "<b>机器人：</b> {version}",
+        "Profile.Status.ChatClient": "<b>聊天客户端：</b> {version}",
 
         "Session.Tab.Settings": "设定",
         "Session.Tab.Users": "用户",
@@ -1381,6 +1386,9 @@
         "Settings.SteamIntegrationSettings.SaveScreenshots": "保存截图",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "启用此设置后，您拍摄的照片副本将保存到 Steam 屏幕截图中。",
 
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "启动远程畅玩的时候强行使用 Steam Voice",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "启用后，当你使用 Steam 远程畅玩，它会自动强制音频输入使用 Steam 语音。 这有助于你无需自动切换即可使用转发的麦克风。<br><br>如果你想使用自己的音频设备（如外接麦克风），禁用此功能会很有用。",
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "启用手部追踪",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "启用后，运动追踪器将用来追踪你的手和手指。",
         "Settings.LeapMotionSettings.Offset": "手部追踪偏移量",
@@ -1569,8 +1577,10 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "这将禁用本地网络特有的联网功能，例如在本地网络上广播会话或监听本网络上广播的其他会话。",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "尽可能通过 Steam 网络通信",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "启用后，你将尽可能通过 Steam 网络通信协议进行连接。在某些情况下，例如当 LNL 协议处于严重拥堵状态时，这将有所帮助。不过，由于该协议缺少某些功能，可能会导致网络更不稳定，因此我们建议只有在遇到问题时才启用该协议。",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "尽可能使用 TCP",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "启用后，通过 TCP 的连接将优先于所有其他协议。这主要影响局域网内的连接，因为默认情况下互联网上的连接不使用 TCP。\n\nTCP 在局域网中性能更好，在某些基于 UDP 协议的网络中也能正常工作。\n\n不过，它们也会受到 \"头部数据包\" 堵塞的影响, 导致声音和动作出现明显延迟。",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL 数据包大小",
-        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "该值会控制用于实时联网的 LNL 协议的窗口大小。 更改此设置将对你加入的所有会话立即生效。\n\n如果你遇到数据包排队的情况，可以增加该值，这样可以提高连接吞吐量。不过，数值越大也会使连接越不稳定，所以要注意。\n\n默认值：64\n\n请注意，此设置只是诊断和临时性的解决办法，将来会自动调整此值。",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "该值会控制用于实时联网的 LNL 协议的数据包大小。 更改此设置将对你加入的所有会话立即生效。\n\n如果你遇到数据包排队的情况，可以增加该值，这样可以提高连接吞吐量。不过，数值越大也会使连接越不稳定，所以要谨慎。\n\n默认值：64\n\n请注意，此设置只是诊断和临时性的解决办法，将来会自动调整此值。",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "最大同时传输资产数",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "在开始会话时，该设置调整当时可以传输多少本地导入的资产。增加该值可以更快地向用户传输资产，但也会降低网络连接的质量。我们建议测试网络可以承受的数值。",
@@ -1601,8 +1611,6 @@
 
         "Settings.DebugSettings.DebugInputBindings": "显示输入绑定的调试信息",
         "Settings.DebugSettings.DebugInputBindings.Description": "启用后，你将看到输入绑定系统的调试信息。 这对开发人员非常有用。",
-        "Settings.DebugSettings.FetchIncompatibleSessions": "在会话列表显示不兼容的会话",
-        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "启用后，你将会在会话列表看到与当前客户端版本不兼容的活动会话。",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "双击手柄握把键装备物品",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "启用后，只要连续按两次握把键，就可以装备工具和小物件。这一设置可能会在某个时候被移除。",

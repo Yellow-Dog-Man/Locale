@@ -182,10 +182,12 @@
         "World.Connection.Connected": "Connected",
         "World.Connection.SyncingInitialState": "Syncing initial world state",
 
-        "World.Connection.LNL.DirectIP": "LNL Direct IP",
+        "World.Connection.LNL.DirectIP": "LNL Direct IP<br><size=75%>{address}</size>",
+        "World.Connection.LNL.LNLPoke": "Requesting LNL Poke",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT Punchthrough {n}",
         "World.Connection.LNL.Relay": "LNL Relay",
         "World.Connection.SteamNetworkingSockets": "Steam Networking Sockets",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "Access Denied",
         "World.Error.SecurityViolation": "Security Violation",
@@ -342,6 +344,7 @@
         "World.Filter.MinimumUsers": "Minimum Users: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Minimum Contacts: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Only Headless Hosts",
+        "World.Filter.IncompatibleSessions": "Incompatible sessions",
         "World.Filter.MaxAccessLevel": "Maximum Access Level:",
         "World.Filter.MinimumUptime": "Minimum Uptime:",
         "World.Filter.Sorting": "Sorting:",
@@ -595,6 +598,8 @@
         "Profile.Status.Invisible": "Invisible",
         "Profile.Status.Offline": "Offline",
         "Profile.Status.Headless": "Headless Host",
+        "Profile.Status.Bot": "<b>Bot:</b> {version}",
+        "Profile.Status.ChatClient": "<b>Chat client:</b> {version}",
 
         "Session.Tab.Settings": "Settings",
         "Session.Tab.Users": "Users",
@@ -1284,7 +1289,7 @@
         "Settings.GeneralControlsSettings.PrimaryHand": "Primary hand",
         "Settings.GeneralControlsSettings.PrimaryHand.Description": "Which hand is considered your primary. Various systems use this for interactions, e.g. when equipping tools.",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Double click interval",
-        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "For any interactions that require a double click, this controls the maximum time between the click that will be considered a double click. If you're having trouble triggering double click, increase the value. If single clicks are detected too easily, lower the value.",
+        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "For any interactions that require a double click, this controls the maximum time between the click that will be considered a double click. If you're having trouble triggering double click, decrease the value. If single clicks are detected too easily, raise the value.",
 
         "Settings.LocomotionSettings.LocomotionPreferences": "Locomotion Preferences",
         "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Locomotion Preferences",
@@ -1380,6 +1385,9 @@
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Save Screenshots",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "When you take a picture with this setting enabled, a copy will be saved to Steam screenshots.",
+
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Force Steam Voice when Remote Play is active",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "When enabled, this automatically forces the audio input to use Steam Voice when you play through Steam Remote Play. This helps so you don't need to switch automatically to use the forwarded microphone input.<br><br>Disabling this can be useful if you want to use your own audio device - e.g. external microphone.",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion hand tracking",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "When enabled, Leap Motion device will be used to track your hands and fingers when present.",
@@ -1569,6 +1577,8 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "This disables networking features specific to local networks, such as broadcasting your session on the local network or listening to other sessions broadcasted on this network.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Prefer Steam Networking Sockets",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "When enabled, you will connect via Steam Networking Sockets protocol if possible. This can help in some cases when LNL protocol results in significant queuing. However as this protocol is missing some features, you can run into more networking instability, so we recommend only enabling this once you ran into issues.",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "Prefer TCP",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "When enabled, connections over TCP are preferred over all other protocols. This mostly affects connections on LAN, as TCP is not used for connections over the internet by default.\n\nTCP can have better performance on LAN networks and work on certain networks where UDP based protocols won't work.\n\nHowever they can also suffer from \"head of line\" blocking, causing voices and poses to be significantly delayed.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL Window Size",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "This controls the LNL protocol window size for real time networking. Changing this setting will have an immediate effect in all active sessions.\n\nIf you experience any packet queuing, you can increase this value to improve the connection throughput. However, higher values can also destabilize the connection further, so be careful.\n\n<color=hero.yellow>Default Value:</color> 64\n\n<color=hero.red>IMPORTANT:</color> This setting is for diagnostics and a temporary workaround; this value will automatically adjust itself in the future.",
 
@@ -1582,7 +1592,7 @@
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "Allow HTTP requests",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description": "This indicates if HTTP(s) requests are allowed for this host. These are typically REST API requests to communicate with a third party services.",
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Allow websockets",
-        "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "This indicates of realtime Websocket connections are allowed for this host. These are often used for more realtime bi-directional communications and data streams.",
+        "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "This indicates if realtime Websocket connections are allowed for this host. These are often used for more realtime bi-directional communications and data streams.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Allow OSC receiving",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "This indicates if Resonite can receive and process OSC data",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Allow OSC sending",
@@ -1601,8 +1611,6 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Debug input bindings",
         "Settings.DebugSettings.DebugInputBindings.Description": "When enabled, you will see a debugging information for the input binding system. This is mostly useful for developers.",
-        "Settings.DebugSettings.FetchIncompatibleSessions": "Fetch incompatible sessions",
-        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "When enabled, you will see active sessions that are not compatible with your current client and that you are unable to join.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Double press grip to equip items",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "When enabled, you can equip tools and gadgets by pressing grip twice in rapid succession. This setting will likely get removed at some point.",
@@ -1695,7 +1703,7 @@
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Finger photo gesture",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "When enabled, you can quickly take pictures in world by posing your fingers to make a picture frame and then curling one of your index fingers.",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "Photo resolution",
-        "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "This sets what resolution will normal photos captures by the finger gesture or the desktop key shortcut be. Higher resolutions will take more time and storage to process, but give better detail.",
+        "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "This sets what resolution normal photos captured by the finger gesture or the desktop key shortcut will be. Higher resolutions will take more time and storage to process, but give better detail.",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution": "Timed photo resolution",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "Similar to normal resolution, you can set a separate resolution for photos captured with the timer feature. This can be useful if you use timer to capture group photos, which can benefit from higher resolution.",
         "Settings.PhotoCaptureSettings.TimerSeconds": "Timer duration",
@@ -1707,7 +1715,7 @@
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Photo inventory autosave path",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "When set, any photos you capture (or save with context menu) will be automatically saved to your in-game inventory. For example <color=hero.yellow>Photos/%year%/%month_name%</color>\n\nFollowing variables are available:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Capture Private UI",
-        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "When enabled, the quick photo capture will render your private UI such as the dash. This can be useful in case you want to show information show there.\n\nWe recommend turning this setting off once you're done, as leaving it on can lead to accidentally capturing and leaking your private information.",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "When enabled, the quick photo capture will render your private UI such as the dash. This can be useful in case you want to show information there.\n\nWe recommend turning this setting off once you're done, as leaving it on can lead to accidentally capturing and leaking your private information.",
         "Settings.PhotoCaptureSettings.EncodeFormat": "Encode Format",
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "The image file format which captured photos will be encoded into. If you need the photos to be in particular format, you can use this setting to select which one they'll be encoded in.\n\nPlease note that certain formats might lack some features (like alpha support), might encode significantly slower, have lower image quality or result in bigger files.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Always Hide Nameplates",

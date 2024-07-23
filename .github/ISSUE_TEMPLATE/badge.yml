@@ -1,0 +1,11 @@
+name: Request Translator badge
+description: Request a Translator badge if you've contributed the locale.
+body:
+  - type: input
+    id: userid
+    attributes:
+      label: User ID
+      description: Your User ID. You can see how to find it on the [wiki](https://wiki.resonite.com/User_ID#Finding_a_user_ID).
+      placeholder: U-fX3pKe7AYYQ
+    validations:
+      required: true

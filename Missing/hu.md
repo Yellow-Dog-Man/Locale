@@ -22,8 +22,10 @@ Inventory.Favorite.AudioStreamController
 Inventory.Favorite.TextDisplay  
 Inventory.SpawnFacet  
 Dash.Exit.SubmittedBy  
+World.Connection.LNL.LNLPoke  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
+World.Connection.TCP  
 World.Error.SecurityViolation  
 World.Actions.CopyRecordURL  
 World.Indicator.Sessions  
@@ -34,6 +36,7 @@ World.Filter.DataSources
 World.Filter.BaseSearch  
 World.Filter.SubmittedToGroup  
 World.Filter.OnlyHeadless  
+World.Filter.IncompatibleSessions  
 World.Filter.MaxAccessLevel  
 Options.FreeformDash.On  
 Options.FreeformDash.Off  
@@ -56,6 +59,8 @@ Account.RecoveryCode
 Account.Requesting  
 Account.Saml2.Select  
 Profile.Status.Headless  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Session.Permission.ClearOverrides  
 Session.JoinVerifier.EnableHeader  
 Session.JoinVerifier.EnableText  
@@ -649,6 +654,8 @@ Settings.SteamIntegrationSettings.RichPresence
 Settings.SteamIntegrationSettings.RichPresence.Description  
 Settings.SteamIntegrationSettings.SaveScreenshots  
 Settings.SteamIntegrationSettings.SaveScreenshots.Description  
+Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay  
+Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description  
 Settings.LeapMotionSettings.LeapMotionEnabled  
 Settings.LeapMotionSettings.LeapMotionEnabled.Description  
 Settings.LeapMotionSettings.Offset  
@@ -812,6 +819,8 @@ Settings.RealtimeNetworkingSettings.DisableLAN
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
+Settings.RealtimeNetworkingSettings.PreferTCP  
+Settings.RealtimeNetworkingSettings.PreferTCP.Description  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers  
@@ -839,8 +848,6 @@ Settings.WindowsSettings.KeepOriginalScreenshotFormat
 Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.DebugInputBindings.Description  
-Settings.DebugSettings.FetchIncompatibleSessions  
-Settings.DebugSettings.FetchIncompatibleSessions.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
