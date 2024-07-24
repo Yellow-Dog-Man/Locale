@@ -553,6 +553,7 @@ Contacts.SelfAccount
 Contacts.SearchPrompt  
 Contacts.WriteMessage  
 Contacts.InSession  
+Contacts.NoSession  
 Contacts.InPrivate  
 Contacts.InContactsOnly  
 Contacts.InHidden  

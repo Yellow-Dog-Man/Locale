@@ -12,6 +12,7 @@ World.Filter.IncompatibleSessions
 Profile.Status.Sociable  
 Profile.Status.Bot  
 Profile.Status.ChatClient  
+Contacts.NoSession  
 Contacts.IncompatibleSession  
 Notifications.IsSociable  
 Notifications.SessionStarted  

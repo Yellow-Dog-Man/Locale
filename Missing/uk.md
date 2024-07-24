@@ -2,6 +2,7 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Ukrainian [uk]
+Contacts.NoSession  
 Importer.General.AsRawFile  
 Importer.Folder.Title  
 Importer.Folder.Individual  
