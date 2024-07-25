@@ -2,7 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Japanese [ja]
-Contacts.NoSession  
 Settings.AudioInputDeviceSettings.Testing.Header  
 Settings.AudioInputDeviceSettings.Testing.Description  
 Settings.AudioInputDeviceSettings.Testing.ListenToInput  
