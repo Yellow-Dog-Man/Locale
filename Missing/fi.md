@@ -9,6 +9,7 @@ World.Filter.IncompatibleSessions
 Profile.Status.Bot  
 Profile.Status.ChatClient  
 Contacts.Unblocked  
+Contacts.NoSession  
 Contacts.IncompatibleSession  
 Tooltip.ProtoFlux.Drive  
 Tooltip.ProtoFlux.Source  

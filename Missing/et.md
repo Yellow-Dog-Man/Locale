@@ -233,6 +233,7 @@ Contacts.MutualBlock
 Contacts.SelfAccount  
 Contacts.SearchPrompt  
 Contacts.WriteMessage  
+Contacts.NoSession  
 Contacts.InContactsOnly  
 Contacts.InHiddenContactsOnly  
 Contacts.InHiddenContactsPlus  

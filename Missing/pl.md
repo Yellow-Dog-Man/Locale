@@ -7,6 +7,7 @@ World.Connection.TCP
 World.Filter.IncompatibleSessions  
 Profile.Status.Bot  
 Profile.Status.ChatClient  
+Contacts.NoSession  
 Contacts.IncompatibleSession  
 Importer.LUT.Failure.Heading  
 Importer.LUT.Failure.Description  

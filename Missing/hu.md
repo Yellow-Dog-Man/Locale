@@ -70,6 +70,7 @@ Session.JoinVerifier.SetCustomVerifier
 Permissions.NotAllowedToSpawn  
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
+Contacts.NoSession  
 Contacts.Migrated  
 Contacts.IncompatibleSession  
 Undo.SetField  
