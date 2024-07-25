@@ -702,6 +702,7 @@ Settings.LocaleSettings.UseImperialUnits
 Settings.LocaleSettings.UseImperialUnits.Description  
 Settings.LocaleSettings.AvailableLocales  
 Settings.LocaleSettings.AvailableLocales.Breadcrumb  
+Settings.LocaleSettings.AvailableLocales.SystemLocale  
 Settings.DashSettings.DashCurvature  
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
