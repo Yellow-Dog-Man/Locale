@@ -1548,6 +1548,12 @@
         "Settings.AudioInputFilteringSettings.NoiseGateRelease": "Czas zaniku bramki szumów (release)",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "Określa szybkość zamykania bramki szumów po spadku poziomu sygnału poniżej ustawionego progu.",
 
+        "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Próg normalizacji",
+        "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Za pomocą tego ustawienia można kontrolować próg, kiedy przychodzący dźwięk zostanie wzmocniony. Jeśli normalna mowa jest zbyt cicha i nie jest wzmacniana, zmniejsz to ustawienie. Jeśli wzmacniane są przypadkowe ciche dźwięki, zwiększ wartość.",
+
+        "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Tłumienie hałasu (RNNoise)",
+        "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Funkcja ta przetwarza przychodzący dźwięk w celu odfiltrowania różnych niepożądanych dźwięków. Może to znacznie oczyścić dźwięk z głośnych mikrofonów, zapewniając czystszy głos. Zdecydowanie zalecamy pozostawienie tego ustawienia włączonego. Może ona jednak również filtrować pewne dźwięki, które nie zostaną zidentyfikowane jako mowa.",
+
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Maksymalna liczba jednoczesnych transferów",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "Podczas hostowania sesji wskazuje, ile lokalnie zaimportowanych zasobów można przesłać w danym momencie. Zwiększenie tej wartości może przyspieszyć przesyłanie zasobów do użytkowników, ale może również pogorszyć jakość połączenia sieciowego. Zalecamy przetestowanie, jakie wartości może obsłużyć sieć.",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads": "Maksymalna liczba jednoczesnych pobrań",
