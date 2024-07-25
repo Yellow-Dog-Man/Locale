@@ -88,6 +88,11 @@ Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description
 Settings.UserMetricsSettings.UserHeight.Description  
 Settings.FavoritesSettings.AutoLoadCloudHome.Description  
 Settings.AudioInputDeviceSettings.UseSystemDefault.Description  
+Settings.AudioInputDeviceSettings.Testing.Header  
+Settings.AudioInputDeviceSettings.Testing.Description  
+Settings.AudioInputDeviceSettings.Testing.ListenToInput  
+Settings.AudioInputDeviceSettings.Testing.StopListeningToInput  
+Settings.AudioInputDeviceSettings.Testing.Monitoring.Header  
 Settings.AudioOutputDeviceSettings.UseSystemDefault.Description  
 Settings.AudioVolumeSettings.MasterVolume.Description  
 Settings.AudioVolumeSettings.SoundEffectVolume.Description  
