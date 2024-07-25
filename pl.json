@@ -1537,6 +1537,17 @@
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Głośność wiadomości głosowych",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Wskazuje, jak głośne będą inne dźwięki podczas nagrywania wiadomości głosowej w Kontaktach. Może to pomóc w zapobieganiu „zagłuszaniu głosu”, ułatwiając skupienie się na tym, co mówisz.",
 
+        "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Normalizacja głosu",
+        "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Funkcja ta stara się zapewnić jednolity poziom głosu. Dzięki temu głośność będzie taka sama jak innych użytkowników, niezależnie od ustawień mikrofonu. Zdecydowanie zalecamy pozostawienie tego ustawienia włączonego, aby być dobrze słyszanym przez innych użytkowników.",
+        "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "Próg bramki szumów (threshold)",
+        "Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description": "Bramka szumów zapobiega przesyłaniu przypadkowych dźwięków do innych użytkowników. To ustawienie wskazuje, kiedy powinniśmy zacząć przepuszczać dźwięk pochodzący z mikrofonu. Jeśli dociera zbyt dużo szumów, zwiększ to ustawienie, jeśli głos nie dociera, zmniejsz je.",
+        "Settings.AudioInputFilteringSettings.NoiseGateAttack": "Atak bramki szumów (attack)",
+        "Settings.AudioInputFilteringSettings.NoiseGateAttack.Description": "Określa czas, po którym bramka otworzy się (czyli zacznie przepuszczać sygnał) od momentu przekroczenia przez sygnał progu zadziałania.",
+        "Settings.AudioInputFilteringSettings.NoiseGateHold": "Przytrzymanie bramki szumów (hold)",
+        "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "Określa czas, który musi upłynąć, aby bramka zaczęła się zamykać gdy poziom sygnału spadnie poniżej ustawionego progu zadziałania.",
+        "Settings.AudioInputFilteringSettings.NoiseGateRelease": "Czas zaniku bramki szumów (release)",
+        "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "Określa szybkość zamykania bramki szumów po spadku poziomu sygnału poniżej ustawionego progu.",
+
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Maksymalna liczba jednoczesnych transferów",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "Podczas hostowania sesji wskazuje, ile lokalnie zaimportowanych zasobów można przesłać w danym momencie. Zwiększenie tej wartości może przyspieszyć przesyłanie zasobów do użytkowników, ale może również pogorszyć jakość połączenia sieciowego. Zalecamy przetestowanie, jakie wartości może obsłużyć sieć.",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads": "Maksymalna liczba jednoczesnych pobrań",
