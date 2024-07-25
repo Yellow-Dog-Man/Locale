@@ -135,6 +135,7 @@ Settings.LocaleSettings.CultureLocaleCode
 Settings.LocaleSettings.CultureLocaleCode.Description  
 Settings.LocaleSettings.UseImperialUnits  
 Settings.LocaleSettings.UseImperialUnits.Description  
+Settings.LocaleSettings.AvailableLocales.SystemLocale  
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed.Description  
 Settings.DashSettings.AllowReplacingSettings.Description  

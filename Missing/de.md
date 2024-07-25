@@ -2,5 +2,5 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # German [de]
-Contacts.NoSession  
+Settings.LocaleSettings.AvailableLocales.SystemLocale  
 

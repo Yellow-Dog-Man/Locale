@@ -3,4 +3,5 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # French [fr]
 Contacts.NoSession  
+Settings.LocaleSettings.AvailableLocales.SystemLocale  
 
