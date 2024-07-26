@@ -1,6 +1,14 @@
 name: Translation Issue
 description: Report an issue with an existing translation
 body:
+  - type: dropdown
+    attributes:
+      label: Issue Type
+      description: What kind of translation issue are you reporting?
+      options:
+        - Incorrect Translation
+        - Missing Translation
+        # note(LeoCatsune): Other types here?
   - type: input
     attributes:
       label: Affected Language
