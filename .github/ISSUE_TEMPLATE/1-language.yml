@@ -4,19 +4,22 @@ title: "(Language Name) [(Tag)]"
 labels: "Language Coordination"
 body:
   - type: input
-    label: Language Name
-    description: "The name of the language you'd like to request."
-    placeholder: English
+    attributes:
+      label: Language Name
+      description: "The name of the language you'd like to request."
+      placeholder: English
     validations:
       required: true
   - type: input
-    label: IETF Language Tag
-    description: "The [IETF Language Tag](https://en.wikipedia.org/wiki/IETF_language_tag) for the language you're requesting."
-    placeholder: en
+    attributes:
+      label: IETF Language Tag
+      description: "The [IETF Language Tag](https://en.wikipedia.org/wiki/IETF_language_tag) for the language you're requesting."
+      placeholder: en
     validations:
       required: true
   - type: checkboxes
-    label: Requirements
+    attributes:
+      label: Requirements
     options:
       - label: "I have checked that the language does not already exist in the repository."
         required: true
