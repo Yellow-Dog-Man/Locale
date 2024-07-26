@@ -3,26 +3,26 @@ about: Request a new language for translations.
 title: "(Language Name) [(Tag)]"
 labels: "Language Coordination"
 body:
-- type: input
-  label: Language Name
-  description: "The name of the language you'd like to request."
-  placeholder: English
-  validations:
-    required: true
-- type: input
-  label: IETF Language Tag
-  description: "The [IETF Language Tag](https://en.wikipedia.org/wiki/IETF_language_tag) for the language you're requesting."
-  placeholder: en
-  validations:
-    required: true
-- type: checkboxes
-  label: Requirements
-  options:
-    - label: "I have checked that the language does not already exist in the repository."
+  - type: input
+    label: Language Name
+    description: "The name of the language you'd like to request."
+    placeholder: English
+    validations:
       required: true
-    - label: "I have checked that there are no currently open requests for this language."
+  - type: input
+    label: IETF Language Tag
+    description: "The [IETF Language Tag](https://en.wikipedia.org/wiki/IETF_language_tag) for the language you're requesting."
+    placeholder: en
+    validations:
       required: true
-    - label: "I have checked that the Language Name and Locale Code are correct and both match."
-      required: true
-# TODO: Verify this? as per README.
-#   - label: "I have checked that there is a Pluralizer available for my language."
+  - type: checkboxes
+    label: Requirements
+    options:
+      - label: "I have checked that the language does not already exist in the repository."
+        required: true
+      - label: "I have checked that there are no currently open requests for this language."
+        required: true
+      - label: "I have checked that the Language Name and Locale Code are correct and both match."
+        required: true
+  # TODO: Verify this? as per README.
+  #   - label: "I have checked that there is a Pluralizer available for my language."
