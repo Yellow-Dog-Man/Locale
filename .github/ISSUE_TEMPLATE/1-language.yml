@@ -20,12 +20,12 @@ body:
   - type: checkboxes
     attributes:
       label: Requirements
-    options:
-      - label: "I have checked that the language does not already exist in the repository."
-        required: true
-      - label: "I have checked that there are no currently open requests for this language."
-        required: true
-      - label: "I have checked that the Language Name and Locale Code are correct and both match."
-        required: true
-  # TODO: Verify this? as per README.
-  #   - label: "I have checked that there is a Pluralizer available for my language."
+      options:
+        - label: "I have checked that the language does not already exist in the repository."
+          required: true
+        - label: "I have checked that there are no currently open requests for this language."
+          required: true
+        - label: "I have checked that the Language Name and Locale Code are correct and both match."
+          required: true
+    # TODO: Verify this? as per README.
+    #   - label: "I have checked that there is a Pluralizer available for my language."
