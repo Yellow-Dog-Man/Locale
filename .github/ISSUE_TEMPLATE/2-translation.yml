@@ -15,7 +15,7 @@ body:
       placeholder: Contacts.NoSession
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     attributes:
-      value: |
-        Please write a detailed explanation of the issue here.
+      label: Description
+      description: Please write a detailed explanation of the issue here.
