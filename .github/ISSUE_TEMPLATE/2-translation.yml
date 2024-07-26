@@ -1,0 +1,22 @@
+name: Translation Issue
+description: Report an issue with an existing translation
+body:
+  - type: input
+    attributes:
+      label: Affected Language
+      description: The name and/or tag of the language where the issue occurs
+      placeholder: English
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Translation Key
+      description: The translation key(s) that are incorrectly translated
+      placeholder: Contacts.NoSession
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      label: Description
+      value: |
+        Please write a detailed explanation of the issue here.
