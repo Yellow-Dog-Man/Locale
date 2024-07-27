@@ -554,7 +554,7 @@
         "Account.Saml2.Select": "Будь ласка, виберіть постачальника SAML 2.0, яким бажаєте користуватись :",
         "Account.Saml2.LoggingIn": "Чекаємо на завершення входу (перевірте браузер)...",
 
-"Account.TOTP.Title": "Двохфакторна автентифікація",
+        "Account.TOTP.Title": "Двохфакторна автентифікація",
         "Account.TOTP.Initializing": "Перевіряємо статус двохфакторної автентифікації для вашого облікового запису...",
         "Account.TOTP.Code.Header": "Секретний Код",
         "Account.TOTP.Code.Description": "Спочатку, вам треба увести секретний код до вашого додатку двохфакторної автентифікації, наприклад <b>Authy</b> або <b>Google Authenticator</b>.<br><br>Ми радимо зробити це зісканувавши QR код. Алтернативно, вручну введіть секретний код. <b>Ніколи та ні з ким не діліться цим кодом.</b><br><br>Якщо ви у ВР - натисніть F8, щоб перейти на плаский екран.",
@@ -650,6 +650,7 @@
 
         "Contacts.InSession": "У {name}",
         "Contacts.InPrivate": "У Приватному Світі",
+        "Contacts.NoSession": "Без Сесії",
         "Contacts.InContactsOnly": "У Світі Тільки Для Контактів",
         "Contacts.InHidden": "У Захованому Світі",
         "Contacts.InHiddenContactsOnly": "У Захованому Світі Тільки Для Контактів",
@@ -934,6 +935,9 @@
         "Importer.Image.180": "180° Фото",
         "Importer.Image.Stereo180": "Стерео 180° фото",
         "Importer.Image.LUT": "LUT",
+
+        "Importer.Image.Failure.Heading": "Не вдалось імпортувати фото <color=hero.yellow>{image}</color>",
+        "Importer.Image.Failure.Description": "Не вдалось імпортувати фото бо:\n\n<color=hero.red>{error}</color>",
 
         "Importer.LUT.Failure.Heading": "Не вдалось імпортувати LUT <color=hero.yellow>{image}</color>",
         "Importer.LUT.Failure.Description": "Не вдалось імпортувати LUT бо:\n\n<color=hero.red>{error}</color>",
