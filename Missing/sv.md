@@ -12,6 +12,7 @@ World.Filter.IncompatibleSessions
 Profile.Status.Sociable  
 Profile.Status.Bot  
 Profile.Status.ChatClient  
+Contacts.NoSession  
 Contacts.IncompatibleSession  
 Notifications.IsSociable  
 Notifications.SessionStarted  
@@ -709,6 +710,11 @@ Settings.AudioInputDeviceSettings.UseSystemDefault.Description
 Settings.AudioInputDeviceSettings.DevicePriorities  
 Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb  
 Settings.AudioInputDeviceSettings.SetAsDefault  
+Settings.AudioInputDeviceSettings.Testing.Header  
+Settings.AudioInputDeviceSettings.Testing.Description  
+Settings.AudioInputDeviceSettings.Testing.ListenToInput  
+Settings.AudioInputDeviceSettings.Testing.StopListeningToInput  
+Settings.AudioInputDeviceSettings.Testing.Monitoring.Header  
 Settings.AudioOutputDeviceSettings.UseSystemDefault  
 Settings.AudioOutputDeviceSettings.UseSystemDefault.Description  
 Settings.AudioOutputDeviceSettings.DevicePriorities  
@@ -809,6 +815,7 @@ Settings.LocaleSettings.UseImperialUnits
 Settings.LocaleSettings.UseImperialUnits.Description  
 Settings.LocaleSettings.AvailableLocales  
 Settings.LocaleSettings.AvailableLocales.Breadcrumb  
+Settings.LocaleSettings.AvailableLocales.SystemLocale  
 Settings.DashSettings.DashCurvature  
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
