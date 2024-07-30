@@ -15,9 +15,11 @@ Inventory.SpawnFacet
 Dash.Actions.TurnOffUIEdit  
 Facets.FPS  
 World.Connection.LNL.DirectIP  
+World.Connection.LNL.LNLPoke  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
+World.Connection.TCP  
 World.Error.FailedToConnect  
 World.Error.InvalidAddress  
 World.Error.HostBlocked  
@@ -32,6 +34,7 @@ World.AccessLevel.ContactsPlus
 World.SortParameter.LastVisit  
 World.SortParameter.Random  
 World.Filter.MinimumContacts  
+World.Filter.IncompatibleSessions  
 Tools.Setup2FA  
 Tools.StreamAudio.Dialog.Title  
 Tools.StreamAudio.Spatialized  
@@ -93,6 +96,8 @@ Account.TOTP.Message.DeactivationComplete
 2FA.Header  
 2FA.Token  
 Profile.Status.Sociable  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Session.JoinVerifier.EnableHeader  
 Session.JoinVerifier.EnableText  
 Session.JoinVerifier.Label  
@@ -106,6 +111,7 @@ Contacts.MutualBlock
 Contacts.SelfAccount  
 Contacts.SearchPrompt  
 Contacts.WriteMessage  
+Contacts.NoSession  
 Contacts.InContactsOnly  
 Contacts.InHiddenContactsOnly  
 Contacts.InHiddenContactsPlus  
@@ -627,6 +633,8 @@ Settings.SteamIntegrationSettings.RichPresence
 Settings.SteamIntegrationSettings.RichPresence.Description  
 Settings.SteamIntegrationSettings.SaveScreenshots  
 Settings.SteamIntegrationSettings.SaveScreenshots.Description  
+Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay  
+Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description  
 Settings.LeapMotionSettings.LeapMotionEnabled  
 Settings.LeapMotionSettings.LeapMotionEnabled.Description  
 Settings.LeapMotionSettings.Offset  
@@ -735,6 +743,11 @@ Settings.AudioInputDeviceSettings.UseSystemDefault.Description
 Settings.AudioInputDeviceSettings.DevicePriorities  
 Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb  
 Settings.AudioInputDeviceSettings.SetAsDefault  
+Settings.AudioInputDeviceSettings.Testing.Header  
+Settings.AudioInputDeviceSettings.Testing.Description  
+Settings.AudioInputDeviceSettings.Testing.ListenToInput  
+Settings.AudioInputDeviceSettings.Testing.StopListeningToInput  
+Settings.AudioInputDeviceSettings.Testing.Monitoring.Header  
 Settings.AudioOutputDeviceSettings.UseSystemDefault  
 Settings.AudioOutputDeviceSettings.UseSystemDefault.Description  
 Settings.AudioOutputDeviceSettings.DevicePriorities  
@@ -790,6 +803,8 @@ Settings.RealtimeNetworkingSettings.DisableLAN
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
+Settings.RealtimeNetworkingSettings.PreferTCP  
+Settings.RealtimeNetworkingSettings.PreferTCP.Description  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers  
@@ -817,8 +832,6 @@ Settings.WindowsSettings.KeepOriginalScreenshotFormat
 Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.DebugInputBindings.Description  
-Settings.DebugSettings.FetchIncompatibleSessions  
-Settings.DebugSettings.FetchIncompatibleSessions.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
@@ -835,6 +848,7 @@ Settings.LocaleSettings.UseImperialUnits
 Settings.LocaleSettings.UseImperialUnits.Description  
 Settings.LocaleSettings.AvailableLocales  
 Settings.LocaleSettings.AvailableLocales.Breadcrumb  
+Settings.LocaleSettings.AvailableLocales.SystemLocale  
 Settings.DashSettings.DashCurvature  
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  

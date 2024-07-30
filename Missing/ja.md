@@ -2,13 +2,10 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Japanese [ja]
-Contacts.IncompatibleSession  
-Importer.LUT.Failure.Heading  
-Importer.LUT.Failure.Description  
-Exporter.InvalidFileName  
-Settings.RealtimeNetworkingSettings.LNL_WindowSize  
-Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
-Inspector.Texture.AlphaGamma  
-Inspector.Texture.AdjustAlphaGamma  
-Inspector.Texture.AddAlpha  
+Settings.AudioInputDeviceSettings.Testing.Header  
+Settings.AudioInputDeviceSettings.Testing.Description  
+Settings.AudioInputDeviceSettings.Testing.ListenToInput  
+Settings.AudioInputDeviceSettings.Testing.StopListeningToInput  
+Settings.AudioInputDeviceSettings.Testing.Monitoring.Header  
+Settings.LocaleSettings.AvailableLocales.SystemLocale  
 

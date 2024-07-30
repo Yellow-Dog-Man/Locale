@@ -2,8 +2,14 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Finnish [fi]
+World.Connection.LNL.LNLPoke  
+World.Connection.TCP  
 World.Actions.GuestWarning  
+World.Filter.IncompatibleSessions  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Contacts.Unblocked  
+Contacts.NoSession  
 Contacts.IncompatibleSession  
 Tooltip.ProtoFlux.Drive  
 Tooltip.ProtoFlux.Source  
@@ -36,6 +42,8 @@ Importer.Package.Progress.ImportingAssets
 Importer.Package.Progress.LoadingObject  
 Importer.Package.Progress.Imported  
 Importer.Package.Progress.Fail  
+Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay  
+Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description  
 Settings.LeapMotionSettings.Offset.Description  
 Settings.LeapMotionSettings.SnapDistance.Description  
 Settings.LeapMotionSettings.UseFingersWhenSnapped.Description  
@@ -80,6 +88,11 @@ Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description
 Settings.UserMetricsSettings.UserHeight.Description  
 Settings.FavoritesSettings.AutoLoadCloudHome.Description  
 Settings.AudioInputDeviceSettings.UseSystemDefault.Description  
+Settings.AudioInputDeviceSettings.Testing.Header  
+Settings.AudioInputDeviceSettings.Testing.Description  
+Settings.AudioInputDeviceSettings.Testing.ListenToInput  
+Settings.AudioInputDeviceSettings.Testing.StopListeningToInput  
+Settings.AudioInputDeviceSettings.Testing.Monitoring.Header  
 Settings.AudioOutputDeviceSettings.UseSystemDefault.Description  
 Settings.AudioVolumeSettings.MasterVolume.Description  
 Settings.AudioVolumeSettings.SoundEffectVolume.Description  
@@ -105,6 +118,8 @@ Settings.EarmuffSettings.TransitionLength.Description
 Settings.EarmuffSettings.VolumeAttenuation.Description  
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
+Settings.RealtimeNetworkingSettings.PreferTCP  
+Settings.RealtimeNetworkingSettings.PreferTCP.Description  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description  
@@ -116,7 +131,6 @@ Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description
 Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.DebugInputBindings.Description  
-Settings.DebugSettings.FetchIncompatibleSessions.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
@@ -126,6 +140,7 @@ Settings.LocaleSettings.CultureLocaleCode
 Settings.LocaleSettings.CultureLocaleCode.Description  
 Settings.LocaleSettings.UseImperialUnits  
 Settings.LocaleSettings.UseImperialUnits.Description  
+Settings.LocaleSettings.AvailableLocales.SystemLocale  
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed.Description  
 Settings.DashSettings.AllowReplacingSettings.Description  
