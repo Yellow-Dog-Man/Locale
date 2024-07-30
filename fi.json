@@ -182,7 +182,7 @@
         "World.Connection.Connected": "Yhdistetty",
         "World.Connection.SyncingInitialState": "Synkronoidaan",
 
-        "World.Connection.LNL.DirectIP": "LNL suora IP",
+        "World.Connection.LNL.DirectIP": "LNL suora IP<br><size=75%>{address}</size>",
 
         "World.Connection.LNL.NATPunchthrough": "LNL NAT lävistys {n}",
         "World.Connection.LNL.Relay": "LNL rele",
@@ -1618,7 +1618,6 @@
 
 
 
-
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Tuplatartu pitääksesi esineitä kädessä",
 
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Käytä vanhaa maailman vaihtajaa",
@@ -1638,6 +1637,7 @@
 
         "Settings.LocaleSettings.AvailableLocales": "Valitse kieli",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Kielet",
+        "Settings.LocaleSettings.AvailableLocales.SystemLocale": "Käytä järjestelmän kieltä",
 
         "Settings.DashSettings.DashCurvature": "Kaarevuus",
 
@@ -2398,7 +2398,7 @@
         "Migration.Groups.NoGroups": "{platform} ryhmiä ei löytynyt siirrettäväksi.",
         "Migration.Groups.NotGroupAdmin": "Et ole ainoankaan {platform} ryhmän omistaja, kysy ryhmän omistajaa siirtämään ryhmä!",
 
-
+        "Migration.Summary": "Meillä on kaikki tarvittava. Napsauta Aloita siirtyminen -painiketta alla, niin voimme aloittaa siirtosi.\n\nSiirtyminen voi kestää jonkin aikaa, meidän on kopioitava kaikki tiedostot. Jos olet valinnut suosikkien siirtämisen, siirrämme ne ensin, jotta pääset mukavasti liikkeelle.\n\n{appName} ei tarvitse olla käynnissä siirtymisen aikana, mutta lähetämme sinulle päivityksiä {appName} -robotin kautta kertoaksemme, miten se etenee.",
 
         "Migration.List.EmptyTitle": "Uusi siirto?",
         "Migration.List.EmptySubtitle": "Klikkaa \"Uusi siirtymistyö\" ylhäältä vasemmalta.",
@@ -2428,7 +2428,7 @@
         "Migration.Error": "<color=red>Virhe:</color> {error}",
         "Migration.NothingSelected": "Ei valintoja, ei voi aloittaa.",
 
-
+        "Migration.ColorManagement": "Tämä maailma on luotu gammatilassa, ja se on automaattisesti muunnettu lineaariseksi.<br><br>Maailma voi näyttää erilaiselta kuin alkuperäinen, mutta sen pitäisi olla yleisesti ottaen käyttökelpoinen.<br><br>Jos olet alkuperäinen luoja ja havaitset ongelmia maailman muuntamisessa <color=red>ÄLÄ TALLENNA</color>. Tallenna vain kopiot.<br><br>Niin kauan kuin alkuperäinen on olemassa, voimme muokata muuntamisprosessia. Muussa tapauksessa sinun on korjattava maailma itse.",
 
         "Temporary.MMC.Voting UI": "MMC äänestysikkuna",
         "Temporary.MMC.Vote": "Äänestä",
