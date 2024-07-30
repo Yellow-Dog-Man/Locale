@@ -1295,6 +1295,123 @@
         "Settings.LocomotionSettings.LocomotionPreferences": "Уподобання Переміщення",
         "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Уподобання Переміщення",
     
+        "Settings.MovementSettings.LeftSidewaysMode": "Режим бічного руху на Лівому контролері",
+        "Settings.MovementSettings.LeftSidewaysMode.Description": "Використайте це, щоб зрозуміти що нахил джойстика або дотик на тачпеді на вашому Лівому контролері робитиме.",
+        "Settings.MovementSettings.RightSidewaysMode": "Режим бічного руху на Лівому контролері",
+        "Settings.MovementSettings.RightSidewaysMode.Description": "Використайте це, щоб зрозуміти що нахил джойстика або дотик на тачпеді на вашому Правому контролері робитиме.",
+        "Settings.MovementSettings.UseHeadDirectionForMovement": "Використовувати повертання голови для руху",
+        "Settings.MovementSettings.UseHeadDirectionForMovement.Description": "Якщо увімкнено - рух уперед рухатиме вас туди, куди дивитесь у ВР. Якщо вимкнено - повертання контролера буде натомість використано.",
+        "Settings.MovementSettings.UseSmoothTurn": "Плавне Повертання",
+        "Settings.MovementSettings.UseSmoothTurn.Description": "Ця опція увімкненою повільно повертатиме вас у ВР. Набагато більш понирює, але може викликати нудоту. Вимкніть цю опцію, якщо вам підходить кутове повертання.",
+        "Settings.MovementSettings.SmoothTurnExclusiveMode": "Використовувати режим переваги повертанню",
+        "Settings.MovementSettings.SmoothTurnExclusiveMode.Description": "Якщо увімкнено, один джойстик може вас повертати і рухати уперед та назад, але не водночас. Увімкніть це якщо ви постійно повертаєтесь коли натомість хотіли рухаитись.",
+        "Settings.MovementSettings.SmoothTurnSpeed": "Швидкість плавного повертання",
+        "Settings.MovementSettings.SmoothTurnSpeed.Description": "Ця опція визначає швидкість з якою ви повертатиметесь при увімкненому плавному повертанні. Вимірюється у градусах на секунду,This setting controls how fast you'll be turning when smooth turning is enabled. The value is degrees per second, so value of 360 will turn you full circle in one second at full joystick tilt.",
+        "Settings.MovementSettings.SnapTurnAngle": "Snap turning angle",
+        "Settings.MovementSettings.SnapTurnAngle.Description": "This is the angle (in degrees) you will rotate when you trigger a snap turn.",
+        "Settings.MovementSettings.NoClipSpeed": "Noclip speed",
+        "Settings.MovementSettings.NoClipSpeed.Description": "This controls how fast you'll move when you're using the Noclip locomotion specifically. This type of locomotion is often used for building and testing and as such is not controlled by the world you're in, while others typically are.",
+        "Settings.MovementSettings.MovementDeadzone": "Movement deadzone",
+        "Settings.MovementSettings.MovementDeadzone.Description": "This setting can be used to correct drift. Increasing this value will require you to tilt your joystick further to start moving.",
+        "Settings.MovementSettings.TurningDeadzone": "Turning deadzone",
+        "Settings.MovementSettings.TurningDeadzone.Description": "This setting can be used to correct drift and prevent accidental turning when moving and turning on the same joystick. Increasing this value will require you to tilt your joystick further to start turning.",
+        "Settings.MovementSettings.MovementExponent": "Movement exponent",
+        "Settings.MovementSettings.MovementExponent.Description": "Use this to control the curve response when moving. You can use this to either start moving slow at first and then quickly ramp up or start moving faster immediately, depending whether the value is above or below 1.0",
+
+        "Settings.GrabbingSettings": "Grabbing Settings",
+        "Settings.GrabbingSettings.DefaultHandGrabType": "Default Hand Grab Type",
+        "Settings.GrabbingSettings.DefaultHandGrabType.Description": "This determines what your default grab mode for hands is when you spawn in new worlds.\n\n<color=hero.yellow>Palm:</color> You will grab all objects that are near your palm.\n\n<color=hero.yellow>Precision:</color> You will grab a single object between your index finger and thumb.\n\n<color=hero.yellow>Auto:</color> Mode is automatically switched between palm and precision depending on the orientation of your hand.\n\n<color=hero.yellow>Off:</color> You'll only be able to grab items with your lasers.",
+
+        "Settings.GamepadSettings": "Gamepad",
+        "Settings.GamepadSettings.ThumbstickLookSpeed": "Thumbstick Looking Speed",
+        "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Use this to adjust the sensitivity of the speed at which the viewpoint is moved with the thumbstick.",
+        "Settings.GamepadSettings.ThumbstickLookExponent": "Thumbstick Looking Exponent",
+        "Settings.GamepadSettings.ThumbstickLookExponent.Description": "Use this to control the curve response of the viewpoint movement with the thumbstick. With this setting, you can either start moving slowly at first and then ramp up quickly, or start moving faster immediately, depending on whether the value is above or below 1.0.",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused": "Use gamepad when unfocused",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "When this setting is enabled, any inputs from gamepads will be used even when the application window isn't currently focused. You can turn this off if you like to run other games at the same time that also use gamepad.",
+
+        "Settings.MouseSettings.MouseSensitivity": "Sensitivity",
+        "Settings.MouseSettings.MouseSensitivity.Description": "Overall mouse sensitivity for desktop interactions.",
+        "Settings.MouseSettings.MouseLookSpeed": "Looking speed",
+        "Settings.MouseSettings.MouseLookSpeed.Description": "Use this to adjust the sensitivity of how fast the camera looks around when in first or third person mode.",
+        "Settings.MouseSettings.MousePanSpeed": "Panning speed",
+        "Settings.MouseSettings.MousePanSpeed.Description": "This controls how fast the view looks with mouse movement when in UI aligned viewing mode.",
+        "Settings.MouseSettings.MouseRotateSpeed": "Rotation speed",
+        "Settings.MouseSettings.MouseRotateSpeed.Description": "When holding items in desktop mode, this controls how fast they will be rotated around their axis with the mouse.",
+        "Settings.MouseSettings.MouseFreeformRotateSpeed": "Freeform rotation speed",
+        "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "When holding items in desktop mode, this controls how fast they will be rotated when using freeform rotation.",
+
+        "Settings.GeneralHapticsSettings.EnableControllerVibration": "Controller vibration",
+        "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Use this to enable or disable haptic vibration specifically on VR controllers.",
+        "Settings.GeneralHapticsSettings.EnableHaptics": "Haptic feedback",
+        "Settings.GeneralHapticsSettings.EnableHaptics.Description": "When enabled you will receive haptic feedback from avatars and items in the world on your controllers and other haptic devices.",
+
+        "Settings.GeneralVRSettings.UseVRHotswitching": "VR Hotswitching",
+        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "When enabled, you will automatically be switched between VR and desktop mode when you take your VR headset on or off",
+
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Hand Position Smoothing",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Hand Rotation Smoothing",
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "When enabled, this controls how much is the hand position smoothed out. Typically this is helpful for users with tremors and other accessibility issues that cause jitter.",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "When enabled, this controls how much is the hand rotation smoothed out. Typically this is helpful for users with tremors and other accessibility issues jitter.",
+
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Feet Position Smoothing",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Feet Rotation Smoothing",
+
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "When enabled, this controls how much is the position of feet smoothed out when using full body tracking. This can be useful to eliminate vibrations and jitter, but it also makes the trackers lag behind more and not respond to rapid motions as well.",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "When enabled, this controls how much is the rotation of feet smoothed out when using full body tracking. This can be useful to eliminate vibrations and jitter, but it also makes the trackers lag behind more and not respond to rapid motions as well.",
+
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Hips Position Smoothing",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Hips Rotation Smoothing",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "When enabled, this controls how much is the position of hips smoothed out when using full body tracking. This can be useful to eliminate vibrations and jitter, but it also makes the trackers lag behind more and not respond to rapid motions as well.",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "When enabled, this controls how much is the rotation of hips smoothed out when using full body tracking. This can be useful to eliminate vibrations and jitter, but it also makes the trackers lag behind more and not respond to rapid motions as well.",
+
+        "Settings.MediaPrivacySettings": "Media Privacy",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Opt out of media metadata",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "When you enable this option, you will be excluded from metadata in captured media (typically virtual photos & audio clips). You will still appear in those media assets, but no information, such as your UserID and position in the scene will be stored alongside it.\n\nIf you become aware of any users are modifying their clients to ignore this opt out, please report them to the moderation team, as this would be considered harassment.",
+        "Settings.MediaPrivacySettings.HideInScreenshots": "Do not show me in screenshots",
+        "Settings.MediaPrivacySettings.HideInScreenshots.Description": "When enabled, you will not be rendered in screenshots captured in-game.\n\n<color=hero.red>IMPORTANT:</color> Please note that this does not affect realtime cameras, screenshots taken by methods outside of the game or captures done through other methods in-world that might be part of the world's mechanics.",
+
+        "Settings.MediaPrivacySettings.StripImageFileMetadata": "Strip image metadata on import",
+        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "When enabled, strips metadata from images on <b>import</b>.\n\nIncludes EXIF, Embedded comments, IPTC, XMP, and GEOTIFF metadata.\n\nThis will also strip any location data (such as GPS) within that metadata.\n\nDoes <b>not</b>, include files imported with the \"Raw File\" option.",
+
+        "Settings.Category.Integrations": "Integrations",
+        "Settings.DiscordIntegrationSettings": "Discord Integration",
+        "Settings.SteamIntegrationSettings": "Steam Integration",
+
+        "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Discord's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Discord.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Discord. Includes the world name and how many users are in the session.\n\nDiscord itself also does its own detection to display what game you are playing. This can be disabled in Discord's settings.",
+
+        "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Steam's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Steam.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Steam. Includes the world name and how many users are in the session.\n\nSteam itself will display that you are playing Resonite regardless of this setting. Changing this setting only affects how much extra data is sent to Steam about your active session.",
+
+        "Settings.SteamIntegrationSettings.SaveScreenshots": "Save Screenshots",
+        "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "When you take a picture with this setting enabled, a copy will be saved to Steam screenshots.",
+
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Force Steam Voice when Remote Play is active",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "When enabled, this automatically forces the audio input to use Steam Voice when you play through Steam Remote Play. This helps so you don't need to switch automatically to use the forwarded microphone input.<br><br>Disabling this can be useful if you want to use your own audio device - e.g. external microphone.",
+
+        "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion hand tracking",
+        "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "When enabled, Leap Motion device will be used to track your hands and fingers when present.",
+        "Settings.LeapMotionSettings.Offset": "Hand tracking offset",
+        "Settings.LeapMotionSettings.Offset.Description": "This is the offset in meters of the Leap Motion sensor on your VR headset. Tweak these values to make sure your hands are positioned correctly.",
+        "Settings.LeapMotionSettings.SnapDistance": "Controller snapping distance",
+        "Settings.LeapMotionSettings.SnapDistance.Description": "When your hands are within the range of controllers, they will automatically snap to them and use the hand tracking data from the controller itself, instead of Leap Motion. This controls the distance at which the hands will snap.",
+        "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Track hands while using controllers",
+        "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "When hands are snapped to controllers, this will still pose the fingers using data coming from the Leap Motion",
+
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Vive hand tracking",
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "When enabled, your hands and fingers will be tracked using the Vive hand tracking. This typically uses the cameras on the VR headset itself. You might need to enable the hand tracking in Steam VR settings.",
+        "Settings.ViveHandTrackingSettings.SnapDistance": "Controller snapping distance",
+        "Settings.ViveHandTrackingSettings.SnapDistance.Description": "When your hands are within the range of controllers, they will automatically snap to them and use the hand tracking data from the controller itself, instead of the headset cameras. This controls the distance at which the hands will snap.",
+        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Track hands while using controllers",
+        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "When hands are snapped to controllers, this will still pose the fingers using data coming from the VR headset cameras",
+
+        "Settings.TrackerSettings": "Tracker Settings",
+        "Settings.TrackerSettings.UseTrackers": "Use Trackers",
+        "Settings.TrackerSettings.UseTrackers.Description": "Using this option you can globally disable all body trackers. This can be useful if your trackers are in a corner and charging, resulting in your avatar being crumpled up.",
+        "Settings.TrackerSettings.Trackers": "Manage Trackers",
+        "Settings.TrackerSettings.Trackers.Breadcrumb": "Trackers",
+
         "Dummy": "Dummy"
     }
 }
