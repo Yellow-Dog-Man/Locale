@@ -183,9 +183,11 @@
         "World.Connection.SyncingInitialState": "Synkronoidaan",
 
         "World.Connection.LNL.DirectIP": "LNL suora IP",
+
         "World.Connection.LNL.NATPunchthrough": "LNL NAT lävistys {n}",
         "World.Connection.LNL.Relay": "LNL rele",
         "World.Connection.SteamNetworkingSockets": "Steam verkkoliitäntä",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "Pääsy Estetty",
         "World.Error.SecurityViolation": "Turvallisuusrikkomus",
@@ -342,6 +344,7 @@
         "World.Filter.MinimumUsers": "Minimi käyttäjämäärä: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Minimi kontaktimäärä: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Vain palvelin istunnot",
+        "World.Filter.IncompatibleSessions": "Yhteensopimattomat sessiot",
         "World.Filter.MaxAccessLevel": "Maksimi käyttöoikeustaso:",
         "World.Filter.MinimumUptime": "Minimi käyntiaika:",
         "World.Filter.Sorting": "Lajittelu:",
@@ -595,6 +598,8 @@
         "Profile.Status.Invisible": "Näkymätön",
         "Profile.Status.Offline": "Offline",
         "Profile.Status.Headless": "Palvelin",
+        "Profile.Status.Bot": "<b>Robotti:</b> {version}",
+        "Profile.Status.ChatClient": "<b>Chat-ohjelma:</b> {version}",
 
         "Session.Tab.Settings": "Asetukset",
         "Session.Tab.Users": "Käyttäjät",
@@ -644,6 +649,7 @@
         "Contacts.WriteMessage": "Kirjoita viesti...",
 
         "Contacts.InSession": "Maailmassa {name}",
+        "Contacts.NoSession": "Ei sessiota",
         "Contacts.InPrivate": "Yksityisessä maailmassa",
         "Contacts.InContactsOnly": "Vain Kontaktit -maailmassa",
         "Contacts.InHidden": "Piilotetussa maailmassa",
@@ -1381,6 +1387,9 @@
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Tallenna kuvakaappaukset",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Kun tämä on käytössä, kopio ottamistasi valokuvista tallennetaan Steam-kuvakaappauksiisi.",
 
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Pakota Steam Voice, kun Remote Play on aktiivinen",
+
+
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion käsien seuranta",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Kun tämä on käytössä, Leap Motion -laitetta käytetään seuraamaan käsiäsi ja sormiasi, kun ne ovat näkyvissä.",
         "Settings.LeapMotionSettings.Offset": "Käsien seurannan siirto",
@@ -1505,6 +1514,11 @@
         "Settings.AudioInputDeviceSettings.DevicePriorities": "Aseta suosikki äänitulolaitteet",
         "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "Äänitulolaitteet",
         "Settings.AudioInputDeviceSettings.SetAsDefault": "Aseta oletukseksi",
+        "Settings.AudioInputDeviceSettings.Testing.Header": "Testaa äänitulo",
+        "Settings.AudioInputDeviceSettings.Testing.Description": "Tämän avulla voit valvoa ja testata valittua äänilaitetta varmistaaksesi, että se toimii oikein. Käytä painiketta kuunnellaksesi tuloa, joka toistaa äänen takaisin sinulle.",
+        "Settings.AudioInputDeviceSettings.Testing.ListenToInput": "Kuuntele tätä syöttölaitetta",
+        "Settings.AudioInputDeviceSettings.Testing.StopListeningToInput": "Lopeta kuuntelu",
+        "Settings.AudioInputDeviceSettings.Testing.Monitoring.Header": "Reaaliaikainen äänen valvonta",
 
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "Käytä järjestelmän oletus äänilähtölaitetta",
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Ota tämä käyttöön, jos haluat käyttää sitä äänilähtölaitetta, joka on määritetty järjestelmän oletuslaitteeksi. Jos haluat käyttää jotain muuta äänilähtölaitetta, ota tämä asetus pois käytöstä ja valise laite alta.",
@@ -1567,8 +1581,10 @@
 
         "Settings.RealtimeNetworkingSettings.DisableLAN": "Poista LAN käytöstä",
 
-        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Suosi Steam verkkoliitäntää",
-
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Suosi Steamin verkkoliitäntää",
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Kun tämä on käytössä, yhteys muodostetaan Steam Networking Sockets -protokollan kautta, jos mahdollista. Tämä voi auttaa tapauksissa, joissa LNL-protokolla aiheuttaa huomattavaa tapahtumien jonoutumista. Koska tästä protokollasta puuttuu joitakin ominaisuuksia, voit joutua useammin epävakaaseen verkkoyhteyteen. Suosittelemme ottamaan tämän käyttöön vasta, kun olet havainnut ongelmia.",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "Suosi TCP",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Kun tämä asetus on käytössä, TCP-yhteydet asetetaan etusijalle kaikkiin muihin protokolliin nähden. Tämä vaikuttaa lähinnä LAN yhteyksiin, sillä TCP:tä ei oletusarvoisesti käytetä Internet-yhteyksiin.\n\nTCP:n suorituskyky voi olla parempi LAN verkossa, ja se toimii tietyissä verkoissa, joissa UDP-pohjaiset protokollat eivät toimi.\n\nTCP voi myös kärsiä \"Head-of-line blocking\"ista, jolloin äänet ja liikkeet voivat viivästyä huomattavasti.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL ikkunan koko",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Tämä säätää LNL-protokollan ikkunan kokoa reaaliaikaista verkkoliikennettä varten. Tämän asetuksen muuttaminen vaikuttaa välittömästi kaikkiin aktiivisiin sessioihin.\n\nJos havaitset pakettien jonoutumista, voit suurentaa tätä arvoa yhteyden läpäisykyvyn parantamiseksi. Suuremmat arvot voivat kuitenkin myös heikentää yhteyden vakautta entisestään, joten ole varovainen.\n\n<color=hero.yellow>Oletusarvo:</color> 64\n\n<color=hero.red>TÄRKEÄÄ:</color> Tämä asetus on diagnostiikkaa ja väliaikaista korjausta varten; tämä arvo säätyy automaattisesti tulevaisuudessa.",
 
@@ -1598,6 +1614,7 @@
 
         "Settings.WindowsSettings.KeepOriginalScreenshotFormat": "Säilytä alkuperäinen kuvakaappauksen kuvaformaatti",
         "Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description": "Ota tämä asetus käyttöön, jos haluat välttää kuvakaappausten muuntamisen JPG- tai PNG-muotoon, kun tallennat ne Windowsin Documents-kansioon. Tämä voi vaikeuttaa kuvien käyttöä, sillä jotkin sovellukset eivät ehkä pysty avaamaan tätä tiedostomuotoa.",
+
 
 
 
