@@ -1374,12 +1374,12 @@
         "Settings.MediaPrivacySettings.StripImageFileMetadata": "Strip image metadata on import",
         "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "When enabled, strips metadata from images on <b>import</b>.\n\nIncludes EXIF, Embedded comments, IPTC, XMP, and GEOTIFF metadata.\n\nThis will also strip any location data (such as GPS) within that metadata.\n\nDoes <b>not</b>, include files imported with the \"Raw File\" option.",
 
-        "Settings.Category.Integrations": "Integrations",
-        "Settings.DiscordIntegrationSettings": "Discord Integration",
-        "Settings.SteamIntegrationSettings": "Steam Integration",
+        "Settings.Category.Integrations": "Інтеграції",
+        "Settings.DiscordIntegrationSettings": "Інтеграція Discord",
+        "Settings.SteamIntegrationSettings": "Інтеграція Steam",
 
-        "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Discord's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Discord.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Discord. Includes the world name and how many users are in the session.\n\nDiscord itself also does its own detection to display what game you are playing. This can be disabled in Discord's settings.",
+        "Settings.DiscordIntegrationSettings.RichPresence": "Богата присутність Discord",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Контролює яку інформацію відсилати до богатої присутності Discord.\n\n<color=hero.yellow>Ніякої</color> - Не відсилати ніякої інформації.\n<color=hero.yellow>Базова</color> - Відсилати тільки обмежені дані якот ваше перебування у Resonite.\n<color=hero.yellow>Все</color> - Коли у публічній сесії, відправляти усю підходящю інформацію до Discord. Включає назву світу та скільки людей у сесії \n\nDiscord сам пособі має функцію показу активної гри. Це можна змінити у налаштуваннях Discord.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
         "Settings.SteamIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Steam's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Steam.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Steam. Includes the world name and how many users are in the session.\n\nSteam itself will display that you are playing Resonite regardless of this setting. Changing this setting only affects how much extra data is sent to Steam about your active session.",
@@ -1399,18 +1399,18 @@
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Track hands while using controllers",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "When hands are snapped to controllers, this will still pose the fingers using data coming from the Leap Motion",
 
-        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Vive hand tracking",
-        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "When enabled, your hands and fingers will be tracked using the Vive hand tracking. This typically uses the cameras on the VR headset itself. You might need to enable the hand tracking in Steam VR settings.",
-        "Settings.ViveHandTrackingSettings.SnapDistance": "Controller snapping distance",
-        "Settings.ViveHandTrackingSettings.SnapDistance.Description": "When your hands are within the range of controllers, they will automatically snap to them and use the hand tracking data from the controller itself, instead of the headset cameras. This controls the distance at which the hands will snap.",
-        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Track hands while using controllers",
-        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "When hands are snapped to controllers, this will still pose the fingers using data coming from the VR headset cameras",
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Відслідковувач рук Vive",
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "Коли увімкнено, ваші руки та пальці відслідковуватисуться задопомогою відслідковування рук Vive. Зазвичай, це використовуватиме камери на вашому шоломі. Вам можливо доведеться увімкнути відслідковування рук у налаштуваннях SteamVR.",
+        "Settings.ViveHandTrackingSettings.SnapDistance": "Відстань прилипання контролерів",
+        "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Коли ваші руки будуть біля контролерів вони автоматично прилипнуть до них та використовуватимуть дані відслідковування рук від контролерів замість камер. Це контролює відстань при якій вони прилипатимуть.",
+        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Відслідковувати руки при використанні контролерів",
+        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "Коли руки приліпленні до контролерів дані про положення рук все одно ітиме від камер шолому",
 
-        "Settings.TrackerSettings": "Tracker Settings",
-        "Settings.TrackerSettings.UseTrackers": "Use Trackers",
-        "Settings.TrackerSettings.UseTrackers.Description": "Using this option you can globally disable all body trackers. This can be useful if your trackers are in a corner and charging, resulting in your avatar being crumpled up.",
-        "Settings.TrackerSettings.Trackers": "Manage Trackers",
-        "Settings.TrackerSettings.Trackers.Breadcrumb": "Trackers",
+        "Settings.TrackerSettings": "Налаштування Відслідковувачів",
+        "Settings.TrackerSettings.UseTrackers": "Використовувати відслідковувачі",
+        "Settings.TrackerSettings.UseTrackers.Description": "Використовуючи цю опцію ви можете вимкнути відслідковувачі повсюду. Це буде у нагоді коли вам треба відійти та ви не хочете виглядати зламаними у ВР.",
+        "Settings.TrackerSettings.Trackers": "Керувати Відслідковувачами",
+        "Settings.TrackerSettings.Trackers.Breadcrumb": "Відслідковувачі",
 
         "Dummy": "Dummy"
     }
