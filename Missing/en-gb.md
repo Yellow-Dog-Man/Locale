@@ -788,6 +788,8 @@ Importer.Image.Stereo360
 Importer.Image.180  
 Importer.Image.Stereo180  
 Importer.Image.LUT  
+Importer.Image.Failure.Heading  
+Importer.Image.Failure.Description  
 Importer.LUT.Failure.Heading  
 Importer.LUT.Failure.Description  
 Importer.ImageVideo.LayoutPrompt  

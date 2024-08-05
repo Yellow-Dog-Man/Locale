@@ -24,6 +24,8 @@ Notifications.UserJoined
 Notifications.UserLeft  
 AvatarCreator.ProtectionUnavailable  
 Importer.Image.Sprite  
+Importer.Image.Failure.Heading  
+Importer.Image.Failure.Description  
 Importer.LUT.Failure.Heading  
 Importer.LUT.Failure.Description  
 Exporter.InvalidFileName  

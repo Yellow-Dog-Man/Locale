@@ -123,7 +123,7 @@
         "Dash.Screens.Contacts": "Barátok",
         "Dash.Screens.Inventory": "Eszköztár",
         "Dash.Screens.Desktop": "Képernyő",
-        "Dash.Screens.Session": "Szobák",
+        "Dash.Screens.Session": "Szoba",
         "Dash.Screens.FileBrowser": "Fájlok",
         "Dash.Screens.Settings": "Beállítások",
         "Dash.Screens.Exit": "Bezárás",
@@ -596,8 +596,8 @@
         "Contacts.InHiddenContactsPlus": "Rejtett, Barátok+ világban van",
         "Contacts.InLAN": "LAN világban van",
         "Contacts.UsingDifferentVersion": "{version} verziót használ",
-        "Contacts.RequestSent": "Kérelem elküldve",
-        "Contacts.RequestReceived": "Kérelem fogadva",
+        "Contacts.RequestSent": "Barátkérelem elküldve",
+        "Contacts.RequestReceived": "Barátkérelem érkezett",
         "Contacts.RequestIgnored": "Mellőzve",
         "Contacts.Blocked": "Blokkolva",
         "Contacts.SearchResult": "Keresési eredmények",
@@ -640,7 +640,175 @@
         "Settings.Category.InteractiveCamera": "Kamera",
 
         "Settings.GeneralControlsSettings": "Irányítás",
-        "Settings.LocomotionSettings": "Mozgás"
+        "Settings.LocomotionSettings": "Mozgás",
+		"Settings.MovementSettings": "Mozgás mód",
+        "Settings.MouseSettings": "Egér",
+		
+		"Settings.GeneralHapticsSettings": "Haptikus visszajelzés",
+        "Settings.GeneralVRSettings": "VR",
+        "Settings.LeapMotionSettings": "Szökkenő mozgás",
+        "Settings.ViveHandTrackingSettings": "Kezek követése",
+        "Settings.TrackingSmoothingSettings": "Követési simítás",
+		
+		"Settings.UserMetricsSettings": "Felhasználói mérőszámok",
+
+        "Settings.OnlineStatusSettings" : "Elérhetőségi állapot",
+        "Settings.OnlineStatusSettings.DefaultStatus" : "Alapértelmezett állapot",
+		
+		 "Settings.OnlineStatusSettings.DefaultStatus.Description" : "Minden belépésedkor ezzel az elérhetőségi állapottal leszel látható.",
+        "Settings.OnlineStatusSettings.RememberMode" : "Legutóbbi állapot",
+        "Settings.OnlineStatusSettings.RememberMode.Description" : "Eme opcióval tudod irányítani azt, hogy az elérhetőségi állapotodat a rendszer megtartsa, vagy se, az általad legutóbb beállított állapotodat - kivéve a „láthatatlan” opciót, ahhoz van egy másik beállítás.",
+        "Settings.OnlineStatusSettings.RememberTimespan" : "Eddig emlékezz a legutóbbi státuszra",
+        "Settings.OnlineStatusSettings.RememberTimespan.Description" : "Ha rövid időn belül újra belépsz, akkor a jelenleg kiválasztott státuszod lesz kiválasztva, ellenkező esetben az alapértelmezett státuszod lesz rajtad.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode" : "Láthatatlan állapot megtartása",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "Ez a különálló beállítás ügyel arra, hogy hogyan bánjon a rendszer a láthatatlan álapotoddal.\n\nA beállítás az adatvédelem kedvéért lett külön szedve, hogy láthatatlan állapotban maradj, ha kilépés előtt is az voltál.",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "Ennyi ideig emlékezz láthatatlan állapotomra",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "Ha rövid időn belül újra belépsz, akkor a láthatatlan státuszod lesz kiválasztva, ellenkező esetben az alapértelmezett státuszod lesz rajtad.",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan" : "„Nincs a gépnél” állapot aktiválása, ha ennyi ideig nem tevékenykedek",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description" : "Ha egy megadott ideig nem tevékenykedsz semmit a programon belül, akkor az állapotod „Nincs a gépnél” üzemmódba aktivál. Ha viszont újra tevékenykedsz, akkor az előző állapotodra változik vissza.",
+		
+		"Settings.AudioInputDeviceSettings": "Audió bevitel",
+        "Settings.AudioOutputDeviceSettings": "Audió kimenet",
+        "Settings.AudioVolumeSettings": "Hangerő",
+        "Settings.AudioAccessibilitySettings": "Kisegítő beállítások",
+        "Settings.AudioInputFilteringSettings": "Beviteli szűrő",
+
+        "Settings.RealtimeNetworkingSettings": "Valósidejű hálózati kapcsolat",
+        "Settings.AssetGatherSettings": "Eszköszök beszerzése",
+
+        "Settings.HostAccessSettings": "Kiszolgálói hozzáférések",
+        "Settings.UserRestrictionsSettings": "Felhasználói korlátozások",
+
+        "Settings.WindowsSettings": "Windows beállítások",
+        "Settings.DebugSettings": "Hibakereső",
+        "Settings.LegacyFeatureSettings": "Régi funkciók",
+        "Settings.TwitchInterfaceSettings": "Twitch közvetítői felület",
+		
+		"Settings.AudioVolumeSettings.MasterVolume": "Globális hangerő",
+        "Settings.AudioVolumeSettings.MasterVolume.Description": "Ez a felelős az egész hangerőért. Ha túl hangos, akár halk a játék, beállíthatod, hogy minden hangosabb, vagy halkabb legyen.",
+        "Settings.AudioVolumeSettings.SoundEffectVolume": "Hanghatás hangereje",
+        "Settings.AudioVolumeSettings.SoundEffectVolume.Description": "Ez gondoskodik a hangeffekekről, például amit a tárgyak csinálnak.",
+        "Settings.AudioVolumeSettings.MultimediaVolume": "Média hangereje",
+        "Settings.AudioVolumeSettings.MultimediaVolume.Description": "Multimédiás elemek hangerejeinek szabályozása. Általában audió, videó vagy zenelejátszó elemek hangerőit szabályozhatod.",
+        "Settings.AudioVolumeSettings.VoiceVolume": "Beszéd hangereje",
+        "Settings.AudioVolumeSettings.VoiceVolume.Description": "Ez egész pontosan a felhasználónak a hangerejét szabályozza. Esetenként előre felvett hangüzeneteket is tud vele szabályozni. A „Szoba” menüpontban külön embereknek a hangerejét is szabályozni tudod.",
+        "Settings.AudioVolumeSettings.UserInterfaceVolume": "Felhasználói felület hangereje",
+       
+		"Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "Ez szabályozza a felhasználói felületek hangereit; az egér menügombokhoz való mozgatása, gombok nyomogatása, csúszka menük kezelése, fotózás, stb.",
+		
+		"Settings.AudioAccessibilitySettings.WhisperVolume": "Pusmogó mód hangereje",
+       
+        "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Külső hangok hangereje",
+        "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Szabályozza a hangerejét a felhasználóknak, addig, amíg a hangüzenetedet veszed fel - hogy megakadályozza a hangzavart, és könnyen tudj gondolkodni a mondanivalódon.",
+
+        "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Hangnormalizáció",
+        "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Ez a beállítás arról gondoskodik, hogy a mikrofonod hangereje egyenlő erősségű legyen a többiekével; Nem számít milyen a mikrofonod beállítása, a mikrofonod hangereje ugyanolyan erős lesz, mint a többieké. Ajánljuk bekapcsolni ezt a beállítást, ha biztos szeretnél lenni abban, hogy mindenki halljon téged.",
+        "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "Zajgátküszöb",
+        "Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description": "Ez gondoskodik arról, hogy csak akkor aktiválódjon be a mikrofon, amikor beszélsz. Megakadályozza, hogy az akaratlan háttérzajok áthallatszódjanak. Ha túl sok zaj megy át a küszöbön, állítsd magasabbra a beállítást. Ha a hangod nem megy át a küszöbön, állítsd kisebbre.",
+		
+		"Settings.AudioInputFilteringSettings.NoiseGateAttack": "Zajgát aktiválás",
+        "Settings.AudioInputFilteringSettings.NoiseGateAttack.Description": "Ez gondoskodik arról, hogy milyen gyorsan szűrje ki a zajokat a nagyon halk hangokból; Minél nagyobb az érték, annál lassabban erősödik fel a hang, ellenkező esetben gyorsabban csinálja azt.",
+        "Settings.AudioInputFilteringSettings.NoiseGateHold": "Zajgát kitartás",
+        "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "Ez arról gondoskodik, hogy milyen hosszú ideig tartsa meg a hangot a jelenlegi hangerejében; Minél nagyobb az érték, annál halkabb hangot is átenged a szűrő.",
+        "Settings.AudioInputFilteringSettings.NoiseGateRelease": "Zajgát felengedés",
+        "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "Ez gondoskodik arról, hogy milyen gyorsan halkuljon vissza a hang, miután a hang-aktivitás befejeződött.",
+
+        "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Normalizáció küszöb",
+        "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Ezzel a beállítással szabályozhatod, hogy a hang mikor erősödjön fel. Ha a beszéded túl halk, akkor csökkentsd a beállítást. Ha át lehet hallani a háttérzajt, növeld a beállítást.",
+
+        "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Zajcsökkentés (RNNoise)",
+		
+		"Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "A zajszűrő kiszűri a mikrofonodból a zajt, és elejti, hogy csak a hangodat tartsa meg. Megadhatod, hogy milyen hangerejű zajt ejtsen le a szűrő. Ha még hallható zaj, akkor emeld fel a csúszkát a jobb eredményért. Ha a hangodat nem érzékeli, akkor a csúszkát vidd lejjebb.",
+
+        "Settings.VoiceSettings": "Mikrofonbeállítások",
+        "Settings.VoiceSettings.MutePersistence": "Némításbeállítások",
+        "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Alapból némítás ki:</color> Amikor bejelentkezel, a mikrofonod nem lesz lenémítva.\n\n<color=hero.yellow>Alapból némítva:</color> Amikor bejelentkezel, a mikrofonod némítva lesz. Manuálisan tudod kikapcsolni a némítást, vagy tartsd lenyomva a „Push to Talk” gombot (alapértelmezett: „V”) a beszédhez.\n\n<color=hero.yellow>Legutóbbi: </color> A legutóbb megadott beállítást jegyzi meg a rendszer.",
+		
+		 "Settings.EarmuffSettings" : "Füldugó",
+        "Settings.EarmuffSettings.EarmuffEnabled" : "Füldugó aktiválása",
+        "Settings.EarmuffSettings.EarmuffEnabled.Description" : "A füldugó aktiválása után a többiek hangja jelentősen elhalkul, attól függően, hogy milyen messze vannak, és milyen irányba nézel.\n\nMegszünteti a tömeges beszélgetést.",
+        "Settings.EarmuffSettings.Directionality" : "Irányultság",
+        "Settings.EarmuffSettings.Directionality.Description" : "Ezzel a beállítással meghatározható, hogy mennyire legyen irányult a hangcsökkentés. Nulla százaléknál a mögötted lévő emberek hangjai változatlanok maradnak, 100%-nál az emberek hangjai teljesen elhalkulnak, kivéve, ha nagyon közel vannak hozzád.\n\nHa jobban szeretnéd hallani a mögötted lévő hangokat, csökkentsd ennek a beállításnak az értékét.",
+        "Settings.EarmuffSettings.Distance" : "Távolság",
+        "Settings.EarmuffSettings.Distance.Description" : "Ezzel irányítható az előtted (és ha az irányultság 0%-on van, mögötted) lévő távolságot, aminek a határán túl a hangok el kezdenek halkulni.",
+        "Settings.EarmuffSettings.Angle" : "Szög",
+        "Settings.EarmuffSettings.Angle.Description" : "Ezzel a beállítással állíthatod be annak a szögét, hogy a megadott értéken túl mikor kezdjen el halkulni a hang, ha eléri az átmeneti távolságot.",
+        "Settings.EarmuffSettings.TransitionStart" : "Átmenet érvényesülése",
+        "Settings.EarmuffSettings.TransitionStart.Description" : "Ez szabályozza azt a távolságot a „hallókúptól”, amelynél a hangok halkabbá válnak. Ajánlott nulla felett hagyni, annak érdekében, hogy a melletted és a közeledben lévő hangok (akik pl. technikailag mögötted vannak, de nagyon közel) beletartozzanak.",
+        "Settings.EarmuffSettings.TransitionLength" : "Átmeneti tartomány",
+        "Settings.EarmuffSettings.TransitionLength.Description" : "Itt lehet szabályozni a hangok átmeneti sebességét. A nagyobb érték azt eredményezi, hogy a hangerő szépen lassan halványul meg, míg a kisebb érték inkább a gyors és hirtelen változásra koncentrál.",
+        "Settings.EarmuffSettings.VolumeAttenuation" : "Hangerőcsillapítás",
+        "Settings.EarmuffSettings.VolumeAttenuation.Description" : "Ezzel irányítható, hogy a „hallókúpon” kívül milyen hangosak az emberek. Teljesen 0%-os beállítással az emberek némák lesznek.",
+		
+		"Settings.AudioInputDeviceSettings.UseSystemDefault": "Alapértelmezett eszköz",
+        "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Válaszd ki ezt az opciót, ha azt szeretnéd, hogy a program a rendszer alapértelmezett eszközét használja. Ha más eszközt szeretnél használni mikrofonnak, akkor kapcsold ki ezt az opciót.",
+        "Settings.AudioInputDeviceSettings.DevicePriorities": "Más eszköz kiválasztása",
+        "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "Bemeneti audióeszközök",
+        "Settings.AudioInputDeviceSettings.SetAsDefault": "Legyen alapértelmezett",
+        "Settings.AudioInputDeviceSettings.Testing.Header": "Audióbemenet tesztelése",
+        "Settings.AudioInputDeviceSettings.Testing.Description": "You can use this to monitor and test the selected audio device to ensure it's working properly. Use the button to listen to the input, which will play the sound back at you.",
+        "Settings.AudioInputDeviceSettings.Testing.ListenToInput": "Bemenet hallgatása",
+        "Settings.AudioInputDeviceSettings.Testing.StopListeningToInput": "Bemenet hallgatásának befejezése",
+        "Settings.AudioInputDeviceSettings.Testing.Monitoring.Header": "Élő audió visszahallása",
+		
+		 "Settings.GeneralControlsSettings.PrimaryHand": "Elsődleges kéz",
+		
+		"Security.Hyperlink.Title": "Külső hivatkozás",
+        "Security.Hyperlink.Warning": "<b><size=125%>Vigyázat: külső hivatkozás</size></b>\nEgy olyan hivatkozásra kattintottál, amit egy világban találtál. Folytatod? Egy webböngészőt fog megnyitni.",
+        "Security.Hyperlink.Open": "Folytatás",
+        "Security.Hyperlink.Cancel": "Mégsem",
+
+		"Undo.SetField": "Mező „{field_name}” {value} értékre állítás",
+        "Undo.SetReference": "Referencia „{ref_name}” {ref_target} értékre állítás",
+        "Undo.Spawn": "{name} előhívása",
+        "Undo.Destroy": "{name} elpusztítása",
+
+        "Undo.DuplicateComponent": "Komponens megduplázása",
+
+ 
+        "Undo.Translate": "Mozgatás",
+        "Undo.TranslateAlongAxis": "Mozgatás tengely mentén",
+        "Undo.RotateAroundAxis": "Forgatás tengely mentén",
+        "Undo.ResetPosition": "Pozíció alapértékre",
+        "Undo.ResetRotation": "Forgatás alapértékre",
+        "Undo.ResetScale": "Méretezés alapértékre",
+
+        "Undo.GrabObjects": "Tárgy mozgatása",
+        "Undo.DestroyGrabbed": "Kézben tartott tárgy elpusztítása",
+        "Undo.DuplicateGrabbed": "Kézben tartott tárgy duplikálása",
+		
+		 "Settings.HostAccessSettings.Entries": "Kiszolgáló hozzáférési engedélyeinek kezelése",
+        "Settings.HostAccessSettings.Entries.Breadcrumb": "Host Access Permissions",
+        "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "HTTP kérelem engedélyezése",
+        
+        "Settings.HostAccessSettings.Entries.AllowWebsockets": "Websocketek engedélyezése",
+       
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "OSC fogadásának engedélyezése",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Itt tudod engedélyezni, hogy a Resonite az OSC adatokat fogadhatja és fel is dolgozhatja.",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "OSC küldésének engedélyezése",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Itt tudsz engedélyt adni a Resonite-nak, hogy adatokat küldjön az OSC protokollon keresztül az adott kiszolgálónak.",
+       
+
+		"Importer.Video.Title": "Videó importálása",
+        "Importer.Video.Prompt": "Milyen videót szeretnél importálni?",
+        "Importer.Video.Regular": "Videó",
+        "Importer.Video.360": "360°-os videó",
+        "Importer.Video.Stereo": "Sztereó 3D-s videó",
+        "Importer.Video.Stereo360": "Sztereó 360°-s videó",
+        "Importer.Video.Depth": "Térvideó",
+        "Importer.Video.180": "180°-os videó",
+        "Importer.Video.Stereo180": "Sztereó 180°-s videó",
+        "Importer.Video.Depth.Prompt": "Mélység konfigurációja",
+        "Importer.Video.Depth.Default": "Alapértelmezett",
+		
+		"Discord.RichPresence.InPrivateWorld": "Privát világban",
+        "Discord.RichPresence.InPrivateLargeText": "Privát világban, ({version})",
+        "Discord.RichPresence.InPublicWorld": "Nyilvános világban",
+        "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} világ megnyitva)",
+        "Discord.RichPresence.InPublicLargeText": "Nyilvános világban, ({version})"
+		
+		
+
 
       
     }
