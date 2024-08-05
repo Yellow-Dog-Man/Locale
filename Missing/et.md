@@ -312,6 +312,8 @@ Importer.Folder.Minecraft.Description
 Importer.Image.Screenshot  
 Importer.Image.PixelArt  
 Importer.Image.Sprite  
+Importer.Image.Failure.Heading  
+Importer.Image.Failure.Description  
 Importer.LUT.Failure.Heading  
 Importer.LUT.Failure.Description  
 Importer.Model.Advanced.PreferSpecular  

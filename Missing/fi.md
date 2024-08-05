@@ -28,6 +28,8 @@ Tooltip.ProtoFlux.ExplicitCast
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
+Importer.Image.Failure.Heading  
+Importer.Image.Failure.Description  
 Importer.LUT.Failure.Heading  
 Importer.LUT.Failure.Description  
 Importer.Slices.Title  
