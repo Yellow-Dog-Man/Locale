@@ -260,6 +260,8 @@ AvatarCreator.ProtectionUnavailable
 Importer.Image.PixelArt  
 Importer.Image.Sprite  
 Importer.Image.LUT  
+Importer.Image.Failure.Heading  
+Importer.Image.Failure.Description  
 Importer.LUT.Failure.Heading  
 Importer.LUT.Failure.Description  
 Importer.Model.Title  
