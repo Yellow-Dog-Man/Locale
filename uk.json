@@ -1412,6 +1412,53 @@
         "Settings.TrackerSettings.Trackers": "Керувати Відслідковувачами",
         "Settings.TrackerSettings.Trackers.Breadcrumb": "Відслідковувачі",
 
+        "Settings.TrackerSettings.Trackers.UseTracker": "Використовувати Відслідковувач",
+        "Settings.TrackerSettings.Trackers.UseTracker.Description": "Чи цей відслідковувач повинен використовуватись? Ви можете використовувати цю опцію, щоб тимчасово вимкнути відслідковувач без зкидання привʼязки.",
+        "Settings.TrackerSettings.Trackers.FreezeTracking": "Заморозити Відслідковування",
+        "Settings.TrackerSettings.Trackers.FreezeTracking.Description": "Увімкуючи це залишить відслідковувачі активними, але заморозить його позицію та обертаня. Ця опція не постійна та буде відкинута наступного запуску гри.",
+        "Settings.TrackerSettings.Trackers.CustomName": "Особливе Імʼя",
+        "Settings.TrackerSettings.Trackers.CustomName.Description": "Ви можете назвати відслідковувачі, щоб було легше розрізнити їх замість використання їх ID. Це побільш косметичне та не змінює функціонал.",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode": "Привʼязка Відслідковувачів",
+        "Settings.TrackerSettings.Trackers.MappedBodyNode.Description": "До якої частини тіла цей відслідковувач привʼязаний.\n\nМи рекомендуємо використовувати калібрацію всього тіла для застосування цієї опції замість вручної зміни тут.",
+        "Settings.TrackerSettings.Trackers.MappedPosition": "Привʼязана Позиція",
+        "Settings.TrackerSettings.Trackers.MappedPosition.Description": "Позиція відслідковувача відносно частини тіла до якої він привʼязаний.\n\nМи рекомендуємо використовувати калібрацію всього тіла для застосування цієї опції замість вручної зміни тут.",
+        "Settings.TrackerSettings.Trackers.MappedRotation": "Привʼязаний Оберт",
+        "Settings.TrackerSettings.Trackers.MappedRotation.Description": "Оберт відслідковувача відносно частини тіла до якої він привʼязаний.\n\nМи рекомендуємо використовувати калібрацію всього тіла для застосування цієї опції замість вручної зміни тут",
+        "Settings.TrackerSettings.Trackers.UseInVR": "Використовувати у ВР",
+        "Settings.TrackerSettings.Trackers.UseInVR.Description": "Чи повинен цей відслідковувач керувати аватаром у ВР?",
+        "Settings.TrackerSettings.Trackers.UseInDesktop": "Використовувати у Пласкому вікні",
+        "Settings.TrackerSettings.Trackers.UseInDesktop.Description": "Чи повинен цей відслідковувач керувати аватаром у пласкому вікні?",
+        "Settings.TrackerSettings.Trackers.TrackerID": "ID Відслідковувача",
+        "Settings.TrackerSettings.Trackers.TrackerID.Description": "Особливе ID цього відслідковувача. Ця інформація приватна та не однакова з тією, що показуватиметься у світі задля запобігання відслікування по відбиткам.",
+        "Settings.TrackerSettings.Trackers.TrackerBattery": "Батарея Відслідковувачів",
+        "Settings.TrackerSettings.Trackers.TrackerBattery.Description": "Теперішній заряд батареї у цьому відслідковувачі. Зауважте, що деякі відслідковувачі не підтримуватимуть показ заряду батареї.",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging": "Заряджається",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "Це зазначає чи цей відслідковувач наразі заряджається. Зауважте, що деякі відслідковувачі не підтримуватимуть показ заряджання батареї.",
+        "Settings.TrackerSettings.Trackers.Unmap": "Зкинути Привʼязку",
+        "Settings.TrackerSettings.Trackers.Remove": "Прибрати відомості відслідковувача",
+
+        "Settings.SteamLinkSettings": "Steam Link",
+        "Settings.SteamLinkSettings.OSC_DataPort": "Порт відсліджування обличчя OSC",
+        "Settings.SteamLinkSettings.OSC_DataPort.Description": "Який порт повинен використовуватись для приймання відсліджування обличчя OSC. Він повинен бути однаковим з портом уведеним в налаштуваннях SteamVR щоб відсліджуваня обличчя працювало.",
+
+        "Settings.HapticPointMapping.MappingTarget": "Привʼязати До",
+        "Settings.HapticPointMapping.MappingTarget.Description": "Використовувати це, щоб налаштувати до якої частини тіла цей відслідковувач привʼязаний.",
+
+        "Settings.HapticPointMapping.PointRadius": "Радіус Гаптики",
+        "Settings.HapticPointMapping.PointRadius.Description": "Це дозволяє вам змінити радіус точки дії гаптики на вашому аватарі. Збільшення зробить легше активацію гаптики, але буте меньш точне.",
+
+        "Settings.HapticPointMapping.TorsoHorizontalPosition": "Горизонтальне положення на торсі",
+        "Settings.HapticPointMapping.TorsoHorizontalPosition.Description": "Це горизонтальне положення на торсі, з ліва на право.",
+        "Settings.HapticPointMapping.TorsoVerticalPosition": "Вертикальне положення на торсі",
+        "Settings.HapticPointMapping.TorsoVerticalPosition.Description": "Це вертикальне положення на торсі, з верху до низу.",
+        "Settings.HapticPointMapping.TorsoSide": "Сторона Торсу",
+        "Settings.HapticPointMapping.TorsoSide.Description": "Це зазначає сторону торсу до якої прикріплено відслідковувач (попереду чи позаду)",
+
+        "Settings.HapticPointMapping.HeadPitchAngle": "Нахил Голови",
+        "Settings.HapticPointMapping.HeadPitchAngle.Description": "Це контролює позицію голови по \"вертикалі\" рухаючи уверш чи вниз. Позиція заумовчуванням є центром обличчя (де ваш ніс). Збільшуючи кут змістить позицію до вашого лобу, знижуючи змістить позицію до вашого підбородку.",
+        "Settings.HapticPointMapping.HeadYawAngle": "Повертання Голови",
+        "Settings.HapticPointMapping.HeadYawAngle.Description": "Це контролює позицію голови по \"горизонталі\" рухаючи ліворуч чи праворуч. Позиція заумовчуванням є центром обличчя (де ваш ніс). Збільшуючи кут змістить позицію праворуч, знижуючи змістить позицію ліворуч. Оберт іде навколо вашої голови до 180°, де є ваша потилиця.",
+    
         "Dummy": "Dummy"
     }
 }
