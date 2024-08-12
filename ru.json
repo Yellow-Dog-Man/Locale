@@ -936,6 +936,9 @@
         "Importer.Image.Stereo180": "Стерео 180 Фото",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.Image.Failure.Heading": "Ошибка импорта изображения <color=hero.yellow>{image}</color>",
+        "Importer.Image.Failure.Description": "Не получилось импортировать изображение из-за:\n\n<color=hero.red>{error}</color>",
+
         "Importer.LUT.Failure.Heading": "Ошибка импорта LUT <color=hero.yellow>{image}</color>",
         "Importer.LUT.Failure.Description": "Не получилось импортировать LUT из-за:\n\n<color=hero.red>{error}</color>",
 
@@ -1730,6 +1733,10 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "Угол зрения",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Используйте чтобы задать угол зрения камеры (FOV) в экранном режиме. Большие значения дают лучший обзор, но приводят к искажениям по краям.",
+
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Сужать угол зрения при беге",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Когда эта настройка включена, Resonite будет сужать ваш угол зрения когда вы перемещаетесь бегом в <b>экранном</b> режиме.\nОтключите настройку чтобы убрать этот эффект.\n<b>НЕ</b> влияет на эффекты из пользовательского контента.",
+
         "Settings.DesktopRenderSettings.VSync": "VSync",
         "Settings.DesktopRenderSettings.VSync.Description": "Когда включено, частота кадров будет синхронизирована с частотой обновления вашего монитора. Отключение может позволить рендерить кадры быстрее, но также приведет к разрывам картинки.\n\nМожет быть полезно для тестирования производительности, так как снимет ограничение со скорости обновлений и рендеринга.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Ограничить частоту кадров в фоне",
