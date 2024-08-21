@@ -1,6 +1,6 @@
 {
     "localeCode": "en",
-    "authors": ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus", "Earthmark", "Ryuvi", "Nammi"],
+    "authors": ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus", "Earthmark", "Ryuvi", "Nammi", "WattleFoxxo", "StiefelJackal"],
     "messages": {
 
         "General.OK": "OK",
@@ -936,6 +936,9 @@
         "Importer.Image.Stereo180": "Stereo 180° photo",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.Image.Failure.Heading": "Failed to Import Image <color=hero.yellow>{image}</color>",
+        "Importer.Image.Failure.Description": "Failed to import the image due to the following:\n\n<color=hero.red>{error}</color>",
+        
         "Importer.LUT.Failure.Heading": "Failed to Import LUT <color=hero.yellow>{image}</color>",
         "Importer.LUT.Failure.Description": "Failed to import LUT due to the following:\n\n<color=hero.red>{error}</color>",
 
@@ -1561,7 +1564,7 @@
 
         "Settings.VoiceSettings": "Voice Settings",
         "Settings.VoiceSettings.MutePersistence": "Mute Persistence",
-        "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Start Unmuted:</color> When you log in, you will always start umuted.\n\n<color=hero.yellow>Started Muted:</color> When you log in, your voice will always start muted. You will either have to umute or press the \"push to talk\" key (V by default) to speak.\n\n<color=hero.yellow>Remember Last: </color> When you login, the status from the last time you logged out will be preserved.",
+        "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Start Unmuted:</color> When you log in, you will always start unmuted.\n\n<color=hero.yellow>Started Muted:</color> When you log in, your voice will always start muted. You will either have to unmute or press the \"push to talk\" key (V by default) to speak.\n\n<color=hero.yellow>Remember Last: </color> When you login, the status from the last time you logged out will be preserved.",
 
         "Settings.EarmuffSettings" : "Earmuff",
         "Settings.EarmuffSettings.EarmuffEnabled" : "Use Earmuff",
@@ -1730,6 +1733,10 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "Field of view",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Use this to control the field of view (FOV) when in desktop mode. Larger values will give you wider view at the cost of greater distortion on the sides.",
+
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Zoom FOV when sprinting",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "When this option is enabled, Resonite will zoom your FOV when you are sprinting in <b>Desktop</b>.\nDisable the setting to remove the effect.\n<b>Does NOT</b> include effects found in User Generated Content.",
+        
         "Settings.DesktopRenderSettings.VSync": "VSync",
         "Settings.DesktopRenderSettings.VSync.Description": "When this option is enabled, the framerate will be synced with the refresh rate of your screen. Disabling this can render frames faster, but also cause visible tearing.\n\nThis can be useful when doing performance testing, as it will uncap the update and rendering speed.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Limit framerate when in background",
