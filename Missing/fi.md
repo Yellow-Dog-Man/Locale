@@ -185,6 +185,8 @@ Settings.PhotoCaptureSettings.EncodeFormat.Description
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
 Settings.DesktopRenderSettings.VSync.Description  
 Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description  
 Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description  
@@ -252,6 +254,7 @@ Inspector.Slot.ParentUnder.LocalUserSpace
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
 Inspector.Member.BreakLinkDrive  
 Inspector.Member.OpenLinkDrive  
+Inspector.Member.Normalize  
 Inspector.Mesh.ReverseWinding  
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  

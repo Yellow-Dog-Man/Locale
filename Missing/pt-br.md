@@ -549,6 +549,8 @@ Settings.PhotoCaptureSettings.AlwaysHideNameplates
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
 Settings.DesktopRenderSettings.VSync  
 Settings.DesktopRenderSettings.VSync.Description  
 Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused  
@@ -679,6 +681,7 @@ Inspector.Member.SetAllToX
 Inspector.Member.SetAllToY  
 Inspector.Member.SetAllToZ  
 Inspector.Member.SetAllToW  
+Inspector.Member.Normalize  
 Inspector.Member.BakeBlendshape  
 Inspector.Member.RemoveBlendshape  
 Inspector.Member.SplitBlendshape.X  
