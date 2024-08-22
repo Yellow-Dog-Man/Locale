@@ -2,32 +2,32 @@
 This repository contains the locale assets for the core UI of [Resonite](https://resonite.com) and allows anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (STEAM) and other platforms.
 
 ## Localization Status
-Czech [cs] - 69.9% - Missing keys: 692  
-German [de] - 99.9% - Missing keys: 2  
-English (United Kingdom) [en-gb] - 2.0% - Missing keys: 2251  
+Czech [cs] - 69.8% - Missing keys: 695  
+German [de] - 99.8% - Missing keys: 5  
+English (United Kingdom) [en-gb] - 2.0% - Missing keys: 2254  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 71.2% - Missing keys: 661  
-Spanish [es] - 73.6% - Missing keys: 607  
-Estonian [et] - 35.9% - Missing keys: 1472  
-Finnish [fi] - 83.4% - Missing keys: 382  
-French [fr] - 99.9% - Missing keys: 2  
-Hungarian [hu] - 28.8% - Missing keys: 1636  
-Icelandic [is] - 27.9% - Missing keys: 1657  
-Japanese [ja] - 99.9% - Missing keys: 2  
-Korean [ko] - 99.9% - Missing keys: 2  
-Dutch [nl] - 45.1% - Missing keys: 1262  
-Norwegian [no] - 68.4% - Missing keys: 726  
-Polish [pl] - 97.6% - Missing keys: 56  
-Portuguese (Brazil) [pt-br] - 68.4% - Missing keys: 727  
-Russian [ru] - 99.9% - Missing keys: 2  
-Swedish [sv] - 27.7% - Missing keys: 1660  
-Thai [th] - 1.7% - Missing keys: 2257  
-Turkish [tr] - 35.4% - Missing keys: 1484  
-Ukrainian [uk] - 52.4% - Missing keys: 1093  
-Chinese (China) [zh-cn] - 99.9% - Missing keys: 2  
-Chinese (Taiwan) [zh-tw] - 68.6% - Missing keys: 721  
+Esperanto [eo] - 71.1% - Missing keys: 664  
+Spanish [es] - 73.5% - Missing keys: 610  
+Estonian [et] - 35.9% - Missing keys: 1475  
+Finnish [fi] - 83.3% - Missing keys: 385  
+French [fr] - 99.8% - Missing keys: 5  
+Hungarian [hu] - 28.7% - Missing keys: 1639  
+Icelandic [is] - 27.8% - Missing keys: 1660  
+Japanese [ja] - 99.8% - Missing keys: 5  
+Korean [ko] - 99.8% - Missing keys: 5  
+Dutch [nl] - 45.0% - Missing keys: 1265  
+Norwegian [no] - 68.3% - Missing keys: 729  
+Polish [pl] - 97.4% - Missing keys: 59  
+Portuguese (Brazil) [pt-br] - 68.3% - Missing keys: 730  
+Russian [ru] - 99.8% - Missing keys: 5  
+Swedish [sv] - 27.7% - Missing keys: 1663  
+Thai [th] - 1.7% - Missing keys: 2260  
+Turkish [tr] - 35.3% - Missing keys: 1487  
+Ukrainian [uk] - 52.3% - Missing keys: 1096  
+Chinese (China) [zh-cn] - 99.8% - Missing keys: 5  
+Chinese (Taiwan) [zh-tw] - 68.5% - Missing keys: 724  
 
-Total keys: 2297
+Total keys: 2300
 
 ## How To Contribute
 If you'd like to contribute translations, create a fork of the repository, make the changes and **once they are ready** to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
@@ -104,6 +104,7 @@ optional arguments:
 - **DON'T** correct mistakes in the string keys, only report them. They will be fixed by a script, which will apply the correction to all locales at once.
 - **DON'T** submit purely machine translated locales. Those often result in odd and confusing results for user interfaces. Using machine translation as basis for manual translation is ok.
 - **DON'T** Submit strings from PRs that have the "New Strings" label until that PR is merged. The development team may need to update or change these strings as a part of their inclusion and this can cause conflicts. Wait till the PR is merged and THEN work on the new strings.
+- **DON'T** Submit strings for features that are not present in the "main" branch yet. Until a set of strings is in main, it is not complete and may need additional work to complete. Adding strings early, leads to extra work, Conflicts and confusion.
 
 ## The ICU MessageFormat Syntax for translation strings
 Resonite uses the ICU MessageFormat Syntax defined by the Unicode organization for its localized strings. This offers high amount of flexibility on how you translate strings and ensures that you can correctly follow the grammar rules of your language, particularly with regards to pluralization (e.g. displaying "1 item" vs "1 items"). This is why it's important to ensure that your language has a pluralizer implemented in our fork of MessageFormat.NET

@@ -4,4 +4,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 # German [de]
 Importer.Image.Failure.Heading  
 Importer.Image.Failure.Description  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
+Inspector.Member.Normalize  
 
