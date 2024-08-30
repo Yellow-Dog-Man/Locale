@@ -44,6 +44,9 @@ Importer.Package.Progress.ImportingAssets
 Importer.Package.Progress.LoadingObject  
 Importer.Package.Progress.Imported  
 Importer.Package.Progress.Fail  
+Settings.FullBodyTrackingSettings  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay  
 Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description  
 Settings.LeapMotionSettings.Offset.Description  
