@@ -198,6 +198,9 @@ Settings.MovementSettings.MovementExponent.Description
 Settings.GrabbingSettings  
 Settings.GrabbingSettings.DefaultHandGrabType  
 Settings.GrabbingSettings.DefaultHandGrabType.Description  
+Settings.FullBodyTrackingSettings  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.GamepadSettings  
 Settings.GamepadSettings.ThumbstickLookSpeed  
 Settings.GamepadSettings.ThumbstickLookSpeed.Description  

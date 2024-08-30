@@ -4,6 +4,9 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Ukrainian [uk]
 Importer.Image.Failure.Heading  
 Importer.Image.Failure.Description  
+Settings.FullBodyTrackingSettings  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.TrackerSettings.Trackers.UseTracker  
 Settings.TrackerSettings.Trackers.UseTracker.Description  
 Settings.TrackerSettings.Trackers.FreezeTracking  
