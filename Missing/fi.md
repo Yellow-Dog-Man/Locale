@@ -139,6 +139,8 @@ Settings.DebugSettings.DebugInputBindings.Description
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description  
 Settings.LocaleSettings.CultureLocaleCode  
