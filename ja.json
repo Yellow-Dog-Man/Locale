@@ -1325,6 +1325,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType" : "標準のグラブ方法",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description" : "新しいワールドに参加した際の、手でつかみ方を設定できます。\n\n<color=hero.yellow>Palm:</color> 手のひら:手の近くのものを全て掴みます。\n\n<color=hero.yellow>Precision:</color> 精密モード:人差し指と親指の間で一つのものだけを摘みます。\n\n<color=hero.yellow>Auto:</color> 自動切替:手の向きによって、手のひらモードと精密モードを自動的に切り替えます。\n\n<color=hero.yellow>Off:</color> レーザーのみ:レーザーでしかアイテムを掴めません。",
 
+        "Settings.FullBodyTrackingSettings": "フルボディトラッキング",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "ボディの水平角度(Body Horizontal Angle)",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description" : "これは足と頭の間の角度であり、設定した角度を超えると水平ポーズとみなされます。これは、トラッカーのポーズを足のシミュレーションで上書きするなどの特定の場合に影響します。",
+
         "Settings.GamepadSettings": "ゲームパッド",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "ジョイスティックの視点移動速度",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "ジョイスティックで視点を動かす速度の感度を設定できます。",
@@ -1626,6 +1630,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "設定を有効にした場合、利き手ではない方のアプリボタンを押すことでレガシーワールドスイッチャーが開き、セッションを切り替えることができます。この機能は将来、より柔軟なソリューションに置き換えられる予定です",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "インベントリとセッションジェスチャーのショートカットを使用する",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "有効にすると、グリップを握ったままAppボタン（ダッシュメニューを開閉するボタン）を押すと、レガシーのインベントリーまたはセッションメニューが開きます。",
+
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "足のシミュレーションを抑制",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "これは、ポーズを変更せずに動作するような、足のプロキシを上書きする機能を作成するためのものです。 <br><br>ポーザーや類似の機能を使用していない場合にこれをオンにしていると、アニメーションが正しく表示されません。ポーザーの使用が終わったら、これをオフにしてください。<br><br><color=hero.red>重要:</color>これはいずれ削除される可能性があります。新しいシステムと互換性を持たせるために、アクティブなときにシミュレーションを自動的に抑制するようにポーザーをアップグレードすることをお勧めします。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitchチャンネル名",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "カメラコントロールパネルのTwitchチャットパネルの標準のTwitchチャンネル名を設定できます。主にTwitch配信者が自分のTwitchチャットを見たい場合に使用します。",
