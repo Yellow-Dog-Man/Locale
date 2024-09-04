@@ -936,6 +936,9 @@
         "Importer.Image.Stereo180": "Stereo-180-Grad-Foto",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.Image.Failure.Heading": "Gescheiterter Import des Bildes <color=hero.yellow>{image}</color>",
+        "Importer.Image.Failure.Description": "Das Importieren des Bildes ist aus diesem Grund fehlgeschlagen:\n\n<color=hero.red>{error}</color>",
+
         "Importer.LUT.Failure.Heading": "LUT-Import fehlgeschlagen <color=hero.yellow>{image}</color>",
         "Importer.LUT.Failure.Description": "Der Import der LUT ist aus diesem Grund fehlgeschlagen:\n\n<color=hero.red>{error}</color>",
 
@@ -1322,6 +1325,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType": "Standard Handgriff-Typ",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Dies bestimmt den Standard Greifmodus für Hände, wenn Sie in einer neuen Welt spawnen.\n\n<color=hero.yellow>Handfläche:</color> Sie greifen alle Objekte, die sich in der Nähe Ihrer Handfläche befinden.\n\n<color=hero.yellow>Präzision:</color> Sie greifen ein einzelnes Objekt zwischen Zeigefinger und Daumen. \n\n<color=hero.yellow>Auto:</color> Der Modus wird automatisch zwischen Handfläche und Präzision umgeschaltet, je nach Ausrichtung Ihrer Hand.\n\n<color=hero.yellow>Aus:</color> Sie können Gegenstände nur mit Ihren Lasern greifen.",
 
+        "Settings.FullBodyTrackingSettings": "Ganzkörper-Tracking",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Horizontal-Winkel des Körpers",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "Dies setzt den Grenzwert des Horizontal-Winkels zwischen Füßen und Kopf, wenn er überschritten wird, wird Ihre Körperhaltung als horizontal eingestuft. Dies wirkt sich auf bestimmte Dinge wie z. B. das Überschreiben Ihrer Tracker-Posen mit Werten aus der Fußsimulation aus.",
+
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Thumbstick Schwenkgeschwindigkeit",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Hier können Sie die Empfindlichkeit des Thumbsticks einstellen, mit dem Sie ihre Blickrichtung ändern.",
@@ -1625,6 +1632,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Geste für Inventar und Sitzung verwenden",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Wenn diese Einstellung aktiviert ist, öffnet sich das alte Inventar- oder Sitzungsmenü, wenn Sie den Griff gedrückt halten und die App-Taste drücken (was normalerweise das Dash-Menü öffnet/schließt).",
 
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Fußsimulation unterdrücken",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Dies ermöglicht, dass bestimmte Methoden wie z. B. Poser die Fuß-Proxys übernehmen, weiter funktionieren, ohne dass sie angepasst werden müssen.<br><br>Wenn Sie diese Einstellung aktivieren, ohne Poser oder vergleichbare Verfahren zu verwenden, werden die Animationen NICHT korrekt aussehen. Schalten Sie diese Einstellung aus, sobald Sie keine Poser mehr verwenden.<br><br><color=hero.red>WICHTIG:</color> Diese Einstellung wird wahrscheinlich in Zukunft entfernt werden. Wir empfehlen, Poser so anzupassen, dass sie mit dem neuen System kompatibel sind und die Simulation automatisch unterdrücken, wenn sie aktiv ist.",
+
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Kanalname",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Dies stellt den standard Twitch Kanalnamen für das Twitch Chat-Panel im Kamerasteuerungs-Panel ein. Dies wird meistens von Twitch Streamern verwendet, die ihren Twitch Chat sehen möchten.",
 
@@ -1730,6 +1740,10 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "Sichtfeld",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Hiermit können Sie ihr Sichtfeld (FOV) anpassen, wenn Sie im Desktop-Modus sind. Höhere Werte verursachen eine weitere Sicht, haben jedoch auch mehr Verzerrungen am Rand.",
+
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Sichtfeld beim Sprinten zoomen",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Wenn diese Option aktiviert ist, zoomt Resonite Ihr Sichtfeld, wenn Sie im <b>Desktop-Modus</b> sprinten.\nDeaktivieren Sie diese Einstellung, um den Effekt zu entfernen.\nDies gilt <b>NICHT</b> für Effekte in benutzergenerierten Inhalten.",
+
         "Settings.DesktopRenderSettings.VSync": "VSync",
         "Settings.DesktopRenderSettings.VSync.Description": "Wenn diese Option aktiviert ist, wird die Framerate mit der Aktualisierungsrate Ihres Bildschirms synchronisiert. Wenn Sie die Option ausschalten, können Frames schneller gerendert werden, aber es kann auch zu sichtbarem Tearing kommen.\n\nDies kann bei Performance-Tests nützlich sein, da dadurch die Aktualisierungs- und Rendering-Geschwindigkeit nicht gedeckelt wird.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Framerate begrenzen im Hintergrund",
@@ -1923,6 +1937,7 @@
         "Inspector.Member.SetAllToY": "Setze alle auf Y",
         "Inspector.Member.SetAllToZ": "Setze alle auf Z",
         "Inspector.Member.SetAllToW": "Setze alle auf W",
+        "Inspector.Member.Normalize": "Normalisieren",
         "Inspector.Member.BakeBlendshape": "Fixiere Blendshape",
         "Inspector.Member.RemoveBlendshape": "Entferne Blendshape",
         "Inspector.Member.SplitBlendshape.X": "Blendshape über X zerteilen",
