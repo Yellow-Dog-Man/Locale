@@ -4,6 +4,13 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Polish [pl]
 Importer.Image.Failure.Heading  
 Importer.Image.Failure.Description  
+Settings.FullBodyTrackingSettings  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
 Settings.InteractiveCameraFramingSettings.PositioningMode  
 Settings.InteractiveCameraFramingSettings.PositioningMode.Description  
 Settings.InteractiveCameraFramingSettings.FieldOfView  
@@ -58,4 +65,5 @@ Settings.InteractiveCameraPostProcessingSettings.MotionBlur
 Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description  
+Inspector.Member.Normalize  
 

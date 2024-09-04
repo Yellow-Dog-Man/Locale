@@ -477,6 +477,9 @@ Settings.MovementSettings.MovementExponent.Description
 Settings.GrabbingSettings  
 Settings.GrabbingSettings.DefaultHandGrabType  
 Settings.GrabbingSettings.DefaultHandGrabType.Description  
+Settings.FullBodyTrackingSettings  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.GamepadSettings  
 Settings.GamepadSettings.ThumbstickLookSpeed  
 Settings.GamepadSettings.ThumbstickLookSpeed.Description  
@@ -733,6 +736,8 @@ Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.TwitchInterfaceSettings.ChannelName  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus  
@@ -827,6 +832,8 @@ Settings.PhotoCaptureSettings.AlwaysHideNameplates
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
 Settings.DesktopRenderSettings.VSync  
 Settings.DesktopRenderSettings.VSync.Description  
 Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused  
@@ -982,6 +989,7 @@ Inspector.Member.SetAllToX
 Inspector.Member.SetAllToY  
 Inspector.Member.SetAllToZ  
 Inspector.Member.SetAllToW  
+Inspector.Member.Normalize  
 Inspector.Member.BakeBlendshape  
 Inspector.Member.RemoveBlendshape  
 Inspector.Member.SplitBlendshape.X  

@@ -44,6 +44,9 @@ Importer.Package.Progress.ImportingAssets
 Importer.Package.Progress.LoadingObject  
 Importer.Package.Progress.Imported  
 Importer.Package.Progress.Fail  
+Settings.FullBodyTrackingSettings  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay  
 Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description  
 Settings.LeapMotionSettings.Offset.Description  
@@ -136,6 +139,8 @@ Settings.DebugSettings.DebugInputBindings.Description
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description  
 Settings.LocaleSettings.CultureLocaleCode  
@@ -185,6 +190,8 @@ Settings.PhotoCaptureSettings.EncodeFormat.Description
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
 Settings.DesktopRenderSettings.VSync.Description  
 Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description  
 Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description  
@@ -252,6 +259,7 @@ Inspector.Slot.ParentUnder.LocalUserSpace
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
 Inspector.Member.BreakLinkDrive  
 Inspector.Member.OpenLinkDrive  
+Inspector.Member.Normalize  
 Inspector.Mesh.ReverseWinding  
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  
