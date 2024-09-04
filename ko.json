@@ -1325,6 +1325,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType" : "기본 잡기 모드",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description" : "새로운 월드에 참여할때 기본적으로 사용할 잡기모드를 설정합니다.\n\n<color=hero.yellow>Palm</color> : 손바닥 근처의 대상을 잡도록 합니다.\n\n<color=hero.yellow>Precision</color> : 검지와 엄지 손가락 사이에 있는 대상 한개를 잡습니다.\n\n<color=hero.yellow>Auto</color> : 손의 방향에 따라 손가락 또는 손바닥 기준으로 자동 전환됩니다.\n\n<color=hero.yellow>Off</color> : 지시선으로만 잡기가 가능합니다.",
 
+        "Settings.FullBodyTrackingSettings": "전신 추적(FBT)",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "수평각",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description" : "발과 머리 사이의 각도편차를 의미하며, 이를 넘어서면 수평상태인 것으로 간주합니다. 이것은 발의 시뮬레이션으로 트래커의 포즈를 재정의하는 것과 같은 특정한 항목에 영향을 미칩니다.",
+
         "Settings.GamepadSettings": "게임패드",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "아날로그 스틱 감도",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "시점 이동 속도(마우스 감도와 의미상 동일)를 조정합니다.",
@@ -1628,6 +1632,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "보관함 & 세션 제스쳐 사용",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "활성화 후, 컨트롤러에서 잡기 동작을 한 상태로 대시 메뉴 호출 버튼을 누르면 구 보관함 또는 세션 메뉴가 나타납니다.",
 
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "발(Feet) 시뮬레이션 억제",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "이것은 발(Feet) 프록시를 가로채는 Poser와 같은 특정한 기능을 별도의 수정없이 동작하도록 하기 위한 것입니다.<br><br>Poser 또는 유사한 기능을 사용하지 않은 상태에서 이 옵션을 활성화 하면 애니메이션이 올바르게 보이지 않습니다. Poser 사용을 마치면 이 기능을 꺼두세요.<br><br><color=hero.red>중요:</color> 이 옵션은 언젠가 삭제될 가능성이 높습니다. 그러므로, 새로운 시스템과 호환되도록 Poser를 수정하고 활성화시 시뮬레이션을 자동으로 억제토록 하는것이 좋습니다.",
+
         "Settings.TwitchInterfaceSettings.ChannelName": "트위치 체널명",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "<color=hero.yellow>카메라 제어</color> 화면의 트위치 채팅 화면 내 사용할 기본 채널명을 설정합니다. 트위치에 방송하면서 채팅을 보고자 하시면 유용하게 사용할 수 있습니다.",
 
@@ -1733,6 +1740,10 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "시야각(FOV)",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "데스크탑 모드에서의 시야(FOV)를 제어합니다. 값이 클수록 큰 왜곡과 넓은 시야를 제공합니다.",
+        
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "질주시 시야각 증가",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "이 옵션을 활성화한 경우, Resonite의 <b>데스크톱</b>모드에서 질주(달리기)시 FOV값이 증가합니다.\n효과를 제거하려면 비활성화 하세요.\n사용자가 직접 만들어 적용한 효과에는 적용되지 않습니다.",
+
         "Settings.DesktopRenderSettings.VSync": "수직 동기화(VSync)",
         "Settings.DesktopRenderSettings.VSync.Description": "이 옵션을 활성화하면 모니터의 주파수와 프레임 속도를 동기화 합니다. 이 기능을 비활성화하면 프레임을 더 빠르게 렌더링할 수 있지만 찢어지는 현상도 발생할 수 있습니다.\n\n이 기능은 업데이트 및 렌더링 속도 제한을 해제하므로 성능 테스트를 수행할 때 유용할 수 있습니다.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "백그라운드 최저 프레임 속도 제한",
@@ -1926,6 +1937,7 @@
         "Inspector.Member.SetAllToY": "모두 Y값으로 설정",
         "Inspector.Member.SetAllToZ": "모두 Z값으로 설정",
         "Inspector.Member.SetAllToW": "모두 W값으로 설정",
+        "Inspector.Member.Normalize": "정규화",
         "Inspector.Member.BakeBlendshape" : "블렌드셰이프 베이크",
         "Inspector.Member.RemoveBlendshape" : "블렌드셰이프 삭제",
         "Inspector.Member.SplitBlendshape.X" : "블렌드셰이프를 좌/우(X축)로 분리",
