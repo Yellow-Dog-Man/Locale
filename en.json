@@ -1745,7 +1745,7 @@
         "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "When this option is enabled, Resonite will zoom your FOV when you are sprinting in <b>Desktop</b>.\nDisable the setting to remove the effect.\n<b>Does NOT</b> include effects found in User Generated Content.",
         
         "Settings.DesktopRenderSettings.VSync": "VSync",
-        "Settings.DesktopRenderSettings.VSync.Description": "When this option is enabled, the framerate will be synced with the refresh rate of your screen. Disabling this can render frames faster, but also cause visible tearing.\n\nThis can be useful when doing performance testing, as it will uncap the update and rendering speed.",
+        "Settings.DesktopRenderSettings.VSync.Description": "When this option is enabled, the framerate will be synced with the refresh rate of your screen. Disabling this can render frames faster, but it will also cause visible tearing.\n\nThis can be useful when doing performance testing as it will uncap the update and rendering speed.\n\n<color=hero.red>IMPORTANT:</color> Due to a limitation of Unity, VSync cannot be toggled in VR and will be disabled regardless of its previous state.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Limit framerate when in background",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "When enabled, the framerate will be limited to a set value when the application window is unfocused. This is useful if you use other programs and games at the same time, as it will free up more resources for them.",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "Maximum background framerate",
