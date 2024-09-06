@@ -1037,8 +1037,8 @@
         "Exporter.Exporting": "Exportation...",
         "Exporter.InvalidFileName": "Nom de fichier invalide",
 
-        "Export.PackageExportable.Package": "Paquet Resonite",
-        "Export.PackageExportable.PackageWithVariants": "Paquet Resonite <size=50%>(+variants)</size>",
+        "Export.PackageExportable.Package": "Paquet {appName}",
+        "Export.PackageExportable.PackageWithVariants": "Paquet {appName} <size=50%>(+variants)</size>",
 
         "Export.AudioExportable.OriginalFormat": "Audio <size=75%>(format original)</size>",
 
@@ -1386,10 +1386,10 @@
         "Settings.SteamIntegrationSettings": "Intégration à Steam",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "Présence riche Discord",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Contrôle quelles informations Resonite envoie au client Discord pour la présence riche.\n\n<color=hero.yellow>Rien</color> - N'envoie aucune information.\n\n<color=hero.yellow>Basique</color> - N'envoie que des détails limités comme votre présence sur Resonite.\n\n<color=hero.yellow>Complète</color> - Quand vous êtes dans une session publique, envoie toutes les données possibles comme le nom de la session et le nombre d'utilisateurs dans celle-ci.\n\nDiscord a aussi une option pour désactiver la présence riche.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Contrôle quelles informations {appName} envoie au client Discord pour la présence riche.\n\n<color=hero.yellow>Rien</color> - N'envoie aucune information.\n\n<color=hero.yellow>Basique</color> - N'envoie que des détails limités comme votre présence sur {appName}.\n\n<color=hero.yellow>Complète</color> - Quand vous êtes dans une session publique, envoie toutes les données possibles comme le nom de la session et le nombre d'utilisateurs dans celle-ci.\n\nDiscord a aussi une option pour désactiver la présence riche.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Présence riche Steam",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "Contrôle quelles informations Resonite envoie à Steam pour la présence riche.\n\n<color=hero.yellow>Rien</color> - N'envoie aucune information.\n\n<color=hero.yellow>Basique</color> - N'envoie que des détails limités comme votre présence sur Resonite.\n\n<color=hero.yellow>Complète</color> - Quand vous êtes dans une session publique, envoie toutes les données possibles comme le nom de la session et le nombre d'utilisateurs dans celle-ci.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Contrôle quelles informations {appName} envoie à Steam pour la présence riche.\n\n<color=hero.yellow>Rien</color> - N'envoie aucune information.\n\n<color=hero.yellow>Basique</color> - N'envoie que des détails limités comme votre présence sur {appName}.\n\n<color=hero.yellow>Complète</color> - Quand vous êtes dans une session publique, envoie toutes les données possibles comme le nom de la session et le nombre d'utilisateurs dans celle-ci.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Sauvegarder les photos",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Si activé, à chaque fois que vous prendrez une photo ou en sauvegarderez une, elle sera aussi sauvegardée dans Steam.",
@@ -1607,9 +1607,9 @@
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Autoriser les WebSockets",
         "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Ceci indique si vous autorisez cet hôte à recevoir des requêtes WebSocket. Elles sont généralement utilisées pour de la communication bi-directionnelle en temps réel et des flux de données.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Autoriser la réception OSC",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Ceci indique si vous autorisez Resonite à recevoir et à traiter des données OSC.",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Ceci indique si vous autorisez {appName} à recevoir et à traiter des données OSC.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Autoriser l'envoi OSC",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Ceci indique si vous autorisez Resonite à envoyer des données via le protocole OSC à un hôte donné.",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Ceci indique si vous autorisez {appName} à envoyer des données via le protocole OSC à un hôte donné.",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Raison de la dernière requête HTTP",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Raison de la dernière requête websocket",
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Raison de la dernière requête d'envoi OSC",
@@ -1742,7 +1742,7 @@
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Définit le champ de vision en mode bureau. Des valeurs plus grandes entraînera une vue plus large au coût de distortions sur les côtés de l'écran.",
 
         "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Zoomer le champ de vision pendant le sprint",
-        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Quand cette option est active, Resonite aura un zoom quand vous sprinterez en <b>mode bureau</b>.\nDésactivez cette option pour retirer l'effet.\n<b>N'inclus PAS</b> les effets que certains contenus de joueurs peuvent créer.",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Quand cette option est active, {appName} aura un zoom quand vous sprinterez en <b>mode bureau</b>.\nDésactivez cette option pour retirer l'effet.\n<b>N'inclus PAS</b> les effets que certains contenus de joueurs peuvent créer.",
 
         "Settings.DesktopRenderSettings.VSync": "Synchronisation verticale",
         "Settings.DesktopRenderSettings.VSync.Description": "Quand activé, votre nombre d'images par secondes sera limité au taux de rafraîchissement de votre écran. Désactiver cette option peut rendre les images plus rapidement mais peut causer une déchirure de l'image.\n\nCeci peut être utile lors de tests de performance, car la désactiver désactivera également le plafond sur la vitesse de mise à jour et de rendu des images.",
@@ -2274,7 +2274,7 @@
         "VolumePlaneSlicer.Slicer": "Trancher",
 
         "Tutorial.Welcome.Welcome": "Bienvenue!",
-        "Tutorial.Welcome.Description": "Plongez dans un nouvel univers digital avec des possibilités infinies. Que vous veniez ici pour socialiser avec des gens du monde entier ou créer des mondes, objets, avatars et bien plus, Resonite est un espace personnalisable sans limites où vous serez le⸱a bienvenu⸱e et trouverez un groupe avec qui résonner, qui que vous soyez.<br><br>Avant de commencer, il faut mettre en place quelques essentiels pour que l’expérience soit la meilleure possible. Quant vous êtes prêt⸱e, cliquez le bouton ci-dessous.",
+        "Tutorial.Welcome.Description": "Plongez dans un nouvel univers digital avec des possibilités infinies. Que vous veniez ici pour socialiser avec des gens du monde entier ou créer des mondes, objets, avatars et bien plus, {appName} est un espace personnalisable sans limites où vous serez le⸱a bienvenu⸱e et trouverez un groupe avec qui résonner, qui que vous soyez.<br><br>Avant de commencer, il faut mettre en place quelques essentiels pour que l’expérience soit la meilleure possible. Quant vous êtes prêt⸱e, cliquez le bouton ci-dessous.",
         "Tutorial.Welcome.Begin": "Commençons!",
 
         "Tutorial.Welcome.AccountHeader": "Compte {appName}",
