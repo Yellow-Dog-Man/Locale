@@ -664,7 +664,7 @@
         "Contacts.SearchResult": "Résultats de recherche",
         "Contacts.Bot": "Compte de bot",
         "Contacts.Migrated": "Contact non-migré",
-        "Contacts.IncompatibleSession" : "Session incompatible",
+        "Contacts.IncompatibleSession": "Session incompatible",
 
         "Notifications.IsSociable": "Est social, contactez ou invitez-le!",
         "Notifications.IsOnline": "est maintenant en ligne",
@@ -936,6 +936,9 @@
         "Importer.Image.Stereo180": "Photo stéréoscopique 180",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.Image.Failure.Heading": "L'import de l'image a échoué <color=hero.yellow>{image}</color>",
+        "Importer.Image.Failure.Description": "L'import de l'image a échoué à cause de:\n\n<color=hero.red>{error}</color>",
+
         "Importer.LUT.Failure.Heading": "L'import du LUT a échoué <color=hero.yellow>{image}</color>",
         "Importer.LUT.Failure.Description": "L'import du LUT a échoué a cause de:\n\n<color=hero.red>{error}</color>",
 
@@ -1034,19 +1037,19 @@
         "Exporter.Exporting": "Exportation...",
         "Exporter.InvalidFileName": "Nom de fichier invalide",
 
-        "Export.PackageExportable.Package": "Paquet Resonite",
-        "Export.PackageExportable.PackageWithVariants": "Paquet Resonite <size=50%>(+variants)</size>",
+        "Export.PackageExportable.Package": "Paquet {appName}",
+        "Export.PackageExportable.PackageWithVariants": "Paquet {appName} <size=50%>(+variants)</size>",
 
         "Export.AudioExportable.OriginalFormat": "Audio <size=75%>(format original)</size>",
 
         "Export.VideoExportable.OriginalFormat": "Vidéo <size=75%>(format original)</size>",
 
-        "Importer.Package.Progress.DecodingPackage" : "Décodage du paquet",
-        "Importer.Package.Progress.DecodingObject" : "Décodage de l'objet",
-        "Importer.Package.Progress.ImportingAssets" : "Importation des assets",
-        "Importer.Package.Progress.LoadingObject" : "Chargement de l'objet",
-        "Importer.Package.Progress.Imported" : "Paquet importé",
-        "Importer.Package.Progress.Fail" : "Échec de l'importation. Veuillez voir les logs.",
+        "Importer.Package.Progress.DecodingPackage": "Décodage du paquet",
+        "Importer.Package.Progress.DecodingObject": "Décodage de l'objet",
+        "Importer.Package.Progress.ImportingAssets": "Importation des assets",
+        "Importer.Package.Progress.LoadingObject": "Chargement de l'objet",
+        "Importer.Package.Progress.Imported": "Paquet importé",
+        "Importer.Package.Progress.Fail": "Échec de l'importation. Veuillez voir les logs.",
 
         "NewWorld.Title": "Nouveau monde",
         "NewWorld.SessionTitle": "Nouvelle session",
@@ -1322,6 +1325,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType": "Mode de saisie par défaut.",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Détermine le mode de saisie par défaut.\n\n<color=hero.yellow>Palm:</color> vous saisisserez les objects qui sont dans votre paume.\n\n<color=hero.yellow>Precision:</color> vous saisisserez les objets entre votre pouce et index.\n\n<color=hero.yellow>Auto:</color> commute entre le mode precision et palm selon l'orientation de votre main.\n\n<color=hero.yellow>Off:</color> vous ne pourrez que saisir des objets avec vos lasers.",
 
+        "Settings.FullBodyTrackingSettings": "Traque du corps",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Angle horizontal du corps",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "Définis l'angle de déviation entre les mains et tête au-delà duquel vous seréz considéré dans une position horizontale. Cela affecte certaines options comme le fait que vos traqueurs pour les pieds soient remplacés par une simulation.",
+
         "Settings.GamepadSettings": "Manettes",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Vitesse de vision",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Utilisez cette option pour ajuster la vitesse à laquelle vous regarderez dans l'espace avec une manette.",
@@ -1349,21 +1356,21 @@
         "Settings.GeneralVRSettings.UseVRHotswitching": "Commutation VR automatique",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Quand activé, vous passerez automatiquement en mode bureau quand vous retirez votre casque VR.",
 
-        "Settings.TrackingSmoothingSettings.HandPositionSmoothing" : "Lissage de la position des mains",
-        "Settings.TrackingSmoothingSettings.HandRotationSmoothing" : "Lissage de la rotation des mains",
-        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description" : "Quand activé, contrôle comme la position des mains doit être lissée. Ceci aide quand il y a des problèmes avec une position instable qui vibre.",
-        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description" : "Quand activé, contrôle comme la rotation des mains doit être lissée. Ceci aide quand il y a des problèmes avec une position instable qui vibre.",
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Lissage de la position des mains",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Lissage de la rotation des mains",
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "Quand activé, contrôle comme la position des mains doit être lissée. Ceci aide quand il y a des problèmes avec une position instable qui vibre.",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "Quand activé, contrôle comme la rotation des mains doit être lissée. Ceci aide quand il y a des problèmes avec une position instable qui vibre.",
 
-        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing" : "Lissage de la position des pieds",
-        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing" : "Lissage de la rotation des pieds",
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Lissage de la position des pieds",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Lissage de la rotation des pieds",
 
-        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description" : "Quand activé, cela contrôle comme la rotation des pieds est lissée en utilisant du fullbody tracking. Ceci est utile pour éliminer des vibrations mais cela ralentit les pieds.",
-        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description" : "Quand activé, cela contrôle comme la position des pieds est lissée en utilisant du fullbody tracking. Ceci est utile pour éliminer des vibrations mais cela ralentit les pieds.",
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "Quand activé, cela contrôle comme la position des pieds est lissée en utilisant du fullbody tracking. Ceci est utile pour éliminer des vibrations mais cela ralentit les pieds.",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "Quand activé, cela contrôle comme la rotation des pieds est lissée en utilisant du fullbody tracking. Ceci est utile pour éliminer des vibrations mais cela ralentit les pieds.",
 
-        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing" : "Lissage de la position des hanches",
-        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing" : "Lissage de la rotation des hanches",
-        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description" : "Quand activé, cela contrôle comme la position des hanches est lissée en utilisant du fullbody tracking. Ceci est utile pour éliminer des vibrations mais cela ralentit les pieds.",
-        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description" : "Quand activé, cela contrôle comme la position des hanches est lissée en utilisant du fullbody tracking. Ceci est utile pour éliminer des vibrations mais cela ralentit les pieds.",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Lissage de la position des hanches",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Lissage de la rotation des hanches",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "Quand activé, cela contrôle comme la position des hanches est lissée en utilisant du fullbody tracking. Ceci est utile pour éliminer des vibrations mais cela ralentit les pieds.",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "Quand activé, cela contrôle comme la position des hanches est lissée en utilisant du fullbody tracking. Ceci est utile pour éliminer des vibrations mais cela ralentit les pieds.",
 
         "Settings.MediaPrivacySettings": "Confidentialité média",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Se retirer des métadonnées des photos",
@@ -1379,10 +1386,10 @@
         "Settings.SteamIntegrationSettings": "Intégration à Steam",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "Présence riche Discord",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Contrôle quelles informations Resonite envoie au client Discord pour la présence riche.\n\n<color=hero.yellow>Rien</color> - N'envoie aucune information.\n\n<color=hero.yellow>Basique</color> - N'envoie que des détails limités comme votre présence sur Resonite.\n\n<color=hero.yellow>Complète</color> - Quand vous êtes dans une session publique, envoie toutes les données possibles comme le nom de la session et le nombre d'utilisateurs dans celle-ci.\n\nDiscord a aussi une option pour désactiver la présence riche.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Contrôle quelles informations {appName} envoie au client Discord pour la présence riche.\n\n<color=hero.yellow>Rien</color> - N'envoie aucune information.\n\n<color=hero.yellow>Basique</color> - N'envoie que des détails limités comme votre présence sur {appName}.\n\n<color=hero.yellow>Complète</color> - Quand vous êtes dans une session publique, envoie toutes les données possibles comme le nom de la session et le nombre d'utilisateurs dans celle-ci.\n\nDiscord a aussi une option pour désactiver la présence riche.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Présence riche Steam",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "Contrôle quelles informations Resonite envoie à Steam pour la présence riche.\n\n<color=hero.yellow>Rien</color> - N'envoie aucune information.\n\n<color=hero.yellow>Basique</color> - N'envoie que des détails limités comme votre présence sur Resonite.\n\n<color=hero.yellow>Complète</color> - Quand vous êtes dans une session publique, envoie toutes les données possibles comme le nom de la session et le nombre d'utilisateurs dans celle-ci.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Contrôle quelles informations {appName} envoie à Steam pour la présence riche.\n\n<color=hero.yellow>Rien</color> - N'envoie aucune information.\n\n<color=hero.yellow>Basique</color> - N'envoie que des détails limités comme votre présence sur {appName}.\n\n<color=hero.yellow>Complète</color> - Quand vous êtes dans une session publique, envoie toutes les données possibles comme le nom de la session et le nombre d'utilisateurs dans celle-ci.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Sauvegarder les photos",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Si activé, à chaque fois que vous prendrez une photo ou en sauvegarderez une, elle sera aussi sauvegardée dans Steam.",
@@ -1394,7 +1401,6 @@
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Quand activé, le Leap Motion sera utilisé pour traquer vos mains et doigts.",
         "Settings.LeapMotionSettings.Offset": "Compensation de la traque des mains",
         "Settings.LeapMotionSettings.Offset.Description": "C'est la compensation en mètres du capteur Leap Motion sur votre casque. Changez ces valeurs pour que la position de vos mains soit correcte.",
-
         "Settings.LeapMotionSettings.SnapDistance": "Distance d'attachement de la manette",
         "Settings.LeapMotionSettings.SnapDistance.Description": "Quand vos mains sont à une certaine distance de vos manettes, elles s'attachent à elles et utilisent leur traque. Cette option contrôle à quelle distance cela arrive.",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Traquer les mains en utilisant les manettes",
@@ -1601,9 +1607,9 @@
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Autoriser les WebSockets",
         "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Ceci indique si vous autorisez cet hôte à recevoir des requêtes WebSocket. Elles sont généralement utilisées pour de la communication bi-directionnelle en temps réel et des flux de données.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Autoriser la réception OSC",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Ceci indique si vous autorisez Resonite à recevoir et à traiter des données OSC.",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Ceci indique si vous autorisez {appName} à recevoir et à traiter des données OSC.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Autoriser l'envoi OSC",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Ceci indique si vous autorisez Resonite à envoyer des données via le protocole OSC à un hôte donné.",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Ceci indique si vous autorisez {appName} à envoyer des données via le protocole OSC à un hôte donné.",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Raison de la dernière requête HTTP",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Raison de la dernière requête websocket",
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Raison de la dernière requête d'envoi OSC",
@@ -1625,6 +1631,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Quand activé, le bouton d'application sur votre manette non-primaire ouvrira un ancien commutateur de mondes. Cette option sera remplacée par une plus flexible dans le futur.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Utiliser le geste raccourci d'inventaire et de sessions",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Quand activé, lorsque vous maintenez le bouton de grip et pressez le bouton du tableau de bord, cela ouvrira l'inventaire ou le menu des sessions.",
+
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Supprimer la simulation des pieds",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Cela va faire en sorte que certains systèmes (comme des poseurs) peuvent modifier vos proxies de pieds sans avoir a les modifier.<br><br>Si vous activez cette option sans poseur, les animations ne seront PAS correctes. Désactivez cette option quand vous n'utilisez pas de poseurs.<br><br><color=hero.red>IMPORTANT:</color> Cette fonctionnalité va probablement être retirée a un point dans le futur. Nous recommandons de migrer les poseurs vers le nouveau système.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Nom de la chaîne Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Cette option définit le nom de la chaîne Twitch par défaut utilisée par le panneau de chat Twitch dans le panneau de contrôles de la caméra. Ceci est principalement utilisé par les créateurs de contenu voulant observer leur chat Twitch.",
@@ -1660,12 +1669,10 @@
         "Settings.NotificationSettings.Invite.Description": "Contrôle si vous voulez recevoir les notifications d'invitation à une session.",
         "Settings.NotificationSettings.ContactRequest": "Demandes d'ami",
         "Settings.NotificationSettings.ContactRequest.Description": "Contrôle si vous voulez recevoir les notifications de demande d'ami.",
-
         "Settings.NotificationSettings.ContactSessionStarted": "Nouvelle session d'ami",
         "Settings.NotificationSettings.ContactSessionStarted.Description": "Contrôle les notifications que vous recevrez quand un de vos amis ouvre une session.",
         "Settings.NotificationSettings.PublicSessionStarted": "Nouvelle session publique",
         "Settings.NotificationSettings.PublicSessionStarted.Description": "Contrôle les notifications que vous recevrez quand une nouvelle session publique est ouverte par quelqu'un qui n'est pas dans votre liste d'amis.",
-
         "Settings.NotificationSettings.UserJoinAndLeave": "Utilisateurs rejoignant et partant",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Quand activé, vous aurez une notification à chaque fois qu'un utilisateur rejoint ou quitte la session dans laquelle vous vous trouvez.",
 
@@ -1732,7 +1739,11 @@
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Activez cette option pour toujours cacher les noms dans le photos. Ce paramètre est indépendant de l'option de visibilité des noms et assure qu'ils seront toujours cachés dans les photos.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Champ de vision",
-        "Settings.DesktopRenderSettings.FieldOfView.Description": "Définit le champ de vision en mode bureau. Des valeurs plus grandes réslteront en une vue plus large au coût de distortions sur les côtés de l'écran.",
+        "Settings.DesktopRenderSettings.FieldOfView.Description": "Définit le champ de vision en mode bureau. Des valeurs plus grandes entraînera une vue plus large au coût de distortions sur les côtés de l'écran.",
+
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Zoomer le champ de vision pendant le sprint",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Quand cette option est active, {appName} aura un zoom quand vous sprinterez en <b>mode bureau</b>.\nDésactivez cette option pour retirer l'effet.\n<b>N'inclus PAS</b> les effets que certains contenus de joueurs peuvent créer.",
+
         "Settings.DesktopRenderSettings.VSync": "Synchronisation verticale",
         "Settings.DesktopRenderSettings.VSync.Description": "Quand activé, votre nombre d'images par secondes sera limité au taux de rafraîchissement de votre écran. Désactiver cette option peut rendre les images plus rapidement mais peut causer une déchirure de l'image.\n\nCeci peut être utile lors de tests de performance, car la désactiver désactivera également le plafond sur la vitesse de mise à jour et de rendu des images.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Limiter la performance en arrière-plan",
@@ -1847,17 +1858,17 @@
         "Settings.ResolutionSettings.FullscreenResolution.Description": "Quelle résolution devrait être utilisée pour le mode plein écran. La taille restera la même, mais une baisse de résolution peut améliorer la performance (surtout sur des écrans à haute résolution tels qu'en 4k) au coût d'une image plus floue.",
         "Settings.ResolutionSettings.ApplyResolution": "Appliquer les modifications",
 
-        "Settings.RenderingQualitySettings" : "Qualité de rendu",
-        "Settings.RenderingQualitySettings.PerPixelLights" : "Lumières par pixel",
-        "Settings.RenderingQualitySettings.PerPixelLights.Description" : "Cette option contrôle combien de spots et points de lumière affectent les objets rendus - typiquement les objets transparents et non-PBS (par ex. toon).\n\nAugmenter cette valeur améliore la qualité de la lumière et réduit le clignottement en la présence de plusieurs lumières au coût de la performance - l'objet a besoin d'être rendu plusieurs fois pour chaque lumière l'affectant.",
-        "Settings.RenderingQualitySettings.ShadowCascades" : "Cascades d'ombres",
-        "Settings.RenderingQualitySettings.ShadowCascades.Description" : "Cette option contrôle la résolution des ombres en cascade pour les lumières directionnelles dans le monde. Les cascades distribuent mieux la carte d'ombres avec une résolution plus haute proche et plus basse de loin, mais coûtant plus de performance.",
-        "Settings.RenderingQualitySettings.ShadowResolution" : "Résolution des ombres",
-        "Settings.RenderingQualitySettings.ShadowResolution.Description" : "Ceci contrôle la résolution des ombres pour les lumières. Augmenter cette valeur lissera les ombres mais aura un impact sur la performance.\n\nCertaines lumières passent outre les ombres et ne seront pas affectés par cette option.",
-        "Settings.RenderingQualitySettings.ShadowDistance" : "Distance des ombres",
-        "Settings.RenderingQualitySettings.ShadowDistance.Description" : "Cette option contrôle la distance que couvrent les ombres. Augmenter cette valeur va fair en sorte que les ombres soient rendues plus loin mais va étaler les détails sur une plus grande distance.\n\nCombinez cette option avec la cascade d'ombres et la résolution des ombres. Si vous avez une résolution d'ombres plus grande, vous pouvez les rendre sur une distance plus grande. Si vous baissez la cascade d'ombres, baissez aussi la distance des ombres pour avoir un meilleur résultat.",
-        "Settings.RenderingQualitySettings.SkinWeightMode" : "Poids d'os dynamiques",
-        "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "Pour chaque maillage polygonal avec des poids (modèles 3D qui sont déformés par des os, comme la plupart des avatars), cette option contrôle combien d'os affectent la position de chaque vertex.\n\nBaisser cette valeur peut augmenter la performance mais la qualité de déformation sera moindre, résultant en des plis aiguisés, typiquement autour des articulations.",
+        "Settings.RenderingQualitySettings": "Qualité de rendu",
+        "Settings.RenderingQualitySettings.PerPixelLights": "Lumières par pixel",
+        "Settings.RenderingQualitySettings.PerPixelLights.Description": "Cette option contrôle combien de spots et points de lumière affectent les objets rendus - typiquement les objets transparents et non-PBS (par ex. toon).\n\nAugmenter cette valeur améliore la qualité de la lumière et réduit le clignottement en la présence de plusieurs lumières au coût de la performance - l'objet a besoin d'être rendu plusieurs fois pour chaque lumière l'affectant.",
+        "Settings.RenderingQualitySettings.ShadowCascades": "Cascades d'ombres",
+        "Settings.RenderingQualitySettings.ShadowCascades.Description": "Cette option contrôle la résolution des ombres en cascade pour les lumières directionnelles dans le monde. Les cascades distribuent mieux la carte d'ombres avec une résolution plus haute proche et plus basse de loin, mais coûtant plus de performance.",
+        "Settings.RenderingQualitySettings.ShadowResolution": "Résolution des ombres",
+        "Settings.RenderingQualitySettings.ShadowResolution.Description": "Ceci contrôle la résolution des ombres pour les lumières. Augmenter cette valeur lissera les ombres mais aura un impact sur la performance.\n\nCertaines lumières passent outre les ombres et ne seront pas affectés par cette option.",
+        "Settings.RenderingQualitySettings.ShadowDistance": "Distance des ombres",
+        "Settings.RenderingQualitySettings.ShadowDistance.Description": "Cette option contrôle la distance que couvrent les ombres. Augmenter cette valeur va fair en sorte que les ombres soient rendues plus loin mais va étaler les détails sur une plus grande distance.\n\nCombinez cette option avec la cascade d'ombres et la résolution des ombres. Si vous avez une résolution d'ombres plus grande, vous pouvez les rendre sur une distance plus grande. Si vous baissez la cascade d'ombres, baissez aussi la distance des ombres pour avoir un meilleur résultat.",
+        "Settings.RenderingQualitySettings.SkinWeightMode": "Poids d'os dynamiques",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Pour chaque maillage polygonal avec des poids (modèles 3D qui sont déformés par des os, comme la plupart des avatars), cette option contrôle combien d'os affectent la position de chaque vertex.\n\nBaisser cette valeur peut augmenter la performance mais la qualité de déformation sera moindre, résultant en des plis aiguisés, typiquement autour des articulations.",
 
         "LocomotionArchetype.Walk": "Marche",
         "LocomotionArchetype.Fly": "Vol",
@@ -1926,12 +1937,12 @@
         "Inspector.Member.SetAllToY": "Tout définir comme Y",
         "Inspector.Member.SetAllToZ": "Tout définir comme Z",
         "Inspector.Member.SetAllToW": "Tout définir comme W",
+        "Inspector.Member.Normalize": "Normaliser",
         "Inspector.Member.BakeBlendshape": "Pré-calculer la Blendshape",
         "Inspector.Member.RemoveBlendshape": "Retirer la Blendshape",
         "Inspector.Member.SplitBlendshape.X": "Séparer la Blendshape par X",
         "Inspector.Member.SplitBlendshape.Y": "Séparer la Blendshape par Y",
         "Inspector.Member.SplitBlendshape.Z": "Séparer la Blendshape par Z",
-
 
         "Inspector.ProceduralAsset.UpdateCount": "Nombre de mises à jour: {n}",
         "Inspector.ProceduralAsset.Error": "Erreur: {error}",
@@ -2263,7 +2274,7 @@
         "VolumePlaneSlicer.Slicer": "Trancher",
 
         "Tutorial.Welcome.Welcome": "Bienvenue!",
-        "Tutorial.Welcome.Description": "Plongez dans un nouvel univers digital avec des possibilités infinies. Que vous veniez ici pour socialiser avec des gens du monde entier ou créer des mondes, objets, avatars et bien plus, Resonite est un espace personnalisable sans limites où vous serez le⸱a bienvenu⸱e et trouverez un groupe avec qui résonner, qui que vous soyez.<br><br>Avant de commencer, il faut mettre en place quelques essentiels pour que l’expérience soit la meilleure possible. Quant vous êtes prêt⸱e, cliquez le bouton ci-dessous.",
+        "Tutorial.Welcome.Description": "Plongez dans un nouvel univers digital avec des possibilités infinies. Que vous veniez ici pour socialiser avec des gens du monde entier ou créer des mondes, objets, avatars et bien plus, {appName} est un espace personnalisable sans limites où vous serez le⸱a bienvenu⸱e et trouverez un groupe avec qui résonner, qui que vous soyez.<br><br>Avant de commencer, il faut mettre en place quelques essentiels pour que l’expérience soit la meilleure possible. Quant vous êtes prêt⸱e, cliquez le bouton ci-dessous.",
         "Tutorial.Welcome.Begin": "Commençons!",
 
         "Tutorial.Welcome.AccountHeader": "Compte {appName}",
@@ -2287,8 +2298,6 @@
         "Tutorial.Welcome.SettingsPrimaryLeft.Description": "<b> Gauche: </b> Tourner, <b> Droite: </b> Strafe (de côte à côte)",
         "Tutorial.Welcome.SettingsPrimaryRight": "Droite",
         "Tutorial.Welcome.SettingsPrimaryRight.Description": "<b> Gauche: </b> Strafe (de côte à côte), <b> Droite: </b> Tourner",
-        "Tutorial.Welcome.SettingsHeight": "Votre taille",
-        "Tutorial.Welcome.SettingsHeightExamples": "Exemples: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
         "Tutorial.Welcome.SettingsHeadDirectionMovement": "Direction du mouvement",
         "Tutorial.Welcome.SettingsUseHeadDirection": "Direction de la tête",
@@ -2303,11 +2312,13 @@
         "Tutorial.Welcome.SidewaysTurnOnly.Description": "Cette manette ne sera utilisée que pour tourner.",
         "Tutorial.Welcome.SidewaysTurnAndMove": "Rotation et mouvement",
         "Tutorial.Welcome.SidewaysTurnAndMove.Description": "Cette manette sera utilisée pour tourner et bouger.",
-
         "Tutorial.Welcome.SidewaysStrafe": "Straffer",
         "Tutorial.Welcome.SidewaysStrafe.Description": "Utiliser cette manette pour straffer (mouvement de côte à côte)",
         "Tutorial.Welcome.SidewaysOff": "Désactivé",
         "Tutorial.Welcome.SidewaysOff.Description": "Mouvement avant/arrière seulement",
+
+        "Tutorial.Welcome.SettingsHeight": "Votre taille",
+        "Tutorial.Welcome.SettingsHeightExamples": "Exemples: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
         "Tutorial.Welcome.StartTutorialHeader": "Commencer le Tutoriel",
         "Tutorial.Welcome.StartTutorialDescription": "Vous êtes presque prêt⸱e! Nous allons vous transférer dans un monde tutoriel pour vous aider à démarrer avec {appName}. Vous pouvez choisir de rendre public le monde du tutoriel, permettant à la communauté {appName} de se joindre à vous et de vous aider, ou vous pouvez apprendre par vous-même.",

@@ -1116,6 +1116,9 @@ Settings.MovementSettings.MovementExponent.Description
 Settings.GrabbingSettings  
 Settings.GrabbingSettings.DefaultHandGrabType  
 Settings.GrabbingSettings.DefaultHandGrabType.Description  
+Settings.FullBodyTrackingSettings  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.GamepadSettings  
 Settings.GamepadSettings.ThumbstickLookSpeed  
 Settings.GamepadSettings.ThumbstickLookSpeed.Description  
@@ -1370,6 +1373,8 @@ Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.TwitchInterfaceSettings.ChannelName  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus  

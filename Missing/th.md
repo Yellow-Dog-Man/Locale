@@ -3,18 +3,9 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Thai [th]
 General.ClearSelection  
-General.UI.SearchPrompt  
-General.UI.SearchPromptLong  
-General.UI.ToggleEditMode  
-General.UI.ToggleSubtitles  
-General.UI.Subtitles.On  
-General.UI.Subtitles.Off  
 General.UI.MusicVolumeLocal  
 General.UI.VoiceVolumeLocal  
 General.UI.SoundVolumeLocal  
-General.UI.PressToBegin  
-General.Sort.Ascending  
-General.Sort.Descending  
 General.Units.Metric  
 General.Units.Imperial  
 Worlds.Home  
@@ -35,26 +26,6 @@ Locomotion.GrabWorld.Name
 Locomotion.GrabWorld.Description  
 Locomotion.Slide.Name  
 Locomotion.Slide.Description  
-Interaction.Destroy  
-Interaction.Duplicate  
-Interaction.SaveToInventory  
-Interaction.SaveToInventory.NotLoggedIn  
-Interaction.SaveToInventory.NoWritePermission  
-Interaction.Undo  
-Interaction.Redo  
-Interaction.EquipTool  
-Interaction.DequipTool  
-Interaction.ScalingEnabled  
-Interaction.ScalingDisabled  
-Interaction.ResetScale  
-Interaction.LaserEnabled  
-Interaction.LaserDisabled  
-Interaction.Grab.Palm  
-Interaction.Grab.Precision  
-Interaction.Grab.Auto  
-Interaction.Grab.Off  
-Interaction.Locomotion  
-Interaction.Locomotion.None  
 Interaction.NamedEquipTool  
 Interaction.NamedEquipTool.Default  
 Interaction.EnterAnchor  
@@ -1101,6 +1072,9 @@ Settings.MovementSettings.MovementExponent.Description
 Settings.GrabbingSettings  
 Settings.GrabbingSettings.DefaultHandGrabType  
 Settings.GrabbingSettings.DefaultHandGrabType.Description  
+Settings.FullBodyTrackingSettings  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.GamepadSettings  
 Settings.GamepadSettings.ThumbstickLookSpeed  
 Settings.GamepadSettings.ThumbstickLookSpeed.Description  
@@ -1357,6 +1331,8 @@ Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.TwitchInterfaceSettings.ChannelName  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus  

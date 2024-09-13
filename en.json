@@ -1248,7 +1248,7 @@
         "Settings.OnlineStatusSettings.RememberTimespan.Description" : "Your last online status will be remembered only if you log in again within this timeframe. If you take longer than this, you'll start with your default status instead.",
         "Settings.OnlineStatusSettings.InvisibleRememberMode" : "Remember last invisible status",
         "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "This controls how is your last status remembered specifically if you were last set to Invisible. Otherwise this functions the same.\n\nThe invisible status has a separate setting for privacy reasons, to ensure that if you were last set to invisible, you can ensure that you'll stay invisible at the next login even if your other statuses are not remembered.",
-        "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "Remember invisble status for",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "Remember invisible status for",
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "Your last invisible status will be remembered only if you log in again within this timeframe. If you take longer than this, you'll start with your default status instead.",
         "Settings.OnlineStatusSettings.AutoAwayTimespan" : "Switch to Away when idle for",
         "Settings.OnlineStatusSettings.AutoAwayTimespan.Description" : "When you are idle for this amount of time, your online status will automatically be switched to Away. Once you come back, it will automatically be set back to previous state, unless you set it to Away manually.",
@@ -1325,6 +1325,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType": "Default Hand Grab Type",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "This determines what your default grab mode for hands is when you spawn in new worlds.\n\n<color=hero.yellow>Palm:</color> You will grab all objects that are near your palm.\n\n<color=hero.yellow>Precision:</color> You will grab a single object between your index finger and thumb.\n\n<color=hero.yellow>Auto:</color> Mode is automatically switched between palm and precision depending on the orientation of your hand.\n\n<color=hero.yellow>Off:</color> You'll only be able to grab items with your lasers.",
 
+        "Settings.FullBodyTrackingSettings": "Full Body Tracking",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "Body Horizontal Angle",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description" : "This is the angle deviation between feet and head, beyond which you'll be considered in a horizontal pose. This affects certain things like overriding your tracker poses with feet simulation.",
+
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Thumbstick Looking Speed",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Use this to adjust the sensitivity of the speed at which the viewpoint is moved with the thumbstick.",
@@ -1355,7 +1359,7 @@
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Hand Position Smoothing",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Hand Rotation Smoothing",
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "When enabled, this controls how much is the hand position smoothed out. Typically this is helpful for users with tremors and other accessibility issues that cause jitter.",
-        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "When enabled, this controls how much is the hand rotation smoothed out. Typically this is helpful for users with tremors and other accessibility issues jitter.",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "When enabled, this controls how much is the hand rotation smoothed out. Typically this is helpful for users with tremors and other accessibility issues that cause jitter.",
 
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Feet Position Smoothing",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Feet Rotation Smoothing",
@@ -1382,10 +1386,10 @@
         "Settings.SteamIntegrationSettings": "Steam Integration",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Discord's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Discord.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Discord. Includes the world name and how many users are in the session.\n\nDiscord itself also does its own detection to display what game you are playing. This can be disabled in Discord's settings.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Controls what information {appName} sends to Discord's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Discord.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in {appName}.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Discord. Includes the world name and how many users are in the session.\n\nDiscord itself also does its own detection to display what game you are playing. This can be disabled in Discord's settings.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Steam's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Steam.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Steam. Includes the world name and how many users are in the session.\n\nSteam itself will display that you are playing Resonite regardless of this setting. Changing this setting only affects how much extra data is sent to Steam about your active session.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Controls what information {appName} sends to Steam's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Steam.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in {appName}.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Steam. Includes the world name and how many users are in the session.\n\nSteam itself will display that you are playing {appName} regardless of this setting. Changing this setting only affects how much extra data is sent to Steam about your active session.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Save Screenshots",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "When you take a picture with this setting enabled, a copy will be saved to Steam screenshots.",
@@ -1603,9 +1607,9 @@
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Allow websockets",
         "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "This indicates if realtime Websocket connections are allowed for this host. These are often used for more realtime bi-directional communications and data streams.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Allow OSC receiving",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "This indicates if Resonite can receive and process OSC data",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "This indicates if {appName} can receive and process OSC data",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Allow OSC sending",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "This controls if Resonite is allowed to send data via OSC protocol to given host",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "This controls if {appName} is allowed to send data via OSC protocol to given host",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Last hyperlink request reason",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Last websocket request reason",
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Last OSC Sender request reason",
@@ -1627,6 +1631,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "When enabled, the app button on your non-primary hand will open a legacy world switch to switch between active worlds. This feature will be replaced in the future by a more flexible solution.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Use inventory & session gesture shortcut",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "When enabled, when you hold grip and press the App button (that normally opens/closes dash), it will open the legacy inventory or session menu.",
+
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Suppress Feet Simulation",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "This is to make certain features like posers that hijack feet proxies work, without having to modify them. <br><br>If you turn this on without using posers or similar features, the animations will NOT look correct. Turn this off after you're done using posers. <br><br><color=hero.red>IMPORTANT:</color> This will likely be removed at some point, we recommend upgrading posers to be compatible with the new system and automatically suppress the simulation when active.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Channel Name",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "This sets the default Twitch channel name for the Twitch Chat panel in the Camera Controls panel. This is mostly used by Twitch streamers who want to see their Twitch chat.",
@@ -1735,10 +1742,10 @@
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Use this to control the field of view (FOV) when in desktop mode. Larger values will give you wider view at the cost of greater distortion on the sides.",
 
         "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Zoom FOV when sprinting",
-        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "When this option is enabled, Resonite will zoom your FOV when you are sprinting in <b>Desktop</b>.\nDisable the setting to remove the effect.\n<b>Does NOT</b> include effects found in User Generated Content.",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "When this option is enabled, your FOV will be zoomed when you are sprinting in Desktop. Disable this setting to remove this effect.\n\nPlease note that this does <b>NOT</b> disable effects found in User Generated Content.",
         
         "Settings.DesktopRenderSettings.VSync": "VSync",
-        "Settings.DesktopRenderSettings.VSync.Description": "When this option is enabled, the framerate will be synced with the refresh rate of your screen. Disabling this can render frames faster, but also cause visible tearing.\n\nThis can be useful when doing performance testing, as it will uncap the update and rendering speed.",
+        "Settings.DesktopRenderSettings.VSync.Description": "When this option is enabled, the framerate will be synced with the refresh rate of your screen. Disabling this can render frames faster, but it will also cause visible tearing.\n\nThis can be useful when doing performance testing as it will uncap the update and rendering speed.\n\n<color=hero.red>IMPORTANT:</color> This setting cannot be toggled while in VR since framerate is controlled by VR.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Limit framerate when in background",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "When enabled, the framerate will be limited to a set value when the application window is unfocused. This is useful if you use other programs and games at the same time, as it will free up more resources for them.",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "Maximum background framerate",
@@ -2267,7 +2274,7 @@
         "VolumePlaneSlicer.Slicer": "Slice",
 
         "Tutorial.Welcome.Welcome": "Welcome!",
-        "Tutorial.Welcome.Description": "Dive into a brand new digital universe with infinite possibilities. Whether you come here to socialize and hang out with people around the world or to build, create and develop anything from beautiful art, interactive avatars and gadgets, to complex interactive worlds and games, Resonite is an endlessly customizable place where you'll be welcome and where you'll find a group to resonate with.<br><br>Before you start exploring, we'll first guide you through setting up some essentials, to ensure a smooth experience. When you're ready, click the button below",
+        "Tutorial.Welcome.Description": "Dive into a brand new digital universe with infinite possibilities. Whether you come here to socialize and hang out with people around the world or to build, create and develop anything from beautiful art, interactive avatars and gadgets, to complex interactive worlds and games, {appName} is an endlessly customizable place where you'll be welcome and where you'll find a group to resonate with.<br><br>Before you start exploring, we'll first guide you through setting up some essentials, to ensure a smooth experience. When you're ready, click the button below",
         "Tutorial.Welcome.Begin": "Let's begin!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} account",
