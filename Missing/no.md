@@ -9,6 +9,7 @@ Inventory.Favorite.Document
 World.Loaded  
 World.Connection.LNL.LNLPoke  
 World.Connection.TCP  
+World.Error.Handshake  
 World.Filter.IncompatibleSessions  
 Login.InvalidCredentials.Description  
 Login.InvalidLogin.Description  

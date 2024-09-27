@@ -2,6 +2,7 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Spanish [es]
+World.Error.Handshake  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  

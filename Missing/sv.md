@@ -8,6 +8,7 @@ Interaction.SaveToInventory.NotLoggedIn
 Interaction.SaveToInventory.NoWritePermission  
 World.Connection.LNL.LNLPoke  
 World.Connection.TCP  
+World.Error.Handshake  
 World.Filter.IncompatibleSessions  
 Profile.Status.Sociable  
 Profile.Status.Bot  

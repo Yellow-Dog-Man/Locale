@@ -3,6 +3,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Finnish [fi]
 World.Connection.LNL.LNLPoke  
+World.Error.Handshake  
 World.Actions.GuestWarning  
 Contacts.Unblocked  
 Tooltip.ProtoFlux.Drive  
