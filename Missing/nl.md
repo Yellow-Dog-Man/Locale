@@ -55,6 +55,7 @@ World.Error.HostBlocked
 World.Error.HostBlockedDetail  
 World.Error.WorldCrash  
 World.Error.WorldCrashDetail  
+World.Error.Handshake  
 World.Category.ContactsSessions  
 World.Category.GroupWorlds  
 World.AccessLevel.Contacts  

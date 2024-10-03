@@ -185,6 +185,7 @@ World.Error.HostBlocked
 World.Error.HostBlockedDetail  
 World.Error.WorldCrash  
 World.Error.WorldCrashDetail  
+World.Error.Handshake  
 World.Error.Unknown  
 World.Config.Name  
 World.Config.Description  

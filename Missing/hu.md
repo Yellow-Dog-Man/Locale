@@ -27,6 +27,7 @@ World.Connection.LNL.NATPunchthrough
 World.Connection.LNL.Relay  
 World.Connection.TCP  
 World.Error.SecurityViolation  
+World.Error.Handshake  
 World.Actions.CopyRecordURL  
 World.Indicator.Sessions  
 World.Detail.Users.Count  

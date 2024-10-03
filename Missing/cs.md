@@ -8,6 +8,7 @@ Interaction.CopyImage
 Inventory.Favorite.Document  
 World.Connection.LNL.LNLPoke  
 World.Connection.TCP  
+World.Error.Handshake  
 World.Filter.IncompatibleSessions  
 Login.MissingSecretMachineId  
 Login.MissingSecretMachineId.Description  

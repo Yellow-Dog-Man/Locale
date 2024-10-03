@@ -26,6 +26,7 @@ World.Error.HostBlocked
 World.Error.HostBlockedDetail  
 World.Error.WorldCrash  
 World.Error.WorldCrashDetail  
+World.Error.Handshake  
 World.Indicator.Visited  
 World.Category.Random  
 World.Category.GroupWorlds  
