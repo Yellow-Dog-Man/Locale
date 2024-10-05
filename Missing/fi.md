@@ -4,7 +4,9 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Finnish [fi]
 World.Connection.LNL.LNLPoke  
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
 World.Actions.GuestWarning  
+World.Edit.ReadOnly  
 Contacts.Unblocked  
 Tooltip.ProtoFlux.Drive  
 Tooltip.ProtoFlux.Source  

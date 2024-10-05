@@ -56,12 +56,14 @@ World.Error.HostBlockedDetail
 World.Error.WorldCrash  
 World.Error.WorldCrashDetail  
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
 World.Category.ContactsSessions  
 World.Category.GroupWorlds  
 World.AccessLevel.Contacts  
 World.AccessLevel.ContactsPlus  
 World.Filter.MinimumContacts  
 World.Filter.IncompatibleSessions  
+World.Edit.ReadOnly  
 Tools.AvatarCreator  
 Tools.Debug  
 Tools.StreamAudio.Dialog.Title  

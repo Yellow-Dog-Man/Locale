@@ -9,7 +9,9 @@ Interaction.SaveToInventory.NoWritePermission
 World.Connection.LNL.LNLPoke  
 World.Connection.TCP  
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
 World.Filter.IncompatibleSessions  
+World.Edit.ReadOnly  
 Profile.Status.Sociable  
 Profile.Status.Bot  
 Profile.Status.ChatClient  

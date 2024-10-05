@@ -3,4 +3,6 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Russian [ru]
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
+World.Edit.ReadOnly  
 

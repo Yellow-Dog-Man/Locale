@@ -82,6 +82,7 @@ World.Error.HostBlockedDetail
 World.Error.WorldCrash  
 World.Error.WorldCrashDetail  
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
 World.Indicator.Visited  
 World.Category.ContactsSessions  
 World.Category.Random  
@@ -92,6 +93,7 @@ World.SortParameter.LastVisit
 World.SortParameter.Random  
 World.Filter.MinimumContacts  
 World.Filter.IncompatibleSessions  
+World.Edit.ReadOnly  
 Tools.Setup2FA  
 Tools.StreamAudio.Dialog.Title  
 Options.Nameplates.DefaultStyle  

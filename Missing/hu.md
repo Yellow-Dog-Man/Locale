@@ -28,6 +28,7 @@ World.Connection.LNL.Relay
 World.Connection.TCP  
 World.Error.SecurityViolation  
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
 World.Actions.CopyRecordURL  
 World.Indicator.Sessions  
 World.Detail.Users.Count  
@@ -39,6 +40,7 @@ World.Filter.SubmittedToGroup
 World.Filter.OnlyHeadless  
 World.Filter.IncompatibleSessions  
 World.Filter.MaxAccessLevel  
+World.Edit.ReadOnly  
 Options.FreeformDash.On  
 Options.FreeformDash.Off  
 Indicator.OnlineUsers  

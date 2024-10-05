@@ -10,7 +10,9 @@ World.Loaded
 World.Connection.LNL.LNLPoke  
 World.Connection.TCP  
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
 World.Filter.IncompatibleSessions  
+World.Edit.ReadOnly  
 Login.InvalidCredentials.Description  
 Login.InvalidLogin.Description  
 Login.MalformedUID.Description  

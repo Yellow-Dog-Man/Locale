@@ -3,6 +3,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Polish [pl]
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
+World.Edit.ReadOnly  
 Importer.Image.Failure.Heading  
 Importer.Image.Failure.Description  
 Settings.FullBodyTrackingSettings  

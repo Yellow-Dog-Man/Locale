@@ -27,6 +27,7 @@ World.Error.HostBlockedDetail
 World.Error.WorldCrash  
 World.Error.WorldCrashDetail  
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
 World.Indicator.Visited  
 World.Category.Random  
 World.Category.GroupWorlds  
@@ -36,6 +37,7 @@ World.SortParameter.LastVisit
 World.SortParameter.Random  
 World.Filter.MinimumContacts  
 World.Filter.IncompatibleSessions  
+World.Edit.ReadOnly  
 Tools.Setup2FA  
 Tools.StreamAudio.Dialog.Title  
 Tools.StreamAudio.Spatialized  

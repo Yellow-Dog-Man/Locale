@@ -187,6 +187,7 @@ World.Error.WorldCrash
 World.Error.WorldCrashDetail  
 World.Error.Handshake  
 World.Error.Unknown  
+World.Error.FailedToCreateBanAccessKey  
 World.Config.Name  
 World.Config.Description  
 World.Config.MaxUsers  
@@ -321,6 +322,7 @@ World.Edit.AccessLevelHeader
 World.Edit.AccessPrivate  
 World.Edit.AccessPatreon  
 World.Edit.AccessPublic  
+World.Edit.ReadOnly  
 Tools.AvatarCreator  
 Tools.FullBodyCalibrator  
 Tools.CameraStreaming  

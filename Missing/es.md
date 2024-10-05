@@ -3,6 +3,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Spanish [es]
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
+World.Edit.ReadOnly  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
