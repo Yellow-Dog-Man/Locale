@@ -2,7 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Russian [ru]
-World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
 World.Edit.ReadOnly  
 
