@@ -88,6 +88,8 @@ World.Error.HostBlocked
 World.Error.HostBlockedDetail  
 World.Error.WorldCrash  
 World.Error.WorldCrashDetail  
+World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
 World.Indicator.Visited  
 World.Category.ContactsSessions  
 World.Category.Random  
@@ -107,6 +109,7 @@ World.Edit.AccessLevelHeader
 World.Edit.AccessPrivate  
 World.Edit.AccessPatreon  
 World.Edit.AccessPublic  
+World.Edit.ReadOnly  
 Tools.StreamAudio  
 Tools.Setup2FA  
 Tools.StreamAudio.Dialog.Title  
@@ -274,6 +277,8 @@ Notifications.IsSociable
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
+Notifications.PermissionChanged  
+Notifications.PermissionChangedDetail  
 Undo.ExtractMaterialsFromHierarchy  
 Undo.BatchConvertMaterials  
 Tooltips.Brush.ChangeColor  
@@ -774,6 +779,8 @@ Settings.NotificationSettings.PublicSessionStarted
 Settings.NotificationSettings.PublicSessionStarted.Description  
 Settings.NotificationSettings.UserJoinAndLeave  
 Settings.NotificationSettings.UserJoinAndLeave.Description  
+Settings.NotificationSettings.PermissionChanged  
+Settings.NotificationSettings.PermissionChanged.Description  
 Settings.NamePlateSettings.NameplateVisibility  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  

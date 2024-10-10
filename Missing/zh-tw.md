@@ -1,14 +1,17 @@
 # Missing Keys
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
-# Chinese (Taiwan) [zh-tw]
+# Chinese (Traditional, Taiwan) [zh-tw]
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
 Interaction.CopyImage  
 Inventory.Favorite.Document  
 World.Connection.LNL.LNLPoke  
 World.Connection.TCP  
+World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
 World.Filter.IncompatibleSessions  
+World.Edit.ReadOnly  
 Login.InvalidCredentials.Description  
 Login.InvalidLogin.Description  
 Login.MalformedUID.Description  
@@ -60,6 +63,8 @@ Notifications.IsSociable
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
+Notifications.PermissionChanged  
+Notifications.PermissionChangedDetail  
 Tooltips.Dev.Selection.Single  
 Tooltips.Dev.Selection.Multi  
 Tooltips.Dev.Interaction.Tip  
@@ -491,6 +496,8 @@ Settings.NotificationSettings.PublicSessionStarted
 Settings.NotificationSettings.PublicSessionStarted.Description  
 Settings.NotificationSettings.UserJoinAndLeave  
 Settings.NotificationSettings.UserJoinAndLeave.Description  
+Settings.NotificationSettings.PermissionChanged  
+Settings.NotificationSettings.PermissionChanged.Description  
 Settings.NamePlateSettings.NameplateVisibility  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  
