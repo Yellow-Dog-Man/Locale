@@ -4,4 +4,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Russian [ru]
 World.Error.FailedToCreateBanAccessKey  
 World.Edit.ReadOnly  
+Notifications.PermissionChanged  
+Notifications.PermissionChangedDetail  
+Settings.NotificationSettings.PermissionChanged  
+Settings.NotificationSettings.PermissionChanged.Description  
 

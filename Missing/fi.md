@@ -8,6 +8,8 @@ World.Error.FailedToCreateBanAccessKey
 World.Actions.GuestWarning  
 World.Edit.ReadOnly  
 Contacts.Unblocked  
+Notifications.PermissionChanged  
+Notifications.PermissionChangedDetail  
 Tooltip.ProtoFlux.Drive  
 Tooltip.ProtoFlux.Source  
 Tooltip.ProtoFlux.Reference  
@@ -91,6 +93,8 @@ Settings.NotificationSettings.ContactRequest.Description
 Settings.NotificationSettings.ContactSessionStarted.Description  
 Settings.NotificationSettings.PublicSessionStarted.Description  
 Settings.NotificationSettings.UserJoinAndLeave.Description  
+Settings.NotificationSettings.PermissionChanged  
+Settings.NotificationSettings.PermissionChanged.Description  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates.Description  
 Settings.CustomizationSettings.UserInterfaceEditMode.Description  

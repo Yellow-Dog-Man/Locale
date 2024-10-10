@@ -1,7 +1,7 @@
 # Missing Keys
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
-# Chinese (Taiwan) [zh-tw]
+# Chinese (Traditional, Taiwan) [zh-tw]
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
 Interaction.CopyImage  
@@ -63,6 +63,8 @@ Notifications.IsSociable
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
+Notifications.PermissionChanged  
+Notifications.PermissionChangedDetail  
 Tooltips.Dev.Selection.Single  
 Tooltips.Dev.Selection.Multi  
 Tooltips.Dev.Interaction.Tip  
@@ -494,6 +496,8 @@ Settings.NotificationSettings.PublicSessionStarted
 Settings.NotificationSettings.PublicSessionStarted.Description  
 Settings.NotificationSettings.UserJoinAndLeave  
 Settings.NotificationSettings.UserJoinAndLeave.Description  
+Settings.NotificationSettings.PermissionChanged  
+Settings.NotificationSettings.PermissionChanged.Description  
 Settings.NamePlateSettings.NameplateVisibility  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  
