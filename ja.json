@@ -212,6 +212,7 @@
         "World.Error.WorldCrashDetail": "ワールドに致命的なエラーが発生しました",
         "World.Error.Handshake" : "ハンドシェイクエラーが発生しました",
         "World.Error.Unknown": "未知のエラー",
+        "World.Error.FailedToCreateBanAccessKey" : "BANアクセスキーの作成に失敗しました",
 
         "World.Config.Name": "セッション名:",
         "World.Config.Description": "セッション説明:",
@@ -359,6 +360,7 @@
         "World.Edit.AccessPrivate": "私のみ",
         "World.Edit.AccessPatreon": "パトロンサポーター",
         "World.Edit.AccessPublic": "誰でも(パブリック)",
+        "World.Edit.ReadOnly": "読み取り専用",
 
         "Tools.AvatarCreator": "アバター​クリエイター",
         "Tools.FullBodyCalibrator": "フルボディ/アバター​キャリブレーター",
@@ -677,6 +679,8 @@
         "Notifications.SessionStarted": "セッションが開始しました:",
         "Notifications.UserJoined": "ユーザーが参加しました",
         "Notifications.UserLeft": "ユーザーが退出しました",
+        "Notifications.PermissionChanged": "権限が{new}へ変更されました",
+        "Notifications.PermissionChangedDetail": "{world}での、前の権限:{old}",
 
         "Undo.SetField": "フィールド​{field_name}​に​{value}​をセット",
         "Undo.SetReference": "フィールド​{ref_name}​に​{ref_target}​をセット",
@@ -1677,6 +1681,8 @@
 
         "Settings.NotificationSettings.UserJoinAndLeave" : "ユーザー参加/退出",
         "Settings.NotificationSettings.UserJoinAndLeave.Description" : "現在いるワールドにユーザーが参加したり退出したりしたときに通知するかどうか設定できます。",
+        "Settings.NotificationSettings.PermissionChanged": "権限の変更",
+        "Settings.NotificationSettings.PermissionChanged.Description": "あなたの権限が変更されたときに通知するかどうか設定できます。 例：GuestからBuilderに変更されたとき。",
 
         "Settings.NamePlateSettings.NameplateVisibility": "ネームプレートの表示",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "どの種類のユーザーのネームプレートを表示するかを設定できます",
