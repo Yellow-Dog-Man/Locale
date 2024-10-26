@@ -194,9 +194,9 @@
         "World.Error.OnlyRegisteredUsers": "Tylko zarejestrowani użytkownicy mogą dołączyć",
         "World.Error.OnlyContacts": "Tylko kontakty hosta mogą dołączyć",
         "World.Error.OnlyContactsOfContacts": "Tylko kontakty użytkowników w sesji mogą dołączyć",
-        "World.Error.Private": "Ta sesja jest prywatna",
+        "World.Error.Private": "Sesja jest prywatna",
         "World.Error.SessionEnded": "Sesja się zakończyła",
-        "World.Error.UserLimitReached": "Sesja osiągneła limit użytkowników",
+        "World.Error.UserLimitReached": "Sesja osiągnęła limit użytkowników",
         "World.Error.FailedAuthentication": "Uwierzytelnianie nie powiodło się",
         "World.Error.FailedUserID": "Uwierzytelnianie UserID nie powiodło się",
         "World.Error.FailedFetchingAuthentication": "Pobieranie informacji uwierzytelniających nie powiodło się",
@@ -210,8 +210,9 @@
         "World.Error.HostBlockedDetail": "Zablokowałeś hosta",
         "World.Error.WorldCrash": "Crash świata",
         "World.Error.WorldCrashDetail": "Fatalny błąd podczas aktualizacji świata",
-
-        "World.Error.Unknown": "Nieznany Błąd",
+        "World.Error.Handshake": "Błąd podczas nawiązywania położenia",
+        "World.Error.Unknown": "Nieznany błąd",
+        "World.Error.FailedToCreateBanAccessKey": "Błąd z tworzeniem klucza do banów",
 
         "World.Config.Name": "Nazwa świata:",
         "World.Config.Description": "Opis:",
@@ -359,6 +360,7 @@
         "World.Edit.AccessPrivate": "Tylko Ja",
         "World.Edit.AccessPatreon": "Wspierający na Patreon",
         "World.Edit.AccessPublic": "Wszyscy (publiczny)",
+        "World.Edit.ReadOnly": "Tylko odczyt",
 
         "Tools.AvatarCreator": "Kreator Awatarów",
         "Tools.FullBodyCalibrator": "Kalibrator Awatarów / Full Body",
@@ -677,6 +679,8 @@
         "Notifications.SessionStarted": "Stworzono sesję:",
         "Notifications.UserJoined": "Użytkownik dołączył do sesji",
         "Notifications.UserLeft": "Użytkownik opuścił sesję",
+        "Notifications.PermissionChanged": "Rola zmieniona na {new}",
+        "Notifications.PermissionChangedDetail": "W {world}. Poprzednia: {old}",
 
         "Undo.SetField": "Ustawienie pola {field_name} na {value}",
         "Undo.SetReference": "Ustawienie odniesienia {ref_name} na {ref_target}",
