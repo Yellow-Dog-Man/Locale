@@ -194,9 +194,9 @@
         "World.Error.OnlyRegisteredUsers": "Tylko zarejestrowani użytkownicy mogą dołączyć",
         "World.Error.OnlyContacts": "Tylko kontakty hosta mogą dołączyć",
         "World.Error.OnlyContactsOfContacts": "Tylko kontakty użytkowników w sesji mogą dołączyć",
-        "World.Error.Private": "Ta sesja jest prywatna",
+        "World.Error.Private": "Sesja jest prywatna",
         "World.Error.SessionEnded": "Sesja się zakończyła",
-        "World.Error.UserLimitReached": "Sesja osiągneła limit użytkowników",
+        "World.Error.UserLimitReached": "Sesja osiągnęła limit użytkowników",
         "World.Error.FailedAuthentication": "Uwierzytelnianie nie powiodło się",
         "World.Error.FailedUserID": "Uwierzytelnianie UserID nie powiodło się",
         "World.Error.FailedFetchingAuthentication": "Pobieranie informacji uwierzytelniających nie powiodło się",
@@ -210,7 +210,9 @@
         "World.Error.HostBlockedDetail": "Zablokowałeś hosta",
         "World.Error.WorldCrash": "Crash świata",
         "World.Error.WorldCrashDetail": "Fatalny błąd podczas aktualizacji świata",
-        "World.Error.Unknown": "Nieznany Błąd",
+        "World.Error.Handshake": "Błąd podczas nawiązywania położenia",
+        "World.Error.Unknown": "Nieznany błąd",
+        "World.Error.FailedToCreateBanAccessKey": "Błąd z tworzeniem klucza do banów",
 
         "World.Config.Name": "Nazwa świata:",
         "World.Config.Description": "Opis:",
@@ -358,6 +360,7 @@
         "World.Edit.AccessPrivate": "Tylko Ja",
         "World.Edit.AccessPatreon": "Wspierający na Patreon",
         "World.Edit.AccessPublic": "Wszyscy (publiczny)",
+        "World.Edit.ReadOnly": "Tylko odczyt",
 
         "Tools.AvatarCreator": "Kreator Awatarów",
         "Tools.FullBodyCalibrator": "Kalibrator Awatarów / Full Body",
@@ -676,6 +679,8 @@
         "Notifications.SessionStarted": "Stworzono sesję:",
         "Notifications.UserJoined": "Użytkownik dołączył do sesji",
         "Notifications.UserLeft": "Użytkownik opuścił sesję",
+        "Notifications.PermissionChanged": "Rola zmieniona na {new}",
+        "Notifications.PermissionChangedDetail": "W {world}. Poprzednia: {old}",
 
         "Undo.SetField": "Ustawienie pola {field_name} na {value}",
         "Undo.SetReference": "Ustawienie odniesienia {ref_name} na {ref_target}",
@@ -1326,8 +1331,8 @@
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "To ustala twój domyślny tryb chwytania gdy pojawiasz się na nowym świecie.\n\n<color=hero.yellow>Palm:</color> Złapiesz wszystkie obiekty, które są w pobliżu twojej dłoni.\n\n<color=hero.yellow>Precision:</color> Złapiesz pojedynczy obiekt pomiędzy twoim palcem wskazującym i kciukiem.\n\n<color=hero.yellow>Auto:</color> Tryb łapania jest automatycznie zmienany pomiędzy Dłonią i Precyzyjnym, w zależności od położenia twojej ręki.\n\n<color=hero.yellow>Off:</color> Będziesz mógł łapać przedmioty tylko laserami.",
 
         "Settings.FullBodyTrackingSettings": "Full Body Tracking",
-        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "Kąt poziomy ciała",
-        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description" : "To wartość odchylenia kąta między stopami a głową, po przekroczeniu której postać będzie uznawana za pozę poziomą. Wpływa to na pewne rzeczy, takie jak zastępowanie pozycji trackera symulacją stóp.",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Kąt poziomy ciała",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "To wartość odchylenia kąta między stopami a głową, po przekroczeniu której postać będzie uznawana za pozę poziomą. Wpływa to na pewne rzeczy, takie jak zastępowanie pozycji trackera symulacją stóp.",
 
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Prędkość rozglądania się joystickiem",
@@ -1675,6 +1680,8 @@
         "Settings.NotificationSettings.PublicSessionStarted.Description": "Kontroluje czy otrzymujesz powiadomienia gdy zaczęte są publiczne sesje.\n\n<color=hero.yellow>None:</color> Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly:</color> Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly:</color> Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full:</color> Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
         "Settings.NotificationSettings.UserJoinAndLeave": "Dołączanie i opuszczanie użytkowników",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Kontroluje czy będziesz otrzymywać powiadomienia gdy użytkownicy dołączają lub opuszczają sesję, w której się znajdujesz.\n\n<color=hero.yellow>None:</color> Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly:</color> Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly:</color> Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full:</color> Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
+        "Settings.NotificationSettings.PermissionChanged": "Zmiana uprawnień",
+        "Settings.NotificationSettings.PermissionChanged.Description": "Określa, czy będziesz powiadamiany o zmianie uprawnień w świecie. Np. gdy zostaniesz zmieniony z Gościa na Buildera.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Widoczność tabliczki znamionowej",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Służy do kontrolowania, czyje tabliczki znamionowe będą widoczne.\n\n<color=hero.yellow>All:</color> Wszystkie tabliczki.\n\n<color=hero.yellow>NonContacts:</color> Wyświetlone są tabliczki tylko nieznajomych.\n\n<color=hero.yellow>None:</color> Nie wyświetlone są żadne tabliczki.",

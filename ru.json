@@ -210,7 +210,9 @@
         "World.Error.HostBlockedDetail": "Вы заблокировали хоста",
         "World.Error.WorldCrash": "Мир крашнулся",
         "World.Error.WorldCrashDetail": "Фатальная ошибка при обновлении мира",
+        "World.Error.Handshake" : "Ошибка рукопожатия",
         "World.Error.Unknown": "Неизвестная Ошибка",
+        "World.Error.FailedToCreateBanAccessKey" : "Ошибка создания ключа доступа для проверки бана",
 
         "World.Config.Name": "Название мира:",
         "World.Config.Description": "Описание:",
@@ -358,6 +360,7 @@
         "World.Edit.AccessPrivate": "Только я",
         "World.Edit.AccessPatreon": "Спонсоры с Patreon",
         "World.Edit.AccessPublic": "Все (публичный)",
+        "World.Edit.ReadOnly": "Защита от записи",
 
         "Tools.AvatarCreator": "Создатель Аватаров",
         "Tools.FullBodyCalibrator": "Калибратор Full Body и Аватара",
@@ -676,6 +679,8 @@
         "Notifications.SessionStarted": "Запустил(-ла) сессию:",
         "Notifications.UserJoined": "Пользователь подключился",
         "Notifications.UserLeft": "Пользователь отключился",
+        "Notifications.PermissionChanged": "Роль изменена на {new}",
+        "Notifications.PermissionChangedDetail": "В мире {world}. Предыдущая роль: {old}",
 
         "Undo.SetField": "Установка {field_name} в {value}",
         "Undo.SetReference": "Установка ссылки {ref_name} в {ref_target}",
@@ -1325,6 +1330,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType": "Тип хвата по умолчанию",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Задает ваш режим хвата по умолчанию когда вы заходите в новые миры.\n\n<color=hero.yellow>Palm:</color> Вы будете хватать все объекты, находящиеся рядом с вашей рукой.\n\n<color=hero.yellow>Precision:</color> Вы будете хватать один объект, находящийся между вашими указательным и большим пальцами.\n\n<color=hero.yellow>Auto:</color> Режим автоматически переключается между хватом ладонью и точным хватом в зависимости от ориентации вашей руки.\n\n<color=hero.yellow>Off:</color> Вы сможете хватать предметы только с помощью лазеров.",
 
+        "Settings.FullBodyTrackingSettings": "Трекинг тела",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "Угол горизонтального положения тела",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description" : "Это угол между положениями головы и ног, за пределами которого трекинг будет считать, что вы в горизонтальном положении. Это влияет на некоторые вещи, например отключает симуляцию шагов для ваших ног.",
+
         "Settings.GamepadSettings": "Геймпад",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Скорость поворота камеры",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Настраивает скорость, с которой камера поворачивается стиком.",
@@ -1382,10 +1391,10 @@
         "Settings.SteamIntegrationSettings": "Интеграция со Steam",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "Богатое присутствие Discord",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Задает, какую информацию Resonite передает в систему богатого присутствия Discord.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Discord.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в Resonite.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Discord. Включает название мира и количество пользователей в сессии.\n\nDiscord сам также определяет в какую игру вы играете. Это можно отключить в настройках Discord.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Задает, какую информацию {appName} передает в систему богатого присутствия Discord.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Discord.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в {appName}.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Discord. Включает название мира и количество пользователей в сессии.\n\nDiscord сам также определяет в какую игру вы играете. Это можно отключить в настройках Discord.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Богатое присутствие Steam",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "Задает, какую информацию Resonite передает в систему богатого присутствия Steam.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Steam.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в Resonite.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Steam. Включает название мира и количество пользователей в сессии.\n\nSteam сам также будет отображать что вы в Resonite, независимо от этой настройки. Изменение этой настройки только задает сколько дополнительных сведений о вашей активной сессии отправляются в Steam.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Задает, какую информацию {appName} передает в систему богатого присутствия Steam.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Steam.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в {appName}.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Steam. Включает название мира и количество пользователей в сессии.\n\nSteam сам также будет отображать что вы в {appName}, независимо от этой настройки. Изменение этой настройки только задает сколько дополнительных сведений о вашей активной сессии отправляются в Steam.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Сохранять скриншоты",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Если вы снимаете фото и эта настройка включена, копия фото будет сохранена в скриншоты Steam.",
@@ -1603,9 +1612,9 @@
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Разрешить WebSockets",
         "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Показывает, разрешены ли соединения Websocket с этим хостом. Они часто используются для двухстороннего обмена информацией в реальном времени и потоков данных.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Разрешить получение OSC",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Показывает, может ли Resonite получать и обрабатывать данные OSC от этого хоста",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Показывает, может ли {appName} получать и обрабатывать данные OSC от этого хоста",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Разрешить отправку OSC",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Показывает, может ли Resonite отправлять данные OSC на этот хост",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Показывает, может ли {appName} отправлять данные OSC на этот хост",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Последний повод запроса HTTP",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Последний повод запроса WebSockets",
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Последний повод запроса отправки OSC",
@@ -1627,6 +1636,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Когда включено, кнопка приложения на вашей не-основной руке откроет старый переключатель миров. Это решение в будущем будет заменено более гибким.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Использовать старый жест инвентаря или меню сессий",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Когда включено, если вы зажмете хват и нажмете кнопку приложения (которая обычно открывает/закрывает Дэшборд), откроется старая панель инвентаря или меню сессий.",
+
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Отключить симуляцию ног",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Это нужно чтобы некоторые системы, типа позеров, подменяющих позиции прокси ног, работали без модицикации. <br><br>Если вы включите эту настройку без использования позеров или похожих систем, анимации НЕ будут выглядеть правильно. Выключите настройку после того, как закончили использовать позеры. <br><br><color=hero.red>ВАЖНО:</color> Эта настройка, скорее всего, будет убрана в будущем. Мы рекомендуем обновить позеры для совместимости с новой системой анимации, чтобы они автоматически отключали анимацию в активном состоянии.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Название канала Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Устанавливает имя канала Twitch по умолчанию для панели чата Twitch в панели настроек камеры. В основном используется стримерами на Twitch, которые хотят видеть чат на их канале.",
@@ -1668,6 +1680,8 @@
         "Settings.NotificationSettings.PublicSessionStarted.Description": "Управляет тем, какие уведомления вы будете получать, когда кто-то не из ваших контактов запускает новую сессию.",
         "Settings.NotificationSettings.UserJoinAndLeave": "Подключающиеся и отключающиеся пользователи",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Когда включено, вы будете получать уведомления когда пользователи заходят или покидают мир, в котором вы сейчас находитесь.",
+        "Settings.NotificationSettings.PermissionChanged": "Изменена роль доступа",
+        "Settings.NotificationSettings.PermissionChanged.Description": "Когда включено, вы получите уведомление когда ваша роль доступа в мире изменится. Например, когда вам поменяли роль с Guest на Builder.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Видимость табличек имён",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Определяет, чьи таблички имен видны вам.",
@@ -1735,10 +1749,10 @@
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Используйте чтобы задать угол зрения камеры (FOV) в экранном режиме. Большие значения дают лучший обзор, но приводят к искажениям по краям.",
 
         "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Сужать угол зрения при беге",
-        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Когда эта настройка включена, Resonite будет сужать ваш угол зрения когда вы перемещаетесь бегом в <b>экранном</b> режиме.\nОтключите настройку чтобы убрать этот эффект.\n<b>НЕ</b> влияет на эффекты из пользовательского контента.",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Когда эта настройка включена, ваш угол зрения будет сужаться когда вы перемещаетесь бегом в <b>экранном</b> режиме.\nОтключите настройку чтобы убрать этот эффект.\n<b>НЕ</b> влияет на эффекты из пользовательского контента.",
 
         "Settings.DesktopRenderSettings.VSync": "VSync",
-        "Settings.DesktopRenderSettings.VSync.Description": "Когда включено, частота кадров будет синхронизирована с частотой обновления вашего монитора. Отключение может позволить рендерить кадры быстрее, но также приведет к разрывам картинки.\n\nМожет быть полезно для тестирования производительности, так как снимет ограничение со скорости обновлений и рендеринга.",
+        "Settings.DesktopRenderSettings.VSync.Description": "Когда включено, частота кадров будет синхронизирована с частотой обновления вашего монитора. Отключение может позволить рендерить кадры быстрее, но также приведет к разрывам картинки.\n\nМожет быть полезно для тестирования производительности, так как снимет ограничение со скорости обновлений и рендеринга.\n\n<color=hero.red>ВАЖНО:</color> Эту настройку нельзя включить в VR, так как VR задает частоту кадров.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Ограничить частоту кадров в фоне",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "Когда включено, частота кадров будет ограничена до заданного значения когда окно приложения не в фокусе. Это полезно если вы одновременно используете другие программы и игры, так как освободит больше ресурсов для них.",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "Максимальная частота кадров в фоне",
@@ -2267,7 +2281,7 @@
         "VolumePlaneSlicer.Slicer": "Срез",
 
         "Tutorial.Welcome.Welcome": "Добро пожаловать!",
-        "Tutorial.Welcome.Description": "Окунитесь в новую цифровую вселенную, наполненную бесконечными возможностями. Неважно, пришли вы сюда чтобы общаться с людьми со всего света или чтобы строить, создавать и разрабатывать что-либо, будь то прекрасное искусство, интерактивные аватары и гаджеты, сложные интерактивные миры и игры, Resonite это бесконечное, настраиваемое место, где вам всегда рады, и где вы всегда найдете группу, с которой вы сможете <i>резонировать</i>.<br><br>Перед тем как вы начнете своё приключение, мы проведем вас через настройку основных элементов, чтобы обеспечить вас приятным опытом. Когда будете готовы, нажмите на кнопку ниже.",
+        "Tutorial.Welcome.Description": "Окунитесь в новую цифровую вселенную, наполненную бесконечными возможностями. Неважно, пришли вы сюда чтобы общаться с людьми со всего света или чтобы строить, создавать и разрабатывать что-либо, будь то прекрасное искусство, интерактивные аватары и гаджеты, сложные интерактивные миры и игры, {appName} это бесконечное, настраиваемое место, где вам всегда рады, и где вы всегда найдете группу, с которой вы сможете <i>резонировать</i>.<br><br>Перед тем как вы начнете своё приключение, мы проведем вас через настройку основных элементов, чтобы обеспечить вас приятным опытом. Когда будете готовы, нажмите на кнопку ниже.",
         "Tutorial.Welcome.Begin": "Поехали!",
 
         "Tutorial.Welcome.AccountHeader": "Аккаунт {appName}",
