@@ -212,6 +212,7 @@
         "World.Error.WorldCrashDetail": "Erreur fatale en tentant de mettre a jour le monde",
         "World.Error.Handshake": "Erreur de handshake",
         "World.Error.Unknown": "Erreur inconnue",
+        "World.Error.FailedToCreateBanAccessKey": "Erreur lors de la création de la clé d'accès",
 
         "World.Config.Name": "Nom du monde:",
         "World.Config.Description": "Description:",
@@ -359,6 +360,7 @@
         "World.Edit.AccessPrivate": "Seulement Moi",
         "World.Edit.AccessPatreon": "Patron sur Patreon",
         "World.Edit.AccessPublic": "N'importe qui (public)",
+        "World.Edit.ReadOnly": "Lecture seule",
 
         "Tools.AvatarCreator": "Créateur d'avatar",
         "Tools.FullBodyCalibrator": "Calibreur de corps / avatar",
@@ -677,6 +679,8 @@
         "Notifications.SessionStarted": "Session démarrée:",
         "Notifications.UserJoined": "Un utilisateur a rejoint la session",
         "Notifications.UserLeft": "Un utilisateur a quitté la session",
+        "Notifications.PermissionChanged": "Rôle changé {new}",
+        "Notifications.PermissionChangedDetail": "Dans {world}. Rôle précédent: {old}",
 
         "Undo.SetField": "Remettre {field_name} à {value}",
         "Undo.SetReference": "Définir {ref_name} en référence à {ref_target}",
@@ -1676,6 +1680,8 @@
         "Settings.NotificationSettings.PublicSessionStarted.Description": "Contrôle les notifications que vous recevrez quand une nouvelle session publique est ouverte par quelqu'un qui n'est pas dans votre liste d'amis.",
         "Settings.NotificationSettings.UserJoinAndLeave": "Utilisateurs rejoignant et partant",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Quand activé, vous aurez une notification à chaque fois qu'un utilisateur rejoint ou quitte la session dans laquelle vous vous trouvez.",
+        "Settings.NotificationSettings.PermissionChanged": "Rôle de permissions changé",
+        "Settings.NotificationSettings.PermissionChanged.Description": "Quand activé, vous serez notifié quand votre rôle dans la session change. Par exemple: quand vous êtes promus d'Invité a Builder.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Visibilité des noms",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Cette option permet de régler quels noms sont visibles pour vous.",

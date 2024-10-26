@@ -28,6 +28,7 @@ World.Connection.LNL.Relay
 World.Connection.TCP  
 World.Error.SecurityViolation  
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
 World.Actions.CopyRecordURL  
 World.Indicator.Sessions  
 World.Detail.Users.Count  
@@ -39,6 +40,7 @@ World.Filter.SubmittedToGroup
 World.Filter.OnlyHeadless  
 World.Filter.IncompatibleSessions  
 World.Filter.MaxAccessLevel  
+World.Edit.ReadOnly  
 Options.FreeformDash.On  
 Options.FreeformDash.Off  
 Indicator.OnlineUsers  
@@ -74,6 +76,8 @@ Permissions.NotAllowedToSwapAvatar
 Contacts.NoSession  
 Contacts.Migrated  
 Contacts.IncompatibleSession  
+Notifications.PermissionChanged  
+Notifications.PermissionChangedDetail  
 Undo.SpawnComponent  
 Undo.DestroyComponent  
 Undo.Transform  
@@ -781,6 +785,8 @@ Settings.NotificationSettings.PublicSessionStarted
 Settings.NotificationSettings.PublicSessionStarted.Description  
 Settings.NotificationSettings.UserJoinAndLeave  
 Settings.NotificationSettings.UserJoinAndLeave.Description  
+Settings.NotificationSettings.PermissionChanged  
+Settings.NotificationSettings.PermissionChanged.Description  
 Settings.NamePlateSettings.NameplateVisibility  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  

@@ -56,12 +56,14 @@ World.Error.HostBlockedDetail
 World.Error.WorldCrash  
 World.Error.WorldCrashDetail  
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
 World.Category.ContactsSessions  
 World.Category.GroupWorlds  
 World.AccessLevel.Contacts  
 World.AccessLevel.ContactsPlus  
 World.Filter.MinimumContacts  
 World.Filter.IncompatibleSessions  
+World.Edit.ReadOnly  
 Tools.AvatarCreator  
 Tools.Debug  
 Tools.StreamAudio.Dialog.Title  
@@ -192,6 +194,8 @@ Notifications.IsSociable
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
+Notifications.PermissionChanged  
+Notifications.PermissionChangedDetail  
 Tooltips.Brush.ChangeColor  
 Tooltips.Brush.IncrementSize  
 Tooltips.Brush.DecrementSize  
@@ -705,6 +709,8 @@ Settings.NotificationSettings.PublicSessionStarted
 Settings.NotificationSettings.PublicSessionStarted.Description  
 Settings.NotificationSettings.UserJoinAndLeave  
 Settings.NotificationSettings.UserJoinAndLeave.Description  
+Settings.NotificationSettings.PermissionChanged  
+Settings.NotificationSettings.PermissionChanged.Description  
 Settings.NamePlateSettings.NameplateVisibility  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  

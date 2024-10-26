@@ -212,6 +212,7 @@
         "World.Error.WorldCrashDetail" : "在尝试更新该世界时遭遇了致命错误",
         "World.Error.Handshake" : "握手错误",
         "World.Error.Unknown": "未知错误",
+        "World.Error.FailedToCreateBanAccessKey" : "创建封禁秘钥失败",
 
         "World.Config.Name": "世界名:",
         "World.Config.Description": "描述:",
@@ -359,6 +360,7 @@
         "World.Edit.AccessPrivate": "只有我",
         "World.Edit.AccessPatreon": "Patreon的支持者",
         "World.Edit.AccessPublic": "任何人（公开）",
+        "World.Edit.ReadOnly": "只读",
 
         "Tools.AvatarCreator": "虚拟形象创建工具",
         "Tools.FullBodyCalibrator": "全身/虚拟形象校准器",
@@ -677,6 +679,8 @@
         "Notifications.SessionStarted": "开始的会话：",
         "Notifications.UserJoined": "用户加入了",
         "Notifications.UserLeft": "用户已离开",
+        "Notifications.PermissionChanged": "权限组已经改为 {new}",
+        "Notifications.PermissionChangedDetail": "在 {world}. 上一个权限组： {old}",
 
         "Undo.SetField": "将字段 {field_name} 设置为 {value}",
         "Undo.SetReference": "将引用 {ref_name} 设置为 {ref_target}",
@@ -1676,6 +1680,8 @@
         "Settings.NotificationSettings.PublicSessionStarted.Description" : "这将控制新的公开会话由非联系人发起时，你是否能收到通知。",
         "Settings.NotificationSettings.UserJoinAndLeave" : "用户加入 & 离开",
         "Settings.NotificationSettings.UserJoinAndLeave.Description" : "启用后，当用户加入或离开你当前所在的世界时，你将收到通知。",
+        "Settings.NotificationSettings.PermissionChanged": "权限组改变",
+        "Settings.NotificationSettings.PermissionChanged.Description": "启用后，当你的权限组在某个世界中发生更改时，你将收到通知。 例如，当你从游客更改为建筑者时。",
 
         "Settings.NamePlateSettings.NameplateVisibility": "铭牌可见度",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "该选项可以控制你可以看到谁的铭牌。",

@@ -9,7 +9,9 @@ Inventory.Favorite.Document
 World.Connection.LNL.LNLPoke  
 World.Connection.TCP  
 World.Error.Handshake  
+World.Error.FailedToCreateBanAccessKey  
 World.Filter.IncompatibleSessions  
+World.Edit.ReadOnly  
 Login.MissingSecretMachineId  
 Login.MissingSecretMachineId.Description  
 Login.MalformedSecretMachineId  
@@ -23,6 +25,8 @@ Notifications.IsSociable
 Notifications.SessionStarted  
 Notifications.UserJoined  
 Notifications.UserLeft  
+Notifications.PermissionChanged  
+Notifications.PermissionChangedDetail  
 AvatarCreator.ProtectionUnavailable  
 Importer.Image.Sprite  
 Importer.Image.Failure.Heading  
@@ -433,6 +437,8 @@ Settings.NotificationSettings.PublicSessionStarted
 Settings.NotificationSettings.PublicSessionStarted.Description  
 Settings.NotificationSettings.UserJoinAndLeave  
 Settings.NotificationSettings.UserJoinAndLeave.Description  
+Settings.NotificationSettings.PermissionChanged  
+Settings.NotificationSettings.PermissionChanged.Description  
 Settings.NamePlateSettings.NameplateVisibility  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates  

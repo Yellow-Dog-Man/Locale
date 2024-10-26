@@ -212,6 +212,7 @@
         "World.Error.WorldCrashDetail": "Fatal error when updating the world",
         "World.Error.Handshake" : "Handshake Error",
         "World.Error.Unknown": "Unknown Error",
+        "World.Error.FailedToCreateBanAccessKey" : "Failed to create ban access key",
 
         "World.Config.Name": "World Name:",
         "World.Config.Description": "Description:",
@@ -359,6 +360,7 @@
         "World.Edit.AccessPrivate": "Only Me",
         "World.Edit.AccessPatreon": "Patreon Supporters",
         "World.Edit.AccessPublic": "Anyone (public)",
+        "World.Edit.ReadOnly": "ReadOnly",
 
         "Tools.AvatarCreator": "Avatar Creator",
         "Tools.FullBodyCalibrator": "Full Body / Avatar Calibrator",
@@ -677,6 +679,8 @@
         "Notifications.SessionStarted": "Started session:",
         "Notifications.UserJoined": "User joined",
         "Notifications.UserLeft": "User left",
+        "Notifications.PermissionChanged": "Role changed to {new}",
+        "Notifications.PermissionChangedDetail": "In {world}. Previous role: {old}",
 
         "Undo.SetField": "Set field {field_name} to {value}",
         "Undo.SetReference": "Set reference {ref_name} to {ref_target}",
@@ -1676,6 +1680,8 @@
         "Settings.NotificationSettings.PublicSessionStarted.Description": "This controls what notifications you get when a new public session is started by a person that's not your contact.",
         "Settings.NotificationSettings.UserJoinAndLeave": "Users joining & leaving",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "When enabled, you will receive notifications when users join and leave the world you're currently in.",
+        "Settings.NotificationSettings.PermissionChanged": "Permission Role Changed",
+        "Settings.NotificationSettings.PermissionChanged.Description": "When enabled, you will be notified when your permission role is changed in a world. E.g. when you are changed from Guest to Builder.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Nameplate visibility",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Use this to control whose nameplates will be visible to you.",

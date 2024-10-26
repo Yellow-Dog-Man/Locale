@@ -210,7 +210,9 @@
         "World.Error.HostBlockedDetail": "Вы заблокировали хоста",
         "World.Error.WorldCrash": "Мир крашнулся",
         "World.Error.WorldCrashDetail": "Фатальная ошибка при обновлении мира",
+        "World.Error.Handshake" : "Ошибка рукопожатия",
         "World.Error.Unknown": "Неизвестная Ошибка",
+        "World.Error.FailedToCreateBanAccessKey" : "Ошибка создания ключа доступа для проверки бана",
 
         "World.Config.Name": "Название мира:",
         "World.Config.Description": "Описание:",
@@ -358,6 +360,7 @@
         "World.Edit.AccessPrivate": "Только я",
         "World.Edit.AccessPatreon": "Спонсоры с Patreon",
         "World.Edit.AccessPublic": "Все (публичный)",
+        "World.Edit.ReadOnly": "Защита от записи",
 
         "Tools.AvatarCreator": "Создатель Аватаров",
         "Tools.FullBodyCalibrator": "Калибратор Full Body и Аватара",
@@ -676,6 +679,8 @@
         "Notifications.SessionStarted": "Запустил(-ла) сессию:",
         "Notifications.UserJoined": "Пользователь подключился",
         "Notifications.UserLeft": "Пользователь отключился",
+        "Notifications.PermissionChanged": "Роль изменена на {new}",
+        "Notifications.PermissionChangedDetail": "В мире {world}. Предыдущая роль: {old}",
 
         "Undo.SetField": "Установка {field_name} в {value}",
         "Undo.SetReference": "Установка ссылки {ref_name} в {ref_target}",
@@ -1675,6 +1680,8 @@
         "Settings.NotificationSettings.PublicSessionStarted.Description": "Управляет тем, какие уведомления вы будете получать, когда кто-то не из ваших контактов запускает новую сессию.",
         "Settings.NotificationSettings.UserJoinAndLeave": "Подключающиеся и отключающиеся пользователи",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Когда включено, вы будете получать уведомления когда пользователи заходят или покидают мир, в котором вы сейчас находитесь.",
+        "Settings.NotificationSettings.PermissionChanged": "Изменена роль доступа",
+        "Settings.NotificationSettings.PermissionChanged.Description": "Когда включено, вы получите уведомление когда ваша роль доступа в мире изменится. Например, когда вам поменяли роль с Guest на Builder.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Видимость табличек имён",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Определяет, чьи таблички имен видны вам.",
