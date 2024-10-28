@@ -17,4 +17,5 @@ Settings.NotificationSettings.PermissionChanged.Description
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
 Inspector.Member.Normalize  
+Inspector.Texture3D.SpawnVisualizer  
 
