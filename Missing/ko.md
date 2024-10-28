@@ -6,4 +6,5 @@ Notifications.PermissionChanged
 Notifications.PermissionChangedDetail  
 Settings.NotificationSettings.PermissionChanged  
 Settings.NotificationSettings.PermissionChanged.Description  
+Inspector.Texture3D.SpawnVisualizer  
 

@@ -197,6 +197,7 @@ Inspector.Mesh.ReverseWinding
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  
 Inspector.Mesh.UV_Multiplicator  
+Inspector.Texture3D.SpawnVisualizer  
 Inspector.VHACD.Parameter.PlaneDownsampling  
 Inspector.VHACD.Parameter.ConvexHullDownsampling  
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  

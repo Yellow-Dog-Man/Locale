@@ -925,6 +925,7 @@ Inspector.ProceduralAsset.Error
 Inspector.Mesh.SetupRenderer  
 Inspector.Mesh.UV_Multiplicator  
 Inspector.MeshCollider.VHACD  
+Inspector.Texture3D.SpawnVisualizer  
 Inspector.VHACD.Parameter.ConvexHullDownsampling  
 Inspector.VHACD.Parameter.Alpha  
 Inspector.VHACD.Parameter.Beta  

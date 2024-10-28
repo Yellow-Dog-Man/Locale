@@ -73,4 +73,5 @@ Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description  
 Inspector.Member.Normalize  
+Inspector.Texture3D.SpawnVisualizer  
 
