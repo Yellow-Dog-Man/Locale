@@ -700,6 +700,7 @@ Inspector.Member.SplitBlendshape.Y
 Inspector.Member.SplitBlendshape.Z  
 Inspector.ProceduralAsset.UpdateCount  
 Inspector.ProceduralAsset.Error  
+Inspector.Texture3D.SpawnVisualizer  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.Texture3D.Size  

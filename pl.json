@@ -31,7 +31,7 @@
         "General.Yes": "Tak",
         "General.No": "Nie",
         "General.ClearSelection": "Odznacz",
-        "General.Off": "Wyłacz",
+        "General.Off": "Wyłącz",
         "General.On": "Włącz",
         "General.Understand": "Rozumiem",
         "General.Notice": "Notice",
@@ -194,9 +194,9 @@
         "World.Error.OnlyRegisteredUsers": "Tylko zarejestrowani użytkownicy mogą dołączyć",
         "World.Error.OnlyContacts": "Tylko kontakty hosta mogą dołączyć",
         "World.Error.OnlyContactsOfContacts": "Tylko kontakty użytkowników w sesji mogą dołączyć",
-        "World.Error.Private": "Ta sesja jest prywatna",
+        "World.Error.Private": "Sesja jest prywatna",
         "World.Error.SessionEnded": "Sesja się zakończyła",
-        "World.Error.UserLimitReached": "Sesja osiągneła limit użytkowników",
+        "World.Error.UserLimitReached": "Sesja osiągnęła limit użytkowników",
         "World.Error.FailedAuthentication": "Uwierzytelnianie nie powiodło się",
         "World.Error.FailedUserID": "Uwierzytelnianie UserID nie powiodło się",
         "World.Error.FailedFetchingAuthentication": "Pobieranie informacji uwierzytelniających nie powiodło się",
@@ -210,7 +210,9 @@
         "World.Error.HostBlockedDetail": "Zablokowałeś hosta",
         "World.Error.WorldCrash": "Crash świata",
         "World.Error.WorldCrashDetail": "Fatalny błąd podczas aktualizacji świata",
-        "World.Error.Unknown": "Nieznany Błąd",
+        "World.Error.Handshake": "Błąd podczas nawiązywania położenia",
+        "World.Error.Unknown": "Nieznany błąd",
+        "World.Error.FailedToCreateBanAccessKey": "Błąd z tworzeniem klucza do banów",
 
         "World.Config.Name": "Nazwa świata:",
         "World.Config.Description": "Opis:",
@@ -358,6 +360,7 @@
         "World.Edit.AccessPrivate": "Tylko Ja",
         "World.Edit.AccessPatreon": "Wspierający na Patreon",
         "World.Edit.AccessPublic": "Wszyscy (publiczny)",
+        "World.Edit.ReadOnly": "Tylko odczyt",
 
         "Tools.AvatarCreator": "Kreator Awatarów",
         "Tools.FullBodyCalibrator": "Kalibrator Awatarów / Full Body",
@@ -676,6 +679,8 @@
         "Notifications.SessionStarted": "Stworzono sesję:",
         "Notifications.UserJoined": "Użytkownik dołączył do sesji",
         "Notifications.UserLeft": "Użytkownik opuścił sesję",
+        "Notifications.PermissionChanged": "Rola zmieniona na {new}",
+        "Notifications.PermissionChangedDetail": "W {world}. Poprzednia: {old}",
 
         "Undo.SetField": "Ustawienie pola {field_name} na {value}",
         "Undo.SetReference": "Ustawienie odniesienia {ref_name} na {ref_target}",
@@ -935,6 +940,9 @@
         "Importer.Image.180": "Zdjęcie 180",
         "Importer.Image.Stereo180": "Zdjęcie Stereo 180",
         "Importer.Image.LUT": "LUT",
+
+        "Importer.Image.Failure.Heading": "Import obrazu nie powiódł się <color=hero.yellow>{image}</color>",
+        "Importer.Image.Failure.Description": "Import obrazu nie powiódł się przez:\n\n<color=hero.red>{error}</color>",
 
         "Importer.LUT.Failure.Heading": "Import LUT nie powiódł się <color=hero.yellow>{image}</color>",
         "Importer.LUT.Failure.Description": "Import LUT nie powiódł się przez:\n\n<color=hero.red>{error}</color>",
@@ -1322,6 +1330,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType": "Domyślny Tryb Chwytania",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "To ustala twój domyślny tryb chwytania gdy pojawiasz się na nowym świecie.\n\n<color=hero.yellow>Palm:</color> Złapiesz wszystkie obiekty, które są w pobliżu twojej dłoni.\n\n<color=hero.yellow>Precision:</color> Złapiesz pojedynczy obiekt pomiędzy twoim palcem wskazującym i kciukiem.\n\n<color=hero.yellow>Auto:</color> Tryb łapania jest automatycznie zmienany pomiędzy Dłonią i Precyzyjnym, w zależności od położenia twojej ręki.\n\n<color=hero.yellow>Off:</color> Będziesz mógł łapać przedmioty tylko laserami.",
 
+        "Settings.FullBodyTrackingSettings": "Full Body Tracking",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Kąt poziomy ciała",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "To wartość odchylenia kąta między stopami a głową, po przekroczeniu której postać będzie uznawana za pozę poziomą. Wpływa to na pewne rzeczy, takie jak zastępowanie pozycji trackera symulacją stóp.",
+
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Prędkość rozglądania się joystickiem",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Użyj tego aby dostosować prędkość z jaką kamera jest obracana za pomocą joysticka.",
@@ -1379,10 +1391,10 @@
         "Settings.SteamIntegrationSettings": "Integracje ze Steam",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "To kontroluje jakie informacje Resonite wysyła do systemów Rich Presence Discord.\n\n<color=hero.yellow>None</color> - Nie wysyłaj informacji Rich Presence do Discord\n<color=hero.yellow>Basic</color> - Wyślij tylko podstawowe dane, takie jak twoja obecność w Resonite.\n<color=hero.yellow>Full</color> - W sesjach publicznych, wyślij wszystkie stosowne informacje o sesji do Discord. W tym, nazwa świata i liczba użytkowników w sesji.\n\nDiscord również sam wykrywa w jaką grę grasz. To może być wyłączone w ustawieniach Discorda.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "To kontroluje jakie informacje {appName} wysyła do systemów Rich Presence Discord.\n\n<color=hero.yellow>None</color> - Nie wysyłaj informacji Rich Presence do Discord\n<color=hero.yellow>Basic</color> - Wyślij tylko podstawowe dane, takie jak twoja obecność w {appName}.\n<color=hero.yellow>Full</color> - W sesjach publicznych, wyślij wszystkie stosowne informacje o sesji do Discord. W tym, nazwa świata i liczba użytkowników w sesji.\n\nDiscord również sam wykrywa w jaką grę grasz. To może być wyłączone w ustawieniach Discorda.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "To kontroluje jakie informacje Resonite wysyła do systemów Rich Presence Steam.\n\n<color=hero.yellow>None</color> - Nie wysyłaj informacji Rich Presence do Steam\n<color=hero.yellow>Basic</color> - Wyślij tylko podstawowe dane, takie jak twoja obecność w Resonite.\n<color=hero.yellow>Full</color> - W sesjach publicznych, wyślij wszystkie stosowne informacje o sesji do Steam. W tym, nazwa świata i liczba użytkowników w sesji.\n\nSteam będzie pokazywał, że grasz w Resonite niezależnie od tego ustawienia. Zmiana tego ustawienia ustala tylko ile dodatkowych informacji jest wysyłanych do Steam o twojej aktywnej sesji.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Kontroluje jakie informacje {appName} wysyła do systemów Rich Presence Steam.\n\n<color=hero.yellow>None</color> - Nie wysyłaj informacji Rich Presence\n<color=hero.yellow>Basic</color> - Wyślij tylko podstawowe dane, takie jak twoja obecność w {appName}.\n<color=hero.yellow>Full</color> - W sesjach publicznych, wyślij wszystkie stosowne informacje o sesji do Steam. W tym, nazwa świata i liczba użytkowników w sesji.\n\nSteam będzie pokazywał, że grasz w {appName} niezależnie od tego ustawienia. Zmiana tego ustawienia ustala tylko ile dodatkowych informacji jest wysyłanych o twojej aktywnej sesji.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Zapisuj zrzuty ekranu",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Gdy zrobisz zdjęcie z tym ustawieniem włączonym, kopia zostanie zapisana do zrzutów ekranu Steam.",
@@ -1579,14 +1591,14 @@
         "Settings.EarmuffSettings.VolumeAttenuation": "Tłumienie głośności",
         "Settings.EarmuffSettings.VolumeAttenuation.Description": "Kontroluje, jak głośne będą głosy poza „stożkiem słuchania”. Ustawienie tej wartości na 0% spowoduje całkowite wyciszenie wszystkich użytkowników poza stożkiem słuchania.",
 
-        "Settings.RealtimeNetworkingSettings.DisableLAN": "Wyłacz LAN",
+        "Settings.RealtimeNetworkingSettings.DisableLAN": "Wyłącz LAN",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Powoduje to wyłączenie funkcji sieciowych specyficznych dla sieci lokalnych, takich jak rozgłaszanie sesji w sieci lokalnej lub nasłuchiwanie innych sesji rozgłaszanych w tej sieci.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Preferowane gniazda sieciowe Steam",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Po włączeniu tej opcji, jeśli to możliwe, będziesz łączyć się przez protokół Steam Networking Sockets. Może to pomóc w niektórych przypadkach, gdy protokół LNL powoduje znaczne kolejkowanie. Ponieważ jednak w tym protokole brakuje niektórych funkcji, możesz napotkać więcej niestabilności sieci, więc zalecamy włączenie tej opcji tylko wtedy, gdy napotkasz problemy.",
         "Settings.RealtimeNetworkingSettings.PreferTCP": "Preferuj protokół TCP",
         "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Po włączeniu tej opcji, połączenia przez TCP są preferowane w stosunku do wszystkich innych protokołów. Dotyczy to głównie połączeń w sieci LAN, ponieważ protokół TCP nie jest domyślnie używany do połączeń internetowych.\n\nTCP może mieć lepszą wydajność w sieciach LAN i działać w niektórych sieciach, w których protokoły oparte na UDP nie będą działać.\n\nMogą one jednak również cierpieć z powodu blokowania „head of line”, powodując znaczne opóźnienie głosów i póz.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "Rozmiar okna LNL",
-        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Kontroluje rozmiar okna protokołu LNL dla sieci czasu rzeczywistego. Zmiana tego ustawienia będzie miała natychmiastowy wpływ na wszystkie aktywne sesje.\n\nJeśli wystąpi kolejkowanie pakietów, można zwiększyć tę wartość, aby poprawić przepustowość połączenia. Wyższe wartości mogą jednak dodatkowo destabilizować połączenie, więc należy zachować ostrożność.\n\n<color=hero.yellow>Domyślna wartość:</color> 64\n\n<color=hero.red>WAŻNE:</color> To ustawienie służy do diagnostyki i tymczasowego obejścia; wartość ta zostanie automatycznie dostosowana w przyszłości.",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Kontroluje rozmiar okna protokołu LNL dla sieci czasu rzeczywistego. To ustawienie wpłynie na wszystkie aktywne sesje.\n\nJeśli wystąpi kolejkowanie pakietów, można zwiększyć tę wartość, aby poprawić przepustowość połączenia. Wyższe wartości mogą zdestabilizować połączenie, więc należy zachować ostrożność.\n\n<color=hero.yellow>Domyślna wartość:</color> 64\n\n<color=hero.red>WAŻNE:</color> To ustawienie służy do diagnostyki i tymczasowego obejścia; ta wartość będzie ustalona automatycznie w przyszłości.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Maksymalna liczba jednoczesnych transferów",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "Podczas hostowania sesji wskazuje, ile lokalnie zaimportowanych zasobów można przesłać w danym momencie. Zwiększenie tej wartości może przyspieszyć przesyłanie zasobów do użytkowników, ale może również pogorszyć jakość połączenia sieciowego. Zalecamy przetestowanie, jakie wartości może obsłużyć sieć.",
@@ -1600,9 +1612,9 @@
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Zezwalaj na websockets",
         "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Wskazuje, czy połączenia Websocket w czasie rzeczywistym są dozwolone dla tego hosta. Są one często używane do dwukierunkowej komunikacji i strumieni danych w czasie rzeczywistym.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Zezwalaj na odbiór OSC",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Wskazuje, czy Resonite może odbierać i przetwarzać dane OSC.",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Wskazuje, czy {appName} może odbierać i przetwarzać dane OSC.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Zezwalaj na wysyłanie OSC",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Kontroluje to, czy Resonite może wysyłać dane za pośrednictwem protokołu OSC do danego hosta.",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Kontroluje to, czy {appName} może wysyłać dane za pośrednictwem protokołu OSC do danego hosta.",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Powód ostatniego żądania hiperłącza",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Powód ostatniego żądania websocket",
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Powód ostatniego żądania wysłania OSC",
@@ -1624,6 +1636,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Po włączeniu tej funkcji, przycisk aplikacji na niedominującej ręce otworzy starszy przełącznik światów, aby przełączać się między aktywnymi światami. Funkcja ta zostanie w przyszłości zastąpiona bardziej elastycznym rozwiązaniem.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Użyj skrótu gestu ekwipunku i sesji",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Po włączeniu, gdy przytrzymasz uchwyt i naciśniesz przycisk aplikacji (który normalnie otwiera/zamyka tablicę), otworzy się starsze menu ekwipunku lub sesji.",
+
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Wyłączenie symulacji stóp",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Pozwala to na działanie niektórych funkcji, takich jak pozery, które przechwytują proxy stóp, bez konieczności ich modyfikowania.<br><br>Jeśli włączysz tę funkcję bez korzystania z pozycjonerów lub podobnych funkcji, animacje NIE będą wyglądać poprawnie. Wyłącz to po zakończeniu korzystania z pozerów.<br><br><color=hero.red>WAŻNE:</color> Prawdopodobnie zostanie to usunięte w przyszłości, zalecamy uaktualnienie pozerów, aby były kompatybilne z nowym systemem i automatycznie wyłączały symulację, gdy są aktywne.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Nazwa kanału Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Ustawia domyślną nazwę kanału Twitch dla panelu czatu Twitch w panelu sterowania kamerą. Jest to najczęściej używane przez streamerów Twitcha, którzy chcą domyślnie widzieć swój czat Twitcha.",
@@ -1665,6 +1680,8 @@
         "Settings.NotificationSettings.PublicSessionStarted.Description": "Kontroluje czy otrzymujesz powiadomienia gdy zaczęte są publiczne sesje.\n\n<color=hero.yellow>None:</color> Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly:</color> Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly:</color> Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full:</color> Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
         "Settings.NotificationSettings.UserJoinAndLeave": "Dołączanie i opuszczanie użytkowników",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Kontroluje czy będziesz otrzymywać powiadomienia gdy użytkownicy dołączają lub opuszczają sesję, w której się znajdujesz.\n\n<color=hero.yellow>None:</color> Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly:</color> Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly:</color> Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full:</color> Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
+        "Settings.NotificationSettings.PermissionChanged": "Zmiana uprawnień",
+        "Settings.NotificationSettings.PermissionChanged.Description": "Określa, czy będziesz powiadamiany o zmianie uprawnień w świecie. Np. gdy zostaniesz zmieniony z Gościa na Buildera.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Widoczność tabliczki znamionowej",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Służy do kontrolowania, czyje tabliczki znamionowe będą widoczne.\n\n<color=hero.yellow>All:</color> Wszystkie tabliczki.\n\n<color=hero.yellow>NonContacts:</color> Wyświetlone są tabliczki tylko nieznajomych.\n\n<color=hero.yellow>None:</color> Nie wyświetlone są żadne tabliczki.",
@@ -1730,12 +1747,78 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "Pole widzenia",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Służy do kontrolowania pola widzenia (FOV) w trybie stacjonarnym. Większe wartości zapewniają szerszy widok kosztem większych zniekształceń na bokach.",
+
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Powiększenie FOV podczas sprintu",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Gdy ta opcja jest włączona, pole widzenia zostanie zwiększone podczas sprintu <b>w trybie stacjonarnym.</b>\nTo ustawienie <b>nie ma wpływu</b> na efekty elementów stworzonych przez użytkowników.",
+
         "Settings.DesktopRenderSettings.VSync": "VSync",
         "Settings.DesktopRenderSettings.VSync.Description": "Gdy ta opcja jest włączona, liczba klatek na sekundę będzie synchronizowana z częstotliwością odświeżania ekranu. Wyłączenie tej opcji może przyspieszyć renderowanie klatek, ale także spowodować widoczne rozrywanie obrazu.\n\nMoże to być przydatne podczas testowania wydajności, ponieważ wyłączy ograniczenie prędkości aktualizacji i renderowania.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Ograniczenie liczby klatek na sekundę w tle",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "Po włączeniu tej funkcji liczba klatek na sekundę zostanie ograniczona do ustalonej wartości, gdy okno aplikacji jest nieaktywne. Jest to przydatne, jeśli używasz innych programów i gier w tym samym czasie, ponieważ zwolni to dla nich więcej zasobów.",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "Maksymalna liczba klatek na sekundę w tle",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description": "Określa maksymalną dozwoloną liczbę klatek na sekundę w tle. Niższe wartości pozwolą zaoszczędzić więcej zasobów systemowych.",
+
+        "Settings.InteractiveCameraFramingSettings.PositioningMode": "Tryb pozycjonowania",
+        "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "Kontroluje sposób, w jaki interaktywna kamera jest pozycjonowana w świecie.",
+        "Settings.InteractiveCameraFramingSettings.FieldOfView": "Pole widzenia",
+        "Settings.InteractiveCameraFramingSettings.FieldOfView.Description": "Pole widzenia interaktywnej kamery. Wyższe wartości pozwolą uchwycić więcej sceny kosztem zniekształceń na krawędziach.",
+        "Settings.InteractiveCameraFramingSettings.AnglePosition": "Kąt",
+        "Settings.InteractiveCameraFramingSettings.AnglePosition.Description": "W trybie trzeciej osoby lub grupy, kontroluje pozycję na okręgu gracza/grupy.",
+        "Settings.InteractiveCameraFramingSettings.Distance": "Dystans",
+        "Settings.InteractiveCameraFramingSettings.Distance.Description": "W trybie trzeciej osoby lub grupy, kontroluje jak daleko kamera jest od gracza/grupy.",
+        "Settings.InteractiveCameraFramingSettings.HeightOffset": "Wysokość",
+        "Settings.InteractiveCameraFramingSettings.HeightOffset.Description": "W trybie trzeciej osoby lub grupy, kontroluje wysokość kamery względem gracza/grupy.",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonPitch": "Kąt pitch w trybie pierwszoosobowym",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonPitch.Description": "W trybie pierwszoosobowym służy do pochylenia kamery w górę i w dół.",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll": "Kąt roll w trybie pierwszoosobowym",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll.Description": "W trybie pierwszoosobowym służy do obrotu kamery w lewo i prawo.",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset": "Offset w trybie pierwszoosobowym",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset.Description": "Służy do przesunięcia kamery w widoku pierwszoosobowym względem oczu użytkownika. Można tego użyć, jeśli geometria twarzy awatara przycina się do widoku kamery.",
+        "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "Pozycja kadru",
+        "Settings.InteractiveCameraFramingSettings.FramingViewportPosition.Description": "Są to znormalizowane współrzędne w rzutni kamery. Kamera spróbuje wykadrować cel (np. głowę użytkownika w trybie trzeciej osoby) do tej pozycji w rzutni.",
+        "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "Celuj w przód głowy",
+        "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead.Description": "Zamiast kamery skierowanej bezpośrednio na głowę użytkownika, kamera spróbuje wycelować w punkt znajdujący się przed głową użytkownika. Może to być przydatne, gdy chcesz wykadrować to, na co patrzy użytkownik (np. elementy i interfejsy w świecie gry).",
+
+        "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion": "Unikanie okluzji",
+        "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion.Description": "Jeśli widok kamery zostanie zasłonięty przez obiekt, kamera automatycznie zbliży się, aby uniknąć zasłonięcia.",
+        "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace": "Pozostań w przestrzeni świata",
+        "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace.Description": "Kamera pozostanie w głównej przestrzeni świata, zamiast ustawiać się w tej samej przestrzeni co użytkownik. Może to zapewnić lepsze kadrowanie i pozycjonowanie podczas korzystania z kotwic użytkownika (np. w pojazdach).",
+        "Settings.InteractiveCameraPositioningSettings.MovementWobble": "Chybotliwa kamera",
+        "Settings.InteractiveCameraPositioningSettings.MovementWobble.Description": "Dodaje to losowy ruch do pozycji kamery, który zmienia się z czasem. Może to sprawić, że ujęcia będą wyglądać mniej statycznie, zwłaszcza jeśli nie poruszasz się zbyt często.",
+
+        "Settings.InteractiveCameraRenderSettings.HideAllBadges": "Ukryj odznaki",
+        "Settings.InteractiveCameraRenderSettings.HideAllBadges.Description": "Kamera nie będzie wyświetlać żadnych odznak, niezależnie od ustawień odznak.",
+        "Settings.InteractiveCameraRenderSettings.HideAllLasers": "Ukryj lasery",
+        "Settings.InteractiveCameraRenderSettings.HideAllLasers.Description": "Kamera nie renderuje żadnych laserów interakcyjnych.",
+        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera": "Oczy użytkownika zawsze skierowane na kamerę",
+        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera.Description": "Gdy awatar używa symulowanego ruchu oczu (użytkownik nie ma funkcji śledzenia oczu), spowoduje to, że awatar będzie preferował kontakt wzrokowy z kamerą.",
+
+        "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius": "Promień detekcji grupy",
+        "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius.Description": "Użytkownicy znajdujący się w tej odległości zostaną dodani do grupy, którą kamera automatycznie kadruje w trybie grupowym.",
+        "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary": "Granica wyjścia z grupy",
+        "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary.Description": "Jak daleko użytkownik musi oddalić się od promienia grupy, aby został z niej wykluczony.",
+
+        "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed": "Prędkość wygładzania pozycji",
+        "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed.Description": "Kontroluje szybkość, z jaką kamera porusza się do pozycji docelowej w świecie. Większe wartości sprawią, że kamera będzie poruszać się szybciej, ale także spowodują bardziej gwałtowne ruchy.",
+        "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "Prędkość wygładzania kąta",
+        "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed.Description": "Kontroluje szybkość reakcji kamery na zmianę kąta wokół kadrowanego obiektu.",
+        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed": "Wygładzanie prędkości kadrowania",
+        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed.Description": "Kontroluje szybkość, z jaką kamera dostosowuje kadrowanie obiektu docelowego. Większe wartości sprawią, że kamera będzie szybciej śledzić obiekt, ale spowodują też bardziej gwałtowne ruchy.",
+
+        "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors": "Interpolacja między kotwicami",
+        "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors.Description": "Gdy opcja ta jest włączona, kamera będzie płynnie interpolować pomiędzy kotwicami kamery w świecie.",
+        "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed": "Prędkość interpolacji",
+        "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed.Description": "Gdy interpolacja między kotwicami jest włączona, kontroluje to szybkość, z jaką kamera porusza się od jednej kotwicy do drugiej.",
+        "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation": "Użyj interpolacji liniowej",
+        "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "Włącz tę opcję, aby używać interpolacji liniowej podczas poruszania się między kotwicami zamiast płynnej. Interpolacja liniowa rozpoczyna się i kończy gwałtownie, ale ma stałą prędkość ruchu, niezależnie od odległości między kotwicami. Oznacza to, że jeśli kotwice znajdują się dalej od siebie, dotarcie do nich zajmie kamerze więcej czasu.",
+
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "Spawnowanie zdjęć zrobionych w świecie",
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "Czy podczas robienia zdjęć za pomocą interaktywnej kamery powinny być one spawnowane w świecie? Jeśli wyłączone, będą zapisywane tylko w dokumentach lub ekwipunku (jeśli skonfigurowano automatyczne zapisywanie).",
+
+        "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "Rozmycie w Ruchu",
+        "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "Kontroluje, czy kamera renderuje rozmycie ruchu.",
+        "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Odbicia w przestrzeni ekranu",
+        "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "Kontroluje, czy kamera renderuje efekty odbić w przestrzeni ekranu? Może to zapewnić lepsze odbicia dla błyszczących powierzchni, ale może prowadzić do artefaktów i zwiększonych wymagań systemowych.",
 
         "Settings.DescriptionField.NoTextTitle": "Więcej informacji",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Najedź kursorem na ustawienie, aby zobaczyć jego opis.</closeall>",
@@ -1861,6 +1944,7 @@
         "Inspector.Member.SetAllToY": "Ustaw wszystko na Y",
         "Inspector.Member.SetAllToZ": "Ustaw wszystko na Z",
         "Inspector.Member.SetAllToW": "Ustaw wszystko na W",
+        "Inspector.Member.Normalize": "Normalizuj",
         "Inspector.Member.BakeBlendshape": "Wypal Blendshape",
         "Inspector.Member.RemoveBlendshape": "Usuń Blendshape",
         "Inspector.Member.SplitBlendshape.X": "Podziel Blendshape w poprzek osi X",
@@ -1914,6 +1998,8 @@
 
         "Inspector.MeshCollider.VHACD": "Dekompozycja wypukłej powłoki (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Zastąp Koliderem Sześciennym",
+
+        "Inspector.Texture3D.SpawnVisualizer" : "Spawn Wizualizator",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Aktualizuj moduły lokomocji dla obecnych użytkowników",
 
@@ -2084,8 +2170,8 @@
 
         "Inspector.AvatarExpression.AutoAssign": "Automatycznie Przypisz Blendshapy (używając heurystki)",
 
-        "Inspector.CharacterController.Warning": "<color=red><size=150%>OSTRZEŻENIE!</size></color><br>Możliwe jest użycie tego komponentu jako prostego ciała sztywnego poprzez zaznaczenie opcji SimulateRotation. Zanim to zrobisz, pamiętaj, że nie jest on zoptymalizowany do tego celu, a odpowiednie wsparcie dla sztywnych ciał pojawi się w przyszłości.<br>Prawidłowe wsparcie sztywnego ciała zapewni:<br><b>- Wydajność procesora i sieci</b> - CharacterController będzie powodował większe użycie procesora i zwiększony ruch sieciowy.<br><b>- Ograniczenia</b> - będziesz mógł tworzyć połączenia, zawiasy, sprężyny i inne ograniczenia między sztywnymi ciałami<br><b>- Płynna symulacja i interakcje dla każdego</b> - CharacterController ulegnie glitchowi, jeśli inna osoba spróbuje interakcji.<br><b>- Nowe funkcje i narzędzia</b> - aby korzystanie z nich było znacznie łatwiejsze<br>-----------------------<br>Jeśli tylko rozumiesz te ograniczenia, baw się dobrze!",
-        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>Możliwe jest użycie tego komponentu do interakcji z referencjami przy użyciu ich ID. Proces ten jest powszechnie nazywany \"Ref Hacking\".<br><br><b>Zanim</b> to zrobisz, pamiętaj, że ta funkcja <b>nie</b> jest obsługiwana i może zostać przerwana w dowolnym momencie. Nie należy polegać na tej funkcji przy tworzeniu swoich dzieł.",
+        "Inspector.CharacterController.Warning": "<color=red><size=150%>UWAGA!</size></color><br>Możliwe jest użycie tego komponentu jako prostego ciała sztywnego poprzez zaznaczenie opcji SimulateRotation. Zanim to zrobisz, pamiętaj, że nie jest on zoptymalizowany do tego celu, a odpowiednie wsparcie dla sztywnych ciał pojawi się w przyszłości.<br>Prawidłowe wsparcie sztywnego ciała zapewni:<br><b>- Wydajność procesora i sieci</b> - CharacterController będzie powodował większe użycie procesora i zwiększony ruch sieciowy.<br><b>- Ograniczenia</b> - będziesz mógł tworzyć połączenia, zawiasy, sprężyny i inne ograniczenia między sztywnymi ciałami<br><b>- Płynna symulacja i interakcje dla każdego</b> - CharacterController ulegnie glitchowi, jeśli inna osoba spróbuje interakcji.<br><b>- Nowe funkcje i narzędzia</b> - aby korzystanie z nich było znacznie łatwiejsze<br>-----------------------<br>Jeśli tylko rozumiesz te ograniczenia, baw się dobrze!",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>UWAGA!</size></color><br>Możliwe jest użycie tego komponentu do interakcji z referencjami przy użyciu ich ID. Proces ten jest powszechnie nazywany \"Ref Hacking\".<br><br><b>Zanim</b> to zrobisz, pamiętaj, że ta funkcja <b>nie</b> jest obsługiwana i może zostać przerwana w dowolnym momencie. Nie należy polegać na tej funkcji przy tworzeniu swoich dzieł.",
 
         "Inspector.ParticleStyle.CommonTransitions": "Wspólne szablony przejść:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Zanikanie Alpha: Wprowadzenie i Wycofanie",
@@ -2148,7 +2234,7 @@
         "Wizard.LightSources.SetShadowType": "Ustaw Typ Cieni",
         "Wizard.LightSources.ChangeIntensity": "Zmień Siłę",
         "Wizard.LightSources.ChangeRange": "Zmień Zasięg",
-        "Wizard.LightSources.Enable": "Włacz",
+        "Wizard.LightSources.Enable": "Włącz",
         "Wizard.LightSources.Disable": "Wyłącz",
         "Wizard.LightSources.Destroy": "Zniszcz",
 
