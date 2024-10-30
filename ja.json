@@ -210,9 +210,9 @@
         "World.Error.HostBlockedDetail": "あなたはセッションのホストにブロックされています",
         "World.Error.WorldCrash": "ワールドがクラッシュしました",
         "World.Error.WorldCrashDetail": "ワールドに致命的なエラーが発生しました",
-        "World.Error.Handshake" : "ハンドシェイクエラーが発生しました",
+        "World.Error.Handshake": "ハンドシェイクエラーが発生しました",
         "World.Error.Unknown": "未知のエラー",
-        "World.Error.FailedToCreateBanAccessKey" : "BANアクセスキーの作成に失敗しました",
+        "World.Error.FailedToCreateBanAccessKey": "BANアクセスキーの作成に失敗しました",
 
         "World.Config.Name": "セッション名:",
         "World.Config.Description": "セッション説明:",
@@ -720,6 +720,9 @@
         "Tooltips.Brush.IncrementSize" : "太く",
         "Tooltips.Brush.DecrementSize" : "細く",
 
+        "Tooltip.GeometryLineBrush.Name": "ジオメトリラインブラシ",
+
+        "ToolTip.Dev.Name": "デブツール",
         "Tooltips.Dev.CreateNew": "新規作成…",
         "Tooltips.Dev.Selection": "選択:​{mode}",
         "Tooltips.Dev.DevMode.Off": "開発者モード​:オフ",
@@ -743,13 +746,16 @@
         "Tooltips.Dev.Interaction.Tip": "Tip",
         "Tooltips.Dev.Interaction.Projection": "Projection",
 
+        "Tooltip.Color.Name": "カラーツール",
         "Tooltip.Color.Picker": "カラーピッカー",
 
+        "Tooltip.GrabbableSetter.Name": "グラバブルセットツール",
         "Tooltip.GrabbableSetter.Scalable": "スケール可能にする",
         "Tooltip.GrabbableSetter.NonScalable": "スケール不可能にする",
         "Tooltip.GrabbableSetter.ApplyToRoot": "オブジェクトルート​に適用する",
         "Tooltip.GrabbableSetter.AppyToHit": "ヒットした階層​に適用する",
 
+        "Tooltip.CharacterCollider.Name": "キャラクターコライダーセットツール",
         "Tooltip.CharacterCollider.MarkGrippable": "グラブ可能にする",
         "Tooltip.CharacterCollider.DontMarkGrippable": "グラブ不可能にする",
         "Tooltip.CharacterCollider.EnsureWalkRun": "歩行を追加",
@@ -760,19 +766,25 @@
         "Tooltip.Light.Spot": "スポットライト",
         "Tooltip.Light.Sun": "ディレクショナルライト",
 
+        "Tooltip.Light.Name": "ライトツール",
         "Tooltip.Light.Shadows.None": "影なし",
         "Tooltip.Light.Shadows.Hard": "影: ハード",
         "Tooltip.Light.Shadows.Soft": "影: ソフト",
 
+        "Tooltip.MeshVisibility.Name": "メッシュ可視性ツール",
         "Tooltip.MeshVisibility.KeepShadow": "影を残す",
         "Tooltip.MeshVisibility.ShadowOff": "影を無効にする",
         "Tooltip.MeshVisibility.ShadowOn": "影を有効にする",
         "Tooltip.MeshVisibility.OnlyShadow": "影のみに設定",
         "Tooltip.MeshVisibility.DoubleSidedShadow": "影を両面に設定",
 
+        "Tooltip.Mesh.Name": "メッシュツール",
+        
+        "Tooltip.Slicer.Name": "オブジェクトスライサーツール",
         "Tooltip.Slicer.Add": "スライサーを追加",
         "Tooltip.Slicer.Clear": "設定をクリア",
 
+        "Tooltip.Material.Name": "マテリアルツール",
         "Tooltip.Material.RayMode": "レイモード",
         "Tooltip.Material.AreaMode": "エリアモード",
         "Tooltip.Material.ObjectMode": "オブジェクトグローバルモード",
@@ -787,6 +799,7 @@
 
         "Tooltip.Cartridge.Eject": "オーブを取り出す",
 
+        "Tooltip.Microphone.Name": "マイク",
         "Tooltip.Microphone.Format.WAV": "WAVファイル",
         "Tooltip.Microphone.Format.Vorbis": "OGGファイル",
         "Tooltip.Microphone.Format.FLAC": "FLACファイル",
@@ -795,6 +808,7 @@
         "Tooltip.Microphone.SourceRaw": "フィルタリング・正規化を行わない",
         "Tooltip.Microphone.SourceFiltered": "フィルタリング・正規化を行う",
 
+        "Tooltip.ProtoFlux.Name": "Proto-Fluxツール",
         "Tooltip.ProtoFlux.Drive" : "Drive",
         "Tooltip.ProtoFlux.Source" : "Source",
         "Tooltip.ProtoFlux.Reference" : "Reference",
@@ -817,18 +831,30 @@
         "Tooltip.Meter.Points.Two" : "2点間",
         "Tooltip.Meter.Points.Multiple" : "複数点",
 
+        "Tooltip.Meter.Name": "メーターツール",
         "Tooltip.Meter.ObjectSpace" : "オブジェクト空間で計測",
         "Tooltip.Meter.WorldSpace" : "ワールド空間で計測",
 
+        "Tooltip.Glue.Name": "グルーツール",
         "Tooltip.Glue.Mode.BakeMeshes" : "メッシュをベイク",
         "Tooltip.Glue.Mode.BakeSkinnedMeshes" : "スキンドメッシュをベイク",
         "Tooltip.Glue.Mode.ParentObjects" : "親子付け",
 
+        "Tooltip.RigTransfer.Name": "リグメッシュ転送ツール",
         "Tooltip.RigTransfer.ClearSource" : "送信元をクリア",
 
+        "Tooltip.ComponentClone.Name": "コンポーネントクローンツール",
         "Tooltip.ComponentClone.SingleInstanceOn" : "シングルインスタンス: オン",
         "Tooltip.ComponentClone.SingleInstanceOff" : "シングルインスタンス: オフ",
         "Tooltip.ComponentClone.ClearTemplate" : "テンプレートをクリア",
+
+        "Tooltip.Shape.Name": "シェイプツール",
+
+        "Tooltip.CameraObjectHider.Name": "カメラオブジェクト非表示ツール",
+
+        "Tooltip.ControllerDiagnostic.Name": "コントローラー診断ツール",
+
+        "Tooltip.Labeler.Name": "ラベルツール",
 
         "ProtoFlux.UI.Call" : "Call",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> Call",
