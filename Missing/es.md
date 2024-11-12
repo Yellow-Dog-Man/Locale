@@ -30,6 +30,8 @@ Tooltip.Labeler.Name
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
+Settings.MouseSettings.ScrollWheelGrabMoveSpeed  
+Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description  
 Settings.LegacyFeatureSettings.SuppressFeetSimulation  
 Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.NotificationSettings.PermissionChanged  

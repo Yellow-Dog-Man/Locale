@@ -32,6 +32,8 @@ Importer.Image.Failure.Description
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
+Settings.MouseSettings.ScrollWheelGrabMoveSpeed  
+Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description  
 Settings.AudioInputDeviceSettings.Testing.Header  
 Settings.AudioInputDeviceSettings.Testing.Description  
 Settings.AudioInputDeviceSettings.Testing.ListenToInput  

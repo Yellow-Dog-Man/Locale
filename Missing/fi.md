@@ -53,6 +53,8 @@ Importer.Slices.Description
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
+Settings.MouseSettings.ScrollWheelGrabMoveSpeed  
+Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description  
 Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description  
 Settings.HapticPointMapping.HeadPitchAngle.Description  
 Settings.HapticPointMapping.HeadYawAngle.Description  

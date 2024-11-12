@@ -629,6 +629,8 @@ Settings.MouseSettings.MouseRotateSpeed
 Settings.MouseSettings.MouseRotateSpeed.Description  
 Settings.MouseSettings.MouseFreeformRotateSpeed  
 Settings.MouseSettings.MouseFreeformRotateSpeed.Description  
+Settings.MouseSettings.ScrollWheelGrabMoveSpeed  
+Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description  
 Settings.GeneralHapticsSettings.EnableControllerVibration  
 Settings.GeneralHapticsSettings.EnableControllerVibration.Description  
 Settings.GeneralHapticsSettings.EnableHaptics  

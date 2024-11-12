@@ -22,5 +22,7 @@ Tooltip.Shape.Name
 Tooltip.CameraObjectHider.Name  
 Tooltip.ControllerDiagnostic.Name  
 Tooltip.Labeler.Name  
+Settings.MouseSettings.ScrollWheelGrabMoveSpeed  
+Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description  
 Inspector.Texture3D.SpawnVisualizer  
 
