@@ -40,7 +40,7 @@
         "General.Edit": "Bewerken",
 
         "General.UI.SearchPrompt": "Zoeken...",
-        "General.UI.SearchPromptLong": "Hier typen...",
+        "General.UI.SearchPromptLong": "Typ hier om te zoeken...",
         "General.UI.ToggleEditMode": "Bewerkmodus aan/uitzetten",
         "General.UI.ToggleSubtitles": "Ondertiteling aan/uitzetten",
         "General.UI.Subtitles.On": "Ondertiteling: Aan",
@@ -155,7 +155,7 @@
 
         "Dash.Actions.CloudHome": "Open woon wereld",
 
-        "Dash.Exit.Header": "Verlaat {appName}",
+        "Dash.Exit.Header": "{appName} Afsluiten",
         "Dash.Exit.ExitAndSave": "Verlaat en sla woon wereld op",
         "Dash.Exit.ExitAndDiscard": "Verlaat en sla niets op",
         "Dash.Exit.Sponsor": "Heel erg bedankt {name}, voor het sponsoren van dit project!",
@@ -210,7 +210,9 @@
         "World.Error.HostBlockedDetail": "Je hebt de host geblokkeerd",
         "World.Error.WorldCrash": "Wereld gecrasht",
         "World.Error.WorldCrashDetail": "Fatale fout tijdens het updaten van de wereld",
+        "World.Error.Handshake": "Handshake fout",
         "World.Error.Unknown": "Onbekende fout",
+        "World.Error.FailedToCreateBanAccessKey": "Fout tijdens maken van ban access key",
 
         "World.Config.Name": "Wereldnaam:",
         "World.Config.Description": "Omschrijving:",
@@ -218,14 +220,14 @@
         "World.Config.MobileFriendly": "Mobiel vriendelijk",
         "World.Config.SaveOptionsHeader": "Opties voor opslaan:",
         "World.Config.EditMode": "Bewerkingsmodus:",
-        "World.Config.AccessLevelHeader": "Wie kan deelnemen aan deze wereld?",
+        "World.Config.AccessLevelHeader": "Wie mag deelnemen aan deze wereld?",
         "World.Config.AutoKickAFK": "Auto-kick AFK gebruikers:",
         "World.Config.AutoKickAFKMinutes": "Maximum AFK minuten:",
-        "World.Config.HideFromListing": "Niet weergeven in sessielijst",
+        "World.Config.HideFromListing": "Niet weergeven in sessielijsten",
         "World.Config.Autosave": "Automatisch opslaan (overschrijven):",
-        "World.Config.AutosaveInterval": "Automatisch opslaan per minuten:",
+        "World.Config.AutosaveInterval": "Automatisch opslaan interval (minuten):",
         "World.Config.CleanupAssets": "Maak ongebruikte assets schoon:",
-        "World.Config.CleanupInterval": "Tijd tussen schoonmaken (seconden):",
+        "World.Config.CleanupInterval": "Schoonmaakinterval (seconden):",
 
         "World.Actions.StartSession": "Start sessie",
         "World.Actions.Join": "Bezoeken",
@@ -337,7 +339,7 @@
         "World.Filter.ByOwner": "Door eigenaar:",
         "World.Filter.UserOwner": "Van gebruikers",
         "World.Filter.GroupOwner": "Van groepen",
-        "World.Filter.SubmittedToGroup": "geüpload groep:",
+        "World.Filter.SubmittedToGroup": "geüpload naar groep:",
         "World.Filter.Featured": "Alleen aanbevolen",
         "World.Filter.MyWorlds": "Mijn werelden",
         "World.Filter.SessionFiltering": "Sessiefiltering:",
@@ -358,6 +360,7 @@
         "World.Edit.AccessPrivate": "Alleen ik",
         "World.Edit.AccessPatreon": "Patreon Supporters",
         "World.Edit.AccessPublic": "Iedereen (Openbaar)",
+        "World.Edit.ReadOnly": "Niet Overschrijven",
 
         "Tools.AvatarCreator": "Avatar Maker",
         "Tools.FullBodyCalibrator": "Calibreer full-body",
@@ -381,7 +384,7 @@
         "Options.SeatedMode.On": "Zittende modus: Aan",
         "Options.SeatedMode.Off": "Zittende modus: Uit",
         "Options.Nameplates.All": "Naamborden: Alle",
-        "Options.Nameplates.NonContacts": "Naamborden: niet-contacten",
+        "Options.Nameplates.NonContacts": "Naamborden: Niet-contacten",
         "Options.Nameplates.Hide": "Naamborden: Verborgen",
         "Options.Nameplates.DefaultStyle": "Gebruik standaard naamborden",
         "Options.Nameplates.CustomStyle": "Sta aangepaste naamborden toe",
@@ -399,8 +402,8 @@
         "Indicator.Sync.AllSynced": "Alles gesynchroniseerd",
         "Indicator.Sync.SyncingItems": "Synchroniseren <br><size=61.8033%>{item_count, plural, one {# item} other {# items}}</size>",
         "Indicator.Sync.UploadingVariants": "Uploaden<br><size=61.8033%>asset varianten</size>",
-        "Indicator.Sync.SyncError": "Synchronisatiefout <size=61.803%>Bekijk de log voor details</size>",
-        "Indicator.Sync.StorageFull": "Opslag zit vol <size=61.803%>Kan niet synchroniseren</size>",
+        "Indicator.Sync.SyncError": "Synchronisatiefout<br><size=61.803%>Bekijk de log voor details</size>",
+        "Indicator.Sync.StorageFull": "Opslag zit vol<br><size=61.803%>Kan niet synchroniseren</size>",
 
         "Indicator.Storage.StorageFull": "Opslag zit vol",
         "Indicator.Storage.Usage": "{storage_used} van {storage_max}<br><size=61.803%>opslag gebruikt</size>",
@@ -414,22 +417,22 @@
         "Login.InvalidLogin.Description": "Kijk je login-gegevens opnieuw na of druk op \"Wachtwoord Vergeten?\"",
 
         "Login.MalformedUID": "Ongeldige apparaat-gegevens",
-        "Login.MalformedUID.Description": "Probeer Resonite opnieuw te installeren, of neem contact op met {supportUrl}.",
+        "Login.MalformedUID.Description": "Probeer {appName} opnieuw te installeren, of neem contact met ons op via {supportUrl}.",
 
         "Login.MissingUID": "Ontbrekende apparaat-gegevens",
-        "Login.MissingUID.Description": "Probeer Resonite opnieuw te installeren, of neem contact op met {supportUrl}.",
+        "Login.MissingUID.Description": "Probeer {appName} opnieuw te installeren, of neem contact met ons op via {supportUrl}.",
 
-        "Login.MissingSecretMachineId": "Ontbrekende geheime machine ID",
-        "Login.MissingSecretMachineId.Description": "Probeer Resonite opnieuw te installeren, of neem contact op met {supportUrl}.",
+        "Login.MissingSecretMachineId": "Ontbrekende secret machine ID",
+        "Login.MissingSecretMachineId.Description": "Probeer {appName} opnieuw te installeren, of neem contact met ons op via {supportUrl}.",
 
         "Login.MalformedSecretMachineId": "Ongeldige secret machine ID",
-        "Login.MalformedSecretMachineId.Description": "Probeer Resonite opnieuw te installeren, of neem contact op met {supportUrl}.",
+        "Login.MalformedSecretMachineId.Description": "Probeer {appName} opnieuw te installeren, of neem contact met ons op via {supportUrl}.",
 
         "Register.MissingUID": "Ontbrekende apparaat-gegevens",
-        "Register.MissingUID.Description": "Probeer Resonite opnieuw te installeren, of neem contact op met {supportUrl}.",
+        "Register.MissingUID.Description": "Probeer {appName} opnieuw te installeren, of neem contact met ons op via {supportUrl}.",
 
         "Register.MalformedUID": "Ongeldige apparaat-gegevens",
-        "Register.MalformedUID.Description": "Probeer Resonite opnieuw te installeren, of neem contact op met {supportUrl}.",
+        "Register.MalformedUID.Description": "Probeer {appName} opnieuw te installeren, of neem contact met ons op via {supportUrl}.",
 
         "Login.MissingLogin": "Geen login-gegevens ingevoerd",
         "Login.MissingLogin.Description": "Ben je het vergeten in te vullen?",
@@ -444,16 +447,16 @@
         "Login.EmailNotVerified.Description": "Je e-mail is niet geverifieerd, kijk je inbox na voor een e-mail van ons, kijk ook in je spam folder.",
 
         "Login.AccountTempLocked": "Je account is vergrendeld.",
-        "Login.AccountTempLocked.Description": "Neem contact op met ons op: {moderationUrl}.",
+        "Login.AccountTempLocked.Description": "Neem contact met ons op via {moderationUrl}.",
 
         "Login.AccountBanned": "Je account is verbannen.",
-        "Login.AccountBanned.Description": "Neem contact op met ons op: {moderationUrl}.",
+        "Login.AccountBanned.Description": "Neem contact met ons op via {moderationUrl}.",
 
-        "Login.DuplicateAccount": "Dubbel account",
-        "Login.DuplicateAccount.Description": "Neem contact op met ons op: {supportUrl}.",
+        "Login.DuplicateAccount": "Dubbele account",
+        "Login.DuplicateAccount.Description": "Neem contact met ons op via {supportUrl}.",
 
         "Login.UnknownError": "Onbekende fout",
-        "Login.UnknownError.Description": "Er is iets mis gegaan tijdens inloggen. Neem contact op met {supportUrl}.",
+        "Login.UnknownError.Description": "Er is iets mis gegaan tijdens inloggen. Neem contact met ons op via {supportUrl}.",
 
         "Register.MissingRequest": "Ontbrekende registratie-details",
         "Register.MissingRequest.Description": "We konden geen registratie-details vinden. Zorg dat deze ingevuld zijn tijdens registreren.",
@@ -483,7 +486,7 @@
         "Register.InvalidDateOfBirth.Description": "Je geboortedatum is ongeldig.",
 
         "Register.UsernameContainsBlockedTerms": "Gebruikersnaam bevat geblokkeerde woorden",
-        "Register.UsernameContainsBlockedTerms.Description": "Je gebruikersnaam bevat geblokkeerde woorden. Als je denkt dat dit niet correct is, neem contact op met {supportUrl}.",
+        "Register.UsernameContainsBlockedTerms.Description": "Je gebruikersnaam bevat geblokkeerde woorden. Als je denkt dat dit niet correct is, neem contact met ons op via {supportUrl}.",
 
         "Register.MissingPassword": "Ontbrekend wachtwoord",
         "Register.MissingPassword.Description": "Je hebt geen wachtwoord ingevuld.",
@@ -492,13 +495,13 @@
         "Register.InvalidPassword.Description": "Je wachtwoord is ongeldig. Het moet minimaal 8 karakters bevatten, waarvan minimaal 1 cijfer, 1 hoofdletter en 1 kleine letter.",
 
         "Register.EmailAlreadyRegistered": "E-mail is al geregistreerd",
-        "Register.EmailAlreadyRegistered.Description": "Een account met deze e-mail bestaat al. Klik op \"Wachtwoord Vergeten?\" als je het wachtwoord vergeten bent. Of je kan contact opnemen met {supportUrl}.",
+        "Register.EmailAlreadyRegistered.Description": "Een account met deze e-mail bestaat al. Klik op \"Wachtwoord Vergeten?\" als je het wachtwoord vergeten bent. Of je kan contact met ons opnemen via {supportUrl}.",
 
         "Register.UsernameAlreadyRegistered": "Gebruikersnaam is al geregistreerd",
-        "Register.UsernameAlreadyRegistered.Description": "Een account met deze gebruikersnaam bestaat al. Klik op \"Wachtwoord Vergeten?\" als je het wachtwoord vergeten bent. Of je kan contact opnemen met {supportUrl}.",
+        "Register.UsernameAlreadyRegistered.Description": "Een account met deze gebruikersnaam bestaat al. Klik op \"Wachtwoord Vergeten?\" als je het wachtwoord vergeten bent. Of je kan contact met ons opnemen via {supportUrl}.",
 
         "Register.ErrorCheckingUserId": "Fout bij nakijken van UserID",
-        "Register.ErrorCheckingUserId.Description": "Neem contact op met {supportUrl}.",
+        "Register.ErrorCheckingUserId.Description": "Neem contact met ons op via {supportUrl}.",
 
         "Recovery.MissingEmail": "Ontbrekende e-mail",
         "Recovery.MissingEmail.Description": "Heb je een e-mail ingevuld?",
@@ -507,10 +510,10 @@
         "Recovery.IncorrectEmail.Description": "Je hebt een ongeldige e-mail ingevuld. Kijk je gegevens na, en probeer het opnieuw.",
 
         "Recovery.NoPasswordSetup": "Geen wachtwoord ingesteld",
-        "Recovery.NoPasswordSetup.Description": "Neem contact op met {supportUrl}.",
+        "Recovery.NoPasswordSetup.Description": "Neem contact met ons op via {supportUrl}.",
 
         "Register.UnknownError": "Onbekende fout",
-        "Register.UnknownError.Description": "Er is iets mis gegaan tijdens registreren. Neem contact op met {supportUrl}.",
+        "Register.UnknownError.Description": "Er is iets mis gegaan tijdens registreren. Neem contact met ons op via {supportUrl}.",
 
         "Account.Login": "Log in",
         "Account.Logout": "Log uit",
@@ -526,11 +529,11 @@
         "Account.Email": "E-mail:",
         "Account.RememberMe": "Onthoud mij<br><size=50%>(Logt uit na 30 dagen zonder activiteit)</size>:",
         "Account.RepeatEmail": "Herhaal e-mail:",
-        "Account.UsernameOrEmail": "Gebruikersnaam of e-mail:",
+        "Account.UsernameOrEmail": "Gebruikersnaam of E-mail:",
         "Account.Password": "Wachtwoord:",
         "Account.RepeatPassword": "Herhaal wachtwoord:",
         "Account.RecoverPassword": "Wachtwoord Vergeten?",
-        "Account.LiveEmailWarning": "<color=#f00>WAARSCHUWING:</color> Bij live.com, hotmail.com, outlook.com en andere door Microsoft beheerde services kan het 1-2 dagen duren om de e-mail te accepteren.",
+        "Account.LiveEmailWarning": "<color=#f00>WAARSCHUWING:</color> Bij live.com, hotmail.com, outlook.com en andere e-mail services van Microsoft kan het tot 1-2 dagen duren om de e-mail te ontvangen.",
         "Account.PasswordRules": "(minimaal 8 tekens, 1 cijfer, 1 kleine letter, 1 hoofdletter)",
         "Account.LostPassword": "Wachtwoord Vergeten",
         "Account.SendRecoveryCode": "Verzend herstelcode",
@@ -538,7 +541,7 @@
         "Account.ResetPasswordInstructions": "Er is een herstelcode naar je e-mailadres gestuurd. Kopiëer het naar het veld hier onder:",
         "Account.RecoveryCode": "Herstelcode:",
         "Account.NewPassword": "Nieuw wachtwoord:",
-        "Account.ResetPassword": "Stel een nieuw wachtwoord in",
+        "Account.ResetPassword": "Stel nieuwe wachtwoord in",
         "Account.Requesting": "Aanvragen...",
         "Account.ErrorPasswordMismatch": "Wachtwoorden komen niet overeen!",
         "Account.ErrorEmailMismatch": "E-mails komen niet overeen!",
@@ -555,7 +558,7 @@
         "Account.Saml2.LoggingIn": "Wachten tot de log in voltooit (kijk in je web browser)...",
 
         "Account.TOTP.Title": "Tweetraps-verificatie",
-        "Account.TOTP.Initializing": "De status van 2FA controleren voor jouw account...",
+        "Account.TOTP.Initializing": "We controleren de status van 2FA voor jouw account...",
         "Account.TOTP.Code.Header": "Geheime code",
         "Account.TOTP.Code.Description": "Eerst moet je een geheime code invoeren in jouw TOTP-verificatie-app, zoals <b>Authy</b> of <b>Google Authenticator</b>.<br><br>Wij raden aan dit te doen door de QR-code te scannen, maar je kan de geheime code ook handmatig invoeren. <b>Deel deze code nooit met anderen.</b><br><br>Als je in VR bent, kan je naar bureaubladmodus overschakelen door op F8 te drukken.",
         "Account.TOTP.Code.QRCode": "QR-code scannen",
@@ -567,7 +570,7 @@
         "Account.TOTP.Activate.Description": "Om 2FA te gebruiken, vul de 6-cijferige code in die gegenereerd is door je TOTP-verificatie-app.<br><br>Zodra 2FA geactiveerd is zal je deze code nodig hebben om bepaalde acties door te voeren.",
         "Account.TOTP.Activate.Token": "6-cijferige code:",
         "Account.TOTP.Activate.TokenField": "Voer hier je code in...",
-        "Account.TOTP.Activate.Activate": "Activeren",
+        "Account.TOTP.Activate.Activate": "Activeer",
         "Account.TOTP.Activate.Activating": "Activeren...",
         "Account.TOTP.Activate.InvalidToken": "Ongeldige code!",
         "Account.TOTP.Message.AlreadySetup": "2FA is al ingesteld op jouw account!",
@@ -575,7 +578,7 @@
         "Account.TOTP.Message.SetupComplete": "<size=150%>Gefeliciteerd!</size><br><br>2FA is nu ingesteld op jouw account voor extra beveiliging!<br><br>Je kan dit optioneel inschakelen voor inloggen met het /enableLogin2FA commando.",
         "Account.TOTP.Deactivate.Header": "Deactiveer 2FA",
         "Account.TOTP.Deactivate.Description": "2FA is nu <b><color=green>ingesteld en actief op jouw account</color></b>. Als je het uit moet schakelen (bijvoorbeeld omdat je telefoon kwijt is, of omdat iemand anders de codes heeft), kan je dat hier doen.<br><br>Na het uitschakelen, kan je 2FA opnieuw instellen. Dat genereert een nieuwe geheime code en een nieuwe set herstelcodes.<br><br>Als je telefoon kwijt is, en je moet 2FA opnieuw instellen, raden wij <b>STERK</b> aan dit zo snel mogelijk te doen. Elke herstelcode kan maar een keer gebruikt worden, als ze op zijn mag je niet meer in je account.",
-        "Account.TOTP.Deactivate.Deactivate": "Deactiveren",
+        "Account.TOTP.Deactivate.Deactivate": "Deactiveer",
         "Account.TOTP.Deactivate.Deactivating": "Deactiveren...",
         "Account.TOTP.Message.DeactivationComplete": "2FA is met succes gedeactiveerd voor jouw account.<br><br>Jouw account loopt nu een verhoogd risico!<br><br>We raden sterk aan om 2FA onmiddellijk opnieuw in te stellen, vooral als je een herstelcode hebt gebruikt omdat je jouw telefoon bent kwijtgeraakt.",
 
@@ -613,7 +616,7 @@
         "Session.Permission.ClearOverrides": "Wis Gebruikersoverschrijvingen",
 
         "Session.JoinVerifier.EnableHeader": "Activeer Aangepaste Join Verifier?",
-        "Session.JoinVerifier.EnableText": "<color=red>WAARSCHUWING:</color> Je zet zometeen een aangepaste join verifier aan die onderdeel uitmaakt van deze wereld. Voordat je dit doet, zorg dat je de maker van de wereld vertrouwt. Aangepaste join verifiers kunnen toegangs-regels van sessies overslaan, en gebruikers blokkeren of toelaten met aangepaste regels.",
+        "Session.JoinVerifier.EnableText": "<color=red>WAARSCHUWING:</color> Je zet zometeen een aangepaste join verifier aan die onderdeel uitmaakt van deze wereld. Voordat je dit doet, zorg dat je de maker van de wereld vertrouwt. Aangepaste join verifiers kunnen toegangs-regels van sessies overschrijven, en gebruikers blokkeren of toelaten met aangepaste regels.",
         "Session.JoinVerifier.Label": "Gebruik Aangepaste Join Verifier: {name}",
         "Session.JoinVerifier.ComponentWarning": "<color=red>WAARSCHUWING:</color> Op dit moment is er niks om de join verifier te beschermen van aanpassingen. Als het aanpassen van de ProtoFlux een zorg is, GEBRUIK DEZE NIET en ZET HET NIET AAN in jouw werelden.",
         "Session.JoinVerifier.SetCustomVerifier": "Stel in als aangepaste join verifier",
@@ -669,13 +672,15 @@
         "Notifications.IsSociable": "Is sociaal, stuur een bericht of nodig uit!",
         "Notifications.IsOnline": "Is nu Online",
         "Notifications.IsOnlineOnDifferentVersion": "Is nu Online <size=75%>(Met versie: {version})</size>",
-        "Notifications.ReceivedContactRequest": "Heeft een contact-verzoek gestuurd",
+        "Notifications.ReceivedContactRequest": "Contact-verzoek gestuurd",
         "Notifications.ReceivedInvite": "Nodigt je uit naar:",
-        "Notifications.ReceivedItem": "Heeft je een voorwerp gestuurd:",
-        "Notifications.VoiceMessage": "Heeft je een spraakbericht verstuurd",
-        "Notifications.SessionStarted": "Heeft een sessie gestart:",
-        "Notifications.UserJoined": "Gebruiker heeft de sessie toegetreden",
-        "Notifications.UserLeft": "Gebruiked heeft de sessie verlaten",
+        "Notifications.ReceivedItem": "Voorwerp gestuurd:",
+        "Notifications.VoiceMessage": "Spraakbericht verstuurd",
+        "Notifications.SessionStarted": "Sessie gestart:",
+        "Notifications.UserJoined": "Heeft de sessie toegetreden",
+        "Notifications.UserLeft": "Heeft de sessie verlaten",
+        "Notifications.PermissionChanged": "Rol veranderd naar {new}",
+        "Notifications.PermissionChangedDetail": "In {world}. Oude rol: {old}",
 
         "Undo.SetField": "Veld {field_name} naar {value} instellen",
         "Undo.SetReference": "Referentie {ref_name} naar {ref_target} instellen",
@@ -692,9 +697,9 @@
         "Undo.ResetRotation": "Reset Rotatie",
         "Undo.ResetScale": "Reset Schaal",
 
-        "Undo.GrabObjects": "Grijp objecten",
-        "Undo.DestroyGrabbed": "Verwijder gegrepen objecten",
-        "Undo.DuplicateGrabbed": "Verdubbel gegrepen objecten",
+        "Undo.GrabObjects": "Objecten vastpakken",
+        "Undo.DestroyGrabbed": "Verwijder vastgepakte objecten",
+        "Undo.DuplicateGrabbed": "Verdubbel vastgepakte objecten",
 
         "Undo.ChangeBoxSize": "Verander de grootte van de Box",
         "Undo.BrushStroke": "Penseelstreek",
@@ -711,85 +716,62 @@
         "Undo.ExtractMaterialsFromHierarchy": "Materialen uit hiërarchie halen",
         "Undo.BatchConvertMaterials": "Materialen als groep omzetten",
 
-        "Tooltips.Brush.ChangeColor": "Verander Kleur",
-        "Tooltips.Brush.IncrementSize": "Groter",
-        "Tooltips.Brush.DecrementSize": "Kleiner",
+        "Tools.Dev.CreateNew": "Maak nieuw...",
+        "Tools.Dev.Selection": "Selectie: {mode}",
+        "Tools.Dev.DevMode.Off": "Ontwikkelaarsmodus: Uit",
+        "Tools.Dev.DevMode.On": "Ontwikkelaarsmodus: Aan",
+        "Tools.Dev.OpenInspector": "Open Inspecteur",
+        "Tools.Dev.DeselectAll": "Deselecteer alles",
+        "Tools.Dev.DestroySelected": "Verwijder geselecteerde",
+        "Tools.Dev.ConfirmDestroySelected": "ECHT Geselecteerde Vernietigen",
 
-        "Tooltips.Dev.CreateNew": "Maak nieuw...",
-        "Tooltips.Dev.Selection": "Selectie: {mode}",
-        "Tooltips.Dev.DevMode.Off": "Ontwikkelaarsmodus: Uit",
-        "Tooltips.Dev.DevMode.On": "Ontwikkelaarsmodus: Aan",
-        "Tooltips.Dev.OpenInspector": "Open Inspecteur",
-        "Tooltips.Dev.DeselectAll": "Deselecteer alles",
-        "Tooltips.Dev.DestroySelected": "Verwijder geselecteerde",
-        "Tooltips.Dev.ConfirmDestroySelected": "ECHT Geselecteerde Verwijderen",
+        "Tools.Color.Picker": "Kleur kiezer",
 
-        "Tooltips.Dev.GizmoOptions": "Gizmo Opties",
-        "Tooltips.Dev.SelectParent": "Selecteer Parent",
-        "Tooltips.Dev.LocalSpace": "Lokale Ruimte",
-        "Tooltips.Dev.GlobalSpace": "Globale Ruimte",
-        "Tooltips.Dev.Translation": "Vertaling",
-        "Tooltips.Dev.Rotation": "Rotatie",
-        "Tooltips.Dev.Scale": "Schaal",
+        "Tools.GrabbableSetter.Scalable": "Schaalbaar instellen",
+        "Tools.GrabbableSetter.NonScalable": "Niet-schaalbaar instellen",
+        "Tools.GrabbableSetter.ApplyToRoot": "Stel Toepassen op Root in",
+        "Tools.GrabbableSetter.AppyToHit": "Stel Toepassen op Hit in",
 
-        "Tooltips.Dev.Selection.Single": "Enkele",
-        "Tooltips.Dev.Selection.Multi": "Meerderen",
+        "Tools.CharacterCollider.MarkGrippable": "Markeer Grijpbaar",
+        "Tools.CharacterCollider.DontMarkGrippable": "Markeer Niet-Grijpbaar",
+        "Tools.CharacterCollider.EnsureWalkRun": "Verzeker loop- / renbeweging",
+        "Tools.CharacterCollider.EnsureZeroG": "Verzeker Zero-G-voortbeweging",
+        "Tools.CharacterCollider.EnsurePhysicalFly": "Verzeker fysieke vliegbeweging",
 
-        "Tooltips.Dev.Interaction.Tip": "Punt",
-        "Tooltips.Dev.Interaction.Projection": "Projectie",
+        "Tools.Light.Point": "Punt",
+        "Tools.Light.Spot": "Spot",
+        "Tools.Light.Sun": "Zon",
 
-        "Tooltip.Color.Picker": "Kleurenpallet",
+        "Tools.MeshVisibility.KeepShadow": "Behoud schaduw",
+        "Tools.MeshVisibility.ShadowOff": "Zet schaduwen Uit",
+        "Tools.MeshVisibility.ShadowOn": "Zet schaduwen Aan",
+        "Tools.MeshVisibility.OnlyShadow": "Stel in op alleen schaduwen",
+        "Tools.MeshVisibility.DoubleSidedShadow": "Stel in op dubbelzijdige schaduw",
 
-        "Tooltip.GrabbableSetter.Scalable": "Schaalbaar instellen",
-        "Tooltip.GrabbableSetter.NonScalable": "Niet-schaalbaar instellen",
-        "Tooltip.GrabbableSetter.ApplyToRoot": "Stel Toepassen op Root in",
-        "Tooltip.GrabbableSetter.AppyToHit": "Stel Toepassen op Hit in",
+        "Tools.Slicer.Add": "Voeg Slicer toe",
+        "Tools.Slicer.Clear": "Wis instellingen",
 
-        "Tooltip.CharacterCollider.MarkGrippable": "Vastpakken Toestaan",
-        "Tooltip.CharacterCollider.DontMarkGrippable": "Vastpakken Niet Toestaan",
-        "Tooltip.CharacterCollider.EnsureWalkRun": "Verankeren loop-/ren-beweging",
-        "Tooltip.CharacterCollider.EnsureZeroG": "Verankeren gewichtloze-locomotie",
-        "Tooltip.CharacterCollider.EnsurePhysicalFly": "Verzeker fysieke vliegbeweging",
+        "Tools.Material.RayMode": "Ray-modus",
+        "Tools.Material.AreaMode": "Gebiedsmodus",
+        "Tools.Material.ObjectMode": "Globale objectmodus",
+        "Tools.Material.SceneMode": "Globale scène-modus",
+        "Tools.Material.CreateCopy": "Maak een kopie",
+        "Tools.Material.Edit": "Materiaal bewerken",
+        "Tools.Material.Convert": "Omzetten naar...",
+        "Tools.Material.ConvertAll": "Converteer alles naar...",
+        "Tools.Material.CreateNew": "Maak nieuw",
 
-        "Tooltip.Light.Point": "Punt",
-        "Tooltip.Light.Spot": "Spot",
-        "Tooltip.Light.Sun": "Zon",
+        "Tools.Mesh.Edit": "Bewerk Mesh",
 
-        "Tooltip.Light.Shadows.None": "Geen Schaduwen",
-        "Tooltip.Light.Shadows.Hard": "Harde Schaduwen",
-        "Tooltip.Light.Shadows.Soft": "Zachte Schaduwen",
+        "Tools.Microphone.Format.WAV": "WAV",
+        "Tools.Microphone.Format.Vorbis": "OGG Vorbis",
+        "Tools.Microphone.Format.FLAC": "FLAC",
+        "Tools.Microphone.ModeHold": "Houd Vast Voor Opnamen",
+        "Tools.Microphone.ModePress": "Druk om te starten/stoppen met opnemen",
+        "Tools.Microphone.SourceRaw": "Rauw",
+        "Tools.Microphone.SourceFiltered": "Gefilterd & Genormaliseerd",
 
-        "Tooltip.MeshVisibility.KeepShadow": "Behoud schaduw",
-        "Tooltip.MeshVisibility.ShadowOff": "Zet Schaduwen Uit",
-        "Tooltip.MeshVisibility.ShadowOn": "Zet Schaduwen Aan",
-        "Tooltip.MeshVisibility.OnlyShadow": "Stel in op alleen schaduwen",
-        "Tooltip.MeshVisibility.DoubleSidedShadow": "Stel in op dubbelzijdige schaduw",
-
-        "Tooltip.Slicer.Add": "Voeg Snijder toe",
-        "Tooltip.Slicer.Clear": "Wis instellingen",
-
-        "Tooltip.Material.RayMode": "Ray-modus",
-        "Tooltip.Material.AreaMode": "Gebiedsmodus",
-        "Tooltip.Material.ObjectMode": "Globale objectmodus",
-        "Tooltip.Material.SceneMode": "Globale scène-modus",
-        "Tooltip.Material.CreateCopy": "Maak een kopie",
-        "Tooltip.Material.Edit": "Materiaal bewerken",
-        "Tooltip.Material.Convert": "Omzetten naar...",
-        "Tooltip.Material.ConvertAll": "Zet alles om naar...",
-        "Tooltip.Material.CreateNew": "Maak nieuw",
-
-        "Tooltip.Mesh.Edit": "Bewerk Mesh",
-
-        "Tooltip.Cartridge.Eject": "Bol uitwerpen",
-
-        "Tooltip.Microphone.Format.WAV": "WAV",
-        "Tooltip.Microphone.Format.Vorbis": "OGG Vorbis",
-        "Tooltip.Microphone.Format.FLAC": "FLAC",
-        "Tooltip.Microphone.ModeHold": "Houd vast om op te nemen",
-        "Tooltip.Microphone.ModePress": "Druk om te starten/stoppen met opnemen",
-        "Tooltip.Microphone.SourceRaw": "Ruw",
-        "Tooltip.Microphone.SourceFiltered": "Gefilterd & Genormaliseerd",
-
+        "Tooltip.ProtoFlux.Name": "ProtoFlux Gereedschap",
         "Tooltip.ProtoFlux.Drive": "Overschrijven",
         "Tooltip.ProtoFlux.Source": "Bron",
         "Tooltip.ProtoFlux.Reference": "Referentie",
@@ -803,7 +785,7 @@
         "Tooltip.ProtoFlux.PackInPlace": "Hier inpakken",
         "Tooltip.ProtoFlux.PackInto": "Inpakken naar <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.Unpack": "Uitpakken van <size=50%>{name}</size>",
-        "Tooltip.ProtoFlux.ExplicitCast": "Expliciet Overzetten\n<size=50%>(<color=red>Waarschuwing:</color> Mogelijk Gegevens-verlies)</size>",
+        "Tooltip.ProtoFlux.ExplicitCast": "Expliciet Overzetten\n<size=50%>(<color=red>Waarschuwing:</color> Mogelijk Gegevensverlies)</size>",
 
         "Tooltip.Meter.Mode.Ray": "Modus: Ray",
         "Tooltip.Meter.Mode.Perpendicular": "Modus: Loodrecht",
@@ -812,18 +794,30 @@
         "Tooltip.Meter.Points.Two": "Twee Punten",
         "Tooltip.Meter.Points.Multiple": "Meerdere Punten",
 
+        "Tooltip.Meter.Name": "Meet Gereedschap",
         "Tooltip.Meter.ObjectSpace": "Meet in Objectspace",
         "Tooltip.Meter.WorldSpace": "Meet in Worldspace",
 
+        "Tooltip.Glue.Name": "Lijm Gereedschap",
         "Tooltip.Glue.Mode.BakeMeshes": "Modus: Bak meshes",
         "Tooltip.Glue.Mode.BakeSkinnedMeshes": "Modus: Bak skinned meshes",
         "Tooltip.Glue.Mode.ParentObjects": "Modus: Parent objecten",
 
+        "Tooltip.RigTransfer.Name": "Rigged Mesh Overdracht Gereedschap",
         "Tooltip.RigTransfer.ClearSource": "Verwijder bron",
 
+        "Tooltip.ComponentClone.Name": "Component Kloon Gereedschap",
         "Tooltip.ComponentClone.SingleInstanceOn": "Enkel Exemplaar: Aan",
         "Tooltip.ComponentClone.SingleInstanceOff": "Enkel Exemplaar: Uit",
         "Tooltip.ComponentClone.ClearTemplate": "Verwijder voorbeeld",
+
+        "Tooltip.Shape.Name": "Vorm Gereedschap",
+
+        "Tooltip.CameraObjectHider.Name": "Camera Object Zichtbaarheid Gereedschap",
+
+        "Tooltip.ControllerDiagnostic.Name": "Diagnotisch Gereedschap Voor Controllers",
+
+        "Tooltip.Labeler.Name": "Label Gereedschap",
 
         "ProtoFlux.UI.Call": "Aanroepen",
         "ProtoFlux.UI.AsyncCall": "<size=50%>Asynchroon</size> Aanroepen",
@@ -926,7 +920,7 @@
         "Importer.Image.Title": "Importeer Afbeelding",
         "Importer.Image.Prompt": "Wat importeer je?",
         "Importer.Image.Regular": "Afbeelding / Texture",
-        "Importer.Image.Screenshot": "Resonite Foto<size=50%>(Hier opgenomen)</size>",
+        "Importer.Image.Screenshot": "{appName} Foto<size=50%>(Hier opgenomen)</size>",
         "Importer.Image.PixelArt": "Pixel-Art",
         "Importer.Image.Sprite": "Sprite",
         "Importer.Image.360": "360° Foto / Skybox",
@@ -936,6 +930,9 @@
         "Importer.Image.Stereo180": "Stereo 180° Foto",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.Image.Failure.Heading": "Importeren van afbeelding <color=hero.yellow>{image}</color> mislukt",
+        "Importer.Image.Failure.Description": "Importeren van de afbeelding mislukt vanwege de volgende reden:\n\n<color=hero.red>{error}</color>",
+        
         "Importer.LUT.Failure.Heading": "Importeren van LUT <color=hero.yellow>{image}</color> mislukt",
         "Importer.LUT.Failure.Description": "Importeren van LUT mislukt vanwege de volgende reden:\n\n<color=hero.red>{error}</color>",
 
@@ -955,7 +952,7 @@
         "Importer.Model.AdvancedSettings": "Geavanceerde Instellingen",
         "Importer.Model.ModelKindPrompt": "Wat voor soort 3D Model?",
         "Importer.Model.RegularKind": "Normaal / Avatar",
-        "Importer.Model.SeparableKind": "Scheidbaar met Snappable stukken",
+        "Importer.Model.SeparableKind": "Scheidbaar met Klikbare stukken",
         "Importer.Model.UnitsPrompt": "In welke eenheid is het?",
         "Importer.Model.AutoScale": "Auto Schaal (Onbekende Schaal)",
         "Importer.Model.AutoHumanoid": "Auto Menselijke Hoogte",
@@ -985,7 +982,7 @@
 
         "Importer.Model.Advanced.Colliders": "Genereer Colliders",
         "Importer.Model.Advanced.Animations": "Importeer Animaties",
-        "Importer.Model.Advanced.SetupSnappable": "Stel in als snappable",
+        "Importer.Model.Advanced.SetupSnappable": "Stel in als klikbaar",
         "Importer.Model.Advanced.SetupTimelapse": "Instellen als timelapse",
         "Importer.Model.Advanced.ImportExternalTextures": "Importeer externe textures",
         "Importer.Model.Advanced.SkinnedMeshes": "Importeer skinned meshes",
@@ -1232,7 +1229,7 @@
         "Settings.GeneralVRSettings": "VR",
         "Settings.LeapMotionSettings": "Leap Motion",
         "Settings.ViveHandTrackingSettings": "Vive Hand Tracking",
-        "Settings.TrackingSmoothingSettings": "Tracking Smoothing",
+        "Settings.TrackingSmoothingSettings": "Tracking Versoepeling",
 
         "Settings.UserMetricsSettings": "Gebruikers-gegevens",
 
@@ -1282,7 +1279,7 @@
         "Settings.InteractiveCameraPositioningSettings": "Positionering",
         "Settings.InteractiveCameraRenderSettings": "Weergave",
         "Settings.InteractiveCameraGroupSettings": "Gebruikersgroepering",
-        "Settings.InteractiveCameraSmoothingSettings": "Smoothing",
+        "Settings.InteractiveCameraSmoothingSettings": "Versoepeling",
         "Settings.InteractiveCameraAnchorSettings": "Ankers",
         "Settings.InteractiveCameraPhotoSettings": "Fotos",
         "Settings.InteractiveCameraPostProcessingSettings": "Post Processing",
@@ -1301,14 +1298,14 @@
         "Settings.MovementSettings.RightSidewaysMode.Description": "Gebruik dit om te bepalen wat de zijwaartse beweging op je rechter joystick/touchpad doet.",
         "Settings.MovementSettings.UseHeadDirectionForMovement": "Gebruik hoofd-richting voor beweging",
         "Settings.MovementSettings.UseHeadDirectionForMovement.Description": "Als dit aan staat, ga je naar voren in de richting waar je naar kijkt. Als dit uitstaat, wordt de richting van je controller gebruikt.",
-        "Settings.MovementSettings.UseSmoothTurn": "Smooth draaien",
-        "Settings.MovementSettings.UseSmoothTurn.Description": "Hiermee draai je langzaam rond terwijl je in VR bent. Dit kan meer meeslepend zijn, maar kan misselijkheid veroorzaken. Zet deze instelling uit als je snap turning fijner vindt.",
-        "Settings.MovementSettings.SmoothTurnExclusiveMode": "Gebruik smooth draaien exclusieve modus",
+        "Settings.MovementSettings.UseSmoothTurn": "Geleidelijk draaien",
+        "Settings.MovementSettings.UseSmoothTurn.Description": "Hiermee draai je langzaam rond terwijl je in VR bent. Dit kan meer meeslepend zijn, maar kan misselijkheid veroorzaken. Zet deze instelling uit als je klikkend draaien fijner vindt.",
+        "Settings.MovementSettings.SmoothTurnExclusiveMode": "Gebruik geleidelijk draaien exclusieve modus",
         "Settings.MovementSettings.SmoothTurnExclusiveMode.Description": "Wanneer dit aan staat kan een enkele joystick je naar voren/achter bewegen, of draaien, maar nooit tegelijk. Zet dit aan als je vaak per ongeluk draait als je alleen probeert te bewegen.",
-        "Settings.MovementSettings.SmoothTurnSpeed": "Smooth draai snelheid",
-        "Settings.MovementSettings.SmoothTurnSpeed.Description": "Deze instelling bepaalt hoe snel je draait als smooth draaien aan staat. De waarde is graden per seconde, dus een waarde van 360 draait je in een seconde rond met de joystick volledig naar links/rechts.",
-        "Settings.MovementSettings.SnapTurnAngle": "Snap draai hoek",
-        "Settings.MovementSettings.SnapTurnAngle.Description": "Dit is de hoek (in graden) die je draait als je met snap draai probeert te draaien.",
+        "Settings.MovementSettings.SmoothTurnSpeed": "Geleidelijk draaien snelheid",
+        "Settings.MovementSettings.SmoothTurnSpeed.Description": "Deze instelling bepaalt hoe snel je draait als geleidelijk draaien aan staat. De waarde is graden per seconde, dus een waarde van 360 draait je in een seconde rond met de joystick volledig naar links/rechts.",
+        "Settings.MovementSettings.SnapTurnAngle": "Klikkend draaien hoek",
+        "Settings.MovementSettings.SnapTurnAngle.Description": "Dit is de hoek (in graden) die je draait als je met klikkend draai probeert te draaien.",
         "Settings.MovementSettings.NoClipSpeed": "Noclip snelheid",
         "Settings.MovementSettings.NoClipSpeed.Description": "Dit bepaalt hoe snel je beweegt met de Noclip locomotie modus. Dit type locomotie wordt vaak gebruikt voor bouwen en testen, en is dus vaak niet bestuurd door de wereld waar je in bent.",
         "Settings.MovementSettings.MovementDeadzone": "Bewegings deadzone",
@@ -1321,6 +1318,10 @@
         "Settings.GrabbingSettings": "Vastpakken",
         "Settings.GrabbingSettings.DefaultHandGrabType": "Standaard Hand Vastpak Type",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Dit bepaalt wat jouw standaard vastpake modus is wanneer je nieuwe werelden toetreed.\n\n<color=hero.yellow>Palm:</color> Je pakt alle objecten vast in de buurt van je palm.\n\n<color=hero.yellow>Precisie:</color> Je pakt een enkel object vast tussen je wijsvinger en duim.\n\n<color=hero.yellow>Automatisch:</color> De modus wordt automatisch geselecteerd tussen handpalm en precisie afhankelijk van de richting van je hand.\n\n<color=hero.yellow>Uit:</color> Je kan alleen vastpakken met je lasers.",
+
+        "Settings.FullBodyTrackingSettings": "Full-Body Tracking",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "Lichaam Horizontale Richting",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description" : "Dit is de afwijking van de hoek tussen de voeten en het hoofd. Hierbuiten kom je in een horizontale pose. This beïnvloedt bepaalde functies, zoals het overschrijven van je tracker posities met simulaties.",
 
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Thumbstick draaisnelheid",
@@ -1349,27 +1350,27 @@
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR Hotswitching",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Als dit aan staat, wissel je automatisch tussen VR- en bureaublad-modus wanneer je jouw VR headset op of af doet.",
 
-        "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Handen Positie Smoothing",
-        "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Handen Rotatie Smoothing",
-        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de handen positie smoothed is. Dit kan helpen voor gebruikers met handtrillingen en andere toegankelijkheidsproblemen die rilling veroorzaken.",
-        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de handen rotatie smoothed is. Dit kan helpen voor gebruikers met handtrillingen en andere toegankelijkheidsproblemen die rilling veroorzaken.",
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Handen Positie Versoepeling",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Handen Rotatie Versoepeling",
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de handen positie versoepeld is. Dit kan helpen voor gebruikers met handtrillingen en andere toegankelijkheidsproblemen die rilling veroorzaken.",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de handen rotatie versoepeld is. Dit kan helpen voor gebruikers met handtrillingen en andere toegankelijkheidsproblemen die rilling veroorzaken.",
 
-        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Voeten Positie Smoothing",
-        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Voeten Rotatie Smoothing",
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Voeten Positie Versoepeling",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Voeten Rotatie Versoepeling",
 
-        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de voeten positie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
-        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de voeten rotatie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de voeten positie versoepeld is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de voeten rotatie versoepeld is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
 
-        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Heupen Positie Smoothing",
-        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Heupen Rotatie Smoothing",
-        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de heupen positie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
-        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de heupen rotatie smoothed is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Heupen Positie Versoepeling",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Heupen Rotatie Versoepeling",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de heupen positie versoepeld is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de heupen rotatie versoepeld is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
 
         "Settings.MediaPrivacySettings": "Media Privacy",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Niet in media metadata voorkomen",
-        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Wanneer je deze optie aanzet, kom je niet voor in de metadata van media (meestal virtuele fotos en audio-opnamen). Je bent er nog steeds in te zien of horen, maar geen verdere informatie, zoals je UserID en positie in de scene worden ermee opgeslagen.\n\nAls je merkt dat andere gebruikers hun client aanpassen om deze optie te negeren, rapporteer ze aan het moderatieteam, omdat dit gezien wordt als intimidatie.",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Wanneer je deze optie aanzet, kom je niet voor in de metadata van media (meestal virtuele fotos en audio-opnamen). Je bent er nog steeds in te zien of horen, maar geen verdere informatie, zoals je UserID en positie in de scene worden ermee opgeslagen.\n\nAls je merkt dat andere gebruikers hun client aanpassen om deze optie te negeren, rapporteer ze aan het handhavingsteam, omdat dit gezien wordt als intimidatie.",
         "Settings.MediaPrivacySettings.HideInScreenshots": "Laat me niet zien in screenshots",
-        "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Wanneer deze optie aan staat, kom je niet voor in screenshots die in-game gemaakt zijn.\n\n<color=hero.red>BELANGRIJK:</color> Wees ervan bewust dat dit geen invloed heeft op realtime cameras, screenshots die buiten Resonite gemaakt zijn of opnames die gemaakt zijn door andere methodes in een wereld, die mogelijk onderdeel zijn van de functies van een wereld.",
+        "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Wanneer deze optie aan staat, kom je niet voor in screenshots die in-game gemaakt zijn.\n\n<color=hero.red>BELANGRIJK:</color> Wees ervan bewust dat dit geen invloed heeft op realtime cameras, screenshots die buiten {appName} gemaakt zijn of opnames die gemaakt zijn door andere methodes in een wereld, die mogelijk onderdeel zijn van de functies van een wereld.",
 
         "Settings.MediaPrivacySettings.StripImageFileMetadata": "Metadata van afbeeldingen weghalen bij importeren",
         "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "Wanneer dit aan staat wordt metadata van afbeeldingen verwijderd bij <b>importeren</b>.\n\nDit bevat EXIF, ingebouwd commentaar, IPTC, XMP, en GEOTIFF metadata.\n\nHiermee worden ook locatiegegevens (zoals GPS) binnen die metadata verwijderd\n\nDit heeft <b>geen</b> invloed op bestanden die geïmporteerd zijn met de optie \"Onbewerkt Bestand\".",
@@ -1379,10 +1380,10 @@
         "Settings.SteamIntegrationSettings": "Steam Integratie",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Bepaalt welke informatie Resonite naar Discord's Rich Presence systeem verstuurt.\n\n<color=hero.yellow>Geen</color> - Stuur geen Rich Presence informatie naar Discord.\n<color=hero.yellow>Basis</color> - Stuur alleen gelimiteerde details zoals dat je in Resonite bent.\n<color=hero.yellow>Volledig</color> - Wanneer je in een publieke sessie bent, stuur alle geschikte sessie informatie naar Discord. Dit bevat de wereld naam en hoeveel gebruikers er in de sessie zijn.\n\nDiscord zelf detecteert ook welk spel je aan het spelen bent. Dit kan uitgezet worden in de instellingen van Discord.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Bepaalt welke informatie {appName} naar Discord's Rich Presence systeem verstuurt.\n\n<color=hero.yellow>Geen</color> - Stuur geen Rich Presence informatie naar Discord.\n<color=hero.yellow>Basis</color> - Stuur alleen gelimiteerde details zoals dat je in {appName} bent.\n<color=hero.yellow>Volledig</color> - Wanneer je in een publieke sessie bent, stuur alle geschikte sessie informatie naar Discord. Dit bevat de wereld naam en hoeveel gebruikers er in de sessie zijn.\n\nDiscord zelf detecteert ook welk spel je aan het spelen bent. Dit kan uitgezet worden in de instellingen van Discord.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "Bepaalt welke informatie Resonite naar Steam's Rich Presence systeem verstuurt.\n\n<color=hero.yellow>Geen</color> - Stuur geen Rich Presence informatie naar Steam.\n<color=hero.yellow>Basis</color> - Stuur alleen gelimiteerde details zoals dat je in Resonite bent.\n<color=hero.yellow>Volledig</color> - Wanneer je in een publieke sessie bent, stuur alle geschikte sessie informatie naar Discord. Dit bevat de wereld naam en hoeveel gebruikers er in de sessie zijn.\n\nSteam laat zelf ook zien dat je Resonite aan het spelen bent, onafhankelijk van deze instelling. Deze instelling bepaalt alleen maar hoeveel extra gegevens er naar Steam gestuurd worden over je huidige sessie.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Bepaalt welke informatie {appName} naar Steam's Rich Presence systeem verstuurt.\n\n<color=hero.yellow>Geen</color> - Stuur geen Rich Presence informatie naar Steam.\n<color=hero.yellow>Basis</color> - Stuur alleen gelimiteerde details zoals dat je in {appName} bent.\n<color=hero.yellow>Volledig</color> - Wanneer je in een publieke sessie bent, stuur alle geschikte sessie informatie naar Discord. Dit bevat de wereld naam en hoeveel gebruikers er in de sessie zijn.\n\nSteam laat zelf ook zien dat je {appName} aan het spelen bent, onafhankelijk van deze instelling. Deze instelling bepaalt alleen maar hoeveel extra gegevens er naar Steam gestuurd worden over je huidige sessie.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Sla Screenshots Op",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Wanneer je een screenshot maakt met deze instelling aan, wordt een kopie opgeslagen in Steam Screenshots.",
@@ -1394,14 +1395,14 @@
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Wanneer dit aan staat, kan een Leap Motion apparaat gebruikt worden om je handen en vingers te tracken.",
         "Settings.LeapMotionSettings.Offset": "Hand tracking compensatie",
         "Settings.LeapMotionSettings.Offset.Description": "Dit is de compensatie in meters van de Leap Motion sensor op je VR headset. Pas deze waarde aan om ervoor te zorgen dat je handen de correcte positie hebben.",
-        "Settings.LeapMotionSettings.SnapDistance": "Controller snapping afstand",
+        "Settings.LeapMotionSettings.SnapDistance": "Afstand voor controller gebruiken",
         "Settings.LeapMotionSettings.SnapDistance.Description": "Als je handen in de buurt zijn van controllers, zullen ze automatisch overgaan op de tracking data van de controllers, in plaats van Leap Motion. Dit bepaalt de afstand waarop de handen overgaan.",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Track vingers terwijl je controllers gebruikt",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "Wanneer je handen de positie van de controllers gebruiken, kan je hiermee de vinger data gebruiken van Leap Motion.",
 
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Vive hand tracking",
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "Wanneer dit aan staat, worden je handen en vingers getracked met Vive hand tracking. Dit gebruikt gewoonlijk de cameras op de VR headset zelf. Mogelijk moet je de hand tracking of cameras aanzetten in SteamVR instellingen.",
-        "Settings.ViveHandTrackingSettings.SnapDistance": "Controller snapping afstand",
+        "Settings.ViveHandTrackingSettings.SnapDistance": "Afstand voor controller gebruiken",
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Als je handen in de buurt zijn van controllers, zullen ze automatisch overgaan op de tracking data van de controllers, in plaats van de headset cameras. Dit bepaalt de afstand waarop de handen overgaan.",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Track vingers terwijl je controllers gebruikt",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "Wanneer je handen de positie van de controllers gebruiken, kan je hiermee de vinger data gebruiken van de VR headset cameras.",
@@ -1533,7 +1534,7 @@
         "Settings.AudioVolumeSettings.MultimediaVolume": "Multimediavolume",
         "Settings.AudioVolumeSettings.MultimediaVolume.Description": "Pas het volume van verschillende multimedia aan. Meestal zijn dit audio, video, en muziekspelers, inclusief achtergrondmuziek in de wereld.",
         "Settings.AudioVolumeSettings.VoiceVolume": "Stemvolume",
-        "Settings.AudioVolumeSettings.VoiceVolume.Description": "Pas het volume van de stem van alle andere gebruikers aan. In sommige gevallen past deze instelling ook het volume van stemopnames aan. Je kan ook het volume van individuele gebruikers aanpassen, in de sessie pagina op je dash.",
+        "Settings.AudioVolumeSettings.VoiceVolume.Description": "Pas het volume van de stem van alle andere gebruikers aan. In sommige gevallen past deze instelling ook het volume van stemopnames aan. Het volume van individuele gebruikers kan ook aangepast worden in de sessie tab van je dash.",
         "Settings.AudioVolumeSettings.UserInterfaceVolume": "UI-volume",
         "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "Pas het volume aan van geluidseffecten van UI - knoppen indrukken, sliders, sommige interacties met gereedschappen, fotos maken en meer.",
 
@@ -1600,9 +1601,9 @@
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Sta websockets toe",
         "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Dit bepaalt of realtime Websocket verbindingen toegestaan worden voor deze host. Deze worden vaak gebruikt voor realtime bidirectionele communicaties en datastromen.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Sta ontvangen via OSC toe",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Dit bepaalt of Resonite OSC data mag ontvangen en verwerken voor deze host",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Dit bepaalt of {appName} OSC data mag ontvangen en verwerken voor deze host",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Sta versturen via OSC toe",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Dit bepaalt of Resonite OSC data mag versturen naar deze host",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Dit bepaalt of {appName} OSC data mag versturen naar deze host",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Laatste hyperlink aanvraag reden",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Laatste websocket aanvraag reden",
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Laatste OSC Sender aanvraag reden",
@@ -1625,7 +1626,10 @@
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Gebruik oude opslag & sessie snelkoppeling gebaar",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Wanneer dit aan staat, als je grip vasthoudt en op de App knop drukt (die normaal de dash opent/sluit), open je de oude opslag of het oude sessie menu.",
 
-        "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Channel Naam",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Forceer voeten-simulatie uit",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Deze optie zorgt ervoor dat oudere voorwerpen zoals poseer-systemen blijven werken, zonder ze aan te passen. <br><br>Als je dit aan zet zonder poseer-systemen te gebruiken, zullen de animaties er NIET correct uitzien. Zet dit uit nadat je klaar bent met poseer-systemen gebruiken. <br><br><color=hero.red>BELANGRIJK:</color> Dit wordt in de toekomst waarschijnlijk verwijderd. We raden aan poseer-systemen te updaten, zodat de simulatie automatisch uitgezet wordt wanneer ze actief zijn.",
+
+        "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Kanaal Naam",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Dit stelt de standaard naam in voor de Twitch chat in het camera-besturing paneel. Dit wordt vooral gebruikt door Twitch streamers die hun chat willen zien.",
 
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Stuur geen realtime gelezen status",
@@ -1665,6 +1669,8 @@
         "Settings.NotificationSettings.PublicSessionStarted.Description": "Dit bepaalt welke notificaties je krijgt wanneer een nieuwe publieke sessie is gestart door iemand die niet in je contactenlijst staat.",
         "Settings.NotificationSettings.UserJoinAndLeave": "Gebruikers toetreden & verlaten",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Wanneer dit aan staat, krijg je notificaties wanneer gebruikers de wereld waar je in zit toetreden of verlaten.",
+        "Settings.NotificationSettings.PermissionChanged": "Rechten Veranderd",
+        "Settings.NotificationSettings.PermissionChanged.Description": "Wanneer dit aan staat, krijg je notificaties wanneer je rechten zijn veranderd in een wereld. Bijv. wanneer je van Guest naar Builder gezet wordt.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Naamborden Zichtbaarheid",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Gebruik dit om te bepalen welke naamborden zichtbaar zijn voor jou.",
@@ -1730,6 +1736,10 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "Gezichtsveld",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Gebruik dit om het gezichtsveld (FOV) aan te passen in bureaubladmodus. Hogere waarden geven je een groter zicht, ten koste van grotere vervorming aan de zijkanten.",
+
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Gezichtsveld vergroten tijdens rennen",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Wanneer deze optie aan staat, zal {appName} je gezichtsveld vergroten tijdens rennen in <b>Bureaubladmodus</b>.\nZet deze optie uit om het effect weg te halen.\nDit heeft <b>GEEN</b> invloed op effecten in voorwerpen van gebruikers.",
+        
         "Settings.DesktopRenderSettings.VSync": "Verticale Synchronisatie",
         "Settings.DesktopRenderSettings.VSync.Description": "Wanneer deze optie aan staat, wordt de framerate van het spel gesynchroniseerd met ververssnelheid van je scherm. Door dit uit te zetten kunnen beelden sneller verwerkt worden, maar dat kan ook scheuren veroorzaken.\n\nDit kan handig zijn voor prestatietesten, omdat de framerate en updatesnelheid niet meer limiteert.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Limiteer framerate in de achtergrond",
@@ -1923,6 +1933,7 @@
         "Inspector.Member.SetAllToY": "Stel alles in naar Y",
         "Inspector.Member.SetAllToZ": "Stel alles in naar Z",
         "Inspector.Member.SetAllToW": "Stel alles in naar W",
+        "Inspector.Member.Normalize": "Normaliseer",
         "Inspector.Member.BakeBlendshape": "Bak blendshape",
         "Inspector.Member.RemoveBlendshape": "Verwijder blendshape",
         "Inspector.Member.SplitBlendshape.X": "Split blendshape over X",
@@ -1976,6 +1987,8 @@
 
         "Inspector.MeshCollider.VHACD": "Convex Hull Ontbinding (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Vervang door Box Collider",
+
+        "Inspector.Texture3D.SpawnVisualizer" : "Spawn Visualisatie",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Update locomototie-modules op de aanwezige gebruikers",
 
@@ -2259,7 +2272,7 @@
         "VolumePlaneSlicer.Slicer": "Snijd",
 
         "Tutorial.Welcome.Welcome": "Welkom!",
-        "Tutorial.Welcome.Description": "Duik in een gloednieuw digitaal universum met oneindige mogelijkheden. Of je hier komt om te socialiseren en met mensen van over de hele wereld rond te hangen, of alles van prachtige kunst, interactieve avatars en gadgets, tot complexe interactieve werelden en spellen te maken, Resonite is oneindig aanpasbare plek waar je welkom bent, en een groep vindt om mee te resoneren.<br><br>Voordat je begint met verkennen, helpen we jou eerst met wat essentiële dingen, om voor een soepele ervaring te zorgen. Als je klaar bent, klik op de knop hieronder",
+        "Tutorial.Welcome.Description": "Duik in een gloednieuw digitaal universum met oneindige mogelijkheden. Of je hier komt om te socialiseren en met mensen van over de hele wereld rond te hangen, of alles van prachtige kunst, interactieve avatars en gadgets, tot complexe interactieve werelden en spellen te maken, {appName} is oneindig aanpasbare plek waar je welkom bent, en een groep vindt om mee te resoneren.<br><br>Voordat je begint met verkennen, helpen we jou eerst met wat essentiële dingen, om voor een soepele ervaring te zorgen. Als je klaar bent, klik op de knop hieronder",
         "Tutorial.Welcome.Begin": "Laten we beginnen!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} account",
