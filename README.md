@@ -2,30 +2,30 @@
 This repository contains the locale assets for the core UI of [Resonite](https://resonite.com) and allows anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (STEAM) and other platforms.
 
 ## Localization Status
-Czech [cs] - 64.6% - Missing keys: 820  
-German [de] - 94.3% - Missing keys: 133  
-English (United Kingdom) [en-gb] - 1.8% - Missing keys: 2274  
-English [en] - 94.3% - Missing keys: 131  
-Esperanto [eo] - 65.0% - Missing keys: 810  
-Spanish [es] - 93.6% - Missing keys: 149  
-Estonian [et] - 33.2% - Missing keys: 1546  
-Finnish [fi] - 83.5% - Missing keys: 383  
-French [fr] - 94.3% - Missing keys: 133  
-Hungarian [hu] - 27.9% - Missing keys: 1670  
-Icelandic [is] - 24.7% - Missing keys: 1743  
-Japanese [ja] - 94.3% - Missing keys: 133  
-Korean [ko] - 94.3% - Missing keys: 133  
-Dutch [nl] - 42.2% - Missing keys: 1338  
-Norwegian [no] - 63.1% - Missing keys: 854  
-Polish [pl] - 94.3% - Missing keys: 133  
-Portuguese (Brazil) [pt-br] - 63.1% - Missing keys: 855  
-Russian [ru] - 94.2% - Missing keys: 134  
-Swedish [sv] - 26.8% - Missing keys: 1694  
+Czech [cs] - 68.4% - Missing keys: 731  
+German [de] - 100.0% - Missing keys: 1  
+English (United Kingdom) [en-gb] - 2.0% - Missing keys: 2269  
+English [en] - 100.0% - Missing keys: 1  
+Esperanto [eo] - 69.8% - Missing keys: 700  
+Spanish [es] - 98.3% - Missing keys: 39  
+Estonian [et] - 35.6% - Missing keys: 1491  
+Finnish [fi] - 87.6% - Missing keys: 287  
+French [fr] - 100.0% - Missing keys: 1  
+Hungarian [hu] - 28.5% - Missing keys: 1655  
+Icelandic [is] - 26.7% - Missing keys: 1696  
+Japanese [ja] - 99.9% - Missing keys: 3  
+Korean [ko] - 99.9% - Missing keys: 3  
+Dutch [nl] - 44.7% - Missing keys: 1281  
+Norwegian [no] - 67.0% - Missing keys: 765  
+Polish [pl] - 99.8% - Missing keys: 4  
+Portuguese (Brazil) [pt-br] - 66.9% - Missing keys: 766  
+Russian [ru] - 99.0% - Missing keys: 24  
+Swedish [sv] - 27.5% - Missing keys: 1679  
 Thai [th] - 3.0% - Missing keys: 2246  
-Turkish [tr] - 33.1% - Missing keys: 1549  
-Ukrainian [uk] - 52.1% - Missing keys: 1110  
-Chinese (Simplified, Mainland China) [zh-cn] - 94.3% - Missing keys: 133  
-Chinese (Traditional, Taiwan) [zh-tw] - 63.3% - Missing keys: 849  
+Turkish [tr] - 35.1% - Missing keys: 1503  
+Ukrainian [uk] - 56.6% - Missing keys: 1004  
+Chinese (Simplified, Mainland China) [zh-cn] - 100.0% - Missing keys: 1  
+Chinese (Traditional, Taiwan) [zh-tw] - 67.2% - Missing keys: 760  
 
 Total keys: 2315
 
