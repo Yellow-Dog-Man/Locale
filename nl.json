@@ -716,6 +716,13 @@
         "Undo.ExtractMaterialsFromHierarchy": "Materialen uit hiërarchie halen",
         "Undo.BatchConvertMaterials": "Materialen als groep omzetten",
 
+        "Tools.Brush.ChangeColor": "Verander Kleur",
+        "Tools.Brush.IncrementSize": "Groter",
+        "Tools.Brush.DecrementSize": "Kleiner",
+
+        "Tools.GeometryLineBrush.Name": "Geometrie Lijn Penseel Gereedschap",
+
+        "Tools.Dev.Name": "Ontwikkelaarsgereedschap",
         "Tools.Dev.CreateNew": "Maak nieuw...",
         "Tools.Dev.Selection": "Selectie: {mode}",
         "Tools.Dev.DevMode.Off": "Ontwikkelaarsmodus: Uit",
@@ -725,13 +732,30 @@
         "Tools.Dev.DestroySelected": "Verwijder geselecteerde",
         "Tools.Dev.ConfirmDestroySelected": "ECHT Geselecteerde Vernietigen",
 
-        "Tools.Color.Picker": "Kleur kiezer",
+        "Tools.Dev.GizmoOptions": "Gizmo Opties",
+        "Tools.Dev.SelectParent": "Selecteer Parent",
+        "Tools.Dev.LocalSpace": "Lokale Ruimte",
+        "Tools.Dev.GlobalSpace": "Globale Ruimte",
+        "Tools.Dev.Translation": "Vertaling",
+        "Tools.Dev.Rotation": "Rotatie",
+        "Tools.Dev.Scale": "Schaal",
 
+        "Tools.Dev.Selection.Single": "Enkele",
+        "Tools.Dev.Selection.Multi": "Meerderen",
+
+        "Tools.Dev.Interaction.Tip": "Punt",
+        "Tools.Dev.Interaction.Projection": "Projectie",
+
+        "Tools.Color.Name": "Kleur Gereedschap",
+        "Tools.Color.Picker": "Kleurenpallet",
+
+        "Tools.GrabbableSetter.Name": "Vastpakbaar Instellen Gereedschap",
         "Tools.GrabbableSetter.Scalable": "Schaalbaar instellen",
         "Tools.GrabbableSetter.NonScalable": "Niet-schaalbaar instellen",
         "Tools.GrabbableSetter.ApplyToRoot": "Stel Toepassen op Root in",
         "Tools.GrabbableSetter.AppyToHit": "Stel Toepassen op Hit in",
 
+        "Tools.CharacterCollider.Name": "Fysieke Collisie Instellen Gereedschap",
         "Tools.CharacterCollider.MarkGrippable": "Markeer Grijpbaar",
         "Tools.CharacterCollider.DontMarkGrippable": "Markeer Niet-Grijpbaar",
         "Tools.CharacterCollider.EnsureWalkRun": "Verzeker loop- / renbeweging",
@@ -742,15 +766,25 @@
         "Tools.Light.Spot": "Spot",
         "Tools.Light.Sun": "Zon",
 
+        "Tools.Light.Name": "Licht Gereedschap",
+        "Tools.Light.Shadows.None": "Geen Schaduwen",
+        "Tools.Light.Shadows.Hard": "Harde Schaduwen",
+        "Tools.Light.Shadows.Soft": "Zachte Schaduwen",
+
+        "Tools.MeshVisibility.Name": "Mesh Zichtbaarheid Gereedschap",
         "Tools.MeshVisibility.KeepShadow": "Behoud schaduw",
         "Tools.MeshVisibility.ShadowOff": "Zet schaduwen Uit",
         "Tools.MeshVisibility.ShadowOn": "Zet schaduwen Aan",
         "Tools.MeshVisibility.OnlyShadow": "Stel in op alleen schaduwen",
         "Tools.MeshVisibility.DoubleSidedShadow": "Stel in op dubbelzijdige schaduw",
 
+        "Tools.Mesh.Name": "Mesh Gereedschap",
+
+        "Tools.Slicer.Name": "Mesh Snijder Gereedschap",
         "Tools.Slicer.Add": "Voeg Slicer toe",
         "Tools.Slicer.Clear": "Wis instellingen",
 
+        "Tools.Material.Name": "Materiaal Gereedschap",
         "Tools.Material.RayMode": "Ray-modus",
         "Tools.Material.AreaMode": "Gebiedsmodus",
         "Tools.Material.ObjectMode": "Globale objectmodus",
@@ -763,6 +797,9 @@
 
         "Tools.Mesh.Edit": "Bewerk Mesh",
 
+        "Tools.Cartridge.Eject": "Bol uitwerpen",
+
+        "Tools.Microphone.Name": "Microfoon",
         "Tools.Microphone.Format.WAV": "WAV",
         "Tools.Microphone.Format.Vorbis": "OGG Vorbis",
         "Tools.Microphone.Format.FLAC": "FLAC",
@@ -771,53 +808,53 @@
         "Tools.Microphone.SourceRaw": "Rauw",
         "Tools.Microphone.SourceFiltered": "Gefilterd & Genormaliseerd",
 
-        "Tooltip.ProtoFlux.Name": "ProtoFlux Gereedschap",
-        "Tooltip.ProtoFlux.Drive": "Overschrijven",
-        "Tooltip.ProtoFlux.Source": "Bron",
-        "Tooltip.ProtoFlux.Reference": "Referentie",
-        "Tooltip.ProtoFlux.Write": "Schrijven",
-        "Tooltip.ProtoFlux.Proxy": "Proxy",
-        "Tooltip.ProtoFlux.CreateLocal": "Maak Local",
-        "Tooltip.ProtoFlux.CreateStore": "Maak Store",
-        "Tooltip.ProtoFlux.CreateDataModelStore": "Maak Data Model Store",
-        "Tooltip.ProtoFlux.Overview": "Overzichtsmodus aan/uitzetten",
-        "Tooltip.ProtoFlux.NodeBrowser": "Nodes doorzoeken",
-        "Tooltip.ProtoFlux.PackInPlace": "Hier inpakken",
-        "Tooltip.ProtoFlux.PackInto": "Inpakken naar <size=50%>{name}</size>",
-        "Tooltip.ProtoFlux.Unpack": "Uitpakken van <size=50%>{name}</size>",
-        "Tooltip.ProtoFlux.ExplicitCast": "Expliciet Overzetten\n<size=50%>(<color=red>Waarschuwing:</color> Mogelijk Gegevensverlies)</size>",
+        "Tools.ProtoFlux.Name": "ProtoFlux Gereedschap",
+        "Tools.ProtoFlux.Drive": "Overschrijven",
+        "Tools.ProtoFlux.Source": "Bron",
+        "Tools.ProtoFlux.Reference": "Referentie",
+        "Tools.ProtoFlux.Write": "Schrijven",
+        "Tools.ProtoFlux.Proxy": "Proxy",
+        "Tools.ProtoFlux.CreateLocal": "Maak Local",
+        "Tools.ProtoFlux.CreateStore": "Maak Store",
+        "Tools.ProtoFlux.CreateDataModelStore": "Maak Data Model Store",
+        "Tools.ProtoFlux.Overview": "Overzichtsmodus aan/uitzetten",
+        "Tools.ProtoFlux.NodeBrowser": "Nodes doorzoeken",
+        "Tools.ProtoFlux.PackInPlace": "Hier inpakken",
+        "Tools.ProtoFlux.PackInto": "Inpakken naar <size=50%>{name}</size>",
+        "Tools.ProtoFlux.Unpack": "Uitpakken van <size=50%>{name}</size>",
+        "Tools.ProtoFlux.ExplicitCast": "Expliciet Overzetten\n<size=50%>(<color=red>Waarschuwing:</color> Mogelijk Gegevensverlies)</size>",
 
-        "Tooltip.Meter.Mode.Ray": "Modus: Ray",
-        "Tooltip.Meter.Mode.Perpendicular": "Modus: Loodrecht",
-        "Tooltip.Meter.Mode.Drag": "Modus: Slepen",
+        "Tools.Meter.Mode.Ray": "Modus: Ray",
+        "Tools.Meter.Mode.Perpendicular": "Modus: Loodrecht",
+        "Tools.Meter.Mode.Drag": "Modus: Slepen",
 
-        "Tooltip.Meter.Points.Two": "Twee Punten",
-        "Tooltip.Meter.Points.Multiple": "Meerdere Punten",
+        "Tools.Meter.Points.Two": "Twee Punten",
+        "Tools.Meter.Points.Multiple": "Meerdere Punten",
 
-        "Tooltip.Meter.Name": "Meet Gereedschap",
-        "Tooltip.Meter.ObjectSpace": "Meet in Objectspace",
-        "Tooltip.Meter.WorldSpace": "Meet in Worldspace",
+        "Tools.Meter.Name": "Meet Gereedschap",
+        "Tools.Meter.ObjectSpace": "Meet in Objectspace",
+        "Tools.Meter.WorldSpace": "Meet in Worldspace",
 
-        "Tooltip.Glue.Name": "Lijm Gereedschap",
-        "Tooltip.Glue.Mode.BakeMeshes": "Modus: Bak meshes",
-        "Tooltip.Glue.Mode.BakeSkinnedMeshes": "Modus: Bak skinned meshes",
-        "Tooltip.Glue.Mode.ParentObjects": "Modus: Parent objecten",
+        "Tools.Glue.Name": "Lijm Gereedschap",
+        "Tools.Glue.Mode.BakeMeshes": "Modus: Bak meshes",
+        "Tools.Glue.Mode.BakeSkinnedMeshes": "Modus: Bak skinned meshes",
+        "Tools.Glue.Mode.ParentObjects": "Modus: Parent objecten",
 
-        "Tooltip.RigTransfer.Name": "Rigged Mesh Overdracht Gereedschap",
-        "Tooltip.RigTransfer.ClearSource": "Verwijder bron",
+        "Tools.RigTransfer.Name": "Rigged Mesh Overdracht Gereedschap",
+        "Tools.RigTransfer.ClearSource": "Verwijder bron",
 
-        "Tooltip.ComponentClone.Name": "Component Kloon Gereedschap",
-        "Tooltip.ComponentClone.SingleInstanceOn": "Enkel Exemplaar: Aan",
-        "Tooltip.ComponentClone.SingleInstanceOff": "Enkel Exemplaar: Uit",
-        "Tooltip.ComponentClone.ClearTemplate": "Verwijder voorbeeld",
+        "Tools.ComponentClone.Name": "Component Kloon Gereedschap",
+        "Tools.ComponentClone.SingleInstanceOn": "Enkel Exemplaar: Aan",
+        "Tools.ComponentClone.SingleInstanceOff": "Enkel Exemplaar: Uit",
+        "Tools.ComponentClone.ClearTemplate": "Verwijder voorbeeld",
 
-        "Tooltip.Shape.Name": "Vorm Gereedschap",
+        "Tools.Shape.Name": "Vorm Gereedschap",
 
-        "Tooltip.CameraObjectHider.Name": "Camera Object Zichtbaarheid Gereedschap",
+        "Tools.CameraObjectHider.Name": "Camera Object Zichtbaarheid Gereedschap",
 
-        "Tooltip.ControllerDiagnostic.Name": "Diagnotisch Gereedschap Voor Controllers",
+        "Tools.ControllerDiagnostic.Name": "Diagnotisch Gereedschap Voor Controllers",
 
-        "Tooltip.Labeler.Name": "Label Gereedschap",
+        "Tools.Labeler.Name": "Label Gereedschap",
 
         "ProtoFlux.UI.Call": "Aanroepen",
         "ProtoFlux.UI.AsyncCall": "<size=50%>Asynchroon</size> Aanroepen",
@@ -1341,6 +1378,8 @@
         "Settings.MouseSettings.MouseRotateSpeed.Description": "Wanneer je een voorwerp vasthoudt in bureaubladmodus, bepaalt dit hoe snel ze rond hun as draaien met de muis.",
         "Settings.MouseSettings.MouseFreeformRotateSpeed": "Vrije vorm draaisnelheid",
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "Wanneer je een voorwerp vasthoudt in bureaubladmodus, bepaalt dit hoe snel ze ronddraaien met vrije vorm.",
+        "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "Vastpakken beweegsnelheid",
+        "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "Wanneer je voorwerpen vasthoud in bureaubladmodus, bepaalt dit hoe snel ze naar voren en achter bewegen met het scrollwiel op je muis.",
 
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Controller trillingen",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Gebruik dit om haptische trillingen aan of uit te zetten specifiek voor VR controllers.",
@@ -2710,26 +2749,26 @@
         "Tools.Names.ManipulationTools": "Manipulatiegereedschappen",
         "Tools.Names.InformationTools": "Informatiegereedschappen",
 
-        "Tools.Names.GeometryLineBrush": "Geometrie Lijn Penseel Gereedschap",
-        "Tools.Names.Developer": "Ontwikkelaarsgereedschap",
-        "Tools.Names.ComponentClone": "Component Kloon Gereedschap",
-        "Tools.Names.ProtoFlux": "ProtoFlux Gereedschap",
-        "Tools.Names.Material": "Materiaal Gereedschap",
-        "Tools.Names.Glue": "Lijm Gereedschap",
-        "Tools.Names.Light": "Licht Gereedschap",
-        "Tools.Names.Shape": "Vorm Gereedschap",
-        "Tools.Names.Microphone": "Microfoon",
-        "Tools.Names.GrabbableSetter": "Vastpakbaar Instellen Gereedschap",
-        "Tools.Names.PhysicalColliderSetter": "Fysieke Collisie Instellen Gereedschap",
-        "Tools.Names.MeshVisibility": "Mesh Zichtbaarheid Gereedschap",
-        "Tools.Names.CameraObjectVisibility": "Camera Object Zichtbaarheid Gereedschap",
-        "Tools.Names.Color": "Kleur Gereedschap",
-        "Tools.Names.Mesh": "Mesh Gereedschap",
-        "Tools.Names.RiggedMeshTransfer": "Rigged Mesh Overdracht Gereedschap",
-        "Tools.Names.Slicer": "Mesh Snijder Gereedschap",
-        "Tools.Names.ControllerDiagnostic": "Diagnotisch Gereedschap Voor Controllers",
-        "Tools.Names.Measure": "Meet Gereedschap",
-        "Tools.Names.Label": "Label Gereedschap",
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
         "Discord.RichPresence.InPrivateWorld": "In privé wereld",
         "Discord.RichPresence.InPrivateLargeText": "In privé ({version})",
