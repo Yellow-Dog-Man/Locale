@@ -2,27 +2,10 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Finnish [fi]
-Interaction.NamedEquipTools.Default  
 World.Connection.LNL.LNLPoke  
-World.Error.Handshake  
-World.Error.FailedToCreateBanAccessKey  
+World.Error.UnhandledError  
 World.Actions.GuestWarning  
-World.Edit.ReadOnly  
 Contacts.Unblocked  
-Notifications.PermissionChanged  
-Notifications.PermissionChangedDetail  
-Tools.GeometryLineBrush.Name  
-Tools.Dev.Name  
-Tools.Color.Name  
-Tools.GrabbableSetter.Name  
-Tools.CharacterCollider.Name  
-Tools.Light.Name  
-Tools.MeshVisibility.Name  
-Tools.Mesh.Name  
-Tools.Slicer.Name  
-Tools.Material.Name  
-Tools.Microphone.Name  
-Tools.ProtoFlux.Name  
 Tools.ProtoFlux.Drive  
 Tools.ProtoFlux.Source  
 Tools.ProtoFlux.Reference  
@@ -37,14 +20,6 @@ Tools.ProtoFlux.PackInPlace
 Tools.ProtoFlux.PackInto  
 Tools.ProtoFlux.Unpack  
 Tools.ProtoFlux.ExplicitCast  
-Tools.Meter.Name  
-Tools.Glue.Name  
-Tools.RigTransfer.Name  
-Tools.ComponentClone.Name  
-Tools.Shape.Name  
-Tools.CameraObjectHider.Name  
-Tools.ControllerDiagnostic.Name  
-Tools.Labeler.Name  
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
@@ -52,10 +27,14 @@ Importer.Slices.Title
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
 Settings.FullBodyTrackingSettings  
-Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
-Settings.MouseSettings.ScrollWheelGrabMoveSpeed  
-Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description  
+Settings.KeyboardLookSettings  
+Settings.KeyboardLookSettings.LookEnabled  
+Settings.KeyboardLookSettings.LookEnabled.Description  
+Settings.KeyboardLookSettings.HorizontalSpeed  
+Settings.KeyboardLookSettings.HorizontalSpeed.Description  
+Settings.KeyboardLookSettings.VericalSpeed  
+Settings.KeyboardLookSettings.VerticalSpeed.Description  
 Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description  
 Settings.HapticPointMapping.HeadPitchAngle.Description  
 Settings.HapticPointMapping.HeadYawAngle.Description  
@@ -93,10 +72,11 @@ Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description
 Settings.HostAccessSettings.Entries.AllowWebsockets.Description  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.DebugInputBindings.Description  
+Settings.DebugSettings.ConvertParticleSystems  
+Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
-Settings.LegacyFeatureSettings.SuppressFeetSimulation  
 Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description  
@@ -116,8 +96,6 @@ Settings.NotificationSettings.ContactRequest.Description
 Settings.NotificationSettings.ContactSessionStarted.Description  
 Settings.NotificationSettings.PublicSessionStarted.Description  
 Settings.NotificationSettings.UserJoinAndLeave.Description  
-Settings.NotificationSettings.PermissionChanged  
-Settings.NotificationSettings.PermissionChanged.Description  
 Settings.NamePlateSettings.NameplateVisibility.Description  
 Settings.NamePlateSettings.UseCustomNameplates.Description  
 Settings.CustomizationSettings.UserInterfaceEditMode.Description  
@@ -215,12 +193,10 @@ Inspector.Slot.ParentUnder.LocalUserSpace
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
 Inspector.Member.BreakLinkDrive  
 Inspector.Member.OpenLinkDrive  
-Inspector.Member.Normalize  
 Inspector.Mesh.ReverseWinding  
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  
 Inspector.Mesh.UV_Multiplicator  
-Inspector.Texture3D.SpawnVisualizer  
 Inspector.VHACD.Parameter.PlaneDownsampling  
 Inspector.VHACD.Parameter.ConvexHullDownsampling  
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
@@ -249,6 +225,8 @@ Inspector.DataPreset.SetValues
 Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.ParticleSystem.BasicInfo  
+Inspector.ParticleSystem.TrailInfo  
 Inspector.Collider.SetFromLocalBounds  
 Inspector.Collider.SetFromGlobalBounds  
 Inspector.Collider.SetFromLocalBoundsPrecise  

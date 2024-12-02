@@ -17,7 +17,6 @@ Worlds.Home
 Worlds.Tutorial  
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
-Interaction.NamedEquipTools.Default  
 Interaction.CopyImage  
 Inventory.OpenWorld  
 Inventory.Equip  
@@ -58,6 +57,7 @@ World.Error.WorldCrash
 World.Error.WorldCrashDetail  
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
+World.Error.UnhandledError  
 World.Category.ContactsSessions  
 World.Category.GroupWorlds  
 World.AccessLevel.Contacts  
@@ -455,6 +455,13 @@ Settings.MouseSettings.MouseFreeformRotateSpeed
 Settings.MouseSettings.MouseFreeformRotateSpeed.Description  
 Settings.MouseSettings.ScrollWheelGrabMoveSpeed  
 Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description  
+Settings.KeyboardLookSettings  
+Settings.KeyboardLookSettings.LookEnabled  
+Settings.KeyboardLookSettings.LookEnabled.Description  
+Settings.KeyboardLookSettings.HorizontalSpeed  
+Settings.KeyboardLookSettings.HorizontalSpeed.Description  
+Settings.KeyboardLookSettings.VericalSpeed  
+Settings.KeyboardLookSettings.VerticalSpeed.Description  
 Settings.GeneralHapticsSettings.EnableControllerVibration  
 Settings.GeneralHapticsSettings.EnableControllerVibration.Description  
 Settings.GeneralHapticsSettings.EnableHaptics  
@@ -688,6 +695,8 @@ Settings.WindowsSettings.KeepOriginalScreenshotFormat
 Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.DebugInputBindings.Description  
+Settings.DebugSettings.ConvertParticleSystems  
+Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
@@ -981,6 +990,8 @@ Inspector.DataPreset.SetValues
 Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.ParticleSystem.BasicInfo  
+Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.ClearFades  
 Inspector.SimpleAwayIndicator.TestAway  
 Inspector.SimpleAwayIndicator.TestRestore  

@@ -1,6 +1,6 @@
 {
     "localeCode": "en",
-    "authors": ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus", "Earthmark", "Ryuvi", "Nammi", "WattleFoxxo", "StiefelJackal", "RueShejn"],
+    "authors": ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus", "Earthmark", "Ryuvi", "Nammi", "WattleFoxxo", "StiefelJackal", "RueShejn", "NepuShiro"],
     "messages": {
 
         "General.OK": "OK",
@@ -213,7 +213,8 @@
         "World.Error.Handshake": "Handshake Error",
         "World.Error.Unknown": "Unknown Error",
         "World.Error.FailedToCreateBanAccessKey": "Failed to create ban access key",
-
+        "World.Error.UnhandledError": "Unhandled Error",
+        
         "World.Config.Name": "World Name:",
         "World.Config.Description": "Description:",
         "World.Config.MaxUsers": "Maximum Users:",
@@ -1278,7 +1279,7 @@
         "Settings.OnlineStatusSettings.RememberTimespan" : "Remember status for",
         "Settings.OnlineStatusSettings.RememberTimespan.Description" : "Your last online status will be remembered only if you log in again within this timeframe. If you take longer than this, you'll start with your default status instead.",
         "Settings.OnlineStatusSettings.InvisibleRememberMode" : "Remember last invisible status",
-        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "This controls how is your last status remembered specifically if you were last set to Invisible. Otherwise this functions the same.\n\nThe invisible status has a separate setting for privacy reasons, to ensure that if you were last set to invisible, you can ensure that you'll stay invisible at the next login even if your other statuses are not remembered.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "This controls how your last status is remembered specifically if you were last set to Invisible. Otherwise this functions the same.\n\nThe invisible status has a separate setting for privacy reasons, to ensure that if you were last set to invisible, you can ensure that you'll stay invisible at the next login even if your other statuses are not remembered.",
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "Remember invisible status for",
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "Your last invisible status will be remembered only if you log in again within this timeframe. If you take longer than this, you'll start with your default status instead.",
         "Settings.OnlineStatusSettings.AutoAwayTimespan" : "Switch to Away when idle for",
@@ -1399,19 +1400,19 @@
 
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Hand Position Smoothing",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Hand Rotation Smoothing",
-        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "When enabled, this controls how much is the hand position smoothed out. Typically this is helpful for users with tremors and other accessibility issues that cause jitter.",
-        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "When enabled, this controls how much is the hand rotation smoothed out. Typically this is helpful for users with tremors and other accessibility issues that cause jitter.",
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "When enabled, this controls how much the hand position is smoothed out. Typically this is helpful for users with tremors and other accessibility issues that cause jitter.",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "When enabled, this controls how much the hand rotation is smoothed out. Typically this is helpful for users with tremors and other accessibility issues that cause jitter.",
 
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Feet Position Smoothing",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Feet Rotation Smoothing",
 
-        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "When enabled, this controls how much is the position of feet smoothed out when using full body tracking. This can be useful to eliminate vibrations and jitter, but it also makes the trackers lag behind more and not respond to rapid motions as well.",
-        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "When enabled, this controls how much is the rotation of feet smoothed out when using full body tracking. This can be useful to eliminate vibrations and jitter, but it also makes the trackers lag behind more and not respond to rapid motions as well.",
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "When enabled, this controls how much the position of feet is smoothed out when using full body tracking. This can be useful to eliminate vibrations and jitter, but it also makes the trackers lag behind more and not respond to rapid motions as well.",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "When enabled, this controls how much the rotation of feet is smoothed out when using full body tracking. This can be useful to eliminate vibrations and jitter, but it also makes the trackers lag behind more and not respond to rapid motions as well.",
 
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Hips Position Smoothing",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Hips Rotation Smoothing",
-        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "When enabled, this controls how much is the position of hips smoothed out when using full body tracking. This can be useful to eliminate vibrations and jitter, but it also makes the trackers lag behind more and not respond to rapid motions as well.",
-        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "When enabled, this controls how much is the rotation of hips smoothed out when using full body tracking. This can be useful to eliminate vibrations and jitter, but it also makes the trackers lag behind more and not respond to rapid motions as well.",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "When enabled, this controls how much the position of hips is smoothed out when using full body tracking. This can be useful to eliminate vibrations and jitter, but it also makes the trackers lag behind more and not respond to rapid motions as well.",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "When enabled, this controls how much the rotation of hips is smoothed out when using full body tracking. This can be useful to eliminate vibrations and jitter, but it also makes the trackers lag behind more and not respond to rapid motions as well.",
 
         "Settings.MediaPrivacySettings": "Media Privacy",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Opt out of media metadata",
@@ -1602,10 +1603,10 @@
         "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "This setting controls how fast the noise gate closes after the incoming audio has quieted again.",
 
         "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Normalization threshold",
-        "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Using this setting you can control threshold when will the incoming audio become amplified. If your normal speech is too quiet and it's not getting amplified, lower this setting. If random quiet noises are being amplified, increase it.",
+        "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Using this setting you can control the threshold when the incoming audio will become amplified. If your normal speech is too quiet and it's not getting amplified, lower this setting. If random quiet noises are being amplified, increase it.",
 
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Noise suppression (RNNoise)",
-        "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "This feature processes the incoming audio to filter out various undesirable noises. This can clean up audio from noisy microphones considerably produce a cleaner voice. We strongly recommend keeping this setting on. However it can also filter certain noises that do not get identified as a speech.",
+        "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "This feature processes the incoming audio to filter out various undesirable noises. This can clean up audio from noisy microphones considerably, producing a cleaner voice. We strongly recommend keeping this setting on. However, it can also filter out certain noises that do not get identified as speech.",
 
         "Settings.VoiceSettings": "Voice Settings",
         "Settings.VoiceSettings.MutePersistence": "Mute Persistence",
@@ -1665,6 +1666,8 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Debug input bindings",
         "Settings.DebugSettings.DebugInputBindings.Description": "When enabled, you will see a debugging information for the input binding system. This is mostly useful for developers.",
+        "Settings.DebugSettings.ConvertParticleSystems": "Convert particle systems to PhotonDust",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "Enabling this option will run a conversion from the legacy particle system to the new custom one (PhotonDust) for any <b>newly</b> loaded items and worlds.<br><br><color=red>This is intended for testing purposes only!</color> If you are not part of testing, we do not recommend turning this option on, YOUR CONTENT MIGHT BE CORRUPTED AS RESULT.<br><br>Please see our GitHub/Discord if you'd like to help testing.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Double press grip to equip items",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "When enabled, you can equip tools and gadgets by pressing grip twice in rapid succession. This setting will likely get removed at some point.",
@@ -1743,7 +1746,7 @@
         "Settings.LaserSettings.ModulateStartAngle": "Modulate start angle",
         "Settings.LaserSettings.ModulateStartAngle.Description": "This indicates the angle at which the laser smoothing speed will start modulating to catch up to your movements. Increasing this value will require larger movements for the laser to start catching up.",
         "Settings.LaserSettings.ModulateEndAngle": "Modulate end angle",
-        "Settings.LaserSettings.ModulateEndAngle.Description": "Related to the modulate start angle, this indicates when will the modulation reach maximum speed. By changing the start and end angles, you can control how responsive the laser is the more you move your hand.",
+        "Settings.LaserSettings.ModulateEndAngle.Description": "Related to the modulate start angle, this indicates when the modulation will reach maximum speed. By changing the start and end angles, you can control how responsive the laser is the more you move your hand.",
         "Settings.LaserSettings.ModulateExponent": "Modulate exponent",
         "Settings.LaserSettings.ModulateExponent.Description": "This controls the response curve of the laser modulation between the start and end angles. You can use this to either make the laser respond more sluggishly at first or to start responding quickly and then tapering off.",
         "Settings.LaserSettings.ModulateSpeedMultiplier": "Modulate speed multiplier",
@@ -1795,7 +1798,7 @@
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description": "This determines the allowed maximum framerate while in background. Lower values will conserve more system resources.",
 
         "Settings.InteractiveCameraFramingSettings.PositioningMode": "Positioning mode",
-        "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "This controls how is the interactive camera positioned in the world.",
+        "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "This controls how the interactive camera is positioned in the world.",
         "Settings.InteractiveCameraFramingSettings.FieldOfView": "Field of view",
         "Settings.InteractiveCameraFramingSettings.FieldOfView.Description": "The field of view of the interactive camera. Higher values will capture more of the scene at the cost of distortion at the edges.",
         "Settings.InteractiveCameraFramingSettings.AnglePosition": "Angle",
@@ -1839,7 +1842,7 @@
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "Angle smoothing speed",
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed.Description": "This indicates how quickly does the camera respond to change in angle around the target subject.",
         "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed": "Framing smoothing speed",
-        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed.Description": "This controls how fast is the camera adjusting its framing of the target subject. Larger values will make it track the target faster, but also result in more jerky movements.",
+        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed.Description": "This controls how fast the camera adjusts its framing of the target subject. Larger values will make it track the target faster, but also result in more jerky movements.",
 
         "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors": "Interpolate between anchors",
         "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors.Description": "When enabled, camera will smoothly interpolate between camera anchors in the world.",
@@ -1863,7 +1866,7 @@
         "Settings.RelaySettings.AlwaysUseRelay": "Always use relay to connect",
         "Settings.RelaySettings.AlwaysUseRelay.Description": "Relays are typically used as a fallback when a direct connection to the host cannot be established. By enabling this option, you will force the connection to always happen through a relay.\n\nThis can be useful in cases of connection issues to particular hosts. It is <b>NOT</b> recommended to have this option permanently on.",
         "Settings.RelaySettings.UseClosestAvailableRelay": "Use closest available relay",
-        "Settings.RelaySettings.UseClosestAvailableRelay.Description": "When this option is enabled an available relay that is the closest to you will automatically be selected for the connection. If you want to connect through a specific relay (e.g. in case of long distance connections to avoid packet queuing) you can disable this option and configure the preferred relays below.",
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description": "When this option is enabled the closest available relay will be automatically selected. If you want to connect through a specific relay (e.g. in case of long distance connections to avoid packet queuing) you can disable this option and configure the preferred relays below.",
         "Settings.RelaySettings.RelayPriorities": "Configure relay server priorities",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Relay Priorities",
 
@@ -2208,6 +2211,9 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component as a simple rigidbody by checking SimulateRotation. Before you do, please understand that it is not optimized for this purpose and proper Rigidbody Support is coming in the future.<br>Proper rigidbody support will offer:<br><b>- CPU and network efficiency</b> - with CharacterController you'll be getting higher CPU usage and significant amount of network traffic<br><b>- Constraints</b> - you'll be able to create joints, hinges, springs and other constraints between rigidbodies<br><b>- Smooth simulation and interactions for everyone</b> - CharacterController will glitch out if another person tries to interact<br><b>- New Features and Tools</b> - to make using them much easier<br>-----------------------<br>As long as you understand those limitations, have fun!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component to interact with references by using their IDs. This process is commonly called 'Ref Hacking'.<br><br><b>Before</b> you do this, please understand that this is <b>not</b> supported and may break at any time. Do not rely on this functionality for your creations.",
+
+        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tLast Simulation Time: {time}",
+        "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Common Transition Templates:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha Fade In & Fade Out",

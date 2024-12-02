@@ -2,38 +2,38 @@
 This repository contains the locale assets for the core UI of [Resonite](https://resonite.com) and allows anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (STEAM) and other platforms.
 
 ## Localization Status
-Czech [cs] - 68.4% - Missing keys: 731  
-German [de] - 100.0% - Missing keys: 1  
-English (United Kingdom) [en-gb] - 2.0% - Missing keys: 2269  
-English [en] - 100.0% - Missing keys: 1  
-Esperanto [eo] - 69.8% - Missing keys: 700  
-Spanish [es] - 98.3% - Missing keys: 39  
-Estonian [et] - 35.6% - Missing keys: 1491  
-Finnish [fi] - 87.6% - Missing keys: 287  
-French [fr] - 100.0% - Missing keys: 1  
-Hungarian [hu] - 28.5% - Missing keys: 1655  
-Icelandic [is] - 26.7% - Missing keys: 1696  
-Japanese [ja] - 99.9% - Missing keys: 3  
-Korean [ko] - 99.9% - Missing keys: 3  
-Dutch [nl] - 44.7% - Missing keys: 1281  
-Norwegian [no] - 67.0% - Missing keys: 765  
-Polish [pl] - 99.8% - Missing keys: 4  
-Portuguese (Brazil) [pt-br] - 66.9% - Missing keys: 766  
-Russian [ru] - 99.0% - Missing keys: 24  
-Swedish [sv] - 27.5% - Missing keys: 1679  
-Thai [th] - 3.0% - Missing keys: 2246  
-Turkish [tr] - 35.1% - Missing keys: 1503  
-Ukrainian [uk] - 56.6% - Missing keys: 1004  
-Chinese (Simplified, Mainland China) [zh-cn] - 100.0% - Missing keys: 1  
-Chinese (Traditional, Taiwan) [zh-tw] - 67.2% - Missing keys: 760  
+Czech [cs] - 68.1% - Missing keys: 742  
+German [de] - 99.8% - Missing keys: 5  
+English (United Kingdom) [en-gb] - 2.0% - Missing keys: 2281  
+English [en] - 100.0% - Missing keys: 0  
+Esperanto [eo] - 69.4% - Missing keys: 711  
+Spanish [es] - 97.9% - Missing keys: 50  
+Estonian [et] - 35.5% - Missing keys: 1502  
+Finnish [fi] - 88.6% - Missing keys: 265  
+French [fr] - 99.8% - Missing keys: 5  
+Hungarian [hu] - 28.4% - Missing keys: 1666  
+Icelandic [is] - 26.6% - Missing keys: 1707  
+Japanese [ja] - 99.8% - Missing keys: 5  
+Korean [ko] - 99.5% - Missing keys: 12  
+Dutch [nl] - 44.5% - Missing keys: 1292  
+Norwegian [no] - 66.7% - Missing keys: 776  
+Polish [pl] - 99.5% - Missing keys: 12  
+Portuguese (Brazil) [pt-br] - 66.6% - Missing keys: 777  
+Russian [ru] - 99.5% - Missing keys: 12  
+Swedish [sv] - 27.4% - Missing keys: 1690  
+Thai [th] - 3.0% - Missing keys: 2258  
+Turkish [tr] - 34.9% - Missing keys: 1514  
+Ukrainian [uk] - 56.4% - Missing keys: 1015  
+Chinese (Simplified, Mainland China) [zh-cn] - 99.8% - Missing keys: 5  
+Chinese (Traditional, Taiwan) [zh-tw] - 66.9% - Missing keys: 771  
 
-Total keys: 2315
+Total keys: 2327
 
 ## How To Contribute
 If you'd like to contribute translations, create a fork of the repository, make the changes and **once they are ready** to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
 
 ### Translating the Store descriptions
-If you're like, you can help translate the store descriptions as well (this is used on Steam for example), but we consider those highly optional since it's quite a lot of text. If you don't want to translate those, don't worry about them! The store descriptions do not count towards the translation completeness percentage and are provided in separate files.
+If you'd like, you can help translate the store descriptions as well (this is used on Steam for example), but we consider those highly optional since it's quite a lot of text. If you don't want to translate those, don't worry about them! The store descriptions do not count towards the translation completeness percentage and are provided in separate files.
 
 If you do translate them and you haven't added a credit yet, put your name in the regular .json file for translations of in-game strings, even if you haven't translated any in-game strings.
 

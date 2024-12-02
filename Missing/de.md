@@ -2,5 +2,9 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # German [de]
-Interaction.NamedEquipTools.Default  
+World.Error.UnhandledError  
+Settings.DebugSettings.ConvertParticleSystems  
+Settings.DebugSettings.ConvertParticleSystems.Description  
+Inspector.ParticleSystem.BasicInfo  
+Inspector.ParticleSystem.TrailInfo  
 
