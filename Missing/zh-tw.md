@@ -10,6 +10,7 @@ World.Connection.LNL.LNLPoke
 World.Connection.TCP  
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
+World.Error.UnhandledError  
 World.Filter.IncompatibleSessions  
 World.Edit.ReadOnly  
 Login.InvalidCredentials.Description  
@@ -241,6 +242,13 @@ Settings.MouseSettings.MouseFreeformRotateSpeed
 Settings.MouseSettings.MouseFreeformRotateSpeed.Description  
 Settings.MouseSettings.ScrollWheelGrabMoveSpeed  
 Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description  
+Settings.KeyboardLookSettings  
+Settings.KeyboardLookSettings.LookEnabled  
+Settings.KeyboardLookSettings.LookEnabled.Description  
+Settings.KeyboardLookSettings.HorizontalSpeed  
+Settings.KeyboardLookSettings.HorizontalSpeed.Description  
+Settings.KeyboardLookSettings.VericalSpeed  
+Settings.KeyboardLookSettings.VerticalSpeed.Description  
 Settings.GeneralHapticsSettings.EnableControllerVibration  
 Settings.GeneralHapticsSettings.EnableControllerVibration.Description  
 Settings.GeneralHapticsSettings.EnableHaptics  

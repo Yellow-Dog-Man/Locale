@@ -4,6 +4,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Spanish [es]
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
+World.Error.UnhandledError  
 World.Edit.ReadOnly  
 Notifications.PermissionChanged  
 Notifications.PermissionChangedDetail  
@@ -32,6 +33,13 @@ Settings.FullBodyTrackingSettings.BodyHorizontalAngle
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.MouseSettings.ScrollWheelGrabMoveSpeed  
 Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description  
+Settings.KeyboardLookSettings  
+Settings.KeyboardLookSettings.LookEnabled  
+Settings.KeyboardLookSettings.LookEnabled.Description  
+Settings.KeyboardLookSettings.HorizontalSpeed  
+Settings.KeyboardLookSettings.HorizontalSpeed.Description  
+Settings.KeyboardLookSettings.VericalSpeed  
+Settings.KeyboardLookSettings.VerticalSpeed.Description  
 Settings.DebugSettings.ConvertParticleSystems  
 Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.SuppressFeetSimulation  
