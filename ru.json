@@ -213,6 +213,7 @@
         "World.Error.Handshake" : "Ошибка рукопожатия",
         "World.Error.Unknown": "Неизвестная Ошибка",
         "World.Error.FailedToCreateBanAccessKey" : "Ошибка создания ключа доступа для проверки бана",
+        "World.Error.UnhandledError": "Необработанная ошибка",
 
         "World.Config.Name": "Название мира:",
         "World.Config.Description": "Описание:",
@@ -1381,6 +1382,14 @@
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "Скорость перемещения хвата",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "При захвате объектов в экранном режиме, задает, как быстро они будут двигаться при вращении колесика мыши.",
 
+        "Settings.KeyboardLookSettings": "Настройки обзора клавишами",
+        "Settings.KeyboardLookSettings.LookEnabled": "Обзор клавишами",
+        "Settings.KeyboardLookSettings.LookEnabled.Description": "Когда включен, Обзор клавишами позволит вам поворачивать голову стрелками на клавиатуре. <br/> Подходит для ситуаций, когда обзор мышью недоступен или неудобен, например при использовании лаптопа или когда нужна более доступная альтернатива мыши.",
+        "Settings.KeyboardLookSettings.HorizontalSpeed": "Горизонтальная скорость обзора клавишами.",
+        "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "Используйте чтобы настроить, как быстро ваша голова поворачивается горизонтально при использовании Обзора клавишами.",
+        "Settings.KeyboardLookSettings.VericalSpeed": "Вертикальная скорость обзора клавишами.",
+        "Settings.KeyboardLookSettings.VerticalSpeed.Description": "Используйте чтобы настроить, как быстро ваша голова поворачивается вертикально при использовании Обзора клавишами.",
+
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Вибрация контроллера",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Включает тактильную отдачу на VR контроллерах.",
         "Settings.GeneralHapticsSettings.EnableHaptics": "Тактильная отдача",
@@ -1657,6 +1666,8 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Отладка привязок ввода",
         "Settings.DebugSettings.DebugInputBindings.Description": "Когда включено, будет показана информация для системы привязок ввода. В осномном это полезно для разработчиков.",
+        "Settings.DebugSettings.ConvertParticleSystems": "Конвертировать системы частиц в PhotonDust",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "Включение этой опции будет запускать преобразование из старой системы частиц в новую (PhotonDust) для любого <b>внось</b> загружаемого предмета или мира.<br><br><color=red>Это предназначено только для тестирования!</color> Если вы не участвуете в тестировании, мы не рекомендуем включать эту опцию, ВАШ КОНТЕНТ БУДЕТ ПОВРЕЖДЕН.<br><br>Пожалуйста, сверьтесь с нашим GitHub/Discord если вы хотите помочь в тестировании.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Дважды нажать хват для экипировки",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Когда включено, вы можете экипировать инструменты и гаджеты быстрым двойным нажатием хвата. Эта настройка, скорее всего, когда-нибудт будет убрана.",
@@ -2200,6 +2211,9 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>Этот компонент можно использовать как простое твердое тело, выбрав SimulateRotation. Перед тем как сделать это, имейте в виду, что он не оптимизирован для этих целей и полная поддержка твердых тел будет позже.<br>Полная поддержка твердых тел даст:<br><b>- Эффективное использование ЦП и сети</b> - с CharacterController вы используете больше ресурсов ЦП и ощутимо больше сетевого трафика<br><b>- Ограничения</b> - вы сможете задавать суставы, петли, пружины и другие ограничения между твердыми телами<br><b>- Плавная симуляция и взаимодействие для всех</b> - CharacterController ведет себя очень странно если другой пользователь пытается с ним взаимодействовать<br><b>- Новые фичи и инструменты</b> - чтобы упростить их использование<br>-----------------------<br>Вы можете узнать больше в заявке #22 на GitHub. Прочитали и осознали? Дерзайте!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>С помощью этого компонента можно взаимодействовать с рефренсами, используя их ID. Этот процесс часто называют 'Ref Hacking'.<br><br><b>Прежде</b> чем начать, пожалуйста примите к сведению, что это <b>не</b> подерживается и может сломаться в любой момент. Не полагайтесь на данную функцию, при создании своих творений.",
+
+        "Inspector.ParticleSystem.BasicInfo" : "Частицы: {count}\tПоследнее время симуляции: {time}",
+        "Inspector.ParticleSystem.TrailInfo" : "Следы: {trailCount} (ёмкость: {trailCapacity}), Ёмкость точек следов: {trailPointCapacity}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Часто используемые шаблоны:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Альфа нарастание и затухание",
