@@ -4,7 +4,6 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Esperanto [eo]
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
-Interaction.NamedEquipTools.Default  
 Interaction.CopyImage  
 Inventory.Favorite.Document  
 World.Connection.LNL.LNLPoke  
@@ -416,6 +415,8 @@ Settings.WindowsSettings.KeepOriginalScreenshotFormat
 Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.DebugInputBindings.Description  
+Settings.DebugSettings.ConvertParticleSystems  
+Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
@@ -671,6 +672,8 @@ Inspector.Texture.AddAlpha
 Inspector.DataPreset.SetActive  
 Inspector.DataPreset.SetValues  
 Inspector.DataPreset.AddAllChildren  
+Inspector.ParticleSystem.BasicInfo  
+Inspector.ParticleSystem.TrailInfo  
 Tutorial.Welcome.Welcome  
 Tutorial.Welcome.Begin  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  

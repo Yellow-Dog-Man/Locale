@@ -17,7 +17,6 @@ Worlds.Home
 Worlds.Tutorial  
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
-Interaction.NamedEquipTools.Default  
 Interaction.CopyImage  
 Inventory.OpenWorld  
 Inventory.Equip  
@@ -688,6 +687,8 @@ Settings.WindowsSettings.KeepOriginalScreenshotFormat
 Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.DebugInputBindings.Description  
+Settings.DebugSettings.ConvertParticleSystems  
+Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
@@ -981,6 +982,8 @@ Inspector.DataPreset.SetValues
 Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.ParticleSystem.BasicInfo  
+Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.ClearFades  
 Inspector.SimpleAwayIndicator.TestAway  
 Inspector.SimpleAwayIndicator.TestRestore  

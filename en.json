@@ -1657,6 +1657,8 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Debug input bindings",
         "Settings.DebugSettings.DebugInputBindings.Description": "When enabled, you will see a debugging information for the input binding system. This is mostly useful for developers.",
+        "Settings.DebugSettings.ConvertParticleSystems": "Convert particle systems to PhotonDust",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "Enabling this option will run a conversion from the legacy particle system to the new custom one (PhotonDust) for any <b>newly</b> loaded items and worlds.<br><br><color=red>This is intended for testing purposes only!</color> If you are not part of testing, we do not recommend turning this option on, YOUR CONTENT MIGHT BE CORRUPTED AS RESULT.<br><br>Please see our GitHub/Discord if you'd like to help testing.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Double press grip to equip items",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "When enabled, you can equip tools and gadgets by pressing grip twice in rapid succession. This setting will likely get removed at some point.",
@@ -2200,6 +2202,9 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component as a simple rigidbody by checking SimulateRotation. Before you do, please understand that it is not optimized for this purpose and proper Rigidbody Support is coming in the future.<br>Proper rigidbody support will offer:<br><b>- CPU and network efficiency</b> - with CharacterController you'll be getting higher CPU usage and significant amount of network traffic<br><b>- Constraints</b> - you'll be able to create joints, hinges, springs and other constraints between rigidbodies<br><b>- Smooth simulation and interactions for everyone</b> - CharacterController will glitch out if another person tries to interact<br><b>- New Features and Tools</b> - to make using them much easier<br>-----------------------<br>As long as you understand those limitations, have fun!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component to interact with references by using their IDs. This process is commonly called 'Ref Hacking'.<br><br><b>Before</b> you do this, please understand that this is <b>not</b> supported and may break at any time. Do not rely on this functionality for your creations.",
+
+        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tLast Simulation Time: {time}",
+        "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Common Transition Templates:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha Fade In & Fade Out",

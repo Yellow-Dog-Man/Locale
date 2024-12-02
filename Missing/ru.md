@@ -2,7 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Russian [ru]
-Interaction.NamedEquipTools.Default  
 Tools.GeometryLineBrush.Name  
 Tools.Dev.Name  
 Tools.Color.Name  
@@ -25,5 +24,9 @@ Tools.ControllerDiagnostic.Name
 Tools.Labeler.Name  
 Settings.MouseSettings.ScrollWheelGrabMoveSpeed  
 Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description  
+Settings.DebugSettings.ConvertParticleSystems  
+Settings.DebugSettings.ConvertParticleSystems.Description  
 Inspector.Texture3D.SpawnVisualizer  
+Inspector.ParticleSystem.BasicInfo  
+Inspector.ParticleSystem.TrailInfo  
 

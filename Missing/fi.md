@@ -2,7 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Finnish [fi]
-Interaction.NamedEquipTools.Default  
 World.Connection.LNL.LNLPoke  
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
@@ -93,6 +92,8 @@ Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description
 Settings.HostAccessSettings.Entries.AllowWebsockets.Description  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.DebugInputBindings.Description  
+Settings.DebugSettings.ConvertParticleSystems  
+Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
@@ -249,6 +250,8 @@ Inspector.DataPreset.SetValues
 Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.ParticleSystem.BasicInfo  
+Inspector.ParticleSystem.TrailInfo  
 Inspector.Collider.SetFromLocalBounds  
 Inspector.Collider.SetFromGlobalBounds  
 Inspector.Collider.SetFromLocalBoundsPrecise  

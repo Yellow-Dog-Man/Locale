@@ -6,7 +6,6 @@ General.Units.Metric
 General.Units.Imperial  
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
-Interaction.NamedEquipTools.Default  
 World.Connection.LNL.LNLPoke  
 World.Connection.TCP  
 World.Error.Handshake  
@@ -832,6 +831,8 @@ Settings.WindowsSettings.KeepOriginalScreenshotFormat
 Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.DebugInputBindings.Description  
+Settings.DebugSettings.ConvertParticleSystems  
+Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
@@ -1298,6 +1299,8 @@ Inspector.Rig.ClearDebugVisuals
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.ParticleSystem.BasicInfo  
+Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  
 Inspector.ParticleStyle.AlphaFadeInOut  
 Inspector.ParticleStyle.AlphaFadeIn  

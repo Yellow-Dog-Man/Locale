@@ -35,7 +35,6 @@ Interaction.Grab.Palm
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
 Interaction.Grab.Off  
-Interaction.NamedEquipTools.Default  
 Interaction.ExportScreenshot  
 Interaction.CopyImage  
 Inventory.OpenWorld  
@@ -724,6 +723,8 @@ Settings.WindowsSettings.KeepOriginalScreenshotFormat
 Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.DebugInputBindings.Description  
+Settings.DebugSettings.ConvertParticleSystems  
+Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
@@ -1105,6 +1106,8 @@ Inspector.Rig.ClearDebugVisuals
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.ParticleSystem.BasicInfo  
+Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  
 Inspector.ParticleStyle.AlphaFadeInOut  
 Inspector.ParticleStyle.AlphaFadeIn  

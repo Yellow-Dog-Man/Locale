@@ -2,7 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Spanish [es]
-Interaction.NamedEquipTools.Default  
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
 World.Edit.ReadOnly  
@@ -33,6 +32,8 @@ Settings.FullBodyTrackingSettings.BodyHorizontalAngle
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.MouseSettings.ScrollWheelGrabMoveSpeed  
 Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description  
+Settings.DebugSettings.ConvertParticleSystems  
+Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.SuppressFeetSimulation  
 Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.NotificationSettings.PermissionChanged  
@@ -41,4 +42,6 @@ Settings.DesktopRenderSettings.SprintFieldOfViewZoom
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
 Inspector.Member.Normalize  
 Inspector.Texture3D.SpawnVisualizer  
+Inspector.ParticleSystem.BasicInfo  
+Inspector.ParticleSystem.TrailInfo  
 
