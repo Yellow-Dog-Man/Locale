@@ -113,7 +113,7 @@ To learn more about the ICU MessageFormat Syntax check the following links:
 https://unicode-org.github.io/icu/userguide/format_parse/messages/
 
 Formatting guide with examples (the C# version of the library currently doesn't implement all the formatters, but they will be added as needed):
-https://messageformat.github.io/messageformat/page-guide
+https://messageformat.github.io/messageformat/guide/
 
 Language pluralization rules:
 https://github.com/unicode-org/cldr/blob/master/common/supplemental/plurals.xml
