@@ -90,7 +90,7 @@ Interaction.Grab.Off
 Interaction.Locomotion  
 Interaction.Locomotion.None  
 Interaction.NamedEquipTool  
-Interaction.NamedEquipTools.Default  
+Interaction.NamedEquipTool.Default  
 Interaction.EnterAnchor  
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
@@ -188,6 +188,7 @@ World.Error.WorldCrashDetail
 World.Error.Handshake  
 World.Error.Unknown  
 World.Error.FailedToCreateBanAccessKey  
+World.Error.UnhandledError  
 World.Config.Name  
 World.Config.Description  
 World.Config.MaxUsers  
@@ -1162,6 +1163,13 @@ Settings.MouseSettings.MouseFreeformRotateSpeed
 Settings.MouseSettings.MouseFreeformRotateSpeed.Description  
 Settings.MouseSettings.ScrollWheelGrabMoveSpeed  
 Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description  
+Settings.KeyboardLookSettings  
+Settings.KeyboardLookSettings.LookEnabled  
+Settings.KeyboardLookSettings.LookEnabled.Description  
+Settings.KeyboardLookSettings.HorizontalSpeed  
+Settings.KeyboardLookSettings.HorizontalSpeed.Description  
+Settings.KeyboardLookSettings.VericalSpeed  
+Settings.KeyboardLookSettings.VerticalSpeed.Description  
 Settings.GeneralHapticsSettings.EnableControllerVibration  
 Settings.GeneralHapticsSettings.EnableControllerVibration.Description  
 Settings.GeneralHapticsSettings.EnableHaptics  
@@ -1393,6 +1401,8 @@ Settings.WindowsSettings.KeepOriginalScreenshotFormat
 Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.DebugInputBindings.Description  
+Settings.DebugSettings.ConvertParticleSystems  
+Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
@@ -1850,6 +1860,8 @@ Inspector.Rig.ClearDebugVisuals
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.ParticleSystem.BasicInfo  
+Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  
 Inspector.ParticleStyle.AlphaFadeInOut  
 Inspector.ParticleStyle.AlphaFadeIn  

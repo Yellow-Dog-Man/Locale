@@ -210,7 +210,9 @@
         "World.Error.HostBlockedDetail": "Olet blokannut isännän",
         "World.Error.WorldCrash": "Maailma kaatui",
         "World.Error.WorldCrashDetail": "Kohtalokas virhe päivitettäessä maailmaa",
+        "World.Error.Handshake": "Kättelyvirhe",
         "World.Error.Unknown": "Tuntematon virhe",
+        "World.Error.FailedToCreateBanAccessKey": "Estoavaimen luonti epäonnistui",
 
         "World.Config.Name": "Maailman nimi:",
         "World.Config.Description": "Kuvaus:",
@@ -358,6 +360,7 @@
         "World.Edit.AccessPrivate": "Vain minä",
         "World.Edit.AccessPatreon": "Patreon tukijat",
         "World.Edit.AccessPublic": "Kuka tahansa (Julkinen)",
+        "World.Edit.ReadOnly": "Vain luku",
 
         "Tools.AvatarCreator": "Avatarin luominen",
         "Tools.FullBodyCalibrator": "FBT kalibrointi",
@@ -676,6 +679,8 @@
         "Notifications.SessionStarted": "Aloitti session:",
         "Notifications.UserJoined": "Käyttäjä liittyi",
         "Notifications.UserLeft": "Käyttäjä poistui",
+        "Notifications.PermissionChanged": "Käyttöoikeutesi muutettu: {new}",
+        "Notifications.PermissionChangedDetail": "Maailmassa {world}. Edelliset oikeudet: {old}",
 
         "Undo.SetField": "Aseta kenttä {field_name} tähän {value}",
         "Undo.SetReference": "Aseta viite {ref_name} tähän {ref_target}",
@@ -715,6 +720,9 @@
         "Tools.Brush.IncrementSize": "Suurenna kokoa",
         "Tools.Brush.DecrementSize": "Pienennä kokoa",
 
+        "Tools.GeometryLineBrush.Name": "Geometriaviivasivellin",
+
+        "Tools.Dev.Name": "Kehitystyökalu",
         "Tools.Dev.CreateNew": "Luo uusi...",
         "Tools.Dev.Selection": "Valintatila: {mode}",
         "Tools.Dev.DevMode.Off": "Kehittäjätila: Pois",
@@ -738,13 +746,16 @@
         "Tools.Dev.Interaction.Tip": "Kärki",
         "Tools.Dev.Interaction.Projection": "Projektio",
 
+        "Tools.Color.Name": "Värityökalu",
         "Tools.Color.Picker": "Värinvalitsija",
 
+        "Tools.GrabbableSetter.Name": "Tartunnan asetustyökalu",
         "Tools.GrabbableSetter.Scalable": "Aseta skaalautuva",
         "Tools.GrabbableSetter.NonScalable": "Aseta ei skaalautuva",
         "Tools.GrabbableSetter.ApplyToRoot": "Aseta valitaan",
         "Tools.GrabbableSetter.AppyToHit": "Aseta osumaan",
 
+        "Tools.CharacterCollider.Name": "Esineiden törmäyttimien asetustyökalu",
         "Tools.CharacterCollider.MarkGrippable": "Aseta tarttuva pinta",
         "Tools.CharacterCollider.DontMarkGrippable": "Poista tarttuva pinta",
         "Tools.CharacterCollider.EnsureWalkRun": "Varmista kävely/juoksu tila",
@@ -755,21 +766,27 @@
         "Tools.Light.Spot": "Spotti",
         "Tools.Light.Sun": "Aurinko",
 
+        "Tools.Light.Name": "Valotyökalu",
         "Tools.Light.Shadows.None": "Ei varjoja",
         "Tools.Light.Shadows.Hard": "Terävät varjot",
         "Tools.Light.Shadows.Soft": "Pehmeät varjot",
 
+        "Tools.MeshVisibility.Name": "Tahkoverkkojen näkyvyystyökalu",
         "Tools.MeshVisibility.KeepShadow": "Pidä varjot",
         "Tools.MeshVisibility.ShadowOff": "Poista käytöstä varjot",
         "Tools.MeshVisibility.ShadowOn": "Ota varjot käyttöön",
         "Tools.MeshVisibility.OnlyShadow": "Aseta vain varjo",
         "Tools.MeshVisibility.DoubleSidedShadow": "Aseta kaksipuoliseksi varjoksi",
 
-        "Tools.Slicer.Add": "Lisää Slicer",
+        "Tools.Mesh.Name": "Tahkoverkkotyökalu",
+
+        "Tools.Slicer.Name": "Esineiden halkomistyökalu",
+        "Tools.Slicer.Add": "Lisää halkaisu",
         "Tools.Slicer.Clear": "Tyhjennä asetus",
 
-        "Tools.Material.RayMode": "Ray tila",
-        "Tools.Material.AreaMode": "Alue tila",
+        "Tools.Material.Name": "Materiaalityökalu",
+        "Tools.Material.RayMode": "Sädetila",
+        "Tools.Material.AreaMode": "Aluetila",
         "Tools.Material.ObjectMode": "Globaali objekti tila",
         "Tools.Material.SceneMode": "Globaali näkymä tila",
         "Tools.Material.CreateCopy": "Tee kopio",
@@ -782,6 +799,7 @@
 
         "Tools.Cartridge.Eject": "Pudota pallo",
 
+        "Tools.Microphone.Name": "Mikrofoni",
         "Tools.Microphone.Format.WAV": "WAV",
         "Tools.Microphone.Format.Vorbis": "OGG Vorbis",
         "Tools.Microphone.Format.FLAC": "FLAC",
@@ -790,6 +808,7 @@
         "Tools.Microphone.SourceRaw": "Raaka",
         "Tools.Microphone.SourceFiltered": "Filteröity ja normalisoitu",
 
+        "Tools.ProtoFlux.Name": "Proto-Flux työkalu",
 
 
 
@@ -812,18 +831,30 @@
         "Tools.Meter.Points.Two": "Kaksi pistettä",
         "Tools.Meter.Points.Multiple": "Useita pisteitä",
 
+        "Tools.Meter.Name": "Mittaustyökalu",
         "Tools.Meter.ObjectSpace": "Mittaa objektiavaruudessa",
         "Tools.Meter.WorldSpace": "Mittaa maailmanavaruudessa",
 
+        "Tools.Glue.Name": "Liimaustyökalu",
         "Tools.Glue.Mode.BakeMeshes": "Tila: Beikkaa tahkoverkot",
         "Tools.Glue.Mode.BakeSkinnedMeshes": "Tila: Beikkaa skinned meshit",
         "Tools.Glue.Mode.ParentObjects": "Tila: Lisää yliluokkaan",
 
+        "Tools.RigTransfer.Name": "Rigin tahkoverkon siirtotyökalu",
         "Tools.RigTransfer.ClearSource": "Nollaa lähde",
 
+        "Tools.ComponentClone.Name": "Komponenttien kloonaustyökalu",
         "Tools.ComponentClone.SingleInstanceOn": "Kertakloonaus: Päällä",
         "Tools.ComponentClone.SingleInstanceOff": "Kertakloonaus: Pois",
         "Tools.ComponentClone.ClearTemplate": "Tyhjennä malli",
+
+        "Tools.Shape.Name": "Muototyökalu",
+
+        "Tools.CameraObjectHider.Name": "Kameralta piilotus työkalu",
+
+        "Tools.ControllerDiagnostic.Name": "Ohjainten diagnostiikkatyökalu",
+
+        "Tools.Labeler.Name": "Labelointityökalu",
 
 
 
@@ -1325,6 +1356,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType": "Tarttumistyylin vakiotila",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Tämä määrittää, mikä on käsien vakiotarttumistyyli, kun spawnaat maailmaan.\n\n<color=hero.yellow>Kämmen:</color> Tartut kaikkiin esineisiin, jotka ovat lähellä kämmentäsi.\n\n<color=hero.yellow>Tarkkuus:</color> Tartut yksittäiseen esineeseen etusormen ja peukalon välissä.\n\n<color=hero.yellow>Auto:</color> Tila vaihtuu automaattisesti Kämmenen ja Tarkkuuden välillä kätesi asennon mukaan.\n\n<color=hero.yellow>Off:</color> Voit tarttua esineisiin vain laasereilla.",
 
+
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "Kehon vaakakulma",
+
+
         "Settings.GamepadSettings": "Peliohjain",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Ohjaimen herkkyys",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Tällä voit säätää ohjaimen herkkyyttä, jota käytät katseen suuntaamiseen.",
@@ -1343,6 +1378,8 @@
         "Settings.MouseSettings.MouseRotateSpeed.Description": "Kun esineitä pidellään työpöytätilassa, tämä määrittää, kuinka nopeasti niitä voi pyörittää akselinsa ympäri hiirellä.",
         "Settings.MouseSettings.MouseFreeformRotateSpeed": "Vapaamuotoinen pyörintänopeus",
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "Kun esineitä pidellään työpöytätilassa, tämä määrittää, kuinka nopeasti niitä voi pyörittää, kun käytetään vapaamuotoista kiertoa.",
+        "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "Tartuntaliikkumisen nopeus",
+        "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "Kun esineitä pidellään työpöytätilassa, tämä määrittää, kuinka nopeasti niitä voi liikuttaa edestakaisin hiirenrullalla.",
 
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Ohjaimen värinä",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Tällä voit ottaa värinän käyttöön tai poistaa sen käytöstä VR-ohjaimissa.",
@@ -1628,6 +1665,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Käytä inventaarion ja session pikaelettä",
 
 
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Poista käytöstä jalkojen simulointi",
+
+
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch kanavan nimi",
 
 
@@ -1668,6 +1708,8 @@
 
         "Settings.NotificationSettings.UserJoinAndLeave": "Käyttäjien liittyminen & poistuminen",
 
+        "Settings.NotificationSettings.PermissionChanged": "Käyttöoikeudet muutettu",
+        "Settings.NotificationSettings.PermissionChanged.Description": "Kun tämä on käytössä, saat ilmoituksen, kun käyttöoikeuksiasi muutetaan maailmassa.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Nimilaattojen näkyvyys",
 
@@ -1930,6 +1972,7 @@
         "Inspector.Member.SetAllToY": "Aseta kaikki Y",
         "Inspector.Member.SetAllToZ": "Aseta kaikki Z",
         "Inspector.Member.SetAllToW": "Aseta kaikki W",
+        "Inspector.Member.Normalize": "Normalisoi",
         "Inspector.Member.BakeBlendshape": "Beikkaa Blendshape",
         "Inspector.Member.RemoveBlendshape": "Poista Blendshape",
         "Inspector.Member.SplitBlendshape.X": "Splittaa Blendshape X-akselilla",
@@ -1983,6 +2026,8 @@
 
         "Inspector.MeshCollider.VHACD": "Convex Hull dekomponointi (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Korvaa laatikkotörmäyttimellä",
+
+        "Inspector.Texture3D.SpawnVisualizer" : "Spawnaa visualisoija",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Päivitä liikkumistilamoduulit nykyisille käyttäjille",
 
