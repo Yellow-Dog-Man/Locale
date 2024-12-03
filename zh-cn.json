@@ -213,6 +213,7 @@
         "World.Error.Handshake" : "握手错误",
         "World.Error.Unknown": "未知错误",
         "World.Error.FailedToCreateBanAccessKey" : "创建封禁秘钥失败",
+        "World.Error.UnhandledError": "发生未处理的错误",
 
         "World.Config.Name": "世界名:",
         "World.Config.Description": "描述:",
@@ -1665,6 +1666,8 @@
 
         "Settings.DebugSettings.DebugInputBindings": "显示输入绑定的调试信息",
         "Settings.DebugSettings.DebugInputBindings.Description": "启用后，你将看到输入绑定系统的调试信息。 这对开发人员非常有用。",
+        "Settings.DebugSettings.ConvertParticleSystems": "转换粒子系统到PhotonDust上。",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "启用此选项将为任何 <b>新</b> 加载的物品和世界从旧式粒子系统转换到新的自定义粒子系统（PhotonDust）。<br><br><color=red>这仅用于测试目的！</color> 果你不是测试的一部分，我们不建议打开这个选项，你的内容有可能会因此导致损坏。<br><br>如果你想帮助测试，请查看我们的GitHub/Discord。",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "双击手柄握把键装备物品",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "启用后，只要连续按两次握把键，就可以装备工具和小物件。这一设置可能会在某个时候被移除。",
@@ -2208,6 +2211,9 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告！</size></color><br>当勾选模拟旋转（SimulateRotation）时这个组件可以被当作一个简单的刚体。在你这样做之前，你需要明白它不曾为此优化，且对刚体的正式支持会在未来加入。<br>正式支持包括：<br><b>- CPU和网络效率提升</b> - 使用角色控制器，你的CPU和网络占用会显著上升<br><b>- 约束</b> - 你将能够在刚体间创建关节、合页、弹簧和其他约束<br><b>- 对每个人的平滑模拟与交互</b> - 在另一个人尝试交互时，角色控制器会发生故障<br><b>- 新功能与工具</b> - 让使用更加简单<br>-----------------------<br>只要你理解了上述限制，放开玩吧！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color><br>通过他们的ID，这个组件可以被用于与引用交互。这个过程常被称为“引用骇入”。<br><br>在你这样做<b>之前</b>，请知晓这种方式 <b>不被</b> 支持且随时可能失效。请勿让你的作品依赖于此项功能。",
+
+        "Inspector.ParticleSystem.BasicInfo" : "粒子: {count}\t最后一次模拟时间： {time}",
+        "Inspector.ParticleSystem.TrailInfo" : "尾迹： {trailCount} (容量： {trailCapacity}), 尾迹点容量： {trailPointCapacity}",
 
         "Inspector.ParticleStyle.CommonTransitions": "通用变化模板：",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha 淡入 & 淡出",
