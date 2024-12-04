@@ -605,7 +605,7 @@ Settings.KeyboardLookSettings.LookEnabled
 Settings.KeyboardLookSettings.LookEnabled.Description  
 Settings.KeyboardLookSettings.HorizontalSpeed  
 Settings.KeyboardLookSettings.HorizontalSpeed.Description  
-Settings.KeyboardLookSettings.VericalSpeed  
+Settings.KeyboardLookSettings.VerticalSpeed  
 Settings.KeyboardLookSettings.VerticalSpeed.Description  
 Settings.GeneralHapticsSettings.EnableControllerVibration  
 Settings.GeneralHapticsSettings.EnableControllerVibration.Description  

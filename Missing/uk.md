@@ -41,7 +41,7 @@ Settings.KeyboardLookSettings.LookEnabled
 Settings.KeyboardLookSettings.LookEnabled.Description  
 Settings.KeyboardLookSettings.HorizontalSpeed  
 Settings.KeyboardLookSettings.HorizontalSpeed.Description  
-Settings.KeyboardLookSettings.VericalSpeed  
+Settings.KeyboardLookSettings.VerticalSpeed  
 Settings.KeyboardLookSettings.VerticalSpeed.Description  
 Settings.AudioInputDeviceSettings.Testing.Header  
 Settings.AudioInputDeviceSettings.Testing.Description  
