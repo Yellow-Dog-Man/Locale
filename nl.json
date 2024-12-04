@@ -213,7 +213,8 @@
         "World.Error.Handshake": "Handshake fout",
         "World.Error.Unknown": "Onbekende fout",
         "World.Error.FailedToCreateBanAccessKey": "Fout tijdens maken van ban access key",
-
+        "World.Error.UnhandledError": "Niet-afgehandelde Fout",
+        
         "World.Config.Name": "Wereldnaam:",
         "World.Config.Description": "Omschrijving:",
         "World.Config.MaxUsers": "Maximale gebruikers:",
@@ -1665,6 +1666,8 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Invoer toewijzing debuggen",
         "Settings.DebugSettings.DebugInputBindings.Description": "Wanneer dit aan staat zie je debug informatie voor het invoer toewijzing systeem. Dit is vooral nuttig voor ontwikkelaars.",
+        "Settings.DebugSettings.ConvertParticleSystems": "Zet particle systemen om naar PhotonDust",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "Door deze optie aan te zetten worden verouderde particle systemen omgezet naar de nieuwe (PhotonDust) voor voorwerpen en werelden die <b>nieuw</b> ingeladen worden.<br><br><color=red>Dit is alleen bedoeld voor testdoeleinden!</color> Als je niet deelneemt aan testen, raden we af deze optie aan te zetten, JOUW VOORWERPEN KUNNEN HIERMEE BESCHADIGD RAKEN.<br><br>Ga naar onze GitHub/Discord als je mee wilt helpen met testen.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Dubbelklik vastpakken om gereedschappen te gebruiken",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wanneer dit aan staat kan je gereedschappen en gadgets gebruiken door snel twee keer vast te pakken. Deze instelling wordt waarschijnlijk in de toekomst verwijderd.",
@@ -2208,6 +2211,9 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WAARSCHUWING!</size></color><br>Het is mogelijk dit component als een simpele rigidbody te gebruiken door SimulateRotation aan te zetten. Voordat je dit doet, begrijp alsjeblieft dat het hiervoor niet geoptimaliseerd is, en dat werkelijke Rigidbody ondersteuning in de toekomst komt.<br>Met werkelijke rigidbody ondersteuning zal het volgende beter worden:<br><b>- CPU en Network efficiëntie</b> - met een CharacterController gebruik je meer CPU en een hoop meer netwerkverkeer<br><b>- Beperkingen</b> - Je zal gewrichten, scharnieren, veren en andere beperkingen tussen rigidbodies kunnen maken<br><b>- Soepele simulatie en interactie voor iedereen</b> - CharacterController breekt als een andere persoon het probeert te gebruiken<br><b>- Nieuwe Functies en Hulpmiddelen</b> - om het gebruik ervan makkelijker te maken<br>-----------------------<br>Als je deze limitaties begrijpt, veel plezier!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WAARSCHUWING!</size></color><br>Het is mogelijk dit component te gebruiken om referenties te gebruiken gebaseerd op hun ID. Dit process wordt vaak 'Ref Hacking' genoemd.<br><br><b>Voordat</b> je dit doet, begrijp alsjeblieft dat dit <b>niet</b> ondersteund is en op elk moment kapot kan gaan. Gebruik deze functionaliteit niet voor de dingen die je maakt.",
+
+        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tLaatste Simulatie Tijd: {time}",
+        "Inspector.ParticleSystem.TrailInfo" : "Sporen: {trailCount} (capacity: {trailCapacity}), Sporen Punt Capaciteit: {trailPointCapacity}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Algemene Overgang-voorbeelden:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha Fade-in & Fade-out",
