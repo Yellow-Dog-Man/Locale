@@ -213,6 +213,7 @@
         "World.Error.Handshake": "ハンドシェイクエラーが発生しました",
         "World.Error.Unknown": "未知のエラー",
         "World.Error.FailedToCreateBanAccessKey": "BANアクセスキーの作成に失敗しました",
+        "World.Error.UnhandledError": "未処理エラー",
 
         "World.Config.Name": "セッション名:",
         "World.Config.Description": "セッション説明:",
@@ -1664,6 +1665,8 @@
 
         "Settings.DebugSettings.DebugInputBindings": "インプットバインディングのデバッグ",
         "Settings.DebugSettings.DebugInputBindings.Description": "設定を有効にした場合、インプットバインディングシステムのデバッグ情報が表示されます。主に開発者向けの機能です。",
+        "Settings.DebugSettings.ConvertParticleSystems": "パーティクルシステムをPhotonDustに変換する",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "この設定を有効にすると、新しくロードするアイテムやワールドに対して、従来のパーティクルシステムから<b>新しい</b>カスタムパーティクルシステム（PhotonDust）への変換が実行されます。<br><br><color=red>これはテストのみを目的としたものです！</color>テストに参加していない場合は、このオプションをオンにすることをお勧めしません、コンテンツが破損する可能性があります。<br><br>テストにご協力いただける方は、GitHub/Discordをご覧ください。",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "ダブルグリップでアイテムを装備",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "有効にすると、グリップを2回連続で押すことでツールやアイテムを装備できます。この設定は将来削除されます。",
@@ -2209,6 +2212,9 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告!</size></color><br>SimulateRotationにチェックをいれることで、​このコンポーネントを単純なRigidbodyとして使用できます。​前提として、この目的のために最適化されておらず、​適切なRigidbodyが将来提供されることを理解しておいてください。<br>適切なRigidbodyは以下を提供します：<br><b>- CPUとネットワーク負荷の軽減</b> - CharacterControllerを使用すると、 CPU使用率が高くなり、ネットワークトラフィックが大量に発生します。<br><b>- Constraints</b> - Rigidbody間にジョイント、ヒンジ、スプリング、 その他のconstraintを作成できるようになります。<br><b>- どのユーザーからもスムーズなシミュレーションと相互作用</b> - 他の人が操作すると、CharacterControllerはグリッチアウトします。<br><b>- 新機能とツール</b> - それらをはるかに簡単に使用できるようになります。<br>-----------------------<br>これらの制限を理解している限り、楽しんでください！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color>このコンポーネントを使用すると、IDを使用して参照を操作できます。​この手法は一般的に「Refハック」と呼ばれます。<br><br>これを実行する<b>前</b>に、​これはサポートされて<b>いない</b>ため、​いつか壊れる可能性があることを理解してください。​この機能に依存しないでください。",
+
+        "Inspector.ParticleSystem.BasicInfo" : "パーティクル: {count}\t最終シミュレーション時間: {time}",
+        "Inspector.ParticleSystem.TrailInfo" : "トレイル: {trailCount} (トレイルキャパシティ: {trailCapacity}), トレイルポイントキャパシティ: {trailPointCapacity}",
 
         "Inspector.ParticleStyle.CommonTransitions": "遷移テンプレート:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "アルファフェードイン＆フェードアウト",

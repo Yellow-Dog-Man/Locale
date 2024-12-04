@@ -213,6 +213,7 @@
         "World.Error.Handshake": "Handshake-Fehler",
         "World.Error.Unknown": "Unbekannter Fehler",
         "World.Error.FailedToCreateBanAccessKey": "Fehler beim Erstellen des Bann-Zugriffsschlüssels",
+        "World.Error.UnhandledError": "Unbehandelter Fehler",
 
         "World.Config.Name": "Name:",
         "World.Config.Description": "Beschreibung:",
@@ -1381,7 +1382,7 @@
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "Griff-Bewegungsgeschwindigkeit",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "Dies bestimmt, wie schnell sich gehaltene Objekte im Desktop-Modus mit dem Scroll-Rad der Maus hin- und herbewegen.",
 
-        "Settings.KeyboardLookSettings": "Einstellungen zur Tastatur-Blicksteuerung ",
+        "Settings.KeyboardLookSettings": "Einstellungen zur Tastatur-Blicksteuerung",
         "Settings.KeyboardLookSettings.LookEnabled": "Tastatur-Blicksteuerung",
         "Settings.KeyboardLookSettings.LookEnabled.Description": "Wenn diese Funktion aktiv ist, können Sie Ihren Kopf mit den Pfeiltasten Ihrer Tastatur bewegen.<br/>Dies ist für Situationen gedacht, in denen eine Maus nicht vorhanden oder nicht zweckmäßig ist, z. B. bei der Verwendung eines Laptops oder wenn barrierefreie Alternativen zur Maus benötigt werden.",
         "Settings.KeyboardLookSettings.HorizontalSpeed": "Horizontale Geschwindigkeit der Tastatur-Blicksteuerung",
@@ -1665,6 +1666,8 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Debug Eingabebindungen",
         "Settings.DebugSettings.DebugInputBindings.Description": "Wenn Sie dies aktivieren, sehen Sie Debugging-Informationen für das Eingabebindungs-System. Dies ist hauptsächlich für Entwickler nützlich.",
+        "Settings.DebugSettings.ConvertParticleSystems": "Konvertiere Partikelsysteme zu PhotonDust",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "Wenn diese Option aktiv ist, wird für alle <b>neu</b> geladenen Gegenstände und Welten das alte Partikelsystem in das neue eigene System (PhotonDust) konvertiert.<br><br><color=red>Dies ist nur für Testzwecke vorgesehen!</color> Wenn Sie nicht an den Tests teilnehmen, raten wir davon ab, diese Option zu aktivieren, da IHRE INHALTE BESCHÄDIGT WERDEN KÖNNEN.<br><br>Bitte informieren Sie sich in unserem GitHub/Discord, wenn Sie beim Testen helfen möchten.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Doppel-Druck auf Griff, um Gegenstände auszurüsten",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wenn dies aktiviert ist, können Sie Tools und andere ausrüstbare Objekte ausrüsten, indem Sie ihren Griff zweimal schnell nacheinander drücken. Diese Einstellung wird wahrscheinlich irgendwann entfernt werden.",
@@ -2208,6 +2211,9 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente als einfachen Rigidbody zu verwenden, indem 'Rotation Simulieren' ausgewählt wird. Bevor Sie dies tun, verstehen Sie bitte, dass sie nicht für diesen Zweck optimiert ist und dass vollständige Rididbody-Unterstützung in der Zukunft hinzugefügt wird.<br>Vollständige Rigidbody-Unterstützung wird folgendes ermöglichen:<br><b>- CPU- und Netzwerkeffizienz</b> - Mit CharacterController werden Sie höhere CPU-Auslastung und signifikant höhere Netzwerkauslastung verursachen<br><b>- Beschränkungen</b> - Sie werden in der Lage sein Gelenke, Schaniere, Federn und andere Beschränkungen zwischen Rigidbodies zu erstellen<br><b>- Geschmeidige Simulation und Interaktionen für Jeden</b> - CharacterController wird Fehlverhalten verursachen wenn ein anderer Benutzer versucht damit zu interagieren.<br><b>- Neue Features und Tools</b> - Dadurch wird die Verwendung deutlich einfacher<br>-----------------------<br>Solange Sie diese Einschränkungen verstehen, viel Spaß!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente zu verwenden um mit Referenzen zu interagieren, die über Ihre IDs addressiert werden. Dieser Vorgang ist geläufig bekannt als 'Ref Hacking'.<br><br><b>Bevor</b> Sie dies tun, verstehen Sie bitte dass dies <b>nicht</b> unterstützt ist und zu jedem Zeitpunk kaputtgehen kann. Verlassen Sie sich nicht auf diese Funktionalität für Ihre Kreationen!",
+
+        "Inspector.ParticleSystem.BasicInfo" : "Partikel: {count}\tLetzte Simulationszeit: {time}",
+        "Inspector.ParticleSystem.TrailInfo" : "Spuren: {trailCount} (Kapazität: {trailCapacity}), Spur-Punkt Kapazität: {trailPointCapacity}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Häufig verwendete Übergangs-Vorlagen:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha ein- & ausblenden",
