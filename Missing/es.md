@@ -28,6 +28,7 @@ Tools.Shape.Name
 Tools.CameraObjectHider.Name  
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
+CreateNew.LegacyParticleSystem  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  

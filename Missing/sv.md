@@ -171,6 +171,7 @@ ProtoFlux.UI.NodeBrowser.Title
 CreateNew.Back  
 CreateNew.EmptyObject  
 CreateNew.ParticleSystem  
+CreateNew.LegacyParticleSystem  
 CreateNew.Object  
 CreateNew.Object.AvatarCreator  
 CreateNew.Object.Camera  

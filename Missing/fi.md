@@ -23,6 +23,7 @@ Tools.ProtoFlux.ExplicitCast
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
+CreateNew.LegacyParticleSystem  
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  

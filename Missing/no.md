@@ -108,6 +108,7 @@ Tools.Shape.Name
 Tools.CameraObjectHider.Name  
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
+CreateNew.LegacyParticleSystem  
 AvatarCreator.ProtectionUnavailable  
 Importer.Image.Sprite  
 Importer.Image.Failure.Heading  

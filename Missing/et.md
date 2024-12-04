@@ -323,6 +323,7 @@ Tools.Labeler.Name
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
+CreateNew.LegacyParticleSystem  
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.TextRendererWizard  
 CreateNew.Editor.CubemapCreator  
