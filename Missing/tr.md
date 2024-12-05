@@ -355,6 +355,7 @@ Tools.Labeler.Name
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
+CreateNew.LegacyParticleSystem  
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.TextRendererWizard  
 CreateNew.Editor.CubemapCreator  
@@ -530,7 +531,7 @@ Settings.KeyboardLookSettings.LookEnabled
 Settings.KeyboardLookSettings.LookEnabled.Description  
 Settings.KeyboardLookSettings.HorizontalSpeed  
 Settings.KeyboardLookSettings.HorizontalSpeed.Description  
-Settings.KeyboardLookSettings.VericalSpeed  
+Settings.KeyboardLookSettings.VerticalSpeed  
 Settings.KeyboardLookSettings.VerticalSpeed.Description  
 Settings.GeneralHapticsSettings.EnableControllerVibration  
 Settings.GeneralHapticsSettings.EnableControllerVibration.Description  

@@ -2,32 +2,32 @@
 This repository contains the locale assets for the core UI of [Resonite](https://resonite.com) and allows anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (STEAM) and other platforms.
 
 ## Localization Status
-Czech [cs] - 68.1% - Missing keys: 742  
-German [de] - 99.8% - Missing keys: 5  
-English (United Kingdom) [en-gb] - 2.0% - Missing keys: 2281  
+Czech [cs] - 68.1% - Missing keys: 743  
+German [de] - 100.0% - Missing keys: 1  
+English (United Kingdom) [en-gb] - 2.0% - Missing keys: 2282  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 69.4% - Missing keys: 711  
-Spanish [es] - 97.9% - Missing keys: 50  
-Estonian [et] - 35.5% - Missing keys: 1502  
-Finnish [fi] - 88.6% - Missing keys: 265  
-French [fr] - 99.8% - Missing keys: 5  
-Hungarian [hu] - 28.4% - Missing keys: 1666  
-Icelandic [is] - 26.6% - Missing keys: 1707  
-Japanese [ja] - 99.8% - Missing keys: 5  
-Korean [ko] - 99.5% - Missing keys: 12  
-Dutch [nl] - 99.8% - Missing keys: 5  
-Norwegian [no] - 66.7% - Missing keys: 776  
-Polish [pl] - 99.5% - Missing keys: 12  
-Portuguese (Brazil) [pt-br] - 66.6% - Missing keys: 777  
-Russian [ru] - 99.5% - Missing keys: 12  
-Swedish [sv] - 27.4% - Missing keys: 1690  
-Thai [th] - 3.0% - Missing keys: 2258  
-Turkish [tr] - 34.9% - Missing keys: 1514  
-Ukrainian [uk] - 56.4% - Missing keys: 1015  
-Chinese (Simplified, Mainland China) [zh-cn] - 99.8% - Missing keys: 5  
-Chinese (Traditional, Taiwan) [zh-tw] - 66.9% - Missing keys: 771  
+Esperanto [eo] - 69.4% - Missing keys: 712  
+Spanish [es] - 97.8% - Missing keys: 51  
+Estonian [et] - 35.4% - Missing keys: 1503  
+Finnish [fi] - 88.6% - Missing keys: 266  
+French [fr] - 100.0% - Missing keys: 1  
+Hungarian [hu] - 28.4% - Missing keys: 1667  
+Icelandic [is] - 26.6% - Missing keys: 1708  
+Japanese [ja] - 100.0% - Missing keys: 1  
+Korean [ko] - 99.4% - Missing keys: 13  
+Dutch [nl] - 100.0% - Missing keys: 1  
+Norwegian [no] - 66.6% - Missing keys: 777  
+Polish [pl] - 99.4% - Missing keys: 13  
+Portuguese (Brazil) [pt-br] - 66.6% - Missing keys: 778  
+Russian [ru] - 100.0% - Missing keys: 1  
+Swedish [sv] - 27.4% - Missing keys: 1691  
+Thai [th] - 3.0% - Missing keys: 2259  
+Turkish [tr] - 34.9% - Missing keys: 1515  
+Ukrainian [uk] - 56.4% - Missing keys: 1016  
+Chinese (Simplified, Mainland China) [zh-cn] - 100.0% - Missing keys: 1  
+Chinese (Traditional, Taiwan) [zh-tw] - 66.8% - Missing keys: 772  
 
-Total keys: 2327
+Total keys: 2328
 
 ## How To Contribute
 If you'd like to contribute translations, create a fork of the repository, make the changes and **once they are ready** to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
@@ -113,7 +113,7 @@ To learn more about the ICU MessageFormat Syntax check the following links:
 https://unicode-org.github.io/icu/userguide/format_parse/messages/
 
 Formatting guide with examples (the C# version of the library currently doesn't implement all the formatters, but they will be added as needed):
-https://messageformat.github.io/messageformat/page-guide
+https://messageformat.github.io/messageformat/guide/
 
 Language pluralization rules:
 https://github.com/unicode-org/cldr/blob/master/common/supplemental/plurals.xml

@@ -28,6 +28,7 @@ Tools.Shape.Name
 Tools.CameraObjectHider.Name  
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
+CreateNew.LegacyParticleSystem  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
@@ -38,7 +39,7 @@ Settings.KeyboardLookSettings.LookEnabled
 Settings.KeyboardLookSettings.LookEnabled.Description  
 Settings.KeyboardLookSettings.HorizontalSpeed  
 Settings.KeyboardLookSettings.HorizontalSpeed.Description  
-Settings.KeyboardLookSettings.VericalSpeed  
+Settings.KeyboardLookSettings.VerticalSpeed  
 Settings.KeyboardLookSettings.VerticalSpeed.Description  
 Settings.DebugSettings.ConvertParticleSystems  
 Settings.DebugSettings.ConvertParticleSystems.Description  
