@@ -1278,11 +1278,11 @@
         "Settings.OnlineStatusSettings.RememberMode": "Letzten Status merken",
         "Settings.OnlineStatusSettings.RememberMode.Description": "Hiermit stellen Sie ein, ob Ihr letzter Online-Staus für die nächste Anmeldung beibehalten werden soll oder nicht. Dies gilt nicht für den Unsichtbar-Status, dieser wird über eine eigene Einstellung gesteuert.",
         "Settings.OnlineStatusSettings.RememberTimespan": "Status merken für",
-        "Settings.OnlineStatusSettings.RememberTimespan.Description": "Der letzte Status wird nur für diese Zeitspanne gespeichert. Wenn Ihre letzte Anmeldung länger zurückliegt, wird stattdessen wieder der Standard-Status verwendet.",
+        "Settings.OnlineStatusSettings.RememberTimespan.Description": "Ihr zuletzt genutzter Online-Status wird nur beibehalten, wenn Sie sich innerhalb dieser Zeitspanne erneut anmelden. Wenn Ihre letzte Anmeldung länger zurückliegt, wird stattdessen wieder der Standard-Status verwendet.",
         "Settings.OnlineStatusSettings.InvisibleRememberMode": "Letzten Unsichtbar-Status merken",
-        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description": "Diese Einstellung speichert nur Ihren Unsichtbar-Staus.\n\nFür diesen Status gibt es aus Gründen der Privatsphäre eine eigene Einstellung. Dies stellt sicher, dass Sie beim nächsten Anmelden unsichtbar bleiben können, auch wenn Sie ihren anderen Status nicht speichen lassen.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description": "Diese Einstellung bestimmt speziell, wie Ihr Unsichtbar-Status gespeichert wird.\n\nFür diesen Status gibt es aus Gründen der Privatsphäre eine eigene Einstellung. Dies stellt sicher, dass Sie beim nächsten Anmelden unsichtbar bleiben können, auch wenn Sie ihren anderen Status nicht speichen lassen.",
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan": "Unsichtbar-Status merken für",
-        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description": "Der letzte Unsichtbar-Status wird nur für diese Zeitspanne gespeichert. Wenn Ihre letzte Anmeldung länger zurückliegt, wird stattdessen wieder der Standard-Status verwendet.",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description": "Ihr letzter Unsichtbar-Status wird nur beibehalten, wenn Sie sich innerhalb dieser Zeitspanne erneut anmelden. Wenn Ihre letzte Anmeldung länger zurückliegt, wird stattdessen wieder der Standard-Status verwendet.",
         "Settings.OnlineStatusSettings.AutoAwayTimespan": "Auf Abwesend schalten nach Inaktivität für",
         "Settings.OnlineStatusSettings.AutoAwayTimespan.Description": "Wenn Sie länger als diese Zeitspanne inaktiv sind, wird Ihr Online-Status auf Abwesend umgeschaltet. Sobald Sie zurückkommen, wird er automatisch wieder auf den vorherigen Status zurückgestellt, außer Sie stellen ihn von Hand auf Abwesend.",
 
@@ -1326,7 +1326,7 @@
         "Settings.GeneralControlsSettings.PrimaryHand": "Primäre Hand",
         "Settings.GeneralControlsSettings.PrimaryHand.Description": "Welche Hand ihre primäre Hand ist. Dies wird von verschiedenen Systemen für Interaktionen verwendet, z.B. beim Ausrüsten von Tools.",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Doppelklick-Intervall",
-        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Definiert für alle Doppelklick-Interatktionen die maximale Zeitspanne zwischen einzelnen Klicks, welche als Doppelklick erkannt wird. Wenn Sie Probleme damit haben, Doppelklick-Interaktionen auszulösen, erhöhen Sie diesen Wert. Wenn einzelne Klicks fälschlicherweise als Doppelklick erkannt werden, verringern Sie ihn.",
+        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Dies bestimmt die maximale Zeitspanne, die zwischen dem ersten und zweiten Klick eines Doppelklicks vergehen darf. Wenn Sie versehentlich zu häufig Doppelklicks auslösen, verringern Sie diesen Wert. Wenn Sie Probleme haben, Doppelklicks auszulösen, erhöhen Sie diesen Wert.",
 
         "Settings.LocomotionSettings.LocomotionPreferences": "Fortbewegungspräferenzen",
         "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Fortbewegungspräferenzen",
@@ -1385,8 +1385,10 @@
 
         "Settings.KeyboardLookSettings": "Einstellungen zur Tastatur-Blicksteuerung",
         "Settings.KeyboardLookSettings.LookEnabled": "Tastatur-Blicksteuerung",
+
         "Settings.KeyboardLookSettings.LookEnabled.Description": "Wenn diese Funktion aktiv ist, können Sie Ihren Kopf mit den Pfeiltasten Ihrer Tastatur bewegen.<br/>Dies ist für Situationen gedacht, in denen eine Maus nicht vorhanden oder nicht zweckmäßig ist, z. B. bei der Verwendung eines Laptops oder wenn barrierefreie Alternativen zur Maus benötigt werden.",
         "Settings.KeyboardLookSettings.HorizontalSpeed": "Horizontale Geschwindigkeit der Tastatur-Blicksteuerung",
+
         "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "Hier können Sie einstellen, wie schnell sich Ihr Kopf horizontal bewegt, wenn Sie die Tastatur-Blicksteuerung verwenden.",
         "Settings.KeyboardLookSettings.VerticalSpeed": "Vertikale Geschwindigkeit der Tastatur-Blicksteuerung",
         "Settings.KeyboardLookSettings.VerticalSpeed.Description": "Diese Einstellung bestimmt, wie schnell sich Ihr Kopf vertikal bewegt, wenn Sie die Tastatur-Blicksteuerung verwenden.",
@@ -1588,20 +1590,20 @@
         "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "Dieser Regler beeinflusst insbesondere die Lautstärke der Soundeffekte der Benutzeroberfläche: das Drücken von Knöpfen, das Nutzen von Reglern, einige Interaktionen mit Werkzeugen, Aufnehmen von Fotos usw.",
 
         "Settings.AudioAccessibilitySettings.WhisperVolume": "Flüsterlautstärke",
-        "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Im Flüstermodus bestimmt dies, wie laut Sie Geräusche von außerhalb ihrer Flüsterblase wahrnehmen. Wenn diese zu laut oder zu leise sind können Sie hiermit die Geräuschsdämpfung beeinflussen.",
+        "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Im Flüstermodus bestimmt dies, wie laut Sie Geräusche von außerhalb ihrer Flüsterblase wahrnehmen. Wenn diese zu laut oder zu leise sind, können Sie hiermit die Geräuschsdämpfung beeinflussen.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Lautstärke Sprachnachricht",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Dies bestimmt, wie laut Sie Geräusche warnehmen, während Sie eine Sprachnachicht im Kontaktmenü aufzeichnen. Dies kann andere Stimmen abdämpfen, um es Ihnen leichter zu machen, sich auf Ihr Gesprochenes zu konzentrieren.",
 
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Stimmen-Normalisierung",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Diese Funktion versucht die Lautstärke Ihrer Stimmaufnahme auf einen einheitlichen Pegel zu bringen. Unabhängig von Ihrer Mikrofoneinstellung haben Sie somit die gleiche Lautstärke wie andere Benutzer. Wir empfehlen ausdrücklich, diese Einstellung aktiviert zu lassen, damit Sie von anderen Nutzern gut gehört werden können.",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "Noise-Gate Schwellwert",
-        "Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description": "Das Noise-Gate verhindet, dass Hintergrundgeräusche von ihrem Mikrofon an andere Benutzer übertragen werden. Diese Einstellung bestimmt den Geräusch-Schwellwert, ab welchem der Ton von Ihrem Mikrofon übertragen wird. Wenn zu viele Geräusche übertragen werden, erhöhen Sie den Wert, wenn ihre Stimme nicht übertragen wird, senken Sie diesen.",
+        "Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description": "Das Noise-Gate verhindert, dass Hintergrundgeräusche an andere Benutzer übertragen werden. Diese Einstellung bestimmt die maximale Lautstärke, bis zu der Geräusche herausgefiltert werden. Wenn zu viele Geräusche übertragen werden, erhöhen Sie diesen Wert, wenn ihre Stimme nicht übertragen wird, verringern Sie ihn.",
         "Settings.AudioInputFilteringSettings.NoiseGateAttack": "Noise-Gate Anstiegszeit",
-        "Settings.AudioInputFilteringSettings.NoiseGateAttack.Description": "Dies bestimmt wie schnell das Noise-Gate auf eingehende Geräusche reagiert, die zu leise sind. Höhere Werte verursachen einen langsameren Lautstärkenanstieg, bei kleineren Werten nimmt die Lautstärke schneller zu.",
+        "Settings.AudioInputFilteringSettings.NoiseGateAttack.Description": "Dies bestimmt wie schnell das Noise-Gate auf eingehende Geräusche reagiert, die lauter als der Schwellwert sind. Höhere Werte verursachen einen langsameren Lautstärkenanstieg, bei kleineren Werten nimmt die Lautstärke schneller zu.",
         "Settings.AudioInputFilteringSettings.NoiseGateHold": "Noise-Gate Haltezeit",
         "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "Dies bestimmt, wie lange die angepasste Lautstärke gehalten werden soll, nachdem Sie initial erkannt wurde, bevor die Geräusche wieder gefiltert werden. Höhere Werte verursachen, dass mehr leise Geräusche übertragen werden, nachdem Sie ein lautes Geräusch gemacht haben.",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease": "Noise-Gate Ausklingzeit",
-        "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "Dies bestimmt, wie schnell das Noise-Gate wieder schließt, nachdem eingehende Geräusche wieder leise geworden sind.",
+        "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "Dies bestimmt, wie schnell das Noise-Gate wieder schließt, nachdem die Eingangslautstärke wieder unter den Schwellwert gefallen ist",
 
         "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Normalisierungs-Schwellwert",
         "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Dieser Schwellwert bestimmt, ab welcher Lautstärke eingehende Geräusche verstärkt werden. Wenn Ihre normale Stimme nicht verstärkt wird, verringern Sie diesen Wert. Wenn leise Hintergrundgeräusche verstärkt werden, erhöhen Sie ihn.",
