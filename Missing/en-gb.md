@@ -1675,7 +1675,6 @@ Inspector.Member.SetAllToX
 Inspector.Member.SetAllToY  
 Inspector.Member.SetAllToZ  
 Inspector.Member.SetAllToW  
-Inspector.Member.Normalize  
 Inspector.Member.BakeBlendshape  
 Inspector.Member.RemoveBlendshape  
 Inspector.Member.SplitBlendshape.X  
@@ -1721,7 +1720,6 @@ Inspector.MeshRenderer.MergeByMaterial
 Inspector.MeshRenderer.SplitByMaterial  
 Inspector.MeshCollider.VHACD  
 Inspector.MeshCollider.ReplaceBox  
-Inspector.Texture3D.SpawnVisualizer  
 Inspector.CommonAvatarBuilder.UpdateLocomotionModules  
 Inspector.VHACD.Parameter.MergeDoubles  
 Inspector.VHACD.Parameter.Resolution  
@@ -1877,7 +1875,6 @@ Inspector.Collider.SetFromLocalBoundsPrecise
 Inspector.Collider.SetFromGlobalBoundsPrecise  
 Inspector.Collider.SetFromPreciseBounds  
 Inspector.Collider.SetFromPreciseCylinderBounds  
-Inspector.Collider.Visualize  
 Inspector.SimpleAwayIndicator.TestAway  
 Inspector.SimpleAwayIndicator.TestRestore  
 Inspector.Fields.Drive  
@@ -2254,7 +2251,6 @@ UI.DocumentDisplay.Pages
 UI.DocumentDisplay.ResetZoom  
 UI.VideoPlayer.GlobalSettings  
 UI.VideoPlayer.LocalSettings  
-UI.VideoPlayer.SpatialAudio  
 UI.VideoPlayer.AreaBroadcast  
 UI.VideoPlayer.BroadcastAudio  
 UI.VideoPlayer.EnterURL  
