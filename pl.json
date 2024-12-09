@@ -213,6 +213,7 @@
         "World.Error.Handshake": "Błąd podczas nawiązywania położenia",
         "World.Error.Unknown": "Nieznany błąd",
         "World.Error.FailedToCreateBanAccessKey": "Błąd z tworzeniem klucza do banów",
+        "World.Error.UnhandledError": "Błąd",
 
         "World.Config.Name": "Nazwa świata:",
         "World.Config.Description": "Opis:",
@@ -863,6 +864,7 @@
         "CreateNew.Back": "<<< <i>Wstecz</i>",
         "CreateNew.EmptyObject": "Pusty Obiekt",
         "CreateNew.ParticleSystem": "System Cząsteczek",
+        "CreateNew.LegacyParticleSystem": "Stary System Cząsteczek",
 
         "CreateNew.Object": "Obiekt",
         "CreateNew.Object.AvatarCreator": "Kreator Awatarów",
@@ -1381,6 +1383,15 @@
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "Prędkość przesuwania trzymanych przedmiotów",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "Gdy przedmiot jest trzymany w trybie stacjonarnym, to ustawienie kontroluje jak szybko ten przedmiot będzie się poruszać do przodu i do tyłu za pomocą scrolla.",
 
+        "Settings.KeyboardLookSettings": "Ustawienia ruchu kamery przy użyciu klawiatury",
+        "Settings.KeyboardLookSettings.LookEnabled": "Ruch kamery przy użyciu klawiatury",
+        "Settings.KeyboardLookSettings.LookEnabled.Description": "Gdy ta opcja jest włączona, można używać strzałek na klawiaturze do sterowania kamerą.<br>Ta funkcja jest przeznaczona do scenariuszy, w których mysz może nie być dostępna lub odpowiednia, na przykład podczas korzystania z laptopa.",
+
+        "Settings.KeyboardLookSettings.HorizontalSpeed": "Prędkość w poziomie",
+        "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "Regulacja szybkości ruchu kamery w poziomie.",
+        "Settings.KeyboardLookSettings.VerticalSpeed": "Prędkość w pionie",
+        "Settings.KeyboardLookSettings.VerticalSpeed.Description": "Regulacja szybkości ruchu kamery w pionie.",
+
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Wibracja kontrolerów",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Użyj tego aby włączyć lub wyłączyć haptyczne wibracje na kontrolerach VR.",
         "Settings.GeneralHapticsSettings.EnableHaptics": "Haptic feedback",
@@ -1657,6 +1668,8 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Debugowanie przypisań sterowania",
         "Settings.DebugSettings.DebugInputBindings.Description": "Po włączeniu tej opcji wyświetlane są informacje o debugowaniu systemu przypisania sterowania. Jest to przydatne głównie dla programistów.",
+        "Settings.DebugSettings.ConvertParticleSystems": "Konwertuj stary system cząstek na PhotonDust",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "Włączenie tej opcji spowoduje, że nowo wczytane przedmioty zawierające stary system cząsteczek zostaną przekonwertowane na PhotonDust.<br><br><color=red>Jest to przeznaczone wyłącznie do celów testowych!</color> Jeśli nie bierzesz udziału w testach, nie zalecamy włączania tej opcji, ponieważ TWOJE PRZEDMIOTY MOGĄ ZOSTAĆ USZKODZONE.<br><br>Jeśli chcesz pomóc w testowaniu, odwiedź nasz GitHub/Discord.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Podwójne naciśnięcie uchwytu w celu ekwipowania przedmiotów",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Po włączeniu tej funkcji można ekwipować narzędzia i gadżety, naciskając chwyt dwa razy w krótkim odstępie czasu. To ustawienie prawdopodobnie zostanie kiedyś usunięte.",
@@ -2200,6 +2213,9 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>UWAGA!</size></color><br>Możliwe jest użycie tego komponentu jako prostego ciała sztywnego poprzez zaznaczenie opcji SimulateRotation. Zanim to zrobisz, pamiętaj, że nie jest on zoptymalizowany do tego celu, a odpowiednie wsparcie dla sztywnych ciał pojawi się w przyszłości.<br>Prawidłowe wsparcie sztywnego ciała zapewni:<br><b>- Wydajność procesora i sieci</b> - CharacterController będzie powodował większe użycie procesora i zwiększony ruch sieciowy.<br><b>- Ograniczenia</b> - będziesz mógł tworzyć połączenia, zawiasy, sprężyny i inne ograniczenia między sztywnymi ciałami<br><b>- Płynna symulacja i interakcje dla każdego</b> - CharacterController ulegnie glitchowi, jeśli inna osoba spróbuje interakcji.<br><b>- Nowe funkcje i narzędzia</b> - aby korzystanie z nich było znacznie łatwiejsze<br>-----------------------<br>Jeśli tylko rozumiesz te ograniczenia, baw się dobrze!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>UWAGA!</size></color><br>Możliwe jest użycie tego komponentu do interakcji z referencjami przy użyciu ich ID. Proces ten jest powszechnie nazywany \"Ref Hacking\".<br><br><b>Zanim</b> to zrobisz, pamiętaj, że ta funkcja <b>nie</b> jest obsługiwana i może zostać przerwana w dowolnym momencie. Nie należy polegać na tej funkcji przy tworzeniu swoich dzieł.",
+
+        "Inspector.ParticleSystem.BasicInfo" : "Ilość cząstek: {count}\tCzas ostatniej symulacji: {time}",
+        "Inspector.ParticleSystem.TrailInfo" : "Ślady: {trailCount} (Pojemność: {trailCapacity}), Pojemność punktu śladu: {trailPointCapacity}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Wspólne szablony przejść:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Zanikanie Alpha: Wprowadzenie i Wycofanie",
