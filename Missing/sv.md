@@ -172,6 +172,7 @@ CreateNew.Back
 CreateNew.EmptyObject  
 CreateNew.ParticleSystem  
 CreateNew.LegacyParticleSystem  
+CreateNew.ExperimentalParticleSystem  
 CreateNew.Object  
 CreateNew.Object.AvatarCreator  
 CreateNew.Object.Camera  
@@ -1308,6 +1309,7 @@ Inspector.Rig.ClearDebugVisuals
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.ParticleSystem.TestingWarning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  

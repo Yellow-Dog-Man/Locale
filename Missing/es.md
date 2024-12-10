@@ -29,6 +29,7 @@ Tools.CameraObjectHider.Name
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
 CreateNew.LegacyParticleSystem  
+CreateNew.ExperimentalParticleSystem  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
@@ -51,6 +52,7 @@ Settings.DesktopRenderSettings.SprintFieldOfViewZoom
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
 Inspector.Member.Normalize  
 Inspector.Texture3D.SpawnVisualizer  
+Inspector.ParticleSystem.TestingWarning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 

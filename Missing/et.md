@@ -324,6 +324,7 @@ ProtoFlux.UI.Call
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
 CreateNew.LegacyParticleSystem  
+CreateNew.ExperimentalParticleSystem  
 CreateNew.Object.ReflectionProbe  
 CreateNew.Editor.TextRendererWizard  
 CreateNew.Editor.CubemapCreator  
@@ -1115,6 +1116,7 @@ Inspector.Rig.ClearDebugVisuals
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.ParticleSystem.TestingWarning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  

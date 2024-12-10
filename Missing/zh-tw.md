@@ -108,6 +108,7 @@ Tools.CameraObjectHider.Name
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
 CreateNew.LegacyParticleSystem  
+CreateNew.ExperimentalParticleSystem  
 AvatarCreator.ProtectionUnavailable  
 Importer.Image.Sprite  
 Importer.Image.Failure.Heading  
@@ -740,6 +741,7 @@ Inspector.Texture.AddAlpha
 Inspector.DataPreset.SetActive  
 Inspector.DataPreset.SetValues  
 Inspector.DataPreset.AddAllChildren  
+Inspector.ParticleSystem.TestingWarning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  
