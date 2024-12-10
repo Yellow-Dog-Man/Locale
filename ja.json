@@ -866,6 +866,8 @@
         "CreateNew.ParticleSystem": "パーティクル​システム",
         "CreateNew.LegacyParticleSystem": "レガシーパーティクルシステム",
 
+        "CreateNew.ExperimentalParticleSystem": "PhotonDust System <color=red>(警告:試験的用!)</color>",
+
         "CreateNew.Object": "オブジェクト",
         "CreateNew.Object.AvatarCreator": "アバター​クリエイター",
         "CreateNew.Object.Camera": "カメラ",
@@ -2214,6 +2216,7 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告!</size></color><br>SimulateRotationにチェックをいれることで、​このコンポーネントを単純なRigidbodyとして使用できます。​前提として、この目的のために最適化されておらず、​適切なRigidbodyが将来提供されることを理解しておいてください。<br>適切なRigidbodyは以下を提供します：<br><b>- CPUとネットワーク負荷の軽減</b> - CharacterControllerを使用すると、 CPU使用率が高くなり、ネットワークトラフィックが大量に発生します。<br><b>- Constraints</b> - Rigidbody間にジョイント、ヒンジ、スプリング、 その他のconstraintを作成できるようになります。<br><b>- どのユーザーからもスムーズなシミュレーションと相互作用</b> - 他の人が操作すると、CharacterControllerはグリッチアウトします。<br><b>- 新機能とツール</b> - それらをはるかに簡単に使用できるようになります。<br>-----------------------<br>これらの制限を理解している限り、楽しんでください！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color>このコンポーネントを使用すると、IDを使用して参照を操作できます。​この手法は一般的に「Refハック」と呼ばれます。<br><br>これを実行する<b>前</b>に、​これはサポートされて<b>いない</b>ため、​いつか壊れる可能性があることを理解してください。​この機能に依存しないでください。",
 
+        "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>警告!</size></color><br>これは\"PhotonDust\"という新しいパーティクルシステムです。このシステムを試すのは自由ですが、重要なコンテンツではまだ使用しないことをおすすめします。<br><br>この警告が表示されなくなるまで、レガシー・パーティクル・システムを使用することをお勧めします。",
         "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tSimulation Time: {time}\tRender allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
 
