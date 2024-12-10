@@ -1624,7 +1624,7 @@
         "Settings.EarmuffSettings.Angle": "角度",
         "Settings.EarmuffSettings.Angle.Description": "あなたの顔から前方に向かって、声が普通の音量で聞こえる範囲の角度を設定できます(\"リスニングコーン\"の角度です)。この角度を超えた声は、移行開始距離に達すると小さくなっていきます。",
         "Settings.EarmuffSettings.TransitionStart": "移行開始距離",
-        "Settings.EarmuffSettings.TransitionStart.Description": "\"リスニングコーン\"からどれだけ離れると声が小さくなり始めるかを設定できます。この値をゼロ以上にすることをお勧めします。そうすることで、横からの声や頭の近くからの声（例：あなたのすぐ後ろにいるユーザーの声）をより含むことができます。",
+        "Settings.EarmuffSettings.TransitionStart.Description": "\"リスニングコーン\"からどれだけ離れると声が小さくなり始めるかを設定できます。この値をゼロ以上にすることをおすすめします。そうすることで、横からの声や頭の近くからの声（例：あなたのすぐ後ろにいるユーザーの声）をより含むことができます。",
         "Settings.EarmuffSettings.TransitionLength": "移行の距離",
         "Settings.EarmuffSettings.TransitionLength.Description": "声の音量が小さくなり始めてから完全に聞こえなくなるまでの距離を設定できます。値が大きいほど音量は緩やかに小さくなり、値が小さいほど音量は急に小さくなります。",
         "Settings.EarmuffSettings.VolumeAttenuation": "外からの音量",
@@ -1669,7 +1669,7 @@
         "Settings.DebugSettings.DebugInputBindings": "インプットバインディングのデバッグ",
         "Settings.DebugSettings.DebugInputBindings.Description": "設定を有効にした場合、インプットバインディングシステムのデバッグ情報が表示されます。主に開発者向けの機能です。",
         "Settings.DebugSettings.ConvertParticleSystems": "パーティクルシステムをPhotonDustに変換する",
-        "Settings.DebugSettings.ConvertParticleSystems.Description": "この設定を有効にすると、新しくロードするアイテムやワールドに対して、従来のパーティクルシステムから<b>新しい</b>カスタムパーティクルシステム（PhotonDust）への変換が実行されます。<br><br><color=red>これはテストのみを目的としたものです！</color>テストに参加していない場合は、このオプションをオンにすることをお勧めしません、コンテンツが破損する可能性があります。<br><br>テストにご協力いただける方は、GitHub/Discordをご覧ください。",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "この設定を有効にすると、新しくロードするアイテムやワールドに対して、従来のパーティクルシステムから<b>新しい</b>カスタムパーティクルシステム（PhotonDust）への変換が実行されます。<br><br><color=red>これはテストのみを目的としたものです！</color>テストに参加していない場合は、このオプションをオンにすることをおすすめしません、コンテンツが破損する可能性があります。<br><br>テストにご協力いただける方は、GitHub/Discordをご覧ください。",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "ダブルグリップでアイテムを装備",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "有効にすると、グリップを2回連続で押すことでツールやアイテムを装備できます。この設定は将来削除されます。",
@@ -1679,7 +1679,7 @@
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "有効にすると、グリップを握ったままAppボタン（ダッシュメニューを開閉するボタン）を押すと、レガシーのインベントリーまたはセッションメニューが開きます。",
 
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "足のシミュレーションを抑制",
-        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "これは、ポーズを変更せずに動作するような、足のプロキシを上書きする機能を作成するためのものです。 <br><br>ポーザーや類似の機能を使用していない場合にこれをオンにしていると、アニメーションが正しく表示されません。ポーザーの使用が終わったら、これをオフにしてください。<br><br><color=hero.red>重要:</color>これはいずれ削除される可能性があります。新しいシステムと互換性を持たせるために、アクティブなときにシミュレーションを自動的に抑制するようにポーザーをアップグレードすることをお勧めします。",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "これは、ポーズを変更せずに動作するような、足のプロキシを上書きする機能を作成するためのものです。 <br><br>ポーザーや類似の機能を使用していない場合にこれをオンにしていると、アニメーションが正しく表示されません。ポーザーの使用が終わったら、これをオフにしてください。<br><br><color=hero.red>重要:</color>これはいずれ削除される可能性があります。新しいシステムと互換性を持たせるために、アクティブなときにシミュレーションを自動的に抑制するようにポーザーをアップグレードすることをおすすめします。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitchチャンネル名",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "カメラコントロールパネルのTwitchチャットパネルの標準のTwitchチャンネル名を設定できます。主にTwitch配信者が自分のTwitchチャットを見たい場合に使用します。",
@@ -1700,7 +1700,7 @@
         "Settings.DashSettings.OpenCloseSpeed": "開閉スピード",
         "Settings.DashSettings.OpenCloseSpeed.Description": "ダッシュメニューの開閉速度を調整できます。アニメーションが気に入らない場合は、この値を非常に大きくして、ほぼ瞬時に開閉するように設定できます。",
         "Settings.DashSettings.AllowReplacingSettings" : "設定の入れ替えを許可する",
-        "Settings.DashSettings.AllowReplacingSettings.Description" : "有効にすると、UI編集モードのときにダッシュメニューの設定ファセットを他のファセットに置き換えることができます。\n\n個々の設定をファセットとして取り出したい場合は、この設定をオフにする必要があります。設定UIをカスタムUIに置き換えたいときにだけ、一時的にこの設定をオンにすることをお勧めします。",
+        "Settings.DashSettings.AllowReplacingSettings.Description" : "有効にすると、UI編集モードのときにダッシュメニューの設定ファセットを他のファセットに置き換えることができます。\n\n個々の設定をファセットとして取り出したい場合は、この設定をオフにする必要があります。設定UIをカスタムUIに置き換えたいときにだけ、一時的にこの設定をオンにすることをおすすめします。",
 
         "Settings.NotificationSettings": "通知設定",
         "Settings.NotificationSettings.UserOnline": "フレンド・オンライン",
@@ -2216,7 +2216,7 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告!</size></color><br>SimulateRotationにチェックをいれることで、​このコンポーネントを単純なRigidbodyとして使用できます。​前提として、この目的のために最適化されておらず、​適切なRigidbodyが将来提供されることを理解しておいてください。<br>適切なRigidbodyは以下を提供します：<br><b>- CPUとネットワーク負荷の軽減</b> - CharacterControllerを使用すると、 CPU使用率が高くなり、ネットワークトラフィックが大量に発生します。<br><b>- Constraints</b> - Rigidbody間にジョイント、ヒンジ、スプリング、 その他のconstraintを作成できるようになります。<br><b>- どのユーザーからもスムーズなシミュレーションと相互作用</b> - 他の人が操作すると、CharacterControllerはグリッチアウトします。<br><b>- 新機能とツール</b> - それらをはるかに簡単に使用できるようになります。<br>-----------------------<br>これらの制限を理解している限り、楽しんでください！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color>このコンポーネントを使用すると、IDを使用して参照を操作できます。​この手法は一般的に「Refハック」と呼ばれます。<br><br>これを実行する<b>前</b>に、​これはサポートされて<b>いない</b>ため、​いつか壊れる可能性があることを理解してください。​この機能に依存しないでください。",
 
-        "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>警告!</size></color><br>これは\"PhotonDust\"という新しいパーティクルシステムです。このシステムを試すのは自由ですが、重要なコンテンツではまだ使用しないことをおすすめします。<br><br>この警告が表示されなくなるまで、レガシー・パーティクル・システムを使用することをお勧めします。",
+        "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>警告!</size></color><br>これは\"PhotonDust\"という新しいパーティクルシステムです。このシステムを試すのは自由ですが、重要なコンテンツではまだ使用しないことをおすすめします。<br><br>この警告が表示されなくなるまで、レガシー・パーティクル・システムを使用することをおすすめします。",
         "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tSimulation Time: {time}\tRender allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
 
