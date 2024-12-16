@@ -48,6 +48,17 @@ Settings.LegacyFeatureSettings.SuppressFeetSimulation
 Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.NotificationSettings.PermissionChanged  
 Settings.NotificationSettings.PermissionChanged.Description  
+Settings.CursorSettings  
+Settings.CursorSettings.BaseCursorSize  
+Settings.CursorSettings.BaseCursorSize.Description  
+Settings.CursorSettings.GrabMultiplier  
+Settings.CursorSettings.GrabMultiplier.Description  
+Settings.CursorSettings.InteractionMultiplier  
+Settings.CursorSettings.InteractionMultiplier.Description  
+Settings.CursorSettings.TextMultiplier  
+Settings.CursorSettings.TextMultiplier.Description  
+Settings.CursorSettings.SliderMultiplier  
+Settings.CursorSettings.SliderMultiplier.Description  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
 Inspector.Member.Normalize  
