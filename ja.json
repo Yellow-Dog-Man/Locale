@@ -1760,6 +1760,23 @@
         "Settings.LaserSettings.ShowInDesktop": "デスクトップモードでレーザーを表示",
         "Settings.LaserSettings.ShowInDesktop.Description": "有効にすると、デスクトップモードで一人称視点の場合にも、レーザーが表示されます。",
 
+        "Settings.CursorSettings": "カーソル設定",
+        
+        "Settings.CursorSettings.BaseCursorSize": "基本のカーソルサイズ",
+        "Settings.CursorSettings.BaseCursorSize.Description": "基本のカーソルの大きさを設定できます。 他のカーソルの大きさはこの設定に加えるため、他のカーソルの大きさを調整する前に、まずここを設定することをお勧めします。",
+        
+        "Settings.CursorSettings.GrabMultiplier": "グラブ倍率",
+        "Settings.CursorSettings.GrabMultiplier.Description": "この倍率は、オブジェクトやアイテムをつかむ際に、カーソルに適用されます。",
+        
+        "Settings.CursorSettings.InteractionMultiplier": "インタラクション倍率",
+        "Settings.CursorSettings.InteractionMultiplier.Description": "この倍率は、ボタンなどのUI要素を操作する際に、カーソルに適用されます。",
+        
+        "Settings.CursorSettings.TextMultiplier": "テキスト倍率",
+        "Settings.CursorSettings.TextMultiplier.Description": "この倍率は、テキストを操作している際に、カーソルに適用されます。",
+        
+        "Settings.CursorSettings.SliderMultiplier": "スライダー倍率",
+        "Settings.CursorSettings.SliderMultiplier.Description": "この倍率は、スライダーやスクロールバーを操作する際に、カーソルに適されます。",
+
         "Settings.DesktopViewSettings.FollowCursor": "カーソルに合わせて画面を切り替える",
         "Settings.DesktopViewSettings.FollowCursor.Description": "PCでマルチモニターを使用している際に有効な設定です。設定を有効にすると、カーソルの移動に合わせてデスクトップ画面が自動的に切り替わります。VR中にキーボードやマウスを操作したいときに使えます。",
         "Settings.DesktopViewSettings.Brightness": "明るさ",
@@ -2217,7 +2234,7 @@
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color>このコンポーネントを使用すると、IDを使用して参照を操作できます。​この手法は一般的に「Refハック」と呼ばれます。<br><br>これを実行する<b>前</b>に、​これはサポートされて<b>いない</b>ため、​いつか壊れる可能性があることを理解してください。​この機能に依存しないでください。",
 
         "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>警告!</size></color><br>これは\"PhotonDust\"という新しいパーティクルシステムです。このシステムを試すのは自由ですが、重要なコンテンツではまだ使用しないことをおすすめします。<br><br>この警告が表示されなくなるまで、レガシー・パーティクル・システムを使用することをおすすめします。",
-        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tSimulation Time: {time}\tRender allocations: {allocationCount}",
+        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tSimulation Time: {time}\tSubmit Time: {renderSubmitTime}\tRender allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
 
         "Inspector.ParticleStyle.CommonTransitions": "遷移テンプレート:",
