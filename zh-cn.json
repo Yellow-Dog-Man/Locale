@@ -1387,10 +1387,8 @@
 
         "Settings.KeyboardLookSettings": "键盘观察设置",
         "Settings.KeyboardLookSettings.LookEnabled": "键盘观察",
-
         "Settings.KeyboardLookSettings.LookEnabled.Description": "启用后，键盘查看设置将允许你使用键盘上的箭头键移动你的头部。 <br/> 该功能是用于在一些无法或者不适合使用鼠标的场景，例如使用笔记本电脑或者其他需要使用鼠标的替代方案。",
         "Settings.KeyboardLookSettings.HorizontalSpeed": "键盘观察的水平速度。",
-        
         "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "使用键盘观察时，使用它来调整头部水平移动的速度。",
         "Settings.KeyboardLookSettings.VerticalSpeed": "键盘观察的垂直速度。",
         "Settings.KeyboardLookSettings.VerticalSpeed.Description": "使用键盘观察时，使用它来调整头部垂直移动的速度。",
@@ -1760,6 +1758,24 @@
         "Settings.LaserSettings.StickThreshold.Description": "这可以控制激光对互动物品的粘附程度。数值越大，粘性越强。将此值设为零将完全消除粘性（例如在拾取物品过程中）。",
         "Settings.LaserSettings.ShowInDesktop": "在桌面模式下显示激光",
         "Settings.LaserSettings.ShowInDesktop.Description": "开启后，在桌面模式下的第一人称视角中，激光视觉效果将完全呈现在你眼前",
+
+        "Settings.CursorSettings": "光标设置",
+        
+        "Settings.CursorSettings.BaseCursorSize": "基本光标大小",
+        "Settings.CursorSettings.BaseCursorSize.Description": "这会设置一个基本光标大小。我们建议先设置这个值，然后再调整其他值，因为它们的大小是相对于这个值的。",
+        
+        "Settings.CursorSettings.GrabMultiplier": "抓握时的大小倍数",
+        "Settings.CursorSettings.GrabMultiplier.Description": "在抓取对象和项目时，它将作为光标的光标大小倍增应用。",
+        
+        "Settings.CursorSettings.InteractionMultiplier": "互动时的大小倍数",
+        "Settings.CursorSettings.InteractionMultiplier.Description": "当与UI元素（如按钮）交互时，它将作为光标的光标大小倍增应用。",
+        
+        "Settings.CursorSettings.TextMultiplier": "文本编辑时的大小倍数",
+        "Settings.CursorSettings.TextMultiplier.Description": "在互动和操作文本时，它将作为光标的光标大小倍增应用。",
+        
+        "Settings.CursorSettings.SliderMultiplier": "滑动时的大小倍数",
+        "Settings.CursorSettings.SliderMultiplier.Description": "在与滑块和滚动条互动时，它将作为光标的光标大小倍增应用。",
+
 
         "Settings.DesktopViewSettings.FollowCursor": "跟随光标",
         "Settings.DesktopViewSettings.FollowCursor.Description": "启用后，桌面视图将自动切换到光标所在的屏幕。当你在 VR 模式中使用物理键盘和鼠标时，这将非常有用。",
