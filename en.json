@@ -1387,10 +1387,8 @@
 
         "Settings.KeyboardLookSettings": "Keyboard Look Settings",
         "Settings.KeyboardLookSettings.LookEnabled": "Keyboard Look",
-
         "Settings.KeyboardLookSettings.LookEnabled.Description": "When enabled, Keyboard Look allows you to move your head around using the arrow keys on your keyboard. <br/> It is designed for scenarios when a mouse might not be available or suitable, such as when using a laptop or when accessible alternatives to a mouse are required.",
         "Settings.KeyboardLookSettings.HorizontalSpeed": "Horizontal Speed for Keyboard Looking",
-
         "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "Use this to adjust how fast your head moves horizontally when using Keyboard Look.",
         "Settings.KeyboardLookSettings.VerticalSpeed": "Vertical Speed for Keyboard Looking.",
         "Settings.KeyboardLookSettings.VerticalSpeed.Description": "Use this to adjust how fast your head moves vertically when using Keyboard Look.",
@@ -1760,6 +1758,24 @@
         "Settings.LaserSettings.StickThreshold.Description": "This controls how much the laser will stick to interactive items. Larger values will make it stick more. Setting this to zero will stop the stickiness completely.",
         "Settings.LaserSettings.ShowInDesktop": "Show lasers in desktop mode",
         "Settings.LaserSettings.ShowInDesktop.Description": "When on, the laser visual will be rendered to you fully when in first person view in desktop mode.",
+
+        "Settings.CursorSettings": "Cursor Settings",
+        
+        "Settings.CursorSettings.BaseCursorSize": "Base cursor size",
+        "Settings.CursorSettings.BaseCursorSize.Description": "This sets a base cursor size. We recommend setting this first, before adjusting the others as their size is relative to this.",
+        
+        "Settings.CursorSettings.GrabMultiplier": "Grab multiplier",
+        "Settings.CursorSettings.GrabMultiplier.Description": "This is applied as a multiplier to your cursor while grabbing objects and items.",
+        
+        "Settings.CursorSettings.InteractionMultiplier": "Interaction multiplier",
+        "Settings.CursorSettings.InteractionMultiplier.Description": "This is applied as a multiplier to your cursor while interacting with UI elements such as buttons.",
+        
+        "Settings.CursorSettings.TextMultiplier": "Text multiplier",
+        "Settings.CursorSettings.TextMultiplier.Description": "This is applied as a multiplier to your cursor while interacting and manipulating text.",
+        
+        "Settings.CursorSettings.SliderMultiplier": "Slider multiplier",
+        "Settings.CursorSettings.SliderMultiplier.Description": "This is applied as a multiplier to your cursor while interacting with sliders and scrollbars.",
+        
 
         "Settings.DesktopViewSettings.FollowCursor": "Follow cursor",
         "Settings.DesktopViewSettings.FollowCursor.Description": "When enabled, the Desktop view will automatically switch to whichever screen is your cursor on. This is useful when you're using physical keyboard and mouse while in VR.",
@@ -2218,7 +2234,7 @@
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component to interact with references by using their IDs. This process is commonly called 'Ref Hacking'.<br><br><b>Before</b> you do this, please understand that this is <b>not</b> supported and may break at any time. Do not rely on this functionality for your creations.",
 
         "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>WARNING!</size></color><br>This is the new particle system called \"PhotonDust\", which is currently being tested. You are free to play with it, but we recommend not using it for new serious content yet, as breaking changes can still occur.<br><br>We recommend using the Legacy Particle System for projects until it is fully removed and this warning goes away.",
-        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tSimulation Time: {time}\tRender allocations: {allocationCount}",
+        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tSimulation Time: {time}\tSubmit Time: {renderSubmitTime}\tRender allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Common Transition Templates:",
