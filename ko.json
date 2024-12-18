@@ -1387,10 +1387,8 @@
         
         "Settings.KeyboardLookSettings": "키보드 방향 전환 설정",
         "Settings.KeyboardLookSettings.LookEnabled": "키보드 방향전환 허용",
-
         "Settings.KeyboardLookSettings.LookEnabled.Description": "활성화 시, 키보드의 방향키를 이용하여 머리의 회전을 수행할 수 있습니다.<br/>이 기능은 노트북을 사용하거나 마우스 및 대체수단을 사용할 수 없는 경우를 위해 설계되었습니다.",
         "Settings.KeyboardLookSettings.HorizontalSpeed": "수평(좌/우) 회전속도",
-
         "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "키보드를 이용하여 좌/우 회전할때 사용할 속도를 설정합니다.",
         "Settings.KeyboardLookSettings.VerticalSpeed": "수직(상/하) 이동속도",
         "Settings.KeyboardLookSettings.VerticalSpeed.Description": "키보드를 이용하여 상/하 회전할때 사용할 속도를 설정합니다.",
@@ -1761,6 +1759,24 @@
         "Settings.LaserSettings.ShowInDesktop": "데스크탑 모드에서 지시선 보이기",
         "Settings.LaserSettings.ShowInDesktop.Description": "활성화한 경우, 데스크탑 1인칭 모드에서 지시선이 표현됩니다.",
 
+        "Settings.CursorSettings": "커서 설정",
+        
+        "Settings.CursorSettings.BaseCursorSize": "기본 커서 크기",
+        "Settings.CursorSettings.BaseCursorSize.Description": "커서의 기본 크기를 정합니다. 하위 다른 설정값은 이 값을 기준으로 상대적용 되므로 이를 먼저 설정하세요.",
+        
+        "Settings.CursorSettings.GrabMultiplier": "잡기 배율",
+        "Settings.CursorSettings.GrabMultiplier.Description": "잡을 수 있는 대상을 가리킬때의 커서를 <color=hero.yellow>기본 커서 크기</color>를 기준으로 계산하여 표현합니다.",
+        
+        "Settings.CursorSettings.InteractionMultiplier": "UI 상호작용 배율",
+        "Settings.CursorSettings.InteractionMultiplier.Description": "버튼과 같은 UI 대상을 가리킬때의 커서를 <color=hero.yellow>기본 커서 크기</color>를 기준으로 계산하여 표현합니다.",
+        
+        "Settings.CursorSettings.TextMultiplier": "문자열 상호작용 배율",
+        "Settings.CursorSettings.TextMultiplier.Description": "UIX 문자열 입력 필드와 같은 대상을 가리킬때의 커서를 <color=hero.yellow>기본 커서 크기</color>를 기준으로 계산하여 표현합니다.",
+        
+        "Settings.CursorSettings.SliderMultiplier": "슬라이더 배율",
+        "Settings.CursorSettings.SliderMultiplier.Description": "UIX 슬라이드바 같은 대상을 가리킬때의 커서를 <color=hero.yellow>기본 커서 크기</color>를 기준으로 계산하여 표현합니다.",
+
+        
         "Settings.DesktopViewSettings.FollowCursor": "커서 따라가기",
         "Settings.DesktopViewSettings.FollowCursor.Description": "활성화되면 <color=hero.yellow>대시 메뉴/데스크탑</color>에서 마우스 커서가 지시선을 따라가게 됩니다. 이 설정은 VR 상태에서 물리적 키보드와 마우스를 사용하는 경우 유용합니다.",
         "Settings.DesktopViewSettings.Brightness": "밝기",
