@@ -1759,6 +1759,24 @@
         "Settings.LaserSettings.ShowInDesktop": "Показывать лазеры в экранном режиме",
         "Settings.LaserSettings.ShowInDesktop.Description": "Когда включено, визуал лазера будет полностью отрисован в виде от первого лица в экранно режиме.",
 
+        "Settings.CursorSettings": "Настройки курсора",
+
+        "Settings.CursorSettings.BaseCursorSize": "Базовый размер курсора",
+        "Settings.CursorSettings.BaseCursorSize.Description": "Задает базовый размер курсора. Рекомендуем установить его в самом начале, до настройки множителей, так как их размер считается относительно базового.",
+
+        "Settings.CursorSettings.GrabMultiplier": "Множитель хвата",
+        "Settings.CursorSettings.GrabMultiplier.Description": "Применяется как множитель к размеру курсора при захвате объектов и предметов.",
+
+        "Settings.CursorSettings.InteractionMultiplier": "Множитель взаимодействия",
+        "Settings.CursorSettings.InteractionMultiplier.Description": "Применяется как множитель к размеру курсора при взаимодействии с элементами интерфейса, такими как кнопки.",
+
+        "Settings.CursorSettings.TextMultiplier": "Множитель текста",
+        "Settings.CursorSettings.TextMultiplier.Description": "Применяется как множитель к размеру курсора при взаимодействии с текстовыми объектами.",
+
+        "Settings.CursorSettings.SliderMultiplier": "Множитель слайдера",
+        "Settings.CursorSettings.SliderMultiplier.Description": "Применяется как множитель к размеру курсора при взаимодействии со слайдерами и областями прокрутки.",
+
+
         "Settings.DesktopViewSettings.FollowCursor": "Следовать за курсором",
         "Settings.DesktopViewSettings.FollowCursor.Description": "Когда включено, вид Рабочего стола будет автоматически переключаться на экран, на котором сейчас находится курсор мыши. Это может быть удобно если вы используете физические клавиатуру и мышь в VR.",
         "Settings.DesktopViewSettings.Brightness": "Яркость",
@@ -1777,7 +1795,7 @@
         "Settings.PhotoCaptureSettings.CaptureStereo": "Снимать стерео фото",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Когда включено, все быстрые фото будут стерео-фото. Их луше всего смотреть в VR.",
         "Settings.PhotoCaptureSettings.StereoSeparation": "Стерео разделение",
-        "Settings.PhotoCaptureSettings.StereoSeparation.Description": "Настраивает расстояние между стерео камерами при использовании стерео режима. Расстояние между камерами влияет на силу стерео эффекта для удаленных объектов.\n\nДля фотографирования близких обхектов лучше подходят небольшие значения, а для больших сцен - большие.",
+        "Settings.PhotoCaptureSettings.StereoSeparation.Description": "Настраивает расстояние между стерео камерами при использовании стерео режима. Расстояние между камерами влияет на силу стерео эффекта для удаленных объектов.\n\nДля фотографирования близких объектов лучше подходят небольшие значения, а для больших сцен - большие.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Путь автосохранения фото в инвентаре",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Когда путь задан, все фото которые вы снимете (или сохраните через контекстное меню) будут автоматически сохранены в ваш инвентарь. Например, <color=hero.yellow>Photos/%year%/%month_name%</color>\n\nДоступны следующие переменные:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Снимать приватный интерфейс",
@@ -2216,7 +2234,7 @@
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>С помощью этого компонента можно взаимодействовать с рефренсами, используя их ID. Этот процесс часто называют 'Ref Hacking'.<br><br><b>Прежде</b> чем начать, пожалуйста примите к сведению, что это <b>не</b> подерживается и может сломаться в любой момент. Не полагайтесь на данную функцию, при создании своих творений.",
 
         "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>Это новая система частиц \"PhotonDust\", которая сейчас тестируется. С ней можно поиграться, но мы не рекомендуем использовать её для создания нового контента, так как могут произойти изменения, ломающие её поведение.<br><br>Мы рекомендуем использовать легаси систему частиц для проектов, пока она не будет полностью упразнена и это предупреждение не пропадёт.",
-        "Inspector.ParticleSystem.BasicInfo" : "Частицы: {count}\tПоследнее время симуляции: {time}",
+        "Inspector.ParticleSystem.BasicInfo" : "Частицы: {count}\tВремя симуляции: {time}\tВремя отправки: {renderSubmitTime}\tВремя выделения: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Следы: {trailCount} (ёмкость: {trailCapacity}), Ёмкость точек следов: {trailPointCapacity}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Часто используемые шаблоны:",
