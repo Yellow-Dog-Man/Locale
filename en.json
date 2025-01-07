@@ -989,6 +989,7 @@
         "Importer.Model.3DScan": "3D Scan",
         "Importer.Model.CAD": "CAD Model",
         "Importer.Model.PointCloud": "Point Cloud",
+        "Importer.Model.GaussianSplat": "Gaussian Splat",
         "Importer.Model.VertexColorModel": "Vertex Colored Model",
         "Importer.Model.AdvancedSettings": "Advanced Settings",
         "Importer.Model.ModelKindPrompt": "What kind of 3D model?",
@@ -1048,6 +1049,20 @@
         "Importer.Model.Advanced.Scalable": "Make Scalable",
         "Importer.Model.Advanced.PositionAtOrigin": "Position At Origin",
         "Importer.Model.Advanced.AssetsOnObject": "Place Assets On Object",
+
+        "Importer.Splat.Progress.Importing": "Importing Gaussian Splat",
+        "Importer.Splat.Progress.ReadingHeader": "Reading file header",
+        "Importer.Splat.Progress.ConvertingSplats": "Converted {converted} splats out of {total}",
+        "Importer.Splat.Progress.EncodingData": "Encoding converted data",
+
+        "GaussianSplat.Encoding.Title" : "Encoding Gaussian Splat",
+        "GaussianSplat.Encoding.Metadata" : "Encoding metadata",
+        "GaussianSplat.Encoding.EncodingPositions" : "Encoding positions {encoded} of {total}",
+        "GaussianSplat.Encoding.EncodingRotations" : "Encoding rotations {encoded} of {total}",
+        "GaussianSplat.Encoding.EncodingScales" : "Encoding scales {encoded} of {total}",
+        "GaussianSplat.Encoding.EncodingAlphas" : "Encoding alphas {encoded} of {total}",
+        "GaussianSplat.Encoding.EncodingColors" : "Encoding colors {encoded} of {total}",
+        "GaussianSplat.Encoding.EncodingFinalizing" : "Finalizing encode",
 
         "Importer.Video.Title": "Import Video",
         "Importer.Video.Prompt": "What are you importing?",
