@@ -6,7 +6,7 @@ Czech [cs] - 67.7% - Missing keys: 756
 German [de] - 100.0% - Missing keys: 0  
 English (United Kingdom) [en-gb] - 2.1% - Missing keys: 2291  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 69.0% - Missing keys: 725  
+Esperanto [eo] - 69.2% - Missing keys: 722  
 Spanish [es] - 97.3% - Missing keys: 64  
 Estonian [et] - 35.2% - Missing keys: 1516  
 Finnish [fi] - 88.1% - Missing keys: 279  

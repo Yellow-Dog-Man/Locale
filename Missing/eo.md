@@ -2,9 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Esperanto [eo]
-Interaction.SaveToInventory.NotLoggedIn  
-Interaction.SaveToInventory.NoWritePermission  
-Interaction.CopyImage  
 Inventory.Favorite.Document  
 World.Connection.LNL.LNLPoke  
 World.Connection.TCP  
