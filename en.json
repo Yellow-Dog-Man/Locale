@@ -2234,7 +2234,7 @@
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component to interact with references by using their IDs. This process is commonly called 'Ref Hacking'.<br><br><b>Before</b> you do this, please understand that this is <b>not</b> supported and may break at any time. Do not rely on this functionality for your creations.",
 
         "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>WARNING!</size></color><br>This is the new particle system called \"PhotonDust\", which is currently being tested. You are free to play with it, but we recommend not using it for new serious content yet, as breaking changes can still occur.<br><br>We recommend using the Legacy Particle System for projects until it is fully removed and this warning goes away.",
-        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tSimulation Time: {time}\tSubmit Time: {renderSubmitTime}\tRender allocations: {allocationCount}",
+        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}, FPS: {fps}, Simulation Time: {time}, Submit Time: {renderSubmitTime}, Render allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Common Transition Templates:",
