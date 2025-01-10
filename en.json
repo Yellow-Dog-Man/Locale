@@ -1931,6 +1931,10 @@
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Controls the quality of the anisotropic filtering.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Reload All Textures (can be heavy)",
 
+        "Settings.GaussianSplatQualitySettings": "Guassian Splat Rendering Quality",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera" : "Sorting Mega-operations per camera",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description" : "When rendering Gaussian Splats, the splats must be sorted for each camera. Currently, this operation can be quite heavy, so it is spread over time to improve overall framerate.<br><br><color=hero.yellow>Increase</color> the value for sorting to happen faster. This will reduce artifacts when changing the view angle around Gaussian Splats rapidly.<br><br><color=hero.yellow>Decrease</color> the value to reduce the GPU usage if your GPU has trouble handling it. However this will increase artifacts when you rapidly change view angle.",
+
         "Settings.ResolutionSettings": "Resolution",
         "Settings.ResolutionSettings.Fullscreen": "Fullscreen",
         "Settings.ResolutionSettings.Fullscreen.Description": "Toggles between fullscreen mode and windowed mode",
