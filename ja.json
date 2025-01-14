@@ -1937,6 +1937,14 @@
         "Settings.RenderingQualitySettings.SkinWeightMode": "スキンウェイト",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "スキニングされたメッシュ（アバターのようにボーンによって変形する3Dモデル）で、各頂点の位置に影響を与えるために使用されるボーン数を制御します。\n\nこの値を下げると、パフォーマンスは多少下がりますが、変形の質は低下し、曲がりが粗くなり、他の歪みが発生します。",
 
+        "Settings.ImportSettings": "インポート設定",
+        "Settings.ImportSettings.SessionUrls": "セッションURLインポート時",
+        "Settings.ImportSettings.SessionUrls.Description": "セッションURLがインポートされたときの動作:\n\n<color=hero.yellow>Open</color> - セッションを開く\n<color=hero.yellow>SpawnEntityInterface</color> - セッションオーブとして、URLを生成する\n<color=hero.yellow>SpawnUrl</color> - URLインターフェイスとして、URLを生成する",
+        "Settings.ImportSettings.WorldUrls": "ワールドURLインポート時",
+        "Settings.ImportSettings.WorldUrls.Description": "ワールドURLがインポートされた時の動作:\n\n<color=hero.yellow>Open</color> - ワールドを開く\n<color=hero.yellow>SpawnEntityInterface</color> - ワールドオーブとして、URLを生成する\n<color=hero.yellow>SpawnUrl</color> - URLインターフェイスとして、URLを生成する",
+        "Settings.ImportSettings.NetworkUrls": "ネットワークURLインポート時",
+        "Settings.ImportSettings.NetworkUrls.Description": "ネットワークURLがインポートされた時の動作:\n\n<color=hero.yellow>Open</color> - Open a connection to the session at the URL.\n<color=hero.yellow>SpawnEntityInterface</color> - セッションオーブとして、URLを生成する\n<color=hero.yellow>SpawnUrl</color> - URLインターフェイスとして、URLを生成する",
+
         "LocomotionArchetype.Walk": "歩行",
         "LocomotionArchetype.Fly": "フライ",
         "LocomotionArchetype.NoClip": "ノークリップ",
@@ -2234,7 +2242,7 @@
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color>このコンポーネントを使用すると、IDを使用して参照を操作できます。​この手法は一般的に「Refハック」と呼ばれます。<br><br>これを実行する<b>前</b>に、​これはサポートされて<b>いない</b>ため、​いつか壊れる可能性があることを理解してください。​この機能に依存しないでください。",
 
         "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>警告!</size></color><br>これは\"PhotonDust\"という新しいパーティクルシステムです。このシステムを試すのは自由ですが、重要なコンテンツではまだ使用しないことをおすすめします。<br><br>この警告が表示されなくなるまで、レガシー・パーティクル・システムを使用することをおすすめします。",
-        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tSimulation Time: {time}\tSubmit Time: {renderSubmitTime}\tRender allocations: {allocationCount}",
+        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}, FPS: {fps}, Simulation Time: {time}, Submit Time: {renderSubmitTime}, Render allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
 
         "Inspector.ParticleStyle.CommonTransitions": "遷移テンプレート:",
