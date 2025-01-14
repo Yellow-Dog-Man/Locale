@@ -270,7 +270,7 @@
         "World.Indicator.LocalWorld": "本地设备",
         "World.Indicator.Author": "作者: {name}",
         "World.Indicator.Host": "房主: {name}",
-        "World.Indicator.Hosting": "您在此房间",
+        "World.Indicator.Hosting": "正在主持",
         "World.Indicator.Sessions": "{n} 个房间",
         "World.Indicator.Users": "用户",
         "World.Indicator.Users.None": "(找不到活跃的房间)",
@@ -1936,6 +1936,14 @@
         "Settings.RenderingQualitySettings.ShadowDistance.Description" : " 该值控制阴影覆盖的距离。增大该值可以确保场景中更远的部分被阴影适当覆盖，但同时也会使阴影的细节分散到更大的区域。\n\n你应该将此设置与阴影级联和分辨率一起更改--阴影分辨率越高，阴影距离就越大。如果降低阴影分辨率和级联，你会希望降低阴影距离，这样阴影的清晰度会更好。",
         "Settings.RenderingQualitySettings.SkinWeightMode" : "蒙皮权重",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "对于任何蒙皮权重（通过骨骼变形的 3D 模型，如大多数虚拟形象），该值控制使用多少骨骼来影响每个顶点的位置。\n\n降低该值可以节省一些性能，但变形质量会降低，从而产生尖锐的折痕和其他伪影，通常出现在接缝处。",
+
+        "Settings.ImportSettings": "导入设置",
+        "Settings.ImportSettings.SessionUrls": "导入会话设置时",
+        "Settings.ImportSettings.SessionUrls.Description": "当一个房间URL被导入时，会发生什么。可用的选项有：\n\n<color=hero.yellow>Open</color> - 打开房间\n<color=hero.yellow>SpawnEntityInterface</color> - 在当前位置生成URL的表示（例如会话球）。\n<color=hero.yellow>SpawnUrl</color> - 在当前位置生成URL作为URL接口。",
+        "Settings.ImportSettings.WorldUrls": "导入世界URL时",
+        "Settings.ImportSettings.WorldUrls.Description": "当导入世界URL时，应该发生什么？可用的选项有：\n\n<color=hero.yellow>Open</color> - 打开世界。\n<color=hero.yellow>SpawnEntityInterface</color> - 在当前位置生成URL的表示（例如世界球）。\n<color=hero.yellow>SpawnUrl</color> - 在当前位置生成URL作为URL接口。",
+        "Settings.ImportSettings.NetworkUrls": "导入网络URL时",
+        "Settings.ImportSettings.NetworkUrls.Description": "当一个网络URL被导入时，应该发生什么？可用的选项有：\n\n<color=hero.yellow>Open</color> - 在URL处打开一个会话连接。\n<color=hero.yellow>SpawnEntityInterface</color> - 在当前位置生成url的表示（例如房间球）。\n<color=hero.yellow>SpawnUrl</color> - 在当前的位置生成URL作为URL接口。",
 
         "LocomotionArchetype.Walk": "移动",
         "LocomotionArchetype.Fly": "飞行",
