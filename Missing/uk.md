@@ -29,9 +29,13 @@ Tools.CameraObjectHider.Name
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
 CreateNew.LegacyParticleSystem  
-CreateNew.ExperimentalParticleSystem  
 Importer.Image.Failure.Heading  
 Importer.Image.Failure.Description  
+Importer.UnsupportedRecordType.Heading  
+Importer.UnsupportedRecordType.Description  
+Importer.Link.Invalid.Heading  
+Importer.Link.Invalid.Description  
+Inventory.Link.LinkText  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
@@ -606,7 +610,6 @@ Inspector.Rig.ClearDebugVisuals
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
-Inspector.ParticleSystem.TestingWarning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  

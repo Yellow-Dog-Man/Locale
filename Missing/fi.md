@@ -24,10 +24,14 @@ ProtoFlux.UI.Call
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
 CreateNew.LegacyParticleSystem  
-CreateNew.ExperimentalParticleSystem  
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
+Importer.UnsupportedRecordType.Heading  
+Importer.UnsupportedRecordType.Description  
+Importer.Link.Invalid.Heading  
+Importer.Link.Invalid.Description  
+Inventory.Link.LinkText  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.KeyboardLookSettings  
@@ -247,7 +251,6 @@ Inspector.DataPreset.SetValues
 Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
-Inspector.ParticleSystem.TestingWarning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.Collider.SetFromLocalBounds  

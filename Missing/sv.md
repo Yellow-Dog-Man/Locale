@@ -172,7 +172,6 @@ CreateNew.Back
 CreateNew.EmptyObject  
 CreateNew.ParticleSystem  
 CreateNew.LegacyParticleSystem  
-CreateNew.ExperimentalParticleSystem  
 CreateNew.Object  
 CreateNew.Object.AvatarCreator  
 CreateNew.Object.Camera  
@@ -325,6 +324,11 @@ Importer.Video.Depth.Default
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
+Importer.UnsupportedRecordType.Heading  
+Importer.UnsupportedRecordType.Description  
+Importer.Link.Invalid.Heading  
+Importer.Link.Invalid.Description  
+Inventory.Link.LinkText  
 Exporter.Title  
 Exporter.FileName  
 Exporter.ExportAs  
@@ -1329,7 +1333,6 @@ Inspector.Rig.ClearDebugVisuals
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
-Inspector.ParticleSystem.TestingWarning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  
