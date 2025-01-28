@@ -686,6 +686,13 @@ Settings.RenderingQualitySettings.ShadowDistance
 Settings.RenderingQualitySettings.ShadowDistance.Description  
 Settings.RenderingQualitySettings.SkinWeightMode  
 Settings.RenderingQualitySettings.SkinWeightMode.Description  
+Settings.ImportSettings  
+Settings.ImportSettings.SessionUrls  
+Settings.ImportSettings.SessionUrls.Description  
+Settings.ImportSettings.WorldUrls  
+Settings.ImportSettings.WorldUrls.Description  
+Settings.ImportSettings.NetworkUrls  
+Settings.ImportSettings.NetworkUrls.Description  
 LocomotionArchetype.Walk  
 LocomotionArchetype.Fly  
 LocomotionArchetype.NoClip  
@@ -714,6 +721,8 @@ Inspector.Member.SplitBlendshape.Z
 Inspector.ProceduralAsset.UpdateCount  
 Inspector.ProceduralAsset.Error  
 Inspector.Texture3D.SpawnVisualizer  
+Inspector.Skybox.SetActiveSkybox  
+Inspector.AmbientLightSH2.SetActiveAmbientLight  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.Texture3D.Size  

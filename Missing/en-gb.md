@@ -1633,6 +1633,13 @@ Settings.RenderingQualitySettings.ShadowDistance
 Settings.RenderingQualitySettings.ShadowDistance.Description  
 Settings.RenderingQualitySettings.SkinWeightMode  
 Settings.RenderingQualitySettings.SkinWeightMode.Description  
+Settings.ImportSettings  
+Settings.ImportSettings.SessionUrls  
+Settings.ImportSettings.SessionUrls.Description  
+Settings.ImportSettings.WorldUrls  
+Settings.ImportSettings.WorldUrls.Description  
+Settings.ImportSettings.NetworkUrls  
+Settings.ImportSettings.NetworkUrls.Description  
 LocomotionArchetype.Walk  
 LocomotionArchetype.Fly  
 LocomotionArchetype.NoClip  
@@ -1732,6 +1739,8 @@ Inspector.MeshRenderer.MergeByMaterial
 Inspector.MeshRenderer.SplitByMaterial  
 Inspector.MeshCollider.VHACD  
 Inspector.MeshCollider.ReplaceBox  
+Inspector.Skybox.SetActiveSkybox  
+Inspector.AmbientLightSH2.SetActiveAmbientLight  
 Inspector.CommonAvatarBuilder.UpdateLocomotionModules  
 Inspector.VHACD.Parameter.MergeDoubles  
 Inspector.VHACD.Parameter.Resolution  
