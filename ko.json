@@ -865,8 +865,6 @@
         "CreateNew.EmptyObject": "빈 오브젝트",
         "CreateNew.ParticleSystem": "파티클 시스템",
         "CreateNew.LegacyParticleSystem": "기존 파티클 시스템",
-
-        "CreateNew.ExperimentalParticleSystem": "포톤 더스트 시스템 <color=red>(경고: 실험적인 기능 입니다!)</color>",
         
         "CreateNew.Object": "오브젝트",
         "CreateNew.Object.AvatarCreator": "아바타 생성기",
@@ -2233,7 +2231,6 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>경고!</size></color><br>SimulateRotation을 선택하여, 이 구성요소를 단순한 형태의 리지드바디로 이용하실 수 있습니다. 이 기능은 향후 적절한 버전으로 지원될 예정이며, 현재는 목적에 부합하는 용도로 사용하기에 최적화된 상태는 아님을 이해해 주시기 바랍니다.<br>적절한 리지드바디는 아래와 같은 장단점을 제공합니다.<br><b>- CPU 및 네트워크 효율성</b> - CharacterController를 사용하는 경우, 더 많은 CPU 사용량과 상당한 양의 네트워크 트래픽이 발생됩니다.<br><b>- 제약 조건</b> - 리지드바디 간 조인트, 힌지, 스프링 및 기타 제약 조건을 생성할 수 있습니다.<br><b>- 여러 사용자에 대한 매끄러운 시뮬레이션 및 상호 작용</b> - 다른 사람이 상호 작용을 시도하면 CharacterController에서 오류를 발생시킵니다.<br><b>- 새로운 기능 및 도구</b> - 훨씬 더 간단한 사용환경을 제공합니다.<br>-----------------------<br>GitHub 이슈 #22에서 더 많은 정보를 확인하실 수 있습니다. 이러한 제약사항을 이해하신 후 즐겨주세요!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>경고!</size></color><br>이 구성요소를 사용하면 해당 ID를 사용하여 참조와 상호작용할 수 있습니다. 이것을 일반적으로 'Ref Hacking'이라고 합니다.<br><br><b>사용하기 앞서</b> 이 기능은 언제든지 중단되거나 지원이 끊길 수 있음을 염두해 두시기 바랍니다.",
 
-        "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>경고!</size></color><br>이것은 이제 테스트가 시작된 새로운 파티클 시스템으로 \"포톤 더스트\"라고 합니다. 자유롭게 사용 가능하지만, 프로젝트에 사용하기에는 심각한 문제가 발생할 수 있으므로 사용하지 않는것을 추천합니다.<br><br>프로젝트에 사용하는 것은 이 경고 메세지가 사라진 후로 미뤄 주세요.",
         "Inspector.ParticleSystem.BasicInfo" : "입자: {count}\t모의 시간: {time}\t렌더 할당량: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "꼬리: {trailCount} (용량: {trailCapacity}), 지점 용량: {trailPointCapacity}, 할당량: {allocationCount}",
         "Inspector.ParticleStyle.CommonTransitions": "통상적인 변화유형:",

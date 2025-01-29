@@ -866,8 +866,6 @@
         "CreateNew.ParticleSystem": "粒子系统",
         "CreateNew.LegacyParticleSystem": "传统粒子系统",
 
-        "CreateNew.ExperimentalParticleSystem": "PhotonDust 系统 <color=red>（警告：实验性组件！）</color>",
-
         "CreateNew.Object": "对象",
         "CreateNew.Object.AvatarCreator": "虚拟形象创建工具",
         "CreateNew.Object.Camera": "相机",
@@ -2244,7 +2242,6 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告！</size></color><br>当勾选模拟旋转（SimulateRotation）时这个组件可以被当作一个简单的刚体。在你这样做之前，你需要明白它不曾为此优化，且对刚体的正式支持会在未来加入。<br>正式支持包括：<br><b>- CPU和网络效率提升</b> - 使用角色控制器，你的CPU和网络占用会显著上升<br><b>- 约束</b> - 你将能够在刚体间创建关节、合页、弹簧和其他约束<br><b>- 对每个人的平滑模拟与交互</b> - 在另一个人尝试交互时，角色控制器会发生故障<br><b>- 新功能与工具</b> - 让使用更加简单<br>-----------------------<br>只要你理解了上述限制，放开玩吧！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color><br>通过他们的ID，这个组件可以被用于与引用交互。这个过程常被称为“引用骇入”。<br><br>在你这样做<b>之前</b>，请知晓这种方式 <b>不被</b> 支持且随时可能失效。请勿让你的作品依赖于此项功能。",
 
-        "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>警告！</size></color><br>这是一种名为 \"PhotonDust\" 的新粒子系统，目前正在测试中。你可以自由地使用它，但我们建议不要将其用于制作新的高要求内容，因为仍有可能出现破环性的变化问题。<br><br>我们建议在项目中继续使用传统粒子系统，直到它完全被移除并且这个警告消失为止。",
         "Inspector.ParticleSystem.BasicInfo" : "粒子: {count}\t最后一次模拟时间： {time}",
         "Inspector.ParticleSystem.TrailInfo" : "尾迹： {trailCount} (容量： {trailCapacity}), 尾迹点容量： {trailPointCapacity}",
 
