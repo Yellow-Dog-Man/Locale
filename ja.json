@@ -866,8 +866,6 @@
         "CreateNew.ParticleSystem": "パーティクル​システム",
         "CreateNew.LegacyParticleSystem": "レガシーパーティクルシステム",
 
-        "CreateNew.ExperimentalParticleSystem": "PhotonDust System <color=red>(警告:試験用!)</color>",
-
         "CreateNew.Object": "オブジェクト",
         "CreateNew.Object.AvatarCreator": "アバター​クリエイター",
         "CreateNew.Object.Camera": "カメラ",
@@ -1064,6 +1062,12 @@
         "Importer.Slices.Title": "スライス画像を<br>3Dテクスチャと<br>してインポート",
         "Importer.Slices.TitleGrayscale": "スライス画像を<br>3Dテクスチャと<br>してインポート<br>(グレースケール)",
         "Importer.Slices.Description": "フォルダ内の​すべての画像ファイル​を​3Dテクスチャ​に​します",
+
+        "Importer.UnsupportedRecordType.Heading":"サポートされていないレコード型", 
+        "Importer.UnsupportedRecordType.Description":"インポートしようとしているレコード({url})にはサポートされていない{recordType}型があります。{bugUrl}までご報告ください。",
+        "Importer.Link.Invalid.Heading":"Invalid Folder Link",
+        "Importer.Link.Invalid.Description":"インポートしようとしているフォルダリンク({url})は無効です。リンクを再確認し、もう一度やり直してください。",
+        "Inventory.Link.LinkText": "{name}へのインベントリリンク",
 
         "Exporter.Title": "エクスポート",
         "Exporter.FileName": "ファイル名:",
@@ -1943,7 +1947,7 @@
         "Settings.ImportSettings.WorldUrls": "ワールドURLインポート時",
         "Settings.ImportSettings.WorldUrls.Description": "ワールドURLがインポートされた時の動作:\n\n<color=hero.yellow>Open</color> - ワールドを開く\n<color=hero.yellow>SpawnEntityInterface</color> - ワールドオーブとして、URLを生成する\n<color=hero.yellow>SpawnUrl</color> - URLインターフェイスとして、URLを生成する",
         "Settings.ImportSettings.NetworkUrls": "ネットワークURLインポート時",
-        "Settings.ImportSettings.NetworkUrls.Description": "ネットワークURLがインポートされた時の動作:\n\n<color=hero.yellow>Open</color> - Open a connection to the session at the URL.\n<color=hero.yellow>SpawnEntityInterface</color> - セッションオーブとして、URLを生成する\n<color=hero.yellow>SpawnUrl</color> - URLインターフェイスとして、URLを生成する",
+        "Settings.ImportSettings.NetworkUrls.Description": "ネットワークURLがインポートされた時の動作:\n\n<color=hero.yellow>Open</color> - セッションへの接続を開く\n<color=hero.yellow>SpawnEntityInterface</color> - セッションオーブとして、URLを生成する\n<color=hero.yellow>SpawnUrl</color> - URLインターフェイスとして、URLを生成する",
 
         "LocomotionArchetype.Walk": "歩行",
         "LocomotionArchetype.Fly": "フライ",
@@ -2068,6 +2072,9 @@
         "Inspector.MeshCollider.ReplaceBox": "Box Collider に置き換える",
 
         "Inspector.Texture3D.SpawnVisualizer" : "ビジュアライザーをスポーン",
+
+        "Inspector.Skybox.SetActiveSkybox": "スカイボックスに設定",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "環境光に設定",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "ユーザーのロコモーションモジュールを更新",
 
@@ -2241,7 +2248,6 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告!</size></color><br>SimulateRotationにチェックをいれることで、​このコンポーネントを単純なRigidbodyとして使用できます。​前提として、この目的のために最適化されておらず、​適切なRigidbodyが将来提供されることを理解しておいてください。<br>適切なRigidbodyは以下を提供します：<br><b>- CPUとネットワーク負荷の軽減</b> - CharacterControllerを使用すると、 CPU使用率が高くなり、ネットワークトラフィックが大量に発生します。<br><b>- Constraints</b> - Rigidbody間にジョイント、ヒンジ、スプリング、 その他のconstraintを作成できるようになります。<br><b>- どのユーザーからもスムーズなシミュレーションと相互作用</b> - 他の人が操作すると、CharacterControllerはグリッチアウトします。<br><b>- 新機能とツール</b> - それらをはるかに簡単に使用できるようになります。<br>-----------------------<br>これらの制限を理解している限り、楽しんでください！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color>このコンポーネントを使用すると、IDを使用して参照を操作できます。​この手法は一般的に「Refハック」と呼ばれます。<br><br>これを実行する<b>前</b>に、​これはサポートされて<b>いない</b>ため、​いつか壊れる可能性があることを理解してください。​この機能に依存しないでください。",
 
-        "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>警告!</size></color><br>これは\"PhotonDust\"という新しいパーティクルシステムです。このシステムを試すのは自由ですが、重要なコンテンツではまだ使用しないことをおすすめします。<br><br>この警告が表示されなくなるまで、レガシー・パーティクル・システムを使用することをおすすめします。",
         "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}, FPS: {fps}, Simulation Time: {time}, Submit Time: {renderSubmitTime}, Render allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
 
