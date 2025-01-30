@@ -866,8 +866,6 @@
         "CreateNew.ParticleSystem": "Partikelsystem",
         "CreateNew.LegacyParticleSystem": "Altes Partikelsystem",
 
-        
-
         "CreateNew.Object": "Objekt",
         "CreateNew.Object.AvatarCreator": "Avatar-Assistent",
         "CreateNew.Object.Camera": "Kamera",
@@ -1064,6 +1062,12 @@
         "Importer.Slices.Title": "Schnittbilder als volumetrische Textur",
         "Importer.Slices.TitleGrayscale": "Schnittbilder als volumetrische Textur (Graustufen)",
         "Importer.Slices.Description": "Verarbeitet alle Bilddateien im Ordner zu einer volumetrischen Textur",
+
+        "Importer.UnsupportedRecordType.Heading": "Nicht unterstützter Record-Typ", 
+        "Importer.UnsupportedRecordType.Description": "Der Record, den Sie importieren möchten ({url}), hat einen nicht unterstützten Typ. Sein Typ ist: {recordType}. Bitte melden Sie uns dies unter {bugUrl}.",
+        "Importer.Link.Invalid.Heading": "Ungültiger Ordner-Link",
+        "Importer.Link.Invalid.Description": "Der Order-Link ({url}), den Sie importieren möchten, ist ungültig. Überprüfen Sie Ihren Link noch einmal und versuchen Sie es erneut.",
+        "Inventory.Link.LinkText": "Inventar-Link zu {name}",
 
         "Exporter.Title": "Exportieren",
         "Exporter.FileName": "Dateiname:",
@@ -2244,7 +2248,6 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente als einfachen Rigidbody zu verwenden, indem 'Rotation Simulieren' ausgewählt wird. Bevor Sie dies tun, verstehen Sie bitte, dass sie nicht für diesen Zweck optimiert ist und dass vollständige Rididbody-Unterstützung in der Zukunft hinzugefügt wird.<br>Vollständige Rigidbody-Unterstützung wird folgendes ermöglichen:<br><b>- CPU- und Netzwerkeffizienz</b> - Mit CharacterController werden Sie höhere CPU-Auslastung und signifikant höhere Netzwerkauslastung verursachen<br><b>- Beschränkungen</b> - Sie werden in der Lage sein Gelenke, Schaniere, Federn und andere Beschränkungen zwischen Rigidbodies zu erstellen<br><b>- Geschmeidige Simulation und Interaktionen für Jeden</b> - CharacterController wird Fehlverhalten verursachen wenn ein anderer Benutzer versucht damit zu interagieren.<br><b>- Neue Features und Tools</b> - Dadurch wird die Verwendung deutlich einfacher<br>-----------------------<br>Solange Sie diese Einschränkungen verstehen, viel Spaß!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente zu verwenden um mit Referenzen zu interagieren, die über Ihre IDs addressiert werden. Dieser Vorgang ist geläufig bekannt als 'Ref Hacking'.<br><br><b>Bevor</b> Sie dies tun, verstehen Sie bitte dass dies <b>nicht</b> unterstützt ist und zu jedem Zeitpunk kaputtgehen kann. Verlassen Sie sich nicht auf diese Funktionalität für Ihre Kreationen!",
 
-        "Inspector.ParticleSystem.TestingWarning": "<color=red><size=150%>WARNUNG!</size></color><br>Dies ist das neue Partikelsystem \"PhotonDust\", welches gerade erprobt wird. Sie können gerne damit spielen, aber wir empfehlen, es noch nicht für neue, ernsthafte Inhalte zu verwenden, da es noch zu Änderungen kommen kann.<br><br>Wir empfehlen, für Projekte weiterhin das alte Partikelsystem zu verwenden, bis dieses vollständig entfernt wird und auch diese Warnung verschwindet.",
         "Inspector.ParticleSystem.BasicInfo": "Partikel: {count}, FPS: {fps}, Simulationszeit: {time}, Submit-Zeit: {renderSubmitTime}, Render-Allokationen: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "Spuren: {trailCount} (Kapazität: {trailCapacity}), Spur-Punkt Kapazität: {trailPointCapacity}, Allokationen: {allocationCount}",
 
