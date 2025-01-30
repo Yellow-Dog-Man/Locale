@@ -866,8 +866,6 @@
         "CreateNew.ParticleSystem": "Système de particules",
         "CreateNew.LegacyParticleSystem": "Créer un système de particules (ancien)",
 
-        "CreateNew.ExperimentalParticleSystem": "Système PhotonDust <color=red>(ATTENTION: éxperimental)</color>",
-
         "CreateNew.Object": "Objet",
         "CreateNew.Object.AvatarCreator": "Créateur d'avatar",
         "CreateNew.Object.Camera": "Caméra",
@@ -2249,7 +2247,6 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Il est possible d'utiliser ce composant comme un simple RigidBody en cochant SimulateRotation. Avant de le faire, veuillez comprendre qu'il n'est pas optimisé à cet effet et qu'un support Rigidbody approprié arrive à l'avenir.<br>Un support rigidbody approprié offrira :<br><b>- Efficacité du processeur et du réseau</b> - avec CharacterController, vous obtiendrez une utilisation plus élevée du processeur et une quantité importante de trafic réseau<br><b>- Contraintes</b> - vous pourrez créer des articulations, des charnières, des ressorts et d'autres contraintes entre les corps rigides<br><b >- Simulation et interactions fluides pour tout le monde</b> - CharacterController disparaîtra si une autre personne essaie d'interagir<br><b>- Nouvelles fonctionnalités et outils</b> - pour en faciliter l'utilisation<br>-- ---------------------<br>Vous pouvez en trouver plus sur GitHub n°22. Tant que vous comprenez ces limites, amusez-vous !",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Il est possible d'utiliser ce composant pour interagir avec des références depuis leur ID. Ce processus est appelé 'ref hacking'.<br><br><b>Avant</b> de continuer, faire cela n'est <b>pas</b> supporté officiellement et peut casser à tout moment. Ne comptez pas dessus pour vos créations.",
 
-        "Inspector.ParticleSystem.TestingWarning": "<color=red><sized=150%>ATTENTION!</size></color><br>Ce système de particles appelé \"PhotonDust\" et est en cours de test. Vous pouvez jouer avec mais il n'est pas encore recommandé de créer quoi que ce soit de sérieux avec.<br><br>Nous recommandons d'utiliser l'ancien système de particles pour vos projets jusque ce que ce système soit retiré.",
         "Inspector.ParticleSystem.BasicInfo": "Particules: {count}\tDernière durée de simulation: {time}\tAllocations de rendu: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "Traînées: {trailCount} (capacité: {trailCapacity}), Capacité de points: {trailPointCapacity}, Allocations: {allocationCount}",
 
