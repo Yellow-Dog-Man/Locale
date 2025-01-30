@@ -865,8 +865,6 @@
         "CreateNew.EmptyObject": "빈 오브젝트",
         "CreateNew.ParticleSystem": "파티클 시스템",
         "CreateNew.LegacyParticleSystem": "기존 파티클 시스템",
-
-        
         
         "CreateNew.Object": "오브젝트",
         "CreateNew.Object.AvatarCreator": "아바타 생성기",
@@ -1065,6 +1063,12 @@
         "Importer.Slices.TitleGrayscale": "볼륨메트릭 텍스처로 자르기(회색조)",
         "Importer.Slices.Description": "폴더의 모든 이미지 파일을 볼륨메트릭 텍스처로 처리합니다.",
 
+        "Importer.UnsupportedRecordType.Heading":"지원되지 않는 레코드 형식입니다.", 
+        "Importer.UnsupportedRecordType.Description":"가져오려는 레코드({url})에 지원되지 않는 형식({recordType})이 있습니다. {bugUrl}에 보고해 주세요.",
+        "Importer.Link.Invalid.Heading":"폴더 주소가 형식에 어긋납니다.",
+        "Importer.Link.Invalid.Description":"폴더 주소({url})가 유효하지 않습니다. 확인 후 재시도해 보세요.",
+        "Inventory.Link.LinkText": "{name}에 연결된 공유폴더 입니다.",
+        
         "Exporter.Title": "내보내기",
         "Exporter.FileName": "파일명:",
         "Exporter.ExportAs": "내보낼 유형:",
@@ -1431,10 +1435,10 @@
         "Settings.SteamIntegrationSettings": "스팀 연동",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "디스코드",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "레소나이트에서 디스코드에 전달하는 상태 메시지를 제어합니다.\n\n<color=hero.yellow>None</color> : 상태정보 전달안함\n<color=hero.yellow>Basic</color> : 기본정보만 전달\n<color=hero.yellow>Full</color> - 세션 정보(월드명 및 사용자 수)를 포함하여 전달\n\n디스코드도 자체적으로 실행중인 게임정보를 표시합니다. 이것은 디스코드 클라이언트 자체 설정을 통하여 비활성화할 수 있습니다.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "레소나이트에서 디스코드에 전달하는 상태 메시지를 제어합니다.\n\n<color=hero.yellow>None</color> : 상태정보 전달안함\n<color=hero.yellow>Basic</color> : 기본정보만 전달\n<color=hero.yellow>Full</color> : 세션정보(월드명 및 사용자 수)를 포함하여 전달\n\n디스코드도 자체적으로 실행중인 게임정보를 표시합니다. 이것은 디스코드 클라이언트 자체 설정을 통하여 비활성화할 수 있습니다.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "스팀",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "레소나이트에서 스팀으로 전달하는 상태 메시지를 제어합니다.\n\n<color=hero.yellow>None</color> : 상태정보 전달안함\n<color=hero.yellow>Basic</color> : 기본정보만 전달\n<color=hero.yellow>Full</color> - 세션 정보(월드명 및 사용자 수)를 포함하여 전달\n\n스팀의 경우 이 설정과 상관없이 레소나이트를 플레이하고 있다고 표시됩니다. 다만, 이 설정은 활성 세션 정보가 추가되느냐 마느냐에 대해서만 영향을 미칩니다.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "레소나이트에서 스팀으로 전달하는 상태 메시지를 제어합니다.\n\n<color=hero.yellow>None</color> : 상태정보 전달안함\n<color=hero.yellow>Basic</color> : 기본정보만 전달\n<color=hero.yellow>Full</color> : 세션정보(월드명 및 사용자 수)를 포함하여 전달\n\n스팀의 경우 이 설정과 상관없이 레소나이트를 플레이하고 있다고 표시됩니다. 다만, 이 설정은 활성 세션 정보가 추가되느냐 마느냐에 대해서만 영향을 미칩니다.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "스크린샷 저장",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "활성화 시, 게임내에서 촬영한 사진이 스팀 스크린샷에도 저장됩니다.",
@@ -1937,6 +1941,14 @@
         "Settings.RenderingQualitySettings.SkinWeightMode" : "스킨 웨이트(Skin Weights)",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "매시에 뼈(Bone) 가중치가 할당된 모든 <color=hero.yellow>스킨드 매시</color>에 대해 각 정점의 위치에 영항을 미치는 뼈(Bone)의 수를 제어합니다.\n\n값을 낮추면 클라이언트의 성능은 좋아지지만, 뼈의 움직임에 의해 변화되는 품질은 낮아집니다. 일반적으로 관절부에 날카로운 주름과 무언가가 나타납니다.",
 
+        "Settings.ImportSettings": "가져오기 설정",
+        "Settings.ImportSettings.SessionUrls": "세션 URL 가져오기 수행시",
+        "Settings.ImportSettings.SessionUrls.Description": "세션 URL을 가져오기 하는 경우 수행할 동작을 설정합니다.\n\n<color=hero.yellow>Open</color> : 세션 열기\n<color=hero.yellow>SpawnEntityInterface</color> : 세션 오브 생성\n<color=hero.yellow>SpawnUrl</color> : 세션 주소를 링크로 표시",
+        "Settings.ImportSettings.WorldUrls": "월드 URL 가져오기 수행시",
+        "Settings.ImportSettings.WorldUrls.Description": "월드 URL을 가져오기 하는 경우 수행할 동작을 설정합니다.\n\n<color=hero.yellow>Open</color> : 월드 열기\n<color=hero.yellow>SpawnEntityInterface</color> : 월드 오브 생성\n<color=hero.yellow>SpawnUrl</color> : 월드 주소를 링크로 표시",
+        "Settings.ImportSettings.NetworkUrls": "네트워크 URL 가져오기 수행시",
+        "Settings.ImportSettings.NetworkUrls.Description": "네트워크 URL을 가져오기 하는 경우 수행할 동작을 설정합니다.\n\n<color=hero.yellow>Open</color> : URL을 통해 세션 열기\n<color=hero.yellow>SpawnEntityInterface</color> : 세션 오브 같은 아이템 생성\n<color=hero.yellow>SpawnUrl</color> : URL을 링크로 표시",
+        
         "LocomotionArchetype.Walk": "걷기/뛰기",
         "LocomotionArchetype.Fly": "자유비행",
         "LocomotionArchetype.NoClip": "노클립(No-clip)",
@@ -2060,6 +2072,9 @@
         "Inspector.MeshCollider.ReplaceBox": "BoxCollider로 교체",
 
         "Inspector.Texture3D.SpawnVisualizer" : "생성 시각화",
+        
+        "Inspector.Skybox.SetActiveSkybox": "활성 스카이박스로 설정",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "활성 주변광으로 설정",
         
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "현재 사용자들의 이동기능에 적용하기",
 
