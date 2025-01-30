@@ -1065,6 +1065,12 @@
         "Importer.Slices.TitleGrayscale": "Lamelles comme texture volumétrique (niveaux de gris)",
         "Importer.Slices.Description": "Convertir toutes les images dans le dossier en une texture volumétrique",
 
+        "Importer.UnsupportedRecordType.Heading": "Type d'URL inconnu",
+        "Importer.UnsupportedRecordType.Description": "Le type d'URL que vous tentez d'importer ({url}) à un type non-supporté. Veuillez reporter cela à {bugUrl}.",
+        "Importer.Link.Invalid.Heading": "Lien de dossier invalide",
+        "Importer.Link.Invalid.Description": "Le lien de dossier ({url}) que vous essayez d'importer est invalide. Veuillez vérifier le lien et ré-essayer.",
+        "Inventory.Link.LinkText": "Lien d'inventaire vers {name}",
+
         "Exporter.Title": "Exporter",
         "Exporter.FileName": "Nom du fichier:",
         "Exporter.ExportAs": "Exporter comme:",
@@ -1940,9 +1946,9 @@
         "Settings.ImportSettings.SessionUrls": "Importation d'URL de session",
         "Settings.ImportSettings.SessionUrls.Description": "Que faire quand une URL de session est importée, les options étant:\n\n<color=hero.yellow>Ouvrir</color> - Ouvre la session.\n<color=hero.yellow>Matérialiser une interface d'entité</color> - Matérialise une représentation comme un orbe de session dans le monde dans lequel vous êtes.\n<color=hero.yellow>Matérialiser l'URL</color> - Matérialise une URL copiable dans le monde.",
         "Settings.ImportSettings.WorldUrls": "Importation d'URL de monde",
-        "Settings.ImportSettings.SessionUrls.Description": "Que faire quand une URL de monde est importée, les options étant:\n\n<color=hero.yellow>Ouvrir</color> - Ouvre le monde.\n<color=hero.yellow>Matérialiser une interface d'entité</color> - Matérialise une représentation comme un orbe de monde dans le monde dans lequel vous êtes.\n<color=hero.yellow>Matérialiser l'URL</color> - Matérialise une URL copiable dans le monde.",
+        "Settings.ImportSettings.WorldUrls.Description": "Que faire quand une URL de monde est importée, les options étant:\n\n<color=hero.yellow>Ouvrir</color> - Ouvre le monde.\n<color=hero.yellow>Matérialiser une interface d'entité</color> - Matérialise une représentation comme un orbe de monde dans le monde dans lequel vous êtes.\n<color=hero.yellow>Matérialiser l'URL</color> - Matérialise une URL copiable dans le monde.",
         "Settings.ImportSettings.NetworkUrls": "Importation d'URL de réseau",
-        "Settings.ImportSettings.SessionUrls.Description": "Que faire quand une URL de réseau est importée, les options étant:\n\n<color=hero.yellow>Ouvrir</color> - Tente de se connecter a la session.\n<color=hero.yellow>Matérialiser une interface d'entité</color> - Matérialise une représentation comme un orbe de session dans le monde dans lequel vous êtes.\n<color=hero.yellow>Matérialiser l'URL</color> - Matérialise une URL copiable dans le monde.",
+        "Settings.ImportSettings.NetworkUrls.Description": "Que faire quand une URL de réseau est importée, les options étant:\n\n<color=hero.yellow>Ouvrir</color> - Tente de se connecter a la session.\n<color=hero.yellow>Matérialiser une interface d'entité</color> - Matérialise une représentation comme un orbe de session dans le monde dans lequel vous êtes.\n<color=hero.yellow>Matérialiser l'URL</color> - Matérialise une URL copiable dans le monde.",
 
         "LocomotionArchetype.Walk": "Marche",
         "LocomotionArchetype.Fly": "Vol",
@@ -2067,6 +2073,9 @@
         "Inspector.MeshCollider.ReplaceBox": "Remplacer avec collisionneur en forme de boîte",
 
         "Inspector.Texture3D.SpawnVisualizer": "Matérialiser un visualiseur",
+
+        "Inspector.Skybox.SetActiveSkybox": "Définir comme ciel (skybox) actif",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Définir comme lumière d’ambiance active",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Mettre à jour les modules de locomotion sur les utilisateurs actuels",
 
