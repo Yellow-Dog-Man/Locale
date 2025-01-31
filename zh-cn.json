@@ -865,9 +865,7 @@
         "CreateNew.EmptyObject": "空对象",
         "CreateNew.ParticleSystem": "粒子系统",
         "CreateNew.LegacyParticleSystem": "传统粒子系统",
-
         
-
         "CreateNew.Object": "对象",
         "CreateNew.Object.AvatarCreator": "虚拟形象创建工具",
         "CreateNew.Object.Camera": "相机",
@@ -1065,6 +1063,12 @@
         "Importer.Slices.TitleGrayscale": "将图像切片导入为体积纹理（灰度）",
         "Importer.Slices.Description": "将文件夹中的所有图像文件合成为一个体积纹理",
 
+        "Importer.UnsupportedRecordType.Heading":"不支持的数据记录文件",
+        "Importer.UnsupportedRecordType.Description":"你正在尝试导入的数据记录({url}) 类型不受支持。其类型为： {recordType}。请在 {bugUrl}向我们报告。",
+        "Importer.Link.Invalid.Heading":"文件夹链接无效",
+        "Importer.Link.Invalid.Description":"你正在尝试导入的文件夹链接({url}) 是无效的，请检查一遍后再试一次。",
+        "Inventory.Link.LinkText": "物品栏链接到 {name}",
+        
         "Exporter.Title": "导出",
         "Exporter.FileName": "文件名：",
         "Exporter.ExportAs": "导出为：",
@@ -2243,9 +2247,8 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告！</size></color><br>当勾选模拟旋转（SimulateRotation）时这个组件可以被当作一个简单的刚体。在你这样做之前，你需要明白它不曾为此优化，且对刚体的正式支持会在未来加入。<br>正式支持包括：<br><b>- CPU和网络效率提升</b> - 使用角色控制器，你的CPU和网络占用会显著上升<br><b>- 约束</b> - 你将能够在刚体间创建关节、合页、弹簧和其他约束<br><b>- 对每个人的平滑模拟与交互</b> - 在另一个人尝试交互时，角色控制器会发生故障<br><b>- 新功能与工具</b> - 让使用更加简单<br>-----------------------<br>只要你理解了上述限制，放开玩吧！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color><br>通过他们的ID，这个组件可以被用于与引用交互。这个过程常被称为“引用骇入”。<br><br>在你这样做<b>之前</b>，请知晓这种方式 <b>不被</b> 支持且随时可能失效。请勿让你的作品依赖于此项功能。",
-
         
-        "Inspector.ParticleSystem.BasicInfo" : "粒子: {count}\t最后一次模拟时间： {time}",
+        "Inspector.ParticleSystem.BasicInfo" : "粒子： {count}， 帧率： {fps}， 模拟时间： {time}， 提交时间： {renderSubmitTime}， 渲染分配： {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "尾迹： {trailCount} (容量： {trailCapacity}), 尾迹点容量： {trailPointCapacity}",
 
         "Inspector.ParticleStyle.CommonTransitions": "通用变化模板：",
