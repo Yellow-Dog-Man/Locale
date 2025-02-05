@@ -117,6 +117,11 @@ Settings.LaserSettings.ModulateExponent.Description
 Settings.LaserSettings.ModulateSpeedMultiplier.Description  
 Settings.LaserSettings.StickThreshold.Description  
 Settings.LaserSettings.ShowInDesktop.Description  
+Settings.EditSettings  
+Settings.EditSettings.ConfirmComponentDestroy  
+Settings.EditSettings.ConfirmComponentDestroy.Description  
+Settings.EditSettings.ConfirmSlotDestroy  
+Settings.EditSettings.ConfirmSlotDestroy.Description  
 Settings.CursorSettings  
 Settings.CursorSettings.BaseCursorSize  
 Settings.CursorSettings.BaseCursorSize.Description  

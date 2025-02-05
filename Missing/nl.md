@@ -7,6 +7,11 @@ Importer.UnsupportedRecordType.Description
 Importer.Link.Invalid.Heading  
 Importer.Link.Invalid.Description  
 Inventory.Link.LinkText  
+Settings.EditSettings  
+Settings.EditSettings.ConfirmComponentDestroy  
+Settings.EditSettings.ConfirmComponentDestroy.Description  
+Settings.EditSettings.ConfirmSlotDestroy  
+Settings.EditSettings.ConfirmSlotDestroy.Description  
 Settings.CursorSettings  
 Settings.CursorSettings.BaseCursorSize  
 Settings.CursorSettings.BaseCursorSize.Description  
