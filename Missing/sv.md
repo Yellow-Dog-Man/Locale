@@ -13,6 +13,7 @@ World.Error.FailedToCreateBanAccessKey
 World.Error.UnhandledError  
 World.Filter.IncompatibleSessions  
 World.Edit.ReadOnly  
+Account.Type.Stripe  
 Profile.Status.Sociable  
 Profile.Status.Bot  
 Profile.Status.ChatClient  

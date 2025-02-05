@@ -2,6 +2,7 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Dutch [nl]
+Account.Type.Stripe  
 Importer.UnsupportedRecordType.Heading  
 Importer.UnsupportedRecordType.Description  
 Importer.Link.Invalid.Heading  

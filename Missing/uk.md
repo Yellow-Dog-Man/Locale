@@ -6,6 +6,7 @@ World.Error.Handshake
 World.Error.FailedToCreateBanAccessKey  
 World.Error.UnhandledError  
 World.Edit.ReadOnly  
+Account.Type.Stripe  
 Notifications.PermissionChanged  
 Notifications.PermissionChangedDetail  
 Tools.GeometryLineBrush.Name  

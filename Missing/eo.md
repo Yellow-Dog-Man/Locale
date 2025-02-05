@@ -14,6 +14,7 @@ Login.MissingSecretMachineId
 Login.MissingSecretMachineId.Description  
 Login.MalformedSecretMachineId  
 Login.MalformedSecretMachineId.Description  
+Account.Type.Stripe  
 Profile.Status.Sociable  
 Profile.Status.Bot  
 Profile.Status.ChatClient  

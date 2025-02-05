@@ -97,6 +97,7 @@ Account.TOTP.Deactivate.Description
 Account.TOTP.Deactivate.Deactivate  
 Account.TOTP.Deactivate.Deactivating  
 Account.TOTP.Message.DeactivationComplete  
+Account.Type.Stripe  
 2FA.Header  
 2FA.Token  
 Profile.Status.Sociable  

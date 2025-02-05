@@ -57,6 +57,7 @@ Recovery.NoPasswordSetup
 Recovery.NoPasswordSetup.Description  
 Register.UnknownError  
 Register.UnknownError.Description  
+Account.Type.Stripe  
 Profile.Status.Sociable  
 Profile.Status.Bot  
 Profile.Status.ChatClient  

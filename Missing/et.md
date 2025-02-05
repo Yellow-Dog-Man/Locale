@@ -215,6 +215,7 @@ Account.TOTP.Message.DeactivationComplete
 Account.Type.Standard  
 Account.Type.Business  
 Account.Type.Patreon  
+Account.Type.Stripe  
 Account.Type.Mentor  
 Account.Type.Moderator  
 Account.Type.Team  

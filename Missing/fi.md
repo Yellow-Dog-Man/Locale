@@ -5,6 +5,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 World.Connection.LNL.LNLPoke  
 World.Error.UnhandledError  
 World.Actions.GuestWarning  
+Account.Type.Stripe  
 Contacts.Unblocked  
 Tools.ProtoFlux.Drive  
 Tools.ProtoFlux.Source  

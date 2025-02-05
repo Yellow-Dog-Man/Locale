@@ -5,6 +5,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
 World.Error.UnhandledError  
+Account.Type.Stripe  
 Tools.GrabbableSetter.Name  
 Tools.CharacterCollider.Name  
 Tools.MeshVisibility.Name  

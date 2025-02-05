@@ -62,6 +62,7 @@ Account.ResetPasswordInstructions
 Account.RecoveryCode  
 Account.Requesting  
 Account.Saml2.Select  
+Account.Type.Stripe  
 Profile.Status.Headless  
 Profile.Status.Bot  
 Profile.Status.ChatClient  
