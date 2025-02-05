@@ -39,9 +39,9 @@ If you do translate them and you haven't added a credit yet, put your name in th
 
 ### If you're contributing a new language
 1. [Create a new Issue](https://github.com/Yellow-Dog-Man/Locale) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
-1. Verify that our fork of ICU MessageFormat.NET has a pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/Yellow-Dog-Man/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
+1. Verify that our fork of ICU MessageFormat.NET has a pluralizer for your language. The following file should contain your language code: https://github.com/Yellow-Dog-Man/messageformat.net/blob/master/src/Jeffijoe.MessageFormat.MetadataGenerator/data/plurals.xml
 
-If you can't find your language code in this file, please make a Issue either on in this repository.
+If you can't find your language code in this file, please make a Issue either on in this repository. If the language doesn't have any pluralization rules (meaning words don't change depending on a number), this might not be needed - but we suggest you test it first.
 
 Alternatively you can implement the pluralizer yourself based on the reference from the Unicode CLDR repository: https://github.com/unicode-org/cldr/blob/master/common/supplemental/plurals.xml and make a pull request for it to be merged with our fork or MessageFormat.NET
 
@@ -105,6 +105,7 @@ optional arguments:
 - **DON'T** submit purely machine translated locales. Those often result in odd and confusing results for user interfaces. Using machine translation as basis for manual translation is ok.
 - **DON'T** Submit strings from PRs that have the "New Strings" label until that PR is merged. The development team may need to update or change these strings as a part of their inclusion and this can cause conflicts. Wait till the PR is merged and THEN work on the new strings.
 - **DON'T** Submit strings for features that are not present in the "main" branch yet. Until a set of strings is in main, it is not complete and may need additional work to complete. Adding strings early, leads to extra work, Conflicts and confusion.
+- **DON'T** Make executive decisions on how to change certain things on our behalf - e.g. replacing names of services or introducing variables into locales when they don't exist in the English one. Let us make the decision first in the EN locale on the main branch. Adjusting things to better suit the language/culture is fine, but overall they match the intent of the EN locale.
 
 ## The ICU MessageFormat Syntax for translation strings
 Resonite uses the ICU MessageFormat Syntax defined by the Unicode organization for its localized strings. This offers high amount of flexibility on how you translate strings and ensures that you can correctly follow the grammar rules of your language, particularly with regards to pluralization (e.g. displaying "1 item" vs "1 items"). This is why it's important to ensure that your language has a pluralizer implemented in our fork of MessageFormat.NET
