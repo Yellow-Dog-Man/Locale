@@ -97,6 +97,7 @@ Account.TOTP.Deactivate.Description
 Account.TOTP.Deactivate.Deactivate  
 Account.TOTP.Deactivate.Deactivating  
 Account.TOTP.Message.DeactivationComplete  
+Account.Type.Stripe  
 2FA.Header  
 2FA.Token  
 Profile.Status.Sociable  
@@ -956,6 +957,11 @@ Settings.LaserSettings.StickThreshold
 Settings.LaserSettings.StickThreshold.Description  
 Settings.LaserSettings.ShowInDesktop  
 Settings.LaserSettings.ShowInDesktop.Description  
+Settings.EditSettings  
+Settings.EditSettings.ConfirmComponentDestroy  
+Settings.EditSettings.ConfirmComponentDestroy.Description  
+Settings.EditSettings.ConfirmSlotDestroy  
+Settings.EditSettings.ConfirmSlotDestroy.Description  
 Settings.CursorSettings  
 Settings.CursorSettings.BaseCursorSize  
 Settings.CursorSettings.BaseCursorSize.Description  

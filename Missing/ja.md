@@ -2,11 +2,10 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Japanese [ja]
-Importer.UnsupportedRecordType.Heading  
-Importer.UnsupportedRecordType.Description  
-Importer.Link.Invalid.Heading  
-Importer.Link.Invalid.Description  
-Inventory.Link.LinkText  
-Inspector.Skybox.SetActiveSkybox  
-Inspector.AmbientLightSH2.SetActiveAmbientLight  
+Account.Type.Stripe  
+Settings.EditSettings  
+Settings.EditSettings.ConfirmComponentDestroy  
+Settings.EditSettings.ConfirmComponentDestroy.Description  
+Settings.EditSettings.ConfirmSlotDestroy  
+Settings.EditSettings.ConfirmSlotDestroy.Description  
 

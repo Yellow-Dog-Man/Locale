@@ -2,32 +2,32 @@
 This repository contains the locale assets for the core UI of [Resonite](https://resonite.com) and allows anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (STEAM) and other platforms.
 
 ## Localization Status
-Czech [cs] - 67.4% - Missing keys: 768  
-German [de] - 100.0% - Missing keys: 0  
-English (United Kingdom) [en-gb] - 2.1% - Missing keys: 2303  
+Czech [cs] - 67.2% - Missing keys: 774  
+German [de] - 99.7% - Missing keys: 6  
+English (United Kingdom) [en-gb] - 2.1% - Missing keys: 2309  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 68.8% - Missing keys: 734  
-Spanish [es] - 97.6% - Missing keys: 56  
-Estonian [et] - 35.1% - Missing keys: 1528  
-Finnish [fi] - 87.6% - Missing keys: 291  
-French [fr] - 100.0% - Missing keys: 0  
-Hungarian [hu] - 28.1% - Missing keys: 1692  
-Icelandic [is] - 26.3% - Missing keys: 1733  
-Japanese [ja] - 99.7% - Missing keys: 7  
-Korean [ko] - 100.0% - Missing keys: 0  
-Dutch [nl] - 98.9% - Missing keys: 25  
-Norwegian [no] - 65.9% - Missing keys: 802  
-Polish [pl] - 99.4% - Missing keys: 14  
-Portuguese (Brazil) [pt-br] - 65.9% - Missing keys: 803  
-Russian [ru] - 99.4% - Missing keys: 14  
-Swedish [sv] - 27.1% - Missing keys: 1716  
-Thai [th] - 2.9% - Missing keys: 2284  
-Turkish [tr] - 34.6% - Missing keys: 1540  
-Ukrainian [uk] - 55.8% - Missing keys: 1041  
-Chinese (Simplified, Mainland China) [zh-cn] - 99.8% - Missing keys: 5  
-Chinese (Traditional, Taiwan) [zh-tw] - 66.1% - Missing keys: 797  
+Esperanto [eo] - 68.6% - Missing keys: 740  
+Spanish [es] - 97.4% - Missing keys: 62  
+Estonian [et] - 35.0% - Missing keys: 1534  
+Finnish [fi] - 87.4% - Missing keys: 297  
+French [fr] - 99.7% - Missing keys: 6  
+Hungarian [hu] - 28.0% - Missing keys: 1698  
+Icelandic [is] - 26.3% - Missing keys: 1739  
+Japanese [ja] - 99.7% - Missing keys: 6  
+Korean [ko] - 99.7% - Missing keys: 6  
+Dutch [nl] - 98.7% - Missing keys: 31  
+Norwegian [no] - 65.7% - Missing keys: 808  
+Polish [pl] - 99.2% - Missing keys: 20  
+Portuguese (Brazil) [pt-br] - 65.7% - Missing keys: 809  
+Russian [ru] - 99.2% - Missing keys: 20  
+Swedish [sv] - 27.0% - Missing keys: 1722  
+Thai [th] - 2.9% - Missing keys: 2290  
+Turkish [tr] - 34.5% - Missing keys: 1546  
+Ukrainian [uk] - 55.6% - Missing keys: 1047  
+Chinese (Simplified, Mainland China) [zh-cn] - 99.7% - Missing keys: 6  
+Chinese (Traditional, Taiwan) [zh-tw] - 66.0% - Missing keys: 803  
 
-Total keys: 2353
+Total keys: 2359
 
 ## How To Contribute
 If you'd like to contribute translations, create a fork of the repository, make the changes and **once they are ready** to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
@@ -39,9 +39,9 @@ If you do translate them and you haven't added a credit yet, put your name in th
 
 ### If you're contributing a new language
 1. [Create a new Issue](https://github.com/Yellow-Dog-Man/Locale) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
-1. Verify that our fork of ICU MessageFormat.NET has a pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/Yellow-Dog-Man/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
+1. Verify that our fork of ICU MessageFormat.NET has a pluralizer for your language. The following file should contain your language code: https://github.com/Yellow-Dog-Man/messageformat.net/blob/master/src/Jeffijoe.MessageFormat.MetadataGenerator/data/plurals.xml
 
-If you can't find your language code in this file, please make a Issue either on in this repository.
+If you can't find your language code in this file, please make a Issue either on in this repository. If the language doesn't have any pluralization rules (meaning words don't change depending on a number), this might not be needed - but we suggest you test it first.
 
 Alternatively you can implement the pluralizer yourself based on the reference from the Unicode CLDR repository: https://github.com/unicode-org/cldr/blob/master/common/supplemental/plurals.xml and make a pull request for it to be merged with our fork or MessageFormat.NET
 
@@ -105,6 +105,7 @@ optional arguments:
 - **DON'T** submit purely machine translated locales. Those often result in odd and confusing results for user interfaces. Using machine translation as basis for manual translation is ok.
 - **DON'T** Submit strings from PRs that have the "New Strings" label until that PR is merged. The development team may need to update or change these strings as a part of their inclusion and this can cause conflicts. Wait till the PR is merged and THEN work on the new strings.
 - **DON'T** Submit strings for features that are not present in the "main" branch yet. Until a set of strings is in main, it is not complete and may need additional work to complete. Adding strings early, leads to extra work, Conflicts and confusion.
+- **DON'T** Make executive decisions on how to change certain things on our behalf - e.g. replacing names of services or introducing variables into locales when they don't exist in the English one. Let us make the decision first in the EN locale on the main branch. Adjusting things to better suit the language/culture is fine, but overall they match the intent of the EN locale.
 
 ## The ICU MessageFormat Syntax for translation strings
 Resonite uses the ICU MessageFormat Syntax defined by the Unicode organization for its localized strings. This offers high amount of flexibility on how you translate strings and ensures that you can correctly follow the grammar rules of your language, particularly with regards to pluralization (e.g. displaying "1 item" vs "1 items"). This is why it's important to ensure that your language has a pluralizer implemented in our fork of MessageFormat.NET

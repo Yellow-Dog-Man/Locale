@@ -500,6 +500,7 @@ Account.TOTP.Message.DeactivationComplete
 Account.Type.Standard  
 Account.Type.Business  
 Account.Type.Patreon  
+Account.Type.Stripe  
 Account.Type.Mentor  
 Account.Type.Moderator  
 Account.Type.Team  
@@ -1485,6 +1486,11 @@ Settings.LaserSettings.StickThreshold
 Settings.LaserSettings.StickThreshold.Description  
 Settings.LaserSettings.ShowInDesktop  
 Settings.LaserSettings.ShowInDesktop.Description  
+Settings.EditSettings  
+Settings.EditSettings.ConfirmComponentDestroy  
+Settings.EditSettings.ConfirmComponentDestroy.Description  
+Settings.EditSettings.ConfirmSlotDestroy  
+Settings.EditSettings.ConfirmSlotDestroy.Description  
 Settings.CursorSettings  
 Settings.CursorSettings.BaseCursorSize  
 Settings.CursorSettings.BaseCursorSize.Description  

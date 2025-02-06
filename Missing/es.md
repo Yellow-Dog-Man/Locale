@@ -5,6 +5,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
 World.Error.UnhandledError  
+Account.Type.Stripe  
 Tools.GrabbableSetter.Name  
 Tools.CharacterCollider.Name  
 Tools.MeshVisibility.Name  
@@ -33,6 +34,11 @@ Settings.LegacyFeatureSettings.SuppressFeetSimulation
 Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.NotificationSettings.PermissionChanged  
 Settings.NotificationSettings.PermissionChanged.Description  
+Settings.EditSettings  
+Settings.EditSettings.ConfirmComponentDestroy  
+Settings.EditSettings.ConfirmComponentDestroy.Description  
+Settings.EditSettings.ConfirmSlotDestroy  
+Settings.EditSettings.ConfirmSlotDestroy.Description  
 Settings.CursorSettings  
 Settings.CursorSettings.BaseCursorSize  
 Settings.CursorSettings.BaseCursorSize.Description  
