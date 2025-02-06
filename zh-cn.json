@@ -586,6 +586,7 @@
         "Account.Type.Standard" : "标准账户",
         "Account.Type.Business" : "商用账户",
         "Account.Type.Patreon" : "Patreon 支持者",
+        "Account.Type.Stripe": "Stripe 支持者",
         "Account.Type.Mentor" : "{platform} 导师",
         "Account.Type.Moderator" : "{platform} 管理员",
         "Account.Type.Team" : "{platform} 团队",
@@ -1762,6 +1763,12 @@
         "Settings.LaserSettings.StickThreshold.Description": "这可以控制激光对互动物品的粘附程度。数值越大，粘性越强。将此值设为零将完全消除粘性（例如在拾取物品过程中）。",
         "Settings.LaserSettings.ShowInDesktop": "在桌面模式下显示激光",
         "Settings.LaserSettings.ShowInDesktop.Description": "开启后，在桌面模式下的第一人称视角中，激光视觉效果将完全呈现在你眼前",
+
+        "Settings.EditSettings": "编辑设置",
+        "Settings.EditSettings.ConfirmComponentDestroy": "确定删除组件",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "启用后，在检查器中删除组件前会要求你进行确认。这有助于防止因误操作而意外删除它们。",
+        "Settings.EditSettings.ConfirmSlotDestroy": "确定删除槽位",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "启用后，使用开发者工具销毁槽位时会要求你进行确认。这可以防止因误点击而意外销毁对象。",
 
         "Settings.CursorSettings": "光标设置",
         
