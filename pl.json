@@ -867,6 +867,8 @@
         "CreateNew.ParticleSystem": "System Cząsteczek",
         "CreateNew.LegacyParticleSystem": "Stary System Cząsteczek",
 
+
+
         "CreateNew.Object": "Obiekt",
         "CreateNew.Object.AvatarCreator": "Kreator Awatarów",
         "CreateNew.Object.Camera": "Kamera",
@@ -1393,6 +1395,7 @@
         "Settings.KeyboardLookSettings": "Ustawienia ruchu kamery przy użyciu klawiatury",
         "Settings.KeyboardLookSettings.LookEnabled": "Ruch kamery przy użyciu klawiatury",
         "Settings.KeyboardLookSettings.LookEnabled.Description": "Gdy ta opcja jest włączona, można używać strzałek na klawiaturze do sterowania kamerą.<br>Ta funkcja jest przeznaczona do scenariuszy, w których mysz może nie być dostępna lub odpowiednia, na przykład podczas korzystania z laptopa.",
+
         "Settings.KeyboardLookSettings.HorizontalSpeed": "Prędkość w poziomie",
         "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "Regulacja szybkości ruchu kamery w poziomie.",
         "Settings.KeyboardLookSettings.VerticalSpeed": "Prędkość w pionie",
@@ -2254,8 +2257,9 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>UWAGA!</size></color><br>Możliwe jest użycie tego komponentu do symulacji rigidbody, poprzez zaznaczenie opcji \"SimulateRotation\". Komponent ten jednak nie jest zaprojektowany do tego celu, a prawidłowe wsparcie dla rigidbody pojawi się w przyszłości.<br>Użycie tego komponentu do symulacji rigidbody może spowodować:<br>- Zwiększone użycie procesora i sieci<br>- CharacterController ulegnie glitchowi, jeśli inna osoba spróbuje interakcji.",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>UWAGA!</size></color><br>Możliwe jest użycie tego komponentu do interakcji z referencjami przy użyciu ich ID. Proces ten jest powszechnie nazywany \"Ref Hacking\".<br><br><b>Zanim</b> to zrobisz, pamiętaj, że to nie jest oficjalnie wspierana funkcja, i proces ten może przestać działać w każdej chwili. Nie należy polegać na tym przy tworzeniu swoich dzieł.",
 
-        "Inspector.ParticleSystem.BasicInfo": "Ilość cząstek: {count}	Czas ostatniej symulacji: {time}",
-        "Inspector.ParticleSystem.TrailInfo": "Ślady: {trailCount} (Pojemność: {trailCapacity}), Pojemność punktu śladu: {trailPointCapacity}",
+
+        "Inspector.ParticleSystem.BasicInfo" : "Ilość cząstek: {count}\tCzas ostatniej symulacji: {time}",
+        "Inspector.ParticleSystem.TrailInfo" : "Ślady: {trailCount} (Pojemność: {trailCapacity}), Pojemność punktu śladu: {trailPointCapacity}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Wspólne szablony przejść:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Zanikanie Alpha: Wprowadzenie i Wycofanie",
