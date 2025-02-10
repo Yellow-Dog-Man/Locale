@@ -1066,6 +1066,12 @@
         "Importer.Slices.TitleGrayscale": "Obrazy w formie warstw jako tekstura objętościowa (skala szarości)",
         "Importer.Slices.Description": "Przetwarza wszystkie pliki obrazów w folderze na teksturę objętościową",
 
+        "Importer.UnsupportedRecordType.Heading": "Ten typ pliku nie jest obsługiwany",
+        "Importer.UnsupportedRecordType.Description": "Plik, który chcesz zaimportować ({url}), ma nieobsługiwany format ({recordType}). Daj nam znać o tym tutaj: {bugUrl} – poprawimy to!",
+        "Importer.Link.Invalid.Heading": "Błędny link do foldera",
+        "Importer.Link.Invalid.Description": "Link do foldera ({url}) jest nieprawidłowy. Sprawdź, czy na pewno został dobrze skopiowany, i spróbuj ponownie.",
+        "Inventory.Link.LinkText": "Link do zasobów: {name}",
+
         "Exporter.Title": "Eksport",
         "Exporter.FileName": "Nazwa pliku:",
         "Exporter.ExportAs": "Eksportuj jako:",
@@ -1761,6 +1767,12 @@
         "Settings.LaserSettings.ShowInDesktop": "Pokaż lasery w trybie stacjonarnym",
         "Settings.LaserSettings.ShowInDesktop.Description": "Po włączeniu, laser będzie w pełni wyświetlany w widoku pierwszoosobowym w trybie stacjonarnym.",
 
+        "Settings.EditSettings": "Edytuj ustawienia",
+        "Settings.EditSettings.ConfirmComponentDestroy": "Potwierdzanie usuwania komponentów",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "Gdy włączone, system zapyta Cię o potwierdzenie przed usunięciem komponentu w inspektorze. Dzięki temu nie usuniesz go przypadkiem przez pomyłkowe kliknięcie.",
+        "Settings.EditSettings.ConfirmSlotDestroy": "Potwierdzanie usuwania slotów",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "Gdy włączone, system wymaga potwierdzenia przed usunięciem Slotów za pomocą Narzędzia Deweloperskiego. Chroni to przed przypadkowym wykasowaniem obiektów przez omyłkowe kliknięcie.",
+
         "Settings.CursorSettings": "Ustawienia kursora",
 
         "Settings.CursorSettings.BaseCursorSize": "Podstawowy rozmiar kursora",
@@ -1938,6 +1950,14 @@
         "Settings.RenderingQualitySettings.SkinWeightMode": "Waga kości",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Dla meszy z kościami (Modele 3D które są deformowane przez kości, np. avatary), to ustawia ile kości jest używanych do wpływania na pozycję każdego wierzchołka.\n\nObniżenie tej wartości zwiększy wydajność, ale jakość deformacji będzie niższa, co spowoduje ostre zagniecenia i inne artefakty, zwykle wokół stawów.",
 
+        "Settings.ImportSettings": "Ustawienia importowania",
+        "Settings.ImportSettings.SessionUrls": "Import URL sesji",
+        "Settings.ImportSettings.SessionUrls.Description": "Kiedy URL sesji jest importowany, co powinno się stać. Dostępne opcje:\n\n<color=hero.yellow>Open</color> - Dołącz do sesji.\n<color=hero.yellow>SpawnEntityInterface</color> - Pokaż reprezentacje (np. kule sesji) URLa.\n<color=hero.yellow>SpawnUrl</color> - Pokaż dialog URLa.",
+        "Settings.ImportSettings.WorldUrls": "Import URL świata",
+        "Settings.ImportSettings.WorldUrls.Description": "Kiedy URL świata jest importowany, co powinno się stać. Dostępne opcje:\n\n<color=hero.yellow>Open</color> - Otwórz świat .\n<color=hero.yellow>SpawnEntityInterface</color> - Pokaż reprezentacje (np. kule sesji) Świata.\n<color=hero.yellow>SpawnUrl</color> - Pokaż dialog URLa.",
+        "Settings.ImportSettings.NetworkUrls": "Import URL sieci",
+        "Settings.ImportSettings.NetworkUrls.Description": "Kiedy URL sieci jest importowany, co powinno się stać. Dostępne opcje:\n\n<color=hero.yellow>Open</color> - Połącz z sesją przez URL.\n<color=hero.yellow>SpawnEntityInterface</color> - Pokaż reprezentacje (np. kule sesji) URLa.\n<color=hero.yellow>SpawnUrl</color> - Pokaż dialog URLa.",
+
         "LocomotionArchetype.Walk": "Chodzenie",
         "LocomotionArchetype.Fly": "Lot",
         "LocomotionArchetype.NoClip": "Noclip",
@@ -2061,6 +2081,9 @@
         "Inspector.MeshCollider.ReplaceBox": "Zastąp Koliderem Sześciennym",
 
         "Inspector.Texture3D.SpawnVisualizer": "Spawn Wizualizator",
+
+        "Inspector.Skybox.SetActiveSkybox": "Ustaw jako aktywny skybox",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Ustaw jako aktywny ambient light",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Aktualizuj moduły lokomocji dla obecnych użytkowników",
 
