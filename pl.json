@@ -120,10 +120,10 @@
         "Inventory.CreateDirectory": "Utwórz katalog",
         "Inventory.SaveHeld": "Zapisz trzymane przedmioty",
         "Inventory.GetURL": "Kopiuj URL",
-        "Inventory.Inventories": "Ekwipunek",
+        "Inventory.Inventories": "Ekwipunki",
         "Inventory.Share": "Udostępnij",
         "Inventory.Unshare": "Przestań udostępniać",
-        "Inventory.SaveAvatar": "Zapisz Awatar",
+        "Inventory.SaveAvatar": "Zapisz Awatara",
         "Inventory.Favorite.Home": "Ustaw dom",
         "Inventory.Favorite.ProgressBar": "Ustaw pasek postępu",
         "Inventory.Favorite.AudioStreamController": "Ustaw kontroler transmisji audio",
@@ -380,10 +380,10 @@
         "Tools.StreamAudio.PlayForOwner.Off": "Nasłuch dla właściciela: Nie",
         "Tools.StreamAudio.PlayForOwner.On": "Nasłuch dla właściciela: Tak",
 
-        "Options.FreeformDash.On": "Swobodna Tablica: Wyłączont",
-        "Options.FreeformDash.Off": "Swobodna Tablica: Wyłączony",
-        "Options.SeatedMode.On": "Tryb Siedzący: Włączony",
-        "Options.SeatedMode.Off": "Tryb Siedzący: Wyłączony",
+        "Options.FreeformDash.On": "Swobodna Tablica: Tak",
+        "Options.FreeformDash.Off": "Swobodna Tablica: Nie",
+        "Options.SeatedMode.On": "Tryb Siedzący: Tak",
+        "Options.SeatedMode.Off": "Tryb Siedzący: Nie",
         "Options.Nameplates.All": "Nazwy Graczy: Wszystkie",
         "Options.Nameplates.NonContacts": "Nazwy Graczy: Nie Kontaktów",
         "Options.Nameplates.Hide": "Nazwy Graczy: Ukryte",
@@ -436,7 +436,7 @@
         "Register.MalformedUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
 
         "Login.MissingLogin": "Brak danych logowania",
-        "Login.MissingLogin.Description": "Zapomniałeś podać danych logowania?",
+        "Login.MissingLogin.Description": "Sprawdź dane logowania i spróbuj ponownie.",
 
         "Login.InvalidRecoveryCode": "Nieprawidłowy kod odzyskiwania",
         "Login.InvalidRecoveryCode.Description": "Sprawdź kod odzyskiwania i spróbuj ponownie.",
@@ -466,10 +466,10 @@
         "Register.InvalidEmail.Description": "Twój adres e-mail jest nieprawidłowy.",
 
         "Register.MissingUsername": "Brak nazwy użytkownika",
-        "Register.MissingUsername.Description": "Czy podałeś swoją nazwę użytkownika?",
+        "Register.MissingUsername.Description": "Czy podano nazwę użytkownika?",
 
         "Register.MissingEmail": "Brak adresu e-mail",
-        "Register.MissingEmail.Description": "Czy podałeś swój adres e-mail?",
+        "Register.MissingEmail.Description": "Czy podano adres e-mail?",
 
         "Register.UsernameTooLong": "Zbyt długa nazwa użytkownika",
         "Register.UsernameTooLong.Description": "Nazwy użytkownika mogą mieć maksymalnie 32 znaki.",
@@ -671,7 +671,7 @@
         "Contacts.Migrated": "Znajomy nie przeszedł Migracji",
         "Contacts.IncompatibleSession": "Niekompatybilna sesja",
 
-        "Notifications.IsSociable": "Poszukuje towarzystwa, Wyślij im wiadomość lub zaproś ich!",
+        "Notifications.IsSociable": "Poszukuje towarzystwa. Wyślij im wiadomość lub zaproś ich!",
         "Notifications.IsOnline": "Jest teraz Online",
         "Notifications.IsOnlineOnDifferentVersion": "Jest teraz Online <size=75%>(używając wersji: {version})</size>",
         "Notifications.ReceivedContactRequest": "Wysłano zaproszenie do znajomych",
@@ -690,7 +690,7 @@
         "Undo.Destroy": "Zniszczenie {name}",
         "Undo.SpawnComponent": "Dodanie {component_type} do {slot_name}",
         "Undo.DuplicateComponent": "Duplikowanie Komponentu",
-        "Undo.DestroyComponent": "Zniszczenie {component_type} na {slot_name}",
+        "Undo.DestroyComponent": "Zniszczenie {component_type} w {slot_name}",
         "Undo.Transform": "Przeniesienie {name}",
         "Undo.Translate": "Przeniesienie",
         "Undo.TranslateAlongAxis": "Przeniesienie Wzdłuż Osi",
@@ -2101,7 +2101,7 @@
 
         "Inspector.VHACD.DecompositionMode.Header": "Tryb dekompozycji:",
         "Inspector.VHACD.DecompositionMode.Voxel": "Woksel",
-        "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetraedr",
+        "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetrahedron",
 
         "Inspector.VHACD.RunDecomposition": "Uruchom dekompozycję",
         "Inspector.VHACD.RemoveVisuals": "Usuń wizualizacje",
@@ -2506,7 +2506,7 @@
         "Migration.Groups.NoGroups": "Nie znaleziono grup {platform} do migracji.",
         "Migration.Groups.NotGroupAdmin": "Nie jesteś administratorem żadnej grupy {platform}, poproś administratorów grupy o migrację grupy!",
 
-        "Migration.Summary": "Ok, mamy wszystko, czego potrzebujemy. Kliknij przycisk Rozpocznij migrację, a my rozpoczniemy migrację. Migracja może chwilę potrwać, ponieważ musimy wszystko skopiować. Jeśli wybrałeś migrację swoich ulubionych aplikacji, nadamy im priorytet, abyś mógł poczuć się wygodnie. Nie musisz uruchamiać {appName} podczas migracji, ale wyślemy ci aktualizacje za pośrednictwem bota {appName}, aby poinformować Cię, jak idzie.",
+        "Migration.Summary": "Ok, mamy wszystko, czego potrzebujemy. Kliknij przycisk Rozpocznij migrację, a my skopujemy twoje dane. Jeśli wybrano migrację swoich ulubionych, nadamy im priorytet, aby było Ci wygodnie. {appName} nie musi być uruchomione podczas migracji, ale wyślemy Ci aktualizacje przez bota {appName}, informując o postępach.",
 
         "Migration.List.EmptyTitle": "Chcesz rozpocząć nową migrację?",
         "Migration.List.EmptySubtitle": "Kliknij \"Nowe zadanie migracji\" w lewym górnym rogu.",
@@ -2522,7 +2522,7 @@
         "Migration.Report.CurrentlyMigrating": "Obecnie trwa migracja danych <color={hex}>{value}</color>.",
         "Migration.Report.CurrentItem": "Bieżący element: <color={hex}>{value}</color>",
 
-        "Migration.Report.CurrentRate": "<color={hex}>Bieżąca prędkość:</color> ~{value} światów/przedmiotów na minutę",
+        "Migration.Report.CurrentRate": "<color={hex}>Bieżąca prędkość:</color> ≈{value} światów/przedmiotów na minutę",
 
         "Migration.Report.EstimatedQueuePosition": "<color={hex}>Pozostałe zadania w kolejce przed tym:</color> {value}",
         "Migration.Report.ContactStatus": "Zmigrowano <color={hex}>{current}</color> kontaktów z <color={hex}>{total}</color>",
@@ -2577,9 +2577,9 @@
         "CloudHome.Info.StorageUsed": "Użyta pamięć:",
 
         "CloudHome.Info.DashInfoTab.Title": "Witaj!",
-        "CloudHome.Info.DashInfoDesktop": "Aby być na bieżąco, powinieneś wiedzieć parę rzeczy. Masz <i><color=hero.purple>Tablice</color></i> którą możesz otworzyć naciskając Escape. Potraktuj to jako pulpit lub panel sterowania.<br><br>Jeśli jesteś nie pewny, ten ekran zawiera dodatkowe informacje, które mogą Ci pomóc. Kliknij poniższy przycisk, aby odrzucić tę wiadomość.",
-        "CloudHome.Info.DashInfoVR": "Aby być na bieżąco, powinieneś wiedzieć parę rzeczy. Masz <i><color=hero.purple>Tablice</color></i> którą możesz otworzyć naciskając B lub Y. Potraktuj to jako pulpit lub panel sterowania.<br><br>Jeśli jesteś nie pewny, ten ekran zawiera dodatkowe informacje, które mogą Ci pomóc. Kliknij poniższy przycisk, aby odrzucić tę wiadomość.",
-        "CloudHome.Info.DashInfoVRNoButtons": "Aby być na bieżąco, powinieneś wiedzieć parę rzeczy. Masz <i><color=hero.purple>Tablice</color></i> którą możesz otworzyć, naciskając i przytrzymując przycisk Menu, aż okrąg się zamknie. Potraktuj to jako pulpit lub panel sterowania.<br><br>Jeśli jesteś nie pewny, ten ekran zawiera dodatkowe informacje, które mogą Ci pomóc. Kliknij poniższy przycisk, aby odrzucić tę wiadomość.",
+        "CloudHome.Info.DashInfoDesktop": "Aby być na bieżąco, warto wiedzieć kilka rzeczy. Masz <i><color=hero.purple>Tablicę</color></i>, którą możesz otworzyć, naciskając Escape. Potraktuj to jako pulpit lub panel sterowania.<br><br>Jeśli masz wątpliwości, ten ekran zawiera dodatkowe informacje, które mogą Ci pomóc. Kliknij poniższy przycisk, aby zamknąć tę wiadomość.",
+        "CloudHome.Info.DashInfoVR": "Aby być na bieżąco, warto wiedzieć kilka rzeczy. Masz <i><color=hero.purple>Tablicę</color></i>, którą możesz otworzyć, naciskając B lub Y. Potraktuj to jako pulpit lub panel sterowania.<br><br>Jeśli masz wątpliwości, ten ekran zawiera dodatkowe informacje, które mogą Ci pomóc. Kliknij poniższy przycisk, aby zamknąć tę wiadomość.",
+        "CloudHome.Info.DashInfoVRNoButtons": "Aby być na bieżąco, warto wiedzieć kilka rzeczy. Masz <i><color=hero.purple>Tablicę</color></i>, którą możesz otworzyć, naciskając i przytrzymując przycisk Menu, aż okrąg się zamknie. Potraktuj to jako pulpit lub panel sterowania.<br><br>Jeśli masz wątpliwości, ten ekran zawiera dodatkowe informacje, które mogą Ci pomóc. Kliknij poniższy przycisk, aby zamknąć tę wiadomość.",
 
         "CloudHome.Info.GoToWiki": "Przejdź do Wiki!",
         "CloudHome.Info.GoToDiscord": "Przejdź do Discorda!",
@@ -2689,7 +2689,7 @@
         "CloudHome.SupporterPanel.Title": "<b>Nasi wspierający</b>",
 
         "Tutorial.InfoPanel.Title": "Hej! Zanim pójdziesz...",
-        "Tutorial.InfoPanel.Content": "     Czeka na Ciebie świat możliwości, a to, co jest możliwe, ogranicza tylko Twoja wyobraźnia.<br><br>     Prawie wszystkie rzeczy, które do tej pory widzieliście, zostały stworzone bezpośrednio w grze! Przy jego budowie współpracowali ludzie z całego świata w czasie rzeczywistym.<br><br>     Platforma jest wciąż na wczesnym etapie rozwoju i stale ją aktualizujemy i ulepszamy. Ale ty też jesteś częścią tej podróży, a niebo jest granicą!<br><br><align=center>Dziękujemy, że się zatrzymałeś i spróbowałeś.</align>",
+        "Tutorial.InfoPanel.Content": "Czeka na Ciebie świat możliwości, a to, co jest możliwe, ogranicza tylko Twoja wyobraźnia.<br><br>Prawie wszystkie rzeczy w tym świecie zostały stworzone bezpośrednio w grze! Przy ich budowie współpracowali użytkownicy z całego świata, w czasie rzeczywistym.<br><br>{appName} jest wciąż na wczesnym etapie rozwoju i stale ją aktualizujemy i ulepszamy. Ale ty też jesteś częścią tej podróży, a możliwości są nieograniczone!<br><br><align=center>Dziękujemy, że wypróbowaliście {appName}.</align>",
 
         "Tutorial.GrabItems.Grab": "Złap",
         "Tutorial.GrabItems.Snap": "Snap",
@@ -2729,12 +2729,12 @@
         "Hints.Grabbing.ScalingVR": "Fizycznie chwytaj rzeczy obiema rękami, aby je skalować!",
 
         "Hints.Grabbing.OtherGrabbables": "Istnieje wiele elementów interaktywnych. Pobaw się tymi trzema obiektami, aby zobaczyć, jak działają!",
-        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Oprócz skalowania obiektów możesz także skalować siebie, włączając skalowanie w menu kontekstowym, a następnie przytrzymując klawisz Ctrl i używając kółka myszki!",
-        "Hints.Grabbing.OtherGrabbablesExtraVR": "Oprócz skalowania obiektów możesz także skalować siebie, włączając skalowanie w menu kontekstowym, chwytając przed sobą obiema rękami i przesuwając je bliżej lub dalej!",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Możesz także skalować siebie, włączając skalowanie w menu kontekstowym, a następnie przytrzymując klawisz Ctrl i używając kółka myszki!",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "Możesz także skalować siebie, włączając skalowanie w menu kontekstowym, chwytając przed sobą obiema rękami i przesuwając je bliżej lub dalej!",
 
         "Hints.Telescope.Alignment": "Chwyć teleskop i wyceluj w Księżyc!",
 
-        "Hints.Telescope.TheMoonDesktop": "Podczas celowania w księżyc przytrzymaj prawy przycisk myszy i rozejrzyj się, aby przesunąć księżyc!",
+        "Hints.Telescope.TheMoonDesktop": "Podczas celowania w księżyc laserem, przytrzymaj prawy przycisk myszy i rozejrzyj się, aby przesunąć księżyc!",
         "Hints.Telescope.TheMoonVR": "Użyj swojego lasera za pomocą przycisku spustu i złap księżyc!",
 
         "Hints.Sundial.SoftEquip": "Chwyć to narzędzie, aby z niego skorzystać!",
