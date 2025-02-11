@@ -110,18 +110,6 @@ Inventory.Inventories
 Inventory.Share  
 Inventory.Unshare  
 Inventory.SaveAvatar  
-Inventory.Favorite.Home  
-Inventory.Favorite.ProgressBar  
-Inventory.Favorite.AudioStreamController  
-Inventory.Favorite.TextDisplay  
-Inventory.Favorite.VideoPlayer  
-Inventory.Favorite.AudioPlayer  
-Inventory.Favorite.InteractiveCamera  
-Inventory.Favorite.Keyboard  
-Inventory.Favorite.Avatar  
-Inventory.Favorite.WorldLoadingIndicator  
-Inventory.Favorite.Hyperlink  
-Inventory.Favorite.Document  
 Inventory.SpawnFacet  
 Dash.Screens.Home  
 Dash.Screens.Worlds  
@@ -1313,7 +1301,6 @@ Settings.GiggleTechSettings.Devices.InitialActivationIntensity
 Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description  
 Settings.UserMetricsSettings.UserHeight  
 Settings.UserMetricsSettings.UserHeight.Description  
-Settings.FavoritesSettings  
 Settings.FavoritesSettings.AutoLoadCloudHome  
 Settings.FavoritesSettings.AutoLoadCloudHome.Description  
 Settings.AudioInputDeviceSettings.UseSystemDefault  
