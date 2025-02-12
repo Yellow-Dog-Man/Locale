@@ -445,7 +445,7 @@
         "Login.UnsupportedAuthentication.Description": "Nie obsługujemy tej metody uwierzytelniania. Spróbuj użyć innej.",
 
         "Login.EmailNotVerified": "Adres e-mail nie został zweryfikowany",
-        "Login.EmailNotVerified.Description": "Twój adres e-mail nie został zweryfikowany, sprawdź swoją skrzynkę pocztową czy nie otrzymałeś wiadomości od nas i upewnij się, że sprawdziłeś folder spamu.",
+        "Login.EmailNotVerified.Description": "Twój adres e-mail nie został zweryfikowany. Sprawdź swoją skrzynkę pocztową czy nie otrzymano wiadomości od nas i upewnij się, że nie wylądowała ona w spamie.",
 
         "Login.AccountTempLocked": "Twoje konto jest zablokowane.",
         "Login.AccountTempLocked.Description": "Prosimy o kontakt z zespołem moderacyjnym: {moderationUrl}.",
@@ -600,7 +600,7 @@
         "Profile.Status.Online": "Online",
         "Profile.Status.Away": "Zaraz Wracam",
         "Profile.Status.Busy": "Nie Przeszkadzać",
-        "Profile.Status.Invisible": "Niewidzialny",
+        "Profile.Status.Invisible": "Niewidoczny",
         "Profile.Status.Offline": "Offline",
         "Profile.Status.Headless": "Host Headless",
         "Profile.Status.Bot": "<b>Bot:</b> {version}",
@@ -1142,7 +1142,7 @@
         "FullBody.FinishAvatarCalibration": "Zakończ Kalibrację Awatara",
         "FullBody.CalibrationFinishedInstructions": "Jeśli jesteś zadowolony z kalibracji, możesz teraz zapisać swój awatar i wyjść.",
         "FullBody.CloseCalibrator": "Zamknij Kalibrator",
-        "FullBody.CalibrationRedoInstructions": "Jeśli kalibracja jest wyłączona lub chcesz skalibrować więcej awatarów, możesz wprowadzić więcej korekt. Możesz także ponownie otworzyć ten kalibrator w przyszłości, aby wprowadzić zmiany. \n Jeśli zmieniłeś tylko trackery, nie musisz ponownie kalibrować swoich awatarów.",
+        "FullBody.CalibrationRedoInstructions": "Jeśli kalibracja jest wyłączona lub chcesz skalibrować więcej awatarów, możesz wprowadzić więcej korekt. Możesz także ponownie otworzyć ten kalibrator w przyszłości, aby wprowadzić zmiany.\nJeśli zmieniono tylko trackery, nie musisz ponownie kalibrować swoich awatarów.",
         "FullBody.ReturnToTrackerCalibration": "Powróć do kalibracji trackerów",
 
         "FullBody.Hips": "Biodra",
@@ -1283,15 +1283,15 @@
         "Settings.OnlineStatusSettings.DefaultStatus": "Domyślny Status",
         "Settings.OnlineStatusSettings.DefaultStatus.Description": "To jest domyślny status, który zostanie ustawiony po logowaniu, chyba że istnieje poprzednio zapamiętany status.",
         "Settings.OnlineStatusSettings.RememberMode": "Pamiętaj ostatni status",
-        "Settings.OnlineStatusSettings.RememberMode.Description": "Użyj tego aby ustalić czy twój ostatnio używany status powinien być zachowany pomiędzy logowaniami czy nie. To dotyczy statusów innych niż Niewidzialny, który to jest kontrolowany przez inne ustawienie.",
+        "Settings.OnlineStatusSettings.RememberMode.Description": "Użyj tego aby ustalić czy twój ostatnio używany status powinien być zachowany pomiędzy logowaniami czy nie. To dotyczy statusów innych niż niewidoczny, który to jest kontrolowany przez inne ustawienie.",
         "Settings.OnlineStatusSettings.RememberTimespan": "Zapamiętaj status na",
         "Settings.OnlineStatusSettings.RememberTimespan.Description": "Twój ostatni status będzie zapamiętany tylko jeżeli zalogujesz się ponownie w tym czasie. Jeśli będziesz wylogowany dłużej, zaczniesz ze swoim domyślnym statusem.",
-        "Settings.OnlineStatusSettings.InvisibleRememberMode": "Pamiętaj ostatni niewidzialny status",
-        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description": "To kontroluje sposób w jaki twój ostatni status jest zapamiętywany, tylko jeżeli ostatnio byłeś Niewidzialny.\n\nNiewidzialny status ma osobne ustawienie dla prywatności. Możesz ustalić, że jeżeli ostatnio byłeś Niewidzialny, to pozostaniesz Niewidzialny przy następnym logowaniu, nawet jeśli inne twoje statusy nie są zapamiętywane.",
-        "Settings.OnlineStatusSettings.InvisibleRememberTimespan": "Zapamiętaj niewidzialny status na",
-        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description": "Twój ostatni niewidzialny status będzie zapamiętany tylko jeżeli zalogujesz się ponownie w tym czasie. Jeśli będziesz wylogowany dłużej, zaczniesz ze swoim domyślnym statusem.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode": "Pamiętaj ostatni status niewidoczny",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description": "To kontroluje sposób, w jaki zapamiętywany jest ostatni status, tylko jeśli był niewidoczny.\n\nNiewidoczny status ma osobne ustawienie dla prywatności. Można ustawić, że jeśli ostatni status był niewidoczny, to taki pozostanie przy następnym logowaniu, nawet jeśli inne statusy nie są zapamiętywane.",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan": "Zapamiętaj status niewidoczny na",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description": "Ostatni status niewidoczny będzie zapamiętany tylko, jeśli zalogujesz się ponownie w tym czasie. Jeśli wylogujesz się na dłużej, zaczniesz z domyślnym statusem.",
         "Settings.OnlineStatusSettings.AutoAwayTimespan": "Zmień na Zaraz Wracam po",
-        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description": "Jeśli jesteś bezczynny przez ten okres czasu, twój status zostanie automatycznie ustawiony na Zaraz Wracam. Gdy wrócisz, zostanie ustawiony na poprzedni status, chyba że ustawiłeś go na Zaraz Wracam ręcznie.",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description": "Jeśli przez ten czas nie będzie aktywności, status zostanie automatycznie zmieniony na Zaraz Wracam. Po powrocie zostanie ustawiony poprzedni status, chyba że został ustawiony ręcznie na Zaraz Wracam.\n\n(Nie dotyczy statusu niewidocznego.)",
 
         "Settings.AudioInputDeviceSettings": "Urządzenie Wejścia",
         "Settings.AudioOutputDeviceSettings": "Urządzenie Wyjścia",
@@ -1363,7 +1363,7 @@
 
         "Settings.GrabbingSettings": "Ustawienia Chwytania",
         "Settings.GrabbingSettings.DefaultHandGrabType": "Domyślny Tryb Chwytania",
-        "Settings.GrabbingSettings.DefaultHandGrabType.Description": "To ustala twój domyślny tryb chwytania gdy pojawiasz się na nowym świecie.\n\n<color=hero.yellow>Palm:</color> Złapiesz wszystkie obiekty, które są w pobliżu twojej dłoni.\n\n<color=hero.yellow>Precision:</color> Złapiesz pojedynczy obiekt pomiędzy twoim palcem wskazującym i kciukiem.\n\n<color=hero.yellow>Auto:</color> Tryb łapania jest automatycznie zmienany pomiędzy Dłonią i Precyzyjnym, w zależności od położenia twojej ręki.\n\n<color=hero.yellow>Off:</color> Będziesz mógł łapać przedmioty tylko laserami.",
+        "Settings.GrabbingSettings.DefaultHandGrabType.Description": "To ustala twój domyślny tryb chwytania gdy pojawiasz się na nowym świecie.\n\n<color=hero.yellow>Palm:</color> Złapiesz wszystkie obiekty, które są w pobliżu twojej dłoni.\n\n<color=hero.yellow>Precision:</color> Złapiesz pojedynczy obiekt pomiędzy twoim palcem wskazującym i kciukiem.\n\n<color=hero.yellow>Auto:</color> Tryb łapania jest automatycznie zmienany pomiędzy Dłonią i Precyzyjnym, w zależności od położenia twojej ręki.\n\n<color=hero.yellow>Off:</color> Przedmioty będzie można łapać tylko laserami.",
 
         "Settings.FullBodyTrackingSettings": "Full Body Tracking",
         "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Kąt poziomy ciała",
@@ -2469,7 +2469,7 @@
         "Migration.Dialog.AccountDescription": "Aby przeprowadzić migrację konta, będziemy potrzebować hasła do konta {platform}. Pozwoli nam to zalogować się do niego i uzyskać dostęp do danych.",
 
         "Migration.ResetID.Title": "Zresetuj mój UserID",
-        "Migration.ResetID.Description": "<color=red><b>OSTRZEŻENIE:</b></color> Wybranie tej opcji <b>CZĘŚCIOWO USZKODZI ISTNIEJĄCĄ ZAWARTOŚĆ I JEST NIEODWRACALNE</b>, w tym wszelkie odniesienia UserID w treściach użytkownika, usługach społecznościowych, linkach, zmiennych w chmurze i innych. Zalecamy korzystanie z tej opcji <b>TYLKO</b> wtedy, gdy chcesz pozbyć się starego UserId i zastąpić go nowym, losowym identyfikatorem. eśli nie masz ważnego powodu, aby zresetować swój identyfikator UserID, <b>NIE POWINIENEŚ</b> zaznaczać tej opcji. Twój UserID zmieni się w następujący sposób:\n U-MyUsername -> U-fX3pKe7AYYQ",
+        "Migration.ResetID.Description": "<color=red><b>OSTRZEŻENIE:</b></color> Wybranie tej opcji <b>CZĘŚCIOWO USZKODZI ISTNIEJĄCĄ ZAWARTOŚĆ I JEST NIEODWRACALNE</b>, w tym wszelkie odniesienia UserID w treściach użytkownika, usługach społecznościowych, linkach, zmiennych w chmurze i innych. Zalecamy korzystanie z tej opcji <b>TYLKO</b> wtedy, gdy chcesz pozbyć się starego UserId i zastąpić go nowym, losowym identyfikatorem. eśli nie masz ważnego powodu, aby zresetować swój identyfikator UserID, <b>NIE POWINIENEŚ</b> zaznaczać tej opcji. Twój UserID zmieni się w następujący sposób:\nU-MyUsername -> U-fX3pKe7AYYQ",
 
         "Migration.DataSelection.Title": "Jakie dane powinny zostać przeniesione podczas migracji konta?",
         "Migration.DataSelection.Everything": "Wszystko",
@@ -2477,7 +2477,7 @@
 
         "Migration.DataSelection.Favorites": "Ulubione (awatar, dom, kamera, klawiatura, aspekty)",
 
-        "Migration.DataSelection.Favorites.Description": "Spowoduje to najpierw migrację domu, ulubionego awatara, klawiatury, kamery i tablicy, aby można było zacząć z nich korzystać tak szybko, jak to możliwe.\n <color=red><b>OSTRZEŻENIE:</b></color> Wybranie tej opcji może spowodować <b>UTRATĘ WSZELKICH ZMIAN</b> dokonanych na tej platformie przed migracją ulubionych.",
+        "Migration.DataSelection.Favorites.Description": "Spowoduje to najpierw migrację domu, ulubionego awatara, klawiatury, kamery i tablicy, aby można było zacząć z nich korzystać tak szybko, jak to możliwe.\n<color=red><b>OSTRZEŻENIE:</b></color> Wybranie tej opcji może spowodować <b>UTRATĘ WSZELKICH ZMIAN</b> dokonanych na tej platformie przed migracją ulubionych.",
         "Migration.DataSelection.Favorites.OverwriteTitle": "Czy podczas migracji należy nadpisać ulubione?",
 
         "Migration.DataSelection.Home.Title": "Ustawić stary dom jako domyślny?",
@@ -2556,14 +2556,14 @@
 
         "Temporary.MMC.VoteSuccess": "Oddano głos w kategorii {category} na {voteTarget}.",
         "Temporary.MMC.VoteFailure": "Głosowanie nie powiodło się, Twój głos nie został zarejestrowany, spróbuj ponownie.",
-        "Temporary.MMC.VotedAlready": "Oddałeś już głos na {voteTarget}.",
+        "Temporary.MMC.VotedAlready": "Już oddano głos na {voteTarget}.",
         "Temporary.MMC.VoteInvalid": "Głos jest nieprawidłowy, spróbuj ponownie.",
 
         "CloudHome.WelcomeHome": "Witaj w domu!",
         "CloudHome.TargetRangeOptions": "Opcje tarcz",
 
         "Tutorial.Saving.Title": "Witaj w domu!",
-        "Tutorial.Saving.Content": "Witamy w <b><i><color=hero.yellow>domu</b></i></color>! Jest to miejsce, do którego trafisz za każdym razem, gdy się zalogujesz.<br><br>Jest to twój własny świat, więc wszelkie wprowadzone zmiany można zapisać.<br><br>Jeśli zapiszesz, po powrocie wszystko będzie tak, jak zostawiłeś!",
+        "Tutorial.Saving.Content": "Witamy w <b><i><color=hero.yellow>domu</b></i></color>! Jest to miejsce, do którego trafisz za każdym razem, gdy się zalogujesz.<br><br>Jest to twój własny świat, więc wszelkie wprowadzone zmiany można zapisać.<br><br>Jeśli zapiszesz, po powrocie wszystko będzie tak, jak zostawiono!",
 
         "Tutorial.Teleporter.Error": "Nie udało się wczytać Twojego domu w chmurze!<br><size=66%>Wyjdź z teleportera i wróć, aby spróbować ponownie.</size>",
 
