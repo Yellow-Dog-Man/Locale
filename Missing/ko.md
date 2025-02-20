@@ -17,4 +17,6 @@ Contacts.InviteRequest.ForwardedRequest
 Contacts.InviteRequest.GrantedRequest  
 Notifications.ReceivedInviteRequestDirect  
 Notifications.ReceivedInviteRequestForwarded  
+Settings.NotificationSettings.InviteRequest  
+Settings.NotificationSettings.InviteRequest.Description  
 

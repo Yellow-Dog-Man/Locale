@@ -23,6 +23,8 @@ Importer.UnsupportedRecordType.Description
 Importer.Link.Invalid.Heading  
 Importer.Link.Invalid.Description  
 Inventory.Link.LinkText  
+Settings.NotificationSettings.InviteRequest  
+Settings.NotificationSettings.InviteRequest.Description  
 Settings.EditSettings  
 Settings.EditSettings.ConfirmComponentDestroy  
 Settings.EditSettings.ConfirmComponentDestroy.Description  

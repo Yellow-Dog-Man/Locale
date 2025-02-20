@@ -47,6 +47,8 @@ Settings.DebugSettings.ConvertParticleSystems
 Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.SuppressFeetSimulation  
 Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
+Settings.NotificationSettings.InviteRequest  
+Settings.NotificationSettings.InviteRequest.Description  
 Settings.NotificationSettings.PermissionChanged  
 Settings.NotificationSettings.PermissionChanged.Description  
 Settings.EditSettings  

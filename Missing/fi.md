@@ -114,6 +114,8 @@ Settings.NotificationSettings.UserSociable.Description
 Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description  
 Settings.NotificationSettings.Message.Description  
 Settings.NotificationSettings.Invite.Description  
+Settings.NotificationSettings.InviteRequest  
+Settings.NotificationSettings.InviteRequest.Description  
 Settings.NotificationSettings.ContactRequest.Description  
 Settings.NotificationSettings.ContactSessionStarted.Description  
 Settings.NotificationSettings.PublicSessionStarted.Description  

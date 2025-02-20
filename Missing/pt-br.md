@@ -547,6 +547,8 @@ Settings.NotificationSettings.Message
 Settings.NotificationSettings.Message.Description  
 Settings.NotificationSettings.Invite  
 Settings.NotificationSettings.Invite.Description  
+Settings.NotificationSettings.InviteRequest  
+Settings.NotificationSettings.InviteRequest.Description  
 Settings.NotificationSettings.ContactRequest  
 Settings.NotificationSettings.ContactRequest.Description  
 Settings.NotificationSettings.ContactSessionStarted  
