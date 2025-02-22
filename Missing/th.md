@@ -485,6 +485,7 @@ Contacts.AcceptRequest
 Contacts.IgnoreRequest  
 Contacts.Invite  
 Contacts.RevokeInvite  
+Contacts.RequestInvite  
 Contacts.BanFromAllSessions  
 Contacts.UnbanFromAllSessions  
 Contacts.BanFromCurrentWorld  
@@ -513,6 +514,18 @@ Contacts.SearchResult
 Contacts.Bot  
 Contacts.Migrated  
 Contacts.IncompatibleSession  
+Contacts.AskToJoin  
+Contacts.InviteRequest.UserWantsToJoin  
+Contacts.InviteRequest.UserWantsToInviteAnother  
+Contacts.InviteRequest.GrantInvite  
+Contacts.InviteRequest.AddAsContact  
+Contacts.InviteRequest.AddAsContactOfHeadless  
+Contacts.InviteRequest.AddHostAsContact  
+Contacts.InviteRequest.HostIsUnregistered  
+Contacts.InviteRequest.ForwardToHost  
+Contacts.InviteRequest.SentRequest  
+Contacts.InviteRequest.ForwardedRequest  
+Contacts.InviteRequest.GrantedRequest  
 Notifications.IsSociable  
 Notifications.IsOnline  
 Notifications.IsOnlineOnDifferentVersion  
@@ -521,6 +534,8 @@ Notifications.ReceivedInvite
 Notifications.ReceivedItem  
 Notifications.VoiceMessage  
 Notifications.SessionStarted  
+Notifications.ReceivedInviteRequestDirect  
+Notifications.ReceivedInviteRequestForwarded  
 Notifications.UserJoined  
 Notifications.UserLeft  
 Notifications.PermissionChanged  
@@ -1405,6 +1420,8 @@ Settings.NotificationSettings.Message
 Settings.NotificationSettings.Message.Description  
 Settings.NotificationSettings.Invite  
 Settings.NotificationSettings.Invite.Description  
+Settings.NotificationSettings.InviteRequest  
+Settings.NotificationSettings.InviteRequest.Description  
 Settings.NotificationSettings.ContactRequest  
 Settings.NotificationSettings.ContactRequest.Description  
 Settings.NotificationSettings.ContactSessionStarted  
