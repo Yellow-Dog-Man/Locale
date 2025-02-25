@@ -41,6 +41,9 @@ Settings.CursorSettings.TextMultiplier
 Settings.CursorSettings.TextMultiplier.Description  
 Settings.CursorSettings.SliderMultiplier  
 Settings.CursorSettings.SliderMultiplier.Description  
+Settings.VideoStreamingServicesSettings  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  
 Settings.ImportSettings  
 Settings.ImportSettings.SessionUrls  
 Settings.ImportSettings.SessionUrls.Description  
