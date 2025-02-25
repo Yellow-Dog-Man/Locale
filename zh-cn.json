@@ -641,6 +641,7 @@
         "Contacts.IgnoreRequest": "忽略请求",
         "Contacts.Invite": "邀请",
         "Contacts.RevokeInvite": "撤回邀请",
+        "Contacts.RequestInvite": "发出邀请",
         "Contacts.BanFromAllSessions": "禁止进入我创建的房间",
         "Contacts.UnbanFromAllSessions": "取消禁止进入我创建的房间",
         "Contacts.BanFromCurrentWorld": "禁止进入当前的世界",
@@ -670,6 +671,19 @@
         "Contacts.Bot": "Bot帐户",
         "Contacts.Migrated": "好友未迁移",
         "Contacts.IncompatibleSession" : "房间版本不兼容",
+        "Contacts.AskToJoin" : "<color=hero.yellow>请求</color> 加入",
+
+        "Contacts.InviteRequest.UserWantsToJoin" : "{username} 想要加入你。",
+        "Contacts.InviteRequest.UserWantsToInviteAnother" : "\"{requestingUser}\" 想要邀请 \"{userToInvite}\" 去 \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantInvite" : "获得邀请 (one time)",
+        "Contacts.InviteRequest.AddAsContact" : "加 \"{username}\" 为好友",
+        "Contacts.InviteRequest.AddAsContactOfHeadless" : "加 \"{username}\" 为云端主机的好友。",
+        "Contacts.InviteRequest.AddHostAsContact" : "加 \"{username}\" （房主） 为好友",
+        "Contacts.InviteRequest.HostIsUnregistered" : "房主是未注册用户",
+        "Contacts.InviteRequest.ForwardToHost" : "转移主机至 {username}",
+        "Contacts.InviteRequest.SentRequest" : "已发送邀请",
+        "Contacts.InviteRequest.ForwardedRequest" : "已转移邀请请求 \"{username}\" 到 \"{sessionName}\"房间",
+        "Contacts.InviteRequest.GrantedRequest" : "已获得 \"{username}\" 的邀请到 \"{sessionName}\"房间",
 
         "Notifications.IsSociable" : "有社交意愿，叫一下或者邀请他们！",
         "Notifications.IsOnline": "上线了",
@@ -679,6 +693,8 @@
         "Notifications.ReceivedItem": "发来一件物品：",
         "Notifications.VoiceMessage": "发来一条语音消息",
         "Notifications.SessionStarted": "开始的房间：",
+        "Notifications.ReceivedInviteRequestDirect": "想要被邀请",
+        "Notifications.ReceivedInviteRequestForwarded": "想要邀请：",
         "Notifications.UserJoined": "用户加入了",
         "Notifications.UserLeft": "用户已离开",
         "Notifications.PermissionChanged": "权限组已经改为 {new}",
@@ -866,7 +882,7 @@
         "CreateNew.EmptyObject": "空对象",
         "CreateNew.ParticleSystem": "粒子系统",
         "CreateNew.LegacyParticleSystem": "传统粒子系统",
-        
+
         "CreateNew.Object": "对象",
         "CreateNew.Object.AvatarCreator": "虚拟形象创建工具",
         "CreateNew.Object.Camera": "相机",
@@ -1069,7 +1085,7 @@
         "Importer.Link.Invalid.Heading":"文件夹链接无效",
         "Importer.Link.Invalid.Description":"你正在尝试导入的文件夹链接({url}) 是无效的，请检查一遍后再试一次。",
         "Inventory.Link.LinkText": "物品栏链接到 {name}",
-        
+
         "Exporter.Title": "导出",
         "Exporter.FileName": "文件名：",
         "Exporter.ExportAs": "导出为：",
@@ -1719,6 +1735,8 @@
         "Settings.NotificationSettings.Message.Description" : "这将控制你收到消息时的通知提醒。",
         "Settings.NotificationSettings.Invite" : "房间邀请",
         "Settings.NotificationSettings.Invite.Description" : "这可以控制你是否在受邀加入房间时收到通知。",
+        "Settings.NotificationSettings.InviteRequest": "邀请请求",
+        "Settings.NotificationSettings.InviteRequest.Description": "这控制着你在收到可回复的邀请请求时是否收到通知。",
         "Settings.NotificationSettings.ContactRequest" : "好友请求",
         "Settings.NotificationSettings.ContactRequest.Description" : "这可以控制当你收到某人的好友请求时，你是否能收到通知。",
         "Settings.NotificationSettings.ContactSessionStarted" : "新的好友房间",
@@ -1771,19 +1789,19 @@
         "Settings.EditSettings.ConfirmSlotDestroy.Description": "启用后，使用开发者工具销毁槽位时会要求你进行确认。这可以防止因误点击而意外销毁对象。",
 
         "Settings.CursorSettings": "光标设置",
-        
+
         "Settings.CursorSettings.BaseCursorSize": "基本光标大小",
         "Settings.CursorSettings.BaseCursorSize.Description": "这会设置一个基本光标大小。我们建议先设置这个值，然后再调整其他值，因为它们的大小是相对于这个值的。",
-        
+
         "Settings.CursorSettings.GrabMultiplier": "抓握时的大小倍数",
         "Settings.CursorSettings.GrabMultiplier.Description": "在抓取对象和项目时，它将作为光标的光标大小倍增应用。",
-        
+
         "Settings.CursorSettings.InteractionMultiplier": "互动时的大小倍数",
         "Settings.CursorSettings.InteractionMultiplier.Description": "当与UI元素（如按钮）交互时，它将作为光标的光标大小倍增应用。",
-        
+
         "Settings.CursorSettings.TextMultiplier": "文本编辑时的大小倍数",
         "Settings.CursorSettings.TextMultiplier.Description": "在互动和操作文本时，它将作为光标的光标大小倍增应用。",
-        
+
         "Settings.CursorSettings.SliderMultiplier": "滑动时的大小倍数",
         "Settings.CursorSettings.SliderMultiplier.Description": "在与滑块和滚动条互动时，它将作为光标的光标大小倍增应用。",
 
@@ -1901,6 +1919,10 @@
         "Settings.RelaySettings.UseClosestAvailableRelay.Description" : "启用该选项后，将自动选择离你最近可用的中继服务器进行连接。如果你想通过特定中继服务器进行连接（例如，在长距离连接时，为避免数据包排队），可以禁用此选项，并在下面配置首选中继服务器。",
         "Settings.RelaySettings.RelayPriorities": "配置中继服务器优先级",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "中继服务器优先级",
+        
+        "Settings.VideoStreamingServicesSettings": "视频流服务设置",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "从浏览器中使用Cookie",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "如果你无法加载 YouTube 和其他服务的视频，请选择您通常用于获取这些视频时加载 Cookie 的浏览器。这会增加视频成功加载的几率。",
 
         "Settings.PostProcessingSettings" : "后期处理",
         "Settings.PostProcessingSettings.MotionBlurIntensity" : "动态模糊强度",
@@ -2254,7 +2276,7 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告！</size></color><br>当勾选模拟旋转（SimulateRotation）时这个组件可以被当作一个简单的刚体。在你这样做之前，你需要明白它不曾为此优化，且对刚体的正式支持会在未来加入。<br>正式支持包括：<br><b>- CPU和网络效率提升</b> - 使用角色控制器，你的CPU和网络占用会显著上升<br><b>- 约束</b> - 你将能够在刚体间创建关节、合页、弹簧和其他约束<br><b>- 对每个人的平滑模拟与交互</b> - 在另一个人尝试交互时，角色控制器会发生故障<br><b>- 新功能与工具</b> - 让使用更加简单<br>-----------------------<br>只要你理解了上述限制，放开玩吧！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color><br>通过他们的ID，这个组件可以被用于与引用交互。这个过程常被称为“引用骇入”。<br><br>在你这样做<b>之前</b>，请知晓这种方式 <b>不被</b> 支持且随时可能失效。请勿让你的作品依赖于此项功能。",
-        
+
         "Inspector.ParticleSystem.BasicInfo" : "粒子： {count}， 帧率： {fps}， 模拟时间： {time}， 提交时间： {renderSubmitTime}， 渲染分配： {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "尾迹： {trailCount} (容量： {trailCapacity}), 尾迹点容量： {trailPointCapacity}",
 
@@ -2806,26 +2828,26 @@
         "Tools.Names.ManipulationTools": "操作工具集",
         "Tools.Names.InformationTools": "信息工具集",
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         "Discord.RichPresence.InPrivateWorld": "在私人世界",
         "Discord.RichPresence.InPrivateLargeText": "在私人世界 ({version})",
