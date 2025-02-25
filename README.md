@@ -3,28 +3,28 @@ This repository contains the locale assets for the core UI of [Resonite](https:/
 
 ## Localization Status
 Czech [cs] - 66.5% - Missing keys: 799  
-German [de] - 99.0% - Missing keys: 25  
+German [de] - 99.7% - Missing keys: 8  
 English (United Kingdom) [en-gb] - 2.6% - Missing keys: 2321  
 English [en] - 100.0% - Missing keys: 0  
 Esperanto [eo] - 67.9% - Missing keys: 765  
 Spanish [es] - 96.4% - Missing keys: 87  
 Estonian [et] - 34.6% - Missing keys: 1559  
 Finnish [fi] - 86.5% - Missing keys: 322  
-French [fr] - 99.0% - Missing keys: 25  
+French [fr] - 99.7% - Missing keys: 8  
 Hungarian [hu] - 27.7% - Missing keys: 1723  
 Icelandic [is] - 26.0% - Missing keys: 1764  
-Japanese [ja] - 99.7% - Missing keys: 8  
+Japanese [ja] - 99.8% - Missing keys: 5  
 Korean [ko] - 99.7% - Missing keys: 8  
 Dutch [nl] - 97.7% - Missing keys: 56  
 Norwegian [no] - 65.1% - Missing keys: 833  
-Polish [pl] - 98.1% - Missing keys: 45  
+Polish [pl] - 99.5% - Missing keys: 11  
 Portuguese (Brazil) [pt-br] - 65.0% - Missing keys: 834  
 Russian [ru] - 98.1% - Missing keys: 45  
 Swedish [sv] - 26.7% - Missing keys: 1747  
 Thai [th] - 2.9% - Missing keys: 2315  
 Turkish [tr] - 34.1% - Missing keys: 1571  
 Ukrainian [uk] - 55.0% - Missing keys: 1072  
-Chinese (Simplified, Mainland China) [zh-cn] - 99.0% - Missing keys: 25  
+Chinese (Simplified, Mainland China) [zh-cn] - 99.8% - Missing keys: 5  
 Chinese (Traditional, Taiwan) [zh-tw] - 65.3% - Missing keys: 828  
 
 Total keys: 2384

@@ -7,7 +7,4 @@ Interaction.Grab.StickyGrab
 Interaction.Grab.HoldToHold  
 Settings.PhotoCaptureSettings.OpenAutosavePath  
 Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
-Settings.VideoStreamingServicesSettings  
-Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
-Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  
 
