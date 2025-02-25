@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "Saisir: précision",
         "Interaction.Grab.Auto": "Saisir: automatique",
         "Interaction.Grab.Off": "Saisir: laser seulement",
+        "Interaction.Grabbing": "Saisissement",
+        "Interaction.Grab.StickyGrab": "Saisissement collant",
+        "Interaction.Grab.HoldToHold": "Attraper pour saisir",
         "Interaction.Locomotion": "Mouvement",
         "Interaction.Locomotion.None": "Aucun",
 
@@ -1826,6 +1829,8 @@
         "Settings.PhotoCaptureSettings.StereoSeparation.Description": "Utilisez cette option pour contrôler la séparation entre les caméras stéréo. La distance entre les caméras affecte l'effet stéréoscopique pour les objets plus distants.\n\nLors de la capture d'objets proches, il est recommandé d'utiliser une valeur plus basse, et inversement pour les grandes scènes.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Chemin de sauvegarde automatique",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Quand vous prenez ou sauvegardez une photo, elle est sauvegardée dans ce chemin dans votre inventaire. Par exemple: <color=hero.yellow>Photos/%year%/%month_name%</color>.\n\nLes variables suivantes sont disponibles: \n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "Ouvrir le chemin de sauvegarde automatique",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "Quand activé, ouvre le chemin de sauvegarde automatique dans votre inventaire du monde dans lequel vous êtes.\n\nFaites attention a prendre quelques photos avant d'activer cette option sinon vous tenterez d'ouvrir un chemin qui n'existe pas.",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Capturer les interfaces privées",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "Quand activé, ce paramètre vous permet de capturer les interfaces privées telles que votre tableau de bord. Ceci peut être utile pour montrer certaines informations s'y trouvant.\n\nIl est recommandé de laisser cette option désactivée afin de ne pas faire fuiter vos informations privées.",
         "Settings.PhotoCaptureSettings.EncodeFormat": "Format d'encodage",
@@ -1918,6 +1923,10 @@
         "Settings.RelaySettings.UseClosestAvailableRelay.Description": "Quand cette option est activée, le relais le plus proche est automatiquement sélectionné pour la connexion. Si vous voulez vous connecter à un relais spécifique (par exemple, lors de connexions à longues distances pour éviter la queue de paquets), vous pouvez désactiver cette option et configurer les relais manuellement ci-dessous.",
         "Settings.RelaySettings.RelayPriorities": "Configurer les priorités de relais",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Priorités des relais",
+
+        "Settings.VideoStreamingServicesSettings": "Options de plateformes de streaming",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Utiliser les cookies du navigateur",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Si YouTube et autres services ne fonctionnent pas, vous pouvez essayer de charger les cookies de votre navigateur pour tenter de charger les vidéos. Cela augmente les chances de la vidéo de charger.",
 
         "Settings.PostProcessingSettings": "Post-traitement",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Intensité du flou de mouvement",
