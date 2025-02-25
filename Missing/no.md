@@ -624,6 +624,8 @@ Settings.PhotoCaptureSettings.StereoSeparation
 Settings.PhotoCaptureSettings.StereoSeparation.Description  
 Settings.PhotoCaptureSettings.PhotoAutosavePath  
 Settings.PhotoCaptureSettings.PhotoAutosavePath.Description  
+Settings.PhotoCaptureSettings.OpenAutosavePath  
+Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
 Settings.PhotoCaptureSettings.CapturePrivateUI  
 Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
 Settings.PhotoCaptureSettings.EncodeFormat  

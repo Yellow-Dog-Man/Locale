@@ -160,6 +160,8 @@ Settings.PhotoCaptureSettings.TimerSeconds.Description
 Settings.PhotoCaptureSettings.CaptureStereo.Description  
 Settings.PhotoCaptureSettings.StereoSeparation.Description  
 Settings.PhotoCaptureSettings.PhotoAutosavePath.Description  
+Settings.PhotoCaptureSettings.OpenAutosavePath  
+Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
 Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
 Settings.PhotoCaptureSettings.EncodeFormat.Description  
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  

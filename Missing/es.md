@@ -67,6 +67,8 @@ Settings.CursorSettings.TextMultiplier
 Settings.CursorSettings.TextMultiplier.Description  
 Settings.CursorSettings.SliderMultiplier  
 Settings.CursorSettings.SliderMultiplier.Description  
+Settings.PhotoCaptureSettings.OpenAutosavePath  
+Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
 Settings.VideoStreamingServicesSettings  

@@ -30,6 +30,8 @@ Settings.EditSettings.ConfirmComponentDestroy
 Settings.EditSettings.ConfirmComponentDestroy.Description  
 Settings.EditSettings.ConfirmSlotDestroy  
 Settings.EditSettings.ConfirmSlotDestroy.Description  
+Settings.PhotoCaptureSettings.OpenAutosavePath  
+Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
 Settings.VideoStreamingServicesSettings  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  

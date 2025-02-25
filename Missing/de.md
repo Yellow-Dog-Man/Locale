@@ -19,6 +19,8 @@ Notifications.ReceivedInviteRequestDirect
 Notifications.ReceivedInviteRequestForwarded  
 Settings.NotificationSettings.InviteRequest  
 Settings.NotificationSettings.InviteRequest.Description  
+Settings.PhotoCaptureSettings.OpenAutosavePath  
+Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
 Settings.VideoStreamingServicesSettings  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  
