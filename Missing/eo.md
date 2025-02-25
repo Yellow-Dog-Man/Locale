@@ -637,6 +637,9 @@ Settings.RelaySettings.UseClosestAvailableRelay
 Settings.RelaySettings.UseClosestAvailableRelay.Description  
 Settings.RelaySettings.RelayPriorities  
 Settings.RelaySettings.RelayPriorities.Breadcrumb  
+Settings.VideoStreamingServicesSettings  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  
 Settings.PostProcessingSettings  
 Settings.PostProcessingSettings.MotionBlurIntensity  
 Settings.PostProcessingSettings.MotionBlurIntensity.Description  
