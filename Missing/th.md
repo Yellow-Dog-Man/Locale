@@ -26,6 +26,9 @@ Locomotion.GrabWorld.Name
 Locomotion.GrabWorld.Description  
 Locomotion.Slide.Name  
 Locomotion.Slide.Description  
+Interaction.Grabbing  
+Interaction.Grab.StickyGrab  
+Interaction.Grab.HoldToHold  
 Interaction.NamedEquipTool  
 Interaction.NamedEquipTool.Default  
 Interaction.EnterAnchor  

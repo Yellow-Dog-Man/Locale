@@ -4,6 +4,9 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Chinese (Traditional, Taiwan) [zh-tw]
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
+Interaction.Grabbing  
+Interaction.Grab.StickyGrab  
+Interaction.Grab.HoldToHold  
 Interaction.CopyImage  
 Inventory.Favorite.Document  
 World.Connection.LNL.LNLPoke  

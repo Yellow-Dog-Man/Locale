@@ -87,6 +87,9 @@ Interaction.Grab.Palm
 Interaction.Grab.Precision  
 Interaction.Grab.Auto  
 Interaction.Grab.Off  
+Interaction.Grabbing  
+Interaction.Grab.StickyGrab  
+Interaction.Grab.HoldToHold  
 Interaction.Locomotion  
 Interaction.Locomotion.None  
 Interaction.NamedEquipTool  

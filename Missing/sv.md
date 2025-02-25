@@ -6,6 +6,9 @@ General.Units.Metric
 General.Units.Imperial  
 Interaction.SaveToInventory.NotLoggedIn  
 Interaction.SaveToInventory.NoWritePermission  
+Interaction.Grabbing  
+Interaction.Grab.StickyGrab  
+Interaction.Grab.HoldToHold  
 World.Connection.LNL.LNLPoke  
 World.Connection.TCP  
 World.Error.Handshake  

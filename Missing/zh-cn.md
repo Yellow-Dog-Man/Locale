@@ -2,6 +2,9 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Chinese (Simplified, Mainland China) [zh-cn]
+Interaction.Grabbing  
+Interaction.Grab.StickyGrab  
+Interaction.Grab.HoldToHold  
 Contacts.RequestInvite  
 Contacts.AskToJoin  
 Contacts.InviteRequest.UserWantsToJoin  
