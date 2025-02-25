@@ -866,7 +866,7 @@
         "CreateNew.ParticleSystem": "Particle System",
         "CreateNew.LegacyParticleSystem": "Legacy Particle System",
 
-        "CreateNew.ExperimentalParticleSystem": "PhotonDust System <color=red>(WARNING: experimental!)</color>",
+        
 
         "CreateNew.Object": "Object",
         "CreateNew.Object.AvatarCreator": "Avatar Creator",
@@ -989,7 +989,15 @@
         "Importer.Model.3DScan": "3D Scan",
         "Importer.Model.CAD": "CAD Model",
         "Importer.Model.PointCloud": "Point Cloud",
+
         "Importer.Model.GaussianSplat": "Gaussian Splat",
+        "Importer.Model.GaussianSplatVertical": "Vertical Axis",
+        "Importer.Model.RegularVertical": "Regular",
+        "Importer.Model.FlipVertical": "Flip Y axis",
+        "Importer.Model.GaussianSplatEncoding": "Encoding",
+        "Importer.Model.GaussianSplatLossless": "Lossless",
+        "Importer.Model.GaussianSplatSPZ": "SPZ (lossy)",
+
         "Importer.Model.VertexColorModel": "Vertex Colored Model",
         "Importer.Model.AdvancedSettings": "Advanced Settings",
         "Importer.Model.ModelKindPrompt": "What kind of 3D model?",
@@ -2252,7 +2260,7 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component as a simple rigidbody by checking SimulateRotation. Before you do, please understand that it is not optimized for this purpose and proper Rigidbody Support is coming in the future.<br>Proper rigidbody support will offer:<br><b>- CPU and network efficiency</b> - with CharacterController you'll be getting higher CPU usage and significant amount of network traffic<br><b>- Constraints</b> - you'll be able to create joints, hinges, springs and other constraints between rigidbodies<br><b>- Smooth simulation and interactions for everyone</b> - CharacterController will glitch out if another person tries to interact<br><b>- New Features and Tools</b> - to make using them much easier<br>-----------------------<br>As long as you understand those limitations, have fun!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component to interact with references by using their IDs. This process is commonly called 'Ref Hacking'.<br><br><b>Before</b> you do this, please understand that this is <b>not</b> supported and may break at any time. Do not rely on this functionality for your creations.",
 
-        "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>WARNING!</size></color><br>This is the new particle system called \"PhotonDust\", which is currently being tested. You are free to play with it, but we recommend not using it for new serious content yet, as breaking changes can still occur.<br><br>We recommend using the Legacy Particle System for projects until it is fully removed and this warning goes away.",
+        
         "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tSimulation Time: {time}\tSubmit Time: {renderSubmitTime}\tRender allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
 
