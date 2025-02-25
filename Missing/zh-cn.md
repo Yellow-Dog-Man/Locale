@@ -19,4 +19,7 @@ Notifications.ReceivedInviteRequestDirect
 Notifications.ReceivedInviteRequestForwarded  
 Settings.NotificationSettings.InviteRequest  
 Settings.NotificationSettings.InviteRequest.Description  
+Settings.VideoStreamingServicesSettings  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  
 

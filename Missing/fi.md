@@ -201,6 +201,9 @@ Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description  
 Settings.RelaySettings.AlwaysUseRelay.Description  
 Settings.RelaySettings.UseClosestAvailableRelay.Description  
+Settings.VideoStreamingServicesSettings  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  
 Settings.PostProcessingSettings.MotionBlurIntensity.Description  
 Settings.PostProcessingSettings.BloomIntensity  
 Settings.PostProcessingSettings.BloomIntensity.Description  
