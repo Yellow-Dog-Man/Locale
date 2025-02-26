@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "잡기: 정밀",
         "Interaction.Grab.Auto": "잡기: 자동",
         "Interaction.Grab.Off": "잡기: 지시선만 허용",
+        "Interaction.Grabbing" : "잡는 방법",
+        "Interaction.Grab.StickyGrab" : "행위 시 토글",
+        "Interaction.Grab.HoldToHold" : "행위 중 유지",
         "Interaction.Locomotion": "이동기능",
         "Interaction.Locomotion.None": "없음",
 
@@ -1827,6 +1830,8 @@
         "Settings.PhotoCaptureSettings.StereoSeparation.Description" : "<color=hero.yellow>스테레오 촬영</color>이 활성화된 상태일때 적용되며, 스테레오 촬영의 특성인 양안거리를 얼마나 넓힐지 결정합니다. 이를 이용하여 스테레오 강도를 조절할 수 있습니다.\n\n가까이 있는 대상을 촬영할때는 값을 낮추고, 멀리있늘 풍경을 촬영할때는 값을 높이면 더 좋은 결과를 얻을 수 있습니다.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "사진 저장 경로",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "설정시 촬영한 모든 사진이 자동으로 <color=hero.yellow>대시메뉴/보관함</color>에 저장됩니다. 사용 가능한 변수를 이용하면 특정한 경로로 자동 분리 저장할 수 있습니다. (예제. <color=hero.yellow>Photos/%year%/%month_name%</color>)\n\n변수 목록은 다음과 같습니다.\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "현재 월드에서 저장된 저장소 경로 열기",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "사진 자동 저장을 구성하였다면, 이 버튼 클릭 시 현재 월드에서 촬영한 사진이 저장된 보관함이 열립니다.\n\n현재 월드에서 촬영한 사진이 없는 경우 수행되지 않습니다.",
         "Settings.PhotoCaptureSettings.CapturePrivateUI" : "개인 로컬 UI도 같이 촬영",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "활성화 시, 즉석 촬영을 할때 대시 메뉴와 같은 개인화된 UI도 같이 촬영합니다. 다른 사용자와의 정보 교환이나 특정 정보를 기록하기 위해 유용할 수 있으나, 이 설정을 항상 유지하면 개인 정보를 유출할 위험이 있으므로 필요할때만 켰다가 끄는 방식으로 사용하는것을 추천합니다.",
         "Settings.PhotoCaptureSettings.EncodeFormat" : "압축 형식",
@@ -1920,6 +1925,9 @@
         "Settings.RelaySettings.RelayPriorities": "중계 서버 우선순위 설정",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "중계 서버 우선순위",
 
+        "Settings.VideoStreamingServicesSettings": "영상 송출 서비스 설정",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "쿠키를 가져올 웹브라우저",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "유튜브 및 기타 영상 스트리밍 컨텐츠를 성공적으로 불러오기 위한 쿠키를 가져올 웹브라우저를 선택합니다.",
         "Settings.PostProcessingSettings" : "후처리",
         "Settings.PostProcessingSettings.MotionBlurIntensity" : "모션 블러 강도",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description" : "이는 개체의 움직임으로 인해 이미지가 번지는 효과의 강도를 제어합니다. 값이 높을수록 더 많이 흐릿해집니다. \n\n값을 <nobr><color=hero.yellow>0%</color></nobr>로 설정하면 필터가 완전히 비활성화되어 프레임을 향상시킬 수 있습니다.",
