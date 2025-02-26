@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "グラブ: 精密(摘み)",
         "Interaction.Grab.Auto": "グラブ: 自動切替",
         "Interaction.Grab.Off": "グラブ: レーザーのみ",
+        "Interaction.Grabbing" : "グラビング",
+        "Interaction.Grab.StickyGrab" : "トグル",
+        "Interaction.Grab.HoldToHold" : "ホールド",
         "Interaction.Locomotion": "移動方法",
         "Interaction.Locomotion.None": "なし",
 
@@ -1827,6 +1830,8 @@
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "タイマー撮影時のタイマー時間の長さを設定できます。",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "自動保存パス",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "保存先を示すパスを設定することで、撮影（またはコンテキストメニューから保存）した写真を自動でゲーム内インベントリに保存します。例: <color=hero.yellow>Photos/%year%/%month_name%</color>\n\n変数として次のものが使えます。\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "現在のワールドの自動保存パスを開く",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "写真の自動保存が設定されている場合、これをクリックすると、現在いるワールドの写真が保存されたインベントリーが開きます。\n\n設定されていない場合は、フォルダがまだ存在しないため、この動作は無効です。",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "プライベートUIを撮影",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "有効にすると、ダッシュメニューなどのプライベートなUIが撮影時に含まれます。\n\nこの設定を有効にしたままにすると、誤って撮影してしまった場合に、個人情報が漏れてしまう可能性があるので、撮影が終わったらオフにすることをおすすめします。",
         "Settings.PhotoCaptureSettings.EncodeFormat": "エンコードフォーマット",
