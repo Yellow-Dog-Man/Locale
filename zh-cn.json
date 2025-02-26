@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "抓取：精准",
         "Interaction.Grab.Auto": "抓取：自动",
         "Interaction.Grab.Off": "抓取：仅激光",
+        "Interaction.Grabbing" : "抓握",
+        "Interaction.Grab.StickyGrab" : "粘着抓握",
+        "Interaction.Grab.HoldToHold" : "长按保持",
         "Interaction.Locomotion": "移动模式",
         "Interaction.Locomotion.None": "无",
 
@@ -1827,6 +1830,8 @@
         "Settings.PhotoCaptureSettings.StereoSeparation.Description" : "当立体模式开启时，将可以控制立体摄像机之间的距离。这可以控制摄像机之间的距离，从而影响较远物体的立体效果强度。\n\n拍摄近距离物体时，数值越小效果越好；拍摄大场景时，数值越大效果越好。",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "自动保存路径",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "设置后，你拍摄（或使用右键菜单保存）的任何照片都将自动保存到你的游戏库存中。例如 <color=hero.yellow>照片/%year%/%month_name%</color>\n\n以下变量可用：\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "打开本世界自动保存路径",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "如果你已启用照片自动保存功能，点击此处将打开你当前所处世界的实时照片存储目录。\n\n请确保已在本世界拍摄过照片，否则此操作将会失败，因为文件夹尚未创建。！",
         "Settings.PhotoCaptureSettings.CapturePrivateUI" : "捕捉自身UI",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "启用后， 快速照片捕捉将呈现你的UI， 如界面。\n\n我们建议你在完成设置后将其关闭，因为开启它可能会导致意外拍摄到并泄露你的个人信息。",
         "Settings.PhotoCaptureSettings.EncodeFormat" : "照片编码格式",
