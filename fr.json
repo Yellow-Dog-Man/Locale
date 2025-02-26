@@ -1007,6 +1007,15 @@
         "Importer.Model.3DScan": "Scan 3D",
         "Importer.Model.CAD": "Modèle CAD",
         "Importer.Model.PointCloud": "Nuage de points",
+
+        "Importer.Model.GaussianSplat": "Splat gaussien",
+        "Importer.Model.GaussianSplatVertical": "Axe vertical",
+        "Importer.Model.RegularVertical": "Régulier",
+        "Importer.Model.FlipVertical": "Retourner l'axe Y",
+        "Importer.Model.GaussianSplatEncoding": "Encodage",
+        "Importer.Model.GaussianSplatLossless": "Sans pertes",
+        "Importer.Model.GaussianSplatSPZ": "SPZ (Avec pertes)",
+
         "Importer.Model.VertexColorModel": "Modèle de vertex coloré",
         "Importer.Model.AdvancedSettings": "Paramètres avancés",
         "Importer.Model.ModelKindPrompt": "Quel type de modèle 3D?",
@@ -1066,6 +1075,20 @@
         "Importer.Model.Advanced.Scalable": "Rendre redimensionnable",
         "Importer.Model.Advanced.PositionAtOrigin": "Positionner à l'origine",
         "Importer.Model.Advanced.AssetsOnObject": "Placer les ressources sur l'objet",
+
+        "Importer.Splat.Progress.Importing": "Importation du splat gaussien",
+        "Importer.Splat.Progress.ReadingHeader": "Lecture de la tête du fichier",
+        "Importer.Splat.Progress.ConvertingSplats": "{converted} convertis sur {total}",
+        "Importer.Splat.Progress.EncodingData": "Encodage des données converties",
+
+        "GaussianSplat.Encoding.Title": "Encodage de splat gaussien",
+        "GaussianSplat.Encoding.Metadata": "Métadonnées d'encodage",
+        "GaussianSplat.Encoding.EncodingPositions": "{encoded} positions encodées de {total}",
+        "GaussianSplat.Encoding.EncodingRotations": "{encoded} rotations encodées de {total}",
+        "GaussianSplat.Encoding.EncodingScales": "{encoded} écailles d'encodées de {total}",
+        "GaussianSplat.Encoding.EncodingAlphas": "{encoded} alpha d'encodés de {total}",
+        "GaussianSplat.Encoding.EncodingColors": "{encoded} couleurs d'encodées de {total}",
+        "GaussianSplat.Encoding.EncodingFinalizing": "Finalisation de l'encodage",
 
         "Importer.Video.Title": "Importateur de vidéos",
         "Importer.Video.Prompt": "Qu'importez-vous?",
@@ -1952,6 +1975,9 @@
         "Settings.TextureQualitySettings.AnisotropicLevel": "Niveau anisotropique",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Contrôle la qualité du filtre anisotropique.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Recharger toutes les textures (peut être lourd)",
+
+        "Settings.GaussianSplatQualitySettings": "Qualité de splat gaussien",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "Quand un splat gaussien est rendu, les splats doivent être filtrés pour chaque caméra. Pour l'instant, cette opération est lourde, donc est étalée sur du temps pour éviter les pertes de performance.<br><br><color=hero.yellow>Augmentez</color> la valeur pour que le filtrage soie plus rapide.<br><br><color=hero.yellow>Diminuez</color> la valeur pour réduire l'utilisation de votre carte graphique si elle à du mal avec le processus. Le splat va par contre avoir plus d’artefacts quand vous bougerez votre caméra rapidement.",
 
         "Settings.ResolutionSettings": "Résolution",
         "Settings.ResolutionSettings.Fullscreen": "Plein écran",
