@@ -2,10 +2,29 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Ukrainian [uk]
+Interaction.Grabbing  
+Interaction.Grab.StickyGrab  
+Interaction.Grab.HoldToHold  
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
 World.Error.UnhandledError  
 World.Edit.ReadOnly  
+Account.Type.Stripe  
+Contacts.RequestInvite  
+Contacts.AskToJoin  
+Contacts.InviteRequest.UserWantsToJoin  
+Contacts.InviteRequest.UserWantsToInviteAnother  
+Contacts.InviteRequest.GrantInvite  
+Contacts.InviteRequest.AddAsContact  
+Contacts.InviteRequest.AddAsContactOfHeadless  
+Contacts.InviteRequest.AddHostAsContact  
+Contacts.InviteRequest.HostIsUnregistered  
+Contacts.InviteRequest.ForwardToHost  
+Contacts.InviteRequest.SentRequest  
+Contacts.InviteRequest.ForwardedRequest  
+Contacts.InviteRequest.GrantedRequest  
+Notifications.ReceivedInviteRequestDirect  
+Notifications.ReceivedInviteRequestForwarded  
 Notifications.PermissionChanged  
 Notifications.PermissionChangedDetail  
 Tools.GeometryLineBrush.Name  
@@ -29,9 +48,13 @@ Tools.CameraObjectHider.Name
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
 CreateNew.LegacyParticleSystem  
-CreateNew.ExperimentalParticleSystem  
 Importer.Image.Failure.Heading  
 Importer.Image.Failure.Description  
+Importer.UnsupportedRecordType.Heading  
+Importer.UnsupportedRecordType.Description  
+Importer.Link.Invalid.Heading  
+Importer.Link.Invalid.Description  
+Inventory.Link.LinkText  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
@@ -152,6 +175,8 @@ Settings.NotificationSettings.Message
 Settings.NotificationSettings.Message.Description  
 Settings.NotificationSettings.Invite  
 Settings.NotificationSettings.Invite.Description  
+Settings.NotificationSettings.InviteRequest  
+Settings.NotificationSettings.InviteRequest.Description  
 Settings.NotificationSettings.ContactRequest  
 Settings.NotificationSettings.ContactRequest.Description  
 Settings.NotificationSettings.ContactSessionStarted  
@@ -192,6 +217,11 @@ Settings.LaserSettings.StickThreshold
 Settings.LaserSettings.StickThreshold.Description  
 Settings.LaserSettings.ShowInDesktop  
 Settings.LaserSettings.ShowInDesktop.Description  
+Settings.EditSettings  
+Settings.EditSettings.ConfirmComponentDestroy  
+Settings.EditSettings.ConfirmComponentDestroy.Description  
+Settings.EditSettings.ConfirmSlotDestroy  
+Settings.EditSettings.ConfirmSlotDestroy.Description  
 Settings.CursorSettings  
 Settings.CursorSettings.BaseCursorSize  
 Settings.CursorSettings.BaseCursorSize.Description  
@@ -223,6 +253,8 @@ Settings.PhotoCaptureSettings.StereoSeparation
 Settings.PhotoCaptureSettings.StereoSeparation.Description  
 Settings.PhotoCaptureSettings.PhotoAutosavePath  
 Settings.PhotoCaptureSettings.PhotoAutosavePath.Description  
+Settings.PhotoCaptureSettings.OpenAutosavePath  
+Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
 Settings.PhotoCaptureSettings.CapturePrivateUI  
 Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
 Settings.PhotoCaptureSettings.EncodeFormat  
@@ -302,6 +334,9 @@ Settings.RelaySettings.UseClosestAvailableRelay
 Settings.RelaySettings.UseClosestAvailableRelay.Description  
 Settings.RelaySettings.RelayPriorities  
 Settings.RelaySettings.RelayPriorities.Breadcrumb  
+Settings.VideoStreamingServicesSettings  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  
 Settings.PostProcessingSettings  
 Settings.PostProcessingSettings.MotionBlurIntensity  
 Settings.PostProcessingSettings.MotionBlurIntensity.Description  
@@ -344,6 +379,13 @@ Settings.RenderingQualitySettings.ShadowDistance
 Settings.RenderingQualitySettings.ShadowDistance.Description  
 Settings.RenderingQualitySettings.SkinWeightMode  
 Settings.RenderingQualitySettings.SkinWeightMode.Description  
+Settings.ImportSettings  
+Settings.ImportSettings.SessionUrls  
+Settings.ImportSettings.SessionUrls.Description  
+Settings.ImportSettings.WorldUrls  
+Settings.ImportSettings.WorldUrls.Description  
+Settings.ImportSettings.NetworkUrls  
+Settings.ImportSettings.NetworkUrls.Description  
 LocomotionArchetype.Walk  
 LocomotionArchetype.Fly  
 LocomotionArchetype.NoClip  
@@ -446,6 +488,8 @@ Inspector.MeshRenderer.SplitByMaterial
 Inspector.MeshCollider.VHACD  
 Inspector.MeshCollider.ReplaceBox  
 Inspector.Texture3D.SpawnVisualizer  
+Inspector.Skybox.SetActiveSkybox  
+Inspector.AmbientLightSH2.SetActiveAmbientLight  
 Inspector.CommonAvatarBuilder.UpdateLocomotionModules  
 Inspector.VHACD.Parameter.MergeDoubles  
 Inspector.VHACD.Parameter.Resolution  
@@ -597,7 +641,6 @@ Inspector.Rig.ClearDebugVisuals
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
-Inspector.ParticleSystem.TestingWarning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  

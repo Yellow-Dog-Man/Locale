@@ -1,6 +1,6 @@
 {
     "localeCode": "fr",
-    "authors": ["Archer", "FreakyWaves", "Xqua", "brodokk", "Sopra", "Khosumi", "j4", "cerealbowl"],
+    "authors": ["Archer", "FreakyWaves", "Xqua", "brodokk", "Sopra", "Khosumi", "j4", "cerealbowl", "MIP"],
     "messages": {
 
         "General.OK": "OK",
@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "Saisir: précision",
         "Interaction.Grab.Auto": "Saisir: automatique",
         "Interaction.Grab.Off": "Saisir: laser seulement",
+        "Interaction.Grabbing": "Saisissement",
+        "Interaction.Grab.StickyGrab": "Saisissement collant",
+        "Interaction.Grab.HoldToHold": "Attraper pour saisir",
         "Interaction.Locomotion": "Mouvement",
         "Interaction.Locomotion.None": "Aucun",
 
@@ -585,7 +588,8 @@
 
         "Account.Type.Standard": "Compte Standard",
         "Account.Type.Business": "Compte Business",
-        "Account.Type.Patreon": "Compte Supporteur",
+        "Account.Type.Patreon": "Compte Patreon",
+        "Account.Type.Stripe": "Compte Stripe",
         "Account.Type.Mentor": "Mentor {platform}",
         "Account.Type.Moderator": "Modérateur {platform}",
         "Account.Type.Team": "Équipe {platform}",
@@ -629,7 +633,7 @@
         "User.Actions.Silence": "Mettre en sourdine",
         "User.Actions.Mute": "Sourdine",
         "User.Actions.Jump": "Saut",
-        "User.Actions.Respawn": "Re-matérialiser",
+        "User.Actions.Respawn": "Réapparaître",
         "User.Actions.Kick": "Éjecter",
         "User.Actions.Ban": "Bannir",
 
@@ -640,6 +644,7 @@
         "Contacts.IgnoreRequest": "Ignorer la requête",
         "Contacts.Invite": "Inviter ici",
         "Contacts.RevokeInvite": "Révoquer l'invitation",
+        "Contacts.RequestInvite": "Demander une invitation",
         "Contacts.BanFromAllSessions": "Bannir de TOUTES mes sessions",
         "Contacts.UnbanFromAllSessions": "Dé-bannir de toutes mes sessions",
         "Contacts.BanFromCurrentWorld": "Bannir de ce monde",
@@ -669,6 +674,19 @@
         "Contacts.Bot": "Compte de bot",
         "Contacts.Migrated": "Contact non-migré",
         "Contacts.IncompatibleSession": "Session incompatible",
+        "Contacts.AskToJoin": "<color=hero.yellow>Demander</color> à rejoindre",
+
+        "Contacts.InviteRequest.UserWantsToJoin": "{username} veux vous rejoindre",
+        "Contacts.InviteRequest.UserWantsToInviteAnother": "\"{requestingUser\" veux inviter \"{userToInvite}\" dans \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantInvite": "Inviter (une utilisation)",
+        "Contacts.InviteRequest.AddAsContact": "Ajouter \"{username}\" comme contact",
+        "Contacts.InviteRequest.AddAsContactOfHeadless": "Ajouter \"{username}\" comme contact du serveur",
+        "Contacts.InviteRequest.AddHostAsContact": "Ajouter \"{username}\" (hôte) comme contact",
+        "Contacts.InviteRequest.HostIsUnregistered": "L'hôte n'a pas de compte",
+        "Contacts.InviteRequest.ForwardToHost": "Envoyer à l'hôte: {username}",
+        "Contacts.InviteRequest.SentRequest": "Requête envoyée",
+        "Contacts.InviteRequest.ForwardedRequest": "Requête reçue de \"{username}\" pour \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantedRequest": "Requête acceptée pour inviter \"{username}\" dans \"{sessionName}\"",
 
         "Notifications.IsSociable": "Est social, contactez ou invitez-le!",
         "Notifications.IsOnline": "est maintenant en ligne",
@@ -678,6 +696,8 @@
         "Notifications.ReceivedItem": "Vous envoie un objet:",
         "Notifications.VoiceMessage": "a envoyé un message vocal",
         "Notifications.SessionStarted": "Session démarrée:",
+        "Notifications.ReceivedInviteRequestDirect": "Veux être invité.e",
+        "Notifications.ReceivedInviteRequestForwarded": "Veux inviter",
         "Notifications.UserJoined": "Un utilisateur a rejoint la session",
         "Notifications.UserLeft": "Un utilisateur a quitté la session",
         "Notifications.PermissionChanged": "Rôle changé {new}",
@@ -866,8 +886,6 @@
         "CreateNew.ParticleSystem": "Système de particules",
         "CreateNew.LegacyParticleSystem": "Créer un système de particules (ancien)",
 
-        "CreateNew.ExperimentalParticleSystem": "Système PhotonDust <color=red>(ATTENTION: éxperimental)</color>",
-
         "CreateNew.Object": "Objet",
         "CreateNew.Object.AvatarCreator": "Créateur d'avatar",
         "CreateNew.Object.Camera": "Caméra",
@@ -935,7 +953,7 @@
         "AvatarCreator.ShowToolAnchors": "Montrer les ancres des outils",
         "AvatarCreator.SetupVolumeMeter": "Configurer un compteur de volume",
         "AvatarCreator.SetupEyes": "Configurer les yeux",
-        "AvatarCreator.SetupFaceTracking": "Configurer le tracking du visage",
+        "AvatarCreator.SetupFaceTracking": "Configurer le suivi du visage",
         "AvatarCreator.ProtectAvatar": "Protéger l'avatar",
         "AvatarCreator.CalibrateFeet": "Calibrer les pieds",
         "AvatarCreator.CalibrateHips": "Calibrer le bassin/la hanche",
@@ -966,9 +984,9 @@
         "Importer.Image.Sprite": "Sprite",
         "Importer.Image.360": "Photo 360 / skybox",
         "Importer.Image.StereoPhoto": "Photo stéréoscopique",
-        "Importer.Image.Stereo360": "Photo 360 stéréoscopique",
-        "Importer.Image.180": "Photo 180",
-        "Importer.Image.Stereo180": "Photo stéréoscopique 180",
+        "Importer.Image.Stereo360": "Photo 360° stéréoscopique",
+        "Importer.Image.180": "Photo 180°",
+        "Importer.Image.Stereo180": "Photo stéréoscopique 180°",
         "Importer.Image.LUT": "LUT",
 
         "Importer.Image.Failure.Heading": "L'import de l'image a échoué <color=hero.yellow>{image}</color>",
@@ -1008,7 +1026,7 @@
         "Importer.Model.Advanced.AutoScale": "Échelle automatique",
         "Importer.Model.Advanced.MaxTexSize": "Taille maximale de la texture",
         "Importer.Model.Advanced.ImageFormat": "Format d'image:",
-        "Importer.Model.Advanced.Material": "Matériel:",
+        "Importer.Model.Advanced.Material": "Matériaux:",
         "Importer.Model.Advanced.PreferSpecular": "Préférer le spéculaire",
         "Importer.Model.Advanced.AlignAxis": "Aligner l'axe:",
 
@@ -1064,6 +1082,12 @@
         "Importer.Slices.Title": "Lamelles comme texture volumétrique",
         "Importer.Slices.TitleGrayscale": "Lamelles comme texture volumétrique (niveaux de gris)",
         "Importer.Slices.Description": "Convertir toutes les images dans le dossier en une texture volumétrique",
+
+        "Importer.UnsupportedRecordType.Heading": "Type d'URL inconnu",
+        "Importer.UnsupportedRecordType.Description": "Le type d'URL que vous tentez d'importer ({url}) à un type non-supporté. Veuillez reporter cela à {bugUrl}.",
+        "Importer.Link.Invalid.Heading": "Lien de dossier invalide",
+        "Importer.Link.Invalid.Description": "Le lien de dossier ({url}) que vous essayez d'importer est invalide. Veuillez vérifier le lien et ré-essayer.",
+        "Inventory.Link.LinkText": "Lien d'inventaire vers {name}",
 
         "Exporter.Title": "Exporter",
         "Exporter.FileName": "Nom du fichier:",
@@ -1714,6 +1738,8 @@
         "Settings.NotificationSettings.Message.Description": "Contrôle si vous voulez recevoir les notifications quand vous recevez un message.",
         "Settings.NotificationSettings.Invite": "Invitations",
         "Settings.NotificationSettings.Invite.Description": "Contrôle si vous voulez recevoir les notifications d'invitation à une session.",
+        "Settings.NotificationSettings.InviteRequest": "Requêtes d'invitation",
+        "Settings.NotificationSettings.InviteRequest.Description": "Contrôle si vous voulez recevoir les requêtes d'invitation ou non.",
         "Settings.NotificationSettings.ContactRequest": "Demandes d'ami",
         "Settings.NotificationSettings.ContactRequest.Description": "Contrôle si vous voulez recevoir les notifications de demande d'ami.",
         "Settings.NotificationSettings.ContactSessionStarted": "Nouvelle session d'ami",
@@ -1759,6 +1785,12 @@
         "Settings.LaserSettings.ShowInDesktop": "Montrer les lasers en mode bureau",
         "Settings.LaserSettings.ShowInDesktop.Description": "Quand activé, les lasers seront visibles en mode bureau à la première personne.",
 
+        "Settings.EditSettings": "Options d'édition",
+        "Settings.EditSettings.ConfirmComponentDestroy": "Confirmer la destruction de composants",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "Quand activé, vous aurez à confirmer avant de détruire un composant dans l'inspecteur. Cela évite de détruire un composant par erreur.",
+        "Settings.EditSettings.ConfirmSlotDestroy": "Confirmer la destruction de slots",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "Quand activé, vous aurez à confirmer avant de détruire un slot. Cela évite de détruire des objets après une erreur",
+
         "Settings.CursorSettings": "Options de curseur",
 
         "Settings.CursorSettings.BaseCursorSize": "Taille du curseur de base",
@@ -1797,6 +1829,8 @@
         "Settings.PhotoCaptureSettings.StereoSeparation.Description": "Utilisez cette option pour contrôler la séparation entre les caméras stéréo. La distance entre les caméras affecte l'effet stéréoscopique pour les objets plus distants.\n\nLors de la capture d'objets proches, il est recommandé d'utiliser une valeur plus basse, et inversement pour les grandes scènes.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Chemin de sauvegarde automatique",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Quand vous prenez ou sauvegardez une photo, elle est sauvegardée dans ce chemin dans votre inventaire. Par exemple: <color=hero.yellow>Photos/%year%/%month_name%</color>.\n\nLes variables suivantes sont disponibles: \n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "Ouvrir le chemin de sauvegarde automatique",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "Quand activé, ouvre le chemin de sauvegarde automatique dans votre inventaire du monde dans lequel vous êtes.\n\nFaites attention a prendre quelques photos avant d'activer cette option sinon vous tenterez d'ouvrir un chemin qui n'existe pas.",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Capturer les interfaces privées",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "Quand activé, ce paramètre vous permet de capturer les interfaces privées telles que votre tableau de bord. Ceci peut être utile pour montrer certaines informations s'y trouvant.\n\nIl est recommandé de laisser cette option désactivée afin de ne pas faire fuiter vos informations privées.",
         "Settings.PhotoCaptureSettings.EncodeFormat": "Format d'encodage",
@@ -1890,6 +1924,10 @@
         "Settings.RelaySettings.RelayPriorities": "Configurer les priorités de relais",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Priorités des relais",
 
+        "Settings.VideoStreamingServicesSettings": "Options de plateformes de streaming",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Utiliser les cookies du navigateur",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Si YouTube et autres services ne fonctionnent pas, vous pouvez essayer de charger les cookies de votre navigateur pour tenter de charger les vidéos. Cela augmente les chances de la vidéo de charger.",
+
         "Settings.PostProcessingSettings": "Post-traitement",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Intensité du flou de mouvement",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Cette option contrôle l'intensité du flou de mouvement. Des valeurs plus hautes résulteront en plus de floutage avec la même quantité de mouvement. Définir cette valeur à <nobr><color=hero.yellow>0 %</color></nobr> désactive cet effet.",
@@ -1935,6 +1973,14 @@
         "Settings.RenderingQualitySettings.ShadowDistance.Description": "Cette option contrôle la distance que couvrent les ombres. Augmenter cette valeur va fair en sorte que les ombres soient rendues plus loin mais va étaler les détails sur une plus grande distance.\n\nCombinez cette option avec la cascade d'ombres et la résolution des ombres. Si vous avez une résolution d'ombres plus grande, vous pouvez les rendre sur une distance plus grande. Si vous baissez la cascade d'ombres, baissez aussi la distance des ombres pour avoir un meilleur résultat.",
         "Settings.RenderingQualitySettings.SkinWeightMode": "Poids d'os dynamiques",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Pour chaque maillage polygonal avec des poids (modèles 3D qui sont déformés par des os, comme la plupart des avatars), cette option contrôle combien d'os affectent la position de chaque vertex.\n\nBaisser cette valeur peut augmenter la performance mais la qualité de déformation sera moindre, résultant en des plis aiguisés, typiquement autour des articulations.",
+
+        "Settings.ImportSettings": "Options d'import",
+        "Settings.ImportSettings.SessionUrls": "Importation d'URL de session",
+        "Settings.ImportSettings.SessionUrls.Description": "Que faire quand une URL de session est importée, les options étant:\n\n<color=hero.yellow>Ouvrir</color> - Ouvre la session.\n<color=hero.yellow>Matérialiser une interface d'entité</color> - Matérialise une représentation comme un orbe de session dans le monde dans lequel vous êtes.\n<color=hero.yellow>Matérialiser l'URL</color> - Matérialise une URL copiable dans le monde.",
+        "Settings.ImportSettings.WorldUrls": "Importation d'URL de monde",
+        "Settings.ImportSettings.WorldUrls.Description": "Que faire quand une URL de monde est importée, les options étant:\n\n<color=hero.yellow>Ouvrir</color> - Ouvre le monde.\n<color=hero.yellow>Matérialiser une interface d'entité</color> - Matérialise une représentation comme un orbe de monde dans le monde dans lequel vous êtes.\n<color=hero.yellow>Matérialiser l'URL</color> - Matérialise une URL copiable dans le monde.",
+        "Settings.ImportSettings.NetworkUrls": "Importation d'URL de réseau",
+        "Settings.ImportSettings.NetworkUrls.Description": "Que faire quand une URL de réseau est importée, les options étant:\n\n<color=hero.yellow>Ouvrir</color> - Tente de se connecter a la session.\n<color=hero.yellow>Matérialiser une interface d'entité</color> - Matérialise une représentation comme un orbe de session dans le monde dans lequel vous êtes.\n<color=hero.yellow>Matérialiser l'URL</color> - Matérialise une URL copiable dans le monde.",
 
         "LocomotionArchetype.Walk": "Marche",
         "LocomotionArchetype.Fly": "Vol",
@@ -2059,6 +2105,9 @@
         "Inspector.MeshCollider.ReplaceBox": "Remplacer avec collisionneur en forme de boîte",
 
         "Inspector.Texture3D.SpawnVisualizer": "Matérialiser un visualiseur",
+
+        "Inspector.Skybox.SetActiveSkybox": "Définir comme ciel (skybox) actif",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Définir comme lumière d’ambiance active",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Mettre à jour les modules de locomotion sur les utilisateurs actuels",
 
@@ -2232,7 +2281,6 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Il est possible d'utiliser ce composant comme un simple RigidBody en cochant SimulateRotation. Avant de le faire, veuillez comprendre qu'il n'est pas optimisé à cet effet et qu'un support Rigidbody approprié arrive à l'avenir.<br>Un support rigidbody approprié offrira :<br><b>- Efficacité du processeur et du réseau</b> - avec CharacterController, vous obtiendrez une utilisation plus élevée du processeur et une quantité importante de trafic réseau<br><b>- Contraintes</b> - vous pourrez créer des articulations, des charnières, des ressorts et d'autres contraintes entre les corps rigides<br><b >- Simulation et interactions fluides pour tout le monde</b> - CharacterController disparaîtra si une autre personne essaie d'interagir<br><b>- Nouvelles fonctionnalités et outils</b> - pour en faciliter l'utilisation<br>-- ---------------------<br>Vous pouvez en trouver plus sur GitHub n°22. Tant que vous comprenez ces limites, amusez-vous !",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Il est possible d'utiliser ce composant pour interagir avec des références depuis leur ID. Ce processus est appelé 'ref hacking'.<br><br><b>Avant</b> de continuer, faire cela n'est <b>pas</b> supporté officiellement et peut casser à tout moment. Ne comptez pas dessus pour vos créations.",
 
-        "Inspector.ParticleSystem.TestingWarning": "<color=red><sized=150%>ATTENTION!</size></color><br>Ce système de particles appelé \"PhotonDust\" et est en cours de test. Vous pouvez jouer avec mais il n'est pas encore recommandé de créer quoi que ce soit de sérieux avec.<br><br>Nous recommandons d'utiliser l'ancien système de particles pour vos projets jusque ce que ce système soit retiré.",
         "Inspector.ParticleSystem.BasicInfo": "Particules: {count}\tDernière durée de simulation: {time}\tAllocations de rendu: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "Traînées: {trailCount} (capacité: {trailCapacity}), Capacité de points: {trailPointCapacity}, Allocations: {allocationCount}",
 

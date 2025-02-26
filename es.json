@@ -358,6 +358,7 @@
         "World.Edit.AccessPrivate": "Sólo Yo",
         "World.Edit.AccessPatreon": "Partidarios de Patreon",
         "World.Edit.AccessPublic": "Cualquiera (público)",
+        "World.Edit.ReadOnly": "Leer Solamente",
 
         "Tools.AvatarCreator": "Creador de Avatares",
         "Tools.FullBodyCalibrator": "Calibrador de Rastreadores",
@@ -636,7 +637,7 @@
         "Contacts.IgnoreRequest": "Ignorar Solicitud",
         "Contacts.Invite": "Invitar Aquí",
         "Contacts.RevokeInvite": "Revocar Invitación",
-        "Contacts.BanFromAllSessions": "Banear de TODAS mis sesiones",
+        "Contacts.BanFromAllSessions": "Banear de todas mis sesiones",
         "Contacts.UnbanFromAllSessions": "Desbanear de todas mis sesiones",
         "Contacts.BanFromCurrentWorld": "Banear del mundo actual",
         "Contacts.UnbanFromCurrentWorld": "Desbanear del mundo actual",
@@ -676,6 +677,8 @@
         "Notifications.SessionStarted": "Sesión iniciada:",
         "Notifications.UserJoined": "Un usuario se unió",
         "Notifications.UserLeft": "Un usuario se ha marchado",
+        "Notifications.PermissionChanged": "Tu rol cambio a {new}",
+        "Notifications.PermissionChangedDetail": "En {world}. Rol previo: {old}",
 
         "Undo.SetField": "Establecer campo {field_name} a {value}",
         "Undo.SetReference": "Establecer referencia {ref_name} a {ref_target}",
@@ -715,6 +718,9 @@
         "Tools.Brush.IncrementSize": "Incrementar Tamaño",
         "Tools.Brush.DecrementSize": "Disminuir Tamaño",
 
+        "Tools.GeometryLineBrush.Name": "Pincel de Linea Geométrica",
+
+        "Tools.Dev.Name": "Herramienta de Desarrollo",
         "Tools.Dev.CreateNew": "Crear Nuevo...",
         "Tools.Dev.Selection": "Selección: {mode}",
         "Tools.Dev.DevMode.Off": "Modo Desarrollador: No",
@@ -738,7 +744,8 @@
         "Tools.Dev.Interaction.Tip": "Punta",
         "Tools.Dev.Interaction.Projection": "Proyección",
 
-        "Tools.Color.Picker": "Selector de color",
+        "Tools.Color.Name": "Herramienta de Color",
+        "Tools.Color.Picker": "Selector de Color",
 
         "Tools.GrabbableSetter.Scalable": "Establecer Escalable",
         "Tools.GrabbableSetter.NonScalable": "Establecer No Escalable",
@@ -755,6 +762,7 @@
         "Tools.Light.Spot": "Área",
         "Tools.Light.Sun": "Sol",
 
+        "Tools.Light.Name": "Herramienta de Luz",
         "Tools.Light.Shadows.None": "Sin Sombras",
         "Tools.Light.Shadows.Hard": "Sombras Definidas",
         "Tools.Light.Shadows.Soft": "Sombras Suaves",
@@ -765,9 +773,12 @@
         "Tools.MeshVisibility.OnlyShadow": "Establecer a sólo sombra",
         "Tools.MeshVisibility.DoubleSidedShadow": "Establecer como sombra bi-lateral",
 
+        "Tools.Mesh.Name": "Herramienta de Malla",
+
         "Tools.Slicer.Add": "Agregar rebanador",
         "Tools.Slicer.Clear": "Restablecer configuración",
 
+        "Tools.Material.Name": "Herramienta de Material",
         "Tools.Material.RayMode": "Modo de Rayo",
         "Tools.Material.AreaMode": "Modo de Área",
         "Tools.Material.ObjectMode": "Modo global de Objeto",
@@ -782,6 +793,7 @@
 
         "Tools.Cartridge.Eject": "Ejectar Orbe",
 
+        "Tools.Microphone.Name": "Micrófono",
         "Tools.Microphone.Format.WAV": "WAV",
         "Tools.Microphone.Format.Vorbis": "OGG Vorbis",
         "Tools.Microphone.Format.FLAC": "FLAC",
@@ -790,6 +802,7 @@
         "Tools.Microphone.SourceRaw": "Crudo",
         "Tools.Microphone.SourceFiltered": "Filtrado y Normalizado",
 
+        "Tools.ProtoFlux.Name": "Herramienta Proto-Flux",
         "Tools.ProtoFlux.Drive": "Controlar",
         "Tools.ProtoFlux.Source": "Fuente",
         "Tools.ProtoFlux.Reference": "Referencia",
@@ -812,18 +825,29 @@
         "Tools.Meter.Points.Two": "Dos Puntos",
         "Tools.Meter.Points.Multiple": "Múltiples Puntos",
 
+        "Tools.Meter.Name": "Medidor",
         "Tools.Meter.ObjectSpace": "Medir en Espacio del Objeto",
         "Tools.Meter.WorldSpace": "Medir en Espacio del Mundo",
 
+        "Tools.Glue.Name": "Herramienta de Pega",
         "Tools.Glue.Mode.BakeMeshes": "Modo: Hornear mallas",
         "Tools.Glue.Mode.BakeSkinnedMeshes": "Modo: Hornear mallas (skinned)",
         "Tools.Glue.Mode.ParentObjects": "Modo: Enparentar objetos",
 
         "Tools.RigTransfer.ClearSource": "Limpiar origen",
 
+        "Tools.ComponentClone.Name": "Herramienta de clonar componente",
         "Tools.ComponentClone.SingleInstanceOn": "Instancia Única: Sí",
         "Tools.ComponentClone.SingleInstanceOff": "Instancia Única: No",
         "Tools.ComponentClone.ClearTemplate": "Limpiar plantilla",
+
+        "Tools.Shape.Name": "Herramienta de figura",
+
+        "Tools.CameraObjectHider.Name": "Herramienta de Esconder Objetos de la Cámara",
+
+        "Tools.ControllerDiagnostic.Name": "Herramienta de Diagnóstico de Controladores",
+        
+        "Tools.Labeler.Name": "Herramienta de etiqueta",
 
         "ProtoFlux.UI.Call": "Llamada",
         "ProtoFlux.UI.AsyncCall": "LLamada <size=50%>Asincrónica</size>",
@@ -832,6 +856,9 @@
         "CreateNew.Back": "<<< <i>Atrás</i>",
         "CreateNew.EmptyObject": "Objeto vacío",
         "CreateNew.ParticleSystem": "Sístema de partículas",
+        "CreateNew.LegacyParticleSystem": "Sistema Viejo de Partículas",
+
+                
 
         "CreateNew.Object": "Objeto",
         "CreateNew.Object.AvatarCreator": "Creador de Avatar",
@@ -1926,6 +1953,7 @@
         "Inspector.Member.SetAllToY": "Establecer todos a Y",
         "Inspector.Member.SetAllToZ": "Establecer todos a Z",
         "Inspector.Member.SetAllToW": "Establecer todos a W",
+        "Inspector.Member.Normalize": "Normalizar",
         "Inspector.Member.BakeBlendshape": "Hornear Forma Clave",
         "Inspector.Member.RemoveBlendshape": "Remover Forma Clave",
         "Inspector.Member.SplitBlendshape.X": "Dividir Forma Clave sobre X",

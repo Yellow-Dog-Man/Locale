@@ -26,6 +26,9 @@ Locomotion.GrabWorld.Name
 Locomotion.GrabWorld.Description  
 Locomotion.Slide.Name  
 Locomotion.Slide.Description  
+Interaction.Grabbing  
+Interaction.Grab.StickyGrab  
+Interaction.Grab.HoldToHold  
 Interaction.NamedEquipTool  
 Interaction.NamedEquipTool.Default  
 Interaction.EnterAnchor  
@@ -439,6 +442,7 @@ Account.TOTP.Message.DeactivationComplete
 Account.Type.Standard  
 Account.Type.Business  
 Account.Type.Patreon  
+Account.Type.Stripe  
 Account.Type.Mentor  
 Account.Type.Moderator  
 Account.Type.Team  
@@ -484,6 +488,7 @@ Contacts.AcceptRequest
 Contacts.IgnoreRequest  
 Contacts.Invite  
 Contacts.RevokeInvite  
+Contacts.RequestInvite  
 Contacts.BanFromAllSessions  
 Contacts.UnbanFromAllSessions  
 Contacts.BanFromCurrentWorld  
@@ -512,6 +517,18 @@ Contacts.SearchResult
 Contacts.Bot  
 Contacts.Migrated  
 Contacts.IncompatibleSession  
+Contacts.AskToJoin  
+Contacts.InviteRequest.UserWantsToJoin  
+Contacts.InviteRequest.UserWantsToInviteAnother  
+Contacts.InviteRequest.GrantInvite  
+Contacts.InviteRequest.AddAsContact  
+Contacts.InviteRequest.AddAsContactOfHeadless  
+Contacts.InviteRequest.AddHostAsContact  
+Contacts.InviteRequest.HostIsUnregistered  
+Contacts.InviteRequest.ForwardToHost  
+Contacts.InviteRequest.SentRequest  
+Contacts.InviteRequest.ForwardedRequest  
+Contacts.InviteRequest.GrantedRequest  
 Notifications.IsSociable  
 Notifications.IsOnline  
 Notifications.IsOnlineOnDifferentVersion  
@@ -520,6 +537,8 @@ Notifications.ReceivedInvite
 Notifications.ReceivedItem  
 Notifications.VoiceMessage  
 Notifications.SessionStarted  
+Notifications.ReceivedInviteRequestDirect  
+Notifications.ReceivedInviteRequestForwarded  
 Notifications.UserJoined  
 Notifications.UserLeft  
 Notifications.PermissionChanged  
@@ -672,7 +691,6 @@ CreateNew.Back
 CreateNew.EmptyObject  
 CreateNew.ParticleSystem  
 CreateNew.LegacyParticleSystem  
-CreateNew.ExperimentalParticleSystem  
 CreateNew.Object  
 CreateNew.Object.AvatarCreator  
 CreateNew.Object.Camera  
@@ -846,6 +864,11 @@ Importer.Video.Depth.Default
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
+Importer.UnsupportedRecordType.Heading  
+Importer.UnsupportedRecordType.Description  
+Importer.Link.Invalid.Heading  
+Importer.Link.Invalid.Description  
+Inventory.Link.LinkText  
 Exporter.Title  
 Exporter.FileName  
 Exporter.ExportAs  
@@ -1400,6 +1423,8 @@ Settings.NotificationSettings.Message
 Settings.NotificationSettings.Message.Description  
 Settings.NotificationSettings.Invite  
 Settings.NotificationSettings.Invite.Description  
+Settings.NotificationSettings.InviteRequest  
+Settings.NotificationSettings.InviteRequest.Description  
 Settings.NotificationSettings.ContactRequest  
 Settings.NotificationSettings.ContactRequest.Description  
 Settings.NotificationSettings.ContactSessionStarted  
@@ -1440,6 +1465,11 @@ Settings.LaserSettings.StickThreshold
 Settings.LaserSettings.StickThreshold.Description  
 Settings.LaserSettings.ShowInDesktop  
 Settings.LaserSettings.ShowInDesktop.Description  
+Settings.EditSettings  
+Settings.EditSettings.ConfirmComponentDestroy  
+Settings.EditSettings.ConfirmComponentDestroy.Description  
+Settings.EditSettings.ConfirmSlotDestroy  
+Settings.EditSettings.ConfirmSlotDestroy.Description  
 Settings.CursorSettings  
 Settings.CursorSettings.BaseCursorSize  
 Settings.CursorSettings.BaseCursorSize.Description  
@@ -1471,6 +1501,8 @@ Settings.PhotoCaptureSettings.StereoSeparation
 Settings.PhotoCaptureSettings.StereoSeparation.Description  
 Settings.PhotoCaptureSettings.PhotoAutosavePath  
 Settings.PhotoCaptureSettings.PhotoAutosavePath.Description  
+Settings.PhotoCaptureSettings.OpenAutosavePath  
+Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
 Settings.PhotoCaptureSettings.CapturePrivateUI  
 Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
 Settings.PhotoCaptureSettings.EncodeFormat  
@@ -1550,6 +1582,9 @@ Settings.RelaySettings.UseClosestAvailableRelay
 Settings.RelaySettings.UseClosestAvailableRelay.Description  
 Settings.RelaySettings.RelayPriorities  
 Settings.RelaySettings.RelayPriorities.Breadcrumb  
+Settings.VideoStreamingServicesSettings  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  
 Settings.PostProcessingSettings  
 Settings.PostProcessingSettings.MotionBlurIntensity  
 Settings.PostProcessingSettings.MotionBlurIntensity.Description  
@@ -1592,6 +1627,13 @@ Settings.RenderingQualitySettings.ShadowDistance
 Settings.RenderingQualitySettings.ShadowDistance.Description  
 Settings.RenderingQualitySettings.SkinWeightMode  
 Settings.RenderingQualitySettings.SkinWeightMode.Description  
+Settings.ImportSettings  
+Settings.ImportSettings.SessionUrls  
+Settings.ImportSettings.SessionUrls.Description  
+Settings.ImportSettings.WorldUrls  
+Settings.ImportSettings.WorldUrls.Description  
+Settings.ImportSettings.NetworkUrls  
+Settings.ImportSettings.NetworkUrls.Description  
 LocomotionArchetype.Walk  
 LocomotionArchetype.Fly  
 LocomotionArchetype.NoClip  
@@ -1694,6 +1736,8 @@ Inspector.MeshRenderer.SplitByMaterial
 Inspector.MeshCollider.VHACD  
 Inspector.MeshCollider.ReplaceBox  
 Inspector.Texture3D.SpawnVisualizer  
+Inspector.Skybox.SetActiveSkybox  
+Inspector.AmbientLightSH2.SetActiveAmbientLight  
 Inspector.CommonAvatarBuilder.UpdateLocomotionModules  
 Inspector.VHACD.Parameter.MergeDoubles  
 Inspector.VHACD.Parameter.Resolution  
@@ -1845,7 +1889,6 @@ Inspector.Rig.ClearDebugVisuals
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
-Inspector.ParticleSystem.TestingWarning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  

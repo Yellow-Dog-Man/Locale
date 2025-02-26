@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "Grab: Precision",
         "Interaction.Grab.Auto": "Grab: Auto",
         "Interaction.Grab.Off": "Grab: Laser Only",
+        "Interaction.Grabbing" : "Grabbing",
+        "Interaction.Grab.StickyGrab" : "Sticky Grab",
+        "Interaction.Grab.HoldToHold" : "Hold to hold",
         "Interaction.Locomotion": "Locomotion",
         "Interaction.Locomotion.None": "None",
 
@@ -121,22 +124,22 @@
         "Inventory.SaveHeld": "Save Held",
         "Inventory.GetURL": "Get URL",
         "Inventory.Inventories": "Inventories",
-        "Inventory.Share": "Share",
-        "Inventory.Unshare": "Unshare",
+        "Inventory.Share": "Make Public",
+        "Inventory.Unshare": "Make Private",
         "Inventory.SaveAvatar": "Save Avatar",
-        "Inventory.Favorite.Home": "Set Home",
-        "Inventory.Favorite.ProgressBar": "Set Progress Bar",
-        "Inventory.Favorite.AudioStreamController": "Set Stream Controller",
-        "Inventory.Favorite.TextDisplay": "Set Text Display",
-        "Inventory.Favorite.VideoPlayer": "Set Video Player",
-        "Inventory.Favorite.AudioPlayer": "Set Audio Player",
-        "Inventory.Favorite.InteractiveCamera": "Set Camera",
-        "Inventory.Favorite.Keyboard": "Set Keyboard",
-        "Inventory.Favorite.Avatar": "Set Avatar",
-        "Inventory.Favorite.WorldLoadingIndicator": "Set Loading Bar",
-        "Inventory.Favorite.ColorDialog": "Set Color Picker",
-        "Inventory.Favorite.Hyperlink": "Set URL Display",
-        "Inventory.Favorite.Document": "Set Document Display",
+        "Inventory.Favorite.Home": "Favorite Home",
+        "Inventory.Favorite.ProgressBar": "Favorite Progress Bar",
+        "Inventory.Favorite.AudioStreamController": "Favorite Stream Controller",
+        "Inventory.Favorite.TextDisplay": "Favorite Text Display",
+        "Inventory.Favorite.VideoPlayer": "Favorite Video Player",
+        "Inventory.Favorite.AudioPlayer": "Favorite Audio Player",
+        "Inventory.Favorite.InteractiveCamera": "Favorite Camera",
+        "Inventory.Favorite.Keyboard": "Favorite Keyboard",
+        "Inventory.Favorite.Avatar": "Favorite Avatar",
+        "Inventory.Favorite.WorldLoadingIndicator": "Favorite Loading Bar",
+        "Inventory.Favorite.ColorDialog": "Favorite Color Picker",
+        "Inventory.Favorite.Hyperlink": "Favorite URL Display",
+        "Inventory.Favorite.Document": "Favorite Document Display",
         "Inventory.SpawnFacet": "Spawn Facet",
 
         "Dash.Screens.Home": "Home",
@@ -586,6 +589,7 @@
         "Account.Type.Standard": "Standard Account",
         "Account.Type.Business": "Business Account",
         "Account.Type.Patreon": "Patreon Supporter",
+        "Account.Type.Stripe": "Stripe Supporter",
         "Account.Type.Mentor": "{platform} Mentor",
         "Account.Type.Moderator": "{platform} Moderator",
         "Account.Type.Team": "{platform} Team",
@@ -640,6 +644,7 @@
         "Contacts.IgnoreRequest": "Ignore Request",
         "Contacts.Invite": "Invite Here",
         "Contacts.RevokeInvite": "Revoke Invite",
+        "Contacts.RequestInvite": "Request Invite",
         "Contacts.BanFromAllSessions": "Ban from my hosted sessions",
         "Contacts.UnbanFromAllSessions": "Unban from my hosted sessions",
         "Contacts.BanFromCurrentWorld": "Ban from current world",
@@ -669,6 +674,19 @@
         "Contacts.Bot": "Bot account",
         "Contacts.Migrated": "Contact hasn't Migrated",
         "Contacts.IncompatibleSession" : "Incompatible session",
+        "Contacts.AskToJoin" : "<color=hero.yellow>Ask</color> to Join",
+
+        "Contacts.InviteRequest.UserWantsToJoin" : "{username} would like to join you",
+        "Contacts.InviteRequest.UserWantsToInviteAnother" : "\"{requestingUser}\" wants to invite \"{userToInvite}\" to \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantInvite" : "Grant Invite (one time)",
+        "Contacts.InviteRequest.AddAsContact" : "Add \"{username}\" as contact",
+        "Contacts.InviteRequest.AddAsContactOfHeadless" : "Add \"{username}\" as contact of the headless",
+        "Contacts.InviteRequest.AddHostAsContact" : "Add \"{username}\" (host) as contact",
+        "Contacts.InviteRequest.HostIsUnregistered" : "Host is unregistered user",
+        "Contacts.InviteRequest.ForwardToHost" : "Forward to host: {username}",
+        "Contacts.InviteRequest.SentRequest" : "Requested invite",
+        "Contacts.InviteRequest.ForwardedRequest" : "Forwarded invite request from \"{username}\" to session \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantedRequest" : "Granted \"{username}\" invite to session \"{sessionName}\"",
 
         "Notifications.IsSociable": "Is sociable, poke or invite them!",
         "Notifications.IsOnline": "Is now Online",
@@ -678,6 +696,8 @@
         "Notifications.ReceivedItem": "Sent you an item:",
         "Notifications.VoiceMessage": "Sent a voice message",
         "Notifications.SessionStarted": "Started session:",
+        "Notifications.ReceivedInviteRequestDirect": "Wants to be invited",
+        "Notifications.ReceivedInviteRequestForwarded": "Wants to invite:",
         "Notifications.UserJoined": "User joined",
         "Notifications.UserLeft": "User left",
         "Notifications.PermissionChanged": "Role changed to {new}",
@@ -865,8 +885,6 @@
         "CreateNew.EmptyObject": "Empty Object",
         "CreateNew.ParticleSystem": "Particle System",
         "CreateNew.LegacyParticleSystem": "Legacy Particle System",
-
-        
 
         "CreateNew.Object": "Object",
         "CreateNew.Object.AvatarCreator": "Avatar Creator",
@@ -1087,6 +1105,12 @@
         "Importer.Slices.Title": "Image slices as volumetric texture",
         "Importer.Slices.TitleGrayscale": "Image slices as volumetric texture (grayscale)",
         "Importer.Slices.Description": "Processes all image files in the folder into a volumetric texture",
+
+        "Importer.UnsupportedRecordType.Heading":"Unsupported Record Type", 
+        "Importer.UnsupportedRecordType.Description":"The record you are trying to import({url}) has an unsupported type. It's type is: {recordType}. Please report this to us at {bugUrl}.",
+        "Importer.Link.Invalid.Heading":"Invalid Folder Link",
+        "Importer.Link.Invalid.Description":"The folder link({url}), you are trying to import is invalid. Double check your link and try again.",
+        "Inventory.Link.LinkText": "Inventory link to {name}",
 
         "Exporter.Title": "Export",
         "Exporter.FileName": "File name:",
@@ -1737,6 +1761,8 @@
         "Settings.NotificationSettings.Message.Description": "This controls notifications you will get when you receive messages.",
         "Settings.NotificationSettings.Invite": "Session Invites",
         "Settings.NotificationSettings.Invite.Description": "This controls if you get notifications when you are invited to a session.",
+        "Settings.NotificationSettings.InviteRequest": "Invite Requests",
+        "Settings.NotificationSettings.InviteRequest.Description": "This controls if you get notifications when you receive an invite request that you can respond to.",
         "Settings.NotificationSettings.ContactRequest": "Contact Requests",
         "Settings.NotificationSettings.ContactRequest.Description": "This controls what notifications you get when you receive a contact request from someone",
         "Settings.NotificationSettings.ContactSessionStarted": "New Contact Sessions",
@@ -1782,6 +1808,12 @@
         "Settings.LaserSettings.ShowInDesktop": "Show lasers in desktop mode",
         "Settings.LaserSettings.ShowInDesktop.Description": "When on, the laser visual will be rendered to you fully when in first person view in desktop mode.",
 
+        "Settings.EditSettings": "Edit Settings",
+        "Settings.EditSettings.ConfirmComponentDestroy": "Confirm destroying components",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "When enabled, you'll be asked for confirmation before destroying a component in the inspector. This helps prevent destroying them accidentally with misclick.",
+        "Settings.EditSettings.ConfirmSlotDestroy": "Confirm destroying slots",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "When enabled, you'll be asked for confirmation when destroying Slots with the Developer Tool. This can prevent accidentally destroying objects when misclick.",
+
         "Settings.CursorSettings": "Cursor Settings",
         
         "Settings.CursorSettings.BaseCursorSize": "Base cursor size",
@@ -1821,6 +1853,8 @@
         "Settings.PhotoCaptureSettings.StereoSeparation.Description": "Use this to control the separation between the stereo cameras when the stereo mode is on. This controls how distant the cameras are from each other, which affects the strength of the stereo effect for more distant objects.\n\nWhen capturing close up objects, lower values will work better, when capturing large scenes, larger values will work better.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Photo inventory autosave path",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "When set, any photos you capture (or save with context menu) will be automatically saved to your in-game inventory. For example <color=hero.yellow>Photos/%year%/%month_name%</color>\n\nFollowing variables are available:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "Open autosave path for current world",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "If you have photo autosave configured, clicking this will open Inventory at the location where photos are saved for the world you're currently in at the current time.\n\nMake sure that you've taken some photos in this world already, otherwise this action will fail, because the folder fill not exist yet!",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Capture Private UI",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "When enabled, the quick photo capture will render your private UI such as the dash. This can be useful in case you want to show information there.\n\nWe recommend turning this setting off once you're done, as leaving it on can lead to accidentally capturing and leaking your private information.",
         "Settings.PhotoCaptureSettings.EncodeFormat": "Encode Format",
@@ -1914,6 +1948,10 @@
         "Settings.RelaySettings.RelayPriorities": "Configure relay server priorities",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Relay Priorities",
 
+        "Settings.VideoStreamingServicesSettings": "Video Streaming Services Settings",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Use Cookies From Browser",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "If YouTube and other service videos are not loading for you, select the browser you typically use to load cookies from when fetching those videos. This increases the chances of video loading successfully.",
+
         "Settings.PostProcessingSettings": "Post Processing",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Motion Blur Intensity",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "This controls the strength of the motion blur effect, which smears image with motion. Higher values will result in more blurring with same amount of motion.\n\nIf you set the effect to <nobr><color=hero.yellow>0 %</color></nobr> the filter will be disabled completely, which can improve performance.",
@@ -1963,6 +2001,14 @@
         "Settings.RenderingQualitySettings.ShadowDistance.Description": "This controls the distance that shadows cover. Increasing this value will make sure more distant parts of the scene are properly covered in shadows, but this also spreads out the detail of the shadow over larger area.\n\nYou should change this setting together with the shadow cascades and resolution - with higher shadow resolution, you can afford higher shadow distance. If you lower the shadow resolution and cascades, you'll want to lower the shadow distance so shadows have better definition.",
         "Settings.RenderingQualitySettings.SkinWeightMode": "Skin Weights",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "For any skinned meshes (3D models that are deformed by bones, like most avatars), this controls how many bones are used to affect position of each vertex.\n\nLowering this value will save some performance, but the deformation quality will be lower, resulting in sharp creases and other artifacts, typically around joints.",
+
+        "Settings.ImportSettings": "Import Settings",
+        "Settings.ImportSettings.SessionUrls": "On Session URL Import",
+        "Settings.ImportSettings.SessionUrls.Description": "When a Session URL is imported, what should happen. The available options are:\n\n<color=hero.yellow>Open</color> - Open the Session.\n<color=hero.yellow>SpawnEntityInterface</color> - Spawns a representation(such as a session orb) of the URL in your current location.\n<color=hero.yellow>SpawnUrl</color> - Spawns the URL in your current location as a URL Interface.",
+        "Settings.ImportSettings.WorldUrls": "On World URL Import",
+        "Settings.ImportSettings.WorldUrls.Description": "When a World URL is imported, what should happen. The available options are:\n\n<color=hero.yellow>Open</color> - Open the World.\n<color=hero.yellow>SpawnEntityInterface</color> - Spawns a representation(such as a world orb) of the world in your current location.\n<color=hero.yellow>SpawnUrl</color> - Spawns the URL in your current location as a URL Interface.",
+        "Settings.ImportSettings.NetworkUrls": "On Network URL Import",
+        "Settings.ImportSettings.NetworkUrls.Description": "When a Network URL is imported, what should happen. The available options are:\n\n<color=hero.yellow>Open</color> - Open a connection to the session at the URL.\n<color=hero.yellow>SpawnEntityInterface</color> - Spawns a representation(such as a session orb) of the url in your current location.\n<color=hero.yellow>SpawnUrl</color> - Spawns the URL in your current location as a URL Interface.",
 
         "LocomotionArchetype.Walk": "Walk",
         "LocomotionArchetype.Fly": "Fly",
@@ -2087,6 +2133,9 @@
         "Inspector.MeshCollider.ReplaceBox": "Replace With Box Collider",
 
         "Inspector.Texture3D.SpawnVisualizer" : "Spawn Visualizer",
+
+        "Inspector.Skybox.SetActiveSkybox": "Set as active skybox",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Set as active ambient light",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Update locomotion modules on present users",
 
@@ -2260,8 +2309,7 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component as a simple rigidbody by checking SimulateRotation. Before you do, please understand that it is not optimized for this purpose and proper Rigidbody Support is coming in the future.<br>Proper rigidbody support will offer:<br><b>- CPU and network efficiency</b> - with CharacterController you'll be getting higher CPU usage and significant amount of network traffic<br><b>- Constraints</b> - you'll be able to create joints, hinges, springs and other constraints between rigidbodies<br><b>- Smooth simulation and interactions for everyone</b> - CharacterController will glitch out if another person tries to interact<br><b>- New Features and Tools</b> - to make using them much easier<br>-----------------------<br>As long as you understand those limitations, have fun!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component to interact with references by using their IDs. This process is commonly called 'Ref Hacking'.<br><br><b>Before</b> you do this, please understand that this is <b>not</b> supported and may break at any time. Do not rely on this functionality for your creations.",
 
-        
-        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tSimulation Time: {time}\tSubmit Time: {renderSubmitTime}\tRender allocations: {allocationCount}",
+        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}, FPS: {fps}, Simulation Time: {time}, Submit Time: {renderSubmitTime}, Render allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Common Transition Templates:",

@@ -2,10 +2,29 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Finnish [fi]
+Interaction.Grabbing  
+Interaction.Grab.StickyGrab  
+Interaction.Grab.HoldToHold  
 World.Connection.LNL.LNLPoke  
 World.Error.UnhandledError  
 World.Actions.GuestWarning  
+Account.Type.Stripe  
+Contacts.RequestInvite  
 Contacts.Unblocked  
+Contacts.AskToJoin  
+Contacts.InviteRequest.UserWantsToJoin  
+Contacts.InviteRequest.UserWantsToInviteAnother  
+Contacts.InviteRequest.GrantInvite  
+Contacts.InviteRequest.AddAsContact  
+Contacts.InviteRequest.AddAsContactOfHeadless  
+Contacts.InviteRequest.AddHostAsContact  
+Contacts.InviteRequest.HostIsUnregistered  
+Contacts.InviteRequest.ForwardToHost  
+Contacts.InviteRequest.SentRequest  
+Contacts.InviteRequest.ForwardedRequest  
+Contacts.InviteRequest.GrantedRequest  
+Notifications.ReceivedInviteRequestDirect  
+Notifications.ReceivedInviteRequestForwarded  
 Tools.ProtoFlux.Drive  
 Tools.ProtoFlux.Source  
 Tools.ProtoFlux.Reference  
@@ -24,10 +43,14 @@ ProtoFlux.UI.Call
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
 CreateNew.LegacyParticleSystem  
-CreateNew.ExperimentalParticleSystem  
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  
+Importer.UnsupportedRecordType.Heading  
+Importer.UnsupportedRecordType.Description  
+Importer.Link.Invalid.Heading  
+Importer.Link.Invalid.Description  
+Inventory.Link.LinkText  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.KeyboardLookSettings  
@@ -94,6 +117,8 @@ Settings.NotificationSettings.UserSociable.Description
 Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description  
 Settings.NotificationSettings.Message.Description  
 Settings.NotificationSettings.Invite.Description  
+Settings.NotificationSettings.InviteRequest  
+Settings.NotificationSettings.InviteRequest.Description  
 Settings.NotificationSettings.ContactRequest.Description  
 Settings.NotificationSettings.ContactSessionStarted.Description  
 Settings.NotificationSettings.PublicSessionStarted.Description  
@@ -113,6 +138,11 @@ Settings.LaserSettings.ModulateExponent.Description
 Settings.LaserSettings.ModulateSpeedMultiplier.Description  
 Settings.LaserSettings.StickThreshold.Description  
 Settings.LaserSettings.ShowInDesktop.Description  
+Settings.EditSettings  
+Settings.EditSettings.ConfirmComponentDestroy  
+Settings.EditSettings.ConfirmComponentDestroy.Description  
+Settings.EditSettings.ConfirmSlotDestroy  
+Settings.EditSettings.ConfirmSlotDestroy.Description  
 Settings.CursorSettings  
 Settings.CursorSettings.BaseCursorSize  
 Settings.CursorSettings.BaseCursorSize.Description  
@@ -133,6 +163,8 @@ Settings.PhotoCaptureSettings.TimerSeconds.Description
 Settings.PhotoCaptureSettings.CaptureStereo.Description  
 Settings.PhotoCaptureSettings.StereoSeparation.Description  
 Settings.PhotoCaptureSettings.PhotoAutosavePath.Description  
+Settings.PhotoCaptureSettings.OpenAutosavePath  
+Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
 Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
 Settings.PhotoCaptureSettings.EncodeFormat.Description  
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
@@ -174,6 +206,9 @@ Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description  
 Settings.RelaySettings.AlwaysUseRelay.Description  
 Settings.RelaySettings.UseClosestAvailableRelay.Description  
+Settings.VideoStreamingServicesSettings  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
+Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  
 Settings.PostProcessingSettings.MotionBlurIntensity.Description  
 Settings.PostProcessingSettings.BloomIntensity  
 Settings.PostProcessingSettings.BloomIntensity.Description  
@@ -198,6 +233,13 @@ Settings.RenderingQualitySettings.ShadowResolution.Description
 Settings.RenderingQualitySettings.ShadowDistance.Description  
 Settings.RenderingQualitySettings.SkinWeightMode  
 Settings.RenderingQualitySettings.SkinWeightMode.Description  
+Settings.ImportSettings  
+Settings.ImportSettings.SessionUrls  
+Settings.ImportSettings.SessionUrls.Description  
+Settings.ImportSettings.WorldUrls  
+Settings.ImportSettings.WorldUrls.Description  
+Settings.ImportSettings.NetworkUrls  
+Settings.ImportSettings.NetworkUrls.Description  
 Inspector.Title  
 Inspector.Slot.ParentUnder.Label  
 Inspector.Slot.ParentUnder.WorldRoot  
@@ -210,6 +252,8 @@ Inspector.Mesh.ReverseWinding
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  
 Inspector.Mesh.UV_Multiplicator  
+Inspector.Skybox.SetActiveSkybox  
+Inspector.AmbientLightSH2.SetActiveAmbientLight  
 Inspector.VHACD.Parameter.PlaneDownsampling  
 Inspector.VHACD.Parameter.ConvexHullDownsampling  
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
@@ -238,7 +282,6 @@ Inspector.DataPreset.SetValues
 Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
-Inspector.ParticleSystem.TestingWarning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.Collider.SetFromLocalBounds  

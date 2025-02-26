@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "잡기: 정밀",
         "Interaction.Grab.Auto": "잡기: 자동",
         "Interaction.Grab.Off": "잡기: 지시선만 허용",
+        "Interaction.Grabbing" : "잡는 방법",
+        "Interaction.Grab.StickyGrab" : "행위 시 토글",
+        "Interaction.Grab.HoldToHold" : "행위 중 유지",
         "Interaction.Locomotion": "이동기능",
         "Interaction.Locomotion.None": "없음",
 
@@ -586,6 +589,7 @@
         "Account.Type.Standard" : "일반 계정",
         "Account.Type.Business" : "비즈니스 계정",
         "Account.Type.Patreon" : "페트리온 후원자",
+        "Account.Type.Stripe" : "스트라이프 후원자",
         "Account.Type.Mentor" : "{platform} 멘토",
         "Account.Type.Moderator" : "{platform} 중재자",
         "Account.Type.Team" : "{platform} 팀",
@@ -640,6 +644,7 @@
         "Contacts.IgnoreRequest": "친구요청 무시",
         "Contacts.Invite": "초대",
         "Contacts.RevokeInvite": "초대 취소",
+        "Contacts.RequestInvite": "참여 요청",
         "Contacts.BanFromAllSessions": "내가 시작한 세션에서 차단",
         "Contacts.UnbanFromAllSessions": "내가 시작한 세션의 차단해제",
         "Contacts.BanFromCurrentWorld": "현재 세션에서 차단",
@@ -669,6 +674,19 @@
         "Contacts.Bot": "봇 계정",
         "Contacts.Migrated": "연락처를 이전하지 않았습니다.",
         "Contacts.IncompatibleSession" : "비호환 세션에 있음",
+        "Contacts.AskToJoin" : "참여<color=hero.yellow>요청</color> 보내기",
+
+        "Contacts.InviteRequest.UserWantsToJoin" : "{username}이(가) 참여하길 원하고 있습니다.",
+        "Contacts.InviteRequest.UserWantsToInviteAnother" : "\"{requestingUser}\"이(가)  \"{userToInvite}\"을(를) \"{sessionName}\" 세션에 초대하길 원합니다.",
+        "Contacts.InviteRequest.GrantInvite" : "초대 허가(단발성)",
+        "Contacts.InviteRequest.AddAsContact" : "연락처에 \"{username}\"을(를) 추가",
+        "Contacts.InviteRequest.AddAsContactOfHeadless" : "헤드리스 연락처에 \"{username}\"을(를) 추가",
+        "Contacts.InviteRequest.AddHostAsContact" : "호스트 \"{username}\"을(를) 연락처에 추가",
+        "Contacts.InviteRequest.HostIsUnregistered" : "연락처에 없는 호스트 입니다.",
+        "Contacts.InviteRequest.ForwardToHost" : "호스트에게 전달: {username}",
+        "Contacts.InviteRequest.SentRequest" : "초대 요청",
+        "Contacts.InviteRequest.ForwardedRequest" : "\"{username}\"이(가) \"{sessionName}\" 세션으로의 초대 요청을 전달하였습니다.",
+        "Contacts.InviteRequest.GrantedRequest" : "\"{sessionName}\" 세션에 \"{username}\"의 초대가 허용되었습니다.",
 
         "Notifications.IsSociable" : "대화 가능 상태가 되었습니다! 상대방과 대화 또는 초대해 보세요!",
         "Notifications.IsOnline": "온라인 상태가 되었습니다.",
@@ -678,6 +696,8 @@
         "Notifications.ReceivedItem": "아이템을 수신받음:",
         "Notifications.VoiceMessage": "음성 메시지를 보냈습니다.",
         "Notifications.SessionStarted": "세션이 시작되었습니다.",
+        "Notifications.ReceivedInviteRequestDirect": "참여 요청",
+        "Notifications.ReceivedInviteRequestForwarded": "초대 요청:",
         "Notifications.UserJoined": "사용자가 참여 하였습니다.",
         "Notifications.UserLeft": "사용자가 퇴장 하였습니다.",
         "Notifications.PermissionChanged": "역할을 {new}(으)로 변경했습니다.",
@@ -865,8 +885,6 @@
         "CreateNew.EmptyObject": "빈 오브젝트",
         "CreateNew.ParticleSystem": "파티클 시스템",
         "CreateNew.LegacyParticleSystem": "기존 파티클 시스템",
-
-        "CreateNew.ExperimentalParticleSystem": "포톤 더스트 시스템 <color=red>(경고: 실험적인 기능 입니다!)</color>",
         
         "CreateNew.Object": "오브젝트",
         "CreateNew.Object.AvatarCreator": "아바타 생성기",
@@ -1065,6 +1083,12 @@
         "Importer.Slices.TitleGrayscale": "볼륨메트릭 텍스처로 자르기(회색조)",
         "Importer.Slices.Description": "폴더의 모든 이미지 파일을 볼륨메트릭 텍스처로 처리합니다.",
 
+        "Importer.UnsupportedRecordType.Heading":"지원되지 않는 레코드 형식입니다.", 
+        "Importer.UnsupportedRecordType.Description":"가져오려는 레코드({url})에 지원되지 않는 형식({recordType})이 있습니다. {bugUrl}에 보고해 주세요.",
+        "Importer.Link.Invalid.Heading":"폴더 주소가 형식에 어긋납니다.",
+        "Importer.Link.Invalid.Description":"폴더 주소({url})가 유효하지 않습니다. 확인 후 재시도해 보세요.",
+        "Inventory.Link.LinkText": "{name}에 연결된 공유폴더 입니다.",
+        
         "Exporter.Title": "내보내기",
         "Exporter.FileName": "파일명:",
         "Exporter.ExportAs": "내보낼 유형:",
@@ -1431,10 +1455,10 @@
         "Settings.SteamIntegrationSettings": "스팀 연동",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "디스코드",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "레소나이트에서 디스코드에 전달하는 상태 메시지를 제어합니다.\n\n<color=hero.yellow>None</color> : 상태정보 전달안함\n<color=hero.yellow>Basic</color> : 기본정보만 전달\n<color=hero.yellow>Full</color> - 세션 정보(월드명 및 사용자 수)를 포함하여 전달\n\n디스코드도 자체적으로 실행중인 게임정보를 표시합니다. 이것은 디스코드 클라이언트 자체 설정을 통하여 비활성화할 수 있습니다.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "레소나이트에서 디스코드에 전달하는 상태 메시지를 제어합니다.\n\n<color=hero.yellow>None</color> : 상태정보 전달안함\n<color=hero.yellow>Basic</color> : 기본정보만 전달\n<color=hero.yellow>Full</color> : 세션정보(월드명 및 사용자 수)를 포함하여 전달\n\n디스코드도 자체적으로 실행중인 게임정보를 표시합니다. 이것은 디스코드 클라이언트 자체 설정을 통하여 비활성화할 수 있습니다.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "스팀",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "레소나이트에서 스팀으로 전달하는 상태 메시지를 제어합니다.\n\n<color=hero.yellow>None</color> : 상태정보 전달안함\n<color=hero.yellow>Basic</color> : 기본정보만 전달\n<color=hero.yellow>Full</color> - 세션 정보(월드명 및 사용자 수)를 포함하여 전달\n\n스팀의 경우 이 설정과 상관없이 레소나이트를 플레이하고 있다고 표시됩니다. 다만, 이 설정은 활성 세션 정보가 추가되느냐 마느냐에 대해서만 영향을 미칩니다.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "레소나이트에서 스팀으로 전달하는 상태 메시지를 제어합니다.\n\n<color=hero.yellow>None</color> : 상태정보 전달안함\n<color=hero.yellow>Basic</color> : 기본정보만 전달\n<color=hero.yellow>Full</color> : 세션정보(월드명 및 사용자 수)를 포함하여 전달\n\n스팀의 경우 이 설정과 상관없이 레소나이트를 플레이하고 있다고 표시됩니다. 다만, 이 설정은 활성 세션 정보가 추가되느냐 마느냐에 대해서만 영향을 미칩니다.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "스크린샷 저장",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "활성화 시, 게임내에서 촬영한 사진이 스팀 스크린샷에도 저장됩니다.",
@@ -1714,6 +1738,8 @@
         "Settings.NotificationSettings.Message.Description" : "활성화 시, 연락처에서 메시지를 받을때 알림을 받습니다.",
         "Settings.NotificationSettings.Invite" : "세션에 초대 되었을 때",
         "Settings.NotificationSettings.Invite.Description" : "활성화 시, 세션에 초대될때 알림을 받습니다.",
+        "Settings.NotificationSettings.InviteRequest": "참여 요청",
+        "Settings.NotificationSettings.InviteRequest.Description": "응답 할 수 있는 참여 요청을 받았을 때 알림을 받을지 설정합니다.",
         "Settings.NotificationSettings.ContactRequest" : "친구 요청을 받을 때",
         "Settings.NotificationSettings.ContactRequest.Description" : "활성화 시, 누군가에게 친구 요청을 받을때 알림을 받습니다.",
         "Settings.NotificationSettings.ContactSessionStarted" : "친구가 세션을 시작할 때",
@@ -1759,6 +1785,12 @@
         "Settings.LaserSettings.ShowInDesktop": "데스크탑 모드에서 지시선 보이기",
         "Settings.LaserSettings.ShowInDesktop.Description": "활성화한 경우, 데스크탑 1인칭 모드에서 지시선이 표현됩니다.",
 
+        "Settings.EditSettings": "편집 설정",
+        "Settings.EditSettings.ConfirmComponentDestroy": "구성요소 삭제시 승인받기",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "활성화 시, 인스펙터를 통해 구성요소를 삭제할때 추가로 사용자의 확인을 요구합니다. 이를 통해 실수에 의한 삭제를 어느정도 예방할 수 있습니다.",
+        "Settings.EditSettings.ConfirmSlotDestroy": "슬롯 삭제시 승인받기",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "활성화 시, 개발 툴팁(Developer tool)을 통해 슬롯을 삭제할때 추가로 사용자의 확인을 요구합니다. 이를 통해 실수로 대상을 삭제하는 사고를 어느정도 예방할 수 있습니다.",
+        
         "Settings.CursorSettings": "커서 설정",
         
         "Settings.CursorSettings.BaseCursorSize": "기본 커서 크기",
@@ -1798,6 +1830,8 @@
         "Settings.PhotoCaptureSettings.StereoSeparation.Description" : "<color=hero.yellow>스테레오 촬영</color>이 활성화된 상태일때 적용되며, 스테레오 촬영의 특성인 양안거리를 얼마나 넓힐지 결정합니다. 이를 이용하여 스테레오 강도를 조절할 수 있습니다.\n\n가까이 있는 대상을 촬영할때는 값을 낮추고, 멀리있늘 풍경을 촬영할때는 값을 높이면 더 좋은 결과를 얻을 수 있습니다.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "사진 저장 경로",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "설정시 촬영한 모든 사진이 자동으로 <color=hero.yellow>대시메뉴/보관함</color>에 저장됩니다. 사용 가능한 변수를 이용하면 특정한 경로로 자동 분리 저장할 수 있습니다. (예제. <color=hero.yellow>Photos/%year%/%month_name%</color>)\n\n변수 목록은 다음과 같습니다.\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "현재 월드에서 저장된 저장소 경로 열기",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "사진 자동 저장을 구성하였다면, 이 버튼 클릭 시 현재 월드에서 촬영한 사진이 저장된 보관함이 열립니다.\n\n현재 월드에서 촬영한 사진이 없는 경우 수행되지 않습니다.",
         "Settings.PhotoCaptureSettings.CapturePrivateUI" : "개인 로컬 UI도 같이 촬영",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "활성화 시, 즉석 촬영을 할때 대시 메뉴와 같은 개인화된 UI도 같이 촬영합니다. 다른 사용자와의 정보 교환이나 특정 정보를 기록하기 위해 유용할 수 있으나, 이 설정을 항상 유지하면 개인 정보를 유출할 위험이 있으므로 필요할때만 켰다가 끄는 방식으로 사용하는것을 추천합니다.",
         "Settings.PhotoCaptureSettings.EncodeFormat" : "압축 형식",
@@ -1891,6 +1925,9 @@
         "Settings.RelaySettings.RelayPriorities": "중계 서버 우선순위 설정",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "중계 서버 우선순위",
 
+        "Settings.VideoStreamingServicesSettings": "영상 송출 서비스 설정",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "쿠키를 가져올 웹브라우저",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "유튜브 및 기타 영상 스트리밍 컨텐츠를 성공적으로 불러오기 위한 쿠키를 가져올 웹브라우저를 선택합니다.",
         "Settings.PostProcessingSettings" : "후처리",
         "Settings.PostProcessingSettings.MotionBlurIntensity" : "모션 블러 강도",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description" : "이는 개체의 움직임으로 인해 이미지가 번지는 효과의 강도를 제어합니다. 값이 높을수록 더 많이 흐릿해집니다. \n\n값을 <nobr><color=hero.yellow>0%</color></nobr>로 설정하면 필터가 완전히 비활성화되어 프레임을 향상시킬 수 있습니다.",
@@ -1937,6 +1974,14 @@
         "Settings.RenderingQualitySettings.SkinWeightMode" : "스킨 웨이트(Skin Weights)",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "매시에 뼈(Bone) 가중치가 할당된 모든 <color=hero.yellow>스킨드 매시</color>에 대해 각 정점의 위치에 영항을 미치는 뼈(Bone)의 수를 제어합니다.\n\n값을 낮추면 클라이언트의 성능은 좋아지지만, 뼈의 움직임에 의해 변화되는 품질은 낮아집니다. 일반적으로 관절부에 날카로운 주름과 무언가가 나타납니다.",
 
+        "Settings.ImportSettings": "가져오기 설정",
+        "Settings.ImportSettings.SessionUrls": "세션 URL 가져오기 수행시",
+        "Settings.ImportSettings.SessionUrls.Description": "세션 URL을 가져오기 하는 경우 수행할 동작을 설정합니다.\n\n<color=hero.yellow>Open</color> : 세션 열기\n<color=hero.yellow>SpawnEntityInterface</color> : 세션 오브 생성\n<color=hero.yellow>SpawnUrl</color> : 세션 주소를 링크로 표시",
+        "Settings.ImportSettings.WorldUrls": "월드 URL 가져오기 수행시",
+        "Settings.ImportSettings.WorldUrls.Description": "월드 URL을 가져오기 하는 경우 수행할 동작을 설정합니다.\n\n<color=hero.yellow>Open</color> : 월드 열기\n<color=hero.yellow>SpawnEntityInterface</color> : 월드 오브 생성\n<color=hero.yellow>SpawnUrl</color> : 월드 주소를 링크로 표시",
+        "Settings.ImportSettings.NetworkUrls": "네트워크 URL 가져오기 수행시",
+        "Settings.ImportSettings.NetworkUrls.Description": "네트워크 URL을 가져오기 하는 경우 수행할 동작을 설정합니다.\n\n<color=hero.yellow>Open</color> : URL을 통해 세션 열기\n<color=hero.yellow>SpawnEntityInterface</color> : 세션 오브 같은 아이템 생성\n<color=hero.yellow>SpawnUrl</color> : URL을 링크로 표시",
+        
         "LocomotionArchetype.Walk": "걷기/뛰기",
         "LocomotionArchetype.Fly": "자유비행",
         "LocomotionArchetype.NoClip": "노클립(No-clip)",
@@ -2060,6 +2105,9 @@
         "Inspector.MeshCollider.ReplaceBox": "BoxCollider로 교체",
 
         "Inspector.Texture3D.SpawnVisualizer" : "생성 시각화",
+        
+        "Inspector.Skybox.SetActiveSkybox": "활성 스카이박스로 설정",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "활성 주변광으로 설정",
         
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "현재 사용자들의 이동기능에 적용하기",
 
@@ -2233,7 +2281,7 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>경고!</size></color><br>SimulateRotation을 선택하여, 이 구성요소를 단순한 형태의 리지드바디로 이용하실 수 있습니다. 이 기능은 향후 적절한 버전으로 지원될 예정이며, 현재는 목적에 부합하는 용도로 사용하기에 최적화된 상태는 아님을 이해해 주시기 바랍니다.<br>적절한 리지드바디는 아래와 같은 장단점을 제공합니다.<br><b>- CPU 및 네트워크 효율성</b> - CharacterController를 사용하는 경우, 더 많은 CPU 사용량과 상당한 양의 네트워크 트래픽이 발생됩니다.<br><b>- 제약 조건</b> - 리지드바디 간 조인트, 힌지, 스프링 및 기타 제약 조건을 생성할 수 있습니다.<br><b>- 여러 사용자에 대한 매끄러운 시뮬레이션 및 상호 작용</b> - 다른 사람이 상호 작용을 시도하면 CharacterController에서 오류를 발생시킵니다.<br><b>- 새로운 기능 및 도구</b> - 훨씬 더 간단한 사용환경을 제공합니다.<br>-----------------------<br>GitHub 이슈 #22에서 더 많은 정보를 확인하실 수 있습니다. 이러한 제약사항을 이해하신 후 즐겨주세요!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>경고!</size></color><br>이 구성요소를 사용하면 해당 ID를 사용하여 참조와 상호작용할 수 있습니다. 이것을 일반적으로 'Ref Hacking'이라고 합니다.<br><br><b>사용하기 앞서</b> 이 기능은 언제든지 중단되거나 지원이 끊길 수 있음을 염두해 두시기 바랍니다.",
 
-        "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>경고!</size></color><br>이것은 이제 테스트가 시작된 새로운 파티클 시스템으로 \"포톤 더스트\"라고 합니다. 자유롭게 사용 가능하지만, 프로젝트에 사용하기에는 심각한 문제가 발생할 수 있으므로 사용하지 않는것을 추천합니다.<br><br>프로젝트에 사용하는 것은 이 경고 메세지가 사라진 후로 미뤄 주세요.",
+        
         "Inspector.ParticleSystem.BasicInfo" : "입자: {count}\t모의 시간: {time}\t렌더 할당량: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "꼬리: {trailCount} (용량: {trailCapacity}), 지점 용량: {trailPointCapacity}, 할당량: {allocationCount}",
         "Inspector.ParticleStyle.CommonTransitions": "통상적인 변화유형:",

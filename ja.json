@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "グラブ: 精密(摘み)",
         "Interaction.Grab.Auto": "グラブ: 自動切替",
         "Interaction.Grab.Off": "グラブ: レーザーのみ",
+        "Interaction.Grabbing" : "グラビング",
+        "Interaction.Grab.StickyGrab" : "トグル",
+        "Interaction.Grab.HoldToHold" : "ホールド",
         "Interaction.Locomotion": "移動方法",
         "Interaction.Locomotion.None": "なし",
 
@@ -586,6 +589,7 @@
         "Account.Type.Standard" : "スタンダードアカウント",
         "Account.Type.Business" : "ビジネスアカウント",
         "Account.Type.Patreon" : "Patreon サポーター",
+        "Account.Type.Stripe": "Stripe サポーター",
         "Account.Type.Mentor" : "{platform} メンター",
         "Account.Type.Moderator" : "{platform} モデレーター",
         "Account.Type.Team" : "{platform} チーム",
@@ -640,6 +644,7 @@
         "Contacts.IgnoreRequest": "リクエスト無視",
         "Contacts.Invite": "招待",
         "Contacts.RevokeInvite": "招待取消",
+        "Contacts.RequestInvite": "招待をリクエスト",
         "Contacts.BanFromAllSessions": "自分がホストの​セッションからBAN",
         "Contacts.UnbanFromAllSessions": "自分がホストの​セッションからBAN解除",
         "Contacts.BanFromCurrentWorld": "現在のワールド​からBAN",
@@ -669,6 +674,19 @@
         "Contacts.Bot": "ボットアカウント",
         "Contacts.Migrated": "移行していないフレンド",
         "Contacts.IncompatibleSession" : "互換性のないセッション",
+        "Contacts.AskToJoin" : "<color=hero.yellow>参加をリクエスト</color>",
+
+        "Contacts.InviteRequest.UserWantsToJoin" : "{username}さんがセッション参加を希望しています",
+        "Contacts.InviteRequest.UserWantsToInviteAnother" : "\"{requestingUser}\"さんが\"{userToInvite}\"に\"{sessionName}\"への招待を希望しています",
+        "Contacts.InviteRequest.GrantInvite" : "招待する(1回)",
+        "Contacts.InviteRequest.AddAsContact" : "\"{username}\"をフレンドに追加",
+        "Contacts.InviteRequest.AddAsContactOfHeadless" : "\"{username}\"をヘッドレスのフレンドに追加",
+        "Contacts.InviteRequest.AddHostAsContact" : "\"{username}\"(host)をフレンドに追加",
+        "Contacts.InviteRequest.HostIsUnregistered" : "ホストは未登録ユーザーです",
+        "Contacts.InviteRequest.ForwardToHost" : "ホストに転送: {username}",
+        "Contacts.InviteRequest.SentRequest" : "招待をリクエスト済み",
+        "Contacts.InviteRequest.ForwardedRequest" : "\"{username}\"から、\"{sessionName}\"への招待リクエストの転送",
+        "Contacts.InviteRequest.GrantedRequest" : "\"{username}\"に\"{sessionName}\"への招待を許可",
 
         "Notifications.IsSociable" : "さんはひまです。気軽に交流しましょう!",
         "Notifications.IsOnline": "さんがオンラインになりました",
@@ -678,6 +696,8 @@
         "Notifications.ReceivedItem": "アイテムが届きました:",
         "Notifications.VoiceMessage": "ボイスメッセージが送られてきました",
         "Notifications.SessionStarted": "セッションが開始しました:",
+        "Notifications.ReceivedInviteRequestDirect": "招待リクエストを受信しました",
+        "Notifications.ReceivedInviteRequestForwarded": "招待リクエストが転送されました:",
         "Notifications.UserJoined": "ユーザーが参加しました",
         "Notifications.UserLeft": "ユーザーが退出しました",
         "Notifications.PermissionChanged": "権限が{new}へ変更されました",
@@ -865,8 +885,6 @@
         "CreateNew.EmptyObject": "空オブジェクト",
         "CreateNew.ParticleSystem": "パーティクル​システム",
         "CreateNew.LegacyParticleSystem": "レガシーパーティクルシステム",
-
-        "CreateNew.ExperimentalParticleSystem": "PhotonDust System <color=red>(警告:試験用!)</color>",
 
         "CreateNew.Object": "オブジェクト",
         "CreateNew.Object.AvatarCreator": "アバター​クリエイター",
@@ -1064,6 +1082,12 @@
         "Importer.Slices.Title": "スライス画像を<br>3Dテクスチャと<br>してインポート",
         "Importer.Slices.TitleGrayscale": "スライス画像を<br>3Dテクスチャと<br>してインポート<br>(グレースケール)",
         "Importer.Slices.Description": "フォルダ内の​すべての画像ファイル​を​3Dテクスチャ​に​します",
+
+        "Importer.UnsupportedRecordType.Heading":"サポートされていないレコード型", 
+        "Importer.UnsupportedRecordType.Description":"インポートしようとしているレコード({url})にはサポートされていない{recordType}型があります。{bugUrl}までご報告ください。",
+        "Importer.Link.Invalid.Heading":"Invalid Folder Link",
+        "Importer.Link.Invalid.Description":"インポートしようとしているフォルダリンク({url})は無効です。リンクを再確認し、もう一度やり直してください。",
+        "Inventory.Link.LinkText": "{name}へのインベントリリンク",
 
         "Exporter.Title": "エクスポート",
         "Exporter.FileName": "ファイル名:",
@@ -1713,6 +1737,8 @@
         "Settings.NotificationSettings.Message.Description": "メッセージ受信時に通知するかを設定できます。",
         "Settings.NotificationSettings.Invite": "セッション招待",
         "Settings.NotificationSettings.Invite.Description": "セッションに招待されたときに通知するかどうかを設定できます。",
+        "Settings.NotificationSettings.InviteRequest": "招待をリクエスト",
+        "Settings.NotificationSettings.InviteRequest.Description": "セッションへの招待をリクエストされたときに通知するかどうかを設定できます。",
         "Settings.NotificationSettings.ContactRequest": "フレンド申請",
         "Settings.NotificationSettings.ContactRequest.Description": "誰かからフレンドの申請を受けたときに通知するかどうかを設定できます。",
 
@@ -1760,6 +1786,12 @@
         "Settings.LaserSettings.ShowInDesktop": "デスクトップモードでレーザーを表示",
         "Settings.LaserSettings.ShowInDesktop.Description": "有効にすると、デスクトップモードで一人称視点の場合にも、レーザーが表示されます。",
 
+        "Settings.EditSettings": "編集設定",
+        "Settings.EditSettings.ConfirmComponentDestroy": "コンポーネント削除時に確認する",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "有効にすると、インスペクタでコンポーネントを削除する前に確認を求められます。コンポーネントを誤って削除するのを防ぎます。",
+        "Settings.EditSettings.ConfirmSlotDestroy": "スロット削除時に確認する",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "有効にすると、Devツールでスロットを削除する前に確認を求められます。誤ってオブジェクトを削除するのを防ぎます。",
+
         "Settings.CursorSettings": "カーソル設定",
         
         "Settings.CursorSettings.BaseCursorSize": "基本のカーソルサイズ",
@@ -1798,6 +1830,8 @@
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "タイマー撮影時のタイマー時間の長さを設定できます。",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "自動保存パス",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "保存先を示すパスを設定することで、撮影（またはコンテキストメニューから保存）した写真を自動でゲーム内インベントリに保存します。例: <color=hero.yellow>Photos/%year%/%month_name%</color>\n\n変数として次のものが使えます。\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "現在のワールドの自動保存パスを開く",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "写真の自動保存が設定されている場合、これをクリックすると、現在いるワールドの写真が保存されたインベントリーが開きます。\n\n設定されていない場合は、フォルダがまだ存在しないため、この動作は無効です。",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "プライベートUIを撮影",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "有効にすると、ダッシュメニューなどのプライベートなUIが撮影時に含まれます。\n\nこの設定を有効にしたままにすると、誤って撮影してしまった場合に、個人情報が漏れてしまう可能性があるので、撮影が終わったらオフにすることをおすすめします。",
         "Settings.PhotoCaptureSettings.EncodeFormat": "エンコードフォーマット",
@@ -1891,6 +1925,10 @@
         "Settings.RelaySettings.RelayPriorities": "リレーサーバーの優先順位を設定",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "リレーサーバーの優先順位を設定",
 
+        "Settings.VideoStreamingServicesSettings": "ビデオストリーミングサービス設定",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "ブラウザのCookieを使用",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "YouTubeやその他のサービスのビデオが読み込まれない場合は、普段使用しているブラウザからCookieを読み込みます。これにより、ビデオが正常に読み込まれる可能性が高まります。",
+
         "Settings.PostProcessingSettings": "ポストプロセッシング",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "モーションブラーの強さ",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "モーションブラー効果の強さを設定できます。高い値にすると、同じ動きでもより多くボケるようになります。\n\n<nobr><color=hero.yellow>0 %</color></nobr> に設定すると、フィルタは完全に無効になり、パフォーマンスが向上します。",
@@ -1936,6 +1974,14 @@
         "Settings.RenderingQualitySettings.ShadowDistance.Description": "影がカバーする距離を設定できます。この値を大きくすると、より遠くの部分が影で適切にカバーされるようになりますが、影の影響がより広い範囲に広がります。\n\nこの設定は、シャドウカスケードや解像度と一緒に変更する必要があります。- 影の解像度を高くすると、距離を長くすることができます。影の解像度とカスケードを下げると距離が短くなり，影がより鮮明になります。",
         "Settings.RenderingQualitySettings.SkinWeightMode": "スキンウェイト",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "スキニングされたメッシュ（アバターのようにボーンによって変形する3Dモデル）で、各頂点の位置に影響を与えるために使用されるボーン数を制御します。\n\nこの値を下げると、パフォーマンスは多少下がりますが、変形の質は低下し、曲がりが粗くなり、他の歪みが発生します。",
+
+        "Settings.ImportSettings": "インポート設定",
+        "Settings.ImportSettings.SessionUrls": "セッションURLインポート時",
+        "Settings.ImportSettings.SessionUrls.Description": "セッションURLがインポートされたときの動作:\n\n<color=hero.yellow>Open</color> - セッションを開く\n<color=hero.yellow>SpawnEntityInterface</color> - セッションオーブとして、URLを生成する\n<color=hero.yellow>SpawnUrl</color> - URLインターフェイスとして、URLを生成する",
+        "Settings.ImportSettings.WorldUrls": "ワールドURLインポート時",
+        "Settings.ImportSettings.WorldUrls.Description": "ワールドURLがインポートされた時の動作:\n\n<color=hero.yellow>Open</color> - ワールドを開く\n<color=hero.yellow>SpawnEntityInterface</color> - ワールドオーブとして、URLを生成する\n<color=hero.yellow>SpawnUrl</color> - URLインターフェイスとして、URLを生成する",
+        "Settings.ImportSettings.NetworkUrls": "ネットワークURLインポート時",
+        "Settings.ImportSettings.NetworkUrls.Description": "ネットワークURLがインポートされた時の動作:\n\n<color=hero.yellow>Open</color> - セッションへの接続を開く\n<color=hero.yellow>SpawnEntityInterface</color> - セッションオーブとして、URLを生成する\n<color=hero.yellow>SpawnUrl</color> - URLインターフェイスとして、URLを生成する",
 
         "LocomotionArchetype.Walk": "歩行",
         "LocomotionArchetype.Fly": "フライ",
@@ -2060,6 +2106,9 @@
         "Inspector.MeshCollider.ReplaceBox": "Box Collider に置き換える",
 
         "Inspector.Texture3D.SpawnVisualizer" : "ビジュアライザーをスポーン",
+
+        "Inspector.Skybox.SetActiveSkybox": "スカイボックスに設定",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "環境光に設定",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "ユーザーのロコモーションモジュールを更新",
 
@@ -2233,8 +2282,7 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告!</size></color><br>SimulateRotationにチェックをいれることで、​このコンポーネントを単純なRigidbodyとして使用できます。​前提として、この目的のために最適化されておらず、​適切なRigidbodyが将来提供されることを理解しておいてください。<br>適切なRigidbodyは以下を提供します：<br><b>- CPUとネットワーク負荷の軽減</b> - CharacterControllerを使用すると、 CPU使用率が高くなり、ネットワークトラフィックが大量に発生します。<br><b>- Constraints</b> - Rigidbody間にジョイント、ヒンジ、スプリング、 その他のconstraintを作成できるようになります。<br><b>- どのユーザーからもスムーズなシミュレーションと相互作用</b> - 他の人が操作すると、CharacterControllerはグリッチアウトします。<br><b>- 新機能とツール</b> - それらをはるかに簡単に使用できるようになります。<br>-----------------------<br>これらの制限を理解している限り、楽しんでください！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color>このコンポーネントを使用すると、IDを使用して参照を操作できます。​この手法は一般的に「Refハック」と呼ばれます。<br><br>これを実行する<b>前</b>に、​これはサポートされて<b>いない</b>ため、​いつか壊れる可能性があることを理解してください。​この機能に依存しないでください。",
 
-        "Inspector.ParticleSystem.TestingWarning" : "<color=red><size=150%>警告!</size></color><br>これは\"PhotonDust\"という新しいパーティクルシステムです。このシステムを試すのは自由ですが、重要なコンテンツではまだ使用しないことをおすすめします。<br><br>この警告が表示されなくなるまで、レガシー・パーティクル・システムを使用することをおすすめします。",
-        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tSimulation Time: {time}\tSubmit Time: {renderSubmitTime}\tRender allocations: {allocationCount}",
+        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}, FPS: {fps}, Simulation Time: {time}, Submit Time: {renderSubmitTime}, Render allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
 
         "Inspector.ParticleStyle.CommonTransitions": "遷移テンプレート:",

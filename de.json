@@ -121,8 +121,8 @@
         "Inventory.SaveHeld": "Gehaltenes Objekt speichern",
         "Inventory.GetURL": "URL holen",
         "Inventory.Inventories": "Inventare",
-        "Inventory.Share": "Teilen",
-        "Inventory.Unshare": "Privat machen",
+        "Inventory.Share": "Veröffentlichen",
+        "Inventory.Unshare": "Veröffentlichung beenden",
         "Inventory.SaveAvatar": "Avatar speichern",
         "Inventory.Favorite.Home": "Home favorisieren",
         "Inventory.Favorite.ProgressBar": "Fortschrittsanzeige favorisieren",
@@ -230,7 +230,7 @@
         "World.Config.CleanupAssets": "Bereinigung nicht verwendeter Assets:",
         "World.Config.CleanupInterval": "Intervall für automatische Bereinigung [Sekunden]:",
 
-        "World.Actions.StartSession": "Starte Sitzung",
+        "World.Actions.StartSession": "Sitzung starten",
         "World.Actions.Join": "Beitreten",
         "World.Actions.Focus": "Fokussieren",
         "World.Actions.Close": "Welt schließen",
@@ -586,6 +586,7 @@
         "Account.Type.Standard": "Standard Konto",
         "Account.Type.Business": "Business Konto",
         "Account.Type.Patreon": "Patreon Unterstützer",
+        "Account.Type.Stripe": "Stripe Unterstützer",
         "Account.Type.Mentor": "{platform} Mentor",
         "Account.Type.Moderator": "{platform} Moderator",
         "Account.Type.Team": "{platform} Team",
@@ -640,6 +641,7 @@
         "Contacts.IgnoreRequest": "Anfrage ignorieren",
         "Contacts.Invite": "Hierhin einladen",
         "Contacts.RevokeInvite": "Einladung zurückziehen",
+        "Contacts.RequestInvite": "Einladung erbitten",
         "Contacts.BanFromAllSessions": "Aus ALLEN meinen gehosteten Sitzungen verbannen",
         "Contacts.UnbanFromAllSessions": "In ALLEN meinen Sitzungen entbannen",
         "Contacts.BanFromCurrentWorld": "Aus aktueller Welt verbannen",
@@ -669,6 +671,19 @@
         "Contacts.Bot": "Bot-Konto",
         "Contacts.Migrated": "Kontakt ist noch nicht migriert",
         "Contacts.IncompatibleSession": "Inkompatible Sitzung",
+        "Contacts.AskToJoin": "um Beitritt <color=hero.yellow>bitten</color>",
+
+        "Contacts.InviteRequest.UserWantsToJoin": "{username} möchte zu Ihnen kommen",
+        "Contacts.InviteRequest.UserWantsToInviteAnother": "\"{requestingUser}\" möchte \"{userToInvite}\" zur Sitzung \"{sessionName}\" einladen",
+        "Contacts.InviteRequest.GrantInvite": "Einladung gewähren (einmalig)",
+        "Contacts.InviteRequest.AddAsContact": "\"{username}\" als Kontakt aufnehmen",
+        "Contacts.InviteRequest.AddAsContactOfHeadless": "\"{username}\" als Kontakt des Headless aufnehmen",
+        "Contacts.InviteRequest.AddHostAsContact": "\"{username}\" (Host) als Kontakt aufnehmen",
+        "Contacts.InviteRequest.HostIsUnregistered": "Der Host ist kein registrierter Benutzer",
+        "Contacts.InviteRequest.ForwardToHost": "Weiterleiten an den Host: {username}",
+        "Contacts.InviteRequest.SentRequest": "Einladung wurde erbeten",
+        "Contacts.InviteRequest.ForwardedRequest": "Bitte um Einladung von \"{username}\" zur Sitzung \"{sessionName}\" weitergeleitet",
+        "Contacts.InviteRequest.GrantedRequest": "Die Einladung von \"{username}\" zur Sitzung \"{sessionName}\" wurde gewährt",
 
         "Notifications.IsSociable": "Ist gesellig, bitte anstupsen oder einladen!",
         "Notifications.IsOnline": "Ist jetzt Online",
@@ -678,6 +693,8 @@
         "Notifications.ReceivedItem": "Hat Ihnen ein Objekt gesendet:",
         "Notifications.VoiceMessage": "Hat eine Sprachnachricht gesendet",
         "Notifications.SessionStarted": "Hat eine Sitzung gestartet:",
+        "Notifications.ReceivedInviteRequestDirect": "Möchte eingeladen werden",
+        "Notifications.ReceivedInviteRequestForwarded": "Möchte einladen:",
         "Notifications.UserJoined": "Benutzer beigetreten",
         "Notifications.UserLeft": "Benutzer hat Sitzung verlassen",
         "Notifications.PermissionChanged": "Rolle geändert zu {new}",
@@ -865,8 +882,6 @@
         "CreateNew.EmptyObject": "Leeres Objekt",
         "CreateNew.ParticleSystem": "Partikelsystem",
         "CreateNew.LegacyParticleSystem": "Altes Partikelsystem",
-
-        "CreateNew.ExperimentalParticleSystem": "PhotonDust System <color=red>(WARNUNG: experimentell!)</color>",
 
         "CreateNew.Object": "Objekt",
         "CreateNew.Object.AvatarCreator": "Avatar-Assistent",
@@ -1064,6 +1079,12 @@
         "Importer.Slices.Title": "Schnittbilder als volumetrische Textur",
         "Importer.Slices.TitleGrayscale": "Schnittbilder als volumetrische Textur (Graustufen)",
         "Importer.Slices.Description": "Verarbeitet alle Bilddateien im Ordner zu einer volumetrischen Textur",
+
+        "Importer.UnsupportedRecordType.Heading": "Nicht unterstützter Record-Typ", 
+        "Importer.UnsupportedRecordType.Description": "Der Record, den Sie importieren möchten ({url}), hat einen nicht unterstützten Typ. Sein Typ ist: {recordType}. Bitte melden Sie uns dies unter {bugUrl}.",
+        "Importer.Link.Invalid.Heading": "Ungültiger Ordner-Link",
+        "Importer.Link.Invalid.Description": "Der Order-Link ({url}), den Sie importieren möchten, ist ungültig. Überprüfen Sie Ihren Link noch einmal und versuchen Sie es erneut.",
+        "Inventory.Link.LinkText": "Inventar-Link zu {name}",
 
         "Exporter.Title": "Exportieren",
         "Exporter.FileName": "Dateiname:",
@@ -1714,6 +1735,8 @@
         "Settings.NotificationSettings.Message.Description": "Dies bestimmt, ob Sie benachrichtigt werden, wenn Sie Nachrichten empfangen.",
         "Settings.NotificationSettings.Invite": "Einladung zu einer Sitzung",
         "Settings.NotificationSettings.Invite.Description": "Dies bestimmt, ob Sie benachrichtigt werden, wenn Sie zu einer Sitzung eingeladen werden.",
+        "Settings.NotificationSettings.InviteRequest": "Bitten um Einladung",
+        "Settings.NotificationSettings.InviteRequest.Description": "Diese Einstellung legt fest, ob Sie bei Bitten um Einladung, denen Sie antworten können, eine Benachrichtigungen erhalten.",
         "Settings.NotificationSettings.ContactRequest": "Kontaktanfrage",
         "Settings.NotificationSettings.ContactRequest.Description": "Hier können Sie einstellen, welche Benachrichtigungen Sie erhalten, wenn Ihnen jemand eine Kontaktanfrage schickt.",
         "Settings.NotificationSettings.ContactSessionStarted": "Neue Sitzungen Ihrer Kontakte",
@@ -1758,6 +1781,12 @@
         "Settings.LaserSettings.StickThreshold.Description": "Dieser Wert bestimmt, wie stark der Laser an interaktiven Objekten kleben bleibt. Große Werte erhöhen die Klebrigkeit, der Wert 0 stoppt das Festkleben des Lasers vollständig.",
         "Settings.LaserSettings.ShowInDesktop": "Zeige Laser im Desktop Modus",
         "Settings.LaserSettings.ShowInDesktop.Description": "Wenn dies aktiviert ist, wird das Laserbild in der Egoperspektive im Desktop Modus vollständig angezeigt.",
+
+        "Settings.EditSettings": "Bearbeitungs-Einstellungen",
+        "Settings.EditSettings.ConfirmComponentDestroy": "Bestätigung beim Löschen von Komponenten",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "Wenn diese Funktion aktiviert ist, werden Sie beim Löschen von Komponenten im Inspektor um eine Bestätigung gebeten. Dies hilft zu verhindern, dass sie versehentlich durch einen Fehlklick entfernt werden.",
+        "Settings.EditSettings.ConfirmSlotDestroy": "Bestätigung beim Löschen von Slots",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "Wenn diese Funktion aktiviert ist, werden Sie beim Löschen von Slots mit dem Entwickler-Tool um eine Bestätigung gebeten. Dies hilft zu verhindern, dass sie versehentlich durch einen Fehlklick entfernt werden.",
 
         "Settings.CursorSettings": "Zeigereinstellungen",
 
@@ -1937,6 +1966,14 @@
         "Settings.RenderingQualitySettings.SkinWeightMode": "Oberflächen-Gewichtung (Skin Weights)",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Bei Skinned-Meshes (3D-Modelle, deren Oberfläche durch Knochen verformt werden, wie die meisten Avatare) steuert dieser Wert, wie viele Knochen verwendet werden, um die Position jedes Vertex zu beeinflussen.\n\nWenn Sie diesen Wert verringern, sparen Sie etwas Rechenleistung, aber die Qualität der Verformung wird schlechter. Dies führt typischerweise zu scharfen Falten und anderen Artefakten um Gelenke herum.",
 
+        "Settings.ImportSettings": "Importeinstellungen",
+        "Settings.ImportSettings.SessionUrls": "Beim Importieren einer Sitzungs-URL",
+        "Settings.ImportSettings.SessionUrls.Description": "Was soll beim Importieren einer Sitzungs-URL passieren? Die verfügbaren Optionen sind:\n\n<color=hero.yellow>Open</color> - Öffnet die Sitzung.\n<color=hero.yellow>SpawnEntityInterface</color> - Erzeugt eine Darstellung (z.B. eine Sitzungs-Orb) der URL an Ihrem aktuellen Standort.\n<color=hero.yellow>SpawnUrl</color> - Erzeugt die URL an Ihrem aktuellen Standort als URL-Interface.",
+        "Settings.ImportSettings.WorldUrls": "Beim Importieren einer Welt-URL",
+        "Settings.ImportSettings.WorldUrls.Description": "Was soll beim Importieren einer Welt-URL passieren? Die verfügbaren Optionen sind:\n\n<color=hero.yellow>Open</color> - Öffnet die Welt.\n<color=hero.yellow>SpawnEntityInterface</color> - Erzeugt eine Darstellung (z.B. eine Welt-Orb) der URL an Ihrem aktuellen Standort.\n<color=hero.yellow>SpawnUrl</color> - Erzeugt die URL an Ihrem aktuellen Standort als URL-Interface.",
+        "Settings.ImportSettings.NetworkUrls": "Beim Importieren einer Netzwerk-URL",
+        "Settings.ImportSettings.NetworkUrls.Description": "Was soll beim Importieren einer Netzwerk-URL passieren? Die verfügbaren Optionen sind:\n\n<color=hero.yellow>Open</color> - Öffnet eine Verbindung zur Sitzung unter dieser URL.\n<color=hero.yellow>SpawnEntityInterface</color> - Erzeugt eine Darstellung (z.B. eine Sitzungs-Orb) der URL an Ihrem aktuellen Standort.\n<color=hero.yellow>SpawnUrl</color> - Erzeugt die URL an Ihrem aktuellen Standort als URL-Interface.",
+
         "LocomotionArchetype.Walk": "Gehen",
         "LocomotionArchetype.Fly": "Fliegen",
         "LocomotionArchetype.NoClip": "Noclip",
@@ -2060,6 +2097,9 @@
         "Inspector.MeshCollider.ReplaceBox": "Mit Box Collider ersetzen",
 
         "Inspector.Texture3D.SpawnVisualizer" : "Visualisierung erzeugen",
+
+        "Inspector.Skybox.SetActiveSkybox": "Als aktive Skybox festlegen",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Als aktives Umgebungslicht festlegen",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Fortbewegungs-Module an vorhandenen Benutzern aktualisieren",
 
@@ -2233,8 +2273,7 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente als einfachen Rigidbody zu verwenden, indem 'Rotation Simulieren' ausgewählt wird. Bevor Sie dies tun, verstehen Sie bitte, dass sie nicht für diesen Zweck optimiert ist und dass vollständige Rididbody-Unterstützung in der Zukunft hinzugefügt wird.<br>Vollständige Rigidbody-Unterstützung wird folgendes ermöglichen:<br><b>- CPU- und Netzwerkeffizienz</b> - Mit CharacterController werden Sie höhere CPU-Auslastung und signifikant höhere Netzwerkauslastung verursachen<br><b>- Beschränkungen</b> - Sie werden in der Lage sein Gelenke, Schaniere, Federn und andere Beschränkungen zwischen Rigidbodies zu erstellen<br><b>- Geschmeidige Simulation und Interaktionen für Jeden</b> - CharacterController wird Fehlverhalten verursachen wenn ein anderer Benutzer versucht damit zu interagieren.<br><b>- Neue Features und Tools</b> - Dadurch wird die Verwendung deutlich einfacher<br>-----------------------<br>Solange Sie diese Einschränkungen verstehen, viel Spaß!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente zu verwenden um mit Referenzen zu interagieren, die über Ihre IDs addressiert werden. Dieser Vorgang ist geläufig bekannt als 'Ref Hacking'.<br><br><b>Bevor</b> Sie dies tun, verstehen Sie bitte dass dies <b>nicht</b> unterstützt ist und zu jedem Zeitpunk kaputtgehen kann. Verlassen Sie sich nicht auf diese Funktionalität für Ihre Kreationen!",
 
-        "Inspector.ParticleSystem.TestingWarning": "<color=red><size=150%>WARNUNG!</size></color><br>Dies ist das neue Partikelsystem \"PhotonDust\", welches gerade erprobt wird. Sie können gerne damit spielen, aber wir empfehlen, es noch nicht für neue, ernsthafte Inhalte zu verwenden, da es noch zu Änderungen kommen kann.<br><br>Wir empfehlen, für Projekte weiterhin das alte Partikelsystem zu verwenden, bis dieses vollständig entfernt wird und auch diese Warnung verschwindet.",
-        "Inspector.ParticleSystem.BasicInfo": "Partikel: {count}\tSimulationszeit: {time}\tSubmit-Zeit: {renderSubmitTime}\tRender-Allokationen: {allocationCount}",
+        "Inspector.ParticleSystem.BasicInfo": "Partikel: {count}, FPS: {fps}, Simulationszeit: {time}, Submit-Zeit: {renderSubmitTime}, Render-Allokationen: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "Spuren: {trailCount} (Kapazität: {trailCapacity}), Spur-Punkt Kapazität: {trailPointCapacity}, Allokationen: {allocationCount}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Häufig verwendete Übergangs-Vorlagen:",
