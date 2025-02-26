@@ -1007,6 +1007,15 @@
         "Importer.Model.3DScan": "3D Scan",
         "Importer.Model.CAD": "CAD Model",
         "Importer.Model.PointCloud": "Point Cloud",
+
+        "Importer.Model.GaussianSplat": "Gaussian Splat",
+        "Importer.Model.GaussianSplatVertical": "Vertical Axis",
+        "Importer.Model.RegularVertical": "Regular",
+        "Importer.Model.FlipVertical": "Flip Y axis",
+        "Importer.Model.GaussianSplatEncoding": "Encoding",
+        "Importer.Model.GaussianSplatLossless": "Lossless",
+        "Importer.Model.GaussianSplatSPZ": "SPZ (lossy)",
+
         "Importer.Model.VertexColorModel": "Vertex Colored Model",
         "Importer.Model.AdvancedSettings": "Advanced Settings",
         "Importer.Model.ModelKindPrompt": "What kind of 3D model?",
@@ -1066,6 +1075,20 @@
         "Importer.Model.Advanced.Scalable": "Make Scalable",
         "Importer.Model.Advanced.PositionAtOrigin": "Position At Origin",
         "Importer.Model.Advanced.AssetsOnObject": "Place Assets On Object",
+
+        "Importer.Splat.Progress.Importing": "Importing Gaussian Splat",
+        "Importer.Splat.Progress.ReadingHeader": "Reading file header",
+        "Importer.Splat.Progress.ConvertingSplats": "Converted {converted} splats out of {total}",
+        "Importer.Splat.Progress.EncodingData": "Encoding converted data",
+
+        "GaussianSplat.Encoding.Title" : "Encoding Gaussian Splat",
+        "GaussianSplat.Encoding.Metadata" : "Encoding metadata",
+        "GaussianSplat.Encoding.EncodingPositions" : "Encoding positions {encoded} of {total}",
+        "GaussianSplat.Encoding.EncodingRotations" : "Encoding rotations {encoded} of {total}",
+        "GaussianSplat.Encoding.EncodingScales" : "Encoding scales {encoded} of {total}",
+        "GaussianSplat.Encoding.EncodingAlphas" : "Encoding alphas {encoded} of {total}",
+        "GaussianSplat.Encoding.EncodingColors" : "Encoding colors {encoded} of {total}",
+        "GaussianSplat.Encoding.EncodingFinalizing" : "Finalizing encode",
 
         "Importer.Video.Title": "Import Video",
         "Importer.Video.Prompt": "What are you importing?",
@@ -1953,6 +1976,10 @@
         "Settings.TextureQualitySettings.AnisotropicLevel": "Anisotropic Level",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Controls the quality of the anisotropic filtering.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Reload All Textures (can be heavy)",
+
+        "Settings.GaussianSplatQualitySettings": "Guassian Splat Rendering Quality",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera" : "Sorting Mega-operations per camera",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description" : "When rendering Gaussian Splats, the splats must be sorted for each camera. Currently, this operation can be quite heavy, so it is spread over time to improve overall framerate.<br><br><color=hero.yellow>Increase</color> the value for sorting to happen faster. This will reduce artifacts when changing the view angle around Gaussian Splats rapidly.<br><br><color=hero.yellow>Decrease</color> the value to reduce the GPU usage if your GPU has trouble handling it. However this will increase artifacts when you rapidly change view angle.",
 
         "Settings.ResolutionSettings": "Resolution",
         "Settings.ResolutionSettings.Fullscreen": "Fullscreen",
