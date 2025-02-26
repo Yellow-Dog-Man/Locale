@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "Griff:<br>Präzision",
         "Interaction.Grab.Auto": "Griff:<br>Automatisch",
         "Interaction.Grab.Off": "Griff:<br>Nur Laser",
+        "Interaction.Grabbing": "Greifen",
+        "Interaction.Grab.StickyGrab": "Schaltender Griff",
+        "Interaction.Grab.HoldToHold": "Halten zum Halten",
         "Interaction.Locomotion": "Fortbewegung",
         "Interaction.Locomotion.None": "Keine",
 
@@ -1004,6 +1007,15 @@
         "Importer.Model.3DScan": "3D-Scan",
         "Importer.Model.CAD": "CAD-Modell",
         "Importer.Model.PointCloud": "Punktwolke",
+
+        "Importer.Model.GaussianSplat": "Gaussian Splat",
+        "Importer.Model.GaussianSplatVertical": "Vertikale Achse",
+        "Importer.Model.RegularVertical": "Regulär",
+        "Importer.Model.FlipVertical": "Y-Achse spiegeln",
+        "Importer.Model.GaussianSplatEncoding": "Encoding",
+        "Importer.Model.GaussianSplatLossless": "Verlustfrei",
+        "Importer.Model.GaussianSplatSPZ": "SPZ (Verlustbehaftet)",
+
         "Importer.Model.VertexColorModel": "Vertex-koloriert",
         "Importer.Model.AdvancedSettings": "Erweiterte Optionen",
         "Importer.Model.ModelKindPrompt": "Was für eine Art von 3D-Modell?",
@@ -1063,6 +1075,20 @@
         "Importer.Model.Advanced.Scalable": "Skalierbar machen",
         "Importer.Model.Advanced.PositionAtOrigin": "Am Nullpunkt platzieren",
         "Importer.Model.Advanced.AssetsOnObject": "Platziere Assets auf Objekt",
+
+        "Importer.Splat.Progress.Importing": "Gaussian Splat importieren",
+        "Importer.Splat.Progress.ReadingHeader": "Datei-Header lesen",
+        "Importer.Splat.Progress.ConvertingSplats": "{converted} Splats von {total} konvertiert",
+        "Importer.Splat.Progress.EncodingData": "Encodierung der konvertierten Daten",
+
+        "GaussianSplat.Encoding.Title": "Gaussian Splat Encodierung",
+        "GaussianSplat.Encoding.Metadata": "Metadata Encodierung",
+        "GaussianSplat.Encoding.EncodingPositions" : "Encodiere Positionen {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingRotations" : "Encodiere Rotationen {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingScales" : "Encodiere Scales {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingAlphas" : "Encodiere Alphas {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingColors" : "Encodiere Farben {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingFinalizing" : "Finalisierung der Encodierung",
 
         "Importer.Video.Title": "Video-Import",
         "Importer.Video.Prompt": "Was möchten Sie importieren?",
@@ -1827,6 +1853,8 @@
         "Settings.PhotoCaptureSettings.StereoSeparation.Description": "Hier können Sie die Basis, den Abstand zwischen den Einzelkameras der Stereokamera, einstellen. Dies wirkt sich auf die Stärke des Stereoeffekts bei weiter entfernten Objekten aus.\n\nBei der Aufnahme von Objekten in der Nähe sind niedrigere Werte besser, bei der Aufnahme von großen Szenen sind höhere Werte besser geeignet.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Pfad für automatisch gespeicherte Fotos",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Wenn dies konfiguriert ist, werden alle Fotos die Sie aufnehmen (oder per Kontext-Menü speichern), automatisch in ihrem Inventar unter diesem Pfad abgespeichert. Zum Beispiel <color=hero.yellow>Fotos/%year%/%month_name%</color>\n\nFolgende Variablen sind verfügbar:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "Öffne Pfad der automatisch gespeicherten Fotos für aktuelle Welt",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "Wenn die automatische Speicherung von Fotos aktiv ist, öffnet dies den Ort im Inventar, an dem die Fotos für die aktuelle Welt gespeichert werden.\n\nDiese Aktion wird fehlschlagen, falls Sie noch keine Fotos in dieser Welt aufgenommen haben, da der Ordner noch nicht existiert!",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Private Benutzeroberfläche erfassen",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "Wenn diese Option aktiviert ist, wird die schnelle Fotoaufnahme Ihre private Benutzeroberfläche, wie z.B. das Dash-Menü, abbilden. Dies kann nützlich sein, falls Sie die dort dargestellten Informationen aufnehmen wollen.\n\nWir empfehlen, diese Einstellung zu deaktivieren, sobald Sie mit der beabsichtigten Aufnahme fertig sind, sonst kann es versehentlich zu einer Aufnahme und Weitergabe Ihrer privaten Daten kommen.",
         "Settings.PhotoCaptureSettings.EncodeFormat": "Dateiformat",
@@ -1920,6 +1948,10 @@
         "Settings.RelaySettings.RelayPriorities": "Relay-Server Prioritäten konfigurieren",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Relay-Server Prioritäten",
 
+        "Settings.VideoStreamingServicesSettings": "Einstellungen für Videostreaming-Dienste",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Cookies vom Browser verwenden",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Wenn bei Ihnen Videos von Youtube oder anderen Diensten nicht geladen werden, wählen Sie hier den Browser aus, den Sie üblicherweise nutzen um Videos abzurufen. Dies lädt Ihre Browser-Cookies, um damit die Chancen zu erhöhen, die Videos erfolgreich zu laden.",
+
         "Settings.PostProcessingSettings": "Nachbearbeitung",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Stärke der Bewegungsunschärfe",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Dies steuert die Stärke des Effektes, der das Bild mit Bewegungsunschärfe verwischt. Größere Werte führen bei gleicher Bewegung zu einer stärkeren Unschärfe.\n\nWenn Sie den Wert auf <nobr><color=hero.yellow>0 %</color></nobr> setzen, wird der Filter vollständig deaktiviert, was die Geschwindigkeit verbessern kann.",
@@ -1944,6 +1976,10 @@
         "Settings.TextureQualitySettings.AnisotropicLevel": "Anisotrope Stufen",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Steuert die Qualität der anisotropen Filterung.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Alle Texturen neu laden (kann aufwändig sein)",
+
+        "Settings.GaussianSplatQualitySettings": "Gaussian Splat Rendering-Qualität",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "Sortierung der Mega-Operationen pro Kamera",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description": "Beim Rendern von Gaussian Splats müssen diese für jede Kamera sortiert werden. Dieser Vorgang kann ziemlich aufwändig sein, daher wird er über die Zeit verteilt, um die Gesamtbildrate zu verbessern. <br><br><color=hero.yellow>Increase</color> Erhöhen Sie den Wert, damit die Sortierung schneller erfolgt. Dies reduziert Artefakte bei schneller Änderung Ihres Blickwinkels um Gaussian Splats.<br><br><color=hero.yellow>Decrease</color> Verringern Sie den Wert, um die GPU-Auslastung zu verringern, allerdings wird dies mehr Artefakte bei schnellen Blickwinkeländerungen erzeugen.",
 
         "Settings.ResolutionSettings": "Auflösung",
         "Settings.ResolutionSettings.Fullscreen": "Vollbild",
