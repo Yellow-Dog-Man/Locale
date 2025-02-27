@@ -1976,6 +1976,10 @@
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Kontroluje jakość filtrowania anizotropowego.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Przeładuj wszystkie tekstury",
 
+        "Settings.GaussianSplatQualitySettings": "Jakość renderowania Guassian Splat",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera" : "Sortowanie Mega-operacji na kamerę",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description" : "Podczas renderowania Gaussian Splats, splats muszą zostać posortowane dla każdej kamery. Obecnie operacja ta może być dość obciążająca, więc jest rozłożona na dłuższy czas, aby poprawić ogólną liczbę klatek na sekundę.<br><br><color=hero.yellow>Increase</color> Zwiększ wartość, aby sortowanie odbywało się szybciej. Zmniejszy to liczbę artefaktów podczas szybkiej zmiany kąta widzenia wokół Gaussian Splats.<br><br><color=hero.yellow>Decrease</color> Zmniejsz wartość, aby zredukować użycie GPU, jeśli procesor graficzny nie radzi sobie z tym. Spowoduje to jednak zwiększenie artefaktów przy szybkiej zmianie kąta widzenia.",
+
         "Settings.ResolutionSettings": "Rozdzielczość",
         "Settings.ResolutionSettings.Fullscreen": "Pełny ekran",
         "Settings.ResolutionSettings.Fullscreen.Description": "Przełącza między trybem pełnoekranowym a trybem okienkowym",
