@@ -1000,13 +1000,22 @@
         "Importer.ImageVideo.LayoutHorizontalRL": "从右到左水平排布",
         "Importer.ImageVideo.LayoutVerticalLR": "从左到右垂直排布",
         "Importer.ImageVideo.LayoutVerticalRL": "从右到左垂直排布",
-
+        
         "Importer.Model.Title": "模型导入工具",
         "Importer.Model.Prompt": "请选择导入方式",
         "Importer.Model.Regular": "常规3D模型",
         "Importer.Model.3DScan": "3D扫描模型",
         "Importer.Model.CAD": "CAD模型",
         "Importer.Model.PointCloud": "点云",
+
+        "Importer.Model.GaussianSplat": "高斯溅落",
+        "Importer.Model.GaussianSplatVertical": "垂直轴方向",
+        "Importer.Model.RegularVertical": "常规模式",
+        "Importer.Model.FlipVertical": "翻转Y轴",
+        "Importer.Model.GaussianSplatEncoding": "编码格式",
+        "Importer.Model.GaussianSplatLossless": "无损压缩",
+        "Importer.Model.GaussianSplatSPZ": "SPZ（有损压缩）",
+        
         "Importer.Model.VertexColorModel": "顶点着色模型",
         "Importer.Model.AdvancedSettings": "高级设置",
         "Importer.Model.ModelKindPrompt": "请选择模型类型",
@@ -1067,6 +1076,20 @@
         "Importer.Model.Advanced.PositionAtOrigin": "置于原点",
         "Importer.Model.Advanced.AssetsOnObject": "将资产放在对象上",
 
+        "Importer.Splat.Progress.Importing": "正在导入高斯溅落模型",
+        "Importer.Splat.Progress.ReadingHeader": "正在读取文件头信息",
+        "Importer.Splat.Progress.ConvertingSplats": "已转换{converted}/{total}个溅落点",
+        "Importer.Splat.Progress.EncodingData": "正在编码转换后的数据",
+
+        "GaussianSplat.Encoding.Title" : "高斯溅落模型编码",
+        "GaussianSplat.Encoding.Metadata" : "正在编码元数据",
+        "GaussianSplat.Encoding.EncodingPositions" : "正在编码坐标位置（{encoded}/{total}）",
+        "GaussianSplat.Encoding.EncodingRotations" : "正在编码旋转参数（{encoded}/{total}）",
+        "GaussianSplat.Encoding.EncodingScales" : "正在编码缩放系数（{encoded}/{total}）",
+        "GaussianSplat.Encoding.EncodingAlphas" : "正在编码透明度（{encoded}/{total}）",
+        "GaussianSplat.Encoding.EncodingColors" : "正在编码颜色信息（{encoded}/{total}）",
+        "GaussianSplat.Encoding.EncodingFinalizing" : "正在完成编码",
+        
         "Importer.Video.Title": "视频导入工具",
         "Importer.Video.Prompt": "请选择视频类型",
         "Importer.Video.Regular": "视频",
@@ -1954,6 +1977,10 @@
         "Settings.TextureQualitySettings.AnisotropicLevel.Description" : "控制各向异性过滤的质量。",
         "Settings.TextureQualitySettings.ReloadAllTextures" : "强制重新加载所有材质 (会使游戏运行速度变慢)",
 
+        "Settings.GaussianSplatQualitySettings": "高斯溅落渲染质量",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera" : "按摄像机分类巨量运算",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description" : "渲染高斯溅落时，需按摄像机进行溅落排序。当前该运算负载较高，所以将采用分帧处理以提升整体帧率。<br><br><color=hero.yellow>调高</color>数值可加速排序过程，在快速变换高斯溅落观察角度时减少视觉伪影。<br><br><color=hero.yellow>调低</color>数值可减轻GPU负载，在GPU处理能力不足时，但快速变换观察角度时可能增加伪影。",
+        
         "Settings.ResolutionSettings" : "分辨率",
         "Settings.ResolutionSettings.Fullscreen" : "全屏",
         "Settings.ResolutionSettings.Fullscreen.Description" : "在全屏模式和窗口模式之间切换。",
