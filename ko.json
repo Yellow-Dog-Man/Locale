@@ -1006,8 +1006,17 @@
         "Importer.Model.Regular": "3D 모델",
         "Importer.Model.3DScan": "3D 스캔",
         "Importer.Model.CAD": "CAD 모델",
-        "Importer.Model.PointCloud": "Point Cloud",
-        "Importer.Model.VertexColorModel": "Vertex Colored Model",
+        "Importer.Model.PointCloud": "포인트 클라우드",
+        
+        "Importer.Model.GaussianSplat": "가우시안 스플랫",
+        "Importer.Model.GaussianSplatVertical": "수직축",
+        "Importer.Model.RegularVertical": "표준",
+        "Importer.Model.FlipVertical": "수직축 뒤집기",
+        "Importer.Model.GaussianSplatEncoding": "인코딩",
+        "Importer.Model.GaussianSplatLossless": "무손실",
+        "Importer.Model.GaussianSplatSPZ": "SPZ(과손실)",
+
+        "Importer.Model.VertexColorModel": "색상이 부여된 버텍스 모델",
         "Importer.Model.AdvancedSettings": "고급 설정",
         "Importer.Model.ModelKindPrompt": "어떤 3D 모델입니까?",
         "Importer.Model.RegularKind": "일반 / 아바타",
@@ -1066,6 +1075,20 @@
         "Importer.Model.Advanced.Scalable": "크기 조정 허용",
         "Importer.Model.Advanced.PositionAtOrigin": "원점(Origin)에 위치",
         "Importer.Model.Advanced.AssetsOnObject": "오브젝트에 에셋(Asset) 배치",
+
+        "Importer.Splat.Progress.Importing": "가우시안 스플랫 가져오기",
+        "Importer.Splat.Progress.ReadingHeader": "파일 헤더 읽는 중",
+        "Importer.Splat.Progress.ConvertingSplats": "{total}개중 {converted}개의 스플랫을 변환하였습니다.",
+        "Importer.Splat.Progress.EncodingData": "변환된 데이터 인코딩",
+
+        "GaussianSplat.Encoding.Title" : "인코딩 가우시안 스플랫",
+        "GaussianSplat.Encoding.Metadata" : "인코딩 메타데이터",
+        "GaussianSplat.Encoding.EncodingPositions" : "{total}개중 {encoded}개의 위치 정보가 인코딩됨",
+        "GaussianSplat.Encoding.EncodingRotations" : "{total}개중 {encoded}개의 회전 정보가 인코딩됨",
+        "GaussianSplat.Encoding.EncodingScales" : "{total}개중 {encoded}개의 배율 정보가 인코딩됨",
+        "GaussianSplat.Encoding.EncodingAlphas" : "{total}개중 {encoded}개의 투명도 정보가 인코딩됨",
+        "GaussianSplat.Encoding.EncodingColors" : "{total}개중 {encoded}개의 색상 정보가 인코딩됨",
+        "GaussianSplat.Encoding.EncodingFinalizing" : "인코딩 마무리 중",
 
         "Importer.Video.Title": "영상/소리 가져오기",
         "Importer.Video.Prompt": "가져올 영상의 유형을 지정하세요.",
@@ -1928,6 +1951,7 @@
         "Settings.VideoStreamingServicesSettings": "영상 송출 서비스 설정",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "쿠키를 가져올 웹브라우저",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "유튜브 및 기타 영상 스트리밍 컨텐츠를 성공적으로 불러오기 위한 쿠키를 가져올 웹브라우저를 선택합니다.",
+        
         "Settings.PostProcessingSettings" : "후처리",
         "Settings.PostProcessingSettings.MotionBlurIntensity" : "모션 블러 강도",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description" : "이는 개체의 움직임으로 인해 이미지가 번지는 효과의 강도를 제어합니다. 값이 높을수록 더 많이 흐릿해집니다. \n\n값을 <nobr><color=hero.yellow>0%</color></nobr>로 설정하면 필터가 완전히 비활성화되어 프레임을 향상시킬 수 있습니다.",
@@ -1952,6 +1976,10 @@
         "Settings.TextureQualitySettings.AnisotropicLevel" : "이방성 레벨",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description" : "이방성 필터링의 품질을 제어합니다.",
         "Settings.TextureQualitySettings.ReloadAllTextures" : "모든 텍스처 다시 읽기(무거운 작업일 수 있습니다.)",
+
+        "Settings.GaussianSplatQualitySettings": "가우시안 스플랫 렌더링 품질",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera" : "카메라당 대규모 작업 정렬",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description" : "가우시안 스플랫을 렌더링 할 때는 각 카메라별로 스플랫을 정렬해야 합니다. 이 작업은 상당히 무거울 수 있기에 성능을 위해 시분할로 진행됩니다.<br><br>값을 <color=hero.yellow>증가</color>시키면 정렬이 빠르게 진행되고, 가우시안 스플랫 주변에 발생하는 잡음이 줄어듭니다.<br><br>값을<color=hero.yellow>감소</color>시키면 GPU를 통해 처리하는데 문제가 있는 경우, GPU 사용량이 줄어들고 시야각을 빠르게 변경할때 잡음이 증가합니다.",
 
         "Settings.ResolutionSettings" : "해상도",
         "Settings.ResolutionSettings.Fullscreen" : "전체화면",
@@ -2212,7 +2240,7 @@
         "Inspector.Texture.RotateCCW": "직각 좌회전",
         "Inspector.Texture.Rotate180": "180도 회전",
         "Inspector.Texture.TrimTransparent" : "투명한 4방 경계면 잘라내기",
-        "Inspector.Texture.TrimByCornerColor" : "Trim By Corner Color",
+        "Inspector.Texture.TrimByCornerColor" : "외곽색 영역 잘라내기",
         "Inspector.Texture.MakeSquare": "정사각형 만들기",
         "Inspector.Texture.ToNearestPOT": "2 거듭제곱에 가깝게",
         "Inspector.Texture.MakeTileable": "타일 만들기(변환비):",
