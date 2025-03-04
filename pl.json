@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "Chwyć: Precyzja",
         "Interaction.Grab.Auto": "Chwyć: Automatyczny",
         "Interaction.Grab.Off": "Chwyć: Tylko Laser",
+        "Interaction.Grabbing" : "Chwytanie",
+        "Interaction.Grab.StickyGrab" : "Lepki chwyt",
+        "Interaction.Grab.HoldToHold" : "Chwycić, by trzymać",
         "Interaction.Locomotion": "Lokomocja",
         "Interaction.Locomotion.None": "Żadna",
 
@@ -641,6 +644,7 @@
         "Contacts.IgnoreRequest": "Ignoruj Zaproszenie",
         "Contacts.Invite": "Zaproś Tutaj",
         "Contacts.RevokeInvite": "Unieważnij zaproszenie",
+        "Contacts.RequestInvite": "Poproś o zaproszenie",
         "Contacts.BanFromAllSessions": "Zbanuj z moich sesji",
         "Contacts.UnbanFromAllSessions": "Odbanuj z moich sesji",
         "Contacts.BanFromCurrentWorld": "Zbanuj z bieżącego świata",
@@ -692,6 +696,8 @@
         "Notifications.ReceivedItem": "Wysyłano Ci przedmiot:",
         "Notifications.VoiceMessage": "Wysłano wiadomość głosową",
         "Notifications.SessionStarted": "Stworzono sesję:",
+        "Notifications.ReceivedInviteRequestDirect": "Prosi o zaproszenie",
+        "Notifications.ReceivedInviteRequestForwarded": "Chce zaprosić:",
         "Notifications.UserJoined": "Użytkownik dołączył do sesji",
         "Notifications.UserLeft": "Użytkownik opuścił sesję",
         "Notifications.PermissionChanged": "Rola zmieniona na {new}",
@@ -1001,6 +1007,15 @@
         "Importer.Model.3DScan": "Skan 3D",
         "Importer.Model.CAD": "Model CAD",
         "Importer.Model.PointCloud": "Chmura Punktowa",
+
+        "Importer.Model.GaussianSplat": "Gaussian Splat",
+        "Importer.Model.GaussianSplatVertical": "Oś pionowa",
+        "Importer.Model.RegularVertical": "Normalna",
+        "Importer.Model.FlipVertical": "Obróć oś Y",
+        "Importer.Model.GaussianSplatEncoding": "Encodowanie",
+        "Importer.Model.GaussianSplatLossless": "Lossless",
+        "Importer.Model.GaussianSplatSPZ": "SPZ (lossy)",
+
         "Importer.Model.VertexColorModel": "Model z Kolorami Wierzchołków",
         "Importer.Model.AdvancedSettings": "Zaawansowane Ustawienia",
         "Importer.Model.ModelKindPrompt": "Jaki typ modelu 3D?",
@@ -1060,6 +1075,20 @@
         "Importer.Model.Advanced.Scalable": "Pozwól na Skalowanie",
         "Importer.Model.Advanced.PositionAtOrigin": "Pozycja w Oryginalnym Punkcie",
         "Importer.Model.Advanced.AssetsOnObject": "Umieść Zasoby na Obiekcie",
+
+        "Importer.Splat.Progress.Importing": "Importowanie Gaussian Splat",
+        "Importer.Splat.Progress.ReadingHeader": "Odczyt nagłówka pliku",
+        "Importer.Splat.Progress.ConvertingSplats": "Przekonwertowano {converted} splats z {total}",
+        "Importer.Splat.Progress.EncodingData": "Enkodowanie przekonwertowanych danych",
+
+        "GaussianSplat.Encoding.Title" : "Enkodowanie Gaussian Splat",
+        "GaussianSplat.Encoding.Metadata" : "Enkodowanie metadanych",
+        "GaussianSplat.Encoding.EncodingPositions" : "Enkodowanie {encoded} pozycji z {total}",
+        "GaussianSplat.Encoding.EncodingRotations" : "Enkodowanie {encoded} rotacji z {total}",
+        "GaussianSplat.Encoding.EncodingScales" : "Enkodowanie {encoded} skal z {total}",
+        "GaussianSplat.Encoding.EncodingAlphas" : "Enkodowanie {encoded} alfy z {total}",
+        "GaussianSplat.Encoding.EncodingColors" : "Enkodowanie {encoded} kolorów z {total}",
+        "GaussianSplat.Encoding.EncodingFinalizing" : "Finalizowanie enkodowania",
 
         "Importer.Video.Title": "Importer Filmów",
         "Importer.Video.Prompt": "Co chcesz importować?",
@@ -1779,7 +1808,7 @@
         "Settings.LaserSettings.ShowInDesktop": "Pokaż lasery w trybie stacjonarnym",
         "Settings.LaserSettings.ShowInDesktop.Description": "Po włączeniu, laser będzie w pełni wyświetlany w widoku pierwszoosobowym w trybie stacjonarnym.",
 
-        "Settings.EditSettings": "Edytuj ustawienia",
+        "Settings.EditSettings": "Ustawienia edycji",
         "Settings.EditSettings.ConfirmComponentDestroy": "Potwierdzanie usuwania komponentów",
         "Settings.EditSettings.ConfirmComponentDestroy.Description": "Gdy włączone, system zapyta Cię o potwierdzenie przed usunięciem komponentu w inspektorze. Dzięki temu nie usuniesz go przypadkiem przez pomyłkowe kliknięcie.",
         "Settings.EditSettings.ConfirmSlotDestroy": "Potwierdzanie usuwania slotów",
@@ -1823,6 +1852,8 @@
         "Settings.PhotoCaptureSettings.StereoSeparation.Description": "Służy do sterowania separacją między kamerami stereo, gdy tryb stereo jest włączony. Pozwala to kontrolować odległość między kamerami, co wpływa na siłę efektu stereo w przypadku bardziej oddalonych obiektów.\n\nPodczas fotografowania obiektów z bliska, niższe wartości będą działać lepiej, podczas fotografowania dużych scen, większe wartości będą działać lepiej.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Ścieżka automatycznego zapisu w ekwipunku",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Po ustawieniu tej opcji wszystkie zrobione zdjęcia (lub zapisane za pomocą menu kontekstowego) będą automatycznie zapisywane w ekwipunku w grze. Na przykład <color=hero.yellow>Photos/%year%/%month_name%</color>\n\nDostępne są następujące zmienne:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "Otwórz ścieżkę automatycznego zapisu z aktywnego świata",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "Jeśli masz skonfigurowane automatyczne zapisywanie zdjęć, kliknięcie tego przycisku otworzy folder, w którym zapisywane są zdjęcia ze świata, w którym aktualnie się znajdujesz.\n\nTa akcja nie powiedzie się, jeśli nie zrobiono żadnych zdjęć, ponieważ folder nie został jeszcze utworzony!",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Rejestrowanie prywatnego interfejsu użytkownika",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "Po włączeniu funkcja szybkiego robienia zdjęć będzie renderować prywatny interfejs użytkownika, taki jak tablica. Może to być przydatne w przypadku, gdy chcesz wyświetlić tam informacje.\n\nZalecamy wyłączenie tego ustawienia po zakończeniu, ponieważ pozostawienie go włączonego może prowadzić do przypadkowego zarejestrowania i wycieku prywatnych informacji.",
         "Settings.PhotoCaptureSettings.EncodeFormat": "Format kodowania",
@@ -1916,6 +1947,10 @@
         "Settings.RelaySettings.RelayPriorities": "Konfiguracja priorytetów serwera przekaźnikowego",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Priorytety przekaźników",
 
+        "Settings.VideoStreamingServicesSettings": "Ustawienia usług streamowania wideo",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Używanie plików cookie z przeglądarki",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Jeśli filmy z YouTube i innych usług nie ładują się, wybierz przeglądarkę, z której zwykle ładujesz pliki cookie podczas pobierania tych filmów. Zwiększy to szanse na pomyślne załadowanie wideo.",
+
         "Settings.PostProcessingSettings": "Post Processing",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Siła rozmycia w ruchu",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Kontroluje siłę efektu rozmycia ruchu, który rozmazuje obraz z ruchem. Wyższe wartości spowodują większe rozmycie przy tej samej ilości ruchu.\n\nJeśli ustawisz tę opcję na <nobr><color=hero.yellow>0 %</color></nobr> rozmycie zostanie całkowicie wyłączone, co może poprawić wydajność.",
@@ -1940,6 +1975,10 @@
         "Settings.TextureQualitySettings.AnisotropicLevel": "Poziom anizotropowy",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Kontroluje jakość filtrowania anizotropowego.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Przeładuj wszystkie tekstury",
+
+        "Settings.GaussianSplatQualitySettings": "Jakość renderowania Guassian Splat",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera" : "Sortowanie Mega-operacji na kamerę",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description" : "Podczas renderowania Gaussian Splats, splats muszą zostać posortowane dla każdej kamery. Obecnie operacja ta może być dość obciążająca, więc jest rozłożona na dłuższy czas, aby poprawić ogólną liczbę klatek na sekundę.<br><br><color=hero.yellow>Increase</color> Zwiększ wartość, aby sortowanie odbywało się szybciej. Zmniejszy to liczbę artefaktów podczas szybkiej zmiany kąta widzenia wokół Gaussian Splats.<br><br><color=hero.yellow>Decrease</color> Zmniejsz wartość, aby zredukować użycie GPU, jeśli procesor graficzny nie radzi sobie z tym. Spowoduje to jednak zwiększenie artefaktów przy szybkiej zmianie kąta widzenia.",
 
         "Settings.ResolutionSettings": "Rozdzielczość",
         "Settings.ResolutionSettings.Fullscreen": "Pełny ekran",
