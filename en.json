@@ -1857,7 +1857,7 @@
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Photo inventory autosave path",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "When set, any photos you capture (or save with context menu) will be automatically saved to your in-game inventory. For example <color=hero.yellow>Photos/%year%/%month_name%</color>\n\nFollowing variables are available:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
         "Settings.PhotoCaptureSettings.OpenAutosavePath": "Open autosave path for current world",
-        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "If you have photo autosave configured, clicking this will open Inventory at the location where photos are saved for the world you're currently in at the current time.\n\nMake sure that you've taken some photos in this world already, otherwise this action will fail, because the folder fill not exist yet!",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "If you have photo autosave configured, clicking this will open Inventory at the location where photos are saved for the world you're currently in at the current time.\n\nMake sure that you've taken some photos in this world already, otherwise this action will fail, because the folder will not exist yet!",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Capture Private UI",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "When enabled, the quick photo capture will render your private UI such as the dash. This can be useful in case you want to show information there.\n\nWe recommend turning this setting off once you're done, as leaving it on can lead to accidentally capturing and leaking your private information.",
         "Settings.PhotoCaptureSettings.EncodeFormat": "Encode Format",
@@ -1980,7 +1980,7 @@
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Controls the quality of the anisotropic filtering.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Reload All Textures (can be heavy)",
 
-        "Settings.GaussianSplatQualitySettings": "Guassian Splat Rendering Quality",
+        "Settings.GaussianSplatQualitySettings": "Gaussian Splat Rendering Quality",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera" : "Sorting Mega-operations per camera",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description" : "When rendering Gaussian Splats, the splats must be sorted for each camera. Currently, this operation can be quite heavy, so it is spread over time to improve overall framerate.<br><br><color=hero.yellow>Increase</color> the value for sorting to happen faster. This will reduce artifacts when changing the view angle around Gaussian Splats rapidly.<br><br><color=hero.yellow>Decrease</color> the value to reduce the GPU usage if your GPU has trouble handling it. However this will increase artifacts when you rapidly change view angle.",
 
