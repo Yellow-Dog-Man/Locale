@@ -45,6 +45,8 @@ Importer.UnsupportedRecordType.Description
 Importer.Link.Invalid.Heading  
 Importer.Link.Invalid.Description  
 Inventory.Link.LinkText  
+Export.GaussianSplatExportable.PLY  
+Export.GaussianSplatExportable.SPZ  
 Settings.NotificationSettings.InviteRequest  
 Settings.NotificationSettings.InviteRequest.Description  
 Settings.EditSettings  

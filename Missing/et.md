@@ -405,6 +405,8 @@ Export.PackageExportable.Package
 Export.PackageExportable.PackageWithVariants  
 Export.AudioExportable.OriginalFormat  
 Export.VideoExportable.OriginalFormat  
+Export.GaussianSplatExportable.PLY  
+Export.GaussianSplatExportable.SPZ  
 Importer.Package.Progress.DecodingPackage  
 Importer.Package.Progress.DecodingObject  
 Importer.Package.Progress.ImportingAssets  

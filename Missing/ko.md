@@ -21,6 +21,8 @@ GaussianSplat.Encoding.EncodingScales
 GaussianSplat.Encoding.EncodingAlphas  
 GaussianSplat.Encoding.EncodingColors  
 GaussianSplat.Encoding.EncodingFinalizing  
+Export.GaussianSplatExportable.PLY  
+Export.GaussianSplatExportable.SPZ  
 Settings.GaussianSplatQualitySettings  
 Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera  
 Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description  

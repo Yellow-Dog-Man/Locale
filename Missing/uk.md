@@ -74,6 +74,8 @@ Importer.UnsupportedRecordType.Description
 Importer.Link.Invalid.Heading  
 Importer.Link.Invalid.Description  
 Inventory.Link.LinkText  
+Export.GaussianSplatExportable.PLY  
+Export.GaussianSplatExportable.SPZ  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  

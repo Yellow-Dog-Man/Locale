@@ -27,6 +27,8 @@ GaussianSplat.Encoding.EncodingScales
 GaussianSplat.Encoding.EncodingAlphas  
 GaussianSplat.Encoding.EncodingColors  
 GaussianSplat.Encoding.EncodingFinalizing  
+Export.GaussianSplatExportable.PLY  
+Export.GaussianSplatExportable.SPZ  
 Settings.PhotoCaptureSettings.OpenAutosavePath  
 Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
 Settings.VideoStreamingServicesSettings  
