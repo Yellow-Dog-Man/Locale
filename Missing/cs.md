@@ -726,6 +726,10 @@ Settings.TextureQualitySettings.ReloadAllTextures
 Settings.GaussianSplatQualitySettings  
 Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera  
 Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description  
+Settings.GaussianSplatQualitySettings.QualityPreset  
+Settings.GaussianSplatQualitySettings.QualityPreset.Description  
+Settings.GaussianSplatQualitySettings.MinLocalQuality  
+Settings.GaussianSplatQualitySettings.MinLocalQuality.Description  
 Settings.ResolutionSettings  
 Settings.ResolutionSettings.Fullscreen  
 Settings.ResolutionSettings.Fullscreen.Description  
@@ -789,6 +793,10 @@ Inspector.Texture.ReplaceFromClipboard
 Inspector.Texture.AlphaGamma  
 Inspector.Texture.AdjustAlphaGamma  
 Inspector.Texture.AddAlpha  
+Inspector.GaussianSplat.SplatInfo  
+Inspector.GaussianSplat.Variant  
+Inspector.GaussianSplat.ColorByIndex  
+Inspector.GaussianSplat.ReorderMorton  
 Inspector.DataPreset.SetActive  
 Inspector.DataPreset.SetValues  
 Inspector.DataPreset.AddAllChildren  

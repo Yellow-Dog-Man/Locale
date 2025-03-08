@@ -101,6 +101,10 @@ Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description
 Settings.GaussianSplatQualitySettings  
 Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera  
 Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description  
+Settings.GaussianSplatQualitySettings.QualityPreset  
+Settings.GaussianSplatQualitySettings.QualityPreset.Description  
+Settings.GaussianSplatQualitySettings.MinLocalQuality  
+Settings.GaussianSplatQualitySettings.MinLocalQuality.Description  
 Settings.ImportSettings  
 Settings.ImportSettings.SessionUrls  
 Settings.ImportSettings.SessionUrls.Description  
@@ -111,6 +115,10 @@ Settings.ImportSettings.NetworkUrls.Description
 Inspector.Texture3D.SpawnVisualizer  
 Inspector.Skybox.SetActiveSkybox  
 Inspector.AmbientLightSH2.SetActiveAmbientLight  
+Inspector.GaussianSplat.SplatInfo  
+Inspector.GaussianSplat.Variant  
+Inspector.GaussianSplat.ColorByIndex  
+Inspector.GaussianSplat.ReorderMorton  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 

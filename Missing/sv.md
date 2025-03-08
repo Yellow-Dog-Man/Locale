@@ -1111,6 +1111,10 @@ Settings.TextureQualitySettings.ReloadAllTextures
 Settings.GaussianSplatQualitySettings  
 Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera  
 Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description  
+Settings.GaussianSplatQualitySettings.QualityPreset  
+Settings.GaussianSplatQualitySettings.QualityPreset.Description  
+Settings.GaussianSplatQualitySettings.MinLocalQuality  
+Settings.GaussianSplatQualitySettings.MinLocalQuality.Description  
 Settings.ResolutionSettings  
 Settings.ResolutionSettings.Fullscreen  
 Settings.ResolutionSettings.Fullscreen.Description  
@@ -1371,6 +1375,10 @@ Inspector.AudioStream.BufferState
 Inspector.AudioStream.EncodeState  
 Inspector.AudioStream.DecodeState  
 Inspector.AudioStream.BufferStats  
+Inspector.GaussianSplat.SplatInfo  
+Inspector.GaussianSplat.Variant  
+Inspector.GaussianSplat.ColorByIndex  
+Inspector.GaussianSplat.ReorderMorton  
 Inspector.DynamicBoneChain.SetupFromChildren  
 Inspector.DynamicBoneChain.SetupFromChildrenAll  
 Inspector.DynamicBoneChain.SetupFromChildrenRig  
