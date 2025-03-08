@@ -1982,8 +1982,12 @@
 
         "Settings.GaussianSplatQualitySettings": "高斯溅落渲染质量",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera" : "按摄像机分类巨量运算",
-        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description" : "渲染高斯溅落时，需按摄像机进行溅落排序。当前该运算负载较高，所以将采用分帧处理以提升整体帧率。<br><br><color=hero.yellow>调高</color>数值可加速排序过程，在快速变换高斯溅落观察角度时减少视觉伪影。<br><br><color=hero.yellow>调低</color>数值可减轻GPU负载，在GPU处理能力不足时，但快速变换观察角度时可能增加伪影。",
-        
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description" : "渲染高斯溅落时，必须按摄像机进行溅落排序。当前该运算负载较高，所以将采用分帧处理以提升整体帧率。<br><br><color=hero.yellow>调高</color>数值可加速排序过程，在快速变换高斯溅落观察角度时减少视觉伪影。<br><br><color=hero.yellow>调低</color>数值可减轻GPU负载，在GPU处理能力不足时，但快速变换观察角度时可能增加伪影。",
+        "Settings.GaussianSplatQualitySettings.QualityPreset" : "质量预设",
+        "Settings.GaussianSplatQualitySettings.QualityPreset.Description" : "控制高斯泼溅渲染质量及其显存使用量。质量越高，显存占用越大。<br><br><color=hero.yellow>极低:</color> 体积约缩小18.62倍<br><color=hero.yellow>低:</color> 体积约缩小14倍<br><color=hero.yellow>中:</color> 体积约缩小5.14倍<br><color=hero.yellow>高:</color> 体积约缩小2.94倍<br><color=hero.yellow>极高:</color> 未压缩（原始体积）",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality" : "最低本地压缩质量",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description" : "对于本地导入的高斯泼溅，其质量永远不会低于此设定值。<br><br>不建议设置为低于「中」，因为更低的质量级别需要更密集的压缩计算耗时，这类压缩工作应交给云端处理。<br><br>设为「极高」将使高斯泼溅在导入后无需压缩即可快速加载，但会显著增加显存占用。",
+
         "Settings.ResolutionSettings" : "分辨率",
         "Settings.ResolutionSettings.Fullscreen" : "全屏",
         "Settings.ResolutionSettings.Fullscreen.Description" : "在全屏模式和窗口模式之间切换。",
@@ -2289,6 +2293,11 @@
         "Inspector.AudioStream.EncodeState": "可编码：{samples}, 帧大小：{frame} (最大值：{max_frame}), 采样率：{rate}",
         "Inspector.AudioStream.DecodeState": "包总数：{total}, 丢包总数：{lost}, 数据包丢失：{loss, number, percent}",
         "Inspector.AudioStream.BufferStats": "平均编解码：{avgCodec}/s, 平均读取：{avgRead}/s, 平均写入：{avgWritten}/s",
+
+        "Inspector.GaussianSplat.SplatInfo" : "泼溅数量：{count}，显存占用：{vram}",
+        "Inspector.GaussianSplat.Variant" : "已加载变体：{variant}",
+        "Inspector.GaussianSplat.ColorByIndex" : "按索引着色泼溅",
+        "Inspector.GaussianSplat.ReorderMorton" : "使用莫顿排序重新排列泼溅",
 
         "Inspector.DynamicBoneChain.SetupFromChildren": "应用到子级",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll": "全部应用到子级",
