@@ -1008,13 +1008,13 @@
         "Importer.Model.CAD": "CAD​モデル",
         "Importer.Model.PointCloud": "点群",
 
-        "Importer.Model.GaussianSplat": "ガウススプラット",
+        "Importer.Model.GaussianSplat": "ガウシアンスプラッティング",
         "Importer.Model.GaussianSplatVertical": "垂直軸",
         "Importer.Model.RegularVertical": "通常",
         "Importer.Model.FlipVertical": "Y軸を反転",
         "Importer.Model.GaussianSplatEncoding": "エンコード",
         "Importer.Model.GaussianSplatLossless": "無圧縮",
-        "Importer.Model.GaussianSplatSPZ": "SPZ形式(非可逆)",
+        "Importer.Model.GaussianSplatSPZ": "SPZ (非可逆圧縮)",
 
         "Importer.Model.VertexColorModel": "頂点カラー​​モデル",
         "Importer.Model.AdvancedSettings": "高度な​設定",
@@ -1076,12 +1076,12 @@
         "Importer.Model.Advanced.PositionAtOrigin": "原点位置",
         "Importer.Model.Advanced.AssetsOnObject": "アセットをオブジェクト内に入れる",
 
-        "Importer.Splat.Progress.Importing": "ガウススプラットのインポート",
+        "Importer.Splat.Progress.Importing": "ガウシアンスプラッティングのインポート",
         "Importer.Splat.Progress.ReadingHeader": "ファイルヘッダの読み込み",
         "Importer.Splat.Progress.ConvertingSplats": "合計{total}のうち{converted}スプラットを変換",
         "Importer.Splat.Progress.EncodingData": "変換されたデータのエンコード",
 
-        "GaussianSplat.Encoding.Title" : "ガウススプラットのインポート",
+        "GaussianSplat.Encoding.Title" : "ガウシアンスプラッティングのインポート",
         "GaussianSplat.Encoding.Metadata" : "メタデータのエンコード",
         "GaussianSplat.Encoding.EncodingPositions" : "ポジションのエンコード:{total}中{encoded}",
         "GaussianSplat.Encoding.EncodingRotations" : "ローテーションのエンコード:{total}中{encoded}",
@@ -1125,6 +1125,9 @@
         "Export.AudioExportable.OriginalFormat" : "音声​<size=75%>(元のフォーマット)</size>",
 
         "Export.VideoExportable.OriginalFormat" : "動画​<size=75%>(元のフォーマット)</size>",
+
+        "Export.GaussianSplatExportable.PLY" : "PLY (無圧縮)",
+        "Export.GaussianSplatExportable.SPZ" : "SPZ (非可逆圧縮)",
 
         "Importer.Package.Progress.DecodingPackage" : "パッケージを解凍中",
         "Importer.Package.Progress.DecodingObject" : "オブジェクトを解凍中",
@@ -1977,9 +1980,13 @@
         "Settings.TextureQualitySettings.AnisotropicLevel.Description" : "異方性フィルタリングの品質を設定できます。",
         "Settings.TextureQualitySettings.ReloadAllTextures" : "すべてのテクスチャを再度読み込む(重くなる可能性があります)",
 
-        "Settings.GaussianSplatQualitySettings": "ガウススプラットのレンダリング品質",
+        "Settings.GaussianSplatQualitySettings": "ガウシアンスプラッティングのレンダリング品質",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera" : "カメラごとのメガ演算のソート",
-        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description" : "ガウススプラットをレンダリングする場合、スプラットはカメラごとにソートされる必要があります。 現在のところ、この動作はかなり重くなる可能性があるため、全体のフレームレートを向上させるために時間を分散させています。<br><br>この値を大きくするとソートが速くなります。これにより、視点を急速に移動したときのノイズを減らすことができます。<br><br>GPUの性能が高くない場合は、値を小さくしてGPU使用量を減らします。ただし、これは視点を急速に移動したときのノイズを増加させます。",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description" : "ガウシアンスプラッティングをレンダリングする場合、スプラットはカメラごとにソートされる必要があります。 現在のところ、この動作はかなり重くなる可能性があるため、全体のフレームレートを向上させるために時間を分散させています。<br><br>この値を大きくするとソートが速くなります。これにより、視点を急速に移動したときのノイズを減らすことができます。<br><br>GPUの性能が高くない場合は、値を小さくしてGPU使用量を減らします。ただし、これは視点を急速に移動したときのノイズを増加させます。",
+        "Settings.GaussianSplatQualitySettings.QualityPreset" : "品質プリセット",
+        "Settings.GaussianSplatQualitySettings.QualityPreset.Description" : "レンダリングされたガウシアンスプラッティングの品質とVRAM使用量を制御できます。 品質が高いほど、より多くのVRAMを使用します。<br><br><color=hero.yellow>非常に低い:</color> ~18.62x smaller<br><color=hero.yellow>低い:</color> ~14x smaller<br><color=hero.yellow>中間:</color> ~5.14x smaller<br><color=hero.yellow>高いh:</color> ~2.94x smaller<br><color=hero.yellow>非常に高い:</color> 非圧縮（オリジナル）",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality" : "最小限のローカル圧縮品質",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description" : "ローカルにインポートされたガウシアンスプラフティングの場合、品質がこの値より低くなることはありません。<br><br>これより低い品質へするには、圧縮にかかる負荷と時間が著しく高くなるため、クラウド上で圧縮するようにすべきです。<br><br>これを「非常に高い」に設定すると、VRAM の使用量の増加を犠牲にして圧縮する必要がなくなるため、インポート後のガウシアンスプラフティングの読み込みが大幅に高速化されます。",
 
         "Settings.ResolutionSettings": "解像度",
         "Settings.ResolutionSettings.Fullscreen": "フルスクリーン",
@@ -2286,6 +2293,11 @@
         "Inspector.AudioStream.EncodeState": "エンコード可能なサンプル: {samples}, フレームサイズ: {frame} (最大: {max_frame}), サンプルレート: {rate}",
         "Inspector.AudioStream.DecodeState": "全パケット: {total}, 総損失パケット数: {lost}, パケット損失: {loss, number, percent}",
         "Inspector.AudioStream.BufferStats": "平均コーデック: {avgCodec}/s, 平均読込み: {avgRead}/s, 平均書込み: {avgWritten}/s",
+
+        "Inspector.GaussianSplat.SplatInfo" : "スプラット数: {count}, VRAM使用量: {vram}",
+        "Inspector.GaussianSplat.Variant" : "ロードされたバリアント: {variant}",
+        "Inspector.GaussianSplat.ColorByIndex" : "インデックスによるカラースプラット",
+        "Inspector.GaussianSplat.ReorderMorton" : "モートンオーダーでスプラットを並べ替える",
 
         "Inspector.DynamicBoneChain.SetupFromChildren": "子にしたものをセットアップ",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll": "子にしたものを“強制的にすべて”セットアップ",
