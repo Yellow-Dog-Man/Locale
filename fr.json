@@ -1126,6 +1126,9 @@
 
         "Export.VideoExportable.OriginalFormat": "Vidéo <size=75%>(format original)</size>",
 
+        "Export.GaussianSplatExportable.PLY": "PLY (sans pertes)",
+        "Export.GaussianSplatExportable.SPZ": "SPZ (avec pertes)",
+
         "Importer.Package.Progress.DecodingPackage": "Décodage du paquet",
         "Importer.Package.Progress.DecodingObject": "Décodage de l'objet",
         "Importer.Package.Progress.ImportingAssets": "Importation des assets",
@@ -1977,7 +1980,12 @@
         "Settings.TextureQualitySettings.ReloadAllTextures": "Recharger toutes les textures (peut être lourd)",
 
         "Settings.GaussianSplatQualitySettings": "Qualité de splat gaussien",
-        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "Quand un splat gaussien est rendu, les splats doivent être filtrés pour chaque caméra. Pour l'instant, cette opération est lourde, donc est étalée sur du temps pour éviter les pertes de performance.<br><br><color=hero.yellow>Augmentez</color> la valeur pour que le filtrage soie plus rapide.<br><br><color=hero.yellow>Diminuez</color> la valeur pour réduire l'utilisation de votre carte graphique si elle à du mal avec le processus. Le splat va par contre avoir plus d’artefacts quand vous bougerez votre caméra rapidement.",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "Méga-operations de triage par caméra",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description": "Quand un splat gaussien est rendu, les splats doivent être filtrés pour chaque caméra. Pour l'instant, cette opération est lourde, donc est étalée sur du temps pour éviter les pertes de performance.<br><br><color=hero.yellow>Augmentez</color> la valeur pour que le filtrage soie plus rapide.<br><br><color=hero.yellow>Diminuez</color> la valeur pour réduire l'utilisation de votre carte graphique si elle à du mal avec le processus. Le splat va par contre avoir plus d’artefacts quand vous bougerez votre caméra rapidement.",
+        "Settings.GaussianSplatQualitySettings.QualityPreset": "Qualité",
+        "Settings.GaussianSplatQualitySettings.QualityPreset.Description": "Contrôle la qualité des splats et leur usage de VRAM.<br><br><color=hero.yellow>Très bas:</color> <br>~18.62x plus petit<br><color=hero.yellow>Bas</color> ~14x plus bas</color><br><color=hero.yellow>Medium:</color> ~5.14x plus bas</color></br><color=hero.yellow>Haut:</color> ~2.94x plus bas</color><br><color=hero.yellow>Très haut:</color> original.",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality": "Qualité locale compressée minimum",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description": "Pour les splats importées localement, la qualité ne sera jamais plus basse que celle-ci.<br><br>Nous ne recommandons pas les options en dessous de Medium car cela peut créer des problèmes de performance. La compression devrait être faite par le Cloud.<br><br>Sur l'option Très Haut, les splats chargerons plus vite, mais consommerons plus de VRAM.",
 
         "Settings.ResolutionSettings": "Résolution",
         "Settings.ResolutionSettings.Fullscreen": "Plein écran",
@@ -2284,6 +2292,11 @@
         "Inspector.AudioStream.EncodeState": "Disponible à encoder: {samples}, Taille de la trame: {frame} (Max: {max_frame}), Fréquence d'échantillonnage: {rate}",
         "Inspector.AudioStream.DecodeState": "Paquets totaux: {total}, Paquets totaux perdus: {lost},  Paquets perdus: {loss, number, percent}",
         "Inspector.AudioStream.BufferStats": "Moyenne codec: {avgCodec}/s, Moyenne lecture: {avgRead}/s, Moyenne écriture: {avgWritten}/s",
+
+        "Inspector.GaussianSplat.SplatInfo": "Nombre de splats: {count}, VRAM utilisée: {vram}",
+        "Inspector.GaussianSplat.Variant": "Variant chargé: {variant}",
+        "Inspector.GaussianSplat.ColorByIndex": "Splats de couleurs par index",
+        "Inspector.GaussianSplat.ReorderMorton": "Re-trier le splat avec Morton",
 
         "Inspector.DynamicBoneChain.SetupFromChildren": "Configurer depuis les enfants",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll": "Configurer depuis les enfants (force tous)",
