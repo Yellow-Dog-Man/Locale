@@ -1099,7 +1099,7 @@
         "Importer.Video.Depth": "심도(Depth) 영상",
         "Importer.Video.180": "180도 영상",
         "Importer.Video.Stereo180": "스테레오 180도 영상",
-        "Importer.Video.Depth.Prompt": "깊이 프리셋(Depth Preset)",
+        "Importer.Video.Depth.Prompt": "깊이 사전설정(Depth Preset)",
         "Importer.Video.Depth.Default": "기본",
 
         "Importer.Slices.Title": "볼륨메트릭 텍스처로 자르기",
@@ -1126,6 +1126,9 @@
 
         "Export.VideoExportable.OriginalFormat" : "영상 <size=75%>(원본 형식)</size>",
 
+        "Export.GaussianSplatExportable.PLY" : "PLY (무손실)",
+        "Export.GaussianSplatExportable.SPZ" : "SPZ (손실)",
+        
         "Importer.Package.Progress.DecodingPackage" : "패키지 디코딩",
         "Importer.Package.Progress.DecodingObject" : "객체 디코딩",
         "Importer.Package.Progress.ImportingAssets" : "자산 가져오는 중",
@@ -1980,6 +1983,10 @@
         "Settings.GaussianSplatQualitySettings": "가우시안 스플랫 렌더링 품질",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera" : "카메라당 대규모 작업 정렬",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description" : "가우시안 스플랫을 렌더링 할 때는 각 카메라별로 스플랫을 정렬해야 합니다. 이 작업은 상당히 무거울 수 있기에 성능을 위해 시분할로 진행됩니다.<br><br>값을 <color=hero.yellow>증가</color>시키면 정렬이 빠르게 진행되고, 가우시안 스플랫 주변에 발생하는 잡음이 줄어듭니다.<br><br>값을<color=hero.yellow>감소</color>시키면 GPU를 통해 처리하는데 문제가 있는 경우, GPU 사용량이 줄어들고 시야각을 빠르게 변경할때 잡음이 증가합니다.",
+        "Settings.GaussianSplatQualitySettings.QualityPreset" : "품질 사전설정",
+        "Settings.GaussianSplatQualitySettings.QualityPreset.Description" : "렌더링된 가우시안 스플랫의 품질과 비디오 메모리(VRAM) 사용량을 제어합니다. 품질이 높아질수록 VRAM 사용량이 증가합니다.<br><br><color=hero.yellow>Very Low</color>: ~18.62x 작음<br><color=hero.yellow>Low</color>: ~14x 작음<br><color=hero.yellow>Medium</color>: ~5.14x 작음<br><color=hero.yellow>High</color>: ~2.94x 작음<br><color=hero.yellow>Very High</color>: 비압축(원본)",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality" : "최소 압축 품질(로컬)",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description" : "로컬에서 가져온 가우시안 스플랫의 최소 품질값을 지정합니다.<br><br>이 값을 중간 미만으로 설정하는 것은 권장하지 않습니다. 품질치가 낮을수록 압축을 위한 시간이 오래 걸리므로 클라우드에서 압축하도록 두는것이 좋습니다.<br><br>이 값을 높이면 비디오 메모리(VRAM) 사용량이 증가하지만 압축을 수행할 필요가 없으므로 가우시안 스플랫이 더 빨리 불러와 집니다.",
 
         "Settings.ResolutionSettings" : "해상도",
         "Settings.ResolutionSettings.Fullscreen" : "전체화면",
@@ -2287,6 +2294,11 @@
         "Inspector.AudioStream.DecodeState": "전체 패킷량: {total}, 손실된 전체 패킷량: {lost}, 패킷 손실률: {loss, number, percent}",
         "Inspector.AudioStream.BufferStats": "평균코딩속도: {avgCodec}/s, 평균읽기속도: {avgRead}/s, 평균쓰기속도: {avgWritten}/s",
 
+        "Inspector.GaussianSplat.SplatInfo" : "스플랫 량: {count}, 비디오 메모리 사용량: {vram}",
+        "Inspector.GaussianSplat.Variant" : "읽어온 베리언트: {variant}",
+        "Inspector.GaussianSplat.ColorByIndex" : "색인별 색상 스플랫",
+        "Inspector.GaussianSplat.ReorderMorton" : "Morton 정렬(비트교차) 방식으로 스플랫 재정렬",
+        
         "Inspector.DynamicBoneChain.SetupFromChildren": "자식으로부터 설정",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll": "자식으로부터 설정(모두)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "자식으로부터 설정(리그만)",
@@ -2296,8 +2308,8 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "부모로부터 상속된 고정 콜라이더를 추가",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "항상 마지막 본을 잡도록 함",
 
-        "Inspector.DataPreset.SetActive": "프리셋 적용",
-        "Inspector.DataPreset.SetValues": "현재값을 프리셋에 저장",
+        "Inspector.DataPreset.SetActive": "사전설정 적용",
+        "Inspector.DataPreset.SetValues": "현재값을 사전설정에 저장",
         "Inspector.DataPreset.AddAllChildren": "항목 자동 추가",
 
         "Inspector.Rig.CleanupBoneColliders": "본(Bone) 콜라이더 삭제",
