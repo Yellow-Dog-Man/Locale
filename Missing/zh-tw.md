@@ -118,6 +118,9 @@ Tools.Glue.Mode.BakeSkinnedMeshes
 Tools.Glue.Mode.ParentObjects  
 Tools.RigTransfer.Name  
 Tools.RigTransfer.ClearSource  
+Tools.GaussianSplat.Name  
+Tools.GaussianSplat.ClipBox  
+Tools.GaussianSplat.ClipSphere  
 Tools.ComponentClone.Name  
 Tools.ComponentClone.SingleInstanceOn  
 Tools.ComponentClone.SingleInstanceOff  
@@ -152,6 +155,10 @@ GaussianSplat.Encoding.EncodingScales
 GaussianSplat.Encoding.EncodingAlphas  
 GaussianSplat.Encoding.EncodingColors  
 GaussianSplat.Encoding.EncodingFinalizing  
+GaussianSplat.Processing.RemovingSplats  
+GaussianSplat.Processing.SplatProgress  
+GaussianSplat.Processing.LoadingData  
+GaussianSplat.Processing.FailNoData  
 Importer.UnsupportedRecordType.Heading  
 Importer.UnsupportedRecordType.Description  
 Importer.Link.Invalid.Heading  

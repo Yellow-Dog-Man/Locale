@@ -39,6 +39,9 @@ Tools.ProtoFlux.PackInPlace
 Tools.ProtoFlux.PackInto  
 Tools.ProtoFlux.Unpack  
 Tools.ProtoFlux.ExplicitCast  
+Tools.GaussianSplat.Name  
+Tools.GaussianSplat.ClipBox  
+Tools.GaussianSplat.ClipSphere  
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
@@ -62,6 +65,10 @@ GaussianSplat.Encoding.EncodingScales
 GaussianSplat.Encoding.EncodingAlphas  
 GaussianSplat.Encoding.EncodingColors  
 GaussianSplat.Encoding.EncodingFinalizing  
+GaussianSplat.Processing.RemovingSplats  
+GaussianSplat.Processing.SplatProgress  
+GaussianSplat.Processing.LoadingData  
+GaussianSplat.Processing.FailNoData  
 Importer.Slices.Title  
 Importer.Slices.TitleGrayscale  
 Importer.Slices.Description  

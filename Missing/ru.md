@@ -21,6 +21,9 @@ Contacts.InviteRequest.ForwardedRequest
 Contacts.InviteRequest.GrantedRequest  
 Notifications.ReceivedInviteRequestDirect  
 Notifications.ReceivedInviteRequestForwarded  
+Tools.GaussianSplat.Name  
+Tools.GaussianSplat.ClipBox  
+Tools.GaussianSplat.ClipSphere  
 Importer.Model.GaussianSplat  
 Importer.Model.GaussianSplatVertical  
 Importer.Model.RegularVertical  
@@ -40,6 +43,10 @@ GaussianSplat.Encoding.EncodingScales
 GaussianSplat.Encoding.EncodingAlphas  
 GaussianSplat.Encoding.EncodingColors  
 GaussianSplat.Encoding.EncodingFinalizing  
+GaussianSplat.Processing.RemovingSplats  
+GaussianSplat.Processing.SplatProgress  
+GaussianSplat.Processing.LoadingData  
+GaussianSplat.Processing.FailNoData  
 Importer.UnsupportedRecordType.Heading  
 Importer.UnsupportedRecordType.Description  
 Importer.Link.Invalid.Heading  

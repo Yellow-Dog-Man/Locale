@@ -59,6 +59,9 @@ Tools.ProtoFlux.Name
 Tools.Meter.Name  
 Tools.Glue.Name  
 Tools.RigTransfer.Name  
+Tools.GaussianSplat.Name  
+Tools.GaussianSplat.ClipBox  
+Tools.GaussianSplat.ClipSphere  
 Tools.ComponentClone.Name  
 Tools.Shape.Name  
 Tools.CameraObjectHider.Name  
@@ -90,6 +93,10 @@ GaussianSplat.Encoding.EncodingScales
 GaussianSplat.Encoding.EncodingAlphas  
 GaussianSplat.Encoding.EncodingColors  
 GaussianSplat.Encoding.EncodingFinalizing  
+GaussianSplat.Processing.RemovingSplats  
+GaussianSplat.Processing.SplatProgress  
+GaussianSplat.Processing.LoadingData  
+GaussianSplat.Processing.FailNoData  
 Importer.UnsupportedRecordType.Heading  
 Importer.UnsupportedRecordType.Description  
 Importer.Link.Invalid.Heading  
