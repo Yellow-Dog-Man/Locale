@@ -257,6 +257,16 @@ Settings.GaussianSplatQualitySettings.QualityPreset
 Settings.GaussianSplatQualitySettings.QualityPreset.Description  
 Settings.GaussianSplatQualitySettings.MinLocalQuality  
 Settings.GaussianSplatQualitySettings.MinLocalQuality.Description  
+Settings.GaussianSplatQualitySettings.AdvancedQuality  
+Settings.GaussianSplatQualitySettings.AdvancedQuality.Description  
+Settings.GaussianSplatQualitySettings.PositionFormat  
+Settings.GaussianSplatQualitySettings.PositionFormat.Description  
+Settings.GaussianSplatQualitySettings.ScaleFormat  
+Settings.GaussianSplatQualitySettings.ScaleFormat.Description  
+Settings.GaussianSplatQualitySettings.ColorFormat  
+Settings.GaussianSplatQualitySettings.ColorFormat.Description  
+Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat  
+Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description  
 Settings.ResolutionSettings.Fullscreen.Description  
 Settings.ResolutionSettings.WindowResolution.Description  
 Settings.ResolutionSettings.FullscreenResolution.Description  
