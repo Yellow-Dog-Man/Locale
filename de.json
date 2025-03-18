@@ -864,6 +864,10 @@
         "Tools.RigTransfer.Name": "Rigged-Mesh-Übertragungs-Tool",
         "Tools.RigTransfer.ClearSource": "Quelle entfernen",
 
+        "Tools.GaussianSplat.Name": "Gaussian Splat Tool",
+        "Tools.GaussianSplat.ClipBox": "Quader-Ausschnitt",
+        "Tools.GaussianSplat.ClipSphere": "Kugel-Ausschnitt",
+
         "Tools.ComponentClone.Name": "Komponenten-Kopiertool",
         "Tools.ComponentClone.SingleInstanceOn": "Nur eine Instanz: An",
         "Tools.ComponentClone.SingleInstanceOff": "Nur eine Instanz: Aus",
@@ -1089,6 +1093,11 @@
         "GaussianSplat.Encoding.EncodingAlphas" : "Encodiere Alphas {encoded} von {total}",
         "GaussianSplat.Encoding.EncodingColors" : "Encodiere Farben {encoded} von {total}",
         "GaussianSplat.Encoding.EncodingFinalizing" : "Finalisierung der Encodierung",
+
+        "GaussianSplat.Processing.RemovingSplats": "Entferne Splats",
+        "GaussianSplat.Processing.SplatProgress": "{count} von {total} bearbeitet",
+        "GaussianSplat.Processing.LoadingData": "Lade Asset-Daten",
+        "GaussianSplat.Processing.FailNoData": "Asset-Daten konnten nicht bearbeitet werden",
 
         "Importer.Video.Title": "Video-Import",
         "Importer.Video.Prompt": "Was möchten Sie importieren?",
@@ -1987,6 +1996,16 @@
         "Settings.GaussianSplatQualitySettings.QualityPreset.Description": "Dies bestimmt die Qualität der gerenderten Gaussian Splats und deren VRAM-Verbrauch. Eine bessere Qualität verbraucht mehr VRAM.<br><br><color=hero.yellow>Very Low:</color> Sehr niedrig: ~18,62x kleiner<br><color=hero.yellow>Low:</color> Niedrig: ~14x kleiner<br><color=hero.yellow>Medium:</color> Mittel: ~5,14x kleiner<br><color=hero.yellow>High:</color> Hoch: ~2,94x kleiner<br><color=hero.yellow>Very High:</color> Sehr hoch: Unkomprimiert (Original)",
         "Settings.GaussianSplatQualitySettings.MinLocalQuality": "Minimale Qualitätsstufe für lokale Komprimierung",
         "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description": "Dies bestimmt die minimale Qualitätsstufe für lokal importierte Gaussian Splats.<br><br>Wir empfehlen, diesen Wert nicht unter 'Mittel' zu setzen, da niedrigere Qualitätsstufen zu einer wesentlich intensiveren und zeitaufwändigeren Komprimierung führen und diese daher in der Cloud durchgeführt werden sollte.<br><br>Die Einstellung 'Sehr hoch' führt dazu, dass Gaussian Splats nach dem Import viel schneller geladen werden, da sie nicht mit hohem VRAM-Verbrauch komprimiert werden müssen.",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality": "Erweiterte Qualitätseinstellungen",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description": "Wenn diese Option aktiviert ist, können Sie spezielle Encodierungen konfigurieren, die für verschiedene Gaussian-Splat-Puffer verwendet werden. Dadurch erhalten Sie eine sehr feine Kontrolle über die Qualität. Dies kann auch zu Test- und Diagnosezwecken verwendet werden.",
+        "Settings.GaussianSplatQualitySettings.PositionFormat": "Positionsdatenformat",
+        "Settings.GaussianSplatQualitySettings.PositionFormat.Description": "Encodierung für die Positionen der Splats",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat": "Skalierungsdatenformat",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat.Description": "Encodierung für die Skalierung der Splats",
+        "Settings.GaussianSplatQualitySettings.ColorFormat": "Farbdatenformat",
+        "Settings.GaussianSplatQualitySettings.ColorFormat.Description": "Encodierung für Farbe und Deckkraft der Splats",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat": "Spherical-Harmonics-Datenformat",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description": "Encodierung für die Spherical-Harmonics-Daten der Splats",
 
         "Settings.ResolutionSettings": "Auflösung",
         "Settings.ResolutionSettings.Fullscreen": "Vollbild",
