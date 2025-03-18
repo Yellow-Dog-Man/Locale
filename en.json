@@ -864,6 +864,10 @@
         "Tools.RigTransfer.Name": "Rig Mesh Transfer Tool",
         "Tools.RigTransfer.ClearSource": "Clear source",
 
+        "Tools.GaussianSplat.Name" : "Gaussian Splat Tool",
+        "Tools.GaussianSplat.ClipBox" : "Clip Box",
+        "Tools.GaussianSplat.ClipSphere" : "Clip Sphere",
+
         "Tools.ComponentClone.Name": "Component Clone Tool",
         "Tools.ComponentClone.SingleInstanceOn": "Single Instance: On",
         "Tools.ComponentClone.SingleInstanceOff": "Single Instance: Off",
@@ -1089,6 +1093,11 @@
         "GaussianSplat.Encoding.EncodingAlphas" : "Encoding alphas {encoded} of {total}",
         "GaussianSplat.Encoding.EncodingColors" : "Encoding colors {encoded} of {total}",
         "GaussianSplat.Encoding.EncodingFinalizing" : "Finalizing encode",
+
+        "GaussianSplat.Processing.RemovingSplats" : "Removing Splats",
+        "GaussianSplat.Processing.SplatProgress" : "Processed {count} of {total}",
+        "GaussianSplat.Processing.LoadingData" : "Loading Asset Data",
+        "GaussianSplat.Processing.FailNoData" : "Could not get asset data to process",
 
         "Importer.Video.Title": "Import Video",
         "Importer.Video.Prompt": "What are you importing?",
@@ -1987,6 +1996,16 @@
         "Settings.GaussianSplatQualitySettings.QualityPreset.Description" : "This controls the quality of rendered gaussian splats and their VRAM usage. Higher quality will use more VRAM.<br><br><color=hero.yellow>Very Low:</color> ~18.62x smaller<br><color=hero.yellow>Low:</color> ~14x smaller<br><color=hero.yellow>Medium:</color> ~5.14x smaller<br><color=hero.yellow>High:</color> ~2.94x smaller<br><color=hero.yellow>Very High:</color> Uncompressed (original)",
         "Settings.GaussianSplatQualitySettings.MinLocalQuality" : "Minimum locally compressed quality",
         "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description" : "For locally imported gaussian splats, the quality will never be lower than this value.<br><br>We do not recommend setting this below Medium, as lower quality levels are significantly more intense and time consuming to compress and should be left to compress on the cloud.<br><br>Setting this to Very High will make gaussian splats load much faster after import due to not having to be compressed at cost of high VRAM usage.",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality" : "Advanced Quality Settings",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description" : "When enabled, you can configure the specific encodings used for different Gaussian Splat buffers. This gives you very fined grained control over the quality. It can also be used for testing/diagnostics purposes.",
+        "Settings.GaussianSplatQualitySettings.PositionFormat" : "Position data format",
+        "Settings.GaussianSplatQualitySettings.PositionFormat.Description" : "Encoding used for the positions of the splats",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat" : "Scale data format",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat.Description" : "Encoding used for the scales of the splats",
+        "Settings.GaussianSplatQualitySettings.ColorFormat" : "Color data format",
+        "Settings.GaussianSplatQualitySettings.ColorFormat.Description" : "Encoding used for the colors & opacities of the splats",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat" : "Spherical Harmonics data format",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description" : "Encoding used for the spherical harmonic data of the splats",
 
         "Settings.ResolutionSettings": "Resolution",
         "Settings.ResolutionSettings.Fullscreen": "Fullscreen",
@@ -3038,7 +3057,7 @@
         "Universe.Universe.StarCluster": "Star Cluster",
         "Universe.Galaxies.Andromeda": "Andromeda",
         "Universe.Galaxies.Sombrero": "Sombrero",
-        "Universe.Universe.GalaxyFillament": "Galaxy Fillament",
+        "Universe.Universe.GalaxyFillament": "Galaxy Filament",
         "Universe.Universe.ObservableUniverse": "Observable Universe",
         "Universe.Galaxies.IC1101": "IC 1101",
         "Universe.Galaxies.SmallMagellanicCloud": "Small Magellanic Cloud (dwarf galaxy)",
