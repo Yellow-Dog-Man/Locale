@@ -864,6 +864,10 @@
         "Tools.RigTransfer.Name": "绑定网格转换工具",
         "Tools.RigTransfer.ClearSource": "清理源文件",
 
+        "Tools.GaussianSplat.Name" : "高斯溅射工具",
+        "Tools.GaussianSplat.ClipBox" : "裁剪框",
+        "Tools.GaussianSplat.ClipSphere" : "裁剪球体", 
+
         "Tools.ComponentClone.Name": "组件克隆工具",
         "Tools.ComponentClone.SingleInstanceOn": "单个实例: 启用",
         "Tools.ComponentClone.SingleInstanceOff": "单个实例: 禁用",
@@ -1089,6 +1093,11 @@
         "GaussianSplat.Encoding.EncodingAlphas" : "正在编码透明度（{encoded}/{total}）",
         "GaussianSplat.Encoding.EncodingColors" : "正在编码颜色信息（{encoded}/{total}）",
         "GaussianSplat.Encoding.EncodingFinalizing" : "正在完成编码",
+
+        "GaussianSplat.Processing.RemovingSplats" : "正在移除溅射点",
+        "GaussianSplat.Processing.SplatProgress" : "已处理 {count}/{total}",
+        "GaussianSplat.Processing.LoadingData" : "正在加载资产数据",
+        "GaussianSplat.Processing.FailNoData" : "无法获取待处理的资产数据",
         
         "Importer.Video.Title": "视频导入工具",
         "Importer.Video.Prompt": "请选择视频类型",
@@ -1987,6 +1996,16 @@
         "Settings.GaussianSplatQualitySettings.QualityPreset.Description" : "控制高斯泼溅渲染质量及其显存使用量。质量越高，显存占用越大。<br><br><color=hero.yellow>极低:</color> 体积约缩小18.62倍<br><color=hero.yellow>低:</color> 体积约缩小14倍<br><color=hero.yellow>中:</color> 体积约缩小5.14倍<br><color=hero.yellow>高:</color> 体积约缩小2.94倍<br><color=hero.yellow>极高:</color> 未压缩（原始体积）",
         "Settings.GaussianSplatQualitySettings.MinLocalQuality" : "最低本地压缩质量",
         "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description" : "对于本地导入的高斯泼溅，其质量永远不会低于此设定值。<br><br>不建议设置为低于「中」，因为更低的质量级别需要更密集的压缩计算耗时，这类压缩工作应交给云端处理。<br><br>设为「极高」将使高斯泼溅在导入后无需压缩即可快速加载，但会显著增加显存占用。",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality" : "高级质量设置",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description" : "启用后，可配置不同高斯溅射缓冲区使用的特定编码格式，实现像素级精细质量调控。也可用于测试/诊断用途。",
+        "Settings.GaussianSplatQualitySettings.PositionFormat" : "位置数据格式",
+        "Settings.GaussianSplatQualitySettings.PositionFormat.Description" : "溅射元素位置坐标的编码方式",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat" : "缩放数据格式",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat.Description" : "溅射元素缩放系数的编码方式",
+        "Settings.GaussianSplatQualitySettings.ColorFormat" : "颜色数据格式",
+        "Settings.GaussianSplatQualitySettings.ColorFormat.Description" : "溅射元素颜色值及不透明度的编码方式",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat" : "球谐函数数据格式",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description" : "溅射元素球谐函数数据的编码方式",
 
         "Settings.ResolutionSettings" : "分辨率",
         "Settings.ResolutionSettings.Fullscreen" : "全屏",
