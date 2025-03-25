@@ -101,6 +101,7 @@ Settings.ImportSettings.WorldUrls
 Settings.ImportSettings.WorldUrls.Description  
 Settings.ImportSettings.NetworkUrls  
 Settings.ImportSettings.NetworkUrls.Description  
+Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.Skybox.SetActiveSkybox  
 Inspector.AmbientLightSH2.SetActiveAmbientLight  
 Inspector.GaussianSplat.SplatInfo  

@@ -25,6 +25,7 @@ Settings.GaussianSplatQualitySettings.ColorFormat
 Settings.GaussianSplatQualitySettings.ColorFormat.Description  
 Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat  
 Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description  
+Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.GaussianSplat.SplatInfo  
 Inspector.GaussianSplat.Variant  
 Inspector.GaussianSplat.ColorByIndex  

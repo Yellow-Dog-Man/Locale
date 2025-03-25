@@ -530,6 +530,7 @@ Inspector.Mesh.UV_Multiplicator
 Inspector.Mesh.ScaleUVs  
 Inspector.MeshRenderer.MergeByMaterial  
 Inspector.MeshRenderer.SplitByMaterial  
+Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.MeshCollider.VHACD  
 Inspector.MeshCollider.ReplaceBox  
 Inspector.Texture3D.SpawnVisualizer  

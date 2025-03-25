@@ -1142,6 +1142,7 @@ Inspector.Mesh.RecalculateBlendshapeNormalsSmooth
 Inspector.Mesh.RecalculateBlendshapeTangentsMikkt  
 Inspector.Mesh.ConvertToPointCloud  
 Inspector.Mesh.MergeBlendshapes  
+Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.MeshCollider.VHACD  
 Inspector.MeshCollider.ReplaceBox  
 Inspector.Texture3D.SpawnVisualizer  

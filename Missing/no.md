@@ -832,6 +832,7 @@ Inspector.Member.SplitBlendshape.Y
 Inspector.Member.SplitBlendshape.Z  
 Inspector.ProceduralAsset.UpdateCount  
 Inspector.ProceduralAsset.Error  
+Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.Texture3D.SpawnVisualizer  
 Inspector.Skybox.SetActiveSkybox  
 Inspector.AmbientLightSH2.SetActiveAmbientLight  

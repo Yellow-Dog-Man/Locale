@@ -19,4 +19,5 @@ Settings.GaussianSplatQualitySettings.ColorFormat
 Settings.GaussianSplatQualitySettings.ColorFormat.Description  
 Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat  
 Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description  
+Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 
