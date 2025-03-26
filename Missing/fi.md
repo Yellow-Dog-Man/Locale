@@ -297,6 +297,7 @@ Inspector.Mesh.ReverseWinding
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  
 Inspector.Mesh.UV_Multiplicator  
+Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.Skybox.SetActiveSkybox  
 Inspector.AmbientLightSH2.SetActiveAmbientLight  
 Inspector.VHACD.Parameter.PlaneDownsampling  
