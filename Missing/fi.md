@@ -285,6 +285,7 @@ Settings.ImportSettings.WorldUrls
 Settings.ImportSettings.WorldUrls.Description  
 Settings.ImportSettings.NetworkUrls  
 Settings.ImportSettings.NetworkUrls.Description  
+Settings.MysterySettings  
 Inspector.Title  
 Inspector.Slot.ParentUnder.Label  
 Inspector.Slot.ParentUnder.WorldRoot  
