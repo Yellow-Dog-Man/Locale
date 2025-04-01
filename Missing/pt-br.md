@@ -806,6 +806,7 @@ Settings.ImportSettings.WorldUrls
 Settings.ImportSettings.WorldUrls.Description  
 Settings.ImportSettings.NetworkUrls  
 Settings.ImportSettings.NetworkUrls.Description  
+Settings.MysterySettings  
 LocomotionArchetype.Walk  
 LocomotionArchetype.Fly  
 LocomotionArchetype.NoClip  
