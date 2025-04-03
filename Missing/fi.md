@@ -42,6 +42,7 @@ Tools.ProtoFlux.ExplicitCast
 Tools.GaussianSplat.Name  
 Tools.GaussianSplat.ClipBox  
 Tools.GaussianSplat.ClipSphere  
+Tools.GaussianSplat.ClipCylinder  
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  

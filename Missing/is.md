@@ -216,6 +216,7 @@ Tools.RigTransfer.ClearSource
 Tools.GaussianSplat.Name  
 Tools.GaussianSplat.ClipBox  
 Tools.GaussianSplat.ClipSphere  
+Tools.GaussianSplat.ClipCylinder  
 Tools.ComponentClone.Name  
 Tools.ComponentClone.SingleInstanceOn  
 Tools.ComponentClone.SingleInstanceOff  

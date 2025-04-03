@@ -62,6 +62,7 @@ Tools.RigTransfer.Name
 Tools.GaussianSplat.Name  
 Tools.GaussianSplat.ClipBox  
 Tools.GaussianSplat.ClipSphere  
+Tools.GaussianSplat.ClipCylinder  
 Tools.ComponentClone.Name  
 Tools.Shape.Name  
 Tools.CameraObjectHider.Name  

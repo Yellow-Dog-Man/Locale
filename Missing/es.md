@@ -32,6 +32,7 @@ Tools.RigTransfer.Name
 Tools.GaussianSplat.Name  
 Tools.GaussianSplat.ClipBox  
 Tools.GaussianSplat.ClipSphere  
+Tools.GaussianSplat.ClipCylinder  
 Importer.Model.GaussianSplat  
 Importer.Model.GaussianSplatVertical  
 Importer.Model.RegularVertical  
