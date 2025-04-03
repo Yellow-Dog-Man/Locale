@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "Tartunta: Tarkkuus",
         "Interaction.Grab.Auto": "Tartunta: Automaattinen",
         "Interaction.Grab.Off": "Tartunta: Vain laaseri",
+
+
+
         "Interaction.Locomotion": "Liikkumistila",
         "Interaction.Locomotion.None": "Ei mitään",
 
@@ -213,6 +216,7 @@
         "World.Error.Handshake": "Kättelyvirhe",
         "World.Error.Unknown": "Tuntematon virhe",
         "World.Error.FailedToCreateBanAccessKey": "Estoavaimen luonti epäonnistui",
+        "World.Error.UnhandledError": "Käsittelemätön virhe",
 
         "World.Config.Name": "Maailman nimi:",
         "World.Config.Description": "Kuvaus:",
@@ -585,6 +589,7 @@
         "Account.Type.Standard": "Perustili",
         "Account.Type.Business": "Yritystili",
         "Account.Type.Patreon": "Patreon Tukija",
+        "Account.Type.Stripe": "Stripe Tukija",
         "Account.Type.Mentor": "{platform} Mentori",
         "Account.Type.Moderator": "{platform} Moderaattori",
         "Account.Type.Team": "{platform} Tiimi",
@@ -639,6 +644,7 @@
         "Contacts.IgnoreRequest": "Hylkää pyyntö",
         "Contacts.Invite": "Kutsu tänne",
         "Contacts.RevokeInvite": "Peru kutsu",
+        "Contacts.RequestInvite": "Pyydä kutsua",
         "Contacts.BanFromAllSessions": "Estä KAIKISTA minun sessioistani",
         "Contacts.UnbanFromAllSessions": "Poista esto KAIKISTA minun sessioistani",
         "Contacts.BanFromCurrentWorld": "Estä nykyisestä maailmasta",
@@ -668,6 +674,19 @@
         "Contacts.Bot": "Robotti",
         "Contacts.Migrated": "Kontakti ei ole siirtänyt tiliään",
         "Contacts.IncompatibleSession": "Yhteensopimaton sessio",
+        "Contacts.AskToJoin": "<color=hero.yellow>Pyydä</color> kutsua",
+
+        "Contacts.InviteRequest.UserWantsToJoin": "{username} haluaa liittyä sessioon",
+        "Contacts.InviteRequest.UserWantsToInviteAnother": "\"{requestingUser}\" haluaa kutsua \"{userToInvite}\" sessioon \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantInvite": "Hyväksy pyynto (vain kerran)",
+        "Contacts.InviteRequest.AddAsContact": "Lisää \"{username}\" kontakteihin",
+        "Contacts.InviteRequest.AddAsContactOfHeadless": "Lisää \"{username}\" palvelimen kontakteihin",
+        "Contacts.InviteRequest.AddHostAsContact": "Lisää \"{username}\" (isäntä) kontakteihin",
+        "Contacts.InviteRequest.HostIsUnregistered": "Isäntä on rekisteröimätön käyttäjä",
+        "Contacts.InviteRequest.ForwardToHost": "Välitä isännälle: {username}",
+        "Contacts.InviteRequest.SentRequest": "Pyyntö lähetetty",
+        "Contacts.InviteRequest.ForwardedRequest": "\"{username}\" pyyntö liittyä sessioon \"{sessionName}\" välitetty",
+        "Contacts.InviteRequest.GrantedRequest": "Hyväksytty \"{username}\" kutsu liittyä sessioon \"{sessionName}\"",
 
         "Notifications.IsSociable": "Asetti tilansa sosiaaliseksi",
         "Notifications.IsOnline": "On nyt Online",
@@ -677,6 +696,8 @@
         "Notifications.ReceivedItem": "Lähetti sinulle tavaran:",
         "Notifications.VoiceMessage": "Lähetti ääniviestin",
         "Notifications.SessionStarted": "Aloitti session:",
+        "Notifications.ReceivedInviteRequestDirect": "Haluaa saada kutsun",
+        "Notifications.ReceivedInviteRequestForwarded": "Haluaa kutsua:",
         "Notifications.UserJoined": "Käyttäjä liittyi",
         "Notifications.UserLeft": "Käyttäjä poistui",
         "Notifications.PermissionChanged": "Käyttöoikeutesi muutettu: {new}",
@@ -843,6 +864,10 @@
         "Tools.RigTransfer.Name": "Rigin tahkoverkon siirtotyökalu",
         "Tools.RigTransfer.ClearSource": "Nollaa lähde",
 
+
+
+
+
         "Tools.ComponentClone.Name": "Komponenttien kloonaustyökalu",
         "Tools.ComponentClone.SingleInstanceOn": "Kertakloonaus: Päällä",
         "Tools.ComponentClone.SingleInstanceOff": "Kertakloonaus: Pois",
@@ -863,6 +888,7 @@
         "CreateNew.Back": "<<< <i>Takaisin</i>",
         "CreateNew.EmptyObject": "Tyhjä Objekti",
         "CreateNew.ParticleSystem": "Partikkelijärjestelmä",
+        "CreateNew.LegacyParticleSystem": "Vanha partikkelijärjestelmä",
 
         "CreateNew.Object": "Objekti",
         "CreateNew.Object.AvatarCreator": "Avatar luoja",
@@ -985,6 +1011,15 @@
         "Importer.Model.3DScan": "3D-skannaus",
         "Importer.Model.CAD": "CAD-malli",
         "Importer.Model.PointCloud": "Pistepilvi",
+
+
+
+
+
+
+
+
+
         "Importer.Model.VertexColorModel": "Vertex-värillinen malli",
         "Importer.Model.AdvancedSettings": "Lisäasetukset",
         "Importer.Model.ModelKindPrompt": "Millainen 3D-malli?",
@@ -1045,6 +1080,25 @@
         "Importer.Model.Advanced.PositionAtOrigin": "Tuo maailman keskipisteeseen",
         "Importer.Model.Advanced.AssetsOnObject": "Aseta resurssit objektiin",
 
+        "Importer.Splat.Progress.Importing": "Tuodaan Gaussian Splat",
+        "Importer.Splat.Progress.ReadingHeader": "Luetaan tiedostoa",
+
+
+
+
+
+
+
+
+
+
+
+
+
+        "GaussianSplat.Processing.SplatProgress": "Prosessoitu {count} / {total}",
+
+
+
         "Importer.Video.Title": "Tuo Video",
         "Importer.Video.Prompt": "Mitä tuot?",
         "Importer.Video.Regular": "Video",
@@ -1061,6 +1115,12 @@
 
 
 
+
+
+        "Importer.Link.Invalid.Heading":"Virheellinen kansiolinkki",
+
+
+
         "Exporter.Title": "Vie",
         "Exporter.FileName": "Tiedoston nimi:",
         "Exporter.ExportAs": "Vie nimellä:",
@@ -1074,6 +1134,9 @@
         "Export.AudioExportable.OriginalFormat": "Audio <size=75%>(alkuperäinen formaatti)</size>",
 
         "Export.VideoExportable.OriginalFormat": "Video <size=75%>(alkuperäinen formaatti)</size>",
+
+
+
 
         "Importer.Package.Progress.DecodingPackage": "Puretaan pakettia",
         "Importer.Package.Progress.DecodingObject": "Puretaan objektia",
@@ -1357,7 +1420,7 @@
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Tämä määrittää, mikä on käsien vakiotarttumistyyli, kun spawnaat maailmaan.\n\n<color=hero.yellow>Kämmen:</color> Tartut kaikkiin esineisiin, jotka ovat lähellä kämmentäsi.\n\n<color=hero.yellow>Tarkkuus:</color> Tartut yksittäiseen esineeseen etusormen ja peukalon välissä.\n\n<color=hero.yellow>Auto:</color> Tila vaihtuu automaattisesti Kämmenen ja Tarkkuuden välillä kätesi asennon mukaan.\n\n<color=hero.yellow>Off:</color> Voit tarttua esineisiin vain laasereilla.",
 
 
-        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "Kehon vaakakulma",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Kehon vaakakulma",
 
 
         "Settings.GamepadSettings": "Peliohjain",
@@ -1380,6 +1443,14 @@
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "Kun esineitä pidellään työpöytätilassa, tämä määrittää, kuinka nopeasti niitä voi pyörittää, kun käytetään vapaamuotoista kiertoa.",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "Tartuntaliikkumisen nopeus",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "Kun esineitä pidellään työpöytätilassa, tämä määrittää, kuinka nopeasti niitä voi liikuttaa edestakaisin hiirenrullalla.",
+
+        "Settings.KeyboardLookSettings": "Näppäimistökatselun asetukset",
+        "Settings.KeyboardLookSettings.LookEnabled": "Näppäimistökatselu",
+        "Settings.KeyboardLookSettings.LookEnabled.Description": "Kun Näppäimistökatselu on käytössä, voit liikuttaa päätäsi näppäimistön nuolinäppäimillä. Se on suunniteltu tilanteisiin, joissa hiiri ei ehkä ole käytettävissä, kuten kannettavassa tietokoneessa.",
+        "Settings.KeyboardLookSettings.HorizontalSpeed": "Katselun vaakasuora nopeus",
+        "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "Kuinka nopeasti pääsi liikkuu vasen-oikea -suunnassa, kun käytät Näppäimistökatselua.",
+        "Settings.KeyboardLookSettings.VerticalSpeed": "Katselun pystysuora nopeus",
+        "Settings.KeyboardLookSettings.VerticalSpeed.Description": "Kuinka nopeasti pääsi liikkuu ylös-alas -suunnassa, kun käytät Näppäimistökatselua.",
 
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Ohjaimen värinä",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Tällä voit ottaa värinän käyttöön tai poistaa sen käytöstä VR-ohjaimissa.",
@@ -1658,6 +1729,8 @@
 
 
 
+
+
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Tuplatartu pitääksesi esineitä kädessä",
 
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Käytä vanhaa maailman vaihtajaa",
@@ -1699,6 +1772,8 @@
         "Settings.NotificationSettings.Message": "Viestit",
 
         "Settings.NotificationSettings.Invite": "Sessiopyynnöt",
+
+        "Settings.NotificationSettings.InviteRequest": "Liittymispyynnöt",
 
         "Settings.NotificationSettings.ContactRequest": "Kontaktipyynnöt",
 
@@ -1745,6 +1820,30 @@
         "Settings.LaserSettings.ShowInDesktop": "Näytä laaserit työpöytätilassa",
 
 
+        "Settings.EditSettings": "Editointiasetukset",
+        "Settings.EditSettings.ConfirmComponentDestroy": "Vahvista komponenttien tuhoaminen",
+
+        "Settings.EditSettings.ConfirmSlotDestroy": "Vahvista slottien tuhoaminen",
+
+
+        "Settings.CursorSettings": "Kursoriasetukset",
+
+        "Settings.CursorSettings.BaseCursorSize": "Kursorin peruskoko",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         "Settings.DesktopViewSettings.FollowCursor": "Seuraa kursoria",
 
         "Settings.DesktopViewSettings.Brightness": "Kirkkaus",
@@ -1765,6 +1864,8 @@
         "Settings.PhotoCaptureSettings.StereoSeparation": "Stereokuvan erottelu",
 
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Inventaarioon tallennettujen kuvien sijainti",
+
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "Avaa tässä maailmassa otettujen kuvien sijainti inventaariossa",
 
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Kaappaa yksityinen käyttöliittymä",
 
@@ -1859,6 +1960,10 @@
         "Settings.RelaySettings.RelayPriorities": "Hallitse relepalvelimien prioriteetteja",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Releiden prioriteetit",
 
+        "Settings.VideoStreamingServicesSettings": "Videostriimauspalveluiden asetukset",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Käytä verkkoselaimesi evästeitä",
+
+
         "Settings.PostProcessingSettings": "Jälkikäsittely",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Liikkeen sumennuksen intensiteetti",
 
@@ -1884,6 +1989,24 @@
 
         "Settings.TextureQualitySettings.ReloadAllTextures": "Lataa kaikki tekstuurit uudelleen (voi olla raskas)",
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         "Settings.ResolutionSettings": "Resoluutio",
         "Settings.ResolutionSettings.Fullscreen": "Kokonäyttö -tila",
 
@@ -1904,6 +2027,16 @@
 
 
 
+
+        "Settings.ImportSettings": "Tuontiasetukset",
+        "Settings.ImportSettings.SessionUrls": "Sessio URL:in tuonti",
+
+        "Settings.ImportSettings.WorldUrls": "Maailma URL:in tuonti",
+
+        "Settings.ImportSettings.NetworkUrls": "Verkko URL:in tuonti",
+
+
+        "Settings.MysterySettings": "Mysteeriasetukset",
 
         "LocomotionArchetype.Walk": "Kävely",
         "LocomotionArchetype.Fly": "Fyysinen lento",
@@ -2024,10 +2157,15 @@
         "Inspector.MeshRenderer.MergeByMaterial": "Yhdistä ala-tahkoverkot joissa sama materiaali",
         "Inspector.MeshRenderer.SplitByMaterial": "Eroita tahkoverkot materiaalien mukaan",
 
+
+
         "Inspector.MeshCollider.VHACD": "Convex Hull dekomponointi (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Korvaa laatikkotörmäyttimellä",
 
-        "Inspector.Texture3D.SpawnVisualizer" : "Spawnaa visualisoija",
+        "Inspector.Texture3D.SpawnVisualizer": "Spawnaa visualisoija",
+
+        "Inspector.Skybox.SetActiveSkybox": "Aseta aktiiviseksi Skyboxiksi",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Aseta aktiiviseksi ympäristön valoksi",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Päivitä liikkumistilamoduulit nykyisille käyttäjille",
 
@@ -2184,6 +2322,11 @@
 
 
 
+
+
+
+
+
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Törmäyttimet & Tarttuminen -------",
 
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Tartu aina viimeiseen luuhun",
@@ -2197,6 +2340,9 @@
         "Inspector.Rig.ClearDebugVisuals": "Piilota debug visuaalit",
 
         "Inspector.AvatarExpression.AutoAssign": "Määritä Blendshapet automaattisesti (heuristiikan avulla)",
+
+
+
 
 
 
@@ -2749,32 +2895,200 @@
         "Tools.Names.ManipulationTools": "Manipulaatiotyökalut",
         "Tools.Names.InformationTools": "Informaatiotyökalut",
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
         "Discord.RichPresence.InPrivateWorld": "Yksityisessä maailmassa",
         "Discord.RichPresence.InPrivateLargeText": "Yksityisessä ({version})",
         "Discord.RichPresence.InPublicWorld": "Julkisessa maailmassa",
         "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} maailmassa)",
         "Discord.RichPresence.InPublicLargeText": "Julkisessa ({version})",
+
+        "Universe.UI.Narrative": "Kertomus",
+        "Universe.UI.Freeform": "Vapaamuotoinen",
+        "Universe.Stars.Sun": "Aurinko",
+        "Universe.Stars.Sirius": "Sirius",
+        "Universe.Stars.Pollux": "Pollux",
+        "Universe.Stars.Arcturus": "Arcturus",
+        "Universe.Stars.Aldebaran": "Aldebaran",
+        "Universe.Stars.Rigel": "Rigel",
+        "Universe.Stars.Antares": "Antares",
+        "Universe.Stars.Betelgeuse": "Betelgeuze",
+        "Universe.Stars.VYCanisMajoris": "VY Canis Majoris",
+        "Universe.Stars.NMLCygni": "NML Cygni",
+        "Universe.Stars.UYScuti": "UY Scuti",
+        "Universe.SolarSystem.SolarSystem": "Aurinkokunta",
+        "Universe.SolarSystem.Mercury": "Merkurius",
+        "Universe.SolarSystem.Venus": "Venus",
+        "Universe.SolarSystem.Earth": "Maa",
+        "Universe.SolarSystem.Mars": "Mars",
+        "Universe.SolarSystem.Jupiter": "Jupiter",
+        "Universe.SolarSystem.Saturn": "Saturnus",
+        "Universe.SolarSystem.Uranus": "Uranus",
+        "Universe.SolarSystem.Neptune": "Neptunus",
+        "Universe.SolarSystem.Pluto": "Pluto",
+        "Universe.SolarSystem.Moon": "Kuu",
+        "Universe.SolarSystem.Phobos": "Phobos",
+        "Universe.SolarSystem.Charon": "Kharon",
+        "Universe.SolarSystem.Callisto": "Kallisto",
+        "Universe.SolarSystem.AsteroidGanymed": "Asteroidi 1036 Ganymedes",
+        "Universe.SolarSystem.Deimos": "Deimos",
+        "Universe.SolarSystem.Ganymede": "Ganymedes (Kuu)",
+        "Universe.SolarSystem.Mithra": "Asteroidi 4486 Mithra",
+        "Universe.SolarSystem.Geographos": "Asteroidi 1620 Geographos",
+        "Universe.SolarSystem.Kelopatra": "Asteroidi 216 Kleopatra",
+        "Universe.SolarSystem.HW1": "Asteroidi (8567) 1996 HW1",
+        "Universe.SolarSystem.Golevka": "Asteroidi 6489 Golevka",
+        "Universe.SolarSystem.Toutatis": "Asteroidi 4179 Toutatis",
+        "Universe.SolarSystem.Bennu": "Asteroidi 101955 Bennu",
+        "Universe.Animals.Bee": "Tarhamehiläinen (Apis Mellifera)",
+        "Universe.Animals.FinWhale": "Sillivalas",
+        "Universe.Animals.DustMite": "Pölypunkki",
+        "Universe.Animals.Eel": "Ankerias",
+        "Universe.Animals.Bream": "Lahna",
+        "Universe.Animals.BottlenoseDolphin": "Pullonokkadelfiini",
+        "Universe.Animals.Brachiosaurus": "Brachiosaurus",
+        "Universe.Animals.Mouse": "Hiiri",
+        "Universe.Animals.GiantSquid": "Jättiläiskalmari",
+        "Universe.Animals.Tardigrade": "Karhukainen",
+        "Universe.Animals.TRex": "Tyrannosaurus rex",
+        "Universe.Biology.AverageHumanCell": "Ihmisen solu",
+        "Universe.Biology.Adenovirus": "Adenovirus viirus",
+        "Universe.Biology.YChromosome": "Y-Kromosomi",
+        "Universe.Biology.Mitochrondrion": "Mitokondrio",
+        "Universe.Biology.PorcineCircovirus": "Sian sirkovirus",
+        "Universe.Biology.Salmonella": "Salmonella",
+        "Universe.Biology.Bacteriophage": "Bakteriofagi",
+        "Universe.Biology.HumanBrain": "Ihmisen aivot",
+        "Universe.Biology.RedBloodCell": "Punasolu",
+        "Universe.Biology.WhiteBloodCell": "Valkosolu",
+        "Universe.Biology.XChromosome": "X-Kromosomi",
+        "Universe.Biology.EColi": "Kolibakteeri",
+        "Universe.Biology.DNA": "DNA",
+        "Universe.Biology.AlphaHelix": "Alfa-kierre",
+        "Universe.Biology.Rhinovirus": "Rinovirus",
+        "Universe.Biology.Ribosome": "Ribosomi",
+        "Universe.Biology.Chloroplast": "Viherhiukkanen",
+        "Universe.Biology.PhospholipidBilayer": "Fosfolipidi kaksoiskerros",
+        "Universe.Biology.Paramecium": "Tohvelieläin",
+        "Universe.Biology.HIV": "HIV",
+        "Universe.Biology.Hair": "Hius",
+        "Universe.Biology.HepatitisB": "B-hepatiitti",
+        "Universe.Biology.Platelet": "Verihiutale",
+        "Universe.Biology.LargestBacteria": "Isoin bakteeri",
+        "Universe.Particles.Electron": "Elektroni",
+        "Universe.Particles.Proton": "Protoni",
+        "Universe.Particles.Neutron": "Neutroni",
+        "Universe.Atoms.Hydrogen": "Vetyatomi",
+        "Universe.Atoms.Helium": "Helium",
+        "Universe.Atoms.Sulfur": "Rikki",
+        "Universe.Common.Duckweed": "Sorsanlimaska",
+        "Universe.Common.Daisy": "Isopäivänkakkara (Leucanthemum × superbum)",
+        "Universe.Common.SiltParticle": "Lietepartikkeli",
+        "Universe.Common.SandGrain": "Hiekanjyvä",
+        "Universe.Common.CoffeeBean": "Kahvipapu",
+        "Universe.Common.MatchStick": "Tulitikku",
+        "Universe.Common.SaltGrain": "Suolahippu",
+        "Universe.Common.USCent": "Sentti (US)",
+        "Universe.Common.Train": "Juna",
+        "Universe.Common.ChickenEgg": "Kananmuna",
+        "Universe.Common.Paper": "Paperi",
+        "Universe.Common.Pencil": "Lyijykynän lyijy",
+        "Universe.Common.OstrichEgg": "Strutsin muna",
+        "Universe.Common.Earthworm": "Kastemato",
+        "Universe.Common.RiceGrain": "Riisinjyvä",
+        "Universe.Common.SunflowerSeed": "Auringonkukan siemen",
+        "Universe.Common.BeachBall": "Rantapallo",
+        "Universe.Common.Snowflake": "Lumihiutale",
+        "Universe.Common.ClayParticle": "Savipartikkeli",
+        "Universe.Common.BasketBall": "Koripallo",
+        "Universe.Common.Hailstone": "Lumirae",
+        "Universe.Common.FootballField": "Jalkapallokenttä",
+        "Universe.Common.DouglasFir": "Lännendouglaskuusi",
+        "Universe.Common.Human": "Ihminen",
+        "Universe.Wavelength.BlackLight": "Mustavalo",
+
+
+        "Universe.Wavelength.Gamma": "Gammasäde",
+        "Universe.Wavelength.XRayHard": "Röntgensäde (kova)",
+        "Universe.Wavelength.XRaySoft": "Röntgensäde (pehmeä)",
+
+
+        "Universe.Wavelength.Microwave": "Mikroaalto",
+        "Universe.Wavelength.Purple": "Violetti valo",
+        "Universe.Wavelength.Cyan": "Syaani valo",
+        "Universe.Wavelength.Yellow": "Keltainen valo",
+        "Universe.Wavelength.Red": "Punainen valo",
+        "Universe.Wavelength.FM": "FM radio",
+        "Universe.Wavelength.AM": "AM radio",
+        "Universe.Geology.AllWater": "Kaikki vesi maapallolla",
+        "Universe.Geology.LiquidFreshWater": "Kaikki makea vesi",
+        "Universe.Geology.WaterInLakesAndRivers": "Kaikki vesi järvissä ja joissa",
+        "Universe.Countries.USA": "Yhdysvallat",
+        "Universe.Countries.CzechRepublic": "Tšekin tasavalta",
+        "Universe.Countries.UnitedKingdom": "Yhdistynyt kuningaskunta",
+        "Universe.Countries.Ukraine": "Ukraina",
+        "Universe.Countries.Australia": "Australia",
+        "Universe.Cities.Paris": "Pariisi",
+        "Universe.Nebulae.CatEye": "Kissansilmäsumu",
+        "Universe.Nebulae.Crab": "Rapusumu",
+        "Universe.Nebulae.Butterfly": "Perhossumu",
+        "Universe.Nebulae.NGC604": "NGC 604 emissiosumu",
+        "Universe.Nebulae.Orion": "Orionin sumu",
+        "Universe.Nebulae.Tarantula": "Tarantellasumu",
+        "Universe.Nebulae.Ring": "Lyyran rengassumu",
+        "Universe.Nebulae.Eagle": "Kotkasumu",
+        "Universe.Technology.ISS": "Kansainvälinen avaruusasema",
+
+        "Universe.Technology.Sputnik": "Sputnik 1",
+
+
+        "Universe.Technology.Ingenuity": "NASA Ingenuity helikopteri",
+        "Universe.Technology.TransistorGate": "Transistoriportti",
+        "Universe.Technology.CPU": "Prosessori",
+        "Universe.Technology.MicroSD": "MicroSD -kortti",
+        "Universe.Technology.Note4": "Galaxy Note 4",
+        "Universe.Technology.Car": "Auto",
+        "Universe.Technology.CargoShip": "Rahtilaiva",
+        "Universe.Landmarks.PyramidOfKhafre": "Khefrenin pyramidi",
+        "Universe.Landmarks.DistanceFromLA2SF": "Etäisyys Los Angelesista San Franciscoon",
+        "Universe.Landmarks.EiffelTower": "Eiffel-torni",
+        "Universe.Landmarks.StatueOfLiberty": "Vapaudenpatsas",
+        "Universe.Landmarks.MountEverest": "Mount Everest",
+        "Universe.Landmarks.LHC": "Suuri Hadronitörmäytin (LHC)",
+        "Universe.Chemistry.Ethanol": "Etyylialkoholi",
+        "Universe.Chemistry.CarbonNanotube": "Hiilinanoputki",
+        "Universe.Chemistry.Glucose": "Glukoosi",
+        "Universe.Chemistry.Water": "Vesi",
+        "Universe.Galaxies.MilkyWay": "Linnunrata",
+        "Universe.Universe.StarCluster": "Tähtijoukko",
+        "Universe.Galaxies.Andromeda": "Andromedan galaksi",
+        "Universe.Galaxies.Sombrero": "Sombrerogalaksi",
+        "Universe.Universe.GalaxyFillament": "Galaksimuuri",
+        "Universe.Universe.ObservableUniverse": "Havaittava maailmankaikkeus",
+        "Universe.Galaxies.IC1101": "IC 1101",
+        "Universe.Galaxies.SmallMagellanicCloud": "Pieni Magellanin pilvi",
+        "Universe.Galaxies.NGC1300": "NGC 1300 (sauvaspiraaligalaksi)",
+        "Universe.Galaxies.NGC4414": "NGC 4414 (kierteisgalaksi)",
+        "Universe.Units.Attometer": "Attometri",
+        "Universe.Units.Femtometer": "Femtometri",
+        "Universe.Units.Picometer": "Pikometri",
+        "Universe.Units.Angstrom": "Ångström",
+        "Universe.Units.Nanometer": "Nanometri",
+        "Universe.Units.Micrometer": "Mikrometri",
+        "Universe.Units.Millimeter": "Millimetri",
+        "Universe.Units.Centimeter": "Senttimetri",
+        "Universe.Units.Meter": "Metri",
+        "Universe.Units.Kilometer": "Kilometri",
+        "Universe.Units.AU": "Astronominen yksikkö",
+        "Universe.Units.LightSecond": "Valosekunti",
+        "Universe.Units.LightYear": "Valovuosi",
+        "Universe.Units.Parsec": "Parsek",
+        "Universe.Units.Inch": "Tuuma",
+        "Universe.Units.Foot": "Jalka",
+        "Universe.Units.Yard": "Jaardi",
+        "Universe.Units.Mile": "Maili",
+        "Universe.Units.NauticalMile": "Merimaili",
+        "Universe.Units.HubbleLength": "Hubble-etäisyys",
+        "Universe.Units.EarthRadius": "Maan säde",
+        "Universe.Units.LunarDistance": "Kuun etäisyys",
 
         "Dummy": "Dummy"
     }
