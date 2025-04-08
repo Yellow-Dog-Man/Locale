@@ -75,6 +75,11 @@ Settings.KeyboardLookSettings.HorizontalSpeed
 Settings.KeyboardLookSettings.HorizontalSpeed.Description  
 Settings.KeyboardLookSettings.VerticalSpeed  
 Settings.KeyboardLookSettings.VerticalSpeed.Description  
+Settings.AudioPerformanceSettings  
+Settings.AudioPerformanceSettings.MaxVoices  
+Settings.AudioPerformanceSettings.MaxVoices.Description  
+Settings.AudioPerformanceSettings.FrameSize  
+Settings.AudioPerformanceSettings.FrameSize.Description  
 Settings.DebugSettings.ConvertParticleSystems  
 Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.SuppressFeetSimulation  
