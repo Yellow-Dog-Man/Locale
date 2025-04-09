@@ -55,6 +55,11 @@ Importer.Link.Invalid.Description
 Inventory.Link.LinkText  
 Export.GaussianSplatExportable.PLY  
 Export.GaussianSplatExportable.SPZ  
+Settings.AudioPerformanceSettings  
+Settings.AudioPerformanceSettings.MaxVoices  
+Settings.AudioPerformanceSettings.MaxVoices.Description  
+Settings.AudioPerformanceSettings.FrameSize  
+Settings.AudioPerformanceSettings.FrameSize.Description  
 Settings.NotificationSettings.InviteRequest  
 Settings.NotificationSettings.InviteRequest.Description  
 Settings.EditSettings  
