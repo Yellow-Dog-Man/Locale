@@ -800,6 +800,11 @@ Settings.AudioOutputDeviceSettings.DevicePriorities
 Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb  
 Settings.AudioOutputDeviceSettings.SetAsDefault  
 Settings.AudioAccessibilitySettings.WhisperVolume.Description  
+Settings.AudioPerformanceSettings  
+Settings.AudioPerformanceSettings.MaxVoices  
+Settings.AudioPerformanceSettings.MaxVoices.Description  
+Settings.AudioPerformanceSettings.FrameSize  
+Settings.AudioPerformanceSettings.FrameSize.Description  
 Settings.RealtimeNetworkingSettings.DisableLAN  
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking  

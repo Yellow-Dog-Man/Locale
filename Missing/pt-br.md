@@ -490,6 +490,11 @@ Settings.AudioInputFilteringSettings.NormalizationThreshold
 Settings.AudioInputFilteringSettings.NormalizationThreshold.Description  
 Settings.AudioInputFilteringSettings.UseNoiseSuppression  
 Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description  
+Settings.AudioPerformanceSettings  
+Settings.AudioPerformanceSettings.MaxVoices  
+Settings.AudioPerformanceSettings.MaxVoices.Description  
+Settings.AudioPerformanceSettings.FrameSize  
+Settings.AudioPerformanceSettings.FrameSize.Description  
 Settings.VoiceSettings  
 Settings.VoiceSettings.MutePersistence  
 Settings.VoiceSettings.MutePersistence.Description  
