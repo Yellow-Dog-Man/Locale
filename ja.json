@@ -1670,6 +1670,12 @@
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "ノイズフィルター",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "入力されるオーディオデータを処理して、不要なノイズを除去します。これにより、ノイズの多いマイクから入力されたオーディオデータから、より明瞭な音声を生成することができます。この設定をオンにしておくことを強くおすすめします。ただし、音声として識別されないノイズも一緒に除去してしまう可能性がありますので、ご注意ください。",
 
+        "Settings.AudioPerformanceSettings": "音声のパフォーマンス設定",
+        "Settings.AudioPerformanceSettings.MaxVoices": "同時再生可能な音声数",
+        "Settings.AudioPerformanceSettings.MaxVoices.Description": "同時に再生できるサウンドの最大数を設定できます。これを増やすとCPUの使用量が増える代わりに、一度に多くのサウンドを再生することができます。<br><br>この値を高くしすぎると、音割れの様なな音が聞こえることがあります。",
+        "Settings.AudioPerformanceSettings.FrameSize": "バッファサイズ",
+        "Settings.AudioPerformanceSettings.FrameSize.Description": "オーディオフレームのサイズを設定できます。値を低くすると音声の遅延は小さくなりますが、パフォーマンスとタイミングの変動により、ノイズが発生しやすくなります。",
+
         "Settings.VoiceSettings": "ボイスチャット設定",
         "Settings.VoiceSettings.MutePersistence": "ログイン時のミュート状態",
         "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Start Unmuted:</color> ログイン時、ミュートが解除された状態になります。\n\n<color=hero.yellow>Started Muted:</color> ログイン時、ミュート状態になります。発話する際にミュートを解除するか \"プッシュトゥトーク\" キー (デフォルトでVキー)を押す必要があります。\n\n<color=hero.yellow>Remember Last: </color> ログイン時、前回のプレイ時のミュート状態が引き継がれます。",
