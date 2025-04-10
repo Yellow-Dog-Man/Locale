@@ -867,6 +867,7 @@
         "Tools.GaussianSplat.Name": "Gaussian Splat Tool",
         "Tools.GaussianSplat.ClipBox": "Quader-Ausschnitt",
         "Tools.GaussianSplat.ClipSphere": "Kugel-Ausschnitt",
+        "Tools.GaussianSplat.ClipCylinder": "Zylinder-Ausschnitt",
 
         "Tools.ComponentClone.Name": "Komponenten-Kopiertool",
         "Tools.ComponentClone.SingleInstanceOn": "Nur eine Instanz: An",
@@ -1669,6 +1670,12 @@
 
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Rauschunterdrückungsfilter (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Diese Funktion verarbeitet das eingehende Tonsignal und filtert unerwünschte Geräusche heraus. Dies kann den Ton von einem rauschenden Mikrofon erheblich verbessern und eine klarere Stimme erzeugen. Wir empfehlen diese Einstellung aktiviert zu lassen. Allerdings können Geräusche herausgefiltert werden, wenn sie nicht als Sprache erkannt werden.",
+
+        "Settings.AudioPerformanceSettings": "Einstellungen für Audio-Performance",
+        "Settings.AudioPerformanceSettings.MaxVoices": "Maximale Anzahl gleichzeitig aktiver Töne",
+        "Settings.AudioPerformanceSettings.MaxVoices.Description": "Dies legt fest, wie viele Töne gleichzeitig abgespielt werden können. Wenn Sie diesen Wert erhöhen, können Sie mehr Töne auf einmal hören, allerdings erhöht dies die CPU-Auslastung.<br><br>Wenn Sie diesen Wert zu hoch einstellen, kann es zu Knackgeräuschen kommen.",
+        "Settings.AudioPerformanceSettings.FrameSize": "Größe des Framebuffers",
+        "Settings.AudioPerformanceSettings.FrameSize.Description": "Hier wird die Größe der einzelnen Audio-Frames festgelegt. Niedrigere Werte sorgen für eine geringere Audiolatenz, dies ist aber anfälliger für Knackgeräusche aufgrund von Leistungs- und Zeitschwankungen.",
 
         "Settings.VoiceSettings": "Stimm-Einstellungen",
         "Settings.VoiceSettings.MutePersistence": "Stummschaltungs-Persistenz",
