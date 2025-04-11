@@ -1671,6 +1671,12 @@
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "噪声抑制滤波器（RNNoise）",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "该功能可处理输入的音频，过滤掉各种不良噪音。这可以净化来自嘈杂麦克风的音频，从而产生更纯净的声音。我们强烈建议将此设置打开。不过，它也可以过滤某些无法识别为语音的噪音。",
 
+        "Settings.AudioPerformanceSettings": "音频性能设置",
+        "Settings.AudioPerformanceSettings.MaxVoices": "播放音频的最大数量",
+        "Settings.AudioPerformanceSettings.MaxVoices.Description": "这控制着可同时播放的声音数量。增加此数值可让你一次听到更多声音，但会以增加 CPU 使用率为代价。<br><br>如果把数值设置太高，你有可能会听到爆音。",
+        "Settings.AudioPerformanceSettings.FrameSize": "帧缓冲区大小",
+        "Settings.AudioPerformanceSettings.FrameSize.Description": "这控制着每个音频帧的大小。较小的值会降低音频延迟，但会因性能和时序波动而更容易出现爆音。",
+
         "Settings.VoiceSettings" : "语音设置",
         "Settings.VoiceSettings.MutePersistence" : "登录时的麦克风状态",
         "Settings.VoiceSettings.MutePersistence.Description" : "<color=hero.yellow>麦克风常开：</color> 当你登录的时候，你将会一直保持开麦状态。\n\n<color=hero.yellow>麦克风常闭：</color> 当你登录的时候， 你将会一直保持静音状态。 你将需要点击开麦或者点击 \"按下说话\" 键 (默认为 V) 才能说话。\n\n<color=hero.yellow>最后一次的状态： </color> 登录时，将保留上次退出登录时的状态。",
