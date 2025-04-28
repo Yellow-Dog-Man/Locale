@@ -743,6 +743,7 @@ CreateNew.Object
 CreateNew.Object.AvatarCreator  
 CreateNew.Object.Camera  
 CreateNew.Object.ReflectionProbe  
+CreateNew.Object.ReverbZone  
 CreateNew.Object.Mirror  
 CreateNew.Object.Portal  
 CreateNew.Object.VideoPlayer  

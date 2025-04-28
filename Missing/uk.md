@@ -52,6 +52,7 @@ Tools.CameraObjectHider.Name
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
 CreateNew.LegacyParticleSystem  
+CreateNew.Object.ReverbZone  
 Importer.Image.Failure.Heading  
 Importer.Image.Failure.Description  
 Importer.Model.GaussianSplat  

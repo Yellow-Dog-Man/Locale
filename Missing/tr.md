@@ -380,6 +380,7 @@ ProtoFlux.UI.AsyncCall
 ProtoFlux.UI.NodeBrowser.Title  
 CreateNew.LegacyParticleSystem  
 CreateNew.Object.ReflectionProbe  
+CreateNew.Object.ReverbZone  
 CreateNew.Editor.TextRendererWizard  
 CreateNew.Editor.CubemapCreator  
 CreateNew.Editor.ReflectionProbes  
