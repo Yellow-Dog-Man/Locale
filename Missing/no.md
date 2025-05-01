@@ -132,6 +132,7 @@ Tools.CameraObjectHider.Name
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
 CreateNew.LegacyParticleSystem  
+CreateNew.Object.ReverbZone  
 AvatarCreator.ProtectionUnavailable  
 Importer.Image.Sprite  
 Importer.Image.Failure.Heading  

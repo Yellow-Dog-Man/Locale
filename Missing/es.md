@@ -33,6 +33,7 @@ Tools.GaussianSplat.Name
 Tools.GaussianSplat.ClipBox  
 Tools.GaussianSplat.ClipSphere  
 Tools.GaussianSplat.ClipCylinder  
+CreateNew.Object.ReverbZone  
 Importer.Model.GaussianSplat  
 Importer.Model.GaussianSplatVertical  
 Importer.Model.RegularVertical  

@@ -29,6 +29,7 @@ Tools.GaussianSplat.ClipCylinder
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
+CreateNew.Object.ReverbZone  
 Importer.Model.GaussianSplat  
 Importer.Model.GaussianSplatVertical  
 Importer.Model.RegularVertical  
