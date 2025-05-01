@@ -3,9 +3,4 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Korean [ko]
 CreateNew.Object.ReverbZone  
-Settings.AudioPerformanceSettings  
-Settings.AudioPerformanceSettings.MaxVoices  
-Settings.AudioPerformanceSettings.MaxVoices.Description  
-Settings.AudioPerformanceSettings.FrameSize  
-Settings.AudioPerformanceSettings.FrameSize.Description  
 
