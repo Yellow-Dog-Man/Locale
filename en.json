@@ -1749,6 +1749,9 @@
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Suppress Feet Simulation",
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "This is to make certain features like posers that hijack feet proxies work, without having to modify them. <br><br>If you turn this on without using posers or similar features, the animations will NOT look correct. Turn this off after you're done using posers. <br><br><color=hero.red>IMPORTANT:</color> This will likely be removed at some point, we recommend upgrading posers to be compatible with the new system and automatically suppress the simulation when active.",
 
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "Preserve legacy reverb zone handling",
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "When turned on, any legacy audio content that has spatialization enabled will automatically ignore reverb zones.<br><br>The legacy audio system did not support reverb zone effects on spatialized sounds. The new audio system (Awwdio) removed this limitation and will apply reverb zones to spatialized sounds by default for better immersion.<br><br>However if you want to preserve the old behavior, turn this setting on and load the legacy content again. Once you save the converted legacy content, the choice will be \"baked in\" and you'll have to change it manually afterwards.",
+
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Channel Name",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "This sets the default Twitch channel name for the Twitch Chat panel in the Camera Controls panel. This is mostly used by Twitch streamers who want to see their Twitch chat.",
 
