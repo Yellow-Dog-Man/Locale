@@ -85,6 +85,8 @@ Settings.DebugSettings.ConvertParticleSystems
 Settings.DebugSettings.ConvertParticleSystems.Description  
 Settings.LegacyFeatureSettings.SuppressFeetSimulation  
 Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
+Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling  
+Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description  
 Settings.NotificationSettings.InviteRequest  
 Settings.NotificationSettings.InviteRequest.Description  
 Settings.NotificationSettings.PermissionChanged  

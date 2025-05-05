@@ -3,4 +3,6 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # French [fr]
 CreateNew.Object.ReverbZone  
+Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling  
+Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description  
 

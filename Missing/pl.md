@@ -8,4 +8,6 @@ Settings.AudioPerformanceSettings.MaxVoices
 Settings.AudioPerformanceSettings.MaxVoices.Description  
 Settings.AudioPerformanceSettings.FrameSize  
 Settings.AudioPerformanceSettings.FrameSize.Description  
+Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling  
+Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description  
 
