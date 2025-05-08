@@ -427,8 +427,10 @@ Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description
 Settings.AudioPerformanceSettings  
 Settings.AudioPerformanceSettings.MaxVoices  
 Settings.AudioPerformanceSettings.MaxVoices.Description  
-Settings.AudioPerformanceSettings.FrameSize  
-Settings.AudioPerformanceSettings.FrameSize.Description  
+Settings.AudioPerformanceSettings.SimulationFrameSize  
+Settings.AudioPerformanceSettings.SimulationFrameSize.Description  
+Settings.AudioPerformanceSettings.OutputBufferSize  
+Settings.AudioPerformanceSettings.OutputBufferSize.Description  
 Settings.VoiceSettings  
 Settings.VoiceSettings.MutePersistence  
 Settings.VoiceSettings.MutePersistence.Description  
