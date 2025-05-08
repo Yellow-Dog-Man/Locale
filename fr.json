@@ -1677,6 +1677,8 @@
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "Contrôle combien de sons seront présents en même temps au maximum. Augmenter le nombre vous permettra d'entendre plus de sons, mais au coût d'usage de processeur plus élevé.<br><br>Si la veuleur est trop haute, cela peut entraîner des problèmes d'audio.",
         "Settings.AudioPerformanceSettings.SimulationFrameSize": "Taille des trames de simulation",
         "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Contrôle le montant de données qui sont traitées en un coup. Augmenter cette valeur peut améliorer les performances mais va augmenter la latence.<br><br>Nous ne recommandons pas de changer la valeur par défaut de 1024.",
+        "Settings.AudioPerformanceSettings.OutputBufferSize": "Taille du tampon de lecture",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Contrôle la taille du tampon audio de lecture. Des valeurs plus hautes vont avoir plus de latence, mais moins de pops et cracs.<br><br>En baissant cette valeur, vous pouvez réduire la latence, mais il y aura plus de cracs et pops.",
 
         "Settings.VoiceSettings": "Voix",
         "Settings.VoiceSettings.MutePersistence": "Persistence de mode silencieux",
