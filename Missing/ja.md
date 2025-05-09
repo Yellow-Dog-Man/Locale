@@ -6,6 +6,4 @@ Settings.AudioPerformanceSettings.SimulationFrameSize
 Settings.AudioPerformanceSettings.SimulationFrameSize.Description  
 Settings.AudioPerformanceSettings.OutputBufferSize  
 Settings.AudioPerformanceSettings.OutputBufferSize.Description  
-Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling  
-Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description  
 
