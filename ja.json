@@ -1674,8 +1674,10 @@
         "Settings.AudioPerformanceSettings": "音声のパフォーマンス設定",
         "Settings.AudioPerformanceSettings.MaxVoices": "同時に再生可能な音声数",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "同時に再生できるサウンドの最大数を設定できます。これを増やすとCPUの使用量が増える代わりに、一度に多くのサウンドを再生することができます。<br><br>この値を高くしすぎると、音割れの様なな音が聞こえることがあります。",
-        "Settings.AudioPerformanceSettings.FrameSize": "バッファサイズ",
-        "Settings.AudioPerformanceSettings.FrameSize.Description": "サウンドのフレームサイズを設定できます。値を低くすると音声の遅延は小さくなりますが、負荷は高くなりノイズが発生しやすくなります。",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize": "シュミレーションフレームサイズ",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "音声のレンダリング時に一度に計算される音声データの量を制御します。値を大きくするとパフォーマンスが向上する場合もありますが、オーディオイベントの頻度が低下し、遅延が増加するというデメリットがあります。<br><br>通常、この値を変更することはお勧めしません、1024のままにしてください。",
+        "Settings.AudioPerformanceSettings.OutputBufferSize": "バッファサイズ",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "音声再生時のバッファサイズを制御します。値を大きくすると音声の遅延は大きくなりますが、ノイズやポップノイズに対する耐性は向上します。<br><br>この値を下げることで、音声の遅延を減らすことができますが、音割れや音飛びが出現しやすくなります。",
 
         "Settings.VoiceSettings": "ボイスチャット設定",
         "Settings.VoiceSettings.MutePersistence": "ログイン時のミュート状態",
@@ -1749,7 +1751,7 @@
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "これは、ポーズを変更せずに動作するような、足のプロキシを上書きする機能を作成するためのものです。 <br><br>ポーザーや類似の機能を使用していない場合にこれをオンにしていると、アニメーションが正しく表示されません。ポーザーの使用が終わったら、これをオフにしてください。<br><br><color=hero.red>重要:</color>これはいずれ削除される可能性があります。新しいシステムと互換性を持たせるために、アクティブなときにシミュレーションを自動的に抑制するようにポーザーをアップグレードすることをおすすめします。",
 
         "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "レガシーのリバーブゾーン処理を維持",
-        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "オンにすると、立体化が有効になっている従来のオーディオコンテンツで、自動的にリバーブゾーンを無視します。<br><br>従来のオーディオシステムでは、立体化された音声に対するリバーブゾーン効果をサポートしていませんでした。新しいオーディオシステム（Awwdio）ではこの制限がなくなり、立体化した音声に標準でリバーブゾーン効果が適応され、より良い没入感を高めます。<br><br>ただし、以前の動作を維持したい場合はこの設定をオンにして、アイテムを再度読み込んでください。変換されたアイテムを保存すると、設定は「固定」され、手動で変更する必要があります。",
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "オンにすると、立体化が有効になっている従来のオーディオコンテンツでは、以前の制限を維持するためにリバーブゾーンが自動的に無効になります。<br><br>この設定をオンにして、レガシーコンテンツを再度読み込んでください。一度、変換したレガシーコンテンツを保存すると、選択内容が「固定」され、後で手動で変更する必要があります。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitchチャンネル名",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "カメラコントロールパネルのTwitchチャットパネルの標準のTwitchチャンネル名を設定できます。主にTwitch配信者が自分のTwitchチャットを見たい場合に使用します。",
