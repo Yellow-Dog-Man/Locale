@@ -895,6 +895,7 @@
         "CreateNew.Object.AvatarCreator": "Créateur d'avatar",
         "CreateNew.Object.Camera": "Caméra",
         "CreateNew.Object.ReflectionProbe": "Sonde de réflexion",
+        "CreateNew.Object.ReverbZone": "Zone de réverbération",
         "CreateNew.Object.Mirror": "Miroir",
         "CreateNew.Object.Portal": "Portail",
         "CreateNew.Object.VideoPlayer": "Lecteur vidéo",
@@ -1674,8 +1675,10 @@
         "Settings.AudioPerformanceSettings": "Performance audio",
         "Settings.AudioPerformanceSettings.MaxVoices": "Nombre maximum de sons actifs",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "Contrôle combien de sons seront présents en même temps au maximum. Augmenter le nombre vous permettra d'entendre plus de sons, mais au coût d'usage de processeur plus élevé.<br><br>Si la veuleur est trop haute, cela peut entraîner des problèmes d'audio.",
-        "Settings.AudioPerformanceSettings.FrameSize": "Taille du tampon de trames",
-        "Settings.AudioPerformanceSettings.FrameSize.Description": "Contrôle la taille de chaque trame audio. Les valeurs plus petites auront moins de latence mais seront plus sujette a des craquements.",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize": "Taille des trames de simulation",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Contrôle le montant de données qui sont traitées en un coup. Augmenter cette valeur peut améliorer les performances mais va augmenter la latence.<br><br>Nous ne recommandons pas de changer la valeur par défaut de 1024.",
+        "Settings.AudioPerformanceSettings.OutputBufferSize": "Taille du tampon de lecture",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Contrôle la taille du tampon audio de lecture. Des valeurs plus hautes vont avoir plus de latence, mais moins de pops et cracs.<br><br>En baissant cette valeur, vous pouvez réduire la latence, mais il y aura plus de cracs et pops.",
 
         "Settings.VoiceSettings": "Voix",
         "Settings.VoiceSettings.MutePersistence": "Persistence de mode silencieux",
@@ -1747,6 +1750,9 @@
 
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Supprimer la simulation des pieds",
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Cela va faire en sorte que certains systèmes (comme des poseurs) peuvent modifier vos proxies de pieds sans avoir a les modifier.<br><br>Si vous activez cette option sans poseur, les animations ne seront PAS correctes. Désactivez cette option quand vous n'utilisez pas de poseurs.<br><br><color=hero.red>IMPORTANT:</color> Cette fonctionnalité va probablement être retirée a un point dans le futur. Nous recommandons de migrer les poseurs vers le nouveau système.",
+
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "Préserver la réverbération legacy",
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "Quand activé, tous les contenus audios ancients vont ignorer les zones de réverbération.<br><br>L'ancien système audio ne supportais pas les zones de réverbération sur les sons spatialisés. Le nouveau système (Awwdio) à retiré cette limitation et appliquera les zones de réverbération sur les sons spatialisés.<br><br>Si vous voulez conserver l'ancien comportement, activez cette option, et le choix sera définitivement écrit.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Nom de la chaîne Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Cette option définit le nom de la chaîne Twitch par défaut utilisée par le panneau de chat Twitch dans le panneau de contrôles de la caméra. Ceci est principalement utilisé par les créateurs de contenu voulant observer leur chat Twitch.",
