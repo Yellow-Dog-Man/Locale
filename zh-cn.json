@@ -1675,8 +1675,10 @@
         "Settings.AudioPerformanceSettings": "音频性能设置",
         "Settings.AudioPerformanceSettings.MaxVoices": "播放音频的最大数量",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "这控制着可同时播放的声音数量。增加此数值可让你一次听到更多声音，但会以增加 CPU 使用率为代价。<br><br>如果把数值设置太高，你有可能会听到爆音。",
-        "Settings.AudioPerformanceSettings.FrameSize": "帧缓冲区大小",
-        "Settings.AudioPerformanceSettings.FrameSize.Description": "这控制着每个音频帧的大小。较小的值会降低音频延迟，但会因性能和时序波动而更容易出现爆音。",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize": "模拟帧大小",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "该参数控制音频渲染时一次性计算的音频数据量。增大数值可提升部分性能表现，但会降低音频事件触发频率并增加延迟。<br><br>通常不建议修改此值，建议保持默认的1024。",
+        "Settings.AudioPerformanceSettings.OutputBufferSize": "播放缓冲区大小",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "该参数控制音频播放缓冲区的大小。数值越大音频延迟越高，但能更好地避免爆音和杂音。<br><br>降低该数值可减少音频延迟，但系统将更容易出现爆音和音频中断。",
 
         "Settings.VoiceSettings" : "语音设置",
         "Settings.VoiceSettings.MutePersistence" : "登录时的麦克风状态",
@@ -1748,6 +1750,9 @@
 
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "抑制脚步模拟",
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "这是为了使某些功能像劫持脚代理的全身追踪玩家正常工作，而无需修改它们。 <br><br>如果你在未使用追踪器或类似功能的情况下开启此功能，动画效果将无法正常显示。请在使用完追踪器器后再将其关闭。 <br><br><color=hero.red>请注意：</color> 这个设置会在某一时刻移除，我们建议升级定位器，使其与新系统兼容，并在激活时自动抑制动作模拟。",
+
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "保留旧版混响区处理方式",
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "启用后，所有已启用空间化效果的旧版音频内容将自动忽略混响区，以保持旧版音频系统的限制特性。<br><br>开启此设置并重新加载旧版内容。转换后的旧版内容一旦保存，该选项将被\"固化\"，后续需手动调整设置。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch 频道名",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "这将为摄像机控制面板中的 Twitch 聊天面板设置默认的 Twitch 频道名称。这主要用于希望看到 Twitch 聊天的 Twitch 主播而用的。",
