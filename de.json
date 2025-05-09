@@ -1675,8 +1675,10 @@
         "Settings.AudioPerformanceSettings": "Einstellungen für Audio-Performance",
         "Settings.AudioPerformanceSettings.MaxVoices": "Maximale Anzahl gleichzeitig aktiver Töne",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "Dies legt fest, wie viele Töne gleichzeitig abgespielt werden können. Wenn Sie diesen Wert erhöhen, können Sie mehr Töne auf einmal hören, allerdings erhöht dies die CPU-Auslastung.<br><br>Wenn Sie diesen Wert zu hoch einstellen, kann es zu Knackgeräuschen kommen.",
-        "Settings.AudioPerformanceSettings.FrameSize": "Größe des Framebuffers",
-        "Settings.AudioPerformanceSettings.FrameSize.Description": "Hier wird die Größe der einzelnen Audio-Frames festgelegt. Niedrigere Werte sorgen für eine geringere Audiolatenz, dies ist aber anfälliger für Knackgeräusche aufgrund von Leistungs- und Zeitschwankungen.",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize": "Frame-Größe der Simulation",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Dies steuert, wie viele Daten beim Rendern von Audio in einem Durchgang berechnet werden. Eine Vergrößerung des Wertes kann die Leistung in gewisser Weise verbessern, geht aber auf Kosten von selteneren Audio-Events und höherer Latenz.<br><br>Grundsätzlich empfehlen wir, den Standardwert 1024 beizubehalten und diesen Wert nicht zu ändern.",
+        "Settings.AudioPerformanceSettings.OutputBufferSize": "Wiedergabe-Puffergröße",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Dies legt die Puffergröße für die Audiowiedergabe fest. Höhere Werte führen zu einer größeren Audio-Latenz, sind aber unanfälliger für Knistern und Knackser.<br><br>Durch Verringern dieses Wertes können Sie die Audiolatenz verringern, aber das System wird anfälliger für Knackser und Aussetzer.",
 
         "Settings.VoiceSettings": "Stimm-Einstellungen",
         "Settings.VoiceSettings.MutePersistence": "Stummschaltungs-Persistenz",
