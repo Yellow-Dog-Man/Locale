@@ -1675,8 +1675,10 @@
         "Settings.AudioPerformanceSettings": "Audio Performance Settings",
         "Settings.AudioPerformanceSettings.MaxVoices": "Maximum number of active sounds",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "This controls how many sounds can be playing concurrently. Increasing this will allow you to hear more sounds at once at the cost of CPU usage.<br><br>If you set this too high, you might hear audio crackling.",
-        "Settings.AudioPerformanceSettings.FrameSize": "Frame Buffer Size",
-        "Settings.AudioPerformanceSettings.FrameSize.Description": "This controls the size of each audio frame. Lower values will provide lower audio latency, but will be more susceptible to crackling due to performance and timing fluctuations.",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize": "Simulation Frame Size",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "This controls how much audio data is computed in one go when rendering audio. Increasing the value can improve performance in some ways, but will come at the cost of less frequent audio events and increased latency.<br><br>Generally we do not recommend changing this value and keeping the default 1024.",
+        "Settings.AudioPerformanceSettings.OutputBufferSize": "Playback Buffer Size",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "This controls the size of the buffer for audio playback. Higher values will have more audio latency, but are more resilient to crackling and pops.<br><br>By lowering this value you can decrease the audio latency, but the system will be more susceptible to crackling and drops.",
 
         "Settings.VoiceSettings": "Voice Settings",
         "Settings.VoiceSettings.MutePersistence": "Mute Persistence",
@@ -1748,6 +1750,9 @@
 
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Suppress Feet Simulation",
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "This is to make certain features like posers that hijack feet proxies work, without having to modify them. <br><br>If you turn this on without using posers or similar features, the animations will NOT look correct. Turn this off after you're done using posers. <br><br><color=hero.red>IMPORTANT:</color> This will likely be removed at some point, we recommend upgrading posers to be compatible with the new system and automatically suppress the simulation when active.",
+
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "Preserve legacy reverb zone handling",
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "When turned on, any legacy audio content that has spatialization enabled will automatically ignore reverb zones to preserve limitation of the legacy audio system.<br><br>Turn this setting on and load the legacy content again. Once you save the converted legacy content, the choice will be \"baked in\" and you'll have to change it manually afterwards.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Channel Name",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "This sets the default Twitch channel name for the Twitch Chat panel in the Camera Controls panel. This is mostly used by Twitch streamers who want to see their Twitch chat.",

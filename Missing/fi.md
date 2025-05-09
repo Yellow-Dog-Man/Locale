@@ -86,8 +86,10 @@ Settings.AudioInputFilteringSettings.NormalizationThreshold.Description
 Settings.AudioPerformanceSettings  
 Settings.AudioPerformanceSettings.MaxVoices  
 Settings.AudioPerformanceSettings.MaxVoices.Description  
-Settings.AudioPerformanceSettings.FrameSize  
-Settings.AudioPerformanceSettings.FrameSize.Description  
+Settings.AudioPerformanceSettings.SimulationFrameSize  
+Settings.AudioPerformanceSettings.SimulationFrameSize.Description  
+Settings.AudioPerformanceSettings.OutputBufferSize  
+Settings.AudioPerformanceSettings.OutputBufferSize.Description  
 Settings.VoiceSettings.MutePersistence.Description  
 Settings.EarmuffSettings.EarmuffEnabled.Description  
 Settings.EarmuffSettings.Directionality.Description  
@@ -109,6 +111,8 @@ Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
 Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
+Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling  
+Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description  
 Settings.LocaleSettings.CultureLocaleCode  

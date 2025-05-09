@@ -59,8 +59,12 @@ Export.GaussianSplatExportable.SPZ
 Settings.AudioPerformanceSettings  
 Settings.AudioPerformanceSettings.MaxVoices  
 Settings.AudioPerformanceSettings.MaxVoices.Description  
-Settings.AudioPerformanceSettings.FrameSize  
-Settings.AudioPerformanceSettings.FrameSize.Description  
+Settings.AudioPerformanceSettings.SimulationFrameSize  
+Settings.AudioPerformanceSettings.SimulationFrameSize.Description  
+Settings.AudioPerformanceSettings.OutputBufferSize  
+Settings.AudioPerformanceSettings.OutputBufferSize.Description  
+Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling  
+Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description  
 Settings.NotificationSettings.InviteRequest  
 Settings.NotificationSettings.InviteRequest.Description  
 Settings.EditSettings  
