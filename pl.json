@@ -1672,6 +1672,14 @@
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Tłumienie hałasu (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Funkcja ta przetwarza przychodzący dźwięk w celu odfiltrowania różnych niepożądanych dźwięków. Może to znacznie oczyścić dźwięk z głośnych mikrofonów, zapewniając czystszy głos. Zdecydowanie zalecamy pozostawienie tego ustawienia włączonego. Może ona jednak również filtrować pewne dźwięki, które nie zostaną zidentyfikowane jako mowa.",
 
+        "Settings.AudioPerformanceSettings": "Ustawienia wydajności audio",
+        "Settings.AudioPerformanceSettings.MaxVoices": "Maksymalna ilość aktywnych dźwięków",
+        "Settings.AudioPerformanceSettings.MaxVoices.Description": "Ta opcja kontroluje, ile dźwięków może być odtwarzanych jednocześnie. Zwiększenie tej wartości pozwoli słyszeć więcej dźwięków naraz kosztem większego użycia procesora. Ustawienie tej wartości zbyt wysoko może spowodować zniekształcenia lub zakłócenia dźwięku.",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize": "Rozmiar bufora symulacji",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Ta opcja kontroluje, ile danych audio jest obliczanych jednocześnie podczas renderowania dźwięku. Zwiększenie wartości może w pewien sposób poprawić wydajność, ale zwiększy opóźnienie dźwięku.<br><br>Zalecamy zachowanie domyślnej wartości 1024.",
+        "Settings.AudioPerformanceSettings.OutputBufferSize": "Rozmiar bufora odtwarzania",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Ta opcja kontroluje rozmiar bufora do odtwarzania dźwięku. Obniżając tę wartość można zmniejszyć opóźnienie dźwięku, ale system będzie bardziej podatny na zniekształcenia lub przeskoki.",
+
         "Settings.VoiceSettings": "Ustawienia głosowe",
         "Settings.VoiceSettings.MutePersistence": "Zapamiętanie stanu wyciszenia",
         "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Start Unmuted:</color> Gdy się zalogujesz, zawsze zaczniesz bez wyciszenia.\n\n<color=hero.yellow>Started Muted:</color> Po zalogowaniu głos zawsze będzie wyciszony. Aby mówić, należy wyłączyć wyciszenie lub nacisnąć przycisk „naciśnij, aby mówić” (domyślnie V).\n\n<color=hero.yellow>Remember Last: </color> Po zalogowaniu zachowany zostanie stan sprzed ostatniego wylogowania.",
