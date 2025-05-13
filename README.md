@@ -15,10 +15,10 @@ Hungarian [hu] - 25.1% - Missing keys: 1973
 Icelandic [is] - 23.5% - Missing keys: 2014  
 Japanese [ja] - 100.0% - Missing keys: 0  
 Korean [ko] - 100.0% - Missing keys: 0  
-Mongolian [mn] - 13.4% - Missing keys: 2281  
+Mongolian [mn] - 27.6% - Missing keys: 1907  
 Dutch [nl] - 88.4% - Missing keys: 306  
 Norwegian [no] - 58.9% - Missing keys: 1083  
-Polish [pl] - 99.6% - Missing keys: 10  
+Polish [pl] - 100.0% - Missing keys: 0  
 Portuguese (Brazil) [pt-br] - 58.8% - Missing keys: 1084  
 Russian [ru] - 88.8% - Missing keys: 295  
 Swedish [sv] - 24.2% - Missing keys: 1997  
