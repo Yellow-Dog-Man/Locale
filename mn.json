@@ -414,17 +414,29 @@
 
         "Indicator.LiveHiddenMessage": "(шууд дамжуулалтын үед мэдээлэл нуугдана)",
 
-        "Login.InvalidCredentials": "Нэвтрэх мэдэээлэл буруу",
+                "Login.InvalidCredentials": "Нэвтрэх мэдэээлэл буруу",
         "Login.InvalidCredentials.Description": "Нэвтрэх нэр, нууц үгээ шалгаад дахин оролдоно уу эсвэл \"Нууц үгээ мартсан?\" дарна уу",
+
+        "Login.InvalidLogin": "Нэвтрэх мэдэээлэл буруу",
+        "Login.InvalidLogin.Description": "Нэвтрэх нэр, нууц үгээ шалгаад дахин оролдоно уу эсвэл \"Нууц үгээ мартсан?\" дарна уу",
 
         "Login.MalformedUID": "Төхөөрөмжийн мэдээлэл буруу",
         "Login.MalformedUID.Description": "Дахин суулгах эсвэл {supportUrl} хаягаар тусламж хүснэ үү.",
 
+        "Login.MissingUID": "Төхөөрөмжийн мэдээлэл байхгүй",
+        "Login.MissingUID.Description": "Дахин суулгах эсвэл {supportUrl} хаягаар тусламж хүснэ үү.",
+
         "Login.MissingSecretMachineId": "Нууц машины ID байхгүй",
         "Login.MissingSecretMachineId.Description": "Дахин суулгах эсвэл {supportUrl} хаягаар тусламж хүснэ үү.",
 
+        "Login.MalformedSecretMachineId": "Нууц машины ID буруу",
+        "Login.MalformedSecretMachineId.Description": "Дахин суулгах эсвэл {supportUrl} хаягаар тусламж хүснэ үү.",
+
         "Register.MissingUID": "Төхөөрөмжийн мэдээлэл байхгүй",
         "Register.MissingUID.Description": "Дахин суулгах эсвэл {supportUrl} хаягаар тусламж хүснэ үү.",
+
+        "Register.MalformedUID": "Төхөөрөмжийн мэдээлэл буруу",
+        "Register.MalformedUID.Description": "Дахин суулгах эсвэл {supportUrl} хаягаар тусламж хүснэ үү.",
 
         "Login.MissingLogin": "Нэвтрэх мэдээлэл оруулаагүй",
         "Login.MissingLogin.Description": "Нэвтрэх мэдээллээ оруулахаа мартсан уу?",
@@ -432,11 +444,35 @@
         "Login.InvalidRecoveryCode": "Сэргээх код буруу",
         "Login.InvalidRecoveryCode.Description": "Сэргээх кодыг шалгаад дахин оролдоно уу.",
 
+        "Login.UnsupportedAuthentication": "Дэмжигдэхгүй баталгаажуулалтын арга",
+        "Login.UnsupportedAuthentication.Description": "Энэ баталгаажуулалтын аргыг дэмжихгүй. Өөр арга сонгоно уу.",
+
         "Login.EmailNotVerified": "Имэйл баталгаажаагүй",
         "Login.EmailNotVerified.Description": "Имэйл хаягаа шалгана уу. Спам хавтасыг шалгахаа мартуузай.",
 
         "Login.AccountTempLocked": "Таны аккаунт түгжигдсэн",
         "Login.AccountTempLocked.Description": "{moderationUrl} хаягаар Хяналтын багтай холбогдоно уу.",
+
+        "Login.AccountBanned": "Таны аккаунт хориглосон",
+        "Login.AccountBanned.Description": "{moderationUrl} хаягаар Хяналтын багтай холбогдоно уу.",
+
+        "Login.DuplicateAccount": "Давхардсан аккаунт",
+        "Login.DuplicateAccount.Description": "{supportUrl} хаягаар тусламж хүснэ үү.",
+
+        "Login.UnknownError": "Тодорхойгүй алдаа",
+        "Login.UnknownError.Description": "Нэвтрэх явцад тодорхойгүй алдаа гарлаа. {supportUrl} хаягаар тусламж хүснэ үү.",
+
+        "Register.MissingRequest": "Бүртгэлийн мэдээлэл дутуу",
+        "Register.MissingRequest.Description": "Бүртгэлийн мэдээлэл олдсонгүй. Бүртгэхдээ бүх талбаруудыг бөглөнө үү.",
+
+        "Register.InvalidEmail": "Имэйл хаяг буруу",
+        "Register.InvalidEmail.Description": "Имэйл хаяг хүчингүй байна.",
+
+        "Register.MissingUsername": "Хэрэглэгчийн нэр оруулаагүй",
+        "Register.MissingUsername.Description": "Хэрэглэгчийн нэрээ оруулсан эсэхийг шалгана уу?",
+
+        "Register.MissingEmail": "Имэйл оруулаагүй",
+        "Register.MissingEmail.Description": "Имэйлээ оруулсан эсэхийг шалгана уу?",
 
         "Register.UsernameTooLong": "Хэрэглэгчийн нэр хэт урт",
         "Register.UsernameTooLong.Description": "Хэрэглэгчийн нэр 32 тэмдэгтээс урт байж болохгүй.",
@@ -448,25 +484,25 @@
         "Register.UsernameStartsWithU.Description": "U- үсгээр эхлэх хэрэглэгчийн нэрийг хориглоно.",
 
         "Register.InvalidUsername": "Хэрэглэгчийн нэр буруу",
-        "Register.InvalidUsername.Description": "Таны хэрэглэгчийн нэр хүчингүй байна.",
+        "Register.InvalidUsername.Description": "Хэрэглэгчийн нэр хүчингүй байна.",
 
         "Register.InvalidDateOfBirth": "Төрсөн огноо буруу",
-        "Register.InvalidDateOfBirth.Description": "Таны оруулсан төрсөн огноо хүчингүй.",
+        "Register.InvalidDateOfBirth.Description": "Оруулсан төрсөн огноо хүчингүй байна.",
 
         "Register.UsernameContainsBlockedTerms": "Хэрэглэгчийн нэрт хоригдсон үгс агуулсан",
-        "Register.UsernameContainsBlockedTerms.Description": "Таны хэрэглэгчийн нэр хоригдсон үгс агуулж байна. Хэрэв энэ алдаа гэж бодож байвал {supportUrl} хаягаар холбогдоно уу.",
+        "Register.UsernameContainsBlockedTerms.Description": "Хэрэглэгчийн нэр хоригдсон үгс агуулж байна. Алдаа гэж бодож байвал {supportUrl} хаягаар холбогдоно уу.",
 
         "Register.MissingPassword": "Нууц үг оруулаагүй",
-        "Register.MissingPassword.Description": "Та нууц үгээ оруулаагүй байна.",
+        "Register.MissingPassword.Description": "Нууц үгээ оруулаагүй байна.",
 
         "Register.InvalidPassword": "Нууц үг хүчингүй",
         "Register.InvalidPassword.Description": "Нууц үг нь дор хаяж 8 тэмдэгт, 1 тоо, 1 том үсэг, 1 жижиг үсэг агуулсан байх ёстой.",
 
         "Register.EmailAlreadyRegistered": "Имэйл аль хэдийн бүртгэгдсэн",
-        "Register.EmailAlreadyRegistered.Description": "Энэ имэйлээр бүртгэл үүссэн байна. Нууц үгээ мартсан бол \"Нууц үгээ мартсан?\" товчийг дарна уу. Эсвэл {supportUrl} хаягаар тусламж хүснэ үү.",
+        "Register.EmailAlreadyRegistered.Description": "Энэ имэйлээр аккаунт үүссэн байна. Нууц үгээ мартсан бол \"Нууц үгээ мартсан?\" товчийг дарна уу. Эсвэл {supportUrl} хаягаар холбогдоно уу.",
 
         "Register.UsernameAlreadyRegistered": "Хэрэглэгчийн нэр аль хэдийн бүртгэгдсэн",
-        "Register.UsernameAlreadyRegistered.Description": "Энэ хэрэглэгчийн нэрээр бүртгэл үүссэн байна. Нууц үгээ мартсан бол \"Нууц үгээ мартсан?\" товчийг дарна уу. Эсвэл {supportUrl} хаягаар тусламж хүснэ үү.",
+        "Register.UsernameAlreadyRegistered.Description": "Энэ нэртэй аккаунт үүссэн байна. Нууц үгээ мартсан бол \"Нууц үгээ мартсан?\" товчийг дарна уу. Эсвэл {supportUrl} хаягаар холбогдоно уу.",
 
         "Register.ErrorCheckingUserId": "UserID шалгахад алдаа гарлаа",
         "Register.ErrorCheckingUserId.Description": "{supportUrl} хаягаар тусламж хүснэ үү.",
@@ -620,6 +656,198 @@
         "Contacts.SelfAccount": "Миний аккаунт",
         "Contacts.SearchPrompt": "Харилцагч хайх...",
         "Contacts.WriteMessage": "Мессеж бичих...",
+
+        "Contacts.InSession": "{name}-д байна",
+        "Contacts.NoSession": "Сесс байхгүй",
+        "Contacts.InPrivate": "Хувийн дэлхийд байна",
+        "Contacts.InContactsOnly": "Зөвхөн харилцагчдын дэлхийд байна",
+        "Contacts.InHidden": "Нууцлагдсан дэлхийд байна",
+        "Contacts.InHiddenContactsOnly": "Нууцлагдсан, зөвхөн харилцагчдын дэлхийд байна",
+        "Contacts.InHiddenContactsPlus": "Нууцлагдсан, харилцагч+ дэлхийд байна",
+        "Contacts.InLAN": "LAN дэлхийд байна",
+        "Contacts.UsingDifferentVersion": "{version} хувилбар дээр",
+        "Contacts.RequestSent": "Хүсэлт илгээгдлээ",
+        "Contacts.RequestReceived": "Харилцагчийн хүсэлт",
+        "Contacts.RequestIgnored": "Үл тоомсорлогдсон",
+        "Contacts.Blocked": "Хориглосон",
+        "Contacts.SearchResult": "Хайлтын үр дүн",
+        "Contacts.Bot": "Бот аккаунт",
+        "Contacts.Migrated": "Харилцагч шилжигдээгүй",
+        "Contacts.IncompatibleSession" : "Тохирохгүй сесс",
+        "Contacts.AskToJoin" : "<color=hero.yellow>Нэгдэх</color> хүсэлт илгээх",
+
+        "Contacts.InviteRequest.UserWantsToJoin" : "{username} тантай нэгдэхийг хүсч байна",
+        "Contacts.InviteRequest.UserWantsToInviteAnother" : "\"{requestingUser}\" \"{userToInvite} -г \"{sessionName}\" руу урихыг хүсч байна",
+        "Contacts.InviteRequest.GrantInvite" : "Урилга олгох (нэг удаа)",
+        "Contacts.InviteRequest.AddAsContact" : "\"{username}\"-г харилцагчаар нэмэх",
+        "Contacts.InviteRequest.AddAsContactOfHeadless" : "\"{username}\"-г headless-ийн харилцагчаар нэмэх",
+        "Contacts.InviteRequest.AddHostAsContact" : "\"{username}\" (хост)-ыг харилцагчаар нэмэх",
+        "Contacts.InviteRequest.HostIsUnregistered" : "Хост бүртгэлгүй хэрэглэгч",
+        "Contacts.InviteRequest.ForwardToHost" : "Хост руу дамжуулах: {username}",
+        "Contacts.InviteRequest.SentRequest" : "Урилга хүссэн",
+        "Contacts.InviteRequest.ForwardedRequest" : "\"{username}\"-ийн урилгыг \"{sessionName}\" сесс рүү дамжууллаа",
+        "Contacts.InviteRequest.GrantedRequest" : "\"{username}\"-д \"{sessionName}\" сессэд урилга олгов",
+
+        "Notifications.IsSociable": "Харилцаатай байна, түүнийг урих эсвэл дуудах",
+        "Notifications.IsOnline": "Одоо онлайн",
+        "Notifications.IsOnlineOnDifferentVersion": "Одоо онлайн <size=75%>(хувилбар: {version})</size>",
+        "Notifications.ReceivedContactRequest": "Харилцагчийн хүсэлт илгээлээ",
+        "Notifications.ReceivedInvite": "Таныг урьж байна:",
+        "Notifications.ReceivedItem": "Танд зүйл илгээлээ:",
+        "Notifications.VoiceMessage": "Дууны мессеж илгээлээ",
+        "Notifications.SessionStarted": "Сесс эхлүүллээ:",
+        "Notifications.ReceivedInviteRequestDirect": "Уригдахыг хүсч байна",
+        "Notifications.ReceivedInviteRequestForwarded": "Урихыг хүсч байна:",
+        "Notifications.UserJoined": "Хэрэглэгч нэгдлээ",
+        "Notifications.UserLeft": "Хэрэглэгч гарлаа",
+        "Notifications.PermissionChanged": "Эрх өөрчлөгдлөө: {new}",
+        "Notifications.PermissionChangedDetail": "{world} дэлхийд. Өмнөх эрх: {old}",
+
+        "Undo.SetField": "{field_name} талбарыг {value} болгосон",
+        "Undo.SetReference": "{ref_name} лавлагааг {ref_target} болгосон",
+        "Undo.Spawn": "{name} үүсгэсэн",
+        "Undo.Destroy": "{name} устгасан",
+        "Undo.SpawnComponent": "{slot_name} дээр {component_type} компонент холбосон",
+        "Undo.DuplicateComponent": "Компонент хувилсан",
+        "Undo.DestroyComponent": "{slot_name} дээрх {component_type} компонент устгасан",
+        "Undo.Transform": "{name} зөөсөн",
+        "Undo.Translate": "Шилжүүлэх",
+        "Undo.TranslateAlongAxis": "Тэнхлэгийн дагуу шилжүүлэх",
+        "Undo.RotateAroundAxis": "Тэнхлэгийн эргэн тойронд эргүүлэх",
+        "Undo.ResetPosition": "Байрлал шинэчлэх",
+        "Undo.ResetRotation": "Эргэлт шинэчлэх",
+        "Undo.ResetScale": "Хэмжээ шинэчлэх",
+
+        "Undo.GrabObjects": "Объектууд барих",
+        "Undo.DestroyGrabbed": "Баригдсан объектууд устгах",
+        "Undo.DuplicateGrabbed": "Баригдсан объектууд хувилах",
+
+        "Undo.ChangeBoxSize": "Хайрцгийн хэмжээ өөрчлөх",
+        "Undo.BrushStroke": "Брашны цохилт",
+        "Undo.ChangeColor": "Өнгө өөрчлөх",
+        "Undo.CloneComponent": "Компонент клонлох",
+        "Undo.MoveIKBone": "IK яс зөөх",
+        "Undo.MoveSun": "Нарны байрлал зөөх",
+        "Undo.ApplyMaterial": "Материал хэрэглэх",
+        "Undo.BakeMeshes": "{name} бэхлэх",
+        "Undo.ChangeMesh": "Mesh өөрчлөх",
+        "Undo.InsertParent": "{name}-д эцэг элемент оруулах",
+        "Undo.Wiggler": "Хор хөнөөлтэй зүйл",
+
+        "Undo.ExtractMaterialsFromHierarchy": "Шинжлэхэд материалыг задлах",
+        "Undo.BatchConvertMaterials": "Материалуудыг бөөнөөр хөрвүүлэх",
+
+        "Tools.Brush.ChangeColor": "Өнгө өөрчлөх",
+        "Tools.Brush.IncrementSize": "Хэмжээ нэмэгдүүлэх",
+        "Tools.Brush.DecrementSize": "Хэмжээ багасгах",
+
+        "Tools.GeometryLineBrush.Name": "Геометр шугаман браш",
+
+        "Tools.Dev.Name": "Хөгжүүлэлтийн хэрэгсэл",
+        "Tools.Dev.CreateNew": "Шинээр үүсгэх...",
+        "Tools.Dev.Selection": "Сонголт: {mode}",
+        "Tools.Dev.DevMode.Off": "Хөгжүүлэгчийн горим: Идэвхгүй",
+        "Tools.Dev.DevMode.On": "Хөгжүүлэгчийн горим: Идэвхтэй",
+        "Tools.Dev.OpenInspector": "Инспектор нээх",
+        "Tools.Dev.DeselectAll": "Бүгдийг цуцаах",
+        "Tools.Dev.DestroySelected": "Сонгогдсон устгах",
+        "Tools.Dev.ConfirmDestroySelected": "СОНГОГДСОН УСТГАХЫГ БАТАЛГААЖУУЛАХ",
+
+        "Tools.Dev.GizmoOptions": "Gizmo сонголтууд",
+        "Tools.Dev.SelectParent": "Эцэг сонгох",
+        "Tools.Dev.LocalSpace": "Локал орон зай",
+        "Tools.Dev.GlobalSpace": "Глобал орон зай",
+        "Tools.Dev.Translation": "Шилжүүлэлт",
+        "Tools.Dev.Rotation": "Эргэлт",
+        "Tools.Dev.Scale": "Хэмжээ",
+
+        "Tools.Dev.Selection.Single": "Ганц",
+        "Tools.Dev.Selection.Multi": "Олон",
+
+        "Tools.Dev.Interaction.Tip": "Зөвлөмж",
+        "Tools.Dev.Interaction.Projection": "Төсөөлөл",
+
+        "Tools.Color.Name": "Өнгөний хэрэгсэл",
+        "Tools.Color.Picker": "Өнгө сонгогч",
+
+        "Tools.GrabbableSetter.Name": "Барьж авах тохируулагч",
+        "Tools.GrabbableSetter.Scalable": "Хэмжээ өөрчлөгдөх боломжтой",
+        "Tools.GrabbableSetter.NonScalable": "Хэмжээ өөрчлөгдөхгүй",
+        "Tools.GrabbableSetter.ApplyToRoot": "Үндэслэлд хэрэглэх",
+        "Tools.GrabbableSetter.AppyToHit": "Цохилтод хэрэглэх",
+
+        "Tools.CharacterCollider.Name": "Дүрсний коллайдер тохируулагч",
+        "Tools.CharacterCollider.MarkGrippable": "Барьж болох гэж тэмдэглэх",
+        "Tools.CharacterCollider.DontMarkGrippable": "Барьж болохгүй гэж тэмдэглэх",
+        "Tools.CharacterCollider.EnsureWalkRun": "Алхах/Гүйх хөдөлгөөн баталгаажуулах",
+        "Tools.CharacterCollider.EnsureZeroG": "Zero-G хөдөлгөөн баталгаажуулах",
+        "Tools.CharacterCollider.EnsurePhysicalFly": "Физик нислэг баталгаажуулах",
+
+        "Tools.Light.Point": "Цэг",
+        "Tools.Light.Spot": "Цацраг",
+        "Tools.Light.Sun": "Нар",
+
+        "Tools.Light.Name": "Гэрэлний хэрэгсэл",
+        "Tools.Light.Shadows.None": "Сүүдэргүй",
+        "Tools.Light.Shadows.Hard": "Хатуу сүүдэр",
+        "Tools.Light.Shadows.Soft": "Зөөлөн сүүдэр",
+
+        "Tools.MeshVisibility.Name": "Mesh харагдац хэрэгсэл",
+        "Tools.MeshVisibility.KeepShadow": "Сүүдрийг хадгалах",
+        "Tools.MeshVisibility.ShadowOff": "Сүүдрийг идэвхгүйжүүлэх",
+        "Tools.MeshVisibility.ShadowOn": "Сүүдрийг идэвхжүүлэх",
+        "Tools.MeshVisibility.OnlyShadow": "Зөвхөн сүүдэр болгох",
+        "Tools.MeshVisibility.DoubleSidedShadow": "Хоёр талт сүүдэр болгох",
+
+        "Tools.Mesh.Name": "Mesh хэрэгсэл",
+
+        "Tools.Slicer.Name": "Объект зүсэгч",
+        "Tools.Slicer.Add": "Зүсэгч нэмэх",
+        "Tools.Slicer.Clear": "Тохиргоо цэвэрлэх",
+
+        "Tools.Material.Name": "Материал хэрэгсэл",
+        "Tools.Material.RayMode": "Цацрагийн горим",
+        "Tools.Material.AreaMode": "Талбайн горим",
+        "Tools.Material.ObjectMode": "Объектын глобал горим",
+        "Tools.Material.SceneMode": "Хэлбэрийн глобал горим",
+        "Tools.Material.CreateCopy": "Хуулбар үүсгэх",
+        "Tools.Material.Edit": "Материал засварлах",
+        "Tools.Material.Convert": "Хөрвүүлэх...",
+        "Tools.Material.ConvertAll": "Бүгдийг хөрвүүлэх...",
+        "Tools.Material.CreateNew": "Шинээр үүсгэх",
+
+        "Tools.Mesh.Edit": "Mesh засварлах",
+
+        "Tools.Cartridge.Eject": "Бөмбөлөг гаргах",
+
+        "Tools.Microphone.Name": "Микрофон",
+        "Tools.Microphone.Format.WAV": "WAV",
+        "Tools.Microphone.Format.Vorbis": "OGG Vorbis",
+        "Tools.Microphone.Format.FLAC": "FLAC",
+        "Tools.Microphone.ModeHold": "Дарж бичих",
+        "Tools.Microphone.ModePress": "Дарж эхлүүлэх/зогсоох",
+        "Tools.Microphone.SourceRaw": "Түүхий",
+        "Tools.Microphone.SourceFiltered": "Шүүсэн & Хэвийнжүүлсэн",
+
+        "Tools.ProtoFlux.Name": "Proto-Flux хэрэгсэл",
+        "Tools.ProtoFlux.Drive": "Хөтөч",
+        "Tools.ProtoFlux.Source": "Эх үүсвэр",
+        "Tools.ProtoFlux.Reference": "Лавлагаа",
+        "Tools.ProtoFlux.Write": "Бичих",
+        "Tools.ProtoFlux.Proxy": "Прокси",
+        "Tools.ProtoFlux.CreateLocal": "Локал үүсгэх",
+        "Tools.ProtoFlux.CreateStore": "Хадгалах үүсгэх",
+        "Tools.ProtoFlux.CreateDataModelStore": "Өгөгдлийн моделийн хадгалах үүсгэх",
+        "Tools.ProtoFlux.Overview": "Тойм горим солих",
+        "Tools.ProtoFlux.NodeBrowser": "Зангилаа хайх",
+        "Tools.ProtoFlux.PackInPlace": "Байршлаар багцлах",
+        "Tools.ProtoFlux.PackInto": "<size=50%>{name}</size> руу багцлах",
+        "Tools.ProtoFlux.Unpack": "<size=50%>{name}</size> задлах",
+        "Tools.ProtoFlux.ExplicitCast": "Шууд хөрвүүлэлт\n<size=50%>(<color=red>Анхаар:</color> Өгөгдлийн алдагдал боломжтой)</size>",
+
+        "Tools.Meter.Mode.Ray": "Горим: Цацраг",
+        "Tools.Meter.Mode.Perpendicular": "Горим: Перпендикуляр",
+        "Tools.Meter.Mode.Drag": "Горим: Чирэх",
 
         
         "Dummy": "Dummy"
