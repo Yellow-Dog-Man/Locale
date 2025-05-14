@@ -1638,6 +1638,8 @@
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "음향 출력 장치",
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "음향 출력 장치",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "기본값으로 설정",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "음향 장치 목록 새로 고침",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "레소나이트에서 인식된 음향 장치 목록을 새로 고칩니다. 대부분 이 기능이 필요하지 않을 것이지만, 추가된 음향 장치를 인식하지 못할 때 이 기능이 도움이 될 수 있습니다.",
 
         "Settings.AudioVolumeSettings.MasterVolume": "주 볼륨",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "전체 볼륨을 제어합니다. 음악, 특수효과음, 음성대화등의 볼륨을 전체적으로 키우거나 낮출때 사용하세요.",
@@ -2010,7 +2012,7 @@
         "Settings.GaussianSplatQualitySettings.MinLocalQuality" : "최소 압축 품질(로컬)",
         "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description" : "로컬에서 가져온 가우시안 스플랫의 최소 품질값을 지정합니다.<br><br>이 값을 중간 미만으로 설정하는 것은 권장하지 않습니다. 품질치가 낮을수록 압축을 위한 시간이 오래 걸리므로 클라우드에서 압축하도록 두는것이 좋습니다.<br><br>이 값을 높이면 비디오 메모리(VRAM) 사용량이 증가하지만 압축을 수행할 필요가 없으므로 가우시안 스플랫이 더 빨리 불러와 집니다.",
         "Settings.GaussianSplatQualitySettings.AdvancedQuality" : "고급 품질 설정",
-        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description" : "When enabled, you can configure the specific encodings used for different Gaussian Splat buffers. This gives you very fined grained control over the quality. It can also be used for testing/diagnostics purposes.",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description" : "활성화 한 경우, 다양한 가우시안 스플랫 버퍼에서 사용되는 특정한 인코딩을 구성할 수 있습니다. 이를 통해 품질을 매우 세밀하게 제어할 수 있습니다. 테스트 또는 검사 목적으로도 사용할 수 있습니다.",
         "Settings.GaussianSplatQualitySettings.PositionFormat" : "위치 정보 형식",
         "Settings.GaussianSplatQualitySettings.PositionFormat.Description" : "스플랫 위치에 사용되는 인코딩",
         "Settings.GaussianSplatQualitySettings.ScaleFormat" : "배율 정보 형식",
