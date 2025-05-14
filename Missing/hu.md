@@ -800,6 +800,8 @@ Settings.AudioOutputDeviceSettings.UseSystemDefault.Description
 Settings.AudioOutputDeviceSettings.DevicePriorities  
 Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb  
 Settings.AudioOutputDeviceSettings.SetAsDefault  
+Settings.AudioOutputDeviceSettings.ForceRefreshDevices  
+Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description  
 Settings.AudioAccessibilitySettings.WhisperVolume.Description  
 Settings.AudioPerformanceSettings  
 Settings.AudioPerformanceSettings.MaxVoices  

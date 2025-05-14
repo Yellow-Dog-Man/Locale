@@ -102,6 +102,8 @@ Settings.AudioInputDeviceSettings.Testing.Description
 Settings.AudioInputDeviceSettings.Testing.ListenToInput  
 Settings.AudioInputDeviceSettings.Testing.StopListeningToInput  
 Settings.AudioInputDeviceSettings.Testing.Monitoring.Header  
+Settings.AudioOutputDeviceSettings.ForceRefreshDevices  
+Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description  
 Settings.AudioInputFilteringSettings.UseVoiceNormalization  
 Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description  
 Settings.AudioInputFilteringSettings.NoiseGateThreshold  

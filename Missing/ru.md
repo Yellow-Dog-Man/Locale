@@ -56,6 +56,8 @@ Importer.Link.Invalid.Description
 Inventory.Link.LinkText  
 Export.GaussianSplatExportable.PLY  
 Export.GaussianSplatExportable.SPZ  
+Settings.AudioOutputDeviceSettings.ForceRefreshDevices  
+Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description  
 Settings.AudioPerformanceSettings  
 Settings.AudioPerformanceSettings.MaxVoices  
 Settings.AudioPerformanceSettings.MaxVoices.Description  
