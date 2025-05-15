@@ -1640,6 +1640,10 @@
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Set As Default",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "Force Refresh Audio Devices",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Pressing this will force Resonite to refresh the audio device list. In most cases this should not be needed, but if Resonite is failing to pick up audio device that was added, using this might help.",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "Separate Streaming Camera Output",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "When enabled, the streaming camera will render audio from its viewpoint and output it to a separate audio device.<br><br>This lets you keep your own audio from your perspective, while also capturing audio from the camera's perspective.<br><br>For this to work, the selected device must be different from your normal output device.",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Streaming Camera Output Devices",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "Streaming Camera Output Devices",
 
         "Settings.AudioVolumeSettings.MasterVolume": "Master volume",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "This controls the volume of everything uniformly. If everything is too loud or quiet, you can tweak this setting.",

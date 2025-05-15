@@ -1338,6 +1338,10 @@ Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb
 Settings.AudioOutputDeviceSettings.SetAsDefault  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description  
+Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput  
+Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description  
+Settings.AudioOutputDeviceSettings.StreamingCameraPriorities  
+Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb  
 Settings.AudioVolumeSettings.MasterVolume  
 Settings.AudioVolumeSettings.MasterVolume.Description  
 Settings.AudioVolumeSettings.SoundEffectVolume  
