@@ -76,6 +76,8 @@ Settings.KeyboardLookSettings.HorizontalSpeed
 Settings.KeyboardLookSettings.HorizontalSpeed.Description  
 Settings.KeyboardLookSettings.VerticalSpeed  
 Settings.KeyboardLookSettings.VerticalSpeed.Description  
+Settings.AudioOutputDeviceSettings.ForceRefreshDevices  
+Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description  
 Settings.AudioPerformanceSettings  
 Settings.AudioPerformanceSettings.MaxVoices  
 Settings.AudioPerformanceSettings.MaxVoices.Description  

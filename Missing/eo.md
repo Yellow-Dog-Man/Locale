@@ -396,6 +396,8 @@ Settings.AudioOutputDeviceSettings.UseSystemDefault.Description
 Settings.AudioOutputDeviceSettings.DevicePriorities  
 Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb  
 Settings.AudioOutputDeviceSettings.SetAsDefault  
+Settings.AudioOutputDeviceSettings.ForceRefreshDevices  
+Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description  
 Settings.AudioVolumeSettings.MasterVolume  
 Settings.AudioVolumeSettings.MasterVolume.Description  
 Settings.AudioVolumeSettings.SoundEffectVolume  
