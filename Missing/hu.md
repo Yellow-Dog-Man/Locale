@@ -1029,6 +1029,9 @@ Settings.InteractiveCameraPostProcessingSettings.MotionBlur
 Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description  
+Settings.InteractiveCameraAudioSettings  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description  
 Settings.DescriptionField.NoTextTitle  
 Settings.DescriptionField.NoTextDescription  
 Settings.RelaySettings  

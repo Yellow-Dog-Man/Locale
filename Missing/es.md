@@ -119,6 +119,9 @@ Settings.PhotoCaptureSettings.OpenAutosavePath
 Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
+Settings.InteractiveCameraAudioSettings  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description  
 Settings.VideoStreamingServicesSettings  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  

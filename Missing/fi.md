@@ -213,6 +213,9 @@ Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description
 Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description  
+Settings.InteractiveCameraAudioSettings  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description  
 Settings.RelaySettings.AlwaysUseRelay.Description  
 Settings.RelaySettings.UseClosestAvailableRelay.Description  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  

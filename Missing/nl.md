@@ -91,6 +91,9 @@ Settings.CursorSettings.SliderMultiplier
 Settings.CursorSettings.SliderMultiplier.Description  
 Settings.PhotoCaptureSettings.OpenAutosavePath  
 Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
+Settings.InteractiveCameraAudioSettings  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description  
 Settings.VideoStreamingServicesSettings  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  

@@ -8,6 +8,9 @@ Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput
 Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description  
 Settings.AudioOutputDeviceSettings.StreamingCameraPriorities  
 Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb  
+Settings.InteractiveCameraAudioSettings  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description  
 Settings.MysterySettings  
 LocomotionArchetype.Walk  
 LocomotionArchetype.Fly  
