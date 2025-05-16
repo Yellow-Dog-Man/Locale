@@ -1640,6 +1640,10 @@
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "기본값으로 설정",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "음향 장치 목록 새로 고침",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "레소나이트에서 인식된 음향 장치 목록을 새로 고칩니다. 대부분 이 기능이 필요하지 않을 것이지만, 추가된 음향 장치를 인식하지 못할 때 이 기능이 도움이 될 수 있습니다.",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "방송 카메라 사용시 방송인 음향 정보 분리",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "이 기능을 활성화하면 방송 카메라는 1인칭 음향 정보를 제3의 장치로 내보낼 수 있습니다.<br><br>이 기능을 사용하려면 기본 음향 출력장치를 제외한 다른 장치를 선택해야 합니다.",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "방송 카메라 출력 장치",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "방송 카메라 출력 장치",
 
         "Settings.AudioVolumeSettings.MasterVolume": "주 볼륨",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "전체 볼륨을 제어합니다. 음악, 특수효과음, 음성대화등의 볼륨을 전체적으로 키우거나 낮출때 사용하세요.",
@@ -1963,6 +1967,10 @@
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "모션블러 효과를 활성화 하거나 비활성화 합니다.",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "SSR(스크린 스페이스 리플렉션)",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "카메라가 화면 공간을 반사하는 효과를 렌더링하게 하시려면 활성화합니다. 다만, 반짝이는 표면에 더 좋은 반사효과를 줄 수 있지만 성능에 대한 비용이 증가할 것입니다.",
+
+        "Settings.InteractiveCameraAudioSettings": "음향",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "카메라가 자신의 음성을 사용하도록 설정",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "방송 카메라의 음성 출력을 분리하도록 설정한 경우, 카메라가 사용자의 음성정보를 듣게 할 것인지를 설정합니다.<br><br>이 옵션이 켜져 있는 경우, 녹화/녹음 S/W에서 마이크를 통한 녹음을 비활성화 해야 합니다.",
 
         "Settings.DescriptionField.NoTextTitle": "자세히",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>설정에 커서를 올리면 자세한 정보를 얻을 수 있습니다.</closeall>",
