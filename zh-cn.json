@@ -1640,6 +1640,10 @@
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "设为默认",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "强制刷新音频设备",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "点击这个将会强制让 Resonite 刷新音频设备列表。在大多数情况并不需要用这个，但如果 Resonite 未能检测到新增的音频设备， 使用此功能可能会有帮助。",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "独立流媒体摄像头音频输出",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "启用后，流媒体摄像头将从其视角渲染音频并输出至独立音频设备。<br><br>你可保留自身视角的音频，同时采集摄像头视角的音频。<br><br>需确保所选设备与常规输出设备不同方可生效。",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "流媒体摄像头输出设备",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "流媒体摄像头输出设备",
 
         "Settings.AudioVolumeSettings.MasterVolume": "主音量",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "这可以统一控制所有声音的音量。如果声音过大或过小，你可以调整这一设置。",
@@ -1964,6 +1968,10 @@
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "屏幕空间反射",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "摄像机是否应该渲染屏幕空间反射效果？这可以为闪亮的表面提供更好的反射效果，但可能会导致伪影并增加性能要求。",
 
+        "Settings.InteractiveCameraAudioSettings": "音频",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "向摄像头渲染自身语音",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "当交互式摄像头的音频输出分离至独立音频设备时，此选项控制摄像头是否可采集您的语音。<br><br>此功能可将您的语音完全空间化渲染，模拟其他用户在虚拟环境中听到的效果。<br><br>启用此选项时，请确保在录音软件中禁用麦克风采集。",
+        
         "Settings.DescriptionField.NoTextTitle": "更多信息",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>将鼠标悬停在某个设置上可查看其说明。</closeall>",
 
