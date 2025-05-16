@@ -1637,6 +1637,12 @@
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "音声出力デバイスを選択",
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "音声出力デバイスの選択",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "既定に設定",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "音声デバイスリストを更新する",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "これを押すと、Resoniteは音声入出力デバイスのリストを更新します。ほとんどの場合これは必要ありませんが、Resoniteがデバイスを認識していない場合は、これを使用すると改善される可能性があります。",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "ストリーミングカメラからの音声出力を分離",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "有効にすると、ストリーミングカメラはその位置で音声を拾って、指定した音声デバイスに出力します。<br><br>これにより、自分は自身の位置で音声を聞きながら、カメラ視点からの音声を取り込むことができます。<br><br>これを機能させるには、別々の音声出力デバイスを指定する必要があります。",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "ストリーミングカメラの出力デバイス",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "ストリーミングカメラ用の出力デバイスを指定できます。",
 
         "Settings.AudioVolumeSettings.MasterVolume": "マスターボリューム",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "全ての音量をまとめて調整します。あらゆる音が大きく聞こえたり、小さく聞こえたりする場合はこの設定を調整してください。",
@@ -1961,6 +1967,10 @@
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "カメラにモーションブラーを適用するかどうかを設定。",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "SSR(スクリーンスペースリフレクション)",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "カメラがスクリーンスペースリフレクションを使用するかどうかを設定できます。光沢のある表面の反射表現が良くなりますが、不自然な像が映ったり、処理負荷の増加につながる可能性があります。",
+
+        "Settings.InteractiveCameraAudioSettings": "カメラの音声",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "自分の声をカメラから収録する",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "インタラクティブカメラからの音声出力が別の音声デバイスに分離されている場合、カメラが自分の声を取得するかどうかを制御します。<br><br>これにより、自分の声を、ワールドのユーザーが聞こえるのと同じように空間化して収録することができます。<br><br>この設定をオンにする場合は、録音ソフトウェアでマイクの収録を無効にしてください。",
 
         "Settings.DescriptionField.NoTextTitle": "詳細",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>カーソルを合わせると詳しい説明が表示されます。</closeall>",
