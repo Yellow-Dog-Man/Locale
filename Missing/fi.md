@@ -81,6 +81,10 @@ Settings.GiggleTechSettings.Devices.MinimumIntensity.Description
 Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description  
+Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput  
+Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description  
+Settings.AudioOutputDeviceSettings.StreamingCameraPriorities  
+Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb  
 Settings.AudioInputFilteringSettings.NoiseGateAttack.Description  
 Settings.AudioInputFilteringSettings.NoiseGateHold.Description  
 Settings.AudioInputFilteringSettings.NoiseGateRelease.Description  
@@ -209,6 +213,9 @@ Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description
 Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description  
+Settings.InteractiveCameraAudioSettings  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description  
 Settings.RelaySettings.AlwaysUseRelay.Description  
 Settings.RelaySettings.UseClosestAvailableRelay.Description  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  

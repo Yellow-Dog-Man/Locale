@@ -104,6 +104,10 @@ Settings.AudioInputDeviceSettings.Testing.StopListeningToInput
 Settings.AudioInputDeviceSettings.Testing.Monitoring.Header  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description  
+Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput  
+Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description  
+Settings.AudioOutputDeviceSettings.StreamingCameraPriorities  
+Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb  
 Settings.AudioInputFilteringSettings.UseVoiceNormalization  
 Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description  
 Settings.AudioInputFilteringSettings.NoiseGateThreshold  
@@ -366,6 +370,9 @@ Settings.InteractiveCameraPostProcessingSettings.MotionBlur
 Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description  
+Settings.InteractiveCameraAudioSettings  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description  
 Settings.DescriptionField.NoTextTitle  
 Settings.DescriptionField.NoTextDescription  
 Settings.RelaySettings  

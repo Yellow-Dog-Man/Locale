@@ -58,6 +58,10 @@ Export.GaussianSplatExportable.PLY
 Export.GaussianSplatExportable.SPZ  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description  
+Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput  
+Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description  
+Settings.AudioOutputDeviceSettings.StreamingCameraPriorities  
+Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb  
 Settings.AudioPerformanceSettings  
 Settings.AudioPerformanceSettings.MaxVoices  
 Settings.AudioPerformanceSettings.MaxVoices.Description  
@@ -87,6 +91,9 @@ Settings.CursorSettings.SliderMultiplier
 Settings.CursorSettings.SliderMultiplier.Description  
 Settings.PhotoCaptureSettings.OpenAutosavePath  
 Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
+Settings.InteractiveCameraAudioSettings  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description  
 Settings.VideoStreamingServicesSettings  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  

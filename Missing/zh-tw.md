@@ -460,6 +460,10 @@ Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb
 Settings.AudioOutputDeviceSettings.SetAsDefault  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description  
+Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput  
+Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description  
+Settings.AudioOutputDeviceSettings.StreamingCameraPriorities  
+Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb  
 Settings.AudioVolumeSettings.MasterVolume  
 Settings.AudioVolumeSettings.MasterVolume.Description  
 Settings.AudioVolumeSettings.SoundEffectVolume  
@@ -736,6 +740,9 @@ Settings.InteractiveCameraPostProcessingSettings.MotionBlur
 Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections  
 Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description  
+Settings.InteractiveCameraAudioSettings  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description  
 Settings.DescriptionField.NoTextTitle  
 Settings.DescriptionField.NoTextDescription  
 Settings.RelaySettings  

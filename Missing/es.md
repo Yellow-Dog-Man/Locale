@@ -78,6 +78,10 @@ Settings.KeyboardLookSettings.VerticalSpeed
 Settings.KeyboardLookSettings.VerticalSpeed.Description  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description  
+Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput  
+Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description  
+Settings.AudioOutputDeviceSettings.StreamingCameraPriorities  
+Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb  
 Settings.AudioPerformanceSettings  
 Settings.AudioPerformanceSettings.MaxVoices  
 Settings.AudioPerformanceSettings.MaxVoices.Description  
@@ -115,6 +119,9 @@ Settings.PhotoCaptureSettings.OpenAutosavePath
 Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
+Settings.InteractiveCameraAudioSettings  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera  
+Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description  
 Settings.VideoStreamingServicesSettings  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  
