@@ -1627,6 +1627,12 @@
         "Settings.AudioInputDeviceSettings.DevicePriorities": "Konfiguruj preferowane urządzenia wejściowe audio",
         "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "Urządzenia wejściowe audio",
         "Settings.AudioInputDeviceSettings.SetAsDefault": "Ustaw jako domyślne",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "Wymuś odświeżanie urządzeń audio",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Wymusi odświeżanie listy Dostępnych urządzeń audio. Nie powinno to być konieczne, ale jeśli nie dostępne jest nowe urządzenie audio, to może pomóc.",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "Osobne wyjście audio dla kamery",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "Po włączeniu tej funkcji kamera będzie renderować dźwięk ze swojego punktu widzenia i przesyłać go do osobnego urządzenia audio.<br><br>Umożliwia to zachowanie własnego dźwięku z perspektywy użytkownika, a jednocześnie przechwytywanie dźwięku z perspektywy kamery.<br><br>Aby ta funkcja działała, wybrane urządzenie musi być inne niż główne urządzenie wyjściowe.",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Urządzenia wyjściowe kamery",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "Urządzenia wyjściowe kamery",
         "Settings.AudioInputDeviceSettings.Testing.Header": "Test wejścia audio",
         "Settings.AudioInputDeviceSettings.Testing.Description": "Można użyć tej funkcji do monitorowania i testowania wybranego urządzenia audio, aby upewnić się, że działa ono prawidłowo. Użyj przycisku, aby odsłuchać sygnał wejściowy.",
         "Settings.AudioInputDeviceSettings.Testing.ListenToInput": "Posłuchaj tego wejścia",
@@ -1960,6 +1966,10 @@
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "Kontroluje, czy kamera renderuje rozmycie ruchu.",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Odbicia w przestrzeni ekranu",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "Kontroluje, czy kamera renderuje efekty odbić w przestrzeni ekranu? Może to zapewnić lepsze odbicia dla błyszczących powierzchni, ale może prowadzić do artefaktów i zwiększonych wymagań systemowych.",
+
+        "Settings.InteractiveCameraAudioSettings": "Dźwięk",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "Renderowanie własnego głosu dla kamery",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "Gdy wyjście audio kamery jest oddzielone do własnego urządzenia audio, kontroluje to, czy kamera będzie słyszeć Twój głos, czy nie.<br><br>Jest to przydatne do renderowania własnego głosu tak, jakby był słyszany przez innych użytkowników na świecie.<br><br>Pamiętaj, aby wyłączyć przechwytywanie mikrofonu w oprogramowaniu do nagrywania, gdy ta opcja jest włączona.",
 
         "Settings.DescriptionField.NoTextTitle": "Więcej informacji",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Najedź kursorem na ustawienie, aby zobaczyć jego opis.</closeall>",
