@@ -1640,7 +1640,11 @@
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Анхдагч болгох",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "Дууны төхөөрөмжийг хүчээр шинэчлэх",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Энийг дарснаар Resonite-г дууны төхөөрөмжийн жагсаалтыг хүчээр шинэчлэх болно. Ихэнх тохиолдолд энэ шаардлагагүй ч, Resonite нэмэгдсэн төхөөрөмжийг илрүүлэхгүй байгаа бол энэ тохиргоо тус болох боломжтой.",
-
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "Стримийн камерын гаралтыг тусадлах",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "Идэвхжүүлсэн үед стримийн камер өөрийн харах өнцгөөс дууг боловсруулж <b>тусдаа дууны төхөөрөмж</b> руу илгээх болно.<br><br>Энэ нь таны үзэл бодлын дууг хадгалахын зэрэгцээ камерын өнцгөөс дууг бичих боломжийг олгоно.<br><br>Үүнийг ажиллуулахын тулд сонгосон төхөөрөмж ердийн гаралтын төхөөрөмжөөсөө <color=#ff6666>өөр байх ёстой</color>.",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Стримийн камерын гаралтын төхөөрөмжүүд",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "Стримийн камерын гаралтын төхөөрөмжүүд",
+        
         "Settings.AudioVolumeSettings.MasterVolume": "Үндсэн дууны хэмжээ",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "Бүх дууны ерөнхий хэмжээг тодорхойлно.",
         "Settings.AudioVolumeSettings.SoundEffectVolume": "Дүрсний дууны хэмжээ",
@@ -1963,6 +1967,10 @@
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "Камер хөдөлгөөний бүдгэрэлтийг харуулах эсэх",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Дэлгэцийн орон зайн тусгал",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "Гялалзсан гадаргуу дээр бодит цагийн тусгал харуулах. Гүйцэтгэлд нөлөөлнө.",
+
+        "Settings.InteractiveCameraAudioSettings": "Дууны тохиргоо",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "Өөрийн дууг камер руу боловсруулах",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "Интерактив камерын дууны гаралтыг тусадлахад энэ сонголт нь таны дууг камер сонсох эсэхийг тодорхойлно.<br><br>Энэ нь таны дууг ертөнцөд бусад хэрэглэгчдэд сонсогддог шиг <b>орон зайн дуу</b> болгон боловсруулахад тустай.<br><br><color=#ffa64d>Анхаар:</color> Энэ сонголт идэвхтэй үед бичлэг хийх програмдаа микрофон бичлэгийг идэвхгүй болгохыг мартуузай.",
 
         "Settings.DescriptionField.NoTextTitle": "Нэмэлт мэдээлэл",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Тохиргоон дээр хулганаа авч байж тайлбарыг харна уу.</closeall>",
@@ -2615,6 +2623,306 @@
 
         "Migration.List.EmptyTitle": "Шинэ шилжүүлэг эхлүүлэх үү?",
         "Migration.List.EmptySubtitle": "Зүүн дээд буланд \"Шинэ шилжүүлэг\"-ийг дарна уу.",
+
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>Үүсгэсэн огноо:{time}\nТөлөв:{state}",
+        "Migration.Report.Title": "Шилжүүлгийн тайлан:",
+        "Migration.Report.Description": "<color={hex}>Тайлбар:</color> {value}",
+        "Migration.Report.Status": "<color={hex}>Төлөв:</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>Үүсгэсэн огноо:</color> {value}",
+        "Migration.Report.StartedOn": "<color={hex}>Эхлэсэн огноо:</color> {value}",
+        "Migration.Report.CompletedOn": "<color={hex}>Дууссан огноо:</color> {value}",
+
+        "Migration.Report.CurrentlyMigrating": "<color={hex}>{value}</color> өгөгдлийг шилжүүлж байна",
+        "Migration.Report.CurrentItem": "Одоогийн зүйл: <color={hex}>{value}</color>",
+
+        "Migration.Report.CurrentRate": "<color={hex}>Одоогийн хурд:</color> ~{value} ертөнц/зүйл минутанд",
+
+        "Migration.Report.EstimatedQueuePosition": "<color={hex}>Дараалалд үлдсэн даалгавар:</color> {value}",
+        "Migration.Report.ContactStatus": "<color={hex}>{current}</color> холбоос шилжүүлэгдсэн (нийт {total})",
+        "Migration.Report.MessageStatus": "<color={hex}>{value}</color> мессеж шилжүүлэгдсэн",
+        "Migration.Report.CloudVariableDefinitionStatus": "<color={hex}>{value}</color> cloud хувьсагчийн тодорхойлолт шилжүүлэгдсэн",
+        "Migration.Report.CloudVariableValueStatus": "<color={hex}>{value}</color> cloud хувьсагчийн утга шилжүүлэгдсэн",
+        "Migration.Report.RecordStatus": "<color={hex}>{current}</color> зүйл/ертөнц шилжүүлэгдсэн (нийт {total}). <color=red>{failed}</color> амжилтгүй",
+        "Migration.Report.GroupStatus": "<color={hex}>{current}</color> бүлэг шилжүүлэгдсэн (нийт {total})",
+        "Migration.Report.GroupMemberStatus": "Нийт <color={hex}>{value}</color> бүлгийн гишүүн шилжүүлэгдсэн",
+
+        "Migration.Error": "<color=red>Алдаа:</color> {error}",
+        "Migration.NothingSelected": "Юу ч сонгогдоогүй байна",
+
+        "Migration.ColorManagement": "Энэ ертөнц gamma горимд үүссэн бөгөөд linear горимд автоматаар хөрвүүлэгдсэн.<br><br>Анхныхаас ялгаатай харагдаж болох ч ашиглах боломжтой.<br><br>Хэрэв та зохиогч бол <color=red>ХАДГАЛАХГҮЙ</color>. Зөвхөн хуулбаруудыг хадгална уу.<br><br>Анхны файл байгаа тохиолдолд хөрвүүлэлтийг засч болно.",
+
+        "Temporary.MMC.Voting UI": "MMC Санал Асуулгын ХИ",
+        "Temporary.MMC.Vote": "Санал өгөх",
+
+        "Temporary.MMC.Categories.Name": "Ангилалууд",
+
+        "Temporary.MMC.Categories.Worlds": "Ертөнцүүд",
+        "Temporary.MMC.Categories.Worlds.Social": "Нийгмийн",
+        "Temporary.MMC.Categories.Worlds.Game": "Тоглоом",
+
+        "Temporary.MMC.Categories.Other": "Бусад",
+        "Temporary.MMC.Categories.Misc": "Төрөл бүрийн",
+        "Temporary.MMC.Categories.Meme": "Мем",
+
+        "Temporary.MMC.Categories.Avatars": "Аватар",
+        "Temporary.MMC.Categories.Avatars.Accessories": "Дагалдах хэрэгсэл",
+
+        "Temporary.MMC.VoteSuccess": "{category} ангилалд {voteTarget}-д санал өгөгдлөө",
+        "Temporary.MMC.VoteFailure": "Санал амжилтгүй, дахин оролдоно уу",
+        "Temporary.MMC.VotedAlready": "Та {voteTarget}-д аль хэдийн санал өгсөн",
+        "Temporary.MMC.VoteInvalid": "Санал буруу, дахин оролдоно уу",
+
+        "CloudHome.WelcomeHome": "Үүлэн Гэрт тавтай морилно уу",
+        "CloudHome.TargetRangeOptions": "Зорилтот зайн сонголтууд",
+
+        "Tutorial.Saving.Title": "Тавтай морил!",
+        "Tutorial.Saving.Content": "Таны <b><i><color=hero.yellow>Үүлэн Гэр</b></i></color> ертөнцөд тавтай морилно уу! Нэвтрэх бүрт энд ирнэ.<br><br>Энэ ертөнцөд хийсэн өөрчлөлтүүд хадгалагдана.<br><br>Хадгалбал дараа ирэхэд бүх зүйл өмнөхөн харагдах болно!",
+
+        "Tutorial.Teleporter.Error": "Үүлэн гэр ачаалах амжилтгүй!<br><size=66%>Телепортнаас гарч дахин оролдоно уу</size>",
+
+        "CloudHome.Info.OnlineUsers": "Онлайн {online_users,plural, one {хэрэглэгч} other {хэрэглэгчид}}: {online_users}<br>Нэгдэх боломжтой {joinable_users,plural, one {хэрэглэгч} other {хэрэглэгчид}}: {joinable_users}",
+        "CloudHome.Info.Moderation": "Хяналт",
+        "CloudHome.Info.Inventory": "Эд зүйлс",
+        "CloudHome.Info.Tools": "Хэрэгслүүд",
+        "CloudHome.Info.MoreInfo": "Нэмэлт мэдээлэл",
+        "CloudHome.Info.SessionUptime": "Сессийн үргэлжлэх хугацаа:",
+        "CloudHome.Info.AccessLevel": "Хандалтын түвшин:",
+        "CloudHome.Info.StorageUsed": "Ашиглагдсан хадгалах орон зай:",
+
+        "CloudHome.Info.DashInfoTab.Title": "Тавтай морил!",
+        "CloudHome.Info.DashInfoDesktop": "Escape товчийг дарж <i><color=hero.purple>Хяналтын самбар</color></i> нээх боломжтой. Энэ нь таны үндсэн хяналтын төв юм.<br><br>Доодх товч дарж энэ мэдээллийг хааж болно.",
+        "CloudHome.Info.DashInfoVR": "B/Y товчийг дарж <i><color=hero.purple>Хяналтын самбар</color></i> нээх боломжтой.<br><br>Доодх товч дарж мэдээллийг хаана уу.",
+        "CloudHome.Info.DashInfoVRNoButtons": "Цэсийг удаан дарж <i><color=hero.purple>Хяналтын самбар</color></i> нээнэ үү.<br><br>Доодх товч дарж мэдээллийг хаана уу.",
+
+        "CloudHome.Info.GoToWiki": "Wiki-руу явах",
+        "CloudHome.Info.GoToDiscord": "Discord-руу явах",
+
+        "CloudHome.Info.ModerationTab.Title": "Хяналтын портал",
+        "CloudHome.Info.ModerationTab.Content": "Аюулгүй байдлыг хамгаална. Хэрэгцээтэй бол <u><color=hero.cyan>Хяналтын портал</color></u><sprite name=hyperlink> дээр ticket нээнэ үү.<br><br>Модераторууд <sprite name=modbadge> нийгмийг хамгаалж ажиллана.",
+
+        "CloudHome.Info.InventoryTab.Title": "Эд зүйлсээ хадгал",
+        "CloudHome.Info.InventoryTab.Content": "<i><color=hero.purple>Эд зүйлс</color></i> хэсэгт хадгалсан аватар болон бусад зүйлсээ олно уу.<br><br><i><color=hero.purple>Essentials</color></i> хавтасанд сонирхолтой зүйлс байгаа!",
+
+        "CloudHome.Info.ToolsTab.Title": "Ертөнц засварлах",
+        "CloudHome.Info.ToolsTab.Content": "Тоглоом доторх засварын хэрэгслүүдийг <i><color=hero.purple>Essentials -> Tools</color></i> хэсгээс ашиглана уу.",
+
+        "CloudHome.Info.HelpTab.Title": "Тусламж авах",
+        "CloudHome.Info.HelpTab.InfoLineOne": "Тусламж хэрэгтэй юу? <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink> эсвэл",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "<u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> дээр асуултаа асууна уу",
+
+        "CloudHome.Info.UsersTab.Title": "Хэрэглэгчдийг олох",
+        "CloudHome.Info.UsersTab.Content": "<i><color=hero.purple>Ертөнцүүд</color></i> хэсгээс нийгэмлэгт нэгдээрэй!",
+
+        "Mirror.Header.RenderingOptions": "Дүрслэлийн сонголтууд",
+        "Mirror.Header.Type": "Толин төрөл",
+        "Mirror.Header.Resolution": "Нарийвчлал",
+        "Mirror.Header.AspectRatio": "Харьцаа",
+
+        "Mirror.EnableLights": "Гэрлийг идэвхжүүлэх",
+        "Mirror.DisableLights": "Гэрлийг идэвхгүй болгох",
+
+        "Mirror.EnableShadows": "Сүүдрийг идэвхжүүлэх",
+        "Mirror.DisableShadows": "Сүүдрийг идэвхгүй болгох",
+
+        "Mirror.Camera": "Камер",
+
+        "Mirror.AspectRatio.Tall": "Өндөр",
+        "Mirror.AspectRatio.Square": "Дөрвөлжин",
+        "Mirror.AspectRatio.Wide": "Өргөн",
+
+        "Mirror.Menu": "Цэс",
+        "Mirror.CloseMenu": "Цэс хаах",
+
+        "StickyNote.SpinMe": "Намайг эргүүл!",
+        "StickyNote.FruitPlate": "Үнэгүй жимсний таваг",
+        "StickyNote.EmptyForYou": "Зөвхөн чамд зориулав! :)",
+        "StickyNote.RelevantLinks": "Холбоосууд!<br><--<br><br><size=500>Холбоосын ном гэж нэрлэж болно</size>",
+        "StickyNote.SunTool": "Нарны хүчийг гартаа бари!",
+        "StickyNote.Bow": "Хүзүүвчээ татаад зөв чиглүүл",
+        "StickyNote.Crossbow": "Ачаалахын тулд хөшүүрэг ашиглах",
+        "StickyNote.Shade": "Тохируулгат сүүдэр",
+        "StickyNote.TheaterTablet": "Энэ таблетаар сэнс болон цонхны өнгө өөрчлөнө!",
+        "StickyNote.ControlTablet": "Гэрийн хэсгүүдийг удирдах таблет",
+
+        "StickyNote.RotateMeDesktop": "E товчийг даран эргүүлнэ үү!",
+        "StickyNote.RotateMeVR": "Намайг эргүүл!",
+
+        "StickyNote.EquipMeDesktop": "Зэвсэглээд зүүн товчоор!",
+        "StickyNote.EquipMeVR": "Зэвсэглээд хүзүүвчээ тат!",
+
+        "StickyNote.DipBrushes": "Будгийн бөмбөлөгт зүүгээ дүрнэ үү",
+        "StickyNote.BrushColor": "Контекст цэсээр будгийн өнгө/хэмжээг солих",
+        "StickyNote.Drawing": "Самбар эсвэл агаарт зурах боломжтой!",
+        "StickyNote.WorldCanvas": "Ертөнц бол таны уран зураг!",
+
+        "CloudHome.Panel.HomeControl": "Гэрийн удирдлага",
+
+        "CloudHome.Panel.General": "Ерөнхий",
+        "CloudHome.Panel.Lighting": "Гэрэлтүүлэг",
+        "CloudHome.Panel.Furniture": "Тавилга",
+
+        "CloudHome.Panel.Quality": "Нарийвчлал",
+        "CloudHome.Panel.Doors": "Хаалга",
+        "CloudHome.Panel.Audio": "Дуу",
+        "CloudHome.Panel.OverheadLighting": "Таазны гэрэл",
+        "CloudHome.Panel.Sconces": "Хананы гэрэл",
+        "CloudHome.Panel.FurnitureVisibility": "Тавилга харагдац",
+
+        "CloudHome.Panel.LowQualityMode": "Нарийвчлал бага горим",
+        "CloudHome.Panel.DoorSounds": "Хаалганы дуу",
+        "CloudHome.Panel.DoorsAlwaysOpen": "Хаалга үргэлж нээлттэй",
+        "CloudHome.Panel.InteriorAmbience": "Дотоод ая эгшиг",
+        "CloudHome.Panel.InteriorAmbienceVolume": "Дотоод<br>ая эгшгийн<br>чангашил",
+        "CloudHome.Panel.LightsOn": "Гэрэл асах",
+        "CloudHome.Panel.LightIntensity": "Гэрлийн хүч",
+        "CloudHome.Panel.LightColor": "Гэрлийн өнгө",
+        "CloudHome.Panel.LightColorTemperature": "Гэрлийн өнгөний температур",
+
+        "CloudHome.Panel.Spawn": "Ирэх цэг",
+        "CloudHome.Panel.Foyer": "Өрөөний орц",
+        "CloudHome.Panel.Workspace": "Ажлын өрөө",
+        "CloudHome.Panel.ReadingLounge": "Уншлагын өрөө",
+        "CloudHome.Panel.Lounge": "Амралтын өрөө",
+        "CloudHome.Panel.Center": "Төв",
+        "CloudHome.Panel.Balcony": "Тагт",
+        "CloudHome.Panel.Theater": "Кино театр",
+
+        "CloudHome.Panel.TheaterControl": "Театрын удирдлага",
+        "CloudHome.Panel.FanControl": "Сэнсний удирдлага",
+        "CloudHome.Panel.WindowControl": "Цонхны удирдлага",
+        "CloudHome.Panel.FanSpeed": "Сэнсний хурд",
+        "CloudHome.Panel.WindowTint": "Цонхны өнгөлгөө",
+
+        "CloudHome.FeaturedPanel.OpenWorld": "Ертөнц нээх",
+        "CloudHome.FeaturedPanel.LinkText": "Энд дарж ертөнцөд орно уу!<br>",
+        "CloudHome.FeaturedPanel.Featured": "онцлох",
+
+        "CloudHome.AvatarPanel.Title": "Онцлох аватар ертөнцүүд",
+
+        "CloudHome.SupporterPanel.Title": "<b>Манай дэмжигчид</b>",
+
+        "Tutorial.InfoPanel.Title": "Хүүе! Явхаасаа өмнө...",
+        "Tutorial.InfoPanel.Content": "     Танд боломжийн ертөнц хүлээж байна.<br><br>     Энд харсан бараг бүх зүйлийг тоглоом дотор бүтээсэн.<br><br>     Платформ хөгжүүлэлтийн эхний үе шатанд байгаа ч таны хувь нэмэр чухал.<br><br><align=center>Оролцсонд баярлалаа.</align>",
+
+        "Tutorial.GrabItems.Grab": "Барь",
+        "Tutorial.GrabItems.Snap": "Тогтоо",
+        "Tutorial.GrabItems.Slide": "Гулсуул",
+
+        "Tutorial.Panel.Jumping.Title": "Үсрэх",
+        "Tutorial.Panel.Jumping.ContentDesktop": "Space товчоор үсрэх!",
+        "Tutorial.Panel.Jumping.ContentVR": "Joystick-ийг дарж үсрэх!",
+        "Tutorial.Panel.Jumping.ContentVRNoButtons": "Trackpad-ын төвийг дарж үсрэх!",
+
+        "Tutorial.Panel.WalkLocomotion.Title": "Алхах хөдөлгөөн",
+        "Tutorial.Panel.WalkLocomotion.Content": "Газрын дагуу хөдөлж үсрэх",
+
+        "Tutorial.Panel.TeleportLocomotion.Title": "Телепорт хөдөлгөөн",
+        "Tutorial.Panel.TeleportLocomotion.Content": "Телепорт индикатор руу шууд шилжих",
+
+        "Hints.Spawn.InitialMovementDesktop": "Хөдөлгөөн товчнуудаар алхана уу!",
+        "Hints.Spawn.InitialMovementVR": "Joystick-ээр алхана уу!",
+        "Hints.Spawn.InitialMovementVRNoButtons": "Trackpad-аар алхана уу!",
+
+        "Hints.Spawn.ContextMenuDesktop": "T дарж Context Menu-г нээх",
+        "Hints.Spawn.ContextMenuVR": "B/Y дарж Context Menu-г нээх",
+        "Hints.Spawn.ContextMenuVRNoButtons": "Цэсний товчоор Context Menu нээх",
+
+        "Hints.Spawn.TeleportLocomotionDesktop": "Нислэг зэрэг бусад хөдөлгөөн горимуудыг туршиж үзэх боломжтой",
+        "Hints.Spawn.TeleportLocomotionVR": "Телепорт/нислэг горимуудыг туршиж үзэх боломжтой",
+
+        "Hints.Bridge.RaiseTheWorld": "Товч дарж платформ руу хүрэх",
+
+        "Hints.Grabbing.GrabbingDesktop": "Баруун товчийг даран зүйлсээ барь",
+        "Hints.Grabbing.GrabbingVR": "Grip товчийг даран барь",
+
+        "Hints.Grabbing.Rotating": "E дарж хулганыг хөдөлгөн эргүүл",
+        "Hints.Grabbing.RotatingExtra": "Shift+E хамтад нь даран хэвтээ тэнхлэгээр эргүүл",
+
+        "Hints.Grabbing.ScalingDesktop": "Shift+Scroll дарж хэмжээг өөрчлөх",
+        "Hints.Grabbing.ScalingVR": "Хоёр гараар барьж хэмжээг өөрчлөх",
+
+        "Hints.Grabbing.OtherGrabbables": "Эдгээр 3 зүйлийг туршиж үзээрэй",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Control+Scroll дарж өөрийн хэмжээг өөрчлөх",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "Context Menu-ээс хэмжээг идэвхжүүлээд хоёр гараараа өөрчлөх",
+
+        "Hints.Telescope.Alignment": "Телескопоор сар руу чиглүүл",
+
+        "Hints.Telescope.TheMoonDesktop": "Баруун товчийг даран сарыг хөдөлгөх",
+        "Hints.Telescope.TheMoonVR": "Trigger дарж лазераа идэвхжүүл",
+
+        "Hints.Sundial.SoftEquip": "Багцыг барьж ашиглах",
+        "Hints.Sundial.SoftEquipExtra": "Багц нь ертөнцийг өөрчлөх боломжийг олгоно",
+
+        "Hints.Sundial.HardEquip": "Товч дарж зэвсэглэх",
+        "Hints.Sundial.HardEquipExtra": "Trigger-ийг бага зэрэг даран лазер гаргах",
+
+        "Hints.Sundial.TheSun": "Тэнгэр рүү чиглүүлж нарны байрлалыг өөрчлөх",
+        "Hints.Sundial.TheSunExtra": "Үдэш болгохын тулд далайн түвшнээс доош чиглүүл",
+
+        "Hints.Sundial.Dequip": "Context Menu-ээс зэвсэглэлээ суллах",
+        "Hints.Sundial.DequipExtra": "Багц барьсан үед Context Menu өөрчлөгдөнө",
+
+        "Hints.Sundial.Teleporter": "Телепорт товч дарж Үүлэн Гэртээ буцах",
+        "Hints.Sundial.TeleporterExtra": "Үүлэн Гэртээ тавтай морилно уу!",
+
+        "UI.TextDisplay.Landscape": "Хэвтээ",
+        "UI.TextDisplay.Portrait": "Босоо",
+        "UI.TextDisplay.NormalText": "Ердийн",
+        "UI.TextDisplay.MonospaceText": "Монофонт",
+
+        "UI.DocumentDisplay.PageNumber": "Хуудас {page_number}",
+        "UI.DocumentDisplay.DocumentQuality": "Чанар",
+        "UI.DocumentDisplay.QualityLow": "Бага",
+        "UI.DocumentDisplay.QualityMedium": "Дунд",
+        "UI.DocumentDisplay.QualityHigh": "Өндөр",
+        "UI.DocumentDisplay.Pages": "Хуудаснууд",
+        "UI.DocumentDisplay.ResetZoom": "Хэмжээг анхдагч болгох",
+
+        "UI.VideoPlayer.GlobalSettings": "Дэлхий даяарх<br>тохиргоо",
+        "UI.VideoPlayer.LocalSettings": "Орон нутгийн<br>тохиргоо",
+        "UI.VideoPlayer.SpatialAudio": "Орон зайн<br>дуу",
+        "UI.VideoPlayer.AreaBroadcast": "Бүс нутгийн<br>давалт",
+        "UI.VideoPlayer.BroadcastAudio": "Дууг<br>давалтах",
+        "UI.VideoPlayer.EnterURL": "<i><alpha=#77>URL-ээ оруулна уу</closeall>",
+        "UI.VideoPlayer.AudioZoneTheater": "Зөвхөн<br>кино театрт",
+        "UI.VideoPlayer.AudioZoneGlobal": "Бүх ертөнцөд<br>сонсогдоно",
+        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {хэрэглэгч} other {хэрэглэгчид}}<br>ачаалсан",
+        "UI.VideoPlayer.AllUsersLoaded": "Бүх хэрэглэгчид<br>бэлэн",
+
+        "UI.ColorPicker.ColorPicker": "Өнгө сонгох",
+
+        "UI.ColorPicker.Linear": "Шугаман",
+
+        "UI.ColorPicker.Hexadecimal": "Hex",
+        "UI.ColorPicker.ColorSwatches": "Өнгөний сэлбэг",
+
+        "UI.ColorPicker.Red": "Улаан",
+        "UI.ColorPicker.Green": "Ногоон",
+        "UI.ColorPicker.Blue": "Цэнхэр",
+
+        "UI.ColorPicker.Hue": "Өнгөний тон",
+        "UI.ColorPicker.Saturation": "Ханаасан байдал",
+        "UI.ColorPicker.Value": "Утга",
+
+        "UI.ColorPicker.Alpha": "Тунгалаг байдал",
+        "UI.ColorPicker.Gain": "Идэвхжүүлэлт",
+
+        "UI.ProgressBar.ImportingItem": "Зүйл импортлож байна",
+
+        "UI.Camera.Automatic": "Автомат",
+        "UI.Camera.Manual": "Гараар",
+
+        "Tools.Names.MultiTool": "Олон үйлдэлт багц",
+
+        "Tools.Names.CommonTools": "Нийтлэг багцууд",
+        "Tools.Names.ManipulationTools": "Зохицуулах багцууд",
+        "Tools.Names.InformationTools": "Мэдээллийн багцууд",
+
+        "Discord.RichPresence.InPrivateWorld": "Хувийн ертөнцөд",
+        "Discord.RichPresence.InPrivateLargeText": "Хувийн орчинд ({version})",
+        "Discord.RichPresence.InPublicWorld": "Нийтийн ертөнцөд",
+        "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} ертөнц)",
+        "Discord.RichPresence.InPublicLargeText": "Нийтийн орчинд ({version})",
 
 
 
