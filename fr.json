@@ -1643,6 +1643,8 @@
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Presser cette option va forcer Resonite à rafraîchir tous les périphériques audio. Dans tous les cas, vous n'avez pas besoin de le faire mais dans certains cas, cela peut aider.",
         "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "Sortie audio séparée pour la caméra de diffusion",
         "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "Quand activé, la caméra de diffusion rendra l'audio à sa position et vers une sortie différente.<br><br>Cela vous permet de garder votre propre perspective audio en capturant quand même l'audio du point de vue de la caméra.<br><br>Pour que cela fonctionne, le périphérique de sortie doit être différent du courant.",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Périphériques de sortie de la caméra de diffusion",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "Périphériques de sortie de la caméra de diffusion",
 
         "Settings.AudioVolumeSettings.MasterVolume": "Volume principal",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "Règle le volume de tout uniformément. Réglez cette option si tout est trop fort ou faible.",
@@ -1965,6 +1967,10 @@
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "Active ou désactive le flou de mouvement à la caméra.",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Reflets dans l'espace",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "Est-ce que la caméra doit utiliser les reflets dans l'espace de l'écran. Ceci peut rendre les reflets plus jolis dans certains contextes, mais peut causer des artéfacts et une utilisation plus importante de ressources système.",
+
+        "Settings.InteractiveCameraAudioSettings": "Audio",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "Rendre sa propre voix audible à la caméra",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "Quand le périphérique audio de sortie de la caméra de diffusion est séparé vers son propre périphérique, cela contrôle si la caméra entends votre voix ou non.<br><br>Cela est utile dans le cas ou vous voulez faire en sorte que votre voix soit spatialisée au lieu de globale, comme si un autre utilisateur dans le monde l'entendait.<br><br>Faites attention à bien désactiver votre micro dans votre logiciel d'enregistrement si vous décidez d'activer cette option.",
 
         "Settings.DescriptionField.NoTextTitle": "Plus d'informations",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Survolez un paramètre pour voir sa description.</closeall>",
