@@ -7,6 +7,7 @@ Interaction.Grab.StickyGrab
 Interaction.Grab.HoldToHold  
 World.Connection.LNL.LNLPoke  
 World.Actions.GuestWarning  
+World.Category.Avatars  
 Contacts.Unblocked  
 Tools.ProtoFlux.Drive  
 Tools.ProtoFlux.Source  

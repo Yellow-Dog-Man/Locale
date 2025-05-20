@@ -260,6 +260,7 @@ World.Category.ActiveSessions
 World.Category.ContactsSessions  
 World.Category.HeadlessSessions  
 World.Category.Social  
+World.Category.Avatars  
 World.Category.Games  
 World.Category.Art  
 World.Category.Tutorials  
