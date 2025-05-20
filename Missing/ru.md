@@ -5,6 +5,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 Interaction.Grabbing  
 Interaction.Grab.StickyGrab  
 Interaction.Grab.HoldToHold  
+World.Category.Avatars  
 Account.Type.Stripe  
 Contacts.RequestInvite  
 Contacts.AskToJoin  

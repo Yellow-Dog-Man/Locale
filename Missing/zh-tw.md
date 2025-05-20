@@ -14,6 +14,7 @@ World.Connection.TCP
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
 World.Error.UnhandledError  
+World.Category.Avatars  
 World.Filter.IncompatibleSessions  
 World.Edit.ReadOnly  
 Login.InvalidCredentials.Description  

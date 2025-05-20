@@ -37,6 +37,7 @@ World.Actions.CopyRecordURL
 World.Indicator.Sessions  
 World.Detail.Users.Count  
 World.Category.HeadlessSessions  
+World.Category.Avatars  
 World.SortParameter.SearchScore  
 World.Filter.DataSources  
 World.Filter.BaseSearch  
