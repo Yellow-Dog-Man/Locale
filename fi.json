@@ -864,9 +864,10 @@
         "Tools.RigTransfer.Name": "Rigin tahkoverkon siirtotyökalu",
         "Tools.RigTransfer.ClearSource": "Nollaa lähde",
 
-
-
-
+        "Tools.GaussianSplat.Name": "Gaussian Splat työkalu",
+        "Tools.GaussianSplat.ClipBox": "Leikkaa laatikko",
+        "Tools.GaussianSplat.ClipSphere": "Leikkaa pallo",
+        "Tools.GaussianSplat.ClipCylinder": "Leikkaa lieriö",
 
         "Tools.ComponentClone.Name": "Komponenttien kloonaustyökalu",
         "Tools.ComponentClone.SingleInstanceOn": "Kertakloonaus: Päällä",
@@ -894,6 +895,7 @@
         "CreateNew.Object.AvatarCreator": "Avatar luoja",
         "CreateNew.Object.Camera": "Kamera",
         "CreateNew.Object.ReflectionProbe": "Heijastusanturi",
+        "CreateNew.Object.ReverbZone": "Jälkikaiunta-alue",
         "CreateNew.Object.Mirror": "Peili",
         "CreateNew.Object.Portal": "Portaali",
         "CreateNew.Object.VideoPlayer": "Videosoitin",
@@ -1012,13 +1014,13 @@
         "Importer.Model.CAD": "CAD-malli",
         "Importer.Model.PointCloud": "Pistepilvi",
 
+        "Importer.Model.GaussianSplat": "Gaussian Splat",
 
 
 
-
-
-
-
+        "Importer.Model.GaussianSplatEncoding": "Koodaus",
+        "Importer.Model.GaussianSplatLossless": "Häviötön",
+        "Importer.Model.GaussianSplatSPZ": "SPZ (häviöllinen)",
 
         "Importer.Model.VertexColorModel": "Vertex-värillinen malli",
         "Importer.Model.AdvancedSettings": "Lisäasetukset",
@@ -1082,22 +1084,22 @@
 
         "Importer.Splat.Progress.Importing": "Tuodaan Gaussian Splat",
         "Importer.Splat.Progress.ReadingHeader": "Luetaan tiedostoa",
+        "Importer.Splat.Progress.ConvertingSplats": "Splatteja muunnettu {converted} / {total}",
+        "Importer.Splat.Progress.EncodingData": "Koodataan muunnettua dataa",
 
+        "GaussianSplat.Encoding.Title": "Koodataan Gaussian Splat",
+        "GaussianSplat.Encoding.Metadata": "Koodataan metadataa",
+        "GaussianSplat.Encoding.EncodingPositions": "Koodataan sijainteja {encoded} / {total}",
+        "GaussianSplat.Encoding.EncodingRotations": "Koodataan kiertoja {encoded} / {total}",
+        "GaussianSplat.Encoding.EncodingScales": "Koodataan kokoja {encoded} / {total}",
+        "GaussianSplat.Encoding.EncodingAlphas": "Koodataan läpinäkyvyyksiä {encoded} / {total}",
+        "GaussianSplat.Encoding.EncodingColors": "Koodataan värejä {encoded} / {total}",
+        "GaussianSplat.Encoding.EncodingFinalizing": "Viimeistellään koodausta",
 
-
-
-
-
-
-
-
-
-
-
-
+        "GaussianSplat.Processing.RemovingSplats": "Poistetaan Splatteja",
         "GaussianSplat.Processing.SplatProgress": "Prosessoitu {count} / {total}",
-
-
+        "GaussianSplat.Processing.LoadingData": "Ladataan tiedostoa",
+        "GaussianSplat.Processing.FailNoData": "Tiedostoa ei saatu käsiteltyä",
 
         "Importer.Video.Title": "Tuo Video",
         "Importer.Video.Prompt": "Mitä tuot?",
@@ -1135,8 +1137,8 @@
 
         "Export.VideoExportable.OriginalFormat": "Video <size=75%>(alkuperäinen formaatti)</size>",
 
-
-
+        "Export.GaussianSplatExportable.PLY": "PLY (häviötön)",
+        "Export.GaussianSplatExportable.SPZ": "SPZ (häviöllinen)",
 
         "Importer.Package.Progress.DecodingPackage": "Puretaan pakettia",
         "Importer.Package.Progress.DecodingObject": "Puretaan objektia",
@@ -1636,6 +1638,12 @@
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "Aseta suosikki äänilähtölaitteet",
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "Äänilähtölaitteet",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Aseta oletukseksi",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "Pakota äänilaitteiden päivitys",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Pakota Resonite päivittämään äänilaiteluettelo. Useimmissa tapauksissa tätä ei tarvita, mutta jos Resonite ei löydä lisättyä äänilaitetta, tämän painaminen saattaa auttaa.",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "Erillinen suoratoistokameran lähtö",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "Suoratoistokamera kuulee äänet omasta näkökulmastaan ja lähettää ne eri äänilaitteeseen. Tällä voit kuulla äänet omasta näkökulmastasi ja samalla tallentaa ääntä kameran näkökulmasta. Jotta tämä toimisi, valitun laitteen on oltava eri kuin tavallinen lähtölaitteesi.",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Suoratoistokameran lähtölaitteet",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "Suoratoistokameran lähtölaitteet",
 
         "Settings.AudioVolumeSettings.MasterVolume": "Pää-äänenvoimakkuus",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "Tämä säätää kaiken äänenvoimakkuutta yhtenäisesti. Jos kaikki äänet ovat liian kovalla tai hiljaisella, säädä tätä asetusta.",
@@ -1669,6 +1677,14 @@
 
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Kohinanvaimennus (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Tämä toiminto käsittelee saapuvan äänen ja suodattaa pois useita ei-toivottuja ääniä. Tämä voi puhdistaa meluisista mikrofoneista tulevaa ääntä huomattavasti puhtaamman äänen aikaansaamiseksi. Suosittelemme tämän asetuksen pitämistä päällä. Toiminto voi kuitenkin suodattaa pois myös tiettyjä ääniä, joita ei tunnisteta puheeksi.",
+
+        "Settings.AudioPerformanceSettings": "Äänentoiston suorituskykyasetukset",
+        "Settings.AudioPerformanceSettings.MaxVoices": "Maksimimäärä samanaikaisia ääniä",
+        "Settings.AudioPerformanceSettings.MaxVoices.Description": "Tällä säädät kuinka monta ääntä voit kuulla samanaikaisesti. Jos tätä arvoa kasvatetaan, voit kuulla enemmän ääniä kerralla, mutta tämä vaikuttaa prosessorin käyttöön.<br><br>Jos asetat tämän arvon liian korkeaksi, saatat kuulla äänen säröilyä.",
+
+
+        "Settings.AudioPerformanceSettings.OutputBufferSize": "Toistopuskurin koko",
+
 
         "Settings.VoiceSettings": "Puheasetukset",
         "Settings.VoiceSettings.MutePersistence": "Mykistyksen pysyvyys",
@@ -1739,6 +1755,9 @@
 
 
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Poista käytöstä jalkojen simulointi",
+
+
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "Säilytä kaikualueiden vanhat asetukset",
 
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch kanavan nimi",
@@ -1869,7 +1888,7 @@
 
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Kaappaa yksityinen käyttöliittymä",
 
-        "Settings.PhotoCaptureSettings.EncodeFormat": "Enkoodauksen formaatti",
+        "Settings.PhotoCaptureSettings.EncodeFormat": "Koodauksen formaatti",
 
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Piilota nimilaatat aina",
 
@@ -1947,6 +1966,10 @@
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "Liikkeen sumennus",
 
 
+
+
+        "Settings.InteractiveCameraAudioSettings": "Audio",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "Kamera kuulee puheesi",
 
 
         "Settings.DescriptionField.NoTextTitle": "Lisätiedot",
