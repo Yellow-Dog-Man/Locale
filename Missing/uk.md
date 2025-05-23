@@ -8,6 +8,7 @@ Interaction.Grab.HoldToHold
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
 World.Error.UnhandledError  
+World.Category.Avatars  
 World.Edit.ReadOnly  
 Account.Type.Stripe  
 Contacts.RequestInvite  

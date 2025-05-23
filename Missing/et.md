@@ -89,6 +89,7 @@ World.Error.FailedToCreateBanAccessKey
 World.Error.UnhandledError  
 World.Indicator.Visited  
 World.Category.ContactsSessions  
+World.Category.Avatars  
 World.Category.Random  
 World.Category.GroupWorlds  
 World.AccessLevel.Contacts  
