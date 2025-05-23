@@ -306,6 +306,7 @@
         "World.Category.ContactsSessions": "Sitzungen von Kontakten",
         "World.Category.HeadlessSessions": "Dedizierte Sitzungen",
         "World.Category.Social": "Sozial",
+        "World.Category.Avatars": "Avatare",
         "World.Category.Games": "Spiele",
         "World.Category.Art": "Kunst",
         "World.Category.Tutorials": "Tutorials",
@@ -1351,11 +1352,6 @@
 
         "Settings.AudioInputDeviceSettings": "Audio Aufnahmegeräte",
         "Settings.AudioOutputDeviceSettings": "Audio Ausgabegeräte",
-        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "Seperates Streaming-Kamera Ausgabe",
-        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "Hiermit legen Sie fest, ob der Standpunkt der Streaming-Kamera auch als Audioquelle verwendet und an ein separates Audiogerät ausgegeben wird.<br><br>Dies ermöglicht es, den eigenen Ton aus der eigenen Perspektive beizubehalten und gleichzeitig die Audio von der Streaming-Kamera aufzunehmen.<br><br>Damit dies funktioniert, muss das ausgewählte Audiogerät sich vom normalen Ausgabegerät unterscheiden.",
-        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Streaming Kamera Ausgabegeräte",
-        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "Streaming Kamera Ausgabegeräte",
-        
         "Settings.AudioVolumeSettings": "Lautstärke",
         "Settings.AudioAccessibilitySettings": "Audio Barrierefreiheit",
         "Settings.AudioInputFilteringSettings": "Aufnahmefilter",
@@ -1390,10 +1386,6 @@
         "Settings.InteractiveCameraAnchorSettings": "Anker",
         "Settings.InteractiveCameraPhotoSettings": "Fotos",
         "Settings.InteractiveCameraPostProcessingSettings": "Nachbearbeitung",
-
-        "Settings.InteractiveCameraAudioSettings": "Audio",
-        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "Eigene Stimme bei der Kamera aufnehmen",
-        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "Wenn die Audioausgabe der interaktiven Kamera vom eigenen Audiogerät getrennt wurde, kann hier eingestellt werden, ob die Kamera deine eigene Stimme hören soll oder nicht.<br><br>Das ist nützlich, wenn du deine eigene Stimme – wie die anderer Benutzer – räumlich aus der Perspektive der Kamera hören möchtest.<br><br>Bitte beachte, dass dein Mikrofon in deiner Aufnahmesoftware deaktiviert sein sollte.",
 
         "Settings.GeneralControlsSettings.PrimaryHand": "Primäre Hand",
         "Settings.GeneralControlsSettings.PrimaryHand.Description": "Welche Hand ihre primäre Hand ist. Dies wird von verschiedenen Systemen für Interaktionen verwendet, z.B. beim Ausrüsten von Tools.",
@@ -1649,6 +1641,10 @@
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Als Standard einstellen",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "Aktualisierung der Audiogeräte erzwingen",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Dies erzwingt eine Aktualisierung der Liste der Audiogeräte. Dies sollte meistens nicht nötig sein, aber falls Resonite ein neu hinzugefügtes Audiogerät nicht selbstständig erkennt, kann diese Funktion helfen.",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "Separate Streaming-Kamera Ausgabe",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "Hiermit legen Sie fest, ob der Standpunkt der Streaming-Kamera auch als Audioquelle verwendet und an ein separates Audiogerät ausgegeben wird.<br><br>Dies ermöglicht es, den eigenen Ton aus der eigenen Perspektive beizubehalten und gleichzeitig Audio vom Standpunkt der Streaming-Kamera aufzunehmen.<br><br>Damit dies funktioniert, muss sich das ausgewählte Audiogerät vom normalen Ausgabegerät unterscheiden.",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Streaming Kamera Ausgabegeräte",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "Streaming Kamera Ausgabegeräte",
 
         "Settings.AudioVolumeSettings.MasterVolume": "Hauptlautstärke",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "Dies stellt die Lautstärke aller Tonquellen gemeinsam ein. Wenn alles zu laut oder zu leise ist, können Sie dies hier ändern.",
@@ -1972,6 +1968,10 @@
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "Soll die Kamera Bewegungsunschärfe abbilden?",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Reflexionen im Bildschirmraum",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "Soll die Kamera Reflexionen im Bildschirmraum abbilden? Dies kann bessere Reflexionen von glänzenden Oberflächen erzeugen, es kann aber auch Artefakte verursachen und mehr Rechenleistung beanspruchen.",
+
+        "Settings.InteractiveCameraAudioSettings": "Audio",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "Eigene Stimme mit der Kamera aufnehmen",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "Wenn die Audioausgabe für die interaktive Kamera vom eigenen Audiogerät getrennt wurde, kann hier eingestellt werden, ob die Kamera Ihre eigene Stimme hören soll oder nicht.<br><br>Das ist nützlich, wenn Sie Ihre eigene Stimme – wie die anderer Benutzer – räumlich aus der Perspektive der Kamera hören möchten.<br><br>Bitte beachten Sie, dass dann das Mikrofon in Ihrer Aufnahmesoftware deaktiviert sein sollte.",
 
         "Settings.DescriptionField.NoTextTitle": "Mehr Informationen",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Zeigen Sie auf eine Einstellung, um ihre Beschreibung zu sehen.</closeall>",
