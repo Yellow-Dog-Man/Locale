@@ -272,6 +272,7 @@ Inspector.DataPreset.SetValues
 Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.FacetPreset.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.Collider.SetFromLocalBounds  
@@ -314,6 +315,7 @@ UI.VideoPlayer.AudioZoneTheater
 UI.VideoPlayer.AudioZoneGlobal  
 UI.VideoPlayer.UsersLoaded  
 UI.VideoPlayer.AllUsersLoaded  
+UI.ColorPicker.Blackbody  
 Universe.Wavelength.FarUV  
 Universe.Wavelength.MiddleUV  
 Universe.Wavelength.ExtremeUV  

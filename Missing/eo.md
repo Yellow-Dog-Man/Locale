@@ -806,6 +806,7 @@ Inspector.GaussianSplat.ReorderMorton
 Inspector.DataPreset.SetActive  
 Inspector.DataPreset.SetValues  
 Inspector.DataPreset.AddAllChildren  
+Inspector.FacetPreset.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Tutorial.Welcome.Welcome  
@@ -834,6 +835,7 @@ UI.DocumentDisplay.QualityMedium
 UI.DocumentDisplay.QualityHigh  
 UI.DocumentDisplay.Pages  
 UI.DocumentDisplay.ResetZoom  
+UI.ColorPicker.Blackbody  
 Discord.RichPresence.InPrivateWorld  
 Discord.RichPresence.InPrivateLargeText  
 Discord.RichPresence.InPublicWorld  

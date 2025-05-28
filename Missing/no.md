@@ -872,6 +872,7 @@ Inspector.GaussianSplat.ReorderMorton
 Inspector.DataPreset.SetActive  
 Inspector.DataPreset.SetValues  
 Inspector.DataPreset.AddAllChildren  
+Inspector.FacetPreset.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  
@@ -900,6 +901,7 @@ UI.DocumentDisplay.QualityHigh
 UI.DocumentDisplay.Pages  
 UI.DocumentDisplay.ResetZoom  
 UI.VideoPlayer.AllUsersLoaded  
+UI.ColorPicker.Blackbody  
 UI.Camera.Automatic  
 UI.Camera.Manual  
 Discord.RichPresence.InPrivateWorld  

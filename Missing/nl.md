@@ -130,6 +130,8 @@ Inspector.GaussianSplat.SplatInfo
 Inspector.GaussianSplat.Variant  
 Inspector.GaussianSplat.ColorByIndex  
 Inspector.GaussianSplat.ReorderMorton  
+Inspector.FacetPreset.Warning  
+UI.ColorPicker.Blackbody  
 Universe.UI.Narrative  
 Universe.UI.Freeform  
 Universe.Stars.Sun  

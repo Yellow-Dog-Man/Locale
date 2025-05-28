@@ -1251,6 +1251,7 @@ Inspector.Rig.ClearDebugVisuals
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.FacetPreset.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  
@@ -1624,6 +1625,7 @@ UI.VideoPlayer.AllUsersLoaded
 UI.ColorPicker.ColorPicker  
 UI.ColorPicker.Linear  
 UI.ColorPicker.Hexadecimal  
+UI.ColorPicker.Blackbody  
 UI.ColorPicker.ColorSwatches  
 UI.ColorPicker.Red  
 UI.ColorPicker.Green  

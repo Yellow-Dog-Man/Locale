@@ -159,8 +159,10 @@ Inspector.GaussianSplat.SplatInfo
 Inspector.GaussianSplat.Variant  
 Inspector.GaussianSplat.ColorByIndex  
 Inspector.GaussianSplat.ReorderMorton  
+Inspector.FacetPreset.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
+UI.ColorPicker.Blackbody  
 Universe.UI.Narrative  
 Universe.UI.Freeform  
 Universe.Stars.Sun  
