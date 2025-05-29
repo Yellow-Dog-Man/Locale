@@ -245,6 +245,7 @@ Inspector.VHACD.Parameter.ConvexHullDownsampling
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
 Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose  
+Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.SimpleAvatarProtection.Warning  
 Inspector.Texture.TrimByCornerColor  
 Inspector.Texture.MakeTileable  

@@ -1166,6 +1166,7 @@ Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose
 Inspector.SkinnedMesh.BakeToStaticMesh  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
+Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.SimpleAvatarProtection.RemoveAll  
 Inspector.SimpleAvatarProtection.RemoveSingle  
 Inspector.SimpleAvatarProtection.Warning  

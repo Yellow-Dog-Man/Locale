@@ -155,6 +155,7 @@ Inspector.GaussianSplatRenderer.GeneratePointCloudCollider
 Inspector.Texture3D.SpawnVisualizer  
 Inspector.Skybox.SetActiveSkybox  
 Inspector.AmbientLightSH2.SetActiveAmbientLight  
+Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.GaussianSplat.SplatInfo  
 Inspector.GaussianSplat.Variant  
 Inspector.GaussianSplat.ColorByIndex  
