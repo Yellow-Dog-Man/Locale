@@ -630,6 +630,7 @@
         "Permissions.NotAllowedToSpawn": "ここで物をスポーンすることはできません。",
         "Permissions.NotAllowedToSave": "ここでアイテムは保存できません。",
         "Permissions.NotAllowedToSwapAvatar": "ここでカスタムアバターは使用できません。",
+        "Permissions.SavingDisabledForItem": "このアイテムは保存できません。",
 
         "User.Actions.Silence": "全体ミュート",
         "User.Actions.Mute": "ミュート",
@@ -2368,6 +2369,7 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告!</size></color><br>SimulateRotationにチェックをいれることで、​このコンポーネントを単純なRigidbodyとして使用できます。​前提として、この目的のために最適化されておらず、​適切なRigidbodyが将来提供されることを理解しておいてください。<br>適切なRigidbodyは以下を提供します：<br><b>- CPUとネットワーク負荷の軽減</b> - CharacterControllerを使用すると、 CPU使用率が高くなり、ネットワークトラフィックが大量に発生します。<br><b>- Constraints</b> - Rigidbody間にジョイント、ヒンジ、スプリング、 その他のconstraintを作成できるようになります。<br><b>- どのユーザーからもスムーズなシミュレーションと相互作用</b> - 他の人が操作すると、CharacterControllerはグリッチアウトします。<br><b>- 新機能とツール</b> - それらをはるかに簡単に使用できるようになります。<br>-----------------------<br>これらの制限を理解している限り、楽しんでください！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color>このコンポーネントを使用すると、IDを使用して参照を操作できます。​この手法は一般的に「Refハック」と呼ばれます。<br><br>これを実行する<b>前</b>に、​これはサポートされて<b>いない</b>ため、​いつか壊れる可能性があることを理解してください。​この機能に依存しないでください。",
         "Inspector.FacetPreset.Warning":"<color=red><size=125%>警告!</size></color><br>FacetPresetsがあると、新しいバージョンのプリセットが公開されると、ファセットが自動的にアップデートされます。ファセットを改造する場合は、このコンポーネントを削除することをお勧めします。",
+        "Inspector.GrabbableSaveBlock.Warning":"<color=red><size=125%>警告!</size></color><br>このコンポーネントは、セキュリティやアセット盗難防止として設計されたものではありません。ゲームプレイやデザイン上の理由で、より簡単に保存をブロックしたい場合に使用することを目的としています。これは簡単に迂回することができ、どのような状況でもセキュリティを高めることはできません。",
 
         "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}, FPS: {fps}, Simulation Time: {time}, Submit Time: {renderSubmitTime}, Render allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
@@ -2898,6 +2900,7 @@
 
         "UI.ColorPicker.Hexadecimal": "カラー<br>コード",
         "UI.ColorPicker.ColorSwatches": "カラー<br>パレット",
+        "UI.ColorPicker.Blackbody": "カラー<br>色温度",
 
         "UI.ColorPicker.Red": "赤",
         "UI.ColorPicker.Green": "緑",
