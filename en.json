@@ -629,8 +629,8 @@
 
         "Permissions.NotAllowedToSpawn": "You are not allowed to spawn things here.",
         "Permissions.NotAllowedToSave": "You are not allowed to save items in this world.",
-        "Permissions.NotAllowToSaveThis": "You are not allowed to save this item.",
         "Permissions.NotAllowedToSwapAvatar": "You are not allowed to swap to custom avatar here.",
+        "Permissions.SavingDisabledForItem": "Saving is disabled for this item.",
 
         "User.Actions.Silence": "Silence",
         "User.Actions.Mute": "Mute",
@@ -2369,7 +2369,7 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component as a simple rigidbody by checking SimulateRotation. Before you do, please understand that it is not optimized for this purpose and proper Rigidbody Support is coming in the future.<br>Proper rigidbody support will offer:<br><b>- CPU and network efficiency</b> - with CharacterController you'll be getting higher CPU usage and significant amount of network traffic<br><b>- Constraints</b> - you'll be able to create joints, hinges, springs and other constraints between rigidbodies<br><b>- Smooth simulation and interactions for everyone</b> - CharacterController will glitch out if another person tries to interact<br><b>- New Features and Tools</b> - to make using them much easier<br>-----------------------<br>As long as you understand those limitations, have fun!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component to interact with references by using their IDs. This process is commonly called 'Ref Hacking'.<br><br><b>Before</b> you do this, please understand that this is <b>not</b> supported and may break at any time. Do not rely on this functionality for your creations.",
         "Inspector.FacetPreset.Warning":"<color=red><size=125%>WARNING!</size></color><br>FacetPresets will automatically upgrade their contents when we publish new versions of those presets. If you're making a custom version, we recommend deleting this component.",
-        "Inspector.GrabbableSaveBlock.Warning":"<color=red><size=125%>WARNING!</size></color><br> This component is not designed as a security/asset theft protection system. It is intended to be used for cases where you wish to block the easier methods of saving for gameplay or design reasons. It can easily be bypassed.",
+        "Inspector.GrabbableSaveBlock.Warning":"<color=red><size=125%>WARNING!</size></color><br> This component is not designed as a security/asset theft protection system. It is intended to be used for cases where you wish to block the easier methods of saving for gameplay or design reasons. It can easily be bypassed and it will not be made more secure under any circumstances.",
 
         "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}, FPS: {fps}, Simulation Time: {time}, Submit Time: {renderSubmitTime}, Render allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
