@@ -10,6 +10,7 @@ World.Error.FailedToCreateBanAccessKey
 World.Error.UnhandledError  
 World.Category.Avatars  
 Account.Type.Stripe  
+Permissions.SavingDisabledForItem  
 Contacts.RequestInvite  
 Contacts.AskToJoin  
 Contacts.InviteRequest.UserWantsToJoin  
@@ -161,6 +162,7 @@ Inspector.GaussianSplat.Variant
 Inspector.GaussianSplat.ColorByIndex  
 Inspector.GaussianSplat.ReorderMorton  
 Inspector.FacetPreset.Warning  
+Inspector.GrabbableSaveBlock.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 UI.ColorPicker.Blackbody  

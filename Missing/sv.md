@@ -21,6 +21,7 @@ Account.Type.Stripe
 Profile.Status.Sociable  
 Profile.Status.Bot  
 Profile.Status.ChatClient  
+Permissions.SavingDisabledForItem  
 Contacts.RequestInvite  
 Contacts.NoSession  
 Contacts.IncompatibleSession  
@@ -1438,6 +1439,7 @@ Inspector.AvatarExpression.AutoAssign
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.FacetPreset.Warning  
+Inspector.GrabbableSaveBlock.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  

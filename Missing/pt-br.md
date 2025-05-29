@@ -65,6 +65,7 @@ Account.Type.Stripe
 Profile.Status.Sociable  
 Profile.Status.Bot  
 Profile.Status.ChatClient  
+Permissions.SavingDisabledForItem  
 Contacts.RequestInvite  
 Contacts.NoSession  
 Contacts.IncompatibleSession  
@@ -875,6 +876,7 @@ Inspector.DataPreset.SetActive
 Inspector.DataPreset.SetValues  
 Inspector.DataPreset.AddAllChildren  
 Inspector.FacetPreset.Warning  
+Inspector.GrabbableSaveBlock.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  

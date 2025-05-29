@@ -79,6 +79,7 @@ Session.JoinVerifier.SetCustomVerifier
 Permissions.NotAllowedToSpawn  
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
+Permissions.SavingDisabledForItem  
 Contacts.RequestInvite  
 Contacts.NoSession  
 Contacts.Migrated  
@@ -1370,6 +1371,7 @@ Inspector.AvatarExpression.AutoAssign
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.FacetPreset.Warning  
+Inspector.GrabbableSaveBlock.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  
