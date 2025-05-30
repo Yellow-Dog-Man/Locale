@@ -2,8 +2,5 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # German [de]
-Permissions.SavingDisabledForItem  
 Inspector.SkinnedMesh.ResetBonesToBindPoses  
-Inspector.GrabbableSaveBlock.Warning  
-UI.ColorPicker.Blackbody  
 
