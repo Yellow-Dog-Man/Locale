@@ -1695,7 +1695,6 @@
         "Settings.EarmuffSettings.EarmuffEnabled": "イヤーマフを使う",
         "Settings.EarmuffSettings.EarmuffEnabled.Description": "イヤーマフモードを有効にすると、ユーザーの声の大きさが距離や向きによって大幅に減衰するようになります。\n\nこの機能により\"リスニングコーン\"が形成され、複数の声が重なって聞き取りにくい場合に役立ちます。",
         "Settings.EarmuffSettings.Directionality" : "指向性",
-<<<<<<< HEAD
         "Settings.EarmuffSettings.Directionality.Description" : "声の減衰の指向性を設定できます。<br>0%にすると、後ろから聞こえる声と前から聞こえる声が同じ音量になります。<br>100%にすると、かなり近くにいない限り後ろの声は聞こえなくなります。\n\n後ろからの声をよく聞きたい場合は、この値を下げてください。",
         "Settings.EarmuffSettings.Distance" : "声を拾う距離",
         "Settings.EarmuffSettings.Distance.Description" : "あなたの前方向に(指向性が0％の場合は後方も)、この距離を超えると声が小さくなります。",
@@ -1704,16 +1703,6 @@
         "Settings.EarmuffSettings.TransitionStart": "減衰し始める距離",
         "Settings.EarmuffSettings.TransitionStart.Description": "\"リスニングコーン\"からどれだけ離れると声が小さくなり始めるかを設定できます。真横や真後ろにいる人の声を聴くために、この値は0以上にしておくことをおすすめします。",
         "Settings.EarmuffSettings.TransitionLength": "減衰にかける距離",
-=======
-        "Settings.EarmuffSettings.Directionality.Description" : "声の減衰の指向性を設定できます。0%にするとあなたの後ろの声は、あなたの前の声と同じ音量になります。100%にすると、かなり近くにいない限り後ろの声は聞こえません。\n\n後ろからの声をよく聞きたい場合は、この値を下げてください。",
-        "Settings.EarmuffSettings.Distance" : "距離",
-        "Settings.EarmuffSettings.Distance.Description" : "あなたの前方のに向かって(指向性が0％の場合は後方も)、この距離を超えると声が小さくなります。",
-        "Settings.EarmuffSettings.Angle": "角度",
-        "Settings.EarmuffSettings.Angle.Description": "あなたの顔から前方に向かって、声が普通の音量で聞こえる範囲の角度を設定できます(\"リスニングコーン\"の角度です)。この角度を超えた声は、移行開始距離に達すると小さくなっていきます。",
-        "Settings.EarmuffSettings.TransitionStart": "移行開始距離",
-        "Settings.EarmuffSettings.TransitionStart.Description": "\"リスニングコーン\"からどれだけ離れると声が小さくなり始めるかを設定できます。この値をゼロ以上にすることをおすすめします。そうすることで、横からの声や頭の近くからの声（例：あなたのすぐ後ろにいるユーザーの声）をより含むことができます。",
-        "Settings.EarmuffSettings.TransitionLength": "移行の距離",
->>>>>>> origin/main
         "Settings.EarmuffSettings.TransitionLength.Description": "声の音量が小さくなり始めてから完全に聞こえなくなるまでの距離を設定できます。値が大きいほど音量は緩やかに小さくなり、値が小さいほど音量は急に小さくなります。",
         "Settings.EarmuffSettings.VolumeAttenuation": "範囲外からの音量",
         "Settings.EarmuffSettings.VolumeAttenuation.Description": "\"リスニングコーン\"の外から聞こえる声の大きさを設定できます。0%に設定すると、リスニングコーンの外からの声が聞こえなくなります。",
