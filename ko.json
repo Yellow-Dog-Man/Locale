@@ -627,9 +627,10 @@
         "Session.JoinVerifier.ComponentWarning" : "<color=red>경고:</color> 현재 인증 프로그램 활성화 후 위/변조를 방지할 수 있는 방법이 없습니다. ProtoFlux로 설정을 조작하는 것이 문제가 된다면 이 기능을 사용하지 마세요.",
         "Session.JoinVerifier.SetCustomVerifier" : "세션참여 인증기로 설정",
 
-        "Permissions.NotAllowedToSpawn": "생성 작업이 금지된 월드입니다.",
-        "Permissions.NotAllowedToSave": "저장(Save) 작업이 금지된 월드입니다.",
-        "Permissions.NotAllowedToSwapAvatar": "지정된 아바타만 사용가능한 월드입니다.",
+        "Permissions.NotAllowedToSpawn": "생성이 금지된 월드입니다.",
+        "Permissions.NotAllowedToSave": "저장이 금지된 월드입니다.",
+        "Permissions.NotAllowedToSwapAvatar": "지정 아바타만 사용 가능한 월드입니다.",
+        "Permissions.SavingDisabledForItem": "이 항목은 저장할 수 없습니다.",
 
         "User.Actions.Silence": "음소거",
         "User.Actions.Mute": "음성 끄기",
@@ -2234,6 +2235,7 @@
         "Inspector.SkinnedMesh.BakeToStaticMesh": "정적 메시로 베이크",
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "블렌드셰이프명으로 정렬",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "블렌드셰이프명 길이(동일한 경우 이름)로 정렬",
+        "Inspector.SkinnedMesh.ResetBonesToBindPoses": "지정된 포즈로 본 재설정",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "아바타 보호기능 모두 제거",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "단일 아바타 보호기능 제거",
@@ -2367,7 +2369,8 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>경고!</size></color><br>SimulateRotation을 선택하여, 이 구성요소를 단순한 형태의 리지드바디로 이용하실 수 있습니다. 이 기능은 향후 적절한 버전으로 지원될 예정이며, 현재는 목적에 부합하는 용도로 사용하기에 최적화된 상태는 아님을 이해해 주시기 바랍니다.<br>적절한 리지드바디는 아래와 같은 장단점을 제공합니다.<br><b>- CPU 및 네트워크 효율성</b> - CharacterController를 사용하는 경우, 더 많은 CPU 사용량과 상당한 양의 네트워크 트래픽이 발생됩니다.<br><b>- 제약 조건</b> - 리지드바디 간 조인트, 힌지, 스프링 및 기타 제약 조건을 생성할 수 있습니다.<br><b>- 여러 사용자에 대한 매끄러운 시뮬레이션 및 상호 작용</b> - 다른 사람이 상호 작용을 시도하면 CharacterController에서 오류를 발생시킵니다.<br><b>- 새로운 기능 및 도구</b> - 훨씬 더 간단한 사용환경을 제공합니다.<br>-----------------------<br>GitHub 이슈 #22에서 더 많은 정보를 확인하실 수 있습니다. 이러한 제약사항을 이해하신 후 즐겨주세요!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>경고!</size></color><br>이 구성요소를 사용하면 해당 ID를 사용하여 참조와 상호작용할 수 있습니다. 이것을 일반적으로 'Ref Hacking'이라고 합니다.<br><br><b>사용하기 앞서</b> 이 기능은 언제든지 중단되거나 지원이 끊길 수 있음을 염두해 두시기 바랍니다.",
-
+        "Inspector.FacetPreset.Warning":"<color=red><size=125%>경고!</size></color><br>이 구성요소는 새로운 프리셋을 게시할 경우 컨텐츠를 자동으로 갱신합니다. 사용자 정의 버전을 만드는 경우, 이 구성요소를 삭제하는것이 좋습니다.",
+        "Inspector.GrabbableSaveBlock.Warning":"<color=red><size=125%>경고!</size></color><br>이 구성요소는 보안적 측면을 고려하여 설계된 것은 아닙니다. 게임의 규칙이나 디자인상의 이유로 저장을 차단하는 쉬운 방법을 제시하는 것 뿐 이기에 우회될 수 있습니다.",
         
         "Inspector.ParticleSystem.BasicInfo" : "입자: {count}\t모의 시간: {time}\t렌더 할당량: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "꼬리: {trailCount} (용량: {trailCapacity}), 지점 용량: {trailPointCapacity}, 할당량: {allocationCount}",
@@ -2896,6 +2899,7 @@
 
         "UI.ColorPicker.Hexadecimal": "16진수",
         "UI.ColorPicker.ColorSwatches": "견본",
+        "UI.ColorPicker.Blackbody": "흑체",
 
         "UI.ColorPicker.Red": "적",
         "UI.ColorPicker.Green": "녹",
