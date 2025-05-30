@@ -265,6 +265,7 @@ Session.JoinVerifier.SetCustomVerifier
 Permissions.NotAllowedToSpawn  
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
+Permissions.SavingDisabledForItem  
 Contacts.RevokeInvite  
 Contacts.RequestInvite  
 Contacts.Unblocked  
@@ -1200,6 +1201,7 @@ Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose
 Inspector.SkinnedMesh.BakeToStaticMesh  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
+Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.SimpleAvatarProtection.RemoveAll  
 Inspector.SimpleAvatarProtection.RemoveSingle  
 Inspector.SimpleAvatarProtection.Warning  
@@ -1252,6 +1254,7 @@ Inspector.AvatarExpression.AutoAssign
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.FacetPreset.Warning  
+Inspector.GrabbableSaveBlock.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  

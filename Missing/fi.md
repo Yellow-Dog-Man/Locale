@@ -8,6 +8,7 @@ Interaction.Grab.HoldToHold
 World.Connection.LNL.LNLPoke  
 World.Actions.GuestWarning  
 World.Category.Avatars  
+Permissions.SavingDisabledForItem  
 Contacts.Unblocked  
 Tools.ProtoFlux.Drive  
 Tools.ProtoFlux.Source  
@@ -245,6 +246,7 @@ Inspector.VHACD.Parameter.ConvexHullDownsampling
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
 Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose  
+Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.SimpleAvatarProtection.Warning  
 Inspector.Texture.TrimByCornerColor  
 Inspector.Texture.MakeTileable  
@@ -273,6 +275,7 @@ Inspector.DataPreset.AddAllChildren
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.FacetPreset.Warning  
+Inspector.GrabbableSaveBlock.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.Collider.SetFromLocalBounds  

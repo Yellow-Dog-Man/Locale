@@ -22,6 +22,7 @@ Account.Type.Stripe
 Profile.Status.Sociable  
 Profile.Status.Bot  
 Profile.Status.ChatClient  
+Permissions.SavingDisabledForItem  
 Contacts.RequestInvite  
 Contacts.NoSession  
 Contacts.IncompatibleSession  
@@ -794,6 +795,7 @@ Inspector.Skybox.SetActiveSkybox
 Inspector.AmbientLightSH2.SetActiveAmbientLight  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
+Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.Texture3D.Size  
 Inspector.Texture.ReplaceFromClipboard  
 Inspector.Texture.AlphaGamma  
@@ -807,6 +809,7 @@ Inspector.DataPreset.SetActive
 Inspector.DataPreset.SetValues  
 Inspector.DataPreset.AddAllChildren  
 Inspector.FacetPreset.Warning  
+Inspector.GrabbableSaveBlock.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Tutorial.Welcome.Welcome  

@@ -868,7 +868,7 @@
         "Tools.GaussianSplat.Name": "Outil de splat gaussien",
         "Tools.GaussianSplat.ClipBox": "Zone de coupe",
         "Tools.GaussianSplat.ClipSphere": "Sphère de coupe",
-        "Tools.GaussianSplat.ClipCylinder" : "Cylindre de coupe",
+        "Tools.GaussianSplat.ClipCylinder": "Cylindre de coupe",
 
         "Tools.ComponentClone.Name": "Outil de clonage de composants",
         "Tools.ComponentClone.SingleInstanceOn": "Instance seule: activée",
@@ -1638,7 +1638,6 @@
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Activez cette option pour utiliser le périphérique de sortie audio par défaut de votre système. Désactiver cette option peut être utile si vous voulez que l'audio sorte d'un autre périphérique. Ceci peut être utile si vous utilisez des périphériques différents lors du passage entre la VR le bureau.",
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "Configurer les périphériques de sortie audio préférés",
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "Périphériques de sortie audio",
-
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Définir comme défaut",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "Rafraîchir les périphériques audio",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Presser cette option va forcer Resonite à rafraîchir tous les périphériques audio. Dans tous les cas, vous n'avez pas besoin de le faire mais dans certains cas, cela peut aider.",
@@ -2234,6 +2233,7 @@
         "Inspector.SkinnedMesh.BakeToStaticMesh": "Pré-calculer vers un modèle statique",
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "Trier les Blendshapes (par nom)",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Trier les Blenshapes (par longueur, puis nom)",
+        "Inspector.SkinnedMesh.ResetBonesToBindPoses": "Réinitialiser les os aux poses bind",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Supprimer TOUTES les instances",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Supprimer une seule instance",
@@ -2367,6 +2367,8 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Il est possible d'utiliser ce composant comme un simple RigidBody en cochant SimulateRotation. Avant de le faire, veuillez comprendre qu'il n'est pas optimisé à cet effet et qu'un support Rigidbody approprié arrive à l'avenir.<br>Un support rigidbody approprié offrira :<br><b>- Efficacité du processeur et du réseau</b> - avec CharacterController, vous obtiendrez une utilisation plus élevée du processeur et une quantité importante de trafic réseau<br><b>- Contraintes</b> - vous pourrez créer des articulations, des charnières, des ressorts et d'autres contraintes entre les corps rigides<br><b >- Simulation et interactions fluides pour tout le monde</b> - CharacterController disparaîtra si une autre personne essaie d'interagir<br><b>- Nouvelles fonctionnalités et outils</b> - pour en faciliter l'utilisation<br>-- ---------------------<br>Vous pouvez en trouver plus sur GitHub n°22. Tant que vous comprenez ces limites, amusez-vous !",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Il est possible d'utiliser ce composant pour interagir avec des références depuis leur ID. Ce processus est appelé 'ref hacking'.<br><br><b>Avant</b> de continuer, faire cela n'est <b>pas</b> supporté officiellement et peut casser à tout moment. Ne comptez pas dessus pour vos créations.",
+        "Inspector.FacetPreset.Warning": "<color=red><size=125%>ATTENTION!</size></color><br>Les FacetPreset vont automatiquement mettre à jour la facette à sa dernière version. Si vous créez une version customisée, il est recommandé de retirer ce composant.",
+        "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>ATTENTION!</size></color><br>Ce composant n'est pas là comme un système de sécurité. Il est destiné à être utilisé pour les cas où vous souhaitez bloquer les méthodes plus faciles de sauvegarde pour des raisons de gameplay ou de conception. Il peut facilement être contourné et il ne sera en aucun cas rendu plus sûr.",
 
         "Inspector.ParticleSystem.BasicInfo": "Particules: {count}  Dernière durée de simulation: {time}    Allocations de rendu: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "Traînées: {trailCount} (capacité: {trailCapacity}), Capacité de points: {trailPointCapacity}, Allocations: {allocationCount}",
@@ -2895,6 +2897,7 @@
         "UI.ColorPicker.Linear": "Linéaire",
 
         "UI.ColorPicker.Hexadecimal": "Hex",
+        "UI.ColorPicker.Blackbody": "Corps noir",
         "UI.ColorPicker.ColorSwatches": "Échantillons",
 
         "UI.ColorPicker.Red": "Rouge",

@@ -7,6 +7,7 @@ Interaction.Grab.StickyGrab
 Interaction.Grab.HoldToHold  
 World.Category.Avatars  
 Account.Type.Stripe  
+Permissions.SavingDisabledForItem  
 Contacts.RequestInvite  
 Contacts.AskToJoin  
 Contacts.InviteRequest.UserWantsToJoin  
@@ -126,11 +127,13 @@ Settings.MysterySettings
 Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.Skybox.SetActiveSkybox  
 Inspector.AmbientLightSH2.SetActiveAmbientLight  
+Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.GaussianSplat.SplatInfo  
 Inspector.GaussianSplat.Variant  
 Inspector.GaussianSplat.ColorByIndex  
 Inspector.GaussianSplat.ReorderMorton  
 Inspector.FacetPreset.Warning  
+Inspector.GrabbableSaveBlock.Warning  
 UI.ColorPicker.Blackbody  
 Universe.UI.Narrative  
 Universe.UI.Freeform  
