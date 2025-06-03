@@ -630,6 +630,7 @@
         "Permissions.NotAllowedToSpawn": "你不可以在此处生成物品",
         "Permissions.NotAllowedToSave": "你无权在这个世界上保存项目。",
         "Permissions.NotAllowedToSwapAvatar": "你不允许在此处切换到自定义虚拟形象。",
+        "Permissions.SavingDisabledForItem": "保存在此物品上不可用。",
 
         "User.Actions.Silence": "全局静音",
         "User.Actions.Mute": "静音",
@@ -2234,6 +2235,7 @@
         "Inspector.SkinnedMesh.BakeToStaticMesh": "烘焙为静态网格",
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "以名称对形态键排序",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "以名称长度对形态键排序",
+        "Inspector.SkinnedMesh.ResetBonesToBindPoses": "重置骨骼到绑定姿势",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "移除所有实例",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "移除单个实例",
@@ -2368,7 +2370,8 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告！</size></color><br>当勾选模拟旋转（SimulateRotation）时这个组件可以被当作一个简单的刚体。在你这样做之前，你需要明白它不曾为此优化，且对刚体的正式支持会在未来加入。<br>正式支持包括：<br><b>- CPU和网络效率提升</b> - 使用角色控制器，你的CPU和网络占用会显著上升<br><b>- 约束</b> - 你将能够在刚体间创建关节、合页、弹簧和其他约束<br><b>- 对每个人的平滑模拟与交互</b> - 在另一个人尝试交互时，角色控制器会发生故障<br><b>- 新功能与工具</b> - 让使用更加简单<br>-----------------------<br>只要你理解了上述限制，放开玩吧！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color><br>通过他们的ID，这个组件可以被用于与引用交互。这个过程常被称为“引用骇入”。<br><br>在你这样做<b>之前</b>，请知晓这种方式 <b>不被</b> 支持且随时可能失效。请勿让你的作品依赖于此项功能。",
         "Inspector.FacetPreset.Warning":"<color=red><size=125%>警告!</size></color><br>Facet预设将会在我们发布新版本的时候自动更新。如果你在用自定义版本呢，我们建议删除这个组件。",
-
+        "Inspector.GrabbableSaveBlock.Warning":"<color=red><size=125%>警告！</size></color> 本组件并非用作安全/资产防盗保护系统。其设计初衷仅适用于因玩法或设计需求需屏蔽简易存档方式的场景。该组件可被轻易绕过，且在任何情况下都不会增强其安全性。",
+        
         "Inspector.ParticleSystem.BasicInfo" : "粒子： {count}， 帧率： {fps}， 模拟时间： {time}， 提交时间： {renderSubmitTime}， 渲染分配： {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "尾迹： {trailCount} (容量： {trailCapacity}), 尾迹点容量： {trailPointCapacity}",
 
@@ -2896,6 +2899,7 @@
         "UI.ColorPicker.Linear": "线性",
 
         "UI.ColorPicker.Hexadecimal": "16进制",
+        "UI.ColorPicker.Blackbody": "绝对黑体",
         "UI.ColorPicker.ColorSwatches": "色板",
 
         "UI.ColorPicker.Red": "红",
