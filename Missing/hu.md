@@ -809,6 +809,8 @@ Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description
 Settings.AudioOutputDeviceSettings.StreamingCameraPriorities  
 Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb  
 Settings.AudioAccessibilitySettings.WhisperVolume.Description  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description  
 Settings.AudioPerformanceSettings  
 Settings.AudioPerformanceSettings.MaxVoices  
 Settings.AudioPerformanceSettings.MaxVoices.Description  

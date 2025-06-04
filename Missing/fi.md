@@ -57,6 +57,8 @@ Settings.GiggleTechSettings.Devices.IntensityScale.Description
 Settings.GiggleTechSettings.Devices.CustomName.Description  
 Settings.GiggleTechSettings.Devices.MinimumIntensity.Description  
 Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description  
 Settings.AudioInputFilteringSettings.NoiseGateAttack.Description  
 Settings.AudioInputFilteringSettings.NoiseGateHold.Description  
 Settings.AudioInputFilteringSettings.NoiseGateRelease.Description  

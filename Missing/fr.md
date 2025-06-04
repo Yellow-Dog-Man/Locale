@@ -3,4 +3,6 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # French [fr]
 Permissions.SavingDisabledForItem  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description  
 

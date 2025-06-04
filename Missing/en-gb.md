@@ -1388,6 +1388,8 @@ Settings.AudioAccessibilitySettings.WhisperVolume
 Settings.AudioAccessibilitySettings.WhisperVolume.Description  
 Settings.AudioAccessibilitySettings.VoiceMessageVolume  
 Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description  
 Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description  
 Settings.AudioInputFilteringSettings.NoiseGateThreshold  
 Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description  

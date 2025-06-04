@@ -110,6 +110,8 @@ Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput
 Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description  
 Settings.AudioOutputDeviceSettings.StreamingCameraPriorities  
 Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description  
 Settings.AudioInputFilteringSettings.UseVoiceNormalization  
 Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description  
 Settings.AudioInputFilteringSettings.NoiseGateThreshold  
