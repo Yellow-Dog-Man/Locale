@@ -217,7 +217,7 @@
         "World.Error.Unknown": "Unknown Error",
         "World.Error.FailedToCreateBanAccessKey": "Failed to create ban access key",
         "World.Error.UnhandledError": "Unhandled Error",
-        
+
         "World.Config.Name": "World Name:",
         "World.Config.Description": "Description:",
         "World.Config.MaxUsers": "Maximum Users:",
@@ -999,7 +999,7 @@
 
         "Importer.Image.Failure.Heading": "Failed to Import Image <color=hero.yellow>{image}</color>",
         "Importer.Image.Failure.Description": "Failed to import the image due to the following:\n\n<color=hero.red>{error}</color>",
-        
+
         "Importer.LUT.Failure.Heading": "Failed to Import LUT <color=hero.yellow>{image}</color>",
         "Importer.LUT.Failure.Description": "Failed to import LUT due to the following:\n\n<color=hero.red>{error}</color>",
 
@@ -1119,7 +1119,7 @@
         "Importer.Slices.TitleGrayscale": "Image slices as volumetric texture (grayscale)",
         "Importer.Slices.Description": "Processes all image files in the folder into a volumetric texture",
 
-        "Importer.UnsupportedRecordType.Heading":"Unsupported Record Type", 
+        "Importer.UnsupportedRecordType.Heading":"Unsupported Record Type",
         "Importer.UnsupportedRecordType.Description":"The record you are trying to import({url}) has an unsupported type. It's type is: {recordType}. Please report this to us at {bugUrl}.",
         "Importer.Link.Invalid.Heading":"Invalid Folder Link",
         "Importer.Link.Invalid.Description":"The folder link({url}), you are trying to import is invalid. Double check your link and try again.",
@@ -1850,22 +1850,22 @@
         "Settings.EditSettings.ConfirmSlotDestroy.Description": "When enabled, you'll be asked for confirmation when destroying Slots with the Developer Tool. This can prevent accidentally destroying objects when misclick.",
 
         "Settings.CursorSettings": "Cursor Settings",
-        
+
         "Settings.CursorSettings.BaseCursorSize": "Base cursor size",
         "Settings.CursorSettings.BaseCursorSize.Description": "This sets a base cursor size. We recommend setting this first, before adjusting the others as their size is relative to this.",
-        
+
         "Settings.CursorSettings.GrabMultiplier": "Grab multiplier",
         "Settings.CursorSettings.GrabMultiplier.Description": "This is applied as a multiplier to your cursor while grabbing objects and items.",
-        
+
         "Settings.CursorSettings.InteractionMultiplier": "Interaction multiplier",
         "Settings.CursorSettings.InteractionMultiplier.Description": "This is applied as a multiplier to your cursor while interacting with UI elements such as buttons.",
-        
+
         "Settings.CursorSettings.TextMultiplier": "Text multiplier",
         "Settings.CursorSettings.TextMultiplier.Description": "This is applied as a multiplier to your cursor while interacting and manipulating text.",
-        
+
         "Settings.CursorSettings.SliderMultiplier": "Slider multiplier",
         "Settings.CursorSettings.SliderMultiplier.Description": "This is applied as a multiplier to your cursor while interacting with sliders and scrollbars.",
-        
+
 
         "Settings.DesktopViewSettings.FollowCursor": "Follow cursor",
         "Settings.DesktopViewSettings.FollowCursor.Description": "When enabled, the Desktop view will automatically switch to whichever screen is your cursor on. This is useful when you're using physical keyboard and mouse while in VR.",
@@ -1882,6 +1882,10 @@
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "Similar to normal resolution, you can set a separate resolution for photos captured with the timer feature. This can be useful if you use timer to capture group photos, which can benefit from higher resolution.",
         "Settings.PhotoCaptureSettings.TimerSeconds": "Timer duration",
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "How many seconds does it take before a photo is captured with the timer feature.",
+        "Settings.PhotoCaptureSettings.HandsNearFOV": "Hands near FOV",
+        "Settings.PhotoCaptureSettings.HandsNearFOV.Description": "Field of view for photos captured by the finger gesture while your hands are closest to your head.",
+        "Settings.PhotoCaptureSettings.HandsFarFOV": "Hands far FOV",
+        "Settings.PhotoCaptureSettings.HandsFarFOV.Description": "Field of view for photos captured by the finger gesture while your hands are furthest from your head.",
         "Settings.PhotoCaptureSettings.CaptureStereo": "Capture stereo photo",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "When enabled, all quick photo captures will be stereoscopic. This is mostly useful when viewed in VR.",
         "Settings.PhotoCaptureSettings.StereoSeparation": "Stereo Separation",
@@ -1902,7 +1906,7 @@
 
         "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Zoom FOV when sprinting",
         "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "When this option is enabled, your FOV will be zoomed when you are sprinting in Desktop. Disable this setting to remove this effect.\n\nPlease note that this does <b>NOT</b> disable effects found in User Generated Content.",
-        
+
         "Settings.DesktopRenderSettings.VSync": "VSync",
         "Settings.DesktopRenderSettings.VSync.Description": "When this option is enabled, the framerate will be synced with the refresh rate of your screen. Disabling this can render frames faster, but it will also cause visible tearing.\n\nThis can be useful when doing performance testing as it will uncap the update and rendering speed.\n\n<color=hero.red>IMPORTANT:</color> This setting cannot be toggled while in VR since framerate is controlled by VR.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Limit framerate when in background",
