@@ -630,6 +630,7 @@
         "Permissions.NotAllowedToSpawn": "Vous n'êtes pas autorisé à matérialiser des choses ici.",
         "Permissions.NotAllowedToSave": "Vous n'êtes pas autorisé à sauvegarder des objets dans ce monde.",
         "Permissions.NotAllowedToSwapAvatar": "Vous n'êtes pas autorisé à équiper un avatar personnalisé ici.",
+        "Permissions.SavingDisabledForItem": "La sauvegarde est désactivée pour cet objet",
 
         "User.Actions.Silence": "Mettre en sourdine",
         "User.Actions.Mute": "Sourdine",
@@ -1661,6 +1662,8 @@
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Ajuste le volume des sons à l'extérieur de la sphère de chuchotement. S'ils sont trop forts ou faibles, vous pouvez utiliser ceci pour régler l'atténuation du volume.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Volume des messages vocaux",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Ajuste le volume des sons ambiants quand vous enregistrez un message vocal pour vos Amis. Ceci peut réduire le \"brouillage\" de la voix, rendant plus facile de se concentrer sur ce que vous dites.",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff": "Forcer la désactivation des effets sur les voix",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description": "Activer cette option va supprimer les effets audios affectant les voix (la réverbération par exemple). Cela peut aider si vous avez du mal à entendre des voix.<br><br><color=hero.red>Important:</color> certains mondes peuvent désactiver cette option si vraiment nécessaire.",
 
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Normalisation de la voix",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Cette fonctionnalité fera en sorte que votre voix soit à un niveau uniforme. Cela fait en sorte que votre volume soit le même que les autres utilisateurs, quelques soient vos options de microphone. Il est vivement recommandé de garder cette option activée pour que vous soyez entendu correctement par les autres utilisateurs.",
@@ -1878,6 +1881,10 @@
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "Définit la résolution des photos avec retardateur, comme pour les photos normales. Ceci peut être utile si vous utilisez le retardateur pour prendre des photos de groupe, qui bénéficient d'une plus haute résolution.",
         "Settings.PhotoCaptureSettings.TimerSeconds": "Durée du retardateur",
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "Durée du retardateur en secondes.",
+        "Settings.PhotoCaptureSettings.HandsNearFOV": "Champ de vision près des mains",
+        "Settings.PhotoCaptureSettings.HandsNearFOV.Description": "Le champ de vision pour les photos capturées quand vos mains sont proches de votre tête.",
+        "Settings.PhotoCaptureSettings.HandsFarFOV": "Cham de vision loin des mains",
+        "Settings.PhotoCaptureSettings.HandsFarFOV.Description": "Le champ de vision pour les photos capturées quand vos mains sont loin de votre tête.",
         "Settings.PhotoCaptureSettings.CaptureStereo": "Capturer des photos stéréoscopiques",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Capture toutes les photos en mode stéréoscopique. Ceci est utile pour les voir en VR.",
         "Settings.PhotoCaptureSettings.StereoSeparation": "Séparation stéréoscopique",
