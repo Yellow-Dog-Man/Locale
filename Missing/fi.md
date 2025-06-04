@@ -139,6 +139,10 @@ Settings.PhotoCaptureSettings.FingerGestureEnabled.Description
 Settings.PhotoCaptureSettings.NormalCaptureResolution.Description  
 Settings.PhotoCaptureSettings.TimerCaptureResolution.Description  
 Settings.PhotoCaptureSettings.TimerSeconds.Description  
+Settings.PhotoCaptureSettings.HandsNearFOV  
+Settings.PhotoCaptureSettings.HandsNearFOV.Description  
+Settings.PhotoCaptureSettings.HandsFarFOV  
+Settings.PhotoCaptureSettings.HandsFarFOV.Description  
 Settings.PhotoCaptureSettings.CaptureStereo.Description  
 Settings.PhotoCaptureSettings.StereoSeparation.Description  
 Settings.PhotoCaptureSettings.PhotoAutosavePath.Description  

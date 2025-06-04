@@ -955,6 +955,10 @@ Settings.PhotoCaptureSettings.TimerCaptureResolution
 Settings.PhotoCaptureSettings.TimerCaptureResolution.Description  
 Settings.PhotoCaptureSettings.TimerSeconds  
 Settings.PhotoCaptureSettings.TimerSeconds.Description  
+Settings.PhotoCaptureSettings.HandsNearFOV  
+Settings.PhotoCaptureSettings.HandsNearFOV.Description  
+Settings.PhotoCaptureSettings.HandsFarFOV  
+Settings.PhotoCaptureSettings.HandsFarFOV.Description  
 Settings.PhotoCaptureSettings.CaptureStereo  
 Settings.PhotoCaptureSettings.CaptureStereo.Description  
 Settings.PhotoCaptureSettings.StereoSeparation  
