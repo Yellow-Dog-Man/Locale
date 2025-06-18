@@ -1,6 +1,6 @@
 {
     "localeCode": "ru",
-    "authors": ["GhostZ36", "BrotiwkA", "Shadow Panther", "ENTERTHEWOLF", "ConfusedYeen", "Stanislavskii", "maksim789456"],
+    "authors": ["GhostZ36", "BrotiwkA", "Shadow Panther", "ENTERTHEWOLF", "ConfusedYeen", "Stanislavskii", "maksim789456", "MrSetto", "alextaco-anton"],
     "messages": {
 
         "General.OK": "OK",
@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "Хват: точный",
         "Interaction.Grab.Auto": "Хват: авто",
         "Interaction.Grab.Off": "Хват: только лазер",
+        "Interaction.Grabbing" : "Захват",
+        "Interaction.Grab.StickyGrab" : "Прилипание",
+        "Interaction.Grab.HoldToHold" : "Удержание",
         "Interaction.Locomotion": "Передвижение",
         "Interaction.Locomotion.None": "Нет передвижения",
 
@@ -303,6 +306,7 @@
         "World.Category.ContactsSessions": "Сессии контактов",
         "World.Category.HeadlessSessions": "Серверные сессии",
         "World.Category.Social": "Социальные",
+        "World.Category.Avatars": "Аватары",
         "World.Category.Games": "Игры",
         "World.Category.Art": "Искусство",
         "World.Category.Tutorials": "Обучение",
@@ -585,12 +589,13 @@
 
         "Account.Type.Standard": "Стандартный Аккаунт",
         "Account.Type.Business": "Бизнес Аккаунт",
-        "Account.Type.Patreon": "Спонсор на Patreon",
+        "Account.Type.Patreon": "Спонсор (Patreon)",
+        "Account.Type.Stripe": "Спонсор (Stripe)",
         "Account.Type.Mentor": "Ментор {platform}",
         "Account.Type.Moderator": "Модератор {platform}",
         "Account.Type.Team": "Команда {platform}",
 
-        "Avatar.Badge.Live": "LIVE",
+        "Avatar.Badge.Live": "ЭФИР",
 
         "2FA.Header": "Проверка 2FA",
         "2FA.Token": "6-значный код:",
@@ -625,6 +630,7 @@
         "Permissions.NotAllowedToSpawn": "Вам запрещено создавать здесь предметы.",
         "Permissions.NotAllowedToSave": "Вам запрещено сохранять объекты из этого мира.",
         "Permissions.NotAllowedToSwapAvatar": "Вам запрещено использовать здесь свой аватар.",
+        "Permissions.SavingDisabledForItem": "Сохранение для этого элемента отключено.",
 
         "User.Actions.Silence": "Заглушить в мире",
         "User.Actions.Mute": "Заглушить",
@@ -640,6 +646,7 @@
         "Contacts.IgnoreRequest": "Игнорировать Запрос",
         "Contacts.Invite": "Пригласить сюда",
         "Contacts.RevokeInvite": "Отозвать приглашение",
+        "Contacts.RequestInvite": "Запросить приглашение",
         "Contacts.BanFromAllSessions": "Заблокировать в созданных мной сессиях",
         "Contacts.UnbanFromAllSessions": "Разблокировать в созданных мной сессиях",
         "Contacts.BanFromCurrentWorld": "Заблокировать в этом мире",
@@ -669,6 +676,19 @@
         "Contacts.Bot": "Бот",
         "Contacts.Migrated": "Контакт не мигрировал",
         "Contacts.IncompatibleSession" : "Несовместимая сессия",
+        "Contacts.AskToJoin" : "<color=hero.yellow> Пригласить </color> пользователя",
+
+        "Contacts.InviteRequest.UserWantsToJoin" : "{username} хочет присоединиться к вам ",
+        "Contacts.InviteRequest.UserWantsToInviteAnother" : "\"{requestingUser}\" хочет пригласить \"{userToInvite}\" в сеанс \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantInvite" : "Предоставить приглашение (один раз)",
+        "Contacts.InviteRequest.AddAsContact" : "Добавить \"{username}\" в контакты",
+        "Contacts.InviteRequest.AddAsContactOfHeadless" : "Добавить \"{username}\" а контакты headless",
+        "Contacts.InviteRequest.AddHostAsContact" : "Добавить \"{username}\" (хост) в контакты",
+        "Contacts.InviteRequest.HostIsUnregistered": "Хост является незарегистрированный пользователь",
+        "Contacts.InviteRequest.ForwardToHost": "Переслать запрос от \"{username}\" хосту: {username}",
+        "Contacts.InviteRequest.SentRequest": "Запрошено приглашение",
+        "Contacts.InviteRequest.ForwardedRequest": "Запрос на приглашение от \"{username}\" в сеанс \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantedRequest": "Предоставлено \"{username}\" приглашение в сеанс \"{sessionName}\"",
 
         "Notifications.IsSociable" : "Общительный(-ая), можно поговорить или пригласить!",
         "Notifications.IsOnline": "Сейчас Онлайн",
@@ -678,6 +698,8 @@
         "Notifications.ReceivedItem": "Отправил(-ла) вам предмет:",
         "Notifications.VoiceMessage": "Отправил(-ла) голосовое сообщение",
         "Notifications.SessionStarted": "Запустил(-ла) сессию:",
+        "Notifications.ReceivedInviteRequestDirect": "Хочет прийти",
+        "Notifications.ReceivedInviteRequestForwarded": "Хочет прийти:",
         "Notifications.UserJoined": "Пользователь подключился",
         "Notifications.UserLeft": "Пользователь отключился",
         "Notifications.PermissionChanged": "Роль изменена на {new}",
@@ -844,6 +866,11 @@
         "Tools.RigTransfer.Name": "Инструмент переноса рига",
         "Tools.RigTransfer.ClearSource": "Очистить источник",
 
+        "Tools.GaussianSplat.Name" : "Инструмент Гауссовых пятен",
+        "Tools.GaussianSplat.ClipBox" : "Форма коробка",
+        "Tools.GaussianSplat.ClipSphere" : "Форма Сфера",
+        "Tools.GaussianSplat.ClipCylinder" : "Форма Целиндр",
+
         "Tools.ComponentClone.Name": "Инструмент клонирования компонентов",
         "Tools.ComponentClone.SingleInstanceOn": "Единственный экземпляр: Да",
         "Tools.ComponentClone.SingleInstanceOff": "Единственный экземпляр: Нет",
@@ -866,12 +893,11 @@
         "CreateNew.ParticleSystem": "Система частиц",
         "CreateNew.LegacyParticleSystem": "Легаси система частиц (Unity)",
 
-        
-
         "CreateNew.Object": "Объект",
         "CreateNew.Object.AvatarCreator": "Создатель аватаров",
         "CreateNew.Object.Camera": "Камера",
         "CreateNew.Object.ReflectionProbe": "Reflection Probe",
+        "CreateNew.Object.ReverbZone": "Зона реверберации",
         "CreateNew.Object.Mirror": "Зеркало",
         "CreateNew.Object.Portal": "Портал",
         "CreateNew.Object.VideoPlayer": "Видео-плеер",
@@ -988,7 +1014,16 @@
         "Importer.Model.Regular": "3D Модель",
         "Importer.Model.3DScan": "3D Скан",
         "Importer.Model.CAD": "CAD Модель",
-        "Importer.Model.PointCloud": "Point Cloud",
+        "Importer.Model.PointCloud": "Облако точек",
+        
+        "Importer.Model.GaussianSplat": "Гауссовы пятна",
+        "Importer.Model.GaussianSplatVertical": "Вертикальная ось",
+        "Importer.Model.RegularVertical": "Обычный",
+        "Importer.Model.FlipVertical": "Отразить ось Y",
+        "Importer.Model.GaussianSplatEncoding": "Кодирование",
+        "Importer.Model.GaussianSplatLossless": "Без потерь",
+        "Importer.Model.GaussianSplatSPZ": "SPZ (с потерями)",
+        
         "Importer.Model.VertexColorModel": "Vertex Цветную Модель",
         "Importer.Model.AdvancedSettings": "Дополнительные Настройки",
         "Importer.Model.ModelKindPrompt": "Какого типа 3D Модель?",
@@ -1030,9 +1065,9 @@
         "Importer.Model.Advanced.SetupIK": "Установить IK",
         "Importer.Model.Advanced.VisualizeRig": "Визуализация Скелета",
         "Importer.Model.Advanced.ForceTpose": "Выставить в T-Позу",
-        "Importer.Model.Advanced.ForcePointCloud": "Как Point Cloud",
+        "Importer.Model.Advanced.ForcePointCloud": "Как Облако точек",
 
-        "Importer.Model.Advanced.DualSided": "Сделать Dual Sided",
+        "Importer.Model.Advanced.DualSided": "Сделать двусторонним",
         "Importer.Model.Advanced.FlatShaded": "Сделать Flat Shaded",
         "Importer.Model.Advanced.DeduplicateInstances": "Дедуплицировать инстансы (медленно)",
         "Importer.Model.Advanced.Optimize": "Оптимизировать модель/сцену",
@@ -1048,6 +1083,25 @@
         "Importer.Model.Advanced.Scalable": "Сделать масштабируемым",
         "Importer.Model.Advanced.PositionAtOrigin": "Поставить в точку отсчёта (Origin)",
         "Importer.Model.Advanced.AssetsOnObject": "Поставить ассеты на объект",
+        
+        "Importer.Splat.Progress.Importing": "Импорт Гауссовых пятен",
+        "Importer.Splat.Progress.ReadingHeader": "Чтение заголовка файла",
+        "Importer.Splat.Progress.ConvertingSplats": "Преобразовано {converted} из {total}",
+        "Importer.Splat.Progress.EncodingData": "Кодирование преобразованных данных",
+        
+        "GaussianSplat.Encoding.Title": "Кодирование Гауссовых пятен",
+        "GaussianSplat.Encoding.Metadata": "Кодирование метаданных",
+        "GaussianSplat.Encoding.EncodingPositions": "Кодирование позиций {encoded} из {total}",
+        "GaussianSplat.Encoding.EncodingRotations": "Кодирование вращений {encoded} из {total}",
+        "GaussianSplat.Encoding.EncodingScales": "Кодирование масштабов {encoded} из {total}",
+        "GaussianSplat.Encoding.EncodingAlphas": "Кодирование альф {encoded} из {total}",
+        "GaussianSplat.Encoding.EncodingColors": "Кодирование цветов {encoded} из {total}",
+        "GaussianSplat.Encoding.EncodingFinalizing": "Завершение кодирования",
+        
+        "GaussianSplat.Processing.RemovingSplats": "Удаление пятен",
+        "GaussianSplat.Processing.SplatProgress": "Обработано {count} из {total}",
+        "GaussianSplat.Processing.LoadingData": "Загрузка данных",
+        "GaussianSplat.Processing.FailNoData": "Не удалось получить данные для обработки",
 
         "Importer.Video.Title": "Импорт Видео",
         "Importer.Video.Prompt": "Что вы импортируете?",
@@ -1065,6 +1119,12 @@
         "Importer.Slices.TitleGrayscale": "Слайсы картинки как объемная текстура (ч/б)",
         "Importer.Slices.Description": "Превращает все картинки в папке в объемную (volumetric) текстуру",
 
+        "Importer.UnsupportedRecordType.Heading":"Неподдерживаемый тип записи",
+        "Importer.UnsupportedRecordType.Description":"Запись, которую вы пытаетесь импортировать ({url}), имеет неподдерживаемый тип. Ее тип: {recordType}. Сообщите нам об этом по адресу {bugUrl}.",
+        "Importer.Link.Invalid.Heading":"Недопустимая ссылка на папку",
+        "Importer.Link.Invalid.Description":"Ссылка на папку ({url}), которую вы пытаетесь импортировать, недопустима. Дважды проверьте ссылку и повторите попытку.",
+        "Inventory.Link.LinkText": "Ссылка на инвентарь {name}",
+
         "Exporter.Title": "Панель экспорта",
         "Exporter.FileName": "Имя файла:",
         "Exporter.ExportAs": "Экспортировать как:",
@@ -1078,6 +1138,9 @@
         "Export.AudioExportable.OriginalFormat" : "Аудио <size=75%>(оригинальный формат)</size>",
 
         "Export.VideoExportable.OriginalFormat" : "Видео <size=75%>(оригинальный формат)</size>",
+
+        "Export.GaussianSplatExportable.PLY" : "PLY (без потерь)",
+        "Export.GaussianSplatExportable.SPZ" : "SPZ (с потерями)",
 
         "Importer.Package.Progress.DecodingPackage" : "Декодирование пакета",
         "Importer.Package.Progress.DecodingObject" : "Декодирование объекта",
@@ -1577,6 +1640,12 @@
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "Устройства аудио вывода",
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "Устройства аудио вывода",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Установить по умолчанию",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "Принудительное обновление аудиоустройств",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Нажатие этого параметра заставит Resonite обновить список аудиоустройств. В большинстве случаев это не требуется, но если Resonite не может обнаружить добавленное аудиоустройство, использование этого параметра может помочь.",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "Отдельный выход потоковой камеры",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "При включении потоковая камера будет воспроизводить звук со своей точки обзора и выводить его на отдельное аудиоустройство.<br><br>Это позволяет вам сохранять собственный звук с вашей точки зрения, а также захватывать звук с камеры перспектива.<br><br>Чтобы это работало, выбранное устройство должно отличаться от вашего обычного устройства вывода.",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Устройства вывода потоковой камеры",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "Устройства вывода потоковой камеры",
 
         "Settings.AudioVolumeSettings.MasterVolume": "Главная громкость",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "Настраивает громкость всех звуков. Если все звуки слишком тихие или громкие, вам нужна эта настройка.",
@@ -1593,7 +1662,9 @@
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Когда вы включаете режим шёпота, эта настройка задает, насколько громкими будут звуки снаружи сферы. Если они слишком громкие или тихие, эта настройка поможет задать их затухание.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Громкость голосовых сообщений",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Задает, насколько громкими будут внешние звуки когда вы записываете голосовое сообщение на скледке контактов. Позволяет избежать \"перебивания\" и сконцентрироваться на том, что вы хотите сказать.",
-
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff": "Принудительно отключить звуковые эффекты для голосов",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description": "Включение этого параметра подавит любые звуковые эффекты (например, реверберацию), применяемые к голосам других пользователей в мире. Это может помочь, если у вас возникли проблемы с пониманием голосов из-за этих эффектов.<br><br><color=hero.red>Важно:</color> Миры могут по желанию отключать эту функцию, если им нужны звуковые эффекты для игрового процесса. В этих случаях этот параметр не будет иметь никакого эффекта.",
+        
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Нормализация голоса",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Эта фенкциональность пытается поддерживать громкость вышего голоса на постоянном уровне. Это делает громкость вашего голоса постоянной для других пользователей, независимо от настроек микрофона. Настоятельно рекомендуем оставить эту настройку включенной, чтобы другие пользователи могли хорошо слышать вас.",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "Порог шумодава",
@@ -1611,6 +1682,14 @@
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Подавление шума (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Эта функциональность обрабатывает записываемое аудио чтобы отфильтровать различные мешающие шумы. Она может значительно очистить звук, написанный на шумный микрофон, и получить более чистый голос. Настоятельно рекомендуем оставить эту настройку включенной. С другой стороны, она может отфильтровать некоторые звуки, которые не определяются как речь.",
 
+        "Settings.AudioPerformanceSettings": "Настройки производительности звука",
+        "Settings.AudioPerformanceSettings.MaxVoices": "Максимальное количество источников звуков",
+        "Settings.AudioPerformanceSettings.MaxVoices.Description": "Это контролирует, сколько звуков может воспроизводиться одновременно. Увеличение этого значения позволит вам слышать больше звуков одновременно за счет использования процессора.<br><br>Если вы установите это значение слишком высоким, вы можете услышать потрескивание звука.",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize": "Размер кадра моделирования",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Это контролирует, сколько аудиоданных вычисляется за один раз при рендеринге звука. Увеличение значения может улучшить производительность в некоторых отношениях, но это будет достигнуто за счет менее частых аудиособытий и увеличения задержка.<br><br>Обычно мы не рекомендуем изменять это значение и оставляем значение по умолчанию 1024.",
+        "Settings.AudioPerformanceSettings.OutputBufferSize": "Размер буфера воспроизведения",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Этот параметр управляет размером буфера для воспроизведения звука. Более высокие значения будут иметь большую задержку звука, но более устойчивы к потрескиванию и щелчкам.<br><br>Уменьшая это значение, вы можете уменьшить задержку звука, но система будет более восприимчива к потрескиванию и сбоям.",
+        
         "Settings.VoiceSettings": "Настройки голоса",
         "Settings.VoiceSettings.MutePersistence": "Запоминать отключения микрофона",
         "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Start Unmuted:</color> При запуске, микрофон всегда включен.\n\n<color=hero.yellow>Start Muted:</color> При запуске, микрофон всегда отключен. Вам нужно будет или поменять режим голоса, или использовать клавишу \"push to talk\" (по умолчанию V) чтобы говорить.\n\n<color=hero.yellow>Remember Last: </color> При запуске, будет восстановлено последнее запомненное состояние микрофона.",
@@ -1682,6 +1761,9 @@
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Отключить симуляцию ног",
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Это нужно чтобы некоторые системы, типа позеров, подменяющих позиции прокси ног, работали без модицикации. <br><br>Если вы включите эту настройку без использования позеров или похожих систем, анимации НЕ будут выглядеть правильно. Выключите настройку после того, как закончили использовать позеры. <br><br><color=hero.red>ВАЖНО:</color> Эта настройка, скорее всего, будет убрана в будущем. Мы рекомендуем обновить позеры для совместимости с новой системой анимации, чтобы они автоматически отключали анимацию в активном состоянии.",
 
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "Использовать устаревшую систему зон реверберации",
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "При включении любой устаревший аудиоконтент, в котором включена пространственная обработка, будет автоматически игнорировать зоны реверберации, чтобы сохранить ограничения устаревшей аудиосистемы.<br><br>Включите этот параметр и снова загрузите устаревший контент. После сохранения преобразованного устаревшего контента выбор будет \"запечен\", и вам придется изменить его вручную впоследствии.",
+        
         "Settings.TwitchInterfaceSettings.ChannelName": "Название канала Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Устанавливает имя канала Twitch по умолчанию для панели чата Twitch в панели настроек камеры. В основном используется стримерами на Twitch, которые хотят видеть чат на их канале.",
 
@@ -1714,6 +1796,8 @@
         "Settings.NotificationSettings.Message.Description": "Будете ли вы получать уведомления когда получаете сообщения.",
         "Settings.NotificationSettings.Invite": "Приглашения в сессии",
         "Settings.NotificationSettings.Invite.Description": "Будете ли вы получать уведомления когда получаете приглашения в сессии.",
+        "Settings.NotificationSettings.InviteRequest": "Запросы приглашения",
+        "Settings.NotificationSettings.InviteRequest.Description": "Это контролирует, получаете ли вы уведомления при получении запроса приглашения, на который вы можете ответить.",
         "Settings.NotificationSettings.ContactRequest": "Запросы контактов",
         "Settings.NotificationSettings.ContactRequest.Description": "Будете ли вы получать уведомления когда получаете запрос контакта от пользователя",
         "Settings.NotificationSettings.ContactSessionStarted": "Новые сессии контактов",
@@ -1759,6 +1843,12 @@
         "Settings.LaserSettings.ShowInDesktop": "Показывать лазеры в экранном режиме",
         "Settings.LaserSettings.ShowInDesktop.Description": "Когда включено, визуал лазера будет полностью отрисован в виде от первого лица в экранно режиме.",
 
+        "Settings.EditSettings": "Изменить настройки",
+        "Settings.EditSettings.ConfirmComponentDestroy": "Подтвердить уничтожение компонентов",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "Если включено, вам будет предложено подтвердить, прежде чем уничтожать компонент в инспекторе. Это помогает предотвратить их случайное уничтожение при неправильном щелчке.",
+        "Settings.EditSettings.ConfirmSlotDestroy": "Подтвердить уничтожение слотов",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "Если включено, вам будет предложено подтвердить, когда вы уничтожаете слоты с помощью инструмента разработчика. Это может предотвратить случайное уничтожение объектов при неправильном щелчке.",
+        
         "Settings.CursorSettings": "Настройки курсора",
 
         "Settings.CursorSettings.BaseCursorSize": "Базовый размер курсора",
@@ -1776,7 +1866,9 @@
         "Settings.CursorSettings.SliderMultiplier": "Множитель слайдера",
         "Settings.CursorSettings.SliderMultiplier.Description": "Применяется как множитель к размеру курсора при взаимодействии со слайдерами и областями прокрутки.",
 
-
+        "Settings.CursorSettings.DirectCursorEnabled": "Прямой курсор включен",
+        "Settings.CursorSettings.DirectCursorEnabled.Description": "При включении показывает прямой курсор.\n\nПрямой курсор — это точка в пространстве, в которой будет находиться ваш курсор без сглаживания или корректировок, выполненных другими настройками или системами.",
+        
         "Settings.DesktopViewSettings.FollowCursor": "Следовать за курсором",
         "Settings.DesktopViewSettings.FollowCursor.Description": "Когда включено, вид Рабочего стола будет автоматически переключаться на экран, на котором сейчас находится курсор мыши. Это может быть удобно если вы используете физические клавиатуру и мышь в VR.",
         "Settings.DesktopViewSettings.Brightness": "Яркость",
@@ -1792,12 +1884,18 @@
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "Аналогично разрешению обычного фото, вы можете задать отдельное разрешение для фото, снятых с таймером. Это может быть полезно если вы используете таймер для групповых фото, которые могут требовать большего разрешения.",
         "Settings.PhotoCaptureSettings.TimerSeconds": "Длительность таймера",
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "Через сколько секунд снимается фото с таймером.",
+        "Settings.PhotoCaptureSettings.HandsNearFOV": "Руки рядом с FOV",
+        "Settings.PhotoCaptureSettings.HandsNearFOV.Description": "Поле зрения для фотографий, снятых жестом пальца, когда руки находятся ближе всего к голове.",
+        "Settings.PhotoCaptureSettings.HandsFarFOV": "Руки далеко от FOV",
+        "Settings.PhotoCaptureSettings.HandsFarFOV.Description": "Поле зрения для фотографий, снятых жестом пальца, когда руки находятся дальше всего от головы.",
         "Settings.PhotoCaptureSettings.CaptureStereo": "Снимать стерео фото",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Когда включено, все быстрые фото будут стерео-фото. Их луше всего смотреть в VR.",
         "Settings.PhotoCaptureSettings.StereoSeparation": "Стерео разделение",
         "Settings.PhotoCaptureSettings.StereoSeparation.Description": "Настраивает расстояние между стерео камерами при использовании стерео режима. Расстояние между камерами влияет на силу стерео эффекта для удаленных объектов.\n\nДля фотографирования близких объектов лучше подходят небольшие значения, а для больших сцен - большие.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Путь автосохранения фото в инвентаре",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Когда путь задан, все фото которые вы снимете (или сохраните через контекстное меню) будут автоматически сохранены в ваш инвентарь. Например, <color=hero.yellow>Photos/%year%/%month_name%</color>\n\nДоступны следующие переменные:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "Открыть путь автосохранения для текущего мира",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "Если у вас настроено автосохранение фотографий, нажатие на эту кнопку откроет инвентарь в месте, где сохранены фотографии для мира, в котором вы находитесь в данный момент.\n\nУбедитесь, что вы уже сделали несколько фотографий в этом мире, иначе это действие не будет выполнено, потому что папка еще не будет существовать!",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Снимать приватный интерфейс",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "Когда включено, бфстрое фото будет захвтывать ваш приватный интерфейс, такой как дэшборд. Может быть полезным когда вы хотите показать информацию из него.\n\nРекомендуем выключить эту настройку когда она больше не нужна, чтобы допустить случайную утечку приватной информации.",
         "Settings.PhotoCaptureSettings.EncodeFormat": "Формат сохранения",
@@ -1880,6 +1978,10 @@
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Отражения в экранном пространстве",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "Должна ли камера отрисовывать отражения в экранном пространстве? Это может дать более качественные отражения для гладких поверхностей, но может привести к артефектам и ухудшению производительности.",
 
+        "Settings.InteractiveCameraAudioSettings": "Аудио",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "Передавать собственный голос на камеру",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "Когда аудиовыход для интерактивной камеры отделен от ее собственного аудиоустройства, это управляет тем, будет ли камера слышать ваш собственный голос или нет.<br><br>Это полезно, чтобы сделать ваш собственный голос полностью спатилизированным, как его будут слышать другие пользователи в мире.<br><br>Обязательно отключите захват микрофона в вашем программном обеспечении для записи, когда эта опция включена.",
+        
         "Settings.DescriptionField.NoTextTitle": "Больше информации",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Задержите курсор над настройкой чтобы увидеть её описание.</closeall>",
 
@@ -1891,6 +1993,10 @@
         "Settings.RelaySettings.RelayPriorities": "Задать приоритеты ретрансляторов",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Приоритеты ретрансляторов",
 
+        "Settings.VideoStreamingServicesSettings": "Службы потоковой передачи видео",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Использовать файлы cookie из браузера",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Если видео YouTube и других сервисов не загружаются, выберите браузер, который вы обычно используете для загрузки файлов cookie при получении этих видео. Это увеличивает шансы успешной загрузки видео.",
+        
         "Settings.PostProcessingSettings": "Пост-обработка",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Интенсивность размытия в движении",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Задает силу эффекта размытия в движении (motion blur). Большие значения дают больше размытия при том же количестве движения.\n\nЕсли вы установите эффект в <nobr><color=hero.yellow>0 %</color></nobr>, фильтр будет полностью отключен, что может улучшить производительность.",
@@ -1915,6 +2021,24 @@
         "Settings.TextureQualitySettings.AnisotropicLevel": "Уровень анизотропии",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Контролирует качество анизотропной фильтрации.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Перезагрузить все текстуры (может быть тяжелой операцией)",
+        
+       "Settings.GaussianSplatQualitySettings": "Качество рендеринга Гауссовых пятен",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "Сортировка мегаопераций на камеру",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description": "При рендеринге гауссовых пятен пятна должны быть отсортированы для каждой камеры. В настоящее время эта операция может быть довольно тяжелой, поэтому она распределяется по времени для улучшения общей частоты кадров.<br><br><color=hero.yellow>Увеличьте</color> значение, чтобы сортировка происходила быстрее. Это уменьшит артефакты при быстром изменении угла обзора вокруг гауссовых пятен.<br><br><color=hero.yellow>Уменьшите</color> значение, чтобы снизить использование графического процессора, если ваш графический процессор испытывает трудности с обработкой это. Однако это увеличит артефакты при быстром изменении угла обзора.",
+        "Settings.GaussianSplatQualitySettings.QualityPreset" : "Предустановка качества",
+        "Settings.GaussianSplatQualitySettings.QualityPreset.Description" : "Это контролирует качество визуализированных гауссовых пятен и использование ими видеопамяти. Более высокое качество будет использовать больше видеопамяти.<br><br><color=hero.yellow>Очень низкое:</color> ~18,62x меньше<br><color=hero.yellow>Низкое:</color> ~14x меньше<br><color=hero.yellow>Среднее:</color> ~5,14x меньше<br><color=hero.yellow>Высокое:</color> ~2,94x меньше<br><color=hero.yellow>Очень высокое:</color> Несжатое (исходное)",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality" : "Минимальное локально сжатое качество",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description" : "Для локально импортированных гауссовых пятен качество никогда не будет ниже этого значения.<br><br>Мы не рекомендуем устанавливать это значение ниже среднего, так как более низкие уровни качества значительно более интенсивны и требуют больше времени для сжатия, и их следует оставить для сжатия в облаке.<br><br>Установка этого значения на очень высокое позволит гауссовским пятнам загружаться намного быстрее после импорта из-за отсутствия необходимости сжимать их за счет высокого использования видеопамяти.",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality" : "Расширенные настройки качества",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description" : "При включении вы можете настроить определенные кодировки, используемые для различных буферов Гауссовых пятен. Это дает вам очень точный контроль качества. Его также можно использовать для целей тестирования/диагностики.",
+        "Settings.GaussianSplatQualitySettings.PositionFormat" : "Формат данных положения",
+        "Settings.GaussianSplatQualitySettings.PositionFormat.Description" : "Кодировка, используемая для положений пятен",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat" : "Формат данных шкалы",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat.Description" : "Кодировка, используемая для шкал пятен",
+        "Settings.GaussianSplatQualitySettings.ColorFormat" : "Формат данных цвета",
+        "Settings.GaussianSplatQualitySettings.ColorFormat.Description" : "Кодировка, используемая для цветов и непрозрачности пятен",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat" : "Формат данных сферических гармоник",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description" : "Кодировка, используемая для данных сферических гармоник пятен",
 
         "Settings.ResolutionSettings": "Разрешение",
         "Settings.ResolutionSettings.Fullscreen": "Полноэкранный режим",
@@ -1937,6 +2061,16 @@
         "Settings.RenderingQualitySettings.SkinWeightMode": "Веса skinned mesh'ей",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Для всех skinned mesh`ей (3D моделей которые деформируются костями, как большинство аватаров), эта настройка задает, сколько костей используется для расчета позиции каждой вершины.\n\nУменьшение этого значения дает выигрыш в производительности, но качество деформаций будет ниже, из-за чего могут появиться острые складки и другие артефакты, обычно в районе суставов/шарниров.",
 
+        "Settings.ImportSettings": "Импортировать настройки",
+        "Settings.ImportSettings.SessionUrls": "При импорте URL сеанса",
+        "Settings.ImportSettings.SessionUrls.Description": "Что должно произойти при импорте URL сеанса. Доступны следующие параметры:\n\n<color=hero.yellow>Открыть</color> — Открыть сеанс.\n<color=hero.yellow>SpawnInterface</color> — Создает представление (например, сферу сеанса) URL в вашем текущем местоположении.\n<color=hero.yellow>SpawnUrl</color> — Создает URL в вашем текущем местоположении как интерфейс URL.",
+        "Settings.ImportSettings.WorldUrls": "При импорте URL мира",
+        "Settings.ImportSettings.WorldUrls.Description": "Что должно произойти при импорте URL мира. Доступны следующие параметры:\n\n<color=hero.yellow>Открыть</color> — открыть мир.\n<color=hero.yellow>SpawnInterface</color> — создает представление (например, сферу мира) мира в вашем текущем местоположении.\n<color=hero.yellow>SpawnUrl</color> — создает URL в вашем текущем местоположении в качестве интерфейса URL.",
+        "Settings.ImportSettings.NetworkUrls": "При импорте сетевого URL",
+        "Settings.ImportSettings.NetworkUrls.Description": "Что должно произойти при импорте сетевого URL. Доступны следующие параметры:\n\n<color=hero.yellow>Открыть</color> — открыть соединение с сеансом по URL.\n<color=hero.yellow>SpawnInterface</color> — создает представление (например, сферу сеанса) URL в вашем текущем location.\n<color=hero.yellow>SpawnUrl</color> — создает URL в вашем текущем местоположении как URL-интерфейс.",
+        
+        "Settings.MysterySettings" : "Загадочные настройки",
+        
         "LocomotionArchetype.Walk": "Перемещение пешком",
         "LocomotionArchetype.Fly": "Полет",
         "LocomotionArchetype.NoClip": "Noclip",
@@ -2038,7 +2172,7 @@
         "Inspector.Mesh.MakeDualSided": "Сделать двухсторонним",
         "Inspector.Mesh.ConvertToFlatShading": "Конвертировать в Flat Shading",
         "Inspector.Mesh.ConvertToConvexHull": "Конвертировать в Convex Hull",
-        "Inspector.Mesh.ConvertToPointCloud": "Конвертировать в Point Cloud",
+        "Inspector.Mesh.ConvertToPointCloud": "Конвертировать в Облако точек",
         "Inspector.Mesh.MergeDoubles": "Соединить дубли",
         "Inspector.Mesh.StripEmptyBlendshapes": "Убрать пустые blendshape'ы",
         "Inspector.Mesh.StripBlendshapeNormals": "Убрать нормали blendshape'ов",
@@ -2055,12 +2189,17 @@
 
         "Inspector.MeshRenderer.MergeByMaterial": "Объединить под-меши с одинаковым материалом",
         "Inspector.MeshRenderer.SplitByMaterial": "Разделить на отдельные меши по материалу",
-
+        
+        "Inspector.GaussianSplatRenderer.GeneratePointCloudCollider": "Создать коллайдер облака точек",
+        
         "Inspector.MeshCollider.VHACD": "Разбор на выпуклые многогранники (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Заменить кубическим коллайдером",
 
         "Inspector.Texture3D.SpawnVisualizer" : "Создать визуализацию",
 
+        "Inspector.Skybox.SetActiveSkybox": "Установить как активный скайбокс",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Установить как активный окружающий свет",
+        
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Обновить модули передвижения на присутствующих пользователях",
 
         "Inspector.VHACD.Parameter.MergeDoubles": "Объединить дубликаты",
@@ -2104,6 +2243,7 @@
         "Inspector.SkinnedMesh.BakeToStaticMesh": "Запечь в статический меш",
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "Сортировать blendshape'ы (по имени)",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Сортировать blendshape'ы (по длине имени, затем по имени)",
+        "Inspector.SkinnedMesh.ResetBonesToBindPoses": "Сбросить кости для привязки поз",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Убрать все вхождения",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Убрать это вхождение",
@@ -2211,6 +2351,11 @@
         "Inspector.AudioStream.DecodeState": "Всего пакетов: {total}, Всего потеряно пакетов: {lost}, Потеря пакетов: {loss, number, percent}",
         "Inspector.AudioStream.BufferStats": "Срд кодек: {avgCodec}/с, Срд чтение: {avgRead}/с, Срд запись: {avgWritten}/с",
 
+        "Inspector.GaussianSplat.SplatInfo" : "Количество пятен: {count}, использование VRAM: {vram}",
+        "Inspector.GaussianSplat.Variant" : "Загруженный вариант: {variant}",
+        "Inspector.GaussianSplat.ColorByIndex" : "Цвет пятен по индексу",
+        "Inspector.GaussianSplat.ReorderMorton" : "Изменить порядок пятен с помощью упорядочивания Мортона",
+        
         "Inspector.DynamicBoneChain.SetupFromChildren": "Настроить по потомкам",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll": "Настроить по потомкам (принудительно для всех)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "Настроить по потомкам (только риг)",
@@ -2232,7 +2377,8 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>Этот компонент можно использовать как простое твердое тело, выбрав SimulateRotation. Перед тем как сделать это, имейте в виду, что он не оптимизирован для этих целей и полная поддержка твердых тел будет позже.<br>Полная поддержка твердых тел даст:<br><b>- Эффективное использование ЦП и сети</b> - с CharacterController вы используете больше ресурсов ЦП и ощутимо больше сетевого трафика<br><b>- Ограничения</b> - вы сможете задавать суставы, петли, пружины и другие ограничения между твердыми телами<br><b>- Плавная симуляция и взаимодействие для всех</b> - CharacterController ведет себя очень странно если другой пользователь пытается с ним взаимодействовать<br><b>- Новые фичи и инструменты</b> - чтобы упростить их использование<br>-----------------------<br>Вы можете узнать больше в заявке #22 на GitHub. Прочитали и осознали? Дерзайте!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>С помощью этого компонента можно взаимодействовать с рефренсами, используя их ID. Этот процесс часто называют 'Ref Hacking'.<br><br><b>Прежде</b> чем начать, пожалуйста примите к сведению, что это <b>не</b> подерживается и может сломаться в любой момент. Не полагайтесь на данную функцию, при создании своих творений.",
-
+        "Inspector.FacetPreset.Warning":"<color=red><size=125%>ВНИМАНИЕ!</size></color><br>FacetPresets автоматически обновит свое содержимое, когда мы опубликуем новые версии этих предустановок. Если вы создаете пользовательскую версию, мы рекомендуем удалить этот компонент.",
+        "Inspector.GrabbableSaveBlock.Warning":"<color=red><size=125%>ВНИМАНИЕ!</size></color><br> Этот компонент не предназначен для обеспечения безопасности/защиты от кражи активов. Он предназначен для использования в случаях, когда вы хотите заблокировать более простые методы сохранения по причинам игрового процесса или дизайна. Его можно легко обойти, и он не станет более безопасным ни при каких обстоятельствах.",
         
         "Inspector.ParticleSystem.BasicInfo" : "Частицы: {count}, FPS: {fps}, Время симуляции: {time}, Время отправки: {renderSubmitTime}, Время выделения: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Следы: {trailCount} (ёмкость: {trailCapacity}), Ёмкость точек следов: {trailPointCapacity}",
@@ -2761,6 +2907,7 @@
         "UI.ColorPicker.Linear": "Линейный",
 
         "UI.ColorPicker.Hexadecimal": "цвет",
+        "UI.ColorPicker.Blackbody": "Черное тело",
         "UI.ColorPicker.ColorSwatches": "Образец",
 
         "UI.ColorPicker.Red": "Красный",
@@ -2785,33 +2932,200 @@
         "Tools.Names.ManipulationTools": "Инструменты манипуляции",
         "Tools.Names.InformationTools": "Инструменты информации",
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
         "Discord.RichPresence.InPrivateWorld": "В приватном мире",
         "Discord.RichPresence.InPrivateLargeText": "В приватном мире ({version})",
         "Discord.RichPresence.InPublicWorld": "В публичном мире",
         "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} {totalWorlds,plural, one {мир} few {мира} other {миров}})",
         "Discord.RichPresence.InPublicLargeText": "В публичном мире ({version})",
-
+        
+        "Universe.UI.Narrative": "Повествование",
+        "Universe.UI.Freeform": "Свободная форма",
+        "Universe.Stars.Sun": "Солнце",
+        "Universe.Stars.Sirius": "Сириус",
+        "Universe.Stars.Pollux": "Поллукс",
+        "Universe.Stars.Arcturus": "Арктур",
+        "Universe.Stars.Aldebaran": "Альдебаран",
+        "Universe.Stars.Rigel": "Ригель",
+        "Universe.Stars.Antares": "Антарес",
+        "Universe.Stars.Betelgeuse": "Бетельгейзе",
+        "Universe.Stars.VYCanisMajoris": "VY Большого Пса",
+        "Universe.Stars.NMLCygni": "NML Лебедя",
+        "Universe.Stars.UYScuti": "UY Щита",
+        "Universe.SolarSystem.SolarSystem": "Солнечная система",
+        "Universe.SolarSystem.Mercury": "Меркурий",
+        "Universe.SolarSystem.Venus": "Венера",
+        "Universe.SolarSystem.Earth": "Земля",
+        "Universe.SolarSystem.Mars": "Марс",
+        "Universe.SolarSystem.Jupiter": "Юпитер",
+        "Universe.SolarSystem.Saturn": "Сатурн",
+        "Universe.SolarSystem.Uranus": "Уран",
+        "Universe.SolarSystem.Neptune": "Нептун",
+        "Universe.SolarSystem.Pluto": "Плутон",
+        "Universe.SolarSystem.Moon": "Луна",
+        "Universe.SolarSystem.Phobos": "Фобос",
+        "Universe.SolarSystem.Charon": "Харон",
+        "Universe.SolarSystem.Callisto": "Каллисто",
+        "Universe.SolarSystem.AsteroidGanymed": "Астероид 1036 Ганимед",
+        "Universe.SolarSystem.Deimos": "Деймос",
+        "Universe.SolarSystem.Ganymede": "Ганимед (спутник)",
+        "Universe.SolarSystem.Mithra": "Астероид 4486 Митра",
+        "Universe.SolarSystem.Geographos": "Астероид 1620 Географос",
+        "Universe.SolarSystem.Kelopatra": "Астероид 216 Клеопатра",
+        "Universe.SolarSystem.HW1": "Астероид (8567) 1996 HW1",
+        "Universe.SolarSystem.Golevka": "Астероид 6489 Голевка",
+        "Universe.SolarSystem.Toutatis": "Астероид 4179 Таутатис",
+        "Universe.SolarSystem.Bennu": "Астероид 101955 Бенну",
+        "Universe.Animals.Bee": "Пчела (Apis Mellifera)",
+        "Universe.Animals.FinWhale": "Финвал",
+        "Universe.Animals.DustMite": "Пылевой клещ",
+        "Universe.Animals.Eel": "Угорь",
+        "Universe.Animals.Bream": "Лещ (рыба)",
+        "Universe.Animals.BottlenoseDolphin": "Афалина",
+        "Universe.Animals.Brachiosaurus": "Брахиозавр",
+        "Universe.Animals.Mouse": "Мышь",
+        "Universe.Animals.GiantSquid": "Гигантский кальмар",
+        "Universe.Animals.Tardigrade": "Тихоходка",
+        "Universe.Animals.TRex": "Тираннозавр (T-Rex)",
+        "Universe.Biology.AverageHumanCell": "Человеческая клетка",
+        "Universe.Biology.Adenovirus": "Аденовирус",
+        "Universe.Biology.YChromosome": "Y-хромосома",
+        "Universe.Biology.Mitochrondrion": "Митохондрия",
+        "Universe.Biology.PorcineCircovirus": "Цирковирус свиней",
+        "Universe.Biology.Salmonella": "Сальмонелла",
+        "Universe.Biology.Bacteriophage": "Бактериофаг",
+        "Universe.Biology.HumanBrain": "Человеческий мозг",
+        "Universe.Biology.RedBloodCell": "Эритроцит",
+        "Universe.Biology.WhiteBloodCell": "Лейкоцит",
+        "Universe.Biology.XChromosome": "X-хромосома",
+        "Universe.Biology.EColi": "Кишечная палочка",
+        "Universe.Biology.DNA": "ДНК",
+        "Universe.Biology.AlphaHelix": "Альфа-спираль",
+        "Universe.Biology.Rhinovirus": "Риновирус",
+        "Universe.Biology.Ribosome": "Рибосома",
+        "Universe.Biology.Chloroplast": "Хлоропласт",
+        "Universe.Biology.PhospholipidBilayer": "Фосфолипидный бислой",
+        "Universe.Biology.Paramecium": "Парамеция",
+        "Universe.Biology.HIV": "ВИЧ",
+        "Universe.Biology.Hair": "Волос",
+        "Universe.Biology.HepatitisB": "Гепатит B",
+        "Universe.Biology.Platelet": "Тромбоцит",
+        "Universe.Biology.LargestBacteria": "Крупнейшая бактерия",
+        "Universe.Particles.Electron": "Электрон",
+        "Universe.Particles.Proton": "Протон",
+        "Universe.Particles.Neutron": "Нейтрон",
+        "Universe.Atoms.Hydrogen": "Атом водорода",
+        "Universe.Atoms.Helium": "Гелий",
+        "Universe.Atoms.Sulfur": "Атом серы",
+        "Universe.Common.Duckweed": "Ряска",
+        "Universe.Common.Daisy": "Ромашка (Leucanthemum ×superbum)",
+        "Universe.Common.SiltParticle": "Частица ила",
+        "Universe.Common.SandGrain": "Песчинка",
+        "Universe.Common.CoffeeBean": "Кофейное зерно",
+        "Universe.Common.MatchStick": "Спичка",
+        "Universe.Common.SaltGrain": "Крупинка соли",
+        "Universe.Common.USCent": "1 цент США",
+        "Universe.Common.Train": "Поезд (локомотив)",
+        "Universe.Common.ChickenEgg": "Куриное яйцо",
+        "Universe.Common.Paper": "Бумага",
+        "Universe.Common.Pencil": "Грифель карандаша",
+        "Universe.Common.OstrichEgg": "Яйцо страуса",
+        "Universe.Common.Earthworm": "Дождевой червь",
+        "Universe.Common.RiceGrain": "Зерно риса",
+        "Universe.Common.SunflowerSeed": "Семечко подсолнуха",
+        "Universe.Common.BeachBall": "Пляжный мяч",
+        "Universe.Common.Snowflake": "Снежинка",
+        "Universe.Common.ClayParticle": "Частица глины",
+        "Universe.Common.BasketBall": "Баскетбольный мяч",
+        "Universe.Common.Hailstone": "Градина",
+        "Universe.Common.FootballField": "Футбольное поле",
+        "Universe.Common.DouglasFir": "Пихта Дугласа",
+        "Universe.Common.Human": "Человек",
+        "Universe.Wavelength.BlackLight": "Черный свет",
+        "Universe.Wavelength.FarUV": "Дальний УФ",
+        "Universe.Wavelength.MiddleUV": "Средний УФ",
+        "Universe.Wavelength.Gamma": "Гамма-излучение",
+        "Universe.Wavelength.XRayHard": "Жесткое рентгеновское излучение",
+        "Universe.Wavelength.XRaySoft": "Мягкое рентгеновское излучение",
+        "Universe.Wavelength.ExtremeUV": "Экстремальный УФ",
+        "Universe.Wavelength.NearUV": "Ближний УФ",
+        "Universe.Wavelength.Microwave": "Микроволны",
+        "Universe.Wavelength.Purple": "Фиолетовый свет",
+        "Universe.Wavelength.Cyan": "Голубой свет",
+        "Universe.Wavelength.Yellow": "Желтый свет",
+        "Universe.Wavelength.Red": "Красный свет",
+        "Universe.Wavelength.FM": "FM-радио",
+        "Universe.Wavelength.AM": "AM-радио",
+        "Universe.Geology.AllWater": "Вся вода на Земле",
+        "Universe.Geology.LiquidFreshWater": "Жидкая пресная вода",
+        "Universe.Geology.WaterInLakesAndRivers": "Вода в озерах и реках",
+        "Universe.Countries.USA": "США",
+        "Universe.Countries.CzechRepublic": "Чехия",
+        "Universe.Countries.UnitedKingdom": "Великобритания",
+        "Universe.Countries.Ukraine": "Украина",
+        "Universe.Countries.Australia": "Австралия",
+        "Universe.Cities.Paris": "Париж",
+        "Universe.Nebulae.CatEye": "Туманность Кошачий Глаз",
+        "Universe.Nebulae.Crab": "Крабовидная туманность",
+        "Universe.Nebulae.Butterfly": "Туманность Бабочка",
+        "Universe.Nebulae.NGC604": "NGC 604 - Звездные ясли",
+        "Universe.Nebulae.Orion": "Туманность Ориона",
+        "Universe.Nebulae.Tarantula": "Туманность Тарантул",
+        "Universe.Nebulae.Ring": "Туманность Кольцо",
+        "Universe.Nebulae.Eagle": "Туманность Орёл",
+        "Universe.Technology.ISS": "Международная космическая станция",
+        "Universe.Technology.Starship": "Транспорт Starship (SpaceX)",
+        "Universe.Technology.Sputnik": "Спутник-1",
+        "Universe.Technology.MoonLander": "Лунный посадочный модуль NASA",
+        "Universe.Technology.Voyager": "Вояджер (NASA)",
+        "Universe.Technology.Ingenuity": "Вертолет NASA Ingenuity (Марс)",
+        "Universe.Technology.TransistorGate": "Затвор транзистора",
+        "Universe.Technology.CPU": "Центральный процессор",
+        "Universe.Technology.MicroSD": "Карта MicroSD",
+        "Universe.Technology.Note4": "Galaxy Note 4",
+        "Universe.Technology.Car": "Автомобиль",
+        "Universe.Technology.CargoShip": "Грузовое судно",
+        "Universe.Landmarks.PyramidOfKhafre": "Пирамида Хефрена",
+        "Universe.Landmarks.DistanceFromLA2SF": "Расстояние от Лос-Анджелеса до Сан-Франциско",
+        "Universe.Landmarks.EiffelTower": "Эйфелева башня",
+        "Universe.Landmarks.StatueOfLiberty": "Статуя Свободы",
+        "Universe.Landmarks.MountEverest": "Эверест",
+        "Universe.Landmarks.LHC": "Большой адронный коллайдер",
+        "Universe.Chemistry.Ethanol": "Этанол",
+        "Universe.Chemistry.CarbonNanotube": "Углеродная нанотрубка",
+        "Universe.Chemistry.Glucose": "Глюкоза",
+        "Universe.Chemistry.Water": "Вода",
+        "Universe.Galaxies.MilkyWay": "Млечный Путь",
+        "Universe.Universe.StarCluster": "Звездное скопление",
+        "Universe.Galaxies.Andromeda": "Андромеда",
+        "Universe.Galaxies.Sombrero": "Сомбреро",
+        "Universe.Universe.GalaxyFillament": "Галактическая нить",
+        "Universe.Universe.ObservableUniverse": "Наблюдаемая Вселенная",
+        "Universe.Galaxies.IC1101": "IC 1101",
+        "Universe.Galaxies.SmallMagellanicCloud": "Малое Магелланово Облако (карликовая галактика)",
+        "Universe.Galaxies.NGC1300": "NGC 1300 (спиральная галактика с перемычкой)",
+        "Universe.Galaxies.NGC4414": "NGC 4414",
+        "Universe.Units.Attometer": "Аттометр",
+        "Universe.Units.Femtometer": "Фемтометр",
+        "Universe.Units.Picometer": "Пикометр",
+        "Universe.Units.Angstrom": "Ангстрем",
+        "Universe.Units.Nanometer": "Нанометр",
+        "Universe.Units.Micrometer": "Микрометр",
+        "Universe.Units.Millimeter": "Миллиметр",
+        "Universe.Units.Centimeter": "Сантиметр",
+        "Universe.Units.Meter": "Метр",
+        "Universe.Units.Kilometer": "Километр",
+        "Universe.Units.AU": "Астрономическая единица",
+        "Universe.Units.LightSecond": "Световая секунда",
+        "Universe.Units.LightYear": "Световой год",
+        "Universe.Units.Parsec": "Парсек",
+        "Universe.Units.Inch": "Дюйм",
+        "Universe.Units.Foot": "Фут",
+        "Universe.Units.Yard": "Ярд",
+        "Universe.Units.Mile": "Миля",
+        "Universe.Units.NauticalMile": "Морская миля",
+        "Universe.Units.HubbleLength": "Длина Хаббла",
+        "Universe.Units.EarthRadius": "Радиус Земли",
+        "Universe.Units.LunarDistance": "Лунное расстояние"
         "Dummy": "Dummy"
     }
 }
