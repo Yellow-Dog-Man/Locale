@@ -121,7 +121,7 @@ World.Error.FailedConnectToRelay
 World.Error.FailedToConnect  
 World.Error.InvalidAddress  
 World.Error.NoPort  
-World.Error.IncompatibleVersion  
+World.Error.SessionIncompatible  
 World.Error.HostBlocked  
 World.Error.HostBlockedDetail  
 World.Error.WorldCrash  
@@ -1530,6 +1530,8 @@ Settings.CursorSettings.TextMultiplier
 Settings.CursorSettings.TextMultiplier.Description  
 Settings.CursorSettings.SliderMultiplier  
 Settings.CursorSettings.SliderMultiplier.Description  
+Settings.CursorSettings.DirectCursorEnabled  
+Settings.CursorSettings.DirectCursorEnabled.Description  
 Settings.DesktopViewSettings.FollowCursor  
 Settings.DesktopViewSettings.FollowCursor.Description  
 Settings.DesktopViewSettings.Brightness  
