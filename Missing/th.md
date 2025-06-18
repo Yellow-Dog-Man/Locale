@@ -463,7 +463,7 @@ Session.Tab.Settings
 Session.Tab.Users  
 Session.Tab.Permissions  
 Session.Permission.Anonymous  
-Session.Permission.Vistor  
+Session.Permission.Visitor  
 Session.Permission.Contact  
 Session.Permission.Host  
 Session.Permission.PermissionOverrideCount  
