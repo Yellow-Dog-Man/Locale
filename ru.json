@@ -1,6 +1,6 @@
 {
     "localeCode": "ru",
-    "authors": ["GhostZ36", "BrotiwkA", "Shadow Panther", "ENTERTHEWOLF", "ConfusedYeen", "Stanislavskii", "maksim789456", "MrSetto", "alextaco-anton"],
+    "authors": ["GhostZ36", "BrotiwkA", "Shadow Panther", "ENTERTHEWOLF", "ConfusedYeen", "Stanislavskii", "maksim789456", "MrSetto", "alextaco-anton", "Coffee from Kamchatka"],
     "messages": {
 
         "General.OK": "OK",
@@ -96,9 +96,9 @@
         "Interaction.Grab.Precision": "Хват: точный",
         "Interaction.Grab.Auto": "Хват: авто",
         "Interaction.Grab.Off": "Хват: только лазер",
-        "Interaction.Grabbing" : "Захват",
-        "Interaction.Grab.StickyGrab" : "Прилипание",
-        "Interaction.Grab.HoldToHold" : "Удержание",
+        "Interaction.Grabbing": "Захват",
+        "Interaction.Grab.StickyGrab": "Прилипание",
+        "Interaction.Grab.HoldToHold": "Удержание",
         "Interaction.Locomotion": "Передвижение",
         "Interaction.Locomotion.None": "Нет передвижения",
 
@@ -213,9 +213,9 @@
         "World.Error.HostBlockedDetail": "Вы заблокировали хоста",
         "World.Error.WorldCrash": "Мир крашнулся",
         "World.Error.WorldCrashDetail": "Фатальная ошибка при обновлении мира",
-        "World.Error.Handshake" : "Ошибка рукопожатия",
+        "World.Error.Handshake": "Ошибка рукопожатия",
         "World.Error.Unknown": "Неизвестная Ошибка",
-        "World.Error.FailedToCreateBanAccessKey" : "Ошибка создания ключа доступа для проверки бана",
+        "World.Error.FailedToCreateBanAccessKey": "Ошибка создания ключа доступа для проверки бана",
         "World.Error.UnhandledError": "Необработанная ошибка",
 
         "World.Config.Name": "Название мира:",
@@ -478,8 +478,8 @@
         "Register.UsernameTooLong": "Имя пользователя слишком длинное",
         "Register.UsernameTooLong.Description": "Мы принимаем имена пользователей длиной до 32 символов.",
 
-        "Register.UsernameContainsAmpersand": "В имени пользователя не должен присутвовать символ @",
-        "Register.UsernameContainsAmpersand.Description": "В вашем имени пользователя не должен присутвовать символ @.",
+        "Register.UsernameContainsAmpersand": "Имя пользователя не должно содержать символы @ и &",
+        "Register.UsernameContainsAmpersand.Description": "В вашем имени пользователя не должены присутвовать символы @ и &.",
 
         "Register.UsernameStartsWithU": "Имя пользователя не должно начинаться с U-",
         "Register.UsernameStartsWithU.Description": "Имя пользователя не должно начинаться с U-.",
@@ -548,8 +548,8 @@
         "Account.NewPassword": "Новый пароль:",
         "Account.ResetPassword": "Установить новый пароль",
         "Account.Requesting": "Запрос...",
-        "Account.ErrorPasswordMismatch": "Пароли не совпадают!",
-        "Account.ErrorEmailMismatch": "Email-ы не совпадают!",
+        "Account.ErrorPasswordMismatch": "Пароль не совпадает!",
+        "Account.ErrorEmailMismatch": "Электронная почта не совпадает!",
         "Account.ErrorLoginError": "Ошибка входа в аккаунт:",
         "Account.RegistrationSuccess": "<size=120%>Успех!</size><br><br>На {email} было отправлено письмо с ссылкой подтверждения.<br><br>Когда Вы активируете эту ссылку - мы автоматически залогиним Вас, если этот диалог будет открыт.<br><br>Если Вы столкнетесь с любыми проблемами, напишите нам на hello@{appName}.com или discord.gg/resonite",
         "Account.BirthMonth": "Месяц рождения:",
@@ -600,7 +600,7 @@
         "2FA.Header": "Проверка 2FA",
         "2FA.Token": "6-значный код:",
 
-        "Profile.Status.Sociable" : "Общительный",
+        "Profile.Status.Sociable": "Общительный",
         "Profile.Status.Online": "Онлайн",
         "Profile.Status.Away": "Отошёл",
         "Profile.Status.Busy": "Занят",
@@ -614,18 +614,18 @@
         "Session.Tab.Users": "Пользователи",
         "Session.Tab.Permissions": "Разрешения",
 
-        "Session.Permission.Anonymous": "По умолчанию Аноним:",
-        "Session.Permission.Vistor": "По умолчанию Посетитель:",
-        "Session.Permission.Contact": "По умолчанию Контакт:",
-        "Session.Permission.Host": "По умолчанию Хост:",
+        "Session.Permission.Anonymous": "Анонимные пользователи:",
+        "Session.Permission.Vistor": "Посетители:",
+        "Session.Permission.Contact": "Контакты:",
+        "Session.Permission.Host": "Хост:",
         "Session.Permission.PermissionOverrideCount": "Переопределения разрешений: {n,select, -1 {---} other {{n}}}",
-        "Session.Permission.ClearOverrides": "Отменить пользовательские переопределения",
+        "Session.Permission.ClearOverrides": "Отменить переопределения разрешений",
 
-        "Session.JoinVerifier.EnableHeader": "Включить Custom Join Verifier?",
-        "Session.JoinVerifier.EnableText": "<color=red>ВНИМАНИЕ:</color> Вы пытаетесь включить кастомную проверку входа в сессию, которая является частью этого мира. Перед тем как это сделать, убедитесь что вы доверяете создателю этого мира, так как кастомная проверка может обойти стандартные правила доступа к сессии и разрешить или запретить доступ пользователям согласно своим собственным правилам.",
-        "Session.JoinVerifier.Label": "Использовать Custom Join Verifier: {name}",
+        "Session.JoinVerifier.EnableHeader": "Включить свою проверку запроса входа?",
+        "Session.JoinVerifier.EnableText": "<color=red>ВНИМАНИЕ:</color> Вы пытаетесь включить свою проверку запроса входа в сессию, которая является частью этого мира. Перед тем как это сделать, убедитесь что вы доверяете создателю этого мира, так как своя проверку запроса входа может обойти стандартные правила доступа к сессии и разрешить или запретить доступ пользователям согласно собственным правилам.",
+        "Session.JoinVerifier.Label": "Использовать свою проверку запроса входа: {name}",
         "Session.JoinVerifier.ComponentWarning": "<color=red>ВНИМАНИЕ:</color> Сейчас нет механизма, который позволил бы запретить изменение логики проверки после включения. Если Вы беспокоитесь о вмешательстве в скрипт ProtoFlux используемый для верификации, НЕ ИСПОЛЬЗУЙТЕ эту механику и НЕ ВКЛЮЧАЙТЕ её в своих мирах.",
-        "Session.JoinVerifier.SetCustomVerifier": "Установить как кастомную проверку запросов на вход",
+        "Session.JoinVerifier.SetCustomVerifier": "Установить свою проверку запроса входа",
 
         "Permissions.NotAllowedToSpawn": "Вам запрещено создавать здесь предметы.",
         "Permissions.NotAllowedToSave": "Вам запрещено сохранять объекты из этого мира.",
@@ -655,7 +655,7 @@
         "Contacts.Unblocked": "Разблокирован",
         "Contacts.AvatarBlock": "Заблокировать аватар",
         "Contacts.MutualBlock": "Взаимная блокировка",
-        "Contacts.SelfAccount": "Мой аккаунт",
+        "Contacts.SelfAccount": "Этот аккаунт",
         "Contacts.SearchPrompt": "Поиск пользователей...",
         "Contacts.WriteMessage": "Сообщение...",
 
@@ -675,22 +675,22 @@
         "Contacts.SearchResult": "Результат поиска",
         "Contacts.Bot": "Бот",
         "Contacts.Migrated": "Контакт не мигрировал",
-        "Contacts.IncompatibleSession" : "Несовместимая сессия",
-        "Contacts.AskToJoin" : "<color=hero.yellow> Пригласить </color> пользователя",
+        "Contacts.IncompatibleSession": "Несовместимая сессия",
+        "Contacts.AskToJoin": "<color=hero.yellow> Пригласить </color> пользователя",
 
-        "Contacts.InviteRequest.UserWantsToJoin" : "{username} хочет присоединиться к вам ",
-        "Contacts.InviteRequest.UserWantsToInviteAnother" : "\"{requestingUser}\" хочет пригласить \"{userToInvite}\" в сеанс \"{sessionName}\"",
-        "Contacts.InviteRequest.GrantInvite" : "Предоставить приглашение (один раз)",
-        "Contacts.InviteRequest.AddAsContact" : "Добавить \"{username}\" в контакты",
-        "Contacts.InviteRequest.AddAsContactOfHeadless" : "Добавить \"{username}\" а контакты headless",
-        "Contacts.InviteRequest.AddHostAsContact" : "Добавить \"{username}\" (хост) в контакты",
-        "Contacts.InviteRequest.HostIsUnregistered": "Хост является незарегистрированный пользователь",
+        "Contacts.InviteRequest.UserWantsToJoin": "{username} хочет к вам присоединиться",
+        "Contacts.InviteRequest.UserWantsToInviteAnother": "\"{requestingUser}\" хочет пригласить \"{userToInvite}\" в сеанс \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantInvite": "Предоставить приглашение (один раз)",
+        "Contacts.InviteRequest.AddAsContact": "Добавить \"{username}\" в контакты",
+        "Contacts.InviteRequest.AddAsContactOfHeadless": "Добавить \"{username}\" в контакты сервера",
+        "Contacts.InviteRequest.AddHostAsContact": "Добавить \"{username}\" (хост) в контакты",
+        "Contacts.InviteRequest.HostIsUnregistered": "Хост является незарегистрированным пользователем",
         "Contacts.InviteRequest.ForwardToHost": "Переслать запрос от \"{username}\" хосту: {username}",
         "Contacts.InviteRequest.SentRequest": "Запрошено приглашение",
         "Contacts.InviteRequest.ForwardedRequest": "Запрос на приглашение от \"{username}\" в сеанс \"{sessionName}\"",
         "Contacts.InviteRequest.GrantedRequest": "Предоставлено \"{username}\" приглашение в сеанс \"{sessionName}\"",
 
-        "Notifications.IsSociable" : "Общительный(-ая), можно поговорить или пригласить!",
+        "Notifications.IsSociable": "Общительный(-ая), можно поговорить или пригласить!",
         "Notifications.IsOnline": "Сейчас Онлайн",
         "Notifications.IsOnlineOnDifferentVersion": "Сейчас Онлайн <size=75%>(использует версию: {version})</size>",
         "Notifications.ReceivedContactRequest": "Прислал(-ла) запрос на добавление в контакты",
@@ -833,10 +833,10 @@
 
         "Tools.ProtoFlux.Name": "Инструмент Proto-Flux",
         "Tools.ProtoFlux.Drive": "Drive",
-        "Tools.ProtoFlux.Source": "Source",
-        "Tools.ProtoFlux.Reference": "Reference",
-        "Tools.ProtoFlux.Write": "Write",
-        "Tools.ProtoFlux.Proxy": "Proxy",
+        "Tools.ProtoFlux.Source": "Источник",
+        "Tools.ProtoFlux.Reference": "Ссылка",
+        "Tools.ProtoFlux.Write": "Запись",
+        "Tools.ProtoFlux.Proxy": "Прокси",
         "Tools.ProtoFlux.CreateLocal": "Создать Local",
         "Tools.ProtoFlux.CreateStore": "Создать Store",
         "Tools.ProtoFlux.CreateDataModelStore": "Создать Data Model Store",
@@ -866,10 +866,10 @@
         "Tools.RigTransfer.Name": "Инструмент переноса рига",
         "Tools.RigTransfer.ClearSource": "Очистить источник",
 
-        "Tools.GaussianSplat.Name" : "Инструмент Гауссовых пятен",
-        "Tools.GaussianSplat.ClipBox" : "Форма коробка",
-        "Tools.GaussianSplat.ClipSphere" : "Форма Сфера",
-        "Tools.GaussianSplat.ClipCylinder" : "Форма Целиндр",
+        "Tools.GaussianSplat.Name": "Инструмент Гауссовых пятен",
+        "Tools.GaussianSplat.ClipBox": "Форма коробка",
+        "Tools.GaussianSplat.ClipSphere": "Форма Сфера",
+        "Tools.GaussianSplat.ClipCylinder": "Форма Целиндр",
 
         "Tools.ComponentClone.Name": "Инструмент клонирования компонентов",
         "Tools.ComponentClone.SingleInstanceOn": "Единственный экземпляр: Да",
@@ -1015,7 +1015,7 @@
         "Importer.Model.3DScan": "3D Скан",
         "Importer.Model.CAD": "CAD Модель",
         "Importer.Model.PointCloud": "Облако точек",
-        
+
         "Importer.Model.GaussianSplat": "Гауссовы пятна",
         "Importer.Model.GaussianSplatVertical": "Вертикальная ось",
         "Importer.Model.RegularVertical": "Обычный",
@@ -1023,7 +1023,7 @@
         "Importer.Model.GaussianSplatEncoding": "Кодирование",
         "Importer.Model.GaussianSplatLossless": "Без потерь",
         "Importer.Model.GaussianSplatSPZ": "SPZ (с потерями)",
-        
+
         "Importer.Model.VertexColorModel": "Vertex Цветную Модель",
         "Importer.Model.AdvancedSettings": "Дополнительные Настройки",
         "Importer.Model.ModelKindPrompt": "Какого типа 3D Модель?",
@@ -1083,12 +1083,12 @@
         "Importer.Model.Advanced.Scalable": "Сделать масштабируемым",
         "Importer.Model.Advanced.PositionAtOrigin": "Поставить в точку отсчёта (Origin)",
         "Importer.Model.Advanced.AssetsOnObject": "Поставить ассеты на объект",
-        
+
         "Importer.Splat.Progress.Importing": "Импорт Гауссовых пятен",
         "Importer.Splat.Progress.ReadingHeader": "Чтение заголовка файла",
         "Importer.Splat.Progress.ConvertingSplats": "Преобразовано {converted} из {total}",
         "Importer.Splat.Progress.EncodingData": "Кодирование преобразованных данных",
-        
+
         "GaussianSplat.Encoding.Title": "Кодирование Гауссовых пятен",
         "GaussianSplat.Encoding.Metadata": "Кодирование метаданных",
         "GaussianSplat.Encoding.EncodingPositions": "Кодирование позиций {encoded} из {total}",
@@ -1097,7 +1097,7 @@
         "GaussianSplat.Encoding.EncodingAlphas": "Кодирование альф {encoded} из {total}",
         "GaussianSplat.Encoding.EncodingColors": "Кодирование цветов {encoded} из {total}",
         "GaussianSplat.Encoding.EncodingFinalizing": "Завершение кодирования",
-        
+
         "GaussianSplat.Processing.RemovingSplats": "Удаление пятен",
         "GaussianSplat.Processing.SplatProgress": "Обработано {count} из {total}",
         "GaussianSplat.Processing.LoadingData": "Загрузка данных",
@@ -1119,10 +1119,10 @@
         "Importer.Slices.TitleGrayscale": "Слайсы картинки как объемная текстура (ч/б)",
         "Importer.Slices.Description": "Превращает все картинки в папке в объемную (volumetric) текстуру",
 
-        "Importer.UnsupportedRecordType.Heading":"Неподдерживаемый тип записи",
-        "Importer.UnsupportedRecordType.Description":"Запись, которую вы пытаетесь импортировать ({url}), имеет неподдерживаемый тип. Ее тип: {recordType}. Сообщите нам об этом по адресу {bugUrl}.",
-        "Importer.Link.Invalid.Heading":"Недопустимая ссылка на папку",
-        "Importer.Link.Invalid.Description":"Ссылка на папку ({url}), которую вы пытаетесь импортировать, недопустима. Дважды проверьте ссылку и повторите попытку.",
+        "Importer.UnsupportedRecordType.Heading": "Неподдерживаемый тип записи",
+        "Importer.UnsupportedRecordType.Description": "Запись, которую вы пытаетесь импортировать ({url}), имеет неподдерживаемый тип. Ее тип: {recordType}. Сообщите нам об этом по адресу {bugUrl}.",
+        "Importer.Link.Invalid.Heading": "Недопустимая ссылка на папку",
+        "Importer.Link.Invalid.Description": "Ссылка на папку ({url}), которую вы пытаетесь импортировать, недопустима. Дважды проверьте ссылку и повторите попытку.",
         "Inventory.Link.LinkText": "Ссылка на инвентарь {name}",
 
         "Exporter.Title": "Панель экспорта",
@@ -1133,21 +1133,21 @@
         "Exporter.InvalidFileName": "Недопустимое имя файла",
 
         "Export.PackageExportable.Package": "Пакет Resonite",
-        "Export.PackageExportable.PackageWithVariants": "Пакет Resonite <size=75%>(+варианты ассетов)</size>",
+        "Export.PackageExportable.PackageWithVariants": "Пакет Resonite <size=75%>(с вариантами ассетов)</size>",
 
-        "Export.AudioExportable.OriginalFormat" : "Аудио <size=75%>(оригинальный формат)</size>",
+        "Export.AudioExportable.OriginalFormat": "Аудио <size=75%>(оригинальный формат)</size>",
 
-        "Export.VideoExportable.OriginalFormat" : "Видео <size=75%>(оригинальный формат)</size>",
+        "Export.VideoExportable.OriginalFormat": "Видео <size=75%>(оригинальный формат)</size>",
 
-        "Export.GaussianSplatExportable.PLY" : "PLY (без потерь)",
-        "Export.GaussianSplatExportable.SPZ" : "SPZ (с потерями)",
+        "Export.GaussianSplatExportable.PLY": "PLY (без потерь)",
+        "Export.GaussianSplatExportable.SPZ": "SPZ (с потерями)",
 
-        "Importer.Package.Progress.DecodingPackage" : "Декодирование пакета",
-        "Importer.Package.Progress.DecodingObject" : "Декодирование объекта",
-        "Importer.Package.Progress.ImportingAssets" : "Импорт ассетов",
-        "Importer.Package.Progress.LoadingObject" : "Загрузка объекта",
-        "Importer.Package.Progress.Imported" : "Пакет импортирован",
-        "Importer.Package.Progress.Fail" : "Ошибка импорта. Проверьте логи",
+        "Importer.Package.Progress.DecodingPackage": "Декодирование пакета",
+        "Importer.Package.Progress.DecodingObject": "Декодирование объекта",
+        "Importer.Package.Progress.ImportingAssets": "Импорт ассетов",
+        "Importer.Package.Progress.LoadingObject": "Загрузка объекта",
+        "Importer.Package.Progress.Imported": "Пакет импортирован",
+        "Importer.Package.Progress.Fail": "Ошибка импорта. Проверьте логи",
 
         "NewWorld.Title": "Новый мир",
         "NewWorld.SessionTitle": "Новая сессия",
@@ -1240,7 +1240,7 @@
         "CameraControl.Settings.HideLasers": "Спрятать лазеры",
         "CameraControl.Settings.ShowFrustum": "Показать поле зрения",
         "CameraControl.Settings.PhotoTimer": "Таймер Фото",
-        "CameraControl.Settings.ShowLiveBadge": "Показать бедж LIVE",
+        "CameraControl.Settings.ShowLiveBadge": "Показать бейдж ЭФИР",
         "CameraControl.Settings.AudioFromCameraViewpoint": "Звук с позиции камеры",
 
         "CameraControl.OpenCloseUsers": "Пользователи",
@@ -1292,11 +1292,11 @@
         "CameraControl.OBS.ReturnToConnect": "Вернуться на страницу подключения",
         "CameraControl.OBS.AutoMirror": "Авто зеркалирование записи/стрима",
         "CameraControl.OBS.Bitrate": "Битрейт: {n}/сек",
-        "CameraControl.OBS.FPS": "FPS: {n}",
+        "CameraControl.OBS.FPS": "КвС: {n}",
         "CameraControl.OBS.DroppedFrames": "Пропущенные кадры: {n}",
-        "CameraControl.OBS.Idle": "IDLE",
-        "CameraControl.OBS.Live": "LIVE",
-        "CameraControl.OBS.Recording": "REC",
+        "CameraControl.OBS.Idle": "ОЖИД",
+        "CameraControl.OBS.Live": "ЭФИР",
+        "CameraControl.OBS.Recording": "ЗАП",
         "CameraControl.OBS.OpenInstallerReason": "С этой страницы можно скачать плагин websocket для OBS",
 
         "CameraControl.OBS.Streaming.Start": "Начать трансляцию",
@@ -1321,8 +1321,8 @@
         "Settings.Category.Graphics": "Графика",
         "Settings.Category.InteractiveCamera": "Камера",
 
-        "Settings.LegacyFeatureSettings.ConvertLegacySettings": "DEBUG - Convert Legacy Settings",
-        "Settings.DebugSettings.DebugResetAllSimpleSettings": "DEBUG - Reset all simple settings",
+        "Settings.LegacyFeatureSettings.ConvertLegacySettings": "DEBUG - Обновить устаревшие настройки",
+        "Settings.DebugSettings.DebugResetAllSimpleSettings": "DEBUG - Сбросить простые настройки",
 
         "Settings.GeneralControlsSettings": "Общие настройки управления",
         "Settings.LocomotionSettings": "Перемещение",
@@ -1331,25 +1331,25 @@
 
         "Settings.GeneralHapticsSettings": "Тактильная отдача",
         "Settings.GeneralVRSettings": "VR",
-        "Settings.LeapMotionSettings": "Leap Motion",
+        "Settings.LeapMotionSettings": "Трекинг рук LeapMotion",
         "Settings.ViveHandTrackingSettings": "Трекинг рук Vive",
         "Settings.TrackingSmoothingSettings": "Сглаживание трекинга",
 
         "Settings.UserMetricsSettings": "Метрики пользователя",
 
-        "Settings.OnlineStatusSettings" : "Онлайн статус",
-        "Settings.OnlineStatusSettings.DefaultStatus" : "Статус по умолчанию",
-        "Settings.OnlineStatusSettings.DefaultStatus.Description" : "Это статус по умолчанию, который будет установлен при входе, кроме случаев когда запомнен предыдущий статус.",
-        "Settings.OnlineStatusSettings.RememberMode" : "Запоминать предыдущий статус",
-        "Settings.OnlineStatusSettings.RememberMode.Description" : "Определяет, будет ли сохраняться ваш последний онлайн статус между входами. Включает все статусы кроме Невидимый, который управляется отдельной настройкой.",
-        "Settings.OnlineStatusSettings.RememberTimespan" : "Запоминать статус на",
-        "Settings.OnlineStatusSettings.RememberTimespan.Description" : "Ваш последний онлайн статус будет запомнен только если вы зайдете снова в течение этого времени. Если вы зайдете позже, будет установлен статус по умолчанию.",
-        "Settings.OnlineStatusSettings.InvisibleRememberMode" : "Запоминать предыдущий статус Невидимый",
-        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "Определяет, будет ли сохраняться ваш последний онлайн статус между входами, если вы были в статусе Невидимый. В остальном настройки идентичны.\n\nОтдельная настройка для статуса Невидимый добавлена из соображений приватности, чтобы гарантировать, что если вы были в статусе Невидимый, вы останетесь в нем при следующем входе даже если другие ваши статусы не запомниаются.",
-        "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "Запоминать статус Невидимый на",
-        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "Ваш последний статус Невидимый будет запомнен только если вы зайдете снова в течение этого времени. Если вы зайдете позже, будет установлен статус по умолчанию.",
-        "Settings.OnlineStatusSettings.AutoAwayTimespan" : "Переключиться в AFK если нет активности в течение",
-        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description" : "Когда вы не активны в течение указанного времени, ваш онлайн статус будет автоматически переключен в Отошел. Когда вы вернетесь, он автоматически вернется к прошлому состоянию, если вы не установили статус Отошел вручную.",
+        "Settings.OnlineStatusSettings": "Онлайн статус",
+        "Settings.OnlineStatusSettings.DefaultStatus": "Статус по умолчанию",
+        "Settings.OnlineStatusSettings.DefaultStatus.Description": "Это статус по умолчанию, который будет установлен при входе, кроме случаев когда запомнен предыдущий статус.",
+        "Settings.OnlineStatusSettings.RememberMode": "Запоминать предыдущий статус",
+        "Settings.OnlineStatusSettings.RememberMode.Description": "Определяет, будет ли сохраняться ваш последний онлайн статус между входами. Включает все статусы кроме Невидимый, который управляется отдельной настройкой.",
+        "Settings.OnlineStatusSettings.RememberTimespan": "Запоминать статус на",
+        "Settings.OnlineStatusSettings.RememberTimespan.Description": "Ваш последний онлайн статус будет запомнен только если вы зайдете снова в течение этого времени. Если вы зайдете позже, будет установлен статус по умолчанию.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode": "Запоминать предыдущий статус Невидимый",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description": "Определяет, будет ли сохраняться ваш последний онлайн статус между входами, если вы были в статусе Невидимый. В остальном настройки идентичны.\n\nОтдельная настройка для статуса Невидимый добавлена из соображений приватности, чтобы гарантировать, что если вы были в статусе Невидимый, вы останетесь в нем при следующем входе даже если другие ваши статусы не запомниаются.",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan": "Запоминать статус Невидимый на",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description": "Ваш последний статус Невидимый будет запомнен только если вы зайдете снова в течение этого времени. Если вы зайдете позже, будет установлен статус по умолчанию.",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan": "Переключиться в AFK если нет активности в течение",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description": "Когда вы не активны в течение указанного времени, ваш онлайн статус будет автоматически переключен в Отошел. Когда вы вернетесь, он автоматически вернется к прошлому состоянию, если вы не установили статус Отошел вручную.",
 
         "Settings.AudioInputDeviceSettings": "Аудио ввод",
         "Settings.AudioOutputDeviceSettings": "Аудио вывод",
@@ -1424,16 +1424,16 @@
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Задает ваш режим хвата по умолчанию когда вы заходите в новые миры.\n\n<color=hero.yellow>Palm:</color> Вы будете хватать все объекты, находящиеся рядом с вашей рукой.\n\n<color=hero.yellow>Precision:</color> Вы будете хватать один объект, находящийся между вашими указательным и большим пальцами.\n\n<color=hero.yellow>Auto:</color> Режим автоматически переключается между хватом ладонью и точным хватом в зависимости от ориентации вашей руки.\n\n<color=hero.yellow>Off:</color> Вы сможете хватать предметы только с помощью лазеров.",
 
         "Settings.FullBodyTrackingSettings": "Трекинг тела",
-        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "Угол горизонтального положения тела",
-        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description" : "Это угол между положениями головы и ног, за пределами которого трекинг будет считать, что вы в горизонтальном положении. Это влияет на некоторые вещи, например отключает симуляцию шагов для ваших ног.",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Угол горизонтального положения тела",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "Это угол между положениями головы и ног, за пределами которого трекинг будет считать, что вы в горизонтальном положении. Это влияет на некоторые вещи, например отключает симуляцию шагов для ваших ног.",
 
-        "Settings.GamepadSettings": "Геймпад",
+        "Settings.GamepadSettings": "Контроллер",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Скорость поворота камеры",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Настраивает скорость, с которой камера поворачивается стиком.",
         "Settings.GamepadSettings.ThumbstickLookExponent": "Экспонента поворота камеры",
         "Settings.GamepadSettings.ThumbstickLookExponent.Description": "Настраивает кривую ответа поворота камеры стиком. С этой настройкой вы можете начать движение плавно и затем нарастить скорость или наоборот начать движение быстрее, в зависимости от того, больше или меньше значение этого параметра чем 1.0.",
-        "Settings.GamepadSettings.UseGamepadWhenUnfocused": "Использовать геймпад когда окно не в фокусе",
-        "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "Когда эта настройка включена, весь ввод с геймпада будет использоваться даже когда окно приложения не находится в фокусе. Вы можете отключить её если одновременно вы играете в другие игры, которые используют геймпад.",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused": "Использовать контроллер когда окно не в фокусе",
+        "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "Когда эта настройка включена, весь ввод с контроллера будет использоваться даже когда окно приложения не находится в фокусе. Вы можете отключить её если одновременно вы играете в другие игры, которые используют контроллер.",
 
         "Settings.MouseSettings.MouseSensitivity": "Чувствительность",
         "Settings.MouseSettings.MouseSensitivity.Description": "Общая чувствительность мыши для экранного режима.",
@@ -1490,14 +1490,14 @@
         "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "Когда включено, убирает метаданные изображений при <b>импорте</b>.\n\nВключает метаданные EXIF, встроенные комментарии, IPTC, XMP, и GEOTIFF.\n\nЭто также уберет любую информацию о местонахождении (такую как GPS координаты) вместе с метаданными.\n\n<b>Не</b> включает файлы, импортированные с опцией \"Сырой файл\".",
 
         "Settings.Category.Integrations": "Интеграции",
-        "Settings.DiscordIntegrationSettings": "Интеграция с Discord",
-        "Settings.SteamIntegrationSettings": "Интеграция со Steam",
+        "Settings.DiscordIntegrationSettings": "Интеграция (Discord)",
+        "Settings.SteamIntegrationSettings": "Интеграция (Steam)",
 
-        "Settings.DiscordIntegrationSettings.RichPresence": "Статус в Discord",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Задает, какую информацию {appName} передает в систему богатого присутствия Discord.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Discord.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в {appName}.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Discord. Включает название мира и количество пользователей в сессии.\n\nDiscord сам также определяет в какую игру вы играете. Это можно отключить в настройках Discord.",
+        "Settings.DiscordIntegrationSettings.RichPresence": "Присутствие (Discord)",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Задает, какую информацию {appName} передает в систему богатого присутствия Discord.\n\n<color=hero.yellow>None</color> - Не отправлять информацию о присутствии в Discord.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в {appName}.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Discord. Включает название мира и количество пользователей в сессии.\n\nDiscord сам также определяет в какую игру вы играете. Это можно отключить в настройках Discord.",
 
-        "Settings.SteamIntegrationSettings.RichPresence": "Статус в Steam",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "Задает, какую информацию {appName} передает в систему богатого присутствия Steam.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Steam.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в {appName}.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Steam. Включает название мира и количество пользователей в сессии.\n\nSteam сам также будет отображать что вы в {appName}, независимо от этой настройки. Изменение этой настройки только задает сколько дополнительных сведений о вашей активной сессии отправляются в Steam.",
+        "Settings.SteamIntegrationSettings.RichPresence": "Присутствие (Steam)",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Задает, какую информацию {appName} передает в систему богатого присутствия Steam.\n\n<color=hero.yellow>None</color> - Не отправлять информацию о присутствии в Steam.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в {appName}.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Steam. Включает название мира и количество пользователей в сессии.\n\nSteam сам также будет отображать что вы в {appName}, независимо от этой настройки. Изменение этой настройки только задает сколько дополнительных сведений о вашей активной сессии отправляются в Steam.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Сохранять скриншоты",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Если вы снимаете фото и эта настройка включена, копия фото будет сохранена в скриншоты Steam.",
@@ -1505,16 +1505,16 @@
         "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Использовать Steam Voice когда активен Remote Play",
         "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "Когда включено, автоматически заставляет аудио ввод использовать Steam Voice когда вы играете через Steam Remote Play. Это позволяет не использовать автоматическое переключение чтобы работать со встроенным микрофоном шлема.<br><br>Отключение этой настройки может быть полезно если вы используете другое устройство захвата, например внешний микрофон.",
 
-        "Settings.LeapMotionSettings.LeapMotionEnabled": "Трекинг рук Leap Motion",
-        "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Когда включен, устройство Leap Motion, если подключено, будет использоваться для отслеживания ваших рук и пальцев.",
+        "Settings.LeapMotionSettings.LeapMotionEnabled": "Включение трекинга рук LeapMotion",
+        "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Когда включен, устройство LeapMotion, если подключено, будет использоваться для отслеживания ваших рук и пальцев.",
         "Settings.LeapMotionSettings.Offset": "Отступ трекинга рук",
-        "Settings.LeapMotionSettings.Offset.Description": "Это сдвиг сенсора Leap Motion относительно вашего VR шлема в метрах. Подстройте эти значения чтобы руки были в правильной позиции.",
+        "Settings.LeapMotionSettings.Offset.Description": "Это сдвиг сенсора LeapMotion относительно вашего VR шлема в метрах. Подстройте эти значения чтобы руки были в правильной позиции.",
         "Settings.LeapMotionSettings.SnapDistance": "Дистанция \"прилипания\" к контроллерам",
         "Settings.LeapMotionSettings.SnapDistance.Description": "Когда ваши руки рядом с контроллерами, они автоматически \"прилипнут\" к ним и будут использовать трекинг с самих контроллеров вместо Leap Motion. Эта настройка задает дистанцию \"прилипания\".",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Отслеживать руки при использовании контроллеров",
-        "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "Когда руки \"прилипли\" к контроллерам, эта настройка позволяет использовать позы пальцев с Leap Motion.",
+        "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "Когда руки \"прилипли\" к контроллерам, эта настройка позволяет использовать позы пальцев с LeapMotion.",
 
-        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Трекинг рук Vive",
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Включение трекинга рук Vive",
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "Когда включен, ваши руки и пальцы будут отслеживаться трекингом Vive. Обычно для этого используются камеры самого VR шлема. Вас возможно потребуется включить трекинг рук в настройках Steam VR.",
         "Settings.ViveHandTrackingSettings.SnapDistance": "Дистанция \"прилипания\" к контроллерам",
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Когда ваши руки рядом с контроллерами, они автоматически \"прилипнут\" к ним и будут использовать трекинг с самих контроллеров вместо камер VR шлема. Эта настройка задает дистанцию \"прилипания\".",
@@ -1552,7 +1552,7 @@
         "Settings.TrackerSettings.Trackers.Unmap": "Сбросить привязку",
         "Settings.TrackerSettings.Trackers.Remove": "Удалить трекер",
 
-        "Settings.SteamLinkSettings": "Steam Link",
+        "Settings.SteamLinkSettings": "SteamLink",
         "Settings.SteamLinkSettings.OSC_DataPort": "Порт трекинга лица OSC",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "На каком порту нужно принимать данные трекинга лица OSC. Порт должен совпадать с соответствующей настройкой в SteamVR чтобы трекинг лица работал.",
 
@@ -1664,7 +1664,7 @@
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Задает, насколько громкими будут внешние звуки когда вы записываете голосовое сообщение на скледке контактов. Позволяет избежать \"перебивания\" и сконцентрироваться на том, что вы хотите сказать.",
         "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff": "Принудительно отключить звуковые эффекты для голосов",
         "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description": "Включение этого параметра подавит любые звуковые эффекты (например, реверберацию), применяемые к голосам других пользователей в мире. Это может помочь, если у вас возникли проблемы с пониманием голосов из-за этих эффектов.<br><br><color=hero.red>Важно:</color> Миры могут по желанию отключать эту функцию, если им нужны звуковые эффекты для игрового процесса. В этих случаях этот параметр не будет иметь никакого эффекта.",
-        
+
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Нормализация голоса",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Эта фенкциональность пытается поддерживать громкость вышего голоса на постоянном уровне. Это делает громкость вашего голоса постоянной для других пользователей, независимо от настроек микрофона. Настоятельно рекомендуем оставить эту настройку включенной, чтобы другие пользователи могли хорошо слышать вас.",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "Порог шумодава",
@@ -1689,7 +1689,7 @@
         "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Это контролирует, сколько аудиоданных вычисляется за один раз при рендеринге звука. Увеличение значения может улучшить производительность в некоторых отношениях, но это будет достигнуто за счет менее частых аудиособытий и увеличения задержка.<br><br>Обычно мы не рекомендуем изменять это значение и оставляем значение по умолчанию 1024.",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "Размер буфера воспроизведения",
         "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Этот параметр управляет размером буфера для воспроизведения звука. Более высокие значения будут иметь большую задержку звука, но более устойчивы к потрескиванию и щелчкам.<br><br>Уменьшая это значение, вы можете уменьшить задержку звука, но система будет более восприимчива к потрескиванию и сбоям.",
-        
+
         "Settings.VoiceSettings": "Настройки голоса",
         "Settings.VoiceSettings.MutePersistence": "Запоминать отключения микрофона",
         "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Start Unmuted:</color> При запуске, микрофон всегда включен.\n\n<color=hero.yellow>Start Muted:</color> При запуске, микрофон всегда отключен. Вам нужно будет или поменять режим голоса, или использовать клавишу \"push to talk\" (по умолчанию V) чтобы говорить.\n\n<color=hero.yellow>Remember Last: </color> При запуске, будет восстановлено последнее запомненное состояние микрофона.",
@@ -1763,19 +1763,19 @@
 
         "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "Использовать устаревшую систему зон реверберации",
         "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "При включении любой устаревший аудиоконтент, в котором включена пространственная обработка, будет автоматически игнорировать зоны реверберации, чтобы сохранить ограничения устаревшей аудиосистемы.<br><br>Включите этот параметр и снова загрузите устаревший контент. После сохранения преобразованного устаревшего контента выбор будет \"запечен\", и вам придется изменить его вручную впоследствии.",
-        
+
         "Settings.TwitchInterfaceSettings.ChannelName": "Название канала Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Устанавливает имя канала Twitch по умолчанию для панели чата Twitch в панели настроек камеры. В основном используется стримерами на Twitch, которые хотят видеть чат на их канале.",
 
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Не отправлять статус прочтения",
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "Когда включено, другие пользователи не будут видеть что вы прочитали их сообщения. Вы также не будете видеть когда они прочитали ваши сообщения.",
 
-        "Settings.LocaleSettings.CultureLocaleCode": "Код локали региональных настроек",
-        "Settings.LocaleSettings.CultureLocaleCode.Description": "Когда задано, это значение будет использоваться вместо региональных настроек (культуры) из выбранной локали. Региональные настройки задают форматирование чисел и количеств. По умолчанию используется культура из выбранной локали, но эта настройка позволяет задать другую. Например, вы можете использовать ваш родной язык с форматированием, используемым в США.",
+        "Settings.LocaleSettings.CultureLocaleCode": "Код региональных настроек",
+        "Settings.LocaleSettings.CultureLocaleCode.Description": "Когда задано, это значение будет использоваться вместо региональных настроек. Региональные настройки задают форматирование чисел и количеств. По умолчанию используется региональные настройк, но иную. Например, вы можете использовать ваш родной язык с форматированием, используемым в США.",
         "Settings.LocaleSettings.UseImperialUnits": "Использовать имперские единицы измерения",
         "Settings.LocaleSettings.UseImperialUnits.Description": "Когда включено, редакторы для количеств (длина/высота, масса, объем...) будут использовать имперские единицв вместо метрических. Полезно если вы из США, Великобритании, Либерии или Мьянмы.",
         "Settings.LocaleSettings.AvailableLocales": "Выберите язык",
-        "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Локали",
+        "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Языки",
         "Settings.LocaleSettings.AvailableLocales.SystemLocale": "Язык системы",
 
         "Settings.DashSettings.DashCurvature": "Изгиб",
@@ -1788,8 +1788,8 @@
         "Settings.NotificationSettings": "Уведомления",
         "Settings.NotificationSettings.UserOnline": "Контакт онлайн",
         "Settings.NotificationSettings.UserOnline.Description": "Будете ли вы получать нотификации когда ваши контакты становятся онлайн.",
-        "Settings.NotificationSettings.UserSociable" : "Контакт общительный",
-        "Settings.NotificationSettings.UserSociable.Description" : "Когда один из ваших контактов становится общительным, вы получите особую нотификацию со звуком, и вы сможете пригласить его или просто пообщаться!\n\nЕсли вам не нравятся эти нотификации, вы можете их отключить, тогда статус Общительный будет вызывать обычную нотификацию, как статус Онлайн.",
+        "Settings.NotificationSettings.UserSociable": "Контакт общительный",
+        "Settings.NotificationSettings.UserSociable.Description": "Когда один из ваших контактов становится общительным, вы получите особую нотификацию со звуком, и вы сможете пригласить его или просто пообщаться!\n\nЕсли вам не нравятся эти нотификации, вы можете их отключить, тогда статус Общительный будет вызывать обычную нотификацию, как статус Онлайн.",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild": "Контакт онлайн на несовместимой сборке",
         "Settings.NotificationSettings.UserOnlineOnAnotherBuild.Description": "Будете ли вы получать нотификации когда ваши контакты становятся онлайн в случае если они используют сборку, несовместимую с вашей (например, новую версию или пред-релизную сборку).",
         "Settings.NotificationSettings.Message": "Сообщения",
@@ -1848,7 +1848,7 @@
         "Settings.EditSettings.ConfirmComponentDestroy.Description": "Если включено, вам будет предложено подтвердить, прежде чем уничтожать компонент в инспекторе. Это помогает предотвратить их случайное уничтожение при неправильном щелчке.",
         "Settings.EditSettings.ConfirmSlotDestroy": "Подтвердить уничтожение слотов",
         "Settings.EditSettings.ConfirmSlotDestroy.Description": "Если включено, вам будет предложено подтвердить, когда вы уничтожаете слоты с помощью инструмента разработчика. Это может предотвратить случайное уничтожение объектов при неправильном щелчке.",
-        
+
         "Settings.CursorSettings": "Настройки курсора",
 
         "Settings.CursorSettings.BaseCursorSize": "Базовый размер курсора",
@@ -1868,7 +1868,7 @@
 
         "Settings.CursorSettings.DirectCursorEnabled": "Прямой курсор включен",
         "Settings.CursorSettings.DirectCursorEnabled.Description": "При включении показывает прямой курсор.\n\nПрямой курсор — это точка в пространстве, в которой будет находиться ваш курсор без сглаживания или корректировок, выполненных другими настройками или системами.",
-        
+
         "Settings.DesktopViewSettings.FollowCursor": "Следовать за курсором",
         "Settings.DesktopViewSettings.FollowCursor.Description": "Когда включено, вид Рабочего стола будет автоматически переключаться на экран, на котором сейчас находится курсор мыши. Это может быть удобно если вы используете физические клавиатуру и мышь в VR.",
         "Settings.DesktopViewSettings.Brightness": "Яркость",
@@ -1981,7 +1981,7 @@
         "Settings.InteractiveCameraAudioSettings": "Аудио",
         "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "Передавать собственный голос на камеру",
         "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "Когда аудиовыход для интерактивной камеры отделен от ее собственного аудиоустройства, это управляет тем, будет ли камера слышать ваш собственный голос или нет.<br><br>Это полезно, чтобы сделать ваш собственный голос полностью спатилизированным, как его будут слышать другие пользователи в мире.<br><br>Обязательно отключите захват микрофона в вашем программном обеспечении для записи, когда эта опция включена.",
-        
+
         "Settings.DescriptionField.NoTextTitle": "Больше информации",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Задержите курсор над настройкой чтобы увидеть её описание.</closeall>",
 
@@ -1996,7 +1996,7 @@
         "Settings.VideoStreamingServicesSettings": "Службы потоковой передачи видео",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Использовать файлы cookie из браузера",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Если видео YouTube и других сервисов не загружаются, выберите браузер, который вы обычно используете для загрузки файлов cookie при получении этих видео. Это увеличивает шансы успешной загрузки видео.",
-        
+
         "Settings.PostProcessingSettings": "Пост-обработка",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Интенсивность размытия в движении",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Задает силу эффекта размытия в движении (motion blur). Большие значения дают больше размытия при том же количестве движения.\n\nЕсли вы установите эффект в <nobr><color=hero.yellow>0 %</color></nobr>, фильтр будет полностью отключен, что может улучшить производительность.",
@@ -2021,24 +2021,24 @@
         "Settings.TextureQualitySettings.AnisotropicLevel": "Уровень анизотропии",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Контролирует качество анизотропной фильтрации.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Перезагрузить все текстуры (может быть тяжелой операцией)",
-        
-       "Settings.GaussianSplatQualitySettings": "Качество рендеринга Гауссовых пятен",
+
+        "Settings.GaussianSplatQualitySettings": "Качество рендеринга Гауссовых пятен",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "Сортировка мегаопераций на камеру",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description": "При рендеринге гауссовых пятен пятна должны быть отсортированы для каждой камеры. В настоящее время эта операция может быть довольно тяжелой, поэтому она распределяется по времени для улучшения общей частоты кадров.<br><br><color=hero.yellow>Увеличьте</color> значение, чтобы сортировка происходила быстрее. Это уменьшит артефакты при быстром изменении угла обзора вокруг гауссовых пятен.<br><br><color=hero.yellow>Уменьшите</color> значение, чтобы снизить использование графического процессора, если ваш графический процессор испытывает трудности с обработкой это. Однако это увеличит артефакты при быстром изменении угла обзора.",
-        "Settings.GaussianSplatQualitySettings.QualityPreset" : "Предустановка качества",
-        "Settings.GaussianSplatQualitySettings.QualityPreset.Description" : "Это контролирует качество визуализированных гауссовых пятен и использование ими видеопамяти. Более высокое качество будет использовать больше видеопамяти.<br><br><color=hero.yellow>Очень низкое:</color> ~18,62x меньше<br><color=hero.yellow>Низкое:</color> ~14x меньше<br><color=hero.yellow>Среднее:</color> ~5,14x меньше<br><color=hero.yellow>Высокое:</color> ~2,94x меньше<br><color=hero.yellow>Очень высокое:</color> Несжатое (исходное)",
-        "Settings.GaussianSplatQualitySettings.MinLocalQuality" : "Минимальное локально сжатое качество",
-        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description" : "Для локально импортированных гауссовых пятен качество никогда не будет ниже этого значения.<br><br>Мы не рекомендуем устанавливать это значение ниже среднего, так как более низкие уровни качества значительно более интенсивны и требуют больше времени для сжатия, и их следует оставить для сжатия в облаке.<br><br>Установка этого значения на очень высокое позволит гауссовским пятнам загружаться намного быстрее после импорта из-за отсутствия необходимости сжимать их за счет высокого использования видеопамяти.",
-        "Settings.GaussianSplatQualitySettings.AdvancedQuality" : "Расширенные настройки качества",
-        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description" : "При включении вы можете настроить определенные кодировки, используемые для различных буферов Гауссовых пятен. Это дает вам очень точный контроль качества. Его также можно использовать для целей тестирования/диагностики.",
-        "Settings.GaussianSplatQualitySettings.PositionFormat" : "Формат данных положения",
-        "Settings.GaussianSplatQualitySettings.PositionFormat.Description" : "Кодировка, используемая для положений пятен",
-        "Settings.GaussianSplatQualitySettings.ScaleFormat" : "Формат данных шкалы",
-        "Settings.GaussianSplatQualitySettings.ScaleFormat.Description" : "Кодировка, используемая для шкал пятен",
-        "Settings.GaussianSplatQualitySettings.ColorFormat" : "Формат данных цвета",
-        "Settings.GaussianSplatQualitySettings.ColorFormat.Description" : "Кодировка, используемая для цветов и непрозрачности пятен",
-        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat" : "Формат данных сферических гармоник",
-        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description" : "Кодировка, используемая для данных сферических гармоник пятен",
+        "Settings.GaussianSplatQualitySettings.QualityPreset": "Предустановка качества",
+        "Settings.GaussianSplatQualitySettings.QualityPreset.Description": "Это контролирует качество визуализированных гауссовых пятен и использование ими видеопамяти. Более высокое качество будет использовать больше видеопамяти.<br><br><color=hero.yellow>Очень низкое:</color> ~18,62x меньше<br><color=hero.yellow>Низкое:</color> ~14x меньше<br><color=hero.yellow>Среднее:</color> ~5,14x меньше<br><color=hero.yellow>Высокое:</color> ~2,94x меньше<br><color=hero.yellow>Очень высокое:</color> Несжатое (исходное)",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality": "Минимальное локально сжатое качество",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description": "Для локально импортированных гауссовых пятен качество никогда не будет ниже этого значения.<br><br>Мы не рекомендуем устанавливать это значение ниже среднего, так как более низкие уровни качества значительно более интенсивны и требуют больше времени для сжатия, и их следует оставить для сжатия в облаке.<br><br>Установка этого значения на очень высокое позволит гауссовским пятнам загружаться намного быстрее после импорта из-за отсутствия необходимости сжимать их за счет высокого использования видеопамяти.",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality": "Расширенные настройки качества",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description": "При включении вы можете настроить определенные кодировки, используемые для различных буферов Гауссовых пятен. Это дает вам очень точный контроль качества. Его также можно использовать для целей тестирования/диагностики.",
+        "Settings.GaussianSplatQualitySettings.PositionFormat": "Формат данных положения",
+        "Settings.GaussianSplatQualitySettings.PositionFormat.Description": "Кодировка, используемая для положений пятен",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat": "Формат данных шкалы",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat.Description": "Кодировка, используемая для шкал пятен",
+        "Settings.GaussianSplatQualitySettings.ColorFormat": "Формат данных цвета",
+        "Settings.GaussianSplatQualitySettings.ColorFormat.Description": "Кодировка, используемая для цветов и непрозрачности пятен",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat": "Формат данных сферических гармоник",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description": "Кодировка, используемая для данных сферических гармоник пятен",
 
         "Settings.ResolutionSettings": "Разрешение",
         "Settings.ResolutionSettings.Fullscreen": "Полноэкранный режим",
@@ -2068,9 +2068,9 @@
         "Settings.ImportSettings.WorldUrls.Description": "Что должно произойти при импорте URL мира. Доступны следующие параметры:\n\n<color=hero.yellow>Открыть</color> — открыть мир.\n<color=hero.yellow>SpawnInterface</color> — создает представление (например, сферу мира) мира в вашем текущем местоположении.\n<color=hero.yellow>SpawnUrl</color> — создает URL в вашем текущем местоположении в качестве интерфейса URL.",
         "Settings.ImportSettings.NetworkUrls": "При импорте сетевого URL",
         "Settings.ImportSettings.NetworkUrls.Description": "Что должно произойти при импорте сетевого URL. Доступны следующие параметры:\n\n<color=hero.yellow>Открыть</color> — открыть соединение с сеансом по URL.\n<color=hero.yellow>SpawnInterface</color> — создает представление (например, сферу сеанса) URL в вашем текущем location.\n<color=hero.yellow>SpawnUrl</color> — создает URL в вашем текущем местоположении как URL-интерфейс.",
-        
-        "Settings.MysterySettings" : "Загадочные настройки",
-        
+
+        "Settings.MysterySettings": "Загадочные настройки",
+
         "LocomotionArchetype.Walk": "Перемещение пешком",
         "LocomotionArchetype.Fly": "Полет",
         "LocomotionArchetype.NoClip": "Noclip",
@@ -2130,7 +2130,7 @@
 
         "Inspector.Member.ResetToDefault": "Сбросить в значение по умолчанию",
 
-        "Inspector.Member.BreakLinkDrive": "Убрать связь/драйв",
+        "Inspector.Member.BreakLinkDrive": "Разорвать связь/драйв",
         "Inspector.Member.OpenLinkDrive": "Открыть источник связи/драйва",
 
         "Inspector.Member.SetAllToAvg": "Установить все к среднему значению",
@@ -2189,17 +2189,17 @@
 
         "Inspector.MeshRenderer.MergeByMaterial": "Объединить под-меши с одинаковым материалом",
         "Inspector.MeshRenderer.SplitByMaterial": "Разделить на отдельные меши по материалу",
-        
+
         "Inspector.GaussianSplatRenderer.GeneratePointCloudCollider": "Создать коллайдер облака точек",
-        
+
         "Inspector.MeshCollider.VHACD": "Разбор на выпуклые многогранники (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Заменить кубическим коллайдером",
 
-        "Inspector.Texture3D.SpawnVisualizer" : "Создать визуализацию",
+        "Inspector.Texture3D.SpawnVisualizer": "Создать визуализацию",
 
         "Inspector.Skybox.SetActiveSkybox": "Установить как активный скайбокс",
         "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Установить как активный окружающий свет",
-        
+
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Обновить модули передвижения на присутствующих пользователях",
 
         "Inspector.VHACD.Parameter.MergeDoubles": "Объединить дубликаты",
@@ -2248,7 +2248,7 @@
         "Inspector.SimpleAvatarProtection.RemoveAll": "Убрать все вхождения",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Убрать это вхождение",
         "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>Удаление этого компонента любыми способами кроме выделенных кнопок, расположенных ниже, вызовет срабатывание защитного механизма, который уничтожит весь объект без возможности восстановления!",
-        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "УБРАТЬ защиту аватара",
+        "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "Снять ПОЛНОСТЬЮ защиту аватара",
 
         "Inspector.BipedRig.GetDiagnosticInfo": "Получить диагностику рига",
         "Inspector.BipedRig.GenerateDebugVisuals": "Генерировать отладочную визуализацию",
@@ -2351,11 +2351,11 @@
         "Inspector.AudioStream.DecodeState": "Всего пакетов: {total}, Всего потеряно пакетов: {lost}, Потеря пакетов: {loss, number, percent}",
         "Inspector.AudioStream.BufferStats": "Срд кодек: {avgCodec}/с, Срд чтение: {avgRead}/с, Срд запись: {avgWritten}/с",
 
-        "Inspector.GaussianSplat.SplatInfo" : "Количество пятен: {count}, использование VRAM: {vram}",
-        "Inspector.GaussianSplat.Variant" : "Загруженный вариант: {variant}",
-        "Inspector.GaussianSplat.ColorByIndex" : "Цвет пятен по индексу",
-        "Inspector.GaussianSplat.ReorderMorton" : "Изменить порядок пятен с помощью упорядочивания Мортона",
-        
+        "Inspector.GaussianSplat.SplatInfo": "Количество пятен: {count}, использование VRAM: {vram}",
+        "Inspector.GaussianSplat.Variant": "Загруженный вариант: {variant}",
+        "Inspector.GaussianSplat.ColorByIndex": "Цвет пятен по индексу",
+        "Inspector.GaussianSplat.ReorderMorton": "Изменить порядок пятен с помощью упорядочивания Мортона",
+
         "Inspector.DynamicBoneChain.SetupFromChildren": "Настроить по потомкам",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll": "Настроить по потомкам (принудительно для всех)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "Настроить по потомкам (только риг)",
@@ -2377,11 +2377,11 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>Этот компонент можно использовать как простое твердое тело, выбрав SimulateRotation. Перед тем как сделать это, имейте в виду, что он не оптимизирован для этих целей и полная поддержка твердых тел будет позже.<br>Полная поддержка твердых тел даст:<br><b>- Эффективное использование ЦП и сети</b> - с CharacterController вы используете больше ресурсов ЦП и ощутимо больше сетевого трафика<br><b>- Ограничения</b> - вы сможете задавать суставы, петли, пружины и другие ограничения между твердыми телами<br><b>- Плавная симуляция и взаимодействие для всех</b> - CharacterController ведет себя очень странно если другой пользователь пытается с ним взаимодействовать<br><b>- Новые фичи и инструменты</b> - чтобы упростить их использование<br>-----------------------<br>Вы можете узнать больше в заявке #22 на GitHub. Прочитали и осознали? Дерзайте!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>С помощью этого компонента можно взаимодействовать с рефренсами, используя их ID. Этот процесс часто называют 'Ref Hacking'.<br><br><b>Прежде</b> чем начать, пожалуйста примите к сведению, что это <b>не</b> подерживается и может сломаться в любой момент. Не полагайтесь на данную функцию, при создании своих творений.",
-        "Inspector.FacetPreset.Warning":"<color=red><size=125%>ВНИМАНИЕ!</size></color><br>FacetPresets автоматически обновит свое содержимое, когда мы опубликуем новые версии этих предустановок. Если вы создаете пользовательскую версию, мы рекомендуем удалить этот компонент.",
-        "Inspector.GrabbableSaveBlock.Warning":"<color=red><size=125%>ВНИМАНИЕ!</size></color><br> Этот компонент не предназначен для обеспечения безопасности/защиты от кражи активов. Он предназначен для использования в случаях, когда вы хотите заблокировать более простые методы сохранения по причинам игрового процесса или дизайна. Его можно легко обойти, и он не станет более безопасным ни при каких обстоятельствах.",
-        
-        "Inspector.ParticleSystem.BasicInfo" : "Частицы: {count}, FPS: {fps}, Время симуляции: {time}, Время отправки: {renderSubmitTime}, Время выделения: {allocationCount}",
-        "Inspector.ParticleSystem.TrailInfo" : "Следы: {trailCount} (ёмкость: {trailCapacity}), Ёмкость точек следов: {trailPointCapacity}",
+        "Inspector.FacetPreset.Warning": "<color=red><size=125%>ВНИМАНИЕ!</size></color><br>FacetPresets автоматически обновит свое содержимое, когда мы опубликуем новые версии этих предустановок. Если вы создаете пользовательскую версию, мы рекомендуем удалить этот компонент.",
+        "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>ВНИМАНИЕ!</size></color><br> Этот компонент не предназначен для обеспечения безопасности/защиты от кражи активов. Он предназначен для использования в случаях, когда вы хотите заблокировать более простые методы сохранения по причинам игрового процесса или дизайна. Его можно легко обойти, и он не станет более безопасным ни при каких обстоятельствах.",
+
+        "Inspector.ParticleSystem.BasicInfo": "Частицы: {count}, FPS: {fps}, Время симуляции: {time}, Время отправки: {renderSubmitTime}, Время выделения: {allocationCount}",
+        "Inspector.ParticleSystem.TrailInfo": "Следы: {trailCount} (ёмкость: {trailCapacity}), Ёмкость точек следов: {trailPointCapacity}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Часто используемые шаблоны:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Альфа нарастание и затухание",
@@ -2937,7 +2937,7 @@
         "Discord.RichPresence.InPublicWorld": "В публичном мире",
         "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} {totalWorlds,plural, one {мир} few {мира} other {миров}})",
         "Discord.RichPresence.InPublicLargeText": "В публичном мире ({version})",
-        
+
         "Universe.UI.Narrative": "Повествование",
         "Universe.UI.Freeform": "Свободная форма",
         "Universe.Stars.Sun": "Солнце",
@@ -3125,7 +3125,8 @@
         "Universe.Units.NauticalMile": "Морская миля",
         "Universe.Units.HubbleLength": "Длина Хаббла",
         "Universe.Units.EarthRadius": "Радиус Земли",
-        "Universe.Units.LunarDistance": "Лунное расстояние"
+        "Universe.Units.LunarDistance": "Лунное расстояние",
+
         "Dummy": "Dummy"
     }
 }
