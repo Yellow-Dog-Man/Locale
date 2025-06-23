@@ -20,7 +20,7 @@ Dutch [nl] - 87.6% - Missing keys: 329
 Norwegian [no] - 58.4% - Missing keys: 1106  
 Polish [pl] - 99.5% - Missing keys: 14  
 Portuguese (Brazil) [pt-br] - 58.3% - Missing keys: 1107  
-Russian [ru] - 99.9% - Missing keys: 0  
+Russian [ru] - 88.0% - Missing keys: 318  
 Swedish [sv] - 24.0% - Missing keys: 2020  
 Thai [th] - 2.6% - Missing keys: 2588  
 Turkish [tr] - 30.6% - Missing keys: 1844  
