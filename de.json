@@ -182,10 +182,12 @@
         "World.Connection.Connected": "Verbunden",
         "World.Connection.SyncingInitialState": "Synchronisiere initialen Weltzustand",
 
-        "World.Connection.LNL.DirectIP": "LNL Direkt IP",
+        "World.Connection.LNL.DirectIP": "LNL Direkt IP<br><size=75%>{address}</size>",
+        "World.Connection.LNL.LNLPoke": "Fordere LNL Poke an",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT Punchthrough {n}",
         "World.Connection.LNL.Relay": "LNL Relay",
         "World.Connection.SteamNetworkingSockets": "Steam Netzwerk Socket",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "Beitritt verweigert",
         "World.Error.SecurityViolation": "Sicherheitsverletzung",
@@ -342,6 +344,7 @@
         "World.Filter.MinimumUsers": "Minimale Anzahl Benutzer: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Minimale Anzahl Kontakte: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Nur dedizierte Hosts",
+        "World.Filter.IncompatibleSessions": "Inkompatible Sitzung",
         "World.Filter.MaxAccessLevel": "Maximale Beitrittsberechtigung:",
         "World.Filter.MinimumUptime": "Minimale Laufzeit:",
         "World.Filter.Sorting": "Sortierung:",
@@ -595,6 +598,8 @@
         "Profile.Status.Invisible": "Unsichtbar",
         "Profile.Status.Offline": "Offline",
         "Profile.Status.Headless": "Headless Host",
+        "Profile.Status.Bot": "<b>Bot:</b> {version}",
+        "Profile.Status.ChatClient": "<b>Chat Client:</b> {version}",
 
         "Session.Tab.Settings": "Einstellungen",
         "Session.Tab.Users": "Benutzer",
@@ -644,6 +649,7 @@
         "Contacts.WriteMessage": "Eine Nachricht schreiben...",
 
         "Contacts.InSession": "In {name}",
+        "Contacts.NoSession": "Keine Sitzung",        
         "Contacts.InPrivate": "In privater Welt",
         "Contacts.InContactsOnly": "In Kontakte-exklusiver Welt",
         "Contacts.InHidden": "In versteckter Welt",
@@ -658,6 +664,7 @@
         "Contacts.SearchResult": "Suchergebnis",
         "Contacts.Bot": "Bot-Konto",
         "Contacts.Migrated": "Kontakt ist noch nicht migriert",
+        "Contacts.IncompatibleSession": "Inkompatible Sitzung",
 
         "Notifications.IsSociable": "Ist gesellig, bitte anstupsen oder einladen!",
         "Notifications.IsOnline": "Ist jetzt Online",
@@ -929,6 +936,12 @@
         "Importer.Image.Stereo180": "Stereo-180-Grad-Foto",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.Image.Failure.Heading": "Gescheiterter Import des Bildes <color=hero.yellow>{image}</color>",
+        "Importer.Image.Failure.Description": "Das Importieren des Bildes ist aus diesem Grund fehlgeschlagen:\n\n<color=hero.red>{error}</color>",
+
+        "Importer.LUT.Failure.Heading": "LUT-Import fehlgeschlagen <color=hero.yellow>{image}</color>",
+        "Importer.LUT.Failure.Description": "Der Import der LUT ist aus diesem Grund fehlgeschlagen:\n\n<color=hero.red>{error}</color>",
+
         "Importer.ImageVideo.LayoutPrompt": "Was für ein Layout hat die Datei?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Nebeneinander Links Rechts",
         "Importer.ImageVideo.LayoutHorizontalRL": "Nebeneinander Rechts Links",
@@ -1022,6 +1035,7 @@
         "Exporter.ExportAs": "Exportieren als:",
         "Exporter.Export": "Export",
         "Exporter.Exporting": "Wird exportiert...",
+        "Exporter.InvalidFileName": "Ungültiger Dateiname",
 
         "Export.PackageExportable.Package": "Resonite Paket",
         "Export.PackageExportable.PackageWithVariants": "Resonite Paket <size=75%>(+Varianten)</size>",
@@ -1311,6 +1325,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType": "Standard Handgriff-Typ",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Dies bestimmt den Standard Greifmodus für Hände, wenn Sie in einer neuen Welt spawnen.\n\n<color=hero.yellow>Handfläche:</color> Sie greifen alle Objekte, die sich in der Nähe Ihrer Handfläche befinden.\n\n<color=hero.yellow>Präzision:</color> Sie greifen ein einzelnes Objekt zwischen Zeigefinger und Daumen. \n\n<color=hero.yellow>Auto:</color> Der Modus wird automatisch zwischen Handfläche und Präzision umgeschaltet, je nach Ausrichtung Ihrer Hand.\n\n<color=hero.yellow>Aus:</color> Sie können Gegenstände nur mit Ihren Lasern greifen.",
 
+        "Settings.FullBodyTrackingSettings": "Ganzkörper-Tracking",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Horizontal-Winkel des Körpers",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "Dies setzt den Grenzwert des Horizontal-Winkels zwischen Füßen und Kopf, wenn er überschritten wird, wird Ihre Körperhaltung als horizontal eingestuft. Dies wirkt sich auf bestimmte Dinge wie z. B. das Überschreiben Ihrer Tracker-Posen mit Werten aus der Fußsimulation aus.",
+
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Thumbstick Schwenkgeschwindigkeit",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Hier können Sie die Empfindlichkeit des Thumbsticks einstellen, mit dem Sie ihre Blickrichtung ändern.",
@@ -1356,7 +1374,7 @@
 
         "Settings.MediaPrivacySettings": "Datenschutz in Medien",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Verweigern von Medien-Metadaten",
-        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Wenn Sie diese Option aktivieren, werden Ihre Metadaten aus aufgenommenen Medien (typischerweise virtuelle Fotos und Audioaufnahmen) herausgehalten. Sie werden weiterhin in diesen Medien erscheinen, aber es werden keine zusätzlichen Informationen wie Ihre UserID und Ihre Position in der Szene mitgespeichert.\n\nWenn Sie bemerken, dass Benutzer ihr Resonite-Programm so modifizieren, dass es diese Option ignoriert, melden Sie sie bitte dem Moderationsteam, da dies als Belästigung gewertet wird.",
+        "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Wenn Sie diese Option aktivieren, werden Ihre Metadaten aus aufgenommenen Medien (typischerweise virtuelle Fotos und Audioaufnahmen) herausgehalten. Sie werden weiterhin in diesen Medien erscheinen, aber es werden keine zusätzlichen Informationen wie Ihre UserID und Ihre Position in der Szene mitgespeichert.\n\nWenn Sie bemerken, dass Benutzer ihre Client-Programme so modifizieren, dass diese Option ignoriert wird, melden Sie sie bitte dem Moderationsteam, da dies als Belästigung gewertet wird.",
         "Settings.MediaPrivacySettings.HideInScreenshots": "Zeigen sie mich nicht in Screenshots",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Wenn dies aktiviert ist, werden Sie auf Screenshots, die im Spiel aufgenommen wurden, nicht dargestellt.\n\n<color=hero.red>WICHTIG:</color> Bitte beachten Sie, dass dies keine Auswirkungen auf Echtzeitkameras, mit Methoden außerhalb des Spiels aufgenommenen Screenshots, oder Aufnahmen, die möglicherweise mit anderen Methoden als Teil der Weltmechanik in der virtuellen Welt gemacht werden, hat.",
 
@@ -1368,13 +1386,16 @@
         "Settings.SteamIntegrationSettings": "Steam Integration",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Steuert, welche Informationen Resonite an Discords Rich-Presence-System sendet.\n\n<color=hero.yellow>Keine</color> - Keine Rich-Presence-Informationen an Discord senden.\n<color=hero.yellow>Eingeschränkt</color> - Nur wenige Details wie Ihre Anwesenheit in Resonite senden.\n<color=hero.yellow>Vollständig</color> - Wenn Sie sich in einer öffentlichen Sitzung befinden, senden Sie alle passenden Sitzungsinformationen an Discord. Dazu gehört auch der Name der Welt und wie viele Benutzer in der Sitzung sind.\n\nAuch Discord selbst erkennt, welches Spiel Sie spielen. Dies kann in Discords Einstellungen deaktiviert werden.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Steuert, welche Informationen {appName} an Discords Rich-Presence-System sendet.\n\n<color=hero.yellow>Keine</color> - Keine Rich-Presence-Informationen an Discord senden.\n<color=hero.yellow>Eingeschränkt</color> - Nur wenige Details wie Ihre Anwesenheit in {appName} senden.\n<color=hero.yellow>Vollständig</color> - Wenn Sie sich in einer öffentlichen Sitzung befinden, senden Sie alle passenden Sitzungsinformationen an Discord. Dazu gehört auch der Name der Welt und wie viele Benutzer in der Sitzung sind.\n\nAuch Discord selbst erkennt, welches Spiel Sie spielen. Dies kann in Discords Einstellungen deaktiviert werden.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "Steuert, welche Informationen Resonite an Steams Rich-Presence-System sendet.\n\n<color=hero.yellow>Keine</color> - Keine Rich-Presence-Informationen an Steam senden.\n<color=hero.yellow>Eingeschränkt</color> - Nur wenige Details wie Ihre Anwesenheit in Resonite senden.\n<color=hero.yellow>Vollständig</color> - Wenn Sie sich in einer öffentlichen Sitzung befinden, senden Sie alle passenden Sitzungsinformationen an Steam. Dazu gehört auch der Name der Welt und wie viele Benutzer in der Sitzung sind.\n\nSteam selbst zeigt unabhängig von dieser Einstellung an, dass Sie Resonite spielen. Das Ändern dieser Einstellung wirkt sich nur darauf aus, wie viele zusätzliche Daten über Ihre aktive Sitzung an Steam gesendet werden.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Steuert, welche Informationen {appName} an das Rich-Presence System sendet.\n<color=hero.yellow>Keine</color> - Keine Informationen an Steam senden.\n<color=hero.yellow>Eingeschränkt</color> - Nur wenige Details wie Ihre Anwesenheit in {appName} senden.\n<color=hero.yellow>Vollständig</color> - Wenn Sie in einer öffentlichen Sitzung sind, senden Sie alle passenden Sitzungsinformationen (z.B. Name der Welt, Benutzeranzahl in der Sitzung).\nSteam zeigt unabhängig von dieser Einstellung an, dass Sie {appName} spielen. Diese Einstellung steuert nur, wie viele zusätzliche Daten über Ihre aktive Sitzung an Steam gesendet werden.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Screenshots speichern",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Wenn diese Einstellung aktiviert ist, wird bei der Aufnahme eines Bildes eine Kopie in Steam Screenshots gespeichert.",
+
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Steam Voice erzwingen, wenn Remote Play aktiv ist",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "Wenn diese Option aktiviert ist, wird das Audio-Aufnahmegerät automatisch auf Steam Voice umgeschaltet, wenn Sie über Steam Remote Play spielen. Auf diese Weise müssen Sie nicht selbst auf den weitergeleiteten Mikrofoneingang umschalten.<br><br>Das Abschalten dieser Funktion kann nützlich sein, wenn Sie ein anderes Aufnahmegerät verwenden möchten - z. B. ein externes Mikrofon.",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion Hand Tracking",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Wenn dies aktiviert ist, wird ein Leap Motion Gerät zum Verfolgen Ihrer Hände verwendet, sofern es vorhanden ist.",
@@ -1500,6 +1521,11 @@
         "Settings.AudioInputDeviceSettings.DevicePriorities": "Standard Audio-Aufnahmegerät konfigurieren",
         "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "Audio-Aufnahmegeräte",
         "Settings.AudioInputDeviceSettings.SetAsDefault": "Als Standard einstellen",
+        "Settings.AudioInputDeviceSettings.Testing.Header": "Teste Audio-Aufnahme",
+        "Settings.AudioInputDeviceSettings.Testing.Description": "Hiermit können Sie das ausgewählte Audiogerät abhören und damit testen ob es ordnungsgemäß funktioniert. Drücken Sie die Taste, um den Audio-Eingang zu hören, der den Ton wiedergibt.",
+        "Settings.AudioInputDeviceSettings.Testing.ListenToInput": "Hören Sie dieses Aufnahmegerät an",
+        "Settings.AudioInputDeviceSettings.Testing.StopListeningToInput": "Nicht mehr zuhören",
+        "Settings.AudioInputDeviceSettings.Testing.Monitoring.Header": "Live Audio-Überwachung",
 
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "Benutze Standard-Ausgabegerät des Systems",
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Wählen Sie diese Einstellung, um das in Ihrem System eingestellte Standard-Ausgabegerät zu nutzen. Wenn Sie stattdessen ein bestimmtes Gerät zur Audio-Ausgabe nutzen wollen, deaktivieren Sie diese Option und wählen Sie das gewünschte Gerät unten aus. Dies kann bei der Verwendung verschiedener Geräte für VR und Desktop nützlich sein.",
@@ -1564,8 +1590,10 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Dies deaktiviert Netzwerkfunktionen in ihrem lokalen Netzwerk, zum Beispiel das Übertragen ihrer Sitzungen oder suchen nach anderen lokalen Sitzungen.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Bevorzuge Steam Networking Sockets",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Wenn dies aktiviert ist, werden sofern möglich Steam Networking Sockets für Verbindungen verwendet. Dies kann Ihnen helfen, wenn das LNL-Protokoll erhebliche Paketverzögerungen verursacht. Da diesem Protokoll allerdings einige Funktionalitäten fehlen, kann es zu mehr Stabilitätsproblemen führen, daher empfehlen wir es nur zu aktivieren, wenn Sie Probleme bemerken.",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "Bevorzuge TCP",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Wenn dies aktiviert ist, werden Verbindungen über TCP gegenüber allen anderen Protokollen bevorzugt. Dies betrifft vor allem Verbindungen im LAN, da TCP standardmäßig nicht für Verbindungen über das Internet verwendet wird.\n\nTCP kann in lokalen LAN-Netzwerken eine bessere Leistung bringen und auch in bestimmten Netzwerken funktionieren, in denen UDP-basierte Protokolle nicht funktionieren.\n\nEs kann jedoch unter einer \"Head-of-Line\" Blockierung leiden, wodurch Stimmen und Posen erheblich verzögert werden können.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL Fenstergröße",
-        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Dies stellt die Fenstergröße für das LNL-Protokoll für Echtzeit-Netzwerke ein. Eine Änderung wirkt sich sofort auf alle Sitzungen aus, an denen Sie teilnehmen.\n\nSollten Sie feststellen, dass es zu Paketstaus kommt, können Sie diesen Wert erhöhen, wodurch sich der Durchsatz der Verbindung verbessern kann. Allerdings können größere Werte die Verbindung auch instabiler machen, seien Sie also vorsichtig.\n\nStandardwert: 64\n\nBeachten Sie, dass es sich bei dieser Einstellung um eine vorübergehende Behelfslösung handelt, die auch der Diagnose dient. Dieser Wert wird in Zukunft automatisch angepasst.",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Dies stellt die Fenstergröße für das LNL-Protokoll für Echtzeit-Netzwerke ein. Eine Änderung wirkt sich sofort auf alle Ihre Sitzungen aus.\nSollten Sie Paketstaus feststellen, können Sie diesen Wert erhöhen, wodurch sich der Durchsatz der Verbindung verbessern kann. Allerdings können größere Werte die Verbindung auch instabiler machen.\n\n<color=hero.yellow>Standardwert:</color> 64\n\n<color=hero.red>WICHTIG:</color> Beachten Sie, dass es sich bei dieser Einstellung um eine Behelfslösung handelt, die auch der Diagnose dient. Dieser Wert wird in Zukunft automatisch angepasst.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Maximale Anzahl gleichzeitiger Asset-Übertragungen",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "Wenn Sie eine Sitzung hosten, beeinflusst diese Einstellung, wie viele lokal importierte Assets gleichzeitig von ihrem Computer übertragen werden können. Wenn Sie diesen Wert erhöhen, werden Assets schneller an andere Benutzer übertragen, es kann aber die Qualität ihrer Netzwerkverbindung beeinträchtigen. Wir empfehlen zu testen, welchen Wert ihr Netzwerk aushalten kann.",
@@ -1579,9 +1607,9 @@
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Erlaube Websockets",
         "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Dies gibt an, ob Websocket-Verbindungen für diesen Host erlaubt sind. Diese werden oft für bidirektionale Echtzeit-Kommunikation und Datenströme verwendet.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Erlaube OSC Empfang",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Dies bestimmt, ob Resonite OSC-Daten empfangen und verarbeiten darf.",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Dies bestimmt, ob {appName} OSC-Daten empfangen und verarbeiten darf.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "OSC Senden erlauben",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Hier wird festgelegt, ob Resonite Daten über das OSC-Protokoll an einen bestimmten Host senden darf.",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Hier wird festgelegt, ob {appName} Daten über das OSC-Protokoll an einen bestimmten Host senden darf.",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Grund der letzten Hyperlink-Anfrage",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Grund der letzten Websocket-Anfrage",
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Grund der letzten OSC-Sender Anfrage",
@@ -1596,8 +1624,6 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Debug Eingabebindungen",
         "Settings.DebugSettings.DebugInputBindings.Description": "Wenn Sie dies aktivieren, sehen Sie Debugging-Informationen für das Eingabebindungs-System. Dies ist hauptsächlich für Entwickler nützlich.",
-        "Settings.DebugSettings.FetchIncompatibleSessions": "Zeige inkompatible Sitzungen",
-        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "Wenn dies aktiviert ist, sehen Sie aktive Sitzungen, die nicht mit ihrer aktuellen Client-Version kompatibel sind und denen Sie nicht beitreten können.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Doppel-Druck auf Griff, um Gegenstände auszurüsten",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wenn dies aktiviert ist, können Sie Tools und andere ausrüstbare Objekte ausrüsten, indem Sie ihren Griff zweimal schnell nacheinander drücken. Diese Einstellung wird wahrscheinlich irgendwann entfernt werden.",
@@ -1605,6 +1631,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Wenn dies aktiviert ist, öffnet die App-Taste des Controllers ihrer nicht-dominanten Hand den alten Welten-Wechsler, mit dem Sie zwischen aktiven Welten wechseln können. Diese Funktionalität wird in der Zukunft mit einem flexibleren System ersetzt.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Geste für Inventar und Sitzung verwenden",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Wenn diese Einstellung aktiviert ist, öffnet sich das alte Inventar- oder Sitzungsmenü, wenn Sie den Griff gedrückt halten und die App-Taste drücken (was normalerweise das Dash-Menü öffnet/schließt).",
+
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Fußsimulation unterdrücken",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Dies ermöglicht, dass Methoden wie z. B. Poser die Fuß-Proxys übernehmen, weiter funktionieren, ohne dass sie angepasst werden müssen.<br>Wenn Sie diese Einstellung aktivieren, ohne Poser oder vergleichbare Verfahren zu verwenden, werden die Animationen NICHT korrekt aussehen. Schalten Sie dies aus, sobald Sie keine Poser mehr verwenden.<br><color=hero.red>WICHTIG:</color> Diese Einstellung wird wahrscheinlich in Zukunft entfernt werden. Wir empfehlen, Poser so anzupassen, dass sie mit dem neuen System kompatibel sind und die Simulation automatisch unterdrücken, wenn sie aktiv ist.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Kanalname",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Dies stellt den standard Twitch Kanalnamen für das Twitch Chat-Panel im Kamerasteuerungs-Panel ein. Dies wird meistens von Twitch Streamern verwendet, die ihren Twitch Chat sehen möchten.",
@@ -1618,6 +1647,7 @@
         "Settings.LocaleSettings.UseImperialUnits.Description": "Wenn dies aktiviert ist, versuchen Eingabefelder für Mengenwerte (Länge/Höhe, Masse, Volumen...) Einheiten des imperialen Systems anstelle von metrischen Einheiten zu verwenden. Dies kann nützlich sein, wenn Sie aus den Vereinigten Staaten, dem Vereinigten Königreich, Lyberia oder Myanmar stammen.",
         "Settings.LocaleSettings.AvailableLocales": "Sprache auswählen",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Sprachen",
+        "Settings.LocaleSettings.AvailableLocales.SystemLocale": "Systemsprache verwenden",
 
         "Settings.DashSettings.DashCurvature": "Krümmung",
         "Settings.DashSettings.DashCurvature.Description": "Diese Einstellung bestimmt, wie gekrümmt das Dash-Menu in VR ist. Wenn sie auf 0 gesetzt wird, ist es völlig flach. ",
@@ -1710,8 +1740,12 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "Sichtfeld",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Hiermit können Sie ihr Sichtfeld (FOV) anpassen, wenn Sie im Desktop-Modus sind. Höhere Werte verursachen eine weitere Sicht, haben jedoch auch mehr Verzerrungen am Rand.",
+
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Sichtfeld beim Sprinten zoomen",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Wenn diese Option aktiviert ist, wird Ihr Sichtfeld gezoomt, wenn Sie im <b>Desktop-Modus</b> sprinten. Deaktivieren Sie diese Einstellung, um den Effekt zu entfernen.\n\nDies gilt <b>NICHT</b> für Effekte in benutzergenerierten Inhalten.",
+
         "Settings.DesktopRenderSettings.VSync": "VSync",
-        "Settings.DesktopRenderSettings.VSync.Description": "Wenn diese Option aktiviert ist, wird die Framerate mit der Aktualisierungsrate Ihres Bildschirms synchronisiert. Wenn Sie die Option ausschalten, können Frames schneller gerendert werden, aber es kann auch zu sichtbarem Tearing kommen.\n\nDies kann bei Performance-Tests nützlich sein, da dadurch die Aktualisierungs- und Rendering-Geschwindigkeit nicht gedeckelt wird.",
+        "Settings.DesktopRenderSettings.VSync.Description": "Wenn diese Option aktiviert ist, wird die Framerate mit der Aktualisierungsrate Ihres Bildschirms synchronisiert. Wenn Sie die Option ausschalten, können Frames schneller gerendert werden, aber es kann auch zu sichtbarem Tearing kommen.\n\nDies kann bei Performance-Tests nützlich sein, da dadurch die Aktualisierungs- und Rendering-Geschwindigkeit nicht gedeckelt wird.\n\n<color=hero.red>WICHTIG:</color> Diese Einstellung kann in VR nicht umgeschaltet werden, da die Framerate durch VR bestimmt wird.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Framerate begrenzen im Hintergrund",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "Wenn diese Option aktiviert ist, wird die Framerate auf einen festen Wert begrenzt, wenn das Anwendungsfenster nicht fokussiert ist. Dies ist nützlich, wenn Sie gleichzeitig andere Programme und Spiele verwenden, da dadurch mehr Ressourcen für diese frei bleiben.",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "Maximale Hintergrund-Framerate",
@@ -1810,7 +1844,7 @@
         "Settings.TextureQualitySettings.MinimumTextureSize": "Textur über dieser Auflösung begrenzen",
         "Settings.TextureQualitySettings.MinimumTextureSize.Description": "Dies steuert die Mindestauflösung einer Textur, damit sie durch die obigen Einstellungen begrenzt wird. Wenn die Textur kleiner ist, wird sie unverändert geladen.\n\nWenn Sie z.B. 512 einstellen, wird eine Textur mit einer Größe von 256 unverändert mit der Größe 256 geladen, auch wenn die relative Textur-Größe auf die Hälfte eingestellt ist.",
         "Settings.TextureQualitySettings.DefaultFilterMode": "Textur-Filterung",
-        "Settings.TextureQualitySettings.DefaultFilterMode.Description": "Dies stellt die für Texturen verwendete Filterung ein, die deren Qualität und Leistung bestimmt.\n\n<color=hero.yellow>Punkt:</color> Niedrigste Qualität ohne Interpolation. Die Texturen werden klötzchenhaft sein.\n\n<color=hero.yellow>Bilinear:</color> Texturpixel werden interpoliert, aber die Mip-Map-Übergänge werden hart sein, was zu einer sichtbaren Übergangslinie führt.\n\n<color=hero. yellow>Trilinear:</color> Weiche Übergänge zwischen verschiedenen Mip-Stufen, wodurch die harte Übergangslinie in der Ferne verschwindet.\n\n<color=hero. yellow>Anisotropisch:</color> Höchste Qualität, die Texturen sind auch bei steilen Winkeln scharf.",
+        "Settings.TextureQualitySettings.DefaultFilterMode.Description": "Dies stellt die für Texturen verwendete Filterung ein, die deren Qualität und Leistung bestimmt.\n\n<color=hero.yellow>Punkt:</color> Niedrigste Qualität ohne Interpolation. Die Texturen werden klötzchenhaft sein.\n\n<color=hero.yellow>Bilinear:</color> Texturpixel werden interpoliert, aber die Mip-Map-Übergänge werden hart sein, was zu einer sichtbaren Übergangslinie führt.\n\n<color=hero.yellow>Trilinear:</color> Weiche Übergänge zwischen verschiedenen Mip-Stufen, wodurch die harte Übergangslinie in der Ferne verschwindet.\n\n<color=hero.yellow>Anisotropisch:</color> Höchste Qualität, die Texturen sind auch bei steilen Winkeln scharf.",
         "Settings.TextureQualitySettings.AnisotropicLevel": "Anisotrope Stufen",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Steuert die Qualität der anisotropen Filterung.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Alle Texturen neu laden (kann aufwändig sein)",
@@ -1903,6 +1937,7 @@
         "Inspector.Member.SetAllToY": "Setze alle auf Y",
         "Inspector.Member.SetAllToZ": "Setze alle auf Z",
         "Inspector.Member.SetAllToW": "Setze alle auf W",
+        "Inspector.Member.Normalize": "Normalisieren",
         "Inspector.Member.BakeBlendshape": "Fixiere Blendshape",
         "Inspector.Member.RemoveBlendshape": "Entferne Blendshape",
         "Inspector.Member.SplitBlendshape.X": "Blendshape über X zerteilen",

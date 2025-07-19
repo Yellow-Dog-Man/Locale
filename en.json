@@ -1,6 +1,6 @@
 {
     "localeCode": "en",
-    "authors": ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus", "Earthmark", "Ryuvi", "Nammi"],
+    "authors": ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus", "Earthmark", "Ryuvi", "Nammi", "WattleFoxxo", "StiefelJackal"],
     "messages": {
 
         "General.OK": "OK",
@@ -182,10 +182,12 @@
         "World.Connection.Connected": "Connected",
         "World.Connection.SyncingInitialState": "Syncing initial world state",
 
-        "World.Connection.LNL.DirectIP": "LNL Direct IP",
+        "World.Connection.LNL.DirectIP": "LNL Direct IP<br><size=75%>{address}</size>",
+        "World.Connection.LNL.LNLPoke": "Requesting LNL Poke",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT Punchthrough {n}",
         "World.Connection.LNL.Relay": "LNL Relay",
         "World.Connection.SteamNetworkingSockets": "Steam Networking Sockets",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "Access Denied",
         "World.Error.SecurityViolation": "Security Violation",
@@ -342,6 +344,7 @@
         "World.Filter.MinimumUsers": "Minimum Users: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Minimum Contacts: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Only Headless Hosts",
+        "World.Filter.IncompatibleSessions": "Incompatible sessions",
         "World.Filter.MaxAccessLevel": "Maximum Access Level:",
         "World.Filter.MinimumUptime": "Minimum Uptime:",
         "World.Filter.Sorting": "Sorting:",
@@ -595,6 +598,8 @@
         "Profile.Status.Invisible": "Invisible",
         "Profile.Status.Offline": "Offline",
         "Profile.Status.Headless": "Headless Host",
+        "Profile.Status.Bot": "<b>Bot:</b> {version}",
+        "Profile.Status.ChatClient": "<b>Chat client:</b> {version}",
 
         "Session.Tab.Settings": "Settings",
         "Session.Tab.Users": "Users",
@@ -644,6 +649,7 @@
         "Contacts.WriteMessage": "Write a message...",
 
         "Contacts.InSession": "In {name}",
+        "Contacts.NoSession": "No Session",
         "Contacts.InPrivate": "In Private World",
         "Contacts.InContactsOnly": "In Contacts Only World",
         "Contacts.InHidden": "In Hidden World",
@@ -930,6 +936,9 @@
         "Importer.Image.Stereo180": "Stereo 180° photo",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.Image.Failure.Heading": "Failed to Import Image <color=hero.yellow>{image}</color>",
+        "Importer.Image.Failure.Description": "Failed to import the image due to the following:\n\n<color=hero.red>{error}</color>",
+        
         "Importer.LUT.Failure.Heading": "Failed to Import LUT <color=hero.yellow>{image}</color>",
         "Importer.LUT.Failure.Description": "Failed to import LUT due to the following:\n\n<color=hero.red>{error}</color>",
 
@@ -1239,7 +1248,7 @@
         "Settings.OnlineStatusSettings.RememberTimespan.Description" : "Your last online status will be remembered only if you log in again within this timeframe. If you take longer than this, you'll start with your default status instead.",
         "Settings.OnlineStatusSettings.InvisibleRememberMode" : "Remember last invisible status",
         "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "This controls how is your last status remembered specifically if you were last set to Invisible. Otherwise this functions the same.\n\nThe invisible status has a separate setting for privacy reasons, to ensure that if you were last set to invisible, you can ensure that you'll stay invisible at the next login even if your other statuses are not remembered.",
-        "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "Remember invisble status for",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "Remember invisible status for",
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "Your last invisible status will be remembered only if you log in again within this timeframe. If you take longer than this, you'll start with your default status instead.",
         "Settings.OnlineStatusSettings.AutoAwayTimespan" : "Switch to Away when idle for",
         "Settings.OnlineStatusSettings.AutoAwayTimespan.Description" : "When you are idle for this amount of time, your online status will automatically be switched to Away. Once you come back, it will automatically be set back to previous state, unless you set it to Away manually.",
@@ -1284,7 +1293,7 @@
         "Settings.GeneralControlsSettings.PrimaryHand": "Primary hand",
         "Settings.GeneralControlsSettings.PrimaryHand.Description": "Which hand is considered your primary. Various systems use this for interactions, e.g. when equipping tools.",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Double click interval",
-        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "For any interactions that require a double click, this controls the maximum time between the click that will be considered a double click. If you're having trouble triggering double click, increase the value. If single clicks are detected too easily, lower the value.",
+        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "For any interactions that require a double click, this controls the maximum time between the click that will be considered a double click. If you're having trouble triggering double click, decrease the value. If single clicks are detected too easily, raise the value.",
 
         "Settings.LocomotionSettings.LocomotionPreferences": "Locomotion Preferences",
         "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Locomotion Preferences",
@@ -1316,6 +1325,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType": "Default Hand Grab Type",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "This determines what your default grab mode for hands is when you spawn in new worlds.\n\n<color=hero.yellow>Palm:</color> You will grab all objects that are near your palm.\n\n<color=hero.yellow>Precision:</color> You will grab a single object between your index finger and thumb.\n\n<color=hero.yellow>Auto:</color> Mode is automatically switched between palm and precision depending on the orientation of your hand.\n\n<color=hero.yellow>Off:</color> You'll only be able to grab items with your lasers.",
 
+        "Settings.FullBodyTrackingSettings": "Full Body Tracking",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "Body Horizontal Angle",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description" : "This is the angle deviation between feet and head, beyond which you'll be considered in a horizontal pose. This affects certain things like overriding your tracker poses with feet simulation.",
+
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Thumbstick Looking Speed",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Use this to adjust the sensitivity of the speed at which the viewpoint is moved with the thumbstick.",
@@ -1346,7 +1359,7 @@
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Hand Position Smoothing",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Hand Rotation Smoothing",
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "When enabled, this controls how much is the hand position smoothed out. Typically this is helpful for users with tremors and other accessibility issues that cause jitter.",
-        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "When enabled, this controls how much is the hand rotation smoothed out. Typically this is helpful for users with tremors and other accessibility issues jitter.",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "When enabled, this controls how much is the hand rotation smoothed out. Typically this is helpful for users with tremors and other accessibility issues that cause jitter.",
 
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Feet Position Smoothing",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Feet Rotation Smoothing",
@@ -1373,13 +1386,16 @@
         "Settings.SteamIntegrationSettings": "Steam Integration",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Discord's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Discord.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Discord. Includes the world name and how many users are in the session.\n\nDiscord itself also does its own detection to display what game you are playing. This can be disabled in Discord's settings.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Controls what information {appName} sends to Discord's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Discord.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in {appName}.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Discord. Includes the world name and how many users are in the session.\n\nDiscord itself also does its own detection to display what game you are playing. This can be disabled in Discord's settings.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "Controls what information Resonite sends to Steam's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Steam.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in Resonite.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Steam. Includes the world name and how many users are in the session.\n\nSteam itself will display that you are playing Resonite regardless of this setting. Changing this setting only affects how much extra data is sent to Steam about your active session.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Controls what information {appName} sends to Steam's Rich Presence systems.\n\n<color=hero.yellow>None</color> - Do not send Rich Presence information to Steam.\n<color=hero.yellow>Basic</color> - Send only limited details such as your presence in {appName}.\n<color=hero.yellow>Full</color> - When in a public session, send all suitable session information to Steam. Includes the world name and how many users are in the session.\n\nSteam itself will display that you are playing {appName} regardless of this setting. Changing this setting only affects how much extra data is sent to Steam about your active session.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Save Screenshots",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "When you take a picture with this setting enabled, a copy will be saved to Steam screenshots.",
+
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Force Steam Voice when Remote Play is active",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "When enabled, this automatically forces the audio input to use Steam Voice when you play through Steam Remote Play. This helps so you don't need to switch automatically to use the forwarded microphone input.<br><br>Disabling this can be useful if you want to use your own audio device - e.g. external microphone.",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion hand tracking",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "When enabled, Leap Motion device will be used to track your hands and fingers when present.",
@@ -1505,6 +1521,11 @@
         "Settings.AudioInputDeviceSettings.DevicePriorities": "Configure Preferred Audio Input Devices",
         "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "Audio Input Devices",
         "Settings.AudioInputDeviceSettings.SetAsDefault": "Set As Default",
+        "Settings.AudioInputDeviceSettings.Testing.Header": "Test audio input",
+        "Settings.AudioInputDeviceSettings.Testing.Description": "You can use this to monitor and test the selected audio device to ensure it's working properly. Use the button to listen to the input, which will play the sound back at you.",
+        "Settings.AudioInputDeviceSettings.Testing.ListenToInput": "Listen to this input",
+        "Settings.AudioInputDeviceSettings.Testing.StopListeningToInput": "Stop listening",
+        "Settings.AudioInputDeviceSettings.Testing.Monitoring.Header": "Live audio monitoring",
 
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "Use System Default Output Device",
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Enable this to use the default system device for outputting audio. By disabling this, you can configure which audio device is used for outputting the audio below. This can be useful when you use different devices when toggling between VR and desktop.",
@@ -1547,7 +1568,7 @@
 
         "Settings.VoiceSettings": "Voice Settings",
         "Settings.VoiceSettings.MutePersistence": "Mute Persistence",
-        "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Start Unmuted:</color> When you log in, you will always start umuted.\n\n<color=hero.yellow>Started Muted:</color> When you log in, your voice will always start muted. You will either have to umute or press the \"push to talk\" key (V by default) to speak.\n\n<color=hero.yellow>Remember Last: </color> When you login, the status from the last time you logged out will be preserved.",
+        "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Start Unmuted:</color> When you log in, you will always start unmuted.\n\n<color=hero.yellow>Started Muted:</color> When you log in, your voice will always start muted. You will either have to unmute or press the \"push to talk\" key (V by default) to speak.\n\n<color=hero.yellow>Remember Last: </color> When you login, the status from the last time you logged out will be preserved.",
 
         "Settings.EarmuffSettings" : "Earmuff",
         "Settings.EarmuffSettings.EarmuffEnabled" : "Use Earmuff",
@@ -1569,6 +1590,8 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "This disables networking features specific to local networks, such as broadcasting your session on the local network or listening to other sessions broadcasted on this network.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Prefer Steam Networking Sockets",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "When enabled, you will connect via Steam Networking Sockets protocol if possible. This can help in some cases when LNL protocol results in significant queuing. However as this protocol is missing some features, you can run into more networking instability, so we recommend only enabling this once you ran into issues.",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "Prefer TCP",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "When enabled, connections over TCP are preferred over all other protocols. This mostly affects connections on LAN, as TCP is not used for connections over the internet by default.\n\nTCP can have better performance on LAN networks and work on certain networks where UDP based protocols won't work.\n\nHowever they can also suffer from \"head of line\" blocking, causing voices and poses to be significantly delayed.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL Window Size",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "This controls the LNL protocol window size for real time networking. Changing this setting will have an immediate effect in all active sessions.\n\nIf you experience any packet queuing, you can increase this value to improve the connection throughput. However, higher values can also destabilize the connection further, so be careful.\n\n<color=hero.yellow>Default Value:</color> 64\n\n<color=hero.red>IMPORTANT:</color> This setting is for diagnostics and a temporary workaround; this value will automatically adjust itself in the future.",
 
@@ -1582,11 +1605,11 @@
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "Allow HTTP requests",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests.Description": "This indicates if HTTP(s) requests are allowed for this host. These are typically REST API requests to communicate with a third party services.",
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Allow websockets",
-        "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "This indicates of realtime Websocket connections are allowed for this host. These are often used for more realtime bi-directional communications and data streams.",
+        "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "This indicates if realtime Websocket connections are allowed for this host. These are often used for more realtime bi-directional communications and data streams.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Allow OSC receiving",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "This indicates if Resonite can receive and process OSC data",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "This indicates if {appName} can receive and process OSC data",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Allow OSC sending",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "This controls if Resonite is allowed to send data via OSC protocol to given host",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "This controls if {appName} is allowed to send data via OSC protocol to given host",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Last hyperlink request reason",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Last websocket request reason",
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Last OSC Sender request reason",
@@ -1601,8 +1624,6 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Debug input bindings",
         "Settings.DebugSettings.DebugInputBindings.Description": "When enabled, you will see a debugging information for the input binding system. This is mostly useful for developers.",
-        "Settings.DebugSettings.FetchIncompatibleSessions": "Fetch incompatible sessions",
-        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "When enabled, you will see active sessions that are not compatible with your current client and that you are unable to join.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Double press grip to equip items",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "When enabled, you can equip tools and gadgets by pressing grip twice in rapid succession. This setting will likely get removed at some point.",
@@ -1610,6 +1631,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "When enabled, the app button on your non-primary hand will open a legacy world switch to switch between active worlds. This feature will be replaced in the future by a more flexible solution.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Use inventory & session gesture shortcut",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "When enabled, when you hold grip and press the App button (that normally opens/closes dash), it will open the legacy inventory or session menu.",
+
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Suppress Feet Simulation",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "This is to make certain features like posers that hijack feet proxies work, without having to modify them. <br><br>If you turn this on without using posers or similar features, the animations will NOT look correct. Turn this off after you're done using posers. <br><br><color=hero.red>IMPORTANT:</color> This will likely be removed at some point, we recommend upgrading posers to be compatible with the new system and automatically suppress the simulation when active.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Channel Name",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "This sets the default Twitch channel name for the Twitch Chat panel in the Camera Controls panel. This is mostly used by Twitch streamers who want to see their Twitch chat.",
@@ -1623,6 +1647,7 @@
         "Settings.LocaleSettings.UseImperialUnits.Description": "When enabled, editors for quantities (length/height, mass, volume...) will try to use imperial units instead of metric. Useful if you're from the US, UK, Liberia or Myanmar.",
         "Settings.LocaleSettings.AvailableLocales": "Select Locale",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Locales",
+        "Settings.LocaleSettings.AvailableLocales.SystemLocale": "Use System Language",
 
         "Settings.DashSettings.DashCurvature": "Curvature",
         "Settings.DashSettings.DashCurvature.Description": "This controls how curved the dash is when you are in VR. Setting it to 0 will make it completely flat.",
@@ -1695,7 +1720,7 @@
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Finger photo gesture",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "When enabled, you can quickly take pictures in world by posing your fingers to make a picture frame and then curling one of your index fingers.",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "Photo resolution",
-        "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "This sets what resolution will normal photos captures by the finger gesture or the desktop key shortcut be. Higher resolutions will take more time and storage to process, but give better detail.",
+        "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "This sets what resolution normal photos captured by the finger gesture or the desktop key shortcut will be. Higher resolutions will take more time and storage to process, but give better detail.",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution": "Timed photo resolution",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "Similar to normal resolution, you can set a separate resolution for photos captured with the timer feature. This can be useful if you use timer to capture group photos, which can benefit from higher resolution.",
         "Settings.PhotoCaptureSettings.TimerSeconds": "Timer duration",
@@ -1707,7 +1732,7 @@
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Photo inventory autosave path",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "When set, any photos you capture (or save with context menu) will be automatically saved to your in-game inventory. For example <color=hero.yellow>Photos/%year%/%month_name%</color>\n\nFollowing variables are available:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Capture Private UI",
-        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "When enabled, the quick photo capture will render your private UI such as the dash. This can be useful in case you want to show information show there.\n\nWe recommend turning this setting off once you're done, as leaving it on can lead to accidentally capturing and leaking your private information.",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "When enabled, the quick photo capture will render your private UI such as the dash. This can be useful in case you want to show information there.\n\nWe recommend turning this setting off once you're done, as leaving it on can lead to accidentally capturing and leaking your private information.",
         "Settings.PhotoCaptureSettings.EncodeFormat": "Encode Format",
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "The image file format which captured photos will be encoded into. If you need the photos to be in particular format, you can use this setting to select which one they'll be encoded in.\n\nPlease note that certain formats might lack some features (like alpha support), might encode significantly slower, have lower image quality or result in bigger files.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Always Hide Nameplates",
@@ -1715,8 +1740,12 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "Field of view",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Use this to control the field of view (FOV) when in desktop mode. Larger values will give you wider view at the cost of greater distortion on the sides.",
+
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Zoom FOV when sprinting",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "When this option is enabled, your FOV will be zoomed when you are sprinting in Desktop. Disable this setting to remove this effect.\n\nPlease note that this does <b>NOT</b> disable effects found in User Generated Content.",
+        
         "Settings.DesktopRenderSettings.VSync": "VSync",
-        "Settings.DesktopRenderSettings.VSync.Description": "When this option is enabled, the framerate will be synced with the refresh rate of your screen. Disabling this can render frames faster, but also cause visible tearing.\n\nThis can be useful when doing performance testing, as it will uncap the update and rendering speed.",
+        "Settings.DesktopRenderSettings.VSync.Description": "When this option is enabled, the framerate will be synced with the refresh rate of your screen. Disabling this can render frames faster, but it will also cause visible tearing.\n\nThis can be useful when doing performance testing as it will uncap the update and rendering speed.\n\n<color=hero.red>IMPORTANT:</color> This setting cannot be toggled while in VR since framerate is controlled by VR.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Limit framerate when in background",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "When enabled, the framerate will be limited to a set value when the application window is unfocused. This is useful if you use other programs and games at the same time, as it will free up more resources for them.",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "Maximum background framerate",
@@ -1908,6 +1937,7 @@
         "Inspector.Member.SetAllToY": "Set all to Y",
         "Inspector.Member.SetAllToZ": "Set all to Z",
         "Inspector.Member.SetAllToW": "Set all to W",
+        "Inspector.Member.Normalize": "Normalize",
         "Inspector.Member.BakeBlendshape": "Bake Blendshape",
         "Inspector.Member.RemoveBlendshape": "Remove Blendshape",
         "Inspector.Member.SplitBlendshape.X": "Split Blendshape across X",
@@ -2244,7 +2274,7 @@
         "VolumePlaneSlicer.Slicer": "Slice",
 
         "Tutorial.Welcome.Welcome": "Welcome!",
-        "Tutorial.Welcome.Description": "Dive into a brand new digital universe with infinite possibilities. Whether you come here to socialize and hang out with people around the world or to build, create and develop anything from beautiful art, interactive avatars and gadgets, to complex interactive worlds and games, Resonite is an endlessly customizable place where you'll be welcome and where you'll find a group to resonate with.<br><br>Before you start exploring, we'll first guide you through setting up some essentials, to ensure a smooth experience. When you're ready, click the button below",
+        "Tutorial.Welcome.Description": "Dive into a brand new digital universe with infinite possibilities. Whether you come here to socialize and hang out with people around the world or to build, create and develop anything from beautiful art, interactive avatars and gadgets, to complex interactive worlds and games, {appName} is an endlessly customizable place where you'll be welcome and where you'll find a group to resonate with.<br><br>Before you start exploring, we'll first guide you through setting up some essentials, to ensure a smooth experience. When you're ready, click the button below",
         "Tutorial.Welcome.Begin": "Let's begin!",
 
         "Tutorial.Welcome.AccountHeader": "{appName} account",

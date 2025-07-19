@@ -183,9 +183,11 @@
         "World.Connection.SyncingInitialState": "동기화가 진행중입니다.",
 
         "World.Connection.LNL.DirectIP": "LNL Direct IP",
+        "World.Connection.LNL.LNLPoke": "Requesting LNL Poke",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT Punchthrough {n}",
         "World.Connection.LNL.Relay": "LNL Relay",
         "World.Connection.SteamNetworkingSockets": "스팀 네트워크 소켓",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "접근이 거부되었습니다.",
         "World.Error.SecurityViolation": "보안 위반이 발생하였습니다.",
@@ -342,6 +344,7 @@
         "World.Filter.MinimumUsers": "최소 사용자 수: <b>{n}</b>",
         "World.Filter.MinimumContacts": "최소 친구 수: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "헤드리스(Headless) 호스트만",
+        "World.Filter.IncompatibleSessions": "비호환 세션만",
         "World.Filter.MaxAccessLevel": "최고 접근 권한:",
         "World.Filter.MinimumUptime": "최소 세션 시간:",
         "World.Filter.Sorting": "정렬형식",
@@ -595,7 +598,9 @@
         "Profile.Status.Invisible": "오프라인으로 표시",
         "Profile.Status.Offline": "오프라인",
         "Profile.Status.Headless": "헤드리스",
-
+        "Profile.Status.Bot": "<b>봇:</b> {version}",
+        "Profile.Status.ChatClient": "<b>채팅 클라이언트:</b> {version}",
+        
         "Session.Tab.Settings": "세션설정",
         "Session.Tab.Users": "사용자",
         "Session.Tab.Permissions": "세션권한",
@@ -644,6 +649,7 @@
         "Contacts.WriteMessage": "..메시지 작성..",
 
         "Contacts.InSession": "{name}에 있음",
+        "Contacts.NoSession": "세션 없음",
         "Contacts.InPrivate": "비공개 세션에 있음",
         "Contacts.InContactsOnly": "친구전용 세션에 있음",
         "Contacts.InHidden": "숨겨진 세션에 있음",
@@ -658,6 +664,7 @@
         "Contacts.SearchResult": "검색 결과",
         "Contacts.Bot": "봇 계정",
         "Contacts.Migrated": "연락처를 이전하지 않았습니다.",
+        "Contacts.IncompatibleSession" : "비호환 세션에 있음",
 
         "Notifications.IsSociable" : "대화 가능 상태가 되었습니다! 상대방과 대화 또는 초대해 보세요!",
         "Notifications.IsOnline": "온라인 상태가 되었습니다.",
@@ -929,6 +936,12 @@
         "Importer.Image.Stereo180": "스테레오 180도 사진",
         "Importer.Image.LUT": "색상보정시트(LUT)",
 
+        "Importer.Image.Failure.Heading": "이미지 가져오기 실패 <color=hero.yellow>{image}</color>",
+        "Importer.Image.Failure.Description": "이미지 가져오기 실패 사유:\n\n<color=hero.red>{error}</color>",
+        
+        "Importer.LUT.Failure.Heading": "LUT 가져오기 실패 <color=hero.yellow>{image}</color>",
+        "Importer.LUT.Failure.Description": "LUT 가져오기 실패 사유:\n\n<color=hero.red>{error}</color>",
+
         "Importer.ImageVideo.LayoutPrompt": "사용할 레이아웃을 선택하세요.",
         "Importer.ImageVideo.LayoutHorizontalLR": "양쪽으로 배치(LR)",
         "Importer.ImageVideo.LayoutHorizontalRL": "양쪽으로 배치(RL)",
@@ -1022,6 +1035,7 @@
         "Exporter.ExportAs": "내보낼 유형:",
         "Exporter.Export": "내보내기",
         "Exporter.Exporting": "내보내는 중...",
+        "Exporter.InvalidFileName": "파일 이름이 잘못되었습니다.",
 
         "Export.PackageExportable.Package": "레소나이트 패키지",
         "Export.PackageExportable.PackageWithVariants": "레소나이트 패키지 <size=75%>(베리언트 포함)</size>",
@@ -1311,6 +1325,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType" : "기본 잡기 모드",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description" : "새로운 월드에 참여할때 기본적으로 사용할 잡기모드를 설정합니다.\n\n<color=hero.yellow>Palm</color> : 손바닥 근처의 대상을 잡도록 합니다.\n\n<color=hero.yellow>Precision</color> : 검지와 엄지 손가락 사이에 있는 대상 한개를 잡습니다.\n\n<color=hero.yellow>Auto</color> : 손의 방향에 따라 손가락 또는 손바닥 기준으로 자동 전환됩니다.\n\n<color=hero.yellow>Off</color> : 지시선으로만 잡기가 가능합니다.",
 
+        "Settings.FullBodyTrackingSettings": "전신 추적(FBT)",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "수평각",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description" : "발과 머리 사이의 각도편차를 의미하며, 이를 넘어서면 수평상태인 것으로 간주합니다. 이것은 발의 시뮬레이션으로 트래커의 포즈를 재정의하는 것과 같은 특정한 항목에 영향을 미칩니다.",
+
         "Settings.GamepadSettings": "게임패드",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "아날로그 스틱 감도",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "시점 이동 속도(마우스 감도와 의미상 동일)를 조정합니다.",
@@ -1376,6 +1394,9 @@
         "Settings.SteamIntegrationSettings.SaveScreenshots": "스크린샷 저장",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "활성화 시, 게임내에서 촬영한 사진이 스팀 스크린샷에도 저장됩니다.",
 
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "원격 플레이시 스팀 보이스 강제 사용",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "활성화한 경우, 원격 플레이시 스팀 보이스가 음향입력 장치로 강제 설정됩니다. 이렇게 하면 원격 플레이 시 마이크 사용을 위해 직접 전환할 필요가 없어서 도움이 될것입니다.<br><br>이 기능을 비활성화 하여 원하는 장치를 선택할 수 있습니다.",
+        
         "Settings.LeapMotionSettings.LeapMotionEnabled": "립모션(Leap Motion) 손가락 추적",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "립모션 장치가 있는 상태에서 활성화하면 손가락 정보를 추적하는데 립모션을 이용합니다.",
         "Settings.LeapMotionSettings.Offset": "추적 보정치",
@@ -1500,7 +1521,12 @@
         "Settings.AudioInputDeviceSettings.DevicePriorities": "음향 입력 장치",
         "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "음향 입력 장치",
         "Settings.AudioInputDeviceSettings.SetAsDefault": "기본값으로 설정",
-
+        "Settings.AudioInputDeviceSettings.Testing.Header": "음향 입력 테스트",
+        "Settings.AudioInputDeviceSettings.Testing.Description": "이 기능을 사용하면 선택한 음향 장치를 모니터링하고 테스트하여 정상적으로 동작하는지 확인할 수 있습니다. 버튼을 누르면 음향이 재생됩니다.",
+        "Settings.AudioInputDeviceSettings.Testing.ListenToInput": "청음 시작",
+        "Settings.AudioInputDeviceSettings.Testing.StopListeningToInput": "청음 중단",
+        "Settings.AudioInputDeviceSettings.Testing.Monitoring.Header": "실시안 음향 모니터링",
+        
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "기본 출력장치 사용",
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "활성화한 경우 운영체제에서 제공하는 기본 출력장치를 사용하게 됩니다. 특정 장치를 사용하고자 하는 경우, 이를 비활성 하시고 <color=hero.yellow>음향 출력 장치</color>에 가서 우선순위를 조정하세요. VR/데스크탑 전환시 서로 다른 출력장치를 사용한다면 유용합니다.",
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "음향 출력 장치",
@@ -1564,6 +1590,10 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "활성화하면 지역망 내에서의 세션 브로드캐스팅이 양방향으로 모두 중단됩니다.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "스팀(Steam) 네트워킹 소켓을 우선적용",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "활성화되면 Steam 네트워킹 소켓 프로토콜을 우선하여 연결합니다. 이는 LNL 프로토콜로 인해 심각한 대기열이 발생하는 경우에 도움이 될 수 있습니다. 그러나 이 프로토콜에는 일부 기능이 누락되어있어 연결상태가 불안정해 질 수 있으므로, 문제가 있을 경우만 활성화 하는것을 추천드립니다.",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "TCP 우선",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "활성화 한 경우, TCP를 다른 프로토콜보다 우선적으로 선택하게 됩니다. TCP는 기본적으로 인터넷을 통한 연결에 사용되지 않으므로, 이 설정은 LAN 연결에 영향을 미칩니다.\n\nTCP는 LAN 환경에서 더 좋은 성능을 발휘할 수 있으며, UDP 기반 프로토콜이 동작하지 않는 특정한 네트워크 환경에서도 동작할 수 있습니다.\n\n그러나 \"head of line\" 차단으로 인해 음성 및 아바타의 동작등이 크게 지연될 수 있습니다.",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL 윈도우 사이즈",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "실시간 네트워킹을 위한 LNL 프토로콜의 통신 대역폭을 제어합니다. 모든 활성세션에 대해 즉시 반영됩니다.\n\n통신이 느릴경우 이 값을 늘려 처리량을 향상 시킬 수 있으나, 그만큼 연결이 불안정해 질 수도 있으니 주의하세요.\n\n<color=hero.yellow>기본값:</color> 64\n\n<color=hero.red>중요:</color> 이 설정은 문제진단 또는 일시적인 문제 해결을 위한 것입니다. 추후 자동으로 제어될 예정입니다.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "자산의 최대 동시 전송량",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "세션 호스팅 시 한 번에 전송할 자산의 수를 설정합니다. 높이면 그만큼 빠르게 다른 사용자들에게 전달이 가능하지만, 네트워크 품질이 저하됩니다. 네트워크 성능을 고려하여 적절한 값으로 조정하세요.",
@@ -1594,8 +1624,6 @@
 
         "Settings.DebugSettings.DebugInputBindings": "입력 바인딩 디버그",
         "Settings.DebugSettings.DebugInputBindings.Description": "활성화 시, 입력 바인딩 시스템에 대한 디버깅 정보가 표시됩니다. 이는 개발자에게 도움이 됩니다.",
-        "Settings.DebugSettings.FetchIncompatibleSessions": "호환되지 않는 세션 보이기",
-        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "활성화 시, 월드 탐색기에 버전이 다른 비호환 세션 목록도 표시됩니다. 비호환 세션은 참여가 불가합니다.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "더블 그립으로 장착하기",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "활성화 시, 잡기(Grab)를 빠르게 두번 수행하여 도구를 장착할 수 있습니다. 이 기능은 잠재적으로 삭제될 예정입니다.",
@@ -1603,6 +1631,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "활셩화 한 경우, <color=hero.yellow>주로 사용하는 손 방향</color>에서 설정한 방향의 반대쪽 컨트롤러의 대시 메뉴 호출 버튼을 누르면, 과거에 사용되던 월드 스위쳐가 나타납니다. 이는 향후 더 유연한 시스템으로 대체될 예정입니다.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "보관함 & 세션 제스쳐 사용",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "활성화 후, 컨트롤러에서 잡기 동작을 한 상태로 대시 메뉴 호출 버튼을 누르면 구 보관함 또는 세션 메뉴가 나타납니다.",
+
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "발(Feet) 시뮬레이션 억제",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "이것은 발(Feet) 프록시를 가로채는 Poser와 같은 특정한 기능을 별도의 수정없이 동작하도록 하기 위한 것입니다.<br><br>Poser 또는 유사한 기능을 사용하지 않은 상태에서 이 옵션을 활성화 하면 애니메이션이 올바르게 보이지 않습니다. Poser 사용을 마치면 이 기능을 꺼두세요.<br><br><color=hero.red>중요:</color> 이 옵션은 언젠가 삭제될 가능성이 높습니다. 그러므로, 새로운 시스템과 호환되도록 Poser를 수정하고 활성화시 시뮬레이션을 자동으로 억제토록 하는것이 좋습니다.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "트위치 체널명",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "<color=hero.yellow>카메라 제어</color> 화면의 트위치 채팅 화면 내 사용할 기본 채널명을 설정합니다. 트위치에 방송하면서 채팅을 보고자 하시면 유용하게 사용할 수 있습니다.",
@@ -1616,6 +1647,7 @@
         "Settings.LocaleSettings.UseImperialUnits.Description": "활성화하면 수량(길이/높이, 질량, 부피...) 편집기는 미터법 대신 영국식 단위를 우선시합니다. 사용자가 미국, 영국, 라이베리아, 미얀마 출신인 경우 유용한 설정입니다.",
         "Settings.LocaleSettings.AvailableLocales": "지원언어",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "사용 가능한 언어",
+        "Settings.LocaleSettings.AvailableLocales.SystemLocale": "시스템 언어 사용",
 
         "Settings.DashSettings.DashCurvature": "곡률",
         "Settings.DashSettings.DashCurvature.Description": "VR 상에서 대시 메뉴가 얼마나 휘어져야 하는지를 설정합니다. 0으로 설정하면 완벽하게 평면이 됩니다.",
@@ -1708,6 +1740,10 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "시야각(FOV)",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "데스크탑 모드에서의 시야(FOV)를 제어합니다. 값이 클수록 큰 왜곡과 넓은 시야를 제공합니다.",
+        
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "질주시 시야각 증가",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "이 옵션을 활성화한 경우, Resonite의 <b>데스크톱</b>모드에서 질주(달리기)시 FOV값이 증가합니다.\n효과를 제거하려면 비활성화 하세요.\n사용자가 직접 만들어 적용한 효과에는 적용되지 않습니다.",
+
         "Settings.DesktopRenderSettings.VSync": "수직 동기화(VSync)",
         "Settings.DesktopRenderSettings.VSync.Description": "이 옵션을 활성화하면 모니터의 주파수와 프레임 속도를 동기화 합니다. 이 기능을 비활성화하면 프레임을 더 빠르게 렌더링할 수 있지만 찢어지는 현상도 발생할 수 있습니다.\n\n이 기능은 업데이트 및 렌더링 속도 제한을 해제하므로 성능 테스트를 수행할 때 유용할 수 있습니다.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "백그라운드 최저 프레임 속도 제한",
@@ -1901,6 +1937,7 @@
         "Inspector.Member.SetAllToY": "모두 Y값으로 설정",
         "Inspector.Member.SetAllToZ": "모두 Z값으로 설정",
         "Inspector.Member.SetAllToW": "모두 W값으로 설정",
+        "Inspector.Member.Normalize": "정규화",
         "Inspector.Member.BakeBlendshape" : "블렌드셰이프 베이크",
         "Inspector.Member.RemoveBlendshape" : "블렌드셰이프 삭제",
         "Inspector.Member.SplitBlendshape.X" : "블렌드셰이프를 좌/우(X축)로 분리",

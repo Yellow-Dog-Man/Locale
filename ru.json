@@ -182,10 +182,12 @@
         "World.Connection.Connected": "Соединено",
         "World.Connection.SyncingInitialState": "Синхронизация с текущим состоянием мира",
 
-        "World.Connection.LNL.DirectIP": "LNL напрямую по IP",
+        "World.Connection.LNL.DirectIP": "LNL напрямую по IP<br><size=75%>{address}</size>",
+        "World.Connection.LNL.LNLPoke": "Запрашиваем LNL Poke",
         "World.Connection.LNL.NATPunchthrough": "LNL через NAT {n}",
         "World.Connection.LNL.Relay": "LNL ретранслятор",
         "World.Connection.SteamNetworkingSockets": "Сетевые сокеты Steam",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "Отказано в доступе",
         "World.Error.SecurityViolation": "Нарушение безопасности",
@@ -342,6 +344,7 @@
         "World.Filter.MinimumUsers": "Минимум пользователей: <b>{n}</b>",
         "World.Filter.MinimumContacts": "Минимум контактов: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "Только серверные хосты",
+        "World.Filter.IncompatibleSessions": "Несовместимые сессии",
         "World.Filter.MaxAccessLevel": "Максимальный уровень доступа:",
         "World.Filter.MinimumUptime": "Минимальное время работы:",
         "World.Filter.Sorting": "Сортировка:",
@@ -595,6 +598,8 @@
         "Profile.Status.Invisible": "Невидимый",
         "Profile.Status.Offline": "Оффлайн",
         "Profile.Status.Headless": "Сервер",
+        "Profile.Status.Bot": "<b>Бот:</b> {version}",
+        "Profile.Status.ChatClient": "<b>Мессенджер:</b> {version}",
 
         "Session.Tab.Settings": "Настройки",
         "Session.Tab.Users": "Пользователи",
@@ -644,6 +649,7 @@
         "Contacts.WriteMessage": "Напишите сообщение...",
 
         "Contacts.InSession": "В {name}",
+        "Contacts.NoSession": "Без сессии",
         "Contacts.InPrivate": "В приватном мире",
         "Contacts.InContactsOnly": "В мире только для контактов",
         "Contacts.InHidden": "В скрытом мире",
@@ -658,6 +664,7 @@
         "Contacts.SearchResult": "Результат поиска",
         "Contacts.Bot": "Бот",
         "Contacts.Migrated": "Контакт не мигрировал",
+        "Contacts.IncompatibleSession" : "Несовместимая сессия",
 
         "Notifications.IsSociable" : "Общительный(-ая), можно поговорить или пригласить!",
         "Notifications.IsOnline": "Сейчас Онлайн",
@@ -929,6 +936,12 @@
         "Importer.Image.Stereo180": "Стерео 180 Фото",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.Image.Failure.Heading": "Ошибка импорта изображения <color=hero.yellow>{image}</color>",
+        "Importer.Image.Failure.Description": "Не получилось импортировать изображение из-за:\n\n<color=hero.red>{error}</color>",
+
+        "Importer.LUT.Failure.Heading": "Ошибка импорта LUT <color=hero.yellow>{image}</color>",
+        "Importer.LUT.Failure.Description": "Не получилось импортировать LUT из-за:\n\n<color=hero.red>{error}</color>",
+
         "Importer.ImageVideo.LayoutPrompt": "Какую раскладку использует?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Бок о бок левый-правый",
         "Importer.ImageVideo.LayoutHorizontalRL": "Бок о бок правый-левый",
@@ -1022,6 +1035,7 @@
         "Exporter.ExportAs": "Экспортировать как:",
         "Exporter.Export": "Экспорт",
         "Exporter.Exporting": "Идет экспорт...",
+        "Exporter.InvalidFileName": "Недопустимое имя файла",
 
         "Export.PackageExportable.Package": "Пакет Resonite",
         "Export.PackageExportable.PackageWithVariants": "Пакет Resonite <size=75%>(+варианты ассетов)</size>",
@@ -1279,7 +1293,7 @@
         "Settings.GeneralControlsSettings.PrimaryHand": "Основная рука",
         "Settings.GeneralControlsSettings.PrimaryHand.Description": "Какой рукой вы в основном пользуетесь. Различные системы используют эту настройку для взаимодействий, например для экипировки инструментов.",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Интервал двойного щелчка",
-        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Для любого взаимодействия, требующего двойного щелчка, эта настройка задает время между щелчками, которое будет считаться двойным щелчком. Если у вас не получается сделать двойной щелчок, увеличьте значение. Если одиночные щелчки срабатывают как двойные - уменьшите.",
+        "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Для любого взаимодействия, требующего двойного щелчка, эта настройка задает время между щелчками, которое будет считаться двойным щелчком. Если у вас не получается сделать двойной щелчок, уменьшите значение. Если одиночные щелчки срабатывают как двойные - увеличьте.",
 
         "Settings.LocomotionSettings.LocomotionPreferences": "Настройки перемещения",
         "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Настройки перемещения",
@@ -1310,6 +1324,10 @@
         "Settings.GrabbingSettings": "Настройки хвата",
         "Settings.GrabbingSettings.DefaultHandGrabType": "Тип хвата по умолчанию",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Задает ваш режим хвата по умолчанию когда вы заходите в новые миры.\n\n<color=hero.yellow>Palm:</color> Вы будете хватать все объекты, находящиеся рядом с вашей рукой.\n\n<color=hero.yellow>Precision:</color> Вы будете хватать один объект, находящийся между вашими указательным и большим пальцами.\n\n<color=hero.yellow>Auto:</color> Режим автоматически переключается между хватом ладонью и точным хватом в зависимости от ориентации вашей руки.\n\n<color=hero.yellow>Off:</color> Вы сможете хватать предметы только с помощью лазеров.",
+
+        "Settings.FullBodyTrackingSettings": "Трекинг тела",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "Угол горизонтального положения тела",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description" : "Это угол между положениями головы и ног, за пределами которого трекинг будет считать, что вы в горизонтальном положении. Это влияет на некоторые вещи, например отключает симуляцию шагов для ваших ног.",
 
         "Settings.GamepadSettings": "Геймпад",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Скорость поворота камеры",
@@ -1368,13 +1386,16 @@
         "Settings.SteamIntegrationSettings": "Интеграция со Steam",
 
         "Settings.DiscordIntegrationSettings.RichPresence": "Богатое присутствие Discord",
-        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Задает, какую информацию Resonite передает в систему богатого присутствия Discord.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Discord.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в Resonite.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Discord. Включает название мира и количество пользователей в сессии.\n\nDiscord сам также определяет в какую игру вы играете. Это можно отключить в настройках Discord.",
+        "Settings.DiscordIntegrationSettings.RichPresence.Description": "Задает, какую информацию {appName} передает в систему богатого присутствия Discord.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Discord.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в {appName}.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Discord. Включает название мира и количество пользователей в сессии.\n\nDiscord сам также определяет в какую игру вы играете. Это можно отключить в настройках Discord.",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Богатое присутствие Steam",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "Задает, какую информацию Resonite передает в систему богатого присутствия Steam.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Steam.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в Resonite.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Steam. Включает название мира и количество пользователей в сессии.\n\nSteam сам также будет отображать что вы в Resonite, независимо от этой настройки. Изменение этой настройки только задает сколько дополнительных сведений о вашей активной сессии отправляются в Steam.",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "Задает, какую информацию {appName} передает в систему богатого присутствия Steam.\n\n<color=hero.yellow>None</color> - Не отправлять информацию богатого присутствия в Steam.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в {appName}.\n<color=hero.yellow>Full</color> - Когда вы в публичной сесии, отправляет всю подходящую информацию в Steam. Включает название мира и количество пользователей в сессии.\n\nSteam сам также будет отображать что вы в {appName}, независимо от этой настройки. Изменение этой настройки только задает сколько дополнительных сведений о вашей активной сессии отправляются в Steam.",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Сохранять скриншоты",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Если вы снимаете фото и эта настройка включена, копия фото будет сохранена в скриншоты Steam.",
+
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Использовать Steam Voice когда активен Remote Play",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "Когда включено, автоматически заставляет аудио ввод использовать Steam Voice когда вы играете через Steam Remote Play. Это позволяет не использовать автоматическое переключение чтобы работать со встроенным микрофоном шлема.<br><br>Отключение этой настройки может быть полезно если вы используете другое устройство захвата, например внешний микрофон.",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Трекинг рук Leap Motion",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Когда включен, устройство Leap Motion, если подключено, будет использоваться для отслеживания ваших рук и пальцев.",
@@ -1500,6 +1521,11 @@
         "Settings.AudioInputDeviceSettings.DevicePriorities": "Устройства аудио ввода",
         "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "Устройства аудио ввода",
         "Settings.AudioInputDeviceSettings.SetAsDefault": "Установить по умолчанию",
+        "Settings.AudioInputDeviceSettings.Testing.Header": "Протестировать аудио ввод",
+        "Settings.AudioInputDeviceSettings.Testing.Description": "Вы можете протестировать выбранное аудио устройство чтобы убедиться, что оно работает правильно. Нажмите кнопку, и звук с устройства аудио ввода начнет проигрываться через устройство аудио вывода.",
+        "Settings.AudioInputDeviceSettings.Testing.ListenToInput": "Слушать этот ввод",
+        "Settings.AudioInputDeviceSettings.Testing.StopListeningToInput": "Перестать слушать",
+        "Settings.AudioInputDeviceSettings.Testing.Monitoring.Header": "Живой мониторинг аудио",
 
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "Использовать системное устройство вывода по умолчанию",
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Включите чтобы автоматически использовать устройство вывода, которое вы выбрали как устройство по умолчанию в системных настройках. Если вам нужно использовать устройство, отличное от устройства по умолчанию, выключите эту настройку и выберите устройство в настройках ниже. Это может быть полезно если вы используете разные устройства при переключении между VR и экранным режимом.",
@@ -1564,6 +1590,10 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Выключает функциональности локальной сети, такие как широковещательное объявление вашей сессии в локальной сети или обнаружение сессий других пользователей в этой локальной сети.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Приоритет Steam Networking Sockets",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Кагда включено, вы будете подключаться через протокол Steam Networking Sockets, если возможно. Может помочь в некоторых случаях, когда использование протокола LNL приводит к больщим задержкам и отставанию. Но, так как этот протокол поддерживает не всю функциональность, вы можете столкнуться с еще большей нестабильностью сети, поэтому рекомендуем использовать эту настройку только когда вы уже имеете проблемы с сетью.",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "Предпочитать TCP",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Когда включено, подключение через TCP будет в приоритете перед остальными протоколами. Это в основном влияет на подключения по локальной сети, так как TCP по умолчанию не используется для подключений через интернет.\n\nTCP может дать преимущество в скорости в локальных сетях, а также будет работать в некоторых окружениях, где протоколы на базе UDP не будут работать.\n\nС другой стороны, TCP подвержен блокировке пакетов \"head of line\", из-за чего голоса и позы могут приходить с ощутимой задержкой.",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "Размер окна LNL",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Задает размер окна LNL протокола для сетевых передач реального времени. Изменение этой настройко применяется моментально во всех активных сессиях.\n\nЕсли вы сталкиваетесь с очередью пакетов, вы можете увеличить это значение чтобы повысить пропускнуд способность. С другой стороны, большие значения могут еще сильнее дестабилизировать работу сети, так что будьте аккуратны.\n\n<color=hero.yellow>Значение по умолчанию:</color> 64\n\n<color=hero.red>ВАЖНО:</color> Эта настройка предназначена для диагностики и как временная мера; это значение будет подстраиваться автоматически в будущем.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Максимальное количество одновременных передач ассетов",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "Когда вы являетесь хостом сессии, эта настройка определяет, сколько локально импортированных ассетов будет передаваться в каждый момент времени. Увеличение может сделать передачу ассетов другим пользователям ьыстрее, но также может ухудшить качество сетевого соединения. Рекомендует протестировать, какие значения оптимальны для вашей сети.",
@@ -1577,9 +1607,9 @@
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Разрешить WebSockets",
         "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Показывает, разрешены ли соединения Websocket с этим хостом. Они часто используются для двухстороннего обмена информацией в реальном времени и потоков данных.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Разрешить получение OSC",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Показывает, может ли Resonite получать и обрабатывать данные OSC от этого хоста",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Показывает, может ли {appName} получать и обрабатывать данные OSC от этого хоста",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Разрешить отправку OSC",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Показывает, может ли Resonite отправлять данные OSC на этот хост",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Показывает, может ли {appName} отправлять данные OSC на этот хост",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Последний повод запроса HTTP",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Последний повод запроса WebSockets",
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Последний повод запроса отправки OSC",
@@ -1594,8 +1624,6 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Отладка привязок ввода",
         "Settings.DebugSettings.DebugInputBindings.Description": "Когда включено, будет показана информация для системы привязок ввода. В осномном это полезно для разработчиков.",
-        "Settings.DebugSettings.FetchIncompatibleSessions": "Получить несовместимые сессии",
-        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "Когда включено, вы увидите активные сессии, которые несовместимы с вашим клиентом и к которым вы из-за этого не сможете подключиться.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Дважды нажать хват для экипировки",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Когда включено, вы можете экипировать инструменты и гаджеты быстрым двойным нажатием хвата. Эта настройка, скорее всего, когда-нибудт будет убрана.",
@@ -1603,6 +1631,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Когда включено, кнопка приложения на вашей не-основной руке откроет старый переключатель миров. Это решение в будущем будет заменено более гибким.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Использовать старый жест инвентаря или меню сессий",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Когда включено, если вы зажмете хват и нажмете кнопку приложения (которая обычно открывает/закрывает Дэшборд), откроется старая панель инвентаря или меню сессий.",
+
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Отключить симуляцию ног",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Это нужно чтобы некоторые системы, типа позеров, подменяющих позиции прокси ног, работали без модицикации. <br><br>Если вы включите эту настройку без использования позеров или похожих систем, анимации НЕ будут выглядеть правильно. Выключите настройку после того, как закончили использовать позеры. <br><br><color=hero.red>ВАЖНО:</color> Эта настройка, скорее всего, будет убрана в будущем. Мы рекомендуем обновить позеры для совместимости с новой системой анимации, чтобы они автоматически отключали анимацию в активном состоянии.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Название канала Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Устанавливает имя канала Twitch по умолчанию для панели чата Twitch в панели настроек камеры. В основном используется стримерами на Twitch, которые хотят видеть чат на их канале.",
@@ -1616,6 +1647,7 @@
         "Settings.LocaleSettings.UseImperialUnits.Description": "Когда включено, редакторы для количеств (длина/высота, масса, объем...) будут использовать имперские единицв вместо метрических. Полезно если вы из США, Великобритании, Либерии или Мьянмы.",
         "Settings.LocaleSettings.AvailableLocales": "Выберите локаль",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Локали",
+        "Settings.LocaleSettings.AvailableLocales.SystemLocale": "Использовать язык операционной системы",
 
         "Settings.DashSettings.DashCurvature": "Изгиб",
         "Settings.DashSettings.DashCurvature.Description": "Эта настройка определяет изгиб дэшборда в VR. Установите в 0 чтобы сделать его полностью плоским.",
@@ -1708,8 +1740,12 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "Угол зрения",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Используйте чтобы задать угол зрения камеры (FOV) в экранном режиме. Большие значения дают лучший обзор, но приводят к искажениям по краям.",
+
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Сужать угол зрения при беге",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Когда эта настройка включена, ваш угол зрения будет сужаться когда вы перемещаетесь бегом в <b>экранном</b> режиме.\nОтключите настройку чтобы убрать этот эффект.\n<b>НЕ</b> влияет на эффекты из пользовательского контента.",
+
         "Settings.DesktopRenderSettings.VSync": "VSync",
-        "Settings.DesktopRenderSettings.VSync.Description": "Когда включено, частота кадров будет синхронизирована с частотой обновления вашего монитора. Отключение может позволить рендерить кадры быстрее, но также приведет к разрывам картинки.\n\nМожет быть полезно для тестирования производительности, так как снимет ограничение со скорости обновлений и рендеринга.",
+        "Settings.DesktopRenderSettings.VSync.Description": "Когда включено, частота кадров будет синхронизирована с частотой обновления вашего монитора. Отключение может позволить рендерить кадры быстрее, но также приведет к разрывам картинки.\n\nМожет быть полезно для тестирования производительности, так как снимет ограничение со скорости обновлений и рендеринга.\n\n<color=hero.red>ВАЖНО:</color> Эту настройку нельзя включить в VR, так как VR задает частоту кадров.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Ограничить частоту кадров в фоне",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "Когда включено, частота кадров будет ограничена до заданного значения когда окно приложения не в фокусе. Это полезно если вы одновременно используете другие программы и игры, так как освободит больше ресурсов для них.",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "Максимальная частота кадров в фоне",
@@ -1901,6 +1937,7 @@
         "Inspector.Member.SetAllToY": "Установить все к Y",
         "Inspector.Member.SetAllToZ": "Установить все к Z",
         "Inspector.Member.SetAllToW": "Установить все к W",
+        "Inspector.Member.Normalize": "Нормализовать",
         "Inspector.Member.BakeBlendshape": "Запечь blendshape",
         "Inspector.Member.RemoveBlendshape": "Убрать blendshape",
         "Inspector.Member.SplitBlendshape.X": "Разделить blendshape по оси X",
@@ -2237,7 +2274,7 @@
         "VolumePlaneSlicer.Slicer": "Срез",
 
         "Tutorial.Welcome.Welcome": "Добро пожаловать!",
-        "Tutorial.Welcome.Description": "Окунитесь в новую цифровую вселенную, наполненную бесконечными возможностями. Неважно, пришли вы сюда чтобы общаться с людьми со всего света или чтобы строить, создавать и разрабатывать что-либо, будь то прекрасное искусство, интерактивные аватары и гаджеты, сложные интерактивные миры и игры, Resonite это бесконечное, настраиваемое место, где вам всегда рады, и где вы всегда найдете группу, с которой вы сможете <i>резонировать</i>.<br><br>Перед тем как вы начнете своё приключение, мы проведем вас через настройку основных элементов, чтобы обеспечить вас приятным опытом. Когда будете готовы, нажмите на кнопку ниже.",
+        "Tutorial.Welcome.Description": "Окунитесь в новую цифровую вселенную, наполненную бесконечными возможностями. Неважно, пришли вы сюда чтобы общаться с людьми со всего света или чтобы строить, создавать и разрабатывать что-либо, будь то прекрасное искусство, интерактивные аватары и гаджеты, сложные интерактивные миры и игры, {appName} это бесконечное, настраиваемое место, где вам всегда рады, и где вы всегда найдете группу, с которой вы сможете <i>резонировать</i>.<br><br>Перед тем как вы начнете своё приключение, мы проведем вас через настройку основных элементов, чтобы обеспечить вас приятным опытом. Когда будете готовы, нажмите на кнопку ниже.",
         "Tutorial.Welcome.Begin": "Поехали!",
 
         "Tutorial.Welcome.AccountHeader": "Аккаунт {appName}",

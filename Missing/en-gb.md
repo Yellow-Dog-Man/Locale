@@ -159,9 +159,11 @@ World.Connection.Authenticating
 World.Connection.Connected  
 World.Connection.SyncingInitialState  
 World.Connection.LNL.DirectIP  
+World.Connection.LNL.LNLPoke  
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
+World.Connection.TCP  
 World.Error.AccessDenied  
 World.Error.SecurityViolation  
 World.Error.OnlyRegisteredUsers  
@@ -305,6 +307,7 @@ World.Filter.SessionFiltering
 World.Filter.MinimumUsers  
 World.Filter.MinimumContacts  
 World.Filter.OnlyHeadless  
+World.Filter.IncompatibleSessions  
 World.Filter.MaxAccessLevel  
 World.Filter.MinimumUptime  
 World.Filter.Sorting  
@@ -506,6 +509,8 @@ Profile.Status.Busy
 Profile.Status.Invisible  
 Profile.Status.Offline  
 Profile.Status.Headless  
+Profile.Status.Bot  
+Profile.Status.ChatClient  
 Session.Tab.Settings  
 Session.Tab.Users  
 Session.Tab.Permissions  
@@ -548,6 +553,7 @@ Contacts.SelfAccount
 Contacts.SearchPrompt  
 Contacts.WriteMessage  
 Contacts.InSession  
+Contacts.NoSession  
 Contacts.InPrivate  
 Contacts.InContactsOnly  
 Contacts.InHidden  
@@ -782,6 +788,8 @@ Importer.Image.Stereo360
 Importer.Image.180  
 Importer.Image.Stereo180  
 Importer.Image.LUT  
+Importer.Image.Failure.Heading  
+Importer.Image.Failure.Description  
 Importer.LUT.Failure.Heading  
 Importer.LUT.Failure.Description  
 Importer.ImageVideo.LayoutPrompt  
@@ -1108,6 +1116,9 @@ Settings.MovementSettings.MovementExponent.Description
 Settings.GrabbingSettings  
 Settings.GrabbingSettings.DefaultHandGrabType  
 Settings.GrabbingSettings.DefaultHandGrabType.Description  
+Settings.FullBodyTrackingSettings  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
+Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.GamepadSettings  
 Settings.GamepadSettings.ThumbstickLookSpeed  
 Settings.GamepadSettings.ThumbstickLookSpeed.Description  
@@ -1159,6 +1170,8 @@ Settings.SteamIntegrationSettings.RichPresence
 Settings.SteamIntegrationSettings.RichPresence.Description  
 Settings.SteamIntegrationSettings.SaveScreenshots  
 Settings.SteamIntegrationSettings.SaveScreenshots.Description  
+Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay  
+Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description  
 Settings.LeapMotionSettings.LeapMotionEnabled  
 Settings.LeapMotionSettings.LeapMotionEnabled.Description  
 Settings.LeapMotionSettings.Offset  
@@ -1267,6 +1280,11 @@ Settings.AudioInputDeviceSettings.UseSystemDefault.Description
 Settings.AudioInputDeviceSettings.DevicePriorities  
 Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb  
 Settings.AudioInputDeviceSettings.SetAsDefault  
+Settings.AudioInputDeviceSettings.Testing.Header  
+Settings.AudioInputDeviceSettings.Testing.Description  
+Settings.AudioInputDeviceSettings.Testing.ListenToInput  
+Settings.AudioInputDeviceSettings.Testing.StopListeningToInput  
+Settings.AudioInputDeviceSettings.Testing.Monitoring.Header  
 Settings.AudioOutputDeviceSettings.UseSystemDefault  
 Settings.AudioOutputDeviceSettings.UseSystemDefault.Description  
 Settings.AudioOutputDeviceSettings.DevicePriorities  
@@ -1320,6 +1338,8 @@ Settings.RealtimeNetworkingSettings.DisableLAN
 Settings.RealtimeNetworkingSettings.DisableLAN.Description  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking  
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
+Settings.RealtimeNetworkingSettings.PreferTCP  
+Settings.RealtimeNetworkingSettings.PreferTCP.Description  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers  
@@ -1347,14 +1367,14 @@ Settings.WindowsSettings.KeepOriginalScreenshotFormat
 Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description  
 Settings.DebugSettings.DebugInputBindings  
 Settings.DebugSettings.DebugInputBindings.Description  
-Settings.DebugSettings.FetchIncompatibleSessions  
-Settings.DebugSettings.FetchIncompatibleSessions.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts  
 Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation  
+Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.TwitchInterfaceSettings.ChannelName  
 Settings.TwitchInterfaceSettings.ChannelName.Description  
 Settings.MessagingPrivacySettings.DoNotSendReadStatus  
@@ -1365,6 +1385,7 @@ Settings.LocaleSettings.UseImperialUnits
 Settings.LocaleSettings.UseImperialUnits.Description  
 Settings.LocaleSettings.AvailableLocales  
 Settings.LocaleSettings.AvailableLocales.Breadcrumb  
+Settings.LocaleSettings.AvailableLocales.SystemLocale  
 Settings.DashSettings.DashCurvature  
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
@@ -1448,6 +1469,8 @@ Settings.PhotoCaptureSettings.AlwaysHideNameplates
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
+Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description  
 Settings.DesktopRenderSettings.VSync  
 Settings.DesktopRenderSettings.VSync.Description  
 Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused  
@@ -1613,6 +1636,7 @@ Inspector.Member.SetAllToX
 Inspector.Member.SetAllToY  
 Inspector.Member.SetAllToZ  
 Inspector.Member.SetAllToW  
+Inspector.Member.Normalize  
 Inspector.Member.BakeBlendshape  
 Inspector.Member.RemoveBlendshape  
 Inspector.Member.SplitBlendshape.X  
@@ -2122,8 +2146,6 @@ CloudHome.Panel.ReadingLounge
 CloudHome.Panel.Lounge  
 CloudHome.Panel.Center  
 CloudHome.Panel.Balcony  
-CloudHome.Panel.Theater  
-CloudHome.Panel.TheaterControl  
 CloudHome.Panel.FanControl  
 CloudHome.Panel.WindowControl  
 CloudHome.Panel.FanSpeed  
@@ -2194,7 +2216,6 @@ UI.VideoPlayer.SpatialAudio
 UI.VideoPlayer.AreaBroadcast  
 UI.VideoPlayer.BroadcastAudio  
 UI.VideoPlayer.EnterURL  
-UI.VideoPlayer.AudioZoneTheater  
 UI.VideoPlayer.AudioZoneGlobal  
 UI.VideoPlayer.UsersLoaded  
 UI.VideoPlayer.AllUsersLoaded  

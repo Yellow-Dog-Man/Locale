@@ -182,10 +182,12 @@
         "World.Connection.Connected": "连接成功",
         "World.Connection.SyncingInitialState": "同步初始世界状态",
 
-        "World.Connection.LNL.DirectIP": "LNL IP 直连",
+        "World.Connection.LNL.DirectIP": "LNL IP 直连<br><size=75%>{address}</size>",
+        "World.Connection.LNL.LNLPoke": "、正在请求 LNL 探测连接",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT 穿透 {n}",
         "World.Connection.LNL.Relay": "LNL 中继",
         "World.Connection.SteamNetworkingSockets": "Steam 网络通讯",
+        "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "拒绝访问",
         "World.Error.SecurityViolation": "发生安全违例",
@@ -342,6 +344,7 @@
         "World.Filter.MinimumUsers": "最低人数: <b>{n}</b>",
         "World.Filter.MinimumContacts": "最低好友数: <b>{n}</b>",
         "World.Filter.OnlyHeadless": "仅云端主机",
+        "World.Filter.IncompatibleSessions": "不兼容的会话",
         "World.Filter.MaxAccessLevel": "最大访问权限级别:",
         "World.Filter.MinimumUptime": "最小运行时间:",
         "World.Filter.Sorting": "排序:",
@@ -356,7 +359,7 @@
         "World.Edit.AccessPatreon": "Patreon的支持者",
         "World.Edit.AccessPublic": "任何人（公开）",
 
-        "Tools.AvatarCreator": "虚拟形象创建器",
+        "Tools.AvatarCreator": "虚拟形象创建工具",
         "Tools.FullBodyCalibrator": "全身/虚拟形象校准器",
         "Tools.CameraStreaming": "相机/流媒体",
         "Tools.CreateNewWorld": "创建新世界",
@@ -595,6 +598,8 @@
         "Profile.Status.Invisible": "隐身",
         "Profile.Status.Offline": "离线",
         "Profile.Status.Headless": "云端主机",
+        "Profile.Status.Bot": "<b>机器人：</b> {version}",
+        "Profile.Status.ChatClient": "<b>聊天客户端：</b> {version}",
 
         "Session.Tab.Settings": "设定",
         "Session.Tab.Users": "用户",
@@ -644,6 +649,7 @@
         "Contacts.WriteMessage": "编写消息...",
 
         "Contacts.InSession": "在 {name}",
+        "Contacts.NoSession": "无会话",
         "Contacts.InPrivate": "在私人世界",
         "Contacts.InContactsOnly": "在仅限好友的世界",
         "Contacts.InHidden": "在隐藏的世界",
@@ -658,6 +664,7 @@
         "Contacts.SearchResult": "搜索结果",
         "Contacts.Bot": "Bot帐户",
         "Contacts.Migrated": "好友未迁移",
+        "Contacts.IncompatibleSession" : "不兼容的会话",
 
         "Notifications.IsSociable" : "有社交意愿， 叫一下或者邀请他们！",
         "Notifications.IsOnline": "上线了",
@@ -929,6 +936,12 @@
         "Importer.Image.Stereo180": "立体180度照片",
         "Importer.Image.LUT": "LUT",
 
+        "Importer.Image.Failure.Heading": "导入图片 <color=hero.yellow>{image}</color> 失败",
+        "Importer.Image.Failure.Description": "导入图片失败， 发生以下错误：\n\n<color=hero.red>{error}</color>",
+
+        "Importer.LUT.Failure.Heading": "导入 LUT <color=hero.yellow>{image}</color> 失败",
+        "Importer.LUT.Failure.Description": "导入 LUT 失败， 发生以下错误：\n\n<color=hero.red>{error}</color>",
+
         "Importer.ImageVideo.LayoutPrompt": "它使用什么布局？",
         "Importer.ImageVideo.LayoutHorizontalLR": "并排 LR",
         "Importer.ImageVideo.LayoutHorizontalRL": "并排 RL",
@@ -1022,6 +1035,7 @@
         "Exporter.ExportAs": "导出为：",
         "Exporter.Export": "导出",
         "Exporter.Exporting": "导出中...",
+        "Exporter.InvalidFileName": "无效的文件名",
 
         "Export.PackageExportable.Package": "Resonite 包文件",
         "Export.PackageExportable.PackageWithVariants": "Resonite 包文件 <size=50%>(+变量)</size>",
@@ -1236,7 +1250,7 @@
         "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "如果你上次被设置为隐身，该设置将控制如何记住你上次的状态。出于隐私原因，隐身状态有一个单独的设置，以确保如果你上次被设置为隐身，即使你的其他状态没有被记住，你也可以确保下次登录时保持隐身状态。",
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "在指定时间内记住隐身状态",
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "只有当你在这段时间内再次登录时，你上次的隐身状态才会被记住。如果超过这个时间，你将从默认状态开始。",
-        "Settings.OnlineStatusSettings.AutoAwayTimespan" : "在挂机到指定事件后设置为离开",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan" : "在挂机到指定时间后设置为离开",
         "Settings.OnlineStatusSettings.AutoAwayTimespan.Description" : "当你挂机时长达到这个时间后，你的在线状态将自动切换为离开。一旦你回来，就会自动设置回之前的状态，除非你手动设置为离开。",
 
         "Settings.AudioInputDeviceSettings": "音频输入",
@@ -1311,6 +1325,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType" : "默认抓取模式",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description" : "这将决定你在进入新世界时双手的默认抓取模式。\n\n<color=hero.yellow>手掌：</color> 你会抓住所有靠近你手掌的物体。\n\n<color=hero.yellow>精确：</color> 你要用食指和拇指抓住一个物体。\n\n<color=hero.yellow>自动：</color> 模式会根据手的方向在手掌和精确度之间自动切换。\n\n<color=hero.yellow>关闭：</color> 你只能用激光抓取物品。",
 
+        "Settings.FullBodyTrackingSettings": "全身追踪",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "身体水平角度",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description" : "这是脚部和头部之间的角度偏差，超过这个角度就会被认为是水平姿势。这会影响某些事情，比如用脚模拟覆盖追踪器的姿势。",
+
         "Settings.GamepadSettings": "手柄",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "摇杆观察速度",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "用它来调整拇指摇杆移动视角速度的灵敏度。",
@@ -1375,6 +1393,9 @@
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "保存截图",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "启用此设置后，您拍摄的照片副本将保存到 Steam 屏幕截图中。",
+
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "启动远程畅玩的时候强行使用 Steam Voice",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "启用后，当你使用 Steam 远程畅玩，它会自动强制音频输入使用 Steam 语音。 这有助于你无需自动切换即可使用转发的麦克风。<br><br>如果你想使用自己的音频设备（如外接麦克风），禁用此功能会很有用。",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "启用手部追踪",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "启用后，运动追踪器将用来追踪你的手和手指。",
@@ -1500,6 +1521,11 @@
         "Settings.AudioInputDeviceSettings.DevicePriorities": "配置默认音频输入设备",
         "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "配置音频输入设备",
         "Settings.AudioInputDeviceSettings.SetAsDefault": "设为默认",
+        "Settings.AudioInputDeviceSettings.Testing.Header": "测试音频输入设备",
+        "Settings.AudioInputDeviceSettings.Testing.Description": "你可以用它来监控和测试所选的音频设备，确保其工作正常。使用该按钮聆听输入，会向你回放声音。",
+        "Settings.AudioInputDeviceSettings.Testing.ListenToInput": "聆听输入内容",
+        "Settings.AudioInputDeviceSettings.Testing.StopListeningToInput": "停止聆听",
+        "Settings.AudioInputDeviceSettings.Testing.Monitoring.Header": "现场音频监听",
 
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "使用系统默认音频输出设备",
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "启用此选项可使用默认音频设备输出音频。禁用此选项后，你可以配置使用哪个音频设备来输出下面的音频。在 VR模式和桌面模式之间切换时，如果使用不同的设备，这将非常有用。",
@@ -1564,8 +1590,10 @@
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "这将禁用本地网络特有的联网功能，例如在本地网络上广播会话或监听本网络上广播的其他会话。",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "尽可能通过 Steam 网络通信",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "启用后，你将尽可能通过 Steam 网络通信协议进行连接。在某些情况下，例如当 LNL 协议处于严重拥堵状态时，这将有所帮助。不过，由于该协议缺少某些功能，可能会导致网络更不稳定，因此我们建议只有在遇到问题时才启用该协议。",
+        "Settings.RealtimeNetworkingSettings.PreferTCP": "尽可能使用 TCP",
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "启用后，通过 TCP 的连接将优先于所有其他协议。这主要影响局域网内的连接，因为默认情况下互联网上的连接不使用 TCP。\n\nTCP 在局域网中性能更好，在某些基于 UDP 协议的网络中也能正常工作。\n\n不过，它们也会受到 \"头部数据包\" 堵塞的影响, 导致声音和动作出现明显延迟。",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL 数据包大小",
-        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "该值会控制用于实时联网的 LNL 协议的窗口大小。 更改此设置将对你加入的所有会话立即生效。\n\n如果你遇到数据包排队的情况，可以增加该值，这样可以提高连接吞吐量。不过，数值越大也会使连接越不稳定，所以要注意。\n\n默认值：64\n\n请注意，此设置只是诊断和临时性的解决办法，将来会自动调整此值。",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "该值会控制用于实时联网的 LNL 协议的数据包大小。 更改此设置将对你加入的所有会话立即生效。\n\n如果你遇到数据包排队的情况，可以增加该值，这样可以提高连接吞吐量。不过，数值越大也会使连接越不稳定，所以要谨慎。\n\n默认值：64\n\n请注意，此设置只是诊断和临时性的解决办法，将来会自动调整此值。",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "最大同时传输资产数",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "在开始会话时，该设置调整当时可以传输多少本地导入的资产。增加该值可以更快地向用户传输资产，但也会降低网络连接的质量。我们建议测试网络可以承受的数值。",
@@ -1596,8 +1624,6 @@
 
         "Settings.DebugSettings.DebugInputBindings": "显示输入绑定的调试信息",
         "Settings.DebugSettings.DebugInputBindings.Description": "启用后，你将看到输入绑定系统的调试信息。 这对开发人员非常有用。",
-        "Settings.DebugSettings.FetchIncompatibleSessions": "在会话列表显示不兼容的会话",
-        "Settings.DebugSettings.FetchIncompatibleSessions.Description": "启用后，你将会在会话列表看到与当前客户端版本不兼容的活动会话。",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "双击手柄握把键装备物品",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "启用后，只要连续按两次握把键，就可以装备工具和小物件。这一设置可能会在某个时候被移除。",
@@ -1605,6 +1631,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "启用后，非主要手部的应用按钮将打开传统的世界开关，在在线的世界之间切换。这一功能将来会被更灵活的解决方案所取代。",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "使用物品栏 & 会话手势快捷键",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "启用后，当你按住手柄并按下 A 键（通常会打开/关闭仪表盘）时，就会打开传统的库存或会话菜单。",
+
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "抑制脚步模拟",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "这是为了使某些功能像劫持脚代理的全身追踪玩家正常工作，而无需修改它们。 <br><br>如果你在未使用追踪器或类似功能的情况下开启此功能，动画效果将无法正常显示。请在使用完追踪器器后再将其关闭。 <br><br><color=hero.red>请注意：</color> 这个设置会在某一时刻移除，我们建议升级定位器，使其与新系统兼容，并在激活时自动抑制动作模拟。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch 频道名",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "这将为摄像机控制面板中的 Twitch 聊天面板设置默认的 Twitch 频道名称。这主要用于希望看到 Twitch 聊天的 Twitch 主播而用的。",
@@ -1618,6 +1647,7 @@
         "Settings.LocaleSettings.UseImperialUnits.Description": "启用后，数量（长度/高度、质量、体积......）编辑器将尝试使用英制单位，而不是公制单位。如果你来自美国、英国、利比里亚或缅甸，这将非常有用。",
         "Settings.LocaleSettings.AvailableLocales": "选择语言",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "语言",
+        "Settings.LocaleSettings.AvailableLocales.SystemLocale": "使用系统语言",
 
         "Settings.DashSettings.DashCurvature": "曲度",
         "Settings.DashSettings.DashCurvature.Description": "此设置可以控制在 VR 模式中面板的弯曲程度。将其设置为 0 将使其完全平坦。",
@@ -1710,6 +1740,10 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "视场",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "在桌面模式下，用它来控制视场（FOV）。 数值越大，视野越开阔，但两侧的失真也越大。",
+
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "在冲刺时缩放视场",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "启用此选项后, Resonite 将会在 <b>桌面模式</b>下缩放视场。\n关闭这个设置以移除这个效果。\n<b>不</b> 包括用户所生成的内容的效果",
+
         "Settings.DesktopRenderSettings.VSync": "垂直同步",
         "Settings.DesktopRenderSettings.VSync.Description": "启用该选项后，帧速率将与屏幕刷新率同步。禁用此选项可加快帧的渲染速度，但也会导致明显的撕裂。\n\n这在进行性能测试时非常有用，因为它将解除刷新限制和提高渲染速度上限。",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "限制后台运行时的帧速率",
@@ -1903,6 +1937,7 @@
         "Inspector.Member.SetAllToY": "全部设为 Y",
         "Inspector.Member.SetAllToZ": "全部设为 Z",
         "Inspector.Member.SetAllToW": "全部设为 W",
+        "Inspector.Member.Normalize": "标准化",
         "Inspector.Member.BakeBlendshape" : "烘焙 Blendshape",
         "Inspector.Member.RemoveBlendshape" : "移除 Blendshape",
         "Inspector.Member.SplitBlendshape.X" : "在 X 轴上分割 Blendshape",
