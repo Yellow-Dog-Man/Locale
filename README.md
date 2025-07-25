@@ -2,46 +2,47 @@
 This repository contains the locale assets for the core UI of [Resonite](https://resonite.com) and allows anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (STEAM) and other platforms.
 
 ## Localization Status
-Czech [cs] - 69.6% - Missing keys: 700  
-German [de] - 100.0% - Missing keys: 0  
-English (United Kingdom) [en-gb] - 2.0% - Missing keys: 2259  
+Czech [cs] - 59.7% - Missing keys: 1072  
+German [de] - 99.9% - Missing keys: 2  
+English (United Kingdom) [en-gb] - 2.4% - Missing keys: 2594  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 71.0% - Missing keys: 669  
-Spanish [es] - 99.7% - Missing keys: 8  
-Estonian [et] - 35.8% - Missing keys: 1480  
-Finnish [fi] - 88.9% - Missing keys: 256  
-French [fr] - 100.0% - Missing keys: 0  
-Hungarian [hu] - 28.7% - Missing keys: 1644  
-Icelandic [is] - 27.8% - Missing keys: 1665  
-Japanese [ja] - 100.0% - Missing keys: 0  
-Korean [ko] - 100.0% - Missing keys: 0  
-Dutch [nl] - 44.9% - Missing keys: 1270  
-Norwegian [no] - 68.2% - Missing keys: 734  
-Polish [pl] - 97.2% - Missing keys: 64  
-Portuguese (Brazil) [pt-br] - 68.1% - Missing keys: 735  
-Russian [ru] - 100.0% - Missing keys: 0  
-Swedish [sv] - 27.6% - Missing keys: 1668  
-Thai [th] - 3.0% - Missing keys: 2236  
-Turkish [tr] - 35.3% - Missing keys: 1492  
-Ukrainian [uk] - 56.9% - Missing keys: 993  
-Chinese (China) [zh-cn] - 100.0% - Missing keys: 0  
-Chinese (Taiwan) [zh-tw] - 68.4% - Missing keys: 729  
+Esperanto [eo] - 60.9% - Missing keys: 1038  
+Spanish [es] - 86.5% - Missing keys: 360  
+Estonian [et] - 31.1% - Missing keys: 1832  
+Finnish [fi] - 87.5% - Missing keys: 332  
+French [fr] - 99.9% - Missing keys: 2  
+Hungarian [hu] - 24.9% - Missing keys: 1996  
+Icelandic [is] - 23.3% - Missing keys: 2037  
+Japanese [ja] - 99.9% - Missing keys: 2  
+Korean [ko] - 99.9% - Missing keys: 2  
+Mongolian [mn] - 99.5% - Missing keys: 13  
+Dutch [nl] - 87.6% - Missing keys: 329  
+Norwegian [no] - 58.4% - Missing keys: 1106  
+Polish [pl] - 99.5% - Missing keys: 14  
+Portuguese (Brazil) [pt-br] - 58.3% - Missing keys: 1107  
+Russian [ru] - 88.0% - Missing keys: 318  
+Swedish [sv] - 24.0% - Missing keys: 2020  
+Thai [th] - 2.6% - Missing keys: 2588  
+Turkish [tr] - 30.6% - Missing keys: 1844  
+Ukrainian [uk] - 49.4% - Missing keys: 1345  
+Chinese (Simplified, Mainland China) [zh-cn] - 99.9% - Missing keys: 2  
+Chinese (Traditional, Taiwan) [zh-tw] - 96.6% - Missing keys: 90  
 
-Total keys: 2305
+Total keys: 2657
 
 ## How To Contribute
 If you'd like to contribute translations, create a fork of the repository, make the changes and **once they are ready** to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.
 
 ### Translating the Store descriptions
-If you're like, you can help translate the store descriptions as well (this is used on Steam for example), but we consider those highly optional since it's quite a lot of text. If you don't want to translate those, don't worry about them! The store descriptions do not count towards the translation completeness percentage and are provided in separate files.
+If you'd like, you can help translate the store descriptions as well (this is used on Steam for example), but we consider those highly optional since it's quite a lot of text. If you don't want to translate those, don't worry about them! The store descriptions do not count towards the translation completeness percentage and are provided in separate files.
 
 If you do translate them and you haven't added a credit yet, put your name in the regular .json file for translations of in-game strings, even if you haven't translated any in-game strings.
 
 ### If you're contributing a new language
 1. [Create a new Issue](https://github.com/Yellow-Dog-Man/Locale) for given language in format "Language [lang-code]", for example "English [en]", which will help coordinate efforts of different translators.
-1. Verify that our fork of ICU MessageFormat.NET has a pluralizer for your language, by checking the "AddStandardPluralizers()" function in this file: https://github.com/Yellow-Dog-Man/messageformat.net/blob/master/src/Jeffijoe.MessageFormat/Formatting/Formatters/PluralFormatter.cs
+1. Verify that our fork of ICU MessageFormat.NET has a pluralizer for your language. The following file should contain your language code: https://github.com/Yellow-Dog-Man/messageformat.net/blob/master/src/Jeffijoe.MessageFormat.MetadataGenerator/data/plurals.xml
 
-If you can't find your language code in this file, please make a Issue either on in this repository.
+If you can't find your language code in this file, please make a Issue either on in this repository. If the language doesn't have any pluralization rules (meaning words don't change depending on a number), this might not be needed - but we suggest you test it first.
 
 Alternatively you can implement the pluralizer yourself based on the reference from the Unicode CLDR repository: https://github.com/unicode-org/cldr/blob/master/common/supplemental/plurals.xml and make a pull request for it to be merged with our fork or MessageFormat.NET
 
@@ -105,6 +106,7 @@ optional arguments:
 - **DON'T** submit purely machine translated locales. Those often result in odd and confusing results for user interfaces. Using machine translation as basis for manual translation is ok.
 - **DON'T** Submit strings from PRs that have the "New Strings" label until that PR is merged. The development team may need to update or change these strings as a part of their inclusion and this can cause conflicts. Wait till the PR is merged and THEN work on the new strings.
 - **DON'T** Submit strings for features that are not present in the "main" branch yet. Until a set of strings is in main, it is not complete and may need additional work to complete. Adding strings early, leads to extra work, Conflicts and confusion.
+- **DON'T** Make executive decisions on how to change certain things on our behalf - e.g. replacing names of services or introducing variables into locales when they don't exist in the English one. Let us make the decision first in the EN locale on the main branch. Adjusting things to better suit the language/culture is fine, but overall they match the intent of the EN locale.
 
 ## The ICU MessageFormat Syntax for translation strings
 Resonite uses the ICU MessageFormat Syntax defined by the Unicode organization for its localized strings. This offers high amount of flexibility on how you translate strings and ensures that you can correctly follow the grammar rules of your language, particularly with regards to pluralization (e.g. displaying "1 item" vs "1 items"). This is why it's important to ensure that your language has a pluralizer implemented in our fork of MessageFormat.NET
@@ -113,7 +115,7 @@ To learn more about the ICU MessageFormat Syntax check the following links:
 https://unicode-org.github.io/icu/userguide/format_parse/messages/
 
 Formatting guide with examples (the C# version of the library currently doesn't implement all the formatters, but they will be added as needed):
-https://messageformat.github.io/messageformat/page-guide
+https://messageformat.github.io/messageformat/guide/
 
 Language pluralization rules:
 https://github.com/unicode-org/cldr/blob/master/common/supplemental/plurals.xml
