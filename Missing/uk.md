@@ -590,6 +590,7 @@ Inspector.VHACD.RemoveVisuals
 Inspector.VHACD.RemoveHulls  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.SeparateOutBlendshapes  
 Inspector.SkinnedMesh.StripEmptyBlendshapes  
 Inspector.SkinnedMesh.StripBlendshapesResult  

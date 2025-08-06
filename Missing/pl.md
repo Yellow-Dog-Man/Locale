@@ -12,6 +12,7 @@ Settings.PhotoCaptureSettings.HandsNearFOV
 Settings.PhotoCaptureSettings.HandsNearFOV.Description  
 Settings.PhotoCaptureSettings.HandsFarFOV  
 Settings.PhotoCaptureSettings.HandsFarFOV.Description  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  

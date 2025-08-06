@@ -251,6 +251,7 @@ Inspector.Mesh.UV_Multiplicator
 Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.VHACD.Parameter.PlaneDownsampling  
 Inspector.VHACD.Parameter.ConvexHullDownsampling  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
 Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose  
