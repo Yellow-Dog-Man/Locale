@@ -656,6 +656,8 @@ Settings.CursorSettings.TextMultiplier
 Settings.CursorSettings.TextMultiplier.Description  
 Settings.CursorSettings.SliderMultiplier  
 Settings.CursorSettings.SliderMultiplier.Description  
+Settings.CursorSettings.DirectCursorEnabled  
+Settings.CursorSettings.DirectCursorEnabled.Description  
 Settings.DesktopViewSettings.FollowCursor  
 Settings.DesktopViewSettings.FollowCursor.Description  
 Settings.DesktopViewSettings.Brightness  
@@ -865,6 +867,7 @@ Inspector.GaussianSplatRenderer.GeneratePointCloudCollider
 Inspector.Texture3D.SpawnVisualizer  
 Inspector.Skybox.SetActiveSkybox  
 Inspector.AmbientLightSH2.SetActiveAmbientLight  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.SkinnedMesh.ResetBonesToBindPoses  

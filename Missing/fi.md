@@ -133,6 +133,8 @@ Settings.CursorSettings.TextMultiplier
 Settings.CursorSettings.TextMultiplier.Description  
 Settings.CursorSettings.SliderMultiplier  
 Settings.CursorSettings.SliderMultiplier.Description  
+Settings.CursorSettings.DirectCursorEnabled  
+Settings.CursorSettings.DirectCursorEnabled.Description  
 Settings.DesktopViewSettings.FollowCursor.Description  
 Settings.DesktopViewSettings.Opacity.Description  
 Settings.PhotoCaptureSettings.FingerGestureEnabled.Description  
@@ -249,6 +251,7 @@ Inspector.Mesh.UV_Multiplicator
 Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.VHACD.Parameter.PlaneDownsampling  
 Inspector.VHACD.Parameter.ConvexHullDownsampling  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
 Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose  

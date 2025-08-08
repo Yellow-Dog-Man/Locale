@@ -82,6 +82,8 @@ Settings.EditSettings.ConfirmComponentDestroy
 Settings.EditSettings.ConfirmComponentDestroy.Description  
 Settings.EditSettings.ConfirmSlotDestroy  
 Settings.EditSettings.ConfirmSlotDestroy.Description  
+Settings.CursorSettings.DirectCursorEnabled  
+Settings.CursorSettings.DirectCursorEnabled.Description  
 Settings.PhotoCaptureSettings.HandsNearFOV  
 Settings.PhotoCaptureSettings.HandsNearFOV.Description  
 Settings.PhotoCaptureSettings.HandsFarFOV  
@@ -122,6 +124,7 @@ Settings.MysterySettings
 Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.Skybox.SetActiveSkybox  
 Inspector.AmbientLightSH2.SetActiveAmbientLight  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.GaussianSplat.SplatInfo  
 Inspector.GaussianSplat.Variant  
