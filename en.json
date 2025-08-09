@@ -3141,6 +3141,8 @@
         "Help.WikiLinkName.Groups": "{appName} Wiki: Groups",
         "Help.WikiLinkName.FAQ": "{appName} Wiki: Frequently Asked Questions",
 
+        "Help.VROnlyNote": "<b><color=hero.Orange>Note</closeall>: This feature is only available in VR.",
+
         "Help.PlatformBotLinkName": "Go to the {appName} Bot",
         "Help.PlatformEssentialsSubmissionLinkName": "{appName} Essentials Submission Form",
 
@@ -3301,9 +3303,9 @@
         "Help.Controls.Locomotion.WalkRunWithClimbing.Content": "This locomotion type is the same as <b><color=hero.orange>Walk/Run</closeall> but allows you to climb on objects or walls by holding <b><color=hero.purple>{Grip_Input}</closeall> and pulling yourself to the object. {is_desktop, select, True {Climbing is still possible in desktop, however your results may vary as opposed to VR climbing.} other {}}",
         "Help.Controls.Locomotion.Fly.Content": "Allows you to move through the air while still interacting with the ground, walls, and objects in the environment.",
         "Help.Controls.Locomotion.NoClip.Content": "Ignores physics and gravity all together, allowing you to freely move through the air and pass through solid objects.",
-        "Help.Controls.Locomotion.Teleport.Content": "Allows you to point at a location within line of sight to instantly move there.{is_desktop, select, True { <b><color=hero.orange>This locomotion type is VR-only.</closeall>} other {}}",
+        "Help.Controls.Locomotion.Teleport.Content": "Allows you to point at a location within line of sight to instantly move there.{is_desktop, select, True {<br><b><color=hero.orange>This locomotion type is VR-only.</closeall>} other {}}",
         "Help.Controls.Locomotion.ZeroGravity.Content": "Allows you to float without gravity and keep your momentum when moving in the air. {is_desktop, select, True {} other {You can also rotate yourself freely in 3D space.}}",
-        "Help.Controls.Locomotion.GrabWorld.Content": "Allows you to move by holding forward on your <b><color=hero.purple>{Movement_Input}</closeall> and pulling yourself around the world even through the air.{is_desktop, select, True { <b><color=hero.orange>This locomotion type is VR-only.</closeall>} other {}}",
+        "Help.Controls.Locomotion.GrabWorld.Content": "Allows you to move by holding forward on your <b><color=hero.purple>{Movement_Input}</closeall> and pulling yourself around the world even through the air.{is_desktop, select, True {<br><b><color=hero.orange>This locomotion type is VR-only.</closeall>} other {}}",
         "Help.Controls.Locomotion.Slide": "Slide",
         "Help.Controls.Locomotion.Slide.Content": "This locomotion sticks you to the closest surface near you and lets you slide across it directly when you move.",
 
@@ -3339,7 +3341,7 @@
         "Help.Controls.DesktopControls.ThirdPerson": "Third Person Mode",
         "Help.Controls.DesktopControls.ThirdPerson.Content": "Enter or exit Third Person mode using <b><color=hero.purple>F5</closeall>.",
         "Help.Controls.DesktopControls.FreecamMode": "Freecam Mode",
-        "Help.Controls.DesktopControls.FreecamMode.Content": "Enter or exit Freecam mode using <b><color=hero.purple>F6</closeall>. While in this mode, press and hold <b><color=hero.purple>Control</color> and <b><color=hero.purple>Right Mouse</color> to allow you to rotate your view, and use your <b><color=hero.purple>Movement Keys</color> to move around. Once you are looking and moving around, you can let go of <b><color=hero.purple>Control</color> - but keep <b><color=hero.purple>Right Mouse</color> held down, otherwise your view will lock in place again.",
+        "Help.Controls.DesktopControls.FreecamMode.Content": "Enter or exit Freecam mode using <b><color=hero.purple>F6</closeall>. While in this mode, press and hold <b><color=hero.purple>Control</closeall> and <b><color=hero.purple>Right Mouse</closeall> to allow you to rotate your view, and use your <b><color=hero.purple>Movement Keys</closeall> to move around. Once you are looking and moving around, you can let go of <b><color=hero.purple>Control</closeall> - but keep <b><color=hero.purple>Right Mouse</closeall> held down, otherwise your view will lock in place again.",
 
         "Help.Controls.SteamBindings": "Steam Bindings",
       
