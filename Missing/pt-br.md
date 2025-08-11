@@ -868,6 +868,7 @@ Inspector.GaussianSplatRenderer.GeneratePointCloudCollider
 Inspector.Texture3D.SpawnVisualizer  
 Inspector.Skybox.SetActiveSkybox  
 Inspector.AmbientLightSH2.SetActiveAmbientLight  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
 Inspector.SkinnedMesh.ResetBonesToBindPoses  

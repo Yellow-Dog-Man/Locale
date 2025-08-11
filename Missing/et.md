@@ -1168,6 +1168,7 @@ Inspector.VHACD.RemoveVisuals
 Inspector.VHACD.RemoveHulls  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
 Inspector.SkinnedMesh.BakeBlendShapeResult  
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  

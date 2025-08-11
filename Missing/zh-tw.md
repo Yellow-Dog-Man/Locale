@@ -92,4 +92,5 @@ Settings.RenderingQualitySettings.SkinWeightMode.Description
 Settings.ImportSettings.SessionUrls.Description  
 Settings.ImportSettings.WorldUrls.Description  
 Settings.ImportSettings.NetworkUrls.Description  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 

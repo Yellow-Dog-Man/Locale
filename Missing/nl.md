@@ -135,6 +135,7 @@ Settings.MysterySettings
 Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.Skybox.SetActiveSkybox  
 Inspector.AmbientLightSH2.SetActiveAmbientLight  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.GaussianSplat.SplatInfo  
 Inspector.GaussianSplat.Variant  
