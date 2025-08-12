@@ -65,6 +65,7 @@ Account.Type.Stripe
 Profile.Status.Sociable  
 Profile.Status.Bot  
 Profile.Status.ChatClient  
+Permissions.SavingDisabledForItem  
 Contacts.RequestInvite  
 Contacts.NoSession  
 Contacts.IncompatibleSession  
@@ -484,6 +485,8 @@ Settings.AudioAccessibilitySettings.WhisperVolume
 Settings.AudioAccessibilitySettings.WhisperVolume.Description  
 Settings.AudioAccessibilitySettings.VoiceMessageVolume  
 Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description  
 Settings.AudioInputFilteringSettings.UseVoiceNormalization  
 Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description  
 Settings.AudioInputFilteringSettings.NoiseGateThreshold  
@@ -654,6 +657,8 @@ Settings.CursorSettings.TextMultiplier
 Settings.CursorSettings.TextMultiplier.Description  
 Settings.CursorSettings.SliderMultiplier  
 Settings.CursorSettings.SliderMultiplier.Description  
+Settings.CursorSettings.DirectCursorEnabled  
+Settings.CursorSettings.DirectCursorEnabled.Description  
 Settings.DesktopViewSettings.FollowCursor  
 Settings.DesktopViewSettings.FollowCursor.Description  
 Settings.DesktopViewSettings.Brightness  
@@ -668,6 +673,10 @@ Settings.PhotoCaptureSettings.TimerCaptureResolution
 Settings.PhotoCaptureSettings.TimerCaptureResolution.Description  
 Settings.PhotoCaptureSettings.TimerSeconds  
 Settings.PhotoCaptureSettings.TimerSeconds.Description  
+Settings.PhotoCaptureSettings.HandsNearFOV  
+Settings.PhotoCaptureSettings.HandsNearFOV.Description  
+Settings.PhotoCaptureSettings.HandsFarFOV  
+Settings.PhotoCaptureSettings.HandsFarFOV.Description  
 Settings.PhotoCaptureSettings.CaptureStereo  
 Settings.PhotoCaptureSettings.CaptureStereo.Description  
 Settings.PhotoCaptureSettings.StereoSeparation  
@@ -859,8 +868,10 @@ Inspector.GaussianSplatRenderer.GeneratePointCloudCollider
 Inspector.Texture3D.SpawnVisualizer  
 Inspector.Skybox.SetActiveSkybox  
 Inspector.AmbientLightSH2.SetActiveAmbientLight  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
+Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.Texture3D.Size  
 Inspector.Texture.ReplaceFromClipboard  
 Inspector.Texture.AlphaGamma  
@@ -873,6 +884,8 @@ Inspector.GaussianSplat.ReorderMorton
 Inspector.DataPreset.SetActive  
 Inspector.DataPreset.SetValues  
 Inspector.DataPreset.AddAllChildren  
+Inspector.FacetPreset.Warning  
+Inspector.GrabbableSaveBlock.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Tutorial.Welcome.SettingsPrimaryLeft.Description  
@@ -901,6 +914,7 @@ UI.DocumentDisplay.QualityHigh
 UI.DocumentDisplay.Pages  
 UI.DocumentDisplay.ResetZoom  
 UI.VideoPlayer.AllUsersLoaded  
+UI.ColorPicker.Blackbody  
 UI.Camera.Automatic  
 UI.Camera.Manual  
 Discord.RichPresence.InPrivateWorld  

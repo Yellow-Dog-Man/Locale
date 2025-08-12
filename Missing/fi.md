@@ -8,6 +8,7 @@ Interaction.Grab.HoldToHold
 World.Connection.LNL.LNLPoke  
 World.Actions.GuestWarning  
 World.Category.Avatars  
+Permissions.SavingDisabledForItem  
 Contacts.Unblocked  
 Tools.ProtoFlux.Drive  
 Tools.ProtoFlux.Source  
@@ -56,6 +57,8 @@ Settings.GiggleTechSettings.Devices.IntensityScale.Description
 Settings.GiggleTechSettings.Devices.CustomName.Description  
 Settings.GiggleTechSettings.Devices.MinimumIntensity.Description  
 Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description  
 Settings.AudioInputFilteringSettings.NoiseGateAttack.Description  
 Settings.AudioInputFilteringSettings.NoiseGateHold.Description  
 Settings.AudioInputFilteringSettings.NoiseGateRelease.Description  
@@ -130,12 +133,18 @@ Settings.CursorSettings.TextMultiplier
 Settings.CursorSettings.TextMultiplier.Description  
 Settings.CursorSettings.SliderMultiplier  
 Settings.CursorSettings.SliderMultiplier.Description  
+Settings.CursorSettings.DirectCursorEnabled  
+Settings.CursorSettings.DirectCursorEnabled.Description  
 Settings.DesktopViewSettings.FollowCursor.Description  
 Settings.DesktopViewSettings.Opacity.Description  
 Settings.PhotoCaptureSettings.FingerGestureEnabled.Description  
 Settings.PhotoCaptureSettings.NormalCaptureResolution.Description  
 Settings.PhotoCaptureSettings.TimerCaptureResolution.Description  
 Settings.PhotoCaptureSettings.TimerSeconds.Description  
+Settings.PhotoCaptureSettings.HandsNearFOV  
+Settings.PhotoCaptureSettings.HandsNearFOV.Description  
+Settings.PhotoCaptureSettings.HandsFarFOV  
+Settings.PhotoCaptureSettings.HandsFarFOV.Description  
 Settings.PhotoCaptureSettings.CaptureStereo.Description  
 Settings.PhotoCaptureSettings.StereoSeparation.Description  
 Settings.PhotoCaptureSettings.PhotoAutosavePath.Description  
@@ -242,9 +251,11 @@ Inspector.Mesh.UV_Multiplicator
 Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.VHACD.Parameter.PlaneDownsampling  
 Inspector.VHACD.Parameter.ConvexHullDownsampling  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.VisualizeApproximateBoneBounds  
 Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose  
 Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose  
+Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.SimpleAvatarProtection.Warning  
 Inspector.Texture.TrimByCornerColor  
 Inspector.Texture.MakeTileable  
@@ -272,6 +283,8 @@ Inspector.DataPreset.SetValues
 Inspector.DataPreset.AddAllChildren  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.FacetPreset.Warning  
+Inspector.GrabbableSaveBlock.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.Collider.SetFromLocalBounds  
@@ -314,6 +327,7 @@ UI.VideoPlayer.AudioZoneTheater
 UI.VideoPlayer.AudioZoneGlobal  
 UI.VideoPlayer.UsersLoaded  
 UI.VideoPlayer.AllUsersLoaded  
+UI.ColorPicker.Blackbody  
 Universe.Wavelength.FarUV  
 Universe.Wavelength.MiddleUV  
 Universe.Wavelength.ExtremeUV  

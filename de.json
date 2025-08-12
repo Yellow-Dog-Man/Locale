@@ -208,7 +208,7 @@
         "World.Error.FailedToConnect": "Verbindung fehlgeschlagen",
         "World.Error.InvalidAddress": "Ungültige Adresse",
         "World.Error.NoPort": "Kein Port angegeben",
-        "World.Error.IncompatibleVersion": "Inkompatible {appName}-Version",
+        "World.Error.SessionIncompatible": "Inkompatible {appName}-Version",
         "World.Error.HostBlocked": "Host blockiert",
         "World.Error.HostBlockedDetail": "Sie haben den Host blockiert",
         "World.Error.WorldCrash": "Welt Abgestürzt",
@@ -630,6 +630,7 @@
         "Permissions.NotAllowedToSpawn": "Sie sind nicht berechtigt, hier Gegenstände zu spawnen.",
         "Permissions.NotAllowedToSave": "Sie sind nicht berechtigt, Gegenstände aus dieser Welt zu speichern.",
         "Permissions.NotAllowedToSwapAvatar": "Sie sind nicht berechtigt, hier einen personalisierten Avatar zu nutzen.",
+        "Permissions.SavingDisabledForItem": "Speichern ist für diesen Gegenstand gesperrt.",
 
         "User.Actions.Silence": "Silencen",
         "User.Actions.Mute": "Stumm",
@@ -1661,6 +1662,8 @@
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Im Flüstermodus bestimmt dies, wie laut Sie Geräusche von außerhalb ihrer Flüsterblase wahrnehmen. Wenn diese zu laut oder zu leise sind, können Sie hiermit die Geräuschsdämpfung beeinflussen.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Lautstärke Sprachnachricht",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Dies bestimmt, wie laut Sie Geräusche warnehmen, während Sie eine Sprachnachicht im Kontaktmenü aufzeichnen. Dies kann andere Stimmen abdämpfen, um es Ihnen leichter zu machen, sich auf Ihr Gesprochenes zu konzentrieren.",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff": "Audioeffekte für Stimmen abschalten",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description": "Das Aktivieren dieser Option schaltet alle Audioeffekte (wie z.B. Hall) ab, die auf Stimmen anderer Benutzer in der Welt angewendet werden. Dies kann helfen die Verständlichkeit zu verbessern, wenn die Effekte zu störend sind<br><br><color=hero.red>Wichtig:</color> Welten können diese Funktion wahlweise unterdrücken, wenn sie Spracheffekte aus Gründen des Gameplays benötigen. In diesen Fällen hat diese Einstellung keine Auswirkungen.",
 
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Stimmen-Normalisierung",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Diese Funktion versucht die Lautstärke Ihrer Stimmaufnahme auf einen einheitlichen Pegel zu bringen. Unabhängig von Ihrer Mikrofoneinstellung haben Sie somit die gleiche Lautstärke wie andere Benutzer. Wir empfehlen ausdrücklich, diese Einstellung aktiviert zu lassen, damit Sie von anderen Nutzern gut gehört werden können.",
@@ -1879,6 +1882,10 @@
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "Hier können Sie die Auflöung von Fotos festlegen, die mit der Zeitauslöser-Funktion aufgenommen werden. Dies kann hilfreich sein, wenn Sie den Zeitauslöser verwenden, um ein Gruppenfoto aufzunehmen, da dieses von einer höheren Auflösung profitieren kann.",
         "Settings.PhotoCaptureSettings.TimerSeconds": "Dauer des Zeitauslösers",
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "Wie viele Sekunden vergehen zwischen dem Auslösen des Zeitauslösers und der Aufnahme des Fotos.",
+        "Settings.PhotoCaptureSettings.HandsNearFOV": "Nahe Hände Sichtfeld",
+        "Settings.PhotoCaptureSettings.HandsNearFOV.Description": "Sichtfeld (FOV) für Fotoaufnahmen mit der Finger-Foto-Geste, während sich Ihre Hände am nächsten am Kopf befinden.",
+        "Settings.PhotoCaptureSettings.HandsFarFOV": "Ferne Hände Sichtfeld",
+        "Settings.PhotoCaptureSettings.HandsFarFOV.Description": "Sichtfeld (FOV) für Fotoaufnahmen mit der Finger-Foto-Geste, während Ihre Hände am weitesten vom Kopf entfernt sind.",
         "Settings.PhotoCaptureSettings.CaptureStereo": "Stereo-Foto aufnehmen",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Wenn dies aktiviert ist, werden alle schnellen Fotos stereoskopisch aufgenommen. Dies ist hauptsächlich hilfreich, wenn Sie sich die Bilder in VR ansehen.",
         "Settings.PhotoCaptureSettings.StereoSeparation": "Stereo Basis",
@@ -2234,6 +2241,7 @@
         "Inspector.SkinnedMesh.BakeToStaticMesh": "Zu statischem Mesh konvertieren",
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "Sortiere Blendshapes (nach Namen)",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Sortiere Blendshapes (nach Namenslänge, dann nach Namen)",
+        "Inspector.SkinnedMesh.ResetBonesToBindPoses": "Knochen auf Bind-Pose zurücksetzen",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Alle Instanzen entfernen",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Einzelne Instanz entfernen",
@@ -2367,6 +2375,8 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente als einfachen Rigidbody zu verwenden, indem 'Rotation Simulieren' ausgewählt wird. Bevor Sie dies tun, verstehen Sie bitte, dass sie nicht für diesen Zweck optimiert ist und dass vollständige Rididbody-Unterstützung in der Zukunft hinzugefügt wird.<br>Vollständige Rigidbody-Unterstützung wird folgendes ermöglichen:<br><b>- CPU- und Netzwerkeffizienz</b> - Mit CharacterController werden Sie höhere CPU-Auslastung und signifikant höhere Netzwerkauslastung verursachen<br><b>- Beschränkungen</b> - Sie werden in der Lage sein Gelenke, Schaniere, Federn und andere Beschränkungen zwischen Rigidbodies zu erstellen<br><b>- Geschmeidige Simulation und Interaktionen für Jeden</b> - CharacterController wird Fehlverhalten verursachen wenn ein anderer Benutzer versucht damit zu interagieren.<br><b>- Neue Features und Tools</b> - Dadurch wird die Verwendung deutlich einfacher<br>-----------------------<br>Solange Sie diese Einschränkungen verstehen, viel Spaß!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente zu verwenden um mit Referenzen zu interagieren, die über Ihre IDs addressiert werden. Dieser Vorgang ist geläufig bekannt als 'Ref Hacking'.<br><br><b>Bevor</b> Sie dies tun, verstehen Sie bitte dass dies <b>nicht</b> unterstützt ist und zu jedem Zeitpunk kaputtgehen kann. Verlassen Sie sich nicht auf diese Funktionalität für Ihre Kreationen!",
+        "Inspector.FacetPreset.Warning": "<color=red><size=125%>WARNUNG!</size></color><br>Facet-Voreinstellungen aktualisieren ihren Inhalt automatisch, wenn wir neue Versionen dieser Voreinstellungen veröffentlichen. Wenn Sie eine eigene Version erstellen, empfehlen wir, diese Komponente zu löschen.",
+        "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>WARNUNG!</size></color><br>Diese Komponente ist kein Sicherheitssystem oder Diebstahlschutz. Sie ist für Situationen bestimmt, in denen die einfachen Speichermöglichkeiten aus Designgründen oder zum Erhalt des Spielerlebnisses blockiert werden sollen. Sie kann einfach umgangen werden, und wir werden die Sicherheit in keinem Fall verbessern.",
 
         "Inspector.ParticleSystem.BasicInfo": "Partikel: {count}, FPS: {fps}, Simulationszeit: {time}, Submit-Zeit: {renderSubmitTime}, Render-Allokationen: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "Spuren: {trailCount} (Kapazität: {trailCapacity}), Spur-Punkt Kapazität: {trailPointCapacity}, Allokationen: {allocationCount}",
@@ -2895,6 +2905,7 @@
         "UI.ColorPicker.Linear": "Linear",
 
         "UI.ColorPicker.Hexadecimal": "Hex",
+        "UI.ColorPicker.Blackbody": "Schwarzer Körper",
         "UI.ColorPicker.ColorSwatches": "Palette",
 
         "UI.ColorPicker.Red": "Rot",

@@ -21,6 +21,7 @@ Account.Type.Stripe
 Profile.Status.Sociable  
 Profile.Status.Bot  
 Profile.Status.ChatClient  
+Permissions.SavingDisabledForItem  
 Contacts.RequestInvite  
 Contacts.NoSession  
 Contacts.IncompatibleSession  
@@ -836,6 +837,8 @@ Settings.AudioAccessibilitySettings.WhisperVolume
 Settings.AudioAccessibilitySettings.WhisperVolume.Description  
 Settings.AudioAccessibilitySettings.VoiceMessageVolume  
 Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description  
 Settings.AudioInputFilteringSettings.UseVoiceNormalization  
 Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description  
 Settings.AudioInputFilteringSettings.NoiseGateThreshold  
@@ -1006,6 +1009,8 @@ Settings.CursorSettings.TextMultiplier
 Settings.CursorSettings.TextMultiplier.Description  
 Settings.CursorSettings.SliderMultiplier  
 Settings.CursorSettings.SliderMultiplier.Description  
+Settings.CursorSettings.DirectCursorEnabled  
+Settings.CursorSettings.DirectCursorEnabled.Description  
 Settings.DesktopViewSettings.FollowCursor  
 Settings.DesktopViewSettings.FollowCursor.Description  
 Settings.DesktopViewSettings.Brightness  
@@ -1020,6 +1025,10 @@ Settings.PhotoCaptureSettings.TimerCaptureResolution
 Settings.PhotoCaptureSettings.TimerCaptureResolution.Description  
 Settings.PhotoCaptureSettings.TimerSeconds  
 Settings.PhotoCaptureSettings.TimerSeconds.Description  
+Settings.PhotoCaptureSettings.HandsNearFOV  
+Settings.PhotoCaptureSettings.HandsNearFOV.Description  
+Settings.PhotoCaptureSettings.HandsFarFOV  
+Settings.PhotoCaptureSettings.HandsFarFOV.Description  
 Settings.PhotoCaptureSettings.CaptureStereo  
 Settings.PhotoCaptureSettings.CaptureStereo.Description  
 Settings.PhotoCaptureSettings.StereoSeparation  
@@ -1304,6 +1313,7 @@ Inspector.VHACD.RemoveVisuals
 Inspector.VHACD.RemoveHulls  
 Inspector.ReflectionProbe.Bake  
 Inspector.ReflectionProbe.Baking  
+Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.SeparateOutBlendshapes  
 Inspector.SkinnedMesh.StripEmptyBlendshapes  
 Inspector.SkinnedMesh.StripBlendshapesResult  
@@ -1319,6 +1329,7 @@ Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose
 Inspector.SkinnedMesh.BakeToStaticMesh  
 Inspector.SkinnedMesh.SortBlendshapes.Name  
 Inspector.SkinnedMesh.SortBlendshapes.NameLength  
+Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.SimpleAvatarProtection.RemoveAll  
 Inspector.SimpleAvatarProtection.RemoveSingle  
 Inspector.SimpleAvatarProtection.Warning  
@@ -1436,6 +1447,8 @@ Inspector.Rig.ClearDebugVisuals
 Inspector.AvatarExpression.AutoAssign  
 Inspector.CharacterController.Warning  
 Inspector.PrimitiveMemberEditor.Warning  
+Inspector.FacetPreset.Warning  
+Inspector.GrabbableSaveBlock.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  
@@ -1805,6 +1818,7 @@ UI.VideoPlayer.AllUsersLoaded
 UI.ColorPicker.ColorPicker  
 UI.ColorPicker.Linear  
 UI.ColorPicker.Hexadecimal  
+UI.ColorPicker.Blackbody  
 UI.ColorPicker.ColorSwatches  
 UI.ColorPicker.Red  
 UI.ColorPicker.Green  

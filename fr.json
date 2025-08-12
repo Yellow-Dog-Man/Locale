@@ -208,7 +208,7 @@
         "World.Error.FailedToConnect": "Impossible d'établir une connexion",
         "World.Error.InvalidAddress": "Adresse invalide",
         "World.Error.NoPort": "Aucun port spécifié",
-        "World.Error.IncompatibleVersion": "Version de {appName} incompatible",
+        "World.Error.SessionIncompatible": "Version de {appName} incompatible",
         "World.Error.HostBlocked": "Hôte bloqué",
         "World.Error.HostBlockedDetail": "Vous avez bloqué l'hôte",
         "World.Error.WorldCrash": "Le monde a crashé",
@@ -630,6 +630,7 @@
         "Permissions.NotAllowedToSpawn": "Vous n'êtes pas autorisé à matérialiser des choses ici.",
         "Permissions.NotAllowedToSave": "Vous n'êtes pas autorisé à sauvegarder des objets dans ce monde.",
         "Permissions.NotAllowedToSwapAvatar": "Vous n'êtes pas autorisé à équiper un avatar personnalisé ici.",
+        "Permissions.SavingDisabledForItem": "La sauvegarde est désactivée pour cet objet",
 
         "User.Actions.Silence": "Mettre en sourdine",
         "User.Actions.Mute": "Sourdine",
@@ -868,7 +869,7 @@
         "Tools.GaussianSplat.Name": "Outil de splat gaussien",
         "Tools.GaussianSplat.ClipBox": "Zone de coupe",
         "Tools.GaussianSplat.ClipSphere": "Sphère de coupe",
-        "Tools.GaussianSplat.ClipCylinder" : "Cylindre de coupe",
+        "Tools.GaussianSplat.ClipCylinder": "Cylindre de coupe",
 
         "Tools.ComponentClone.Name": "Outil de clonage de composants",
         "Tools.ComponentClone.SingleInstanceOn": "Instance seule: activée",
@@ -1638,7 +1639,6 @@
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Activez cette option pour utiliser le périphérique de sortie audio par défaut de votre système. Désactiver cette option peut être utile si vous voulez que l'audio sorte d'un autre périphérique. Ceci peut être utile si vous utilisez des périphériques différents lors du passage entre la VR le bureau.",
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "Configurer les périphériques de sortie audio préférés",
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "Périphériques de sortie audio",
-
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Définir comme défaut",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "Rafraîchir les périphériques audio",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Presser cette option va forcer Resonite à rafraîchir tous les périphériques audio. Dans tous les cas, vous n'avez pas besoin de le faire mais dans certains cas, cela peut aider.",
@@ -1662,6 +1662,8 @@
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Ajuste le volume des sons à l'extérieur de la sphère de chuchotement. S'ils sont trop forts ou faibles, vous pouvez utiliser ceci pour régler l'atténuation du volume.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Volume des messages vocaux",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Ajuste le volume des sons ambiants quand vous enregistrez un message vocal pour vos Amis. Ceci peut réduire le \"brouillage\" de la voix, rendant plus facile de se concentrer sur ce que vous dites.",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff": "Forcer la désactivation des effets sur les voix",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description": "Activer cette option va supprimer les effets audios affectant les voix (la réverbération par exemple). Cela peut aider si vous avez du mal à entendre des voix.<br><br><color=hero.red>Important:</color> certains mondes peuvent désactiver cette option si vraiment nécessaire.",
 
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Normalisation de la voix",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Cette fonctionnalité fera en sorte que votre voix soit à un niveau uniforme. Cela fait en sorte que votre volume soit le même que les autres utilisateurs, quelques soient vos options de microphone. Il est vivement recommandé de garder cette option activée pour que vous soyez entendu correctement par les autres utilisateurs.",
@@ -1879,6 +1881,10 @@
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "Définit la résolution des photos avec retardateur, comme pour les photos normales. Ceci peut être utile si vous utilisez le retardateur pour prendre des photos de groupe, qui bénéficient d'une plus haute résolution.",
         "Settings.PhotoCaptureSettings.TimerSeconds": "Durée du retardateur",
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "Durée du retardateur en secondes.",
+        "Settings.PhotoCaptureSettings.HandsNearFOV": "Champ de vision près des mains",
+        "Settings.PhotoCaptureSettings.HandsNearFOV.Description": "Le champ de vision pour les photos capturées quand vos mains sont proches de votre tête.",
+        "Settings.PhotoCaptureSettings.HandsFarFOV": "Cham de vision loin des mains",
+        "Settings.PhotoCaptureSettings.HandsFarFOV.Description": "Le champ de vision pour les photos capturées quand vos mains sont loin de votre tête.",
         "Settings.PhotoCaptureSettings.CaptureStereo": "Capturer des photos stéréoscopiques",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Capture toutes les photos en mode stéréoscopique. Ceci est utile pour les voir en VR.",
         "Settings.PhotoCaptureSettings.StereoSeparation": "Séparation stéréoscopique",
@@ -2234,6 +2240,7 @@
         "Inspector.SkinnedMesh.BakeToStaticMesh": "Pré-calculer vers un modèle statique",
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "Trier les Blendshapes (par nom)",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Trier les Blenshapes (par longueur, puis nom)",
+        "Inspector.SkinnedMesh.ResetBonesToBindPoses": "Réinitialiser les os aux poses bind",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Supprimer TOUTES les instances",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Supprimer une seule instance",
@@ -2367,6 +2374,8 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Il est possible d'utiliser ce composant comme un simple RigidBody en cochant SimulateRotation. Avant de le faire, veuillez comprendre qu'il n'est pas optimisé à cet effet et qu'un support Rigidbody approprié arrive à l'avenir.<br>Un support rigidbody approprié offrira :<br><b>- Efficacité du processeur et du réseau</b> - avec CharacterController, vous obtiendrez une utilisation plus élevée du processeur et une quantité importante de trafic réseau<br><b>- Contraintes</b> - vous pourrez créer des articulations, des charnières, des ressorts et d'autres contraintes entre les corps rigides<br><b >- Simulation et interactions fluides pour tout le monde</b> - CharacterController disparaîtra si une autre personne essaie d'interagir<br><b>- Nouvelles fonctionnalités et outils</b> - pour en faciliter l'utilisation<br>-- ---------------------<br>Vous pouvez en trouver plus sur GitHub n°22. Tant que vous comprenez ces limites, amusez-vous !",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ATTENTION!</size></color><br>Il est possible d'utiliser ce composant pour interagir avec des références depuis leur ID. Ce processus est appelé 'ref hacking'.<br><br><b>Avant</b> de continuer, faire cela n'est <b>pas</b> supporté officiellement et peut casser à tout moment. Ne comptez pas dessus pour vos créations.",
+        "Inspector.FacetPreset.Warning": "<color=red><size=125%>ATTENTION!</size></color><br>Les FacetPreset vont automatiquement mettre à jour la facette à sa dernière version. Si vous créez une version customisée, il est recommandé de retirer ce composant.",
+        "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>ATTENTION!</size></color><br>Ce composant n'est pas là comme un système de sécurité. Il est destiné à être utilisé pour les cas où vous souhaitez bloquer les méthodes plus faciles de sauvegarde pour des raisons de gameplay ou de conception. Il peut facilement être contourné et il ne sera en aucun cas rendu plus sûr.",
 
         "Inspector.ParticleSystem.BasicInfo": "Particules: {count}  Dernière durée de simulation: {time}    Allocations de rendu: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "Traînées: {trailCount} (capacité: {trailCapacity}), Capacité de points: {trailPointCapacity}, Allocations: {allocationCount}",
@@ -2895,6 +2904,7 @@
         "UI.ColorPicker.Linear": "Linéaire",
 
         "UI.ColorPicker.Hexadecimal": "Hex",
+        "UI.ColorPicker.Blackbody": "Corps noir",
         "UI.ColorPicker.ColorSwatches": "Échantillons",
 
         "UI.ColorPicker.Red": "Rouge",

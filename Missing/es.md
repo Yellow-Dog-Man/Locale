@@ -10,6 +10,7 @@ World.Error.FailedToCreateBanAccessKey
 World.Error.UnhandledError  
 World.Category.Avatars  
 Account.Type.Stripe  
+Permissions.SavingDisabledForItem  
 Contacts.RequestInvite  
 Contacts.AskToJoin  
 Contacts.InviteRequest.UserWantsToJoin  
@@ -83,6 +84,8 @@ Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput
 Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description  
 Settings.AudioOutputDeviceSettings.StreamingCameraPriorities  
 Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff  
+Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description  
 Settings.AudioPerformanceSettings  
 Settings.AudioPerformanceSettings.MaxVoices  
 Settings.AudioPerformanceSettings.MaxVoices.Description  
@@ -116,6 +119,12 @@ Settings.CursorSettings.TextMultiplier
 Settings.CursorSettings.TextMultiplier.Description  
 Settings.CursorSettings.SliderMultiplier  
 Settings.CursorSettings.SliderMultiplier.Description  
+Settings.CursorSettings.DirectCursorEnabled  
+Settings.CursorSettings.DirectCursorEnabled.Description  
+Settings.PhotoCaptureSettings.HandsNearFOV  
+Settings.PhotoCaptureSettings.HandsNearFOV.Description  
+Settings.PhotoCaptureSettings.HandsFarFOV  
+Settings.PhotoCaptureSettings.HandsFarFOV.Description  
 Settings.PhotoCaptureSettings.OpenAutosavePath  
 Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
@@ -155,12 +164,17 @@ Inspector.GaussianSplatRenderer.GeneratePointCloudCollider
 Inspector.Texture3D.SpawnVisualizer  
 Inspector.Skybox.SetActiveSkybox  
 Inspector.AmbientLightSH2.SetActiveAmbientLight  
+Inspector.ReflectionProbe.OnChangesRenderCount  
+Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.GaussianSplat.SplatInfo  
 Inspector.GaussianSplat.Variant  
 Inspector.GaussianSplat.ColorByIndex  
 Inspector.GaussianSplat.ReorderMorton  
+Inspector.FacetPreset.Warning  
+Inspector.GrabbableSaveBlock.Warning  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
+UI.ColorPicker.Blackbody  
 Universe.UI.Narrative  
 Universe.UI.Freeform  
 Universe.Stars.Sun  

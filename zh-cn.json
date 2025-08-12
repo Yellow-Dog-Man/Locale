@@ -208,7 +208,7 @@
         "World.Error.FailedToConnect": "连接失败",
         "World.Error.InvalidAddress": "无效地址",
         "World.Error.NoPort": "未指定端口",
-        "World.Error.IncompatibleVersion": "不兼容的版本",
+        "World.Error.SessionIncompatible": "不兼容的版本",
         "World.Error.HostBlocked": "房主已屏蔽",
         "World.Error.HostBlockedDetail": "你已屏蔽该房主",
         "World.Error.WorldCrash": "世界崩溃了",
@@ -630,6 +630,7 @@
         "Permissions.NotAllowedToSpawn": "你不可以在此处生成物品",
         "Permissions.NotAllowedToSave": "你无权在这个世界上保存项目。",
         "Permissions.NotAllowedToSwapAvatar": "你不允许在此处切换到自定义虚拟形象。",
+        "Permissions.SavingDisabledForItem": "保存在此物品上不可用。",
 
         "User.Actions.Silence": "全局静音",
         "User.Actions.Mute": "静音",
@@ -1661,7 +1662,9 @@
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "启动耳语模式后，它将调整球外声音的响度。 如果声音太大或太小，你可以用它来调整音量衰减。",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "语音消息音量",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "这表示当你在好友中录制语音消息时，其他声音的响度。 这有助于防止 \"语音干扰\"，让你更容易集中注意力。",
-
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff": "强制关闭音频音效",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description": "开启此选项将禁用其他玩家语音的所有音效（例如混响）。如果你因这些音效而难以听清语音，此功能可能有所帮助。<br><br><color=hero.red>重要说明：</color> 如果世界因游戏性需要而必须使用语音音效，则可选择覆盖此功能。在此类情况下，本设置将不会产生任何效果。",
+        
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "语音音量标准化",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "该功能将尽量确保你的语音输入达到统一的水平。无论你的麦克风设置如何，这都有助于使你的音量与其他用户相同。 我们强烈建议保持此设置，以确保其他用户也能清楚地听到你的声音。",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "语音阈值",
@@ -1879,6 +1882,10 @@
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "与普通分辨率类似，你可以为在定时功能拍摄照片模式下设置单独的分辨率。如果你使用定时器拍摄集体照，这将非常有用，因为更高的分辨率会在集体拍摄时呈现更好的效果。",
         "Settings.PhotoCaptureSettings.TimerSeconds": "计时器持续时间",
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "使用定时功能需要多少秒后拍摄照片。",
+        "Settings.PhotoCaptureSettings.HandsNearFOV": "手部近距视野",
+        "Settings.PhotoCaptureSettings.HandsNearFOV.Description": "当你的手部最靠近头部时，通过手势拍摄照片的视野范围。",
+        "Settings.PhotoCaptureSettings.HandsFarFOV": "手部远距视野",
+        "Settings.PhotoCaptureSettings.HandsFarFOV.Description": "当你的手部最远离头部时，通过手势拍摄照片的视野范围。",
         "Settings.PhotoCaptureSettings.CaptureStereo": "拍摄立体照片",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "启用后，所有的快速捕捉生成的图片都将是立体的。 这在 VR 模式中非常有用",
         "Settings.PhotoCaptureSettings.StereoSeparation" : "立体分离度",
@@ -2234,6 +2241,7 @@
         "Inspector.SkinnedMesh.BakeToStaticMesh": "烘焙为静态网格",
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "以名称对形态键排序",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "以名称长度对形态键排序",
+        "Inspector.SkinnedMesh.ResetBonesToBindPoses": "重置骨骼到绑定姿势",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "移除所有实例",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "移除单个实例",
@@ -2367,7 +2375,9 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告！</size></color><br>当勾选模拟旋转（SimulateRotation）时这个组件可以被当作一个简单的刚体。在你这样做之前，你需要明白它不曾为此优化，且对刚体的正式支持会在未来加入。<br>正式支持包括：<br><b>- CPU和网络效率提升</b> - 使用角色控制器，你的CPU和网络占用会显著上升<br><b>- 约束</b> - 你将能够在刚体间创建关节、合页、弹簧和其他约束<br><b>- 对每个人的平滑模拟与交互</b> - 在另一个人尝试交互时，角色控制器会发生故障<br><b>- 新功能与工具</b> - 让使用更加简单<br>-----------------------<br>只要你理解了上述限制，放开玩吧！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color><br>通过他们的ID，这个组件可以被用于与引用交互。这个过程常被称为“引用骇入”。<br><br>在你这样做<b>之前</b>，请知晓这种方式 <b>不被</b> 支持且随时可能失效。请勿让你的作品依赖于此项功能。",
-
+        "Inspector.FacetPreset.Warning":"<color=red><size=125%>警告!</size></color><br>Facet预设将会在我们发布新版本的时候自动更新。如果你在用自定义版本呢，我们建议删除这个组件。",
+        "Inspector.GrabbableSaveBlock.Warning":"<color=red><size=125%>警告！</size></color> 本组件并非用作安全/资产防盗保护系统。其设计初衷仅适用于因玩法或设计需求需屏蔽简易存档方式的场景。该组件可被轻易绕过，且在任何情况下都不会增强其安全性。",
+        
         "Inspector.ParticleSystem.BasicInfo" : "粒子： {count}， 帧率： {fps}， 模拟时间： {time}， 提交时间： {renderSubmitTime}， 渲染分配： {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "尾迹： {trailCount} (容量： {trailCapacity}), 尾迹点容量： {trailPointCapacity}",
 
@@ -2895,6 +2905,7 @@
         "UI.ColorPicker.Linear": "线性",
 
         "UI.ColorPicker.Hexadecimal": "16进制",
+        "UI.ColorPicker.Blackbody": "绝对黑体",
         "UI.ColorPicker.ColorSwatches": "色板",
 
         "UI.ColorPicker.Red": "红",
