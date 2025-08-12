@@ -1,6 +1,6 @@
 {
     "localeCode": "fr",
-    "authors": ["Archer", "FreakyWaves", "Xqua", "brodokk", "Sopra", "Khosumi", "j4", "cerealbowl", "MIP"],
+    "authors": ["Archer", "FreakyWaves", "Xqua", "brodokk", "Sopra", "Khosumi", "j4", "cerealbowl", "MIP", "Baplar"],
     "messages": {
 
         "General.OK": "OK",
@@ -38,6 +38,7 @@
         "General.UnderstandEnable": "Je comprends, activer",
         "General.Dismiss": "Rejeter",
         "General.Edit": "Éditer",
+        "General.DontShowAgain": "Ne plus afficher",
 
         "General.UI.SearchPrompt": "Recherche...",
         "General.UI.SearchPromptLong": "Taper ici pour rechercher...",
@@ -150,6 +151,7 @@
         "Dash.Screens.Session": "Session",
         "Dash.Screens.FileBrowser": "Fichiers",
         "Dash.Screens.Settings": "Paramètres",
+        "Dash.Screens.Help": "Aide",
         "Dash.Screens.Exit": "Quitter",
 
         "Dash.Actions.PasteFromClipboard": "Coller le contenu du presse-papier",
@@ -1514,7 +1516,7 @@
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Traquer les mains en utilisant les manettes",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "Quand les mains sont attachées à la manette, ceci pose les doigts en suivant les données envoyées par le Leap Motion.",
 
-        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Traqe des mains Vive",
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Traque des mains Vive",
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "Quand activé, vos mains et doigts seront traqués par la traque de mains Vive. Cela utilise typiquement les caméras sur le casque VR. Il se peut que vous ayez à activer la traque des mains dans SteamVR.",
         "Settings.ViveHandTrackingSettings.SnapDistance": "Distance d'attachement de la manette",
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Quand vos mains sont à une certaine distance de vos manettes, elles s'attachent à elles et utilisent leur traque. Cette option contrôle à quelle distance cela arrive.",
@@ -1865,6 +1867,9 @@
 
         "Settings.CursorSettings.SliderMultiplier": "Multiplicateur de sliders",
         "Settings.CursorSettings.SliderMultiplier.Description": "Appliqué comme multiplicateur quand votre curseur passe sur des sliders.",
+
+        "Settings.CursorSettings.DirectCursorEnabled": "Curseur direct",
+        "Settings.CursorSettings.DirectCursorEnabled.Description": "Quand activé, affiche le curseur direct.\n\nLe curseur direct est le point dans l’espace où serait situé votre curseur si aucun lissage ou ajustement n’était effectué par d’autres paramètres ou systèmes.",
 
         "Settings.DesktopViewSettings.FollowCursor": "Suivre le curseur",
         "Settings.DesktopViewSettings.FollowCursor.Description": "Quand activé, la vue de bureau montrera l'écran sur lequel votre curseur est automatiquement. Ceci est utile si vous utilisez une souris et clavier en VR.",
@@ -2224,6 +2229,7 @@
 
         "Inspector.ReflectionProbe.Bake": "Précalculer les réflexions",
         "Inspector.ReflectionProbe.Baking": "Précalcul...",
+        "Inspector.ReflectionProbe.OnChangesRenderCount": "Nombre de calculs OnChanges : {count}",
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Séparer les parties du modèle qui ne sont pas affectées par les Blendshapes",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Retirer les Blendshapes vides",
