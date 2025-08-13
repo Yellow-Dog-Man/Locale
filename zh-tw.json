@@ -1427,6 +1427,7 @@
 
         "Settings.FullBodyTrackingSettings": "全身追蹤設定",
         "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "身體水平角度",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "這是腳部和頭部之間的角度偏差，超出此角度您將被視為水平姿勢。這會影響某些功能，例如用腳部模擬覆蓋您的追蹤器姿勢。",
 
         "Settings.GamepadSettings": "遊戲控制器設定",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "搖桿移動視角的速度",
@@ -1447,13 +1448,15 @@
         "Settings.MouseSettings.MouseFreeformRotateSpeed": "游標自由旋轉速度",
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "桌面模式下拿取物體時，用游標控制物體自由旋轉的速度",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "握持時的移動速度",
+        "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "在桌面模式下握持物品時，這控制它們使用滑鼠滾輪前後移動的速度。",
 
         "Settings.KeyboardLookSettings": "鍵盤操控視角設定",
         "Settings.KeyboardLookSettings.LookEnabled": "鍵盤操控視角",
-
+        "Settings.KeyboardLookSettings.LookEnabled.Description": "啟用時，鍵盤視角控制允許您使用鍵盤上的箭頭鍵來移動您的頭部。<br/>這主要設計用於滑鼠不可用或不合適的情況，例如使用筆記型電腦或需要滑鼠的無障礙替代方案時。",
         "Settings.KeyboardLookSettings.HorizontalSpeed": "鍵盤操控視角時的水平移動速度",
-
+        "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "用於調整使用鍵盤視角控制時，頭部水平移動的速度。",
         "Settings.KeyboardLookSettings.VerticalSpeed": "鍵盤操控視角時的垂直移動速度",
+        "Settings.KeyboardLookSettings.VerticalSpeed.Description": "用於調整使用鍵盤視角控制時，頭部垂直移動的速度。",
 
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "搖桿震動",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "開關VR上搖桿的震動",
@@ -1461,7 +1464,7 @@
         "Settings.GeneralHapticsSettings.EnableHaptics.Description": "世界物體與玩家的互動將回應至搖桿或其他回饋裝置使其震動",
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR桌面模式自動切換",
-        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "穿戴VR會自動切換桌機、VR模式",
+        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "穿戴VR會自動切換桌面、VR模式",
 
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "手部移位防抖",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "手部轉向防抖",
@@ -1471,8 +1474,8 @@
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "腳部移位防抖",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "腳部轉向防抖",
 
-        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "腳部移位的平滑程度，可以控制化身腳部移位抖動狀況",
-        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "腳部轉向的平滑程度，可以控制化身腳部轉向抖動狀況",
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "啟用時，這控制使用全身追蹤時腳部位置的平滑程度。這有助於消除振動和抖動，但也會讓追蹤器延遲更多，對快速動作的反應不佳。",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "啟用時，這控制使用全身追蹤時腳部旋轉的平滑程度。這有助於消除振動和抖動，但也會讓追蹤器延遲更多，對快速動作的反應不佳。",
 
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "臀部移位防抖",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "臀部轉向防抖",
@@ -1502,18 +1505,19 @@
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "您的照片副本將保存於 Steam 的截圖資料夾當中",
 
         "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "當 Steam 遠端暢玩開啟時，強制使用遠端麥克風",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "啟用時，當您透過 Steam 遠端暢玩遊玩時，將自動強制音訊輸入使用 Steam 的輸入裝置。這有助於您無需手動切換即可使用轉發的麥克風輸入。<br><br>關閉此功能在您想要使用自己的音訊裝置時會很有用 - 例如外接麥克風。",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "開啟手部追蹤",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "追蹤器將得以追蹤您的手指移動",
         "Settings.LeapMotionSettings.Offset": "手部追蹤偏移設置",
-        "Settings.LeapMotionSettings.Offset.Description": "調整手部追蹤的偏移(單位：公尺))",
+        "Settings.LeapMotionSettings.Offset.Description": "調整手部追蹤的偏移（單位：公尺）",
         "Settings.LeapMotionSettings.SnapDistance": "捕捉範圍",
         "Settings.LeapMotionSettings.SnapDistance.Description": "手部在範圍內將被捕捉追蹤",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "控制手把開啟手指捕捉",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "控制手把仍會追蹤手指的動向",
 
-        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Vive手部追蹤",
-        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "開啟Vive手把的手部追蹤功能(仍需要到steam VR設置開啟)",
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Vive 手部追蹤",
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "開啟 Vive 手把的手部追蹤功能（仍需要到 Steam VR 設定開啟）",
         "Settings.ViveHandTrackingSettings.SnapDistance": "捕捉範圍",
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "手部在範圍內將被捕捉追蹤",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "控制手把開啟手指捕捉",
@@ -1539,14 +1543,14 @@
         "Settings.TrackerSettings.Trackers.MappedRotation.Description": "追蹤器對應到哪個身體部位的角度\n\n建議使用全身校準設置，在此手動調整不建議",
         "Settings.TrackerSettings.Trackers.UseInVR": "在 VR 模式裡使用",
         "Settings.TrackerSettings.Trackers.UseInVR.Description": "這個追蹤器是否會在VR模式下影響化身?",
-        "Settings.TrackerSettings.Trackers.UseInDesktop": "在桌機模式裡使用",
-        "Settings.TrackerSettings.Trackers.UseInDesktop.Description": "這個追蹤器是否會在桌機模式下影響化身?",
+        "Settings.TrackerSettings.Trackers.UseInDesktop": "在桌面模式裡使用",
+        "Settings.TrackerSettings.Trackers.UseInDesktop.Description": "這個追蹤器是否會在桌面模式下影響化身?",
         "Settings.TrackerSettings.Trackers.TrackerID": "追蹤器ID",
         "Settings.TrackerSettings.Trackers.TrackerID.Description": "此追蹤器的唯一的ID",
         "Settings.TrackerSettings.Trackers.TrackerBattery": "追蹤器電量",
-        "Settings.TrackerSettings.Trackers.TrackerBattery.Description": "此追蹤器的目前電池電量 (注意：某些追蹤器不支援電量顯示)",
+        "Settings.TrackerSettings.Trackers.TrackerBattery.Description": "此追蹤器的目前電池電量（注意：某些追蹤器不支援電量顯示）",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging": "充電中",
-        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "此追蹤器是否在充電中(注意：某些追蹤器不支援充電狀態指示)",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "此追蹤器是否在充電中（注意：某些追蹤器不支援電量顯示）",
         "Settings.TrackerSettings.Trackers.Unmap": "定位重置",
         "Settings.TrackerSettings.Trackers.Remove": "移除追蹤器綁定",
 
@@ -1573,7 +1577,7 @@
         "Settings.HapticPointMapping.HeadYawAngle.Description": "控制頭部水平左右的位置，預設位置為臉部中心鼻子。減少時向左轉動，增加時向右轉動",
 
         "Settings.HapticPointMapping.ArmSide": "手臂",
-        "Settings.HapticPointMapping.ArmSide.Description": "要定位到哪一支手臂?左手臂或右手臂?",
+        "Settings.HapticPointMapping.ArmSide.Description": "要定位到哪一支手臂，左手臂或右手臂？",
         "Settings.HapticPointMapping.ArmPositionAlong": "手臂的位置",
         "Settings.HapticPointMapping.ArmPositionAlong.Description": "控制手臂的位置，從肩膀到手腕",
         "Settings.HapticPointMapping.ArmAngleAround": "手臂周角",
@@ -1587,7 +1591,7 @@
         "Settings.HapticPointMapping.LegAngleAround.Description": "控制腿部圓周的角度。預設0度位置與腿前方對齊，負角度向左，正角度向右",
 
         "Settings.HapticPointMapping.ControllerSide": "控制器手把",
-        "Settings.HapticPointMapping.ControllerSide.Description": "觸覺要定位到哪個控制器手把?左邊還是右邊?",
+        "Settings.HapticPointMapping.ControllerSide.Description": "觸覺要定位到哪個控制器手把，左邊還是右邊？",
 
         "Settings.HapticPointMapping.Tag": "觸覺標籤",
         "Settings.HapticPointMapping.Tag.Description": "與觸覺點相關的標籤，訂定化身標籤觸覺點觸覺定位相配",
@@ -1600,7 +1604,7 @@
         "Settings.GiggleTechSettings.Devices.IP": "GigglePuck IP",
         "Settings.GiggleTechSettings.Devices.IsConnected": "GigglePuck 連接了嗎",
         "Settings.GiggleTechSettings.Devices.UseDevice": "使用該裝置",
-        "Settings.GiggleTechSettings.Devices.UseDevice.Description": "啟用或關閉個別 GigglePucs 裝置，關閉裝置將關閉該裝置的觸覺",
+        "Settings.GiggleTechSettings.Devices.UseDevice.Description": "啟用或關閉個別 GigglePuck 裝置，關閉裝置將關閉該裝置的觸覺",
         "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected": "永久視為已經連接",
         "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description": "勾選後，即使沒有檢測到 GigglePuck 裝置也會被視為已經連接。\n\n對於某些自動連接有問題的網路狀況有幫助",
         "Settings.GiggleTechSettings.Devices.IntensityScale": "強度等級",
@@ -1608,7 +1612,7 @@
         "Settings.GiggleTechSettings.Devices.Remove": "移除裝置",
         "Settings.GiggleTechSettings.Devices.CustomName": "自訂名稱",
         "Settings.GiggleTechSettings.Devices.CustomName.Description": "給這個 GigglePuck 設定名稱，不會影響到運作和識別。",
-        "Settings.GiggleTechSettings.Devices.Breadcrumb": "GigglePucks 設備",
+        "Settings.GiggleTechSettings.Devices.Breadcrumb": "GigglePuck 設備",
         "Settings.GiggleTechSettings.Devices.ActivationIntensity": "目前強度",
         "Settings.GiggleTechSettings.Devices.MinimumIntensity": "強度最小值",
         "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description": "這個是觸覺裝置運作時的最小強度，強度低於此將無任何觸覺輸出。",
@@ -1682,10 +1686,11 @@
 
         "Settings.AudioPerformanceSettings": "音訊效能設定",
         "Settings.AudioPerformanceSettings.MaxVoices": "最大發聲數",
-
+        "Settings.AudioPerformanceSettings.MaxVoices.Description": "這控制可以同時播放多少聲音。增加此值將讓您一次聽到更多聲音，但會消耗更多 CPU。<br><br>如果您將此設定得太高，可能會聽到音訊爆音。",
         "Settings.AudioPerformanceSettings.SimulationFrameSize": "模擬訊框大小",
-
+        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "這控制在渲染音訊時一次計算多少音訊資料。增加值可以在某些方面改善效能，但會帶來較不頻繁的音訊事件和增加的延遲。<br><br>一般來說，我們不建議更改此值並保持預設值 1024。",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "播放緩衝大小",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "這控制音訊播放的緩衝區大小。更高的值會有更多音訊延遲，但更能抵抗爆音。<br><br>透過降低此值，您可以減少音訊延遲，但系統會更容易出現爆音和中斷。",
 
         "Settings.VoiceSettings": "聲音配置",
         "Settings.VoiceSettings.MutePersistence": "登入時的麥克風狀態",
@@ -1695,7 +1700,7 @@
         "Settings.EarmuffSettings.EarmuffEnabled": "使用耳罩模式",
         "Settings.EarmuffSettings.EarmuffEnabled.Description": "開啟此模式，其他玩家的聲音將根據您與其他玩家間的距離增加而遞減",
         "Settings.EarmuffSettings.Directionality": "方向",
-        "Settings.EarmuffSettings.Directionality.Description": "控制聲音減弱的方向性，當數值為0 % 時，您身後與身前相同聲音的音量相同，當數值為100 % 時，您將聽不到任何身後的聲音(除非聲音來源在玩家正身後)",
+        "Settings.EarmuffSettings.Directionality.Description": "控制聲音減弱的方向性，當數值為 0% 時，您身後與身前相同聲音的音量相同，當數值為 100% 時，您將聽不到任何身後的聲音（除非聲音來源在玩家正身後）",
         "Settings.EarmuffSettings.Distance": "距離",
         "Settings.EarmuffSettings.Distance.Description": "控制您前方耳罩的距離。超過此距離，外在聲音音量將減少)",
         "Settings.EarmuffSettings.Angle": "角度",
@@ -1712,8 +1717,9 @@
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "偏好 Steam 網路連線",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "設置網路偏好連接 Steam。有助於 LNL 嚴重堵塞的情況，然而將會缺少部分功能與連線不穩定，僅建議在前述情況下開啟",
         "Settings.RealtimeNetworkingSettings.PreferTCP": "偏好使用 TCP",
-
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "啟用時，TCP 連接優先於所有其他協定。這主要影響區域網路上的連接，因為預設情況下 TCP 不用於網際網路連接。\n\nTCP 在區域網路上可以有更好的效能，並在某些 UDP 協定無法運作的網路上運作。\n\n然而它們也可能遭受「隊首阻塞」，導致語音和動作顯著延遲。",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL 窗口大小",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "這控制即時網路的 LNL 協定視窗大小。更改此設定將在所有活動會話中立即生效。\n\n如果您遇到任何封包排隊，可以增加此值以改善連接吞吐量。然而，更高的值也可能進一步不穩定連接，所以要小心。\n\n<color=hero.yellow>預設值：</color> 64\n\n<color=hero.red>重要：</color> 此設定用於診斷和臨時解決方案；此值將在未來自動調整。",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "最大同時物件傳輸數量",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "活動開啟時，容許同時間傳輸物件的數量，增加數值將使得同時間內傳輸本地物件增加，但也會同時降低網路連線品質，建議設置在網路最高承受流量數值以下",
@@ -1745,6 +1751,7 @@
         "Settings.DebugSettings.DebugInputBindings": "顯示輸入綁定系統的除錯用訊息",
         "Settings.DebugSettings.DebugInputBindings.Description": "開啟時，會顯示輸入綁定系統的除錯用資訊，本功能對開發者較為有用。",
         "Settings.DebugSettings.ConvertParticleSystems": "將粒子系統轉換為 PhotonDust",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "啟用此選項將對任何<b>新</b>載入的物品和世界執行從舊版粒子系統到新自訂系統 (PhotonDust) 的轉換。<br><br><color=red>這僅供測試目的！</color>如果您不是測試的一部分，我們不建議打開此選項，您的內容可能會因此損壞。<br><br>如果您想幫助測試，請查看我們的 GitHub/Discord。",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "壓兩下握把裝備",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "握兩下握把按鈕即可裝備物件或工具",
@@ -1754,8 +1761,10 @@
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "開啟後，握住握把並按下 App 鍵（用來開啟儀表板的那個按鈕），會開啟舊版的物品欄或活動選單。",
 
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "關閉腳部模擬",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "這是為了讓某些功能（如劫持腳部代理的擺姿工具）能夠運作，而無需修改它們。<br><br>如果您在不使用擺姿工具或類似功能的情況下開啟此功能，動畫將看起來不正確。不使用擺姿工具時請關閉此功能。<br><br><color=hero.red>重要：</color> 這很可能會在某個時候被移除，我們建議升級擺姿工具以與新系統相容，能夠在使用時時自動關閉腳部模擬。",
 
         "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "保留舊版迴音區域處理模式",
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "開啟時，任何啟用空間化的舊版音訊內容將自動忽略迴音區域，以保留舊版音訊系統的限制。<br><br>開啟此設定並重新載入舊版內容。一旦您儲存轉換後的舊版內容，選擇將被「固化」，之後您必須手動更改。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch 頻道名稱",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "相機控制面板中的 Twitch 聊天面板設置預設的 Twitch 頻道名稱",
@@ -1764,17 +1773,17 @@
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "開啟後其他使用者將看不到您已讀了他們的訊息，反之你也看不到他們已讀了您的訊息",
 
         "Settings.LocaleSettings.CultureLocaleCode": "區域格式",
-        "Settings.LocaleSettings.CultureLocaleCode.Description": "設定覆蓋預設的數字和其他單位格式。正常情況下，所選語言已包含其預設區域格式，此設置可以改變您選擇，例如，使用你的母语语言和美国区域格式来显示内容。",
+        "Settings.LocaleSettings.CultureLocaleCode.Description": "設定後，會覆蓋預設的區域格式，例如數字和其他單位。正常情況下，所選語言已包含其預設區域格式，本選項可以讓你混用不同語言與區域格式。例如：使用你的母語以及美國區域格式。",
         "Settings.LocaleSettings.UseImperialUnits": "使用英制度量衡單位",
         "Settings.LocaleSettings.UseImperialUnits.Description": "使用英制度量衡單位（長度/高度、重量、體積等）。",
         "Settings.LocaleSettings.AvailableLocales": "選擇語言",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "語言",
         "Settings.LocaleSettings.AvailableLocales.SystemLocale": "使用系統語言",
 
-        "Settings.DashSettings.DashCurvature": "面板曲度",
-        "Settings.DashSettings.DashCurvature.Description": "這個控制在VR模式下主面板的曲度，若設置為0則主面板將會完全平坦",
+        "Settings.DashSettings.DashCurvature": "儀表板曲度",
+        "Settings.DashSettings.DashCurvature.Description": "這個控制在VR模式下儀表板的曲度，若設置為0則主面板將會完全平坦",
         "Settings.DashSettings.OpenCloseSpeed": "打開/關閉速度",
-        "Settings.DashSettings.OpenCloseSpeed.Description": "打開和關閉面板動畫的耗時，您若不喜歡該開閉動畫可以將數值調到很高",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "打開和關閉儀表板動畫的動畫時長，您若不喜歡該動畫可以將數值調到很高，使其能夠近乎立即開啟或關閉。",
         "Settings.DashSettings.AllowReplacingSettings": "允許替換設定面板",
         "Settings.DashSettings.AllowReplacingSettings.Description": "開啟即可在使用者介面編輯模式下自由編輯、替換主面板上的配置，\n\n若您想選出單個面板圖標項目重新排版則需要關閉此配置",
 
@@ -1790,7 +1799,7 @@
         "Settings.NotificationSettings.Invite": "活動邀請",
         "Settings.NotificationSettings.Invite.Description": "收到活動的邀請時自動彈跳出通知",
         "Settings.NotificationSettings.InviteRequest": "邀請請求",
-
+        "Settings.NotificationSettings.InviteRequest.Description": "這控制當您收到可以回應的邀請請求時是否會收到通知。",
         "Settings.NotificationSettings.ContactRequest": "好友請求",
         "Settings.NotificationSettings.ContactRequest.Description": "在收到好友請求時自動彈跳出通知",
         "Settings.NotificationSettings.ContactSessionStarted": "新的好友活動",
@@ -1800,6 +1809,7 @@
         "Settings.NotificationSettings.UserJoinAndLeave": "玩家加入/離開通知",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "任何玩家加入或是離開當前的世界自動彈跳出通知",
         "Settings.NotificationSettings.PermissionChanged": "權限變更",
+        "Settings.NotificationSettings.PermissionChanged.Description": "啟用時，當您在世界中的權限角色發生變化時，您將收到通知。例如，當您從訪客變更為建築者時。",
 
         "Settings.NamePlateSettings.NameplateVisibility": "名牌可見度",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "選擇誰能看見您的名牌",
@@ -1811,14 +1821,14 @@
         "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "開啟時，您就可以編輯主面板上、手部、或是視窗個別的單一圖標項目的配置\n\n記得在完工的時候關閉此設定!",
 
         "Settings.FacetAnchorsSettings": "Facet錨點",
-        "Settings.FacetAnchorsSettings.UseFacetAnchors": "使用Facet錨點",
-        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "開啟可以使用右控制器切換手臂上的Facet錨點，除了主面板，這些錨點提供放置任何的錨點空間以便快速取用",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors": "使用 Facet 錨點",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "開啟可以使用右控制器切換手臂上的 Facet 錨點，提供除了主面板外放置 Facet 的空間供快速取用",
         "Settings.FacetAnchorsSettings.AnimationSpeed": "顯示/隱藏動畫播放速度",
         "Settings.FacetAnchorsSettings.AnimationSpeed.Description": "切換錨點時出現/隱藏時的速度",
         "Settings.FacetAnchorsSettings.FacetAnchorToggle": "控制器切換",
-        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "將控制哪個控制器來切換Facet錨點，該主面板將與另一個控制器進行切換",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "將控制哪個控制器來切換 Facet 錨點，該主面板將與另一個控制器進行切換",
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "顯示背景",
-        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Facet錨點的背景視覺效果開關",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Facet 錨點的背景視覺效果開關",
 
         "Settings.LaserSettings.SmoothSpeed": "雷射平滑速度",
         "Settings.LaserSettings.SmoothSpeed.Description": "控制雷射對您的移動時的反應速度，較低的數值雷射移動將更為遲緩，降低抖動，較高的數值雷射移動較為即時，但抖動將增強",
@@ -1832,25 +1842,34 @@
         "Settings.LaserSettings.ModulateSpeedMultiplier.Description": "到達最高調整角度速度後乘以此值。手移動到足夠遠的距離後，增加此值雷射光更快跟上手部指向的方向，降低反之更慢更上手部指向的方向",
         "Settings.LaserSettings.StickThreshold": "雷射吸附閾值",
         "Settings.LaserSettings.StickThreshold.Description": "控制雷射光吸附物件的取向。數值越大，雷射自動吸附物件性質越強，數值若為0，雷射對物件無任何吸附的效果",
-        "Settings.LaserSettings.ShowInDesktop": "在桌機模式下開啟雷射",
-        "Settings.LaserSettings.ShowInDesktop.Description": "開啟後，第一人稱桌機模式開啟雷射視覺效果",
+        "Settings.LaserSettings.ShowInDesktop": "在桌面模式下開啟雷射",
+        "Settings.LaserSettings.ShowInDesktop.Description": "開啟後，第一人稱桌面模式時會開啟雷射視覺效果",
 
         "Settings.EditSettings": "編輯設定",
-        "Settings.EditSettings.ConfirmComponentDestroy": "銷毀物件時再次確認",
-
+        "Settings.EditSettings.ConfirmComponentDestroy": "銷毀組件時再次確認",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "啟用時，在場景檢視器中銷毀組件前會要求確認。這有助於防止因誤點而意外銷毀組件。",
         "Settings.EditSettings.ConfirmSlotDestroy": "銷毀 Slot 時再次確認",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "啟用時，使用開發者工具銷毀 Slot 前會要求確認。這可以防止因誤點而意外銷毀物件。",
 
         "Settings.CursorSettings": "游標設定",
 
         "Settings.CursorSettings.BaseCursorSize": "基本游標大小",
+        "Settings.CursorSettings.BaseCursorSize.Description": "這設定基本游標大小。我們建議先設定這個，再調整其他設定，因為它們的大小是相對於此的。",
 
         "Settings.CursorSettings.GrabMultiplier": "握持物件時的縮放倍率",
+        "Settings.CursorSettings.GrabMultiplier.Description": "這在您抓取物體和物品時作為游標的倍數應用。",
 
         "Settings.CursorSettings.InteractionMultiplier": "互動時的縮放倍率",
+        "Settings.CursorSettings.InteractionMultiplier.Description": "這在您與按鈕等UI元素互動時作為游標的倍數應用。",
 
         "Settings.CursorSettings.TextMultiplier": "與文字互動時的縮放倍率",
+        "Settings.CursorSettings.TextMultiplier.Description": "這在您與文字互動和操作時作為游標的倍數應用。",
 
         "Settings.CursorSettings.SliderMultiplier": "與滑桿互動時的縮放倍率",
+        "Settings.CursorSettings.SliderMultiplier.Description": "這在您與滑桿和捲軸互動時作為游標的倍數應用。",
+
+        "Settings.CursorSettings.DirectCursorEnabled": "啟用直接游標",
+        "Settings.CursorSettings.DirectCursorEnabled.Description": "啟用時，顯示直接游標。\n\n直接游標是您的游標在空間中的點，沒有其他設定或系統進行任何平滑或調整。",
 
         "Settings.DesktopViewSettings.FollowCursor": "跟隨游標",
         "Settings.DesktopViewSettings.FollowCursor.Description": "開啟後，桌面自動切換到滑鼠游標所在的螢幕，適合在 VR 模式時使用實體滑鼠與鍵盤的情況下開啟",
@@ -1860,17 +1879,17 @@
         "Settings.DesktopViewSettings.Opacity.Description": "降低會使桌面畫面呈現半透明的狀態，可以看到桌面畫面後方的視野",
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "使用手指拍照手勢",
-        "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "開啟該功能後，您只需將手指擺成相框的形狀,然後蜷曲食指，就能在世界中快速拍照",
+        "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "開啟該功能後，您只需將手指擺成相框的形狀，然後蜷曲食指，就能在世界中快速拍照",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "照片解析度",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "這將設置手指手勢或桌面快捷鍵擷取的普通照片解析度。更高的解析度需要更多的時間和儲存空間處理，但能提供更多的細節。",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution": "定時拍照解析度",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "類似於普通照片解析度，你可以為定時拍照設定不同的解析度，有助於使用定時拍照拍攝更高解析度的團體照片",
         "Settings.PhotoCaptureSettings.TimerSeconds": "定時器倒數設定",
-        "Settings.PhotoCaptureSettings.TimerSeconds.Description": "使用定時器拍照倒數計時的秒數",
-        "Settings.PhotoCaptureSettings.HandsNearFOV": "手部與視角的最近距離",
-
-        "Settings.PhotoCaptureSettings.HandsFarFOV": "手部與視角的最遠距離",
-
+        "Settings.PhotoCaptureSettings.TimerSeconds.Description": "使用定時器拍照倒數計時的秒數。",
+        "Settings.PhotoCaptureSettings.HandsNearFOV": "手部靠近頭時的視角",
+        "Settings.PhotoCaptureSettings.HandsNearFOV.Description": "使用手指拍照時，手最靠近頭時，拍攝的視角範圍。",
+        "Settings.PhotoCaptureSettings.HandsFarFOV": "手部遠離頭時的視角",
+        "Settings.PhotoCaptureSettings.HandsFarFOV.Description": "使用手指拍照時，手最遠離頭時，拍攝的視角範圍。",
         "Settings.PhotoCaptureSettings.CaptureStereo": "拍攝立體照片",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "當開啟時，所有的快速截圖照片都是立體的，可以在VR模式下觀看。",
         "Settings.PhotoCaptureSettings.StereoSeparation": "立體距離",
@@ -1895,146 +1914,162 @@
         "Settings.DesktopRenderSettings.VSync": "垂直同步(VSync)",
         "Settings.DesktopRenderSettings.VSync.Description": "當選項開啟後, 更新速率會與您的螢幕更新率同步。關閉此選項可以解除幀數上限，但可能導致畫面撕裂。\n\n若您需要進行效能測試，關閉這個選項可以解除更新與渲染的速度上限\n\n<color=hero.red>重要:</color> 此設定無法在VR模式下切換，因為更新速率是由VR控制。",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "當程式在背景時限制 FPS",
-
+        "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "啟用時，當應用程式視窗不在焦點時，幀率將限制為設定值。如果您同時使用其他程式和遊戲，這會很有用，因為它會為它們釋放更多資源。",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "背景狀態最大 FPS",
+        "Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description": "這決定在背景時允許的最大幀率。較低的值將節省更多系統資源。",
 
         "Settings.InteractiveCameraFramingSettings.PositioningMode": "定位模式",
-
+        "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "這控制互動式相機在世界中的定位方式。",
         "Settings.InteractiveCameraFramingSettings.FieldOfView": "視野",
-
+        "Settings.InteractiveCameraFramingSettings.FieldOfView.Description": "互動式相機的視野。更高的值將捕捉更多場景，但邊緣會有變形。",
         "Settings.InteractiveCameraFramingSettings.AnglePosition": "角度",
-
+        "Settings.InteractiveCameraFramingSettings.AnglePosition.Description": "在第三人稱或群組模式中，這控制目標對象/群組圓圈周圍的位置。",
         "Settings.InteractiveCameraFramingSettings.Distance": "距離",
-
+        "Settings.InteractiveCameraFramingSettings.Distance.Description": "在第三人稱或群組模式中，這控制相機距離目標對象/群組的遠近。",
         "Settings.InteractiveCameraFramingSettings.HeightOffset": "高度差",
-
+        "Settings.InteractiveCameraFramingSettings.HeightOffset.Description": "在第三人稱或群組模式中，這讓您相對於目標對象/群組上下移動相機。",
         "Settings.InteractiveCameraFramingSettings.FirstPersonPitch": "第一人稱視角的仰角",
-
+        "Settings.InteractiveCameraFramingSettings.FirstPersonPitch.Description": "在第一人稱模式中，使用此功能上下俯仰相機。",
         "Settings.InteractiveCameraFramingSettings.FirstPersonRoll": "第一人稱視角的翻滾角",
-
+        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll.Description": "在第一人稱模式中，這控制相機的側向旋轉 - 左右傾斜",
         "Settings.InteractiveCameraFramingSettings.FirstPersonOffset": "第一人稱視角的距離差",
-
+        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset.Description": "使用此功能在第一人稱視角中相對於您的眼睛移動相機偏移。這可在化身面部幾何體剪切到相機視野中時使用。",
         "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "第三人稱視角的取景位置",
-
+        "Settings.InteractiveCameraFramingSettings.FramingViewportPosition.Description": "這些是相機視角中的標準化座標。相機將嘗試將目標（例如第三人稱模式中的使用者頭部）框在視角中的此位置。",
         "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "相機對準頭部的前面",
+        "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead.Description": "相機不是直接指向使用者的頭部，而是嘗試瞄準使用者頭部前方的點。這在您想要框住使用者正在看的內容（例如世界內物品和介面）時很有用。",
 
         "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion": "避免與物體碰撞",
-
+        "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion.Description": "如果相機的視野會被可碰撞物體遮擋，它將自動移動得更近以避免遮擋。",
         "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace": "維持在世界空間",
-
+        "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace.Description": "確保相機保持在根世界空間中，而不是將自己置於與使用者相同的空間中。這在使用使用者錨點（例如在載具中）時可以提供更好的框取和定位。",
         "Settings.InteractiveCameraPositioningSettings.MovementWobble": "晃動效果",
+        "Settings.InteractiveCameraPositioningSettings.MovementWobble.Description": "這為相機的位置添加隨時間變化的隨機移動偏移。這可以讓拍攝看起來不那麼靜態，特別是當您不太移動時。",
 
         "Settings.InteractiveCameraRenderSettings.HideAllBadges": "隱藏名牌",
-
+        "Settings.InteractiveCameraRenderSettings.HideAllBadges.Description": "無論您的徽章設定如何，相機都不會渲染任何使用者徽章。",
         "Settings.InteractiveCameraRenderSettings.HideAllLasers": "隱藏雷射",
-
+        "Settings.InteractiveCameraRenderSettings.HideAllLasers.Description": "相機將不會渲染任何使用者互動雷射。",
         "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera": "使用者眼睛保持直視相機",
+        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera.Description": "當化身使用模擬眼部運動（意味著使用者沒有眼部追蹤）時，這將讓化身優先與相機進行眼神接觸。",
 
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius": "群組偵測半徑",
-
+        "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius.Description": "在此距離內的使用者將被添加到相機在群組模式中自動框取的群組中。",
         "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary": "使用者離開群組的距離",
+        "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary.Description": "使用者需要從群組半徑移動多遠才會被排除在群組之外。",
 
         "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed": "位置平滑化速度",
-
+        "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed.Description": "這指示相機移動到世界中目標位置的速度。更大的值將讓相機移動更快，但也會導致更顛簸的移動。",
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "角度平滑化速度",
-
+        "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed.Description": "這指示相機對目標對象周圍角度變化的反應速度。",
         "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed": "取景平滑化速度",
+        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed.Description": "這控制相機調整其對目標對象框取的速度。更大的值將讓它追蹤目標更快，但也會導致更顛簸的移動。",
 
         "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors": "在錨點之間移動",
-
+        "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors.Description": "啟用時，相機將在世界中的相機錨點之間平滑插值。",
         "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed": "移動速度",
-
+        "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed.Description": "啟用錨點間插值時，這控制相機從一個錨點移動到另一個錨點的速度。",
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation": "使用線性移動",
+        "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "啟用此功能可在錨點間移動時使用線性插值而不是平滑插值。線性插值突然開始和停止，但有恆定的移動速度，無論錨點間距離如何。這意味著如果錨點距離更遠，相機需要更長時間才能到達。",
 
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "將已拍攝的相片生成在世界內",
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "當您使用互動式相機對話框拍攝照片時，它們應該生成在世界中嗎？停用時，它們將只儲存到您的文檔或物品欄中（如果配置了自動儲存）",
 
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "動態模糊",
-
+        "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "相機是否應該渲染動態模糊效果？",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "螢幕空間反射",
+        "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "相機是否應該渲染螢幕空間反射效果？這可以為光滑表面提供更好的反射，但可能導致人工痕跡和增加的效能需求。",
 
         "Settings.InteractiveCameraAudioSettings": "音效",
         "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "收錄自己的聲音",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "當互動式相機的音訊輸出分離到自己的音訊裝置時，這控制相機是否會聽到您自己的聲音。<br><br>這有助於讓您自己的聲音完全空間化地渲染，就像世界中其他使用者聽到的一樣。<br><br>當此選項開啟時，請確保在您的錄製軟體中停用麥克風捕捉。",
 
         "Settings.DescriptionField.NoTextTitle": "更多資訊",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>指向選項以檢視描述。</closeall>",
 
         "Settings.RelaySettings": "網路轉發設定",
         "Settings.RelaySettings.AlwaysUseRelay": "強制使用轉發伺服器來連線",
-
+        "Settings.RelaySettings.AlwaysUseRelay.Description": "轉發伺服器通常用作當無法建立與主機的直接連接時的備用方案。啟用此選項，將會強制透過轉發伺服器進行連接。\n\n這在與特定主機的連接問題情況下可能有用。<b>不建議</b>永久開啟此選項。",
         "Settings.RelaySettings.UseClosestAvailableRelay": "使用最近可用的轉發伺服器",
-
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description": "啟用此選項時，將自動選擇最近可用的轉發伺服器。如果您想通過特定轉發伺服器連接（例如在長距離連接的情況下避免封包排隊），您可以停用此選項並在下方配置首選的轉發伺服器。",
         "Settings.RelaySettings.RelayPriorities": "設定轉發伺服器的優先順序",
+        "Settings.RelaySettings.RelayPriorities.Breadcrumb": "轉發優先順序",
 
         "Settings.VideoStreamingServicesSettings": "網路串流服務",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "從瀏覽器取得 Cookie",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "如果 YouTube 和其他服務影片無法為您載入，請選擇您通常用來載入 cookie 的瀏覽器來取得這些影片。這會增加影片成功載入的機會。",
 
         "Settings.PostProcessingSettings": "畫面後處理設定",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "動態模糊強度",
-
+        "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "這控制動態模糊效果的強度，會在移動時產生圖像拖影。更高的數值會在相同的動作量下產生更多模糊。\n\n如果您將效果設定為 <nobr><color=hero.yellow>0 %</color></nobr>，過濾器將完全停用，可以提升效能。",
         "Settings.PostProcessingSettings.BloomIntensity": "光暈強度",
-
+        "Settings.PostProcessingSettings.BloomIntensity.Description": "光暈效果會讓場景中明亮的物體產生發光效果，通常是 HDR 範圍的物體。這讓您可以控制在相同光源下此效果的強度。\n\n請注意，當此效果設定為低或停用時，某些內容可能看起來不正確。\n\n如果您將效果設定為 <nobr><color=hero.yellow>0 %</color></nobr>，過濾器將完全停用，可以提升效能。",
         "Settings.PostProcessingSettings.AmbientOcclusionIntensity": "環境光遮蔽強度",
-
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description": "環境光遮蔽會使場景中的縫隙和角落變暗，這些地方通常接收較少光線。這可以為場景增加更多深度和真實感。使用此控制您可以控制效果的強度。\n\n請注意，將此設定得太低或停用時，某些內容可能看起來不正確或完全平坦。\n\n如果您將效果設定為 <nobr><color=hero.yellow>0 %</color></nobr>，過濾器將完全停用，可以提升效能。",
         "Settings.PostProcessingSettings.ScreenSpaceReflections": "螢幕空間反射<size=75%>（實驗功能）</size>",
-
+        "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "啟用時，相機目前可見的任何場景部分都會即時反映在光滑表面上。這可以為場景增加更多真實感並改善光滑表面的外觀，但會增加額外的效能成本。\n\n請注意，此過濾器目前被視為實驗性功能，在許多情況下效果不佳，會產生鬼影反射和人工痕跡。",
         "Settings.PostProcessingSettings.Antialiasing": "反鋸齒",
+        "Settings.PostProcessingSettings.Antialiasing.Description": "反鋸齒能夠平滑場景中物體的鋸齒邊緣。您可以從幾個不同的過濾器中選擇，每種過濾器都有不同的缺點。FXAA 是常用的選擇並且效果還算不錯，但也可能會模糊場景的其他部分，如文字。\n\n<color=red>警告：</color> 某些反鋸齒選項可能不適用或在 VR 中完全無法使用。",
 
         "Settings.TextureQualitySettings": "貼圖品質",
         "Settings.TextureQualitySettings.TextureSizeRatio": "相對貼圖大小",
-
+        "Settings.TextureQualitySettings.TextureSizeRatio.Description": "這決定所有將要載入的貼圖的相對大小。您可以使用此功能降低貼圖的整體解析度，這會改善 VRAM 使用量和載入速度，但會犧牲視覺清晰度。\n\n例如，如果貼圖是 4K 而您將此設定為一半解析度，將會載入 2K 版本的貼圖。",
         "Settings.TextureQualitySettings.TextureSizeLimit": "最大貼圖大小",
-
+        "Settings.TextureQualitySettings.TextureSizeLimit.Description": "使用此功能限制載入貼圖的最大解析度。任何超過此解析度的貼圖都將被限制在設定的解析度。任何小於此解析度的貼圖將不受影響。\n\n此設定在相對貼圖大小之後應用。",
         "Settings.TextureQualitySettings.MinimumTextureSize": "採用相對貼圖大小的最小解析度",
-
+        "Settings.TextureQualitySettings.MinimumTextureSize.Description": "這控制將被上述設定限制的貼圖的最小解析度。如果貼圖低於此大小，將按原樣載入。\n\n例如，如果您將此設定為 512，那麼如果貼圖為 256，即使貼圖大小比例設定為一半，仍會以 256 載入。",
         "Settings.TextureQualitySettings.DefaultFilterMode": "貼圖過濾",
-
+        "Settings.TextureQualitySettings.DefaultFilterMode.Description": "這控制貼圖使用的過濾方式，控制它們的品質和效能。\n\n<color=hero.yellow>Point：</color> 點採樣，最低品質，無插值。貼圖會顯得塊狀。\n\n<color=hero.yellow>Bilinear：</color> 雙線性，貼圖像素會被插值，但 mip 映射轉換會很尖銳，導致可見的轉換線。\n\n<color=hero.yellow>Trilinear：</color> 三線性，在不同 mipmap 等級之間平滑轉換，移除遠距離的尖銳轉換線。\n\n<color=hero.yellow>Anisotropic：</color> 各向異性，最高品質，即使在陡峭角度下貼圖也會保持銳利。",
         "Settings.TextureQualitySettings.AnisotropicLevel": "各向異性過濾等級",
-
+        "Settings.TextureQualitySettings.AnisotropicLevel.Description": "控制各向異性過濾的品質。",
         "Settings.TextureQualitySettings.ReloadAllTextures": "重新載入全部貼圖（可能會卡頓）",
 
         "Settings.GaussianSplatQualitySettings": "高斯潑濺渲染品質設定",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "每個相機一次處理的排序指令數量（百萬）",
-
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description": "渲染高斯潑濺時，必須為每個相機對潑濺進行排序。目前，此操作可能會十分繁重，因此會分散在時間上以改善整體幀率。<br><br><color=hero.yellow>增加</color>數值可使排序更快進行。這會減少在高斯潑濺周圍快速改變視角時的人工痕跡。<br><br><color=hero.yellow>減少</color>數值可以降低 GPU 使用量，如果您的 GPU 難以處理。但這會在您快速改變視角時增加人工痕跡。",
         "Settings.GaussianSplatQualitySettings.QualityPreset": "品質預置設定",
-
+        "Settings.GaussianSplatQualitySettings.QualityPreset.Description": "這控制渲染的高斯潑濺品質和它們的 VRAM 使用量。更高的品質將使用更多 VRAM。<br><br><color=hero.yellow>Very Low：</color> 約小 18.62 倍<br><color=hero.yellow>Low：</color> 約小 14 倍<br><color=hero.yellow>Medium：</color> 約小 5.14 倍<br><color=hero.yellow>High：</color> 約小 2.94 倍<br><color=hero.yellow>Very High：</color> 未壓縮（原始）",
         "Settings.GaussianSplatQualitySettings.MinLocalQuality": "本地匯入的壓縮品質",
-
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description": "對於本地匯入的高斯潑濺，品質永遠不會低於此數值。<br><br>我們不建議將此設定低於中等，因為更低的品質級別更加強烈且壓縮時間更長，應該留給雲端壓縮。<br><br>將此設定為非常高將使高斯潑濺在匯入後載入更快，因為不需要壓縮，但會使用大量 VRAM。",
         "Settings.GaussianSplatQualitySettings.AdvancedQuality": "進階品質設定",
-
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description": "啟用時，您可以配置用於不同高斯潑濺緩衝區的特定編碼。這給您非常細精的品質控制。它也可以用於測試/診斷目的。",
         "Settings.GaussianSplatQualitySettings.PositionFormat": "定位資料格式",
-
+        "Settings.GaussianSplatQualitySettings.PositionFormat.Description": "用於潑濺位置的編碼",
         "Settings.GaussianSplatQualitySettings.ScaleFormat": "縮放資料格式",
-
+        "Settings.GaussianSplatQualitySettings.ScaleFormat.Description": "用於潑濺縮放的編碼",
         "Settings.GaussianSplatQualitySettings.ColorFormat": "顏色資料格式",
-
+        "Settings.GaussianSplatQualitySettings.ColorFormat.Description": "用於潑濺顏色和不透明度的編碼",
         "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat": "球諧函數 (Spherical Harmonics) 資料格式",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description": "用於潑濺的球諧函數資料的編碼",
 
         "Settings.ResolutionSettings": "解析度設定",
         "Settings.ResolutionSettings.Fullscreen": "全螢幕",
-
+        "Settings.ResolutionSettings.Fullscreen.Description": "在全螢幕模式和視窗模式之間切換",
         "Settings.ResolutionSettings.WindowResolution": "視窗解析度",
-
+        "Settings.ResolutionSettings.WindowResolution.Description": "視窗模式時使用的解析度。這控制螢幕上視窗的實際大小。",
         "Settings.ResolutionSettings.FullscreenResolution": "全螢幕解析度",
-
+        "Settings.ResolutionSettings.FullscreenResolution.Description": "全螢幕模式時使用的解析度。大小將保持相同，但降低解析度可以改善效能（特別是在 4K 等高解析度螢幕上），但會使圖像更加模糊。",
         "Settings.ResolutionSettings.ApplyResolution": "套用設定",
 
         "Settings.RenderingQualitySettings": "渲染品質設定",
         "Settings.RenderingQualitySettings.PerPixelLights": "逐像素光照光源數上限",
-
+        "Settings.RenderingQualitySettings.PerPixelLights.Description": "這控制有多少點光源和聚光燈可以直接影響使用前向方法渲染的物體 - 通常是透明和非 PBS 物體（例如使用卡通著色器）。\n\n提高此數值將改善光照品質並減少在多個光源存在時的顏色閃爍，但會犧牲效能 - 物體需要為影響它的每個光源渲染多次。",
         "Settings.RenderingQualitySettings.ShadowCascades": "陰影層級",
-
+        "Settings.RenderingQualitySettings.ShadowCascades.Description": "這控制世界中定向光照陰影的解析度層級。層級能更好地分配陰影映射的解析度 - 在近距離提供更高的陰影解析度，在遠距離提供更低的解析度，但需要更多效能來渲染。",
         "Settings.RenderingQualitySettings.ShadowResolution": "陰影解析度",
-
+        "Settings.RenderingQualitySettings.ShadowResolution.Description": "這控制光源陰影的解析度。提高此數值將讓陰影邊緣更平滑且定義更好，但會增加效能需求。\n\n請注意，某些光源可能會覆蓋陰影解析度且不會受此設定影響。",
         "Settings.RenderingQualitySettings.ShadowDistance": "陰影距離",
-
+        "Settings.RenderingQualitySettings.ShadowDistance.Description": "這控制陰影所覆蓋的距離。提高此數值將確保場景的更遠部分被陰影正確覆蓋，但這也會在更大區域上分散陰影的細節。\n\n您應該與陰影層級和解析度一起更改此設定 - 使用更高的陰影解析度，您可以承受更高的陰影距離。如果您降低陰影解析度和層級，您會想要降低陰影距離以使陰影有更好的定義。",
         "Settings.RenderingQualitySettings.SkinWeightMode": "綁定權重數",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description": "對於任何蒙皮網格（由骨骼變形的 3D 模型，如大多數化身），這控制有多少骨骼用於影響每個頂點的位置。\n\n降低此數值會節省一些效能，但變形品質會降低，通常會在關節附近產生銳利的折痕和其他人工痕跡。",
 
         "Settings.ImportSettings": "匯入設定",
         "Settings.ImportSettings.SessionUrls": "匯入活動 URL 時的行為",
-
+        "Settings.ImportSettings.SessionUrls.Description": "當匯入活動 URL 時，應該做什麼。可用選項為：\n\n<color=hero.yellow>Open</color> - 開啟活動。\n<color=hero.yellow>SpawnInterface</color> - 在您目前的位置生成 URL 的代表（如活動球）。\n<color=hero.yellow>SpawnUrl</color> - 在您目前的位置將 URL 作為 URL 介面生成。",
         "Settings.ImportSettings.WorldUrls": "匯入世界 URL 時的行為",
-
+        "Settings.ImportSettings.WorldUrls.Description": "當匯入世界 URL 時，應該做什麼。可用選項為：\n\n<color=hero.yellow>Open</color> - 開啟世界。\n<color=hero.yellow>SpawnInterface</color> - 在您目前的位置生成世界的代表（如世界球）。\n<color=hero.yellow>SpawnUrl</color> - 在您目前的位置將 URL 作為 URL 介面生成。",
         "Settings.ImportSettings.NetworkUrls": "匯入網路 URL 時的行為",
+        "Settings.ImportSettings.NetworkUrls.Description": "當匯入網路 URL 時，應該做什麼。可用選項為：\n\n<color=hero.yellow>Open</color> - 開啟通往活動 URL 的連結。\n<color=hero.yellow>SpawnInterface</color> - 在您目前的位置生成 URL 的代表（如活動球）。\n<color=hero.yellow>SpawnUrl</color> - 在您目前的位置將 URL 作為 URL 介面生成。",
 
         "Settings.MysterySettings": "神秘設定",
 
