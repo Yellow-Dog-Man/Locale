@@ -3441,9 +3441,11 @@
 
         "Help.Advanced.Syncing": "同步机制",
         "Help.Advanced.Syncing.Content": "物品/世界保存至物品库时，将通过<b><color=hero.purple>同步</closeall>过程上传云端。大型资源同步可能耗时较长，但世界同步开始后你仍可继续编辑（实际同步的是保存时的快照）。<br><br>异常关闭时：<br>• 未完成同步的资源将暂存本地<br>• 重启{appName}后自动恢复同步<br>• <b><color=hero.red>切勿删除缓存或数据文件夹！</closeall><br><br>遇到<b><color=hero.red>同步错误</closeall>时，请根据错误类型参考下方维基解决方案：",
-
+        "Help.Advanced.CloudVariables": "默认云变量",
+        "Help.Advanced.CloudVariables.Content": "这些 <b><color=hero.purple>云变量</closeall> 由{appName}提供，你可以自由使用。如需了解更多有关云变量，请查看我们的维基。",
         "Help.Advanced.CloudVariables.Content2": "创建自定义云变量命令：",
         "Help.Advanced.CloudVariables.CloudVariableLink": "云变量命令集",
+        
         "Help.Advanced.CloudVariables.PrimaryColor": "主自定义色",
         "Help.Advanced.CloudVariables.PrimaryColor.Content": "默认虚拟形象金属镶边/眼睛/嘴部着色，建议用于物品/UI的主色调",
         "Help.Advanced.CloudVariables.SecondaryColor": "次自定义色",
@@ -3476,6 +3478,8 @@
         "Help.LinksAndResources.PlatformSocials.PlatformMastodon": "{appName}Mastodon（404）",
         "Help.LinksAndResources.PlatformSocials.PlatformTikTok": "{appName}国际版抖音",
 
+        "Help.LinksAndResources.RTF": "富文本格式",
+        "Help.LinksAndResources.RTF.Content": "<b><color=hero.purple>RTF</closeall>通过<b><color=hero.cyan>标签</closeall>增强文本渲染效果，支持以下格式（详见维基）：",
         "Help.LinksAndResources.RTF.Bold": "粗体",
         "Help.LinksAndResources.RTF.Bold.Content": "<b>示例文本</b>",
         "Help.LinksAndResources.RTF.Italics": "斜体",
@@ -3623,7 +3627,7 @@
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables.UserCloudVariables.Command": "/CreateUserVar <路径> <类型> <默认值> <读取权限> <写入权限> <列表权限>",
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables.UserCloudVariables.SecondaryCommand": "/GetUserVar <路径>",
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables.GroupCloudVariables.Command": "/CreateGroupVar <路径> <类型> <默认值> <读取权限> <写入权限> <列表权限>",
-        "Help.LinksAndResources.PlatformBotCommands.CloudVariables.GroupCloudVariables.SecondaryCommand": "/GetGroupVar <群组名> <路径>",
+        "Help.About.Badges.StaffAndVolunteers.PlatformTeamHelp.LinksAndResources.PlatformBotCommands.CloudVariables.GroupCloudVariables.SecondaryCommand": "/GetGroupVar <群组名> <路径>",
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables.GetCloudVariableValue.Command": "/GetUserVarValue <路径>",
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables.GetCloudVariableValue.SecondaryCommand": "/GetGroupVarValue <群组名> <路径>",
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables.SetCloudVariableValue.Command": "/SetUserVarValue <路径> <值>",
