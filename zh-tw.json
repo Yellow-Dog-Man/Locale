@@ -584,10 +584,10 @@
         "Account.TOTP.Message.Error": "遭遇意外錯誤！請稍候重試。",
         "Account.TOTP.Message.SetupComplete": "<size=150%>恭喜！</size><br><br>您的帳戶已啟用雙重認證並享受其帶來的額外保護！<br><br>您還可以用 /enableLogin2FA 指令啟用此帳戶登錄時的雙重認證。",
         "Account.TOTP.Deactivate.Header": "取消雙重認證",
-        "Account.TOTP.Deactivate.Description": "目前雙重認證已 <b><color=green>在你的帳戶上設定並啟用</color></b>。如果你需要取消它（例如：遺失手機或者備用碼遭泄漏），你可以在此處進行操作。<br><br>取消雙重認證後，可以再次設定並啟用，這將生成一個全新的安全碼與一套新的備用碼。<br><br>如果您丟失了手機，且需要再次設置激活，我們 <b>強烈</b> 建議您馬上進行這項操作，因為每條備用碼只能被使用一次，當其耗盡後，您將永遠無法訪問您的帳戶。",
+        "Account.TOTP.Deactivate.Description": "目前雙重認證已 <b><color=green>在你的帳戶上設定並啟用</color></b>。如果你需要取消它（例如：遺失手機或者備用碼遭泄漏），你可以在此處進行操作。<br><br>取消雙重認證後，可以再次設定並啟用，這將生成一個全新的安全碼與一套新的備用碼。<br><br>如果您遺失了手機，且需要再次設置啟用，我們 <b>強烈</b> 建議您馬上進行這項操作，因為每條備用碼只能被使用一次，當其耗盡後，您將永遠無法訪問您的帳戶。",
         "Account.TOTP.Deactivate.Deactivate": "取消",
         "Account.TOTP.Deactivate.Deactivating": "取消中...",
-        "Account.TOTP.Message.DeactivationComplete": "您帳戶的雙重認證已被成功取消。<br><br>您的帳戶正因此面臨更大的風險！<br><br>我們強烈建議您馬上重新設置啟用雙重認證，特別是當您因丟失手機而使用了備用碼後。",
+        "Account.TOTP.Message.DeactivationComplete": "您帳戶的雙重認證已被成功取消。<br><br>您的帳戶正因此面臨更大的風險！<br><br>我們強烈建議您馬上重新設置啟用雙重認證，特別是當您因遺失手機而使用了備用碼後。",
 
         "Account.Type.Standard": "標準帳戶",
         "Account.Type.Business": "商用帳戶",
@@ -624,7 +624,7 @@
         "Session.Permission.ClearOverrides": "清除權限覆蓋",
 
         "Session.JoinVerifier.EnableHeader": "啟用自訂加入認證機制？",
-        "Session.JoinVerifier.EnableText": "<color=red>警告：</color> 您將要啟用自訂准入認證，其是當前世界的一部分。當您這樣做之前，請確保您信任此世界的創建者。因為自訂准入認證器可以繞過標準會話訪問規則，並使用其自己的規則允許或阻止使用者進入。",
+        "Session.JoinVerifier.EnableText": "<color=red>警告：</color> 您將要啟用自訂准入認證，其是當前世界的一部分。當您這樣做之前，請確保您信任此世界的建立者。因為自訂准入認證器可以繞過標準會話訪問規則，並使用其自己的規則允許或阻止使用者進入。",
         "Session.JoinVerifier.Label": "使用自訂准入認證器： {name}",
         "Session.JoinVerifier.ComponentWarning": "<color=red>警告：</color> 目前，並沒有機制可以在認證器啟用後防止篡改。如果篡改用於認證的 ProtoFlux 設置可能導致問題, 請！不！要！使用這個功能且 不！要！在您的世界中激活它。",
         "Session.JoinVerifier.SetCustomVerifier": "設為自訂加入請求認證器",
@@ -634,7 +634,7 @@
         "Permissions.NotAllowedToSwapAvatar": "您不允許在此處交換到自定化身",
         "Permissions.SavingDisabledForItem": "本物品的儲存功能被停用",
 
-        "User.Actions.Silence": "全局靜音",
+        "User.Actions.Silence": "全域靜音",
         "User.Actions.Mute": "靜音",
         "User.Actions.Jump": "跳躍",
         "User.Actions.Respawn": "重生",
@@ -748,7 +748,7 @@
         "Tools.GeometryLineBrush.Name": "幾何線條筆刷",
 
         "Tools.Dev.Name": "開發工具",
-        "Tools.Dev.CreateNew": "創建新的...",
+        "Tools.Dev.CreateNew": "建立新的...",
         "Tools.Dev.Selection": "選擇: {mode}",
         "Tools.Dev.DevMode.Off": "開發人員模式：禁用",
         "Tools.Dev.DevMode.On": "開發人員模式：啟用",
@@ -759,8 +759,8 @@
 
         "Tools.Dev.GizmoOptions": "Gizmo 選項",
         "Tools.Dev.SelectParent": "選擇上層",
-        "Tools.Dev.LocalSpace": "局部座標",
-        "Tools.Dev.GlobalSpace": "全局座標",
+        "Tools.Dev.LocalSpace": "本地座標",
+        "Tools.Dev.GlobalSpace": "全域座標",
         "Tools.Dev.Translation": "平移",
         "Tools.Dev.Rotation": "旋轉",
         "Tools.Dev.Scale": "縮放",
@@ -812,13 +812,13 @@
         "Tools.Material.Name": "材質工具",
         "Tools.Material.RayMode": "射線模式",
         "Tools.Material.AreaMode": "區域模式",
-        "Tools.Material.ObjectMode": "對象全局模式",
-        "Tools.Material.SceneMode": "場景全局模式",
+        "Tools.Material.ObjectMode": "對象全域模式",
+        "Tools.Material.SceneMode": "場景全域模式",
         "Tools.Material.CreateCopy": "建立副本",
         "Tools.Material.Edit": "編輯材料",
-        "Tools.Material.Convert": "轉換為...",
-        "Tools.Material.ConvertAll": "把全部轉換為...",
-        "Tools.Material.CreateNew": "創建新的",
+        "Tools.Material.Convert": "轉換為…",
+        "Tools.Material.ConvertAll": "全部轉換為…",
+        "Tools.Material.CreateNew": "建立新材質",
 
         "Tools.Mesh.Edit": "編輯網格",
 
@@ -839,15 +839,15 @@
         "Tools.ProtoFlux.Reference": "參考",
         "Tools.ProtoFlux.Write": "寫",
         "Tools.ProtoFlux.Proxy": "代理",
-        "Tools.ProtoFlux.CreateLocal": "創建局部變量",
-        "Tools.ProtoFlux.CreateStore": "創建變量",
-        "Tools.ProtoFlux.CreateDataModelStore": "創建結構變量",
+        "Tools.ProtoFlux.CreateLocal": "建立區域變數",
+        "Tools.ProtoFlux.CreateStore": "建立變數",
+        "Tools.ProtoFlux.CreateDataModelStore": "建立資料模型變數",
         "Tools.ProtoFlux.Overview": "切換概覽",
         "Tools.ProtoFlux.NodeBrowser": "瀏覽節點",
         "Tools.ProtoFlux.PackInPlace": "原地打包",
         "Tools.ProtoFlux.PackInto": "打包為 <size=50%>{name}</size>",
         "Tools.ProtoFlux.Unpack": "將 <size=50%>{name}</size> 解包",
-        "Tools.ProtoFlux.ExplicitCast": "顯式轉換\n<size=50%>(<color=red>警告：</color> 可能丟失數據)</size>",
+        "Tools.ProtoFlux.ExplicitCast": "顯式轉換\n<size=50%>（<color=red>警告：</color> 可能遺失數據）</size>",
 
         "Tools.Meter.Mode.Ray": "模式：射線",
         "Tools.Meter.Mode.Perpendicular": "模式: 垂直",
@@ -896,7 +896,7 @@
         "CreateNew.LegacyParticleSystem": "舊版粒子系統",
 
         "CreateNew.Object": "物件",
-        "CreateNew.Object.AvatarCreator": "虛擬化身創建器",
+        "CreateNew.Object.AvatarCreator": "虛擬化身建立器",
         "CreateNew.Object.Camera": "相機",
         "CreateNew.Object.ReflectionProbe": "反射探針",
         "CreateNew.Object.ReverbZone": "迴音區域",
@@ -952,13 +952,13 @@
 
         "CreateNew.Materials": "材質",
 
-        "CreateNew.Directory.Title": "創建新目錄：",
+        "CreateNew.Directory.Title": "建立新目錄：",
         "CreateNew.Directory.Error.EmptyName": "請輸入名稱：",
         "CreateNew.Directory.Error.LongName": "名稱太長了：",
         "CreateNew.Directory.Error.InvalidName": "無效名稱：",
 
-        "AvatarCreator.Title": "虛擬化身創建器",
-        "AvatarCreator.Instructions": "將化身對象與頭顯和控制器參考對齊（可選），然後按創建將其轉換為化身",
+        "AvatarCreator.Title": "虛擬化身建立器",
+        "AvatarCreator.Instructions": "將化身對象與頭顯和控制器參考對齊（可選），然後按建立將其轉換為化身",
         "AvatarCreator.UseSymmetry": "使用對稱",
         "AvatarCreator.ShowToolAnchors": "顯示工具錨點",
         "AvatarCreator.SetupVolumeMeter": "設置音量計",
@@ -973,16 +973,16 @@
         "AvatarCreator.CenterHead": "居中頭位置",
         "AvatarCreator.TryAlignHands": "嘗試對齊手",
         "AvatarCreator.AlignToolAnchors": "對齊工具錨點",
-        "AvatarCreator.Create": "創建",
+        "AvatarCreator.Create": "建立",
         "AvatarCreator.ProtectionUnavailable": "<i>此世界不支援虛擬化身保護。請切換至其他世界以保護您的虛擬化身。</i>",
 
         "Importer.General.AsRawFile": "原始檔案",
 
         "Importer.Folder.Title": "文件夾導入器",
         "Importer.Folder.Individual": "逐個導入",
-        "Importer.Folder.Individual.Description": "為文件夾中的每個受支持文件創建一個單獨的導入對話框",
+        "Importer.Folder.Individual.Description": "為文件夾中的每個受支持文件建立一個單獨的導入對話框",
         "Importer.Folder.Batch": "批量導入",
-        "Importer.Folder.Batch.Description": "為每種類型的文件以相同設置創建一個導入對話框",
+        "Importer.Folder.Batch.Description": "為每種類型的文件以相同設置建立一個導入對話框",
         "Importer.Folder.Minecraft": "Minecraft 中的世界",
         "Importer.Folder.Minecraft.Description": "如果安裝了 Mineways，導入 Minecraft 中的世界。",
 
@@ -1151,7 +1151,7 @@
         "Importer.Package.Progress.Imported": "Package 已完成匯入",
         "Importer.Package.Progress.Fail": "匯入失敗，請檢查日誌",
 
-        "NewWorld.Title": "創建世界",
+        "NewWorld.Title": "建立世界",
         "NewWorld.SessionTitle": "新活動",
         "NewWorld.Template": "世界模板：",
         "NewWorld.CustomPreset": "自定義預設：",
@@ -1183,7 +1183,7 @@
         "FullBody.UseSymmetry": "使用對稱",
         "FullBody.ShowBodyOverlay": "顯示身體疊加",
         "FullBody.HeightCompensationInstructions": "如果人體模型過高（彎曲）或過矮，請調整高度補償以達到最佳配合。",
-        "FullBody.RecalibratePrompt": "跟踪器損壞或丟失？",
+        "FullBody.RecalibratePrompt": "追蹤器損壞或遺失？",
         "FullBody.Recalibrate": "再次運行T-Pose校準",
         "FullBody.CalibrateAvatarPrompt": "需要調整化身配合度嗎？",
         "FullBody.CalibrateAvatar": "校准我的化身",
@@ -1246,7 +1246,7 @@
         "CameraControl.Settings.AudioFromCameraViewpoint": "相機視角的音頻",
 
         "CameraControl.OpenCloseUsers": "使用者",
-        "CameraControl.CreateCameraAnchor": "創建相機錨點",
+        "CameraControl.CreateCameraAnchor": "建立相機錨點",
 
         "CameraControl.Anchors.Interpolate": "在錨點之間插值",
         "CameraControl.Anchors.InterpolationSpeed": "錨點插值速度：",
@@ -2101,7 +2101,7 @@
 
         "ComponentSelector.Back": "< (返回)",
         "ComponentSelector.Title": "組件",
-        "ComponentSelector.CreateCustomType": "創建自訂類型",
+        "ComponentSelector.CreateCustomType": "建立自訂類型",
         "ComponentSelector.CommonGenericTypes": "常見通用類型",
         "ComponentSelector.CustomGenericArguments": "自訂通用參數：",
         "ComponentSelector.InvalidType": "無效類型",
@@ -2118,7 +2118,7 @@
         "Inspector.Slot.Reset.Rotation": "旋轉",
         "Inspector.Slot.Reset.Scale": "縮放",
 
-        "Inspector.Slot.CreatePivotAtCenter": "在中心創建軸心",
+        "Inspector.Slot.CreatePivotAtCenter": "在中心建立軸心",
 
         "Inspector.Slot.JumpTo": "前往",
         "Inspector.Slot.BringTo": "拿來",
@@ -2166,9 +2166,9 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "重新計算法線（平滑着色）",
         "Inspector.Mesh.RecalculateTangentsMikkt": "重新計算切線（Mikktspace）",
         "Inspector.Mesh.RecalculateTangentsSimple": "重新計算切線（簡單）",
-        "Inspector.Mesh.RecalculateBlendshapeNormals": "重新计算 Blendshape 法線",
-        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "重新计算 Blendshape 法線（平滑着色）",
-        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "重新计算 Blendshape 切線（Mikktspace）",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "重新計算 Blendshape 法線",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "重新計算 Blendshape 法線（平滑著色）",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "重新計算 Blendshape 切線（Mikktspace）",
         "Inspector.Mesh.FlipNormals": "翻轉法線",
         "Inspector.Mesh.ReverseWinding": "反向佈線",
         "Inspector.Mesh.MakeDualSided": "使雙面",
@@ -2176,9 +2176,9 @@
         "Inspector.Mesh.ConvertToConvexHull": "轉換為凸包",
         "Inspector.Mesh.ConvertToPointCloud": "轉換為點雲",
         "Inspector.Mesh.MergeDoubles": "合併重複項",
-        "Inspector.Mesh.StripEmptyBlendshapes": "條空 Blendshape",
-        "Inspector.Mesh.StripBlendshapeNormals": "條 Blendshape 法線",
-        "Inspector.Mesh.StripBlendshapeTangents": "條 Blendshape 切線",
+        "Inspector.Mesh.StripEmptyBlendshapes": "抽除空 Blendshape",
+        "Inspector.Mesh.StripBlendshapeNormals": "抽除 Blendshape 法線",
+        "Inspector.Mesh.StripBlendshapeTangents": "抽除 Blendshape 切線",
         "Inspector.Mesh.MergeBlendshapes": "合併 Blendshapes",
 
         "Inspector.Mesh.GetBoneList": "獲取骨骼列表",
@@ -2378,7 +2378,7 @@
 
         "Inspector.AvatarExpression.AutoAssign": "自動分配 Blendshapes（使用啟發式算法）",
 
-        "Inspector.CharacterController.Warning": "<color=red><size=150%>警告</size></color><br>當勾選模擬旋轉（SimulateRotation）時這個組件可以被當作一個簡單的剛體。在您這樣做之前，您需要明白它不曾為此優化，且對剛體的正式支持會在未來加入。<br>正式支持包括：<br><b>- CPU和網絡效能提升</b> - 使用角色控制器，您的CPU和網絡佔用會顯著上升<br><b>- 約束</b> - 您將能夠在剛體間創建關節、合頁、彈簧和其他約束<br><b>- 對每個人的平滑模擬與交互</b> - 在另一個人嘗試交互時，角色控制器會發生故障<br><b>- 新功能與工具</b> - 讓使用更加簡單<br>-----------------------<br>只要您理解了上述限制，放開玩吧！",
+        "Inspector.CharacterController.Warning": "<color=red><size=150%>警告</size></color><br>當勾選模擬旋轉（SimulateRotation）時這個組件可以被當作一個簡單的剛體。在您這樣做之前，您需要明白它不曾為此優化，且對剛體的正式支持會在未來加入。<br>正式支持包括：<br><b>- CPU和網絡效能提升</b> - 使用角色控制器，您的CPU和網絡佔用會顯著上升<br><b>- 約束</b> - 您將能夠在剛體間建立關節、合頁、彈簧和其他約束<br><b>- 對每個人的平滑模擬與交互</b> - 在另一個人嘗試交互時，角色控制器會發生故障<br><b>- 新功能與工具</b> - 讓使用更加簡單<br>-----------------------<br>只要您理解了上述限制，放開玩吧！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告</size></color><br>通過他們的ID，這個組件可以被用於與引用交互。這個過程常被稱為“引用駭入”。<br><br>在您這樣做<b>之前</b>，請知曉這種方式 <b>不被</b> 支援且隨時可能失效。請勿讓您的作品依賴於此項功能。",
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>警告</size></color><br>FacetPresets 會自動在我們發布新版 Facet 物品時更新這個元件，若你正在自製 Facet，我們建議將本元件刪除。",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>警告</size></color><br>本元件並非設計作為安全機制或竊盜保護系統使用，本元件停用直接儲存功能的用意是作為遊戲流程或是設計的一部分，要繞過這個元件的機制相當容易，本元件未來也不會加強任何安全保護措施。",
@@ -2416,7 +2416,7 @@
 
         "WorkerInspector.Title": "{name} 檢視器",
 
-        "CreateNew.Title": "創建",
+        "CreateNew.Title": "建立",
 
         "Wizard.General.ProcessRoot": "處理根：",
         "Wizard.General.Result": "結果：",
@@ -2500,11 +2500,11 @@
         "Tutorial.Welcome.Begin": "讓我們開始吧！",
 
         "Tutorial.Welcome.AccountHeader": "{appName}帳號",
-        "Tutorial.Welcome.AccountDescription": "創建帳號可為您提供1GB的免費儲存空間，您將可以保存物品、喜歡的化身，添加朋友和傳遞訊息。",
-        "Tutorial.Welcome.AccountCreate": "創建帳號",
+        "Tutorial.Welcome.AccountDescription": "建立帳號可為您提供1GB的免費儲存空間，您將可以保存物品、喜歡的化身，添加朋友和傳遞訊息。",
+        "Tutorial.Welcome.AccountCreate": "建立帳號",
         "Tutorial.Welcome.AccountLogin": "我已經有一個帳號",
         "Tutorial.Welcome.AccountSkip": "在沒有帳號的情況下繼續",
-        "Tutorial.Welcome.AccountSkipHeader": "跳過創建帳號？",
+        "Tutorial.Welcome.AccountSkipHeader": "跳過建立帳號？",
         "Tutorial.Welcome.AccountSkipDescription": "某些功能（例如，保存物品、化身，添加好友等）將無法訪問。",
         "Tutorial.Welcome.AccountSkipConfirm": "確定跳過",
 
@@ -2598,7 +2598,7 @@
         "Migration.Dialog.AccountDescription": "要遷移您的帳戶，我們需要您的 {platform} 帳戶密碼以登錄並訪問數據。",
 
         "Migration.ResetID.Title": "重置我的UserID",
-        "Migration.ResetID.Description": "<color=red><b>警告：</b></color> 選擇這個選項 <b>會不可還原地部分損壞現存內容</b>，其中包括使用者內容、社區服務、鏈接、雲變量等中任何對UserID的引用。這些引用會被重置，但您的物品、世界、好友與訊息不會丟失。我們 <b>只</b> 建議您在想更換一個新的隨機UserID時使用此選項。除非您有重置UserID的充分理由，您 <b>不！該！</b> 使用此選項。您的UserID會像這樣變化：\n U-MyUsername -> U-fX3pKe7AYYQ",
+        "Migration.ResetID.Description": "<color=red><b>警告：</b></color> 選擇這個選項 <b>會不可還原地部分損壞現存內容</b>，其中包括使用者內容、社群服務、連結、雲端變數等中任何對 UserID 的引用。這些引用會被重置，但您的物品、世界、好友與訊息不會遺失。我們 <b>只</b> 建議您在想更換一個新的隨機 UserID 時使用此選項。除非您有重置 UserID 的充分理由，您 <b>不！該！</b> 使用此選項。您的 UserID 會像這樣變化：\n U-MyUsername -> U-fX3pKe7AYYQ",
 
         "Migration.DataSelection.Title": "當我們遷移您帳戶時，應該遷移哪些數據？",
         "Migration.DataSelection.Everything": "所有數據",
@@ -2615,8 +2615,8 @@
         "Migration.DataSelection.Contacts": "好友",
         "Migration.DataSelection.Message History": "訊息歷史",
         "Migration.DataSelection.InventoryWorld": "物品欄 & 世界",
-        "Migration.DataSelection.CloudVariable.Definitions": "雲變量定義",
-        "Migration.DataSelection.CloudVariable.Values": "雲變量值",
+        "Migration.DataSelection.CloudVariable.Definitions": "雲端變數定義",
+        "Migration.DataSelection.CloudVariable.Values": "雲端變數值",
 
         "Migration.DataSelection.AlwaysOverwrite": "總是覆寫",
 
@@ -2640,11 +2640,11 @@
         "Migration.List.EmptyTitle": "需要開始新的遷移工作嗎？",
         "Migration.List.EmptySubtitle": "點擊左上方的“新建遷移任務”按鈕",
 
-        "Migration.List.ButtonLabel": "{name}\n<size=50%>創建於：{time}\n狀態：{state}",
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>建立於：{time}\n狀態：{state}",
         "Migration.Report.Title": "遷移任務報告：",
         "Migration.Report.Description": "<color={hex}>描述：</color> {value}",
         "Migration.Report.Status": "<color={hex}>狀態：</color> {value}",
-        "Migration.Report.CreatedOn": "<color={hex}>創建於：</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>建立於：</color> {value}",
         "Migration.Report.StartedOn": "<color={hex}>開始於：</color> {value}",
         "Migration.Report.CompletedOn": "<color={hex}>完成於：</color> {value}",
 
@@ -2656,8 +2656,8 @@
         "Migration.Report.EstimatedQueuePosition": "<color={hex}>此任務之前的排隊任務數：</color> {value}",
         "Migration.Report.ContactStatus": "已遷移 <color={hex}>{total}</color> 好友中的 <color={hex}>{current}</color> 個",
         "Migration.Report.MessageStatus": "已遷移 <color={hex}>{value}</color> 條訊息",
-        "Migration.Report.CloudVariableDefinitionStatus": "已遷移 <color={hex}>{value}</color> 個雲變量定義",
-        "Migration.Report.CloudVariableValueStatus": "已遷移 <color={hex}>{value}</color> 個雲變量",
+        "Migration.Report.CloudVariableDefinitionStatus": "已遷移 <color={hex}>{value}</color> 個雲端變數定義",
+        "Migration.Report.CloudVariableValueStatus": "已遷移 <color={hex}>{value}</color> 個雲端變數",
         "Migration.Report.RecordStatus": "已遷移 <color={hex}>{total}</color> 世界/項目中的 <color={hex}>{current}</color> 個，失敗 <color=red>{failed}</color> 個。",
         "Migration.Report.GroupStatus": "已遷移 <color={hex}>{total}</color> 群組中的 <color={hex}>{current}</color> 個",
         "Migration.Report.GroupMemberStatus": "共已遷移 <color={hex}>{value}</color> 群組成員",
@@ -2665,7 +2665,7 @@
         "Migration.Error": "<color=red>錯誤：</color> {error}",
         "Migration.NothingSelected": "未選擇任何項，無法開始。",
 
-        "Migration.ColorManagement": "這個世界在伽馬色彩空間下被創建，目前已被自動轉換至線性色彩空間。<br><br>它看起來可能會有些不同，但總體應當保持可用。<br><br>如果您就是作者且發現了世界轉換中的錯誤，<color=red>不！要！存！儲！</color> 僅進行另存。<br><br>只要原始世界存在，我們還可以改良轉換流程。否則您將自己負責修復這些錯誤。",
+        "Migration.ColorManagement": "這個世界在伽馬色彩空間下被建立，目前已被自動轉換至線性色彩空間。<br><br>它看起來可能會有些不同，但總體應當保持可用。<br><br>如果您就是作者且發現了世界轉換中的錯誤，<color=red>不！要！存！儲！</color> 僅進行另存。<br><br>只要原始世界存在，我們還可以改良轉換流程。否則您將自己負責修復這些錯誤。",
 
         "Temporary.MMC.Voting UI": "MMC 投票界面",
         "Temporary.MMC.Vote": "投票",
@@ -2894,15 +2894,15 @@
         "UI.DocumentDisplay.Pages": "頁數",
         "UI.DocumentDisplay.ResetZoom": "重置縮放",
 
-        "UI.VideoPlayer.GlobalSettings": "全局<br>設置",
-        "UI.VideoPlayer.LocalSettings": "本地<br>設置",
-        "UI.VideoPlayer.SpatialAudio": "空間<br>音頻",
+        "UI.VideoPlayer.GlobalSettings": "全域<br>設定",
+        "UI.VideoPlayer.LocalSettings": "本地<br>設定",
+        "UI.VideoPlayer.SpatialAudio": "空間<br>音訊",
         "UI.VideoPlayer.AreaBroadcast": "區域<br>廣播",
-        "UI.VideoPlayer.BroadcastAudio": "廣播<br>音頻",
+        "UI.VideoPlayer.BroadcastAudio": "廣播<br>音訊",
         "UI.VideoPlayer.EnterURL": "<i><alpha=#77>在此輸入URL</closeall>",
         "UI.VideoPlayer.AudioZoneTheater": "本地<br>劇院",
-        "UI.VideoPlayer.AudioZoneGlobal": "世界<br>音頻",
-        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {使用者} other {使用者}}<br>已載入",
+        "UI.VideoPlayer.AudioZoneGlobal": "世界<br>音訊",
+        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} 使用者<br>已載入",
         "UI.VideoPlayer.AllUsersLoaded": "所有使用者<br>均已載入",
 
         "UI.ColorPicker.ColorPicker": "取色器",
@@ -3129,10 +3129,6 @@
         "Universe.Units.HubbleLength": "哈伯長度",
         "Universe.Units.EarthRadius": "地球半徑",
         "Universe.Units.LunarDistance": "地月距離",
-
-        "Help.Controls.ContextMenu": "功能選單",
-
-        "Help.General.Favoriting": "收藏功能",
 
         "Dummy": "Dummy"
     }
