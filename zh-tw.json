@@ -1489,7 +1489,7 @@
         "Settings.MediaPrivacySettings.HideInScreenshots.Description": "您將排除於遊戲截圖\n\n<color=hero.red>注意：</color> 這不會影響遊戲外的方式截取遊戲畫面（可能透過連結或是世界配置截取）。",
 
         "Settings.MediaPrivacySettings.StripImageFileMetadata": "導入時刪除圖片資訊",
-        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "可在<b>導入</b>時刪除多媒體資訊。\n\n包括 EXIF、勘入注釋、IPTC、XMP 和 GEOTIFF 等數據。\n\n這也會刪除任何位置數據（如 GPS）。\n\n<b>不</b>包括使用 \"Raw 文件\" 選項至入的物件。",
+        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "可在<b>匯入</b>時刪除多媒體資訊。\n\n包括 EXIF、嵌入注釋、IPTC、XMP 和 GEOTIFF 等數據。\n\n這也會刪除任何位置數據（如 GPS）。\n\n<b>不</b>包括使用「原始檔案」選項匯入的物件。",
 
         "Settings.Category.Integrations": "整合",
         "Settings.DiscordIntegrationSettings": "Discord 整合",
@@ -2019,7 +2019,7 @@
         "Settings.TextureQualitySettings.MinimumTextureSize": "採用相對貼圖大小的最小解析度",
         "Settings.TextureQualitySettings.MinimumTextureSize.Description": "這控制將被上述設定限制的貼圖的最小解析度。如果貼圖低於此大小，將按原樣載入。\n\n例如，如果您將此設定為 512，那麼如果貼圖為 256，即使貼圖大小比例設定為一半，仍會以 256 載入。",
         "Settings.TextureQualitySettings.DefaultFilterMode": "貼圖過濾",
-        "Settings.TextureQualitySettings.DefaultFilterMode.Description": "這控制貼圖使用的過濾方式，控制它們的品質和效能。\n\n<color=hero.yellow>Point：</color> 點採樣，最低品質，無插值。貼圖會顯得塊狀。\n\n<color=hero.yellow>Bilinear：</color> 雙線性，貼圖像素會被插值，但 mip 映射轉換會很尖銳，導致可見的轉換線。\n\n<color=hero.yellow>Trilinear：</color> 三線性，在不同 mipmap 等級之間平滑轉換，移除遠距離的尖銳轉換線。\n\n<color=hero.yellow>Anisotropic：</color> 各向異性，最高品質，即使在陡峭角度下貼圖也會保持銳利。",
+        "Settings.TextureQualitySettings.DefaultFilterMode.Description": "這控制貼圖使用的過濾方式，控制它們的品質和效能。\n\n<color=hero.yellow>Point：</color> 點採樣，最低品質，無插值。貼圖會顯得塊狀。\n\n<color=hero.yellow>Bilinear：</color> 雙線性，貼圖像素會被插值，但 mipmap 轉換會有可見的邊緣。\n\n<color=hero.yellow>Trilinear：</color> 三線性，在不同 mipmap 等級之間平滑轉換，移除遠距離的尖銳轉換線。\n\n<color=hero.yellow>Anisotropic：</color> 各向異性，最高品質，即使在陡峭角度下貼圖也會保持銳利。",
         "Settings.TextureQualitySettings.AnisotropicLevel": "各向異性過濾等級",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "控制各向異性過濾的品質。",
         "Settings.TextureQualitySettings.ReloadAllTextures": "重新載入全部貼圖（可能會卡頓）",
