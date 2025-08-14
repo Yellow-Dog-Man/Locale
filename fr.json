@@ -1817,7 +1817,7 @@
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "Certains noms sont difficiles à lire ou cachés. Si vous avez besoin de voir le nom de quelqu'un ou ses badges (par ex. pour des raisons de modération), utilisez cette option pour montrer les noms par défaut.",
 
         "Settings.CustomizationSettings": "Options de customisation",
-        "Settings.CustomizationSettings.UserInterfaceEditMode": "Mode d'édition d'interface",
+        "Settings.CustomizationSettings.UserInterfaceEditMode": "Mode d'édition de l'interface",
         "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "Quand activé, vous pourrez éditer le placement de Facettes (éléments d'interface modulaires) dans le tableau de bord et sur les ancres de facettes sur vos mains et devant vous (si activé).\n\nDésactivez cette option quand vous avez fini d'éditer les facettes.\n\nN'oubliez pas de désactiver cette option lorsque vous aurez terminé ! Vous pouvez également la désactiver avec le bouton en-dessous du tableau de bord.",
 
         "Settings.FacetAnchorsSettings": "Ancres de facettes",
@@ -3215,7 +3215,7 @@
         "Help.Controls.Interaction.Lasers.FreeformRotation": "Rotation libre",
         "Help.Controls.Interaction.Lasers.FreeformRotation.Content": "Vous pouvez verrouiller la rotation d’un objet que vous saisissez, vous permettant alors d’utiliser les mouvements de votre main pour le faire tourner librement, en faisant un double appui sur <b><color=hero.purple>{Primary_Input}</closeall>. Faire tourner votre main dans cette situation va incliner l’objet relativement à votre main.<br><br>Faire à nouveau un double appui sur <b><color=hero.purple>{Primary_Input}</closeall> vous fera retourner dans le mode de saisie normal par laser.",
         "Help.Controls.Interaction.Lasers.TogglingLasers": "Activer / désactiver les lasers",
-        "Help.Controls.Interaction.Lasers.TogglingLasers.Content": "Votre laser se met en travers de vos activités ? Vous pouvez l’éteindre ou le rallumer {is_desktop, select, True {} other {pour chaque main }}en ouvrant votre <color=hero.cyan><b>Menu Contextuel</closeall> {is_using_vive_wands, select, True {en appuyant rapidement sur} other {avec}} <b><color=hero.purple>{Context_Menu_Input}</closeall> puis en sélectionnant <b><color=hero.cyan>laser activé</closeall>/<b><color=hero.cyan>désactivé</closeall>. Quand {is_desktop, select, True {votre laser} other {un de vos lasers}} est désactivé, il apparaîtra uniquement sur votre Menu Principal et votre Menu Contextuel.",
+        "Help.Controls.Interaction.Lasers.TogglingLasers.Content": "Votre laser se met en travers de vos activités ? Vous pouvez l’éteindre ou le rallumer {is_desktop, select, True {} other {pour chaque main }}en ouvrant votre <color=hero.cyan><b>Menu Contextuel</closeall> {is_using_vive_wands, select, True {en appuyant rapidement sur} other {avec}} <b><color=hero.purple>{Context_Menu_Input}</closeall> puis en sélectionnant <b><color=hero.cyan>laser activé</closeall>/<b><color=hero.cyan>désactivé</closeall>. Quand {is_desktop, select, True {votre laser} other {un de vos lasers}} est désactivé, il apparaîtra uniquement sur votre tableau de bord et votre Menu Contextuel.",
 
         "Help.Controls.Interaction.Equipping": "Équiper",
         "Help.Controls.Interaction.Equipping.Content": "<b><color=hero.purple>Équiper</closeall> un objet le place dans votre main, et vous permet d’effectuer des actions. Pour équiper un objet ou un outil, visez-le avec votre laser, appuyez sur <b><color=hero.purple>{Primary_Input}</closeall>, puis sélectionner <b><color=hero.cyan>Équiper</closeall>. {is_desktop, select, True {} other {Si vous ne voyez pas votre laser, appuyez d’abord sur <b><color=hero.purple>{Primary_Input}</closeall> pour le révéler, puis réessayez. }}",
@@ -3245,16 +3245,40 @@
         "Help.Controls.ContextMenu": "Menu Contextuel",
         "Help.Controls.ContextMenu.Content": "Votre <b><color=hero.cyan>Menu Contextuel</closeall> vous propose des options dynamiquement selon ce que vous êtes en train de faire. Vous pouvez ouvrir votre Menu Contextuel {is_using_vive_wands, select, True {en appuyant rapidement sur} other {avec}} <b><color=hero.purple>{Context_Menu_Input}</closeall>. Vous y trouverez différentes options comme la locomotion, les interactions, les outils, la sauvegarde, et plus encore.<br><br>D’autres options peuvent aussi apparaître si vous êtes en train d’utiliser un objet, ou si votre avatar fournit des fonctionnalités supplémentaires dans le menu contextuel.",
         "Help.Controls.VRGestures": "Gestes VR",
-        "Help.Controls.VRGestures.Content": "{appName} propose certains gestes rapides pour permettre aux utilisateurs en VR d’ouvrir rapidement le Menu Principal, réapparaître si vous êtes coincé·e, et plus encore. Ceci est une liste de tous les gestes disponibles en VR. Veuillez noter que ce sont simplement des raccourcis d’actions existantes - toutes les actions listées peuvent aussi être effectuées par d’autres moyens.",
-
+        "Help.Controls.VRGestures.Content": "{appName} propose certains gestes rapides pour permettre aux utilisateurs en VR d’ouvrir rapidement le tableau de bord, réapparaître si vous êtes coincé·e, et plus encore. Ceci est une liste de tous les gestes disponibles en VR. Veuillez noter que ce sont simplement des raccourcis d’actions existantes - toutes les actions listées peuvent aussi être effectuées par d’autres moyens.",
+        "Help.Controls.VRGestures.EmergencyLeaveWorld": "Sortie d’urgence",
+        "Help.Controls.VRGestures.EmergencyLeaveWorld.Content": "Ce geste vous déconnecte immédiatement de la session actuelle. Pour effectuer ce geste, approchez vos manettes de votre tête et maintenez <b><color=hero.purple>{Menu_Input}</closeall> sur vos deux manettes pendant au moins 3 secondes. Vous sentirez des vibrations dans vos manettes avec une intensité de plus en plus grande en approchant de l’instant de votre sortie d’urgence.",
+        "Help.Controls.VRGestures.EmergencyRespawn": "Réapparition d’urgence",
+        "Help.Controls.VRGestures.EmergencyRespawn.Content": "Ce geste vous fait réapparaître en vous supprimant et vous re-créant au point de départ du monde. Pour effectuer ce geste, approchez vos manettes de votre tête, maintenez <b><color=hero.purple>{Grip_Input}</closeall> sur au moins une de vos manettes, puis maintenez <b><color=hero.purple>{Context_Menu_Input}</closeall> pendant au moins 3 secondes. Vous sentirez des vibrations dans vos manettes avec une intensité de plus en plus grande en approchant de l’instant de votre réapparition d’urgence.",
+        "Help.Controls.VRGestures.ToggleEditMode": "Basculer en mode d’édition",
+        "Help.Controls.VRGestures.ToggleEditMode.Content": "Ce geste active ou désactive le <b><color=hero.cyan>mode d’édition</closeall>. Vos lasers et vos zones de saisie restent visibles en permanence jusqu’à ce que vous quittiez ce mode. Pour activer ou désactiver le mode d’édition, approchez vos manettes de votre tête, maintenez <b><color=hero.purple>{Context_Menu_Input}</closeall> sur une de vos manettes et faites un double appui sur <b><color=hero.purple>{Context_Menu_Input}</closeall> sur l’autre manette.",
+        "Help.Controls.VRGestures.ToggleUIEditMode": "Basculer en mode d’édition de l’interface",
+        "Help.Controls.VRGestures.ToggleUIEditMode.Content": "Ce geste active ou désactive le <b><color=hero.cyan>mode d’édition de l’interface</closeall> qui vous permet d’ajouter, retirer, ou modifier les facettes sur votre tableau de bord ou vos ancres de facettes d’avatar. Quand ce mode est activé, vous pouvez aussi modifier les poses de saisie de vos outils. Pour activer le mode d’édition de l’interface, approchez vos manettes de votre tête, maintenez <b><color=hero.purple>{Menu_Input}</closeall> sur une de vos manettes et faites un double appui sur <b><color=hero.purple>{Menu_Input}</closeall> sur votre autre manette. Vous pouvez aussi activer le mode d’édition de l’interface via le bouton <b><color=hero.cyan>mode d’édition de l’interface</closeall> dans votre menu <b><color=hero.yellow>Paramètres</closeall>, dans la catégorie <sprite name=UserInterfaceIcon> <b><color=hero.purple>Interface utilisateur</closeall>.",
+        "Help.Controls.VRGestures.ToggleDashboard": "Ouvrir/fermer le tableau de bord",
+        "Help.Controls.VRGestures.ToggleDashboard.Content": "Ce geste ouvre et ferme votre tableau de bord. Pour ouvrir ou fermer le tableau de bord, approchez vos manettes de votre tête et appuyez sur <b><color=hero.purple>{Context_Menu_Input}</closeall>.",
+        "Help.Controls.VRGestures.ToggleFacetAnchors": "Ouvrir/fermer les ancres de facettes",
+        "Help.Controls.VRGestures.ToggleFacetAnchors.Content": "Ce geste ouvre et ferme vos ancres de facettes. Pour ouvrir ou fermer les ancres de facettes, approchez vos manettes de votre tête et appuyez sur <b><color=hero.purple>{Context_Menu_Input}</closeall>.",
         "Help.Controls.DesktopControls": "Contrôles Bureau",
         "Help.Controls.DesktopControls.Content": "{appName} sur le Bureau offre quelques raccourcis permettant de travailler rapidement. Voici une liste des raccourcis disponibles.",
 
+        "Help.Controls.DesktopControls.Undo.Content": "Annulez une action en utilisant <b><color=hero.purple>Ctrl + Z</closeall>.",
+        "Help.Controls.DesktopControls.Redo.Content": "Rétablissez une action annulée en utilisant <b><color=hero.purple>Ctrl + Y</closeall>.",
+        "Help.Controls.DesktopControls.Paste": "Coller",
+        "Help.Controls.DesktopControls.Paste.Content": "Collez du contenu (texte, image, fichier) dans {appName} en utilisant <b><color=hero.purple>Ctrl + V</closeall>.",
+        "Help.Controls.DesktopControls.Duplicate.Content": "Dupliquez un objet saisi en utilisant <b><color=hero.purple>Ctrl + D</closeall>.",
+        "Help.Controls.DesktopControls.Delete": "Supprimer",
+        "Help.Controls.DesktopControls.Delete.Content": "Supprimez un objet saisi en utilisant <b><color=hero.purple>Retour arrière</closeall> ou <b><color=hero.purple>Suppr</closeall>.",
+        "Help.Controls.DesktopControls.Save.Content": "Sauvegardez un objet saisi en utilisant <b><color=hero.purple>Ctrl + S</closeall>. Si vous ne saisissez aucun objet et que vous êtes l’hôte de la session, c’est le monde qui sera sauvegardé.",
+        "Help.Controls.DesktopControls.ThirdPerson": "Mode 3ème personne",
+        "Help.Controls.DesktopControls.ThirdPerson.Content": "Entrez ou sortez de la vue à la 3ème personne en utilisant <b><color=hero.purple>F5</closeall>.",
+        "Help.Controls.DesktopControls.FreecamMode": "Mode caméra libre",
+        "Help.Controls.DesktopControls.FreecamMode.Content": "Entrez ou sortez de la vue en caméra libre en utilisant <b><color=hero.purple>F6</closeall>. Une fois dans ce mode, maintenez <b><color=hero.purple>Clic Gauche</closeall> pour activer le déplacement de votre avatar. En outre, vous pouvez maintenir <b><color=hero.purple>Ctrl</closeall> et <b><color=hero.purple>Clic Droit</closeall> pour faire tourner votre point de vue, et utiliser vos <b><color=hero.purple>touches directionnelles</closeall> pour vous déplacer. Une fois que vous avez commencé à vous déplacer et vous orienter, vous pouvez lâcher <b><color=hero.purple>Ctrl</closeall> - mais maintenez <b><color=hero.purple>Clic Droit</closeall> enfoncé, faute de quoi votre point de vue se verrouillera à nouveau.",
+
         "Help.Controls.SteamBindings": "Dispositions Steam",
-      
+
         "Help.General": "Général",
         "Help.General.VoiceMode": "Mode de Voix",
-        "Help.General.VoiceMode.Content": "<color=hero.purple>Les <b>modes de voix</closeall> vous permettent de contrôler comment les autres vous entendent.<br><br>Vous pouvez changer votre mode de voix en haut à gauche de votre <color=hero.purple><b>Menu Principal</closeall>.",
+        "Help.General.VoiceMode.Content": "<color=hero.purple>Les <b>modes de voix</closeall> vous permettent de contrôler comment les autres vous entendent.<br><br>Vous pouvez changer votre mode de voix en haut à gauche de votre <color=hero.purple><b>tableau de bord</closeall>.",
         "Help.General.VoiceMode.Broadcast": "Diffusion",
         "Help.General.VoiceMode.Broadcast.Content": "Permet aux autres utilisateurs de vous entendre au même volume peu importe à quelle distance vous vous trouvez dans la session. Ce mode est utile pour communiquer des informations importantes à tous les utilisateurs d’une session, ou plus généralement pour communiquer à très longue distance.",
         "Help.General.VoiceMode.Shout": "Hurlement",
@@ -3274,7 +3298,7 @@
         "Help.General.OnlineStatus.Offline.Content": "Quand vous n’êtes pas connecté, vous apparaîtrez comme étant <b><color=hero.purple>hors ligne</closeall> pour tous les autres utilisateurs. Vous apparaîtrez aussi hors ligne si vous sélectionnez le statut <b><color=hero.purple>invisible</closeall>.",
 
         "Help.General.Saving": "Sauvegarder",
-        "Help.General.Saving.Content": "Sauvegarder des objets vous permet de les utiliser n’importe où l’apparition d’objets est permise.<br><br>Pour sauvegarder un objet, naviguez d’abord dans l’<b><color=hero.cyan>Inventaire</color></b> dans le dossier où vous souhaitez l’enregistrer, puis attrapez l’objet avec <b><color=hero.purple>{Grip_Input}</closeall>. Puis, tout en continuant de saisir l’objet, dans l’Inventaire, appuyez sur le bouton <color=hero.green><b>Sauvegarder objet saisi</b></Color>. Cela enregistrera l’objet dans le dossier dans lequel vous vous situez actuellement.<br><br>En saisissant l’objet, ouvrez votre <b><color=hero.Cyan>Menu Contextuel</closeall> {is_using_vive_wands, select, True {en appuyant rapidement sur} other {avec}} <b><color=hero.purple>{Context_Menu_Input}</closeall> et sélectionnez <sprite name=SaveIcon> <b><color=hero.Cyan>Sauvegarder dans l'inventaire</closeall> pour sauvegarder l’objet sans avoir besoin d’ouvrir le Menu Principal.<br><br>Après avoir cliqué sur le bouton de sauvegarde, vous verrez la facette d’état de synchronisation en haut à droite de votre Menu Principal afficher <b><color=hero.cyan>Synchronisation...</closeall>. Cela indique la progression du téléversement de l’objet sur le cloud. Sauvegarder plusieurs copies d’un objet enregistrera uniquement les <b>changements appliqués à cet objet</b>. Par exemple, sauvegarder un avatar puis le sauvegarder à nouveau avec une différente couleur de cheveux ne prendra pas plus d’espace de stockage qu’une copie de l’avatar et la petite différence entre les deux - pas deux copies entières de l’avatar.",
+        "Help.General.Saving.Content": "Sauvegarder des objets vous permet de les utiliser n’importe où l’apparition d’objets est permise.<br><br>Pour sauvegarder un objet, naviguez d’abord dans l’<b><color=hero.cyan>Inventaire</color></b> dans le dossier où vous souhaitez l’enregistrer, puis attrapez l’objet avec <b><color=hero.purple>{Grip_Input}</closeall>. Puis, tout en continuant de saisir l’objet, dans l’Inventaire, appuyez sur le bouton <color=hero.green><b>Sauvegarder objet saisi</b></Color>. Cela enregistrera l’objet dans le dossier dans lequel vous vous situez actuellement.<br><br>En saisissant l’objet, ouvrez votre <b><color=hero.Cyan>Menu Contextuel</closeall> {is_using_vive_wands, select, True {en appuyant rapidement sur} other {avec}} <b><color=hero.purple>{Context_Menu_Input}</closeall> et sélectionnez <sprite name=SaveIcon> <b><color=hero.Cyan>Sauvegarder dans l'inventaire</closeall> pour sauvegarder l’objet sans avoir besoin d’ouvrir le tableau de bord.<br><br>Après avoir cliqué sur le bouton de sauvegarde, vous verrez la facette d’état de synchronisation en haut à droite de votre tableau de bord afficher <b><color=hero.cyan>Synchronisation...</closeall>. Cela indique la progression du téléversement de l’objet sur le cloud. Sauvegarder plusieurs copies d’un objet enregistrera uniquement les <b>changements appliqués à cet objet</b>. Par exemple, sauvegarder un avatar puis le sauvegarder à nouveau avec une différente couleur de cheveux ne prendra pas plus d’espace de stockage qu’une copie de l’avatar et la petite différence entre les deux - pas deux copies entières de l’avatar.",
 
         "Help.General.Favoriting": "Favoris",
         "Help.General.Favoriting.Content": "Certains objets peuvent être définis en tant que <b><color=hero.purple>Favoris</closeall>, comme votre avatar, votre clavier, ou votre caméra de diffusion. Cela vous permet de remplacer les systèmes par défaut avec des versions personnalisées de chacun.<br><br>Un objet défini en Favori est reconnaissable au fond de couleur rose appliqué à son icône dans votre <color=hero.yellow><b>Inventaire</closeall>.<br><br>Voir ci-après pour une liste d’objets qu’il est possible de définir en tant que <b><color=hero.yellow>favoris</closeall> :",
@@ -3293,7 +3317,7 @@
         "Help.General.Favoriting.Hyperlink.Content": "Un lien vers une page web ou une URL externe.",
         "Help.General.Favoriting.Document.Content": "Une fenêtre affichant un document PDF importé.",
 
-        "Help.Dashboard": "Menu Principal",
+        "Help.Dashboard": "Tableau de Bord",
 
         "Help.Avatars": "Avatars",
 
@@ -3479,7 +3503,7 @@
         "Help.LinksAndResources.PlatformBotCommands.BadgeCommands.PotatoBadge.Content": "Ajoute ou retire le badge Patate. Il indique que votre ordinateur fonctionne mieux dans des environnements optimisés.",
         "Help.LinksAndResources.PlatformBotCommands.BadgeCommands.PrideFlagBadges": "Badges Fiertés",
         "Help.LinksAndResources.PlatformBotCommands.BadgeCommands.PrideFlagBadges.Content": "Ajoute ou retire un badge de fiertés dans votre liste de badges. Envoyer cette commande sans spécifier de nom de badge renverra une liste de tous les badges disponibles pour la commande.",
-      
+
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.GetHeadlessAccessCode": "Obtenir code d’accès client non-graphique",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.GetHeadlessAccessCode.Content": "Renvoie le code d’accès à la branche beta permettant de télécharger le client non-graphique. Pour pouvoir utiliser cette commande, vous devez soutenir {appName} à un rang suffisant pour obtenir cet avantage.",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SharedStorage": "Stockage partagé",
@@ -3538,7 +3562,7 @@
 
         "Help.LinksAndResources.PlatformBotCommands.BadgeCommands.PrideFlagBadges.Command": "/AddPrideBadge <Nom Drapeau Fiertés>",
         "Help.LinksAndResources.PlatformBotCommands.BadgeCommands.PrideFlagBadges.SecondaryCommand": "/RemovePrideBadge <Nom Drapeau Fiertés>",
-      
+
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SharedStorage.Command": "/ShareStorageWithUser <Nom Utilisateur> <Quantité Stockage>",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SharedStorage.SecondaryCommand": "/ShareStorageWithGroup <Nom Groupe> <Quantité Stockage>",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SetCustom2DBadge.Command": "/Set2DBadge <Hash Asset>",
