@@ -2,22 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # French [fr]
-Help.GettingStarted.GraphicsSettings.Overview
-Help.GettingStarted.GraphicsSettings.Overview.Content
-Help.GettingStarted.GraphicsSettings.SettingsTab
-Help.GettingStarted.GraphicsSettings.SettingsTab.Content
-Help.GettingStarted.GraphicsSettings.GraphicsCategory
-Help.GettingStarted.GraphicsSettings.GraphicsCategory.Content
-Help.GettingStarted.GraphicsSettings.TextureQuality
-Help.GettingStarted.GraphicsSettings.TextureQuality.Content
-Help.GettingStarted.GraphicsSettings.Resolution
-Help.GettingStarted.GraphicsSettings.Resolution.Content
-Help.GettingStarted.GraphicsSettings.RenderingQuality
-Help.GettingStarted.GraphicsSettings.RenderingQuality.Content
-Help.GettingStarted.GraphicsSettings.PostProcessing
-Help.GettingStarted.GraphicsSettings.PostProcessing.Content
-Help.GettingStarted.GraphicsSettings.VRRenderQuality
-Help.GettingStarted.GraphicsSettings.VRRenderQuality.Content
 Help.GettingStarted.BuildingBasics.BuildingInPlatform
 Help.GettingStarted.BuildingBasics.BuildingInPlatform.Content
 Help.GettingStarted.BuildingBasics.PlatformEssentials
