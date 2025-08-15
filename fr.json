@@ -1243,7 +1243,7 @@
         "CameraControl.Settings.ShowFrustum": "Montrer le tronc",
         "CameraControl.Settings.PhotoTimer": "Minuteur photo",
         "CameraControl.Settings.ShowLiveBadge": "Afficher le badge en direct",
-        "CameraControl.Settings.AudioFromCameraViewpoint": "Audio du point de vue de la caméra",
+        "CameraControl.Settings.AudioFromCameraViewpoint": "Audio sur la caméra",
 
         "CameraControl.OpenCloseUsers": "Utilisateurs",
         "CameraControl.CreateCameraAnchor": "Créer un ancrage de caméra",
@@ -1358,6 +1358,10 @@
         "Settings.AudioVolumeSettings": "Volume",
         "Settings.AudioAccessibilitySettings": "Accessibilité audio",
         "Settings.AudioInputFilteringSettings": "Filtre d'entrée",
+
+        "Settings.AudioStreamSettings": "Flux audio",
+        "Settings.AudioStreamSettings.DefaultBitrate": "Débit binaire par défaut (kbps)",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "ID de périphérique par défaut",
 
         "Settings.RealtimeNetworkingSettings": "Réseau au temps réel",
         "Settings.AssetGatherSettings": "Récolte des assets",
@@ -1712,7 +1716,7 @@
         "Settings.EarmuffSettings.VolumeAttenuation": "Atténuation du volume",
         "Settings.EarmuffSettings.VolumeAttenuation.Description": "Ceci contrôle le volume des voix à l'extérieur du \"cône sonore\". Le mettre à zéro rendra muets les joueurs en dehors du cône.",
 
-        "Settings.RealtimeNetworkingSettings.DisableLAN": "Désactiver la LAN",
+        "Settings.RealtimeNetworkingSettings.DisableLAN": "Désactiver le réseau local (LAN)",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Désactive les fonctionnalités de réseau spécifiques aux réseaux locaux telles qu'annoncer vos sessions sur le réseau local ou écouter en l'attente d'autres sessions sur le réseau local.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Préférer les Steam Networking Sockets",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Quand activé, vous vous connecterez aux sessions via le protocole Steam Networking Sockets si possible. Ceci peut aider dans les cas où le protocole LNL crée trop de queue pour les paquets. Cependant, ce protocole manque de certaines fonctionnalités, pouvant créer de l'instabilité, donc nous vous recommandons de ne l'activer que si vous avez des problèmes avec les autres protocoles.",
@@ -3378,7 +3382,7 @@
 
         "Help.General.Favoriting.Home.Content": "Votre maison - le monde qui se charge quand vous lancez {appName}.",
         "Help.General.Favoriting.ProgressBar.Content": "L’indicateur de chargement pour les objets que vous importez, tels que des modèles 3D par exemple.",
-        "Help.General.Favoriting.AudioStreamController.Content": "Le panneau qui apparaît quand vous importez un flux vidéo.",
+        "Help.General.Favoriting.AudioStreamController.Content": "Le panneau qui apparaît quand vous importez un flux audio.",
         "Help.General.Favoriting.TextDisplay.Content": "Une fenêtre de texte basique.",
         "Help.General.Favoriting.VideoPlayer.Content": "Le lecteur vidéo qui est utilisé quand vous importez une vidéo.",
         "Help.General.Favoriting.AudioPlayer.Content": "Le lecteur audio qui est utilisé quand vous importez un fichier son.",
