@@ -2,18 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # French [fr]
-Help.GettingStarted.YourContacts.FindingContacts
-Help.GettingStarted.YourContacts.FindingContacts.Content
-Help.GettingStarted.YourContacts.ContactsBrowser
-Help.GettingStarted.YourContacts.ContactsBrowser.Content
-Help.GettingStarted.YourContacts.Searching
-Help.GettingStarted.YourContacts.Searching.Content
-Help.GettingStarted.YourContacts.AddingAContact
-Help.GettingStarted.YourContacts.AddingAContact.Content
-Help.GettingStarted.YourContacts.ContactRequests
-Help.GettingStarted.YourContacts.ContactRequests.Content
-Help.GettingStarted.YourContacts.Invites
-Help.GettingStarted.YourContacts.Invites.Content
 Help.GettingStarted.GraphicsSettings.Overview
 Help.GettingStarted.GraphicsSettings.Overview.Content
 Help.GettingStarted.GraphicsSettings.SettingsTab
