@@ -2,23 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # French [fr]
-Help.GettingStarted.AvatarBasics.Equipping
-Help.GettingStarted.AvatarBasics.Equipping.Content
-Help.GettingStarted.AvatarBasics.Equipping.Content2
-Help.GettingStarted.AvatarBasics.OpeningYourDashboard
-Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content
-Help.GettingStarted.AvatarBasics.CreatingAFolder
-Help.GettingStarted.AvatarBasics.CreatingAFolder.Content
-Help.GettingStarted.AvatarBasics.Saving
-Help.GettingStarted.AvatarBasics.Saving.Content
-Help.GettingStarted.AvatarBasics.Saving.Content2
-Help.GettingStarted.AvatarBasics.Saving.Content3
-Help.GettingStarted.AvatarBasics.Wearing
-Help.GettingStarted.AvatarBasics.Wearing.Content
-Help.GettingStarted.AvatarBasics.Favoriting
-Help.GettingStarted.AvatarBasics.Favoriting.Content
-Help.GettingStarted.AvatarBasics.FindingMoreAvatars
-Help.GettingStarted.AvatarBasics.FindingMoreAvatars.Content
 Help.GettingStarted.ExploringWorlds.WorldBrowser
 Help.GettingStarted.ExploringWorlds.WorldBrowser.Content
 Help.GettingStarted.ExploringWorlds.Categories
