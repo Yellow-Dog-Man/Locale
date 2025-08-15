@@ -2,20 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # French [fr]
-Help.GettingStarted.ExploringWorlds.WorldBrowser
-Help.GettingStarted.ExploringWorlds.WorldBrowser.Content
-Help.GettingStarted.ExploringWorlds.Categories
-Help.GettingStarted.ExploringWorlds.Categories.Content
-Help.GettingStarted.ExploringWorlds.BrowserInformation
-Help.GettingStarted.ExploringWorlds.BrowserInformation.Content
-Help.GettingStarted.ExploringWorlds.SessionInformation
-Help.GettingStarted.ExploringWorlds.SessionInformation.Content
-Help.GettingStarted.ExploringWorlds.JoiningASession
-Help.GettingStarted.ExploringWorlds.JoiningASession.Content
-Help.GettingStarted.ExploringWorlds.SessionManagement
-Help.GettingStarted.ExploringWorlds.SessionManagement.Content
-Help.GettingStarted.ExploringWorlds.WorldsToSee
-Help.GettingStarted.ExploringWorlds.WorldsToSee.Content
 Help.GettingStarted.YourContacts.FindingContacts
 Help.GettingStarted.YourContacts.FindingContacts.Content
 Help.GettingStarted.YourContacts.ContactsBrowser
