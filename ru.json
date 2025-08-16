@@ -891,6 +891,7 @@
         "CreateNew.Back": "<<< <i>Вернуться</i>",
         "CreateNew.EmptyObject": "Пустой объект",
         "CreateNew.ParticleSystem": "Система частиц",
+        "CreateNew.LegacyParticleSystem": "Система частиц (Устаревшая)",
 
         "CreateNew.Object": "Объект",
         "CreateNew.Object.AvatarCreator": "Создатель аватаров",
@@ -1185,7 +1186,7 @@
         "FullBody.CalibrateAvatarPrompt": "Нужно подогнать аватар?",
         "FullBody.CalibrateAvatar": "Калибровать мой аватар",
         "FullBody.FinishPrompt": "Всё хорошо?",
-        "FullBody.FinishCalibration": "Завершить FullBody калибровку",
+        "FullBody.FinishCalibration": "Завершить калибровку fullbody",
 
         "FullBody.CalibrateAvatarTitle": "Калибровать аватар",
         "FullBody.CalibrateAvatarInstructions": "Убедитесь что все трекеры привязаны, затем перенесите синие сферы так, чтобы аватар максимально точно соответсвовал референсу тела.",
@@ -1330,7 +1331,7 @@
 
         "Settings.GeneralHapticsSettings": "Тактильная отдача",
         "Settings.GeneralVRSettings": "VR",
-        "Settings.LeapMotionSettings": "Трекинг рук LeapMotion",
+        "Settings.LeapMotionSettings": "Трекинг рук Leap Motion",
         "Settings.ViveHandTrackingSettings": "Трекинг рук Vive",
         "Settings.TrackingSmoothingSettings": "Сглаживание трекинга",
 
@@ -1355,10 +1356,6 @@
         "Settings.AudioVolumeSettings": "Громкость",
         "Settings.AudioAccessibilitySettings": "Аудио (доступность)",
         "Settings.AudioInputFilteringSettings": "Обработка ввода",
-
-        "Settings.AudioStreamSettings": "Настройки аудио потока",
-        "Settings.AudioStreamSettings.DefaultBitrate": "Битрейт по умолчанию",
-        "Settings.AudioStreamSettings.DefaultDeviceID": "Идентификатор устройства по умолчанию",
 
         "Settings.RealtimeNetworkingSettings": "Настройки сети реального времени",
         "Settings.AssetGatherSettings": "Получение ассетов",
@@ -1555,7 +1552,7 @@
         "Settings.TrackerSettings.Trackers.Unmap": "Сбросить привязку",
         "Settings.TrackerSettings.Trackers.Remove": "Удалить трекер",
 
-        "Settings.SteamLinkSettings": "SteamLink",
+        "Settings.SteamLinkSettings": "Steam Link",
         "Settings.SteamLinkSettings.OSC_DataPort": "Порт трекинга лица OSC",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "На каком порту нужно принимать данные трекинга лица OSC. Порт должен совпадать с соответствующей настройкой в SteamVR чтобы трекинг лица работал.",
 
@@ -2723,7 +2720,7 @@
         "CloudHome.Info.ToolsTab.Content": "Отличительаня черта {appName} это возможность создавать и редактировать вещи прямо в игре.<br><br>Да, прямо здесь! Или вообще где угодно - инструменты из <i><color=hero.purple>Essentials -> Tools</color></i> в вашем инвентаре позволяют вам менять мир вокруг так, как вам захочется.",
 
         "CloudHome.Info.HelpTab.Title": "Получение помощи",
-        "CloudHome.Info.HelpTab.InfoLineOne": "Нужна помощь? Взгляните на нашу <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, или получите ответы на ваши вопросы в нашем <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> ",
+        "CloudHome.Info.HelpTab.InfoLineOne": "Нужна помощь? Взгляните на нашу <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, или получите ответы на ваши вопросы в нашем <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink>",
         "CloudHome.Info.HelpTab.InfoLineTwo": "Кстати, вы можете открывать ссылки на вашем рабочем столе, внутри Дэшборда, на вкладке <i><color=hero.purple>Рабочий стол</color></i>.",
 
         "CloudHome.Info.UsersTab.Title": "Поиск пользователей",
@@ -3129,6 +3126,11 @@
         "Universe.Units.HubbleLength": "Длина Хаббла",
         "Universe.Units.EarthRadius": "Радиус Земли",
         "Universe.Units.LunarDistance": "Лунное расстояние",
+
+        "Settings.AudioStreamSettings": "Настройки аудио потока",
+        "Settings.AudioStreamSettings.DefaultBitrate": "Битрейт по умолчанию",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "Идентификатор устройства по умолчанию",
+
 
         "Dummy": "Dummy"
     }
