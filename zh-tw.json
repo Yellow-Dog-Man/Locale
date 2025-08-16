@@ -38,6 +38,7 @@
         "General.UnderstandEnable": "我明白了，請啟用",
         "General.Dismiss": "略過",
         "General.Edit": "編輯",
+        "General.DontShowAgain": "不再顯示",
 
         "General.UI.SearchPrompt": "搜尋…",
         "General.UI.SearchPromptLong": "輸入以搜尋…",
@@ -121,12 +122,12 @@
         "Inventory.Equip": "裝備",
         "Inventory.Delete": "刪除",
         "Inventory.CreateDirectory": "建立資料夾",
-        "Inventory.SaveHeld": "儲存所持物件",
+        "Inventory.SaveHeld": "儲存所持物品",
         "Inventory.GetURL": "取得 URL",
         "Inventory.Inventories": "全部物品欄",
         "Inventory.Share": "分享",
         "Inventory.Unshare": "取消分享",
-        "Inventory.SaveAvatar": "保存化身",
+        "Inventory.SaveAvatar": "儲存化身",
         "Inventory.Favorite.Home": "設為自家",
         "Inventory.Favorite.ProgressBar": "設為進度條",
         "Inventory.Favorite.AudioStreamController": "設為音訊串流控制器",
@@ -150,6 +151,7 @@
         "Dash.Screens.Session": "活動",
         "Dash.Screens.FileBrowser": "檔案",
         "Dash.Screens.Settings": "設定",
+        "Dash.Screens.Help": "說明",
         "Dash.Screens.Exit": "離開",
 
         "Dash.Actions.PasteFromClipboard": "從剪貼簿貼上",
@@ -194,7 +196,7 @@
 
         "World.Error.AccessDenied": "存取遭拒",
         "World.Error.SecurityViolation": "安全違規",
-        "World.Error.OnlyRegisteredUsers": "只允許註冊用戶加入",
+        "World.Error.OnlyRegisteredUsers": "只允許註冊使用者加入",
         "World.Error.OnlyContacts": "僅允許主持的好友加入",
         "World.Error.OnlyContactsOfContacts": "僅允許活動內使用者的好友加入",
         "World.Error.Private": "此為私人的活動",
@@ -222,7 +224,7 @@
         "World.Config.Description": "描述：",
         "World.Config.MaxUsers": "使用者上限：",
         "World.Config.MobileFriendly": "行動裝置友善",
-        "World.Config.SaveOptionsHeader": "世界保存選項：",
+        "World.Config.SaveOptionsHeader": "世界儲存選項：",
         "World.Config.EditMode": "編輯模式：",
         "World.Config.AccessLevelHeader": "誰可以加入這個世界？",
         "World.Config.AutoKickAFK": "自動踢出暫離使用者：",
@@ -352,7 +354,7 @@
         "World.Filter.MinimumContacts": "好友數下限：<b>{n}</b>",
         "World.Filter.OnlyHeadless": "僅 Headless 主持",
         "World.Filter.IncompatibleSessions": "活動不相容",
-        "World.Filter.MaxAccessLevel": "最大訪問權限:",
+        "World.Filter.MaxAccessLevel": "最大存取權限:",
         "World.Filter.MinimumUptime": "上線時間：",
         "World.Filter.Sorting": "排序：",
 
@@ -368,7 +370,7 @@
         "World.Edit.ReadOnly": "唯讀",
 
         "Tools.AvatarCreator": "化身建立工具",
-        "Tools.FullBodyCalibrator": "全身/化身校正工具",
+        "Tools.FullBodyCalibrator": "全身追蹤/化身校正工具",
         "Tools.CameraStreaming": "相機/串流",
         "Tools.CreateNewWorld": "建立世界",
         "Tools.Debug": "除錯",
@@ -384,8 +386,8 @@
         "Tools.StreamAudio.PlayForOwner.Off": "為擁有者播放：關閉",
         "Tools.StreamAudio.PlayForOwner.On": "為擁有者播放：開啟",
 
-        "Options.FreeformDash.On": "儀表板自由擺放：啟用",
-        "Options.FreeformDash.Off": "儀表板自由擺放：關閉",
+        "Options.FreeformDash.On": "主面板自由擺放：啟用",
+        "Options.FreeformDash.Off": "主面板自由擺放：關閉",
         "Options.SeatedMode.On": "坐姿模式：啟用",
         "Options.SeatedMode.Off": "坐姿模式：關閉",
         "Options.Nameplates.All": "名牌: 顯示所有名牌",
@@ -407,7 +409,7 @@
         "Indicator.Sync.AllSynced": "已全部同步",
         "Indicator.Sync.SyncingItems": "正在同步<br><size=61.8033%>{item_count} 項物品</size>",
         "Indicator.Sync.UploadingVariants": "正在上傳<br><size=61.8033%>資產</size>",
-        "Indicator.Sync.SyncError": "同步錯誤 <size=61.803%>查看日誌瞭解細節</size>",
+        "Indicator.Sync.SyncError": "同步錯誤 <size=61.803%>檢視日誌瞭解細節</size>",
         "Indicator.Sync.StorageFull": "儲存空間已滿 <size=61.803%>無法同步</size>",
 
         "Indicator.Storage.StorageFull": "儲存空間已滿",
@@ -424,16 +426,16 @@
         "Login.MalformedUID": "無效裝置資訊",
         "Login.MalformedUID.Description": "請嘗試重新安裝，或聯絡客服 {supportUrl}。",
 
-        "Login.MissingUID": "缺失裝置資訊",
+        "Login.MissingUID": "缺少裝置資訊",
         "Login.MissingUID.Description": "請嘗試重新安裝，或聯絡客服 {supportUrl}。",
 
-        "Login.MissingSecretMachineId": "缺失秘密機器ID",
+        "Login.MissingSecretMachineId": "缺少秘密機器ID",
         "Login.MissingSecretMachineId.Description": "請嘗試重新安裝，或聯絡客服 {supportUrl}。",
 
         "Login.MalformedSecretMachineId": "無效秘密機器ID",
         "Login.MalformedSecretMachineId.Description": "請嘗試重新安裝，或聯絡客服 {supportUrl}。",
 
-        "Register.MissingUID": "缺失裝置資訊",
+        "Register.MissingUID": "缺少裝置資訊",
         "Register.MissingUID.Description": "請嘗試重新安裝，或聯絡客服 {supportUrl}。",
 
         "Register.MalformedUID": "無效裝置資訊",
@@ -442,8 +444,8 @@
         "Login.MissingLogin": "未提供憑證",
         "Login.MissingLogin.Description": "您是否忘記提供憑證?",
 
-        "Login.InvalidRecoveryCode": "無效恢復碼",
-        "Login.InvalidRecoveryCode.Description": "請檢查您的恢復碼並重試。",
+        "Login.InvalidRecoveryCode": "無效備用碼",
+        "Login.InvalidRecoveryCode.Description": "請檢查您的備用碼並重試。",
 
         "Login.UnsupportedAuthentication": "不支援的驗證方法",
         "Login.UnsupportedAuthentication.Description": "我們不支援此驗證方法。請嘗試其他方法。",
@@ -505,7 +507,7 @@
         "Register.UsernameAlreadyRegistered": "此使用者名稱已註冊",
         "Register.UsernameAlreadyRegistered.Description": "使用此電子郵件的帳戶已存在。如果您忘記了密碼，可以點擊「忘記密碼」。或者，您可以聯絡客服：{supportUrl}。",
 
-        "Register.ErrorCheckingUserId": "檢查用戶ID時出錯",
+        "Register.ErrorCheckingUserId": "檢查使用者ID時出錯",
         "Register.ErrorCheckingUserId.Description": "請聯繫客服： {supportUrl}.",
 
         "Recovery.MissingEmail": "未輸入電子郵件地址",
@@ -520,38 +522,38 @@
         "Register.UnknownError": "未知錯誤",
         "Register.UnknownError.Description": "註冊時發生未知錯誤。請聯繫客服：{supportUrl}.",
 
-        "Account.Login": "登錄",
+        "Account.Login": "登入",
         "Account.Logout": "登出",
         "Account.Register": "註冊",
-        "Account.Saml2": "使用 SAML 2.0 登錄",
-        "Account.LoginOrRegister": "登錄 / 註冊",
+        "Account.Saml2": "使用 SAML 2.0 登入",
+        "Account.LoginOrRegister": "登入 / 註冊",
         "Account.LogoutConfirm": "確認登出?",
-        "Account.LoggingIn": "正在登錄...",
-        "Account.LoggingOut": "正在登出...",
-        "Account.Registering": "正在註冊...",
+        "Account.LoggingIn": "正在登入…",
+        "Account.LoggingOut": "正在登出…",
+        "Account.Registering": "正在註冊…",
         "Account.Anonymous": "匿名",
         "Account.Username": "使用者名稱：",
-        "Account.Email": "電子郵件：",
-        "Account.RememberMe": "記住我<br><size=50%>(30天無活動後將登出)</size>",
-        "Account.RepeatEmail": "重複電子郵件：",
-        "Account.UsernameOrEmail": "使用者名稱或電子郵件：",
+        "Account.Email": "Email：",
+        "Account.RememberMe": "記住我<br><size=50%>（30天無活動自動登出）</size>",
+        "Account.RepeatEmail": "再次輸入 email：",
+        "Account.UsernameOrEmail": "使用者名稱或 email：",
         "Account.Password": "密碼：",
-        "Account.RepeatPassword": "重複輸入密碼：",
+        "Account.RepeatPassword": "再次輸入密碼：",
         "Account.RecoverPassword": "忘記密碼？",
         "Account.LiveEmailWarning": "<color=#f00>警告:</color> live.com，hotmail.com，Outlook.com和其他Microsoft託管的服務最多可能需要1-2天才能接受該電子郵件。",
         "Account.PasswordRules": "(至少8個字符，1個數字，1個小寫字母，1個大寫字母)",
         "Account.LostPassword": "忘記密碼",
-        "Account.SendRecoveryCode": "發送恢復碼",
+        "Account.SendRecoveryCode": "發送備用碼",
         "Account.ResetPasswordHeader": "重置你的密碼",
-        "Account.ResetPasswordInstructions": "恢復碼已發送到您的電子郵件。將其複製到下方輸入框：",
-        "Account.RecoveryCode": "恢復碼:",
+        "Account.ResetPasswordInstructions": "備用碼已發送到您的電子郵件。將其複製到下方輸入框：",
+        "Account.RecoveryCode": "備用碼:",
         "Account.NewPassword": "新密碼:",
         "Account.ResetPassword": "設置新密碼",
         "Account.Requesting": "正在請求...",
-        "Account.ErrorPasswordMismatch": "密碼不匹配！",
-        "Account.ErrorEmailMismatch": "電子郵件不匹配！",
-        "Account.ErrorLoginError": "登錄錯誤:",
-        "Account.RegistrationSuccess": "<size=120％>成功！</size><br><br>驗證鏈接已通過電子郵件發送到{email}。<br><br>保持此會話打開並單擊此連接後，您將自動登錄。<br><br>如果遇到問題，請通過 {appEmail} 或 {appCommunity} 與我們聯繫。",
+        "Account.ErrorPasswordMismatch": "兩次密碼輸入不合",
+        "Account.ErrorEmailMismatch": "Email 輸入不合",
+        "Account.ErrorLoginError": "登入錯誤：",
+        "Account.RegistrationSuccess": "<size=120％>註冊完成！</size><br><br>驗證連結已透過 email 發送到 {email}。<br><br>保持此活動開啟並點一下 email 裡面的連接，你將會自動登入。<br><br>如果遇到問題，請透過 {appEmail} 或 {appCommunity} 與我們聯繫。",
         "Account.BirthMonth": "出生月份：",
         "Account.BirthDay": "出生日：",
         "Account.BirthYear": "出生年份：",
@@ -559,33 +561,33 @@
         "Account.AlternateMethods": "使用第三方服務登錄：",
 
         "Account.Saml2.Title": "SAML 2.0",
-        "Account.Saml2.Select": "請選擇您想使用的 SAML 2.0 服務商：",
-        "Account.Saml2.LoggingIn": "正在等待登錄完成（請查看您的瀏覽器）...",
+        "Account.Saml2.Select": "請選擇您想使用的 SAML 2.0 服務提供者：",
+        "Account.Saml2.LoggingIn": "正在等待登入完成（請檢查瀏覽器）...",
 
         "Account.TOTP.Title": "雙重認證（2FA）",
         "Account.TOTP.Initializing": "正在檢查您帳戶的雙重認證狀態...",
         "Account.TOTP.Code.Header": "安全碼",
-        "Account.TOTP.Code.Description": "首先，您需要將一個安全碼輸入您的 TOTP 認證應用，例如 <b>Authy</b> 或者 <b>Google Authenticator</b>.<br><br>我們建議以掃描二維碼的方式輸入，但您也可以手動輸入。 <b>千萬不要告訴他人您的安全碼。</b><br><br>如果您正在VR模式下，您可以通過按下 F8 切換到桌面模式。",
-        "Account.TOTP.Code.QRCode": "掃描二維碼",
+        "Account.TOTP.Code.Description": "首先，您需要將一個安全碼輸入您的 TOTP 認證應用，例如 <b>Authy</b> 或者 <b>Google Authenticator</b>.<br><br>我們建議以掃描 QR Code 的方式輸入，但您也可以手動輸入。 <b>千萬不要告訴他人您的安全碼。</b><br><br>如果您正在VR模式下，您可以透過 F8 切換到桌面模式。",
+        "Account.TOTP.Code.QRCode": "掃描 QR Code",
         "Account.TOTP.Code.Key": "安全碼：",
-        "Account.TOTP.RecoveryCodes.Header": "恢復碼",
-        "Account.TOTP.RecoveryCodes.Description": "把這些代碼保存在安全的地方。它們可以在您的手機丟失或損壞後，幫助您再次訪問您的帳戶。每條代碼只能使用一次。<b>千萬不要告訴他人這些代碼。</b> 如果您弄丟了它們，您將 <color=red>永遠</color> 失去對您帳戶的訪問權。",
-        "Account.TOTP.RecoveryCodes.Codes": "恢復碼：",
-        "Account.TOTP.Activate.Header": "激活雙重認證",
-        "Account.TOTP.Activate.Description": "要在您的帳戶上激活雙重認證， 請使用您認證應用所產生的六位數驗證碼來確保一切工作正常。<br><br>一旦激活，您將需要這些代碼來進行特定操作。",
+        "Account.TOTP.RecoveryCodes.Header": "備用碼",
+        "Account.TOTP.RecoveryCodes.Description": "把備用碼存放在安全的地方。可以在手機遺失或損壞後，協助你再次存取你的帳戶。每個備用碼只能使用一次。<b>千萬不要告訴他人這些代碼。</b> 如果你也把備用碼弄丟了，你將<color=red>永遠</color>失去對帳戶的存取權限。",
+        "Account.TOTP.RecoveryCodes.Codes": "備用碼：",
+        "Account.TOTP.Activate.Header": "啟用雙重認證",
+        "Account.TOTP.Activate.Description": "要在您的帳戶上啟用雙重認證， 請使用您認證應用所產生的六位數驗證碼來確保一切工作正常。<br><br>一旦啟用，您將需要這些代碼來進行特定操作。",
         "Account.TOTP.Activate.Token": "6位數驗證碼：",
         "Account.TOTP.Activate.TokenField": "在此處輸入驗證碼...",
-        "Account.TOTP.Activate.Activate": "激活",
-        "Account.TOTP.Activate.Activating": "激活中...",
+        "Account.TOTP.Activate.Activate": "啟用",
+        "Account.TOTP.Activate.Activating": "啟用中…",
         "Account.TOTP.Activate.InvalidToken": "無效驗證碼！",
         "Account.TOTP.Message.AlreadySetup": "您的帳戶已啟用雙重認證！",
         "Account.TOTP.Message.Error": "遭遇意外錯誤！請稍候重試。",
         "Account.TOTP.Message.SetupComplete": "<size=150%>恭喜！</size><br><br>您的帳戶已啟用雙重認證並享受其帶來的額外保護！<br><br>您還可以用 /enableLogin2FA 指令啟用此帳戶登錄時的雙重認證。",
         "Account.TOTP.Deactivate.Header": "取消雙重認證",
-        "Account.TOTP.Deactivate.Description": "目前雙重認證已 <b><color=green>在您的帳戶上設置並激活</color></b>。如果您需要取消它（例如：您丟失了手機或者恢復碼遭泄漏），您可以在此處進行操作。<br><br>取消雙重認證後，您可以再次設置啟用它，這將生成一個全新的安全碼與一套新的恢復碼。<br><br>如果您丟失了手機，且需要再次設置激活，我們 <b>強烈</b> 建議您馬上進行這項操作，因為每條恢復碼只能被使用一次，當其耗盡後，您將永遠無法訪問您的帳戶。",
+        "Account.TOTP.Deactivate.Description": "目前雙重認證已 <b><color=green>在你的帳戶上設定並啟用</color></b>。如果你需要取消它（例如：遺失手機或者備用碼遭泄漏），你可以在此處進行操作。<br><br>取消雙重認證後，可以再次設定並啟用，這將生成一個全新的安全碼與一套新的備用碼。<br><br>如果您遺失了手機，且需要再次設置啟用，我們 <b>強烈</b> 建議您馬上進行這項操作，因為每條備用碼只能被使用一次，當其耗盡後，您將永遠無法存取您的帳戶。",
         "Account.TOTP.Deactivate.Deactivate": "取消",
         "Account.TOTP.Deactivate.Deactivating": "取消中...",
-        "Account.TOTP.Message.DeactivationComplete": "您帳戶的雙重認證已被成功取消。<br><br>您的帳戶正因此面臨更大的風險！<br><br>我們強烈建議您馬上重新設置啟用雙重認證，特別是當您因丟失手機而使用了恢復碼後。",
+        "Account.TOTP.Message.DeactivationComplete": "您帳戶的雙重認證已被成功取消。<br><br>您的帳戶正因此面臨更大的風險！<br><br>我們強烈建議您馬上重新設置啟用雙重認證，特別是當您因遺失手機而使用了備用碼後。",
 
         "Account.Type.Standard": "標準帳戶",
         "Account.Type.Business": "商用帳戶",
@@ -621,18 +623,18 @@
         "Session.Permission.PermissionOverrideCount": "權限覆蓋：{n,select, -1 {---} other {{n} 項}}",
         "Session.Permission.ClearOverrides": "清除權限覆蓋",
 
-        "Session.JoinVerifier.EnableHeader": "啟用自訂加入認證機制？",
-        "Session.JoinVerifier.EnableText": "<color=red>警告：</color> 您將要啟用自訂准入認證，其是當前世界的一部分。當您這樣做之前，請確保您信任此世界的創建者。因為自訂准入認證器可以繞過標準會話訪問規則，並使用其自己的規則允許或阻止用戶進入。",
-        "Session.JoinVerifier.Label": "使用自訂准入認證器： {name}",
-        "Session.JoinVerifier.ComponentWarning": "<color=red>警告：</color> 目前，並沒有機制可以在認證器啟用後防止篡改。如果篡改用於認證的 ProtoFlux 設置可能導致問題, 請！不！要！使用這個功能且 不！要！在您的世界中激活它。",
-        "Session.JoinVerifier.SetCustomVerifier": "設為自訂加入請求認證器",
+        "Session.JoinVerifier.EnableHeader": "啟用自訂加入驗證器？",
+        "Session.JoinVerifier.EnableText": "<color=red>警告：</color>你將要啟用自訂加入驗證器，作為目前世界的一部分。啟用前請確保你信任此世界的建立者，因為自訂的驗證器可以繞過一般的活動進入規則，並使用其自有的規則允許或阻止使用者進入活動。",
+        "Session.JoinVerifier.Label": "使用自訂加入驗證器： {name}",
+        "Session.JoinVerifier.ComponentWarning": "<color=red>警告：</color>目前並沒有機制可以在驗證器啟用後防止篡改。如果你擔心用於認證的 ProtoFlux 配置遭到竄改, <b>請不要</b>使用這個功能且<b>不要</b>在你的世界中啟用它。",
+        "Session.JoinVerifier.SetCustomVerifier": "設為自訂加入請求驗證器",
 
-        "Permissions.NotAllowedToSpawn": "您不可以在此處生成事物",
-        "Permissions.NotAllowedToSave": "您無權在這個世界上保存項目",
-        "Permissions.NotAllowedToSwapAvatar": "您不允許在此處交換到自定化身",
+        "Permissions.NotAllowedToSpawn": "不允許在此處生成事物",
+        "Permissions.NotAllowedToSave": "不允許在這個世界上儲存項目",
+        "Permissions.NotAllowedToSwapAvatar": "不允許在此處切換到自定化身",
         "Permissions.SavingDisabledForItem": "本物品的儲存功能被停用",
 
-        "User.Actions.Silence": "全局靜音",
+        "User.Actions.Silence": "全域靜音",
         "User.Actions.Mute": "靜音",
         "User.Actions.Jump": "跳躍",
         "User.Actions.Respawn": "重生",
@@ -666,7 +668,7 @@
         "Contacts.InHidden": "在隱藏的世界",
         "Contacts.InHiddenContactsOnly": "在隱藏的，僅限好友的世界",
         "Contacts.InHiddenContactsPlus": "在隱藏的，僅限好友+的世界",
-        "Contacts.InLAN": "在局域網世界",
+        "Contacts.InLAN": "在區域網路世界",
         "Contacts.UsingDifferentVersion": "使用版本: {version}",
         "Contacts.RequestSent": "請求已發送",
         "Contacts.RequestReceived": "好友請求",
@@ -675,7 +677,7 @@
         "Contacts.SearchResult": "搜索結果",
         "Contacts.Bot": "Bot帳號",
         "Contacts.Migrated": "好友未遷移",
-        "Contacts.IncompatibleSession": "會話不相容",
+        "Contacts.IncompatibleSession": "活動不相容",
         "Contacts.AskToJoin": "<color=hero.yellow>請求</color> 加入",
 
         "Contacts.InviteRequest.UserWantsToJoin": "{username} 想加入您",
@@ -684,11 +686,11 @@
         "Contacts.InviteRequest.AddAsContact": "加 \"{username}\" 作為聯絡人",
         "Contacts.InviteRequest.AddAsContactOfHeadless": "加 \"{username}\" 作為Headless聯絡人",
         "Contacts.InviteRequest.AddHostAsContact": "加 \"{username}\" (主持) 作為聯絡人",
-        "Contacts.InviteRequest.HostIsUnregistered": "主持人為未註冊用戶",
+        "Contacts.InviteRequest.HostIsUnregistered": "主持人為未註冊使用者",
         "Contacts.InviteRequest.ForwardToHost": "轉發給主持人： {username}",
         "Contacts.InviteRequest.SentRequest": "已請求邀請",
-        "Contacts.InviteRequest.ForwardedRequest": "來自 \"{username}\" 的轉發邀請請求至 \"{sessionName}\" 會話",
-        "Contacts.InviteRequest.GrantedRequest": "發放邀請 \"{username}\" 至 \"{sessionName}\" 會話",
+        "Contacts.InviteRequest.ForwardedRequest": "來自 \"{username}\" 的轉發邀請請求至 \"{sessionName}\" 活動",
+        "Contacts.InviteRequest.GrantedRequest": "發放邀請 \"{username}\" 至 \"{sessionName}\" 活動",
 
         "Notifications.IsSociable": "此人善於交際，戳一下或邀請他們！",
         "Notifications.IsOnline": "上線了",
@@ -697,11 +699,11 @@
         "Notifications.ReceivedInvite": "邀請您：",
         "Notifications.ReceivedItem": "發來一件物品：",
         "Notifications.VoiceMessage": "發來一條語音訊息",
-        "Notifications.SessionStarted": "已開始會話：",
+        "Notifications.SessionStarted": "已開始活動：",
         "Notifications.ReceivedInviteRequestDirect": "想要被邀請",
         "Notifications.ReceivedInviteRequestForwarded": "想要邀請：",
-        "Notifications.UserJoined": "用戶已加入",
-        "Notifications.UserLeft": "用戶已離開",
+        "Notifications.UserJoined": "使用者已加入",
+        "Notifications.UserLeft": "使用者已離開",
         "Notifications.PermissionChanged": "角色已變更為 {new}",
         "Notifications.PermissionChangedDetail": "在 {world}. 先前的角色: {old}",
 
@@ -746,19 +748,19 @@
         "Tools.GeometryLineBrush.Name": "幾何線條筆刷",
 
         "Tools.Dev.Name": "開發工具",
-        "Tools.Dev.CreateNew": "創建新的...",
+        "Tools.Dev.CreateNew": "建立新的...",
         "Tools.Dev.Selection": "選擇: {mode}",
         "Tools.Dev.DevMode.Off": "開發人員模式：禁用",
         "Tools.Dev.DevMode.On": "開發人員模式：啟用",
-        "Tools.Dev.OpenInspector": "打開查看器",
+        "Tools.Dev.OpenInspector": "打開檢視器",
         "Tools.Dev.DeselectAll": "全部取消選擇",
         "Tools.Dev.DestroySelected": "銷毀所選",
         "Tools.Dev.ConfirmDestroySelected": "確認銷燬所選",
 
         "Tools.Dev.GizmoOptions": "Gizmo 選項",
         "Tools.Dev.SelectParent": "選擇上層",
-        "Tools.Dev.LocalSpace": "局部座標",
-        "Tools.Dev.GlobalSpace": "全局座標",
+        "Tools.Dev.LocalSpace": "本地座標",
+        "Tools.Dev.GlobalSpace": "全域座標",
         "Tools.Dev.Translation": "平移",
         "Tools.Dev.Rotation": "旋轉",
         "Tools.Dev.Scale": "縮放",
@@ -810,13 +812,13 @@
         "Tools.Material.Name": "材質工具",
         "Tools.Material.RayMode": "射線模式",
         "Tools.Material.AreaMode": "區域模式",
-        "Tools.Material.ObjectMode": "對象全局模式",
-        "Tools.Material.SceneMode": "場景全局模式",
+        "Tools.Material.ObjectMode": "對象全域模式",
+        "Tools.Material.SceneMode": "場景全域模式",
         "Tools.Material.CreateCopy": "建立副本",
         "Tools.Material.Edit": "編輯材料",
-        "Tools.Material.Convert": "轉換為...",
-        "Tools.Material.ConvertAll": "把全部轉換為...",
-        "Tools.Material.CreateNew": "創建新的",
+        "Tools.Material.Convert": "轉換為…",
+        "Tools.Material.ConvertAll": "全部轉換為…",
+        "Tools.Material.CreateNew": "建立新材質",
 
         "Tools.Mesh.Edit": "編輯網格",
 
@@ -837,15 +839,15 @@
         "Tools.ProtoFlux.Reference": "參考",
         "Tools.ProtoFlux.Write": "寫",
         "Tools.ProtoFlux.Proxy": "代理",
-        "Tools.ProtoFlux.CreateLocal": "創建局部變量",
-        "Tools.ProtoFlux.CreateStore": "創建變量",
-        "Tools.ProtoFlux.CreateDataModelStore": "創建結構變量",
+        "Tools.ProtoFlux.CreateLocal": "建立區域變數",
+        "Tools.ProtoFlux.CreateStore": "建立變數",
+        "Tools.ProtoFlux.CreateDataModelStore": "建立資料模型變數",
         "Tools.ProtoFlux.Overview": "切換概覽",
         "Tools.ProtoFlux.NodeBrowser": "瀏覽節點",
         "Tools.ProtoFlux.PackInPlace": "原地打包",
         "Tools.ProtoFlux.PackInto": "打包為 <size=50%>{name}</size>",
         "Tools.ProtoFlux.Unpack": "將 <size=50%>{name}</size> 解包",
-        "Tools.ProtoFlux.ExplicitCast": "顯式轉換\n<size=50%>(<color=red>警告：</color> 可能丟失數據)</size>",
+        "Tools.ProtoFlux.ExplicitCast": "顯式轉換\n<size=50%>（<color=red>警告：</color> 可能遺失數據）</size>",
 
         "Tools.Meter.Mode.Ray": "模式：射線",
         "Tools.Meter.Mode.Perpendicular": "模式: 垂直",
@@ -894,7 +896,7 @@
         "CreateNew.LegacyParticleSystem": "舊版粒子系統",
 
         "CreateNew.Object": "物件",
-        "CreateNew.Object.AvatarCreator": "虛擬化身創建器",
+        "CreateNew.Object.AvatarCreator": "虛擬化身建立器",
         "CreateNew.Object.Camera": "相機",
         "CreateNew.Object.ReflectionProbe": "反射探針",
         "CreateNew.Object.ReverbZone": "迴音區域",
@@ -917,7 +919,7 @@
         "CreateNew.Text.Outline": "輪廓",
 
         "CreateNew.Editor": "編輯器",
-        "CreateNew.Editor.UserInspector": "用戶查看器",
+        "CreateNew.Editor.UserInspector": "使用者檢視器",
         "CreateNew.Editor.LightSourcesWizard": "光源設定",
         "CreateNew.Editor.TextRendererWizard": "文字渲染設定",
         "CreateNew.Editor.AssetOptimizationWizard": "資產最佳化設定",
@@ -950,13 +952,13 @@
 
         "CreateNew.Materials": "材質",
 
-        "CreateNew.Directory.Title": "創建新目錄：",
+        "CreateNew.Directory.Title": "建立新目錄：",
         "CreateNew.Directory.Error.EmptyName": "請輸入名稱：",
         "CreateNew.Directory.Error.LongName": "名稱太長了：",
         "CreateNew.Directory.Error.InvalidName": "無效名稱：",
 
-        "AvatarCreator.Title": "虛擬化身創建器",
-        "AvatarCreator.Instructions": "將化身對象與頭顯和控制器參考對齊（可選），然後按創建將其轉換為化身",
+        "AvatarCreator.Title": "虛擬化身建立器",
+        "AvatarCreator.Instructions": "將化身對象與頭顯和控制器參考對齊（可選），然後按建立將其轉換為化身",
         "AvatarCreator.UseSymmetry": "使用對稱",
         "AvatarCreator.ShowToolAnchors": "顯示工具錨點",
         "AvatarCreator.SetupVolumeMeter": "設置音量計",
@@ -971,16 +973,16 @@
         "AvatarCreator.CenterHead": "居中頭位置",
         "AvatarCreator.TryAlignHands": "嘗試對齊手",
         "AvatarCreator.AlignToolAnchors": "對齊工具錨點",
-        "AvatarCreator.Create": "創建",
+        "AvatarCreator.Create": "建立",
         "AvatarCreator.ProtectionUnavailable": "<i>此世界不支援虛擬化身保護。請切換至其他世界以保護您的虛擬化身。</i>",
 
         "Importer.General.AsRawFile": "原始檔案",
 
         "Importer.Folder.Title": "文件夾導入器",
         "Importer.Folder.Individual": "逐個導入",
-        "Importer.Folder.Individual.Description": "為文件夾中的每個受支持文件創建一個單獨的導入對話框",
+        "Importer.Folder.Individual.Description": "為文件夾中的每個受支持文件建立一個單獨的導入對話框",
         "Importer.Folder.Batch": "批量導入",
-        "Importer.Folder.Batch.Description": "為每種類型的文件以相同設置創建一個導入對話框",
+        "Importer.Folder.Batch.Description": "為每種類型的文件以相同設置建立一個導入對話框",
         "Importer.Folder.Minecraft": "Minecraft 中的世界",
         "Importer.Folder.Minecraft.Description": "如果安裝了 Mineways，導入 Minecraft 中的世界。",
 
@@ -1149,59 +1151,59 @@
         "Importer.Package.Progress.Imported": "Package 已完成匯入",
         "Importer.Package.Progress.Fail": "匯入失敗，請檢查日誌",
 
-        "NewWorld.Title": "創建世界",
-        "NewWorld.SessionTitle": "新會話",
+        "NewWorld.Title": "建立世界",
+        "NewWorld.SessionTitle": "新活動",
         "NewWorld.Template": "世界模板：",
         "NewWorld.CustomPreset": "自定義預設：",
-        "NewWorld.SessionSettings": "會話設定：",
+        "NewWorld.SessionSettings": "活動設定：",
         "NewWorld.UnsafeMode": "不安全模式：",
         "NewWorld.Port": "端口：",
         "NewWorld.AutoPort": "自動：",
         "NewWorld.DefaultName": "{name} 世界",
 
-        "FullBody.Title": "全身/化身校正",
+        "FullBody.Title": "全身追蹤/化身校正",
         "FullBody.SetHeight": "1) 設定身高",
-        "FullBody.HeightInstructions": "確保這是您的實際身高，否則校準將無法正常進行。人體模型應與頭顯和控制器相符。",
-        "FullBody.HeightWarning": "這似乎不正確。確保它是您的實際身高。",
-        "FullBody.ConfirmMapping": "2) 確認跟踪器映射",
-        "FullBody.MappingInstructions": "直立站立，確保跟踪器正在跟踪並被正確檢測到。",
-        "FullBody.StartCalibration": "啟動跟踪器校準",
+        "FullBody.HeightInstructions": "確定這是你的實際身高，否則校正將無法正常進行。人體模型應與頭顯和控制器相符。",
+        "FullBody.HeightWarning": "身高似乎不正確，確定這是你的實際身高。",
+        "FullBody.ConfirmMapping": "2) 確認追蹤器對應",
+        "FullBody.MappingInstructions": "直立站立，確保追蹤器正在追蹤並被正確檢測到。",
+        "FullBody.StartCalibration": "啟動追蹤器校正",
         "FullBody.JustCalibrateAvatar": "只是校准我的化身",
-        "FullBody.JustCalibrateAvatarDescription": "跳過全身校準，僅校準化身",
+        "FullBody.JustCalibrateAvatarDescription": "跳過全身校正，僅校正化身",
         "FullBody.SkipAndAdjustAvatar": "跳過並調整化身",
-        "FullBody.CalibrateInstructions": "使自己與遊戲空間中的紅色身體覆蓋層對齊，然後按下兩個扳機鍵進行確認。確保您真實的腳和臀部與虛擬的盡可能接近。",
+        "FullBody.CalibrateInstructions": "使自己與遊戲空間中的紅色身體覆蓋層對齊，然後按下兩個扳機鍵進行確認。確保你實際的腳部和臀部與虛擬的部位盡可能接近。",
 
-        "FullBody.BeforeCalibrationInstructions": "確保跟踪器正在跟踪且您的身高已設置",
+        "FullBody.BeforeCalibrationInstructions": "確保追蹤器正在追蹤且你的身高已設定完成",
         "FullBody.CalibratingPoseInstructions": "確保自己與參考對齊，然後按下兩個扳機鍵進行確認",
-        "FullBody.AdjustAvatarInstructions": "調整化身的身體偏移，使其與參考最匹配",
-        "FullBody.FineTuneCalibrationInstructions": "通過移動藍色參考來驗證和微調校準",
+        "FullBody.AdjustAvatarInstructions": "調整化身的身體偏移，使其與參考最為匹配",
+        "FullBody.FineTuneCalibrationInstructions": "透過移動藍色參考來驗證和微調校正",
 
-        "FullBody.CalibrateTrackersHeader": "校準跟踪器",
-        "FullBody.CalibrateTrackersInstructions": "握持並放置相對於跟蹤器的藍色身體部分，以調整其偏移量。它們應與跟踪器在您身體上的位置相匹配。 \n 您可以在以後隨時通過重新打開此工具來調整校準。",
+        "FullBody.CalibrateTrackersHeader": "校正追蹤器",
+        "FullBody.CalibrateTrackersInstructions": "握持並放置相對於追蹤器的藍色身體部分，以調整其偏移量。它們應與追蹤器在你身體上的位置相匹配。\n你可以在以後隨時透過重新打開此工具來調整校正。",
         "FullBody.UseSymmetry": "使用對稱",
         "FullBody.ShowBodyOverlay": "顯示身體疊加",
         "FullBody.HeightCompensationInstructions": "如果人體模型過高（彎曲）或過矮，請調整高度補償以達到最佳配合。",
-        "FullBody.RecalibratePrompt": "跟踪器損壞或丟失？",
-        "FullBody.Recalibrate": "再次運行T-Pose校準",
+        "FullBody.RecalibratePrompt": "追蹤器損壞或遺失？",
+        "FullBody.Recalibrate": "再次運行 T-Pose 校正",
         "FullBody.CalibrateAvatarPrompt": "需要調整化身配合度嗎？",
         "FullBody.CalibrateAvatar": "校准我的化身",
         "FullBody.FinishPrompt": "看起來不錯？",
-        "FullBody.FinishCalibration": "完成全身校準",
+        "FullBody.FinishCalibration": "完成全身校正",
 
-        "FullBody.CalibrateAvatarTitle": "校準化身",
-        "FullBody.CalibrateAvatarInstructions": "確保已映射所有身體部位，然後在其周圍拖動藍色球體，以使化身與身體參考最匹配。",
+        "FullBody.CalibrateAvatarTitle": "校正化身",
+        "FullBody.CalibrateAvatarInstructions": "確保已對應所有身體部位，然後在其周圍拖動藍色球體，以使化身與身體參考最匹配。",
         "FullBody.ShowReferenceOverlay": "顯示參考疊加",
-        "FullBody.ResetAvatarPrompt": "化身扭曲或無法追踪？",
-        "FullBody.ResetAvatar": "重置映射",
-        "FullBody.AvatarHeightCompensationInstructions": "如果化身太高（最終彎成弓形）或太矮，在此處調整其高度補償使它更適合您的身高。",
+        "FullBody.ResetAvatarPrompt": "化身扭曲或無法追蹤？",
+        "FullBody.ResetAvatar": "重置對應",
+        "FullBody.AvatarHeightCompensationInstructions": "如果化身太高（最終彎成弓形）或太矮，在此處調整其高度補償使它更適合你的身高。",
         "FullBody.AvatarHeightCompensation": "化身高度補償: {n, number, percent}",
         "FullBody.ResetAvatarHeightCompensation": "重置高度補償",
-        "FullBody.AvatarSaveWarning": "完成校准後，不要忘記保存您的化身！",
-        "FullBody.FinishAvatarCalibration": "完成化身校準",
-        "FullBody.CalibrationFinishedInstructions": "如果您對校準滿意，則可以保存您的化身並退出。",
-        "FullBody.CloseCalibrator": "關閉校準工具",
-        "FullBody.CalibrationRedoInstructions": "如果校準有誤差，或是您想校準更多的化身，則可以進行更多的調整。您也可以在以後的任何時候重新打開此校準器以進行調整。 \n 如果您僅更改了跟踪器，則無需再次校準化身。",
-        "FullBody.ReturnToTrackerCalibration": "返回跟踪器校準",
+        "FullBody.AvatarSaveWarning": "完成校正後，不要忘記儲存你的化身！",
+        "FullBody.FinishAvatarCalibration": "完成化身校正",
+        "FullBody.CalibrationFinishedInstructions": "如果你滿意這次的校正，你可以儲存化身並關閉這個工具。",
+        "FullBody.CloseCalibrator": "關閉校正工具",
+        "FullBody.CalibrationRedoInstructions": "如果校正有誤差，或是你想校正更多的化身，則可以進行更多的調整。你可以在任何時候重新打開此校正工具並進行調整。\n如果你只有更改追蹤器設定，則無需再次校正化身。",
+        "FullBody.ReturnToTrackerCalibration": "返回追蹤器校正",
 
         "FullBody.Hips": "臀部",
         "FullBody.Feet": "腳部",
@@ -1209,14 +1211,14 @@
         "FullBody.Elbows": "肘部",
         "FullBody.Knees": "膝蓋",
 
-        "FullBody.TrackerMapped": "追踪器已映射",
-        "FullBody.NotTracking": "未在追踪...",
-        "FullBody.NoTracker": "沒有已映射追踪器",
-        "FullBody.FeetNotTracking": "腳部未追踪...",
+        "FullBody.TrackerMapped": "追蹤器已對應",
+        "FullBody.NotTracking": "未追蹤…",
+        "FullBody.NoTracker": "沒有已對應的追蹤器",
+        "FullBody.FeetNotTracking": "腳部未追蹤…",
 
-        "FullBody.AvatarPointMapped": "已映射",
-        "FullBody.AvatarPointNotMapped": "未映射",
-        "FullBody.AvatarPointNoTracker": "沒有追踪器",
+        "FullBody.AvatarPointMapped": "已對應",
+        "FullBody.AvatarPointNotMapped": "未對應",
+        "FullBody.AvatarPointNoTracker": "沒有追蹤器",
 
         "CameraControl.Title": "相機控制",
         "CameraControl.MirroringOffWarning": "鏡像關閉",
@@ -1226,7 +1228,7 @@
 
         "CameraControl.Mode.SmoothPOV": "平滑視角",
         "CameraControl.Mode.ThirdPerson": "第三人稱",
-        "CameraControl.Mode.Group": "羣組",
+        "CameraControl.Mode.Group": "群組",
         "CameraControl.Mode.World": "世界",
         "CameraControl.Mode.Manual": "手動",
 
@@ -1243,8 +1245,8 @@
         "CameraControl.Settings.ShowLiveBadge": "顯示直播徽章",
         "CameraControl.Settings.AudioFromCameraViewpoint": "相機視角的音頻",
 
-        "CameraControl.OpenCloseUsers": "用戶",
-        "CameraControl.CreateCameraAnchor": "創建相機錨點",
+        "CameraControl.OpenCloseUsers": "使用者",
+        "CameraControl.CreateCameraAnchor": "建立相機錨點",
 
         "CameraControl.Anchors.Interpolate": "在錨點之間插值",
         "CameraControl.Anchors.InterpolationSpeed": "錨點插值速度：",
@@ -1262,7 +1264,7 @@
 
         "CameraControl.Control.AnyoneCanInteract": "任何人都可以互動",
         "CameraControl.Control.RenderPreviewForEveryone": "所有人的渲染預覽",
-        "CameraControl.Control.RenderPrivateUI": "渲染私人用戶界面",
+        "CameraControl.Control.RenderPrivateUI": "渲染私人使用者界面",
         "CameraControl.Control.MotionBlur": "動態模糊",
         "CameraControl.Control.ScreenSpaceReflections": "屏幕空間反射",
         "CameraControl.Control.SpawnPhotoInWorld": "在世界中生成照片",
@@ -1274,30 +1276,30 @@
         "CameraControl.Control.FramingSmoothSpeed": "構圖平滑速度：{n}",
 
         "CameraControl.OBS.IP": "OBS Websocket IP:",
-        "CameraControl.OBS.Password": "OBS密碼（可選）:",
+        "CameraControl.OBS.Password": "OBS 密碼（可選）:",
         "CameraControl.OBS.Connect": "連接",
-        "CameraControl.OBS.Instructions": "確保OBS正在運行，我們支持 OBS 版本 28+。",
-        "CameraControl.OBS.OpenInstaller": "打開安裝程序頁面",
-        "CameraControl.OBS.Launch": "啟動OBS",
-        "CameraControl.OBS.Launching": "啓動中...",
-        "CameraControl.OBS.Launched": "啓動了!",
+        "CameraControl.OBS.Instructions": "確保 OBS 正在執行，支援 OBS 版本 28+。",
+        "CameraControl.OBS.OpenInstaller": "打開安裝程式頁面",
+        "CameraControl.OBS.Launch": "啟動 OBS",
+        "CameraControl.OBS.Launching": "啟動中...",
+        "CameraControl.OBS.Launched": "已啟動！",
         "CameraControl.OBS.Connecting": "正在連接中...",
-        "CameraControl.OBS.Connected": "連接上了!",
-        "CameraControl.OBS.Disconnected": "斷線!",
-        "CameraControl.OBS.AuthFailure": "認證失敗!",
+        "CameraControl.OBS.Connected": "已連線！",
+        "CameraControl.OBS.Disconnected": "已斷線！",
+        "CameraControl.OBS.AuthFailure": "認證失敗！",
         "CameraControl.OBS.ConnectionFailed": "連接失敗：",
-        "CameraControl.OBS.ConnectionTimeout": "連接超時。OBS在運行嗎？",
-        "CameraControl.OBS.UnexpectedConnectionError": "意外的連接錯誤：",
-        "CameraControl.OBS.DisconnectedPage": "OBS斷開",
+        "CameraControl.OBS.ConnectionTimeout": "連接超時。OBS 還在執行嗎？",
+        "CameraControl.OBS.UnexpectedConnectionError": "意外連接錯誤：",
+        "CameraControl.OBS.DisconnectedPage": "OBS 已斷線",
         "CameraControl.OBS.ReturnToConnect": "返回連接頁面",
-        "CameraControl.OBS.AutoMirror": "錄像/推流自動鏡像",
-        "CameraControl.OBS.Bitrate": "比特率：{n}/s",
-        "CameraControl.OBS.FPS": "幀率：{n}",
-        "CameraControl.OBS.DroppedFrames": "丟幀：{n}",
+        "CameraControl.OBS.AutoMirror": "錄影/串流時自動鏡像",
+        "CameraControl.OBS.Bitrate": "碼率：{n}/s",
+        "CameraControl.OBS.FPS": "FPS：{n}",
+        "CameraControl.OBS.DroppedFrames": "掉格：{n}",
         "CameraControl.OBS.Idle": "IDLE",
         "CameraControl.OBS.Live": "LIVE",
         "CameraControl.OBS.Recording": "REC",
-        "CameraControl.OBS.OpenInstallerReason": "您可以在這個頁面下載 obs-websocket 插件",
+        "CameraControl.OBS.OpenInstallerReason": "您可以在這個頁面下載 obs-websocket 外掛",
 
         "CameraControl.OBS.Streaming.Start": "開始串流",
         "CameraControl.OBS.Streaming.Starting": "正在開始串流…",
@@ -1360,12 +1362,12 @@
         "Settings.RealtimeNetworkingSettings": "即時連線",
         "Settings.AssetGatherSettings": "物件聚集",
 
-        "Settings.HostAccessSettings": "主持人權限",
+        "Settings.HostAccessSettings": "網路存取權限設定",
         "Settings.UserRestrictionsSettings": "使用者限制",
 
         "Settings.WindowsSettings": "視窗設定",
         "Settings.DebugSettings": "除錯",
-        "Settings.LegacyFeatureSettings": "邊存配置",
+        "Settings.LegacyFeatureSettings": "舊版功能",
         "Settings.TwitchInterfaceSettings": "Twitch 直播介面",
 
         "Settings.MessagingPrivacySettings": "訊息隱私",
@@ -1425,6 +1427,7 @@
 
         "Settings.FullBodyTrackingSettings": "全身追蹤設定",
         "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "身體水平角度",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "這是腳部和頭部之間的角度偏差，超出此角度您將被視為水平姿勢。這會影響某些功能，例如用腳部模擬覆蓋您的追蹤器姿勢。",
 
         "Settings.GamepadSettings": "遊戲控制器設定",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "搖桿移動視角的速度",
@@ -1445,13 +1448,15 @@
         "Settings.MouseSettings.MouseFreeformRotateSpeed": "游標自由旋轉速度",
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "桌面模式下拿取物體時，用游標控制物體自由旋轉的速度",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "握持時的移動速度",
+        "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "在桌面模式下握持物品時，這控制它們使用滑鼠滾輪前後移動的速度。",
 
         "Settings.KeyboardLookSettings": "鍵盤操控視角設定",
         "Settings.KeyboardLookSettings.LookEnabled": "鍵盤操控視角",
-
+        "Settings.KeyboardLookSettings.LookEnabled.Description": "啟用時，鍵盤視角控制允許您使用鍵盤上的箭頭鍵來移動您的頭部。<br/>這主要設計用於滑鼠不可用或不合適的情況，例如使用筆記型電腦或需要滑鼠的無障礙替代方案時。",
         "Settings.KeyboardLookSettings.HorizontalSpeed": "鍵盤操控視角時的水平移動速度",
-
+        "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "用於調整使用鍵盤視角控制時，頭部水平移動的速度。",
         "Settings.KeyboardLookSettings.VerticalSpeed": "鍵盤操控視角時的垂直移動速度",
+        "Settings.KeyboardLookSettings.VerticalSpeed.Description": "用於調整使用鍵盤視角控制時，頭部垂直移動的速度。",
 
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "搖桿震動",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "開關VR上搖桿的震動",
@@ -1459,7 +1464,7 @@
         "Settings.GeneralHapticsSettings.EnableHaptics.Description": "世界物體與玩家的互動將回應至搖桿或其他回饋裝置使其震動",
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR桌面模式自動切換",
-        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "穿戴VR會自動切換桌機、VR模式",
+        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "穿戴VR會自動切換桌面、VR模式",
 
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "手部移位防抖",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "手部轉向防抖",
@@ -1469,8 +1474,8 @@
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "腳部移位防抖",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "腳部轉向防抖",
 
-        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "腳部移位的平滑程度，可以控制化身腳部移位抖動狀況",
-        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "腳部轉向的平滑程度，可以控制化身腳部轉向抖動狀況",
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "啟用時，這控制使用全身追蹤時腳部位置的平滑程度。這有助於消除振動和抖動，但也會讓追蹤器延遲更多，對快速動作的反應不佳。",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "啟用時，這控制使用全身追蹤時腳部旋轉的平滑程度。這有助於消除振動和抖動，但也會讓追蹤器延遲更多，對快速動作的反應不佳。",
 
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "臀部移位防抖",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "臀部轉向防抖",
@@ -1484,7 +1489,7 @@
         "Settings.MediaPrivacySettings.HideInScreenshots.Description": "您將排除於遊戲截圖\n\n<color=hero.red>注意：</color> 這不會影響遊戲外的方式截取遊戲畫面（可能透過連結或是世界配置截取）。",
 
         "Settings.MediaPrivacySettings.StripImageFileMetadata": "導入時刪除圖片資訊",
-        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "可在<b>導入</b>時刪除多媒體資訊。\n\n包括 EXIF、勘入注釋、IPTC、XMP 和 GEOTIFF 等數據。\n\n這也會刪除任何位置數據（如 GPS）。\n\n<b>不</b>包括使用 \"Raw 文件\" 選項至入的物件。",
+        "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "可在<b>匯入</b>時刪除多媒體資訊。\n\n包括 EXIF、嵌入注釋、IPTC、XMP 和 GEOTIFF 等數據。\n\n這也會刪除任何位置數據（如 GPS）。\n\n<b>不</b>包括使用「原始檔案」選項匯入的物件。",
 
         "Settings.Category.Integrations": "整合",
         "Settings.DiscordIntegrationSettings": "Discord 整合",
@@ -1494,24 +1499,25 @@
         "Settings.DiscordIntegrationSettings.RichPresence.Description": "控制 {appName} 向 Discord 的遊戲狀態傳送那些訊息\n\n<color=hero.yellow>None</color> - 不向 Discord 傳送遊戲狀態。\n<color=hero.yellow>Basic</color> - 只傳送有限的資訊，例如線上狀態。\n<color=hero.yellow>Full</color> - 在公開活動時，傳送適當的活動資訊到 Discord，包含世界名稱與在活動中的人數。\n\nDiscord 本身也會偵測正在遊玩的遊戲名稱，可以透過 Discord 設定關閉。",
 
         "Settings.SteamIntegrationSettings.RichPresence": "Steam 豐富狀態",
-        "Settings.SteamIntegrationSettings.RichPresence.Description": "控制 {appName} 向 Steam 的遊戲狀態傳送哪些訊息\n\n<color=hero.yellow>無</color> - 不向 Steam 傳送遊戲狀態。\n<color=hero.yellow>基本</color> - 只傳送有限的資訊，例如線上狀態。\n<color=hero.yellow>完整</color> - 在公開活動時，傳送適當的活動資訊到 Steam，包含世界名稱與在活動中的人數。\n\n無論是哪種設定，Steam 本身還是會顯示您正在遊玩 {appName}，更改此設定只會影響傳送至 Steam 的資訊多寡。",
+        "Settings.SteamIntegrationSettings.RichPresence.Description": "控制 {appName} 向 Steam 的遊戲狀態傳送哪些訊息\n\n<color=hero.yellow>None</color> - 不向 Steam 傳送遊戲狀態。\n<color=hero.yellow>Basic</color> - 只傳送有限的資訊，例如線上狀態。\n<color=hero.yellow>Full</color> - 在公開活動時，傳送適當的活動資訊到 Steam，包含世界名稱與在活動中的人數。\n\n無論是哪種設定，Steam 本身還是會顯示您正在遊玩 {appName}，更改此設定只會影響傳送至 Steam 的資訊多寡。",
 
         "Settings.SteamIntegrationSettings.SaveScreenshots": "保存截圖",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "您的照片副本將保存於 Steam 的截圖資料夾當中",
 
         "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "當 Steam 遠端暢玩開啟時，強制使用遠端麥克風",
+        "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "啟用時，當您透過 Steam 遠端暢玩遊玩時，將自動強制音訊輸入使用 Steam 的輸入裝置。這有助於您無需手動切換即可使用轉發的麥克風輸入。<br><br>關閉此功能在您想要使用自己的音訊裝置時會很有用 - 例如外接麥克風。",
 
         "Settings.LeapMotionSettings.LeapMotionEnabled": "開啟手部追蹤",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "追蹤器將得以追蹤您的手指移動",
         "Settings.LeapMotionSettings.Offset": "手部追蹤偏移設置",
-        "Settings.LeapMotionSettings.Offset.Description": "調整手部追蹤的偏移(單位：公尺))",
+        "Settings.LeapMotionSettings.Offset.Description": "調整手部追蹤的偏移（單位：公尺）",
         "Settings.LeapMotionSettings.SnapDistance": "捕捉範圍",
         "Settings.LeapMotionSettings.SnapDistance.Description": "手部在範圍內將被捕捉追蹤",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "控制手把開啟手指捕捉",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "控制手把仍會追蹤手指的動向",
 
-        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Vive手部追蹤",
-        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "開啟Vive手把的手部追蹤功能(仍需要到steam VR設置開啟)",
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Vive 手部追蹤",
+        "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "開啟 Vive 手把的手部追蹤功能（仍需要到 Steam VR 設定開啟）",
         "Settings.ViveHandTrackingSettings.SnapDistance": "捕捉範圍",
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "手部在範圍內將被捕捉追蹤",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "控制手把開啟手指捕捉",
@@ -1537,14 +1543,14 @@
         "Settings.TrackerSettings.Trackers.MappedRotation.Description": "追蹤器對應到哪個身體部位的角度\n\n建議使用全身校準設置，在此手動調整不建議",
         "Settings.TrackerSettings.Trackers.UseInVR": "在 VR 模式裡使用",
         "Settings.TrackerSettings.Trackers.UseInVR.Description": "這個追蹤器是否會在VR模式下影響化身?",
-        "Settings.TrackerSettings.Trackers.UseInDesktop": "在桌機模式裡使用",
-        "Settings.TrackerSettings.Trackers.UseInDesktop.Description": "這個追蹤器是否會在桌機模式下影響化身?",
+        "Settings.TrackerSettings.Trackers.UseInDesktop": "在桌面模式裡使用",
+        "Settings.TrackerSettings.Trackers.UseInDesktop.Description": "這個追蹤器是否會在桌面模式下影響化身?",
         "Settings.TrackerSettings.Trackers.TrackerID": "追蹤器ID",
         "Settings.TrackerSettings.Trackers.TrackerID.Description": "此追蹤器的唯一的ID",
         "Settings.TrackerSettings.Trackers.TrackerBattery": "追蹤器電量",
-        "Settings.TrackerSettings.Trackers.TrackerBattery.Description": "此追蹤器的目前電池電量 (注意：某些追蹤器不支援電量顯示)",
+        "Settings.TrackerSettings.Trackers.TrackerBattery.Description": "此追蹤器的目前電池電量（注意：某些追蹤器不支援電量顯示）",
         "Settings.TrackerSettings.Trackers.TrackerIsCharging": "充電中",
-        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "此追蹤器是否在充電中(注意：某些追蹤器不支援充電狀態指示)",
+        "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "此追蹤器是否在充電中（注意：某些追蹤器不支援電量顯示）",
         "Settings.TrackerSettings.Trackers.Unmap": "定位重置",
         "Settings.TrackerSettings.Trackers.Remove": "移除追蹤器綁定",
 
@@ -1571,7 +1577,7 @@
         "Settings.HapticPointMapping.HeadYawAngle.Description": "控制頭部水平左右的位置，預設位置為臉部中心鼻子。減少時向左轉動，增加時向右轉動",
 
         "Settings.HapticPointMapping.ArmSide": "手臂",
-        "Settings.HapticPointMapping.ArmSide.Description": "要定位到哪一支手臂?左手臂或右手臂?",
+        "Settings.HapticPointMapping.ArmSide.Description": "要定位到哪一支手臂，左手臂或右手臂？",
         "Settings.HapticPointMapping.ArmPositionAlong": "手臂的位置",
         "Settings.HapticPointMapping.ArmPositionAlong.Description": "控制手臂的位置，從肩膀到手腕",
         "Settings.HapticPointMapping.ArmAngleAround": "手臂周角",
@@ -1585,7 +1591,7 @@
         "Settings.HapticPointMapping.LegAngleAround.Description": "控制腿部圓周的角度。預設0度位置與腿前方對齊，負角度向左，正角度向右",
 
         "Settings.HapticPointMapping.ControllerSide": "控制器手把",
-        "Settings.HapticPointMapping.ControllerSide.Description": "觸覺要定位到哪個控制器手把?左邊還是右邊?",
+        "Settings.HapticPointMapping.ControllerSide.Description": "觸覺要定位到哪個控制器手把，左邊還是右邊？",
 
         "Settings.HapticPointMapping.Tag": "觸覺標籤",
         "Settings.HapticPointMapping.Tag.Description": "與觸覺點相關的標籤，訂定化身標籤觸覺點觸覺定位相配",
@@ -1598,7 +1604,7 @@
         "Settings.GiggleTechSettings.Devices.IP": "GigglePuck IP",
         "Settings.GiggleTechSettings.Devices.IsConnected": "GigglePuck 連接了嗎",
         "Settings.GiggleTechSettings.Devices.UseDevice": "使用該裝置",
-        "Settings.GiggleTechSettings.Devices.UseDevice.Description": "啟用或關閉個別 GigglePucs 裝置，關閉裝置將關閉該裝置的觸覺",
+        "Settings.GiggleTechSettings.Devices.UseDevice.Description": "啟用或關閉個別 GigglePuck 裝置，關閉裝置將關閉該裝置的觸覺",
         "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected": "永久視為已經連接",
         "Settings.GiggleTechSettings.Devices.AlwaysTreatAsConnected.Description": "勾選後，即使沒有檢測到 GigglePuck 裝置也會被視為已經連接。\n\n對於某些自動連接有問題的網路狀況有幫助",
         "Settings.GiggleTechSettings.Devices.IntensityScale": "強度等級",
@@ -1606,7 +1612,7 @@
         "Settings.GiggleTechSettings.Devices.Remove": "移除裝置",
         "Settings.GiggleTechSettings.Devices.CustomName": "自訂名稱",
         "Settings.GiggleTechSettings.Devices.CustomName.Description": "給這個 GigglePuck 設定名稱，不會影響到運作和識別。",
-        "Settings.GiggleTechSettings.Devices.Breadcrumb": "GigglePucks 設備",
+        "Settings.GiggleTechSettings.Devices.Breadcrumb": "GigglePuck 設備",
         "Settings.GiggleTechSettings.Devices.ActivationIntensity": "目前強度",
         "Settings.GiggleTechSettings.Devices.MinimumIntensity": "強度最小值",
         "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description": "這個是觸覺裝置運作時的最小強度，強度低於此將無任何觸覺輸出。",
@@ -1680,20 +1686,21 @@
 
         "Settings.AudioPerformanceSettings": "音訊效能設定",
         "Settings.AudioPerformanceSettings.MaxVoices": "最大發聲數",
-
+        "Settings.AudioPerformanceSettings.MaxVoices.Description": "這控制可以同時播放多少聲音。增加此值將讓您一次聽到更多聲音，但會消耗更多 CPU。<br><br>如果您將此設定得太高，可能會聽到音訊爆音。",
         "Settings.AudioPerformanceSettings.SimulationFrameSize": "模擬訊框大小",
-
+        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "這控制在渲染音訊時一次計算多少音訊資料。增加值可以在某些方面改善效能，但會帶來較不頻繁的音訊事件和增加的延遲。<br><br>一般來說，我們不建議更改此值並保持預設值 1024。",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "播放緩衝大小",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "這控制音訊播放的緩衝區大小。更高的值會有更多音訊延遲，但更能抵抗爆音。<br><br>透過降低此值，您可以減少音訊延遲，但系統會更容易出現爆音和中斷。",
 
         "Settings.VoiceSettings": "聲音配置",
         "Settings.VoiceSettings.MutePersistence": "登入時的麥克風狀態",
-        "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>麥克風開啟：</color>您登入時麥克風保持開啟狀態\n\n<color=hero.yellow>麥克風關閉：</color>登入時保持麥克風關閉狀態，需要點擊或按壓 \"按下說話\" 方可說話。\n\n<color=hero.yellow>上一次麥克風狀態：</color> 登入時保留上次退出時的麥克風狀態",
+        "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>StartUnmuted：</color>您登入時麥克風保持開啟狀態\n\n<color=hero.yellow>StartMuted：</color>登入時保持麥克風關閉狀態，需要點擊或按壓 \"按下說話\" 方可說話。\n\n<color=hero.yellow>RememberLast：</color> 登入時保留上次退出時的麥克風狀態",
 
         "Settings.EarmuffSettings": "耳罩模式",
         "Settings.EarmuffSettings.EarmuffEnabled": "使用耳罩模式",
         "Settings.EarmuffSettings.EarmuffEnabled.Description": "開啟此模式，其他玩家的聲音將根據您與其他玩家間的距離增加而遞減",
         "Settings.EarmuffSettings.Directionality": "方向",
-        "Settings.EarmuffSettings.Directionality.Description": "控制聲音減弱的方向性，當數值為0 % 時，您身後與身前相同聲音的音量相同，當數值為100 % 時，您將聽不到任何身後的聲音(除非聲音來源在玩家正身後)",
+        "Settings.EarmuffSettings.Directionality.Description": "控制聲音減弱的方向性，當數值為 0% 時，您身後與身前相同聲音的音量相同，當數值為 100% 時，您將聽不到任何身後的聲音（除非聲音來源在玩家正身後）",
         "Settings.EarmuffSettings.Distance": "距離",
         "Settings.EarmuffSettings.Distance.Description": "控制您前方耳罩的距離。超過此距離，外在聲音音量將減少)",
         "Settings.EarmuffSettings.Angle": "角度",
@@ -1705,13 +1712,14 @@
         "Settings.EarmuffSettings.VolumeAttenuation": "範圍外音量",
         "Settings.EarmuffSettings.VolumeAttenuation.Description": "控制 \"偵測聽覺範圍\" 以外聲音的音量。設置為0%代表過濾範圍外的聲音您是聽不到的",
 
-        "Settings.RealtimeNetworkingSettings.DisableLAN": "局域網路連接關閉",
-        "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "停止使用區域網路的功能，無法透過本地網路直播、聽取其他聚集空間",
-        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "偏好Steam網路連線",
-        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "設置網路偏好連接Steam。有助於LNL嚴重堵塞的情況，然而將會缺少部分功能與連線不穩定，僅建議在前述情況下開啟",
+        "Settings.RealtimeNetworkingSettings.DisableLAN": "停用區域網路",
+        "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "停用為區域網路設計的的網路功能，例如將你的活動廣播到區域網路，或是接收其他廣播到區域網路的活動。",
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "偏好 Steam 網路連線",
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "設置網路偏好連接 Steam。有助於 LNL 嚴重堵塞的情況，然而將會缺少部分功能與連線不穩定，僅建議在前述情況下開啟",
         "Settings.RealtimeNetworkingSettings.PreferTCP": "偏好使用 TCP",
-
+        "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "啟用時，TCP 連接優先於所有其他協定。這主要影響區域網路上的連接，因為預設情況下 TCP 不用於網際網路連接。\n\nTCP 在區域網路上可以有更好的效能，並在某些 UDP 協定無法運作的網路上運作。\n\n然而它們也可能遭受「隊首阻塞」，導致語音和動作顯著延遲。",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL 窗口大小",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "這控制即時網路的 LNL 協定視窗大小。更改此設定將在所有活動會話中立即生效。\n\n如果您遇到任何封包排隊，可以增加此值以改善連接吞吐量。然而，更高的值也可能進一步不穩定連接，所以要小心。\n\n<color=hero.yellow>預設值：</color> 64\n\n<color=hero.red>重要：</color> 此設定用於診斷和臨時解決方案；此值將在未來自動調整。",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "最大同時物件傳輸數量",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "活動開啟時，容許同時間傳輸物件的數量，增加數值將使得同時間內傳輸本地物件增加，但也會同時降低網路連線品質，建議設置在網路最高承受流量數值以下",
@@ -1740,39 +1748,42 @@
         "Settings.WindowsSettings.KeepOriginalScreenshotFormat": "保留原始螢幕截圖格式",
         "Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description": "可避免截圖儲存至 Windows 資料夾時轉換檔案格式為 JPG 或 PNG，但部分不支援原始檔案格式的應用程式可能無法開啟。",
 
-        "Settings.DebugSettings.DebugInputBindings": "顯示輸入綁定系統的除錯訊息",
-        "Settings.DebugSettings.DebugInputBindings.Description": "開啟時，會顯示輸入綁定系統的除錯資訊，本功能對開發者較為有用。",
+        "Settings.DebugSettings.DebugInputBindings": "顯示輸入綁定系統的除錯用訊息",
+        "Settings.DebugSettings.DebugInputBindings.Description": "開啟時，會顯示輸入綁定系統的除錯用資訊，本功能對開發者較為有用。",
         "Settings.DebugSettings.ConvertParticleSystems": "將粒子系統轉換為 PhotonDust",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "啟用此選項將對任何<b>新</b>載入的物品和世界執行從舊版粒子系統到新自訂系統 (PhotonDust) 的轉換。<br><br><color=red>這僅供測試目的！</color>如果您不是測試的一部分，我們不建議打開此選項，您的內容可能會因此損壞。<br><br>如果您想幫助測試，請查看我們的 GitHub/Discord。",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "壓兩下握把裝備",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "握兩下握把按鈕即可裝備物件或工具",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "使用舊版世界切換器",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "非慣用手的 App 鍵會開啟舊版的世界切換器，用來切換活動中的世界，本功能未來會被更有彈性的方案取代。",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "使用背包/活動快捷鍵",
-        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "開啟後，握住握把並按下 App 鍵（用來開啟儀表板的那個按鈕），會開啟舊版的物品欄或活動選單。",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "開啟後，握住握把並按下 App 鍵（用來開啟主面板的那個按鈕），會開啟舊版的物品欄或活動選單。",
 
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "關閉腳部模擬",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "這是為了讓某些功能（如劫持腳部代理的擺姿工具）能夠運作，而無需修改它們。<br><br>如果您在不使用擺姿工具或類似功能的情況下開啟此功能，動畫將看起來不正確。不使用擺姿工具時請關閉此功能。<br><br><color=hero.red>重要：</color> 這很可能會在某個時候被移除，我們建議升級擺姿工具以與新系統相容，能夠在使用時時自動關閉腳部模擬。",
 
         "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "保留舊版迴音區域處理模式",
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "開啟時，任何啟用空間化的舊版音訊內容將自動忽略迴音區域，以保留舊版音訊系統的限制。<br><br>開啟此設定並重新載入舊版內容。一旦您儲存轉換後的舊版內容，選擇將被「固化」，之後您必須手動更改。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch 頻道名稱",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "相機控制面板中的 Twitch 聊天面板設置預設的 Twitch 頻道名稱",
 
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "關閉已讀功能",
-        "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "開啟後其他用戶將看不到您已讀了他們的訊息，反之你也看不到他們已讀了您的訊息",
+        "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "開啟後其他使用者將看不到您已讀了他們的訊息，反之你也看不到他們已讀了您的訊息",
 
         "Settings.LocaleSettings.CultureLocaleCode": "區域格式",
-        "Settings.LocaleSettings.CultureLocaleCode.Description": "設定覆蓋預設的數字和其他單位格式。正常情況下，所選語言已包含其預設區域格式，此設置可以改變您選擇，例如，使用你的母语语言和美国区域格式来显示内容。",
+        "Settings.LocaleSettings.CultureLocaleCode.Description": "設定後，會覆蓋預設的區域格式，例如數字和其他單位。正常情況下，所選語言已包含其預設區域格式，本選項可以讓你混用不同語言與區域格式。例如：使用你的母語以及美國區域格式。",
         "Settings.LocaleSettings.UseImperialUnits": "使用英制度量衡單位",
         "Settings.LocaleSettings.UseImperialUnits.Description": "使用英制度量衡單位（長度/高度、重量、體積等）。",
         "Settings.LocaleSettings.AvailableLocales": "選擇語言",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "語言",
         "Settings.LocaleSettings.AvailableLocales.SystemLocale": "使用系統語言",
 
-        "Settings.DashSettings.DashCurvature": "面板曲度",
+        "Settings.DashSettings.DashCurvature": "主面板曲度",
         "Settings.DashSettings.DashCurvature.Description": "這個控制在VR模式下主面板的曲度，若設置為0則主面板將會完全平坦",
         "Settings.DashSettings.OpenCloseSpeed": "打開/關閉速度",
-        "Settings.DashSettings.OpenCloseSpeed.Description": "打開和關閉面板動畫的耗時，您若不喜歡該開閉動畫可以將數值調到很高",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "打開和關閉主面板動畫的動畫時長，您若不喜歡該動畫可以將數值調到很高，使其能夠近乎立即開啟或關閉。",
         "Settings.DashSettings.AllowReplacingSettings": "允許替換設定面板",
         "Settings.DashSettings.AllowReplacingSettings.Description": "開啟即可在使用者介面編輯模式下自由編輯、替換主面板上的配置，\n\n若您想選出單個面板圖標項目重新排版則需要關閉此配置",
 
@@ -1788,7 +1799,7 @@
         "Settings.NotificationSettings.Invite": "活動邀請",
         "Settings.NotificationSettings.Invite.Description": "收到活動的邀請時自動彈跳出通知",
         "Settings.NotificationSettings.InviteRequest": "邀請請求",
-
+        "Settings.NotificationSettings.InviteRequest.Description": "這控制當您收到可以回應的邀請請求時是否會收到通知。",
         "Settings.NotificationSettings.ContactRequest": "好友請求",
         "Settings.NotificationSettings.ContactRequest.Description": "在收到好友請求時自動彈跳出通知",
         "Settings.NotificationSettings.ContactSessionStarted": "新的好友活動",
@@ -1798,6 +1809,7 @@
         "Settings.NotificationSettings.UserJoinAndLeave": "玩家加入/離開通知",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "任何玩家加入或是離開當前的世界自動彈跳出通知",
         "Settings.NotificationSettings.PermissionChanged": "權限變更",
+        "Settings.NotificationSettings.PermissionChanged.Description": "啟用時，當您在世界中的權限角色發生變化時，您將收到通知。例如，當您從訪客變更為建築者時。",
 
         "Settings.NamePlateSettings.NameplateVisibility": "名牌可見度",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "選擇誰能看見您的名牌",
@@ -1809,14 +1821,14 @@
         "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "開啟時，您就可以編輯主面板上、手部、或是視窗個別的單一圖標項目的配置\n\n記得在完工的時候關閉此設定!",
 
         "Settings.FacetAnchorsSettings": "Facet錨點",
-        "Settings.FacetAnchorsSettings.UseFacetAnchors": "使用Facet錨點",
-        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "開啟可以使用右控制器切換手臂上的Facet錨點，除了主面板，這些錨點提供放置任何的錨點空間以便快速取用",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors": "使用 Facet 錨點",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "開啟可以使用右控制器切換手臂上的 Facet 錨點，提供除了主面板外放置 Facet 的空間供快速取用",
         "Settings.FacetAnchorsSettings.AnimationSpeed": "顯示/隱藏動畫播放速度",
         "Settings.FacetAnchorsSettings.AnimationSpeed.Description": "切換錨點時出現/隱藏時的速度",
         "Settings.FacetAnchorsSettings.FacetAnchorToggle": "控制器切換",
-        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "將控制哪個控制器來切換Facet錨點，該主面板將與另一個控制器進行切換",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "將控制哪個控制器來切換 Facet 錨點，該主面板將與另一個控制器進行切換",
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "顯示背景",
-        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Facet錨點的背景視覺效果開關",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Facet 錨點的背景視覺效果開關",
 
         "Settings.LaserSettings.SmoothSpeed": "雷射平滑速度",
         "Settings.LaserSettings.SmoothSpeed.Description": "控制雷射對您的移動時的反應速度，較低的數值雷射移動將更為遲緩，降低抖動，較高的數值雷射移動較為即時，但抖動將增強",
@@ -1828,27 +1840,36 @@
         "Settings.LaserSettings.ModulateExponent.Description": "控制起始速度與最高速度的曲線，速度開始與結束的趨向",
         "Settings.LaserSettings.ModulateSpeedMultiplier": "速度曲線倍率",
         "Settings.LaserSettings.ModulateSpeedMultiplier.Description": "到達最高調整角度速度後乘以此值。手移動到足夠遠的距離後，增加此值雷射光更快跟上手部指向的方向，降低反之更慢更上手部指向的方向",
-        "Settings.LaserSettings.StickThreshold": "雷射吸附性",
+        "Settings.LaserSettings.StickThreshold": "雷射吸附閾值",
         "Settings.LaserSettings.StickThreshold.Description": "控制雷射光吸附物件的取向。數值越大，雷射自動吸附物件性質越強，數值若為0，雷射對物件無任何吸附的效果",
-        "Settings.LaserSettings.ShowInDesktop": "在桌機模式下開啟雷射",
-        "Settings.LaserSettings.ShowInDesktop.Description": "開啟後，第一人稱桌機模式開啟雷射視覺效果",
+        "Settings.LaserSettings.ShowInDesktop": "在桌面模式下開啟雷射",
+        "Settings.LaserSettings.ShowInDesktop.Description": "開啟後，第一人稱桌面模式時會開啟雷射視覺效果",
 
         "Settings.EditSettings": "編輯設定",
-        "Settings.EditSettings.ConfirmComponentDestroy": "銷毀物件時再次確認",
-
+        "Settings.EditSettings.ConfirmComponentDestroy": "銷毀組件時再次確認",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "啟用時，在場景檢視器中銷毀組件前會要求確認。這有助於防止因誤點而意外銷毀組件。",
         "Settings.EditSettings.ConfirmSlotDestroy": "銷毀 Slot 時再次確認",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "啟用時，使用開發者工具銷毀 Slot 前會要求確認。這可以防止因誤點而意外銷毀物件。",
 
         "Settings.CursorSettings": "游標設定",
 
         "Settings.CursorSettings.BaseCursorSize": "基本游標大小",
+        "Settings.CursorSettings.BaseCursorSize.Description": "這設定基本游標大小。我們建議先設定這個，再調整其他設定，因為它們的大小是相對於此的。",
 
         "Settings.CursorSettings.GrabMultiplier": "握持物件時的縮放倍率",
+        "Settings.CursorSettings.GrabMultiplier.Description": "這在您抓取物體和物品時作為游標的倍數應用。",
 
         "Settings.CursorSettings.InteractionMultiplier": "互動時的縮放倍率",
+        "Settings.CursorSettings.InteractionMultiplier.Description": "這在您與按鈕等UI元素互動時作為游標的倍數應用。",
 
         "Settings.CursorSettings.TextMultiplier": "與文字互動時的縮放倍率",
+        "Settings.CursorSettings.TextMultiplier.Description": "這在您與文字互動和操作時作為游標的倍數應用。",
 
         "Settings.CursorSettings.SliderMultiplier": "與滑桿互動時的縮放倍率",
+        "Settings.CursorSettings.SliderMultiplier.Description": "這在您與滑桿和捲軸互動時作為游標的倍數應用。",
+
+        "Settings.CursorSettings.DirectCursorEnabled": "啟用直接游標",
+        "Settings.CursorSettings.DirectCursorEnabled.Description": "啟用時，顯示直接游標。\n\n直接游標是您的游標在空間中的點，沒有其他設定或系統進行任何平滑或調整。",
 
         "Settings.DesktopViewSettings.FollowCursor": "跟隨游標",
         "Settings.DesktopViewSettings.FollowCursor.Description": "開啟後，桌面自動切換到滑鼠游標所在的螢幕，適合在 VR 模式時使用實體滑鼠與鍵盤的情況下開啟",
@@ -1858,23 +1879,23 @@
         "Settings.DesktopViewSettings.Opacity.Description": "降低會使桌面畫面呈現半透明的狀態，可以看到桌面畫面後方的視野",
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "使用手指拍照手勢",
-        "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "開啟該功能後，您只需將手指擺成相框的形狀,然後蜷曲食指，就能在世界中快速拍照",
+        "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "開啟該功能後，您只需將手指擺成相框的形狀，然後蜷曲食指，就能在世界中快速拍照",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "照片解析度",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "這將設置手指手勢或桌面快捷鍵擷取的普通照片解析度。更高的解析度需要更多的時間和儲存空間處理，但能提供更多的細節。",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution": "定時拍照解析度",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "類似於普通照片解析度，你可以為定時拍照設定不同的解析度，有助於使用定時拍照拍攝更高解析度的團體照片",
         "Settings.PhotoCaptureSettings.TimerSeconds": "定時器倒數設定",
-        "Settings.PhotoCaptureSettings.TimerSeconds.Description": "使用定時器拍照倒數計時的秒數",
-        "Settings.PhotoCaptureSettings.HandsNearFOV": "手部與視角的最近距離",
-
-        "Settings.PhotoCaptureSettings.HandsFarFOV": "手部與視角的最遠距離",
-
+        "Settings.PhotoCaptureSettings.TimerSeconds.Description": "使用定時器拍照倒數計時的秒數。",
+        "Settings.PhotoCaptureSettings.HandsNearFOV": "手部靠近頭時的視角",
+        "Settings.PhotoCaptureSettings.HandsNearFOV.Description": "使用手指拍照時，手最靠近頭時，拍攝的視角範圍。",
+        "Settings.PhotoCaptureSettings.HandsFarFOV": "手部遠離頭時的視角",
+        "Settings.PhotoCaptureSettings.HandsFarFOV.Description": "使用手指拍照時，手最遠離頭時，拍攝的視角範圍。",
         "Settings.PhotoCaptureSettings.CaptureStereo": "拍攝立體照片",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "當開啟時，所有的快速截圖照片都是立體的，可以在VR模式下觀看。",
         "Settings.PhotoCaptureSettings.StereoSeparation": "立體距離",
         "Settings.PhotoCaptureSettings.StereoSeparation.Description": "當立體模式開啟時，本選項將控制兩個立體相機之間的距離。從而影響較遠物體的立體效果強度。\n\n拍攝近距離物體時，數值愈小效果愈好，拍攝大場景時，數值愈大小果愈好。",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "自動儲存路徑",
-        "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "設置後，任何您截取（或使用上下文選單儲存）的任何照片都將自動儲存到您的物品欄中。例如 <color=hero.yellow>照片/%year%/%month_name%</color>\n\n可以使用以下變數：\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "設置後，任何您截取（或使用快速選單儲存）的任何照片都將自動儲存到您的物品欄中。例如 <color=hero.yellow>照片/%year%/%month_name%</color>\n\n可以使用以下變數：\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
         "Settings.PhotoCaptureSettings.OpenAutosavePath": "在物品欄中打開目前照片的儲存路徑",
         "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "如果有設定自動儲存路徑，點擊這裡將開啟現在時間與現在地點的照片儲存路徑。\n\n請確保您已經在這個世界拍攝過照片，否則此操作將失敗，因為資料夾尚不存在。",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "擷取私人UI",
@@ -1893,146 +1914,162 @@
         "Settings.DesktopRenderSettings.VSync": "垂直同步(VSync)",
         "Settings.DesktopRenderSettings.VSync.Description": "當選項開啟後, 更新速率會與您的螢幕更新率同步。關閉此選項可以解除幀數上限，但可能導致畫面撕裂。\n\n若您需要進行效能測試，關閉這個選項可以解除更新與渲染的速度上限\n\n<color=hero.red>重要:</color> 此設定無法在VR模式下切換，因為更新速率是由VR控制。",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "當程式在背景時限制 FPS",
-
+        "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "啟用時，當應用程式視窗不在焦點時，幀率將限制為設定值。如果您同時使用其他程式和遊戲，這會很有用，因為它會為它們釋放更多資源。",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "背景狀態最大 FPS",
+        "Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description": "這決定在背景時允許的最大幀率。較低的值將節省更多系統資源。",
 
         "Settings.InteractiveCameraFramingSettings.PositioningMode": "定位模式",
-
+        "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "這控制互動式相機在世界中的定位方式。",
         "Settings.InteractiveCameraFramingSettings.FieldOfView": "視野",
-
+        "Settings.InteractiveCameraFramingSettings.FieldOfView.Description": "互動式相機的視野。更高的值將捕捉更多場景，但邊緣會有變形。",
         "Settings.InteractiveCameraFramingSettings.AnglePosition": "角度",
-
+        "Settings.InteractiveCameraFramingSettings.AnglePosition.Description": "在第三人稱或群組模式中，這控制目標對象/群組圓圈周圍的位置。",
         "Settings.InteractiveCameraFramingSettings.Distance": "距離",
-
+        "Settings.InteractiveCameraFramingSettings.Distance.Description": "在第三人稱或群組模式中，這控制相機距離目標對象/群組的遠近。",
         "Settings.InteractiveCameraFramingSettings.HeightOffset": "高度差",
-
+        "Settings.InteractiveCameraFramingSettings.HeightOffset.Description": "在第三人稱或群組模式中，這讓您相對於目標對象/群組上下移動相機。",
         "Settings.InteractiveCameraFramingSettings.FirstPersonPitch": "第一人稱視角的仰角",
-
+        "Settings.InteractiveCameraFramingSettings.FirstPersonPitch.Description": "在第一人稱模式中，使用此功能上下俯仰相機。",
         "Settings.InteractiveCameraFramingSettings.FirstPersonRoll": "第一人稱視角的翻滾角",
-
+        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll.Description": "在第一人稱模式中，這控制相機的側向旋轉 - 左右傾斜",
         "Settings.InteractiveCameraFramingSettings.FirstPersonOffset": "第一人稱視角的距離差",
-
+        "Settings.InteractiveCameraFramingSettings.FirstPersonOffset.Description": "使用此功能在第一人稱視角中相對於您的眼睛移動相機偏移。這可在化身面部幾何體剪切到相機視野中時使用。",
         "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "第三人稱視角的取景位置",
-
+        "Settings.InteractiveCameraFramingSettings.FramingViewportPosition.Description": "這些是相機視角中的標準化座標。相機將嘗試將目標（例如第三人稱模式中的使用者頭部）框在視角中的此位置。",
         "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "相機對準頭部的前面",
+        "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead.Description": "相機不是直接指向使用者的頭部，而是嘗試瞄準使用者頭部前方的點。這在您想要框住使用者正在看的內容（例如世界內物品和介面）時很有用。",
 
         "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion": "避免與物體碰撞",
-
+        "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion.Description": "如果相機的視野會被可碰撞物體遮擋，它將自動移動得更近以避免遮擋。",
         "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace": "維持在世界空間",
-
+        "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace.Description": "確保相機保持在根世界空間中，而不是將自己置於與使用者相同的空間中。這在使用使用者錨點（例如在載具中）時可以提供更好的框取和定位。",
         "Settings.InteractiveCameraPositioningSettings.MovementWobble": "晃動效果",
+        "Settings.InteractiveCameraPositioningSettings.MovementWobble.Description": "這為相機的位置添加隨時間變化的隨機移動偏移。這可以讓拍攝看起來不那麼靜態，特別是當您不太移動時。",
 
         "Settings.InteractiveCameraRenderSettings.HideAllBadges": "隱藏名牌",
-
+        "Settings.InteractiveCameraRenderSettings.HideAllBadges.Description": "無論您的徽章設定如何，相機都不會渲染任何使用者徽章。",
         "Settings.InteractiveCameraRenderSettings.HideAllLasers": "隱藏雷射",
-
+        "Settings.InteractiveCameraRenderSettings.HideAllLasers.Description": "相機將不會渲染任何使用者互動雷射。",
         "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera": "使用者眼睛保持直視相機",
+        "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera.Description": "當化身使用模擬眼部運動（意味著使用者沒有眼部追蹤）時，這將讓化身優先與相機進行眼神接觸。",
 
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius": "群組偵測半徑",
-
+        "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius.Description": "在此距離內的使用者將被添加到相機在群組模式中自動框取的群組中。",
         "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary": "使用者離開群組的距離",
+        "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary.Description": "使用者需要從群組半徑移動多遠才會被排除在群組之外。",
 
         "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed": "位置平滑化速度",
-
+        "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed.Description": "這指示相機移動到世界中目標位置的速度。更大的值將讓相機移動更快，但也會導致更顛簸的移動。",
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "角度平滑化速度",
-
+        "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed.Description": "這指示相機對目標對象周圍角度變化的反應速度。",
         "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed": "取景平滑化速度",
+        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed.Description": "這控制相機調整其對目標對象框取的速度。更大的值將讓它追蹤目標更快，但也會導致更顛簸的移動。",
 
         "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors": "在錨點之間移動",
-
+        "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors.Description": "啟用時，相機將在世界中的相機錨點之間平滑插值。",
         "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed": "移動速度",
-
+        "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed.Description": "啟用錨點間插值時，這控制相機從一個錨點移動到另一個錨點的速度。",
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation": "使用線性移動",
+        "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "啟用此功能可在錨點間移動時使用線性插值而不是平滑插值。線性插值突然開始和停止，但有恆定的移動速度，無論錨點間距離如何。這意味著如果錨點距離更遠，相機需要更長時間才能到達。",
 
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "將已拍攝的相片生成在世界內",
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "當您使用互動式相機對話框拍攝照片時，它們應該生成在世界中嗎？停用時，它們將只儲存到您的文檔或物品欄中（如果配置了自動儲存）",
 
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "動態模糊",
-
+        "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "相機是否應該渲染動態模糊效果？",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "螢幕空間反射",
+        "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "相機是否應該渲染螢幕空間反射效果？這可以為光滑表面提供更好的反射，但可能導致人工痕跡和增加的效能需求。",
 
         "Settings.InteractiveCameraAudioSettings": "音效",
         "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "收錄自己的聲音",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "當互動式相機的音訊輸出分離到自己的音訊裝置時，這控制相機是否會聽到您自己的聲音。<br><br>這有助於讓您自己的聲音完全空間化地渲染，就像世界中其他使用者聽到的一樣。<br><br>當此選項開啟時，請確保在您的錄製軟體中停用麥克風捕捉。",
 
         "Settings.DescriptionField.NoTextTitle": "更多資訊",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>指向選項以檢視描述。</closeall>",
 
         "Settings.RelaySettings": "網路轉發設定",
         "Settings.RelaySettings.AlwaysUseRelay": "強制使用轉發伺服器來連線",
-
+        "Settings.RelaySettings.AlwaysUseRelay.Description": "轉發伺服器通常用作當無法建立與主機的直接連接時的備用方案。啟用此選項，將會強制透過轉發伺服器進行連接。\n\n這在與特定主機的連接問題情況下可能有用。<b>不建議</b>永久開啟此選項。",
         "Settings.RelaySettings.UseClosestAvailableRelay": "使用最近可用的轉發伺服器",
-
+        "Settings.RelaySettings.UseClosestAvailableRelay.Description": "啟用此選項時，將自動選擇最近可用的轉發伺服器。如果您想透過特定轉發伺服器連接（例如在長距離連接的情況下避免封包排隊），您可以停用此選項並在下方配置首選的轉發伺服器。",
         "Settings.RelaySettings.RelayPriorities": "設定轉發伺服器的優先順序",
+        "Settings.RelaySettings.RelayPriorities.Breadcrumb": "轉發優先順序",
 
         "Settings.VideoStreamingServicesSettings": "網路串流服務",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "從瀏覽器取得 Cookie",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "如果 YouTube 和其他服務影片無法為您載入，請選擇您通常用來載入 cookie 的瀏覽器來取得這些影片。這會增加影片成功載入的機會。",
 
         "Settings.PostProcessingSettings": "畫面後處理設定",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "動態模糊強度",
-
+        "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "這控制動態模糊效果的強度，會在移動時產生圖像拖影。更高的數值會在相同的動作量下產生更多模糊。\n\n如果您將效果設定為 <nobr><color=hero.yellow>0 %</color></nobr>，過濾器將完全停用，可以提升效能。",
         "Settings.PostProcessingSettings.BloomIntensity": "光暈強度",
-
+        "Settings.PostProcessingSettings.BloomIntensity.Description": "光暈效果會讓場景中明亮的物體產生發光效果，通常是 HDR 範圍的物體。這讓您可以控制在相同光源下此效果的強度。\n\n請注意，當此效果設定為低或停用時，某些內容可能看起來不正確。\n\n如果您將效果設定為 <nobr><color=hero.yellow>0 %</color></nobr>，過濾器將完全停用，可以提升效能。",
         "Settings.PostProcessingSettings.AmbientOcclusionIntensity": "環境光遮蔽強度",
-
+        "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description": "環境光遮蔽會使場景中的縫隙和角落變暗，這些地方通常接收較少光線。這可以為場景增加更多深度和真實感。使用此控制您可以控制效果的強度。\n\n請注意，將此設定得太低或停用時，某些內容可能看起來不正確或完全平坦。\n\n如果您將效果設定為 <nobr><color=hero.yellow>0 %</color></nobr>，過濾器將完全停用，可以提升效能。",
         "Settings.PostProcessingSettings.ScreenSpaceReflections": "螢幕空間反射<size=75%>（實驗功能）</size>",
-
+        "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "啟用時，相機目前可見的任何場景部分都會即時反映在光滑表面上。這可以為場景增加更多真實感並改善光滑表面的外觀，但會增加額外的效能成本。\n\n請注意，此過濾器目前被視為實驗性功能，在許多情況下效果不佳，會產生鬼影反射和人工痕跡。",
         "Settings.PostProcessingSettings.Antialiasing": "反鋸齒",
+        "Settings.PostProcessingSettings.Antialiasing.Description": "反鋸齒能夠平滑場景中物體的鋸齒邊緣。您可以從幾個不同的過濾器中選擇，每種過濾器都有不同的缺點。FXAA 是常用的選擇並且效果還算不錯，但也可能會模糊場景的其他部分，如文字。\n\n<color=red>警告：</color> 某些反鋸齒選項可能不適用或在 VR 中完全無法使用。",
 
         "Settings.TextureQualitySettings": "貼圖品質",
         "Settings.TextureQualitySettings.TextureSizeRatio": "相對貼圖大小",
-
+        "Settings.TextureQualitySettings.TextureSizeRatio.Description": "這決定所有將要載入的貼圖的相對大小。您可以使用此功能降低貼圖的整體解析度，這會改善 VRAM 使用量和載入速度，但會犧牲視覺清晰度。\n\n例如，如果貼圖是 4K 而您將此設定為一半解析度，將會載入 2K 版本的貼圖。",
         "Settings.TextureQualitySettings.TextureSizeLimit": "最大貼圖大小",
-
+        "Settings.TextureQualitySettings.TextureSizeLimit.Description": "使用此功能限制載入貼圖的最大解析度。任何超過此解析度的貼圖都將被限制在設定的解析度。任何小於此解析度的貼圖將不受影響。\n\n此設定在相對貼圖大小之後應用。",
         "Settings.TextureQualitySettings.MinimumTextureSize": "採用相對貼圖大小的最小解析度",
-
+        "Settings.TextureQualitySettings.MinimumTextureSize.Description": "這控制將被上述設定限制的貼圖的最小解析度。如果貼圖低於此大小，將按原樣載入。\n\n例如，如果您將此設定為 512，那麼如果貼圖為 256，即使貼圖大小比例設定為一半，仍會以 256 載入。",
         "Settings.TextureQualitySettings.DefaultFilterMode": "貼圖過濾",
-
+        "Settings.TextureQualitySettings.DefaultFilterMode.Description": "這控制貼圖使用的過濾方式，控制它們的品質和效能。\n\n<color=hero.yellow>Point：</color> 點採樣，最低品質，無插值。貼圖會顯得塊狀。\n\n<color=hero.yellow>Bilinear：</color> 雙線性，貼圖像素會被插值，但 mipmap 轉換會有可見的邊緣。\n\n<color=hero.yellow>Trilinear：</color> 三線性，在不同 mipmap 等級之間平滑轉換，移除遠距離的尖銳轉換線。\n\n<color=hero.yellow>Anisotropic：</color> 各向異性，最高品質，即使在陡峭角度下貼圖也會保持銳利。",
         "Settings.TextureQualitySettings.AnisotropicLevel": "各向異性過濾等級",
-
+        "Settings.TextureQualitySettings.AnisotropicLevel.Description": "控制各向異性過濾的品質。",
         "Settings.TextureQualitySettings.ReloadAllTextures": "重新載入全部貼圖（可能會卡頓）",
 
         "Settings.GaussianSplatQualitySettings": "高斯潑濺渲染品質設定",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "每個相機一次處理的排序指令數量（百萬）",
-
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description": "渲染高斯潑濺時，必須為每個相機對潑濺進行排序。目前，此操作可能會十分繁重，因此會分散在時間上以改善整體幀率。<br><br><color=hero.yellow>增加</color>數值可使排序更快進行。這會減少在高斯潑濺周圍快速改變視角時的人工痕跡。<br><br><color=hero.yellow>減少</color>數值可以降低 GPU 使用量，如果您的 GPU 難以處理。但這會在您快速改變視角時增加人工痕跡。",
         "Settings.GaussianSplatQualitySettings.QualityPreset": "品質預置設定",
-
+        "Settings.GaussianSplatQualitySettings.QualityPreset.Description": "這控制渲染的高斯潑濺品質和它們的 VRAM 使用量。更高的品質將使用更多 VRAM。<br><br><color=hero.yellow>Very Low：</color> 約小 18.62 倍<br><color=hero.yellow>Low：</color> 約小 14 倍<br><color=hero.yellow>Medium：</color> 約小 5.14 倍<br><color=hero.yellow>High：</color> 約小 2.94 倍<br><color=hero.yellow>Very High：</color> 未壓縮（原始）",
         "Settings.GaussianSplatQualitySettings.MinLocalQuality": "本地匯入的壓縮品質",
-
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description": "對於本地匯入的高斯潑濺，品質永遠不會低於此數值。<br><br>我們不建議將此設定低於中等，因為更低的品質級別更加強烈且壓縮時間更長，應該留給雲端壓縮。<br><br>將此設定為非常高將使高斯潑濺在匯入後載入更快，因為不需要壓縮，但會使用大量 VRAM。",
         "Settings.GaussianSplatQualitySettings.AdvancedQuality": "進階品質設定",
-
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description": "啟用時，您可以配置用於不同高斯潑濺緩衝區的特定編碼。這給您非常細精的品質控制。它也可以用於測試/診斷目的。",
         "Settings.GaussianSplatQualitySettings.PositionFormat": "定位資料格式",
-
+        "Settings.GaussianSplatQualitySettings.PositionFormat.Description": "用於潑濺位置的編碼",
         "Settings.GaussianSplatQualitySettings.ScaleFormat": "縮放資料格式",
-
+        "Settings.GaussianSplatQualitySettings.ScaleFormat.Description": "用於潑濺縮放的編碼",
         "Settings.GaussianSplatQualitySettings.ColorFormat": "顏色資料格式",
-
+        "Settings.GaussianSplatQualitySettings.ColorFormat.Description": "用於潑濺顏色和不透明度的編碼",
         "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat": "球諧函數 (Spherical Harmonics) 資料格式",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description": "用於潑濺的球諧函數資料的編碼",
 
         "Settings.ResolutionSettings": "解析度設定",
         "Settings.ResolutionSettings.Fullscreen": "全螢幕",
-
+        "Settings.ResolutionSettings.Fullscreen.Description": "在全螢幕模式和視窗模式之間切換",
         "Settings.ResolutionSettings.WindowResolution": "視窗解析度",
-
+        "Settings.ResolutionSettings.WindowResolution.Description": "視窗模式時使用的解析度。這控制螢幕上視窗的實際大小。",
         "Settings.ResolutionSettings.FullscreenResolution": "全螢幕解析度",
-
+        "Settings.ResolutionSettings.FullscreenResolution.Description": "全螢幕模式時使用的解析度。大小將保持相同，但降低解析度可以改善效能（特別是在 4K 等高解析度螢幕上），但會使圖像更加模糊。",
         "Settings.ResolutionSettings.ApplyResolution": "套用設定",
 
         "Settings.RenderingQualitySettings": "渲染品質設定",
         "Settings.RenderingQualitySettings.PerPixelLights": "逐像素光照光源數上限",
-
+        "Settings.RenderingQualitySettings.PerPixelLights.Description": "這控制有多少點光源和聚光燈可以直接影響使用前向方法渲染的物體 - 通常是透明和非 PBS 物體（例如使用卡通著色器）。\n\n提高此數值將改善光照品質並減少在多個光源存在時的顏色閃爍，但會犧牲效能 - 物體需要為影響它的每個光源渲染多次。",
         "Settings.RenderingQualitySettings.ShadowCascades": "陰影層級",
-
+        "Settings.RenderingQualitySettings.ShadowCascades.Description": "這控制世界中定向光照陰影的解析度層級。層級能更好地分配陰影映射的解析度 - 在近距離提供更高的陰影解析度，在遠距離提供更低的解析度，但需要更多效能來渲染。",
         "Settings.RenderingQualitySettings.ShadowResolution": "陰影解析度",
-
+        "Settings.RenderingQualitySettings.ShadowResolution.Description": "這控制光源陰影的解析度。提高此數值將讓陰影邊緣更平滑且定義更好，但會增加效能需求。\n\n請注意，某些光源可能會覆蓋陰影解析度且不會受此設定影響。",
         "Settings.RenderingQualitySettings.ShadowDistance": "陰影距離",
-
+        "Settings.RenderingQualitySettings.ShadowDistance.Description": "這控制陰影所覆蓋的距離。提高此數值將確保場景的更遠部分被陰影正確覆蓋，但這也會在更大區域上分散陰影的細節。\n\n您應該與陰影層級和解析度一起更改此設定 - 使用更高的陰影解析度，您可以承受更高的陰影距離。如果您降低陰影解析度和層級，您會想要降低陰影距離以使陰影有更好的定義。",
         "Settings.RenderingQualitySettings.SkinWeightMode": "綁定權重數",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description": "對於任何蒙皮網格（由骨骼變形的 3D 模型，如大多數化身），這控制有多少骨骼用於影響每個頂點的位置。\n\n降低此數值會節省一些效能，但變形品質會降低，通常會在關節附近產生銳利的折痕和其他人工痕跡。",
 
         "Settings.ImportSettings": "匯入設定",
         "Settings.ImportSettings.SessionUrls": "匯入活動 URL 時的行為",
-
+        "Settings.ImportSettings.SessionUrls.Description": "當匯入活動 URL 時，應該做什麼。可用選項為：\n\n<color=hero.yellow>Open</color> - 開啟活動。\n<color=hero.yellow>SpawnInterface</color> - 在您目前的位置生成 URL 的代表（如活動球）。\n<color=hero.yellow>SpawnUrl</color> - 在您目前的位置將 URL 作為 URL 介面生成。",
         "Settings.ImportSettings.WorldUrls": "匯入世界 URL 時的行為",
-
+        "Settings.ImportSettings.WorldUrls.Description": "當匯入世界 URL 時，應該做什麼。可用選項為：\n\n<color=hero.yellow>Open</color> - 開啟世界。\n<color=hero.yellow>SpawnInterface</color> - 在您目前的位置生成世界的代表（如世界球）。\n<color=hero.yellow>SpawnUrl</color> - 在您目前的位置將 URL 作為 URL 介面生成。",
         "Settings.ImportSettings.NetworkUrls": "匯入網路 URL 時的行為",
+        "Settings.ImportSettings.NetworkUrls.Description": "當匯入網路 URL 時，應該做什麼。可用選項為：\n\n<color=hero.yellow>Open</color> - 開啟通往活動 URL 的連結。\n<color=hero.yellow>SpawnInterface</color> - 在您目前的位置生成 URL 的代表（如活動球）。\n<color=hero.yellow>SpawnUrl</color> - 在您目前的位置將 URL 作為 URL 介面生成。",
 
         "Settings.MysterySettings": "神秘設定",
 
@@ -2049,13 +2086,13 @@
         "LocomotionSettings.MakePreferred": "設為首選",
         "LocomotionSettings.MakeLeastPreferred": "設為最不首選",
 
-        "Security.Hyperlink.Title": "外部鏈接",
-        "Security.Hyperlink.Warning": "<b><size=125％>警告：外部超鏈接</size></b> \n您點擊了世界中的一個鏈接。您要打開它嗎？其將在您的桌面網絡瀏覽器中打開。",
+        "Security.Hyperlink.Title": "外部連結",
+        "Security.Hyperlink.Warning": "<b><size=125％>警告：外部超連結</size></b> \n你點擊了世界中的一個連結，您要打開它嗎？連結將使用桌面的網路瀏覽器開啟。",
         "Security.Hyperlink.Open": "打開",
         "Security.Hyperlink.Cancel": "取消",
 
-        "Security.HostAccess.Title": "主機訪問",
-        "Security.HostAccess.Warning": "<b><size=125%>警告：世界正在嘗試訪問第三方主機</size></b>\n允許訪問可能導致第三方收集一些個人信息，例如您的IP和地理位置。",
+        "Security.HostAccess.Title": "主機存取",
+        "Security.HostAccess.Warning": "<b><size=125%>警告：世界正在嘗試存取第三方主機</size></b>\n允許訪問可能導致第三方收集個人訊息，例如你的 IP 和地理位置。",
         "Security.HostAccess.TargetHost": "目標主機: <b>{host}</b>",
         "Security.HostAccess.Reason": "原因: {reason}",
         "Security.HostAccess.NoReason": "<i>沒有提供原因</i>",
@@ -2064,12 +2101,12 @@
 
         "ComponentSelector.Back": "< (返回)",
         "ComponentSelector.Title": "組件",
-        "ComponentSelector.CreateCustomType": "創建自訂類型",
+        "ComponentSelector.CreateCustomType": "建立自訂類型",
         "ComponentSelector.CommonGenericTypes": "常見通用類型",
         "ComponentSelector.CustomGenericArguments": "自訂通用參數：",
         "ComponentSelector.InvalidType": "無效類型",
 
-        "Inspector.Title": "場景查看器",
+        "Inspector.Title": "場景檢視器",
         "Inspector.Slot.AttachComponent": "附加組件",
 
         "Inspector.Slot.Axis.X": "X: <b>+</b>右 <b>-</b>左",
@@ -2081,17 +2118,17 @@
         "Inspector.Slot.Reset.Rotation": "旋轉",
         "Inspector.Slot.Reset.Scale": "縮放",
 
-        "Inspector.Slot.CreatePivotAtCenter": "在中心創建軸心",
+        "Inspector.Slot.CreatePivotAtCenter": "在中心建立軸心",
 
         "Inspector.Slot.JumpTo": "前往",
         "Inspector.Slot.BringTo": "拿來",
-        "Inspector.Slot.BringTo.Undo": "將 {name} 帶給用戶",
+        "Inspector.Slot.BringTo.Undo": "將 {name} 帶給使用者",
 
         "Inspector.Slot.ParentUnder.Label": "作為上層：",
         "Inspector.Slot.ParentUnder.WorldRoot": "世界根空間",
         "Inspector.Slot.ParentUnder.WorldRoot.Undo": "將世界根空間作為 {name} 的上層",
-        "Inspector.Slot.ParentUnder.LocalUserSpace": "用戶本地空間",
-        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "將用戶本地空間作為 {name} 的上層",
+        "Inspector.Slot.ParentUnder.LocalUserSpace": "使用者本地空間",
+        "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "將使用者本地空間作為 {name} 的上層",
 
         "Inspector.Member.ResetToDefault": "重設為預設值",
 
@@ -2129,9 +2166,9 @@
         "Inspector.Mesh.RecalculateNormalsSmooth": "重新計算法線（平滑着色）",
         "Inspector.Mesh.RecalculateTangentsMikkt": "重新計算切線（Mikktspace）",
         "Inspector.Mesh.RecalculateTangentsSimple": "重新計算切線（簡單）",
-        "Inspector.Mesh.RecalculateBlendshapeNormals": "重新计算 Blendshape 法線",
-        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "重新计算 Blendshape 法線（平滑着色）",
-        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "重新计算 Blendshape 切線（Mikktspace）",
+        "Inspector.Mesh.RecalculateBlendshapeNormals": "重新計算 Blendshape 法線",
+        "Inspector.Mesh.RecalculateBlendshapeNormalsSmooth": "重新計算 Blendshape 法線（平滑著色）",
+        "Inspector.Mesh.RecalculateBlendshapeTangentsMikkt": "重新計算 Blendshape 切線（Mikktspace）",
         "Inspector.Mesh.FlipNormals": "翻轉法線",
         "Inspector.Mesh.ReverseWinding": "反向佈線",
         "Inspector.Mesh.MakeDualSided": "使雙面",
@@ -2139,9 +2176,9 @@
         "Inspector.Mesh.ConvertToConvexHull": "轉換為凸包",
         "Inspector.Mesh.ConvertToPointCloud": "轉換為點雲",
         "Inspector.Mesh.MergeDoubles": "合併重複項",
-        "Inspector.Mesh.StripEmptyBlendshapes": "條空 Blendshapes",
-        "Inspector.Mesh.StripBlendshapeNormals": "條 Blendshape 法線",
-        "Inspector.Mesh.StripBlendshapeTangents": "條 Blendshape 切線",
+        "Inspector.Mesh.StripEmptyBlendshapes": "抽除空 Blendshape",
+        "Inspector.Mesh.StripBlendshapeNormals": "抽除 Blendshape 法線",
+        "Inspector.Mesh.StripBlendshapeTangents": "抽除 Blendshape 切線",
         "Inspector.Mesh.MergeBlendshapes": "合併 Blendshapes",
 
         "Inspector.Mesh.GetBoneList": "獲取骨骼列表",
@@ -2191,10 +2228,11 @@
         "Inspector.VHACD.RemoveHulls": "移除外殼",
 
         "Inspector.ReflectionProbe.Bake": "烘焙反射探針",
-        "Inspector.ReflectionProbe.Baking": "正在烘焙反射探針中...",
+        "Inspector.ReflectionProbe.Baking": "烘焙中…",
+        "Inspector.ReflectionProbe.OnChangesRenderCount": "OnChanges 渲染次數：{count}",
 
-        "Inspector.SkinnedMesh.SeparateOutBlendshapes": "將不受Blendshapes影響的網格分離為零件",
-        "Inspector.SkinnedMesh.StripEmptyBlendshapes": "去除空 Blendshapes",
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes": "將不受 Blendshape 影響的網格分離為零件",
+        "Inspector.SkinnedMesh.StripEmptyBlendshapes": "去除空 Blendshape",
         "Inspector.SkinnedMesh.StripBlendshapesResult": "完成！刪除了：{n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones": "去除空骨骼",
         "Inspector.SkinnedMesh.StripBonesResult": "完成！刪除了：{n,plural, one {# 骨骼} other {# 骨骼}}",
@@ -2206,8 +2244,8 @@
         "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "根據當前姿態計算顯式邊界",
         "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "從當前姿態拓展顯式邊界",
         "Inspector.SkinnedMesh.BakeToStaticMesh": "烘焙為靜態網格",
-        "Inspector.SkinnedMesh.SortBlendshapes.Name": "依名稱排序 Blendshapes",
-        "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "依名稱長度排序 Blendshapes，然後依名稱排序",
+        "Inspector.SkinnedMesh.SortBlendshapes.Name": "依名稱排序 Blendshape",
+        "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "依名稱長度排序 Blendshape，然後依名稱排序",
         "Inspector.SkinnedMesh.ResetBonesToBindPoses": "重置骨骼以綁定姿勢",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "移除所有實例",
@@ -2216,8 +2254,8 @@
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "移除化身保護",
 
         "Inspector.BipedRig.GetDiagnosticInfo": "取得骨架綁定診斷訊息",
-        "Inspector.BipedRig.GenerateDebugVisuals": "產生除錯檢視",
-        "Inspector.BipedRig.ClearDebugVisuals": "清除除錯檢視",
+        "Inspector.BipedRig.GenerateDebugVisuals": "產生除錯用檢視",
+        "Inspector.BipedRig.ClearDebugVisuals": "清除除錯用檢視",
         "Inspector.BipedRig.DetectHands": "偵測手部綁定",
         "Inspector.BipedRig.DetectLeftHand": "偵測左手綁定",
         "Inspector.BipedRig.DetectRightHand": "偵測右手綁定",
@@ -2276,44 +2314,44 @@
         "Inspector.Texture.TileLoop": "平鋪（循環）",
         "Inspector.Texture.TileMirror": "平鋪（鏡面）",
         "Inspector.Texture.NormalizeMaxOnly": "正規化（僅最大值）",
-        "Inspector.Texture.NormalizeMinMax": "正規化（最小值与最大值）",
-        "Inspector.Texture.NormalizeIndependent": "獨立正規化RGB值（最小值与最大值）",
+        "Inspector.Texture.NormalizeMinMax": "正規化（最小值與最大值）",
+        "Inspector.Texture.NormalizeIndependent": "獨立正規化RGB值（最小值與最大值）",
         "Inspector.Texture.BleedColorToAlpha": "將顏色滲入Alpha",
         "Inspector.Texture.AlphaGamma": "Alpha Gamma",
         "Inspector.Texture.AdjustAlphaGamma": "調整 Alpha Gamma",
         "Inspector.Texture.AddAlpha": "增加 Alpha",
 
         "Inspector.Texture.InvalidFloats": "診斷：無效的浮點數",
-        "Inspector.Texture.GenerateMetadata": "診斷：生成位圖元數據",
+        "Inspector.Texture.GenerateMetadata": "診斷：生成點陣圖元數據",
 
         "Inspector.Material.VariantInfo": "變種ID: {variantID} (Raw變種ID：{rawVariantID})",
         "Inspector.Material.WaitingForApply": "應用變種(WaitingForApply)：{waiting,select,True{等候} False{已應用}}",
 
-        "Inspector.Audio.BakeAudio": "烘焙音頻剪輯",
+        "Inspector.Audio.BakeAudio": "烘焙音效剪輯",
         "Inspector.Audio.FormatInfo": "採樣率：{rate} Hz, 頻道：{channels} ({channel_count})",
         "Inspector.Audio.Duration": "持續時間：{duration}，採樣數：{samples}",
-        "Inspector.Audio.EncodingInfo": "編碼器信息：{info}, 完全解碼：{decoded}",
+        "Inspector.Audio.EncodingInfo": "編碼器資訊：{info}, 完全解碼：{decoded}",
 
         "Inspector.Audio.Normalize": "正規化音量",
         "Inspector.Audio.AmplitudeThreshold": "幅度閾值：",
-        "Inspector.Audio.TrimSilence": "修剪無音",
-        "Inspector.Audio.TrimStartSilence": "修剪開始無音",
-        "Inspector.Audio.TrimEndSilence": "修剪結束無音",
-        "Inspector.Audio.PositionDuration": "位置/持續時間（以秒為單位）：",
-        "Inspector.Audio.TrimStart": "修剪開始",
-        "Inspector.Audio.TrimEnd": "修剪結束",
+        "Inspector.Audio.TrimSilence": "剪除前後無音",
+        "Inspector.Audio.TrimStartSilence": "剪除開始無音",
+        "Inspector.Audio.TrimEndSilence": "剪除結束無音",
+        "Inspector.Audio.PositionDuration": "位置/持續時間（秒）：",
+        "Inspector.Audio.TrimStart": "剪除開始",
+        "Inspector.Audio.TrimEnd": "剪除結束",
         "Inspector.Audio.FadeIn": "添加淡入",
         "Inspector.Audio.FadeOut": "添加淡出",
-        "Inspector.Audio.MakeLoopable": "使可循环（使用交叉淡入淡出）",
-        "Inspector.Audio.ToWAV": "轉換為WAV",
-        "Inspector.Audio.ToVorbis": "轉換為OGG Vorbis",
-        "Inspector.Audio.ToFLAC": "轉換為FLAC",
-        "Inspector.Audio.DenoiseRNNoise": "降噪（RNNoise，針對48 kHz語音進行了優化）",
-        "Inspector.Audio.ExtractSides": "提取側面（可以刪除立體聲軌道上的人聲）",
+        "Inspector.Audio.MakeLoopable": "做成可循環的音效（使用交叉淡入淡出）",
+        "Inspector.Audio.ToWAV": "轉換為 WAV",
+        "Inspector.Audio.ToVorbis": "轉換為 OGG Vorbis",
+        "Inspector.Audio.ToFLAC": "轉換為 FLAC",
+        "Inspector.Audio.DenoiseRNNoise": "降噪（RNNoise，針對 48kHz 語音優化）",
+        "Inspector.Audio.ExtractSides": "抽取側面音效（用於刪除立體聲軌道上的人聲）",
 
-        "Inspector.AudioStream.BufferState": "可用樣本：{samples}, 丟失：{missed}, 長度：{length}, 全局索引：{index}",
-        "Inspector.AudioStream.EncodeState": "可編碼：{samples}, 幀大小：{frame} (最大值：{max_frame}), 採樣率：{rate}",
-        "Inspector.AudioStream.DecodeState": "包總數：{total}, 丟包總數：{lost}, 數據包丟失：{loss, number, percent}",
+        "Inspector.AudioStream.BufferState": "可用樣本：{samples}、遺失：{missed}、長度：{length}、全域索引：{index}",
+        "Inspector.AudioStream.EncodeState": "可編碼：{samples}, 幀大小：{frame}（最大：{max_frame}）、採樣率：{rate}",
+        "Inspector.AudioStream.DecodeState": "封包總數：{total}, 封包遺失總數：{lost}, 封包遺失：{loss, number, percent}",
         "Inspector.AudioStream.BufferStats": "平均編解碼：{avgCodec}/s, 平均讀取：{avgRead}/s, 平均寫入：{avgWritten}/s",
 
         "Inspector.GaussianSplat.SplatInfo": "潑濺數量：{count}，VRAM 使用量：{vram}",
@@ -2335,18 +2373,18 @@
         "Inspector.DataPreset.AddAllChildren": "新增所有子物件",
 
         "Inspector.Rig.CleanupBoneColliders": "清理骨骼碰撞体",
-        "Inspector.Rig.GenerateDebugVisuals": "生成調試視覺效果",
-        "Inspector.Rig.ClearDebugVisuals": "清除調試視覺效果",
+        "Inspector.Rig.GenerateDebugVisuals": "生成除錯用檢視",
+        "Inspector.Rig.ClearDebugVisuals": "清除除錯用檢視",
 
-        "Inspector.AvatarExpression.AutoAssign": "自動分配 Blendshapes（使用啟發式）",
+        "Inspector.AvatarExpression.AutoAssign": "自動分配 Blendshapes（使用啟發式算法）",
 
-        "Inspector.CharacterController.Warning": "<color=red><size=150%>警告</size></color><br>當勾選模擬旋轉（SimulateRotation）時這個組件可以被當作一個簡單的剛體。在您這樣做之前，您需要明白它不曾為此優化，且對剛體的正式支持會在未來加入。<br>正式支持包括：<br><b>- CPU和網絡效能提升</b> - 使用角色控制器，您的CPU和網絡佔用會顯著上升<br><b>- 約束</b> - 您將能夠在剛體間創建關節、合頁、彈簧和其他約束<br><b>- 對每個人的平滑模擬與交互</b> - 在另一個人嘗試交互時，角色控制器會發生故障<br><b>- 新功能與工具</b> - 讓使用更加簡單<br>-----------------------<br>只要您理解了上述限制，放開玩吧！",
-        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告</size></color><br>通過他們的ID，這個組件可以被用於與引用交互。這個過程常被稱為“引用駭入”。<br><br>在您這樣做<b>之前</b>，請知曉這種方式 <b>不被</b> 支援且隨時可能失效。請勿讓您的作品依賴於此項功能。",
+        "Inspector.CharacterController.Warning": "<color=red><size=150%>警告</size></color><br>當勾選模擬旋轉（SimulateRotation）時這個組件可以被當作一個簡單的剛體。在您這樣做之前，您需要明白它不曾為此優化，且對剛體的正式支持會在未來加入。<br>正式支持包括：<br><b>- CPU和網絡效能提升</b> - 使用角色控制器，您的CPU和網絡佔用會顯著上升<br><b>- 約束</b> - 您將能夠在剛體間建立關節、合頁、彈簧和其他約束<br><b>- 對每個人的平滑模擬與交互</b> - 在另一個人嘗試交互時，角色控制器會發生故障<br><b>- 新功能與工具</b> - 讓使用更加簡單<br>-----------------------<br>只要您理解了上述限制，放開玩吧！",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告</size></color><br>透過他們的ID，這個組件可以被用於與引用交互。這個過程常被稱為“引用駭入”。<br><br>在您這樣做<b>之前</b>，請知曉這種方式 <b>不被</b> 支援且隨時可能失效。請勿讓您的作品依賴於此項功能。",
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>警告</size></color><br>FacetPresets 會自動在我們發布新版 Facet 物品時更新這個元件，若你正在自製 Facet，我們建議將本元件刪除。",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>警告</size></color><br>本元件並非設計作為安全機制或竊盜保護系統使用，本元件停用直接儲存功能的用意是作為遊戲流程或是設計的一部分，要繞過這個元件的機制相當容易，本元件未來也不會加強任何安全保護措施。",
 
-        "Inspector.ParticleSystem.BasicInfo": "粒子數：{count}，FPS：{fps}，模擬時間：{time}，提交時間：{renderSubmitTime}，渲染分配：{allocationCount}",
-        "Inspector.ParticleSystem.TrailInfo": "軌跡：{trailCount} (容量：{trailCapacity})，軌跡點容量：{trailPointCapacity}，分配：{allocationCount}",
+        "Inspector.ParticleSystem.BasicInfo": "粒子數：{count}、FPS：{fps}、模擬時間：{time}、送出時間：{renderSubmitTime}、渲染分配：{allocationCount}",
+        "Inspector.ParticleSystem.TrailInfo": "軌跡：{trailCount} (容量：{trailCapacity})、軌跡點容量：{trailPointCapacity}、分配：{allocationCount}",
 
         "Inspector.ParticleStyle.CommonTransitions": "通用變化模板：",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha 淡入 & 淡出",
@@ -2357,16 +2395,16 @@
         "Inspector.ParticleStyle.IntensityFadeOut": "強度淡出",
         "Inspector.ParticleStyle.ClearFades": "清除漸變",
 
-        "Inspector.Collider.SetFromLocalBounds": "根據本地邊界設置",
-        "Inspector.Collider.SetFromGlobalBounds": "根據全局邊界設置",
-        "Inspector.Collider.SetFromLocalBoundsPrecise": "根據本地邊界設置（精準）",
-        "Inspector.Collider.SetFromGlobalBoundsPrecise": "根據全局邊界設置（精準）",
-        "Inspector.Collider.SetFromPreciseBounds": "根據精確邊界設置",
-        "Inspector.Collider.SetFromPreciseCylinderBounds": "根據精確圓柱邊界設置",
+        "Inspector.Collider.SetFromLocalBounds": "根據本地邊界設定",
+        "Inspector.Collider.SetFromGlobalBounds": "根據全域邊界設定",
+        "Inspector.Collider.SetFromLocalBoundsPrecise": "根據本地邊界設定（精準）",
+        "Inspector.Collider.SetFromGlobalBoundsPrecise": "根據全域邊界設定（精準）",
+        "Inspector.Collider.SetFromPreciseBounds": "根據精確邊界設定",
+        "Inspector.Collider.SetFromPreciseCylinderBounds": "根據精確圓柱邊界設定",
         "Inspector.Collider.Visualize": "圓柱體可視化",
 
-        "Inspector.SimpleAwayIndicator.TestAway": "設為離開（調試）",
-        "Inspector.SimpleAwayIndicator.TestRestore": "返回正常（調試）",
+        "Inspector.SimpleAwayIndicator.TestAway": "設為離開（除錯用）",
+        "Inspector.SimpleAwayIndicator.TestRestore": "返回正常（除錯用）",
 
         "Inspector.Fields.Drive": "驅動",
         "Inspector.Fields.DriveWriteBack": "驅動 <size=50%>（回寫）</size>",
@@ -2374,11 +2412,11 @@
         "Inspector.Actions.CopyComponent": "拷貝組件",
         "Inspector.Actions.MoveComponent": "移動組件",
 
-        "UserInspector.Title": "用戶查看器",
+        "UserInspector.Title": "使用者檢視器",
 
-        "WorkerInspector.Title": "{name} 查看器",
+        "WorkerInspector.Title": "{name} 檢視器",
 
-        "CreateNew.Title": "創建",
+        "CreateNew.Title": "建立",
 
         "Wizard.General.ProcessRoot": "處理根：",
         "Wizard.General.Result": "結果：",
@@ -2430,8 +2468,8 @@
         "Wizard.ReflectionProbes.WithTag": "帶標籤：",
         "Wizard.ReflectionProbes.TeleportUserToProbe": "將我傳送到每個探針",
         "Wizard.ReflectionProbes.DelayBetweenProbes": "探針之間的延遲",
-        "Wizard.ReflectionProbes.ShowDebugVisuals": "顯示調試視覺效果",
-        "Wizard.ReflectionProbes.HideDebugVisuals": "隱藏調試視覺效果",
+        "Wizard.ReflectionProbes.ShowDebugVisuals": "顯示除錯用視覺效果",
+        "Wizard.ReflectionProbes.HideDebugVisuals": "隱藏除錯用視覺效果",
         "Wizard.ReflectionProbes.BakeProbes": "烘焙探針",
         "Wizard.ReflectionProbes.Baking": "正在烘焙{count}個中的第{index}個...",
 
@@ -2458,23 +2496,23 @@
         "VolumePlaneSlicer.Slicer": "滑塊",
 
         "Tutorial.Welcome.Welcome": "歡迎！",
-        "Tutorial.Welcome.Description": "進入一個有着無限可能性的全新數字宇宙。不管您是為了與世界各地的朋友社交，還是為了建造、創作與開發從美麗的藝術品、交互式數字化身等小玩意兒，到複雜的可交互遊戲和世界，Resonite 都為您提供了一個無限可自定義的環境。這裏永遠歡迎您，您也將能在此找到志同道合的朋友。<br><br>在您開始探索之前，我們會先引導您進行一些必要的設置，以確保絲滑的體驗。當您準備就緒，就請點擊下方的按鈕。",
+        "Tutorial.Welcome.Description": "進入一個有着無限可能性的全新數字宇宙。不管您是為了與世界各地的朋友社交，還是為了建造、創作與開發從美麗的藝術品、交互式數字化身等小玩意兒，到複雜的可交互遊戲和世界，{appName} 都為您提供了一個無限可自定義的環境。這裏永遠歡迎您，您也將能在此找到志同道合的朋友。<br><br>在您開始探索之前，我們會先引導您進行一些必要的設置，以確保絲滑的體驗。當您準備就緒，就請點擊下方的按鈕。",
         "Tutorial.Welcome.Begin": "讓我們開始吧！",
 
         "Tutorial.Welcome.AccountHeader": "{appName}帳號",
-        "Tutorial.Welcome.AccountDescription": "創建帳號可為您提供1GB的免費儲存空間，您將可以保存物品、喜歡的化身，添加朋友和傳遞訊息。",
-        "Tutorial.Welcome.AccountCreate": "創建帳號",
+        "Tutorial.Welcome.AccountDescription": "建立帳號可為您提供1GB的免費儲存空間，您將可以保存物品、喜歡的化身，添加朋友和傳遞訊息。",
+        "Tutorial.Welcome.AccountCreate": "建立帳號",
         "Tutorial.Welcome.AccountLogin": "我已經有一個帳號",
         "Tutorial.Welcome.AccountSkip": "在沒有帳號的情況下繼續",
-        "Tutorial.Welcome.AccountSkipHeader": "跳過創建帳號？",
+        "Tutorial.Welcome.AccountSkipHeader": "跳過建立帳號？",
         "Tutorial.Welcome.AccountSkipDescription": "某些功能（例如，保存物品、化身，添加好友等）將無法訪問。",
         "Tutorial.Welcome.AccountSkipConfirm": "確定跳過",
 
         "Tutorial.Welcome.SettingsHeader": "基本配置",
-        "Tutorial.Welcome.SettingsDescription": "你可以配置基本動作和用戶首選項。 所有這些都可以在以後更改。",
+        "Tutorial.Welcome.SettingsDescription": "你可以配置基本動作和使用者首選項。 所有這些都可以在以後更改。",
         "Tutorial.Welcome.SettingsTurning": "轉向方式",
         "Tutorial.Welcome.SettingsSnapTurn": "吸附式",
-        "Tutorial.Welcome.SettingsSnapTurn.Description": "立即轉向新的角度。適用於新用戶。",
+        "Tutorial.Welcome.SettingsSnapTurn.Description": "立即轉向新的角度。適用於新使用者。",
         "Tutorial.Welcome.SettingsSmoothTurn": "平滑",
         "Tutorial.Welcome.SettingsSmoothTurn.Description": "平滑地轉向，但易引起暈動症。",
         "Tutorial.Welcome.SettingsPrimaryController": "主控制器",
@@ -2502,7 +2540,7 @@
         "Tutorial.Welcome.SidewaysOff.Description": "僅向前/向後移動",
 
         "Tutorial.Welcome.SettingsHeight": "您的身高",
-        "Tutorial.Welcome.SettingsHeightExamples": "例子: 1.85 m, 185 cm, 6' 1\", 6 英尺 1 英寸",
+        "Tutorial.Welcome.SettingsHeightExamples": "範例：1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
 
         "Tutorial.Welcome.StartTutorialHeader": "準備好開始探索了嗎？",
         "Tutorial.Welcome.StartTutorialDescription": "您已整裝待發，即將踏上探索之旅了！我們會將您傳送到教程世界。在那之後，有一個全新的家世界等待着您。那將是您探索 {appName} 的起點。當您準備好了，請點擊下方的按鈕。",
@@ -2510,7 +2548,7 @@
 
         "Tutorial.CommunityYouTube.Title": "社群 YouTube 頻道",
 
-        "Tutorial.UserResources.UserResourcesTitle": "用戶資源",
+        "Tutorial.UserResources.UserResourcesTitle": "使用者資源",
         "Tutorial.UserResources.SupportTitle": "如何支持 {appName}",
         "Tutorial.UserResources.MerchandiseTitle": "{appName} 商品",
 
@@ -2521,7 +2559,7 @@
         "Tutorial.Intro.BadgesDisabilityVision": "視覺障礙",
         "Tutorial.Intro.BadgesDisabilitySpeech": "發音障礙",
         "Tutorial.Intro.BadgesTitle": "徽章",
-        "Tutorial.Intro.BadgesDescription": "徽章是一些展示用戶特色的小圖標。這兒是一些需要被記住的重要徽章。用戶可以通過 {appName} 機器人賦予自己身體障礙徽章。請查閱 {appName} Wiki 以瞭解更多信息",
+        "Tutorial.Intro.BadgesDescription": "徽章是一些展示使用者特色的小圖標。這兒是一些需要被記住的重要徽章。使用者可以透過 {appName} 機器人賦予自己身體障礙徽章。請查閱 {appName} Wiki 以瞭解更多資訊",
         "Tutorial.Intro.HelpSite": "幫助",
 
         "Object.Mirror.Toggle": "開關（鏡子）",
@@ -2534,16 +2572,16 @@
         "Twitch.Panel.Button.SubscriberCommands.Disabled": "訂閱者命令<br> 對所有人啟用",
         "Twitch.Panel.Title.Text": "Twitch 聊天室",
 
-        "Exiting.SavingItems": "正在保存 {n, plural, other {# 項目}}...",
-        "Exiting.SavingChanges": "正在保存更改...",
-        "Exiting.Exiting": "正在退出中...",
-        "Exiting.LoggingOut": "正在註銷...",
+        "Exiting.SavingItems": "正在儲存 {n} 個物品…",
+        "Exiting.SavingChanges": "正在儲存變更…",
+        "Exiting.Exiting": "正在退出…",
+        "Exiting.LoggingOut": "正在登出…",
 
         "Migration.Title": "遷移",
         "Migration.NewTask": "新建遷移任務",
 
         "Migration.LoginModal.Title": "遷移數據？",
-        "Migration.LoginModal.Description": "您希望從另一個帳戶遷移數據嗎？您也可以選擇稍後再從儀表盤上的“遷移”標籤頁執行此操作。",
+        "Migration.LoginModal.Description": "您希望從另一個帳戶遷移數據嗎？您也可以選擇稍後再從主面板上的“遷移”標籤頁執行此操作。",
         "Migration.LoginModal.OpenMigration": "打開遷移",
         "Migration.LoginModal.Later": "稍後",
         "Migration.LoginResetID.Title": "確定要重置UserID嗎？",
@@ -2556,57 +2594,57 @@
         "Migration.SourceUsername": "{platform} 使用者名稱：",
 
         "Migration.Dialog.Title": "帳戶遷移",
-        "Migration.Dialog.Source": "您可以遷移來自任何兼容基礎設施的數據。首先，從下方的列表中選擇一個您希望自其遷移數據的基礎設施。您也可以通過在安裝文件夾下的“Migrations”文件夾放置配置文件來添加額外基礎設施。",
+        "Migration.Dialog.Source": "您可以遷移來自任何兼容基礎設施的數據。首先，從下方的列表中選擇一個您希望自其遷移數據的基礎設施。您也可以透過在安裝文件夾下的“Migrations”文件夾放置配置文件來添加額外基礎設施。",
         "Migration.Dialog.AccountDescription": "要遷移您的帳戶，我們需要您的 {platform} 帳戶密碼以登錄並訪問數據。",
 
         "Migration.ResetID.Title": "重置我的UserID",
-        "Migration.ResetID.Description": "<color=red><b>警告：</b></color> 選擇這個選項 <b>會不可還原地部分損壞現存內容</b>，其中包括用戶內容、社區服務、鏈接、雲變量等中任何對UserID的引用。這些引用會被重置，但您的物品、世界、好友與訊息不會丟失。我們 <b>只</b> 建議您在想更換一個新的隨機UserID時使用此選項。除非您有重置UserID的充分理由，您 <b>不！該！</b> 使用此選項。您的UserID會像這樣變化：\n U-MyUsername -> U-fX3pKe7AYYQ",
+        "Migration.ResetID.Description": "<color=red><b>警告：</b></color> 選擇這個選項 <b>會不可還原地部分損壞現存內容</b>，其中包括使用者內容、社群服務、連結、雲端變數等中任何對 UserID 的引用。這些引用會被重置，但您的物品、世界、好友與訊息不會遺失。我們 <b>只</b> 建議您在想更換一個新的隨機 UserID 時使用此選項。除非您有重置 UserID 的充分理由，您 <b>不！該！</b> 使用此選項。您的 UserID 會像這樣變化：\n U-MyUsername -> U-fX3pKe7AYYQ",
 
-        "Migration.DataSelection.Title": "當我們遷移您帳戶時，應該遷移哪些數據？",
-        "Migration.DataSelection.Everything": "所有數據",
+        "Migration.DataSelection.Title": "當我們遷移您帳戶時，應該遷移哪些資料？",
+        "Migration.DataSelection.Everything": "所有資料",
         "Migration.DataSelection.Choose": "讓我自己選擇",
 
         "Migration.DataSelection.Favorites": "收藏內容（化身、家、相機、鍵盤、Facets）",
 
-        "Migration.DataSelection.Favorites.Description": "這將首先遷移您的家、收藏的化身、鍵盤、相機與儀表板，這樣您就能儘快開始使用它們。\n <color=red><b>警告：</b></color> 如果您選擇了這個選項，您可能 <b>失去某些</b> 在遷移前作出的對您收藏內容的更改。",
+        "Migration.DataSelection.Favorites.Description": "這將首先遷移您的家、收藏的化身、鍵盤、相機與主面板，這樣您就能儘快開始使用它們。\n <color=red><b>警告：</b></color> 如果您選擇了這個選項，您可能 <b>失去某些</b> 在遷移前作出的對您收藏內容的更改。",
         "Migration.DataSelection.Favorites.OverwriteTitle": "我們應該在遷移時覆寫您的收藏夾嗎？",
 
-        "Migration.DataSelection.Home.Title": "將您原來的家設為默認？",
-        "Migration.DataSelection.Home.Description": "當我們遷移您數據時，您原本的雲端家園會被安置在一個不同的URL下，您的默認家會被設為一個全新的雲端家園。不過，如果您希望如此，我們也可以將您原有的家設置為默認。即使您選擇了“不”，您原有的家依然可以被訪問。您也可以稍後再收藏它並設為您的家。",
+        "Migration.DataSelection.Home.Title": "將您原來的家設為預設？",
+        "Migration.DataSelection.Home.Description": "當我們遷移您數據時，您原本的雲端家園會被安置在一個不同的URL下，您的預設自家會被設為一個全新的雲端家園。不過，如果您希望如此，我們也可以將您原有的家設置為預設。即使您選擇了“不”，您原有的家依然可以存取。您也可以稍後再收藏它並設為您的家。",
 
         "Migration.DataSelection.Contacts": "好友",
         "Migration.DataSelection.Message History": "訊息歷史",
         "Migration.DataSelection.InventoryWorld": "物品欄 & 世界",
-        "Migration.DataSelection.CloudVariable.Definitions": "雲變量定義",
-        "Migration.DataSelection.CloudVariable.Values": "雲變量值",
+        "Migration.DataSelection.CloudVariable.Definitions": "雲端變數定義",
+        "Migration.DataSelection.CloudVariable.Values": "雲端變數值",
 
         "Migration.DataSelection.AlwaysOverwrite": "總是覆寫",
 
         "Migration.Start": "開始遷移",
-        "Migration.Groups.Title": "遷移羣組",
-        "Migration.Groups.Introduction": "我們應該遷移您的羣組嗎？",
+        "Migration.Groups.Title": "遷移群組",
+        "Migration.Groups.Introduction": "我們應該遷移您的群組嗎？",
 
-        "Migration.Groups.Description": "所有您作為管理員的羣組都將被默認遷移。如果您只想遷移指定羣組，點擊下方的按鈕來加載它們並選擇您希望遷移的羣組。",
+        "Migration.Groups.Description": "所有您作為管理員的群組都將被默認遷移。如果您只想遷移指定群組，點擊下方的按鈕來載入它們並選擇您希望遷移的群組。",
 
-        "Migration.Groups.LoadGroups": "加載羣組",
-        "Migration.Groups.RefreshGroups": "刷新羣組",
+        "Migration.Groups.LoadGroups": "載入群組",
+        "Migration.Groups.RefreshGroups": "刷新群組",
 
-        "Migration.Groups.Fetching": "羣組拉取中...",
+        "Migration.Groups.Fetching": "群組拉取中...",
         "Migration.Groups.Fetching.LoginFailed": "登錄錯誤：{error}",
-        "Migration.Groups.Fetching.Error": "羣組拉取錯誤：{error}",
-        "Migration.Groups.NoGroups": "未找到可遷移的 {platform} 羣組。",
-        "Migration.Groups.NotGroupAdmin": "您未擔任任何 {platform} 羣組的管理員，請聯繫您羣組的管理員以遷移它們！",
+        "Migration.Groups.Fetching.Error": "群組拉取錯誤：{error}",
+        "Migration.Groups.NoGroups": "未找到可遷移的 {platform} 群組。",
+        "Migration.Groups.NotGroupAdmin": "您未擔任任何 {platform} 群組的管理員，請聯繫您群組的管理員以遷移它們！",
 
-        "Migration.Summary": "好的，我們已經完成了準備工作。點擊下方的開始遷移按鈕，我們就會開始您的遷移工作。\n\n遷移工作需要一些時間，我們需要拷貝所有的數據。如果您選擇了遷移您的收藏夾，我們會優先遷移它們以便您能夠儘快使用。\n\n在遷移運行時，您無需保持 {appName} 運行，但我們也會通過 {appName} 機器人向您發送通知以告知您進展如何。",
+        "Migration.Summary": "好的，我們已經完成了準備工作。點擊下方的開始遷移按鈕，我們就會開始您的遷移工作。\n\n遷移工作需要一些時間，我們需要拷貝所有的數據。如果您選擇了遷移您的收藏夾，我們會優先遷移它們以便您能夠儘快使用。\n\n在遷移運行時，您無需保持 {appName} 運行，但我們也會透過 {appName} 機器人向您發送通知以告知您進展如何。",
 
         "Migration.List.EmptyTitle": "需要開始新的遷移工作嗎？",
         "Migration.List.EmptySubtitle": "點擊左上方的“新建遷移任務”按鈕",
 
-        "Migration.List.ButtonLabel": "{name}\n<size=50%>創建於：{time}\n狀態：{state}",
+        "Migration.List.ButtonLabel": "{name}\n<size=50%>建立於：{time}\n狀態：{state}",
         "Migration.Report.Title": "遷移任務報告：",
         "Migration.Report.Description": "<color={hex}>描述：</color> {value}",
         "Migration.Report.Status": "<color={hex}>狀態：</color> {value}",
-        "Migration.Report.CreatedOn": "<color={hex}>創建於：</color> {value}",
+        "Migration.Report.CreatedOn": "<color={hex}>建立於：</color> {value}",
         "Migration.Report.StartedOn": "<color={hex}>開始於：</color> {value}",
         "Migration.Report.CompletedOn": "<color={hex}>完成於：</color> {value}",
 
@@ -2618,16 +2656,16 @@
         "Migration.Report.EstimatedQueuePosition": "<color={hex}>此任務之前的排隊任務數：</color> {value}",
         "Migration.Report.ContactStatus": "已遷移 <color={hex}>{total}</color> 好友中的 <color={hex}>{current}</color> 個",
         "Migration.Report.MessageStatus": "已遷移 <color={hex}>{value}</color> 條訊息",
-        "Migration.Report.CloudVariableDefinitionStatus": "已遷移 <color={hex}>{value}</color> 個雲變量定義",
-        "Migration.Report.CloudVariableValueStatus": "已遷移 <color={hex}>{value}</color> 個雲變量",
+        "Migration.Report.CloudVariableDefinitionStatus": "已遷移 <color={hex}>{value}</color> 個雲端變數定義",
+        "Migration.Report.CloudVariableValueStatus": "已遷移 <color={hex}>{value}</color> 個雲端變數",
         "Migration.Report.RecordStatus": "已遷移 <color={hex}>{total}</color> 世界/項目中的 <color={hex}>{current}</color> 個，失敗 <color=red>{failed}</color> 個。",
-        "Migration.Report.GroupStatus": "已遷移 <color={hex}>{total}</color> 羣組中的 <color={hex}>{current}</color> 個",
-        "Migration.Report.GroupMemberStatus": "共已遷移 <color={hex}>{value}</color> 羣組成員",
+        "Migration.Report.GroupStatus": "已遷移 <color={hex}>{total}</color> 群組中的 <color={hex}>{current}</color> 個",
+        "Migration.Report.GroupMemberStatus": "共已遷移 <color={hex}>{value}</color> 群組成員",
 
         "Migration.Error": "<color=red>錯誤：</color> {error}",
         "Migration.NothingSelected": "未選擇任何項，無法開始。",
 
-        "Migration.ColorManagement": "這個世界在伽馬色彩空間下被創建，目前已被自動轉換至線性色彩空間。<br><br>它看起來可能會有些不同，但總體應當保持可用。<br><br>如果您就是作者且發現了世界轉換中的錯誤，<color=red>不！要！存！儲！</color> 僅進行另存。<br><br>只要原始世界存在，我們還可以改良轉換流程。否則您將自己負責修復這些錯誤。",
+        "Migration.ColorManagement": "這個世界在伽馬色彩空間下被建立，目前已被自動轉換至線性色彩空間。<br><br>它看起來可能會有些不同，但總體應當保持可用。<br><br>如果您就是作者且發現了世界轉換中的錯誤，<color=red>不！要！存！儲！</color> 僅進行另存。<br><br>只要原始世界存在，我們還可以改良轉換流程。否則您將自己負責修復這些錯誤。",
 
         "Temporary.MMC.Voting UI": "MMC 投票界面",
         "Temporary.MMC.Vote": "投票",
@@ -2658,38 +2696,38 @@
 
         "Tutorial.Teleporter.Error": "無法載入您的雲端家世界！<br><size=66%>走出傳送器然後再走回來試試看。</size>",
 
-        "CloudHome.Info.OnlineUsers": "在線 {online_users,plural, one {用戶} other {用戶}}: {online_users}<br>可加入 {joinable_users,plural, one {用戶} other {用戶}}: {joinable_users}",
+        "CloudHome.Info.OnlineUsers": "在線 {online_users,plural, one {使用者} other {使用者}}: {online_users}<br>可加入 {joinable_users,plural, one {使用者} other {使用者}}: {joinable_users}",
         "CloudHome.Info.Moderation": "監管",
         "CloudHome.Info.Inventory": "物品欄",
         "CloudHome.Info.Tools": "工具",
-        "CloudHome.Info.MoreInfo": "更多信息",
-        "CloudHome.Info.SessionUptime": "會話持續時間：",
+        "CloudHome.Info.MoreInfo": "更多資訊",
+        "CloudHome.Info.SessionUptime": "活動持續時間：",
         "CloudHome.Info.AccessLevel": "權限等級：",
         "CloudHome.Info.StorageUsed": "已用儲存空間：",
 
         "CloudHome.Info.DashInfoTab.Title": "歡迎！",
-        "CloudHome.Info.DashInfoDesktop": "為了讓您更快上手，有幾件事您應當知悉。當按下Esc鍵，您可以打開 <i><color=hero.purple>儀表盤</color></i>。它相當於您的桌面或是控制面板。<br><br>如果您對此感到疑惑，它用於顯示能夠幫助您的額外數據。點擊下方按鈕關閉這條消息。",
-        "CloudHome.Info.DashInfoVR": "為了讓您更快上手，有幾件事您應當知悉。當按下B或Y鍵，您可以打開 <i><color=hero.purple>儀表盤</color></i>。它相當於您的桌面或是控制面板。<br><br>如果您對此感到疑惑，它用於顯示能夠幫助您的額外數據。點擊下方按鈕關閉這條消息。",
-        "CloudHome.Info.DashInfoVRNoButtons": "為了讓您更快上手，有幾件事您應當知悉。當您按住菜單鍵直到圓圈填滿，您可以打開 <i><color=hero.purple>儀表盤</color></i>。它相當於您的桌面或是控制面板。<br><br>如果您對此感到疑惑，它用於顯示能夠幫助您的額外數據。點擊下方按鈕關閉這條消息。",
+        "CloudHome.Info.DashInfoDesktop": "為了讓您更快上手，有幾件事您應當知悉。當按下Esc鍵，您可以打開 <i><color=hero.purple>主面板</color></i>。它相當於您的桌面或是控制面板。<br><br>如果您對此感到疑惑，它用於顯示能夠幫助您的額外數據。點擊下方按鈕關閉這條消息。",
+        "CloudHome.Info.DashInfoVR": "為了讓您更快上手，有幾件事您應當知悉。當按下B或Y鍵，您可以打開 <i><color=hero.purple>主面板</color></i>。它相當於您的桌面或是控制面板。<br><br>如果您對此感到疑惑，它用於顯示能夠幫助您的額外數據。點擊下方按鈕關閉這條消息。",
+        "CloudHome.Info.DashInfoVRNoButtons": "為了讓您更快上手，有幾件事您應當知悉。當您按住選單鍵直到圓圈填滿，您可以打開 <i><color=hero.purple>主面板</color></i>。它相當於您的桌面或是控制面板。<br><br>如果您對此感到疑惑，它用於顯示能夠幫助您的額外數據。點擊下方按鈕關閉這條消息。",
 
         "CloudHome.Info.GoToWiki": "前往Wiki！",
         "CloudHome.Info.GoToDiscord": "前往Discord！",
 
         "CloudHome.Info.ModerationTab.Title": "監管！",
-        "CloudHome.Info.ModerationTab.Content": "安全很重要！如果您需要幫助或者需要舉報一位用戶，請在我們的 <u><color=hero.cyan>監管平臺</color></u><sprite name=hyperlink>發起工單。<br><br>我們有由志願管理員組成的強大團隊 <sprite name=modbadge> 來保障社區的安全！如果您有疑問，或是發現了違反行為準則的現象，請發起工單。",
+        "CloudHome.Info.ModerationTab.Content": "安全很重要！如果您需要幫助或者需要舉報一位使用者，請在我們的 <u><color=hero.cyan>監管平臺</color></u><sprite name=hyperlink>發起工單。<br><br>我們有由志願管理員組成的強大團隊 <sprite name=modbadge> 來保障社區的安全！如果您有疑問，或是發現了違反行為準則的現象，請發起工單。",
 
         "CloudHome.Info.InventoryTab.Title": "儲存您的物品！",
-        "CloudHome.Info.InventoryTab.Content": "在 <i><color=hero.purple>儀表盤</color></i> 中的 <i><color=hero.purple>庫存</color></i> 包含了您保存的物品與化身。<br><br>在 <i><color=hero.purple>基礎</color></i> 文件夾中，我們準備了一些有趣的東西。您可以雙擊來生成它們！",
+        "CloudHome.Info.InventoryTab.Content": "在 <i><color=hero.purple>主面板</color></i> 中的 <i><color=hero.purple>庫存</color></i> 包含了您保存的物品與化身。<br><br>在 <i><color=hero.purple>基礎</color></i> 文件夾中，我們準備了一些有趣的東西。您可以雙擊來生成它們！",
 
         "CloudHome.Info.ToolsTab.Title": "世界內編輯！",
         "CloudHome.Info.ToolsTab.Content": "{appName} 的一大特點在於，您能夠輕易的在遊戲中創造、修改事物。<br><br>是的！就在此處！實際上在任何地方都可以。您可以在庫存中的 <i><color=hero.purple>基礎 -> 工具</color></i> 欄找到用於修改世界的工具，並將一切變成您喜歡的樣子。",
 
         "CloudHome.Info.HelpTab.Title": "獲得幫助",
-        "CloudHome.Info.HelpTab.InfoLineOne": "需要幫助？查看我們的 <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>，或者詢問以獲得解答。",
-        "CloudHome.Info.HelpTab.InfoLineTwo": "在我們的 <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> 中提問，通過您儀表盤中的 <i><color=hero.purple>桌面</color></i> 標籤頁，您可以輕易地在桌面模式下查看鏈接。",
+        "CloudHome.Info.HelpTab.InfoLineOne": "需要幫助？請查閱我們的 <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>，或者詢問以獲得解答。",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "在我們的 <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> 中提問，透過您主面板中的 <i><color=hero.purple>桌面</color></i> 標籤頁，您可以輕易地在桌面下查看連結內容。",
 
-        "CloudHome.Info.UsersTab.Title": "查找用戶",
-        "CloudHome.Info.UsersTab.Content": "公共會話會是讓您沉浸在社區氛圍中的一個好去處！<br><br>您可以在儀表板中的 <i><color=hero.purple>世界</color></i> 標籤頁找到可以立即加入的公共會話。快去看看吧！",
+        "CloudHome.Info.UsersTab.Title": "查找使用者",
+        "CloudHome.Info.UsersTab.Content": "公開活動會是讓您沉浸在社區氛圍中的一個好去處！<br><br>您可以在主面板中的 <i><color=hero.purple>世界</color></i> 標籤頁找到可以立即加入的公開活動。快去看看吧！",
 
         "Mirror.Header.RenderingOptions": "渲染選項",
         "Mirror.Header.Type": "鏡子類型",
@@ -2708,8 +2746,8 @@
         "Mirror.AspectRatio.Square": "方形",
         "Mirror.AspectRatio.Wide": "寬",
 
-        "Mirror.Menu": "菜單",
-        "Mirror.CloseMenu": "關閉菜單",
+        "Mirror.Menu": "選單",
+        "Mirror.CloseMenu": "關閉選單",
 
         "StickyNote.SpinMe": "旋轉我！",
         "StickyNote.FruitPlate": "免費的自補充果盤",
@@ -2729,7 +2767,7 @@
         "StickyNote.EquipMeVR": "裝備並拉弦！",
 
         "StickyNote.DipBrushes": "將筆刷浸入材質球來選擇材質",
-        "StickyNote.BrushColor": "在您的上下文菜單中更改筆刷的顏色與大小",
+        "StickyNote.BrushColor": "在您的快速選單中更改筆刷的顏色與大小",
         "StickyNote.Drawing": "您可以在畫板上或空氣中繪畫。事實上，在哪都行！",
         "StickyNote.WorldCanvas": "世界就是您的畫布！",
 
@@ -2801,12 +2839,12 @@
         "Hints.Spawn.InitialMovementVR": "使用搖桿來四處行走！",
         "Hints.Spawn.InitialMovementVRNoButtons": "使用觸控板來四處行走！",
 
-        "Hints.Spawn.ContextMenuDesktop": "按T打開您的上下文菜單以查看選項！",
-        "Hints.Spawn.ContextMenuVR": "感到不適？按B或Y鍵打開您的上下文菜單以查看選項！",
-        "Hints.Spawn.ContextMenuVRNoButtons": "感到不適？按菜單鍵打開您的上下文菜單以查看選項！",
+        "Hints.Spawn.ContextMenuDesktop": "按T打開快速選單以檢視選項",
+        "Hints.Spawn.ContextMenuVR": "覺得不舒服嗎？按B或Y鍵打開快速選單以檢視選項",
+        "Hints.Spawn.ContextMenuVRNoButtons": "覺得不舒服嗎？按選單鍵打開快速選單以檢視選項",
 
-        "Hints.Spawn.TeleportLocomotionDesktop": "您可以在運動菜單中嘗試其他選項，例如飛行。",
-        "Hints.Spawn.TeleportLocomotionVR": "您可以在運動菜單中嘗試其他選項，例如傳送或飛行。",
+        "Hints.Spawn.TeleportLocomotionDesktop": "你可以在運動選單中嘗試其他選項，例如飛行。",
+        "Hints.Spawn.TeleportLocomotionVR": "你可以在運動選單中嘗試其他選項，例如傳送或飛行。",
 
         "Hints.Bridge.RaiseTheWorld": "按下這個按鈕，召喚平臺！",
 
@@ -2820,13 +2858,13 @@
         "Hints.Grabbing.ScalingVR": "用您的雙手握持物品來縮放它們！",
 
         "Hints.Grabbing.OtherGrabbables": "我們提供了繁多的交互類型，擺弄這三件物品來瞭解它們！",
-        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "除了縮放物體，您也可以在上下文菜單中啟用縮放來縮放自己。按住Ctrl並使用滾輪即可！",
-        "Hints.Grabbing.OtherGrabbablesExtraVR": "除了縮放物體，您也可以在上下文菜單中啟用縮放來縮放自己。用雙手握持它，然後將其移動得更近或更遠！",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "除了縮放物體，您也可以在快速選單中啟用縮放來縮放自己。按住Ctrl並使用滾輪即可！",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "除了縮放物體，您也可以在快速選單中啟用縮放來縮放自己。用雙手握持它，然後將其移動得更近或更遠！",
 
         "Hints.Telescope.Alignment": "握持望遠鏡並將其對準月亮！",
 
         "Hints.Telescope.TheMoonDesktop": "在對準月亮時，按住右鍵並移動視角來移動月亮！",
-        "Hints.Telescope.TheMoonVR": "按下扳機鍵以激活激光並握持、移動月亮！",
+        "Hints.Telescope.TheMoonVR": "按下扳機鍵以啟用激光並握持、移動月亮！",
 
         "Hints.Sundial.SoftEquip": "握持這個工具並使用它！",
         "Hints.Sundial.SoftEquipExtra": "工具使您能夠以多種方式改變您所處的世界！",
@@ -2837,10 +2875,10 @@
         "Hints.Sundial.TheSun": "瞄準天空並點擊來移動太陽！",
         "Hints.Sundial.TheSunExtra": "試試瞄準地平線以下，將時間變成晚上！",
 
-        "Hints.Sundial.Dequip": "通過在上下文菜單中選擇取消裝備來丟棄已裝備的工具。",
-        "Hints.Sundial.DequipExtra": "注意，上下文菜單中的選項因您正手持工具而發生了改變。",
+        "Hints.Sundial.Dequip": "透過在快速選單中選擇取消裝備來丟棄已裝備的工具。",
+        "Hints.Sundial.DequipExtra": "注意，快速選單中的選項因您正手持工具而發生了改變。",
 
-        "Hints.Sundial.Teleporter": "按下這個按鈕來激活通向您雲端家園的傳送器！",
+        "Hints.Sundial.Teleporter": "按下這個按鈕來啟用通向您雲端家園的傳送器！",
         "Hints.Sundial.TeleporterExtra": "請享受您的家，感謝您駐足體驗！",
 
         "UI.TextDisplay.Landscape": "橫向",
@@ -2856,16 +2894,16 @@
         "UI.DocumentDisplay.Pages": "頁數",
         "UI.DocumentDisplay.ResetZoom": "重置縮放",
 
-        "UI.VideoPlayer.GlobalSettings": "全局<br>設置",
-        "UI.VideoPlayer.LocalSettings": "本地<br>設置",
-        "UI.VideoPlayer.SpatialAudio": "空間<br>音頻",
+        "UI.VideoPlayer.GlobalSettings": "全域<br>設定",
+        "UI.VideoPlayer.LocalSettings": "本地<br>設定",
+        "UI.VideoPlayer.SpatialAudio": "空間<br>音訊",
         "UI.VideoPlayer.AreaBroadcast": "區域<br>廣播",
-        "UI.VideoPlayer.BroadcastAudio": "廣播<br>音頻",
+        "UI.VideoPlayer.BroadcastAudio": "廣播<br>音訊",
         "UI.VideoPlayer.EnterURL": "<i><alpha=#77>在此輸入URL</closeall>",
         "UI.VideoPlayer.AudioZoneTheater": "本地<br>劇院",
-        "UI.VideoPlayer.AudioZoneGlobal": "世界<br>音頻",
-        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {用戶} other {用戶}}<br>已加載",
-        "UI.VideoPlayer.AllUsersLoaded": "所有用戶<br>均已加載",
+        "UI.VideoPlayer.AudioZoneGlobal": "世界<br>音訊",
+        "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} 使用者<br>已載入",
+        "UI.VideoPlayer.AllUsersLoaded": "所有使用者<br>均已載入",
 
         "UI.ColorPicker.ColorPicker": "取色器",
 
@@ -2895,7 +2933,7 @@
 
         "Tools.Names.CommonTools": "通用工具",
         "Tools.Names.ManipulationTools": "操作工具集",
-        "Tools.Names.InformationTools": "信息工具集",
+        "Tools.Names.InformationTools": "資訊工具集",
 
         "Discord.RichPresence.InPrivateWorld": "在私人世界中",
         "Discord.RichPresence.InPrivateLargeText": "在私人世界中 ({version})",
