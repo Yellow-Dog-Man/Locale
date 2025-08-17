@@ -38,7 +38,7 @@
         "General.UnderstandEnable": "Verstanden, aktivieren",
         "General.Dismiss": "Ausblenden",
         "General.Edit": "Bearbeiten",
-        "General.DontShowAgain": "Nicht mehr anzeigen",
+        "General.DontShowAgain": "Nicht wieder anzeigen",
 
         "General.UI.SearchPrompt": "Suchen...",
         "General.UI.SearchPromptLong": "Zum Suchen eingeben...",
@@ -3251,6 +3251,44 @@
         "Help.GettingStarted.BuildingBasics.ImportingFiles.Content": "{appName} unterstützt eine Vielzahl von Dateiformaten, die direkt in die Welt importiert und auch in Ihr Inventar gespeichert werden können.<br><br>Um eine Datei zu importieren, können Sie sie durch Drag & Drop von Ihrem Desktop auf das {appName} Fenster ziehen, oder Sie können die Datei aus dem Dateibrowser Ihres Betriebssystems kopieren und sie im {appName} Fenster mit <b><color=hero.purple>Strg + V</closeall> oder der <b><color=hero.green>Einfügen aus Zwischenablage</closeall> Schaltfläche in Ihrem Dashboard importieren. Sie können auch den Tab <b><color=yellow>Dateien</closeall> in Ihrem Dashboard benutzen, um die Datei zu finden und zu importieren.<br><br>Sobald der Import gestartet wird, erscheint ein <b><color=hero.orange>Import Dialog</closeall>, der abhängig vom Dateityp verschiedene Optionen zum Umgang mit der Datei anbietet.",
         "Help.GettingStarted.BuildingBasics.EndlessPossibilities": "Unendliche Möglichkeiten",
         "Help.GettingStarted.BuildingBasics.EndlessPossibilities.Content": "Die hier vorgestellten Werkzeuge sind nur ein <i>Bruchteil</i> der Möglichkeiten, mit denen Sie in {appName} gestalten können, im <b><color=hero.yellow>{appName} Essentials</closeall> Ordner gibt es viele weitere Werkzeuge, damit Sie all das realisieren können, was Sie sich vorstellen können!",
+
+        "Help.Controls": "Steuerung",
+        "Help.Controls.Interaction": "Interaktionen",
+        "Help.Controls.Interaction.Content": "In {appName} können Sie auf verschiedene Arten mit der Welt und Ihrer Umgebung interagieren. Wählen Sie eine Kategorie auf der linken Seite aus, um mehr zu lernen.",
+
+        "Help.Controls.Interaction.Grabbing": "Greifen",
+        "Help.Controls.Interaction.Grabbing.PalmGrabbing": "Griff mit der Handfläche",
+        "Help.Controls.Interaction.Grabbing.PalmGrabbing.Content": "<b><color=hero.orange>Greifen mit der Handfläche</closeall>, oder einfach <b><color=hero.purple>Greifen</closeall>, kann {is_desktop, select, True {} other {mit Ihrer Hand oder auch}} mit Ihrem Laser durchgeführt werden.<br><br>{is_desktop, select, True {Während} other {Wenn}} Sie den Gegenstand {is_desktop, select, True {} other {mit Ihrem Laser}} halten, können Sie {is_desktop, select, True {<b><color=hero.purple>E</closeall> gedrückt halten} other {Ihr Handgelenk nach rechts und links rotieren}}, um das Objekt zu drehen.",
+        "Help.Controls.Interaction.Grabbing.PrecisionGrab": "Präzisionsgriff",
+        "Help.Controls.Interaction.Grabbing.PrecisionGrab.Content": "Mit dem <b><color=hero.yellow>Präzisionsgriff</closeall> kann ein Objekt sehr genau gegriffen werden. In diesem Greif-Modus wird das Objekt gegriffen, das sich am nächsten zwischen Ihrem Dauem und Zeigefinder befindet - als ob sie das Objekt mit Ihren Fingerspitzen greifen.",
+        "Help.Controls.Interaction.Grabbing.LaserGrabbing": "Laser-Griff",
+        "Help.Controls.Interaction.Grabbing.LaserGrabbing.Content": "Mit Ihren <b><color=hero.purple>Lasern</closeall> können Sie Dinge aus der Entfernung greifen. Um ein Objekt{is_desktop, select, True { zu greifen, sehen Sie es an und } other { aus der Entfernung zu greifen, drücken Sie <b><color=hero.purple>{Primary_Input}</closeall>, um Ihre Laser anzuzeigen, dann }}halten Sie <b><color=hero.purple>{Grip_Input}</closeall> gedrückt.",
+        "Help.Controls.Interaction.Grabbing.AutoGrabbing": "Automatischer Griff",
+        "Help.Controls.Interaction.Grabbing.AutoGrabbing.Content": "Der Greif-Modus <b><color=hero.green>Automatischer Griff</closeall> wählt abhängig von Ihrer Handorientierung entweder den <b><color=hero.orange>Handflächen-Griff</closeall> oder den <b><color=hero.yellow>Präzisionsgriff</closeall> aus.",
+        "Help.Controls.Interaction.Grabbing.StickyGrab": "Haltender Griff",
+        "Help.Controls.Interaction.Grabbing.StickyGrab.Content": "Im Greif-Modus <b><color=hero.cyan>Haltender Griff</closeall> werden Dinge nach dem ersten Griff solange gehalten, bis Sie <b><color=hero.purple>{Grab_Input}</closeall> erneut drücken. In diesem Modus können Sie <b><color=hero.purple>{Grab_Input}</closeall> einfach loslassen, und die gegriffenen Dinge bleiben gegriffen.",
+
+        "Help.Controls.Interaction.ScalingObjects": "Objekte skalieren",
+        "Help.Controls.Interaction.ScalingObjects.PhysicalScaling": "Physikalisches skalieren",
+        "Help.Controls.Interaction.ScalingObjects.PhysicalScaling.Content": "Im Gegensatz zur realen Welt kann die <b><color=hero.purple>Skalierung</closeall> oder Größe von Objekten in {appName} in Echtzeit verändert werden. Um die Skalierung eines gehaltenen Objektes zu ändern, {is_desktop, select, True {halten Sie <b><color=hero.purple>Shift</closeall> gedrückt und drehen Sie Ihr <b><color=hero.purple>Scrollrad</closeall>} other {greifen Sie es zusätzlich mit Ihrer anderen Hand und bewegen Ihre Hände näher zusammen oder weiter auseinander}}.{is_desktop, select, True {} other {<br><br>Wenn sie mit Ihrem zweiten Laser auf ein Objekt zielen, dass Sie schon mit einem Laser gegriffen haben, und der Laser wird <b><color=hero.red>rot</closeall>, können Sie das Objekt skalieren.}}",
+        "Help.Controls.Interaction.ScalingObjects.ScalingMultipleObjects": "Mehrere Objekte skalieren",
+        "Help.Controls.Interaction.ScalingObjects.ScalingMultipleObjects.Content": "Sie können <b><color=hero.cyan>mehrere</closeall> Objekte genauso wie ein einzelnes Objekt skalieren - Wenn Sie im <b><color=hero.orange>Handflächen-Griff</closeall>-Modus sind, werden alle Objekte in der Nähe Ihrer Hand zusammen gegriffen.",
+        "Help.Controls.Interaction.ScalingObjects.ScalingWithLasers": "Mit Lasern skalieren",
+        "Help.Controls.Interaction.ScalingObjects.ScalingWithLasers.Content": "Sie können entfernte Objekte mit Ihren <b><color=hero.purple>Lasern</closeall> skalieren, indem Sie zuerst <b><color=hero.purple>{Grip_Input}</closeall> drücken um Ihre Laser erscheinen zu lassen, und dann das Objekt mit beiden Lasern greifen und Ihre Hände näher zusammen oder weiter auseinander bewegen.",
+
+        "Help.Controls.Interaction.Lasers": "Laser",
+        "Help.Controls.Interaction.Lasers.LaserGrabbing": "Laser-Greifen",
+        "Help.Controls.Interaction.Lasers.LaserGrabbing.Content": "Ihre <b><color=hero.purple>Laser</closeall> erlauben es Ihnen, mit der Welt aus der Entfernung zu interagieren. {is_desktop, select, True {Wenn Sie Ihren Cursor herumbewegen, wird der Laser sichtbar.} other {Sie können Ihre Laser erscheinen lassen, indem Sie <b><color=hero.purple>{Primary_Input}</closeall> drücken.}} Dann können Sie mit Objekten interagieren, z.B. Knöpfe drücken, Objekte greifen oder Werkzeuge oder Avatare ausrüsten.<br><br>Sie können Ihre{is_desktop, select, True {n Laser} other { Laser je Hand}} an und ausschalten, indem Sie Ihr <b><color=hero.cyan>Kontext-Menü</closeall> durch {is_using_vive_wands, select, True {schnelles } other {}} drücken von <b><color=hero.purple>{Context_Menu_Input}</closeall> erscheinen lassen und <b><color=hero.cyan>Laser aktiviert</closeall>/<b><color=hero.cyan>Laser deaktiviert</closeall> auswählen.",
+        "Help.Controls.Interaction.Lasers.Reeling": "Objekte einholen",
+        "Help.Controls.Interaction.Lasers.Reeling.Content": "Sie können mit dem Laser gegriffene Objekte näher zu sich und weiter weg von sich <b><color=hero.cyan>bewegen</closeall>, indem Sie {is_desktop, select, True {Ihr <b><color=hero.purple>Scrollrad</closeall>} other {<b><color=hero.purple>{Movement_Input}</closeall>}} hin und her bewegen.<br><br>Wenn Sie einen Gegenstand bis zu Ihrer Hand einholen, wird der Griff von Ihrem Laser zu Ihrer Hand gewechselt - oder falls der Gegenstand ein Werkzeug ist, wird es ausgerüstet.",
+        "Help.Controls.Interaction.Lasers.RotatingObjects": "Objekte rotieren",
+        "Help.Controls.Interaction.Lasers.RotatingObjects.Content": "Sie könen ein gehaltenes Objekt <b><color=hero.cyan>rotieren</closeall>, indem Sie {is_desktop, select, True {<b><color=hero.purple>E</closeall> gedrückt halten und Ihre Maus bewegen} other {entweder Ihr <b><color=hero.purple>{Movement_Input}</closeall> bewegen oder Ihr Handgelenk nach rechts oder links rotieren}}.",
+        "Help.Controls.Interaction.Lasers.Leveling": "Ausrichten",
+        "Help.Controls.Interaction.Lasers.Leveling.Content": "Sie können ein Objekt <b><color=hero.cyan>Ausrichten</closeall>, indem Sie <b><color=hero.purple>{Primary_Input}</closeall> drücken, während Sie es halten. Dies richtet die Seite des Objektes aufrecht aus, die am nähesten schon aufrecht steht.",
+        "Help.Controls.Interaction.Lasers.FreeformRotation": "Freie Rotation",
+        "Help.Controls.Interaction.Lasers.FreeformRotation.Content": "Während Sie ein Objekt halten, können Sie die Rotation eines Objektes fixieren, und statdessen Ihre Handbewegung benutzen, um es frei zu rotieren, indem Sie <b><color=hero.purple>{Primary_Input}</closeall> doppelklicken. Nachdem Sie das getan haben, folgt das Objekt relativ Ihrer Handbewegung.<br><br>Doppelklicken Sie <b><color=hero.purple>{Primary_Input}</closeall> erneut, kehren Sie zu normalem Laser-Griff zurück.",
+        "Help.Controls.Interaction.Lasers.TogglingLasers": "Laser ein- und ausschalten",
+        "Help.Controls.Interaction.Lasers.TogglingLasers.Content": "Stören Sie Ihre Laser bei irgendetwas? Sie können Ihre Laser {is_desktop, select, True {} other {je Hand }} ein- und ausschalten, indem Sie Ihr <color=hero.cyan><b>Kontext-Menü</closeall> durch {is_using_vive_wands, select, True {schnelles } other {}}drücken von <b><color=hero.purple>{Context_Menu_Input}</closeall> erscheinen lassen und <b><color=hero.cyan>Laser aktiviert</closeall>/<b><color=hero.cyan>deaktiviert</closeall> auswählen. Wenn Ihr{is_desktop, select, True { Laser deaktiviert ist, wird er} other {e Laser deaktiviert sind, werden sie}} nur in Ihrem Dashboard und Kontext-Menü angezeigt.",
 
         "Dummy": "Dummy"
     }
