@@ -2694,7 +2694,27 @@
         "Tutorial.Saving.Title": "Willkommen Zuhause!",
         "Tutorial.Saving.Content": "Willkommen in Ihrer <b><i><color=hero.yellow>Home</b></i></color>-Welt! Hier werden Sie jedes Mal starten, wenn Sie sich einloggen.<br><br>Diese Welt gehört Ihnen; Sie können also Änderungen, die Sie daran vornehmen, speichern.<br><br>Wenn Sie die Welt speichern, werden Sie sie beim nächsten Mal genau so vorfinden, wie Sie sie hinterlassen haben!",
 
-        
+
+        "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Namenlose Sitzung</closeall>",
+        "Tutorial.Teleporter.SessionList.UnnamedHost": "Gehostet von: <i><alpha=#77>Namenloser Host</closeall>",
+        "Tutorial.Teleporter.SessionList.HostName": "Gehostet von: <b>{hostName}</b>",
+        "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} Benutzer anwesend",
+        "Tutorial.Teleporter.SessionList.PublicSessions": "Öffentliche Sitzungen",
+        "Tutorial.Teleporter.SessionList.NoPublicSessions": "Es sind keine öffentlichen Sitzungen verfügbar! :(<br><size=66%>Sie haben jedoch noch einige Möglicheiten:</size>",
+
+        "Tutorial.Teleporter.ChooseDestination": "Wählen Sie Ihr nächstes Ziel aus",
+
+        "Tutorial.Teleporter.Destinations.CloudHome": "Gehen Sie zu Ihrem Cloud Home",
+        "Tutorial.Teleporter.Destinations.AvatarWorld": "Gehen Sie zum Avatar Gazebo",
+        "Tutorial.Teleporter.Destinations.PickAnotherSession": "Wählen sie eine andere Sitzung",
+        "Tutorial.Teleporter.Destinations.PickPublicSession": "Besuchen Sie eine öffentliche Sitzung",
+
+        "Tutorial.Teleporter.WorldsTabHint": "Sie können auch im Welt-Browser in Ihrem Dashboard weitere Welten finden, die Sie besuchen können!",
+
+        "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>Sitzungsbeitritt fehlgeschlagen! :(</color><br><size=66%>Sie haben jedoch noch einige Möglicheiten:</size>",
+
+        "Tutorial.Teleporter.Transporting": "Transport...",
+
 
         "CloudHome.Info.OnlineUsers": "Benutzer online: {online_users}<br>Benutzer beitretbar: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderation",
@@ -3130,6 +3150,11 @@
         "Universe.Units.EarthRadius": "Erdradius",
         "Universe.Units.LunarDistance": "Mondabstand",
 
+        "CloudHome.UpdateNotice.Header": "Update-Hinweis",
+        "CloudHome.UpdateNotice.Content": "<align=center>Eine neuere Version des Cloud Homes ist verfügbar!<br><br>Ihre Version ist seit <closeallblock><b><color=hero.cyan>{version_mismatch_days,plural, one {# Tag} other {# Tagen}}</color></b> veraltet.</align><br><br>Klicken Sie den Link unten, um die neue Version zu besuchen. Während Sie dort sind, können Sie die Welt speichern, falls Sie sie nutzen wollen.<br><br>Wenn Sie sehen möchten, was es Neues gibt, schauen Sie in den <b><color=hero.purple>#devlog</color></b> Kanal in unserem Discord!",
+        "CloudHome.UpdateNotice.DiscordLinkName": "{appName} Discord",
+        "CloudHome.UpdateNotice.CloudHomeLinkName": "Besuchen Sie das neue Cloud Home",
+
         "Help.Help": "Hilfe",
         "Help.ComingSoon": "Kommt bald!",
         "Help.ExampleText": "Beispieltext!",
@@ -3289,16 +3314,6 @@
         "Help.Controls.Interaction.Lasers.FreeformRotation.Content": "Während Sie ein Objekt halten, können Sie die Rotation eines Objektes fixieren, und statdessen Ihre Handbewegung benutzen, um es frei zu rotieren, indem Sie <b><color=hero.purple>{Primary_Input}</closeall> doppelklicken. Nachdem Sie das getan haben, folgt das Objekt relativ Ihrer Handbewegung.<br><br>Doppelklicken Sie <b><color=hero.purple>{Primary_Input}</closeall> erneut, kehren Sie zu normalem Laser-Griff zurück.",
         "Help.Controls.Interaction.Lasers.TogglingLasers": "Laser ein- und ausschalten",
         "Help.Controls.Interaction.Lasers.TogglingLasers.Content": "Stören Sie Ihre Laser bei irgendetwas? Sie können Ihre Laser {is_desktop, select, True {} other {je Hand }} ein- und ausschalten, indem Sie Ihr <color=hero.cyan><b>Kontext-Menü</closeall> durch {is_using_vive_wands, select, True {schnelles } other {}}drücken von <b><color=hero.purple>{Context_Menu_Input}</closeall> erscheinen lassen und <b><color=hero.cyan>Laser aktiviert</closeall>/<b><color=hero.cyan>deaktiviert</closeall> auswählen. Wenn Ihr{is_desktop, select, True { Laser deaktiviert ist, wird er} other {e Laser deaktiviert sind, werden sie}} nur in Ihrem Dashboard und Kontext-Menü angezeigt.",
-
-        "Help.Controls.Interaction.Equipping": "Ausrüsten",
-        "Help.Controls.Interaction.Equipping.Content": "Wenn Sie sich mit einen Gegenstand <b><color=hero.purple>Ausrüsten</closeall>, halten Sie ihn danach in Ihrer Hand und Sie können mit ihm Aktionen ausführen. Um sich mit einem Objekt oder Werkzeug auszurüsten, zielen Sie mit Ihrem Laser darauf, drücken <b><color=hero.purple>{Primary_Input}</closeall> und wählen <b><color=hero.cyan>Ausrüsten</closeall> aus. {is_desktop, select, True {} other {Wenn Sie Ihre Laser nicht sehen können, drücken Sie zuerst <b><color=hero.purple>{Primary_Input}</closeall>, um sie anzuzeigen, dann versuchen Sie es erneut.}}",
-        "Help.Controls.Interaction.Equipping.Content2": "Sie können zum Ausrüsten auch den Gegenstand mit <b><color=hero.purple>{Grip_Input}</closeall> greifen, dann Ihr <b><color=hero.cyan>Kontext-Menü</closeall> durch {is_using_vive_wands, select, True {schnelles } other {}} drücken von <b><color=hero.purple>{Context_Menu_Input}</closeall> öffnen und dann <b><color=hero.cyan>Ausrüsten</closeall> auswählen.",
-        "Help.Controls.Interaction.DuplicatingAndDeleting": "Vervielfältigen und Löschen",
-        "Help.Controls.Interaction.DuplicatingAndDeleting.Content": "Gegenstände können je nach Bedarf einfach dupliziert oder gelöscht werden. Wenn Sie etwas <color=hero.green><b>duplizieren</closeall> oder <color=hero.red><b>löschen</closeall> wollen, greifen Sie es mit <b><color=hero.purple>{Grip_Input}</closeall>, öffnen dann Ihr <b><color=hero.cyan>Kontext-Menü</closeall> und wählen die entsprechende Aktion aus.",
-        "Help.Controls.Interaction.UndoAndRedo": "Rückgängig machen und Wiederherstellen",
-        "Help.Controls.Interaction.UndoAndRedo.Content": "Sie können einige Aktionen <color=hero.red><b>rückgängig</closeall> machen oder sie <color=hero.cyan><b>wiederherstellen</closeall>, indem Sie Ihr <b><color=hero.cyan>Kontext-Menü</closeall> durch {is_using_vive_wands, select, True {schnelles} other {}} drücken von <b><color=hero.purple>{Menu_Input}</closeall> öffnen, und dann die entsprechende Aktion auswählen. Außerdem können Sie <b><color=hero.purple>Strg + Z</closeall> für <color=hero.red><b>Rückgängig machen</closeall> und <b><color=hero.purple>Strg + Y</closeall> für <color=hero.cyan><b>Wiederherstellen</closeall> drücken.",
-        "Help.Controls.Interaction.Anchors": "Anker",
-        "Help.Controls.Interaction.Anchors.Content": "<b><color=hero.purple>Anker</closeall> sind Objekte, an denen Sie sich festmachen können, beispielsweise Möbelstücke oder ein Sitzplatz in einem Fahrzeug. Wenn sich ein Anker bewegt, an dem Sie festgemacht haben, werden Sie zusammen mit dem Anker bewegt. Einige Anker bieten auch Optionen zur Pose des Avatars an, damit Sie Ihre Körperhaltung anpassen können. Um an einem Anker festzumachen, zielen Sie mit Ihrem Laser darauf und drücken <b><color=hero.purple>{Primary_Input}</closeall>, um sein Menü zu öffnen. Dann wählen Sie <b><color=hero.purple>Anker betreten</closeall> aus. Um einen Anker zu verlassen, {is_using_vive_wands, select, True {} other {,}} drücken Sie {is_desktop, select, True {} other { Ihren}} <b><color=hero.purple>{Secondary_Input}</closeall>{is_using_vive_wands, select, True {} other { oder bewegen Sie <b><color=hero.purple>{Movement_Input}</closeall>}}, allerdings kann dieses Verhalten je nach Anker verschieden sein.",
 
         "Dummy": "Dummy"
     }
