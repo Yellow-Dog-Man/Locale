@@ -2800,8 +2800,11 @@
         "CloudHome.Panel.Quality": "Qualität",
         "CloudHome.Panel.Doors": "Türen",
         "CloudHome.Panel.Audio": "Audio",
+        "CloudHome.Panel.RealtimeReflections": "Echtzeit-Reflektionen",
         "CloudHome.Panel.OverheadLighting": "Deckenleuchten",
         "CloudHome.Panel.Sconces": "Wandleuchten",
+        "CloudHome.Panel.SpotLights": "Spotlights",
+        "CloudHome.Panel.TableLights": "Tischleuchten",
         "CloudHome.Panel.FurnitureVisibility": "Möbel Sichtbarkeit",
 
         "CloudHome.Panel.LowQualityMode": "Geringe Qualität Modus",
@@ -2855,6 +2858,13 @@
         "Tutorial.Panel.TeleportLocomotion.Title": "Teleport Fortbewegung",
         "Tutorial.Panel.TeleportLocomotion.Content": "Teleport bewegt Sie direkt zur Position des Teleportations-<br>Indikators.",
 
+        "Tutorial.DashboardInfo.Header": "Ihr Dashboard",
+        "Tutorial.DashboardInfo.Content": "Das <b><color=hero.cyan>Dashboard</closeall> ist Ihr Hauptmenü - mit ihm können Sie Nachrichten schreiben, neue Welten zum Erkunden finden und vieles mehr!<br><br>Wenn Sie weitere Hilfe benötigen, sehen Sie im <b><color=hero.purple>Hilfe</closeall> Tab nach.",
+        "Tutorial.DashboardInfo.GotIt": "Verstanden!",
+
+        "Tutorial.MentorPanel.Title": "Brauchen Sie Hilfe?",
+        "Tutorial.MentorPanel.Content": "Suchen Sie Nutzer mit diesem Abzeichen über ihrem Kopf und bitten sie um Hilfe - sie sind für <i>Sie</i> da!",
+
         "Hints.Spawn.InitialMovementDesktop": "Benutzen Sie die Bewegungs-Tasten, um herumzulaufen!",
         "Hints.Spawn.InitialMovementVR": "Benutzen Sie Ihren Joystick, um herumzulaufen!",
         "Hints.Spawn.InitialMovementVRNoButtons": "Benutzen Sie Ihr Trackpad, um herumzulaufen!",
@@ -2898,8 +2908,14 @@
         "Hints.Sundial.Dequip": "Lösen Sie das ausgerüstete Tool von Ihrer Hand, indem Sie \"Ablegen\" in Ihrem Kontext-Menü auswählen.",
         "Hints.Sundial.DequipExtra": "Die Optionen in Ihrem Kontext-Menü haben sich verändert, weil Sie ein Tool halten.",
 
-        
-        
+        "Hints.Sundial.Doorway": "Bitte treten Sie ein, um fortzufahren!",
+
+        "Hints.DashboardDesktop": "Öffnen und schliessen Sie Ihr Dashboard durch drücken von Escape!",
+        "Hints.DashboardVR": "Öffnen und schliessen Sie Ihr Dashboard durch drücken Ihres Menü-Knopfes",
+        "Hints.DashboardExtra": "Weiter untern finden Sie mehr Info zum Dashboard.",
+
+        "Hints.Teleporter": "Steigen Sie in den Teleporter und wählen Sie aus, wohin Sie als nächstes gehen wollen!",
+        "Hints.TeleporterExtra": "Wo auch immer Sie hingehen, genießen Sie Ihren Aufenthalt in {appName}!",
 
         "UI.TextDisplay.Landscape": "Landscape",
         "UI.TextDisplay.Portrait": "Portrait",
@@ -3324,6 +3340,7 @@
         "Help.Controls.Interaction.UndoAndRedo.Content": "Sie können einige Aktionen <color=hero.red><b>rückgängig</closeall> machen oder sie <color=hero.cyan><b>wiederherstellen</closeall>, indem Sie Ihr <b><color=hero.cyan>Kontext-Menü</closeall> durch {is_using_vive_wands, select, True {schnelles} other {}} drücken von <b><color=hero.purple>{Menu_Input}</closeall> öffnen, und dann die entsprechende Aktion auswählen. Außerdem können Sie <b><color=hero.purple>Strg + Z</closeall> für <color=hero.red><b>Rückgängig machen</closeall> und <b><color=hero.purple>Strg + Y</closeall> für <color=hero.cyan><b>Wiederherstellen</closeall> drücken.",
         "Help.Controls.Interaction.Anchors": "Anker",
         "Help.Controls.Interaction.Anchors.Content": "<b><color=hero.purple>Anker</closeall> sind Objekte, an denen Sie sich festmachen können, beispielsweise Möbelstücke oder ein Sitzplatz in einem Fahrzeug. Wenn sich ein Anker bewegt, an dem Sie festgemacht haben, werden Sie zusammen mit dem Anker bewegt. Einige Anker bieten auch Optionen zur Pose des Avatars an, damit Sie Ihre Körperhaltung anpassen können. Um an einem Anker festzumachen, zielen Sie mit Ihrem Laser darauf und drücken <b><color=hero.purple>{Primary_Input}</closeall>, um sein Menü zu öffnen. Dann wählen Sie <b><color=hero.purple>Anker betreten</closeall> aus. Um einen Anker zu verlassen, {is_using_vive_wands, select, True {} other {,}} drücken Sie {is_desktop, select, True {} other { Ihren}} <b><color=hero.purple>{Secondary_Input}</closeall>{is_using_vive_wands, select, True {} other { oder bewegen Sie <b><color=hero.purple>{Movement_Input}</closeall>}}, allerdings kann dieses Verhalten je nach Anker verschieden sein.",
+
         "Dummy": "Dummy"
     }
 }
