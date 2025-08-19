@@ -921,11 +921,15 @@ Tutorial.Teleporter.Destinations.PickPublicSession
 Tutorial.Teleporter.WorldsTabHint  
 Tutorial.Teleporter.FailedToJoin  
 Tutorial.Teleporter.Transporting  
+CloudHome.Panel.RealtimeReflections  
+CloudHome.Panel.SpotLights  
+CloudHome.Panel.TableLights  
 Tutorial.DashboardInfo.Header  
 Tutorial.DashboardInfo.Content  
 Tutorial.DashboardInfo.GotIt  
 Tutorial.MentorPanel.Title  
 Tutorial.MentorPanel.Content  
+Hints.Sundial.Doorway  
 Hints.DashboardDesktop  
 Hints.DashboardVR  
 Hints.DashboardExtra  

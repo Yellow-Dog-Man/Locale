@@ -1542,8 +1542,11 @@ CloudHome.Panel.Furniture
 CloudHome.Panel.Quality  
 CloudHome.Panel.Doors  
 CloudHome.Panel.Audio  
+CloudHome.Panel.RealtimeReflections  
 CloudHome.Panel.OverheadLighting  
 CloudHome.Panel.Sconces  
+CloudHome.Panel.SpotLights  
+CloudHome.Panel.TableLights  
 CloudHome.Panel.FurnitureVisibility  
 CloudHome.Panel.LowQualityMode  
 CloudHome.Panel.DoorSounds  
@@ -1619,6 +1622,7 @@ Hints.Sundial.TheSun
 Hints.Sundial.TheSunExtra  
 Hints.Sundial.Dequip  
 Hints.Sundial.DequipExtra  
+Hints.Sundial.Doorway  
 Hints.DashboardDesktop  
 Hints.DashboardVR  
 Hints.DashboardExtra  

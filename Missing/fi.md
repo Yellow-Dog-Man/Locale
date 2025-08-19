@@ -333,6 +333,9 @@ StickyNote.RelevantLinks
 StickyNote.Bow  
 StickyNote.Crossbow  
 StickyNote.EquipMeVR  
+CloudHome.Panel.RealtimeReflections  
+CloudHome.Panel.SpotLights  
+CloudHome.Panel.TableLights  
 Tutorial.DashboardInfo.Header  
 Tutorial.DashboardInfo.Content  
 Tutorial.DashboardInfo.GotIt  
@@ -342,6 +345,7 @@ Hints.Grabbing.GrabbingDesktop
 Hints.Grabbing.GrabbingVR  
 Hints.Grabbing.Rotating  
 Hints.Grabbing.RotatingExtra  
+Hints.Sundial.Doorway  
 Hints.DashboardDesktop  
 Hints.DashboardVR  
 Hints.DashboardExtra  
