@@ -1365,7 +1365,7 @@
         "Settings.HostAccessSettings": "Host Zugriff",
         "Settings.UserRestrictionsSettings": "Benutzerbeschränkungen",
 
-        "Settings.OperatingSystemSettings": "Windows Einstellungen",
+        "Settings.OperatingSystemSettings": "Betriebssystemeinstellungen",
         "Settings.DebugSettings": "Debug",
         "Settings.LegacyFeatureSettings": "Alte Funktionen",
         "Settings.TwitchInterfaceSettings": "Twitch Streaming Interface",
@@ -3307,7 +3307,7 @@
         "Help.Controls.Interaction.Grabbing.AutoGrabbing": "Automatischer Griff",
         "Help.Controls.Interaction.Grabbing.AutoGrabbing.Content": "Der Greif-Modus <b><color=hero.green>Automatischer Griff</closeall> wählt abhängig von Ihrer Handorientierung entweder den <b><color=hero.orange>Handflächen-Griff</closeall> oder den <b><color=hero.yellow>Präzisionsgriff</closeall> aus.",
         "Help.Controls.Interaction.Grabbing.StickyGrab": "Haltender Griff",
-        "Help.Controls.Interaction.Grabbing.StickyGrab.Content": "Im Greif-Modus <b><color=hero.cyan>Haltender Griff</closeall> werden Dinge nach dem ersten Griff solange gehalten, bis Sie <b><color=hero.purple>{Grab_Input}</closeall> erneut drücken. In diesem Modus können Sie <b><color=hero.purple>{Grab_Input}</closeall> einfach loslassen, und die gegriffenen Dinge bleiben gegriffen.",
+        "Help.Controls.Interaction.Grabbing.StickyGrab.Content": "Im Greif-Modus <b><color=hero.cyan>Haltender Griff</closeall> werden Dinge nach dem ersten Griff solange gehalten, bis Sie <b><color=hero.purple>{Grip_Input}</closeall> erneut drücken. In diesem Modus können Sie <b><color=hero.purple>{Grip_Input}</closeall> einfach loslassen, und die gegriffenen Dinge bleiben gegriffen.",
 
         "Help.Controls.Interaction.ScalingObjects": "Objekte skalieren",
         "Help.Controls.Interaction.ScalingObjects.PhysicalScaling": "Physikalisches skalieren",
@@ -3337,7 +3337,7 @@
         "Help.Controls.Interaction.DuplicatingAndDeleting": "Vervielfältigen und Löschen",
         "Help.Controls.Interaction.DuplicatingAndDeleting.Content": "Gegenstände können je nach Bedarf einfach dupliziert oder gelöscht werden. Wenn Sie etwas <color=hero.green><b>duplizieren</closeall> oder <color=hero.red><b>löschen</closeall> wollen, greifen Sie es mit <b><color=hero.purple>{Grip_Input}</closeall>, öffnen dann Ihr <b><color=hero.cyan>Kontext-Menü</closeall> und wählen die entsprechende Aktion aus.",
         "Help.Controls.Interaction.UndoAndRedo": "Rückgängig machen und Wiederherstellen",
-        "Help.Controls.Interaction.UndoAndRedo.Content": "Sie können einige Aktionen <color=hero.red><b>rückgängig</closeall> machen oder sie <color=hero.cyan><b>wiederherstellen</closeall>, indem Sie Ihr <b><color=hero.cyan>Kontext-Menü</closeall> durch {is_using_vive_wands, select, True {schnelles} other {}} drücken von <b><color=hero.purple>{Menu_Input}</closeall> öffnen, und dann die entsprechende Aktion auswählen. Außerdem können Sie <b><color=hero.purple>Strg + Z</closeall> für <color=hero.red><b>Rückgängig machen</closeall> und <b><color=hero.purple>Strg + Y</closeall> für <color=hero.cyan><b>Wiederherstellen</closeall> drücken.",
+        "Help.Controls.Interaction.UndoAndRedo.Content": "Sie können einige Aktionen <color=hero.red><b>rückgängig</closeall> machen oder sie <color=hero.cyan><b>wiederherstellen</closeall>, indem Sie Ihr <b><color=hero.cyan>Kontext-Menü</closeall> durch {is_using_vive_wands, select, True {schnelles} other {}} drücken von <b><color=hero.purple>{Context_Menu_Input}</closeall> öffnen, und dann die entsprechende Aktion auswählen. Außerdem können Sie <b><color=hero.purple>Strg + Z</closeall> für <color=hero.red><b>Rückgängig machen</closeall> und <b><color=hero.purple>Strg + Y</closeall> für <color=hero.cyan><b>Wiederherstellen</closeall> drücken.",
         "Help.Controls.Interaction.Anchors": "Anker",
         "Help.Controls.Interaction.Anchors.Content": "<b><color=hero.purple>Anker</closeall> sind Objekte, an denen Sie sich festmachen können, beispielsweise Möbelstücke oder ein Sitzplatz in einem Fahrzeug. Wenn sich ein Anker bewegt, an dem Sie festgemacht haben, werden Sie zusammen mit dem Anker bewegt. Einige Anker bieten auch Optionen zur Pose des Avatars an, damit Sie Ihre Körperhaltung anpassen können. Um an einem Anker festzumachen, zielen Sie mit Ihrem Laser darauf und drücken <b><color=hero.purple>{Primary_Input}</closeall>, um sein Menü zu öffnen. Dann wählen Sie <b><color=hero.purple>Anker betreten</closeall> aus. Um einen Anker zu verlassen, {is_using_vive_wands, select, True {} other {,}} drücken Sie {is_desktop, select, True {} other { Ihren}} <b><color=hero.purple>{Secondary_Input}</closeall>{is_using_vive_wands, select, True {} other { oder bewegen Sie <b><color=hero.purple>{Movement_Input}</closeall>}}, allerdings kann dieses Verhalten je nach Anker verschieden sein.",
 
