@@ -2706,7 +2706,7 @@
 
         "Tutorial.Teleporter.Destinations.CloudHome": "Gehen Sie zu Ihrem Cloud Home",
         "Tutorial.Teleporter.Destinations.AvatarWorld": "Gehen Sie zum Avatar Gazebo",
-        "Tutorial.Teleporter.Destinations.PickAnotherSession": "Wählen sie eine andere Sitzung",
+        "Tutorial.Teleporter.Destinations.PickAnotherSession": "Wählen Sie eine andere Sitzung",
         "Tutorial.Teleporter.Destinations.PickPublicSession": "Besuchen Sie eine öffentliche Sitzung",
 
         "Tutorial.Teleporter.WorldsTabHint": "Sie können auch im Welt-Browser in Ihrem Dashboard weitere Welten finden, die Sie besuchen können!",
@@ -3315,6 +3315,15 @@
         "Help.Controls.Interaction.Lasers.TogglingLasers": "Laser ein- und ausschalten",
         "Help.Controls.Interaction.Lasers.TogglingLasers.Content": "Stören Sie Ihre Laser bei irgendetwas? Sie können Ihre Laser {is_desktop, select, True {} other {je Hand }} ein- und ausschalten, indem Sie Ihr <color=hero.cyan><b>Kontext-Menü</closeall> durch {is_using_vive_wands, select, True {schnelles } other {}}drücken von <b><color=hero.purple>{Context_Menu_Input}</closeall> erscheinen lassen und <b><color=hero.cyan>Laser aktiviert</closeall>/<b><color=hero.cyan>deaktiviert</closeall> auswählen. Wenn Ihr{is_desktop, select, True { Laser deaktiviert ist, wird er} other {e Laser deaktiviert sind, werden sie}} nur in Ihrem Dashboard und Kontext-Menü angezeigt.",
 
+        "Help.Controls.Interaction.Equipping": "Ausrüsten",
+        "Help.Controls.Interaction.Equipping.Content": "Wenn Sie sich mit einen Gegenstand <b><color=hero.purple>Ausrüsten</closeall>, halten Sie ihn danach in Ihrer Hand und Sie können mit ihm Aktionen ausführen. Um sich mit einem Objekt oder Werkzeug auszurüsten, zielen Sie mit Ihrem Laser darauf, drücken <b><color=hero.purple>{Primary_Input}</closeall> und wählen <b><color=hero.cyan>Ausrüsten</closeall> aus. {is_desktop, select, True {} other {Wenn Sie Ihre Laser nicht sehen können, drücken Sie zuerst <b><color=hero.purple>{Primary_Input}</closeall>, um sie anzuzeigen, dann versuchen Sie es erneut.}}",
+        "Help.Controls.Interaction.Equipping.Content2": "Sie können zum Ausrüsten auch den Gegenstand mit <b><color=hero.purple>{Grip_Input}</closeall> greifen, dann Ihr <b><color=hero.cyan>Kontext-Menü</closeall> durch {is_using_vive_wands, select, True {schnelles } other {}} drücken von <b><color=hero.purple>{Context_Menu_Input}</closeall> öffnen und dann <b><color=hero.cyan>Ausrüsten</closeall> auswählen.",
+        "Help.Controls.Interaction.DuplicatingAndDeleting": "Vervielfältigen und Löschen",
+        "Help.Controls.Interaction.DuplicatingAndDeleting.Content": "Gegenstände können je nach Bedarf einfach dupliziert oder gelöscht werden. Wenn Sie etwas <color=hero.green><b>duplizieren</closeall> oder <color=hero.red><b>löschen</closeall> wollen, greifen Sie es mit <b><color=hero.purple>{Grip_Input}</closeall>, öffnen dann Ihr <b><color=hero.cyan>Kontext-Menü</closeall> und wählen die entsprechende Aktion aus.",
+        "Help.Controls.Interaction.UndoAndRedo": "Rückgängig machen und Wiederherstellen",
+        "Help.Controls.Interaction.UndoAndRedo.Content": "Sie können einige Aktionen <color=hero.red><b>rückgängig</closeall> machen oder sie <color=hero.cyan><b>wiederherstellen</closeall>, indem Sie Ihr <b><color=hero.cyan>Kontext-Menü</closeall> durch {is_using_vive_wands, select, True {schnelles} other {}} drücken von <b><color=hero.purple>{Menu_Input}</closeall> öffnen, und dann die entsprechende Aktion auswählen. Außerdem können Sie <b><color=hero.purple>Strg + Z</closeall> für <color=hero.red><b>Rückgängig machen</closeall> und <b><color=hero.purple>Strg + Y</closeall> für <color=hero.cyan><b>Wiederherstellen</closeall> drücken.",
+        "Help.Controls.Interaction.Anchors": "Anker",
+        "Help.Controls.Interaction.Anchors.Content": "<b><color=hero.purple>Anker</closeall> sind Objekte, an denen Sie sich festmachen können, beispielsweise Möbelstücke oder ein Sitzplatz in einem Fahrzeug. Wenn sich ein Anker bewegt, an dem Sie festgemacht haben, werden Sie zusammen mit dem Anker bewegt. Einige Anker bieten auch Optionen zur Pose des Avatars an, damit Sie Ihre Körperhaltung anpassen können. Um an einem Anker festzumachen, zielen Sie mit Ihrem Laser darauf und drücken <b><color=hero.purple>{Primary_Input}</closeall>, um sein Menü zu öffnen. Dann wählen Sie <b><color=hero.purple>Anker betreten</closeall> aus. Um einen Anker zu verlassen, {is_using_vive_wands, select, True {} other {,}} drücken Sie {is_desktop, select, True {} other { Ihren}} <b><color=hero.purple>{Secondary_Input}</closeall>{is_using_vive_wands, select, True {} other { oder bewegen Sie <b><color=hero.purple>{Movement_Input}</closeall>}}, allerdings kann dieses Verhalten je nach Anker verschieden sein.",
         "Dummy": "Dummy"
     }
 }
