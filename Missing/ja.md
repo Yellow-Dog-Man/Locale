@@ -36,7 +36,4 @@ CloudHome.UpdateNotice.WikiLinkName
 CloudHome.UpdateNotice.DiscordLinkName  
 CloudHome.UpdateNotice.CloudHomeLinkName  
 Help.About.Badges.Yearly.2017.Content  
-Help.About.Badges.Yearly.2021.Content  
-Help.About.Badges.Yearly.2022.Content  
-Help.About.Badges.Yearly.2023.Content  
 

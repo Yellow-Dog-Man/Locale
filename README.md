@@ -3,7 +3,7 @@ This repository contains the locale assets for the core UI of [Resonite](https:/
 
 ## Localization Status
 Czech [cs] - 48.5% - Missing keys: 1678  
-German [de] - 88.5% - Missing keys: 376  
+German [de] - 88.5% - Missing keys: 375  
 English (United Kingdom) [en-gb] - 1.9% - Missing keys: 3197  
 English [en] - 100.0% - Missing keys: 0  
 Esperanto [eo] - 49.6% - Missing keys: 1644  
@@ -13,7 +13,7 @@ Finnish [fi] - 71.2% - Missing keys: 938
 French [fr] - 100.0% - Missing keys: 1  
 Hungarian [hu] - 20.3% - Missing keys: 2599  
 Icelandic [is] - 19.0% - Missing keys: 2640  
-Japanese [ja] - 98.9% - Missing keys: 37  
+Japanese [ja] - 99.0% - Missing keys: 34  
 Korean [ko] - 81.4% - Missing keys: 606  
 Mongolian [mn] - 81.0% - Missing keys: 619  
 Dutch [nl] - 71.3% - Missing keys: 935  
@@ -26,7 +26,7 @@ Thai [th] - 2.1% - Missing keys: 3191
 Turkish [tr] - 24.9% - Missing keys: 2447  
 Ukrainian [uk] - 40.2% - Missing keys: 1948  
 Chinese (Simplified, Mainland China) [zh-cn] - 100.0% - Missing keys: 1  
-Chinese (Traditional, Taiwan) [zh-tw] - 78.7% - Missing keys: 696  
+Chinese (Traditional, Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
 
 Total keys: 3260
 
