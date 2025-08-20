@@ -465,10 +465,10 @@
         "Register.InvalidEmail": "Некорректная электронная почта",
         "Register.InvalidEmail.Description": "Адрес вашей электронной почты некорректен.",
 
-        "Register.MissingUsername": "Отсутвует имя пользователя",
+        "Register.MissingUsername": "Отсутствует имя пользователя",
         "Register.MissingUsername.Description": "Вы точно указали имя пользователя?",
 
-        "Register.MissingEmail": "Отсутвует электронная почта",
+        "Register.MissingEmail": "Отсутствует электронная почта",
         "Register.MissingEmail.Description": "Вы точно указали адрес электронной почты?",
 
         "Register.UsernameTooLong": "Имя пользователя слишком длинное",
@@ -504,7 +504,7 @@
         "Register.ErrorCheckingUserId": "Ошибка проверки UserID",
         "Register.ErrorCheckingUserId.Description": "Пожалуйста, свяжитесь с поддержкой по адресу: {supportUrl}.",
 
-        "Recovery.MissingEmail": "Отсутвует Email",
+        "Recovery.MissingEmail": "Отсутствует Email",
         "Recovery.MissingEmail.Description": "Вы указали ваш email?",
 
         "Recovery.IncorrectEmail": "Некорректный Email",
@@ -519,7 +519,7 @@
         "Account.Login": "Войти",
         "Account.Logout": "Выйти",
         "Account.Register": "Регистрация аккаунта",
-        "Account.Saml2": "Login with SAML 2.0",
+        "Account.Saml2": "Войти через SAML 2.0",
         "Account.LoginOrRegister": "Вход / Регистрация",
         "Account.LogoutConfirm": "Точно выйти?",
         "Account.LoggingIn": "Вход в аккаунт...",
@@ -871,7 +871,7 @@
         "CreateNew.Object": "Объект",
         "CreateNew.Object.AvatarCreator": "Создатель аватаров",
         "CreateNew.Object.Camera": "Камера",
-        "CreateNew.Object.ReflectionProbe": "Reflection Probe",
+        "CreateNew.Object.ReflectionProbe": "Зонд отражения",
         "CreateNew.Object.Mirror": "Зеркало",
         "CreateNew.Object.Portal": "Портал",
         "CreateNew.Object.VideoPlayer": "Видео-плеер",
@@ -896,7 +896,7 @@
         "CreateNew.Editor.TextRendererWizard": "Мастер текстовых объектов",
         "CreateNew.Editor.AssetOptimizationWizard": "Мастер оптимизации ассетов",
         "CreateNew.Editor.CubemapCreator": "Мастер создания Cubemap",
-        "CreateNew.Editor.ReflectionProbes": "Мастер Reflection Probes",
+        "CreateNew.Editor.ReflectionProbes": "Мастер зондов отражений",
 
         "CreateNew.3DModel": "3D Модель",
         "CreateNew.3DModel.Triangle": "Треугольник",
@@ -1300,7 +1300,7 @@
         "Settings.HostAccessSettings": "Доступ к хостам",
         "Settings.UserRestrictionsSettings": "Ограничения пользователей",
 
-        "Settings.WindowsSettings": "Настройки окон",
+        "Settings.OperatingSystemSettings": "Настройки окон",
         "Settings.DebugSettings": "Отладка",
         "Settings.LegacyFeatureSettings": "Устаревшие настройки",
         "Settings.TwitchInterfaceSettings": "Настройки стриминга Twitch",
@@ -1664,8 +1664,8 @@
 
         "Settings.UserRestrictionsSettings.DebugReset": "Сбросить ограничения пользователей",
 
-        "Settings.WindowsSettings.KeepOriginalScreenshotFormat": "Сохранять оригинальный формат скриншотов",
-        "Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description": "Включите чтобы отключить конвертацию скриншотов в формат JPG или PNG при созранении их в папку Документы в Windows. Это может усложнить их использование, так как не все приложения поддерживают формат WEBP.",
+        "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat": "Сохранять оригинальный формат скриншотов",
+        "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat.Description": "Включите чтобы отключить конвертацию скриншотов в формат JPG или PNG при созранении их в папку Документы в Windows. Это может усложнить их использование, так как не все приложения поддерживают формат WEBP.",
 
         "Settings.DebugSettings.DebugInputBindings": "Отладка привязок ввода",
         "Settings.DebugSettings.DebugInputBindings.Description": "Когда включено, будет показана информация для системы привязок ввода. В осномном это полезно для разработчиков.",
@@ -2313,7 +2313,7 @@
         "Wizard.CubemapCreator.NegZ": "Отрицательный Z (задняя)",
         "Wizard.CubemapCreator.TopBottomRotation": "Поворот верхней/нижней граней:",
 
-        "Wizard.ReflectionProbes.Title": "Мастер Reflection Probes",
+        "Wizard.ReflectionProbes.Title": "Мастер зондов отражений",
         "Wizard.ReflectionProbes.ProcessRoot": "Корень обработки:",
         "Wizard.ReflectionProbes.ProcessDisabled": "Обрабатывать выключенные",
         "Wizard.ReflectionProbes.WithTag": "С тэгом:",
@@ -2545,7 +2545,7 @@
         "Tutorial.Saving.Title": "Добро пожаловать домой!",
         "Tutorial.Saving.Content": "Добро пожаловать в ваш <b><i><color=hero.yellow>дом</b></i></color>! Вы окажетесь в этом месте при каждом входе.<br>Этот мир полностью ваш, поэтому вы можете сохранить любые сделанные вами изменения.<br>При сохранении мира всё останется на своих местах в ваш следующий визит!",
 
-        "Tutorial.Teleporter.Error": "Ошибка при загрузке вашего облачного дома!<br><size=66%>Выйдите из телепортера и войдите обратно чтобы попробовать еще раз.</size>",
+        
 
         "CloudHome.Info.OnlineUsers": "Онлайн: {online_users} {online_users,plural, one {пользователь} few {пользователя} other {пользователей}}<br>Можно подключиться к: {joinable_users} {joinable_users,plural, one {пользователю} other {пользователям}}",
         "CloudHome.Info.Moderation": "Модерация",
@@ -2729,8 +2729,8 @@
         "Hints.Sundial.Dequip": "Бросьте экипированный инструмент, выбрав пункт Отпустить в вашем контекстном меню.",
         "Hints.Sundial.DequipExtra": "Заметьте что опции в Контекстном Меню поменялись, потому что вы экипировали инструмент.",
 
-        "Hints.Sundial.Teleporter": "Нажмите эту кнопку чтобы активировать телепорт в ваш Облачный Дом!",
-        "Hints.Sundial.TeleporterExtra": "Наслаждайтесь своим домом и спасибо что забежали к нам!",
+        
+        
 
         "UI.TextDisplay.Landscape": "Ландшафтный",
         "UI.TextDisplay.Portrait": "Портретный",

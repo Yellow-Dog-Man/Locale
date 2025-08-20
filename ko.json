@@ -1363,7 +1363,7 @@
         "Settings.HostAccessSettings": "호스트 접근",
         "Settings.UserRestrictionsSettings": "사용자 제한 조치",
 
-        "Settings.WindowsSettings": "윈도우즈 설정",
+        "Settings.OperatingSystemSettings": "윈도우즈 설정",
         "Settings.DebugSettings": "디버그",
         "Settings.LegacyFeatureSettings": "과거 기능들",
         "Settings.TwitchInterfaceSettings": "트위치 방송 설정",
@@ -1743,8 +1743,8 @@
 
         "Settings.UserRestrictionsSettings.DebugReset": "사용자 제한조치 초기화",
 
-        "Settings.WindowsSettings.KeepOriginalScreenshotFormat": "원본 스크린샷 형식 유지",
-        "Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description": "캡쳐한 스크린샷을 윈도우즈의 문서 폴더에 저장할때 JPG 또는 PNG로 변환하지 않도록 하는 설정입니다. 원본 형식은 일부 프로그램에서 지원되지 않을 수 있습니다.",
+        "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat": "원본 스크린샷 형식 유지",
+        "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat.Description": "캡쳐한 스크린샷을 윈도우즈의 문서 폴더에 저장할때 JPG 또는 PNG로 변환하지 않도록 하는 설정입니다. 원본 형식은 일부 프로그램에서 지원되지 않을 수 있습니다.",
 
         "Settings.DebugSettings.DebugInputBindings": "입력 바인딩 디버그",
         "Settings.DebugSettings.DebugInputBindings.Description": "활성화 시, 입력 바인딩 시스템에 대한 디버깅 정보가 표시됩니다. 이는 개발자에게 도움이 됩니다.",
@@ -1865,7 +1865,9 @@
         
         "Settings.CursorSettings.SliderMultiplier": "슬라이더 배율",
         "Settings.CursorSettings.SliderMultiplier.Description": "UIX 슬라이드바 같은 대상을 가리킬때의 커서를 <color=hero.yellow>기본 커서 크기</color>를 기준으로 계산하여 표현합니다.",
-
+       
+        "Settings.CursorSettings.DirectCursorEnabled": "직접 커서 활성화",
+        "Settings.CursorSettings.DirectCursorEnabled.Description": "커서의 실제 위치를 그대로 표시합니다.\n\n이는 시스템이나 설정값에 따른 보정이나 부드러움 등의 효과가 적용되지 않습니다.",
         
         "Settings.DesktopViewSettings.FollowCursor": "커서 따라가기",
         "Settings.DesktopViewSettings.FollowCursor.Description": "활성화되면 <color=hero.yellow>대시 메뉴/데스크탑</color>에서 마우스 커서가 지시선을 따라가게 됩니다. 이 설정은 VR 상태에서 물리적 키보드와 마우스를 사용하는 경우 유용합니다.",
@@ -2688,7 +2690,7 @@
         "Tutorial.Saving.Title": "홈월드에 오신것을 환영합니다.",
         "Tutorial.Saving.Content": "환영합니다. 이곳은 당신의 <b><i><color=hero.yellow>홈</b></i></color>입니다!여기는 당신만의 월드이므로, 변경된 정보를 저장할 수 있습니다.<br><br>만약, 저장 하신다면 이곳은 저장한 모습 그대로 당신을 기다릴것입니다.",
 
-        "Tutorial.Teleporter.Error": "클라우드 홈을 읽어오는 도중 문제가 발생하였습니다!<br><size=66%>텔레포터에 다시 탑승해보세요.</size>",
+        
 
         "CloudHome.Info.OnlineUsers": "온라인: {online_users}명<br>접속 가능자: {joinable_users}명",
         "CloudHome.Info.Moderation": "중재처리",
@@ -2872,8 +2874,8 @@
         "Hints.Sundial.Dequip": "컨텍스트 메뉴에서 '장착해제'를 눌러 장착을 해제할 수 있습니다.",
         "Hints.Sundial.DequipExtra": "장착 또는 잡고있는 도구에 따라 메뉴가 변경됩니다.",
 
-        "Hints.Sundial.Teleporter": "이 버튼을 클릭하면 홈으로 이동시켜주는 텔레포터가 동작합니다.",
-        "Hints.Sundial.TeleporterExtra": "홈월드에서 즐거운 시간 보내세요. 들려주셔서 감사합니다.",
+        
+        
 
         "UI.TextDisplay.Landscape": "세로로 길게",
         "UI.TextDisplay.Portrait": "가로로 길게",
@@ -2905,7 +2907,7 @@
 
         "UI.ColorPicker.Hexadecimal": "16진수",
         "UI.ColorPicker.ColorSwatches": "견본",
-        "UI.ColorPicker.Blackbody": "흑체",
+        "UI.ColorPicker.Blackbody": "흑체복사",
 
         "UI.ColorPicker.Red": "적",
         "UI.ColorPicker.Green": "녹",

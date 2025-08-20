@@ -1365,7 +1365,7 @@
         "Settings.HostAccessSettings": "Host Access",
         "Settings.UserRestrictionsSettings": "User Restrictions",
 
-        "Settings.WindowsSettings": "Windows Settings",
+        "Settings.OperatingSystemSettings": "OS Settings",
         "Settings.DebugSettings": "Debug",
         "Settings.LegacyFeatureSettings": "Legacy Features",
         "Settings.TwitchInterfaceSettings": "Twitch Streaming Interface",
@@ -1745,8 +1745,8 @@
 
         "Settings.UserRestrictionsSettings.DebugReset": "Reset User Restrictions",
 
-        "Settings.WindowsSettings.KeepOriginalScreenshotFormat": "Keep original screenshot format",
-        "Settings.WindowsSettings.KeepOriginalScreenshotFormat.Description": "Enable this to avoid converting captured screenshots to JPG or PNG when saving them to the Documents folder in Windows. This can make them more difficult to use, as some apps might not be able to open the format.",
+        "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat": "Keep original screenshot format",
+        "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat.Description": "Enable this to avoid converting captured screenshots to JPG or PNG when saving them to the Pictures folder on your hard drive. This can make them more difficult to use, as some apps might not be able to open the format.",
 
         "Settings.DebugSettings.DebugInputBindings": "Debug input bindings",
         "Settings.DebugSettings.DebugInputBindings.Description": "When enabled, you will see debugging information for the input binding system. This is mostly useful for developers.",
@@ -2694,7 +2694,27 @@
         "Tutorial.Saving.Title": "Welcome Home!",
         "Tutorial.Saving.Content": "Welcome to your <b><i><color=hero.yellow>Home</b></i></color> world! This is where you'll end up every time you log in.<br><br>This is a world all your own, so any changes you make are able to be saved.<br><br>If you save, everything will be just as you left it when you return!",
 
-        "Tutorial.Teleporter.Error": "Failed to load your cloud home!<br><size=66%>Step out of the teleporter and step back in to try again.</size>",
+
+        "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Unnamed Session</closeall>",
+        "Tutorial.Teleporter.SessionList.UnnamedHost": "Hosted by: <i><alpha=#77>Unnamed Host</closeall>",
+        "Tutorial.Teleporter.SessionList.HostName": "Hosted by: <b>{hostName}</b>",
+        "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} Users Present",
+        "Tutorial.Teleporter.SessionList.PublicSessions": "Public Sessions",
+        "Tutorial.Teleporter.SessionList.NoPublicSessions": "No public sessions are available! :(<br><size=66%>You still have some options though:</size>",
+
+        "Tutorial.Teleporter.ChooseDestination": "Choose where you want to go next",
+
+        "Tutorial.Teleporter.Destinations.CloudHome": "Go to your Cloud Home",
+        "Tutorial.Teleporter.Destinations.AvatarWorld": "Go to the Avatar Gazebo",
+        "Tutorial.Teleporter.Destinations.PickAnotherSession": "Pick another session",
+        "Tutorial.Teleporter.Destinations.PickPublicSession": "Join a public session",
+
+        "Tutorial.Teleporter.WorldsTabHint": "You can also find worlds to join<br>using the World Browser on your Dashboard!",
+
+        "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>Session join failed! :(</color><br><size=66%>You still have some options though:</size>",
+
+        "Tutorial.Teleporter.Transporting": "Transporting...",
+
 
         "CloudHome.Info.OnlineUsers": "Online {online_users,plural, one {user} other {users}}: {online_users}<br>Joinable {joinable_users,plural, one {user} other {users}}: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderation",
@@ -2780,8 +2800,11 @@
         "CloudHome.Panel.Quality": "Quality",
         "CloudHome.Panel.Doors": "Doors",
         "CloudHome.Panel.Audio": "Audio",
+        "CloudHome.Panel.RealtimeReflections": "Realtime Reflections",
         "CloudHome.Panel.OverheadLighting": "Overhead Lighting",
         "CloudHome.Panel.Sconces": "Sconces",
+        "CloudHome.Panel.SpotLights": "Spot Lights",
+        "CloudHome.Panel.TableLights": "Table Lights",
         "CloudHome.Panel.FurnitureVisibility": "Furniture Visibility",
 
         "CloudHome.Panel.LowQualityMode": "Low Quality Mode",
@@ -2835,6 +2858,13 @@
         "Tutorial.Panel.TeleportLocomotion.Title": "Teleport Locomotion",
         "Tutorial.Panel.TeleportLocomotion.Content": "Teleport instantly sends you to the teleportation indicator.",
 
+        "Tutorial.DashboardInfo.Header": "Your Dashboard",
+        "Tutorial.DashboardInfo.Content": "The <b><color=hero.cyan>Dashboard</closeall> is your main menu - with it, you can talk with others, find new worlds to explore, and more!<br><br>If you need more help, take a look at the <b><color=hero.purple>Help tab.",
+        "Tutorial.DashboardInfo.GotIt": "Got it!",
+
+        "Tutorial.MentorPanel.Title": "Need Help?",
+        "Tutorial.MentorPanel.Content": "Look for users who have this badge above their head - ask them for help, they're here for <i>you</i>!",
+
         "Hints.Spawn.InitialMovementDesktop": "Use the movement keys to walk around!",
         "Hints.Spawn.InitialMovementVR": "Use your joysticks to walk around!",
         "Hints.Spawn.InitialMovementVRNoButtons": "Use your trackpads to walk around!",
@@ -2878,8 +2908,14 @@
         "Hints.Sundial.Dequip": "Drop the equipped tool by choosing Unequip in your Context Menu.",
         "Hints.Sundial.DequipExtra": "Notice the options in your Context Menu have changed because you're holding this tool.",
 
-        "Hints.Sundial.Teleporter": "Press this button to activate the Teleporter to your Cloud Home!",
-        "Hints.Sundial.TeleporterExtra": "Enjoy your home and thanks for stopping by!",
+        "Hints.Sundial.Doorway": "Enter to continue!",
+
+        "Hints.DashboardDesktop": "Open and close your Dashboard by pressing Escape!",
+        "Hints.DashboardVR": "Open and close your Dashboard by pressing your Menu button!",
+        "Hints.DashboardExtra": "See below for some extra info on the Dashboard.",
+
+        "Hints.Teleporter": "Step onto the teleporter and choose where you want to go next!",
+        "Hints.TeleporterExtra": "Wherever you go, enjoy your stay in {appName}!",
 
         "UI.TextDisplay.Landscape": "Landscape",
         "UI.TextDisplay.Portrait": "Portrait",
@@ -3130,6 +3166,12 @@
         "Universe.Units.EarthRadius": "Earth Radius",
         "Universe.Units.LunarDistance": "Lunar Distance",
 
+        "CloudHome.UpdateNotice.Header": "Update Notice",
+        "CloudHome.UpdateNotice.Content": "<align=center>A newer version of the cloud home is available!<br><br>Your version is out of date by <closeallblock><b><color=hero.cyan>{version_mismatch_days,plural, one {# day} other {# days}}</color></b>.</align><br><br>Click the link below to visit it. While you're there, you can save the world if you want to use it.<br><br>If you want to see what's new, check out the <b><color=hero.purple>#devlog</color></b> channel in our Discord!",
+        "CloudHome.UpdateNotice.WikiLinkName": "{appName} Wiki: Updating Your Home",
+        "CloudHome.UpdateNotice.DiscordLinkName": "{appName} Discord",
+        "CloudHome.UpdateNotice.CloudHomeLinkName": "Visit the new Cloud Home",
+
         "Help.Help": "Help",
         "Help.ComingSoon": "Coming Soon!",
         "Help.ExampleText": "Example Text!",
@@ -3194,7 +3236,7 @@
         "Help.GettingStarted.ExploringWorlds.Categories": "Categories",
         "Help.GettingStarted.ExploringWorlds.Categories.Content": "Narrowing your search for worlds is easy - on the left of the <sprite name=WorldsIcon> <b><color=hero.cyan>Worlds</closeall> tab you can find a list of categories to help you get started. These categories work using the <b><color=hero.yellow>Tags</closeall> assigned to worlds.<br><br>If you want to have more granular searching of worlds, at the bottom of the category list is the <sprite name=SettingsIcon> <b><color=hero.Cyan>Custom</closeall> button, which will provide you with an assortment of advanced filtering options.",
         "Help.GettingStarted.ExploringWorlds.BrowserInformation": "Browser Information",
-        "Help.GettingStarted.ExploringWorlds.BrowserInformation.Content": "To see more information about a world or opened session, click on the world preview {is_desktop, select, True {} other {with your <b><color=hero.purple>{Primary_Input}</closeall> }} to select it, then click on the <sprite name=ArrowIcon> <b><color=hero.cyan>More Info</closeall> button on the top right of the pop-up. This expanded view provides you with more info, including but not limited to: tags, opened sessions, present users, and more.",
+        "Help.GettingStarted.ExploringWorlds.BrowserInformation.Content": "To see more information about a world or opened session, click on the world preview{is_desktop, select, True {} other { with your <b><color=hero.purple>{Primary_Input}</closeall>}} to select it, then click on the <sprite name=ArrowIcon> <b><color=hero.cyan>More Info</closeall> button on the top right of the pop-up. This expanded view provides you with more info, including but not limited to: tags, opened sessions, present users, and more.",
         "Help.GettingStarted.ExploringWorlds.SessionInformation": "Session Information",
         "Help.GettingStarted.ExploringWorlds.SessionInformation.Content": "You can cycle through the available opened sessions for a particular world by first clicking on the world preview{is_desktop, select, True {} other { with your <b><color=hero.purple>{Primary_Input}</closeall>}}, then selecting the left or right arrow buttons on the top right of the pop-up to see the different sessions available.",
         "Help.GettingStarted.ExploringWorlds.JoiningASession": "Joining A Session",
@@ -3240,7 +3282,7 @@
         "Help.GettingStarted.BuildingBasics.BuildingInPlatform": "Building In-Platform",
         "Help.GettingStarted.BuildingBasics.BuildingInPlatform.Content": "{appName} gives you the freedom and tools to be creative and make whatever you can imagine, including items, worlds, and even avatars - all of which can be collaboratively created entirely from within {appName}. A variety of tools are at your disposal to help you in your creative process, from drawing with brushes to using advanced tools to edit any and all aspects of a world, or even make custom tools to suit your specific needs and workflow.",
         "Help.GettingStarted.BuildingBasics.PlatformEssentials": "{appName} Essentials",
-        "Help.GettingStarted.BuildingBasics.PlatformEssentials.Content": "A great place to start when on the path to making something is <b><color=hero.yellow>{appName} Essentials</closeall>, a folder in your Inventory provided to you, which contains a wide variety of items and tools to help you get started.<br><br>To navigate to this folder, <b><color=hero.purple>Double Click</closeall>{is_desktop, select, True {} other { with your <b><color=hero.purple>{Primary_Input}</closeall>}} on it to open it. Above the grid of items and folders you will see a list of folder you are currently in - akin to the address bar in a file browser. To spawn items from your inventory, <b><color=hero.purple>Double Click</closeall> on an item.<br><br>A benefit of the <b><color=hero.yellow>{appName} Essentials</color></b> folder is that it does not count toward your storage usage! This is because the folder is a link and not a folder saved directly inside your inventory - this is why the folder is <b><color=hero.cyan>blue</closeall>.",
+        "Help.GettingStarted.BuildingBasics.PlatformEssentials.Content": "A great place to start when on the path to making something is <b><color=hero.yellow>{appName} Essentials</closeall>, a folder in your Inventory provided to you, which contains a wide variety of items and tools to help you get started.<br><br>To navigate to this folder, <b><color=hero.purple>Double Click</closeall>{is_desktop, select, True {} other { with your <b><color=hero.purple>{Primary_Input}</closeall>}} on it to open it. Above the grid of items and folders you will see a list of folders you are currently in - akin to the address bar in a file browser. To spawn items from your inventory, <b><color=hero.purple>Double Click</closeall> on an item.<br><br>A benefit of the <b><color=hero.yellow>{appName} Essentials</color></b> folder is that it does not count toward your storage usage! This is because the folder is a link and not a folder saved directly inside your inventory - this is why the folder is <b><color=hero.cyan>blue</closeall>.",
         "Help.GettingStarted.BuildingBasics.InventoryFolders": "Inventory Folders",
         "Help.GettingStarted.BuildingBasics.InventoryFolders.Content": "To create a new folder in your inventory, click on the <sprite name=SaveIcon> <b><color=hero.cyan>Create Folder</closeall> button at the top. Give the folder a name and click <b><color=hero.green>Create</closeall> to make it, which will place you inside the folder automatically - creating folders and staying organized will be important for when you start to collect a larger number of items.",
         "Help.GettingStarted.BuildingBasics.BasicCreationTools": "Basic Creation Tools",
@@ -3266,7 +3308,7 @@
         "Help.Controls.Interaction.Grabbing.AutoGrabbing": "Auto Grabbing",
         "Help.Controls.Interaction.Grabbing.AutoGrabbing.Content": "<b><color=hero.green>Auto Grab</closeall> is a grab mode which will choose either <b><color=hero.orange>Palm Grab</closeall> or <b><color=hero.yellow>Precision Grab</closeall> depending on your hand orientation.",
         "Help.Controls.Interaction.Grabbing.StickyGrab": "Sticky Grab",
-        "Help.Controls.Interaction.Grabbing.StickyGrab.Content": "<b><color=hero.cyan>Sticky Grab</closeall> is a mode where you can grab things once and they will stay grabbed, until you press <b><color=hero.purple>{Grab_Input}</closeall> again. In this mode you can freely let go of <b><color=hero.purple>{Grab_Input}</closeall> and the items you have grabbed will remain as such.",
+        "Help.Controls.Interaction.Grabbing.StickyGrab.Content": "<b><color=hero.cyan>Sticky Grab</closeall> is a mode where you can grab things once and they will stay grabbed, until you press <b><color=hero.purple>{Grip_Input}</closeall> again. In this mode you can freely let go of <b><color=hero.purple>{Grab_Input}</closeall> and the items you have grabbed will remain as such.",
 
         "Help.Controls.Interaction.ScalingObjects": "Scaling Objects",
         "Help.Controls.Interaction.ScalingObjects.PhysicalScaling": "Physical Scaling",
@@ -3274,7 +3316,7 @@
         "Help.Controls.Interaction.ScalingObjects.ScalingMultipleObjects": "Scaling Multiple Objects",
         "Help.Controls.Interaction.ScalingObjects.ScalingMultipleObjects.Content": "Scaling <b><color=hero.cyan>multiple</closeall> objects is similar to scaling just one - when in <b><color=hero.orange>Palm Grab</closeall> mode, all objects close to your hand will be grabbed all at once.",
         "Help.Controls.Interaction.ScalingObjects.ScalingWithLasers": "Scaling With Lasers",
-        "Help.Controls.Interaction.ScalingObjects.ScalingWithLasers.Content": "Scaling objects from a distance with your <b><color=hero.purple>Lasers</closeall> can be done by first revealing your lasers by pressing <b><color=hero.purple>{Grip_Input}</closeall>, then grabbing the item with both lasers and moving your lasers closer and further apart.",
+        "Help.Controls.Interaction.ScalingObjects.ScalingWithLasers.Content": "Scaling objects from a distance with your <b><color=hero.purple>Lasers</closeall> can be done by first grabbing and holding an object with your laser, then with your off-hand, point your secondary laser at the object and hold <b><color=hero.purple>{Grip_Input}</closeall>. Moving both your lasers closer and further apart will then scale the object.",
 
         "Help.Controls.Interaction.Lasers": "Lasers",
         "Help.Controls.Interaction.Lasers.LaserGrabbing": "Laser Grabbing",
@@ -3294,9 +3336,9 @@
         "Help.Controls.Interaction.Equipping.Content": "<b><color=hero.purple>Equipping</closeall> items places them in your hand, and lets you perform actions. To equip an object or tool, aim your laser at it, press <b><color=hero.purple>{Primary_Input}</closeall>, and select <b><color=hero.cyan>Equip</closeall>. {is_desktop, select, True {} other {If you can't see your laser, press <b><color=hero.purple>{Primary_Input}</closeall> first to reveal your laser, then try again. }}",
         "Help.Controls.Interaction.Equipping.Content2": "You can also equip items by grabbing them with <b><color=hero.purple>{Grip_Input}</closeall>, opening your <b><color=hero.cyan>Context Menu</closeall> {is_using_vive_wands, select, True {by quickly pressing} other {with}} <b><color=hero.purple>{Context_Menu_Input}</closeall> and selecting <b><color=hero.cyan>Equip</closeall>.",
         "Help.Controls.Interaction.DuplicatingAndDeleting": "Duplicating and Deleting",
-        "Help.Controls.Interaction.DuplicatingAndDeleting.Content": "Items can be easily duplicated or deleted depending on what you need. If you want to duplicate or delete something, grab it with <b><color=hero.purple>{Grip_Input}</closeall> and open your , you can <color=hero.green><b>Duplicate</closeall> or <color=hero.red><b>Delete</closeall> objects you are holding by opening your <color=hero.yellow><b>Context Menu</closeall> and selecting the appropriate action.",
+        "Help.Controls.Interaction.DuplicatingAndDeleting.Content": "Items can be easily duplicated or deleted depending on what you need. If you want to duplicate or delete something, grab it with <b><color=hero.purple>{Grip_Input}</closeall> and open your <b><color=hero.cyan>Context Menu</closeall>, you can <color=hero.green><b>Duplicate</closeall> or <color=hero.red><b>Delete</closeall> objects you are holding by opening your <color=hero.cyan><b>Context Menu</closeall> and selecting the appropriate action.",
         "Help.Controls.Interaction.UndoAndRedo": "Undo and Redo",
-        "Help.Controls.Interaction.UndoAndRedo.Content": "You can <color=hero.red><b>Undo</closeall> or <color=hero.cyan><b>Redo</closeall> some actions by opening your <b><color=hero.cyan>Context Menu</closeall> {is_using_vive_wands, select, True {by quickly pressing} other {with}} <b><color=hero.purple>{Menu_Input}</closeall> and selecting the respective action. You can also use <b><color=hero.purple>Ctrl + Z</closeall> for <color=hero.red><b>Undo</closeall> and <b><color=hero.purple>Ctrl + Y</closeall> for <color=hero.cyan><b>Redo</closeall>.",
+        "Help.Controls.Interaction.UndoAndRedo.Content": "You can <color=hero.red><b>Undo</closeall> or <color=hero.cyan><b>Redo</closeall> some actions by opening your <b><color=hero.cyan>Context Menu</closeall> {is_using_vive_wands, select, True {by quickly pressing} other {with}} <b><color=hero.purple>{Context_Menu_Input}</closeall> and selecting the respective action. You can also use <b><color=hero.purple>Ctrl + Z</closeall> for <color=hero.red><b>Undo</closeall> and <b><color=hero.purple>Ctrl + Y</closeall> for <color=hero.cyan><b>Redo</closeall>.",
         "Help.Controls.Interaction.Anchors": "Anchors",
         "Help.Controls.Interaction.Anchors.Content": "<b><color=hero.purple>Anchors</closeall> are objects that allow you to attach yourself to them, such as furniture, or a seat in a vehicle. When an anchor is moved while you are in it, you will move with the anchor. Some anchors will also have options to pose your avatar allowing you to adjust the positioning for your body. To enter an anchor, aim at it with your laser and press <b><color=hero.purple>{Primary_Input}</closeall> to reveal its menu, then select <b><color=hero.purple>Enter</closeall>. To exit an anchor{is_using_vive_wands, select, True {} other {,}} press{is_desktop, select, True {} other { your}} <b><color=hero.purple>{Secondary_Input}</closeall>{is_using_vive_wands, select, True {} other { or move your <b><color=hero.purple>{Movement_Input}</closeall>}}, though this behavior can be different per anchor.",
 
@@ -3314,9 +3356,9 @@
         "Help.Controls.Locomotion.Slide.Content": "This locomotion sticks you to the closest surface near you and lets you slide across it directly when you move.",
 
         "Help.Controls.UserScaling": "User Scaling",
-        "Help.Controls.UserScaling.Content": "You can change your size by opening your <b><color=hero.Cyan>Context Menu</closeall> {is_using_vive_wands, select, True {by quickly pressing} other {with}} <b><color=hero.purple>{Context_Menu_Input}</closeall> and pressing <sprite name=AvatarScaleDisabledIcon> <b><color=hero.red>Scaling Disabled</closeall>. This will toggle the button to <sprite name=AvatarScaleEnabledIcon> <b><color=hero.green>Scaling Enabled</closeall> that enables you to scale yourself up or down when holding {is_desktop, select, True {<b><color=hero.purple>Ctrl</closeall> and scrolling your <b><color=hero.purple>Mouse Wheel</closeall>} other {<b><color=hero.purple>{Grip_Input}</closeall> on both controllers and moving your hands closer or further apart}}. Pressing <sprite name=AvatarScaleResetIcon> <b><color=hero.red>Reset Scale</closeall> will reset your avatar to default scale. Pressing <sprite name=AvatarScaleEnabledIcon> <b><color=hero.green>Scaling Enabled</closeall> will toggle the button back to <sprite name=AvatarScaleDisabledIcon> <b><color=hero.red>Scaling Disabled</closeall>. ",
+        "Help.Controls.UserScaling.Content": "You can change your size by opening your <b><color=hero.Cyan>Context Menu</closeall> {is_using_vive_wands, select, True {by quickly pressing} other {with}} <b><color=hero.purple>{Context_Menu_Input}</closeall> and pressing <sprite name=AvatarScaleDisabledIcon> <b><color=hero.red>Scaling Disabled</closeall>. This will toggle the button to <sprite name=AvatarScaleEnabledIcon> <b><color=hero.green>Scaling Enabled</closeall> and allow you to scale up or down in size when holding {is_desktop, select, True {<b><color=hero.purple>Ctrl</closeall> and scrolling your <b><color=hero.purple>Mouse Wheel</closeall>} other {<b><color=hero.purple>{Grip_Input}</closeall> on both controllers and moving your hands closer or further apart}}. Pressing <sprite name=AvatarScaleResetIcon> <b><color=hero.red>Reset Scale</closeall> will reset you back to your original scale. Pressing <sprite name=AvatarScaleEnabledIcon> <b><color=hero.green>Scaling Enabled</closeall> will toggle the button back to <sprite name=AvatarScaleDisabledIcon> <b><color=hero.red>Scaling Disabled</closeall> and prevent you from changing your scale.",
         "Help.Controls.ContextMenu": "Context Menu",
-        "Help.Controls.ContextMenu.Content": "Your <b><color=hero.cyan>Context Menu</closeall> provides you with options that change based on what you're doing. You can open your Context Menu {is_using_vive_wands, select, True {by quickly pressing} other {with}} <b><color=hero.purple>{Context_Menu_Input}</closeall>. Here you will find different options for locomotion, Interactions, tools, Saving, and more.<br><br>If you are using an item or avatar which provides extra options via your Context Menu, these options will show up as well.",
+        "Help.Controls.ContextMenu.Content": "Your <b><color=hero.cyan>Context Menu</closeall> provides you with useful options that change based on what you're doing. You can access your <b><color=hero.cyan>Context Menu</closeall> {is_using_vive_wands, select, True {by quickly pressing} other {with}} <b><color=hero.purple>{Context_Menu_Input}</closeall>.<br>By default, you'll be shown shortcuts for <b>Undo & Redo</b>, an option to change your active <b>Locomotion</b> type, and an option for manipulating your <b>Scale</b>.<br>You can either select each option individually with your laser, or simply hold <b><color=hero.purple>{Primary_Input}</closeall> on the center of your menu and flick it towards the option you'd like to select.<br><br>Items, Worlds, and Avatars can also add their own additional options into your <b><color=hero.cyan>Context Menu</closeall>.",
         "Help.Controls.VRGestures": "VR Gestures",
         "Help.Controls.VRGestures.Content": "{appName} offers a few quick gestures for VR users to quickly open your Dashboard, respawn if you're stuck, and more. This is a list of all available VR gestures. Note that these are just quick versions of existing actions - all of the listed actions can also be done in other ways.",
         "Help.Controls.VRGestures.EmergencyLeaveWorld": "Emergency Leave World",
@@ -3337,7 +3379,7 @@
         "Help.Controls.DesktopControls.Undo.Content": "Undo an action using <b><color=hero.purple>Ctrl + Z</closeall>.",
         "Help.Controls.DesktopControls.Redo.Content": "Redo an action using <b><color=hero.purple>Ctrl + Y</closeall>.",
         "Help.Controls.DesktopControls.Paste": "Paste",
-        "Help.Controls.DesktopControls.Paste.Content": "Paste something into {appName} using <b><color=hero.purple>Ctrl + V</closeall>.",
+        "Help.Controls.DesktopControls.Paste.Content": "Paste something into {appName} using <b><color=hero.purple>Ctrl + V</closeall>.<br>You can also paste content exclusively as hyperlinks with <b><color=hero.purple>Ctrl + Shift + V</closeall>.",
         "Help.Controls.DesktopControls.Duplicate.Content": "Duplicate a held item using <b><color=hero.purple>Ctrl + D</closeall>.",
         "Help.Controls.DesktopControls.Delete": "Delete",
         "Help.Controls.DesktopControls.Delete.Content": "Delete a held item using <b><color=hero.purple>Backspace</closeall> or <b><color=hero.purple>Delete</closeall>.",
@@ -3377,7 +3419,7 @@
         "Help.General.Favoriting.Content": "Some items can be <b><color=hero.purple>Favorited</closeall>, like your Avatar, Keyboard, and Stream Camera. This allows you to replace default items with customized versions of each.<br><br>You can tell if an item is favorited if it has a pink background in your <color=hero.yellow><b>Inventory</closeall>.<br><br>See below for a list of <b><color=hero.yellow>Favoritable items</closeall>:",
 
         "Help.General.Favoriting.Home.Content": "Your home world - the world that loads when you launch {appName}.",
-        "Help.General.Favoriting.ProgressBar.Content": "The loading indicator for objects you're importing, Gaussian Splats you're editing, and more.",
+        "Help.General.Favoriting.ProgressBar.Content": "The loading indicator for objects you're importing, such as 3D Assets, Gaussian Splats and more.",
         "Help.General.Favoriting.AudioStreamController.Content": "The panel which appears when you bring in an audio stream.",
         "Help.General.Favoriting.TextDisplay.Content": "A basic text viewer.",
         "Help.General.Favoriting.VideoPlayer.Content": "The video player that will be used when you import a video.",
@@ -3402,7 +3444,7 @@
         "Help.Dashboard.SessionSettings.Settings.Content": "Change the name, access level, and description of your session.",
         "Help.Dashboard.SessionSettings.Users.Content": "You can manage the users in your session here. You can also respawn yourself and others from this menu.",
         "Help.Dashboard.SessionSettings.Permissions.Content": "Shows you the permission levels of every user in the session. If your permission level is moderator or above, you can assign permission levels to other users.",
-        "Help.Dashboard.Desktop.Content": "The <b><color=hero.cyan>Desktop</closeall> tab lets you view your desktop screens.<br><br>Pressing <b><color=hero.purple>{Secondary_Input}</closeall> while pointing at your desktop will open a menu to open your keyboard, or switch monitors.",
+        "Help.Dashboard.Desktop.Content": "The <b><color=hero.cyan>Desktop</closeall> tab lets you view your desktop screens.<br><br>Pressing <b><color=hero.purple>{Context_Menu_Input}</closeall> while pointing at your desktop will open a menu to open your keyboard, or switch monitors.",
         "Help.Dashboard.FileBrowser.Content": "Using the <b><color=hero.cyan>Files</closeall> tab, you can browse your computer's filesystem, share files, and import assets.",
         "Help.Dashboard.FileBrowser.Content2": "Available at the top of the window are a set of buttons for adding or importing files, and more.<br><br>    • <b><color=hero.cyan>Import</closeall>: With a file selected, this will let you import that file into {appName} if it is a supported type.<br><br>    • <b><color=hero.orange>Import As File</closeall>: With a file selected, this lets you import a file as an in-world representation of the file itself, letting you easily share it with others, or save it to your inventory.<br><br>    • <b><color=hero.green>Add Folder</closeall>: This lets you create a new folder on your computer.<br><br>    • <b><color=#7777ff>Refresh</closeall>: This refreshes the file browser, in case the files present have changed.",
         "Help.Dashboard.Settings.Content": "The <b><color=hero.cyan>Settings</closeall> tab is where you can find and customize your settings. All of {appName}'s settings are categorized by the list below.",
@@ -3726,9 +3768,13 @@
         "Help.About.Badges.Accessibility.Mute": "Mute",
         "Help.About.Badges.Accessibility.Mute.Content": "This user is mute, or has otherwise chosen to not communicate verbally.",
 
+        "Help.About.Badges.Yearly.2017.Content": "This user registered their account in 2017.",
         "Help.About.Badges.Yearly.2018.Content": "This user registered their account in 2018.",
         "Help.About.Badges.Yearly.2019.Content": "This user registered their account in 2019.",
         "Help.About.Badges.Yearly.2020.Content": "This user registered their account in 2020.",
+        "Help.About.Badges.Yearly.2021.Content": "This user registered their account in 2021.",
+        "Help.About.Badges.Yearly.2022.Content": "This user registered their account in 2022.",
+        "Help.About.Badges.Yearly.2023.Content": "This user registered their account in 2023 - the year {appName} released.",
 
         "Help.About.Badges.Account.Supporter": "Supporter",
         "Help.About.Badges.Account.Supporter.Content": "This user is supporting the platform monetarily, or has supported in the past.",
@@ -3738,7 +3784,8 @@
         "Help.About.Badges.Hosting.Host": "Host",
         "Help.About.Badges.Hosting.Host.Content": "This user is hosting the current session you're in.",
         "Help.About.Badges.Hosting.HeadlessClient": "Headless Client",
-        "Help.About.Badges.Hosting.HeadlessClient.Content": "This user is a client which hosts sessions but doesn't have any user behind it.",
+        "Help.About.Badges.Hosting.HeadlessClient.Content": "This user is a client which hosts sessions but doesn't have a presence in the world.",
+
         "Help.About.Badges.Misc.Linux.Content": "This user is running on a Linux distribution.",
         "Help.About.Badges.Misc.Durian.Content": "This user participated in the pre-release phase of {appName}.",
         "Help.About.Badges.Misc.Potato": "Potato",
