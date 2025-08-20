@@ -4,8 +4,6 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Korean [ko]
 General.DontShowAgain  
 Dash.Screens.Help  
-Settings.CursorSettings.DirectCursorEnabled  
-Settings.CursorSettings.DirectCursorEnabled.Description  
 Inspector.ReflectionProbe.OnChangesRenderCount  
 Tutorial.Teleporter.SessionList.UnnamedSession  
 Tutorial.Teleporter.SessionList.UnnamedHost  
@@ -37,6 +35,7 @@ Hints.Teleporter
 Hints.TeleporterExtra  
 CloudHome.UpdateNotice.Header  
 CloudHome.UpdateNotice.Content  
+CloudHome.UpdateNotice.WikiLinkName  
 CloudHome.UpdateNotice.DiscordLinkName  
 CloudHome.UpdateNotice.CloudHomeLinkName  
 Help.Help  

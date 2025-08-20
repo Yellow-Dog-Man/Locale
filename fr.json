@@ -36,7 +36,7 @@
         "General.Understand": "Je comprends",
         "General.Notice": "Note",
         "General.UnderstandEnable": "Je comprends, activer",
-        "General.Dismiss": "Rejeter",
+        "General.Dismiss": "Fermer",
         "General.Edit": "Éditer",
         "General.DontShowAgain": "Ne plus afficher",
 
@@ -1266,7 +1266,7 @@
         "CameraControl.Control.RenderPreviewForEveryone": "Rendre l'aperçu pour tous",
         "CameraControl.Control.RenderPrivateUI": "Rendre le GUI privé",
         "CameraControl.Control.MotionBlur": "Flou de Mouvement",
-        "CameraControl.Control.ScreenSpaceReflections": "Réflexions dans l'espace de l'écran",
+        "CameraControl.Control.ScreenSpaceReflections": "Reflets dans l'espace de l'écran",
         "CameraControl.Control.SpawnPhotoInWorld": "Matérialiser la photo dans le monde",
         "CameraControl.Control.FlipPreview": "Retourner l'aperçu",
         "CameraControl.Control.GroupDetectionRadius": "Rayon de détection du groupe : {n} m",
@@ -2006,7 +2006,7 @@
         "Settings.PostProcessingSettings.BloomIntensity.Description": "Le flou lumineux se présente comme un effet de lumière flou autour des objets émettant de la lumière dans une scène, typiquement ceux étant dans le spectre HDR. Ceci vous permet de contrôler l'intensité de cet effet pour la même quantité de lumière. Définir la valeur à <nobr><color=hero.yellow>0 %</color></nobr> désactive cet effet, pouvant améliorer la performance.",
         "Settings.PostProcessingSettings.AmbientOcclusionIntensity": "Intensité de l'occlusion ambiante",
         "Settings.PostProcessingSettings.AmbientOcclusionIntensity.Description": "L'occlusion ambiante rajoute du noir dans les coins de la scène qui devraient recevoir moins de lumière. Cela peut donner au monde plus de profondeur et de réalisme. Ceci vous permet de contrôler l'intensité de cet effet.\n\nIl est à noter que définir une valeur trop basse ou la désactiver peut changer l'apparence de certains mondes.\n\nDéfinir la valeur à <nobr><color=hero.yellow>0 %</color></nobr> désactive cet effet, pouvant améliorer la performance.",
-        "Settings.PostProcessingSettings.ScreenSpaceReflections": "Réflexions d'espace d'écran <size=75%>(expérimental)</size>",
+        "Settings.PostProcessingSettings.ScreenSpaceReflections": "Reflets d'espace d'écran <size=75%>(expérimental)</size>",
         "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "Quand activées, les parties de la scène visibles à la caméra refléteront les parties du monde brillantes en temps réel. Cela peut rendre les mondes plus beaux et réalistes, au coût de la performance. Ce filtre est considéré comme expérimental et ne fonctionne que dans certains scénarios spécifiques, pouvant créer des reflets fantômes et des artefacts.",
         "Settings.PostProcessingSettings.Antialiasing": "Anti-crénelage",
         "Settings.PostProcessingSettings.Antialiasing.Description": "L'anti-crénelage lisse les côtés des objets dans une scène. Vous pouvez sélectionner entre plusieurs filtres, chacun ayant ses avantages et ses défauts. Le FXAA est le plus communément utilisé et fonctionne suffisamment bien, mais peut rendre certaines parties des la scène floues (telles que du texte).\n\n<color=red>Attention :</color> certaines options d'anti-crénelage ne sont pas adaptées ou ne fonctionnent pas en VR.",
@@ -2227,7 +2227,7 @@
         "Inspector.VHACD.RemoveVisuals": "Retirer les visuels",
         "Inspector.VHACD.RemoveHulls": "Retirer les coques",
 
-        "Inspector.ReflectionProbe.Bake": "Précalculer les réflexions",
+        "Inspector.ReflectionProbe.Bake": "Précalculer les reflets",
         "Inspector.ReflectionProbe.Baking": "Précalcul...",
         "Inspector.ReflectionProbe.OnChangesRenderCount": "Nombre de calculs OnChanges : {count}",
 
@@ -2694,7 +2694,27 @@
         "Tutorial.Saving.Title": "Bienvenue chez vous !",
         "Tutorial.Saving.Content": "Bienvenue dans votre <b><i><color=hero.yellow>Maison</b></i></color> ! C'est ici que vous apparaîtrez à chaque fois que vous vous connecterez.<br><br>Ce monde est le vôtre, sentez-vous libre de le modifier comme vous le souhaitez.<br><br>Si vous sauvegardez ce monde, tout sera comme vous l'aurez laissé.",
 
-        
+
+        "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Session sans nom</closeall>",
+        "Tutorial.Teleporter.SessionList.UnnamedHost": "Hébergée par : <i><alpha=#77>Hôte sans nom</closeall>",
+        "Tutorial.Teleporter.SessionList.HostName": "Hébergée par : <b>{hostName}</b>",
+        "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} utilisateurs présents",
+        "Tutorial.Teleporter.SessionList.PublicSessions": "Sessions publiques",
+        "Tutorial.Teleporter.SessionList.NoPublicSessions": "Aucune session publique disponible ! :(<br><size=66%>Vous avez tout de même d’autres options :</size>",
+
+        "Tutorial.Teleporter.ChooseDestination": "Choisissez où aller ensuite",
+
+        "Tutorial.Teleporter.Destinations.CloudHome": "Aller dans votre Maison en ligne",
+        "Tutorial.Teleporter.Destinations.AvatarWorld": "Aller au Pavillon d’Avatars",
+        "Tutorial.Teleporter.Destinations.PickAnotherSession": "Choisir une autre session",
+        "Tutorial.Teleporter.Destinations.PickPublicSession": "Rejoindre une session publique",
+
+        "Tutorial.Teleporter.WorldsTabHint": "Vous pouvez aussi trouver des mondes à rejoindre<br>en consultant l’onglet Mondes sur votre Tableau de Bord !",
+
+        "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>Échec de connexion à la session ! :(</color><br><size=66%>Vous avez tout de même d’autres options :</size>",
+
+        "Tutorial.Teleporter.Transporting": "Téléportation...",
+
 
         "CloudHome.Info.OnlineUsers": "{online_users} {online_users,plural, one {utilisateur} other {utilisateurs}} en ligne<br>{joinable_users} {joinable_users,plural, one {utilisateur} other {utilisateurs}} dans des sessions joignables",
         "CloudHome.Info.Moderation": "Modération",
@@ -2780,8 +2800,11 @@
         "CloudHome.Panel.Quality": "Qualité",
         "CloudHome.Panel.Doors": "Portes",
         "CloudHome.Panel.Audio": "Audio",
+        "CloudHome.Panel.RealtimeReflections": "Reflets en temps réel",
         "CloudHome.Panel.OverheadLighting": "Lumière du ciel",
         "CloudHome.Panel.Sconces": "Appliques murales",
+        "CloudHome.Panel.SpotLights": "Spots lumineux",
+        "CloudHome.Panel.TableLights": "Lampes de bureau",
         "CloudHome.Panel.FurnitureVisibility": "Visibilité des meubles",
 
         "CloudHome.Panel.LowQualityMode": "Mode basse qualité",
@@ -2835,6 +2858,13 @@
         "Tutorial.Panel.TeleportLocomotion.Title": "Téléportation",
         "Tutorial.Panel.TeleportLocomotion.Content": "La téléportation vous téléporte instantanément où vous visez.",
 
+        "Tutorial.DashboardInfo.Header": "Votre Tableau de Bord",
+        "Tutorial.DashboardInfo.Content": "Le <b><color=hero.cyan>Tableau de Bord</closeall> est votre menu principal - avec celui-ci, vous pouvez communiquer avec d’autres personnes, trouver de nouveaux mondes à explorer, et bien plus encore !<br><br>Si vous avez besoin de plus d’aide, jetez un œil à <b><color=hero.purple>l’onglet Aide</closeall> en bas à droite du tableau de bord.",
+        "Tutorial.DashboardInfo.GotIt": "Compris !",
+
+        "Tutorial.MentorPanel.Title": "Besoin d’aide ?",
+        "Tutorial.MentorPanel.Content": "Cherchez des utilisateurs avec ce badge au-dessus de leur tête - demandez-leur de l’aide, ils sont là pour <i>vous</i> !",
+
         "Hints.Spawn.InitialMovementDesktop": "Utilisez les touches de mouvement pour vous déplacer !",
         "Hints.Spawn.InitialMovementVR": "Utilisez le stick analogique pour vous déplacer !",
         "Hints.Spawn.InitialMovementVRNoButtons": "Utilisez votre pavé tactile pour vous déplacer !",
@@ -2878,8 +2908,14 @@
         "Hints.Sundial.Dequip": "Lâchez l'outil équipé avec le bouton Déséquiper dans le menu contextuel.",
         "Hints.Sundial.DequipExtra": "Observez comme le menu contextuel a changé par rapport à l'outil équipé.",
 
+        "Hints.Sundial.Doorway": "Entrez pour continuer !",
         
-        
+        "Hints.DashboardDesktop": "Ouvrez et fermez votre Tableau de Bord en appuyant sur Échap !",
+        "Hints.DashboardVR": "Ouvrez et fermez votre Tableau de Bord en appuyant sur votre bouton Menu !",
+        "Hints.DashboardExtra": "Regardez ci-dessous pour plus d’infos sur le Tableau de Bord.",
+
+        "Hints.Teleporter": "Avancez sur le téléporteur et choisissez où vous voulez aller ensuite !",
+        "Hints.TeleporterExtra": "Où que vous alliez, profitez bien de votre temps dans {appName} !",
 
         "UI.TextDisplay.Landscape": "Paysage",
         "UI.TextDisplay.Portrait": "Portrait",
@@ -3129,6 +3165,11 @@
         "Universe.Units.HubbleLength": "Distance de Hubble",
         "Universe.Units.EarthRadius": "Diamètre de la Terre",
         "Universe.Units.LunarDistance": "Distance Terre-Lune",
+
+        "CloudHome.UpdateNotice.Header": "Notice de mise à jour",
+        "CloudHome.UpdateNotice.Content": "<align=center>Une nouvelle version de la Maison en ligne est disponible !<br><br>Votre version n’est plus à jour depuis <closeallblock><b><color=hero.cyan>{version_mismatch_days,plural, one {# jour} other {# jours}}</color></b>.</align><br><br>Cliquez sur le lien ci-dessous pour la visiter. Quand vous y serez, vous pourrez sauvegarder le monde si vous souhaitez l’utiliser.<br><br>Si vous voulez voir ce qu’il y a de nouveau, consultez le canal <b><color=hero.purple>#devlog</color></b> sur notre Discord !",
+        "CloudHome.UpdateNotice.DiscordLinkName": "Discord de {appName}",
+        "CloudHome.UpdateNotice.CloudHomeLinkName": "Visiter la nouvelle Maison en ligne",
 
         "Help.Help": "Aide",
         "Help.ComingSoon": "Prochainement !",
@@ -3470,7 +3511,7 @@
         "Help.LinksAndResources.ImportantLinks.Studio": "{studioNameLong}",
 
         "Help.LinksAndResources.PlatformSocials": "Réseaux sociaux de {appName}",
-        "Help.LinksAndResources.PlatformSocials.PlatformDiscord": "Serveur Discord de {appName}",
+        "Help.LinksAndResources.PlatformSocials.PlatformDiscord": "Discord de {appName}",
         "Help.LinksAndResources.PlatformSocials.PlatformTwitchChannel": "{appName} sur Twitch",
         "Help.LinksAndResources.PlatformSocials.PlatformYoutubeChannel": "{appName} sur YouTube",
         "Help.LinksAndResources.PlatformSocials.PlatformBluesky": "{appName} sur Bluesky",
@@ -3726,9 +3767,13 @@
         "Help.About.Badges.Accessibility.Mute": "Muet",
         "Help.About.Badges.Accessibility.Mute.Content": "L’utilisateur·rice est muet·te, ou souhaite plus généralement ne pas s’exprimer verbalement.",
 
+        "Help.About.Badges.Yearly.2017.Content": "Cet utilisateur a créé son compte en 2017.",
         "Help.About.Badges.Yearly.2018.Content": "Cet utilisateur a créé son compte en 2018.",
         "Help.About.Badges.Yearly.2019.Content": "Cet utilisateur a créé son compte en 2019.",
         "Help.About.Badges.Yearly.2020.Content": "Cet utilisateur a créé son compte en 2020.",
+        "Help.About.Badges.Yearly.2021.Content": "Cet utilisateur a créé son compte en 2021.",
+        "Help.About.Badges.Yearly.2022.Content": "Cet utilisateur a créé son compte en 2022.",
+        "Help.About.Badges.Yearly.2023.Content": "Cet utilisateur a créé son compte en 2023 - l’année de sortie de {appName}.",
 
         "Help.About.Badges.Account.Supporter": "Parrain",
         "Help.About.Badges.Account.Supporter.Content": "Cet utilisateur soutient la plateforme financièrement, ou a apporté son soutien par le passé.",
@@ -3739,6 +3784,7 @@
         "Help.About.Badges.Hosting.Host.Content": "Cet utilisateur héberge la session dans laquelle vous vous trouvez actuellement.",
         "Help.About.Badges.Hosting.HeadlessClient": "Client non-graphique",
         "Help.About.Badges.Hosting.HeadlessClient.Content": "Ce compte est un client qui héberge des sessions, mais n’est pas contrôlé par un utilisateur réel.",
+
         "Help.About.Badges.Misc.Linux.Content": "Cet utilisateur est sur une distribution Linux.",
         "Help.About.Badges.Misc.Durian.Content": "Cet utilisateur a participé à la phase de pré-lancement de {appName}.",
         "Help.About.Badges.Misc.Potato": "Patate",
