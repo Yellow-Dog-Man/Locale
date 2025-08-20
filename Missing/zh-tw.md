@@ -125,6 +125,7 @@ Hints.Teleporter
 Hints.TeleporterExtra  
 CloudHome.UpdateNotice.Header  
 CloudHome.UpdateNotice.Content  
+CloudHome.UpdateNotice.WikiLinkName  
 CloudHome.UpdateNotice.DiscordLinkName  
 CloudHome.UpdateNotice.CloudHomeLinkName  
 Help.Help  
