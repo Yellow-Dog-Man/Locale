@@ -1198,7 +1198,7 @@
         "FullBody.AvatarHeightCompensationInstructions": "Si l'avatar est trop grand (il finit courbé) ou trop petit pour vous, réglez ici sa compensation de taille afin qu'il s'adapte mieux à votre taille.",
         "FullBody.AvatarHeightCompensation": "Compensation de la hauteur de l'avatar :  {n, number, percent}",
         "FullBody.ResetAvatarHeightCompensation": "Réinitialisation de la compensation de la hauteur",
-        "FullBody.AvatarSaveWarning": "N'oubliez pas de sauvegarder votre avatar une fois que vous avez fini de le calibrer ?",
+        "FullBody.AvatarSaveWarning": "N'oubliez pas de sauvegarder votre avatar une fois que vous avez fini de le calibrer !",
         "FullBody.FinishAvatarCalibration": "Terminer le calibrage de l'avatar",
         "FullBody.CalibrationFinishedInstructions": "Si vous êtes satisfait du calibrage, vous pouvez sauvegarder votre avatar maintenant et quitter.",
         "FullBody.CloseCalibrator": "Fermer le calibreur",
@@ -2692,13 +2692,13 @@
         "CloudHome.TargetRangeOptions": "Distance des cibles",
 
         "Tutorial.Saving.Title": "Bienvenue chez vous !",
-        "Tutorial.Saving.Content": "Bienvenue dans votre <b><i><color=hero.yellow>Maison</b></i></color> ! C'est ici que vous apparaîtrez à chaque fois que vous vous connecterez.<br><br>Ce monde est le vôtre, sentez-vous libre de le modifier comme vous le souhaitez.<br><br>Si vous sauvegardez ce monde, tout sera comme vous l'aurez laissé.",
+        "Tutorial.Saving.Content": "Bienvenue dans votre <nobr><b><i><color=hero.yellow>Maison</b></i></color> !</nobr> C'est ici que vous apparaîtrez à chaque fois que vous vous connecterez.<br><br>Ce monde est le vôtre, sentez-vous libre de le modifier comme vous le souhaitez.<br><br>Si vous sauvegardez ce monde, tout sera comme vous l'aurez laissé.",
 
 
         "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Session sans nom</closeall>",
         "Tutorial.Teleporter.SessionList.UnnamedHost": "Hébergée par : <i><alpha=#77>Hôte sans nom</closeall>",
         "Tutorial.Teleporter.SessionList.HostName": "Hébergée par : <b>{hostName}</b>",
-        "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} utilisateurs présents",
+        "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} utilisateurs",
         "Tutorial.Teleporter.SessionList.PublicSessions": "Sessions publiques",
         "Tutorial.Teleporter.SessionList.NoPublicSessions": "Aucune session publique disponible ! :(<br><size=66%>Vous avez tout de même d’autres options :</size>",
 
@@ -2863,23 +2863,23 @@
         "Tutorial.DashboardInfo.GotIt": "Compris !",
 
         "Tutorial.MentorPanel.Title": "Besoin d’aide ?",
-        "Tutorial.MentorPanel.Content": "Cherchez des utilisateurs avec ce badge au-dessus de leur tête - demandez-leur de l’aide, ils sont là pour <i>vous</i> !",
+        "Tutorial.MentorPanel.Content": "Cherchez des utilisateurs avec ce badge au-dessus de leur tête - demandez-leur de l’aide, ils sont là pour <nobr><i>vous</i> !</nobr>",
 
-        "Hints.Spawn.InitialMovementDesktop": "Utilisez les touches de mouvement pour vous déplacer !",
-        "Hints.Spawn.InitialMovementVR": "Utilisez le stick analogique pour vous déplacer !",
-        "Hints.Spawn.InitialMovementVRNoButtons": "Utilisez votre pavé tactile pour vous déplacer !",
+        "Hints.Spawn.InitialMovementDesktop": "Utilisez les touches de mouvement pour vous <nobr>déplacer !</nobr>",
+        "Hints.Spawn.InitialMovementVR": "Utilisez le stick analogique pour vous <nobr>déplacer !</nobr>",
+        "Hints.Spawn.InitialMovementVRNoButtons": "Utilisez votre pavé tactile pour vous <nobr>déplacer !</nobr>",
 
-        "Hints.Spawn.ContextMenuDesktop": "Ouvrez le menu contextuel avec le bouton T !",
-        "Hints.Spawn.ContextMenuVR": "Vous vous sentez mal ? Ouvrez le menu contextuel avec B ou Y pour plus d'options !",
-        "Hints.Spawn.ContextMenuVRNoButtons": "Vous vous sentez mal ? Ouvrez le menu contextuel avec le bouton menu pour plus d'options !",
+        "Hints.Spawn.ContextMenuDesktop": "Ouvrez le menu contextuel avec le bouton <nobr>T !</nobr>",
+        "Hints.Spawn.ContextMenuVR": "Vous vous sentez <nobr>mal ?</nobr> Ouvrez le menu contextuel avec B ou Y pour plus <nobr>d'options !</nobr>",
+        "Hints.Spawn.ContextMenuVRNoButtons": "Vous vous sentez <nobr>mal ?</nobr> Ouvrez le menu contextuel avec le bouton menu pour plus <nobr>d'options !</nobr>",
 
         "Hints.Spawn.TeleportLocomotionDesktop": "D'autres moyens de locomotion comme le vol sont disponibles dans le menu de locomotion.",
         "Hints.Spawn.TeleportLocomotionVR": "D'autres modes de locomotion comme la téléportation sont disponibles dans le menu de locomotion.",
 
-        "Hints.Bridge.RaiseTheWorld": "Pressez ce bouton pour amener la plateforme vers vous !",
+        "Hints.Bridge.RaiseTheWorld": "Pressez ce bouton pour amener la plateforme vers <nobr>vous !</nobr>",
 
-        "Hints.Grabbing.GrabbingDesktop": "Pour saisir quelque chose, utilisez le bouton droit de la souris !",
-        "Hints.Grabbing.GrabbingVR": "Pour saisir quelque chose, tenez votre grip !",
+        "Hints.Grabbing.GrabbingDesktop": "Pour saisir quelque chose, utilisez le bouton droit de la <nobr>souris !</nobr>",
+        "Hints.Grabbing.GrabbingVR": "Pour saisir quelque chose, tenez votre <nobr>grip !</nobr>",
 
         "Hints.Grabbing.Rotating": "Pour faire tourner l'objet, tenez la touche E et bougez votre souris.",
         "Hints.Grabbing.RotatingExtra": "Pour faire tourner l'objet, saisissez-le et tournez-le.",
@@ -2887,35 +2887,35 @@
         "Hints.Grabbing.ScalingDesktop": "Pour changer l'échelle de l'objet, saisissez-le, tenez SHIFT et utilisez votre molette.",
         "Hints.Grabbing.ScalingVR": "Pour changer l'échelle de l'objet, saisissez-le avec vos deux mains et tirez-le.",
 
-        "Hints.Grabbing.OtherGrabbables": "Il y a une variété d'objets avec lesquels vous pouvez interagir. Essayez et voyez comme ils fonctionnent !",
+        "Hints.Grabbing.OtherGrabbables": "Il y a une variété d'objets avec lesquels vous pouvez interagir. Essayez et voyez comme ils <nobr>fonctionnent !</nobr>",
         "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Vous pouvez aussi changer votre propre échelle en activant l'option dans le menu contextuel et en utilisant les touches SHIFT + molette.",
         "Hints.Grabbing.OtherGrabbablesExtraVR": "Vous pouvez aussi changer votre propre échelle en activant l'option dans votre menu contextuel et en attrapant dans le vide.",
 
-        "Hints.Telescope.Alignment": "Attrapez le télescope et visez la lune !",
+        "Hints.Telescope.Alignment": "Attrapez le télescope et visez la <nobr>lune !</nobr>",
 
-        "Hints.Telescope.TheMoonDesktop": "Quand vous visez la lune, vous pouvez l'attraper et la bouger !",
-        "Hints.Telescope.TheMoonVR": "Utilisez votre laser pour attraper et bouger la lune !",
+        "Hints.Telescope.TheMoonDesktop": "Quand vous visez la lune, vous pouvez l'attraper et la <nobr>bouger !</nobr>",
+        "Hints.Telescope.TheMoonVR": "Utilisez votre laser pour attraper et bouger la <nobr>lune !</nobr>",
 
-        "Hints.Sundial.SoftEquip": "Attrapez et équipez cet outil pour l'utiliser !",
-        "Hints.Sundial.SoftEquipExtra": "Les outils vous permettent de changer le monde autour de vous d'une multitude de manières différentes !",
+        "Hints.Sundial.SoftEquip": "Attrapez et équipez cet outil pour <nobr>l'utiliser !</nobr>",
+        "Hints.Sundial.SoftEquipExtra": "Les outils vous permettent de changer le monde autour de vous d'une multitude de manières <nobr>différentes !</nobr>",
 
-        "Hints.Sundial.HardEquip": "Cliquez sur cet outil pour l'équiper !",
-        "Hints.Sundial.HardEquipExtra": "Vous ne voyez pas votre laser ? Pressez votre bouton principal pour le faire apparaître !",
+        "Hints.Sundial.HardEquip": "Cliquez sur cet outil pour <nobr>l'équiper !</nobr>",
+        "Hints.Sundial.HardEquipExtra": "Vous ne voyez pas votre <nobr>laser ?</nobr> Pressez votre bouton principal pour le faire <nobr>apparaître !</nobr>",
 
-        "Hints.Sundial.TheSun": "Visez le ciel et cliquez pour faire bouger le soleil !",
-        "Hints.Sundial.TheSunExtra": "Essayez de viser sous l'horizon pour faire tomber la nuit !",
+        "Hints.Sundial.TheSun": "Visez le ciel et cliquez pour faire bouger le <nobr>soleil !</nobr>",
+        "Hints.Sundial.TheSunExtra": "Essayez de viser sous l'horizon pour faire tomber la <nobr>nuit !</nobr>",
 
         "Hints.Sundial.Dequip": "Lâchez l'outil équipé avec le bouton Déséquiper dans le menu contextuel.",
         "Hints.Sundial.DequipExtra": "Observez comme le menu contextuel a changé par rapport à l'outil équipé.",
 
-        "Hints.Sundial.Doorway": "Entrez pour continuer !",
+        "Hints.Sundial.Doorway": "Entrez pour <nobr>continuer !</nobr>",
         
-        "Hints.DashboardDesktop": "Ouvrez et fermez votre Tableau de Bord en appuyant sur Échap !",
-        "Hints.DashboardVR": "Ouvrez et fermez votre Tableau de Bord en appuyant sur votre bouton Menu !",
+        "Hints.DashboardDesktop": "Ouvrez et fermez votre Tableau de Bord en appuyant sur <nobr>Échap !</nobr>",
+        "Hints.DashboardVR": "Ouvrez et fermez votre Tableau de Bord en appuyant sur votre bouton <nobr>Menu !</nobr>",
         "Hints.DashboardExtra": "Regardez ci-dessous pour plus d’infos sur le Tableau de Bord.",
 
-        "Hints.Teleporter": "Avancez sur le téléporteur et choisissez où vous voulez aller ensuite !",
-        "Hints.TeleporterExtra": "Où que vous alliez, profitez bien de votre temps dans {appName} !",
+        "Hints.Teleporter": "Avancez sur le téléporteur et choisissez où vous voulez aller <nobr>ensuite !</nobr>",
+        "Hints.TeleporterExtra": "Où que vous alliez, profitez bien de votre temps dans <nobr>{appName} !</nobr>",
 
         "UI.TextDisplay.Landscape": "Paysage",
         "UI.TextDisplay.Portrait": "Portrait",
@@ -3168,6 +3168,7 @@
 
         "CloudHome.UpdateNotice.Header": "Notice de mise à jour",
         "CloudHome.UpdateNotice.Content": "<align=center>Une nouvelle version de la Maison en ligne est disponible !<br><br>Votre version n’est plus à jour depuis <closeallblock><b><color=hero.cyan>{version_mismatch_days,plural, one {# jour} other {# jours}}</color></b>.</align><br><br>Cliquez sur le lien ci-dessous pour la visiter. Quand vous y serez, vous pourrez sauvegarder le monde si vous souhaitez l’utiliser.<br><br>Si vous voulez voir ce qu’il y a de nouveau, consultez le canal <b><color=hero.purple>#devlog</color></b> sur notre Discord !",
+        "CloudHome.UpdateNotice.WikiLinkName": "{appName} Wiki : Mettre à jour sa Maison en ligne",
         "CloudHome.UpdateNotice.DiscordLinkName": "Discord de {appName}",
         "CloudHome.UpdateNotice.CloudHomeLinkName": "Visiter la nouvelle Maison en ligne",
 
@@ -3183,7 +3184,7 @@
         "Help.WikiLinkName.Groups": "{appName} Wiki : Groupes",
         "Help.WikiLinkName.FAQ": "{appName} Wiki : Foire Aux Questions",
 
-        "Help.VROnlyNote": "<b><color=hero.Orange>Note</closeall> : Cette fonctionnalité n’est disponible qu’en VR.",
+        "Help.VROnlyNote": "<nobr><b><color=hero.Orange>Note</color></b> :</nobr> Cette fonctionnalité n’est disponible qu’en VR.",
 
         "Help.PlatformBotLinkName": "Accéder au {appName} Bot",
         "Help.PlatformEssentialsSubmissionLinkName": "Formulaire de soumissions {appName} Essentials",
@@ -3201,11 +3202,11 @@
 
         "Help.HelpTabExploreReminder": "<br>Maintenant que vous en avez terminé ici, n’oubliez pas de consulter le reste de ce que l’onglet Aide a à vous offrir ! Cliquez sur <b><color=hero.purple>Aide</closeall> en haut à gauche pour retourner à la page d’accueil.",
 
-        "Help.MainPage.Content": "<br><align=center><b><size=250%>Bienvenue sur l’onglet <color=hero.purple>Aide</color> !</closeall><br><br>Ici, vous trouverez des réponses à un grand nombre de questions courantes, ainsi que plein d’infos supplémentaires si vous voulez approfondir vos connaissances. <b>Sélectionnez une catégorie à gauche pour commencer !</b><br><br><br><size=200%>Liens utiles :</size><br> ",
+        "Help.MainPage.Content": "<br><align=center><b><size=250%>Bienvenue sur l’onglet <nobr><color=hero.purple>Aide</color> !</nobr></closeall><br><br>Ici, vous trouverez des réponses à un grand nombre de questions courantes, ainsi que plein d’infos supplémentaires si vous voulez approfondir vos connaissances. <b>Sélectionnez une catégorie à gauche pour commencer !</b><br><br><br><size=200%>Liens utiles :</size><br> ",
         "Help.MainPage.Content2": "<br><size=200%>FAQ :</size><br><size=66%><br>Foire Aux Questions</size>",
 
         "Help.FAQ.AvatarQuestions": "À qui puis-je demander de l’aide pour un avatar ?",
-        "Help.FAQ.AvatarQuestions.Content": "Vous pouvez demander de l’aide à n’importe quel <b><color=hero.green>Mentor</closeall> ! Les Mentors sont des membres de la communauté qui se portent volontaires pour offrir leur temps pour accompagner les nouveaux utilisateurs, ainsi que pour fournir de l’aide pour les avatars. Vous pouvez les reconnaître grâce au <sprite name=MentorIcon> badge Mentor.",
+        "Help.FAQ.AvatarQuestions.Content": "Vous pouvez demander de l’aide à n’importe quel <nobr><b><color=hero.green>Mentor</color></b> !</nobr> Les Mentors sont des membres de la communauté qui se portent volontaires pour offrir leur temps pour accompagner les nouveaux utilisateurs, ainsi que pour fournir de l’aide pour les avatars. Vous pouvez les reconnaître grâce au <sprite name=MentorIcon> badge Mentor.",
 
         "Help.GettingStarted": "Pour démarrer",
         "Help.GettingStarted.Content": "<br><align=center><b><size=250%><color=hero.cyan>Pour démarrer</color></size><br><br>Présentation guidée de {appName}</closeall><br><br><br>Choisissez une catégorie à gauche pour trouver rapidement des informations sur ce que vous pouvez faire dans {appName} !<br><br>Ces présentations ne font qu’écorcher la surface de ce que {appName} a à offrir, donc n’hésitez pas à jeter un œil au reste de l’onglet Aide quand vous en aurez terminé ici !",
@@ -3231,7 +3232,7 @@
 
         "Help.GettingStarted.ExploringWorlds": "Explorer des Mondes",
         "Help.GettingStarted.ExploringWorlds.WorldBrowser": "Navigateur",
-        "Help.GettingStarted.ExploringWorlds.WorldBrowser.Content": "{appName} possède une grande variété de mondes à visiter et explorer ! Pour voir tout ce qui est disponible, ouvrez l’onglet <sprite name=WorldsIcon> <b><color=hero.cyan>Mondes</closeall> dans votre tableau de bord. Sur la gauche se trouvent des catégories permettant d’affiner votre recherche, et si vous cherchez quelque chose de spécifique, vous pouvez utiliser la barre de recherche en haut de la fenêtre.<br><br>Si vous souhaitez trouver des mondes où rencontrer des gens et sociabiliser, consultez la catégorie <b><color=hero.cyan>Sessions Actives</closeall> !<br><br>Tous les mondes que vous avez créés, ou pour lesquels vous avez sauvegardé une copie personnelle modifiable, apparaîtront dans la catégorie <b><color=hero.cyan>Mes mondes</closeall>.",
+        "Help.GettingStarted.ExploringWorlds.WorldBrowser.Content": "{appName} possède une grande variété de mondes à visiter et explorer ! Pour voir tout ce qui est disponible, ouvrez l’onglet <sprite name=WorldsIcon> <b><color=hero.cyan>Mondes</closeall> dans votre tableau de bord. Sur la gauche se trouvent des catégories permettant d’affiner votre recherche, et si vous cherchez quelque chose de spécifique, vous pouvez utiliser la barre de recherche en haut de la fenêtre.<br><br>Si vous souhaitez trouver des mondes où rencontrer des gens et sociabiliser, consultez la catégorie <nobr><b><color=hero.cyan>Sessions Actives</color></b> !</nobr><br><br>Tous les mondes que vous avez créés, ou pour lesquels vous avez sauvegardé une copie personnelle modifiable, apparaîtront dans la catégorie <b><color=hero.cyan>Mes mondes</closeall>.",
         "Help.GettingStarted.ExploringWorlds.Categories": "Catégories",
         "Help.GettingStarted.ExploringWorlds.Categories.Content": "Il est facile d’affiner votre recherche de mondes - à gauche de l’onglet <sprite name=WorldsIcon> <b><color=hero.cyan>Mondes</closeall> se trouve une liste de catégories pour vous aider à bien commencer votre recherche. Ces catégories fonctionnent en filtrant les <b><color=hero.yellow>Tags</closeall> attribués aux mondes par leurs créateurs.<br><br>Si vous souhaitez effectuer une recherche plus fine, il y a en bas de la liste de catégories un bouton <sprite name=SettingsIcon> <b><color=hero.Cyan>Personnalisé</closeall>, qui fournit un panel d’options avancées de filtrage et de tri.",
         "Help.GettingStarted.ExploringWorlds.BrowserInformation": "Informations sur le monde",
@@ -3253,7 +3254,7 @@
         "Help.GettingStarted.YourContacts.Searching": "Recherche",
         "Help.GettingStarted.YourContacts.Searching.Content": "Vous cherchez un contact en particulier, ou vous voulez trouver quelqu’un à ajouter en tant que contact ? Saisissez son nom dans la barre de recherche en haut à gauche ! Vous obtiendrez une liste d’utilisateurs dont le nom correspond à votre recherche.",
         "Help.GettingStarted.YourContacts.AddingAContact": "Ajouter un contact",
-        "Help.GettingStarted.YourContacts.AddingAContact.Content": "Vous avez trouvé l’utilisateur que vous cherchiez ? Si vous le sélectionnez, vous trouverez en haut de la fenêtre les actions que vous pouvez effectuer sur celui-ci. Si vous souhaitez l’ajouter en tant que contact, envoyez-lui une demande de contact en utilisant le bouton <b><color=hero.purple>Ajouter comme contact</closeall> ! Si l’utilisateur accepte, il apparaîtra dans votre liste de contacts et vous pourrez alors lui envoyer des messages, l’inviter dans votre monde, ou le rejoindre dans les siens.",
+        "Help.GettingStarted.YourContacts.AddingAContact.Content": "Vous avez trouvé l’utilisateur que vous cherchiez ? Si vous le sélectionnez, vous trouverez en haut de la fenêtre les actions que vous pouvez effectuer sur celui-ci. Si vous souhaitez l’ajouter en tant que contact, envoyez-lui une demande de contact en utilisant le bouton <nobr><b><color=hero.purple>Ajouter comme contact</color></b> !</nobr> Si l’utilisateur accepte, il apparaîtra dans votre liste de contacts et vous pourrez alors lui envoyer des messages, l’inviter dans votre monde, ou le rejoindre dans les siens.",
         "Help.GettingStarted.YourContacts.ContactRequests": "Demandes de contact",
         "Help.GettingStarted.YourContacts.ContactRequests.Content": "Quand quelqu’un vous envoie une demande de contact, une notification apparaîtra en bas de votre champ de vision, et l’utilisateur en question sera ajouté dans votre liste de contacts avec un contour <b><color=hero.purple>violet</closeall>. Vous pouvez accepter ou ignorer la demande en sélectionnant l’utilisateur et en choisissant l’action correspondante.",
         "Help.GettingStarted.YourContacts.Invites": "Invitations",
@@ -3415,7 +3416,7 @@
         "Help.General.Saving.Content": "Sauvegarder des objets vous permet de les utiliser n’importe où l’apparition d’objets est permise.<br><br>Pour sauvegarder un objet, naviguez d’abord dans l’<b><color=hero.cyan>Inventaire</color></b> dans le dossier où vous souhaitez l’enregistrer, puis attrapez l’objet avec <b><color=hero.purple>{Grip_Input}</closeall>. Puis, tout en continuant de saisir l’objet, dans l’Inventaire, appuyez sur le bouton <color=hero.green><b>Sauvegarder objet saisi</b></Color>. Cela enregistrera l’objet dans le dossier dans lequel vous vous situez actuellement.<br><br>En saisissant l’objet, ouvrez votre <b><color=hero.Cyan>Menu Contextuel</closeall> {is_using_vive_wands, select, True {en appuyant rapidement sur} other {avec}} <b><color=hero.purple>{Context_Menu_Input}</closeall> et sélectionnez <sprite name=SaveIcon> <b><color=hero.Cyan>Sauvegarder dans l'inventaire</closeall> pour sauvegarder l’objet sans avoir besoin d’ouvrir le tableau de bord.<br><br>Après avoir cliqué sur le bouton de sauvegarde, vous verrez la facette d’état de synchronisation en haut à droite de votre tableau de bord afficher <b><color=hero.cyan>Synchronisation...</closeall>. Cela indique la progression du téléversement de l’objet sur le cloud. Sauvegarder plusieurs copies d’un objet enregistrera uniquement les <b>changements appliqués à cet objet</b>. Par exemple, sauvegarder un avatar puis le sauvegarder à nouveau avec une différente couleur de cheveux ne prendra pas plus d’espace de stockage qu’une copie de l’avatar et la petite différence entre les deux - pas deux copies entières de l’avatar.",
 
         "Help.General.Favoriting": "Favoris",
-        "Help.General.Favoriting.Content": "Certains objets peuvent être définis en tant que <b><color=hero.purple>Favoris</closeall>, comme votre avatar, votre clavier, ou votre caméra de diffusion. Cela vous permet de remplacer les systèmes par défaut avec des versions personnalisées de chacun.<br><br>Un objet défini en Favori est reconnaissable au fond de couleur rose appliqué à son icône dans votre <color=hero.yellow><b>Inventaire</closeall>.<br><br>Voir ci-après pour une liste d’objets qu’il est possible de définir en tant que <b><color=hero.yellow>favoris</closeall> :",
+        "Help.General.Favoriting.Content": "Certains objets peuvent être définis en tant que <b><color=hero.purple>Favoris</closeall>, comme votre avatar, votre clavier, ou votre caméra de diffusion. Cela vous permet de remplacer les systèmes par défaut avec des versions personnalisées de chacun.<br><br>Un objet défini en Favori est reconnaissable au fond de couleur rose appliqué à son icône dans votre <color=hero.yellow><b>Inventaire</closeall>.<br><br>Voir ci-après pour une liste d’objets qu’il est possible de définir en tant que <nobr><b><color=hero.yellow>favoris</color></b> :</nobr>",
 
         "Help.General.Favoriting.Home.Content": "Votre maison - le monde qui se charge quand vous lancez {appName}.",
         "Help.General.Favoriting.ProgressBar.Content": "L’indicateur de chargement pour les objets que vous importez, tels que des modèles 3D par exemple.",
@@ -3437,15 +3438,15 @@
         "Help.Dashboard.Contacts.Content": "Ici, vous trouverez vos <b><color=hero.green>Contacts</closeall>. Vous pouvez communiquer avec vos contacts existants, ou chercher des utilisateurs par nom en utilisant le champ de texte en haut à gauche.",
         "Help.Dashboard.Contacts.Content2": "Le <b><color=hero.cyan>{appName} Bot</closeall> est un contact particulier qui vous permet d’exécuter des commandes spéciales. Ces commandes débutent toujours par une <b><color=hero.purple>/</closeall> barre oblique.",
         "Help.Dashboard.Inventory.Content": "Dans votre <b><color=hero.yellow>Inventaire</closeall>, vous pouvez consulter vos objets et vos avatars, ainsi qu’y <b><color=hero.cyan>Sauvegarder</closeall> ceux que vous trouverez dans {appName}.",
-        "Help.Dashboard.Inventory.Content2": "Votre Inventaire contient aussi un lien vers le dossier <b><color=hero.cyan>{appName} Essentials</closeall>. C’est une vraie mine d’or de contenus, allant des outils et ressources utiles, à des trucs bêtes et amusants - plongez-vous dedans et regardez ce qu’il y a !<br><br>Étant donné que ce dossier est un <i>lien</i>, il ne consomme pas d’espace de stockage sur votre compte. En contrepartie, il est en lecture seule et vous ne pouvez rien y enregistrer. Mais vous êtes libre d’utiliser tout ce qui se trouve dedans.<br><br>Si vous avez un objet cool que vous aimeriez rendre disponible à la communauté dans ce dossier, dirigez-vous vers le lien ci-dessous pour accéder au <b><color=hero.cyan>formulaire de soumissions {appName} Essentials</closeall> !",
+        "Help.Dashboard.Inventory.Content2": "Votre Inventaire contient aussi un lien vers le dossier <b><color=hero.cyan>{appName} Essentials</closeall>. C’est une vraie mine d’or de contenus, allant des outils et ressources utiles, à des trucs bêtes et amusants - plongez-vous dedans et regardez ce qu’il y a !<br><br>Étant donné que ce dossier est un <i>lien</i>, il ne consomme pas d’espace de stockage sur votre compte. En contrepartie, il est en lecture seule et vous ne pouvez rien y enregistrer. Mais vous êtes libre d’utiliser tout ce qui se trouve dedans.<br><br>Si vous avez un objet cool que vous aimeriez rendre disponible à la communauté dans ce dossier, dirigez-vous vers le lien ci-dessous pour accéder au <b><color=hero.cyan>formulaire de soumissions {appName} <nobr>Essentials</color></b> !</nobr>",
         "Help.Dashboard.SessionSettings.Content": "L’onglet <b><color=hero.cyan>Session</closeall> vous permet de consulter les paramètres de la <b><color=hero.cyan>session</closeall> dans laquelle vous vous trouvez actuellement.",
 
         "Help.Dashboard.SessionSettings.Settings.Content": "Modifier le nom, le niveau d’accès, et la description de votre session.",
-        "Help.Dashboard.SessionSettings.Users.Content": "Vous pouvez gérer les utilisateurs présent dans votre session. Vous pouvez aussi faire réapparaître des utilisateurs depuis ce menu. Si vous n’êtes pas l’hôte de la session actuelle, vous pouvez tout de même vous faire réapparaître vous-même.",
+        "Help.Dashboard.SessionSettings.Users.Content": "Vous pouvez gérer les utilisateurs présents dans votre session. Vous pouvez aussi faire réapparaître des utilisateurs depuis ce menu. Si vous n’êtes pas l’hôte de la session actuelle, vous pouvez tout de même vous faire réapparaître vous-même.",
         "Help.Dashboard.SessionSettings.Permissions.Content": "Montre le niveau de permission de chaque utilisateur dans la session. Si votre niveau de permission est Modérateur ou supérieur, vous pouvez attribuer des niveaux de permission à d’autres utilisateurs.",
         "Help.Dashboard.Desktop.Content": "L’onglet <b><color=hero.cyan>Bureau</closeall> vous permet de consulter vos moniteurs.<br><br>Vous pouvez appuyer sur <b><color=hero.purple>{Context_Menu_Input}</closeall> en pointant le bureau pour faire apparaître un menu, qui vous permettra d’ouvrir votre clavier ou de basculer entre vos moniteurs.",
         "Help.Dashboard.FileBrowser.Content": "En utilisant l’onglet <b><color=hero.cyan>Fichiers</closeall>, vous pouvez naviguer dans le système de fichiers de votre ordinateur, exporter des objets depuis {appName}, ou importer des fichiers dans {appName}.",
-        "Help.Dashboard.FileBrowser.Content2": "En haut de la fenêtre se trouve une rangée de boutons pour interagir avec vos fichiers.<br><br>    • <b><color=hero.cyan>Importer</closeall> : Quand un fichier est sélectionné, ce bouton permet de l’importer dans {appName} si son type est supporté.<br><br>    • <b><color=hero.orange>Importer en tant que fichier</closeall> : Quand un fichier est sélectionné, ce bouton permet de l’importer comme une représentation virtuelle du fichier lui-même, vous permettant de le partager facilement avec d’autres personnes, ou de l’enregistrer dans votre inventaire.<br><br>    • <b><color=hero.green>Créer un dossier</closeall> : Ce bouton permet de créer un nouveau dossier sur votre ordinateur.<br><br>    • <b><color=#7777ff>Rafraîchir</closeall> : Ce bouton rafraîchit le navigateur de fichiers, au cas où les fichiers présents ont été modifiés entre temps.",
+        "Help.Dashboard.FileBrowser.Content2": "En haut de la fenêtre se trouve une rangée de boutons pour interagir avec vos fichiers.<br><br>    • <nobr><b><color=hero.cyan>Importer</color></b> :</nobr> Quand un fichier est sélectionné, ce bouton permet de l’importer dans {appName} si son type est supporté.<br><br>    • <nobr><b><color=hero.orange>Importer en tant que fichier</color></b> :</nobr> Quand un fichier est sélectionné, ce bouton permet de l’importer comme une représentation virtuelle du fichier lui-même, vous permettant de le partager facilement avec d’autres personnes, ou de l’enregistrer dans votre inventaire.<br><br>    • <nobr><b><color=hero.green>Créer un dossier</color></b> :</nobr> Ce bouton permet de créer un nouveau dossier sur votre ordinateur.<br><br>    • <nobr><b><color=#7777ff>Rafraîchir</color></b> :</nobr> Ce bouton rafraîchit le navigateur de fichiers, au cas où les fichiers présents ont été modifiés entre temps.",
         "Help.Dashboard.Settings.Content": "Dans l’onglet <b><color=hero.cyan>Paramètres</closeall>, vous pouvez consulter et personnaliser vos réglages. Tous les paramètres de {appName} sont catégorisés dans la liste suivante.",
 
         "Help.Dashboard.Settings.Audio.Content": "Gérer le volume, les périphériques audio, le filtrage, ou encore les options d’accessibilité audio.",
@@ -3530,9 +3531,9 @@
         "Help.LinksAndResources.RTF.Underline": "Souligné",
         "Help.LinksAndResources.RTF.Underline.Content": "Souligne le texte.",
         "Help.LinksAndResources.RTF.Size": "Taille",
-        "Help.LinksAndResources.RTF.Size.Content": "Modifie la taille du texte.<br><br>Types de formats de taille disponibles :<br><br>    • <b>Absolu</b> : <noparse=10><size=123> force la taille à <b><color=hero.purple>123</closeall> quelle que soit la taille actuelle de la police de caractères.<br><br>    • <b>Relatif</b> : <noparse=11><size=123%> applique un pourcentage à la taille actuelle de la police de caractères - dans cet exemple, <b><color=hero.purple>123%</closeall>.",
+        "Help.LinksAndResources.RTF.Size.Content": "Modifie la taille du texte.<br><br>Types de formats de taille disponibles :<br><br>    • <nobr><b>Absolu</b> :</nobr> <noparse=10><size=123> force la taille à <b><color=hero.purple>123</closeall> quelle que soit la taille actuelle de la police de caractères.<br><br>    • <nobr><b>Relatif</b> :</nobr> <noparse=11><size=123%> applique un pourcentage à la taille actuelle de la police de caractères - dans cet exemple, <b><color=hero.purple>123%</closeall>.",
         "Help.LinksAndResources.RTF.Color": "Couleur",
-        "Help.LinksAndResources.RTF.Color.Content": "Modifie la couleur du texte.<br><br>Types de formats de couleur disponibles :<br><br>    • <b>Couleur nommée</b> : <noparse=10><color=yellow> colore le texte en <b><color=hero.yellow>jaune</closeall> quelle que soit la couleur actuelle de la police de caractères.<br><br>    • <b>Couleur hexadécimale</b> : <noparse=11><color=#abcdef> attribue au texte un code couleur hexadécimal spécifique - dans cet exemple, <b><color=hero.purple>#abcdef</closeall>.<br><br>Note : La représentation hexadécimale de couleur est une série de 6 caractères (0 <-> 9, a <-> f) précédés d’un symbole <b><color=hero.purple>#</closeall>. Il est composé de trois paires de caractères qui définissent respectivement les valeurs de couleurs rouge, vert, et bleu. Par exemple : <b>#<color=hero.red>3a<color=hero.green>94<color=hero.cyan>fd</closeall> donnerait <color=#3a94fd>cette couleur</color>.<br><br>Note : Les couleurs nommées incluent aussi les couleurs de notre plateforme. Par exemple : <b><color=hero.purple>hero.purple</closeall>. Pour une liste complète, consultez le Wiki.",
+        "Help.LinksAndResources.RTF.Color.Content": "Modifie la couleur du texte.<br><br>Types de formats de couleur disponibles :<br><br>    • <nobr><b>Couleur nommée</b> :</nobr> <noparse=10><color=yellow> colore le texte en <b><color=hero.yellow>jaune</closeall> quelle que soit la couleur actuelle de la police de caractères.<br><br>    • <nobr><b>Couleur hexadécimale</b> :</nobr> <noparse=11><color=#abcdef> attribue au texte un code couleur hexadécimal spécifique - dans cet exemple, <b><color=hero.purple>#abcdef</closeall>.<br><br>Note : La représentation hexadécimale de couleur est une série de 6 caractères (0 <-> 9, a <-> f) précédés d’un symbole <b><color=hero.purple>#</closeall>. Il est composé de trois paires de caractères qui définissent respectivement les valeurs de couleurs rouge, vert, et bleu. Par exemple : <b>#<color=hero.red>3a<color=hero.green>94<color=hero.cyan>fd</closeall> donnerait <color=#3a94fd>cette couleur</color>.<br><br>Note : Les couleurs nommées incluent aussi les couleurs de notre plateforme. Par exemple : <b><color=hero.purple>hero.purple</closeall>. Pour une liste complète, consultez le Wiki.",
         "Help.LinksAndResources.RTF.HorizontalAlignment": "Alignement horizontal",
         "Help.LinksAndResources.RTF.HorizontalAlignment.Content": "Change l’alignement horizontal du texte.<br><br>Les options d’alignement horizontal disponibles sont <b>left</b> (à gauche), <b>center</b> (centré), <b>right</b> (à droite), ou <b>justified</b> (justifié).",
         "Help.LinksAndResources.RTF.LineHeight": "Hauteur de ligne",
