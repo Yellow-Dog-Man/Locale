@@ -53,7 +53,7 @@ class LocaleCleaner:
                 blank = True
     
     def save(self):
-        out = open(self.out, 'w', encoding="utf8")
+        out = open(self.out, 'w', encoding="utf8", newline="\n")
         out.write('\n'.join(self.output))
         out.close()
         
