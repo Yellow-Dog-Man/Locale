@@ -10,22 +10,22 @@ Esperanto [eo] - 49.6% - Missing keys: 1644
 Spanish [es] - 70.4% - Missing keys: 966  
 Estonian [et] - 25.3% - Missing keys: 2435  
 Finnish [fi] - 71.2% - Missing keys: 938  
-French [fr] - 100.0% - Missing keys: 1  
+French [fr] - 100.0% - Missing keys: 0  
 Hungarian [hu] - 20.3% - Missing keys: 2599  
 Icelandic [is] - 19.0% - Missing keys: 2640  
-Japanese [ja] - 99.0% - Missing keys: 34  
+Japanese [ja] - 99.7% - Missing keys: 9  
 Korean [ko] - 81.4% - Missing keys: 606  
 Mongolian [mn] - 81.0% - Missing keys: 619  
 Dutch [nl] - 71.3% - Missing keys: 935  
 Norwegian [no] - 47.5% - Missing keys: 1711  
 Polish [pl] - 81.0% - Missing keys: 620  
 Portuguese (Brazil) [pt-br] - 47.5% - Missing keys: 1712  
-Russian [ru] - 71.7% - Missing keys: 924  
+Russian [ru] - 82.3% - Missing keys: 576  
 Swedish [sv] - 82.5% - Missing keys: 571  
 Thai [th] - 2.1% - Missing keys: 3191  
 Turkish [tr] - 24.9% - Missing keys: 2447  
 Ukrainian [uk] - 40.2% - Missing keys: 1948  
-Chinese (Simplified, Mainland China) [zh-cn] - 100.0% - Missing keys: 1  
+Chinese (Simplified, Mainland China) [zh-cn] - 100.0% - Missing keys: 0  
 Chinese (Traditional, Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
 
 Total keys: 3260
