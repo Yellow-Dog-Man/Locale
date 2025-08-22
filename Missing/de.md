@@ -2,44 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # German [de]
-Help.Controls.SteamBindings  
-Help.General  
-Help.General.VoiceMode  
-Help.General.VoiceMode.Content  
-Help.General.VoiceMode.Broadcast  
-Help.General.VoiceMode.Broadcast.Content  
-Help.General.VoiceMode.Shout  
-Help.General.VoiceMode.Shout.Content  
-Help.General.VoiceMode.Normal  
-Help.General.VoiceMode.Normal.Content  
-Help.General.VoiceMode.Whisper  
-Help.General.VoiceMode.Whisper.Content  
-Help.General.VoiceMode.Mute  
-Help.General.VoiceMode.Mute.Content  
-Help.General.OnlineStatus  
-Help.General.OnlineStatus.Sociable.Content  
-Help.General.OnlineStatus.Online.Content  
-Help.General.OnlineStatus.Away.Content  
-Help.General.OnlineStatus.Busy.Content  
-Help.General.OnlineStatus.Invisible.Content  
-Help.General.OnlineStatus.Offline.Content  
-Help.General.Saving  
-Help.General.Saving.Content  
-Help.General.Favoriting  
-Help.General.Favoriting.Content  
-Help.General.Favoriting.Home.Content  
-Help.General.Favoriting.ProgressBar.Content  
-Help.General.Favoriting.AudioStreamController.Content  
-Help.General.Favoriting.TextDisplay.Content  
-Help.General.Favoriting.VideoPlayer.Content  
-Help.General.Favoriting.AudioPlayer.Content  
-Help.General.Favoriting.InteractiveCamera.Content  
-Help.General.Favoriting.Keyboard.Content  
-Help.General.Favoriting.Avatar.Content  
-Help.General.Favoriting.WorldLoadingIndicator.Content  
-Help.General.Favoriting.ColorDialog.Content  
-Help.General.Favoriting.Hyperlink.Content  
-Help.General.Favoriting.Document.Content  
 Help.Dashboard  
 Help.Dashboard.Home.Content  
 Help.Dashboard.Worlds.Content  
@@ -321,6 +283,7 @@ Help.TeamTitle.SoundDesigner
 Help.TeamTitle.Support  
 Help.TeamTitle.UI  
 Help.TeamTitle.VideoProducer  
+Help.TeamTitle.HeadOfTrustAndSafety  
 Help.About.Badges  
 Help.About.Badges.StaffAndVolunteers  
 Help.About.Badges.Accessibility  

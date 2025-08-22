@@ -884,6 +884,7 @@ Help.TeamTitle.SoundDesigner
 Help.TeamTitle.Support  
 Help.TeamTitle.UI  
 Help.TeamTitle.VideoProducer  
+Help.TeamTitle.HeadOfTrustAndSafety  
 Help.About.Badges  
 Help.About.Badges.StaffAndVolunteers  
 Help.About.Badges.Accessibility  

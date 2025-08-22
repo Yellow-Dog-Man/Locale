@@ -2,7 +2,6 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Swedish [sv]
-CloudHome.UpdateNotice.WikiLinkName  
 Help.Help  
 Help.ComingSoon  
 Help.ExampleText  
@@ -517,6 +516,7 @@ Help.TeamTitle.SoundDesigner
 Help.TeamTitle.Support  
 Help.TeamTitle.UI  
 Help.TeamTitle.VideoProducer  
+Help.TeamTitle.HeadOfTrustAndSafety  
 Help.About.Badges  
 Help.About.Badges.StaffAndVolunteers  
 Help.About.Badges.Accessibility  
