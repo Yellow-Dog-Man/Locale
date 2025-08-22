@@ -1373,7 +1373,7 @@
         "Settings.MessagingPrivacySettings": "メッセージのプライバシー",
 
         "Settings.LocaleSettings": "言語設定",
-        "Settings.DashSettings": "ダッシュボード",
+        "Settings.DashSettings": "ダッシュメニュー",
         "Settings.NamePlateSettings": "ネームプレート",
         "Settings.LaserSettings": "レーザー",
         "Settings.DesktopViewSettings": "デスクトップ画面の表示",
@@ -2583,7 +2583,7 @@
         "Migration.NewTask": "データを移行する",
 
         "Migration.LoginModal.Title": "データを移行しますか？",
-        "Migration.LoginModal.Description": "他のアカウントからデータを移行しますか？ダッシュボードの「移行」タブからも後で移行することができます。",
+        "Migration.LoginModal.Description": "他のアカウントからデータを移行しますか？ダッシュメニューの「移行」タブからも後で移行することができます。",
         "Migration.LoginModal.OpenMigration": "移行を行う",
         "Migration.LoginModal.Later": "後で",
         "Migration.LoginResetID.Title": "本当にユーザーIDをリセットしますか？",
@@ -2856,7 +2856,7 @@
         "Tutorial.Panel.TeleportLocomotion.Content": "狙った地点に テレポートします。",
 
         "Tutorial.DashboardInfo.Header": "ダッシュメニュー",
-        "Tutorial.DashboardInfo.Content": "<b><color=hero.cyan>ダッシュメニュー</closeall> はよく使うメニューです。 これを使うと他の人と話したり、ワールドを探したり、様々なことができます!<br><br>わからないことがあれば、<b><color=hero.purple>ヘルプタブ</closeall>も活用してください。",
+        "Tutorial.DashboardInfo.Content": "<b><color=hero.cyan>ダッシュメニュー</closeall> はメインのメニューです。 これを使うと他の人と話したり、ワールドを探したり、様々なことができます!<br><br>わからないことがあれば、<b><color=hero.purple>ヘルプタブ</closeall>も活用してください。",
         "Tutorial.DashboardInfo.GotIt": "わかった!",
 
         "Tutorial.MentorPanel.Title": "助けて欲しい",
@@ -2907,7 +2907,7 @@
 
         "Hints.Sundial.Doorway": "次に進む!",
 
-        "Hints.DashboardDesktop": "Escapeキーでダッシュメニューを開閉できます。",
+        "Hints.DashboardDesktop": "Escキーでダッシュメニューを開閉できます。",
         "Hints.DashboardVR": "メニューボタンでダッシュメニューを開閉できます。",
         "Hints.DashboardExtra": "ダッシュメニューとは？",
 
@@ -3207,14 +3207,14 @@
         "Help.GettingStarted.AvatarBasics.Equipping": "アバターについて",
         "Help.GettingStarted.AvatarBasics.Equipping.Content": "{appName}における<b><color=hero.purple>アバター</closeall>とは、服のようなものです。好きな時に好きなアバターを着たり、たくさんのアバターを持てたり、ワールドに実際に出す（スポーン）こともできます！<br><br>アバターを着るには、{is_desktop, select, True {} other {まず<b><color=hero.purple>{Primary_Input}</closeall>を押してレーザーを表示します。次に、}}アバターを狙って{is_desktop, select, True {} other {レーザーで}}<b><color=hero.purple>{Primary_Input}</closeall>を押します{is_desktop, select, True {} other {再度}}。表示されるメニューで<sprite name=EquipAvatar> <b><color=hero.green>アバターを着る</closeall>を選択します。これでそのアバターを着ています！",
         "Help.GettingStarted.AvatarBasics.Equipping.Content2": "アバターを着る別の方法があります。まず<b><color=hero.purple>{Grip_Input}</closeall>でアバターを掴み、<color=hero.purple>{Context_Menu_Input}</closeall>で<color=hero.cyan><b>コンテキストメニュー</closeall>を{is_using_vive_wands, select, True {素早く押して} other {}}開き<b>、<br> <sprite name=EquipAvatar> <b><color=hero.green>アバターを着る</closeall>をクリックすることでも着ることができます。",
-        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard": "ダッシュボードを開く",
-        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content": "現在使用しているアバターをログイン時のデフォルトにしたい場合は、<b><color=hero.cyan>ダッシュボード</closeall>を使用できます。これは他の人と話したり、インベントリを閲覧したり、異なるワールドを探索したりするためのオールインワンの場所です。<br><br>開いたり閉じたりするには、{is_using_vive_wands, select, True{リングが満たされるまで} other{}}<b><color=hero.purple>{Menu_Input}</closeall>を押し{is_using_vive_wands, select, True{続け、その後離します} other{てください}}！",
+        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard": "ダッシュメニューを開く",
+        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content": "現在使用しているアバターをログイン時のデフォルトにしたい場合は、<b><color=hero.cyan>ダッシュメニュー</closeall>を使用できます。これは他の人と話したり、インベントリを閲覧したり、異なるワールドを探索したりするためのオールインワンの場所です。<br><br>開いたり閉じたりするには、{is_using_vive_wands, select, True{リングが満たされるまで} other{}}<b><color=hero.purple>{Menu_Input}</closeall>を押し{is_using_vive_wands, select, True{続け、その後離します} other{てください}}！",
         "Help.GettingStarted.AvatarBasics.CreatingAFolder": "フォルダを作る",
         "Help.GettingStarted.AvatarBasics.CreatingAFolder.Content": "ダッシュメニューには様々なタブとその機能があります。その一つに、アイテムやアバターを個人の<b><color=hero.yellow>インベントリ</closeall>に保存する機能があります。{appName}でアイテムやその他のものを保存する際は、整理整頓が大事になるので、まずはアバターを保存するフォルダを作成しましょう。<br><br>インベントリ画面上部のボタンから<sprite name=SaveIcon> <b><color=hero.cyan>フォルダを作成</closeall>ボタンを押しましょう。<br>フォルダの名前を入力して<b><color=hero.green>作成</closeall>を選択するとフォルダが作成され、フォルダの中に移動します。",
         "Help.GettingStarted.AvatarBasics.Saving": "アバターを保存する",
         "Help.GettingStarted.AvatarBasics.Saving.Content": "アバターを保存するには、まず自分の<sprite name=InventoryIcon> <b><color=hero.yellow>インベントリ</closeall>を開いていない場合は開いてから、<b><color=hero.cyan>アバターを保存</closeall>ボタンを押します。これにより、今着ているアバターがインベントリ内で開いているフォルダに保存されます。",
         "Help.GettingStarted.AvatarBasics.Saving.Content2": "着ているわけではないアバターを保存したい場合は、まず{is_desktop, select, True {アバターを見ながら} other {}}アバターを<b><color=hero.purple>{Grip_Input}</closeall>で掴みます。アバターを持ちながら、インベントリの<color=hero.green><b>掴んでいるものを保存</b></Color>ボタンを押すと、アバターが現在開いているフォルダに保存されます。",
-        "Help.GettingStarted.AvatarBasics.Saving.Content3": "アバターを掴んでいる間に、<b><color=hero.Cyan>コンテキストメニュー</closeall>を{is_using_vive_wands, select, True {素早く押して} other {}}開き<b><color=hero.purple>{Context_Menu_Input}</closeall>、<sprite name=SaveIcon> <b><color=hero.Cyan>インベントリに保存</closeall>を選択することで、ダッシュボードを開く必要なくアバターを保存できます。",
+        "Help.GettingStarted.AvatarBasics.Saving.Content3": "アバターを掴んでいる間に、<b><color=hero.Cyan>コンテキストメニュー</closeall>を{is_using_vive_wands, select, True {素早く押して} other {}}開き<b><color=hero.purple>{Context_Menu_Input}</closeall>、<sprite name=SaveIcon> <b><color=hero.Cyan>インベントリに保存</closeall>を選択することで、ダッシュメニューを開く必要なくアバターを保存できます。",
         "Help.GettingStarted.AvatarBasics.Wearing": "アバターを着る",
         "Help.GettingStarted.AvatarBasics.Wearing.Content": "インベントリにあるアバターを着るには、アバターを{is_desktop, select, True {} other {<b><color=hero.purple>{Primary_Input}</closeall>で}}一度クリックして選択し、インベントリ画面の左上にある<sprite name=EquipIcon> <b><color=hero.purple>アバターを着る</closeall>を選択します。これで選択したアバターを着ることができます。",
         "Help.GettingStarted.AvatarBasics.Favoriting": "お気に入り設定",
@@ -3761,6 +3761,7 @@
         "Help.About.Badges.Accessibility.Mute": "ミュート（無言）",
         "Help.About.Badges.Accessibility.Mute.Content": "音声でのコミュニケーションを取らないことを伝えるためのバッジです。",
 
+		"Help.About.Badges.Yearly.2017.Content": "2017年にアカウントを登録したユーザーのバッジです。",
         "Help.About.Badges.Yearly.2018.Content": "2018年にアカウントを登録したユーザーのバッジです。",
         "Help.About.Badges.Yearly.2019.Content": "2019年にアカウントを登録したユーザーのバッジです。",
         "Help.About.Badges.Yearly.2020.Content": "2020年にアカウントを登録したユーザーのバッジです。",
@@ -3771,12 +3772,12 @@
         "Help.About.Badges.Account.Supporter": "サポーター",
         "Help.About.Badges.Account.Supporter.Content": "このバッジがついたユーザーは、現在プラットフォームを有償でサポートしています。過去に支援していた場合も表示されます。",
         "Help.About.Badges.Account.BreadDay": "ブレッド・デイ",
-        "Help.About.Badges.Account.BreadDay.Content": "このバッジがついたユーザーは、ちょうど今日がアカウントに登録した日になります！",
+        "Help.About.Badges.Account.BreadDay.Content": "アカウント登録記念日です。このバッジがついたユーザーは、ちょうど今日がアカウントに登録した日になります！",
 
         "Help.About.Badges.Hosting.Host": "ホスト",
         "Help.About.Badges.Hosting.Host.Content": "現在あなたが参加しているセッションのホストに表示されるバッジです",
         "Help.About.Badges.Hosting.HeadlessClient": "ヘッドレスクライアント",
-        "Help.About.Badges.Hosting.HeadlessClient.Content": "セッションをホストですが、中にユーザーが入っていないクライアントです。",
+        "Help.About.Badges.Hosting.HeadlessClient.Content": "セッションのホストですが、中にユーザーが入っていないクライアントです。",
         "Help.About.Badges.Misc.Linux.Content": "このユーザーはLinuxディストリビューションで実行しています。",
         "Help.About.Badges.Misc.Durian.Content": "{appName}のリリース前テストに参加したユーザーのためのバッジです。",
         "Help.About.Badges.Misc.Potato": "ポテト",
