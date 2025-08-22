@@ -188,10 +188,10 @@
         "World.Connection.SyncingInitialState": "正在同步初始世界狀態",
 
         "World.Connection.LNL.DirectIP": "LNL IP 直連",
-        "World.Connection.LNL.LNLPoke": "請求LNL提示",
+        "World.Connection.LNL.LNLPoke": "請求 LNL Poke",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT 穿透 {n}",
         "World.Connection.LNL.Relay": "LNL 轉發",
-        "World.Connection.SteamNetworkingSockets": "Steam Networking Sockets",
+        "World.Connection.SteamNetworkingSockets": "Steam 網路協定",
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Error.AccessDenied": "存取遭拒",
@@ -1714,12 +1714,12 @@
 
         "Settings.RealtimeNetworkingSettings.DisableLAN": "停用區域網路",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "停用為區域網路設計的的網路功能，例如將您的活動廣播到區域網路，或是接收其他廣播到區域網路的活動。",
-        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "偏好 Steam 網路連線",
-        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "設定偏好使用 Steam 網路連線。有助於 LNL 嚴重堵塞的情況，然而將會缺少部分功能與連線不穩定，僅建議在前述情況下開啟。",
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "偏好使用 Steam 網路協定",
+        "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "設定偏好使用 Steam 網路協定。有助於 LNL 嚴重堵塞的情況，然而將會缺少部分功能與連線不穩定，僅建議在前述情況下開啟。",
         "Settings.RealtimeNetworkingSettings.PreferTCP": "偏好使用 TCP",
         "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "啟用時，TCP 連接優先於所有其他協定。這主要影響區域網路上的連接，因為預設情況下 TCP 不用於網際網路連接。\n\nTCP 在區域網路上可以有更好的效能，並在某些 UDP 協定無法運作的網路上運作。\n\n然而它們也可能遭受「隊首阻塞」，導致語音和動作顯著延遲。",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL 窗口大小",
-        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "這控制即時網路的 LNL 協定視窗大小。更改此設定將在所有活動活動中立即生效。\n\n如果您遇到任何封包排隊，可以增加此值以改善連接吞吐量。然而，更高的值也可能進一步不穩定連接，所以要小心。\n\n<color=hero.yellow>預設值：</color> 64\n\n<color=hero.red>重要：</color> 此設定用於診斷和臨時解決方案；此值將在未來自動調整。",
+        "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "這控制即時網路的 LNL 協定窗口大小。更改此設定將在所有活動活動中立即生效。\n\n如果您遇到任何封包排隊，可以增加此值以改善連接吞吐量。然而，更高的值也可能進一步不穩定連接，所以要小心。\n\n<color=hero.yellow>預設值：</color> 64\n\n<color=hero.red>重要：</color> 此設定用於診斷和臨時解決方案；此值將在未來自動調整。",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "最大同時物件傳輸數量",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "活動開啟時，容許同時間傳輸物件的數量，增加數值將使得同時間內傳輸本地物件增加，但也會同時降低網路連線品質，建議設定在網路最高承受流量數值以下",
