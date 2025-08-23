@@ -141,7 +141,7 @@
         "Inventory.Favorite.ColorDialog": "設為偏好顏色選擇器",
         "Inventory.Favorite.Hyperlink": "設為偏好 URL 顯示器",
         "Inventory.Favorite.Document": "設為偏好文件顯示器",
-        "Inventory.SpawnFacet": "生成 Facet",
+        "Inventory.SpawnFacet": "生成介面元件",
 
         "Dash.Screens.Home": "首頁",
         "Dash.Screens.Worlds": "世界",
@@ -906,7 +906,7 @@
         "CreateNew.Object.SpawnArea": "出生區域",
         "CreateNew.Object.SpawnPoint": "出生點",
         "CreateNew.Object.UIXCanvas": "UIX 畫布",
-        "CreateNew.Object.Facet": "Facet",
+        "CreateNew.Object.Facet": "介面元件",
 
         "CreateNew.Object.FogVolume": "霧體積",
         "CreateNew.Object.FogVolume.Additive": "叠加",
@@ -1820,15 +1820,15 @@
         "Settings.CustomizationSettings.UserInterfaceEditMode": "UI 編輯模式",
         "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "開啟時，您就可以編輯主面板上、手部、或是視窗個別的單一圖標項目的配置\n\n記得在完工的時候關閉此設定!",
 
-        "Settings.FacetAnchorsSettings": "Facet錨點",
-        "Settings.FacetAnchorsSettings.UseFacetAnchors": "使用 Facet 錨點",
-        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "開啟可以使用右控制器切換手臂上的 Facet 錨點，提供除了主面板外放置 Facet 的空間供快速取用",
+        "Settings.FacetAnchorsSettings": "介面元件放置處",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors": "使用介面元件放置處",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "開啟可以使用右控制器切換手臂上的介面元件放置處，提供除了主面板外放置介面元件的空間供快速取用",
         "Settings.FacetAnchorsSettings.AnimationSpeed": "顯示/隱藏動畫播放速度",
-        "Settings.FacetAnchorsSettings.AnimationSpeed.Description": "切換錨點時出現/隱藏時的速度",
+        "Settings.FacetAnchorsSettings.AnimationSpeed.Description": "切換時出現/隱藏時的速度",
         "Settings.FacetAnchorsSettings.FacetAnchorToggle": "控制器切換",
-        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "將控制哪個控制器來切換 Facet 錨點，該主面板將與另一個控制器進行切換",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "將控制哪個控制器來切換介面元件放置處，會將主面板的切換按鈕與另一個控制器交換",
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "顯示背景",
-        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Facet 錨點的背景視覺效果開關",
+        "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "介面元件放置處的背景顯示開關",
 
         "Settings.LaserSettings.SmoothSpeed": "雷射平滑速度",
         "Settings.LaserSettings.SmoothSpeed.Description": "控制雷射對您的移動時的反應速度，較低的數值雷射移動將更為遲緩，降低抖動，較高的數值雷射移動較為即時，但抖動將增強",
@@ -2380,7 +2380,7 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告！</size></color><br>可以透過勾選 SimulateRotation 來將此元件用作簡單的剛體。在您這樣做之前，請理解它並非為此目的而優化，而正式的剛體支援將在未來推出。<br>正式剛體支援將提供：<br><b>- CPU 和網路效率</b> - CharacterController 會造成更高的 CPU 使用率和大量網路流量<br><b>- 約束</b> - 您將能夠在剛體之間建立關節、鉸鏈、彈簧和其他約束<br><b>- 對所有人都平滑的模擬和互動</b> - 當其他人嘗試互動時，CharacterController 會出現故障<br><b>- 新功能和工具</b> - 使使用它們更加容易<br>-----------------------<br>只要您理解這些限制，就盡情享受吧！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告</size></color><br>透過他們的ID，這個元件可以被用於與引用互動。這個過程常被稱為「引用駭入」。<br><br>在您這樣做<b>之前</b>，請知曉這種方式 <b>不被</b> 支援且隨時可能失效。請勿讓您的作品依賴於此項功能。",
-        "Inspector.FacetPreset.Warning": "<color=red><size=125%>警告</size></color><br>FacetPresets 會自動在我們發布新版 Facet 物品時更新這個元件，若您正在自製 Facet，我們建議將本元件刪除。",
+        "Inspector.FacetPreset.Warning": "<color=red><size=125%>警告</size></color><br>FacetPreset 會自動在我們發布新版介面元件物品時更新這個元件，若您正在自製介面元件，我們建議將本元件刪除。",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>警告</size></color><br>本元件並非設計作為安全機制或竊盜保護系統使用，本元件停用直接儲存功能的用意是作為遊戲流程或是設計的一部分，要繞過這個元件的機制相當容易，本元件未來也不會加強任何安全保護措施。",
 
         "Inspector.ParticleSystem.BasicInfo": "粒子數：{count}、FPS：{fps}、模擬時間：{time}、送出時間：{renderSubmitTime}、渲染分配：{allocationCount}",
@@ -2454,12 +2454,12 @@
         "Wizard.CubemapCreator.Title": "Cubemap 建造器",
         "Wizard.CubemapCreator.Textures": "原始貼圖：",
         "Wizard.CubemapCreator.TexturesNote": "請注意，部份 Cubemap 貼圖慣例上會左右對調。如果生成的 Cubemap 不正確，請嘗試交換左右貼圖。",
-        "Wizard.CubemapCreator.PosX": "正X（右）",
-        "Wizard.CubemapCreator.NegX": "負X（左）",
-        "Wizard.CubemapCreator.PosY": "正Y（頂部）",
-        "Wizard.CubemapCreator.NegY": "負Y（底部）",
-        "Wizard.CubemapCreator.PosZ": "正Z（前）",
-        "Wizard.CubemapCreator.NegZ": "負Z（後）",
+        "Wizard.CubemapCreator.PosX": "+X（右）",
+        "Wizard.CubemapCreator.NegX": "-X（左）",
+        "Wizard.CubemapCreator.PosY": "+Y（頂部）",
+        "Wizard.CubemapCreator.NegY": "-Y（底部）",
+        "Wizard.CubemapCreator.PosZ": "+Z（前）",
+        "Wizard.CubemapCreator.NegZ": "-Z（後）",
         "Wizard.CubemapCreator.TopBottomRotation": "頂部/底部旋轉：",
 
         "Wizard.ReflectionProbes.Title": "反射探針設定精靈",
@@ -2604,7 +2604,7 @@
         "Migration.DataSelection.Everything": "所有資料",
         "Migration.DataSelection.Choose": "讓我自己選擇",
 
-        "Migration.DataSelection.Favorites": "偏好（化身、家園、相機、鍵盤、Facets）",
+        "Migration.DataSelection.Favorites": "偏好（化身、家園、相機、鍵盤、介面元件）",
 
         "Migration.DataSelection.Favorites.Description": "這將首先遷移您的家園、收藏的化身、鍵盤、相機與主面板，這樣您就能儘快開始使用它們。\n <color=red><b>警告：</b></color> 如果您選擇了這個選項，您可能 <b>失去某些</b> 在遷移前作出的對您收藏內容的更改。",
         "Migration.DataSelection.Favorites.OverwriteTitle": "我們應該在遷移時覆蓋您的偏好嗎？",
@@ -2874,10 +2874,10 @@
         "Hints.Spawn.TeleportLocomotionDesktop": "您可以在移動選單中嘗試其他選項，例如飛行。",
         "Hints.Spawn.TeleportLocomotionVR": "您可以在移動選單中嘗試其他選項，例如傳送或飛行。",
 
-        "Hints.Bridge.RaiseTheWorld": "按下這個按鈕，召喚平臺！",
+        "Hints.Bridge.RaiseTheWorld": "按下這個按鈕，召喚平台！",
 
-        "Hints.Grabbing.GrabbingDesktop": "按住滑鼠右鍵以符合物理地抓取物品！",
-        "Hints.Grabbing.GrabbingVR": "按下抓握鍵以符合物理地抓取物品！",
+        "Hints.Grabbing.GrabbingDesktop": "按住滑鼠右鍵以直接抓取物品！",
+        "Hints.Grabbing.GrabbingVR": "按下抓握鍵以直接抓取物品！",
 
         "Hints.Grabbing.Rotating": "按住 E 鍵並移動滑鼠以旋轉抓取的物品！",
         "Hints.Grabbing.RotatingExtra": "同時按住 Shift 鍵與 E 鍵來繞其水平軸旋轉物品！",
@@ -2906,9 +2906,9 @@
         "Hints.Sundial.Dequip": "透過在內文選單中選擇取消裝備來丟棄已裝備的工具。",
         "Hints.Sundial.DequipExtra": "注意，內文選單中的選項因您正手持工具而發生了改變。",
 
-        "Hints.Sundial.Doorway": "進入以繼續！",
+        "Hints.Sundial.Doorway": "進門以繼續！",
 
-        "Hints.DashboardDesktop": "按 Escape 鍵開啟或關閉您的主面板！",
+        "Hints.DashboardDesktop": "按 Esc 鍵開啟或關閉您的主面板！",
         "Hints.DashboardVR": "按您的選單按鈕開啟或關閉主面板！",
         "Hints.DashboardExtra": "請參閱下方關於主面板的額外資訊。",
 
@@ -3369,8 +3369,8 @@
         "Help.Controls.VRGestures.ToggleUIEditMode.Content": "此手勢切換 <b><color=hero.cyan>UI 編輯模式</closeall>，讓您可以在主面板或化身面板錨點上新增、移除或編輯面板。當啟用時，您也可以編輯工具的抓取姿勢。要切換 UI 編輯模式，請將控制器放到頭部並在<i>一個</i>控制器上按住 <b><color=hero.purple>{Menu_Input}</closeall>，同時在另一個控制器上點兩下 <b><color=hero.purple>{Menu_Input}</closeall>。您也可以透過您的 <b><color=hero.yellow>設定</closeall> 中的 <sprite name=UserInterfaceIcon> <b><color=hero.purple>使用者介面</closeall> 下的 <b><color=hero.cyan>UI 編輯模式</closeall> 切換來啟用 UI 編輯模式。",
         "Help.Controls.VRGestures.ToggleDashboard": "切換主面板",
         "Help.Controls.VRGestures.ToggleDashboard.Content": "此手勢開啟和關閉您的主面板。要開啟或關閉您的主面板，請將左手控制器放到頭部並按下您的 <b><color=hero.purple>{Context_Menu_Input}</closeall>。",
-        "Help.Controls.VRGestures.ToggleFacetAnchors": "切換面板錨點",
-        "Help.Controls.VRGestures.ToggleFacetAnchors.Content": "此手勢開啟和關閉您的面板錨點。要開啟或關閉您的主面板，請將右手控制器放到頭部並按下您的 <b><color=hero.purple>{Context_Menu_Input}</closeall>。",
+        "Help.Controls.VRGestures.ToggleFacetAnchors": "切換介面元件放置處",
+        "Help.Controls.VRGestures.ToggleFacetAnchors.Content": "此手勢開啟和關閉您的介面元件放置處。要開啟或關閉，請將右手控制器放到頭部並按下您的 <b><color=hero.purple>{Context_Menu_Input}</closeall>。",
         "Help.Controls.DesktopControls": "桌面控制",
         "Help.Controls.DesktopControls.Content": "桌面版 {appName} 提供了一些快速鍵來幫助您完成任務。以下是可用的不同快速鍵列表。",
 
