@@ -3433,7 +3433,7 @@
         "Help.General.Favoriting.Document.Content": "Ein PDF-Betrachter, der beim Importieren einer PFD-Datei verwendet wird.",
 
         "Help.Dashboard": "Dashboard",
-        "Help.Dashboard.Home.Content": "Der <sprite name=HomeIcon> <b><color=hero.cyan>Home</closeall> Tab ist der erste Tab unten in Ihrem Dashboard. Hier können Sie oben links die Einstellungen für den Sprech-Modus, zu Ihrem Profil und Onlinestatus finden, unten links wird Ihr Speicherplatzstatus angezeigt, und auf dem Rest der Seite finden Sie weitere nützliche Informationen. Sie können Ihren Home-Tab auch im <b><color=hero.yellow>UI-Bearbeitungsmodus</closeall> entsprechend Ihren Wünschen anpassen, Sie finden diesen Modus in Ihren <b><color=hero.cyan>Optionen</closeall>.",
+        "Help.Dashboard.Home.Content": "Der <sprite name=HomeIcon> <b><color=hero.cyan>Home</closeall> Tab ist der erste Tab in der untersten Zeile in Ihrem Dashboard. Auf ihm können Sie oben links die Einstellungen für den Sprechmodus, zu Ihrem Profil und Onlinestatus finden, unten links wird Ihr Speicherplatzstatus angezeigt, und auf dem Rest der Seite finden Sie weitere nützliche Informationen. Sie können Ihren Home-Tab auch im <b><color=hero.yellow>UI-Bearbeitungsmodus</closeall> entsprechend Ihren Wünschen anpassen, Sie finden diesen Modus in Ihren <b><color=hero.cyan>Optionen</closeall>.",
         "Help.Dashboard.Worlds.Content": "In diesem Tab können Sie aktiven Sitzungen beitreten und die <b><color=hero.cyan>Welten</closeall> durchsehen.",
         "Help.Dashboard.Contacts.Content": "Hier finden Sie Ihre <b><color=hero.green>Kontakte</closeall>. Mit dem Suchfeld oben links können Sie in ihnen nach bestimmten Personen suchen.",
         "Help.Dashboard.Contacts.Content2": "Der <b><color=hero.cyan>{appName} Bot</closeall> ist ein Kontakt, der Sie spezielle Kommandos ausführen lässt. Diese Befehle beginnen immer mit einem <b><color=hero.purple>/</closeall> Schrägstrich.",
@@ -3463,9 +3463,41 @@
         "Help.Dashboard.Settings.Misc.Content": "Einstellungen zu alten Funktionen und zur Fehlersuche.",
 
         "Help.Dashboard.Exit.Content": "In diesem Tab können Sie {appName} beenden.<br><br><b><color=hero.cyan>Homes speichern & beenden</closeall> speichert Ihre Änderungen, <b><color=hero.red>Ohne Speichern beenden</closeall> tut dies nicht.",
-        "Help.Dashboard.DashboardCustomization": "Anpassung des Dashboards",
-        "Help.Dashboard.DashboardCustomization.Content": "Sie können einige der Tabs in Ihrem Dashboard anpassen, sie enthalten <b><color=hero.cyan>Facets</closeall>, oder individuelle Elemente im Tab. Sie können Facets hinzufügen, entfernen, ihre Größe ändern oder sie austauschen - auf diese Weise können Sie die Tabs an Ihre Wünsche anpassen. Um die Facets in Ihrem Dashboard zu bearbeiten, schalten Sie den <b><color=hero.cyan>UI-Bearbeitungsmodus</closeall> in den Optionen ein, oder führen Sie die VR-Geste aus, um ihn zu aktivieren.<br><br>Wenn der UI-Bearbeitungsmodus aktiv ist, sehen Sie unter Ihrem Dashboard einen Knopf, um ihn wieder zu deaktivieren. Auf den Tabs, die Sie bearbeiten können, erscheint hinter den Facets ein Raster im Hintergrund. Zielen Sie mit Ihrem Laser auf ein Facet um es auszuwählen, dann halten Sie <b><color=hero.purple>{Grip_Input}</closeall> gedrückt, während Sie weiter auf das Facet zielen, um es vom Raster zu lösen. Während Sie das Facet weiter halten, können Sie auf eine Stelle im Dashboard zielen, wo Sie das Facet platzieren wollen - lassen Sie das Facet los, um es dorthin zu verschieben, oder klicken und ziehen Sie Ihren Laser über genau den Bereich, wo Sie das Facet platzieren wollen.",
+        "Help.Dashboard.DashboardCustomization": "Dashboard anpassen",
+        "Help.Dashboard.DashboardCustomization.Content": "Sie können einige der Tabs in Ihrem Dashboard anpassen, da sie <b><color=hero.cyan>Facets</closeall>, oder individuelle Elemente im Tab, enthalten. Sie können Facets hinzufügen, entfernen, ihre Größe ändern oder sie austauschen - auf diese Weise können Sie die Tabs an Ihre Wünsche anpassen. Um die Facets in Ihrem Dashboard zu bearbeiten, schalten Sie den <b><color=hero.cyan>UI-Bearbeitungsmodus</closeall> in den Optionen ein, oder führen Sie die VR-Geste aus, um ihn zu aktivieren.<br><br>Wenn der UI-Bearbeitungsmodus aktiv ist, sehen Sie unter Ihrem Dashboard einen Knopf, um ihn wieder zu deaktivieren. Auf den Tabs, die Sie bearbeiten können, erscheint hinter den Facets ein Raster im Hintergrund. Zielen Sie mit Ihrem Laser auf ein Facet um es auszuwählen, dann halten Sie <b><color=hero.purple>{Grip_Input}</closeall> gedrückt, während Sie weiter auf das Facet zielen, um es vom Raster zu lösen. Während Sie das Facet weiter halten, können Sie auf eine Stelle im Dashboard zielen, wo Sie das Facet platzieren wollen - lassen Sie das Facet los, um es dorthin zu verschieben, oder klicken und ziehen Sie Ihren Laser über genau den Bereich, wo Sie das Facet platzieren wollen.",
 
+        "Help.Avatars": "Avatare",
+
+        "Help.Building": "Bauen",
+        "Help.Building.Content": "Bauen",
+
+        "Help.Advanced": "Fortgeschrittene Themen",
+        "Help.Advanced.Content": "{appName} bietet zahlreiche fortschrittliche Werkzeuge, mit denen Sie nach Herzenslust kreativ sein können. Hier finden Sie einen Teil dieser Funktionen von {appName}. Wenn Sie noch mehr erweiterte Funktionen kennenlernen möchten, besuchen Sie das Wiki.",
+        "Help.Advanced.AccountManagement": "Kontoverwaltung",
+        "Help.Advanced.HeadlessClient": "Headless Client",
+        "Help.Advanced.Websockets": "Websockets",
+        "Help.Advanced.OSC": "OSC",
+        "Help.Advanced.Plugins": "Plugins",
+        "Help.Advanced.Debug": "Fehlersuche",
+        "Help.Advanced.LocalSaves": "Lokales Speichern",
+
+        "Help.Advanced.Syncing": "Synchronisieren",
+        "Help.Advanced.Syncing.Content": "Wenn Sie einen Gegenstand oder eine Welt in Ihr Inventar speichern, werden diese Daten in die Cloud hochgeladen. Dieser Prozess wird <b><color=hero.purple>Synchronisierung</closeall> genannt. Wenn Sie einen besonders großen Gegenstand oder eine Welt mit vielen Assets hochladen, kann diese Synchronisation lange dauern. Allerdings können Sie bei der Synchronisation einer Welt direkt nach dem Beginn der Synchronisation problemlos an der Welt weiterarbeiten, da im Wesentlichen eine \"Momentaufnahme\" der Welt hochgeladen wird, nicht das, was Sie gerade sehen. Machen Sie sich keine Sorgen, falls aus irgendeinem Grund {appName} unerwartet geschlossen wird, während Sie Gegenstände synchronisieren! Diese Daten sind lokal auf Ihrem Rechner gespeichert, ihre Synchronisation wird beim nächsten Start von {appName} fortgesetzt - es werden keine Daten verloren gehen.<br><br>In seltenen Fällen kann es zu einem <b><color=hero.red>Synchronisationsfehler</closeall> kommen, dies passiert, wenn ein Gegenstand oder eine Welt aus irgendeinem Grund nicht mit der Cloud Synchronisiert werden kann. <b>Wenn ein Synchronisationsfehler auftritt, löschen Sie bitte nicht Ihren Cache oder Ihre Datenverzeichnisse! Dies ist eine Notlösung, und es gibt wahrscheinlich andere Möglichkeiten, die Sie zuvor ausprobieren können, um Datenverluste zu vermeiden.</b><br><br>Abhängig von der Art des Synchronisationsfehlers gibt es verschiedene Wege, ihn zu beheben. Sehen Sie sich die folgenden Wiki-Links an, um Informationen zu Ihrem vorliegenden Fehler zu erhalten.",
+        "Help.Advanced.CloudVariables": "Standard Cloud-Variablen",
+        "Help.Advanced.CloudVariables.Content": "Diese <b><color=hero.purple>Cloud-Variablen</closeall> werden Ihnen von {appName} zur Verfügung gestellt und können nach Belieben verwendet werden. Weitere Informationen zu Cloud-Variablen finden Sie in unserem Wiki.",
+        "Help.Advanced.CloudVariables.Content2": "Wenn Sie erfahren möchten, wie Sie Ihre eigenen Cloud-Variablen erstellen können, finden Sie hier eine Liste der dafür verfügbaren Befehle.",
+        "Help.Advanced.CloudVariables.CloudVariableLink": "Befehle zu Cloud-Variablen",
+
+        "Help.Advanced.CloudVariables.PrimaryColor": "Primäre benutzerdefinierte Farbe",
+        "Help.Advanced.CloudVariables.PrimaryColor.Content": "Diese benutzerdefinierte Farbe wird vom Standard-Avatar als Akzentfarbe genutzt, besonders für die Metallverzierungen, die Augen und den Mund. Diese Haupt- oder Primärfarbe soll für Akzente auf Gegenständen oder der Benutzeroberfläche verwendet werden.",
+        "Help.Advanced.CloudVariables.SecondaryColor": "Sekundäre benutzerdefinierte Farbe",
+        "Help.Advanced.CloudVariables.SecondaryColor.Content": "Dies ist die zweite von drei Farben, die für alle Benutzer verfügbar sind. Diese Farbe ist für sekundäre Farbakzente auf Objekten oder in der Benutzeroberfläche vorgesehen.",
+        "Help.Advanced.CloudVariables.TertiaryColor": "Tertiäre benutzerdefinierte Farbe",
+        "Help.Advanced.CloudVariables.TertiaryColor.Content": "Dies ist die letzte der drei Farben, die allen Benutzern zur Verfügung stehen. Sie ist für kleinere Farbakzente auf einem Gegenstand oder in der Benutzeroberfläche vorgesehen.",
+        "Help.Advanced.CloudVariables.ColorsEnabled": "Benutzerdefinierte Farben aktiviert",
+        "Help.Advanced.CloudVariables.ColorsEnabled.Content": "Diese Variable ist für die Gegenstände oder Benutzeroberflächen vorgesehen, die die oben genannten drei Farben verwenden. Wenn diese Variable auf <i>false</i> gesetzt ist, sollten keine benutzerdefinierten Farben verwendet werden.",
+        "Help.Advanced.CloudVariables.ColorPickerSwatch": "Benutzerdefinierte Farben für den Farbwähler",
+        "Help.Advanced.CloudVariables.ColorPickerSwatch.Content": "Diese benutzerdefinierte Farbe ist eine von sechs Farben, die hauptsächlich im Farbwähler verwendet werden. Diese Farben sind mit den Namen <b><color=hero.purple>Color1</closeall> bis <b><color=hero.purple>Color6</closeall> bezeichnet.",
         "Dummy": "Dummy"
     }
 }
