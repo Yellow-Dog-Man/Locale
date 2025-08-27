@@ -2,6 +2,9 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Swedish [sv]
+Settings.BabbleSettings  
+Settings.BabbleSettings.OSC_DataPort  
+Settings.BabbleSettings.OSC_DataPort.Description  
 Help.Help  
 Help.ComingSoon  
 Help.ExampleText  

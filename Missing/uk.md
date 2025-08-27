@@ -101,6 +101,9 @@ Settings.KeyboardLookSettings.HorizontalSpeed
 Settings.KeyboardLookSettings.HorizontalSpeed.Description  
 Settings.KeyboardLookSettings.VerticalSpeed  
 Settings.KeyboardLookSettings.VerticalSpeed.Description  
+Settings.BabbleSettings  
+Settings.BabbleSettings.OSC_DataPort  
+Settings.BabbleSettings.OSC_DataPort.Description  
 Settings.AudioInputDeviceSettings.Testing.Header  
 Settings.AudioInputDeviceSettings.Testing.Description  
 Settings.AudioInputDeviceSettings.Testing.ListenToInput  

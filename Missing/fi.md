@@ -42,6 +42,9 @@ Inventory.Link.LinkText
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description  
+Settings.BabbleSettings  
+Settings.BabbleSettings.OSC_DataPort  
+Settings.BabbleSettings.OSC_DataPort.Description  
 Settings.HapticPointMapping.HeadPitchAngle.Description  
 Settings.HapticPointMapping.HeadYawAngle.Description  
 Settings.HapticPointMapping.ArmSide.Description  

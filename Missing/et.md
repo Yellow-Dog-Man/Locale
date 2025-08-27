@@ -639,6 +639,9 @@ Settings.TrackerSettings.Trackers.Remove
 Settings.SteamLinkSettings  
 Settings.SteamLinkSettings.OSC_DataPort  
 Settings.SteamLinkSettings.OSC_DataPort.Description  
+Settings.BabbleSettings  
+Settings.BabbleSettings.OSC_DataPort  
+Settings.BabbleSettings.OSC_DataPort.Description  
 Settings.HapticPointMapping.MappingTarget  
 Settings.HapticPointMapping.MappingTarget.Description  
 Settings.HapticPointMapping.PointRadius  

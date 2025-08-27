@@ -60,6 +60,9 @@ Importer.Link.Invalid.Description
 Inventory.Link.LinkText  
 Export.GaussianSplatExportable.PLY  
 Export.GaussianSplatExportable.SPZ  
+Settings.BabbleSettings  
+Settings.BabbleSettings.OSC_DataPort  
+Settings.BabbleSettings.OSC_DataPort.Description  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices  
 Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description  
 Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput  

@@ -2,6 +2,9 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # German [de]
+Settings.BabbleSettings  
+Settings.BabbleSettings.OSC_DataPort  
+Settings.BabbleSettings.OSC_DataPort.Description  
 Help.LinksAndResources.PlatformBotCommands  
 Help.LinksAndResources.PlatformBotCommands.CloudVariables  
 Help.LinksAndResources.PlatformBotCommands.CloudVariables.Content  

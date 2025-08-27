@@ -6,6 +6,9 @@ General.DontShowAgain
 Dash.Screens.Help  
 World.Category.Avatars  
 Permissions.SavingDisabledForItem  
+Settings.BabbleSettings  
+Settings.BabbleSettings.OSC_DataPort  
+Settings.BabbleSettings.OSC_DataPort.Description  
 Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff  
 Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description  
 Settings.CursorSettings.DirectCursorEnabled  

@@ -2,6 +2,9 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Russian [ru]
+Settings.BabbleSettings  
+Settings.BabbleSettings.OSC_DataPort  
+Settings.BabbleSettings.OSC_DataPort.Description  
 Tutorial.Teleporter.SessionList.UnnamedSession  
 Tutorial.Teleporter.SessionList.UnnamedHost  
 Tutorial.Teleporter.SessionList.HostName  
