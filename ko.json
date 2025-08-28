@@ -83,7 +83,7 @@
         "Interaction.Duplicate": "복제",
         "Interaction.SaveToInventory": "보관함에 저장",
         "Interaction.SaveToInventory.NotLoggedIn": "아이템 저장은 로그인을 필요로 합니다.",
-        "Interaction.SaveToInventory.NoWritePermission": "현재 <color=hero.yellow>대시 > 보관함</color>의 위치에는 저장할 수 없습니다.",
+        "Interaction.SaveToInventory.NoWritePermission": "현재 <color=hero.yellow>대시보드 > 보관함</color>의 위치에는 저장할 수 없습니다.",
         "Interaction.Undo": "실행취소",
         "Interaction.Redo": "되돌리기",
         "Interaction.EquipTool": "장착하기",
@@ -386,8 +386,8 @@
         "Tools.StreamAudio.PlayForOwner.Off": "송출자는 듣지 않기",
         "Tools.StreamAudio.PlayForOwner.On": "자가 송출중",
 
-        "Options.FreeformDash.On": "자유형 대시: 켜기",
-        "Options.FreeformDash.Off": "자유형 대시: 끄기",
+        "Options.FreeformDash.On": "자유형 대시보드: 켜기",
+        "Options.FreeformDash.Off": "자유형 대시보드: 끄기",
         "Options.SeatedMode.On": "좌식모드: 켜짐",
         "Options.SeatedMode.Off": "좌식모드: 꺼짐",
         "Options.Nameplates.All": "이름표 보기",
@@ -1376,7 +1376,7 @@
         "Settings.DashSettings": "대시보드",
         "Settings.NamePlateSettings": "이름표",
         "Settings.LaserSettings": "지시선",
-        "Settings.DesktopViewSettings": "대시메뉴/데스크탑",
+        "Settings.DesktopViewSettings": "대시보드/데스크탑",
         "Settings.PhotoCaptureSettings": "사진촬영",
 
         "Settings.DesktopRenderSettings": "데스크탑 렌더 설정",
@@ -1512,7 +1512,7 @@
         "Settings.LeapMotionSettings.Offset": "추적 보정치",
         "Settings.LeapMotionSettings.Offset.Description": "VR 헤드셋에 장착한 립모션 센서와의 거리차 보정 설정입니다. 단위는 미터이며, 이 값을 조정하여 손이 올바른 위치에 있는지 확인하세요.",
         "Settings.LeapMotionSettings.SnapDistance": "VR 컨트롤러 인식거리",
-        "Settings.LeapMotionSettings.SnapDistance.Description": "손과 VR 컨트롤러의 거리가 설정한 거리 이내에 있을경우, 립모션 추적대신 VR 컨트롤러를 이용하여 추적합니다.",
+        "Settings.LeapMotionSettings.SnapDistance.Description": "손과 VR 컨트롤러의 거리가 설정한 거리 이내에 있을경우, 립모션 추적 대신 VR 컨트롤러를 이용하여 추적합니다.",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "컨트롤러 사용중 손가락 추적 허용",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "활성화 시 <color=hero.yellow>VR 컨트롤러가 인식거리</color>에 의해 추적 주체가 변경된 상태에서도 손가락 추적정보는 립모션 장치를 이용합니다.",
 
@@ -1534,7 +1534,7 @@
         "Settings.TrackerSettings.Trackers.FreezeTracking" : "Freeze Tracking",
         "Settings.TrackerSettings.Trackers.FreezeTracking.Description" : "이 기능을 활성화 하는 경우, 트래커 자체는 활성 상태로 유지되나, 위치 및 회전값이 고정됩니다. 이 설정은 1회성이며 클라이언트 재실행시 초기화됩니다.",
         "Settings.TrackerSettings.Trackers.CustomName" : "사용자 정의 명칭",
-        "Settings.TrackerSettings.Trackers.CustomName.Description" : "단순하게 트래커의 이름을 설정하는 용도입니다. 식별자대신 이용하여 구별성을 높일 수 있습니다.",
+        "Settings.TrackerSettings.Trackers.CustomName.Description" : "단순하게 트래커의 이름을 설정하는 용도입니다. 식별자 대신 이용하여 구별성을 높일 수 있습니다.",
         "Settings.TrackerSettings.Trackers.MappedBodyNode" : "맵핑된 신체부위",
         "Settings.TrackerSettings.Trackers.MappedBodyNode.Description" : "이 트래커가 장착된 위치를 선택하세요.\n\n이 기능을 통해 수동으로 조정하는 것보다는 <color=hero.yellow>전신 추적 조정</color> 기능을 이용하는 것을 추천합니다.",
         "Settings.TrackerSettings.Trackers.MappedPosition" : "맵핑 위치",
@@ -1615,7 +1615,7 @@
         "Settings.GiggleTechSettings.Devices.IntensityScale.Description" : "기글퍽 장치에 지정된 최대 안전값을 초과하지 않는 선에서 전송값의 배율을 설정합니다.",
         "Settings.GiggleTechSettings.Devices.Remove" : "삭제",
         "Settings.GiggleTechSettings.Devices.CustomName" : "사용자 정의 명칭",
-        "Settings.GiggleTechSettings.Devices.CustomName.Description" : "단순하게 기글퍽의 이름을 설정하는 용도입니다. 식별자대신 이용하여 구별성을 높일 수 있습니다.",
+        "Settings.GiggleTechSettings.Devices.CustomName.Description" : "단순하게 기글퍽의 이름을 설정하는 용도입니다. 식별자 대신 이용하여 구별성을 높일 수 있습니다.",
         "Settings.GiggleTechSettings.Devices.Breadcrumb" : "기글퍽(GigglePuck)",
         "Settings.GiggleTechSettings.Devices.ActivationIntensity" : "현재 강도",
         "Settings.GiggleTechSettings.Devices.MinimumIntensity" : "최소 반응 강도",
@@ -1660,7 +1660,7 @@
         "Settings.AudioVolumeSettings.MultimediaVolume": "멀티미디어(음악, 영상 등) 볼륨",
         "Settings.AudioVolumeSettings.MultimediaVolume.Description": "음악/영상등을 위한 볼륨으로, 일반적으로 영상링크, 음악재생이 이 설정의 영향을 받습니다. 이는 구성요소 <color=hero.yellow>AudioOutput.AudioTypeGroup</color> 속성값과 관련이 있습니다.",
         "Settings.AudioVolumeSettings.VoiceVolume": "음성 볼륨",
-        "Settings.AudioVolumeSettings.VoiceVolume.Description": "다른 사용자의 음성 볼륨을 조절합니다. 경우에 따라 녹음된 음성 클립도 이 설정을 따릅니다. 또다른 방법으로는 <color=hero.yellow>대시 메뉴/세션</color> 탭을 이용하여 세션내 사용자별로 제어할수도 있습니다.",
+        "Settings.AudioVolumeSettings.VoiceVolume.Description": "다른 사용자의 음성 볼륨을 조절합니다. 경우에 따라 녹음된 음성 클립도 이 설정을 따릅니다. 또다른 방법으로는 <color=hero.yellow>대시보드/세션</color> 탭을 이용하여 세션내 사용자별로 제어할수도 있습니다.",
         "Settings.AudioVolumeSettings.UserInterfaceVolume": "UI 볼륨",
         "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "이 설정으로 UI에 사용되는 음향효과(클릭, 사진캡쳐, 마우스오버 등)의 볼륨을 제어합니다.",
 
@@ -1760,9 +1760,9 @@
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "더블 그립으로 장착하기",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "활성화 시, 잡기(Grab)를 빠르게 두번 수행하여 도구를 장착할 수 있습니다. 이 기능은 잠재적으로 삭제될 예정입니다.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "기존 월드 스위처 사용",
-        "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "활셩화 한 경우, <color=hero.yellow>주로 사용하는 손 방향</color>에서 설정한 방향의 반대쪽 컨트롤러의 대시 메뉴 호출 버튼을 누르면, 과거에 사용되던 월드 스위쳐가 나타납니다. 이는 향후 더 유연한 시스템으로 대체될 예정입니다.",
+        "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "활셩화 한 경우, <color=hero.yellow>주로 사용하는 손 방향</color>에서 설정한 방향의 반대쪽 컨트롤러의 대시보드 호출 버튼을 누르면, 과거에 사용되던 월드 스위쳐가 나타납니다. 이는 향후 더 유연한 시스템으로 대체될 예정입니다.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts" : "보관함 & 세션 제스쳐 사용",
-        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "활성화 후, 컨트롤러에서 잡기 동작을 한 상태로 대시 메뉴 호출 버튼을 누르면 구 보관함 또는 세션 메뉴가 나타납니다.",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description" : "활성화 후, 컨트롤러에서 잡기 동작을 한 상태로 대시보드 호출 버튼을 누르면 구 보관함 또는 세션 메뉴가 나타납니다.",
 
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "발(Feet) 시뮬레이션 억제",
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "이것은 발(Feet) 프록시를 가로채는 Poser와 같은 특정한 기능을 별도의 수정없이 동작하도록 하기 위한 것입니다.<br><br>Poser 또는 유사한 기능을 사용하지 않은 상태에서 이 옵션을 활성화 하면 애니메이션이 올바르게 보이지 않습니다. Poser 사용을 마치면 이 기능을 꺼두세요.<br><br><color=hero.red>중요:</color> 이 옵션은 언젠가 삭제될 가능성이 높습니다. 그러므로, 새로운 시스템과 호환되도록 Poser를 수정하고 활성화시 시뮬레이션을 자동으로 억제토록 하는것이 좋습니다.",
@@ -1785,11 +1785,11 @@
         "Settings.LocaleSettings.AvailableLocales.SystemLocale": "시스템 언어 사용",
 
         "Settings.DashSettings.DashCurvature": "곡률",
-        "Settings.DashSettings.DashCurvature.Description": "VR 상에서 대시 메뉴가 얼마나 휘어져야 하는지를 설정합니다. 0으로 설정하면 완벽하게 평면이 됩니다.",
+        "Settings.DashSettings.DashCurvature.Description": "VR 상에서 대시보드가 얼마나 휘어져야 하는지를 설정합니다. 0으로 설정하면 완벽하게 평면이 됩니다.",
         "Settings.DashSettings.OpenCloseSpeed": "애니메이션 속도",
-        "Settings.DashSettings.OpenCloseSpeed.Description": "대시 메뉴가 열리고 닫히는 속도를 설정합니다. 값을 높일수록 빠르게 즉시 열리고 닫히는것처럼 보입니다.",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "대시보드가 열리고 닫히는 속도를 설정합니다. 값을 높일수록 빠르게 즉시 열리고 닫히는것처럼 보입니다.",
         "Settings.DashSettings.AllowReplacingSettings" : "설정 편집 허용",
-        "Settings.DashSettings.AllowReplacingSettings.Description" : "활성화 시, <color=hero.yellow>UI 편집 모드</color>에서 <color=hero.yellow>대시메뉴 > 설정</color>에 있는 각 패싯을 선택하고 다른 패싯으로 변경할 수 있습니다.\n\n각각의 설정을 패싯으로 이용 하고자 할때는 먼저 이 설정을 비활성화 해야 합니다. 설정 UI를 변경하고 싶을때 잠시 활성화 했다가, 변경이 완료되면 비활성화 하는것을 추천합니다.",
+        "Settings.DashSettings.AllowReplacingSettings.Description" : "활성화 시, <color=hero.yellow>UI 편집 모드</color>에서 <color=hero.yellow>대시보드 > 설정</color>에 있는 각 패싯을 선택하고 다른 패싯으로 변경할 수 있습니다.\n\n각각의 설정을 패싯으로 이용 하고자 할때는 먼저 이 설정을 비활성화 해야 합니다. 설정 UI를 변경하고 싶을때 잠시 활성화 했다가, 변경이 완료되면 비활성화 하는것을 추천합니다.",
 
         "Settings.NotificationSettings" : "알림",
         "Settings.NotificationSettings.UserOnline" : "친구가 접속할 때",
@@ -1822,15 +1822,15 @@
 
         "Settings.CustomizationSettings" : "개인화 설정",
         "Settings.CustomizationSettings.UserInterfaceEditMode" : "UI 편집 모드",
-        "Settings.CustomizationSettings.UserInterfaceEditMode.Description" : "활성화 시, 대시와 손, 시야의 패싯 앵커(활성화된 상태에서)에 패싯(모듈식 UI 조각)의 배치를 편집할 수 있습니다.\n\n편집 완료 후, 이 설정을 비활성화 하는것을 잊지 마세요. 대시메뉴 하단에 표시되는 버튼을 눌러 끌 수도 있습니다.",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description" : "활성화 시, 대시와 손, 시야의 패싯 앵커(활성화된 상태에서)에 패싯(모듈식 UI 조각)의 배치를 편집할 수 있습니다.\n\n편집 완료 후, 이 설정을 비활성화 하는것을 잊지 마세요. 대시보드 하단에 표시되는 버튼을 눌러 끌 수도 있습니다.",
 
         "Settings.FacetAnchorsSettings" : "패싯 앵커",
         "Settings.FacetAnchorsSettings.UseFacetAnchors" : "패싯 앵커 사용",
-        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description" : "활성화 시, 우측 VR 컨트롤러의 앱 버튼을 눌르 손과 하완(팔뚝)등의 패싯 앵커를 시각화할 수 있습니다. 이는 대시메뉴를 제외한 부가적인 패싯 배치 공간을 제공합니다.",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description" : "활성화 시, 우측 VR 컨트롤러의 앱 버튼을 눌르 손과 하완(팔뚝)등의 패싯 앵커를 시각화할 수 있습니다. 이는 대시보드를 제외한 부가적인 패싯 배치 공간을 제공합니다.",
         "Settings.FacetAnchorsSettings.AnimationSpeed" : "애니메이션 속도",
         "Settings.FacetAnchorsSettings.AnimationSpeed.Description" : "패싯 앵커가 시각화되는 속도를 지정합니다.",
         "Settings.FacetAnchorsSettings.FacetAnchorToggle" : "조작방향",
-        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description" : "패싯 앵커를 호출할때 사용할 컨트롤러의 방향(좌, 우)을 지정합니다. 대시 메뉴 호출은 항상 반대 방향이 됩니다.",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description" : "패싯 앵커를 호출할때 사용할 컨트롤러의 방향(좌, 우)을 지정합니다. 대시보드 호출은 항상 반대 방향이 됩니다.",
         "Settings.FacetAnchorsSettings.ShowContainerBackground" : "패싯 패널 시각화",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description" : "이 옵션을 끄는 경우, 패싯만 보이고 패싯이 배치된 패널은 보이지 않게 됩니다.",
 
@@ -1876,11 +1876,11 @@
         "Settings.CursorSettings.DirectCursorEnabled.Description": "커서의 실제 위치를 그대로 표시합니다.\n\n이는 시스템이나 설정값에 따른 보정이나 부드러움 등의 효과가 적용되지 않습니다.",
         
         "Settings.DesktopViewSettings.FollowCursor": "커서 따라가기",
-        "Settings.DesktopViewSettings.FollowCursor.Description": "활성화되면 <color=hero.yellow>대시 메뉴/데스크탑</color>에서 마우스 커서가 지시선을 따라가게 됩니다. 이 설정은 VR 상태에서 물리적 키보드와 마우스를 사용하는 경우 유용합니다.",
+        "Settings.DesktopViewSettings.FollowCursor.Description": "활성화되면 <color=hero.yellow>대시보드/데스크탑</color>에서 마우스 커서가 지시선을 따라가게 됩니다. 이 설정은 VR 상태에서 물리적 키보드와 마우스를 사용하는 경우 유용합니다.",
         "Settings.DesktopViewSettings.Brightness": "밝기",
-        "Settings.DesktopViewSettings.Brightness.Description": "<color=hero.yellow>대시 메뉴/데스크탑</color>의 밝기를 지정합니다.",
+        "Settings.DesktopViewSettings.Brightness.Description": "<color=hero.yellow>대시보드/데스크탑</color>의 밝기를 지정합니다.",
         "Settings.DesktopViewSettings.Opacity": "불투명도",
-        "Settings.DesktopViewSettings.Opacity.Description": "<color=hero.yellow>대시 메뉴/데스크탑</color>의 불투명도를 설정합니다.",
+        "Settings.DesktopViewSettings.Opacity.Description": "<color=hero.yellow>대시보드/데스크탑</color>의 불투명도를 설정합니다.",
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "제스쳐 촬영 사용",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description" : "활성화하면, VR 상태에서 양손 엄지와 검지를 액자 모양으로 만들어 한쪽 검지를 구부리는 방식으로 빠른 촬영이 가능해집니다.",
@@ -1899,11 +1899,11 @@
         "Settings.PhotoCaptureSettings.StereoSeparation" : "스테레오 촬영 간격조정",
         "Settings.PhotoCaptureSettings.StereoSeparation.Description" : "<color=hero.yellow>스테레오 촬영</color>이 활성화된 상태일때 적용되며, 스테레오 촬영의 특성인 양안거리를 얼마나 넓힐지 결정합니다. 이를 이용하여 스테레오 강도를 조절할 수 있습니다.\n\n가까이 있는 대상을 촬영할때는 값을 낮추고, 멀리있늘 풍경을 촬영할때는 값을 높이면 더 좋은 결과를 얻을 수 있습니다.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "사진 저장 경로",
-        "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "설정시 촬영한 모든 사진이 자동으로 <color=hero.yellow>대시메뉴/보관함</color>에 저장됩니다. 사용 가능한 변수를 이용하면 특정한 경로로 자동 분리 저장할 수 있습니다. (예제. <color=hero.yellow>Photos/%year%/%month_name%</color>)\n\n변수 목록은 다음과 같습니다.\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "설정시 촬영한 모든 사진이 자동으로 <color=hero.yellow>대시보드/보관함</color>에 저장됩니다. 사용 가능한 변수를 이용하면 특정한 경로로 자동 분리 저장할 수 있습니다. (예제. <color=hero.yellow>Photos/%year%/%month_name%</color>)\n\n변수 목록은 다음과 같습니다.\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
         "Settings.PhotoCaptureSettings.OpenAutosavePath": "현재 월드에서 저장된 저장소 경로 열기",
         "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "사진 자동 저장을 구성하였다면, 이 버튼 클릭 시 현재 월드에서 촬영한 사진이 저장된 보관함이 열립니다.\n\n현재 월드에서 촬영한 사진이 없는 경우 수행되지 않습니다.",
         "Settings.PhotoCaptureSettings.CapturePrivateUI" : "개인 로컬 UI도 같이 촬영",
-        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "활성화 시, 즉석 촬영을 할때 대시 메뉴와 같은 개인화된 UI도 같이 촬영합니다. 다른 사용자와의 정보 교환이나 특정 정보를 기록하기 위해 유용할 수 있으나, 이 설정을 항상 유지하면 개인 정보를 유출할 위험이 있으므로 필요할때만 켰다가 끄는 방식으로 사용하는것을 추천합니다.",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description" : "활성화 시, 즉석 촬영을 할때 대시보드와 같은 개인화된 UI도 같이 촬영합니다. 다른 사용자와의 정보 교환이나 특정 정보를 기록하기 위해 유용할 수 있으나, 이 설정을 항상 유지하면 개인 정보를 유출할 위험이 있으므로 필요할때만 켰다가 끄는 방식으로 사용하는것을 추천합니다.",
         "Settings.PhotoCaptureSettings.EncodeFormat" : "압축 형식",
         "Settings.PhotoCaptureSettings.EncodeFormat.Description" : "촬영한 사진을 어떤 형식으로 저장할지를 결정합니다. 특정한 형식이 필요한 경우 이 설정을 이용하여 압축 형식을 선택할 수 있습니다.\n\n특정 형식에는 투명도 지원이 없을수도 있으며 압축 속도가 상당히 느려질 수 있습니다. 이미지 품질이 떨어지거나, 파일 크기가 커질수도 있습니다.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates" : "이름표 항상 숨기기",
@@ -1923,7 +1923,7 @@
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description": "레소나이트가 백그라운드에서 실행중일때 사용할 최대 프레임 속도를 결정합니다. 낮출수록 시스템 자원이 많이 확보됩니다.",
 
         "Settings.InteractiveCameraFramingSettings.PositioningMode": "시점",
-        "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "대화형 카메라(대시 메뉴/홈/카메라 & 방송)가 바라보는 시점을 제어합니다.",
+        "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "대화형 카메라(대시보드/홈/카메라 & 방송)가 바라보는 시점을 제어합니다.",
         "Settings.InteractiveCameraFramingSettings.FieldOfView": "시야각(FOV)",
         "Settings.InteractiveCameraFramingSettings.FieldOfView.Description": "대화형 카메라의 시야(FOV)입니다. 값이 높을수록 가장자리가 왜곡되는 대신 더 넓은 범위를 화면에 담습니다.",
         "Settings.InteractiveCameraFramingSettings.AnglePosition": "각도",
@@ -1977,7 +1977,7 @@
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "활성화 한 경우, 촬영위치 간 이동 속도가 일정해집니다. 촬영위치간 이동에 필요한 시간은 거리에 영향을 받게 됩니다.",
 
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "촬영한 사진을 월드에 생성",
-        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "대시메뉴의 <color=hero.yellow>카메라 & 방송</color>을 클릭하면 표시되는 <color=hero.yellow>카메라 조작</color>을 통해 사진을 촬영한 경우, 촬영 결과물을 월드에 나타나게 하여 다른 사용자들과 공유하고 싶다면 활성화하세요. 비활성화된 상태라면 당신의 보관함 내 지정된 경로(설정한 경우) 또는 개인 컴퓨터에만 저장될 것입니다.",
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "대시보드의 <color=hero.yellow>카메라 & 방송</color>을 클릭하면 표시되는 <color=hero.yellow>카메라 조작</color>을 통해 사진을 촬영한 경우, 촬영 결과물을 월드에 나타나게 하여 다른 사용자들과 공유하고 싶다면 활성화하세요. 비활성화된 상태라면 당신의 보관함 내 지정된 경로(설정한 경우) 또는 개인 컴퓨터에만 저장될 것입니다.",
 
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "모션블러",
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "모션블러 효과를 활성화 하거나 비활성화 합니다.",
@@ -2584,7 +2584,7 @@
         "Migration.NewTask": "새로운 마이그레이션 작업",
 
         "Migration.LoginModal.Title": "데이터 마이그레이션은?",
-        "Migration.LoginModal.Description": "다른 계정으로부터 데이터를 이전하고 싶으신가요? 대시 메뉴 하단에서 \"마이그레이션\"을 찾아보세요.",
+        "Migration.LoginModal.Description": "다른 계정으로부터 데이터를 이전하고 싶으신가요? 대시보드 하단에서 \"마이그레이션\"을 찾아보세요.",
         "Migration.LoginModal.OpenMigration": "마이그레이션 시작",
         "Migration.LoginModal.Later": "나중에",
         "Migration.LoginResetID.Title": "정말로 UserID를 초기화 하실건가요?",
@@ -2713,7 +2713,7 @@
         "Tutorial.Teleporter.Destinations.PickAnotherSession": "다른 세션 선택",
         "Tutorial.Teleporter.Destinations.PickPublicSession": "공개 세션에 참여",
 
-        "Tutorial.Teleporter.WorldsTabHint": "데시메뉴의 <color=hero.yellow>월드</color> 탭을 이용하여 참여할 세션을 찾아볼 수 있습니다!",
+        "Tutorial.Teleporter.WorldsTabHint": "대시보드의 <color=hero.yellow>월드</color> 탭을 이용하여 참여할 세션을 찾아볼 수 있습니다!",
 
         "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>세션 참여 실패!: (</color><br><size=66%>다른 선택지가 남아 있습니다.:</size>",
 
@@ -2748,10 +2748,10 @@
 
         "CloudHome.Info.HelpTab.Title": "도움요청",
         "CloudHome.Info.HelpTab.InfoLineOne": "도움이 필요하신가요? <u><color=hero.yan>위키</color></u><sprite name=hyperlink>를 살펴보거나, 디스코드 등에 질문하시고 그 답을 구해보세요.",
-        "CloudHome.Info.HelpTab.InfoLineTwo": "링크 클릭시 VR이시면 대시 메뉴내 <i><color=hero.purple>데스크탑</color></i> 메뉴를 이용하시면 내용 확인이 수월합니다.",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "링크 클릭시 VR이시면 대시보드내 <i><color=hero.purple>데스크탑</color></i> 메뉴를 이용하시면 내용 확인이 수월합니다.",
 
         "CloudHome.Info.UsersTab.Title": "사용자 찾기",
-        "CloudHome.Info.UsersTab.Content": "공개 세션은 커뮤니티에 참여하기 좋은 방법입니다!<br><br>지금 참여할 수 있는 공개 세션은 <i><color=hero.purple>월드</color></i>에서 확인할 수 있습니다. 대시 메뉴 하단에서 찾아보세요.",
+        "CloudHome.Info.UsersTab.Content": "공개 세션은 커뮤니티에 참여하기 좋은 방법입니다!<br><br>지금 참여할 수 있는 공개 세션은 <i><color=hero.purple>월드</color></i>에서 확인할 수 있습니다. 대시보드 하단에서 찾아보세요.",
 
         "Mirror.Header.RenderingOptions" : "렌더링 옵션",
         "Mirror.Header.Type" : "거울",
@@ -2862,8 +2862,8 @@
         "Tutorial.Panel.TeleportLocomotion.Title": "텔레포트 이동기능",
         "Tutorial.Panel.TeleportLocomotion.Content": "텔레포트 지시자를 이용하여 즉시 이동할 수 있습니다.",
 
-        "Tutorial.DashboardInfo.Header": "데시메뉴",
-        "Tutorial.DashboardInfo.Content": "<b><color=hero.cyan>데시메뉴</closeall>는 주 메뉴입니다. 이 메뉴를 이용하여 타인과 대화하거나 탐험할 월드를 찾아다닐 수 있습니다. 물론 유용한 다른 기능들도 제공합니다.<br><br>더 많은 정보가 필요하시다면 <b><color=hero.purple>도움말</color> 탭을 눌러주세요.",
+        "Tutorial.DashboardInfo.Header": "대시보드",
+        "Tutorial.DashboardInfo.Content": "<b><color=hero.cyan>대시보드</closeall>는 주 메뉴입니다. 이 메뉴를 이용하여 타인과 대화하거나 탐험할 월드를 찾아다닐 수 있습니다. 물론 유용한 다른 기능들도 제공합니다.<br><br>더 많은 정보가 필요하시다면 <b><color=hero.purple>도움말</color> 탭을 눌러주세요.",
         "Tutorial.DashboardInfo.GotIt": "확인",
 
         "Tutorial.MentorPanel.Title": "도움이 필요하신가요?",
@@ -2914,9 +2914,9 @@
 
         "Hints.Sundial.Doorway": "계속 하려면 들어가세요.",
 
-        "Hints.DashboardDesktop": "<color=hero.yellow>ESC</color> 키를 눌러 데시메뉴을 활성화 또는 비활성화 할 수 있습니다.!",
-        "Hints.DashboardVR": "<color=hero.yellow>Menu</color> 버튼을 눌러 데시메뉴를 활성화 또는 비활성화 할 수 있습니다.",
-        "Hints.DashboardExtra": "데시메뉴에 대한 추가 정보는 아래를 참조하세요.",
+        "Hints.DashboardDesktop": "<color=hero.yellow>ESC</color> 키를 눌러 대시보드을 활성화 또는 비활성화 할 수 있습니다.!",
+        "Hints.DashboardVR": "<color=hero.yellow>Menu</color> 버튼을 눌러 대시보드를 활성화 또는 비활성화 할 수 있습니다.",
+        "Hints.DashboardExtra": "대시보드에 대한 추가 정보는 아래를 참조하세요.",
 
         "Hints.Teleporter": "텔레포터에 올라선 후 다음으로 갈 곳을 선택해 보세요.",
         "Hints.TeleporterExtra": "어디로 향하든 {appName}를 즐겨주시기 바랍니다.!",
@@ -3219,7 +3219,7 @@
         "Help.GettingStarted.AvatarBasics.Equipping": "착용",
         "Help.GettingStarted.AvatarBasics.Equipping.Content": "<b><color=hero.purple>아바타</closeall>는 {appName}에서 의상 같은 것입니다. 마음에 드는 아바타를 저장해두고, 저장한 아바타를 월드에 꺼낼 수 있습니다!<br><br>아바타 착용 방법은 {is_desktop, select, True {} other {<b><color=hero.purple>{Primary_Input}</closeall>을(를) 눌러 지시선을 보이게 하고,}} 아바타를 {is_desktop, select, True {} other {지시선으로 가리킨 후}} <b><color=hero.purple>{Primary_Input}</closeall>을(를) {is_desktop, select, True {} other {다시한번 누릅니다}}. 그러면 메뉴가 표시되는데, 여기서 <sprite name=EquipAvatar> <b><color=hero.green>아바타 장착</closeall>을 누르세요.",
         "Help.GettingStarted.AvatarBasics.Equipping.Content2": "다른 방법으로 아바타를 <b><color=hero.purple>{Grip_Input}</closeall>으로 잡은 상태로 <b><color=hero.purple>{Context_Menu_Input}</closeall>을(를) {is_using_vive_wands, select, True {빠르게} other {}} 눌러 <color=hero.cyan><b>컨텍스트 메뉴</closeall>를 호출한 후 <sprite name=EquipAvatar> <b><color=hero.green>아바타 장착</closeall>을 누르세요.",
-        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard": "데시메뉴 열기",
+        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard": "대시보드 열기",
         "Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content": "If you want the avatar you're currently using to be the one you load in as, you can do this using your <b><color=hero.cyan>Dashboard</closeall>, which is your all-in-one place to talk with others, browse your Inventory, or explore different worlds.<br><br>To open or close it, press {is_using_vive_wands, select, True{and hold } other{}}<b><color=hero.purple>{Menu_Input}</closeall>{is_using_vive_wands, select, True{ until the ring is full, then release} other{}}!",
         "Help.GettingStarted.AvatarBasics.CreatingAFolder": "폴더 생성",
         "Help.GettingStarted.AvatarBasics.CreatingAFolder.Content": "Your Dashboard has many tabs and things you can do with it. One of these things is being able to save items and avatars to your personal <b><color=hero.yellow>Inventory</closeall>. Regarding saving items and other things on your time here in {appName}, organization is key to a good inventory, so first you'll make a folder to keep your avatar in.<br><br>To do this, in the assortment of buttons at the top of the Inventory screen, press the <sprite name=SaveIcon> <b><color=hero.cyan>Create Folder</closeall> button. Give your folder a name and select <b><color=hero.green>Create</closeall> to make it - you'll automatically be placed inside that folder.",
@@ -3252,7 +3252,7 @@
 
         "Help.GettingStarted.YourContacts": "연락처",
         "Help.GettingStarted.YourContacts.FindingContacts": "연락처",
-        "Help.GettingStarted.YourContacts.FindingContacts.Content": "{appName}에서 당신은 다른 사용자를 연락처를 <b><color=hero.green>연락처</closeall>에 추가하고, 친구들이 있는 세션을 확인하거나, 메시지를 보내는 등 여러가지 기능을 수행할 수 있습니다.<br><br>이는 데시메뉴 하단의 <sprite name=ContactsIcon> <b><color=hero.green>Contacts</closeall> 탭을 통해 접근할 수 있습니다.",
+        "Help.GettingStarted.YourContacts.FindingContacts.Content": "{appName}에서 당신은 다른 사용자를 연락처를 <b><color=hero.green>연락처</closeall>에 추가하고, 친구들이 있는 세션을 확인하거나, 메시지를 보내는 등 여러가지 기능을 수행할 수 있습니다.<br><br>이는 대시보드 하단의 <sprite name=ContactsIcon> <b><color=hero.green>Contacts</closeall> 탭을 통해 접근할 수 있습니다.",
         "Help.GettingStarted.YourContacts.ContactsBrowser": "사용자 탐색",
         "Help.GettingStarted.YourContacts.ContactsBrowser.Content": "<sprite name=ContactsIcon><b><color=hero.green>연락처</closeall> 화면 사용자 목록의 바로 위에는 특정 사용자를 찾을 수 있는 검색창이 표시됩니다. 좌측에서 사용자를 선택하면 우측에 해당 사용자의 정보와 수행할 수 있는 작업이 표시됩니다.",
         "Help.GettingStarted.YourContacts.Searching": "찾아보기",
@@ -3334,7 +3334,7 @@
         "Help.Controls.Interaction.Lasers.FreeformRotation": "자율 회전",
         "Help.Controls.Interaction.Lasers.FreeformRotation.Content": "대상을 잡은 상태로 <b><color=hero.purple>{Primary_Input}</closeall>을(를) 더블클릭하면, 손의 움직임에 맞춰 대상을 회전시킬 수 있습니다. 해제는 <b><color=hero.purple>{Primary_Input}</closeall>을(를) 더블클릭하면 기본 잡기로 돌아옵니다.",
         "Help.Controls.Interaction.Lasers.TogglingLasers": "지시선 켜고 끄기",
-        "Help.Controls.Interaction.Lasers.TogglingLasers.Content": "지시선이 방해(예시. 사진을 찍을때...)된다면 이를 켜거나 끌 수 있습니다. <b><color=hero.purple>{Context_Menu_Input}</closeall>을(를) {is_using_vive_wands, select, True {짧게 눌러} other {눌러}} <color=hero.cyan><b>컨텍스트 메뉴</closeall>를 활성화하면 보이는 <b><color=hero.cyan>지시선 활성화</closeall>/<b><color=hero.cyan>비활성화</closeall>를 눌러보세요. 단, 데시메뉴나 컨텍스트 메뉴등에서는 꺼져 있더라도 표시됩니다.",
+        "Help.Controls.Interaction.Lasers.TogglingLasers.Content": "지시선이 방해(예시. 사진을 찍을때...)된다면 이를 켜거나 끌 수 있습니다. <b><color=hero.purple>{Context_Menu_Input}</closeall>을(를) {is_using_vive_wands, select, True {짧게 눌러} other {눌러}} <color=hero.cyan><b>컨텍스트 메뉴</closeall>를 활성화하면 보이는 <b><color=hero.cyan>지시선 활성화</closeall>/<b><color=hero.cyan>비활성화</closeall>를 눌러보세요. 단, 대시보드나 컨텍스트 메뉴등에서는 꺼져 있더라도 표시됩니다.",
 
         "Help.Controls.Interaction.Equipping": "장착하기",
         "Help.Controls.Interaction.Equipping.Content": "<b><color=hero.purple>Equipping</closeall> items places them in your hand, and lets you perform actions. To equip an object or tool, aim your laser at it, press <b><color=hero.purple>{Primary_Input}</closeall>, and select <b><color=hero.cyan>Equip</closeall>. {is_desktop, select, True {} other {If you can't see your laser, press <b><color=hero.purple>{Primary_Input}</closeall> first to reveal your laser, then try again. }}",
@@ -3373,7 +3373,7 @@
         "Help.Controls.VRGestures.ToggleEditMode.Content": "This gesture toggles <b><color=hero.cyan>Edit Mode</closeall>. This shows your lasers and grab area on your hands permanently, or until Edit Mode is disabled. To toggle Edit Mode, bring your controllers to your head and hold <b><color=hero.purple>{Context_Menu_Input}</closeall> on <i>one</i> of your controllers and double press <b><color=hero.purple>{Context_Menu_Input}</closeall> on your other controller.",
         "Help.Controls.VRGestures.ToggleUIEditMode": "UI 편집 모드 전환",
         "Help.Controls.VRGestures.ToggleUIEditMode.Content": "This gesture toggles <b><color=hero.cyan>UI Edit Mode</closeall> which allows you to add, remove, or edit facets on your Dashboard or Avatar Facet Anchors. When enabled, you also edit your grab poses for tools when this is enabled. To toggle UI Edit Mode, bring your controllers to your head and hold <b><color=hero.purple>{Menu_Input}</closeall> on <i>one</i> of your controllers and double press <b><color=hero.purple>{Menu_Input}</closeall> on your other controller. You can also enable UI Edit Mode via the <b><color=hero.cyan>UI Edit Mode</closeall> toggle in your <b><color=hero.yellow>Settings</closeall>, under <sprite name=UserInterfaceIcon> <b><color=hero.purple>User Interface</closeall>.",
-        "Help.Controls.VRGestures.ToggleDashboard": "데시메뉴 전환",
+        "Help.Controls.VRGestures.ToggleDashboard": "대시보드 전환",
         "Help.Controls.VRGestures.ToggleDashboard.Content": "This gesture opens and closes your dashboard. To open or close your dash, bring your left controller to your head and press your <b><color=hero.purple>{Context_Menu_Input}</closeall>.",
         "Help.Controls.VRGestures.ToggleFacetAnchors": "페싯 앵커 전환",
         "Help.Controls.VRGestures.ToggleFacetAnchors.Content": "This gesture opens and closes your facet anchors. To open or close your dash, bring your right controller to your head and press your <b><color=hero.purple>{Context_Menu_Input}</closeall>.",
@@ -3397,7 +3397,7 @@
       
         "Help.General": "일반",
         "Help.General.VoiceMode": "음성모드",
-        "Help.General.VoiceMode.Content": "<color=hero.purple><b>음성모드</closeall>는 다른 사용자에게 목소리가 전달되는 방식을 설정합니다.<br><br><color=hero.purple><b>데시메뉴</closeall>의 우측 상단에서 제공되는 UI를 통해 설정 가능합니다.",
+        "Help.General.VoiceMode.Content": "<color=hero.purple><b>음성모드</closeall>는 다른 사용자에게 목소리가 전달되는 방식을 설정합니다.<br><br><color=hero.purple><b>대시보드</closeall>의 우측 상단에서 제공되는 UI를 통해 설정 가능합니다.",
         "Help.General.VoiceMode.Broadcast": "전역",
         "Help.General.VoiceMode.Broadcast.Content": "거리에 상관없이 세션에 있는 모든 사용자에게 목소리가 전달됩니다.",
         "Help.General.VoiceMode.Shout": "외치기",
@@ -3436,7 +3436,7 @@
         "Help.General.Favoriting.Hyperlink.Content": "기본 URL 링크 표시기로 지정",
         "Help.General.Favoriting.Document.Content": "기본 PDF 뷰어로 지정",
 
-        "Help.Dashboard": "데시메뉴",
+        "Help.Dashboard": "대시보드",
         "Help.Dashboard.Home.Content": "The <sprite name=HomeIcon> <b><color=hero.cyan>Home</closeall> tab is the first tab on the bottom of your Dashboard. Here you can find options for voice modes, your profile and online status in the top left, and your personal storage amount on the bottom left, among other useful bits of information. Your Home tab can also be customized by enabling <b><color=hero.yellow>UI Edit Mode</closeall> in your <b><color=hero.cyan>Settings</closeall>.",
         "Help.Dashboard.Worlds.Content": "You can join active sessions and browse <b><color=hero.cyan>Worlds</closeall> using this tab.",
         "Help.Dashboard.Contacts.Content": "Here, you can find your <b><color=hero.green>Contacts</closeall> and search for them by typing into the text field on the top left.",
@@ -3455,7 +3455,7 @@
 
         "Help.Dashboard.Settings.Audio.Content": "음량, 음향 장치, 필터링, 음향 접근성등을 관리합니다.",
         "Help.Dashboard.Settings.Controls.Content": "조작(마우스, VR 컨트롤러 등)계를 관리합니다.",
-        "Help.Dashboard.Settings.UserInterface.Content": "알림 수신 방법, 언어 변경, 이름표 표시 및 대시메뉴 설정을 포함하되 이에 국한되지 않는 UI를 관리합니다.",
+        "Help.Dashboard.Settings.UserInterface.Content": "알림 수신 방법, 언어 변경, 이름표 표시 및 대시보드 설정을 포함하되 이에 국한되지 않는 UI를 관리합니다.",
         "Help.Dashboard.Settings.Devices.Content": "햅틱 장비, 안면 추적 장치등의 외부 장치들을 관리합니다.",
         "Help.Dashboard.Settings.Profile.Content": "당신의 신장(키)과 상태를 표시하는 방식을 관리합니다.",
         "Help.Dashboard.Settings.Graphics.Content": "그래픽 설정을 관리합니다.",
@@ -3467,8 +3467,8 @@
         "Help.Dashboard.Settings.Misc.Content": "과거 또는 디버그 기능",
 
         "Help.Dashboard.Exit.Content": "{appName} 종료시 사용하는 탭입니다. 여기를 누르면...<br><br><b><color=hero.cyan>저장 후 종료</closeall>를 통해 로컬홈을 저장하고 종료 하거나, <b><color=hero.red>{appName} 종료(저장안함)</closeall>를 눌러 로컬홈을 저장하지 않고 바로 종료할 수도 있습니다.",
-        "Help.Dashboard.DashboardCustomization": "데시메뉴 개인화",
-        "Help.Dashboard.DashboardCustomization.Content": "일부 탭들은 위젯 형식과 유사한 <b><color=hero.cyan>패싯</closeall>을 개인 취향대로 추가, 조정, 삭제할 수 있는 기능을 제공합니다. 설정에서 <b><color=hero.cyan>UI 편집 모드</closeall>를 활성화 하여, 데시메뉴를 편집해 보세요.<br><br>UI 편집 모드가 활성화된 상태에서는 데시메뉴 하단에 편집 모드를 종료하는 버튼이 표시됩니다. 또한, 편집 가능한 탭에는 격자 무늬가 나타납니다. 지시선으로 패싯을 가리키면 강조 효과가 나타나며, 이 상태에서 <b><color=hero.purple>{Grip_Input}</closeall>을 길게 눌러 패싯을 제거할 수 있습니다. 패싯을 잡은 상태에서 격자가 표시되는 구역내에 배치하고 싶은 위치를 가리킨 후, 그 상태로 놓거나 또는 클릭 & 드래그하여 배치 크기를 설정할 수 있습니다.",
+        "Help.Dashboard.DashboardCustomization": "대시보드 개인화",
+        "Help.Dashboard.DashboardCustomization.Content": "일부 탭들은 위젯 형식과 유사한 <b><color=hero.cyan>패싯</closeall>을 개인 취향대로 추가, 조정, 삭제할 수 있는 기능을 제공합니다. 설정에서 <b><color=hero.cyan>UI 편집 모드</closeall>를 활성화 하여, 대시보드를 편집해 보세요.<br><br>UI 편집 모드가 활성화된 상태에서는 대시보드 하단에 편집 모드를 종료하는 버튼이 표시됩니다. 또한, 편집 가능한 탭에는 격자 무늬가 나타납니다. 지시선으로 패싯을 가리키면 강조 효과가 나타나며, 이 상태에서 <b><color=hero.purple>{Grip_Input}</closeall>을 길게 눌러 패싯을 제거할 수 있습니다. 패싯을 잡은 상태에서 격자가 표시되는 구역내에 배치하고 싶은 위치를 가리킨 후, 그 상태로 놓거나 또는 클릭 & 드래그하여 배치 크기를 설정할 수 있습니다.",
 
         "Help.Avatars": "아바타",
 
