@@ -1558,6 +1558,10 @@
         "Settings.SteamLinkSettings.OSC_DataPort" : "안면추적 OSC 포트번호",
         "Settings.SteamLinkSettings.OSC_DataPort.Description" : "OSC를 통한 안면 추적에 사용할 통신 포트를 설정합니다. 설정값은 SteamVR에서 설정한 것과 동일하게 하셔야 합니다.",
 
+        "Settings.BabbleSettings": "Project Babble(DIY 하관 추적 프로젝트)",
+        "Settings.BabbleSettings.OSC_DataPort": "OSC 안면 추적 포트",
+        "Settings.BabbleSettings.OSC_DataPort.Description": "OSC 안면 추적 정보를 수신할때 사용할 포트로서, Babble S/W의 설정 페이지에서 지정한 포트번호와 일치해야 합니다.",
+        
         "Settings.HapticPointMapping.MappingTarget" : "맵핑할 위치",
         "Settings.HapticPointMapping.MappingTarget.Description" : "맵핑할 아바타의 신체 부위를 선택합니다.",
 
@@ -3441,13 +3445,13 @@
         "Help.Dashboard.Inventory.Content2": "Your Inventory also contains a link to the <b><color=hero.cyan>{appName} Essentials</closeall> folder. This folder contains a myriad of content, from useful tools and gadgets, to fun and silly things - browse and see what's here!<br><br>Since the folder is a <i>link</i>, it does not use your account's storage space. You also can't save to it, but anything inside it you can spawn and change however you like.<br><br>If you have a cool item you'd like to have available in the Essentials folder, head to the link below to see the <b><color=hero.cyan>{appName} Essentials Submission Form</closeall>!",
         "Help.Dashboard.SessionSettings.Content": "The <b><color=hero.cyan>Session</closeall> tab is where you can find settings for the current <b><color=hero.cyan>Session</closeall> that you are in.",
 
-        "Help.Dashboard.SessionSettings.Settings.Content": "Change the name, access level, and description of your session.",
-        "Help.Dashboard.SessionSettings.Users.Content": "You can manage the users in your session here. You can also respawn yourself and others from this menu.",
-        "Help.Dashboard.SessionSettings.Permissions.Content": "Shows you the permission levels of every user in the session. If your permission level is moderator or above, you can assign permission levels to other users.",
-        "Help.Dashboard.Desktop.Content": "The <b><color=hero.cyan>Desktop</closeall> tab lets you view your desktop screens.<br><br>Pressing <b><color=hero.purple>{Context_Menu_Input}</closeall> while pointing at your desktop will open a menu to open your keyboard, or switch monitors.",
-        "Help.Dashboard.FileBrowser.Content": "Using the <b><color=hero.cyan>Files</closeall> tab, you can browse your computer's filesystem, share files, and import assets.",
-        "Help.Dashboard.FileBrowser.Content2": "Available at the top of the window are a set of buttons for adding or importing files, and more.<br><br>    • <b><color=hero.cyan>Import</closeall>: With a file selected, this will let you import that file into {appName} if it is a supported type.<br><br>    • <b><color=hero.orange>Import As File</closeall>: With a file selected, this lets you import a file as an in-world representation of the file itself, letting you easily share it with others, or save it to your inventory.<br><br>    • <b><color=hero.green>Add Folder</closeall>: This lets you create a new folder on your computer.<br><br>    • <b><color=#7777ff>Refresh</closeall>: This refreshes the file browser, in case the files present have changed.",
-        "Help.Dashboard.Settings.Content": "The <b><color=hero.cyan>Settings</closeall> tab is where you can find and customize your settings. All of {appName}'s settings are categorized by the list below.",
+        "Help.Dashboard.SessionSettings.Settings.Content": "세션의 이름과 접근 등급 및 설명을 변경합니다.",
+        "Help.Dashboard.SessionSettings.Users.Content": "여기에서 세션에 있는 사용자를 관리할 수 있습니다. 또한 이 메뉴를 통해 자신을 포함한 다른 사용자들을 리스폰시킬 수 있습니다.",
+        "Help.Dashboard.SessionSettings.Permissions.Content": "세션에 있는 모든 사용자의 권한 정보를 보여줍니다. Moderator 권한을 가지고 있는 사용자의 경우 타인에게 권한 등급을 지정할 수 있습니다.",
+        "Help.Dashboard.Desktop.Content": "<b><color=hero.cyan>데스크탑</closeall>탭을 사용하여 시스템의 바탕화면에 접근할 수 있습니다.<br><br>바탕화면을 가리키며 <b><color=hero.purple>{Context_Menu_Input}</closeall>를 누르면 가상 키보드 표시 또는 모니터 전환등을 수행할 수 있는 메뉴가 나타납니다.",
+        "Help.Dashboard.FileBrowser.Content": "<b><color=hero.cyan>파일탐색기</closeall>탭을 사용하여 컴퓨터의 파일 시스템을 탐색하고, 파일을 공유하고, 자산을 {appname}에 가져올 수 있습니다.",
+        "Help.Dashboard.FileBrowser.Content2": "상단에 파일을 추가하거나, 가져오기등을 수행하기 위한 버튼들과 기타 기능들이 있습니다.<br><br>    • <b><color=hero.cyan>가져오기</closeall>: 선택된 파일이 {appName}에서 지원하는 유형인 경우, 자산 또는 사용할 수 있는 구조로 가져옵니다.<br><br>    • <b><color=hero.orange>파일로 가져오기</closeall>: 선택한 파일을 공유를 위한 형태로 월드에 가져옵니다.<br><br>    • <b><color=hero.green>폴더 추가</closeall>: 컴퓨터에 새로운 폴더를 생성합니다.<br><br>    • <b><color=#7777ff>새로고침</closeall>: 현재 위치의 파일 및 폴더 목록을 다시 불러옵니다.",
+        "Help.Dashboard.Settings.Content": "<b><color=hero.cyan>설정</closeall>탭을 이용하여 개인화할 수 있는 것들도 많이 있으며, 아래와 같은 유형으로 분류되어 있습니다.",
 
         "Help.Dashboard.Settings.Audio.Content": "음량, 음향 장치, 필터링, 음향 접근성등을 관리합니다.",
         "Help.Dashboard.Settings.Controls.Content": "조작(마우스, VR 컨트롤러 등)계를 관리합니다.",
@@ -3462,9 +3466,9 @@
         "Help.Dashboard.Settings.Integrations.Content": "디스코드나 스팀에 {appName}의 실행 여부를 알릴지 설정합니다.",
         "Help.Dashboard.Settings.Misc.Content": "과거 또는 디버그 기능",
 
-        "Help.Dashboard.Exit.Content": "This tab allows you to quit {appName}.<br><br><b><color=hero.cyan>Exit And Save Homes</closeall> allows you to save your home before you quit, and <b><color=hero.red>Exit And Discard Homes</closeall> will not save your home.",
+        "Help.Dashboard.Exit.Content": "{appName} 종료시 사용하는 탭입니다. 여기를 누르면...<br><br><b><color=hero.cyan>저장 후 종료</closeall>를 통해 로컬홈을 저장하고 종료 하거나, <b><color=hero.red>{appName} 종료(저장안함)</closeall>를 눌러 로컬홈을 저장하지 않고 바로 종료할 수도 있습니다.",
         "Help.Dashboard.DashboardCustomization": "데시메뉴 개인화",
-        "Help.Dashboard.DashboardCustomization.Content": "Some tabs on your Dashboard can be customized and contain <b><color=hero.cyan>Facets</closeall>, or individual elements on the tab. Facets can be added, removed, resized, and replaced - which is how you can customize these tabs. To edit the facets on your Dashboard, enable <b><color=hero.cyan>UI Edit Mode</closeall> in your settings, or perform the quick gesture to enable it.<br><br>When UI Edit Mode is enabled, you will see a button below your Dashboard to disable UI Edit Mode. On tabs you can edit, a grid will appear behind the facets on the tab. Aiming at a Facet with your laser will highlight it, and while aiming at it you can press and hold <b><color=hero.purple>{Grip_Input}</closeall> to take off the Facet. While holding onto a Facet, you can aim on the Dashboard where you'd like to place it - release grip to place the Facet as-is, or instead click and drag with your laser to choose exactly where you'd like the Facet to be placed.",
+        "Help.Dashboard.DashboardCustomization.Content": "일부 탭들은 위젯 형식과 유사한 <b><color=hero.cyan>패싯</closeall>을 개인 취향대로 추가, 조정, 삭제할 수 있는 기능을 제공합니다. 설정에서 <b><color=hero.cyan>UI 편집 모드</closeall>를 활성화 하여, 데시메뉴를 편집해 보세요.<br><br>UI 편집 모드가 활성화된 상태에서는 데시메뉴 하단에 편집 모드를 종료하는 버튼이 표시됩니다. 또한, 편집 가능한 탭에는 격자 무늬가 나타납니다. 지시선으로 패싯을 가리키면 강조 효과가 나타나며, 이 상태에서 <b><color=hero.purple>{Grip_Input}</closeall>을 길게 눌러 패싯을 제거할 수 있습니다. 패싯을 잡은 상태에서 격자가 표시되는 구역내에 배치하고 싶은 위치를 가리킨 후, 그 상태로 놓거나 또는 클릭 & 드래그하여 배치 크기를 설정할 수 있습니다.",
 
         "Help.Avatars": "아바타",
 
