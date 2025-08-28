@@ -459,7 +459,7 @@
         "Login.AccountBanned": "您的帳號已被封鎖。",
         "Login.AccountBanned.Description": "請聯繫管理員：{moderationUrl}。",
 
-        "Login.DuplicateAccount": "重複的賬號",
+        "Login.DuplicateAccount": "重複的帳號",
         "Login.DuplicateAccount.Description": "請聯繫支援：{supportUrl}。",
 
         "Login.UnknownError": "未知錯誤",
@@ -825,9 +825,9 @@
         "Tools.Cartridge.Eject": "取出球體",
 
         "Tools.Microphone.Name": "麥克風",
-        "Tools.Microphone.Format.WAV": "WAV檔案",
-        "Tools.Microphone.Format.Vorbis": "OGG檔案",
-        "Tools.Microphone.Format.FLAC": "FLAC檔案",
+        "Tools.Microphone.Format.WAV": "WAV 檔案",
+        "Tools.Microphone.Format.Vorbis": "OGG 檔案",
+        "Tools.Microphone.Format.FLAC": "FLAC 檔案",
         "Tools.Microphone.ModeHold": "按住以錄製聲音",
         "Tools.Microphone.ModePress": "按下以開始/停止錄製聲音",
         "Tools.Microphone.SourceRaw": "原始檔案",
@@ -896,7 +896,7 @@
         "CreateNew.LegacyParticleSystem": "舊版粒子系統",
 
         "CreateNew.Object": "物件",
-        "CreateNew.Object.AvatarCreator": "虛擬化身建立器",
+        "CreateNew.Object.AvatarCreator": "化身建造器",
         "CreateNew.Object.Camera": "相機",
         "CreateNew.Object.ReflectionProbe": "反射探針",
         "CreateNew.Object.ReverbZone": "迴音區域",
@@ -957,7 +957,7 @@
         "CreateNew.Directory.Error.LongName": "名稱太長了：",
         "CreateNew.Directory.Error.InvalidName": "無效名稱：",
 
-        "AvatarCreator.Title": "虛擬化身建立器",
+        "AvatarCreator.Title": "化身建造器",
         "AvatarCreator.Instructions": "將化身對象與頭顯和控制器參考對齊（可選），然後按建立將其轉換為化身",
         "AvatarCreator.UseSymmetry": "使用對稱",
         "AvatarCreator.ShowToolAnchors": "顯示工具錨點",
@@ -1135,7 +1135,7 @@
         "Exporter.InvalidFileName": "無效的檔案名稱",
 
         "Export.PackageExportable.Package": "Resonite 物件包",
-        "Export.PackageExportable.PackageWithVariants": "Resonite 物件包<size=75%>（+版本）</size>",
+        "Export.PackageExportable.PackageWithVariants": "Resonite 物件包<size=75%>（+格式轉換）</size>",
 
         "Export.AudioExportable.OriginalFormat": "音訊 <size=75%>（初始格式）</size>",
 
@@ -1161,7 +1161,7 @@
         "NewWorld.AutoPort": "自動設定：",
         "NewWorld.DefaultName": "{name} 的世界",
 
-        "FullBody.Title": "全身追蹤/化身校正",
+        "FullBody.Title": "全身追蹤/化身校正器",
         "FullBody.SetHeight": "1）設定身高",
         "FullBody.HeightInstructions": "確定這是您的實際身高，否則校正將無法正常進行。人體模型應與頭顯和控制器相符。",
         "FullBody.HeightWarning": "身高似乎不正確，確定這是您的實際身高。",
@@ -1264,13 +1264,13 @@
 
         "CameraControl.Control.AnyoneCanInteract": "任何人都可以互動",
         "CameraControl.Control.RenderPreviewForEveryone": "對所有人顯示相機預覽",
-        "CameraControl.Control.RenderPrivateUI": "渲染私人使用者界面",
+        "CameraControl.Control.RenderPrivateUI": "渲染私人 UI",
         "CameraControl.Control.MotionBlur": "動態模糊",
         "CameraControl.Control.ScreenSpaceReflections": "螢幕空間反射 (SSR)",
         "CameraControl.Control.SpawnPhotoInWorld": "拍照時在世界內生成照片",
         "CameraControl.Control.FlipPreview": "相機預覽左右反轉",
-        "CameraControl.Control.GroupDetectionRadius": "團體檢測半徑：{n} m",
-        "CameraControl.Control.GroupExcludeBoundary": "團體排除邊界：{n} m",
+        "CameraControl.Control.GroupDetectionRadius": "團體偵測半徑：{n} m",
+        "CameraControl.Control.GroupExcludeBoundary": "使用者離開團體的距離：{n} m",
         "CameraControl.Control.PositionSmoothSpeed": "相機移動速度：{n}",
         "CameraControl.Control.AngleSmoothSpeed": "相機旋轉速度：{n}",
         "CameraControl.Control.FramingSmoothSpeed": "相機取景速度：{n}",
@@ -1415,9 +1415,9 @@
         "Settings.MovementSettings.NoClipSpeed": "穿牆模式速度",
         "Settings.MovementSettings.NoClipSpeed.Description": "穿牆模式的速度，不會受到世界和化身配置的影響",
         "Settings.MovementSettings.MovementDeadzone": "移動偵測死區",
-        "Settings.MovementSettings.MovementDeadzone.Description": "若您的搖桿在移動時經常鬼飄，建議將此數值提高，需要將搖桿方向輸入大於一定的程度才可移動",
+        "Settings.MovementSettings.MovementDeadzone.Description": "若您的搖桿在移動時經常漂移，建議將此數值提高，需要將搖桿方向輸入大於一定的程度才可移動",
         "Settings.MovementSettings.TurningDeadzone": "轉向偵測死區",
-        "Settings.MovementSettings.TurningDeadzone.Description": "若您的搖桿在轉向時經常鬼飄，建議將此數值提高，需要將搖桿方向輸入大於一定的程度才可移動",
+        "Settings.MovementSettings.TurningDeadzone.Description": "若您的搖桿在轉向時經常漂移，建議將此數值提高，需要將搖桿方向輸入大於一定的程度才可移動",
         "Settings.MovementSettings.MovementExponent": "移動起始速度",
         "Settings.MovementSettings.MovementExponent.Description": "控制起始移動的速度和速度曲線",
 
@@ -1458,13 +1458,13 @@
         "Settings.KeyboardLookSettings.VerticalSpeed": "鍵盤操控視角時的垂直移動速度",
         "Settings.KeyboardLookSettings.VerticalSpeed.Description": "用於調整使用鍵盤視角控制時，頭部垂直移動的速度。",
 
-        "Settings.GeneralHapticsSettings.EnableControllerVibration": "搖桿震動",
-        "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "開關VR上搖桿的震動。",
+        "Settings.GeneralHapticsSettings.EnableControllerVibration": "控制器震動",
+        "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "開關 VR 上控制器的震動。",
         "Settings.GeneralHapticsSettings.EnableHaptics": "觸覺回饋",
-        "Settings.GeneralHapticsSettings.EnableHaptics.Description": "世界物體與玩家的互動將回應至搖桿或其他回饋裝置使其震動。",
+        "Settings.GeneralHapticsSettings.EnableHaptics.Description": "世界物體與玩家的互動將回應至控制器或其他回饋裝置使其震動。",
 
-        "Settings.GeneralVRSettings.UseVRHotswitching": "VR桌面模式自動切換",
-        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "穿戴VR會自動切換桌面、VR模式。",
+        "Settings.GeneralVRSettings.UseVRHotswitching": "VR 桌面模式自動切換",
+        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "穿戴 VR 會自動切換桌面、VR 模式。",
 
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "手部移位防抖",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "手部轉向防抖",
@@ -1647,7 +1647,7 @@
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "音訊輸出裝置",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "設為預設",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "強制更新音訊裝置列表",
-        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "點選此選項使 Resonite 強制更新音訊裝置列表，一般情況下應無須使用，但若 Resonite 無法取得剛加入的音訊裝置，可以嘗試此按鈕。",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "點選此選項使 {appName} 強制更新音訊裝置列表，一般情況下應無須使用，但若 {appName} 無法取得剛加入的音訊裝置，可以嘗試此按鈕。",
         "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "相機串流使用不同音訊輸出裝置",
         "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "啟用後，相機輸出串流畫面會使用相機視角來擷取聲音，並輸出至不同的音訊裝置。<br><br>本選項可以讓您聆聽自己視角的聲音，並同時以相機視角來擷取。<br><br>本功能必須要在所選的裝置與一般音訊輸出裝置不同才能使用。",
         "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "相機串流音訊輸出裝置",
@@ -1661,7 +1661,7 @@
         "Settings.AudioVolumeSettings.MultimediaVolume.Description": "各種多媒體音訊的音量， 通常情况下，多半為影片、音效播放器等多媒體音訊，部分包含世界背景音效",
         "Settings.AudioVolumeSettings.VoiceVolume": "語音音量",
         "Settings.AudioVolumeSettings.VoiceVolume.Description": "控制所有玩家的說話音量，部分會影響到預先錄製的音檔，補充：您可以透過活動子選單中調整個別玩家的音量",
-        "Settings.AudioVolumeSettings.UserInterfaceVolume": "UI音量",
+        "Settings.AudioVolumeSettings.UserInterfaceVolume": "UI 音量",
         "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "控制所有使用者介面的音量，多半為互動按鈕、滑桿、及部分工具等聲音。",
 
         "Settings.AudioAccessibilitySettings.WhisperVolume": "悄悄話音量",
@@ -1902,8 +1902,8 @@
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "設定後，任何您截取（或使用內文選單儲存）的任何照片都將自動儲存到您的物品欄中。例如 <color=hero.yellow>照片/%year%/%month_name%</color>\n\n可以使用以下變數：\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
         "Settings.PhotoCaptureSettings.OpenAutosavePath": "在物品欄中開啟目前照片的儲存路徑",
         "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "如果有設定自動儲存路徑，點擊這裡將開啟現在時間與現在地點的照片儲存路徑。\n\n請確保您已經在這個世界拍攝過照片，否則此操作將失敗，因為資料夾尚不存在。",
-        "Settings.PhotoCaptureSettings.CapturePrivateUI": "擷取私人UI",
-        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "開啟時, 快速擷取將包含您的私人UI，例如主面板。若您想要用於展示私人UI的資訊。\n\n建議您在使用後將本設定關閉，若保持此設定開啟可能有私人資訊被截取與外流的風險。",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI": "擷取私人 UI",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "開啟時, 快速擷取將包含您的私人 UI，例如主面板。若您想要用於展示私人 UI 的資訊。\n\n建議您在使用後將本設定關閉，若保持此設定開啟可能有私人資訊被截取與外流的風險。",
         "Settings.PhotoCaptureSettings.EncodeFormat": "照片編碼格式",
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "拍攝的照片所使用的影像格式。\n\n請注意，某些格式可能缺乏某些功能（例如 Alpha 通道），編碼速度可能明顯變慢，圖片畫質可能降低，或導致檔案變大。",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "維持名牌隱藏",
@@ -1946,7 +1946,7 @@
         "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion": "避免物體遮擋",
         "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion.Description": "如果相機的視野會被可碰撞物體遮擋，它將自動移動得更近以避免遮擋。",
         "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace": "維持在世界空間",
-        "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace.Description": "確保相機保持在根世界空間中，而不是將自己置於與使用者相同的空間中。這在使用使用者錨點（例如在載具中）時可以提供更好的框取和定位。",
+        "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace.Description": "確保相機保持在根世界空間中，而不是將自己置於與使用者相同的空間中。這在使用使用者錨點（例如在載具中）時可以提供更佳的取景和定位。",
         "Settings.InteractiveCameraPositioningSettings.MovementWobble": "晃動效果",
         "Settings.InteractiveCameraPositioningSettings.MovementWobble.Description": "這為相機的位置添加隨時間變化的隨機移動偏移。這可以讓拍攝看起來不那麼靜態，特別是當您不太移動時。",
 
@@ -1967,17 +1967,17 @@
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "相機旋轉速度",
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed.Description": "這指示相機對目標對象周圍角度變化的反應速度。",
         "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed": "相機取景速度",
-        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed.Description": "這控制相機調整其對目標對象框取的速度。更大的值將讓它追蹤目標更快，但也會導致更顛簸的移動。",
+        "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed.Description": "這控制相機調整其對目標對象取景的速度。更大的值將讓它追蹤目標更快，但也會導致更顛簸的移動。",
 
         "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors": "在錨點之間移動",
         "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors.Description": "啟用時，相機將在世界中的相機錨點之間平滑插值。",
         "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed": "錨點間移動速度",
-        "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed.Description": "啟用錨點間插值時，這控制相機從一個錨點移動到另一個錨點的速度。",
+        "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed.Description": "啟用「在錨點之間移動」時，這控制相機從一個錨點移動到另一個錨點的速度。",
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation": "等速移動/轉向",
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "啟用此功能可在錨點間移動時使用線性插值而不是平滑插值。線性插值突然開始和停止，但有恆定的移動速度，無論錨點間距離如何。這意味著如果錨點距離更遠，相機需要更長時間才能到達。",
 
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "拍照時在世界內生成照片",
-        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "當您使用互動式相機對話框拍攝照片時，它們應該生成在世界中嗎？停用時，它們將只儲存到您的文檔或物品欄中（如果配置了自動儲存）",
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "當您使用互動式相機對話框拍攝照片時，它們應該生成在世界中嗎？停用時，只會儲存成檔案或是存到物品欄中（如果設定了自動儲存）",
 
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "動態模糊",
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "相機是否應該渲染動態模糊效果？",
@@ -2500,7 +2500,7 @@
         "VolumePlaneSlicer.Slicer": "滑塊",
 
         "Tutorial.Welcome.Welcome": "歡迎！",
-        "Tutorial.Welcome.Description": "潛入一個充滿無限可能的全新數位宇宙。無論您是來這裡與世界各地的人們社交和聚會，還是來建造、創作和開發任何東西——從美麗的藝術品、互動式虛擬化身和小工具，到複雜的互動世界和遊戲，{appName} 都是一個無限可客製化的地方，您會受到歡迎，並且會找到與您產生共鳴的群體。<br><br>在您開始探索之前，我們會先引導您設定一些基本要素，以確保順暢的體驗。當您準備好時，請點擊下方按鈕",
+        "Tutorial.Welcome.Description": "潛入一個充滿無限可能的全新數位宇宙。無論您是來這裡與世界各地的人們社交和聚會，還是來建造、創作和開發任何東西——從美麗的藝術品、互動式化身和小工具，到複雜的互動世界和遊戲，{appName} 都是一個無限可客製化的地方，您會受到歡迎，並且會找到與您產生共鳴的群體。<br><br>在您開始探索之前，我們會先引導您設定一些基本要素，以確保順暢的體驗。當您準備好時，請點擊下方按鈕",
         "Tutorial.Welcome.Begin": "讓我們開始吧！",
 
         "Tutorial.Welcome.AccountHeader": "{appName} 帳號",
@@ -2739,7 +2739,7 @@
         "CloudHome.Info.ModerationTab.Content": "安全很重要！如果您需要幫助或者需要舉報一位使用者，請在我們的 <u><color=hero.cyan>監管平臺</color></u><sprite name=hyperlink>發起工單。<br><br>我們有由志願管理員組成的強大團隊 <sprite name=modbadge> 來保障社區的安全！如果您有疑問，或是發現了違反行為準則的現象，請發起工單。",
 
         "CloudHome.Info.InventoryTab.Title": "儲存您的物品！",
-        "CloudHome.Info.InventoryTab.Content": "在您 <i><color=hero.purple>主面板</color></i> 中的 <i><color=hero.purple>物品</color></i> 包含了您儲存的虛擬化身和物品。<br><br><i><color=hero.purple>{appName} Essentials</color></i> 資料夾中有一些有趣的東西可以玩；點兩下物品即可生成它！",
+        "CloudHome.Info.InventoryTab.Content": "在您 <i><color=hero.purple>主面板</color></i> 中的 <i><color=hero.purple>物品</color></i> 包含了您儲存的化身和物品。<br><br><i><color=hero.purple>{appName} Essentials</color></i> 資料夾中有一些有趣的東西可以玩；點兩下物品即可生成它！",
 
         "CloudHome.Info.ToolsTab.Title": "世界內編輯！",
         "CloudHome.Info.ToolsTab.Content": "{appName} 的特色之一就是能夠輕鬆地在遊戲中創造或修改東西。<br><br>沒錯，就在這裡！或者說在任何地方——您可以透過物品欄中的 <i><color=hero.purple>{appName} Essentials -> Tools</color></i> 獲得的工具，讓您能夠輕鬆地編輯周圍的世界，打造成您喜歡的樣子。",
@@ -3371,7 +3371,7 @@
         "Help.Controls.VRGestures.ToggleEditMode": "切換編輯模式",
         "Help.Controls.VRGestures.ToggleEditMode.Content": "此手勢切換 <b><color=hero.cyan>編輯模式</closeall>。這會永久顯示您手上的雷射和抓取區域，或直到編輯模式被停用。要切換編輯模式，請將雙手控制器放到頭部，在<i>一個</i>控制器上按住 <b><color=hero.purple>{Context_Menu_Input}</closeall>，同時在另一個控制器上點兩下 <b><color=hero.purple>{Context_Menu_Input}</closeall>。",
         "Help.Controls.VRGestures.ToggleUIEditMode": "切換 UI 編輯模式",
-        "Help.Controls.VRGestures.ToggleUIEditMode.Content": "此手勢切換 <b><color=hero.cyan>UI 編輯模式</closeall>，讓您可以在主面板或化身面板錨點上新增、移除或編輯面板。當啟用時，您也可以編輯工具的抓取姿勢。要切換 UI 編輯模式，請將雙手控制器放到頭部，在<i>一個</i>控制器上按住 <b><color=hero.purple>{Menu_Input}</closeall>，同時在另一個控制器上點兩下 <b><color=hero.purple>{Menu_Input}</closeall>。您也可以透過您的 <b><color=hero.yellow>設定</closeall> 中的 <sprite name=UserInterfaceIcon> <b><color=hero.purple>使用者介面</closeall> 下的 <b><color=hero.cyan>UI 編輯模式</closeall> 切換來啟用 UI 編輯模式。",
+        "Help.Controls.VRGestures.ToggleUIEditMode.Content": "此手勢切換 <b><color=hero.cyan>UI 編輯模式</closeall>，讓您可以在主面板或介面元件放置處上新增、移除或編輯面板。當啟用時，您也可以編輯工具的抓取姿勢。要切換 UI 編輯模式，請將雙手控制器放到頭部，在<i>一個</i>控制器上按住 <b><color=hero.purple>{Menu_Input}</closeall>，同時在另一個控制器上點兩下 <b><color=hero.purple>{Menu_Input}</closeall>。您也可以透過您的 <b><color=hero.yellow>設定</closeall> 中的 <sprite name=UserInterfaceIcon> <b><color=hero.purple>使用者介面</closeall> 下的 <b><color=hero.cyan>UI 編輯模式</closeall> 切換來啟用 UI 編輯模式。",
         "Help.Controls.VRGestures.ToggleDashboard": "切換主面板",
         "Help.Controls.VRGestures.ToggleDashboard.Content": "此手勢開啟和關閉您的主面板。要開啟或關閉您的主面板，請將左手控制器放到頭部並按下您的 <b><color=hero.purple>{Context_Menu_Input}</closeall>。",
         "Help.Controls.VRGestures.ToggleFacetAnchors": "切換介面元件放置處",
@@ -3491,9 +3491,9 @@
         "Help.Advanced.CloudVariables.Content2": "如果您想學習如何建立自己的雲端變數，請參閱下方可用的指令列表。",
         "Help.Advanced.CloudVariables.CloudVariableLink": "雲端變數指令",
 
-        "Help.Advanced.CloudVariables.PrimaryColor": "主要自定義顏色",
+        "Help.Advanced.CloudVariables.PrimaryColor": "第一自定義顏色",
         "Help.Advanced.CloudVariables.PrimaryColor.Content": "這個自定義顏色被預設化身用來為其裝飾、眼睛和嘴巴等金屬裝飾上色。這旨在用於為物品或 UI 上的主要或主顏色裝飾上色。",
-        "Help.Advanced.CloudVariables.SecondaryColor": "次要自定義顏色",
+        "Help.Advanced.CloudVariables.SecondaryColor": "第二自定義顏色",
         "Help.Advanced.CloudVariables.SecondaryColor.Content": "這是所有使用者可使用的三個顏色中的第二個。這旨在用於為物品或 UI 上的次要顏色裝飾上色。",
         "Help.Advanced.CloudVariables.TertiaryColor": "第三自定義顏色",
         "Help.Advanced.CloudVariables.TertiaryColor.Content": "這是所有使用者可使用的三個顏色中的最後一個。這旨在用於為物品或 UI 上的次要顏色裝飾上色。",
@@ -3526,13 +3526,13 @@
         "Help.LinksAndResources.RTF": "豐富文字格式（RTF）",
         "Help.LinksAndResources.RTF.Content": "豐富文字格式，或 <b><color=hero.purple>RTF</closeall>，是一種讓您使用稱為 <b><color=hero.cyan>標籤</closeall> 的特殊字串來增強或更改文字渲染方式的方法。此列表是我們目前在 {appName} 中支援的所有豐富文字格式標籤。有關 RTF 的更多資訊，請查看我們的 wiki。",
         "Help.LinksAndResources.RTF.Bold": "粗體",
-        "Help.LinksAndResources.RTF.Bold.Content": "將文字渲染為粗體。",
+        "Help.LinksAndResources.RTF.Bold.Content": "將文字加粗。",
         "Help.LinksAndResources.RTF.Italics": "斜體",
-        "Help.LinksAndResources.RTF.Italics.Content": "將文字渲染為斜體。",
+        "Help.LinksAndResources.RTF.Italics.Content": "將文字加上斜體。",
         "Help.LinksAndResources.RTF.Strike-Through": "刪除線",
-        "Help.LinksAndResources.RTF.Strike-Through.Content": "將文字渲染為刪除線。",
+        "Help.LinksAndResources.RTF.Strike-Through.Content": "將文字加上刪除線。",
         "Help.LinksAndResources.RTF.Underline": "底線",
-        "Help.LinksAndResources.RTF.Underline.Content": "將文字渲染為底線。",
+        "Help.LinksAndResources.RTF.Underline.Content": "將文字加上底線。",
         "Help.LinksAndResources.RTF.Size": "大小",
         "Help.LinksAndResources.RTF.Size.Content": "更改文字的大小。<br><br>可用的大小格式類型：<br><br>    • <b>絕對</b>：<noparse=10><size=123> 將字體大小設定為 <b><color=hero.purple>123</closeall>，無論實際字體大小設定為什麼。<br><br>    • <b>相對</b>：<noparse=11><size=123%> 將大小設定為目前字體大小的百分比 - 在此範例中，設定為 <b><color=hero.purple>123%</closeall>。",
         "Help.LinksAndResources.RTF.Color": "顏色",
@@ -3601,9 +3601,9 @@
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables.SetCloudVariablePermissions.Content": "設定使用者或群組雲端變數的權限。",
 
         "Help.LinksAndResources.PlatformBotCommands.AccountCommands.TestTOTP": "測試 TOTP",
-        "Help.LinksAndResources.PlatformBotCommands.AccountCommands.TestTOTP.Content": "讓您可以測試 TOTP（定時一次性密碼）的雙重認證。",
+        "Help.LinksAndResources.PlatformBotCommands.AccountCommands.TestTOTP.Content": "讓您可以測試 TOTP（定時一次性密碼）的兩步驟認證。",
         "Help.LinksAndResources.PlatformBotCommands.AccountCommands.EnableLogin2FA": "啟用登入雙重認證",
-        "Help.LinksAndResources.PlatformBotCommands.AccountCommands.EnableLogin2FA.Content": "為您的帳號啟用 2FA（雙重認證）。",
+        "Help.LinksAndResources.PlatformBotCommands.AccountCommands.EnableLogin2FA.Content": "為您的帳號啟用 2FA（兩步驟認證）。",
         "Help.LinksAndResources.PlatformBotCommands.AccountCommands.AccountDeletion": "刪除帳號",
         "Help.LinksAndResources.PlatformBotCommands.AccountCommands.AccountDeletion.Content": "要求或取消刪除您的帳號。<b>請謹慎使用！此操作不可復原！</b>",
         "Help.LinksAndResources.PlatformBotCommands.AccountCommands.RequestRecordUsageReport": "要求記錄使用情況報告",
@@ -3721,7 +3721,7 @@
 
         "Help.About": "關於",
         "Help.About.Platform": "{appName}",
-        "Help.About.Platform.Content": "一個擁有無限可能的新穎數位宇宙。<br><br>無論您是與世界各地的人們進行輕鬆對話、遊戲和社交互動，還是在創作從藝術到編程複雜遊戲的任何內容時互相激發靈感，您都能在這裡找到屬於自己的位置。",
+        "Help.About.Platform.Content": "一個擁有無限可能的新穎數位宇宙。<br><br>無論您是與世界各地的人們進行對話、遊戲和社交互動，還是在創作從藝術到遊戲的任何內容時互相激發靈感，您都能在這裡找到屬於自己的位置。",
         "Help.About.Platform.PlatformLink": "{appName} 網站",
         "Help.About.ThePlatformTeam": "{appName} 團隊",
 
