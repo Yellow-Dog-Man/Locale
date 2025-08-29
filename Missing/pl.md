@@ -17,6 +17,15 @@ Settings.PhotoCaptureSettings.HandsNearFOV
 Settings.PhotoCaptureSettings.HandsNearFOV.Description  
 Settings.PhotoCaptureSettings.HandsFarFOV  
 Settings.PhotoCaptureSettings.HandsFarFOV.Description  
+Settings.RendererDecouplingSettings  
+Settings.RendererDecouplingSettings.ActivationFramerate  
+Settings.RendererDecouplingSettings.ActivationFramerate.Description  
+Settings.RendererDecouplingSettings.DeactivationFrames  
+Settings.RendererDecouplingSettings.DeactivationFrames.Description  
+Settings.RendererDecouplingSettings.ForceDecouple  
+Settings.RendererDecouplingSettings.ForceDecouple.Description  
+Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds  
+Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description  
 Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.FacetPreset.Warning  
