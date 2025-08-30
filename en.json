@@ -2067,6 +2067,17 @@
         "Settings.RenderingQualitySettings.SkinWeightMode": "Skin Weights",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "For any skinned meshes (3D models that are deformed by bones, like most avatars), this controls how many bones are used to affect position of each vertex.\n\nLowering this value will save some performance, but the deformation quality will be lower, resulting in sharp creases and other artifacts, typically around joints.",
 
+        "Settings.RendererDecouplingSettings": "Renderer Decoupling",
+        "Settings.RendererDecouplingSettings.ActivationFramerate": "Activation Framerate",
+        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "This controls when the renderer decoupling actiavtes. If the immediate framerate were to drop below this value, the renderer will start re-rendering the scene without waiting for new frames from the engine.\n\nThis helps smooth out some parts of the hitches and mitigate interruption to playing videos or VR headset view locking up, however everything else in the scene will be frozen.\n\nSetting this to 0 deactivates this mechanism.",
+        "Settings.RendererDecouplingSettings.DeactivationFrames": "Deactivation frame count",
+        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "When decoupling is active, this indicates how many stable frames (above the activation threshold) need to be rendered before the decoupling mechanism is disabled. This can help prevent the mechanism triggering on and off with multiple subsequent hitches.",
+        "Settings.RendererDecouplingSettings.ForceDecouple": "Force Decouple",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "When turned on, the renderer will be forcibly constantly decoupled and will keep rendering new frames as fast as possible without waiting for the main engine.\n\n<color=hero.red>WARNING!</color> This is mostly useful for debugging reasons and diagnosing whether you're CPU bound or GPU bound (if you're CPU bound, your framerate will significantly increase with this on) and isn't meant for normal use.\n\nYou may experience significant stuttering, jitter and slow asset loading/uploading.",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "Max decoupled asset processing (milliseconds)",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "This controls the maximum amount of time that the renderer will spend uploading assets to the GPU when decouple mechanism is active. Lowering this might increase your maximum framerate (e.g. when testing max GPU performance), but can lower loading performance and at very low values might make UI slow to update.",
+
+
         "Settings.ImportSettings": "Import Settings",
         "Settings.ImportSettings.SessionUrls": "On Session URL Import",
         "Settings.ImportSettings.SessionUrls.Description": "When a Session URL is imported, what should happen. The available options are:\n\n<color=hero.yellow>Open</color> - Open the Session.\n<color=hero.yellow>SpawnInterface</color> - Spawns a representation(such as a session orb) of the URL in your current location.\n<color=hero.yellow>SpawnUrl</color> - Spawns the URL in your current location as a URL Interface.",
