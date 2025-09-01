@@ -2067,6 +2067,17 @@
         "Settings.RenderingQualitySettings.SkinWeightMode" : "스킨 웨이트(Skin Weights)",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description" : "매시에 뼈(Bone) 가중치가 할당된 모든 <color=hero.yellow>스킨드 매시</color>에 대해 각 정점의 위치에 영항을 미치는 뼈(Bone)의 수를 제어합니다.\n\n값을 낮추면 클라이언트의 성능은 좋아지지만, 뼈의 움직임에 의해 변화되는 품질은 낮아집니다. 일반적으로 관절부에 날카로운 주름과 무언가가 나타납니다.",
 
+        "Settings.RendererDecouplingSettings": "렌더러 분리",
+        "Settings.RendererDecouplingSettings.ActivationFramerate": "활성 프레임 속도",
+        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "렌더러 연결이 해제되는 지점을 제어합니다. 프레임이 지정된 값 아래로 떨어질 경우, 렌더러는 새 프레임이 올때까지 기다리지 않고 현시점의 프레임을 렌더링 합니다.\n\n이렇게 하면 일부 끊기는 문제를 완화하고 영상 재생의 중단 또는 VR 헤드셋 화면이 멈춰있는 문제들을 완화하는데 도움이 되지만, 장면의 다른 부분은 정지가 됩니다.\n\n이 값을 0으로 하면 이 기능이 비활성화 됩니다.",
+        "Settings.RendererDecouplingSettings.DeactivationFrames": "비활성화시 프레임 수",
+        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "렌더러가 분리된 상태에서 원래대로 복귀하는 시점에 렌더링할 프레임 수(기능 활성화 프레임 속도 이상)를 나타냅니다. 이렇게 하면 이 기능이 여러번 반복적으로 켜졌다 꺼졌다 하는 현상을 방지할 수 있습니다.",
+        "Settings.RendererDecouplingSettings.ForceDecouple": "강제 분리",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "이 옵션은 렌더러를 상시 분리한 상태로 유지시킵니다.\n\n<color=hero.red>경고!</color> 이 기능은 주로 디버깅을 목적으로 사용되며 처리가 CPU에 의존하는지 GPU에 의존하는지 진단하는데 유용합니다.(CPU에 의존할 경우 이 기능을 켜면 프레임이 크게 증가합니다.)\n\n심각한 끊김, 지터링, 자산 업/다운로드에 심각한 영향을 미칠수 있으므로 통상 사용은 하지 않도록 주의 하세요.",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "분리된 자산 처리시간(밀리초)",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "렌더러가 분리된 상태에서의 자산 업로드 소요 시간을 제어합니다. 이 값을 낮추면 프레임이 증가할 수 있지만(예. GPU 최대 성능 테스트 시), 로딩 성능이 저하될 수 있으며, 매우 낮은값을 설정할 경우 UI 갱신 속도가 느려질 수 있습니다.",
+
+        
         "Settings.ImportSettings": "가져오기 설정",
         "Settings.ImportSettings.SessionUrls": "세션 URL 가져오기 수행시",
         "Settings.ImportSettings.SessionUrls.Description": "세션 URL을 가져오기 하는 경우 수행할 동작을 설정합니다.\n\n<color=hero.yellow>Open</color> : 세션 열기\n<color=hero.yellow>SpawnInterface</color> : 세션 오브 생성\n<color=hero.yellow>SpawnUrl</color> : 세션 주소를 링크로 표시",
