@@ -2067,6 +2067,16 @@
         "Settings.RenderingQualitySettings.SkinWeightMode": "綁定權重數",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "對於任何蒙皮網格（由骨骼變形的 3D 模型，如大多數化身），這控制有多少骨骼用於影響每個頂點的位置。\n\n降低此數值會節省一些效能，但變形品質會降低，通常會在關節附近產生銳利的折痕和其他人工痕跡。",
 
+        "Settings.RendererDecouplingSettings": "渲染解耦設定",
+        "Settings.RendererDecouplingSettings.ActivationFramerate": "啟動解耦的 FPS",
+        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "本選項控制何時渲染解耦會啟動。如果立即渲染的狀態下 FPS 掉到此數字以下時，渲染器可在引擎尚未傳入新幀資料的狀態下直接渲染。\n\n有助於緩解部份卡頓，以及播放影片或是 VR 顯示的頓挫感，但場景中的其他部份有會頓住的現象。\n\n設為 0 會關閉這個機制。",
+        "Settings.RendererDecouplingSettings.DeactivationFrames": "解除解耦的穩定幀數量",
+        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "渲染解耦啟動後，此選項調整連續幾張穩定幀（FPS 超過「啟動解耦的 FPS」）渲染後會關閉渲染解耦。這可以避免在多次卡頓的情形下，造成本功能連續啟用與停用。",
+        "Settings.RendererDecouplingSettings.ForceDecouple": "強制渲染解耦",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "啟動後渲染器會強制保持渲染解耦的狀態，在不等待引擎傳入新幀資料的狀態下盡可能的渲染新幀。\n\n<color=hero.red>警告：</color>本功能多數作為除錯用途，可以用來得知您的電腦是卡在 CPU 還是 GPU（卡在 CPU 的情況下，此選項打開後幀率會明顯提高），而非作為平常使用。\n\n您可能會遭遇嚴重卡頓、抖動以及資產載入/卸載變慢的情形。",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "解耦狀態下資產處理時間（毫秒）",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "本選項控制在解耦狀態下，上傳資產到 GPU 的時間限制。調低有助於增加最大幀率（例如當測試 GPU 的最高渲染性能時），但也會降低載入的性能，調到極低甚至會影響 UI 的更新速率。",
+
         "Settings.ImportSettings": "匯入設定",
         "Settings.ImportSettings.SessionUrls": "匯入活動 URL 時的行為",
         "Settings.ImportSettings.SessionUrls.Description": "當匯入活動 URL 時，應該做什麼。可用選項為：\n\n<color=hero.yellow>Open</color> - 開啟活動。\n<color=hero.yellow>SpawnInterface</color> - 在您目前的位置生成 URL 的代表（如活動球）。\n<color=hero.yellow>SpawnUrl</color> - 在您目前的位置將 URL 作為 URL 介面生成。",
