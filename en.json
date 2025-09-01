@@ -925,6 +925,8 @@
         "CreateNew.Editor.AssetOptimizationWizard": "Asset Optimization Wizard",
         "CreateNew.Editor.CubemapCreator": "Cubemap Creator",
         "CreateNew.Editor.ReflectionProbes": "Reflection Probe Wizard",
+        "CreateNew.Editor.TexturePackingWizard": "Texture Packing Wizard",
+        "CreateNew.Editor.TextureUnpackingWizard": "Texture Unpacking Wizard",
 
         "CreateNew.3DModel": "3D Model",
         "CreateNew.3DModel.Triangle": "Triangle",
@@ -2304,6 +2306,10 @@
         "Inspector.Texture.SwapGB": "Swap G <--> B",
         "Inspector.Texture.SwapGA": "Swap G <--> A",
         "Inspector.Texture.SwapBA": "Swap B <--> A",
+        "Inspector.Texture.IsolateR": "Isolate Red Channel",
+        "Inspector.Texture.IsolateG": "Isolate Green Channel",
+        "Inspector.Texture.IsolateB": "Isolate Blue Channel",
+        "Inspector.Texture.IsolateA": "Isolate Alpha Channel",
         "Inspector.Texture.AddWhiteBackground": "Add White Background",
         "Inspector.Texture.AddBlackBackground": "Add Black Background",
         "Inspector.Texture.Hue": "Hue:",
@@ -2427,6 +2433,11 @@
         "Inspector.Actions.CopyComponent": "Copy Component",
         "Inspector.Actions.MoveComponent": "Move Component",
 
+        "Inspector.Wizard.PackTexture": "Pack Texture",
+        "Inspector.Wizard.UnpackTexture": "Unpack Texture",
+
+        "Inspector.Error": "<color=hero.red>Error! Check log.</color>",
+
         "UserInspector.Title": "User Inspector",
 
         "WorkerInspector.Title": "{name} Inspector",
@@ -2497,6 +2508,26 @@
         "Wizard.TextRenderer.ReplaceMaterial": "Replace Material",
         "Wizard.TextRenderer.ReplaceFont": "Replace Font",
         "Wizard.TextRenderer.SetColor": "Set Color",
+
+        "Wizard.TextureWizards.DefaultValue": "Default Value",
+        "Wizard.TextureWizards.Invert": "Invert",
+        "Wizard.TextureWizards.ClearTexture": "Clear Texture",
+        "Wizard.TextureWizards.ResolutionOverride": "Resolution Override",
+        "Wizard.TextureWizards.PlaceTextureHere": "Place Texture Here",
+
+        "Wizard.TexturePacker.Title": "Texture Packing Wizard",
+        "Wizard.TexturePacker.Packing": "Packing...",
+        "Wizard.TexturePacker.PackTextures": "Pack Textures",
+        "Wizard.TexturePacker.Output": "Output",
+        "Wizard.TexturePacker.AutomaticSizeHandling": "Automatic Size Handling",
+        "Wizard.TexturePacker.UseSmallest": "Use Smallest",
+        "Wizard.TexturePacker.UseLargest": "Use Largest",
+        "Wizard.TexturePacker.GenerateMipmaps": "Generate Mipmaps",
+
+
+        "Wizard.TextureUnpacker.Title": "Texture Unpacking Wizard",
+        "Wizard.TextureUnpacker.Unpacking": "Unpacking...",
+        "Wizard.TextureUnpacker.UnpackTexture": "Unpack Texture",
 
         "Desktop.Controls.Title": "Desktop Controls",
         "Desktop.OpenKeyboard": "Open Keyboard",
