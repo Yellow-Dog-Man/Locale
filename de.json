@@ -925,6 +925,8 @@
         "CreateNew.Editor.AssetOptimizationWizard": "Asset-Optimierungs-Assistent",
         "CreateNew.Editor.CubemapCreator": "Cubemap-Ersteller",
         "CreateNew.Editor.ReflectionProbes": "Reflexionssonde-Assistent",
+        "CreateNew.Editor.TexturePackingWizard": "Textur-Pack-Assistent",
+        "CreateNew.Editor.TextureUnpackingWizard": "Textur-Entpack-Assistent",
 
         "CreateNew.3DModel": "3D-Modell",
         "CreateNew.3DModel.Triangle": "Dreieck",
@@ -2304,6 +2306,10 @@
         "Inspector.Texture.SwapGB": "Tausche G <--> B",
         "Inspector.Texture.SwapGA": "Tausche G <--> A",
         "Inspector.Texture.SwapBA": "Tausche B <--> A",
+        "Inspector.Texture.IsolateR": "Roten Kanal isolieren",
+        "Inspector.Texture.IsolateG": "Grünen Kanal isolieren",
+        "Inspector.Texture.IsolateB": "Blauen Kanal isolieren",
+        "Inspector.Texture.IsolateA": "Alpha-Kanal isolieren",
         "Inspector.Texture.AddWhiteBackground": "Weißen Hintergrund hinzufügen",
         "Inspector.Texture.AddBlackBackground": "Schwarzen Hintergrund hinzufügen",
         "Inspector.Texture.Hue": "Farbton:",
@@ -2427,6 +2433,11 @@
         "Inspector.Actions.CopyComponent": "Komponente kopieren",
         "Inspector.Actions.MoveComponent": "Komponente verschieben",
 
+        "Inspector.Wizard.PackTexture": "Textur packen",
+        "Inspector.Wizard.UnpackTexture": "Textur entpacken",
+
+        "Inspector.Error": "<color=hero.red>Fehler! Prüfen Sie die Logfiles.</color>",
+
         "UserInspector.Title": "Benutzerinspektor",
 
         "WorkerInspector.Title": "Inspektor für: {name}",
@@ -2497,6 +2508,26 @@
         "Wizard.TextRenderer.ReplaceMaterial": "Material ersetzen",
         "Wizard.TextRenderer.ReplaceFont": "Font ersetzen",
         "Wizard.TextRenderer.SetColor": "Farbe ändern",
+
+        "Wizard.TextureWizards.DefaultValue": "Standardwert",
+        "Wizard.TextureWizards.Invert": "Invertieren",
+        "Wizard.TextureWizards.ClearTexture": "Textur entfernen",
+        "Wizard.TextureWizards.ResolutionOverride": "Auflösung übersteuern",
+        "Wizard.TextureWizards.PlaceTextureHere": "Textur hier platzieren",
+
+        "Wizard.TexturePacker.Title": "Textur-Pack-Assistent",
+        "Wizard.TexturePacker.Packing": "Packen...",
+        "Wizard.TexturePacker.PackTextures": "Texturen packen",
+        "Wizard.TexturePacker.Output": "Ausgabe",
+        "Wizard.TexturePacker.AutomaticSizeHandling": "Automatische Größenanpassung",
+        "Wizard.TexturePacker.UseSmallest": "Kleinste verwenden",
+        "Wizard.TexturePacker.UseLargest": "Größte verwenden",
+        "Wizard.TexturePacker.GenerateMipmaps": "Mipmaps erzeugen",
+
+
+        "Wizard.TextureUnpacker.Title": "Textur-Entpack-Assistent",
+        "Wizard.TextureUnpacker.Unpacking": "Entpacken...",
+        "Wizard.TextureUnpacker.UnpackTexture": "Textur entpacken",
 
         "Desktop.Controls.Title": "Desktop Steuerung",
         "Desktop.OpenKeyboard": "Öffne Tastatur",
