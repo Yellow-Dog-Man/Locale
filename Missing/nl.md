@@ -129,6 +129,15 @@ Settings.GaussianSplatQualitySettings.ColorFormat
 Settings.GaussianSplatQualitySettings.ColorFormat.Description  
 Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat  
 Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description  
+Settings.RendererDecouplingSettings  
+Settings.RendererDecouplingSettings.ActivationFramerate  
+Settings.RendererDecouplingSettings.ActivationFramerate.Description  
+Settings.RendererDecouplingSettings.DeactivationFrames  
+Settings.RendererDecouplingSettings.DeactivationFrames.Description  
+Settings.RendererDecouplingSettings.ForceDecouple  
+Settings.RendererDecouplingSettings.ForceDecouple.Description  
+Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds  
+Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description  
 Settings.ImportSettings  
 Settings.ImportSettings.SessionUrls  
 Settings.ImportSettings.SessionUrls.Description  
