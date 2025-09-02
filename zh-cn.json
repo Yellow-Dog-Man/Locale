@@ -925,6 +925,8 @@
         "CreateNew.Editor.AssetOptimizationWizard": "资产优化设置向导",
         "CreateNew.Editor.CubemapCreator": "立方体贴图创建工具",
         "CreateNew.Editor.ReflectionProbes": "反射探针设置向导",
+        "CreateNew.Editor.TexturePackingWizard": "材质打包设置向导",
+        "CreateNew.Editor.TextureUnpackingWizard": "材质解包设置向导",
 
         "CreateNew.3DModel": "3D模型",
         "CreateNew.3DModel.Triangle": "三角形",
@@ -1557,11 +1559,11 @@
         "Settings.SteamLinkSettings": "Steam Link",
         "Settings.SteamLinkSettings.OSC_DataPort": "OSC 面部追踪端口",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "用于监听 OSC 面部追踪数据的端口。 该端口应与你在 SteamVR 设置中设置的端口一致，这样面部追踪才能正常工作。",
-        
+
         "Settings.BabbleSettings": "生灵之星（Babble面捕）项目",
         "Settings.BabbleSettings.OSC_DataPort": "OSC 面部追踪端口",
         "Settings.BabbleSettings.OSC_DataPort.Description": "设置用于监听 OSC 面部追踪数据的端口号，需与 Babble 应用设置页面中配置的端口保持一致",
-        
+
         "Settings.HapticPointMapping.MappingTarget": "定位到",
         "Settings.HapticPointMapping.MappingTarget.Description": "用它来配置你希望将此设备定位到虚拟形象的哪个部分。",
 
@@ -2067,6 +2069,17 @@
         "Settings.RenderingQualitySettings.SkinWeightMode": "蒙皮权重",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "对于任何蒙皮权重（通过骨骼变形的 3D 模型，如大多数虚拟形象），该值控制使用多少骨骼来影响每个顶点的位置。\n\n降低该值可以节省一些性能，但变形质量会降低，从而产生尖锐的折痕和其他伪影，通常出现在接缝处。",
 
+        "Settings.RendererDecouplingSettings": "渲染器解耦",
+        "Settings.RendererDecouplingSettings.ActivationFramerate": "激活帧率",
+        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "此选项用于控制渲染器解耦的激活时机。如果即时帧率低于此值，渲染器将开始重新渲染场景，而无需等待引擎生成新帧。\n\n这有助于平滑处理部分卡顿，并减轻视频播放中断或VR头显画面卡死的问题，但场景中的其他所有内容都将被冻结。\n\n将此值设为 0 可停用此机制。",
+        "Settings.RendererDecouplingSettings.DeactivationFrames": "停用所需帧数",
+        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "当解耦激活时，此选项指定了在禁用解耦机制前需要渲染多少个稳定帧（帧率高于激活阈值）。这有助于防止该机制因连续的多次卡顿而反复开启和关闭。",
+        "Settings.RendererDecouplingSettings.ForceDecouple": "强制解耦",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "开启后，渲染器将被强制持续解耦，并以最快速度渲染新帧，无需等待主引擎。\n\n<color=hero.red>警告！</color> 此功能主要用于调试，以及诊断您是受限于CPU瓶颈还是GPU瓶颈（如果您受限于CPU瓶颈，开启此功能将显著提升帧率），不建议在正常情况下使用。\n\n您可能会遇到严重的卡顿、抖动以及缓慢的资源加载/上传问题。",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "最大解耦资源处理时间（毫秒）",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "此选项控制在解耦机制激活时，渲染器用于将资源上传到 GPU 所花费的最长时间。降低此值可能会提高您的最大帧率（例如，在测试最大 GPU 性能时），但可能会降低加载性能，并且在数值过低时可能会导致 UI 更新缓慢。",
+
+
         "Settings.ImportSettings": "导入设置",
         "Settings.ImportSettings.SessionUrls": "导入房间设置时",
         "Settings.ImportSettings.SessionUrls.Description": "当一个房间URL被导入时，会发生什么。可用的选项有：\n\n<color=hero.yellow>Open</color> - 打开房间\n<color=hero.yellow>SpawnInterface</color> - 在当前位置生成URL的表示（例如房间球）。\n<color=hero.yellow>SpawnUrl</color> - 在当前位置生成URL作为URL接口。",
@@ -2293,6 +2306,10 @@
         "Inspector.Texture.SwapGB": "交换 G-B 通道",
         "Inspector.Texture.SwapGA": "交换 G-A 通道",
         "Inspector.Texture.SwapBA": "交换 B-A 通道",
+        "Inspector.Texture.IsolateR": "分离红色通道",
+        "Inspector.Texture.IsolateG": "分离绿色通道",
+        "Inspector.Texture.IsolateB": "分离蓝色通道",
+        "Inspector.Texture.IsolateA": "分离透明度通道",
         "Inspector.Texture.AddWhiteBackground": "添加白色背景",
         "Inspector.Texture.AddBlackBackground": "添加黑色背景",
         "Inspector.Texture.Hue": "色相：",
@@ -2416,6 +2433,11 @@
         "Inspector.Actions.CopyComponent": "拷贝组件",
         "Inspector.Actions.MoveComponent": "移动组件",
 
+        "Inspector.Wizard.PackTexture": "打包贴图",
+        "Inspector.Wizard.UnpackTexture": "解包贴图",
+
+        "Inspector.Error": "<color=hero.red>发生错误！ 请检查日志。</color>",
+
         "UserInspector.Title": "玩家查看器",
 
         "WorkerInspector.Title": "{name}查看器",
@@ -2449,12 +2471,14 @@
         "Wizard.LightSources.DisabledLights": "禁用的灯光：",
         "Wizard.LightSources.WithTag": "带标签：",
         "Wizard.LightSources.SetShadowType": "设置阴影类型",
-        
-        
-        "Wizard.LightSources.Enable": "启用",
+        "Wizard.LightSources.MultiplyIntensity": "强度倍增",
+        "Wizard.LightSources.SetIntensity": "设置强度",
+        "Wizard.LightSources.MultiplyRange": "范围倍增",
+        "Wizard.LightSources.SetRange": "设置范围",
+        "Wizard.LightSources.Enable": "启动",
         "Wizard.LightSources.Disable": "禁用",
-        "Wizard.LightSources.Destroy": "破坏",
-
+        "Wizard.LightSources.Destroy": "删除",
+        
         "Wizard.CubemapCreator.Title": "立方体贴图创建器",
         "Wizard.CubemapCreator.Textures": "源纹理：",
         "Wizard.CubemapCreator.TexturesNote": "请注意，某些约定左右相反。如果生成的立方体图不正确，请尝试左右互换纹理。",
@@ -2486,6 +2510,26 @@
         "Wizard.TextRenderer.ReplaceMaterial": "替换材质",
         "Wizard.TextRenderer.ReplaceFont": "替换字体",
         "Wizard.TextRenderer.SetColor": "设置颜色",
+
+        "Wizard.TextureWizards.DefaultValue": "默认值",
+        "Wizard.TextureWizards.Invert": "反转",
+        "Wizard.TextureWizards.ClearTexture": "清除纹理",
+        "Wizard.TextureWizards.ResolutionOverride": "覆盖分辨率",
+        "Wizard.TextureWizards.PlaceTextureHere": "在此处放置纹理",
+
+        "Wizard.TexturePacker.Title": "纹理打包向导",
+        "Wizard.TexturePacker.Packing": "打包中...",
+        "Wizard.TexturePacker.PackTextures": "打包纹理",
+        "Wizard.TexturePacker.Output": "输出",
+        "Wizard.TexturePacker.AutomaticSizeHandling": "自动尺寸处理",
+        "Wizard.TexturePacker.UseSmallest": "使用最小尺寸",
+        "Wizard.TexturePacker.UseLargest": "使用最大尺寸",
+        "Wizard.TexturePacker.GenerateMipmaps": "生成 Mipmap（分级细化纹理）",
+
+        
+        "Wizard.TextureUnpacker.Title": "纹理解包向导",
+        "Wizard.TextureUnpacker.Unpacking": "解包中...",
+        "Wizard.TextureUnpacker.UnpackTexture": "解包纹理",
 
         "Desktop.Controls.Title": "桌面控制",
         "Desktop.OpenKeyboard": "打开键盘",
@@ -2698,28 +2742,28 @@
         "Tutorial.Saving.Title": "欢迎回家！",
         "Tutorial.Saving.Content": "欢迎来到你的 <b><i><color=hero.yellow>家园</b></i></color> 世界！这是你每次登录后所来到的地方。<br><br>这是一个你自己的世界，你可以保存任何所作的更改。<br><br>如果你保存了，当你下次回来时，一切将与你离开时一模一样！",
 
-
+        
         "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>未命名房间</closeall>",
         "Tutorial.Teleporter.SessionList.UnnamedHost": "房主：<i><alpha=#77>未命名房主</closeall>",
         "Tutorial.Teleporter.SessionList.HostName": "房主：<b>{hostName}</b>",
         "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} 位用户在场",
         "Tutorial.Teleporter.SessionList.PublicSessions": "公开房间",
         "Tutorial.Teleporter.SessionList.NoPublicSessions": "暂无公开房间可用！:(<br><size=66%>但你仍有以下选择：</size>",
-        
+
         "Tutorial.Teleporter.ChooseDestination": "选择接下来要去往的地点",
-        
+
         "Tutorial.Teleporter.Destinations.CloudHome": "前往你的云端家园",
         "Tutorial.Teleporter.Destinations.AvatarWorld": "前往虚拟形象展馆",
         "Tutorial.Teleporter.Destinations.PickAnotherSession": "选择其他房间",
         "Tutorial.Teleporter.Destinations.PickPublicSession": "加入公开房间",
-        
+
         "Tutorial.Teleporter.WorldsTabHint": "你也可以通过面板中的<br>世界浏览器寻找可加入的世界！",
-        
+
         "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>加入房间失败！:(</color><br><size=66%>但你仍有以下选择：</size>",
-        
+
         "Tutorial.Teleporter.Transporting": "正在传送...",
 
-        
+
         "CloudHome.Info.OnlineUsers": "在线玩家: {online_users}<br>可加入玩家: {joinable_users}",
         "CloudHome.Info.Moderation": "管理员",
         "CloudHome.Info.Inventory": "库存",
@@ -2861,7 +2905,7 @@
 
         "Tutorial.Panel.TeleportLocomotion.Title": "传送移动",
         "Tutorial.Panel.TeleportLocomotion.Content": "立即将你传送至传送指示器位置",
-        
+
         "Tutorial.DashboardInfo.Header": "你的面板",
         "Tutorial.DashboardInfo.Content": "你的<b><color=hero.cyan>面板</closeall>是主菜单——通过它，你可以与他人交流、探索新世界，还能享受更多功能！<br><br>如需更多帮助，请查看<b><color=hero.purple>帮助标签页</color></b>。",
         "Tutorial.DashboardInfo.GotIt": "明白了！",
@@ -2913,11 +2957,11 @@
         "Hints.Sundial.DequipExtra": "注意，上下文菜单中的选项因你正手持工具而发生了改变。",
 
         "Hints.Sundial.Doorway": "进入以继续！",
-        
+
         "Hints.DashboardDesktop": "按ESC键打开或关闭面板！",
         "Hints.DashboardVR": "按菜单键打开或关闭面板！",
         "Hints.DashboardExtra": "下方提供关于面板的额外信息。",
-        
+
         "Hints.Teleporter": "踏上传送器，选择下一个目的地！",
         "Hints.TeleporterExtra": "无论去往何方，请在{appName}中尽情享受！",
 
