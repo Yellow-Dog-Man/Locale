@@ -14,7 +14,7 @@ French [fr] - 98.8% - Missing keys: 41
 Hungarian [hu] - 20.0% - Missing keys: 2639  
 Icelandic [is] - 18.8% - Missing keys: 2680  
 Japanese [ja] - 98.5% - Missing keys: 50  
-Korean [ko] - 99.1% - Missing keys: 29  
+Korean [ko] - 100.0% - Missing keys: 0  
 Mongolian [mn] - 80.0% - Missing keys: 661  
 Dutch [nl] - 70.4% - Missing keys: 977  
 Norwegian [no] - 46.9% - Missing keys: 1753  
@@ -25,7 +25,7 @@ Swedish [sv] - 81.5% - Missing keys: 612
 Thai [th] - 2.1% - Missing keys: 3231  
 Turkish [tr] - 24.6% - Missing keys: 2487  
 Ukrainian [uk] - 39.8% - Missing keys: 1988  
-Chinese (Simplified, Mainland China) [zh-cn] - 98.8% - Missing keys: 38  
+Chinese (Simplified, Mainland China) [zh-cn] - 100.0% - Missing keys: 0  
 Chinese (Traditional, Taiwan) [zh-tw] - 99.1% - Missing keys: 29  
 
 Total keys: 3300
