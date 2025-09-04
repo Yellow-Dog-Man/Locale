@@ -2706,7 +2706,25 @@
         "Tutorial.Saving.Title": "Witaj w domu!",
         "Tutorial.Saving.Content": "Witamy w <b><i><color=hero.yellow>domu</b></i></color>! Jest to miejsce, do którego trafisz za każdym razem, gdy się zalogujesz.<br><br>Jest to twój własny świat, więc wszelkie wprowadzone zmiany można zapisać.<br><br>Jeśli zapiszesz, po powrocie wszystko będzie tak, jak zostawiono!",
 
-        
+        "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Sesja bez nazwy</closeall>",
+        "Tutorial.Teleporter.SessionList.UnnamedHost": "Hosted by: <i><alpha=#77>Host bez nazwy</closeall>",
+        "Tutorial.Teleporter.SessionList.HostName": "Hosted by: <b>{hostName}</b>",
+        "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} Użytkowników w sesji",
+        "Tutorial.Teleporter.SessionList.PublicSessions": "Sesje publiczne",
+        "Tutorial.Teleporter.SessionList.NoPublicSessions": "Nie ma dostępnych sesji publicznych! :(<br><size=66%>Nadal masz jednak kilka opcji:</size>",
+
+        "Tutorial.Teleporter.ChooseDestination": "Wybierz gdzie chcesz się udać",
+
+        "Tutorial.Teleporter.Destinations.CloudHome": "Przejdź do domu w chmurze",
+        "Tutorial.Teleporter.Destinations.AvatarWorld": "Przejdź do altanki awatarów",
+        "Tutorial.Teleporter.Destinations.PickAnotherSession": "Wybierz inną sesję",
+        "Tutorial.Teleporter.Destinations.PickPublicSession": "Dołącz do sesji publicznej",
+
+        "Tutorial.Teleporter.WorldsTabHint": "Możesz również znaleźć światy, do których możesz dołączyć, korzystając z przeglądarki światów na swojej tablicy!",
+
+        "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>Nie udało się dołączyć do sesji! :(</color><br><size=66%>Nadal masz jednak kilka opcji:</size>",
+
+        "Tutorial.Teleporter.Transporting": "Transportowanie...",
 
         "CloudHome.Info.OnlineUsers": "{online_users} {online_users,plural, one {Użytkownik} other {Użytkowników}} online <br>{joinable_users} {joinable_users,plural, one {Dołączalny} other {Dołączalnych}} {joinable_users,plural, one {Użytkownik} other {Użytkowników}} ",
         "CloudHome.Info.Moderation": "Moderacja",
@@ -2847,6 +2865,13 @@
         "Tutorial.Panel.TeleportLocomotion.Title": "Lokomocja teleport",
         "Tutorial.Panel.TeleportLocomotion.Content": "Teleport natychmiast przeniesie Cię do wskaźnika teleportacji.",
 
+        "Tutorial.DashboardInfo.Header": "Twoja tablica",
+        "Tutorial.DashboardInfo.Content": "<b><color=hero.cyan>Tablica</closeall> jest Twoim głównym menu – dzięki niej możesz rozmawiać z innymi, odkrywać nowe światy i nie tylko!<br><br>Jeśli potrzebujesz dodatkowej pomocy, zajrzyj do <b><color=hero.purple>zakładki pomocy</closeall>.",
+        "Tutorial.DashboardInfo.GotIt": "OK!",
+
+        "Tutorial.MentorPanel.Title": "Potrzebujesz pomocy?",
+        "Tutorial.MentorPanel.Content": "Poszukaj użytkowników, którzy mają tę plakietkę nad głową – poproś ich o pomoc, są tu dla <i>Ciebie</i>!",
+
         "Hints.Spawn.InitialMovementDesktop": "Użyj klawiszy ruchu, aby chodzić!",
         "Hints.Spawn.InitialMovementVR": "Użyj joysticków, aby chodzić!",
         "Hints.Spawn.InitialMovementVRNoButtons": "Korzystaj z trackpadów, żeby chodzić!",
@@ -2890,9 +2915,14 @@
         "Hints.Sundial.Dequip": "Upuść wyposażone narzędzie, wybierając opcję Odekwipuj w menu kontekstowym.",
         "Hints.Sundial.DequipExtra": "Zauważ, ponieważ trzymasz to narzędzie, opcje w menu zmieniły się.",
 
+        "Hints.Sundial.Doorway": "Wejdź aby kontynuować!",
         
-        
+        "Hints.DashboardDesktop": "Otwórz lub zamknij tablicę, naciskając klawisz Escape!",
+        "Hints.DashboardVR": "Otwórz lub zamknij tablicę, naciskając przycisk Menu!",
+        "Hints.DashboardExtra": "Poniżej znajdziesz dodatkowe informacje o tablicy.",
 
+        "Hints.Teleporter": "Wejdź do teleportu i wybierz miejsce, do którego chcesz się udać!",
+        "Hints.TeleporterExtra": "Gdziekolwiek się wybierasz, życzymy udanego pobytu w {appName}!",
         "UI.TextDisplay.Landscape": "Poziomy",
         "UI.TextDisplay.Portrait": "Pionowo",
         "UI.TextDisplay.NormalText": "Normalny",
