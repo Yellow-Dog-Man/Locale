@@ -925,6 +925,8 @@
         "CreateNew.Editor.AssetOptimizationWizard": "Мастер оптимизации ассетов",
         "CreateNew.Editor.CubemapCreator": "Мастер создания Cubemap",
         "CreateNew.Editor.ReflectionProbes": "Мастер зондов отражений",
+        "CreateNew.Editor.TexturePackingWizard": "Мастер упаковки текстур",
+        "CreateNew.Editor.TextureUnpackingWizard": "Мастер распаковки текстур",
 
         "CreateNew.3DModel": "3D Модель",
         "CreateNew.3DModel.Triangle": "Треугольник",
@@ -1558,6 +1560,10 @@
         "Settings.SteamLinkSettings.OSC_DataPort": "Порт трекинга лица OSC",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "На каком порту нужно принимать данные трекинга лица OSC. Порт должен совпадать с соответствующей настройкой в SteamVR чтобы трекинг лица работал.",
 
+        "Settings.BabbleSettings": "Project Babble",
+        "Settings.BabbleSettings.OSC_DataPort": "Порт трекинга лица OSC",
+        "Settings.BabbleSettings.OSC_DataPort.Description": "На каком порту нужно принимать данные трекинга лица OSC. Порт должен совпадать с соответствующей настройкой в приложении Babble чтобы трекинг лица работал.",
+
         "Settings.HapticPointMapping.MappingTarget": "Привязать к",
         "Settings.HapticPointMapping.MappingTarget.Description": "Задайте какой части аватара должно соответствовать это устройство.",
 
@@ -2063,6 +2069,14 @@
         "Settings.RenderingQualitySettings.SkinWeightMode": "Веса skinned mesh'ей",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Для всех skinned mesh`ей (3D моделей которые деформируются костями, как большинство аватаров), эта настройка задает, сколько костей используется для расчета позиции каждой вершины.\n\nУменьшение этого значения дает выигрыш в производительности, но качество деформаций будет ниже, из-за чего могут появиться острые складки и другие артефакты, обычно в районе суставов/шарниров.",
 
+        "Settings.RendererDecouplingSettings": "Отложенный рендер",
+        "Settings.RendererDecouplingSettings.ActivationFramerate": "Частота кадров активации",
+        "Settings.RendererDecouplingSettings.DeactivationFrames": "Частота кадров деактивации",
+        "Settings.RendererDecouplingSettings.ForceDecouple": "Принудительное откладывание",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "Максимальное время обработки ассета (в милисекундах)",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "Настройка управляет максимальным временем затрачиваемое на выгрузку ассетов в GPU когда механизм отложенного рендеринга включен. Уменьшение значения параметра увеличивает частоту кадров (например при тестировании производительности GPU), но может замедлить производительность выгрузки ассетов и на очень низких значениях приводит к заторможенному отклику UI.",
+
+
         "Settings.ImportSettings": "Импортировать настройки",
         "Settings.ImportSettings.SessionUrls": "При импорте URL сеанса",
         "Settings.ImportSettings.SessionUrls.Description": "Что должно произойти при импорте URL сеанса. Доступны следующие параметры:\n\n<color=hero.yellow>Открыть</color> — Открыть сеанс.\n<color=hero.yellow>SpawnInterface</color> — Создает представление (например, сферу сеанса) URL в вашем текущем местоположении.\n<color=hero.yellow>SpawnUrl</color> — Создает URL в вашем текущем местоположении как интерфейс URL.",
@@ -2265,7 +2279,7 @@
 
         "Inspector.Texture.Size": "Размер: {width} x {height}",
         "Inspector.Texture.Format": "Формат: {format}, Память: <nobr>{memory}</nobr>",
-        "Inspector.Texture.Variant": "VariantID: {variant}",
+        "Inspector.Texture.Variant": "ID Варианта: {variant}",
         "Inspector.Texture3D.Size": "Размер: {width} x {height} x {depth}",
 
         "Inspector.Texture.BakeTexture": "Запечь текстуру",
@@ -2289,6 +2303,10 @@
         "Inspector.Texture.SwapGB": "Поменять G <--> B",
         "Inspector.Texture.SwapGA": "Поменять G <--> A",
         "Inspector.Texture.SwapBA": "Поменять B <--> A",
+        "Inspector.Texture.IsolateR": "Изолировать канал красного цвета",
+        "Inspector.Texture.IsolateG": "Изолировать канал зеленого цвета",
+        "Inspector.Texture.IsolateB": "Изолировать канал синего цвета",
+        "Inspector.Texture.IsolateA": "Изолировать альфа-канал",
         "Inspector.Texture.AddWhiteBackground": "Добавить белый фон",
         "Inspector.Texture.AddBlackBackground": "Добавить чёрный фон",
         "Inspector.Texture.Hue": "Оттенок (H):",
@@ -2346,7 +2364,7 @@
         "Inspector.Audio.ToWAV": "Конвертировать в WAV",
         "Inspector.Audio.ToVorbis": "Конвертировать в OGG Vorbis",
         "Inspector.Audio.ToFLAC": "Конвертировать в FLAC",
-        "Inspector.Audio.DenoiseRNNoise": "Антишум (RNNoise, оптимизирован для голоса на 48 кГц)",
+        "Inspector.Audio.DenoiseRNNoise": "Шумоподавление (RNNoise, оптимизирован для голоса на 48 кГц)",
         "Inspector.Audio.ExtractSides": "Извлечь боковые каналы (может убрать голос со стерео треков)",
 
         "Inspector.AudioStream.BufferState": "Доступно сэмплов: {samples}, Пропущено: {missed}, Длина: {length}, Глобальный индекс: {index}",
@@ -2412,6 +2430,11 @@
         "Inspector.Actions.CopyComponent": "Скопировать компонент",
         "Inspector.Actions.MoveComponent": "Переместить компонент",
 
+        "Inspector.Wizard.PackTexture": "Запаковать текстуру",
+        "Inspector.Wizard.UnpackTexture": "Распаковать текстуру",
+
+        "Inspector.Error": "<color=hero.red>Ошибка! Проверьте журнал программы.</color>",
+
         "UserInspector.Title": "Инспектор пользователей",
 
         "WorkerInspector.Title": "Инспектор {name}",
@@ -2445,8 +2468,10 @@
         "Wizard.LightSources.DisabledLights": "Отключенные источники:",
         "Wizard.LightSources.WithTag": "С тэгом:",
         "Wizard.LightSources.SetShadowType": "Установить тип теней",
-        
-        
+        "Wizard.LightSources.MultiplyIntensity": "Перемножить яркость",
+        "Wizard.LightSources.SetIntensity": "Установить яркость",
+        "Wizard.LightSources.MultiplyRange": "Перемножить расстояние",
+        "Wizard.LightSources.SetRange": "Установить расстояние",
         "Wizard.LightSources.Enable": "Включить",
         "Wizard.LightSources.Disable": "Выключить",
         "Wizard.LightSources.Destroy": "Удалить",
@@ -2483,12 +2508,32 @@
         "Wizard.TextRenderer.ReplaceFont": "Заменить фонт",
         "Wizard.TextRenderer.SetColor": "Установить цвет",
 
+        "Wizard.TextureWizards.DefaultValue": "Значение по умолчанию",
+        "Wizard.TextureWizards.Invert": "Инвертировать",
+        "Wizard.TextureWizards.ClearTexture": "Отчистить текстуру",
+        "Wizard.TextureWizards.ResolutionOverride": "Перегрузить разрешение",
+        "Wizard.TextureWizards.PlaceTextureHere": "Поместите текстуру сюда",
+
+        "Wizard.TexturePacker.Title": "Мастер упаковки текстур",
+        "Wizard.TexturePacker.Packing": "Упаковка...",
+        "Wizard.TexturePacker.PackTextures": "Запаковать текстуры",
+        "Wizard.TexturePacker.Output": "Вывод",
+        "Wizard.TexturePacker.AutomaticSizeHandling": "Автоматическая настройка размера",
+        "Wizard.TexturePacker.UseSmallest": "По меньшиму",
+        "Wizard.TexturePacker.UseLargest": "По большему",
+        "Wizard.TexturePacker.GenerateMipmaps": "Сгенерировать Mipmaps",
+
+
+        "Wizard.TextureUnpacker.Title": "Мастер распаковки текстур",
+        "Wizard.TextureUnpacker.Unpacking": "Распаковка...",
+        "Wizard.TextureUnpacker.UnpackTexture": "Распаковать текстуру",
+
         "Desktop.Controls.Title": "Настройки в режиме Desktop",
         "Desktop.OpenKeyboard": "Показать клавиатуру",
         "Desktop.FollowCursor.On": "Следовать за курсором: Вкл",
         "Desktop.FollowCursor.Off": "Следовать за курсором: Выкл",
-        "Desktop.LegacyInputMode.On": "Legacy ввод: Вкл",
-        "Desktop.LegacyInputMode.Off": "Legacy ввод: Выкл",
+        "Desktop.LegacyInputMode.On": "Старый способ ввода: Вкл",
+        "Desktop.LegacyInputMode.Off": "Старый способ ввода: Выкл",
         "Desktop.Brightness": "Яркость: {n,number,percent}",
         "Desktop.Opacity": "Непрозрачность: {n,number,percent}",
 
@@ -2663,7 +2708,7 @@
         "Migration.Report.GroupMemberStatus": "Перенесено всего <color={hex}>{value}</color> участников группы",
 
         "Migration.Error": "<color=red>Ошибка:</color> {error}",
-        "Migration.NothingSelected": "Ничего не выбрано, не можем запустить.",
+        "Migration.NothingSelected": "Ничего не выбрано, не запущено.",
 
         "Migration.ColorManagement": "Этот мир был создан в гамма-пространстве и автоматически преобразован в линейное пространство.<br><br>Он может отличаться от оригинала, но в целом должен быть пригоден для использования.<br><br>сли вы являетесь автором и обнаружите какие-либо проблемы с преобразованием мира <color=red>НЕ СОХРАНЯТЕ ЕГО</color>. Сохраняйте только копии.<br><br>Пока существует оригинал, мы можем настроить процесс преобразования. В противном случае вы будете нести ответственность за то, чтобы исправить это самостоятельно.",
 
@@ -2809,7 +2854,7 @@
 
         "CloudHome.FeaturedPanel.OpenWorld": "Открыть мир",
         "CloudHome.FeaturedPanel.LinkText": "Откройте этот мир <br>самостоятельно, нажав здесь!",
-        "CloudHome.FeaturedPanel.Featured": "избранные",
+        "CloudHome.FeaturedPanel.Featured": "Избранные",
 
         "CloudHome.AvatarPanel.Title": "Избранные миры с аватарами",
 
@@ -3124,6 +3169,10 @@
         "Universe.Units.HubbleLength": "Длина Хаббла",
         "Universe.Units.EarthRadius": "Радиус Земли",
         "Universe.Units.LunarDistance": "Лунное расстояние",
+
+        "CloudHome.UpdateNotice.Header": "Уведомление об обновлении",
+
+        "Help.Help": "Справка",
 
         "Help.VROnlyNote": "<b><color=hero.Orange>Внимание</closeall>: Эта функция доступна только через VR.",
 
