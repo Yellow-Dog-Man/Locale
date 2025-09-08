@@ -925,6 +925,8 @@
         "CreateNew.Editor.AssetOptimizationWizard": "Assistant d'optimisation des ressources",
         "CreateNew.Editor.CubemapCreator": "Créateur de Cubemaps",
         "CreateNew.Editor.ReflectionProbes": "Assistant pour les sondes de réflexion",
+        "CreateNew.Editor.TexturePackingWizard": "Assistant de combinaison de textures",
+        "CreateNew.Editor.TextureUnpackingWizard": "Assistant d’extraction de texture",
 
         "CreateNew.3DModel": "Modèle 3D",
         "CreateNew.3DModel.Triangle": "Triangle",
@@ -1558,6 +1560,10 @@
         "Settings.SteamLinkSettings.OSC_DataPort": "Port OSC pour la traque du visage",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "Quel port doit être utilisé pour recevoir les données OSC. Ceci doit être le même port que dans les options de SteamVR.",
 
+        "Settings.BabbleSettings": "Projet Babble",
+        "Settings.BabbleSettings.OSC_DataPort": "Port suivi de visage OSC",
+        "Settings.BabbleSettings.OSC_DataPort.Description": "Quel port utiliser pour recevoir les données de suivi de visage par OSC. Il doit correspondre au port que vous avez défini dans l’appli Babble sur la page de paramètres.",
+
         "Settings.HapticPointMapping.MappingTarget": "Positionner sur",
         "Settings.HapticPointMapping.MappingTarget.Description": "Utilisez cette option pour définir sur quelle partie du corps vous voulez que cet appareil réagisse.",
 
@@ -2063,6 +2069,16 @@
         "Settings.RenderingQualitySettings.SkinWeightMode": "Poids d'os dynamiques",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Pour chaque maillage polygonal avec des poids (modèles 3D qui sont déformés par des os, comme la plupart des avatars), cette option contrôle combien d'os affectent la position de chaque vertex.\n\nBaisser cette valeur peut augmenter la performance mais la qualité de déformation sera moindre, résultant en des plis aiguisés, typiquement autour des articulations.",
 
+        "Settings.RendererDecouplingSettings": "Découplage de rendu",
+        "Settings.RendererDecouplingSettings.ActivationFramerate": "Fréquence d’activation",
+        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "Contrôle quand le découplage du moteur de rendu s’active. Si le taux de rafraîchissement tombe sous cette valeur, le moteur de rendu va commencer à rendre à nouveau la scène sans attendre que le moteur de jeu génère de nouvelles frames.\n\nCela permet de lisser certains à-coups visuels, lors du chargement de mondes par exemple, en libérant le mouvement du point de vue en VR et en continuant la lecture de vidéos. Cependant, tout le reste de la scène (objets, avatars, etc) restera figé.\n\nDéfinir cette valeur à 0 désactive ce mécanisme.",
+        "Settings.RendererDecouplingSettings.DeactivationFrames": "Compteur de désactivation",
+        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "Quand le découplage est activé, définit combien de frame stables (au-dessus de la fréquence d’activation) doivent être rendues avant que le mécanisme de découplage ne se désactive. Cela peut aider à empêcher que le mécanisme ne s’active et se désactive sans cesse en cas d’à-coups successifs.",
+        "Settings.RendererDecouplingSettings.ForceDecouple": "Forcer le découplage",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "Si activé, le moteur de rendu sera contraint à rester constamment découplé : il continuera à rendre des images aussi vite que possible sans attendre le moteur de jeu.\n\n<color=hero.red>ATTENTION !</color> Ce paramètre est utile pour du débogage et pour diagnostiquer si vous êtes limité par le CPU ou le GPU (si vous êtes limité par le CPU, votre taux de rafraîchissement devrait augmenter de façon conséquente) mais il n’est pas prévu pour un usage normal.\n\nVous pourriez ressentir des artefacts visuels, des micro-mouvements intempestifs, ou un ralentissement du chargement de ressources.",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "Temps de calcul max de ressources (millisecondes)",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "Contrôle la durée maximum que le moteur de rendu pourra passer à charger des ressources dans le GPU quand le mécanisme de découplage est actif. Diminuer ce paramètre pourrait augmenter votre taux de rafraîchissement maximum (par exemple si vous testez les performances max de votre GPU), mais le réduire beaucoup peut diminuer vos performances, et le réduire trop pourrait ralentir la mise à jour des interfaces utilisateur.",
+
         "Settings.ImportSettings": "Options d'import",
         "Settings.ImportSettings.SessionUrls": "Importation d'URL de session",
         "Settings.ImportSettings.SessionUrls.Description": "Que faire quand une URL de session est importée, les options étant :\n\n<color=hero.yellow>Ouvrir</color> - Ouvre la session.\n<color=hero.yellow>Matérialiser une interface d'entité</color> - Matérialise une représentation comme un orbe de session dans le monde dans lequel vous êtes.\n<color=hero.yellow>Matérialiser l'URL</color> - Matérialise une URL copiable dans le monde.",
@@ -2289,6 +2305,10 @@
         "Inspector.Texture.SwapGB": "Échanger le vert et le rouge",
         "Inspector.Texture.SwapGA": "Échanger le vert et l'alpha",
         "Inspector.Texture.SwapBA": "Échanger le bleu et l'alpha",
+        "Inspector.Texture.IsolateR": "Isoler le canal rouge",
+        "Inspector.Texture.IsolateG": "Isoler le canal vert",
+        "Inspector.Texture.IsolateB": "Isoler le canal bleu",
+        "Inspector.Texture.IsolateA": "Isoler le canal alpha",
         "Inspector.Texture.AddWhiteBackground": "Ajouter un fond blanc",
         "Inspector.Texture.AddBlackBackground": "Ajouter un fond noir",
         "Inspector.Texture.Hue": "Teinte :",
@@ -2412,6 +2432,11 @@
         "Inspector.Actions.CopyComponent": "Copier le composant",
         "Inspector.Actions.MoveComponent": "Bouger le composant",
 
+        "Inspector.Wizard.PackTexture": "Combiner textures",
+        "Inspector.Wizard.UnpackTexture": "Extraire texture",
+
+        "Inspector.Error": "<color=hero.red>Erreur ! Consulter les logs.</color>",
+
         "UserInspector.Title": "Inspecteur d'utilisateurs",
 
         "WorkerInspector.Title": "Inspecteur de {name}",
@@ -2445,8 +2470,10 @@
         "Wizard.LightSources.DisabledLights": "Lumières Désactivées :",
         "Wizard.LightSources.WithTag": "Avec Étiquette :",
         "Wizard.LightSources.SetShadowType": "Définir le type d'Ombre",
-        
-        
+        "Wizard.LightSources.MultiplyIntensity": "Multiplier intensité",
+        "Wizard.LightSources.SetIntensity": "Définir intensité",
+        "Wizard.LightSources.MultiplyRange": "Multiplier portée",
+        "Wizard.LightSources.SetRange": "Définir portée",
         "Wizard.LightSources.Enable": "Activer",
         "Wizard.LightSources.Disable": "Désactiver",
         "Wizard.LightSources.Destroy": "Détruire",
@@ -2482,6 +2509,26 @@
         "Wizard.TextRenderer.ReplaceMaterial": "Remplacer le matériau",
         "Wizard.TextRenderer.ReplaceFont": "Remplacer la police d'écriture",
         "Wizard.TextRenderer.SetColor": "Définir la couleur",
+
+        "Wizard.TextureWizards.DefaultValue": "Valeur par défaut",
+        "Wizard.TextureWizards.Invert": "Inverser",
+        "Wizard.TextureWizards.ClearTexture": "Retirer texture",
+        "Wizard.TextureWizards.ResolutionOverride": "Résolution forcée",
+        "Wizard.TextureWizards.PlaceTextureHere": "Placer texture ici",
+
+        "Wizard.TexturePacker.Title": "Assistant combinaison textures",
+        "Wizard.TexturePacker.Packing": "Combinaison...",
+        "Wizard.TexturePacker.PackTextures": "Combiner les textures",
+        "Wizard.TexturePacker.Output": "Résultat",
+        "Wizard.TexturePacker.AutomaticSizeHandling": "Taille automatique",
+        "Wizard.TexturePacker.UseSmallest": "Adapter au plus petit",
+        "Wizard.TexturePacker.UseLargest": "Adapter au plus grand",
+        "Wizard.TexturePacker.GenerateMipmaps": "Générer Mipmaps",
+
+
+        "Wizard.TextureUnpacker.Title": "Assistant extraction texture",
+        "Wizard.TextureUnpacker.Unpacking": "Extraction...",
+        "Wizard.TextureUnpacker.UnpackTexture": "Extraire la texture",
 
         "Desktop.Controls.Title": "Contrôles Bureau",
         "Desktop.OpenKeyboard": "Ouvrir le clavier",
