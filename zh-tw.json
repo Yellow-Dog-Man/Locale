@@ -925,6 +925,8 @@
         "CreateNew.Editor.AssetOptimizationWizard": "資產最佳化精靈",
         "CreateNew.Editor.CubemapCreator": "Cubemap 建造器",
         "CreateNew.Editor.ReflectionProbes": "反射探針設定精靈",
+        "CreateNew.Editor.TexturePackingWizard": "貼圖打包精靈",
+        "CreateNew.Editor.TextureUnpackingWizard": "貼圖解包精靈",
 
         "CreateNew.3DModel": "3D模型",
         "CreateNew.3DModel.Triangle": "三角形",
@@ -2071,9 +2073,9 @@
         "Settings.RendererDecouplingSettings.ActivationFramerate": "啟動解耦的 FPS",
         "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "本選項控制何時渲染解耦會啟動。如果立即渲染的狀態下 FPS 掉到此數字以下時，渲染器可在引擎尚未傳入新幀資料的狀態下直接渲染。\n\n有助於緩解部份卡頓，以及播放影片或是 VR 顯示的頓挫感，但場景中的其他部份有會頓住的現象。\n\n設為 0 會關閉這個機制。",
         "Settings.RendererDecouplingSettings.DeactivationFrames": "解除解耦的穩定幀數量",
-        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "渲染解耦啟動後，此選項調整連續幾張穩定幀（FPS 超過「啟動解耦的 FPS」）渲染後會關閉渲染解耦。這可以避免在多次卡頓的情形下，造成本功能連續啟用與停用。",
+        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "渲染解耦啟動後，此選項調整連續幾張穩定幀（FPS 超過「啟動解耦的 FPS」）渲染後會關閉渲染解耦。這可以避免在連續卡頓的狀況下，造成本功能連續啟用與停用。",
         "Settings.RendererDecouplingSettings.ForceDecouple": "強制渲染解耦",
-        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "啟動後渲染器會強制保持渲染解耦的狀態，在不等待引擎傳入新幀資料的狀態下盡可能的渲染新幀。\n\n<color=hero.red>警告：</color>本功能多數作為除錯用途，可以用來得知您的電腦是卡在 CPU 還是 GPU（卡在 CPU 的情況下，此選項打開後幀率會明顯提高），而非作為平常使用。\n\n您可能會遭遇嚴重卡頓、抖動以及資產載入/卸載變慢的情形。",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "啟動後渲染器會強制保持渲染解耦的狀態，在不等待引擎傳入新幀資料的狀態下盡可能的渲染新幀。\n\n<color=hero.red>警告：</color>本功能多數作為除錯用途，可以用來得知您的電腦是卡在 CPU 還是 GPU（卡在 CPU 的情況下，此選項打開後幀率會明顯提高），不建議作為平常使用。\n\n您可能會遭遇嚴重卡頓、抖動以及資產載入/上傳變慢的情形。",
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "解耦狀態下資產處理時間（毫秒）",
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "本選項控制在解耦狀態下，上傳資產到 GPU 的時間限制。調低有助於增加最大幀率（例如當測試 GPU 的最高渲染性能時），但也會降低載入的性能，調到極低甚至會影響 UI 的更新速率。",
 
@@ -2303,6 +2305,10 @@
         "Inspector.Texture.SwapGB": "交換 G <--> B",
         "Inspector.Texture.SwapGA": "交換 G <--> A",
         "Inspector.Texture.SwapBA": "交換 B <--> A",
+        "Inspector.Texture.IsolateR": "隔離紅色通道",
+        "Inspector.Texture.IsolateG": "隔離綠色通道",
+        "Inspector.Texture.IsolateB": "隔離藍色通道",
+        "Inspector.Texture.IsolateA": "隔離 Alpha 通道",
         "Inspector.Texture.AddWhiteBackground": "增加白色背景",
         "Inspector.Texture.AddBlackBackground": "增加黑色背景",
         "Inspector.Texture.Hue": "色相：",
@@ -2426,6 +2432,11 @@
         "Inspector.Actions.CopyComponent": "複製元件",
         "Inspector.Actions.MoveComponent": "移動元件",
 
+        "Inspector.Wizard.PackTexture": "打包貼圖",
+        "Inspector.Wizard.UnpackTexture": "解包貼圖",
+
+        "Inspector.Error": "錯誤",
+
         "UserInspector.Title": "使用者檢視器",
 
         "WorkerInspector.Title": "{name} 檢視器",
@@ -2459,8 +2470,10 @@
         "Wizard.LightSources.DisabledLights": "停用的光源：",
         "Wizard.LightSources.WithTag": "含標籤：",
         "Wizard.LightSources.SetShadowType": "設定陰影類型",
-        
-        
+        "Wizard.LightSources.MultiplyIntensity": "相乘強度",
+        "Wizard.LightSources.SetIntensity": "設定強度",
+        "Wizard.LightSources.MultiplyRange": "相乘範圍",
+        "Wizard.LightSources.SetRange": "設定範圍",
         "Wizard.LightSources.Enable": "啟用",
         "Wizard.LightSources.Disable": "停用",
         "Wizard.LightSources.Destroy": "銷毀",
@@ -2496,6 +2509,25 @@
         "Wizard.TextRenderer.ReplaceMaterial": "替換材質",
         "Wizard.TextRenderer.ReplaceFont": "替換字體",
         "Wizard.TextRenderer.SetColor": "設定顏色",
+
+        "Wizard.TextureWizards.DefaultValue": "預設值",
+        "Wizard.TextureWizards.Invert": "反轉",
+        "Wizard.TextureWizards.ClearTexture": "清除貼圖",
+        "Wizard.TextureWizards.ResolutionOverride": "解析度覆蓋",
+        "Wizard.TextureWizards.PlaceTextureHere": "在此放置貼圖",
+
+        "Wizard.TexturePacker.Title": "貼圖打包精靈",
+        "Wizard.TexturePacker.Packing": "打包中……",
+        "Wizard.TexturePacker.PackTextures": "打包貼圖",
+        "Wizard.TexturePacker.Output": "輸出",
+        "Wizard.TexturePacker.AutomaticSizeHandling": "自動尺寸處理",
+        "Wizard.TexturePacker.UseSmallest": "使用最小",
+        "Wizard.TexturePacker.UseLargest": "使用最大",
+        "Wizard.TexturePacker.GenerateMipmaps": "生成 Mipmap",
+
+        "Wizard.TextureUnpacker.Title": "貼圖解包精靈",
+        "Wizard.TextureUnpacker.Unpacking": "解包中……",
+        "Wizard.TextureUnpacker.UnpackTexture": "解包貼圖",
 
         "Desktop.Controls.Title": "桌面控制",
         "Desktop.OpenKeyboard": "開啟鍵盤",
@@ -3285,7 +3317,6 @@
         "Help.GettingStarted.GraphicsSettings.Resolution.Content": "當您在桌面上使用 {appName} 時，如果您想使用特定的渲染解析度，請前往 <b><color=hero.purple>解析度設定</closeall> 部分。在這裡，您可以分別調整全螢幕和視窗檢視的解析度，以及切換 {appName} 是否全螢幕顯示。",
         "Help.GettingStarted.GraphicsSettings.RenderingQuality": "渲染品質設定",
         "Help.GettingStarted.GraphicsSettings.RenderingQuality.Content": "如果您真的想要提高效能，<b><color=hero.purple>渲染品質設定</closeall> 比其他設定對效能的影響更大。在這裡您可以更改可以同時渲染的燈光數量、陰影品質等等。",
-
         "Help.GettingStarted.GraphicsSettings.PostProcessing": "畫面後處理設定",
         "Help.GettingStarted.GraphicsSettings.PostProcessing.Content": "在 <b><color=hero.purple>畫面後處理設定</closeall> 部分提供了一些後處理效果來增強 {appName} 的外觀。這些設定包括 <b><color=hero.cyan>動態模糊強度</closeall>、<b><color=hero.cyan>光暈強度</closeall> 和 <b><color=hero.cyan>環境光遮蔽強度</closeall>。",
         "Help.GettingStarted.GraphicsSettings.VRRenderQuality": "VR 渲染品質設定",
