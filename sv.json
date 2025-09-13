@@ -720,7 +720,7 @@
         "Undo.RotateAroundAxis": "Rotera Runt Axel",
         "Undo.ResetPosition": "Återställ Position",
         "Undo.ResetRotation": "Återställ Rotation",
-        "Undo.ResetScale": "Återställ Skala",
+        "Undo.ResetScale": "Återställ Storlek",
 
         "Undo.GrabObjects": "Greppa Objekt",
         "Undo.DestroyGrabbed": "Förstör Greppat Objekt",
@@ -920,11 +920,13 @@
 
         "CreateNew.Editor": "Redigerare",
         "CreateNew.Editor.UserInspector": "Användarinspektör",
-        "CreateNew.Editor.LightSourcesWizard": "Världs-Ljuskälla Guide",
-        "CreateNew.Editor.TextRendererWizard": "Världs-Textåtergivnings Guide",
-        "CreateNew.Editor.AssetOptimizationWizard": "Resursoptimerings Guide",
+        "CreateNew.Editor.LightSourcesWizard": "Världs-Ljuskälla Wizard",
+        "CreateNew.Editor.TextRendererWizard": "Världs-Textåtergivnings Wizard",
+        "CreateNew.Editor.AssetOptimizationWizard": "Resursoptimerings Wizard",
         "CreateNew.Editor.CubemapCreator": "Kubkarta-Skapare",
-        "CreateNew.Editor.ReflectionProbes": "Reflektionssonds Guide",
+        "CreateNew.Editor.ReflectionProbes": "Reflektionssonds Wizard",
+        "CreateNew.Editor.TexturePackingWizard": "Packa Ner Textur-Wizard",
+        "CreateNew.Editor.TextureUnpackingWizard": "Packa Upp Textur-Wizard",
 
         "CreateNew.3DModel": "3D-Modell",
         "CreateNew.3DModel.Triangle": "Triangel",
@@ -948,7 +950,7 @@
         "CreateNew.Light": "Ljus",
         "CreateNew.Light.Point": "Punkt",
         "CreateNew.Light.Spot": "Spot",
-        "CreateNew.Light.Directional": "Riktat",
+        "CreateNew.Light.Directional": "Riktad (Sol)",
 
         "CreateNew.Materials": "Material",
 
@@ -1558,6 +1560,10 @@
         "Settings.SteamLinkSettings.OSC_DataPort": "OSC Ansiktsspårningsport",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "Vilken port ska användas för att lyssna efter OSC-data för ansiktsspårning. Denna skall matcha samma port som du ställer in i SteamVR-inställningarna för att ansiktsspårningen ska fungera.",
 
+        "Settings.BabbleSettings": "Projekt Babble",
+        "Settings.BabbleSettings.OSC_DataPort": "OSC Ansiktsspårningsport",
+        "Settings.BabbleSettings.OSC_DataPort.Description": "Vilken port som ska användas för att lyssna efter OSC-data för ansiktsspårning. Detta ska matcha samma port som du ställt in i Babble-appen i Inställningarna.",
+
         "Settings.HapticPointMapping.MappingTarget": "Mappa till",
         "Settings.HapticPointMapping.MappingTarget.Description": "Använd detta för att konfigurera vilken del av avataren du vill att denna enhet ska mappas till.",
 
@@ -1999,7 +2005,7 @@
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Använd Cookies Från Webbläsare",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Om YouTube och andra tjänstevideor inte laddas för dig, välj den webbläsare du vanligtvis använder för att ladda cookies från när du hämtar dessa videor. Detta ökar chansen att videon laddas framgångsrikt.",
 
-        "Settings.PostProcessingSettings": "Efterbehandling",
+        "Settings.PostProcessingSettings": "Efterbearbetning",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Rörelseoskärpa Intensitet",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Detta styr styrkan hos rörelseoskärpeeffekten, som smetar ut bilden med rörelse. Högre värden kommer att resultera i mer oskärpa med samma mängd rörelse.\n\nOm du ställer in effekten till <nobr><color=hero.yellow>0 %</color></nobr> kommer filtret att inaktiveras helt, vilket kan förbättra prestandan.",
         "Settings.PostProcessingSettings.BloomIntensity": "Bloom Intensitet",
@@ -2033,11 +2039,11 @@
         "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description": "För lokalt importerade gaussian splats kommer kvaliteten aldrig att vara lägre än detta värde. <br><br>Vi rekommenderar inte att du ställer in detta under Medium, eftersom lägre kvalitetsnivåer är betydligt mer intensiva och tidskrävande att komprimera och bör lämnas för komprimering i molnet. <br><br>Att ställa in detta till Mycket Hög kommer att göra att gaussian splats laddas mycket snabbare efter import på grund av att de inte behöver komprimeras, dock på bekostnad av hög VRAM-användning.",
         "Settings.GaussianSplatQualitySettings.AdvancedQuality": "Avancerade Kvalitetsinställningar",
         "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description": "När aktiverat kan du konfigurera de specifika kodningar som används för olika Gaussian Splat-buffrar. Detta ger dig mycket finjusterad kontroll över kvaliteten. Det kan också användas för testning/diagnostikändamål.",
-        "Settings.GaussianSplatQualitySettings.PositionFormat": "Positionsdataformat",
+        "Settings.GaussianSplatQualitySettings.PositionFormat": "Dataformat för Position",
         "Settings.GaussianSplatQualitySettings.PositionFormat.Description": "Kodning som används för splatsens positioner.",
-        "Settings.GaussianSplatQualitySettings.ScaleFormat": "Skalningsdataformat",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat": "Dataformat för Skala",
         "Settings.GaussianSplatQualitySettings.ScaleFormat.Description": "Kodning som används för splatsens skalor.",
-        "Settings.GaussianSplatQualitySettings.ColorFormat": "Färgdataformat",
+        "Settings.GaussianSplatQualitySettings.ColorFormat": "Dataformat för Färg",
         "Settings.GaussianSplatQualitySettings.ColorFormat.Description": "Kodning som används för splatsens färger och opacitet.",
         "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat": "Sfärisk harmoni dataformat",
         "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description": "Kodning som används för splatsens sfäriska harmonidata.",
@@ -2063,7 +2069,18 @@
         "Settings.RenderingQualitySettings.SkinWeightMode": "Skinsviktläge",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "För alla skinned meshes (3D-modeller som deformeras av ben, som de flesta avatarer), styr detta hur många ben som används för att påverka positionen för varje vertex.\n\nAtt sänka detta värde sparar lite prestanda, men deformationskvaliteten blir lägre, vilket resulterar i skarpa veck och andra artefakter, vanligtvis runt lederna.",
 
-        "Settings.ImportSettings": "Importinställningar",
+        "Settings.RendererDecouplingSettings": "Render Frikoppling",
+        "Settings.RendererDecouplingSettings.ActivationFramerate": "FPS-Aktivering",
+        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "Detta styr när render frikopplingen aktiveras. Om den nuvarande FPSn skulle sjunka under detta värde, kommer renderaren att börja återskapa scenen utan att behöva vänta på systemet.\n\nDetta hjälper till att jämna ut återspelning och mildra avbrott i videouppspelning. Det hjälper också när VR-headsetets vy fryser, men allt annat i scenen utom du kommer att vara stilla.\n\nAtt ställa detta till 0 deaktiverar render frikoppling.",
+        "Settings.RendererDecouplingSettings.DeactivationFrames": "Antal Deaktiverings-rutor",
+        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "När frikopplingen är aktiv indikerar detta hur många stabila bildrutor (över aktiveringströskeln) som behöver renderas innan frikopplingsmekanismen stängs av. Detta kan hjälpa till att förhindra att mekanismen slås på och av vid flera efterföljande avbrott.",
+        "Settings.RendererDecouplingSettings.ForceDecouple": "Tvinga Frikoppling",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "När det är påslaget, kommer renderaren att tvingas till att konstant vara frikopplad och kommer att fortsätta rendera nya bildrutor så snabbt som möjligt utan att vänta på systemet.\n\n<color=hero.red>VARNING!</color> Detta är mest användbart för felsökning och för att diagnostisera om du är begränsad av processorn (CPU) eller grafikkortet (GPU) (om du är begränsad av processorn kommer din bildfrekvens att öka avsevärt med detta påslaget) och är inte avsett för normal användning.\n\nDu kan uppleva betydligt hackande, ryckighet och långsam inläsning/uppladdning av resurser.",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "Maximal frikopplad resurshantering (millisekunder)",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "Detta styr den maximala tiden som renderaren kommer att lägga på att ladda upp resurser till GPU:n när frikopplingsmekanismen är aktiv. Att sänka detta kan öka din maximala bildfrekvens (t.ex. när du testar maximal GPU-prestanda), men kan sänka laddningsprestandan och vid mycket låga värden kan gränssnittet bli långsammare med att uppdateras.",
+
+
+        "Settings.ImportSettings": "Inställningar för Import",
         "Settings.ImportSettings.SessionUrls": "Vid Import av Sessions-URL",
         "Settings.ImportSettings.SessionUrls.Description": "När en sessions-URL importeras, vad ska hända. Tillgängliga alternativ är:\n\n<color=hero.yellow>Öppna</color> - Öppnar sessionen.\n<color=hero.yellow>SpawnaGränssnitt</color> - Spawna en representation (som en sessions glob) av URL:en på din nuvarande plats.\n<color=hero.yellow>SpawnaUrl</color> - Spawna URL:en på din nuvarande plats som ett URL-gränssnitt.",
         "Settings.ImportSettings.WorldUrls": "Vid Import av Världs-URL",
@@ -2116,7 +2133,7 @@
         "Inspector.Slot.Reset.Label": "Återställ:",
         "Inspector.Slot.Reset.Position": "Position",
         "Inspector.Slot.Reset.Rotation": "Rotation",
-        "Inspector.Slot.Reset.Scale": "Skala",
+        "Inspector.Slot.Reset.Scale": "Storlek",
 
         "Inspector.Slot.CreatePivotAtCenter": "Skapa Pivot Vid Centrum",
 
@@ -2187,7 +2204,7 @@
         "Inspector.Mesh.TrimVertexBoneWeightsTo": "Trimma Vertex Benvikter till:",
         "Inspector.Mesh.BoneTrimCount": "{n,plural, one {# Ben} other {# Ben}}",
         "Inspector.Mesh.UV_Multiplicator": "Multiplikator:",
-        "Inspector.Mesh.ScaleUVs": "Skala UV",
+        "Inspector.Mesh.ScaleUVs": "Skala om UV",
 
         "Inspector.MeshRenderer.MergeByMaterial": "Slå ihop submesher med samma material",
         "Inspector.MeshRenderer.SplitByMaterial": "Dela upp i separata mesher per material",
@@ -2289,6 +2306,10 @@
         "Inspector.Texture.SwapGB": "Byt plats på G <--> B",
         "Inspector.Texture.SwapGA": "Byt plats på G <--> A",
         "Inspector.Texture.SwapBA": "Byt plats på B <--> A",
+        "Inspector.Texture.IsolateR": "Isolera Röd Kanal",
+        "Inspector.Texture.IsolateG": "Isolera Grön Kanal",
+        "Inspector.Texture.IsolateB": "Isolera Blå Kanal",
+        "Inspector.Texture.IsolateA": "Isolera Alfa Kanal",
         "Inspector.Texture.AddWhiteBackground": "Lägg till Vit Bakgrund",
         "Inspector.Texture.AddBlackBackground": "Lägg till Svart Bakgrund",
         "Inspector.Texture.Hue": "Nyans:",
@@ -2412,6 +2433,11 @@
         "Inspector.Actions.CopyComponent": "Kopiera Komponent",
         "Inspector.Actions.MoveComponent": "Flytta Komponent",
 
+        "Inspector.Wizard.PackTexture": "Packa Textur",
+        "Inspector.Wizard.UnpackTexture": "Packa Upp Textur",
+
+        "Inspector.Error": "<color=hero.red>Fel! Kolla loggen.</color>",
+
         "UserInspector.Title": "Användarinspektör",
 
         "WorkerInspector.Title": "{name} Inspektör",
@@ -2423,8 +2449,8 @@
         "Wizard.General.ErrorNoRoot": "Ingen Rot Vald",
         "Wizard.General.RemovedResult": "Borttaget {n}",
 
-        "Wizard.AssetOptimization.Title": "Tillgångsoptimeringsguide",
-        "Wizard.AssetOptimization.CleanupUnusedAssets": "Rensa Oanvända Tillgångar",
+        "Wizard.AssetOptimization.Title": "Resursoptimerings Wizard",
+        "Wizard.AssetOptimization.CleanupUnusedAssets": "Rensa Oanvända Resurser",
         "Wizard.AssetOptimization.CleanupEmptySlots": "Rensa Tomma Slot",
         "Wizard.AssetOptimization.CleanupDisabledMeshRenderers": "Rensa Inaktiverade Mesh Renderare",
         "Wizard.AssetOptimization.DeduplicateMaterials": "Deduplicera Material",
@@ -2436,7 +2462,7 @@
         "Wizard.AssetOptimization.RecalculateAllTangents": "Räkna om Alla Tangenter (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult": "Storleksändrad {n}",
 
-        "Wizard.LightSources.Title": "Ljuskällorsguide",
+        "Wizard.LightSources.Title": "Ljuskälla Wizard",
         "Wizard.LightSources.Header": "Scenens Ljuskällor",
         "Wizard.LightSources.ProcessRoot": "Rot Slot:",
         "Wizard.LightSources.PointLights": "Punktljus:",
@@ -2445,8 +2471,10 @@
         "Wizard.LightSources.DisabledLights": "Inaktiverade Ljus:",
         "Wizard.LightSources.WithTag": "Med Tag:",
         "Wizard.LightSources.SetShadowType": "Ställ in Skuggtyp",
-        
-        
+        "Wizard.LightSources.MultiplyIntensity": "Multiplicera Intensitet",
+        "Wizard.LightSources.SetIntensity": "Ställ Intensitet",
+        "Wizard.LightSources.MultiplyRange": "Multiplicera Distans",
+        "Wizard.LightSources.SetRange": "Ställ in Distans",
         "Wizard.LightSources.Enable": "Aktivera",
         "Wizard.LightSources.Disable": "Inaktivera",
         "Wizard.LightSources.Destroy": "Förstör",
@@ -2462,7 +2490,7 @@
         "Wizard.CubemapCreator.NegZ": "Negativ Z (bak)",
         "Wizard.CubemapCreator.TopBottomRotation": "Topp/Botten Rotation:",
 
-        "Wizard.ReflectionProbes.Title": "Reflektionsprobguide",
+        "Wizard.ReflectionProbes.Title": "Reflektionsprob Wizard",
         "Wizard.ReflectionProbes.ProcessRoot": "Rot Slot:",
         "Wizard.ReflectionProbes.ProcessDisabled": "Processera Inaktiverad",
         "Wizard.ReflectionProbes.WithTag": "Med Tag:",
@@ -2473,7 +2501,7 @@
         "Wizard.ReflectionProbes.BakeProbes": "Baka Sonder",
         "Wizard.ReflectionProbes.Baking": "Bakar {index} av {count}...",
 
-        "Wizard.TextRenderer.Header": "TextRendererguide",
+        "Wizard.TextRenderer.Header": "TextRenderer Wizard",
         "Wizard.TextRenderer.ProcessRoot": "Rot Slot:",
         "Wizard.TextRenderer.ProcessStandalone": "Processera Fristående",
         "Wizard.TextRenderer.ProcessUIX": "Processera UIX",
@@ -2482,6 +2510,26 @@
         "Wizard.TextRenderer.ReplaceMaterial": "Ersätt Material",
         "Wizard.TextRenderer.ReplaceFont": "Ersätt Font",
         "Wizard.TextRenderer.SetColor": "Ställ in Färg",
+
+        "Wizard.TextureWizards.DefaultValue": "Standardvärde",
+        "Wizard.TextureWizards.Invert": "Invertera",
+        "Wizard.TextureWizards.ClearTexture": "Rensa Textur",
+        "Wizard.TextureWizards.ResolutionOverride": "Överskrid Upplösning",
+        "Wizard.TextureWizards.PlaceTextureHere": "Placera Textur Här",
+
+        "Wizard.TexturePacker.Title": "Packa Ner Textur-Wizard",
+        "Wizard.TexturePacker.Packing": "Paketerar...",
+        "Wizard.TexturePacker.PackTextures": "Paketera Texturer",
+        "Wizard.TexturePacker.Output": "Output",
+        "Wizard.TexturePacker.AutomaticSizeHandling": "Automatisk Storlekshantering",
+        "Wizard.TexturePacker.UseSmallest": "Använd Minsta",
+        "Wizard.TexturePacker.UseLargest": "Använd Största",
+        "Wizard.TexturePacker.GenerateMipmaps": "Generera Mipmaps",
+
+
+        "Wizard.TextureUnpacker.Title": "Packa Upp Textur-Wizard",
+        "Wizard.TextureUnpacker.Unpacking": "Packar Upp...",
+        "Wizard.TextureUnpacker.UnpackTexture": "Packa Upp Textur",
 
         "Desktop.Controls.Title": "Skrivbordskontroller",
         "Desktop.OpenKeyboard": "Öppna Tangentbord",
@@ -2705,7 +2753,7 @@
         "Tutorial.Teleporter.ChooseDestination": "Välj vart du vill gå härnäst",
 
         "Tutorial.Teleporter.Destinations.CloudHome": "Gå till ditt Favorithem",
-        "Tutorial.Teleporter.Destinations.AvatarWorld": "Gå till Avatar Gazebon",
+        "Tutorial.Teleporter.Destinations.AvatarWorld": "Gå till 'Avatar Gazebo' världen",
         "Tutorial.Teleporter.Destinations.PickAnotherSession": "Välj en annan session",
         "Tutorial.Teleporter.Destinations.PickPublicSession": "Gå med i en offentlig session",
 
@@ -2884,12 +2932,12 @@
         "Hints.Grabbing.Rotating": "Rotera hållna objekt genom att hålla inne E och rör musen!",
         "Hints.Grabbing.RotatingExtra": "Håll nere Skift och E samtidigt för att rotera ett objekt kring dess horisontella axel!",
 
-        "Hints.Grabbing.ScalingDesktop": "Greppa ett objekt, håll nere Skift, och använd scrollhjulet för att ändra skalan!",
-        "Hints.Grabbing.ScalingVR": "Fysiskt greppa saker med båda händerna för att ändra skalan!",
+        "Hints.Grabbing.ScalingDesktop": "Greppa ett objekt, håll nere Skift, och använd scrollhjulet för att ändra storleken!",
+        "Hints.Grabbing.ScalingVR": "Fysiskt greppa saker med båda händerna för att ändra storleken!",
 
         "Hints.Grabbing.OtherGrabbables": "Det finns många olika interaktiva objekt, lek med de här tre för att se hur de fungerar!",
-        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Utöver att skala objekt kan du också skala dig själv genom att aktivera skalning i din Kontextmeny, hålla nere Ctrl och använda scrollhjulet!",
-        "Hints.Grabbing.OtherGrabbablesExtraVR": "Utöver att skala objekt kan du också skala dig själv genom att aktivera skalning i din Kontextmeny, greppa framför dig med båda händerna och föra dem närmare eller längre isär!",
+        "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Utöver att ändra storleken på objekt kan du också ändra storleken på dig själv genom att aktivera Storleksändring i din Kontextmeny, hålla nere Ctrl och använd scrollhjulet!",
+        "Hints.Grabbing.OtherGrabbablesExtraVR": "Utöver att ändra storleken på objekt kan du också ändra storleken på dig själv genom att aktivera Storleksändring i din Kontextmeny, greppa framför dig med båda händerna och för dem samman eller längre isär!",
 
         "Hints.Telescope.Alignment": "Greppa teleskopet och rikta det mot månen!",
 
