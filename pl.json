@@ -38,6 +38,7 @@
         "General.UnderstandEnable": "Rozumiem, Włącz",
         "General.Dismiss": "Zamknij",
         "General.Edit": "Edytuj",
+        "General.DontShowAgain": "Nie pokazuj ponownie",
 
         "General.UI.SearchPrompt": "Szukaj...",
         "General.UI.SearchPromptLong": "Wpisz, aby wyszukać...",
@@ -150,6 +151,7 @@
         "Dash.Screens.Session": "Sesja",
         "Dash.Screens.FileBrowser": "Pliki",
         "Dash.Screens.Settings": "Ustawienia",
+        "Dash.Screens.Help": "Pomoc",
         "Dash.Screens.Exit": "Wyjdź",
 
         "Dash.Actions.PasteFromClipboard": "Wklej zawartość ze schowka",
@@ -306,6 +308,7 @@
         "World.Category.ContactsSessions": "Sesje Znajomych",
         "World.Category.HeadlessSessions": "Sesje Headless",
         "World.Category.Social": "Społeczne",
+        "World.Category.Avatars": "Avatary",
         "World.Category.Games": "Gry",
         "World.Category.Art": "Sztuka",
         "World.Category.Tutorials": "Poradniki",
@@ -629,6 +632,7 @@
         "Permissions.NotAllowedToSpawn": "Nie masz pozwolenia aby przyzywać przedmioty w tym świecie.",
         "Permissions.NotAllowedToSave": "Nie masz pozwolenia aby zapisywać przedmioty w tym świecie.",
         "Permissions.NotAllowedToSwapAvatar": "Nie masz pozwolenia aby użyć własnego awatara w tym świecie.",
+        "Permissions.SavingDisabledForItem": "Nie masz pozwolenia aby zapisać ten przedmiot.",
 
         "User.Actions.Silence": "Wycisz (globalnie)",
         "User.Actions.Mute": "Wycisz (lokalnie)",
@@ -921,6 +925,8 @@
         "CreateNew.Editor.AssetOptimizationWizard": "Kreator Optymalizacji Zasobów",
         "CreateNew.Editor.CubemapCreator": "Kreator Cubemap",
         "CreateNew.Editor.ReflectionProbes": "Kreator Próbek Odbicia",
+        "CreateNew.Editor.TexturePackingWizard": "Kreator pakowania tekstur",
+        "CreateNew.Editor.TextureUnpackingWizard": "Kreator rozpakowywania tekstur",
 
         "CreateNew.3DModel": "Model 3D",
         "CreateNew.3DModel.Triangle": "Trójkąt",
@@ -1554,6 +1560,10 @@
         "Settings.SteamLinkSettings.OSC_DataPort": "Port śledzenia twarzy OSC",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "Port, który powinien być używany do nasłuchiwania danych śledzenia twarzy przez OSC. To powinien być ten sam port, który jest ustawiony w ustawieniach SteamVR.",
 
+        "Settings.BabbleSettings": "Projekt Babble",
+        "Settings.BabbleSettings.OSC_DataPort": "Face tracking OSC port",
+        "Settings.BabbleSettings.OSC_DataPort.Description": "Który port należy używać podczas odbierania danych śledzenia twarzy przez OSC. Powinien to być ten sam port, co w ustawieniach Babble.",
+
         "Settings.HapticPointMapping.MappingTarget": "Przypisz do",
         "Settings.HapticPointMapping.MappingTarget.Description": "Użyj tego aby ustalić do której części awatara ma być przypisane to urządzenie.",
 
@@ -1660,6 +1670,8 @@
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Po włączeniu trybu szeptania ten parametr wskazuje, jak głośne będą dźwięki poza sferą. Jeśli dźwięki są zbyt głośne lub zbyt ciche, możesz użyć tej opcji, aby dostosować tłumienie głośności.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Głośność wiadomości głosowych",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Wskazuje, jak głośne będą inne dźwięki podczas nagrywania wiadomości głosowej w Kontaktach. Może to pomóc w zapobieganiu „zagłuszaniu głosu”, ułatwiając skupienie się na tym, co mówisz.",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff": "Wyłącz efekty dźwiękowe dla głosów",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description": "Wyłącz wszelkie efekty dźwiękowe (takie jak pogłos) stosowane do głosów innych użytkowników w świecie. Może to pomóc, jeśli masz problemy ze zrozumieniem głosów z powodu tych efektów.<br><br><color=hero.red>Ważne:</color> Światy mogą opcjonalnie wyłączyć tę funkcję, jeśli potrzebują efektów głosowych ze względu na rozgrywkę. W takich przypadkach to ustawienie nie będzie miało żadnego wpływu.",
 
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Normalizacja głosu",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Funkcja ta stara się zapewnić jednolity poziom głosu. Dzięki temu głośność będzie taka sama jak innych użytkowników, niezależnie od ustawień mikrofonu. Zdecydowanie zalecamy pozostawienie tego ustawienia włączonego, aby być dobrze słyszanym przez innych użytkowników.",
@@ -1862,6 +1874,9 @@
         "Settings.CursorSettings.SliderMultiplier": "Mnożnik suwaka",
         "Settings.CursorSettings.SliderMultiplier.Description": "Jest stosowany jako mnożnik rozmiaru kursora podczas interakcji z suwakami i paskami przewijania.",
 
+        "Settings.CursorSettings.DirectCursorEnabled": "Bezpośredni kursor",
+        "Settings.CursorSettings.DirectCursorEnabled.Description": "Po włączeniu pokazuje bezpośredni kursor. Bezpośredni kursor to punkt w przestrzeni, w którym znajdowałby się kursor, bez wygładzania lub korekt dokonywanych przez inne ustawienia lub systemy.",
+
         "Settings.DesktopViewSettings.FollowCursor": "Podążaj za kursorem",
         "Settings.DesktopViewSettings.FollowCursor.Description": "Po włączeniu widok pulpitu automatycznie przełączy się na ekran, na którym znajduje się kursor. Jest to przydatne podczas korzystania z fizycznej klawiatury i myszy w VR.",
         "Settings.DesktopViewSettings.Brightness": "Jasność",
@@ -1877,6 +1892,10 @@
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "Podobnie jak w przypadku normalnej rozdzielczości, można ustawić oddzielną rozdzielczość dla zdjęć wykonanych przy użyciu funkcji timera. Może to być przydatne, jeśli używasz timera do robienia zdjęć grupowych, które mogą skorzystać z wyższej rozdzielczości.",
         "Settings.PhotoCaptureSettings.TimerSeconds": "Czas timera",
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "Ile sekund zajmuje zrobienie zdjęcia za pomocą funkcji timera.",
+        "Settings.PhotoCaptureSettings.HandsNearFOV": "Najbliższe FOV",
+        "Settings.PhotoCaptureSettings.HandsNearFOV.Description": "Pole widzenia dla zdjęć wykonanych gestem, gdy ręce znajdują się najbliżej głowy.",
+        "Settings.PhotoCaptureSettings.HandsFarFOV": "Najdalsze FOV",
+        "Settings.PhotoCaptureSettings.HandsFarFOV.Description": "Pole widzenia dla zdjęć wykonanych gestem, gdy ręce znajdują się najdalej głowy.",
         "Settings.PhotoCaptureSettings.CaptureStereo": "Robienie zdjęć stereo",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Po włączeniu tej funkcji wszystkie szybkie zdjęcia będą stereoskopowe. Jest to najbardziej przydatne podczas oglądania w VR.",
         "Settings.PhotoCaptureSettings.StereoSeparation": "Separacja stereo",
@@ -2050,6 +2069,16 @@
         "Settings.RenderingQualitySettings.SkinWeightMode": "Waga kości",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Dla meszy z kościami (Modele 3D które są deformowane przez kości, np. avatary), to ustawia ile kości jest używanych do wpływania na pozycję każdego wierzchołka.\n\nObniżenie tej wartości zwiększy wydajność, ale jakość deformacji będzie niższa, co spowoduje ostre zagniecenia i inne artefakty, zwykle wokół stawów.",
 
+        "Settings.RendererDecouplingSettings": "Odłączenie renderera",
+        "Settings.RendererDecouplingSettings.ActivationFramerate": "FPS dla aktywacji",
+        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "Kontroluje to, kiedy aktywuje się odłączenie renderera. Jeśli liczba klatek na sekundę spadnie poniżej tej wartości, renderer rozpocznie ponowne renderowanie sceny bez oczekiwania na nowe klatki z silnika.\n\nPomaga to wygładzić lagi i ograniczyć przerwy w odtwarzaniu filmów lub zawieszanie się wyświetlacza VR, jednak wszystko inne w scenie zostanie zawieszone.\n\nUstawienie tej wartości na 0 dezaktywuje ten mechanizm.",
+        "Settings.RendererDecouplingSettings.DeactivationFrames": "FPS dla dezaktywacji",
+        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "Gdy odłączenie jest aktywne, wskazuje to, ile stabilnych klatek (powyżej progu aktywacji) musi zostać wyrenderowanych, zanim mechanizm odłączenia zostanie wyłączony. Może to pomóc w zapobieganiu wielokrotnemu włączaniu i wyłączaniu mechanizmu w przypadku wielu kolejnych zacięć.",
+        "Settings.RendererDecouplingSettings.ForceDecouple": "Wymuś odłączenie",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "Po włączeniu renderer będzie stale odłączany i będzie renderował nowe klatki tak szybko, jak to możliwe, bez oczekiwania na główny silnik.\n\n<color=hero.red>UWAGA!</color> Jest to przydatne głównie do celów debugowania i diagnozowania, czy ograniczeniem jest procesor, czy karta graficzna (jeśli ograniczeniem jest procesor, włączenie tej opcji znacznie zwiększy liczbę klatek na sekundę) i nie jest przeznaczone do normalnego użytku.\n\nMożesz doświadczyć znacznych zacięć, wahań i powolnego ładowania/przesyłania zasobów.",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "Maksymalny czas przetwarzania zasobów (w milisekundach)",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "Ta opcja kontroluje maksymalny czas, jaki renderer poświęci na przesyłanie zasobów do karty graficznej, gdy aktywny jest mechanizm odłączania. Obniżenie tej wartości może zwiększyć maksymalną liczbę klatek na sekundę (np. podczas testowania maksymalnej wydajności karty graficznej), ale może również obniżyć wydajność ładowania, a przy bardzo niskich wartościach może spowolnić aktualizację interfejsu użytkownika.",
+
         "Settings.ImportSettings": "Ustawienia importowania",
         "Settings.ImportSettings.SessionUrls": "Import URL sesji",
         "Settings.ImportSettings.SessionUrls.Description": "Kiedy URL sesji jest importowany, co powinno się stać. Dostępne opcje:\n\n<color=hero.yellow>Open</color> - Dołącz do sesji.\n<color=hero.yellow>SpawnInterface</color> - Pokaż reprezentacje (np. kule sesji) URLa.\n<color=hero.yellow>SpawnUrl</color> - Pokaż dialog URLa.",
@@ -2216,6 +2245,7 @@
 
         "Inspector.ReflectionProbe.Bake": "Wypal Odbicia",
         "Inspector.ReflectionProbe.Baking": "Wypalanie......",
+        "Inspector.ReflectionProbe.OnChangesRenderCount": "Liczba obliczeń OnChanges: {count}",
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Rozdziel części meshu niezmieniane przez blendshapy",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Usuń Puste Blendshapy",
@@ -2232,6 +2262,7 @@
         "Inspector.SkinnedMesh.BakeToStaticMesh": "Wypal Mesh",
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "Sortuj Blendshapes według nazwy",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Sortuj blenshapes według długości nazwy, a następnie nazwy",
+        "Inspector.SkinnedMesh.ResetBonesToBindPoses": "Resetuj kości do bind poses",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Usuń wszystkie instancje",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Usuń pojedyncze instancje",
@@ -2270,10 +2301,14 @@
         "Inspector.Texture.ConvertToGrayscaleLuminance": "Konwersja do skali szarości (luminancja)",
         "Inspector.Texture.SwapRG": "Zamień Czerwony i Zielony",
         "Inspector.Texture.SwapRB": "Zamień Czerwony i Niebieski",
-        "Inspector.Texture.SwapRA": "Swap R <--> A",
+        "Inspector.Texture.SwapRA": "Zamień Czerwony i Alfa",
         "Inspector.Texture.SwapGB": "Zamień Zielony i Niebieski",
-        "Inspector.Texture.SwapGA": "Swap G <--> A",
-        "Inspector.Texture.SwapBA": "Swap B <--> A",
+        "Inspector.Texture.SwapGA": "Swap Zielony i Alfa",
+        "Inspector.Texture.SwapBA": "Swap Niebieski i Alfa",
+        "Inspector.Texture.IsolateR": "Wyizoluj Czerwony kanał ",
+        "Inspector.Texture.IsolateG": "Wyizoluj Zielony kanał ",
+        "Inspector.Texture.IsolateB": "Wyizoluj Niebieski kanał ",
+        "Inspector.Texture.IsolateA": "Wyizoluj Alfa kanał ",
         "Inspector.Texture.AddWhiteBackground": "Dodaj Białe Tło",
         "Inspector.Texture.AddBlackBackground": "Dodaj Czarne Tło",
         "Inspector.Texture.Hue": "Odcień:",
@@ -2365,6 +2400,9 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>UWAGA!</size></color><br>Możliwe jest użycie tego komponentu do symulacji rigidbody, poprzez zaznaczenie opcji \"SimulateRotation\". Komponent ten jednak nie jest zaprojektowany do tego celu, a prawidłowe wsparcie dla rigidbody pojawi się w przyszłości.<br>Użycie tego komponentu do symulacji rigidbody może spowodować:<br>- Zwiększone użycie procesora i sieci<br>- CharacterController ulegnie glitchowi, jeśli inna osoba spróbuje interakcji.",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>UWAGA!</size></color><br>Możliwe jest użycie tego komponentu do interakcji z referencjami przy użyciu ich ID. Proces ten jest powszechnie nazywany \"Ref Hacking\".<br><br><b>Zanim</b> to zrobisz, pamiętaj, że to nie jest oficjalnie wspierana funkcja, i proces ten może przestać działać w każdej chwili. Nie należy polegać na tym przy tworzeniu swoich dzieł.",
+        "Inspector.FacetPreset.Warning": "<color=red><size=125%>UWAGA!</size></color><br>FacetPresets zostaną automatycznie zaktualizowane, gdy opublikujemy nowe wersje. Jeśli tworzysz wersję niestandardową, zalecamy usunięcie tego komponentu.",
+        "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>UWAGA!</size></color><br>Ten komponent nie został zaprojektowany jako system zabezpieczeń/ochrony przed kradzieżą przedmiotów. Jest przeznaczony do blokowania łatwiejszych metod zapisywania na potrzeby rozgrywki lub ze względów projektowych. Można go łatwo ominąć i w żadnym wypadku nie zapewnia on dodatkowego bezpieczeństwa.",
+
 
         "Inspector.ParticleSystem.BasicInfo": "Ilość cząstek: {count}, FPS: {fps}, Czas symulacji: {time}, Submit Time: {renderSubmitTime}, Render allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "Ilość Śladów: {trailCount} (Pojemność: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
@@ -2394,6 +2432,11 @@
 
         "Inspector.Actions.CopyComponent": "Kopiuj komponent",
         "Inspector.Actions.MoveComponent": "Przenieś komponent",
+
+        "Inspector.Wizard.PackTexture": "Pakuj teksturę",
+        "Inspector.Wizard.UnpackTexture": "Odpakuj texturę",
+
+        "Inspector.Error": "<color=hero.red>Error! Sprawdź log.</color>",
 
         "UserInspector.Title": "Inspektor użytkownika",
 
@@ -2428,8 +2471,10 @@
         "Wizard.LightSources.DisabledLights": "Wyłączone Światła:",
         "Wizard.LightSources.WithTag": "Z Tagiem:",
         "Wizard.LightSources.SetShadowType": "Ustaw Typ Cieni",
-        
-        
+        "Wizard.LightSources.MultiplyIntensity": "Pomnóż intensywność",
+        "Wizard.LightSources.SetIntensity": "Ustaw intensywność",
+        "Wizard.LightSources.MultiplyRange": "Pomnóż zakres",
+        "Wizard.LightSources.SetRange": "Ustaw zakres",
         "Wizard.LightSources.Enable": "Włącz",
         "Wizard.LightSources.Disable": "Wyłącz",
         "Wizard.LightSources.Destroy": "Zniszcz",
@@ -2465,6 +2510,25 @@
         "Wizard.TextRenderer.ReplaceMaterial": "Wymień materiał",
         "Wizard.TextRenderer.ReplaceFont": "Zastąp czcionkę",
         "Wizard.TextRenderer.SetColor": "Ustaw kolor",
+
+        "Wizard.TextureWizards.DefaultValue": "Domyślna wartość",
+        "Wizard.TextureWizards.Invert": "Odwróć",
+        "Wizard.TextureWizards.ClearTexture": "Wyczyść texturę",
+        "Wizard.TextureWizards.ResolutionOverride": "Zastąpienie rozdzielczości",
+        "Wizard.TextureWizards.PlaceTextureHere": "Umieść teksturę tutaj",
+
+        "Wizard.TexturePacker.Title": "Kreator pakowania tekstur",
+        "Wizard.TexturePacker.Packing": "Pakowanie...",
+        "Wizard.TexturePacker.PackTextures": "Zpakuj tekstury",
+        "Wizard.TexturePacker.Output": "Wyjście",
+        "Wizard.TexturePacker.AutomaticSizeHandling": "Automatyczna obsługa rozmiarów",
+        "Wizard.TexturePacker.UseSmallest": "Użyj najmniejszej",
+        "Wizard.TexturePacker.UseLargest": "Użyj największej",
+        "Wizard.TexturePacker.GenerateMipmaps": "Generuj Mipmapy",
+
+        "Wizard.TextureUnpacker.Title": "Kreator rozpakowania tekstur",
+        "Wizard.TextureUnpacker.Unpacking": "Odpakowanie...",
+        "Wizard.TextureUnpacker.UnpackTexture": "Odpakuj texturę",
 
         "Desktop.Controls.Title": "Sterowanie",
         "Desktop.OpenKeyboard": "Otwórz Klawiaturę",
@@ -2677,7 +2741,25 @@
         "Tutorial.Saving.Title": "Witaj w domu!",
         "Tutorial.Saving.Content": "Witamy w <b><i><color=hero.yellow>domu</b></i></color>! Jest to miejsce, do którego trafisz za każdym razem, gdy się zalogujesz.<br><br>Jest to twój własny świat, więc wszelkie wprowadzone zmiany można zapisać.<br><br>Jeśli zapiszesz, po powrocie wszystko będzie tak, jak zostawiono!",
 
-        
+        "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Sesja bez nazwy</closeall>",
+        "Tutorial.Teleporter.SessionList.UnnamedHost": "Hosted by: <i><alpha=#77>Host bez nazwy</closeall>",
+        "Tutorial.Teleporter.SessionList.HostName": "Hosted by: <b>{hostName}</b>",
+        "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} Użytkowników w sesji",
+        "Tutorial.Teleporter.SessionList.PublicSessions": "Sesje publiczne",
+        "Tutorial.Teleporter.SessionList.NoPublicSessions": "Nie ma dostępnych sesji publicznych! :(<br><size=66%>Nadal masz jednak kilka opcji:</size>",
+
+        "Tutorial.Teleporter.ChooseDestination": "Wybierz gdzie chcesz się udać",
+
+        "Tutorial.Teleporter.Destinations.CloudHome": "Przejdź do domu w chmurze",
+        "Tutorial.Teleporter.Destinations.AvatarWorld": "Przejdź do altanki awatarów",
+        "Tutorial.Teleporter.Destinations.PickAnotherSession": "Wybierz inną sesję",
+        "Tutorial.Teleporter.Destinations.PickPublicSession": "Dołącz do sesji publicznej",
+
+        "Tutorial.Teleporter.WorldsTabHint": "Możesz również znaleźć światy, do których możesz dołączyć, korzystając z przeglądarki światów na swojej tablicy!",
+
+        "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>Nie udało się dołączyć do sesji! :(</color><br><size=66%>Nadal masz jednak kilka opcji:</size>",
+
+        "Tutorial.Teleporter.Transporting": "Transportowanie...",
 
         "CloudHome.Info.OnlineUsers": "{online_users} {online_users,plural, one {Użytkownik} other {Użytkowników}} online <br>{joinable_users} {joinable_users,plural, one {Dołączalny} other {Dołączalnych}} {joinable_users,plural, one {Użytkownik} other {Użytkowników}} ",
         "CloudHome.Info.Moderation": "Moderacja",
@@ -2763,8 +2845,11 @@
         "CloudHome.Panel.Quality": "Jakość",
         "CloudHome.Panel.Doors": "Drzwi",
         "CloudHome.Panel.Audio": "Dźwięk",
+        "CloudHome.Panel.RealtimeReflections": "Odbicia w czasie rzeczywistym",
         "CloudHome.Panel.OverheadLighting": "Górne oświetlenie",
         "CloudHome.Panel.Sconces": "Kinkiety",
+        "CloudHome.Panel.SpotLights": "Światła punktowe",
+        "CloudHome.Panel.TableLights": "Lampy stołowe",
         "CloudHome.Panel.FurnitureVisibility": "Widoczność mebli",
 
         "CloudHome.Panel.LowQualityMode": "Tryb niskiej jakości",
@@ -2780,8 +2865,8 @@
         "CloudHome.Panel.Spawn": "Spawn",
         "CloudHome.Panel.Foyer": "Foyer",
         "CloudHome.Panel.Workspace": "Warsztat",
-        "CloudHome.Panel.ReadingLounge": "Reading Lounge",
-        "CloudHome.Panel.Lounge": "Lounge",
+        "CloudHome.Panel.ReadingLounge": "Czytelnia",
+        "CloudHome.Panel.Lounge": "Salon",
         "CloudHome.Panel.Center": "Środek",
         "CloudHome.Panel.Balcony": "Balkon",
         "CloudHome.Panel.Theater": "Teatr",
@@ -2817,6 +2902,13 @@
 
         "Tutorial.Panel.TeleportLocomotion.Title": "Lokomocja teleport",
         "Tutorial.Panel.TeleportLocomotion.Content": "Teleport natychmiast przeniesie Cię do wskaźnika teleportacji.",
+
+        "Tutorial.DashboardInfo.Header": "Twoja tablica",
+        "Tutorial.DashboardInfo.Content": "<b><color=hero.cyan>Tablica</closeall> jest Twoim głównym menu – dzięki niej możesz rozmawiać z innymi, odkrywać nowe światy i nie tylko!<br><br>Jeśli potrzebujesz dodatkowej pomocy, zajrzyj do <b><color=hero.purple>zakładki pomocy</closeall>.",
+        "Tutorial.DashboardInfo.GotIt": "OK!",
+
+        "Tutorial.MentorPanel.Title": "Potrzebujesz pomocy?",
+        "Tutorial.MentorPanel.Content": "Poszukaj użytkowników, którzy mają tę plakietkę nad głową – poproś ich o pomoc, są tu dla <i>Ciebie</i>!",
 
         "Hints.Spawn.InitialMovementDesktop": "Użyj klawiszy ruchu, aby chodzić!",
         "Hints.Spawn.InitialMovementVR": "Użyj joysticków, aby chodzić!",
@@ -2861,9 +2953,14 @@
         "Hints.Sundial.Dequip": "Upuść wyposażone narzędzie, wybierając opcję Odekwipuj w menu kontekstowym.",
         "Hints.Sundial.DequipExtra": "Zauważ, ponieważ trzymasz to narzędzie, opcje w menu zmieniły się.",
 
+        "Hints.Sundial.Doorway": "Wejdź aby kontynuować!",
         
-        
+        "Hints.DashboardDesktop": "Otwórz lub zamknij tablicę, naciskając klawisz Escape!",
+        "Hints.DashboardVR": "Otwórz lub zamknij tablicę, naciskając przycisk Menu!",
+        "Hints.DashboardExtra": "Poniżej znajdziesz dodatkowe informacje o tablicy.",
 
+        "Hints.Teleporter": "Wejdź do teleportu i wybierz miejsce, do którego chcesz się udać!",
+        "Hints.TeleporterExtra": "Gdziekolwiek się wybierasz, życzymy udanego pobytu w {appName}!",
         "UI.TextDisplay.Landscape": "Poziomy",
         "UI.TextDisplay.Portrait": "Pionowo",
         "UI.TextDisplay.NormalText": "Normalny",
@@ -2893,6 +2990,7 @@
         "UI.ColorPicker.Linear": "Linearny",
 
         "UI.ColorPicker.Hexadecimal": "Hex",
+        "UI.ColorPicker.Blackbody": "Blackbody",
         "UI.ColorPicker.ColorSwatches": "Swatch",
 
         "UI.ColorPicker.Red": "Czerwień",
@@ -3111,6 +3209,12 @@
         "Universe.Units.HubbleLength": "Odległość Hubble'a",
         "Universe.Units.EarthRadius": "Promień Ziemi",
         "Universe.Units.LunarDistance": "Odległość księżycowa",
+
+        "CloudHome.UpdateNotice.Header": "Aktualizacja",
+        "CloudHome.UpdateNotice.Content": "<align=center>Nowa wersja domu w chmurze jest dostępna!<br><br>Twoja wersja jest starsza o <closeallblock><b><color=hero.cyan>{version_mismatch_days,plural, one {# dzień} other {# dni}}</color></b>.</align><br><br>Kliknij poniżej, aby zobaczyć nową wersje. Będąc tam, możesz zapisać świat, jeśli chcesz z niego skorzystać.<br><br>Jeśli chcesz dowiedzieć się, co nowego, zajrzyj na kanał <b><color=hero.purple>#devlog</color></b> w naszym Discord!",
+        "CloudHome.UpdateNotice.WikiLinkName": "{appName} Wiki: Aktualizowanie domu",
+        "CloudHome.UpdateNotice.DiscordLinkName": "{appName} Discord",
+        "CloudHome.UpdateNotice.CloudHomeLinkName": "Odwiedź nowy dom w chmurze",
 
         "Dummy": "Dummy"
     }
