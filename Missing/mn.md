@@ -7,6 +7,7 @@ Dash.Screens.Help
 Permissions.SavingDisabledForItem  
 Undo.AddListElement  
 Undo.RemoveListElement  
+Tools.Brush.FinishStrokeGroup  
 Tools.MeshPlaneBrush.AddHole  
 CreateNew.Editor.TexturePackingWizard  
 CreateNew.Editor.TextureUnpackingWizard  

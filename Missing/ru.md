@@ -4,6 +4,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Russian [ru]
 Undo.AddListElement  
 Undo.RemoveListElement  
+Tools.Brush.FinishStrokeGroup  
 Tools.MeshPlaneBrush.AddHole  
 Settings.RendererDecouplingSettings.ActivationFramerate.Description  
 Settings.RendererDecouplingSettings.DeactivationFrames.Description  

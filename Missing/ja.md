@@ -4,6 +4,7 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Japanese [ja]
 Undo.AddListElement  
 Undo.RemoveListElement  
+Tools.Brush.FinishStrokeGroup  
 Tools.MeshPlaneBrush.AddHole  
 CreateNew.Editor.TexturePackingWizard  
 CreateNew.Editor.TextureUnpackingWizard  

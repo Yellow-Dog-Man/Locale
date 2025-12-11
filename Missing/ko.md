@@ -4,5 +4,6 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Korean [ko]
 Undo.AddListElement  
 Undo.RemoveListElement  
+Tools.Brush.FinishStrokeGroup  
 Tools.MeshPlaneBrush.AddHole  
 

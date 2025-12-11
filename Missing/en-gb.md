@@ -629,6 +629,7 @@ Undo.AddListElement
 Undo.RemoveListElement  
 Tools.Brush.IncrementSize  
 Tools.Brush.DecrementSize  
+Tools.Brush.FinishStrokeGroup  
 Tools.GeometryLineBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
 Tools.Dev.Name  

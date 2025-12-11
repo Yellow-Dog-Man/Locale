@@ -50,6 +50,7 @@ Notifications.PermissionChanged
 Notifications.PermissionChangedDetail  
 Undo.AddListElement  
 Undo.RemoveListElement  
+Tools.Brush.FinishStrokeGroup  
 Tools.GeometryLineBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
 Tools.Dev.Name  

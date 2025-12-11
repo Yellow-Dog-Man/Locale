@@ -155,6 +155,7 @@ Undo.RemoveListElement
 Tools.Brush.ChangeColor  
 Tools.Brush.IncrementSize  
 Tools.Brush.DecrementSize  
+Tools.Brush.FinishStrokeGroup  
 Tools.GeometryLineBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
 Tools.Dev.Name  

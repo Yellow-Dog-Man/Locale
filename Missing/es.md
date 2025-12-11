@@ -30,6 +30,7 @@ Notifications.ReceivedInviteRequestDirect
 Notifications.ReceivedInviteRequestForwarded  
 Undo.AddListElement  
 Undo.RemoveListElement  
+Tools.Brush.FinishStrokeGroup  
 Tools.MeshPlaneBrush.AddHole  
 Tools.GrabbableSetter.Name  
 Tools.CharacterCollider.Name  
