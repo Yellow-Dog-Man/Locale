@@ -577,10 +577,13 @@ Undo.InsertParent
 Undo.Wiggler  
 Undo.ExtractMaterialsFromHierarchy  
 Undo.BatchConvertMaterials  
+Undo.AddListElement  
+Undo.RemoveListElement  
 Tools.Brush.ChangeColor  
 Tools.Brush.IncrementSize  
 Tools.Brush.DecrementSize  
 Tools.GeometryLineBrush.Name  
+Tools.MeshPlaneBrush.AddHole  
 Tools.Dev.Name  
 Tools.Dev.CreateNew  
 Tools.Dev.Selection  

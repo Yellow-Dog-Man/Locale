@@ -8,6 +8,9 @@ Interaction.Grab.HoldToHold
 World.Connection.LNL.LNLPoke  
 World.Actions.GuestWarning  
 Contacts.Unblocked  
+Undo.AddListElement  
+Undo.RemoveListElement  
+Tools.MeshPlaneBrush.AddHole  
 Tools.ProtoFlux.Drive  
 Tools.ProtoFlux.Source  
 Tools.ProtoFlux.Reference  

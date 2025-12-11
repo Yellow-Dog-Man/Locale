@@ -274,10 +274,13 @@ Notifications.PermissionChanged
 Notifications.PermissionChangedDetail  
 Undo.ExtractMaterialsFromHierarchy  
 Undo.BatchConvertMaterials  
+Undo.AddListElement  
+Undo.RemoveListElement  
 Tools.Brush.ChangeColor  
 Tools.Brush.IncrementSize  
 Tools.Brush.DecrementSize  
 Tools.GeometryLineBrush.Name  
+Tools.MeshPlaneBrush.AddHole  
 Tools.Dev.Name  
 Tools.Dev.GizmoOptions  
 Tools.Dev.SelectParent  

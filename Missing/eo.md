@@ -48,7 +48,10 @@ Notifications.UserJoined
 Notifications.UserLeft  
 Notifications.PermissionChanged  
 Notifications.PermissionChangedDetail  
+Undo.AddListElement  
+Undo.RemoveListElement  
 Tools.GeometryLineBrush.Name  
+Tools.MeshPlaneBrush.AddHole  
 Tools.Dev.Name  
 Tools.Color.Name  
 Tools.GrabbableSetter.Name  
