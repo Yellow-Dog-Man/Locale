@@ -741,11 +741,17 @@
         "Undo.ExtractMaterialsFromHierarchy": "从层次结构提取材质",
         "Undo.BatchConvertMaterials": "批量转换材质",
 
+        "Undo.AddListElement": "添加元素到列表",
+        "Undo.RemoveListElement": "从列表删除元素",
+
         "Tools.Brush.ChangeColor": "改变颜色",
         "Tools.Brush.IncrementSize": "增大",
         "Tools.Brush.DecrementSize": "缩小",
-
+        "Tools.Brush.FinishStrokeGroup": "完成设置笔触组",
+        
         "Tools.GeometryLineBrush.Name": "几何线条笔刷",
+
+        "Tools.MeshPlaneBrush.AddHole": "添加一个洞",
 
         "Tools.Dev.Name": "开发工具",
         "Tools.Dev.CreateNew": "创建新的...",
@@ -3264,7 +3270,7 @@
         "Help.GettingStarted.AvatarBasics.Equipping.Content": "<b><color=hero.purple>虚拟形象</closeall>在{appName}中如同服装——可随时更换任意形象，你可拥有多个形象或将其生成到世界中！<br><br>装备方式：{is_desktop, select, True {} other { 先按<b><color=hero.purple>{Primary_Input}</closeall>显示射线}}，瞄准形象{is_desktop, select, True {} other { 后}}按<b><color=hero.purple>{Primary_Input}</closeall>{is_desktop, select, True {} other { 键}}，在菜单中选择<sprite name=EquipAvatar> <b><color=hero.green>穿戴形象</closeall>。",
         "Help.GettingStarted.AvatarBasics.Equipping.Content2": "另外一种方法：按<b><color=hero.purple>{Grip_Input}</closeall>抓住形象，{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>打开<b><color=hero.cyan>快捷菜单</closeall>，选择<sprite name=EquipAvatar> <b><color=hero.green>穿戴形象</closeall>。",
         "Help.GettingStarted.AvatarBasics.OpeningYourDashboard": "打开面板",
-        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content": "若要将当前形象设为登录默认虚拟形象，需通过<b><color=hero.cyan>面板</closeall>操作——这是集聊天、物品栏管理、世界探索于一体的控制中心。<br><br>开关方式：{is_using_vive_wands, select, True{长按 } other{}}<b><color=hero.purple>{Menu_Input}</closeall>{is_using_vive_wands, select, True{ 待圆环满后释放} other{}}。",
+        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content": "若要将当前形象设置为加载后的默认虚拟形象，需通过<b><color=hero.cyan>面板</closeall>操作——这是集聊天、物品栏管理、世界探索于一体的控制中心。<br><br>开关方式：{is_using_vive_wands, select, True{长按 } other{}}<b><color=hero.purple>{Menu_Input}</closeall>{is_using_vive_wands, select, True{ 待圆环满后释放} other{}}。",
         "Help.GettingStarted.AvatarBasics.CreatingAFolder": "创建文件夹",
         "Help.GettingStarted.AvatarBasics.CreatingAFolder.Content": "在面板<b><color=hero.yellow>物品栏</closeall>界面顶部点击<sprite name=SaveIcon> <b><color=hero.cyan>创建文件夹</closeall>，命名后选择<b><color=hero.green>创建</closeall>——系统将自动进入新文件夹。",
         "Help.GettingStarted.AvatarBasics.Saving": "保存",
