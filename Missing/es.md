@@ -243,6 +243,8 @@ Tutorial.DashboardInfo.Content
 Tutorial.DashboardInfo.GotIt  
 Tutorial.MentorPanel.Title  
 Tutorial.MentorPanel.Content  
+Tutorial.HelpTabPanel.Title  
+Tutorial.HelpTabPanel.Content  
 Hints.Sundial.Doorway  
 Hints.DashboardDesktop  
 Hints.DashboardVR  

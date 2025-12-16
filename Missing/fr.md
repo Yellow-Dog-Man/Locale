@@ -6,4 +6,6 @@ Undo.AddListElement
 Undo.RemoveListElement  
 Tools.Brush.FinishStrokeGroup  
 Tools.MeshPlaneBrush.AddHole  
+Tutorial.HelpTabPanel.Title  
+Tutorial.HelpTabPanel.Content  
 

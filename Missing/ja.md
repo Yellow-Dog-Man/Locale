@@ -50,6 +50,8 @@ Wizard.TextureUnpacker.UnpackTexture
 CloudHome.Panel.RealtimeReflections  
 CloudHome.Panel.SpotLights  
 CloudHome.Panel.TableLights  
+Tutorial.HelpTabPanel.Title  
+Tutorial.HelpTabPanel.Content  
 CloudHome.UpdateNotice.Header  
 CloudHome.UpdateNotice.Content  
 CloudHome.UpdateNotice.WikiLinkName  

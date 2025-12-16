@@ -330,6 +330,8 @@ StickyNote.RelevantLinks
 StickyNote.Bow  
 StickyNote.Crossbow  
 StickyNote.EquipMeVR  
+Tutorial.HelpTabPanel.Title  
+Tutorial.HelpTabPanel.Content  
 Hints.Grabbing.GrabbingDesktop  
 Hints.Grabbing.GrabbingVR  
 Hints.Grabbing.Rotating  
