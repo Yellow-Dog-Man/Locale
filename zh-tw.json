@@ -741,11 +741,17 @@
         "Undo.ExtractMaterialsFromHierarchy": "從物件層級取出材質",
         "Undo.BatchConvertMaterials": "批次轉換材質",
 
+        "Undo.AddListElement": "新增清單元素",
+        "Undo.RemoveListElement": "移除清單元素",
+
         "Tools.Brush.ChangeColor": "改變顏色",
         "Tools.Brush.IncrementSize": "增大",
         "Tools.Brush.DecrementSize": "縮小",
+        "Tools.Brush.FinishStrokeGroup": "完成筆觸群組",
 
         "Tools.GeometryLineBrush.Name": "幾何線條筆刷",
+
+        "Tools.MeshPlaneBrush.AddHole": "開洞",
 
         "Tools.Dev.Name": "開發工具",
         "Tools.Dev.CreateNew": "建立新的……",
@@ -2909,6 +2915,9 @@
         "Tutorial.MentorPanel.Title": "需要協助嗎？",
         "Tutorial.MentorPanel.Content": "尋找頭頂有此徽章的使用者 - 向他們尋求協助，他們是為了<i>您</i>而在這裡的！",
 
+        "Tutorial.HelpTabPanel.Title": "需要協助嗎？",
+        "Tutorial.HelpTabPanel.Content": "在主面板中有「說明」標籤頁，可以瀏覽 {appName} 的相關資訊。",
+
         "Hints.Spawn.InitialMovementDesktop": "使用移動鍵來四處移動！",
         "Hints.Spawn.InitialMovementVR": "使用搖桿來四處行走！",
         "Hints.Spawn.InitialMovementVRNoButtons": "使用觸控板來四處行走！",
@@ -3406,7 +3415,7 @@
         "Help.Controls.VRGestures": "VR 手勢",
         "Help.Controls.VRGestures.Content": "{appName} 為 VR 使用者提供了一些快速手勢，用於快速開啟您的主面板、在卡住時重生等。這是所有可用 VR 手勢的列表。請注意，這些只是現有操作的快速版本 - 所有列出的操作也可以用其他方式完成。",
         "Help.Controls.VRGestures.EmergencyLeaveWorld": "緊急離開世界",
-        "Help.Controls.VRGestures.EmergencyLeaveWorld.Content": "此手勢會立即將您從目前世界斷開連接。要執行此手勢，請將雙手控制器放到頭部並一起按住 <b><color=hero.purple>{Menu_Input}</closeall> 至少 3 秒。您會感受到控制器的振動，隨著您越來越接近斷開連接，振動強度會增強。",
+        "Help.Controls.VRGestures.EmergencyLeaveWorld.Content": "此手勢會立即將您從目前世界斷開連接。要執行此手勢，請將雙手控制器放到頭部並一起按住 <b><color=hero.purple>{Context_Menu_Input}</closeall> 至少 3 秒。您會感受到控制器的振動，隨著您越來越接近斷開連接，振動強度會增強。",
         "Help.Controls.VRGestures.EmergencyRespawn": "緊急重生",
         "Help.Controls.VRGestures.EmergencyRespawn.Content": "此手勢透過刪除您並在世界的生成點重新生成您來使您重生。要執行此手勢，請將雙手控制器放到頭部，然後抓住至少一個 <b><color=hero.purple>{Grip_Input}</closeall>，然後在兩個控制器按住 <b><color=hero.purple>{Context_Menu_Input}</closeall> 至少 3 秒。您會感受到控制器的振動，隨著您越來越接近重生，振動強度會增強。",
         "Help.Controls.VRGestures.ToggleEditMode": "切換編輯模式",
