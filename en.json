@@ -2077,7 +2077,7 @@
 
         "Settings.RendererDecouplingSettings": "Renderer Decoupling",
         "Settings.RendererDecouplingSettings.ActivationFramerate": "Activation Framerate",
-        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "This controls when the renderer decoupling actiavtes. If the immediate framerate were to drop below this value, the renderer will start re-rendering the scene without waiting for new frames from the engine.\n\nThis helps smooth out some parts of the hitches and mitigate interruption to playing videos or VR headset view locking up, however everything else in the scene will be frozen.\n\nSetting this to 0 deactivates this mechanism.",
+        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "This controls when the renderer decoupling activates. If the immediate framerate were to drop below this value, the renderer will start re-rendering the scene without waiting for new frames from the engine.\n\nThis helps smooth out some parts of the hitches and mitigate interruption to playing videos or VR headset view locking up, however everything else in the scene will be frozen.\n\nSetting this to 0 deactivates this mechanism.",
         "Settings.RendererDecouplingSettings.DeactivationFrames": "Deactivation frame count",
         "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "When decoupling is active, this indicates how many stable frames (above the activation threshold) need to be rendered before the decoupling mechanism is disabled. This can help prevent the mechanism triggering on and off with multiple subsequent hitches.",
         "Settings.RendererDecouplingSettings.ForceDecouple": "Force Decouple",
