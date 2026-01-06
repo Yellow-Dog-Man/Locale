@@ -89,6 +89,10 @@ World.Error.WorldCrashDetail
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
 World.Error.UnhandledError  
+World.Config.ResoniteLinkHeader  
+World.Config.ResoniteLinkOff  
+World.Config.ResoniteLinkPort  
+World.Actions.EnableResoniteLink  
 World.Indicator.Visited  
 World.Category.ContactsSessions  
 World.Category.Avatars  

@@ -35,7 +35,11 @@ World.Error.SecurityViolation
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
 World.Error.UnhandledError  
+World.Config.ResoniteLinkHeader  
+World.Config.ResoniteLinkOff  
+World.Config.ResoniteLinkPort  
 World.Actions.CopyRecordURL  
+World.Actions.EnableResoniteLink  
 World.Indicator.Sessions  
 World.Detail.Users.Count  
 World.Category.HeadlessSessions  

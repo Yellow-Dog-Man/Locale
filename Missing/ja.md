@@ -2,6 +2,10 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Japanese [ja]
+World.Config.ResoniteLinkHeader  
+World.Config.ResoniteLinkOff  
+World.Config.ResoniteLinkPort  
+World.Actions.EnableResoniteLink  
 Undo.AddListElement  
 Undo.RemoveListElement  
 Tools.Brush.FinishStrokeGroup  

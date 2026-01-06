@@ -17,6 +17,10 @@ World.Connection.TCP
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
 World.Error.UnhandledError  
+World.Config.ResoniteLinkHeader  
+World.Config.ResoniteLinkOff  
+World.Config.ResoniteLinkPort  
+World.Actions.EnableResoniteLink  
 World.Category.Avatars  
 World.Filter.IncompatibleSessions  
 World.Edit.ReadOnly  

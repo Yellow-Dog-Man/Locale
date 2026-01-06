@@ -146,6 +146,9 @@ World.Config.Autosave
 World.Config.AutosaveInterval  
 World.Config.CleanupAssets  
 World.Config.CleanupInterval  
+World.Config.ResoniteLinkHeader  
+World.Config.ResoniteLinkOff  
+World.Config.ResoniteLinkPort  
 World.Actions.StartSession  
 World.Actions.Join  
 World.Actions.Focus  
@@ -179,6 +182,7 @@ World.Actions.StartCustomSession
 World.Actions.ModifyMetadata  
 World.Actions.GetSessionOrb  
 World.Actions.CopySessionURL  
+World.Actions.EnableResoniteLink  
 World.Indicator.NoData  
 World.Indicator.LocalWorld  
 World.Indicator.Author  

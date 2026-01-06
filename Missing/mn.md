@@ -4,6 +4,10 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Mongolian [mn]
 General.DontShowAgain  
 Dash.Screens.Help  
+World.Config.ResoniteLinkHeader  
+World.Config.ResoniteLinkOff  
+World.Config.ResoniteLinkPort  
+World.Actions.EnableResoniteLink  
 Permissions.SavingDisabledForItem  
 Undo.AddListElement  
 Undo.RemoveListElement  
