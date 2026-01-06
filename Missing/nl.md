@@ -7,6 +7,10 @@ Interaction.Grabbing
 Interaction.Grab.StickyGrab  
 Interaction.Grab.HoldToHold  
 Dash.Screens.Help  
+World.Config.ResoniteLinkHeader  
+World.Config.ResoniteLinkOff  
+World.Config.ResoniteLinkPort  
+World.Actions.EnableResoniteLink  
 World.Category.Avatars  
 Account.Type.Stripe  
 Permissions.SavingDisabledForItem  
