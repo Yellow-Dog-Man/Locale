@@ -235,6 +235,10 @@
         "World.Config.CleanupAssets": "不使用アセットを定期的に除去:",
         "World.Config.CleanupInterval": "不使用アセットを除去する間隔(秒):",
 
+        "World.Config.ResoniteLinkHeader" : "Resoniteリンク",
+        "World.Config.ResoniteLinkOff" : "Resoniteリンクは無効です",
+        "World.Config.ResoniteLinkPort" : "Resoniteリンクがポート {port} で動作中",
+
         "World.Actions.StartSession": "セッション開始",
         "World.Actions.Join": "参加",
         "World.Actions.Focus": "フォーカス",
@@ -270,6 +274,8 @@
         "World.Actions.ModifyMetadata": "メタデータを編集",
         "World.Actions.GetSessionOrb": "セッションオーブを取得",
         "World.Actions.CopySessionURL": "セッションURLをコピー",
+
+        "World.Actions.EnableResoniteLink" : "Resoniteリンクを有効化",
 
         "World.Indicator.NoData": "データなし",
         "World.Indicator.LocalWorld": "ローカルマシン",
@@ -741,11 +747,17 @@
         "Undo.ExtractMaterialsFromHierarchy": "階層からマテリアルを抽出",
         "Undo.BatchConvertMaterials": "マテリアルのバッチ変換",
 
+        "Undo.AddListElement": "リストに要素を追加",
+        "Undo.RemoveListElement": "リストから要素を削除",
+
         "Tools.Brush.ChangeColor" : "色を変更",
         "Tools.Brush.IncrementSize" : "太く",
         "Tools.Brush.DecrementSize" : "細く",
+        "Tools.Brush.FinishStrokeGroup": "ストロークグループを終了する",
 
         "Tools.GeometryLineBrush.Name": "ジオメトリラインブラシ",
+
+        "Tools.MeshPlaneBrush.AddHole": "穴を開ける",
 
         "Tools.Dev.Name": "デブツール",
         "Tools.Dev.CreateNew": "新規作成…",
@@ -925,6 +937,8 @@
         "CreateNew.Editor.AssetOptimizationWizard": "アセット最適化​ウィザード",
         "CreateNew.Editor.CubemapCreator": "キューブマップ​クリエイター",
         "CreateNew.Editor.ReflectionProbes": "リフレクション​プローブウィザード",
+        "CreateNew.Editor.TexturePackingWizard": "テクスチャパッキングウィザード",
+        "CreateNew.Editor.TextureUnpackingWizard": "テクスチャアンパッキングウィザード",
 
         "CreateNew.3DModel": "3Dモデル",
         "CreateNew.3DModel.Triangle": "トライアングル",
@@ -1558,6 +1572,10 @@
         "Settings.SteamLinkSettings.OSC_DataPort" : "OSCフェイストラッキングポート",
         "Settings.SteamLinkSettings.OSC_DataPort.Description" : "どのポートをOSCフェイストラッキングデータの受信に使用するか。これはSteamVRで設定したポートと一致する必要があります。",
 
+        "Settings.BabbleSettings": "Project Babble",
+        "Settings.BabbleSettings.OSC_DataPort": "OSCフェイストラッキングポート",
+        "Settings.BabbleSettings.OSC_DataPort.Description": "どのポートをOSCフェイストラッキングデータの受信に使用するか。これはBabbleアプリで設定したポートと一致する必要があります。",
+
         "Settings.HapticPointMapping.MappingTarget": "割当",
         "Settings.HapticPointMapping.MappingTarget.Description": "このデバイスをアバターのどの部分に割当するかを設定します。",
         "Settings.HapticPointMapping.PointRadius": "ハプティックポイントの大きさ",
@@ -2064,6 +2082,16 @@
         "Settings.RenderingQualitySettings.SkinWeightMode": "スキンウェイト",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "スキニングされたメッシュ（アバターのようにボーンによって変形する3Dモデル）で、各頂点の位置に影響を与えるために使用されるボーン数を制御します。\n\nこの値を下げると、パフォーマンスは多少下がりますが、変形の質は低下し、曲がりが粗くなり、他の歪みが発生します。",
 
+        "Settings.RendererDecouplingSettings": "レンダラー分離",
+        "Settings.RendererDecouplingSettings.ActivationFramerate": "有効化フレームレート",
+        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "レンダラー分離が有効化される条件を制御します。実際のフレームレートがこの値を下回ると、レンダラーはエンジンからの新しいフレームを待たずに、シーンの再レンダリングを開始します。\n\nこれにより、カクつきの一部を緩和し、動画再生やVRヘッドセットの映像が固まるのを軽減できますが、それ以外のシーン内の処理は停止します。\n\n0に設定すると、この仕組みは無効化されます。",
+        "Settings.RendererDecouplingSettings.DeactivationFrames": "無効化までのフレーム数",
+        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "分離が有効な状態のとき、この値は、（有効化フレームレートの設定値を上回る）安定したフレームが何フレーム連続して描画されれば、分離機構を無効にするかを示します。これにより、連続したカクつきによって分離が頻繁にオン・オフされるのを防ぐことができます。",
+        "Settings.RendererDecouplingSettings.ForceDecouple": "強制分離",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "オンにすると、レンダラーは常に強制的に分離され、メインエンジンを待たずに可能な限り高速で新しいフレームを描画し続けます。\n\n<color=hero.red>警告！</color> これは主にデバッグや、CPUボトルネックかGPUボトルネックかを診断する目的で使用されるもので（CPUがボトルネックの場合、この設定をオンにするとフレームレートが大幅に向上します）、通常使用を想定していません。\n\n大きなスタッターやジッター、アセットの読み込み・アップロードの遅延が発生する可能性があります。",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "分離時のアセット処理最大時間（ミリ秒）",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "分離機構が有効な場合に、レンダラーがGPUへのアセットアップロードに費やす最大時間を制御します。この値を下げると最大フレームレートが向上する場合があります（例：GPU性能の最大値をテストする場合）が、読み込み性能が低下し、非常に低い値ではUIの更新が遅くなることがあります。",
+
         "Settings.ImportSettings": "インポート設定",
         "Settings.ImportSettings.SessionUrls": "セッションURLインポート時",
         "Settings.ImportSettings.SessionUrls.Description": "セッションURLがインポートされたときの動作:\n\n<color=hero.yellow>Open</color> - セッションを開く\n<color=hero.yellow>SpawnInterface</color> - セッションオーブとして、URLを生成する\n<color=hero.yellow>SpawnUrl</color> - URLインターフェイスとして、URLを生成する",
@@ -2290,6 +2318,10 @@
         "Inspector.Texture.SwapGB": "G <--> B 入れ替え",
         "Inspector.Texture.SwapGA": "G <--> A 入れ替え",
         "Inspector.Texture.SwapBA": "B <--> A 入れ替え",
+        "Inspector.Texture.IsolateR": "Rチャンネルを分離",
+        "Inspector.Texture.IsolateG": "Gチェンネルを分離",
+        "Inspector.Texture.IsolateB": "Bチェンネルを分離",
+        "Inspector.Texture.IsolateA": "アルファチェンネルを分離",
         "Inspector.Texture.AddWhiteBackground": "透過部分に白背景を追加",
         "Inspector.Texture.AddBlackBackground": "透過部分に黒背景を追加",
         "Inspector.Texture.Hue": "色相:",
@@ -2413,6 +2445,11 @@
         "Inspector.Actions.CopyComponent" : "コンポーネントをコピー",
         "Inspector.Actions.MoveComponent" : "コンポーネントを移動",
 
+        "Inspector.Wizard.PackTexture": "テクスチャをパック",
+        "Inspector.Wizard.UnpackTexture": "テクスチャをアンパック",
+
+        "Inspector.Error": "<color=hero.red>エラー！ログを確認してください。</color>",
+
         "UserInspector.Title" : "ユーザーインスペクター",
 
         "WorkerInspector.Title" : "{name} インスペクター",
@@ -2446,8 +2483,10 @@
         "Wizard.LightSources.DisabledLights": "無効化されたライト:",
         "Wizard.LightSources.WithTag": "タグで設定:",
         "Wizard.LightSources.SetShadowType": "影のタイプを設定",
-        
-        
+        "Wizard.LightSources.MultiplyIntensity": "明るさを乗算",
+        "Wizard.LightSources.SetIntensity": "明るさを設定",
+        "Wizard.LightSources.MultiplyRange": "範囲を乗算",
+        "Wizard.LightSources.SetRange": "範囲を設定",
         "Wizard.LightSources.Enable": "有効化",
         "Wizard.LightSources.Disable": "無効化",
         "Wizard.LightSources.Destroy": "破棄",
@@ -2483,6 +2522,26 @@
         "Wizard.TextRenderer.ReplaceMaterial": "マテリアルを入れ替える",
         "Wizard.TextRenderer.ReplaceFont": "フォントを入れ替える",
         "Wizard.TextRenderer.SetColor": "色を設定",
+
+        "Wizard.TextureWizards.DefaultValue": "既定値",
+        "Wizard.TextureWizards.Invert": "反転",
+        "Wizard.TextureWizards.ClearTexture": "テクスチャをクリア",
+        "Wizard.TextureWizards.ResolutionOverride": "解像度を上書き",
+        "Wizard.TextureWizards.PlaceTextureHere": "ここにテクスチャを配置",
+
+        "Wizard.TexturePacker.Title": "テクスチャパッキングウィザード",
+        "Wizard.TexturePacker.Packing": "パッキング中...",
+        "Wizard.TexturePacker.PackTextures": "テクスチャをパック",
+        "Wizard.TexturePacker.Output": "出力",
+        "Wizard.TexturePacker.AutomaticSizeHandling": "サイズを自動処理",
+        "Wizard.TexturePacker.UseSmallest": "最小サイズを使用",
+        "Wizard.TexturePacker.UseLargest": "最大サイズを使用",
+        "Wizard.TexturePacker.GenerateMipmaps": "ミップマップを生成",
+
+
+        "Wizard.TextureUnpacker.Title": "テクスチャアンパッキングウィザード",
+        "Wizard.TextureUnpacker.Unpacking": "アンパッキング中...",
+        "Wizard.TextureUnpacker.UnpackTexture": "テクスチャを展開",
 
         "Desktop.Controls.Title": "デスクトップ操作",
         "Desktop.OpenKeyboard": "キーボードを表示",
@@ -2800,8 +2859,11 @@
         "CloudHome.Panel.Quality": "クオリティ",
         "CloudHome.Panel.Doors": "ドア",
         "CloudHome.Panel.Audio": "音声",
+        "CloudHome.Panel.RealtimeReflections": "リアルタイムリフレクション",
         "CloudHome.Panel.OverheadLighting": "天井ライト",
         "CloudHome.Panel.Sconces": "壁掛けライト",
+        "CloudHome.Panel.SpotLights": "スポットライト",
+        "CloudHome.Panel.TableLights": "テーブルライト",
         "CloudHome.Panel.FurnitureVisibility": "部屋毎の家具オンオフ",
 
         "CloudHome.Panel.LowQualityMode": "低負荷モード",
@@ -2861,6 +2923,9 @@
 
         "Tutorial.MentorPanel.Title": "助けて欲しい",
         "Tutorial.MentorPanel.Content": "このバッジが頭の上にあるユーザーに聞いてみましょう。 気軽に助けを求めましょう。 <i>あなた</i>を助けてくれるでしょう!",
+
+        "Tutorial.HelpTabPanel.Title": "お困りですか？",
+        "Tutorial.HelpTabPanel.Content": "ダッシュメニューには、{appName}に関する情報を確認できるヘルプタブがあります！",
 		
         "Hints.Spawn.InitialMovementDesktop": "WASDキーで移動しよう！",
         "Hints.Spawn.InitialMovementVR": "スティックを倒して歩こう！",
@@ -3164,6 +3229,12 @@
         "Universe.Units.EarthRadius": "地球半径",
         "Universe.Units.LunarDistance": "地球と月の距離",
 
+        "CloudHome.UpdateNotice.Header": "更新のお知らせ",
+        "CloudHome.UpdateNotice.Content": "<align=center>新しいバージョンのクラウドホームが利用可能です！<br><br>現在のバージョンは<closeallblock><b><color=hero.cyan>{version_mismatch_days,plural, one {# day} other {# days}}</color></b>分古くなっています。</align><br><br>下のリンクをクリックしてアクセスしてください。そこで、使用したい場合はワールドを保存することもできます。<br><br>新機能について知りたい場合は、公式Discordの <b><color=hero.purple>#devlog</color></b>チャンネルをご確認ください！",
+        "CloudHome.UpdateNotice.WikiLinkName": "{appName} Wiki: ホームの更新方法",
+        "CloudHome.UpdateNotice.DiscordLinkName": "{appName} Discord",
+        "CloudHome.UpdateNotice.CloudHomeLinkName": "新しいクラウドホームを開く",
+
         "Help.Help": "ヘルプ",
         "Help.ComingSoon": "もう少し待ってね!",
         "Help.ExampleText": "サンプルテキスト! Example Text!",
@@ -3355,7 +3426,7 @@
         "Help.Controls.VRGestures": "VRジェスチャー",
         "Help.Controls.VRGestures.Content": "{appName}では、VRユーザーがダッシュメニューを素早く開いたり、動けなくなったときにリスポーンしたりするためのいくつかの簡単なジェスチャーを提供しています。これは利用可能なすべてのVRジェスチャーのリストです。これらは既存のアクションの簡易版であり、リストされたすべてのアクションは他の方法でも実行できます。",
         "Help.Controls.VRGestures.EmergencyLeaveWorld": "緊急ワールド退出",
-        "Help.Controls.VRGestures.EmergencyLeaveWorld.Content": "このジェスチャーは現在のワールドから即座に切断します。このジェスチャーを実行するには、コントローラーを頭に持っていき、<b><color=hero.purple>{Menu_Input}</closeall>を少なくとも3秒間押し続けてください。切断に近づくにつれて強さが増すコントローラーの振動を感じることができます。",
+        "Help.Controls.VRGestures.EmergencyLeaveWorld.Content": "このジェスチャーは現在のワールドから即座に切断します。このジェスチャーを実行するには、コントローラーを頭に持っていき、<b><color=hero.purple>{Context_Menu_Input}</closeall>を少なくとも3秒間押し続けてください。切断に近づくにつれて強さが増すコントローラーの振動を感じることができます。",
         "Help.Controls.VRGestures.EmergencyRespawn": "緊急リスポーン",
         "Help.Controls.VRGestures.EmergencyRespawn.Content": "このジェスチャーはあなたを削除してワールドのスポーン地点にスポーンさせることでリスポーンします。このジェスチャーを実行するには、コントローラーを頭に持っていき、少なくとも1つの<b><color=hero.purple>{Grip_Input}</closeall>を掴み、その後<b><color=hero.purple>{Context_Menu_Input}</closeall>を少なくとも3秒間押し続けてください。リスポーンに近づくにつれて強さが増すコントローラーの振動を感じることができます。",
         "Help.Controls.VRGestures.ToggleEditMode": "編集モードの切り替え",
@@ -3733,6 +3804,7 @@
         "Help.TeamTitle.Support": "サポート",
         "Help.TeamTitle.UI": "UI",
         "Help.TeamTitle.VideoProducer": "ビデオプロデューサー",
+        "Help.TeamTitle.HeadOfTrustAndSafety": "信頼と安全担当責任者",
 
         "Help.About.Badges": "バッジ",
 
