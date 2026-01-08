@@ -235,6 +235,10 @@
         "World.Config.CleanupAssets": "Nettoyage des ressources non-utilisées :",
         "World.Config.CleanupInterval": "Intervalle du nettoyage (secondes) :",
 
+        "World.Config.ResoniteLinkHeader" : "ResoniteLink",
+        "World.Config.ResoniteLinkOff" : "ResoniteLink désactivé",
+        "World.Config.ResoniteLinkPort" : "ResoniteLink actif sur le port {port}",
+
         "World.Actions.StartSession": "Démarrer une session",
         "World.Actions.Join": "Rejoindre",
         "World.Actions.Focus": "Changer de monde",
@@ -270,6 +274,8 @@
         "World.Actions.ModifyMetadata": "Modification des métadonnées",
         "World.Actions.GetSessionOrb": "Obtenir l'orbe-portail de la session",
         "World.Actions.CopySessionURL": "Copier le lien vers cette session",
+
+        "World.Actions.EnableResoniteLink" : "Activer ResoniteLink",
 
         "World.Indicator.NoData": "Aucune donnée",
         "World.Indicator.LocalWorld": "Machine locale",
@@ -741,11 +747,17 @@
         "Undo.ExtractMaterialsFromHierarchy": "Extraire les matériaux de la hiérarchie",
         "Undo.BatchConvertMaterials": "Convertir des matériaux par lots",
 
+        "Undo.AddListElement": "Ajouter un élément à une liste",
+        "Undo.RemoveListElement": "Retirer un élément d’une liste",
+
         "Tools.Brush.ChangeColor": "Changer la couleur",
         "Tools.Brush.IncrementSize": "Augmenter la taille",
         "Tools.Brush.DecrementSize": "Réduire la taille",
+        "Tools.Brush.FinishStrokeGroup": "Clore groupe de coups de pinceau",
 
         "Tools.GeometryLineBrush.Name": "Pinceau géométrique",
+
+        "Tools.MeshPlaneBrush.AddHole": "Ajouter un trou",
 
         "Tools.Dev.Name": "Outil de développement",
         "Tools.Dev.CreateNew": "Nouvelle création...",
@@ -2911,6 +2923,9 @@
 
         "Tutorial.MentorPanel.Title": "Besoin d’aide ?",
         "Tutorial.MentorPanel.Content": "Cherchez des utilisateurs avec ce badge au-dessus de leur tête - demandez-leur de l’aide, ils sont là pour <nobr><i>vous</i> !</nobr>",
+
+        "Tutorial.HelpTabPanel.Title": "Besoin d’infos ?",
+        "Tutorial.HelpTabPanel.Content": "Votre tableau de bord contient un onglet d’aide contenant toutes sortes d’informations utiles sur {appName} !",
 
         "Hints.Spawn.InitialMovementDesktop": "Utilisez les touches de mouvement pour vous <nobr>déplacer !</nobr>",
         "Hints.Spawn.InitialMovementVR": "Utilisez le stick analogique pour vous <nobr>déplacer !</nobr>",
