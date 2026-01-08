@@ -235,6 +235,10 @@
         "World.Config.CleanupAssets": "Bereinigung nicht verwendeter Assets:",
         "World.Config.CleanupInterval": "Intervall für automatische Bereinigung [Sekunden]:",
 
+        "World.Config.ResoniteLinkHeader": "ResoniteLink",
+        "World.Config.ResoniteLinkOff": "ResoniteLink deaktiviert",
+        "World.Config.ResoniteLinkPort": "ResoniteLink läuft auf Port {port}",
+
         "World.Actions.StartSession": "Sitzung starten",
         "World.Actions.Join": "Beitreten",
         "World.Actions.Focus": "Fokussieren",
@@ -270,6 +274,8 @@
         "World.Actions.ModifyMetadata": "Metadaten bearbeiten",
         "World.Actions.GetSessionOrb": "Sitzungs-Orb erzeugen",
         "World.Actions.CopySessionURL": "Sitzungs-URL kopieren",
+
+        "World.Actions.EnableResoniteLink": "ResoniteLink aktivieren",
 
         "World.Indicator.NoData": "Keine Daten",
         "World.Indicator.LocalWorld": "Lokale Welt",
@@ -540,7 +546,7 @@
         "Account.Password": "Passwort:",
         "Account.RepeatPassword": "Passwort wiederholen:",
         "Account.RecoverPassword": "Passwort vergessen?",
-        "Account.LiveEmailWarning": "<color=#f00>WARNUNG:</color> Live.com, Hotmail.com, Outlook.com und andere Microsoft-Dienste können 1-2 Tage benötigen um die E-Mail-Adresse zu akzeptieren",
+        "Account.LiveEmailWarning": "<color=#f00>WARNUNG:</color> Live.com, Hotmail.com, Outlook.com und andere Microsoft-Dienste können 1-2 Tage benötigen, um die E-Mail-Adresse zu akzeptieren.",
         "Account.PasswordRules": "(Mindestens 8 Zeichen, 1 Ziffer, 1 Klein- und 1 Großbuchstabe)",
         "Account.LostPassword": "Passwort vergessen",
         "Account.SendRecoveryCode": "Sende Wiederherstellungs-Code",
@@ -568,7 +574,7 @@
         "Account.TOTP.Initializing": "2FA Ihres Kontos wird überprüft...",
         "Account.TOTP.Code.Header": "Geheimer Code",
         "Account.TOTP.Code.Description": "Zuerst müssen Sie einen Geheimcode in Ihre TOTP-Authentifizierungs-App wie <b>Authy</b> oder <b>Google Authenticator</b> eingeben.<br><br>Wir empfehlen, dies durch Scannen des QR-Codes zu tun. Alternativ können Sie den Geheimcode auch manuell eingeben. <b>Geben Sie diesen Code niemals weiter.</b><br><br>Wenn Sie sich in VR befinden, können Sie durch Drücken von F8 zum Desktop wechseln.",
-        "Account.TOTP.Code.QRCode": "QR Code scannen",
+        "Account.TOTP.Code.QRCode": "QR-Code scannen",
         "Account.TOTP.Code.Key": "Geheimer Code:",
         "Account.TOTP.RecoveryCodes.Header": "Wiederherstellungscodes",
         "Account.TOTP.RecoveryCodes.Description": "Bewahren Sie diese Codes an einem sicheren Ort auf. Sie können verwendet werden, um den Zugang zu Ihrem Konto wiederherzustellen, falls Sie Ihr Telefon verlieren oder beschädigen. Jeder Code kann nur einmal verwendet werden. <b>Geben Sie die Codes niemals weiter.</b> Bei einem Verlust verlieren Sie <color=red>PERMANENT</color> den Zugang zu Ihrem Konto.",
@@ -1472,23 +1478,23 @@
         "Settings.GeneralHapticsSettings.EnableHaptics.Description": "Wenn dies aktiviert ist, erhalten Sie haptisches Feedback von Avataren und Objekten aus der Welt über ihre VR-Controller und andere haptische Geräte.",
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR Hotswitching",
-        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Wenn dies aktiviert ist, wird automatisch zwischen VR- und Desktop-Modus gewsechselt, wenn Sie ihr VR-Headset aufsetzen oder abnehmen.",
+        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Wenn dies aktiviert ist, wird automatisch zwischen VR- und Desktop-Modus gewechselt, wenn Sie ihr VR-Headset aufsetzen oder abnehmen.",
 
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Hand Positions-Glättung",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Hand Rotations-Glättung",
-        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "Wenn dies aktiviert ist bestimmt es, wie stark die Position Ihrer Hände geglättet wird. Dies kann Benutzern mit unruhigen oder zittrigen Händen helfen.",
-        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "Wenn dies aktiviert ist bestimmt es, wie stark die Rotation Ihrer Hände geglättet wird. Dies kann Benutzern mit unruhigen oder zittrigen Händen helfen.",
+        "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "Wenn dies aktiviert ist, bestimmt es, wie stark die Position Ihrer Hände geglättet wird. Dies kann Benutzern mit unruhigen oder zittrigen Händen helfen.",
+        "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "Wenn dies aktiviert ist, bestimmt es, wie stark die Rotation Ihrer Hände geglättet wird. Dies kann Benutzern mit unruhigen oder zittrigen Händen helfen.",
 
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Fuß Positions-Glättung",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Fuß Rotations-Glättung",
 
-        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "Wenn dies aktiviert ist bestimmt es, wie stark die Position Ihrer Füße beim verwenden von Ganzkörper-Tracking geglättet wird. Dies kann hilfreich sein um Vibrationen und Zittern zu eliminieren, es sorgt aber auch dafür, dass die Tracker träger sind und nicht mehr gut auf schnelle Bewegungen reagieren.",
-        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "Wenn dies aktiviert ist bestimmt es, wie stark die Rotation Ihrer Füße beim verwenden von Ganzkörper-Tracking geglättet wird. Dies kann hilfreich sein um Vibrationen und Zittern zu eliminieren, es sorgt aber auch dafür, dass die Tracker träger sind und nicht mehr gut auf schnelle Bewegungen reagieren.",
+        "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "Wenn dies aktiviert ist, bestimmt es, wie stark die Position Ihrer Füße beim verwenden von Ganzkörper-Tracking geglättet wird. Dies kann hilfreich sein um Vibrationen und Zittern zu eliminieren, es sorgt aber auch dafür, dass die Tracker träger sind und nicht mehr gut auf schnelle Bewegungen reagieren.",
+        "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "Wenn dies aktiviert ist, bestimmt es, wie stark die Rotation Ihrer Füße beim verwenden von Ganzkörper-Tracking geglättet wird. Dies kann hilfreich sein um Vibrationen und Zittern zu eliminieren, es sorgt aber auch dafür, dass die Tracker träger sind und nicht mehr gut auf schnelle Bewegungen reagieren.",
 
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Hüfte Positions-Glättung",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Hüfte Rotations-Glättung",
-        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "Wenn dies aktiviert ist bestimmt es, wie stark die Position ihrer Hüfte beim verwenden von Ganzkörper-Tracking geglättet wird. Dies kann hilfreich sein um Vibrationen und Zittern zu eliminieren, es sorgt aber auch dafür, dass die Tracker träger sind und nicht mehr gut auf schnelle Bewegungen reagieren.",
-        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "Wenn dies aktiviert ist bestimmt es, wie stark die Rotation ihrer Hüfte beim verwenden von Ganzkörper-Tracking geglättet wird. Dies kann hilfreich sein um Vibrationen und Zittern zu eliminieren, es sorgt aber auch dafür, dass die Tracker träger sind und nicht mehr gut auf schnelle Bewegungen reagieren.",
+        "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "Wenn dies aktiviert ist, bestimmt es, wie stark die Position ihrer Hüfte beim verwenden von Ganzkörper-Tracking geglättet wird. Dies kann hilfreich sein um Vibrationen und Zittern zu eliminieren, es sorgt aber auch dafür, dass die Tracker träger sind und nicht mehr gut auf schnelle Bewegungen reagieren.",
+        "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "Wenn dies aktiviert ist, bestimmt es, wie stark die Rotation ihrer Hüfte beim verwenden von Ganzkörper-Tracking geglättet wird. Dies kann hilfreich sein um Vibrationen und Zittern zu eliminieren, es sorgt aber auch dafür, dass die Tracker träger sind und nicht mehr gut auf schnelle Bewegungen reagieren.",
 
         "Settings.MediaPrivacySettings": "Datenschutz in Medien",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Verweigern von Medien-Metadaten",
@@ -1518,7 +1524,7 @@
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap Motion Hand Tracking",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Wenn dies aktiviert ist, wird ein Leap Motion Gerät zum Verfolgen Ihrer Hände verwendet, sofern es vorhanden ist.",
         "Settings.LeapMotionSettings.Offset": "Hand Tracking Versatz",
-        "Settings.LeapMotionSettings.Offset.Description": "Dies bestimmt den Versatz zwischen dem Leap Motion Sensor und Ihrem VR-Headset. (In Metern)",
+        "Settings.LeapMotionSettings.Offset.Description": "Dies bestimmt den Versatz zwischen dem Leap Motion Sensor und Ihrem VR-Headset. (in Metern)",
         "Settings.LeapMotionSettings.SnapDistance": "Controller Einrast-Distanz",
         "Settings.LeapMotionSettings.SnapDistance.Description": "Wenn Ihre Hände sich innerhalb dieser Distanz zu einem Controller befinden, werden die Tracking-Informationen des Controllers zur Positionsbestimmung verwendet.",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Tracke Hände bei Verwendung von Controllern",
@@ -1644,7 +1650,7 @@
         "Settings.AudioInputDeviceSettings.DevicePriorities.Breadcrumb": "Audio-Aufnahmegeräte",
         "Settings.AudioInputDeviceSettings.SetAsDefault": "Als Standard einstellen",
         "Settings.AudioInputDeviceSettings.Testing.Header": "Teste Audio-Aufnahme",
-        "Settings.AudioInputDeviceSettings.Testing.Description": "Hiermit können Sie das ausgewählte Audiogerät abhören und damit testen ob es ordnungsgemäß funktioniert. Drücken Sie die Taste, um den Audio-Eingang zu hören, der den Ton wiedergibt.",
+        "Settings.AudioInputDeviceSettings.Testing.Description": "Hiermit können Sie das ausgewählte Audiogerät abhören und damit testen, ob es ordnungsgemäß funktioniert. Drücken Sie die Taste, um den Audio-Eingang zu hören, der den Ton wiedergibt.",
         "Settings.AudioInputDeviceSettings.Testing.ListenToInput": "Hören Sie dieses Aufnahmegerät an",
         "Settings.AudioInputDeviceSettings.Testing.StopListeningToInput": "Nicht mehr zuhören",
         "Settings.AudioInputDeviceSettings.Testing.Monitoring.Header": "Live Audio-Überwachung",
@@ -1684,7 +1690,7 @@
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "Noise-Gate Schwellwert",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold.Description": "Das Noise-Gate verhindert, dass Hintergrundgeräusche an andere Benutzer übertragen werden. Diese Einstellung bestimmt die maximale Lautstärke, bis zu der Geräusche herausgefiltert werden. Wenn zu viele Geräusche übertragen werden, erhöhen Sie diesen Wert, wenn ihre Stimme nicht übertragen wird, verringern Sie ihn.",
         "Settings.AudioInputFilteringSettings.NoiseGateAttack": "Noise-Gate Anstiegszeit",
-        "Settings.AudioInputFilteringSettings.NoiseGateAttack.Description": "Dies bestimmt wie schnell das Noise-Gate auf eingehende Geräusche reagiert, die lauter als der Schwellwert sind. Höhere Werte verursachen einen langsameren Lautstärkenanstieg, bei kleineren Werten nimmt die Lautstärke schneller zu.",
+        "Settings.AudioInputFilteringSettings.NoiseGateAttack.Description": "Dies bestimmt, wie schnell das Noise-Gate auf eingehende Geräusche reagiert, die lauter als der Schwellwert sind. Höhere Werte verursachen einen langsameren Lautstärkenanstieg, bei kleineren Werten nimmt die Lautstärke schneller zu.",
         "Settings.AudioInputFilteringSettings.NoiseGateHold": "Noise-Gate Haltezeit",
         "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "Dies bestimmt, wie lange die angepasste Lautstärke gehalten werden soll, nachdem Sie initial erkannt wurde, bevor die Geräusche wieder gefiltert werden. Höhere Werte verursachen, dass mehr leise Geräusche übertragen werden, nachdem Sie ein lautes Geräusch gemacht haben.",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease": "Noise-Gate Ausklingzeit",
@@ -1694,7 +1700,7 @@
         "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Dieser Schwellwert bestimmt, ab welcher Lautstärke eingehende Geräusche verstärkt werden. Wenn Ihre normale Stimme nicht verstärkt wird, verringern Sie diesen Wert. Wenn leise Hintergrundgeräusche verstärkt werden, erhöhen Sie ihn.",
 
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Rauschunterdrückungsfilter (RNNoise)",
-        "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Diese Funktion verarbeitet das eingehende Tonsignal und filtert unerwünschte Geräusche heraus. Dies kann den Ton von einem rauschenden Mikrofon erheblich verbessern und eine klarere Stimme erzeugen. Wir empfehlen diese Einstellung aktiviert zu lassen. Allerdings können Geräusche herausgefiltert werden, wenn sie nicht als Sprache erkannt werden.",
+        "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Diese Funktion verarbeitet das eingehende Tonsignal und filtert unerwünschte Geräusche heraus. Dies kann den Ton von einem rauschenden Mikrofon erheblich verbessern und eine klarere Stimme erzeugen. Wir empfehlen, diese Einstellung aktiviert zu lassen. Allerdings können Geräusche herausgefiltert werden, wenn sie nicht als Sprache erkannt werden.",
 
         "Settings.AudioPerformanceSettings": "Einstellungen für Audio-Performance",
         "Settings.AudioPerformanceSettings.MaxVoices": "Maximale Anzahl gleichzeitig aktiver Töne",
@@ -1787,7 +1793,7 @@
         "Settings.LocaleSettings.CultureLocaleCode": "Sprachtag für Formatierung",
         "Settings.LocaleSettings.CultureLocaleCode.Description": "Hier können Sie einen Sprachtag festlegen, der die Standard-Formatierung ihrer ausgewählten Sprache für Zahlen und Mengen überschreibt. So können Sie Sprache und Formatierung frei mischen, z.B. Deutsch mit Amerikanischer Formatierung für Zahlen.",
         "Settings.LocaleSettings.UseImperialUnits": "Imperiale Einheiten verwenden",
-        "Settings.LocaleSettings.UseImperialUnits.Description": "Wenn dies aktiviert ist, versuchen Eingabefelder für Mengenwerte (Länge/Höhe, Masse, Volumen...) Einheiten des imperialen Systems anstelle von metrischen Einheiten zu verwenden. Dies kann nützlich sein, wenn Sie aus den Vereinigten Staaten, dem Vereinigten Königreich, Lyberia oder Myanmar stammen.",
+        "Settings.LocaleSettings.UseImperialUnits.Description": "Wenn dies aktiviert ist, versuchen Eingabefelder für Mengenwerte (Länge/Höhe, Masse, Volumen...) Einheiten des imperialen Systems anstelle von metrischen Einheiten zu verwenden. Dies kann nützlich sein, wenn Sie aus den Vereinigten Staaten, dem Vereinigten Königreich, Liberia oder Myanmar stammen.",
         "Settings.LocaleSettings.AvailableLocales": "Sprache auswählen",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Sprachen",
         "Settings.LocaleSettings.AvailableLocales.SystemLocale": "Systemsprache verwenden",
@@ -1915,7 +1921,7 @@
         "Settings.PhotoCaptureSettings.EncodeFormat": "Dateiformat",
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "Dies ist das Bild-Dateiformat, in dem die aufgenommenen Fotos gespeichert werden. Wenn Sie die Fotos in einem bestimmten Dateiformat benötigen, können Sie dieses mit dieser Einstellung auswählen.\n\nBitte beachten Sie, dass nicht jedes Dateiformat alle Fähigkeiten unterstützt (wie z.B. ein Alphakanal), die Kodierung langsamer, die Bildqualität schlechter oder die Dateien größer sein können.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Namensschilder immer verbergen",
-        "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Schalten Sie dies ein, wenn Sie Namensschilder in Ihren Fotots immer verbergen wollen. Diese Einstellung ist unabhängig von der aktuellen Sichtbarkeit der Namensschilder und sorgt dafür, dass sie in Fotos nie aufgenommen werden.",
+        "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Schalten Sie dies ein, wenn Sie Namensschilder in Ihren Fotos immer verbergen wollen. Diese Einstellung ist unabhängig von der aktuellen Sichtbarkeit der Namensschilder und sorgt dafür, dass sie in Fotos nie aufgenommen werden.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Sichtfeld",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Hiermit können Sie ihr Sichtfeld (FOV) anpassen, wenn Sie im Desktop-Modus sind. Höhere Werte verursachen eine weitere Sicht, haben jedoch auch mehr Verzerrungen am Rand.",
@@ -2256,7 +2262,7 @@
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Trenne Teile des Meshes, welche nicht von Blendshapes betroffen sind",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Entferne leere Blendshapes",
-        "Inspector.SkinnedMesh.StripBlendshapesResult": "Erledigt! entfernte: {n,plural, one {# blendshape} other {# blendshapes}}",
+        "Inspector.SkinnedMesh.StripBlendshapesResult": "Erledigt! entfernte: {n,plural, one {# Blendshape} other {# Blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones": "Entferne leere Knochen",
         "Inspector.SkinnedMesh.StripBonesResult": "Erledigt! entfernte: {n,plural, one {# Knochen} other {# Knochen}}",
         "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes": "Fixiere freie Blendshapes",
@@ -2406,7 +2412,7 @@
         "Inspector.AvatarExpression.AutoAssign": "Automatische Mischform zuordnen (Heuristisch)",
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente als einfachen Rigidbody zu verwenden, indem 'Rotation Simulieren' ausgewählt wird. Bevor Sie dies tun, verstehen Sie bitte, dass sie nicht für diesen Zweck optimiert ist und dass vollständige Rididbody-Unterstützung in der Zukunft hinzugefügt wird.<br>Vollständige Rigidbody-Unterstützung wird folgendes ermöglichen:<br><b>- CPU- und Netzwerkeffizienz</b> - Mit CharacterController werden Sie höhere CPU-Auslastung und signifikant höhere Netzwerkauslastung verursachen<br><b>- Beschränkungen</b> - Sie werden in der Lage sein Gelenke, Schaniere, Federn und andere Beschränkungen zwischen Rigidbodies zu erstellen<br><b>- Geschmeidige Simulation und Interaktionen für Jeden</b> - CharacterController wird Fehlverhalten verursachen wenn ein anderer Benutzer versucht damit zu interagieren.<br><b>- Neue Features und Tools</b> - Dadurch wird die Verwendung deutlich einfacher<br>-----------------------<br>Solange Sie diese Einschränkungen verstehen, viel Spaß!",
-        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente zu verwenden um mit Referenzen zu interagieren, die über Ihre IDs addressiert werden. Dieser Vorgang ist geläufig bekannt als 'Ref Hacking'.<br><br><b>Bevor</b> Sie dies tun, verstehen Sie bitte dass dies <b>nicht</b> unterstützt ist und zu jedem Zeitpunk kaputtgehen kann. Verlassen Sie sich nicht auf diese Funktionalität für Ihre Kreationen!",
+        "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNUNG!</size></color><br>Es ist möglich diese Komponente zu verwenden um mit Referenzen zu interagieren, die über Ihre IDs adressiert werden. Dieser Vorgang ist geläufig bekannt als 'Ref Hacking'.<br><br><b>Bevor</b> Sie dies tun, verstehen Sie bitte dass dies <b>nicht</b> unterstützt ist und zu jedem Zeitpunkt kaputtgehen kann. Verlassen Sie sich nicht auf diese Funktionalität für Ihre Kreationen!",
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>WARNUNG!</size></color><br>Facet-Voreinstellungen aktualisieren ihren Inhalt automatisch, wenn wir neue Versionen dieser Voreinstellungen veröffentlichen. Wenn Sie eine eigene Version erstellen, empfehlen wir, diese Komponente zu löschen.",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>WARNUNG!</size></color><br>Diese Komponente ist kein Sicherheitssystem oder Diebstahlschutz. Sie ist für Situationen bestimmt, in denen die einfachen Speichermöglichkeiten aus Designgründen oder zum Erhalt des Spielerlebnisses blockiert werden sollen. Sie kann einfach umgangen werden, und wir werden die Sicherheit in keinem Fall verbessern.",
 
@@ -2602,7 +2608,7 @@
 
         "Tutorial.CommunityYouTube.Title": "Benutzer YouTube-Kanäle",
 
-        "Tutorial.UserResources.UserResourcesTitle": "Resourcen von anderen Nutzern",
+        "Tutorial.UserResources.UserResourcesTitle": "Ressourcen von anderen Nutzern",
         "Tutorial.UserResources.SupportTitle": "{appName} unterstützen",
         "Tutorial.UserResources.MerchandiseTitle": "{appName} Fanartikel",
 
@@ -2719,7 +2725,7 @@
         "Migration.Error": "<color=red>Fehler:</color> {error}",
         "Migration.NothingSelected": "Sie haben nichts ausgewählt, Migration kann nicht beginnen.",
 
-        "Migration.ColorManagement": "Diese Welt ist ursprünglich im Gamma-Farbraum erstellt worden und wurde automatisch in den linearen Farbraum konvertiert.<br><br>Sie sieht möglicherweise anders als das Original aus, sollte aber verwendbar sein.<br><br>Wenn Sie der Ersteller sind und Fehler in der Konvertierung der Welt finden, <color=red>SPEICHERN SIE DIE WELT NICHT</color>. Speichern Sie nur Kopien davon.<br><br>Solange die Originale Welt existiert können wir den Konvertierungsvorgang verbessern. Andernfalls sind Sie verantwortlich dafür, die Fehler selbst zu beheben.",
+        "Migration.ColorManagement": "Diese Welt ist ursprünglich im Gamma-Farbraum erstellt worden und wurde automatisch in den linearen Farbraum konvertiert.<br><br>Sie sieht möglicherweise anders als das Original aus, sollte aber verwendbar sein.<br><br>Wenn Sie der Ersteller sind und Fehler in der Konvertierung der Welt finden, <color=red>SPEICHERN SIE DIE WELT NICHT</color>. Speichern Sie nur Kopien davon.<br><br>Solange die Originale Welt existiert, können wir den Konvertierungsvorgang verbessern. Andernfalls sind Sie verantwortlich dafür, die Fehler selbst zu beheben.",
 
         "Temporary.MMC.Voting UI": "MMC Wahl-UI",
         "Temporary.MMC.Vote": "Wählen",
@@ -2841,7 +2847,7 @@
         "StickyNote.EquipMeVR": "Ausrüsten und an der Leine ziehen!",
 
         "StickyNote.DipBrushes": "Tauchen Sie Pinsel in Orbs um Materialien zu verwenden",
-        "StickyNote.BrushColor": "Ändern Sie die Farbe und Grösse vom Pinsel in Ihrem Kontext-Menü ",
+        "StickyNote.BrushColor": "Ändern Sie die Farbe und Größe vom Pinsel in Ihrem Kontext-Menü ",
         "StickyNote.Drawing": "Sie können auf dem Whiteboard, in der Luft oder irgendwo anders malen!",
         "StickyNote.WorldCanvas": "Die Welt ist Ihre <nobr>Leinwand!</nobr>",
 
@@ -2969,7 +2975,7 @@
 
         "Hints.DashboardDesktop": "Öffnen und schliessen Sie Ihr Dashboard durch drücken von Escape!",
         "Hints.DashboardVR": "Öffnen und schliessen Sie Ihr Dashboard durch drücken Ihres Menü-Knopfes",
-        "Hints.DashboardExtra": "Weiter untern finden Sie mehr Info zum Dashboard.",
+        "Hints.DashboardExtra": "Weiter unten finden Sie mehr Info zum Dashboard.",
 
         "Hints.Teleporter": "Steigen Sie in den Teleporter und wählen Sie aus, wohin Sie als nächstes gehen wollen!",
         "Hints.TeleporterExtra": "Wo auch immer Sie hingehen, genießen Sie Ihren Aufenthalt in {appName}!",
@@ -3385,7 +3391,7 @@
         "Help.Controls.Interaction.Lasers.Leveling": "Ausrichten",
         "Help.Controls.Interaction.Lasers.Leveling.Content": "Sie können ein Objekt <b><color=hero.cyan>Ausrichten</closeall>, indem Sie <b><color=hero.purple>{Primary_Input}</closeall> drücken, während Sie es halten. Dies richtet die Seite des Objektes aufrecht aus, die am ehesten schon aufrecht steht.",
         "Help.Controls.Interaction.Lasers.FreeformRotation": "Freie Rotation",
-        "Help.Controls.Interaction.Lasers.FreeformRotation.Content": "Während Sie ein Objekt halten, können Sie die Rotation eines Objektes fixieren, und statdessen Ihre Handbewegung benutzen, um es frei zu rotieren, indem Sie <b><color=hero.purple>{Primary_Input}</closeall> doppelklicken. Nachdem Sie das getan haben, folgt das Objekt relativ Ihrer Handbewegung.<br><br>Doppelklicken Sie <b><color=hero.purple>{Primary_Input}</closeall> erneut, kehren Sie zu normalem Laser-Griff zurück.",
+        "Help.Controls.Interaction.Lasers.FreeformRotation.Content": "Während Sie ein Objekt halten, können Sie die Rotation eines Objektes fixieren, und stattdessen Ihre Handbewegung benutzen, um es frei zu rotieren, indem Sie <b><color=hero.purple>{Primary_Input}</closeall> doppelklicken. Nachdem Sie das getan haben, folgt das Objekt relativ Ihrer Handbewegung.<br><br>Doppelklicken Sie <b><color=hero.purple>{Primary_Input}</closeall> erneut, kehren Sie zum normalen Laser-Griff zurück.",
         "Help.Controls.Interaction.Lasers.TogglingLasers": "Laser ein- und ausschalten",
         "Help.Controls.Interaction.Lasers.TogglingLasers.Content": "Stören Sie Ihre Laser bei irgendetwas? Sie können Ihre Laser {is_desktop, select, True {} other {je Hand }}ein- und ausschalten, indem Sie Ihr <color=hero.cyan><b>Kontext-Menü</closeall> durch {is_using_vive_wands, select, True {schnelles } other {}}drücken von <b><color=hero.purple>{Context_Menu_Input}</closeall> erscheinen lassen und <b><color=hero.cyan>Laser aktiviert</closeall>/<b><color=hero.cyan>deaktiviert</closeall> auswählen. Wenn Ihr{is_desktop, select, True { Laser deaktiviert ist, wird er} other {e Laser deaktiviert sind, werden sie}} nur in Ihrem Dashboard und Kontext-Menü angezeigt.",
 
@@ -3507,7 +3513,7 @@
         "Help.Dashboard.Settings.Content": "Im <b><color=hero.cyan>Optionen</closeall>-Tab können Sie alle Ihre Einstellungen finden und ändern. {appName}s Einstellungen sind in die folgengen Kategorien eingeordnet:",
 
         "Help.Dashboard.Settings.Audio.Content": "Verwalten Sie Lautstärke, Audiogeräte, Filter und Barrierefreiheit.",
-        "Help.Dashboard.Settings.Controls.Content": "Eintellungen zu Ihrer Steuerung.",
+        "Help.Dashboard.Settings.Controls.Content": "Einstellungen zu Ihrer Steuerung.",
         "Help.Dashboard.Settings.UserInterface.Content": "Verwalten Sie Ihre Benutzeroberfläche, z.B. die Art und Weise, wie Sie Benachrichtigungen erhalten, die Auswahl Ihrer Sprache, die Sichtbarkeit des Namensschildes, die Einstellungen des Dashboards und vieles mehr.",
         "Help.Dashboard.Settings.Devices.Content": "Verwalten Sie externe Geräte wie z.B. zum Gesichts-Tracking oder für haptisches Feedback.",
         "Help.Dashboard.Settings.Profile.Content": "Verwalten Sie Ihre Größe und wie Ihr Status dargestellt wird.",
@@ -3620,9 +3626,9 @@
         "Help.LinksAndResources.RTF.Font": "Schriftart",
         "Help.LinksAndResources.RTF.Font.Content": "Stellt die Schriftart für den Text ein, hier wird die Schriftart durch eine <b>Font Chain</b> bereitgestellt, die an den Text-Renderer angehängt ist. Der Wert für das Tag ist entweder ein Index oder ein Name.",
         "Help.LinksAndResources.RTF.Sprite": "Sprite",
-        "Help.LinksAndResources.RTF.Sprite.Content": "Fügt ein Benutzerdefiniertes und -benanntes Sprite in den Text ein. Sprites können dem Text über eine <b>Font Collection</b> und einen angehängten <b>Dynamic Sprite Font</b> hinzuefügt werden.",
+        "Help.LinksAndResources.RTF.Sprite.Content": "Fügt ein Benutzerdefiniertes und -benanntes Sprite in den Text ein. Sprites können dem Text über eine <b>Font Collection</b> und einen angehängten <b>Dynamic Sprite Font</b> hinzugefügt werden.",
         "Help.LinksAndResources.RTF.Glyph": "Glyphe",
-        "Help.LinksAndResources.RTF.Glyph.Content": "Fügt eine Benutzerdefinierte und -benannte Glyphe in den Text ein. Glyphen können dem Text über eine <b>Font Collection</b> und einen angehängten <b>Dynamic Sprite Font</b> hinzuefügt werden.",
+        "Help.LinksAndResources.RTF.Glyph.Content": "Fügt eine Benutzerdefinierte und -benannte Glyphe in den Text ein. Glyphen können dem Text über eine <b>Font Collection</b> und einen angehängten <b>Dynamic Sprite Font</b> hinzugefügt werden.",
 
         "Help.LinksAndResources.PlatformBotCommands": "{appName} Bot Befehle",
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables": "Cloud-Variablen",
