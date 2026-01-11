@@ -235,6 +235,10 @@
         "World.Config.CleanupAssets": "清理未使用的資產：",
         "World.Config.CleanupInterval": "清理間隔（秒）：",
 
+        "World.Config.ResoniteLinkHeader": "ResoniteLink",
+        "World.Config.ResoniteLinkOff": "ResoniteLink 已停用",
+        "World.Config.ResoniteLinkPort": "ResoniteLink 執行於埠號 {port}",
+
         "World.Actions.StartSession": "開始活動",
         "World.Actions.Join": "加入",
         "World.Actions.Focus": "聚焦",
@@ -270,6 +274,8 @@
         "World.Actions.ModifyMetadata": "編輯詮釋資料",
         "World.Actions.GetSessionOrb": "取得活動球體",
         "World.Actions.CopySessionURL": "複製活動 URL",
+
+        "World.Actions.EnableResoniteLink": "啟用 ResoniteLink",
 
         "World.Indicator.NoData": "沒有資料",
         "World.Indicator.LocalWorld": "本機",
@@ -2270,9 +2276,9 @@
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "依名稱長度排序 Blendshape，然後依名稱排序",
         "Inspector.SkinnedMesh.ResetBonesToBindPoses": "重設骨骼以綁定姿勢",
 
-        "Inspector.SimpleAvatarProtection.RemoveAll": "移除所有實例",
-        "Inspector.SimpleAvatarProtection.RemoveSingle": "移除單個實例",
-        "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>警告！</size></color><br>以任何除下方按鈕之外的方式移除這個元件，都會觸發保護機制，並導致自毀和可能的數據損失！",
+        "Inspector.SimpleAvatarProtection.RemoveAll": "移除全部的化身保護",
+        "Inspector.SimpleAvatarProtection.RemoveSingle": "只移除此化身保護",
+        "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>警告！</size></color><br>除了以下按鈕以外，以其他方式移除這個元件，都會觸發保護機制引發自毀，並有資料損失之風險！",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "移除化身保護",
 
         "Inspector.BipedRig.GetDiagnosticInfo": "取得骨架綁定診斷訊息",
