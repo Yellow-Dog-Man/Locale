@@ -235,6 +235,10 @@
         "World.Config.CleanupAssets": "Очистка неиспользованных ресурсов:",
         "World.Config.CleanupInterval": "Интервал очистки (секунды):",
 
+        "World.Config.ResoniteLinkHeader": "ResoniteLink",
+        "World.Config.ResoniteLinkOff": "ResoniteLink отключен",
+        "World.Config.ResoniteLinkPort": "ResoniteLink активирован на порту {port}",
+
         "World.Actions.StartSession": "Старт сессии",
         "World.Actions.Join": "Подключиться",
         "World.Actions.Focus": "Фокус",
@@ -270,6 +274,8 @@
         "World.Actions.ModifyMetadata": "Редактировать метаданные",
         "World.Actions.GetSessionOrb": "Получить сферу сессии",
         "World.Actions.CopySessionURL": "Скопировать URL сессии",
+
+        "World.Actions.EnableResoniteLink": "Активировать ResoniteLink",
 
         "World.Indicator.NoData": "Нет данных",
         "World.Indicator.LocalWorld": "Локальный мир",
@@ -365,7 +371,7 @@
         "World.Edit.Path": "Адрес мира:",
         "World.Edit.AccessLevelHeader": "Кто может открыть этот мир?",
         "World.Edit.AccessPrivate": "Только я",
-        "World.Edit.AccessPatreon": "Спонсоры с Patreon",
+        "World.Edit.AccessPatreon": "Спонсоры Patreon",
         "World.Edit.AccessPublic": "Все (публичный)",
         "World.Edit.ReadOnly": "Защита от записи",
 
@@ -678,7 +684,7 @@
         "Contacts.Bot": "Бот",
         "Contacts.Migrated": "Контакт не совершил миграцию",
         "Contacts.IncompatibleSession": "Сессия несовместима",
-        "Contacts.AskToJoin": "<color=hero.yellow>Пригласить</color>",
+        "Contacts.AskToJoin": "<color=hero.yellow>Постучаться</color>",
 
         "Contacts.InviteRequest.UserWantsToJoin": "{username} желает присоединиться",
         "Contacts.InviteRequest.UserWantsToInviteAnother": "\"{requestingUser}\" желает пригласить \"{userToInvite}\" в сессию \"{sessionName}\"",
@@ -741,11 +747,17 @@
         "Undo.ExtractMaterialsFromHierarchy": "Извлечение материалов из иерархии",
         "Undo.BatchConvertMaterials": "Пакетное конвертирование материалов",
 
+        "Undo.AddListElement": "Добавить изменение в список",
+        "Undo.RemoveListElement": "Убрать изменение из списка",
+
         "Tools.Brush.ChangeColor": "Изменить цвет",
         "Tools.Brush.IncrementSize": "Увеличить размер",
         "Tools.Brush.DecrementSize": "Уменьшить размер",
+        "Tools.Brush.FinishStrokeGroup": "Закончить рисунок",
 
         "Tools.GeometryLineBrush.Name": "Геометрическая кисть",
+
+        "Tools.MeshPlaneBrush.AddHole": "Добавить отверстие",
 
         "Tools.Dev.Name": "Инструмент разработчика",
         "Tools.Dev.CreateNew": "Создание нового...",
@@ -2739,6 +2751,28 @@
         "Tutorial.Saving.Title": "Добро пожаловать домой!",
         "Tutorial.Saving.Content": "Добро пожаловать в ваш <b><i><color=hero.yellow>дом</b></i></color>! Вы окажетесь в этом месте при каждом входе.<br>Этот мир полностью ваш, поэтому вы можете сохранить любые сделанные вами изменения.<br>При сохранении мира всё останется на своих местах в ваш следующий визит!",
 
+
+        "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Неименованная сессия</closeall>",
+        "Tutorial.Teleporter.SessionList.UnnamedHost": "Хост: <i><alpha=#77>Неименованный</closeall>",
+        "Tutorial.Teleporter.SessionList.HostName": "Хост: <b>{hostName}</b>",
+        "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} присутствуют",
+        "Tutorial.Teleporter.SessionList.PublicSessions": "Публичные Сессии",
+        "Tutorial.Teleporter.SessionList.NoPublicSessions": "Публичные сессии пока не доступны! :(<br><size=66%>Тем не менее у вас есть следующие возможности:</size>",
+
+        "Tutorial.Teleporter.ChooseDestination": "Выберите куда желаете пойти дальше",
+
+        "Tutorial.Teleporter.Destinations.CloudHome": "Перейти в Облачный дом",
+        "Tutorial.Teleporter.Destinations.AvatarWorld": "Перейти в Avatar Gazebo",
+        "Tutorial.Teleporter.Destinations.PickAnotherSession": "Выбрать иную сессию",
+        "Tutorial.Teleporter.Destinations.PickPublicSession": "Присоединиться к публичной сессии",
+
+        "Tutorial.Teleporter.WorldsTabHint": "Вы также можете найти миры куда можете зайти<br>используя вкладку Миры в вашем Дэшборде!",
+
+        "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>Присоединиться не удалось! :(</color><br><size=66%>Тем не менее у вас есть следующие возможности:</size>",
+
+        "Tutorial.Teleporter.Transporting": "Перемещаемся...",
+
+
         "CloudHome.Info.OnlineUsers": "Онлайн: {online_users} {online_users,plural, one {пользователь} few {пользователя} other {пользователей}}<br>Можно подключиться к: {joinable_users} {joinable_users,plural, one {пользователю} other {пользователям}}",
         "CloudHome.Info.Moderation": "Модерация",
         "CloudHome.Info.Inventory": "Инвентарь",
@@ -2878,6 +2912,16 @@
         "Tutorial.Panel.TeleportLocomotion.Title": "Режим телепорта",
         "Tutorial.Panel.TeleportLocomotion.Content": "Телепорт моментально перемещает вас в указанную локацию.",
 
+        "Tutorial.DashboardInfo.Header": "Ваш Дэшборд",
+        "Tutorial.DashboardInfo.Content": "<b><color=hero.cyan>Дэшборд</closeall> это ваше главное меню - с помощью него вы можете: разговаривать с другими пользователями, искать миры чтобы прогуляться, и другое!<br><br>Если нужна помощь взгляните во вкладку <b><color=hero.purple>Справка.",
+        "Tutorial.DashboardInfo.GotIt": "Понятно!",
+
+        "Tutorial.MentorPanel.Title": "Нужна помощь?",
+        "Tutorial.MentorPanel.Content": "Если видите над головой пользователя этот значек - попросите его о помощи, они здесь чтобы помочь <i>вам</i>!",
+
+        "Tutorial.HelpTabPanel.Title": "Нужна справка?",
+        "Tutorial.HelpTabPanel.Content": "Внутри вашего дэшборда есть вкладка справки где можете прочесть интересующую вас информацию о {appName}!",
+
         "Hints.Spawn.InitialMovementDesktop": "Используйте кнопки перемещения для передвижения!",
         "Hints.Spawn.InitialMovementVR": "Используйте джойстик для передвижения!",
         "Hints.Spawn.InitialMovementVRNoButtons": "Используйте трэкпад для передвижения!",
@@ -2921,6 +2965,15 @@
         "Hints.Sundial.Dequip": "Бросьте экипированный инструмент, выбрав пункт Отпустить в вашем контекстном меню.",
         "Hints.Sundial.DequipExtra": "Заметьте, что опции в Контекстном Меню поменялись, потому что вы экипировали инструмент.",
 
+        "Hints.Sundial.Doorway": "Пройдите для продолжения!",
+
+        "Hints.DashboardDesktop": "Откройте и закройте дэшборд нажатием кнопки Esc на клавиатуре!",
+        "Hints.DashboardVR": "Откройте и закройте дэшборд нажатем кнопки Меню вашего контроллера!",
+        "Hints.DashboardExtra": "Ниже отображена дополнительная информация по дэшборду.",
+
+        "Hints.Teleporter": "Встаньте в телепортер и укажите куда хотите пойти дальше!",
+        "Hints.TeleporterExtra": "Неважно куда вы пойдете, добро пожаловать в {appName}!",
+
         "UI.TextDisplay.Landscape": "Ландшафтный",
         "UI.TextDisplay.Portrait": "Портретный",
         "UI.TextDisplay.NormalText": "Нормальный",
@@ -2949,9 +3002,9 @@
 
         "UI.ColorPicker.Linear": "Линейный",
 
-        "UI.ColorPicker.Hexadecimal": "цвет",
-        "UI.ColorPicker.Blackbody": "Черное тело",
-        "UI.ColorPicker.ColorSwatches": "Образец",
+        "UI.ColorPicker.Hexadecimal": "Шестнадцатиричный",
+        "UI.ColorPicker.Blackbody": "Температура цвета",
+        "UI.ColorPicker.ColorSwatches": "Палитра",
 
         "UI.ColorPicker.Red": "Красный",
         "UI.ColorPicker.Green": "Зелёный",
