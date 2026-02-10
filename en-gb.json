@@ -3,30 +3,6 @@
     "authors": ["Nammi", "Enverex", "atomicwave", "CyberZott", "Nytra", "bredo"],
     "messages": {
 
-        "Undo.ChangeColor": "Change Colour",
-
-        "Tools.Color.Name": "Colour Tool",
-        "Tools.Color.Picker": "Colour Picker",
-        "Tools.Microphone.SourceFiltered": "Filtered & Normalised",
-
-        "Tools.Brush.ChangeColor" : "Change Colour",
-
-        "CreateNew.Editor.AssetOptimizationWizard": "Asset Optimisation Wizard",
-
-        "AvatarCreator.AlignHeadForward": "Align Head Forwards",
-        "AvatarCreator.CenterHead": "Centre Head Position",
-
-        "Importer.Folder.Individual.Description": "Creates a separate import dialogue for each supported file in the folder",
-        "Importer.Model.VertexColorModel": "Vertex Coloured Model",
-        "Importer.Model.Meters": "Metres (m)",
-        "Importer.Model.Millimeters": "Millimetres (mm)",
-        "Importer.Model.Centimeters": "Centimetres (cm)",
-        "Importer.Model.Advanced.VertexColors": "Import Vertex Colours",
-        "Importer.Model.Advanced.AlbedoColor": "Import Albedo Colour",
-        "Importer.Model.Advanced.VisualizeRig": "Visualise Rig",
-        "Importer.Model.Advanced.Optimize": "Optimise Model/Scene",
-        "Importer.Model.Advanced.RandomColors": "Generate Random Colours",
-
         "Inventory.Favorite.Home": "Favourite Home",
         "Inventory.Favorite.ProgressBar": "Favourite Progress Bar",
         "Inventory.Favorite.AudioStreamController": "Favourite Stream Controller",
@@ -41,47 +17,94 @@
         "Inventory.Favorite.Hyperlink": "Favourite URL Display",
         "Inventory.Favorite.Document": "Favourite Document Display",
 
-        "Inspector.Mesh.ChannelStats": "Normals: {normals}, Tangents: {tangents}, Colours: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
-        "Inspector.SkinnedMesh.VisualizeBoneBounds": "Visualise bone bounding boxes",
-        "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Visualise approximate merged bone sphere bounds",
-        "Inspector.Texture.ColorToAlphaWhite": "Colour to Alpha (white)",
-        "Inspector.Texture.ColorToAlphaBlack": "Colour to Alpha (black)",
-        "Inspector.Texture.TrimByCornerColor" : "Trim By Corner Colour",
-        "Inspector.Texture.NormalizeMaxOnly" : "Normalise (max only)",
-        "Inspector.Texture.NormalizeMinMax" : "Normalise (min and max)",
-        "Inspector.Texture.NormalizeIndependent" : "Normalise RGB independently (min and max)",
-        "Inspector.Texture.BleedColorToAlpha" : "Bleed Colour To Alpha",
-        "Inspector.Texture.ConvertToGrayscaleAverage": "Convert to greyscale (average)",
-        "Inspector.Audio.Normalize": "Normalise Volume",
-        "Inspector.Audio.DenoiseRNNoise": "Denoise (RNNoise, optimised for voice at 48 kHz)",
+        "Tools.StreamAudio.Spatialized": "Spatialised",
+
+        "Undo.ChangeColor": "Change Colour",
+
+        "Tools.Brush.ChangeColor": "Change Colour",
+
+        "Tools.Color.Name": "Colour Tool",
+        "Tools.Color.Picker": "Colour Picker",
+
+        "Tools.Microphone.SourceFiltered": "Filtered & Normalised",
+
+        "CreateNew.Editor.AssetOptimizationWizard": "Asset Optimisation Wizard",
+
+        "AvatarCreator.AlignHeadForward": "Align Head Forwards",
+
+        "AvatarCreator.CenterHead": "Centre Head Position",
+
+        "Importer.Folder.Individual.Description": "Creates a separate import dialogue for each supported file in the folder",
+
+        "Importer.Model.VertexColorModel": "Vertex Coloured Model",
+
+        "Importer.Model.Meters": "Metres (m)",
+        "Importer.Model.Millimeters": "Millimetres (mm)",
+        "Importer.Model.Centimeters": "Centimetres (cm)",
+
+        "Importer.Model.Advanced.VertexColors": "Import Vertex Colours",
+
+        "Importer.Model.Advanced.AlbedoColor": "Import Albedo Colour",
+
+        "Importer.Model.Advanced.VisualizeRig": "Visualise Rig",
+
+        "Importer.Model.Advanced.Optimize": "Optimise Model/Scene",
+
+        "Importer.Model.Advanced.RandomColors": "Generate Random Colours",
+
+        "Settings.FavoritesSettings": "Favourites",
+
+        "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Voice normalisation",
+
+        "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Normalisation threshold",
+
         "Inspector.Member.Normalize": "Normalise",
-        "Inspector.Collider.Visualize": "Visualise Collider",
+
+        "Inspector.Mesh.ChannelStats": "Normals: {normals}, Tangents: {tangents}, Colours: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
+
         "Inspector.Texture3D.SpawnVisualizer": "Spawn Visualiser",
 
-        "Wizard.TextRenderer.SetColor": "Set Colour",
+        "Inspector.SkinnedMesh.VisualizeBoneBounds": "Visualise bone bounding boxes",
+        "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "Visualise approximate merged bone sphere bounds",
+
+        "Inspector.Texture.ColorToAlphaWhite": "Colour to Alpha (white)",
+        "Inspector.Texture.ColorToAlphaBlack": "Colour to Alpha (black)",
+
+        "Inspector.Texture.ConvertToGrayscaleAverage": "Convert to greyscale (average)",
+
+        "Inspector.Texture.TrimByCornerColor": "Trim By Corner Colour",
+
+        "Inspector.Texture.NormalizeMaxOnly": "Normalise (max only)",
+        "Inspector.Texture.NormalizeMinMax": "Normalise (min and max)",
+        "Inspector.Texture.NormalizeIndependent": "Normalise RGB independently (min and max)",
+        "Inspector.Texture.BleedColorToAlpha": "Bleed Colour To Alpha",
+
+        "Inspector.Audio.Normalize": "Normalise Volume",
+
+        "Inspector.Audio.DenoiseRNNoise": "Denoise (RNNoise, optimised for voice at 48 kHz)",
+
+        "Inspector.Collider.Visualize": "Visualise Collider",
+
         "Wizard.AssetOptimization.Title": "Asset Optimisation Wizard",
+
+        "Wizard.TextRenderer.SetColor": "Set Colour",
+
+        "Tutorial.Intro.BadgesMentor": "Mentor",
 
         "StickyNote.BrushColor": "Change the brush colour and size in your Context Menu",
 
         "CloudHome.Panel.LightColor": "Light Colour",
         "CloudHome.Panel.LightColorTemperature": "Light Colour Temperature",
+
         "CloudHome.Panel.Theater": "Theatre",
+
         "CloudHome.Panel.TheaterControl": "Theatre Control",
 
         "UI.VideoPlayer.SpatialAudio": "Spatialised<br>Audio",
+
         "UI.VideoPlayer.AudioZoneTheater": "Local to<br>Theatre",
 
         "UI.ColorPicker.ColorPicker": "Colour Picker",
-        
-        "Tutorial.Intro.BadgesMentor": "Mentor",
-
-        
-        "Tools.StreamAudio.Spatialized": "Spatialised",
-
-        "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Voice normalisation",
-        "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Normalisation threshold",
-
-        "Settings.FavoritesSettings": "Favourites",
 
         "Dummy": "Dummy"
     }
