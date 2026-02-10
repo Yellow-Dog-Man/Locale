@@ -10,6 +10,7 @@ Undo.AddListElement
 Undo.RemoveListElement  
 Tools.Brush.FinishStrokeGroup  
 Tools.MeshPlaneBrush.AddHole  
+Inspector.Member.SplitBlendshapeToStaticMesh  
 Tutorial.HelpTabPanel.Title  
 Tutorial.HelpTabPanel.Content  
 Help.Help  

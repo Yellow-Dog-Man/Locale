@@ -1794,6 +1794,7 @@ Inspector.Member.RemoveBlendshape
 Inspector.Member.SplitBlendshape.X  
 Inspector.Member.SplitBlendshape.Y  
 Inspector.Member.SplitBlendshape.Z  
+Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.ProceduralAsset.UpdateCount  
 Inspector.ProceduralAsset.Error  
 Inspector.Mesh.StatsHeader  

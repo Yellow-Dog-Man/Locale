@@ -184,6 +184,7 @@ Settings.ImportSettings.WorldUrls.Description
 Settings.ImportSettings.NetworkUrls  
 Settings.ImportSettings.NetworkUrls.Description  
 Settings.MysterySettings  
+Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.Texture3D.SpawnVisualizer  
 Inspector.Skybox.SetActiveSkybox  

@@ -257,6 +257,7 @@ Inspector.Slot.ParentUnder.LocalUserSpace
 Inspector.Slot.ParentUnder.LocalUserSpace.Undo  
 Inspector.Member.BreakLinkDrive  
 Inspector.Member.OpenLinkDrive  
+Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.Mesh.ReverseWinding  
 Inspector.Mesh.TrimVertexBoneWeightsTo  
 Inspector.Mesh.BoneTrimCount  

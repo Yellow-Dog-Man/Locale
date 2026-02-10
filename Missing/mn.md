@@ -35,6 +35,7 @@ Settings.RendererDecouplingSettings.ForceDecouple
 Settings.RendererDecouplingSettings.ForceDecouple.Description  
 Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds  
 Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description  
+Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.Texture.IsolateR  
