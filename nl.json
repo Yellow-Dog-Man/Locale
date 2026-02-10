@@ -1,8 +1,15 @@
 {
     "localeCode": "nl",
-    "authors": ["jeana","Beaned","alexderpyfox","AnotherFoxGuy","marsmaantje","coolymike","Tekno Catron"],
+    "authors": [
+        "jeana",
+        "Beaned",
+        "alexderpyfox",
+        "AnotherFoxGuy",
+        "marsmaantje",
+        "coolymike",
+        "Tekno Catron"
+    ],
     "messages": {
-
         "General.OK": "OK",
         "General.Start": "Begin",
         "General.Finish": "Einde",
@@ -38,29 +45,22 @@
         "General.UnderstandEnable": "Ik begrijp het, zet aan",
         "General.Dismiss": "Sluiten",
         "General.Edit": "Bewerken",
-
         "General.UI.SearchPrompt": "Zoeken...",
         "General.UI.SearchPromptLong": "Typ hier om te zoeken...",
         "General.UI.ToggleEditMode": "Bewerkmodus aan/uitzetten",
         "General.UI.ToggleSubtitles": "Ondertiteling aan/uitzetten",
         "General.UI.Subtitles.On": "Ondertiteling: Aan",
         "General.UI.Subtitles.Off": "Ondertiteling: Uit",
-
         "General.UI.MusicVolumeLocal": "Muziekvolume (lokaal):",
         "General.UI.VoiceVolumeLocal": "Stemvolume (lokaal):",
         "General.UI.SoundVolumeLocal": "Geluidsvolume (lokaal):",
-
         "General.UI.PressToBegin": "Klik om te beginnen",
-
         "General.Sort.Ascending": "Oplopend",
         "General.Sort.Descending": "Aflopend",
-
         "General.Units.Metric": "Metrisch",
         "General.Units.Imperial": "Imperiaal",
-
         "Worlds.Home": "Woon Wereld",
         "Worlds.Tutorial": "Rondleidings Wereld",
-
         "Locomotion.Noclip.Name": "Noclip",
         "Locomotion.Noclip.Description": "Simpele vliegmodus zonder botsingen, ideaal voor bewerken.",
         "Locomotion.Teleport.Name": "Teleporteren",
@@ -77,7 +77,6 @@
         "Locomotion.GrabWorld.Description": "Creëert een wereld anker en beweegt de gebruiker relatief tot de anker.",
         "Locomotion.Slide.Name": "Glijden",
         "Locomotion.Slide.Description": "Simpele glijd modus die vastplakt aan een oppervlak, of vliegt als die er niet is.",
-
         "Interaction.Destroy": "Verwijderen",
         "Interaction.Duplicate": "Dupliceren",
         "Interaction.SaveToInventory": "Bewaren in opslag",
@@ -98,22 +97,17 @@
         "Interaction.Grab.Off": "Grijp: Alleen laser",
         "Interaction.Locomotion": "Locomotie",
         "Interaction.Locomotion.None": "Geen",
-
         "Interaction.NamedEquipTool": "{name} gebruiken",
         "Interaction.NamedEquipTool.Default": "Gereedschap",
-
         "Interaction.EnterAnchor": "Betreed Anker",
         "Interaction.ExitAnchor": "Verlaat Anker",
-
         "Interaction.EquipAvatar": "Avatar gebruiken",
-
         "Interaction.SaveAsScreenshot": "Sla op als screenshot",
         "Interaction.ExportScreenshot": "Screenshot exporteren",
         "Interaction.ImportFile": "Importeer bestand",
         "Interaction.ExportFile": "Exporteer bestand",
         "Interaction.CopyLink": "Kopiëer link",
         "Interaction.CopyImage": "Kopiëer afbeeelding",
-
         "Inventory.OpenWorld": "Open wereld",
         "Inventory.Equip": "Gebruiken",
         "Inventory.Delete": "Verwijderen",
@@ -138,7 +132,6 @@
         "Inventory.Favorite.Hyperlink": "Als URL-weergave instellen",
         "Inventory.Favorite.Document": "Als documentweergave instellen",
         "Inventory.SpawnFacet": "Facet spawnen",
-
         "Dash.Screens.Home": "Hoofdscherm",
         "Dash.Screens.Worlds": "Werelden",
         "Dash.Screens.Contacts": "Contacten",
@@ -148,13 +141,9 @@
         "Dash.Screens.FileBrowser": "Bestanden",
         "Dash.Screens.Settings": "Instellingen",
         "Dash.Screens.Exit": "Afsluiten",
-
         "Dash.Actions.PasteFromClipboard": "Plak inhoud van klembord",
-
         "Dash.Actions.TurnOffUIEdit": "UI-bewerkingsmodus uitschakelen",
-
         "Dash.Actions.CloudHome": "Open woon wereld",
-
         "Dash.Exit.Header": "{appName} Afsluiten",
         "Dash.Exit.ExitAndSave": "Verlaat en sla woon wereld op",
         "Dash.Exit.ExitAndDiscard": "Verlaat en sla niets op",
@@ -165,9 +154,7 @@
         "Dash.Exit.Shoutouts.You": "{name} (Dat ben jij! Dankjewel!)",
         "Dash.Exit.ThankYou": "Bedankt en tot ziens!",
         "Dash.Exit.SubmittedBy": "Ingezonden door: {name}",
-
         "Facets.FPS": "{fps}<size=61.803%> FPS</size>",
-
         "World.Waiting": "Wachten...",
         "World.HostIsStarting": "Host is sessie aan het starten",
         "World.Loading": "Bezig met laden...",
@@ -175,20 +162,17 @@
         "World.LoadedAssets": "{assets} geladen van {total_assets}",
         "World.Downloading": "{bytes} gedownload van {total_bytes}",
         "World.Loaded": "Geladen",
-
         "World.Connection.EstablishingConnection": "Verbinding tot stand brengen",
         "World.Connection.RequestingJoin": "Toegang aanvragen",
         "World.Connection.Authenticating": "Authenticeren",
         "World.Connection.Connected": "Verbonden",
         "World.Connection.SyncingInitialState": "Initiële wereldstatus synchroniseren",
-
         "World.Connection.LNL.DirectIP": "LNL Direct IP",
         "World.Connection.LNL.LNLPoke": "LNL verbinding aanvragen",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT Punchthrough {n}",
         "World.Connection.LNL.Relay": "LNL Relay",
         "World.Connection.SteamNetworkingSockets": "Steam Netwerk Sockets",
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
-
         "World.Error.AccessDenied": "Toegang geweigerd",
         "World.Error.SecurityViolation": "Veiligheidsovertreding",
         "World.Error.OnlyRegisteredUsers": "Alleen geregistreerde gebruikers mogen hier meedoen",
@@ -214,7 +198,6 @@
         "World.Error.Unknown": "Onbekende fout",
         "World.Error.FailedToCreateBanAccessKey": "Fout tijdens maken van ban access key",
         "World.Error.UnhandledError": "Niet-afgehandelde Fout",
-        
         "World.Config.Name": "Wereldnaam:",
         "World.Config.Description": "Omschrijving:",
         "World.Config.MaxUsers": "Maximale gebruikers:",
@@ -229,7 +212,6 @@
         "World.Config.AutosaveInterval": "Automatisch opslaan interval (minuten):",
         "World.Config.CleanupAssets": "Maak ongebruikte assets schoon:",
         "World.Config.CleanupInterval": "Schoonmaakinterval (seconden):",
-
         "World.Actions.StartSession": "Start sessie",
         "World.Actions.Join": "Bezoeken",
         "World.Actions.Focus": "Focus",
@@ -249,7 +231,6 @@
         "World.Actions.Overwrite": "Overschrijven met {name}",
         "World.Actions.ConfirmOverwrite": "OVERSCHRIJVING Bevestigen",
         "World.Actions.Overwriting": "Overschrijven...",
-
         "World.Actions.ClosePrompt": "Wereld sluiten?",
         "World.Actions.LeavePrompt": "Wereld verlaten?",
         "World.Actions.CloseConfirm": "Sluiten",
@@ -257,7 +238,6 @@
         "World.Actions.CannotClose": "(kan deze wereld niet sluiten)",
         "World.Actions.GuestWarning": "",
         "World.Actions.HostingWarning": "Je host deze wereld. Alle aanwezige gebruikers worden losgekoppeld wanneer je de wereld sluit.",
-
         "World.Actions.GetWorldOrb": "Wereld bol",
         "World.Actions.CopyWorldURL": "Kopiëer wereld URL",
         "World.Actions.CopyRecordURL": "Kopiëer document URL",
@@ -265,7 +245,6 @@
         "World.Actions.ModifyMetadata": "Bewerk metadata",
         "World.Actions.GetSessionOrb": "Sessie bol",
         "World.Actions.CopySessionURL": "Kopiëer sessie URL",
-
         "World.Indicator.NoData": "Geen data",
         "World.Indicator.LocalWorld": "Lokale computer",
         "World.Indicator.Author": "Gemaakt door: {name}",
@@ -277,7 +256,6 @@
         "World.Indicator.Description": "Omschrijving",
         "World.Indicator.Description.None": "(Geen omschrijving gegeven)",
         "World.Indicator.Visited": "(bezocht)",
-
         "World.Detail.ActiveSessions": "Actieve sessies:",
         "World.Detail.ActiveUsers": "Actieve gebruikers:",
         "World.Detail.NewSession": "<nieuwe sessie>",
@@ -287,15 +265,12 @@
         "World.Detail.AccessLevel": "Zichtbaarheid",
         "World.Detail.Users": "Gebruikers",
         "World.Detail.Users.Count": "{active}{away, select, 0 {} other { (+{away} Weg)}} van de {max}",
-
         "World.Detail.WorldInformationHeader": "Wereldinformatie",
         "World.Detail.PublishDate": "Gepubliceerd",
         "World.Detail.ModifyDate": "Laatst bijgewerkt",
         "World.Detail.Visits": "Aantal bezoeken",
-
         "World.Detail.Tags": "Tags",
         "World.Detail.ActionsHeader": "Acties:",
-
         "World.Category.Everything": "Alles",
         "World.Category.Featured": "Aanbevelingen",
         "World.Category.PublishedWorlds": "Gepubliceerde werelden",
@@ -311,14 +286,12 @@
         "World.Category.MyWorlds": "Mijn werelden",
         "World.Category.Custom": "Aangepast",
         "World.Category.GroupWorlds": "Groeps werelden",
-
         "World.AccessLevel.Anyone": "Iedereen",
         "World.AccessLevel.RegisteredUsers": "Geregistreerde gebruikers",
         "World.AccessLevel.Contacts": "Contacten",
         "World.AccessLevel.ContactsPlus": "Contacten van contacten",
         "World.AccessLevel.LAN": "LAN",
         "World.AccessLevel.Private": "Privé (alleen op uitnodiging)",
-
         "World.SortParameter.SearchScore": "Zoekscore",
         "World.SortParameter.Name": "Naam",
         "World.SortParameter.OpenedWorldCount": "Geopende werelden",
@@ -330,7 +303,6 @@
         "World.SortParameter.TotalVisits": "Totaal aantal bezoeken",
         "World.SortParameter.LastVisit": "Laatste bezoek",
         "World.SortParameter.Random": "Willekeurig",
-
         "World.Filter.DataSources": "Data bronnen:",
         "World.Filter.OpenedWorlds": "Geopende werelden",
         "World.Filter.ActiveSessions": "Actieve sessies",
@@ -351,7 +323,6 @@
         "World.Filter.MaxAccessLevel": "Maximaal toegangsniveau:",
         "World.Filter.MinimumUptime": "Minimale tijd online:",
         "World.Filter.Sorting": "Sorteer:",
-
         "World.Edit.Title": "Bewerk wereld metadata",
         "World.Edit.Name": "Wereldnaam:",
         "World.Edit.Description": "Omschrijving:",
@@ -362,7 +333,6 @@
         "World.Edit.AccessPatreon": "Patreon Supporters",
         "World.Edit.AccessPublic": "Iedereen (Openbaar)",
         "World.Edit.ReadOnly": "Niet Overschrijven",
-
         "Tools.AvatarCreator": "Avatar Maker",
         "Tools.FullBodyCalibrator": "Calibreer full-body",
         "Tools.CameraStreaming": "Camera / Streamen",
@@ -370,7 +340,6 @@
         "Tools.Debug": "Debug",
         "Tools.StreamAudio": "Audio Streamen",
         "Tools.Setup2FA": "2FA instellen",
-
         "Tools.StreamAudio.Dialog.Title": "Maak audio stream",
         "Tools.StreamAudio.Start": "Begin met streamen",
         "Tools.StreamAudio.Bitrate": "Bitsnelheid: {bitrate} kbps",
@@ -379,7 +348,6 @@
         "Tools.StreamAudio.Broadcast": "Uitzenden",
         "Tools.StreamAudio.PlayForOwner.Off": "Afspelen voor eigenaar: Uit",
         "Tools.StreamAudio.PlayForOwner.On": "Afspelen voor eigenaar: Aan",
-
         "Options.FreeformDash.On": "Freeform Dash: Aan",
         "Options.FreeformDash.Off": "Freeform Dash: Uit",
         "Options.SeatedMode.On": "Zittende modus: Aan",
@@ -389,133 +357,92 @@
         "Options.Nameplates.Hide": "Naamborden: Verborgen",
         "Options.Nameplates.DefaultStyle": "Gebruik standaard naamborden",
         "Options.Nameplates.CustomStyle": "Sta aangepaste naamborden toe",
-
         "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> Online {users,plural, one {Gebruiker} other {Gebruikers}}",
         "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {gebruiker} other {gebruikers}} in VR",
         "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {gebruiker} other {gebruikers}} in bureaubladmodus",
-
         "Indicator.ServerStatus.Status": "Cloud Status",
         "Indicator.ServerStatus.Good": "Goed",
         "Indicator.ServerStatus.Slow": "Langzaam",
         "Indicator.ServerStatus.Down": "Uit",
         "Indicator.ServerStatus.NoInternet": "Geen internet",
-
         "Indicator.Sync.AllSynced": "Alles gesynchroniseerd",
         "Indicator.Sync.SyncingItems": "Synchroniseren <br><size=61.8033%>{item_count, plural, one {# item} other {# items}}</size>",
         "Indicator.Sync.UploadingVariants": "Uploaden<br><size=61.8033%>asset varianten</size>",
         "Indicator.Sync.SyncError": "Synchronisatiefout<br><size=61.803%>Bekijk de log voor details</size>",
         "Indicator.Sync.StorageFull": "Opslag zit vol<br><size=61.803%>Kan niet synchroniseren</size>",
-
         "Indicator.Storage.StorageFull": "Opslag zit vol",
         "Indicator.Storage.Usage": "{storage_used} van {storage_max}<br><size=61.803%>opslag gebruikt</size>",
-
         "Indicator.LiveHiddenMessage": "(informatie verborgen terwijl je Live bent)",
-
         "Login.InvalidCredentials": "Ongeldige login-gegevens",
         "Login.InvalidCredentials.Description": "Kijk je login-gegevens opnieuw na of druk op \"Wachtwoord Vergeten?\"",
-
         "Login.InvalidLogin": "Ongeldige login-gegevens",
         "Login.InvalidLogin.Description": "Kijk je login-gegevens opnieuw na of druk op \"Wachtwoord Vergeten?\"",
-
         "Login.MalformedUID": "Ongeldige apparaat-gegevens",
         "Login.MalformedUID.Description": "Probeer {appName} opnieuw te installeren, of neem contact met ons op via {supportUrl}.",
-
         "Login.MissingUID": "Ontbrekende apparaat-gegevens",
         "Login.MissingUID.Description": "Probeer {appName} opnieuw te installeren, of neem contact met ons op via {supportUrl}.",
-
         "Login.MissingSecretMachineId": "Ontbrekende secret machine ID",
         "Login.MissingSecretMachineId.Description": "Probeer {appName} opnieuw te installeren, of neem contact met ons op via {supportUrl}.",
-
         "Login.MalformedSecretMachineId": "Ongeldige secret machine ID",
         "Login.MalformedSecretMachineId.Description": "Probeer {appName} opnieuw te installeren, of neem contact met ons op via {supportUrl}.",
-
         "Register.MissingUID": "Ontbrekende apparaat-gegevens",
         "Register.MissingUID.Description": "Probeer {appName} opnieuw te installeren, of neem contact met ons op via {supportUrl}.",
-
         "Register.MalformedUID": "Ongeldige apparaat-gegevens",
         "Register.MalformedUID.Description": "Probeer {appName} opnieuw te installeren, of neem contact met ons op via {supportUrl}.",
-
         "Login.MissingLogin": "Geen login-gegevens ingevoerd",
         "Login.MissingLogin.Description": "Ben je het vergeten in te vullen?",
-
         "Login.InvalidRecoveryCode": "Ongeldige herstelcode",
         "Login.InvalidRecoveryCode.Description": "Kijk je herstelcode na en probeer het opnieuw.",
-
         "Login.UnsupportedAuthentication": "Niet-ondersteunde authenticatemethode",
         "Login.UnsupportedAuthentication.Description": "Wij ondersteunen deze authenticatiemethode niet. Probeer een andere methode.",
-
         "Login.EmailNotVerified": "E-mail niet geverifieerd",
         "Login.EmailNotVerified.Description": "Je e-mail is niet geverifieerd, kijk je inbox na voor een e-mail van ons, kijk ook in je spam folder.",
-
         "Login.AccountTempLocked": "Je account is vergrendeld.",
         "Login.AccountTempLocked.Description": "Neem contact met ons op via {moderationUrl}.",
-
         "Login.AccountBanned": "Je account is verbannen.",
         "Login.AccountBanned.Description": "Neem contact met ons op via {moderationUrl}.",
-
         "Login.DuplicateAccount": "Dubbele account",
         "Login.DuplicateAccount.Description": "Neem contact met ons op via {supportUrl}.",
-
         "Login.UnknownError": "Onbekende fout",
         "Login.UnknownError.Description": "Er is iets mis gegaan tijdens inloggen. Neem contact met ons op via {supportUrl}.",
-
         "Register.MissingRequest": "Ontbrekende registratie-details",
         "Register.MissingRequest.Description": "We konden geen registratie-details vinden. Zorg dat deze ingevuld zijn tijdens registreren.",
-
         "Register.InvalidEmail": "Ongeldig e-mailadres",
         "Register.InvalidEmail.Description": "Je e-mailadres is ongeldig.",
-
         "Register.MissingUsername": "Ontbrekende gebruikersnaam",
         "Register.MissingUsername.Description": "Is je gebruikersnaam ingevuld?",
-
         "Register.MissingEmail": "Ontbrekende e-mail",
         "Register.MissingEmail.Description": "Is je e-mail ingevuld?",
-
         "Register.UsernameTooLong": "Gebruikersnaam te lang",
         "Register.UsernameTooLong.Description": "Gebruikersnamen mogen maximaal 32 karakters lang zijn.",
-
         "Register.UsernameContainsAmpersand": "Gebruikersnaam kan geen @ bevatten",
         "Register.UsernameContainsAmpersand.Description": "Je kan geen @ gebruiken in je gebruikersnaam.",
-
         "Register.UsernameStartsWithU": "Gebruikersnaam kan niet beginnen met U-",
         "Register.UsernameStartsWithU.Description": "Je kan je gebruikersnaam niet beginnen met U-.",
-
         "Register.InvalidUsername": "Ongeldige gebruikersnaam",
         "Register.InvalidUsername.Description": "Je gebruikersnaam is ongeldig.",
-
         "Register.InvalidDateOfBirth": "Ongeldige geboortedatum",
         "Register.InvalidDateOfBirth.Description": "Je geboortedatum is ongeldig.",
-
         "Register.UsernameContainsBlockedTerms": "Gebruikersnaam bevat geblokkeerde woorden",
         "Register.UsernameContainsBlockedTerms.Description": "Je gebruikersnaam bevat geblokkeerde woorden. Als je denkt dat dit niet correct is, neem contact met ons op via {supportUrl}.",
-
         "Register.MissingPassword": "Ontbrekend wachtwoord",
         "Register.MissingPassword.Description": "Je hebt geen wachtwoord ingevuld.",
-
         "Register.InvalidPassword": "Ongeldig wachtwoord",
         "Register.InvalidPassword.Description": "Je wachtwoord is ongeldig. Het moet minimaal 8 karakters bevatten, waarvan minimaal 1 cijfer, 1 hoofdletter en 1 kleine letter.",
-
         "Register.EmailAlreadyRegistered": "E-mail is al geregistreerd",
         "Register.EmailAlreadyRegistered.Description": "Een account met deze e-mail bestaat al. Klik op \"Wachtwoord Vergeten?\" als je het wachtwoord vergeten bent. Of je kan contact met ons opnemen via {supportUrl}.",
-
         "Register.UsernameAlreadyRegistered": "Gebruikersnaam is al geregistreerd",
         "Register.UsernameAlreadyRegistered.Description": "Een account met deze gebruikersnaam bestaat al. Klik op \"Wachtwoord Vergeten?\" als je het wachtwoord vergeten bent. Of je kan contact met ons opnemen via {supportUrl}.",
-
         "Register.ErrorCheckingUserId": "Fout bij nakijken van UserID",
         "Register.ErrorCheckingUserId.Description": "Neem contact met ons op via {supportUrl}.",
-
         "Recovery.MissingEmail": "Ontbrekende e-mail",
         "Recovery.MissingEmail.Description": "Heb je een e-mail ingevuld?",
-
         "Recovery.IncorrectEmail": "Ongeldige e-mail",
         "Recovery.IncorrectEmail.Description": "Je hebt een ongeldige e-mail ingevuld. Kijk je gegevens na, en probeer het opnieuw.",
-
         "Recovery.NoPasswordSetup": "Geen wachtwoord ingesteld",
         "Recovery.NoPasswordSetup.Description": "Neem contact met ons op via {supportUrl}.",
-
         "Register.UnknownError": "Onbekende fout",
         "Register.UnknownError.Description": "Er is iets mis gegaan tijdens registreren. Neem contact met ons op via {supportUrl}.",
-
         "Account.Login": "Log in",
         "Account.Logout": "Log uit",
         "Account.Register": "Registreer",
@@ -553,11 +480,9 @@
         "Account.BirthYear": "Geboortejaar:",
         "Account.PoliciesAgreement": "Ik ga akkoord met de <color=#22B2FF>servicevoorwaarden</color> en het <color=#22B2FF>privacybeleid</color>",
         "Account.AlternateMethods": "Log in met een service van een derde partij:",
-
         "Account.Saml2.Title": "SAML 2.0",
         "Account.Saml2.Select": "Selecteer de SAML 2.0 leverancier die je wil gebruiken:",
         "Account.Saml2.LoggingIn": "Wachten tot de log in voltooit (kijk in je web browser)...",
-
         "Account.TOTP.Title": "Tweetraps-verificatie",
         "Account.TOTP.Initializing": "We controleren de status van 2FA voor jouw account...",
         "Account.TOTP.Code.Header": "Geheime code",
@@ -582,19 +507,15 @@
         "Account.TOTP.Deactivate.Deactivate": "Deactiveer",
         "Account.TOTP.Deactivate.Deactivating": "Deactiveren...",
         "Account.TOTP.Message.DeactivationComplete": "2FA is met succes gedeactiveerd voor jouw account.<br><br>Jouw account loopt nu een verhoogd risico!<br><br>We raden sterk aan om 2FA onmiddellijk opnieuw in te stellen, vooral als je een herstelcode hebt gebruikt omdat je jouw telefoon bent kwijtgeraakt.",
-
         "Account.Type.Standard": "Standaard Account",
         "Account.Type.Business": "Werk Account",
         "Account.Type.Patreon": "Patreon Supporter",
         "Account.Type.Mentor": "{platform} Mentor",
         "Account.Type.Moderator": "{platform} Moderator",
         "Account.Type.Team": "{platform} Team",
-
         "Avatar.Badge.Live": "LIVE",
-
         "2FA.Header": "2FA verificatie",
         "2FA.Token": "6-cijferige code:",
-
         "Profile.Status.Sociable": "Sociaal",
         "Profile.Status.Online": "Online",
         "Profile.Status.Away": "Weg",
@@ -604,35 +525,29 @@
         "Profile.Status.Headless": "Headless Host",
         "Profile.Status.Bot": "<b>Bot:</b> {version}",
         "Profile.Status.ChatClient": "<b>Chat app:</b> {version}",
-
         "Session.Tab.Settings": "Instellingen",
         "Session.Tab.Users": "Gebruikers",
         "Session.Tab.Permissions": "Rechten",
-
         "Session.Permission.Anonymous": "Standaard Anoniem:",
         "Session.Permission.Vistor": "Standaard Bezoeker:",
         "Session.Permission.Contact": "Standaard Contact:",
         "Session.Permission.Host": "Standaard Host:",
         "Session.Permission.PermissionOverrideCount": "Rechten Overschreven: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Wis Gebruikersoverschrijvingen",
-
         "Session.JoinVerifier.EnableHeader": "Activeer Aangepaste Join Verifier?",
         "Session.JoinVerifier.EnableText": "<color=red>WAARSCHUWING:</color> Je zet zometeen een aangepaste join verifier aan die onderdeel uitmaakt van deze wereld. Voordat je dit doet, zorg dat je de maker van de wereld vertrouwt. Aangepaste join verifiers kunnen toegangs-regels van sessies overschrijven, en gebruikers blokkeren of toelaten met aangepaste regels.",
         "Session.JoinVerifier.Label": "Gebruik Aangepaste Join Verifier: {name}",
         "Session.JoinVerifier.ComponentWarning": "<color=red>WAARSCHUWING:</color> Op dit moment is er niks om de join verifier te beschermen van aanpassingen. Als het aanpassen van de ProtoFlux een zorg is, GEBRUIK DEZE NIET en ZET HET NIET AAN in jouw werelden.",
         "Session.JoinVerifier.SetCustomVerifier": "Stel in als aangepaste join verifier",
-
         "Permissions.NotAllowedToSpawn": "Je mag hier geen voorwerpen spawnen.",
         "Permissions.NotAllowedToSave": "Je mag in deze wereld geen voorwerpen opslaan.",
         "Permissions.NotAllowedToSwapAvatar": "Je mag hier niet wisselen naar een aangepaste avatar.",
-
         "User.Actions.Silence": "Stil",
         "User.Actions.Mute": "Demp",
         "User.Actions.Jump": "Spring",
         "User.Actions.Respawn": "Respawn",
         "User.Actions.Kick": "Kick",
         "User.Actions.Ban": "Verban",
-
         "Contacts.Add": "Contact Toevoegen",
         "Contacts.Remove": "Contact Verwijderen",
         "Contacts.ConfirmRemove": "Echt verwijderen?",
@@ -651,7 +566,6 @@
         "Contacts.SelfAccount": "Mijn Account",
         "Contacts.SearchPrompt": "Zoek contacten...",
         "Contacts.WriteMessage": "Schrijf een bericht...",
-
         "Contacts.InSession": "In {name}",
         "Contacts.NoSession": "Geen Sessie",
         "Contacts.InPrivate": "In privéwereld",
@@ -668,8 +582,7 @@
         "Contacts.SearchResult": "Zoekresultaat",
         "Contacts.Bot": "Bot-account",
         "Contacts.Migrated": "Contact heeft niet gemigreerd",
-        "Contacts.IncompatibleSession" : "Incompatibele sessie",
-
+        "Contacts.IncompatibleSession": "Incompatibele sessie",
         "Notifications.IsSociable": "Is sociaal, stuur een bericht of nodig uit!",
         "Notifications.IsOnline": "Is nu Online",
         "Notifications.IsOnlineOnDifferentVersion": "Is nu Online <size=75%>(Met versie: {version})</size>",
@@ -682,7 +595,6 @@
         "Notifications.UserLeft": "Heeft de sessie verlaten",
         "Notifications.PermissionChanged": "Rol veranderd naar {new}",
         "Notifications.PermissionChangedDetail": "In {world}. Oude rol: {old}",
-
         "Undo.SetField": "Veld {field_name} naar {value} instellen",
         "Undo.SetReference": "Referentie {ref_name} naar {ref_target} instellen",
         "Undo.Spawn": "Spawn {name}",
@@ -697,11 +609,9 @@
         "Undo.ResetPosition": "Reset Positie",
         "Undo.ResetRotation": "Reset Rotatie",
         "Undo.ResetScale": "Reset Schaal",
-
         "Undo.GrabObjects": "Objecten vastpakken",
         "Undo.DestroyGrabbed": "Verwijder vastgepakte objecten",
         "Undo.DuplicateGrabbed": "Verdubbel vastgepakte objecten",
-
         "Undo.ChangeBoxSize": "Verander de grootte van de Box",
         "Undo.BrushStroke": "Penseelstreek",
         "Undo.ChangeColor": "Verander Kleur",
@@ -713,16 +623,12 @@
         "Undo.ChangeMesh": "Verander Mesh",
         "Undo.InsertParent": "Parent invoegen voor {name}",
         "Undo.Wiggler": "Kwaadaardige Dingen",
-
         "Undo.ExtractMaterialsFromHierarchy": "Materialen uit hiërarchie halen",
         "Undo.BatchConvertMaterials": "Materialen als groep omzetten",
-
         "Tools.Brush.ChangeColor": "Verander Kleur",
         "Tools.Brush.IncrementSize": "Groter",
         "Tools.Brush.DecrementSize": "Kleiner",
-
         "Tools.GeometryLineBrush.Name": "Geometrie Lijn Penseel Gereedschap",
-
         "Tools.Dev.Name": "Ontwikkelaarsgereedschap",
         "Tools.Dev.CreateNew": "Maak nieuw...",
         "Tools.Dev.Selection": "Selectie: {mode}",
@@ -732,7 +638,6 @@
         "Tools.Dev.DeselectAll": "Deselecteer alles",
         "Tools.Dev.DestroySelected": "Verwijder geselecteerde",
         "Tools.Dev.ConfirmDestroySelected": "ECHT Geselecteerde Vernietigen",
-
         "Tools.Dev.GizmoOptions": "Gizmo Opties",
         "Tools.Dev.SelectParent": "Selecteer Parent",
         "Tools.Dev.LocalSpace": "Lokale Ruimte",
@@ -740,51 +645,40 @@
         "Tools.Dev.Translation": "Vertaling",
         "Tools.Dev.Rotation": "Rotatie",
         "Tools.Dev.Scale": "Schaal",
-
         "Tools.Dev.Selection.Single": "Enkele",
         "Tools.Dev.Selection.Multi": "Meerderen",
-
         "Tools.Dev.Interaction.Tip": "Punt",
         "Tools.Dev.Interaction.Projection": "Projectie",
-
         "Tools.Color.Name": "Kleur Gereedschap",
         "Tools.Color.Picker": "Kleurenpallet",
-
         "Tools.GrabbableSetter.Name": "Vastpakbaar Instellen Gereedschap",
         "Tools.GrabbableSetter.Scalable": "Schaalbaar instellen",
         "Tools.GrabbableSetter.NonScalable": "Niet-schaalbaar instellen",
         "Tools.GrabbableSetter.ApplyToRoot": "Stel Toepassen op Root in",
         "Tools.GrabbableSetter.AppyToHit": "Stel Toepassen op Hit in",
-
         "Tools.CharacterCollider.Name": "Fysieke Collisie Instellen Gereedschap",
         "Tools.CharacterCollider.MarkGrippable": "Markeer Grijpbaar",
         "Tools.CharacterCollider.DontMarkGrippable": "Markeer Niet-Grijpbaar",
         "Tools.CharacterCollider.EnsureWalkRun": "Verzeker loop- / renbeweging",
         "Tools.CharacterCollider.EnsureZeroG": "Verzeker Zero-G-voortbeweging",
         "Tools.CharacterCollider.EnsurePhysicalFly": "Verzeker fysieke vliegbeweging",
-
         "Tools.Light.Point": "Punt",
         "Tools.Light.Spot": "Spot",
         "Tools.Light.Sun": "Zon",
-
         "Tools.Light.Name": "Licht Gereedschap",
         "Tools.Light.Shadows.None": "Geen Schaduwen",
         "Tools.Light.Shadows.Hard": "Harde Schaduwen",
         "Tools.Light.Shadows.Soft": "Zachte Schaduwen",
-
         "Tools.MeshVisibility.Name": "Mesh Zichtbaarheid Gereedschap",
         "Tools.MeshVisibility.KeepShadow": "Behoud schaduw",
         "Tools.MeshVisibility.ShadowOff": "Zet schaduwen Uit",
         "Tools.MeshVisibility.ShadowOn": "Zet schaduwen Aan",
         "Tools.MeshVisibility.OnlyShadow": "Stel in op alleen schaduwen",
         "Tools.MeshVisibility.DoubleSidedShadow": "Stel in op dubbelzijdige schaduw",
-
         "Tools.Mesh.Name": "Mesh Gereedschap",
-
         "Tools.Slicer.Name": "Mesh Snijder Gereedschap",
         "Tools.Slicer.Add": "Voeg Slicer toe",
         "Tools.Slicer.Clear": "Wis instellingen",
-
         "Tools.Material.Name": "Materiaal Gereedschap",
         "Tools.Material.RayMode": "Ray-modus",
         "Tools.Material.AreaMode": "Gebiedsmodus",
@@ -795,11 +689,8 @@
         "Tools.Material.Convert": "Omzetten naar...",
         "Tools.Material.ConvertAll": "Converteer alles naar...",
         "Tools.Material.CreateNew": "Maak nieuw",
-
         "Tools.Mesh.Edit": "Bewerk Mesh",
-
         "Tools.Cartridge.Eject": "Bol uitwerpen",
-
         "Tools.Microphone.Name": "Microfoon",
         "Tools.Microphone.Format.WAV": "WAV",
         "Tools.Microphone.Format.Vorbis": "OGG Vorbis",
@@ -808,7 +699,6 @@
         "Tools.Microphone.ModePress": "Druk om te starten/stoppen met opnemen",
         "Tools.Microphone.SourceRaw": "Rauw",
         "Tools.Microphone.SourceFiltered": "Gefilterd & Genormaliseerd",
-
         "Tools.ProtoFlux.Name": "ProtoFlux Gereedschap",
         "Tools.ProtoFlux.Drive": "Overschrijven",
         "Tools.ProtoFlux.Source": "Bron",
@@ -824,48 +714,35 @@
         "Tools.ProtoFlux.PackInto": "Inpakken naar <size=50%>{name}</size>",
         "Tools.ProtoFlux.Unpack": "Uitpakken van <size=50%>{name}</size>",
         "Tools.ProtoFlux.ExplicitCast": "Expliciet Overzetten\n<size=50%>(<color=red>Waarschuwing:</color> Mogelijk Gegevensverlies)</size>",
-
         "Tools.Meter.Mode.Ray": "Modus: Ray",
         "Tools.Meter.Mode.Perpendicular": "Modus: Loodrecht",
         "Tools.Meter.Mode.Drag": "Modus: Slepen",
-
         "Tools.Meter.Points.Two": "Twee Punten",
         "Tools.Meter.Points.Multiple": "Meerdere Punten",
-
         "Tools.Meter.Name": "Meet Gereedschap",
         "Tools.Meter.ObjectSpace": "Meet in Objectspace",
         "Tools.Meter.WorldSpace": "Meet in Worldspace",
-
         "Tools.Glue.Name": "Lijm Gereedschap",
         "Tools.Glue.Mode.BakeMeshes": "Modus: Bak meshes",
         "Tools.Glue.Mode.BakeSkinnedMeshes": "Modus: Bak skinned meshes",
         "Tools.Glue.Mode.ParentObjects": "Modus: Parent objecten",
-
         "Tools.RigTransfer.Name": "Rigged Mesh Overdracht Gereedschap",
         "Tools.RigTransfer.ClearSource": "Verwijder bron",
-
         "Tools.ComponentClone.Name": "Component Kloon Gereedschap",
         "Tools.ComponentClone.SingleInstanceOn": "Enkel Exemplaar: Aan",
         "Tools.ComponentClone.SingleInstanceOff": "Enkel Exemplaar: Uit",
         "Tools.ComponentClone.ClearTemplate": "Verwijder voorbeeld",
-
         "Tools.Shape.Name": "Vorm Gereedschap",
-
         "Tools.CameraObjectHider.Name": "Camera Object Zichtbaarheid Gereedschap",
-
         "Tools.ControllerDiagnostic.Name": "Diagnotisch Gereedschap Voor Controllers",
-
         "Tools.Labeler.Name": "Label Gereedschap",
-
         "ProtoFlux.UI.Call": "Aanroepen",
         "ProtoFlux.UI.AsyncCall": "<size=50%>Asynchroon</size> Aanroepen",
         "ProtoFlux.UI.NodeBrowser.Title": "ProtoFlux Nodes",
-
         "CreateNew.Back": "<<< <i>Terug</i>",
         "CreateNew.EmptyObject": "Leeg Object",
         "CreateNew.ParticleSystem": "Particle Systeem",
         "CreateNew.LegacyParticleSystem": "Verouderd Particle Systeem",
-
         "CreateNew.Object": "Object",
         "CreateNew.Object.AvatarCreator": "Avatar Maker",
         "CreateNew.Object.Camera": "Camera",
@@ -877,17 +754,14 @@
         "CreateNew.Object.SpawnPoint": "Spawnpunt",
         "CreateNew.Object.UIXCanvas": "UIX Canvas",
         "CreateNew.Object.Facet": "Facet",
-
         "CreateNew.Object.FogVolume": "Mist volume",
         "CreateNew.Object.FogVolume.Additive": "Additief",
         "CreateNew.Object.FogVolume.Alpha": "Alpha",
         "CreateNew.Object.FogVolume.Multiplicative": "Vermenigvuldigd",
         "CreateNew.Object.FogVolume.Gradient": "Kleur Overgang",
-
         "CreateNew.Text": "Tekst",
         "CreateNew.Text.Basic": "Simpel",
         "CreateNew.Text.Outline": "Omlijning",
-
         "CreateNew.Editor": "Editor",
         "CreateNew.Editor.UserInspector": "Gebruikers Inspecteur",
         "CreateNew.Editor.LightSourcesWizard": "Wereldlichtbronnen Wizard",
@@ -895,7 +769,6 @@
         "CreateNew.Editor.AssetOptimizationWizard": "Asset Optimalisatie Wizard",
         "CreateNew.Editor.CubemapCreator": "Cubemap Maker",
         "CreateNew.Editor.ReflectionProbes": "Reflectie Probe Wizard",
-
         "CreateNew.3DModel": "3D Model",
         "CreateNew.3DModel.Triangle": "Driehoek",
         "CreateNew.3DModel.Box": "Kubus",
@@ -906,7 +779,6 @@
         "CreateNew.3DModel.Quad": "Vierhoek",
         "CreateNew.3DModel.Grid": "Grid",
         "CreateNew.3DModel.Torus": "Torus",
-
         "CreateNew.Collider": "Collider",
         "CreateNew.Collider.Box": "Kubus",
         "CreateNew.Collider.Sphere": "Bol",
@@ -914,19 +786,15 @@
         "CreateNew.Collider.Cylinder": "Cilinder",
         "CreateNew.Collider.Cone": "Kegel",
         "CreateNew.Collider.Mesh": "Mesh",
-
         "CreateNew.Light": "Licht",
         "CreateNew.Light.Point": "Punt",
         "CreateNew.Light.Spot": "Spot",
         "CreateNew.Light.Directional": "Directioneel",
-
         "CreateNew.Materials": "Materialen",
-
         "CreateNew.Directory.Title": "Maak een nieuwe map:",
         "CreateNew.Directory.Error.EmptyName": "Geef een naam op:",
         "CreateNew.Directory.Error.LongName": "Naam is te lang:",
         "CreateNew.Directory.Error.InvalidName": "Ongeldige naam:",
-
         "AvatarCreator.Title": "Avatar Maker",
         "AvatarCreator.Instructions": "Lijn de avatarobjecten uit met de referenties van de headset en controller (optioneel) en druk op Maken om ze naar een avatar te converteren",
         "AvatarCreator.UseSymmetry": "Gebruik symmetrie",
@@ -945,9 +813,7 @@
         "AvatarCreator.AlignToolAnchors": "Lijn de gereedschapsankers uit",
         "AvatarCreator.Create": "Creëer",
         "AvatarCreator.ProtectionUnavailable": "<i>Avatarberscherming is niet beschikbaar in deze wereld. Ga naar een andere wereld om je avatar te beschermen.</i>",
-
         "Importer.General.AsRawFile": "Onbewerkt Bestand",
-
         "Importer.Folder.Title": "Importeer Map",
         "Importer.Folder.Individual": "Individuele import",
         "Importer.Folder.Individual.Description": "Creëert een apart import dialoogvenster voor elk ondersteund bestand in de map",
@@ -955,7 +821,6 @@
         "Importer.Folder.Batch.Description": "Creëert een enkele importer voor elk type, met dezelfde instellingen voor elk bestand",
         "Importer.Folder.Minecraft": "Minecraft Wereld",
         "Importer.Folder.Minecraft.Description": "Importeert een Minecraft wereld als Mineways is geïnstalleerd.",
-
         "Importer.Image.Title": "Importeer Afbeelding",
         "Importer.Image.Prompt": "Wat importeer je?",
         "Importer.Image.Regular": "Afbeelding / Texture",
@@ -968,19 +833,15 @@
         "Importer.Image.180": "180° Foto",
         "Importer.Image.Stereo180": "Stereo 180° Foto",
         "Importer.Image.LUT": "LUT",
-
         "Importer.Image.Failure.Heading": "Importeren van afbeelding <color=hero.yellow>{image}</color> mislukt",
         "Importer.Image.Failure.Description": "Importeren van de afbeelding mislukt vanwege de volgende reden:\n\n<color=hero.red>{error}</color>",
-        
         "Importer.LUT.Failure.Heading": "Importeren van LUT <color=hero.yellow>{image}</color> mislukt",
         "Importer.LUT.Failure.Description": "Importeren van LUT mislukt vanwege de volgende reden:\n\n<color=hero.red>{error}</color>",
-
         "Importer.ImageVideo.LayoutPrompt": "Welke lay-out gebruikt het?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Zij aan Zij Links-Rechts",
         "Importer.ImageVideo.LayoutHorizontalRL": "Zij aan Zij Rechts-Links",
         "Importer.ImageVideo.LayoutVerticalLR": "Boven elkaar Links-Rechts",
         "Importer.ImageVideo.LayoutVerticalRL": "Boven elkaar Rechts-Links",
-
         "Importer.Model.Title": "Import Model",
         "Importer.Model.Prompt": "Wat importeer je?",
         "Importer.Model.Regular": "3D Model",
@@ -1001,7 +862,6 @@
         "Importer.Model.Inches": "Inch",
         "Importer.Model.FinalizePrompt": "Helemaal klaar?",
         "Importer.Model.RunImport": "Voer Import uit!",
-
         "Importer.Model.Advanced.Scale": "Schaal: ",
         "Importer.Model.Advanced.AutoScale": "Auto Schaal",
         "Importer.Model.Advanced.MaxTexSize": "Max Texturegrootte",
@@ -1009,7 +869,6 @@
         "Importer.Model.Advanced.Material": "Materiaal: ",
         "Importer.Model.Advanced.PreferSpecular": "Geef de voorkeur aan Speculair",
         "Importer.Model.Advanced.AlignAxis": "Lijn as uit: ",
-
         "Importer.Model.Advanced.Normals": "Bereken Normals",
         "Importer.Model.Advanced.Tangents": "Bereken Tangents",
         "Importer.Model.Advanced.VertexColors": "Importeer Vertex Kleuren",
@@ -1018,7 +877,6 @@
         "Importer.Model.Advanced.TextureAlpha": "Bereken Texture Alpha",
         "Importer.Model.Advanced.AlbedoColor": "Importeer Albedo Kleur",
         "Importer.Model.Advanced.ImportEmissive": "Importeer Emissief",
-
         "Importer.Model.Advanced.Colliders": "Genereer Colliders",
         "Importer.Model.Advanced.Animations": "Importeer Animaties",
         "Importer.Model.Advanced.SetupSnappable": "Stel in als klikbaar",
@@ -1029,7 +887,6 @@
         "Importer.Model.Advanced.VisualizeRig": "Visualiseer Rig",
         "Importer.Model.Advanced.ForceTpose": "Forceer T-Pose",
         "Importer.Model.Advanced.ForcePointCloud": "Als Point Cloud",
-
         "Importer.Model.Advanced.DualSided": "Maak Dubbelzijdig",
         "Importer.Model.Advanced.FlatShaded": "Maak Plat Belicht",
         "Importer.Model.Advanced.DeduplicateInstances": "Dedupliceer Exemplaren (Traag)",
@@ -1041,12 +898,10 @@
         "Importer.Model.Advanced.ForcePointFiltering": "Forceer Point Filtering",
         "Importer.Model.Advanced.ForceNoMipMaps": "Geen MipMaps",
         "Importer.Model.Advanced.ForceUncompressed": "Forceer Ongecomprimeerd",
-
         "Importer.Model.Advanced.Grabbable": "Maak Vastpakbaar",
         "Importer.Model.Advanced.Scalable": "Maak Schaalbaar",
         "Importer.Model.Advanced.PositionAtOrigin": "Positioneer Op Oorsprong",
         "Importer.Model.Advanced.AssetsOnObject": "Plaats Assets Op Object",
-
         "Importer.Video.Title": "Importeer Video",
         "Importer.Video.Prompt": "Wat ben je aan het importeren?",
         "Importer.Video.Regular": "Video",
@@ -1058,32 +913,25 @@
         "Importer.Video.Stereo180": "Stereo 180° Video",
         "Importer.Video.Depth.Prompt": "Diepte Voorinstelling",
         "Importer.Video.Depth.Default": "Standaard",
-
         "Importer.Slices.Title": "Delen van afbeelding als volumetric texture",
         "Importer.Slices.TitleGrayscale": "Delen van afbeelding als volumetric texture (grijs)",
         "Importer.Slices.Description": "Verwerk alle afbeeldingen in de folder naar een volumetric texture",
-
         "Exporter.Title": "Exporteer",
         "Exporter.FileName": "Bestandsnaam:",
         "Exporter.ExportAs": "Exporteer als:",
         "Exporter.Export": "Exporteer",
         "Exporter.Exporting": "Exporteren...",
         "Exporter.InvalidFileName": "Ongeldige Bestandsnaam",
-
         "Export.PackageExportable.Package": "Resonite Pakket",
         "Export.PackageExportable.PackageWithVariants": "Resonite Pakket <size=50%>(+varianten)</size>",
-
-        "Export.AudioExportable.OriginalFormat" : "Audio <size=75%>(origineel formaat)</size>",
-
-        "Export.VideoExportable.OriginalFormat" : "Video <size=75%>(origineel formaat)</size>",
-
-        "Importer.Package.Progress.DecodingPackage" : "Pakket Decoderen",
-        "Importer.Package.Progress.DecodingObject" : "Object Decoderen",
-        "Importer.Package.Progress.ImportingAssets" : "Assets Importeren",
-        "Importer.Package.Progress.LoadingObject" : "Object Laden",
-        "Importer.Package.Progress.Imported" : "Pakket Geïmporteerd",
-        "Importer.Package.Progress.Fail" : "Importeren mislukt. Controleer logs",
-
+        "Export.AudioExportable.OriginalFormat": "Audio <size=75%>(origineel formaat)</size>",
+        "Export.VideoExportable.OriginalFormat": "Video <size=75%>(origineel formaat)</size>",
+        "Importer.Package.Progress.DecodingPackage": "Pakket Decoderen",
+        "Importer.Package.Progress.DecodingObject": "Object Decoderen",
+        "Importer.Package.Progress.ImportingAssets": "Assets Importeren",
+        "Importer.Package.Progress.LoadingObject": "Object Laden",
+        "Importer.Package.Progress.Imported": "Pakket Geïmporteerd",
+        "Importer.Package.Progress.Fail": "Importeren mislukt. Controleer logs",
         "NewWorld.Title": "Nieuwe Wereld",
         "NewWorld.SessionTitle": "Nieuwe Sessie",
         "NewWorld.Template": "Wereld Exemplaar:",
@@ -1093,7 +941,6 @@
         "NewWorld.Port": "Poort:",
         "NewWorld.AutoPort": "Auto:",
         "NewWorld.DefaultName": "{name} Wereld",
-
         "FullBody.Title": "Full-body / Avatar Kalibratie",
         "FullBody.SetHeight": "1) Stel je lengte in",
         "FullBody.HeightInstructions": "Zorg ervoor dat dit jouw werkelijke lengte is, anders werkt de kalibratie niet correct. De mannequin moet passen op de headset en controllers.",
@@ -1105,12 +952,10 @@
         "FullBody.JustCalibrateAvatarDescription": "Sla de volledige lichaamskalibratie over en kalibreer alleen de avatar",
         "FullBody.SkipAndAdjustAvatar": "Sla over en pas avatar aan",
         "FullBody.CalibrateInstructions": "Lijn jezelf uit met de rode lichaam-overlay in je speelruimte en druk op beide triggers om te bevestigen. Zorg ervoor dat jouw echte voeten en heupen zo goed mogelijk overeenkomen met de virtuele.",
-
         "FullBody.BeforeCalibrationInstructions": "Zorg ervoor dat de trackers werken en dat jouw lengte is ingesteld",
         "FullBody.CalibratingPoseInstructions": "Lijn jezelf uit met de referentie en druk op beide triggers om te bevestigen",
         "FullBody.AdjustAvatarInstructions": "Pas de lichaams compensatie van de avatar aan zodat deze het beste overeenkomen met de referentie",
         "FullBody.FineTuneCalibrationInstructions": "Controleer en verfijn de kalibratie door de blauwe referenties te verplaatsen",
-
         "FullBody.CalibrateTrackersHeader": "Trackers kalibreren",
         "FullBody.CalibrateTrackersInstructions": "Pak en positioneer de blauwe lichaamsdelen ten opzichte van de trackers om hun compensatie aan te passen. Ze moeten overeenkomen met de locatie van de tracker op je lichaam.\nJe kan de kalibratie later op elk moment aanpassen door deze tool opnieuw te openen.",
         "FullBody.UseSymmetry": "Gebruik Symmetrie",
@@ -1122,7 +967,6 @@
         "FullBody.CalibrateAvatar": "Kalibreer mijn avatar",
         "FullBody.FinishPrompt": "Alles In Orde?",
         "FullBody.FinishCalibration": "Voltooi de fullbody kalibratie",
-
         "FullBody.CalibrateAvatarTitle": "Kalibreer Avatar",
         "FullBody.CalibrateAvatarInstructions": "Zorg ervoor dat alle lichaamsdelen toegewezen zijn en sleep vervolgens de blauwe bollen rond, zodat de avatar het beste overeenkomt met de lichaamsreferentie.",
         "FullBody.ShowReferenceOverlay": "Toon referentie-overlay",
@@ -1137,34 +981,28 @@
         "FullBody.CloseCalibrator": "Calibrator Sluiten",
         "FullBody.CalibrationRedoInstructions": "Als de kalibratie niet goed is of als je meer avatars wil kalibreren, kan je meer aanpassingen maken. Je kan deze kalibrator ook opnieuw openen om verdere aanpassingen door te voeren.\nAls je alleen je trackers hebt gewijzigd, hoef je jouw avatars niet opnieuw te kalibreren.",
         "FullBody.ReturnToTrackerCalibration": "Keer terug naar trackerkalibratie",
-
         "FullBody.Hips": "Heupen",
         "FullBody.Feet": "Voeten",
         "FullBody.Chest": "Borstkas",
         "FullBody.Elbows": "Ellebogen",
         "FullBody.Knees": "Knieën",
-
         "FullBody.TrackerMapped": "Tracker Toegewezen",
         "FullBody.NotTracking": "Niet Aan Het Tracken...",
         "FullBody.NoTracker": "Geen Tracker Toegewezen",
         "FullBody.FeetNotTracking": "Voeten Niet Aan Het Tracken...",
-
         "FullBody.AvatarPointMapped": "Toegewezen",
         "FullBody.AvatarPointNotMapped": "Niet Toegewezen",
         "FullBody.AvatarPointNoTracker": "Geen Tracker",
-
         "CameraControl.Title": "Camera Bediening",
         "CameraControl.MirroringOffWarning": "DUPLICEREN UIT",
         "CameraControl.MirrorToDisplay": "Dupliceer Naar Beeldscherm",
         "CameraControl.TakePhoto": "Foto",
         "CameraControl.Take360Photo": "360° Foto",
-
         "CameraControl.Mode.SmoothPOV": "Gestabiliseerd POV",
         "CameraControl.Mode.ThirdPerson": "Derde Persoon",
         "CameraControl.Mode.Group": "Groep",
         "CameraControl.Mode.World": "Wereld",
         "CameraControl.Mode.Manual": "Handmatig",
-
         "CameraControl.Settings.AvoidOcclusion": "Voorkom Occlusie",
         "CameraControl.Settings.KeepInWorldspace": "Houd In Worldspace",
         "CameraControl.Settings.MovementWobble": "Beweging Wiebelen",
@@ -1177,15 +1015,12 @@
         "CameraControl.Settings.PhotoTimer": "Foto Timer",
         "CameraControl.Settings.ShowLiveBadge": "Laat Live Badge Zien",
         "CameraControl.Settings.AudioFromCameraViewpoint": "Audio vanuit het camera standpunt",
-
         "CameraControl.OpenCloseUsers": "Gebruikers",
         "CameraControl.CreateCameraAnchor": "Maak Camera-anker",
-
         "CameraControl.Anchors.Interpolate": "Interpoleer tussen ankers",
         "CameraControl.Anchors.InterpolationSpeed": "Ankerinterpolatiesnelheid:",
         "CameraControl.Anchors.LinearInterpolation": "Lineaire interpolatie",
         "CameraControl.Anchors.NoAnchors": "Geen camera-ankers in deze wereld",
-
         "CameraControl.Positioning.FieldOfView": "Gezichtsveld",
         "CameraControl.Positioning.AngleOffset": "Hoek compensatie",
         "CameraControl.Positioning.Distance": "Afstand",
@@ -1194,7 +1029,6 @@
         "CameraControl.Positioning.FirstPersonRoll": "Eerste-persoons Rol",
         "CameraControl.Positioning.FirstPersonOffset": "Eerste-persoons Compensatie",
         "CameraControl.Positioning.Reset": "Reset",
-
         "CameraControl.Control.AnyoneCanInteract": "Iedereen Kan Bedienen",
         "CameraControl.Control.RenderPreviewForEveryone": "Laat Iedereen Het Voorbeeld Zien",
         "CameraControl.Control.RenderPrivateUI": "Laat Privé UI zien",
@@ -1207,7 +1041,6 @@
         "CameraControl.Control.PositionSmoothSpeed": "Positie Smooth Snelheid: {n}",
         "CameraControl.Control.AngleSmoothSpeed": "Hoek Smooth Snelheid: {n}",
         "CameraControl.Control.FramingSmoothSpeed": "Framing Smooth Snelheid: {n}",
-
         "CameraControl.OBS.IP": "OBS Websocket IP-adres:",
         "CameraControl.OBS.Password": "OBS Wachtwoord (optioneel):",
         "CameraControl.OBS.Connect": "Verbind",
@@ -1233,17 +1066,14 @@
         "CameraControl.OBS.Live": "LIVE",
         "CameraControl.OBS.Recording": "REC",
         "CameraControl.OBS.OpenInstallerReason": "Hier kan je de OBS websocket plugin downloaden",
-
         "CameraControl.OBS.Streaming.Start": "Start Stream",
         "CameraControl.OBS.Streaming.Starting": "Stream Starten...",
         "CameraControl.OBS.Streaming.Stop": "Stop Stream",
         "CameraControl.OBS.Streaming.Stopping": "Stream Stoppen",
-
         "CameraControl.OBS.Recording.Start": "Start Opname",
         "CameraControl.OBS.Recording.Starting": "Opname Starten...",
         "CameraControl.OBS.Recording.Stop": "Stop Opname",
         "CameraControl.OBS.Recording.Stopping": "Opname Stoppen",
-
         "Settings.Category.Audio": "Geluid",
         "Settings.Category.Controls": "Besturing",
         "Settings.Category.Devices": "Apparaten",
@@ -1255,65 +1085,52 @@
         "Settings.Category.UserInterface": "Gebruikers-interface",
         "Settings.Category.Graphics": "Grafisch",
         "Settings.Category.InteractiveCamera": "Camera",
-
         "Settings.LegacyFeatureSettings.ConvertLegacySettings": "DEBUG - Zet verouderde instellingen om",
         "Settings.DebugSettings.DebugResetAllSimpleSettings": "DEBUG - Reset alle simpele instellingen",
-
         "Settings.GeneralControlsSettings": "Algemene Besturing",
         "Settings.LocomotionSettings": "Locomotie",
         "Settings.MovementSettings": "Beweging",
         "Settings.MouseSettings": "Muis",
-
         "Settings.GeneralHapticsSettings": "Haptische Feedback",
         "Settings.GeneralVRSettings": "VR",
         "Settings.LeapMotionSettings": "Leap Motion",
         "Settings.ViveHandTrackingSettings": "Vive Hand Tracking",
         "Settings.TrackingSmoothingSettings": "Tracking Versoepeling",
-
         "Settings.UserMetricsSettings": "Gebruikers-gegevens",
-
-        "Settings.OnlineStatusSettings" : "Online Status",
-        "Settings.OnlineStatusSettings.DefaultStatus" : "Standaard Status",
-        "Settings.OnlineStatusSettings.DefaultStatus.Description" : "Dit is de standaard status waar je mee begint na inloggen, tenzij er een vorige status onthouden is.",
-        "Settings.OnlineStatusSettings.RememberMode" : "Onthoud laatste status",
-        "Settings.OnlineStatusSettings.RememberMode.Description" : "Gebruik dit om te bepalen of je laatste status onthouden moet worden elke keer dat je inlogt. Dit bevat statussen anders dan Onzichtbaar, die met een andere instelling bepaald wordt.",
-        "Settings.OnlineStatusSettings.RememberTimespan" : "Onthoud status voor",
-        "Settings.OnlineStatusSettings.RememberTimespan.Description" : "Je laatste online status wordt alleen onthouden als je opnieuw inlogt binnen deze tijd. Als je langer duurt dan dit, start je met je standaard status.",
-        "Settings.OnlineStatusSettings.InvisibleRememberMode" : "Onthoud laatste Onzichtbaar status",
-        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description" : "Dit bepaalt hoe je laatste status onthouden wordt, specifiek voor Onzichtbaar. Anders functioneert dit hetzelfde.\n\nDe Onzichtbare status heeft een aparte instelling voor privacy redenen, om zeker te weten dat als je als laatste op onzichtbaar stond, dat je op de volgende login ook onzichtbaar bent, ook als je andere statussen niet worden onthouden.",
-        "Settings.OnlineStatusSettings.InvisibleRememberTimespan" : "Onthoud Onzichtbaar status voor",
-        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description" : "Je laatste onzichtbare status wordt alleen onthouden als je opnieuw inlogt binnen deze tijd. Als je langer duurt dan dit, start je met je standaard status.",
-        "Settings.OnlineStatusSettings.AutoAwayTimespan" : "Wissel naar Weg wanneer inactief voor",
-        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description" : "Wanneer je inactief bent voor deze tijd, wordt je online status automatisch naar weg gezet. Wanneer je terug komt, wordt het automatisch terug gezet naar de vorige status, tenzij je het standaard op Weg hebt gezet.",
-
+        "Settings.OnlineStatusSettings": "Online Status",
+        "Settings.OnlineStatusSettings.DefaultStatus": "Standaard Status",
+        "Settings.OnlineStatusSettings.DefaultStatus.Description": "Dit is de standaard status waar je mee begint na inloggen, tenzij er een vorige status onthouden is.",
+        "Settings.OnlineStatusSettings.RememberMode": "Onthoud laatste status",
+        "Settings.OnlineStatusSettings.RememberMode.Description": "Gebruik dit om te bepalen of je laatste status onthouden moet worden elke keer dat je inlogt. Dit bevat statussen anders dan Onzichtbaar, die met een andere instelling bepaald wordt.",
+        "Settings.OnlineStatusSettings.RememberTimespan": "Onthoud status voor",
+        "Settings.OnlineStatusSettings.RememberTimespan.Description": "Je laatste online status wordt alleen onthouden als je opnieuw inlogt binnen deze tijd. Als je langer duurt dan dit, start je met je standaard status.",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode": "Onthoud laatste Onzichtbaar status",
+        "Settings.OnlineStatusSettings.InvisibleRememberMode.Description": "Dit bepaalt hoe je laatste status onthouden wordt, specifiek voor Onzichtbaar. Anders functioneert dit hetzelfde.\n\nDe Onzichtbare status heeft een aparte instelling voor privacy redenen, om zeker te weten dat als je als laatste op onzichtbaar stond, dat je op de volgende login ook onzichtbaar bent, ook als je andere statussen niet worden onthouden.",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan": "Onthoud Onzichtbaar status voor",
+        "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description": "Je laatste onzichtbare status wordt alleen onthouden als je opnieuw inlogt binnen deze tijd. Als je langer duurt dan dit, start je met je standaard status.",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan": "Wissel naar Weg wanneer inactief voor",
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description": "Wanneer je inactief bent voor deze tijd, wordt je online status automatisch naar weg gezet. Wanneer je terug komt, wordt het automatisch terug gezet naar de vorige status, tenzij je het standaard op Weg hebt gezet.",
         "Settings.AudioInputDeviceSettings": "Audio Invoer",
         "Settings.AudioOutputDeviceSettings": "Audio Uitvoer",
         "Settings.AudioVolumeSettings": "Volume",
         "Settings.AudioAccessibilitySettings": "Audio Toegankelijkheid",
         "Settings.AudioInputFilteringSettings": "Invoer Filtering",
-
         "Settings.RealtimeNetworkingSettings": "Realtime Netwerk",
         "Settings.AssetGatherSettings": "Assets Verzamelen",
-
         "Settings.HostAccessSettings": "Hosttoegang",
         "Settings.UserRestrictionsSettings": "Gebruikers-beperkingen",
-
         "Settings.OperatingSystemSettings": "Windows Instellingen",
         "Settings.DebugSettings": "Debug",
         "Settings.LegacyFeatureSettings": "Verouderde Functies",
         "Settings.TwitchInterfaceSettings": "Twitch Streaming Interface",
-
         "Settings.MessagingPrivacySettings": "Berichten Privacy",
-
         "Settings.LocaleSettings": "Taal",
         "Settings.DashSettings": "Dashboard",
         "Settings.NamePlateSettings": "Naamborden",
         "Settings.LaserSettings": "Interactie Lasers",
         "Settings.DesktopViewSettings": "Bureaubladweergave",
         "Settings.PhotoCaptureSettings": "Snelle Foto Opname",
-
         "Settings.DesktopRenderSettings": "Bureaubladweergave Instellingen",
-
         "Settings.InteractiveCameraFramingSettings": "Framing",
         "Settings.InteractiveCameraPositioningSettings": "Positionering",
         "Settings.InteractiveCameraRenderSettings": "Weergave",
@@ -1322,15 +1139,12 @@
         "Settings.InteractiveCameraAnchorSettings": "Ankers",
         "Settings.InteractiveCameraPhotoSettings": "Fotos",
         "Settings.InteractiveCameraPostProcessingSettings": "Post Processing",
-
         "Settings.GeneralControlsSettings.PrimaryHand": "Primaire hand",
         "Settings.GeneralControlsSettings.PrimaryHand.Description": "De hand die als primaire hand wordt gezien. Verschillende systemen gebruiken dit voor interactie, zoals wanneer je gereedschappen gebruikt.",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Dubbelklik interval",
         "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Voor interacties die een dubbele-klik nodig hebben. Dit bepaalt de maximale tijd tussen klikken die gezien worden als dubbelklik. Als je moeite hebt met dubbelklikken, zet de waarde hoger. Als enkele klikken gezien worden als dubbelklikken, zet de waarde lager.",
-
         "Settings.LocomotionSettings.LocomotionPreferences": "Locomotie Voorkeuren",
         "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Locomotie",
-
         "Settings.MovementSettings.LeftSidewaysMode": "Linkercontroller zijwaartse bewegings-modus",
         "Settings.MovementSettings.LeftSidewaysMode.Description": "Gebruik dit om te bepalen wat de zijwaartse beweging op je linker joystick/touchpad doet.",
         "Settings.MovementSettings.RightSidewaysMode": "Rechtercontroller zijwaartse bewegings-modus",
@@ -1353,15 +1167,12 @@
         "Settings.MovementSettings.TurningDeadzone.Description": "Deze instelling kan gebruikt worden om drift te corrigeren en per ongeluk draaien te voorkomen wanneer je beweegt en draait met dezelfde joystick. Door deze waarde te verhogen moet je de joystick verder duwen voordat je draait.",
         "Settings.MovementSettings.MovementExponent": "Bewegings exponent",
         "Settings.MovementSettings.MovementExponent.Description": "Gebruik dit om de curve-reactie voor bewegen te bewerken. Je kan dit gebruiken om te beginnen met langzaam bewegen en daarna vlugger snel bewegen, or gelijk sneller bewegen, gebaseerd op of de waarde boven of onder 1.0 is.",
-
         "Settings.GrabbingSettings": "Vastpakken",
         "Settings.GrabbingSettings.DefaultHandGrabType": "Standaard Hand Vastpak Type",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Dit bepaalt wat jouw standaard vastpake modus is wanneer je nieuwe werelden toetreed.\n\n<color=hero.yellow>Palm:</color> Je pakt alle objecten vast in de buurt van je palm.\n\n<color=hero.yellow>Precisie:</color> Je pakt een enkel object vast tussen je wijsvinger en duim.\n\n<color=hero.yellow>Automatisch:</color> De modus wordt automatisch geselecteerd tussen handpalm en precisie afhankelijk van de richting van je hand.\n\n<color=hero.yellow>Uit:</color> Je kan alleen vastpakken met je lasers.",
-
         "Settings.FullBodyTrackingSettings": "Full-Body Tracking",
-        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle" : "Lichaam Horizontale Richting",
-        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description" : "Dit is de afwijking van de hoek tussen de voeten en het hoofd. Hierbuiten kom je in een horizontale pose. This beïnvloedt bepaalde functies, zoals het overschrijven van je tracker posities met simulaties.",
-
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Lichaam Horizontale Richting",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "Dit is de afwijking van de hoek tussen de voeten en het hoofd. Hierbuiten kom je in een horizontale pose. This beïnvloedt bepaalde functies, zoals het overschrijven van je tracker posities met simulaties.",
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Thumbstick draaisnelheid",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Gebruik dit om de gevoeligheid van de thumbstick voor rondkijken aan te passen.",
@@ -1369,7 +1180,6 @@
         "Settings.GamepadSettings.ThumbstickLookExponent.Description": "Gebruik dit om de curve-reactie voor rondkijken te bewerken. Je kan dit gebruiken om te beginnen met langzaam bewegen en daarna vlugger snel bewegen, or gelijk sneller bewegen, gebaseerd op of de waarde boven of onder 1.0 is.",
         "Settings.GamepadSettings.UseGamepadWhenUnfocused": "Gebruik gamepad wanneer niet in focus",
         "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "Wanneer dit aan staat, wordt invoer van gamepads gebruikt ook wanneer de applicatie venster niet in focus is. Je kan dit uit zetten als je tegelijk andere spellen wil spelen die ook gamepads gebruiken.",
-
         "Settings.MouseSettings.MouseSensitivity": "Muis gevoeligheid",
         "Settings.MouseSettings.MouseSensitivity.Description": "Algemene muis gevoeligheid voor bureaublad interactie.",
         "Settings.MouseSettings.MouseLookSpeed": "Kijk snelheid",
@@ -1382,7 +1192,6 @@
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "Wanneer je een voorwerp vasthoudt in bureaubladmodus, bepaalt dit hoe snel ze ronddraaien met vrije vorm.",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "Vastpakken beweegsnelheid",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "Wanneer je voorwerpen vasthoud in bureaubladmodus, bepaalt dit hoe snel ze naar voren en achter bewegen met het scrollwiel op je muis.",
-
         "Settings.KeyboardLookSettings": "Toetsenbord Kijkinstellingen",
         "Settings.KeyboardLookSettings.LookEnabled": "Met toetsenbord rondkijken",
         "Settings.KeyboardLookSettings.LookEnabled.Description": "Wanneer dit aanstaat, kan je rondkijken met de pijltjestoetsen op het toetsenbord. <br/> Dit is bedoeld voor als een muis niet beschikbaar of geschikt is, zoals op een laptop of wanneer toegankelijke alternatieven benodigd zijn.",
@@ -1390,56 +1199,42 @@
         "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "Gebruik dit om aan te passen hoe snel je hoofd horizontaal draait wanneer je rondkijkt met het toetsenbord.",
         "Settings.KeyboardLookSettings.VerticalSpeed": "Verticale Snelheid",
         "Settings.KeyboardLookSettings.VerticalSpeed.Description": "Gebruik dit om aan te passen hoe snel je hoofd verticaal draait wanneer je rondkijkt met het toetsenbord.",
-
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Controller trillingen",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Gebruik dit om haptische trillingen aan of uit te zetten specifiek voor VR controllers.",
         "Settings.GeneralHapticsSettings.EnableHaptics": "Haptische feedback",
         "Settings.GeneralHapticsSettings.EnableHaptics.Description": "Wanneer dit aan staat krijg je haptische feedback van avatars en voorwerpen in de wereld op je controllers en andere ondersteunde apparaten.",
-
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR Hotswitching",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Als dit aan staat, wissel je automatisch tussen VR- en bureaublad-modus wanneer je jouw VR headset op of af doet.",
-
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Handen Positie Versoepeling",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Handen Rotatie Versoepeling",
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de handen positie versoepeld is. Dit kan helpen voor gebruikers met handtrillingen en andere toegankelijkheidsproblemen die rilling veroorzaken.",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de handen rotatie versoepeld is. Dit kan helpen voor gebruikers met handtrillingen en andere toegankelijkheidsproblemen die rilling veroorzaken.",
-
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Voeten Positie Versoepeling",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Voeten Rotatie Versoepeling",
-
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de voeten positie versoepeld is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de voeten rotatie versoepeld is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
-
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Heupen Positie Versoepeling",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Heupen Rotatie Versoepeling",
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de heupen positie versoepeld is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "Wanneer dit aan staat, bepaalt het hoe veel de heupen rotatie versoepeld is wanneer je full-body tracking gebruikt. Dit kan nuttig zijn om trillingen tegen te gaan, maar hiermee lopen trackers achter de werkelijke positie, en reageren ze niet even goed op snelle bewegingen.",
-
         "Settings.MediaPrivacySettings": "Media Privacy",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Niet in media metadata voorkomen",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Wanneer je deze optie aanzet, kom je niet voor in de metadata van media (meestal virtuele fotos en audio-opnamen). Je bent er nog steeds in te zien of horen, maar geen verdere informatie, zoals je UserID en positie in de scene worden ermee opgeslagen.\n\nAls je merkt dat andere gebruikers hun client aanpassen om deze optie te negeren, rapporteer ze aan het handhavingsteam, omdat dit gezien wordt als intimidatie.",
         "Settings.MediaPrivacySettings.HideInScreenshots": "Laat me niet zien in screenshots",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Wanneer deze optie aan staat, kom je niet voor in screenshots die in-game gemaakt zijn.\n\n<color=hero.red>BELANGRIJK:</color> Wees ervan bewust dat dit geen invloed heeft op realtime cameras, screenshots die buiten {appName} gemaakt zijn of opnames die gemaakt zijn door andere methodes in een wereld, die mogelijk onderdeel zijn van de functies van een wereld.",
-
         "Settings.MediaPrivacySettings.StripImageFileMetadata": "Metadata van afbeeldingen weghalen bij importeren",
         "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "Wanneer dit aan staat wordt metadata van afbeeldingen verwijderd bij <b>importeren</b>.\n\nDit bevat EXIF, ingebouwd commentaar, IPTC, XMP, en GEOTIFF metadata.\n\nHiermee worden ook locatiegegevens (zoals GPS) binnen die metadata verwijderd\n\nDit heeft <b>geen</b> invloed op bestanden die geïmporteerd zijn met de optie \"Onbewerkt Bestand\".",
-
         "Settings.Category.Integrations": "Integratie",
         "Settings.DiscordIntegrationSettings": "Discord Integratie",
         "Settings.SteamIntegrationSettings": "Steam Integratie",
-
         "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
         "Settings.DiscordIntegrationSettings.RichPresence.Description": "Bepaalt welke informatie {appName} naar Discord's Rich Presence systeem verstuurt.\n\n<color=hero.yellow>Geen</color> - Stuur geen Rich Presence informatie naar Discord.\n<color=hero.yellow>Basis</color> - Stuur alleen gelimiteerde details zoals dat je in {appName} bent.\n<color=hero.yellow>Volledig</color> - Wanneer je in een publieke sessie bent, stuur alle geschikte sessie informatie naar Discord. Dit bevat de wereld naam en hoeveel gebruikers er in de sessie zijn.\n\nDiscord zelf detecteert ook welk spel je aan het spelen bent. Dit kan uitgezet worden in de instellingen van Discord.",
-
         "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
         "Settings.SteamIntegrationSettings.RichPresence.Description": "Bepaalt welke informatie {appName} naar Steam's Rich Presence systeem verstuurt.\n\n<color=hero.yellow>Geen</color> - Stuur geen Rich Presence informatie naar Steam.\n<color=hero.yellow>Basis</color> - Stuur alleen gelimiteerde details zoals dat je in {appName} bent.\n<color=hero.yellow>Volledig</color> - Wanneer je in een publieke sessie bent, stuur alle geschikte sessie informatie naar Discord. Dit bevat de wereld naam en hoeveel gebruikers er in de sessie zijn.\n\nSteam laat zelf ook zien dat je {appName} aan het spelen bent, onafhankelijk van deze instelling. Deze instelling bepaalt alleen maar hoeveel extra gegevens er naar Steam gestuurd worden over je huidige sessie.",
-
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Sla Screenshots Op",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Wanneer je een screenshot maakt met deze instelling aan, wordt een kopie opgeslagen in Steam Screenshots.",
-
         "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Forceer Steam Voice wanneer Remote Play actief is",
         "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "Wanneer dit aan staat, wordt de audio invoer automatisch op Steam Voice geforceerd als je met Steam Remote Play speelt. Hiermee hoef je niet handmatig je microfoon invoer over te zetten naar Steam Voice.<br><br>Je kan dit uit zetten als je jouw eigen audio apparaat wil gebruiken - bijv. een externe microfoon.",
-
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Leap motion hand tracking",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Wanneer dit aan staat, kan een Leap Motion apparaat gebruikt worden om je handen en vingers te tracken.",
         "Settings.LeapMotionSettings.Offset": "Hand tracking compensatie",
@@ -1448,20 +1243,17 @@
         "Settings.LeapMotionSettings.SnapDistance.Description": "Als je handen in de buurt zijn van controllers, zullen ze automatisch overgaan op de tracking data van de controllers, in plaats van Leap Motion. Dit bepaalt de afstand waarop de handen overgaan.",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Track vingers terwijl je controllers gebruikt",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "Wanneer je handen de positie van de controllers gebruiken, kan je hiermee de vinger data gebruiken van Leap Motion.",
-
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Vive hand tracking",
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "Wanneer dit aan staat, worden je handen en vingers getracked met Vive hand tracking. Dit gebruikt gewoonlijk de cameras op de VR headset zelf. Mogelijk moet je de hand tracking of cameras aanzetten in SteamVR instellingen.",
         "Settings.ViveHandTrackingSettings.SnapDistance": "Afstand voor controller gebruiken",
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Als je handen in de buurt zijn van controllers, zullen ze automatisch overgaan op de tracking data van de controllers, in plaats van de headset cameras. Dit bepaalt de afstand waarop de handen overgaan.",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Track vingers terwijl je controllers gebruikt",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "Wanneer je handen de positie van de controllers gebruiken, kan je hiermee de vinger data gebruiken van de VR headset cameras.",
-
         "Settings.TrackerSettings": "Tracker Instellingen",
         "Settings.TrackerSettings.UseTrackers": "Gebruik Trackers",
         "Settings.TrackerSettings.UseTrackers.Description": "Met deze optie kan je globaal alle trackers uitzetten. Dit kan nuttig zijn als je trackers in een hoek liggen op te laden, waardoor je avatar opgefrommeld wordt.",
         "Settings.TrackerSettings.Trackers": "Beheer Trackers",
         "Settings.TrackerSettings.Trackers.Breadcrumb": "Trackers",
-
         "Settings.TrackerSettings.Trackers.UseTracker": "Gebruik Tracker",
         "Settings.TrackerSettings.Trackers.UseTracker.Description": "Moet deze tracker gebruikt worden? Je kan deze optie gebruiken om tijdelijk een tracker uit te zetten zonder de toewijzing te resetten.",
         "Settings.TrackerSettings.Trackers.FreezeTracking": "Bevries Tracking",
@@ -1486,49 +1278,39 @@
         "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "Dit laat zien of de tracker aan het opladen is. Sommige trackers ondersteunen dit mogelijk niet.",
         "Settings.TrackerSettings.Trackers.Unmap": "Reset toewijzing",
         "Settings.TrackerSettings.Trackers.Remove": "Verwijder tracker",
-
         "Settings.SteamLinkSettings": "Steam Link",
         "Settings.SteamLinkSettings.OSC_DataPort": "OSC Gezichtstracking poort",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "Welke poort er gebruikt moet worden voor luisteren naar OSC gezichtstracking gegevens. Dit moet dezelfde poort zijn die je in SteamVR instellingen gebruikt zodat gezichtstracking kan werken.",
-
         "Settings.HapticPointMapping.MappingTarget": "Wijs toe aan",
         "Settings.HapticPointMapping.MappingTarget.Description": "Gebruik dit om te bepalen welk gedeelte van de avatar dit apparaat aan wordt toegewezen.",
-
         "Settings.HapticPointMapping.PointRadius": "Haptisch Punt Radius",
         "Settings.HapticPointMapping.PointRadius.Description": "Hiermee kan je de grootte van het haptisch punt op de avatar aanpassen. Door dit groter te maken wordt het makkelijker om van grotere afstanden te activeren, maar resulteert ook in minder precisie, omdat alle haptische triggers in de radius van de punt het activeren.",
-
         "Settings.HapticPointMapping.TorsoHorizontalPosition": "Horizontale positie op torso",
         "Settings.HapticPointMapping.TorsoHorizontalPosition.Description": "Dit is de horizontale positie langs de torso, van links naar rechts",
         "Settings.HapticPointMapping.TorsoVerticalPosition": "Verticale positie op torso",
         "Settings.HapticPointMapping.TorsoVerticalPosition.Description": "Dit is de verticale positie langs de torso, van onder naar boven.",
         "Settings.HapticPointMapping.TorsoSide": "Torso kant",
         "Settings.HapticPointMapping.TorsoSide.Description": "Dit bepaalt aan welke kant van de torso het apparaat toegegwezen moet worden (voor- of achterkant)",
-
         "Settings.HapticPointMapping.HeadPitchAngle": "Hoofd hellingshoek",
         "Settings.HapticPointMapping.HeadPitchAngle.Description": "Dit bepaalt de positie langs de \"verticale\" as van het hoofd. De standaard positie is het midden van het gezicht (waar je neus is). Een grotere hoek gaat omhoog naar de bovenkant van je hoofd. Een lagere waarde gaat omlaag naar de kin.",
         "Settings.HapticPointMapping.HeadYawAngle": "Hoofd gieringshoek",
         "Settings.HapticPointMapping.HeadYawAngle.Description": "Dit bepaalt de horizontale positie rond het hoofd, links of rechts draaien. Het midden (waar je neus is) is de standaard positie. Een lagere waarde gaat naar links, een hogere waarde gaat naar rechts. Dit gaat rond het hoofd in een cirkel op 180°, waar de achterkant van je hoofd is.",
-
         "Settings.HapticPointMapping.ArmSide": "Arm",
         "Settings.HapticPointMapping.ArmSide.Description": "Aan welk arm moet dit toegewezen worden? Links of rechts?",
         "Settings.HapticPointMapping.ArmPositionAlong": "Positie langs het arm",
         "Settings.HapticPointMapping.ArmPositionAlong.Description": "Dit bepaalt de positie langs het arm. Dit start bij de schouder en gaat helemaal naar de pols. In het midden is de elleboog.",
         "Settings.HapticPointMapping.ArmAngleAround": "Hoek rond het arm",
         "Settings.HapticPointMapping.ArmAngleAround.Description": "Dit bepaalt de hoek om de omtrek van het arm. De standaard 0° positie is de bovenkant van je hand. Negatieve waarden gaan naar links, positieve gaan naar rechts. Door 180° te draaien komt het punt aan de zijde van je arm waar je handpalm is.",
-
         "Settings.HapticPointMapping.LegSide": "Been",
         "Settings.HapticPointMapping.LegSide.Description": "Aan welk been moet dit toegewezen worden? Links of rechts?",
         "Settings.HapticPointMapping.LegPositionAlong": "Positie langs het been",
         "Settings.HapticPointMapping.LegPositionAlong.Description": "Dit bepaalt de positie langs het been. Dit start bij de heupen en gaat helemaal naar de enkel. In het midden is de knie.",
         "Settings.HapticPointMapping.LegAngleAround": "Hoek rond het been",
         "Settings.HapticPointMapping.LegAngleAround.Description": "Dit bepaalt de hoek om de omtrek van het been. De standaard 0° positie is de voorkant van je been - de richting waar je knie naar wijst. Negatieve waarden gaan naar links, positieve gaan naar rechts. Door 180° te draaien komt het punt aan de achterkant van je been.",
-
         "Settings.HapticPointMapping.ControllerSide": "Controller",
         "Settings.HapticPointMapping.ControllerSide.Description": "Aan welke controller moet dit haptisch punt toegewezen worden? Links of rechts?",
-
         "Settings.HapticPointMapping.Tag": "Haptisch Tag",
         "Settings.HapticPointMapping.Tag.Description": "Tag verbonden met dit haptisch punt. Dit verbindt het haptisch punt met een punt op je avatar die dezelfde tag heeft (bepaald met een TagHapticPointMapper component). Als er geen punten met deze tag op de avatar bestaan, werkt het haptische apparaat niet.\n\nDit is handig als je volledige controle moet hebben over het exacte punt op de avatar waar het haptische apparaat aan toegewezen wordt - bijvoorbeeld als de generieke toewijzing niet past.",
-
         "Settings.GiggleTechSettings": "GiggleTech Apparaten",
         "Settings.GiggleTechSettings.Devices": "Beheer GigglePucks",
         "Settings.GiggleTechSettings.GigglePuckIP": "GigglePuck IP om handmatig toe te voegen",
@@ -1551,14 +1333,11 @@
         "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description": "Dit is de minimale intensiteit waarbij het haptsiche apparaat aan gaat. Wanneer de intensiteit te laag is, kan het haptische apparaat stoppen met reageren.",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity": "Initiële activeringsintensiteit",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description": "Wanneer de haptische feedback van inactief naar actief gaan, worden ze voor een korte tijd op deze intensiteit aangezet. Dit kan helpen een \"kick-start\" te geven aan het haptische apparaat, wanneer de activatie waarde te laag is voor de motor om te beginnen met draaien.",
-
         "Settings.UserMetricsSettings.UserHeight": "Lengte",
         "Settings.UserMetricsSettings.UserHeight.Description": "Dit is je lengte in de echte wereld, die wordt gebruikt om je avatar goed te laten passen. Het is ook de hoogte waar je geplaatst wordt wanneer je zittende modus aanzet.\n\nJe kan je lengte invoeren door de juiste schaal erbij te zetten, bijvoorbeeld met <nobr><color=hero.yellow>175 cm</color></nobr> of <nobr><color=hero.yellow>1.75 m</color></nobr> voor metrisch, of <color=hero.yellow>5'11\"</color> voor imperiaal.",
-
         "Settings.FavoritesSettings": "Favorieten",
         "Settings.FavoritesSettings.AutoLoadCloudHome": "Laad woon wereld bij opstarten",
         "Settings.FavoritesSettings.AutoLoadCloudHome.Description": "Wanneer dit aan staat, wordt je woon wereld automatisch geladen bij opstarten. Als je het liever niet wil laden, kan je deze instelling uitzetten. Dit zal de volgende keer dat je opstart invloed hebben.",
-
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Gebruik systeem standaard audio-invoerapparaat",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Zet dit aan om automatisch het standaard invoerapparaat van je systeem te gebruiken. Als je een ander apparaat wil gebruiken, zet deze optie uit en stel je voorkeur hieronder in.",
         "Settings.AudioInputDeviceSettings.DevicePriorities": "Stel standaard audio-invoerapparaat in",
@@ -1569,13 +1348,11 @@
         "Settings.AudioInputDeviceSettings.Testing.ListenToInput": "Luister naar deze invoer",
         "Settings.AudioInputDeviceSettings.Testing.StopListeningToInput": "Stop met beluisteren",
         "Settings.AudioInputDeviceSettings.Testing.Monitoring.Header": "Audio Beluisteren",
-
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "Gebruik systeem standaard audio-uitvoerapparaat",
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Zet dit aan om automatisch het standaard uitvoerapparaat van je systeem te gebruiken. Als je een ander apparaat wil gebruiken, zet deze optie uit en stel je voorkeur hieronder in. Dit kan handig zijn voor wisselen tusssen verschillende apparaten voor VR- en bureaublad-modus.",
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "Audio-uitvoerapparaten",
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "Audio-uitvoerapparaten",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Stel in als standaard",
-
         "Settings.AudioVolumeSettings.MasterVolume": "Hoofdvolume",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "Dit bepaalt tegelijk het volume van alles. Als alles te luid of te zacht is, kan je deze instelling aanpassen.",
         "Settings.AudioVolumeSettings.SoundEffectVolume": "Geluidseffectvolume",
@@ -1586,12 +1363,10 @@
         "Settings.AudioVolumeSettings.VoiceVolume.Description": "Pas het volume van de stem van alle andere gebruikers aan. In sommige gevallen past deze instelling ook het volume van stemopnames aan. Het volume van individuele gebruikers kan ook aangepast worden in de sessie tab van je dash.",
         "Settings.AudioVolumeSettings.UserInterfaceVolume": "UI-volume",
         "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "Pas het volume aan van geluidseffecten van UI - knoppen indrukken, sliders, sommige interacties met gereedschappen, fotos maken en meer.",
-
         "Settings.AudioAccessibilitySettings.WhisperVolume": "Fluister-modus volume",
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Dit bepaalt hoe luid de audio buiten de fluister-modus bubbel zal zijn. Als ze te luid of te zacht zijn, kan je dit gebruiken om de verzwakking van het volume aan te passen.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Spraakbericht volume",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Dit bepaalt hoe luid andere geluiden zijn tijdens het opnemen van een spraakbericht in de contacten pagina. Dit kan helpen \"stemstoring\" te voorkomen, wat het makkelijker maakt om te focussen op je stem.",
-
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Stem normalisatie",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Deze functie probeert ervoor te zorgen dat je stem een gelijkmatig volume houdt. Dit maakt je stemvolume verglijkbaar met andere gebruikers, los van je microfooninstellingen. We raden sterk aan om deze instelling aan te houden, zodat andere gebruikers je goed kunnen horen.",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "Noise-gate Drempel",
@@ -1602,33 +1377,28 @@
         "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "Dit bepaalt voor hoe lang het aangepaste volume vastgehouden moet worden nadat het gedetecteerd is, voordat audio weer gefilterd wordt. Een hogere waarde laat meer zachte audio door nadat je een hard genoeg geluid hebt gemaakt.",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease": "Noise-gate sluiten",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "Dit bepaalt hoe snel de noise-gate sluit nadat de binnenkomende audio weer stil is.",
-
         "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Normalisatiedrempel",
         "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Deze instelling bepaalt de drempel wanneer inkomende audio versterkt wordt. Als je normale stemvolume te zacht is en niet wordt versterkt, zet deze waarde lager. Als willekeurige stille geluiden versterkt worden, verhoog de waarde.",
-
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Geluidsonderdrukking (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Deze functie verwerkt de inkomende audio om ongewenste geluiden uit te filteren. Dit kan audio van microfoons met veel ruis schoonmaken, en hiermee je stem veel duidelijker maken. We raden sterk aan deze instelling aan te houden. Dit kan mogelijk andere geluiden filteren die niet als een stem gezien worden.",
-
         "Settings.VoiceSettings": "Stem Instellingen",
         "Settings.VoiceSettings.MutePersistence": "Stemmodus",
         "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Start met microfoon:</color> Wanneer je inlogt, begin je altijd met microfoon aan.\n\n<color=hero.yellow>Start Gedempt:</color> Wanneer je inlogt is je stem altijd gedempt. Je moet de microfoon weer inschakelen of de \"push to talk\" knop indrukken (V is standaard) om te praten.\n\n<color=hero.yellow>Onthoud Laatste: </color> Wanneer je inlogt wordt de stem modus gebruikt van de laatste keer dat je uitgelogd bent.",
-
-        "Settings.EarmuffSettings" : "Oorkap",
-        "Settings.EarmuffSettings.EarmuffEnabled" : "Gebruik Oorkap",
-        "Settings.EarmuffSettings.EarmuffEnabled.Description" : "Wanneer oorkap modus aan staat, worden stemmen van gebruikers aanzienlijk verzwakt gebaseerd op hun afstand en de richting waar je naar kijkt.\n\nDit creëert een \"luisterkegel\", wat kan helpen wanneer er te veel stemmen in een wereld over elkaar gaan.",
-        "Settings.EarmuffSettings.Directionality" : "Directionaliteit",
-        "Settings.EarmuffSettings.Directionality.Description" : "Dit bepaalt hoe gericht de stemverzwakking is. Bij 0 % zijn stemmen achter je hetzelfde volume als stemmen op dezelfde afstand voor je. Bij 100 % hoor je geen stemmen achter je tenzij ze heel dichtbij zijn.\n\nAls je stemmen achter je beter wil horen, zet deze waarde lager.",
-        "Settings.EarmuffSettings.Distance" : "Afstand",
-        "Settings.EarmuffSettings.Distance.Description" : "Dit bepaalt de afstand voor (en achter als directionaliteit op 0 % staat) je vanaf waar stemmen zachter worden.",
-        "Settings.EarmuffSettings.Angle" : "Hoek",
-        "Settings.EarmuffSettings.Angle.Description" : "Dit bepaalt de hoek voor je gezicht waarin stemmen op een normaal volume afspelen. Stemmen buiten deze hoek zullen zachter worden zodra ze de transitie afstand voorbijgaan.",
-        "Settings.EarmuffSettings.TransitionStart" : "Tansitie Start",
-        "Settings.EarmuffSettings.TransitionStart.Description" : "Dit bepaalt de afstand van de \"luisterkegel\" waarbij stemmen zachter worden. Het is aangeraden om dit boven nul te houden, omdat je daarmee beter stemmen kan horen aan de zijkant of in de buurt van je hoofd (bijvoorbeeld gebruikers die dicht achter je staan).",
-        "Settings.EarmuffSettings.TransitionLength" : "Transitie Bereik",
-        "Settings.EarmuffSettings.TransitionLength.Description" : "Gebruik dit om te bepalen wat de afstand is waarbij stemmen van het normale volume naar een volledig verzwakt volume gaan. Grotere waarden gaan langzamer over, lagere waarden resulteren in een abrupte overgang.",
-        "Settings.EarmuffSettings.VolumeAttenuation" : "Volumedemping",
-        "Settings.EarmuffSettings.VolumeAttenuation.Description" : "Dit bepaalt hoe luid stemmen buiten de \"luisterkegel\" zijn. Door dit op 0 % te zetten worden alle gebruikers buiten de \"luisterkegel\" volledig gedempt.",
-
+        "Settings.EarmuffSettings": "Oorkap",
+        "Settings.EarmuffSettings.EarmuffEnabled": "Gebruik Oorkap",
+        "Settings.EarmuffSettings.EarmuffEnabled.Description": "Wanneer oorkap modus aan staat, worden stemmen van gebruikers aanzienlijk verzwakt gebaseerd op hun afstand en de richting waar je naar kijkt.\n\nDit creëert een \"luisterkegel\", wat kan helpen wanneer er te veel stemmen in een wereld over elkaar gaan.",
+        "Settings.EarmuffSettings.Directionality": "Directionaliteit",
+        "Settings.EarmuffSettings.Directionality.Description": "Dit bepaalt hoe gericht de stemverzwakking is. Bij 0 % zijn stemmen achter je hetzelfde volume als stemmen op dezelfde afstand voor je. Bij 100 % hoor je geen stemmen achter je tenzij ze heel dichtbij zijn.\n\nAls je stemmen achter je beter wil horen, zet deze waarde lager.",
+        "Settings.EarmuffSettings.Distance": "Afstand",
+        "Settings.EarmuffSettings.Distance.Description": "Dit bepaalt de afstand voor (en achter als directionaliteit op 0 % staat) je vanaf waar stemmen zachter worden.",
+        "Settings.EarmuffSettings.Angle": "Hoek",
+        "Settings.EarmuffSettings.Angle.Description": "Dit bepaalt de hoek voor je gezicht waarin stemmen op een normaal volume afspelen. Stemmen buiten deze hoek zullen zachter worden zodra ze de transitie afstand voorbijgaan.",
+        "Settings.EarmuffSettings.TransitionStart": "Tansitie Start",
+        "Settings.EarmuffSettings.TransitionStart.Description": "Dit bepaalt de afstand van de \"luisterkegel\" waarbij stemmen zachter worden. Het is aangeraden om dit boven nul te houden, omdat je daarmee beter stemmen kan horen aan de zijkant of in de buurt van je hoofd (bijvoorbeeld gebruikers die dicht achter je staan).",
+        "Settings.EarmuffSettings.TransitionLength": "Transitie Bereik",
+        "Settings.EarmuffSettings.TransitionLength.Description": "Gebruik dit om te bepalen wat de afstand is waarbij stemmen van het normale volume naar een volledig verzwakt volume gaan. Grotere waarden gaan langzamer over, lagere waarden resulteren in een abrupte overgang.",
+        "Settings.EarmuffSettings.VolumeAttenuation": "Volumedemping",
+        "Settings.EarmuffSettings.VolumeAttenuation.Description": "Dit bepaalt hoe luid stemmen buiten de \"luisterkegel\" zijn. Door dit op 0 % te zetten worden alle gebruikers buiten de \"luisterkegel\" volledig gedempt.",
         "Settings.RealtimeNetworkingSettings.DisableLAN": "Zet LAN Uit",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Dit zet netwerk functies specifiek voor lokale netwerken uit, zoals het aankondigen van je sessie op het lokale netwerk of zoeken naar andere sessies op het lokale netwerk.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Geef voorkeur aan Steam Networking Sockets",
@@ -1637,12 +1407,10 @@
         "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Wanneer dit aan staat, wordt de voorkeur gegeven aan verbindingen over TCP, boven alle andere protocollen. Dit heeft vooral invloed over lokale verbindingen, omdat TCP niet standaard gebruikt wordt voor verbindingen over het internet.\n\nTCP kan betere prestaties hebben op lokale netwerken, en kan werken op bepaalde netwerken waar protocollen over UDP niet werken.\n\nDeze verbindingen kunnen last hebben van \"head of line\" blokkades, wat kan veroorzaken dat stemmen en bewegingen erg vertraagt zijn.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL Window Grootte",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Dit bepaalt de window grootte voor het LNL protocol. Het veranderen van deze instelling heeft onmiddelijk een effect in alle actieve sessies.\n\nAls je een achterstand in pakketten oploopt, kan je deze waarde verhogen, wat de doorvoer van de verbinding kan verbeteren. Hogere waarden kunnen de verbinding meer destabiliseren, dus wees voorzichtig.\n\n<color=hero.yellow>Standaard Waarde:</color> 64\n\n<color=hero.red>BELANGRIJK:</color> Let erop dat deze instelling voor diagnostische testen tijdelijk beschikbaar is, en dat deze waarde in de toekomst automatisch aangepast gaat worden.",
-
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Maximale hoeveelheid assets tegelijk",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "Wanneer je een sessie host, wordt dit gebruikt om te bepalen hoeveel lokale assets tegelijkertijd verstuurd kunnen worden. Door deze waarde hoger te zetten kan je assets sneller naar andere gebruikers sturen, maar kan ook de qualiteit van de netwerkverbinding verlagen. We raden aan om waarden uit te proberen om te kijken wat jouw netwerk aan kan.",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads": "Maximale hoeveelheid downloads tegelijk",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads.Description": "Gebruik dit om te bepalen hoeveel assets tegelijk gedownload kunnen worden. Een hogere waarde kan het laden van werelden versnellen, maar kan ook je netwerk overbelasten, dus wees voorzichtig wanneer je deze waarde aanpast.",
-
         "Settings.HostAccessSettings.Entries": "Beheer Host-toegang",
         "Settings.HostAccessSettings.Entries.Breadcrumb": "Host-toegang",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "Sta HTTP aanvragen toe",
@@ -1659,33 +1427,25 @@
         "Settings.HostAccessSettings.Entries.LastOSC_ReceiverRequestReason": "Laatste OSC Receiver aanvraag reden",
         "Settings.HostAccessSettings.Entries.Remove": "Verwijder (je wordt de volgende keer weer gevraagd)",
         "Settings.HostAccessSettings.DebugReset": "Reset Host-toegang",
-
         "Settings.UserRestrictionsSettings.DebugReset": "Reset Gebruikersrestricties",
-
         "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat": "Behoud originele screenshot formaat",
         "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat.Description": "Zet dit aan om te voorkomen dat screenshots naar JPG of PNG om worden gezet tijdens het opslaan naar de Documenten map in Windows. Dit kan het lastiger maken om ze te gebruiken, omdat sommige programmas het formaat misschien niet kunnen openen.",
-
         "Settings.DebugSettings.DebugInputBindings": "Invoer toewijzing debuggen",
         "Settings.DebugSettings.DebugInputBindings.Description": "Wanneer dit aan staat zie je debug informatie voor het invoer toewijzing systeem. Dit is vooral nuttig voor ontwikkelaars.",
         "Settings.DebugSettings.ConvertParticleSystems": "Zet particle systemen om naar PhotonDust",
         "Settings.DebugSettings.ConvertParticleSystems.Description": "Door deze optie aan te zetten worden verouderde particle systemen omgezet naar de nieuwe (PhotonDust) voor voorwerpen en werelden die <b>nieuw</b> ingeladen worden.<br><br><color=red>Dit is alleen bedoeld voor testdoeleinden!</color> Als je niet deelneemt aan testen, raden we af deze optie aan te zetten, JOUW VOORWERPEN KUNNEN HIERMEE BESCHADIGD RAKEN.<br><br>Ga naar onze GitHub/Discord als je mee wilt helpen met testen.",
-
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Dubbelklik vastpakken om gereedschappen te gebruiken",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wanneer dit aan staat kan je gereedschappen en gadgets gebruiken door snel twee keer vast te pakken. Deze instelling wordt waarschijnlijk in de toekomst verwijderd.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Gebruik oude wereld wisselaar",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Wanneer dit aan staat, opent de app knop op je niet-primaire hand een oude wereld wisselaar om tussen actieve werelden te wisselen. Deze functie wordt in de toekomst verwijderd met een meer flexibele oplossing.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Gebruik oude opslag & sessie snelkoppeling gebaar",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Wanneer dit aan staat, als je grip vasthoudt en op de App knop drukt (die normaal de dash opent/sluit), open je de oude opslag of het oude sessie menu.",
-
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Forceer voeten-simulatie uit",
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Deze optie zorgt ervoor dat oudere voorwerpen zoals poseer-systemen blijven werken, zonder ze aan te passen. <br><br>Als je dit aan zet zonder poseer-systemen te gebruiken, zullen de animaties er NIET correct uitzien. Zet dit uit nadat je klaar bent met poseer-systemen gebruiken. <br><br><color=hero.red>BELANGRIJK:</color> Dit wordt in de toekomst waarschijnlijk verwijderd. We raden aan poseer-systemen te updaten, zodat de simulatie automatisch uitgezet wordt wanneer ze actief zijn.",
-
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch Kanaal Naam",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Dit stelt de standaard naam in voor de Twitch chat in het camera-besturing paneel. Dit wordt vooral gebruikt door Twitch streamers die hun chat willen zien.",
-
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Stuur geen realtime gelezen status",
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "Wanneer dit aan staat kunnen andere gebruikers niet onmiddelijk zien wanneer je hun berichten gelezen hebt. Je zal ook niet zien wanneer zij jouw berichten gelezen hebben.",
-
         "Settings.LocaleSettings.CultureLocaleCode": "Cultuur landinstelling code",
         "Settings.LocaleSettings.CultureLocaleCode.Description": "Als dit ingesteld staat, wordt het gebruikt voor de standaard landinstelling voor het formaat van nummers en andere eenheden. Normaal wordt de landinstelling van je geselecteerde taal gebruikt, maar hiermee kan je ze mixen. Bijvoorbeeld met jouw eigen taal en het nummerformaat van de VS.",
         "Settings.LocaleSettings.UseImperialUnits": "Gebruik imperiale eenheden",
@@ -1693,14 +1453,12 @@
         "Settings.LocaleSettings.AvailableLocales": "Selecteer Taal",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Taal",
         "Settings.LocaleSettings.AvailableLocales.SystemLocale": "Gebruik Systeemtaal",
-
         "Settings.DashSettings.DashCurvature": "Buiging",
         "Settings.DashSettings.DashCurvature.Description": "Dit bepaalt hoe ver de dash gebogen is als je in VR bent. Als je dit instelt op 0 wordt het volledig vlak.",
         "Settings.DashSettings.OpenCloseSpeed": "Open/Sluit Snelheid",
         "Settings.DashSettings.OpenCloseSpeed.Description": "Gebruik dit om te bepalen hoe snel de dash opent en sluit. Als je de animatie niet wil, kan je dit op een hele hoge waarde zetten, zodat de dash bijna direct opent en sluit.",
         "Settings.DashSettings.AllowReplacingSettings": "Sta vervangen van instellingen toe",
         "Settings.DashSettings.AllowReplacingSettings.Description": "Wanneer dit aan staat, kan je het hele instellingen paneel van de dash oppakken en vervangen met een aangepaste versie als je in de UI-bewerkingsmodus zit.\n\nDeze instelling moet uit staan als je de individuele instellingen los wil oppakken. Wij raden aan om dit tijdelijk aan te zetten wanneer je het instellingen paneel wil vervangen, en daarna weer uit te zetten",
-
         "Settings.NotificationSettings": "Notificaties",
         "Settings.NotificationSettings.UserOnline": "Contact Online",
         "Settings.NotificationSettings.UserOnline.Description": "Dit bepaalt of je een bericht krijgt wanneer je contacten online komen.",
@@ -1722,16 +1480,13 @@
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Wanneer dit aan staat, krijg je notificaties wanneer gebruikers de wereld waar je in zit toetreden of verlaten.",
         "Settings.NotificationSettings.PermissionChanged": "Rechten Veranderd",
         "Settings.NotificationSettings.PermissionChanged.Description": "Wanneer dit aan staat, krijg je notificaties wanneer je rechten zijn veranderd in een wereld. Bijv. wanneer je van Guest naar Builder gezet wordt.",
-
         "Settings.NamePlateSettings.NameplateVisibility": "Naamborden Zichtbaarheid",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Gebruik dit om te bepalen welke naamborden zichtbaar zijn voor jou.",
         "Settings.NamePlateSettings.UseCustomNameplates": "Laat aangepaste naamborden zien",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "Als sommige naamborden lastig te zien zijn, volledig verstopt zijn of als je een gebruikers werkelijke gebruikersnaam en badges moet zien (bijvoorbeeld voor moderatie), kan je aangepaste naamborden uitzetten en de standaard naamborden zien.",
-
         "Settings.CustomizationSettings": "Aanpassings-instellingen",
         "Settings.CustomizationSettings.UserInterfaceEditMode": "UI-bewerkingsmodus",
         "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "Wanneer dit aan staat, kan je de plek van facets (modulaire stukken van de gebruikersinterface) aanpassen in je dash of op je facet ankers op je handen en gezichtsveld (als die aan staan).\n\nVergeet niet om dit uit te zetten zodra je klaar bent! Je kan het ook uit zetten met de knop onder je dash.",
-
         "Settings.FacetAnchorsSettings": "Facet Ankers",
         "Settings.FacetAnchorsSettings.UseFacetAnchors": "Gebruik Facet Ankers",
         "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "Wanneer dit aan staat, kan je de app knop op je rechtercontroller gebruiken om facet ankers op je arm en onderarm aan/uit te zetten. Deze geven meer ruimte om facets op te plaatsen voor snelle toegang, naast je dash.",
@@ -1741,7 +1496,6 @@
         "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "Dit bepaalt welke controller (links of rechts) de facet ankers aan/uit zet. De dash wordt met de andere controller geopend.",
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "Laat achtergrond zien",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Door dit uit te zetten schakel je het visuele gedeelte van de achtergrond uit op de facet ankers. Hiermee worden de facetten zelf het enige zichtbare gedeelte.",
-
         "Settings.LaserSettings.SmoothSpeed": "Laser smooth snelheid",
         "Settings.LaserSettings.SmoothSpeed.Description": "Gebruik dit om te bepalen hoe snel de laser reageert op je bewegingen. Lagere waarden maken de laser langzamer, maar beter met rillingen filteren. Hogere waarden reageren sneller, maar gaan ook mee met onbedoelde controller bewegingen.",
         "Settings.LaserSettings.ModulateStartAngle": "Moduleren start hoek",
@@ -1756,14 +1510,12 @@
         "Settings.LaserSettings.StickThreshold.Description": "Dit bepaalt hoe veel de laser vastplakt aan interactieve voorwerpen. Hogere waarden laten de laser meer plakken. Door dit in te stellen op nul stopt de laser helemaal met plakken.",
         "Settings.LaserSettings.ShowInDesktop": "Laat lasers zien in bureaubladmodus",
         "Settings.LaserSettings.ShowInDesktop.Description": "Wanneer dit aan staat, worden jouw lasers volledig op het scherm gezet in de eerste persoon in bureaubladmodus.",
-
         "Settings.DesktopViewSettings.FollowCursor": "Volg cursor",
         "Settings.DesktopViewSettings.FollowCursor.Description": "Wanneer dit aan staat, wisselt de bureaubladweergave automatisch naar degene waar je cursor op staat. Dit is nuttig als je een fysiek toetsenbord en muis gebruikt in VR.",
         "Settings.DesktopViewSettings.Brightness": "Helderheid",
         "Settings.DesktopViewSettings.Brightness.Description": "De helderheid van de bureaubladweergave.",
         "Settings.DesktopViewSettings.Opacity": "Ondoorzichtigheid",
         "Settings.DesktopViewSettings.Opacity.Description": "Stel deze waarde lager in om de bureaubladweergave semi-transparant te maken, zodat het makkelijker is om te zien wat erachter zit in de wereld.",
-
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Vinger foto gebaar",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "Wanneer dit aan staat, kan je snel fotos maken in de wereld door met je vingers een gebaar te maken van een fotolijst en dan een van je wijsvingers buigen.",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "Foto resolutie",
@@ -1784,20 +1536,16 @@
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "Het bestandsformaat waar alle gemaakte fotos in worden opgeslagen. Als je een specifiek formaat nodig hebt, kan je deze instelling gebruiken.\n\nWeet wel dat sommige formaten functies kunnen missen (zoals transparantie), mogelijk langzamer zijn, lagere kwaliteit hebben of resulteren in grotere bestanden.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Verstop altijd naamborden",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Zet dit aan als je nooit naamborden in jouw fotos wil opnemen. Deze instelling staat los van de huidige naambord zichtbaarheid en zal er altijd voor zorgen dat ze verstopt zijn in fotos.",
-
         "Settings.DesktopRenderSettings.FieldOfView": "Gezichtsveld",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Gebruik dit om het gezichtsveld (FOV) aan te passen in bureaubladmodus. Hogere waarden geven je een groter zicht, ten koste van grotere vervorming aan de zijkanten.",
-
         "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Gezichtsveld vergroten tijdens rennen",
         "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Wanneer deze optie aan staat, zal {appName} je gezichtsveld vergroten tijdens rennen in <b>Bureaubladmodus</b>.\nZet deze optie uit om het effect weg te halen.\nDit heeft <b>GEEN</b> invloed op effecten in voorwerpen van gebruikers.",
-        
         "Settings.DesktopRenderSettings.VSync": "Verticale Synchronisatie",
         "Settings.DesktopRenderSettings.VSync.Description": "Wanneer deze optie aan staat, wordt de framerate van het spel gesynchroniseerd met ververssnelheid van je scherm. Door dit uit te zetten kunnen beelden sneller verwerkt worden, maar dat kan ook scheuren veroorzaken.\n\nDit kan handig zijn voor prestatietesten, omdat de framerate en updatesnelheid niet meer limiteert.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Limiteer framerate in de achtergrond",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "Wanneer dit aan staat, wordt de framerate gelimiteerd tot een bepaalde waarde wanneer het applicatievenster niet in focus is. Dit is handig als je tegelijk andere programmas en spellen wil gebruiken, omdat er meer rekenkracht beschikbaar is.",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "Maximale achtergrond framerate",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description": "Dit bepaalt de toegestane maximale framerate in de achtergrond. Lagere waarden besparen meer rekenkracht.",
-
         "Settings.InteractiveCameraFramingSettings.PositioningMode": "Positioneringsmodus",
         "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "Dit bepaalt hoe de interactieve camera gepositioneerd is in de wereld.",
         "Settings.InteractiveCameraFramingSettings.FieldOfView": "Gezichtsveld",
@@ -1818,51 +1566,42 @@
         "Settings.InteractiveCameraFramingSettings.FramingViewportPosition.Description": "Dit zijn genormaliseerde coördinaten in het kijkvenster van de camera. De camera zal proberen het doel in beeld te brengen (bijvoorbeeld het hoofd van een gebruiker in derde persoonsmodus) naar deze positie in het kijkvenster.",
         "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "Richt voor het hoofd",
         "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead.Description": "In plaats van dat de camera recht op het hoofd van de gebruiker richt, probeert het voor het hoofd van de gebruiker te richten. Dit kan handig zijn als je in beeld wil brengen waar de gebruiker naar kijkt (bijvoorbeeld voorwerpen en menus in de wereld).",
-
         "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion": "Vermijd obstructie",
         "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion.Description": "Als het zicht van de camera onderbroken wordt door een object, probeert de camera automatisch dichter bij te komen om de obstructie te voorkomen.",
         "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace": "Houd in worldspace",
         "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace.Description": "Zorg dat de camera in worldspace root blijft, in plaats van zichzelf naar dezelfde ruimte als de gebruiken zetten. Dit kan betere positionering geven wanneer gebruikersankers gebruikt worden (bijvoorbeeld in voertuigen).",
         "Settings.InteractiveCameraPositioningSettings.MovementWobble": "Beweging Wiebelen",
         "Settings.InteractiveCameraPositioningSettings.MovementWobble.Description": "Dit voegt een willekeurige bewegingscompensatie toe aan de positie van de camera die verandert in de loop van tijd. Hierdoor kunnen opnames er minder statisch uitzien, al helemaal als je weinig beweegt.",
-
         "Settings.InteractiveCameraRenderSettings.HideAllBadges": "Verstop badges",
         "Settings.InteractiveCameraRenderSettings.HideAllBadges.Description": "De camera zal geen badges laten zien, los van jouw eigen instellingen.",
         "Settings.InteractiveCameraRenderSettings.HideAllLasers": "Verstop lasers",
         "Settings.InteractiveCameraRenderSettings.HideAllLasers.Description": "De camera zal geen gebruikersinteractie lasers laten zien.",
         "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera": "Ogen van gebruikers kijken altijd naar de camera",
         "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera.Description": "Wanneer een avatar gesimuleerde oog bewegingen gebruikt (dus dat de gebruiker geen oog tracking heeft), zorgt dit ervoor dat de avatar prioriteit geeft aan de camera voor oogcontact.",
-
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius": "Groep detectie radius",
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius.Description": "Gebruikers binnen deze afstand zullen meegenomen worden in de groep waar de camera op focust in groepsmodus.",
         "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary": "Groep verlaten grens",
         "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary.Description": "Hoe ver van de groep radius een gebruiker weg moet zodat ze niet meer in de groep zitten.",
-
         "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed": "Positie smoothing snelheid",
         "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed.Description": "Dit geeft aan hoe snel de camera beweegt naar de doelpositie in de wereld. Hogere waarden zorgen ervoor dat de camera sneller beweegt, maar resulteren ook in schokkerige bewegingen.",
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "Hoek smoothing snelheid",
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed.Description": "Dit geeft aan hoe snel de camera reageert op veranderingen in de hoek om het doelonderwerp.",
         "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed": "Framing smoothing snelheid",
         "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed.Description": "Dit bepaalt hoe snel de camera is met aanpassen van de framing van het doelonderwerp. Hogere waarden gaan sneller naar het doel, maar resulteren ook in schokkerige bewegingen.",
-
         "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors": "Interpoleer tussen ankers",
         "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors.Description": "Wanneer dit aan staat, zal de camera tussen ankers in de wereld interpoleren.",
         "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed": "Interpoleren snelheid",
         "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed.Description": "Wanneer interpoleren tussen ankers aan staat, bepaalt dit hoe snel de camera beweegt tussen ankers.",
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation": "Gebruik lineaire interpolatie",
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "Zet dit aan om lineaire interpolatie te gebruiken in plaats van smooth interpolatie. Lineaire interpolatie start en stopt abrupt, maar heeft een constante bewegingssnelheid, los van de afstand tussen de ankers. Dit betekent dat als de ankers verder uit elkaar zitten, duurt het langer voor de camera om het anker te bereiken.",
-
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "Spawn gemaakte fotos in de wereld",
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "Wanneer je fotos maakt met de interactieve camera, moeten ze in de wereld spawnen? Als dit uit staat, zullen ze alleen naar je documenten folder worden bewaard. (Of naar je opslag, als het geconfigureerd is)",
-
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "Bewegingsonscherpte",
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "Moet de camera het bewegingsonscherpte effect gebruiken?",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Screenspace reflecties",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "Moet de camera screenspace reflecties gebruiken? Dit kan betere reflecties geven voor glanzende oppervlakken, maar kan leiden tot artefacten en hogere prestatie eisen.",
-
         "Settings.DescriptionField.NoTextTitle": "Meer Informatie",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Beweeg over een intelling om de beschrijving te zien.</closeall>",
-
         "Settings.RelaySettings": "Netwerk Relays",
         "Settings.RelaySettings.AlwaysUseRelay": "Gebruik altijd een relay om te verbinden",
         "Settings.RelaySettings.AlwaysUseRelay.Description": "Relays worden gebruikt om op terug te vallen als een directe verbinding met een host niet lukt. Door deze optie aan te zetten, forceer je de verbinding om altijd door een relay te gaan.\n\nDit kan handig zijn in het geval van verbindingsproblemen met specifieke hosts. Het is <b>NIET</b> aangeraden om deze optie permanent aan te hebben.",
@@ -1870,7 +1609,6 @@
         "Settings.RelaySettings.UseClosestAvailableRelay.Description": "Wanneer deze optie aan staat wordt automatisch de dichtsbijzijnde beschikbare relay gebruikt voor de verbinding. Als je handmatig een relay wil kiezen (bijvoorbeeld in het geval van verbindingen over lange afstanden, om te voorkomen dat pakketten ophopen) kan je deze optie uitzetten en handmatig de relays hieronder instetllen.",
         "Settings.RelaySettings.RelayPriorities": "Configureer relay server prioriteit",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Relay Prioriteit",
-
         "Settings.PostProcessingSettings": "Post Processing",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Bewegingsonscherpte intensiteit",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Dit bepaalt de kracht van het bewegingsonscherpte effect. Hogere waarden resulteren in meer onscherpte met dezelfde beweging.\n\nAls je dit instelt op <nobr><color=hero.yellow>0 %</color></nobr> wordt het effect helemaal uitgezet, wat prestaties kan verbeteren.",
@@ -1882,7 +1620,6 @@
         "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "Wanneer dit aan staat, worden delen van de scène die zichtbaar zijn in de camera weerspiegeld op gladde oppervlakken. Dit kan meer realisme toevoegen aan de scène en de weergave van gladde oppervlakken verbeteren ten koste van prestaties.\n\nWees ervan bewust dat deze filter op dit moment gezien wordt als experimenteel, en niet goed werkt in veel scenario's. Het kan resulteren in spookachtige reflecties en artefacten.",
         "Settings.PostProcessingSettings.Antialiasing": "Anti-aliasing (AA)",
         "Settings.PostProcessingSettings.Antialiasing.Description": "Anti-aliasing verzacht scherpe, gekartelde randen van objecten in de scène. Je kan kiezen tussen verschillende filters, waar elke filter andere nadelen heeft. FXAA wordt vaak gebruikt en werkt goed genoeg, maar kan ook andere delen van de scène vervagen, zoals text.\n\n<color=red>Waarschuwing:</color> Sommige anti-aliasing opties zijn niet geschikt voor, of werken helemaal niet in VR.",
-
         "Settings.TextureQualitySettings": "Texture Kwaliteit",
         "Settings.TextureQualitySettings.TextureSizeRatio": "Relatieve Texture Grootte",
         "Settings.TextureQualitySettings.TextureSizeRatio.Description": "Dit bepaalt de relatieve grootte van alle textures die geladen worden. Je kan dit gebruiken om de resolutie van textures te verlagen, wat VRAM gebruik en laadsnelheid kan verbeteren ten kosten van scherpte en kwaliteit.\n\nBijvoorbeeld als de texture 4K is, en dit staat op halve resolutie, wordt de 2K versie van de texture geladen.",
@@ -1895,7 +1632,6 @@
         "Settings.TextureQualitySettings.AnisotropicLevel": "Anisotropic Niveau",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Bepaalt het niveau van kwaliteit met de anisotropic filter.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Herlaad Alle Textures (kan zwaar zijn)",
-
         "Settings.ResolutionSettings": "Resolutie",
         "Settings.ResolutionSettings.Fullscreen": "Volledig scherm",
         "Settings.ResolutionSettings.Fullscreen.Description": "Schakelt tussen een volledig scherm en een venster",
@@ -1904,7 +1640,6 @@
         "Settings.ResolutionSettings.FullscreenResolution": "Volledig Scherm Resolutie",
         "Settings.ResolutionSettings.FullscreenResolution.Description": "Welke resolutie gebruikt wordt bij een volledig scherm. De grootte blijft hetzelfde, maar een lagere resolutie kan prestaties verbeteren (helemaal op hoge resolutie schermen, zoals 4K) ten kosten van een waziger beeld.",
         "Settings.ResolutionSettings.ApplyResolution": "Wijzigingen Toepassen",
-
         "Settings.RenderingQualitySettings": "Render Kwaliteit",
         "Settings.RenderingQualitySettings.PerPixelLights": "Per Pixel Lichten",
         "Settings.RenderingQualitySettings.PerPixelLights.Description": "Dit bepaalt hoeveel punt & spot lichten rechtstreeks een voorwerp kunnen beïnvloeden - Vaak zijn dit doorzichtige en niet-PBS objecten (bijvoorbeeld met de \"toon\" shader).\n\nEen hogere waarde kan de kwaliteit van het licht verbeteren, en flikkeren verminderen wanneer een object in de buurt is van meerdere lichten, ten koste van prestaties - Het object moet meerdere keren verwerkt worden voor elk licht wat het beïnvloedt.",
@@ -1916,7 +1651,6 @@
         "Settings.RenderingQualitySettings.ShadowDistance.Description": "Dit bepaalt de afstand van schaduwen. Een hogere waarde zorg ervoor dat meer van de scène onder schaduw zit, maar dit verspreid ook het detail van de schaduws over een groter gebied.\n\nJe kan het beste deze intelling veranderen samen met schaduwcascades en schaduw resolutie - met een hogere schaduw resolutie, kan je een grotere afstand gebruiken. Als je schaduw resolutie en cascades verlaagt, wil je de schaduw afstand verlagen zodat schaduws beter gedefinieerd zijn.",
         "Settings.RenderingQualitySettings.SkinWeightMode": "Skinned Mesh Gewichten",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Voor alle skinned meshes (3D modellen die vervormed worden door botten, zoals de meeste avatars), bepaalt dit hoeveel botten gebruikt worden om de positie van elke vertex beïnvloeden.\n\nDoor deze waarde lager te zetten bespaar je wat prestaties, maar de vervormings kwaliteit zal lager zijn, wat resulteert in scherpe vouwen en andere artefacten, meestal rond gewrichten.",
-
         "LocomotionArchetype.Walk": "Lopen",
         "LocomotionArchetype.Fly": "Vliegen",
         "LocomotionArchetype.NoClip": "Noclip",
@@ -1926,15 +1660,12 @@
         "LocomotionArchetype.ThreeAxisNoClip": "Drie-Assige Noclip",
         "LocomotionArchetype.ThreeAxisFly": "Drie-Assig Vliegen",
         "LocomotionArchetype.ZeroG": "Gewichtloosheid",
-
         "LocomotionSettings.MakePreferred": "Geef Voorkeur",
         "LocomotionSettings.MakeLeastPreferred": "Geef Minste Voorkeur",
-
         "Security.Hyperlink.Title": "Externe Link",
         "Security.Hyperlink.Warning": "<b><size=125%>Waarschuwing: Uitgaande hyperlink</size></b>\nJe hebt op een link in een wereld geklikt. Wil je deze openen? Dit wordt geopend in jouw desktopwebbrowser.",
         "Security.Hyperlink.Open": "Open",
         "Security.Hyperlink.Cancel": "Annuleer",
-
         "Security.HostAccess.Title": "Hosttoegang",
         "Security.HostAccess.Warning": "<b><size=125%>Waarschuwing: De wereld probeert toegang te krijgen tot de host van een derde partij</size></b>\nAls je toegang verleent, kan de derde partij bepaalde persoonlijke informatie verzamelen, zoals jouw IP en geografische locatie.",
         "Security.HostAccess.TargetHost": "Doelhost: <b>{host}</b>",
@@ -1942,43 +1673,33 @@
         "Security.HostAccess.NoReason": "<i>Geen reden opgegeven</i>",
         "Security.HostAccess.Allow": "Toestaan",
         "Security.HostAccess.Deny": "Weigeren",
-
         "ComponentSelector.Back": "< (terug)",
         "ComponentSelector.Title": "Componenten",
         "ComponentSelector.CreateCustomType": "Maak Aangepast Type",
         "ComponentSelector.CommonGenericTypes": "Veelvoorkomende Generieke Types",
         "ComponentSelector.CustomGenericArguments": "Aangepaste Generieke Argumenten:",
         "ComponentSelector.InvalidType": "Ongeldig type",
-
         "Inspector.Title": "Scene Inspecteur",
         "Inspector.Slot.AttachComponent": "Voeg component toe",
-
         "Inspector.Slot.Axis.X": "X: <b>+</b>Rechts <b>-</b>Links",
         "Inspector.Slot.Axis.Y": "Y: <b>+</b>Omhoog <b>-</b>Omlaag",
         "Inspector.Slot.Axis.Z": "Z: <b>+</b>Vooruit <b>-</b>Achteruit",
-
         "Inspector.Slot.Reset.Label": "Reset:",
         "Inspector.Slot.Reset.Position": "Positie",
         "Inspector.Slot.Reset.Rotation": "Rotatie",
         "Inspector.Slot.Reset.Scale": "Schaal",
-
         "Inspector.Slot.CreatePivotAtCenter": "Maak draaipunt in het midden",
-
         "Inspector.Slot.JumpTo": "Spring naar",
         "Inspector.Slot.BringTo": "Breng naar",
         "Inspector.Slot.BringTo.Undo": "Breng {name} naar gebruiker",
-
         "Inspector.Slot.ParentUnder.Label": "Parent Onder:",
         "Inspector.Slot.ParentUnder.WorldRoot": "Wereld Root",
         "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Parent {name} onder wereld root",
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Lokale gebruikersruimte",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Parent {name} onder lokale gebruikersruimte",
-
         "Inspector.Member.ResetToDefault": "Reset naar standaard",
-
         "Inspector.Member.BreakLinkDrive": "Breek Link/Overschrijven",
         "Inspector.Member.OpenLinkDrive": "Open bron van Link/Overschrijven",
-
         "Inspector.Member.SetAllToAvg": "Stel alles in naar gemiddeld",
         "Inspector.Member.SetAllToX": "Stel alles in naar X",
         "Inspector.Member.SetAllToY": "Stel alles in naar Y",
@@ -1990,10 +1711,8 @@
         "Inspector.Member.SplitBlendshape.X": "Split blendshape over X",
         "Inspector.Member.SplitBlendshape.Y": "Split blendshape over Y",
         "Inspector.Member.SplitBlendshape.Z": "Split blendshape over Z",
-
         "Inspector.ProceduralAsset.UpdateCount": "Aantal Updates: {n}",
         "Inspector.ProceduralAsset.Error": "Fout: {error}",
-
         "Inspector.Mesh.StatsHeader": "Mesh Statistieken",
         "Inspector.Mesh.VertexCount": "Aantal Vertexes: {n}",
         "Inspector.Mesh.TriangleCount": "Aantal Driehoeken: {n}",
@@ -2002,7 +1721,6 @@
         "Inspector.Mesh.BoneCount": "Aantal Botten: {n}",
         "Inspector.Mesh.BlendshapeCount": "Aantal Blendshapes: {n}",
         "Inspector.Mesh.ChannelStats": "Normals: {normals}, Tangents: {tangents}, Kleuren: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
-
         "Inspector.Mesh.BakeMesh": "Bak Mesh",
         "Inspector.Mesh.SetupRenderer": "Maak Renderer Aan",
         "Inspector.Mesh.ResaveMesh": "Mesh Opnieuw Opslaan",
@@ -2024,25 +1742,18 @@
         "Inspector.Mesh.StripBlendshapeNormals": "Verwijder Blendshape Normals",
         "Inspector.Mesh.StripBlendshapeTangents": "Verwijder Blendshape Tangents",
         "Inspector.Mesh.MergeBlendshapes": "Blendshapes Samenvoegen",
-
         "Inspector.Mesh.GetBoneList": "Botten Lijst",
         "Inspector.Mesh.GetBoneData": "Botten Data",
-
         "Inspector.Mesh.TrimVertexBoneWeightsTo": "Trim Vertex Botten Gewichten Naar:",
         "Inspector.Mesh.BoneTrimCount": "{n,plural, one {# Bot} other {# Botten}}",
         "Inspector.Mesh.UV_Multiplicator": "Vermenigvuldiger:",
         "Inspector.Mesh.ScaleUVs": "Schaal UVs",
-
         "Inspector.MeshRenderer.MergeByMaterial": "Voeg submeshes samen met hetzelfde materiaal",
         "Inspector.MeshRenderer.SplitByMaterial": "Splits in losse meshes gebaseerd op materiaal",
-
         "Inspector.MeshCollider.VHACD": "Convex Hull Ontbinding (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Vervang door Box Collider",
-
-        "Inspector.Texture3D.SpawnVisualizer" : "Spawn Visualisatie",
-
+        "Inspector.Texture3D.SpawnVisualizer": "Spawn Visualisatie",
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Update locomototie-modules op de aanwezige gebruikers",
-
         "Inspector.VHACD.Parameter.MergeDoubles": "Dubbelen samenvoegen",
         "Inspector.VHACD.Parameter.Resolution": "Resolutie",
         "Inspector.VHACD.Parameter.Depth": "Diepte",
@@ -2057,18 +1768,14 @@
         "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Maximale Vertexes Per Hull",
         "Inspector.VHACD.Parameter.MinVolumePerHull": "Minimum Volume Per Hull",
         "Inspector.VHACD.Parameter.ConvexHullApproximation": "Convex Hull Benadering",
-
         "Inspector.VHACD.DecompositionMode.Header": "Decompositie Mode:",
         "Inspector.VHACD.DecompositionMode.Voxel": "Voxel",
         "Inspector.VHACD.DecompositionMode.Tetrahedron": "Viervlak",
-
         "Inspector.VHACD.RunDecomposition": "Begin Decompositie",
         "Inspector.VHACD.RemoveVisuals": "Verwijder Visuele Elementen",
         "Inspector.VHACD.RemoveHulls": "Verwijder Hulls",
-
         "Inspector.ReflectionProbe.Bake": "Bak Reflecties",
         "Inspector.ReflectionProbe.Baking": "Aan Het Bakken...",
-
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Verdeel delen van de mesh die onbewerkt zijn door blendshapes",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Verwijder Lege Blendshapes",
         "Inspector.SkinnedMesh.StripBlendshapesResult": "Klaar! Verwijderd: {n,plural, one {# blendshape} other {# blendshapes}}",
@@ -2084,12 +1791,10 @@
         "Inspector.SkinnedMesh.BakeToStaticMesh": "Bakken naar statisch Mesh",
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "Sorteer Blendshapes (op naam)",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Sorteer Blendshapes (op lengte van naam, daarna naam)",
-
         "Inspector.SimpleAvatarProtection.RemoveAll": "Verwijder Alle Exemplaren",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Verwijder Enkel Exemplaar",
         "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>WAARSCHUWING!</size></color><br>Als je dit component verwijdert op een andere manier dan met de speciale knoppen hieronder, wordt het beschermingsmechanisme geactiveerd en leidt dit tot zelfvernietiging en mogelijk gegevensverlies!",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "VERWIJDER Avatar-bescherming",
-
         "Inspector.BipedRig.GetDiagnosticInfo": "Verkrijg rig diagnostische info",
         "Inspector.BipedRig.GenerateDebugVisuals": "Genereer Debug Visuelen",
         "Inspector.BipedRig.ClearDebugVisuals": "Verwijder Debug Visuelen",
@@ -2099,15 +1804,12 @@
         "Inspector.BipedRig.HandRigResult": "Klaar! Heeft Links: {left}, Heeft Rechts: {right}",
         "Inspector.BipedRig.LeftHandRigResult": "Klaar! Links gedetecteerd: {detected}",
         "Inspector.BipedRig.RightHandRigResult": "Klaar! Rechts gedetecteerd: {detected}",
-
         "Inspector.Texture.Size": "Resolutie: {width} x {height}",
         "Inspector.Texture.Format": "Formaat: {format}, Geheugen: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "VariantID: {variant}",
         "Inspector.Texture3D.Size": "Resolutie: {width} x {height} x {depth}",
-
         "Inspector.Texture.BakeTexture": "Bak Texture",
         "Inspector.Texture.ReplaceFromClipboard": "Vervang met afbeelding op klembord",
-
         "Inspector.Texture.InvertRGB": "Keer RGB om",
         "Inspector.Texture.InvertR": "Keer R om",
         "Inspector.Texture.InvertG": "Keer G om",
@@ -2157,18 +1859,14 @@
         "Inspector.Texture.AlphaGamma": "Alpha Gamma",
         "Inspector.Texture.AdjustAlphaGamma": " Pas Alpha Gamma aan",
         "Inspector.Texture.AddAlpha": "Voeg Alpha toe",
-
         "Inspector.Texture.InvalidFloats": "Diagnose: ongeldige floats",
         "Inspector.Texture.GenerateMetadata": "Diagnose: Genereer Bitmap Metadata",
-
         "Inspector.Material.VariantInfo": "Variant: {variantID} (Ruw: {rawVariantID})",
         "Inspector.Material.WaitingForApply": "Wachten op toepassing: {waiting}",
-
         "Inspector.Audio.BakeAudio": "Bak Audio Clip",
         "Inspector.Audio.FormatInfo": "Sample Rate: {rate} Hz, Kanalen: {channels} ({channel_count})",
         "Inspector.Audio.Duration": "Duur: {duration}, SampleCount: {samples}",
         "Inspector.Audio.EncodingInfo": "Codec informatie: {info}, Volledig Gedecodeerd: {decoded}",
-
         "Inspector.Audio.Normalize": "Normaliseer Volume",
         "Inspector.Audio.AmplitudeThreshold": "Amplitude Drempel:",
         "Inspector.Audio.TrimSilence": "Trim Stilte",
@@ -2185,12 +1883,10 @@
         "Inspector.Audio.ToFLAC": "Zet om naar FLAC",
         "Inspector.Audio.DenoiseRNNoise": "Ruisonderdrukking (RNNoise, geoptimaliseerd voor spraak op 48 kHz)",
         "Inspector.Audio.ExtractSides": "Extract Zijkanten (kan vocalen op stereo-audio verwijderen)",
-
         "Inspector.AudioStream.BufferState": "Beschikbare samples: {samples}, gemist: {gemist}, lengte: {length}, globale index: {index}",
         "Inspector.AudioStream.EncodeState": "Beschikbaar voor encoding: {samples}, framegrootte: {frame} (max: {max_frame}), samplefrequentie: {rate}",
         "Inspector.AudioStream.DecodeState": "Totaal pakketten: {total}, Totaal verloren pakketten: {lost}, Pakketverlies: {loss, number, percent}",
         "Inspector.AudioStream.BufferStats": "Gem. Codec: {avgCodec}/s, Gem. gelezen: {avgRead}/s, Gem geschreven: {avgWritten}/s",
-
         "Inspector.DynamicBoneChain.SetupFromChildren": "Stel op van Children",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll": "Stel op van Children (forceer alle)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "Stel op van Children (alleen rig)",
@@ -2199,23 +1895,17 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Colliders & Grijpen -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Voeg vaste colliders toe van de hiërarchie (gebruikt object root)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Grijp altijd het laatste bot",
-
         "Inspector.DataPreset.SetActive": "Stel actief in",
         "Inspector.DataPreset.SetValues": "Stel waarden in",
         "Inspector.DataPreset.AddAllChildren": "Voeg alle children toe",
-
         "Inspector.Rig.CleanupBoneColliders": "Bot colliders opruimen",
         "Inspector.Rig.GenerateDebugVisuals": "Genereer debug visuelen",
         "Inspector.Rig.ClearDebugVisuals": "Verwijder debug visuelen",
-
         "Inspector.AvatarExpression.AutoAssign": "Automatisch Blendshapes Toewijzen (met behulp van heuristiek)",
-
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WAARSCHUWING!</size></color><br>Het is mogelijk dit component als een simpele rigidbody te gebruiken door SimulateRotation aan te zetten. Voordat je dit doet, begrijp alsjeblieft dat het hiervoor niet geoptimaliseerd is, en dat werkelijke Rigidbody ondersteuning in de toekomst komt.<br>Met werkelijke rigidbody ondersteuning zal het volgende beter worden:<br><b>- CPU en Network efficiëntie</b> - met een CharacterController gebruik je meer CPU en een hoop meer netwerkverkeer<br><b>- Beperkingen</b> - Je zal gewrichten, scharnieren, veren en andere beperkingen tussen rigidbodies kunnen maken<br><b>- Soepele simulatie en interactie voor iedereen</b> - CharacterController breekt als een andere persoon het probeert te gebruiken<br><b>- Nieuwe Functies en Hulpmiddelen</b> - om het gebruik ervan makkelijker te maken<br>-----------------------<br>Als je deze limitaties begrijpt, veel plezier!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WAARSCHUWING!</size></color><br>Het is mogelijk dit component te gebruiken om referenties te gebruiken gebaseerd op hun ID. Dit process wordt vaak 'Ref Hacking' genoemd.<br><br><b>Voordat</b> je dit doet, begrijp alsjeblieft dat dit <b>niet</b> ondersteund is en op elk moment kapot kan gaan. Gebruik deze functionaliteit niet voor de dingen die je maakt.",
-
-        "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}\tLaatste Simulatie Tijd: {time}",
-        "Inspector.ParticleSystem.TrailInfo" : "Sporen: {trailCount} (capacity: {trailCapacity}), Sporen Punt Capaciteit: {trailPointCapacity}",
-
+        "Inspector.ParticleSystem.BasicInfo": "Particles: {count}\tLaatste Simulatie Tijd: {time}",
+        "Inspector.ParticleSystem.TrailInfo": "Sporen: {trailCount} (capacity: {trailCapacity}), Sporen Punt Capaciteit: {trailPointCapacity}",
         "Inspector.ParticleStyle.CommonTransitions": "Algemene Overgang-voorbeelden:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alpha Fade-in & Fade-out",
         "Inspector.ParticleStyle.AlphaFadeIn": "Alpha Fade-in",
@@ -2224,7 +1914,6 @@
         "Inspector.ParticleStyle.IntensityFadeIn": "Intensiteit Fade-in",
         "Inspector.ParticleStyle.IntensityFadeOut": "Intensiteit Fade-out",
         "Inspector.ParticleStyle.ClearFades": "Fades Verwijderen",
-
         "Inspector.Collider.SetFromLocalBounds": "Stel in vanuit lokale grenzen",
         "Inspector.Collider.SetFromGlobalBounds": "Stel in vanuit globale grenzen",
         "Inspector.Collider.SetFromLocalBoundsPrecise": "Stel in vanuit lokale grenzen (precies)",
@@ -2232,27 +1921,19 @@
         "Inspector.Collider.SetFromPreciseBounds": "Stel in vanuit precieze grenzen",
         "Inspector.Collider.SetFromPreciseCylinderBounds": "Stel in vanuit cilinder grenzen (precies)",
         "Inspector.Collider.Visualize": "Visualiseer Collider",
-
         "Inspector.SimpleAwayIndicator.TestAway": "Zet naar afwezig (debug)",
         "Inspector.SimpleAwayIndicator.TestRestore": "Zet terug naar normaal (debug)",
-
         "Inspector.Fields.Drive": "Overschrijven",
         "Inspector.Fields.DriveWriteBack": "Overschrijven <size=50%>(schrijf terug)</size>",
-
         "Inspector.Actions.CopyComponent": "Kopiëer Component",
         "Inspector.Actions.MoveComponent": "Verplaats Component",
-
         "UserInspector.Title": "Gebruikers Inspecteur",
-
         "WorkerInspector.Title": "{name} Inspecteur",
-
         "CreateNew.Title": "Nieuw",
-
         "Wizard.General.ProcessRoot": "Verwerkings Root:",
         "Wizard.General.Result": "Resultaat:",
         "Wizard.General.ErrorNoRoot": "Geen Root Geselecteerd",
         "Wizard.General.RemovedResult": "Verwijderd {n}",
-
         "Wizard.AssetOptimization.Title": "Asset Optimalisatie Wizard",
         "Wizard.AssetOptimization.CleanupUnusedAssets": "Verwijder Ongebruikte Assets",
         "Wizard.AssetOptimization.CleanupEmptySlots": "Verwijder Lege Slots",
@@ -2265,7 +1946,6 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged": "Herbereken Alle Normals (samengevoegd)",
         "Wizard.AssetOptimization.RecalculateAllTangents": "Herbereken Alle Tangents (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult": "Gewijzigd Formaat {n}",
-
         "Wizard.LightSources.Title": "Lichtbronnen Wizard",
         "Wizard.LightSources.Header": "Scene Lichtbronnen",
         "Wizard.LightSources.ProcessRoot": "Verwerkings Root:",
@@ -2275,12 +1955,9 @@
         "Wizard.LightSources.DisabledLights": "Uitgeschakelde lichten:",
         "Wizard.LightSources.WithTag": "Met Tag:",
         "Wizard.LightSources.SetShadowType": "Stel schaduwtype in",
-        
-        
         "Wizard.LightSources.Enable": "Inschakelen",
         "Wizard.LightSources.Disable": "Uitschakelen",
         "Wizard.LightSources.Destroy": "Verwijderen",
-
         "Wizard.CubemapCreator.Title": "Cubemap Maker",
         "Wizard.CubemapCreator.Textures": "Bron Textures:",
         "Wizard.CubemapCreator.TexturesNote": "Let op! Sommige conventies hebben links en rechts verwisseld. Als het cubemap resultaat incorrect is, probeer dan links en rechts te verwisselen.",
@@ -2291,7 +1968,6 @@
         "Wizard.CubemapCreator.PosZ": "Positief Z (voor)",
         "Wizard.CubemapCreator.NegZ": "Negatief Z (achter)",
         "Wizard.CubemapCreator.TopBottomRotation": "Boven/Beneden Draaien:",
-
         "Wizard.ReflectionProbes.Title": "Reflectie Probe Wizard",
         "Wizard.ReflectionProbes.ProcessRoot": "Verwerkings Root:",
         "Wizard.ReflectionProbes.ProcessDisabled": "Verwerken Uitgeschakeld",
@@ -2302,7 +1978,6 @@
         "Wizard.ReflectionProbes.HideDebugVisuals": "Debug visuelen verbergen",
         "Wizard.ReflectionProbes.BakeProbes": "Bak probes",
         "Wizard.ReflectionProbes.Baking": "{index} bakken van {count}...",
-
         "Wizard.TextRenderer.Header": "Text Renderer Wizard",
         "Wizard.TextRenderer.ProcessRoot": "Verwerkings Root:",
         "Wizard.TextRenderer.ProcessStandalone": "Verwerk Standalone",
@@ -2312,7 +1987,6 @@
         "Wizard.TextRenderer.ReplaceMaterial": "Vervang Materiaal",
         "Wizard.TextRenderer.ReplaceFont": "Vervang Lettertype",
         "Wizard.TextRenderer.SetColor": "Kleur instellen",
-
         "Desktop.Controls.Title": "Besturing Voor Bureaublad",
         "Desktop.OpenKeyboard": "Open Toetsenbord",
         "Desktop.FollowCursor.On": "Volg Cursor: Aan",
@@ -2321,14 +1995,11 @@
         "Desktop.LegacyInputMode.Off": "Verouderde Invoermethode: Uit",
         "Desktop.Brightness": "Helderheid: {n,number,percent}",
         "Desktop.Opacity": "Ondoorzichtigheid: {n,number,percent}",
-
         "VolumePlaneSlicer.Highlight": "Highlight",
         "VolumePlaneSlicer.Slicer": "Snijd",
-
         "Tutorial.Welcome.Welcome": "Welkom!",
         "Tutorial.Welcome.Description": "Duik in een gloednieuw digitaal universum met oneindige mogelijkheden. Of je hier komt om te socialiseren en met mensen van over de hele wereld rond te hangen, of alles van prachtige kunst, interactieve avatars en gadgets, tot complexe interactieve werelden en spellen te maken, {appName} is oneindig aanpasbare plek waar je welkom bent, en een groep vindt om mee te resoneren.<br><br>Voordat je begint met verkennen, helpen we jou eerst met wat essentiële dingen, om voor een soepele ervaring te zorgen. Als je klaar bent, klik op de knop hieronder",
         "Tutorial.Welcome.Begin": "Laten we beginnen!",
-
         "Tutorial.Welcome.AccountHeader": "{appName} account",
         "Tutorial.Welcome.AccountDescription": "Het registreren van een account geeft je 1GB gratis opslag. Deze opslag kun je gebruiken voor het opslaan van avatars, objecten en favorieten.\nOok stelt het je in staat om contacten op te slaan en deze berichten te sturen.",
         "Tutorial.Welcome.AccountCreate": "Registreer een account",
@@ -2337,7 +2008,6 @@
         "Tutorial.Welcome.AccountSkipHeader": "Registratie overslaan?",
         "Tutorial.Welcome.AccountSkipDescription": "Sommige functies zullen niet werken.\nDit zijn bijvoorbeeld het opslaan van avatars, favorieten en objecten.\nOok kunnen contacten niet bijgehouden worden.",
         "Tutorial.Welcome.AccountSkipConfirm": "Overslaan",
-
         "Tutorial.Welcome.SettingsHeader": "Basis Voorkeuren",
         "Tutorial.Welcome.SettingsDescription": "Hier kunnen de basis/bewegings voorkeuren aangepast worden.\nAlle instellingen kunnen op een later moment bijgesteld worden.",
         "Tutorial.Welcome.SettingsTurning": "Ronddraai Type",
@@ -2350,16 +2020,13 @@
         "Tutorial.Welcome.SettingsPrimaryLeft.Description": "Dominante hand is <b>links</b>",
         "Tutorial.Welcome.SettingsPrimaryRight": "Rechts",
         "Tutorial.Welcome.SettingsPrimaryRight.Description": "Dominante hand is <b>rechts</b>",
-
         "Tutorial.Welcome.SettingsHeadDirectionMovement": "Bewegingsrichting",
         "Tutorial.Welcome.SettingsUseHeadDirection": "Hoofd",
         "Tutorial.Welcome.SettingsUseHeadDirection.Description": "Hiermee beweeg je in de richting waar je naar kijkt",
         "Tutorial.Welcome.SettingsUseControllerDirection": "Controller",
         "Tutorial.Welcome.SettingsUseControllerDirection.Description": "Hiermee beweeg je in de richting van je controller",
-
         "Tutorial.Welcome.LeftControllerMode": "Linker Controller Instelling",
         "Tutorial.Welcome.RightControllerMode": "Rechter Controller Instelling",
-
         "Tutorial.Welcome.SidewaysTurnOnly": "Draaien",
         "Tutorial.Welcome.SidewaysTurnOnly.Description": "Gebruik deze controller\nenkel voor ronddraaien",
         "Tutorial.Welcome.SidewaysTurnAndMove": "Draaien & Bewegen",
@@ -2368,20 +2035,15 @@
         "Tutorial.Welcome.SidewaysStrafe.Description": "Gebruik deze controller\nenkel voor horizontale bewegingen",
         "Tutorial.Welcome.SidewaysOff": "voorwaarts &\nachterwaarts",
         "Tutorial.Welcome.SidewaysOff.Description": "Gebruik deze controller enkel voor\nvoorwaarts of achterwaarts bewegen",
-
         "Tutorial.Welcome.SettingsHeight": "Je Lengte",
         "Tutorial.Welcome.SettingsHeightExamples": "Voorbeelden: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
-
         "Tutorial.Welcome.StartTutorialHeader": "Klaar om te verkennen?",
         "Tutorial.Welcome.StartTutorialDescription": "Je bent bijna klaar om op pad te gaan!\nWe brengen je nu naar onze rondleidings wereld.\n\nAan het einde wacht er een woon wereld voor je, wat je nieuwe basis wordt voor het verkennen van {appName}.\nWanneer je klaar bent, klik je op de knop hieronder.",
         "Tutorial.Welcome.StartTutorial": "Begin Rondleiding",
-
         "Tutorial.CommunityYouTube.Title": "Community YouTube Kanalen",
-
         "Tutorial.UserResources.UserResourcesTitle": "Gebruikers-hulpmiddelen",
         "Tutorial.UserResources.SupportTitle": "Hoe kan je {appName} ondersteunen",
         "Tutorial.UserResources.MerchandiseTitle": "{appName} Merchandise",
-
         "Tutorial.Intro.BadgesAppTeam": "{appName} Team",
         "Tutorial.Intro.BadgesModerator": "Moderator",
         "Tutorial.Intro.BadgesMentor": "Mentor",
@@ -2391,9 +2053,7 @@
         "Tutorial.Intro.BadgesTitle": "Badges",
         "Tutorial.Intro.BadgesDescription": "Badges zijn kleine icoontjes die aspecten van een gebruiker laten zien. Hier zijn een paar belangrijke badges om te onthouden. De invaliditeitsbadges kunnen zelf worden toegewezen via de {appName} bot. Voor meer informatie kan je de {appName} Wiki raadplegen",
         "Tutorial.Intro.HelpSite": "Help",
-
         "Object.Mirror.Toggle": "Aan/Uitschakelen",
-
         "Twitch.Panel.Button.Commands.Enabled": "Commando's Ingeschakeld",
         "Twitch.Panel.Button.Commands.Disabled": "Commando's Uitgeschakeld",
         "Twitch.Panel.Button.SafeMode.Enabled": "Veilige modus Ingeschakeld",
@@ -2401,15 +2061,12 @@
         "Twitch.Panel.Button.SubscriberCommands.Enabled": "Subscriber Commands <br> Alleen ingeschakeld voor abonnees",
         "Twitch.Panel.Button.SubscriberCommands.Disabled": "Subscriber Commands <br> Ingeschakeld voor iedereen",
         "Twitch.Panel.Title.Text": "Twitch Chat",
-
         "Exiting.SavingItems": "Opslaan Van {n, plural, one {# item} other {# items}}...",
         "Exiting.SavingChanges": "Wijzigingen opslaan...",
         "Exiting.Exiting": "Afsluiten...",
         "Exiting.LoggingOut": "Uitloggen...",
-
         "Migration.Title": "Migratie",
         "Migration.NewTask": "Nieuwe Migratie Taak",
-
         "Migration.LoginModal.Title": "Gegevens migreren?",
         "Migration.LoginModal.Description": "Wil je jouw gegevens van een ander account migreren? Je kan ook kiezen om dit later te doen via de \"Migratie\" tab op je dash.",
         "Migration.LoginModal.OpenMigration": "Open migratie",
@@ -2417,59 +2074,43 @@
         "Migration.LoginResetID.Title": "Reset echt UserID?",
         "Migration.LoginResetID.Description": "Wees er alsjeblieft van bewust dat objecten <color=red>ONVOORSPELBAAR KAPOT GAAN</color>. Al je voorwerpen, werelden, contacten en berichten worden succesvol gemigreerd, maar functies en components die je oude UserID nodig hebben gaan waarschijnlijk kapot en zullen opnieuw ingesteld en gerepareerd moeten worden. Tenzij je een serieuze reden hebt om je UserID te willen resetten, <color=red>KIES DEZE OPTIE NIET</color>.",
         "Migration.LoginResetID.ResetButton": "Ja, reset",
-
         "Migration.ReservedUsername.Title": "<b>Gereserveerde Gebruikersnaam</b>",
         "Migration.ReservedUsername.Description": "Deze gebruikersnaam is gereserveerd voor de originele eigenaar. Als dit jouw account is, voer alsjeblieft je {platform} gegevens in om het te ontgrendelen. We slaan deze gegevens niet op, ze worden alleen gebruikt om eigendom van het account te verifiëren tijdens registratie.",
         "Migration.SourcePassword": "{platform} Wachtwoord:",
         "Migration.SourceUsername": "{platform} Gebruikersnaam:",
-
         "Migration.Dialog.Title": "Account Migratie",
         "Migration.Dialog.Source": "Je kan gegevens migreren van elke compatibele infrastructuur. Selecteer eerst degene van de lijst hieronder waar je gegevens van wil migreren. Je kan verdere infrastructuren toevoegen door configuratiebestanden te plaatsen in de \"Migrations\" folder in de installatie.",
         "Migration.Dialog.AccountDescription": "Om je account te migreren, hebben we je {platform} account wachtwoord nodig. Hiermee kunnen we inloggen en toegang krijgen tot de gegevens.",
-
         "Migration.ResetID.Title": "Reset mijn UserID",
         "Migration.ResetID.Description": "<color=red><b>WAARSCHUWING:</b></color> Door deze optie te kiezen <b>BREKEN BESTAANDE VOORWERPEN PERMANENT, DIT KAN NIET TERUGGEDRAAID WORDEN</b>. Dit houd in UserID referenties in voorwerpen van gebruikers, services van gebruikers, links, cloud variabelen en meer. Deze referenties worden gereset, maar je voorwerpen, werelden, contacten en berichten zullen niet verloren gaan. We raden deze optie <b>ALLEEN</b> aan als je van je oude UserID af wil, en het wil vervangen met een nieuwe willekeurige UserID. Tenzij je een serieuze reden hebt om je UserID te resetten, moet je <b>NIET</b> deze optie gebruiken. Je UserID zal zo veranderen:\n U-MijnGebruikersnaam -> U-fX3pKe7AYYQ",
-
         "Migration.DataSelection.Title": "Wanneer we je account migreren, welke gegevens zullen we migreren?",
         "Migration.DataSelection.Everything": "Alles",
         "Migration.DataSelection.Choose": "Laat me kiezen",
-
         "Migration.DataSelection.Favorites": "Favorieten (avatar, woning, camera, toetsenbord, facet)",
-
         "Migration.DataSelection.Favorites.Description": "Dit migreert je thuiswereld, favoriete avatar, toetsenbord, camera en dash als eerste, zodat je ze zo snel mogelijk kan gebruiken.\n <color=red><b>WAARSCHUWING:</b></color> Als je deze optie kiest, kan je mogelijk <b>VERANDERINGEN KWIJTRAKEN</b> gemaakt op dit platform aan je favorieten.",
         "Migration.DataSelection.Favorites.OverwriteTitle": "Wanneer we migreren, zullen we je favorieten overschrijven?",
-
         "Migration.DataSelection.Home.Title": "Stel je oude thuiswereld in als standaard?",
         "Migration.DataSelection.Home.Description": "Wanneer we je data migreren, wordt je originele thuiswereld onder een andere URL geplaatst en krijg je een nieuwe thuiswereld als standaard. Maar als je het fijn vindt, kunnen we je oude thuiswereld als standaard instellen. Ook als je \"Nee\" kiest, is je oude thuiswereld nog beschikbaar en kan je het later als favoriet instellen.",
-
         "Migration.DataSelection.Contacts": "Contacten",
         "Migration.DataSelection.Message History": "Berichtengeschiedenis",
         "Migration.DataSelection.InventoryWorld": "Opslag & Werelden",
         "Migration.DataSelection.CloudVariable.Definitions": "Cloud Variabele Definities",
         "Migration.DataSelection.CloudVariable.Values": "Cloud Variabele Waarden",
-
         "Migration.DataSelection.AlwaysOverwrite": "Altijd overschrijven",
-
         "Migration.Start": "Start Migratie",
         "Migration.Groups.Title": "Migreer Groepen",
         "Migration.Groups.Introduction": "Zullen we je groepen migreren?",
-
         "Migration.Groups.Description": "Alle groepen waar je een administrator van bent worden standaard gemigreerd. Als je alleen bepaalde groepen wil migreren, klik op de knop hieronder en vink de groepen die je wil migreren aan.",
-
         "Migration.Groups.LoadGroups": "Laad groepen",
         "Migration.Groups.RefreshGroups": "Ververs groepen",
-
         "Migration.Groups.Fetching": "Groepen ophalen...",
         "Migration.Groups.Fetching.LoginFailed": "Fout bij inloggen: {error}",
         "Migration.Groups.Fetching.Error": "Fout bij ophalen groepen: {error}",
         "Migration.Groups.NoGroups": "Geen {platform} groepen gevonden om te migreren.",
         "Migration.Groups.NotGroupAdmin": "Je bent geen administrator van {platform} groepen, vraag aan je groep administrators om de groep te migreren!",
-
         "Migration.Summary": "Oké, we hebben alles wat we nodig hebben. Klik op \"Start Migratie\" hieronder en wij beginnen met je migratie.\n\nMigratie kan even duren, we moeten alles over kopiëren. Als je hebt gekozen om je favorieten te migreren, zullen we die prioriteit geven zodat je comfortabel kan worden.\n\nJe hoeft {appName} niet open te houden terwijl we bezig zijn, maar we sturen je voortgang via de {appName} bot om je te laten weten hoe het gaat.",
-
         "Migration.List.EmptyTitle": "Wil je een nieuwe migratie starten?",
         "Migration.List.EmptySubtitle": "Klik op \"Nieuwe Migratie Taak\" linksboven.",
-
         "Migration.List.ButtonLabel": "{name}\n<size=50%>Gemaakt op:{time}\nStatus:{state}",
         "Migration.Report.Title": "Migratie Taak Rapport:",
         "Migration.Report.Description": "<color={hex}>Beschrijving:</color> {value}",
@@ -2477,12 +2118,9 @@
         "Migration.Report.CreatedOn": "<color={hex}>Gemaakt op:</color> {value}",
         "Migration.Report.StartedOn": "<color={hex}>Begonnen op:</color> {value}",
         "Migration.Report.CompletedOn": "<color={hex}>Voltooid op:</color> {value}",
-
         "Migration.Report.CurrentlyMigrating": "Bezig met migreren van <color={hex}>{value}</color>.",
         "Migration.Report.CurrentItem": "Huidige voorwerp: <color={hex}>{value}</color>",
-
         "Migration.Report.CurrentRate": "<color={hex}>Huidige snelheid:</color> ~{value} werelden/voorwerpen per minuut",
-
         "Migration.Report.EstimatedQueuePosition": "<color={hex}>Resterende taken in de wachtrij voor deze:</color> {value}",
         "Migration.Report.ContactStatus": "<color={hex}>{current}</color> contacten van de <color={hex}>{total}</color> gemigreerd",
         "Migration.Report.MessageStatus": "<color={hex}>{value}</color> berichten gemigreerd",
@@ -2491,41 +2129,28 @@
         "Migration.Report.RecordStatus": "<color={hex}>{current}</color> voorwerpen/werelden van de <color={hex}>{total}</color> gemigreerd. <color=red>{failed}</color> mislukt.",
         "Migration.Report.GroupStatus": "<color={hex}>{current}</color> groepen van de <color={hex}>{total}</color> gemigreerd",
         "Migration.Report.GroupMemberStatus": "In totaal <color={hex}>{value}</color> groepsleden gemigreerd",
-
         "Migration.Error": "<color=red>Fout:</color> {error}",
         "Migration.NothingSelected": "Niks geselecteerd, kan niet starten.",
-
         "Migration.ColorManagement": "Deze wereld is gemaakt in gamma-kleurruimte en is automatisch overgezet naar lineaire kleurruimte.<br><br>Het kan anders eruit zien dan de originele wereld, maar zou bruikbaar moeten zijn.<br><br>Als je de maker bent en problemen vindt met het overzetten van de werelden <color=red>SLA NIET OP</color>. Sla alleen kopieën op.<br><br>Zolang de originele bestaat, kunnen we het overzetprocess aanpassen. Anders moet je het zelf repareren.",
-
         "Temporary.MMC.Voting UI": "MMC Stem UI",
         "Temporary.MMC.Vote": "Stemmen",
-
         "Temporary.MMC.Categories.Name": "Categorieën",
-
         "Temporary.MMC.Categories.Worlds": "Werelden",
         "Temporary.MMC.Categories.Worlds.Social": "Sociaal",
         "Temporary.MMC.Categories.Worlds.Game": "Spel",
-
         "Temporary.MMC.Categories.Other": "Ander",
         "Temporary.MMC.Categories.Misc": "Diversen",
         "Temporary.MMC.Categories.Meme": "Meme",
-
         "Temporary.MMC.Categories.Avatars": "Avatars",
         "Temporary.MMC.Categories.Avatars.Accessories": "Accessoires",
-
         "Temporary.MMC.VoteSuccess": "Stem uitgebracht in categorie {category} voor {voteTarget}.",
         "Temporary.MMC.VoteFailure": "Stem is mislukt, uw stem is niet geregistreerd, probeer het opnieuw.",
         "Temporary.MMC.VotedAlready": "Je hebt al gestemd in {category}.",
         "Temporary.MMC.VoteInvalid": "Stem is ongeldig, probeer het opnieuw.",
-
         "CloudHome.WelcomeHome": "Welkom Thuis",
         "CloudHome.TargetRangeOptions": "Doeloefening Aan/Uit",
-
         "Tutorial.Saving.Title": "Welkom Thuis!",
         "Tutorial.Saving.Content": "Welkom in je <b><i><color=hero.yellow>Woon</b></i></color> wereld! Dit is waar je terecht komt als je inlogt.<br><br>Deze wereld is geheel van jou, dus alles wat je aanpast kan opgeslagen worden.<br><br>Als je opslaat, zal alles zijn zoals je het achtergelaten hebt bij terugkomst!",
-
-        
-
         "CloudHome.Info.OnlineUsers": "Online {online_users,plural, one {gebruiker} other {gebruikers}}: {online_users}<br>Toetreedbare {joinable_users,plural, one {gebruiker} other {gebruikers}}: {joinable_users}",
         "CloudHome.Info.Moderation": "Handhaving",
         "CloudHome.Info.Inventory": "Opslag",
@@ -2534,51 +2159,37 @@
         "CloudHome.Info.SessionUptime": "Sessie Actief Voor:",
         "CloudHome.Info.AccessLevel": "Toegangsniveau:",
         "CloudHome.Info.StorageUsed": "Gebruikte Opslag:",
-
         "CloudHome.Info.DashInfoTab.Title": "Welkom!",
         "CloudHome.Info.DashInfoDesktop": "Om je bij te brengen, zijn er een paar dingen die je moet weten. Je hebt een <i><color=hero.purple>Dashboard</color></i> die je kan openen door op Escape te drukken. Zie het als je bureaublad of configuratiescherm.<br><br>Als je niet weet wat dit is, heeft dit scherm wat meer informatie om je te helpen. Klik op de knop hieronder om dit bericht af te sluiten.",
         "CloudHome.Info.DashInfoVR": "Om je bij te brengen, zijn er een paar dingen die je moet weten. Je hebt een <i><color=hero.purple>Dashboard</color></i> die je kan openen door op B of Y te drukken. Zie het als je bureaublad of configuratiescherm.<br><br>Als je niet weet wat dit is, heeft dit scherm wat meer informatie om je te helpen. Klik op de knop hieronder om dit bericht af te sluiten.",
         "CloudHome.Info.DashInfoVRNoButtons": "Om je bij te brengen, zijn er een paar dingen die je moet weten. Je hebt een <i><color=hero.purple>Dashboard</color></i> die je kan openen door de menu knop ingedrukt te houden totdat de cirkel vol is. Zie het als je bureaublad of configuratiescherm.<br><br>Als je niet weet wat dit is, heeft dit scherm wat meer informatie om je te helpen. Klik op de knop hieronder om dit bericht af te sluiten.",
-
         "CloudHome.Info.GoToWiki": "Ga naar Wiki!",
         "CloudHome.Info.GoToDiscord": "Ga naar Discord!",
-
         "CloudHome.Info.ModerationTab.Title": "Handhaving!",
         "CloudHome.Info.ModerationTab.Content": "Veiligheid is belangrijk voor ons. Als je hulp nodig hebt of een gebruiker moet rapporteren, kan je een ticket openen in ons <u><color=hero.cyan>Handhavings Portaal.</color></u><sprite name=hyperlink><br><br>We hebben een sterk team vrijwillige handhavers <sprite name=modbadge> die de community veilig houden! Dien alsjeblieft een ticket in als je vragen hebt of gedrag ziet dat richtlijnen overtreedt.",
-
         "CloudHome.Info.InventoryTab.Title": "Sla je voorwerpen op!",
         "CloudHome.Info.InventoryTab.Content": "De <i><color=hero.purple>Opslag</color></i> in je <i><color=hero.purple>Dashboard</color></i> bevat al je opgeslagen avatars en voorwerpen.<br><br>De <i><color=hero.purple>Essentials</color></i> folder heeft wat leuke dingen om mee te spelen; dubbelklik op een voorwerp om het in de wereld te brengen!",
-
         "CloudHome.Info.ToolsTab.Title": "De Wereld Bewerken!",
         "CloudHome.Info.ToolsTab.Content": "Een kenmerk van {appName} is dat dingen makkelijk gemaakt of bewerkt kunnen worden in het spel.<br><br>Ja, dat betekent hier! Of overal eigenlijk - de gereedschappen beschikbaar voor je via <i><color=hero.purple>Essentials -> Tools</color></i> in jouw opslag staan je toe om de wereld aan te passen zoals jij wilt.",
-
         "CloudHome.Info.HelpTab.Title": "Hulp Krijgen",
         "CloudHome.Info.HelpTab.InfoLineOne": "Hulp nodig? Kijk op onze <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, of krijg antwoorden op jouw",
         "CloudHome.Info.HelpTab.InfoLineTwo": "vragen in onze <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> Je kan links op je bureaublad bekijken door via je Dashboard in het <i><color=hero.purple>Bureaublad</color></i> te gaan.",
-
         "CloudHome.Info.UsersTab.Title": "Gebruikers Vinden",
         "CloudHome.Info.UsersTab.Content": "Publieke sessies zijn een geweldige manier om jezelf te verdiepen in de community!<br><br>Publieke sessies waar je momenteel aan mee kan doen, kun je vinden in de <i><color=hero.purple>Werelden</color></i> tab van je dashboard. Veel plezier!",
-
         "Mirror.Header.RenderingOptions": "Render Instellingen",
         "Mirror.Header.Type": "Spiegel Type",
         "Mirror.Header.Resolution": "Spiegel Resolutie",
         "Mirror.Header.AspectRatio": "Beeldverhouding",
-
         "Mirror.EnableLights": "Zet Lichten Aan",
         "Mirror.DisableLights": "Zet Lichten Uit",
-
         "Mirror.EnableShadows": "Zet Schaduwen Aan",
         "Mirror.DisableShadows": "Zet Schaduwen Uit",
-
         "Mirror.Camera": "Camera",
-
         "Mirror.AspectRatio.Tall": "Lang",
         "Mirror.AspectRatio.Square": "Vierkant",
         "Mirror.AspectRatio.Wide": "Breed",
-
         "Mirror.Menu": "Menu",
         "Mirror.CloseMenu": "Sluit Menu",
-
         "StickyNote.SpinMe": "Draai me rond!",
         "StickyNote.FruitPlate": "Gratis zelfaanvullende fruitschaal",
         "StickyNote.EmptyForYou": "Speciaal voor jou leeg gelaten! :)",
@@ -2589,31 +2200,24 @@
         "StickyNote.Shade": "Verstelbare schaduw",
         "StickyNote.TheaterTablet": "Gebruik deze tablet om de ventilator en raam tint voor deze ruimte te besturen!",
         "StickyNote.ControlTablet": "Gebruik deze tablet om delen van de woning te besturen!",
-
         "StickyNote.RotateMeDesktop": "Draai mij door E ingedrukt te houden!",
         "StickyNote.RotateMeVR": "Draai mij!",
-
         "StickyNote.EquipMeDesktop": "Pak vast en druk op de linker muisknop!",
         "StickyNote.EquipMeVR": "Pak vast en trek aan het touw!",
-
         "StickyNote.DipBrushes": "Doop penselen in bollen om materialen te gebruiken",
         "StickyNote.BrushColor": "Verander de kleur en grootte van de penseel in je Context Menu",
         "StickyNote.Drawing": "Je kan op het bord tekenen, in de lucht, of overal!",
         "StickyNote.WorldCanvas": "De wereld is jouw canvas!",
-
         "CloudHome.Panel.HomeControl": "Thuisbediening",
-
         "CloudHome.Panel.General": "Algemeen",
         "CloudHome.Panel.Lighting": "Lichten",
         "CloudHome.Panel.Furniture": "Meubels",
-
         "CloudHome.Panel.Quality": "Kwaliteit",
         "CloudHome.Panel.Doors": "Deuren",
         "CloudHome.Panel.Audio": "Geluid",
         "CloudHome.Panel.OverheadLighting": "Bovenverlichting",
         "CloudHome.Panel.Sconces": "Wandlampen",
         "CloudHome.Panel.FurnitureVisibility": "Meubel Zichtbaarheid",
-
         "CloudHome.Panel.LowQualityMode": "Lage kwaliteitsmodus",
         "CloudHome.Panel.DoorSounds": "Deur Geluiden",
         "CloudHome.Panel.DoorsAlwaysOpen": "Deuren Altijd Open",
@@ -2623,7 +2227,6 @@
         "CloudHome.Panel.LightIntensity": "Licht Intensiteit",
         "CloudHome.Panel.LightColor": "Licht Kleur",
         "CloudHome.Panel.LightColorTemperature": "Licht Kleurtemperatuur",
-
         "CloudHome.Panel.Spawn": "Spawn",
         "CloudHome.Panel.Foyer": "Hal",
         "CloudHome.Panel.Workspace": "Werkplaats",
@@ -2632,90 +2235,62 @@
         "CloudHome.Panel.Center": "Centrum",
         "CloudHome.Panel.Balcony": "Balkon",
         "CloudHome.Panel.Theater": "Theater",
-
         "CloudHome.Panel.TheaterControl": "Theater Bediening",
         "CloudHome.Panel.FanControl": "Ventilator Bediening",
         "CloudHome.Panel.WindowControl": "Raam Bediening",
         "CloudHome.Panel.FanSpeed": "Ventilator Snelheid",
         "CloudHome.Panel.WindowTint": "Raam Tint",
-
         "CloudHome.FeaturedPanel.OpenWorld": "Open Wereld",
         "CloudHome.FeaturedPanel.LinkText": "Open deze wereld voor<br>jezelf door hier te klikken!",
         "CloudHome.FeaturedPanel.Featured": "Aanbevelingen",
-
         "CloudHome.AvatarPanel.Title": "Aanbevolen Avatar Werelden",
-
         "CloudHome.SupporterPanel.Title": "<b>Onze Supporters</b>",
-
         "Tutorial.InfoPanel.Title": "Hey! Voordat je gaat...",
         "Tutorial.InfoPanel.Content": "Er staat een wereld van mogelijkheden op je te wachten, enkel gelimiteerd door je verbeelding.<br><br>Bijna alles wat je tot nu toe gezien hebt is in het spel gemaakt! Mensen van over de hele wereld hebben samengewerkt om dit op te bouwen.<br><br>Het platform is nog aan het ontwikkelen en we zijn constant bezig met updaten en verbeteren. Maar jij bent ook deel van deze reis, en alles is mogelijk!<br><br><align=center>Bedankt dat je langskwam en ons een kans gaf.</align>",
-
         "Tutorial.GrabItems.Grab": "Pakken",
         "Tutorial.GrabItems.Snap": "Snap",
         "Tutorial.GrabItems.Slide": "Schuiven",
-
         "Tutorial.Panel.Jumping.Title": "Springen",
         "Tutorial.Panel.Jumping.ContentDesktop": "Tijdens de loop locomotie, druk je op spatie om te springen!",
         "Tutorial.Panel.Jumping.ContentVR": "Terwijl je in de loop locomotie bent, klik je joystick in om te springen!",
         "Tutorial.Panel.Jumping.ContentVRNoButtons": "Terwijl je in de loop locomotie bent, druk je in het midden van je trackpad om te springen!",
-
         "Tutorial.Panel.WalkLocomotion.Title": "Loop Locomotie",
         "Tutorial.Panel.WalkLocomotion.Content": "Beweeg en spring over de grond.",
-
         "Tutorial.Panel.TeleportLocomotion.Title": "Teleporteer Locomotie",
         "Tutorial.Panel.TeleportLocomotion.Content": "Teleporteren stuurt je onmiddelijk naar de aangegeven plek.",
-
         "Hints.Spawn.InitialMovementDesktop": "Gebruik WASD om rond te lopen!",
         "Hints.Spawn.InitialMovementVR": "Gebruik je joysticks om rond te lopen!",
         "Hints.Spawn.InitialMovementVRNoButtons": "Gebruik je trackpads om rond te lopen!",
-
         "Hints.Spawn.ContextMenuDesktop": "Open je Context Menu door op T te drukken voor opties!",
         "Hints.Spawn.ContextMenuVR": "Misselijk? Open je Context Menu door op B of Y te drukken voor opties!",
         "Hints.Spawn.ContextMenuVRNoButtons": "Misselijk? Open je Context Menu door op de Menu knop te drukken voor opties!",
-
         "Hints.Spawn.TeleportLocomotionDesktop": "Andere locomotie opties zoals teleporteren of vliegen, vind je in het locomotie menu.",
         "Hints.Spawn.TeleportLocomotionVR": "Andere locomotie opties zoals teleporteren of vliegen, vind je in het locomotie menu.",
-
         "Hints.Bridge.RaiseTheWorld": "Druk op deze knop om het platform naar je toe te brengen!",
-
         "Hints.Grabbing.GrabbingDesktop": "Pak dingen vast door de rechter muis knop ingedrukt te houden!",
         "Hints.Grabbing.GrabbingVR": "Pak dingen vast door grip ingedrukt te houden!",
-
         "Hints.Grabbing.Rotating": "Draai vastgehouden voorwerpen door E ingedrukt te houden en je muis te bewegen!",
         "Hints.Grabbing.RotatingExtra": "Houd Shift en E samen ingedrukt om een object rond de horizontale as te draaien!",
-
         "Hints.Grabbing.ScalingDesktop": "Pak een voorwerp vast, houd shift ingedrukt, en gebruik je muis wiel om het te schalen!",
         "Hints.Grabbing.ScalingVR": "Pak dingen fysiek met beide handen vast om ze te schalen!",
-
         "Hints.Grabbing.OtherGrabbables": "Er zijn verschillende interactiemogelijkheden, speel hiermee om te zien hoe ze werken!",
         "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Naast het schalen van objecten, kan je ook jezelf schalen door schalen aan te zetten in je Context Menu, dan control ingedrukt houden en je muis wiel te gebruiken!",
         "Hints.Grabbing.OtherGrabbablesExtraVR": "Naast het schalen van objecten, kan je ook jezelf schalen door schalen aan te zetten in je Context Menu, de lucht voor je vastpakken met beide handen, en ze dichter bij of verder van elkaar te bewegen!",
-
         "Hints.Telescope.Alignment": "Pak de telescoop en richt het op de maan!",
-
         "Hints.Telescope.TheMoonDesktop": "Terwijl je naar de maan richt, houd rechter muis toets ingedrukt en kijk rond om de maan te verplaatsen!",
         "Hints.Telescope.TheMoonVR": "Gebruik je laser met de Trigger knop en pak de maan vast!",
-
         "Hints.Sundial.SoftEquip": "Pak dit gereedschap vast om het te gebruiken!",
         "Hints.Sundial.SoftEquipExtra": "Met gereedschappen kan je de wereld om je heen op allerlei manieren veranderen!",
-
         "Hints.Sundial.HardEquip": "Klik op dit gereedschap om het te gebruiken!",
         "Hints.Sundial.HardEquipExtra": "Zie je je laser niet? Druk zacht op trigger om het te onthullen!",
-
         "Hints.Sundial.TheSun": "Richt naar de lucht en klik om de zon te verplaatsen!",
         "Hints.Sundial.TheSunExtra": "Probeer onder de horizon te richten om het nacht te maken!",
-
         "Hints.Sundial.Dequip": "Laat het gereedschap los door Loslaten te kiezen in je Context Menu.",
         "Hints.Sundial.DequipExtra": "Merk dat de opties in je Context Menu zijn veranderd omdat je dit gereedschap vasthoudt.",
-
-        
-        
-
         "UI.TextDisplay.Landscape": "Landschap",
         "UI.TextDisplay.Portrait": "Portret",
         "UI.TextDisplay.NormalText": "Normaal",
         "UI.TextDisplay.MonospaceText": "Monospace",
-
         "UI.DocumentDisplay.PageNumber": "Pagina {page_number}",
         "UI.DocumentDisplay.DocumentQuality": "Kwaliteit",
         "UI.DocumentDisplay.QualityLow": "Laag",
@@ -2723,7 +2298,6 @@
         "UI.DocumentDisplay.QualityHigh": "Hoog",
         "UI.DocumentDisplay.Pages": "Pagina's",
         "UI.DocumentDisplay.ResetZoom": "Zoom Resetten",
-
         "UI.VideoPlayer.GlobalSettings": "Globale<br>Instellingen",
         "UI.VideoPlayer.LocalSettings": "Lokale<br>Instellingen",
         "UI.VideoPlayer.SpatialAudio": "Ruimtelijke<br>Audio",
@@ -2734,63 +2308,111 @@
         "UI.VideoPlayer.AudioZoneGlobal": "Hoorbaar tot<br>de Wereld",
         "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {gebruiker} other {gebruikers}}<br>geladen",
         "UI.VideoPlayer.AllUsersLoaded": "Alle gebruikers<br>geladen",
-
         "UI.ColorPicker.ColorPicker": "Kleur Kiezer",
-
         "UI.ColorPicker.Linear": "Lineair",
-
         "UI.ColorPicker.Hexadecimal": "Hex",
         "UI.ColorPicker.ColorSwatches": "Palet",
-
         "UI.ColorPicker.Red": "Rood",
         "UI.ColorPicker.Green": "Groen",
         "UI.ColorPicker.Blue": "Blauw",
-
         "UI.ColorPicker.Hue": "Tint",
         "UI.ColorPicker.Saturation": "Verzadiging",
         "UI.ColorPicker.Value": "Waarde",
-
         "UI.ColorPicker.Alpha": "Alpha",
         "UI.ColorPicker.Gain": "Versterking",
-
         "UI.ProgressBar.ImportingItem": "Voorwerp Importeren",
-
         "UI.Camera.Automatic": "Automatisch",
         "UI.Camera.Manual": "Handmatig",
-
         "Tools.Names.MultiTool": "Multi-Gereedschap",
-
         "Tools.Names.CommonTools": "Veelgebruikte Gereedschappen",
         "Tools.Names.ManipulationTools": "Manipulatiegereedschappen",
         "Tools.Names.InformationTools": "Informatiegereedschappen",
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
         "Discord.RichPresence.InPrivateWorld": "In privé wereld",
         "Discord.RichPresence.InPrivateLargeText": "In privé ({version})",
         "Discord.RichPresence.InPublicWorld": "In publieke wereld",
         "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} werelden)",
         "Discord.RichPresence.InPublicLargeText": "In publiek ({version})",
-
-        "Dummy": "Dummy"
+        "Dummy": "Dummy",
+        "General.DontShowAgain": "Niet nogmaals zien",
+        "Interaction.Grabbing": "Pakken",
+        "Interaction.Grab.StickyGrab": "Geplakt Pakken",
+        "Interaction.Grab.HoldToHold": "Houd vast om vast te houden",
+        "Dash.Screens.Help": "Hulp",
+        "World.Config.ResoniteLinkHeader": "ResoniteLink",
+        "World.Config.ResoniteLinkOff": "ResoniteLink uitgeschakeld",
+        "World.Config.ResoniteLinkPort": "ResoniteLink draait op poort {port}",
+        "World.Actions.EnableResoniteLink": "Schakel ResoniteLink in",
+        "World.Category.Avatars": "Personages",
+        "Account.Type.Stripe": "Stripe Ondersteuner",
+        "Permissions.SavingDisabledForItem": "Opslaan is uitgeschakeld voor dit item.",
+        "Contacts.RequestInvite": "Vraag een uitnodiging",
+        "Contacts.AskToJoin": "<color=hero.yellow>Vraag</color> om deel te nemen",
+        "Contacts.InviteRequest.UserWantsToJoin": "{username} zou graag deel willen nemen",
+        "Contacts.InviteRequest.UserWantsToInviteAnother": "\"{requestingUser}\" wilt graag \"{userToInvite}\" uitnodigen naar \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantInvite": "Uitnodiging geven (één keer)",
+        "Contacts.InviteRequest.AddAsContact": "Voeg \"{username}\" toe als contact",
+        "Contacts.InviteRequest.AddAsContactOfHeadless": "Voeg \"{username}\" toe als contact van de headless",
+        "Contacts.InviteRequest.AddHostAsContact": "Voeg \"{username}\" (gastheer) toe als contact",
+        "Contacts.InviteRequest.HostIsUnregistered": "Gastheer is een niet geregistreerde gebruiker",
+        "Contacts.InviteRequest.ForwardToHost": "Doorsturen naar gastheer: {username}",
+        "Contacts.InviteRequest.SentRequest": "Uitnodiging Aangevraagd",
+        "Contacts.InviteRequest.ForwardedRequest": "Uitnodigingsverzoek van \"{username}\" voor sessie \"{sessionName}\" doorgestuurd",
+        "Contacts.InviteRequest.GrantedRequest": "\"{username}\" toestemming verleend voor deelname aan sessie \"{sessionName}\"",
+        "Notifications.ReceivedInviteRequestDirect": "Wilt worden uitgenodigd",
+        "Notifications.ReceivedInviteRequestForwarded": "Wilt uitnodigen:",
+        "Undo.AddListElement": "Voeg element toe aan de lijst",
+        "Undo.RemoveListElement": "Verwijder element van een lijst",
+        "Tools.MeshPlaneBrush.AddHole": "Maak een gat",
+        "Importer.Model.GaussianSplatEncoding": "Codering",
+        "Importer.Model.GaussianSplatLossless": "Lossless",
+        "Importer.Splat.Progress.Importing": "Importeren Gaussian Splat",
+        "Importer.Splat.Progress.ReadingHeader": "Lezen van bestand's header",
+        "Importer.Splat.Progress.ConvertingSplats": "Omgezet {converted} splats van {total}",
+        "Importer.Splat.Progress.EncodingData": "Coderen omgezette data",
+        "GaussianSplat.Encoding.Metadata": "Coderen metadata",
+        "GaussianSplat.Encoding.EncodingPositions": "Codering positie {encoded} van {total}",
+        "GaussianSplat.Encoding.EncodingRotations": "Coderen rotaties {encoded} van {total}",
+        "GaussianSplat.Encoding.EncodingScales": "Coderen schalen {encoded} van {total}",
+        "GaussianSplat.Encoding.EncodingAlphas": "Coderen alphas {encoded} van {total}",
+        "GaussianSplat.Encoding.EncodingColors": "Coderen kleuren {encoded} van {total}",
+        "GaussianSplat.Encoding.EncodingFinalizing": "Klaarmaken codering",
+        "GaussianSplat.Processing.RemovingSplats": "Verwijderen van Splats",
+        "GaussianSplat.Processing.SplatProgress": "Behandeld {count} van {total}",
+        "GaussianSplat.Processing.LoadingData": "Laden Asset Data",
+        "GaussianSplat.Processing.FailNoData": "Kan geen asset data laden om te behandelen",
+        "Importer.UnsupportedRecordType.Heading": "Niet ondersteunde opname type",
+        "Importer.UnsupportedRecordType.Description": "Het type opname die je probeert te importeren ({url}) is niet ondersteunt. Het type is: {recordType}. Rapporteer dit naar ons via {bugUrl}.",
+        "Importer.Link.Invalid.Heading": "Ongeldige Folder Link",
+        "Importer.Link.Invalid.Description": "De folder link({url}), die je probeert te importeren is ongeldig. Check je link nogmaals en probeer opnieuw.",
+        "Inventory.Link.LinkText": "Inventaris link naar {name}",
+        "Settings.BabbleSettings.OSC_DataPort": "OSC Gezichtstracker poort",
+        "Settings.BabbleSettings.OSC_DataPort.Description": "Welke poort zou moeten worden gebruikt voor het luisteren naar de OSC gezichtstracking data. Deze zou dezelfde poort moeten zijn zoals je die hebt gezen in de Bapple App op de instellingen pagina.",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "Forceer Herladen Audio Apparatuur",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Als u hierop drukt, wordt {appName} gedwongen om de lijst met audioapparatuur te vernieuwen. Meestal worden nieuwe audioapparaten gevonden, maar als {appName} een toegevoegd audioapparaat niet herkent, kan het helpen om hierop te drukken.",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "Aparte Streaming Camera Uitgang",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "Zodra ingeschakeld, zal de streaming camera audio uitsturen vanuit zijn zichtpunt en het uitsturen naar een apart audio aparaat.<br><br>Dit zorgt ervoor dat je je eigen audio van je eigen perspectief kan behouden, terwijl je ook geluid ontvangt van jouw camera.<br><br>Om dit te laten werken, moet het geselecteerde aparaat verschillend zijn van je normale audio apparaat.",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Streaming Camera Uitgang Apparatuur",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "Streaming Camera Uitgang Apparatuur",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff": "Forceer audio effecten uit voor alle stemmen",
+        "Tools.Brush.FinishStrokeGroup": "Stop Stroke Groep",
+        "Tools.GaussianSplat.Name": "Gaussian Splat Gereedschap",
+        "Tools.GaussianSplat.ClipBox": "Clip doos",
+        "Tools.GaussianSplat.ClipSphere": "Clip Bol",
+        "Tools.GaussianSplat.ClipCylinder": "Clip Cilinder",
+        "CreateNew.Editor.TexturePackingWizard": "Textuurverpakkingswizard",
+        "CreateNew.Editor.TextureUnpackingWizard": "Textuuruitpakkingswizard",
+        "Importer.Model.GaussianSplatVertical": "Verticale as",
+        "Importer.Model.RegularVertical": "Vast",
+        "Importer.Model.FlipVertical": "Y-as omdraaien",
+        "GaussianSplat.Encoding.Title": "Codering Gaussian Splat",
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "Wanneer deze optie is ingeschakeld, wordt alle legacy-audio inhoud waarvoor spatialisatie is ingeschakeld automatisch de reverb-zones om de beperkingen van het legacy-audiosysteem te behouden.<br><br>Schakel deze instelling om en laad de legacy inhoud opnieuw in. Zodra u de geconverteerde legacy inhoud opslaat, wordt de keuze 'ingebakken' en moet u deze achteraf handmatig wijzigen.",
+        "Settings.NotificationSettings.InviteRequest": "Uitnodigings Aanvragen",
+        "Settings.EditSettings.ConfirmComponentDestroy": "Bevestig verwijderen componenten",
+        "CreateNew.Object.ReverbZone": "Reverb Zone",
+        "Importer.Model.GaussianSplat": "Gaussian Splat",
+        "Importer.Model.GaussianSplatSPZ": "SPZ (lossy)",
+        "Export.GaussianSplatExportable.PLY": "PLY (lossless)",
+        "Export.GaussianSplatExportable.SPZ": "SPZ (lossy)",
+        "Settings.BabbleSettings": "Project Babble"
     }
 }
