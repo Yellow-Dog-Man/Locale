@@ -2,6 +2,7 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Dutch [nl]
+Tools.MeshPlaneBrush.Name  
 Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description  
 Settings.AudioPerformanceSettings  
 Settings.AudioPerformanceSettings.MaxVoices  
@@ -91,6 +92,7 @@ Inspector.GaussianSplat.ColorByIndex
 Inspector.GaussianSplat.ReorderMorton  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.AI_GeneratedContent.Info  
 Inspector.Wizard.PackTexture  
 Inspector.Wizard.UnpackTexture  
 Inspector.Error  

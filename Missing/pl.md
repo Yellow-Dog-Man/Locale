@@ -9,8 +9,10 @@ World.Actions.EnableResoniteLink
 Undo.AddListElement  
 Undo.RemoveListElement  
 Tools.Brush.FinishStrokeGroup  
+Tools.MeshPlaneBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
 Inspector.Member.SplitBlendshapeToStaticMesh  
+Inspector.AI_GeneratedContent.Info  
 Tutorial.HelpTabPanel.Title  
 Tutorial.HelpTabPanel.Content  
 Help.Help  

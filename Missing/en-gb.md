@@ -635,6 +635,7 @@ Tools.Brush.IncrementSize
 Tools.Brush.DecrementSize  
 Tools.Brush.FinishStrokeGroup  
 Tools.GeometryLineBrush.Name  
+Tools.MeshPlaneBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
 Tools.Dev.Name  
 Tools.Dev.CreateNew  
@@ -2016,6 +2017,7 @@ Inspector.CharacterController.Warning
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.AI_GeneratedContent.Info  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  
