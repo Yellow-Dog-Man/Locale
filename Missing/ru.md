@@ -2,10 +2,12 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Russian [ru]
+Tools.MeshPlaneBrush.Name  
 Settings.RendererDecouplingSettings.ActivationFramerate.Description  
 Settings.RendererDecouplingSettings.DeactivationFrames.Description  
 Settings.RendererDecouplingSettings.ForceDecouple.Description  
 Inspector.Member.SplitBlendshapeToStaticMesh  
+Inspector.AI_GeneratedContent.Info  
 CloudHome.Panel.RealtimeReflections  
 CloudHome.Panel.SpotLights  
 CloudHome.Panel.TableLights  

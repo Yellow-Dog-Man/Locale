@@ -15,6 +15,7 @@ Contacts.Unblocked
 Undo.AddListElement  
 Undo.RemoveListElement  
 Tools.Brush.FinishStrokeGroup  
+Tools.MeshPlaneBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
 Tools.ProtoFlux.Drive  
 Tools.ProtoFlux.Source  
@@ -299,6 +300,7 @@ Inspector.CharacterController.Warning
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.AI_GeneratedContent.Info  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.Collider.SetFromLocalBounds  
