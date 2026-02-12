@@ -757,6 +757,7 @@
         
         "Tools.GeometryLineBrush.Name": "几何线条笔刷",
 
+        "Tools.MeshPlaneBrush.Name": "网格平面笔刷",
         "Tools.MeshPlaneBrush.AddHole": "添加一个洞",
 
         "Tools.Dev.Name": "开发工具",
@@ -2175,6 +2176,7 @@
         "Inspector.Member.SplitBlendshape.X": "在 X 轴上分割形态键",
         "Inspector.Member.SplitBlendshape.Y": "在 Y 轴上分割形态键",
         "Inspector.Member.SplitBlendshape.Z": "在 Z 轴上分割形态键",
+        "Inspector.Member.SplitBlendshapeToStaticMesh": "分离形态键为静态网格",
 
         "Inspector.ProceduralAsset.UpdateCount": "更新次数： {n}",
         "Inspector.ProceduralAsset.Error": "错误： {error}",
@@ -2415,6 +2417,8 @@
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color><br>通过他们的ID，这个组件可以被用于与引用交互。这个过程常被称为“引用骇入”。<br><br>在你这样做<b>之前</b>，请知晓这种方式 <b>不被</b> 支持且随时可能失效。请勿让你的作品依赖于此项功能。",
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>警告!</size></color><br>Facet预设将会在我们发布新版本的时候自动更新。如果你在用自定义版本呢，我们建议删除这个组件。",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>警告！</size></color> 本组件并非用作安全/资产防盗保护系统。其设计初衷仅适用于因玩法或设计需求需屏蔽简易保存方式的场景。该组件可被轻易绕过，且在任何情况下都不会增强其安全性。",
+
+        "Inspector.AI_GeneratedContent.Info": "此组件旨在标记由AI生成的内容。建议将其置于通过这些方法生成的对象的最顶层。这样，在保存物品时以及在包含这些组件的情况下保存世界时，都会自动添加标签，从而能够对这些内容进行筛选。",
 
         "Inspector.ParticleSystem.BasicInfo": "粒子： {count}， 帧率： {fps}， 模拟时间： {time}， 提交时间： {renderSubmitTime}， 渲染分配： {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "尾迹： {trailCount} (容量： {trailCapacity}), 尾迹点容量： {trailPointCapacity}",
