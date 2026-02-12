@@ -757,7 +757,9 @@
 
         "Tools.GeometryLineBrush.Name": "붓(Geometry Line Brush)",
 
+        "Tools.MeshPlaneBrush.Name": "평면 붓(Brush)",
         "Tools.MeshPlaneBrush.AddHole": "구멍내기",
+        
         "Tools.Dev.Name": "개발 도구/데브툴(Development Tool)",
         "Tools.Dev.CreateNew": "새로 만들기",
         "Tools.Dev.Selection": "선택 방법: {mode}",
@@ -2174,7 +2176,8 @@
         "Inspector.Member.SplitBlendshape.X" : "블렌드셰이프를 좌/우(X축)로 분리",
         "Inspector.Member.SplitBlendshape.Y" : "블렌드셰이프를 상/하(Y축)로 분리",
         "Inspector.Member.SplitBlendshape.Z" : "블렌드셰이프를 전/후(Z축)로 분리",
-
+        "Inspector.Member.SplitBlendshapeToStaticMesh": "블렌드셰이프를 정적 메시로 분리",
+        
         "Inspector.ProceduralAsset.UpdateCount": "갱신 횟수: {n}",
         "Inspector.ProceduralAsset.Error": "오류: {error}",
 
@@ -2414,6 +2417,8 @@
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>경고!</size></color><br>이 구성요소를 사용하면 해당 ID를 사용하여 참조와 상호작용할 수 있습니다. 이것을 일반적으로 'Ref Hacking'이라고 합니다.<br><br><b>사용하기 앞서</b> 이 기능은 언제든지 중단되거나 지원이 끊길 수 있음을 염두해 두시기 바랍니다.",
         "Inspector.FacetPreset.Warning":"<color=red><size=125%>경고!</size></color><br>이 구성요소는 새로운 프리셋을 게시할 경우 컨텐츠를 자동으로 갱신합니다. 사용자 정의 버전을 만드는 경우, 이 구성요소를 삭제하는것이 좋습니다.",
         "Inspector.GrabbableSaveBlock.Warning":"<color=red><size=125%>경고!</size></color><br>이 구성요소는 보안적 측면을 고려하여 설계된 것은 아닙니다. 게임의 규칙이나 디자인상의 이유로 저장을 차단하는 쉬운 방법을 제시하는 것 뿐 이기에 우회될 수 있습니다.",
+
+        "Inspector.AI_GeneratedContent.Info": "이 구성요소는 생성형 AI로 생성된 컨텐츠임을 알리기 위한 것 입니다. 해당 아이템 최상단 슬롯에 배치(월드의 경우 월드내 아이템이 구성요소를 포함하면)하면 저장할 때 자동으로 관련 태그가 추가되어 필터링을 수행할 수 있습니다.",
         
         "Inspector.ParticleSystem.BasicInfo" : "입자: {count}\t모의 시간: {time}\t렌더 할당량: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "꼬리: {trailCount} (용량: {trailCapacity}), 지점 용량: {trailPointCapacity}, 할당량: {allocationCount}",
