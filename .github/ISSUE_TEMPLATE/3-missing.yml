@@ -1,0 +1,24 @@
+name: Missing Key
+description: Report a translation key missing from the base locale.
+labels: NewStrings
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template is for keys missing from the base locale (`en`/English).
+        If your report is about a translation missing a language *other than* English, please consider [using a different issue template](https://github.com/Yellow-Dog-Man/Locale/issues/new/choose).
+  - type: input
+    attributes:
+      label: Translation Key
+      description: The Translation Key missing from the base locale.
+      placeholder: Contacts.NoSession
+  - type: textarea
+    attributes:
+      label: Description
+      description: Where did you encounter this string? What should its translation be?
+  - type: checkboxes
+    attributes:
+      label: Requirements
+      options:
+        - label: "This key is missing from the base locale (English)"
+          required: true
