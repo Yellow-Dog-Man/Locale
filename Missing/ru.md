@@ -2,6 +2,9 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Russian [ru]
+World.Connection.NoProtocolsAvailable  
+World.Connection.AllProtocolsFailed  
+Permissions.NotAllowedToOpen  
 Tools.MeshPlaneBrush.Name  
 Settings.RendererDecouplingSettings.ActivationFramerate.Description  
 Settings.RendererDecouplingSettings.DeactivationFrames.Description  

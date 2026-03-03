@@ -80,6 +80,8 @@ World.Connection.LNL.NATPunchthrough
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
 World.Connection.TCP  
+World.Connection.NoProtocolsAvailable  
+World.Connection.AllProtocolsFailed  
 World.Error.FailedToConnect  
 World.Error.InvalidAddress  
 World.Error.HostBlocked  
@@ -242,6 +244,7 @@ Session.JoinVerifier.Label
 Session.JoinVerifier.ComponentWarning  
 Session.JoinVerifier.SetCustomVerifier  
 Permissions.SavingDisabledForItem  
+Permissions.NotAllowedToOpen  
 Contacts.RevokeInvite  
 Contacts.RequestInvite  
 Contacts.Unblocked  

@@ -157,6 +157,8 @@ World.Connection.LNL.NATPunchthrough
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
 World.Connection.TCP  
+World.Connection.NoProtocolsAvailable  
+World.Connection.AllProtocolsFailed  
 World.Error.AccessDenied  
 World.Error.SecurityViolation  
 World.Error.OnlyRegisteredUsers  
@@ -532,6 +534,7 @@ Permissions.NotAllowedToSpawn
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
 Permissions.SavingDisabledForItem  
+Permissions.NotAllowedToOpen  
 User.Actions.Silence  
 User.Actions.Mute  
 User.Actions.Jump  

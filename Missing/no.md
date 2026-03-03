@@ -14,6 +14,8 @@ Dash.Screens.Help
 World.Loaded  
 World.Connection.LNL.LNLPoke  
 World.Connection.TCP  
+World.Connection.NoProtocolsAvailable  
+World.Connection.AllProtocolsFailed  
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
 World.Error.UnhandledError  
@@ -71,6 +73,7 @@ Profile.Status.Sociable
 Profile.Status.Bot  
 Profile.Status.ChatClient  
 Permissions.SavingDisabledForItem  
+Permissions.NotAllowedToOpen  
 Contacts.RequestInvite  
 Contacts.NoSession  
 Contacts.IncompatibleSession  

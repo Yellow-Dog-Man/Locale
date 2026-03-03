@@ -31,6 +31,8 @@ World.Connection.LNL.LNLPoke
 World.Connection.LNL.NATPunchthrough  
 World.Connection.LNL.Relay  
 World.Connection.TCP  
+World.Connection.NoProtocolsAvailable  
+World.Connection.AllProtocolsFailed  
 World.Error.SecurityViolation  
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
@@ -86,6 +88,7 @@ Permissions.NotAllowedToSpawn
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
 Permissions.SavingDisabledForItem  
+Permissions.NotAllowedToOpen  
 Contacts.RequestInvite  
 Contacts.NoSession  
 Contacts.Migrated  

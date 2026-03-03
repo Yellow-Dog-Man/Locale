@@ -7,6 +7,8 @@ Interaction.Grabbing
 Interaction.Grab.StickyGrab  
 Interaction.Grab.HoldToHold  
 Dash.Screens.Help  
+World.Connection.NoProtocolsAvailable  
+World.Connection.AllProtocolsFailed  
 World.Error.Handshake  
 World.Error.FailedToCreateBanAccessKey  
 World.Error.UnhandledError  
@@ -17,6 +19,7 @@ World.Actions.EnableResoniteLink
 World.Category.Avatars  
 Account.Type.Stripe  
 Permissions.SavingDisabledForItem  
+Permissions.NotAllowedToOpen  
 Contacts.RequestInvite  
 Contacts.AskToJoin  
 Contacts.InviteRequest.UserWantsToJoin  

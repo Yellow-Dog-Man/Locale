@@ -6,11 +6,14 @@ Interaction.Grabbing
 Interaction.Grab.StickyGrab  
 Interaction.Grab.HoldToHold  
 World.Connection.LNL.LNLPoke  
+World.Connection.NoProtocolsAvailable  
+World.Connection.AllProtocolsFailed  
 World.Config.ResoniteLinkHeader  
 World.Config.ResoniteLinkOff  
 World.Config.ResoniteLinkPort  
 World.Actions.GuestWarning  
 World.Actions.EnableResoniteLink  
+Permissions.NotAllowedToOpen  
 Contacts.Unblocked  
 Undo.AddListElement  
 Undo.RemoveListElement  

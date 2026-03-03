@@ -86,6 +86,8 @@ World.Connection.LNL.NATPunchthrough
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
 World.Connection.TCP  
+World.Connection.NoProtocolsAvailable  
+World.Connection.AllProtocolsFailed  
 World.Error.OnlyContactsOfContacts  
 World.Error.FailedToConnect  
 World.Error.InvalidAddress  
@@ -272,6 +274,7 @@ Permissions.NotAllowedToSpawn
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
 Permissions.SavingDisabledForItem  
+Permissions.NotAllowedToOpen  
 Contacts.RevokeInvite  
 Contacts.RequestInvite  
 Contacts.Unblocked  
