@@ -68,6 +68,12 @@ Register.MalformedUID
 Login.DuplicateAccount  
 Recovery.NoPasswordSetup  
 Recovery.NoPasswordSetup.Description  
+Register.TooManyRegistrations  
+Register.TooManyRegistrations.Description  
+Register.StatusCheckError  
+Register.StatusCheckError.Description  
+Register.ManualLoginRequired  
+Register.ManualLoginRequired.Description  
 Account.LostPassword  
 Account.SendRecoveryCode  
 Account.ResetPasswordInstructions  

@@ -13,6 +13,12 @@ World.Config.ResoniteLinkOff
 World.Config.ResoniteLinkPort  
 World.Actions.GuestWarning  
 World.Actions.EnableResoniteLink  
+Register.TooManyRegistrations  
+Register.TooManyRegistrations.Description  
+Register.StatusCheckError  
+Register.StatusCheckError.Description  
+Register.ManualLoginRequired  
+Register.ManualLoginRequired.Description  
 Permissions.NotAllowedToOpen  
 Contacts.Unblocked  
 Undo.AddListElement  

@@ -17,6 +17,12 @@ World.Config.ResoniteLinkOff
 World.Config.ResoniteLinkPort  
 World.Actions.EnableResoniteLink  
 World.Category.Avatars  
+Register.TooManyRegistrations  
+Register.TooManyRegistrations.Description  
+Register.StatusCheckError  
+Register.StatusCheckError.Description  
+Register.ManualLoginRequired  
+Register.ManualLoginRequired.Description  
 Account.Type.Stripe  
 Permissions.SavingDisabledForItem  
 Permissions.NotAllowedToOpen  

@@ -26,6 +26,12 @@ Login.MissingSecretMachineId
 Login.MissingSecretMachineId.Description  
 Login.MalformedSecretMachineId  
 Login.MalformedSecretMachineId.Description  
+Register.TooManyRegistrations  
+Register.TooManyRegistrations.Description  
+Register.StatusCheckError  
+Register.StatusCheckError.Description  
+Register.ManualLoginRequired  
+Register.ManualLoginRequired.Description  
 Account.Type.Stripe  
 Profile.Status.Sociable  
 Profile.Status.Bot  

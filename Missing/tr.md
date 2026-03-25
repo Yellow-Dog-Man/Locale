@@ -216,6 +216,12 @@ Recovery.IncorrectEmail
 Recovery.IncorrectEmail.Description  
 Recovery.NoPasswordSetup  
 Recovery.NoPasswordSetup.Description  
+Register.TooManyRegistrations  
+Register.TooManyRegistrations.Description  
+Register.StatusCheckError  
+Register.StatusCheckError.Description  
+Register.ManualLoginRequired  
+Register.ManualLoginRequired.Description  
 Register.UnknownError  
 Register.UnknownError.Description  
 Account.Saml2  

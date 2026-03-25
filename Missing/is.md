@@ -85,6 +85,12 @@ Recovery.MissingEmail
 Recovery.MissingEmail.Description  
 Recovery.IncorrectEmail  
 Recovery.IncorrectEmail.Description  
+Register.TooManyRegistrations  
+Register.TooManyRegistrations.Description  
+Register.StatusCheckError  
+Register.StatusCheckError.Description  
+Register.ManualLoginRequired  
+Register.ManualLoginRequired.Description  
 Account.TOTP.Title  
 Account.TOTP.Initializing  
 Account.TOTP.Code.Header  
