@@ -1,8 +1,26 @@
 {
     "localeCode": "en",
-    "authors": ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus", "Earthmark", "Ryuvi", "Nammi", "WattleFoxxo", "StiefelJackal", "RueShejn", "NepuShiro", "Choco", "Modern", "Xau", "Charizmare", "bredo", "alizard"],
+    "authors": [
+        "Frooxius",
+        "Enverex",
+        "rampa_3",
+        "Melnus",
+        "dfgHiatus",
+        "Earthmark",
+        "Ryuvi",
+        "Nammi",
+        "WattleFoxxo",
+        "StiefelJackal",
+        "RueShejn",
+        "NepuShiro",
+        "Choco",
+        "Modern",
+        "Xau",
+        "Charizmare",
+        "bredo",
+        "alizard"
+    ],
     "messages": {
-
         "General.OK": "OK",
         "General.Start": "Start",
         "General.Finish": "Finish",
@@ -238,9 +256,9 @@
         "World.Config.CleanupAssets": "Cleanup Unused Assets:",
         "World.Config.CleanupInterval": "Cleanup interval (seconds):",
 
-        "World.Config.ResoniteLinkHeader" : "ResoniteLink",
-        "World.Config.ResoniteLinkOff" : "ResoniteLink disabled",
-        "World.Config.ResoniteLinkPort" : "ResoniteLink running on port {port}",
+        "World.Config.ResoniteLinkHeader": "ResoniteLink",
+        "World.Config.ResoniteLinkOff": "ResoniteLink disabled",
+        "World.Config.ResoniteLinkPort": "ResoniteLink running on port {port}",
 
         "World.Actions.StartSession": "Start Session",
         "World.Actions.Join": "Join",
@@ -278,7 +296,7 @@
         "World.Actions.GetSessionOrb": "Get Session Orb",
         "World.Actions.CopySessionURL": "Copy Session URL",
 
-        "World.Actions.EnableResoniteLink" : "Enable ResoniteLink",
+        "World.Actions.EnableResoniteLink": "Enable ResoniteLink",
 
         "World.Indicator.NoData": "No Data",
         "World.Indicator.LocalWorld": "Local Machine",
@@ -527,6 +545,15 @@
 
         "Recovery.NoPasswordSetup": "No Password Setup",
         "Recovery.NoPasswordSetup.Description": "Please contact support at {supportUrl}.",
+
+        "Register.TooManyRegistrations": "Too many registrations",
+        "Register.TooManyRegistrations.Description": "You've registered too many accounts recently. Try again soon, or contact support at {supportUrl} if you believe this to be in error.",
+
+        "Register.StatusCheckError": "Registration status unknown",
+        "Register.StatusCheckError.Description": "Your account registration was submitted, but there was a problem checking its status. Please try logging in shortly.",
+
+        "Register.ManualLoginRequired": "Manual login required",
+        "Register.ManualLoginRequired.Description": "Your account was registered, but there was a problem retrieving session data for it. Please try logging in shortly.",
 
         "Register.UnknownError": "Unknown Error",
         "Register.UnknownError.Description": "An unknown error occurred during registration. Please contact support at {supportUrl}.",
@@ -2096,7 +2123,6 @@
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "Max decoupled asset processing (milliseconds)",
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "This controls the maximum amount of time that the renderer will spend uploading assets to the GPU when decouple mechanism is active. Lowering this might increase your maximum framerate (e.g. when testing max GPU performance), but can lower loading performance and at very low values might make UI slow to update.",
 
-
         "Settings.ImportSettings": "Import Settings",
         "Settings.ImportSettings.SessionUrls": "On Session URL Import",
         "Settings.ImportSettings.SessionUrls.Description": "When a Session URL is imported, what should happen. The available options are:\n\n<color=hero.yellow>Open</color> - Open the Session.\n<color=hero.yellow>SpawnInterface</color> - Spawns a representation(such as a session orb) of the URL in your current location.\n<color=hero.yellow>SpawnUrl</color> - Spawns the URL in your current location as a URL Interface.",
@@ -2546,7 +2572,6 @@
         "Wizard.TexturePacker.UseLargest": "Use Largest",
         "Wizard.TexturePacker.GenerateMipmaps": "Generate Mipmaps",
 
-
         "Wizard.TextureUnpacker.Title": "Texture Unpacking Wizard",
         "Wizard.TextureUnpacker.Unpacking": "Unpacking...",
         "Wizard.TextureUnpacker.UnpackTexture": "Unpack Texture",
@@ -2762,7 +2787,6 @@
         "Tutorial.Saving.Title": "Welcome Home!",
         "Tutorial.Saving.Content": "Welcome to your <b><i><color=hero.yellow>Home</b></i></color> world! This is where you'll end up every time you log in.<br><br>This is a world all your own, so any changes you make are able to be saved.<br><br>If you save, everything will be just as you left it when you return!",
 
-
         "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Unnamed Session</closeall>",
         "Tutorial.Teleporter.SessionList.UnnamedHost": "Hosted by: <i><alpha=#77>Unnamed Host</closeall>",
         "Tutorial.Teleporter.SessionList.HostName": "Hosted by: <b>{hostName}</b>",
@@ -2782,7 +2806,6 @@
         "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>Session join failed! :(</color><br><size=66%>You still have some options though:</size>",
 
         "Tutorial.Teleporter.Transporting": "Transporting...",
-
 
         "CloudHome.Info.OnlineUsers": "Online {online_users,plural, one {user} other {users}}: {online_users}<br>Joinable {joinable_users,plural, one {user} other {users}}: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderation",
@@ -3461,7 +3484,7 @@
         "Help.Controls.DesktopControls.FreecamMode.Content": "Enter or exit Freecam mode using <b><color=hero.purple>F6</closeall>. While in this mode, press and hold <b><color=hero.purple>Control</closeall> and <b><color=hero.purple>Right Mouse</closeall> to allow you to rotate your view, and use your <b><color=hero.purple>Movement Keys</closeall> to move around. Once you are looking and moving around, you can let go of <b><color=hero.purple>Control</closeall> - but keep <b><color=hero.purple>Right Mouse</closeall> held down, otherwise your view will lock in place again.",
 
         "Help.Controls.SteamBindings": "Steam Bindings",
-      
+
         "Help.General": "General",
         "Help.General.VoiceMode": "Voice Mode",
         "Help.General.VoiceMode.Content": "<color=hero.purple><b>Voice modes</closeall> allow you to change how you're heard by others.<br><br>You can change your voice mode in the top left of your <color=hero.purple><b>Dashboard</closeall>.",
@@ -3721,7 +3744,7 @@
         "Help.LinksAndResources.PlatformBotCommands.BadgeCommands.PotatoBadge.Content": "Grant or remove from yourself the potato badge. It tells users your computer works best in more optimized scenes.",
         "Help.LinksAndResources.PlatformBotCommands.BadgeCommands.PrideFlagBadges": "Pride Flag Badges",
         "Help.LinksAndResources.PlatformBotCommands.BadgeCommands.PrideFlagBadges.Content": "Grant or remove a pride flag badge to yourself. Sending this command without a flag name will list all available badges for use.",
-      
+
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.GetHeadlessAccessCode": "Get Headless Access Code",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.GetHeadlessAccessCode.Content": "Gives you the headless beta branch access code. To use this command you have to be subscribed to a supporter tier which has this perk.",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SharedStorage": "Shared Storage",
@@ -3780,7 +3803,7 @@
 
         "Help.LinksAndResources.PlatformBotCommands.BadgeCommands.PrideFlagBadges.Command": "/AddPrideBadge <Pride Flag Name>",
         "Help.LinksAndResources.PlatformBotCommands.BadgeCommands.PrideFlagBadges.SecondaryCommand": "/RemovePrideBadge <Pride Flag Name>",
-      
+
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SharedStorage.Command": "/ShareStorageWithUser <User Name> <Storage Amount>",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SharedStorage.SecondaryCommand": "/ShareStorageWithGroup <Group Name> <Storage Amount>",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SetCustom2DBadge.Command": "/Set2DBadge <Asset Hash>",
