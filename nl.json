@@ -2472,6 +2472,7 @@
         "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description": "Voor lokaal geïmporteerde gaussiaanse splats zal de kwaliteit nooit lager zijn dan deze waarde.<br><br>We raden af om deze waarde lager dan Medium in te stellen, omdat lagere kwaliteitsniveaus aanzienlijk intensiever en tijdrovender zijn om te comprimeren en daarom beter in de cloud kunnen worden gecomprimeerd.<br><br>Als je deze waarde instelt op Very High, worden gaussiaanse splats na het importeren veel sneller geladen omdat ze niet hoeven te worden gecomprimeerd, maar dit gaat ten koste van een hoog VRAM-gebruik.",
         "Settings.GaussianSplatQualitySettings.AdvancedQuality": "Geavanceerde kwaliteitsinstellingen",
         "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description": "Als deze optie is ingeschakeld, kunt u de specifieke coderingen configureren die voor verschillende Gaussian Splat-buffers worden gebruikt. Dit biedt zeer gedetailleerde controle over de kwaliteit. Het kan ook worden gebruikt voor test- en diagnostische doeleinden.",
-        "Settings.GaussianSplatQualitySettings.PositionFormat": "Bestandsformaat voor positiegegevens"
+        "Settings.GaussianSplatQualitySettings.PositionFormat": "Bestandsformaat voor positiegegevens",
+        "Settings.GaussianSplatQualitySettings.PositionFormat.Description": "Codering die wordt gebruikt voor de posities van de splats"
     }
 }
