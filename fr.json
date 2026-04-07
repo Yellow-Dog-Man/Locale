@@ -194,6 +194,9 @@
         "World.Connection.SteamNetworkingSockets": "Steam Networking Sockets",
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
+        "World.Connection.NoProtocolsAvailable": "Aucune méthode de connexion disponible",
+        "World.Connection.AllProtocolsFailed": "Toutes les méthodes de connexion ont échoué",
+
         "World.Error.AccessDenied": "Accès refusé",
         "World.Error.SecurityViolation": "Violation de sécurité",
         "World.Error.OnlyRegisteredUsers": "Seul les utilisateurs enregistrés peuvent rejoindre cette session",
@@ -525,6 +528,15 @@
         "Recovery.NoPasswordSetup": "Aucun mot de passe présent",
         "Recovery.NoPasswordSetup.Description": "Veuillez contacter notre support sur {supportUrl}.",
 
+        "Register.TooManyRegistrations": "Trop d’inscriptions",
+        "Register.TooManyRegistrations.Description": "Vous avez créé trop de comptes récemment. Réessayez plus tard, ou contactez le support sur {supportUrl} si vous considérez que c’est une erreur.",
+
+        "Register.StatusCheckError": "État d’inscription inconnu",
+        "Register.StatusCheckError.Description": "Votre inscription a été soumise, mais un problème est survenu lors de la vérification de son état. Veuillez attendre quelques instants puis tenter de vous connecter.",
+
+        "Register.ManualLoginRequired": "Connection manuelle requise",
+        "Register.ManualLoginRequired.Description": "Votre compte a été enregistré, mais un problème est survenu lors de la récupération des informations de session. Veuillez attendre quelques instants puis tenter de vous connecter.",
+
         "Register.UnknownError": "Erreur inconnue",
         "Register.UnknownError.Description": "Une erreur inconnue est survenue. Veuillez contacter notre support sur {supportUrl}.",
 
@@ -638,7 +650,8 @@
         "Permissions.NotAllowedToSpawn": "Vous n'êtes pas autorisé à matérialiser des choses ici.",
         "Permissions.NotAllowedToSave": "Vous n'êtes pas autorisé à sauvegarder des objets dans ce monde.",
         "Permissions.NotAllowedToSwapAvatar": "Vous n'êtes pas autorisé à équiper un avatar personnalisé ici.",
-        "Permissions.SavingDisabledForItem": "La sauvegarde est désactivée pour cet objet",
+        "Permissions.SavingDisabledForItem": "La sauvegarde est désactivée pour cet objet.",
+        "Permissions.NotAllowedToOpen": "Accès non autorisé.",
 
         "User.Actions.Silence": "Mettre en sourdine",
         "User.Actions.Mute": "Sourdine",
@@ -757,6 +770,7 @@
 
         "Tools.GeometryLineBrush.Name": "Pinceau géométrique",
 
+        "Tools.MeshPlaneBrush.Name": "Pinceau à maillage",
         "Tools.MeshPlaneBrush.AddHole": "Ajouter un trou",
 
         "Tools.Dev.Name": "Outil de développement",
@@ -2174,6 +2188,7 @@
         "Inspector.Member.SplitBlendshape.X": "Séparer la Blendshape par X",
         "Inspector.Member.SplitBlendshape.Y": "Séparer la Blendshape par Y",
         "Inspector.Member.SplitBlendshape.Z": "Séparer la Blendshape par Z",
+        "Inspector.Member.SplitBlendshapeToStaticMesh": "Extraire un modèle statique à partir de la Blendshape",
 
         "Inspector.ProceduralAsset.UpdateCount": "Nombre de mises à jour : {n}",
         "Inspector.ProceduralAsset.Error": "Erreur : {error}",
@@ -2414,6 +2429,8 @@
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ATTENTION !</size></color><br>Il est possible d'utiliser ce composant pour interagir avec des références depuis leur ID. Ce processus est appelé 'ref hacking'.<br><br><b>Avant</b> de continuer, faire cela n'est <b>pas</b> supporté officiellement et peut casser à tout moment. Ne comptez pas dessus pour vos créations.",
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>ATTENTION !</size></color><br>Les FacetPreset vont automatiquement mettre à jour la facette à sa dernière version. Si vous créez une version customisée, il est recommandé de retirer ce composant.",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>ATTENTION !</size></color><br>Ce composant n'est pas là comme un système de sécurité. Il est destiné à être utilisé pour les cas où vous souhaitez bloquer les méthodes plus faciles de sauvegarde pour des raisons de gameplay ou de conception. Il peut facilement être contourné et il ne sera en aucun cas rendu plus sûr.",
+
+        "Inspector.AI_GeneratedContent.Info": "Ce composent est conçu pour marquer du contenu créé par IA générative. Il est conseillé de le placer à la racine des objets qui ont été générés par ces méthodes. Cela rajoutera automatiquement les tags correspondants lorsque l’objet sera enregistré, et de même lors de l’enregistrement d’un monde qui en contiendrait. Cela permettra ainsi un filtrage de ce type de contenus.",
 
         "Inspector.ParticleSystem.BasicInfo": "Particules : {count}  Dernière durée de simulation : {time}    Allocations de rendu : {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "Traînées : {trailCount} (capacité : {trailCapacity}), Capacité de points : {trailPointCapacity}, Allocations : {allocationCount}",
