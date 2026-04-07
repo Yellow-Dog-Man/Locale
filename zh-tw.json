@@ -2,7 +2,6 @@
     "localeCode": "zh-tw",
     "authors": ["Melnus", "huang825172", "Harmonica", "Meow Wei 魏喵", "Lavenderfox"],
     "messages": {
-
         "General.OK": "OK",
         "General.Start": "開始",
         "General.Finish": "結束",
@@ -193,6 +192,9 @@
         "World.Connection.LNL.Relay": "LNL 轉發",
         "World.Connection.SteamNetworkingSockets": "Steam 網路協定",
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
+
+        "World.Connection.NoProtocolsAvailable": "沒有可用的連線方法",
+        "World.Connection.AllProtocolsFailed": "連線方法全部失敗",
 
         "World.Error.AccessDenied": "存取遭拒",
         "World.Error.SecurityViolation": "安全違規",
@@ -525,6 +527,15 @@
         "Recovery.NoPasswordSetup": "未設定密碼",
         "Recovery.NoPasswordSetup.Description": "請聯繫支援：{supportUrl}。",
 
+        "Register.TooManyRegistrations": "註冊次數過多",
+        "Register.TooManyRegistrations.Description": "您近期註冊帳號的次數過多。請稍後再試，若您認為這是錯誤，請聯繫支援：{supportUrl}。",
+
+        "Register.StatusCheckError": "註冊狀態不明",
+        "Register.StatusCheckError.Description": "您的帳號註冊申請已提交，但查詢狀態時發生問題。請稍後嘗試登入。",
+
+        "Register.ManualLoginRequired": "需要手動登入",
+        "Register.ManualLoginRequired.Description": "您的帳號已完成註冊，但擷取工作階段資料時發生問題。請稍後嘗試登入。",
+
         "Register.UnknownError": "未知錯誤",
         "Register.UnknownError.Description": "註冊時發生未知錯誤，請聯繫支援：{supportUrl}。",
 
@@ -564,7 +575,7 @@
         "Account.BirthDay": "出生日：",
         "Account.BirthYear": "出生年份：",
         "Account.PoliciesAgreement": "我同意 <color=#22B2FF>服務條款</color> 與 <color=#22B2FF>隱私政策</color>",
-        "Account.AlternateMethods": "使用第三方服務登錄：",
+        "Account.AlternateMethods": "使用第三方服務登入：",
 
         "Account.Saml2.Title": "SAML 2.0",
         "Account.Saml2.Select": "請選擇您想使用的 SAML 2.0 服務提供者：",
@@ -639,6 +650,7 @@
         "Permissions.NotAllowedToSave": "不允許在這個世界上儲存項目",
         "Permissions.NotAllowedToSwapAvatar": "不允許在此處切換到自定化身",
         "Permissions.SavingDisabledForItem": "本物品的儲存功能被停用",
+        "Permissions.NotAllowedToOpen": "不允許開啟此項目",
 
         "User.Actions.Silence": "全域靜音",
         "User.Actions.Mute": "靜音",
@@ -757,6 +769,7 @@
 
         "Tools.GeometryLineBrush.Name": "幾何線條筆刷",
 
+        "Tools.MeshPlaneBrush.Name": "網格平面筆刷",
         "Tools.MeshPlaneBrush.AddHole": "開洞",
 
         "Tools.Dev.Name": "開發工具",
@@ -1830,7 +1843,7 @@
         "Settings.NotificationSettings.PermissionChanged.Description": "啟用時，當您在世界中的權限身份發生變化時，您將收到通知。例如，當您從訪客變更為建築者時。",
 
         "Settings.NamePlateSettings.NameplateVisibility": "名牌可見度",
-        "Settings.NamePlateSettings.NameplateVisibility.Description": "選擇誰能看見您的名牌",
+        "Settings.NamePlateSettings.NameplateVisibility.Description": "選擇您可以看見哪些人的名牌",
         "Settings.NamePlateSettings.UseCustomNameplates": "顯示自訂名牌",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "若有些名牌難以閱讀或完全隱藏您要查看玩家的名稱和徽章，可以關閉此設定以顯示預設名牌",
 
@@ -2174,6 +2187,7 @@
         "Inspector.Member.SplitBlendshape.X": "沿 X 軸分割 Blendshape",
         "Inspector.Member.SplitBlendshape.Y": "沿 Y 軸分割 Blendshape",
         "Inspector.Member.SplitBlendshape.Z": "沿 Z 軸分割 Blendshape",
+        "Inspector.Member.SplitBlendshapeToStaticMesh": "將 Blendshape 分離為靜態網格",
 
         "Inspector.ProceduralAsset.UpdateCount": "更新計數：{n}",
         "Inspector.ProceduralAsset.Error": "錯誤：{error}",
@@ -2261,9 +2275,9 @@
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "將不受 Blendshape 影響的網格分離為零件",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "去除空 Blendshape",
-        "Inspector.SkinnedMesh.StripBlendshapesResult": "完成！刪除了：{n,plural, one {# blendshape} other {# blendshapes}}",
+        "Inspector.SkinnedMesh.StripBlendshapesResult": "完成！刪除了：{n,plural, one {# 個 Blendshape} other {# 個 Blendshape}}",
         "Inspector.SkinnedMesh.StripEmptyBones": "去除空骨骼",
-        "Inspector.SkinnedMesh.StripBonesResult": "完成！刪除了：{n,plural, one {# 骨骼} other {# 骨骼}}",
+        "Inspector.SkinnedMesh.StripBonesResult": "完成！刪除了：{n,plural, one {# 個骨骼} other {# 個骨骼}}",
         "Inspector.SkinnedMesh.BakeNonDrivenBlendshapes": "烘焙無驅動 Blendshapes",
         "Inspector.SkinnedMesh.BakeBlendShapeResult": "已烘焙 Blendshapes：{n}",
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "檢視骨骼邊界框",
@@ -2414,6 +2428,8 @@
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告</size></color><br>透過他們的ID，這個元件可以被用於與引用互動。這個過程常被稱為「引用駭入」。<br><br>在您這樣做<b>之前</b>，請知曉這種方式 <b>不被</b> 支援且隨時可能失效。請勿讓您的作品依賴於此項功能。",
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>警告</size></color><br>FacetPreset 會自動在我們發布新版介面元件物品時更新這個元件，若您正在自製介面元件，我們建議將本元件刪除。",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>警告</size></color><br>本元件並非設計作為安全機制或竊盜保護系統使用，本元件停用直接儲存功能的用意是作為遊戲流程或是設計的一部分，要繞過這個元件的機制相當容易，本元件未來也不會加強任何安全保護措施。",
+
+        "Inspector.AI_GeneratedContent.Info": "此元件用於標記由生成式 AI 所產生的內容。建議將本元件放置在透過此類方法生成的物件的根 Slot 上。當物品儲存時，以及包含此類物品的世界儲存時，此元件將自動新增標籤，以便篩選此類內容。",
 
         "Inspector.ParticleSystem.BasicInfo": "粒子數：{count}、FPS：{fps}、模擬時間：{time}、送出時間：{renderSubmitTime}、渲染分配：{allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "軌跡：{trailCount}（容量：{trailCapacity}）、軌跡點容量：{trailPointCapacity}、分配：{allocationCount}",
