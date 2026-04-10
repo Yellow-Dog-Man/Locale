@@ -510,6 +510,12 @@
         "Register.InvalidPassword": "Mot de passe invalide",
         "Register.InvalidPassword.Description": "Votre mot de passe doit avoir au moins 8 caractères, incluant un nombre et une lettre minuscule et une lettre majuscule.",
 
+        "Register.InvalidPromoCode": "Code Promo invalide",
+        "Register.InvalidPromoCode.Description": "Le Code Promo que vous avez rensigné est invalide ! Vérifiez que vous l’avez saisi correctement. Le code est insensible à la casse.",
+
+        "Register.ExpiredPromoCode": "Code Promo expiré",
+        "Register.ExpiredPromoCode.Description": "Ce Code Promo n’est malheureusement plus actif. Vous pouvez en essayer un autre, ou le retirer.",
+
         "Register.EmailAlreadyRegistered": "Courriel déjà utilisé",
         "Register.EmailAlreadyRegistered.Description": "Un compte utilisant ce courriel existe déjà. Si vous avez perdu votre mot de passe, cliquez sur \"Mot de passe oublié\". Vous pouvez aussi contacter le support sur {supportUrl}.",
 
@@ -577,6 +583,7 @@
         "Account.BirthYear": "Année de naissance",
         "Account.PoliciesAgreement": "J'accepte les <color=#22B2FF>conditions d'utilisation</color> et la <color=#22B2FF>politique de confidentialité</color>",
         "Account.AlternateMethods": "Vous connecter avec un service tiers :",
+        "Account.PromoCode": "Code Promo :",
 
         "Account.Saml2.Title": "SAML 2.0",
         "Account.Saml2.Select": "Veuillez sélectionner le fournisseur SAML 2.0 que vous voulez utiliser :",
@@ -608,6 +615,7 @@
         "Account.TOTP.Message.DeactivationComplete": "La 2FA a été désactivée avec succès sur votre compte.<br><br>Votre compte est maintenant à risque accru !<br><br>Nous vous recommandons fortement de configurer à nouveau la 2FA immédiatement, surtout si vous avez utilisé un code de récupération en raison de la perte de votre téléphone .",
 
         "Account.Type.Standard": "Compte Standard",
+        "Account.Type.Promo": "Compte Promo",
         "Account.Type.Business": "Compte Business",
         "Account.Type.Patreon": "Compte Patreon",
         "Account.Type.Stripe": "Compte Stripe",
