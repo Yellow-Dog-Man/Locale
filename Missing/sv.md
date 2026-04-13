@@ -20,6 +20,8 @@ Undo.RemoveListElement
 Tools.Brush.FinishStrokeGroup  
 Tools.MeshPlaneBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
 Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.AI_GeneratedContent.Info  
 Tutorial.HelpTabPanel.Title  

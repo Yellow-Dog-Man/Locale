@@ -610,6 +610,8 @@ Settings.DashSettings.DashCurvature
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.DashSettings.AllowReplacingSettings  
 Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings  

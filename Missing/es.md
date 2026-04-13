@@ -124,6 +124,8 @@ Settings.LegacyFeatureSettings.SuppressFeetSimulation
 Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling  
 Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.NotificationSettings.InviteRequest  
 Settings.NotificationSettings.InviteRequest.Description  
 Settings.NotificationSettings.PermissionChanged  

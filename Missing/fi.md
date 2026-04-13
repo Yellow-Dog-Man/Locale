@@ -110,6 +110,8 @@ Settings.LocaleSettings.UseImperialUnits
 Settings.LocaleSettings.UseImperialUnits.Description  
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings.UserOnline.Description  
 Settings.NotificationSettings.UserSociable.Description  

@@ -12,6 +12,8 @@ Register.ManualLoginRequired
 Register.ManualLoginRequired.Description  
 Permissions.NotAllowedToOpen  
 Tools.MeshPlaneBrush.Name  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.RendererDecouplingSettings.ActivationFramerate.Description  
 Settings.RendererDecouplingSettings.DeactivationFrames.Description  
 Settings.RendererDecouplingSettings.ForceDecouple.Description  
