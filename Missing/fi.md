@@ -131,6 +131,8 @@ Settings.FacetAnchorsSettings.AnimationSpeed.Description
 Settings.FacetAnchorsSettings.FacetAnchorToggle  
 Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
 Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle.Description  
 Settings.LaserSettings.ModulateEndAngle.Description  

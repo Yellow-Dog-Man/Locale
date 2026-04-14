@@ -130,6 +130,8 @@ Settings.NotificationSettings.InviteRequest
 Settings.NotificationSettings.InviteRequest.Description  
 Settings.NotificationSettings.PermissionChanged  
 Settings.NotificationSettings.PermissionChanged.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Settings.EditSettings  
 Settings.EditSettings.ConfirmComponentDestroy  
 Settings.EditSettings.ConfirmComponentDestroy.Description  

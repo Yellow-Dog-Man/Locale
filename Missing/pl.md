@@ -22,6 +22,8 @@ Tools.MeshPlaneBrush.Name
 Tools.MeshPlaneBrush.AddHole  
 Settings.DashSettings.ScreenSwitchSpeed  
 Settings.DashSettings.ScreenSwitchSpeed.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.AI_GeneratedContent.Info  
 Tutorial.HelpTabPanel.Title  

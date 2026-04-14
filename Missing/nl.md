@@ -4,6 +4,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 # Dutch [nl]
 Settings.DashSettings.ScreenSwitchSpeed  
 Settings.DashSettings.ScreenSwitchSpeed.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Universe.Nebulae.NGC604  
 Universe.Nebulae.Orion  
 Universe.Nebulae.Tarantula  
