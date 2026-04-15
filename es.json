@@ -1,8 +1,7 @@
 {
     "localeCode": "es",
-    "authors": ["Skywind Kitsune", "Ruz", "LuxKitty"],
+    "authors": ["Skywind Kitsune", "Ruz", "LuxKitty", "rad4ngel"],
     "messages": {
-
         "General.OK": "OK",
         "General.Start": "Iniciar",
         "General.Finish": "Finalizar",
@@ -38,6 +37,7 @@
         "General.UnderstandEnable": "Lo entiendo, Activar",
         "General.Dismiss": "Descartar",
         "General.Edit": "Editar",
+        "General.DontShowAgain": "No mostrar de nuevo",
 
         "General.UI.SearchPrompt": "Buscar...",
         "General.UI.SearchPromptLong": "Escriba para buscar...",
@@ -96,6 +96,9 @@
         "Interaction.Grab.Precision": "Agarre: Preciso",
         "Interaction.Grab.Auto": "Agarre: Automático",
         "Interaction.Grab.Off": "Agarre: Sólo Láser",
+        "Interaction.Grabbing": "Agarrando",
+        "Interaction.Grab.StickyGrab": "Agarre Pegajoso",
+        "Interaction.Grab.HoldToHold": "Manten para sostener",
         "Interaction.Locomotion": "Locomoción",
         "Interaction.Locomotion.None": "Ninguno",
 
@@ -147,6 +150,7 @@
         "Dash.Screens.Session": "Sesión",
         "Dash.Screens.FileBrowser": "Archivos",
         "Dash.Screens.Settings": "Ajustes",
+        "Dash.Screens.Help": "Ayuda",
         "Dash.Screens.Exit": "Salir",
 
         "Dash.Actions.PasteFromClipboard": "Pegar contenido del portapapeles",
@@ -189,6 +193,9 @@
         "World.Connection.SteamNetworkingSockets": "Sockets de Red de Steam",
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
+        "World.Connection.NoProtocolsAvailable": "No hay métodos de conexión disponibles",
+        "World.Connection.AllProtocolsFailed": "Todos los métodos de conexión fallaron",
+
         "World.Error.AccessDenied": "Acceso Denegado",
         "World.Error.SecurityViolation": "Violación de Seguridad",
         "World.Error.OnlyRegisteredUsers": "Sólo usuarios registrados pueden unirse a la sesión",
@@ -210,7 +217,10 @@
         "World.Error.HostBlockedDetail": "Has bloqueado al anfitrión",
         "World.Error.WorldCrash": "El mundo ha crasheado",
         "World.Error.WorldCrashDetail": "Error fatal al actualizar el mundo",
-        "World.Error.Unknown": "Error desconocido",
+        "World.Error.Handshake": "Error de establecimiento de conexión",
+        "World.Error.Unknown": "Error Desconocido",
+        "World.Error.FailedToCreateBanAccessKey": "No se ha podido crear la clave de acceso de bloqueo",
+        "World.Error.UnhandledError": "Error Sin Gestionar",
 
         "World.Config.Name": "Nombre del Mundo:",
         "World.Config.Description": "Descripción:",
@@ -226,6 +236,10 @@
         "World.Config.AutosaveInterval": "Intervalo de autoguardado (en minutos):",
         "World.Config.CleanupAssets": "Limpiar recursos no utilizados:",
         "World.Config.CleanupInterval": "Intervalo de limpieza (en segundos):",
+
+        "World.Config.ResoniteLinkHeader": "ResoniteLink",
+        "World.Config.ResoniteLinkOff": "ResoniteLink desactivado",
+        "World.Config.ResoniteLinkPort": "ResoniteLink se está ejecutando en el puerto {port}",
 
         "World.Actions.StartSession": "Iniciar una sesión",
         "World.Actions.Join": "Unirse",
@@ -262,6 +276,8 @@
         "World.Actions.ModifyMetadata": "Editar metadatos",
         "World.Actions.GetSessionOrb": "Obtener burbuja de la sesión",
         "World.Actions.CopySessionURL": "Copiar URL de la sesión",
+
+        "World.Actions.EnableResoniteLink": "Activar ResoniteLink",
 
         "World.Indicator.NoData": "Sin Datos",
         "World.Indicator.LocalWorld": "Máquina Local",
@@ -300,6 +316,7 @@
         "World.Category.ContactsSessions": "Sesiones de Contactos",
         "World.Category.HeadlessSessions": "Sesiones dedicadas",
         "World.Category.Social": "Mundos Sociales",
+        "World.Category.Avatars": "Avatares",
         "World.Category.Games": "Juegos",
         "World.Category.Art": "Arte",
         "World.Category.Tutorials": "Tutoriales",
@@ -358,7 +375,7 @@
         "World.Edit.AccessPrivate": "Sólo Yo",
         "World.Edit.AccessPatreon": "Partidarios de Patreon",
         "World.Edit.AccessPublic": "Cualquiera (público)",
-        "World.Edit.ReadOnly": "Leer Solamente",
+        "World.Edit.ReadOnly": "Solo lectura",
 
         "Tools.AvatarCreator": "Creador de Avatares",
         "Tools.FullBodyCalibrator": "Calibrador de Rastreadores",
@@ -510,6 +527,15 @@
         "Recovery.NoPasswordSetup": "Contraseña No Establecida",
         "Recovery.NoPasswordSetup.Description": "Por favor contacte con soporte en {supportUrl}.",
 
+        "Register.TooManyRegistrations": "Demasiados registros",
+        "Register.TooManyRegistrations.Description": "Has registrado muchas cuentas recientemente. Intenta de nuevo mas tarde, o contacta al soporte en {supportUrl} si crees que esto es un error.",
+
+        "Register.StatusCheckError": "Registration status unknown",
+        "Register.StatusCheckError.Description": "Your account registration was submitted, but there was a problem checking its status. Please try logging in shortly.",
+
+        "Register.ManualLoginRequired": "Manual login required",
+        "Register.ManualLoginRequired.Description": "Your account was registered, but there was a problem retrieving session data for it. Please try logging in shortly.",
+
         "Register.UnknownError": "Error Desconocido",
         "Register.UnknownError.Description": "Un error desconocido ocurrió durante el registro. Por favor contacte con soporte en {supportUrl}.",
 
@@ -583,6 +609,7 @@
         "Account.Type.Standard": "Cuenta Estándar",
         "Account.Type.Business": "Cuenta Business",
         "Account.Type.Patreon": "Patrocinador en Patreon",
+        "Account.Type.Stripe": "Patrocinador en Stripe",
         "Account.Type.Mentor": "Mentor de {platform}",
         "Account.Type.Moderator": "Moderador de {platform}",
         "Account.Type.Team": "Equipo de {platform}",
@@ -622,6 +649,8 @@
         "Permissions.NotAllowedToSpawn": "No posee permisos para crear objetos de su inventario aquí.",
         "Permissions.NotAllowedToSave": "No posee permisos para guardar objetos en este mundo.",
         "Permissions.NotAllowedToSwapAvatar": "No posee permisos para usar un avatar personalizado aquí.",
+        "Permissions.SavingDisabledForItem": "El guardado está desactivado para este objeto.",
+        "Permissions.NotAllowedToOpen": "No tienes permiso para abrir esto.",
 
         "User.Actions.Silence": "Silenciar",
         "User.Actions.Mute": "Enmudecer",
@@ -637,6 +666,7 @@
         "Contacts.IgnoreRequest": "Ignorar Solicitud",
         "Contacts.Invite": "Invitar Aquí",
         "Contacts.RevokeInvite": "Revocar Invitación",
+        "Contacts.RequestInvite": "Solicitar Invitación",
         "Contacts.BanFromAllSessions": "Banear de todas mis sesiones",
         "Contacts.UnbanFromAllSessions": "Desbanear de todas mis sesiones",
         "Contacts.BanFromCurrentWorld": "Banear del mundo actual",
@@ -666,6 +696,19 @@
         "Contacts.Bot": "Cuenta Bot",
         "Contacts.Migrated": "El Contacto no ha Migrado",
         "Contacts.IncompatibleSession" : "Sesión incompatible",
+        "Contacts.AskToJoin": "<color=hero.yellow>Solicita</color> Unirte",
+
+        "Contacts.InviteRequest.UserWantsToJoin": "{username} quiere unirse a ti",
+        "Contacts.InviteRequest.UserWantsToInviteAnother": "\"{requestingUser}\" quiere invitar a \"{userToInvite}\" a \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantInvite": "Conceder invitación (una sola vez)",
+        "Contacts.InviteRequest.AddAsContact": "Añadir \"{username}\" como contacto",
+        "Contacts.InviteRequest.AddAsContactOfHeadless": "Añadir \"{username}\" como contacto de Servidor Dedicado",
+        "Contacts.InviteRequest.AddHostAsContact": "Añadir \"{username}\" (anfitrión) como contacto",
+        "Contacts.InviteRequest.HostIsUnregistered": "El anfitrión es un usuario no registrado",
+        "Contacts.InviteRequest.ForwardToHost": "Reenviar al anfitrión: {username}",
+        "Contacts.InviteRequest.SentRequest": "Se ha solicitado una invitación",
+        "Contacts.InviteRequest.ForwardedRequest": "Se ha reenviado la solicitud de invitación de \"{username}\" a la sesión \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantedRequest": "Se ha concedido a \"{username}\" la invitación a la sesión \"{sessionName}\"",
 
         "Notifications.IsSociable": "Está sociable, ¡invítale!",
         "Notifications.IsOnline": "Está en línea",
@@ -675,6 +718,8 @@
         "Notifications.ReceivedItem": "Le envió un objeto:",
         "Notifications.VoiceMessage": "Envió un mensaje de voz",
         "Notifications.SessionStarted": "Sesión iniciada:",
+        "Notifications.ReceivedInviteRequestDirect": "Quiere ser invitado",
+        "Notifications.ReceivedInviteRequestForwarded": "Quiere invitar a:",
         "Notifications.UserJoined": "Un usuario se unió",
         "Notifications.UserLeft": "Un usuario se ha marchado",
         "Notifications.PermissionChanged": "Tu rol cambio a {new}",
@@ -714,11 +759,18 @@
         "Undo.ExtractMaterialsFromHierarchy": "Extraer Materiales desde Jerarquía",
         "Undo.BatchConvertMaterials": "Convertir materiales en lotes",
 
+        "Undo.AddListElement": "Añadir elemento a la lista",
+        "Undo.RemoveListElement": "Remover elemento de una lista",
+
         "Tools.Brush.ChangeColor": "Cambiar Color",
         "Tools.Brush.IncrementSize": "Incrementar Tamaño",
         "Tools.Brush.DecrementSize": "Disminuir Tamaño",
+        "Tools.Brush.FinishStrokeGroup": "Terminar el grupo de trazos",
 
         "Tools.GeometryLineBrush.Name": "Pincel de Linea Geométrica",
+
+        "Tools.MeshPlaneBrush.Name": "Pincel de malla plana",
+        "Tools.MeshPlaneBrush.AddHole": "Añadir un hueco",
 
         "Tools.Dev.Name": "Herramienta de Desarrollo",
         "Tools.Dev.CreateNew": "Crear Nuevo...",
@@ -747,11 +799,13 @@
         "Tools.Color.Name": "Herramienta de Color",
         "Tools.Color.Picker": "Selector de Color",
 
+        "Tools.GrabbableSetter.Name": "Herramienta de ajuste de agarre",
         "Tools.GrabbableSetter.Scalable": "Establecer Escalable",
         "Tools.GrabbableSetter.NonScalable": "Establecer No Escalable",
         "Tools.GrabbableSetter.ApplyToRoot": "Aplicar en Raíz",
         "Tools.GrabbableSetter.AppyToHit": "Aplicar en Objeto Tocado",
 
+        "Tools.CharacterCollider.Name": "Herramienta para configurar colisiones de personajes",
         "Tools.CharacterCollider.MarkGrippable": "Marcar como agarrable",
         "Tools.CharacterCollider.DontMarkGrippable": "Desmarcar como agarrable",
         "Tools.CharacterCollider.EnsureWalkRun": "Forzar locomoción Caminar/Correr",
@@ -767,6 +821,7 @@
         "Tools.Light.Shadows.Hard": "Sombras Definidas",
         "Tools.Light.Shadows.Soft": "Sombras Suaves",
 
+        "Tools.MeshVisibility.Name": "Herramienta de visibilidad de malla",
         "Tools.MeshVisibility.KeepShadow": "Mantener Sombra",
         "Tools.MeshVisibility.ShadowOff": "Desactivar Sombra",
         "Tools.MeshVisibility.ShadowOn": "Activar Sombra",
@@ -775,6 +830,7 @@
 
         "Tools.Mesh.Name": "Herramienta de Malla",
 
+        "Tools.Slicer.Name": "Herramienta de corte de objetos",
         "Tools.Slicer.Add": "Agregar rebanador",
         "Tools.Slicer.Clear": "Restablecer configuración",
 
@@ -834,8 +890,14 @@
         "Tools.Glue.Mode.BakeSkinnedMeshes": "Modo: Hornear mallas (skinned)",
         "Tools.Glue.Mode.ParentObjects": "Modo: Enparentar objetos",
 
+        "Tools.RigTransfer.Name": "Herramienta de transferencia de <color=hero.yellow>Rig</color> de malla ",
         "Tools.RigTransfer.ClearSource": "Limpiar origen",
 
+        "Tools.GaussianSplat.Name": "Herramienta de Salpicado Gaussiano",
+        "Tools.GaussianSplat.ClipBox": "Caja de recorte",
+        "Tools.GaussianSplat.ClipSphere": "Esfera de recorte",
+        "Tools.GaussianSplat.ClipCylinder": "Cilindro de recorte",
+        
         "Tools.ComponentClone.Name": "Herramienta de clonar componente",
         "Tools.ComponentClone.SingleInstanceOn": "Instancia Única: Sí",
         "Tools.ComponentClone.SingleInstanceOff": "Instancia Única: No",
@@ -858,12 +920,11 @@
         "CreateNew.ParticleSystem": "Sístema de partículas",
         "CreateNew.LegacyParticleSystem": "Sistema Viejo de Partículas",
 
-                
-
         "CreateNew.Object": "Objeto",
         "CreateNew.Object.AvatarCreator": "Creador de Avatar",
         "CreateNew.Object.Camera": "Cámara",
         "CreateNew.Object.ReflectionProbe": "Sonda de Reflexiones",
+        "CreateNew.Object.ReverbZone": "Zona de Reverberación",
         "CreateNew.Object.Mirror": "Espejo",
         "CreateNew.Object.Portal": "Portal",
         "CreateNew.Object.VideoPlayer": "Reproductor de video",
@@ -889,6 +950,8 @@
         "CreateNew.Editor.AssetOptimizationWizard": "Asistente de Optimización de Recursos",
         "CreateNew.Editor.CubemapCreator": "Creador de Cubemaps",
         "CreateNew.Editor.ReflectionProbes": "Asistente de Sondas de Reflexiones",
+        "CreateNew.Editor.TexturePackingWizard": "Asistente de empaquetado de texturas",
+        "CreateNew.Editor.TextureUnpackingWizard": "Asistente de desempaquetado de texturas",
 
         "CreateNew.3DModel": "Modelo 3D",
         "CreateNew.3DModel.Triangle": "Triángulo",
@@ -912,7 +975,7 @@
         "CreateNew.Light": "Luz",
         "CreateNew.Light.Point": "Punto",
         "CreateNew.Light.Spot": "Zona",
-        "CreateNew.Light.Directional": "Direccional",
+        "CreateNew.Light.Directional": "Direccional (Sol)",
 
         "CreateNew.Materials": "Materiales",
 
@@ -981,6 +1044,15 @@
         "Importer.Model.3DScan": "Escaneo 3D",
         "Importer.Model.CAD": "Modelo CAD",
         "Importer.Model.PointCloud": "Nube de Puntos",
+
+        "Importer.Model.GaussianSplat": "Salpicado Gaussiano",
+        "Importer.Model.GaussianSplatVertical": "Eje Vertical",
+        "Importer.Model.RegularVertical": "Regular",
+        "Importer.Model.FlipVertical": "Voltear eje Y",
+        "Importer.Model.GaussianSplatEncoding": "Codificando",
+        "Importer.Model.GaussianSplatLossless": "Sin pérdida de calidad",
+        "Importer.Model.GaussianSplatSPZ": "SPZ (con pérdida de calidad)", 
+
         "Importer.Model.VertexColorModel": "Modelo con Vértices Coloreados",
         "Importer.Model.AdvancedSettings": "Ajustes Avanzados",
         "Importer.Model.ModelKindPrompt": "¿Qué tipo de modelo 3D?",
@@ -1041,6 +1113,25 @@
         "Importer.Model.Advanced.PositionAtOrigin": "Posicionar en Origen",
         "Importer.Model.Advanced.AssetsOnObject": "Colocar recursos en objeto",
 
+        "Importer.Splat.Progress.Importing": "Importando Salpicado Gaussiano",
+        "Importer.Splat.Progress.ReadingHeader": "Leyendo encabezado del archivo",
+        "Importer.Splat.Progress.ConvertingSplats": "Se han convertido {converted} salpicaduras de {total}",
+        "Importer.Splat.Progress.EncodingData": "Codificando datos convertidos",
+
+        "GaussianSplat.Encoding.Title": "Codificando Salpicado Gaussiano",
+        "GaussianSplat.Encoding.Metadata": "Codificando metadatos",
+        "GaussianSplat.Encoding.EncodingPositions": "Posiciones codificadas {encoded} de {total}",
+        "GaussianSplat.Encoding.EncodingRotations": "Rotaciones codificadas {encoded} de {total}",
+        "GaussianSplat.Encoding.EncodingScales": "Escalas codificadas {encoded} de {total}",
+        "GaussianSplat.Encoding.EncodingAlphas": "Alfas codificados {encoded} de {total}",
+        "GaussianSplat.Encoding.EncodingColors": "Colores codificados {encoded} de {total}",
+        "GaussianSplat.Encoding.EncodingFinalizing": "Finaliazndo codificación",
+
+        "GaussianSplat.Processing.RemovingSplats": "Removiendo salpicaduras",
+        "GaussianSplat.Processing.SplatProgress": "Procesado {count} de {total}",
+        "GaussianSplat.Processing.LoadingData": "Cargando datos del recurso",
+        "GaussianSplat.Processing.FailNoData": "No se han podido obtener los datos del recurso para su procesamiento",
+
         "Importer.Video.Title": "Importar Video",
         "Importer.Video.Prompt": "¿Qué está importando?",
         "Importer.Video.Regular": "Video",
@@ -1057,6 +1148,12 @@
         "Importer.Slices.TitleGrayscale": "Secuencia de imágenes como textura volumétrica (escala de grises)",
         "Importer.Slices.Description": "Procesa todas las imágenes en la carpeta como una textura volumétrica",
 
+        "Importer.UnsupportedRecordType.Heading": "Tipo de registro no soportado",
+        "Importer.UnsupportedRecordType.Description": "El registro que estás intentando importar({url}) tiene un tipo no soportado. Su tipo es: {recordType}. Por favor, comunícanoslo en {bugUrl}.",
+        "Importer.Link.Invalid.Heading": "Enlace de carpeta no válido",
+        "Importer.Link.Invalid.Description": "El enlace a la carpeta({url}), que estás intentando importar no es válido. Comprueba el enlace y vuelve a intentarlo.",
+        "Inventory.Link.LinkText": "Enlace al inventario de {name}",
+
         "Exporter.Title": "Exportar",
         "Exporter.FileName": "Nombre de archivo:",
         "Exporter.ExportAs": "Exportar como:",
@@ -1070,6 +1167,9 @@
         "Export.AudioExportable.OriginalFormat" : "Audio <size=75%>(formato original)</size>",
 
         "Export.VideoExportable.OriginalFormat" : "Video <size=75%>(formato original)</size>",
+
+        "Export.GaussianSplatExportable.PLY": "PLY (sin pérdida de calidad)",
+        "Export.GaussianSplatExportable.SPZ": "SPZ (con pérdida de calidad)",
 
         "Importer.Package.Progress.DecodingPackage" : "Decodificando paquete",
         "Importer.Package.Progress.DecodingObject" : "Decodificando objeto",
@@ -1317,7 +1417,7 @@
         "Settings.InteractiveCameraPhotoSettings": "Fotos",
         "Settings.InteractiveCameraPostProcessingSettings": "Post Procesado",
 
-        "Settings.GeneralControlsSettings.PrimaryHand": "Mano Primari",
+        "Settings.GeneralControlsSettings.PrimaryHand": "Mano Primaria",
         "Settings.GeneralControlsSettings.PrimaryHand.Description": "Cuál mano es considerada como primaria. Varios sistemas utilizan esto para sus interacciones, por ejemplo al equipar herramientas.",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Intervalo de doble click",
         "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Para cualquier interacción que requiera un doble click, esta opción controla el intervalo máximo entre el click que se considere un doble click. Si estás teniendo problemas activando el doble click, disminuye este valor. Si se detectan demasiado, aumenta el valor.",
@@ -1352,6 +1452,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType": "Tipo de Agarre de Manos Predeterminado",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Esto determina cuál es tu modo de agarre predeterminado para las manos cuando ingresas en nuevos mundos.\n\n<color=hero.yellow>Palma:</color> Agarrarás todos los objetos que estén cerca de tu palma.\n\n<color=hero.yellow>Precisión:</color> Agarrarás un único objeto entre tu dedo índice y pulgar.\n\n<color=hero.yellow>Auto:</color> El modo cambia entre Palma y Precisión dependiendo de la orientación de tu mano.\n\n<color=hero.yellow>Desactivado:</color> Sólo podrás agarrar objetos con tus láseres.",
 
+        "Settings.FullBodyTrackingSettings": "Seguimiento de cuerpo completo",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Ángulo horizontal del cuerpo",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "Esta es la desviación angular entre los pies y la cabeza; si se supera este valor, se considerará que el personaje está en posición horizontal. Esto afecta a ciertos aspectos, como la sobrescritura de las poses del rastreador con la simulación de los pies.",
+
         "Settings.GamepadSettings": "Mando",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Velocidad de mira con palanca de mando",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Usa esto para ajustar la sensibilidad de la velocidad con la cual la vista se mueve con la palanca de mando.",
@@ -1370,6 +1474,16 @@
         "Settings.MouseSettings.MouseRotateSpeed.Description": "Al sostener objetos en modo escritorio, esto controla qué tan rápido serán rotados sobre sus ejes con el ratón.",
         "Settings.MouseSettings.MouseFreeformRotateSpeed": "Velocidad de rotación libre",
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "Al sostener objetos en modo escritorio, esto controla qué tan rápido serán rotados en forma libre.",
+        "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "Velocidad de desplazamiento",
+        "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "Al sostener objetos en modo escritorio, esto controla que tan rapido se moverán hacia adelante y atras con la rueda del ratón.",
+
+        "Settings.KeyboardLookSettings": "Configuración de Mirae con el Teclado",
+        "Settings.KeyboardLookSettings.LookEnabled": "Mirar con el Teclado",
+        "Settings.KeyboardLookSettings.LookEnabled.Description": "Al estar activo, Mirar con el Teclado te permite mover la vista utilizando las teclas de flecha del teclado. <br/> Está pensada para situaciones en las que no está disponible o no es adecuado utilizar el ratón, como cuando se usa un ordenador portátil o cuando se necesitan alternativas accesibles al ratón.",
+        "Settings.KeyboardLookSettings.HorizontalSpeed": "Velocidad horizontal de Mirar con el Teclado",
+        "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "Utiliza esta opción para ajustar la velocidad con la que se mueve la cabeza horizontalmente al usar Mirar con el Teclado.",
+        "Settings.KeyboardLookSettings.VerticalSpeed": "Velocidad vertical de Mirar con el Teclado.",
+        "Settings.KeyboardLookSettings.VerticalSpeed.Description": "Utiliza esta opción para ajustar la velocidad con la que se mueve la cabeza verticalmente al usar Mirar con el Teclado.",
 
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Vibración de controladores",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Usa esto para habilitar o deshabilitar la vibración específicamente en los controladores de VR.",
@@ -1471,6 +1585,10 @@
         "Settings.SteamLinkSettings.OSC_DataPort": "Puerto de rastreo facial por OSC",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "Cuál puerto debería ser usado para recibir datos de rastreo facial por OSC. Esto debería coincidir con el puerto que has establecido en las opciones de SteamVR para que funcione el rastreo.",
 
+        "Settings.BabbleSettings": "Project Babble",
+        "Settings.BabbleSettings.OSC_DataPort": "Puerto de rastreo facial por OSC",
+        "Settings.BabbleSettings.OSC_DataPort.Description": "Cuál puerto debería ser usado para recibir datos de rastreo facial por OSC. Esto debería coincidir con el puerto que has establecido en la página opciones en la aplicación de Babble.",
+
         "Settings.HapticPointMapping.MappingTarget": "Mapear a",
         "Settings.HapticPointMapping.MappingTarget.Description": "Usa esto para configurar a qué parte del avatar deseas que esté mapeado este dispositivo.",
 
@@ -1555,6 +1673,12 @@
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "Configurar Dispositivos de Salida de Audio Preferidos",
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "Dispositivos de Salida de Audio",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Establecer como Predeterminado",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "Forzar la actualización de los dispositivos de audio",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Al pulsar aquí, se obligará a {appName} a actualizar la lista de dispositivos de audio. Normalmente se detectan los nuevos dispositivos de audio; sin embargo, si {appName} no detecta un dispositivo de audio que se ha añadido, pulsar aquí podría ayudar.",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "Separar la Salida de la Cámara para Transmisiones",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "Cuando está habilitado, la cámara de transmisión captará el audio desde su punto de vista y lo enviará a un dispositivo de audio independiente.<br><br>Esto te permite conservar tu propio audio desde tu perspectiva, mientras capturas el audio desde la perspectiva de la cámara.<br><br>Para que esto funcione, el dispositivo seleccionado debe ser distinto de tu dispositivo de salida habitual.",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Dispositivos de salida de la Cámara para Transmisiones",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "Dispositivos de Salida de la Cámara de Transmisiones",
 
         "Settings.AudioVolumeSettings.MasterVolume": "Volumen Maestro",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "Controla el volumen de todo uniformemente. Si todo suena demasiado fuerte o bajo, prueba alterando esta opción.",
@@ -1571,6 +1695,8 @@
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Cuando el modo Susurro esté activado, esto indica qué tan fuerte sonarán los sonidos externos a la esfera. Si son demasiado fuertes o bajos, cambia esto para alterar la atenuación.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Volumen de mensajes de voz",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Indica qué tan fuerte sonarán otros sonidos cuando estés grabando un mensaje de voz en Contactos. Puede ayudar a prevenir la \"inhibición de voz\", facilitando concentrarse en lo que estás diciendo.",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff": "Forzar desactivación de los efectos de audio para las voces",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description": "Activar esta opción desactivará cualquier efecto de audio (como la reverberación) aplicado a las voces de otros usuarios del mundo. Esto puede resultar útil si tienes dificultades para entender las voces debido a estos efectos.<br><br><color=hero.red>Importante:</color> Los mundos pueden desactivar esta función de forma opcional si necesitan efectos de voz por motivos relacionados con la jugabilidad. En esos casos, esta configuración no tendrá ningún efecto.",
 
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Normalización de voz",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Esto tratará de asegurar que tu voz sea llevada a un nivel uniforme. Esto ayuda a que tu volumen sea el mismo que el de otros usuarios, independientemente de tus opciones de micrófono. Recomendamos mantener habilitada esta opción para que seas escuchado correctamente por otros usuarios.",
@@ -1588,6 +1714,14 @@
 
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Supresión de ruido (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Esta característica procesa el audio entrante para filtrar ruidos no deseados. Puede limpiar audio de micrófonos ruidosos, produciendo una voz más clara. Recomendamos mantener esta opción habilitada. Sin embargo, también puede filtrar algunos ruidos que no son considerados como habla.",
+
+        "Settings.AudioPerformanceSettings": "Ajustes de Rendimiento de Audio",
+        "Settings.AudioPerformanceSettings.MaxVoices": "Número máximo de sonidos activos",
+        "Settings.AudioPerformanceSettings.MaxVoices.Description": "Esto controla el número de sonidos que se pueden reproducir al mismo tiempo. Si aumentas este valor, podrás escuchar más sonidos a la vez, aunque a costa de un mayor uso de la CPU.<br><br>Si lo configuras en un valor demasiado alto, es posible que se oigan crujidos en el audio.",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize": "Tamaño del Cuadro de Simulación",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Controla la cantidad de datos de audio que se procesan de una sola vez al renderizar el audio. Aumentar el valor puede mejorar el rendimiento en algunos aspectos, pero a cambio se reducirán la frecuencia de los eventos de audio y aumentará la latencia.<br><br>Por lo general, no recomendamos modificar este valor y se aconseja mantener el valor predeterminado de 1024.",
+        "Settings.AudioPerformanceSettings.OutputBufferSize": "Tamaño del Búfer de Reproducción",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Controla el tamaño del búfer para la reproducción de audio. Los valores más altos provocan una mayor latencia de audio, pero son más resistentes a los crujidos y los chasquidos.<br><br>Al reducir este valor, se puede disminuir la latencia de audio, pero el sistema será más susceptible a los crujidos y los cortes.",
 
         "Settings.VoiceSettings": "Configuraciones de Voz",
         "Settings.VoiceSettings.MutePersistence": "Persistencia de Silenciado",
@@ -1647,6 +1781,8 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Depurar vinculaciones de entrada",
         "Settings.DebugSettings.DebugInputBindings.Description": "Al habilitarse, será visible la información de depuración para el sistema de vinculaciones de entrada. Útil para desarrolladores.",
+        "Settings.DebugSettings.ConvertParticleSystems": "Convertir sistemas de partículas a PhotonDust",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "Habilitar esta opción ejecutará una conversión del sistema de partículas de legado al nuevo sistema personalizado (PhotonDust) para cualquier <b>nuevo</b> elemento y mundo que se cargue. <br><br><color=red>¡Esto está pensado únicamente con fines de prueba!</color> Si no formas parte del equipo de pruebas, no te recomendamos que actives esta opción, ya que TU CONTENIDO PODRÍA CORROMPERSE COMO CONSECUENCIA DE ELLO.<br><br>Consulta nuestro GitHub/Discord si deseas ayudar con las pruebas.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Doble click el Agarre para equipar objetos",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Al habilitarse, puedes equipar herramientas y artefactos presionando Agarre dos veces rápidamente. Esta opción probablemente sea quitada en el futuro.",
@@ -1654,6 +1790,12 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Al habilitarse, el botón de app en tu mano secundaria abrirá el seleccionador de mundos de legado para cambiar entre ellos. Esta función será reemplazada en el futuro con una más flexible.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Usar gesto para abrir inventario y sessiones",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Al habilitarse, cuando mantienes los botones de Agarre y App (el que abre y cierra el tablero), se abrirá el inventario de legado o menú de sesiones.",
+
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Suprimir Simulación de Pies",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Esto es para que ciertas funciones como los posers que secuestran proxies de pies funcionen, sin tener que modificarlos. <br><br>Si activas esto sin usar posers o funciones similares, las animaciones NO se verán correctamente. Desactívalo después de que hayas terminado de usar posers. <br><br><color=hero.red>IMPORTANTE:</color> Es probable que esto se elimine en algún momento, recomendamos actualizar posers para que sean compatibles con el nuevo sistema y supriman automáticamente la simulación cuando está habilitado.",
+
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "Preservar el manejo de legado de las zonas de reverberación",
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "Cuando está habilitado, cualquier contenido de audio de legado que tenga habilitada la espacialización ignorará automáticamente las zonas de reverberación para mantener las limitaciones del sistema de audio de legado.<br><br>Activa esta configuración y vuelve a cargar el contenido de legado. Una vez que guardes el contenido de legado convertido, la configuración quedará \"integrado\" y tendrás que cambiarla manualmente más adelante.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Nombre de Canal de Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Configura el nombre predeterminado para el canal de Twitch Chat en el panel de Controles de Cámara. Mayormente usado por streamers de Twitch que quieren ver su chat.",
@@ -1687,6 +1829,8 @@
         "Settings.NotificationSettings.Message.Description": "Controla las notificiaciones que se darán cuando recibes mensajes.",
         "Settings.NotificationSettings.Invite": "Invitaciones a Sesión",
         "Settings.NotificationSettings.Invite.Description": "Controla si recibes notificaciones cuando eres invitado a una sesión.",
+        "Settings.NotificationSettings.InviteRequest": "Solicitudes de I",
+        "Settings.NotificationSettings.InviteRequest.Description": "Controla si recibes notificaciones cuando te llega una solicitud de invitación a la que puedes responder.",
         "Settings.NotificationSettings.ContactRequest": "Solicitudes de Contacto",
         "Settings.NotificationSettings.ContactRequest.Description": "Controla las notificaciones que recibes al obtener una solicitud de contacto.",
         "Settings.NotificationSettings.ContactSessionStarted": "Nuevas Sesiones de Contactos",
@@ -1695,6 +1839,8 @@
         "Settings.NotificationSettings.PublicSessionStarted.Description": "Controla las notificaciones que recibes cuando una sesión pública es iniciada por alguien que no esté en tus contactos.",
         "Settings.NotificationSettings.UserJoinAndLeave": "Usuarios ingresando y marchándose",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Al habilitarse, recibirás notificaciones cuando algún usuario entre o salga del mundo en el que estés actualmente.",
+        "Settings.NotificationSettings.PermissionChanged": "Cambio de Rol de Permisos",
+        "Settings.NotificationSettings.PermissionChanged.Description": "Cuando está habilitado, recibirás una notificación cada vez que cambie tu rol de permisos en un mundo. Por ejemplo, cuando pases de ser Invitado a Constructor.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Visibilidad de Nombres",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Controla cuáles placas de nombres serán visibles para ti.",
@@ -1730,6 +1876,32 @@
         "Settings.LaserSettings.ShowInDesktop": "Mostrar lásers en modo escritorio",
         "Settings.LaserSettings.ShowInDesktop.Description": "Al hablilitarse, las visuales de los láseres se mostrarán completamente en modo escritorio, en primera persona.",
 
+        "Settings.EditSettings": "Editar ajustes",
+        "Settings.EditSettings.ConfirmComponentDestroy": "Confirmar la destrucción de componentes",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "Cuando esté habilitado, se te pedirá confirmación antes de eliminar un componente en el inspector. Esto ayuda a evitar que se eliminen accidentalmente al hacer clic por error.",
+        "Settings.EditSettings.ConfirmSlotDestroy": "Confirmar la eliminación de Slots",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "Cuando esté habilitado, se te pedirá confirmación antes de eliminar Slots con la Herramienta de Desarrollo. Esto puede evitar que se eliminen objetos accidentalmente al hacer clic por error.",
+
+        "Settings.CursorSettings": "Ajustes del Cursor",
+
+        "Settings.CursorSettings.BaseCursorSize": "Tamaño base del cursor",
+        "Settings.CursorSettings.BaseCursorSize.Description": "Esto establece el tamaño base del cursor. Recomendamos configurarlo primero, antes de ajustar los demás, ya que su tamaño es relativo a este.",
+
+        "Settings.CursorSettings.GrabMultiplier": "Multiplicador al agarrar",
+        "Settings.CursorSettings.GrabMultiplier.Description": "Esto se aplica como un multiplicador al cursor al agarrar objetos y elementos.",
+
+        "Settings.CursorSettings.InteractionMultiplier": "Multiplicador al interactuar",
+        "Settings.CursorSettings.InteractionMultiplier.Description": "Esto se aplica como un multiplicador al cursor cuando interactúas con elementos de la interfaz de usuario, como los botones.",
+
+        "Settings.CursorSettings.TextMultiplier": "Multiplicador en texto",
+        "Settings.CursorSettings.TextMultiplier.Description": "Esto se aplica como un multiplicador al cursor mientras interactúas y manipulas textos.",
+
+        "Settings.CursorSettings.SliderMultiplier": "Multiplicador en control deslizante",
+        "Settings.CursorSettings.SliderMultiplier.Description": "Esto se aplica como un multiplicador al cursor cuando interactúas con controles deslizantes y barras de desplazamiento.",
+
+        "Settings.CursorSettings.DirectCursorEnabled": "Cursor directo activado",
+        "Settings.CursorSettings.DirectCursorEnabled.Description": "Cuando está habilitado, muestra el cursor directo.\n\nEl cursor directo es el punto en el espacio en el que se encontraría el cursor sin ningún tipo de suavizado ni ajustes realizados por otras configuraciones o sistemas.",
+
         "Settings.DesktopViewSettings.FollowCursor": "Seguir cursor",
         "Settings.DesktopViewSettings.FollowCursor.Description": "Al habilitarse, la vista de Escritorio cambiará automáticamente hacia cualquier pantalla en la que se encuentre tu cursor. Es útil cuando estás usando un teclado y ratón físicos cuando estás en VR.",
         "Settings.DesktopViewSettings.Brightness": "Brillo",
@@ -1745,12 +1917,18 @@
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "Similar a la resolución normal, puedes establecer una resolución separada para las fotos capturadas con un temporizador. Puede ser útil si usas este modo para capturar fotos grupales, las cuales se benefician de resoluciones más altas.",
         "Settings.PhotoCaptureSettings.TimerSeconds": "Duración de Temporizador",
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "Los segundos que toma antes de capturar una foto con la función de temporizador.",
+        "Settings.PhotoCaptureSettings.HandsNearFOV": "Campo de visión con manos cerca",
+        "Settings.PhotoCaptureSettings.HandsNearFOV.Description": "Campo de visión (FOV) de las fotos tomadas con el gesto del dedo cuando las manos están más cerca de tu cabeza.",
+        "Settings.PhotoCaptureSettings.HandsFarFOV": "Campo de visión con manos lejos",
+        "Settings.PhotoCaptureSettings.HandsFarFOV.Description": "Campo de visión (FOV) de las fotos tomadas con el gesto del dedo cuando las manos están más lejos de tu cabeza.",
         "Settings.PhotoCaptureSettings.CaptureStereo": "Capturar foto estéreo",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Al habilitarse, todas las fotos rápidas serán estereoscópicas. Esto es típicamente útil al verlas en VR.",
         "Settings.PhotoCaptureSettings.StereoSeparation": "Separación Estéreo",
         "Settings.PhotoCaptureSettings.StereoSeparation.Description": "Controla la separación entre las cámaras estereoscópicas cuando está habilitado el modo correspondiente. Indica qué tan distanciadas están las cámaras entre sí, lo que afecta la intensidad del efecto estereoscópico para las objetos distantes.\n\nAl capturar objetos cercanos, valores más bajos serán mejores; al capturar escenas más grandes, convendrá usar valores más altos.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Ruta de autoguardado de fotos en el inventario",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Cuando se establece, cualquier foto que captures (o guardes con el menú contextual) será guardada en tu inventario. Por ejemplo <color=hero.yellow>Fotos/%year%/%month_name%</color>\n\nLas siguientes variables están disponibles:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "Abrir la ruta de autoguardado para el mundo actual",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "Si tienes configurado el autoguardado de fotos, al hacer clic aquí se abrirá el Inventario en la ubicación donde se guardan las fotos del mundo en el que te encuentras en este momento.\n\nAsegúrate de haber tomado ya algunas fotos en este mundo; de lo contrario, esta acción no funcionará, ¡ya que la carpeta aún no existirá!",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Capturar Interfaz Privada",
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "Al habilitarse, la captura rápida mostrará tu interfaz privada, por ejemplo el tablero. Puede ser útil en caso de que necesites mostrar información mostrada allí.\n\nSe recomienda desactivar esta opción una vez no la necesites, ya que dejarla activada podría llevar a capturar y filtrar información personal accidentalmente.",
         "Settings.PhotoCaptureSettings.EncodeFormat": "Formato de Imagen",
@@ -1760,6 +1938,10 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "Campo de visión",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Controla el campo de visión (FOV) en modo escritorio. Valores altos proporcionan una visión más amplia a coste de una mayor distorsión en los bordes.",
+        
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Ampliar el campo de visión al correr",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Cuando esta opción está activada, el campo de visión se ampliará mientras corres modo escritorio. Desactiva esta configuración para eliminar este efecto.\n\nTen en cuenta que esto <b>NO</b> desactiva los efectos que se encuentran en el Contenido Generado por los Usuarios.",
+
         "Settings.DesktopRenderSettings.VSync": "Sincronización Vertical",
         "Settings.DesktopRenderSettings.VSync.Description": "Al habilitarse, los fotogramas por segundo se sincronizarán con la frecuencia de actualización de tu monitor. Deshabilitarlo puede mostrar cada fotograma más velozmente, pero puede causar tearing.\n\nPuede ser útil al probar el rendimiento, ya que quita la limitación en la velocidad de renderizado y actualización.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Limitar fotogramas cuando inactivo",
@@ -1829,6 +2011,10 @@
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Reflejos en espacio de pantalla",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "Indica si la cámara muestra efectos de reflejos en espacio de pantalla. Puede proveer de mejores reflexiones en superficies relucientes, pero podría llevar a artefactos visuales y requerimientos de rendimiento mayores.",
 
+        "Settings.InteractiveCameraAudioSettings": "Audio",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "Enviar tu propia voz a la cámara",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "Cuando la salida de audio de la cámara interactiva es separada a su propio dispositivo de audio, esto controla si la cámara escuchará tu propia voz o no.<br><br>Esto resulta útil para que tu propia voz se reproduzca con espacialización completa, tal y como la escucharían otros usuarios en el mundo.<br><br>Asegúrate de desactivar la captura de micrófono en tu software de grabación cuando esta opción esté activada.",
+
         "Settings.DescriptionField.NoTextTitle": "Más Información",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Pasa el ratón sobre una opción para ver su descripción.</closeall>",
 
@@ -1839,6 +2025,10 @@
         "Settings.RelaySettings.UseClosestAvailableRelay.Description": "Al habilitarse, el relay disponible más cercano a ti será seleccionado automáticamente para la conexión. Si deseas conectarte a un relay específico (en caso de conexiones de larga distancia para evitar la acumulación de paquetes, por ejemplo) puedes deshabilitar esta opción y seleccionar los relays preferidos aquí abajo.",
         "Settings.RelaySettings.RelayPriorities": "Configurar prioridades de servidores de relay",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Prioridades de Relays",
+
+        "Settings.VideoStreamingServicesSettings": "Servicios de streaming de vídeo",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Usar las cookies del navegador",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Si no se cargan los vídeos de YouTube y otros servicios, selecciona el navegador que sueles utilizar para cargar las cookies al reproducir esos vídeos. Esto aumenta las posibilidades de que el vídeo se cargue correctamente.",
 
         "Settings.PostProcessingSettings": "Post Procesado",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Intensidad de Desenfoque de Movimiento",
@@ -1865,6 +2055,24 @@
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Controla la calidad del filtrado anisotrópico.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Recargar Todas las Texturas (puede ser pesado)",
 
+        "Settings.GaussianSplatQualitySettings": "Calidad de Renderizado del Salpicado Gaussiano",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "Ordenamiento de mega‑operaciones por cámara",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description": "Al renderizar las Salpicaduras Gaussianas, estas deben ordenarse para cada cámara. Actualmente, esta operación puede resultar bastante pesada, por lo que se distribuye a lo largo del tiempo para mejorar la velocidad de los fotogramas.<br><br><color=hero.yellow>Aumenta</color> el valor para que la ordenación se realice más rápido. Esto reducirá los artefactos al cambiar rápidamente el ángulo de visión alrededor de las Salpicaduras Gaussianas.<br><br><color=hero.yellow>Disminuye</color> el valor para reducir el uso de la GPU si esta tiene dificultades para gestionarlo. Sin embargo, esto aumentará los artefactos al cambiar rápidamente el ángulo de visión.",
+        "Settings.GaussianSplatQualitySettings.QualityPreset": "Preajuste de calidad",
+        "Settings.GaussianSplatQualitySettings.QualityPreset.Description": "Esto controla la calidad de las salpicaduras gaussianas renderizadas y su consumo de VRAM. Una calidad más alta consumirá más VRAM.<br><br><color=hero.yellow>Muy baja:</color> ~18.62x más pequeña <br><color=hero.yellow>Baja:</color> ~14x más pequeña <br><color=hero.yellow>Media:</color> ~5.14x más pequeña <br><color=hero. amarillo>Alta:</color> ~2.94x más pequeño<br><color=hero.yellow>Muy alta:</color> Sin comprimir (original)",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality": "Calidad mínima de compresión local",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description": "Para las salpicaduras gaussianas importadas localmente, la calidad nunca será inferior a este valor.<br><br>No recomendamos establecer este valor por debajo de Medio, ya que los niveles de calidad inferiores requieren una compresión mucho más intensa y lenta, por lo que es mejor dejarlos para que se compriman en la nube.<br><br>Si se establece en Muy Alto, las salpicaduras gaussianas se cargarán mucho más rápido tras la importación, ya que no será necesario comprimirlas, a cambio de un mayor consumo de VRAM.",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality": "Ajustes de calidad avanzados",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description": "Cuando está habilitado, puedes configurar las codificaciones específicas que se utilizan para los distintos búferes de Salpicadura Gaussiana. Esto te permite controlar la calidad con gran precisión. También se puede utilizar con fines de prueba o diagnóstico.",
+        "Settings.GaussianSplatQualitySettings.PositionFormat": "Formato de los datos de posición",
+        "Settings.GaussianSplatQualitySettings.PositionFormat.Description": "Codificación utilizada para las posiciones de las salpicaduras",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat": "Formato de los datos de escala",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat.Description": "Codificación utilizada para las escalas de las salpicaduras",
+        "Settings.GaussianSplatQualitySettings.ColorFormat": "Formato de los datos de color",
+        "Settings.GaussianSplatQualitySettings.ColorFormat.Description": "Codificación utilizada para los colores y la opacidad de las salpicaduras",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat": "Formato de los datos de armónicos esféricos",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description": "Codificación utilizada para los datos de armónicos esféricos de las salpicaduras",
+
         "Settings.ResolutionSettings": "Resolución",
         "Settings.ResolutionSettings.Fullscreen": "Pantalla Completa",
         "Settings.ResolutionSettings.Fullscreen.Description": "Alterna entre modo pantalla completa y ventana.",
@@ -1885,6 +2093,26 @@
         "Settings.RenderingQualitySettings.ShadowDistance.Description": "Controla la distancia que cubren las sombras. Incrementar el valor asegurará que las zonas más distantes de la escena estén correctamente sombreadas, pero también distribuye el detalle de la sombra a lo largo de un área mayor.\n\nDeberías cambiar esta opción junto con la de resolución y cascadas de sombras - con mayor resolución de sombras, puedes permitir una mayor distancia. Si disminuyes la resolución y cascadas de las sombras, querrás disminuir la distancia de sombras con tal que esas sombras tengan una mejor definición.",
         "Settings.RenderingQualitySettings.SkinWeightMode": "Pesos de Esqueleto",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Para cualquier malla que esté transformada por un esqueleto (modelos 3D como la mayoría de avatares), controla cuántos huesos son usados para afectar la posición de cada vértice.\n\nDisminuir el valor aliviará la carga de rendimiento, pero la calidad de las deformaciones de las mallas será menor, resultando en pliegues pronunciados y otros artefactos, usualmente alrededor de las articulaciones.",
+
+        "Settings.RendererDecouplingSettings": "Desacoplamiento del Motor de Renderizado",
+        "Settings.RendererDecouplingSettings.ActivationFramerate": "Velocidad de fotogramas de activación",
+        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "Esto controla cuándo se activa la desacoplamiento del motor de renderizado. Si la velocidad de fotogramas actual cayera por debajo de este valor, el motor de renderizado comenzará a volver a renderizar la escena sin esperar a recibir nuevos fotogramas del motor.\n\nEsto ayuda a suavizar algunos de los tirones y a mitigar las interrupciones en la reproducción de vídeos o los bloqueos de la vista en las gafas de realidad virtual; sin embargo, el resto de elementos de la escena quedarán congelados.\n\nSi se establece este valor en 0, se desactiva este mecanismo.",
+        "Settings.RendererDecouplingSettings.DeactivationFrames": "Conteo de fotogramas de desactivación",
+        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "Cuando el desacoplamiento está activo, este valor indica cuántos fotogramas estables (por encima del umbral de activación) deben renderizarse antes de que se desactive el mecanismo de desacoplamiento. Esto puede ayudar a evitar que el mecanismo se active y desactive repetidamente tras varios tirones sucesivos.",
+        "Settings.RendererDecouplingSettings.ForceDecouple": "Forzar desacoplamiento",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "Cuando se activa, el renderizador estará forzadamente desacoplado de forma continua y seguirá renderizando nuevos fotogramas lo más rápido posible sin esperar al motor principal.\n\n<color=hero.red>¡ADVERTENCIA!</color> Esto resulta útil principalmente para la depuración y para diagnosticar si el cuello de botella está en la CPU o en la GPU (si el cuello de botella está en la CPU, la tasa de fotogramas aumentará significativamente con esta opción activada) y no está pensado para un uso normal. \n\nEs posible que experimentes un parpadeo significativo, fluctuaciones y una carga/subida lenta de los recursos.",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "Procesamiento máximo de recursos desacoplados (milisegundos)",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "Este parámetro controla el tiempo máximo que el motor de renderizado dedicará a cargar recursos en la GPU cuando el mecanismo de desacoplamiento esté activo. Reducir este valor puede aumentar la velocidad máxima de fotogramas (por ejemplo, al probar el rendimiento máximo de la GPU), pero puede reducir el rendimiento de la carga y, con valores muy bajos, puede ralentizar la actualización de la interfaz de usuario.",
+
+        "Settings.ImportSettings": "Ajustes de Importación",
+        "Settings.ImportSettings.SessionUrls": "Al Importar la URL de una Sesión",
+        "Settings.ImportSettings.SessionUrls.Description": "Qué debe suceder al importar una URL de Sesión. Las opciones disponibles son:\n\n<color=hero.yellow>Abrir</color> - Abre la sesión.\n<color=hero.yellow>CrearInterfaz</color> - Genera una representación (como un orbe de sesión) de la URL en tu ubicación actual.\n<color=hero.yellow>CrearUrl</color> - Genera la URL en tu ubicación actual como una interfaz de URL.",
+        "Settings.ImportSettings.WorldUrls": "Al Importar la URL de un Mundo",
+        "Settings.ImportSettings.WorldUrls.Description": "Qué debe suceder al importar una URL de Mundo. Las opciones disponibles son:\n\n<color=hero.yellow>Abrir</color> - Abre el mundo.\n<color=hero.yellow>CrearInterfaz</color> - Genera una representación (como un orbe del mundo) del mundo en tu ubicación actual.\n<color=hero.yellow>CrearUrlcolor> - Genera la URL en tu ubicación actual como una interfaz de URL.",
+        "Settings.ImportSettings.NetworkUrls": "Al Importar la URL de una Red",
+        "Settings.ImportSettings.NetworkUrls.Description": "Qué debe suceder cuando se importa una URL de Red. Las opciones disponibles son:\n\n<color=hero.yellow>Abrir</color> - Abre una conexión con la sesión en la URL.\n<color=hero.yellow>CrearInterfaz</color> - Genera una representación (como un orbe de sesión) de la URL en tu ubicación actual.\n<color=hero.yellow>CrearUrl</color> - Genera la URL en tu ubicación actual como una interfaz de URL.",
+
+        "Settings.MysterySettings": "Ajustes Misteriosos",
 
         "LocomotionArchetype.Walk": "Caminar",
         "LocomotionArchetype.Fly": "Volar",
@@ -1959,6 +2187,7 @@
         "Inspector.Member.SplitBlendshape.X": "Dividir Forma Clave sobre X",
         "Inspector.Member.SplitBlendshape.Y": "Dividir Forma Clave sobre Y",
         "Inspector.Member.SplitBlendshape.Z": "Dividir Forma Clave sobre Z",
+        "Inspector.Member.SplitBlendshapeToStaticMesh": "Separar Formas Clave en una malla estatica",
 
         "Inspector.ProceduralAsset.UpdateCount": "Cuenta de Actualizaciones: {n}",
         "Inspector.ProceduralAsset.Error": "Error: {error}",
@@ -2005,8 +2234,15 @@
         "Inspector.MeshRenderer.MergeByMaterial": "Unir sub-mallas por material",
         "Inspector.MeshRenderer.SplitByMaterial": "Separar en mallas diferentes por material",
 
+        "Inspector.GaussianSplatRenderer.GeneratePointCloudCollider": "Generar colisionador de nube de puntos",
+
         "Inspector.MeshCollider.VHACD": "Descomposición de Envolvente Convexo (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Reemplazar con Colisionador de Caja",
+
+        "Inspector.Texture3D.SpawnVisualizer": "Crear Visualizador",
+
+        "Inspector.Skybox.SetActiveSkybox": "Establecer como skybox activo",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Establecer como luz ambiental activa",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Actualizar módulos de locomoción en usuarios presentes",
 
@@ -2033,8 +2269,9 @@
         "Inspector.VHACD.RemoveVisuals": "Quitar Visualizaciones",
         "Inspector.VHACD.RemoveHulls": "Quitar Envolventes",
 
-        "Inspector.ReflectionProbe.Bake": "Hornear Reflexiones",
+        "Inspector.ReflectionProbe.Bake": "Hornear Reflejos",
         "Inspector.ReflectionProbe.Baking": "Horneando...",
+        "Inspector.ReflectionProbe.OnChangesRenderCount": "Conteo de renderizaciones OnChanges: {count}",
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Separar partes de la malla sin formas clave",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Remover Formas Clave Vacías",
@@ -2051,6 +2288,7 @@
         "Inspector.SkinnedMesh.BakeToStaticMesh": "Hornear a Malla Estática",
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "Ordenar Formas Clave (por nombre)",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Ordenar Formas Clave (por largo del nombre, luego el nombre)",
+        "Inspector.SkinnedMesh.ResetBonesToBindPoses": "Restablecer los huesos a las poses vinculadas",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Quitar Todas las Instancias",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Quitar Instancia",
@@ -2093,6 +2331,10 @@
         "Inspector.Texture.SwapGB": "Intercambiar G <--> B",
         "Inspector.Texture.SwapGA": "Intercambiar G <--> A",
         "Inspector.Texture.SwapBA": "Intercambiar B <--> A",
+        "Inspector.Texture.IsolateR": "Aislar el Canal Rojo",
+        "Inspector.Texture.IsolateG": "Aislar el Canal Verde",
+        "Inspector.Texture.IsolateB": "Aislar el Canal Azul",
+        "Inspector.Texture.IsolateA": "Aislar el Canal Alfa",
         "Inspector.Texture.AddWhiteBackground": "Añadir Fondo Blanco",
         "Inspector.Texture.AddBlackBackground": "Añadir Fondo Negro",
         "Inspector.Texture.Hue": "Tono:",
@@ -2158,6 +2400,11 @@
         "Inspector.AudioStream.DecodeState": "Paquetes Totales: {total}, Paquetes Perdidos: {lost}, Pérdida de Paquetes: {loss, number, percent}",
         "Inspector.AudioStream.BufferStats": "Promedio Codec: {avgCodec}/s, Promedio Leídos: {avgRead}/s, Promedio Escritos: {avgWritten}/s",
 
+        "Inspector.GaussianSplat.SplatInfo": "Conteo de Salpicaduras: {count}, uso de VRAM: {vram}",
+        "Inspector.GaussianSplat.Variant": "Variante cargada: {variant}",
+        "Inspector.GaussianSplat.ColorByIndex": "Color de Salpicaduras por Indice",
+        "Inspector.GaussianSplat.ReorderMorton": "Reordenar salpicaduras con ordenación de Morton",
+
         "Inspector.DynamicBoneChain.SetupFromChildren": "Configurar Según Subordinados",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll": "Configurar Según Subordinados (forzar todos)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "Configurar Según Subordinados (sólo esqueleto)",
@@ -2179,6 +2426,13 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ADVERTENCIA!</size></color><br>Es posible usar este componente como un cuerpo rígido simple activando SimulateRotation. Antes de hacerlo, tenga en cuenta que no está optimizado para este propósito, y el soporte para cuerpos rígidos será implementado en un futuro.<br>La simulación de cuerpos rígidos ofrecerá:<br><b>- Eficiencia de CPU y red</b> - usar CharacterController tiene un costo mayor de uso de CPU y genera una gran cantidad de tráfico de red<br><b>- Restricciones</b> - podrá crear articulaciones, bisagras, resortes y otras restricciones entre cuerpos rígidos<br><b>- Simulaciones suaves e interacciones para todos</b> - CharacterController fallará en ser preciso si otra persona interactúa<br><b>- Nuevas Funcionalidades y Herramientas</b> - para facilitar su uso<br>-----------------------<br>Puede encontrar más en el Tema de GitHub #22. Entendiendo éstas limitaciones, diviértase!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ADVERTENCIA!</size></color><br>Es posible usar este componente para interactuar con referencias al usar sus IDs. Este proceso es comúnmente llamado 'Ref Hacking'.<br><br><b>Antes</b> de que hagas esto, entienda que esto <b>no</b> está soportado y podría dejar de funcionar en cualquier momento. No dependa de esta función para sus creaciones.",
+        "Inspector.FacetPreset.Warning": "<color=red><size=125%>¡ADVERTENCIA!</size></color><br>FacetPresets actualizará automáticamente su contenido cuando publiquemos nuevas versiones de esos ajustes preestablecidos. Si estás creando una versión personalizada, te recomendamos que elimines este componente.",
+        "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>¡ADVERTENCIA!</size></color><br> Este componente no está diseñado como un sistema de seguridad ni como protección contra el robo de recursos. Está pensado para utilizarse en casos en los que se desee bloquear los métodos más sencillos de guardar partidas por motivos de jugabilidad o de diseño. Se puede eludir fácilmente y no se reforzará su seguridad bajo ninguna circunstancia.",
+
+        "Inspector.AI_GeneratedContent.Info": "Este componente está pensado para identificar el contenido generado por IA generativa. Se recomienda colocarlo en la raíz de los objetos generados mediante estos métodos. De este modo, se añadirán etiquetas automáticamente tanto al guardar el elemento como al guardar el mundo con esos componentes presentes, lo que permitirá filtrar este contenido.",
+
+        "Inspector.ParticleSystem.BasicInfo": "Particulas: {count}, FPS: {fps}, Simulation Tiempo: {time}, Hora de envío: {renderSubmitTime}, Asignaciones de renderizado: {allocationCount}",
+        "Inspector.ParticleSystem.TrailInfo": "Estelas: {trailCount} (capacidad: {trailCapacity}), Capacidad de Puntos de Estela: {trailPointCapacity}, Asignaciones: {allocationCount}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Plantillas de Transiciones Comunes:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Desvanecimiento de Alfa de Entrada y Salida",
@@ -2206,6 +2460,11 @@
         "Inspector.Actions.CopyComponent": "Copiar Componente",
         "Inspector.Actions.MoveComponent": "Mover Componente",
 
+        "Inspector.Wizard.PackTexture": "Empaquetar Textura",
+        "Inspector.Wizard.UnpackTexture": "Desempaquetar Textura",
+
+        "Inspector.Error": "<color=hero.red>¡Error! Comprueba los logs.</color>",
+
         "UserInspector.Title": "Inspector de Usuario",
 
         "WorkerInspector.Title": "Inspector de {name}",
@@ -2219,7 +2478,7 @@
 
         "Wizard.AssetOptimization.Title": "Asistente de Optimización de Recursos",
         "Wizard.AssetOptimization.CleanupUnusedAssets": "Limpiar Recursos No Usados",
-        "Wizard.AssetOptimization.CleanupEmptySlots": "Limpiar Ranuras Vacías",
+        "Wizard.AssetOptimization.CleanupEmptySlots": "Limpiar Slots vacíos",
         "Wizard.AssetOptimization.CleanupDisabledMeshRenderers": "Limpiar Renderizadores de Mallas Deshablitados",
         "Wizard.AssetOptimization.DeduplicateMaterials": "Desduplicar Materiales",
         "Wizard.AssetOptimization.CleanupFileItems": "Limpiar Objetos de Archivo",
@@ -2239,8 +2498,10 @@
         "Wizard.LightSources.DisabledLights": "Luces Deshabilitadas:",
         "Wizard.LightSources.WithTag": "Con Etiqueta:",
         "Wizard.LightSources.SetShadowType": "Establecer Tipo de Sombra",
-        
-        
+        "Wizard.LightSources.MultiplyIntensity": "Multiplicar Intensidad",
+        "Wizard.LightSources.SetIntensity": "Establecer intensidad",
+        "Wizard.LightSources.MultiplyRange": "Multiplicar Rango",
+        "Wizard.LightSources.SetRange": "Establecer rango",        
         "Wizard.LightSources.Enable": "Habilitar",
         "Wizard.LightSources.Disable": "Deshabilitar",
         "Wizard.LightSources.Destroy": "Destruir",
@@ -2276,6 +2537,25 @@
         "Wizard.TextRenderer.ReplaceMaterial": "Reemplazar Material",
         "Wizard.TextRenderer.ReplaceFont": "Reemplazar Fuente",
         "Wizard.TextRenderer.SetColor": "Establecer Color",
+
+        "Wizard.TextureWizards.DefaultValue": "Valor Predeterminado",
+        "Wizard.TextureWizards.Invert": "Invertir",
+        "Wizard.TextureWizards.ClearTexture": "Quitar Textura",
+        "Wizard.TextureWizards.ResolutionOverride": "Sobrescritura de resolución",
+        "Wizard.TextureWizards.PlaceTextureHere": "Coloca Aquí la Textura",
+
+        "Wizard.TexturePacker.Title": "Asistente de empaquetado de texturas",
+        "Wizard.TexturePacker.Packing": "Empaquetando...",
+        "Wizard.TexturePacker.PackTextures": "Empacar Texturas",
+        "Wizard.TexturePacker.Output": "Salida",
+        "Wizard.TexturePacker.AutomaticSizeHandling": "Gestión Automática del Tamaño",
+        "Wizard.TexturePacker.UseSmallest": "Utilizar el más pequeño",
+        "Wizard.TexturePacker.UseLargest": "Utilizar el más grande",
+        "Wizard.TexturePacker.GenerateMipmaps": "Generar Mipmaps",
+
+        "Wizard.TextureUnpacker.Title": "Asistente de desempaquetado de texturas",
+        "Wizard.TextureUnpacker.Unpacking": "Desempaquetando...",
+        "Wizard.TextureUnpacker.UnpackTexture": "Desempaquetar Textura",
 
         "Desktop.Controls.Title": "Controles de Escritorio",
         "Desktop.OpenKeyboard": "Abrir Teclado",
@@ -2488,7 +2768,25 @@
         "Tutorial.Saving.Title": "¡Bienvenido a tu hogar!",
         "Tutorial.Saving.Content": "¡Bienvenido a tu <b><i><color=hero.yellow>Hogar</b></i></color>! Llegarás aquí cada vez que inicies sesión.<br><br>Este es un mundo completamente tuyo, por ende será posible guardar cualquier cambio.<br><br>Si guardas, ¡todo estará exactamente como lo dejaste cuando regreses!",
 
-        
+        "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Sesión sin nombre</closeall>",
+        "Tutorial.Teleporter.SessionList.UnnamedHost": "Anfitrión: <i><alpha=#77>Anónimo</closeall>",
+        "Tutorial.Teleporter.SessionList.HostName": "Anfitrión: <b>{hostName}</b>",
+        "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} Usuarios Presentes",
+        "Tutorial.Teleporter.SessionList.PublicSessions": "Sesiones Públicas",
+        "Tutorial.Teleporter.SessionList.NoPublicSessions": "¡No hay sesiones públicas disponibles! :(<br><size=66%>Sin embargo, aún tienes algunas opciones:</size>",
+
+        "Tutorial.Teleporter.ChooseDestination": "Elige a dónde quieres ir ahora",
+
+        "Tutorial.Teleporter.Destinations.CloudHome": "Ve a tu Mundo Hogar",
+        "Tutorial.Teleporter.Destinations.AvatarWorld": "Ve al Avatar Gazebo",
+        "Tutorial.Teleporter.Destinations.PickAnotherSession": "Elige otra sesión",
+        "Tutorial.Teleporter.Destinations.PickPublicSession": "Únete a una sesión pública",
+
+        "Tutorial.Teleporter.WorldsTabHint": "¡También puedes encontrar mundos a los que unirte <br> utilizando el navegador de mundos de tu panel!",
+
+        "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>¡Error al conectarse a la sesión! :(</color><br><size=66%>Sin embargo, aún tienes algunas opciones:</size>",
+
+        "Tutorial.Teleporter.Transporting": "Teletransportando...",
 
         "CloudHome.Info.OnlineUsers": "{online_users,plural, one {Usuario} other {Usuarios}} en línea: {online_users}<br>{joinable_users,plural, one {Disponible} other {Disponibles}} para unirse: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderación",
@@ -2574,8 +2872,11 @@
         "CloudHome.Panel.Quality": "Calidad",
         "CloudHome.Panel.Doors": "Puertas",
         "CloudHome.Panel.Audio": "Audio",
+        "CloudHome.Panel.RealtimeReflections": "Reflejos en tiempo real",
         "CloudHome.Panel.OverheadLighting": "Iluminación de techo",
         "CloudHome.Panel.Sconces": "Candelabros",
+        "CloudHome.Panel.SpotLights": "Focos",
+        "CloudHome.Panel.TableLights": "Lámparas de Mesa",
         "CloudHome.Panel.FurnitureVisibility": "Visibilidad de Muebles",
 
         "CloudHome.Panel.LowQualityMode": "Modo Baja Calidad",
@@ -2629,6 +2930,16 @@
         "Tutorial.Panel.TeleportLocomotion.Title": "Locomoción de Teletransporte",
         "Tutorial.Panel.TeleportLocomotion.Content": "Teletranspórtate inmediatamente al indicador de teletransporte.",
 
+        "Tutorial.DashboardInfo.Header": "Tu Panel",
+        "Tutorial.DashboardInfo.Content": "El <b><color=hero.cyan>Panel</closeall> es tu menú principal - ¡con el, puedes hablar con otros, encontrar nuevos mundos para explorar, y mas!<br><br>Si necesitas más ayuda, echa un vistazo a la <b><color=hero.purple>pestaña Ayuda.",
+        "Tutorial.DashboardInfo.GotIt": "¡Entendido!",
+
+        "Tutorial.MentorPanel.Title": "¿Necesitas ayuda?",
+        "Tutorial.MentorPanel.Content": "Busca a los usuarios que tengan esta insignia sobre la cabeza - pídeles ayuda, ¡están aquí para <i>ti</i>!",
+
+        "Tutorial.HelpTabPanel.Title": "¿Necesitas ayuda?",
+        "Tutorial.HelpTabPanel.Content": "En tu Panel hay una pestaña de ayuda donde puedes consultar información sobre {appName}!",
+
         "Hints.Spawn.InitialMovementDesktop": "¡Usa las teclas de movimiento para caminar!",
         "Hints.Spawn.InitialMovementVR": "¡Usa tus joysticks para caminar!",
         "Hints.Spawn.InitialMovementVRNoButtons": "¡Usa tus trackpads para caminar!",
@@ -2672,8 +2983,14 @@
         "Hints.Sundial.Dequip": "Suelta la herramienta equipada seleccionando Desequipar en su Menú Contextual.",
         "Hints.Sundial.DequipExtra": "Observe que las opciones en su Menú Contextual han cambiado por usar esta herramienta.",
 
-        
-        
+        "Hints.Sundial.Doorway": "¡Entra para continuar!",
+
+        "Hints.DashboardDesktop": "¡Abre y cierra el Panel de control pulsando la tecla Esc!",
+        "Hints.DashboardVR": "¡Abre y cierra el Panel pulsando el botón de menú!",
+        "Hints.DashboardExtra": "A continuación encontrarás más información sobre el Panel.",
+
+        "Hints.Teleporter": "¡Sube al teletransportador y elige a dónde quieres ir ahora!",
+        "Hints.TeleporterExtra": "Vayas donde vayas, ¡disfruta de tu estancia en {appName}!",
 
         "UI.TextDisplay.Landscape": "Paisaje",
         "UI.TextDisplay.Portrait": "Retrato",
@@ -2704,6 +3021,7 @@
         "UI.ColorPicker.Linear": "Lineal",
 
         "UI.ColorPicker.Hexadecimal": "Hexadecimal",
+        "UI.ColorPicker.Blackbody": "Temperatura de color (K)",
         "UI.ColorPicker.ColorSwatches": "Muestra",
 
         "UI.ColorPicker.Red": "Rojo",
@@ -2727,27 +3045,6 @@
         "Tools.Names.CommonTools": "Herramientas Comunes",
         "Tools.Names.ManipulationTools": "Herramientas de Manipulación ",
         "Tools.Names.InformationTools": "Herramientas de Información ",
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
 
         "Discord.RichPresence.InPrivateWorld": "En mundo privado",
         "Discord.RichPresence.InPrivateLargeText": "En privado ({version})",
