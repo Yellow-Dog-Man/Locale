@@ -14,6 +14,8 @@ Permissions.NotAllowedToOpen
 Tools.MeshPlaneBrush.Name  
 Settings.DashSettings.ScreenSwitchSpeed  
 Settings.DashSettings.ScreenSwitchSpeed.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.AI_GeneratedContent.Info  
 
