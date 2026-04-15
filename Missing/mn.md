@@ -30,6 +30,10 @@ Settings.BabbleSettings.OSC_DataPort
 Settings.BabbleSettings.OSC_DataPort.Description  
 Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff  
 Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Settings.CursorSettings.DirectCursorEnabled  
 Settings.CursorSettings.DirectCursorEnabled.Description  
 Settings.PhotoCaptureSettings.HandsNearFOV  

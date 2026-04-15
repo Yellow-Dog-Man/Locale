@@ -124,10 +124,14 @@ Settings.LegacyFeatureSettings.SuppressFeetSimulation
 Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description  
 Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling  
 Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.NotificationSettings.InviteRequest  
 Settings.NotificationSettings.InviteRequest.Description  
 Settings.NotificationSettings.PermissionChanged  
 Settings.NotificationSettings.PermissionChanged.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Settings.EditSettings  
 Settings.EditSettings.ConfirmComponentDestroy  
 Settings.EditSettings.ConfirmComponentDestroy.Description  

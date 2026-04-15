@@ -110,6 +110,8 @@ Settings.LocaleSettings.UseImperialUnits
 Settings.LocaleSettings.UseImperialUnits.Description  
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings.UserOnline.Description  
 Settings.NotificationSettings.UserSociable.Description  
@@ -129,6 +131,8 @@ Settings.FacetAnchorsSettings.AnimationSpeed.Description
 Settings.FacetAnchorsSettings.FacetAnchorToggle  
 Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
 Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle.Description  
 Settings.LaserSettings.ModulateEndAngle.Description  
