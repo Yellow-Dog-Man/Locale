@@ -600,7 +600,7 @@
         "Account.TOTP.Activate.InvalidToken": "Ungültiges Token!",
         "Account.TOTP.Message.AlreadySetup": "2FA ist auf Ihrem Konto bereits eingerichtet!",
         "Account.TOTP.Message.Error": "Unerwarteter Fehler! Bitte versuchen Sie es später noch einmal.",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>Glückwunsch!</size><br><br>Ihr Konto ist jetzt mit 2FA für zusätzlichen Schutz eingerichtet!<br><br>. Sie können dies optional für die Kontoanmeldung mit dem Befehl /enableLogin2FA aktivieren.",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Glückwunsch!</size><br><br>Ihr Konto ist jetzt mit 2FA für zusätzlichen Schutz eingerichtet!",
         "Account.TOTP.Deactivate.Header": "2FA deaktivieren",
         "Account.TOTP.Deactivate.Description": "2FA ist derzeit <b><color=green>auf Ihrem Konto eingerichtet und aktiv</color></b>. Wenn Sie die 2FA deaktivieren müssen (z.B. wegen Verlust von Ihrem Telefon oder weil die Codes kompromittiert wurden), können Sie dies hier tun.<br><br>Nach der Deaktivierung können Sie 2FA erneut einrichten, wodurch ein neuer Geheimcode und ein neuer Satz von Wiederherstellungscodes generiert werden.<br><br>Wenn Sie Ihr Telefon verlieren und 2FA erneut einrichten müssen, raten wir Ihnen <b>dringlich</b>, dies sofort zu tun, da jeder Wiederherstellungscode nur einmal verwendet werden kann und Sie nach Ablauf der Zeit vollständig aus Ihrem Konto ausgesperrt werden.",
         "Account.TOTP.Deactivate.Deactivate": "Deaktivieren",
@@ -1813,9 +1813,11 @@
         "Settings.LocaleSettings.AvailableLocales.SystemLocale": "Systemsprache verwenden",
 
         "Settings.DashSettings.DashCurvature": "Krümmung",
-        "Settings.DashSettings.DashCurvature.Description": "Diese Einstellung bestimmt, wie gekrümmt das Dash-Menu in VR ist. Wenn sie auf 0 gesetzt wird, ist es völlig flach. ",
+        "Settings.DashSettings.DashCurvature.Description": "Diese Einstellung bestimmt, wie gekrümmt das Dash-Menü in VR ist. Wenn sie auf 0 gesetzt wird, ist es völlig flach. ",
         "Settings.DashSettings.OpenCloseSpeed": "Öffnungs-/Schließ-Geschwindigkeit",
-        "Settings.DashSettings.OpenCloseSpeed.Description": "Stellen Sie hier ein, wie schnell sich das Dash-Menü öffnen oder schliessen soll. Falls Sie keine Animation wünschen, stellen Sie einen großen Wert ein, damit das Dash-Menü schlagartig geöffnet oder geschlossen wird.",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "Stellen Sie hier ein, wie schnell sich das Dash-Menü öffnen oder schliessen soll. Falls Sie keine Animation wünschen, stellen Sie den Wert auf 0, damit das Dash-Menü schlagartig geöffnet oder geschlossen wird.",
+        "Settings.DashSettings.ScreenSwitchSpeed": "Geschwindigkeit des Seitenwechsels",
+        "Settings.DashSettings.ScreenSwitchSpeed.Description": "Dies stellt die Geschwindigkeit des Seitenwechsels (z.B. zwischen Home, Kontakte, Sitzung) im Dash-Menü ein. Stellen Sie diesen Wert auf 0, wird ohne Animation sofort zwischen den Seiten gewechselt.",
         "Settings.DashSettings.AllowReplacingSettings": "Austausch von Optionen erlauben",
         "Settings.DashSettings.AllowReplacingSettings.Description": "Wenn dies aktiviert ist, können Sie im Bearbeitungsmodus das Facet Optionen auf dem Dash-Menü auswählen und durch ein anderes ersetzen.\n\nDiese Einstellung muss deaktiviert sein, wenn Sie die einzelnen Einstellungen als Facet auswählen wollen. Es wird empfohlen, diese Einstellung vorübergehend zu aktivieren, wenn Sie die Optionen-Benutzeroberfläche durch eine benutzerdefinierte ersetzen möchten, und sie danach wieder zu deaktivieren.",
 
@@ -1862,6 +1864,8 @@
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "Zeige Hintergrund",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Wenn diese Option aktiviert ist, sind nur noch die Facets selbst sichtbar, der Hintergrund der Facet-Anker wird nicht mehr dargestellt.",
 
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace": "Private Benutzeroberflächen bevorzugen",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace.Description": "Wenn diese Option aktiviert ist, haben Ihre privaten Benutzeroberflächen wie Ihr Dash-Menü, Ihre Facet-Anker oder Ihre Tastatur bei Interaktionen immer Vorrang, selbst wenn sie von Collidern in der Spielwelt verdeckt werden.<br><br>Dies kann hilfreich sein, wenn Objekte in der Spielwelt die Interaktion mit Ihrer privaten Benutzeroberfläche verhindern.<br><br>Denken Sie daran, dass Sie möglicherweise Ihr Dash-Menü schließen müssen, bevor Sie mit den vor Ihnen befindlichen Objekten in der Spielwelt interagieren können.",
         "Settings.LaserSettings.SmoothSpeed": "Laser Glättungsgeschwindigkeit",
         "Settings.LaserSettings.SmoothSpeed.Description": "Hier können Sie einstellen, wie schnell der Laser auf Ihre Bewegungen reagiert. Bei niedrigen Werten ist der Laser träge, filtert aber Zittern besser heraus. Größere Werte sind reaktionsschneller, übertragen aber auch mehr Controller-Zittern.",
         "Settings.LaserSettings.ModulateStartAngle": "Startwinkel modulieren",
