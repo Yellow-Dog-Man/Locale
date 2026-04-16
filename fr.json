@@ -2,7 +2,6 @@
     "localeCode": "fr",
     "authors": ["Archer", "FreakyWaves", "Xqua", "brodokk", "Sopra", "Khosumi", "j4", "cerealbowl", "MIP", "Baplar"],
     "messages": {
-
         "General.OK": "OK",
         "General.Start": "Démarrer",
         "General.Finish": "Terminer",
@@ -600,7 +599,7 @@
         "Account.TOTP.Activate.InvalidToken": "Jeton invalide !",
         "Account.TOTP.Message.AlreadySetup": "La 2FA a déjà été configurée sur votre compte !",
         "Account.TOTP.Message.Error": "Erreur inattendue ! Veuillez réessayer plus tard.",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>Bravo !</size><br><br>Votre compte dispose maintenant de l'authentification à deux facteurs pour plus de sécurité.<br><br>Vous pouvez optionnellement l'activer pour la connexion au compte avec la commande /enabledLogin2FA.",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Bravo !</size><br><br>Votre compte dispose maintenant de l'authentification à deux facteurs pour plus de sécurité.",
         "Account.TOTP.Deactivate.Header": "Désactiver la 2FA",
         "Account.TOTP.Deactivate.Description": "La 2FA est actuellement <b><color=green>configurée et active sur votre compte</color></b>. Si vous devez la désactiver (par exemple en raison de la perte de votre téléphone ou de la compromission des codes), vous pouvez le faire ici.<br><br>Après la désactivation, vous pouvez à nouveau configurer la 2FA, ce qui générera un tout nouveau code secret et un nouvel ensemble de codes de récupération.<br><br>Si vous perdez votre téléphone et devez configurer à nouveau la 2FA, nous vous conseillons <b>FORTEMENT</b> de le faire immédiatement, car chaque code de récupération ne peut être utilisé qu'une seule fois, et une fois épuisé votre compte sera complètement bloqué.",
         "Account.TOTP.Deactivate.Deactivate": "Désactiver",
@@ -1815,7 +1814,9 @@
         "Settings.DashSettings.DashCurvature": "Courbure",
         "Settings.DashSettings.DashCurvature.Description": "Cette option contrôle la courbure du tableau de bord en VR. Une valeur de 0 le rend plat.",
         "Settings.DashSettings.OpenCloseSpeed": "Vitesse d'ouverture/fermeture",
-        "Settings.DashSettings.OpenCloseSpeed.Description": "Cette option règle la vitesse d'ouverture et de fermeture du tableau de bord. Si vous n'aimez pas l'animation, définissez une valeur très haute pour rendre l'animation quasi instantanée.",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "Cette option règle la vitesse d'ouverture et de fermeture du tableau de bord. Réduire cette valeur à 0 désactive complètement l’animation de transition, rendant l’ouverture et la fermeture instantanées.",
+        "Settings.DashSettings.ScreenSwitchSpeed": "Vitesse de transition d’onglets",
+        "Settings.DashSettings.ScreenSwitchSpeed.Description": "Ajuste la vitesse à laquelle le tableau de bord passe d’un onglet à un autre. Réduire cette valeur à 0 désactive complètement l’animation de transition, rendant le changement d’onglet instantané.",
         "Settings.DashSettings.AllowReplacingSettings": "Permettre le replacement des options",
         "Settings.DashSettings.AllowReplacingSettings.Description": "Quand activé, vous pourrez prendre la facette des Paramètres dans le tableau de bord (quand en mode d'édition de l'interface) et les remplacer par une autre.\n\nCette option doit être désactivée pour pouvoir prendre les facettes individuelles de chaque paramètre. Il est recommandé de n'activer cette option que temporairement pour remplacer l'interface des paramètres avant de la désactiver.",
 
@@ -1862,6 +1863,8 @@
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "Montrer l'arrière-plan",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Désactiver cette option cachera l'arrière-plan des ancres de facettes, ne montrant que les facettes elles-mêmes.",
 
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace": "Prioriser interfaces privées",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace.Description": "Quand activé, vos interfaces graphiques privées telles que le tableau de bord, les ancres de facettes ou le clavier prendront toujours la priorité pour les interactions, même si elles sont occultées par des objets dans le monde.<br><br>Cela peut être utile quand des objets dans le monde vous empêchent d’interagir avec vos interfaces privées.<br><br>Notez toutefois que vous aurez sûrement besoin de fermer votre tableau de bord avant de pouvoir interagir avec des objets en face de vous.",
         "Settings.LaserSettings.SmoothSpeed": "Vitesse de lissage de laser",
         "Settings.LaserSettings.SmoothSpeed.Description": "Définis la vitesse à laquelle les lasers répondent à vos mouvements. Une valeur faible rendra le laser plus lent, mais elle filtrera mieux les tremblements, alors qu'une valeur plus élevée sera plus rapide mais sujette à des tremblements plus visibles.",
         "Settings.LaserSettings.ModulateStartAngle": "Angle de départ de la modulation",
