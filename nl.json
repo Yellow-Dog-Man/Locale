@@ -501,7 +501,7 @@
         "Account.TOTP.Activate.InvalidToken": "Ongeldige code!",
         "Account.TOTP.Message.AlreadySetup": "2FA is al ingesteld op jouw account!",
         "Account.TOTP.Message.Error": "Onverwachte fout! Probeer het later nog eens.",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>Gefeliciteerd!</size><br><br>2FA is nu ingesteld op jouw account voor extra beveiliging!<br><br>Je kan dit optioneel inschakelen voor inloggen met het /enableLogin2FA commando.",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Gefeliciteerd!</size><br><br>2FA is nu ingesteld op jouw account voor extra beveiliging!",
         "Account.TOTP.Deactivate.Header": "Deactiveer 2FA",
         "Account.TOTP.Deactivate.Description": "2FA is nu <b><color=green>ingesteld en actief op jouw account</color></b>. Als je het uit moet schakelen (bijvoorbeeld omdat je telefoon kwijt is, of omdat iemand anders de codes heeft), kan je dat hier doen.<br><br>Na het uitschakelen, kan je 2FA opnieuw instellen. Dat genereert een nieuwe geheime code en een nieuwe set herstelcodes.<br><br>Als je telefoon kwijt is, en je moet 2FA opnieuw instellen, raden wij <b>STERK</b> aan dit zo snel mogelijk te doen. Elke herstelcode kan maar een keer gebruikt worden, als ze op zijn mag je niet meer in je account.",
         "Account.TOTP.Deactivate.Deactivate": "Deactiveer",
@@ -1456,7 +1456,7 @@
         "Settings.DashSettings.DashCurvature": "Buiging",
         "Settings.DashSettings.DashCurvature.Description": "Dit bepaalt hoe ver de dash gebogen is als je in VR bent. Als je dit instelt op 0 wordt het volledig vlak.",
         "Settings.DashSettings.OpenCloseSpeed": "Open/Sluit Snelheid",
-        "Settings.DashSettings.OpenCloseSpeed.Description": "Gebruik dit om te bepalen hoe snel de dash opent en sluit. Als je de animatie niet wil, kan je dit op een hele hoge waarde zetten, zodat de dash bijna direct opent en sluit.",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "Gebruik deze optie om in te stellen hoe snel het dashboard opent en sluit. Als je deze waarde op 0 zet, wordt de animatie volledig uitgeschakeld, waardoor het openen en sluiten onmiddellijk gebeurt.",
         "Settings.DashSettings.AllowReplacingSettings": "Sta vervangen van instellingen toe",
         "Settings.DashSettings.AllowReplacingSettings.Description": "Wanneer dit aan staat, kan je het hele instellingen paneel van de dash oppakken en vervangen met een aangepaste versie als je in de UI-bewerkingsmodus zit.\n\nDeze instelling moet uit staan als je de individuele instellingen los wil oppakken. Wij raden aan om dit tijdelijk aan te zetten wanneer je het instellingen paneel wil vervangen, en daarna weer uit te zetten",
         "Settings.NotificationSettings": "Notificaties",
@@ -2696,6 +2696,15 @@
         "Universe.Cities.Paris": "Parijs",
         "Universe.Nebulae.CatEye": "De Kattenoognevel",
         "Universe.Nebulae.Crab": "Krabnevel",
-        "Universe.Nebulae.Butterfly": "Vlindernevel"
+        "Universe.Nebulae.Butterfly": "Vlindernevel",
+        "Register.InvalidPromoCode": "Ongeldige promotiecode",
+        "Register.InvalidPromoCode.Description": "De promotiecode die je hebt gebruikt, is ongeldig! Controleer of je hem goed hebt gespeld. Hoofdletters en kleine letters maken geen verschil.",
+        "Register.ExpiredPromoCode": "Verlopen promotiecode",
+        "Register.ExpiredPromoCode.Description": "Helaas is deze promotiecode niet meer geldig. Je kunt een andere code proberen of deze verwijderen.",
+        "Account.PromoCode": "Promotiecode:",
+        "Account.Type.Promo": "Promotie Account",
+        "Settings.DashSettings.ScreenSwitchSpeed": "Snelheid van het wisselen van scherm",
+        "Settings.DashSettings.ScreenSwitchSpeed.Description": "Hiermee stel je in hoe snel het dashboard tussen schermen schakelt (bijv. Startscherm, Contacten, Sessie). Als je deze waarde op 0 zet, wordt de animatie volledig uitgeschakeld, waardoor het overschakelen direct gebeurt.",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace": "Geef voorrang aan het privé-gebruikersinterface"
     }
 }
