@@ -57,6 +57,10 @@ Register.InvalidDateOfBirth.Description
 Register.UsernameContainsBlockedTerms.Description  
 Register.MissingPassword.Description  
 Register.InvalidPassword.Description  
+Register.InvalidPromoCode  
+Register.InvalidPromoCode.Description  
+Register.ExpiredPromoCode  
+Register.ExpiredPromoCode.Description  
 Register.EmailAlreadyRegistered.Description  
 Register.UsernameAlreadyRegistered.Description  
 Register.ErrorCheckingUserId.Description  
@@ -74,6 +78,8 @@ Register.ManualLoginRequired
 Register.ManualLoginRequired.Description  
 Register.UnknownError  
 Register.UnknownError.Description  
+Account.PromoCode  
+Account.Type.Promo  
 Account.Type.Stripe  
 Profile.Status.Sociable  
 Profile.Status.Bot  
