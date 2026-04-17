@@ -31,6 +31,10 @@ Login.MalformedSecretMachineId
 Login.MalformedSecretMachineId.Description  
 Login.UnknownError  
 Login.UnknownError.Description  
+Register.InvalidPromoCode  
+Register.InvalidPromoCode.Description  
+Register.ExpiredPromoCode  
+Register.ExpiredPromoCode.Description  
 Recovery.MissingEmail  
 Recovery.MissingEmail.Description  
 Recovery.IncorrectEmail  
@@ -45,6 +49,8 @@ Register.ManualLoginRequired
 Register.ManualLoginRequired.Description  
 Register.UnknownError  
 Register.UnknownError.Description  
+Account.PromoCode  
+Account.Type.Promo  
 Account.Type.Stripe  
 Profile.Status.Sociable  
 Profile.Status.Bot  

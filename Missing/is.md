@@ -79,6 +79,10 @@ Register.MissingUsername
 Register.MissingUsername.Description  
 Register.MissingEmail  
 Register.MissingEmail.Description  
+Register.InvalidPromoCode  
+Register.InvalidPromoCode.Description  
+Register.ExpiredPromoCode  
+Register.ExpiredPromoCode.Description  
 Register.ErrorCheckingUserId  
 Register.ErrorCheckingUserId.Description  
 Recovery.MissingEmail  
@@ -91,6 +95,7 @@ Register.StatusCheckError
 Register.StatusCheckError.Description  
 Register.ManualLoginRequired  
 Register.ManualLoginRequired.Description  
+Account.PromoCode  
 Account.TOTP.Title  
 Account.TOTP.Initializing  
 Account.TOTP.Code.Header  
@@ -115,6 +120,7 @@ Account.TOTP.Deactivate.Description
 Account.TOTP.Deactivate.Deactivate  
 Account.TOTP.Deactivate.Deactivating  
 Account.TOTP.Message.DeactivationComplete  
+Account.Type.Promo  
 Account.Type.Stripe  
 2FA.Header  
 2FA.Token  
