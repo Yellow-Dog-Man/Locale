@@ -109,8 +109,8 @@
         "Interaction.NamedEquipTool": "Equipar {name}",
         "Interaction.NamedEquipTool.Default": "Ferramenta",
 
-        "Interaction.EnterAnchor": "Âncora de Entrada",
-        "Interaction.ExitAnchor": "Âncora de Saída",
+        "Interaction.EnterAnchor": "Entrar na Âncora",
+        "Interaction.ExitAnchor": "Sair da Âncora",
 
         "Interaction.EquipAvatar": "Equipar Avatar",
 
@@ -513,6 +513,12 @@
         "Register.InvalidPassword": "Senha Inválida",
         "Register.InvalidPassword.Description": "Sua senha é inválida. Deve conter pelo menos 8 caracteres, incluindo 1 dígito, 1 letra maiúscula e 1 letra minúscula.",
 
+        "Register.InvalidPromoCode": "Código Promocional Inválido",
+        "Register.InvalidPromoCode.Description": "O código promocional inserido é inválido. Por favor, verifique a ortografia e tente novamente. Não é sensível a maiúsculas e minúsculas.",
+        
+        "Register.ExpiredPromoCode": "Código Promocional Expirado",
+        "Register.ExpiredPromoCode.Description": "O código promocional inserido expirou. Por favor, tente um diferente ou remova-o.",
+
         "Register.EmailAlreadyRegistered": "Email já registrado",
         "Register.EmailAlreadyRegistered.Description": "Já existe uma conta usando este email. Se você esqueceu sua senha, clique em \"Esqueceu a senha\" ou entre em contato com o suporte em {supportUrl}.",
 
@@ -612,6 +618,7 @@
         "Account.TOTP.Message.DeactivationComplete": "Autenticação de 2Fatores foi desativada com sucesso de sua conta.<br><br>Sua conta está em perigo!<br><br>Nós altamente recomendamos você a configurar a autenticação de 2Fatores imediatamente, especialmente se você usou um código de recuperação porque perdeu o seu celular.",
 
         "Account.Type.Standard": "Conta Padrão",
+        "Account.Type.Promo": "Conta Promocional",
         "Account.Type.Business": "Conta Business",
         "Account.Type.Patreon": "Apoiador do Patreon",
         "Account.Type.Stripe": "Apoiador do Stripe",
