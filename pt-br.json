@@ -109,8 +109,8 @@
         "Interaction.NamedEquipTool": "Equipar {name}",
         "Interaction.NamedEquipTool.Default": "Ferramenta",
 
-        "Interaction.EnterAnchor": "Âncora de Entrada",
-        "Interaction.ExitAnchor": "Âncora de Saída",
+        "Interaction.EnterAnchor": "Entrar na Âncora",
+        "Interaction.ExitAnchor": "Sair da Âncora",
 
         "Interaction.EquipAvatar": "Equipar Avatar",
 
@@ -513,6 +513,12 @@
         "Register.InvalidPassword": "Senha Inválida",
         "Register.InvalidPassword.Description": "Sua senha é inválida. Deve conter pelo menos 8 caracteres, incluindo 1 dígito, 1 letra maiúscula e 1 letra minúscula.",
 
+        "Register.InvalidPromoCode": "Código Promocional Inválido",
+        "Register.InvalidPromoCode.Description": "O código promocional inserido é inválido. Por favor, verifique a ortografia e tente novamente. Não é sensível a maiúsculas e minúsculas.",
+        
+        "Register.ExpiredPromoCode": "Código Promocional Expirado",
+        "Register.ExpiredPromoCode.Description": "O código promocional inserido expirou. Por favor, tente um diferente ou remova-o.",
+
         "Register.EmailAlreadyRegistered": "Email já registrado",
         "Register.EmailAlreadyRegistered.Description": "Já existe uma conta usando este email. Se você esqueceu sua senha, clique em \"Esqueceu a senha\" ou entre em contato com o suporte em {supportUrl}.",
 
@@ -612,6 +618,7 @@
         "Account.TOTP.Message.DeactivationComplete": "Autenticação de 2Fatores foi desativada com sucesso de sua conta.<br><br>Sua conta está em perigo!<br><br>Nós altamente recomendamos você a configurar a autenticação de 2Fatores imediatamente, especialmente se você usou um código de recuperação porque perdeu o seu celular.",
 
         "Account.Type.Standard": "Conta Padrão",
+        "Account.Type.Promo": "Conta Promocional",
         "Account.Type.Business": "Conta Business",
         "Account.Type.Patreon": "Apoiador do Patreon",
         "Account.Type.Stripe": "Apoiador do Stripe",
@@ -3368,7 +3375,7 @@
         "Help.GettingStarted.BuildingBasics.BuildingInPlatform": "Criações dentro da Plataforma",
         "Help.GettingStarted.BuildingBasics.BuildingInPlatform.Content": "O {appName} oferece a você a liberdade e as ferramentas para ser criativo e criar qualquer coisa que você possa imaginar, incluindo itens, mundos e até mesmo avatares — tudo isso pode ser feito de forma colaborativa diretamente dentro do {appName}. Uma variedade de ferramentas está à sua disposição para ajudar no seu processo criativo, desde desenhar com pincéis até usar ferramentas avançadas para editar todos os aspectos de um mundo, ou até mesmo criar ferramentas personalizadas para atender às suas necessidades e fluxo de trabalho.",
         "Help.GettingStarted.BuildingBasics.PlatformEssentials": "Os Essenciais do {appName}",
-        "Help.GettingStarted.BuildingBasics.PlatformEssentials.Content": "A great place to start when on the path to making something is <b><color=hero.yellow>{appName} Essentials</closeall>, a folder in your Inventory provided to you, which contains a wide variety of items and tools to help you get started.<br><br>To navigate to this folder, <b><color=hero.purple>Double Click</closeall>{is_desktop, select, True {} other { with your <b><color=hero.purple>{Primary_Input}</closeall>}} on it to open it. Above the grid of items and folders you will see a list of folders you are currently in - akin to the address bar in a file browser. To spawn items from your inventory, <b><color=hero.purple>Double Click</closeall> on an item.<br><br>A benefit of the <b><color=hero.yellow>{appName} Essentials</color></b> folder is that it does not count toward your storage usage! This is because the folder is a link and not a folder saved directly inside your inventory - this is why the folder is <b><color=hero.cyan>blue</closeall>.",
+        "Help.GettingStarted.BuildingBasics.PlatformEssentials.Content": "Um ótimo lugar para começar a fazer alguma coisa é <b><color=hero.yellow>{appName} Essentials</closeall>, uma pasta no seu inventário que é fornecida a você, que contém umas vasta variedade de itens e ferramentas para ajudar você a começar.<br><br>Para navegar para essa pasta, <b><color=hero.purple>Aperte duas vezes</closeall>{is_desktop, select, True {} other { com seu <b><color=hero.purple>{Primary_Input}</closeall>}} para abri-la. Acima da grade de itens e pastas, você vai ver o caminho das pastas que você atualmente se encontra - como se fosse uma barra de endereço no seu Explorador de Arquivos. Para spawnar itens do seu inventário, <b><color=hero.purple>Aperte duas vezes</closeall> em um item.<br><br>Um benefício da pasta <b><color=hero.yellow>{appName} Essentials</color></b> é que ela não é contabilizada pra seu armazenamento usado! Isso é por causa que esta pasta é um link e não uma pasta salva diretamente no seu inventário - e é por isso que a pasta é <b><color=hero.cyan>azul</closeall>.",
         "Help.GettingStarted.BuildingBasics.InventoryFolders": "Pastas no Inventário",
         "Help.GettingStarted.BuildingBasics.InventoryFolders.Content": "Para criar uma pasta no seu inventário, clique no botão <sprite name=SaveIcon> <b><color=hero.cyan>Criar Pasta</closeall> no topo. Dê a pasta um nome e clique <b><color=hero.green>Criar</closeall> para cria-la, e você será posto dentro da pasta automaticamente - criar pastas e manter-se organizado será importante quando você começar a acumular uma grande quantidade de itens.",
         "Help.GettingStarted.BuildingBasics.BasicCreationTools": "Ferramentas Básicas de Criação",
