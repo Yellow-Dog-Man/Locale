@@ -1,8 +1,13 @@
 {
     "localeCode": "pl",
-    "authors": ["art0007i", "DarkSugar", "Alex_2Pi", "FoxoBread", "AdamSkI2003"],
+    "authors": [
+        "art0007i",
+        "DarkSugar",
+        "Alex_2Pi",
+        "FoxoBread",
+        "AdamSkI2003"
+    ],
     "messages": {
-
         "General.OK": "OK",
         "General.Start": "Zacznij",
         "General.Finish": "Zakończ",
@@ -39,29 +44,22 @@
         "General.Dismiss": "Zamknij",
         "General.Edit": "Edytuj",
         "General.DontShowAgain": "Nie pokazuj ponownie",
-
         "General.UI.SearchPrompt": "Szukaj...",
         "General.UI.SearchPromptLong": "Wpisz, aby wyszukać...",
         "General.UI.ToggleEditMode": "Włącz tryb edycji",
         "General.UI.ToggleSubtitles": "Włącz napisy",
         "General.UI.Subtitles.On": "Napisy: włączone",
         "General.UI.Subtitles.Off": "Napisy: wyłączone",
-
         "General.UI.MusicVolumeLocal": "Głośność muzyki (local):",
         "General.UI.VoiceVolumeLocal": "Głośność głosu (local):",
         "General.UI.SoundVolumeLocal": "Głośność dźwięku (local):",
-
         "General.UI.PressToBegin": "Naciśnij, aby rozpocząć",
-
         "General.Sort.Ascending": "Rosnąco",
         "General.Sort.Descending": "Malejąco",
-
         "General.Units.Metric": "System metryczny",
         "General.Units.Imperial": "System imperialny",
-
         "Worlds.Home": "Dom",
         "Worlds.Tutorial": "Samouczek",
-
         "Locomotion.Noclip.Name": "Noclip",
         "Locomotion.Noclip.Description": "Swobodny tryb latania (no-clip), idealny do edycji.",
         "Locomotion.Teleport.Name": "Teleport",
@@ -78,7 +76,6 @@
         "Locomotion.GrabWorld.Description": "Pozwala przesuwać świat względem użytkownika.",
         "Locomotion.Slide.Name": "Poślizg",
         "Locomotion.Slide.Description": "Prosty tryb ślizgu. Jeśli dostępna jest powierzchnia, postać się jej trzyma, w przeciwnym razie unosi się w powietrzu.",
-
         "Interaction.Destroy": "Zniszcz",
         "Interaction.Duplicate": "Duplikuj",
         "Interaction.SaveToInventory": "Zapisz do Ekwipunku",
@@ -102,22 +99,17 @@
         "Interaction.Grab.HoldToHold": "Chwycić, by trzymać",
         "Interaction.Locomotion": "Lokomocja",
         "Interaction.Locomotion.None": "Żadna",
-
         "Interaction.NamedEquipTool": "Wyposaż {name}",
         "Interaction.NamedEquipTool.Default": "Narzędzie",
-
         "Interaction.EnterAnchor": "Usiądź",
         "Interaction.ExitAnchor": "Wstań",
-
         "Interaction.EquipAvatar": "Użyj Awatar",
-
         "Interaction.SaveAsScreenshot": "Zapisz jako zrzut ekranu",
         "Interaction.ExportScreenshot": "Eksportuj zrzut ekranu",
         "Interaction.ImportFile": "Importuj Plik",
         "Interaction.ExportFile": "Eksportuj Plik",
         "Interaction.CopyLink": "Kopiuj Link",
         "Interaction.CopyImage": "Kopiuj Obraz",
-
         "Inventory.OpenWorld": "Otwórz świat",
         "Inventory.Equip": "Wyposaż",
         "Inventory.Delete": "Usuń",
@@ -142,7 +134,6 @@
         "Inventory.Favorite.Hyperlink": "Ustaw wyświetlacz URL",
         "Inventory.Favorite.Document": "Ustaw wyświetlacz dokumentów",
         "Inventory.SpawnFacet": "Przyzwij fasetę",
-
         "Dash.Screens.Home": "Dom",
         "Dash.Screens.Worlds": "Światy",
         "Dash.Screens.Contacts": "Kontakty",
@@ -153,13 +144,9 @@
         "Dash.Screens.Settings": "Ustawienia",
         "Dash.Screens.Help": "Pomoc",
         "Dash.Screens.Exit": "Wyjdź",
-
         "Dash.Actions.PasteFromClipboard": "Wklej zawartość ze schowka",
-
         "Dash.Actions.TurnOffUIEdit": "Wyłącz tryb edycji interfejsu użytkownika",
-
         "Dash.Actions.CloudHome": "Mój Dom w Chmurze",
-
         "Dash.Exit.Header": "Wyjdź z {appName}",
         "Dash.Exit.ExitAndSave": "Wyjdź i Zapisz światy",
         "Dash.Exit.ExitAndDiscard": "Wyjdź i Nie Zapisuj światów",
@@ -170,30 +157,25 @@
         "Dash.Exit.Shoutouts.You": "{name} (To ty! Dziękujęmy!)",
         "Dash.Exit.ThankYou": "Dziękujemy za używanie {appName}!",
         "Dash.Exit.SubmittedBy": "Przesłane przez: {name}",
-
         "Facets.FPS": "{fps}<size=61.803%> FPS</size>",
-
         "World.Waiting": "Oczekiwanie...",
-        "World.HostIsStarting": "Host rozpoczyna sesję...",
+        "World.HostIsStarting": "Host rozpoczyna sesję",
         "World.Loading": "Ładowanie...",
         "World.LoadingFailed": "Błąd ładowania",
         "World.LoadedAssets": "Załadowano {assets} z {total_assets}",
         "World.Downloading": "Pobieranie {bytes} z {total_bytes}",
         "World.Loaded": "Świat załadowany",
-
         "World.Connection.EstablishingConnection": "Nawiązywanie połączenia",
         "World.Connection.RequestingJoin": "Wysyłanie żądania dołączenia",
         "World.Connection.Authenticating": "Uwierzytelnianie",
         "World.Connection.Connected": "Połączono",
         "World.Connection.SyncingInitialState": "Synchronizacja początkowego stanu świata",
-
-        "World.Connection.LNL.DirectIP": "LNL Bezpośrednie IP",
+        "World.Connection.LNL.DirectIP": "LNL Bezpośrednie IP<br><size=75%>{address}</size>",
         "World.Connection.LNL.LNLPoke": "Prośba o zaczepienie LNL",
         "World.Connection.LNL.NATPunchthrough": "Przebicie NAT LNL {n}",
         "World.Connection.LNL.Relay": "Przekaźnik LNL",
         "World.Connection.SteamNetworkingSockets": "Gniazda Sieciowe Steam",
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
-
         "World.Error.AccessDenied": "Odmowa Dostępu",
         "World.Error.SecurityViolation": "Naruszenie Bezpieczeństwa",
         "World.Error.OnlyRegisteredUsers": "Tylko zarejestrowani użytkownicy mogą dołączyć",
@@ -219,7 +201,6 @@
         "World.Error.Unknown": "Nieznany błąd",
         "World.Error.FailedToCreateBanAccessKey": "Nie udało się utworzyć klucza banowania",
         "World.Error.UnhandledError": "Błąd",
-
         "World.Config.Name": "Nazwa świata:",
         "World.Config.Description": "Opis:",
         "World.Config.MaxUsers": "Maksymalna Liczba Użytkowników:",
@@ -232,9 +213,8 @@
         "World.Config.HideFromListing": "Nie pokazuj na liście sesji",
         "World.Config.Autosave": "Automatyczny zapis (nadpisze poprzedni zapis):",
         "World.Config.AutosaveInterval": "Interwał automatycznego zapisu (minuty):",
-        "World.Config.CleanupAssets": " Oczyść nieużywane zasoby:",
+        "World.Config.CleanupAssets": "Oczyść nieużywane zasoby:",
         "World.Config.CleanupInterval": "Interwał czyszczenia (sekundy):",
-
         "World.Actions.StartSession": "Rozpocznij Sesję",
         "World.Actions.Join": "Dołącz",
         "World.Actions.Focus": "Pokaż",
@@ -254,7 +234,6 @@
         "World.Actions.Overwrite": "Zastąp za {name}",
         "World.Actions.ConfirmOverwrite": "Potwierdź NADPISANIE",
         "World.Actions.Overwriting": "Nadpisywanie...",
-
         "World.Actions.ClosePrompt": "Zamknąć Świat?",
         "World.Actions.LeavePrompt": "Opuścić Świat?",
         "World.Actions.CloseConfirm": "Zamknij",
@@ -262,7 +241,6 @@
         "World.Actions.CannotClose": "(nie można zamknąć tego świata)",
         "World.Actions.GuestWarning": "",
         "World.Actions.HostingWarning": "Jesteś hostem tego świata. Wszyscy użytkownicy zostaną odłączeni.",
-
         "World.Actions.GetWorldOrb": "Zdobądź Kulę Świata",
         "World.Actions.CopyWorldURL": "Skopiuj URL Świata",
         "World.Actions.CopyRecordURL": "Skopiuj URL Rekordu",
@@ -270,7 +248,6 @@
         "World.Actions.ModifyMetadata": "Edytuj Metadane",
         "World.Actions.GetSessionOrb": "Zdobądź Kulę Sesji",
         "World.Actions.CopySessionURL": "Skopiuj URL Sesji",
-
         "World.Indicator.NoData": "Brak Danych",
         "World.Indicator.LocalWorld": "Lokalna Maszyna",
         "World.Indicator.Author": "Przez: {name}",
@@ -282,7 +259,6 @@
         "World.Indicator.Description": "Opis",
         "World.Indicator.Description.None": "(nie podano opisu)",
         "World.Indicator.Visited": "(odwiedzono)",
-
         "World.Detail.ActiveSessions": "Trwające sesje:",
         "World.Detail.ActiveUsers": "Użytkownicy online:",
         "World.Detail.NewSession": "<nowa sesja>",
@@ -292,15 +268,12 @@
         "World.Detail.AccessLevel": "Widoczność",
         "World.Detail.Users": "Użytkownicy",
         "World.Detail.Users.Count": "Aktywnych: {active}{away, select, 0 {} other { (+{away} nieaktywnych)}} z {max}",
-
         "World.Detail.WorldInformationHeader": "Szczegóły świata",
         "World.Detail.PublishDate": "Data publikacji",
         "World.Detail.ModifyDate": "Data ostatniej aktualizacji",
         "World.Detail.Visits": "Liczba odwiedzin",
-
         "World.Detail.Tags": "Tagi",
         "World.Detail.ActionsHeader": "Akcje:",
-
         "World.Category.Everything": "Wszystkie",
         "World.Category.Featured": "Polecane",
         "World.Category.PublishedWorlds": "Opublikowane Światy",
@@ -317,14 +290,12 @@
         "World.Category.MyWorlds": "Moje Światy",
         "World.Category.Custom": "Niestandardowe",
         "World.Category.GroupWorlds": "Światy Grupowe",
-
         "World.AccessLevel.Anyone": "Każdy",
         "World.AccessLevel.RegisteredUsers": "Zarejestrowani Użytkownicy",
         "World.AccessLevel.Contacts": "Znajomi",
         "World.AccessLevel.ContactsPlus": "Znajomi+",
         "World.AccessLevel.LAN": "LAN",
         "World.AccessLevel.Private": "Prywatne (tylko osoby zaproszone)",
-
         "World.SortParameter.SearchScore": "Wynik Wyszukiwania",
         "World.SortParameter.Name": "Nazwa",
         "World.SortParameter.OpenedWorldCount": "Otwarte Światy",
@@ -336,7 +307,6 @@
         "World.SortParameter.TotalVisits": "Całkowita Liczba Odwiedzin",
         "World.SortParameter.LastVisit": "Ostatnio odwiedzone",
         "World.SortParameter.Random": "Losowo",
-
         "World.Filter.DataSources": "Źródła Danych:",
         "World.Filter.OpenedWorlds": "Otwarte Światy",
         "World.Filter.ActiveSessions": "Aktywne Sesje",
@@ -357,7 +327,6 @@
         "World.Filter.MaxAccessLevel": "Najwyższy Poziom Dostępu:",
         "World.Filter.MinimumUptime": "Minimalny Czas Działania:",
         "World.Filter.Sorting": "Sortowanie:",
-
         "World.Edit.Title": "Edytuj Metadane",
         "World.Edit.Name": "Nazwa Świata:",
         "World.Edit.Description": "Opis:",
@@ -368,7 +337,6 @@
         "World.Edit.AccessPatreon": "Wspierający na Patreon",
         "World.Edit.AccessPublic": "Wszyscy (publiczny)",
         "World.Edit.ReadOnly": "Tylko odczyt",
-
         "Tools.AvatarCreator": "Kreator Awatarów",
         "Tools.FullBodyCalibrator": "Kalibrator Awatarów / Full Body",
         "Tools.CameraStreaming": "Kamera / Transmisja",
@@ -376,7 +344,6 @@
         "Tools.Debug": "Debugowanie",
         "Tools.StreamAudio": "Transmisja Dźwięku",
         "Tools.Setup2FA": "Skonfiguruj 2FA",
-
         "Tools.StreamAudio.Dialog.Title": "Transmituj audio",
         "Tools.StreamAudio.Start": "Rozpocznij Transmisję",
         "Tools.StreamAudio.Bitrate": "Bitrate: {bitrate} kbps",
@@ -385,7 +352,6 @@
         "Tools.StreamAudio.Broadcast": "Wszędzie",
         "Tools.StreamAudio.PlayForOwner.Off": "Nasłuch dla właściciela: Wył.",
         "Tools.StreamAudio.PlayForOwner.On": "Nasłuch dla właściciela: Wł.",
-
         "Options.FreeformDash.On": "Swobodna Tablica: Wł.",
         "Options.FreeformDash.Off": "Swobodna Tablica: Wył.",
         "Options.SeatedMode.On": "Tryb Siedzący: Wł.",
@@ -395,133 +361,92 @@
         "Options.Nameplates.Hide": "Nazwy Graczy: Ukryte",
         "Options.Nameplates.DefaultStyle": "Użyj domyślnych plakietek",
         "Options.Nameplates.CustomStyle": "Zezwalaj na niestandardowe plakietki",
-
         "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> {users,plural, one {Użytkownik} other {Użytkowników}} online",
         "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users, plural, one {Użytkownik} other {Użytkowników}} w VR",
-        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {Użytkownik stacjonarny} other {Użytkowników stacjonarnych}} ",
-
+        "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users, plural, one {Użytkownik stacjonarny} other {Użytkowników stacjonarnych}}",
         "Indicator.ServerStatus.Status": "Status serwera",
         "Indicator.ServerStatus.Good": "Dobry",
         "Indicator.ServerStatus.Slow": "Spowolniony",
         "Indicator.ServerStatus.Down": "Niesprawny",
         "Indicator.ServerStatus.NoInternet": "Brak internetu",
-
         "Indicator.Sync.AllSynced": "Wszystko Zsynchronizowane",
         "Indicator.Sync.SyncingItems": "Synchronizowanie {item_count,plural, one {# przedmiotu} few {# przedmiotów} many {# przedmiotów}} <nobr>({item_percent} %)",
         "Indicator.Sync.UploadingVariants": "Przesyłanie {variant_count,plural, one {# wariantu zasobu} few {# wariantów zasobów} many {# wariantów zasobów}}",
         "Indicator.Sync.SyncError": "Błąd Synchronizacji! <size=50%>Szczegóły w logu</size>",
         "Indicator.Sync.StorageFull": "Pamięć Pełna <size=61.803%>Nie można zsynchronizować</size>",
-
         "Indicator.Storage.StorageFull": "Pamięć Pełna",
         "Indicator.Storage.Usage": "{storage_used} z {storage_max}<br><size=61.803%>Użytej pamięci</size>",
-
         "Indicator.LiveHiddenMessage": "(informacja ukryta podczas transmisji)",
-
         "Login.InvalidCredentials": "Nieprawidłowe dane logowania",
         "Login.InvalidCredentials.Description": "Sprawdź swoje dane logowania i spróbuj ponownie lub naciśnij \"Nie pamiętasz hasła\"?",
-
         "Login.InvalidLogin": "Nieprawidłowe dane logowania",
         "Login.InvalidLogin.Description": "Sprawdź swoje dane logowania i spróbuj ponownie lub naciśnij \"Nie pamiętasz hasła?\"",
-
         "Login.MalformedUID": "Nieprawidłowe informacje o urządzeniu",
         "Login.MalformedUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
-
         "Login.MissingUID": "Brak informacji o urządzeniu",
         "Login.MissingUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
-
         "Login.MissingSecretMachineId": "Brak tajnego machine ID",
         "Login.MissingSecretMachineId.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
-
         "Login.MalformedSecretMachineId": "Nieprawidłowe tajne machine ID",
         "Login.MalformedSecretMachineId.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
-
         "Register.MissingUID": "Nieprawidłowe informacje urządzenia",
         "Register.MissingUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
-
         "Register.MalformedUID": "Nieprawidłowe informacje urządzenia",
         "Register.MalformedUID.Description": "Spróbuj ponownie zainstalować aplikację lub skontaktuj się z pomocą techniczną: {supportUrl}.",
-
         "Login.MissingLogin": "Brak danych logowania",
         "Login.MissingLogin.Description": "Sprawdź dane logowania i spróbuj ponownie.",
-
         "Login.InvalidRecoveryCode": "Nieprawidłowy kod odzyskiwania",
         "Login.InvalidRecoveryCode.Description": "Sprawdź kod odzyskiwania i spróbuj ponownie.",
-
         "Login.UnsupportedAuthentication": "Nieobsługiwana metoda uwierzytelniania",
         "Login.UnsupportedAuthentication.Description": "Nie obsługujemy tej metody uwierzytelniania. Spróbuj użyć innej.",
-
         "Login.EmailNotVerified": "Adres e-mail nie został zweryfikowany",
         "Login.EmailNotVerified.Description": "Twój adres e-mail nie został zweryfikowany. Sprawdź swoją skrzynkę pocztową czy nie otrzymano wiadomości od nas i upewnij się, że nie wylądowała ona w spamie.",
-
         "Login.AccountTempLocked": "Twoje konto jest zablokowane.",
         "Login.AccountTempLocked.Description": "Prosimy o kontakt z zespołem moderacyjnym: {moderationUrl}.",
-
         "Login.AccountBanned": "Twoje konto zostało zbanowane.",
         "Login.AccountBanned.Description": "Prosimy o kontakt z zespołem moderacyjnym: {moderationUrl}.",
-
         "Login.DuplicateAccount": "Zduplikowane konto",
         "Login.DuplicateAccount.Description": "Prosimy o kontakt z pomocą techniczną: {supportUrl}.",
-
         "Login.UnknownError": "Nieznany błąd",
         "Login.UnknownError.Description": "Podczas logowania wystąpił nieznany błąd. Prosimy o kontakt z pomocą techniczną: {supportUrl}.",
-
         "Register.MissingRequest": "Brak danych rejestracyjnych",
         "Register.MissingRequest.Description": "Nie mogliśmy znaleźć żadnych danych rejestracyjnych. Pamiętaj, aby podać je podczas rejestracji.",
-
         "Register.InvalidEmail": "Niepoprawny adres e-mail",
         "Register.InvalidEmail.Description": "Twój adres e-mail jest nieprawidłowy.",
-
         "Register.MissingUsername": "Brak nazwy użytkownika",
         "Register.MissingUsername.Description": "Czy podano nazwę użytkownika?",
-
         "Register.MissingEmail": "Brak adresu e-mail",
         "Register.MissingEmail.Description": "Czy podano adres e-mail?",
-
         "Register.UsernameTooLong": "Zbyt długa nazwa użytkownika",
         "Register.UsernameTooLong.Description": "Nazwy użytkownika mogą mieć maksymalnie 32 znaki.",
-
         "Register.UsernameContainsAmpersand": "Nazwa użytkownika nie może zawierać @",
         "Register.UsernameContainsAmpersand.Description": "Nazwa użytkownika nie może zawierać @.",
-
         "Register.UsernameStartsWithU": "Nazwa użytkownika nie może zaczynać się od U-",
-        "Register.UsernameStartsWithU.Description": "Nazwa użytkownika nie może zaczynać się od U-",
-
+        "Register.UsernameStartsWithU.Description": "Nazwa użytkownika nie może zaczynać się od U-.",
         "Register.InvalidUsername": "Nieprawidłowa nazwa użytkownika",
         "Register.InvalidUsername.Description": "Twoja nazwa użytkownika jest nieprawidłowa.",
-
         "Register.InvalidDateOfBirth": "Nieprawidłowa data urodzenia",
         "Register.InvalidDateOfBirth.Description": "Twoja data urodzenia jest nieprawidłowa.",
-
         "Register.UsernameContainsBlockedTerms": "Nazwa użytkownika zawiera zablokowane słowa",
         "Register.UsernameContainsBlockedTerms.Description": "Twoja nazwa użytkownika zawiera niedozwolone słowa. Jeśli uważasz, że jest to błąd, skontaktuj się z nami: {supportUrl}.",
-
         "Register.MissingPassword": "Nie podano hasła",
         "Register.MissingPassword.Description": "Hasło nie zostało wprowadzone.",
-
         "Register.InvalidPassword": "Nieprawidłowe Hasło",
         "Register.InvalidPassword.Description": "Hasło musi zawierać co najmniej 8 znaków, w tym: 1 cyfrę, 1 dużą i małą literę.",
-
         "Register.EmailAlreadyRegistered": "E-mail już zarejestrowany",
         "Register.EmailAlreadyRegistered.Description": "Istnieje już konto pod tym adresem e-mail. Jeśli nie pamiętasz hasła, możesz kliknąć \"Nie pamiętam hasła\" Możesz również skontaktować się z pomocą techniczną: {supportUrl}.",
-
         "Register.UsernameAlreadyRegistered": "Nazwa użytkownika jest już zarejestrowana",
         "Register.UsernameAlreadyRegistered.Description": "Konto używające tej nazwy użytkownika już istnieje, jeśli nie pamiętasz hasła, możesz kliknąć \"Nie pamiętam hasła\". Możesz również skontaktować się z pomocą techniczną: {supportUrl}.",
-
         "Register.ErrorCheckingUserId": "Błąd podczas sprawdzania UserID",
         "Register.ErrorCheckingUserId.Description": "Skontaktuj się z pomocą techniczną: {supportUrl}.",
-
         "Recovery.MissingEmail": "Brak adresu e-mail",
         "Recovery.MissingEmail.Description": "Czy podano adres e-mail?",
-
         "Recovery.IncorrectEmail": "Niepoprawny adres e-mail",
         "Recovery.IncorrectEmail.Description": "Wprowadzono nieprawidłowy adres e-mail do odzyskania hasła. Sprawdź swoje dane i spróbuj ponownie.",
-
         "Recovery.NoPasswordSetup": "Hasło nie zostało ustawione",
         "Recovery.NoPasswordSetup.Description": "Skontaktuj się z pomocą techniczną: {supportUrl}.",
-
         "Register.UnknownError": "Nieznany błąd",
         "Register.UnknownError.Description": "Podczas rejestracji wystąpił nieznany błąd. Skontaktuj się z pomocą techniczną: {supportUrl}.",
-
         "Account.Login": "Zaloguj się",
         "Account.Logout": "Wyloguj się",
         "Account.Register": "Zarejestruj się",
@@ -559,11 +484,9 @@
         "Account.BirthYear": "Rok Urodzenia:",
         "Account.PoliciesAgreement": "Zgadzam się z <color=#22B2FF>warunkami korzystania z usług</color> i <color=#22B2FF>polityką prywatności</color>",
         "Account.AlternateMethods": "Zamiast tego zaloguj się za pomocą usługi innej firmy:",
-
         "Account.Saml2.Title": "SAML 2.0",
         "Account.Saml2.Select": "Wybierz dostawcę SAML 2.0, którego chcesz używać:",
         "Account.Saml2.LoggingIn": "Czekam na zakończenie logowania (sprawdź swoją przeglądarkę)...",
-
         "Account.TOTP.Title": "Dwuetapowa weryfikacja",
         "Account.TOTP.Initializing": "Sprawdzanie statusu dwuetapowej weryfikacji Twojego konta...",
         "Account.TOTP.Code.Header": "Sekretny kod",
@@ -582,13 +505,12 @@
         "Account.TOTP.Activate.InvalidToken": "Nieprawidłowy token!",
         "Account.TOTP.Message.AlreadySetup": "Dwuetapowa weryfikacja została już skonfigurowana na Twoim koncie!",
         "Account.TOTP.Message.Error": "Wystąpił błąd. Spróbuj ponownie później.",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>Gratulacje!</size><br><br>Twoje konto jest teraz zabezpieczone dwuetapową weryfikacją.<br><br>Możesz opcjonalnie włączyć tę funkcję przy logowaniu do konta, używając polecenia /enableLogin2FA.",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Gratulacje!</size><br><br>Twoje konto jest teraz zabezpieczone dwuetapową weryfikacją!",
         "Account.TOTP.Deactivate.Header": "Dezaktywuj dwuetapową weryfikację",
         "Account.TOTP.Deactivate.Description": "Dwuetapowa weryfikacja jest obecnie <b><color=green>skonfigurowana i aktywna na Twoim koncie</color></b>. Jeśli musisz ją dezaktywować, np. z powodu utraty telefonu lub naruszenia bezpieczeństwa kodów, możesz to zrobić tutaj.<br><br>Po dezaktywacji będziesz mógł ponownie skonfigurować dwuetapową weryfikację, co spowoduje wygenerowanie nowego sekretnego kodu oraz nowego zestawu kodów odzyskiwania.<br><br>Jeśli zgubisz telefon, a konieczne będzie ponowne skonfigurowanie dwuetapowej weryfikacji, <b>zdecydowanie zalecamy</b> wykonanie tego natychmiast, ponieważ każdy kod odzyskiwania można użyć tylko raz, a po ich wyczerpaniu dostęp do konta będzie niemożliwy.",
         "Account.TOTP.Deactivate.Deactivate": "Dezaktywuj",
         "Account.TOTP.Deactivate.Deactivating": "Dezaktywowanie...",
         "Account.TOTP.Message.DeactivationComplete": "Dwuetapowa weryfikacja została pomyślnie dezaktywowana na Twoim koncie.<br><br>Twoje konto jest teraz bardziej narażone na ryzyko!<br><br>Zdecydowanie zalecamy ponowne skonfigurowanie dwuetapowej weryfikacji, zwłaszcza jeśli użyto kodu odzyskiwania z powodu utraty telefonu.",
-
         "Account.Type.Standard": "Konto Standardowe",
         "Account.Type.Business": "Konto Biznesowe",
         "Account.Type.Patreon": "Wsparcie na Patreon",
@@ -596,12 +518,9 @@
         "Account.Type.Mentor": "{platform} Mentor",
         "Account.Type.Moderator": "{platform} Moderator",
         "Account.Type.Team": "{platform} Zespół",
-
         "Avatar.Badge.Live": "NA ŻYWO",
-
         "2FA.Header": "Weryfikacja 2FA",
         "2FA.Token": "6-cyfrowy Token:",
-
         "Profile.Status.Sociable": "Towarzyski",
         "Profile.Status.Online": "Online",
         "Profile.Status.Away": "Zaraz Wracam",
@@ -611,36 +530,30 @@
         "Profile.Status.Headless": "Host Headless",
         "Profile.Status.Bot": "<b>Bot:</b> {version}",
         "Profile.Status.ChatClient": "<b>Klient czatowy:</b> {version}",
-
         "Session.Tab.Settings": "Ustawienia",
         "Session.Tab.Users": "Użytkownicy",
         "Session.Tab.Permissions": "Uprawnienia",
-
         "Session.Permission.Anonymous": "Domyślny Anonim:",
         "Session.Permission.Vistor": "Domyślny Odwiedzający:",
         "Session.Permission.Contact": "Domyślny Kontakt:",
         "Session.Permission.Host": "Domyślny Host:",
         "Session.Permission.PermissionOverrideCount": "Nadpisane Uprawnienia: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Wyczyść Nadpisane Uprawnienia",
-
         "Session.JoinVerifier.EnableHeader": "Aktywować niestandardowy weryfikator dołączania?",
         "Session.JoinVerifier.EnableText": "<color=red>OSTRZEŻENIE:</color> Zamierzasz włączyć niestandardową weryfikację dołączania, która jest częścią bieżącego świata. Zanim to zrobisz, upewnij się, że ufasz twórcy świata, ponieważ niestandardowy weryfikator może ominąć standardowe reguły dostępu do sesji i zezwolić lub zablokować dostęp użytkownikom przy użyciu własnych reguł.",
         "Session.JoinVerifier.Label": "Użyj niestandardowego weryfikatora dołączania: {name}",
         "Session.JoinVerifier.ComponentWarning": "<color=red>OSTRZEŻENIE:</color> W tej chwili nie ma mechanizmu zapobiegającego manipulowaniu weryfikatorem po jego włączeniu. Jeśli obawiasz się manipulowania ustawieniami ProtoFlux w celu weryfikacji, NIE UŻYWAJ tej funkcji i NIE WŁĄCZAJ jej w swoich światach.",
         "Session.JoinVerifier.SetCustomVerifier": "Ustaw jako niestandardowy weryfikator żądania dołączenia",
-
         "Permissions.NotAllowedToSpawn": "Nie masz pozwolenia aby przyzywać przedmioty w tym świecie.",
         "Permissions.NotAllowedToSave": "Nie masz pozwolenia aby zapisywać przedmioty w tym świecie.",
         "Permissions.NotAllowedToSwapAvatar": "Nie masz pozwolenia aby użyć własnego awatara w tym świecie.",
         "Permissions.SavingDisabledForItem": "Nie masz pozwolenia aby zapisać ten przedmiot.",
-
         "User.Actions.Silence": "Wycisz (globalnie)",
         "User.Actions.Mute": "Wycisz (lokalnie)",
         "User.Actions.Jump": "Skocz do",
         "User.Actions.Respawn": "Odrodź",
         "User.Actions.Kick": "Wyrzuć",
         "User.Actions.Ban": "Banuj",
-
         "Contacts.Add": "Dodaj Znajomego",
         "Contacts.Remove": "Usuń Znajomego",
         "Contacts.ConfirmRemove": "Na Pewno Usunąć?",
@@ -660,7 +573,6 @@
         "Contacts.SelfAccount": "Moje konto",
         "Contacts.SearchPrompt": "Wyszukaj Znajomych...",
         "Contacts.WriteMessage": "Napisz wiadomość...",
-
         "Contacts.InSession": "W {name}",
         "Contacts.NoSession": "Nie w sesji",
         "Contacts.InPrivate": "W Prywatnym Świecie",
@@ -679,7 +591,6 @@
         "Contacts.Migrated": "Znajomy nie przeszedł Migracji",
         "Contacts.IncompatibleSession": "Niekompatybilna sesja",
         "Contacts.AskToJoin": "<color=hero.yellow>Poproś</color> aby dołączyć",
-
         "Contacts.InviteRequest.UserWantsToJoin": "{username} chce dołączyć",
         "Contacts.InviteRequest.UserWantsToInviteAnother": "\"{requestingUser}\" chce zaprosić \"{userToInvite}\" do \"{sessionName}\"",
         "Contacts.InviteRequest.GrantInvite": "Zaproś (jednorazowe)",
@@ -691,7 +602,6 @@
         "Contacts.InviteRequest.SentRequest": "Poroszono o dołączenie",
         "Contacts.InviteRequest.ForwardedRequest": "Przekazano prośbę dołączenia od \"{username}\" do \"{sessionName}\"",
         "Contacts.InviteRequest.GrantedRequest": "Zaproszono \"{username}\" do \"{sessionName}\"",
-
         "Notifications.IsSociable": "Poszukuje towarzystwa. Wyślij im wiadomość lub zaproś ich!",
         "Notifications.IsOnline": "Jest teraz Online",
         "Notifications.IsOnlineOnDifferentVersion": "Jest teraz Online <size=75%>(używając wersji: {version})</size>",
@@ -706,7 +616,6 @@
         "Notifications.UserLeft": "Użytkownik opuścił sesję",
         "Notifications.PermissionChanged": "Rola zmieniona na {new}",
         "Notifications.PermissionChangedDetail": "W {world}. Poprzednia: {old}",
-
         "Undo.SetField": "Ustawienie pola {field_name} na {value}",
         "Undo.SetReference": "Ustawienie odniesienia {ref_name} na {ref_target}",
         "Undo.Spawn": "Stworzenie {name}",
@@ -721,11 +630,9 @@
         "Undo.ResetPosition": "Resetowanie Pozycji",
         "Undo.ResetRotation": "Resetowanie Obrótu",
         "Undo.ResetScale": "Resetowanie Skali",
-
         "Undo.GrabObjects": "Chwycenie Obiektów",
         "Undo.DestroyGrabbed": "Zniszczenie Chwyconych Obiektów",
         "Undo.DuplicateGrabbed": "Duplikowanie Chwyconych Obiektów",
-
         "Undo.ChangeBoxSize": "Zmienienie Wielkości Pudełka",
         "Undo.BrushStroke": "Pociągnięcie Pędzla",
         "Undo.ChangeColor": "Zmienienie Koloru",
@@ -737,16 +644,12 @@
         "Undo.ChangeMesh": "Zmienienie Meshu",
         "Undo.InsertParent": "Dodanie Rodzica do {name}",
         "Undo.Wiggler": "Złe Rzeczy",
-
         "Undo.ExtractMaterialsFromHierarchy": "Wyciągnięcie Materiałów z Hierarchii",
         "Undo.BatchConvertMaterials": "Zbiorcze konwertowanie materiałów",
-
         "Tools.Brush.ChangeColor": "Zmień kolor",
         "Tools.Brush.IncrementSize": "Zwiększ rozmiar",
         "Tools.Brush.DecrementSize": "Zmniejsz rozmiar",
-
         "Tools.GeometryLineBrush.Name": "Pędzel linii geometrycznej",
-
         "Tools.Dev.Name": "Narzędzie Deweloperskie",
         "Tools.Dev.CreateNew": "Stwórz Nowy...",
         "Tools.Dev.Selection": "Zaznaczanie: {mode}",
@@ -756,7 +659,6 @@
         "Tools.Dev.DeselectAll": "Odznacz Wszystko",
         "Tools.Dev.DestroySelected": "Zniszcz Zaznaczone",
         "Tools.Dev.ConfirmDestroySelected": "NA PEWNO Zniszcz Zaznaczone",
-
         "Tools.Dev.GizmoOptions": "Opcje Gizmo",
         "Tools.Dev.SelectParent": "Zaznacz Rodzica",
         "Tools.Dev.LocalSpace": "Przestrzeń lokalna",
@@ -764,51 +666,40 @@
         "Tools.Dev.Translation": "Pozycja",
         "Tools.Dev.Rotation": "Obrót",
         "Tools.Dev.Scale": "Skala",
-
         "Tools.Dev.Selection.Single": "Pojedyncze",
         "Tools.Dev.Selection.Multi": "Multi",
-
         "Tools.Dev.Interaction.Tip": "Narzędzie",
         "Tools.Dev.Interaction.Projection": "Projekcja",
-
         "Tools.Color.Name": "Narzędzie koloru",
         "Tools.Color.Picker": "Wybieranie Kolorów",
-
         "Tools.GrabbableSetter.Name": "Narzędzie ustawiania możliwości chwytania",
         "Tools.GrabbableSetter.Scalable": "Obiekty będą Skalowalne",
         "Tools.GrabbableSetter.NonScalable": "Obiekty nie będą Skalowalne",
         "Tools.GrabbableSetter.ApplyToRoot": "Ustaw Apply to Root",
         "Tools.GrabbableSetter.AppyToHit": "Ustaw Apply to Hit",
-
         "Tools.CharacterCollider.Name": "Narzędzie ustawiania kolizji postaci",
         "Tools.CharacterCollider.MarkGrippable": "Oznaczaj jako Wspinalny",
         "Tools.CharacterCollider.DontMarkGrippable": "Nie Oznaczaj jako Wspinalny",
         "Tools.CharacterCollider.EnsureWalkRun": "Zapewnij lokomocję Chodzenie/Bieganie",
         "Tools.CharacterCollider.EnsureZeroG": "Zapewnij lokomocję Zero-G",
         "Tools.CharacterCollider.EnsurePhysicalFly": "Zapewnij lokomocję Fizyczne Latanie",
-
         "Tools.Light.Point": "Punktowe",
         "Tools.Light.Spot": "Stożkowe",
         "Tools.Light.Sun": "Słońce",
-
         "Tools.Light.Name": "Narzędzie światła",
         "Tools.Light.Shadows.None": "Brak cieni",
         "Tools.Light.Shadows.Hard": "Ostre cienie",
         "Tools.Light.Shadows.Soft": "Miękkie cienie",
-
         "Tools.MeshVisibility.Name": "Narzędzie widoczności meshy",
         "Tools.MeshVisibility.KeepShadow": "Pozostaw Cień",
         "Tools.MeshVisibility.ShadowOff": "Wyłącz Cień",
         "Tools.MeshVisibility.ShadowOn": "Włącz Cień",
         "Tools.MeshVisibility.OnlyShadow": "Pokaż tylko cień",
         "Tools.MeshVisibility.DoubleSidedShadow": "Ustaw na dwustronny cień",
-
         "Tools.Mesh.Name": "Narzędzie meshy",
-
         "Tools.Slicer.Name": "Narzędzie wycinania meshy",
         "Tools.Slicer.Add": "Dodaj Slicer",
         "Tools.Slicer.Clear": "Usuń Slicer",
-
         "Tools.Material.Name": "Narzędzie materiału",
         "Tools.Material.RayMode": "Tryb Promienia",
         "Tools.Material.AreaMode": "Tryb Strefy",
@@ -819,11 +710,8 @@
         "Tools.Material.Convert": "Konwertuj na...",
         "Tools.Material.ConvertAll": "Konwertuj Wszystkie na...",
         "Tools.Material.CreateNew": "Stwórz Nowy",
-
         "Tools.Mesh.Edit": "Edytuj Mesh",
-
         "Tools.Cartridge.Eject": "Wysuń kulę",
-
         "Tools.Microphone.Name": "Mikrofon",
         "Tools.Microphone.Format.WAV": "WAV",
         "Tools.Microphone.Format.Vorbis": "OGG Vorbis",
@@ -832,7 +720,6 @@
         "Tools.Microphone.ModePress": "Kliknij aby zacząć/zakończyć nagrywanie",
         "Tools.Microphone.SourceRaw": "Surowe",
         "Tools.Microphone.SourceFiltered": "Filtrowane i Normalizowane",
-
         "Tools.ProtoFlux.Name": "Narzędzie ProtoFlux",
         "Tools.ProtoFlux.Drive": "Steruj",
         "Tools.ProtoFlux.Source": "Źródło",
@@ -848,53 +735,39 @@
         "Tools.ProtoFlux.PackInto": "Pakuj do <size=50%>{name}</size>",
         "Tools.ProtoFlux.Unpack": "Rozpakuj <size=50%>{name}</size>",
         "Tools.ProtoFlux.ExplicitCast": "Explicit Cast\n<size=50%>(<color=red>Warning:</color> Potential Data Loss)</size>",
-
         "Tools.Meter.Mode.Ray": "Tryb: Promień",
         "Tools.Meter.Mode.Perpendicular": "Tryb: Prostopadły",
         "Tools.Meter.Mode.Drag": "Tryb: Przeciąganie",
-
         "Tools.Meter.Points.Two": "Dwa Punkty",
         "Tools.Meter.Points.Multiple": "Wiele Punktów",
-
         "Tools.Meter.Name": "Narzędzie mierzenia",
         "Tools.Meter.ObjectSpace": "Pomiar w Przestrzeni Obiektu",
         "Tools.Meter.WorldSpace": "Pomiar w Przestrzeni Światowej",
-
         "Tools.Glue.Name": "Narzędzie klejenia",
         "Tools.Glue.Mode.BakeMeshes": "Tryb: Wypal meshe",
         "Tools.Glue.Mode.BakeSkinnedMeshes": "Tryb: Wypal meshe z kościami",
         "Tools.Glue.Mode.ParentObjects": "Tryb: Rodzicowanie obiektów",
-
         "Tools.RigTransfer.Name": "Narzędzie przenoszenia meshy",
         "Tools.RigTransfer.ClearSource": "Wyczyść źródło",
-
         "Tools.GaussianSplat.Name": "Narzędzie Gaussian Splatów",
         "Tools.GaussianSplat.ClipBox": "Wycięcie kuboidalne",
         "Tools.GaussianSplat.ClipSphere": "Wycięcie sferyczne",
-        "Tools.GaussianSplat.ClipCylinder" : "Wycięcie cylindryczne",
-
+        "Tools.GaussianSplat.ClipCylinder": "Wycięcie cylindryczne",
         "Tools.ComponentClone.Name": "Narzędzie klonowania komponentów",
         "Tools.ComponentClone.SingleInstanceOn": "Jedna Instancja: Włączona",
         "Tools.ComponentClone.SingleInstanceOff": "Jedna Instancja: Wyłączona",
         "Tools.ComponentClone.ClearTemplate": "Wyczyść szablon",
-
         "Tools.Shape.Name": "Narzędzie kształtu",
-
         "Tools.CameraObjectHider.Name": "Narzędzie widoczności obiektów kamery",
-
         "Tools.ControllerDiagnostic.Name": "Narzędzie diagnostyki kontrolera",
-
         "Tools.Labeler.Name": "Narzędzie etykiet",
-
         "ProtoFlux.UI.Call": "Uruchom",
         "ProtoFlux.UI.AsyncCall": "<size=50%>Asynchroniczne</size> uruchomienie",
         "ProtoFlux.UI.NodeBrowser.Title": "Nody ProtoFlux",
-
         "CreateNew.Back": "<<< <i>Wstecz</i>",
         "CreateNew.EmptyObject": "Pusty Obiekt",
         "CreateNew.ParticleSystem": "System Cząsteczek",
         "CreateNew.LegacyParticleSystem": "Stary System Cząsteczek",
-
         "CreateNew.Object": "Obiekt",
         "CreateNew.Object.AvatarCreator": "Kreator Awatarów",
         "CreateNew.Object.Camera": "Kamera",
@@ -907,17 +780,14 @@
         "CreateNew.Object.SpawnPoint": "Punkt Odrodzenia",
         "CreateNew.Object.UIXCanvas": "Panel UIX",
         "CreateNew.Object.Facet": "Faseta",
-
         "CreateNew.Object.FogVolume": "Mgła",
         "CreateNew.Object.FogVolume.Additive": "Przyłączeniowy",
         "CreateNew.Object.FogVolume.Alpha": "Alfa",
         "CreateNew.Object.FogVolume.Multiplicative": "Mnożny",
         "CreateNew.Object.FogVolume.Gradient": "Gradient",
-
         "CreateNew.Text": "Tekst",
         "CreateNew.Text.Basic": "Podstawowy",
         "CreateNew.Text.Outline": "Obrys",
-
         "CreateNew.Editor": "Edytor",
         "CreateNew.Editor.UserInspector": "Inspektor Użytkowników",
         "CreateNew.Editor.LightSourcesWizard": "Kreator Źródeł Światła",
@@ -927,7 +797,6 @@
         "CreateNew.Editor.ReflectionProbes": "Kreator Próbek Odbicia",
         "CreateNew.Editor.TexturePackingWizard": "Kreator pakowania tekstur",
         "CreateNew.Editor.TextureUnpackingWizard": "Kreator rozpakowywania tekstur",
-
         "CreateNew.3DModel": "Model 3D",
         "CreateNew.3DModel.Triangle": "Trójkąt",
         "CreateNew.3DModel.Box": "Pudełko",
@@ -938,7 +807,6 @@
         "CreateNew.3DModel.Quad": "Kwadrat",
         "CreateNew.3DModel.Grid": "Kratka",
         "CreateNew.3DModel.Torus": "Torus",
-
         "CreateNew.Collider": "Obszar",
         "CreateNew.Collider.Box": "Pudełko",
         "CreateNew.Collider.Sphere": "Kula",
@@ -946,21 +814,17 @@
         "CreateNew.Collider.Cylinder": "Cylinder",
         "CreateNew.Collider.Cone": "Stożek",
         "CreateNew.Collider.Mesh": "Mesh",
-
         "CreateNew.Light": "Światło",
         "CreateNew.Light.Point": "Punktowe",
         "CreateNew.Light.Spot": "Stożkowe",
         "CreateNew.Light.Directional": "Kierunkowe",
-
         "CreateNew.Materials": "Materiały",
-
         "CreateNew.Directory.Title": "Utwórz nowy katalog:",
         "CreateNew.Directory.Error.EmptyName": "Proszę podać nazwę:",
         "CreateNew.Directory.Error.LongName": "Nazwa jest za długa:",
         "CreateNew.Directory.Error.InvalidName": "Błędna nazwa:",
-
         "AvatarCreator.Title": "Kreator Awatarów",
-        "AvatarCreator.Instructions": "Dopasuj obiekty awatara do referencji gogli i kontrolerów (opcjonalnie) i kliknij Utwórz aby przekształcić je w awatar.",
+        "AvatarCreator.Instructions": "Dopasuj obiekty awatara do referencji gogli i kontrolerów (opcjonalnie) i kliknij Utwórz aby przekształcić je w awatar",
         "AvatarCreator.UseSymmetry": "Używaj Symetrii",
         "AvatarCreator.ShowToolAnchors": "Pokaż Pozycje Narzędzi",
         "AvatarCreator.SetupVolumeMeter": "Konfiguruj Miernik Głośności",
@@ -977,17 +841,14 @@
         "AvatarCreator.AlignToolAnchors": "Wyrównaj Pozycje Narzędzi",
         "AvatarCreator.Create": "Utwórz",
         "AvatarCreator.ProtectionUnavailable": "<i>Ochrona awatara nie jest dostępna na tym świecie. Przełącz się na inny świat, aby chronić swój awatar.</i>",
-
         "Importer.General.AsRawFile": "Plik",
-
         "Importer.Folder.Title": "Importer Folderów",
         "Importer.Folder.Individual": "Indywidualny import",
-        "Importer.Folder.Individual.Description": "Tworzy osobne okno dialogowe importu dla każdego obsługiwanego pliku w folderze.",
+        "Importer.Folder.Individual.Description": "Tworzy osobne okno dialogowe importu dla każdego obsługiwanego pliku w folderze",
         "Importer.Folder.Batch": "Import zbiorczy",
         "Importer.Folder.Batch.Description": "Tworzy jeden importer dla każdego typu, używając tych samych ustawień dla każdego pliku",
         "Importer.Folder.Minecraft": "Świat Minecraft",
         "Importer.Folder.Minecraft.Description": "Importuje świat Minecraft, jeśli Mineways jest zainstalowany.",
-
         "Importer.Image.Title": "Importer Obrazów",
         "Importer.Image.Prompt": "Co chcesz importować?",
         "Importer.Image.Regular": "Obraz / Tekstura",
@@ -1000,26 +861,21 @@
         "Importer.Image.180": "Zdjęcie 180",
         "Importer.Image.Stereo180": "Zdjęcie Stereo 180",
         "Importer.Image.LUT": "LUT",
-
         "Importer.Image.Failure.Heading": "Import obrazu nie powiódł się <color=hero.yellow>{image}</color>",
         "Importer.Image.Failure.Description": "Import obrazu nie powiódł się przez:\n\n<color=hero.red>{error}</color>",
-
         "Importer.LUT.Failure.Heading": "Import LUT nie powiódł się <color=hero.yellow>{image}</color>",
         "Importer.LUT.Failure.Description": "Import LUT nie powiódł się przez:\n\n<color=hero.red>{error}</color>",
-
         "Importer.ImageVideo.LayoutPrompt": "Z jakiego układu korzysta?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Obok Siebie LR",
         "Importer.ImageVideo.LayoutHorizontalRL": "Obok Siebie RL",
         "Importer.ImageVideo.LayoutVerticalLR": "Góra Dół LR",
         "Importer.ImageVideo.LayoutVerticalRL": "Góra Dół RL",
-
         "Importer.Model.Title": "Importer Modeli",
         "Importer.Model.Prompt": "Co chcesz importować?",
         "Importer.Model.Regular": "Model 3D",
         "Importer.Model.3DScan": "Skan 3D",
         "Importer.Model.CAD": "Model CAD",
         "Importer.Model.PointCloud": "Chmura Punktowa",
-
         "Importer.Model.GaussianSplat": "Gaussian Splat",
         "Importer.Model.GaussianSplatVertical": "Oś pionowa",
         "Importer.Model.RegularVertical": "Normalna",
@@ -1027,7 +883,6 @@
         "Importer.Model.GaussianSplatEncoding": "Encodowanie",
         "Importer.Model.GaussianSplatLossless": "Lossless",
         "Importer.Model.GaussianSplatSPZ": "SPZ (lossy)",
-
         "Importer.Model.VertexColorModel": "Model z Kolorami Wierzchołków",
         "Importer.Model.AdvancedSettings": "Zaawansowane Ustawienia",
         "Importer.Model.ModelKindPrompt": "Jaki typ modelu 3D?",
@@ -1042,7 +897,6 @@
         "Importer.Model.Inches": "Cale",
         "Importer.Model.FinalizePrompt": "Wszystko gotowe?",
         "Importer.Model.RunImport": "Importuj!",
-
         "Importer.Model.Advanced.Scale": "Skala: ",
         "Importer.Model.Advanced.AutoScale": "Automatyczna Skala",
         "Importer.Model.Advanced.MaxTexSize": "Maksymalna Wielkość Tekstur",
@@ -1050,7 +904,6 @@
         "Importer.Model.Advanced.Material": "Materiał: ",
         "Importer.Model.Advanced.PreferSpecular": "Preferuj Specular",
         "Importer.Model.Advanced.AlignAxis": "Wyrównaj Oś: ",
-
         "Importer.Model.Advanced.Normals": "Oblicz Normalne",
         "Importer.Model.Advanced.Tangents": "Oblicz Styczne",
         "Importer.Model.Advanced.VertexColors": "Importuj Kolory Wierzchołków",
@@ -1059,7 +912,6 @@
         "Importer.Model.Advanced.TextureAlpha": "Oblicz Alfa Tekstur",
         "Importer.Model.Advanced.AlbedoColor": "Importuj Kolor Albedo",
         "Importer.Model.Advanced.ImportEmissive": "Importuj Emisję",
-
         "Importer.Model.Advanced.Colliders": "Generuj Obszary",
         "Importer.Model.Advanced.Animations": "Importuj Animacje",
         "Importer.Model.Advanced.SetupSnappable": "Ustaw jako przyciągalny",
@@ -1070,7 +922,6 @@
         "Importer.Model.Advanced.VisualizeRig": "Wizualizuj Szkielet",
         "Importer.Model.Advanced.ForceTpose": "Wymuś Pozę T",
         "Importer.Model.Advanced.ForcePointCloud": "Jako Chmura Punktowa",
-
         "Importer.Model.Advanced.DualSided": "Konwertuj na Dwustronne",
         "Importer.Model.Advanced.FlatShaded": "Konwertuj na Płaskie Cieniowanie",
         "Importer.Model.Advanced.DeduplicateInstances": "Deduplikuj Instancje (powolne)",
@@ -1082,17 +933,14 @@
         "Importer.Model.Advanced.ForcePointFiltering": "Wymuś Filtrowanie Punktowe",
         "Importer.Model.Advanced.ForceNoMipMaps": "Wymuś brak MipMap",
         "Importer.Model.Advanced.ForceUncompressed": "Wymuś brak Kompresji",
-
         "Importer.Model.Advanced.Grabbable": "Pozwól na Chwytanie",
         "Importer.Model.Advanced.Scalable": "Pozwól na Skalowanie",
         "Importer.Model.Advanced.PositionAtOrigin": "Pozycja w Oryginalnym Punkcie",
         "Importer.Model.Advanced.AssetsOnObject": "Umieść Zasoby na Obiekcie",
-
         "Importer.Splat.Progress.Importing": "Importowanie Gaussian Splat",
         "Importer.Splat.Progress.ReadingHeader": "Odczyt nagłówka pliku",
         "Importer.Splat.Progress.ConvertingSplats": "Przekonwertowano {converted} splatów z {total}",
         "Importer.Splat.Progress.EncodingData": "Enkodowanie przekonwertowanych danych",
-
         "GaussianSplat.Encoding.Title": "Enkodowanie Gaussian Splat",
         "GaussianSplat.Encoding.Metadata": "Enkodowanie metadanych",
         "GaussianSplat.Encoding.EncodingPositions": "Enkodowanie {encoded} pozycji z {total}",
@@ -1101,12 +949,10 @@
         "GaussianSplat.Encoding.EncodingAlphas": "Enkodowanie {encoded} alfy z {total}",
         "GaussianSplat.Encoding.EncodingColors": "Enkodowanie {encoded} kolorów z {total}",
         "GaussianSplat.Encoding.EncodingFinalizing": "Finalizowanie enkodowania",
-
         "GaussianSplat.Processing.RemovingSplats": "Usuwanie splatów",
         "GaussianSplat.Processing.SplatProgress": "Przetworzenie {count} z {total}",
         "GaussianSplat.Processing.LoadingData": "Ładowanie danych zasobów",
         "GaussianSplat.Processing.FailNoData": "Nie udało się załadować danych zasobów do przetworzenia",
-
         "Importer.Video.Title": "Importer Filmów",
         "Importer.Video.Prompt": "Co chcesz importować?",
         "Importer.Video.Regular": "Film",
@@ -1118,41 +964,32 @@
         "Importer.Video.Stereo180": "Film Stereo 180",
         "Importer.Video.Depth.Prompt": "Szablon Głębii",
         "Importer.Video.Depth.Default": "Domyślny",
-
         "Importer.Slices.Title": "Obrazy w formie warstw jako tekstura objętościowa",
         "Importer.Slices.TitleGrayscale": "Obrazy w formie warstw jako tekstura objętościowa (skala szarości)",
         "Importer.Slices.Description": "Przetwarza wszystkie pliki obrazów w folderze na teksturę objętościową",
-
         "Importer.UnsupportedRecordType.Heading": "Ten typ pliku nie jest obsługiwany",
         "Importer.UnsupportedRecordType.Description": "Plik, który chcesz zaimportować ({url}), ma nieobsługiwany format ({recordType}). Daj nam znać o tym tutaj: {bugUrl} – poprawimy to!",
         "Importer.Link.Invalid.Heading": "Błędny link do foldera",
         "Importer.Link.Invalid.Description": "Link do foldera ({url}) jest nieprawidłowy. Sprawdź, czy na pewno został dobrze skopiowany, i spróbuj ponownie.",
         "Inventory.Link.LinkText": "Link do zasobów: {name}",
-
         "Exporter.Title": "Eksport",
         "Exporter.FileName": "Nazwa pliku:",
         "Exporter.ExportAs": "Eksportuj jako:",
         "Exporter.Export": "Eksport",
         "Exporter.Exporting": "Eksportowanie...",
         "Exporter.InvalidFileName": "Nieprawidłowa nazwa pliku",
-
         "Export.PackageExportable.Package": "Pakiet Resonite",
         "Export.PackageExportable.PackageWithVariants": "Pakiet Resonite <size=75%>(+warianty)</size>",
-
         "Export.AudioExportable.OriginalFormat": "Audio <size=75%>(oryginalny format)</size>",
-
         "Export.VideoExportable.OriginalFormat": "Video <size=75%>(oryginalny format)</size>",
-
         "Export.GaussianSplatExportable.PLY": "PLY (lossless)",
         "Export.GaussianSplatExportable.SPZ": "SPZ (lossy)",
-
         "Importer.Package.Progress.DecodingPackage": "Dekodowanie pakietu",
         "Importer.Package.Progress.DecodingObject": "Dekodowanie obiektu",
         "Importer.Package.Progress.ImportingAssets": "Importowanie zasobów",
         "Importer.Package.Progress.LoadingObject": "Ładowanie obiektu",
         "Importer.Package.Progress.Imported": "Pakiet importowany",
         "Importer.Package.Progress.Fail": "Importowanie się nie powiodło. Sprawdź logi",
-
         "NewWorld.Title": "Nowy Świat",
         "NewWorld.SessionTitle": "Nowa sesja",
         "NewWorld.Template": "Szablon Świata:",
@@ -1162,7 +999,6 @@
         "NewWorld.Port": "Port:",
         "NewWorld.AutoPort": "Auto:",
         "NewWorld.DefaultName": "Świat {name}",
-
         "FullBody.Title": "Kalibracja Awatarów / Full Body",
         "FullBody.SetHeight": "1) Ustaw swój wzrost",
         "FullBody.HeightInstructions": "Upewnij się, że to Twój rzeczywisty wzrost, w przeciwnym razie kalibracja nie będzie działać poprawnie. Manekin powinien pasować do gogli i kontrolerów.",
@@ -1174,12 +1010,10 @@
         "FullBody.JustCalibrateAvatarDescription": "Pomiń kalibrację full body i tylko skalibruj awatara",
         "FullBody.SkipAndAdjustAvatar": "Pomiń i dostosuj awatar",
         "FullBody.CalibrateInstructions": "Dopasuj się do czerwonej nakładki ciała w obszarze gry i naciśnij oba triggery, aby potwierdzić. Upewnij się, że Twoje prawdziwe stopy i biodra pasują do wirtualnych tak blisko, jak to możliwe.",
-
         "FullBody.BeforeCalibrationInstructions": "Upewnij się, że trackery działają, a Twój wzrost jest ustawiony",
         "FullBody.CalibratingPoseInstructions": "Dopasuj się do odniesienia i naciśnij oba triggery, aby potwierdzić",
         "FullBody.AdjustAvatarInstructions": "Dostosuj przesunięcia ciała awatara, aby najlepiej pasowały do odniesienia",
         "FullBody.FineTuneCalibrationInstructions": "Sprawdź i dostrój kalibrację, przesuwając niebieskie odniesienia",
-
         "FullBody.CalibrateTrackersHeader": "Kalibruj Trackery",
         "FullBody.CalibrateTrackersInstructions": "Chwyć i ustaw niebieskie części ciała względem trackerów, aby dostosować ich przesunięcie. Powinny pasować do lokalizacji trackera na Twoim ciele.\nW dowolnym momencie możesz dostosować kalibrację, ponownie otwierając to narzędzie.",
         "FullBody.UseSymmetry": "Używaj Symetrii",
@@ -1191,7 +1025,6 @@
         "FullBody.CalibrateAvatar": "Kalibruj Mój Awatar",
         "FullBody.FinishPrompt": "Wszystko w porządku?",
         "FullBody.FinishCalibration": "Zakończ kalibrację Fullbody",
-
         "FullBody.CalibrateAvatarTitle": "Kalibracja Awatara",
         "FullBody.CalibrateAvatarInstructions": "Upewnij się, że wszystkie części ciała są zmapowane, a następnie przeciągnij niebieskie kule dookoła, aby awatar najlepiej pasował do odniesienia do ciała.",
         "FullBody.ShowReferenceOverlay": "Pokaż Nakładkę Odniesienia",
@@ -1206,34 +1039,28 @@
         "FullBody.CloseCalibrator": "Zamknij Kalibrator",
         "FullBody.CalibrationRedoInstructions": "Jeśli kalibracja jest wyłączona lub chcesz skalibrować więcej awatarów, możesz wprowadzić więcej korekt. Możesz także ponownie otworzyć ten kalibrator w przyszłości, aby wprowadzić zmiany.\nJeśli zmieniono tylko trackery, nie musisz ponownie kalibrować swoich awatarów.",
         "FullBody.ReturnToTrackerCalibration": "Powróć do kalibracji trackerów",
-
         "FullBody.Hips": "Biodra",
         "FullBody.Feet": "Stopy",
         "FullBody.Chest": "Pierś",
         "FullBody.Elbows": "Łokcie",
         "FullBody.Knees": "Kolana",
-
         "FullBody.TrackerMapped": "Tracker Zmapowany",
         "FullBody.NotTracking": "Nie śledzi...",
         "FullBody.NoTracker": "Brak Mapowania Trackera",
         "FullBody.FeetNotTracking": "Trackery stóp nie działają...",
-
         "FullBody.AvatarPointMapped": "Zmapowany",
         "FullBody.AvatarPointNotMapped": "Nie Zmapowany",
         "FullBody.AvatarPointNoTracker": "Brak Trackera",
-
         "CameraControl.Title": "Sterowanie Kamerą",
         "CameraControl.MirroringOffWarning": "RZUTOWANIE WYŁĄCZONE",
         "CameraControl.MirrorToDisplay": "Rzutuj do wyświetlacza",
         "CameraControl.TakePhoto": "Zrób Zdjęcie",
         "CameraControl.Take360Photo": "Zrób Zdjęcie 360",
-
         "CameraControl.Mode.SmoothPOV": "Płynny Punkt Widzenia",
         "CameraControl.Mode.ThirdPerson": "Trzecia Osoba",
         "CameraControl.Mode.Group": "Grupa",
         "CameraControl.Mode.World": "Świat",
         "CameraControl.Mode.Manual": "Ręczny",
-
         "CameraControl.Settings.AvoidOcclusion": "Unikaj Okluzji",
         "CameraControl.Settings.KeepInWorldspace": "Zachowaj W Świecie",
         "CameraControl.Settings.MovementWobble": "Chybotanie Od Ruchu",
@@ -1246,15 +1073,12 @@
         "CameraControl.Settings.PhotoTimer": "Odliczanie",
         "CameraControl.Settings.ShowLiveBadge": "Pokaż odznakę Na Żywo",
         "CameraControl.Settings.AudioFromCameraViewpoint": "Dźwięk z pozycji kamery",
-
         "CameraControl.OpenCloseUsers": "Użytkownicy",
         "CameraControl.CreateCameraAnchor": "Utwórz Punkt Kamery",
-
         "CameraControl.Anchors.Interpolate": "Interpolacja Między Punktami",
         "CameraControl.Anchors.InterpolationSpeed": "Prędkość Interpolacji:",
         "CameraControl.Anchors.LinearInterpolation": "Interpolacja linearna",
         "CameraControl.Anchors.NoAnchors": "Brak punktów kamery w tym świecie",
-
         "CameraControl.Positioning.FieldOfView": "Pole Widzenia",
         "CameraControl.Positioning.AngleOffset": "Przesunięcie Kąta",
         "CameraControl.Positioning.Distance": "Odległość",
@@ -1263,7 +1087,6 @@
         "CameraControl.Positioning.FirstPersonRoll": "Przechył Boczny Pierwszej Osoby",
         "CameraControl.Positioning.FirstPersonOffset": "Przesunięcie Pierwszej Osoby",
         "CameraControl.Positioning.Reset": "Resetuj",
-
         "CameraControl.Control.AnyoneCanInteract": "Każdy może chwytać",
         "CameraControl.Control.RenderPreviewForEveryone": "Renderuj Podgląd dla Wszystkich",
         "CameraControl.Control.RenderPrivateUI": "Renderuj Prywatny Interfejs",
@@ -1276,7 +1099,6 @@
         "CameraControl.Control.PositionSmoothSpeed": "Prędkość Wygładzania Pozycji: {n}",
         "CameraControl.Control.AngleSmoothSpeed": "Prędkość Wygładzania Obrotu: {n}",
         "CameraControl.Control.FramingSmoothSpeed": "Prędkość Płynnego Kadrowania: {n}",
-
         "CameraControl.OBS.IP": "IP Socketu OBS:",
         "CameraControl.OBS.Password": "Hasło OBS (opcjonalne):",
         "CameraControl.OBS.Connect": "Połącz",
@@ -1302,17 +1124,14 @@
         "CameraControl.OBS.Live": "NA ŻYWO",
         "CameraControl.OBS.Recording": "REC",
         "CameraControl.OBS.OpenInstallerReason": "Z tej strony możesz pobrać wtyczkę websocket dla OBS",
-
         "CameraControl.OBS.Streaming.Start": "Rozpocznij Transmisję",
         "CameraControl.OBS.Streaming.Starting": "Rozpoczynanie Transmisji...",
         "CameraControl.OBS.Streaming.Stop": "Zakończ Transmisję",
         "CameraControl.OBS.Streaming.Stopping": "Zatrzymywanie Transmisji",
-
         "CameraControl.OBS.Recording.Start": "Rozpocznij Nagrywanie",
         "CameraControl.OBS.Recording.Starting": "Rozpoczynanie Nagrywania...",
         "CameraControl.OBS.Recording.Stop": "Zakończ Nagrywanie",
         "CameraControl.OBS.Recording.Stopping": "Zakańczanie Nagrywania",
-
         "Settings.Category.Audio": "Dźwięk",
         "Settings.Category.Controls": "Sterowanie",
         "Settings.Category.Devices": "Urządzenia",
@@ -1324,23 +1143,18 @@
         "Settings.Category.UserInterface": "Interfejs",
         "Settings.Category.Graphics": "Grafika",
         "Settings.Category.InteractiveCamera": "Kamera",
-
         "Settings.LegacyFeatureSettings.ConvertLegacySettings": "DEBUG - Konwertuj Stare Ustawienia",
         "Settings.DebugSettings.DebugResetAllSimpleSettings": "DEBUG - Resetuj wszystkie proste ustawienia",
-
         "Settings.GeneralControlsSettings": "Ogólne Sterowanie",
         "Settings.LocomotionSettings": "Lokomocja",
         "Settings.MovementSettings": "Poruszanie",
         "Settings.MouseSettings": "Mysz",
-
         "Settings.GeneralHapticsSettings": "Sprzężenie Zwrotne",
         "Settings.GeneralVRSettings": "VR",
         "Settings.LeapMotionSettings": "Leap Motion",
         "Settings.ViveHandTrackingSettings": "Vive Hand Tracking",
         "Settings.TrackingSmoothingSettings": "Wygładzanie Urządzeń",
-
         "Settings.UserMetricsSettings": "Parametry Użytkownika",
-
         "Settings.OnlineStatusSettings": "Ustawienia Statusu",
         "Settings.OnlineStatusSettings.DefaultStatus": "Domyślny Status",
         "Settings.OnlineStatusSettings.DefaultStatus.Description": "To jest domyślny status, który zostanie ustawiony po logowaniu, chyba że istnieje poprzednio zapamiętany status.",
@@ -1353,36 +1167,28 @@
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan": "Zapamiętaj status niewidoczny na",
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description": "Ostatni status niewidoczny będzie zapamiętany tylko, jeśli zalogujesz się ponownie w tym czasie. Jeśli wylogujesz się na dłużej, zaczniesz z domyślnym statusem.",
         "Settings.OnlineStatusSettings.AutoAwayTimespan": "Zmień na Zaraz Wracam po",
-        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description": "Jeśli przez ten czas nie będzie aktywności, status zostanie automatycznie zmieniony na Zaraz Wracam. Po powrocie zostanie ustawiony poprzedni status, chyba że został ustawiony ręcznie na Zaraz Wracam.\n\n(Nie dotyczy statusu niewidocznego.)",
-
+        "Settings.OnlineStatusSettings.AutoAwayTimespan.Description": "Jeśli przez ten czas nie będzie aktywności, status zostanie automatycznie zmieniony na Zaraz Wracam. Po powrocie zostanie ustawiony poprzedni status, chyba że został ustawiony ręcznie na Zaraz Wracam.<br><br>(Nie dotyczy statusu niewidocznego.)",
         "Settings.AudioInputDeviceSettings": "Urządzenie Wejścia",
         "Settings.AudioOutputDeviceSettings": "Urządzenie Wyjścia",
         "Settings.AudioVolumeSettings": "Głośność",
         "Settings.AudioAccessibilitySettings": "Dostępność",
         "Settings.AudioInputFilteringSettings": "Filtrowanie Wejścia",
-
         "Settings.RealtimeNetworkingSettings": "Sieć w czasie rzeczywistym",
         "Settings.AssetGatherSettings": "Pobieranie zasobów",
-
         "Settings.HostAccessSettings": "Dostęp Hostów",
         "Settings.UserRestrictionsSettings": "Ograniczenia Użytkowników",
-
         "Settings.OperatingSystemSettings": "Ustawienia Windows",
         "Settings.DebugSettings": "Debugowanie",
         "Settings.LegacyFeatureSettings": "Stare Funkcje",
         "Settings.TwitchInterfaceSettings": "Ustawienia Interfejsu Twitch",
-
         "Settings.MessagingPrivacySettings": "Prywatność Wiadomości",
-
         "Settings.LocaleSettings": "Lokalizacja",
         "Settings.DashSettings": "Tablica",
         "Settings.NamePlateSettings": "Nazwy graczy",
         "Settings.LaserSettings": "Lasery Interakcyjne",
         "Settings.DesktopViewSettings": "Ekran Pulpitu",
         "Settings.PhotoCaptureSettings": "Szybkie Robienie Zdjęć",
-
         "Settings.DesktopRenderSettings": "Ustawienia Renderowania w trybie stacjonarnym",
-
         "Settings.InteractiveCameraFramingSettings": "Kadrowanie",
         "Settings.InteractiveCameraPositioningSettings": "Pozycjonowanie",
         "Settings.InteractiveCameraRenderSettings": "Renderowanie",
@@ -1391,15 +1197,12 @@
         "Settings.InteractiveCameraAnchorSettings": "Punkty Kamery",
         "Settings.InteractiveCameraPhotoSettings": "Zdjęcia",
         "Settings.InteractiveCameraPostProcessingSettings": "Przetwarzanie Końcowe",
-
         "Settings.GeneralControlsSettings.PrimaryHand": "Ręka wiodąca",
         "Settings.GeneralControlsSettings.PrimaryHand.Description": "Którą rękę uważasz za wiodącą. Różne systemy używają tego przy interakcji, np. przy ekwipowaniu narzędzi.",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Odstęp podwójnego kliknięcia",
         "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Dla dowolnych interakcji wymagających podwójnego kliknięcia, to ustawienie kontroluje maksymalny czas żeby kliknięcie było uznane za podwójne. Jeśli trudno jest ci wykonać podwójne kliknięcie zwiększ tą wartość. Jeśli zbyt łatwo jest ci wykonać podwójne kliknięcie zmniejsz tą wartość.",
-
         "Settings.LocomotionSettings.LocomotionPreferences": "Preferencje Lokomocji",
         "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Preferencje Lokomocji",
-
         "Settings.MovementSettings.LeftSidewaysMode": "Tryb poruszania na boki lewego kontrolera",
         "Settings.MovementSettings.LeftSidewaysMode.Description": "To ustawienie zmienia co poruszanie na boki joystickiem będzie robiło na twoim lewym kontrolerze.\n\n<color=hero.yellow>TurnAndMove:</color> Ten kontroler służy do obracania i ruchu.\n\n<color=hero.yellow>TurnOnly:</color> Ten kontroler służy wyłącznie do obracania.\n\n<color=hero.yellow>Strafe:</color> Ten kontroler służy wyłącznie do strafowania.\n\n<color=hero.yellow>Off:</color> Tylko ruch do przodu/do tyłu.",
         "Settings.MovementSettings.RightSidewaysMode": "Tryb poruszania na boki prawego kontrolera",
@@ -1422,15 +1225,12 @@
         "Settings.MovementSettings.TurningDeadzone.Description": "To ustawienie może być użyte aby poprawić dryfowanie kontrolera i zapobiec przypadkowemu obracaniu się. To ustawienie spowoduje że będziesz musieć bardziej przeychlić joystick aby zacząć się obracać.",
         "Settings.MovementSettings.MovementExponent": "Wykładnik Poruszania",
         "Settings.MovementSettings.MovementExponent.Description": "To ustawienie może być użyte aby kontrolować krzywą, która modyfikuje poruszanie się. Możesz zacząć poruszać się powoli i później przyśpieszyć albo zacząć poruszać się szybko od razu, w zależności od tego czy wartość jest większa czy mniejsza niż 1.0.",
-
         "Settings.GrabbingSettings": "Ustawienia Chwytania",
         "Settings.GrabbingSettings.DefaultHandGrabType": "Domyślny Tryb Chwytania",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "To ustala twój domyślny tryb chwytania gdy pojawiasz się na nowym świecie.\n\n<color=hero.yellow>Palm:</color> Złapiesz wszystkie obiekty, które są w pobliżu twojej dłoni.\n\n<color=hero.yellow>Precision:</color> Złapiesz pojedynczy obiekt pomiędzy twoim palcem wskazującym i kciukiem.\n\n<color=hero.yellow>Auto:</color> Tryb łapania jest automatycznie zmienany pomiędzy Dłonią i Precyzyjnym, w zależności od położenia twojej ręki.\n\n<color=hero.yellow>Off:</color> Przedmioty będzie można łapać tylko laserami.",
-
         "Settings.FullBodyTrackingSettings": "Full Body Tracking",
         "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Kąt poziomy ciała",
         "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "To wartość odchylenia kąta między stopami a głową, po przekroczeniu której postać będzie uznawana za pozę poziomą. Wpływa to na pewne rzeczy, takie jak zastępowanie pozycji trackera symulacją stóp.",
-
         "Settings.GamepadSettings": "Gamepad",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Prędkość rozglądania się joystickiem",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Użyj tego aby dostosować prędkość z jaką kamera jest obracana za pomocą joysticka.",
@@ -1438,7 +1238,6 @@
         "Settings.GamepadSettings.ThumbstickLookExponent.Description": "To ustawienie może być użyte aby kontrolować krzywą, która modyfikuje rozglądanie się joystickiem. Możesz zacząć obracać się powoli i później przyśpieszyć albo zacząć obracać się szybko od razu, w zależności od tego czy wartość jest większa czy mniejsza niż 1.0.",
         "Settings.GamepadSettings.UseGamepadWhenUnfocused": "Użyj gamepada gdy niezfokusowany",
         "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "Gdy to ustawienie jest włączone, gamepad będzie używany nawet gdy okienko aplikacji nie jest aktualnie fokusowane. Możesz to wyłączyć, jeżeli chcesz grać w inne gry w tym samym czasie, które również korzystają z gamepada.",
-
         "Settings.MouseSettings.MouseSensitivity": "Czułość myszy",
         "Settings.MouseSettings.MouseSensitivity.Description": "Ogólna czułość myszy w trybie stacjonarnym.",
         "Settings.MouseSettings.MouseLookSpeed": "Prędkość rozglądania się",
@@ -1451,7 +1250,6 @@
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "Gdy przedmiot jest trzymany w trybie stacjonarnym, to ustawienie kontroluje jak szybko ten przedmiot będzie się obracać, podczas swobodnego obracania.",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "Prędkość przesuwania trzymanych przedmiotów",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "Gdy przedmiot jest trzymany w trybie stacjonarnym, to ustawienie kontroluje jak szybko ten przedmiot będzie się poruszać do przodu i do tyłu za pomocą scrolla.",
-
         "Settings.KeyboardLookSettings": "Ustawienia ruchu kamery przy użyciu klawiatury",
         "Settings.KeyboardLookSettings.LookEnabled": "Ruch kamery przy użyciu klawiatury",
         "Settings.KeyboardLookSettings.LookEnabled.Description": "Gdy ta opcja jest włączona, można używać strzałek na klawiaturze do sterowania kamerą.<br>Ta funkcja jest przeznaczona do scenariuszy, w których mysz może nie być dostępna lub odpowiednia, na przykład podczas korzystania z laptopa.",
@@ -1459,56 +1257,42 @@
         "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "Regulacja szybkości ruchu kamery w poziomie.",
         "Settings.KeyboardLookSettings.VerticalSpeed": "Prędkość w pionie",
         "Settings.KeyboardLookSettings.VerticalSpeed.Description": "Regulacja szybkości ruchu kamery w pionie.",
-
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Wibracja kontrolerów",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Użyj tego aby włączyć lub wyłączyć haptyczne wibracje na kontrolerach VR.",
         "Settings.GeneralHapticsSettings.EnableHaptics": "Haptic feedback",
         "Settings.GeneralHapticsSettings.EnableHaptics.Description": "Gdy to ustawienie jest włączone, będziesz odczuwać haptyczne wibracje od awatarów i przedmiotów na świecie przez swoje kontrolery i inne urządzenia haptyczne.",
-
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR Hotswitching",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Gdy to ustawienie jest włączone, gra automatycznie przełączy się pomiędzy trybem VR a trybem okienkowym gdy założysz lub zdejmiesz gogle VR.",
-
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Wygładzanie pozycji dłoni",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Wygładzanie rotacji dłoni",
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "Gdy to ustawienie jest włączone, to kontroluje jak bardzo pozycja dłoni jest wygładzana. Zwykle pomaga to użytkownikom z trzęsącymi się rękoma lub z innymi doległościami które mogą wywołać drgania.",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "Gdy to ustawienie jest włączone, to kontroluje jak bardzo rotacja dłoni jest wygładzana. Zwykle pomaga to użytkownikom z trzęsącymi się rękoma lub z innymi doległościami które mogą wywołać drgania.",
-
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Wygładzanie pozycji stóp",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Wygładzanie rotacji stóp",
-
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "Gdy to ustawienie jest włączone, to kontroluje jak bardzo pozycja stóp jest wygładzana podczas używania śledzenia Full Body. To może się przydać do wyeliminowania niechcianych wibracji i drgań, ale sprawia też, że pozycje trackerów są opóźnione i nie śledzą dobrze szybkich ruchów.",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "Gdy to ustawienie jest włączone, to kontroluje jak bardzo rotacja stóp jest wygładzana podczas używania śledzenia Full Body. To może się przydać do wyeliminowania niechcianych wibracji i drgań, ale sprawia też, że pozycje trackerów są opóźnione i nie śledzą dobrze szybkich ruchów.",
-
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Wygładzanie pozycji bioder",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Wygładzanie rotacji bioder",
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "Gdy to ustawienie jest włączone, to kontroluje jak bardzo pozycja bioder jest wygładzana podczas używania śledzenia Full Body. To może się przydać do wyeliminowania niechcianych wibracji i drgań, ale sprawia też, że pozycje trackerów są opóźnione i nie śledzą dobrze szybkich ruchów.",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "Gdy to ustawienie jest włączone, to kontroluje jak bardzo rotacja bioder jest wygładzana podczas używania śledzenia Full Body. To może się przydać do wyeliminowania niechcianych wibracji i drgań, ale sprawia też, że pozycje trackerów są opóźnione i nie śledzą dobrze szybkich ruchów.",
-
         "Settings.MediaPrivacySettings": "Prywatność mediów",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Zrezygnuj z metadanych mediów",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Gdy ta opcja jest włączona, użytkownik zostanie wykluczony z metadanych zawartych w zrzutach ekranów, klipach audio i tym podobnych. Wciąż będzie obecny w tych zasobach, ale żadne informacje takie jak ID Użytkownika czy pozycja na scenie nie będą zapisane razem z nimi.\n\nJeżeli dowiesz się, że ktoś modyfikuje klienta gry w sposób, który ignorowałby tą opcję, zgłoś się z tym do moderacji, ponieważ to uznawane jest za znęcanie się.",
         "Settings.MediaPrivacySettings.HideInScreenshots": "Nie pokazuj mnie w zrzutach ekranu",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Gdy ta opcja jest włączona, nie będziesz renderowany w zrzutach ekranu zrobionych w grze.\n\n<color=hero.red>WAŻNE:</color> Ta opcja nie dotyczy kamer, które renderują w czasie rzeczywistym, zrzutów ekranu za pomocą metod spoza gry, ani innych metod użytych na świecie, które mogą być częścią jego działania.",
-
         "Settings.MediaPrivacySettings.StripImageFileMetadata": "Usuń metadane obrazów przy importowaniu",
         "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "Gdy ta opcja jest włączona, metadane na <b>importowanych</b> obrazach są usuwane.\n\nTo dotyczy metadanych EXIF, osadzonych komentarzy, IPTC, XMP i GEOTIFF.\n\nUsunie też dane lokalizacji (takie jak GPS) wewnątrz tych metadanych.\n\nTo <b>nie</b> dotyczy obrazów importowanych przy pomocy opcji \"Plik\".",
-
         "Settings.Category.Integrations": "Integracje",
         "Settings.DiscordIntegrationSettings": "Integracje z Discord",
         "Settings.SteamIntegrationSettings": "Integracje ze Steam",
-
         "Settings.DiscordIntegrationSettings.RichPresence": "Discord Rich Presence",
         "Settings.DiscordIntegrationSettings.RichPresence.Description": "To kontroluje jakie informacje {appName} wysyła do systemów Rich Presence Discord.\n\n<color=hero.yellow>None</color> - Nie wysyłaj informacji Rich Presence do Discord\n<color=hero.yellow>Basic</color> - Wyślij tylko podstawowe dane, takie jak twoja obecność w {appName}.\n<color=hero.yellow>Full</color> - W sesjach publicznych, wyślij wszystkie stosowne informacje o sesji do Discord. W tym, nazwa świata i liczba użytkowników w sesji.\n\nDiscord również sam wykrywa w jaką grę grasz. To może być wyłączone w ustawieniach Discorda.",
-
         "Settings.SteamIntegrationSettings.RichPresence": "Steam Rich Presence",
         "Settings.SteamIntegrationSettings.RichPresence.Description": "Kontroluje jakie informacje {appName} wysyła do systemów Rich Presence Steam.\n\n<color=hero.yellow>None</color> - Nie wysyłaj informacji Rich Presence\n<color=hero.yellow>Basic</color> - Wyślij tylko podstawowe dane, takie jak twoja obecność w {appName}.\n<color=hero.yellow>Full</color> - W sesjach publicznych, wyślij wszystkie stosowne informacje o sesji do Steam. W tym, nazwa świata i liczba użytkowników w sesji.\n\nSteam będzie pokazywał, że grasz w {appName} niezależnie od tego ustawienia. Zmiana tego ustawienia ustala tylko ile dodatkowych informacji jest wysyłanych o twojej aktywnej sesji.",
-
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Zapisuj zrzuty ekranu",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Gdy zrobisz zdjęcie z tym ustawieniem włączonym, kopia zostanie zapisana do zrzutów ekranu Steam.",
-
         "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Wymuś Steam Voice gdy Remote Play jest aktywowany",
         "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "Gdy to ustawienie jest włączone, automatycznie wymusza wejście audio aby używało Steam Voice, gdy grasz przez Steam Remote Play. To sprawia, że nie musisz zmieniać urządzenia wejścia aby używało przekazanego mikrofonu<br><br>Wyłączenie tego ustawienia może być przydatne gdy chcesz używać swojego własnego urządzenia audio, np. zewnętrznego mikrofonu.",
-
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Śledzenie rąk Leap Motion",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Gdy to ustawienie jest włączone, urządzenie Leap Motion będzie używane aby śledzić twoje ręce i palce.",
         "Settings.LeapMotionSettings.Offset": "Offset śledzenia rąk",
@@ -1516,21 +1300,18 @@
         "Settings.LeapMotionSettings.SnapDistance": "Dystans przyciągania kontrolerów",
         "Settings.LeapMotionSettings.SnapDistance.Description": "Gdy twoje ręcę są w pobliżu kontrolerów, automatycznie zostaną one do nich przyciągnięte i dane śledzenia rąk będą pochodzić z nich, a nie z Leap Motion. To kontroluje dystans, przy którym ręce zostaną przyciągnięte.",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Śledź ręce podczas używania kontrolerów",
-        "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "Gdy ręcę są przyciągnięte do kontrolerów, to ustawienie pozwoli na używanie danych z Leap Motion aby pozować palce.",
-
+        "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "Gdy ręcę są przyciągnięte do kontrolerów, to ustawienie pozwoli na używanie danych z Leap Motion aby pozować palce",
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Śledzenie rąk Vive",
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "Gdy to ustawienie jest włączone, twoje ręce i palce będą śledzone używając śledzenia rąk Vive. Zwykle jest do tego używana kamera na goglach VR. Możliwe, że konieczne będzie włączenie śledzenia rąk w ustawieniach Steam VR.",
         "Settings.ViveHandTrackingSettings.SnapDistance": "Dystans przyciągania kontrolerów",
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Gdy twoje ręcę są w pobliżu kontrolerów, automatycznie zostaną one do nich przyciągnięte i dane śledzenia rąk będą pochodzić z nich, a nie z kamer na goglach. To kontroluje dystans, przy którym ręce zostaną przyciągnięte.",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Śledź ręce podczas używania kontrolerów",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "Gdy ręcę są przyciągnięte do kontrolerów, to ustawienie pozwoli na używanie danych z kamer na goglach aby pozować palce.",
-
         "Settings.TrackerSettings": "Ustawienia trackerów",
         "Settings.TrackerSettings.UseTrackers": "Używaj trackerów",
         "Settings.TrackerSettings.UseTrackers.Description": "Za pomocą tej opcji możesz globalnie wyłączyć wszystkie trackery. To jest użyteczne gdy twoje trackery są odłożone na bok i się ładują, przez co twój awatar jest zgnieciony.",
         "Settings.TrackerSettings.Trackers": "Zarządzaj trackerami",
         "Settings.TrackerSettings.Trackers.Breadcrumb": "Trackery",
-
         "Settings.TrackerSettings.Trackers.UseTracker": "Używaj trackera",
         "Settings.TrackerSettings.Trackers.UseTracker.Description": "Czy ten tracker powinien być używany do śledzenia? Możesz użyć tego ustawienia aby tymczasowo wyłączyć dany tracker, bez konieczności resetowania jego przypisania.",
         "Settings.TrackerSettings.Trackers.FreezeTracking": "Wstrzymaj śledzenie",
@@ -1555,53 +1336,42 @@
         "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "To oznacza, że ten tracker aktualnie jest ładowany. Nie każdy tracker pokazuje tą informację.",
         "Settings.TrackerSettings.Trackers.Unmap": "Resetuj przypisanie",
         "Settings.TrackerSettings.Trackers.Remove": "Usuń tracker",
-
         "Settings.SteamLinkSettings": "Steam Link",
         "Settings.SteamLinkSettings.OSC_DataPort": "Port śledzenia twarzy OSC",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "Port, który powinien być używany do nasłuchiwania danych śledzenia twarzy przez OSC. To powinien być ten sam port, który jest ustawiony w ustawieniach SteamVR.",
-
         "Settings.BabbleSettings": "Projekt Babble",
         "Settings.BabbleSettings.OSC_DataPort": "Face tracking OSC port",
         "Settings.BabbleSettings.OSC_DataPort.Description": "Który port należy używać podczas odbierania danych śledzenia twarzy przez OSC. Powinien to być ten sam port, co w ustawieniach Babble.",
-
         "Settings.HapticPointMapping.MappingTarget": "Przypisz do",
         "Settings.HapticPointMapping.MappingTarget.Description": "Użyj tego aby ustalić do której części awatara ma być przypisane to urządzenie.",
-
         "Settings.HapticPointMapping.PointRadius": "Promień punktu haptycznego",
         "Settings.HapticPointMapping.PointRadius.Description": "To pozwala ci kontrolować rozmiar punktu haptycznego na awatarze. Zwiększenie promienia sprawi, że łatwiej będzie aktywować go z dalszej odległości, ale będzie to zarazem mniej precyzyjne, ponieważ każdy wyzwalacz haptyczny w priomieniu go aktywuje.",
-
         "Settings.HapticPointMapping.TorsoHorizontalPosition": "Pozioma pozycja na tułowiu",
-        "Settings.HapticPointMapping.TorsoHorizontalPosition.Description": "To jest pozioma pozycja na tułowiu, idąc z lewej do prawej.",
+        "Settings.HapticPointMapping.TorsoHorizontalPosition.Description": "To jest pozioma pozycja na tułowiu, idąc z lewej do prawej",
         "Settings.HapticPointMapping.TorsoVerticalPosition": "Pionowa pozycja na tułowiu",
         "Settings.HapticPointMapping.TorsoVerticalPosition.Description": "To jest pionowa pozycja na tułowiu, idąc z dołu do góry.",
         "Settings.HapticPointMapping.TorsoSide": "Bok tułowia",
-        "Settings.HapticPointMapping.TorsoSide.Description": "To pozwala ci wybrać do której strony tułowia ma być przypisane to urządzenie (przód lub tył).",
-
+        "Settings.HapticPointMapping.TorsoSide.Description": "To pozwala ci wybrać do której strony tułowia ma być przypisane to urządzenie (przód lub tył)",
         "Settings.HapticPointMapping.HeadPitchAngle": "Kąt pochylenia głowy",
         "Settings.HapticPointMapping.HeadPitchAngle.Description": "To kontroluje pozycje po \"pionowej\" osi głowy. Domyślna pozycja to środek twarzy (tam gdzie jest nos). Zwiększenie kątu spowoduje przesunięcie w górę, w stronę czubka głowy. Zmniejszenie kątu spowoduje przesunięcie w dół, w stronę podbródka.",
         "Settings.HapticPointMapping.HeadYawAngle": "Kąt odchylenia głowy",
         "Settings.HapticPointMapping.HeadYawAngle.Description": "To kontroluje poziomą pozycję dookoła twojej głowy, od lewej do prawej strony. Środek (tam gdzie jest nos) to domyślna pozycja. Zmniejszenie tej wartości spowoduje przesunięcie w lewo, a zwiększenie - w prawo. Ustawienie 180° będzie oznaczać tył głowy.",
-
         "Settings.HapticPointMapping.ArmSide": "Ramię",
         "Settings.HapticPointMapping.ArmSide.Description": "Do którego ramienia powinno być to przypisane? Do lewego czy prawego?",
         "Settings.HapticPointMapping.ArmPositionAlong": "Pozycja wzdłuż ramienia",
         "Settings.HapticPointMapping.ArmPositionAlong.Description": "To kontroluje pozycję wzdłuż całej ręki, rozpoczynając od ramienia i kończąc na nadgarstku. Środkowa pozycja jest na łokciu.",
         "Settings.HapticPointMapping.ArmAngleAround": "Kąt dookoła ramienia",
         "Settings.HapticPointMapping.ArmAngleAround.Description": "To kontroluje kąt wokół ramienia. Domyślna pozycja 0° odpowiada stronie ramienia z wierzchem dłoni. Ujemne wartości przesuną pozycję w lewo, dodatnie - w prawo. Ustawienie 180° to strona ramienia gdzie jest wewnętrzna część dłoni.",
-
         "Settings.HapticPointMapping.LegSide": "Noga",
         "Settings.HapticPointMapping.LegSide.Description": "Do której nogi powinno być to przypisane? Do lewej czy prawej?",
         "Settings.HapticPointMapping.LegPositionAlong": "Pozycja wzdłuż nogi",
         "Settings.HapticPointMapping.LegPositionAlong.Description": "To kontroluje pozycję wzdłuż nogi, rozpoczynając od biodra i kończąc na kostce. Środkowa pozycja jest na kolanie.",
         "Settings.HapticPointMapping.LegAngleAround": "Kąt dookoła nogi",
         "Settings.HapticPointMapping.LegAngleAround.Description": "To kontroluje kąt wokół nogi. Domyślna pozycja 0° odpowiada tej stronie nogi, w którą skierowane jest kolano. Ujemne wartości przesuną pozycję w lewo, dodatnie - w prawo. Ustawienie 180° to tył nogi.",
-
         "Settings.HapticPointMapping.ControllerSide": "Kontroler",
         "Settings.HapticPointMapping.ControllerSide.Description": "Do którego kontrolera powinien być przypisany ten punkt haptyczny? Lewego czy prawego?",
-
         "Settings.HapticPointMapping.Tag": "Tag haptyczny",
         "Settings.HapticPointMapping.Tag.Description": "Tag powiązany z tym punktem haptycznym. To powiąże się z punktem na twoim awatarze z odpowiednim tagiem haptycznym, który jest wpisany na komponencie TagHapticPointMapper. Jeżeli na awatarze nie ma zdefiniowanego punktu z tym tagiem haptycznym, urządzenie haptyczne nie zadziała.\n\nTo jest użyteczne, w przypadku gdy potrzebujesz pełnej kontroli nad precyzyjnym punktem na awatarze, do którego to ma być przypisane urządzenie haptyczne - np. gdy ogólne przypisywanie ci nie wystarcza.",
-
         "Settings.GiggleTechSettings": "Urządzenia GiggleTech",
         "Settings.GiggleTechSettings.Devices": "Zarządzaj GigglePuckami",
         "Settings.GiggleTechSettings.GigglePuckIP": "IP GigglePuck do ustawienia ręcznie",
@@ -1624,14 +1394,11 @@
         "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description": "To jest minimalna intensywność, którą będzie odtwarzała haptyka. Gdy intensywność jest zbyt niska, może to spowodować że urządzenie haptyczne się zatnie i przestanie odpowiadać.",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity": "Intensywność wstępnej aktywacji",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description": "Gdy haptyka przechodzi ze stanu nieaktywnego w aktywny, będzie odtwarzana na co najmniej tej intensywności prez bardzo krótki okres czasu. To może pomóc \"rozruszać\" haptykę, gdy wartość aktywacji jest zbyt niska aby silnik zaczął się kręcić.",
-
         "Settings.UserMetricsSettings.UserHeight": "Wzrost",
         "Settings.UserMetricsSettings.UserHeight.Description": "Jest to twój rzeczywisty wzrost, który jest używany do prawidłowego skalowania awatara, aby dobrze do ciebie pasował. Jest to również wysokość, do której użytkownik zostanie dostosowany po włączeniu trybu siedzącego.\n\nMożesz wprowadzić swój wzrost używając odpowiednich jednostek, na przykład wpisując <nobr><color=hero.yellow>175 cm</color></nobr> lub <nobr><color=hero.yellow>1.75 m</color></nobr> dla systemu metrycznego lub <color=hero.yellow>5'11\"</color> dla jednostek imperialnych.",
-
         "Settings.FavoritesSettings": "Ulubione",
         "Settings.FavoritesSettings.AutoLoadCloudHome": "Załaduj dom w chmurze podczas uruchamiania",
         "Settings.FavoritesSettings.AutoLoadCloudHome.Description": "Gdy ta opcja jest włączona, dom w chmurze będzie automatycznie ładowany podczas uruchamiania. Jeśli wolisz, aby nie był ładowany, możesz wyłączyć tę opcję. Zostanie ona zastosowana przy następnym uruchomieniu.",
-
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Użyj domyślnego urządzenia wejściowego systemu",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Włącz tę opcję, aby automatycznie używać urządzenia wejściowego ustawionego jako domyślne w systemie. Jeśli chcesz to zmienić i zamiast tego używać określonego urządzenia, wyłącz tę opcję i skonfiguruj preferowane urządzenia poniżej.",
         "Settings.AudioInputDeviceSettings.DevicePriorities": "Konfiguruj preferowane urządzenia wejściowe audio",
@@ -1648,13 +1415,11 @@
         "Settings.AudioInputDeviceSettings.Testing.ListenToInput": "Posłuchaj tego wejścia",
         "Settings.AudioInputDeviceSettings.Testing.StopListeningToInput": "Przestań słuchać",
         "Settings.AudioInputDeviceSettings.Testing.Monitoring.Header": "Monitorowanie dźwięku na żywo",
-
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "Użyj domyślnego urządzenia wyjściowego systemu",
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Włącz tę opcję, aby używać domyślnego urządzenia systemowego do odtwarzania dźwięku. Wyłączenie tej opcji umożliwia skonfigurowanie urządzenia audio używanego do odtwarzania dźwięku poniżej. Może to być przydatne w przypadku korzystania z różnych urządzeń podczas przełączania między VR a desktopem.",
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "Konfiguruj preferowane urządzenia wyjściowe audio",
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "Urządzenia wyjściowe audio",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Ustaw jako domyślne",
-
         "Settings.AudioVolumeSettings.MasterVolume": "Główna głośność",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "Umożliwia to równomierną regulację głośności. Jeśli wszystko jest zbyt głośne lub ciche, moża zmienić to ustawienie.",
         "Settings.AudioVolumeSettings.SoundEffectVolume": "Głośność efektów dźwiękowych",
@@ -1665,14 +1430,12 @@
         "Settings.AudioVolumeSettings.VoiceVolume.Description": "Kontroluje głośność mowy wszystkich innych użytkowników. W niektórych przypadkach nagrane wcześniej klipy głosowe będą również kontrolowane przez to ustawienie. Głośność poszczególnych użytkowników można również dostosować na karcie Sesja.",
         "Settings.AudioVolumeSettings.UserInterfaceVolume": "Głośność UI",
         "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "Za pomocą tego ustawienia można dostosować efekty dźwiękowe interfejsu użytkownika - najechanie kursorem i naciśnięcie przycisków, suwaków, niektóre interakcje narzędzi, przechwytywanie zdjęć i tak dalej.",
-
         "Settings.AudioAccessibilitySettings.WhisperVolume": "Głośność szeptania",
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Po włączeniu trybu szeptania ten parametr wskazuje, jak głośne będą dźwięki poza sferą. Jeśli dźwięki są zbyt głośne lub zbyt ciche, możesz użyć tej opcji, aby dostosować tłumienie głośności.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Głośność wiadomości głosowych",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Wskazuje, jak głośne będą inne dźwięki podczas nagrywania wiadomości głosowej w Kontaktach. Może to pomóc w zapobieganiu „zagłuszaniu głosu”, ułatwiając skupienie się na tym, co mówisz.",
         "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff": "Wyłącz efekty dźwiękowe dla głosów",
         "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description": "Wyłącz wszelkie efekty dźwiękowe (takie jak pogłos) stosowane do głosów innych użytkowników w świecie. Może to pomóc, jeśli masz problemy ze zrozumieniem głosów z powodu tych efektów.<br><br><color=hero.red>Ważne:</color> Światy mogą opcjonalnie wyłączyć tę funkcję, jeśli potrzebują efektów głosowych ze względu na rozgrywkę. W takich przypadkach to ustawienie nie będzie miało żadnego wpływu.",
-
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Normalizacja głosu",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Funkcja ta stara się zapewnić jednolity poziom głosu. Dzięki temu głośność będzie taka sama jak innych użytkowników, niezależnie od ustawień mikrofonu. Zdecydowanie zalecamy pozostawienie tego ustawienia włączonego, aby być dobrze słyszanym przez innych użytkowników.",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "Próg bramki szumów (threshold)",
@@ -1683,13 +1446,10 @@
         "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "Określa czas, który musi upłynąć, aby bramka zaczęła się zamykać gdy poziom sygnału spadnie poniżej ustawionego progu zadziałania.",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease": "Czas zaniku bramki szumów (release)",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "Określa szybkość zamykania bramki szumów po spadku poziomu sygnału poniżej ustawionego progu.",
-
         "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Próg normalizacji",
         "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Za pomocą tego ustawienia można kontrolować próg, kiedy przychodzący dźwięk zostanie wzmocniony. Jeśli normalna mowa jest zbyt cicha i nie jest wzmacniana, zmniejsz to ustawienie. Jeśli wzmacniane są przypadkowe ciche dźwięki, zwiększ wartość.",
-
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Tłumienie hałasu (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Funkcja ta przetwarza przychodzący dźwięk w celu odfiltrowania różnych niepożądanych dźwięków. Może to znacznie oczyścić dźwięk z głośnych mikrofonów, zapewniając czystszy głos. Zdecydowanie zalecamy pozostawienie tego ustawienia włączonego. Może ona jednak również filtrować pewne dźwięki, które nie zostaną zidentyfikowane jako mowa.",
-
         "Settings.AudioPerformanceSettings": "Ustawienia wydajności audio",
         "Settings.AudioPerformanceSettings.MaxVoices": "Maksymalna ilość aktywnych dźwięków",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "Ta opcja kontroluje, ile dźwięków może być odtwarzanych jednocześnie. Zwiększenie tej wartości pozwoli słyszeć więcej dźwięków naraz kosztem większego użycia procesora. Ustawienie tej wartości zbyt wysoko może spowodować zniekształcenia lub zakłócenia dźwięku.",
@@ -1697,11 +1457,9 @@
         "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Ta opcja kontroluje, ile danych audio jest obliczanych jednocześnie podczas renderowania dźwięku. Zwiększenie wartości może w pewien sposób poprawić wydajność, ale zwiększy opóźnienie dźwięku.<br><br>Zalecamy zachowanie domyślnej wartości 1024.",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "Rozmiar bufora odtwarzania",
         "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Ta opcja kontroluje rozmiar bufora do odtwarzania dźwięku. Obniżając tę wartość można zmniejszyć opóźnienie dźwięku, ale system będzie bardziej podatny na zniekształcenia lub przeskoki.",
-
         "Settings.VoiceSettings": "Ustawienia głosowe",
         "Settings.VoiceSettings.MutePersistence": "Zapamiętanie stanu wyciszenia",
         "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Start Unmuted:</color> Gdy się zalogujesz, zawsze zaczniesz bez wyciszenia.\n\n<color=hero.yellow>Started Muted:</color> Po zalogowaniu głos zawsze będzie wyciszony. Aby mówić, należy wyłączyć wyciszenie lub nacisnąć przycisk „naciśnij, aby mówić” (domyślnie V).\n\n<color=hero.yellow>Remember Last: </color> Po zalogowaniu zachowany zostanie stan sprzed ostatniego wylogowania.",
-
         "Settings.EarmuffSettings": "Nauszniki",
         "Settings.EarmuffSettings.EarmuffEnabled": "Używaj nauszników",
         "Settings.EarmuffSettings.EarmuffEnabled.Description": "Gdy tryb nauszników jest włączony, głosy użytkowników będą znacznie tłumione w zależności od odległości i kierunku, w którym użytkownik jest zwrócony. W efekcie tworzy to „stożek słuchania”, który może pomóc, gdy w świecie jest zbyt wiele nakładających się głosów.",
@@ -1717,7 +1475,6 @@
         "Settings.EarmuffSettings.TransitionLength.Description": "Służy do kontrolowania odległości, na jaką głosy będą zanikać od normalnej głośności do pełnego tłumienia. Większe wartości spowodują bardziej płynne przejście głośności, podczas gdy niższe wartości spowodują bardziej gwałtowne przejście.",
         "Settings.EarmuffSettings.VolumeAttenuation": "Tłumienie głośności",
         "Settings.EarmuffSettings.VolumeAttenuation.Description": "Kontroluje, jak głośne będą głosy poza „stożkiem słuchania”. Ustawienie tej wartości na 0% spowoduje całkowite wyciszenie wszystkich użytkowników poza stożkiem słuchania.",
-
         "Settings.RealtimeNetworkingSettings.DisableLAN": "Wyłącz LAN",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Powoduje to wyłączenie funkcji sieciowych specyficznych dla sieci lokalnych, takich jak rozgłaszanie sesji w sieci lokalnej lub nasłuchiwanie innych sesji rozgłaszanych w tej sieci.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Preferowane gniazda sieciowe Steam",
@@ -1726,12 +1483,10 @@
         "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Po włączeniu tej opcji, połączenia przez TCP są preferowane w stosunku do wszystkich innych protokołów. Dotyczy to głównie połączeń w sieci LAN, ponieważ protokół TCP nie jest domyślnie używany do połączeń internetowych.\n\nTCP może mieć lepszą wydajność w sieciach LAN i działać w niektórych sieciach, w których protokoły oparte na UDP nie będą działać.\n\nMogą one jednak również cierpieć z powodu blokowania „head of line”, powodując znaczne opóźnienie głosów i póz.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "Rozmiar okna LNL",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Kontroluje rozmiar okna protokołu LNL dla sieci czasu rzeczywistego. To ustawienie wpłynie na wszystkie aktywne sesje.\n\nJeśli wystąpi kolejkowanie pakietów, można zwiększyć tę wartość, aby poprawić przepustowość połączenia. Wyższe wartości mogą zdestabilizować połączenie, więc należy zachować ostrożność.\n\n<color=hero.yellow>Domyślna wartość:</color> 64\n\n<color=hero.red>WAŻNE:</color> To ustawienie służy do diagnostyki i tymczasowego obejścia; ta wartość będzie ustalona automatycznie w przyszłości.",
-
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Maksymalna liczba jednoczesnych transferów",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "Podczas hostowania sesji wskazuje, ile lokalnie zaimportowanych zasobów można przesłać w danym momencie. Zwiększenie tej wartości może przyspieszyć przesyłanie zasobów do użytkowników, ale może również pogorszyć jakość połączenia sieciowego. Zalecamy przetestowanie, jakie wartości może obsłużyć sieć.",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads": "Maksymalna liczba jednoczesnych pobrań",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads.Description": "Służy do kontrolowania liczby zasobów, które mogą być pobierane w tym samym czasie. Użycie większej wartości może przyspieszyć ładowanie światów, ale może również przeciążyć sieć, więc należy zachować ostrożność podczas dostosowywania tej wartości.",
-
         "Settings.HostAccessSettings.Entries": "Zarządzanie uprawnieniami dostępu do hosta",
         "Settings.HostAccessSettings.Entries.Breadcrumb": "Uprawnienia dostępu do hosta",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "Zezwalaj na żądania HTTP",
@@ -1739,45 +1494,36 @@
         "Settings.HostAccessSettings.Entries.AllowWebsockets": "Zezwalaj na websockets",
         "Settings.HostAccessSettings.Entries.AllowWebsockets.Description": "Wskazuje, czy połączenia Websocket w czasie rzeczywistym są dozwolone dla tego hosta. Są one często używane do dwukierunkowej komunikacji i strumieni danych w czasie rzeczywistym.",
         "Settings.HostAccessSettings.Entries.AllowOSC_Receiving": "Zezwalaj na odbiór OSC",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Wskazuje, czy {appName} może odbierać i przetwarzać dane OSC.",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Receiving.Description": "Wskazuje, czy {appName} może odbierać i przetwarzać dane OSC",
         "Settings.HostAccessSettings.Entries.AllowOSC_Sending": "Zezwalaj na wysyłanie OSC",
-        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Kontroluje to, czy {appName} może wysyłać dane za pośrednictwem protokołu OSC do danego hosta.",
+        "Settings.HostAccessSettings.Entries.AllowOSC_Sending.Description": "Kontroluje to, czy {appName} może wysyłać dane za pośrednictwem protokołu OSC do danego hosta",
         "Settings.HostAccessSettings.Entries.LastHyperlinkRequestReason": "Powód ostatniego żądania hiperłącza",
         "Settings.HostAccessSettings.Entries.LastWebsocketRequestReason": "Powód ostatniego żądania websocket",
         "Settings.HostAccessSettings.Entries.LastOSC_SenderRequestReason": "Powód ostatniego żądania wysłania OSC",
         "Settings.HostAccessSettings.Entries.LastOSC_ReceiverRequestReason": "Powód ostatniego żądania odbioru OSC",
         "Settings.HostAccessSettings.Entries.Remove": "Usuń wpis (następnym razem pojawi się ponowne pytanie)",
         "Settings.HostAccessSettings.DebugReset": "Resetuj wpisy dostępów hosta",
-
         "Settings.UserRestrictionsSettings.DebugReset": "Resetuj ograniczenia użytkowników",
-
         "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat": "Zachowaj oryginalny format zrzutu ekranu",
         "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat.Description": "Włącz tę opcję, aby nie konwertować zrzutów ekranu do formatu JPG lub PNG podczas zapisywania ich w folderze Dokumenty w systemie Windows. Może to utrudnić korzystanie z nich, ponieważ niektóre aplikacje mogą nie być w stanie otworzyć tego formatu.",
-
         "Settings.DebugSettings.DebugInputBindings": "Debugowanie przypisań sterowania",
         "Settings.DebugSettings.DebugInputBindings.Description": "Po włączeniu tej opcji wyświetlane są informacje o debugowaniu systemu przypisania sterowania. Jest to przydatne głównie dla programistów.",
         "Settings.DebugSettings.ConvertParticleSystems": "Konwertuj stary system cząstek na PhotonDust",
         "Settings.DebugSettings.ConvertParticleSystems.Description": "Włączenie tej opcji spowoduje, że nowo wczytane przedmioty zawierające stary system cząsteczek zostaną przekonwertowane na PhotonDust.<br><br><color=red>Jest to przeznaczone wyłącznie do celów testowych!</color> Jeśli nie bierzesz udziału w testach, nie zalecamy włączania tej opcji, ponieważ TWOJE PRZEDMIOTY MOGĄ ZOSTAĆ USZKODZONE.<br><br>Jeśli chcesz pomóc w testowaniu, odwiedź nasz GitHub/Discord.",
-
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Podwójne naciśnięcie uchwytu w celu ekwipowania przedmiotów",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Po włączeniu tej funkcji można ekwipować narzędzia i gadżety, naciskając chwyt dwa razy w krótkim odstępie czasu. To ustawienie prawdopodobnie zostanie kiedyś usunięte.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Użyj starszego przełącznika świata",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Po włączeniu tej funkcji, przycisk aplikacji na niedominującej ręce otworzy starszy przełącznik światów, aby przełączać się między aktywnymi światami. Funkcja ta zostanie w przyszłości zastąpiona bardziej elastycznym rozwiązaniem.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Użyj skrótu gestu ekwipunku i sesji",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Po włączeniu, gdy przytrzymasz uchwyt i naciśniesz przycisk aplikacji (który normalnie otwiera/zamyka tablicę), otworzy się starsze menu ekwipunku lub sesji.",
-
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Wyłączenie symulacji stóp",
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Pozwala to na działanie niektórych funkcji, takich jak pozery, które przechwytują proxy stóp, bez konieczności ich modyfikowania.<br><br>Jeśli włączysz tę funkcję bez korzystania z pozycjonerów lub podobnych funkcji, animacje NIE będą wyglądać poprawnie. Wyłącz to po zakończeniu korzystania z pozerów.<br><br><color=hero.red>WAŻNE:</color> Prawdopodobnie zostanie to usunięte w przyszłości, zalecamy uaktualnienie pozerów, aby były kompatybilne z nowym systemem i automatycznie wyłączały symulację, gdy są aktywne.",
-
         "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "Zachowaj starszą metodę obsługi stref pogłosu",
         "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "Po włączeniu, każde stare elementy zawierające dźwięk, które mają włączoną przestrzenność, automatycznie zignorują strefy pogłosu, aby zachować ograniczenia starszego systemu audio.<br><br>Włącz to ustawienie i ponownie załaduj starszą zawartość. Po zapisaniu przekonwertowanych elementów zachowanie zostanie zapisane i ponowna zmiana będzie musiała zostać wykonana ręcznie.",
-
         "Settings.TwitchInterfaceSettings.ChannelName": "Nazwa kanału Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Ustawia domyślną nazwę kanału Twitch dla panelu czatu Twitch w panelu sterowania kamerą. Jest to najczęściej używane przez streamerów Twitcha, którzy chcą domyślnie widzieć swój czat Twitcha.",
-
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Nie wysyłaj statusu odczytu w czasie rzeczywistym",
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "Po włączeniu tej opcji inni użytkownicy nie będą mogli zobaczyć, kiedy użytkownik natychmiast przeczytał ich wiadomości. Nie będziesz również widzieć, kiedy oni przeczytali Twoje wiadomości.",
-
         "Settings.LocaleSettings.CultureLocaleCode": "Kod regionalny kultury",
         "Settings.LocaleSettings.CultureLocaleCode.Description": "Po ustawieniu zastąpi domyślne lokalizacje kultury używane do formatowania liczb i innych ilości. Zwykle używana jest kultura wybranej lokalizacji, ale ta opcja umożliwia ich mieszanie i dopasowywanie. Np. używanie języka ojczystego z kulturą amerykańską.",
         "Settings.LocaleSettings.UseImperialUnits": "Używanie jednostek imperialnych",
@@ -1785,14 +1531,12 @@
         "Settings.LocaleSettings.AvailableLocales": "Wybierz lokalizację",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Lokalizacje",
         "Settings.LocaleSettings.AvailableLocales.SystemLocale": "Użyj ustawień regionalnych systemu",
-
         "Settings.DashSettings.DashCurvature": "Zakrzywienie",
         "Settings.DashSettings.DashCurvature.Description": "Kontroluje to, jak zakrzywiona jest tablica, gdy jesteś w VR. Ustawienie wartości 0 sprawi, że będzie ona całkowicie płaska.",
         "Settings.DashSettings.OpenCloseSpeed": "Prędkość otwierania/zamykania",
-        "Settings.DashSettings.OpenCloseSpeed.Description": "Służy do regulacji szybkości otwierania i zamykania tablicy. Jeśli nie podoba ci się animacja, możesz ustawić bardzo wysoką wartość, aby tablica otwierała się i zamykała niemal natychmiast.",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "Służy do regulacji szybkości otwierania i zamykania tablicy. Ustawienie tego na 0 kompletnie usunie animację, co pozwala na natychmiastowe otwieranie/zamykanie tablicy.",
         "Settings.DashSettings.AllowReplacingSettings": "Zezwalaj na zastępowanie ustawień",
         "Settings.DashSettings.AllowReplacingSettings.Description": "Po włączeniu i będąc w trybie edycji interfejsu użytkownika, możliwe jest podniesienie fasety ustawień na tablicy i zastąpienie jej inną.\n\nTo ustawienie musi być wyłączone, jeśli chcesz wybrać indywidualne ustawienia jako fasety. Zaleca się tymczasowe włączenie tej opcji, gdy chcesz zastąpić interfejs ustawień niestandardowym, a następnie wyłączenie jej ponownie.",
-
         "Settings.NotificationSettings": "Powiadomienia",
         "Settings.NotificationSettings.UserOnline": "Znajomy online",
         "Settings.NotificationSettings.UserOnline.Description": "Kontroluje czy będziesz otrzymywać powiadomienia gdy Twoi znajomi będą online.",
@@ -1816,26 +1560,22 @@
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Kontroluje czy będziesz otrzymywać powiadomienia gdy użytkownicy dołączają lub opuszczają sesję, w której się znajdujesz.\n\n<color=hero.yellow>None:</color> Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly:</color> Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly:</color> Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full:</color> Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
         "Settings.NotificationSettings.PermissionChanged": "Zmiana uprawnień",
         "Settings.NotificationSettings.PermissionChanged.Description": "Kontroluje czy będziesz otrzymywać powiadomienia gdy twoje uprawnienia są zmienione w sesji. Np. z Gościa na Buildera.\n\n<color=hero.yellow>None:</color> Ta akcja nie wywoła powiadomienia ani dźwięku.\n\n<color=hero.yellow>ToastOnly:</color> Otrzymasz tylko powiadomienie wizualne.\n\n<color=hero.yellow>AudioOnly:</color> Otrzymasz tylko powiadomienie dźwiękowe.\n\n<color=hero.yellow>Full:</color> Otrzymasz powiadomienie wizualne oraz powiadomienie dźwiękowe.",
-
         "Settings.NamePlateSettings.NameplateVisibility": "Widoczność tabliczki znamionowej",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Służy do kontrolowania, czyje tabliczki znamionowe będą widoczne.\n\n<color=hero.yellow>All:</color> Wszystkie tabliczki.\n\n<color=hero.yellow>NonContacts:</color> Wyświetlone są tabliczki tylko nieznajomych.\n\n<color=hero.yellow>None:</color> Nie wyświetlone są żadne tabliczki.",
         "Settings.NamePlateSettings.UseCustomNameplates": "Pokaż niestandardowe tabliczki znamionowe",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "Jeśli niektóre tabliczki są trudne do odczytania, całkowicie ukryte lub musisz zobaczyć rzeczywistą nazwę użytkownika i odznaki (np. do celów moderacji), wyłącz niestandardowe tabliczki, aby zobaczyć domyślne.",
-
         "Settings.CustomizationSettings": "Ustawienia personalizacji",
         "Settings.CustomizationSettings.UserInterfaceEditMode": "Tryb edycji interfejsu użytkownika",
         "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "Gdy opcja ta jest włączona, możliwa jest edycja rozmieszczenia faset (modułowych elementów interfejsu użytkownika) na tablicy oraz na kotwicach faset na dłoniach i widoku (jeśli są one włączone).\n\nPamiętaj aby wyłączyć to ustawienie gdy skończysz! Tryb można również wyłączyć za pomocą dedykowanego przycisku pod tablicą.",
-
         "Settings.FacetAnchorsSettings": "Kotwy faset",
         "Settings.FacetAnchorsSettings.UseFacetAnchors": "Użyj kotwy faset",
         "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "Po włączeniu tej funkcji będzie można używać przycisku aplikacji na prawym kontrolerze do przełączania kotwic faset na ramionach i przedramionach. Zapewniają one miejsce na umieszczenie dowolnych faset w celu szybkiego dostępu oprócz głównej tablicy.",
-        "Settings.FacetAnchorsSettings.AnimationSpeed": "Szybkość animacji Pokaż/Ukryj ",
+        "Settings.FacetAnchorsSettings.AnimationSpeed": "Szybkość animacji Pokaż/Ukryj",
         "Settings.FacetAnchorsSettings.AnimationSpeed.Description": "Określa to, jak szybko kotwice faset pojawiają się i ukrywają po przełączeniu.",
         "Settings.FacetAnchorsSettings.FacetAnchorToggle": "Kontroler przełączający",
         "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "Kontroluje, który kontroler (lewy lub prawy) będzie przełączał kotwice faset. Tablica będzie przełączana za pomocą drugiego kontrolera.",
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "Pokaż tło",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Wyłączenie tej opcji spowoduje wyłączenie tła na kotwicach faset, dzięki czemu same fasety będą jedyną widoczną częścią.",
-
         "Settings.LaserSettings.SmoothSpeed": "Płynna prędkość lasera",
         "Settings.LaserSettings.SmoothSpeed.Description": "Służy do kontrolowania szybkości reakcji lasera na ruchy użytkownika. Niższe wartości sprawią, że laser będzie działał wolniej, ale będzie lepiej filtrował drgania. Wyższe wartości będą bardziej responsywne, ale będą też przenosić więcej drgań kontrolera.",
         "Settings.LaserSettings.ModulateStartAngle": "Modulacja kąta początkowego",
@@ -1850,40 +1590,30 @@
         "Settings.LaserSettings.StickThreshold.Description": "Kontroluje stopień przywierania lasera do interaktywnych przedmiotów. Większe wartości sprawią, że będzie bardziej przylegał. Ustawienie tej wartości na zero całkowicie wyłączy przywieranie.",
         "Settings.LaserSettings.ShowInDesktop": "Pokaż lasery w trybie stacjonarnym",
         "Settings.LaserSettings.ShowInDesktop.Description": "Po włączeniu, laser będzie w pełni wyświetlany w widoku pierwszoosobowym w trybie stacjonarnym.",
-
         "Settings.EditSettings": "Ustawienia edycji",
         "Settings.EditSettings.ConfirmComponentDestroy": "Potwierdzanie usuwania komponentów",
         "Settings.EditSettings.ConfirmComponentDestroy.Description": "Gdy włączone, system zapyta Cię o potwierdzenie przed usunięciem komponentu w inspektorze. Dzięki temu nie usuniesz go przypadkiem przez pomyłkowe kliknięcie.",
         "Settings.EditSettings.ConfirmSlotDestroy": "Potwierdzanie usuwania slotów",
         "Settings.EditSettings.ConfirmSlotDestroy.Description": "Gdy włączone, system wymaga potwierdzenia przed usunięciem Slotów za pomocą Narzędzia Deweloperskiego. Chroni to przed przypadkowym wykasowaniem obiektów przez omyłkowe kliknięcie.",
-
         "Settings.CursorSettings": "Ustawienia kursora",
-
         "Settings.CursorSettings.BaseCursorSize": "Podstawowy rozmiar kursora",
         "Settings.CursorSettings.BaseCursorSize.Description": "Ustawia podstawowy rozmiar kursora. Zalecamy ustawienie tej opcji w pierwszej kolejności, przed dostosowaniem pozostałych, ponieważ ich rozmiar jest zależny od tej opcji.",
-
         "Settings.CursorSettings.GrabMultiplier": "Mnożnik chwytu",
         "Settings.CursorSettings.GrabMultiplier.Description": "Jest stosowany jako mnożnik rozmiaru kursora podczas chwytania obiektów i przedmiotów.",
-
         "Settings.CursorSettings.InteractionMultiplier": "Mnożnik interakcji",
         "Settings.CursorSettings.InteractionMultiplier.Description": "Jest stosowany jako mnożnik rozmiaru kursora podczas interakcji z elementami interfejsu użytkownika, takimi jak przyciski.",
-
         "Settings.CursorSettings.TextMultiplier": "Mnożnik tekstu",
         "Settings.CursorSettings.TextMultiplier.Description": "Jest stosowany jako mnożnik rozmiaru kursora podczas interakcji i manipulowania tekstem.",
-
         "Settings.CursorSettings.SliderMultiplier": "Mnożnik suwaka",
         "Settings.CursorSettings.SliderMultiplier.Description": "Jest stosowany jako mnożnik rozmiaru kursora podczas interakcji z suwakami i paskami przewijania.",
-
         "Settings.CursorSettings.DirectCursorEnabled": "Bezpośredni kursor",
         "Settings.CursorSettings.DirectCursorEnabled.Description": "Po włączeniu pokazuje bezpośredni kursor. Bezpośredni kursor to punkt w przestrzeni, w którym znajdowałby się kursor, bez wygładzania lub korekt dokonywanych przez inne ustawienia lub systemy.",
-
         "Settings.DesktopViewSettings.FollowCursor": "Podążaj za kursorem",
         "Settings.DesktopViewSettings.FollowCursor.Description": "Po włączeniu widok pulpitu automatycznie przełączy się na ekran, na którym znajduje się kursor. Jest to przydatne podczas korzystania z fizycznej klawiatury i myszy w VR.",
         "Settings.DesktopViewSettings.Brightness": "Jasność",
         "Settings.DesktopViewSettings.Brightness.Description": "Jasność widoku pulpitu.",
         "Settings.DesktopViewSettings.Opacity": "Przeźroczystość",
         "Settings.DesktopViewSettings.Opacity.Description": "Zmniejsz wartość, aby widok pulpitu był półprzezroczysty, ułatwiając zobaczenie tego, co znajduje się za nim w świecie.",
-
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Gest robienia zdjęcia palcami",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "Po włączeniu tej funkcji można szybko robić zdjęcia na świecie, ustawiając palce tak, aby utworzyły ramkę, a następnie zginając jeden z palców wskazujących.",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "Rozdzielczość zdjęć",
@@ -1910,20 +1640,16 @@
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "Format, w którym będą kodowane zrobione zdjęcia. Jeśli chcesz, aby zdjęcia były w określonym formacie, możesz użyć tego ustawienia, aby wybrać, w którym formacie zostaną zakodowane.\n\nNależy pamiętać, że niektóre formaty mogą nie mieć niektórych funkcji (takich jak alfa), mogą kodować się znacznie wolniej, mieć niższą jakość obrazu lub generować większe pliki.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Zawsze ukrywaj tabliczki znamionowe",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Włącz tę opcję, jeśli chcesz, aby tabliczki znamionowe nigdy nie były widoczne na zdjęciach. To ustawienie jest niezależne od bieżącej widoczności tabliczki znamionowej i zawsze zapewnia, że są one ukryte na zrobionych zdjęciach.",
-
         "Settings.DesktopRenderSettings.FieldOfView": "Pole widzenia",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Służy do kontrolowania pola widzenia (FOV) w trybie stacjonarnym. Większe wartości zapewniają szerszy widok kosztem większych zniekształceń na bokach.",
-
         "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Powiększenie FOV podczas sprintu",
         "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Gdy ta opcja jest włączona, pole widzenia zostanie zwiększone podczas sprintu <b>w trybie stacjonarnym.</b>\nTo ustawienie <b>nie ma wpływu</b> na efekty elementów stworzonych przez użytkowników.",
-
         "Settings.DesktopRenderSettings.VSync": "VSync",
         "Settings.DesktopRenderSettings.VSync.Description": "Gdy ta opcja jest włączona, liczba klatek na sekundę będzie synchronizowana z częstotliwością odświeżania ekranu. Wyłączenie tej opcji może przyspieszyć renderowanie klatek, ale także spowodować widoczne rozrywanie obrazu.\n\nMoże to być przydatne podczas testowania wydajności, ponieważ wyłączy ograniczenie prędkości aktualizacji i renderowania.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Ograniczenie liczby klatek na sekundę w tle",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "Po włączeniu tej funkcji liczba klatek na sekundę zostanie ograniczona do ustalonej wartości, gdy okno aplikacji jest nieaktywne. Jest to przydatne, jeśli używasz innych programów i gier w tym samym czasie, ponieważ zwolni to dla nich więcej zasobów.",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "Maksymalna liczba klatek na sekundę w tle",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description": "Określa maksymalną dozwoloną liczbę klatek na sekundę w tle. Niższe wartości pozwolą zaoszczędzić więcej zasobów systemowych.",
-
         "Settings.InteractiveCameraFramingSettings.PositioningMode": "Tryb pozycjonowania",
         "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "Kontroluje sposób, w jaki interaktywna kamera jest pozycjonowana w świecie.",
         "Settings.InteractiveCameraFramingSettings.FieldOfView": "Pole widzenia",
@@ -1944,55 +1670,45 @@
         "Settings.InteractiveCameraFramingSettings.FramingViewportPosition.Description": "Są to znormalizowane współrzędne w rzutni kamery. Kamera spróbuje wykadrować cel (np. głowę użytkownika w trybie trzeciej osoby) do tej pozycji w rzutni.",
         "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "Celuj w przód głowy",
         "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead.Description": "Zamiast kamery skierowanej bezpośrednio na głowę użytkownika, kamera spróbuje wycelować w punkt znajdujący się przed głową użytkownika. Może to być przydatne, gdy chcesz wykadrować to, na co patrzy użytkownik (np. elementy i interfejsy w świecie gry).",
-
         "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion": "Unikanie okluzji",
         "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion.Description": "Jeśli widok kamery zostanie zasłonięty przez obiekt, kamera automatycznie zbliży się, aby uniknąć zasłonięcia.",
         "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace": "Pozostań w przestrzeni świata",
         "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace.Description": "Kamera pozostanie w głównej przestrzeni świata, zamiast ustawiać się w tej samej przestrzeni co użytkownik. Może to zapewnić lepsze kadrowanie i pozycjonowanie podczas korzystania z kotwic użytkownika (np. w pojazdach).",
         "Settings.InteractiveCameraPositioningSettings.MovementWobble": "Chybotliwa kamera",
         "Settings.InteractiveCameraPositioningSettings.MovementWobble.Description": "Dodaje to losowy ruch do pozycji kamery, który zmienia się z czasem. Może to sprawić, że ujęcia będą wyglądać mniej statycznie, zwłaszcza jeśli nie poruszasz się zbyt często.",
-
         "Settings.InteractiveCameraRenderSettings.HideAllBadges": "Ukryj odznaki",
         "Settings.InteractiveCameraRenderSettings.HideAllBadges.Description": "Kamera nie będzie wyświetlać żadnych odznak, niezależnie od ustawień odznak.",
         "Settings.InteractiveCameraRenderSettings.HideAllLasers": "Ukryj lasery",
         "Settings.InteractiveCameraRenderSettings.HideAllLasers.Description": "Kamera nie renderuje żadnych laserów interakcyjnych.",
         "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera": "Oczy użytkownika zawsze skierowane na kamerę",
         "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera.Description": "Gdy awatar używa symulowanego ruchu oczu (użytkownik nie ma funkcji śledzenia oczu), spowoduje to, że awatar będzie preferował kontakt wzrokowy z kamerą.",
-
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius": "Promień detekcji grupy",
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius.Description": "Użytkownicy znajdujący się w tej odległości zostaną dodani do grupy, którą kamera automatycznie kadruje w trybie grupowym.",
         "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary": "Granica wyjścia z grupy",
         "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary.Description": "Jak daleko użytkownik musi oddalić się od promienia grupy, aby został z niej wykluczony.",
-
         "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed": "Prędkość wygładzania pozycji",
         "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed.Description": "Kontroluje szybkość, z jaką kamera porusza się do pozycji docelowej w świecie. Większe wartości sprawią, że kamera będzie poruszać się szybciej, ale także spowodują bardziej gwałtowne ruchy.",
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "Prędkość wygładzania kąta",
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed.Description": "Kontroluje szybkość reakcji kamery na zmianę kąta wokół kadrowanego obiektu.",
         "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed": "Wygładzanie prędkości kadrowania",
         "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed.Description": "Kontroluje szybkość, z jaką kamera dostosowuje kadrowanie obiektu docelowego. Większe wartości sprawią, że kamera będzie szybciej śledzić obiekt, ale spowodują też bardziej gwałtowne ruchy.",
-
         "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors": "Interpolacja między kotwicami",
         "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors.Description": "Gdy opcja ta jest włączona, kamera będzie płynnie interpolować pomiędzy kotwicami kamery w świecie.",
         "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed": "Prędkość interpolacji",
         "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed.Description": "Gdy interpolacja między kotwicami jest włączona, kontroluje to szybkość, z jaką kamera porusza się od jednej kotwicy do drugiej.",
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation": "Użyj interpolacji liniowej",
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "Włącz tę opcję, aby używać interpolacji liniowej podczas poruszania się między kotwicami zamiast płynnej. Interpolacja liniowa rozpoczyna się i kończy gwałtownie, ale ma stałą prędkość ruchu, niezależnie od odległości między kotwicami. Oznacza to, że jeśli kotwice znajdują się dalej od siebie, dotarcie do nich zajmie kamerze więcej czasu.",
-
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "Spawnowanie zdjęć zrobionych w świecie",
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "Czy podczas robienia zdjęć za pomocą interaktywnej kamery powinny być one spawnowane w świecie? Jeśli wyłączone, będą zapisywane tylko w dokumentach lub ekwipunku (jeśli skonfigurowano automatyczne zapisywanie).",
-
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "Rozmycie w Ruchu",
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "Kontroluje, czy kamera renderuje rozmycie ruchu.",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Odbicia w przestrzeni ekranu",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "Kontroluje, czy kamera renderuje efekty odbić w przestrzeni ekranu? Może to zapewnić lepsze odbicia dla błyszczących powierzchni, ale może prowadzić do artefaktów i zwiększonych wymagań systemowych.",
-
         "Settings.InteractiveCameraAudioSettings": "Dźwięk",
         "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "Renderowanie własnego głosu dla kamery",
         "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "Gdy wyjście audio kamery jest oddzielone do własnego urządzenia audio, kontroluje to, czy kamera będzie słyszeć Twój głos, czy nie.<br><br>Jest to przydatne do renderowania własnego głosu tak, jakby był słyszany przez innych użytkowników na świecie.<br><br>Pamiętaj, aby wyłączyć przechwytywanie mikrofonu w oprogramowaniu do nagrywania, gdy ta opcja jest włączona.",
-
         "Settings.DescriptionField.NoTextTitle": "Więcej informacji",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Najedź kursorem na ustawienie, aby zobaczyć jego opis.</closeall>",
-
         "Settings.RelaySettings": "Przekaźniki sieciowe",
         "Settings.RelaySettings.AlwaysUseRelay": "Zawsze używaj przekaźnika do połączenia",
         "Settings.RelaySettings.AlwaysUseRelay.Description": "Przekaźniki są zwykle używane jako rozwiązanie awaryjne, gdy nie można nawiązać bezpośredniego połączenia z hostem. Włączenie tej opcji wymusza, aby połączenie zawsze odbywało się za pośrednictwem przekaźnika.\n\nMoże to być przydatne w przypadku problemów z połączeniem z niektórymi hostami. <b>NIE</b> zalecane jest stałe włączanie tej opcji.",
@@ -2000,11 +1716,9 @@
         "Settings.RelaySettings.UseClosestAvailableRelay.Description": "Gdy ta opcja jest włączona, dostępny przekaźnik, który znajduje się najbliżej użytkownika, zostanie automatycznie wybrany do połączenia. Jeśli chcesz połączyć się za pośrednictwem określonego przekaźnika (np. w przypadku połączeń na duże odległości, aby uniknąć kolejkowania pakietów), możesz wyłączyć tę opcję i skonfigurować preferowane przekaźniki po niżej.",
         "Settings.RelaySettings.RelayPriorities": "Konfiguracja priorytetów serwera przekaźnikowego",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Priorytety przekaźników",
-
         "Settings.VideoStreamingServicesSettings": "Ustawienia usług streamowania wideo",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Używanie plików cookie z przeglądarki",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Jeśli filmy z YouTube i innych usług nie ładują się, wybierz przeglądarkę, z której zwykle ładujesz pliki cookie podczas pobierania tych filmów. Zwiększy to szanse na pomyślne załadowanie wideo.",
-
         "Settings.PostProcessingSettings": "Post Processing",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Siła rozmycia w ruchu",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Kontroluje siłę efektu rozmycia ruchu, który rozmazuje obraz z ruchem. Wyższe wartości spowodują większe rozmycie przy tej samej ilości ruchu.\n\nJeśli ustawisz tę opcję na <nobr><color=hero.yellow>0 %</color></nobr> rozmycie zostanie całkowicie wyłączone, co może poprawić wydajność.",
@@ -2016,7 +1730,6 @@
         "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "Gdy ten efekt jest włączony, wszystkie części sceny aktualnie widoczne dla kamery będą odbijać się od błyszczących powierzchni w czasie rzeczywistym. Może to zwiększyć realizm sceny i poprawić wygląd błyszczących powierzchni kosztem wydajności.\n\nNależy pamiętać, że filtr ten jest obecnie uważany za eksperymentalny i nie działa dobrze w wielu scenariuszach, powodując artefakty.",
         "Settings.PostProcessingSettings.Antialiasing": "Wygładzanie krawędzi",
         "Settings.PostProcessingSettings.Antialiasing.Description": "Wygładza ostre, postrzępione krawędzie obiektów na scenie. Do wyboru jest kilka różnych filtrów, z których każdy ma inne wady. FXAA jest powszechnie używany i działa dość dobrze, ale może również rozmywać inne części sceny, takie jak tekst.\n\n<color=red>Uwaga:</color> Niektóre opcje mogą nie być odpowiednie lub w ogóle nie działać w VR.",
-
         "Settings.TextureQualitySettings": "Jakość Tekstur",
         "Settings.TextureQualitySettings.TextureSizeRatio": "Względny rozmiar tekstur",
         "Settings.TextureQualitySettings.TextureSizeRatio.Description": "Określa względny rozmiar wszystkich tekstur, które zostaną załadowane. Można tego użyć do obniżenia ogólnej rozdzielczości tekstur, co zmniejsza zużycie pamięci graficznej i szybkość ładowania kosztem przejrzystości wizualnej.\n\nNa przykład, jeśli tekstura ma rozdzielczość 4K i ustawisz ją na połowę rozdzielczości, zamiast tego zostanie załadowana wersja 2K.",
@@ -2029,7 +1742,6 @@
         "Settings.TextureQualitySettings.AnisotropicLevel": "Poziom anizotropowy",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Kontroluje jakość filtrowania anizotropowego.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Przeładuj wszystkie tekstury",
-
         "Settings.GaussianSplatQualitySettings": "Jakość renderowania Guassian Splat",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "Sortowanie Mega-operacji na kamerę",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description": "Podczas renderowania Gaussian Splats, splats muszą zostać posortowane dla każdej kamery. Obecnie operacja ta może być dość obciążająca, więc jest rozłożona na dłuższy czas, aby poprawić ogólną liczbę klatek na sekundę.<br><br><color=hero.yellow>Increase</color> Zwiększ wartość, aby sortowanie odbywało się szybciej. Zmniejszy to liczbę artefaktów podczas szybkiej zmiany kąta widzenia wokół Gaussian Splats.<br><br><color=hero.yellow>Decrease</color> Zmniejsz wartość, aby zredukować użycie GPU, jeśli procesor graficzny nie radzi sobie z tym. Spowoduje to jednak zwiększenie artefaktów przy szybkiej zmianie kąta widzenia.",
@@ -2047,7 +1759,6 @@
         "Settings.GaussianSplatQualitySettings.ColorFormat.Description": "Kodowanie używane dla kolorów i przezroczystości splatów",
         "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat": "Format danych harmonik sferycznych",
         "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description": "Kodowanie używane dla harmonik sferycznych splatów",
-
         "Settings.ResolutionSettings": "Rozdzielczość",
         "Settings.ResolutionSettings.Fullscreen": "Pełny ekran",
         "Settings.ResolutionSettings.Fullscreen.Description": "Przełącza między trybem pełnoekranowym a trybem okienkowym",
@@ -2056,7 +1767,6 @@
         "Settings.ResolutionSettings.FullscreenResolution": "Rozdzielczość pełnoekranowa",
         "Settings.ResolutionSettings.FullscreenResolution.Description": "Jaka rozdzielczość powinna być używana w trybie pełnoekranowym. Rozmiar pozostanie taki sam, ale obniżenie rozdzielczości może poprawić wydajność (szczególnie w przypadku ekranów o wysokiej rozdzielczości, takich jak 4K) kosztem bardziej rozmytego obrazu.",
         "Settings.ResolutionSettings.ApplyResolution": "Zastosuj zmiany",
-
         "Settings.RenderingQualitySettings": "Jakość Renderowania",
         "Settings.RenderingQualitySettings.PerPixelLights": "Światła na piksel",
         "Settings.RenderingQualitySettings.PerPixelLights.Description": "To ustawia ile punktowych i stożkowych świateł może bezpośrednio wpływać na obiekty renderowane używając metody forward - zazwyczaj przezroczyste i obiekty z materiałem non-PBS (n.p. toon shader).\n\nZwiększenie tej wartości poprawi jakość oświetlenia i zmniejszy migotanie kolorów w obecności wielu świateł kosztem wydajności - obiekt musi być renderowany wiele razy dla każdego światła, które na niego wpływa.",
@@ -2068,7 +1778,6 @@
         "Settings.RenderingQualitySettings.ShadowDistance.Description": "To ustawia odległość, którą pokrywają cienie. Zwiększenie tej wartości sprawi, że bardziej odległe części sceny będą odpowiednio pokryte cieniami, ale spowoduje to również rozłożenie szczegółów cienia na większym obszarze.\n\nNależy zmienić to ustawienie wraz z kaskadami cieni i rozdzielczością - przy wyższej rozdzielczości cieni można pozwolić sobie na większą odległość cieni. Jeśli obniżysz rozdzielczość i kaskady cieni, warto zmniejszyć odległość cieni, aby cienie miały lepszą jakość.",
         "Settings.RenderingQualitySettings.SkinWeightMode": "Waga kości",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Dla meszy z kościami (Modele 3D które są deformowane przez kości, np. avatary), to ustawia ile kości jest używanych do wpływania na pozycję każdego wierzchołka.\n\nObniżenie tej wartości zwiększy wydajność, ale jakość deformacji będzie niższa, co spowoduje ostre zagniecenia i inne artefakty, zwykle wokół stawów.",
-
         "Settings.RendererDecouplingSettings": "Odłączenie renderera",
         "Settings.RendererDecouplingSettings.ActivationFramerate": "FPS dla aktywacji",
         "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "Kontroluje to, kiedy aktywuje się odłączenie renderera. Jeśli liczba klatek na sekundę spadnie poniżej tej wartości, renderer rozpocznie ponowne renderowanie sceny bez oczekiwania na nowe klatki z silnika.\n\nPomaga to wygładzić lagi i ograniczyć przerwy w odtwarzaniu filmów lub zawieszanie się wyświetlacza VR, jednak wszystko inne w scenie zostanie zawieszone.\n\nUstawienie tej wartości na 0 dezaktywuje ten mechanizm.",
@@ -2078,7 +1787,6 @@
         "Settings.RendererDecouplingSettings.ForceDecouple.Description": "Po włączeniu renderer będzie stale odłączany i będzie renderował nowe klatki tak szybko, jak to możliwe, bez oczekiwania na główny silnik.\n\n<color=hero.red>UWAGA!</color> Jest to przydatne głównie do celów debugowania i diagnozowania, czy ograniczeniem jest procesor, czy karta graficzna (jeśli ograniczeniem jest procesor, włączenie tej opcji znacznie zwiększy liczbę klatek na sekundę) i nie jest przeznaczone do normalnego użytku.\n\nMożesz doświadczyć znacznych zacięć, wahań i powolnego ładowania/przesyłania zasobów.",
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "Maksymalny czas przetwarzania zasobów (w milisekundach)",
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "Ta opcja kontroluje maksymalny czas, jaki renderer poświęci na przesyłanie zasobów do karty graficznej, gdy aktywny jest mechanizm odłączania. Obniżenie tej wartości może zwiększyć maksymalną liczbę klatek na sekundę (np. podczas testowania maksymalnej wydajności karty graficznej), ale może również obniżyć wydajność ładowania, a przy bardzo niskich wartościach może spowolnić aktualizację interfejsu użytkownika.",
-
         "Settings.ImportSettings": "Ustawienia importowania",
         "Settings.ImportSettings.SessionUrls": "Import URL sesji",
         "Settings.ImportSettings.SessionUrls.Description": "Kiedy URL sesji jest importowany, co powinno się stać. Dostępne opcje:\n\n<color=hero.yellow>Open</color> - Dołącz do sesji.\n<color=hero.yellow>SpawnInterface</color> - Pokaż reprezentacje (np. kule sesji) URLa.\n<color=hero.yellow>SpawnUrl</color> - Pokaż dialog URLa.",
@@ -2086,9 +1794,7 @@
         "Settings.ImportSettings.WorldUrls.Description": "Kiedy URL świata jest importowany, co powinno się stać. Dostępne opcje:\n\n<color=hero.yellow>Open</color> - Otwórz świat .\n<color=hero.yellow>SpawnInterface</color> - Pokaż reprezentacje (np. kule sesji) Świata.\n<color=hero.yellow>SpawnUrl</color> - Pokaż dialog URLa.",
         "Settings.ImportSettings.NetworkUrls": "Import URL sieci",
         "Settings.ImportSettings.NetworkUrls.Description": "Kiedy URL sieci jest importowany, co powinno się stać. Dostępne opcje:\n\n<color=hero.yellow>Open</color> - Połącz z sesją przez URL.\n<color=hero.yellow>SpawnInterface</color> - Pokaż reprezentacje (np. kule sesji) URLa.\n<color=hero.yellow>SpawnUrl</color> - Pokaż dialog URLa.",
-
-        "Settings.MysterySettings" : "Tajemnicze ustawienia",
-
+        "Settings.MysterySettings": "Tajemnicze ustawienia",
         "LocomotionArchetype.Walk": "Chodzenie",
         "LocomotionArchetype.Fly": "Lot",
         "LocomotionArchetype.NoClip": "Noclip",
@@ -2098,15 +1804,12 @@
         "LocomotionArchetype.ThreeAxisNoClip": "Trójosiowy Noclip",
         "LocomotionArchetype.ThreeAxisFly": "Trójosiowy Lot",
         "LocomotionArchetype.ZeroG": "Zero-G",
-
         "LocomotionSettings.MakePreferred": "Najbardziej preferowane",
         "LocomotionSettings.MakeLeastPreferred": "Najmniej preferowane",
-
         "Security.Hyperlink.Title": "link Zewnętrzny",
         "Security.Hyperlink.Warning": "<b><size=125%>Ostrzeżenie: link zewnętrzny</size></b>\nKliknięto link w świecie. Czy chcesz go otworzyć? Zostanie on otwarty w przeglądarce internetowej na komputerze.",
         "Security.Hyperlink.Open": "Otwórz",
         "Security.Hyperlink.Cancel": "Anuluj",
-
         "Security.HostAccess.Title": "Dostęp do hosta",
         "Security.HostAccess.Warning": "<b><size=125%>Uwaga: Świat próbuje uzyskać dostęp do zewnętrznego hosta</size></b>\nUdzielenie dostępu może pozwolić zewnętrznemu hostowi na uzyskanie danych osobowych, takich jak adres IP i lokalizacja geograficzna użytkownika.",
         "Security.HostAccess.TargetHost": "Host docelowy: <b>{host}</b>",
@@ -2114,43 +1817,33 @@
         "Security.HostAccess.NoReason": "<i>Nie podano powodu</i>",
         "Security.HostAccess.Allow": "Zezwól",
         "Security.HostAccess.Deny": "Zabroń",
-
         "ComponentSelector.Back": "< (wstecz)",
         "ComponentSelector.Title": "Komponenty",
         "ComponentSelector.CreateCustomType": "Utwórz typ niestandardowy",
         "ComponentSelector.CommonGenericTypes": "Wspólne Typy Ogólne",
         "ComponentSelector.CustomGenericArguments": "Niestandardowe Argumenty Ogólne:",
         "ComponentSelector.InvalidType": "Nieprawidłowy typ",
-
         "Inspector.Title": "Inspektor sceny",
         "Inspector.Slot.AttachComponent": "Dołącz komponent",
-
         "Inspector.Slot.Axis.X": "X: <b>+</b>Prawo <b>-</b>Lewo",
         "Inspector.Slot.Axis.Y": "Y: <b>+</b>Góra <b>-</b>Dół",
         "Inspector.Slot.Axis.Z": "Z: <b>+</b>Przód <b>-</b>Tył",
-
         "Inspector.Slot.Reset.Label": "Resetuj:",
         "Inspector.Slot.Reset.Position": "Pozycję",
         "Inspector.Slot.Reset.Rotation": "Rotację",
         "Inspector.Slot.Reset.Scale": "Skalę",
-
         "Inspector.Slot.CreatePivotAtCenter": "Utwórz punkt obrotu w środku",
-
         "Inspector.Slot.JumpTo": "Skocz do",
         "Inspector.Slot.BringTo": "Przenieś do",
         "Inspector.Slot.BringTo.Undo": "Przenieś {name} do użytkownika",
-
         "Inspector.Slot.ParentUnder.Label": "Ustaw rodzica pod:",
         "Inspector.Slot.ParentUnder.WorldRoot": "Root świata",
         "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Ustaw rodzica {name} pod rootem świata",
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Lokalna przestrzeń użytkownika",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Ustaw rodzica {name} pod nazwą świata",
-
         "Inspector.Member.ResetToDefault": "Przywróć domyślne wartości",
-
         "Inspector.Member.BreakLinkDrive": "Przerwij Link/Sterowania",
         "Inspector.Member.OpenLinkDrive": "Otwórz źródło Link/Sterowania",
-
         "Inspector.Member.SetAllToAvg": "Ustaw wszystko na średnią",
         "Inspector.Member.SetAllToX": "Ustaw wszystko na X",
         "Inspector.Member.SetAllToY": "Ustaw wszystko na Y",
@@ -2162,10 +1855,8 @@
         "Inspector.Member.SplitBlendshape.X": "Podziel Blendshape w poprzek osi X",
         "Inspector.Member.SplitBlendshape.Y": "Podziel Blendshape w poprzek osi Y",
         "Inspector.Member.SplitBlendshape.Z": "Podziel Blendshape w poprzek osi Z",
-
         "Inspector.ProceduralAsset.UpdateCount": "Zmodyfikowano: {n}",
         "Inspector.ProceduralAsset.Error": "Error: {error}",
-
         "Inspector.Mesh.StatsHeader": "Statystyki Meshu",
         "Inspector.Mesh.VertexCount": "Liczba Wierzchołków: {n}",
         "Inspector.Mesh.TriangleCount": "Liczba Trójkątów: {n}",
@@ -2174,7 +1865,6 @@
         "Inspector.Mesh.BoneCount": "Liczba Kości: {n}",
         "Inspector.Mesh.BlendshapeCount": "Liczba Blendshapeów: {n}",
         "Inspector.Mesh.ChannelStats": "Normalne: {normals}, Styczne: {tangents}, Kolory: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
-
         "Inspector.Mesh.BakeMesh": "Wypal Mesh",
         "Inspector.Mesh.SetupRenderer": "Konfiguracja renderera",
         "Inspector.Mesh.ResaveMesh": "Zapisz Ponownie Mesh",
@@ -2196,30 +1886,21 @@
         "Inspector.Mesh.StripBlendshapeNormals": "Usuń Normalne Blendshapeów",
         "Inspector.Mesh.StripBlendshapeTangents": "Usuń Styczne Blendshapeów",
         "Inspector.Mesh.MergeBlendshapes": "Połącz Blendshapy",
-
         "Inspector.Mesh.GetBoneList": "Wyświetl Listę Kości",
         "Inspector.Mesh.GetBoneData": "Wyświetl Dane Kości",
-
         "Inspector.Mesh.TrimVertexBoneWeightsTo": "Przytnij Wagi Wierzchołków do:",
         "Inspector.Mesh.BoneTrimCount": "{n,plural, one {# Kość} few {# Kości} many {# Kości}}",
         "Inspector.Mesh.UV_Multiplicator": "Mnożnik:",
         "Inspector.Mesh.ScaleUVs": "Skaluj UV",
-
         "Inspector.MeshRenderer.MergeByMaterial": "Połącz podmeshe z takimi samymi materiałami",
         "Inspector.MeshRenderer.SplitByMaterial": "Rozdziel mesh na części z takimi samymi materiałami",
-
-        "Inspector.GaussianSplatRenderer.GeneratePointCloudCollider": "Generuj kolider chmury punktowej ",
-
+        "Inspector.GaussianSplatRenderer.GeneratePointCloudCollider": "Generuj kolider chmury punktowej",
         "Inspector.MeshCollider.VHACD": "Dekompozycja wypukłej powłoki (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Zastąp Koliderem Sześciennym",
-
         "Inspector.Texture3D.SpawnVisualizer": "Spawn Wizualizator",
-
         "Inspector.Skybox.SetActiveSkybox": "Ustaw jako aktywny skybox",
         "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Ustaw jako aktywny ambient light",
-
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Aktualizuj moduły lokomocji dla obecnych użytkowników",
-
         "Inspector.VHACD.Parameter.MergeDoubles": "Scalanie duplikatów",
         "Inspector.VHACD.Parameter.Resolution": "Rozdzielczość",
         "Inspector.VHACD.Parameter.Depth": "Głębokość",
@@ -2234,19 +1915,15 @@
         "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Maks. wierzchołków na powłokę",
         "Inspector.VHACD.Parameter.MinVolumePerHull": "Min. objętość na powłokę",
         "Inspector.VHACD.Parameter.ConvexHullApproximation": "Aproksymacja powłoki wypukłej",
-
         "Inspector.VHACD.DecompositionMode.Header": "Tryb dekompozycji:",
         "Inspector.VHACD.DecompositionMode.Voxel": "Woksel",
         "Inspector.VHACD.DecompositionMode.Tetrahedron": "Tetrahedron",
-
         "Inspector.VHACD.RunDecomposition": "Uruchom dekompozycję",
         "Inspector.VHACD.RemoveVisuals": "Usuń wizualizacje",
         "Inspector.VHACD.RemoveHulls": "Usuń powłoki",
-
         "Inspector.ReflectionProbe.Bake": "Wypal Odbicia",
         "Inspector.ReflectionProbe.Baking": "Wypalanie......",
         "Inspector.ReflectionProbe.OnChangesRenderCount": "Liczba obliczeń OnChanges: {count}",
-
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Rozdziel części meshu niezmieniane przez blendshapy",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Usuń Puste Blendshapy",
         "Inspector.SkinnedMesh.StripBlendshapesResult": "Gotowe! Usunięto: {n,plural, one {# blendshape} few {# blendshapy} many {# blendshapeów}}",
@@ -2263,12 +1940,10 @@
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "Sortuj Blendshapes według nazwy",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Sortuj blenshapes według długości nazwy, a następnie nazwy",
         "Inspector.SkinnedMesh.ResetBonesToBindPoses": "Resetuj kości do bind poses",
-
         "Inspector.SimpleAvatarProtection.RemoveAll": "Usuń wszystkie instancje",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Usuń pojedyncze instancje",
         "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>OSTRZEŻENIE!</size></color><br>Usunięcie tego komponentu w jakikolwiek inny sposób niż za pomocą dedykowanych przycisków poniżej spowoduje wyzwolenie mechanizmu zabezpieczającego i doprowadzi do samozniszczenia i potencjalnej utraty danych!",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "USUŃ ochronę awatara",
-
         "Inspector.BipedRig.GetDiagnosticInfo": "Pobierz informacje diagnostyczne szkieletu",
         "Inspector.BipedRig.GenerateDebugVisuals": "Generuj wizualizacje debugowania",
         "Inspector.BipedRig.ClearDebugVisuals": "Usuń wizualizacje debugowania",
@@ -2278,15 +1953,12 @@
         "Inspector.BipedRig.HandRigResult": "Gotowe! Ma Lewą Rękę: {left}, Ma Prawą Rękę: {right}",
         "Inspector.BipedRig.LeftHandRigResult": "Gotowe! Wykryto Lewą: {detected}",
         "Inspector.BipedRig.RightHandRigResult": "Gotowe! Wykryto Prawą: {detected}",
-
         "Inspector.Texture.Size": "Rozmiar: {width} x {height}",
         "Inspector.Texture.Format": "Format: {format}, Pamięć: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "ID Wariantu: {variant}",
         "Inspector.Texture3D.Size": "Rozmiar: {width} x {height} x {depth}",
-
         "Inspector.Texture.BakeTexture": "Wypal Texture",
         "Inspector.Texture.ReplaceFromClipboard": "Zastąp ze schowka",
-
         "Inspector.Texture.InvertRGB": "Odwróć Kolory",
         "Inspector.Texture.InvertR": "Odwróć Czerwony",
         "Inspector.Texture.InvertG": "Odwróć Zielony",
@@ -2305,10 +1977,10 @@
         "Inspector.Texture.SwapGB": "Zamień Zielony i Niebieski",
         "Inspector.Texture.SwapGA": "Swap Zielony i Alfa",
         "Inspector.Texture.SwapBA": "Swap Niebieski i Alfa",
-        "Inspector.Texture.IsolateR": "Wyizoluj Czerwony kanał ",
-        "Inspector.Texture.IsolateG": "Wyizoluj Zielony kanał ",
-        "Inspector.Texture.IsolateB": "Wyizoluj Niebieski kanał ",
-        "Inspector.Texture.IsolateA": "Wyizoluj Alfa kanał ",
+        "Inspector.Texture.IsolateR": "Wyizoluj Czerwony Kanał",
+        "Inspector.Texture.IsolateG": "Wyizoluj Zielony Kanał",
+        "Inspector.Texture.IsolateB": "Wyizoluj Niebieski Kanał",
+        "Inspector.Texture.IsolateA": "Wyizoluj Kanał Alfa",
         "Inspector.Texture.AddWhiteBackground": "Dodaj Białe Tło",
         "Inspector.Texture.AddBlackBackground": "Dodaj Czarne Tło",
         "Inspector.Texture.Hue": "Odcień:",
@@ -2340,18 +2012,14 @@
         "Inspector.Texture.AlphaGamma": "Gamma Alfy",
         "Inspector.Texture.AdjustAlphaGamma": " Zmień Gammę Alfy",
         "Inspector.Texture.AddAlpha": "Dodaj Alfa",
-
         "Inspector.Texture.InvalidFloats": "Diagnostyka: Niewłaściwe Wartości",
         "Inspector.Texture.GenerateMetadata": "Diagnostyka: Generuj Metadane Bitmapy",
-
         "Inspector.Material.VariantInfo": "Wariant: {variantID} (Surowy: {rawVariantID})",
         "Inspector.Material.WaitingForApply": "Czekanie na zapis: {waiting}",
-
         "Inspector.Audio.BakeAudio": "Wypal Dźwięk",
         "Inspector.Audio.FormatInfo": "Częstotliwość: {rate} Hz, Kanały: {channels} ({channel_count})",
         "Inspector.Audio.Duration": "Długość: {duration}",
         "Inspector.Audio.EncodingInfo": "Info o Kodeku: {info}, Zdekodowano: {decoded}",
-
         "Inspector.Audio.Normalize": "Normalizuj",
         "Inspector.Audio.AmplitudeThreshold": "Próg Amplitudy:",
         "Inspector.Audio.TrimSilence": "Wytnij Ciszę",
@@ -2368,45 +2036,35 @@
         "Inspector.Audio.ToFLAC": "Konwertuj na FLAC",
         "Inspector.Audio.DenoiseRNNoise": "Usuń szum (RNNoise, najlepiej działa na głos przy 48 kHz)",
         "Inspector.Audio.ExtractSides": "Rozdziel Strony (może usunąć głosy na dźwiękach stereo)",
-
         "Inspector.AudioStream.BufferState": "Dostępne sample: {samples}, Pominięte: {missed}, Długość: {length}, Indeks Globalny: {index}",
         "Inspector.AudioStream.EncodeState": "Dostępne do kodowania: {samples}, Wielkość Klatek: {frame} (Maks: {max_frame}), Częstotliwość Sampli: {rate}",
         "Inspector.AudioStream.DecodeState": "Suma Pakietów: {total}, Suma Straconych Pakietów: {lost}, Strata Pakietów: {loss, number, percent}",
         "Inspector.AudioStream.BufferStats": "Średni kodek: {avgCodec}/s, Średni odczyt: {avgRead}/s, Średni zapis: {avgWritten}/s",
-
         "Inspector.GaussianSplat.SplatInfo": "Ilość splatów: {count}, Użycie VRAM: {vram}",
         "Inspector.GaussianSplat.Variant": "Załadowanych wariantów: {variant}",
         "Inspector.GaussianSplat.ColorByIndex": "Pokoloruj splaty według indeksu",
         "Inspector.GaussianSplat.ReorderMorton": "Zmień kolejność splatów według Morton Z-curve",
-
         "Inspector.DynamicBoneChain.SetupFromChildren": "Ustaw z dzieci",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll": "Ustaw z dzieci (wymuś wszystkie)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "Ustaw z dzieci (tylko szkielet)",
-        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms": "Zamień Płynne Transformacje  w dzieciach",
+        "Inspector.DynamicBoneChain.ReplaceSmoothTransforms": "Zamień Płynne Transformacje w dzieciach",
         "Inspector.DynamicBoneChain.ClearSmoothTransforms": "Usuń Płynne Transformacje w dzieciach",
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Obszary i Chwytanie -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Dodaj obszary do punktów centralnych obiektów w hierarchii",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Zawsze chwytaj ostatnią kość",
-
         "Inspector.DataPreset.SetActive": "Ustaw Aktywne",
         "Inspector.DataPreset.SetValues": "Ustaw Wartości",
         "Inspector.DataPreset.AddAllChildren": "Dodaj Wszystkie dzieci",
-
         "Inspector.Rig.CleanupBoneColliders": "Usuń strefy kolizji kości",
         "Inspector.Rig.GenerateDebugVisuals": "Generuj wizualizacje debugowania",
         "Inspector.Rig.ClearDebugVisuals": "Usuń wizualizacje debugowania",
-
         "Inspector.AvatarExpression.AutoAssign": "Automatycznie Przypisz Blendshapy (używając heurystki)",
-
         "Inspector.CharacterController.Warning": "<color=red><size=150%>UWAGA!</size></color><br>Możliwe jest użycie tego komponentu do symulacji rigidbody, poprzez zaznaczenie opcji \"SimulateRotation\". Komponent ten jednak nie jest zaprojektowany do tego celu, a prawidłowe wsparcie dla rigidbody pojawi się w przyszłości.<br>Użycie tego komponentu do symulacji rigidbody może spowodować:<br>- Zwiększone użycie procesora i sieci<br>- CharacterController ulegnie glitchowi, jeśli inna osoba spróbuje interakcji.",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>UWAGA!</size></color><br>Możliwe jest użycie tego komponentu do interakcji z referencjami przy użyciu ich ID. Proces ten jest powszechnie nazywany \"Ref Hacking\".<br><br><b>Zanim</b> to zrobisz, pamiętaj, że to nie jest oficjalnie wspierana funkcja, i proces ten może przestać działać w każdej chwili. Nie należy polegać na tym przy tworzeniu swoich dzieł.",
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>UWAGA!</size></color><br>FacetPresets zostaną automatycznie zaktualizowane, gdy opublikujemy nowe wersje. Jeśli tworzysz wersję niestandardową, zalecamy usunięcie tego komponentu.",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>UWAGA!</size></color><br>Ten komponent nie został zaprojektowany jako system zabezpieczeń/ochrony przed kradzieżą przedmiotów. Jest przeznaczony do blokowania łatwiejszych metod zapisywania na potrzeby rozgrywki lub ze względów projektowych. Można go łatwo ominąć i w żadnym wypadku nie zapewnia on dodatkowego bezpieczeństwa.",
-
-
         "Inspector.ParticleSystem.BasicInfo": "Ilość cząstek: {count}, FPS: {fps}, Czas symulacji: {time}, Submit Time: {renderSubmitTime}, Render allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "Ilość Śladów: {trailCount} (Pojemność: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
-
         "Inspector.ParticleStyle.CommonTransitions": "Wspólne szablony przejść:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Zanikanie Alpha: Wprowadzenie i Wycofanie",
         "Inspector.ParticleStyle.AlphaFadeIn": "Zanikanie Alpha: Wprowadzenie",
@@ -2415,7 +2073,6 @@
         "Inspector.ParticleStyle.IntensityFadeIn": "Zanikanie Intensywności: Wprowadzenie",
         "Inspector.ParticleStyle.IntensityFadeOut": "Zanikanie Intensywności: Wycofanie",
         "Inspector.ParticleStyle.ClearFades": "Usuń Zanikania",
-
         "Inspector.Collider.SetFromLocalBounds": "Ustaw z lokalnych granic",
         "Inspector.Collider.SetFromGlobalBounds": "Ustaw z globalnych granic",
         "Inspector.Collider.SetFromLocalBoundsPrecise": "Ustaw z lokalnych granic (precyzyjnie)",
@@ -2423,32 +2080,22 @@
         "Inspector.Collider.SetFromPreciseBounds": "Ustaw z precyzyjnych granic",
         "Inspector.Collider.SetFromPreciseCylinderBounds": "Ustaw z precyzyjnych granic cylindra",
         "Inspector.Collider.Visualize": "Wizualizuj kolider",
-
         "Inspector.SimpleAwayIndicator.TestAway": "Ustaw na away (debug)",
         "Inspector.SimpleAwayIndicator.TestRestore": "Przywróć do normalnego stanu (debug)",
-
         "Inspector.Fields.Drive": "Steruj",
         "Inspector.Fields.DriveWriteBack": "Steruj <size=50%>(write back)</size>",
-
         "Inspector.Actions.CopyComponent": "Kopiuj komponent",
         "Inspector.Actions.MoveComponent": "Przenieś komponent",
-
         "Inspector.Wizard.PackTexture": "Pakuj teksturę",
         "Inspector.Wizard.UnpackTexture": "Odpakuj texturę",
-
         "Inspector.Error": "<color=hero.red>Error! Sprawdź log.</color>",
-
         "UserInspector.Title": "Inspektor użytkownika",
-
         "WorkerInspector.Title": "{name} Inspektor",
-
         "CreateNew.Title": "Nowy",
-
         "Wizard.General.ProcessRoot": "Miejsce Operacji:",
         "Wizard.General.Result": "Rezultat:",
         "Wizard.General.ErrorNoRoot": "Brak Miejsca Operacji",
         "Wizard.General.RemovedResult": "Usunięto {n}",
-
         "Wizard.AssetOptimization.Title": "Kreator Optymalizacji Zasobów",
         "Wizard.AssetOptimization.CleanupUnusedAssets": "Usuń Nieużywane Zasoby",
         "Wizard.AssetOptimization.CleanupEmptySlots": "Usuń Puste Obiekty",
@@ -2461,7 +2108,6 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged": "Przelicz Wszystkie Normalne (połączone)",
         "Wizard.AssetOptimization.RecalculateAllTangents": "Przelicz Wszystkie Styczne (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult": "Przeskalowano {n}",
-
         "Wizard.LightSources.Title": "Kreator Źródeł Światła",
         "Wizard.LightSources.Header": "Źródła Światła Sceny",
         "Wizard.LightSources.ProcessRoot": "Miejsce Operacji:",
@@ -2478,7 +2124,6 @@
         "Wizard.LightSources.Enable": "Włącz",
         "Wizard.LightSources.Disable": "Wyłącz",
         "Wizard.LightSources.Destroy": "Zniszcz",
-
         "Wizard.CubemapCreator.Title": "Kreator Cubemap",
         "Wizard.CubemapCreator.Textures": "Tekstury Źródłowe:",
         "Wizard.CubemapCreator.TexturesNote": "Pamiętaj że niektóre standardy zamieniają lewą i prawą stronę. Jeśli stworzona Cubemapa jest nieprawidłowa, spróbuj zamienić lewą i prawą stronę.",
@@ -2489,7 +2134,6 @@
         "Wizard.CubemapCreator.PosZ": "Pozytywny Z (przód)",
         "Wizard.CubemapCreator.NegZ": "Negatywny Z (tył)",
         "Wizard.CubemapCreator.TopBottomRotation": "Obrót Góry i Dołu:",
-
         "Wizard.ReflectionProbes.Title": "Kreator Próbek Odbicia",
         "Wizard.ReflectionProbes.ProcessRoot": "Miejsce Operacji:",
         "Wizard.ReflectionProbes.ProcessDisabled": "Proces Wyłączony",
@@ -2500,7 +2144,6 @@
         "Wizard.ReflectionProbes.HideDebugVisuals": "Schowaj Wizualizacje",
         "Wizard.ReflectionProbes.BakeProbes": "Wypal Próbki",
         "Wizard.ReflectionProbes.Baking": "Wypalanie: {index} na {count}...",
-
         "Wizard.TextRenderer.Header": "TextRenderer Wizard",
         "Wizard.TextRenderer.ProcessRoot": "Proces Root:",
         "Wizard.TextRenderer.ProcessStandalone": "Samodzielny proces",
@@ -2510,13 +2153,11 @@
         "Wizard.TextRenderer.ReplaceMaterial": "Wymień materiał",
         "Wizard.TextRenderer.ReplaceFont": "Zastąp czcionkę",
         "Wizard.TextRenderer.SetColor": "Ustaw kolor",
-
         "Wizard.TextureWizards.DefaultValue": "Domyślna wartość",
         "Wizard.TextureWizards.Invert": "Odwróć",
         "Wizard.TextureWizards.ClearTexture": "Wyczyść texturę",
         "Wizard.TextureWizards.ResolutionOverride": "Zastąpienie rozdzielczości",
         "Wizard.TextureWizards.PlaceTextureHere": "Umieść teksturę tutaj",
-
         "Wizard.TexturePacker.Title": "Kreator pakowania tekstur",
         "Wizard.TexturePacker.Packing": "Pakowanie...",
         "Wizard.TexturePacker.PackTextures": "Zpakuj tekstury",
@@ -2525,11 +2166,9 @@
         "Wizard.TexturePacker.UseSmallest": "Użyj najmniejszej",
         "Wizard.TexturePacker.UseLargest": "Użyj największej",
         "Wizard.TexturePacker.GenerateMipmaps": "Generuj Mipmapy",
-
         "Wizard.TextureUnpacker.Title": "Kreator rozpakowania tekstur",
         "Wizard.TextureUnpacker.Unpacking": "Odpakowanie...",
         "Wizard.TextureUnpacker.UnpackTexture": "Odpakuj texturę",
-
         "Desktop.Controls.Title": "Sterowanie",
         "Desktop.OpenKeyboard": "Otwórz Klawiaturę",
         "Desktop.FollowCursor.On": "Podążaj za Kursorem: Tak",
@@ -2538,14 +2177,11 @@
         "Desktop.LegacyInputMode.Off": "Starsza Metoda Wejścia: Nie",
         "Desktop.Brightness": "Jasność: {n,number,percent}",
         "Desktop.Opacity": "Przezroczystość: {n,number,percent}",
-
         "VolumePlaneSlicer.Highlight": "Podświetl",
         "VolumePlaneSlicer.Slicer": "Wytnij",
-
         "Tutorial.Welcome.Welcome": "Witamy!",
         "Tutorial.Welcome.Description": "Wejdź do zupełnie nowego cyfrowego wszechświata z nieskończonymi możliwościami. Niezależnie od tego, czy przychodzisz tutaj, aby nawiązać kontakty i spędzać czas z ludźmi z całego świata, czy też budować i tworzyć cokolwiek, od pięknej sztuki, interaktywnych awatarów i gadżetów, do skomplikowanych interaktywnych światów i gier, Resonite to nieskończenie elastyczne miejsce, w którym będziesz mile widziany i gdzie znajdziesz grupę, z którą będziesz rezonować.<br><br>Zanim zaczniesz eksplorować, najpierw przeprowadzimy Cię przez konfigurację kilku niezbędnych elementów, aby zapewnić płynne działanie. Gdy będziesz gotowy, kliknij poniższy przycisk",
         "Tutorial.Welcome.Begin": "Zaczynajmy!",
-
         "Tutorial.Welcome.AccountHeader": "Konto {appName}",
         "Tutorial.Welcome.AccountDescription": "Tworzenie konta daje Ci 1 GB darmowego miejsca w chmurze na zapisywanie przedmiotów, wybieranie awatarów, dodawanie Znajomych oraz wysyłanie wiadomości.",
         "Tutorial.Welcome.AccountCreate": "Utwórz Konto",
@@ -2554,7 +2190,6 @@
         "Tutorial.Welcome.AccountSkipHeader": "Pominąć tworzenie konta?",
         "Tutorial.Welcome.AccountSkipDescription": "Niektóre funkcje takie jak zapisywanie przedmiotów, wybieranie awatarów lub dodawanie Znajomych nie będą dostępne.",
         "Tutorial.Welcome.AccountSkipConfirm": "Na Pewno",
-
         "Tutorial.Welcome.SettingsHeader": "Podstawowe Ustawienia",
         "Tutorial.Welcome.SettingsDescription": "Możesz tu konfigurować podstawowe ustawienia. Można je także zmienić później.",
         "Tutorial.Welcome.SettingsTurning": "Styl Obrotu",
@@ -2567,16 +2202,13 @@
         "Tutorial.Welcome.SettingsPrimaryLeft.Description": "Lewa ręka",
         "Tutorial.Welcome.SettingsPrimaryRight": "Prawy",
         "Tutorial.Welcome.SettingsPrimaryRight.Description": "Prawa ręka",
-
         "Tutorial.Welcome.SettingsHeadDirectionMovement": "Kierunek ruchu",
         "Tutorial.Welcome.SettingsUseHeadDirection": "Kierunek głowy",
         "Tutorial.Welcome.SettingsUseHeadDirection.Description": "Poruszasz się w kierunku, w którym patrzysz",
         "Tutorial.Welcome.SettingsUseControllerDirection": "Kierunek kontrolera",
         "Tutorial.Welcome.SettingsUseControllerDirection.Description": "Poruszasz się w kierunku kontrolera",
-
         "Tutorial.Welcome.LeftControllerMode": "Tryb lewego kontrolera",
         "Tutorial.Welcome.RightControllerMode": "Tryb prawego kontrolerae",
-
         "Tutorial.Welcome.SidewaysTurnOnly": "Tylko obracanie",
         "Tutorial.Welcome.SidewaysTurnOnly.Description": "Ten kontroler służy wyłącznie do obracania",
         "Tutorial.Welcome.SidewaysTurnAndMove": "Obrót i ruch",
@@ -2585,20 +2217,15 @@
         "Tutorial.Welcome.SidewaysStrafe.Description": "Ten kontroler służy wyłącznie do strafowania",
         "Tutorial.Welcome.SidewaysOff": "Off",
         "Tutorial.Welcome.SidewaysOff.Description": "Tylko ruch do przodu/do tyłu",
-
         "Tutorial.Welcome.SettingsHeight": "Twój wzrost",
         "Tutorial.Welcome.SettingsHeightExamples": "Przykłady: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
-
         "Tutorial.Welcome.StartTutorialHeader": "Rozpocznij tutorial",
         "Tutorial.Welcome.StartTutorialDescription": "Przeniesiemy Cię do prostego świata tutorialowego aby pomóc Ci zacząć z {appName}. Możesz wybrać czy chcesz aby świat był publiczny, pozwalając społeczności {appName} na dołączanie i pomaganie Tobie albo możesz uczyć się samemu.",
         "Tutorial.Welcome.StartTutorial": "Rozpocznij tutorial",
-
         "Tutorial.CommunityYouTube.Title": "Kanały YouTube Społeczności",
-
         "Tutorial.UserResources.UserResourcesTitle": "Zasoby Użytkowników",
         "Tutorial.UserResources.SupportTitle": "Jak Wspierać {appName}",
         "Tutorial.UserResources.MerchandiseTitle": "Merch {appName}",
-
         "Tutorial.Intro.BadgesAppTeam": "{appName} Team",
         "Tutorial.Intro.BadgesModerator": "Moderator",
         "Tutorial.Intro.BadgesMentor": "Mentor",
@@ -2606,11 +2233,9 @@
         "Tutorial.Intro.BadgesDisabilityVision": "Zaburzenia Wzroku",
         "Tutorial.Intro.BadgesDisabilitySpeech": "Zaburzenia Mowy",
         "Tutorial.Intro.BadgesTitle": "Odznaki",
-        "Tutorial.Intro.BadgesDescription": "Odznaki to małe ikony pokazujące informacje o użytkownikach. Tu jest kilka najważnejszych odznak do zapamiętania. Odznaki związane z zaburzeniami zmysłów mogą być dodane używając Bota {appName}.",
+        "Tutorial.Intro.BadgesDescription": "Odznaki to małe ikony pokazujące informacje o użytkownikach. Tu jest kilka najważnejszych odznak do zapamiętania. Odznaki związane z zaburzeniami zmysłów mogą być dodane używając Bota {appName}. Dowiedz się więcej na Wiki {appName}",
         "Tutorial.Intro.HelpSite": "Pomoc",
-
         "Object.Mirror.Toggle": "Przełącznik Lokalny",
-
         "Twitch.Panel.Button.Commands.Enabled": "Komendy włączone",
         "Twitch.Panel.Button.Commands.Disabled": "Komendy wyłączone",
         "Twitch.Panel.Button.SafeMode.Enabled": "Tryb bezpieczny włączony",
@@ -2618,15 +2243,12 @@
         "Twitch.Panel.Button.SubscriberCommands.Enabled": "Komendy subskrybenta<br> Włączone tylko dla subskrybentów",
         "Twitch.Panel.Button.SubscriberCommands.Disabled": "Komendy subskrybenta<br> Włączone dla wszystkich",
         "Twitch.Panel.Title.Text": "Twitch Chat",
-
         "Exiting.SavingItems": "Zapisywanie {n, plural, one {# przedmiotu} few {# przedmiotów} many {# przedmiotów}}...",
         "Exiting.SavingChanges": "Zapisywanie Zmian...",
         "Exiting.Exiting": "Wychodzenie...",
         "Exiting.LoggingOut": "Wylogowywanie...",
-
         "Migration.Title": "Migracja",
         "Migration.NewTask": "Nowe zadanie migracji",
-
         "Migration.LoginModal.Title": "Przenieść dane?",
         "Migration.LoginModal.Description": "Czy chcesz przenieść dane z innego konta? Możesz to zrobić później w zakładce \"Migracja\" na tablicy.",
         "Migration.LoginModal.OpenMigration": "Otwórz migrację",
@@ -2634,59 +2256,43 @@
         "Migration.LoginResetID.Title": "Naprawdę resetuj UserID?",
         "Migration.LoginResetID.Description": "Należy pamiętać, że spowoduje to <color=red>NIEPRZEWIDYWALNE USZKODZENIE ZAWARTOŚCI</color>. Wszystkie przedmioty, światy, kontakty i wiadomości zostaną pomyślnie przeniesione, ale wszelkie zachowania i komponenty, które opierają się na odniesieniu do starego UserID, prawdopodobnie ulegną awarii i będą wymagały ponownej konfiguracji i naprawy. Chyba że masz poważny powód, aby zresetować swój UserID, <color=red>NIE WYBIERAJ TEJ OPCJI</color>.",
         "Migration.LoginResetID.ResetButton": "Tak, zresetuj",
-
         "Migration.ReservedUsername.Title": "<b>Zarezerwowana nazwa użytkownika</b>",
         "Migration.ReservedUsername.Description": "Ta nazwa użytkownika jest zarezerwowana dla pierwotnego właściciela. Jeśli jest to Twoje konto, podaj swoje dane logowania do {platform}, aby je odblokować. Nie przechowujemy tych danych logowania, są one używane tylko do weryfikacji własności konta podczas rejestracji.",
         "Migration.SourcePassword": "Hasło",
         "Migration.SourceUsername": "Nazwa użytkownika {platform}:",
-
         "Migration.Dialog.Title": "Migracja konta",
         "Migration.Dialog.Source": "Dane można przenieść z dowolnej kompatybilnej infrastruktury. Najpierw wybierz z listy poniżej tę, z której chcesz migrować dane. Dodatkowe infrastruktury można dodać, umieszczając pliki konfiguracyjne w folderze \"Migrations\" w instalacji.",
         "Migration.Dialog.AccountDescription": "Aby przeprowadzić migrację konta, będziemy potrzebować hasła do konta {platform}. Pozwoli nam to zalogować się do niego i uzyskać dostęp do danych.",
-
         "Migration.ResetID.Title": "Zresetuj mój UserID",
         "Migration.ResetID.Description": "<color=red><b>OSTRZEŻENIE:</b></color> Wybranie tej opcji <b>CZĘŚCIOWO USZKODZI ISTNIEJĄCĄ ZAWARTOŚĆ I JEST NIEODWRACALNE</b>, w tym wszelkie odniesienia UserID w treściach użytkownika, usługach społecznościowych, linkach, zmiennych w chmurze i innych. Zalecamy korzystanie z tej opcji <b>TYLKO</b> wtedy, gdy chcesz pozbyć się starego UserId i zastąpić go nowym, losowym identyfikatorem. eśli nie masz ważnego powodu, aby zresetować swój identyfikator UserID, <b>NIE POWINIENEŚ</b> zaznaczać tej opcji. Twój UserID zmieni się w następujący sposób:\nU-MyUsername -> U-fX3pKe7AYYQ",
-
         "Migration.DataSelection.Title": "Jakie dane powinny zostać przeniesione podczas migracji konta?",
         "Migration.DataSelection.Everything": "Wszystko",
         "Migration.DataSelection.Choose": "Pozwól mi wybrać",
-
         "Migration.DataSelection.Favorites": "Ulubione (awatar, dom, kamera, klawiatura, aspekty)",
-
         "Migration.DataSelection.Favorites.Description": "Spowoduje to najpierw migrację domu, ulubionego awatara, klawiatury, kamery i tablicy, aby można było zacząć z nich korzystać tak szybko, jak to możliwe.\n<color=red><b>OSTRZEŻENIE:</b></color> Wybranie tej opcji może spowodować <b>UTRATĘ WSZELKICH ZMIAN</b> dokonanych na tej platformie przed migracją ulubionych.",
         "Migration.DataSelection.Favorites.OverwriteTitle": "Czy podczas migracji należy nadpisać ulubione?",
-
         "Migration.DataSelection.Home.Title": "Ustawić stary dom jako domyślny?",
         "Migration.DataSelection.Home.Description": "Gdy przeprowadzimy migrację danych, oryginalny dom w chmurze zostanie umieszczony pod innym adresem URL, a jako domyślny zostanie ustawiony nowy dom w chmurze. Jeśli jednak wolisz, możemy ustawić Twój stary dom jako domyślny. Nawet jeśli wybierzesz opcję \"Nie\", stary dom w chmurze będzie nadal dostępny i możesz go później wybrać jako domyślny.",
-
         "Migration.DataSelection.Contacts": "Kontakty",
         "Migration.DataSelection.Message History": "Historia wiadomości",
         "Migration.DataSelection.InventoryWorld": "Ekwipunek i światy",
         "Migration.DataSelection.CloudVariable.Definitions": "Definicje zmiennych w chmurze",
         "Migration.DataSelection.CloudVariable.Values": "Wartości zmiennych w chmurze",
-
         "Migration.DataSelection.AlwaysOverwrite": "Zawsze nadpisuj",
-
         "Migration.Start": "Rozpocznij migrację",
         "Migration.Groups.Title": "Przenieś grupy",
         "Migration.Groups.Introduction": "Czy powinniśmy przenieść Twoje grupy?",
-
         "Migration.Groups.Description": "Wszystkie grupy, których jesteś administratorem, zostaną domyślnie przeniesione. Jeśli chcesz przenieść tylko wybrane grupy, kliknij poniższy przycisk, aby je załadować, a następnie zaznacz grupy, które chcesz przenieść.",
-
         "Migration.Groups.LoadGroups": "Załaduj grupy",
         "Migration.Groups.RefreshGroups": "Odśwież grupy",
-
         "Migration.Groups.Fetching": "Pobieranie grup...",
         "Migration.Groups.Fetching.LoginFailed": "Błąd podczas logowania: {error}",
         "Migration.Groups.Fetching.Error": "Błąd podczas pobierania grup: {error}",
         "Migration.Groups.NoGroups": "Nie znaleziono grup {platform} do migracji.",
         "Migration.Groups.NotGroupAdmin": "Nie jesteś administratorem żadnej grupy {platform}, poproś administratorów grupy o migrację grupy!",
-
         "Migration.Summary": "Ok, mamy wszystko, czego potrzebujemy. Kliknij przycisk Rozpocznij migrację, a my skopujemy twoje dane. Jeśli wybrano migrację swoich ulubionych, nadamy im priorytet, aby było Ci wygodnie. {appName} nie musi być uruchomione podczas migracji, ale wyślemy Ci aktualizacje przez bota {appName}, informując o postępach.",
-
         "Migration.List.EmptyTitle": "Chcesz rozpocząć nową migrację?",
         "Migration.List.EmptySubtitle": "Kliknij \"Nowe zadanie migracji\" w lewym górnym rogu.",
-
         "Migration.List.ButtonLabel": "{name}\n<size=50%>Utworzono:{time}\nStatus:{state}",
         "Migration.Report.Title": "Raport z zadania migracji:",
         "Migration.Report.Description": "<color={hex}>Opis:</color> {value}",
@@ -2694,12 +2300,9 @@
         "Migration.Report.CreatedOn": "<color={hex}>Utworzono:</color> {value}",
         "Migration.Report.StartedOn": "<color={hex}>Rozpoczęto:</color> {value}",
         "Migration.Report.CompletedOn": "<color={hex}>Zakończono:</color> {value}",
-
         "Migration.Report.CurrentlyMigrating": "Obecnie trwa migracja danych <color={hex}>{value}</color>.",
         "Migration.Report.CurrentItem": "Bieżący element: <color={hex}>{value}</color>",
-
         "Migration.Report.CurrentRate": "<color={hex}>Bieżąca prędkość:</color> ≈{value} światów/przedmiotów na minutę",
-
         "Migration.Report.EstimatedQueuePosition": "<color={hex}>Pozostałe zadania w kolejce przed tym:</color> {value}",
         "Migration.Report.ContactStatus": "Zmigrowano <color={hex}>{current}</color> kontaktów z <color={hex}>{total}</color>",
         "Migration.Report.MessageStatus": "Zmigrowano <color={hex}>{value}</color> wiadomości",
@@ -2708,60 +2311,43 @@
         "Migration.Report.RecordStatus": "Zmigrowano <color={hex}>{current}</color> przedmiotów/światów z <color={hex}>{total}</color>. <color=red>{failed}</color> nieudanych.",
         "Migration.Report.GroupStatus": "Zmigrowano <color={hex}>{current}</color> grup z <color={hex}>{total}</color>",
         "Migration.Report.GroupMemberStatus": "Zmigrowano <color={hex}>{value}</color> członków grupy",
-
         "Migration.Error": "<color=red>Błąd:</color> {error}",
         "Migration.NothingSelected": "Nic nie wybrano, nie można rozpocząć.",
-
         "Migration.ColorManagement": "Ten świat został stworzony w przestrzeni gamma i został automatycznie przekonwertowany na linearny.<br><br>Może wyglądać inaczej niż oryginał, ale powinien być ogólnie używalny.<br><br>Jeśli to twój świat, i napotkasz jakiekolwiek problemy z konwersją <color=red>NIE ZAPISUJ</color>. Zapisz tylko kopie.<br><br>Dopóki istnieje oryginał, możemy dostosować proces konwersji. W przeciwnym razie będzie potrzeba naprawić to samodzielnie.",
-
         "Temporary.MMC.Voting UI": "Interfejs głosowania MMC",
         "Temporary.MMC.Vote": "Głosuj",
-
         "Temporary.MMC.Categories.Name": "Kategorie",
-
         "Temporary.MMC.Categories.Worlds": "Światy",
         "Temporary.MMC.Categories.Worlds.Social": "Socjalne",
         "Temporary.MMC.Categories.Worlds.Game": "Gry",
-
         "Temporary.MMC.Categories.Other": "Inne",
         "Temporary.MMC.Categories.Misc": "Różne",
         "Temporary.MMC.Categories.Meme": "Meme",
-
         "Temporary.MMC.Categories.Avatars": "Awatary",
         "Temporary.MMC.Categories.Avatars.Accessories": "Akcesoria",
-
         "Temporary.MMC.VoteSuccess": "Oddano głos w kategorii {category} na {voteTarget}.",
         "Temporary.MMC.VoteFailure": "Głosowanie nie powiodło się, Twój głos nie został zarejestrowany, spróbuj ponownie.",
         "Temporary.MMC.VotedAlready": "Już oddano głos na {voteTarget}.",
         "Temporary.MMC.VoteInvalid": "Głos jest nieprawidłowy, spróbuj ponownie.",
-
         "CloudHome.WelcomeHome": "Witaj w domu!",
         "CloudHome.TargetRangeOptions": "Opcje tarcz",
-
         "Tutorial.Saving.Title": "Witaj w domu!",
         "Tutorial.Saving.Content": "Witamy w <b><i><color=hero.yellow>domu</b></i></color>! Jest to miejsce, do którego trafisz za każdym razem, gdy się zalogujesz.<br><br>Jest to twój własny świat, więc wszelkie wprowadzone zmiany można zapisać.<br><br>Jeśli zapiszesz, po powrocie wszystko będzie tak, jak zostawiono!",
-
         "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Sesja bez nazwy</closeall>",
         "Tutorial.Teleporter.SessionList.UnnamedHost": "Hosted by: <i><alpha=#77>Host bez nazwy</closeall>",
         "Tutorial.Teleporter.SessionList.HostName": "Hosted by: <b>{hostName}</b>",
         "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} Użytkowników w sesji",
         "Tutorial.Teleporter.SessionList.PublicSessions": "Sesje publiczne",
         "Tutorial.Teleporter.SessionList.NoPublicSessions": "Nie ma dostępnych sesji publicznych! :(<br><size=66%>Nadal masz jednak kilka opcji:</size>",
-
         "Tutorial.Teleporter.ChooseDestination": "Wybierz gdzie chcesz się udać",
-
         "Tutorial.Teleporter.Destinations.CloudHome": "Przejdź do domu w chmurze",
         "Tutorial.Teleporter.Destinations.AvatarWorld": "Przejdź do altanki awatarów",
         "Tutorial.Teleporter.Destinations.PickAnotherSession": "Wybierz inną sesję",
         "Tutorial.Teleporter.Destinations.PickPublicSession": "Dołącz do sesji publicznej",
-
         "Tutorial.Teleporter.WorldsTabHint": "Możesz również znaleźć światy, do których możesz dołączyć, korzystając z przeglądarki światów na swojej tablicy!",
-
         "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>Nie udało się dołączyć do sesji! :(</color><br><size=66%>Nadal masz jednak kilka opcji:</size>",
-
         "Tutorial.Teleporter.Transporting": "Transportowanie...",
-
-        "CloudHome.Info.OnlineUsers": "{online_users} {online_users,plural, one {Użytkownik} other {Użytkowników}} online <br>{joinable_users} {joinable_users,plural, one {Dołączalny} other {Dołączalnych}} {joinable_users,plural, one {Użytkownik} other {Użytkowników}} ",
+        "CloudHome.Info.OnlineUsers": "{online_users} {online_users,plural, one {Użytkownik} other {Użytkowników}} online <br>{joinable_users} {joinable_users,plural, one {Dołączalny} other {Dołączalnych}} {joinable_users,plural, one {Użytkownik} other {Użytkowników}}",
         "CloudHome.Info.Moderation": "Moderacja",
         "CloudHome.Info.Inventory": "Ekwipunek",
         "CloudHome.Info.Tools": "Narzędzia",
@@ -2769,51 +2355,37 @@
         "CloudHome.Info.SessionUptime": "Czas działania sesji:",
         "CloudHome.Info.AccessLevel": "Poziom dostępu:",
         "CloudHome.Info.StorageUsed": "Użyta pamięć:",
-
         "CloudHome.Info.DashInfoTab.Title": "Witaj!",
         "CloudHome.Info.DashInfoDesktop": "Aby być na bieżąco, warto wiedzieć kilka rzeczy. Masz <i><color=hero.purple>Tablicę</color></i>, którą możesz otworzyć, naciskając Escape. Potraktuj to jako pulpit lub panel sterowania.<br><br>Jeśli masz wątpliwości, ten ekran zawiera dodatkowe informacje, które mogą Ci pomóc. Kliknij poniższy przycisk, aby zamknąć tę wiadomość.",
         "CloudHome.Info.DashInfoVR": "Aby być na bieżąco, warto wiedzieć kilka rzeczy. Masz <i><color=hero.purple>Tablicę</color></i>, którą możesz otworzyć, naciskając B lub Y. Potraktuj to jako pulpit lub panel sterowania.<br><br>Jeśli masz wątpliwości, ten ekran zawiera dodatkowe informacje, które mogą Ci pomóc. Kliknij poniższy przycisk, aby zamknąć tę wiadomość.",
         "CloudHome.Info.DashInfoVRNoButtons": "Aby być na bieżąco, warto wiedzieć kilka rzeczy. Masz <i><color=hero.purple>Tablicę</color></i>, którą możesz otworzyć, naciskając i przytrzymując przycisk Menu, aż okrąg się zamknie. Potraktuj to jako pulpit lub panel sterowania.<br><br>Jeśli masz wątpliwości, ten ekran zawiera dodatkowe informacje, które mogą Ci pomóc. Kliknij poniższy przycisk, aby zamknąć tę wiadomość.",
-
         "CloudHome.Info.GoToWiki": "Przejdź do Wiki!",
         "CloudHome.Info.GoToDiscord": "Przejdź do Discorda!",
-
         "CloudHome.Info.ModerationTab.Title": "Moderacja!",
         "CloudHome.Info.ModerationTab.Content": "Bezpieczeństwo jest dla nas ważne. Jeśli potrzebujesz pomocy lub chcesz zgłosić użytkownika, otwórz zgłoszenie w naszym <u><color=hero.cyan>Portalu moderacji.</color></u><sprite name=hyperlink><br><br>Mamy silny zespół wolontariuszy-moderatorów <sprite name=modbadge> którzy dbają o bezpieczeństwo społeczności! Prześlij zgłoszenie, jeśli masz pytania lub widzisz zachowanie łamiące regulamin.",
-
         "CloudHome.Info.InventoryTab.Title": "Zachowaj swoje przedmioty!",
         "CloudHome.Info.InventoryTab.Content": "<i><color=hero.purple>Ekfipunek</color></i> na <i><color=hero.purple>Tablocy</color></i> zawiera zapisane awatary i przedmioty.<br><br>Folder <i><color=hero.purple>Niezbędne</color></i> ma parę fajnych rzeczy do zabawy; kliknij dwukrotnie przedmiot, aby go spawnować!",
-
         "CloudHome.Info.ToolsTab.Title": "Edytowanie w świecie!",
         "CloudHome.Info.ToolsTab.Content": "Cechą charakterystyczną {appName} jest możliwość łatwego tworzenia lub modyfikowania rzeczy bezpośrednio w świecie.<br><br>Tak, to znaczy właśnie tutaj! Lub gdziekolwiek indziej - narzędzia dostępne za pośrednictwem <i><color=hero.purple>Niezbędne -> Narzędzia</color></i> w ekwipunku pozwalają łatwo edytować otaczający świat według własnych upodobań.",
-
         "CloudHome.Info.HelpTab.Title": "Pomoc",
         "CloudHome.Info.HelpTab.InfoLineOne": "Potrzebujesz pomocy? Zapoznaj się z naszą <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, lub uzyskać odpowiedzi na Twoje",
-        "CloudHome.Info.HelpTab.InfoLineTwo": "pytania w naszym <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> Z łatwością możesz wyświetlać linki na pulpicie za pośrednictwem tablicy w zakładce  <i><color=hero.purple>Pulpit</color></i>.",
-
+        "CloudHome.Info.HelpTab.InfoLineTwo": "pytania w naszym <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> Z łatwością możesz wyświetlać linki na pulpicie za pośrednictwem tablicy w zakładce <i><color=hero.purple>Pulpit</color></i>.",
         "CloudHome.Info.UsersTab.Title": "Znajdowanie użytkowników",
         "CloudHome.Info.UsersTab.Content": "Sesje publiczne to świetny sposób na poznanie społeczności!<br><br>Publiczne sesje, do których można dołączyć już teraz, można znaleźć w zakładce <i><color=hero.purple>Światy</color></i> na tablicy. Spróbuj!",
-
         "Mirror.Header.RenderingOptions": "Opcje renderowania",
         "Mirror.Header.Type": "Typ lustra",
         "Mirror.Header.Resolution": "Rozdzielczość lustra",
         "Mirror.Header.AspectRatio": "Proporcje",
-
         "Mirror.EnableLights": "Włącz oświetlenie",
         "Mirror.DisableLights": "Wyłącz oświetlenie",
-
         "Mirror.EnableShadows": "Włącz cienie",
         "Mirror.DisableShadows": "Wyłącz cienie",
-
         "Mirror.Camera": "Kamera",
-
         "Mirror.AspectRatio.Tall": "Wysokie",
         "Mirror.AspectRatio.Square": "Kwadratowe",
         "Mirror.AspectRatio.Wide": "Szerokie",
-
         "Mirror.Menu": "Menu",
         "Mirror.CloseMenu": "Zamknij menu",
-
         "StickyNote.SpinMe": "Obróć mnie!",
         "StickyNote.FruitPlate": "Darmowy, samoodnawiający się talerz owoców",
         "StickyNote.EmptyForYou": "Pozostawione puste specjalnie dla Ciebie! :)",
@@ -2824,24 +2396,18 @@
         "StickyNote.Shade": "Regulowane zadaszenie",
         "StickyNote.TheaterTablet": "Użyj tego tabletu, aby sterować wentylatorem i przyciemnieniem okien w tym pomieszczeniu!",
         "StickyNote.ControlTablet": "Użyj tego tabletu do sterowania częściami domu!",
-
         "StickyNote.RotateMeDesktop": "Obróć mnie trzymając E!",
         "StickyNote.RotateMeVR": "Obróć mnie!",
-
         "StickyNote.EquipMeDesktop": "Podnieś i naciśnij lewy przycisk myszy!",
         "StickyNote.EquipMeVR": "Podnieś i pociągnij za sznurek!",
-
         "StickyNote.DipBrushes": "Zanurz pędzle w kulach, aby użyć materiałów",
         "StickyNote.BrushColor": "Zmień kolor i rozmiar pędzla w Menu Kontekstowym",
         "StickyNote.Drawing": "Możesz rysować na tablicy, w powietrzu lub w dowolnym miejscu!",
         "StickyNote.WorldCanvas": "Świat to Twoje płótno!",
-
         "CloudHome.Panel.HomeControl": "Zarządzanie domem",
-
         "CloudHome.Panel.General": "Ogólne",
         "CloudHome.Panel.Lighting": "Oświetlenie",
         "CloudHome.Panel.Furniture": "Meble",
-
         "CloudHome.Panel.Quality": "Jakość",
         "CloudHome.Panel.Doors": "Drzwi",
         "CloudHome.Panel.Audio": "Dźwięk",
@@ -2851,7 +2417,6 @@
         "CloudHome.Panel.SpotLights": "Światła punktowe",
         "CloudHome.Panel.TableLights": "Lampy stołowe",
         "CloudHome.Panel.FurnitureVisibility": "Widoczność mebli",
-
         "CloudHome.Panel.LowQualityMode": "Tryb niskiej jakości",
         "CloudHome.Panel.DoorSounds": "Dźwięki Drzwi",
         "CloudHome.Panel.DoorsAlwaysOpen": "Drzwi zawsze otwarte",
@@ -2861,7 +2426,6 @@
         "CloudHome.Panel.LightIntensity": "Intensywność światła",
         "CloudHome.Panel.LightColor": "Kolor światła",
         "CloudHome.Panel.LightColorTemperature": "Temperatura Barwy Światła",
-
         "CloudHome.Panel.Spawn": "Spawn",
         "CloudHome.Panel.Foyer": "Foyer",
         "CloudHome.Panel.Workspace": "Warsztat",
@@ -2870,102 +2434,73 @@
         "CloudHome.Panel.Center": "Środek",
         "CloudHome.Panel.Balcony": "Balkon",
         "CloudHome.Panel.Theater": "Teatr",
-
         "CloudHome.Panel.TheaterControl": "Sterowanie teatrem",
         "CloudHome.Panel.FanControl": "Sterowanie wentylatorem",
         "CloudHome.Panel.WindowControl": "Sterowanie oknem",
         "CloudHome.Panel.FanSpeed": "Prędkość wiatraka",
         "CloudHome.Panel.WindowTint": "Przyciemnianie okien",
-
         "CloudHome.FeaturedPanel.OpenWorld": "Otwórz świat",
         "CloudHome.FeaturedPanel.LinkText": "Otwórz dla siebie <br>ten świat klikając tutaj!",
         "CloudHome.FeaturedPanel.Featured": "Wyróżnione",
-
         "CloudHome.AvatarPanel.Title": "Wyróżnione światy awatarów",
-
         "CloudHome.SupporterPanel.Title": "<b>Nasi wspierający</b>",
-
         "Tutorial.InfoPanel.Title": "Hej! Zanim pójdziesz...",
-        "Tutorial.InfoPanel.Content": "Czeka na Ciebie świat możliwości, a to, co jest możliwe, ogranicza tylko Twoja wyobraźnia.<br><br>Prawie wszystkie rzeczy w tym świecie zostały stworzone bezpośrednio w grze! Przy ich budowie współpracowali użytkownicy z całego świata, w czasie rzeczywistym.<br><br>{appName} jest wciąż na wczesnym etapie rozwoju i stale ją aktualizujemy i ulepszamy. Ale ty też jesteś częścią tej podróży, a możliwości są nieograniczone!<br><br><align=center>Dziękujemy, że wypróbowaliście {appName}.</align>",
-
+        "Tutorial.InfoPanel.Content": "     Czeka na Ciebie świat możliwości, a to, co jest możliwe, ogranicza tylko Twoja wyobraźnia.<br><br>     Prawie wszystkie rzeczy w tym świecie zostały stworzone bezpośrednio w grze! Przy ich budowie współpracowali użytkownicy z całego świata, w czasie rzeczywistym.<br><br>     {appName} jest wciąż na wczesnym etapie rozwoju i stale ją aktualizujemy i ulepszamy. Ale ty też jesteś częścią tej podróży, a możliwości są nieograniczone!<br><br><align=center>Dziękujemy, że wypróbowaliście {appName}.</align>",
         "Tutorial.GrabItems.Grab": "Złap",
         "Tutorial.GrabItems.Snap": "Snap",
         "Tutorial.GrabItems.Slide": "Slide",
-
         "Tutorial.Panel.Jumping.Title": "Skakanie",
         "Tutorial.Panel.Jumping.ContentDesktop": "Będąc w lokomocji pieszej, naciśnij spację, aby skoczyć!",
         "Tutorial.Panel.Jumping.ContentVR": "Będąc w trybie chodzenia, naciśnij joystick, aby skoczyć!",
         "Tutorial.Panel.Jumping.ContentVRNoButtons": "Będąc w trybie chodzenia, naciśnij środek gładzika, aby skoczyć!",
-
         "Tutorial.Panel.WalkLocomotion.Title": "Lokomocja spaceru",
         "Tutorial.Panel.WalkLocomotion.Content": "Poruszaj się i skacz po podłodze.",
-
         "Tutorial.Panel.TeleportLocomotion.Title": "Lokomocja teleport",
         "Tutorial.Panel.TeleportLocomotion.Content": "Teleport natychmiast przeniesie Cię do wskaźnika teleportacji.",
-
         "Tutorial.DashboardInfo.Header": "Twoja tablica",
         "Tutorial.DashboardInfo.Content": "<b><color=hero.cyan>Tablica</closeall> jest Twoim głównym menu – dzięki niej możesz rozmawiać z innymi, odkrywać nowe światy i nie tylko!<br><br>Jeśli potrzebujesz dodatkowej pomocy, zajrzyj do <b><color=hero.purple>zakładki pomocy</closeall>.",
         "Tutorial.DashboardInfo.GotIt": "OK!",
-
         "Tutorial.MentorPanel.Title": "Potrzebujesz pomocy?",
         "Tutorial.MentorPanel.Content": "Poszukaj użytkowników, którzy mają tę plakietkę nad głową – poproś ich o pomoc, są tu dla <i>Ciebie</i>!",
-
         "Hints.Spawn.InitialMovementDesktop": "Użyj klawiszy ruchu, aby chodzić!",
         "Hints.Spawn.InitialMovementVR": "Użyj joysticków, aby chodzić!",
         "Hints.Spawn.InitialMovementVRNoButtons": "Korzystaj z trackpadów, żeby chodzić!",
-
         "Hints.Spawn.ContextMenuDesktop": "Otwórz menu kontekstowe, naciskając T, aby wyświetlić opcje!",
         "Hints.Spawn.ContextMenuVR": "Źle się czuć? Otwórz menu kontekstowe, naciskając B lub Y, aby wyświetlić opcje!",
         "Hints.Spawn.ContextMenuVRNoButtons": "Źle się czuć? Otwórz menu kontekstowe, naciskając przycisk Menu, aby wyświetlić opcje!",
-
         "Hints.Spawn.TeleportLocomotionDesktop": "Inne opcje lokomocji, takie jak latanie, można wypróbować w menu Lokomocja.",
         "Hints.Spawn.TeleportLocomotionVR": "Inne opcje lokomocji, takie jak teleportacja czy latanie, można wypróbować w menu Lokomocja.",
-
         "Hints.Bridge.RaiseTheWorld": "Naciśnij ten przycisk, aby przenieść platformę do siebie!",
-
         "Hints.Grabbing.GrabbingDesktop": "Fizycznie chwytaj rzeczy, przytrzymując prawy przycisk myszy!",
         "Hints.Grabbing.GrabbingVR": "Fizycznie chwytaj rzeczy, trzymając Grip!",
-
         "Hints.Grabbing.Rotating": "Obracaj trzymane przedmioty, przytrzymując E i poruszając myszką!",
         "Hints.Grabbing.RotatingExtra": "Przytrzymaj Shift i E razem, aby obrócić obiekt wokół jego osi poziomej!",
-
         "Hints.Grabbing.ScalingDesktop": "Chwyć przedmiot, przytrzymaj klawisz Shift i użyj kółka myszy, aby go skalować!",
         "Hints.Grabbing.ScalingVR": "Fizycznie chwytaj rzeczy obiema rękami, aby je skalować!",
-
         "Hints.Grabbing.OtherGrabbables": "Istnieje wiele elementów interaktywnych. Pobaw się tymi trzema obiektami, aby zobaczyć, jak działają!",
         "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Możesz także skalować siebie, włączając skalowanie w menu kontekstowym, a następnie przytrzymując klawisz Ctrl i używając kółka myszki!",
         "Hints.Grabbing.OtherGrabbablesExtraVR": "Możesz także skalować siebie, włączając skalowanie w menu kontekstowym, chwytając przed sobą obiema rękami i przesuwając je bliżej lub dalej!",
-
         "Hints.Telescope.Alignment": "Chwyć teleskop i wyceluj w Księżyc!",
-
         "Hints.Telescope.TheMoonDesktop": "Podczas celowania w księżyc laserem, przytrzymaj prawy przycisk myszy i rozejrzyj się, aby przesunąć księżyc!",
         "Hints.Telescope.TheMoonVR": "Użyj swojego lasera za pomocą przycisku spustu i złap księżyc!",
-
         "Hints.Sundial.SoftEquip": "Chwyć to narzędzie, aby z niego skorzystać!",
         "Hints.Sundial.SoftEquipExtra": "Narzędzia pozwalają zmieniać otaczający Cię świat na wiele sposobów!",
-
         "Hints.Sundial.HardEquip": "Kliknij to narzędzie, aby je wyposażyć!",
         "Hints.Sundial.HardEquipExtra": "Nie widzisz swojego lasera? Lekko przytrzymaj spust, aby go zobaczyć!",
-
         "Hints.Sundial.TheSun": "Celuj w niebo i kliknij, aby przenieść tam słońce!",
         "Hints.Sundial.TheSunExtra": "Spróbuj wycelować poniżej horyzontu, aby zapadła noc!",
-
         "Hints.Sundial.Dequip": "Upuść wyposażone narzędzie, wybierając opcję Odekwipuj w menu kontekstowym.",
         "Hints.Sundial.DequipExtra": "Zauważ, ponieważ trzymasz to narzędzie, opcje w menu zmieniły się.",
-
         "Hints.Sundial.Doorway": "Wejdź aby kontynuować!",
-        
         "Hints.DashboardDesktop": "Otwórz lub zamknij tablicę, naciskając klawisz Escape!",
         "Hints.DashboardVR": "Otwórz lub zamknij tablicę, naciskając przycisk Menu!",
         "Hints.DashboardExtra": "Poniżej znajdziesz dodatkowe informacje o tablicy.",
-
         "Hints.Teleporter": "Wejdź do teleportu i wybierz miejsce, do którego chcesz się udać!",
         "Hints.TeleporterExtra": "Gdziekolwiek się wybierasz, życzymy udanego pobytu w {appName}!",
         "UI.TextDisplay.Landscape": "Poziomy",
         "UI.TextDisplay.Portrait": "Pionowo",
         "UI.TextDisplay.NormalText": "Normalny",
         "UI.TextDisplay.MonospaceText": "Monospace",
-
         "UI.DocumentDisplay.PageNumber": "Strona {page_number}",
         "UI.DocumentDisplay.DocumentQuality": "Jakość",
         "UI.DocumentDisplay.QualityLow": "Niska",
@@ -2973,7 +2508,6 @@
         "UI.DocumentDisplay.QualityHigh": "Wysoka",
         "UI.DocumentDisplay.Pages": "Strony",
         "UI.DocumentDisplay.ResetZoom": "Resetuj zoom",
-
         "UI.VideoPlayer.GlobalSettings": "Globale<br>Ustawienia",
         "UI.VideoPlayer.LocalSettings": "Ustawienia<br>Lokalne",
         "UI.VideoPlayer.SpatialAudio": "Przestrzenny<br>Dźwięk",
@@ -2984,43 +2518,31 @@
         "UI.VideoPlayer.AudioZoneGlobal": "Słyszalne<br>dla świata",
         "UI.VideoPlayer.UsersLoaded": "Załadowane dla {users_loaded} {users_loaded,plural, one {użytkownika} other {użytkowników}} z {users_present}",
         "UI.VideoPlayer.AllUsersLoaded": "Załadowane dla wszystkich<br>użytkowników",
-
         "UI.ColorPicker.ColorPicker": "Selektor kolorów",
-
         "UI.ColorPicker.Linear": "Linearny",
-
         "UI.ColorPicker.Hexadecimal": "Hex",
         "UI.ColorPicker.Blackbody": "Blackbody",
         "UI.ColorPicker.ColorSwatches": "Swatch",
-
         "UI.ColorPicker.Red": "Czerwień",
         "UI.ColorPicker.Green": "Zieleń",
         "UI.ColorPicker.Blue": "Niebieski",
-
         "UI.ColorPicker.Hue": "Hue",
         "UI.ColorPicker.Saturation": "Nasycenie",
         "UI.ColorPicker.Value": "Wartość",
-
         "UI.ColorPicker.Alpha": "Alfa",
         "UI.ColorPicker.Gain": "Wzmocnienie",
-
         "UI.ProgressBar.ImportingItem": "Importowanie Przedmiotu",
-
         "UI.Camera.Automatic": "Automatyczna",
         "UI.Camera.Manual": "Manualna",
-
         "Tools.Names.MultiTool": "Narzędzie Wielofunkcyjne",
-
         "Tools.Names.CommonTools": "Ogólne narzędzia",
         "Tools.Names.ManipulationTools": "Narzędzia manipulacji",
         "Tools.Names.InformationTools": "Narzędzia informacyjne",
-
         "Discord.RichPresence.InPrivateWorld": "W Prywatnym Świecie",
         "Discord.RichPresence.InPrivateLargeText": "W Prywatnym ({version})",
         "Discord.RichPresence.InPublicWorld": "W Publicznym Świecie",
         "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} światy)",
         "Discord.RichPresence.InPublicLargeText": "W Publicznym ({version})",
-
         "Universe.UI.Narrative": "Narracja",
         "Universe.UI.Freeform": "Freeform",
         "Universe.Stars.Sun": "Słońce",
@@ -3125,11 +2647,11 @@
         "Universe.Common.Human": "Człowiek",
         "Universe.Wavelength.BlackLight": "Promieniowanie UV",
         "Universe.Wavelength.FarUV": "Ultrafiolet daleki (UV-C)",
-        "Universe.Wavelength.MiddleUV": "Ultrafiolet średni (UV-B) ",
+        "Universe.Wavelength.MiddleUV": "Ultrafiolet średni (UV-B)",
         "Universe.Wavelength.Gamma": "Gamma",
         "Universe.Wavelength.XRayHard": "Promieniowanie rentgenowskie (twarde)",
         "Universe.Wavelength.XRaySoft": "Promieniowanie rentgenowskie (miękkie)",
-        "Universe.Wavelength.ExtremeUV": "Ekstremalny ultrafiolet ",
+        "Universe.Wavelength.ExtremeUV": "Ekstremalny ultrafiolet",
         "Universe.Wavelength.NearUV": "Bliski ultrafiolet",
         "Universe.Wavelength.Microwave": "Mikrofala",
         "Universe.Wavelength.Purple": "Światło fioletowe",
@@ -3152,7 +2674,7 @@
         "Universe.Nebulae.Butterfly": "NGC 6302 (Butterfly Nebula)",
         "Universe.Nebulae.NGC604": "NGC 604 (Gwiezdna Szkółka Olbrzymów)",
         "Universe.Nebulae.Orion": "Wielka Mgławica w Orionie",
-        "Universe.Nebulae.Tarantula": "Mgławica Tarantula (Tarantula Nebula)",
+        "Universe.Nebulae.Tarantula": "Mgławica Tarantula",
         "Universe.Nebulae.Ring": "Mgławica Pierścień (Ring Nebula)",
         "Universe.Nebulae.Eagle": "Mgławica Orzeł (Eagle Nebula)",
         "Universe.Technology.ISS": "Międzynarodowa Stacja Kosmiczna",
@@ -3209,13 +2731,52 @@
         "Universe.Units.HubbleLength": "Odległość Hubble'a",
         "Universe.Units.EarthRadius": "Promień Ziemi",
         "Universe.Units.LunarDistance": "Odległość księżycowa",
-
         "CloudHome.UpdateNotice.Header": "Aktualizacja",
         "CloudHome.UpdateNotice.Content": "<align=center>Nowa wersja domu w chmurze jest dostępna!<br><br>Twoja wersja jest starsza o <closeallblock><b><color=hero.cyan>{version_mismatch_days,plural, one {# dzień} other {# dni}}</color></b>.</align><br><br>Kliknij poniżej, aby zobaczyć nową wersje. Będąc tam, możesz zapisać świat, jeśli chcesz z niego skorzystać.<br><br>Jeśli chcesz dowiedzieć się, co nowego, zajrzyj na kanał <b><color=hero.purple>#devlog</color></b> w naszym Discord!",
         "CloudHome.UpdateNotice.WikiLinkName": "{appName} Wiki: Aktualizowanie domu",
         "CloudHome.UpdateNotice.DiscordLinkName": "{appName} Discord",
         "CloudHome.UpdateNotice.CloudHomeLinkName": "Odwiedź nowy dom w chmurze",
-
-        "Dummy": "Dummy"
+        "Dummy": "Dummy",
+        "World.Config.ResoniteLinkOff": "ResoniteLink wyłączony",
+        "World.Config.ResoniteLinkPort": "ResoniteLink uruchomiony na porcie {port}",
+        "World.Connection.NoProtocolsAvailable": "Brak dostępnych metod połączenia",
+        "World.Connection.AllProtocolsFailed": "Wszystkie metody połączenia zawiodły",
+        "World.Config.ResoniteLinkHeader": "",
+        "World.Actions.EnableResoniteLink": "Uruchom ResoniteLink",
+        "Register.InvalidPromoCode": "Niewłaściwy Kod Promocyjny",
+        "Register.InvalidPromoCode.Description": "Wpisany kod promocyjny jest niewłaściwy. Zweryfikuj pisownie i spróbuj ponownie. Wielkość liter nie ma znaczenia.",
+        "Register.ExpiredPromoCode": "Wygasły Kod Promocyjny",
+        "Register.ExpiredPromoCode.Description": "Kod promocyjny wgasł. Spróbuj użyć innego kodu, lub usuń go.",
+        "Register.TooManyRegistrations": "Zbyt wiele rejestracji",
+        "Settings.DashSettings.ScreenSwitchSpeed": "Prędkość zmiany ekranów",
+        "Settings.DashSettings.ScreenSwitchSpeed.Description": "Zmienia jak długo będzie trwać animacja zmiany ekranu w tablicy (n.p. Dom, Kontakty, Sesja). Ustawienie tego na 0 kompletnie usunie animację, co pozwala na natychmiastową zmiane ekranu.",
+        "Tools.MeshPlaneBrush.AddHole": "Dodanie dziury",
+        "Undo.AddListElement": "Dodanie elementu do listy",
+        "Undo.RemoveListElement": "Usunięcie elementu z listy",
+        "Permissions.NotAllowedToOpen": "Nie masz uprawnień aby to otworzyć.",
+        "Account.Type.Promo": "Konto Promocyjne",
+        "Account.PromoCode": "Kod Promocyjny:",
+        "Register.ManualLoginRequired.Description": "Twoje konto zostało zarejestrowane, ale pojawił się problem z pobieraniem danych sesji. Spróbuj zalogować się za chwilę.",
+        "Register.ManualLoginRequired": "Manualne logowanie wymagane",
+        "Register.StatusCheckError": "Nieznany status rejestracji",
+        "Register.StatusCheckError.Description": "Twoja rejestracja została wysłana, ale pojawił się problem sprawdzania jej powodzenia. Spróbuj zalogować się za chwilę.",
+        "Register.TooManyRegistrations.Description": "Zarejestrowano zbyt wiele kont w ostatnim czasie. Spróbuj ponownie później lub skontaktuj się z pomocą techniczną pod adresem {supportUrl}, jeśli uważasz, że to błąd.",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace": "Priorytyzuj Prywatny Interfejs",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace.Description": "Kiedy włączona, ta opcja spowoduje że interakcje z prywatnymi elementami interfejsu, takimi jak tablica, kotwy faset lub klawiatura, będą brały priorytet nawet jeśli są przykryte elementami w świecie.<br><br>To może być pomocne jeśli często objekty w świecie blokują twój prywatny interfejs.<br><br>Pamiętaj że możesz musieć zamknąć tablicę zanim będziesz interagować z przedmiotami w świecie przed tobą.",
+        "Inspector.Member.SplitBlendshapeToStaticMesh": "Wyodrębnij Blendshape jako statyczny mesh",
+        "Inspector.AI_GeneratedContent.Info": "Ten komponent jest przeznaczony do flagowania materiału wygenerowanego przez generatywną SI. Zalecane jest umieszenie go na najwyższym elemencie objektu który został wygenerowany przez te metody. To spowoduje automatyczne dodanie tagów kiedy przedmiot jest zapisany oraz kiedy świat jest zapisany z tymi komponentami, co pozwala na filtrowanie tego materiału.",
+        "Tutorial.HelpTabPanel.Title": "Potrzebujesz Pomocy?",
+        "Tutorial.HelpTabPanel.Content": "W twojej tablicy, jest dostępna zakładka pomoc, pozwalająca na przeglądanie informacji na temat {appName}!",
+        "Help.Help": "Pomoc",
+        "Help.ComingSoon": "Już Wkrótce!",
+        "Help.ExampleText": "Przykładowy Tekst!",
+        "Help.VROnlyNote": "<b><color=hero.Orange>Uwaga</closeall>: Ta opcja jest dostępna tylko w VR.",
+        "Help.Modal.Header": "Z czym potrzebujesz pomocy?",
+        "Help.Modal.Avatar": "Chcę skonfigurować mój awatar...",
+        "Help.Modal.Explore": "Chcę eksplorować...",
+        "Help.Modal.Graphics": "Jak zmienić ustawienia graficzne?",
+        "Help.Modal.Socialize": "Chcę porozmawiać z ludźmi...",
+        "Help.Modal.Building": "Chcę tworzyć...",
+        "Help.Modal.BrowseTopics": "Chcę przeglądać dokumentację samemu"
     }
 }
