@@ -509,6 +509,12 @@
         "Register.InvalidPassword": "無效密碼",
         "Register.InvalidPassword.Description": "您的密碼無效。密碼必須包含至少 8 個字元，包括 1 個數字、1 個大寫字母和 1 個小寫字母。",
 
+        "Register.InvalidPromoCode": "促銷代碼無效",
+        "Register.InvalidPromoCode.Description": "您輸入的促銷代碼無效，請確認拼寫後再試一次，代碼不區分大小寫。",
+
+        "Register.ExpiredPromoCode": "促銷代碼已過期",
+        "Register.ExpiredPromoCode.Description": "您輸入的促銷代碼已過期，請嘗試其他代碼或將其移除。",
+
         "Register.EmailAlreadyRegistered": "此電子郵件地址已註冊",
         "Register.EmailAlreadyRegistered.Description": "使用此電子郵件的帳號已存在。如果您忘記了密碼，可以點擊「忘記密碼」。或者，您可以聯繫支援：{supportUrl}。",
 
@@ -576,6 +582,7 @@
         "Account.BirthYear": "出生年份：",
         "Account.PoliciesAgreement": "我同意 <color=#22B2FF>服務條款</color> 與 <color=#22B2FF>隱私政策</color>",
         "Account.AlternateMethods": "使用第三方服務登入：",
+        "Account.PromoCode": "促銷代碼：",
 
         "Account.Saml2.Title": "SAML 2.0",
         "Account.Saml2.Select": "請選擇您想使用的 SAML 2.0 服務提供者：",
@@ -607,6 +614,7 @@
         "Account.TOTP.Message.DeactivationComplete": "您帳號的雙重認證已被成功取消。<br><br>您的帳號正因此面臨更大的風險！<br><br>我們強烈建議您馬上重新設定啟用雙重認證，特別是當您因遺失手機而使用了備用碼後。",
 
         "Account.Type.Standard": "標準帳號",
+        "Account.Type.Promo": "促銷帳號",
         "Account.Type.Business": "商用帳號",
         "Account.Type.Patreon": "Patreon 支持者",
         "Account.Type.Stripe": "Stripe 支持者",
@@ -1815,6 +1823,8 @@
         "Settings.DashSettings.DashCurvature.Description": "這個控制在VR模式下主面板的曲度，若設定為 0 則主面板將會完全平坦",
         "Settings.DashSettings.OpenCloseSpeed": "開啟/關閉速度",
         "Settings.DashSettings.OpenCloseSpeed.Description": "開啟和關閉主面板動畫的動畫時長，您若不喜歡該動畫可以將數值調到很高，使其能夠近乎立即開啟或關閉。",
+        "Settings.DashSettings.ScreenSwitchSpeed": "標籤頁切換速度",
+        "Settings.DashSettings.ScreenSwitchSpeed.Description": "調整主面板在標籤頁（例如首頁、聯絡、活動）之間切換的速度，設定為 0 將完全移除動畫，標籤頁會瞬間切換。",
         "Settings.DashSettings.AllowReplacingSettings": "允許替換設定面板",
         "Settings.DashSettings.AllowReplacingSettings.Description": "開啟即可在 UI 編輯模式下自由編輯、替換主面板上的配置，\n\n若您想選出單個面板圖標項目重新排版則需要關閉此配置",
 
@@ -1861,6 +1871,8 @@
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "顯示背景",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "介面元件放置處的背景顯示開關",
 
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace": "游標優先指向私人介面",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace.Description": "啟用後，您的私人介面（例如主面板、介面元件放置處或鍵盤）在互動時將始終擁有優先權，即使被世界內的碰撞體遮擋也是如此。<br><br>當世界內物件阻擋您與私人介面互動時，此設定將會有所幫助。<br><br>請注意，您可能需要先關閉主面板，才能與您面前的世界內物件互動。",
         "Settings.LaserSettings.SmoothSpeed": "雷射平滑速度",
         "Settings.LaserSettings.SmoothSpeed.Description": "控制雷射對您的移動時的反應速度，較低的數值雷射移動將更為遲緩，降低抖動，較高的數值雷射移動較為即時，但抖動將增強",
         "Settings.LaserSettings.ModulateStartAngle": "調整起始角速",
