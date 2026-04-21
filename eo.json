@@ -459,12 +459,12 @@
         "Register.MissingEmail.Description": "Ĉu vi donis vian retadreson?",
 
         "Register.UsernameTooLong": "Uzantnomo tro longa",
-        "Register.UsernameTooLong.Description": "Ni permesas uzantnomojn longajn ĝis 32 karaktrojn",
+        "Register.UsernameTooLong.Description": "Ni permesas uzantnomojn longajn ĝis 32 karaktrojn.",
 
         "Register.UsernameContainsAmpersand": "Uzantnomo ne povas enhavi @",
         "Register.UsernameContainsAmpersand.Description": "Via uzantnomo ne povas enhavi @.",
 
-        "Register.UsernameStartsWithU": "Uzantnomo ne povas komenci per U-.",
+        "Register.UsernameStartsWithU": "Uzantnomo ne povas komenci per U-",
         "Register.UsernameStartsWithU.Description": "Uzantnomoj ne povas komenci per U-.",
 
         "Register.InvalidUsername": "Nevalida uzantnomo",
@@ -515,7 +515,7 @@
         "Account.Anonymous": "Anonima",
         "Account.Username": "Uzantnomo:",
         "Account.Email": "Retadreso:",
-        "Account.RememberMe": "Memoru Min<br><size=50%>(elsalutas post 30 tagoj da senagado)</size>:",
+        "Account.RememberMe": "Memoru Min<br><size=50%>(elsalutas post 30 tagoj da senagado)</size>",
         "Account.RepeatEmail": "Ripeti Retadreson:",
         "Account.UsernameOrEmail": "Uzantnomo aŭ Retadreso:",
         "Account.Password": "Pasvorto:",
@@ -553,7 +553,7 @@
         "Account.TOTP.Code.Key": "Sekreta kodo:",
         "Account.TOTP.RecoveryCodes.Header": "Reakirkodoj",
         "Account.TOTP.RecoveryCodes.Description": "Konservu ĉi tiujn kodojn en sekura loko. Vi povas uzi ilin por reakiri la enireblon al via konto okaze de perdo aŭ difekto de via poŝtelefono. Ĉiu kodo uzeblas nur unufoje. <b>Neniam diskonigu ilin kun iu ajn.</b> Se vi perdas ilin, vi perdos <color=red>PORĈIAME</color> la enireblon al via konto.",
-        "Account.TOTP.RecoveryCodes.Codes": "Kodoj",
+        "Account.TOTP.RecoveryCodes.Codes": "Kodoj:",
         "Account.TOTP.Activate.Header": "Aktivigi 2FA",
         "Account.TOTP.Activate.Description": "Por aktivigi 2FA por via konto, uzu la 6-ciferan ĵetonon generitan de via aŭtentigilo por certigi ke ĉio funkcias ĝuste.<br><br>Kiam ĝí estos aktivigita, vi bezonos uzi la kodon por konfirmi kelkajn operaciojn.",
         "Account.TOTP.Activate.Token": "6-cifera ĵetono:",
@@ -563,7 +563,7 @@
         "Account.TOTP.Activate.InvalidToken": "Nevalida ĵetono!",
         "Account.TOTP.Message.AlreadySetup": "2FA estas jam agordita en via konto!",
         "Account.TOTP.Message.Error": "Neatendita eraro! Bonvolu reprovi poste.",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>Gratulojn!</size><br><br>Via konto estas nun agordita per 2FA por ekstra protekto!<br><br>Vi povas opcie aktivigi ĉi tion por via kontoensaluto per la komando /enableLogin2FA .",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Gratulojn!</size><br><br>Via konto estas nun agordita per 2FA por ekstra protekto!",
         "Account.TOTP.Deactivate.Header": "Malaktivigi 2FA",
         "Account.TOTP.Deactivate.Description": "2FA estas nuntempe <b><color=green>agordita kaj aktiva en via konto</color></b>. Se vi bezonas malaktivigi ĝin (ekz. kaŭze ke vi perdas vian poŝtelefonon, aŭ la kodoj ne plu haveblas), vi povas fari tion tie ĉi.<br><br>Post malaktivigo, vi povas agordi 2FA refoje, kio generos tute novan sekretan kodon kaj novan reakirkodaron.<br><br>Se vi perdas vian poŝtelefonon kaj bezonas agordi 2FA refoje, ni <b>TRE</b> konsilas ke vi faru tuj, ĉar ĉiu reakirkodo uzeblas nur unufoje kaj post kiam ili foruziĝos vi estos tute ŝlosita ekster via konto.",
         "Account.TOTP.Deactivate.Deactivate": "Malaktivigi",
@@ -1941,6 +1941,35 @@
         "Tools.Names.CommonTools": "Kutimaj Iloj",
         "Tools.Names.ManipulationTools": "Iloj por Manipulado",
         "Tools.Names.InformationTools": "Iloj por Informo",
+
+        "Universe.UI.Narrative": "Rakonta",
+        "Universe.UI.Freeform": "Libera",
+        "Universe.Stars.Sun": "Suno",
+        "Universe.SolarSystem.SolarSystem": "Sunsistemo",
+        "Universe.SolarSystem.Mercury": "Merkuro",
+        "Universe.SolarSystem.Venus": "Venuso",
+        "Universe.SolarSystem.Earth": "Tero",
+        "Universe.SolarSystem.Mars": "Marso",
+        "Universe.SolarSystem.Jupiter": "Jupitero",
+        "Universe.SolarSystem.Saturn": "Saturno",
+        "Universe.SolarSystem.Uranus": "Urano",
+        "Universe.SolarSystem.Neptune": "Neptuno",
+        "Universe.SolarSystem.Pluto": "Plutono",
+        "Universe.SolarSystem.Moon": "Luno",
+        "Universe.SolarSystem.Phobos": "Fobo",
+        "Universe.SolarSystem.Charon": "Karono",
+        "Universe.SolarSystem.Callisto": "Kalisto",
+        "Universe.SolarSystem.Ganymede": "Ganimedo",
+
+        "Help.General": "Ĝenerale",
+
+        "Help.General.Saving": "Konservanta",
+
+        "Help.Advanced": "Detala",
+
+        "Help.Advanced.HeadlessClient": "Senkapa kliento",
+        "Help.Advanced.Plugins": "Kromprogramoj",
+        "Help.Advanced.Debug": "Sencimigi",
 
         "Dummy": "Dummy"
     }
