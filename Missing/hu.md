@@ -66,6 +66,10 @@ Login.MalformedSecretMachineId
 Register.MissingUID  
 Register.MalformedUID  
 Login.DuplicateAccount  
+Register.InvalidPromoCode  
+Register.InvalidPromoCode.Description  
+Register.ExpiredPromoCode  
+Register.ExpiredPromoCode.Description  
 Recovery.NoPasswordSetup  
 Recovery.NoPasswordSetup.Description  
 Register.TooManyRegistrations  
@@ -79,7 +83,9 @@ Account.SendRecoveryCode
 Account.ResetPasswordInstructions  
 Account.RecoveryCode  
 Account.Requesting  
+Account.PromoCode  
 Account.Saml2.Select  
+Account.Type.Promo  
 Account.Type.Stripe  
 Profile.Status.Headless  
 Profile.Status.Bot  

@@ -1,8 +1,7 @@
 {
     "localeCode": "es",
-    "authors": ["Skywind Kitsune", "Ruz", "LuxKitty"],
+    "authors": ["Skywind Kitsune", "Ruz", "LuxKitty", "rad4ngel"],
     "messages": {
-
         "General.OK": "OK",
         "General.Start": "Iniciar",
         "General.Finish": "Finalizar",
@@ -38,6 +37,7 @@
         "General.UnderstandEnable": "Lo entiendo, Activar",
         "General.Dismiss": "Descartar",
         "General.Edit": "Editar",
+        "General.DontShowAgain": "No mostrar de nuevo",
 
         "General.UI.SearchPrompt": "Buscar...",
         "General.UI.SearchPromptLong": "Escriba para buscar...",
@@ -87,15 +87,18 @@
         "Interaction.Redo": "Rehacer",
         "Interaction.EquipTool": "Equipar",
         "Interaction.DequipTool": "Desequipar",
-        "Interaction.ScalingEnabled": "Redimensionarse: Si",
-        "Interaction.ScalingDisabled": "Redimensionarse: No",
-        "Interaction.ResetScale": "Tamaño Normal",
-        "Interaction.LaserEnabled": "Láser: Habilitado",
-        "Interaction.LaserDisabled": "Láser: Deshabilitado",
+        "Interaction.ScalingEnabled": "Redimensionarse Activado",
+        "Interaction.ScalingDisabled": "Redimensionarse Desactivado",
+        "Interaction.ResetScale": "Reestablecer Tamaño",
+        "Interaction.LaserEnabled": "Láser Activado",
+        "Interaction.LaserDisabled": "Láser Desactivado",
         "Interaction.Grab.Palm": "Agarre: Palma",
         "Interaction.Grab.Precision": "Agarre: Preciso",
         "Interaction.Grab.Auto": "Agarre: Automático",
         "Interaction.Grab.Off": "Agarre: Sólo Láser",
+        "Interaction.Grabbing": "Agarrando",
+        "Interaction.Grab.StickyGrab": "Agarre Pegajoso",
+        "Interaction.Grab.HoldToHold": "Manten para sostener",
         "Interaction.Locomotion": "Locomoción",
         "Interaction.Locomotion.None": "Ninguno",
 
@@ -147,6 +150,7 @@
         "Dash.Screens.Session": "Sesión",
         "Dash.Screens.FileBrowser": "Archivos",
         "Dash.Screens.Settings": "Ajustes",
+        "Dash.Screens.Help": "Ayuda",
         "Dash.Screens.Exit": "Salir",
 
         "Dash.Actions.PasteFromClipboard": "Pegar contenido del portapapeles",
@@ -189,6 +193,9 @@
         "World.Connection.SteamNetworkingSockets": "Sockets de Red de Steam",
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
+        "World.Connection.NoProtocolsAvailable": "No hay métodos de conexión disponibles",
+        "World.Connection.AllProtocolsFailed": "Todos los métodos de conexión fallaron",
+
         "World.Error.AccessDenied": "Acceso Denegado",
         "World.Error.SecurityViolation": "Violación de Seguridad",
         "World.Error.OnlyRegisteredUsers": "Sólo usuarios registrados pueden unirse a la sesión",
@@ -210,7 +217,10 @@
         "World.Error.HostBlockedDetail": "Has bloqueado al anfitrión",
         "World.Error.WorldCrash": "El mundo ha crasheado",
         "World.Error.WorldCrashDetail": "Error fatal al actualizar el mundo",
-        "World.Error.Unknown": "Error desconocido",
+        "World.Error.Handshake": "Error de establecimiento de conexión",
+        "World.Error.Unknown": "Error Desconocido",
+        "World.Error.FailedToCreateBanAccessKey": "No se ha podido crear la clave de acceso de bloqueo",
+        "World.Error.UnhandledError": "Error Sin Gestionar",
 
         "World.Config.Name": "Nombre del Mundo:",
         "World.Config.Description": "Descripción:",
@@ -226,6 +236,10 @@
         "World.Config.AutosaveInterval": "Intervalo de autoguardado (en minutos):",
         "World.Config.CleanupAssets": "Limpiar recursos no utilizados:",
         "World.Config.CleanupInterval": "Intervalo de limpieza (en segundos):",
+
+        "World.Config.ResoniteLinkHeader": "ResoniteLink",
+        "World.Config.ResoniteLinkOff": "ResoniteLink desactivado",
+        "World.Config.ResoniteLinkPort": "ResoniteLink se está ejecutando en el puerto {port}",
 
         "World.Actions.StartSession": "Iniciar una sesión",
         "World.Actions.Join": "Unirse",
@@ -262,6 +276,8 @@
         "World.Actions.ModifyMetadata": "Editar metadatos",
         "World.Actions.GetSessionOrb": "Obtener burbuja de la sesión",
         "World.Actions.CopySessionURL": "Copiar URL de la sesión",
+
+        "World.Actions.EnableResoniteLink": "Activar ResoniteLink",
 
         "World.Indicator.NoData": "Sin Datos",
         "World.Indicator.LocalWorld": "Máquina Local",
@@ -300,6 +316,7 @@
         "World.Category.ContactsSessions": "Sesiones de Contactos",
         "World.Category.HeadlessSessions": "Sesiones dedicadas",
         "World.Category.Social": "Mundos Sociales",
+        "World.Category.Avatars": "Avatares",
         "World.Category.Games": "Juegos",
         "World.Category.Art": "Arte",
         "World.Category.Tutorials": "Tutoriales",
@@ -358,7 +375,7 @@
         "World.Edit.AccessPrivate": "Sólo Yo",
         "World.Edit.AccessPatreon": "Partidarios de Patreon",
         "World.Edit.AccessPublic": "Cualquiera (público)",
-        "World.Edit.ReadOnly": "Leer Solamente",
+        "World.Edit.ReadOnly": "Solo lectura",
 
         "Tools.AvatarCreator": "Creador de Avatares",
         "Tools.FullBodyCalibrator": "Calibrador de Rastreadores",
@@ -492,6 +509,12 @@
         "Register.InvalidPassword": "Contraseña inválida",
         "Register.InvalidPassword.Description": "La contraseña es inválida. Debe contener al menos 8 caracteres, incluyendo 1 número, 1 letra mayúscula y 1 letra minúscula.",
 
+        "Register.InvalidPromoCode": "Código Promocional no Válido",
+        "Register.InvalidPromoCode.Description": "El código promocional introducido no es válido. Comprueba que lo has escrito correctamente e inténtalo de nuevo. No distingue entre mayúsculas y minúsculas.",
+
+        "Register.ExpiredPromoCode": "Código Promocional Caducado",
+        "Register.ExpiredPromoCode.Description": "El código promocional introducido ha expirado. Intenta con otro o borralo.",
+
         "Register.EmailAlreadyRegistered": "Email ya registrado",
         "Register.EmailAlreadyRegistered.Description": "Ya existe una cuenta que usa este email, si ha olvidado su contraseña puede hacer click en \"¿Perdió su Contraseña?\". O puede contactar con soporte en {supportUrl}.",
 
@@ -509,6 +532,15 @@
 
         "Recovery.NoPasswordSetup": "Contraseña No Establecida",
         "Recovery.NoPasswordSetup.Description": "Por favor contacte con soporte en {supportUrl}.",
+
+        "Register.TooManyRegistrations": "Demasiados registros",
+        "Register.TooManyRegistrations.Description": "Has registrado muchas cuentas recientemente. Intenta de nuevo mas tarde, o contacta al soporte en {supportUrl} si crees que esto es un error.",
+
+        "Register.StatusCheckError": "Registration status unknown",
+        "Register.StatusCheckError.Description": "Your account registration was submitted, but there was a problem checking its status. Please try logging in shortly.",
+
+        "Register.ManualLoginRequired": "Manual login required",
+        "Register.ManualLoginRequired.Description": "Your account was registered, but there was a problem retrieving session data for it. Please try logging in shortly.",
 
         "Register.UnknownError": "Error Desconocido",
         "Register.UnknownError.Description": "Un error desconocido ocurrió durante el registro. Por favor contacte con soporte en {supportUrl}.",
@@ -550,6 +582,7 @@
         "Account.BirthYear": "Año de nacimiento:",
         "Account.PoliciesAgreement": "Acepto los <color=#22B2FF>términos de servicio</color> y la <color=#22B2FF>política de privacidad</color>",
         "Account.AlternateMethods": "Iniciar sesión con un servicio de terceros:",
+        "Account.PromoCode": "Código Promocional:",
 
         "Account.Saml2.Title": "SAML 2.0",
         "Account.Saml2.Select": "Por favor seleccione el proveedor de SAML 2.0 que desea usar:",
@@ -581,8 +614,10 @@
         "Account.TOTP.Message.DeactivationComplete": "2FA ha sido exitosamente desactivado de su cuenta.<br><br>Su cuenta está en un riesgo mayor ahora!<br><br>Recomendamos configurar 2FA nuevamente, especialmente si ha usado un código de recuperación.",
 
         "Account.Type.Standard": "Cuenta Estándar",
+        "Account.Type.Promo": "Cuenta Promocional",
         "Account.Type.Business": "Cuenta Business",
         "Account.Type.Patreon": "Patrocinador en Patreon",
+        "Account.Type.Stripe": "Patrocinador en Stripe",
         "Account.Type.Mentor": "Mentor de {platform}",
         "Account.Type.Moderator": "Moderador de {platform}",
         "Account.Type.Team": "Equipo de {platform}",
@@ -622,6 +657,8 @@
         "Permissions.NotAllowedToSpawn": "No posee permisos para crear objetos de su inventario aquí.",
         "Permissions.NotAllowedToSave": "No posee permisos para guardar objetos en este mundo.",
         "Permissions.NotAllowedToSwapAvatar": "No posee permisos para usar un avatar personalizado aquí.",
+        "Permissions.SavingDisabledForItem": "El guardado está desactivado para este objeto.",
+        "Permissions.NotAllowedToOpen": "No tienes permiso para abrir esto.",
 
         "User.Actions.Silence": "Silenciar",
         "User.Actions.Mute": "Enmudecer",
@@ -637,6 +674,7 @@
         "Contacts.IgnoreRequest": "Ignorar Solicitud",
         "Contacts.Invite": "Invitar Aquí",
         "Contacts.RevokeInvite": "Revocar Invitación",
+        "Contacts.RequestInvite": "Solicitar Invitación",
         "Contacts.BanFromAllSessions": "Banear de todas mis sesiones",
         "Contacts.UnbanFromAllSessions": "Desbanear de todas mis sesiones",
         "Contacts.BanFromCurrentWorld": "Banear del mundo actual",
@@ -666,6 +704,19 @@
         "Contacts.Bot": "Cuenta Bot",
         "Contacts.Migrated": "El Contacto no ha Migrado",
         "Contacts.IncompatibleSession" : "Sesión incompatible",
+        "Contacts.AskToJoin": "<color=hero.yellow>Solicita</color> Unirte",
+
+        "Contacts.InviteRequest.UserWantsToJoin": "{username} quiere unirse a ti",
+        "Contacts.InviteRequest.UserWantsToInviteAnother": "\"{requestingUser}\" quiere invitar a \"{userToInvite}\" a \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantInvite": "Conceder invitación (una sola vez)",
+        "Contacts.InviteRequest.AddAsContact": "Añadir \"{username}\" como contacto",
+        "Contacts.InviteRequest.AddAsContactOfHeadless": "Añadir \"{username}\" como contacto de Servidor Dedicado",
+        "Contacts.InviteRequest.AddHostAsContact": "Añadir \"{username}\" (anfitrión) como contacto",
+        "Contacts.InviteRequest.HostIsUnregistered": "El anfitrión es un usuario no registrado",
+        "Contacts.InviteRequest.ForwardToHost": "Reenviar al anfitrión: {username}",
+        "Contacts.InviteRequest.SentRequest": "Se ha solicitado una invitación",
+        "Contacts.InviteRequest.ForwardedRequest": "Se ha reenviado la solicitud de invitación de \"{username}\" a la sesión \"{sessionName}\"",
+        "Contacts.InviteRequest.GrantedRequest": "Se ha concedido a \"{username}\" la invitación a la sesión \"{sessionName}\"",
 
         "Notifications.IsSociable": "Está sociable, ¡invítale!",
         "Notifications.IsOnline": "Está en línea",
@@ -675,6 +726,8 @@
         "Notifications.ReceivedItem": "Le envió un objeto:",
         "Notifications.VoiceMessage": "Envió un mensaje de voz",
         "Notifications.SessionStarted": "Sesión iniciada:",
+        "Notifications.ReceivedInviteRequestDirect": "Quiere ser invitado",
+        "Notifications.ReceivedInviteRequestForwarded": "Quiere invitar a:",
         "Notifications.UserJoined": "Un usuario se unió",
         "Notifications.UserLeft": "Un usuario se ha marchado",
         "Notifications.PermissionChanged": "Tu rol cambio a {new}",
@@ -714,11 +767,18 @@
         "Undo.ExtractMaterialsFromHierarchy": "Extraer Materiales desde Jerarquía",
         "Undo.BatchConvertMaterials": "Convertir materiales en lotes",
 
+        "Undo.AddListElement": "Añadir elemento a la lista",
+        "Undo.RemoveListElement": "Remover elemento de una lista",
+
         "Tools.Brush.ChangeColor": "Cambiar Color",
         "Tools.Brush.IncrementSize": "Incrementar Tamaño",
         "Tools.Brush.DecrementSize": "Disminuir Tamaño",
+        "Tools.Brush.FinishStrokeGroup": "Terminar el grupo de trazos",
 
         "Tools.GeometryLineBrush.Name": "Pincel de Linea Geométrica",
+
+        "Tools.MeshPlaneBrush.Name": "Pincel de malla plana",
+        "Tools.MeshPlaneBrush.AddHole": "Añadir un hueco",
 
         "Tools.Dev.Name": "Herramienta de Desarrollo",
         "Tools.Dev.CreateNew": "Crear Nuevo...",
@@ -747,11 +807,13 @@
         "Tools.Color.Name": "Herramienta de Color",
         "Tools.Color.Picker": "Selector de Color",
 
+        "Tools.GrabbableSetter.Name": "Herramienta de ajuste de agarre",
         "Tools.GrabbableSetter.Scalable": "Establecer Escalable",
         "Tools.GrabbableSetter.NonScalable": "Establecer No Escalable",
         "Tools.GrabbableSetter.ApplyToRoot": "Aplicar en Raíz",
         "Tools.GrabbableSetter.AppyToHit": "Aplicar en Objeto Tocado",
 
+        "Tools.CharacterCollider.Name": "Herramienta para configurar colisiones de personajes",
         "Tools.CharacterCollider.MarkGrippable": "Marcar como agarrable",
         "Tools.CharacterCollider.DontMarkGrippable": "Desmarcar como agarrable",
         "Tools.CharacterCollider.EnsureWalkRun": "Forzar locomoción Caminar/Correr",
@@ -767,6 +829,7 @@
         "Tools.Light.Shadows.Hard": "Sombras Definidas",
         "Tools.Light.Shadows.Soft": "Sombras Suaves",
 
+        "Tools.MeshVisibility.Name": "Herramienta de visibilidad de malla",
         "Tools.MeshVisibility.KeepShadow": "Mantener Sombra",
         "Tools.MeshVisibility.ShadowOff": "Desactivar Sombra",
         "Tools.MeshVisibility.ShadowOn": "Activar Sombra",
@@ -775,6 +838,7 @@
 
         "Tools.Mesh.Name": "Herramienta de Malla",
 
+        "Tools.Slicer.Name": "Herramienta de corte de objetos",
         "Tools.Slicer.Add": "Agregar rebanador",
         "Tools.Slicer.Clear": "Restablecer configuración",
 
@@ -829,19 +893,25 @@
         "Tools.Meter.ObjectSpace": "Medir en Espacio del Objeto",
         "Tools.Meter.WorldSpace": "Medir en Espacio del Mundo",
 
-        "Tools.Glue.Name": "Herramienta de Pega",
+        "Tools.Glue.Name": "Herramienta de Pegado",
         "Tools.Glue.Mode.BakeMeshes": "Modo: Hornear mallas",
         "Tools.Glue.Mode.BakeSkinnedMeshes": "Modo: Hornear mallas (skinned)",
         "Tools.Glue.Mode.ParentObjects": "Modo: Enparentar objetos",
 
+        "Tools.RigTransfer.Name": "Herramienta de transferencia de <color=hero.yellow>Rig</color> de malla ",
         "Tools.RigTransfer.ClearSource": "Limpiar origen",
 
+        "Tools.GaussianSplat.Name": "Herramienta de Salpicado Gaussiano",
+        "Tools.GaussianSplat.ClipBox": "Caja de recorte",
+        "Tools.GaussianSplat.ClipSphere": "Esfera de recorte",
+        "Tools.GaussianSplat.ClipCylinder": "Cilindro de recorte",
+        
         "Tools.ComponentClone.Name": "Herramienta de clonar componente",
         "Tools.ComponentClone.SingleInstanceOn": "Instancia Única: Sí",
         "Tools.ComponentClone.SingleInstanceOff": "Instancia Única: No",
         "Tools.ComponentClone.ClearTemplate": "Limpiar plantilla",
 
-        "Tools.Shape.Name": "Herramienta de figura",
+        "Tools.Shape.Name": "Herramienta de Forma",
 
         "Tools.CameraObjectHider.Name": "Herramienta de Esconder Objetos de la Cámara",
 
@@ -858,12 +928,11 @@
         "CreateNew.ParticleSystem": "Sístema de partículas",
         "CreateNew.LegacyParticleSystem": "Sistema Viejo de Partículas",
 
-                
-
         "CreateNew.Object": "Objeto",
         "CreateNew.Object.AvatarCreator": "Creador de Avatar",
         "CreateNew.Object.Camera": "Cámara",
         "CreateNew.Object.ReflectionProbe": "Sonda de Reflexiones",
+        "CreateNew.Object.ReverbZone": "Zona de Reverberación",
         "CreateNew.Object.Mirror": "Espejo",
         "CreateNew.Object.Portal": "Portal",
         "CreateNew.Object.VideoPlayer": "Reproductor de video",
@@ -889,6 +958,8 @@
         "CreateNew.Editor.AssetOptimizationWizard": "Asistente de Optimización de Recursos",
         "CreateNew.Editor.CubemapCreator": "Creador de Cubemaps",
         "CreateNew.Editor.ReflectionProbes": "Asistente de Sondas de Reflexiones",
+        "CreateNew.Editor.TexturePackingWizard": "Asistente de empaquetado de texturas",
+        "CreateNew.Editor.TextureUnpackingWizard": "Asistente de desempaquetado de texturas",
 
         "CreateNew.3DModel": "Modelo 3D",
         "CreateNew.3DModel.Triangle": "Triángulo",
@@ -912,7 +983,7 @@
         "CreateNew.Light": "Luz",
         "CreateNew.Light.Point": "Punto",
         "CreateNew.Light.Spot": "Zona",
-        "CreateNew.Light.Directional": "Direccional",
+        "CreateNew.Light.Directional": "Direccional (Sol)",
 
         "CreateNew.Materials": "Materiales",
 
@@ -981,6 +1052,15 @@
         "Importer.Model.3DScan": "Escaneo 3D",
         "Importer.Model.CAD": "Modelo CAD",
         "Importer.Model.PointCloud": "Nube de Puntos",
+
+        "Importer.Model.GaussianSplat": "Salpicado Gaussiano",
+        "Importer.Model.GaussianSplatVertical": "Eje Vertical",
+        "Importer.Model.RegularVertical": "Regular",
+        "Importer.Model.FlipVertical": "Voltear eje Y",
+        "Importer.Model.GaussianSplatEncoding": "Codificando",
+        "Importer.Model.GaussianSplatLossless": "Sin pérdida de calidad",
+        "Importer.Model.GaussianSplatSPZ": "SPZ (con pérdida de calidad)", 
+
         "Importer.Model.VertexColorModel": "Modelo con Vértices Coloreados",
         "Importer.Model.AdvancedSettings": "Ajustes Avanzados",
         "Importer.Model.ModelKindPrompt": "¿Qué tipo de modelo 3D?",
@@ -1041,6 +1121,25 @@
         "Importer.Model.Advanced.PositionAtOrigin": "Posicionar en Origen",
         "Importer.Model.Advanced.AssetsOnObject": "Colocar recursos en objeto",
 
+        "Importer.Splat.Progress.Importing": "Importando Salpicado Gaussiano",
+        "Importer.Splat.Progress.ReadingHeader": "Leyendo encabezado del archivo",
+        "Importer.Splat.Progress.ConvertingSplats": "Se han convertido {converted} salpicaduras de {total}",
+        "Importer.Splat.Progress.EncodingData": "Codificando datos convertidos",
+
+        "GaussianSplat.Encoding.Title": "Codificando Salpicado Gaussiano",
+        "GaussianSplat.Encoding.Metadata": "Codificando metadatos",
+        "GaussianSplat.Encoding.EncodingPositions": "Posiciones codificadas {encoded} de {total}",
+        "GaussianSplat.Encoding.EncodingRotations": "Rotaciones codificadas {encoded} de {total}",
+        "GaussianSplat.Encoding.EncodingScales": "Escalas codificadas {encoded} de {total}",
+        "GaussianSplat.Encoding.EncodingAlphas": "Alfas codificados {encoded} de {total}",
+        "GaussianSplat.Encoding.EncodingColors": "Colores codificados {encoded} de {total}",
+        "GaussianSplat.Encoding.EncodingFinalizing": "Finaliazndo codificación",
+
+        "GaussianSplat.Processing.RemovingSplats": "Removiendo salpicaduras",
+        "GaussianSplat.Processing.SplatProgress": "Procesado {count} de {total}",
+        "GaussianSplat.Processing.LoadingData": "Cargando datos del recurso",
+        "GaussianSplat.Processing.FailNoData": "No se han podido obtener los datos del recurso para su procesamiento",
+
         "Importer.Video.Title": "Importar Video",
         "Importer.Video.Prompt": "¿Qué está importando?",
         "Importer.Video.Regular": "Video",
@@ -1057,6 +1156,12 @@
         "Importer.Slices.TitleGrayscale": "Secuencia de imágenes como textura volumétrica (escala de grises)",
         "Importer.Slices.Description": "Procesa todas las imágenes en la carpeta como una textura volumétrica",
 
+        "Importer.UnsupportedRecordType.Heading": "Tipo de registro no soportado",
+        "Importer.UnsupportedRecordType.Description": "El registro que estás intentando importar({url}) tiene un tipo no soportado. Su tipo es: {recordType}. Por favor, comunícanoslo en {bugUrl}.",
+        "Importer.Link.Invalid.Heading": "Enlace de carpeta no válido",
+        "Importer.Link.Invalid.Description": "El enlace a la carpeta({url}), que estás intentando importar no es válido. Comprueba el enlace y vuelve a intentarlo.",
+        "Inventory.Link.LinkText": "Enlace al inventario de {name}",
+
         "Exporter.Title": "Exportar",
         "Exporter.FileName": "Nombre de archivo:",
         "Exporter.ExportAs": "Exportar como:",
@@ -1070,6 +1175,9 @@
         "Export.AudioExportable.OriginalFormat" : "Audio <size=75%>(formato original)</size>",
 
         "Export.VideoExportable.OriginalFormat" : "Video <size=75%>(formato original)</size>",
+
+        "Export.GaussianSplatExportable.PLY": "PLY (sin pérdida de calidad)",
+        "Export.GaussianSplatExportable.SPZ": "SPZ (con pérdida de calidad)",
 
         "Importer.Package.Progress.DecodingPackage" : "Decodificando paquete",
         "Importer.Package.Progress.DecodingObject" : "Decodificando objeto",
@@ -1317,7 +1425,7 @@
         "Settings.InteractiveCameraPhotoSettings": "Fotos",
         "Settings.InteractiveCameraPostProcessingSettings": "Post Procesado",
 
-        "Settings.GeneralControlsSettings.PrimaryHand": "Mano Primari",
+        "Settings.GeneralControlsSettings.PrimaryHand": "Mano Primaria",
         "Settings.GeneralControlsSettings.PrimaryHand.Description": "Cuál mano es considerada como primaria. Varios sistemas utilizan esto para sus interacciones, por ejemplo al equipar herramientas.",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Intervalo de doble click",
         "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Para cualquier interacción que requiera un doble click, esta opción controla el intervalo máximo entre el click que se considere un doble click. Si estás teniendo problemas activando el doble click, disminuye este valor. Si se detectan demasiado, aumenta el valor.",
@@ -1352,6 +1460,10 @@
         "Settings.GrabbingSettings.DefaultHandGrabType": "Tipo de Agarre de Manos Predeterminado",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Esto determina cuál es tu modo de agarre predeterminado para las manos cuando ingresas en nuevos mundos.\n\n<color=hero.yellow>Palma:</color> Agarrarás todos los objetos que estén cerca de tu palma.\n\n<color=hero.yellow>Precisión:</color> Agarrarás un único objeto entre tu dedo índice y pulgar.\n\n<color=hero.yellow>Auto:</color> El modo cambia entre Palma y Precisión dependiendo de la orientación de tu mano.\n\n<color=hero.yellow>Desactivado:</color> Sólo podrás agarrar objetos con tus láseres.",
 
+        "Settings.FullBodyTrackingSettings": "Seguimiento de cuerpo completo",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Ángulo horizontal del cuerpo",
+        "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "Esta es la desviación angular entre los pies y la cabeza; si se supera este valor, se considerará que el personaje está en posición horizontal. Esto afecta a ciertos aspectos, como la sobrescritura de las poses del rastreador con la simulación de los pies.",
+
         "Settings.GamepadSettings": "Mando",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Velocidad de mira con palanca de mando",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Usa esto para ajustar la sensibilidad de la velocidad con la cual la vista se mueve con la palanca de mando.",
@@ -1370,6 +1482,16 @@
         "Settings.MouseSettings.MouseRotateSpeed.Description": "Al sostener objetos en modo escritorio, esto controla qué tan rápido serán rotados sobre sus ejes con el ratón.",
         "Settings.MouseSettings.MouseFreeformRotateSpeed": "Velocidad de rotación libre",
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "Al sostener objetos en modo escritorio, esto controla qué tan rápido serán rotados en forma libre.",
+        "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "Velocidad de desplazamiento",
+        "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "Al sostener objetos en modo escritorio, esto controla que tan rapido se moverán hacia adelante y atras con la rueda del ratón.",
+
+        "Settings.KeyboardLookSettings": "Configuración de Mirae con el Teclado",
+        "Settings.KeyboardLookSettings.LookEnabled": "Mirar con el Teclado",
+        "Settings.KeyboardLookSettings.LookEnabled.Description": "Al estar activo, Mirar con el Teclado te permite mover la vista utilizando las teclas de flecha del teclado. <br/> Está pensada para situaciones en las que no está disponible o no es adecuado utilizar el ratón, como cuando se usa un ordenador portátil o cuando se necesitan alternativas accesibles al ratón.",
+        "Settings.KeyboardLookSettings.HorizontalSpeed": "Velocidad horizontal de Mirar con el Teclado",
+        "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "Utiliza esta opción para ajustar la velocidad con la que se mueve la cabeza horizontalmente al usar Mirar con el Teclado.",
+        "Settings.KeyboardLookSettings.VerticalSpeed": "Velocidad vertical de Mirar con el Teclado.",
+        "Settings.KeyboardLookSettings.VerticalSpeed.Description": "Utiliza esta opción para ajustar la velocidad con la que se mueve la cabeza verticalmente al usar Mirar con el Teclado.",
 
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Vibración de controladores",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Usa esto para habilitar o deshabilitar la vibración específicamente en los controladores de VR.",
@@ -1471,6 +1593,10 @@
         "Settings.SteamLinkSettings.OSC_DataPort": "Puerto de rastreo facial por OSC",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "Cuál puerto debería ser usado para recibir datos de rastreo facial por OSC. Esto debería coincidir con el puerto que has establecido en las opciones de SteamVR para que funcione el rastreo.",
 
+        "Settings.BabbleSettings": "Project Babble",
+        "Settings.BabbleSettings.OSC_DataPort": "Puerto de rastreo facial por OSC",
+        "Settings.BabbleSettings.OSC_DataPort.Description": "Cuál puerto debería ser usado para recibir datos de rastreo facial por OSC. Esto debería coincidir con el puerto que has establecido en la página opciones en la aplicación de Babble.",
+
         "Settings.HapticPointMapping.MappingTarget": "Mapear a",
         "Settings.HapticPointMapping.MappingTarget.Description": "Usa esto para configurar a qué parte del avatar deseas que esté mapeado este dispositivo.",
 
@@ -1555,6 +1681,12 @@
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "Configurar Dispositivos de Salida de Audio Preferidos",
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "Dispositivos de Salida de Audio",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Establecer como Predeterminado",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "Forzar la actualización de los dispositivos de audio",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Al pulsar aquí, se obligará a {appName} a actualizar la lista de dispositivos de audio. Normalmente se detectan los nuevos dispositivos de audio; sin embargo, si {appName} no detecta un dispositivo de audio que se ha añadido, pulsar aquí podría ayudar.",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "Separar la Salida de la Cámara para Transmisiones",
+        "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "Cuando está habilitado, la cámara de transmisión captará el audio desde su punto de vista y lo enviará a un dispositivo de audio independiente.<br><br>Esto te permite conservar tu propio audio desde tu perspectiva, mientras capturas el audio desde la perspectiva de la cámara.<br><br>Para que esto funcione, el dispositivo seleccionado debe ser distinto de tu dispositivo de salida habitual.",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Dispositivos de salida de la Cámara para Transmisiones",
+        "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "Dispositivos de Salida de la Cámara de Transmisiones",
 
         "Settings.AudioVolumeSettings.MasterVolume": "Volumen Maestro",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "Controla el volumen de todo uniformemente. Si todo suena demasiado fuerte o bajo, prueba alterando esta opción.",
@@ -1571,6 +1703,8 @@
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Cuando el modo Susurro esté activado, esto indica qué tan fuerte sonarán los sonidos externos a la esfera. Si son demasiado fuertes o bajos, cambia esto para alterar la atenuación.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Volumen de mensajes de voz",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Indica qué tan fuerte sonarán otros sonidos cuando estés grabando un mensaje de voz en Contactos. Puede ayudar a prevenir la \"inhibición de voz\", facilitando concentrarse en lo que estás diciendo.",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff": "Forzar desactivación de los efectos de audio para las voces",
+        "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description": "Activar esta opción desactivará cualquier efecto de audio (como la reverberación) aplicado a las voces de otros usuarios del mundo. Esto puede resultar útil si tienes dificultades para entender las voces debido a estos efectos.<br><br><color=hero.red>Importante:</color> Los mundos pueden desactivar esta función de forma opcional si necesitan efectos de voz por motivos relacionados con la jugabilidad. En esos casos, esta configuración no tendrá ningún efecto.",
 
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Normalización de voz",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Esto tratará de asegurar que tu voz sea llevada a un nivel uniforme. Esto ayuda a que tu volumen sea el mismo que el de otros usuarios, independientemente de tus opciones de micrófono. Recomendamos mantener habilitada esta opción para que seas escuchado correctamente por otros usuarios.",
@@ -1588,6 +1722,14 @@
 
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Supresión de ruido (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Esta característica procesa el audio entrante para filtrar ruidos no deseados. Puede limpiar audio de micrófonos ruidosos, produciendo una voz más clara. Recomendamos mantener esta opción habilitada. Sin embargo, también puede filtrar algunos ruidos que no son considerados como habla.",
+
+        "Settings.AudioPerformanceSettings": "Ajustes de Rendimiento de Audio",
+        "Settings.AudioPerformanceSettings.MaxVoices": "Número máximo de sonidos activos",
+        "Settings.AudioPerformanceSettings.MaxVoices.Description": "Esto controla el número de sonidos que se pueden reproducir al mismo tiempo. Si aumentas este valor, podrás escuchar más sonidos a la vez, aunque a costa de un mayor uso de la CPU.<br><br>Si lo configuras en un valor demasiado alto, es posible que se oigan crujidos en el audio.",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize": "Tamaño del Cuadro de Simulación",
+        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Controla la cantidad de datos de audio que se procesan de una sola vez al renderizar el audio. Aumentar el valor puede mejorar el rendimiento en algunos aspectos, pero a cambio se reducirán la frecuencia de los eventos de audio y aumentará la latencia.<br><br>Por lo general, no recomendamos modificar este valor y se aconseja mantener el valor predeterminado de 1024.",
+        "Settings.AudioPerformanceSettings.OutputBufferSize": "Tamaño del Búfer de Reproducción",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Controla el tamaño del búfer para la reproducción de audio. Los valores más altos provocan una mayor latencia de audio, pero son más resistentes a los crujidos y los chasquidos.<br><br>Al reducir este valor, se puede disminuir la latencia de audio, pero el sistema será más susceptible a los crujidos y los cortes.",
 
         "Settings.VoiceSettings": "Configuraciones de Voz",
         "Settings.VoiceSettings.MutePersistence": "Persistencia de Silenciado",
@@ -1647,13 +1789,21 @@
 
         "Settings.DebugSettings.DebugInputBindings": "Depurar vinculaciones de entrada",
         "Settings.DebugSettings.DebugInputBindings.Description": "Al habilitarse, será visible la información de depuración para el sistema de vinculaciones de entrada. Útil para desarrolladores.",
+        "Settings.DebugSettings.ConvertParticleSystems": "Convertir sistemas de partículas a PhotonDust",
+        "Settings.DebugSettings.ConvertParticleSystems.Description": "Habilitar esta opción ejecutará una conversión del sistema de partículas de legado al nuevo sistema personalizado (PhotonDust) para cualquier <b>nuevo</b> elemento y mundo que se cargue. <br><br><color=red>¡Esto está pensado únicamente con fines de prueba!</color> Si no formas parte del equipo de pruebas, no te recomendamos que actives esta opción, ya que TU CONTENIDO PODRÍA CORROMPERSE COMO CONSECUENCIA DE ELLO.<br><br>Consulta nuestro GitHub/Discord si deseas ayudar con las pruebas.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Doble click el Agarre para equipar objetos",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Al habilitarse, puedes equipar herramientas y artefactos presionando Agarre dos veces rápidamente. Esta opción probablemente sea quitada en el futuro.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Usar cambiador de mundos de legado",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Al habilitarse, el botón de app en tu mano secundaria abrirá el seleccionador de mundos de legado para cambiar entre ellos. Esta función será reemplazada en el futuro con una más flexible.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Usar gesto para abrir inventario y sessiones",
-        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Al habilitarse, cuando mantienes los botones de Agarre y App (el que abre y cierra el tablero), se abrirá el inventario de legado o menú de sesiones.",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Al habilitarse, cuando mantienes los botones de Agarre y App (el que abre y cierra el Panel), se abrirá el inventario de legado o menú de sesiones.",
+
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Suprimir Simulación de Pies",
+        "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Esto es para que ciertas funciones como los posers que secuestran proxies de pies funcionen, sin tener que modificarlos. <br><br>Si activas esto sin usar posers o funciones similares, las animaciones NO se verán correctamente. Desactívalo después de que hayas terminado de usar posers. <br><br><color=hero.red>IMPORTANTE:</color> Es probable que esto se elimine en algún momento, recomendamos actualizar posers para que sean compatibles con el nuevo sistema y supriman automáticamente la simulación cuando está habilitado.",
+
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "Preservar el manejo de legado de las zonas de reverberación",
+        "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "Cuando está habilitado, cualquier contenido de audio de legado que tenga habilitada la espacialización ignorará automáticamente las zonas de reverberación para mantener las limitaciones del sistema de audio de legado.<br><br>Activa esta configuración y vuelve a cargar el contenido de legado. Una vez que guardes el contenido de legado convertido, la configuración quedará \"integrado\" y tendrás que cambiarla manualmente más adelante.",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Nombre de Canal de Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Configura el nombre predeterminado para el canal de Twitch Chat en el panel de Controles de Cámara. Mayormente usado por streamers de Twitch que quieren ver su chat.",
@@ -1670,11 +1820,13 @@
         "Settings.LocaleSettings.AvailableLocales.SystemLocale": "Usar Lenguaje de Sistema",
 
         "Settings.DashSettings.DashCurvature": "Curvatura",
-        "Settings.DashSettings.DashCurvature.Description": "Controla qué tan curvado está el tablero cuando estás en VR. Establecerlo en 0 lo hará completamente plano.",
+        "Settings.DashSettings.DashCurvature.Description": "Controla qué tan curvado está el Panel cuando estás en VR. Establecerlo en 0 lo hará completamente plano.",
         "Settings.DashSettings.OpenCloseSpeed": "Velocidad de apertura/cierre",
-        "Settings.DashSettings.OpenCloseSpeed.Description": "Ajusta qué tan rápido se abre y cierra el tablero. Si no deseas animación, puedes establecerlo en un valor muy alto con tal que se abra y cierre casi instantáneamente.",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "Utiliza esta opción para ajustar la velocidad a la que se abre y se cierra el Panel. Si estableces este valor en 0, se eliminará por completo la animación y la apertura y el cierre serán instantáneos.",
+        "Settings.DashSettings.ScreenSwitchSpeed": "Velocidad de cambio de pestaña",
+        "Settings.DashSettings.ScreenSwitchSpeed.Description": "Ajusta la velocidad a la que el Panel cambia de una pestaña a otra (por ejemplo, Inicio, Contactos, Sesión). Si se establece en 0, se eliminará por completo la animación y el cambio será instantáneo.",
         "Settings.DashSettings.AllowReplacingSettings": "Permitir reemplazar configuraciones",
-        "Settings.DashSettings.AllowReplacingSettings.Description": "Al habilitarse, serás capaz de mover la faceta de Opciones en el tablero mientras estás en modo de edición de interfaz, y reemplazarla con otra.\n\nEsta opción necesita estar desactivada si deseas mover las configuraciones individualmente como facetas. Se recomienda activar cuando quieres reemplazar la interfaz de opciones con una personalizada, y luego desactivarla.",
+        "Settings.DashSettings.AllowReplacingSettings.Description": "Al habilitarse, serás capaz de mover la faceta de Opciones en el Panel mientras estás en modo de edición de interfaz, y reemplazarla con otra.\n\nEsta opción necesita estar desactivada si deseas mover las configuraciones individualmente como facetas. Se recomienda activar cuando quieres reemplazar la interfaz de opciones con una personalizada, y luego desactivarla.",
 
         "Settings.NotificationSettings": "Notificaciones",
         "Settings.NotificationSettings.UserOnline": "Contacto En Línea",
@@ -1687,6 +1839,8 @@
         "Settings.NotificationSettings.Message.Description": "Controla las notificiaciones que se darán cuando recibes mensajes.",
         "Settings.NotificationSettings.Invite": "Invitaciones a Sesión",
         "Settings.NotificationSettings.Invite.Description": "Controla si recibes notificaciones cuando eres invitado a una sesión.",
+        "Settings.NotificationSettings.InviteRequest": "Solicitudes de I",
+        "Settings.NotificationSettings.InviteRequest.Description": "Controla si recibes notificaciones cuando te llega una solicitud de invitación a la que puedes responder.",
         "Settings.NotificationSettings.ContactRequest": "Solicitudes de Contacto",
         "Settings.NotificationSettings.ContactRequest.Description": "Controla las notificaciones que recibes al obtener una solicitud de contacto.",
         "Settings.NotificationSettings.ContactSessionStarted": "Nuevas Sesiones de Contactos",
@@ -1695,6 +1849,8 @@
         "Settings.NotificationSettings.PublicSessionStarted.Description": "Controla las notificaciones que recibes cuando una sesión pública es iniciada por alguien que no esté en tus contactos.",
         "Settings.NotificationSettings.UserJoinAndLeave": "Usuarios ingresando y marchándose",
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Al habilitarse, recibirás notificaciones cuando algún usuario entre o salga del mundo en el que estés actualmente.",
+        "Settings.NotificationSettings.PermissionChanged": "Cambio de Rol de Permisos",
+        "Settings.NotificationSettings.PermissionChanged.Description": "Cuando está habilitado, recibirás una notificación cada vez que cambie tu rol de permisos en un mundo. Por ejemplo, cuando pases de ser Invitado a Constructor.",
 
         "Settings.NamePlateSettings.NameplateVisibility": "Visibilidad de Nombres",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Controla cuáles placas de nombres serán visibles para ti.",
@@ -1703,18 +1859,20 @@
 
         "Settings.CustomizationSettings": "Opciones de Personalización",
         "Settings.CustomizationSettings.UserInterfaceEditMode": "Modo de Edición de Interfaz",
-        "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "Al habilitarse, serás capaz de alterar la ubicación de las Facetas (piezas modulares de interfaz) en el tablero y en los anclajes de facetas ubicadas en tus manos y campo de visión (si esos están habilitados).\n\n¡Recuerda desactivar esta opción al terminar de editar! También puedes desactivarla usando el botón correspondiente debajo del tablero.",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "Al habilitarse, serás capaz de alterar la ubicación de las Facetas (piezas modulares de interfaz) en el Panel y en los anclajes de facetas ubicadas en tus manos y campo de visión (si esos están habilitados).\n\n¡Recuerda desactivar esta opción al terminar de editar! También puedes desactivarla usando el botón correspondiente debajo del Panel.",
 
         "Settings.FacetAnchorsSettings": "Anclajes de Facetas",
         "Settings.FacetAnchorsSettings.UseFacetAnchors": "Usar Anclajes de Facetas",
-        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "Al habilitarse, podrás usar el botón de app en tu control derecho para activar/desactivar los anclajes de facetas en tus brazos y antebrazos. Éstos proveen de espacio para colocar cualquier faceta para accederlas rápidamente aparte del tablero principal.",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "Al habilitarse, podrás usar el botón de app en tu control derecho para activar/desactivar los anclajes de facetas en tus brazos y antebrazos. Éstos proveen de espacio para colocar cualquier faceta para accederlas rápidamente aparte del Panel principal.",
         "Settings.FacetAnchorsSettings.AnimationSpeed": "Velocidad al Mostrar/Ocultar",
         "Settings.FacetAnchorsSettings.AnimationSpeed.Description": "Determina qué tan rápido aparecen y desaparecen los anclajes de facetas.",
         "Settings.FacetAnchorsSettings.FacetAnchorToggle": "Control para Activar/Desactivar",
-        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "Determina cuál controlador (izquierdo o derecho) alternará el estado de los anclajes. El tablero será alternado con el otro controlador.",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "Determina cuál controlador (izquierdo o derecho) alternará el estado de los anclajes. El Panel será alternado con el otro controlador.",
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "Mostrar fondo",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Desactivar esto evita que se muestre la visual de fondo en los anclajes de facetas, logrando que sólo las facetas en sí sean visibles.",
 
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace": "Priorizar la interfaz privada",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace.Description": "Cuando esté activada, tu interfaz de usuario privada (como el Panel, los anclajes de facetas o el teclado) siempre tendrá prioridad en las interacciones, incluso si queda oculta por colisionadores del mundo virtual.<br><br>Esto puede resultar útil cuando los objetos del mundo virtual te impidan interactuar con tu interfaz de usuario privada.<br><br>Ten en cuenta que quizá tengas que cerrar el panel de control antes de interactuar con los objetos del mundo virtual que se encuentren delante de ti.",
         "Settings.LaserSettings.SmoothSpeed": "Velocidad de suavizado del láser",
         "Settings.LaserSettings.SmoothSpeed.Description": "Controla qué tan rápido responde el láser a tus movimientos. Valores más bajos lo harán más lento, pero mejor para filtrar vibraciones. Valores más altos se sentirán más precisos, pero también transmitirán más las sacudidas del controlador.",
         "Settings.LaserSettings.ModulateStartAngle": "Ángulo de comienzo de modulación",
@@ -1729,6 +1887,32 @@
         "Settings.LaserSettings.StickThreshold.Description": "Controla qué tanto se pegará el láser a objetos interactivos. Valores altos harán que se adhiera más. Establecerlo en 0 evitará la adhesión completamente.",
         "Settings.LaserSettings.ShowInDesktop": "Mostrar lásers en modo escritorio",
         "Settings.LaserSettings.ShowInDesktop.Description": "Al hablilitarse, las visuales de los láseres se mostrarán completamente en modo escritorio, en primera persona.",
+
+        "Settings.EditSettings": "Editar ajustes",
+        "Settings.EditSettings.ConfirmComponentDestroy": "Confirmar la destrucción de componentes",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "Cuando esté habilitado, se te pedirá confirmación antes de eliminar un componente en el inspector. Esto ayuda a evitar que se eliminen accidentalmente al hacer clic por error.",
+        "Settings.EditSettings.ConfirmSlotDestroy": "Confirmar la eliminación de Slots",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "Cuando esté habilitado, se te pedirá confirmación antes de eliminar Slots con la Herramienta de Desarrollo. Esto puede evitar que se eliminen objetos accidentalmente al hacer clic por error.",
+
+        "Settings.CursorSettings": "Ajustes del Cursor",
+
+        "Settings.CursorSettings.BaseCursorSize": "Tamaño base del cursor",
+        "Settings.CursorSettings.BaseCursorSize.Description": "Esto establece el tamaño base del cursor. Recomendamos configurarlo primero, antes de ajustar los demás, ya que su tamaño es relativo a este.",
+
+        "Settings.CursorSettings.GrabMultiplier": "Multiplicador al agarrar",
+        "Settings.CursorSettings.GrabMultiplier.Description": "Esto se aplica como un multiplicador al cursor al agarrar objetos y elementos.",
+
+        "Settings.CursorSettings.InteractionMultiplier": "Multiplicador al interactuar",
+        "Settings.CursorSettings.InteractionMultiplier.Description": "Esto se aplica como un multiplicador al cursor cuando interactúas con elementos de la interfaz de usuario, como los botones.",
+
+        "Settings.CursorSettings.TextMultiplier": "Multiplicador en texto",
+        "Settings.CursorSettings.TextMultiplier.Description": "Esto se aplica como un multiplicador al cursor mientras interactúas y manipulas textos.",
+
+        "Settings.CursorSettings.SliderMultiplier": "Multiplicador en control deslizante",
+        "Settings.CursorSettings.SliderMultiplier.Description": "Esto se aplica como un multiplicador al cursor cuando interactúas con controles deslizantes y barras de desplazamiento.",
+
+        "Settings.CursorSettings.DirectCursorEnabled": "Cursor directo activado",
+        "Settings.CursorSettings.DirectCursorEnabled.Description": "Cuando está habilitado, muestra el cursor directo.\n\nEl cursor directo es el punto en el espacio en el que se encontraría el cursor sin ningún tipo de suavizado ni ajustes realizados por otras configuraciones o sistemas.",
 
         "Settings.DesktopViewSettings.FollowCursor": "Seguir cursor",
         "Settings.DesktopViewSettings.FollowCursor.Description": "Al habilitarse, la vista de Escritorio cambiará automáticamente hacia cualquier pantalla en la que se encuentre tu cursor. Es útil cuando estás usando un teclado y ratón físicos cuando estás en VR.",
@@ -1745,14 +1929,20 @@
         "Settings.PhotoCaptureSettings.TimerCaptureResolution.Description": "Similar a la resolución normal, puedes establecer una resolución separada para las fotos capturadas con un temporizador. Puede ser útil si usas este modo para capturar fotos grupales, las cuales se benefician de resoluciones más altas.",
         "Settings.PhotoCaptureSettings.TimerSeconds": "Duración de Temporizador",
         "Settings.PhotoCaptureSettings.TimerSeconds.Description": "Los segundos que toma antes de capturar una foto con la función de temporizador.",
+        "Settings.PhotoCaptureSettings.HandsNearFOV": "Campo de visión con manos cerca",
+        "Settings.PhotoCaptureSettings.HandsNearFOV.Description": "Campo de visión (FOV) de las fotos tomadas con el gesto del dedo cuando las manos están más cerca de tu cabeza.",
+        "Settings.PhotoCaptureSettings.HandsFarFOV": "Campo de visión con manos lejos",
+        "Settings.PhotoCaptureSettings.HandsFarFOV.Description": "Campo de visión (FOV) de las fotos tomadas con el gesto del dedo cuando las manos están más lejos de tu cabeza.",
         "Settings.PhotoCaptureSettings.CaptureStereo": "Capturar foto estéreo",
         "Settings.PhotoCaptureSettings.CaptureStereo.Description": "Al habilitarse, todas las fotos rápidas serán estereoscópicas. Esto es típicamente útil al verlas en VR.",
         "Settings.PhotoCaptureSettings.StereoSeparation": "Separación Estéreo",
         "Settings.PhotoCaptureSettings.StereoSeparation.Description": "Controla la separación entre las cámaras estereoscópicas cuando está habilitado el modo correspondiente. Indica qué tan distanciadas están las cámaras entre sí, lo que afecta la intensidad del efecto estereoscópico para las objetos distantes.\n\nAl capturar objetos cercanos, valores más bajos serán mejores; al capturar escenas más grandes, convendrá usar valores más altos.",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath": "Ruta de autoguardado de fotos en el inventario",
         "Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Cuando se establece, cualquier foto que captures (o guardes con el menú contextual) será guardada en tu inventario. Por ejemplo <color=hero.yellow>Fotos/%year%/%month_name%</color>\n\nLas siguientes variables están disponibles:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath": "Abrir la ruta de autoguardado para el mundo actual",
+        "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "Si tienes configurado el autoguardado de fotos, al hacer clic aquí se abrirá el Inventario en la ubicación donde se guardan las fotos del mundo en el que te encuentras en este momento.\n\nAsegúrate de haber tomado ya algunas fotos en este mundo; de lo contrario, esta acción no funcionará, ¡ya que la carpeta aún no existirá!",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "Capturar Interfaz Privada",
-        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "Al habilitarse, la captura rápida mostrará tu interfaz privada, por ejemplo el tablero. Puede ser útil en caso de que necesites mostrar información mostrada allí.\n\nSe recomienda desactivar esta opción una vez no la necesites, ya que dejarla activada podría llevar a capturar y filtrar información personal accidentalmente.",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "Al habilitarse, la captura rápida mostrará tu interfaz privada, por ejemplo el Panel. Puede ser útil en caso de que necesites mostrar información mostrada allí.\n\nSe recomienda desactivar esta opción una vez no la necesites, ya que dejarla activada podría llevar a capturar y filtrar información personal accidentalmente.",
         "Settings.PhotoCaptureSettings.EncodeFormat": "Formato de Imagen",
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "El formato de imagen con el cual se codificarán las capturas. Si necesitas que las fotos estén en un formato específico, puedes usar esta opción para seleccionar cual.\n\nTen en cuenta que algunos formatos podrían no soportar ciertas características (como la transparencia), podrían codificarse muy lento, tener menor calidad de imagen, u ocupar mayor espacio de almacenamiento.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Siempre Ocultar Placas",
@@ -1760,6 +1950,10 @@
 
         "Settings.DesktopRenderSettings.FieldOfView": "Campo de visión",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Controla el campo de visión (FOV) en modo escritorio. Valores altos proporcionan una visión más amplia a coste de una mayor distorsión en los bordes.",
+        
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Ampliar el campo de visión al correr",
+        "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Cuando esta opción está activada, el campo de visión se ampliará mientras corres modo escritorio. Desactiva esta configuración para eliminar este efecto.\n\nTen en cuenta que esto <b>NO</b> desactiva los efectos que se encuentran en el Contenido Generado por los Usuarios.",
+
         "Settings.DesktopRenderSettings.VSync": "Sincronización Vertical",
         "Settings.DesktopRenderSettings.VSync.Description": "Al habilitarse, los fotogramas por segundo se sincronizarán con la frecuencia de actualización de tu monitor. Deshabilitarlo puede mostrar cada fotograma más velozmente, pero puede causar tearing.\n\nPuede ser útil al probar el rendimiento, ya que quita la limitación en la velocidad de renderizado y actualización.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Limitar fotogramas cuando inactivo",
@@ -1829,6 +2023,10 @@
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Reflejos en espacio de pantalla",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "Indica si la cámara muestra efectos de reflejos en espacio de pantalla. Puede proveer de mejores reflexiones en superficies relucientes, pero podría llevar a artefactos visuales y requerimientos de rendimiento mayores.",
 
+        "Settings.InteractiveCameraAudioSettings": "Audio",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "Enviar tu propia voz a la cámara",
+        "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "Cuando la salida de audio de la cámara interactiva es separada a su propio dispositivo de audio, esto controla si la cámara escuchará tu propia voz o no.<br><br>Esto resulta útil para que tu propia voz se reproduzca con espacialización completa, tal y como la escucharían otros usuarios en el mundo.<br><br>Asegúrate de desactivar la captura de micrófono en tu software de grabación cuando esta opción esté activada.",
+
         "Settings.DescriptionField.NoTextTitle": "Más Información",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Pasa el ratón sobre una opción para ver su descripción.</closeall>",
 
@@ -1839,6 +2037,10 @@
         "Settings.RelaySettings.UseClosestAvailableRelay.Description": "Al habilitarse, el relay disponible más cercano a ti será seleccionado automáticamente para la conexión. Si deseas conectarte a un relay específico (en caso de conexiones de larga distancia para evitar la acumulación de paquetes, por ejemplo) puedes deshabilitar esta opción y seleccionar los relays preferidos aquí abajo.",
         "Settings.RelaySettings.RelayPriorities": "Configurar prioridades de servidores de relay",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Prioridades de Relays",
+
+        "Settings.VideoStreamingServicesSettings": "Servicios de streaming de vídeo",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Usar las cookies del navegador",
+        "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Si no se cargan los vídeos de YouTube y otros servicios, selecciona el navegador que sueles utilizar para cargar las cookies al reproducir esos vídeos. Esto aumenta las posibilidades de que el vídeo se cargue correctamente.",
 
         "Settings.PostProcessingSettings": "Post Procesado",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Intensidad de Desenfoque de Movimiento",
@@ -1865,6 +2067,24 @@
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Controla la calidad del filtrado anisotrópico.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Recargar Todas las Texturas (puede ser pesado)",
 
+        "Settings.GaussianSplatQualitySettings": "Calidad de Renderizado del Salpicado Gaussiano",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "Ordenamiento de mega‑operaciones por cámara",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description": "Al renderizar las Salpicaduras Gaussianas, estas deben ordenarse para cada cámara. Actualmente, esta operación puede resultar bastante pesada, por lo que se distribuye a lo largo del tiempo para mejorar la velocidad de los fotogramas.<br><br><color=hero.yellow>Aumenta</color> el valor para que la ordenación se realice más rápido. Esto reducirá los artefactos al cambiar rápidamente el ángulo de visión alrededor de las Salpicaduras Gaussianas.<br><br><color=hero.yellow>Disminuye</color> el valor para reducir el uso de la GPU si esta tiene dificultades para gestionarlo. Sin embargo, esto aumentará los artefactos al cambiar rápidamente el ángulo de visión.",
+        "Settings.GaussianSplatQualitySettings.QualityPreset": "Preajuste de calidad",
+        "Settings.GaussianSplatQualitySettings.QualityPreset.Description": "Esto controla la calidad de las salpicaduras gaussianas renderizadas y su consumo de VRAM. Una calidad más alta consumirá más VRAM.<br><br><color=hero.yellow>Muy baja:</color> ~18.62x más pequeña <br><color=hero.yellow>Baja:</color> ~14x más pequeña <br><color=hero.yellow>Media:</color> ~5.14x más pequeña <br><color=hero. amarillo>Alta:</color> ~2.94x más pequeño<br><color=hero.yellow>Muy alta:</color> Sin comprimir (original)",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality": "Calidad mínima de compresión local",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description": "Para las salpicaduras gaussianas importadas localmente, la calidad nunca será inferior a este valor.<br><br>No recomendamos establecer este valor por debajo de Medio, ya que los niveles de calidad inferiores requieren una compresión mucho más intensa y lenta, por lo que es mejor dejarlos para que se compriman en la nube.<br><br>Si se establece en Muy Alto, las salpicaduras gaussianas se cargarán mucho más rápido tras la importación, ya que no será necesario comprimirlas, a cambio de un mayor consumo de VRAM.",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality": "Ajustes de calidad avanzados",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description": "Cuando está habilitado, puedes configurar las codificaciones específicas que se utilizan para los distintos búferes de Salpicadura Gaussiana. Esto te permite controlar la calidad con gran precisión. También se puede utilizar con fines de prueba o diagnóstico.",
+        "Settings.GaussianSplatQualitySettings.PositionFormat": "Formato de los datos de posición",
+        "Settings.GaussianSplatQualitySettings.PositionFormat.Description": "Codificación utilizada para las posiciones de las salpicaduras",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat": "Formato de los datos de escala",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat.Description": "Codificación utilizada para las escalas de las salpicaduras",
+        "Settings.GaussianSplatQualitySettings.ColorFormat": "Formato de los datos de color",
+        "Settings.GaussianSplatQualitySettings.ColorFormat.Description": "Codificación utilizada para los colores y la opacidad de las salpicaduras",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat": "Formato de los datos de armónicos esféricos",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description": "Codificación utilizada para los datos de armónicos esféricos de las salpicaduras",
+
         "Settings.ResolutionSettings": "Resolución",
         "Settings.ResolutionSettings.Fullscreen": "Pantalla Completa",
         "Settings.ResolutionSettings.Fullscreen.Description": "Alterna entre modo pantalla completa y ventana.",
@@ -1885,6 +2105,26 @@
         "Settings.RenderingQualitySettings.ShadowDistance.Description": "Controla la distancia que cubren las sombras. Incrementar el valor asegurará que las zonas más distantes de la escena estén correctamente sombreadas, pero también distribuye el detalle de la sombra a lo largo de un área mayor.\n\nDeberías cambiar esta opción junto con la de resolución y cascadas de sombras - con mayor resolución de sombras, puedes permitir una mayor distancia. Si disminuyes la resolución y cascadas de las sombras, querrás disminuir la distancia de sombras con tal que esas sombras tengan una mejor definición.",
         "Settings.RenderingQualitySettings.SkinWeightMode": "Pesos de Esqueleto",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Para cualquier malla que esté transformada por un esqueleto (modelos 3D como la mayoría de avatares), controla cuántos huesos son usados para afectar la posición de cada vértice.\n\nDisminuir el valor aliviará la carga de rendimiento, pero la calidad de las deformaciones de las mallas será menor, resultando en pliegues pronunciados y otros artefactos, usualmente alrededor de las articulaciones.",
+
+        "Settings.RendererDecouplingSettings": "Desacoplamiento del Motor de Renderizado",
+        "Settings.RendererDecouplingSettings.ActivationFramerate": "Velocidad de fotogramas de activación",
+        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "Esto controla cuándo se activa la desacoplamiento del motor de renderizado. Si la velocidad de fotogramas actual cayera por debajo de este valor, el motor de renderizado comenzará a volver a renderizar la escena sin esperar a recibir nuevos fotogramas del motor.\n\nEsto ayuda a suavizar algunos de los tirones y a mitigar las interrupciones en la reproducción de vídeos o los bloqueos de la vista en las gafas de realidad virtual; sin embargo, el resto de elementos de la escena quedarán congelados.\n\nSi se establece este valor en 0, se desactiva este mecanismo.",
+        "Settings.RendererDecouplingSettings.DeactivationFrames": "Conteo de fotogramas de desactivación",
+        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "Cuando el desacoplamiento está activo, este valor indica cuántos fotogramas estables (por encima del umbral de activación) deben renderizarse antes de que se desactive el mecanismo de desacoplamiento. Esto puede ayudar a evitar que el mecanismo se active y desactive repetidamente tras varios tirones sucesivos.",
+        "Settings.RendererDecouplingSettings.ForceDecouple": "Forzar desacoplamiento",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "Cuando se activa, el renderizador estará forzadamente desacoplado de forma continua y seguirá renderizando nuevos fotogramas lo más rápido posible sin esperar al motor principal.\n\n<color=hero.red>¡ADVERTENCIA!</color> Esto resulta útil principalmente para la depuración y para diagnosticar si el cuello de botella está en la CPU o en la GPU (si el cuello de botella está en la CPU, la tasa de fotogramas aumentará significativamente con esta opción activada) y no está pensado para un uso normal. \n\nEs posible que experimentes un parpadeo significativo, fluctuaciones y una carga/subida lenta de los recursos.",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "Procesamiento máximo de recursos desacoplados (milisegundos)",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "Este parámetro controla el tiempo máximo que el motor de renderizado dedicará a cargar recursos en la GPU cuando el mecanismo de desacoplamiento esté activo. Reducir este valor puede aumentar la velocidad máxima de fotogramas (por ejemplo, al probar el rendimiento máximo de la GPU), pero puede reducir el rendimiento de la carga y, con valores muy bajos, puede ralentizar la actualización de la interfaz de usuario.",
+
+        "Settings.ImportSettings": "Ajustes de Importación",
+        "Settings.ImportSettings.SessionUrls": "Al Importar la URL de una Sesión",
+        "Settings.ImportSettings.SessionUrls.Description": "Qué debe suceder al importar una URL de Sesión. Las opciones disponibles son:\n\n<color=hero.yellow>Abrir</color> - Abre la sesión.\n<color=hero.yellow>CrearInterfaz</color> - Genera una representación (como un orbe de sesión) de la URL en tu ubicación actual.\n<color=hero.yellow>CrearUrl</color> - Genera la URL en tu ubicación actual como una interfaz de URL.",
+        "Settings.ImportSettings.WorldUrls": "Al Importar la URL de un Mundo",
+        "Settings.ImportSettings.WorldUrls.Description": "Qué debe suceder al importar una URL de Mundo. Las opciones disponibles son:\n\n<color=hero.yellow>Abrir</color> - Abre el mundo.\n<color=hero.yellow>CrearInterfaz</color> - Genera una representación (como un orbe del mundo) del mundo en tu ubicación actual.\n<color=hero.yellow>CrearUrlcolor> - Genera la URL en tu ubicación actual como una interfaz de URL.",
+        "Settings.ImportSettings.NetworkUrls": "Al Importar la URL de una Red",
+        "Settings.ImportSettings.NetworkUrls.Description": "Qué debe suceder cuando se importa una URL de Red. Las opciones disponibles son:\n\n<color=hero.yellow>Abrir</color> - Abre una conexión con la sesión en la URL.\n<color=hero.yellow>CrearInterfaz</color> - Genera una representación (como un orbe de sesión) de la URL en tu ubicación actual.\n<color=hero.yellow>CrearUrl</color> - Genera la URL en tu ubicación actual como una interfaz de URL.",
+
+        "Settings.MysterySettings": "Ajustes Misteriosos",
 
         "LocomotionArchetype.Walk": "Caminar",
         "LocomotionArchetype.Fly": "Volar",
@@ -1959,6 +2199,7 @@
         "Inspector.Member.SplitBlendshape.X": "Dividir Forma Clave sobre X",
         "Inspector.Member.SplitBlendshape.Y": "Dividir Forma Clave sobre Y",
         "Inspector.Member.SplitBlendshape.Z": "Dividir Forma Clave sobre Z",
+        "Inspector.Member.SplitBlendshapeToStaticMesh": "Separar Formas Clave en una malla estatica",
 
         "Inspector.ProceduralAsset.UpdateCount": "Cuenta de Actualizaciones: {n}",
         "Inspector.ProceduralAsset.Error": "Error: {error}",
@@ -2005,8 +2246,15 @@
         "Inspector.MeshRenderer.MergeByMaterial": "Unir sub-mallas por material",
         "Inspector.MeshRenderer.SplitByMaterial": "Separar en mallas diferentes por material",
 
+        "Inspector.GaussianSplatRenderer.GeneratePointCloudCollider": "Generar colisionador de nube de puntos",
+
         "Inspector.MeshCollider.VHACD": "Descomposición de Envolvente Convexo (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Reemplazar con Colisionador de Caja",
+
+        "Inspector.Texture3D.SpawnVisualizer": "Crear Visualizador",
+
+        "Inspector.Skybox.SetActiveSkybox": "Establecer como skybox activo",
+        "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Establecer como luz ambiental activa",
 
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Actualizar módulos de locomoción en usuarios presentes",
 
@@ -2033,8 +2281,9 @@
         "Inspector.VHACD.RemoveVisuals": "Quitar Visualizaciones",
         "Inspector.VHACD.RemoveHulls": "Quitar Envolventes",
 
-        "Inspector.ReflectionProbe.Bake": "Hornear Reflexiones",
+        "Inspector.ReflectionProbe.Bake": "Hornear Reflejos",
         "Inspector.ReflectionProbe.Baking": "Horneando...",
+        "Inspector.ReflectionProbe.OnChangesRenderCount": "Conteo de renderizaciones OnChanges: {count}",
 
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Separar partes de la malla sin formas clave",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Remover Formas Clave Vacías",
@@ -2051,6 +2300,7 @@
         "Inspector.SkinnedMesh.BakeToStaticMesh": "Hornear a Malla Estática",
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "Ordenar Formas Clave (por nombre)",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Ordenar Formas Clave (por largo del nombre, luego el nombre)",
+        "Inspector.SkinnedMesh.ResetBonesToBindPoses": "Restablecer los huesos a las poses vinculadas",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Quitar Todas las Instancias",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Quitar Instancia",
@@ -2093,6 +2343,10 @@
         "Inspector.Texture.SwapGB": "Intercambiar G <--> B",
         "Inspector.Texture.SwapGA": "Intercambiar G <--> A",
         "Inspector.Texture.SwapBA": "Intercambiar B <--> A",
+        "Inspector.Texture.IsolateR": "Aislar el Canal Rojo",
+        "Inspector.Texture.IsolateG": "Aislar el Canal Verde",
+        "Inspector.Texture.IsolateB": "Aislar el Canal Azul",
+        "Inspector.Texture.IsolateA": "Aislar el Canal Alfa",
         "Inspector.Texture.AddWhiteBackground": "Añadir Fondo Blanco",
         "Inspector.Texture.AddBlackBackground": "Añadir Fondo Negro",
         "Inspector.Texture.Hue": "Tono:",
@@ -2158,6 +2412,11 @@
         "Inspector.AudioStream.DecodeState": "Paquetes Totales: {total}, Paquetes Perdidos: {lost}, Pérdida de Paquetes: {loss, number, percent}",
         "Inspector.AudioStream.BufferStats": "Promedio Codec: {avgCodec}/s, Promedio Leídos: {avgRead}/s, Promedio Escritos: {avgWritten}/s",
 
+        "Inspector.GaussianSplat.SplatInfo": "Conteo de Salpicaduras: {count}, uso de VRAM: {vram}",
+        "Inspector.GaussianSplat.Variant": "Variante cargada: {variant}",
+        "Inspector.GaussianSplat.ColorByIndex": "Color de Salpicaduras por Indice",
+        "Inspector.GaussianSplat.ReorderMorton": "Reordenar salpicaduras con ordenación de Morton",
+
         "Inspector.DynamicBoneChain.SetupFromChildren": "Configurar Según Subordinados",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll": "Configurar Según Subordinados (forzar todos)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "Configurar Según Subordinados (sólo esqueleto)",
@@ -2179,6 +2438,13 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ADVERTENCIA!</size></color><br>Es posible usar este componente como un cuerpo rígido simple activando SimulateRotation. Antes de hacerlo, tenga en cuenta que no está optimizado para este propósito, y el soporte para cuerpos rígidos será implementado en un futuro.<br>La simulación de cuerpos rígidos ofrecerá:<br><b>- Eficiencia de CPU y red</b> - usar CharacterController tiene un costo mayor de uso de CPU y genera una gran cantidad de tráfico de red<br><b>- Restricciones</b> - podrá crear articulaciones, bisagras, resortes y otras restricciones entre cuerpos rígidos<br><b>- Simulaciones suaves e interacciones para todos</b> - CharacterController fallará en ser preciso si otra persona interactúa<br><b>- Nuevas Funcionalidades y Herramientas</b> - para facilitar su uso<br>-----------------------<br>Puede encontrar más en el Tema de GitHub #22. Entendiendo éstas limitaciones, diviértase!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ADVERTENCIA!</size></color><br>Es posible usar este componente para interactuar con referencias al usar sus IDs. Este proceso es comúnmente llamado 'Ref Hacking'.<br><br><b>Antes</b> de que hagas esto, entienda que esto <b>no</b> está soportado y podría dejar de funcionar en cualquier momento. No dependa de esta función para sus creaciones.",
+        "Inspector.FacetPreset.Warning": "<color=red><size=125%>¡ADVERTENCIA!</size></color><br>FacetPresets actualizará automáticamente su contenido cuando publiquemos nuevas versiones de esos ajustes preestablecidos. Si estás creando una versión personalizada, te recomendamos que elimines este componente.",
+        "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>¡ADVERTENCIA!</size></color><br> Este componente no está diseñado como un sistema de seguridad ni como protección contra el robo de recursos. Está pensado para utilizarse en casos en los que se desee bloquear los métodos más sencillos de guardar partidas por motivos de jugabilidad o de diseño. Se puede eludir fácilmente y no se reforzará su seguridad bajo ninguna circunstancia.",
+
+        "Inspector.AI_GeneratedContent.Info": "Este componente está pensado para identificar el contenido generado por IA generativa. Se recomienda colocarlo en la raíz de los objetos generados mediante estos métodos. De este modo, se añadirán etiquetas automáticamente tanto al guardar el elemento como al guardar el mundo con esos componentes presentes, lo que permitirá filtrar este contenido.",
+
+        "Inspector.ParticleSystem.BasicInfo": "Particulas: {count}, FPS: {fps}, Simulation Tiempo: {time}, Hora de envío: {renderSubmitTime}, Asignaciones de renderizado: {allocationCount}",
+        "Inspector.ParticleSystem.TrailInfo": "Estelas: {trailCount} (capacidad: {trailCapacity}), Capacidad de Puntos de Estela: {trailPointCapacity}, Asignaciones: {allocationCount}",
 
         "Inspector.ParticleStyle.CommonTransitions": "Plantillas de Transiciones Comunes:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Desvanecimiento de Alfa de Entrada y Salida",
@@ -2206,6 +2472,11 @@
         "Inspector.Actions.CopyComponent": "Copiar Componente",
         "Inspector.Actions.MoveComponent": "Mover Componente",
 
+        "Inspector.Wizard.PackTexture": "Empaquetar Textura",
+        "Inspector.Wizard.UnpackTexture": "Desempaquetar Textura",
+
+        "Inspector.Error": "<color=hero.red>¡Error! Comprueba los logs.</color>",
+
         "UserInspector.Title": "Inspector de Usuario",
 
         "WorkerInspector.Title": "Inspector de {name}",
@@ -2219,7 +2490,7 @@
 
         "Wizard.AssetOptimization.Title": "Asistente de Optimización de Recursos",
         "Wizard.AssetOptimization.CleanupUnusedAssets": "Limpiar Recursos No Usados",
-        "Wizard.AssetOptimization.CleanupEmptySlots": "Limpiar Ranuras Vacías",
+        "Wizard.AssetOptimization.CleanupEmptySlots": "Limpiar Slots vacíos",
         "Wizard.AssetOptimization.CleanupDisabledMeshRenderers": "Limpiar Renderizadores de Mallas Deshablitados",
         "Wizard.AssetOptimization.DeduplicateMaterials": "Desduplicar Materiales",
         "Wizard.AssetOptimization.CleanupFileItems": "Limpiar Objetos de Archivo",
@@ -2239,8 +2510,10 @@
         "Wizard.LightSources.DisabledLights": "Luces Deshabilitadas:",
         "Wizard.LightSources.WithTag": "Con Etiqueta:",
         "Wizard.LightSources.SetShadowType": "Establecer Tipo de Sombra",
-        
-        
+        "Wizard.LightSources.MultiplyIntensity": "Multiplicar Intensidad",
+        "Wizard.LightSources.SetIntensity": "Establecer intensidad",
+        "Wizard.LightSources.MultiplyRange": "Multiplicar Rango",
+        "Wizard.LightSources.SetRange": "Establecer rango",        
         "Wizard.LightSources.Enable": "Habilitar",
         "Wizard.LightSources.Disable": "Deshabilitar",
         "Wizard.LightSources.Destroy": "Destruir",
@@ -2276,6 +2549,25 @@
         "Wizard.TextRenderer.ReplaceMaterial": "Reemplazar Material",
         "Wizard.TextRenderer.ReplaceFont": "Reemplazar Fuente",
         "Wizard.TextRenderer.SetColor": "Establecer Color",
+
+        "Wizard.TextureWizards.DefaultValue": "Valor Predeterminado",
+        "Wizard.TextureWizards.Invert": "Invertir",
+        "Wizard.TextureWizards.ClearTexture": "Quitar Textura",
+        "Wizard.TextureWizards.ResolutionOverride": "Sobrescritura de resolución",
+        "Wizard.TextureWizards.PlaceTextureHere": "Coloca Aquí la Textura",
+
+        "Wizard.TexturePacker.Title": "Asistente de empaquetado de texturas",
+        "Wizard.TexturePacker.Packing": "Empaquetando...",
+        "Wizard.TexturePacker.PackTextures": "Empacar Texturas",
+        "Wizard.TexturePacker.Output": "Salida",
+        "Wizard.TexturePacker.AutomaticSizeHandling": "Gestión Automática del Tamaño",
+        "Wizard.TexturePacker.UseSmallest": "Utilizar el más pequeño",
+        "Wizard.TexturePacker.UseLargest": "Utilizar el más grande",
+        "Wizard.TexturePacker.GenerateMipmaps": "Generar Mipmaps",
+
+        "Wizard.TextureUnpacker.Title": "Asistente de desempaquetado de texturas",
+        "Wizard.TextureUnpacker.Unpacking": "Desempaquetando...",
+        "Wizard.TextureUnpacker.UnpackTexture": "Desempaquetar Textura",
 
         "Desktop.Controls.Title": "Controles de Escritorio",
         "Desktop.OpenKeyboard": "Abrir Teclado",
@@ -2488,7 +2780,25 @@
         "Tutorial.Saving.Title": "¡Bienvenido a tu hogar!",
         "Tutorial.Saving.Content": "¡Bienvenido a tu <b><i><color=hero.yellow>Hogar</b></i></color>! Llegarás aquí cada vez que inicies sesión.<br><br>Este es un mundo completamente tuyo, por ende será posible guardar cualquier cambio.<br><br>Si guardas, ¡todo estará exactamente como lo dejaste cuando regreses!",
 
-        
+        "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Sesión sin nombre</closeall>",
+        "Tutorial.Teleporter.SessionList.UnnamedHost": "Anfitrión: <i><alpha=#77>Anónimo</closeall>",
+        "Tutorial.Teleporter.SessionList.HostName": "Anfitrión: <b>{hostName}</b>",
+        "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} Usuarios Presentes",
+        "Tutorial.Teleporter.SessionList.PublicSessions": "Sesiones Públicas",
+        "Tutorial.Teleporter.SessionList.NoPublicSessions": "¡No hay sesiones públicas disponibles! :(<br><size=66%>Sin embargo, aún tienes algunas opciones:</size>",
+
+        "Tutorial.Teleporter.ChooseDestination": "Elige a dónde quieres ir ahora",
+
+        "Tutorial.Teleporter.Destinations.CloudHome": "Ve a tu Mundo Hogar",
+        "Tutorial.Teleporter.Destinations.AvatarWorld": "Ve al Avatar Gazebo",
+        "Tutorial.Teleporter.Destinations.PickAnotherSession": "Elige otra sesión",
+        "Tutorial.Teleporter.Destinations.PickPublicSession": "Únete a una sesión pública",
+
+        "Tutorial.Teleporter.WorldsTabHint": "¡También puedes encontrar mundos a los que unirte <br> utilizando el navegador de mundos de tu panel!",
+
+        "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>¡Error al conectarse a la sesión! :(</color><br><size=66%>Sin embargo, aún tienes algunas opciones:</size>",
+
+        "Tutorial.Teleporter.Transporting": "Teletransportando...",
 
         "CloudHome.Info.OnlineUsers": "{online_users,plural, one {Usuario} other {Usuarios}} en línea: {online_users}<br>{joinable_users,plural, one {Disponible} other {Disponibles}} para unirse: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderación",
@@ -2574,8 +2884,11 @@
         "CloudHome.Panel.Quality": "Calidad",
         "CloudHome.Panel.Doors": "Puertas",
         "CloudHome.Panel.Audio": "Audio",
+        "CloudHome.Panel.RealtimeReflections": "Reflejos en tiempo real",
         "CloudHome.Panel.OverheadLighting": "Iluminación de techo",
         "CloudHome.Panel.Sconces": "Candelabros",
+        "CloudHome.Panel.SpotLights": "Focos",
+        "CloudHome.Panel.TableLights": "Lámparas de Mesa",
         "CloudHome.Panel.FurnitureVisibility": "Visibilidad de Muebles",
 
         "CloudHome.Panel.LowQualityMode": "Modo Baja Calidad",
@@ -2629,6 +2942,16 @@
         "Tutorial.Panel.TeleportLocomotion.Title": "Locomoción de Teletransporte",
         "Tutorial.Panel.TeleportLocomotion.Content": "Teletranspórtate inmediatamente al indicador de teletransporte.",
 
+        "Tutorial.DashboardInfo.Header": "Tu Panel",
+        "Tutorial.DashboardInfo.Content": "El <b><color=hero.cyan>Panel</closeall> es tu menú principal - ¡con el, puedes hablar con otros, encontrar nuevos mundos para explorar, y mas!<br><br>Si necesitas más ayuda, echa un vistazo a la <b><color=hero.purple>pestaña Ayuda.",
+        "Tutorial.DashboardInfo.GotIt": "¡Entendido!",
+
+        "Tutorial.MentorPanel.Title": "¿Necesitas ayuda?",
+        "Tutorial.MentorPanel.Content": "Busca a los usuarios que tengan esta insignia sobre la cabeza - pídeles ayuda, ¡están aquí para <i>ti</i>!",
+
+        "Tutorial.HelpTabPanel.Title": "¿Necesitas ayuda?",
+        "Tutorial.HelpTabPanel.Content": "En tu Panel hay una pestaña de ayuda donde puedes consultar información sobre {appName}!",
+
         "Hints.Spawn.InitialMovementDesktop": "¡Usa las teclas de movimiento para caminar!",
         "Hints.Spawn.InitialMovementVR": "¡Usa tus joysticks para caminar!",
         "Hints.Spawn.InitialMovementVRNoButtons": "¡Usa tus trackpads para caminar!",
@@ -2672,8 +2995,14 @@
         "Hints.Sundial.Dequip": "Suelta la herramienta equipada seleccionando Desequipar en su Menú Contextual.",
         "Hints.Sundial.DequipExtra": "Observe que las opciones en su Menú Contextual han cambiado por usar esta herramienta.",
 
-        
-        
+        "Hints.Sundial.Doorway": "¡Entra para continuar!",
+
+        "Hints.DashboardDesktop": "¡Abre y cierra el Panel de control pulsando la tecla Esc!",
+        "Hints.DashboardVR": "¡Abre y cierra el Panel pulsando el botón de menú!",
+        "Hints.DashboardExtra": "A continuación encontrarás más información sobre el Panel.",
+
+        "Hints.Teleporter": "¡Sube al teletransportador y elige a dónde quieres ir ahora!",
+        "Hints.TeleporterExtra": "Vayas donde vayas, ¡disfruta de tu estancia en {appName}!",
 
         "UI.TextDisplay.Landscape": "Paisaje",
         "UI.TextDisplay.Portrait": "Retrato",
@@ -2704,6 +3033,7 @@
         "UI.ColorPicker.Linear": "Lineal",
 
         "UI.ColorPicker.Hexadecimal": "Hexadecimal",
+        "UI.ColorPicker.Blackbody": "Temperatura de color (K)",
         "UI.ColorPicker.ColorSwatches": "Muestra",
 
         "UI.ColorPicker.Red": "Rojo",
@@ -2728,32 +3058,425 @@
         "Tools.Names.ManipulationTools": "Herramientas de Manipulación ",
         "Tools.Names.InformationTools": "Herramientas de Información ",
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
         "Discord.RichPresence.InPrivateWorld": "En mundo privado",
         "Discord.RichPresence.InPrivateLargeText": "En privado ({version})",
         "Discord.RichPresence.InPublicWorld": "En mundo público",
         "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} mundos)",
         "Discord.RichPresence.InPublicLargeText": "En público ({version})",
+
+        "Universe.UI.Narrative": "Narrative",
+        "Universe.UI.Freeform": "Forma libre",
+        "Universe.Stars.Sun": "Sol",
+        "Universe.Stars.Sirius": "Sirio (Sirius)",
+        "Universe.Stars.Pollux": "Pólux (Pollux)",
+        "Universe.Stars.Arcturus": "Arturo (Arcturus)",
+        "Universe.Stars.Aldebaran": "Aldebarán",
+        "Universe.Stars.Rigel": "Rigel",
+        "Universe.Stars.Antares": "Antares",
+        "Universe.Stars.Betelgeuse": "Betelgeuse",
+        "Universe.Stars.VYCanisMajoris": "VY Canis Majoris",
+        "Universe.Stars.NMLCygni": "NML Cygni",
+        "Universe.Stars.UYScuti": "UY Scuti",
+        "Universe.SolarSystem.SolarSystem": "Sistema Solar",
+        "Universe.SolarSystem.Mercury": "Mercurio",
+        "Universe.SolarSystem.Venus": "Venus",
+        "Universe.SolarSystem.Earth": "Tierra",
+        "Universe.SolarSystem.Mars": "Marte",
+        "Universe.SolarSystem.Jupiter": "Júpiter",
+        "Universe.SolarSystem.Saturn": "Saturno",
+        "Universe.SolarSystem.Uranus": "Urano",
+        "Universe.SolarSystem.Neptune": "Neptuno",
+        "Universe.SolarSystem.Pluto": "Plutón",
+        "Universe.SolarSystem.Moon": "Luna",
+        "Universe.SolarSystem.Phobos": "Fobos",
+        "Universe.SolarSystem.Charon": "Caronte",
+        "Universe.SolarSystem.Callisto": "Calisto",
+        "Universe.SolarSystem.AsteroidGanymed": "Asteroide 1036 Ganimedes",
+        "Universe.SolarSystem.Deimos": "Deimos",
+        "Universe.SolarSystem.Ganymede": "Ganímedes (Luna)",
+        "Universe.SolarSystem.Mithra": "Asteroide 4486 Mitra",
+        "Universe.SolarSystem.Geographos": "Asteroide 1620 Geographos",
+        "Universe.SolarSystem.Kelopatra": "Asteroide 216 Cleopatra",
+        "Universe.SolarSystem.HW1": "Asteroide (8567) 1996 HW1",
+        "Universe.SolarSystem.Golevka": "Asteroide 6489 Golevka",
+        "Universe.SolarSystem.Toutatis": "Asteroide 4179 Teutates",
+        "Universe.SolarSystem.Bennu": "Asteroide 101955 Bennu",
+        "Universe.Animals.Bee": "Abeja(Apis Mellifera)",
+        "Universe.Animals.FinWhale": "Ballena de aleta",
+        "Universe.Animals.DustMite": "Ácaro",
+        "Universe.Animals.Eel": "Anguila",
+        "Universe.Animals.Bream": "Brema (pez)",
+        "Universe.Animals.BottlenoseDolphin": "Delfín Nariz de Botella ",
+        "Universe.Animals.Brachiosaurus": "Braquiosaurio",
+        "Universe.Animals.Mouse": "Ratón",
+        "Universe.Animals.GiantSquid": "Calamar Gigante",
+        "Universe.Animals.Tardigrade": "Tardígrado",
+        "Universe.Animals.TRex": "Tiranosaurio Rex",
+        "Universe.Biology.AverageHumanCell": "Célula Humana",
+        "Universe.Biology.Adenovirus": "Virus Adenovirus",
+        "Universe.Biology.YChromosome": "Cromosoma Y",
+        "Universe.Biology.Mitochrondrion": "Mitocondria",
+        "Universe.Biology.PorcineCircovirus": "Circovirus Porcino",
+        "Universe.Biology.Salmonella": "Salmonela",
+        "Universe.Biology.Bacteriophage": "Bacteriófago",
+        "Universe.Biology.HumanBrain": "Cerebro Humano",
+        "Universe.Biology.RedBloodCell": "Glóbulo Rojo",
+        "Universe.Biology.WhiteBloodCell": "Glóbulo Blanco",
+        "Universe.Biology.XChromosome": "Cromosoma X",
+        "Universe.Biology.EColi": "E Coli",
+        "Universe.Biology.DNA": "ADN",
+        "Universe.Biology.AlphaHelix": "Hélice alfa",
+        "Universe.Biology.Rhinovirus": "Rhinovirus",
+        "Universe.Biology.Ribosome": "Ribosoma",
+        "Universe.Biology.Chloroplast": "Cloroplasto",
+        "Universe.Biology.PhospholipidBilayer": "Bicapa Lipídica",
+        "Universe.Biology.Paramecium": "Paramecio",
+        "Universe.Biology.HIV": "VIH",
+        "Universe.Biology.Hair": "Cabello",
+        "Universe.Biology.HepatitisB": "Hepatitis B",
+        "Universe.Biology.Platelet": "Plaqueta",
+        "Universe.Biology.LargestBacteria": "La bacteria más grande",
+        "Universe.Particles.Electron": "Electrón",
+        "Universe.Particles.Proton": "Proton",
+        "Universe.Particles.Neutron": "Neutrón",
+        "Universe.Atoms.Hydrogen": "Átomo de Hidrógeno",
+        "Universe.Atoms.Helium": "Helio",
+        "Universe.Atoms.Sulfur": "Átomo de Azufre",
+        "Universe.Common.Duckweed": "Lenteja de Agua",
+        "Universe.Common.Daisy": "Margarita(Leucanthemum superbum)",
+        "Universe.Common.SiltParticle": "Partícula de Limo",
+        "Universe.Common.SandGrain": "Grano de Arena",
+        "Universe.Common.CoffeeBean": "Grano de Café",
+        "Universe.Common.MatchStick": "Cerilla",
+        "Universe.Common.SaltGrain": "Grano de Sal",
+        "Universe.Common.USCent": "1 Centavo Estadounidense",
+        "Universe.Common.Train": "Tren (locomotora)",
+        "Universe.Common.ChickenEgg": "Huevo de Gallina",
+        "Universe.Common.Paper": "Papel",
+        "Universe.Common.Pencil": "Mina de Lápiz",
+        "Universe.Common.OstrichEgg": "Huevo de Avestruz",
+        "Universe.Common.Earthworm": "Lombriz de Tierra",
+        "Universe.Common.RiceGrain": "Grano de Arroz",
+        "Universe.Common.SunflowerSeed": "Semilla de Girasol",
+        "Universe.Common.BeachBall": "Pelota de Playa",
+        "Universe.Common.Snowflake": "Copo de Nieve",
+        "Universe.Common.ClayParticle": "Partícula de Arcilla",
+        "Universe.Common.BasketBall": "Baloncesto",
+        "Universe.Common.Hailstone": "Granizo",
+        "Universe.Common.FootballField": "Campo de Fútbol",
+        "Universe.Common.DouglasFir": "Pino de Oregón",
+        "Universe.Common.Human": "Humano",
+        "Universe.Wavelength.BlackLight": "Luz Negra",
+        "Universe.Wavelength.FarUV": "UV Lejano",
+        "Universe.Wavelength.MiddleUV": "UV Medio",
+        "Universe.Wavelength.Gamma": "Rayos gamma",
+        "Universe.Wavelength.XRayHard": "Rayos X Duros",
+        "Universe.Wavelength.XRaySoft": "Rayos X Blandos",
+        "Universe.Wavelength.ExtremeUV": "UV Extremo",
+        "Universe.Wavelength.NearUV": "UV Cercano",
+        "Universe.Wavelength.Microwave": "Microondas",
+        "Universe.Wavelength.Purple": "Luz Púrpura",
+        "Universe.Wavelength.Cyan": "Luz Cian",
+        "Universe.Wavelength.Yellow": "Luz Amarilla",
+        "Universe.Wavelength.Red": "Luz Roja",
+        "Universe.Wavelength.FM": "Radio FM",
+        "Universe.Wavelength.AM": "Radio AM",
+        "Universe.Geology.AllWater": "Toda el Agua de la Tierra",
+        "Universe.Geology.LiquidFreshWater": "Agua Dulce Líquida",
+        "Universe.Geology.WaterInLakesAndRivers": "El agua de los lagos y ríos",
+        "Universe.Countries.USA": "EE.UU.",
+        "Universe.Countries.CzechRepublic": "República Checa",
+        "Universe.Countries.UnitedKingdom": "Reino Unido",
+        "Universe.Countries.Ukraine": "Ucrania",
+        "Universe.Countries.Australia": "Australia",
+        "Universe.Cities.Paris": "París",
+        "Universe.Nebulae.CatEye": "Nebulosa Ojo de Gato",
+        "Universe.Nebulae.Crab": "Nebulosa del Cangrejo",
+        "Universe.Nebulae.Butterfly": "Nebulosa de la Mariposa",
+        "Universe.Nebulae.NGC604": "NGC 604 - Guardería Estelar Gigante ",
+        "Universe.Nebulae.Orion": "Nebulosa de Orión",
+        "Universe.Nebulae.Tarantula": "Nebulosa Tarántula",
+        "Universe.Nebulae.Ring": "Nebulosa del Anillo",
+        "Universe.Nebulae.Eagle": "Nebulosa del Águila",
+        "Universe.Technology.ISS": "Estación Espacial Internacional",
+        "Universe.Technology.Starship": "Transporte Starship (SpaceX)",
+        "Universe.Technology.Sputnik": "Satélite Sputnik 1",
+        "Universe.Technology.MoonLander": "Módulo Lunar de la NASA",
+        "Universe.Technology.Voyager": "Voyager de la NASA",
+        "Universe.Technology.Ingenuity": "Helicóptero Ingenuity de la NASA para Marte",
+        "Universe.Technology.TransistorGate": "Puerta del Transistor",
+        "Universe.Technology.CPU": "CPU",
+        "Universe.Technology.MicroSD": "Tarjeta MicroSD",
+        "Universe.Technology.Note4": "Galaxy Note 4",
+        "Universe.Technology.Car": "Auto",
+        "Universe.Technology.CargoShip": "Buque de Carga",
+        "Universe.Landmarks.PyramidOfKhafre": "Pirámide de Kefrén",
+        "Universe.Landmarks.DistanceFromLA2SF": "Distancia entre Los Ángeles y San Francisco",
+        "Universe.Landmarks.EiffelTower": "Torre Eiffel",
+        "Universe.Landmarks.StatueOfLiberty": "Estatua de la Libertad",
+        "Universe.Landmarks.MountEverest": "Everest",
+        "Universe.Landmarks.LHC": "Gran Colisionador de Hadrones",
+        "Universe.Chemistry.Ethanol": "Etanol",
+        "Universe.Chemistry.CarbonNanotube": "Nanotubo de Carbono",
+        "Universe.Chemistry.Glucose": "Glucosa",
+        "Universe.Chemistry.Water": "Agua",
+        "Universe.Galaxies.MilkyWay": "Vía Láctea",
+        "Universe.Universe.StarCluster": "Cúmulo de Estrellas",
+        "Universe.Galaxies.Andromeda": "Andrómeda",
+        "Universe.Galaxies.Sombrero": "Sombrero",
+        "Universe.Universe.GalaxyFillament": "Filamento Galáctico",
+        "Universe.Universe.ObservableUniverse": "Universo Observable",
+        "Universe.Galaxies.IC1101": "IC 1101",
+        "Universe.Galaxies.SmallMagellanicCloud": "Pequeña Nube de Magallanes (galaxia enana)",
+        "Universe.Galaxies.NGC1300": "NGC 1300 (Galaxia Espiral Barrada)",
+        "Universe.Galaxies.NGC4414": "NGC 4414",
+        "Universe.Units.Attometer": "Attómetro",
+        "Universe.Units.Femtometer": "Femtómetro",
+        "Universe.Units.Picometer": "Picómetro",
+        "Universe.Units.Angstrom": "Ángstrom",
+        "Universe.Units.Nanometer": "Nanómetro",
+        "Universe.Units.Micrometer": "Micrómetro",
+        "Universe.Units.Millimeter": "Milímetro",
+        "Universe.Units.Centimeter": "Centímetro",
+        "Universe.Units.Meter": "Metro",
+        "Universe.Units.Kilometer": "Kilómetro",
+        "Universe.Units.AU": "Unidad Astronómica",
+        "Universe.Units.LightSecond": "Segundo Luz",
+        "Universe.Units.LightYear": "Año luz",
+        "Universe.Units.Parsec": "Pársec",
+        "Universe.Units.Inch": "Pulgada",
+        "Universe.Units.Foot": "Pie",
+        "Universe.Units.Yard": "Yarda",
+        "Universe.Units.Mile": "Milla",
+        "Universe.Units.NauticalMile": "Milla Náutica",
+        "Universe.Units.HubbleLength": "Longitud Hubble",
+        "Universe.Units.EarthRadius": "Radio Terrestre",
+        "Universe.Units.LunarDistance": "Distancia Lunar",
+
+        "CloudHome.UpdateNotice.Header": "Aviso de Actualización",
+        "CloudHome.UpdateNotice.Content": "<align=center>¡Ya está disponible una versión más reciente de Mundo Hogar!<br><br>Tu versión lleva <closeallblock><b><color=hero.cyan>{version_mismatch_days,plural, one {# día} other {# días}}</color></b> desactualizada.</align><br><br>Haz clic en el enlace de abajo para visitarla. Mientras estás allí, puedes salvar el mundo si quieres utilizarlo.<br><br>Si quieres ver las novedades, echa un vistazo al canal <b><color=hero.purple>#devlog</color></b> de nuestro Discord.",
+        "CloudHome.UpdateNotice.WikiLinkName": "Wiki de {appName}: Actualiza Tu Hogar",
+        "CloudHome.UpdateNotice.DiscordLinkName": "Discord de {appName}",
+        "CloudHome.UpdateNotice.CloudHomeLinkName": "Visita el nuevo Mundo Hogar",
+
+        "Help.Help": "Ayuda",
+        "Help.ComingSoon": "¡Próximamente!",
+        "Help.ExampleText": "¡Texto de ejemplo!",
+        "Help.DataType": "Tipo:",
+        "Help.WikiLinkName.SyncErrors": "Wiki de {appName}: Errores de Sincronización",
+        "Help.WikiLinkName.CloudVariables": "Wiki de {appName}: Variables en la Nube",
+        "Help.WikiLinkName.SyncConflicts": "Wiki de {appName}: Conflictos de Sincronización",
+        "Help.WikiLinkName.StuckSyncs": "Wiki de {appName}: Sincronizaciones Atascadas",
+        "Help.WikiLinkName.RichTextFormatting": "Wiki de {appName}: Formato de Texto Enriquecido",
+        "Help.WikiLinkName.Groups": "Wiki de {appName}: Grupos",
+        "Help.WikiLinkName.FAQ": "Wiki de {appName}: Preguntas Frecuentes",
+
+        "Help.VROnlyNote": "<b><color=hero.Orange>Nota</closeall>: Esta función solo está disponible en Realidad Virtual.",
+
+        "Help.PlatformBotLinkName": "Ir al bot de {appName}",
+        "Help.PlatformEssentialsSubmissionLinkName": "Formulario de envío para {appName} Essentials",
+
+        "Help.Modal.Header": "¿En qué necesitas ayuda?",
+        "Help.Modal.Avatar": "Quiero configurar mi avatar...",
+        "Help.Modal.Explore": "Quiero explorar...",
+        "Help.Modal.Graphics": "¿Cómo cambio los gráficos?",
+        "Help.Modal.Socialize": "Quiero socializar...",
+        "Help.Modal.Building": "Quiero crear...",
+        "Help.Modal.BrowseTopics": "Me gustaría echar un vistazo por mi cuenta",
+
+        "Help.ControllerDiagram.ViewingYourControllerLayout": "Viendo la Disposición de Tu Controlador",
+        "Help.ControllerDiagram.GoToYourControllerLayout": "Ve a la Disposición de Tu Controlador",
+
+        "Help.HelpTabExploreReminder": "<br>Ahora que ya has terminado aquí, ¡no te olvides de echar un vistazo al resto de contenidos de la pestaña de ayuda! Haz clic en <b><color=hero.purple>Ayuda</closeall> en la esquina superior izquierda para volver a la página principal.",
+
+        "Help.MainPage.Content": "<br><align=center><b><size=250%>¡Bienvenido a la pestaña <color=hero.purple>Ayuda</color>!</closeall><br><br>Aquí encontrarás respuestas a muchas preguntas frecuentes, así como mucha información adicional si deseas profundizar en el tema. <b>¡Elige una categoría a la izquierda para empezar!</b><br><br><br><size=200%>Enlaces útiles:</size><br> ",
+        "Help.MainPage.Content2": "<br><size=200%>Preguntas frecuentes (FAQ):</size><br><size=66%><br>Preguntas frecuentes (Esta aclaración se pierde en la traducción)</size>",
+
+        "Help.FAQ.AvatarQuestions": "¿A quién puedo pedir ayuda para crear un avatar?",
+        "Help.FAQ.AvatarQuestions.Content": "¡Puedes pedir ayuda a cualquier <b><color=hero.green>mentor</closeall>! Los mentores son miembros voluntarios de la comunidad que dedican su tiempo a ayudar a los nuevos usuarios y a responder a las preguntas de la comunidad, además de ofrecer ayuda con los avatares. Los reconocerás por la insignia de mentor <sprite name=MentorIcon>.",
+
+        "Help.GettingStarted": "Primeros Pasos",
+        "Help.GettingStarted.Content": "<br><align=center><b><size=250%><color=hero.cyan>Primeros Pasos</color></size><br><br>Introducción guiada a {appName}</closeall><br><br><br>¡Elige una categoría a la izquierda para encontrar información rápida sobre lo que puedes hacer en {appName}!<br><br>Estas introducciones solo rozan la superficie de lo que {appName} tiene para ofrecer, así que echa un vistazo al resto de la pestaña de ayuda cuando hayas terminado aquí!",
+
+        "Help.GettingStarted.AvatarBasics": "Conceptos Básicos Sobre los Avatares",
+        "Help.GettingStarted.AvatarBasics.Equipping": "Equipar",
+        "Help.GettingStarted.AvatarBasics.Equipping.Content": "<b><color=hero.purple>Los avatares</closeall> en {appName} son como conjuntos de ropa - puedes ponerte el avatar que quieras cuando quieras, ¡y puedes tener muchos avatares o crear muchos en tu mundo! <br><br>Para ponerte un avatar,{is_desktop, select, True {} other { primero pulsa <b><color=hero.purple>{Primary_Input}</closeall> para mostrar tu láser. A continuación,}} apunta a él{is_desktop, select, True {} other { con tu láser}} y pulsa <b><color=hero.purple>{Primary_Input}</closeall>{is_desktop, select, True {} other { de nuevo}}. En el menú que aparece, selecciona <sprite name=EquipAvatar> <b><color=hero.green>Equipar Avatar</closeall>. ¡Ahora llevas puesto ese avatar!",
+        "Help.GettingStarted.AvatarBasics.Equipping.Content2": "Otra forma de ponerse un avatar es agarrarlo primero con <b><color=hero.purple>{Grip_Input}</closeall> y, a continuación, abrir el <color=hero.cyan><b>Menú Contextual</closeall> {is_using_vive_wands, select, True {pulsando rápidamente} other {con}} <b><color=hero.purple>{Context_Menu_Input}</closeall> y seleccionar <sprite name=EquipAvatar> <b><color=hero.green>Equipar Avatar</closeall>.",
+        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard": "Abrir el Panel",
+        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content": "Si quieres que el avatar que estás utilizando actualmente sea el que se cargue al iniciar sesión, puedes hacerlo a través de tu <b><color=hero.cyan>Panel</closeall>, que es tu espacio todo en uno para hablar con otros usuarios, consultar tu inventario o explorar diferentes mundos. <br><br>¡Para abrirlo o cerrarlo, pulsa {is_using_vive_wands, select, True{y mantén pulsado } other{}}<b><color=hero.purple>{Menu_Input}</closeall>{is_using_vive_wands, select, True{ hasta que el anillo se llene, luego suelta} other{}}!",
+        "Help.GettingStarted.AvatarBasics.CreatingAFolder": "Crear una Carpeta",
+        "Help.GettingStarted.AvatarBasics.CreatingAFolder.Content": "Tu Panel cuenta con muchas pestañas y funciones. Una de ellas es la posibilidad de guardar objetos y avatares en tu <b><color=hero.yellow>inventario</closeall> personal. A la hora de guardar objetos y otros elementos durante tu estancia en {appName}, la organización es clave para tener un buen inventario, así que lo primero que harás será crear una carpeta donde guardar tu avatar. <br><br>Para ello, en la barra de botones situada en la parte superior de la pantalla del Inventario, pulsa el botón <sprite name=SaveIcon> <b><color=hero.cyan>Crear carpeta</closeall>. Dale un nombre a tu carpeta y selecciona <b><color=hero.green>Crear</closeall> para crearla - automáticamente te encontrarás dentro de esa carpeta.",
+        "Help.GettingStarted.AvatarBasics.Saving": "Guardar",
+        "Help.GettingStarted.AvatarBasics.Saving.Content": "Para guardar un avatar, ve a tu <sprite name=InventoryIcon> <b><color=hero.yellow>Inventario</closeall> si aún no estás allí, y pulsa el botón <b><color=hero.cyan>Guardar avatar</closeall>. Esto toma el avatar que estás utilizando actualmente y lo guarda en la carpeta que estás viendo en ese momento dentro de tu inventario.",
+        "Help.GettingStarted.AvatarBasics.Saving.Content2": "Si, por el contrario, quieres guardar un avatar que no estás utilizando en este momento, primero agárralo {is_desktop, select, True {mirándolo y} other {}} manteniendo pulsado <b><color=hero.purple>{Grip_Input}</closeall>. A continuación, mientras lo mantienes pulsado, dentro de tu Inventario, pulsa el botón <color=hero.green><b>Guardar Agarrado</b></Color>. Esto guardará el avatar en la carpeta en la que te encuentras actualmente.",
+        "Help.GettingStarted.AvatarBasics.Saving.Content3": "Mientras agarras al avatar, también puedes abrir tu <b><color=hero. Cyan>Menú Contextual</closeall> {is_using_vive_wands, select, True {pulsando rápidamente} other {con}} <b><color=hero.purple>{Context_Menu_Input}</closeall> y seleccionar <sprite name=SaveIcon> <b><color=hero.Cyan>Guardar en inventario</closeall> para guardar el avatar sin necesidad de abrir tu Panel.",
+        "Help.GettingStarted.AvatarBasics.Wearing": "Vestirse",
+        "Help.GettingStarted.AvatarBasics.Wearing.Content": "Para equipar un avatar desde tu inventario, haz clic una vez en el avatar {is_desktop, select, True {} other {con tu <b><color=hero.purple>{Primary_Input}</closeall> }}para seleccionarlo y, a continuación, selecciona <sprite name=EquipIcon> <b><color=hero.purple>Equipar Avatar</closeall> en la parte superior izquierda de la ventana del inventario. Esto sustituirá el avatar que estás utilizando actualmente por el que hayas elegido.",
+        "Help.GettingStarted.AvatarBasics.Favoriting": "Establecer como Favorito",
+        "Help.GettingStarted.AvatarBasics.Favoriting.Content": "Para <b><color=hero.orange>Establecer como Favorito</closeall> - o establecer como predeterminado - un avatar, haz clic una vez en el avatar {is_desktop, select, True {} otro {con tu <b><color=hero.purple>{Primary_Input}</closeall> }}para seleccionarlo y, a continuación, haz clic en el botón <sprite name=LocationPinIcon> <b><color=hero.orange>Establecer Avatar</closeall> situado en la parte superior de la ventana de tu inventario. Tu avatar favorito aparecerá en tu Inventario con un fondo rosa. Si quieres dejar de marcar un avatar como favorito, selecciónalo y vuelve a pulsar el botón <sprite name=LocationPinIcon> <b><color=hero.orange>Establecer Avatar</closeall>.",
+        "Help.GettingStarted.AvatarBasics.FindingMoreAvatars": "Encontrar Más Avatares",
+        "Help.GettingStarted.AvatarBasics.FindingMoreAvatars.Content": "{appName} cuenta con una amplia variedad de avatares disponibles, tanto creados por {appName} como por la comunidad. Puedes encontrar estos avatares en diversos mundos, para ello, ve primero a la pestaña <sprite name=WorldsIcon> <b><color=hero.cyan>Mundos</closeall>, situada en la parte inferior de tu Panel. A la izquierda hay una lista de categorías - selecciona la categoría <color=hero.green><sprite name=AvatarsIcon> <b>Avatares</closeall> para explorar los mundos que contienen avatares que puedes ver.",
+
+        "Help.GettingStarted.ExploringWorlds": "Explorando Mundos",
+        "Help.GettingStarted.ExploringWorlds.WorldBrowser": "Explorador de Mundos",
+        "Help.GettingStarted.ExploringWorlds.WorldBrowser.Content": "¡{appName} cuenta con una gran variedad de mundos que puedes ver y explorar! Para ver lo que hay disponible, dirígete a la pestaña <sprite name=WorldsIcon> <b><color=hero.cyan>Mundos</closeall> de tu Panel. A la izquierda encontrarás varias categorías de mundos que te ayudarán a acotar tu búsqueda, y si buscas algo concreto, puedes utilizar la barra de búsqueda situada en la parte superior. <br><br>Si quieres encontrar mundos donde puedas reunirte con otros y socializar, ¡echa un vistazo a la categoría <b><color=hero.cyan>Sesiones Activas</closeall>!<br><br>Cualquier mundo que hayas creado o guardado en tu inventario aparecerá en la categoría <b><color=hero.cyan>Mis Mundos</closeall>.",
+        "Help.GettingStarted.ExploringWorlds.Categories": "Categorías",
+        "Help.GettingStarted.ExploringWorlds.Categories.Content": "Limitar la búsqueda de mundos es fácil - a la izquierda de la pestaña <sprite name=WorldsIcon> <b><color=hero.cyan>Mundos</closeall> encontrarás una lista de categorías que te ayudarán a empezar. Estas categorías funcionan mediante las <b><color=hero.yellow>Etiquetas</closeall> asignadas a los mundos.<br><br>Si quieres realizar una búsqueda más detallada de mundos, en la parte inferior de la lista de categorías se encuentra el botón <sprite name=SettingsIcon> <b><color=hero.Cyan>Personalizar</closeall>, que te ofrecerá una variedad de opciones de filtrado avanzadas.",
+        "Help.GettingStarted.ExploringWorlds.BrowserInformation": "Información del Explorador",
+        "Help.GettingStarted.ExploringWorlds.BrowserInformation.Content": "Para ver más información sobre un mundo o una sesión abierta, haz clic en la vista previa del mundo{is_desktop, select, True {} other { con tu <b><color=hero.purple>{Primary_Input}</closeall>}} para seleccionarlo y, a continuación, haz clic en el botón <sprite name=ArrowIcon> <b><color=hero.cyan>Más información</closeall> situado en la parte superior derecha de la ventana emergente. Esta vista ampliada te ofrece más información, incluyendo, entre otros: etiquetas, sesiones abiertas, usuarios presentes y mucho más.",
+        "Help.GettingStarted.ExploringWorlds.SessionInformation": "Información de la Sesión",
+        "Help.GettingStarted.ExploringWorlds.SessionInformation.Content": "Puedes ir pasando por las sesiones abiertas disponibles para un mundo concreto haciendo clic primero en la vista previa del mundo {is_desktop, select, True {} other { con tu <b><color=hero.purple>{Primary_Input}</closeall>}} y, a continuación, seleccionando los botones de flecha izquierda o derecha situados en la parte superior derecha de la ventana emergente para ver las diferentes sesiones disponibles.",
+        "Help.GettingStarted.ExploringWorlds.JoiningASession": "Unirse a una Sesión",
+        "Help.GettingStarted.ExploringWorlds.JoiningASession.Content": "Para unirte a una sesión, haz clic en la vista previa del mundo {is_desktop, select, True {} other {con tu <b><color=hero.purple>{Primary_Input}</closeall> }} y haz clic en <b><color=hero.cyan>Unirse</closeall>. Esto iniciará la carga del mundo, lo que puede tardar algunos segundos. <br><br>Ten en cuenta que seguirás estando en el mundo del que vienes, ya que en {appName} puedes estar en varias sesiones a la vez y cambiar rápidamente entre ellas.",
+        "Help.GettingStarted.ExploringWorlds.SessionManagement": "Gestion de la sesión",
+        "Help.GettingStarted.ExploringWorlds.SessionManagement.Content": "Los mundos de {appName} cuentan con diversos permisos que puedes aplicarles, lo que te permite elegir quién puede unirse a tu mundo. Para cambiar estos permisos, dirígete a la pestaña <sprite name=SessionIcon> <b><color=hero.cyan>Sesión</closeall> situada en la parte inferior de tu Panel. A la derecha hay una lista de niveles de acceso que puedes configurar para el mundo. Estos niveles de acceso incluyen: <br><br>• <color=hero.red><b>Privado (sólo invitados)</b></color> - Solo pueden unirse los usuarios que tengan una invitación directa del anfitrión de la sesión.<br><br>• <color=hero.orange><b>LAN</b></color> - Solo pueden unirse los usuarios que estén en la misma red local. <br><br>• <color=hero.yellow><b>Contactos</b></color> - Solo pueden unirse los usuarios que sean contactos del anfitrión.<br><br>• <color=hero.green><b>Contactos+</b></color> - Pueden unirse los usuarios que sean contactos de cualquier usuario de la sesión. <br><br>• <color=hero.cyan><b>Usuarios registrados</b></color> - Cualquier usuario que tenga una cuenta de {appName} puede unirse.<br><br>• <color=hero.purple><b>Cualquiera</b></color> - Cualquier usuario puede unirse, incluidos los usuarios no registrados.",
+        "Help.GettingStarted.ExploringWorlds.WorldsToSee": "Mundos Por Descubrir",
+        "Help.GettingStarted.ExploringWorlds.WorldsToSee.Content": "¿Buscas mundos interesantes que visitar? Echa un vistazo a las categorías <b><color=hero.cyan>MMC</closeall> y <b><color=hero.cyan>Mundos Destacados</closeall> para explorar algunas de las mejores experiencias que {appName} tiene para ofrecer.",
+
+        "Help.GettingStarted.YourContacts": "Tus Contactos",
+        "Help.GettingStarted.YourContacts.FindingContacts": "Encontrar los Contactos",
+        "Help.GettingStarted.YourContacts.FindingContacts.Content": "En {appName} puedes añadir a otros usuarios como <b><color=hero.green>Contactos</closeall>, lo que te permite ver y unirte a los mundos en los que se encuentran, enviarse mensajes mutuamente y mucho más. <br><br>Para ver tu lista de contactos, ve a la pestaña <sprite name=ContactsIcon> <b><color=hero.green>Contactos</closeall> de tu Panel.",
+        "Help.GettingStarted.YourContacts.ContactsBrowser": "Navegador de Contactos",
+        "Help.GettingStarted.YourContacts.ContactsBrowser.Content": "A la izquierda de la pestaña <sprite name=ContactsIcon> <b><color=hero.green>Contactos</closeall>, verás una lista con todos tus contactos, así como una barra de búsqueda para encontrar usuarios concretos. A la derecha, verás información y las acciones que puedes realizar con el contacto seleccionado.",
+        "Help.GettingStarted.YourContacts.Searching": "Buscando",
+        "Help.GettingStarted.YourContacts.Searching.Content": "¿Buscas a alguien en concreto o quieres añadir a alguien a tus contactos? ¡Escribe su nombre en la barra de búsqueda situada en la parte superior izquierda! A medida que escribas, aparecerán los usuarios que coincidan con el nombre que hayas introducido.",
+        "Help.GettingStarted.YourContacts.AddingAContact": "Agregar Un Contacto",
+        "Help.GettingStarted.YourContacts.AddingAContact.Content": "¿Has encontrado al usuario que buscabas? Selecciónalo para ver las acciones que puedes realizar con él en la parte superior del panel de control. Si quieres añadir al usuario como contacto, envíale una solicitud de contacto mediante el botón <b><color=hero.purple>Agregar Contacto</closeall>! Si la acepta, aparecerá en tu lista de contactos y podrás enviarle mensajes y unirte a los mundos en los que se encuentre.",
+        "Help.GettingStarted.YourContacts.ContactRequests": "Solicitudes de Contacto",
+        "Help.GettingStarted.YourContacts.ContactRequests.Content": "Cuando alguien te envíe una solicitud de contacto, recibirás una notificación y el usuario que la haya enviado aparecerá a la izquierda en tu lista de contactos con un contorno <b><color=hero.purple>morado</closeall>. Puedes aceptar o ignorar la solicitud seleccionando al usuario y eligiendo la acción que desees realizar.",
+        "Help.GettingStarted.YourContacts.Invites": "Invitaciones",
+        "Help.GettingStarted.YourContacts.Invites.Content": "¿Quieres invitar a un contacto al mundo en el que te encuentras? Para ello, selecciona al usuario en tu lista de contactos y haz clic en <b><color=hero.purple>Invitar</closeall>.<br><br>En ocasiones, no podrás invitar a usuarios al mundo en el que te encuentras - en ese caso, pregúntale al administrador del mundo.",
+
+        "Help.GettingStarted.GraphicsSettings": "Ajustes Gráficos",
+        "Help.GettingStarted.GraphicsSettings.Overview": "Descripción General",
+        "Help.GettingStarted.GraphicsSettings.Overview.Content": "{appName} cuenta con una lista cada vez más amplia de opciones para personalizar tu experiencia gráfica según la calidad y el rendimiento que desees.",
+        "Help.GettingStarted.GraphicsSettings.SettingsTab": "Pestaña Ajustes",
+        "Help.GettingStarted.GraphicsSettings.SettingsTab.Content": "Todas las opciones gráficas disponibles se encuentran en la pestaña <sprite name=SettingsIcon> <b><color=hero.purple>Ajustes</closeall> de tu Panel, junto con una amplia variedad de otras opciones.",
+        "Help.GettingStarted.GraphicsSettings.GraphicsCategory": "Categoría de Gráficos",
+        "Help.GettingStarted.GraphicsSettings.GraphicsCategory.Content": "Las opciones gráficas se encuentran en la categoría <sprite name=GraphicsIcon> <b><color=hero.cyan>Gráficos</closeall>, situada a la izquierda de la pestaña Ajustes.",
+        "Help.GettingStarted.GraphicsSettings.TextureQuality": "Calidad de la Textura",
+        "Help.GettingStarted.GraphicsSettings.TextureQuality.Content": "Si el uso de la VRAM es demasiado elevado o si, por cualquier otro motivo, deseas reducir la carga sobre la GPU, puedes reducir el tamaño máximo de las texturas. Esto se puede modificar en la sección <b><color=hero.purple>Calidad de texturas</closeall>, y puede ayudar a mejorar el rendimiento.",
+        "Help.GettingStarted.GraphicsSettings.Resolution": "Resolución",
+        "Help.GettingStarted.GraphicsSettings.Resolution.Content": "Cuando utilices {appName} en tu ordenador, si deseas usar una resolución de visualización concreta, dirígete a la sección <b><color=hero.purple>Resolución</closeall>. Aquí podrás ajustar por separado las resoluciones para las vistas a pantalla completa y en ventana, así como activar o desactivar la opción de poner {appName} a pantalla completa.",
+        "Help.GettingStarted.GraphicsSettings.RenderingQuality": "Calidad de Renderizado",
+        "Help.GettingStarted.GraphicsSettings.RenderingQuality.Content": "Si realmente quieres mejorar el rendimiento, la sección <b><color=hero.purple>Renderizado</closeall> incluye ajustes que influyen en él más que la mayoría de los demás. Aquí puedes modificar el número de luces que se pueden renderizar a la vez, la calidad de las sombras y mucho más.",
+        "Help.GettingStarted.GraphicsSettings.PostProcessing": "Post Procesado",
+        "Help.GettingStarted.GraphicsSettings.PostProcessing.Content": "En la sección <b><color=hero.purple>Post Procesado</closeall> se incluyen varios efectos de posprocesamiento para mejorar el aspecto de {appName}. Entre estos ajustes se encuentran <b><color=hero.cyan>Desenfoque de Movimiento</closeall>, <b><color=hero.cyan>Bloom</closeall> y <b><color=hero.cyan>Oclusión Ambiental</closeall>.",
+        "Help.GettingStarted.GraphicsSettings.VRRenderQuality": "Calidad de Renderizado en Realidad Virtual",
+        "Help.GettingStarted.GraphicsSettings.VRRenderQuality.Content": "En la aplicación de tus gafas de realidad virtual encontrarás ajustes de rendimiento adicionales. Por ejemplo, <color=hero.purple><b>SteamVR</closeall> ofrece opciones de renderizado, rendimiento y mucho más.",
+
+        "Help.GettingStarted.BuildingBasics": "Conceptos Básicos de la Construcción",
+        "Help.GettingStarted.BuildingBasics.BuildingInPlatform": "Construcción Dentro de la Plataforma",
+        "Help.GettingStarted.BuildingBasics.BuildingInPlatform.Content": "{appName} te ofrece la libertad y las herramientas necesarias para dar rienda suelta a tu creatividad y crear todo lo que puedas imaginar, incluyendo objetos, mundos e incluso avatares - todo ello puede crearse de forma colaborativa y completamente desde {appName}. Tienes a tu disposición una gran variedad de herramientas que te ayudarán en tu proceso creativo, desde dibujar con pinceles hasta utilizar herramientas avanzadas para editar todos y cada uno de los aspectos de un mundo, o incluso crear herramientas personalizadas que se adapten a tus necesidades específicas y a tu flujo de trabajo.",
+        "Help.GettingStarted.BuildingBasics.PlatformEssentials": "{appName} Essentials",
+        "Help.GettingStarted.BuildingBasics.PlatformEssentials.Content": "Un buen punto de partida para empezar a crear algo es <b><color=hero.yellow>{appName} Essentials</closeall>, una carpeta que encontrarás en tu inventario y que contiene una amplia variedad de objetos y herramientas que te ayudarán a dar los primeros pasos. <br><br>Para acceder a esta carpeta, <b><color=hero.purple>Haz Doble Clic</closeall>{is_desktop, select, True {} other { con tu <b><color=hero.purple>{Primary_Input}</closeall>}} sobre ella para abrirla. Por encima de la cuadrícula de objetos y carpetas verás una lista de las carpetas en las que te encuentras actualmente, similar a la barra de direcciones de un explorador de archivos. Para aparecer objetos de tu inventario, <b><color=hero.purple>Haz Doble Clic</closeall> en un objeto.<br><br>Una ventaja de la carpeta <b><color=hero.yellow>{appName} Essentials</color></b> es que no cuenta para tu uso de almacenamiento. Esto se debe a que la carpeta es un enlace y no una carpeta guardada directamente en tu inventario; por eso la carpeta es <b><color=hero.cyan>azul</closeall>.",
+        "Help.GettingStarted.BuildingBasics.InventoryFolders": "Carpetas del Inventario",
+        "Help.GettingStarted.BuildingBasics.InventoryFolders.Content": "Para crear una nueva carpeta en tu inventario, haz clic en el botón <sprite name=SaveIcon> <b><color=hero.cyan>Crear Carpeta</closeall> situado en la parte superior. Dale un nombre a la carpeta y haz clic en <b><color=hero.green>Crear</closeall> para crearla - esto te llevará automáticamente al interior de la carpeta - crear carpetas y mantenerte organizado será importante cuando empieces a acumular una mayor cantidad de objetos.",
+        "Help.GettingStarted.BuildingBasics.BasicCreationTools": "Herramientas Básicas para Crear",
+        "Help.GettingStarted.BuildingBasics.BasicCreationTools.Content": "Un buen punto de partida para crear algo en {appName} son cuatro herramientas básicas: <color=hero.green>Pinceles</color>, la <color=hero.green>Herramienta de Forma</color>, la <color=hero.purple>Herramienta de Color</color> y la <color=hero.purple>Herramienta de Pegado</color>.<br><br>    • Los <b><color=hero.green>Pinceles</closeall> te permiten dibujar en un espacio 3D como si dibujaras en un trozo de papel con un lápiz. Para dibujar con un pincel, mantén pulsado <b><color=hero.purple>{Primary_Input}</closeall> y mueve tu {is_desktop, select, True {ratón} other {mano}} para dibujar. {is_desktop, select, True {} other {Algunos pinceles pueden cambiar el grosor del trazo dependiendo de cuánto presiones tu <b><color=hero.purple>{Primary_Input}</closeall>. }}<br><br>Algunos pinceles tienen la opción de ajustar el tamaño de su trazo agarrando el anillo de tamaño del pincel y girándolo hacia la izquierda o hacia la derecha.<br><br>Para encontrar una colección de pinceles prefabricados que puede usar de inmediato, busque en la carpeta <b><color=hero.yellow><b>{appName} Essentials</closeall> en <b><color=hero.green>Tools/Brushes</closeall>.<br><br>    • La <color=hero.green><b>Herramienta de Forma</b></color> es una herramienta que crea formas 3D simples. Para crear una forma, sostenga su <b><color=hero.purple>{Primary_Input}</closeall> y arrastre su {is_desktop, select, True {ratón} otra {mano}}. Para cambiar la forma que desea crear, pulsa {is_desktop, select, True {} other {tu}}<b><color=hero.purple>{Secondary_Input}</closeall> para alternar entre todas las formas disponibles. La Herramienta de Forma se encuentra en la carpeta <color=hero.green><b>Tools</b></color> en la carpeta <color=hero.yellow><b>{appName} Essentials</b></color>.<br><br>    • La <color=hero.purple><b>Herramienta de Color</closeall> le permite teñir elementos de un color determinado. Para cambiar el color seleccionado actualmente, abra su <color=hero.cyan><b>Menú Contextual</closeall> {is_using_vive_wands, select, True {presionando rápidamente} other {con}} <b><color=hero.purple>{Context_Menu_Input}</closeall> y seleccione <b><color=hero.yellow>Selector de Color</closeall>. Aparecerá un <color=hero.orange><b>Diálogo de Color</closeall>, que se utiliza para ajustar el color que esta utilizando la herramienta. Puedes tomar una muestra del color de un objeto apuntando con el láser hacia él y pulsando {is_desktop, select, True {} other {tu }}<b><color=hero.purple>{Secondary_Input}</closeall>.<br><br>    • La <color=hero.green><b>Herramienta Pegado</closeall> te permite unir objetos entre sí. <color=hero.red><b>Ten cuidado al usar esta herramienta, ya que, si no prestas atención, podrías pegar sin querer elementos que no deseas, ¡o incluso pegarte a ti mismo! </closeall> Para pegar objetos, primero retira los elementos no deseados que haya alrededor de los objetos que quieres pegar; a continuación, mantén pulsado {is_desktop, select, True {} other {tu }}<b><color=hero.purple>{Primary_Input}</closeall> y arrastra el cursor por los elementos que vas a pegar. La herramienta de pegamento utiliza una burbuja para mostrar el área en la que estás pegando los objetos. Una vez que tengas los objetos que deseas pegar dentro de la burbuja, puedes soltar tu <b><color=hero.purple>{Primary_Input}</closeall> y dejar que se seque, o pulsar {is_desktop, select, True {} other {tu }}<b><color=hero.purple>{Secondary_Input}</closeall> para confirmar el pegado de los objetos. En algunos casos, es posible que también tengas que pegar piezas entre sí utilizando burbujas más pequeñas para unir varios objetos entre sí - siempre que una parte de los objetos esté dentro de una burbuja, esta se unirá a otros objetos.",
+        "Help.GettingStarted.BuildingBasics.SavingYourCreations": "Cómo Guardar Tus Creaciones",
+        "Help.GettingStarted.BuildingBasics.SavingYourCreations.Content": "Para guardar tus creaciones, primero ve a la carpeta en la que quieras guardarlas dentro de tu <b><color=hero.cyan>Inventario</color></b>, y luego agarra el objeto con <b><color=hero.purple>{Grip_Input}</closeall>. A continuación, mientras lo mantienes agarrado, dentro de tu Inventario, pulsa el botón <color=hero.cyan><b>Guardar Agarrado</Color></b>. Esto guardará el objeto en la carpeta en la que te encuentras actualmente. <br><br>Mientras agarras el objeto, abre tu <b><color=hero.Cyan>Menú contextual</closeall> {is_using_vive_wands, select, True {pulsando rápidamente} other {con}} <b><color=hero.purple>{Context_Menu_Input}</closeall> y selecciona <sprite name=SaveIcon> <b><color=hero. Cyan>Guardar en Inventario</closeall> para guardar el objeto sin necesidad de abrir el Panel.",
+        "Help.GettingStarted.BuildingBasics.ImportingFiles": "Importación de Archivos",
+        "Help.GettingStarted.BuildingBasics.ImportingFiles.Content": "{appName} es compatible con una amplia variedad de formatos de archivo que se pueden importar directamente al mundo y guardar en tu inventario. <br><br>Para importar un archivo, puedes arrastrarlo y soltarlo desde tu escritorio en la ventana de {appName}, o copiar el archivo desde el explorador de archivos de tu sistema y pegarlo en la ventana de {appName} utilizando <b><color=hero.purple>Ctrl + V</closeall> o el botón <b><color=hero. green>Pegar contenido del portapapeles</closeall> del Panel, o utilizar la pestaña <b><color=yellow>Archivos</closeall> del Panel para buscar tus archivos.<br><br>Una vez importado, aparecerá un <b><color=hero.orange>Diálogo de Importación</closeall> con diferentes opciones dependiendo de lo que estés importando.",
+        "Help.GettingStarted.BuildingBasics.EndlessPossibilities": "Posibilidades Infinitas",
+        "Help.GettingStarted.BuildingBasics.EndlessPossibilities.Content": "Las herramientas que se han mostrado aquí son solo una <i>pequeña parte</i> de todo lo que puedes utilizar para crear en {appName}, ¡Hay muchas herramientas en las carpetas de <b><color=hero.yellow>{appName} Essentials</closeall> que puedes usar para crear cualquier cosa que se te ocurra!",
+
+        "Help.Controls": "Controles",
+        "Help.Controls.Interaction": "Interacciones",
+        "Help.Controls.Interaction.Content": "{appName} ofrece varias formas de interactuar con el mundo que te rodea. Selecciona una categoría a la izquierda para obtener más información.",
+
+        "Help.Controls.Interaction.Grabbing": "Agarre",
+        "Help.Controls.Interaction.Grabbing.PalmGrabbing": "Agarre con la Palma",
+        "Help.Controls.Interaction.Grabbing.PalmGrabbing.Content": "El <b><color=hero.orange>Agarre con la Palma</closeall>, o simplemente <b><color=hero.purple>Agarre</closeall>, {is_desktop, select, True {se realiza mediante el uso de} other {se puede hacer de dos maneras: con la mano o con}} tu láser. <br><br>{is_desktop, select, True {Mientras} other {Si}} sostienes el objeto{is_desktop, select, True {} other { con tu láser}}, puedes {is_desktop, select, True {mantener pulsada la tecla <b><color=hero.purple>E</closeall>} other {girar la muñeca hacia la izquierda y hacia la derecha}} para rotar el objeto.",
+        "Help.Controls.Interaction.Grabbing.PrecisionGrab": "Agarre Preciso",
+        "Help.Controls.Interaction.Grabbing.PrecisionGrab.Content": "El <b><color=hero.yellow>Agarre Preciso</closeall> es un modo de agarre que te permite agarrar un objeto con exactitud. El objeto que se agarra en este modo es el más cercano entre el pulgar y el índice - imagínate que lo estás pellizcando para recogerlo.",
+        "Help.Controls.Interaction.Grabbing.LaserGrabbing": "Agarre por Láser",
+        "Help.Controls.Interaction.Grabbing.LaserGrabbing.Content": "Tus <b><color=hero.purple>Láseres</closeall> se pueden usar para agarrar objetos a distancia. Si quieres agarrar un objeto{is_desktop, select, True {, míralo y } other { desde lejos, primero activa tu láser pulsando tu <b><color=hero.purple>{Primary_Input}</closeall> para mostrar tu láser si aún no está visible, y luego }}mantén pulsado <b><color=hero.purple>{Grip_Input}</closeall>.",
+        "Help.Controls.Interaction.Grabbing.AutoGrabbing": "Agarre Automático",
+        "Help.Controls.Interaction.Grabbing.AutoGrabbing.Content": "<b><color=hero.green>Agarre Automático</closeall> es un modo de agarre que seleccionará el <b><color=hero.orange>Agarre con la Palma</closeall> o el <b><color=hero.yellow>Agarre Preciso</closeall> en función de la orientación de la mano.",
+        "Help.Controls.Interaction.Grabbing.StickyGrab": "Agarre Fijo",
+        "Help.Controls.Interaction.Grabbing.StickyGrab.Content": "El <b><color=hero.cyan>Agarre Fijo</closeall> es un modo en el que puedes agarrar objetos una vez y permanecerán agarrados hasta que vuelvas a pulsar <b><color=hero.purple>{Grip_Input}</closeall>. En este modo, puedes soltar <b><color=hero.purple>{Grab_Input}</closeall> cuando quieras y los objetos que hayas agarrado seguirán agarrados.",
+
+        "Help.Controls.Interaction.ScalingObjects": "Escalar Objetos",
+        "Help.Controls.Interaction.ScalingObjects.PhysicalScaling": "Escalado Físico",
+        "Help.Controls.Interaction.ScalingObjects.PhysicalScaling.Content": "A diferencia de lo que ocurre en el mundo físico, en {appName} es posible ajustar la <b><color=hero.purple>Escala</closeall> o el tamaño general de los objetos en tiempo real. Para cambiar la escala de un objeto, mientras lo agarras{is_desktop, select, True {, mantén pulsada la tecla <b><color=hero.purple>Shift</closeall> y mueve la <b><color=hero.purple>Rueda del Ratón</closeall>} other { con una mano, agárralo con la otra mano y acerca o aleja las manos}}. {is_desktop, select, True {} other{<br><br>Mientras agarras un objeto con tu láser, sabrás si puedes escalarlo si apuntas con tu otro láser al objeto y el color de tu láser es <b><color=hero.red>rojo</closeall>.}}",
+        "Help.Controls.Interaction.ScalingObjects.ScalingMultipleObjects": "Escalar Varios Objetos",
+        "Help.Controls.Interaction.ScalingObjects.ScalingMultipleObjects.Content": "El escalado de <b><color=hero.cyan>varios</closeall> objetos es similar al de uno solo - cuando estás en modo de <b><color=hero.orange>Agarre con la Palma</closeall>, todos los objetos cercanos a tu mano se seleccionarán a la vez.",
+        "Help.Controls.Interaction.ScalingObjects.ScalingWithLasers": "Scaling With Lasers",
+        "Help.Controls.Interaction.ScalingObjects.ScalingWithLasers.Content": "Para escalar objetos a distancia con tus <b><color=hero.purple>Láseres</closeall>, primero debes agarrar y mantener un objeto con tu láser, a continuación, con la mano libre, apunta tu láser secundario hacia el objeto y mantén pulsado <b><color=hero.purple>{Grip_Input}</closeall>. Al acercar o alejar ambos láseres, se escalará el objeto.",
+
+        "Help.Controls.Interaction.Lasers": "Láseres",
+        "Help.Controls.Interaction.Lasers.LaserGrabbing": "Agarre por Láser",
+        "Help.Controls.Interaction.Lasers.LaserGrabbing.Content": "Tus <b><color=hero.purple>Láseres</closeall> son la forma en que interactúas con el mundo que te rodea desde la distancia. {is_desktop, select, True {Al mover el ratón, aparecerá tu láser} other {Puedes mostrar tus láseres pulsando <b><color=hero.purple>{Primary_Input}</closeall>}}, lo que te permitirá interactuar con objetos, como pulsar botones, coger objetos o equipar herramientas y avatares. <br><br>Puedes activar o desactivar {is_desktop, select, True {tu láser} other {tus láseres por mano}} abriendo tu <b><color=hero.cyan>Menú contextual</closeall> {is_using_vive_wands, select, True {pulsando rápidamente} other {con}} <b><color=hero.purple>{Context_Menu_Input}</closeall> y seleccionando <b><color=hero.cyan>Láser Activado</closeall>/<b><color=hero.cyan>Desactivado</closeall>.",
+        "Help.Controls.Interaction.Lasers.Reeling": "Jalar",
+        "Help.Controls.Interaction.Lasers.Reeling.Content": "Puedes <b><color=hero.cyan>mover</closeall> los objetos agarrados con el láser para acercarlos o alejarlos de ti moviendo tu {is_desktop, select, True {<b><color=hero.purple>rueda del Rat;on</closeall>} other {<b><color=hero.purple>{Movement_Input}</closeall>}} hacia delante o hacia atrás. <br><br>Si acercas un objeto hasta tu mano, pasará a estar agarrado por tu mano en lugar de por el láser - o, si se trata de una herramienta, se equipará.",
+        "Help.Controls.Interaction.Lasers.RotatingObjects": "Rotar Objetos",
+        "Help.Controls.Interaction.Lasers.RotatingObjects.Content": "Puedes <b><color=hero.cyan>Rotar</closeall> un objeto que tengas agarrado {is_desktop, select, True {pulsando la tecla <b><color=hero.purple>E</closeall> y moviendo el ratón} other {moviendo el <b><color=hero.purple>{Movement_Input}</closeall> o girando la muñeca hacia la izquierda o hacia la derecha}}.",
+        "Help.Controls.Interaction.Lasers.Leveling": "Nivelar",
+        "Help.Controls.Interaction.Lasers.Leveling.Content": "Puedes <b><color=hero.cyan>Nivelar</closeall> un objeto pulsando <b><color=hero.purple>{Primary_Input}</closeall> mientras lo agarras. Esto alineará el objeto con el lado que esté más cerca de la posición vertical.",
+        "Help.Controls.Interaction.Lasers.FreeformRotation": "Rotación Libre",
+        "Help.Controls.Interaction.Lasers.FreeformRotation.Content": "Puedes fijar la rotación de un objeto mientras lo sostienes y, en su lugar, utilizar el movimiento de tu mano para girarlo libremente pulsando dos veces <b><color=hero.purple>{Primary_Input}</closeall>. Al girar la mano después de hacer esto, el objeto se moverá en relación con tu mano. <br><br>Al pulsar dos veces <b><color=hero.purple>{Primary_Input}</closeall> de nuevo, volverás al modo normal de agarre con láser.",
+        "Help.Controls.Interaction.Lasers.TogglingLasers": "Activar/Desactivar Láseres  ",
+        "Help.Controls.Interaction.Lasers.TogglingLasers.Content": "¿Te molestan los láseres? Puedes activar y desactivar {is_desktop, select, True {tu láser } other {tus láseres de cada mano }}abriendo tu <color=hero.cyan><b>Menú Contextual</closeall> {is_using_vive_wands, select, True {pulsando rápidamente} other {con}} <b><color=hero.purple>{Context_Menu_Input}</closeall> y seleccionando <b><color=hero.cyan>Láser Activado</closeall>/<b><color=hero.cyan>Desactivado</closeall>. Cuando {is_desktop, select, True {tu} other {un}} láser está desactivado, solo aparecerá el Panel de control y en el Menú Contextual.",
+
+        "Help.Controls.Interaction.Equipping": "Equipar",
+        "Help.Controls.Interaction.Equipping.Content": "<b><color=hero.purple>Equipar</closeall> objetos los coloca en tu mano y te permite realizar acciones. Para equipar un objeto o una herramienta, apunta con tu láser hacia él, pulsa <b><color=hero.purple>{Primary_Input}</closeall> y selecciona <b><color=hero.cyan>Equipar</closeall>. {is_desktop, select, True {} other {Si no ves tu láser, pulsa primero <b><color=hero.purple>{Primary_Input}</closeall> para activarlo y, a continuación, vuelve a intentarlo. }}",
+        "Help.Controls.Interaction.Equipping.Content2": "También puedes equipar objetos agarrándolos con <b><color=hero.purple>{Grip_Input}</closeall>, abriendo tu <b><color=hero.cyan>Menú Contextual</closeall> {is_using_vive_wands, select, True {pulsando rápidamente} other {con}} <b><color=hero.purple>{Context_Menu_Input}</closeall> y seleccionando <b><color=hero.cyan>Equipar</closeall>.",
+        "Help.Controls.Interaction.DuplicatingAndDeleting": "Duplicar y Eliminar",
+        "Help.Controls.Interaction.DuplicatingAndDeleting.Content": "Los objetos se pueden duplicar o eliminar fácilmente según tus necesidades. Si quieres duplicar o eliminar algo, agárralo con {Grip_Input} y abre el <b><color=hero.cyan>Menú Contextual</closeall>, podrás <color=hero. green><b>Duplicar</closeall> o <color=hero.red><b>Eliminar</closeall> los objetos que tengas agarrado abriendo el <color=hero.cyan><b>menú contextual</closeall> y seleccionando la acción adecuada.",
+        "Help.Controls.Interaction.UndoAndRedo": "Deshacer y Rehacer",
+        "Help.Controls.Interaction.UndoAndRedo.Content": "Puedes <color=hero.red><b>Deshacer</closeall> o <color=hero.cyan><b>Rehacer</closeall> algunas acciones abriendo tu <b><color=hero.cyan>Menú Contextual</closeall> {is_using_vive_wands, select, True {pulsando rápidamente} other {con}} <b><color=hero.purple>{Context_Menu_Input}</closeall> y seleccionando la acción correspondiente. También puedes usar <b><color=hero.purple>Ctrl + Z</closeall> para <color=hero.red><b>Deshacer</closeall> y <b><color=hero.purple>Ctrl + Y</closeall> para <color=hero.cyan><b>Rehacer</closeall>.",
+        "Help.Controls.Interaction.Anchors": "Anclajes",
+        "Help.Controls.Interaction.Anchors.Content": "Los <b><color=hero.purple>Anclajes</closeall> son objetos a los que puedes fijarte, como muebles o el asiento de un vehículo. Cuando se mueve un anclaje mientras estás en él, te moverás junto con el anclaje. Algunos anclajes también tendrán opciones para colocar a tu avatar, lo que te permitirá ajustar la posición de tu cuerpo. Para entrar en un anclaje, apunta hacia él con tu láser y pulsa <b><color=hero.purple>{Primary_Input}</closeall> para mostrar su menú, a continuación, selecciona <b><color=hero.purple>Entrar</closeall>. Para salir de un ancla{is_using_vive_wands, select, True {} other {,}} pulsa{is_desktop, select, True {} other { tu}} <b><color=hero.purple>{Secondary_Input}</closeall>{is_using_vive_wands, select, True {} other { o mueve tu <b><color=hero.purple>{Movement_Input}</closeall>}}, aunque este comportamiento puede variar según el ancla.",
+
+        "Help.Controls.Locomotion": "Locomoción",
+        "Help.Controls.Locomotion.Content": "En la mayoría de los mundos hay cuatro tipos principales de desplazamiento a los que se puede acceder abriendo el <b><color=hero. Cyan>Menú Contextual</closeall> {is_using_vive_wands, select, True {pulsando rápidamente} other {con}} <b><color=hero.purple>{Context_Menu_Input}</closeall> y seleccionando <sprite name=LocomotionIcon> <b><color=hero.purple>Locomoción</closeall>. <br><b><color=hero.orange>Ten en cuenta que algunos de estos tipos de movimiento pueden provocar mareos y deben utilizarse a tu discreción.</closeall><br><br>Esta es una descripción general básica del movimiento dentro de {appName}, y es posible que te encuentres con tipos de locomoción personalizados creados por miembros de la comunidad. Los tipos de locomoción pueden variar de un mundo a otro, y también se pueden añadir a un avatar si deseas tener acceso rápido y constante a un tipo personalizado. Si eres propenso al mareo, considera utilizar tipos de locomoción sencillos como <b><color=hero.yellow>Caminar/Correr</closeall>, <b><color=hero.purple>Teletransportarse</closeall> o <b><color=hero.orange>Agarrar Mundo</closeall>, además de utilizar la configuración de control <b><color=hero.purple>Giro Instantáneo</closeall>.",
+        "Help.Controls.Locomotion.WalkRun.Content": "Te permite moverte por el mundo como lo harías en la vida real. Para caminar, presiona hacia adelante en <b><color=hero.purple>{Movement_Input}</closeall>. Para correr, presiona {is_desktop, select, True {y mantén pulsada la tecla <b><color=hero.purple>Shift</closeall> mientras te mueves} other {hacia adelante en ambos mandos}}.",
+        "Help.Controls.Locomotion.WalkRunWithClimbing": "Caminar / Correr (Con Escalada)",
+        "Help.Controls.Locomotion.WalkRunWithClimbing.Content": "Este tipo de locomoción es igual que <b><color=hero.orange>Caminar/Correr</closeall>, pero te permite trepar por objetos o paredes manteniendo pulsado <b><color=hero.purple>{Grip_Input}</closeall> y jalandote hacia el objeto. {is_desktop, select, True {La escalada sigue siendo posible en el modo de escritorio, aunque los resultados pueden variar en comparación con la escalada en realidad virtual.} other {}}",
+        "Help.Controls.Locomotion.Fly.Content": "Te permite desplazarte por el aire sin dejar de interactuar con el suelo, las paredes y los objetos del entorno.",
+        "Help.Controls.Locomotion.NoClip.Content": "Ignora por completo las leyes de la física y la gravedad, lo que te permite moverte libremente por el aire y atravesar objetos sólidos.",
+        "Help.Controls.Locomotion.Teleport.Content": "Te permite señalar un lugar dentro de tu campo de visión para desplazarte allí al instante.{is_desktop, select, True {<br><b><color=hero.orange>Este tipo de desplazamiento solo está disponible en realidad virtual.</closeall>} other {}}",
+        "Help.Controls.Locomotion.ZeroGravity.Content": "Te permite flotar sin gravedad y mantener tu impulso al moverte por el aire. {is_desktop, select, True {} other {También puedes girar libremente en el espacio 3D.}}",
+        "Help.Controls.Locomotion.GrabWorld.Content": "Te permite desplazarte manteniendo pulsado hacia delante el <b><color=hero.purple>{Movement_Input}</closeall> y jalandote por el mundo, incluso por el aire.{is_desktop, select, True {<br><b><color=hero.orange>Este tipo de desplazamiento es exclusivo de la realidad virtual.</closeall>} other {}}",
+        "Help.Controls.Locomotion.Slide": "Deslizarse",
+        "Help.Controls.Locomotion.Slide.Content": "Este modo de locomoción te adhiere a la superficie más cercana y te permite deslizarte directamente sobre ella cuando te mueves.",
+
+        "Help.Controls.UserScaling": "Redimensión del Usuario",
+        "Help.Controls.UserScaling.Content": "Puedes cambiar tu tamaño abriendo tu <b><color=hero. Cyan>Menú Contextual</closeall> {is_using_vive_wands, select, True {pulsando rápidamente} other {con}} <b><color=hero.purple>{Context_Menu_Input}</closeall> y pulsando <sprite name=AvatarScaleDisabledIcon> <b><color=hero.red>Redimensionarse Desactivado</closeall>. Esto cambiará el botón a <sprite name=AvatarScaleEnabledIcon> <b><color=hero.green>Redimensionarse Activado</closeall> y te permitirá aumentar o reducir el tamaño mientras mantienes pulsado {is_desktop, select, True {<b><color=hero.purple>Ctrl</closeall> y moviendo la <b><color=hero.purple>rueda del ratón</closeall>} other {<b><color=hero.purple>{Grip_Input}</closeall> en ambos mandos y acercando o alejando las manos}}. Al pulsar <sprite name=AvatarScaleResetIcon> <b><color=hero.red>Reestablecer Tamaño</closeall> volverás a tu escala original. Al pulsar <sprite name=AvatarScaleEnabledIcon> <b><color=hero.green>Redimensionarse Activado</closeall>, el botón volverá a <sprite name=AvatarScaleDisabledIcon> <b><color=hero.red>Redimensionarse Desactivado</closeall> y no podrás cambiar tu escala.",
+        "Help.Controls.ContextMenu": "Menú Contextual",
+        "Help.Controls.ContextMenu.Content": "Tu <b><color=hero.cyan>Menú Contextual</closeall> te ofrece opciones útiles que varían en función de lo que estés haciendo. Puedes acceder a tu <b><color=hero.cyan>Menú Contextual</closeall> {is_using_vive_wands, select, True {pulsando rápidamente} other {con}} <b><color=hero.purple>{Context_Menu_Input}</closeall>. <br>De forma predeterminada, se te mostrarán atajos para <b>Deshacer y Rehacer</b>, una opción para cambiar tu tipo de <b>Locomoción</b> activo y una opción para manipular tu <b>Tamaño (Redimensionarse)</b>. <br>Puedes seleccionar cada opción individualmente con tu láser, o simplemente mantener pulsado <b><color=hero.purple>{Primary_Input}</closeall> en el centro de tu menú y deslizarlo hacia la opción que desees seleccionar.<br><br>Los elementos, mundos y avatares también pueden añadir sus propias opciones adicionales a tu <b><color=hero.cyan>Menú Contextual</closeall>.",
+        "Help.Controls.VRGestures": "Gestos en Realidad Virtual",
+        "Help.Controls.VRGestures.Content": "{appName} ofrece varios gestos rápidos para que los usuarios de realidad virtual puedan abrir rápidamente el Panel, reaparecer si se quedan atascados y mucho más. Esta es una lista de todos los gestos de Realidad Virtual disponibles. Ten en cuenta que se trata únicamente de versiones rápidas de acciones ya existentes - todas las acciones listadas también se pueden realizar de otras formas.",
+        "Help.Controls.VRGestures.EmergencyLeaveWorld": "Salir del Mundo de Emergencia",
+        "Help.Controls.VRGestures.EmergencyLeaveWorld.Content": "Este gesto te desconecta inmediatamente del mundo actual. Para realizarlo, lleva los mandos a la cabeza y mantén pulsado <b><color=hero.purple>{Context_Menu_Input}</closeall> durante al menos 3 segundos. Notarás vibraciones en los mandos, cuya intensidad irá aumentando a medida que te acerques a la desconexión.",
+        "Help.Controls.VRGestures.EmergencyRespawn": "Reaparición de Emergencia",
+        "Help.Controls.VRGestures.EmergencyRespawn.Content": "Este gesto te hace reaparecer eliminándote y reapareciendo en el punto de reaparición del mundo. Para realizar este gesto, lleva los mandos a la cabeza, luego mantén pulsado al menos un <b><color=hero.purple>{Grip_Input}</closeall>, y a continuación mantén pulsado <b><color=hero.purple>{Context_Menu_Input}</closeall> durante al menos 3 segundos. Notarás vibraciones en tus mandos que aumentarán de intensidad a medida que te acerques a la reaparición.",
+        "Help.Controls.VRGestures.ToggleEditMode": "Activar/Desactivar el Modo de Edición",
+        "Help.Controls.VRGestures.ToggleEditMode.Content": "Este gesto activa o desactiva el <b><color=hero.cyan>Modo de Edición</closeall>. Esto muestra tus láseres y el área de agarre en tus manos de forma permanente, o hasta que se desactive el modo de edición. Para activar o desactivar el modo de edición, lleva los mandos a la cabeza y mantén pulsado <b><color=hero.purple>{Context_Menu_Input}</closeall> en <i>uno</i> de los mandos y pulsa dos veces <b><color=hero.purple>{Context_Menu_Input}</closeall> en el otro mando.",
+        "Help.Controls.VRGestures.ToggleUIEditMode": "Activar/Desactivar el Modo de Edición de la Interfaz de Usuario",
+        "Help.Controls.VRGestures.ToggleUIEditMode.Content": "Este gesto activa o desactiva el <b><color=hero.cyan>Modo de Edición de la Interfaz de Usuario</closeall>, que te permite añadir, eliminar o editar las facetas en tu Panel o en los puntos de Anclaje de las Facetas de tu Avatar. Cuando está activado, también puedes editar tus poses de agarre para las herramientas. Para activar o desactivar el <b><color=hero.purple>Modo de Edición de la Interfaz de Usuario</closeall>, lleva los mandos a la cabeza y mantén pulsado <b><color=hero.purple>{Menu_Input}</closeall> en <i>uno</i> de los mandos y pulsa dos veces <b><color=hero.purple>{Menu_Input}</closeall> en el otro mando. También puedes activar el Modo de Edición de la Interfaz de Usuario a través del interruptor <b><color=hero.cyan>Modo de Edición de la Interfaz</closeall> en tus <b><color=hero.yellow>Ajustes</closeall>, en <sprite name=UserInterfaceIcon> <b><color=hero.purple>Interfaz de Usuario</closeall>.",
+        "Help.Controls.VRGestures.ToggleDashboard": "Mostrar/Ocultar el Panel",
+        "Help.Controls.VRGestures.ToggleDashboard.Content": "Este gesto abre y cierra tu Panel. Para abrirlo o cerrarlo, lleva el mando izquierdo hacia la cabeza y pulsa <b><color=hero.purple>{Context_Menu_Input}</closeall>.",
+        "Help.Controls.VRGestures.ToggleFacetAnchors": "Activar/Desactivar los Anclajes de Facetas",
+        "Help.Controls.VRGestures.ToggleFacetAnchors.Content": "Este gesto abre y cierra tus anclajes de facetas. Para abrir o cerrar tu Panel, lleva el mando derecho hacia la cabeza y pulsa <b><color=hero.purple>{Context_Menu_Input}</closeall>.",
+        "Help.Controls.DesktopControls": "Controles en modo Escritorio",
+        "Help.Controls.DesktopControls.Content": "{appName} en el Escritorio ofrece varios atajos rápidos que te ayudarán a realizar tus tareas. A continuación te mostramos una lista de los diferentes atajos disponibles.",
+
+        "Help.Controls.DesktopControls.Undo.Content": "Deshacer una acción con <b><color=hero.purple>Ctrl + Z</closeall>.",
+        "Help.Controls.DesktopControls.Redo.Content": "Rehacer una acción con <b><color=hero.purple>Ctrl + Y</closeall>.",
+        "Help.Controls.DesktopControls.Paste": "Pegar",
+        "Help.Controls.DesktopControls.Paste.Content": "Pega algo en {appName} con <b><color=hero.purple>Ctrl + V</closeall>.<br>También puedes pegar contenido exclusivamente como hipervínculos con <b><color=hero.purple>Ctrl + Mayús + V</closeall>.",
+        "Help.Controls.DesktopControls.Duplicate.Content": "Duplica un objeto agarrado con b><color=hero.purple>Ctrl + D</closeall>.",
+        "Help.Controls.DesktopControls.Delete": "Eliminar",
+        "Help.Controls.DesktopControls.Delete.Content": "Elimina un elemento en agarrado con <b><color=hero.purple>Retroceso</closeall> o <b><color=hero.purple>Suprimir</closeall>.",
+        "Help.Controls.DesktopControls.Save.Content": "Guarda un objeto agarrado con <b><color=hero.purple>Ctrl + S</closeall>. Si no estás agarrando ningún objeto y eres el anfitrión de la sesión, se guardarán los cambios en el mundo.",
+        "Help.Controls.DesktopControls.ThirdPerson": "Modo en Tercera Persona",
+        "Help.Controls.DesktopControls.ThirdPerson.Content": "Entra o sal del modo en tercera persona con <b><color=hero.purple>F5</closeall>.",
+        "Help.Controls.DesktopControls.FreecamMode": "Modo de Cámara Libre",
+        "Help.Controls.DesktopControls.FreecamMode.Content": "Entra o sal del modo Cámara Libre con <b><color=hero.purple>F6</closeall>. Mientras estés en este modo, mantén pulsadas las teclas <b><color=hero.purple>Control</closeall> y el <b><color=hero.purple>Botón Derecho del Ratón</closeall> para poder girar la vista, y utiliza las <b><color=hero.purple>Teclas de Movimiento</closeall> para desplazarte. Una vez que estés mirando y moviéndote, puedes soltar <b><color=hero.purple>Control</closeall>, pero mantén pulsado el <b><color=hero.purple>Botón Derecho del Ratón</closeall>, ya que, de lo contrario, la vista se bloqueará de nuevo.",
+
+        "Help.Controls.SteamBindings": "Asignaciones de Steam",
 
         "Dummy": "Dummy"
     }

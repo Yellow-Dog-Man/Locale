@@ -370,6 +370,10 @@ Register.MissingPassword
 Register.MissingPassword.Description  
 Register.InvalidPassword  
 Register.InvalidPassword.Description  
+Register.InvalidPromoCode  
+Register.InvalidPromoCode.Description  
+Register.ExpiredPromoCode  
+Register.ExpiredPromoCode.Description  
 Register.EmailAlreadyRegistered  
 Register.EmailAlreadyRegistered.Description  
 Register.UsernameAlreadyRegistered  
@@ -427,6 +431,7 @@ Account.BirthDay
 Account.BirthYear  
 Account.PoliciesAgreement  
 Account.AlternateMethods  
+Account.PromoCode  
 Account.Saml2.Title  
 Account.Saml2.Select  
 Account.Saml2.LoggingIn  
@@ -455,6 +460,7 @@ Account.TOTP.Deactivate.Deactivate
 Account.TOTP.Deactivate.Deactivating  
 Account.TOTP.Message.DeactivationComplete  
 Account.Type.Standard  
+Account.Type.Promo  
 Account.Type.Business  
 Account.Type.Patreon  
 Account.Type.Stripe  
