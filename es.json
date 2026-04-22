@@ -3558,6 +3558,34 @@
         "Help.Building": "Construcción",
         "Help.Building.Content": "Construcción",
 
+        "Help.Advanced": "Avanzado",
+        "Help.Advanced.Content": "{appName} ofrece numerosas herramientas avanzadas que te permiten crear todo lo que desees. A continuación se enumeran solo algunas de las funciones avanzadas que ofrece {appName}, si quieres conocer el resto, echa un vistazo a la wiki.",
+        "Help.Advanced.AccountManagement": "Gestión de cuenta",
+        "Help.Advanced.HeadlessClient": "Cliente Sin Interfaz Gráfica",
+        "Help.Advanced.Websockets": "WebSockets",
+        "Help.Advanced.OSC": "OSC",
+        "Help.Advanced.Plugins": "Complementos",
+        "Help.Advanced.Debug": "Depuración",
+        "Help.Advanced.LocalSaves": "Guardados Locales",
+
+        "Help.Advanced.Syncing": "Sincronización",
+        "Help.Advanced.Syncing.Content": "Cuando guardas un objeto o un mundo en tu inventario, estos se suben a la nube, un proceso llamado <b><color=hero.purple>Sincronización</closeall>. Si estás guardando un objeto especialmente grande o un mundo con muchos recursos, la sincronización puede tardar un tiempo. Sin embargo, en el caso de la sincronización de mundos, una vez que el proceso de sincronización ha comenzado, puedes seguir trabajando en el mundo sin problemas, ya que, en esencia, se está subiendo una \"instantánea\" del mundo, no lo que ves en ese momento. Si por alguna razón {appName} se cierra inesperadamente y aún estás sincronizando elementos, ¡no te preocupes! Los elementos en sincronización se almacenan localmente en tu ordenador y se reanudará la sincronización cuando reinicies {appName}; no se perderán datos.<br><br>En casos excepcionales, puedes encontrarte con un <b><color=hero.red>Error de sincronización</closeall>, que se produce cuando un elemento o un mundo no se puede sincronizar con la nube por una u otra razón. <b>Si te encuentras con un error de sincronización, ¡por favor, no borres tu caché ni las carpetas de datos! Esa es una opción de último recurso, y es probable que haya otras opciones que puedas tomar antes de llegar a eso para evitar la pérdida de datos.</b><br><br>Dependiendo del tipo de error de sincronización que hayas encontrado, hay varias formas de solucionarlo. Echa un vistazo a los enlaces de la wiki que aparecen a continuación para ver cuál es relevante para tu error actual.",
+        "Help.Advanced.CloudVariables": "Variables Predeterminadas de la Nube",
+        "Help.Advanced.CloudVariables.Content": "Estas <b><color=hero.purple>Variables en la Nube</closeall> te las proporciona {appName} para que las utilices como desees. Para obtener más información sobre las variables en la nube, consulta nuestra wiki.",
+        "Help.Advanced.CloudVariables.Content2": "Si quieres aprender a crear tus propias variables en la nube, a continuación encontrarás una lista de los comandos disponibles para hacerlo.",
+        "Help.Advanced.CloudVariables.CloudVariableLink": "Comandos de Variables en la Nube",
+
+        "Help.Advanced.CloudVariables.PrimaryColor": "Color Personalizado Principal",
+        "Help.Advanced.CloudVariables.PrimaryColor.Content": "Este color personalizado es el que utiliza el avatar predeterminado para dar color a sus detalles, como los ribetes metálicos, los ojos y la boca. Está pensado para dar color a los detalles principales o primarios de los objetos o la interfaz de usuario.",
+        "Help.Advanced.CloudVariables.SecondaryColor": "Color Personalizado Secundario",
+        "Help.Advanced.CloudVariables.SecondaryColor.Content": "Este es el segundo de los tres colores disponibles para todos los usuarios. Está pensado para dar un toque de color secundario a objetos o a la interfaz de usuario.",
+        "Help.Advanced.CloudVariables.TertiaryColor": "Color Personalizado Terciario",
+        "Help.Advanced.CloudVariables.TertiaryColor.Content": "Este es el último de los tres colores disponibles para todos los usuarios. Está pensado para dar un toque de color a detalles secundarios en objetos o en la interfaz de usuario.",
+        "Help.Advanced.CloudVariables.ColorsEnabled": "Colores Personalizados Activados",
+        "Help.Advanced.CloudVariables.ColorsEnabled.Content": "Esta variable está pensada para ser utilizada por objetos o interfaces de usuario que empleen los tres colores mencionados anteriormente. Si esta variable es <i>falsa</i>, no deben utilizarse colores personalizados.",
+        "Help.Advanced.CloudVariables.ColorPickerSwatch": "Colores Personalizados del Selector de Colores",
+        "Help.Advanced.CloudVariables.ColorPickerSwatch.Content": "Este color personalizado es uno de los seis que se utilizan principalmente en el selector de colores. Están etiquetados como <b><color=hero.purple>Color1</closeall> a <b><color=hero.purple>Color6</closeall>, respectivamente.",
+
         "Dummy": "Dummy"
     }
 }
