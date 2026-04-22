@@ -3519,6 +3519,45 @@
         "Help.General.Favoriting.Hyperlink.Content": "Un enlace a una página web o a una URL externa.",
         "Help.General.Favoriting.Document.Content": "Un panel que muestra un documento PDF cuando es importado.",
 
+        "Help.Dashboard": "Panel",
+        "Help.Dashboard.Home.Content": "La pestaña <sprite name=HomeIcon> <b><color=hero.cyan>Inicio</closeall> es la primera pestaña situada en la parte inferior de tu Panel. Aquí encontrarás opciones relacionadas con los modos de voz, tu perfil y tu estado en línea en la esquina superior izquierda, así como la cantidad de almacenamiento personal en la esquina inferior izquierda, entre otros datos útiles. La pestaña Inicio también se puede personalizar activando el <b><color=hero.yellow>Modo de Edición de Interfaz</closeall> en tus <b><color=hero.cyan>Ajustes</closeall>.",
+        "Help.Dashboard.Worlds.Content": "Desde esta pestaña puedes unirte a sesiones activas y explorar <b><color=hero.cyan>Mundos</closeall>.",
+        "Help.Dashboard.Contacts.Content": "Aquí puedes encontrar tus <b><color=hero.green>Contactos</closeall> y buscarlos escribiendo en el campo de texto situado en la parte superior izquierda.",
+        "Help.Dashboard.Contacts.Content2": "El <b><color=hero.cyan>bot de {appName}</closeall> es un contacto que te permite ejecutar comandos especiales. Estos comandos siempre comienzan con una barra inclinada <b><color=hero.purple>/</closeall>.",
+        "Help.Dashboard.Inventory.Content": "En tu <b><color=hero.yellow>Inventario</closeall> podrás encontrar y <b><color=hero.cyan>Guardar</closeall> diversos objetos y avatares que hayas encontrado en {appName}.",
+        "Help.Dashboard.Inventory.Content2": "Tu inventario también contiene un enlace a la carpeta <b><color=hero.cyan>{appName} Essentials</closeall>. Esta carpeta contiene una gran variedad de contenidos, desde herramientas y objetos útiles hasta cosas divertidas y extravagantes - ¡explórala y descubre lo que hay dentro!<br><br>Dado que la carpeta es un <i>enlace</i>, no ocupa espacio de almacenamiento de tu cuenta. Tampoco puedes guardar nada en ella, pero puedes aparecer y modificar todo lo que hay dentro como quieras.<br><br>Si tienes un objeto genial que te gustaría que estuviera disponible en la carpeta Essentials, ¡dirígete al enlace de abajo para ver el <b><color=hero.cyan>Formulario de envío para {appName} Essentials</closeall>!",
+        "Help.Dashboard.SessionSettings.Content": "En la pestaña <b><color=hero.cyan>Sesión</closeall> encontrarás los ajustes de la <b><color=hero.cyan>Sesión</closeall> actual en la que te encuentras.",
+
+        "Help.Dashboard.SessionSettings.Settings.Content": "Cambia el nombre, el nivel de acceso y la descripción de tu sesión.",
+        "Help.Dashboard.SessionSettings.Users.Content": "Aquí puedes gestionar los usuarios de tu sesión. Desde este menú también puedes reaparecer tú mismo y hacer que reaparezcan otros.",
+        "Help.Dashboard.SessionSettings.Permissions.Content": "Muestra los niveles de permiso de cada usuario de la sesión. Si tu nivel de permiso es de moderador o superior, puedes asignar niveles de permiso a otros usuarios.",
+        "Help.Dashboard.Desktop.Content": "La pestaña <b><color=hero.cyan>Escritorio</closeall> te permite ver las pantallas de tu escritorio.<br><br>Si pulsas <b><color=hero.purple>{Context_Menu_Input}</closeall> mientras apuntas a tu escritorio, se abrirá un menú para activar el teclado o cambiar de monitor.",
+        "Help.Dashboard.FileBrowser.Content": "En la pestaña <b><color=hero.cyan>Archivos</closeall>, puedes explorar el sistema de archivos de tu ordenador, compartir archivos e importar recursos.",
+        "Help.Dashboard.FileBrowser.Content2": "En la parte superior de la ventana hay un conjunto de botones para añadir o importar archivos, entre otras funciones.<br><br>    • <b><color=hero.cyan>Importar</closeall>: Con un archivo seleccionado, esta opción te permitirá importarlo a {appName} siempre que sea de un tipo compatible.<br><br>    • <b><color=hero.orange>Importar Como Archivo</closeall>: Con un archivo seleccionado, esto te permite importar un archivo como una representación dentro del mundo del propio archivo, lo que te permite compartirlo fácilmente con otros o guardarlo en tu inventario.<br><br>    • <b><color=hero.green>Añadir Carpeta</closeall>: Esto te permite crear una nueva carpeta en tu ordenador.<br><br>    • <b><color=#7777ff>Actualizar</closeall>: Actualiza el explorador de archivos, en caso de que los archivos presentes hayan cambiado.",
+        "Help.Dashboard.Settings.Content": "En la pestaña <b><color=hero.cyan>Ajustes</closeall> podrás encontrar y personalizar tus ajustes. Todos los ajustes de {appName} se clasifican según la siguiente lista.",
+
+        "Help.Dashboard.Settings.Audio.Content": "Gestiona el volumen, los dispositivos de audio, los filtros y la accesibilidad del audio.",
+        "Help.Dashboard.Settings.Controls.Content": "Gestiona tus controles.",
+        "Help.Dashboard.Settings.UserInterface.Content": "Gestiona tu interfaz de usuario, incluyendo, entre otras cosas: cómo recibes las notificaciones, el cambio de idioma, la visibilidad de la placa de nombre y la configuración del Panel.",
+        "Help.Dashboard.Settings.Devices.Content": "Gestiona dispositivos externos, como los sistemas hápticos y el seguimiento facial.",
+        "Help.Dashboard.Settings.Profile.Content": "Gestiona tu altura y cómo se muestran tus estados.",
+        "Help.Dashboard.Settings.Graphics.Content": "Gestiona y optimiza la configuración de los gráficos.",
+        "Help.Dashboard.Settings.Privacy.Content": "Modifica si quieres aparecer en las capturas de pantalla, elimina los metadatos de las imágenes que importes y mucho más.",
+        "Help.Dashboard.Settings.Security.Content": "Gestionar el acceso a sitios web externos, comunicaciones, OSC y APIs.",
+        "Help.Dashboard.Settings.Networking.Content": "Gestiona cómo te conectas a las sesiones, la cantidad de archivos que puedes descargar a la vez y mucho más.",
+        "Help.Dashboard.Settings.InteractiveCamera.Content": "Controla el funcionamiento de la Cámara de Transmisión.",
+        "Help.Dashboard.Settings.Integrations.Content": "Elige qué información sobre tu actividad en {appName} quieres que vean los demás usuarios en Discord o Steam.",
+        "Help.Dashboard.Settings.Misc.Content": "Funciones de legado y de depuración.",
+
+        "Help.Dashboard.Exit.Content": "Esta pestaña te permite salir de {appName}.<br><br><b><color=hero.cyan>Salir y Guardar Hogares</closeall> te permite guardar tu casa antes de salir, mientras que <b><color=hero.red>Salir y Descartar Hogares</closeall> no guardará tu casa.",
+        "Help.Dashboard.DashboardCustomization": "Personalización del Panel",
+        "Help.Dashboard.DashboardCustomization.Content": "Algunas pestañas de tu Panel se pueden personalizar y contienen <b><color=hero.cyan>Facetas</closeall>, o elementos individuales dentro de la pestaña. Las facetas se pueden añadir, eliminar, redimensionar y sustituir - así es como puedes personalizar estas pestañas. Para editar las facetas de tu Panel, activa el <b><color=hero.cyan>Modo de Edición de Interfaz</closeall> en tus ajustes, o realiza el gesto rápido para activarlo. <br><br>Cuando el Modo de Edición de Interfaz  esté activado, verás un botón debajo de tu panel de control para desactivarlo. En las pestañas que puedas editar, aparecerá una cuadrícula detrás de las facetas de la pestaña. Al apuntar a una faceta con tu láser, esta se resaltará, y mientras la apuntas, puedes mantener pulsado <b><color=hero.purple>{Grip_Input}</closeall> para quitar la faceta. Mientras mantienes agarrada una faceta, puedes apuntar en el Panel al lugar donde deseas colocarla - suelta el botón para colocar la faceta tal cual, o bien haz clic y arrastra con el láser para elegir exactamente dónde quieres que se coloque la faceta.",
+
+        "Help.Avatars": "Avatares",
+
+        "Help.Building": "Construcción",
+        "Help.Building.Content": "Construcción",
+
         "Dummy": "Dummy"
     }
 }
