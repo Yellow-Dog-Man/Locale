@@ -18,12 +18,18 @@ World.Config.ResoniteLinkPort
 World.Actions.EnableResoniteLink  
 World.Category.Avatars  
 World.Edit.ReadOnly  
+Register.InvalidPromoCode  
+Register.InvalidPromoCode.Description  
+Register.ExpiredPromoCode  
+Register.ExpiredPromoCode.Description  
 Register.TooManyRegistrations  
 Register.TooManyRegistrations.Description  
 Register.StatusCheckError  
 Register.StatusCheckError.Description  
 Register.ManualLoginRequired  
 Register.ManualLoginRequired.Description  
+Account.PromoCode  
+Account.Type.Promo  
 Account.Type.Stripe  
 Permissions.SavingDisabledForItem  
 Permissions.NotAllowedToOpen  
@@ -236,6 +242,8 @@ Settings.DashSettings.DashCurvature
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.DashSettings.AllowReplacingSettings  
 Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings  
@@ -277,6 +285,8 @@ Settings.FacetAnchorsSettings.FacetAnchorToggle
 Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
 Settings.FacetAnchorsSettings.ShowContainerBackground  
 Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Settings.LaserSettings.SmoothSpeed  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle  

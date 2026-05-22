@@ -509,6 +509,12 @@
         "Register.InvalidPassword": "无效密码",
         "Register.InvalidPassword.Description": "你的密码无效。 密码必须至少包含 8 个字符，包括 1 个数字、1 个大写字母和 1 个小写字母。",
 
+        "Register.InvalidPromoCode": "邀请码无效",
+        "Register.InvalidPromoCode.Description": "你输入的邀请码无效。请检查拼写后重试。邀请码不区分大小写。",
+
+        "Register.ExpiredPromoCode": "已过期的邀请码",
+        "Register.ExpiredPromoCode.Description": "你输入的邀请码已过期。请尝试使用其他邀请码或将其移除。",
+
         "Register.EmailAlreadyRegistered": "此邮箱已注册",
         "Register.EmailAlreadyRegistered.Description": "使用此电子邮件的账户已经存在， 如果你忘记了密码，可以点击“忘记密码？”。 或者通过 {supportUrl} 联系客服。",
 
@@ -576,6 +582,7 @@
         "Account.BirthYear": "出生年份：",
         "Account.PoliciesAgreement": "我同意 <color=#22B2FF>服务条款</color> 与 <color=#22B2FF>隐私政策</color>",
         "Account.AlternateMethods": "使用第三方服务登录：",
+        "Account.PromoCode": "邀请码：",
 
         "Account.Saml2.Title": "SAML 2.0",
         "Account.Saml2.Select": "请选择你想使用的 SAML 2.0 服务商：",
@@ -607,6 +614,7 @@
         "Account.TOTP.Message.DeactivationComplete": "你账户的双重认证已被成功取消。<br><br>你的账户正因此面临更大的风险！<br><br>我们强烈建议你马上重新设置启用双重认证，特别是当你因丢失手机而使用了恢复码后。",
 
         "Account.Type.Standard": "标准账户",
+        "Account.Type.Promo": "邀请账户",
         "Account.Type.Business": "商用账户",
         "Account.Type.Patreon": "Patreon 支持者",
         "Account.Type.Stripe": "Stripe 支持者",
@@ -1045,7 +1053,7 @@
         "Importer.Model.CAD": "CAD模型",
         "Importer.Model.PointCloud": "点云",
 
-        "Importer.Model.GaussianSplat": "高斯溅落",
+        "Importer.Model.GaussianSplat": "高斯泼溅",
         "Importer.Model.GaussianSplatVertical": "垂直轴方向",
         "Importer.Model.RegularVertical": "常规模式",
         "Importer.Model.FlipVertical": "翻转Y轴",
@@ -1815,6 +1823,8 @@
         "Settings.DashSettings.DashCurvature.Description": "此设置可以控制在 VR 模式中主菜单的弯曲程度。将其设置为 0 将使其完全平坦。",
         "Settings.DashSettings.OpenCloseSpeed": "主菜单过渡动画速率",
         "Settings.DashSettings.OpenCloseSpeed.Description": "用它来调整主菜单打开或关闭时过渡动画的速度。如果你不喜欢这种动画效果，可以将其设置为非常高的值，这样面板打开和关闭的速度就会非常快。",
+        "Settings.DashSettings.ScreenSwitchSpeed": "界面切换速度",
+        "Settings.DashSettings.ScreenSwitchSpeed.Description": "调整面板在不同界面（例如主页、好友、房间）之间的切换速度。将其设置为 0 将完全取消动画效果，实现立即切换。",
         "Settings.DashSettings.AllowReplacingSettings": "允许替换设置面板",
         "Settings.DashSettings.AllowReplacingSettings.Description": "启用后，你就可以在 UI 编辑模式下选择面板上的设置面板，并将其替换为另一个面板。\n\n如果你想选取单个设置作为维面，则需要关闭此设置。 建议在你想用自定义替换设置 UI 时暂时打开，然后再禁用。",
 
@@ -1861,6 +1871,8 @@
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "显示背景",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "关闭此选项将禁用维面锚点的背景视觉效果，使维面本身成为唯一可见的部分。",
 
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace": "私有 UI 优先",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace.Description": "启用后，你的私有 UI（如面板、界面锚点或键盘）在交互时将始终享有最高优先级，即使它们被世界内的碰撞体遮挡。<br><br>当世界内的物体阻碍你与私有 UI 进行交互时，此功能会非常有帮助。<br><br>请注意，你可能需要先关闭面板，才能与你正前方的世界内物品进行交互。",
         "Settings.LaserSettings.SmoothSpeed": "激光平滑速度",
         "Settings.LaserSettings.SmoothSpeed.Description": "用它来控制激光对你的动作做出反应的速度。较低的数值会使激光更加迟缓，但能更好地过滤震颤。数值越大，响应速度越快，但也会传递更多的控制器震动。",
         "Settings.LaserSettings.ModulateStartAngle": "调节起始角度",

@@ -66,6 +66,10 @@ Login.MalformedSecretMachineId
 Register.MissingUID  
 Register.MalformedUID  
 Login.DuplicateAccount  
+Register.InvalidPromoCode  
+Register.InvalidPromoCode.Description  
+Register.ExpiredPromoCode  
+Register.ExpiredPromoCode.Description  
 Recovery.NoPasswordSetup  
 Recovery.NoPasswordSetup.Description  
 Register.TooManyRegistrations  
@@ -79,7 +83,9 @@ Account.SendRecoveryCode
 Account.ResetPasswordInstructions  
 Account.RecoveryCode  
 Account.Requesting  
+Account.PromoCode  
 Account.Saml2.Select  
+Account.Type.Promo  
 Account.Type.Stripe  
 Profile.Status.Headless  
 Profile.Status.Bot  
@@ -895,6 +901,8 @@ Settings.DashSettings.DashCurvature
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.DashSettings.AllowReplacingSettings  
 Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings  
@@ -936,6 +944,8 @@ Settings.FacetAnchorsSettings.FacetAnchorToggle
 Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
 Settings.FacetAnchorsSettings.ShowContainerBackground  
 Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Settings.LaserSettings.SmoothSpeed  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle  

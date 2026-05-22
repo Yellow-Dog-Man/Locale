@@ -31,6 +31,10 @@ Login.MalformedSecretMachineId
 Login.MalformedSecretMachineId.Description  
 Login.UnknownError  
 Login.UnknownError.Description  
+Register.InvalidPromoCode  
+Register.InvalidPromoCode.Description  
+Register.ExpiredPromoCode  
+Register.ExpiredPromoCode.Description  
 Recovery.MissingEmail  
 Recovery.MissingEmail.Description  
 Recovery.IncorrectEmail  
@@ -45,6 +49,8 @@ Register.ManualLoginRequired
 Register.ManualLoginRequired.Description  
 Register.UnknownError  
 Register.UnknownError.Description  
+Account.PromoCode  
+Account.Type.Promo  
 Account.Type.Stripe  
 Profile.Status.Sociable  
 Profile.Status.Bot  
@@ -578,6 +584,8 @@ Settings.DashSettings.DashCurvature
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.DashSettings.AllowReplacingSettings  
 Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings  
@@ -619,6 +627,8 @@ Settings.FacetAnchorsSettings.FacetAnchorToggle
 Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
 Settings.FacetAnchorsSettings.ShowContainerBackground  
 Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Settings.LaserSettings.SmoothSpeed  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle  
