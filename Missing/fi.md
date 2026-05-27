@@ -62,6 +62,9 @@ Importer.UnsupportedRecordType.Heading
 Importer.UnsupportedRecordType.Description  
 Importer.Link.Invalid.Description  
 Inventory.Link.LinkText  
+Settings.AudioStreamSettings  
+Settings.AudioStreamSettings.DefaultBitrate  
+Settings.AudioStreamSettings.DefaultDeviceID  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description  
@@ -333,6 +336,11 @@ Inspector.Collider.SetFromLocalBoundsPrecise
 Inspector.Collider.SetFromGlobalBoundsPrecise  
 Inspector.Collider.SetFromPreciseBounds  
 Inspector.Collider.SetFromPreciseCylinderBounds  
+Inspector.FingerReferencePoseSource.AssignFromBipedRig  
+Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
+Inspector.FingerReferencePoseSource.CaptureMyRightHand  
+Inspector.BipedRig.GenerateStaticFingerPoseCode  
+Inspector.FingerReferencePoseSource.CaptureReference  
 Inspector.Fields.Drive  
 Inspector.Fields.DriveWriteBack  
 WorkerInspector.Title  

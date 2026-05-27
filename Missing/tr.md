@@ -537,6 +537,9 @@ Settings.AudioOutputDeviceSettings
 Settings.AudioVolumeSettings  
 Settings.AudioAccessibilitySettings  
 Settings.AudioInputFilteringSettings  
+Settings.AudioStreamSettings  
+Settings.AudioStreamSettings.DefaultBitrate  
+Settings.AudioStreamSettings.DefaultDeviceID  
 Settings.RealtimeNetworkingSettings  
 Settings.AssetGatherSettings  
 Settings.HostAccessSettings  
@@ -1338,6 +1341,11 @@ Inspector.Collider.SetFromPreciseCylinderBounds
 Inspector.Collider.Visualize  
 Inspector.SimpleAwayIndicator.TestAway  
 Inspector.SimpleAwayIndicator.TestRestore  
+Inspector.FingerReferencePoseSource.AssignFromBipedRig  
+Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
+Inspector.FingerReferencePoseSource.CaptureMyRightHand  
+Inspector.BipedRig.GenerateStaticFingerPoseCode  
+Inspector.FingerReferencePoseSource.CaptureReference  
 Inspector.Fields.Drive  
 Inspector.Fields.DriveWriteBack  
 Inspector.Actions.CopyComponent  

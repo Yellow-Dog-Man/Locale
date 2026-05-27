@@ -615,6 +615,9 @@ CameraControl.OBS.Recording
 CameraControl.OBS.OpenInstallerReason  
 Settings.LegacyFeatureSettings.ConvertLegacySettings  
 Settings.DebugSettings.DebugResetAllSimpleSettings  
+Settings.AudioStreamSettings  
+Settings.AudioStreamSettings.DefaultBitrate  
+Settings.AudioStreamSettings.DefaultDeviceID  
 Settings.MessagingPrivacySettings  
 Settings.LocaleSettings  
 Settings.DashSettings  
@@ -1455,6 +1458,11 @@ Inspector.Collider.SetFromPreciseCylinderBounds
 Inspector.Collider.Visualize  
 Inspector.SimpleAwayIndicator.TestAway  
 Inspector.SimpleAwayIndicator.TestRestore  
+Inspector.FingerReferencePoseSource.AssignFromBipedRig  
+Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
+Inspector.FingerReferencePoseSource.CaptureMyRightHand  
+Inspector.BipedRig.GenerateStaticFingerPoseCode  
+Inspector.FingerReferencePoseSource.CaptureReference  
 Inspector.Fields.Drive  
 Inspector.Fields.DriveWriteBack  
 Inspector.Actions.CopyComponent  

@@ -119,6 +119,9 @@ Importer.Link.Invalid.Description
 Inventory.Link.LinkText  
 Export.GaussianSplatExportable.PLY  
 Export.GaussianSplatExportable.SPZ  
+Settings.AudioStreamSettings  
+Settings.AudioStreamSettings.DefaultBitrate  
+Settings.AudioStreamSettings.DefaultDeviceID  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
@@ -800,6 +803,11 @@ Inspector.Collider.SetFromPreciseCylinderBounds
 Inspector.Collider.Visualize  
 Inspector.SimpleAwayIndicator.TestAway  
 Inspector.SimpleAwayIndicator.TestRestore  
+Inspector.FingerReferencePoseSource.AssignFromBipedRig  
+Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
+Inspector.FingerReferencePoseSource.CaptureMyRightHand  
+Inspector.BipedRig.GenerateStaticFingerPoseCode  
+Inspector.FingerReferencePoseSource.CaptureReference  
 Inspector.Fields.Drive  
 Inspector.Fields.DriveWriteBack  
 Inspector.Actions.CopyComponent  

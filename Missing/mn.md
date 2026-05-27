@@ -35,6 +35,9 @@ Tools.Rig.SetupFABRIK
 Tools.Rig.CreateNew  
 CreateNew.Editor.TexturePackingWizard  
 CreateNew.Editor.TextureUnpackingWizard  
+Settings.AudioStreamSettings  
+Settings.AudioStreamSettings.DefaultBitrate  
+Settings.AudioStreamSettings.DefaultDeviceID  
 Settings.BabbleSettings  
 Settings.BabbleSettings.OSC_DataPort  
 Settings.BabbleSettings.OSC_DataPort.Description  
@@ -70,6 +73,11 @@ Inspector.FacetPreset.Warning
 Inspector.GrabbableSaveBlock.Warning  
 Inspector.NewSystem.Warning  
 Inspector.AI_GeneratedContent.Info  
+Inspector.FingerReferencePoseSource.AssignFromBipedRig  
+Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
+Inspector.FingerReferencePoseSource.CaptureMyRightHand  
+Inspector.BipedRig.GenerateStaticFingerPoseCode  
+Inspector.FingerReferencePoseSource.CaptureReference  
 Inspector.Wizard.PackTexture  
 Inspector.Wizard.UnpackTexture  
 Inspector.Error  

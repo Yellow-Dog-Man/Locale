@@ -6,7 +6,15 @@ Tools.Rig.AddEffector
 Tools.Rig.RemoveEffector  
 Tools.Rig.SetupFABRIK  
 Tools.Rig.CreateNew  
+Settings.AudioStreamSettings  
+Settings.AudioStreamSettings.DefaultBitrate  
+Settings.AudioStreamSettings.DefaultDeviceID  
 Inspector.NewSystem.Warning  
+Inspector.FingerReferencePoseSource.AssignFromBipedRig  
+Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
+Inspector.FingerReferencePoseSource.CaptureMyRightHand  
+Inspector.BipedRig.GenerateStaticFingerPoseCode  
+Inspector.FingerReferencePoseSource.CaptureReference  
 Universe.Units.Parsec  
 Universe.Units.Inch  
 Universe.Units.Foot  
