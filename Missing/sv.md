@@ -26,11 +26,16 @@ Undo.RemoveListElement
 Tools.Brush.FinishStrokeGroup  
 Tools.MeshPlaneBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
+Tools.Rig.AddEffector  
+Tools.Rig.RemoveEffector  
+Tools.Rig.SetupFABRIK  
+Tools.Rig.CreateNew  
 Settings.DashSettings.ScreenSwitchSpeed  
 Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.LaserSettings.AlwaysPrioritizeUserspace  
 Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Inspector.Member.SplitBlendshapeToStaticMesh  
+Inspector.NewSystem.Warning  
 Inspector.AI_GeneratedContent.Info  
 Tutorial.HelpTabPanel.Title  
 Tutorial.HelpTabPanel.Content  

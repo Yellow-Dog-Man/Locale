@@ -29,6 +29,10 @@ Undo.RemoveListElement
 Tools.Brush.FinishStrokeGroup  
 Tools.MeshPlaneBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
+Tools.Rig.AddEffector  
+Tools.Rig.RemoveEffector  
+Tools.Rig.SetupFABRIK  
+Tools.Rig.CreateNew  
 CreateNew.Editor.TexturePackingWizard  
 CreateNew.Editor.TextureUnpackingWizard  
 Settings.BabbleSettings  
@@ -64,6 +68,7 @@ Inspector.Texture.IsolateB
 Inspector.Texture.IsolateA  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.NewSystem.Warning  
 Inspector.AI_GeneratedContent.Info  
 Inspector.Wizard.PackTexture  
 Inspector.Wizard.UnpackTexture  

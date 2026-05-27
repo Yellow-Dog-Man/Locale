@@ -18,6 +18,10 @@ Account.PromoCode
 Account.Type.Promo  
 Permissions.NotAllowedToOpen  
 Tools.MeshPlaneBrush.Name  
+Tools.Rig.AddEffector  
+Tools.Rig.RemoveEffector  
+Tools.Rig.SetupFABRIK  
+Tools.Rig.CreateNew  
 Settings.DashSettings.ScreenSwitchSpeed  
 Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.LaserSettings.AlwaysPrioritizeUserspace  
@@ -26,6 +30,7 @@ Settings.RendererDecouplingSettings.ActivationFramerate.Description
 Settings.RendererDecouplingSettings.DeactivationFrames.Description  
 Settings.RendererDecouplingSettings.ForceDecouple.Description  
 Inspector.Member.SplitBlendshapeToStaticMesh  
+Inspector.NewSystem.Warning  
 Inspector.AI_GeneratedContent.Info  
 CloudHome.Panel.RealtimeReflections  
 CloudHome.Panel.SpotLights  
