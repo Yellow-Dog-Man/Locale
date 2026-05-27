@@ -919,7 +919,12 @@
         "Tools.ControllerDiagnostic.Name": "Controller-Diagnose-Tool",
 
         "Tools.Labeler.Name": "Etikettier-Tool",
-
+        
+        "Tools.Rig.AddEffector": "Effektor hinzufügen",
+        "Tools.Rig.RemoveEffector": "Effektor entfernen",
+        "Tools.Rig.SetupFABRIK": "FABRIK IK solver einrichten",
+        "Tools.Rig.CreateNew": "Erstelle neues Rig",
+        
         "ProtoFlux.UI.Call": "Aufruf",
         "ProtoFlux.UI.AsyncCall": "<size=50%>Asynchroner</size> Aufruf",
         "ProtoFlux.UI.NodeBrowser.Title": "ProtoFlux Nodes",
@@ -1395,6 +1400,10 @@
         "Settings.AudioAccessibilitySettings": "Audio Barrierefreiheit",
         "Settings.AudioInputFilteringSettings": "Aufnahmefilter",
 
+        "Settings.AudioStreamSettings": "Audiostream-Einstellungen",
+        "Settings.AudioStreamSettings.DefaultBitrate": "Standardbitrate",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "Standard-Geräte-ID",
+        
         "Settings.RealtimeNetworkingSettings": "Echtzeit-Netzwerk-Einstellungen",
         "Settings.AssetGatherSettings": "Asset-Sammlung",
 
@@ -2443,6 +2452,8 @@
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>WARNUNG!</size></color><br>Facet-Voreinstellungen aktualisieren ihren Inhalt automatisch, wenn wir neue Versionen dieser Voreinstellungen veröffentlichen. Wenn Sie eine eigene Version erstellen, empfehlen wir, diese Komponente zu löschen.",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>WARNUNG!</size></color><br>Diese Komponente ist kein Sicherheitssystem oder Diebstahlschutz. Sie ist für Situationen bestimmt, in denen die einfachen Speichermöglichkeiten aus Designgründen oder zum Erhalt des Spielerlebnisses blockiert werden sollen. Sie kann einfach umgangen werden, und wir werden die Sicherheit in keinem Fall verbessern.",
 
+        "Inspector.NewSystem.Warning": "<color=red><size=125%>WARNUNG!</size></color><br> Diese Komponente ist Teil eines neu hinzugefügten Systems, das sich noch in der Entwicklung befindet. Sie können es gerne schon ausprobieren, aber beachten Sie, dass wir möglicherweise noch Änderungen daran vornehmen werden, und Sie dann Ihre Inhalte anpassen müssen.<br><br>Wenn Ihre Inhalte langfristig kompatibel bleiben sollen, nutzen Sie diese Komponente erst, wenn dieser Hinweis entfernt worden ist.",        
+        
         "Inspector.AI_GeneratedContent.Info": "Diese Komponente soll von generativer KI erzeugte Inhalte markieren. Es wird empfohlen, sie an der Wurzel der Objekte zu platzieren, die mit diesen Methoden generiert werden. Wenn diese Komponenten vorhanden sind, werden beim Speichern des Objektes oder der Welt Tags hinzugefügt, wodurch diese Inhalte gefiltert werden können.",
         
         "Inspector.ParticleSystem.BasicInfo": "Partikel: {count}, FPS: {fps}, Simulationszeit: {time}, Submit-Zeit: {renderSubmitTime}, Render-Allokationen: {allocationCount}",
@@ -2468,6 +2479,12 @@
         "Inspector.SimpleAwayIndicator.TestAway": "Auf abwesend setzen (debug)",
         "Inspector.SimpleAwayIndicator.TestRestore": "Normalzustand wiederherstellen (debug)",
 
+        "Inspector.FingerReferencePoseSource.AssignFromBipedRig": "Aus dem Biped-Rig übertragen",
+        "Inspector.FingerReferencePoseSource.CaptureMyLeftHand": "Von meiner linken Hand übernehmen",
+        "Inspector.FingerReferencePoseSource.CaptureMyRightHand": "Von meiner rechten Hand übernehmen",
+        "Inspector.BipedRig.GenerateStaticFingerPoseCode": "Kopiere statische Fingerpose in die Zwischenablage",
+        "Inspector.FingerReferencePoseSource.CaptureReference": "Aus Referenz übernehmen",
+        
         "Inspector.Fields.Drive": "Drive",
         "Inspector.Fields.DriveWriteBack": "Drive <size=50%>(zurückschreibend)</size>",
 
