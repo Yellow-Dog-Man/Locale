@@ -933,8 +933,6 @@ GaussianSplat.Encoding.EncodingPositions
 GaussianSplat.Encoding.EncodingRotations  
 GaussianSplat.Encoding.EncodingScales  
 GaussianSplat.Encoding.EncodingAlphas  
-GaussianSplat.Encoding.EncodingColors  
-GaussianSplat.Encoding.EncodingFinalizing  
 GaussianSplat.Processing.RemovingSplats  
 GaussianSplat.Processing.SplatProgress  
 GaussianSplat.Processing.LoadingData  
@@ -1742,8 +1740,6 @@ Settings.GaussianSplatQualitySettings.PositionFormat
 Settings.GaussianSplatQualitySettings.PositionFormat.Description  
 Settings.GaussianSplatQualitySettings.ScaleFormat  
 Settings.GaussianSplatQualitySettings.ScaleFormat.Description  
-Settings.GaussianSplatQualitySettings.ColorFormat  
-Settings.GaussianSplatQualitySettings.ColorFormat.Description  
 Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat  
 Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description  
 Settings.ResolutionSettings  

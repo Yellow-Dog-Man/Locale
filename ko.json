@@ -510,6 +510,12 @@
         "Register.InvalidPassword": "유효하지 않은 암호입니다.",
         "Register.InvalidPassword.Description": "잘못된 암호입니다.",
 
+        "Register.InvalidPromoCode": "잘못된 프로모션 코드 입니다.",
+        "Register.InvalidPromoCode.Description": "프로모션 코드가 정확하지 않습니다. 잘못 입력되지 않았는지 확인해 주세요. 대소문자는 가리지 않습니다.",
+
+        "Register.ExpiredPromoCode": "만료된 프로모션 코드 입니다.",
+        "Register.ExpiredPromoCode.Description": "사용 기간이 지난 코드를 입력하셨습니다. 유효한 다른 코드를 입력하여 주세요.",
+
         "Register.EmailAlreadyRegistered": "이미 등록된 전자메일 주소입니다.",
         "Register.EmailAlreadyRegistered.Description": "이미 계정으로 등록된 전자메일입니다. 암호를 분실 하신 경우라면 \"암호가 기억나지 않나요?\"를 눌러서 문제 해결 절차를 진행하시고, 그렇지 않은 경우라면 {supportUrl} 사이트를 통해 지원을 받아보시기 바랍니다.",
 
@@ -527,7 +533,7 @@
 
         "Recovery.NoPasswordSetup" : "비밀번호가 설정되지 않았습니다.",
         "Recovery.NoPasswordSetup.Description" : "{supportUrl} 사이트를 통해 지원을 받으세요.",
-
+        
         "Register.TooManyRegistrations": "등록 횟수가 너무 많습니다.",
         "Register.TooManyRegistrations.Description": "최근 다수의 계정을 등록 하셨습니다. 잠시 기다린 후 다시 시도 하세요. 오류라고 생각되시면 {supportUrl}을(를)통해 지원을 받으세요.",
 
@@ -577,6 +583,7 @@
         "Account.BirthYear": "생년",
         "Account.PoliciesAgreement": "저는 <color=#22B2FF>서비스 약관</color> 및 <color=#22B2FF>개인 정보 정책</color>에 동의 합니다.",
         "Account.AlternateMethods" : "3자 인증서비스로 로그인:",
+        "Account.PromoCode": "프로모션 코드:",
 
         "Account.Saml2.Title" : "SAML 2.0",
         "Account.Saml2.Select" : "사용하고자 하는 SAML 2.0 제공자를 선택하세요.:",
@@ -608,6 +615,7 @@
         "Account.TOTP.Message.DeactivationComplete": "2FA(2차인증)이 비활성화 되었습니다.<br><br>계정의 보안등급이 낮아졌습니다!<br><br>휴대전화 분실 등으로 복구코드를 사용하신 경우, 즉시 재설정하는것을 추천합니다.",
 
         "Account.Type.Standard" : "일반 계정",
+        "Account.Type.Promo": "프로모션 계정",
         "Account.Type.Business" : "비즈니스 계정",
         "Account.Type.Patreon" : "페트리온 후원자",
         "Account.Type.Stripe" : "스트라이프 후원자",
