@@ -919,6 +919,11 @@
 
         "Tools.Labeler.Name": "标签设置工具",
 
+        "Tools.Rig.AddEffector": "添加效应器",
+        "Tools.Rig.RemoveEffector": "移除效应器",
+        "Tools.Rig.SetupFABRIK": "设置 FABRIK IK解算器",
+        "Tools.Rig.CreateNew": "创建新骨骼",
+
         "ProtoFlux.UI.Call": "调用",
         "ProtoFlux.UI.AsyncCall": "<size=50%>异步</size> 调用",
         "ProtoFlux.UI.NodeBrowser.Title": "ProtoFlux 节点",
@@ -1393,6 +1398,10 @@
         "Settings.AudioVolumeSettings": "音量",
         "Settings.AudioAccessibilitySettings": "无障碍音频",
         "Settings.AudioInputFilteringSettings": "音频输入过滤",
+
+        "Settings.AudioStreamSettings": "音频流设置",
+        "Settings.AudioStreamSettings.DefaultBitrate": "默认比特率",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "默认设备ID",
 
         "Settings.RealtimeNetworkingSettings": "实时网络通讯",
         "Settings.AssetGatherSettings": "资产获取",
@@ -2441,6 +2450,8 @@
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>警告!</size></color><br>Facet预设将会在我们发布新版本的时候自动更新。如果你在用自定义版本呢，我们建议删除这个组件。",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>警告！</size></color> 本组件并非用作安全/资产防盗保护系统。其设计初衷仅适用于因玩法或设计需求需屏蔽简易保存方式的场景。该组件可被轻易绕过，且在任何情况下都不会增强其安全性。",
 
+        "Inspector.NewSystem.Warning": "<color=red><size=125%>警告！</size></color><br> 该组件是新添加系统的一部分，目前仍在开发中。虽然我们欢迎你开始尝试使用它，但请注意，我们可能会对其进行破坏性更改，届时将需要你更新你的内容。<br><br>如果你想确保使用它构建的任何内容具有长期的兼容性，请等待此提示消失。",
+        
         "Inspector.AI_GeneratedContent.Info": "此组件旨在标记由AI生成的内容。建议将其置于通过这些方法生成的对象的最顶层。这样，在保存物品时以及在包含这些组件的情况下保存世界时，都会自动添加标签，从而能够对这些内容进行筛选。",
 
         "Inspector.ParticleSystem.BasicInfo": "粒子： {count}， 帧率： {fps}， 模拟时间： {time}， 提交时间： {renderSubmitTime}， 渲染分配： {allocationCount}",
@@ -2465,6 +2476,12 @@
 
         "Inspector.SimpleAwayIndicator.TestAway": "设为离开（调试）",
         "Inspector.SimpleAwayIndicator.TestRestore": "返回正常（调试）",
+
+        "Inspector.FingerReferencePoseSource.AssignFromBipedRig": "从双足骨骼分配",
+        "Inspector.FingerReferencePoseSource.CaptureMyLeftHand": "捕捉我的左手",
+        "Inspector.FingerReferencePoseSource.CaptureMyRightHand": "捕捉我的右手",
+        "Inspector.BipedRig.GenerateStaticFingerPoseCode": "将静态手指姿势复制到剪贴板",
+        "Inspector.FingerReferencePoseSource.CaptureReference": "从引用中捕捉",
 
         "Inspector.Fields.Drive": "驱动",
         "Inspector.Fields.DriveWriteBack": "驱动 <size=50%>（回写）</size>",
