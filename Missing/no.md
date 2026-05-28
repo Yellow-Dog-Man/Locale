@@ -163,6 +163,7 @@ Tools.Rig.AddEffector
 Tools.Rig.RemoveEffector  
 Tools.Rig.SetupFABRIK  
 Tools.Rig.CreateNew  
+Tools.Rig.DeselectRig  
 CreateNew.LegacyParticleSystem  
 CreateNew.Object.ReverbZone  
 CreateNew.Editor.TexturePackingWizard  

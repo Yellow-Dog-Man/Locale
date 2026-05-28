@@ -33,6 +33,7 @@ Tools.Rig.AddEffector
 Tools.Rig.RemoveEffector  
 Tools.Rig.SetupFABRIK  
 Tools.Rig.CreateNew  
+Tools.Rig.DeselectRig  
 CreateNew.Editor.TexturePackingWizard  
 CreateNew.Editor.TextureUnpackingWizard  
 Settings.AudioStreamSettings  

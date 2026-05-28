@@ -22,6 +22,7 @@ Tools.Rig.AddEffector
 Tools.Rig.RemoveEffector  
 Tools.Rig.SetupFABRIK  
 Tools.Rig.CreateNew  
+Tools.Rig.DeselectRig  
 Settings.AudioStreamSettings  
 Settings.AudioStreamSettings.DefaultBitrate  
 Settings.AudioStreamSettings.DefaultDeviceID  
