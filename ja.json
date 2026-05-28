@@ -194,6 +194,9 @@
         "World.Connection.SteamNetworkingSockets": "Steam Networking Sockets",
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
+        "World.Connection.NoProtocolsAvailable": "利用可能な接続方法がありません",
+        "World.Connection.AllProtocolsFailed": "すべての接続方法で失敗しました",
+
         "World.Error.AccessDenied": "アクセスが拒否されました",
         "World.Error.SecurityViolation": "セキュリティ違反",
         "World.Error.OnlyRegisteredUsers": "ログインユーザーのみが入室できます",
@@ -507,6 +510,12 @@
         "Register.InvalidPassword": "無効なパスワードです",
         "Register.InvalidPassword.Description": "パスワードが無効です。8文字以上で、数字、大文字、小文字をそれぞれ1字以上使用してください。",
 
+        "Register.InvalidPromoCode": "無効なプロモーションコード",
+        "Register.InvalidPromoCode.Description": "入力されたプロモーションコードは無効です。もう一度入力してください。大文字と小文字は区別されません。",
+
+        "Register.ExpiredPromoCode": "有効期限が切れたプロモーションコード",
+        "Register.ExpiredPromoCode.Description": "入力されたプロモーションコードの有効期限が切れています。別のコードを入力するか、コードを削除してください。",
+
         "Register.EmailAlreadyRegistered": "このEmailは既に登録されています",
         "Register.EmailAlreadyRegistered.Description": "このメールアドレスを使用したアカウントはすでに存在します。 パスワードを忘れた場合は、\"パスワードを忘れてしまった\"をクリックしてください。 もしくはサポートまでご連絡ください {supportUrl}",
 
@@ -524,6 +533,15 @@
 
         "Recovery.NoPasswordSetup" : "パスワードが設定されていません",
         "Recovery.NoPasswordSetup.Description" : "サポートまでご連絡ください {supportUrl}",
+
+        "Register.TooManyRegistrations": "登録数が多すぎます",
+        "Register.TooManyRegistrations.Description": "短期間にアカウントを登録しすぎました。しばらくしてから再度登録してください。これが誤りであると思われる場合には、{supportUrl} からサポートまでお問い合わせください。",
+
+        "Register.StatusCheckError": "登録状況が不明です",
+        "Register.StatusCheckError.Description": "アカウント登録は送信されましたが、ステータスの確認に問題が発生しました。しばらくしてから再度ログインをお試しください。",
+
+        "Register.ManualLoginRequired": "手動でのログインが必要です",
+        "Register.ManualLoginRequired.Description": "アカウントの登録は完了しましたが、セッションデータの取得に問題が発生しました。しばらくしてから再度ログインをお試しください。",
 
         "Register.UnknownError": "未知のエラーです",
         "Register.UnknownError.Description": "登録中に未知なエラーが発生しました。 サポートまでご連絡ください {supportUrl}",
@@ -565,6 +583,7 @@
         "Account.BirthYear": "誕生年:",
         "Account.PoliciesAgreement": "<color=#22B2FF>利用規約</color> および <color=#22B2FF>プライバシーポリシー</color> に同意します。",
         "Account.AlternateMethods" : "外部サービスでログインする:",
+        "Account.PromoCode": "プロモーションコード:",
 
         "Account.Saml2.Title" : "SAML 2.0",
         "Account.Saml2.Select" : "使用するサービスを選んでください:",
@@ -596,6 +615,7 @@
         "Account.TOTP.Message.DeactivationComplete": "2要素認証が無効化されました。<br><br>アカウントのリスクが高まっています！<br><br>特にスマートフォンを紛失したために​リカバリーコードを使用した場合は、​すぐに2要素認証を再設定してください。",
 
         "Account.Type.Standard" : "スタンダードアカウント",
+        "Account.Type.Promo": "プロモーションアカウント",
         "Account.Type.Business" : "ビジネスアカウント",
         "Account.Type.Patreon" : "Patreon サポーター",
         "Account.Type.Stripe": "Stripe サポーター",
@@ -639,6 +659,7 @@
         "Permissions.NotAllowedToSave": "ここでアイテムは保存できません。",
         "Permissions.NotAllowedToSwapAvatar": "ここでカスタムアバターは使用できません。",
         "Permissions.SavingDisabledForItem": "このアイテムは保存できません。",
+        "Permissions.NotAllowedToOpen": "これを開く権限がありません。",
 
         "User.Actions.Silence": "全体ミュート",
         "User.Actions.Mute": "ミュート",
@@ -757,6 +778,7 @@
 
         "Tools.GeometryLineBrush.Name": "ジオメトリラインブラシ",
 
+        "Tools.MeshPlaneBrush.Name": "メッシュプレーンブラシ",
         "Tools.MeshPlaneBrush.AddHole": "穴を開ける",
 
         "Tools.Dev.Name": "デブツール",
@@ -897,6 +919,11 @@
         "Tools.ControllerDiagnostic.Name": "コントローラー診断ツール",
 
         "Tools.Labeler.Name": "ラベルツール",
+
+        "Tools.Rig.AddEffector": "エフェクター追加",
+        "Tools.Rig.RemoveEffector": "エフェクター削除",
+        "Tools.Rig.SetupFABRIK": "FABRIK IKソルバー設定",
+        "Tools.Rig.CreateNew": "リグを新規作成",
 
         "ProtoFlux.UI.Call" : "Call",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> Call",
@@ -1373,6 +1400,10 @@
         "Settings.AudioAccessibilitySettings": "音声アクセシビリティ",
         "Settings.AudioInputFilteringSettings": "入力フィルター",
 
+        "Settings.AudioStreamSettings": "オーディオストリーム設定",
+        "Settings.AudioStreamSettings.DefaultBitrate": "デフォルトのビットレート",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "デフォルトのデバイスID",
+
         "Settings.RealtimeNetworkingSettings": "リアルタイムネットワーキング",
         "Settings.AssetGatherSettings": "アセットの読み込み",
 
@@ -1801,6 +1832,8 @@
         "Settings.DashSettings.DashCurvature.Description": "VRでのダッシュメニューの曲がり具合を設定できます。0に設定すると完全に平面になります。",
         "Settings.DashSettings.OpenCloseSpeed": "開閉スピード",
         "Settings.DashSettings.OpenCloseSpeed.Description": "ダッシュメニューの開閉速度を調整できます。アニメーションが気に入らない場合は、この値を非常に大きくして、ほぼ瞬時に開閉するように設定できます。",
+        "Settings.DashSettings.ScreenSwitchSpeed": "タブ切り替え速度",
+        "Settings.DashSettings.ScreenSwitchSpeed.Description": "ダッシュメニューのタブ切り替え（ホーム、フレンド、セッションなど）の速度を調整します。この設定を0にすると、アニメーションが無くなり瞬時に切り替わります。",
         "Settings.DashSettings.AllowReplacingSettings" : "設定の入れ替えを許可する",
         "Settings.DashSettings.AllowReplacingSettings.Description" : "有効にすると、UI編集モードのときにダッシュメニューの設定ファセットを他のファセットに置き換えることができます。\n\n個々の設定をファセットとして取り出したい場合は、この設定をオフにする必要があります。設定UIをカスタムUIに置き換えたいときにだけ、一時的にこの設定をオンにすることをおすすめします。",
 
@@ -1849,6 +1882,8 @@
         "Settings.FacetAnchorsSettings.ShowContainerBackground" : "背景を表示",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description" : "これをオフにすると、ファセットアンカーの背景表示が無効になり、ファセットそのものだけが見えるようになります。",
 
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace": "プライベートUIを優先する",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace.Description": "この機能を有効にすると、ダッシュメニュー、ファセットアンカー、キーボードなどのプライベートUIは、ワールド内のコライダーに隠れていても、常に操作の順位が優先されます。<br><br>これは、ワールド内のオブジェクトによってプライベートUIの操作が妨げられる場合に役立ちます。<br><br>ワールド内のアイテムを操作する際には、ダッシュメニューを閉じる必要がある場合があります。",
         "Settings.LaserSettings.SmoothSpeed": "スムーズスピード",
         "Settings.LaserSettings.SmoothSpeed.Description": "レーザーがコントローラーに追従するスピードを設定できます。値を低くすると、レーザーは鈍くなりますが、手ブレの影響を抑えられます。値を高くすると、レーザーはより機敏に反応しますが、手ブレの影響を受けやすくなります。",
         "Settings.LaserSettings.ModulateStartAngle": "始点の角度",
@@ -2175,6 +2210,7 @@
         "Inspector.Member.SplitBlendshape.X" : "ブレンドシェイプをX軸で分割",
         "Inspector.Member.SplitBlendshape.Y" : "ブレンドシェイプをY軸で分割",
         "Inspector.Member.SplitBlendshape.Z" : "ブレンドシェイプをZ軸で分割",
+        "Inspector.Member.SplitBlendshapeToStaticMesh": "ブレンドシェイプをスタティックメッシュに分割",
 
         "Inspector.ProceduralAsset.UpdateCount": "アップデート回数: {n}",
         "Inspector.ProceduralAsset.Error": "エラー: {error}",
@@ -2416,6 +2452,10 @@
         "Inspector.FacetPreset.Warning":"<color=red><size=125%>警告!</size></color><br>FacetPresetsがあると、新しいバージョンのプリセットが公開されると、ファセットが自動的にアップデートされます。ファセットを改造する場合は、このコンポーネントを削除することをお勧めします。",
         "Inspector.GrabbableSaveBlock.Warning":"<color=red><size=125%>警告!</size></color><br>このコンポーネントは、セキュリティやアセット盗難防止として設計されたものではありません。ゲームプレイやデザイン上の理由で、より簡単に保存をブロックしたい場合に使用することを目的としています。これは簡単に迂回することができ、どのような状況でもセキュリティを高めることはできません。",
 
+        "Inspector.NewSystem.Warning": "<color=red><size=125%>警告！</size></color><br> このコンポーネントは、新たに追加されたシステムの一部であり、現在も開発中です。ぜひお試しください。ただし、今後互換性を損なう変更が行われる可能性があり、その場合はコンテンツの修正が必要になります。<br><br>このコンポーネントを使用し、作成したコンテンツの長期的な互換性を確保したい場合は、この通知が削除されるまでお待ちください。",
+
+        "Inspector.AI_GeneratedContent.Info": "このコンポーネントは、生成AIによって生成されたコンテンツにフラグを立てることを目的としています。生成AIを用いて作成したオブジェクトのルートに配置することを推奨します。これにより、アイテムが保存された際や、このコンポーネントが存在する状態でワールドが保存された際に自動的にタグが追加され、そのAI生成コンテンツをフィルタリングできるようになります。",
+
         "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}, FPS: {fps}, Simulation Time: {time}, Submit Time: {renderSubmitTime}, Render allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
 
@@ -2436,8 +2476,14 @@
         "Inspector.Collider.SetFromPreciseCylinderBounds": "正確なシリンダーバウンドで設定",
         "Inspector.Collider.Visualize": "コライダーを可視化",
 
-        "Inspector.SimpleAwayIndicator.TestAway" : "離席中にする(デバッグ)",
-        "Inspector.SimpleAwayIndicator.TestRestore" : "離席中から戻す(デバッグ)",
+        "Inspector.SimpleAwayIndicator.TestAway" : "離席中にする(デバッグ用)",
+        "Inspector.SimpleAwayIndicator.TestRestore" : "離席中から戻す(デバッグ用)",
+
+        "Inspector.FingerReferencePoseSource.AssignFromBipedRig": "キャラクターリグから割り当て",
+        "Inspector.FingerReferencePoseSource.CaptureMyLeftHand": "自身の左手をキャプチャ",
+        "Inspector.FingerReferencePoseSource.CaptureMyRightHand": "自身の右手をキャプチャ",
+        "Inspector.BipedRig.GenerateStaticFingerPoseCode": "スタティックフィンガーポーズをクリップボードにコピー",
+        "Inspector.FingerReferencePoseSource.CaptureReference": "参照からキャプチャ",
 
         "Inspector.Fields.Drive" : "Drive",
         "Inspector.Fields.DriveWriteBack" : "Drive <size=50%>(write back)</size>",
