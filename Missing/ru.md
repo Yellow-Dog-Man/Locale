@@ -18,11 +18,13 @@ Account.PromoCode
 Account.Type.Promo  
 Permissions.NotAllowedToOpen  
 Tools.MeshPlaneBrush.Name  
+Tools.ProtoFlux.Wiki  
 Tools.Rig.AddEffector  
 Tools.Rig.RemoveEffector  
 Tools.Rig.SetupFABRIK  
 Tools.Rig.CreateNew  
 Tools.Rig.DeselectRig  
+Tools.Rig.DestroyBone  
 Settings.AudioStreamSettings  
 Settings.AudioStreamSettings.DefaultBitrate  
 Settings.AudioStreamSettings.DefaultDeviceID  

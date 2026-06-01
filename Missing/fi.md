@@ -46,11 +46,13 @@ Tools.ProtoFlux.PackInPlace
 Tools.ProtoFlux.PackInto  
 Tools.ProtoFlux.Unpack  
 Tools.ProtoFlux.ExplicitCast  
+Tools.ProtoFlux.Wiki  
 Tools.Rig.AddEffector  
 Tools.Rig.RemoveEffector  
 Tools.Rig.SetupFABRIK  
 Tools.Rig.CreateNew  
 Tools.Rig.DeselectRig  
+Tools.Rig.DestroyBone  
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  

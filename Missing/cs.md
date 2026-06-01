@@ -104,6 +104,7 @@ Tools.Slicer.Name
 Tools.Material.Name  
 Tools.Microphone.Name  
 Tools.ProtoFlux.Name  
+Tools.ProtoFlux.Wiki  
 Tools.Meter.Mode.Ray  
 Tools.Meter.Mode.Perpendicular  
 Tools.Meter.Mode.Drag  
@@ -135,6 +136,7 @@ Tools.Rig.RemoveEffector
 Tools.Rig.SetupFABRIK  
 Tools.Rig.CreateNew  
 Tools.Rig.DeselectRig  
+Tools.Rig.DestroyBone  
 CreateNew.LegacyParticleSystem  
 CreateNew.Object.ReverbZone  
 CreateNew.Editor.TexturePackingWizard  

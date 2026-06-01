@@ -63,6 +63,7 @@ Tools.Slicer.Name
 Tools.Material.Name  
 Tools.Microphone.Name  
 Tools.ProtoFlux.Name  
+Tools.ProtoFlux.Wiki  
 Tools.Meter.Name  
 Tools.Glue.Name  
 Tools.RigTransfer.Name  
@@ -80,6 +81,7 @@ Tools.Rig.RemoveEffector
 Tools.Rig.SetupFABRIK  
 Tools.Rig.CreateNew  
 Tools.Rig.DeselectRig  
+Tools.Rig.DestroyBone  
 CreateNew.LegacyParticleSystem  
 CreateNew.Object.ReverbZone  
 CreateNew.Editor.TexturePackingWizard  

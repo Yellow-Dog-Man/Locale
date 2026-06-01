@@ -26,11 +26,13 @@ Undo.RemoveListElement
 Tools.Brush.FinishStrokeGroup  
 Tools.MeshPlaneBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
+Tools.ProtoFlux.Wiki  
 Tools.Rig.AddEffector  
 Tools.Rig.RemoveEffector  
 Tools.Rig.SetupFABRIK  
 Tools.Rig.CreateNew  
 Tools.Rig.DeselectRig  
+Tools.Rig.DestroyBone  
 Settings.AudioStreamSettings  
 Settings.AudioStreamSettings.DefaultBitrate  
 Settings.AudioStreamSettings.DefaultDeviceID  

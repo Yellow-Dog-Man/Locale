@@ -29,11 +29,13 @@ Undo.RemoveListElement
 Tools.Brush.FinishStrokeGroup  
 Tools.MeshPlaneBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
+Tools.ProtoFlux.Wiki  
 Tools.Rig.AddEffector  
 Tools.Rig.RemoveEffector  
 Tools.Rig.SetupFABRIK  
 Tools.Rig.CreateNew  
 Tools.Rig.DeselectRig  
+Tools.Rig.DestroyBone  
 CreateNew.Editor.TexturePackingWizard  
 CreateNew.Editor.TextureUnpackingWizard  
 Settings.AudioStreamSettings  

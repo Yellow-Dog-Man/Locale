@@ -231,6 +231,7 @@ Tools.ProtoFlux.PackInPlace
 Tools.ProtoFlux.PackInto  
 Tools.ProtoFlux.Unpack  
 Tools.ProtoFlux.ExplicitCast  
+Tools.ProtoFlux.Wiki  
 Tools.Meter.Mode.Ray  
 Tools.Meter.Mode.Perpendicular  
 Tools.Meter.Mode.Drag  
@@ -262,6 +263,7 @@ Tools.Rig.RemoveEffector
 Tools.Rig.SetupFABRIK  
 Tools.Rig.CreateNew  
 Tools.Rig.DeselectRig  
+Tools.Rig.DestroyBone  
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
