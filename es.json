@@ -919,6 +919,12 @@
         
         "Tools.Labeler.Name": "Herramienta de etiqueta",
 
+        "Tools.Rig.AddEffector": "Agregar Effector",
+        "Tools.Rig.RemoveEffector": "Remover Effector",
+        "Tools.Rig.SetupFABRIK": "Configurar calculador FABRIK IK",
+        "Tools.Rig.CreateNew": "Crear Nuevo Rig",
+        "Tools.Rig.DeselectRig" : "Deseleccionar Rig",
+
         "ProtoFlux.UI.Call": "Llamada",
         "ProtoFlux.UI.AsyncCall": "LLamada <size=50%>Asincrónica</size>",
         "ProtoFlux.UI.NodeBrowser.Title": "Nodos ProtoFlux",
@@ -1393,6 +1399,10 @@
         "Settings.AudioVolumeSettings": "Volumen",
         "Settings.AudioAccessibilitySettings": "Accesibilidad de Audio",
         "Settings.AudioInputFilteringSettings": "Filtro de Entrada",
+
+        "Settings.AudioStreamSettings": "Ajustes de Transmisión de Audio",
+        "Settings.AudioStreamSettings.DefaultBitrate": "Bitrate por Defecto",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "ID del Dispositivo por Defecto",
 
         "Settings.RealtimeNetworkingSettings": "Red en Tiempo Real",
         "Settings.AssetGatherSettings": "Recolección de Recursos",
@@ -2441,6 +2451,8 @@
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>¡ADVERTENCIA!</size></color><br>FacetPresets actualizará automáticamente su contenido cuando publiquemos nuevas versiones de esos ajustes preestablecidos. Si estás creando una versión personalizada, te recomendamos que elimines este componente.",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>¡ADVERTENCIA!</size></color><br> Este componente no está diseñado como un sistema de seguridad ni como protección contra el robo de recursos. Está pensado para utilizarse en casos en los que se desee bloquear los métodos más sencillos de guardar partidas por motivos de jugabilidad o de diseño. Se puede eludir fácilmente y no se reforzará su seguridad bajo ninguna circunstancia.",
 
+        "Inspector.NewSystem.Warning": "<color=red><size=125%>!ADVERTENCIA¡</size></color><br> Este componente es parte de un sistema agregado recientemente que está actualmente en desarrollo. Por mientras, eres bienvenido a empezar a jugar con el, ten en cuenta que podemos hacer cambios que rompan cosas, lo cual requerirá que actualices tu contenido.<br><br>Si quieres asegurarte de que lo que sea que construyas con esto sea compatible a largo plazo, por favor espera a que este anuncio desaparezca.",
+
         "Inspector.AI_GeneratedContent.Info": "Este componente está pensado para identificar el contenido generado por IA generativa. Se recomienda colocarlo en la raíz de los objetos generados mediante estos métodos. De este modo, se añadirán etiquetas automáticamente tanto al guardar el elemento como al guardar el mundo con esos componentes presentes, lo que permitirá filtrar este contenido.",
 
         "Inspector.ParticleSystem.BasicInfo": "Particulas: {count}, FPS: {fps}, Simulation Tiempo: {time}, Hora de envío: {renderSubmitTime}, Asignaciones de renderizado: {allocationCount}",
@@ -2465,6 +2477,12 @@
 
         "Inspector.SimpleAwayIndicator.TestAway": "Establecer como Ausente (debug)",
         "Inspector.SimpleAwayIndicator.TestRestore": "Reestablecer a Normal (debug)",
+
+        "Inspector.FingerReferencePoseSource.AssignFromBipedRig": "Configurar según Rig Bipedo",
+        "Inspector.FingerReferencePoseSource.CaptureMyLeftHand": "Capturar Mi Mano Izquierda",
+        "Inspector.FingerReferencePoseSource.CaptureMyRightHand": "Capturar Mi Mano Derecha",
+        "Inspector.BipedRig.GenerateStaticFingerPoseCode": "Copiar Pose Estática de Dedo al Portapapeles",
+        "Inspector.FingerReferencePoseSource.CaptureReference": "Capturar según la Referencia",
 
         "Inspector.Fields.Drive": "Controlar",
         "Inspector.Fields.DriveWriteBack": "Controlar <size=50%>(retroescritura)</size>",
