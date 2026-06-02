@@ -882,6 +882,7 @@
         "Tools.ProtoFlux.PackInto": "Verpacken nach <size=50%>{name}</size>",
         "Tools.ProtoFlux.Unpack": "Entpacken aus <size=50%>{name}</size>",
         "Tools.ProtoFlux.ExplicitCast": "Explizite Umwandlung\n<size=50%>(<color=red>Warnung:</color> Möglicher Informationsverlust)</size>",
+        "Tools.ProtoFlux.Wiki": "Wiki <size=50%>{node}</size>",
 
         "Tools.Meter.Mode.Ray": "Modus: Projiziert",
         "Tools.Meter.Mode.Perpendicular": "Modus: Senkrecht",
@@ -924,7 +925,8 @@
         "Tools.Rig.RemoveEffector": "Effektor entfernen",
         "Tools.Rig.SetupFABRIK": "FABRIK IK solver einrichten",
         "Tools.Rig.CreateNew": "Erstelle neues Rig",
-        "Tools.Rig.DeselectRig" : "Rig abwählen",        
+        "Tools.Rig.DeselectRig": "Rig abwählen",
+        "Tools.Rig.DestroyBone": "Knochen entfernen",
         
         "ProtoFlux.UI.Call": "Aufruf",
         "ProtoFlux.UI.AsyncCall": "<size=50%>Asynchroner</size> Aufruf",
@@ -1135,12 +1137,12 @@
 
         "GaussianSplat.Encoding.Title": "Gaussian Splat Encodierung",
         "GaussianSplat.Encoding.Metadata": "Metadata Encodierung",
-        "GaussianSplat.Encoding.EncodingPositions" : "Encodiere Positionen {encoded} von {total}",
-        "GaussianSplat.Encoding.EncodingRotations" : "Encodiere Rotationen {encoded} von {total}",
-        "GaussianSplat.Encoding.EncodingScales" : "Encodiere Scales {encoded} von {total}",
-        "GaussianSplat.Encoding.EncodingAlphas" : "Encodiere Alphas {encoded} von {total}",
-        "GaussianSplat.Encoding.EncodingColors" : "Encodiere Farben {encoded} von {total}",
-        "GaussianSplat.Encoding.EncodingFinalizing" : "Finalisierung der Encodierung",
+        "GaussianSplat.Encoding.EncodingPositions": "Encodiere Positionen {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingRotations": "Encodiere Rotationen {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingScales": "Encodiere Scales {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingAlphas": "Encodiere Alphas {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingColors": "Encodiere Farben {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingFinalizing": "Finalisierung der Encodierung",
 
         "GaussianSplat.Processing.RemovingSplats": "Entferne Splats",
         "GaussianSplat.Processing.SplatProgress": "{count} von {total} bearbeitet",
@@ -1664,7 +1666,7 @@
         "Settings.GiggleTechSettings.Devices.CustomName.Description": "Hier können Sie dem GigglePuck einen eigenen Namen geben, um ihn leichter zu unterscheiden. Dies ändert nur die Darstellung und hat keine weiteren funktionellen Unterschiede.",
         "Settings.GiggleTechSettings.Devices.Breadcrumb": "GigglePucks",
         "Settings.GiggleTechSettings.Devices.ActivationIntensity": "Aktuelle Intensität",
-        "Settings.GiggleTechSettings.Devices.MinimumIntensity" : "Minimale Intensität",
+        "Settings.GiggleTechSettings.Devices.MinimumIntensity": "Minimale Intensität",
         "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description": "Dies ist die minimale Intensität, mit der die Haptik betrieben wird. Wenn die Intensität zu niedrig ist, kann dies dazu führen, dass das haptische Gerät stehen bleibt und nicht mehr reagiert.",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity": "Intensität der Anfangsaktivität",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description": "Wenn die Haptik von einem inaktiven in einen aktiven Zustand übergeht, wird sie für einen sehr kurzen Zeitraum mit mindestens dieser Intensität betrieben. Dies kann dazu beitragen, die Haptik \"anzustoßen\", wenn sonst der Aktivierungswert zu niedrig wäre, um den Motor zu starten.",
@@ -2263,7 +2265,7 @@
         "Inspector.MeshCollider.VHACD": "Konvexe Hüllenzerlegung (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Mit Box Collider ersetzen",
 
-        "Inspector.Texture3D.SpawnVisualizer" : "Visualisierung erzeugen",
+        "Inspector.Texture3D.SpawnVisualizer": "Visualisierung erzeugen",
 
         "Inspector.Skybox.SetActiveSkybox": "Als aktive Skybox festlegen",
         "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Als aktives Umgebungslicht festlegen",
