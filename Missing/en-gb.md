@@ -760,6 +760,10 @@ Tools.Shape.Name
 Tools.CameraObjectHider.Name  
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
+Tools.Rig.AddEffector  
+Tools.Rig.RemoveEffector  
+Tools.Rig.SetupFABRIK  
+Tools.Rig.CreateNew  
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
@@ -1157,6 +1161,9 @@ Settings.AudioOutputDeviceSettings
 Settings.AudioVolumeSettings  
 Settings.AudioAccessibilitySettings  
 Settings.AudioInputFilteringSettings  
+Settings.AudioStreamSettings  
+Settings.AudioStreamSettings.DefaultBitrate  
+Settings.AudioStreamSettings.DefaultDeviceID  
 Settings.RealtimeNetworkingSettings  
 Settings.AssetGatherSettings  
 Settings.HostAccessSettings  
@@ -2032,6 +2039,7 @@ Inspector.CharacterController.Warning
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.NewSystem.Warning  
 Inspector.AI_GeneratedContent.Info  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
@@ -2051,6 +2059,11 @@ Inspector.Collider.SetFromPreciseBounds
 Inspector.Collider.SetFromPreciseCylinderBounds  
 Inspector.SimpleAwayIndicator.TestAway  
 Inspector.SimpleAwayIndicator.TestRestore  
+Inspector.FingerReferencePoseSource.AssignFromBipedRig  
+Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
+Inspector.FingerReferencePoseSource.CaptureMyRightHand  
+Inspector.BipedRig.GenerateStaticFingerPoseCode  
+Inspector.FingerReferencePoseSource.CaptureReference  
 Inspector.Fields.Drive  
 Inspector.Fields.DriveWriteBack  
 Inspector.Actions.CopyComponent  

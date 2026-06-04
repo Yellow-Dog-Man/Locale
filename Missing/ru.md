@@ -18,6 +18,13 @@ Account.PromoCode
 Account.Type.Promo  
 Permissions.NotAllowedToOpen  
 Tools.MeshPlaneBrush.Name  
+Tools.Rig.AddEffector  
+Tools.Rig.RemoveEffector  
+Tools.Rig.SetupFABRIK  
+Tools.Rig.CreateNew  
+Settings.AudioStreamSettings  
+Settings.AudioStreamSettings.DefaultBitrate  
+Settings.AudioStreamSettings.DefaultDeviceID  
 Settings.DashSettings.ScreenSwitchSpeed  
 Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.LaserSettings.AlwaysPrioritizeUserspace  
@@ -26,7 +33,13 @@ Settings.RendererDecouplingSettings.ActivationFramerate.Description
 Settings.RendererDecouplingSettings.DeactivationFrames.Description  
 Settings.RendererDecouplingSettings.ForceDecouple.Description  
 Inspector.Member.SplitBlendshapeToStaticMesh  
+Inspector.NewSystem.Warning  
 Inspector.AI_GeneratedContent.Info  
+Inspector.FingerReferencePoseSource.AssignFromBipedRig  
+Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
+Inspector.FingerReferencePoseSource.CaptureMyRightHand  
+Inspector.BipedRig.GenerateStaticFingerPoseCode  
+Inspector.FingerReferencePoseSource.CaptureReference  
 CloudHome.Panel.RealtimeReflections  
 CloudHome.Panel.SpotLights  
 CloudHome.Panel.TableLights  

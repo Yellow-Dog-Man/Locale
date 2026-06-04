@@ -130,6 +130,10 @@ Tools.Shape.Name
 Tools.CameraObjectHider.Name  
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
+Tools.Rig.AddEffector  
+Tools.Rig.RemoveEffector  
+Tools.Rig.SetupFABRIK  
+Tools.Rig.CreateNew  
 CreateNew.LegacyParticleSystem  
 CreateNew.Object.ReverbZone  
 CreateNew.Editor.TexturePackingWizard  
@@ -222,6 +226,9 @@ Settings.AudioOutputDeviceSettings
 Settings.AudioVolumeSettings  
 Settings.AudioAccessibilitySettings  
 Settings.AudioInputFilteringSettings  
+Settings.AudioStreamSettings  
+Settings.AudioStreamSettings.DefaultBitrate  
+Settings.AudioStreamSettings.DefaultDeviceID  
 Settings.RealtimeNetworkingSettings  
 Settings.AssetGatherSettings  
 Settings.HostAccessSettings  
@@ -902,9 +909,15 @@ Inspector.DataPreset.SetValues
 Inspector.DataPreset.AddAllChildren  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.NewSystem.Warning  
 Inspector.AI_GeneratedContent.Info  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
+Inspector.FingerReferencePoseSource.AssignFromBipedRig  
+Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
+Inspector.FingerReferencePoseSource.CaptureMyRightHand  
+Inspector.BipedRig.GenerateStaticFingerPoseCode  
+Inspector.FingerReferencePoseSource.CaptureReference  
 Inspector.Wizard.PackTexture  
 Inspector.Wizard.UnpackTexture  
 Inspector.Error  

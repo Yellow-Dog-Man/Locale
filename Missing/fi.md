@@ -46,6 +46,10 @@ Tools.ProtoFlux.PackInPlace
 Tools.ProtoFlux.PackInto  
 Tools.ProtoFlux.Unpack  
 Tools.ProtoFlux.ExplicitCast  
+Tools.Rig.AddEffector  
+Tools.Rig.RemoveEffector  
+Tools.Rig.SetupFABRIK  
+Tools.Rig.CreateNew  
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
@@ -58,6 +62,9 @@ Importer.UnsupportedRecordType.Heading
 Importer.UnsupportedRecordType.Description  
 Importer.Link.Invalid.Description  
 Inventory.Link.LinkText  
+Settings.AudioStreamSettings  
+Settings.AudioStreamSettings.DefaultBitrate  
+Settings.AudioStreamSettings.DefaultDeviceID  
 Settings.FullBodyTrackingSettings  
 Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description  
 Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description  
@@ -319,6 +326,7 @@ Inspector.CharacterController.Warning
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.NewSystem.Warning  
 Inspector.AI_GeneratedContent.Info  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
@@ -328,6 +336,11 @@ Inspector.Collider.SetFromLocalBoundsPrecise
 Inspector.Collider.SetFromGlobalBoundsPrecise  
 Inspector.Collider.SetFromPreciseBounds  
 Inspector.Collider.SetFromPreciseCylinderBounds  
+Inspector.FingerReferencePoseSource.AssignFromBipedRig  
+Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
+Inspector.FingerReferencePoseSource.CaptureMyRightHand  
+Inspector.BipedRig.GenerateStaticFingerPoseCode  
+Inspector.FingerReferencePoseSource.CaptureReference  
 Inspector.Fields.Drive  
 Inspector.Fields.DriveWriteBack  
 WorkerInspector.Title  
