@@ -1,6 +1,17 @@
 {
     "localeCode": "fr",
-    "authors": ["Archer", "FreakyWaves", "Xqua", "brodokk", "Sopra", "Khosumi", "j4", "cerealbowl", "MIP", "Baplar"],
+    "authors": [
+        "Archer",
+        "FreakyWaves",
+        "Xqua",
+        "brodokk",
+        "Sopra",
+        "Khosumi",
+        "j4",
+        "cerealbowl",
+        "MIP",
+        "Baplar"
+    ],
     "messages": {
         "General.OK": "OK",
         "General.Start": "Démarrer",
@@ -237,9 +248,9 @@
         "World.Config.CleanupAssets": "Nettoyage des ressources non-utilisées :",
         "World.Config.CleanupInterval": "Intervalle du nettoyage (secondes) :",
 
-        "World.Config.ResoniteLinkHeader" : "ResoniteLink",
-        "World.Config.ResoniteLinkOff" : "ResoniteLink désactivé",
-        "World.Config.ResoniteLinkPort" : "ResoniteLink actif sur le port {port}",
+        "World.Config.ResoniteLinkHeader": "ResoniteLink",
+        "World.Config.ResoniteLinkOff": "ResoniteLink désactivé",
+        "World.Config.ResoniteLinkPort": "ResoniteLink actif sur le port {port}",
 
         "World.Actions.StartSession": "Démarrer une session",
         "World.Actions.Join": "Rejoindre",
@@ -277,7 +288,7 @@
         "World.Actions.GetSessionOrb": "Obtenir l'orbe-portail de la session",
         "World.Actions.CopySessionURL": "Copier le lien vers cette session",
 
-        "World.Actions.EnableResoniteLink" : "Activer ResoniteLink",
+        "World.Actions.EnableResoniteLink": "Activer ResoniteLink",
 
         "World.Indicator.NoData": "Aucune donnée",
         "World.Indicator.LocalWorld": "Machine locale",
@@ -881,6 +892,7 @@
         "Tools.ProtoFlux.PackInto": "Emballer dans <size=50%>{name}</size>",
         "Tools.ProtoFlux.Unpack": "Déballer <size=50%>{name}</size>",
         "Tools.ProtoFlux.ExplicitCast": "Caster explicitement\n<size=50%>(<color=red>ATTENTION :</color> perte de données potentielle)</size>",
+        "Tools.ProtoFlux.Wiki": "Wiki <size=50%>{node}</size>",
 
         "Tools.Meter.Mode.Ray": "Mode : Rayon",
         "Tools.Meter.Mode.Perpendicular": "Mode : Perpendiculaire",
@@ -918,6 +930,13 @@
         "Tools.ControllerDiagnostic.Name": "Outil de diagnostic manettes",
 
         "Tools.Labeler.Name": "Étiqueteuse",
+
+        "Tools.Rig.AddEffector": "Ajouter Actionneur",
+        "Tools.Rig.RemoveEffector": "Supprimer Actionneur",
+        "Tools.Rig.SetupFABRIK": "Configurer solveur FABRIK",
+        "Tools.Rig.CreateNew": "Créer nouvelle armature",
+        "Tools.Rig.DeselectRig": "Désélectionner armature",
+        "Tools.Rig.DestroyBone": "Supprimer os",
 
         "ProtoFlux.UI.Call": "Pulser",
         "ProtoFlux.UI.AsyncCall": "Pulser async",
@@ -1393,6 +1412,10 @@
         "Settings.AudioVolumeSettings": "Volume",
         "Settings.AudioAccessibilitySettings": "Accessibilité audio",
         "Settings.AudioInputFilteringSettings": "Filtre d'entrée",
+
+        "Settings.AudioStreamSettings": "Stream audio",
+        "Settings.AudioStreamSettings.DefaultBitrate": "Bitrate par défaut",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "ID matériel par défaut",
 
         "Settings.RealtimeNetworkingSettings": "Réseau au temps réel",
         "Settings.AssetGatherSettings": "Récolte des assets",
@@ -2441,6 +2464,8 @@
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>ATTENTION !</size></color><br>Les FacetPreset vont automatiquement mettre à jour la facette à sa dernière version. Si vous créez une version customisée, il est recommandé de retirer ce composant.",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>ATTENTION !</size></color><br>Ce composant n'est pas là comme un système de sécurité. Il est destiné à être utilisé pour les cas où vous souhaitez bloquer les méthodes plus faciles de sauvegarde pour des raisons de gameplay ou de conception. Il peut facilement être contourné et il ne sera en aucun cas rendu plus sûr.",
 
+        "Inspector.NewSystem.Warning": "<color=red><size=125%>ATTENTION !</size></color><br> Ce composant fait partie d’un nouveau système qui est encore en cours de développement. Vous pouvez l’utiliser pour l’essayer, mais notez que des changements radicaux pourraient rendre nécessaire une mise à jour de vos créations qui l’utilisent.<br><br>Si vous souhaitez assurer la compatibilité à long terme de vos créations, veuillez attendre le retrait de cet avertissement avant d’utiliser une version stabilisée de ce composant.",
+
         "Inspector.AI_GeneratedContent.Info": "Ce composent est conçu pour marquer du contenu créé par IA générative. Il est conseillé de le placer à la racine des objets qui ont été générés par ces méthodes. Cela rajoutera automatiquement les tags correspondants lorsque l’objet sera enregistré, et de même lors de l’enregistrement d’un monde qui en contiendrait. Cela permettra ainsi un filtrage de ce type de contenus.",
 
         "Inspector.ParticleSystem.BasicInfo": "Particules : {count}  Dernière durée de simulation : {time}    Allocations de rendu : {allocationCount}",
@@ -2465,6 +2490,12 @@
 
         "Inspector.SimpleAwayIndicator.TestAway": "Définir comme absent (debug)",
         "Inspector.SimpleAwayIndicator.TestRestore": "Définir comme normal (debug)",
+
+        "Inspector.FingerReferencePoseSource.AssignFromBipedRig": "Assigner depuis une armature bipède",
+        "Inspector.FingerReferencePoseSource.CaptureMyLeftHand": "Capturer main gauche",
+        "Inspector.FingerReferencePoseSource.CaptureMyRightHand": "Capturer main droite",
+        "Inspector.BipedRig.GenerateStaticFingerPoseCode": "Copier pose statique de doigt dans le presse-papier",
+        "Inspector.FingerReferencePoseSource.CaptureReference": "Capturer la référence",
 
         "Inspector.Fields.Drive": "Conduire",
         "Inspector.Fields.DriveWriteBack": "Conduire <size=50%>(écrire en retour)</size>",
@@ -2564,7 +2595,6 @@
         "Wizard.TexturePacker.UseSmallest": "Adapter au plus petit",
         "Wizard.TexturePacker.UseLargest": "Adapter au plus grand",
         "Wizard.TexturePacker.GenerateMipmaps": "Générer Mipmaps",
-
 
         "Wizard.TextureUnpacker.Title": "Assistant extraction texture",
         "Wizard.TextureUnpacker.Unpacking": "Extraction...",
@@ -2781,7 +2811,6 @@
         "Tutorial.Saving.Title": "Bienvenue chez vous !",
         "Tutorial.Saving.Content": "Bienvenue dans votre <nobr><b><i><color=hero.yellow>Maison</b></i></color> !</nobr> C'est ici que vous apparaîtrez à chaque fois que vous vous connecterez.<br><br>Ce monde est le vôtre, sentez-vous libre de le modifier comme vous le souhaitez.<br><br>Si vous sauvegardez ce monde, tout sera comme vous l'aurez laissé.",
 
-
         "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Session sans nom</closeall>",
         "Tutorial.Teleporter.SessionList.UnnamedHost": "Hébergée par : <i><alpha=#77>Hôte sans nom</closeall>",
         "Tutorial.Teleporter.SessionList.HostName": "Hébergée par : <b>{hostName}</b>",
@@ -2801,7 +2830,6 @@
         "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>Échec de connexion à la session ! :(</color><br><size=66%>Vous avez tout de même d’autres options :</size>",
 
         "Tutorial.Teleporter.Transporting": "Téléportation...",
-
 
         "CloudHome.Info.OnlineUsers": "{online_users} {online_users,plural, one {utilisateur} other {utilisateurs}} en ligne<br>{joinable_users} {joinable_users,plural, one {utilisateur} other {utilisateurs}} dans des sessions joignables",
         "CloudHome.Info.Moderation": "Modération",
@@ -2999,7 +3027,7 @@
         "Hints.Sundial.DequipExtra": "Observez comme le menu contextuel a changé par rapport à l'outil équipé.",
 
         "Hints.Sundial.Doorway": "Entrez pour <nobr>continuer !</nobr>",
-        
+
         "Hints.DashboardDesktop": "Ouvrez et fermez votre Tableau de Bord en appuyant sur <nobr>Échap !</nobr>",
         "Hints.DashboardVR": "Ouvrez et fermez votre Tableau de Bord en appuyant sur votre bouton <nobr>Menu !</nobr>",
         "Hints.DashboardExtra": "Regardez ci-dessous pour plus d’infos sur le Tableau de Bord.",
