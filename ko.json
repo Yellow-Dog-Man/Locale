@@ -882,6 +882,7 @@
         "Tools.ProtoFlux.PackInto" : "<size=50%>{name}</size>에 팩킹",
         "Tools.ProtoFlux.Unpack" : "<size=50%>{name}</size>을(를) 언팩",
         "Tools.ProtoFlux.ExplicitCast" : "명시적 형변환\n<size=50%>(<color=red>경고:</color> 잠재적 데이터 손실이 발생할 수 있습니다.)</size>",
+        "Tools.ProtoFlux.Wiki": "위키: <size=50%>{node}</size>",
 
         "Tools.Meter.Mode.Ray" : "모드: 직선",
         "Tools.Meter.Mode.Perpendicular" : "모드: 수직",
@@ -919,6 +920,13 @@
         "Tools.ControllerDiagnostic.Name": "컨트롤러 진단 도구(Controller Diagnostic Tool)",
 
         "Tools.Labeler.Name": "라벨러(Labeler Tool)",
+
+        "Tools.Rig.AddEffector": "제어점(Effector) 추가",
+        "Tools.Rig.RemoveEffector": "제어점(Effector) 제거",
+        "Tools.Rig.SetupFABRIK": "FABRIK IK solver 설정",
+        "Tools.Rig.CreateNew": "새로운 리그(Rig) 추가",
+        "Tools.Rig.DeselectRig": "리그 선택 해제",
+        "Tools.Rig.DestroyBone": "본(Bone) 제거",
         
         "ProtoFlux.UI.Call" : "호출",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>비동기</size> 호출",
@@ -1394,6 +1402,10 @@
         "Settings.AudioVolumeSettings": "볼륨",
         "Settings.AudioAccessibilitySettings": "오디오 접근성",
         "Settings.AudioInputFilteringSettings": "음향 입력 필터",
+
+        "Settings.AudioStreamSettings": "음향 송출 설정",
+        "Settings.AudioStreamSettings.DefaultBitrate": "기본 비트레이트",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "기본 장치 ID",
 
         "Settings.RealtimeNetworkingSettings": "실시간 네트워킹",
         "Settings.AssetGatherSettings": "자산(Asset) 다운로드",
@@ -2443,6 +2455,8 @@
         "Inspector.FacetPreset.Warning":"<color=red><size=125%>경고!</size></color><br>이 구성요소는 새로운 프리셋을 게시할 경우 컨텐츠를 자동으로 갱신합니다. 사용자 정의 버전을 만드는 경우, 이 구성요소를 삭제하는것이 좋습니다.",
         "Inspector.GrabbableSaveBlock.Warning":"<color=red><size=125%>경고!</size></color><br>이 구성요소는 보안적 측면을 고려하여 설계된 것은 아닙니다. 게임의 규칙이나 디자인상의 이유로 저장을 차단하는 쉬운 방법을 제시하는 것 뿐 이기에 우회될 수 있습니다.",
 
+        "Inspector.NewSystem.Warning": "<color=red><size=125%>경고!</size></color><br> 아직 개발이 진행중인 구성요소 입니다. 이 기능을 사용하는 경우, 사용된 아이템을 게임의 업데이트에 맞춰 변경해 주어야 할 수도 있습니다.<br><br>만약, 사용하려는 작품이 긴 시간동안 안정적으로 유지되어야 한다면, 지금 보시는 이 메시지가 사라질때까지 기다려 주세요.",
+
         "Inspector.AI_GeneratedContent.Info": "이 구성요소는 생성형 AI로 생성된 컨텐츠임을 알리기 위한 것 입니다. 해당 아이템 최상단 슬롯에 배치(월드의 경우 월드내 아이템이 구성요소를 포함하면)하면 저장할 때 자동으로 관련 태그가 추가되어 필터링을 수행할 수 있습니다.",
         
         "Inspector.ParticleSystem.BasicInfo" : "입자: {count}\t모의 시간: {time}\t렌더 할당량: {allocationCount}",
@@ -2467,6 +2481,12 @@
 
         "Inspector.SimpleAwayIndicator.TestAway" : "테스트 (디버그)",
         "Inspector.SimpleAwayIndicator.TestRestore" : "복원 (디버그)",
+
+        "Inspector.FingerReferencePoseSource.AssignFromBipedRig": "이족보행 리그로 부터 할당",
+        "Inspector.FingerReferencePoseSource.CaptureMyLeftHand": "왼손 캡쳐",
+        "Inspector.FingerReferencePoseSource.CaptureMyRightHand": "오른손 캡쳐",
+        "Inspector.BipedRig.GenerateStaticFingerPoseCode": "현재 손가락의 포즈를 클립보드에 복사",
+        "Inspector.FingerReferencePoseSource.CaptureReference": "참조로 부터 캡쳐",
 
         "Inspector.Fields.Drive" : "드라이브",
         "Inspector.Fields.DriveWriteBack" : "드라이브 <size=50%>(입력)</size>",

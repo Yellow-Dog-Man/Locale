@@ -606,7 +606,7 @@
         "Account.TOTP.Activate.InvalidToken": "無效驗證碼！",
         "Account.TOTP.Message.AlreadySetup": "您的帳號已啟用雙重認證！",
         "Account.TOTP.Message.Error": "遭遇意外錯誤！請稍候重試。",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>恭喜！</size><br><br>您的帳號已啟用雙重認證並享受其帶來的額外保護！<br><br>您還可以用 /enableLogin2FA 指令啟用此帳號登錄時的雙重認證。",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>恭喜！</size><br><br>您的帳號已啟用雙重認證並享受其帶來的額外保護！",
         "Account.TOTP.Deactivate.Header": "取消雙重認證",
         "Account.TOTP.Deactivate.Description": "目前雙重認證已 <b><color=green>在您的帳號上設定並啟用</color></b>。如果您需要取消它（例如：遺失手機或者備用碼遭泄漏），您可以在此處進行操作。<br><br>取消雙重認證後，可以再次設定並啟用，這將生成一個全新的安全碼與一套新的備用碼。<br><br>如果您遺失了手機，且需要再次設定啟用，我們 <b>強烈</b> 建議您馬上進行這項操作，因為每條備用碼只能被使用一次，當其耗盡後，您將永遠無法存取您的帳號。",
         "Account.TOTP.Deactivate.Deactivate": "取消",
@@ -654,11 +654,11 @@
         "Session.JoinVerifier.ComponentWarning": "<color=red>警告：</color>目前並沒有機制可以在驗證器啟用後防止篡改。如果您擔心用於認證的 ProtoFlux 配置遭到竄改, <b>請不要</b>使用這個功能且<b>不要</b>在您的世界中啟用它。",
         "Session.JoinVerifier.SetCustomVerifier": "設為自訂加入請求驗證器",
 
-        "Permissions.NotAllowedToSpawn": "不允許在此處生成事物",
-        "Permissions.NotAllowedToSave": "不允許在這個世界上儲存項目",
-        "Permissions.NotAllowedToSwapAvatar": "不允許在此處切換到自定化身",
-        "Permissions.SavingDisabledForItem": "本物品的儲存功能被停用",
-        "Permissions.NotAllowedToOpen": "不允許開啟此項目",
+        "Permissions.NotAllowedToSpawn": "您不能在這裡生成物件。",
+        "Permissions.NotAllowedToSave": "您不能在這個世界上儲存物件。",
+        "Permissions.NotAllowedToSwapAvatar": "您不能在這裡切換到自定化身。",
+        "Permissions.SavingDisabledForItem": "本物品停用了儲存功能。",
+        "Permissions.NotAllowedToOpen": "您未持有開啟此項目的權限。",
 
         "User.Actions.Silence": "全域靜音",
         "User.Actions.Mute": "靜音",
@@ -733,8 +733,8 @@
         "Notifications.PermissionChanged": "權限已變更為 {new}",
         "Notifications.PermissionChangedDetail": "在 {world}，之前的權限：{old}",
 
-        "Undo.SetField": "將字段 {field_name} 設定為 {value}",
-        "Undo.SetReference": "將引用 {ref_name} 設定為 {ref_target}",
+        "Undo.SetField": "將欄位 {field_name} 設定為 {value}",
+        "Undo.SetReference": "將參照 {ref_name} 設定為 {ref_target}",
         "Undo.Spawn": "生成 {name}",
         "Undo.Destroy": "銷毀 {name}",
         "Undo.SpawnComponent": "在 {slot_name} 上附加 {component_type}",
@@ -869,7 +869,7 @@
         "Tools.ProtoFlux.Name": "ProtoFlux 工具",
         "Tools.ProtoFlux.Drive": "驅動 (Drive)",
         "Tools.ProtoFlux.Source": "來源 (Source)",
-        "Tools.ProtoFlux.Reference": "參考 (Reference)",
+        "Tools.ProtoFlux.Reference": "參照 (Reference)",
         "Tools.ProtoFlux.Write": "寫入 (Write)",
         "Tools.ProtoFlux.Proxy": "代理 (Proxy)",
         "Tools.ProtoFlux.CreateLocal": "建立區域變數 (Local)",
@@ -918,6 +918,12 @@
         "Tools.ControllerDiagnostic.Name": "控制器診斷工具",
 
         "Tools.Labeler.Name": "標籤工具",
+
+        "Tools.Rig.AddEffector": "新增效應器",
+        "Tools.Rig.RemoveEffector": "移除效應器",
+        "Tools.Rig.SetupFABRIK": "設定 FABRIK IK 解算器",
+        "Tools.Rig.CreateNew": "建立新的骨架綁定",
+        "Tools.Rig.DeselectRig": "取消選取骨架綁定",
 
         "ProtoFlux.UI.Call": "呼叫",
         "ProtoFlux.UI.AsyncCall": "<size=50%>異步</size> 呼叫",
@@ -1227,7 +1233,7 @@
 
         "FullBody.CalibrateAvatarTitle": "校正化身",
         "FullBody.CalibrateAvatarInstructions": "確保已對應所有身體部位，然後在其周圍拖動藍色球體，以使化身與身體參考最匹配。",
-        "FullBody.ShowReferenceOverlay": "顯示參考疊加",
+        "FullBody.ShowReferenceOverlay": "顯示參照疊加",
         "FullBody.ResetAvatarPrompt": "化身扭曲或無法追蹤？",
         "FullBody.ResetAvatar": "重設化身校正",
         "FullBody.AvatarHeightCompensationInstructions": "如果化身太高（最終彎成弓形）或太矮，在此處調整其身高補償使它更適合您的身高。",
@@ -1394,6 +1400,10 @@
         "Settings.AudioAccessibilitySettings": "音訊輔助",
         "Settings.AudioInputFilteringSettings": "音訊過濾",
 
+        "Settings.AudioStreamSettings": "音訊串流設定",
+        "Settings.AudioStreamSettings.DefaultBitrate": "預設碼率",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "預設裝置 ID",
+
         "Settings.RealtimeNetworkingSettings": "即時連線",
         "Settings.AssetGatherSettings": "物件聚集",
 
@@ -1454,7 +1464,7 @@
         "Settings.MovementSettings.TurningDeadzone": "轉向偵測死區",
         "Settings.MovementSettings.TurningDeadzone.Description": "若您的搖桿在轉向時經常漂移，建議將此數值提高，需要將搖桿方向輸入大於一定的程度才可移動",
         "Settings.MovementSettings.MovementExponent": "移動起始速度",
-        "Settings.MovementSettings.MovementExponent.Description": "控制起始移動的速度和速度曲線",
+        "Settings.MovementSettings.MovementExponent.Description": "控制起始移動的速度和速度曲線。取決於數字是大於或是小於 1.0，你可以一開始有較慢的移動速度但速度快速提高，或是一開始速度就變快。",
 
         "Settings.GrabbingSettings": "抓取設定",
         "Settings.GrabbingSettings.DefaultHandGrabType": "預設抓取模式",
@@ -1499,7 +1509,7 @@
         "Settings.GeneralHapticsSettings.EnableHaptics.Description": "世界物體與玩家的互動將回應至控制器或其他回饋裝置使其震動。",
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR 桌面模式自動切換",
-        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "穿戴 VR 會自動切換桌面、VR 模式。",
+        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "穿戴或脫下 VR 會自動切換桌面與 VR 模式。",
 
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "手部移位防抖",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "手部轉向防抖",
@@ -1820,9 +1830,9 @@
         "Settings.LocaleSettings.AvailableLocales.SystemLocale": "使用系統語言",
 
         "Settings.DashSettings.DashCurvature": "主面板曲度",
-        "Settings.DashSettings.DashCurvature.Description": "這個控制在VR模式下主面板的曲度，若設定為 0 則主面板將會完全平坦",
+        "Settings.DashSettings.DashCurvature.Description": "這個控制在 VR 模式下主面板的曲度，若設定為 0 則主面板將會完全平坦。",
         "Settings.DashSettings.OpenCloseSpeed": "開啟/關閉速度",
-        "Settings.DashSettings.OpenCloseSpeed.Description": "開啟和關閉主面板動畫的動畫時長，您若不喜歡該動畫可以將數值調到很高，使其能夠近乎立即開啟或關閉。",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "開啟和關閉主面板動畫的動畫時長，設定為 0 會關閉動畫，主面板會瞬間出現及消失。",
         "Settings.DashSettings.ScreenSwitchSpeed": "標籤頁切換速度",
         "Settings.DashSettings.ScreenSwitchSpeed.Description": "調整主面板在標籤頁（例如首頁、聯絡、活動）之間切換的速度，設定為 0 將完全移除動畫，標籤頁會瞬間切換。",
         "Settings.DashSettings.AllowReplacingSettings": "允許替換設定面板",
@@ -1842,13 +1852,13 @@
         "Settings.NotificationSettings.InviteRequest": "邀請請求",
         "Settings.NotificationSettings.InviteRequest.Description": "這控制當您收到可以回應的邀請請求時是否會收到通知。",
         "Settings.NotificationSettings.ContactRequest": "加入聯絡人請求",
-        "Settings.NotificationSettings.ContactRequest.Description": "在收到加入聯絡人請求時自動彈跳出通知",
+        "Settings.NotificationSettings.ContactRequest.Description": "在收到加入聯絡人請求時自動彈跳出通知。",
         "Settings.NotificationSettings.ContactSessionStarted": "新的聯絡人活動",
-        "Settings.NotificationSettings.ContactSessionStarted.Description": "若您的聯絡人開啟新的活動時自動彈跳出通知",
+        "Settings.NotificationSettings.ContactSessionStarted.Description": "若您的聯絡人開啟新的活動時自動彈跳出通知。",
         "Settings.NotificationSettings.PublicSessionStarted": "新的公開活動",
-        "Settings.NotificationSettings.PublicSessionStarted.Description": "若新的公開活動開啟時自動彈跳出通知",
+        "Settings.NotificationSettings.PublicSessionStarted.Description": "若新的公開活動開啟時自動彈跳出通知。",
         "Settings.NotificationSettings.UserJoinAndLeave": "玩家加入/離開通知",
-        "Settings.NotificationSettings.UserJoinAndLeave.Description": "任何玩家加入或是離開當前的世界自動彈跳出通知",
+        "Settings.NotificationSettings.UserJoinAndLeave.Description": "任何玩家加入或是離開當前的世界自動彈跳出通知。",
         "Settings.NotificationSettings.PermissionChanged": "權限變更",
         "Settings.NotificationSettings.PermissionChanged.Description": "啟用時，當您在世界中的權限身份發生變化時，您將收到通知。例如，當您從訪客變更為建築者時。",
 
@@ -1974,10 +1984,10 @@
         "Settings.InteractiveCameraFramingSettings.FirstPersonPitch": "俯仰角（第一人稱）",
         "Settings.InteractiveCameraFramingSettings.FirstPersonPitch.Description": "在第一人稱模式中，使用此功能上下俯仰相機。",
         "Settings.InteractiveCameraFramingSettings.FirstPersonRoll": "翻滾角（第一人稱）",
-        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll.Description": "在第一人稱模式中，這控制相機的側向旋轉 - 左右傾斜",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll.Description": "在第一人稱模式中，這控制相機的側向旋轉 - 左右傾斜。",
         "Settings.InteractiveCameraFramingSettings.FirstPersonOffset": "距離差（第一人稱）",
         "Settings.InteractiveCameraFramingSettings.FirstPersonOffset.Description": "使用此功能在第一人稱視角中相對於您的眼睛移動相機偏移。這可在化身面部幾何體剪切到相機視野中時使用。",
-        "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "第三人稱視角的取景位置",
+        "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "第三人稱視角的取景位置。",
         "Settings.InteractiveCameraFramingSettings.FramingViewportPosition.Description": "這些是相機視角中的標準化座標。相機將嘗試將目標（例如第三人稱模式中的使用者頭部）框在視角中的此位置。",
         "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "對準頭部前方",
         "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead.Description": "相機不是直接指向使用者的頭部，而是嘗試瞄準使用者頭部前方的點。這在您想要框住使用者正在看的內容（例如世界內物品和介面）時很有用。",
@@ -2016,7 +2026,7 @@
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "啟用此功能可在錨點間移動時使用線性插值而不是平滑插值。線性插值突然開始和停止，但有恆定的移動速度，無論錨點間距離如何。這意味著如果錨點距離更遠，相機需要更長時間才能到達。",
 
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "拍照時在世界內生成照片",
-        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "當您使用互動式相機對話框拍攝照片時，它們應該生成在世界中嗎？停用時，只會儲存成檔案或是存到物品欄中（如果設定了自動儲存）",
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "當您使用互動式相機對話框拍攝照片時，它們應該生成在世界中嗎？停用時，只會儲存成檔案或是存到物品欄中（如果設定了自動儲存）。",
 
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "動態模糊",
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "相機是否應該渲染動態模糊效果？",
@@ -2441,6 +2451,8 @@
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>警告</size></color><br>FacetPreset 會自動在我們發布新版介面元件物品時更新這個元件，若您正在自製介面元件，我們建議將本元件刪除。",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>警告</size></color><br>本元件並非設計作為安全機制或竊盜保護系統使用，本元件停用直接儲存功能的用意是作為遊戲流程或是設計的一部分，要繞過這個元件的機制相當容易，本元件未來也不會加強任何安全保護措施。",
 
+        "Inspector.NewSystem.Warning": "<color=red><size=125%>警告</size></color><br> 本元件為新加入，尚在製作階段的功能。雖然我們歡迎您試用本功能，但我們可能會進行不相容的功能變更，導致您必須要更新您所製作的內容。<br><br>如果您想要使用本功能，但需要確保您製作的內容有長期的相容性，請等待此通知從本元件移除。",
+
         "Inspector.AI_GeneratedContent.Info": "此元件用於標記由生成式 AI 所產生的內容。建議將本元件放置在透過此類方法生成的物件的根 Slot 上。當物品儲存時，以及包含此類物品的世界儲存時，此元件將自動新增標籤，以便篩選此類內容。",
 
         "Inspector.ParticleSystem.BasicInfo": "粒子數：{count}、FPS：{fps}、模擬時間：{time}、送出時間：{renderSubmitTime}、渲染分配：{allocationCount}",
@@ -2466,8 +2478,14 @@
         "Inspector.SimpleAwayIndicator.TestAway": "設為離開（除錯用）",
         "Inspector.SimpleAwayIndicator.TestRestore": "返回正常（除錯用）",
 
-        "Inspector.Fields.Drive": "驅動",
-        "Inspector.Fields.DriveWriteBack": "驅動 <size=50%>（回寫）</size>",
+        "Inspector.FingerReferencePoseSource.AssignFromBipedRig": "從二足骨架中指定",
+        "Inspector.FingerReferencePoseSource.CaptureMyLeftHand": "擷取我的左手",
+        "Inspector.FingerReferencePoseSource.CaptureMyRightHand": "擷取我的右手",
+        "Inspector.BipedRig.GenerateStaticFingerPoseCode": "複製靜態手指姿勢進剪貼簿",
+        "Inspector.FingerReferencePoseSource.CaptureReference": "從參照中擷取",
+
+        "Inspector.Fields.Drive": "驅動 (Drive)",
+        "Inspector.Fields.DriveWriteBack": "驅動 (Drive) <size=50%>(回寫 write back)</size>",
 
         "Inspector.Actions.CopyComponent": "複製元件",
         "Inspector.Actions.MoveComponent": "移動元件",
