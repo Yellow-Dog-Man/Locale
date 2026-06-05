@@ -1793,9 +1793,9 @@
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "This controls the LNL protocol window size for real time networking. Changing this setting will have an immediate effect in all active sessions.\n\nIf you experience any packet queuing, you can increase this value to improve the connection throughput. However, higher values can also destabilize the connection further, so be careful.\n\n<color=hero.yellow>Default Value:</color> 64\n\n<color=hero.red>IMPORTANT:</color> This setting is for diagnostics and a temporary workaround; this value will automatically adjust itself in the future.",
 
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Maximum number of concurrent asset transfers",
-        "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "When hosting sessions, this indicates how many locally imported assets can be transferred at the time. Increasing this can transfer assets to users faster, but can also degrade the quality of the network connection. We recommend testing what values can your network handle.",
+        "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "When hosting sessions, this indicates how many locally imported assets can be transferred at the same time.\n\nIncreasing this can transfer assets to users faster, but can also degrade the quality of the network connection. We recommend testing what values can your network handle.",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads": "Maximum number of concurrent downloads",
-        "Settings.AssetGatherSettings.MaxConcurrentDownloads.Description": "Use this to control how many assets can be downloaded at the same time. Using a bigger value can speed up world loading, but can also overload your network, so use caution when tweaking this value.",
+        "Settings.AssetGatherSettings.MaxConcurrentDownloads.Description": "Use this to control how many assets can be downloaded at the same time.\n\nUsing a bigger value can speed up world loading, but can also overload your network, so use caution when tweaking this value.",
 
         "Settings.HostAccessSettings.Entries": "Manage Host Access Permissions",
         "Settings.HostAccessSettings.Entries.Breadcrumb": "Host Access Permissions",
