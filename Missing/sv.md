@@ -30,6 +30,7 @@ Tools.ProtoFlux.Wiki
 Tools.Rig.AddEffector  
 Tools.Rig.RemoveEffector  
 Tools.Rig.SetupFABRIK  
+Tools.Rig.SetupTrigIK  
 Tools.Rig.CreateNew  
 Tools.Rig.DeselectRig  
 Tools.Rig.DestroyBone  
@@ -48,6 +49,15 @@ Inspector.FingerReferencePoseSource.CaptureMyLeftHand
 Inspector.FingerReferencePoseSource.CaptureMyRightHand  
 Inspector.BipedRig.GenerateStaticFingerPoseCode  
 Inspector.FingerReferencePoseSource.CaptureReference  
+Inspector.Actions.CopyName  
+Inspector.Actions.CopyTag  
+Inspector.Actions.CopyGlobalPosition  
+Inspector.Actions.CopyLocalPosition  
+Inspector.Actions.CopyGlobalScale  
+Inspector.Actions.CopyLocalScale  
+Inspector.Actions.CopyGlobalRotation  
+Inspector.Actions.CopyLocalRotation  
+Inspector.Actions.CopyOrderOffset  
 Tutorial.HelpTabPanel.Title  
 Tutorial.HelpTabPanel.Content  
 Help.Help  
