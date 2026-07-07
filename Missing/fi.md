@@ -187,6 +187,8 @@ Settings.PhotoCaptureSettings.OpenAutosavePath.Description
 Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
 Settings.PhotoCaptureSettings.EncodeFormat.Description  
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom  

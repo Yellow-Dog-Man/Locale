@@ -33,6 +33,8 @@ Settings.DashSettings.ScreenSwitchSpeed
 Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.LaserSettings.AlwaysPrioritizeUserspace  
 Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
 Settings.RendererDecouplingSettings.ActivationFramerate.Description  
 Settings.RendererDecouplingSettings.DeactivationFrames.Description  
 Settings.RendererDecouplingSettings.ForceDecouple.Description  

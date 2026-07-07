@@ -3,13 +3,6 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Chinese (Simplified, Mainland China) [zh-cn]
 Tools.Rig.SetupTrigIK  
-Inspector.Actions.CopyName  
-Inspector.Actions.CopyTag  
-Inspector.Actions.CopyGlobalPosition  
-Inspector.Actions.CopyLocalPosition  
-Inspector.Actions.CopyGlobalScale  
-Inspector.Actions.CopyLocalScale  
-Inspector.Actions.CopyGlobalRotation  
-Inspector.Actions.CopyLocalRotation  
-Inspector.Actions.CopyOrderOffset  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
 

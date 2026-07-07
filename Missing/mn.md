@@ -57,6 +57,8 @@ Settings.PhotoCaptureSettings.HandsNearFOV
 Settings.PhotoCaptureSettings.HandsNearFOV.Description  
 Settings.PhotoCaptureSettings.HandsFarFOV  
 Settings.PhotoCaptureSettings.HandsFarFOV.Description  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
 Settings.RendererDecouplingSettings  
 Settings.RendererDecouplingSettings.ActivationFramerate  
 Settings.RendererDecouplingSettings.ActivationFramerate.Description  

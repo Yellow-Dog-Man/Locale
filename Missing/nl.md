@@ -13,6 +13,8 @@ Tools.Rig.DestroyBone
 Settings.AudioStreamSettings  
 Settings.AudioStreamSettings.DefaultBitrate  
 Settings.AudioStreamSettings.DefaultDeviceID  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
 Inspector.NewSystem.Warning  
 Inspector.FingerReferencePoseSource.AssignFromBipedRig  
 Inspector.FingerReferencePoseSource.CaptureMyLeftHand  

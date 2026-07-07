@@ -41,6 +41,8 @@ Settings.DashSettings.ScreenSwitchSpeed
 Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.LaserSettings.AlwaysPrioritizeUserspace  
 Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
 Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.NewSystem.Warning  
 Inspector.AI_GeneratedContent.Info  
