@@ -923,6 +923,7 @@
         "Tools.Rig.AddEffector": "添加效应器",
         "Tools.Rig.RemoveEffector": "移除效应器",
         "Tools.Rig.SetupFABRIK": "设置 FABRIK IK解算器",
+        "Tools.Rig.SetupTrigIK": "设置三角函数 IK解算器",
         "Tools.Rig.CreateNew": "创建新骨骼",
         "Tools.Rig.DeselectRig" : "取消选择骨骼",
         "Tools.Rig.DestroyBone": "删除骨骼",
@@ -1959,6 +1960,8 @@
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "拍摄的照片将被编码成的图像文件格式。请注意，某些格式可能缺乏某些功能（如支持 alpha），编码速度可能会明显变慢，图像质量可能会降低，或导致文件变大。",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "始终隐藏铭牌",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "如果你希望照片中永远不显示铭牌，请将其打开。此设置与当前的铭牌可见性无关，将始终确保铭牌隐藏在拍摄的照片中。",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "总是隐藏 Gizmos",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "开启此选项可以在照片中隐藏任何开发者辅助图形（Gizmos）。这有助于在有人正在编辑物品时，依然能够拍出干净的照片。检查器和 ProtoFlux 仍会保持可见。",
 
         "Settings.DesktopRenderSettings.FieldOfView": "视场",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "在桌面模式下，用它来控制视场（FOV）。 数值越大，视野越开阔，但两侧的失真也越大。",
@@ -2500,7 +2503,7 @@
         "Inspector.Actions.CopyLocalScale": "复制本地缩放大小",
         "Inspector.Actions.CopyGlobalRotation": "复制全局旋转值",
         "Inspector.Actions.CopyLocalRotation": "复制本地旋转值",
-        "Inspector.Actions.CopyOrderOffset": "复制顺序偏移",
+        "Inspector.Actions.CopyOrderOffset": "复制排序偏移",
 
         "Inspector.Wizard.PackTexture": "打包贴图",
         "Inspector.Wizard.UnpackTexture": "解包贴图",
