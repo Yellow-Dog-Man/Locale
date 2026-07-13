@@ -923,6 +923,7 @@
         "Tools.Rig.AddEffector": "Agregar Effector",
         "Tools.Rig.RemoveEffector": "Remover Effector",
         "Tools.Rig.SetupFABRIK": "Configurar calculador FABRIK IK",
+        "Tools.Rig.SetupTrigIK": "Configurar calculador Trigonometrico IK",
         "Tools.Rig.CreateNew": "Crear Nuevo Rig",
         "Tools.Rig.DeselectRig" : "Deseleccionar Rig",
         "Tools.Rig.DestroyBone": "Destruir Hueso",
@@ -1959,6 +1960,8 @@
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "El formato de imagen con el cual se codificarán las capturas. Si necesitas que las fotos estén en un formato específico, puedes usar esta opción para seleccionar cual.\n\nTen en cuenta que algunos formatos podrían no soportar ciertas características (como la transparencia), podrían codificarse muy lento, tener menor calidad de imagen, u ocupar mayor espacio de almacenamiento.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Siempre Ocultar Placas",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Activa esta opción si deseas que nunca se muestren las placas de nombres en las fotos. Esta opción es independiente de la visibilidad de placas actual y siempre se asegurará que estén ocultas en las fotos.",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "Siempre Ocultar Giuzmos",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "Activa esta opción si quieres ocultar los gizmos de desarrollador en tus fotos. Esto puede ayudar en esos casos donde quieres una foto limpia, incluso en el caso de que alguien esté editando algo. Los Inspectores y ProtoFlux seguirán siendo visibles.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Campo de visión",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Controla el campo de visión (FOV) en modo escritorio. Valores altos proporcionan una visión más amplia a coste de una mayor distorsión en los bordes.",
@@ -2491,6 +2494,16 @@
 
         "Inspector.Actions.CopyComponent": "Copiar Componente",
         "Inspector.Actions.MoveComponent": "Mover Componente",
+
+        "Inspector.Actions.CopyName": "Copiar Nombre",
+        "Inspector.Actions.CopyTag": "Copiar Etiqueta",
+        "Inspector.Actions.CopyGlobalPosition": "Copiar Posición Global",
+        "Inspector.Actions.CopyLocalPosition": "Copiar Posición Local",
+        "Inspector.Actions.CopyGlobalScale": "Copiar Escala Global",
+        "Inspector.Actions.CopyLocalScale": "Copiar Escala Local",
+        "Inspector.Actions.CopyGlobalRotation": "Copiar Rotación Global",
+        "Inspector.Actions.CopyLocalRotation": "Copiar Rotación Local",
+        "Inspector.Actions.CopyOrderOffset": "Copiar Ajuste de Orden",
 
         "Inspector.Wizard.PackTexture": "Empaquetar Textura",
         "Inspector.Wizard.UnpackTexture": "Desempaquetar Textura",
