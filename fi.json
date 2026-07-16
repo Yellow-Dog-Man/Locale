@@ -1,8 +1,12 @@
 {
     "localeCode": "fi",
-    "authors": ["AdmiralSoap", "Napo", "Hexdigest", "Toni Kat"],
+    "authors": [
+        "AdmiralSoap",
+        "Napo",
+        "Hexdigest",
+        "Toni Kat"
+    ],
     "messages": {
-
         "General.OK": "OK",
         "General.Start": "Aloita",
         "General.Finish": "Valmis",
@@ -194,6 +198,9 @@
         "World.Connection.SteamNetworkingSockets": "Steam verkkoliitäntä",
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
+        "World.Connection.NoProtocolsAvailable": "Yhteyden muodostustapoja ei ole käytettävissä",
+        "World.Connection.AllProtocolsFailed": "Kaikki yhteyden muodostustavat epäonnistuivat",
+
         "World.Error.AccessDenied": "Pääsy Estetty",
         "World.Error.SecurityViolation": "Turvallisuusrikkomus",
         "World.Error.OnlyRegisteredUsers": "Vain rekisteröityneet käyttäjät voivat liittyä",
@@ -235,6 +242,10 @@
         "World.Config.CleanupAssets": "Siivoa käyttämättömät resurssit:",
         "World.Config.CleanupInterval": "Siivouksen aikaväli (sekuntia):",
 
+        "World.Config.ResoniteLinkHeader": "ResoniteLink",
+        "World.Config.ResoniteLinkOff": "ResoniteLink pois käytöstä",
+        "World.Config.ResoniteLinkPort": "ResoniteLink käynnissä portissa {port}",
+
         "World.Actions.StartSession": "Aloita sessio",
         "World.Actions.Join": "Liity",
         "World.Actions.Focus": "Vaihda",
@@ -270,6 +281,8 @@
         "World.Actions.ModifyMetadata": "Muokkaa metadataa",
         "World.Actions.GetSessionOrb": "Tuo session pallo",
         "World.Actions.CopySessionURL": "Kopioi session URL",
+
+        "World.Actions.EnableResoniteLink": "Aktivoi ResoniteLink",
 
         "World.Indicator.NoData": "Ei dataa",
         "World.Indicator.LocalWorld": "Lokaali sessio",
@@ -501,6 +514,12 @@
         "Register.InvalidPassword": "Virheellinen salasana",
         "Register.InvalidPassword.Description": "Salasanasi on virheellinen. Sen tulee sisältää vähintään kahdeksan (8) merkkiä, yhden (1) numeron, yhden (1) ison kirjaimen ja yhden (1) pienen kirjaimen.",
 
+        "Register.InvalidPromoCode": "Virheellinen promokoodi",
+        "Register.InvalidPromoCode.Description": "Syötetty promokoodi on virheellinen. Tarkista kirjoitusvirheet ja yritä uudelleen. Pienet ja isot kirjaimet eivät vaikuta koodin toimintaan.",
+
+        "Register.ExpiredPromoCode": "Vanhentunut promokoodi",
+        "Register.ExpiredPromoCode.Description": "Syötetty promokoodi on vanhentunut. Kokeile toista koodia tai tyhjennä kenttä.",
+
         "Register.EmailAlreadyRegistered": "Sähköpostiosoite on jo käytössä",
         "Register.EmailAlreadyRegistered.Description": "Tätä sähköpostiosoitetta käyttävä tili on jo olemassa. Jos olet unohtanut salasanasi, napsauta \"Unohtunut salasana?\". Voit myös ottaa yhteyttä tukeen osoitteessa {supportUrl}.",
 
@@ -518,6 +537,15 @@
 
         "Recovery.NoPasswordSetup": "Salasanaa ei määritetty",
         "Recovery.NoPasswordSetup.Description": "Ota yhteyttä tukeen osoitteessa {supportUrl}.",
+
+        "Register.TooManyRegistrations": "Liian monta rekisteröitymistä",
+        "Register.TooManyRegistrations.Description": "Olet rekisteröinyt lähiaikoina liian monta tiliä. Yritä uudelleen myöhemmin tai ota yhteyttä tukeen osoitteessa {supportUrl}.",
+
+        "Register.StatusCheckError": "Rekisteröinnin tila ei tiedossa",
+        "Register.StatusCheckError.Description": "Tilin rekisteröintipyyntösi on lähetetty, mutta sen tilan tarkistamisessa ilmeni ongelma. Yritä kirjautua sisään hetken kuluttua.",
+
+        "Register.ManualLoginRequired": "Manuaalinen kirjautuminen vaaditaan",
+        "Register.ManualLoginRequired.Description": "Tilisi on rekisteröity, mutta sen istuntotietojen hakemisessa ilmeni ongelma. Yritä kirjautua sisään hetken kuluttua.",
 
         "Register.UnknownError": "Tuntematon virhe",
         "Register.UnknownError.Description": "Rekisteröitymisessä tapahtui tuntematon virhe. Ota yhteyttä tukeen osoitteessa {supportUrl}.",
@@ -559,6 +587,7 @@
         "Account.BirthYear": "Vuosi:",
         "Account.PoliciesAgreement": "Hyväksyn <color=#22B2FF>palveluehdot</color> ja <color=#22B2FF>tietosuojakäytännön</color>",
         "Account.AlternateMethods": "Kirjaudu sisään käyttäen kolmannen osapuolen palvelua:",
+        "Account.PromoCode": "Promokoodi:",
 
         "Account.Saml2.Title": "SAML 2.0",
         "Account.Saml2.Select": "Valitse SAML 2.0 palvelu jota haluat käyttää:",
@@ -582,7 +611,7 @@
         "Account.TOTP.Activate.InvalidToken": "Virheellinen tunnus!",
         "Account.TOTP.Message.AlreadySetup": "2FA on jo määritetty tilillesi!",
         "Account.TOTP.Message.Error": "Odottamaton virhe! Yritä uudelleen myöhemmin.",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>Onnittelut!</size><br><br>Tiliisi on nyt lisätty 2FA lisäsuojaus!<br><br>Voit halutessasi ottaa 2FA:n käyttöön tilille kirjautumiseen /enableLogin2FA -komennolla.",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>Onnittelut!</size><br><br>Tiliisi on nyt lisätty 2FA lisäsuojaus!",
         "Account.TOTP.Deactivate.Header": "Poista 2FA käytöstä",
         "Account.TOTP.Deactivate.Description": "2FA on tällä hetkellä <b><color=green>määritetty ja aktiivinen tililläsi</color></b>. Jos haluat poistaa sen käytöstä (esim. puhelimen kadottamisen tai koodien vaarantumisen vuoksi), voit tehdä sen täällä.<br><br>Käytöstä poistaminen jälkeen voit määrittää 2FA:n uudelleen, tämä luo uuden salaisen koodin ja uudet palautuskoodit.<br><br>Jos kadotat puhelimesi ja sinun on määritettävä 2FA uudelleen, suosittelemme, että teet sen heti, koska kutakin palautuskoodia voidaan käyttää vain kerran. Kun koodit ovat käytetty, tilisi on lukossa ja et voi enään kirjautua sisään.",
         "Account.TOTP.Deactivate.Deactivate": "Poista käytöstä",
@@ -590,6 +619,7 @@
         "Account.TOTP.Message.DeactivationComplete": "2FA on poistettu käytöstä.<br><br>Tililläsi on nyt lisääntynyt riski!<br><br>Suosittelemme 2FA:n uudelleen käyttöön ottamista, varsinkin jos käytit palautuskoodia puhelimesi hukkaamisen vuoksi.",
 
         "Account.Type.Standard": "Perustili",
+        "Account.Type.Promo": "Promotili",
         "Account.Type.Business": "Yritystili",
         "Account.Type.Patreon": "Patreon Tukija",
         "Account.Type.Stripe": "Stripe Tukija",
@@ -633,6 +663,7 @@
         "Permissions.NotAllowedToSave": "Et voi tallentaa esineitä tässä maailmassa.",
         "Permissions.NotAllowedToSwapAvatar": "Mukautettuun avatariin vaihto estetty tässä maailmassa.",
         "Permissions.SavingDisabledForItem": "Tämän esineen tallennus on poistettu käytöstä.",
+        "Permissions.NotAllowedToOpen": "Sinulla ei ole oikeutta avata tätä.",
 
         "User.Actions.Silence": "Hiljennä",
         "User.Actions.Mute": "Hiljennä",
@@ -654,7 +685,7 @@
         "Contacts.BanFromCurrentWorld": "Estä nykyisestä maailmasta",
         "Contacts.UnbanFromCurrentWorld": "Poista esto nykyisestä maailmasta",
         "Contacts.RecordingVoiceMessage": "Nauhoitetaan puhetta...",
-
+        "Contacts.Unblocked": "Ei estetty",
         "Contacts.AvatarBlock": "Estä Avatar",
         "Contacts.MutualBlock": "Yhteinen esto",
         "Contacts.SelfAccount": "Minun tili",
@@ -741,18 +772,25 @@
         "Undo.ExtractMaterialsFromHierarchy": "Pura materiaalit hierarkiasta",
         "Undo.BatchConvertMaterials": "Erämuunna materiaalit",
 
+        "Undo.AddListElement": "Lisää elementti listalle",
+        "Undo.RemoveListElement": "Poista elementti listasta",
+
         "Tools.Brush.ChangeColor": "Vaihda väri",
         "Tools.Brush.IncrementSize": "Suurenna kokoa",
         "Tools.Brush.DecrementSize": "Pienennä kokoa",
+        "Tools.Brush.FinishStrokeGroup": "Viimeistele vetoryhmä",
 
         "Tools.GeometryLineBrush.Name": "Geometriaviivasivellin",
+
+        "Tools.MeshPlaneBrush.Name": "Tahkoverkkotasosivellin",
+        "Tools.MeshPlaneBrush.AddHole": "Lisää reikä",
 
         "Tools.Dev.Name": "Kehitystyökalu",
         "Tools.Dev.CreateNew": "Luo uusi...",
         "Tools.Dev.Selection": "Valintatila: {mode}",
         "Tools.Dev.DevMode.Off": "Kehittäjätila: Pois",
         "Tools.Dev.DevMode.On": "Kehittäjätila: Päällä",
-        "Tools.Dev.OpenInspector": "Avaa valintaikkuna",
+        "Tools.Dev.OpenInspector": "Avaa Inspector",
         "Tools.Dev.DeselectAll": "Lopeta valinta",
         "Tools.Dev.DestroySelected": "Poista valitut",
         "Tools.Dev.ConfirmDestroySelected": "VARMASTI Poista valitut",
@@ -833,7 +871,7 @@
         "Tools.Microphone.SourceRaw": "Raaka",
         "Tools.Microphone.SourceFiltered": "Filteröity ja normalisoitu",
 
-        "Tools.ProtoFlux.Name": "Proto-Flux työkalu",
+        "Tools.ProtoFlux.Name": "ProtoFlux työkalu",
 
 
 
@@ -848,6 +886,7 @@
 
 
 
+        "Tools.ProtoFlux.Wiki": "Wiki <size=50%>{node}</size>",
 
         "Tools.Meter.Mode.Ray": "Tila: Säde",
         "Tools.Meter.Mode.Perpendicular": "Tila: Kohtisuora",
@@ -885,6 +924,14 @@
         "Tools.ControllerDiagnostic.Name": "Ohjainten diagnostiikkatyökalu",
 
         "Tools.Labeler.Name": "Labelointityökalu",
+
+        "Tools.Rig.AddEffector": "Lisää Effectori",
+        "Tools.Rig.RemoveEffector": "Poista Effectori",
+        "Tools.Rig.SetupFABRIK": "Asenna FABRIK IK solveri",
+        "Tools.Rig.SetupTrigIK": "Asenna Trigonometrinen IK solveri",
+        "Tools.Rig.CreateNew": "Luo uusi rigi",
+        "Tools.Rig.DeselectRig": "Tyhjennä Rigin valinta",
+        "Tools.Rig.DestroyBone": "Poista luu",
 
 
 
@@ -1126,8 +1173,8 @@
 
 
         "Importer.Link.Invalid.Heading":"Virheellinen kansiolinkki",
-
-
+        "Importer.Link.Invalid.Description": "Kansiolinkki ({url}) on virheellinen. Tarkista linkki ja yritä uudelleen.",
+        "Inventory.Link.LinkText": "Kansiolinkki {name}",
 
         "Exporter.Title": "Vie",
         "Exporter.FileName": "Tiedoston nimi:",
@@ -1360,6 +1407,10 @@
         "Settings.AudioVolumeSettings": "Äänenvoimakkuus",
         "Settings.AudioAccessibilitySettings": "Äänien esteettömyysasetukset",
         "Settings.AudioInputFilteringSettings": "Äänitulon filtteröinti",
+
+        "Settings.AudioStreamSettings": "Äänen suoratoiston asetukset",
+        "Settings.AudioStreamSettings.DefaultBitrate": "Oletusbittinopeus",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "Oletus Laite-ID",
 
         "Settings.RealtimeNetworkingSettings": "Reaaliaikainen verkkoliitäntä",
         "Settings.AssetGatherSettings": "Tiedostosiirrot",
@@ -1649,7 +1700,7 @@
         "Settings.AudioOutputDeviceSettings.DevicePriorities.Breadcrumb": "Äänilähtölaitteet",
         "Settings.AudioOutputDeviceSettings.SetAsDefault": "Aseta oletukseksi",
         "Settings.AudioOutputDeviceSettings.ForceRefreshDevices": "Pakota äänilaitteiden päivitys",
-        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Pakota Resonite päivittämään äänilaiteluettelo. Useimmissa tapauksissa tätä ei tarvita, mutta jos Resonite ei löydä lisättyä äänilaitetta, tämän painaminen saattaa auttaa.",
+        "Settings.AudioOutputDeviceSettings.ForceRefreshDevices.Description": "Pakota {appName} päivittämään äänilaiteluettelo. Useimmissa tapauksissa tätä ei tarvita, mutta jos {appName} ei löydä lisättyä äänilaitetta, tämän painaminen saattaa auttaa.",
         "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput": "Erillinen suoratoistokameran lähtö",
         "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "Suoratoistokamera kuulee äänet omasta näkökulmastaan ja lähettää ne eri äänilaitteeseen. Tällä voit kuulla äänet omasta näkökulmastasi ja samalla tallentaa ääntä kameran näkökulmasta. Jotta tämä toimisi, valitun laitteen on oltava eri kuin tavallinen lähtölaitteesi.",
         "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Suoratoistokameran lähtölaitteet",
@@ -1789,7 +1840,9 @@
         "Settings.DashSettings.DashCurvature": "Kaarevuus",
 
         "Settings.DashSettings.OpenCloseSpeed": "Avaamisen/Sulkemisen nopeus",
-
+        "Settings.DashSettings.OpenCloseSpeed.Description": "Tällä asetuksella voit säätää, kuinka nopeasti valikko avautuu ja sulkeutuu.\nJos asetat tämän arvoksi 0, animaatio poistuu kokonaan, jolloin avautuminen ja sulkeutuminen tapahtuvat välittömästi.",
+        "Settings.DashSettings.ScreenSwitchSpeed": "Välilehden vaihdon nopeus",
+        "Settings.DashSettings.ScreenSwitchSpeed.Description": "Säätää, kuinka nopeasti valikko vaihtaa näkymien välillä (esim. Koti, Kontaktit, Sessio). Asettamalla tämän arvoksi 0 animaatio poistetaan kokonaan, jolloin vaihto tapahtuu välittömästi.",
         "Settings.DashSettings.AllowReplacingSettings": "Salli asetusvalikon korvaus",
 
 
@@ -1836,6 +1889,8 @@
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "Näytä tausta",
 
 
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace": "Priorisoi yksityinen käyttöliittymä",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace.Description": "Kun tämä toiminto on käytössä, yksityiset käyttöliittymäelementtisi, kuten valikko, fasetit tai näppäimistö, ovat aina käytettävissä, vaikka ne olisivatkin pelimaailman esineiden peitossa.",
         "Settings.LaserSettings.SmoothSpeed": "Laaserin liikkumisen pehmennys",
 
         "Settings.LaserSettings.ModulateStartAngle": "Moduloi aloituskulma",
@@ -1910,6 +1965,8 @@
 
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Piilota nimilaatat aina",
 
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "Piilota Gizmot aina",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "Ota tämä käyttöön, jos haluat piilottaa kehittäjille tarkoitetut työkalut valokuvistasi. Tästä voi olla apua tilanteissa, joissa haluat ottaa valokuvia, vaikka joku olisikin muokkaamassa jotain. Inspectorit- ja ProtoFlux-työkalut pysyvät näkyvissä.",
 
 
 
@@ -2079,7 +2136,6 @@
 
 
 
-
         "Settings.ImportSettings": "Tuontiasetukset",
         "Settings.ImportSettings.SessionUrls": "Sessio URL:in tuonti",
 
@@ -2163,6 +2219,7 @@
         "Inspector.Member.SplitBlendshape.X": "Splittaa Blendshape X-akselilla",
         "Inspector.Member.SplitBlendshape.Y": "Splittaa Blendshape Y-akselilla",
         "Inspector.Member.SplitBlendshape.Z": "Splittaa Blendshape Z-akselilla",
+        "Inspector.Member.SplitBlendshapeToStaticMesh": "Erota Blendshape staattiseksi tahkoverkoksi",
 
         "Inspector.ProceduralAsset.UpdateCount": "Päivitettyjen määrä: {n}",
         "Inspector.ProceduralAsset.Error": "Virhe: {error}",
@@ -2406,6 +2463,10 @@
 
 
 
+        "Inspector.AI_GeneratedContent.Info": "Tämä komponentti on tarkoitettu merkitsemään generatiivisen tekoälyn tuottaman sisällön. On suositeltavaa sijoittaa se näillä menetelmillä luotujen objektien juureen. Komponentti lisää automaattisesti tunnisteet, kun kohde tallennetaan ja kun maailma tallennetaan näiden komponenttien kanssa, mikä mahdollistaa tämän sisällön suodattamisen.",
+
+
+
 
         "Inspector.ParticleStyle.CommonTransitions": "Yleiset siirtymämallit:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Alfa alkuhäivytys & loppuhäivytys",
@@ -2430,8 +2491,24 @@
 
 
 
+
+
+
+
+
+
         "Inspector.Actions.CopyComponent": "Kopioi komponentti",
         "Inspector.Actions.MoveComponent": "Siirrä komponentti",
+
+        "Inspector.Actions.CopyName": "Kopioi nimi",
+        "Inspector.Actions.CopyTag": "Kopioi tagi",
+        "Inspector.Actions.CopyGlobalPosition": "Kopioi globaali sijainti",
+        "Inspector.Actions.CopyLocalPosition": "Kopioi lokaali sijainti",
+        "Inspector.Actions.CopyGlobalScale": "Kopioi globaali skaala",
+        "Inspector.Actions.CopyLocalScale": "Kopioi lokaali skaala",
+        "Inspector.Actions.CopyGlobalRotation": "Kopioi globaali kierto",
+        "Inspector.Actions.CopyLocalRotation": "Kopioi lokaali kierto",
+
 
         "Inspector.Wizard.PackTexture": "Pakkaa tekstuuri",
         "Inspector.Wizard.UnpackTexture": "Pura tekstuuri",
@@ -2525,7 +2602,6 @@
         "Wizard.TexturePacker.UseSmallest": "Käytä pienintä",
         "Wizard.TexturePacker.UseLargest": "Käytä suurinta",
         "Wizard.TexturePacker.GenerateMipmaps": "Generoi Mipmapit",
-
 
         "Wizard.TextureUnpacker.Title": "Tekstuurien purku",
         "Wizard.TextureUnpacker.Unpacking": "Purkaa...",
@@ -2742,7 +2818,6 @@
         "Tutorial.Saving.Title": "Tervetuloa kotiin!",
         "Tutorial.Saving.Content": "Tervetuloa <b><i><color=hero.yellow>Koti</b></i></color> maailmaasi! Päädyt tänne aina kun kirjaudut sisään.<br><br>Tämä on täysin oma maailmasi, joten kaikki tekemäsi muutokset voidaan tallentaa.<br><br>Jos tallennat, kaikki jää juuri sellaiseksi kuin ne jätit, kunnes palaat takaisin!",
 
-
         "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Nimetön sessio</closeall>",
         "Tutorial.Teleporter.SessionList.UnnamedHost": "Isännöijä: <i><alpha=#77>Nimetön isäntä</closeall>",
         "Tutorial.Teleporter.SessionList.HostName": "Isännöijä: <b>{hostName}</b>",
@@ -2760,7 +2835,6 @@
         "Tutorial.Teleporter.WorldsTabHint": "Voit myös löytää maailmoja johon voit liittyä<br>käyttäen Maailmat välilehteä valikossa!",
 
         "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>Sessioon liittyminen epäonnistui! :(</color><br><size=66%>Sinulla on kuitenkin vielä joitakin vaihtoehtoja:</size>",
-
 
 
 
@@ -2912,6 +2986,9 @@
 
         "Tutorial.MentorPanel.Title": "Tarvitsetko apua?",
         "Tutorial.MentorPanel.Content": "Etsi käyttäjiä, joiden pään yläpuolella on tämä merkki - pyydä heiltä apua, he ovat täällä <i>sinua</i> varten!",
+
+        "Tutorial.HelpTabPanel.Title": "Tarvitsetko apua?",
+        "Tutorial.HelpTabPanel.Content": "Valikossasi on ohjetoiminto, josta voit selata tietoja {appName}:sta!",
 
         "Hints.Spawn.InitialMovementDesktop": "Käytä liikkumisnäppäimiä kävelemiseen!",
         "Hints.Spawn.InitialMovementVR": "Käytä joystickejä kävelemiseen!",
@@ -3213,6 +3290,12 @@
         "Universe.Units.HubbleLength": "Hubble-etäisyys",
         "Universe.Units.EarthRadius": "Maan säde",
         "Universe.Units.LunarDistance": "Kuun etäisyys",
+
+        "CloudHome.UpdateNotice.Header": "Päivitysilmoitus",
+
+        "CloudHome.UpdateNotice.WikiLinkName": "{appName} Wiki: Pilvikodin päivitys",
+        "CloudHome.UpdateNotice.DiscordLinkName": "{appName} Discord",
+        "CloudHome.UpdateNotice.CloudHomeLinkName": "Käy uudessa pilvikodissa",
 
         "Dummy": "Dummy"
     }
