@@ -1,8 +1,7 @@
 {
     "localeCode": "ru",
-    "authors": [ "GhostZ36", "BrotiwkA", "Shadow Panther", "ENTERTHEWOLF", "ConfusedYeen", "Stanislavskii", "maksim789456", "MrSetto", "alextaco-anton", "Coffee from Kamchatka", "troyBORG" , "Shizzoid" ],
+    "authors": ["GhostZ36", "BrotiwkA", "Shadow Panther", "ENTERTHEWOLF", "ConfusedYeen", "Stanislavskii", "maksim789456", "MrSetto", "alextaco-anton", "Coffee from Kamchatka", "troyBORG", "Shizzoid"],
     "messages": {
-
         "General.OK": "OK",
         "General.Start": "Начать",
         "General.Finish": "Закончить",
@@ -596,6 +595,7 @@
         "Account.TOTP.Message.DeactivationComplete": "2FA была успешно деактивирована на вашем аккаунте.<br><br>Ваш аккаунт сейчас подвержен дополнительному риску!<br><br>Мы настоятельно рекомендуем заново настроить 2FA, особенно если Вы использовали код восстановления в связи с утратой телефона.",
 
         "Account.Type.Standard": "Стандартный Аккаунт",
+
         "Account.Type.Business": "Бизнес Аккаунт",
         "Account.Type.Patreon": "Спонсор (Patreon)",
         "Account.Type.Stripe": "Спонсор (Stripe)",
@@ -1802,6 +1802,7 @@
         "Settings.DashSettings.DashCurvature.Description": "Эта настройка определяет изгиб дэшборда в VR. Установите в 0 чтобы сделать его полностью плоским.",
         "Settings.DashSettings.OpenCloseSpeed": "Скорость открытия/закрытия",
         "Settings.DashSettings.OpenCloseSpeed.Description": "Используйте чтобы настроить, как быстро дэшборд открывается и закрывается. Если вам не нравится анимация, можете поставить очень большое значение чтобы дэшборд открывался и закрывался практически моментально.",
+
         "Settings.DashSettings.AllowReplacingSettings": "Разрешить замену экрана настроек",
         "Settings.DashSettings.AllowReplacingSettings.Description": "Когда включено, вы сможете взять фасет Настроек на Дэшборде в режиме редактирования интерфейса и заменить его на другой.\n\nЭта настройка должна быть выключена если вы хотите брать отдельные настройки как фасеты. Рекомендуется включать эту настройку временно, когда вы хотите заменить интерфейс настроек другим, и выключать её после этого.",
 
@@ -2083,11 +2084,13 @@
 
         "Settings.RendererDecouplingSettings": "Отложенный рендер",
         "Settings.RendererDecouplingSettings.ActivationFramerate": "Частота кадров активации",
+
         "Settings.RendererDecouplingSettings.DeactivationFrames": "Частота кадров деактивации",
+
         "Settings.RendererDecouplingSettings.ForceDecouple": "Принудительное откладывание",
+
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "Максимальное время обработки ассета (в миллисекундах)",
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "Настройка управляет максимальным временем затрачиваемое на выгрузку ассетов в GPU, когда механизм отложенного рендеринга включен. Уменьшение значения параметра увеличивает частоту кадров (например, при тестировании производительности GPU), но может замедлить производительность выгрузки ассетов и на очень низких значениях приводит к заторможенному отклику UI.",
-
 
         "Settings.ImportSettings": "Импортировать настройки",
         "Settings.ImportSettings.SessionUrls": "При импорте URL сеанса",
@@ -2535,7 +2538,6 @@
         "Wizard.TexturePacker.UseLargest": "По большему",
         "Wizard.TexturePacker.GenerateMipmaps": "Сгенерировать Mipmaps",
 
-
         "Wizard.TextureUnpacker.Title": "Мастер распаковки текстур",
         "Wizard.TextureUnpacker.Unpacking": "Распаковка...",
         "Wizard.TextureUnpacker.UnpackTexture": "Распаковать текстуру",
@@ -2751,7 +2753,6 @@
         "Tutorial.Saving.Title": "Добро пожаловать домой!",
         "Tutorial.Saving.Content": "Добро пожаловать в ваш <b><i><color=hero.yellow>дом</b></i></color>! Вы окажетесь в этом месте при каждом входе.<br>Этот мир полностью ваш, поэтому вы можете сохранить любые сделанные вами изменения.<br>При сохранении мира всё останется на своих местах в ваш следующий визит!",
 
-
         "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Неименованная сессия</closeall>",
         "Tutorial.Teleporter.SessionList.UnnamedHost": "Хост: <i><alpha=#77>Неименованный</closeall>",
         "Tutorial.Teleporter.SessionList.HostName": "Хост: <b>{hostName}</b>",
@@ -2771,7 +2772,6 @@
         "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>Присоединиться не удалось! :(</color><br><size=66%>Тем не менее у вас есть следующие возможности:</size>",
 
         "Tutorial.Teleporter.Transporting": "Перемещаемся...",
-
 
         "CloudHome.Info.OnlineUsers": "Онлайн: {online_users} {online_users,plural, one {пользователь} few {пользователя} other {пользователей}}<br>Можно подключиться к: {joinable_users} {joinable_users,plural, one {пользователю} other {пользователям}}",
         "CloudHome.Info.Moderation": "Модерация",
@@ -2857,8 +2857,10 @@
         "CloudHome.Panel.Quality": "Качество",
         "CloudHome.Panel.Doors": "Двери",
         "CloudHome.Panel.Audio": "Звук",
+
         "CloudHome.Panel.OverheadLighting": "Потолочное освещение",
         "CloudHome.Panel.Sconces": "Настенное освещение",
+
         "CloudHome.Panel.FurnitureVisibility": "Видимость мебели",
 
         "CloudHome.Panel.LowQualityMode": "Режим низкого качества",
@@ -3256,11 +3258,14 @@
         "Help.GettingStarted.AvatarBasics.OpeningYourDashboard": "Открытие дэшборда",
         "Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content": "Если вы хотите, чтобы используемый сейчас аватар стал загружаемым в как ваш основной, вам нужно использовать ваш <b><color=hero.cyan>Дэшборд</closeall>, являющийся единым местом где вы можете посмотреть в Инвентарь или исследуйте разные миры.<br><br>Чтобы его открыть или закрыть, нажмите {is_using_vive_wands, select, True{и удерживаете } other{}}<b><color=hero.purple>{Menu_Input}</closeall>{is_using_vive_wands, select, True{ пока кольцо не заполнится, после отпустите} other{}}!",
         "Help.GettingStarted.AvatarBasics.CreatingAFolder": "Создание папки",
-        "Help.GettingStarted.AvatarBasics.Saving": "Сохранение",
-        "Help.GettingStarted.AvatarBasics.Wearing": "Одевание",
-        "Help.GettingStarted.AvatarBasics.Favoriting": "Избранное",
-        "Help.GettingStarted.AvatarBasics.FindingMoreAvatars": "Поиск аватаров",
 
+        "Help.GettingStarted.AvatarBasics.Saving": "Сохранение",
+
+        "Help.GettingStarted.AvatarBasics.Wearing": "Одевание",
+
+        "Help.GettingStarted.AvatarBasics.Favoriting": "Избранное",
+
+        "Help.GettingStarted.AvatarBasics.FindingMoreAvatars": "Поиск аватаров",
 
         "Dummy": "Dummy"
     }
