@@ -383,6 +383,7 @@
         "Tools.CreateNewWorld": "建立世界",
         "Tools.Debug": "除錯",
         "Tools.StreamAudio": "音效串流",
+        "Tools.StreamVideo": "串流自訂影片",
         "Tools.Setup2FA": "設定兩步驟認證",
 
         "Tools.StreamAudio.Dialog.Title": "建立音效串流",
@@ -424,6 +425,8 @@
         "Indicator.Storage.Usage": "{storage_used} 共 {storage_max}<br><size=61.803%>儲存空間已使用</size>",
 
         "Indicator.LiveHiddenMessage": "（直播時訊息已隱藏）",
+
+        "Device.SystemAudio": "<color=hero.cyan>🔊 系統音效</color>",
 
         "Login.InvalidCredentials": "無效的登入憑證",
         "Login.InvalidCredentials.Description": "請再次確認您的登入憑證，然後重試，或點擊「忘記密碼？」",
@@ -656,7 +659,7 @@
 
         "Permissions.NotAllowedToSpawn": "您不能在這裡生成物件。",
         "Permissions.NotAllowedToSave": "您不能在這個世界上儲存物件。",
-        "Permissions.NotAllowedToSwapAvatar": "您不能在這裡切換到自定化身。",
+        "Permissions.NotAllowedToSwapAvatar": "您不能在這裡切換到自訂化身。",
         "Permissions.SavingDisabledForItem": "本物品停用了儲存功能。",
         "Permissions.NotAllowedToOpen": "您未持有開啟此項目的權限。",
 
@@ -923,6 +926,7 @@
         "Tools.Rig.AddEffector": "新增效應器",
         "Tools.Rig.RemoveEffector": "移除效應器",
         "Tools.Rig.SetupFABRIK": "設定 FABRIK IK 解算器",
+        "Tools.Rig.SetupTrigIK": "設定三角學 IK 解算器",
         "Tools.Rig.CreateNew": "建立新的骨架綁定",
         "Tools.Rig.DeselectRig": "取消選取骨架綁定",
         "Tools.Rig.DestroyBone": "銷毀骨架",
@@ -1197,7 +1201,7 @@
         "NewWorld.Title": "建立世界",
         "NewWorld.SessionTitle": "新活動",
         "NewWorld.Template": "世界模板：",
-        "NewWorld.CustomPreset": "自定義預置：",
+        "NewWorld.CustomPreset": "自訂預置：",
         "NewWorld.SessionSettings": "活動設定：",
         "NewWorld.UnsafeMode": "不安全模式：",
         "NewWorld.Port": "埠號：",
@@ -1957,8 +1961,10 @@
         "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "開啟時, 快速擷取將包含您的私人 UI，例如主面板。若您想要用於展示私人 UI 的資訊。\n\n建議您在使用後將本設定關閉，若保持此設定開啟可能有私人資訊被截取與外流的風險。",
         "Settings.PhotoCaptureSettings.EncodeFormat": "照片編碼格式",
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "拍攝的照片所使用的影像格式。\n\n請注意，某些格式可能缺乏某些功能（例如 Alpha 通道），編碼速度可能明顯變慢，圖片畫質可能降低，或導致檔案變大。",
-        "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "維持名牌隱藏",
-        "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "如果您希望照片中維持不顯示名牌，請將此開啟。此設定獨立於名牌顯示狀態，並始終在擷取的照片中保持隱藏。",
+        "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "保持隱藏名牌",
+        "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "如果您拍攝的照片中不要出現名牌，請開啟此選項。此設定獨立於名牌顯示狀態，並始終在拍攝的照片中保持隱藏。",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "保持隱藏 Gizmo",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "如果您拍攝照片中不要出現編輯物件時出現的 Gizmo，請開啟此選項。本選項可用於在其他人進行物件編輯時拍攝乾淨的照片。檢視器視窗與 ProtoFlux 不受此選項影響。",
 
         "Settings.DesktopRenderSettings.FieldOfView": "視角 (FOV)",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "在桌面模式下，用此控制視角 (FOV)。 數值愈大，視野愈寬闊，但畫面兩側變形愈大。",
@@ -2492,6 +2498,16 @@
         "Inspector.Actions.CopyComponent": "複製元件",
         "Inspector.Actions.MoveComponent": "移動元件",
 
+        "Inspector.Actions.CopyName": "複製名稱",
+        "Inspector.Actions.CopyTag": "複製標籤",
+        "Inspector.Actions.CopyGlobalPosition": "複製全域位置",
+        "Inspector.Actions.CopyLocalPosition": "複製本地位置",
+        "Inspector.Actions.CopyGlobalScale": "複製全域縮放",
+        "Inspector.Actions.CopyLocalScale": "複製本地縮放",
+        "Inspector.Actions.CopyGlobalRotation": "複製全域旋轉",
+        "Inspector.Actions.CopyLocalRotation": "複製本地旋轉",
+        "Inspector.Actions.CopyOrderOffset": "複製排序偏移 (Order Offset)",
+
         "Inspector.Wizard.PackTexture": "打包貼圖",
         "Inspector.Wizard.UnpackTexture": "解包貼圖",
 
@@ -2597,6 +2613,15 @@
         "Desktop.LegacyInputMode.Off": "舊版輸入模式：關閉",
         "Desktop.Brightness": "亮度：{n,number,percent}",
         "Desktop.Opacity": "不透明度：{n,number,percent}",
+
+        "Desktop.Stream": "畫面分享",
+        "Desktop.Stream.Display": "顯示器 {index}: {width}x{height}",
+        "Desktop.Stream.Title": "設定畫面分享",
+        "Desktop.Stream.Audio": "包含桌面音效",
+        "Desktop.Stream.FPS": "FPS:",
+        "Desktop.Stream.Resolution": "解析度:",
+        "Desktop.Stream.Bitrate": "碼率:",
+        "Desktop.Stream.Start": "開始分享",
 
         "VolumePlaneSlicer.Highlight": "高亮",
         "VolumePlaneSlicer.Slicer": "滑塊",
@@ -3450,7 +3475,7 @@
         "Help.Controls.Interaction.Anchors.Content": "<b><color=hero.purple>錨點</closeall>是讓您可以附加到上面的物件，例如家具或車輛中的座位。當您在錨點中時，如果錨點移動，您也會跟著錨點移動。某些錨點也會有姿勢選項，讓您可以調整身體的位置。要進入錨點，請用雷射瞎準它並按下 <b><color=hero.purple>{Primary_Input}</closeall> 來顯示其選單，然後選擇 <b><color=hero.purple>進入</closeall>。要離開錨點{is_using_vive_wands, select, True {} other {，}}請按下{is_desktop, select, True {} other {您的}} <b><color=hero.purple>{Secondary_Input}</closeall>{is_using_vive_wands, select, True {} other {或移動您的 <b><color=hero.purple>{Movement_Input}</closeall>}}，不過此行為可能因錨點而異。",
 
         "Help.Controls.Locomotion": "行動模式",
-        "Help.Controls.Locomotion.Content": "在大多數世界中，有四種主要的行動模式，可以{is_using_vive_wands, select, True {快速按下} other {用}} <b><color=hero.purple>{Context_Menu_Input}</closeall> 開啟您的 <b><color=hero.Cyan>內文選單</closeall> 並選擇 <sprite name=LocomotionIcon> <b><color=hero.purple>移動</closeall> 來存取。<br><b><color=hero.orange>請注意，某些行動模式可能會導致 3D 暈，應謹慎使用。</closeall><br><br>這是 {appName} 內移動的基本概述，您可能會遇到社群成員製作的自定義行動模式。行動模式可以因世界而異，如果您想要常時快速存取自定義類型，也可以新增到化身中。如果您容易曈動，請考慮使用簡單的行動模式，如 <b><color=hero.yellow>步行/跑步</closeall>、<b><color=hero.purple>傳送</closeall> 或 <b><color=hero.orange>抓取世界移動</closeall>，以及使用 <b><color=hero.purple>快速轉向</closeall> 控制設定。",
+        "Help.Controls.Locomotion.Content": "在大多數世界中，有四種主要的行動模式，可以{is_using_vive_wands, select, True {快速按下} other {用}} <b><color=hero.purple>{Context_Menu_Input}</closeall> 開啟您的 <b><color=hero.Cyan>內文選單</closeall> 並選擇 <sprite name=LocomotionIcon> <b><color=hero.purple>移動</closeall> 來存取。<br><b><color=hero.orange>請注意，某些行動模式可能會導致 3D 暈，應謹慎使用。</closeall><br><br>這是 {appName} 內移動的基本概述，您可能會遇到社群成員製作的自訂行動模式。行動模式可以因世界而異，如果您想要常時快速存取自訂類型，也可以新增到化身中。如果您容易曈動，請考慮使用簡單的行動模式，如 <b><color=hero.yellow>步行/跑步</closeall>、<b><color=hero.purple>傳送</closeall> 或 <b><color=hero.orange>抓取世界移動</closeall>，以及使用 <b><color=hero.purple>快速轉向</closeall> 控制設定。",
         "Help.Controls.Locomotion.WalkRun.Content": "讓您可以像現實生活中一樣在世界中移動。要步行，請在 <b><color=hero.purple>{Movement_Input}</closeall> 上按下前進。要跑步，請{is_desktop, select, True {在移動時按住 <b><color=hero.purple>Shift</closeall>} other {在兩個控制器上同時按下前進}}。",
         "Help.Controls.Locomotion.WalkRunWithClimbing": "步行/跑步（含攀爬）",
         "Help.Controls.Locomotion.WalkRunWithClimbing.Content": "此行動模式與 <b><color=hero.orange>步行/跑步</closeall> 相同，但允許您透過按住 <b><color=hero.purple>{Grip_Input}</closeall> 並將自己拉向物件來攀爬物件或牆壁。{is_desktop, select, True {桌面模式中仍可能攀爬，但您的結果可能與 VR 攀爬不同。} other {}}",
@@ -3523,7 +3548,7 @@
         "Help.General.Saving.Content": "儲存物品可讓您在任何可以生成物品的地方使用它們。<br><br>要儲存物品，首先在您的 <b><color=hero.cyan>物品欄</color></b> 中導航到您想要儲存的資料夾，然後用 <b><color=hero.purple>{Grip_Input}</closeall> 抓取物品。然後在抓住它的同時，在您的物品欄內，按下 <color=hero.green><b>儲存抓取物品</b></Color> 按鈕。這會將物品儲存到您目前所在的資料夾中。<br><br>在抓取物品時，{is_using_vive_wands, select, True {快速按下} other {用}} <b><color=hero.purple>{Context_Menu_Input}</closeall> 開啟您的 <b><color=hero.Cyan>內文選單</closeall>，並選擇 <sprite name=SaveIcon> <b><color=hero.Cyan>儲存到物品欄</closeall> 來儲存物品，無需開啟您的主面板。<br><br>點擊儲存按鈕後，您會看到主面板右上角的同步狀態顯示 <b><color=hero.cyan>同步中……</closeall>。這會顯示將物品上傳到雲端的進度和百分比。儲存物品的多個副本只會儲存對該物品所做的<b>變更</b>。例如，儲存一個化身，然後以不同的髮色再次儲存同一個化身，只會佔用一個化身副本的儲存空間加上兩個副本之間的差異 - 而不是兩個完整的化身副本。",
 
         "Help.General.Favoriting": "設為偏好",
-        "Help.General.Favoriting.Content": "某些物品可以<b><color=hero.purple>設為偏好</closeall>，例如您的化身、鍵盤和串流鏡頭。這讓您可以用自定義版本取代預設物品。<br><br>如果物品被設為偏好，它在您的 <color=hero.yellow><b>物品欄</closeall> 中會有粉紅色背景。<br><br>請參閱以下 <b><color=hero.yellow>可設為偏好物品</closeall> 列表：",
+        "Help.General.Favoriting.Content": "某些物品可以<b><color=hero.purple>設為偏好</closeall>，例如您的化身、鍵盤和串流鏡頭。這讓您可以用自訂版本取代預設物品。<br><br>如果物品被設為偏好，它在您的 <color=hero.yellow><b>物品欄</closeall> 中會有粉紅色背景。<br><br>請參閱以下 <b><color=hero.yellow>可設為偏好物品</closeall> 列表：",
 
         "Help.General.Favoriting.Home.Content": "您的家園世界 - 您啟動 {appName} 時載入的世界。",
         "Help.General.Favoriting.ProgressBar.Content": "用於匯入 3D 物件、高斯潑濺等檔案時的進度條。",
@@ -3540,7 +3565,7 @@
         "Help.General.Favoriting.Document.Content": "當匯入 PDF 文件時顯示文件的面板。",
 
         "Help.Dashboard": "主面板",
-        "Help.Dashboard.Home.Content": "<sprite name=HomeIcon> <b><color=hero.cyan>首頁</closeall> 標籤頁是您主面板底部的第一個標籤頁。在這裡您可以找到聲音模式選項、左上角的個人資料和線上狀態，以及左下角的個人儲存量，還有其他有用的資訊。您的首頁標籤頁也可以透過在 <b><color=hero.cyan>設定</closeall> 中啟用 <b><color=hero.yellow>UI 編輯模式</closeall> 來自定義。",
+        "Help.Dashboard.Home.Content": "<sprite name=HomeIcon> <b><color=hero.cyan>首頁</closeall> 標籤頁是您主面板底部的第一個標籤頁。在這裡您可以找到聲音模式選項、左上角的個人資料和線上狀態，以及左下角的個人儲存量，還有其他有用的資訊。您的首頁標籤頁也可以透過在 <b><color=hero.cyan>設定</closeall> 中啟用 <b><color=hero.yellow>UI 編輯模式</closeall> 來自訂。",
         "Help.Dashboard.Worlds.Content": "您可以使用此標籤頁加入進行中的活動和瀏覽 <b><color=hero.cyan>世界</closeall>。",
         "Help.Dashboard.Contacts.Content": "在這裡，您可以找到您的 <b><color=hero.green>聯絡人</closeall> 並透過在左上角的文字欄位中輸入來搜尋他們。",
         "Help.Dashboard.Contacts.Content2": "<b><color=hero.cyan>{appName} Bot</closeall> 是一個讓您執行特殊指令的聯絡人。這些指令總是以 <b><color=hero.purple>/</closeall> 斜線開頭。",
@@ -3554,7 +3579,7 @@
         "Help.Dashboard.Desktop.Content": "<b><color=hero.cyan>桌面</closeall> 標籤頁讓您可以查看您的桌面螢幕。<br><br>在指向您的桌面時按下 <b><color=hero.purple>{Context_Menu_Input}</closeall> 會開啟一個選單來開啟您的鍵盤或切換顯示器。",
         "Help.Dashboard.FileBrowser.Content": "使用 <b><color=hero.cyan>檔案</closeall> 標籤頁，您可以瀏覽您電腦的檔案系統、分享檔案和匯入資產。",
         "Help.Dashboard.FileBrowser.Content2": "在視窗頂部有一組用於新增或匯入檔案等功能的按鈕。<br><br>    • <b><color=hero.cyan>匯入</closeall>：選擇檔案後，如果是支援的類型，這將讓您將該檔案匯入到 {appName} 中。<br><br>    • <b><color=hero.orange>以檔案形式匯入</closeall>：選擇檔案後，這讓您以世界內檔案本身的表示形式匯入檔案，讓您可以輕鬆與他人分享或儲存到您的物品欄。<br><br>    • <b><color=hero.green>新增資料夾</closeall>：這讓您可以在您的電腦上建立新資料夾。<br><br>    • <b><color=#7777ff>更新</closeall>：這會更新檔案瀏覽器的內容，以防存在的檔案已更改。",
-        "Help.Dashboard.Settings.Content": "<b><color=hero.cyan>設定</closeall> 標籤頁是您可以找到和自定義設定的地方。{appName} 的所有設定都按以下列表分類。",
+        "Help.Dashboard.Settings.Content": "<b><color=hero.cyan>設定</closeall> 標籤頁是您可以找到和自訂設定的地方。{appName} 的所有設定都按以下列表分類。",
 
         "Help.Dashboard.Settings.Audio.Content": "管理音量、音訊裝置、過濾和音訊無障礙功能。",
         "Help.Dashboard.Settings.Controls.Content": "管理您的控制。",
@@ -3570,8 +3595,8 @@
         "Help.Dashboard.Settings.Misc.Content": "舊版和除錯功能。",
 
         "Help.Dashboard.Exit.Content": "此標籤頁讓您可以退出 {appName}。<br><br><b><color=hero.cyan>退出並儲存我的家園</closeall> 讓您在退出前儲存您的家園，<b><color=hero.red>退出並捨棄我的家園</closeall> 則不會儲存您的家園。",
-        "Help.Dashboard.DashboardCustomization": "主面板自定義",
-        "Help.Dashboard.DashboardCustomization.Content": "有關如何自定義主面板的資訊。",
+        "Help.Dashboard.DashboardCustomization": "主面板自訂",
+        "Help.Dashboard.DashboardCustomization.Content": "有關如何自訂主面板的資訊。",
 
         "Help.Avatars": "化身",
 
@@ -3595,16 +3620,16 @@
         "Help.Advanced.CloudVariables.Content2": "如果您想學習如何建立自己的雲端變數，請參閱下方可用的指令列表。",
         "Help.Advanced.CloudVariables.CloudVariableLink": "雲端變數指令",
 
-        "Help.Advanced.CloudVariables.PrimaryColor": "第一自定義顏色",
-        "Help.Advanced.CloudVariables.PrimaryColor.Content": "這個自定義顏色被預設化身用來為其裝飾、眼睛和嘴巴等金屬裝飾上色。這旨在用於為物品或 UI 上的主要或主顏色裝飾上色。",
-        "Help.Advanced.CloudVariables.SecondaryColor": "第二自定義顏色",
+        "Help.Advanced.CloudVariables.PrimaryColor": "第一自訂顏色",
+        "Help.Advanced.CloudVariables.PrimaryColor.Content": "這個自訂顏色被預設化身用來為其裝飾、眼睛和嘴巴等金屬裝飾上色。這旨在用於為物品或 UI 上的主要或主顏色裝飾上色。",
+        "Help.Advanced.CloudVariables.SecondaryColor": "第二自訂顏色",
         "Help.Advanced.CloudVariables.SecondaryColor.Content": "這是所有使用者可使用的三個顏色中的第二個。這旨在用於為物品或 UI 上的次要顏色裝飾上色。",
-        "Help.Advanced.CloudVariables.TertiaryColor": "第三自定義顏色",
+        "Help.Advanced.CloudVariables.TertiaryColor": "第三自訂顏色",
         "Help.Advanced.CloudVariables.TertiaryColor.Content": "這是所有使用者可使用的三個顏色中的最後一個。這旨在用於為物品或 UI 上的次要顏色裝飾上色。",
-        "Help.Advanced.CloudVariables.ColorsEnabled": "啟用自定義顏色",
-        "Help.Advanced.CloudVariables.ColorsEnabled.Content": "這個變數旨在被使用上述三個顏色的物品或 UI 使用。如果這個變數為 <i>false</i>，則不應使用自定義顏色。",
-        "Help.Advanced.CloudVariables.ColorPickerSwatch": "自定義選色器顏色",
-        "Help.Advanced.CloudVariables.ColorPickerSwatch.Content": "這個自定義顏色是六個顏色中的一個，主要用於選色器。它們分別標記為 <b><color=hero.purple>Color1</closeall> 到 <b><color=hero.purple>Color6</closeall>。",
+        "Help.Advanced.CloudVariables.ColorsEnabled": "啟用自訂顏色",
+        "Help.Advanced.CloudVariables.ColorsEnabled.Content": "這個變數旨在被使用上述三個顏色的物品或 UI 使用。如果這個變數為 <i>false</i>，則不應使用自訂顏色。",
+        "Help.Advanced.CloudVariables.ColorPickerSwatch": "自訂選色器顏色",
+        "Help.Advanced.CloudVariables.ColorPickerSwatch.Content": "這個自訂顏色是六個顏色中的一個，主要用於選色器。它們分別標記為 <b><color=hero.purple>Color1</closeall> 到 <b><color=hero.purple>Color6</closeall>。",
 
         "Help.LinksAndResources": "連結與資源",
         "Help.LinksAndResources.ImportantLinks": "重要連結",
@@ -3762,10 +3787,10 @@
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.GetHeadlessAccessCode.Content": "給您 Headless 客戶端測試版分支存取代碼。要使用此指令，您必須訂閱具有此權益的支持者等級。",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SharedStorage": "共享儲存",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SharedStorage.Content": "與其他使用者或群組共享您的一些儲存空間。儲存量以 GB 為單位（例如 15GB），或百分比量（例如 10%）。要使用此指令，您必須訂閱具有此權益的支持者等級。",
-        "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SetCustom2DBadge": "設定自定義 2D 徽章",
-        "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SetCustom2DBadge.Content": "設定或清除您的自定義 2D 徽章。資產雜湊是指向您要使用的圖片的資料庫連結（例如 resdb://abcdef……）。要使用此指令，您需要訂閱具有此權益的支持者等級。",
-        "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.Custom3DBadge": "自定義 3D 徽章",
-        "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.Custom3DBadge.Content": "設定或清除您的自定義 3D 徽章。徽章 URL 是您在庫存中使用「取得 URL」按鈕時給您的連結。要使用此指令，您需要訂閱具有此權益的支持者等級。",
+        "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SetCustom2DBadge": "設定自訂 2D 徽章",
+        "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.SetCustom2DBadge.Content": "設定或清除您的自訂 2D 徽章。資產雜湊是指向您要使用的圖片的資料庫連結（例如 resdb://abcdef……）。要使用此指令，您需要訂閱具有此權益的支持者等級。",
+        "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.Custom3DBadge": "自訂 3D 徽章",
+        "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.Custom3DBadge.Content": "設定或清除您的自訂 3D 徽章。徽章 URL 是您在庫存中使用「取得 URL」按鈕時給您的連結。要使用此指令，您需要訂閱具有此權益的支持者等級。",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.GetBenefits": "取得權益資訊",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.GetBenefits.Content": "根據您目前的支持者等級，提供您可用的權益和資格。",
         "Help.LinksAndResources.PlatformBotCommands.BenefitCommands.ExitMessages": "離開訊息",
