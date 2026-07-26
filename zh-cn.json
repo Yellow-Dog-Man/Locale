@@ -395,8 +395,8 @@
         "Tools.StreamAudio.PlayForOwner.Off": "为拥有者播放: 禁用",
         "Tools.StreamAudio.PlayForOwner.On": "为拥有者播放: 启用",
 
-        "Options.FreeformDash.On": "仪表盘自由摆放: 启用",
-        "Options.FreeformDash.Off": "仪表盘自由摆放: 禁用",
+        "Options.FreeformDash.On": "仪表板自由摆放: 启用",
+        "Options.FreeformDash.Off": "仪表板自由摆放: 禁用",
         "Options.SeatedMode.On": "坐姿模式: 启用",
         "Options.SeatedMode.Off": "坐姿模式: 禁用",
         "Options.Nameplates.All": "铭牌: 显示所有铭牌",
@@ -1424,7 +1424,7 @@
         "Settings.MessagingPrivacySettings": "通信隐私",
 
         "Settings.LocaleSettings": "语言",
-        "Settings.DashSettings": "仪表盘",
+        "Settings.DashSettings": "仪表板",
         "Settings.NamePlateSettings": "铭牌",
         "Settings.LaserSettings": "互动激光",
         "Settings.DesktopViewSettings": "桌面视角",
@@ -1813,7 +1813,7 @@
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "使用传统世界切换器",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "启用后, 非主手上的应用按钮将打开传统的世界切换器, 用于在活跃世界之间切换。这一功能将来会被更灵活的解决方案所取代。",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "使用传统物品库与会话手势快捷键",
-        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "启用后, 当您按住手柄并按下 A 键（通常会打开/关闭仪表盘）时, 就会打开传统的物品库或会话菜单。",
+        "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "启用后, 当您按住手柄并按下 A 键（通常会打开/关闭仪表板）时, 就会打开传统的物品库或会话菜单。",
 
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "抑制脚步模拟",
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "这是为了让某些功能（例如劫持脚部代理的摆姿系统）能够正常工作, 而无需修改它们。<br><br>如果您在未使用摆姿系统或类似功能的情况下开启此功能, 动画将<b>无法</b>正常显示。请在完成摆姿操作后将其关闭。<br><br><color=hero.red>重要说明: </color> 此设置可能会在将来被移除, 我们建议升级摆姿系统以兼容新系统, 并在激活时自动抑制模拟。",
@@ -1822,7 +1822,7 @@
         "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "启用后, 所有已启用空间化效果的旧版音频内容将自动忽略混响区, 以保持旧版音频系统的限制特性。<br><br>开启此设置并重新加载旧版内容。转换后的旧版内容一旦保存, 该选项将被\"固化\", 后续需手动调整设置。",
 
         "Settings.TwitchInterfaceSettings.ChannelName": "Twitch 频道名",
-        "Settings.TwitchInterfaceSettings.ChannelName.Description": "这将为摄像机仪表盘中的 Twitch 聊天面板设置默认的 Twitch 频道名称。这主要用于希望看到 Twitch 聊天的 Twitch 主播而设计的。",
+        "Settings.TwitchInterfaceSettings.ChannelName.Description": "这将为摄像机仪表板中的 Twitch 聊天面板设置默认的 Twitch 频道名称。这主要用于希望看到 Twitch 聊天的 Twitch 主播而设计的。",
 
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "不要发送已读回执",
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "启用此功能后, 其他玩家将无法看到您何时立即阅读了他们的消息。 您也看不到他们何时阅读了您的消息。",
@@ -1838,11 +1838,11 @@
         "Settings.DashSettings.DashCurvature": "主菜单曲度",
         "Settings.DashSettings.DashCurvature.Description": "此设置可以控制在 VR 模式中主菜单的弯曲程度。将其设置为 0 将使其完全平坦。",
         "Settings.DashSettings.OpenCloseSpeed": "主菜单过渡动画速率",
-        "Settings.DashSettings.OpenCloseSpeed.Description": "用它来调整仪表盘打开和关闭的速度。<br>将其设置为 0 将完全移除动画效果, 使打开/关闭瞬间完成。",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "用它来调整仪表板打开和关闭的速度。<br>将其设置为 0 将完全移除动画效果, 使打开/关闭瞬间完成。",
         "Settings.DashSettings.ScreenSwitchSpeed": "界面切换速度",
-        "Settings.DashSettings.ScreenSwitchSpeed.Description": "调整仪表盘在不同屏幕之间切换的速度（例如首页、好友、会话）。将其设置为 0 将完全移除动画效果, 实现瞬间切换。",
-        "Settings.DashSettings.AllowReplacingSettings": "允许替换设置仪表盘",
-        "Settings.DashSettings.AllowReplacingSettings.Description": "启用后, 您可以在用户界面编辑模式下选择仪表盘上的设置界面组件并将其替换为其他组件。<br><br>如果您希望将单个设置作为界面组件选取, 则需要关闭此设置。建议在您想要将设置用户界面替换为自定义内容时暂时开启, 之后再将其关闭。",
+        "Settings.DashSettings.ScreenSwitchSpeed.Description": "调整仪表板在不同屏幕之间切换的速度（例如首页、好友、会话）。将其设置为 0 将完全移除动画效果, 实现瞬间切换。",
+        "Settings.DashSettings.AllowReplacingSettings": "允许替换设置仪表板",
+        "Settings.DashSettings.AllowReplacingSettings.Description": "启用后, 您可以在用户界面编辑模式下选择仪表板上的设置界面组件并将其替换为其他组件。<br><br>如果您希望将单个设置作为界面组件选取, 则需要关闭此设置。建议在您想要将设置用户界面替换为自定义内容时暂时开启, 之后再将其关闭。",
 
         "Settings.NotificationSettings": "通知",
         "Settings.NotificationSettings.UserOnline": "好友上线",
@@ -1875,20 +1875,20 @@
 
         "Settings.CustomizationSettings": "自定义设置",
         "Settings.CustomizationSettings.UserInterfaceEditMode": "用户界面编辑模式",
-        "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "启用后, 您可以在仪表盘上以及手部和视口的界面组件锚点上（如果已启用）编辑界面组件（模块化用户界面）的位置。<br><br>使用完毕后, 请记得关闭此设置！您也可以使用仪表盘下方的专用按钮将其关闭。",
+        "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "启用后, 您可以在仪表板上以及手部和视口的界面组件锚点上（如果已启用）编辑界面组件（模块化用户界面）的位置。<br><br>使用完毕后, 请记得关闭此设置！您也可以使用仪表板下方的专用按钮将其关闭。",
 
         "Settings.FacetAnchorsSettings": "界面组件锚点",
         "Settings.FacetAnchorsSettings.UseFacetAnchors": "使用界面组件锚点",
-        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "启用后, 您就可以使用右控制器上的应用按钮来切换手臂和前臂上的界面组件锚点。除了主仪表盘外, 这些锚点还提供了放置任何锚点的空间, 以便快速取用。",
+        "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "启用后, 您就可以使用右控制器上的应用按钮来切换手臂和前臂上的界面组件锚点。除了主仪表板外, 这些锚点还提供了放置任何锚点的空间, 以便快速取用。",
         "Settings.FacetAnchorsSettings.AnimationSpeed": "显示/隐藏动画播放速度",
         "Settings.FacetAnchorsSettings.AnimationSpeed.Description": "这决定了切换时界面组件锚点出现和隐藏的速度。",
         "Settings.FacetAnchorsSettings.FacetAnchorToggle": "切换控制器",
-        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "这将控制哪个控制器（左侧或右侧）来切换界面组件锚点。 该仪表盘将与另一个控制器进行切换。",
+        "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "这将控制哪个控制器（左侧或右侧）来切换界面组件锚点。 该仪表板将与另一个控制器进行切换。",
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "显示背景",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "关闭此选项将禁用界面组件锚点的背景视觉效果, 使界面组件本身成为唯一可见的部分。",
 
         "Settings.LaserSettings.AlwaysPrioritizeUserspace": "私有用户界面优先",
-        "Settings.LaserSettings.AlwaysPrioritizeUserspace.Description": "启用后, 您的私有用户界面（如仪表盘、界面组件锚点或键盘）在交互时将始终享有最高优先级, 即使它们被世界内的碰撞体遮挡。<br><br>当世界内的物体阻碍您与私有用户界面 进行交互时, 此功能会非常有帮助。<br><br>请注意, 您可能需要先关闭仪表盘, 才能与您正前方的世界内物品进行交互。",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace.Description": "启用后, 您的私有用户界面（如仪表板、界面组件锚点或键盘）在交互时将始终享有最高优先级, 即使它们被世界内的碰撞体遮挡。<br><br>当世界内的物体阻碍您与私有用户界面 进行交互时, 此功能会非常有帮助。<br><br>请注意, 您可能需要先关闭仪表板, 才能与您正前方的世界内物品进行交互。",
         "Settings.LaserSettings.SmoothSpeed": "激光平滑速度",
         "Settings.LaserSettings.SmoothSpeed.Description": "使用此设置可控制激光对您动作的响应速度。较低的数值会使激光更迟缓, 但能更好地过滤手部震颤。较高的数值则响应更快, 但也会传递更多的控制器抖动。",
         "Settings.LaserSettings.ModulateStartAngle": "调节起始角度",
@@ -1958,7 +1958,7 @@
         "Settings.PhotoCaptureSettings.OpenAutosavePath": "打开本世界自动保存路径",
         "Settings.PhotoCaptureSettings.OpenAutosavePath.Description": "如果您已配置照片自动保存路径, 点击此处将打开您当前所处世界在当前时间对应的物品库存放位置。<br><br>请确保已在本世界中拍摄过照片, 否则此操作将失败, 因为相应文件夹尚不存在！",
         "Settings.PhotoCaptureSettings.CapturePrivateUI": "捕捉自身 UI",
-        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "启用后, 快速照片捕捉将渲染您的私人用户界面（例如主仪表盘）。如果您想展示其中的信息, 这会很有用。<br><br>我们建议您在完成后关闭此设置, 因为保持开启可能导致意外拍摄并泄露您的个人信息。",
+        "Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "启用后, 快速照片捕捉将渲染您的私人用户界面（例如主仪表板）。如果您想展示其中的信息, 这会很有用。<br><br>我们建议您在完成后关闭此设置, 因为保持开启可能导致意外拍摄并泄露您的个人信息。",
         "Settings.PhotoCaptureSettings.EncodeFormat": "照片编码格式",
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "所拍摄照片将被编码成的图像文件格式。如果您需要特定格式的照片, 可以使用此设置选择编码格式。<br><br>请注意, 某些格式可能会缺少某些功能（如透明通道支持）, 编码速度可能明显变慢, 图像质量可能降低, 或导致文件体积变大。",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "始终隐藏铭牌",
@@ -2712,7 +2712,7 @@
         "Migration.NewTask": "新建迁移任务",
 
         "Migration.LoginModal.Title": "迁移数据？",
-        "Migration.LoginModal.Description": "您希望从另一个账户迁移数据吗？您也可以选择稍后再从仪表盘上的“迁移”标签页执行此操作。",
+        "Migration.LoginModal.Description": "您希望从另一个账户迁移数据吗？您也可以选择稍后再从仪表板上的“迁移”标签页执行此操作。",
         "Migration.LoginModal.OpenMigration": "打开迁移",
         "Migration.LoginModal.Later": "稍后",
         "Migration.LoginResetID.Title": "确定要重置 UserID 吗？",
@@ -2737,7 +2737,7 @@
 
         "Migration.DataSelection.Favorites": "收藏内容（虚拟形象、家、相机、键盘、界面组件）",
 
-        "Migration.DataSelection.Favorites.Description": "这将首先迁移您的家、收藏的虚拟形象、键盘、相机与仪表盘, 这样您就能尽快开始使用它们。<br> <color=red><b>警告: </b></color> 如果您选择了这个选项, 您可能会 <b>失去某些</b> 在迁移前作出的对您收藏内容的更改。",
+        "Migration.DataSelection.Favorites.Description": "这将首先迁移您的家、收藏的虚拟形象、键盘、相机与仪表板, 这样您就能尽快开始使用它们。<br> <color=red><b>警告: </b></color> 如果您选择了这个选项, 您可能会 <b>失去某些</b> 在迁移前作出的对您收藏内容的更改。",
         "Migration.DataSelection.Favorites.OverwriteTitle": "我们应该在迁移时覆写您的收藏夹吗？",
 
         "Migration.DataSelection.Home.Title": "将您原来的家设为默认？",
@@ -2839,7 +2839,7 @@
         "Tutorial.Teleporter.Destinations.PickAnotherSession": "选择其他会话",
         "Tutorial.Teleporter.Destinations.PickPublicSession": "加入公开会话",
 
-        "Tutorial.Teleporter.WorldsTabHint": "您也可以通过仪表盘中的<br>世界浏览器寻找可加入的世界！",
+        "Tutorial.Teleporter.WorldsTabHint": "您也可以通过仪表板中的<br>世界浏览器寻找可加入的世界！",
 
         "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>加入会话失败！:(</color><br><size=66%>但您仍有以下选择: </size>",
 
@@ -2855,9 +2855,9 @@
         "CloudHome.Info.StorageUsed": "已用存储: ",
 
         "CloudHome.Info.DashInfoTab.Title": "欢迎！",
-        "CloudHome.Info.DashInfoDesktop": "先帮您快速进入状态, 有几件事您得知道。按下 Esc 键就能打开您的 <i><color=hero.purple>仪表盘</color></i>——可以把它当成您的桌面或控制仪表盘。<br><br>如果还有点懵, 这个界面会显示一些额外信息来帮您理清思路。点击下面的按钮关掉这条消息。",
-        "CloudHome.Info.DashInfoVR": "先帮您快速进入状态, 有几件事您得知道。按下 B 或 Y 键就能打开您的 <i><color=hero.purple>仪表盘</color></i>——可以把它当成您的桌面或控制仪表盘。<br><br>如果还有点懵, 这个界面会显示一些额外信息来帮您理清思路。点击下面的按钮关掉这条消息。",
-        "CloudHome.Info.DashInfoVRNoButtons": "先帮您快速进入状态, 有几件事您得知道。按住菜单键直到圆圈填满就能打开您的 <i><color=hero.purple>仪表盘</color></i>——可以把它当成您的桌面或控制仪表盘。<br><br>如果还有点懵, 这个界面会显示一些额外信息来帮您理清思路。点击下面的按钮关掉这条消息。",
+        "CloudHome.Info.DashInfoDesktop": "先帮您快速进入状态, 有几件事您得知道。按下 Esc 键就能打开您的 <i><color=hero.purple>仪表板</color></i>——可以把它当成您的桌面或控制仪表板。<br><br>如果还有点懵, 这个界面会显示一些额外信息来帮您理清思路。点击下面的按钮关掉这条消息。",
+        "CloudHome.Info.DashInfoVR": "先帮您快速进入状态, 有几件事您得知道。按下 B 或 Y 键就能打开您的 <i><color=hero.purple>仪表板</color></i>——可以把它当成您的桌面或控制仪表板。<br><br>如果还有点懵, 这个界面会显示一些额外信息来帮您理清思路。点击下面的按钮关掉这条消息。",
+        "CloudHome.Info.DashInfoVRNoButtons": "先帮您快速进入状态, 有几件事您得知道。按住菜单键直到圆圈填满就能打开您的 <i><color=hero.purple>仪表板</color></i>——可以把它当成您的桌面或控制仪表板。<br><br>如果还有点懵, 这个界面会显示一些额外信息来帮您理清思路。点击下面的按钮关掉这条消息。",
 
         "CloudHome.Info.GoToWiki": "前往 Wiki ！",
         "CloudHome.Info.GoToDiscord": "前往 Discord ！",
@@ -2866,17 +2866,17 @@
         "CloudHome.Info.ModerationTab.Content": "安全对我们很重要。如果您需要帮助或者需要举报一位用户, 请在我们的 <u><color=hero.cyan>监管平台</color></u><sprite name=hyperlink>发起工单。<br><br>我们有一支超棒的志愿仲裁团队 <sprite name=modbadge> 在守护社区的安全！如果您有问题或是发现了违规行为, 请尽管发起工单。",
 
         "CloudHome.Info.InventoryTab.Title": "保存您的物品！",
-        "CloudHome.Info.InventoryTab.Content": "在 <i><color=hero.purple>仪表盘</color></i> 中的 <i><color=hero.purple>物品库</color></i> 包含了您保存的物品与虚拟形象。<br><br>在 <i><color=hero.purple>基础</color></i> 文件夹里, 我们准备了一些好玩的东西等着您去折腾！双击就能生成它们！",
+        "CloudHome.Info.InventoryTab.Content": "在 <i><color=hero.purple>仪表板</color></i> 中的 <i><color=hero.purple>物品库</color></i> 包含了您保存的物品与虚拟形象。<br><br>在 <i><color=hero.purple>基础</color></i> 文件夹里, 我们准备了一些好玩的东西等着您去折腾！双击就能生成它们！",
 
         "CloudHome.Info.ToolsTab.Title": "世界内编辑！",
         "CloudHome.Info.ToolsTab.Content": "{appName} 的一大特点就是能在游戏中轻松创造和修改东西。<br><br>没错, 就在这里！其实在哪都行！您可以在物品库的 <i><color=hero.purple>基础 -> 工具</color></i> 里找到各种编辑世界的工具, 想怎么改随您！",
 
         "CloudHome.Info.HelpTab.Title": "获得帮助",
         "CloudHome.Info.HelpTab.InfoLineOne": "需要帮助？查看我们的 <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, 或者询问以获得解答。",
-        "CloudHome.Info.HelpTab.InfoLineTwo": "在我们的 <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> 中提问吧。很方便的是, 通过仪表盘中的 <i><color=hero.purple>桌面</color></i> 标签页就可以在桌面模式下查看链接。",
+        "CloudHome.Info.HelpTab.InfoLineTwo": "在我们的 <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink> 中提问吧。很方便的是, 通过仪表板中的 <i><color=hero.purple>桌面</color></i> 标签页就可以在桌面模式下查看链接。",
 
         "CloudHome.Info.UsersTab.Title": "查找用户",
-        "CloudHome.Info.UsersTab.Content": "公共会话会是让您沉浸在社区氛围中的一个好去处！<br><br>您可以在仪表盘中的 <i><color=hero.purple>世界</color></i> 标签页找到可以立即加入的公共会话。快去看看吧！",
+        "CloudHome.Info.UsersTab.Content": "公共会话会是让您沉浸在社区氛围中的一个好去处！<br><br>您可以在仪表板中的 <i><color=hero.purple>世界</color></i> 标签页找到可以立即加入的公共会话。快去看看吧！",
 
         "Mirror.Header.RenderingOptions": "渲染选项",
         "Mirror.Header.Type": "镜子类型",
@@ -2987,15 +2987,15 @@
         "Tutorial.Panel.TeleportLocomotion.Title": "传送移动方式",
         "Tutorial.Panel.TeleportLocomotion.Content": "立即将您传送至传送指示器位置。",
 
-        "Tutorial.DashboardInfo.Header": "您的仪表盘",
-        "Tutorial.DashboardInfo.Content": "您的<b><color=hero.cyan>仪表盘</closeall>是主菜单——通过它, 您可以与他人交流、探索新世界, 还能享受更多功能！<br><br>如需更多帮助, 请查看<b><color=hero.purple>帮助标签页</color></b>。",
+        "Tutorial.DashboardInfo.Header": "您的仪表板",
+        "Tutorial.DashboardInfo.Content": "您的<b><color=hero.cyan>仪表板</closeall>是主菜单——通过它, 您可以与他人交流、探索新世界, 还能享受更多功能！<br><br>如需更多帮助, 请查看<b><color=hero.purple>帮助标签页</color></b>。",
         "Tutorial.DashboardInfo.GotIt": "知道了！",
 
         "Tutorial.MentorPanel.Title": "需要帮助？",
         "Tutorial.MentorPanel.Content": "寻找头顶有这枚徽章的玩家——向他们求助吧, 他们就是专程为<i>您</i>而来的！",
 
         "Tutorial.HelpTabPanel.Title": "需要帮助？",
-        "Tutorial.HelpTabPanel.Content": "在您的仪表盘中, 有一个帮助选项板块来浏览有关 {appName} 的信息！",
+        "Tutorial.HelpTabPanel.Content": "在您的仪表板中, 有一个帮助选项板块来浏览有关 {appName} 的信息！",
 
         "Hints.Spawn.InitialMovementDesktop": "使用移动键位来四处移动！",
         "Hints.Spawn.InitialMovementVR": "使用摇杆来四处行走！",
@@ -3042,9 +3042,9 @@
 
         "Hints.Sundial.Doorway": "进入以继续！",
 
-        "Hints.DashboardDesktop": "按 ESC 键打开或关闭仪表盘！",
-        "Hints.DashboardVR": "按菜单键打开或关闭仪表盘！",
-        "Hints.DashboardExtra": "下方提供关于仪表盘的额外信息。",
+        "Hints.DashboardDesktop": "按 ESC 键打开或关闭仪表板！",
+        "Hints.DashboardVR": "按菜单键打开或关闭仪表板！",
+        "Hints.DashboardExtra": "下方提供关于仪表板的额外信息。",
 
         "Hints.Teleporter": "踏上传送器, 选择下一个目的地！",
         "Hints.TeleporterExtra": "无论去哪, 在 {appName} 玩得开心！",
@@ -3347,24 +3347,24 @@
         "Help.GettingStarted.AvatarBasics.Equipping": "装备",
         "Help.GettingStarted.AvatarBasics.Equipping.Content": "<b><color=hero.purple>虚拟形象</closeall>在 {appName} 中如同服装——可随时更换任意虚拟形象, 您可拥有多个形象或将其生成到世界中！<br><br>装备方式: {is_desktop, select, True {} other { 先按<b><color=hero.purple>{Primary_Input}</closeall>显示激光, }}瞄准虚拟形象{is_desktop, select, True {} other { 后}}按<b><color=hero.purple>{Primary_Input}</closeall>{is_desktop, select, True {} other { 键}}, 在菜单中选择<sprite name=EquipAvatar> <b><color=hero.green>装备虚拟形象</closeall>。现在您已装备该虚拟形象！",
         "Help.GettingStarted.AvatarBasics.Equipping.Content2": "另外一种方法: 按<b><color=hero.purple>{Grip_Input}</closeall>抓住虚拟形象, {is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>打开<b><color=hero.cyan>上下文菜单</closeall>, 选择<sprite name=EquipAvatar> <b><color=hero.green>装备虚拟形象</closeall>。",
-        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard": "打开仪表盘",
-        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content": "若要将当前虚拟形象设置为加载后的默认虚拟形象, 需通过<b><color=hero.cyan>仪表盘</closeall>操作——这是集聊天、物品库管理、世界探索于一体的控制中心。<br><br>开关方式: {is_using_vive_wands, select, True{长按 } other{}}<b><color=hero.purple>{Menu_Input}</closeall>{is_using_vive_wands, select, True{ 待圆环满后释放} other{}}。",
+        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard": "打开仪表板",
+        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content": "若要将当前虚拟形象设置为加载后的默认虚拟形象, 需通过<b><color=hero.cyan>仪表板</closeall>操作——这是集聊天、物品库管理、世界探索于一体的控制中心。<br><br>开关方式: {is_using_vive_wands, select, True{长按 } other{}}<b><color=hero.purple>{Menu_Input}</closeall>{is_using_vive_wands, select, True{ 待圆环满后释放} other{}}。",
         "Help.GettingStarted.AvatarBasics.CreatingAFolder": "创建文件夹",
-        "Help.GettingStarted.AvatarBasics.CreatingAFolder.Content": "仪表盘有多个标签页和丰富的功能。其中之一就是将物品和虚拟形象保存到您的个人物品库。在 {appName} 中, 良好的物品库组织至关重要, 因此首先为您的虚拟形象创建一个文件夹。<br><br>在仪表盘<b><color=hero.yellow>物品库</closeall>界面顶部点击<sprite name=SaveIcon> <b><color=hero.cyan>创建文件夹</closeall>, 命名后选择<b><color=hero.green>创建</closeall>——系统将自动进入新文件夹。",
+        "Help.GettingStarted.AvatarBasics.CreatingAFolder.Content": "仪表板有多个标签页和丰富的功能。其中之一就是将物品和虚拟形象保存到您的个人物品库。在 {appName} 中, 良好的物品库组织至关重要, 因此首先为您的虚拟形象创建一个文件夹。<br><br>在仪表板<b><color=hero.yellow>物品库</closeall>界面顶部点击<sprite name=SaveIcon> <b><color=hero.cyan>创建文件夹</closeall>, 命名后选择<b><color=hero.green>创建</closeall>——系统将自动进入新文件夹。",
         "Help.GettingStarted.AvatarBasics.Saving": "保存",
         "Help.GettingStarted.AvatarBasics.Saving.Content": "保存当前虚拟形象: 进入<sprite name=InventoryIcon> <b><color=hero.yellow>物品库</closeall>, 点击<b><color=hero.cyan>保存虚拟形象</closeall>, 该虚拟形象将存入当前文件夹。",
         "Help.GettingStarted.AvatarBasics.Saving.Content2": "保存未装备的虚拟形象: {is_desktop, select, True {注视虚拟形象并} other {}}长按<b><color=hero.purple>{Grip_Input}</closeall>抓住, 在物品库点击<color=hero.green><b>保存手持物品</b></color>。",
-        "Help.GettingStarted.AvatarBasics.Saving.Content3": "抓住虚拟形象时{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>, 选择<sprite name=SaveIcon> <b><color=hero.Cyan>保存至物品库</closeall>可直接保存（无需打开仪表盘）。",
+        "Help.GettingStarted.AvatarBasics.Saving.Content3": "抓住虚拟形象时{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>, 选择<sprite name=SaveIcon> <b><color=hero.Cyan>保存至物品库</closeall>可直接保存（无需打开仪表板）。",
         "Help.GettingStarted.AvatarBasics.Wearing": "装备",
         "Help.GettingStarted.AvatarBasics.Wearing.Content": "在物品库{is_desktop, select, True {单击} other {按<b><color=hero.purple>{Primary_Input}</closeall>}}选中虚拟形象, 点击窗口左上角<sprite name=EquipIcon> <b><color=hero.purple>装备虚拟形象</closeall>替换当前虚拟形象。",
         "Help.GettingStarted.AvatarBasics.Favoriting": "设为默认",
         "Help.GettingStarted.AvatarBasics.Favoriting.Content": "设为<b><color=hero.orange>默认</closeall>虚拟形象: {is_desktop, select, True {单击} other {按<b><color=hero.purple>{Primary_Input}</closeall>}}选中虚拟形象, 点击顶部<sprite name=LocationPinIcon> <b><color=hero.orange>设为默认虚拟形象</closeall>。默认项以粉色背景标识, 再次点击可取消默认。",
         "Help.GettingStarted.AvatarBasics.FindingMoreAvatars": "寻找更多虚拟形象",
-        "Help.GettingStarted.AvatarBasics.FindingMoreAvatars.Content": "{appName} 有丰富多样的虚拟形象, 既有 {appName} 官方制作, 也有社区创作。您可以在各种世界中找到这些虚拟形象: 首先前往仪表盘底部的<sprite name=WorldsIcon> <b><color=hero.cyan>世界</closeall>标签页。左侧是分类列表——选择<color=hero.green><sprite name=AvatarsIcon> <b>虚拟形象</closeall>分类, 即可浏览含有虚拟形象的世界。",
+        "Help.GettingStarted.AvatarBasics.FindingMoreAvatars.Content": "{appName} 有丰富多样的虚拟形象, 既有 {appName} 官方制作, 也有社区创作。您可以在各种世界中找到这些虚拟形象: 首先前往仪表板底部的<sprite name=WorldsIcon> <b><color=hero.cyan>世界</closeall>标签页。左侧是分类列表——选择<color=hero.green><sprite name=AvatarsIcon> <b>虚拟形象</closeall>分类, 即可浏览含有虚拟形象的世界。",
 
         "Help.GettingStarted.ExploringWorlds": "探索世界",
         "Help.GettingStarted.ExploringWorlds.WorldBrowser": "世界浏览器",
-        "Help.GettingStarted.ExploringWorlds.WorldBrowser.Content": "{appName} 拥有丰富多样的世界供您探索！要浏览可用世界, 请前往仪表盘上的<sprite name=WorldsIcon> <b><color=hero.cyan>世界</closeall>标签页。左侧有若干世界分类可帮助缩小搜索范围, 如果您在寻找特定内容, 可以使用顶部的搜索栏。<br><br>如果您想寻找可以与他人相聚社交的世界, 请查看<b><color=hero.cyan>进行中会话</closeall>分类！<br><br>您创建过或已保存到物品库中的世界会出现在<b><color=hero.cyan>我的世界</closeall>分类中。",
+        "Help.GettingStarted.ExploringWorlds.WorldBrowser.Content": "{appName} 拥有丰富多样的世界供您探索！要浏览可用世界, 请前往仪表板上的<sprite name=WorldsIcon> <b><color=hero.cyan>世界</closeall>标签页。左侧有若干世界分类可帮助缩小搜索范围, 如果您在寻找特定内容, 可以使用顶部的搜索栏。<br><br>如果您想寻找可以与他人相聚社交的世界, 请查看<b><color=hero.cyan>进行中会话</closeall>分类！<br><br>您创建过或已保存到物品库中的世界会出现在<b><color=hero.cyan>我的世界</closeall>分类中。",
         "Help.GettingStarted.ExploringWorlds.Categories": "分类筛选",
         "Help.GettingStarted.ExploringWorlds.Categories.Content": "轻松缩小世界搜索范围——在<sprite name=WorldsIcon> <b><color=hero.cyan>世界</closeall>标签页的左侧, 您可以找到一系列分类帮助您开始浏览。这些分类基于世界所分配的<b><color=hero.yellow>标签</closeall>进行筛选。<br><br>如果您想进行更精细的搜索, 分类列表底部有<sprite name=SettingsIcon> <b><color=hero.Cyan>自定义</closeall>按钮, 可为您提供一系列高级筛选选项。",
         "Help.GettingStarted.ExploringWorlds.BrowserInformation": "世界信息",
@@ -3374,19 +3374,19 @@
         "Help.GettingStarted.ExploringWorlds.JoiningASession": "加入会话",
         "Help.GettingStarted.ExploringWorlds.JoiningASession.Content": "要加入会话, {is_desktop, select, True {单击} other {按<b><color=hero.purple>{Primary_Input}</closeall>}}选中世界预览, 然后点击<b><color=hero.cyan>加入</closeall>。系统将开始加载您进入该世界, 这可能需要片刻时间。<br><br>请注意, 您仍会留在原来的世界中, 因为在 {appName} 中您可以同时处于多个会话中, 并在它们之间快速切换。",
         "Help.GettingStarted.ExploringWorlds.SessionManagement": "会话管理",
-        "Help.GettingStarted.ExploringWorlds.SessionManagement.Content": "在仪表盘底部<sprite name=SessionIcon> <b><color=hero.cyan>会话</closeall>标签页右侧设置访问权限: <br><br>• <color=hero.red><b>私有（仅邀请）</b></color><br>• <color=hero.orange><b>局域网</b></color><br>• <color=hero.yellow><b>好友</b></color><br>• <color=hero.green><b>好友+</b></color><br>• <color=hero.cyan><b>注册用户</b></color><br>• <color=hero.purple><b>公开</b></color>",
+        "Help.GettingStarted.ExploringWorlds.SessionManagement.Content": "在仪表板底部<sprite name=SessionIcon> <b><color=hero.cyan>会话</closeall>标签页右侧设置访问权限: <br><br>• <color=hero.red><b>私有（仅邀请）</b></color><br>• <color=hero.orange><b>局域网</b></color><br>• <color=hero.yellow><b>好友</b></color><br>• <color=hero.green><b>好友+</b></color><br>• <color=hero.cyan><b>注册用户</b></color><br>• <color=hero.purple><b>公开</b></color>",
         "Help.GettingStarted.ExploringWorlds.WorldsToSee": "推荐世界",
         "Help.GettingStarted.ExploringWorlds.WorldsToSee.Content": "推荐探索<b><color=hero.cyan>MMC （元宇宙创作者比赛）</closeall>与<b><color=hero.cyan>精选世界</closeall>分类！",
 
         "Help.GettingStarted.YourContacts": "好友",
         "Help.GettingStarted.YourContacts.FindingContacts": "查找好友",
-        "Help.GettingStarted.YourContacts.FindingContacts.Content": "在 {appName} 中, 您可以将其他用户添加为<b><color=hero.green>好友</closeall>, 从而查看并加入他们所在的世界、互相发送消息等。<br><br>要查看您的好友列表, 请前往仪表盘上的<sprite name=ContactsIcon> <b><color=hero.green>好友</closeall>标签页。",
+        "Help.GettingStarted.YourContacts.FindingContacts.Content": "在 {appName} 中, 您可以将其他用户添加为<b><color=hero.green>好友</closeall>, 从而查看并加入他们所在的世界、互相发送消息等。<br><br>要查看您的好友列表, 请前往仪表板上的<sprite name=ContactsIcon> <b><color=hero.green>好友</closeall>标签页。",
         "Help.GettingStarted.YourContacts.ContactsBrowser": "好友浏览器",
         "Help.GettingStarted.YourContacts.ContactsBrowser.Content": "在<sprite name=ContactsIcon> <b><color=hero.green>好友</closeall>标签页的左侧, 您可以看到所有好友的列表, 以及用于查找特定玩家的搜索栏。右侧显示选定好友的信息和可执行的操作。",
         "Help.GettingStarted.YourContacts.Searching": "搜索好友",
         "Help.GettingStarted.YourContacts.Searching.Content": "正在寻找某个特定的好友, 或者想添加新的好友？在左上角的搜索栏中输入他们的名称即可！随着您的输入, 系统会实时显示与您输入名称相匹配的玩家供您选择。",
         "Help.GettingStarted.YourContacts.AddingAContact": "添加好友",
-        "Help.GettingStarted.YourContacts.AddingAContact.Content": "找到您要找的玩家了？选中他们可以在仪表盘顶部看到可执行的操作。如果您想将该用户添加为好友, 请使用<b><color=hero.purple>添加好友</closeall>按钮发送好友请求！如果对方接受, 他们将出现在您的好友列表中, 您可以给他们发送消息并加入他们所在的世界。",
+        "Help.GettingStarted.YourContacts.AddingAContact.Content": "找到您要找的玩家了？选中他们可以在仪表板顶部看到可执行的操作。如果您想将该用户添加为好友, 请使用<b><color=hero.purple>添加好友</closeall>按钮发送好友请求！如果对方接受, 他们将出现在您的好友列表中, 您可以给他们发送消息并加入他们所在的世界。",
         "Help.GettingStarted.YourContacts.ContactRequests": "好友请求",
         "Help.GettingStarted.YourContacts.ContactRequests.Content": "当有人向您发送好友请求时, 您会收到通知, 请求者会在好友列表左侧显示为<b><color=hero.purple>紫色</closeall>轮廓。您可以通过选中该玩家并选择相应操作来接受或忽略请求。",
         "Help.GettingStarted.YourContacts.Invites": "邀请",
@@ -3396,7 +3396,7 @@
         "Help.GettingStarted.GraphicsSettings.Overview": "概览",
         "Help.GettingStarted.GraphicsSettings.Overview.Content": "{appName} 提供了不断增加的选项列表, 让您可以根据需求调整画质与性能之间的平衡。",
         "Help.GettingStarted.GraphicsSettings.SettingsTab": "设置标签页",
-        "Help.GettingStarted.GraphicsSettings.SettingsTab.Content": "您可以在仪表盘的<sprite name=SettingsIcon> <b><color=hero.purple>设置</closeall>标签页中找到所有图形设置选项, 以及其他各类设置。",
+        "Help.GettingStarted.GraphicsSettings.SettingsTab.Content": "您可以在仪表板的<sprite name=SettingsIcon> <b><color=hero.purple>设置</closeall>标签页中找到所有图形设置选项, 以及其他各类设置。",
         "Help.GettingStarted.GraphicsSettings.GraphicsCategory": "图像分类",
         "Help.GettingStarted.GraphicsSettings.GraphicsCategory.Content": "图像设置位于左侧<sprite name=GraphicsIcon> <b><color=hero.cyan>图像</closeall>分类。",
         "Help.GettingStarted.GraphicsSettings.TextureQuality": "纹理质量",
@@ -3420,9 +3420,9 @@
         "Help.GettingStarted.BuildingBasics.BasicCreationTools": "基础创作工具",
         "Help.GettingStarted.BuildingBasics.BasicCreationTools.Content": "在 {appName} 中开始创作的起点是四大基础工具: <color=hero.green>笔刷</color>、<color=hero.green>形状工具</color>、<color=hero.purple>颜色工具</color>和<color=hero.purple>粘合工具</color>。<br><br>    • <b><color=hero.green>笔刷</closeall>让您像用铅笔在纸上绘画一样在 3D 空间中作画。要使用笔刷绘制, 按住<b><color=hero.purple>{Primary_Input}</closeall>并移动{is_desktop, select, True {鼠标} other {手}}即可。{is_desktop, select, True {} other {部分笔刷会根据您按压<b><color=hero.purple>{Primary_Input}</closeall>的力度改变笔触粗细。}}<br><br>部分笔刷支持抓取尺寸环并左右旋转来调整笔触大小。<br><br>要找到可直接使用的预制笔刷合集, 请在 <b><color=hero.yellow>{appName} Essentials</closeall> 文件夹中查找<b><color=hero.green>Tools/Brushes</closeall>。<br><br>    • <color=hero.green><b>形状工具</b></color>可创建简单 3D 形体。要创建形状, 按住<b><color=hero.purple>{Primary_Input}</closeall>并移动{is_desktop, select, True {鼠标} other {手}}即可创建形体, 松开按钮完成创建。{is_desktop, select, True {} other {按压<b><color=hero.purple>{Primary_Input}</closeall>的力度会改变形体深度。}}<br><br>    • <color=hero.purple><b>颜色工具</b></color>可改变物体颜色。瞄准物体后按<b><color=hero.purple>{Primary_Input}</closeall>选择颜色配置, <b><color=hero.purple>{Grip_Input}</closeall>抓取颜色球移至物体即可染色。{is_desktop, select, True {} other {也可从快捷菜单选颜色。}}<br><br>    • <color=hero.purple><b>粘合工具</b></color>可将物体吸附在一起。按住<b><color=hero.purple>{Primary_Input}</closeall>并移动{is_desktop, select, True {鼠标} other {手}}拖拽一条胶水线连接两个物体, 松手后它们就粘合在一起了！已粘合的物体也可以<b><color=hero.purple>{Primary_Input}</closeall>点击分割线来分离。",
         "Help.GettingStarted.BuildingBasics.SavingYourCreations": "保存作品",
-        "Help.GettingStarted.BuildingBasics.SavingYourCreations.Content": "要保存您的作品, 首先在<b><color=hero.cyan>物品库</color></b>中导航到您想要保存到的文件夹, 然后用<b><color=hero.purple>{Grip_Input}</closeall>抓住物品。握住物品时, 在物品库中点击<color=hero.cyan><b>保存手持物品</b></color>按钮, 即可将物品保存到当前文件夹中。<br><br>抓住物品时, 打开<b><color=hero.Cyan>上下文菜单</closeall>（{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>）并选择<sprite name=SaveIcon> <b><color=hero.green>保存手持物品</closeall>。",
+        "Help.GettingStarted.BuildingBasics.SavingYourCreations.Content": "要保存您的作品, 首先在<b><color=hero.cyan>物品库</color></b>中导航到您想要保存到的文件夹, 然后用<b><color=hero.purple>{Grip_Input}</closeall>抓住物体。抓住物体时, 在物品库中点击<color=hero.cyan><b>保存手持物品</b></color>按钮, 即可将物品保存到当前文件夹中。<br><br>抓住物体时, 打开<b><color=hero.Cyan>上下文菜单</closeall>（{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>）并选择<sprite name=SaveIcon> <b><color=hero.green>保存手持物品</closeall>。",
         "Help.GettingStarted.BuildingBasics.ImportingFiles": "导入文件",
-        "Help.GettingStarted.BuildingBasics.ImportingFiles.Content": "{appName} 支持多种文件格式, 可直接导入世界并保存至您的物品库。<br><br>要导入文件, 您可以将文件从桌面拖放到 {appName} 窗口中, 也可以从系统文件浏览器中复制文件, 然后使用 <nobr><b><color=hero.purple>Ctrl+V</color></b></nobr> 或仪表盘上的<b><color=hero.green>粘贴剪贴板内容</closeall>按钮粘贴到 {appName} 窗口中, 还可以使用仪表盘的<b><color=yellow>文件</closeall>标签页来查找您的文件。<br><br>导入完成后, 会出现一个<b><color=hero.orange>导入对话框</closeall>, 其中选项根据您导入的文件类型而有所不同。",
+        "Help.GettingStarted.BuildingBasics.ImportingFiles.Content": "{appName} 支持多种文件格式, 可直接导入世界并保存至您的物品库。<br><br>要导入文件, 您可以将文件从桌面拖放到 {appName} 窗口中, 也可以从系统文件浏览器中复制文件, 然后使用 <nobr><b><color=hero.purple>Ctrl+V</color></b></nobr> 或仪表板上的<b><color=hero.green>粘贴剪贴板内容</closeall>按钮粘贴到 {appName} 窗口中, 还可以使用仪表板的<b><color=yellow>文件</closeall>标签页来查找您的文件。<br><br>导入完成后, 会出现一个<b><color=hero.orange>导入对话框</closeall>, 其中选项根据您导入的文件类型而有所不同。",
         "Help.GettingStarted.BuildingBasics.EndlessPossibilities": "无限可能",
         "Help.GettingStarted.BuildingBasics.EndlessPossibilities.Content": "以上展示的工具仅仅是您在 {appName} 中可用于创作的工具的<i>冰山一角</i>, 在 <b><color=hero.yellow>{appName} Essentials</closeall> 文件夹中还有大量工具可供您创造出任何想象得到的内容！",
 
@@ -3452,7 +3452,7 @@
 
         "Help.Controls.Interaction.Lasers": "激光控制",
         "Help.Controls.Interaction.Lasers.LaserGrabbing": "激光抓取",
-        "Help.Controls.Interaction.Lasers.LaserGrabbing.Content": "<b><color=hero.purple>激光</closeall>是您与周围世界进行远程交互的方式。{is_desktop, select, True {移动光标即可显示激光} other {按<b><color=hero.purple>{Primary_Input}</closeall>显示激光}}, 使您可以与物体交互, 如按按钮、抓取物品或装备工具和虚拟形象。<br><br>您可以通过打开<b><color=hero.cyan>上下文菜单</closeall>（{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>）并选择<b><color=hero.cyan>激光状态: 启用</closeall>/<b><color=hero.cyan>激光状态: 禁用</closeall>来启用或禁用{is_desktop, select, True {激光} other {每只手的激光}}。激光禁用后, 它仅会在仪表盘和上下文菜单中显示。",
+        "Help.Controls.Interaction.Lasers.LaserGrabbing.Content": "<b><color=hero.purple>激光</closeall>是您与周围世界进行远程交互的方式。{is_desktop, select, True {移动光标即可显示激光} other {按<b><color=hero.purple>{Primary_Input}</closeall>显示激光}}, 使您可以与物体交互, 如按按钮、抓取物品或装备工具和虚拟形象。<br><br>您可以通过打开<b><color=hero.cyan>上下文菜单</closeall>（{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>）并选择<b><color=hero.cyan>激光状态: 启用</closeall>/<b><color=hero.cyan>激光状态: 禁用</closeall>来启用或禁用{is_desktop, select, True {激光} other {每只手的激光}}。激光禁用后, 它仅会在仪表板和上下文菜单中显示。",
         "Help.Controls.Interaction.Lasers.Reeling": "收放控制",
         "Help.Controls.Interaction.Lasers.Reeling.Content": "调整抓取距离: {is_desktop, select, True {<b><color=hero.purple>滚轮</closeall>} other {<b><color=hero.purple>{Movement_Input}</closeall>}}前后移动。<br>物品移至手部时会自动切换为手部抓取（工具则自动装备）。",
         "Help.Controls.Interaction.Lasers.RotatingObjects": "旋转物体",
@@ -3460,9 +3460,9 @@
         "Help.Controls.Interaction.Lasers.Leveling": "水平校准",
         "Help.Controls.Interaction.Lasers.Leveling.Content": "抓取物体时按<b><color=hero.purple>{Primary_Input}</closeall>可对其进行<b><color=hero.cyan>水平校准</closeall>。这会将物体最接近直立状态的那个面自动对齐到水平位置。",
         "Help.Controls.Interaction.Lasers.FreeformRotation": "自由旋转",
-        "Help.Controls.Interaction.Lasers.FreeformRotation.Content": "您可以在握住物体时锁定其旋转, 改为通过手部动作自由旋转: 双击<b><color=hero.purple>{Primary_Input}</closeall>。此后转动手部将带动物体相对于您的手移动。<br><br>再次双击<b><color=hero.purple>{Primary_Input}</closeall>将返回正常的激光抓取模式。",
+        "Help.Controls.Interaction.Lasers.FreeformRotation.Content": "您可以在抓住物体时锁定其·旋转, 改为通过手部动作自由旋转: 双击<b><color=hero.purple>{Primary_Input}</closeall>。此后转动手部将带动物体相对于您的手移动。<br><br>再次双击<b><color=hero.purple>{Primary_Input}</closeall>将返回正常的激光抓取模式。",
         "Help.Controls.Interaction.Lasers.TogglingLasers": "激光开关",
-        "Help.Controls.Interaction.Lasers.TogglingLasers.Content": "激光挡住了您的东西？您可以通过打开<color=hero.cyan><b>上下文菜单</closeall>（{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>）并选择<b><color=hero.cyan>激光状态: 启用</closeall>/<b><color=hero.cyan>激光状态: 禁用</closeall>来打开或关闭{is_desktop, select, True {您的激光} other {每只手的激光}}。当{is_desktop, select, True {您的} other {某只手的}}激光被禁用时, 它只会在仪表盘和上下文菜单中显示。",
+        "Help.Controls.Interaction.Lasers.TogglingLasers.Content": "激光挡住了您的东西？您可以通过打开<color=hero.cyan><b>上下文菜单</closeall>（{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>）并选择<b><color=hero.cyan>激光状态: 启用</closeall>/<b><color=hero.cyan>激光状态: 禁用</closeall>来打开或关闭{is_desktop, select, True {您的激光} other {每只手的激光}}。当{is_desktop, select, True {您的} other {某只手的}}激光被禁用时, 它只会在仪表板和上下文菜单中显示。",
 
         "Help.Controls.Interaction.Equipping": "装备物品",
         "Help.Controls.Interaction.Equipping.Content": "<b><color=hero.purple>装备</closeall>物品会将其置于您的手中, 使您可以执行操作。要装备一个物体或工具, 用激光瞄准它, 按下<b><color=hero.purple>{Primary_Input}</closeall>, 然后选择<b><color=hero.cyan>装备</closeall>。{is_desktop, select, True {} other {如果您看不到激光, 请先按<b><color=hero.purple>{Primary_Input}</closeall>显示激光, 然后再试一次。}}",
@@ -3492,7 +3492,7 @@
         "Help.Controls.ContextMenu": "上下文菜单",
         "Help.Controls.ContextMenu.Content": "上下文菜单提供根据当前操作变化的实用选项。{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>即可开启。<br>默认显示撤销/重做、切换移动方式、调整大小等快捷选项。<br>您可以用激光逐项选择, 也可以按住<b><color=hero.purple>{Primary_Input}</closeall>在菜单中央并向目标选项方向滑动。<br><br>物品、世界和虚拟形象也可以添加上下文菜单专属选项。",
         "Help.Controls.VRGestures": "VR 手势",
-        "Help.Controls.VRGestures.Content": "{appName} 为 VR 用户提供了若干快捷手势, 可用于快速打开仪表盘、在卡住时重生等。以下是所有可用 VR 手势的列表。请注意, 这些手势只是现有操作的快捷版本——所有列出的功能也可以通过其他方式完成。",
+        "Help.Controls.VRGestures.Content": "{appName} 为 VR 用户提供了若干快捷手势, 可用于快速打开仪表板、在卡住时重生等。以下是所有可用 VR 手势的列表。请注意, 这些手势只是现有操作的快捷版本——所有列出的功能也可以通过其他方式完成。",
         "Help.Controls.VRGestures.EmergencyLeaveWorld": "紧急离开世界",
         "Help.Controls.VRGestures.EmergencyLeaveWorld.Content": "此手势将立即断开您与当前世界的连接。执行方式: 将控制器贴到头部, 按住<b><color=hero.purple>{Context_Menu_Input}</closeall>至少 3 秒。您会感受到控制器的震动, 随断开时间临近, 震动强度逐渐增加。",
         "Help.Controls.VRGestures.EmergencyRespawn": "紧急重生",
@@ -3500,11 +3500,11 @@
         "Help.Controls.VRGestures.ToggleEditMode": "切换编辑模式",
         "Help.Controls.VRGestures.ToggleEditMode.Content": "此手势用于切换<b><color=hero.cyan>编辑模式</closeall>。开启后, 激光和抓取区域将始终显示在您的手上, 直到关闭编辑模式为止。要切换编辑模式, 将控制器贴到头部, 在<i>其中一只</i>控制器上按住<b><color=hero.purple>{Context_Menu_Input}</closeall>, 然后在另一只控制器上双击<b><color=hero.purple>{Context_Menu_Input}</closeall>。",
         "Help.Controls.VRGestures.ToggleUIEditMode": "开关用户界面编辑模式",
-        "Help.Controls.VRGestures.ToggleUIEditMode.Content": "此手势用于切换<b><color=hero.cyan>用户界面编辑模式</closeall>, 该模式允许您添加、移除或编辑仪表盘和虚拟形象界面组件锚点上的界面组件, 同时也可编辑工具的抓取姿势。要切换用户界面编辑模式, 将控制器贴到头部, 在<i>其中一只</i>控制器上按住<b><color=hero.purple>{Menu_Input}</closeall>, 然后在另一只控制器上双击<b><color=hero.purple>{Menu_Input}</closeall>。您也可以通过<b><color=hero.yellow>设置</closeall>中的<sprite name=UserInterfaceIcon> <b><color=hero.purple>用户界面</closeall>分类下的<b><color=hero.cyan>用户界面编辑模式</closeall>开关来启用。",
-        "Help.Controls.VRGestures.ToggleDashboard": "开关仪表盘",
-        "Help.Controls.VRGestures.ToggleDashboard.Content": "此手势用于打开和关闭您的仪表盘。要打开或关闭仪表盘, 将左控制器贴到头部并按<b><color=hero.purple>{Context_Menu_Input}</closeall>。",
+        "Help.Controls.VRGestures.ToggleUIEditMode.Content": "此手势用于切换<b><color=hero.cyan>用户界面编辑模式</closeall>, 该模式允许您添加、移除或编辑仪表板和虚拟形象界面组件锚点上的界面组件, 同时也可编辑工具的抓取姿势。要切换用户界面编辑模式, 将控制器贴到头部, 在<i>其中一只</i>控制器上按住<b><color=hero.purple>{Menu_Input}</closeall>, 然后在另一只控制器上双击<b><color=hero.purple>{Menu_Input}</closeall>。您也可以通过<b><color=hero.yellow>设置</closeall>中的<sprite name=UserInterfaceIcon> <b><color=hero.purple>用户界面</closeall>分类下的<b><color=hero.cyan>用户界面编辑模式</closeall>开关来启用。",
+        "Help.Controls.VRGestures.ToggleDashboard": "开关仪表板",
+        "Help.Controls.VRGestures.ToggleDashboard.Content": "此手势用于打开和关闭您的仪表板。要打开或关闭仪表板, 将左控制器贴到头部并按<b><color=hero.purple>{Context_Menu_Input}</closeall>。",
         "Help.Controls.VRGestures.ToggleFacetAnchors": "开关界面锚点",
-        "Help.Controls.VRGestures.ToggleFacetAnchors.Content": "此手势用于打开和关闭您的面板锚点。要打开或关闭仪表盘, 将右控制器贴到头部并按<b><color=hero.purple>{Context_Menu_Input}</closeall>。",
+        "Help.Controls.VRGestures.ToggleFacetAnchors.Content": "此手势用于打开和关闭您的界面组件锚点。要打开或关闭仪表板, 将右控制器贴到头部并按<b><color=hero.purple>{Context_Menu_Input}</closeall>。",
         "Help.Controls.DesktopControls": "桌面端快捷键",
         "Help.Controls.DesktopControls.Content": "{appName} 桌面版提供了一些快捷操作方式, 帮助您更高效地完成任务。以下是可用的快捷键列表。",
 
@@ -3525,7 +3525,7 @@
 
         "Help.General": "通用功能",
         "Help.General.VoiceMode": "语音模式",
-        "Help.General.VoiceMode.Content": "<color=hero.purple><b>语音模式</closeall>让您可以调整自己被他人听到的方式。<br><br>您可以在<color=hero.purple><b>仪表盘</closeall>的左上角更改当前的语音模式。",
+        "Help.General.VoiceMode.Content": "<color=hero.purple><b>语音模式</closeall>让您可以调整自己被他人听到的方式。<br><br>您可以在<color=hero.purple><b>仪表板</closeall>的左上角更改当前的语音模式。",
         "Help.General.VoiceMode.Broadcast": "广播模式",
         "Help.General.VoiceMode.Broadcast.Content": "此模式让其他用户无论距离您多远或在会话中的任何位置, 都能以相同的音量听到您的声音。这对于让会话中每位用户都获知重要信息或在超大距离上进行交流非常有用。",
         "Help.General.VoiceMode.Shout": "喊话模式",
@@ -3545,14 +3545,14 @@
         "Help.General.OnlineStatus.Offline.Content": "当您未登录时, 将向所有其他用户显示为<b><color=hero.purple>离线</closeall>状态。隐身模式下也会同样显示为离线。",
 
         "Help.General.Saving": "保存机制",
-        "Help.General.Saving.Content": "保存物品后, 您就可以在任何可以生成物品的地方使用它们。<br><br>要保存物品, 首先在<b><color=hero.cyan>物品库</color></b>中导航到您想要保存到的文件夹, 然后用<b><color=hero.purple>{Grip_Input}</closeall>抓住物品。在握住物品的同时, 在物品库中点击<color=hero.green><b>保存手持物品</b></color>按钮即可将该物品保存到当前文件夹中。<br><br>抓住物品时, 打开<b><color=hero.Cyan>上下文菜单</closeall>（{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>）, 选择<sprite name=SaveIcon> <b><color=hero.green>保存手持物品</closeall>。<br>若要将物品保存到指定位置, 按住<b><color=hero.purple>{Grip_Input}</closeall> 抓取物品, 浏览文件夹并在右侧物品预览区域松开它即可。",
+        "Help.General.Saving.Content": "保存物品后, 您就可以在任何可以生成物品的地方使用它们。<br><br>要保存物品, 首先在<b><color=hero.cyan>物品库</color></b>中导航到您想要保存到的文件夹, 然后用<b><color=hero.purple>{Grip_Input}</closeall>抓住物体。在抓住物体的同时, 在物品库中点击<color=hero.green><b>保存手持物品</b></color>按钮即可将该物品保存到当前文件夹中。<br><br>抓住物体时, 打开<b><color=hero.Cyan>上下文菜单</closeall>（{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>）, 选择<sprite name=SaveIcon> <b><color=hero.green>保存手持物品</closeall>。<br>若要将物品保存到指定位置, 按住<b><color=hero.purple>{Grip_Input}</closeall> 抓取物品, 浏览文件夹并在右侧物品预览区域松开它即可。",
 
         "Help.General.Favoriting": "收藏功能",
         "Help.General.Favoriting.Content": "某些物品可以<b><color=hero.purple>收藏</closeall>, 如您的虚拟形象、键盘和直播相机。这样您就可以用自定义版本替代默认物品。<br><br>收藏的物品会在<color=hero.yellow><b>物品库</closeall>中显示<b><color=#ff66cc>粉色背景</closeall>。<br><br>以下为可收藏物品列表: ",
 
         "Help.General.Favoriting.Home.Content": "您的家园世界——启动 {appName} 时自动加载的世界。您可以在此设置您希望每次启动时进入的世界。",
         "Help.General.Favoriting.ProgressBar.Content": "用于显示正在导入的对象的加载进度指示器, 例如 3D 资源、高斯溅射模型等。",
-        "Help.General.Favoriting.AudioStreamController.Content": "当您导入一个音频流时, 系统会显示此音频流仪表盘供您操作。",
+        "Help.General.Favoriting.AudioStreamController.Content": "当您导入一个音频流时, 系统会显示此音频流仪表板供您操作。",
         "Help.General.Favoriting.TextDisplay.Content": "基础文本显示器。",
         "Help.General.Favoriting.VideoPlayer.Content": "当您导入一个视频文件时, 系统将使用此视频播放器进行播放。",
         "Help.General.Favoriting.AudioPlayer.Content": "导入音频文件时系统所使用的音频播放器组件。",
@@ -3564,8 +3564,8 @@
         "Help.General.Favoriting.Hyperlink.Content": "指向网页或外部 URL 的链接, 点击后可打开对应的网页地址。",
         "Help.General.Favoriting.Document.Content": "导入 PDF 文档时用于显示文档内容的查看面板。",
 
-        "Help.Dashboard": "仪表盘",
-        "Help.Dashboard.Home.Content": "<sprite name=HomeIcon> <b><color=hero.cyan>首页</closeall>标签位于仪表盘底部的第一个位置。在这里, 左上角可以找到语音模式、个人资料和在线状态的选项, 左下角显示您的个人存储空间用量, 此外还有其他实用信息。您还可以通过在<b><color=hero.cyan>设置</closeall>中启用<b><color=hero.yellow>用户界面编辑模式</closeall>来自定义首页标签页。",
+        "Help.Dashboard": "仪表板",
+        "Help.Dashboard.Home.Content": "<sprite name=HomeIcon> <b><color=hero.cyan>首页</closeall>标签位于仪表板底部的第一个位置。在这里, 左上角可以找到语音模式、个人资料和在线状态的选项, 左下角显示您的个人存储空间用量, 此外还有其他实用信息。您还可以通过在<b><color=hero.cyan>设置</closeall>中启用<b><color=hero.yellow>用户界面编辑模式</closeall>来自定义首页标签页。",
         "Help.Dashboard.Worlds.Content": "<sprite name=WorldsIcon> <b><color=hero.cyan>世界</closeall>标签: 浏览世界并加入进行中会话。",
         "Help.Dashboard.Contacts.Content": "<sprite name=ContactsIcon> <b><color=hero.green>好友</closeall>标签: 管理社交关系, 顶部搜索框查找玩家。",
         "Help.Dashboard.Contacts.Content2": "<b><color=hero.cyan>{appName} 机器人</closeall>: 特殊命令好友（所有命令以<b><color=hero.purple>/</closeall>开头）。",
@@ -3583,7 +3583,7 @@
 
         "Help.Dashboard.Settings.Audio.Content": "在此管理音量设置、音频设备、音频过滤以及音频相关的辅助功能选项。",
         "Help.Dashboard.Settings.Controls.Content": "在此管理您的控制设置, 包括按键绑定和操作方式。",
-        "Help.Dashboard.Settings.UserInterface.Content": "管理您的用户界面设置, 包括但不限于: 通知的接收方式、语言选项切换、名牌可见性以及仪表盘的相关设置。",
+        "Help.Dashboard.Settings.UserInterface.Content": "管理您的用户界面设置, 包括但不限于: 通知的接收方式、语言选项切换、名牌可见性以及仪表板的相关设置。",
         "Help.Dashboard.Settings.Devices.Content": "在此管理外部设备, 如触觉反馈设备和面部追踪设备等。",
         "Help.Dashboard.Settings.Profile.Content": "在此管理您的身高以及各种状态的显示方式。",
         "Help.Dashboard.Settings.Graphics.Content": "在此管理和优化您的图形设置, 以调整画面效果和性能表现。",
@@ -3595,8 +3595,8 @@
         "Help.Dashboard.Settings.Misc.Content": "包含旧版功能和调试功能的相关设置。",
 
         "Help.Dashboard.Exit.Content": "此标签页用于退出 {appName}。<b><color=hero.cyan>保存家园并退出</closeall>允许您在退出前保存家园, 而<b><color=hero.red>放弃保存并退出</closeall>则不会保存您的家园。",
-        "Help.Dashboard.DashboardCustomization": "仪表盘自定义",
-        "Help.Dashboard.DashboardCustomization.Content": "仪表盘的部分标签页支持自定义, 包含<b><color=hero.cyan>界面组件</closeall>（即标签页上的独立元素）。界面组件可以<b>添加、移除、调整大小和替换</closeall>——这就是自定义标签页的方式。要编辑仪表盘上的界面组件, 请在设置中启用<b><color=hero.cyan>用户界面编辑模式</closeall>, 或使用快捷手势。<br><br>启用用户界面编辑模式后, 仪表盘下方会显示<b>关闭编辑模式</closeall>按钮。在可编辑的标签页上, 界面组件后方会出现<b>网格线</closeall>。用激光瞄准界面组件时会<b>高亮显示</closeall>, 瞄准时长按<b><color=hero.purple>{Grip_Input}</closeall>即可取下组件。握住组件时, 可用<b>激光点击拖拽</closeall>精确选择放置位置。<br><br>操作步骤: 首先启用用户界面编辑模式（通过设置或手势激活）, 然后用射线瞄准组件并长按<b><color=hero.purple>{Grip_Input}</closeall>取下, 最后直接松开放置或用拖拽调整位置和尺寸。",
+        "Help.Dashboard.DashboardCustomization": "仪表板自定义",
+        "Help.Dashboard.DashboardCustomization.Content": "仪表板的部分标签页支持自定义, 包含<b><color=hero.cyan>界面组件</closeall>（即标签页上的独立元素）。界面组件可以<b>添加、移除、调整大小和替换</closeall>——这就是自定义标签页的方式。要编辑仪表板上的界面组件, 请在设置中启用<b><color=hero.cyan>用户界面编辑模式</closeall>, 或使用快捷手势。<br><br>启用用户界面编辑模式后, 仪表板下方会显示<b>关闭编辑模式</closeall>按钮。在可编辑的标签页上, 界面组件后方会出现<b>网格线</closeall>。用激光瞄准界面组件时会<b>高亮显示</closeall>, 瞄准时长按<b><color=hero.purple>{Grip_Input}</closeall>即可取下组件。握住组件时, 可用<b>激光点击拖拽</closeall>精确选择放置位置。<br><br>操作步骤: 首先启用用户界面编辑模式（通过设置或手势激活）, 然后用射线瞄准组件并长按<b><color=hero.purple>{Grip_Input}</closeall>取下, 最后直接松开放置或用拖拽调整位置和尺寸。",
 
         "Help.Avatars": "虚拟形象",
 
