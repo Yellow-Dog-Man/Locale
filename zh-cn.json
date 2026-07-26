@@ -78,7 +78,7 @@
         "Locomotion.Slide.Name": "滑动",
         "Locomotion.Slide.Description": "简单的滑动移动方式, 会在接触表面时吸附, 否则以飞行方式移动。",
 
-        "Interaction.Destroy": "销毁",
+        "Interaction.Destroy": "删除",
         "Interaction.Duplicate": "复制",
         "Interaction.SaveToInventory": "保存到物品库",
         "Interaction.SaveToInventory.NotLoggedIn": "您必须登录才能保存物品。",
@@ -739,10 +739,10 @@
         "Undo.SetField": "将字段 {field_name} 设置为 {value}",
         "Undo.SetReference": "将引用 {ref_name} 设置为 {ref_target}",
         "Undo.Spawn": "生成 {name}",
-        "Undo.Destroy": "销毁 {name}",
+        "Undo.Destroy": "删除 {name}",
         "Undo.SpawnComponent": "在 {slot_name} 上附加 {component_type}",
         "Undo.DuplicateComponent": "组件重复",
-        "Undo.DestroyComponent": "销毁 {slot_name} 上的 {component_type}",
+        "Undo.DestroyComponent": "删除 {slot_name} 上的 {component_type}",
         "Undo.Transform": "{name} 已移动",
         "Undo.Translate": "平移",
         "Undo.TranslateAlongAxis": "沿轴平移",
@@ -752,7 +752,7 @@
         "Undo.ResetScale": "重置缩放",
 
         "Undo.GrabObjects": "抓取物体",
-        "Undo.DestroyGrabbed": "销毁所持物体",
+        "Undo.DestroyGrabbed": "删除所持物体",
         "Undo.DuplicateGrabbed": "复制所持物体",
 
         "Undo.ChangeBoxSize": "变更盒子尺寸",
@@ -790,8 +790,8 @@
         "Tools.Dev.DevMode.On": "开发者模式: 启用",
         "Tools.Dev.OpenInspector": "打开检查器",
         "Tools.Dev.DeselectAll": "全部取消选择",
-        "Tools.Dev.DestroySelected": "销毁所选",
-        "Tools.Dev.ConfirmDestroySelected": "确定销毁所选",
+        "Tools.Dev.DestroySelected": "删除所选",
+        "Tools.Dev.ConfirmDestroySelected": "确定删除所选",
 
         "Tools.Dev.GizmoOptions": "Gizmo 选项",
         "Tools.Dev.SelectParent": "选择父级",
@@ -929,7 +929,7 @@
         "Tools.Rig.SetupTrigIK": "设置三角函数 IK 解算器",
         "Tools.Rig.CreateNew": "创建新骨骼",
         "Tools.Rig.DeselectRig": "取消选择骨骼",
-        "Tools.Rig.DestroyBone": "销毁骨骼",
+        "Tools.Rig.DestroyBone": "删除骨骼",
 
         "ProtoFlux.UI.Call": "调用",
         "ProtoFlux.UI.AsyncCall": "<size=50%>异步</size> 调用",
@@ -1905,10 +1905,10 @@
         "Settings.LaserSettings.ShowInDesktop.Description": "开启后, 在桌面模式下的第一人称视角中, 激光视觉效果将完全呈现在您眼前。",
 
         "Settings.EditSettings": "编辑设置",
-        "Settings.EditSettings.ConfirmComponentDestroy": "确定销毁组件",
-        "Settings.EditSettings.ConfirmComponentDestroy.Description": "启用后, 在检查器中销毁组件前会要求您进行确认。这有助于防止因误操作而意外销毁它们。",
-        "Settings.EditSettings.ConfirmSlotDestroy": "确定销毁插槽",
-        "Settings.EditSettings.ConfirmSlotDestroy.Description": "启用后, 使用开发者工具销毁插槽时会要求您进行确认。这可以防止因误点击而意外销毁对象。",
+        "Settings.EditSettings.ConfirmComponentDestroy": "确定删除组件",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "启用后, 在检查器中删除组件前会要求您进行确认。这有助于防止因误操作而意外删除它们。",
+        "Settings.EditSettings.ConfirmSlotDestroy": "确定删除插槽",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "启用后, 使用开发者工具删除插槽时会要求您进行确认。这可以防止因误点击而意外删除对象。",
 
         "Settings.CursorSettings": "光标设置",
 
@@ -2552,7 +2552,7 @@
         "Wizard.LightSources.SetRange": "设置范围",
         "Wizard.LightSources.Enable": "启动",
         "Wizard.LightSources.Disable": "禁用",
-        "Wizard.LightSources.Destroy": "销毁",
+        "Wizard.LightSources.Destroy": "删除",
 
         "Wizard.CubemapCreator.Title": "立方体贴图创建器",
         "Wizard.CubemapCreator.Textures": "源纹理: ",
