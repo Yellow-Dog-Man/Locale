@@ -2,7 +2,6 @@
     "localeCode": "zh-cn",
     "authors": ["Melnus", "Holy_Water", "huang825172", "modimobeikete", "WARCRAFT11", "flower-elf", "lolosiax"],
     "messages": {
-
         "General.OK": "确定",
         "General.Start": "开始",
         "General.Finish": "结束",
@@ -88,11 +87,11 @@
         "Interaction.Redo": "重做",
         "Interaction.EquipTool": "装备",
         "Interaction.DequipTool": "取消装备",
-        "Interaction.ScalingEnabled": "启用缩放",
-        "Interaction.ScalingDisabled": "禁用缩放",
+        "Interaction.ScalingEnabled": "缩放状态：启动",
+        "Interaction.ScalingDisabled": "缩放状态：关闭",
         "Interaction.ResetScale": "重设比例",
-        "Interaction.LaserEnabled": "启用激光",
-        "Interaction.LaserDisabled": "禁用激光",
+        "Interaction.LaserEnabled": "激光状态：启动",
+        "Interaction.LaserDisabled": "激光状态：关闭",
         "Interaction.Grab.Palm": "抓取：手掌",
         "Interaction.Grab.Precision": "抓取：精准",
         "Interaction.Grab.Auto": "抓取：自动",
@@ -128,20 +127,20 @@
         "Inventory.Share": "分享",
         "Inventory.Unshare": "取消分享",
         "Inventory.SaveAvatar": "保存虚拟形象",
-        "Inventory.Favorite.Home": "设为家",
-        "Inventory.Favorite.ProgressBar": "设为进度条",
-        "Inventory.Favorite.AudioStreamController": "设为音频流控制器",
-        "Inventory.Favorite.TextDisplay": "设为文字显示",
-        "Inventory.Favorite.VideoPlayer": "设为视频播放器",
-        "Inventory.Favorite.AudioPlayer": "设为音频播放器",
-        "Inventory.Favorite.InteractiveCamera": "设为相机",
-        "Inventory.Favorite.Keyboard": "设为键盘",
-        "Inventory.Favorite.Avatar": "设为虚拟形象",
-        "Inventory.Favorite.WorldLoadingIndicator": "设为加载指示器",
-        "Inventory.Favorite.ColorDialog": "设为色盘",
-        "Inventory.Favorite.Hyperlink": "设为超链接显示",
-        "Inventory.Favorite.Document": "设为文档显示",
-        "Inventory.SpawnFacet": "生成Facet",
+        "Inventory.Favorite.Home": "收藏为默认云端家园",
+        "Inventory.Favorite.ProgressBar": "收藏为默认进度条",
+        "Inventory.Favorite.AudioStreamController": "收藏为默认音频流控制器",
+        "Inventory.Favorite.TextDisplay": "收藏为默认文字显示",
+        "Inventory.Favorite.VideoPlayer": "收藏为默认视频播放器",
+        "Inventory.Favorite.AudioPlayer": "收藏为默认音频播放器",
+        "Inventory.Favorite.InteractiveCamera": "收藏为默认相机",
+        "Inventory.Favorite.Keyboard": "收藏为默认键盘",
+        "Inventory.Favorite.Avatar": "收藏为默认虚拟形象",
+        "Inventory.Favorite.WorldLoadingIndicator": "收藏为默认加载指示器",
+        "Inventory.Favorite.ColorDialog": "收藏为默认色盘",
+        "Inventory.Favorite.Hyperlink": "收藏为默认超链接显示",
+        "Inventory.Favorite.Document": "收藏为默认文档显示",
+        "Inventory.SpawnFacet": "生成模块",
 
         "Dash.Screens.Home": "主界面",
         "Dash.Screens.Worlds": "世界",
@@ -188,13 +187,16 @@
         "World.Connection.SyncingInitialState": "同步初始世界状态",
 
         "World.Connection.LNL.DirectIP": "LNL IP 直连<br><size=75%>{address}</size>",
-        "World.Connection.LNL.LNLPoke": "、正在请求 LNL 探测连接",
+        "World.Connection.LNL.LNLPoke": "正在请求 LNL 探测连接",
         "World.Connection.LNL.NATPunchthrough": "LNL NAT 穿透 {n}",
         "World.Connection.LNL.Relay": "LNL 中继",
         "World.Connection.SteamNetworkingSockets": "Steam 网络通讯",
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
-        "World.Error.AccessDenied": "拒绝访问",
+        "World.Connection.NoProtocolsAvailable": "没有可用的连接方法",
+        "World.Connection.AllProtocolsFailed": "所有连接方法失败",
+
+        "World.Error.AccessDenied": "你已被房主或者服务器拉黑，无法进入。",
         "World.Error.SecurityViolation": "发生安全违例",
         "World.Error.OnlyRegisteredUsers": "只允许注册玩家加入",
         "World.Error.OnlyContacts": "仅允许房主的好友加入",
@@ -217,7 +219,7 @@
         "World.Error.WorldCrashDetail": "在尝试更新该世界时遭遇了致命错误",
         "World.Error.Handshake": "握手错误",
         "World.Error.Unknown": "未知错误",
-        "World.Error.FailedToCreateBanAccessKey": "创建封禁秘钥失败",
+        "World.Error.FailedToCreateBanAccessKey": "创建封禁密钥失败",
         "World.Error.UnhandledError": "发生未处理的错误",
 
         "World.Config.Name": "世界名:",
@@ -227,13 +229,17 @@
         "World.Config.SaveOptionsHeader": "保存这个世界:",
         "World.Config.EditMode": "编辑模式:",
         "World.Config.AccessLevelHeader": "谁可以加入这个房间？",
-        "World.Config.AutoKickAFK": "自动踢出AFK玩家:",
-        "World.Config.AutoKickAFKMinutes": "最长AFK时长（分）:",
+        "World.Config.AutoKickAFK": "自动踢出挂机玩家:",
+        "World.Config.AutoKickAFKMinutes": "最长挂机时长（分）:",
         "World.Config.HideFromListing": "不显示在房间列表中",
         "World.Config.Autosave": "自动保存（将覆盖上一次保存):",
         "World.Config.AutosaveInterval": "自动保存间隔（分钟）:",
         "World.Config.CleanupAssets": "清理未使用的资产:",
         "World.Config.CleanupInterval": "清理间隔（秒）:",
+
+        "World.Config.ResoniteLinkHeader" : "Resonite接入器",
+        "World.Config.ResoniteLinkOff" : "Resonite接入器已关闭",
+        "World.Config.ResoniteLinkPort" : "Resonite接入器在 {port} 端口下运行",
 
         "World.Actions.StartSession": "创建房间",
         "World.Actions.Join": "加入",
@@ -264,12 +270,14 @@
         "World.Actions.HostingWarning": "你的设备目前是此房间的主机。如果继续操作，所有的玩家都会从此房间断开连接。",
 
         "World.Actions.GetWorldOrb": "获取世界球",
-        "World.Actions.CopyWorldURL": "复制世界URL",
-        "World.Actions.CopyRecordURL": "复制记录URL",
+        "World.Actions.CopyWorldURL": "复制世界链接",
+        "World.Actions.CopyRecordURL": "复制记录链接",
         "World.Actions.StartCustomSession": "创建自定义房间",
         "World.Actions.ModifyMetadata": "编辑元数据",
         "World.Actions.GetSessionOrb": "获取房间球",
-        "World.Actions.CopySessionURL": "复制房间URL",
+        "World.Actions.CopySessionURL": "复制房间链接",
+
+        "World.Actions.EnableResoniteLink" : "启动Resonite接入器",
 
         "World.Indicator.NoData": "没有数据",
         "World.Indicator.LocalWorld": "本地设备",
@@ -345,8 +353,8 @@
         "World.Filter.BaseSearch": "基础搜索:",
         "World.Filter.ByOwner": "所有者:",
         "World.Filter.UserOwner": "所有者是玩家",
-        "World.Filter.GroupOwner": "所有者是组",
-        "World.Filter.SubmittedToGroup": "提交给组:",
+        "World.Filter.GroupOwner": "所有者是群组",
+        "World.Filter.SubmittedToGroup": "提交给群组:",
         "World.Filter.Featured": "仅精选",
         "World.Filter.MyWorlds": "我的世界",
         "World.Filter.SessionFiltering": "房间过滤:",
@@ -375,7 +383,7 @@
         "Tools.CreateNewWorld": "创建新世界",
         "Tools.Debug": "调试",
         "Tools.StreamAudio": "流音频",
-        "Tools.Setup2FA": "设置2FA",
+        "Tools.Setup2FA": "设置双重验证",
 
         "Tools.StreamAudio.Dialog.Title": "创建音频流",
         "Tools.StreamAudio.Start": "开始流式传输",
@@ -386,8 +394,8 @@
         "Tools.StreamAudio.PlayForOwner.Off": "为拥有者播放: 禁用",
         "Tools.StreamAudio.PlayForOwner.On": "为拥有者播放: 启用",
 
-        "Options.FreeformDash.On": "自由冲刺：启用",
-        "Options.FreeformDash.Off": "自由冲刺：禁用",
+        "Options.FreeformDash.On": "自由调整面板大小：启用",
+        "Options.FreeformDash.Off": "自由调整面板大小：禁用",
         "Options.SeatedMode.On": "坐姿模式：启用",
         "Options.SeatedMode.Off": "坐姿模式：禁用",
         "Options.Nameplates.All": "铭牌: 显示所有铭牌",
@@ -424,22 +432,22 @@
         "Login.InvalidLogin.Description": "检查你的登录信息后再试一次，或者点击“忘记密码？”来进行密码重置",
 
         "Login.MalformedUID": "设备信息无效",
-        "Login.MalformedUID.Description": "尝试重新安装 Resonite， 或者在 {supportUrl} 联系支持人员。",
+        "Login.MalformedUID.Description": "尝试重新安装 Resonite， 或者在 {supportUrl} 联系客服。",
 
         "Login.MissingUID": "设备信息缺失",
-        "Login.MissingUID.Description": "尝试重新安装 Resonite， 或者在 {supportUrl} 联系支持人员。",
+        "Login.MissingUID.Description": "尝试重新安装 Resonite， 或者在 {supportUrl} 联系客服。",
 
         "Login.MissingSecretMachineId": "机器码缺失",
-        "Login.MissingSecretMachineId.Description": "尝试重新安装 Resonite， 或者在 {supportUrl} 联系支持人员。",
+        "Login.MissingSecretMachineId.Description": "尝试重新安装 Resonite， 或者在 {supportUrl} 联系客服。",
 
         "Login.MalformedSecretMachineId": "机器码无效",
-        "Login.MalformedSecretMachineId.Description": "尝试重新安装 Resonite， 或者在 {supportUrl} 联系支持人员。",
+        "Login.MalformedSecretMachineId.Description": "尝试重新安装 Resonite， 或者在 {supportUrl} 联系客服。",
 
         "Register.MissingUID": "设备信息无效",
-        "Register.MissingUID.Description": "尝试重新安装 Resonite， 或者在 {supportUrl} 联系支持人员。",
+        "Register.MissingUID.Description": "尝试重新安装 Resonite， 或者在 {supportUrl} 联系客服。",
 
         "Register.MalformedUID": "设备信息无效",
-        "Register.MalformedUID.Description": "尝试重新安装 Resonite， 或者在 {supportUrl} 联系支持人员。",
+        "Register.MalformedUID.Description": "尝试重新安装 Resonite， 或者在 {supportUrl} 联系客服。",
 
         "Login.MissingLogin": "未提供凭据",
         "Login.MissingLogin.Description": "你是不是忘了填写你的登录信息了？",
@@ -454,16 +462,16 @@
         "Login.EmailNotVerified.Description": "你的邮箱还没验证，请在邮箱里查找我们给你发的邮件。如果没有，确保你检查过垃圾箱。",
 
         "Login.AccountTempLocked": "你的账户已被锁定。",
-        "Login.AccountTempLocked.Description": "请在：{moderationUrl} 联系支持人员。",
+        "Login.AccountTempLocked.Description": "请在：{moderationUrl} 联系客服。",
 
         "Login.AccountBanned": "你的账户已被封禁。",
-        "Login.AccountBanned.Description": "请在：{moderationUrl} 联系支持人员。",
+        "Login.AccountBanned.Description": "请在：{moderationUrl} 联系客服。",
 
         "Login.DuplicateAccount": "重复的账号",
-        "Login.DuplicateAccount.Description": "请在：{moderationUrl} 联系支持人员。",
+        "Login.DuplicateAccount.Description": "请在：{moderationUrl} 联系客服。",
 
         "Login.UnknownError": "未知错误",
-        "Login.UnknownError.Description": "在登录时发生了未知错误。请在 {supportUrl} 联系支持人员。",
+        "Login.UnknownError.Description": "在登录时发生了未知错误。请在 {supportUrl} 联系客服。",
 
         "Register.MissingRequest": "未输入详细注册信息",
         "Register.MissingRequest.Description": "我们无法找到任何注册信息。请确保你在注册时填入了所需的信息。",
@@ -493,7 +501,7 @@
         "Register.InvalidDateOfBirth.Description": "你的出生日期无效",
 
         "Register.UsernameContainsBlockedTerms": "玩家名含有屏蔽词",
-        "Register.UsernameContainsBlockedTerms.Description": "你的玩家名含有屏蔽词。如果你认为这是一个错误，请在 {supportUrl} 联系支持人员。",
+        "Register.UsernameContainsBlockedTerms.Description": "你的玩家名含有屏蔽词。如果你认为这是一个错误，请在 {supportUrl} 联系客服。",
 
         "Register.MissingPassword": "未输入密码",
         "Register.MissingPassword.Description": "你似乎没有提供密码",
@@ -501,14 +509,20 @@
         "Register.InvalidPassword": "无效密码",
         "Register.InvalidPassword.Description": "你的密码无效。 密码必须至少包含 8 个字符，包括 1 个数字、1 个大写字母和 1 个小写字母。",
 
+        "Register.InvalidPromoCode": "邀请码无效",
+        "Register.InvalidPromoCode.Description": "你输入的邀请码无效。请检查拼写后重试。邀请码不区分大小写。",
+
+        "Register.ExpiredPromoCode": "已过期的邀请码",
+        "Register.ExpiredPromoCode.Description": "你输入的邀请码已过期。请尝试使用其他邀请码或将其移除。",
+
         "Register.EmailAlreadyRegistered": "此邮箱已注册",
-        "Register.EmailAlreadyRegistered.Description": "使用此电子邮件的账户已经存在， 如果你忘记了密码，可以点击“忘记密码？”。 或者通过 {supportUrl} 联系支持人员。",
+        "Register.EmailAlreadyRegistered.Description": "使用此电子邮件的账户已经存在， 如果你忘记了密码，可以点击“忘记密码？”。 或者通过 {supportUrl} 联系客服。",
 
         "Register.UsernameAlreadyRegistered": "此玩家名已注册",
-        "Register.UsernameAlreadyRegistered.Description": "使用此玩家名的帐户已经存在， 如果你忘记了密码，可以点击“忘记密码？”。 或者通过 {supportUrl} 联系支持人员。",
+        "Register.UsernameAlreadyRegistered.Description": "使用此玩家名的帐户已经存在， 如果你忘记了密码，可以点击“忘记密码？”。 或者通过 {supportUrl} 联系客服。",
 
         "Register.ErrorCheckingUserId": "检查玩家ID时出错",
-        "Register.ErrorCheckingUserId.Description": "请在 {supportUrl} 联系支持人员。",
+        "Register.ErrorCheckingUserId.Description": "请在 {supportUrl} 联系客服。",
 
         "Recovery.MissingEmail": "未输入电子邮箱",
         "Recovery.MissingEmail.Description": "你似乎没有填写你的邮箱",
@@ -517,10 +531,19 @@
         "Recovery.IncorrectEmail.Description": "你填写了一个错误的用于恢复密码的邮箱。请检查细节后再试一次。",
 
         "Recovery.NoPasswordSetup": "未设置密码",
-        "Recovery.NoPasswordSetup.Description": "请在：{supportUrl} 联系支持人员。",
+        "Recovery.NoPasswordSetup.Description": "请在 {supportUrl} 联系客服。",
 
+        "Register.TooManyRegistrations": "注册次数过多",
+        "Register.TooManyRegistrations.Description": "你近期注册的账号过多。请稍后重试，如果你认为这是系统误判，请在 {supportUrl} 联系客服。",
+
+        "Register.StatusCheckError": "注册状态未知",
+        "Register.StatusCheckError.Description": "你的账号注册申请已提交，但在检查注册状态时出现问题。请稍后尝试登录。",
+
+        "Register.ManualLoginRequired": "需要手动登录",
+        "Register.ManualLoginRequired.Description": "你的账号已注册成功，但在获取会话数据时出现问题。请稍后尝试登录。",
+        
         "Register.UnknownError": "未知错误",
-        "Register.UnknownError.Description": "在注册时发生了未知的错误。 请在 {supportUrl} 联系支持人员。",
+        "Register.UnknownError.Description": "在注册时发生了未知的错误。 请在 {supportUrl} 联系客服。",
 
         "Account.Login": "登录",
         "Account.Logout": "登出",
@@ -553,12 +576,13 @@
         "Account.ErrorPasswordMismatch": "密码不匹配！",
         "Account.ErrorEmailMismatch": "电子邮件不匹配！",
         "Account.ErrorLoginError": "登录错误：",
-        "Account.RegistrationSuccess": "<size=120％>成功！</size><br><br>验证链接已通过电子邮件发送到 {email}。<br><br>保持此房间打开并单击此链接后，你将自动登录。<br><br>如果遇到问题，请通过 {appEmail} 或 {appCommunity} 与我们联系。",
+        "Account.RegistrationSuccess": "<size=120%>成功！</size><br><br>验证链接已通过电子邮件发送到 {email}。<br><br>保持此房间打开并单击此链接后，你将自动登录。<br><br>如果遇到问题，请通过 {appEmail} 或 {appCommunity} 与我们联系。",
         "Account.BirthMonth": "出生月份：",
         "Account.BirthDay": "出生日：",
         "Account.BirthYear": "出生年份：",
         "Account.PoliciesAgreement": "我同意 <color=#22B2FF>服务条款</color> 与 <color=#22B2FF>隐私政策</color>",
         "Account.AlternateMethods": "使用第三方服务登录：",
+        "Account.PromoCode": "邀请码：",
 
         "Account.Saml2.Title": "SAML 2.0",
         "Account.Saml2.Select": "请选择你想使用的 SAML 2.0 服务商：",
@@ -567,29 +591,30 @@
         "Account.TOTP.Title": "两步验证（2FA）",
         "Account.TOTP.Initializing": "正在检查你账户的 2FA 状态...",
         "Account.TOTP.Code.Header": "安全码",
-        "Account.TOTP.Code.Description": "首先，你需要将一个安全码输入你的 2FA 认证应用，例如微软“<b>Authenticator</b>”或“<b>Authy</b>”，它们可以在手机应用商店获取。<br><br>我们建议以扫描二维码的方式输入，但你也可以手动输入。<b>千万不要告诉他人你的安全码。</b><br><br>如果你正在 VR 模式下，你可以通过按下 F8 切换到桌面模式。",
+        "Account.TOTP.Code.Description": "首先，你需要将一个安全码输入到你的双重认证应用，例如微软“<b>Authenticator</b>”或“<b>Authy</b>”，它们可以在手机应用商店获取。<br><br>我们建议以扫描二维码的方式输入，但你也可以手动输入。<b>千万不要告诉他人你的安全码。</b><br><br>如果你正在 VR 模式下，你可以通过按下 F8 切换到桌面模式。",
         "Account.TOTP.Code.QRCode": "扫描二维码",
         "Account.TOTP.Code.Key": "安全码：",
         "Account.TOTP.RecoveryCodes.Header": "恢复码",
         "Account.TOTP.RecoveryCodes.Description": "把这些代码保存在安全的地方。它们可以在你的手机丢失或损坏后，帮助你再次访问你的账户。每条代码只能使用一次。<b>千万不要告诉他人这些代码。</b> 如果你弄丢了它们，你将会 <color=red>永远</color> 失去对你账户的访问权。",
         "Account.TOTP.RecoveryCodes.Codes": "恢复码：",
-        "Account.TOTP.Activate.Header": "激活 2FA",
-        "Account.TOTP.Activate.Description": "要在你的账户上激活 2FA， 请使用你认证应用所产生的六位一次性密码来确保一切工作正常。<br><br>一旦激活，你将需要这些代码来进行特定操作。",
+        "Account.TOTP.Activate.Header": "激活双重认证",
+        "Account.TOTP.Activate.Description": "要在你的账户上激活双重认证， 请使用你认证应用所产生的六位一次性密码来确保一切工作正常。<br><br>一旦激活，你将需要这些代码来进行特定操作。",
         "Account.TOTP.Activate.Token": "六位一次性密码：",
         "Account.TOTP.Activate.TokenField": "在此处输入一次性密码...",
         "Account.TOTP.Activate.Activate": "激活",
         "Account.TOTP.Activate.Activating": "激活中...",
         "Account.TOTP.Activate.InvalidToken": "无效口令！",
-        "Account.TOTP.Message.AlreadySetup": "你的账户已启用 2FA！",
+        "Account.TOTP.Message.AlreadySetup": "你的账户已启用双重认证！",
         "Account.TOTP.Message.Error": "遭遇意外错误！请稍后重试。",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>恭喜！</size><br><br>你的账户已启用 2FA 并享受其带来的额外保护！<br><br>你还可以用 /enableLogin2FA 指令启用此账户登录时的 2FA。",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>恭喜！</size><br><br>你的账户已启用双重认证并享受其带来的额外保护！<br><br>你还可以用 /enableLogin2FA 指令启用此账户登录时的 2FA。",
         "Account.TOTP.Deactivate.Header": "取消 2FA",
-        "Account.TOTP.Deactivate.Description": "目前 2FA 已 <b><color=green>在你的账户上设置并激活</color></b>。如果你需要取消它（例如：你丢失了手机或者恢复码遭泄漏），你可以在此处进行操作。<br><br>取消 2FA 后，你可以再次设置启用它，这将生成一个全新的安全码与一套新的恢复码。<br><br>如果你丢失了手机，且需要再次设置激活 2FA，我们 <b>强烈</b> 建议你马上进行这项操作，因为每条恢复码只能被使用一次，当其耗尽后，你将永远无法访问你的账户。",
+        "Account.TOTP.Deactivate.Description": "目前双重认证已 <b><color=green>在你的账户上设置并激活</color></b>。如果你需要取消它（例如：你丢失了手机或者恢复码遭泄漏），你可以在此处进行操作。<br><br>取消 2FA 后，你可以再次设置启用它，这将生成一个全新的安全码与一套新的恢复码。<br><br>如果你丢失了手机，且需要再次设置激活 2FA，我们 <b>强烈</b> 建议你马上进行这项操作，因为每条恢复码只能被使用一次，当其耗尽后，你将永远无法访问你的账户。",
         "Account.TOTP.Deactivate.Deactivate": "取消",
         "Account.TOTP.Deactivate.Deactivating": "取消中...",
-        "Account.TOTP.Message.DeactivationComplete": "你账户的 2FA 已被成功取消。<br><br>你的账户正因此面临更大的风险！<br><br>我们强烈建议你马上重新设置启用 2FA，特别是当你因丢失手机而使用了恢复码后。",
+        "Account.TOTP.Message.DeactivationComplete": "你账户的双重认证已被成功取消。<br><br>你的账户正因此面临更大的风险！<br><br>我们强烈建议你马上重新设置启用双重认证，特别是当你因丢失手机而使用了恢复码后。",
 
         "Account.Type.Standard": "标准账户",
+        "Account.Type.Promo": "邀请账户",
         "Account.Type.Business": "商用账户",
         "Account.Type.Patreon": "Patreon 支持者",
         "Account.Type.Stripe": "Stripe 支持者",
@@ -599,8 +624,8 @@
 
         "Avatar.Badge.Live": "直播",
 
-        "2FA.Header": "2FA验证",
-        "2FA.Token": "一次性密码：",
+        "2FA.Header": "双重验证",
+        "2FA.Token": "6位数令牌码：",
 
         "Profile.Status.Sociable": "想社交",
         "Profile.Status.Online": "在线",
@@ -623,20 +648,21 @@
         "Session.Permission.PermissionOverrideCount": "权限覆盖: {n,select, -1 {无} other {#}}",
         "Session.Permission.ClearOverrides": "清除权限覆盖项",
 
-        "Session.JoinVerifier.EnableHeader": "激活自定义准入认证？",
-        "Session.JoinVerifier.EnableText": "<color=red>警告：</color> 你将要启用自定义准入认证，其是当前世界的一部分。当你这样做之前，请确保你信任此世界的创建者。因为自定义准入认证器可以绕过标准房间访问规则，并使用其自己的规则允许或阻止玩家进入。",
-        "Session.JoinVerifier.Label": "使用自定义准入认证器： {name}",
+        "Session.JoinVerifier.EnableHeader": "激活自定义加入验证？",
+        "Session.JoinVerifier.EnableText": "<color=red>警告：</color> 你将要启用自定义加入验证，其是当前世界的一部分。当你这样做之前，请确保你信任此世界的创建者。因为自定义加入验证可以绕过标准房间访问规则，并使用其自己的规则允许或阻止玩家进入。",
+        "Session.JoinVerifier.Label": "使用自定义加入验证： {name}",
         "Session.JoinVerifier.ComponentWarning": "<color=red>警告：</color> 目前，并没有机制可以在认证器启用后防止篡改。如果篡改用于认证的 ProtoFlux 设置可能导致问题, 请！不！要！使用这个功能且 不！要！在你的世界中激活它。",
-        "Session.JoinVerifier.SetCustomVerifier": "设为自定义加入请求认证器",
+        "Session.JoinVerifier.SetCustomVerifier": "设为自定义加入请求认证",
 
         "Permissions.NotAllowedToSpawn": "你不可以在此处生成物品",
-        "Permissions.NotAllowedToSave": "你无权在这个世界上保存项目。",
+        "Permissions.NotAllowedToSave": "你没有权限在这个世界上保存物品。",
         "Permissions.NotAllowedToSwapAvatar": "你不允许在此处切换到自定义虚拟形象。",
         "Permissions.SavingDisabledForItem": "保存在此物品上不可用。",
+        "Permissions.NotAllowedToOpen": "你没有权限打开这个。",
 
         "User.Actions.Silence": "全局静音",
         "User.Actions.Mute": "静音",
-        "User.Actions.Jump": "跳跃",
+        "User.Actions.Jump": "传送",
         "User.Actions.Respawn": "重生",
         "User.Actions.Kick": "踢出",
         "User.Actions.Ban": "封禁",
@@ -741,11 +767,18 @@
         "Undo.ExtractMaterialsFromHierarchy": "从层次结构提取材质",
         "Undo.BatchConvertMaterials": "批量转换材质",
 
+        "Undo.AddListElement": "添加元素到列表",
+        "Undo.RemoveListElement": "从列表删除元素",
+
         "Tools.Brush.ChangeColor": "改变颜色",
         "Tools.Brush.IncrementSize": "增大",
         "Tools.Brush.DecrementSize": "缩小",
+        "Tools.Brush.FinishStrokeGroup": "完成设置笔触组",
 
         "Tools.GeometryLineBrush.Name": "几何线条笔刷",
+
+        "Tools.MeshPlaneBrush.Name": "网格平面笔刷",
+        "Tools.MeshPlaneBrush.AddHole": "添加一个洞",
 
         "Tools.Dev.Name": "开发工具",
         "Tools.Dev.CreateNew": "创建新的...",
@@ -848,7 +881,8 @@
         "Tools.ProtoFlux.PackInto": "打包为 <size=50%>{name}</size>",
         "Tools.ProtoFlux.Unpack": "将 <size=50%>{name}</size> 解包",
         "Tools.ProtoFlux.ExplicitCast": "显式转换\n<size=50%>(<color=red>警告：</color> 可能丢失数据)</size>",
-
+        "Tools.ProtoFlux.Wiki": "维基 <size=50%>{node}</size>",
+        
         "Tools.Meter.Mode.Ray": "模式: 激光",
         "Tools.Meter.Mode.Perpendicular": "模式: 垂直",
         "Tools.Meter.Mode.Drag": "模式: 拖拽",
@@ -885,6 +919,14 @@
         "Tools.ControllerDiagnostic.Name": "控制器诊断工具",
 
         "Tools.Labeler.Name": "标签设置工具",
+
+        "Tools.Rig.AddEffector": "添加效应器",
+        "Tools.Rig.RemoveEffector": "移除效应器",
+        "Tools.Rig.SetupFABRIK": "设置 FABRIK IK解算器",
+        "Tools.Rig.SetupTrigIK": "设置三角函数 IK解算器",
+        "Tools.Rig.CreateNew": "创建新骨骼",
+        "Tools.Rig.DeselectRig" : "取消选择骨骼",
+        "Tools.Rig.DestroyBone": "删除骨骼",
 
         "ProtoFlux.UI.Call": "调用",
         "ProtoFlux.UI.AsyncCall": "<size=50%>异步</size> 调用",
@@ -1020,7 +1062,7 @@
         "Importer.Model.CAD": "CAD模型",
         "Importer.Model.PointCloud": "点云",
 
-        "Importer.Model.GaussianSplat": "高斯溅落",
+        "Importer.Model.GaussianSplat": "高斯泼溅",
         "Importer.Model.GaussianSplatVertical": "垂直轴方向",
         "Importer.Model.RegularVertical": "常规模式",
         "Importer.Model.FlipVertical": "翻转Y轴",
@@ -1127,7 +1169,7 @@
         "Importer.UnsupportedRecordType.Description": "你正在尝试导入的数据记录({url}) 类型不受支持。其类型为： {recordType}。请在 {bugUrl}向我们报告。",
         "Importer.Link.Invalid.Heading": "文件夹链接无效",
         "Importer.Link.Invalid.Description": "你正在尝试导入的文件夹链接({url}) 是无效的，请检查一遍后再试一次。",
-        "Inventory.Link.LinkText": "物品栏链接到 {name}",
+        "Inventory.Link.LinkText": "物品栏连接到 {name}",
 
         "Exporter.Title": "导出",
         "Exporter.FileName": "文件名：",
@@ -1186,7 +1228,7 @@
         "FullBody.ShowBodyOverlay": "显示身体叠加",
         "FullBody.HeightCompensationInstructions": "如果人体模型过高（弯曲）或过矮，请调整高度补偿以达到最佳配合。",
         "FullBody.RecalibratePrompt": "追踪器损坏或丢失？",
-        "FullBody.Recalibrate": "再次运行T-Pose校准",
+        "FullBody.Recalibrate": "再次运行T型姿势校准",
         "FullBody.CalibrateAvatarPrompt": "需要调整虚拟形象配合度吗？",
         "FullBody.CalibrateAvatar": "校准我的虚拟形象",
         "FullBody.FinishPrompt": "看起来不错？",
@@ -1360,6 +1402,10 @@
         "Settings.AudioVolumeSettings": "音量",
         "Settings.AudioAccessibilitySettings": "无障碍音频",
         "Settings.AudioInputFilteringSettings": "音频输入过滤",
+
+        "Settings.AudioStreamSettings": "音频流设置",
+        "Settings.AudioStreamSettings.DefaultBitrate": "默认比特率",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "默认设备ID",
 
         "Settings.RealtimeNetworkingSettings": "实时网络通讯",
         "Settings.AssetGatherSettings": "资产获取",
@@ -1790,6 +1836,8 @@
         "Settings.DashSettings.DashCurvature.Description": "此设置可以控制在 VR 模式中主菜单的弯曲程度。将其设置为 0 将使其完全平坦。",
         "Settings.DashSettings.OpenCloseSpeed": "主菜单过渡动画速率",
         "Settings.DashSettings.OpenCloseSpeed.Description": "用它来调整主菜单打开或关闭时过渡动画的速度。如果你不喜欢这种动画效果，可以将其设置为非常高的值，这样面板打开和关闭的速度就会非常快。",
+        "Settings.DashSettings.ScreenSwitchSpeed": "界面切换速度",
+        "Settings.DashSettings.ScreenSwitchSpeed.Description": "调整面板在不同界面（例如主页、好友、房间）之间的切换速度。将其设置为 0 将完全取消动画效果，实现立即切换。",
         "Settings.DashSettings.AllowReplacingSettings": "允许替换设置面板",
         "Settings.DashSettings.AllowReplacingSettings.Description": "启用后，你就可以在 UI 编辑模式下选择面板上的设置面板，并将其替换为另一个面板。\n\n如果你想选取单个设置作为维面，则需要关闭此设置。 建议在你想用自定义替换设置 UI 时暂时打开，然后再禁用。",
 
@@ -1836,6 +1884,8 @@
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "显示背景",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "关闭此选项将禁用维面锚点的背景视觉效果，使维面本身成为唯一可见的部分。",
 
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace": "私有 UI 优先",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace.Description": "启用后，你的私有 UI（如面板、界面锚点或键盘）在交互时将始终享有最高优先级，即使它们被世界内的碰撞体遮挡。<br><br>当世界内的物体阻碍你与私有 UI 进行交互时，此功能会非常有帮助。<br><br>请注意，你可能需要先关闭面板，才能与你正前方的世界内物品进行交互。",
         "Settings.LaserSettings.SmoothSpeed": "激光平滑速度",
         "Settings.LaserSettings.SmoothSpeed.Description": "用它来控制激光对你的动作做出反应的速度。较低的数值会使激光更加迟缓，但能更好地过滤震颤。数值越大，响应速度越快，但也会传递更多的控制器震动。",
         "Settings.LaserSettings.ModulateStartAngle": "调节起始角度",
@@ -1910,6 +1960,8 @@
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "拍摄的照片将被编码成的图像文件格式。请注意，某些格式可能缺乏某些功能（如支持 alpha），编码速度可能会明显变慢，图像质量可能会降低，或导致文件变大。",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "始终隐藏铭牌",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "如果你希望照片中永远不显示铭牌，请将其打开。此设置与当前的铭牌可见性无关，将始终确保铭牌隐藏在拍摄的照片中。",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "总是隐藏 Gizmos",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "开启此选项可以在照片中隐藏任何开发者辅助图形（Gizmos）。这有助于在有人正在编辑物品时，依然能够拍出干净的照片。检查器和 ProtoFlux 仍会保持可见。",
 
         "Settings.DesktopRenderSettings.FieldOfView": "视场",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "在桌面模式下，用它来控制视场（FOV）。 数值越大，视野越开阔，但两侧的失真也越大。",
@@ -2075,11 +2127,10 @@
         "Settings.RendererDecouplingSettings.DeactivationFrames": "停用所需帧数",
         "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "当解耦激活时，此选项指定了在禁用解耦机制前需要渲染多少个稳定帧（帧率高于激活阈值）。这有助于防止该机制因连续的多次卡顿而反复开启和关闭。",
         "Settings.RendererDecouplingSettings.ForceDecouple": "强制解耦",
-        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "开启后，渲染器将被强制持续解耦，并以最快速度渲染新帧，无需等待主引擎。\n\n<color=hero.red>警告！</color> 此功能主要用于调试，以及诊断您是受限于CPU瓶颈还是GPU瓶颈（如果您受限于CPU瓶颈，开启此功能将显著提升帧率），不建议在正常情况下使用。\n\n您可能会遇到严重的卡顿、抖动以及缓慢的资源加载/上传问题。",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "开启后，渲染器将被强制持续解耦，并以最快速度渲染新帧，无需等待主引擎。\n\n<color=hero.red>警告！</color> 此功能主要用于调试，以及诊断你是受限于CPU瓶颈还是GPU瓶颈（如果你受限于CPU瓶颈，开启此功能将显著提升帧率），不建议在正常情况下使用。\n\n你可能会遇到严重的卡顿、抖动以及缓慢的资源加载/上传问题。",
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "最大解耦资源处理时间（毫秒）",
-        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "此选项控制在解耦机制激活时，渲染器用于将资源上传到 GPU 所花费的最长时间。降低此值可能会提高您的最大帧率（例如，在测试最大 GPU 性能时），但可能会降低加载性能，并且在数值过低时可能会导致 UI 更新缓慢。",
-
-
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "此选项控制在解耦机制激活时，渲染器用于将资源上传到 GPU 所花费的最长时间。降低此值可能会提高你的最大帧率（例如，在测试最大 GPU 性能时），但可能会降低加载性能，并且在数值过低时可能会导致 UI 更新缓慢。",
+        
         "Settings.ImportSettings": "导入设置",
         "Settings.ImportSettings.SessionUrls": "导入房间设置时",
         "Settings.ImportSettings.SessionUrls.Description": "当一个房间URL被导入时，会发生什么。可用的选项有：\n\n<color=hero.yellow>Open</color> - 打开房间\n<color=hero.yellow>SpawnInterface</color> - 在当前位置生成URL的表示（例如房间球）。\n<color=hero.yellow>SpawnUrl</color> - 在当前位置生成URL作为URL接口。",
@@ -2163,6 +2214,7 @@
         "Inspector.Member.SplitBlendshape.X": "在 X 轴上分割形态键",
         "Inspector.Member.SplitBlendshape.Y": "在 Y 轴上分割形态键",
         "Inspector.Member.SplitBlendshape.Z": "在 Z 轴上分割形态键",
+        "Inspector.Member.SplitBlendshapeToStaticMesh": "分离形态键为静态网格",
 
         "Inspector.ProceduralAsset.UpdateCount": "更新次数： {n}",
         "Inspector.ProceduralAsset.Error": "错误： {error}",
@@ -2364,9 +2416,9 @@
         "Inspector.Audio.FadeIn": "添加淡入",
         "Inspector.Audio.FadeOut": "添加淡出",
         "Inspector.Audio.MakeLoopable": "使可循环（使用交叉淡入淡出）",
-        "Inspector.Audio.ToWAV": "转换为WAV",
-        "Inspector.Audio.ToVorbis": "转换为OGG Vorbis",
-        "Inspector.Audio.ToFLAC": "转换为FLAC",
+        "Inspector.Audio.ToWAV": "转换为WAV格式",
+        "Inspector.Audio.ToVorbis": "转换为OGG Vorbis格式",
+        "Inspector.Audio.ToFLAC": "转换为FLAC格式",
         "Inspector.Audio.DenoiseRNNoise": "降噪（RNNoise，针对48 kHz语音进行了优化）",
         "Inspector.Audio.ExtractSides": "提取侧面（可以删除立体声轨道上的人声）",
 
@@ -2404,6 +2456,10 @@
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>警告!</size></color><br>Facet预设将会在我们发布新版本的时候自动更新。如果你在用自定义版本呢，我们建议删除这个组件。",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>警告！</size></color> 本组件并非用作安全/资产防盗保护系统。其设计初衷仅适用于因玩法或设计需求需屏蔽简易保存方式的场景。该组件可被轻易绕过，且在任何情况下都不会增强其安全性。",
 
+        "Inspector.NewSystem.Warning": "<color=red><size=125%>警告！</size></color><br> 该组件是新添加系统的一部分，目前仍在开发中。虽然我们欢迎你开始尝试使用它，但请注意，我们可能会对其进行破坏性更改，届时将需要你更新你的内容。<br><br>如果你想确保使用它构建的任何内容具有长期的兼容性，请等待此提示消失。",
+        
+        "Inspector.AI_GeneratedContent.Info": "此组件旨在标记由AI生成的内容。建议将其置于通过这些方法生成的对象的最顶层。这样，在保存物品时以及在包含这些组件的情况下保存世界时，都会自动添加标签，从而能够对这些内容进行筛选。",
+
         "Inspector.ParticleSystem.BasicInfo": "粒子： {count}， 帧率： {fps}， 模拟时间： {time}， 提交时间： {renderSubmitTime}， 渲染分配： {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "尾迹： {trailCount} (容量： {trailCapacity}), 尾迹点容量： {trailPointCapacity}",
 
@@ -2427,11 +2483,27 @@
         "Inspector.SimpleAwayIndicator.TestAway": "设为离开（调试）",
         "Inspector.SimpleAwayIndicator.TestRestore": "返回正常（调试）",
 
+        "Inspector.FingerReferencePoseSource.AssignFromBipedRig": "从双足骨骼分配",
+        "Inspector.FingerReferencePoseSource.CaptureMyLeftHand": "捕捉我的左手",
+        "Inspector.FingerReferencePoseSource.CaptureMyRightHand": "捕捉我的右手",
+        "Inspector.BipedRig.GenerateStaticFingerPoseCode": "将静态手指姿势复制到剪贴板",
+        "Inspector.FingerReferencePoseSource.CaptureReference": "从引用中捕捉",
+
         "Inspector.Fields.Drive": "驱动",
         "Inspector.Fields.DriveWriteBack": "驱动 <size=50%>（回写）</size>",
 
         "Inspector.Actions.CopyComponent": "拷贝组件",
         "Inspector.Actions.MoveComponent": "移动组件",
+
+        "Inspector.Actions.CopyName": "复制名字",
+        "Inspector.Actions.CopyTag": "复制标签",
+        "Inspector.Actions.CopyGlobalPosition": "复制全局位置",
+        "Inspector.Actions.CopyLocalPosition": "复制本地位置",
+        "Inspector.Actions.CopyGlobalScale": "复制全局缩放大小",
+        "Inspector.Actions.CopyLocalScale": "复制本地缩放大小",
+        "Inspector.Actions.CopyGlobalRotation": "复制全局旋转值",
+        "Inspector.Actions.CopyLocalRotation": "复制本地旋转值",
+        "Inspector.Actions.CopyOrderOffset": "复制顺序偏移",
 
         "Inspector.Wizard.PackTexture": "打包贴图",
         "Inspector.Wizard.UnpackTexture": "解包贴图",
@@ -2478,7 +2550,7 @@
         "Wizard.LightSources.Enable": "启动",
         "Wizard.LightSources.Disable": "禁用",
         "Wizard.LightSources.Destroy": "删除",
-        
+
         "Wizard.CubemapCreator.Title": "立方体贴图创建器",
         "Wizard.CubemapCreator.Textures": "源纹理：",
         "Wizard.CubemapCreator.TexturesNote": "请注意，某些约定左右相反。如果生成的立方体图不正确，请尝试左右互换纹理。",
@@ -2526,7 +2598,6 @@
         "Wizard.TexturePacker.UseLargest": "使用最大尺寸",
         "Wizard.TexturePacker.GenerateMipmaps": "生成 Mipmap（分级细化纹理）",
 
-        
         "Wizard.TextureUnpacker.Title": "纹理解包向导",
         "Wizard.TextureUnpacker.Unpacking": "解包中...",
         "Wizard.TextureUnpacker.UnpackTexture": "解包纹理",
@@ -2658,7 +2729,7 @@
         "Migration.DataSelection.Favorites.OverwriteTitle": "我们应该在迁移时覆写你的收藏夹吗？",
 
         "Migration.DataSelection.Home.Title": "将你原来的家设为默认？",
-        "Migration.DataSelection.Home.Description": "当我们迁移你数据时，你原本的云端家园会被安置在一个不同的URL下，你的默认家会被设为一个全新的云端家园。不过，如果你希望如此，我们也可以将你原有的家设置为默认。即使你选择了“不”，你原有的家依然可以被访问。你也可以稍后再收藏它并设为你的家。",
+        "Migration.DataSelection.Home.Description": "当我们迁移你数据时，你原本的云端家园会被安置在一个不同的链接下，你的默认家会被设为一个全新的云端家园。不过，如果你希望如此，我们也可以将你原有的家设置为默认。即使你选择了“不”，你原有的家依然可以被访问。你也可以稍后再收藏它并设为你的家。",
 
         "Migration.DataSelection.Contacts": "好友",
         "Migration.DataSelection.Message History": "消息历史",
@@ -2697,16 +2768,16 @@
         "Migration.Report.CompletedOn": "<color={hex}>完成于：</color> {value}",
 
         "Migration.Report.CurrentlyMigrating": "正在迁移 <color={hex}>{value}</color> 的数据。",
-        "Migration.Report.CurrentItem": "当前项目： <color={hex}>{value}</color>",
+        "Migration.Report.CurrentItem": "当前物品： <color={hex}>{value}</color>",
 
-        "Migration.Report.CurrentRate": "<color={hex}>当前速度：</color> ~{value} 世界/项目每分钟",
+        "Migration.Report.CurrentRate": "<color={hex}>当前速度：</color> ~{value} 世界/物品每分钟",
 
         "Migration.Report.EstimatedQueuePosition": "<color={hex}>此任务之前的排队任务数：</color> {value}",
         "Migration.Report.ContactStatus": "已迁移 <color={hex}>{total}</color> 好友中的 <color={hex}>{current}</color> 个",
         "Migration.Report.MessageStatus": "已迁移 <color={hex}>{value}</color> 条消息",
         "Migration.Report.CloudVariableDefinitionStatus": "已迁移 <color={hex}>{value}</color> 个云变量定义",
         "Migration.Report.CloudVariableValueStatus": "已迁移 <color={hex}>{value}</color> 个云变量",
-        "Migration.Report.RecordStatus": "已迁移 <color={hex}>{total}</color> 世界/项目中的 <color={hex}>{current}</color> 个，失败 <color=red>{failed}</color> 个。",
+        "Migration.Report.RecordStatus": "已迁移 <color={hex}>{total}</color> 世界/物品中的 <color={hex}>{current}</color> 个，失败 <color=red>{failed}</color> 个。",
         "Migration.Report.GroupStatus": "已迁移 <color={hex}>{total}</color> 群组中的 <color={hex}>{current}</color> 个",
         "Migration.Report.GroupMemberStatus": "共已迁移 <color={hex}>{value}</color> 群组成员",
 
@@ -2742,7 +2813,6 @@
         "Tutorial.Saving.Title": "欢迎回家！",
         "Tutorial.Saving.Content": "欢迎来到你的 <b><i><color=hero.yellow>家园</b></i></color> 世界！这是你每次登录后所来到的地方。<br><br>这是一个你自己的世界，你可以保存任何所作的更改。<br><br>如果你保存了，当你下次回来时，一切将与你离开时一模一样！",
 
-        
         "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>未命名房间</closeall>",
         "Tutorial.Teleporter.SessionList.UnnamedHost": "房主：<i><alpha=#77>未命名房主</closeall>",
         "Tutorial.Teleporter.SessionList.HostName": "房主：<b>{hostName}</b>",
@@ -2762,7 +2832,6 @@
         "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>加入房间失败！:(</color><br><size=66%>但你仍有以下选择：</size>",
 
         "Tutorial.Teleporter.Transporting": "正在传送...",
-
 
         "CloudHome.Info.OnlineUsers": "在线玩家: {online_users}<br>可加入玩家: {joinable_users}",
         "CloudHome.Info.Moderation": "管理员",
@@ -2912,6 +2981,9 @@
 
         "Tutorial.MentorPanel.Title": "需要帮助？",
         "Tutorial.MentorPanel.Content": "寻找头顶显示此徽章的玩家——向他们求助，他们专程为<i>你</i>而来！（中文社区暂时无人佩戴）",
+
+        "Tutorial.HelpTabPanel.Title": "需要帮助？",
+        "Tutorial.HelpTabPanel.Content": "在你的面板中，有一个帮助选项板块来浏览有关Resonite的信息！",
 
         "Hints.Spawn.InitialMovementDesktop": "使用移动键位来四处移动！",
         "Hints.Spawn.InitialMovementVR": "使用摇杆来四处行走！",
@@ -3264,7 +3336,7 @@
         "Help.GettingStarted.AvatarBasics.Equipping.Content": "<b><color=hero.purple>虚拟形象</closeall>在{appName}中如同服装——可随时更换任意形象，你可拥有多个形象或将其生成到世界中！<br><br>装备方式：{is_desktop, select, True {} other { 先按<b><color=hero.purple>{Primary_Input}</closeall>显示射线}}，瞄准形象{is_desktop, select, True {} other { 后}}按<b><color=hero.purple>{Primary_Input}</closeall>{is_desktop, select, True {} other { 键}}，在菜单中选择<sprite name=EquipAvatar> <b><color=hero.green>穿戴形象</closeall>。",
         "Help.GettingStarted.AvatarBasics.Equipping.Content2": "另外一种方法：按<b><color=hero.purple>{Grip_Input}</closeall>抓住形象，{is_using_vive_wands, select, True {快速点击} other {按}}<b><color=hero.purple>{Context_Menu_Input}</closeall>打开<b><color=hero.cyan>快捷菜单</closeall>，选择<sprite name=EquipAvatar> <b><color=hero.green>穿戴形象</closeall>。",
         "Help.GettingStarted.AvatarBasics.OpeningYourDashboard": "打开面板",
-        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content": "若要将当前形象设为登录默认虚拟形象，需通过<b><color=hero.cyan>面板</closeall>操作——这是集聊天、物品栏管理、世界探索于一体的控制中心。<br><br>开关方式：{is_using_vive_wands, select, True{长按 } other{}}<b><color=hero.purple>{Menu_Input}</closeall>{is_using_vive_wands, select, True{ 待圆环满后释放} other{}}。",
+        "Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content": "若要将当前形象设置为加载后的默认虚拟形象，需通过<b><color=hero.cyan>面板</closeall>操作——这是集聊天、物品栏管理、世界探索于一体的控制中心。<br><br>开关方式：{is_using_vive_wands, select, True{长按 } other{}}<b><color=hero.purple>{Menu_Input}</closeall>{is_using_vive_wands, select, True{ 待圆环满后释放} other{}}。",
         "Help.GettingStarted.AvatarBasics.CreatingAFolder": "创建文件夹",
         "Help.GettingStarted.AvatarBasics.CreatingAFolder.Content": "在面板<b><color=hero.yellow>物品栏</closeall>界面顶部点击<sprite name=SaveIcon> <b><color=hero.cyan>创建文件夹</closeall>，命名后选择<b><color=hero.green>创建</closeall>——系统将自动进入新文件夹。",
         "Help.GettingStarted.AvatarBasics.Saving": "保存",
@@ -3410,7 +3482,7 @@
         "Help.Controls.VRGestures": "VR手势",
         "Help.Controls.VRGestures.Content": "快速操作手势（均为已有功能的快捷方式）：",
         "Help.Controls.VRGestures.EmergencyLeaveWorld": "紧急离开世界",
-        "Help.Controls.VRGestures.EmergencyLeaveWorld.Content": "控制器贴头→长按<b><color=hero.purple>{Menu_Input}</closeall>≥3秒（震动强度随接近断开而增加）。",
+        "Help.Controls.VRGestures.EmergencyLeaveWorld.Content": "控制器贴头→长按<b><color=hero.purple>{Context_Menu_Input}</closeall>≥3秒（震动强度随接近断开而增加）。",
         "Help.Controls.VRGestures.EmergencyRespawn": "紧急重生",
         "Help.Controls.VRGestures.EmergencyRespawn.Content": "控制器贴头→至少按住一个<b><color=hero.purple>{Grip_Input}</closeall>→长按<b><color=hero.purple>{Context_Menu_Input}</closeall>≥3秒（震动提示）。",
         "Help.Controls.VRGestures.ToggleEditMode": "开关编辑模式",
@@ -3494,7 +3566,7 @@
         "Help.Dashboard.SessionSettings.Permissions.Content": "查看/分配玩家权限等级。如果你的权限是管理员或者更高，你可以给其他玩家分配许可等级。",
         "Help.Dashboard.Desktop.Content": "<sprite name=DesktopIcon> <b><color=hero.cyan>桌面</closeall>标签：<br>• 查看电脑屏幕<br>• 瞄准桌面按<b><color=hero.purple>{Secondary_Input}</closeall>可呼出键盘/切换显示器",
         "Help.Dashboard.FileBrowser.Content": "<sprite name=FilesIcon> <b><color=hero.cyan>文件</closeall>标签：浏览本地文件系统/共享资源/导入素材",
-        "Help.Dashboard.FileBrowser.Content2": "顶部功能按钮：<br>• <b><color=hero.cyan>导入</closeall>：导入支持格式的素材<br>• <b><color=hero.orange>导入为文件</closeall>：生成实体文件道具（可共享/保存）<br>• <b><color=hero.green>新建文件夹</closeall>：本地创建文件夹<br>• <b><color=#7777ff>刷新</closeall>：更新文件列表",
+        "Help.Dashboard.FileBrowser.Content2": "顶部功能按钮：<br>• <b><color=hero.cyan>导入</closeall>：导入支持格式的素材<br>• <b><color=hero.orange>导入为文件</closeall>：生成实体文件物品（可共享/保存）<br>• <b><color=hero.green>新建文件夹</closeall>：本地创建文件夹<br>• <b><color=#7777ff>刷新</closeall>：更新文件列表",
         "Help.Dashboard.Settings.Content": "<sprite name=SettingsIcon> <b><color=hero.cyan>设置</closeall>标签：所有系统设置分类如下",
 
         "Help.Dashboard.Settings.Audio.Content": "音量/音频设备/辅助功能",

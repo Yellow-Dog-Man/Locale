@@ -157,6 +157,8 @@ World.Connection.LNL.NATPunchthrough
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
 World.Connection.TCP  
+World.Connection.NoProtocolsAvailable  
+World.Connection.AllProtocolsFailed  
 World.Error.AccessDenied  
 World.Error.SecurityViolation  
 World.Error.OnlyRegisteredUsers  
@@ -196,6 +198,9 @@ World.Config.Autosave
 World.Config.AutosaveInterval  
 World.Config.CleanupAssets  
 World.Config.CleanupInterval  
+World.Config.ResoniteLinkHeader  
+World.Config.ResoniteLinkOff  
+World.Config.ResoniteLinkPort  
 World.Actions.StartSession  
 World.Actions.Join  
 World.Actions.Focus  
@@ -229,6 +234,7 @@ World.Actions.StartCustomSession
 World.Actions.ModifyMetadata  
 World.Actions.GetSessionOrb  
 World.Actions.CopySessionURL  
+World.Actions.EnableResoniteLink  
 World.Indicator.NoData  
 World.Indicator.LocalWorld  
 World.Indicator.Author  
@@ -413,6 +419,10 @@ Register.MissingPassword
 Register.MissingPassword.Description  
 Register.InvalidPassword  
 Register.InvalidPassword.Description  
+Register.InvalidPromoCode  
+Register.InvalidPromoCode.Description  
+Register.ExpiredPromoCode  
+Register.ExpiredPromoCode.Description  
 Register.EmailAlreadyRegistered  
 Register.EmailAlreadyRegistered.Description  
 Register.UsernameAlreadyRegistered  
@@ -425,6 +435,12 @@ Recovery.IncorrectEmail
 Recovery.IncorrectEmail.Description  
 Recovery.NoPasswordSetup  
 Recovery.NoPasswordSetup.Description  
+Register.TooManyRegistrations  
+Register.TooManyRegistrations.Description  
+Register.StatusCheckError  
+Register.StatusCheckError.Description  
+Register.ManualLoginRequired  
+Register.ManualLoginRequired.Description  
 Register.UnknownError  
 Register.UnknownError.Description  
 Account.Login  
@@ -464,6 +480,7 @@ Account.BirthDay
 Account.BirthYear  
 Account.PoliciesAgreement  
 Account.AlternateMethods  
+Account.PromoCode  
 Account.Saml2.Title  
 Account.Saml2.Select  
 Account.Saml2.LoggingIn  
@@ -492,6 +509,7 @@ Account.TOTP.Deactivate.Deactivate
 Account.TOTP.Deactivate.Deactivating  
 Account.TOTP.Message.DeactivationComplete  
 Account.Type.Standard  
+Account.Type.Promo  
 Account.Type.Business  
 Account.Type.Patreon  
 Account.Type.Stripe  
@@ -528,6 +546,7 @@ Permissions.NotAllowedToSpawn
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
 Permissions.SavingDisabledForItem  
+Permissions.NotAllowedToOpen  
 User.Actions.Silence  
 User.Actions.Mute  
 User.Actions.Jump  
@@ -625,9 +644,14 @@ Undo.InsertParent
 Undo.Wiggler  
 Undo.ExtractMaterialsFromHierarchy  
 Undo.BatchConvertMaterials  
+Undo.AddListElement  
+Undo.RemoveListElement  
 Tools.Brush.IncrementSize  
 Tools.Brush.DecrementSize  
+Tools.Brush.FinishStrokeGroup  
 Tools.GeometryLineBrush.Name  
+Tools.MeshPlaneBrush.Name  
+Tools.MeshPlaneBrush.AddHole  
 Tools.Dev.Name  
 Tools.Dev.CreateNew  
 Tools.Dev.Selection  
@@ -710,6 +734,7 @@ Tools.ProtoFlux.PackInPlace
 Tools.ProtoFlux.PackInto  
 Tools.ProtoFlux.Unpack  
 Tools.ProtoFlux.ExplicitCast  
+Tools.ProtoFlux.Wiki  
 Tools.Meter.Mode.Ray  
 Tools.Meter.Mode.Perpendicular  
 Tools.Meter.Mode.Drag  
@@ -736,6 +761,13 @@ Tools.Shape.Name
 Tools.CameraObjectHider.Name  
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
+Tools.Rig.AddEffector  
+Tools.Rig.RemoveEffector  
+Tools.Rig.SetupFABRIK  
+Tools.Rig.SetupTrigIK  
+Tools.Rig.CreateNew  
+Tools.Rig.DeselectRig  
+Tools.Rig.DestroyBone  
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
@@ -909,8 +941,6 @@ GaussianSplat.Encoding.EncodingPositions
 GaussianSplat.Encoding.EncodingRotations  
 GaussianSplat.Encoding.EncodingScales  
 GaussianSplat.Encoding.EncodingAlphas  
-GaussianSplat.Encoding.EncodingColors  
-GaussianSplat.Encoding.EncodingFinalizing  
 GaussianSplat.Processing.RemovingSplats  
 GaussianSplat.Processing.SplatProgress  
 GaussianSplat.Processing.LoadingData  
@@ -1135,6 +1165,9 @@ Settings.AudioOutputDeviceSettings
 Settings.AudioVolumeSettings  
 Settings.AudioAccessibilitySettings  
 Settings.AudioInputFilteringSettings  
+Settings.AudioStreamSettings  
+Settings.AudioStreamSettings.DefaultBitrate  
+Settings.AudioStreamSettings.DefaultDeviceID  
 Settings.RealtimeNetworkingSettings  
 Settings.AssetGatherSettings  
 Settings.HostAccessSettings  
@@ -1494,6 +1527,8 @@ Settings.DashSettings.DashCurvature
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.DashSettings.AllowReplacingSettings  
 Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings  
@@ -1535,6 +1570,8 @@ Settings.FacetAnchorsSettings.FacetAnchorToggle
 Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
 Settings.FacetAnchorsSettings.ShowContainerBackground  
 Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Settings.LaserSettings.SmoothSpeed  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle  
@@ -1599,6 +1636,8 @@ Settings.PhotoCaptureSettings.EncodeFormat
 Settings.PhotoCaptureSettings.EncodeFormat.Description  
 Settings.PhotoCaptureSettings.AlwaysHideNameplates  
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos  
+Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
@@ -1714,8 +1753,6 @@ Settings.GaussianSplatQualitySettings.PositionFormat
 Settings.GaussianSplatQualitySettings.PositionFormat.Description  
 Settings.GaussianSplatQualitySettings.ScaleFormat  
 Settings.GaussianSplatQualitySettings.ScaleFormat.Description  
-Settings.GaussianSplatQualitySettings.ColorFormat  
-Settings.GaussianSplatQualitySettings.ColorFormat.Description  
 Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat  
 Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description  
 Settings.ResolutionSettings  
@@ -1813,6 +1850,7 @@ Inspector.Member.RemoveBlendshape
 Inspector.Member.SplitBlendshape.X  
 Inspector.Member.SplitBlendshape.Y  
 Inspector.Member.SplitBlendshape.Z  
+Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.ProceduralAsset.UpdateCount  
 Inspector.ProceduralAsset.Error  
 Inspector.Mesh.StatsHeader  
@@ -2007,6 +2045,8 @@ Inspector.CharacterController.Warning
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.NewSystem.Warning  
+Inspector.AI_GeneratedContent.Info  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  
@@ -2025,10 +2065,24 @@ Inspector.Collider.SetFromPreciseBounds
 Inspector.Collider.SetFromPreciseCylinderBounds  
 Inspector.SimpleAwayIndicator.TestAway  
 Inspector.SimpleAwayIndicator.TestRestore  
+Inspector.FingerReferencePoseSource.AssignFromBipedRig  
+Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
+Inspector.FingerReferencePoseSource.CaptureMyRightHand  
+Inspector.BipedRig.GenerateStaticFingerPoseCode  
+Inspector.FingerReferencePoseSource.CaptureReference  
 Inspector.Fields.Drive  
 Inspector.Fields.DriveWriteBack  
 Inspector.Actions.CopyComponent  
 Inspector.Actions.MoveComponent  
+Inspector.Actions.CopyName  
+Inspector.Actions.CopyTag  
+Inspector.Actions.CopyGlobalPosition  
+Inspector.Actions.CopyLocalPosition  
+Inspector.Actions.CopyGlobalScale  
+Inspector.Actions.CopyLocalScale  
+Inspector.Actions.CopyGlobalRotation  
+Inspector.Actions.CopyLocalRotation  
+Inspector.Actions.CopyOrderOffset  
 Inspector.Wizard.PackTexture  
 Inspector.Wizard.UnpackTexture  
 Inspector.Error  
@@ -2397,6 +2451,8 @@ Tutorial.DashboardInfo.Content
 Tutorial.DashboardInfo.GotIt  
 Tutorial.MentorPanel.Title  
 Tutorial.MentorPanel.Content  
+Tutorial.HelpTabPanel.Title  
+Tutorial.HelpTabPanel.Content  
 Hints.Spawn.InitialMovementDesktop  
 Hints.Spawn.InitialMovementVR  
 Hints.Spawn.InitialMovementVRNoButtons  

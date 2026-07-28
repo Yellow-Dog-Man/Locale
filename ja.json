@@ -1,6 +1,6 @@
 {
     "localeCode": "ja",
-    "authors": ["orange", "Melnus", "Aesc", "kazu", "Rabbuttz", "zozokasu", "rhenium", "chaba_take", "hantabaru1014", "ginjake"],
+    "authors": ["orange", "Melnus", "Aesc", "kazu", "Rabbuttz", "zozokasu", "rhenium", "chaba_take", "hantabaru1014", "ginjake", "MarkN"],
     "messages": {
 
         "General.OK": "OK",
@@ -194,6 +194,9 @@
         "World.Connection.SteamNetworkingSockets": "Steam Networking Sockets",
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
+        "World.Connection.NoProtocolsAvailable": "利用可能な接続方法がありません",
+        "World.Connection.AllProtocolsFailed": "すべての接続方法で失敗しました",
+
         "World.Error.AccessDenied": "アクセスが拒否されました",
         "World.Error.SecurityViolation": "セキュリティ違反",
         "World.Error.OnlyRegisteredUsers": "ログインユーザーのみが入室できます",
@@ -235,6 +238,10 @@
         "World.Config.CleanupAssets": "不使用アセットを定期的に除去:",
         "World.Config.CleanupInterval": "不使用アセットを除去する間隔(秒):",
 
+        "World.Config.ResoniteLinkHeader" : "Resoniteリンク",
+        "World.Config.ResoniteLinkOff" : "Resoniteリンクは無効です",
+        "World.Config.ResoniteLinkPort" : "Resoniteリンクがポート {port} で動作中",
+
         "World.Actions.StartSession": "セッション開始",
         "World.Actions.Join": "参加",
         "World.Actions.Focus": "フォーカス",
@@ -270,6 +277,8 @@
         "World.Actions.ModifyMetadata": "メタデータを編集",
         "World.Actions.GetSessionOrb": "セッションオーブを取得",
         "World.Actions.CopySessionURL": "セッションURLをコピー",
+
+        "World.Actions.EnableResoniteLink" : "Resoniteリンクを有効化",
 
         "World.Indicator.NoData": "データなし",
         "World.Indicator.LocalWorld": "ローカルマシン",
@@ -501,6 +510,12 @@
         "Register.InvalidPassword": "無効なパスワードです",
         "Register.InvalidPassword.Description": "パスワードが無効です。8文字以上で、数字、大文字、小文字をそれぞれ1字以上使用してください。",
 
+        "Register.InvalidPromoCode": "無効なプロモーションコード",
+        "Register.InvalidPromoCode.Description": "入力されたプロモーションコードは無効です。もう一度入力してください。大文字と小文字は区別されません。",
+
+        "Register.ExpiredPromoCode": "有効期限が切れたプロモーションコード",
+        "Register.ExpiredPromoCode.Description": "入力されたプロモーションコードの有効期限が切れています。別のコードを入力するか、コードを削除してください。",
+
         "Register.EmailAlreadyRegistered": "このEmailは既に登録されています",
         "Register.EmailAlreadyRegistered.Description": "このメールアドレスを使用したアカウントはすでに存在します。 パスワードを忘れた場合は、\"パスワードを忘れてしまった\"をクリックしてください。 もしくはサポートまでご連絡ください {supportUrl}",
 
@@ -518,6 +533,15 @@
 
         "Recovery.NoPasswordSetup" : "パスワードが設定されていません",
         "Recovery.NoPasswordSetup.Description" : "サポートまでご連絡ください {supportUrl}",
+
+        "Register.TooManyRegistrations": "登録数が多すぎます",
+        "Register.TooManyRegistrations.Description": "短期間にアカウントを登録しすぎました。しばらくしてから再度登録してください。これが誤りであると思われる場合には、{supportUrl} からサポートまでお問い合わせください。",
+
+        "Register.StatusCheckError": "登録状況が不明です",
+        "Register.StatusCheckError.Description": "アカウント登録は送信されましたが、ステータスの確認に問題が発生しました。しばらくしてから再度ログインをお試しください。",
+
+        "Register.ManualLoginRequired": "手動でのログインが必要です",
+        "Register.ManualLoginRequired.Description": "アカウントの登録は完了しましたが、セッションデータの取得に問題が発生しました。しばらくしてから再度ログインをお試しください。",
 
         "Register.UnknownError": "未知のエラーです",
         "Register.UnknownError.Description": "登録中に未知なエラーが発生しました。 サポートまでご連絡ください {supportUrl}",
@@ -559,6 +583,7 @@
         "Account.BirthYear": "誕生年:",
         "Account.PoliciesAgreement": "<color=#22B2FF>利用規約</color> および <color=#22B2FF>プライバシーポリシー</color> に同意します。",
         "Account.AlternateMethods" : "外部サービスでログインする:",
+        "Account.PromoCode": "プロモーションコード:",
 
         "Account.Saml2.Title" : "SAML 2.0",
         "Account.Saml2.Select" : "使用するサービスを選んでください:",
@@ -582,7 +607,7 @@
         "Account.TOTP.Activate.InvalidToken": "無効なコードです!",
         "Account.TOTP.Message.AlreadySetup": "2要素認証はこのアカウントで既に設定されています!",
         "Account.TOTP.Message.Error": "予期しないエラー！ もう一度やり直してください。",
-        "Account.TOTP.Message.SetupComplete": "<size=150%>おめでとうございます！</size><br><br>2要素認証により保護が強化されました！<br><br>/enableLogin2FA コマンドを使用してアカウントログインに利用することもできます。",
+        "Account.TOTP.Message.SetupComplete": "<size=150%>おめでとうございます！</size><br><br>2要素認証により保護が強化されました！",
         "Account.TOTP.Deactivate.Header": "2要素認証を無効化",
         "Account.TOTP.Deactivate.Description": "2要素認証は現在<b><color=green>有効になっています</color></b>。 必要がある場合はここで無効化できます。 (例:スマートホンの紛失やコードの漏洩) <br><br>無効化後、2要素認証を再度設定すると、 新しいセットアップキーが生成されます。 <br><br>スマートフォンを紛失した場合は、​2要素認証を<b>すぐに再設定することを​強くおすすめします</b>。各リカバリーコードは​1回しか使用できません。使い切ると、​アカウントに完全にアクセスできなくなります",
         "Account.TOTP.Deactivate.Deactivate": "無効化",
@@ -590,6 +615,7 @@
         "Account.TOTP.Message.DeactivationComplete": "2要素認証が無効化されました。<br><br>アカウントのリスクが高まっています！<br><br>特にスマートフォンを紛失したために​リカバリーコードを使用した場合は、​すぐに2要素認証を再設定してください。",
 
         "Account.Type.Standard" : "スタンダードアカウント",
+        "Account.Type.Promo": "プロモーションアカウント",
         "Account.Type.Business" : "ビジネスアカウント",
         "Account.Type.Patreon" : "Patreon サポーター",
         "Account.Type.Stripe": "Stripe サポーター",
@@ -633,6 +659,7 @@
         "Permissions.NotAllowedToSave": "ここでアイテムは保存できません。",
         "Permissions.NotAllowedToSwapAvatar": "ここでカスタムアバターは使用できません。",
         "Permissions.SavingDisabledForItem": "このアイテムは保存できません。",
+        "Permissions.NotAllowedToOpen": "このワールドを開く権限がありません。",
 
         "User.Actions.Silence": "全体ミュート",
         "User.Actions.Mute": "ミュート",
@@ -741,11 +768,18 @@
         "Undo.ExtractMaterialsFromHierarchy": "階層からマテリアルを抽出",
         "Undo.BatchConvertMaterials": "マテリアルのバッチ変換",
 
+        "Undo.AddListElement": "リストに要素を追加",
+        "Undo.RemoveListElement": "リストから要素を削除",
+
         "Tools.Brush.ChangeColor" : "色を変更",
         "Tools.Brush.IncrementSize" : "太く",
         "Tools.Brush.DecrementSize" : "細く",
+        "Tools.Brush.FinishStrokeGroup": "ストロークグループを終了する",
 
         "Tools.GeometryLineBrush.Name": "ジオメトリラインブラシ",
+
+        "Tools.MeshPlaneBrush.Name": "メッシュプレーンブラシ",
+        "Tools.MeshPlaneBrush.AddHole": "穴を開ける",
 
         "Tools.Dev.Name": "デブツール",
         "Tools.Dev.CreateNew": "新規作成…",
@@ -833,7 +867,7 @@
         "Tools.Microphone.SourceRaw": "フィルタリング・正規化を行わない",
         "Tools.Microphone.SourceFiltered": "フィルタリング・正規化を行う",
 
-        "Tools.ProtoFlux.Name": "Proto-Fluxツール",
+        "Tools.ProtoFlux.Name": "ProtoFluxツール",
         "Tools.ProtoFlux.Drive" : "Drive",
         "Tools.ProtoFlux.Source" : "Source",
         "Tools.ProtoFlux.Reference" : "Reference",
@@ -848,6 +882,7 @@
         "Tools.ProtoFlux.PackInto" : "<size=50%>{name}</size>にパッキング",
         "Tools.ProtoFlux.Unpack" : "<size=50%>{name}</size>をアンパック",
         "Tools.ProtoFlux.ExplicitCast" : "明示的キャスト\n<size=50%>(<color=red>警告:</color> 潜在的なデータ損失)</size>",
+        "Tools.ProtoFlux.Wiki": "Wiki <size=50%>{node}</size>",
 
         "Tools.Meter.Mode.Ray" : "モード: レイ",
         "Tools.Meter.Mode.Perpendicular" : "モード: 直角",
@@ -868,7 +903,7 @@
         "Tools.RigTransfer.Name": "リグメッシュ転送ツール",
         "Tools.RigTransfer.ClearSource" : "送信元をクリア",
 
-        "Tools.GaussianSplat.Name" : "ガウシアンスプラフティングツール",
+        "Tools.GaussianSplat.Name" : "ガウシアンスプラッティングツール",
         "Tools.GaussianSplat.ClipBox" : "ボックスでクロップ",
         "Tools.GaussianSplat.ClipSphere" : "スフィアでクロップ",
         "Tools.GaussianSplat.ClipCylinder" : "シリンダーでクロップ",
@@ -885,6 +920,13 @@
         "Tools.ControllerDiagnostic.Name": "コントローラー診断ツール",
 
         "Tools.Labeler.Name": "ラベルツール",
+
+        "Tools.Rig.AddEffector": "エフェクター追加",
+        "Tools.Rig.RemoveEffector": "エフェクター削除",
+        "Tools.Rig.SetupFABRIK": "FABRIK IKソルバー設定",
+        "Tools.Rig.CreateNew": "リグを新規作成",
+        "Tools.Rig.DeselectRig": "リグの選択解除",
+        "Tools.Rig.DestroyBone": "ボーンを削除",
 
         "ProtoFlux.UI.Call" : "Call",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> Call",
@@ -925,6 +967,8 @@
         "CreateNew.Editor.AssetOptimizationWizard": "アセット最適化​ウィザード",
         "CreateNew.Editor.CubemapCreator": "キューブマップ​クリエイター",
         "CreateNew.Editor.ReflectionProbes": "リフレクション​プローブウィザード",
+        "CreateNew.Editor.TexturePackingWizard": "テクスチャパッキングウィザード",
+        "CreateNew.Editor.TextureUnpackingWizard": "テクスチャアンパッキングウィザード",
 
         "CreateNew.3DModel": "3Dモデル",
         "CreateNew.3DModel.Triangle": "トライアングル",
@@ -974,7 +1018,7 @@
         "AvatarCreator.TryAlignHands": "手の位置をあわせる",
         "AvatarCreator.AlignToolAnchors": "ツールアンカーの位置を揃える",
         "AvatarCreator.Create": "作成",
-        "AvatarCreator.ProtectionUnavailable": "<i>このワールド(local home)ではアバター保護をつけることが。別のワールドに切り替えてから、アバターを作成してください。</i>",
+        "AvatarCreator.ProtectionUnavailable": "<i>このワールドではアバター保護をつけることができません。<br>別のワールドに切り替えてから、アバターを作成してください。</i>",
 
         "Importer.General.AsRawFile": "ファイル​​アイテム",
 
@@ -1359,6 +1403,10 @@
         "Settings.AudioAccessibilitySettings": "音声アクセシビリティ",
         "Settings.AudioInputFilteringSettings": "入力フィルター",
 
+        "Settings.AudioStreamSettings": "オーディオストリーム設定",
+        "Settings.AudioStreamSettings.DefaultBitrate": "デフォルトのビットレート",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "デフォルトのデバイスID",
+
         "Settings.RealtimeNetworkingSettings": "リアルタイムネットワーキング",
         "Settings.AssetGatherSettings": "アセットの読み込み",
 
@@ -1557,6 +1605,10 @@
         "Settings.SteamLinkSettings" : "Steam連携",
         "Settings.SteamLinkSettings.OSC_DataPort" : "OSCフェイストラッキングポート",
         "Settings.SteamLinkSettings.OSC_DataPort.Description" : "どのポートをOSCフェイストラッキングデータの受信に使用するか。これはSteamVRで設定したポートと一致する必要があります。",
+
+        "Settings.BabbleSettings": "Project Babble",
+        "Settings.BabbleSettings.OSC_DataPort": "OSCフェイストラッキングポート",
+        "Settings.BabbleSettings.OSC_DataPort.Description": "どのポートをOSCフェイストラッキングデータの受信に使用するか。これはBabbleアプリで設定したポートと一致する必要があります。",
 
         "Settings.HapticPointMapping.MappingTarget": "割当",
         "Settings.HapticPointMapping.MappingTarget.Description": "このデバイスをアバターのどの部分に割当するかを設定します。",
@@ -1782,7 +1834,9 @@
         "Settings.DashSettings.DashCurvature": "ダッシュメニューの曲がり具合",
         "Settings.DashSettings.DashCurvature.Description": "VRでのダッシュメニューの曲がり具合を設定できます。0に設定すると完全に平面になります。",
         "Settings.DashSettings.OpenCloseSpeed": "開閉スピード",
-        "Settings.DashSettings.OpenCloseSpeed.Description": "ダッシュメニューの開閉速度を調整できます。アニメーションが気に入らない場合は、この値を非常に大きくして、ほぼ瞬時に開閉するように設定できます。",
+        "Settings.DashSettings.OpenCloseSpeed.Description": "ダッシュメニューの開閉速度を調整できます。0に設定するとアニメーションが無くなり、瞬時に開閉します。",
+        "Settings.DashSettings.ScreenSwitchSpeed": "タブ切り替え速度",
+        "Settings.DashSettings.ScreenSwitchSpeed.Description": "ダッシュメニューのタブ切り替え（ホーム、フレンド、セッションなど）の速度を調整します。この設定を0にすると、アニメーションが無くなり瞬時に切り替わります。",
         "Settings.DashSettings.AllowReplacingSettings" : "設定の入れ替えを許可する",
         "Settings.DashSettings.AllowReplacingSettings.Description" : "有効にすると、UI編集モードのときにダッシュメニューの設定ファセットを他のファセットに置き換えることができます。\n\n個々の設定をファセットとして取り出したい場合は、この設定をオフにする必要があります。設定UIをカスタムUIに置き換えたいときにだけ、一時的にこの設定をオンにすることをおすすめします。",
 
@@ -1831,6 +1885,8 @@
         "Settings.FacetAnchorsSettings.ShowContainerBackground" : "背景を表示",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description" : "これをオフにすると、ファセットアンカーの背景表示が無効になり、ファセットそのものだけが見えるようになります。",
 
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace": "プライベートUIを優先する",
+        "Settings.LaserSettings.AlwaysPrioritizeUserspace.Description": "この機能を有効にすると、ダッシュメニュー、ファセットアンカー、キーボードなどのプライベートUIは、ワールド内のコライダーに隠れていても、常に操作の順位が優先されます。<br><br>これは、ワールド内のオブジェクトによってプライベートUIの操作が妨げられる場合に役立ちます。<br><br>ワールド内のアイテムを操作する際には、ダッシュメニューを閉じる必要がある場合があります。",
         "Settings.LaserSettings.SmoothSpeed": "スムーズスピード",
         "Settings.LaserSettings.SmoothSpeed.Description": "レーザーがコントローラーに追従するスピードを設定できます。値を低くすると、レーザーは鈍くなりますが、手ブレの影響を抑えられます。値を高くすると、レーザーはより機敏に反応しますが、手ブレの影響を受けやすくなります。",
         "Settings.LaserSettings.ModulateStartAngle": "始点の角度",
@@ -1915,7 +1971,7 @@
         "Settings.DesktopRenderSettings.VSync": "垂直同期(V-Sync)",
         "Settings.DesktopRenderSettings.VSync.Description": "これを有効にすると、Resoniteのフレームレートがモニターのリフレッシュレートに同期します。オフにするとフレームレートの制限が解除されますが、ティアリング(映像が上下で分断されているように見える現象)が発生する可能性があります。\n\nオフにするとのフレームレートの制限が解除されるので、パフォーマンステストを行う際に役立ちます。",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "非アクティブ時のフレームレートを制限",
-        "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "有効にすると、Resonitenoの画面が非アクティブの場合にフレームレートを制限します。同時に他のプログラムやゲームを使用する場合に便利です。",
+        "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "有効にすると、Resoniteの画面が非アクティブの場合にフレームレートを制限します。同時に他のプログラムやゲームを使用する場合に便利です。",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "非アクティブ時の最大フレームレート",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description": "非アクティブ時の最大フレームレートを設定できます。値が小さいほどPCリソースを節約できます。",
 
@@ -2031,17 +2087,17 @@
         "Settings.GaussianSplatQualitySettings.QualityPreset" : "品質プリセット",
         "Settings.GaussianSplatQualitySettings.QualityPreset.Description" : "レンダリングされたガウシアンスプラッティングの品質とVRAM使用量を制御できます。 品質が高いほど、より多くのVRAMを使用します。<br><br><color=hero.yellow>非常に低い:</color> ~18.62x smaller<br><color=hero.yellow>低い:</color> ~14x smaller<br><color=hero.yellow>中間:</color> ~5.14x smaller<br><color=hero.yellow>高いh:</color> ~2.94x smaller<br><color=hero.yellow>非常に高い:</color> 非圧縮（オリジナル）",
         "Settings.GaussianSplatQualitySettings.MinLocalQuality" : "最小限のローカル圧縮品質",
-        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description" : "ローカルにインポートされたガウシアンスプラフティングの場合、品質がこの値より低くなることはありません。<br><br>これより低い品質へするには、圧縮にかかる負荷と時間が著しく高くなるため、クラウド上で圧縮するようにすべきです。<br><br>これを「非常に高い」に設定すると、VRAM の使用量の増加を犠牲にして圧縮する必要がなくなるため、インポート後のガウシアンスプラフティングの読み込みが大幅に高速化されます。",
+        "Settings.GaussianSplatQualitySettings.MinLocalQuality.Description" : "ローカルにインポートされたガウシアンスプラッティングの場合、品質がこの値より低くなることはありません。<br><br>これより低い品質へするには、圧縮にかかる負荷と時間が著しく高くなるため、クラウド上で圧縮するようにすべきです。<br><br>これを「非常に高い」に設定すると、VRAM の使用量の増加を犠牲にして圧縮する必要がなくなるため、インポート後のガウシアンスプラッティングの読み込みが大幅に高速化されます。",
         "Settings.GaussianSplatQualitySettings.AdvancedQuality" : "高度な品質設定",
-        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description" : "有効にすると、異なるガウシアンスプラフティングのバッファに使用される特定のエンコーディングを設定できます。これにより、画質を非常に細かく制御できるようになります。また、テストや診断目的にも使用できます。",
+        "Settings.GaussianSplatQualitySettings.AdvancedQuality.Description" : "有効にすると、異なるガウシアンスプラッティングのバッファに使用される特定のエンコーディングを設定できます。これにより、画質を非常に細かく制御できるようになります。また、テストや診断目的にも使用できます。",
         "Settings.GaussianSplatQualitySettings.PositionFormat" : "ポジションデータ形式",
-        "Settings.GaussianSplatQualitySettings.PositionFormat.Description" : "ガウシアンスプラフティングのポジション(位置)に使用されるエンコーディング",
+        "Settings.GaussianSplatQualitySettings.PositionFormat.Description" : "ガウシアンスプラッティングのポジション(位置)に使用されるエンコーディング",
         "Settings.GaussianSplatQualitySettings.ScaleFormat" : "スケールデータ形式",
-        "Settings.GaussianSplatQualitySettings.ScaleFormat.Description" : "ガウシアンスプラフティングのスケール(大きさ)に使用されるエンコーディング",
+        "Settings.GaussianSplatQualitySettings.ScaleFormat.Description" : "ガウシアンスプラッティングのスケール(大きさ)に使用されるエンコーディング",
         "Settings.GaussianSplatQualitySettings.ColorFormat" : "カラーデータ形式",
-        "Settings.GaussianSplatQualitySettings.ColorFormat.Description" : "ガウシアンスプラフティングのカラーや透明度に使用されるエンコーディング",
+        "Settings.GaussianSplatQualitySettings.ColorFormat.Description" : "ガウシアンスプラッティングのカラーや透明度に使用されるエンコーディング",
         "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat" : "球面調和関数データ形式",
-        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description" : "ガウシアンスプラフティングの球面調和関数に使用されるエンコーディング",
+        "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description" : "ガウシアンスプラッティングの球面調和関数に使用されるエンコーディング",
 
         "Settings.ResolutionSettings": "解像度",
         "Settings.ResolutionSettings.Fullscreen": "フルスクリーンモード",
@@ -2062,7 +2118,17 @@
         "Settings.RenderingQualitySettings.ShadowDistance": "影の距離",
         "Settings.RenderingQualitySettings.ShadowDistance.Description": "影がカバーする距離を設定できます。この値を大きくすると、より遠くの部分が影で適切にカバーされるようになりますが、影の影響がより広い範囲に広がります。\n\nこの設定は、シャドウカスケードや解像度と一緒に変更する必要があります。- 影の解像度を高くすると、距離を長くすることができます。影の解像度とカスケードを下げると距離が短くなり，影がより鮮明になります。",
         "Settings.RenderingQualitySettings.SkinWeightMode": "スキンウェイト",
-        "Settings.RenderingQualitySettings.SkinWeightMode.Description": "スキニングされたメッシュ（アバターのようにボーンによって変形する3Dモデル）で、各頂点の位置に影響を与えるために使用されるボーン数を制御します。\n\nこの値を下げると、パフォーマンスは多少下がりますが、変形の質は低下し、曲がりが粗くなり、他の歪みが発生します。",
+        "Settings.RenderingQualitySettings.SkinWeightMode.Description": "スキニングされたメッシュ（アバターのようにボーンによって変形する3Dモデル）で、各頂点の位置に影響を与えるために使用されるボーン数を制御します。\n\nこの値を下げると、パフォーマンスが多少向上しますが、変形の質は低下し、曲がりが粗くなり、他の歪みが発生します。",
+
+        "Settings.RendererDecouplingSettings": "レンダラー分離",
+        "Settings.RendererDecouplingSettings.ActivationFramerate": "有効化フレームレート",
+        "Settings.RendererDecouplingSettings.ActivationFramerate.Description": "レンダラー分離が有効化される条件を制御します。実際のフレームレートがこの値を下回ると、レンダラーはエンジンからの新しいフレームを待たずに、シーンの再レンダリングを開始します。\n\nこれにより、カクつきの一部を緩和し、動画再生やVRヘッドセットの映像が固まるのを軽減できますが、それ以外のシーン内の処理は停止します。\n\n0に設定すると、この仕組みは無効化されます。",
+        "Settings.RendererDecouplingSettings.DeactivationFrames": "無効化までのフレーム数",
+        "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "分離が有効な状態のとき、この値は、（有効化フレームレートの設定値を上回る）安定したフレームが何フレーム連続して描画されれば、分離機構を無効にするかを示します。これにより、連続したカクつきによって分離が頻繁にオン・オフされるのを防ぐことができます。",
+        "Settings.RendererDecouplingSettings.ForceDecouple": "強制分離",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "オンにすると、レンダラーは常に強制的に分離され、メインエンジンを待たずに可能な限り高速で新しいフレームを描画し続けます。\n\n<color=hero.red>警告！</color> これは主にデバッグや、CPUボトルネックかGPUボトルネックかを診断する目的で使用されるもので（CPUがボトルネックの場合、この設定をオンにするとフレームレートが大幅に向上します）、通常使用を想定していません。\n\n大きなスタッターやジッター、アセットの読み込み・アップロードの遅延が発生する可能性があります。",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "分離時のアセット処理最大時間（ミリ秒）",
+        "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "分離機構が有効な場合に、レンダラーがGPUへのアセットアップロードに費やす最大時間を制御します。この値を下げると最大フレームレートが向上する場合があります（例：GPU性能の最大値をテストする場合）が、読み込み性能が低下し、非常に低い値ではUIの更新が遅くなることがあります。",
 
         "Settings.ImportSettings": "インポート設定",
         "Settings.ImportSettings.SessionUrls": "セッションURLインポート時",
@@ -2147,6 +2213,7 @@
         "Inspector.Member.SplitBlendshape.X" : "ブレンドシェイプをX軸で分割",
         "Inspector.Member.SplitBlendshape.Y" : "ブレンドシェイプをY軸で分割",
         "Inspector.Member.SplitBlendshape.Z" : "ブレンドシェイプをZ軸で分割",
+        "Inspector.Member.SplitBlendshapeToStaticMesh": "ブレンドシェイプをスタティックメッシュに分割",
 
         "Inspector.ProceduralAsset.UpdateCount": "アップデート回数: {n}",
         "Inspector.ProceduralAsset.Error": "エラー: {error}",
@@ -2249,8 +2316,8 @@
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "ブレンドシェイプを名前でソート (文字数順→昇順)",
         "Inspector.SkinnedMesh.ResetBonesToBindPoses": "ボーンをバインドポーズにリセットする",
 
-        "Inspector.SimpleAvatarProtection.RemoveAll": "階層下にある全てのアバター保護を削除する",
-        "Inspector.SimpleAvatarProtection.RemoveSingle": "このスロットにあるアバター保護のみを削除",
+        "Inspector.SimpleAvatarProtection.RemoveAll": "すべてのアバター保護を削除",
+        "Inspector.SimpleAvatarProtection.RemoveSingle": "このアバター保護のみを削除",
         "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>警告！</size></color><br>下の専用ボタン以外でこのコンポーネントを削除すると、​保護機能が作動して自己破壊し、データが失われる可能性があります。",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "アバター保護を削除",
 
@@ -2290,6 +2357,10 @@
         "Inspector.Texture.SwapGB": "G <--> B 入れ替え",
         "Inspector.Texture.SwapGA": "G <--> A 入れ替え",
         "Inspector.Texture.SwapBA": "B <--> A 入れ替え",
+        "Inspector.Texture.IsolateR": "Rチャンネルを分離",
+        "Inspector.Texture.IsolateG": "Gチャンネルを分離",
+        "Inspector.Texture.IsolateB": "Bチャンネルを分離",
+        "Inspector.Texture.IsolateA": "アルファチャンネルを分離",
         "Inspector.Texture.AddWhiteBackground": "透過部分に白背景を追加",
         "Inspector.Texture.AddBlackBackground": "透過部分に黒背景を追加",
         "Inspector.Texture.Hue": "色相:",
@@ -2384,6 +2455,10 @@
         "Inspector.FacetPreset.Warning":"<color=red><size=125%>警告!</size></color><br>FacetPresetsがあると、新しいバージョンのプリセットが公開されると、ファセットが自動的にアップデートされます。ファセットを改造する場合は、このコンポーネントを削除することをお勧めします。",
         "Inspector.GrabbableSaveBlock.Warning":"<color=red><size=125%>警告!</size></color><br>このコンポーネントは、セキュリティやアセット盗難防止として設計されたものではありません。ゲームプレイやデザイン上の理由で、より簡単に保存をブロックしたい場合に使用することを目的としています。これは簡単に迂回することができ、どのような状況でもセキュリティを高めることはできません。",
 
+        "Inspector.NewSystem.Warning": "<color=red><size=125%>警告！</size></color><br> このコンポーネントは、新たに追加されたシステムの一部であり、現在も開発中です。ぜひお試しください。ただし、今後互換性を損なう変更が行われる可能性があり、その場合はコンテンツの修正が必要になります。<br><br>このコンポーネントを使用し、作成したコンテンツの長期的な互換性を確保したい場合は、この通知が削除されるまでお待ちください。",
+
+        "Inspector.AI_GeneratedContent.Info": "このコンポーネントは、生成AIによって生成されたコンテンツにフラグを立てることを目的としています。生成AIを用いて作成したオブジェクトのルートに配置することを推奨します。これにより、アイテムが保存された際や、このコンポーネントが存在する状態でワールドが保存された際に自動的にタグが追加され、そのAI生成コンテンツをフィルタリングできるようになります。",
+
         "Inspector.ParticleSystem.BasicInfo" : "Particles: {count}, FPS: {fps}, Simulation Time: {time}, Submit Time: {renderSubmitTime}, Render allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo" : "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",
 
@@ -2404,14 +2479,25 @@
         "Inspector.Collider.SetFromPreciseCylinderBounds": "正確なシリンダーバウンドで設定",
         "Inspector.Collider.Visualize": "コライダーを可視化",
 
-        "Inspector.SimpleAwayIndicator.TestAway" : "離席中にする(デバッグ)",
-        "Inspector.SimpleAwayIndicator.TestRestore" : "離席中から戻す(デバッグ)",
+        "Inspector.SimpleAwayIndicator.TestAway" : "離席中にする(デバッグ用)",
+        "Inspector.SimpleAwayIndicator.TestRestore" : "離席中から戻す(デバッグ用)",
+
+        "Inspector.FingerReferencePoseSource.AssignFromBipedRig": "キャラクターリグから割り当て",
+        "Inspector.FingerReferencePoseSource.CaptureMyLeftHand": "自身の左手をキャプチャ",
+        "Inspector.FingerReferencePoseSource.CaptureMyRightHand": "自身の右手をキャプチャ",
+        "Inspector.BipedRig.GenerateStaticFingerPoseCode": "スタティックフィンガーポーズをクリップボードにコピー",
+        "Inspector.FingerReferencePoseSource.CaptureReference": "参照からキャプチャ",
 
         "Inspector.Fields.Drive" : "Drive",
         "Inspector.Fields.DriveWriteBack" : "Drive <size=50%>(write back)</size>",
 
         "Inspector.Actions.CopyComponent" : "コンポーネントをコピー",
         "Inspector.Actions.MoveComponent" : "コンポーネントを移動",
+
+        "Inspector.Wizard.PackTexture": "テクスチャをパック",
+        "Inspector.Wizard.UnpackTexture": "テクスチャをアンパック",
+
+        "Inspector.Error": "<color=hero.red>エラー！ログを確認してください。</color>",
 
         "UserInspector.Title" : "ユーザーインスペクター",
 
@@ -2446,8 +2532,10 @@
         "Wizard.LightSources.DisabledLights": "無効化されたライト:",
         "Wizard.LightSources.WithTag": "タグで設定:",
         "Wizard.LightSources.SetShadowType": "影のタイプを設定",
-        
-        
+        "Wizard.LightSources.MultiplyIntensity": "明るさを乗算",
+        "Wizard.LightSources.SetIntensity": "明るさを設定",
+        "Wizard.LightSources.MultiplyRange": "範囲を乗算",
+        "Wizard.LightSources.SetRange": "範囲を設定",
         "Wizard.LightSources.Enable": "有効化",
         "Wizard.LightSources.Disable": "無効化",
         "Wizard.LightSources.Destroy": "破棄",
@@ -2483,6 +2571,26 @@
         "Wizard.TextRenderer.ReplaceMaterial": "マテリアルを入れ替える",
         "Wizard.TextRenderer.ReplaceFont": "フォントを入れ替える",
         "Wizard.TextRenderer.SetColor": "色を設定",
+
+        "Wizard.TextureWizards.DefaultValue": "既定値",
+        "Wizard.TextureWizards.Invert": "反転",
+        "Wizard.TextureWizards.ClearTexture": "テクスチャをクリア",
+        "Wizard.TextureWizards.ResolutionOverride": "解像度を上書き",
+        "Wizard.TextureWizards.PlaceTextureHere": "ここにテクスチャを配置",
+
+        "Wizard.TexturePacker.Title": "テクスチャパッキングウィザード",
+        "Wizard.TexturePacker.Packing": "パッキング中...",
+        "Wizard.TexturePacker.PackTextures": "テクスチャをパック",
+        "Wizard.TexturePacker.Output": "出力",
+        "Wizard.TexturePacker.AutomaticSizeHandling": "サイズを自動処理",
+        "Wizard.TexturePacker.UseSmallest": "最小サイズを使用",
+        "Wizard.TexturePacker.UseLargest": "最大サイズを使用",
+        "Wizard.TexturePacker.GenerateMipmaps": "ミップマップを生成",
+
+
+        "Wizard.TextureUnpacker.Title": "テクスチャアンパッキングウィザード",
+        "Wizard.TextureUnpacker.Unpacking": "アンパッキング中...",
+        "Wizard.TextureUnpacker.UnpackTexture": "テクスチャを展開",
 
         "Desktop.Controls.Title": "デスクトップ操作",
         "Desktop.OpenKeyboard": "キーボードを表示",
@@ -2800,8 +2908,11 @@
         "CloudHome.Panel.Quality": "クオリティ",
         "CloudHome.Panel.Doors": "ドア",
         "CloudHome.Panel.Audio": "音声",
+        "CloudHome.Panel.RealtimeReflections": "リアルタイムリフレクション",
         "CloudHome.Panel.OverheadLighting": "天井ライト",
         "CloudHome.Panel.Sconces": "壁掛けライト",
+        "CloudHome.Panel.SpotLights": "スポットライト",
+        "CloudHome.Panel.TableLights": "テーブルライト",
         "CloudHome.Panel.FurnitureVisibility": "部屋毎の家具オンオフ",
 
         "CloudHome.Panel.LowQualityMode": "低負荷モード",
@@ -2861,6 +2972,9 @@
 
         "Tutorial.MentorPanel.Title": "助けて欲しい",
         "Tutorial.MentorPanel.Content": "このバッジが頭の上にあるユーザーに聞いてみましょう。 気軽に助けを求めましょう。 <i>あなた</i>を助けてくれるでしょう!",
+
+        "Tutorial.HelpTabPanel.Title": "お困りですか？",
+        "Tutorial.HelpTabPanel.Content": "ダッシュメニューには、{appName}に関する情報を確認できるヘルプタブがあります！",
 		
         "Hints.Spawn.InitialMovementDesktop": "WASDキーで移動しよう！",
         "Hints.Spawn.InitialMovementVR": "スティックを倒して歩こう！",
@@ -3164,6 +3278,12 @@
         "Universe.Units.EarthRadius": "地球半径",
         "Universe.Units.LunarDistance": "地球と月の距離",
 
+        "CloudHome.UpdateNotice.Header": "更新のお知らせ",
+        "CloudHome.UpdateNotice.Content": "<align=center>新しいバージョンのクラウドホームが利用可能です！<br><br>現在のバージョンは<closeallblock><b><color=hero.cyan>{version_mismatch_days,plural, one {# day} other {# days}}</color></b>分古くなっています。</align><br><br>下のリンクをクリックしてアクセスしてください。そこで、使用したい場合はワールドを保存することもできます。<br><br>新機能について知りたい場合は、公式Discordの <b><color=hero.purple>#devlog</color></b>チャンネルをご確認ください！",
+        "CloudHome.UpdateNotice.WikiLinkName": "{appName} Wiki: ホームの更新方法",
+        "CloudHome.UpdateNotice.DiscordLinkName": "{appName} Discord",
+        "CloudHome.UpdateNotice.CloudHomeLinkName": "新しいクラウドホームを開く",
+
         "Help.Help": "ヘルプ",
         "Help.ComingSoon": "もう少し待ってね!",
         "Help.ExampleText": "サンプルテキスト! Example Text!",
@@ -3301,7 +3421,7 @@
         "Help.Controls.Interaction.Grabbing.AutoGrabbing": "オートグラブ",
         "Help.Controls.Interaction.Grabbing.AutoGrabbing.Content": "<b><color=hero.green>オートグラブ</closeall>にすると、手の向きに応じて<b><color=hero.orange>パームグラブ</closeall>と<b><color=hero.yellow>プレシジョングラブ</closeall>とを自動的に選択するようになります。",
         "Help.Controls.Interaction.Grabbing.StickyGrab": "スティッキーグラブ",
-        "Help.Controls.Interaction.Grabbing.StickyGrab.Content": "<b><color=hero.cyan>スティッキーグラブ</closeall>モードにすると、物を一度掴んでから、再び<b><color=hero.purple>{Grab_Input}</closeall>を押すまでの間掴み続けるようになります。<b><color=hero.purple>{Grab_Input}</closeall>を離しても、掴んだアイテムはそのまま残ります。",
+        "Help.Controls.Interaction.Grabbing.StickyGrab.Content": "<b><color=hero.cyan>スティッキーグラブ</closeall>モードにすると、物を一度掴んでから、再び<b><color=hero.purple>{Grip_Input}</closeall>を押すまでの間掴み続けるようになります。<b><color=hero.purple>{Grab_Input}</closeall>を離しても、掴んだアイテムはそのまま残ります。",
 
         "Help.Controls.Interaction.ScalingObjects": "オブジェクトの大きさを変える",
         "Help.Controls.Interaction.ScalingObjects.PhysicalScaling": "物理的スケーリング",
@@ -3355,7 +3475,7 @@
         "Help.Controls.VRGestures": "VRジェスチャー",
         "Help.Controls.VRGestures.Content": "{appName}では、VRユーザーがダッシュメニューを素早く開いたり、動けなくなったときにリスポーンしたりするためのいくつかの簡単なジェスチャーを提供しています。これは利用可能なすべてのVRジェスチャーのリストです。これらは既存のアクションの簡易版であり、リストされたすべてのアクションは他の方法でも実行できます。",
         "Help.Controls.VRGestures.EmergencyLeaveWorld": "緊急ワールド退出",
-        "Help.Controls.VRGestures.EmergencyLeaveWorld.Content": "このジェスチャーは現在のワールドから即座に切断します。このジェスチャーを実行するには、コントローラーを頭に持っていき、<b><color=hero.purple>{Menu_Input}</closeall>を少なくとも3秒間押し続けてください。切断に近づくにつれて強さが増すコントローラーの振動を感じることができます。",
+        "Help.Controls.VRGestures.EmergencyLeaveWorld.Content": "このジェスチャーは現在のワールドから即座に切断します。このジェスチャーを実行するには、コントローラーを頭に持っていき、<b><color=hero.purple>{Context_Menu_Input}</closeall>を少なくとも3秒間押し続けてください。切断に近づくにつれて強さが増すコントローラーの振動を感じることができます。",
         "Help.Controls.VRGestures.EmergencyRespawn": "緊急リスポーン",
         "Help.Controls.VRGestures.EmergencyRespawn.Content": "このジェスチャーはあなたを削除してワールドのスポーン地点にスポーンさせることでリスポーンします。このジェスチャーを実行するには、コントローラーを頭に持っていき、少なくとも1つの<b><color=hero.purple>{Grip_Input}</closeall>を掴み、その後<b><color=hero.purple>{Context_Menu_Input}</closeall>を少なくとも3秒間押し続けてください。リスポーンに近づくにつれて強さが増すコントローラーの振動を感じることができます。",
         "Help.Controls.VRGestures.ToggleEditMode": "編集モードの切り替え",
@@ -3730,9 +3850,10 @@
         "Help.TeamTitle.MediaDirector": "メディア ディレクター",
         "Help.TeamTitle.ModerationLead": "モデレーション長",
         "Help.TeamTitle.SoundDesigner": "サウンドデザイナー",
-        "Help.TeamTitle.Support": "サポート",
+        "Help.TeamTitle.Support": "サポート リーダー",
         "Help.TeamTitle.UI": "UI",
         "Help.TeamTitle.VideoProducer": "ビデオプロデューサー",
+        "Help.TeamTitle.HeadOfTrustAndSafety": "信頼と安全担当責任者",
 
         "Help.About.Badges": "バッジ",
 
