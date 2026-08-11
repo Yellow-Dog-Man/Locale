@@ -404,7 +404,8 @@
         "Tools.CreateNewWorld": "Create New World",
         "Tools.Debug": "Debug",
         "Tools.StreamAudio": "Stream Audio",
-        "Tools.StreamVideo": "Stream Custom Video",
+        "Tools.StreamVideo": "Stream Custom Video<sup><color=hero.red>BETA",
+        "Tools.StreamVideo.Stop": "Stop Custom Video Stream",
         "Tools.Setup2FA": "Setup 2FA",
 
         "Tools.StreamAudio.Dialog.Title": "Create Audio Stream",
@@ -1830,6 +1831,12 @@
         "Settings.DebugSettings.DebugInputBindings.Description": "When enabled, you will see debugging information for the input binding system. This is mostly useful for developers.",
         "Settings.DebugSettings.ConvertParticleSystems": "Convert particle systems to PhotonDust",
         "Settings.DebugSettings.ConvertParticleSystems.Description": "Enabling this option will run a conversion from the legacy particle system to the new custom one (PhotonDust) for any <b>newly</b> loaded items and worlds.<br><br><color=red>This is intended for testing purposes only!</color> If you are not part of testing, we do not recommend turning this option on, YOUR CONTENT MIGHT BE CORRUPTED AS A RESULT.<br><br>Please see our GitHub/Discord if you'd like to help with testing.",
+        "Settings.DebugSettings.ShowMediaMTXWindow": "Show MediaMTX window",
+        "Settings.DebugSettings.ShowMediaMTXWindow.Description": "When streaming video, the MediaMTX instance will have a visible window. This can be useful to see its output.<br><br><color=hero.red>WARNING:</color> If you close it manually, streaming functionality will break.",
+        "Settings.DebugSettings.UseProtonForMediaMTX": "Use Proton for MediaMTX",
+        "Settings.DebugSettings.UseProtonForMediaMTX.Description": "On Linux systems, instead of launching the Linux native version of MediaMTX, launch the Windows version under Proton.",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder": "Force software video encoder",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder.Description": "Use software video encoder for streaming desktop instead of hardware video encoding.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Double press grip to equip items",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "When enabled, you can equip tools and gadgets by pressing grip twice in rapid succession. This setting will likely get removed at some point.",
@@ -2637,7 +2644,8 @@
         "Desktop.Brightness": "Brightness: {n,number,percent}",
         "Desktop.Opacity": "Opacity: {n,number,percent}",
 
-        "Desktop.Stream": "Share Screen",
+        "Desktop.Stream": "Share Screen<sup><color=hero.red>BETA",
+        "Desktop.StopStream": "Stop Sharing Screen",
         "Desktop.Stream.Display": "Display {index}: {width}x{height}",
         "Desktop.Stream.Title": "Configure Screen Share",
         "Desktop.Stream.Audio": "Include desktop audio",
