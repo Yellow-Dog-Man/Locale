@@ -384,7 +384,8 @@
         "Tools.CreateNewWorld": "Neue Welt",
         "Tools.Debug": "Debuggen",
         "Tools.StreamAudio": "Audio streamen",
-        "Tools.StreamVideo": "Benutzerdefiniertes Video streamen",
+        "Tools.StreamVideo": "Benutzerdefiniertes Video streamen<sup><color=hero.red>BETA",
+        "Tools.StreamVideo.Stop": "Benutzerdefinierten Videostream beenden",
         "Tools.Setup2FA": "2FA einrichten",
 
         "Tools.StreamAudio.Dialog.Title": "Audio-Stream erstellen",
@@ -1810,7 +1811,13 @@
         "Settings.DebugSettings.DebugInputBindings.Description": "Wenn Sie dies aktivieren, sehen Sie Debugging-Informationen für das Eingabe-Verknüpfungssystem. Dies ist hauptsächlich für Entwickler nützlich.",
         "Settings.DebugSettings.ConvertParticleSystems": "Konvertiere Partikelsysteme zu PhotonDust",
         "Settings.DebugSettings.ConvertParticleSystems.Description": "Wenn diese Option aktiv ist, wird für alle <b>neu</b> geladenen Gegenstände und Welten das alte Partikelsystem in das neue eigene System (PhotonDust) konvertiert.<br><br><color=red>Dies ist nur für Testzwecke vorgesehen!</color> Wenn Sie nicht an den Tests teilnehmen, raten wir davon ab, diese Option zu aktivieren, da IHRE INHALTE BESCHÄDIGT WERDEN KÖNNEN.<br><br>Bitte informieren Sie sich in unserem GitHub/Discord, wenn Sie beim Testen helfen möchten.",
-
+        "Settings.DebugSettings.ShowMediaMTXWindow": "MediaMTX-Fenster anzeigen",
+        "Settings.DebugSettings.ShowMediaMTXWindow.Description": "Beim Streamen eines Videos ist das Fenster der MediaMTX-Instanz sichtbar. Dies ist hilfreich, um dessen Ausgabe sehen zu können.<br><br><color=hero.red>WARNUNG:</color> Wenn Sie dieses Fenster manuell schliessen wird der Stream zusammenbrechen.",
+        "Settings.DebugSettings.UseProtonForMediaMTX": "Nutze Proton für MediaMTX",
+        "Settings.DebugSettings.UseProtonForMediaMTX.Description": "Auf Linux Systemen startet dies die Windows-Version von MediaMTX unter Proton, anstatt die native Linux-Version von MediaMTX zu verwenden.",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder": "Software-Videoencoder erzwingen",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder.Description": "Nutzt den Software-Videoencoder anstatt des Hardware-Videoencoders zum Streamen des Desktops.",
+        
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Doppel-Druck auf Griff, um Gegenstände auszurüsten",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wenn dies aktiviert ist, können Sie Tools und andere ausrüstbare Objekte ausrüsten, indem Sie ihren Griff zweimal schnell nacheinander drücken. Diese Einstellung wird wahrscheinlich irgendwann entfernt werden.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Benutze alten Welten-Wechsler",
@@ -2619,7 +2626,8 @@
         "Desktop.Brightness": "Helligkeit: {n,number,percent}",
         "Desktop.Opacity": "Transparenz: {n,number,percent}",
 
-        "Desktop.Stream": "Bildschirm teilen",
+        "Desktop.Stream": "Bildschirm teilen<sup><color=hero.red>BETA",
+        "Desktop.StopStream": "Beende Teilen des Bildschirms",        
         "Desktop.Stream.Display": "Bildschirm {index}: {width}x{height}",
         "Desktop.Stream.Title": "Bildschirmfreigabe konfigurieren",
         "Desktop.Stream.Audio": "Desktop-Audio mit einbeziehen",
