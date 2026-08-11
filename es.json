@@ -383,6 +383,7 @@
         "Tools.CreateNewWorld": "Crear Un<br>Mundo Nuevo",
         "Tools.Debug": "Depurar",
         "Tools.StreamAudio": "Transmitir Audio",
+        "Tools.StreamVideo": "Transmitir Video Personalizado",
         "Tools.Setup2FA": "Configurar 2FA",
 
         "Tools.StreamAudio.Dialog.Title": "Crear Transmisión de Audio",
@@ -424,6 +425,8 @@
         "Indicator.Storage.Usage": "{storage_used} de {storage_max}<br><size=61.803%> de espacio usado</size>",
 
         "Indicator.LiveHiddenMessage": "(información oculta cuando se está en directo)",
+
+        "Device.SystemAudio": "<color=hero.cyan>🔊 Sistema de Audio</color>",
 
         "Login.InvalidCredentials": "Credenciales inválidas",
         "Login.InvalidCredentials.Description": "Revise sus credenciales e intente nuevamente o presione \"¿Perdió su Contraseña?\"",
@@ -536,11 +539,11 @@
         "Register.TooManyRegistrations": "Demasiados registros",
         "Register.TooManyRegistrations.Description": "Has registrado muchas cuentas recientemente. Intenta de nuevo mas tarde, o contacta al soporte en {supportUrl} si crees que esto es un error.",
 
-        "Register.StatusCheckError": "Registration status unknown",
-        "Register.StatusCheckError.Description": "Your account registration was submitted, but there was a problem checking its status. Please try logging in shortly.",
+        "Register.StatusCheckError": "Estado de registro desconocido",
+        "Register.StatusCheckError.Description": "El registro de tu cuenta ha sido enviado, pero hubo un problema para revisar su estado. Por favor, intenta iniciar sesión en un momento.",
 
-        "Register.ManualLoginRequired": "Manual login required",
-        "Register.ManualLoginRequired.Description": "Your account was registered, but there was a problem retrieving session data for it. Please try logging in shortly.",
+        "Register.ManualLoginRequired": "Se requiere inicio de sesión manual",
+        "Register.ManualLoginRequired.Description": "Tu cuenta fue registrada, pero hubo un problema al intentar obtener la información de la sesión para ella. Por favor, intenta iniciar sesión en un momento.",
 
         "Register.UnknownError": "Error Desconocido",
         "Register.UnknownError.Description": "Un error desconocido ocurrió durante el registro. Por favor contacte con soporte en {supportUrl}.",
@@ -1770,6 +1773,8 @@
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Al habilitarse, se usará el protocolo de Steam Networking Sockets si es posible. Puede ayudar en algunos casos en el que el protocolo LNL resulta en problemas de acumulación de paquetes significativos. ",
         "Settings.RealtimeNetworkingSettings.PreferTCP": "Preferir TCP",
         "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Al habilitarse, las conexiones TCP son preferidas por sobre todos los otros protocolos. Mayormente afecta las conexiones por Red Local, ya que el TCP no es usado en conexiones a través del internet por defecto.\n\nEl protocolo TCP puede tener mejor rendimiento en redes locales y en ciertas redes donde el protocolo UDP no funciona.\n\nSin embargo también pueden sufrir de bloque del \"encabezado de línea\", causando que voces y poses estén demoradas significativamente.",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC": "PreferSteamNetworking QUIC (experimental)",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC.Description": "Al habilitarse, las conexiones QUIC son preferidas por sobre todos los otros protocolos (except TCP).\n\nEl soporte para este protocolo actualmente esta incompleto y experimental, pero puede tener mejor rendimiento que el protocolo por defecto LNL.\n\nPara que esto funcione el servidor debe estar configurado explicitamente para poder acceder por QUIC.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "Tamaño de ventana LNL",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Controla el tamaño de la ventana del protocolo LNL para la conectividad. Cambiar esto tendrá efecto inmediato en todas las sesiones activas.\n\nSi percibes alguna acumulación de paquetes, puedes incrementar este valor para mejorar el caudal de conexión. Sin embargo, valores más altos también podrían desestabilizar más la conexión.\n\n<color=hero.yellow>Valor por defecto:</color> 64\n\n<color=hero.red>IMPORTANTE:</color> Esta opción es para diagnosticar y como un arreglo temporal; el valor se reajustará automáticamente en el futuro.",
 
@@ -2610,6 +2615,15 @@
         "Desktop.LegacyInputMode.Off": "Entrada de Legado: Off",
         "Desktop.Brightness": "Brillo: {n,number,percent}",
         "Desktop.Opacity": "Opacidad: {n,number,percent}",
+
+        "Desktop.Stream": "Compartit Pantalla",
+        "Desktop.Stream.Display": "Monitor {index}: {width}x{height}",
+        "Desktop.Stream.Title": "Configurar Compartir Pantalla",
+        "Desktop.Stream.Audio": "Incuir audio de escritorio",
+        "Desktop.Stream.FPS": "FPS:",
+        "Desktop.Stream.Resolution": "Resolución:",
+        "Desktop.Stream.Bitrate": "Tasa de bits:",
+        "Desktop.Stream.Start": "Comenzar a Compartir",
 
         "VolumePlaneSlicer.Highlight": "Destacar",
         "VolumePlaneSlicer.Slicer": "Rebanar",
