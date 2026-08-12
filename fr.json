@@ -934,6 +934,7 @@
         "Tools.Rig.AddEffector": "Ajouter Actionneur",
         "Tools.Rig.RemoveEffector": "Supprimer Actionneur",
         "Tools.Rig.SetupFABRIK": "Configurer solveur FABRIK",
+        "Tools.Rig.SetupTrigIK": "Configurer solveur IK trigonométrique",
         "Tools.Rig.CreateNew": "Créer nouvelle armature",
         "Tools.Rig.DeselectRig": "Désélectionner armature",
         "Tools.Rig.DestroyBone": "Supprimer os",
@@ -1969,7 +1970,9 @@
         "Settings.PhotoCaptureSettings.EncodeFormat": "Format d'encodage",
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "Le format d'image dans lequel les photos seront encodées. Si vous avez besoin d'un format spécifique, définissez le ici.\n\nCertains formats ne possèdent pas certaines fonctionnalités telles qu'une chaîne alpha. D'autres ont des temps d'encodage plus longs et créent des fichiers plus lourds.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Toujours cacher les noms",
-        "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Activez cette option pour toujours cacher les noms dans le photos. Ce paramètre est indépendant de l'option de visibilité des noms et assure qu'ils seront toujours cachés dans les photos.",
+        "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Activez cette option pour toujours cacher les noms dans les photos. Ce paramètre est indépendant de l'option de visibilité des noms et assure qu'ils seront toujours cachés dans les photos.",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "Toujours cacher les gizmos",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "Activez cette option pour toujours cacher les gizmos de développement dans les photos. Cela peut vous aider à prendre des photos plus propres même si quelqu’un est en train de travailler. Les Inspecteurs et le ProtoFlux resteront visibles.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Champ de vision",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Définit le champ de vision en mode bureau. Des valeurs plus grandes entraînera une vue plus large au coût de distortions sur les côtés de l'écran.",
@@ -2502,6 +2505,16 @@
 
         "Inspector.Actions.CopyComponent": "Copier le composant",
         "Inspector.Actions.MoveComponent": "Bouger le composant",
+
+        "Inspector.Actions.CopyName": "Copier le nom",
+        "Inspector.Actions.CopyTag": "Copier le tag",
+        "Inspector.Actions.CopyGlobalPosition": "Copier la position globale",
+        "Inspector.Actions.CopyLocalPosition": "Copier la position locale",
+        "Inspector.Actions.CopyGlobalScale": "Copier l’échelle globale",
+        "Inspector.Actions.CopyLocalScale": "Copier l’échelle locale",
+        "Inspector.Actions.CopyGlobalRotation": "Copier la rotation globale",
+        "Inspector.Actions.CopyLocalRotation": "Copier la rotation locale",
+        "Inspector.Actions.CopyOrderOffset": "Copier l’indice de tri",
 
         "Inspector.Wizard.PackTexture": "Combiner textures",
         "Inspector.Wizard.UnpackTexture": "Extraire texture",
