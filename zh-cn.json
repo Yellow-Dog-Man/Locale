@@ -1743,8 +1743,6 @@
         "Settings.AudioPerformanceSettings": "音频性能设置",
         "Settings.AudioPerformanceSettings.MaxVoices": "最大同时播放声音数",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "这控制着可同时播放的声音数量。增加此数值可让您一次听到更多声音, 但会以增加 CPU 使用率为代价。<br><br>如果把数值设置太高, 您有可能会听到爆音。",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize": "模拟帧大小",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "此设置控制音频渲染时一次性计算的音频数据量。<br><br>增大该值可在某些方面提升性能, 但会降低音频事件触发频率并增加延迟。<br><br>通常不建议修改此值, 建议保持默认值 1024 。",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "播放缓冲区大小",
         "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "此设置控制音频播放缓冲区的大小。数值越大, 音频延迟越高, 但更能避免爆音和杂音。<br><br>降低此值可减少音频延迟, 但系统将更容易出现爆音和音频中断。",
 
