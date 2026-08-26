@@ -1743,10 +1743,10 @@
         "Settings.AudioPerformanceSettings": "音訊效能設定",
         "Settings.AudioPerformanceSettings.MaxVoices": "最大發聲數",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "這控制可以同時播放多少聲音。增加此值將讓您一次聽到更多聲音，但會消耗更多 CPU。<br><br>如果您將此設定得太高，可能會聽到音訊爆音。",
-        "Settings.AudioPerformanceSettings.OutputBufferSize": "播放緩衝大小",
-        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "這控制音訊播放的緩衝區大小。更高的值會有更多音訊延遲，但更能抵抗爆音。<br><br>透過降低此值，您可以減少音訊延遲，但系統會更容易出現爆音和中斷。",
+        "Settings.AudioPerformanceSettings.OutputBufferSize": "音訊緩衝區大小",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "本選項控制用於播放音效的緩衝區大小。<br><br>緩衝區大小會基於系統音訊緩衝區（亦即電腦的 Quantum）的 sample （樣本數）的倍率來決定。<br><br>數字越大延遲越高，但也比較不容易出現爆音或雜訊。<br><br>降低這個數字可以降低音訊延遲，但更容易發生音效斷斷續續或是爆音的問題。<br><br>",
         "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer": "每個系統音訊緩衝區的模擬幀數",
-        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description": "本選項控制每個音訊緩衝區（亦即電腦的 Quantum）會執行幾次模擬。<br><br><color=hero.orange><b>重要</b></color>：本設定與音訊播放緩衝區的大小<b>無關</b>，是關於音訊緩衝區本身的設定。<br><br>例如：如果您的電腦的音訊緩衝區使用 960 個 sample（樣本數），每個緩衝區進行 4 次模擬，則模擬器一次會渲染 240 個 sample。<br><br>對多數系統而言，設定為 4 即可。",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description": "本選項控制每個系統音訊緩衝區（亦即電腦的 Quantum）會執行幾次模擬。<br><br><color=hero.orange><b>重要</b></color>：本設定與音訊播放緩衝區的大小<b>無關</b>，是關於系統音訊緩衝區的設定。<br><br>例如：如果您的電腦的系統音訊緩衝區使用 960 個 sample（樣本數），每個緩衝區進行 4 次模擬，則模擬器一次會渲染 240 個 sample。<br><br>對多數系統而言，設定為 4 即可。",
 
         "Settings.VoiceSettings": "聲音配置",
         "Settings.VoiceSettings.MutePersistence": "登入時的麥克風狀態",
