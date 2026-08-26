@@ -383,7 +383,8 @@
         "Tools.CreateNewWorld": "Crear Un<br>Mundo Nuevo",
         "Tools.Debug": "Depurar",
         "Tools.StreamAudio": "Transmitir Audio",
-        "Tools.StreamVideo": "Transmitir Video Personalizado",
+        "Tools.StreamVideo": "Transmitir Video Personalizado<sup><color=hero.red>BETA",
+        "Tools.StreamVideo.Stop": "Parar de Transmitir Video Personalizado",
         "Tools.Setup2FA": "Configurar 2FA",
 
         "Tools.StreamAudio.Dialog.Title": "Crear Transmisión de Audio",
@@ -1744,6 +1745,8 @@
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "Esto controla el número de sonidos que se pueden reproducir al mismo tiempo. Si aumentas este valor, podrás escuchar más sonidos a la vez, aunque a costa de un mayor uso de la CPU.<br><br>Si lo configuras en un valor demasiado alto, es posible que se oigan crujidos en el audio.",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "Tamaño del Búfer de Reproducción",
         "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Controla el tamaño del búfer para la reproducción de audio. Los valores más altos provocan una mayor latencia de audio, pero son más resistentes a los crujidos y los chasquidos.<br><br>Al reducir este valor, se puede disminuir la latencia de audio, pero el sistema será más susceptible a los crujidos y los cortes.",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer": "Fotogramas de simulación por búfer del sistema",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description": "Esto controla cuántas veces se ejecutará el simulador durante un ciclo del tamaño del búfer de audio de tu equipo - También conocido como el \"quantum\" de audio de tu sistema.<br><br><color=hero.orange><b><i>Importante</b></color>:</i> Esto <i>no</i> está relacionado con el tamaño del búfer de reproducción, sino con el quantum de audio de tu equipo.<br><br>Por ejemplo: si tu equipo tiene un quantum de 960 muestras y el simulador opera a cuatro fotogramas por ciclo, entonces el simulador procesará 240 muestras de audio cada vez.<br><br>Un ajuste de \"Cuatro\" debería ser adecuado para la mayoría de los sistemas.",
 
         "Settings.VoiceSettings": "Configuraciones de Voz",
         "Settings.VoiceSettings.MutePersistence": "Persistencia de Silenciado",
@@ -1807,6 +1810,12 @@
         "Settings.DebugSettings.DebugInputBindings.Description": "Al habilitarse, será visible la información de depuración para el sistema de vinculaciones de entrada. Útil para desarrolladores.",
         "Settings.DebugSettings.ConvertParticleSystems": "Convertir sistemas de partículas a PhotonDust",
         "Settings.DebugSettings.ConvertParticleSystems.Description": "Habilitar esta opción ejecutará una conversión del sistema de partículas de legado al nuevo sistema personalizado (PhotonDust) para cualquier <b>nuevo</b> elemento y mundo que se cargue. <br><br><color=red>¡Esto está pensado únicamente con fines de prueba!</color> Si no formas parte del equipo de pruebas, no te recomendamos que actives esta opción, ya que TU CONTENIDO PODRÍA CORROMPERSE COMO CONSECUENCIA DE ELLO.<br><br>Consulta nuestro GitHub/Discord si deseas ayudar con las pruebas.",
+        "Settings.DebugSettings.ShowMediaMTXWindow": "Mostrar ventana de MediaMTX",
+        "Settings.DebugSettings.ShowMediaMTXWindow.Description": "Al transmitir vídeo, la instancia de MediaMTX mostrará una ventana visible. Esto puede resultar útil para visualizar su salida.<br><br><color=hero.red>ADVERTENCIA:</color> Si la cierras manualmente, la funcionalidad de transmisión dejará de funcionar.",
+        "Settings.DebugSettings.UseProtonForMediaMTX": "Usar Proton para MediaMTX",
+        "Settings.DebugSettings.UseProtonForMediaMTX.Description": "En sistemas Linux, en lugar de ejecutar la versión nativa para Linux de MediaMTX, ejecuta la versión para Windows mediante Proton.",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder": "Forzar codificador de vídeo por software",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder.Description": "Utiliza un codificador de vídeo por software para transmitir el escritorio en lugar de la codificación de vídeo por hardware.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Doble click el Agarre para equipar objetos",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Al habilitarse, puedes equipar herramientas y artefactos presionando Agarre dos veces rápidamente. Esta opción probablemente sea quitada en el futuro.",
@@ -1936,6 +1945,8 @@
         "Settings.DesktopViewSettings.Brightness.Description": "El brillo de la vista de Escritorio.",
         "Settings.DesktopViewSettings.Opacity": "Opacidad",
         "Settings.DesktopViewSettings.Opacity.Description": "Disminuye el valor para que la vista de Escritorio sea semi-transparente, facilitando ver lo que se encuentre detrás en el mundo.",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR": "Ocultar el botón de menú en VR",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR.Description": "Ocultará el botón del menú de hamburguesa en la pestaña de escritorio mientras se esté en modo VR. Puedes abrir el menú apuntando a la pantalla y pulsando el botón de menú contextual.",
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Gesto de foto con dedos",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "Al habilitarse, puedes tomar fotos rápidamente en el mundo haciendo una pose de marco de foto con tus dedos y luego doblando uno de tus dedos índices.",
@@ -2614,7 +2625,8 @@
         "Desktop.Brightness": "Brillo: {n,number,percent}",
         "Desktop.Opacity": "Opacidad: {n,number,percent}",
 
-        "Desktop.Stream": "Compartit Pantalla",
+        "Desktop.Stream": "Compartit Pantalla<sup><color=hero.red>BETA",
+        "Desktop.StopStream": "Parar de Compartir Pantalla",
         "Desktop.Stream.Display": "Monitor {index}: {width}x{height}",
         "Desktop.Stream.Title": "Configurar Compartir Pantalla",
         "Desktop.Stream.Audio": "Incuir audio de escritorio",
