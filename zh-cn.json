@@ -1745,6 +1745,8 @@
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "这控制着可同时播放的声音数量。增加此数值可让您一次听到更多声音, 但会以增加 CPU 使用率为代价。<br><br>如果把数值设置太高, 您有可能会听到爆音。",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "播放缓冲区大小",
         "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "此设置控制音频播放缓冲区的大小。数值越大, 音频延迟越高, 但更能避免爆音和杂音。<br><br>降低此值可减少音频延迟, 但系统将更容易出现爆音和音频中断。",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer": "每个系统缓冲区的模拟帧数",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description": "此设置控制模拟器在您计算机音频缓冲区大小的一段周期内运行的次数 - 也就是您计算机音频的“量子”。<br><br><color=hero.orange><b><i>重要说明</b></color>:</i> 这与播放缓冲区大小<i>无关</i>。它关系到的是您计算机音频的量子。<br><br>例如: 如果您的计算机音频量子为 960 个采样, 而模拟器在该周期内以四帧进行模拟, 那么模拟器将每次渲染 240 个音频采样。<br><br>对于大多数系统而言, 设置为“四”应该已经足够。",
 
         "Settings.VoiceSettings": "语音设置",
         "Settings.VoiceSettings.MutePersistence": "登录时的麦克风状态",
