@@ -387,6 +387,8 @@
         "Tools.CreateNewWorld": "Criar Novo Mundo",
         "Tools.Debug": "Depurar",
         "Tools.StreamAudio": "Stream de Áudio",
+        "Tools.StreamVideo": "Stream de Vídeo Customizada<sup><color=hero.red>BETA",
+        "Tools.StreamVideo.Stop": "Parar Stream de Vídeo Customizada",
         "Tools.Setup2FA": "Configurar 2FA",
 
         "Tools.StreamAudio.Dialog.Title": "Criar Stream de Áudio",
@@ -885,6 +887,7 @@
         "Tools.ProtoFlux.PackInto": "Compactar em <size=50%>{name}</size>",
         "Tools.ProtoFlux.Unpack": "Descompactar <size=50%>{name}</size>",
         "Tools.ProtoFlux.ExplicitCast": "Cast Explicito\n<size=50%>(<color=red>AVISO:</color> Possível perca de dados)</size>",
+        "Tools.ProtoFlux.Wiki": "Wiki <size=50%>{node}</size>",
 
         "Tools.Meter.Mode.Ray": "Modo: Raio",
         "Tools.Meter.Mode.Perpendicular": "Modo: Perpendicular",
@@ -922,6 +925,15 @@
         "Tools.ControllerDiagnostic.Name": "Ferramenta de Diagnóstico de Controle",
 
         "Tools.Labeler.Name": "Ferramenta de Rotulagem",
+
+        "Tools.Rig.AddEffector": "Adicionar Effector",
+        "Tools.Rig.RemoveEffector": "Remover Effector",
+        "Tools.Rig.SetupFABRIK": "Configurar o Resolvedor do FABRIK IK",
+        "Tools.Rig.SetupTrigIK": "Configurar o Resolvedor do IK de Trigonometria",
+        "Tools.Rig.CreateNew": "Criar Novo Rig",
+        "Tools.Rig.DeselectRig": "Deselecionar Rig",
+        "Tools.Rig.DestroyBone": "Destruir o Osso",
+
 
         "ProtoFlux.UI.Call": "Chamada",
         "ProtoFlux.UI.AsyncCall": "Chamada <size=50%>Assíncrona</size> ",
@@ -1398,7 +1410,10 @@
         "Settings.AudioAccessibilitySettings": "Acessibilidade de Áudio",
         "Settings.AudioInputFilteringSettings": "Filtragem de Entrada",
 
-        "Settings.RealtimeNetworkingSettings": "Conexões em tempo real",
+        "Settings.AudioStreamSettings": "Conifgurações de Transmissão de Áudio",
+        "Settings.AudioStreamSettings.DefaultBitrate": "Bitrate Padrão",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "ID de Dispositivo Padrão",
+
         "Settings.AssetGatherSettings": "Coleta de Assets",
 
         "Settings.HostAccessSettings": "Acesso ao Host",
@@ -1731,8 +1746,6 @@
         "Settings.AudioPerformanceSettings": "Configurações de Performance de Áudio",
         "Settings.AudioPerformanceSettings.MaxVoices": "Número máximo de sons ativos",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "Ajusta quantos sons podem ser reproduzidos simultaneamente. Aumentar este valor permite ouvir mais sons ao mesmo tempo, mas aumenta o uso de CPU.<br><br>Se este valor for muito alto, pode ocorrer estalos no áudio.",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize": "Tamanho do Frame de Simulação",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Controla a quantidade de dados de áudio que são computados de uma vez ao renderizar o áudio. Aumentar o valor pode melhorar o desempenho de algumas maneiras, mas virá ao custo de eventos de áudio menos frequentes e latência aumentada.<br><br> Geralmente não recomendamos alterar este valor e manter o padrão 1024.",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "Tamanho do Buffer de Playback",
         "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Controla o tamanho do buffer para reprodução de áudio. Valores mais altos terão mais latência de áudio, mas serão mais resistentes a estalos e estalos.<br><br> Ao diminuir este valor, você pode reduzir a latência de áudio, mas o sistema será mais suscetível a estalos e quedas.",
 
@@ -1756,11 +1769,14 @@
         "Settings.EarmuffSettings.VolumeAttenuation": "Atenuação de Volume",
         "Settings.EarmuffSettings.VolumeAttenuation.Description": "Controla o quão alto serão as vozes além do \"Cone Auditivo\". Configurar isso para 0 % irá silenciar completamente todos os usuários além do cone auditivo.",
 
+        "Settings.RealtimeNetworkingSettings": "Conexões em tempo real",
         "Settings.RealtimeNetworkingSettings.DisableLAN": "Desativar LAN",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Desativa recursos de rede específicos para redes locais, como transmissão da sua sessão na rede local ou ouvir outras sessões transmitidas nesta rede.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Preferir soquetes de rede da Steam",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Quando ativado, você irá conectar via protocolo Steam Networking Sockets se possível. Isso pode ajudar em alguns casos quando o protocolo LNL resulta em filas significativas. No entanto, como este protocolo está faltando alguns recursos, você pode enfrentar mais instabilidade na rede, então recomendamos apenas ativar isso uma vez que você tenha enfrentado problemas.",
         "Settings.RealtimeNetworkingSettings.PreferTCP": "Preferir TCP",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC": "Preferir QUIC (Experimental)",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC.Description": "Quando ativado, conexões são feitas via QUIC tem preferência sobre os outros protocolos (exceto via TCP).\n\nO Suporte para este protocolo está atualmente incompleto e experimental, mas, pode performar melhor que o protocolo LNL.\n\nO Servidor deve ser configurado explicitamente para ser acessado por meio do QUIC para essa opção ter efeito.",
         "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Quando ativado, conexões via TCP têm prioridade sobre outros protocolos. Isso impacta principalmente conexões em rede local (LAN), pois o TCP não é utilizado por padrão em conexões pela internet.\n\nO TCP pode oferecer melhor desempenho em redes locais (LAN) e funcionar em certas redes onde protocolos baseados em UDP não funcionam.\n\nNo entanto, eles também podem sofrer de bloqueio \"head of line\", fazendo com que vozes e poses fiquem significativamente atrasadas.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "Tamanho da janela do protocolo LNL",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Controla o tamanho da janela do protocolo LNL para conexões em tempo real. Alterar essa configuração terá efeito imediato em todas as sessões ativas.\n\nSe você estiver enfrentando enfileiramento de pacotes, você pode aumentar esse valor para melhorar a saída (throughput) da conexão. No entanto, valores mais altos também podem tornar a conexão mais instável, então tenha cuidado.\n\n<color=hero.yellow>Valor padrão:</color> 64\n\n<color=hero.red>IMPORTANTE:</color> Esta configuração é para diagnósticos e uma solução temporária; este valor irá ser ajustado automaticamente no futuro.",
@@ -1792,10 +1808,16 @@
         "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat": "Manter o formato original da captura de tela",
         "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat.Description": "Ative esta opção para evitar a conversão das capturas de tela para JPG ou PNG ao salvá-las na pasta Imagens do seu disco rígido. Isso pode torná-las mais difíceis de usar, já que alguns aplicativos podem não conseguir abrir o formato.",
 
-        "Settings.DebugSettings.DebugInputBindings": "Depurar mapeamento de entrada",
+        "Settings.DebugSettings.DebugInputBindings": "Depurar Mapeamento de Entrada",
         "Settings.DebugSettings.DebugInputBindings.Description": "Quando ativado, você verá informações de depuração para o sistema de mapeamento de entrada. Isso é principalmente útil para desenvolvedores.",
         "Settings.DebugSettings.ConvertParticleSystems": "Converter sistemas de partículas para PhotonDust",
         "Settings.DebugSettings.ConvertParticleSystems.Description": "Ativar esta opção executará uma conversão do sistema de partículas legado para o novo personalizado (PhotonDust) para quaisquer itens e mundos <b>novamente</b> carregados.<br><br><color=red>Isso é destinado apenas a fins de teste!</color> Se você não estiver parte do teste, não recomendamos ativar esta opção, SEU CONTEÚDO PODE FICAR CORROMPIDO COMO RESULTADO.<br><br>Por favor, veja nosso GitHub/Discord se quiser ajudar com o teste.",
+        "Settings.DebugSettings.ShowMediaMTXWindow": "Exibir Janela do MediaMTX",
+        "Settings.DebugSettings.ShowMediaMTXWindow.Description": "Quando transmitindo vídeo, A Janela da Instância do MediaMTX vai ter uma janela visivel. Pode ser útil para ver o retorno da saída.<br><br><color=hero.red>AVISO:</color> Se você fechar a janela, a funcionalidade de transmissão vai quebrar.",
+        "Settings.DebugSettings.UseProtonForMediaMTX": "Usar o Proton no MediaMTX",
+        "Settings.DebugSettings.UseProtonForMediaMTX.Description": "Em Sistemas Linux, invés de abrir a versão nativa de Linux do MediaMTX, Abre a versão do Windows usando o Proton.",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder": "Forçar Codificador de Vídeo de Software",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder.Description": "Usa o Codificador de Software para transmissão do desktop invés da Codificação de Vídeo via Hardware.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Aperte duas vezes o Grip para equipar itens",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Quando ativado, você pode equipar ferramentas e acessórios apertando o Grip duas vezes rapidamente. Este ajuste provavelmente será removido em algum momento.",
@@ -1953,6 +1975,8 @@
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "O formato do arquivo de imagem no qual as fotos capturadas serão codificadas. Se você precisar que as fotos estejam em um formato específico, pode usar essa configuração para selecionar qual delas será usada.\n\nPor favor, note que certos formatos podem não ter algumas características (como suporte a alpha), podem codificar significativamente mais devagar, ter qualidade de imagem inferior ou resultar em arquivos maiores.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Sempre esconder Nameplates",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Ative isso se quiser que os nameplates nunca apareçam em suas fotos. Esta configuração é independente da visibilidade atual dos nameplates e garantirá que eles estejam escondidos em todas as fotos capturadas.",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "Sempre esconder Gizmos",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "Ative essa opção se você quiser esconder os gizmos de desenvolvedor das suas fotos. Isso pode ajudar em casos que você queira tirar uma foto não poluída enquanto alguém está editando alguma coisa. Inspetores e o ProtoFlux irão permanecer visíveis.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Campo de Visão (FOV)",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Ajusta o campo de visão (FOV) quando estiver no modo desktop. Valores maiores lhe darão uma visão mais ampla, mas com maior distorção nos lados.",
@@ -2444,8 +2468,10 @@
 
         "Inspector.CharacterController.Warning": "<color=red><size=150%>AVISO!</size></color><br>É possivel usar este componente como um corpo rígido simples ativando SimulateRotation. Antes que você faça isto, por favor entenda que ele não está otimizado para esse propósito e o suporte Rigidbody adequado estará disponível no futuro.<br>Suporte adequado do corpo rígido oferecerá:<br><b>- Eficiência de CPU e Rede</b>- com o CharacterController você obterá maior uso da CPU e uma quantidade maior significativa de tráfego de rede<br><b>- Constraints</b> - você poderá criar juntas, dobradiças, molas e outras restrições entre corpos rígidos<br><b>- Simulação e interações suaves para todos</b> - CharacterController irá quebrar se outra pessoa tentar interagir<br><b>- Novos recursos e ferramentas</b> - para tornar seu uso muito mais fácil<br>-----------------------<br>Contanto que você entenda essas limitações, divirta-se!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>AVISO!</size></color><br>É possivel usar este componente interagir com referências usando seus IDs. Este processo é comumente chamado de 'Ref Hacking'.<br><br><b>Antes</b> que você faça isto, por favor entenda que isto <b>não</b> é suportado e poderá quebrar a qualquer momento. Não dependa neste funcionalidade para suas criações.",
-        "Inspector.FacetPreset.Warning": "<color=red><size=125%>WARNING!</size></color><br>FacetPresets will automatically upgrade their contents when we publish new versions of those presets. If you're making a custom version, we recommend deleting this component.",
-        "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>WARNING!</size></color><br> This component is not designed as a security/asset theft protection system. It is intended to be used for cases where you wish to block the easier methods of saving for gameplay or design reasons. It can easily be bypassed and it will not be made more secure under any circumstances.",
+        "Inspector.FacetPreset.Warning": "<color=red><size=125%>AVISO!</size></color><br>As Predefinições das Facetas vão ser automaticamente atualizadas quando nós publicarmos novas versões desses presets. Se você está fazendo uma versão customizada, nós recomendamos deletar este componente.",
+        "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>AVISO!</size></color><br> Este componente não foi feito com o intuíto de segurança/sistema anti-furto de assets. Ele foi feito para ser usado em casos que você queira bloquear os metódos mais fáceis para razões de gameplay e design. Podendo ser facilmente evitado, e não vamos tornar ele mais seguro em nenhuma circunstância.",
+
+        "Inspector.NewSystem.Warning": "<color=red><size=125%>AVISO!</size></color><br> Este componente faz parte de um sistema recém adicionado que está não está finalizado. Você pode até experimentar e brincar com ele, porém, Note que nós podemos realizar alterações grandes que podem quebrá-lo, sendo necessário você atualizar seu conteúdo.<br><br>Se você quer garantir compatibilidade há longo prazo em coisas que você criar usando isso, recomendamos que espere este aviso desaparecer.",
 
         "Inspector.AI_GeneratedContent.Info": "Este componente é destinado a marcar conteúdo gerado por IA generativa. É recomendado colocá-lo na raiz dos objetos que são gerados através desses métodos. Isso adicionará automaticamente tags quando o item for salvo, bem como quando o mundo for salvo com esses componentes presentes, o que permitirá que esse conteúdo seja filtrado.",
 
@@ -2472,11 +2498,27 @@
         "Inspector.SimpleAwayIndicator.TestAway": "Definir como Away (debug)",
         "Inspector.SimpleAwayIndicator.TestRestore": "Restaurar para o normal (debug)",
 
+        "Inspector.FingerReferencePoseSource.AssignFromBipedRig": "Definir do Rig Bípede",
+        "Inspector.FingerReferencePoseSource.CaptureMyLeftHand": "Capturar Minha Mão Esquerda",
+        "Inspector.FingerReferencePoseSource.CaptureMyRightHand": "Capturar Minha Mão Direita",
+        "Inspector.BipedRig.GenerateStaticFingerPoseCode": "Copiar posição estática do dedo para Área de Transferência",
+        "Inspector.FingerReferencePoseSource.CaptureReference": "Capturar da Referência",
+
         "Inspector.Fields.Drive": "Vincular",
         "Inspector.Fields.DriveWriteBack": "Vincular <size=50%>(write back)</size>",
 
         "Inspector.Actions.CopyComponent": "Copiar Componente",
         "Inspector.Actions.MoveComponent": "Mover Componente",
+
+        "Inspector.Actions.CopyName": "Copiar Nome",
+        "Inspector.Actions.CopyTag": "Copiar Tag",
+        "Inspector.Actions.CopyGlobalPosition": "Copiar Posição Global",
+        "Inspector.Actions.CopyLocalPosition": "Copiar Posição Local",
+        "Inspector.Actions.CopyGlobalScale": "Copiar Escala Global",
+        "Inspector.Actions.CopyLocalScale": "Copiar Escala Local",
+        "Inspector.Actions.CopyGlobalRotation": "Copiar Rotação Global",
+        "Inspector.Actions.CopyLocalRotation": "Copiar Rotação local",
+        "Inspector.Actions.CopyOrderOffset": "Copiar Ordem de Offset",
 
         "Inspector.Wizard.PackTexture": "Compactar Textura",
         "Inspector.Wizard.UnpackTexture": "Descompactar Textura",
