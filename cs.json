@@ -1750,6 +1750,8 @@
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "Tato hodnota řídí, kolik zvuků se může přehrávat najednou. Zvýšení této hodnoty vám dovolí slyšet více zvuků najednou za cenu zátěže CPU.<br><br>Pokud tuto hodnotu nastavíte příliš vysoko, můžete začít slyšet praskání.",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "Velikost bufferu přehrávání",
         "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Tato hodnota řídí velikost vyrovnávací paměti (bufferu) pro přehrávání audia. Vyšší hodnoty budou mít vyšší latenci, ale budou více odolné proti praskání a pukání.<br><br>Snížením této hodnoty můžete snížit audio latenci, ale systém bude více náchylný na praskání a pukání.",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer": "Počet simulačních rámců na systémový buffer",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description": "Toto nastavení určuje, kolikrát simulátor poběží během období odpovídajícího velikosti zvukového bufferu vašeho počítače - AKA \"kvantum\" zvuku vašeho počítače.<br><br><color=hero.orange><b><i>Důležité</b></color>:</i> Toto <i>nesouvisí</i> s velikostí přehrávacího bufferu. Souvisí to s kvantem zvuku vašeho počítače.<br><br>Například: Pokud váš počítač podporuje kvantum 960 vzorků a simulátor simuluje čtyři rámce za tuto dobu, pak simulátor vykreslí 240 zvukových vzorků najednou.<br><br>Nastavení „Čtyři“ by mělo být pro většinu systémů dostačující.",
 
         "Settings.VoiceSettings": "Nastavení hlasu",
         "Settings.VoiceSettings.MutePersistence": "Trvalé ztišení",
@@ -3489,128 +3491,139 @@
         "Help.Controls.Interaction.Anchors": "Kotvy",
         "Help.Controls.Interaction.Anchors.Content": "<b><color=hero.purple>Kotvy</closeall> jsou objekty, které vám umožňují připevnit se do nich, jako například u místa k sezení na nábytku, nebo na sedadle ve vozidle. Pokud se kotva pohne ve chvíli kdy jste v ní upevněni, budete se pohybovat spolu s kotvou. Některé kotvy také umožňují pózovat tělo vašeho avatara. Pro vstup do kotvy na ni namiřte váš laser a stiskněte <b><color=hero.purple>{Primary_Input}</closeall> pro zobrazení jejího menu. V něm zvolte <b><color=hero.purple>Vstoupit do kotvy</closeall>. Pro opuštění kotvy{is_using_vive_wands, select, True {} other {,}} stiskněte{is_desktop, select, True {} other { vaši}} <b><color=hero.purple>{Secondary_Input}</closeall>{is_using_vive_wands, select, True {} other { nebo posuňte vaším <b><color=hero.purple>{Movement_Input}</closeall>}}. Toto chování se však může lišit kotva od kotvy.",
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        "Help.Controls.Locomotion": "Metoda pohybu",
+        "Help.Controls.Locomotion.Content": "Ve většině světů existují čtyři hlavní metody pohybu, ke kterým se dostanete otevřením <b><color=hero. Cyan>kontextového menu</closeall> {is_using_vive_wands, select, True {rychlým stisknutím} jiného {with}} <b><color=hero.purple>{Context_Menu_Input}</closeall> a výběrem <sprite name=LocomotionIcon> <b><color=hero.purple>Pohyb</closeall>. <br><b><color=hero.orange>Upozorňujeme, že některé z těchto metod pohybu mohou způsobit nevolnost z pohybu a měly by být používány podle vlastního uvážení.</closeall><br><br>Toto je základní přehled způsobu pohybu v {appName} a můžete narazit na vlastní typy pohybu vytvořené členy komunity. Metody pohybu se mohou lišit od světa k světu a lze je přidat i k avataru, pokud chcete mít neustálý rychlý přístup k vlastnímu typu. Pokud trpíte nevolností z pohybu, zvažte použití jednoduchých metod pohybu, jako jsou <b><color=hero.yellow>Chůze/Běh</closeall>, <b><color=hero.purple>Teleportace</closeall> nebo <b><color=hero.orange>Uchopení světa</closeall>, společně s <b><color=hero.purple>Otáčení skokem</closeall>.", 
+        "Help.Controls.Locomotion.WalkRun.Content": "Umožňuje vám pohybovat se po světě stejně jako ve skutečném životě. Pro chůzi dopředu, stiskněte <b><color=hero.purple>{Movement_Input}</closeall>. Pro běh, stiskněte {is_desktop, select, True {a držte <b><color=hero.purple>Shift</closeall> během pohybu} jinak {stiskněte tlačítko <b><color=hero.purple>dopředu na obou ovladačích}}.",
+        "Help.Controls.Locomotion.WalkRunWithClimbing": "Chůze/Běh (se šplháním)",
+        "Help.Controls.Locomotion.WalkRunWithClimbing.Content": "Tento způsob pohybu je stejný jako <b><color=hero.orange>Chůze/Běh</closeall>, ale umožňuje vám šplhat na předměty nebo stěny tak, že podržíte <b><color=hero.purple>{Grip_Input}</closeall> a přitáhnete se k předmětu. {is_desktop, select, True {Lezení je možné i v desktopové verzi, výsledky se však mohou lišit od lezení ve VR.} other {}}",
+        "Help.Controls.Locomotion.Fly.Content": "Umožnuje vám se pohybovat ve vzduchu, ale stále umožňuje interagovat se zemí, stěnami a předměty v okolí.",
+        "Help.Controls.Locomotion.NoClip.Content": "Úplně ignoruje fyziku a gravitaci, což vám umožňuje volně se pohybovat ve vzduchu a procházet pevnými předměty.",
+        "Help.Controls.Locomotion.Teleport.Content": "Umožňuje vám ukázat na místo ve vašem dohledu a okamžitě se tam přesunout.{is_desktop, select, True {<br><b><color=hero.orange>Tato metoda pohybu je dostupná pouze ve VR.</closeall>} other {}}",
+        "Help.Controls.Locomotion.ZeroGravity.Content": "Umožňuje vám vznášet se bez působení gravitace a zachovat si hybnost při pohybu ve vzduchu. {is_desktop, select, True {} other {Můžete se také volně otáčet v 3D prostoru.}}",
+        "Help.Controls.Locomotion.GrabWorld.Content": "Umožňuje vám pohybovat se tak, že podržíte ve směru vpřed <b><color=hero.purple>{Movement_Input}</closeall> a táhnout se tak po herním světě, a to i vzduchem. {is_desktop, select, True {<br><b><color=hero.orange>Tato metoda pohybu je k dispozici pouze ve VR.</closeall>} other {}}",
+        "Help.Controls.Locomotion.Slide": "Posun",
+        "Help.Controls.Locomotion.Slide.Content": "Tento způsob pohybu vás přichytí k nejbližšímu povrchu ve vašem okolí a umožní vám po něm přímo klouzat, když se pohybujete.",
+        
+        "Help.Controls.UserScaling": "Škálování uživatele",
+        "Help.Controls.UserScaling.Content": "Svojí velikost můžete změnit otevřením <b><color=hero.Cyan>Kontextového menu</closeall> {is_using_vive_wands, select, True {rychlým stisknutím} other {with}} <b><color=hero.purple>{Context_Menu_Input}</closeall> a stisknutím <sprite name=AvatarScaleDisabledIcon> <b><color=hero.red>Změna škálování zakázána</closeall>. Tím se přepne tlačítko na <sprite name=AvatarScaleEnabledIcon> <b><color=hero.green>Změna škálování povolena</closeall> a při podržení {is_desktop, select, True {<b><color=hero.purple>Ctrl</closeall> a posouváním <b><color=hero.purple>kolečka myši</closeall>} jinak {<b><color=hero.purple>{Grip_Input}</closeall> na obou ovladačích a přibližováním či oddalováním rukou}}. Stisknutím <sprite name=AvatarScaleResetIcon> <b><color=hero.red>Obnovit škálování</closeall> se vrátíte k původnímu měřítku. Stisknutím <sprite name=AvatarScaleEnabledIcon> <b><color=hero.green>Změna měřítka povolena</closeall> přepnete tlačítko zpět na <sprite name=AvatarScaleDisabledIcon> <b><color=hero.red>Změna měřítka zakázána</closeall> a zabráníte tak změně svého měřítka.",
+        "Help.Controls.ContextMenu": "Kontextové menu",
+        "Help.Controls.ContextMenu.Content": "Vaše <b><color=hero.cyan>kontextové menu</closeall> nabízí užitečné možnosti, které se mění podle toho, co právě děláte. Do <b><color=hero.cyan>kontextového menu</closeall> se můžete dostat {is_using_vive_wands, select, True {rychlým stisknutím} other {with}} <b><color=hero.purple>{Context_Menu_Input}</closeall>.<br> Ve výchozím nastavení se vám zobrazí zkratky pro <b>Zpět & Znovu</b>, možnost změnit <b>metodu pohybu</b> a nastavení pro manupulaci vaší <b>velikosti</b>.<br>Každou možnost můžete vybrat buď jednotlivě pomocí laseru, nebo jednoduše podržet <b><color=hero.purple>{Primary_Input}</closeall> uprostřed vašeho menu a posunout jej směrem k možnosti, kterou chcete vybrat.<br><br>Itemy, světy a avataři mohou do vaší <b><color=hero.cyan>kontextové nabídky</closeall> přidat také své vlastní doplňkové možnosti.",
+        "Help.Controls.VRGestures": "VR gesta",
+        "Help.Controls.VRGestures.Content": "{appName} nabízí několik rychlých gest pro uživatele VR, díky nimž můžete rychle otevřít svůj dashboard, respawnout svoji postavu, pokud uvíznete, a další. Toto je seznam všech dostupných VR gest. Upozorňujeme, že se jedná pouze o zkrácené verze stávajících akcí, všechny uvedené akce lze provést i jinými způsoby.",
+        "Help.Controls.VRGestures.EmergencyLeaveWorld": "Nouzové opuštění světa",
+        "Help.Controls.VRGestures.EmergencyLeaveWorld.Content": "Tímto gestem se okamžitě odpojíte od současného světa. Chcete-li vyvolat toto gesto, přibližte ovladače k vaší hlavě a stiskněte a podržte <b><color=hero.purple>{Context_Menu_Input}</closeall> po dobu nejméně 3 sekund. Z ovladačů budete cítit vibrace, jejichž intenzita se bude zvyšovat, čím více se budete blížit k odpojení.",
+        "Help.Controls.VRGestures.EmergencyRespawn": "Nouzové respawnutí",
+        "Help.Controls.VRGestures.EmergencyRespawn.Content": "Toto gesto tě respawne tak, že tě odstraní ze světa a znovu spawne na spawnu danného světa. Chcete-li provést tento pohyb, přibližte ovladače k hlavě, poté uchopte alespoň jeden <b><color=hero.purple>{Grip_Input}</closeall> a následně stiskněte a podržte <b><color=hero.purple>{Context_Menu_Input}</closeall> po dobu nejméně 3 sekund.",
+        "Help.Controls.VRGestures.ToggleEditMode": "Přepnout režim úprav",
+        "Help.Controls.VRGestures.ToggleEditMode.Content": "Toto gesto přepne <b><color=hero.cyan>režim úprav</closeall>. Tím se na vašich rukou trvale zobrazí lasery a oblast uchopení, a to až do vypnutí režimu úprav. Chcete-li přepnout do režimu úprav uživatelského rozhraní, přibližte ovladače k vaší hlavě a podržte <b><color=hero.purple>{Context_Menu_Input}</closeall> na <i>jednom</i> z vašich ovladačů a dvakrát stiskněte <b><color=hero.purple>{Context_Menu_Input}</closeall> na druhém ovladači.",
+        "Help.Controls.VRGestures.ToggleUIEditMode": "Přepnout režim úprav UI",
+        "Help.Controls.VRGestures.ToggleUIEditMode.Content": "Toto gesto přepíná <b><color=hero.cyan>režim úprav UI</closeall>, který vám umožňuje přidávat, odebírat nebo upravovat prvky na vašem hlavním panelu nebo facet prvky avatara. Je-li tato funkce zapnutá, můžete také upravovat své úchopové pozice pro nástroje. Chcete-li přepnout do režimu úprav uživatelského rozhraní, přibližte ovladače k vaší hlavě a podržte <b><color=hero.purple>{Menu_Input}</closeall> na <i>jednom</i> z ovladačů a dvakrát stiskněte <b><color=hero.purple>{Menu_Input}</closeall> na druhém ovladači. Režim úprav UI můžete také zapnout pomocí v <b><color=hero.yellow>nastavení</closeall> v sekci <b><color=hero.cyan>Úprava UI</closeall>, v části <sprite name=UserInterfaceIcon> <b><color=hero.purple>Uživatelské rozhraní</closeall>.",
+        "Help.Controls.VRGestures.ToggleDashboard": "Přepnout Dashboard",
+        "Help.Controls.VRGestures.ToggleDashboard.Content": "This gesture opens and closes your dashboard. To open or close your dash, bring your left controller to your head and press your <b><color=hero.purple>{Context_Menu_Input}</closeall>.",
+        "Help.Controls.VRGestures.ToggleFacetAnchors": "Toggle Facet Anchors",
+        "Help.Controls.VRGestures.ToggleFacetAnchors.Content": "This gesture opens and closes your facet anchors. To open or close your dash, bring your right controller to your head and press your <b><color=hero.purple>{Context_Menu_Input}</closeall>.",
+        "Help.Controls.DesktopControls": "Desktop Controls",
+        "Help.Controls.DesktopControls.Content": "{appName} on Desktop offers a handful of quick shortcuts to help you get things done. Here is a list of the different shortcuts available.",
+
+        "Help.Controls.DesktopControls.Undo.Content": "Undo an action using <b><color=hero.purple>Ctrl + Z</closeall>.",
+        "Help.Controls.DesktopControls.Redo.Content": "Redo an action using <b><color=hero.purple>Ctrl + Y</closeall>.",
+        "Help.Controls.DesktopControls.Paste": "Paste",
+        "Help.Controls.DesktopControls.Paste.Content": "Paste something into {appName} using <b><color=hero.purple>Ctrl + V</closeall>.<br>You can also paste content exclusively as hyperlinks with <b><color=hero.purple>Ctrl + Shift + V</closeall>.",
+        "Help.Controls.DesktopControls.Duplicate.Content": "Duplicate a held item using <b><color=hero.purple>Ctrl + D</closeall>.",
+        "Help.Controls.DesktopControls.Delete": "Delete",
+        "Help.Controls.DesktopControls.Delete.Content": "Delete a held item using <b><color=hero.purple>Backspace</closeall> or <b><color=hero.purple>Delete</closeall>.",
+        "Help.Controls.DesktopControls.Save.Content": "Save a held item using <b><color=hero.purple>Ctrl + S</closeall>. If you aren't holding an item and you're the host of the session, you'll save changes to the world instead.",
+        "Help.Controls.DesktopControls.ThirdPerson": "Third Person Mode",
+        "Help.Controls.DesktopControls.ThirdPerson.Content": "Enter or exit Third Person mode using <b><color=hero.purple>F5</closeall>.",
+        "Help.Controls.DesktopControls.FreecamMode": "Freecam Mode",
+        "Help.Controls.DesktopControls.FreecamMode.Content": "Enter or exit Freecam mode using <b><color=hero.purple>F6</closeall>. While in this mode, press and hold <b><color=hero.purple>Control</closeall> and <b><color=hero.purple>Right Mouse</closeall> to allow you to rotate your view, and use your <b><color=hero.purple>Movement Keys</closeall> to move around. Once you are looking and moving around, you can let go of <b><color=hero.purple>Control</closeall> - but keep <b><color=hero.purple>Right Mouse</closeall> held down, otherwise your view will lock in place again.",
+
+        "Help.Controls.SteamBindings": "Steam Bindings",
+
+        "Help.General": "General",
+        "Help.General.VoiceMode": "Voice Mode",
+        "Help.General.VoiceMode.Content": "<color=hero.purple><b>Voice modes</closeall> allow you to change how you're heard by others.<br><br>You can change your voice mode in the top left of your <color=hero.purple><b>Dashboard</closeall>.",
+        "Help.General.VoiceMode.Broadcast": "Broadcast",
+        "Help.General.VoiceMode.Broadcast.Content": "Allows other users to hear you at the same volume no matter how far away or where you are in a session, this is useful for letting every user in a session know important information or communicating over very large distances.",
+        "Help.General.VoiceMode.Shout": "Shout",
+        "Help.General.VoiceMode.Shout.Content": "Makes your voice much louder and easier to hear compared to normal. This is useful for addressing a loud room or when speaking from far away.",
+        "Help.General.VoiceMode.Normal": "Normal",
+        "Help.General.VoiceMode.Normal.Content": "The default option - you speak normally in this mode.",
+        "Help.General.VoiceMode.Whisper": "Whisper",
+        "Help.General.VoiceMode.Whisper.Content": "Puts you in a visible bubble that will lower the volume of anything outside of it and only lets others hear you if they are inside of the bubble.",
+        "Help.General.VoiceMode.Mute": "Mute",
+        "Help.General.VoiceMode.Mute.Content": "Mutes your microphone.",
+        "Help.General.OnlineStatus": "Online Status",
+        "Help.General.OnlineStatus.Sociable.Content": "Lets other users know that you want to interact with others and notifies them that you are open to invites.",
+        "Help.General.OnlineStatus.Online.Content": "Lets users know when you are online when you log in.",
+        "Help.General.OnlineStatus.Away.Content": "Makes you appear as Away. The away status will also automatically activate when you're inactive for over 1 minute, or you take off your VR headset.",
+        "Help.General.OnlineStatus.Busy.Content": "This lets users know that you don't want to be bothered, and prevents you from seeing message notification popups.",
+        "Help.General.OnlineStatus.Invisible.Content": "You will appear offline to other users even when you're logged in.",
+        "Help.General.OnlineStatus.Offline.Content": "When you are not logged in you will appear as <b><color=hero.purple>Offline</closeall> to all other users. You will also appear offline when invisible.",
+
+        "Help.General.Saving": "Saving",
+        "Help.General.Saving.Content": "Saving items lets you use them anywhere you can spawn items.<br><br>To save an item, first navigate to the folder you want to save to in your <b><color=hero.cyan>Inventory</color></b>, then grab the item with <b><color=hero.purple>{Grip_Input}</closeall>. Then while you are holding it, inside your Inventory, press the <color=hero.green><b>Save Held</b></Color> button. This will save the item into the folder you're currently in.<br><br>While grabbing the item, open your <b><color=hero.Cyan>Context Menu</closeall> {is_using_vive_wands, select, True {by quickly pressing} other {with}} <b><color=hero.purple>{Context_Menu_Input}</closeall> and select <sprite name=SaveIcon> <b><color=hero.Cyan>Save To Inventory</closeall> to save the item without needing to go to open your Dashboard.<br><br>After clicking the save button you will see the sync status facet on the top right of your Dashboard display <b><color=hero.cyan>Syncing...</closeall>. This shows the progress and percentage while uploading the item to the cloud. Saving multiple copies of an item will only save the <b>changes</b> made to that item. For instance, saving an avatar and then saving the same avatar again with a different hair color will only take up as much storage as one copy of the avatar and whatever is different between the two copies - not two whole copies of the avatar.",
+
+        "Help.General.Favoriting": "Favoriting",
+        "Help.General.Favoriting.Content": "Some items can be <b><color=hero.purple>Favorited</closeall>, like your Avatar, Keyboard, and Stream Camera. This allows you to replace default items with customized versions of each.<br><br>You can tell if an item is favorited if it has a pink background in your <color=hero.yellow><b>Inventory</closeall>.<br><br>See below for a list of <b><color=hero.yellow>Favoritable items</closeall>:",
+
+        "Help.General.Favoriting.Home.Content": "Your home world - the world that loads when you launch {appName}.",
+        "Help.General.Favoriting.ProgressBar.Content": "The loading indicator for objects you're importing, such as 3D Assets, Gaussian Splats and more.",
+        "Help.General.Favoriting.AudioStreamController.Content": "The panel which appears when you bring in an audio stream.",
+        "Help.General.Favoriting.TextDisplay.Content": "A basic text viewer.",
+        "Help.General.Favoriting.VideoPlayer.Content": "The video player that will be used when you import a video.",
+        "Help.General.Favoriting.AudioPlayer.Content": "The audio player that is used when an audio file is imported.",
+        "Help.General.Favoriting.InteractiveCamera.Content": "Your Stream Camera, used when you want to have more control over what is displayed on your monitor - useful for live streaming.",
+        "Help.General.Favoriting.Keyboard.Content": "Your keyboard.",
+        "Help.General.Favoriting.Avatar.Content": "The avatar you use by default and spawn with equipped.",
+        "Help.General.Favoriting.WorldLoadingIndicator.Content": "Your World Loading Indicator.",
+        "Help.General.Favoriting.ColorDialog.Content": "The color picker for picking colors.",
+        "Help.General.Favoriting.Hyperlink.Content": "A link to a web page or external URL.",
+        "Help.General.Favoriting.Document.Content": "A panel which displays a PDF document when imported.",
+
+        "Help.Dashboard": "Dashboard",
+        "Help.Dashboard.Home.Content": "The <sprite name=HomeIcon> <b><color=hero.cyan>Home</closeall> tab is the first tab on the bottom of your Dashboard. Here you can find options for voice modes, your profile and online status in the top left, and your personal storage amount on the bottom left, among other useful bits of information. Your Home tab can also be customized by enabling <b><color=hero.yellow>UI Edit Mode</closeall> in your <b><color=hero.cyan>Settings</closeall>.",
+        "Help.Dashboard.Worlds.Content": "You can join active sessions and browse <b><color=hero.cyan>Worlds</closeall> using this tab.",
+        "Help.Dashboard.Contacts.Content": "Here, you can find your <b><color=hero.green>Contacts</closeall> and search for them by typing into the text field on the top left.",
+        "Help.Dashboard.Contacts.Content2": "The <b><color=hero.cyan>{appName} Bot</closeall> is a contact which lets you run special commands. These command always begin with a <b><color=hero.purple>/</closeall> forward slash.",
+        "Help.Dashboard.Inventory.Content": "Your <b><color=hero.yellow>Inventory</closeall> is where you can find and <b><color=hero.cyan>Save</closeall> various items, and Avatars you have found in {appName}.",
+        "Help.Dashboard.Inventory.Content2": "Your Inventory also contains a link to the <b><color=hero.cyan>{appName} Essentials</closeall> folder. This folder contains a myriad of content, from useful tools and gadgets, to fun and silly things - browse and see what's here!<br><br>Since the folder is a <i>link</i>, it does not use your account's storage space. You also can't save to it, but anything inside it you can spawn and change however you like.<br><br>If you have a cool item you'd like to have available in the Essentials folder, head to the link below to see the <b><color=hero.cyan>{appName} Essentials Submission Form</closeall>!",
+        "Help.Dashboard.SessionSettings.Content": "The <b><color=hero.cyan>Session</closeall> tab is where you can find settings for the current <b><color=hero.cyan>Session</closeall> that you are in.",
+
+        "Help.Dashboard.SessionSettings.Settings.Content": "Change the name, access level, and description of your session.",
+        "Help.Dashboard.SessionSettings.Users.Content": "You can manage the users in your session here. You can also respawn yourself and others from this menu.",
+        "Help.Dashboard.SessionSettings.Permissions.Content": "Shows you the permission levels of every user in the session. If your permission level is moderator or above, you can assign permission levels to other users.",
+        "Help.Dashboard.Desktop.Content": "The <b><color=hero.cyan>Desktop</closeall> tab lets you view your desktop screens.<br><br>Pressing <b><color=hero.purple>{Context_Menu_Input}</closeall> while pointing at your desktop will open a menu to open your keyboard, or switch monitors.",
+        "Help.Dashboard.FileBrowser.Content": "Using the <b><color=hero.cyan>Files</closeall> tab, you can browse your computer's filesystem, share files, and import assets.",
+        "Help.Dashboard.FileBrowser.Content2": "Available at the top of the window are a set of buttons for adding or importing files, and more.<br><br>    • <b><color=hero.cyan>Import</closeall>: With a file selected, this will let you import that file into {appName} if it is a supported type.<br><br>    • <b><color=hero.orange>Import As File</closeall>: With a file selected, this lets you import a file as an in-world representation of the file itself, letting you easily share it with others, or save it to your inventory.<br><br>    • <b><color=hero.green>Add Folder</closeall>: This lets you create a new folder on your computer.<br><br>    • <b><color=#7777ff>Refresh</closeall>: This refreshes the file browser, in case the files present have changed.",
+        "Help.Dashboard.Settings.Content": "The <b><color=hero.cyan>Settings</closeall> tab is where you can find and customize your settings. All of {appName}'s settings are categorized by the list below.",
+
+        "Help.Dashboard.Settings.Audio.Content": "Manage volume, audio devices, filtering, and audio accessibility.",
+        "Help.Dashboard.Settings.Controls.Content": "Manage your controls.",
+        "Help.Dashboard.Settings.UserInterface.Content": "Manage your UI, including but not limited to: how you receive notifications, changing your language, nameplate visibility and Dashboard settings.",
+        "Help.Dashboard.Settings.Devices.Content": "Manage external devices, such as haptics and face tracking.",
+        "Help.Dashboard.Settings.Profile.Content": "Manage your height, and how your statuses appear.",
+        "Help.Dashboard.Settings.Graphics.Content": "Manage and optimize your graphics settings.",
+        "Help.Dashboard.Settings.Privacy.Content": "Change if you want to show up in screenshots, stripping metadata from images you import, and more.",
+        "Help.Dashboard.Settings.Security.Content": "Manage access to external websites, communications, OSC, and APIs.",
+        "Help.Dashboard.Settings.Networking.Content": "Manage how you connect to sessions, the amount of assets you can download at once, and more.",
+        "Help.Dashboard.Settings.InteractiveCamera.Content": "Controls how the Stream Camera works.",
+        "Help.Dashboard.Settings.Integrations.Content": "Choose what details are shown about you playing {appName} to others on Discord or Steam.",
+        "Help.Dashboard.Settings.Misc.Content": "Legacy and debug features.",
+
+        "Help.Dashboard.Exit.Content": "This tab allows you to quit {appName}.<br><br><b><color=hero.cyan>Exit And Save Homes</closeall> allows you to save your home before you quit, and <b><color=hero.red>Exit And Discard Homes</closeall> will not save your home.",
+        "Help.Dashboard.DashboardCustomization": "Dashboard Customization",
+        "Help.Dashboard.DashboardCustomization.Content": "Some tabs on your Dashboard can be customized and contain <b><color=hero.cyan>Facets</closeall>, or individual elements on the tab. Facets can be added, removed, resized, and replaced - which is how you can customize these tabs. To edit the facets on your Dashboard, enable <b><color=hero.cyan>UI Edit Mode</closeall> in your settings, or perform the quick gesture to enable it.<br><br>When UI Edit Mode is enabled, you will see a button below your Dashboard to disable UI Edit Mode. On tabs you can edit, a grid will appear behind the facets on the tab. Aiming at a Facet with your laser will highlight it, and while aiming at it you can press and hold <b><color=hero.purple>{Grip_Input}</closeall> to take off the Facet. While holding onto a Facet, you can aim on the Dashboard where you'd like to place it - release grip to place the Facet as-is, or instead click and drag with your laser to choose exactly where you'd like the Facet to be placed.",
+        
+
+
+
+
+
+
+
+
+
         
         
         "Help.Avatars": "Avataři",
