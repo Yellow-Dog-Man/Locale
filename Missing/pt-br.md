@@ -2,32 +2,20 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Portuguese (Brazil) [pt-br]
-Tools.ProtoFlux.Wiki  
-Tools.Rig.AddEffector  
-Tools.Rig.RemoveEffector  
-Tools.Rig.SetupFABRIK  
-Tools.Rig.SetupTrigIK  
-Tools.Rig.CreateNew  
-Tools.Rig.DeselectRig  
-Tools.Rig.DestroyBone  
-Settings.AudioStreamSettings  
-Settings.AudioStreamSettings.DefaultBitrate  
-Settings.AudioStreamSettings.DefaultDeviceID  
-Settings.PhotoCaptureSettings.AlwaysHideGizmos  
-Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
-Inspector.NewSystem.Warning  
-Inspector.FingerReferencePoseSource.AssignFromBipedRig  
-Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
-Inspector.FingerReferencePoseSource.CaptureMyRightHand  
-Inspector.BipedRig.GenerateStaticFingerPoseCode  
-Inspector.FingerReferencePoseSource.CaptureReference  
-Inspector.Actions.CopyName  
-Inspector.Actions.CopyTag  
-Inspector.Actions.CopyGlobalPosition  
-Inspector.Actions.CopyLocalPosition  
-Inspector.Actions.CopyGlobalScale  
-Inspector.Actions.CopyLocalScale  
-Inspector.Actions.CopyGlobalRotation  
-Inspector.Actions.CopyLocalRotation  
-Inspector.Actions.CopyOrderOffset  
+Device.SystemAudio  
+Settings.AudioPerformanceSettings.SimulationFramesPerBuffer  
+Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description  
+Settings.DesktopViewSettings.HideMenuButtonInVR  
+Settings.DesktopViewSettings.HideMenuButtonInVR.Description  
+Settings.VideoStreamingServicesSettings.PreferredResolution  
+Settings.VideoStreamingServicesSettings.PreferredResolution.Description  
+Desktop.Stream  
+Desktop.StopStream  
+Desktop.Stream.Display  
+Desktop.Stream.Title  
+Desktop.Stream.Audio  
+Desktop.Stream.FPS  
+Desktop.Stream.Resolution  
+Desktop.Stream.Bitrate  
+Desktop.Stream.Start  
 

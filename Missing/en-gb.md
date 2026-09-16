@@ -330,6 +330,8 @@ Tools.CameraStreaming
 Tools.CreateNewWorld  
 Tools.Debug  
 Tools.StreamAudio  
+Tools.StreamVideo  
+Tools.StreamVideo.Stop  
 Tools.Setup2FA  
 Tools.StreamAudio.Dialog.Title  
 Tools.StreamAudio.Start  
@@ -363,6 +365,7 @@ Indicator.Sync.StorageFull
 Indicator.Storage.StorageFull  
 Indicator.Storage.Usage  
 Indicator.LiveHiddenMessage  
+Device.SystemAudio  
 Login.InvalidCredentials  
 Login.InvalidCredentials.Description  
 Login.InvalidLogin  
@@ -1445,10 +1448,10 @@ Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description
 Settings.AudioPerformanceSettings  
 Settings.AudioPerformanceSettings.MaxVoices  
 Settings.AudioPerformanceSettings.MaxVoices.Description  
-Settings.AudioPerformanceSettings.SimulationFrameSize  
-Settings.AudioPerformanceSettings.SimulationFrameSize.Description  
 Settings.AudioPerformanceSettings.OutputBufferSize  
 Settings.AudioPerformanceSettings.OutputBufferSize.Description  
+Settings.AudioPerformanceSettings.SimulationFramesPerBuffer  
+Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description  
 Settings.VoiceSettings  
 Settings.VoiceSettings.MutePersistence  
 Settings.VoiceSettings.MutePersistence.Description  
@@ -1473,6 +1476,8 @@ Settings.RealtimeNetworkingSettings.PreferSteamNetworking
 Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description  
 Settings.RealtimeNetworkingSettings.PreferTCP  
 Settings.RealtimeNetworkingSettings.PreferTCP.Description  
+Settings.RealtimeNetworkingSettings.PreferQUIC  
+Settings.RealtimeNetworkingSettings.PreferQUIC.Description  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize  
 Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description  
 Settings.AssetGatherSettings.MaxConcurrentAssetTransfers  
@@ -1502,6 +1507,12 @@ Settings.DebugSettings.DebugInputBindings
 Settings.DebugSettings.DebugInputBindings.Description  
 Settings.DebugSettings.ConvertParticleSystems  
 Settings.DebugSettings.ConvertParticleSystems.Description  
+Settings.DebugSettings.ShowMediaMTXWindow  
+Settings.DebugSettings.ShowMediaMTXWindow.Description  
+Settings.DebugSettings.UseProtonForMediaMTX  
+Settings.DebugSettings.UseProtonForMediaMTX.Description  
+Settings.DebugSettings.ForceSoftwareVideoEncoder  
+Settings.DebugSettings.ForceSoftwareVideoEncoder.Description  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip  
 Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description  
 Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher  
@@ -1610,6 +1621,8 @@ Settings.DesktopViewSettings.Brightness
 Settings.DesktopViewSettings.Brightness.Description  
 Settings.DesktopViewSettings.Opacity  
 Settings.DesktopViewSettings.Opacity.Description  
+Settings.DesktopViewSettings.HideMenuButtonInVR  
+Settings.DesktopViewSettings.HideMenuButtonInVR.Description  
 Settings.PhotoCaptureSettings.FingerGestureEnabled  
 Settings.PhotoCaptureSettings.FingerGestureEnabled.Description  
 Settings.PhotoCaptureSettings.NormalCaptureResolution  
@@ -1717,6 +1730,8 @@ Settings.RelaySettings.RelayPriorities.Breadcrumb
 Settings.VideoStreamingServicesSettings  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser  
 Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description  
+Settings.VideoStreamingServicesSettings.PreferredResolution  
+Settings.VideoStreamingServicesSettings.PreferredResolution.Description  
 Settings.PostProcessingSettings  
 Settings.PostProcessingSettings.MotionBlurIntensity  
 Settings.PostProcessingSettings.MotionBlurIntensity.Description  
@@ -2172,6 +2187,15 @@ Desktop.LegacyInputMode.On
 Desktop.LegacyInputMode.Off  
 Desktop.Brightness  
 Desktop.Opacity  
+Desktop.Stream  
+Desktop.StopStream  
+Desktop.Stream.Display  
+Desktop.Stream.Title  
+Desktop.Stream.Audio  
+Desktop.Stream.FPS  
+Desktop.Stream.Resolution  
+Desktop.Stream.Bitrate  
+Desktop.Stream.Start  
 VolumePlaneSlicer.Highlight  
 VolumePlaneSlicer.Slicer  
 Tutorial.Welcome.Welcome  
