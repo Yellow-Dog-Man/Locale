@@ -3931,6 +3931,37 @@
         "Help.About.LicenseInformation.PlatformAssetLicense": "{appName} 에셋 라이선스",
         "Help.About.LicenseInformation.PlatformAssetLicense.Content": "<align=center><b><size=125%>CC BY 4.0</size><br><br><size=150%>저작자표시 4.0 국제</size></closeall><br><br><b><size=125%>이용자는 다음의 권리를 갖습니다.:</size><br><br><size=110%>    공유</closeall> - 복제, 배포, 전시, 공연 및 공중송신 (포맷 변경도 포함) 영리목적으로도 이용이 가능합니다.<br><br><b><size=110%>    변경</closeall> - 리믹스, 변형, 2차적 저작물의 작성 영리목적으로도 이용이 가능합니다.<br><br>아래 조건을 준수하는 한 이 라이선스는 취소되거나 실효되지 않습니다.<br><br><b><size=125%>다음과 같은 조건을 따라야 합니다:</size><br><br><size=110%><b>    저작자표시</closeall> - 적절한 출처와, 해당 라이센스 링크를 표시하고, 변경이 있는 경우 공지 해야 합니다. 합리적인 방식으로 이렇게 하면 되지만, 이용 허락권자가 귀하에게 권리를 부여한다거나 귀하의 사용을 허가한다는 내용을 나타내서는 안 됩니다.<br><br><b><size=110%>    추가제한금지</closeall> - 이용자는 이 라이선스로 허용된 행위를 제한하는 법적 조건이나 기술적 조치를 부가해서는 안 됩니다.<br><br><b><size=125%>주의:</closeall><br><br>• 퍼블릭 도메인에 해당하는 저작물의 이용 또는 저작재산권의 제한사유 에 해당하는 이용의 경우에는 이 라이선스를 따르지 않아도 됩니다.<br><br>• 이 라이선스는 아무런 보증을 하지 않습니다. 또한 저작물의 이용에 필요한 모든 허락이 포함되어 있지 않을 수도 있습니다. 예를 들어 퍼블리시티권, 프라이버시, 인격권 등 다른 권리에 따른 제한이 있을 수 있습니다.",
 
+        "Tools.StreamVideo": "Stream Custom Video<sup><color=hero.red>BETA",
+	    "Tools.StreamVideo.Stop": "Stop Custom Video Stream",
+	    "Device.SystemAudio": "<color=hero.cyan>🔊 시스템 음향장치</color>",
+	    "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer": "Simulation frames per system buffer",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description": "This controls how many times the simulator will run during a period of your computer's audio buffer size - AKA your computer audio's \"quantum\".<br><br><color=hero.orange><b><i>Important</b></color>:</i> This is <i>not</i> related to the playback buffer size. It is related to the quantum of your computer audio.<br><br>For example: If your computer supports a quantum of 960 samples, and the simulator is simulating at four frames per that period, then the simulator will render 240 samples of audio at a time.<br><br>A setting of \"Four\" should be adequate for most systems.",
+
+        "Settings.RealtimeNetworkingSettings.PreferQUIC": "QUIC 우선 사용 (실험적인 기능)",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC.Description": "When enabled, connections over QUIC are preferred over other protocols (except TCP).\n\nThe support for this protocol is currently incomplete and experimental, but can perform better than default LNL protocol.\n\nThe server must be explicitly configured to be accessible over QUIC for this to work.",
+        "Settings.DebugSettings.ShowMediaMTXWindow": "MediaMTX 화면 보이기",
+        "Settings.DebugSettings.ShowMediaMTXWindow.Description": "When streaming video, the MediaMTX instance will have a visible window. This can be useful to see its output.<br><br><color=hero.red>WARNING:</color> If you close it manually, streaming functionality will break.",
+        "Settings.DebugSettings.UseProtonForMediaMTX": "MediaMTX를 Proton에서 사용",
+        "Settings.DebugSettings.UseProtonForMediaMTX.Description": "리눅스 시스템에서는 Linux용 MediaMTX 대신 Proton 에뮬레이터를 통해 Windows 버전으로 실행합니다.",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder": "소프트웨어 영상 인코더 강제 적용",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder.Description": "Use software video encoder for streaming desktop instead of hardware video encoding.",
+
+        "Settings.DesktopViewSettings.HideMenuButtonInVR": "VR일때 메뉴버튼 숨기기",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR.Description": "Will hide the hamburger menu button on desktop tab while in VR mode. You can open the menu by pointing at the screen and pressing context menu.",
+
+        "Settings.VideoStreamingServicesSettings.PreferredResolution": "선호하는 해상도",
+        "Settings.VideoStreamingServicesSettings.PreferredResolution.Description": "What resolution should streaming services videos be ideally loaded at, unless overriden on the specific player.<br><br>Increasing this will increase video quality, but also bandwidth and CPU costs.<br><br>If you run into issues with video stuttering, you can try lowering this value.",
+
+        "Desktop.Stream": "화면 공유<sup><color=hero.red>시험버전",
+        "Desktop.StopStream": "화면공유 중단",
+        "Desktop.Stream.Display": "모니터 {index}: {width}x{height}",
+        "Desktop.Stream.Title": "화면 공유 설정",
+        "Desktop.Stream.Audio": "음향 송출하기",
+        "Desktop.Stream.FPS": "FPS:",
+        "Desktop.Stream.Resolution": "해상도:",
+        "Desktop.Stream.Bitrate": "전송량:",
+        "Desktop.Stream.Start": "공유시작",
+        
         "Dummy": "Dummy"
     }
 }
