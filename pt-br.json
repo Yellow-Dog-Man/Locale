@@ -429,7 +429,9 @@
         "Indicator.Storage.StorageFull": "Armazenamento Cheio",
         "Indicator.Storage.Usage": "{storage_used} de {storage_max}<br><size=61.803%>Espaço de armazenamento usado</size>",
 
-        "Indicator.LiveHiddenMessage": "(informação escondida enquando ao vivo)",
+        "Indicator.LiveHiddenMessage": "(informação escondida enquanto ao vivo)",
+
+        "Device.SystemAudio": "<color=hero.cyan>🔊 Áudio do Sistema</color>",
 
         "Login.InvalidCredentials": "Credenciais inválidas",
         "Login.InvalidCredentials.Description": "Verifique suas credenciais e tente novamente ou clique em \"Esqueceu a senha?\"",
@@ -1748,6 +1750,8 @@
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "Ajusta quantos sons podem ser reproduzidos simultaneamente. Aumentar este valor permite ouvir mais sons ao mesmo tempo, mas aumenta o uso de CPU.<br><br>Se este valor for muito alto, pode ocorrer estalos no áudio.",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "Tamanho do Buffer de Playback",
         "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Controla o tamanho do buffer para reprodução de áudio. Valores mais altos terão mais latência de áudio, mas serão mais resistentes a estalos e estalos.<br><br> Ao diminuir este valor, você pode reduzir a latência de áudio, mas o sistema será mais suscetível a estalos e quedas.",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer": "Amostras de simulação por buffer do sistema",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description": "Controla quantas vezes o simulador roda por quantum de áudio do sistema.<br><br><color=hero.orange><b><i>Importante:</i></b></color> Isso não altera o buffer de reprodução.<br><br>Exemplo: com um quantum de 960 amostras e valor <b>Four</b>, o simulador processa 240 amostras por vez.<br><br><b>Four</b> é recomendado para a maioria dos sistemas.",
 
         "Settings.VoiceSettings": "Configurações de Voz",
         "Settings.VoiceSettings.MutePersistence": "Persistência do mute",
@@ -1948,6 +1952,8 @@
         "Settings.DesktopViewSettings.Brightness.Description": "O brilho da visualização do Desktop.",
         "Settings.DesktopViewSettings.Opacity": "Opacidade",
         "Settings.DesktopViewSettings.Opacity.Description": "Diminua o valor para tornar a visualização do Desktop semi-transparente, facilitando a visualização do que está atrás dela no mundo.",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR": "Esconder botão de menu no VR",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR.Description": "Oculta o botão de menu (hambúrguer) na aba Desktop enquanto estiver no modo VR. Para abrir o menu, aponte para a tela e pressione o botão de menu de contexto.",
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Gesto de foto com os dedos",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "Quando ativado, você pode tirar fotos rapidamente no mundo ao formar uma moldura com os dedos e depois dobrar um dos dedos indicadores.",
@@ -2071,6 +2077,8 @@
         "Settings.VideoStreamingServicesSettings": "Serviços de Streaming de Vídeo",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Usar cookies do navegador",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Se o YouTube e outros serviços de vídeo não estiverem carregando para você, selecione o navegador que você normalmente usa para carregar cookies ao buscar esses vídeos. Isso aumenta as chances de sucesso no carregamento do vídeo.",
+        "Settings.VideoStreamingServicesSettings.PreferredResolution": "Resolução Preferida",
+        "Settings.VideoStreamingServicesSettings.PreferredResolution.Description": "A Resolução na qual os vídeos deveriam carregar, a menos que seja sobreescrita por um player específico.<br><br>Aumentar vai melhorar a qualidade do vídeo, mas, vai usar mais banda de rede e de CPU.<br><br>Se você estiver tendo problemas de lag em vídeos, você pode reduzir este valor.",
 
         "Settings.PostProcessingSettings": "Pós-Processamento",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Intensidade da Desfoque de Movimento",
@@ -2099,7 +2107,7 @@
 
         "Settings.GaussianSplatQualitySettings": "Qualidade de Renderização do Gaussian Splat",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "Mega-operações de classificação por câmera",
-        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description": "Ao renderizar Gaussian Splats, os splats devem ser classificados para cada câmera. No momento, essa operação pode ser bastante pesada, portanto é distribuída ao longo do tempo para melhorar a taxa de quadros geral.<br><br><color=hero.yellow>Aumente</color> o valor para que a classificação aconteça mais rapidamente. Isso reduzirá artefatos ao mudar o ângulo de visualização ao redor dos Gaussian Splats rapidamente.<br><br><color=hero.yellow>Diminua</color> o valor para reduzir o uso da GPU se sua GPU tiver dificuldade em lidar com isso. No entanto, isso aumentará artefatos quando você alterar rapidamente o ângulo de visualização.",
+        "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description": "Gaussian Splats precisam ser classificados para cada câmera, e esse processo é distribuído ao longo do tempo para reduzir o impacto no desempenho.<br><br><color=hero.yellow>Aumente</color> o valor para reduzir artefatos ao mover a câmera rapidamente.<br><br><color=hero.yellow>Diminua</color> o valor para reduzir o uso da GPU, ao custo de mais artefatos durante movimentos rápidos.",
         "Settings.GaussianSplatQualitySettings.QualityPreset": "Predefinição de Qualidade",
         "Settings.GaussianSplatQualitySettings.QualityPreset.Description": "O Ajuste da qualidade dos gaussian splats renderizados e seu uso de VRAM. Qualidade mais alta usará mais VRAM.<br><br><color=hero.yellow>Muito Baixa:</color> ~18,62x menor<br><color=hero.yellow>Baixa:</color> ~14x menor<br><color=hero.yellow>Média:</color> ~5,14x menor<br><color=hero.yellow>Alta:</color> ~2,94x menor<br><color=hero.yellow>Muito Alta:</color> Descomprimido (original)",
         "Settings.GaussianSplatQualitySettings.MinLocalQuality": "Qualidade mínima comprimida localmente",
@@ -2142,7 +2150,7 @@
         "Settings.RendererDecouplingSettings.DeactivationFrames": "Contagem de quadros de desativação",
         "Settings.RendererDecouplingSettings.DeactivationFrames.Description": "Quando o desacoplamento está ativo, isto indica quantos quadros estáveis (acima do limite de ativação) precisam ser renderizados antes do mecanismo de desacoplamento ser desativado. Isto pode ajudar a prevenir o mecanismo de ativar e desativar repetidamente com múltiplos travamentos subsequentes.",
         "Settings.RendererDecouplingSettings.ForceDecouple": "Forçar Desacoplamento",
-        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "Quando ativado, o renderizador será constantemente desacoplado à força e continuará renderizando novos quadros o mais rápido possível sem aguardar o motor principal.\n\n<color=hero.red>AVISO!</color> Isto é principalmente útil para fins de depuração e diagnóstico para determinar se você está limitado pela CPU ou GPU (se você está limitado pela CPU, sua taxa de quadros aumentará significativamente com isto ativado) e não é feito para uso normal.\n\nVocê pode experimentar travamentos significativos, tremulação e carregamento/envio lento de assets.",
+        "Settings.RendererDecouplingSettings.ForceDecouple.Description": "Desacopla o renderizador do motor principal, permitindo renderizar quadros o mais rápido possível.<br><br><color=hero.red>AVISO!</color> Recurso destinado a diagnóstico de gargalos de CPU/GPU, não ao uso normal.<br><br>Pode causar travamentos, tremulação e carregamento lento de assets.",
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "Tempo máximo de processamento de assets desacoplado (milissegundos)",
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "Isto controla o tempo máximo que o renderizador gastará enviando assets para a GPU quando o mecanismo de desacoplamento está ativo. Reduzir isto pode aumentar sua taxa de quadros máxima (por exemplo, ao testar o desempenho máximo da GPU), mas pode reduzir o desempenho de carregamento e em valores muito baixos pode tornar a interface lenta para atualizar.",
 
@@ -2625,6 +2633,16 @@
         "Desktop.LegacyInputMode.Off": "Entrada Legada: Desligado",
         "Desktop.Brightness": "Brilho: {n,number,percent}",
         "Desktop.Opacity": "Opacidade: {n,number,percent}",
+
+        "Desktop.Stream": "Compartilhar Tela<sup><color=hero.red>BETA",
+        "Desktop.StopStream": "Parar de Compartilhar",
+        "Desktop.Stream.Display": "Monitor {index}: {width}x{height}",
+        "Desktop.Stream.Title": "Configure o Compartilhamento de Tela",
+        "Desktop.Stream.Audio": "Incluir Áudio do Desktop",
+        "Desktop.Stream.FPS": "FPS:",
+        "Desktop.Stream.Resolution": "Resolução:",
+        "Desktop.Stream.Bitrate": "Bitrate:",
+        "Desktop.Stream.Start": "Começar a Compartilhar",
 
         "VolumePlaneSlicer.Highlight": "Destaque",
         "VolumePlaneSlicer.Slicer": "Corte",
