@@ -404,7 +404,8 @@
         "Tools.CreateNewWorld": "Create New World",
         "Tools.Debug": "Debug",
         "Tools.StreamAudio": "Stream Audio",
-        "Tools.StreamVideo": "Stream Custom Video",
+        "Tools.StreamVideo": "Stream Custom Video<sup><color=hero.red>BETA",
+        "Tools.StreamVideo.Stop": "Stop Custom Video Stream",
         "Tools.Setup2FA": "Setup 2FA",
 
         "Tools.StreamAudio.Dialog.Title": "Create Audio Stream",
@@ -1763,10 +1764,10 @@
         "Settings.AudioPerformanceSettings": "Audio Performance Settings",
         "Settings.AudioPerformanceSettings.MaxVoices": "Maximum number of active sounds",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "This controls how many sounds can be playing concurrently. Increasing this will allow you to hear more sounds at once at the cost of CPU usage.<br><br>If you set this too high, you might hear audio crackling.",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize": "Simulation Frame Size",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "This controls how much audio data is computed in one go when rendering audio.\n\nIncreasing the value can improve performance in some ways, but will come at the cost of less frequent audio events and increased latency.<br><br>Generally we do not recommend changing this value and keeping the default 1024.",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "Playback Buffer Size",
-        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "This controls the size of the buffer for audio playback.\nHigher values will have more audio latency, but are more resilient to crackling and pops.<br><br>By lowering this value you can decrease the audio latency, but the system will be more susceptible to crackling and drops.",
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "This controls the size of the buffer for audio playback.<br><br>The buffer size is scaled based on multiples of your computer's audio buffer size - this buffer size is often referred to as your computer audio's \"quantum\".<br><br>Higher values will have more audio latency, but are more resilient to crackling and pops.<br><br>By lowering this value you can decrease the audio latency, but the system will be more susceptible to crackling and drops.<br><br>",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer": "Simulation frames per system buffer",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description": "This controls how many times the simulator will run during a period of your computer's audio buffer size - AKA your computer audio's \"quantum\".<br><br><color=hero.orange><b><i>Important</b></color>:</i> This is <i>not</i> related to the playback buffer size. It is related to the quantum of your computer audio.<br><br>For example: If your computer supports a quantum of 960 samples, and the simulator is simulating at four frames per that period, then the simulator will render 240 samples of audio at a time.<br><br>A setting of \"Four\" should be adequate for most systems.",
 
         "Settings.VoiceSettings": "Voice Settings",
         "Settings.VoiceSettings.MutePersistence": "Mute Persistence",
@@ -1794,6 +1795,8 @@
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "When enabled, you will connect via the Steam Networking Sockets protocol if possible.\n\nThis can help in some cases where the LNL protocol results in significant queuing.\n\nHowever as this protocol is missing some features, you can run into more networking instability, so we recommend only enabling this once you run into issues.",
         "Settings.RealtimeNetworkingSettings.PreferTCP": "Prefer TCP",
         "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "When enabled, connections over TCP are preferred over all other protocols. This mostly affects connections on LAN, as TCP is not used for connections over the internet by default.\n\nTCP can have better performance on LAN networks and work on certain networks where UDP based protocols won't work.\n\nHowever they can also suffer from \"head of line\" blocking, causing voices and poses to be significantly delayed.",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC": "Prefer QUIC (experimental)",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC.Description": "When enabled, connections over QUIC are preferred over other protocols (except TCP).\n\nThe support for this protocol is currently incomplete and experimental, but can perform better than default LNL protocol.\n\nThe server must be explicitly configured to be accessible over QUIC for this to work.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL Window Size",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "This controls the LNL protocol window size for real time networking. Changing this setting will have an immediate effect in all active sessions.\n\nIf you experience any packet queuing, you can increase this value to improve the connection throughput. However, higher values can also destabilize the connection further, so be careful.\n\n<color=hero.yellow>Default Value:</color> 64\n\n<color=hero.red>IMPORTANT:</color> This setting is for diagnostics and a temporary workaround; this value will automatically adjust itself in the future.",
 
@@ -1828,6 +1831,12 @@
         "Settings.DebugSettings.DebugInputBindings.Description": "When enabled, you will see debugging information for the input binding system. This is mostly useful for developers.",
         "Settings.DebugSettings.ConvertParticleSystems": "Convert particle systems to PhotonDust",
         "Settings.DebugSettings.ConvertParticleSystems.Description": "Enabling this option will run a conversion from the legacy particle system to the new custom one (PhotonDust) for any <b>newly</b> loaded items and worlds.<br><br><color=red>This is intended for testing purposes only!</color> If you are not part of testing, we do not recommend turning this option on, YOUR CONTENT MIGHT BE CORRUPTED AS A RESULT.<br><br>Please see our GitHub/Discord if you'd like to help with testing.",
+        "Settings.DebugSettings.ShowMediaMTXWindow": "Show MediaMTX window",
+        "Settings.DebugSettings.ShowMediaMTXWindow.Description": "When streaming video, the MediaMTX instance will have a visible window. This can be useful to see its output.<br><br><color=hero.red>WARNING:</color> If you close it manually, streaming functionality will break.",
+        "Settings.DebugSettings.UseProtonForMediaMTX": "Use Proton for MediaMTX",
+        "Settings.DebugSettings.UseProtonForMediaMTX.Description": "On Linux systems, instead of launching the Linux native version of MediaMTX, launch the Windows version under Proton.",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder": "Force software video encoder",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder.Description": "Use software video encoder for streaming desktop instead of hardware video encoding.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Double press grip to equip items",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "When enabled, you can equip tools and gadgets by pressing grip twice in rapid succession. This setting will likely get removed at some point.",
@@ -1957,6 +1966,8 @@
         "Settings.DesktopViewSettings.Brightness.Description": "The brightness of the desktop view.",
         "Settings.DesktopViewSettings.Opacity": "Opacity",
         "Settings.DesktopViewSettings.Opacity.Description": "Lower the value to make the desktop view semi-transparent, making it easier to see what's behind it in the world.",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR": "Hide menu button in VR",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR.Description": "Will hide the hamburger menu button on desktop tab while in VR mode. You can open the menu by pointing at the screen and pressing context menu.",
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Finger photo gesture",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "When enabled, you can quickly take pictures in world by posing your fingers to make a picture frame and then curling one of your index fingers.",
@@ -2080,6 +2091,8 @@
         "Settings.VideoStreamingServicesSettings": "Video Streaming Services",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Use Cookies From Browser",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "If YouTube or another service's videos are not loading for you, select the browser you typically use to load cookies from when fetching those videos. This increases the chances of videos loading successfully.",
+        "Settings.VideoStreamingServicesSettings.PreferredResolution": "Preferred Resolution",
+        "Settings.VideoStreamingServicesSettings.PreferredResolution.Description": "What resolution should streaming services videos be ideally loaded at, unless overriden on the specific player.<br><br>Increasing this will increase video quality, but also bandwidth and CPU costs.<br><br>If you run into issues with video stuttering, you can try lowering this value.",
 
         "Settings.PostProcessingSettings": "Post Processing",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Motion Blur Intensity",
@@ -2478,9 +2491,9 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component as a simple rigidbody by checking SimulateRotation. Before you do, please understand that it is not optimized for this purpose and proper Rigidbody Support is coming in the future.<br>Proper rigidbody support will offer:<br><b>- CPU and network efficiency</b> - with CharacterController you'll be getting higher CPU usage and significant amount of network traffic<br><b>- Constraints</b> - you'll be able to create joints, hinges, springs and other constraints between rigidbodies<br><b>- Smooth simulation and interactions for everyone</b> - CharacterController will glitch out if another person tries to interact<br><b>- New Features and Tools</b> - to make using them much easier<br>-----------------------<br>As long as you understand those limitations, have fun!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component to interact with references by using their IDs. This process is commonly called 'Ref Hacking'.<br><br><b>Before</b> you do this, please understand that this is <b>not</b> supported and may break at any time. Do not rely on this functionality for your creations.",
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>WARNING!</size></color><br>FacetPresets will automatically upgrade their contents when we publish new versions of those presets. If you're making a custom version, we recommend deleting this component.",
-        "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>WARNING!</size></color><br> This component is not designed as a security/asset theft protection system. It is intended to be used for cases where you wish to block the easier methods of saving for gameplay or design reasons. It can easily be bypassed and it will not be made more secure under any circumstances.",
+        "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>WARNING!</size></color><br>This component is not designed as a security/asset theft protection system. It is intended to be used for cases where you wish to block the easier methods of saving for gameplay or design reasons. It can easily be bypassed and it will not be made more secure under any circumstances.",
 
-        "Inspector.NewSystem.Warning": "<color=red><size=125%>WARNING!</size></color><br> This component is part of a newly added system that is currently still work in progress. While you're welcome to start playing with it, note that we might make breaking changes to it that will require you to update your content.<br><br>If you want to ensure long term content compatibility for anything you build with this, please wait for this notice to go away.",
+        "Inspector.NewSystem.Warning": "<color=red><size=125%>WARNING!</size></color><br>This component is part of a newly added system that is currently still work in progress. While you're welcome to start playing with it, note that we might make breaking changes to it that will require you to update your content.<br><br>If you want to ensure long term content compatibility for anything you build with this, please wait for this notice to go away.",
 
         "Inspector.AI_GeneratedContent.Info": "This component is intended to flag content generated by generative AI. It's recommended to put it at the root of the objects which are generated through these methods. This will automatically add tags when the item is saved as well as when the world is saved with those components present, which will allow this content to be filtered.",
 
@@ -2635,7 +2648,8 @@
         "Desktop.Brightness": "Brightness: {n,number,percent}",
         "Desktop.Opacity": "Opacity: {n,number,percent}",
 
-        "Desktop.Stream": "Share Screen",
+        "Desktop.Stream": "Share Screen<sup><color=hero.red>BETA",
+        "Desktop.StopStream": "Stop Sharing Screen",
         "Desktop.Stream.Display": "Display {index}: {width}x{height}",
         "Desktop.Stream.Title": "Configure Screen Share",
         "Desktop.Stream.Audio": "Include desktop audio",
@@ -2720,8 +2734,8 @@
         "Twitch.Panel.Button.Commands.Disabled": "Commands Disabled",
         "Twitch.Panel.Button.SafeMode.Enabled": "Safemode Enabled",
         "Twitch.Panel.Button.SafeMode.Disabled": "Safemode Disabled",
-        "Twitch.Panel.Button.SubscriberCommands.Enabled": "Subscriber Commands<br> Enabled for Subscribers Only",
-        "Twitch.Panel.Button.SubscriberCommands.Disabled": "Subscriber Commands<br> Enabled for Everyone",
+        "Twitch.Panel.Button.SubscriberCommands.Enabled": "Subscriber Commands<br>Enabled for Subscribers Only",
+        "Twitch.Panel.Button.SubscriberCommands.Disabled": "Subscriber Commands<br>Enabled for Everyone",
         "Twitch.Panel.Title.Text": "Twitch Chat",
 
         "Exiting.SavingItems": "Saving {n, plural, one {# item} other {# items}}...",
@@ -3521,7 +3535,7 @@
         "Help.Controls.VRGestures.ToggleEditMode": "Toggle Edit Mode",
         "Help.Controls.VRGestures.ToggleEditMode.Content": "This gesture toggles <b><color=hero.cyan>Edit Mode</closeall>. This shows your lasers and grab area on your hands permanently, or until Edit Mode is disabled. To toggle Edit Mode, bring your controllers to your head and hold <b><color=hero.purple>{Context_Menu_Input}</closeall> on <i>one</i> of your controllers and double press <b><color=hero.purple>{Context_Menu_Input}</closeall> on your other controller.",
         "Help.Controls.VRGestures.ToggleUIEditMode": "Toggle UI Edit Mode",
-        "Help.Controls.VRGestures.ToggleUIEditMode.Content": "This gesture toggles <b><color=hero.cyan>UI Edit Mode</closeall> which allows you to add, remove, or edit facets on your Dashboard or Avatar Facet Anchors. When enabled, you also edit your grab poses for tools when this is enabled. To toggle UI Edit Mode, bring your controllers to your head and hold <b><color=hero.purple>{Menu_Input}</closeall> on <i>one</i> of your controllers and double press <b><color=hero.purple>{Menu_Input}</closeall> on your other controller. You can also enable UI Edit Mode via the <b><color=hero.cyan>UI Edit Mode</closeall> toggle in your <b><color=hero.yellow>Settings</closeall>, under <sprite name=UserInterfaceIcon> <b><color=hero.purple>User Interface</closeall>.",
+        "Help.Controls.VRGestures.ToggleUIEditMode.Content": "This gesture toggles <b><color=hero.cyan>UI Edit Mode</closeall> which allows you to add, remove, or edit facets on your Dashboard or Avatar Facet Anchors. When enabled, you also edit your grab poses for tools. To toggle UI Edit Mode, bring your controllers to your head and hold <b><color=hero.purple>{Menu_Input}</closeall> on <i>one</i> of your controllers and double press <b><color=hero.purple>{Menu_Input}</closeall> on your other controller. You can also enable UI Edit Mode via the <b><color=hero.cyan>UI Edit Mode</closeall> toggle in your <b><color=hero.yellow>Settings</closeall>, under <sprite name=UserInterfaceIcon> <b><color=hero.purple>User Interface</closeall>.",
         "Help.Controls.VRGestures.ToggleDashboard": "Toggle Dashboard",
         "Help.Controls.VRGestures.ToggleDashboard.Content": "This gesture opens and closes your dashboard. To open or close your dash, bring your left controller to your head and press your <b><color=hero.purple>{Context_Menu_Input}</closeall>.",
         "Help.Controls.VRGestures.ToggleFacetAnchors": "Toggle Facet Anchors",
@@ -3746,7 +3760,7 @@
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables.SetCloudVariableType": "Set Cloud Variable Type",
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables.SetCloudVariableType.Content": "Sets the type for a user or group cloud variable.",
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables.SetCloudVariableDefaultValue": "Set Cloud Variable Default Value",
-        "Help.LinksAndResources.PlatformBotCommands.CloudVariables.SetCloudVariableDefaultValue.Content": "Sets the type for a user or group cloud variable.",
+        "Help.LinksAndResources.PlatformBotCommands.CloudVariables.SetCloudVariableDefaultValue.Content": "Sets the default value for a user or group cloud variable.",
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables.SetCloudVariablePermissions": "Set Cloud Variable Permissions",
         "Help.LinksAndResources.PlatformBotCommands.CloudVariables.SetCloudVariablePermissions.Content": "Sets the permissions for a user or group cloud variable.",
 

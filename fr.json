@@ -934,6 +934,7 @@
         "Tools.Rig.AddEffector": "Ajouter Actionneur",
         "Tools.Rig.RemoveEffector": "Supprimer Actionneur",
         "Tools.Rig.SetupFABRIK": "Configurer solveur FABRIK",
+        "Tools.Rig.SetupTrigIK": "Configurer solveur IK trigonométrique",
         "Tools.Rig.CreateNew": "Créer nouvelle armature",
         "Tools.Rig.DeselectRig": "Désélectionner armature",
         "Tools.Rig.DestroyBone": "Supprimer os",
@@ -1749,8 +1750,6 @@
         "Settings.AudioPerformanceSettings": "Performance audio",
         "Settings.AudioPerformanceSettings.MaxVoices": "Nombre maximum de sons actifs",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "Contrôle combien de sons seront présents en même temps au maximum. Augmenter le nombre vous permettra d'entendre plus de sons, mais au coût d'usage de processeur plus élevé.<br><br>Si la valeur est trop haute, cela peut entraîner des problèmes d'audio.",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize": "Taille des trames de simulation",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Contrôle le montant de données qui sont traitées en un coup. Augmenter cette valeur peut améliorer les performances mais va augmenter la latence.<br><br>Nous ne recommandons pas de changer la valeur par défaut de 1024.",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "Taille du tampon de lecture",
         "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Contrôle la taille du tampon audio de lecture. Des valeurs plus hautes vont avoir plus de latence, mais moins de pops et cracs.<br><br>En baissant cette valeur, vous pouvez réduire la latence, mais il y aura plus de cracs et pops.",
 
@@ -1969,7 +1968,9 @@
         "Settings.PhotoCaptureSettings.EncodeFormat": "Format d'encodage",
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "Le format d'image dans lequel les photos seront encodées. Si vous avez besoin d'un format spécifique, définissez le ici.\n\nCertains formats ne possèdent pas certaines fonctionnalités telles qu'une chaîne alpha. D'autres ont des temps d'encodage plus longs et créent des fichiers plus lourds.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Toujours cacher les noms",
-        "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Activez cette option pour toujours cacher les noms dans le photos. Ce paramètre est indépendant de l'option de visibilité des noms et assure qu'ils seront toujours cachés dans les photos.",
+        "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Activez cette option pour toujours cacher les noms dans les photos. Ce paramètre est indépendant de l'option de visibilité des noms et assure qu'ils seront toujours cachés dans les photos.",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "Toujours cacher les gizmos",
+        "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "Activez cette option pour toujours cacher les gizmos de développement dans les photos. Cela peut vous aider à prendre des photos plus propres même si quelqu’un est en train de travailler. Les Inspecteurs et le ProtoFlux resteront visibles.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Champ de vision",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Définit le champ de vision en mode bureau. Des valeurs plus grandes entraînera une vue plus large au coût de distortions sur les côtés de l'écran.",
@@ -2502,6 +2503,16 @@
 
         "Inspector.Actions.CopyComponent": "Copier le composant",
         "Inspector.Actions.MoveComponent": "Bouger le composant",
+
+        "Inspector.Actions.CopyName": "Copier le nom",
+        "Inspector.Actions.CopyTag": "Copier le tag",
+        "Inspector.Actions.CopyGlobalPosition": "Copier la position globale",
+        "Inspector.Actions.CopyLocalPosition": "Copier la position locale",
+        "Inspector.Actions.CopyGlobalScale": "Copier l’échelle globale",
+        "Inspector.Actions.CopyLocalScale": "Copier l’échelle locale",
+        "Inspector.Actions.CopyGlobalRotation": "Copier la rotation globale",
+        "Inspector.Actions.CopyLocalRotation": "Copier la rotation locale",
+        "Inspector.Actions.CopyOrderOffset": "Copier l’indice de tri",
 
         "Inspector.Wizard.PackTexture": "Combiner textures",
         "Inspector.Wizard.UnpackTexture": "Extraire texture",

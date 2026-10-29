@@ -2,6 +2,9 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Dutch [nl]
+Tools.StreamVideo  
+Tools.StreamVideo.Stop  
+Device.SystemAudio  
 Tools.ProtoFlux.Wiki  
 Tools.Rig.AddEffector  
 Tools.Rig.RemoveEffector  
@@ -13,8 +16,22 @@ Tools.Rig.DestroyBone
 Settings.AudioStreamSettings  
 Settings.AudioStreamSettings.DefaultBitrate  
 Settings.AudioStreamSettings.DefaultDeviceID  
+Settings.AudioPerformanceSettings.SimulationFramesPerBuffer  
+Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description  
+Settings.RealtimeNetworkingSettings.PreferQUIC  
+Settings.RealtimeNetworkingSettings.PreferQUIC.Description  
+Settings.DebugSettings.ShowMediaMTXWindow  
+Settings.DebugSettings.ShowMediaMTXWindow.Description  
+Settings.DebugSettings.UseProtonForMediaMTX  
+Settings.DebugSettings.UseProtonForMediaMTX.Description  
+Settings.DebugSettings.ForceSoftwareVideoEncoder  
+Settings.DebugSettings.ForceSoftwareVideoEncoder.Description  
+Settings.DesktopViewSettings.HideMenuButtonInVR  
+Settings.DesktopViewSettings.HideMenuButtonInVR.Description  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
+Settings.VideoStreamingServicesSettings.PreferredResolution  
+Settings.VideoStreamingServicesSettings.PreferredResolution.Description  
 Inspector.NewSystem.Warning  
 Inspector.FingerReferencePoseSource.AssignFromBipedRig  
 Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
@@ -30,6 +47,15 @@ Inspector.Actions.CopyLocalScale
 Inspector.Actions.CopyGlobalRotation  
 Inspector.Actions.CopyLocalRotation  
 Inspector.Actions.CopyOrderOffset  
+Desktop.Stream  
+Desktop.StopStream  
+Desktop.Stream.Display  
+Desktop.Stream.Title  
+Desktop.Stream.Audio  
+Desktop.Stream.FPS  
+Desktop.Stream.Resolution  
+Desktop.Stream.Bitrate  
+Desktop.Stream.Start  
 Universe.Units.Parsec  
 Universe.Units.Inch  
 Universe.Units.Foot  

@@ -384,6 +384,8 @@
         "Tools.CreateNewWorld": "新規ワールドを作成",
         "Tools.Debug": "デバッグ",
         "Tools.StreamAudio": "音声配信",
+        "Tools.StreamVideo": "画面配信<sup><color=hero.red>BETA",
+        "Tools.StreamVideo.Stop": "画面配信停止",
         "Tools.Setup2FA": "2要素認証を設定",
 
         "Tools.StreamAudio.Dialog.Title" : "音声配信を作成",
@@ -1738,8 +1740,6 @@
         "Settings.AudioPerformanceSettings": "音声のパフォーマンス設定",
         "Settings.AudioPerformanceSettings.MaxVoices": "同時に再生可能な音声数",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "同時に再生できるサウンドの最大数を設定できます。これを増やすとCPUの使用量が増える代わりに、一度に多くのサウンドを再生することができます。<br><br>この値を高くしすぎると、音割れの様なな音が聞こえることがあります。",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize": "シュミレーションフレームサイズ",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "音声のレンダリング時に一度に計算される音声データの量を制御します。値を大きくするとパフォーマンスが向上する場合もありますが、オーディオイベントの頻度が低下し、遅延が増加するというデメリットがあります。<br><br>通常、この値を変更することはお勧めしません、1024のままにしてください。",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "バッファサイズ",
         "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "音声再生時のバッファサイズを制御します。値を大きくすると音声の遅延は大きくなりますが、ノイズやポップノイズに対する耐性は向上します。<br><br>この値を下げることで、音声の遅延を減らすことができますが、音割れや音飛びが出現しやすくなります。",
 
@@ -2600,6 +2600,16 @@
         "Desktop.LegacyInputMode.Off": "レガシーインプット​:オフ",
         "Desktop.Brightness": "明るさ: {n,number,percent}",
         "Desktop.Opacity": "不透明度: {n,number,percent}",
+
+        "Desktop.Stream": "画面共有<sup><color=hero.red>BETA",
+        "Desktop.StopStream": "画面共有停止",
+        "Desktop.Stream.Display": "ディスプレイ {index}: {width}x{height}",
+        "Desktop.Stream.Title": "画面共有設定",
+        "Desktop.Stream.Audio": "デスクトップ音声を含める",
+        "Desktop.Stream.FPS": "FPS:",
+        "Desktop.Stream.Resolution": "解像度:",
+        "Desktop.Stream.Bitrate": "ビットレート:",
+        "Desktop.Stream.Start": "共有開始",
 
         "VolumePlaneSlicer.Highlight": "ハイライト",
         "VolumePlaneSlicer.Slicer": "スライス",

@@ -195,7 +195,7 @@
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
 
         "World.Connection.NoProtocolsAvailable": "Es sind keine Verbindungsmethoden verfügbar",
-        "World.Connection.AllProtocolsFailed": "Alle Verbindungsmethoden sind gescheitert",        
+        "World.Connection.AllProtocolsFailed": "Alle Verbindungsmethoden sind gescheitert",
 
         "World.Error.AccessDenied": "Beitritt verweigert",
         "World.Error.SecurityViolation": "Sicherheitsverletzung",
@@ -384,6 +384,8 @@
         "Tools.CreateNewWorld": "Neue Welt",
         "Tools.Debug": "Debuggen",
         "Tools.StreamAudio": "Audio streamen",
+        "Tools.StreamVideo": "Benutzerdefiniertes Video streamen<sup><color=hero.red>BETA",
+        "Tools.StreamVideo.Stop": "Benutzerdefinierten Videostream beenden",
         "Tools.Setup2FA": "2FA einrichten",
 
         "Tools.StreamAudio.Dialog.Title": "Audio-Stream erstellen",
@@ -425,6 +427,8 @@
         "Indicator.Storage.Usage": "{storage_used} von {storage_max}<br><size=61.803%>Speicherplatz belegt</size>",
 
         "Indicator.LiveHiddenMessage": "(Information während Livemodus versteckt)",
+
+        "Device.SystemAudio": "<color=hero.cyan>🔊 System Audio</color>",
 
         "Login.InvalidCredentials": "Ungültige Anmeldedaten",
         "Login.InvalidCredentials.Description": "Überprüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut, oder drücken Sie \"Passwort vergessen?\".",
@@ -1740,11 +1744,11 @@
         "Settings.AudioPerformanceSettings": "Einstellungen für Audio-Performance",
         "Settings.AudioPerformanceSettings.MaxVoices": "Maximale Anzahl gleichzeitig aktiver Töne",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "Dies legt fest, wie viele Töne gleichzeitig abgespielt werden können. Wenn Sie diesen Wert erhöhen, können Sie mehr Töne auf einmal hören, allerdings erhöht dies die CPU-Auslastung.<br><br>Wenn Sie diesen Wert zu hoch einstellen, kann es zu Knackgeräuschen kommen.",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize": "Frame-Größe der Simulation",
-        "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Dies steuert, wie viele Daten beim Rendern von Audio in einem Durchgang berechnet werden. Eine Vergrößerung des Wertes kann die Leistung in gewisser Weise verbessern, geht aber auf Kosten von selteneren Audio-Events und höherer Latenz.<br><br>Grundsätzlich empfehlen wir, den Standardwert 1024 beizubehalten und diesen Wert nicht zu ändern.",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "Wiedergabe-Puffergröße",
-        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Dies legt die Puffergröße für die Audiowiedergabe fest. Höhere Werte führen zu einer größeren Audio-Latenz, sind aber unanfälliger für Knistern und Knackser.<br><br>Durch Verringern dieses Wertes können Sie die Audiolatenz verringern, aber das System wird anfälliger für Knackser und Aussetzer.",
-
+        "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Dies legt die Puffergröße für die Audiowiedergabe fest.<br><br>Die Puffergröße wird als Vielfaches der Buffer-Größe des Computers eingestellt, diese Puffergröße wird oft auch als \"Quantum\" des Computeraudiosystems bezeichnet.<br><br>Höhere Werte führen zu einer größeren Audio-Latenz, sind aber unanfälliger für Knistern und Knackser.<br><br>Durch Verringern dieses Wertes können Sie die Audio-Latenz verringern, aber das System wird anfälliger für Knackser und Aussetzer.",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer": "Simulationsframes pro Systempuffer",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description": "Dies bestimmt, wie oft der Simulator während einer Puffer-Periode des Audiopuffers Ihres Computers, also dessen \"Quantum\", ausgeführt wird.<br><br><color=hero.orange><b><i>Wichtig</b></color>:</i> Dies hängt <i>nicht</i> von der Größe des Wiedergabepuffers ab, sondern bezieht sich auf das Quantum des Audiosystems Ihres Computers.<br><br>Zum Beispiel: Wenn Ihr Computer eine Quantumgröße von 960 Samples besitzt, und der Simulator vier Frames in diesem Zeitabschnitt simuliert, dann wird der Simulator 240 Audiosamples zusammen rendern.<br><br>Die Einstellung \"Vier\" sollte für die meisten Systeme angemessen sein.",
+        
         "Settings.VoiceSettings": "Stimm-Einstellungen",
         "Settings.VoiceSettings.MutePersistence": "Stummschaltungs-Persistenz",
         "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Starte nicht Stummgeschaltet:</color> Bei jedem Login starten Sie mit nicht stummgeschalteter Stimme.\n\n<color=hero.yellow>Starte Stummgeschaltet:</color> Bei jeder Anmeldung starten Sie mit stummgeschalteter Stimme. Sie können entweder die Stummschaltung aufheben oder die Sprechtaste (standardmäßig V) zum Sprechen drücken.\n\n<color=hero.yellow>Letzte gewählte Einstellung:</color> Ihre gewählte Einstellung wird beim Abmelden gespeichert und bei der Anmeldung wiederhergestellt.",
@@ -1771,6 +1775,8 @@
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Wenn dies aktiviert ist, werden sofern möglich Steam Networking Sockets für Verbindungen verwendet. Dies kann Ihnen helfen, wenn das LNL-Protokoll erhebliche Paketverzögerungen verursacht. Da diesem Protokoll allerdings einige Funktionalitäten fehlen, kann es zu mehr Stabilitätsproblemen führen, daher empfehlen wir es nur zu aktivieren, wenn Sie Probleme bemerken.",
         "Settings.RealtimeNetworkingSettings.PreferTCP": "Bevorzuge TCP",
         "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Wenn dies aktiviert ist, werden Verbindungen über TCP gegenüber allen anderen Protokollen bevorzugt. Dies betrifft vor allem Verbindungen im LAN, da TCP standardmäßig nicht für Verbindungen über das Internet verwendet wird.\n\nTCP kann in lokalen LAN-Netzwerken eine bessere Leistung bringen und auch in bestimmten Netzwerken funktionieren, in denen UDP-basierte Protokolle nicht funktionieren.\n\nEs kann jedoch unter einer \"Head-of-Line\" Blockierung leiden, wodurch Stimmen und Posen erheblich verzögert werden können.",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC": "Bevorzuge QUIC (experimentell)",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC.Description": "Wenn dies aktiviert ist, werden Verbindungen über QUIC gegenüber anderen Protokollen (ausgenommen TCP) bevorzugt.\n\nDie Unterstützung dieses Protokolls ist experimentell und noch unvollständig, kann aber eine bessere Leistung als das standardmäßige verwendete LNL-Protokoll erreichen.\n\nDer Server muss explizit so konfiguriert sein, dass er über QUIC erreichbar ist.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "LNL Fenstergröße",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Dies stellt die Fenstergröße für das LNL-Protokoll für Echtzeit-Netzwerke ein. Eine Änderung wirkt sich sofort auf alle Ihre Sitzungen aus.\nSollten Sie Paketstaus feststellen, können Sie diesen Wert erhöhen, wodurch sich der Durchsatz der Verbindung verbessern kann. Allerdings können größere Werte die Verbindung auch instabiler machen.\n\n<color=hero.yellow>Standardwert:</color> 64\n\n<color=hero.red>WICHTIG:</color> Beachten Sie, dass es sich bei dieser Einstellung um eine Behelfslösung handelt, die auch der Diagnose dient. Dieser Wert wird in Zukunft automatisch angepasst.",
 
@@ -1805,7 +1811,13 @@
         "Settings.DebugSettings.DebugInputBindings.Description": "Wenn Sie dies aktivieren, sehen Sie Debugging-Informationen für das Eingabe-Verknüpfungssystem. Dies ist hauptsächlich für Entwickler nützlich.",
         "Settings.DebugSettings.ConvertParticleSystems": "Konvertiere Partikelsysteme zu PhotonDust",
         "Settings.DebugSettings.ConvertParticleSystems.Description": "Wenn diese Option aktiv ist, wird für alle <b>neu</b> geladenen Gegenstände und Welten das alte Partikelsystem in das neue eigene System (PhotonDust) konvertiert.<br><br><color=red>Dies ist nur für Testzwecke vorgesehen!</color> Wenn Sie nicht an den Tests teilnehmen, raten wir davon ab, diese Option zu aktivieren, da IHRE INHALTE BESCHÄDIGT WERDEN KÖNNEN.<br><br>Bitte informieren Sie sich in unserem GitHub/Discord, wenn Sie beim Testen helfen möchten.",
-
+        "Settings.DebugSettings.ShowMediaMTXWindow": "MediaMTX-Fenster anzeigen",
+        "Settings.DebugSettings.ShowMediaMTXWindow.Description": "Beim Streamen eines Videos ist das Fenster der MediaMTX-Instanz sichtbar. Dies ist hilfreich, um dessen Ausgabe sehen zu können.<br><br><color=hero.red>WARNUNG:</color> Wenn Sie dieses Fenster manuell schliessen wird der Stream zusammenbrechen.",
+        "Settings.DebugSettings.UseProtonForMediaMTX": "Nutze Proton für MediaMTX",
+        "Settings.DebugSettings.UseProtonForMediaMTX.Description": "Auf Linux Systemen startet dies die Windows-Version von MediaMTX unter Proton, anstatt die native Linux-Version von MediaMTX zu verwenden.",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder": "Software-Videoencoder erzwingen",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder.Description": "Nutzt den Software-Videoencoder anstatt des Hardware-Videoencoders zum Streamen des Desktops.",
+        
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Doppel-Druck auf Griff, um Gegenstände auszurüsten",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wenn dies aktiviert ist, können Sie Tools und andere ausrüstbare Objekte ausrüsten, indem Sie ihren Griff zweimal schnell nacheinander drücken. Diese Einstellung wird wahrscheinlich irgendwann entfernt werden.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Benutze alten Welten-Wechsler",
@@ -1934,6 +1946,8 @@
         "Settings.DesktopViewSettings.Brightness.Description": "Dies stellt die Helligkeit der Desktop-Ansicht ein.",
         "Settings.DesktopViewSettings.Opacity": "Transparenz",
         "Settings.DesktopViewSettings.Opacity.Description": "Verringern Sie diesen Wert, um die Desktop-Ansicht halbtransparent zu machen. Dies macht es einfacher zu sehen, was sich in der Welt dahinter befindet.",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR": "Menü-Schaltfläche in VR ausblenden",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR.Description": "Im VR-Modus wird die Hamburger-Menü-Schaltfläche im Desktop Tab ausgeblendet. Sie können das Menü öffnen, indem Sie auf den Bildschirm zielen und den Kontextmenü-Knopf drücken.",        
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Finger-Foto-Geste",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "Wenn dies aktiviert ist, können Sie schnell Fotos in Welten aufnehmen, indem Sie einen Rahmen aus ihren Fingern formen und dann einen ihrer Zeigefinger krümmen.",
@@ -2057,6 +2071,8 @@
         "Settings.VideoStreamingServicesSettings": "Einstellungen für Videostreaming-Dienste",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Cookies vom Browser verwenden",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Wenn bei Ihnen Videos von Youtube oder anderen Diensten nicht geladen werden, wählen Sie hier den Browser aus, den Sie üblicherweise nutzen um Videos abzurufen. Dies lädt Ihre Browser-Cookies, um damit die Chancen zu erhöhen, die Videos erfolgreich zu laden.",
+        "Settings.VideoStreamingServicesSettings.PreferredResolution": "Bevorzugte Auflösung",
+        "Settings.VideoStreamingServicesSettings.PreferredResolution.Description": "Videos von Streamingdiensten werden in dieser bevorzugten Auflösung geladen, außer sie wird durch eine abweichende Einstellung direkt im Player überschrieben.<br><br>Eine Erhöhung dieser Werte verbessert die Videoqualität, vergrößert aber auch die CPU- und Netzwerkbelastung.<br><br>Falls Sie Probleme mit ruckelnden Videos haben, versuchen Sie es mit einer verringerten Auflösung.",
 
         "Settings.PostProcessingSettings": "Nachbearbeitung",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Stärke der Bewegungsunschärfe",
@@ -2613,6 +2629,16 @@
         "Desktop.LegacyInputMode.Off": "Abwärtskompatible Eingabe: Aus",
         "Desktop.Brightness": "Helligkeit: {n,number,percent}",
         "Desktop.Opacity": "Transparenz: {n,number,percent}",
+
+        "Desktop.Stream": "Bildschirm teilen<sup><color=hero.red>BETA",
+        "Desktop.StopStream": "Beende Teilen des Bildschirms",        
+        "Desktop.Stream.Display": "Bildschirm {index}: {width}x{height}",
+        "Desktop.Stream.Title": "Bildschirmfreigabe konfigurieren",
+        "Desktop.Stream.Audio": "Desktop-Audio mit einbeziehen",
+        "Desktop.Stream.FPS": "FPS:",
+        "Desktop.Stream.Resolution": "Auflösung:",
+        "Desktop.Stream.Bitrate": "Bitrate:",
+        "Desktop.Stream.Start": "Freigabe starten",
 
         "VolumePlaneSlicer.Highlight": "Hervorhebung",
         "VolumePlaneSlicer.Slicer": "Schneiden",
