@@ -393,7 +393,9 @@
         "Tools.CameraStreaming": "Caméra / Diffusion",
         "Tools.CreateNewWorld": "Créer un nouveau monde",
         "Tools.Debug": "Déboguer",
-        "Tools.StreamAudio": "Diffuser l'audio",
+        "Tools.StreamAudio": "Diffuser Audio",
+        "Tools.StreamVideo": "Diffuser Vidéo <sup><color=hero.red>BETA",
+        "Tools.StreamVideo.Stop": "Arrêter la diffusion vidéo",
         "Tools.Setup2FA": "Configurer 2FA",
 
         "Tools.StreamAudio.Dialog.Title": "Créer un flux audio",
@@ -435,6 +437,8 @@
         "Indicator.Storage.Usage": "{storage_used} sur {storage_max}<br><size=61.803%>Stockage utilisé</size>",
 
         "Indicator.LiveHiddenMessage": "(Vos informations sont cachées pendant la diffusion)",
+
+        "Device.SystemAudio": "<color=hero.cyan>🔊 Audio Système</color>",
 
         "Login.InvalidCredentials": "Identification invalide",
         "Login.InvalidCredentials.Description": "Veuillez vérifier vos identifiants et ré-essayer \"Mot de passe oublié ?\"",
@@ -1752,6 +1756,8 @@
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "Contrôle combien de sons seront présents en même temps au maximum. Augmenter le nombre vous permettra d'entendre plus de sons, mais au coût d'usage de processeur plus élevé.<br><br>Si la valeur est trop haute, cela peut entraîner des problèmes d'audio.",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "Taille du tampon de lecture",
         "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Contrôle la taille du tampon audio de lecture. Des valeurs plus hautes vont avoir plus de latence, mais moins de pops et cracs.<br><br>En baissant cette valeur, vous pouvez réduire la latence, mais il y aura plus de cracs et pops.",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer": "Trames de simulation par tampon système",
+        "Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description": "Contrôle combien de fois le simulateur s’exécute en l’espace d’un tampon audio de votre ordinateur - autrement dit le \"quantum\" audio de votre système.<br><br><color=hero.orange><b><i>Important</b></color> :</i> Ce n’est <i>pas</i> lié au tampon de lecture, mais à une caractéristique de votre système.<br><br>Par exemple : Si votre ordinateur supporte un quantum de 960 échantillons, et que le simulateur s’exécute pour quatre trames dans cet intervalle de temps, alors le simulateur traitera 240 échantillons audio à la fois.<br><br>Un paramètre à 4 (\"Four\") devrait convenir pour la plupart des systèmes.",
 
         "Settings.VoiceSettings": "Voix",
         "Settings.VoiceSettings.MutePersistence": "Persistence de mode silencieux",
@@ -1779,6 +1785,8 @@
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking.Description": "Quand activé, vous vous connecterez aux sessions via le protocole Steam Networking Sockets si possible. Ceci peut aider dans les cas où le protocole LNL crée trop de queue pour les paquets. Cependant, ce protocole manque de certaines fonctionnalités, pouvant créer de l'instabilité, donc nous vous recommandons de ne l'activer que si vous avez des problèmes avec les autres protocoles.",
         "Settings.RealtimeNetworkingSettings.PreferTCP": "Préférer TCP",
         "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Quand activé, les connections sur TCP sont préférées. Cela affecte le plus les connections locales étant donné que TCP n'est pas utilisé par défaut pour se connecter sur internet.\n\nTCP peut avoir une meilleure performance sur un réseau local et fonctionner sur certains réseaux ou les protocoles basés sur UDP ne fonctionnent pas.\n\nCependant, ils peuvent également souffrir d'un blocage en \"tête de ligne\", ce qui entraîne un retard important des voix et des poses.",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC": "Préférer QUIC (expérimental)",
+        "Settings.RealtimeNetworkingSettings.PreferQUIC.Description": "Quand activé, les connections sur QUIC sont préférées (TCP reste prioritaire si l’option précédente est activée).\n\nLe support pour ce protocole est actuellement incomplet et expérimental, mais il peut avoir de meilleures performances que le protocole LNL par défaut dans certaines situations.\n\nL’hôte de session doit aussi effectuer une configuration explicite supplémentaire pour que QUIC soit disponible.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "Taille de la fenêtre LNL",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Contrôle la taille de la fenêtre du protocole LNL, pour le réseautage en temps réel. Changer cette option aura un effet immédiat dans toutes les sessions que vous aurez rejoint.\n\nSi vous rencontrez du \"packet queuing\" (queue pour la réception des paquets), augmenter cette valeur peut améliorer le débit de la connection, au coût de la stabilité.\n\n<color=hero.yellow>Valeur par défaut :</color> 64\n\n<color=hero.red>IMPORTANT :</color> Notez que cette option est présente pour le diagnostic et n'est qu'une solution temporaire; cette valeur sera ajustée automatiquement dans le futur.",
 
@@ -1813,6 +1821,12 @@
         "Settings.DebugSettings.DebugInputBindings.Description": "Quand activé, vous verrez des informations concernant le système de liaison d'entrées . Ceci est utile pour les développeurs.",
         "Settings.DebugSettings.ConvertParticleSystems": "Convertir les systèmes de particules vers la nouvelle version",
         "Settings.DebugSettings.ConvertParticleSystems.Description": "Activer cette option va convertir les systèmes de particules vers la nouvelle version (PhotonDust) pour <b>chaque</b> objet et monde chargé.<br><br><color=red>Cette option ne doit être utilisée que pour des tests !</color> Si vous n'êtes pas dans le groupe de test, nous ne recommandons pas d'activer cette option étant donné que votre contenu peut ÊTRE CORROMPU.<br><br>Veuillez conseiller notre GitHub/Discord si vous voulez aider a tester le nouveau système.",
+        "Settings.DebugSettings.ShowMediaMTXWindow": "Afficher la fenêtre MediaMTX",
+        "Settings.DebugSettings.ShowMediaMTXWindow.Description": "Lors de la diffusion vidéo, l’instance MediaMTX ouvrira une fenêtre visible. Cela peut être utile pour observer sa sortie.<br><br><color=hero.red>ATTENTION :</color> si vous fermez cette fenêtre manuellement, la diffusion sera interrompue.",
+        "Settings.DebugSettings.UseProtonForMediaMTX": "Utiliser Proton pour MediaMTX",
+        "Settings.DebugSettings.UseProtonForMediaMTX.Description": "Sur les systèmes Linux, plutôt que de lancer la version native de MediaMTX, lancer la version Windows sous Proton.",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder": "Forcer encodage vidéo logiciel",
+        "Settings.DebugSettings.ForceSoftwareVideoEncoder.Description": "Utilise l’encodage vidéo logiciel pour la diffusion vidéo, plutôt que l’encodage matériel accéléré par GPU.",
 
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Double-presser grip pour équiper un objet",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Quand activé, vous pourrez équiper des objets et gadgets en pressant le bouton de grip en succession rapide. Cette option sera probablement retirée dans le futur.",
@@ -1942,6 +1956,8 @@
         "Settings.DesktopViewSettings.Brightness.Description": "Règle la luminosité de la vue de bureau.",
         "Settings.DesktopViewSettings.Opacity": "Opacité",
         "Settings.DesktopViewSettings.Opacity.Description": "Diminuez cette valeur pour rendre la vue de bureau transparente, permettant de voir plus facilement ce qui est derrière dans le monde.",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR": "Cacher le bouton menu en VR",
+        "Settings.DesktopViewSettings.HideMenuButtonInVR.Description": "Dissimule le bouton de menu pendant l’utilisation de l’onglet Bureau en mode VR. Vous pouvez ouvrir le menu en pointant l’écran et en appuyant sur le bouton de menu contextuel.",
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Geste de photo avec les doigts",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "Quand activé, vous pouvez prendre une photo rapidement dans un monde en faisant un geste de photo avec les doigts, puis en repliant un index.",
@@ -2065,6 +2081,8 @@
         "Settings.VideoStreamingServicesSettings": "Options de plateformes de streaming",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Utiliser les cookies du navigateur",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Si YouTube et autres services ne fonctionnent pas, vous pouvez essayer de charger les cookies de votre navigateur pour tenter de charger les vidéos. Cela augmente les chances de la vidéo de charger.",
+        "Settings.VideoStreamingServicesSettings.PreferredResolution": "Résolution souhaitée",
+        "Settings.VideoStreamingServicesSettings.PreferredResolution.Description": "Résolution à laquelle les diffusions vidéo devraient être chargées par défaut, à moins que le paramètre soit directement modifié sur le lecteur vidéo.<br><br>Augmenter cette valeur améliorera la qualité vidéo, mais aussi la bande passante réseau et le temps CPU utilisés.<br><br>Si vous rencontrez des problèmes de saccades vidéo, vous pouvez essayer de réduire cette valeur.",
 
         "Settings.PostProcessingSettings": "Post-traitement",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Intensité du flou de mouvement",
@@ -2619,6 +2637,16 @@
         "Desktop.LegacyInputMode.Off": "Ancien mode d'entrée : Inactif",
         "Desktop.Brightness": "Luminosité : {n,number,percent}",
         "Desktop.Opacity": "Opacité : {n,number,percent}",
+
+        "Desktop.Stream": "Partage d’écran <sup><color=hero.red>BETA",
+        "Desktop.StopStream": "Arrêter le partage d’écran",
+        "Desktop.Stream.Display": "Moniteur {index} : {width}x{height}",
+        "Desktop.Stream.Title": "Configurer le partage d’écran",
+        "Desktop.Stream.Audio": "Inclure l’audio du bureau",
+        "Desktop.Stream.FPS": "FPS :",
+        "Desktop.Stream.Resolution": "Résolution :",
+        "Desktop.Stream.Bitrate": "Bitrate :",
+        "Desktop.Stream.Start": "Démarrer le partage",
 
         "VolumePlaneSlicer.Highlight": "Souligner",
         "VolumePlaneSlicer.Slicer": "Trancher",
