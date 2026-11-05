@@ -1,13 +1,16 @@
 {
     "localeCode": "tr",
-    "authors": ["Blaze"],
+    "authors": ["Blaze", "KeuqS"],
     "messages": {
 
         "General.OK": "Tamam",
+        "General.Start": "Başlat",
+        "General.Finish": "Bitir",
 
         "General.Cancel": "İptal",
         "General.Continue": "Devam Et",
         "General.Next": "Sonraki",
+        "General.Previous": "Önceki",
 
         "General.Back": "Geri",
         "General.Confirm": "Emin misin?",
@@ -16,15 +19,41 @@
         "General.FAILED": "BAŞARISIZ",
         "General.Reset": "Sıfırla",
         "General.WorldOpenConfirm": "Gerçekten açıcakmısın?",
+        "General.Save": "Kaydet",
+        "General.Saving": "Kaydediliyor...",
 
         "General.Saved": "Kaydedildi!",
         "General.Done": "Yapıldı!",
+        "General.Close": "Kapat",
+        "General.CopyToClipboard": "Panoya kopyala",
 
         "General.CopiedToClipboard": "Kopyalandı!",
         "General.CopiedToClipboardLong": "Panoya kopyalandı!",
+        "General.Create": "Oluştur",
+        "General.Creating": "Oluşturuluyor...",
+        "General.Buy": "Satın Al",
+        "General.Yes": "Evet",
+        "General.No": "Hayır",
+        "General.ClearSelection": "Seçimi Temizle",
+        "General.Off": "Kapalı",
+        "General.On": "Açık",
+        "General.Understand": "Anlıyorum",
+        "General.Notice": "Bildirim",
+        "General.UnderstandEnable": "Anlıyorum, Etkinleştir",
+        "General.Dismiss": "Kapat",
+        "General.Edit": "Düzenle",
+        "General.DontShowAgain": "Bir Daha Gösterme",
 
         "General.UI.SearchPrompt": "Ara...",
         "General.UI.SearchPromptLong": "Aramak için yazın...",
+        "General.UI.ToggleEditMode": "Düzenleme Modunu Aç/Kapat",
+        "General.UI.ToggleSubtitles": "Altyazıları Aç/Kapat",
+        "General.UI.Subtitles.On": "Altyazılar: Açık",
+        "General.UI.Subtitles.Off": "Altyazılar: Kapalı",
+        "General.UI.MusicVolumeLocal": "Müzik Sesi (yerel):",
+        "General.UI.VoiceVolumeLocal": "Ses Sesi (yerel):",
+        "General.UI.SoundVolumeLocal": "Efekt Sesi (yerel):",
+        "General.UI.PressToBegin": "Başlamak İçin Basın",
 
         "General.Sort.Ascending": "Artan",
         "General.Sort.Descending": "Azalan",
@@ -51,6 +80,9 @@
 
         "Interaction.Destroy": "Yok Et",
         "Interaction.Duplicate": "Çiftle",
+        "Interaction.SaveToInventory": "Envantere Kaydet",
+        "Interaction.SaveToInventory.NotLoggedIn": "Öğeleri kaydetmek için giriş yapmalısınız.",
+        "Interaction.SaveToInventory.NoWritePermission": "Mevcut envanter klasörüne kaydedilemiyor.",
 
         "Interaction.Undo": "Geri Al",
         "Interaction.Redo": "Yinele",
@@ -74,9 +106,23 @@
         "Interaction.EquipAvatar": "Avatar'ı donat",
 
         "Interaction.SaveAsScreenshot": "Ekran görüntüsü olarak kaydet",
+        "Interaction.ExportScreenshot": "Ekran görüntüsünü dışa aktar",
 
         "Interaction.ImportFile": "Dosyası al",
         "Interaction.ExportFile": "Dosyası aktır",
+        "Interaction.CopyLink": "Bağlantıyı Kopyala",
+        "Interaction.CopyImage": "Görseli Kopyala",
+
+        "Inventory.OpenWorld": "Dünyayı Aç",
+        "Inventory.Equip": "Donat",
+        "Inventory.Delete": "Sil",
+        "Inventory.CreateDirectory": "Klasör Oluştur",
+        "Inventory.SaveHeld": "Tutulanı Kaydet",
+        "Inventory.GetURL": "URL'yi Al",
+        "Inventory.Inventories": "Envanterler",
+        "Inventory.Share": "Herkese Açık Yap",
+        "Inventory.Unshare": "Gizli Yap",
+        "Inventory.SaveAvatar": "Avatarı Kaydet",
 
         "Dash.Screens.Home": "Ana Sayfa",
         "Dash.Screens.Worlds": "Dünyalar",
