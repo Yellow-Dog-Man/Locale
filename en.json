@@ -1973,6 +1973,8 @@
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Finger photo gesture",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "When enabled, you can quickly take pictures in world by posing your fingers to make a picture frame and then curling one of your index fingers.",
+        "Settings.PhotoCaptureSettings.VideoRecording": "Record Video<sup><color=hero.red>BETA",
+        "Settings.PhotoCaptureSettings.VideoRecording.Description": "When enabled, holding the timer photo gesture briefly will start recording video instead. Feature is currently in beta and might not work correctly. Please report issues on GitHub!",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "Photo resolution",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "This sets what resolution normal photos captured by the finger gesture or the desktop key shortcut will be. Higher resolutions will take more time and storage to process, but give better detail.",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution": "Timed photo resolution",
@@ -1999,6 +2001,12 @@
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Turn this on if you want nameplates to never show in your photos. This setting is independent of the current nameplate visibility and will always ensure that they are hidden in captured photos.",
         "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "Always Hide Gizmos",
         "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "Turn this on if you want to hide any developer gizmos in your photos. This can help in cases where you want to take clean photos even in case someone is editing something. Inspectors and ProtoFlux will remain visible.",
+
+        "Settings.VideoCaptureSettings": "Video Capture Settings",
+        "Settings.VideoCaptureSettings.VideoBitrateMbps": "Video Bitrate Mbps",
+        "Settings.VideoCaptureSettings.VideoBitrateMbps.Description": "Bitrate used to encode video for recording. Higher bitrate will result in better image quality, but also bigger files.",
+        "Settings.VideoCaptureSettings.AudioBitrateKbps": "Audio Bitrate Kbps",
+        "Settings.VideoCaptureSettings.AudioBitrateKbps.Description": "Bitrate used to encode audio track for video recording. Higher bitrate will result in better audio quality, but slightly increase file size.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Field of view",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Use this to control the field of view (FOV) when in desktop mode. Larger values will give you wider view at the cost of greater distortion on the sides.",
