@@ -2,34 +2,34 @@
 This repository contains the locale assets for the core UI of [Resonite](https://resonite.com) and allows anyone to contribute translations. The contents of this repository will be periodically merged with the public build released on Steam (STEAM) and other platforms.
 
 ## Localization Status
-Czech [cs] - 100.0% - Missing keys: 0  
-German [de] - 100.0% - Missing keys: 0  
-English (United Kingdom) [en-gb] - 2.0% - Missing keys: 3317  
+Czech [cs] - 99.7% - Missing keys: 9  
+German [de] - 99.7% - Missing keys: 9  
+English (United Kingdom) [en-gb] - 2.0% - Missing keys: 3326  
 English [en] - 100.0% - Missing keys: 0  
-Esperanto [eo] - 49.1% - Missing keys: 1721  
-Spanish [es] - 99.9% - Missing keys: 2  
-Estonian [et] - 24.4% - Missing keys: 2559  
-Finnish [fi] - 72.2% - Missing keys: 940  
-French [fr] - 99.2% - Missing keys: 26  
-Hungarian [hu] - 19.5% - Missing keys: 2723  
-Icelandic [is] - 18.3% - Missing keys: 2764  
-Japanese [ja] - 99.2% - Missing keys: 27  
-Korean [ko] - 100.0% - Missing keys: 0  
-Mongolian [mn] - 77.9% - Missing keys: 747  
-Dutch [nl] - 81.1% - Missing keys: 639  
-Norwegian [no] - 45.7% - Missing keys: 1837  
-Polish [pl] - 82.4% - Missing keys: 597  
-Portuguese (Brazil) [pt-br] - 99.5% - Missing keys: 16  
-Russian [ru] - 81.4% - Missing keys: 629  
-Swedish [sv] - 80.6% - Missing keys: 657  
-Thai [th] - 2.0% - Missing keys: 3315  
-Toki Pona [tok] - 35.3% - Missing keys: 2188  
-Turkish [tr] - 24.0% - Missing keys: 2571  
-Ukrainian [uk] - 38.8% - Missing keys: 2072  
-Chinese (Simplified, Mainland China) [zh-cn] - 100.0% - Missing keys: 0  
-Chinese (Traditional, Taiwan) [zh-tw] - 100.0% - Missing keys: 0  
+Esperanto [eo] - 49.0% - Missing keys: 1730  
+Spanish [es] - 99.7% - Missing keys: 9  
+Estonian [et] - 24.3% - Missing keys: 2568  
+Finnish [fi] - 72.0% - Missing keys: 949  
+French [fr] - 99.7% - Missing keys: 9  
+Hungarian [hu] - 19.5% - Missing keys: 2732  
+Icelandic [is] - 18.3% - Missing keys: 2773  
+Japanese [ja] - 98.9% - Missing keys: 36  
+Korean [ko] - 99.7% - Missing keys: 9  
+Mongolian [mn] - 77.7% - Missing keys: 756  
+Dutch [nl] - 81.5% - Missing keys: 629  
+Norwegian [no] - 45.6% - Missing keys: 1846  
+Polish [pl] - 82.1% - Missing keys: 606  
+Portuguese (Brazil) [pt-br] - 99.7% - Missing keys: 9  
+Russian [ru] - 81.2% - Missing keys: 638  
+Swedish [sv] - 80.4% - Missing keys: 666  
+Thai [th] - 2.0% - Missing keys: 3324  
+Toki Pona [tok] - 35.2% - Missing keys: 2197  
+Turkish [tr] - 24.0% - Missing keys: 2580  
+Ukrainian [uk] - 38.7% - Missing keys: 2081  
+Chinese (Simplified, Mainland China) [zh-cn] - 99.7% - Missing keys: 9  
+Chinese (Traditional, Taiwan) [zh-tw] - 99.7% - Missing keys: 9  
 
-Total keys: 3384
+Total keys: 3393
 
 ## How To Contribute
 If you'd like to contribute translations, create a fork of the repository, make the changes and **once they are ready** to be merged create a Pull Request, so the contributions can be checked and merged. You don't need to translate everything at once, if you cover part of the UI, the changes can be merged, with more translations coming later.

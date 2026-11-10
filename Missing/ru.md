@@ -2,6 +2,8 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Russian [ru]
+Interaction.SaveAsVideo  
+Interaction.ExportVideo  
 World.Connection.NoProtocolsAvailable  
 World.Connection.AllProtocolsFailed  
 Tools.StreamVideo  
@@ -48,8 +50,15 @@ Settings.LaserSettings.AlwaysPrioritizeUserspace
 Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Settings.DesktopViewSettings.HideMenuButtonInVR  
 Settings.DesktopViewSettings.HideMenuButtonInVR.Description  
+Settings.PhotoCaptureSettings.VideoRecording  
+Settings.PhotoCaptureSettings.VideoRecording.Description  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
+Settings.VideoCaptureSettings  
+Settings.VideoCaptureSettings.VideoBitrateMbps  
+Settings.VideoCaptureSettings.VideoBitrateMbps.Description  
+Settings.VideoCaptureSettings.AudioBitrateKbps  
+Settings.VideoCaptureSettings.AudioBitrateKbps.Description  
 Settings.VideoStreamingServicesSettings.PreferredResolution  
 Settings.VideoStreamingServicesSettings.PreferredResolution.Description  
 Settings.RendererDecouplingSettings.ActivationFramerate.Description  

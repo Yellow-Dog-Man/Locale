@@ -2,6 +2,8 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Japanese [ja]
+Interaction.SaveAsVideo  
+Interaction.ExportVideo  
 Device.SystemAudio  
 Tools.Rig.SetupTrigIK  
 Settings.AudioPerformanceSettings.SimulationFramesPerBuffer  
@@ -16,8 +18,15 @@ Settings.DebugSettings.ForceSoftwareVideoEncoder
 Settings.DebugSettings.ForceSoftwareVideoEncoder.Description  
 Settings.DesktopViewSettings.HideMenuButtonInVR  
 Settings.DesktopViewSettings.HideMenuButtonInVR.Description  
+Settings.PhotoCaptureSettings.VideoRecording  
+Settings.PhotoCaptureSettings.VideoRecording.Description  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
+Settings.VideoCaptureSettings  
+Settings.VideoCaptureSettings.VideoBitrateMbps  
+Settings.VideoCaptureSettings.VideoBitrateMbps.Description  
+Settings.VideoCaptureSettings.AudioBitrateKbps  
+Settings.VideoCaptureSettings.AudioBitrateKbps.Description  
 Settings.VideoStreamingServicesSettings.PreferredResolution  
 Settings.VideoStreamingServicesSettings.PreferredResolution.Description  
 Inspector.Actions.CopyName  

@@ -2,6 +2,8 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Polish [pl]
+Interaction.SaveAsVideo  
+Interaction.ExportVideo  
 Tools.StreamVideo  
 Tools.StreamVideo.Stop  
 Device.SystemAudio  
@@ -28,8 +30,15 @@ Settings.DebugSettings.ForceSoftwareVideoEncoder
 Settings.DebugSettings.ForceSoftwareVideoEncoder.Description  
 Settings.DesktopViewSettings.HideMenuButtonInVR  
 Settings.DesktopViewSettings.HideMenuButtonInVR.Description  
+Settings.PhotoCaptureSettings.VideoRecording  
+Settings.PhotoCaptureSettings.VideoRecording.Description  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
+Settings.VideoCaptureSettings  
+Settings.VideoCaptureSettings.VideoBitrateMbps  
+Settings.VideoCaptureSettings.VideoBitrateMbps.Description  
+Settings.VideoCaptureSettings.AudioBitrateKbps  
+Settings.VideoCaptureSettings.AudioBitrateKbps.Description  
 Settings.VideoStreamingServicesSettings.PreferredResolution  
 Settings.VideoStreamingServicesSettings.PreferredResolution.Description  
 Inspector.NewSystem.Warning  

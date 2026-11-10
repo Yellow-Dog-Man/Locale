@@ -2,20 +2,12 @@
 Note that this file updates only during build processes and doesn't necessarily reflect the current state.
 
 # Dutch [nl]
+Interaction.SaveAsVideo  
+Interaction.ExportVideo  
 Tools.StreamVideo  
 Tools.StreamVideo.Stop  
 Device.SystemAudio  
-Tools.ProtoFlux.Wiki  
-Tools.Rig.AddEffector  
-Tools.Rig.RemoveEffector  
-Tools.Rig.SetupFABRIK  
 Tools.Rig.SetupTrigIK  
-Tools.Rig.CreateNew  
-Tools.Rig.DeselectRig  
-Tools.Rig.DestroyBone  
-Settings.AudioStreamSettings  
-Settings.AudioStreamSettings.DefaultBitrate  
-Settings.AudioStreamSettings.DefaultDeviceID  
 Settings.AudioPerformanceSettings.SimulationFramesPerBuffer  
 Settings.AudioPerformanceSettings.SimulationFramesPerBuffer.Description  
 Settings.RealtimeNetworkingSettings.PreferQUIC  
@@ -28,16 +20,17 @@ Settings.DebugSettings.ForceSoftwareVideoEncoder
 Settings.DebugSettings.ForceSoftwareVideoEncoder.Description  
 Settings.DesktopViewSettings.HideMenuButtonInVR  
 Settings.DesktopViewSettings.HideMenuButtonInVR.Description  
+Settings.PhotoCaptureSettings.VideoRecording  
+Settings.PhotoCaptureSettings.VideoRecording.Description  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
+Settings.VideoCaptureSettings  
+Settings.VideoCaptureSettings.VideoBitrateMbps  
+Settings.VideoCaptureSettings.VideoBitrateMbps.Description  
+Settings.VideoCaptureSettings.AudioBitrateKbps  
+Settings.VideoCaptureSettings.AudioBitrateKbps.Description  
 Settings.VideoStreamingServicesSettings.PreferredResolution  
 Settings.VideoStreamingServicesSettings.PreferredResolution.Description  
-Inspector.NewSystem.Warning  
-Inspector.FingerReferencePoseSource.AssignFromBipedRig  
-Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
-Inspector.FingerReferencePoseSource.CaptureMyRightHand  
-Inspector.BipedRig.GenerateStaticFingerPoseCode  
-Inspector.FingerReferencePoseSource.CaptureReference  
 Inspector.Actions.CopyName  
 Inspector.Actions.CopyTag  
 Inspector.Actions.CopyGlobalPosition  
@@ -107,10 +100,7 @@ Help.GettingStarted.AvatarBasics.Equipping.Content2
 Help.GettingStarted.AvatarBasics.OpeningYourDashboard  
 Help.GettingStarted.AvatarBasics.OpeningYourDashboard.Content  
 Help.GettingStarted.AvatarBasics.CreatingAFolder  
-Help.GettingStarted.AvatarBasics.CreatingAFolder.Content  
 Help.GettingStarted.AvatarBasics.Saving  
-Help.GettingStarted.AvatarBasics.Saving.Content  
-Help.GettingStarted.AvatarBasics.Saving.Content2  
 Help.GettingStarted.AvatarBasics.Saving.Content3  
 Help.GettingStarted.AvatarBasics.Wearing  
 Help.GettingStarted.AvatarBasics.Wearing.Content  

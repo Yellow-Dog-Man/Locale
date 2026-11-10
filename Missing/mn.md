@@ -3,6 +3,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 
 # Mongolian [mn]
 General.DontShowAgain  
+Interaction.SaveAsVideo  
+Interaction.ExportVideo  
 Dash.Screens.Help  
 World.Connection.NoProtocolsAvailable  
 World.Connection.AllProtocolsFailed  
@@ -68,12 +70,19 @@ Settings.CursorSettings.DirectCursorEnabled
 Settings.CursorSettings.DirectCursorEnabled.Description  
 Settings.DesktopViewSettings.HideMenuButtonInVR  
 Settings.DesktopViewSettings.HideMenuButtonInVR.Description  
+Settings.PhotoCaptureSettings.VideoRecording  
+Settings.PhotoCaptureSettings.VideoRecording.Description  
 Settings.PhotoCaptureSettings.HandsNearFOV  
 Settings.PhotoCaptureSettings.HandsNearFOV.Description  
 Settings.PhotoCaptureSettings.HandsFarFOV  
 Settings.PhotoCaptureSettings.HandsFarFOV.Description  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
+Settings.VideoCaptureSettings  
+Settings.VideoCaptureSettings.VideoBitrateMbps  
+Settings.VideoCaptureSettings.VideoBitrateMbps.Description  
+Settings.VideoCaptureSettings.AudioBitrateKbps  
+Settings.VideoCaptureSettings.AudioBitrateKbps.Description  
 Settings.VideoStreamingServicesSettings.PreferredResolution  
 Settings.VideoStreamingServicesSettings.PreferredResolution.Description  
 Settings.RendererDecouplingSettings  

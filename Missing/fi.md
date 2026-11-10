@@ -5,6 +5,8 @@ Note that this file updates only during build processes and doesn't necessarily 
 Interaction.Grabbing  
 Interaction.Grab.StickyGrab  
 Interaction.Grab.HoldToHold  
+Interaction.SaveAsVideo  
+Interaction.ExportVideo  
 World.Connection.LNL.LNLPoke  
 World.Actions.GuestWarning  
 Tools.StreamVideo  
@@ -143,6 +145,8 @@ Settings.DesktopViewSettings.Opacity.Description
 Settings.DesktopViewSettings.HideMenuButtonInVR  
 Settings.DesktopViewSettings.HideMenuButtonInVR.Description  
 Settings.PhotoCaptureSettings.FingerGestureEnabled.Description  
+Settings.PhotoCaptureSettings.VideoRecording  
+Settings.PhotoCaptureSettings.VideoRecording.Description  
 Settings.PhotoCaptureSettings.NormalCaptureResolution.Description  
 Settings.PhotoCaptureSettings.TimerCaptureResolution.Description  
 Settings.PhotoCaptureSettings.TimerSeconds.Description  
@@ -157,6 +161,11 @@ Settings.PhotoCaptureSettings.OpenAutosavePath.Description
 Settings.PhotoCaptureSettings.CapturePrivateUI.Description  
 Settings.PhotoCaptureSettings.EncodeFormat.Description  
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
+Settings.VideoCaptureSettings  
+Settings.VideoCaptureSettings.VideoBitrateMbps  
+Settings.VideoCaptureSettings.VideoBitrateMbps.Description  
+Settings.VideoCaptureSettings.AudioBitrateKbps  
+Settings.VideoCaptureSettings.AudioBitrateKbps.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom  

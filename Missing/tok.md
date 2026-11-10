@@ -6,6 +6,8 @@ Locomotion.GrabWorld.Description
 Locomotion.Slide.Name  
 Locomotion.Slide.Description  
 Interaction.ExportScreenshot  
+Interaction.SaveAsVideo  
+Interaction.ExportVideo  
 World.Connection.LNL.DirectIP  
 World.Connection.LNL.LNLPoke  
 World.Connection.LNL.NATPunchthrough  
@@ -795,6 +797,8 @@ Settings.DesktopViewSettings.Opacity.Description
 Settings.DesktopViewSettings.HideMenuButtonInVR  
 Settings.DesktopViewSettings.HideMenuButtonInVR.Description  
 Settings.PhotoCaptureSettings.FingerGestureEnabled.Description  
+Settings.PhotoCaptureSettings.VideoRecording  
+Settings.PhotoCaptureSettings.VideoRecording.Description  
 Settings.PhotoCaptureSettings.NormalCaptureResolution  
 Settings.PhotoCaptureSettings.NormalCaptureResolution.Description  
 Settings.PhotoCaptureSettings.TimerCaptureResolution  
@@ -811,6 +815,11 @@ Settings.PhotoCaptureSettings.PhotoAutosavePath
 Settings.PhotoCaptureSettings.PhotoAutosavePath.Description  
 Settings.PhotoCaptureSettings.OpenAutosavePath  
 Settings.PhotoCaptureSettings.OpenAutosavePath.Description  
+Settings.VideoCaptureSettings  
+Settings.VideoCaptureSettings.VideoBitrateMbps  
+Settings.VideoCaptureSettings.VideoBitrateMbps.Description  
+Settings.VideoCaptureSettings.AudioBitrateKbps  
+Settings.VideoCaptureSettings.AudioBitrateKbps.Description  
 Settings.DesktopRenderSettings.VSync  
 Settings.DesktopRenderSettings.VSync.Description  
 Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused  

@@ -8,6 +8,8 @@ Interaction.SaveToInventory.NoWritePermission
 Interaction.Grabbing  
 Interaction.Grab.StickyGrab  
 Interaction.Grab.HoldToHold  
+Interaction.SaveAsVideo  
+Interaction.ExportVideo  
 Interaction.CopyImage  
 Inventory.Favorite.Document  
 Dash.Screens.Help  
@@ -725,6 +727,8 @@ Settings.DesktopViewSettings.HideMenuButtonInVR
 Settings.DesktopViewSettings.HideMenuButtonInVR.Description  
 Settings.PhotoCaptureSettings.FingerGestureEnabled  
 Settings.PhotoCaptureSettings.FingerGestureEnabled.Description  
+Settings.PhotoCaptureSettings.VideoRecording  
+Settings.PhotoCaptureSettings.VideoRecording.Description  
 Settings.PhotoCaptureSettings.NormalCaptureResolution  
 Settings.PhotoCaptureSettings.NormalCaptureResolution.Description  
 Settings.PhotoCaptureSettings.TimerCaptureResolution  
@@ -751,6 +755,11 @@ Settings.PhotoCaptureSettings.AlwaysHideNameplates
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
+Settings.VideoCaptureSettings  
+Settings.VideoCaptureSettings.VideoBitrateMbps  
+Settings.VideoCaptureSettings.VideoBitrateMbps.Description  
+Settings.VideoCaptureSettings.AudioBitrateKbps  
+Settings.VideoCaptureSettings.AudioBitrateKbps.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom  

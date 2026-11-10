@@ -19,6 +19,8 @@ Interaction.NamedEquipTool
 Interaction.EnterAnchor  
 Interaction.ExitAnchor  
 Interaction.EquipAvatar  
+Interaction.SaveAsVideo  
+Interaction.ExportVideo  
 Inventory.Equip  
 Inventory.SaveHeld  
 Inventory.GetURL  
@@ -1010,6 +1012,8 @@ Settings.DesktopViewSettings.HideMenuButtonInVR
 Settings.DesktopViewSettings.HideMenuButtonInVR.Description  
 Settings.PhotoCaptureSettings.FingerGestureEnabled  
 Settings.PhotoCaptureSettings.FingerGestureEnabled.Description  
+Settings.PhotoCaptureSettings.VideoRecording  
+Settings.PhotoCaptureSettings.VideoRecording.Description  
 Settings.PhotoCaptureSettings.NormalCaptureResolution  
 Settings.PhotoCaptureSettings.NormalCaptureResolution.Description  
 Settings.PhotoCaptureSettings.TimerCaptureResolution  
@@ -1036,6 +1040,11 @@ Settings.PhotoCaptureSettings.AlwaysHideNameplates
 Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos  
 Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description  
+Settings.VideoCaptureSettings  
+Settings.VideoCaptureSettings.VideoBitrateMbps  
+Settings.VideoCaptureSettings.VideoBitrateMbps.Description  
+Settings.VideoCaptureSettings.AudioBitrateKbps  
+Settings.VideoCaptureSettings.AudioBitrateKbps.Description  
 Settings.DesktopRenderSettings.FieldOfView  
 Settings.DesktopRenderSettings.FieldOfView.Description  
 Settings.DesktopRenderSettings.SprintFieldOfViewZoom  
