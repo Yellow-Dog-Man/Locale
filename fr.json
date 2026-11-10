@@ -123,6 +123,8 @@
 
         "Interaction.SaveAsScreenshot": "Sauvegarder en tant que capture d'écran",
         "Interaction.ExportScreenshot": "Exporter en tant que capture d'écran",
+        "Interaction.SaveAsVideo": "Sauvegarder en tant que vidéo",
+        "Interaction.ExportVideo": "Exporter en tant que vidéo",
         "Interaction.ImportFile": "Importer le fichier",
         "Interaction.ExportFile": "Exporter le fichier",
         "Interaction.CopyLink": "Copier le lien",
@@ -1961,6 +1963,8 @@
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Geste de photo avec les doigts",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "Quand activé, vous pouvez prendre une photo rapidement dans un monde en faisant un geste de photo avec les doigts, puis en repliant un index.",
+        "Settings.PhotoCaptureSettings.VideoRecording": "Capture vidéo<sup><color=hero.red>BETA",
+        "Settings.PhotoCaptureSettings.VideoRecording.Description": "Si activé, quand vous maintiendrez brièvement le geste de photo avec retardateur, un enregistrement vidéo sera démarré à la place. Cette fonctionalité est actuellement en beta et pourrait se comporter incorrectement. Si c’est le cas, merci de faire un rapport d’erreur sur GitHub !",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "Résolution des photos",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "Définit la résolution des photos prises normalement avec le geste ou avec le raccourci de clavier en mode bureau. Une résolution plus haute prendra plus de temps et d'espace, mais donnera plus de détail.",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution": "Résolution des photos avec retardateur",
@@ -1987,6 +1991,12 @@
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Activez cette option pour toujours cacher les noms dans les photos. Ce paramètre est indépendant de l'option de visibilité des noms et assure qu'ils seront toujours cachés dans les photos.",
         "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "Toujours cacher les gizmos",
         "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "Activez cette option pour toujours cacher les gizmos de développement dans les photos. Cela peut vous aider à prendre des photos plus propres même si quelqu’un est en train de travailler. Les Inspecteurs et le ProtoFlux resteront visibles.",
+
+        "Settings.VideoCaptureSettings": "Capture vidéo",
+        "Settings.VideoCaptureSettings.VideoBitrateMbps": "Bitrate Vidéo Mbps",
+        "Settings.VideoCaptureSettings.VideoBitrateMbps.Description": "Bitrate utilisé pour l’encodage des vidéos enregistrées. Un bitrate plus haut résultera en une meilleure qualité visuelle, mais aussi en des fichiers plus volumineux.",
+        "Settings.VideoCaptureSettings.AudioBitrateKbps": "Bitrate Audio Kbps",
+        "Settings.VideoCaptureSettings.AudioBitrateKbps.Description": "Bitrate utilisé pour l’encodage des pistes audio des vidéos enregistrées. Un bitrate plus haut résultera en une meilleure qualité auditive, mais aussi en des fichiers légèrement plus volumineux.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Champ de vision",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Définit le champ de vision en mode bureau. Des valeurs plus grandes entraînera une vue plus large au coût de distortions sur les côtés de l'écran.",
@@ -2652,7 +2662,7 @@
         "VolumePlaneSlicer.Slicer": "Trancher",
 
         "Tutorial.Welcome.Welcome": "Bienvenue !",
-        "Tutorial.Welcome.Description": "Plongez dans un nouvel univers digital avec des possibilités infinies. Que vous veniez ici pour socialiser avec des gens du monde entier ou créer des mondes, objets, avatars et bien plus, {appName} est un espace personnalisable sans limites où vous serez le⸱a bienvenu⸱e et trouverez un groupe avec qui résonner, qui que vous soyez.<br><br>Avant de commencer, il faut mettre en place quelques essentiels pour que l’expérience soit la meilleure possible. Quant vous êtes prêt⸱e, cliquez le bouton ci-dessous.",
+        "Tutorial.Welcome.Description": "Plongez dans un nouvel univers numérique avec des possibilités infinies. Que vous veniez ici pour socialiser avec des gens du monde entier ou créer des mondes, objets, avatars et bien plus, {appName} est un espace personnalisable sans limites où vous serez le⸱a bienvenu⸱e et trouverez un groupe avec qui résonner, qui que vous soyez.<br><br>Avant de commencer, il faut mettre en place quelques essentiels pour que l’expérience soit la meilleure possible. Quant vous êtes prêt⸱e, cliquez le bouton ci-dessous.",
         "Tutorial.Welcome.Begin": "Commençons !",
 
         "Tutorial.Welcome.AccountHeader": "Compte {appName}",
@@ -3437,7 +3447,7 @@
 
         "Help.GettingStarted.BuildingBasics": "Création",
         "Help.GettingStarted.BuildingBasics.BuildingInPlatform": "Créer dans {appName}",
-        "Help.GettingStarted.BuildingBasics.BuildingInPlatform.Content": "{appName} vous offre la liberté et les outils pour exprimer votre créativité et créer tout ce que vous pouvez imaginer - que ce soit des objets, des mondes, ou des avatars - et tout cela de façon collaborative entièrement dans {appName}. Un panel d’outil est à votre disposition pour vous aider dans votre création, en allant des pinceaux pour dessiner et peindre, aux outils avancés pour modifier tous les aspects d’un monde, en passant par des outils personnalisés sur-mesure pour vos besoins et votre processus de création.",
+        "Help.GettingStarted.BuildingBasics.BuildingInPlatform.Content": "{appName} vous offre la liberté et les outils pour exprimer votre créativité et créer tout ce que vous pouvez imaginer - que ce soit des objets, des mondes, ou des avatars - et tout cela de façon collaborative entièrement dans {appName}. Un panel d’outil est à votre disposition pour vous aider dans votre création, allant des pinceaux pour dessiner et peindre, aux outils avancés pour modifier tous les aspects d’un monde, en passant par des outils personnalisés sur-mesure pour vos besoins et votre processus de création.",
         "Help.GettingStarted.BuildingBasics.PlatformEssentials": "{appName} Essentials",
         "Help.GettingStarted.BuildingBasics.PlatformEssentials.Content": "Un excellent endroit pour bien commencer votre création est le dossier <b><color=hero.yellow>{appName} Essentials</closeall>. Celui-ci est mis à disposition par défaut dans votre <sprite name=InventoryIcon> <b><color=hero.yellow>Inventaire</closeall> et contient un grand nombre d’objets et d’outils pour bien démarrer votre travail.<br><br>Pour accéder à ce dossier, faites un <b><color=hero.purple>double clic</closeall>{is_desktop, select, True {} other { avec <b><color=hero.purple>{Primary_Input}</closeall>}} sur le dossier pour l’ouvrir. Au-dessus de la grille d’objets et de dossiers, vous trouverez un fil d’Ariane décrivant l’arborescence des dossiers dans lesquels vous vous trouvez - similaire à la barre d’adresse d’un navigateur de fichiers. Pour faire apparaître un objet depuis votre inventaire, faites un <b><color=hero.purple>double clic</closeall> sur l’objet.<br><br>Un des avantages du dossier <b><color=hero.yellow>{appName} Essentials</color></b> est qu’il ne compte pas dans votre utilisation de stockage cloud ! C’est parce que c’est un lien vers un dossier fourni par {appName}, et non pas un dossier vous appartenant - c’est la raison pour laquelle le dossier est <b><color=hero.cyan>bleu</closeall> plutôt que <b><color=hero.yellow>jaune</closeall>.",
         "Help.GettingStarted.BuildingBasics.InventoryFolders": "Dossiers",
@@ -3875,7 +3885,7 @@
 
         "Help.About": "À propos",
         "Help.About.Platform": "{appName}",
-        "Help.About.Platform.Content": "Un univers numérique novateur au potentiel illimité.<br><br>Que vous résonniez avec des gens autour du monde lors de conversations amicales, que vous jouiez à des jeux pour sociabiliser, ou que vous vous inspiriez mutuellement en donnant vie ensemble à vos créations, en allant de magnifiques œuvres d’art à la programmation de jeux complexes, vous trouverez forcément votre place ici !",
+        "Help.About.Platform.Content": "Un univers numérique novateur au potentiel illimité.<br><br>Que vous résonniez avec des gens autour du monde lors de conversations amicales, que vous jouiez à des jeux pour sociabiliser, ou que vous vous inspiriez mutuellement en donnant vie ensemble à vos créations, allant de magnifiques œuvres d’art à la programmation de jeux complexes, vous trouverez forcément votre place ici !",
         "Help.About.Platform.PlatformLink": "Site web de {appName}",
         "Help.About.ThePlatformTeam": "L’équipe {appName}",
 
