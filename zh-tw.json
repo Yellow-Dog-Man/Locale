@@ -112,6 +112,8 @@
 
         "Interaction.SaveAsScreenshot": "另存為螢幕截圖",
         "Interaction.ExportScreenshot": "匯出螢幕截圖",
+        "Interaction.SaveAsVideo": "另存為影片",
+        "Interaction.ExportVideo": "匯出影片",
         "Interaction.ImportFile": "匯入檔案",
         "Interaction.ExportFile": "匯出檔案",
         "Interaction.CopyLink": "複製連結",
@@ -1950,6 +1952,8 @@
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "使用手指拍照手勢",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "開啟該功能後，您只需將手指擺成相框的形狀，然後蜷曲食指，就能在世界中快速拍照",
+        "Settings.PhotoCaptureSettings.VideoRecording": "動態攝影<sup><color=hero.red>BETA",
+        "Settings.PhotoCaptureSettings.VideoRecording.Description": "開啟後，按住定時器拍照手勢時，會轉為動態攝影。本功能仍在測試階段，且可能不能正常運作。若碰上任何問題請在 GitHub 上回報。",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "照片解析度",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "這將設定手指手勢或桌面快捷鍵擷取的普通照片解析度。更高的解析度需要更多的時間和儲存空間處理，但能提供更多的細節。",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution": "定時拍照解析度",
@@ -1976,6 +1980,12 @@
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "如果您拍攝的照片中不要出現名牌，請開啟此選項。此設定獨立於名牌顯示狀態，並始終在拍攝的照片中保持隱藏。",
         "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "保持隱藏 Gizmo",
         "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "如果您拍攝的照片中不要出現編輯物件時出現的 Gizmo，請開啟此選項。本選項可用於在其他人進行物件編輯時拍攝乾淨的照片。檢視器視窗與 ProtoFlux 不受此選項影響。",
+
+        "Settings.VideoCaptureSettings": "動態攝影設定",
+        "Settings.VideoCaptureSettings.VideoBitrateMbps": "影片位元率 (Mbps)",
+        "Settings.VideoCaptureSettings.VideoBitrateMbps.Description": "動態攝影時影片編碼的位元率，越高影像品質越好，但檔案大小也會增加。",
+        "Settings.VideoCaptureSettings.AudioBitrateKbps": "音效位元率 (Kbps)",
+        "Settings.VideoCaptureSettings.AudioBitrateKbps.Description": "動態攝影時音軌編碼的位元率，越高聲音品質越好，但檔案大小也會些微增加。",
 
         "Settings.DesktopRenderSettings.FieldOfView": "視角 (FOV)",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "在桌面模式下，用此控制視角 (FOV)。 數值愈大，視野愈寬闊，但畫面兩側變形愈大。",
