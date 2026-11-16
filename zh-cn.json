@@ -112,6 +112,8 @@
 
         "Interaction.SaveAsScreenshot": "另存为屏幕截图",
         "Interaction.ExportScreenshot": "导出截图",
+        "Interaction.SaveAsVideo": "另存为视频",
+        "Interaction.ExportVideo": "导出视频",
         "Interaction.ImportFile": "导入文件",
         "Interaction.ExportFile": "导出文件",
         "Interaction.CopyLink": "拷贝链接",
@@ -1950,6 +1952,8 @@
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "使用手指拍照手势",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "启用该功能后, 您只需将手指摆成相框的形状, 然后卷曲食指, 就能在世界中快速拍照。",
+        "Settings.PhotoCaptureSettings.VideoRecording": "视频录制<sup><color=hero.red>BETA",
+        "Settings.PhotoCaptureSettings.VideoRecording.Description": "启用后，短暂按住定时拍照手势即可开始录制视频。该功能目前处于测试阶段，可能无法正常运行。请在 GitHub 上反馈问题！",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "照片分辨率",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "这将设置手指手势或桌面快捷键捕获的普通照片的分辨率。更高的分辨率需要更多的时间和存储空间来处理, 但能提供更好的细节。",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution": "定时照片分辨率",
@@ -1977,6 +1981,12 @@
         "Settings.PhotoCaptureSettings.AlwaysHideGizmos": "总是隐藏 Gizmos",
         "Settings.PhotoCaptureSettings.AlwaysHideGizmos.Description": "开启此选项可以在照片中隐藏任何开发者辅助图形（ Gizmos ）。这有助于在有人正在编辑物品时, 依然能够拍出干净的照片。检查器和 ProtoFlux 仍会保持可见。",
 
+        "Settings.VideoCaptureSettings": "视频录制设置",
+        "Settings.VideoCaptureSettings.VideoBitrateMbps": "视频码率 (Mbps)",
+        "Settings.VideoCaptureSettings.VideoBitrateMbps.Description": "录制时用于编码视频的码率。较高的码率会带来更好的画质，但文件体积也会更大。",
+        "Settings.VideoCaptureSettings.AudioBitrateKbps": "音频码率 (Kbps)",
+        "Settings.VideoCaptureSettings.AudioBitrateKbps.Description": "录制视频时用于编码音轨的码率。较高的码率会带来更好的音质，但文件体积也会略微增大。",
+        
         "Settings.DesktopRenderSettings.FieldOfView": "视场",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "在桌面模式下, 用它来控制视场（ FOV ）。 数值越大, 视野越开阔, 但两侧的失真也越大。",
 
