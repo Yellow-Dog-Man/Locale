@@ -2016,6 +2016,8 @@
         "Settings.VideoCaptureSettings.AudioBitrateKbps.Description": "Bitrate used to encode audio track for video recording. Higher bitrate will result in better audio quality, but slightly increase file size.",
         "Settings.VideoCaptureSettings.UseHardwareEncoding": "Use Hardware Encoding",
         "Settings.VideoCaptureSettings.UseHardwareEncoding.Description": "When enabled a hardware video encoder will be used for encoding video if available, resulting in potentially better performance.<br><br>Turning this off will always use software encoder.<br><br>Turn this off if you have issues with hardware encoder or if you prefer quality of software encoder.",
+        "Settings.VideoCaptureSettings.UseExtraIOBuffering": "Use Extra IO buffering",
+        "Settings.VideoCaptureSettings.UseExtraIOBuffering.Description": "When enabled, video recording will always use extra buffering for IO operations. If you're experiencing stuttery recorded videos, try turning this option on.<br><br>Note: When output file is detected to be on HDD instead of SSD, this option is used automatically.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Field of view",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Use this to control the field of view (FOV) when in desktop mode. Larger values will give you wider view at the cost of greater distortion on the sides.",
