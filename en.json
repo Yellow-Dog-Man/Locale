@@ -1976,6 +1976,10 @@
 
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Finger photo gesture",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "When enabled, you can quickly take pictures in world by posing your fingers to make a picture frame and then curling one of your index fingers.",
+        "Settings.PhotoCaptureSettings.SpawnPhotos": "Spawn Photos",
+        "Settings.PhotoCaptureSettings.SpawnPhotos.Description": "When enabled, any captured photos will automatically spawn in the world if you have permission to do so.<br><br>Turn this off if you want to prevent photos from spawning. They will still be automatically saved and exported to your documents.",
+        "Settings.PhotoCaptureSettings.SpawnVideos": "Spawn Videos",
+        "Settings.PhotoCaptureSettings.SpawnVideos.Description": "When enabled, any captured videos will automatically spawn in the world if you have permission to do so.<br><br>Turn this off if you want to prevent videos from spawning. They will still be automatically saved and exported to your documents.",
         "Settings.PhotoCaptureSettings.VideoRecording": "Record Video<sup><color=hero.red>BETA",
         "Settings.PhotoCaptureSettings.VideoRecording.Description": "When enabled, holding the timer photo gesture briefly will start recording video instead. Feature is currently in beta and might not work correctly. Please report issues on GitHub!",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "Photo resolution",
@@ -2010,6 +2014,8 @@
         "Settings.VideoCaptureSettings.VideoBitrateMbps.Description": "Bitrate used to encode video for recording. Higher bitrate will result in better image quality, but also bigger files.",
         "Settings.VideoCaptureSettings.AudioBitrateKbps": "Audio Bitrate Kbps",
         "Settings.VideoCaptureSettings.AudioBitrateKbps.Description": "Bitrate used to encode audio track for video recording. Higher bitrate will result in better audio quality, but slightly increase file size.",
+        "Settings.VideoCaptureSettings.UseHardwareEncoding": "Use Hardware Encoding",
+        "Settings.VideoCaptureSettings.UseHardwareEncoding.Description": "When enabled a hardware video encoder will be used for encoding video if available, resulting in potentially better performance.<br><br>Turning this off will always use software encoder.<br><br>Turn this off if you have issues with hardware encoder or if you prefer quality of software encoder.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Field of view",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Use this to control the field of view (FOV) when in desktop mode. Larger values will give you wider view at the cost of greater distortion on the sides.",
