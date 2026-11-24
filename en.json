@@ -1455,7 +1455,7 @@
         "Settings.NamePlateSettings": "Nameplates",
         "Settings.LaserSettings": "Interaction Lasers",
         "Settings.DesktopViewSettings": "Desktop View",
-        "Settings.PhotoCaptureSettings": "Quick Photo Capture",
+        "Settings.PhotoCaptureSettings": "Quick Media Capture",
 
         "Settings.DesktopRenderSettings": "Desktop Render Settings",
 
@@ -1974,10 +1974,17 @@
         "Settings.DesktopViewSettings.HideMenuButtonInVR": "Hide menu button in VR",
         "Settings.DesktopViewSettings.HideMenuButtonInVR.Description": "Will hide the hamburger menu button on desktop tab while in VR mode. You can open the menu by pointing at the screen and pressing context menu.",
 
-        "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Finger photo gesture",
+        "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Finger photo/video gesture",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "When enabled, you can quickly take pictures in world by posing your fingers to make a picture frame and then curling one of your index fingers.",
+        "Settings.PhotoCaptureSettings.SpawnPhotos": "Spawn Photos",
+        "Settings.PhotoCaptureSettings.SpawnPhotos.Description": "When enabled, any captured photos will automatically spawn in the world if you have permission to do so.<br><br>Turn this off if you want to prevent photos from spawning. They will still be automatically saved and exported to your documents.",
+        "Settings.PhotoCaptureSettings.SpawnVideos": "Spawn Videos",
+        "Settings.PhotoCaptureSettings.SpawnVideos.Description": "When enabled, any captured videos will automatically spawn in the world if you have permission to do so.<br><br>Turn this off if you want to prevent videos from spawning. They will still be automatically saved and exported to your documents.",
         "Settings.PhotoCaptureSettings.VideoRecording": "Record Video<sup><color=hero.red>BETA",
         "Settings.PhotoCaptureSettings.VideoRecording.Description": "When enabled, holding the timer photo gesture briefly will start recording video instead. Feature is currently in beta and might not work correctly. Please report issues on GitHub!",
+        "Settings.PhotoCaptureSettings.VideoRecordingStabilization": "Video stabilization",
+        "Settings.PhotoCaptureSettings.VideoRecordingStabilization.Description": "Use this to apply stabilization (smoothing) to the capture gesture and FOV. Higher values will apply more smoothing, but will be slow to react to your movements.",
+
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "Photo resolution",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution.Description": "This sets what resolution normal photos captured by the finger gesture or the desktop key shortcut will be. Higher resolutions will take more time and storage to process, but give better detail.",
         "Settings.PhotoCaptureSettings.TimerCaptureResolution": "Timed photo resolution",
@@ -2010,6 +2017,10 @@
         "Settings.VideoCaptureSettings.VideoBitrateMbps.Description": "Bitrate used to encode video for recording. Higher bitrate will result in better image quality, but also bigger files.",
         "Settings.VideoCaptureSettings.AudioBitrateKbps": "Audio Bitrate Kbps",
         "Settings.VideoCaptureSettings.AudioBitrateKbps.Description": "Bitrate used to encode audio track for video recording. Higher bitrate will result in better audio quality, but slightly increase file size.",
+        "Settings.VideoCaptureSettings.UseHardwareEncoding": "Use Hardware Encoding",
+        "Settings.VideoCaptureSettings.UseHardwareEncoding.Description": "When enabled a hardware video encoder will be used for encoding video if available, resulting in potentially better performance.<br><br>Turning this off will always use software encoder.<br><br>Turn this off if you have issues with hardware encoder or if you prefer quality of software encoder.",
+        "Settings.VideoCaptureSettings.UseExtraIOBuffering": "Use Extra IO buffering",
+        "Settings.VideoCaptureSettings.UseExtraIOBuffering.Description": "When enabled, video recording will always use extra buffering for IO operations. If you're experiencing stuttery recorded videos, try turning this option on.<br><br>Note: When output file is detected to be on HDD instead of SSD, this option is used automatically.",
 
         "Settings.DesktopRenderSettings.FieldOfView": "Field of view",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Use this to control the field of view (FOV) when in desktop mode. Larger values will give you wider view at the cost of greater distortion on the sides.",
