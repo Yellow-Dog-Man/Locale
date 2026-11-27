@@ -1306,6 +1306,7 @@
         "CameraControl.Mode.World": "World",
         "CameraControl.Mode.Manual": "Manual",
 
+        "CameraControl.Settings.Vertical": "Vertical",
         "CameraControl.Settings.AvoidOcclusion": "Avoid Occlusion",
         "CameraControl.Settings.KeepInWorldspace": "Keep In Worldspace",
         "CameraControl.Settings.MovementWobble": "Movement Wobble",
@@ -2017,6 +2018,8 @@
         "Settings.VideoCaptureSettings.VideoBitrateMbps.Description": "Bitrate used to encode video for recording. Higher bitrate will result in better image quality, but also bigger files.",
         "Settings.VideoCaptureSettings.AudioBitrateKbps": "Audio Bitrate Kbps",
         "Settings.VideoCaptureSettings.AudioBitrateKbps.Description": "Bitrate used to encode audio track for video recording. Higher bitrate will result in better audio quality, but slightly increase file size.",
+        "Settings.VideoCaptureSettings.Resolution": "Resolution",
+        "Settings.VideoCaptureSettings.Resolution.Description": "What resolution to capture videos at. This also controls the streaming camera preview resolution.<br><br><color=hero.red>CAUTION:</color> Resolutions above 1080p might currently be too taxing. Use with caution.",
         "Settings.VideoCaptureSettings.UseHardwareEncoding": "Use Hardware Encoding",
         "Settings.VideoCaptureSettings.UseHardwareEncoding.Description": "When enabled a hardware video encoder will be used for encoding video if available, resulting in potentially better performance.<br><br>Turning this off will always use software encoder.<br><br>Turn this off if you have issues with hardware encoder or if you prefer quality of software encoder.",
         "Settings.VideoCaptureSettings.UseExtraIOBuffering": "Use Extra IO buffering",
